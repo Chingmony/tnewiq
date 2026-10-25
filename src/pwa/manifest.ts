@@ -1,7 +1,8 @@
 import type { ManifestOptions } from 'vite-plugin-pwa'
 
-// Colours and icons are placeholders until the visual direction is approved.
-export const PLACEHOLDER_THEME_COLOR = '#ffffff'
+// Brand colours from the approved palette.
+export const THEME_COLOR = '#FF933E'
+export const BACKGROUND_COLOR = '#FFFBF3'
 
 export function createManifest(base: string): Partial<ManifestOptions> {
   return {
@@ -15,8 +16,8 @@ export function createManifest(base: string): Partial<ManifestOptions> {
     scope: base,
     display: 'standalone',
     orientation: 'any',
-    background_color: PLACEHOLDER_THEME_COLOR,
-    theme_color: PLACEHOLDER_THEME_COLOR,
+    background_color: BACKGROUND_COLOR,
+    theme_color: THEME_COLOR,
     categories: ['news', 'productivity'],
     icons: [
       { src: 'pwa-64x64.png', sizes: '64x64', type: 'image/png' },

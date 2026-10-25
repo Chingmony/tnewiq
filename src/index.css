@@ -1,31 +1,157 @@
 @import 'tailwindcss';
+@import '@fontsource-variable/bricolage-grotesque/wght.css';
+@import '@fontsource-variable/figtree/wght.css';
+@import '@fontsource-variable/kantumruy-pro/wght.css';
 
 /*
- * TEMPORARY placeholder styles so the unstyled shell stays usable for testing.
- * No colours, fonts or layout decisions here: they wait for the approved design direction.
+ * TNewIQ design tokens.
+ * Palette (user-supplied): Orange #FF933E · Sun #FFCB56 · Cream #FFE9A9 · Sky #73A5CA.
+ * Orange and Sky are too light for small text on white, so *-ink variants carry text and links;
+ * the original swatches are used as fills with dark ink on top.
  */
+:root {
+  --bg: #fffbf3;
+  --surface: #ffffff;
+  --surface-2: #fff4d6;
+  --ink: #1f1a14;
+  --muted: #6b6158;
+  --line: #f0e3c8;
+  --orange: #ff933e;
+  --orange-ink: #b4530c;
+  --orange-soft: #ffe4cc;
+  --sun: #ffcb56;
+  --sun-soft: #fff1c9;
+  --cream: #ffe9a9;
+  --sky: #73a5ca;
+  --sky-ink: #2c6690;
+  --sky-soft: #dcebf5;
+  --on-accent: #1f1a14;
+  --shadow: 0 1px 2px rgb(76 50 20 / 0.06), 0 8px 24px -12px rgb(76 50 20 / 0.18);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #15120f;
+    --surface: #1e1a16;
+    --surface-2: #2a231b;
+    --ink: #f6efe4;
+    --muted: #b3a797;
+    --line: #352d24;
+    --orange-ink: #ffa45c;
+    --orange-soft: #3a2616;
+    --sun-soft: #352b14;
+    --sky-ink: #9cc3e0;
+    --sky-soft: #1c2a35;
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px -12px rgb(0 0 0 / 0.6);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --bg: #15120f;
+  --surface: #1e1a16;
+  --surface-2: #2a231b;
+  --ink: #f6efe4;
+  --muted: #b3a797;
+  --line: #352d24;
+  --orange-ink: #ffa45c;
+  --orange-soft: #3a2616;
+  --sun-soft: #352b14;
+  --sky-ink: #9cc3e0;
+  --sky-soft: #1c2a35;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px -12px rgb(0 0 0 / 0.6);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-orange: var(--orange);
+  --color-orange-ink: var(--orange-ink);
+  --color-orange-soft: var(--orange-soft);
+  --color-sun: var(--sun);
+  --color-sun-soft: var(--sun-soft);
+  --color-cream: var(--cream);
+  --color-sky: var(--sky);
+  --color-sky-ink: var(--sky-ink);
+  --color-sky-soft: var(--sky-soft);
+  --color-on-accent: var(--on-accent);
+  --shadow-card: var(--shadow);
+
+  /* Latin faces first; each script then falls through to a face that covers it. */
+  --font-display: 'Bricolage Grotesque Variable', 'Figtree Variable', 'Kantumruy Pro Variable', 'PingFang SC', 'Microsoft YaHei',
+    'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans CJK SC', system-ui, sans-serif;
+  --font-sans: 'Figtree Variable', 'Kantumruy Pro Variable', 'PingFang SC', 'Microsoft YaHei', 'Apple SD Gothic Neo', 'Malgun Gothic',
+    'Noto Sans CJK SC', system-ui, sans-serif;
+}
+
 @layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
   body {
-    font-family: system-ui, 'Khmer OS', 'Noto Sans Khmer', 'Noto Sans SC', 'Noto Sans KR', sans-serif;
-    line-height: 1.6;
-    max-width: 60rem;
-    margin-inline: auto;
-    padding-inline: max(1rem, env(safe-area-inset-left)) max(1rem, env(safe-area-inset-right));
-    padding-block: 1rem max(2rem, env(safe-area-inset-bottom));
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
   }
+  /* Korean text must not borrow Chinese glyph shapes, and vice versa. */
+  :lang(ko) {
+    font-family: 'Figtree Variable', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', system-ui, sans-serif;
+  }
+  :lang(zh-CN) {
+    font-family: 'Figtree Variable', 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', 'Noto Sans CJK SC', system-ui, sans-serif;
+  }
+  /* Khmer stacks vowels and subscript consonants vertically, so it needs extra line height. */
   :lang(km) {
-    line-height: 1.8;
+    line-height: 1.85;
   }
-  h1 { font-size: 1.75rem; font-weight: 700; }
-  h2 { font-size: 1.35rem; font-weight: 700; margin-top: 1.5rem; }
-  h3 { font-size: 1.1rem; font-weight: 600; }
-  a { text-decoration: underline; }
-  button, select, input { border: 1px solid; padding: 0.25rem 0.5rem; min-height: 2.75rem; }
-  nav ul, .actions, .controls { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; }
-  .feed { display: grid; gap: 1.5rem; margin-top: 1rem; }
-  .article { overflow-wrap: anywhere; }
-  .meta, .notice { font-size: 0.875rem; }
-  :focus-visible { outline: 2px solid; outline-offset: 2px; }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  :focus-visible {
+    outline: 2.5px solid var(--orange-ink);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  ::selection {
+    background: var(--cream);
+    color: #1f1a14;
+  }
+}
+
+@layer components {
+  .container-page {
+    width: 100%;
+    max-width: 72rem;
+    margin-inline: auto;
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+  }
+  .headline-link {
+    background-image: linear-gradient(var(--orange), var(--orange));
+    background-size: 0% 2px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.25s ease;
+  }
+  .headline-link:hover {
+    background-size: 100% 2px;
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .sr-only:not(:focus) {
@@ -35,4 +161,13 @@
   overflow: hidden;
   clip-path: inset(50%);
   white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
 }

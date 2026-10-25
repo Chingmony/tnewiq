@@ -64,19 +64,20 @@ describe('App', () => {
     renderApp()
     const enTitle = await screen.findByText('Fixture: Rust compiler release improves build times', { selector: 'a' })
     const enArticle = enTitle.closest('article')!
-    expect(within(enArticle).queryByText(/Translate page/)).toBeNull()
+    expect(within(enArticle).queryByRole('link', { name: /Translate page/ })).toBeNull()
     const koArticle = screen.getByText('쿠버네티스 신규 버전 출시', { selector: 'a' }).closest('article')!
-    expect(within(koArticle).getByText(/Translate page/).closest('a')!.getAttribute('href')).toContain('tl=en')
+    expect(within(koArticle).getByRole('link', { name: /Translate page/ }).getAttribute('href')).toContain('tl=en')
   })
 
   it('searches and filters by topic', async () => {
+    window.location.hash = 'latest'
     const user = userEvent.setup()
     renderApp()
     await screen.findAllByText('Read original')
     await user.type(screen.getByLabelText('Search technologies'), '芯片')
     expect(screen.getByText('1 results')).toBeInTheDocument()
     await user.clear(screen.getByLabelText('Search technologies'))
-    await user.selectOptions(screen.getByLabelText('Filter by topic'), 'cybersecurity')
+    await user.click(within(screen.getByRole('group', { name: 'Filter by topic' })).getByRole('button', { name: 'Cybersecurity' }))
     expect(screen.getByText('1 results')).toBeInTheDocument()
     await user.type(screen.getByLabelText('Search technologies'), 'nothing-matches-this')
     expect(screen.getByText(/No stories match your search/)).toBeInTheDocument()
@@ -106,5 +107,18 @@ describe('App', () => {
     )
     expect(await screen.findByRole('alert')).toHaveTextContent('Stories could not be loaded')
     expect(screen.getByRole('button', { name: 'Try again' })).toBeInTheDocument()
+  })
+})
+
+describe('Appearance', () => {
+  it('stores the theme choice and applies it to <html>', async () => {
+    window.location.hash = 'settings'
+    const user = userEvent.setup()
+    renderApp()
+    await user.click(await screen.findByLabelText('Dark'))
+    expect(document.documentElement.dataset.theme).toBe('dark')
+    expect(JSON.parse(localStorage.getItem('tnewiq.theme')!)).toBe('dark')
+    await user.click(screen.getByLabelText('Match device'))
+    expect(document.documentElement.dataset.theme).toBeUndefined()
   })
 })

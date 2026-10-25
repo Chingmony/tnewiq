@@ -107,3 +107,16 @@ describe('web app manifest', () => {
     expect(manifest.icons?.some((i) => i.purpose === 'maskable')).toBe(true)
   })
 })
+
+describe('Khmer date fallback', () => {
+  it('formats dates, weekdays and relative times in Khmer without Intl data', async () => {
+    const { khmerDate, khmerWeekday, khmerRelative } = await import('../../src/lib/format')
+    const d = new Date(2026, 9, 25, 14, 5)
+    expect(khmerDate(d)).toBe('ថ្ងៃទី25 ខែតុលា ឆ្នាំ2026')
+    expect(khmerWeekday(d)).toBe('ថ្ងៃអាទិត្យ')
+    expect(khmerRelative(-28 * 60_000)).toBe('28 នាទីមុន')
+    expect(khmerRelative(-3 * 3_600_000)).toBe('3 ម៉ោងមុន')
+    expect(khmerRelative(-30 * 3_600_000)).toBe('ម្សិលមិញ')
+    expect(khmerRelative(-10_000)).toBe('ឥឡូវនេះ')
+  })
+})

@@ -4,7 +4,7 @@
 
 A personal technology radar. It collects the latest headlines from public RSS and Atom feeds every hour and presents them in a multilingual, installable web app (PWA). It always shows the original headline, source, date and link.
 
-> **Status:** the data pipeline, tests and app logic work. The visual design is waiting for approval, so the interface is a plain, unstyled shell for now. See the design proposal: three directions (A Signal, B Edition, C Pocket), with B recommended.
+> **Design:** orange-led palette — Orange `#FF933E`, Sun `#FFCB56`, Cream `#FFE9A9`, Sky `#73A5CA` — with Bricolage Grotesque headings, Figtree body text and Kantumruy Pro for Khmer (all self-hosted). Light and dark themes; darker orange and sky tones are used for small text so it stays readable.
 
 - Interface languages: English, ខ្មែរ (Khmer), 简体中文 (Simplified Chinese), 한국어 (Korean)
 - Eight topics: Artificial Intelligence, Cybersecurity, Developer Tools, Programming Languages, Cloud & Infrastructure, Startups & Products, Research Papers, Mobile & Hardware
@@ -139,7 +139,8 @@ TNewIQ does not translate anything itself and never claims to.
 
 ## Known limitations
 
-- **Design pending:** the interface is unstyled until a design direction is approved. Fonts, colours and the app icon are placeholders.
+- Chinese and Korean text use the device's own fonts (PingFang, Microsoft YaHei, Apple SD Gothic Neo, Malgun Gothic, Noto) to keep downloads small.
+- Some browsers lack Khmer date data, so Khmer dates and relative times use a built-in fallback.
 - No verified Khmer-language technology feed yet.
 - The Khmer, Chinese and Korean interface text was written without a native-speaker review. Khmer in particular should be checked.
 - Some feeds omit dates (shown as "date not provided") or block automated requests at times (the Woowahan blog returned HTTP 403 on one run). A failing source keeps its earlier articles.
