@@ -5,8 +5,8 @@ import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 import { createManifest } from './src/pwa/manifest.ts'
 
-// GitHub Pages serves the project at /tnewiq/. Override with BASE_PATH for other hosts.
-const base = process.env.BASE_PATH ?? '/tnewiq/'
+// Vercel serves the site from the domain root; GitHub Pages would serve it at /tnewiq/. BASE_PATH overrides both.
+const base = process.env.BASE_PATH ?? (process.env.VERCEL ? '/' : '/tnewiq/')
 
 export default defineConfig({
   base,

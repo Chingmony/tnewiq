@@ -8,7 +8,7 @@ A personal technology radar. It collects the latest headlines from public RSS an
 
 - Interface languages: English, ខ្មែរ (Khmer), 简体中文 (Simplified Chinese), 한국어 (Korean)
 - Eight topics: Artificial Intelligence, Cybersecurity, Developer Tools, Programming Languages, Cloud & Infrastructure, Startups & Products, Research Papers, Mobile & Hardware
-- Cost: $0. Static hosting on GitHub Pages, scheduled collection on GitHub Actions, bookmarks and settings in the browser. No database, no paid APIs, no AI services.
+- Cost: $0. Static hosting on Vercel (Hobby), scheduled collection on GitHub Actions, bookmarks and settings in the browser. No database, no paid APIs, no AI services.
 
 ## How it works
 
@@ -20,7 +20,7 @@ sources/sources.json ──► scripts/ingest (GitHub Actions, hourly)
                                   public/data/articles.json  (committed only when it changes)
                                                 │
                                                 ▼
-                         Vite build ──► GitHub Pages ──► React PWA (service worker caches data)
+                         Vite build ──► Vercel ──────► React PWA (service worker caches data)
 ```
 
 | Path | What it does |
@@ -80,7 +80,7 @@ Requires Node 22 or later.
 ```bash
 npm install
 npm run ingest      # fetch real feeds into public/data
-npm run dev         # http://localhost:5173/tnewiq/
+npm run dev         # http://localhost:5173/tnewiq/  (the site root on Vercel)
 npm run check       # lint + typecheck + tests + build
 ```
 
@@ -95,26 +95,32 @@ Set `BASE_PATH=/` when building for a host that serves from the domain root. No 
 
 Test fixtures live in `tests/fixtures` and `tests/app/fixtures.ts`, are clearly marked as not real, and are never part of the production build.
 
-## Deployment (GitHub Pages)
+## Deployment (Vercel)
 
-The code lives at `https://github.com/Chingmony/tnewiq` (public) and the site will be served at `https://chingmony.github.io/tnewiq/`.
+The code lives at `https://github.com/Chingmony/tnewiq` (public) and is deployed on Vercel's free Hobby plan, which is for personal, non-commercial projects.
 
-1. Keep the repository **public**: free GitHub Pages and unlimited Actions minutes depend on it.
-2. Make sure `main` is the default branch (**Settings → General → Default branch**). The workflows run on `main`.
-3. In the repository, open **Settings → Pages** and set **Source** to **GitHub Actions**.
-4. Open **Settings → Actions → General → Workflow permissions** and choose **Read and write permissions**, so the collector can commit data.
-5. Run **Actions → Ingest → Run workflow** once to test it.
+**One-time setup**
 
-Workflows:
+1. In Vercel, choose **Add New → Project** and import `Chingmony/tnewiq` from GitHub. If it is not listed, allow the Vercel GitHub app to access the repository.
+2. Leave the detected settings as they are (framework Vite, build `npm run build`, output `dist`, all set in `vercel.json`). No environment variables are needed. Vercel sets `VERCEL=1`, so the site is built for the domain root.
+3. Deploy.
+4. On GitHub, open **Settings → Actions → General → Workflow permissions** and choose **Read and write permissions**, so the collector can commit data.
+5. Run **Actions → Ingest → Run workflow** once to test the full loop.
 
-- `.github/workflows/ingest.yml` runs every hour at minute 17, and on demand. It commits `public/data` only when the content changed, then calls the deploy workflow. A single failing source does not stop the run; the run fails only if every source fails. Each run writes a per-source table to the job summary.
-- `.github/workflows/deploy.yml` runs on every push to `main`. It lints, type checks, tests, builds and publishes to Pages.
+**How stories stay current**
+
+1. `.github/workflows/ingest.yml` runs every hour at minute 17, and on demand. It commits `public/data` only when the content changed. A single failing source does not stop the run; the run fails only if every source fails. Each run writes a per-source table to the job summary.
+2. Vercel redeploys on every push to `main`, including those data commits, usually within a minute or two.
+3. `/data/*.json` is served with `max-age=0, must-revalidate`, the app fetches it with `no-cache`, and the service worker is network-first. An app left open re-downloads stories when it returns to view after 15 minutes.
+4. "Stories updated …" in the app is the time the collected content last changed, not the time of the last check.
+
+`.github/workflows/ci.yml` lints, type checks, tests and builds every code push and pull request.
 
 GitHub may delay scheduled runs at busy times, and it disables scheduled workflows in repositories with no activity for 60 days. The hourly data commits normally count as activity.
 
 ## PWA and offline use
 
-- Installable: the manifest has 192 px, 512 px and maskable icons, `display: standalone`, and start URL and scope set to `/tnewiq/`.
+- Installable: the manifest has 192 px, 512 px and maskable icons, `display: standalone`, and start URL and scope set to the site root on Vercel (`/tnewiq/` for a GitHub Pages build).
 - The service worker precaches the app shell. Article data is fetched network-first and falls back to the last cached copy when offline.
 - When offline, the app says so and shows the cached stories and the time they were last downloaded. Bookmarks live in `localStorage` and work offline.
 - New versions are not swapped in silently. A banner offers **Reload**.

@@ -1,7 +1,7 @@
 // @vitest-environment jsdom
-import { cleanup, render, screen, within } from '@testing-library/react'
+import { cleanup, render, screen, waitFor, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { afterEach, beforeEach, describe, expect, it } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import App from '../../src/App'
 import { I18nProvider } from '../../src/i18n'
 import { fixtureFetch } from './fixtures'
@@ -120,5 +120,32 @@ describe('Appearance', () => {
     expect(JSON.parse(localStorage.getItem('tnewiq.theme')!)).toBe('dark')
     await user.click(screen.getByLabelText('Match device'))
     expect(document.documentElement.dataset.theme).toBeUndefined()
+  })
+})
+
+describe('Freshness', () => {
+  it('re-downloads stories when the app returns to view after 15 minutes', async () => {
+    let calls = 0
+    const counting = (async (input: string | URL | Request) => {
+      if (input.toString().endsWith('articles.json')) calls++
+      return fixtureFetch()(input)
+    }) as typeof fetch
+    const start = Date.now()
+    const now = vi.spyOn(Date, 'now').mockReturnValue(start)
+    render(
+      <I18nProvider>
+        <App fetchImpl={counting} />
+      </I18nProvider>,
+    )
+    await screen.findAllByText('Read original')
+    expect(calls).toBe(1)
+
+    document.dispatchEvent(new Event('visibilitychange'))
+    expect(calls).toBe(1) // too soon
+
+    now.mockReturnValue(start + 16 * 60 * 1000)
+    document.dispatchEvent(new Event('visibilitychange'))
+    await waitFor(() => expect(calls).toBe(2))
+    now.mockRestore()
   })
 })

@@ -8,6 +8,7 @@ type FeedState =
   | { status: 'ready'; data: FeedData; downloadedAt: string | null }
 
 const DOWNLOADED_KEY = 'downloadedAt'
+const REFRESH_AFTER_MS = 15 * 60 * 1000
 
 async function fetchState(fetchImpl?: typeof fetch): Promise<FeedState> {
   try {
@@ -25,9 +26,20 @@ export function useFeed(fetchImpl?: typeof fetch) {
 
   useEffect(() => {
     let active = true
+    let loadedAt = Date.now()
     void fetchState(fetchImpl).then((next) => active && setState(next))
+
+    // An installed app can stay open for days. When it comes back into view after a while,
+    // refresh quietly; a failed refresh keeps the stories already on screen.
+    const onVisible = () => {
+      if (document.visibilityState !== 'visible' || Date.now() - loadedAt < REFRESH_AFTER_MS) return
+      loadedAt = Date.now()
+      void fetchState(fetchImpl).then((next) => active && next.status === 'ready' && setState(next))
+    }
+    document.addEventListener('visibilitychange', onVisible)
     return () => {
       active = false
+      document.removeEventListener('visibilitychange', onVisible)
     }
   }, [fetchImpl])
 

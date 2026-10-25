@@ -1,6 +1,7 @@
 name: Ingest
 
 # Collects the configured feeds every hour and commits public/data only when the content changed.
+# Vercel is connected to this repository and redeploys on every push to main, including these data commits.
 # Feeds update on their own schedule; running hourly does not mean every feed has new items each hour.
 on:
   schedule:
@@ -18,8 +19,6 @@ jobs:
   ingest:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    outputs:
-      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - uses: actions/checkout@v5
 
@@ -49,14 +48,3 @@ jobs:
           git push origin HEAD:main
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
-  # Pushes made with GITHUB_TOKEN do not trigger other workflows, so deploy is called directly.
-  deploy:
-    needs: ingest
-    if: needs.ingest.outputs.changed == 'true'
-    uses: ./.github/workflows/deploy.yml
-    with:
-      ref: main
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
