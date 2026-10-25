@@ -1,7 +1,40 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-25T15:10:26.164Z",
+ "generatedAt": "2026-10-25T20:54:33.092Z",
  "articles": [
+  {
+   "id": "33f7736e74631c3e",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+   "originalUrl": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+   "originalLanguage": "en",
+   "originalDescription": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker…",
+   "publishedAt": "2026-10-25T17:44:09.000Z",
+   "discoveredAt": "2026-10-25T20:54:33.092Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbGR63RmXInXPwCVFZlGJSiGv5WQfLTWymToOPIYbKXfXniB7X4YDbTVK-28G4r3WfdelCr_2TRzhoYrIogcG_C9WjXEHaLhURIh_v5RyO5sBY8UKwQWbKUBrv_H5n5K7N4mz2WG3d5dldw_re-M5CgDDbVi_EhTqvB9P87fZJlODojj8ivvj-RwLUhpg/s1600/tailscale.jpg",
+   "contentHash": "e1df5c7163a61fcc"
+  },
+  {
+   "id": "da19872bd8ebd641",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+   "originalUrl": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+   "originalLanguage": "en",
+   "originalDescription": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. \"In one case, the attackers targeted a government entity in…",
+   "publishedAt": "2026-10-25T17:19:46.000Z",
+   "discoveredAt": "2026-10-25T20:54:33.092Z",
+   "topics": [
+    "cybersecurity",
+    "ai"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzK2qokKedMIUzd876s0EWaLDb7qw-DMzlFWKvmfgCzMKZ2KVvdpZ-298SoEm1_PP6aoEBc6q1LAydnANGur1FbFNmXmhlo6zHtRFvgRcbx-LOoDoM_-JI-_7XkkM4r5q3LQH1SdfirarXTGeiu16d5YMDSeYs8tfJn5ITfRQ4DThbqkq66b4WdDQcOJqf/s1600/php2shell-exploit.jpg",
+   "contentHash": "7f602b74b46ba3c7"
+  },
   {
    "id": "1760a15dd7dbe317",
    "sourceId": "vscode-blog",
