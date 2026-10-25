@@ -32,17 +32,27 @@ jobs:
       - name: Collect feeds
         run: npm run ingest
 
+      # Optional: summaries, impact notes and translations via the Gemini API free tier.
+      # Skipped when the GEMINI_API_KEY secret is missing; a failure here never blocks the data commit.
+      - name: Write AI insights
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: npm run insights
+
       - name: Commit data if it changed
         id: commit
         run: |
-          if git diff --quiet -- public/data; then
+          # Stage first so new (untracked) insight files are detected too.
+          git add public/data
+          if git diff --cached --quiet; then
             echo "No data changes."
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data
           git commit -m "data: update articles $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase origin main
           git push origin HEAD:main

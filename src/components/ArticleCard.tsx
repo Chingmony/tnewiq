@@ -79,7 +79,7 @@ export function ArticleCard({ article, bookmarked, onToggleBookmark, variant = '
           lang={lang ?? undefined}
           className={`font-display font-semibold leading-snug tracking-tight text-ink ${featured ? 'text-2xl md:text-[2rem] md:leading-tight' : 'text-lg'}`}
         >
-          <a href={article.originalUrl} target="_blank" rel="noopener noreferrer" className="headline-link">
+          <a href={`#story/${article.id}`} className="headline-link after:absolute after:inset-0 after:content-['']">
             {article.originalTitle}
           </a>
         </h3>
@@ -102,7 +102,7 @@ export function ArticleCard({ article, bookmarked, onToggleBookmark, variant = '
           )}
         </p>
 
-        <div className="-mb-1 flex items-center gap-1 border-t border-line pt-3">
+        <div className="relative z-10 -mb-1 flex items-center gap-1 border-t border-line pt-3">
           <a
             href={article.originalUrl}
             target="_blank"

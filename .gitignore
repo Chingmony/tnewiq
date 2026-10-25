@@ -34,3 +34,6 @@ dist-ssr
 coverage
 .vitest
 *.tsbuildinfo
+
+# Local caches (feed text for AI input; never committed)
+.cache

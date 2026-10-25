@@ -4,7 +4,7 @@ import userEvent from '@testing-library/user-event'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import App from '../../src/App'
 import { I18nProvider } from '../../src/i18n'
-import { fixtureFetch } from './fixtures'
+import { FIXTURE_ARTICLES, fixtureFetch } from './fixtures'
 
 function renderApp() {
   return render(
@@ -27,7 +27,10 @@ describe('App', () => {
     expect(await screen.findByText('Fixture: Rust compiler release improves build times', { selector: 'a' })).toBeInTheDocument()
     const km = screen.getByText('ឧបករណ៍សន្តិសុខថ្មីសម្រាប់អ្នកអភិវឌ្ឍន៍', { selector: 'a' })
     expect(km.closest('h3')).toHaveAttribute('lang', 'km')
-    expect(km.closest('a')).toHaveAttribute('rel', 'noopener noreferrer')
+    expect(km.closest('a')).toHaveAttribute('href', '#story/2222222222222222')
+    const original = within(km.closest('article')!).getByRole('link', { name: /Read original/ })
+    expect(original).toHaveAttribute('rel', 'noopener noreferrer')
+    expect(original).toHaveAttribute('target', '_blank')
   })
 
   it('says when the source gave no publication date', async () => {
@@ -147,5 +150,61 @@ describe('Freshness', () => {
     document.dispatchEvent(new Event('visibilitychange'))
     await waitFor(() => expect(calls).toBe(2))
     now.mockRestore()
+  })
+})
+
+describe('Story page', () => {
+  it('opens from a card headline and shows the original-language story with a pending AI note', async () => {
+    window.location.hash = 'latest'
+    const user = userEvent.setup()
+    renderApp()
+    await user.click(await screen.findByRole('link', { name: 'Fixture: Rust compiler release improves build times' }))
+    expect(window.location.hash).toBe('#story/1111111111111111')
+    const title = await screen.findByRole('heading', { level: 1 })
+    expect(title).toHaveTextContent('Fixture: Rust compiler release improves build times')
+    expect(await screen.findByText(/AI briefing for this story isn't ready yet/)).toBeInTheDocument()
+    expect(screen.getByRole('link', { name: /Read original/ })).toHaveAttribute('href', 'https://example.com/rust-release')
+    expect(screen.getByText('Example excerpt about incremental compilation.')).toBeInTheDocument()
+
+    await user.click(screen.getByRole('button', { name: 'Back' }))
+    expect(window.location.hash).toBe('#latest')
+  })
+
+  it.each([
+    ['en', 'New Kubernetes version released', 'Fixture summary in English.', 'Why it matters'],
+    ['km', 'កំណែ Kubernetes ថ្មីត្រូវបានចេញផ្សាយ', 'សេចក្តីសង្ខេបសាកល្បង។', 'ហេតុអ្វីវាសំខាន់'],
+    ['zh-CN', 'Kubernetes 新版本发布', '测试摘要。', '为何重要'],
+  ])('shows the AI briefing in %s, labelled as AI-generated, with the original title kept', async (locale, title, summary, impact) => {
+    localStorage.setItem('tnewiq.locale', JSON.stringify(locale))
+    window.location.hash = 'story/4444444444444444'
+    renderApp()
+    expect(await screen.findByRole('heading', { level: 1, name: title })).toBeInTheDocument()
+    expect(screen.getByText(summary)).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: impact })).toBeInTheDocument()
+    expect(screen.getByText('쿠버네티스 신규 버전 출시', { selector: 'span' })).toHaveAttribute('lang', 'ko')
+    expect(screen.getByText(/fixture-model/)).toBeInTheDocument()
+  })
+
+  it('shows the Korean original title once when the interface is Korean', async () => {
+    localStorage.setItem('tnewiq.locale', JSON.stringify('ko'))
+    window.location.hash = 'story/4444444444444444'
+    renderApp()
+    expect(await screen.findByRole('heading', { level: 1, name: '쿠버네티스 신규 버전 출시' })).toBeInTheDocument()
+    expect(await screen.findByText('테스트 요약입니다.')).toBeInTheDocument()
+    expect(screen.queryByText('원래 제목')).toBeNull()
+  })
+
+  it('says when a story is no longer available', async () => {
+    window.location.hash = 'story/9999999999999999'
+    renderApp()
+    expect(await screen.findByText(/no longer in TNewIQ/)).toBeInTheDocument()
+  })
+
+  it('opens a bookmarked story even after it left the feed', async () => {
+    const gone = { ...FIXTURE_ARTICLES[0], id: 'abcdefabcdefabcd', originalTitle: 'An older saved story' }
+    localStorage.setItem('tnewiq.bookmarks', JSON.stringify([gone]))
+    window.location.hash = 'story/abcdefabcdefabcd'
+    renderApp()
+    expect(await screen.findByRole('heading', { level: 1, name: 'An older saved story' })).toBeInTheDocument()
   })
 })

@@ -87,6 +87,7 @@ npm run check       # lint + typecheck + tests + build
 | Script | Purpose |
 | --- | --- |
 | `npm run ingest` | Run the collector locally. Writes files only if the content changed. |
+| `npm run insights` | Write AI briefings locally (needs `GEMINI_API_KEY` in the environment). |
 | `npm test` | Vitest: ingestion, i18n, search, bookmarks, translation links, manifest, app behaviour. |
 | `npm run build` | Type check and production build to `dist/`. |
 | `npx pwa-assets-generator` | Regenerate PWA icons from `public/favicon.svg`. |
@@ -117,6 +118,28 @@ The code lives at `https://github.com/Chingmony/tnewiq` (public) and is deployed
 `.github/workflows/ci.yml` lints, type checks, tests and builds every code push and pull request.
 
 GitHub may delay scheduled runs at busy times, and it disables scheduled workflows in repositories with no activity for 60 days. The hourly data commits normally count as activity.
+
+## Story pages and AI briefings
+
+Selecting a headline opens a story page (`#story/<id>`) with the title, source, dates, topics, the publisher's own excerpt, **Read original**, bookmark, share, translate-page and related stories.
+
+When available, the page also shows an **AI briefing** in the interface language: a translated title, a summary, "why it matters" and key points, in English, Khmer, Simplified Chinese and Korean.
+
+- **Written by:** the Gemini API free tier, inside the hourly GitHub Action (`scripts/insights`). Never in the browser.
+- **Input:** only the headline and the text the publisher includes in its feed (`.cache/feed-context.json`, never committed), or the short excerpt when that is all there is. The prompt forbids adding facts and treats feed text as data, not instructions.
+- **Checks:** every response is validated (all four languages present, each in the right script, plain text only) before it is saved to `public/data/insights/<id>.json`.
+- **Labelling:** briefings are marked "AI-generated" and name the model. The original title and excerpt are always shown too.
+- **Limits:** newest stories first, 12 per run, one request every 6.5 s. A run stops when Google reports the quota is used up; the rest wait for the next run. Collecting stories never depends on this step.
+- **Cost:** $0 on the free tier. Google never bills unless you attach billing to the key's project yourself. On the free tier, Google may use what it receives (public article text) to improve its products.
+
+### Turn it on
+
+1. Create a free API key at https://aistudio.google.com/apikey. No card is needed; do not enable billing.
+2. In GitHub, open **Settings → Secrets and variables → Actions → New repository secret**. Name it `GEMINI_API_KEY` and paste the key.
+3. Optional: under **Variables**, add `GEMINI_MODEL` to pick a model (default `gemini-flash-latest`).
+4. Run **Actions → Ingest → Run workflow**. The job summary lists how many briefings were written.
+
+Without the secret the step is skipped and story pages say the briefing isn't ready yet.
 
 ## PWA and offline use
 

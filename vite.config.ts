@@ -24,6 +24,16 @@ export default defineConfig({
         cleanupOutdatedCaches: true,
         runtimeCaching: [
           {
+            // AI briefings: one small file per story, rarely changed. Serve the cached copy and refresh in the background.
+            urlPattern: ({ url }) => url.pathname.startsWith(`${base}data/insights/`),
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'tnewiq-insights',
+              expiration: { maxEntries: 200, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              cacheableResponse: { statuses: [200] },
+            },
+          },
+          {
             // Article data: try the network first, fall back to the last cached copy when offline.
             urlPattern: ({ url }) => url.pathname.startsWith(`${base}data/`) && url.pathname.endsWith('.json'),
             handler: 'NetworkFirst',

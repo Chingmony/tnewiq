@@ -8,6 +8,8 @@ export interface RawItem {
   published: string | null
   updated: string | null
   description: string | null
+  /** Full article body when the feed includes one (content:encoded or Atom content). */
+  content: string | null
   imageUrl: string | null
 }
 
@@ -70,6 +72,7 @@ function rssItem(item: Node): RawItem {
     published: text(item.pubDate) ?? text(item['dc:date']),
     updated: null,
     description: text(item.description) ?? text(item['content:encoded']),
+    content: text(item['content:encoded']) ?? text(item.description),
     imageUrl: firstImage(item),
   }
 }
@@ -91,6 +94,7 @@ function atomItem(entry: Node): RawItem {
     published: text(entry.published) ?? text(entry.issued),
     updated: text(entry.updated),
     description: text(entry.summary) ?? text(entry.content),
+    content: text(entry.content) ?? text(entry.summary),
     imageUrl: firstImage(entry),
   }
 }

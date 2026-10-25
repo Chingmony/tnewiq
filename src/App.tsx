@@ -14,11 +14,20 @@ import { BookmarksView } from './views/BookmarksView'
 import { FeedView } from './views/FeedView'
 import { HomeView } from './views/HomeView'
 import { SettingsView } from './views/SettingsView'
+import { StoryView } from './views/StoryView'
 import { TopicsView } from './views/TopicsView'
 
-const viewFromHash = (): View => {
+interface Route {
+  view: View | 'story'
+  storyId: string | null
+}
+
+/** #latest, #topics, … or #story/<articleId> */
+function routeFromHash(): Route {
   const hash = window.location.hash.slice(1)
-  return (VIEWS as readonly string[]).includes(hash) ? (hash as View) : 'home'
+  const story = /^story\/([a-f0-9]{16})$/.exec(hash)
+  if (story) return { view: 'story', storyId: story[1] }
+  return { view: (VIEWS as readonly string[]).includes(hash) ? (hash as View) : 'home', storyId: null }
 }
 
 interface AppProps {
@@ -31,24 +40,37 @@ export default function App({ fetchImpl }: AppProps) {
   const online = useOnline()
   const bookmarks = useBookmarks()
   const { theme, setTheme } = useTheme()
-  const [view, setView] = useState<View>(viewFromHash)
+  const [route, setRoute] = useState<Route>(routeFromHash)
+  // The list the reader came from, so Back returns there and its tab stays highlighted.
+  const [lastView, setLastView] = useState<View>(() => (route.view === 'story' ? 'home' : route.view))
+  const view = route.view
   const [query, setQuery] = useState('')
   const [topic, setTopic] = useState<Topic | null>(null)
   const [sort, setSort] = useState<SortOrder>('newest')
   const [now] = useState(() => new Date())
 
   useEffect(() => {
-    const onHash = () => setView(viewFromHash())
+    const onHash = () => {
+      const next = routeFromHash()
+      setRoute(next)
+      if (next.view !== 'story') setLastView(next.view)
+      else window.scrollTo?.({ top: 0 })
+    }
     window.addEventListener('hashchange', onHash)
     return () => window.removeEventListener('hashchange', onHash)
   }, [])
 
   const articles = useMemo(() => (state.status === 'ready' ? state.data.articles : []), [state])
+  // Bookmarks keep a full copy, so a saved story still opens after it ages out of the feed.
+  const storyArticle = route.storyId
+    ? (articles.find((a) => a.id === route.storyId) ?? bookmarks.bookmarks.find((a) => a.id === route.storyId) ?? null)
+    : null
   const filtered = useMemo(() => filterArticles(articles, { query, topic, sort }), [articles, query, topic, sort])
 
   const go = (next: View) => {
     if (window.location.hash !== `#${next}`) window.location.hash = next
-    setView(next)
+    setRoute({ view: next, storyId: null })
+    setLastView(next)
     window.scrollTo?.({ top: 0 })
   }
   const openTopic = (tp: Topic) => {
@@ -62,6 +84,18 @@ export default function App({ fetchImpl }: AppProps) {
     content = <SettingsView theme={theme} onTheme={setTheme} onClearBookmarks={bookmarks.clear} fetchImpl={fetchImpl} />
   } else if (view === 'bookmarks') {
     content = <BookmarksView bookmarks={bookmarks.bookmarks} isBookmarked={bookmarks.isBookmarked} onToggleBookmark={bookmarks.toggle} />
+  } else if (view === 'story' && (state.status === 'ready' || storyArticle)) {
+    content = (
+      <StoryView
+        key={route.storyId}
+        article={storyArticle}
+        articles={articles}
+        isBookmarked={bookmarks.isBookmarked}
+        onToggleBookmark={bookmarks.toggle}
+        onBack={() => go(lastView)}
+        fetchImpl={fetchImpl}
+      />
+    )
   } else if (state.status === 'loading') {
     content = (
       <div className="flex flex-col gap-6">
@@ -101,7 +135,7 @@ export default function App({ fetchImpl }: AppProps) {
   } else {
     content = (
       <FeedView
-        mode={view}
+        mode={view === 'explore' ? 'explore' : 'latest'}
         filtered={filtered}
         query={query}
         onQuery={setQuery}
@@ -128,7 +162,7 @@ export default function App({ fetchImpl }: AppProps) {
         {t('nav.skip')}
       </a>
       <Header onSearch={() => go('explore')} />
-      <Navigation view={view} onNavigate={go} />
+      <Navigation view={view === 'story' ? lastView : view} onNavigate={go} />
       <main id="main" tabIndex={-1} className="container-page flex flex-col gap-6 pb-28 pt-6 outline-none md:pb-16 md:pt-8">
         <StatusLine
           updatedAt={state.status === 'ready' ? state.data.generatedAt : null}

@@ -10,6 +10,8 @@ const sourcesPath = path.join(root, 'sources/sources.json')
 const dataDir = path.join(root, 'public/data')
 const articlesPath = path.join(dataDir, 'articles.json')
 const publicSourcesPath = path.join(dataDir, 'sources.json')
+// Not published: longer feed text used only as input for AI insights (see scripts/insights).
+const contextPath = path.join(root, '.cache/feed-context.json')
 
 async function readPrevious(): Promise<ArticlesFile | null> {
   try {
@@ -44,6 +46,9 @@ async function main() {
     sources: sources.map(({ id, name, homepage, language, topics }) => ({ id, name, homepage, language, topics })),
   }
   const wroteSources = await writeIfChanged(publicSourcesPath, JSON.stringify(publicSources, null, 1) + '\n')
+
+  await mkdir(path.dirname(contextPath), { recursive: true })
+  await writeFile(contextPath, JSON.stringify(run.contexts))
 
   const summary = summaryMarkdown(run)
   console.log(summary)
