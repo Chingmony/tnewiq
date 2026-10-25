@@ -20,7 +20,7 @@ export function useBookmarks() {
   // Keep several open tabs in sync.
   useEffect(() => {
     const onStorage = (e: StorageEvent) => {
-      if (e.key === `dailytech.${KEY}`) setBookmarks(load())
+      if (e.key === `tnewiq.${KEY}`) setBookmarks(load())
     }
     window.addEventListener('storage', onStorage)
     return () => window.removeEventListener('storage', onStorage)

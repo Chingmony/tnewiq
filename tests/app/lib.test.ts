@@ -95,11 +95,11 @@ describe('external translation', () => {
 })
 
 describe('web app manifest', () => {
-  const manifest = createManifest('/dailytech/')
+  const manifest = createManifest('/tnewiq/')
   it('meets installability requirements', () => {
-    expect(manifest.name).toBe('DailyTech')
-    expect(manifest.start_url).toBe('/dailytech/')
-    expect(manifest.scope).toBe('/dailytech/')
+    expect(manifest.name).toBe('TNewIQ')
+    expect(manifest.start_url).toBe('/tnewiq/')
+    expect(manifest.scope).toBe('/tnewiq/')
     expect(manifest.display).toBe('standalone')
     const sizes = manifest.icons?.map((i) => i.sizes)
     expect(sizes).toContain('192x192')

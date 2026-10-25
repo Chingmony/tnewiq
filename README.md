@@ -1,6 +1,8 @@
-# DailyTech
+# TNewIQ
 
-A personal technology radar. DailyTech collects the latest headlines from public RSS and Atom feeds every hour and presents them in a multilingual, installable web app (PWA). It always shows the original headline, source, date and link.
+**TNewIQ** (short for TechNewsIQ).
+
+A personal technology radar. It collects the latest headlines from public RSS and Atom feeds every hour and presents them in a multilingual, installable web app (PWA). It always shows the original headline, source, date and link.
 
 > **Status:** the data pipeline, tests and app logic work. The visual design is waiting for approval, so the interface is a plain, unstyled shell for now. See the design proposal: three directions (A Signal, B Edition, C Pocket), with B recommended.
 
@@ -67,7 +69,7 @@ sources/sources.json ──► scripts/ingest (GitHub Actions, hourly)
 
 Dropped after checking: InfoQ China and 36Kr (they serve HTML, not a feed). No Khmer-language technology feed has been verified yet.
 
-DailyTech stores only metadata, a short excerpt and the link, and sends readers to the original article. Review each publisher's terms of use before you publicise the site.
+TNewIQ stores only metadata, a short excerpt and the link, and sends readers to the original article. Review each publisher's terms of use before you publicise the site.
 
 To add a source, add an entry to `sources/sources.json` (HTTPS feed URL, homepage, language, one or two topics) and run `npm run ingest`. If the feed redirects to another host, list that host in `allowedRedirectHosts`.
 
@@ -78,7 +80,7 @@ Requires Node 22 or later.
 ```bash
 npm install
 npm run ingest      # fetch real feeds into public/data
-npm run dev         # http://localhost:5173/dailytech/
+npm run dev         # http://localhost:5173/tnewiq/
 npm run check       # lint + typecheck + tests + build
 ```
 
@@ -95,10 +97,10 @@ Test fixtures live in `tests/fixtures` and `tests/app/fixtures.ts`, are clearly 
 
 ## Deployment (GitHub Pages)
 
-The repository is meant to live at `https://github.com/Chingmony/dailytech` and the site at `https://chingmony.github.io/dailytech/`.
+The code lives at `https://github.com/Chingmony/tnewiq` (public) and the site will be served at `https://chingmony.github.io/tnewiq/`.
 
-1. Create a **public** repository named `dailytech` under `Chingmony` (free GitHub Pages and unlimited Actions minutes need a public repo).
-2. Push this project to `main`.
+1. Keep the repository **public**: free GitHub Pages and unlimited Actions minutes depend on it.
+2. Make sure `main` is the default branch (**Settings → General → Default branch**). The workflows run on `main`.
 3. In the repository, open **Settings → Pages** and set **Source** to **GitHub Actions**.
 4. Open **Settings → Actions → General → Workflow permissions** and choose **Read and write permissions**, so the collector can commit data.
 5. Run **Actions → Ingest → Run workflow** once to test it.
@@ -112,7 +114,7 @@ GitHub may delay scheduled runs at busy times, and it disables scheduled workflo
 
 ## PWA and offline use
 
-- Installable: the manifest has 192 px, 512 px and maskable icons, `display: standalone`, and start URL and scope set to `/dailytech/`.
+- Installable: the manifest has 192 px, 512 px and maskable icons, `display: standalone`, and start URL and scope set to `/tnewiq/`.
 - The service worker precaches the app shell. Article data is fetched network-first and falls back to the last cached copy when offline.
 - When offline, the app says so and shows the cached stories and the time they were last downloaded. Bookmarks live in `localStorage` and work offline.
 - New versions are not swapped in silently. A banner offers **Reload**.
@@ -126,7 +128,7 @@ Articles are always shown in their original language. When an article's language
 - **Translate page in Google Translate** opens the public article URL in Google Translate, in a new tab. Only that URL is sent.
 - **Copy headline and excerpt** copies the text so you can use any translator you choose.
 
-DailyTech does not translate anything itself and never claims to.
+TNewIQ does not translate anything itself and never claims to.
 
 ## Privacy and security
 

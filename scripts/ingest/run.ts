@@ -108,7 +108,7 @@ export async function runIngestion(opts: RunOptions): Promise<RunResult> {
 export function summaryMarkdown(run: RunResult): string {
   const ok = run.results.filter((r) => r.ok).length
   const lines = [
-    '## DailyTech ingestion',
+    '## TNewIQ ingestion',
     '',
     `- Sources succeeded: **${ok} / ${run.results.length}**`,
     `- New articles: **${run.added}**`,

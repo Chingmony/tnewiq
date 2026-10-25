@@ -8,7 +8,7 @@ export interface FetchOptions {
 
 export class FetchError extends Error {}
 
-export const USER_AGENT = 'DailyTechBot/0.1 (+https://github.com/Chingmony/dailytech)'
+export const USER_AGENT = 'TNewIQBot/0.1 (+https://github.com/Chingmony/tnewiq)'
 
 function assertAllowed(url: URL, allowedHosts: readonly string[]): void {
   if (url.protocol !== 'https:') throw new FetchError(`Refusing non-https URL: ${url.protocol}//${url.host}`)

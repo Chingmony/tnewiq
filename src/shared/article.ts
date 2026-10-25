@@ -73,7 +73,7 @@ export const SourcesFileSchema = z.object({
 
 export type PublicSource = z.infer<typeof PublicSourceSchema>
 
-/** Sort key: publication date when known, otherwise when DailyTech first saw it. */
+/** Sort key: publication date when known, otherwise when TNewIQ first saw it. */
 export function sortTime(article: Pick<Article, 'publishedAt' | 'discoveredAt'>): number {
   return Date.parse(article.publishedAt ?? article.discoveredAt)
 }

@@ -5,8 +5,8 @@ import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 import { createManifest } from './src/pwa/manifest.ts'
 
-// GitHub Pages serves the project at /dailytech/. Override with BASE_PATH for other hosts.
-const base = process.env.BASE_PATH ?? '/dailytech/'
+// GitHub Pages serves the project at /tnewiq/. Override with BASE_PATH for other hosts.
+const base = process.env.BASE_PATH ?? '/tnewiq/'
 
 export default defineConfig({
   base,
@@ -28,7 +28,7 @@ export default defineConfig({
             urlPattern: ({ url }) => url.pathname.startsWith(`${base}data/`) && url.pathname.endsWith('.json'),
             handler: 'NetworkFirst',
             options: {
-              cacheName: 'dailytech-data',
+              cacheName: 'tnewiq-data',
               networkTimeoutSeconds: 6,
               expiration: { maxEntries: 10, maxAgeSeconds: 60 * 60 * 24 * 30 },
               cacheableResponse: { statuses: [200] },

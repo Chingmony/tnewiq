@@ -1,5 +1,5 @@
 // localStorage can be missing or throw (private mode, blocked storage). Every access goes through here.
-const PREFIX = 'dailytech.'
+const PREFIX = 'tnewiq.'
 
 export function readJson<T>(key: string, fallback: T): T {
   try {

@@ -53,7 +53,7 @@ describe('App', () => {
     ['zh-CN', '阅读原文', '首页'],
     ['ko', '원문 읽기', '홈'],
   ])('renders the %s interface', async (locale, readOriginal, home) => {
-    localStorage.setItem('dailytech.locale', JSON.stringify(locale))
+    localStorage.setItem('tnewiq.locale', JSON.stringify(locale))
     renderApp()
     expect((await screen.findAllByText(readOriginal)).length).toBeGreaterThan(0)
     expect(screen.getByRole('link', { name: home })).toBeInTheDocument()
@@ -87,7 +87,7 @@ describe('App', () => {
     renderApp()
     const title = await screen.findByText('新一代移动芯片发布', { selector: 'a' })
     await user.click(within(title.closest('article')!).getByRole('button', { name: /Bookmark/ }))
-    expect(JSON.parse(localStorage.getItem('dailytech.bookmarks')!)).toHaveLength(1)
+    expect(JSON.parse(localStorage.getItem('tnewiq.bookmarks')!)).toHaveLength(1)
 
     await user.click(screen.getByRole('link', { name: 'Bookmarks' }))
     const list = screen.getByRole('heading', { name: 'Bookmarks', level: 2 }).closest('section')!

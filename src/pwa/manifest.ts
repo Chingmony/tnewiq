@@ -6,8 +6,8 @@ export const PLACEHOLDER_THEME_COLOR = '#ffffff'
 export function createManifest(base: string): Partial<ManifestOptions> {
   return {
     id: base,
-    name: 'DailyTech',
-    short_name: 'DailyTech',
+    name: 'TNewIQ',
+    short_name: 'TNewIQ',
     description: 'A personal technology radar built from trusted public sources.',
     lang: 'en',
     dir: 'ltr',

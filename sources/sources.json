@@ -1,5 +1,5 @@
 {
-  "$comment": "Allowlist of feeds DailyTech may fetch. Each URL was checked on 2026-10-25 and returned valid RSS or Atom. Only metadata, a short excerpt and the link are stored. Review each publisher's terms before making the site public.",
+  "$comment": "Allowlist of feeds TNewIQ may fetch. Each URL was checked on 2026-10-25 and returned valid RSS or Atom. Only metadata, a short excerpt and the link are stored. Review each publisher's terms before making the site public.",
   "sources": [
     { "id": "openai-news", "name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "homepage": "https://openai.com/news/", "language": "en", "topics": ["ai"] },
     { "id": "google-ai-blog", "name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/", "homepage": "https://blog.google/technology/ai/", "language": "en", "topics": ["ai"] },
