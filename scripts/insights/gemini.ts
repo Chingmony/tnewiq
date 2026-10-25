@@ -56,7 +56,14 @@ export async function generateJson(system: string, user: string, opts: GeminiOpt
   if (res.status === 429) throw new QuotaError('Gemini free-tier quota reached (HTTP 429)')
   if (res.status === 401 || res.status === 403) throw new AuthError(`Gemini rejected the API key (HTTP ${res.status})`)
   if (res.status === 404) throw new ModelError(`Model "${model}" not found. Set the GEMINI_MODEL repository variable to an available model.`)
-  if (!res.ok) throw new Error(`Gemini HTTP ${res.status}`)
+  if (!res.ok) {
+    // Google's error message explains bad requests (e.g. an unsupported schema). It never echoes the key.
+    const detail = await res
+      .json()
+      .then((b: { error?: { message?: string } }) => b.error?.message ?? '')
+      .catch(() => '')
+    throw new Error(`Gemini HTTP ${res.status}${detail ? `: ${detail.slice(0, 160)}` : ''}`)
+  }
 
   const body = (await res.json()) as {
     candidates?: Array<{ finishReason?: string; content?: { parts?: Array<{ text?: string }> } }>

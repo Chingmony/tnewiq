@@ -71,6 +71,14 @@ async function main() {
   ].join('\n')
   console.log(summary)
   if (process.env.GITHUB_STEP_SUMMARY) await appendFile(process.env.GITHUB_STEP_SUMMARY, summary)
+
+  // Surface problems as workflow annotations so a green run can't hide a step that wrote nothing.
+  // Messages are built by our own code (status codes, validation errors) and never contain the key.
+  if (process.env.GITHUB_ACTIONS) {
+    const oneLine = (s: string) => s.replace(/[\r\n%]/g, ' ')
+    if (result.stoppedBecause) console.log(`::warning title=AI insights stopped::${oneLine(result.stoppedBecause)}`)
+    for (const f of result.failed.slice(0, 5)) console.log(`::warning title=AI insight failed (${f.id})::${oneLine(f.error)}`)
+  }
 }
 
 main().catch((err) => {
