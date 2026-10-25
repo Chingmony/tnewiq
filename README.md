@@ -136,7 +136,7 @@ When available, the page also shows an **AI briefing** in the interface language
 
 1. Create a free API key at https://aistudio.google.com/apikey. No card is needed; do not enable billing.
 2. In GitHub, open **Settings → Secrets and variables → Actions → New repository secret**. Name it `GEMINI_API_KEY` and paste the key.
-3. Optional: under **Variables**, add `GEMINI_MODEL` to pick a model (default `gemini-flash-latest`).
+3. Optional: under **Variables**, add `GEMINI_MODEL` to choose models, comma-separated and tried in order (default `gemini-flash-latest,gemini-flash-lite-latest`). When Google answers "overloaded" (HTTP 503), the generator waits and retries, then falls back to the next model, then leaves the rest for the next run.
 4. Run **Actions → Ingest → Run workflow**. The job summary lists how many briefings were written.
 
 Without the secret the step is skipped and story pages say the briefing isn't ready yet.

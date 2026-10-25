@@ -4,6 +4,8 @@
 export class QuotaError extends Error {}
 export class AuthError extends Error {}
 export class ModelError extends Error {}
+/** Google is temporarily overloaded or down (HTTP 500/502/503/504). Worth retrying later. */
+export class UnavailableError extends Error {}
 
 export interface GeminiOptions {
   apiKey: string
@@ -56,6 +58,7 @@ export async function generateJson(system: string, user: string, opts: GeminiOpt
   if (res.status === 429) throw new QuotaError('Gemini free-tier quota reached (HTTP 429)')
   if (res.status === 401 || res.status === 403) throw new AuthError(`Gemini rejected the API key (HTTP ${res.status})`)
   if (res.status === 404) throw new ModelError(`Model "${model}" not found. Set the GEMINI_MODEL repository variable to an available model.`)
+  if ([500, 502, 503, 504].includes(res.status)) throw new UnavailableError(`Gemini temporarily unavailable (HTTP ${res.status})`)
   if (!res.ok) {
     // Google's error message explains bad requests (e.g. an unsupported schema). It never echoes the key.
     const detail = await res

@@ -11,7 +11,8 @@ const articlesPath = path.join(root, 'public/data/articles.json')
 const insightsDir = path.join(root, 'public/data/insights')
 const contextPath = path.join(root, '.cache/feed-context.json')
 
-const DEFAULT_MODEL = 'gemini-flash-latest'
+/** Tried in order; the lighter model is a fallback when the main one is overloaded. */
+const DEFAULT_MODELS = ['gemini-flash-latest', 'gemini-flash-lite-latest']
 
 async function readExisting(validIds: Set<string>): Promise<Map<string, string>> {
   const existing = new Map<string, string>()
@@ -36,7 +37,9 @@ async function main() {
     console.log('GEMINI_API_KEY is not set; skipping AI insights.')
     return
   }
-  const model = process.env.GEMINI_MODEL?.trim() || DEFAULT_MODEL
+  // GEMINI_MODEL may list several models separated by commas, tried in order.
+  const fromEnv = (process.env.GEMINI_MODEL ?? '').split(',').map((m) => m.trim()).filter(Boolean)
+  const models = fromEnv.length > 0 ? fromEnv : DEFAULT_MODELS
   const limit = Number(process.env.INSIGHTS_MAX_PER_RUN) || 12
   const delayMs = Number(process.env.INSIGHTS_DELAY_MS) || 6500
 
@@ -48,7 +51,7 @@ async function main() {
     articles,
     existing,
     contexts,
-    gemini: { apiKey, model },
+    gemini: { apiKey, models },
     limit,
     delayMs,
     write: async (file) => {
@@ -61,7 +64,7 @@ async function main() {
   const summary = [
     '## AI insights (Gemini free tier)',
     '',
-    `- Model: \`${model}\``,
+    `- Models, tried in order: ${models.map((m) => `\`${m}\``).join(', ')}`,
     `- Written this run: **${result.written.length}**`,
     `- Failed: **${result.failed.length}**`,
     `- Still waiting: **${pending}**`,

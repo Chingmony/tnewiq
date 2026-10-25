@@ -94,7 +94,7 @@ describe('runInsights', () => {
   it('writes valid insight files and keeps the original headline in its own language', async () => {
     const written: InsightFile[] = []
     const fetchImpl = (async () => geminiReply(GOOD)) as unknown as typeof fetch
-    const result = await runInsights({ ...base, articles, gemini: { apiKey: 'k', model: 'm', fetchImpl }, write: async (f) => void written.push(f) })
+    const result = await runInsights({ ...base, articles, gemini: { apiKey: 'k', models: ['m'], fetchImpl }, write: async (f) => void written.push(f) })
     expect(result.written).toHaveLength(3)
     expect(InsightFileSchema.safeParse(written[0]).success).toBe(true)
     expect(written[0].languages.en.title).toBe('Original EN headline')
@@ -106,7 +106,7 @@ describe('runInsights', () => {
     let calls = 0
     const fetchImpl = (async () => (++calls === 1 ? geminiReply(GOOD) : new Response('{}', { status: 429 }))) as unknown as typeof fetch
     const written: InsightFile[] = []
-    const result = await runInsights({ ...base, articles, gemini: { apiKey: 'k', model: 'm', fetchImpl }, write: async (f) => void written.push(f) })
+    const result = await runInsights({ ...base, articles, gemini: { apiKey: 'k', models: ['m'], fetchImpl }, write: async (f) => void written.push(f) })
     expect(written).toHaveLength(1)
     expect(result.stoppedBecause).toMatch(/quota/)
     expect(calls).toBe(2)
@@ -115,15 +115,56 @@ describe('runInsights', () => {
   it('skips an article whose response is invalid and carries on', async () => {
     let calls = 0
     const fetchImpl = (async () => (++calls === 1 ? geminiReply({ en: GOOD.en }) : geminiReply(GOOD))) as unknown as typeof fetch
-    const result = await runInsights({ ...base, articles, gemini: { apiKey: 'k', model: 'm', fetchImpl }, write: async () => {} })
+    const result = await runInsights({ ...base, articles, gemini: { apiKey: 'k', models: ['m'], fetchImpl }, write: async () => {} })
     expect(result.failed).toHaveLength(1)
     expect(result.written).toHaveLength(2)
   })
 
   it('stops immediately on a rejected key', async () => {
     const fetchImpl = (async () => new Response('{}', { status: 403 })) as unknown as typeof fetch
-    const result = await runInsights({ ...base, articles, gemini: { apiKey: 'bad', model: 'm', fetchImpl }, write: async () => {} })
+    const result = await runInsights({ ...base, articles, gemini: { apiKey: 'bad', models: ['m'], fetchImpl }, write: async () => {} })
     expect(result.written).toHaveLength(0)
     expect(result.stoppedBecause).toMatch(/API key/)
+  })
+})
+
+describe('runInsights when Gemini is overloaded', () => {
+  const one = [article({ id: '1111111111111111' })]
+  const base = { existing: new Map<string, string>(), contexts: {}, limit: 10, delayMs: 0, retryDelaysMs: [1, 2] }
+  const busy = () => new Response(JSON.stringify({ error: { message: 'The model is overloaded.' } }), { status: 503 })
+
+  it('waits and retries the same model before giving up on it', async () => {
+    const waits: number[] = []
+    let calls = 0
+    const fetchImpl = (async () => (++calls < 3 ? busy() : geminiReply(GOOD))) as unknown as typeof fetch
+    const written: InsightFile[] = []
+    const result = await runInsights({ ...base, articles: one, sleep: async (ms) => void waits.push(ms), gemini: { apiKey: 'k', models: ['main'], fetchImpl }, write: async (f) => void written.push(f) })
+    expect(result.written).toHaveLength(1)
+    expect(waits).toEqual([1, 2])
+    expect(written[0].model).toBe('main')
+  })
+
+  it('falls back to the next model and records which one wrote the briefing', async () => {
+    const fetchImpl = (async (url: string) => (url.includes('/main:') ? busy() : geminiReply(GOOD))) as unknown as typeof fetch
+    const written: InsightFile[] = []
+    const result = await runInsights({ ...base, articles: one, sleep: async () => {}, gemini: { apiKey: 'k', models: ['main', 'lite'], fetchImpl }, write: async (f) => void written.push(f) })
+    expect(result.written).toHaveLength(1)
+    expect(written[0].model).toBe('lite')
+  })
+
+  it('skips a model that does not exist and uses the next one', async () => {
+    const fetchImpl = (async (url: string) => (url.includes('/gone:') ? new Response('{}', { status: 404 }) : geminiReply(GOOD))) as unknown as typeof fetch
+    const written: InsightFile[] = []
+    const result = await runInsights({ ...base, articles: one, sleep: async () => {}, gemini: { apiKey: 'k', models: ['gone', 'lite'], fetchImpl }, write: async (f) => void written.push(f) })
+    expect(written[0].model).toBe('lite')
+    expect(result.stoppedBecause).toBeNull()
+  })
+
+  it('stops calmly with a retry-later message when every model stays overloaded', async () => {
+    const fetchImpl = (async () => busy()) as unknown as typeof fetch
+    const result = await runInsights({ ...base, articles: [...one, article({ id: '2222222222222222' })], sleep: async () => {}, gemini: { apiKey: 'k', models: ['main', 'lite'], fetchImpl }, write: async () => {} })
+    expect(result.written).toHaveLength(0)
+    expect(result.failed).toHaveLength(0)
+    expect(result.stoppedBecause).toMatch(/temporarily overloaded.*next run/)
   })
 })

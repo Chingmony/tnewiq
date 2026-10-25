@@ -7,7 +7,7 @@ import {
   type LocalizedInsight,
 } from '../../src/shared/insight.ts'
 import { toPlainText, truncate } from '../ingest/text.ts'
-import { AuthError, ModelError, QuotaError, generateJson, type GeminiOptions } from './gemini.ts'
+import { AuthError, ModelError, QuotaError, UnavailableError, generateJson, type GeminiOptions } from './gemini.ts'
 
 export const SYSTEM_PROMPT = `You write short, neutral technology news briefings for TNewIQ.
 
@@ -81,7 +81,10 @@ export interface InsightRunOptions {
   /** articleId → contentHash of insights already on disk */
   existing: ReadonlyMap<string, string>
   contexts: Readonly<Record<string, string>>
-  gemini: GeminiOptions
+  /** Models to try in order; later ones are fallbacks when earlier ones are overloaded or missing. */
+  gemini: Omit<GeminiOptions, 'model'> & { models: string[] }
+  /** Waits before retrying an overloaded model. */
+  retryDelaysMs?: number[]
   limit: number
   delayMs: number
   now?: () => Date
@@ -95,17 +98,56 @@ export interface InsightRunResult {
   stoppedBecause: string | null
 }
 
+/** Thrown when every configured model is overloaded or missing for one article. */
+class NoModelAvailable extends Error {}
+
 export async function runInsights(opts: InsightRunOptions): Promise<InsightRunResult> {
   const sleep = opts.sleep ?? ((ms: number) => new Promise<void>((r) => setTimeout(r, ms)))
   const now = opts.now ?? (() => new Date())
+  const retryDelays = opts.retryDelaysMs ?? [15_000, 30_000]
   const result: InsightRunResult = { written: [], failed: [], stoppedBecause: null }
   const queue = selectArticles(opts.articles, opts.existing, opts.limit)
+  const { models: configured, ...gemini } = opts.gemini
+  const models = [...configured]
+
+  /** Tries each model in turn, retrying overloaded ones after a pause. Returns the response and the model used. */
+  async function ask(system: string, user: string): Promise<{ raw: unknown; model: string }> {
+    let lastError = 'no model configured'
+    for (const model of [...models]) {
+      for (let attempt = 0; ; attempt++) {
+        try {
+          return { raw: await generateJson(system, user, { ...gemini, model }), model }
+        } catch (err) {
+          if (err instanceof UnavailableError && attempt < retryDelays.length) {
+            await sleep(retryDelays[attempt])
+            continue
+          }
+          if (err instanceof UnavailableError) {
+            lastError = err.message
+            break // try the next model
+          }
+          if (err instanceof ModelError) {
+            // This model does not exist for the key; drop it for the rest of the run.
+            models.splice(models.indexOf(model), 1)
+            lastError = err.message
+            break
+          }
+          throw err
+        }
+      }
+    }
+    throw new NoModelAvailable(
+      models.length === 0
+        ? `None of the configured models are available (${configured.join(', ')}). Set GEMINI_MODEL to an available model.`
+        : `Gemini is temporarily overloaded (${lastError}). The remaining stories will be tried on the next run.`,
+    )
+  }
 
   for (const [i, article] of queue.entries()) {
     if (i > 0) await sleep(opts.delayMs)
     const context = opts.contexts[article.id]
     try {
-      const raw = await generateJson(SYSTEM_PROMPT, buildUserPrompt(article, context), opts.gemini)
+      const { raw, model } = await ask(SYSTEM_PROMPT, buildUserPrompt(article, context))
       const languages = validateInsight(raw)
       // The headline in its own language is never rewritten by the model.
       const own = article.originalLanguage
@@ -114,15 +156,15 @@ export async function runInsights(opts: InsightRunOptions): Promise<InsightRunRe
         schemaVersion: INSIGHT_SCHEMA_VERSION,
         articleId: article.id,
         contentHash: article.contentHash,
-        model: opts.gemini.model,
+        model,
         generatedAt: now().toISOString(),
         basedOn: context ? 'feed-text' : 'excerpt',
         languages,
       })
       result.written.push(article.id)
     } catch (err) {
-      // Quota, bad key or unknown model will not fix themselves within this run.
-      if (err instanceof QuotaError || err instanceof AuthError || err instanceof ModelError) {
+      // Quota, a bad key, or every model being unavailable will not fix itself within this run.
+      if (err instanceof QuotaError || err instanceof AuthError || err instanceof NoModelAvailable) {
         result.stoppedBecause = err.message
         break
       }
