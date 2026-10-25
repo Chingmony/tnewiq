@@ -1,0 +1,269 @@
+{
+ "schemaVersion": 1,
+ "sources": [
+  {
+   "id": "openai-news",
+   "name": "OpenAI News",
+   "homepage": "https://openai.com/news/",
+   "language": "en",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "google-ai-blog",
+   "name": "Google AI Blog",
+   "homepage": "https://blog.google/technology/ai/",
+   "language": "en",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "huggingface-blog",
+   "name": "Hugging Face Blog",
+   "homepage": "https://huggingface.co/blog",
+   "language": "en",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "cisa-advisories",
+   "name": "CISA Cybersecurity Advisories",
+   "homepage": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+   "language": "en",
+   "topics": [
+    "cybersecurity"
+   ]
+  },
+  {
+   "id": "krebs-on-security",
+   "name": "Krebs on Security",
+   "homepage": "https://krebsonsecurity.com/",
+   "language": "en",
+   "topics": [
+    "cybersecurity"
+   ]
+  },
+  {
+   "id": "the-hacker-news",
+   "name": "The Hacker News",
+   "homepage": "https://thehackernews.com/",
+   "language": "en",
+   "topics": [
+    "cybersecurity"
+   ]
+  },
+  {
+   "id": "github-blog",
+   "name": "The GitHub Blog",
+   "homepage": "https://github.blog/",
+   "language": "en",
+   "topics": [
+    "developer-tools"
+   ]
+  },
+  {
+   "id": "vscode-blog",
+   "name": "Visual Studio Code Blog",
+   "homepage": "https://code.visualstudio.com/blogs",
+   "language": "en",
+   "topics": [
+    "developer-tools"
+   ]
+  },
+  {
+   "id": "naver-d2",
+   "name": "NAVER D2",
+   "homepage": "https://d2.naver.com/",
+   "language": "ko",
+   "topics": [
+    "developer-tools"
+   ]
+  },
+  {
+   "id": "woowahan-techblog",
+   "name": "우아한형제들 기술블로그",
+   "homepage": "https://techblog.woowahan.com/",
+   "language": "ko",
+   "topics": [
+    "developer-tools"
+   ]
+  },
+  {
+   "id": "oschina-news",
+   "name": "开源中国 资讯",
+   "homepage": "https://www.oschina.net/news",
+   "language": "zh-CN",
+   "topics": [
+    "developer-tools"
+   ]
+  },
+  {
+   "id": "ruanyifeng-blog",
+   "name": "阮一峰的网络日志",
+   "homepage": "https://www.ruanyifeng.com/blog/",
+   "language": "zh-CN",
+   "topics": [
+    "developer-tools"
+   ]
+  },
+  {
+   "id": "rust-blog",
+   "name": "Rust Blog",
+   "homepage": "https://blog.rust-lang.org/",
+   "language": "en",
+   "topics": [
+    "programming-languages"
+   ]
+  },
+  {
+   "id": "go-blog",
+   "name": "The Go Blog",
+   "homepage": "https://go.dev/blog/",
+   "language": "en",
+   "topics": [
+    "programming-languages"
+   ]
+  },
+  {
+   "id": "python-insider",
+   "name": "Python Insider",
+   "homepage": "https://blog.python.org/",
+   "language": "en",
+   "topics": [
+    "programming-languages"
+   ]
+  },
+  {
+   "id": "typescript-blog",
+   "name": "TypeScript Blog",
+   "homepage": "https://devblogs.microsoft.com/typescript/",
+   "language": "en",
+   "topics": [
+    "programming-languages"
+   ]
+  },
+  {
+   "id": "nodejs-releases",
+   "name": "Node.js Releases",
+   "homepage": "https://nodejs.org/en/blog/release",
+   "language": "en",
+   "topics": [
+    "programming-languages"
+   ]
+  },
+  {
+   "id": "kubernetes-blog",
+   "name": "Kubernetes Blog",
+   "homepage": "https://kubernetes.io/blog/",
+   "language": "en",
+   "topics": [
+    "cloud-infrastructure"
+   ]
+  },
+  {
+   "id": "docker-blog",
+   "name": "Docker Blog",
+   "homepage": "https://www.docker.com/blog/",
+   "language": "en",
+   "topics": [
+    "cloud-infrastructure"
+   ]
+  },
+  {
+   "id": "aws-whats-new",
+   "name": "AWS What's New",
+   "homepage": "https://aws.amazon.com/new/",
+   "language": "en",
+   "topics": [
+    "cloud-infrastructure"
+   ]
+  },
+  {
+   "id": "cloudflare-blog",
+   "name": "The Cloudflare Blog",
+   "homepage": "https://blog.cloudflare.com/",
+   "language": "en",
+   "topics": [
+    "cloud-infrastructure"
+   ]
+  },
+  {
+   "id": "techcrunch-startups",
+   "name": "TechCrunch Startups",
+   "homepage": "https://techcrunch.com/category/startups/",
+   "language": "en",
+   "topics": [
+    "startups-products"
+   ]
+  },
+  {
+   "id": "product-hunt",
+   "name": "Product Hunt",
+   "homepage": "https://www.producthunt.com/",
+   "language": "en",
+   "topics": [
+    "startups-products"
+   ]
+  },
+  {
+   "id": "arxiv-cs-ai",
+   "name": "arXiv cs.AI",
+   "homepage": "https://arxiv.org/list/cs.AI/recent",
+   "language": "en",
+   "topics": [
+    "research-papers",
+    "ai"
+   ]
+  },
+  {
+   "id": "arxiv-cs-cr",
+   "name": "arXiv cs.CR",
+   "homepage": "https://arxiv.org/list/cs.CR/recent",
+   "language": "en",
+   "topics": [
+    "research-papers",
+    "cybersecurity"
+   ]
+  },
+  {
+   "id": "arxiv-cs-lg",
+   "name": "arXiv cs.LG",
+   "homepage": "https://arxiv.org/list/cs.LG/recent",
+   "language": "en",
+   "topics": [
+    "research-papers",
+    "ai"
+   ]
+  },
+  {
+   "id": "apple-newsroom",
+   "name": "Apple Newsroom",
+   "homepage": "https://www.apple.com/newsroom/",
+   "language": "en",
+   "topics": [
+    "mobile-hardware"
+   ]
+  },
+  {
+   "id": "android-developers-blog",
+   "name": "Android Developers Blog",
+   "homepage": "https://android-developers.googleblog.com/",
+   "language": "en",
+   "topics": [
+    "mobile-hardware"
+   ]
+  },
+  {
+   "id": "ars-technica-gadgets",
+   "name": "Ars Technica Gadgets",
+   "homepage": "https://arstechnica.com/gadgets/",
+   "language": "en",
+   "topics": [
+    "mobile-hardware"
+   ]
+  }
+ ]
+}

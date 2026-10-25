@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Test fixture. Not real articles. -->
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Fixture Feed</title>
+    <link>https://example.com/</link>
+    <item>
+      <title>Fixture: LLM toolkit &amp; agents ship version 2</title>
+      <link>https://Example.com/posts/llm-toolkit?utm_source=rss&amp;utm_medium=feed&amp;id=7#comments</link>
+      <guid isPermaLink="false">fixture-1</guid>
+      <pubDate>Fri, 23 Oct 2026 09:30:00 GMT</pubDate>
+      <description><![CDATA[<p>The <b>toolkit</b> adds streaming.</p><script>alert('x')</script><img src="x" onerror="alert(1)">&nbsp;Read more]]></description>
+      <media:thumbnail url="https://example.com/thumb.jpg" />
+    </item>
+    <item>
+      <title>ឧបករណ៍ AI ថ្មីសម្រាប់អ្នកអភិវឌ្ឍន៍</title>
+      <link>/km/posts/new-ai-tool</link>
+      <pubDate>2026-10-24T03:00:00+07:00</pubDate>
+      <description>អត្ថបទសាកល្បងជាភាសាខ្មែរ។</description>
+    </item>
+    <item>
+      <title>Item with a broken date</title>
+      <link>https://example.com/posts/broken-date</link>
+      <pubDate>not a date</pubDate>
+    </item>
+    <item>
+      <title>Item with a dangerous link</title>
+      <link>javascript:alert(1)</link>
+    </item>
+    <item>
+      <title>Item from the far future</title>
+      <link>https://example.com/posts/future</link>
+      <pubDate>Mon, 01 Jan 2035 00:00:00 GMT</pubDate>
+      <enclosure url="http://example.com/insecure.jpg" type="image/jpeg" length="1" />
+    </item>
+  </channel>
+</rss>

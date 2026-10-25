@@ -1,0 +1,41 @@
+{
+  "$comment": "Allowlist of feeds DailyTech may fetch. Each URL was checked on 2026-10-25 and returned valid RSS or Atom. Only metadata, a short excerpt and the link are stored. Review each publisher's terms before making the site public.",
+  "sources": [
+    { "id": "openai-news", "name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "homepage": "https://openai.com/news/", "language": "en", "topics": ["ai"] },
+    { "id": "google-ai-blog", "name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/", "homepage": "https://blog.google/technology/ai/", "language": "en", "topics": ["ai"] },
+    { "id": "huggingface-blog", "name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml", "homepage": "https://huggingface.co/blog", "language": "en", "topics": ["ai"] },
+
+    { "id": "cisa-advisories", "name": "CISA Cybersecurity Advisories", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml", "homepage": "https://www.cisa.gov/news-events/cybersecurity-advisories", "language": "en", "topics": ["cybersecurity"] },
+    { "id": "krebs-on-security", "name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "homepage": "https://krebsonsecurity.com/", "language": "en", "topics": ["cybersecurity"] },
+    { "id": "the-hacker-news", "name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "homepage": "https://thehackernews.com/", "language": "en", "topics": ["cybersecurity"], "allowedRedirectHosts": ["thehackernews.com"] },
+
+    { "id": "github-blog", "name": "The GitHub Blog", "url": "https://github.blog/feed/", "homepage": "https://github.blog/", "language": "en", "topics": ["developer-tools"] },
+    { "id": "vscode-blog", "name": "Visual Studio Code Blog", "url": "https://code.visualstudio.com/feed.xml", "homepage": "https://code.visualstudio.com/blogs", "language": "en", "topics": ["developer-tools"] },
+    { "id": "naver-d2", "name": "NAVER D2", "url": "https://d2.naver.com/d2.atom", "homepage": "https://d2.naver.com/", "language": "ko", "topics": ["developer-tools"] },
+    { "id": "woowahan-techblog", "name": "우아한형제들 기술블로그", "url": "https://techblog.woowahan.com/feed/", "homepage": "https://techblog.woowahan.com/", "language": "ko", "topics": ["developer-tools"] },
+    { "id": "oschina-news", "name": "开源中国 资讯", "url": "https://www.oschina.net/news/rss", "homepage": "https://www.oschina.net/news", "language": "zh-CN", "topics": ["developer-tools"] },
+    { "id": "ruanyifeng-blog", "name": "阮一峰的网络日志", "url": "https://www.ruanyifeng.com/blog/atom.xml", "homepage": "https://www.ruanyifeng.com/blog/", "language": "zh-CN", "topics": ["developer-tools"] },
+
+    { "id": "rust-blog", "name": "Rust Blog", "url": "https://blog.rust-lang.org/feed.xml", "homepage": "https://blog.rust-lang.org/", "language": "en", "topics": ["programming-languages"] },
+    { "id": "go-blog", "name": "The Go Blog", "url": "https://go.dev/blog/feed.atom", "homepage": "https://go.dev/blog/", "language": "en", "topics": ["programming-languages"] },
+    { "id": "python-insider", "name": "Python Insider", "url": "https://blog.python.org/feeds/posts/default", "homepage": "https://blog.python.org/", "language": "en", "topics": ["programming-languages"], "allowedRedirectHosts": ["pythoninsider.blogspot.com", "www.blogger.com"] },
+    { "id": "typescript-blog", "name": "TypeScript Blog", "url": "https://devblogs.microsoft.com/typescript/feed/", "homepage": "https://devblogs.microsoft.com/typescript/", "language": "en", "topics": ["programming-languages"] },
+    { "id": "nodejs-releases", "name": "Node.js Releases", "url": "https://nodejs.org/en/feed/releases.xml", "homepage": "https://nodejs.org/en/blog/release", "language": "en", "topics": ["programming-languages"], "maxItems": 10 },
+
+    { "id": "kubernetes-blog", "name": "Kubernetes Blog", "url": "https://kubernetes.io/feed.xml", "homepage": "https://kubernetes.io/blog/", "language": "en", "topics": ["cloud-infrastructure"] },
+    { "id": "docker-blog", "name": "Docker Blog", "url": "https://www.docker.com/blog/feed/", "homepage": "https://www.docker.com/blog/", "language": "en", "topics": ["cloud-infrastructure"] },
+    { "id": "aws-whats-new", "name": "AWS What's New", "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/", "homepage": "https://aws.amazon.com/new/", "language": "en", "topics": ["cloud-infrastructure"], "maxItems": 20 },
+    { "id": "cloudflare-blog", "name": "The Cloudflare Blog", "url": "https://blog.cloudflare.com/rss/", "homepage": "https://blog.cloudflare.com/", "language": "en", "topics": ["cloud-infrastructure"] },
+
+    { "id": "techcrunch-startups", "name": "TechCrunch Startups", "url": "https://techcrunch.com/category/startups/feed/", "homepage": "https://techcrunch.com/category/startups/", "language": "en", "topics": ["startups-products"] },
+    { "id": "product-hunt", "name": "Product Hunt", "url": "https://www.producthunt.com/feed", "homepage": "https://www.producthunt.com/", "language": "en", "topics": ["startups-products"], "maxItems": 15 },
+
+    { "id": "arxiv-cs-ai", "name": "arXiv cs.AI", "url": "https://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=20", "homepage": "https://arxiv.org/list/cs.AI/recent", "language": "en", "topics": ["research-papers", "ai"] },
+    { "id": "arxiv-cs-cr", "name": "arXiv cs.CR", "url": "https://export.arxiv.org/api/query?search_query=cat:cs.CR&sortBy=submittedDate&sortOrder=descending&max_results=20", "homepage": "https://arxiv.org/list/cs.CR/recent", "language": "en", "topics": ["research-papers", "cybersecurity"] },
+    { "id": "arxiv-cs-lg", "name": "arXiv cs.LG", "url": "https://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=20", "homepage": "https://arxiv.org/list/cs.LG/recent", "language": "en", "topics": ["research-papers", "ai"] },
+
+    { "id": "apple-newsroom", "name": "Apple Newsroom", "url": "https://www.apple.com/newsroom/rss-feed.rss", "homepage": "https://www.apple.com/newsroom/", "language": "en", "topics": ["mobile-hardware"] },
+    { "id": "android-developers-blog", "name": "Android Developers Blog", "url": "https://android-developers.googleblog.com/feeds/posts/default", "homepage": "https://android-developers.googleblog.com/", "language": "en", "topics": ["mobile-hardware"], "allowedRedirectHosts": ["developer.android.com"] },
+    { "id": "ars-technica-gadgets", "name": "Ars Technica Gadgets", "url": "https://feeds.arstechnica.com/arstechnica/gadgets", "homepage": "https://arstechnica.com/gadgets/", "language": "en", "topics": ["mobile-hardware"] }
+  ]
+}

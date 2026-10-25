@@ -1,0 +1,62 @@
+name: Ingest
+
+# Collects the configured feeds every hour and commits public/data only when the content changed.
+# Feeds update on their own schedule; running hourly does not mean every feed has new items each hour.
+on:
+  schedule:
+    - cron: '17 * * * *' # minute 17 avoids the top-of-hour rush; GitHub may still delay scheduled runs
+  workflow_dispatch:
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Collect feeds
+        run: npm run ingest
+
+      - name: Commit data if it changed
+        id: commit
+        run: |
+          if git diff --quiet -- public/data; then
+            echo "No data changes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          git commit -m "data: update articles $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  # Pushes made with GITHUB_TOKEN do not trigger other workflows, so deploy is called directly.
+  deploy:
+    needs: ingest
+    if: needs.ingest.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    with:
+      ref: main
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
