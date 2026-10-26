@@ -58,14 +58,15 @@ sources/sources.json ──► scripts/ingest (GitHub Actions, hourly)
 
 ## Sources
 
-51 feeds, each checked on 2026-10-25 or 2026-10-26 and found to return valid RSS or Atom. They are listed in `sources/sources.json` with their homepages.
+61 feeds, each checked on 2026-10-25 or 2026-10-26 and found to return valid RSS or Atom. They are listed in `sources/sources.json` with their homepages.
 
 - **AI labs and companies:** OpenAI News, Anthropic News, Research and Engineering\*, Engineering at Meta (AI), Meta Newsroom, Google AI Blog, Google DeepMind Blog, Google Research Blog, Microsoft Research Blog, Hugging Face Blog, NVIDIA Blog, NVIDIA Technical Blog, AWS Machine Learning Blog
 - **AI news:** TechCrunch AI, The Verge AI, MIT Technology Review AI, Ars Technica AI, The Decoder, 量子位 (zh-CN), AI타임스 (ko)
 - **AI analysis:** Simon Willison's Weblog, Import AI, Latent Space
 
 \* Anthropic publishes no feed of its own. These three come from the community project [Olshansk/rss-feeds](https://github.com/Olshansk/rss-feeds), which turns anthropic.com pages into RSS. Links still lead to anthropic.com, but the feeds may lag or stop if that project changes. Meta AI's own site (ai.meta.com) has no feed and its robots.txt forbids automated collection without permission, so Meta is covered through its official Newsroom and Engineering blog feeds instead.
-- **Cybersecurity:** CISA Cybersecurity Advisories, Krebs on Security, The Hacker News
+- **Cybersecurity (official):** CISA Cybersecurity Advisories, CISA News, NIST CSRC Drafts Open for Comment, NIST Cybersecurity Insights, MITRE ATLAS Releases, MITRE ATT&CK Releases, MITRE ATT&CK Blog, OWASP Gen AI Security Project, OWASP ASVS Releases, NCSC (UK), CERT/CC Vulnerability Notes
+- **Cybersecurity (news):** Krebs on Security, The Hacker News
 - **Developer tools:** The GitHub Blog, VS Code Blog, NAVER D2 (ko), 우아한형제들 기술블로그 (ko), 开源中国 (zh-CN), 阮一峰的网络日志 (zh-CN)
 - **Languages:** Rust Blog, The Go Blog, Python Insider, TypeScript Blog, Node.js Releases
 - **Cloud:** Kubernetes Blog, Docker Blog, AWS What's New, The Cloudflare Blog
@@ -73,7 +74,7 @@ sources/sources.json ──► scripts/ingest (GitHub Actions, hourly)
 - **Research:** arXiv cs.AI, cs.CL, cs.CR and cs.LG (via the arXiv API, with 3.5 s between requests)
 - **Mobile and hardware:** Apple Newsroom, Android Developers Blog, Ars Technica Gadgets
 
-Dropped after checking: InfoQ China and 36Kr (they serve HTML, not a feed); Mistral (no public feed); Hugging Face Papers (needs sign-in); VentureBeat (blocks automated requests). No Khmer-language technology feed has been verified yet.
+Dropped after checking: InfoQ China and 36Kr (they serve HTML, not a feed); Mistral (no public feed); OWASP's main site and NIST's cybersecurity news feed (no feed, or an empty one; OWASP and NIST are covered by the project and publication feeds above); Google Project Zero (its feed is over the 8 MB limit); Hugging Face Papers (needs sign-in); VentureBeat (blocks automated requests). No Khmer-language technology feed has been verified yet.
 
 TNewIQ stores only metadata, a short excerpt and the link, and sends readers to the original article. Review each publisher's terms of use before you publicise the site.
 
