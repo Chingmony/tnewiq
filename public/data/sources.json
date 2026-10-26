@@ -29,6 +29,202 @@
    ]
   },
   {
+   "id": "anthropic-news",
+   "name": "Anthropic News",
+   "homepage": "https://www.anthropic.com/news",
+   "language": "en",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "anthropic-research",
+   "name": "Anthropic Research",
+   "homepage": "https://www.anthropic.com/research",
+   "language": "en",
+   "topics": [
+    "ai",
+    "research-papers"
+   ]
+  },
+  {
+   "id": "anthropic-engineering",
+   "name": "Anthropic Engineering",
+   "homepage": "https://www.anthropic.com/engineering",
+   "language": "en",
+   "topics": [
+    "ai",
+    "developer-tools"
+   ]
+  },
+  {
+   "id": "meta-engineering-ai",
+   "name": "Engineering at Meta: AI",
+   "homepage": "https://engineering.fb.com/category/ai-research/",
+   "language": "en",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "meta-newsroom",
+   "name": "Meta Newsroom",
+   "homepage": "https://about.fb.com/news/",
+   "language": "en",
+   "topics": [
+    "startups-products"
+   ]
+  },
+  {
+   "id": "google-deepmind-blog",
+   "name": "Google DeepMind Blog",
+   "homepage": "https://deepmind.google/discover/blog/",
+   "language": "en",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "google-research-blog",
+   "name": "Google Research Blog",
+   "homepage": "https://research.google/blog/",
+   "language": "en",
+   "topics": [
+    "ai",
+    "research-papers"
+   ]
+  },
+  {
+   "id": "microsoft-research-blog",
+   "name": "Microsoft Research Blog",
+   "homepage": "https://www.microsoft.com/en-us/research/blog/",
+   "language": "en",
+   "topics": [
+    "ai",
+    "research-papers"
+   ]
+  },
+  {
+   "id": "nvidia-blog",
+   "name": "NVIDIA Blog",
+   "homepage": "https://blogs.nvidia.com/",
+   "language": "en",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ]
+  },
+  {
+   "id": "nvidia-technical-blog",
+   "name": "NVIDIA Technical Blog",
+   "homepage": "https://developer.nvidia.com/blog/",
+   "language": "en",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "aws-machine-learning-blog",
+   "name": "AWS Machine Learning Blog",
+   "homepage": "https://aws.amazon.com/blogs/machine-learning/",
+   "language": "en",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ]
+  },
+  {
+   "id": "techcrunch-ai",
+   "name": "TechCrunch AI",
+   "homepage": "https://techcrunch.com/category/artificial-intelligence/",
+   "language": "en",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "the-verge-ai",
+   "name": "The Verge AI",
+   "homepage": "https://www.theverge.com/ai-artificial-intelligence",
+   "language": "en",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "mit-technology-review-ai",
+   "name": "MIT Technology Review AI",
+   "homepage": "https://www.technologyreview.com/topic/artificial-intelligence/",
+   "language": "en",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "ars-technica-ai",
+   "name": "Ars Technica AI",
+   "homepage": "https://arstechnica.com/ai/",
+   "language": "en",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "the-decoder",
+   "name": "The Decoder",
+   "homepage": "https://the-decoder.com/",
+   "language": "en",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "simon-willison",
+   "name": "Simon Willison's Weblog",
+   "homepage": "https://simonwillison.net/",
+   "language": "en",
+   "topics": [
+    "ai",
+    "developer-tools"
+   ]
+  },
+  {
+   "id": "import-ai",
+   "name": "Import AI",
+   "homepage": "https://importai.substack.com/",
+   "language": "en",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "latent-space",
+   "name": "Latent Space",
+   "homepage": "https://www.latent.space/",
+   "language": "en",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "qbitai",
+   "name": "量子位",
+   "homepage": "https://www.qbitai.com/",
+   "language": "zh-CN",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
+   "id": "aitimes-kr",
+   "name": "AI타임스",
+   "homepage": "https://www.aitimes.com/",
+   "language": "ko",
+   "topics": [
+    "ai"
+   ]
+  },
+  {
    "id": "cisa-advisories",
    "name": "CISA Cybersecurity Advisories",
    "homepage": "https://www.cisa.gov/news-events/cybersecurity-advisories",
@@ -232,6 +428,16 @@
    "id": "arxiv-cs-lg",
    "name": "arXiv cs.LG",
    "homepage": "https://arxiv.org/list/cs.LG/recent",
+   "language": "en",
+   "topics": [
+    "research-papers",
+    "ai"
+   ]
+  },
+  {
+   "id": "arxiv-cs-cl",
+   "name": "arXiv cs.CL",
+   "homepage": "https://arxiv.org/list/cs.CL/recent",
    "language": "en",
    "topics": [
     "research-papers",
