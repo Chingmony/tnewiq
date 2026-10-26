@@ -76,6 +76,26 @@ describe('generateJson', () => {
     expect(seen!.url).not.toContain('secret-key')
     expect((seen!.init.headers as Record<string, string>)['x-goog-api-key']).toBe('secret-key')
     expect(JSON.parse(seen!.init.body as string).generationConfig.responseMimeType).toBe('application/json')
+    expect(JSON.parse(seen!.init.body as string).generationConfig.thinkingConfig).toEqual({ thinkingLevel: 'minimal' })
+  })
+
+  it('asks again with default thinking when the model refuses to turn it off', async () => {
+    const bodies: Array<{ generationConfig: Record<string, unknown> }> = []
+    const fetchImpl = (async (_url: string, init: RequestInit) => {
+      bodies.push(JSON.parse(init.body as string))
+      return bodies.length === 1
+        ? new Response(JSON.stringify({ error: { message: 'Request contains an invalid argument.' } }), { status: 400 })
+        : geminiReply(GOOD)
+    }) as unknown as typeof fetch
+    await generateJson('s', 'u', { apiKey: 'k', model: 'm', fetchImpl })
+    expect(bodies).toHaveLength(2)
+    expect(bodies[1].generationConfig.thinkingConfig).toBeUndefined()
+  })
+
+  it('reports a slow answer as a timeout', async () => {
+    const fetchImpl = (async (_url: string, init: RequestInit) =>
+      new Promise((_, reject) => init.signal!.addEventListener('abort', () => reject(init.signal!.reason)))) as unknown as typeof fetch
+    await expect(generateJson('s', 'u', { apiKey: 'k', model: 'm', fetchImpl, timeoutMs: 10 })).rejects.toThrow(/did not answer within/)
   })
 
   it('refuses model names that could alter the URL', async () => {
@@ -150,6 +170,29 @@ describe('runInsights when Gemini is overloaded', () => {
     const result = await runInsights({ ...base, articles: one, sleep: async () => {}, gemini: { apiKey: 'k', models: ['main', 'lite'], fetchImpl }, write: async (f) => void written.push(f) })
     expect(result.written).toHaveLength(1)
     expect(written[0].model).toBe('lite')
+  })
+
+  it('moves on to the next model after a timeout and asks it first for later stories', async () => {
+    const asked: string[] = []
+    const fetchImpl = (async (url: string, init: RequestInit) => {
+      asked.push(url.includes('/slow:') ? 'slow' : 'lite')
+      if (url.includes('/slow:')) return new Promise((_, reject) => init.signal!.addEventListener('abort', () => reject(init.signal!.reason)))
+      return geminiReply(GOOD)
+    }) as unknown as typeof fetch
+    const written: InsightFile[] = []
+    const two = [...one, article({ id: '2222222222222222' })]
+    const result = await runInsights({ ...base, articles: two, sleep: async () => {}, gemini: { apiKey: 'k', models: ['slow', 'lite'], fetchImpl, timeoutMs: 10 }, write: async (f) => void written.push(f) })
+    expect(result.written).toHaveLength(2)
+    expect(written.map((f) => f.model)).toEqual(['lite', 'lite'])
+    expect(asked).toEqual(['slow', 'lite', 'lite'])
+  })
+
+  it('uses the next model when one has used up its quota', async () => {
+    const fetchImpl = (async (url: string) => (url.includes('/main:') ? new Response('{}', { status: 429 }) : geminiReply(GOOD))) as unknown as typeof fetch
+    const written: InsightFile[] = []
+    const result = await runInsights({ ...base, articles: [...one, article({ id: '2222222222222222' })], sleep: async () => {}, gemini: { apiKey: 'k', models: ['main', 'lite'], fetchImpl }, write: async (f) => void written.push(f) })
+    expect(written.map((f) => f.model)).toEqual(['lite', 'lite'])
+    expect(result.stoppedBecause).toBeNull()
   })
 
   it('skips a model that does not exist and uses the next one', async () => {

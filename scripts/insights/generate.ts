@@ -7,7 +7,7 @@ import {
   type LocalizedInsight,
 } from '../../src/shared/insight.ts'
 import { toPlainText, truncate } from '../ingest/text.ts'
-import { AuthError, ModelError, QuotaError, UnavailableError, generateJson, type GeminiOptions } from './gemini.ts'
+import { AuthError, ModelError, QuotaError, TimeoutError, UnavailableError, generateJson, type GeminiOptions } from './gemini.ts'
 
 export const SYSTEM_PROMPT = `You write short, neutral technology news briefings for TNewIQ.
 
@@ -18,7 +18,7 @@ Rules:
 - "summary": 2-4 sentences explaining what happened.
 - "impact": 1-3 sentences on why this could matter to developers, security teams or technology users. Stay grounded in the source and use cautious wording ("could", "may"). No speculation beyond the source.
 - "keyPoints": 2-4 short factual points taken from the source.
-- "title": a faithful translation of the headline. For the headline's own language, repeat the headline exactly.
+- "title": the headline translated into that block's language. Never copy the English headline into "km", "zh-CN" or "ko"; only names, products and version numbers stay as they are.
 - Write each language natively: "en" English; "km" Khmer in Khmer script; "zh-CN" Simplified Chinese; "ko" Korean.
 - Keep product names, company names, code identifiers, CVE IDs and version numbers unchanged.
 - Plain text only. No Markdown, no HTML, no emoji.`
@@ -109,6 +109,7 @@ export async function runInsights(opts: InsightRunOptions): Promise<InsightRunRe
   const queue = selectArticles(opts.articles, opts.existing, opts.limit)
   const { models: configured, ...gemini } = opts.gemini
   const models = [...configured]
+  let quotaHit = false
 
   /** Tries each model in turn, retrying overloaded ones after a pause. Returns the response and the model used. */
   async function ask(system: string, user: string): Promise<{ raw: unknown; model: string }> {
@@ -126,9 +127,16 @@ export async function runInsights(opts: InsightRunOptions): Promise<InsightRunRe
             lastError = err.message
             break // try the next model
           }
-          if (err instanceof ModelError) {
-            // This model does not exist for the key; drop it for the rest of the run.
+          if (err instanceof TimeoutError) {
+            // Too slow right now: try the next model, and ask the others first for later stories.
+            models.push(...models.splice(models.indexOf(model), 1))
+            lastError = err.message
+            break
+          }
+          if (err instanceof ModelError || err instanceof QuotaError) {
+            // Missing for this key, or its free quota is used up (each model has its own): drop it for the rest of the run.
             models.splice(models.indexOf(model), 1)
+            if (err instanceof QuotaError) quotaHit = true
             lastError = err.message
             break
           }
@@ -136,6 +144,7 @@ export async function runInsights(opts: InsightRunOptions): Promise<InsightRunRe
         }
       }
     }
+    if (models.length === 0 && quotaHit) throw new QuotaError(`Gemini free-tier quota reached for every model (${configured.join(', ')})`)
     throw new NoModelAvailable(
       models.length === 0
         ? `None of the configured models are available (${configured.join(', ')}). Set GEMINI_MODEL to an available model.`

@@ -18,7 +18,7 @@ permissions:
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v5
 
@@ -36,6 +36,7 @@ jobs:
       # Skipped when the GEMINI_API_KEY secret is missing; a failure here never blocks the data commit.
       - name: Write AI insights
         continue-on-error: true
+        timeout-minutes: 10 # briefings are saved one by one, so a cut-off run still commits what it wrote
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}

@@ -6,37 +6,48 @@ export class AuthError extends Error {}
 export class ModelError extends Error {}
 /** Google is temporarily overloaded or down (HTTP 500/502/503/504). Worth retrying later. */
 export class UnavailableError extends Error {}
+/** No answer within the time limit. Retrying the same model rarely helps; try the next one. */
+export class TimeoutError extends Error {}
 
 export interface GeminiOptions {
   apiKey: string
   model: string
   fetchImpl?: typeof fetch
   timeoutMs?: number
+  /** Keep the model's "thinking" step to a minimum; it makes four-language answers slow. Default true. */
+  noThinking?: boolean
 }
 
 const ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models'
 
-const LANGUAGE_BLOCK = {
+/** One language's fields; the description tells the model which language the block is written in. */
+const languageBlock = (language: string) => ({
   type: 'OBJECT',
+  description: `Everything in this block is written in ${language}.`,
   properties: {
-    title: { type: 'STRING' },
+    title: { type: 'STRING', description: `The headline translated into ${language}` },
     summary: { type: 'STRING' },
     impact: { type: 'STRING' },
     keyPoints: { type: 'ARRAY', items: { type: 'STRING' } },
   },
   required: ['title', 'summary', 'impact', 'keyPoints'],
-}
+})
 
 /** Structured-output schema: the model must return all four languages. */
 export const RESPONSE_SCHEMA = {
   type: 'OBJECT',
-  properties: { en: LANGUAGE_BLOCK, km: LANGUAGE_BLOCK, 'zh-CN': LANGUAGE_BLOCK, ko: LANGUAGE_BLOCK },
+  properties: {
+    en: languageBlock('English'),
+    km: languageBlock('Khmer (Khmer script)'),
+    'zh-CN': languageBlock('Simplified Chinese'),
+    ko: languageBlock('Korean'),
+  },
   required: ['en', 'km', 'zh-CN', 'ko'],
 }
 
 /** Sends one prompt and returns the parsed JSON object. */
 export async function generateJson(system: string, user: string, opts: GeminiOptions): Promise<unknown> {
-  const { apiKey, model, fetchImpl = fetch, timeoutMs = 60_000 } = opts
+  const { apiKey, model, fetchImpl = fetch, timeoutMs = 120_000, noThinking = true } = opts
   if (!/^[\w.-]+$/.test(model)) throw new ModelError(`Invalid model name: ${model}`)
 
   let res: Response
@@ -48,10 +59,16 @@ export async function generateJson(system: string, user: string, opts: GeminiOpt
       body: JSON.stringify({
         systemInstruction: { parts: [{ text: system }] },
         contents: [{ role: 'user', parts: [{ text: user }] }],
-        generationConfig: { temperature: 0.2, responseMimeType: 'application/json', responseSchema: RESPONSE_SCHEMA },
+        generationConfig: {
+          temperature: 0.2,
+          responseMimeType: 'application/json',
+          responseSchema: RESPONSE_SCHEMA,
+          ...(noThinking ? { thinkingConfig: { thinkingLevel: 'minimal' } } : {}),
+        },
       }),
     })
   } catch (err) {
+    if ((err as Error).name === 'TimeoutError') throw new TimeoutError(`Gemini did not answer within ${timeoutMs / 1000} s`)
     throw new Error(`Network error: ${(err as Error).message}`)
   }
 
@@ -65,6 +82,8 @@ export async function generateJson(system: string, user: string, opts: GeminiOpt
       .json()
       .then((b: { error?: { message?: string } }) => b.error?.message ?? '')
       .catch(() => '')
+    // Older models reject thinkingLevel with a generic "invalid argument"; ask again with their default.
+    if (res.status === 400 && noThinking) return generateJson(system, user, { ...opts, noThinking: false })
     throw new Error(`Gemini HTTP ${res.status}${detail ? `: ${detail.slice(0, 160)}` : ''}`)
   }
 
