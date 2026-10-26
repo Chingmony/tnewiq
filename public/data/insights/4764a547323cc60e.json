@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4764a547323cc60e",
+ "contentHash": "f275c6799b6c9ecb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T22:46:47.379Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+   "summary": "An unknown threat actor has infected 953 online stores in a long-running campaign active since July 2025. According to Sansec, the campaign primarily targets stores running Magento and adds a small piece of code to store pages. This code serves malicious JavaScript loader code through Magento CMS blocks to unsuspecting visitors.",
+   "impact": "Security teams and e-commerce developers may need to monitor Magento CMS blocks closely for unauthorized modifications. This campaign could pose risks to users visiting compromised online stores through injected malicious scripts.",
+   "keyPoints": [
+    "953 online stores have been infected by an unknown threat actor.",
+    "The campaign has been active since July 2025.",
+    "Most of the affected stores are running Magento.",
+    "Malicious JavaScript loader code is served through Magento CMS blocks."
+   ]
+  },
+  "km": {
+   "title": "ពួក Hacker បានវាយប្រហារហាងអនឡាញចំនួន 953 ជាមួយនឹង JavaScript គេចពី Scanner ដែលភាគច្រើននៅលើ Magento",
+   "summary": "តួអង្គគំរាមកំហែងដែលមិនស្គាល់មុខម្នាក់បានឆ្លងមេរោគលើហាងអនឡាញចំនួន 953 ជាផ្នែកមួយនៃការយុទ្ធនាការរយៈពេលវែងដែលសកម្មតាំងពីខែកក្កដា ឆ្នាំ2025។បើយោងតាមក្រុមហ៊ុនសន្តិសុខពាណិជ្ជកម្មអេឡិចត្រូនិកហូឡង់ Sansec សកម្មភាពនេះត្រូវបានរចនាឡើងដើម្បីបន្ថែម ኮដតូចមួយទៅកាន់ទំព័ររបស់ហាង ដែលបម្រើកូដ loader JavaScript ប្រទូសរាយតាមរយៈ Magento CMS blocks។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍ពាណិជ្ជកម្មអេឡិចត្រូនិកអាចចាំបាច់ត្រូវតាមដាន Magento CMS blocks ឱ្យបានដិតដល់សម្រាប់ការកែប្រែដែលគ្មានការអនុញ្ញាត។យុទ្ធនាការនេះអាចបង្កហានិភ័យដល់អ្នកប្រើប្រាស់ដែលចូលទស្សនាហាងអនឡាញដែលរងការខូចខាត។",
+   "keyPoints": [
+    "ហាងអនឡាញចំនួន 953 ត្រូវបានឆ្លងមេរោគដោយតួអង្គគំរាមកំហែងមិនស្គាល់មុខ។",
+    "យុទ្ធនាការនេះសកម្មតាំងពីខែកក្កដា ឆ្នាំ2025។",
+    "ហាងភាគច្រើនដែលរងផលប៉ះពាល់គឺកំពុងដំណើរការ Magento។",
+    "កូដ loader JavaScript ប្រទូសរាយត្រូវបានបម្រើតាមរយៈ Magento CMS blocks។"
+   ]
+  },
+  "zh-CN": {
+   "title": "黑客用可规避扫描器的JavaScript感染953家网店，多数使用Magento",
+   "summary": "一名未知的威胁发起者已感染953家在线商店，其中大部分运行Magento，这是自2025年7月以来一直活跃的长期行动的一部分。根据荷兰电子商务安全公司Sansec的说法，该活动旨在向商店页面添加一小段代码，当毫无戒心的用户访问时，通过Magento CMS块提供恶意的JavaScript加载器代码。",
+   "impact": "安全团队和电子商务开发人员可能需要密切监控Magento CMS块，以防范未经授权的修改。此活动可能会对访问受感染网店的用户构成风险。",
+   "keyPoints": [
+    "953家在线商店被未知的威胁发起者感染。",
+    "该行动自2025年7月起一直处于活跃状态。",
+    "大多数受影响的商店都在运行Magento。",
+    "恶意JavaScript加载器代码通过Magento CMS块提供。"
+   ]
+  },
+  "ko": {
+   "title": "해커, 스캐너 회피형 자바스크립트로 Magento 중심의 온라인 쇼핑몰 953곳 감염",
+   "summary": "알 수 없는 위협 행위자가 2025년 7월부터 활성화된 장기 캠페인의 일환으로 주로 Magento를 실행하는 953개의 온라인 스토어를 감염시켰다. 네덜란드 전자상거래 보안 기업 Sansec에 따르면 이 활동은 상점 페이지에 작은 코드를 추가하여 의심 없는 사용자가 방문할 때 Magento CMS 블록을 통해 악성 자바스크립트 로더 코드를 제공하도록 설계되었다.",
+   "impact": "보안 팀과 전자상거래 개발자는 무단 수정에 대비하여 Magento CMS 블록을 면밀히 모니터링해야 할 수 있다. 이 캠페인은 손상된 온라인 스토어를 방문하는 사용자에게 위험을 초래할 수 있다.",
+   "keyPoints": [
+    "알 수 없는 위협 행위자에 의해 953개의 온라인 스토어가 감염됨.",
+    "해당 캠페인은 2025년 7월부터 활성화됨.",
+    "영향을 받은 스토어 대부분이 Magento를 실행 중임.",
+    "악성 자바스크립트 로더 코드가 Magento CMS 블록을 통해 제공됨."
+   ]
+  }
+ }
+}

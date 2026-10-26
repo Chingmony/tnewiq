@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e77549dba84aa9c3",
+ "contentHash": "fa16202fa167b345",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T22:43:12.566Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+   "summary": "Cloudflare reported a tenant isolation issue affecting the GLM-5.3 Workers AI model between August 27 and September 9, 2026, where a small number of customers received responses containing data from other users' prior requests. The issue was discovered by security researcher Gadi Evron and stemmed from a combination of an SGLang configuration mismatch and a bug in how SGLang handled over-length prompts in disaggregated prefill/decode mode. Cloudflare took the model offline, fixed the configuration to ensure the KV pool accommodates the full context window, deployed a patched inference engine, and restored service.",
+   "impact": "Security teams and developers utilizing large language model inference engines may want to carefully review KV cache pool sizing and handling of over-length prompts to prevent potential cross-request data exposure. Technology users can note that no other models were affected and no deliberate exploitation was found.",
+   "keyPoints": [
+    "A total of 155 responses were affected, all involving prompts longer than 681,280 tokens.",
+    "The issue was caused by an SGLang configuration mismatch and a bug handling over-length requests.",
+    "Cloudflare fixed the issue by adjusting the KV cache pool size to hold the full context window and deploying a patched inference engine.",
+    "No evidence of deliberate exploitation was found."
+   ]
+  },
+  "km": {
+   "title": "ការបញ្ចេញឃ្លាំងសម្ងាត់ KV ຂ້າມសំណើនៅក្នុងគំរូ GLM-5.3 Workers AI និងការដោះស្រាយរបស់យើងជាមួយ SGLang",
+   "summary": "Cloudflare បានជួសជុលបញ្ហាអ៊ីសូឡង់អ្នកជួលដែលប៉ះពាល់ដល់គំរូ GLM-5.3 Workers AI ដែលបណ្តាលឱ្យអតិថិជនចំនួនតិចតួចទទួលបានការឆ្លើយតបដែលមានទិន្នន័យពីសំណើមុនរបស់អ្នកប្រើប្រាស់ផ្សេងទៀត។ បញ្ហានេះត្រូវបានរកឃើញដោយអ្នកស្រាវជ្រាវសុវត្ថិភាព Gadi Evron ហើយកើតឡើងពីការកំណត់រចនាសម្ព័ន្ធ SGLang មិនត្រូវគ្នា និងកំហុសក្នុងការจัดการប្រអប់បញ្ចូលដែលមានប្រវែងវែងពេក។ Cloudflare បានដាក់គំរូនោះក្រៅបណ្តាញ កែសម្រួលការកំណត់រចនាសម្ព័ន្ធ និងដាក់ពង្រាយម៉ាស៊ីនសន្និដ្ឋានដែលបានជួសជុលឡើងវិញ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ដែលប្រើប្រាស់ម៉ាស៊ីនសន្និដ្ឋានគំរូភាសាធំៗអាចពិនិត្យមើលទំហំឃ្លាំងសម្ងាត់ KV និងការគ្រប់គ្រងសំណើវែងពេក ដើម្បីការពារការបញ្ចេញទិន្នន័យឆ្លងសំណើ។",
+   "keyPoints": [
+    "ការឆ្លើយតបចំនួន 155 ត្រូវបានរងផលប៉ះពាល់ ដោយទាំងអស់ពាក់ព័ន្ធនឹងប្រអប់បញ្ចូលដែលមានប្រវែងលើសពី 681,280 ថូខឹន។",
+    "បញ្ហានេះបណ្តាលមកจากการកំណត់រចនាសម្ព័ន្ធ SGLang មិនត្រូវគ្នា និងកំហុសក្នុងការគ្រប់គ្រងសំណើវែងពេក។",
+    "Cloudflare បានជួសជុលបញ្ហាដោយកែសម្រួលទំហំឃ្លាំងសម្ងាត់ KV និងដាក់ពង្រាយម៉ាស៊ីនដែលបានជួសជុល។",
+    "មិនមានភស្តុតាងនៃការឆ្លៀតឱកាសដោយចេតនាទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "GLM-5.3 Workers AI 模型中的跨请求 KV 缓存泄露及我们使用 SGLang 的修复方案",
+   "summary": "Cloudflare 报告了一起影响 GLM-5.3 Workers AI 模型的租户隔离问题，该问题导致少数客户收到了包含其他用户先前请求数据的响应。该问题由安全研究人员 Gadi Evron 发现，起因是 SGLang 配置不匹配以及处理超长提示词时的错误。Cloudflare 随后将模型下线，调整了 KV 缓存池大小以容纳完整上下文，部署了修补后的推理引擎并恢复了服务。",
+   "impact": "使用大语言模型推理引擎的安全团队和开发人员可以仔细检查 KV 缓存池的大小配置以及对超长提示词的处理方式，以防止潜在的跨请求数据泄露。技术用户可以注意到，没有其他模型受到影响，也没有发现被故意利用的证据。",
+   "keyPoints": [
+    "共有 155 个响应受到影响，全部发生在长度超过 681,280 个 token 的提示词中。",
+    "该问题由 SGLang 配置不匹配以及处理超长请求的缺陷共同导致。",
+    "Cloudflare 通过调整 KV 缓存池以容纳完整上下文并部署修补后的推理引擎修复了该问题。",
+    "没有发现蓄意利用该漏洞的证据。"
+   ]
+  },
+  "ko": {
+   "title": "GLM-5.3 Workers AI 모델에서의 크로스 요청 KV 캐시 노출 및 SGLang을 통한 수정 조치",
+   "summary": "Cloudflare는 GLM-5.3 Workers AI 모델에 영향을 미친 테넌트 격리 문제를 해결했으며, 이로 인해 소수의 고객이 다른 사용자의 이전 요청 데이터가 포함된 응답을 받았습니다. 이 문제는 보안 연구원 Gadi Evron이 발견했으며 SGLang 구성 불일치와 초과 길이 프롬프트 처리 과정의 버그로 인해 발생했습니다. Cloudflare는 해당 모델을 오프라인으로 전환하고, 전체 컨텍스트를 수용하도록 KV 캐시 풀을 조정했으며, 패치된 추론 엔진을 배포하여 서비스를 복구했습니다.",
+   "impact": "대형 언어 모델 추론 엔진을 사용하는 보안 팀과 개발자는 잠재적인 크로스 요청 데이터 노출을 방지하기 위해 KV 캐시 풀 크기 조정 및 초과 길이 프롬프트 처리를 신중하게 검토할 수 있습니다. 기술 사용자들은 다른 모델은 영향을 받지 않았으며 고의적인 악용 증거는 발견되지 않았음을 확인할 수 있습니다.",
+   "keyPoints": [
+    "총 155개의 응답이 영향을 받았으며, 모두 681,280 토큰보다 긴 프롬프트와 관련이 있습니다.",
+    "이 문제는 SGLang 구성 불일치와 초과 길이 요청을 처리하는 버그로 인해 발생했습니다.",
+    "Cloudflare는 전체 컨텍스트를 유지하도록 KV 캐시 풀 크기를 조정하고 패치된 추론 엔진을 배포하여 문제를 해결했습니다.",
+    "고의적인 악용의 증거는 발견되지 않았습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8acc089c4488dc9c",
+ "contentHash": "d543b33359b3cbe7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T22:49:04.355Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Connect Customer expands testing and simulation to validate flow action outcomes",
+   "summary": "Amazon Connect Customer has introduced new validation capabilities for testing and simulation within customer experience flows. Users can now verify the returned data of flow actions upon completion, such as Lambda function responses, Amazon Lex resolved intents, and variables from Agentic CX blocks. Failed tests will highlight the exact action returning unexpected results to help resolve issues more quickly.",
+   "impact": "Developers and administrators could benefit from faster troubleshooting when flow changes fail, potentially reducing the time needed to launch updates with greater confidence.",
+   "keyPoints": [
+    "Validate outcomes of customer experience flow actions during testing and simulation.",
+    "Verify returned data including Lambda function responses and Amazon Lex resolved intents.",
+    "Pinpoint exact actions that return unexpected results upon test failure."
+   ]
+  },
+  "km": {
+   "title": "Amazon Connect Customer ពង្រីកការធ្វើតេស្ត និងការក្លែងធ្វើដើម្បីផ្ទៀងផ្ទាត់លទ្ធផលសកម្មភាពលំហូរ",
+   "summary": "Amazon Connect Customer ឥឡូវនេះអនុញ្ញាតឱ្យផ្ទៀងផ្ទាត់លទ្ធផលនៃសកម្មភាពលំហូរបទពិសោធន៍អតិថិជនក្នុងអំឡុងពេលធ្វើតេស្ត និងការក្លែងធ្វើ។ អ្នកប្រើប្រាស់អាចផ្ទៀងផ្ទាត់ទិន្នន័យដែលបានត្រឡប់មកវិញនៅពេលដែលសកម្មភាពបានបញ្ចប់ ដូចជាការឆ្លើយតបមុខងារ Lambda និងបំណងដែលបានដោះស្រាយរបស់ Amazon Lex ជាដើម។ នៅពេលដែលការធ្វើតេស្តបរាជ័យ អ្នកអាចកំណត់ទីតាំងសកម្មភាពពិតប្រាកដដែលបានផ្តល់លទ្ធផលមិនរំពឹងទុក ដើម្បីដោះស្រាយបញ្ហាបានលឿនជាងមុន។",
+   "impact": "ក្រុមការងារអាចរកឃើញកំហុសបានលឿនជាងមុន និងដាក់ឱ្យប្រើប្រាស់ការផ្លាស់ប្តូរលំហូរដោយមានទំនុកចិត្តកាន់តែខ្លាំង។",
+   "keyPoints": [
+    "ផ្ទៀងផ្ទាត់លទ្ធផលនៃសកម្មភាពលំហូរបទពិសោធន៍អតិថិជនក្នុងអំឡុងពេលធ្វើតេស្ត។",
+    "ពិនិត្យមើលទិន្នន័យដែលបានត្រឡប់មកវិញ រួមទាំងការឆ្លើយតបមុខងារ Lambda និង Amazon Lex។",
+    "កំណត់ទីតាំងសកម្មភាពដែលផ្តល់លទ្ធផលមិនរំពឹងទុកនៅពេលមានការបរាជ័យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Connect Customer 扩展测试和模拟功能以验证流操作结果",
+   "summary": "Amazon Connect Customer 现在允许在测试和模拟过程中验证客户体验流操作的结果。除了确认操作启动之外，用户现在还可以在操作完成时验证其返回的数据，例如 Lambda 函数响应、Amazon Lex 解析的意图或 Agentic CX 块设置的变量。当测试失败时，您可以精确定位返回意外结果的具体操作，从而更快地解决问题。",
+   "impact": "开发人员和管理员可以更快地查明故障原因，从而更有信心地推出流更改。",
+   "keyPoints": [
+    "在测试和模拟期间验证客户体验流操作的结果。",
+    "验证完成时返回的数据，包括 Lambda 函数响应和 Amazon Lex 解析的意图。",
+    "精确定位返回意外结果的具体操作以更快解决问题。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Connect Customer, 흐름 작업 결과 검증을 위한 테스트 및 시뮬레이션 기능 확장",
+   "summary": "Amazon Connect Customer는 이제 테스트 및 시뮬레이션 중에 고객 경험 흐름 작업의 결과를 검증할 수 있는 기능을 제공합니다. 작업이 완료될 때 Lambda 함수 응답, Amazon Lex 해결 의도 또는 Agentic CX 블록에 의해 설정된 변수와 같이 반환되는 데이터를 확인할 수 있습니다. 테스트가 실패하면 예상치 못한 결과를 반환한 정확한 작업을 찾아내어 문제를 더 빠르게 해결할 수 있습니다.",
+   "impact": "개발자와 관리자는 흐름 변경 시 문제를 더 신속하게 파악하고 더 큰 자신감으로 업데이트를 배포할 수 있습니다.",
+   "keyPoints": [
+    "테스트 및 시뮬레이션 중 고객 경험 흐름 작업 결과 검증 가능.",
+    "Lambda 함수 응답 및 Amazon Lex 해결 의도와 같은 반환 데이터 확인.",
+    "테스트 실패 시 예상치 못한 결과를 반환한 정확한 작업 지점 파악 가능."
+   ]
+  }
+ }
+}

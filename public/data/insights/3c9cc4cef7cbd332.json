@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3c9cc4cef7cbd332",
+ "contentHash": "ad71e3e9fe6cb901",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T22:46:57.744Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon WorkSpaces Core Managed Instances now supports ModifyVolume API",
+   "summary": "Amazon WorkSpaces Core Managed Instances now supports the ModifyVolume API. This allows users to change volume size, volume type, IOPS, or throughput in place without detaching the volume or restarting the instance. Previously, changing storage capacity or performance required rebuilding the deployed managed instance.",
+   "impact": "This update could make storage management for managed instances more efficient by eliminating the need to rebuild instances or detach volumes for performance adjustments. Developers and administrators may save time when scaling volume sizes up to 16,384 GiB or adjusting IOPS and throughput.",
+   "keyPoints": [
+    "ModifyVolume API allows in-place changes to volume size, volume type, IOPS, or throughput.",
+    "No need to detach the volume or restart the instance.",
+    "Supports increasing volume size up to 16,384 GiB and adjusting settings for supported Amazon EBS volume types.",
+    "Includes idempotency tokens to prevent duplicate changes and supports progress tracking via Amazon EC2 DescribeVolumesModifications."
+   ]
+  },
+  "km": {
+   "title": "Amazon WorkSpaces Core Managed Instances ឥឡូវនេះគាំទ្រ ModifyVolume API",
+   "summary": "Amazon WorkSpaces Core Managed Instances ឥឡូវនេះគាំទ្រ ModifyVolume API ដែលអនុញ្ញាតឱ្យអ្នកផ្លាស់ប្តូរទំហំវ៉ុល ប្រភេទវ៉ុល IOPS ឬ throughput ដោយផ្ទាល់ ដោយមិនបាច់ដកវ៉ុលចេញ ឬចាប់ផ្តើមម៉ាស៊ីនឡើងវិញឡើយ។ ពីមុន ការផ្លាស់ប្តូរសមត្ថភាពផ្ទុកទិន្នន័យ ឬដំណើរការទាមទារឱ្យមានការបង្កើតម៉ាស៊ីនឡើងវិញ។",
+   "impact": "ការអាប់ដេតនេះអាចធ្វើឱ្យការគ្រប់គ្រងការផ្ទុកទិន្នន័យសម្រាប់ម៉ាស៊ីនដែលបានគ្រប់គ្រងមានភាពងាយស្រួលជាងមុន ដោយមិនចាំបាច់បង្កើតម៉ាស៊ីនឡើងវិញ។ អ្នកអភិវឌ្ឍន៍អាចកែសម្រួលទំហំវ៉ុលរហូតដល់ 16,384 GiB និងកែតម្រូវ IOPS ឬ throughput បានយ៉ាងឆាប់រហ័ស។",
+   "keyPoints": [
+    "ModifyVolume API អនុញ្ញាតឱ្យផ្លាស់ប្តូរទំហំវ៉ុល ប្រភេទវ៉ុល IOPS ឬ throughput ដោយផ្ទាល់។",
+    "មិនចាំបាច់ដកវ៉ុលចេញ ឬចាប់ផ្តើមម៉ាស៊ីនឡើងវិញទេ។",
+    "គាំទ្រការបង្កើនទំហំវ៉ុលរហូតដល់ 16,384 GiB និងប្តូររវាងប្រភេទ Amazon EBS volume ដែលបានគាំទ្រ។",
+    "គាំទ្រ idempotency tokens ដើម្បីការពារការផ្លាស់ប្តូរជាន់គ្នា និងតាមដានដំណើរការតាមរយៈ Amazon EC2 DescribeVolumesModifications។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon WorkSpaces Core Managed Instances 现已支持 ModifyVolume API",
+   "summary": "Amazon WorkSpaces Core Managed Instances 现已支持 ModifyVolume API，允许用户直接更改卷大小、卷类型、IOPS 或吞吐量，而无需分离卷或重新启动实例。此前，更改已部署托管实例的存储容量或性能需要重新构建实例。",
+   "impact": "此更新可以简化托管实例的存储管理，使开发人员和管理员能够在不重启实例或分离卷的情况下调整性能。用户可以更高效地将卷大小提升至多 16,384 GiB 并调整相关的 IOPS 与吞吐量。",
+   "keyPoints": [
+    "ModifyVolume API 支持直接更改卷大小、卷类型、IOPS 或吞吐量。",
+    "无需分离卷或重新启动实例即可完成修改。",
+    "支持将卷大小增加至多 16,384 GiB，并在支持的 Amazon EBS 卷类型之间切换。",
+    "支持幂等令牌以防止重复更改，并可通过 Amazon EC2 DescribeVolumesModifications 跟踪进度。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon WorkSpaces Core Managed Instances, ModifyVolume API 지원 추가",
+   "summary": "Amazon WorkSpaces Core Managed Instances가 이제 ModifyVolume API를 지원하여, 볼륨을 분리하거나 인스턴스를 재시작하지 않고도 볼륨 크기, 볼륨 유형, IOPS 또는 처리량을 그 자리에서 변경할 수 있습니다. 이전에는 배포된 관리형 1스턴스의 스토리지 용량이나 성능을 변경하려면 인스턴스를 다시 빌드해야 했습니다.",
+   "impact": "이번 업데이트를 통해 관리형 인스턴스의 스토리지 관리가 더욱 효율화되어, 성능 조정 시 인스턴스를 재시작하거나 볼륨을 분리할 필요가 없어질 수 있습니다. 개발자와 운영자는 볼륨 크기를 최대 16,384 GiB까지 늘리거나 IOPS 및 처리량을 조정할 때 시간을 절약할 수 있습니다.",
+   "keyPoints": [
+    "ModifyVolume API를 통해 볼륨 크기, 볼륨 유형, IOPS 또는 처리량을 직접 변경 가능.",
+    "볼륨 분리나 인스턴스 재시작이 필요 없음.",
+    "볼륨 크기를 최대 16,384 GiB까지 늘리고 지원되는 Amazon EBS 볼륨 유형 간 전환 가능.",
+    "중복 변경을 방지하는 멱등성 토큰(idempotency token)을 지원하며 Amazon EC2 DescribeVolumesModifications를 통해 진행 상황 추적 가능."
+   ]
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e36a8771b7bcc29e",
+ "contentHash": "1bbc73bf574502a5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T22:45:46.600Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "VU#128947: COVESA vsomeip excessive memory allocation in reliable (TCP) endpoint buffer handling",
+   "summary": "COVESA vsomeip versions 3.7.3 and below contain a memory allocation vulnerability in reliable TCP endpoint buffer handling. A remote, unauthenticated peer can send a message with an attacker-declared size, forcing the receiver to allocate up to roughly 4 GB of memory before validating received bytes. This issue is tracked as CVE-2026-91141 and was fixed in release 3.7.4.",
+   "impact": "This vulnerability could allow remote unauthenticated peers to cause a denial of service or terminate services through out-of-memory crashes on memory-constrained nodes. Technology users and developers could mitigate this by upgrading to vsomeip 3.7.4 or later, configuring a reliable message-size limit, or applying network segmentation.",
+   "keyPoints": [
+    "Affected versions include vsomeip 3.7.3 and below.",
+    "The vulnerability allows unauthenticated peers to trigger large memory allocations via the message length field.",
+    "Fixed in release 3.7.4 by introducing a bounded DEFAULT_MAX_MESSAGE_SIZE of 10 MiB.",
+    "Mitigations include upgrading, setting an explicit message-size limit, or using network segmentation."
+   ]
+  },
+  "km": {
+   "title": "VU#128947: ការបែងចែកអង្គចងចាំហួសហេតុនៅក្នុង vsomeip របស់ COVESA សម្រាប់ការគ្រប់គ្រងบัဖហ័រ endpoint ប្រភេទអាចទុកចិត្តបាន (TCP)",
+   "summary": "កំណែ vsomeip 3.7.3 និងទាបជាងនេះមានបញ្ហាចន្លោះប្រហោងក្នុងការបែងចែកអង្គចងចាំនៅក្នុងការគ្រប់គ្រងบัဖហ័រ endpoint TCP ។ ភាគីពាក់ព័ន្ធដែលគ្មានការផ្ទៀងផ្ទាត់អាចផ្ញើសារជាមួយនឹងទំហំដែលបានប្រកាសដើម្បីបង្ខំឱ្យកម្មវិធីបែងចែកអង្គចងចាំរហូតដល់ប្រហែល 4 GB ។ បញ្ហានេះត្រូវបានដោះស្រាយនៅក្នុងកំណែ 3.7.4 ។",
+   "impact": "ភាពងាយរងគ្រោះនេះអាចអនុញ្ញាតឱ្យភាគីទីបីដែលគ្មានការផ្ទៀងផ្ទាត់ធ្វើឱ្យខូចសេវាកម្ម ឬបណ្តាលឱ្យមានការគាំងដោយសារអស់អង្គចងចាំ។ អ្នកអភិវឌ្ឍន៍អាចកាត់បន្ថយហានិភ័យនេះដោយការអាប់ដេតទៅកំណែ 3.7.4 ឬកំណត់ដែនកំណត់ទំហំសារ។",
+   "keyPoints": [
+    "កំណែ vsomeip 3.7.3 និងទាបជាងនេះរងផលប៉ះពាល់។",
+    "បញ្ហានេះអនុញ្ញាតឱ្យបែងចែកអង្គចងចាំធំដោយសារការប្រកាសប្រវែងសារខុសប្រក្រតី។",
+    "បានជួសជុលនៅក្នុងកំណែ 3.7.4 ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "VU#128947：COVESA vsomeip 在可靠 (TCP) 端点缓冲区处理中存在过量内存分配",
+   "summary": "COVESA vsomeip 3.7.3 及更低版本在可靠的 TCP 端点缓冲区处理中包含内存分配漏洞。远程未认证的对端可以发送带有攻击者声明大小的消息，迫使接收方在验证实际接收的字节之前分配高达约 4 GB 的内存。该问题已在 3.7.4 版本中修复。",
+   "impact": "此漏洞可能允许远程未认证的对端通过耗尽主机内存来导致拒绝服务或使服务崩溃。开发人员和安全团队可以通过升级到 vsomeip 3.7.4 或更高版本、配置可靠的消息大小限制或应用网络分段来缓解此问题。",
+   "keyPoints": [
+    "受影响的版本包括 vsomeip 3.7.3 及更低版本。",
+    "该漏洞允许未认证的对端通过声明的大消息长度触发大量内存分配。",
+    "已在 3.7.4 版本中通过引入 10 MiB 的默认最大消息大小限制得到修复。",
+    "缓解措施包括升级、配置最大负载大小限制或限制网络连接。"
+   ]
+  },
+  "ko": {
+   "title": "VU#128947: 안정적인 (TCP) 엔드포인트 버퍼 처리에서 COVESA vsomeip의 과도한 메모리 할당",
+   "summary": "COVESA vsomeip 3.7.3 이하 버전은 안정적인 TCP 엔드포인트 버퍼 처리에서 메모리 Vulnerability를 포함하고 있습니다. 원격의 인증되지 않은 피어가 공격자가 선언한 크기의 메시지를 전송하여 수신자가 실제 바이트를 확인하기도 전에 약 4 GB의 메모리를 할당하도록 강제할 수 있습니다. 이 문제는 3.7.4 버전에서 수정되었습니다.",
+   "impact": "이 취약성으로 인해 원격의 인증되지 않은 피어가 메모리 고갈을 일으키거나 서비스 거부 상태를 유발할 수 있습니다. 개발자와 보안 팀은 vsomeip 3.7.4 이상으로 업그레이드하거나, 메시지 크기 제한을 명시적으로 설정하거나, 네트워크 분할을 적용하여 위험을 완화할 수 있습니다.",
+   "keyPoints": [
+    "영향을 받는 버전은 vsomeip 3.7.3 및 그 이하 버전입니다.",
+    "인증되지 않은 피어가 메시지 길이를 조작하여 과도한 메모리 할당을 유발할 수 있습니다.",
+    "3.7.4 버전에서 10 MiB의 제한을 도입하여 수정되었습니다.",
+    "업그레이드 또는 명시적 메시지 크기 제한 설정이 주요 완화 방안입니다."
+   ]
+  }
+ }
+}

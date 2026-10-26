@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b090a744b1c3c59d",
+ "contentHash": "4901408f62ba4a05",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T22:48:01.422Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock",
+   "summary": "AI agents frequently re-read their entire history and instructions on every turn because models lack internal memory between requests, causing redundant token costs. The AWS Machine Learning Blog explains how prompt caching breaks this cycle by storing input prompts and reusing them on subsequent requests at a fraction of the price. The post discusses how prompt caching works under the hood using prefill and key-value vectors, detailing both implicit and explicit caching methods on Amazon Bedrock.",
+   "impact": "Developers and technology users could significantly reduce API costs and improve agent responsiveness and consistency by implementing prompt caching patterns on Amazon Bedrock. Security teams and developers may also benefit from optimizing shared contexts, instructions, and tools across multiple sessions and subagents.",
+   "keyPoints": [
+    "AI agents must resend their entire history, tool definitions, and instructions to the model on every turn to maintain continuity.",
+    "Prompt caching stores the input prompt state and reuses it on future requests at a fraction of the standard input price.",
+    "Amazon Bedrock supports both implicit caching, where the service selects reusable prefixes, and explicit caching, where code marks endpoints using prompt_cache_breakpoint.",
+    "Combining implicit and explicit caching allows systems to manage growing conversations automatically while reusing shared starting points for new sessions and helper agents."
+   ]
+  },
+  "km": {
+   "title": "ទិវា Groundhog សម្រាប់ភ្នាក់ងារ AI៖ លំនាំឃ្លាំងសម្ងាត់ប្រអប់បញ្ចូលសម្រាប់ការប្រើប្រាស់ម៉ូដែល OpenAI នៅលើ Amazon Bedrock",
+   "summary": "ភ្នាក់ងារ AI តែងតែអានប្រវត្តិ និងការបញ្ជា របស់ពួកគេឡើងវិញរាល់ពេលទាំងអស់ ព្រោះម៉ូដែលខ្វះខាំអង្គចងចាំផ្ទៃក្នុងរវាងសំណើ ដែលបណ្តាលឱ្យខាតបង់ថូខែន។ ប្លុក AWS Machine Learning ពន្យល់ពីរបៀបដែលឃ្លាំងសម្ងាត់ប្រអប់បញ្ចូលបំផ្លាញវដ្តនេះដោយរក្សាទុកប្រអប់បញ្ចូល និងប្រើប្រាស់វាឡើងវិញ។ អត្ថបទនេះពិភាក្សាអំពីរបៀបដែលឃ្លាំងសម្ងាត់ដំណើរការនៅពីក្រោយឆាកដោយប្រើប្រាស់เวกទ័រ និងវិធីសាស្ត្រឃ្លាំងសម្ងាត់ទាំងពីរបែបគឺ បែបបង្កប់ និងបែបច្បាស់លាស់នៅលើ Amazon Bedrock។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចកាត់បន្ថយការចំណាយលើ API យ៉ាងច្រើន និងបង្កើនល្បឿនឆ្លើយតបរបស់ភ្នាក់ងារដោយអនុវត្តលំនាំឃ្លាំងសម្ងាត់ប្រអប់បញ្ចូល។",
+   "keyPoints": [
+    "ភ្នាក់ងារ AI ត្រូវផ្ញើប្រវត្តិ ការកំណត់ឧបករណ៍ និងការបញ្ជាទាំងអស់របស់ពួកគេឡើងវិញទៅកាន់ម៉ូដែលរាល់ពេលទាំងអស់។",
+    "ឃ្លាំងសម្ងាត់ប្រអប់បញ្ចូលរក្សាទុកស្ថានភាពប្រអប់បញ្ចូល និងប្រើប្រាស់វាឡើងវិញក្នុងតម្លៃថោកជាងមុន។",
+    "Amazon Bedrock គាំទ្រទាំងឃ្លាំងសម្ងាត់បែបបង្កប់ និងបែបច្បាស់លាស់ជាមួយ prompt_cache_breakpoint។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AI 代理的土拨鼠日：在 Amazon Bedrock 上使用 OpenAI 模型的提示词缓存模式",
+   "summary": "由于模型在请求之间缺乏内部记忆，AI 代理在每一步操作时都必须重新读取其完整的历史记录和指令，从而导致重复的Token费用。AWS Machine Learning Blog 介绍了提示词缓存如何通过存储输入提示词并在后续请求中以极低的价格重复使用来打破这一循环。文章详细介绍了提示词缓存的工作原理，并讨论了 Amazon Bedrock 上的隐式和显式缓存方法。",
+   "impact": "开发人员和技术用户可以通过在 Amazon Bedrock 上实现提示词缓存模式，显著降低 API 成本并提高代理的响应速度和一致性。团队还可以通过优化多个会话和子代理之间的共享上下文、指令和工具来获益。",
+   "keyPoints": [
+    "AI 代理在每一轮中必须向模型重新发送其整个历史记录、工具定义和指令以维持连贯性。",
+    "提示词缓存可以保存输入提示词状态，并在后续请求中以远低于标准输入价格的成本对其进行重用。",
+    "Amazon Bedrock 支持隐式缓存（服务自动选择可重用前缀）和显式缓存（代码使用 prompt_cache_breakpoint 标记端点）。",
+    "结合使用隐式和显式缓存可以在自动管理不断增长的对话的同时，为新会话和辅助代理提供可重用的起点。"
+   ]
+  },
+  "ko": {
+   "title": "AI 에이전트를 위한 사랑의 블랙홀: Amazon Bedrock에서 OpenAI 모델을 사용할 때의 프롬프트 캐싱 패턴",
+   "summary": "AI 에이전트는 요청 간에 내부 메모리가 없기 때문에 매번 전체 기록과 지침을 다시 읽어야 하므로 중복 비용이 발생합니다. AWS Machine Learning Blog에서는 입력 프롬프트를 저장하고 후속 요청에서 저렴한 가격으로 재사용하여 이러한 악순환을 끊는 프롬프트 캐싱 방법을 설명합니다. 이 게시물은 Amazon Bedrock에서 암시적 캐싱과 명시적 캐싱 방식을 모두 사용하여 프롬프트 캐싱이 작동하는 원리를 다룹니다.",
+   "impact": "개발자와 기술 사용자는 Amazon Bedrock에서 프롬프트 캐싱 패턴을 구현하여 API 비용을 크게 절감하고 에이전트의 응답성과 일관성을 향상시킬 수 있습니다. 또한 여러 세션과 하위 에이전트 간에 공유 컨텍스트와 도구를 최적화하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "AI 에이전트는 연속성을 유지하기 위해 매 턴마다 모델에 전체 기록과 도구 정의를 다시 전송해야 합니다.",
+    "프롬프트 캐싱은 입력 프롬프트 상태를 저장하고 이후 요청에서 할인된 가격으로 재사용합니다.",
+    "Amazon Bedrock은 서비스가 접두사를 선택하는 암시적 캐싱과 코드가 prompt_cache_breakpoint를 사용하는 명시적 캐싱을 모두 지원합니다."
+   ]
+  }
+ }
+}

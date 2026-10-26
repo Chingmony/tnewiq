@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "addcc356018895ea",
+ "contentHash": "ed9b3f9f365dd4c6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T22:47:07.923Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
+   "summary": "AWS Machine Learning Blog outlines an update for managing fleet-wide computer vision model lifecycles at the edge using the Amazon SageMaker Python SDK v3. It replaces the deprecated Amazon SageMaker Edge Manager with Amazon SageMaker Neo for edge optimization. The updated solution features a dual-branch Amazon SageMaker Pipeline that trains, evaluates, and optimizes per-camera models with quality gates.",
+   "impact": "Development and security teams can use this pattern to automate training, versioning, and shipping thousands of edge models without manual intervention. This approach may help maintain model performance across diverse camera angles and lighting conditions while controlling compute costs.",
+   "keyPoints": [
+    "Updates the 2023 MLOps visual inspection pipeline for Amazon SageMaker Python SDK v3.",
+    "Replaces Amazon SageMaker Edge Manager with Amazon SageMaker Neo.",
+    "Features a dual-branch pipeline training an anomaly detector and defect classifier per camera.",
+    "Uses AWS Step Functions and Amazon SQS FIFO queues to pace fleet training."
+   ]
+  },
+  "km": {
+   "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
+   "summary": "បሎក AWS Machine Learning បានបង្ហាញពីបច្ចុប្បន្នភាពសម្រាប់ការគ្រប់គ្រងវដ្តជីវិតគំរូទស្សនវិស័យកុំព្យូទ័រទូទាំងកងនាវាដោយប្រើ Amazon SageMaker Python SDK v3។ វាជំនួស Amazon SageMaker Edge Manager ដែលលែងប្រើជាមួយ Amazon SageMaker Neo សម្រាប់ការបង្កើនប្រសិទ្ធភាពគែម។ ដំណោះស្រាយនេះរួមបញ្ចូលទាំងបំពង់បង្ហូរប្រេង Amazon SageMaker បុគ្គលពីរ ដែលបណ្តុះបណ្តាល វាយតម្លៃ និងបង្កើនប្រសិទ្ធភាពគំរូសម្រាប់កាមេរ៉ាជ្ជមួយៗ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងសន្តិសុខអាចប្រើប្រាស់គំរូនេះ ដើម្បីស្វ័យប្រវត្តិកម្មការបណ្តុះបណ្តាល និងការដឹកជញ្ជូនគំរូគែមរាប់ពាន់ដោយគ្មានអន្តរាគមន៍មនុស្ស។",
+   "keyPoints": [
+    "ធ្វើបច្ចុប្បន្នភាពបំពង់បង្ហូរប្រេង MLOps ឆ្នាំ ២០២៣ សម្រាប់ Amazon SageMaker Python SDK v3។",
+    "ជំនួស Amazon SageMaker Edge Manager ជាមួយ Amazon SageMaker Neo។",
+    "ប្រើប្រាស់ AWS Step Functions និងជួរ Amazon SQS FIFO ដើម្បីគ្រប់គ្រងការបណ្តុះបណ្តាល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 SageMaker SDK v3 在边缘端实现全舰队计算机视觉生命周期管理",
+   "summary": "AWS Machine Learning Blog 介绍了一个使用 Amazon SageMaker Python SDK v3 管理边缘端全舰队计算机视觉模型生命周期的更新方案。该方案用 Amazon SageMaker Neo 替代了已废弃的 Amazon SageMaker Edge Manager 以进行边缘优化。更新后的解决方案采用双分支 Amazon SageMaker 管道，为每个摄像头训练、评估和优化模型，并带有质量门控。",
+   "impact": "开发和安全团队可以使用此模式自动化训练、版本控制和部署数千个边缘模型，而无需人工干预。这种方法可能有助于在不同的摄像头角度和光照条件下保持模型性能，同时控制计算成本。",
+   "keyPoints": [
+    "为 Amazon SageMaker Python SDK v3 更新了 2023 年的 MLOps 视觉质量检查管道。",
+    "用 Amazon SageMaker Neo 替换了 Amazon SageMaker Edge Manager。",
+    "采用双分支管道为每个摄像头训练异常检测器和缺陷分类器。",
+    "使用 AWS Step Functions 和 Amazon SQS FIFO 队列来控制舰队训练节奏。"
+   ]
+  },
+  "ko": {
+   "title": "SageMaker SDK v3를 활용한 엣지에서의 함대 전체 컴퓨터 비전 수명 주기 관리",
+   "summary": "AWS Machine Learning Blog는 Amazon SageMaker Python SDK v3를 사용하여 엣지에서 함대 전체의 컴퓨터 비전 모델 수명 주기를 관리하기 위한 업데이트를 소개합니다. 엣지 최적화를 위해 더 이상 사용되지 않는 Amazon SageMaker Edge Manager를 Amazon SageMaker Neo로 교체합니다. 업데이트된 솔루션은 카메라별로 이상 감지기와 결함 분류기를 훈련하고 평가하는 이중 분기 Amazon SageMaker Pipeline을 특징으로 합니다.",
+   "impact": "개발 및 보안 팀은 이 패턴을 사용하여 수동 개입 없이 수천 개의 엣지 모델 교육, 버전 관리 및 배포를 자동화할 수 있습니다. 이 접근 방식은 컴퓨팅 비용을 제어하면서 다양한 카메라 각도와 조명 조건에서 모델 성능을 유지하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "Amazon SageMaker Python SDK v3용 2023 MLOps 파이프라인 업데이트.",
+    "Amazon SageMaker Edge Manager를 Amazon SageMaker Neo로 교체.",
+    "카메라당 이상 감지기 및 결함 분류기를 훈련하는 이중 분기 파이프라인 특징.",
+    "AWS Step Functions 및 Amazon SQS FIFO 대기열을 사용하여 함대 훈련 속도 조절."
+   ]
+  }
+ }
+}

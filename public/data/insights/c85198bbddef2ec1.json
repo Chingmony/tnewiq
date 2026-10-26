@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c85198bbddef2ec1",
+ "contentHash": "8008900c26eb242c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T22:47:28.441Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+   "summary": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to address CVE-2026-111497, a vulnerability located in the included Brotli compression library. This memory corruption flaw could allow an attacker to potentially run code. The issue is reachable via the cURL extension when automatic HTTP response decompression is enabled.",
+   "impact": "Developers and security teams using PHP on Windows should update their packages to mitigate the code execution risk associated with the Brotli and cURL interaction. Since cURL leaves automatic decompression off by default, systems utilizing custom configurations that enable this feature may be at risk.",
+   "keyPoints": [
+    "Official Windows packages for PHP 8.2 through 8.5 were rebuilt.",
+    "The update fixes CVE-2026-111497 in the Brotli compression library.",
+    "The vulnerability can lead to memory corruption and potential code execution.",
+    "The flaw can be reached through the cURL extension during automatic HTTP response decompression."
+   ]
+  },
+  "km": {
+   "title": "PHP ចេញបច្ចុប្បន្នភាពសុវត្ថិភាព Windows ទីពីរក្នុងពេលប្រាំថ្ងៃ ដើម្បីកែំហុសប្រតិបត្តិការកូដ Brotli",
+   "summary": "PHP បានបង្កើតកញ្ចប់ Windows ផ្លូវការឡើងវិញសម្រាប់ PHP 8.2 ដល់ 8.5 ដើម្បីកែតម្រូវ CVE-2026-111497 ដែលជាពិការភាពនៅក្នុងបណ្ណាល័យបង្ហាប់ Brotli ដែលរួមបញ្ចូល។ ពិការភាពនេះអាចអនុញ្ញាតឱ្យអ្នកវាយប្រហារបង្ខូចអង្គចងចាំ និងអាចដំណើរការកូដ។ PHP បានបញ្ជាក់ថាពិការភាពនេះអាចត្រូវបានទៅដល់តាមរយៈកន្ទុយ cURL នៅពេលដែលវា டிகូរការឆ្លើយតប HTTP ដោយស្វ័យប្រវត្តិ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខដែលប្រើប្រាស់ PHP នៅលើ Windows អាចនឹងត្រូវធ្វើបច្ចុប្បន្នភាពកញ្ចប់របស់ពួកគេ ដើម្បីកាត់បន្ថយហានិភ័យនៃការប្រតិបត្តិូដ។ ការកំណត់រចនាសម្ព័ន្ធដែលបើកដំណើរការការ டிகូរ HTTP ដោយស្វ័យប្រវត្តិនៅក្នុង cURL អាចប្រឈមមុខនឹងបញ្ហានេះ។",
+   "keyPoints": [
+    "កញ្ចប់ Windows ផ្លូវការសម្រាប់ PHP 8.2 ដល់ 8.5 ត្រូវបានបង្កើតឡើងវិញ។",
+    "បច្ចុប្បន្នភាពនេះកែតម្រូវ CVE-2026-111497 នៅក្នុងបណ្ណាល័យ Brotli។",
+    "ពិការភាពអាចបណ្តាលឱ្យខូចអង្គចងចាំ និងប្រតិបត្តិការកូដ។",
+    "បញ្ហានេះអាចកើតមានឡើងតាមរយៈកន្ទុយ cURL។"
+   ]
+  },
+  "zh-CN": {
+   "title": "PHP 在五天内发布第二个 Windows 安全更新以修复 Brotli 代码执行漏洞",
+   "summary": "PHP 已经重新构建了 PHP 8.2 到 8.5 的官方 Windows 软件包，以修复包含在包中的 Brotli 压缩库中的漏洞 CVE-2026-111497。该漏洞可能允许攻击者破坏内存并潜在地运行代码。PHP 表示，当 cURL 扩展自动解压缩 HTTP 响应时，可以通过该扩展触及此漏洞。",
+   "impact": "使用 Windows 上 PHP 的开发人员和安全团队可能需要更新软件包，以减轻与 Brotli 和 cURL 交互相关的代码执行风险。由于 cURL 默认关闭自动解压缩，因此启用此功能的系统可能会受到影响。",
+   "keyPoints": [
+    "PHP 8.2 到 8.5 的官方 Windows 软件包已重新构建。",
+    "更新修复了 Brotli 压缩库中的 CVE-2026-111497 漏洞。",
+    "该漏洞可能导致内存破坏和潜在的代码执行。",
+    "可以通过 cURL 扩展在自动解压缩 HTTP 响应时触发该漏洞。"
+   ]
+  },
+  "ko": {
+   "title": "PHP, Brotli 코드 실행 결함 수정 위해 5일 만에 두 번째 Windows 보안 업데이트 배포",
+   "summary": "PHP는 포함된 Brotli 압축 라이브러리의 취약점인 CVE-2026-111497을 해결하기 위해 PHP 8.2부터 8.5까지의 공식 Windows 패키지를 다시 빌드했습니다. 이 결함은 공격자가 메모리를 손상시키고 잠재적으로 코드를 실행할 수 있게 할 수 있습니다. PHP는 cURL 확장이 HTTP 응답의 압축을 자동으로 해제할 때 이 결함에 도달할 수 있다고 밝혔습니다.",
+   "impact": "Windows에서 PHP를 사용하는 개발자와 보안 팀은 Brotli 및 cURL 상호 작용과 관련된 코드 실행 위험을 완화하기 위해 패키지를 업데이트해야 할 수 있습니다. cURL은 기본적으로 자동 압축 해제를 비활성화 상태로 두지만, 이 기능을 활성화하는 시스템은 위험에 노출될 수 있습니다.",
+   "keyPoints": [
+    "PHP 8.2부터 8.5까지의 공식 Windows 패키지가 다시 빌드됨.",
+    "업데이트는 Brotli 압축 라이브러리의 CVE-2026-111497을 수정함.",
+    "취약점은 메모리 손상 및 잠재적 코드 실행으로 이어질 수 있음.",
+    "cURL 확장의 자동 HTTP 응답 압축 해제를 통해 결함에 도달할 수 있음."
+   ]
+  }
+ }
+}

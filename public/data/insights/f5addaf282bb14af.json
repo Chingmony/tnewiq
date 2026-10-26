@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f5addaf282bb14af",
+ "contentHash": "f34391c397383d29",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T22:47:18.138Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Researchers find six patterns that make AI text so exhausting to read",
+   "summary": "A study by researchers from New York University and the University of Texas at Austin has found that frontier language models systematically overuse linguistic patterns that humans find difficult to parse. The researchers attribute this issue to training methods involving code and math, which prioritize correctness over clarity. In contrast, smaller models tend to write in a manner that resembles human writing more closely.",
+   "impact": "This research could help developers and technology users understand why certain AI-generated text feels difficult to read. Security teams and developers may need to account for these readability challenges when deploying frontier language models.",
+   "keyPoints": [
+    "Frontier language models overuse linguistic patterns that are hard for humans to parse.",
+    "The problem stems from training on code and math where correctness is rewarded over clarity.",
+    "Smaller models write more like humans compared to frontier language models."
+   ]
+  },
+  "km": {
+   "title": "អ្នកស្រាវជ្រាវរកឃើញលំនាំចំនួនប្រាំមួយដែលធ្វើឱ្យអត្ថបទ AI មានភាពអស់កម្លាំងខ្លាំងក្នុងការអាន",
+   "summary": "ការសិក្សាមួយមកពីសាកលវិទ្យាល័យ New York University និងសាកលវិទ្យាល័យ University of Texas at Austin បានបង្ហាញថា ម៉ូដែលភាសាទំនើបៗប្រើប្រាស់លំនាំភាសាដែលមនុស្សពិបាកយល់លើសកម្រិត។ អ្នកស្រាវជ្រាវបានតាមដានបញ្ហានេះទៅលើការបណ្តុះបណ្តាលលើកូដ និងគណិតវិទ្យា ដែលភាពត្រឹមត្រូវត្រូវបានផ្តល់រង្វាន់ប៉ុន្តែភាពច្បាស់លាស់មិនត្រូវបានផ្តល់រង្វាន់នោះទេ។ ផ្ទុយទៅវិញ ម៉ូដែលតូចៗសរសេរបានដូចមនុស្សច្រើនជាង។",
+   "impact": "ការណ៍នេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាយល់ពីមូលហេតុដែលអត្ថបទបង្កើតដោយ AI មួយចំនួនមានអារម្មណ៍ថាពិបាកអាន។ ក្រុមសុវត្ថិភាព និងអ្នកអភិវឌ្ឍន៍អាចនឹងត្រូវគិតគូរពីរឿងនេះនៅពេលដាក់ឱ្យប្រើប្រាស់ម៉ូដែលភាសាទំនើបៗ។",
+   "keyPoints": [
+    "ម៉ូដែលភាសាទំនើបៗប្រើប្រាស់លំនាំភាសាដែលពិបាកសម្រាប់មនុស្សក្នុងការ解析លើសកម្រិត។",
+    "បញ្ហានេះកើតចេញពីការបណ្តុះបណ្តាលលើកូដ និងគណិតវិទ្យា ដែលផ្តល់តម្លៃលើភាពត្រឹមត្រូវជាងភាពច្បាស់លាស់។",
+    "ម៉ូដែលតូចៗសរសេរបានដូចមនុស្សច្រើនជាងបើធៀបនឹងម៉ូដែលធំៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "研究人员发现使AI文本令人精疲力竭的六种模式",
+   "summary": "纽约大学和德克萨斯大学奥斯汀分校的一项研究表明，前沿语言模型系统性地过度使用了人类难以解析的语言模式。研究人员将这个问题归因于代码和数学方面的训练，在这些训练中正确性得到了回报，但清晰度却没有。相比之下，较小的模型写作时更像人类。",
+   "impact": "这项研究可以帮助开发人员和技术用户理解为什么某些AI生成的文本让人觉得难以阅读。在部署前沿语言模型时，安全团队和开发人员可能需要考虑这些可读性挑战。",
+   "keyPoints": [
+    "前沿语言模型系统性地过度使用了人类难以解析的语言模式。",
+    "这个问题源于对代码和数学的训练，这些训练奖励正确性而非清晰度。",
+    "与前沿模型相比，较小的模型写作更接近人类。"
+   ]
+  },
+  "ko": {
+   "title": "연구원들이 AI 텍스트를 읽기 지치게 만드는 6가지 패턴을 발견하다",
+   "summary": "뉴욕대학교와 텍사스 대학교 오스틴 캠퍼스의 연구에 따르면, 최첨단 언어 모델은 인간이 구문 분석하기 어려운 언어적 패턴을 체계적으로 지나치게 많이 사용하는 것으로 나타났습니다. 연구원들은 이 문제가 정확성은 보상받지만 명확성은 그렇지 않은 코드 및 수학 학습에서 비롯된다고 추적했습니다. 이와 대조적으로 더 작은 모델들은 인간과 더 유사하게 글을 씁니다.",
+   "impact": "이번 연구는 개발자와 기술 사용자들에게 특정 AI 생성 텍스트가 왜 읽기 어려운지 이해하는 데 도움을 줄 수 있습니다. 보안 팀과 개발자는 최첨단 언어 모델을 배포할 때 이러한 가독성 문제를 고려해야 할 수 있습니다.",
+   "keyPoints": [
+    "최첨단 언어 모델은 인간이 구문 분석하기 어려운 언어적 패턴을 지나치게 많이 사용합니다.",
+    "이 문제는 명확성보다 정확성이 보상받는 코드 및 수학 학습에서 기인합니다.",
+    "더 작은 모델들은 최첨단 모델에 비해 인간과 더 유사한 글쓰기를 보여줍니다."
+   ]
+  }
+ }
+}
