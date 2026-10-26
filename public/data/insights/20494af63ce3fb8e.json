@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "20494af63ce3fb8e",
+ "contentHash": "501b22f847544a2e",
+ "model": "gemini-flash-latest",
+ "generatedAt": "2026-10-26T11:12:25.647Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+   "summary": "A rentable Android spyware kit named uCreator has been found capable of taking over Telegram and WeChat accounts. Researcher Ovi discovered that the spyware operates by hiding its code inside working versions of the two messaging applications. Infection occurs when targets install these modified copies distributed outside official app stores, or when they execute WeChat within a container application provided by the kit makers.",
+   "impact": "Users who obtain applications from unofficial sources or utilize third-party container tools may face account compromise. Security teams and individuals could see unauthorized access to sensitive messaging platforms if modified software is installed on Android devices.",
+   "keyPoints": [
+    "uCreator is a rentable Android spyware kit targeting Telegram and WeChat accounts.",
+    "The malicious code is concealed inside functioning copies of the targeted apps or launched via a dedicated container app.",
+    "Threat actors distribute these modified applications outside official app stores.",
+    "The Telegram component shares similarities with the Baohuo backdoor identified by Doctor Web."
+   ]
+  },
+  "km": {
+   "title": "កម្មវិធីចារកម្ម Android ឈ្មោះ uCreator អាចលួចពាក្យសម្ងាត់ 2FA របស់ Telegram និងក្លូនគណនី WeChat បាន",
+   "summary": "កញ្ចប់កម្មវិធីចារកម្ម Android សម្រាប់ជួលឈ្មោះ uCreator ត្រូវបានរកឃើញថាអាចគ្រប់គ្រងគណនី Telegram និង WeChat។ អ្នកស្រាវជ្រាវឈ្មោះ Ovi បានរកឃើញថាកម្មវិធីចារកម្មនេះលាក់កូដរបស់វានៅក្នុងកម្មវិធីផ្ញើសារទាំងពីរដែលកំពុងដំណើរការ។ ការឆ្លងកើតឡើងចំពោះតែអ្នកដែលដំឡើងកម្មវិធីកែច្នៃទាំងនេះដែលបានចែកចាយនៅក្រៅហាងកម្មវិធីផ្លូវការ ឬអ្នកដែលដំណើរការ WeChat នៅក្នុងកម្មវិធី container របស់អ្នកបង្កើតកញ្ចប់នោះប៉ុណ្ណោះ។",
+   "impact": "អ្នកប្រើប្រាស់ដែលទាញយកកម្មវិធីពីប្រភពក្រៅផ្លូវការអាចប្រឈមនឹងការបាត់បង់ការគ្រប់គ្រងគណនី។ ក្រុមការងារសន្តិសុខនិងអ្នកប្រើប្រាស់ឧបករណ៍ Android អាចប្រឈមនឹងការជ្រៀតចូលគណនីផ្ញើសារសម្ងាត់ ប្រសិនបើកម្មវិធីដែលត្រូវបានកែប្រែត្រូវបានដំឡើង។",
+   "keyPoints": [
+    "uCreator គឺជាកញ្ចប់កម្មវិធីចារកម្ម Android សម្រាប់ជួលដែលផ្តោតលើ Telegram និង WeChat។",
+    "កូដព្យាបាទត្រូវបានលាក់នៅក្នុងកម្មវិធីទាំងពីរ ឬដំណើរការតាមរយៈកម្មវិធី container ផ្ទាល់ខ្លួន។",
+    "ការឆ្លងកើតឡើងតាមរយៈការដំឡើងកម្មវិធីកែច្នៃដែលចែកចាយក្រៅហាងកម្មវិធីផ្លូវការ។",
+    "ផ្នែក Telegram ត្រូវគ្នានឹង backdoor ឈ្មោះ Baohuo ដែលរកឃើញដោយ Doctor Web។"
+   ]
+  },
+  "zh-CN": {
+   "title": "uCreator Android间谍软件可窃取Telegram 2FA密码并克隆WeChat账户",
+   "summary": "研究人员Ovi发现，一款名为uCreator的可租用Android间谍软件套件能够接管Telegram和WeChat账户。该间谍软件通过将其恶意代码隐藏在两款应用的正常运行副本中来进行操作。受害者通常是安装了官方应用商店之外分发的篡改版本，或在套件制作者提供的容器应用内运行WeChat的用户。",
+   "impact": "从非官方渠道安装应用或使用特定容器工具的用户可能会面临账户被接管的风险。如果Android设备上安装了被篡改的程序，安全团队和个人通信隐私可能会受到直接影响。",
+   "keyPoints": [
+    "uCreator是一款可供租用的Android间谍软件套件，专门针对Telegram和WeChat。",
+    "恶意代码隐藏在可正常运行的应用副本内，或通过专门的容器应用运行。",
+    "该间谍软件仅通过官方应用商店之外分发的被篡改应用进行传播。",
+    "该套件的Telegram部分与Doctor Web此前发现的Baohuo后门相匹配。"
+   ]
+  },
+  "ko": {
+   "title": "uCreator 안드로이드 스파이웨어, Telegram 2FA 암호 탈취 및 WeChat 계정 복제 가능",
+   "summary": "대여 가능한 안드로이드 스파이웨어 킷인 uCreator가 Telegram 및 WeChat 계정을 탈취할 수 있는 것으로 조사관 Ovi에 의해 밝혀졌습니다. 이 스파이웨어는 정상 작동하는 두 메신저 앱 내부에 악성 코드를 숨기는 방식으로 작동합니다. 피해는 공식 앱 스토어 외부에서 배포된 변조된 앱을 설치하거나 제작자가 만든 컨테이너 앱 내에서 WeChat을 실행할 때 발생합니다.",
+   "impact": "비공식 경로로 앱을 설치하거나 전용 컨테이너를 실행하는 사용자는 계정 침해 위험에 노출될 수 있습니다. 악성 코드가 포함된 변조 소프트웨어가 설치될 경우 기기 사용자의 보안과 메시징 계정 권한이 탈취될 수 있습니다.",
+   "keyPoints": [
+    "uCreator는 Telegram과 WeChat 계정을 노리는 대여형 안드로이드 스파이웨어 키트입니다.",
+    "정상 작동하는 앱 복사본 내에 코드를 은닉하거나 별도의 컨테이너 앱을 통해 실행됩니다.",
+    "공식 앱 스토어 외부에서 배포된 변조 복사본을 설치할 때 감염됩니다.",
+    "해당 키트의 Telegram 관련 부분은 Doctor Web이 발견한 Baohuo 백도어와 일치합니다."
+   ]
+  }
+ }
+}

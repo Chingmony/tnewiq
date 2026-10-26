@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a26d3a2a0bb03d72",
+ "contentHash": "bcb2e58a9f1278eb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T11:18:08.610Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+   "summary": "An automated campaign dubbed Gheist is using stolen GitHub tokens to plant workflows that print repository secrets into GitHub Actions logs. Attackers then download these logs before deleting the runs to cover their tracks. According to cloud security company Wiz, the attacks have successfully targeted private repositories and GitHub Enterprise environments.",
+   "impact": "Developers and security teams managing private repositories and GitHub Enterprise environments may face risks from unauthorized secret extraction if GitHub tokens are compromised. Organizations could need to closely monitor GitHub Actions workflows and token usage to detect potential automated log-harvesting campaigns.",
+   "keyPoints": [
+    "An automated campaign uses stolen GitHub tokens to plant malicious workflows.",
+    "Workflows print private repository secrets into GitHub Actions logs.",
+    "Attackers download the logs and delete the runs afterward.",
+    "The attacks have affected private repositories and GitHub Enterprise environments according to Wiz."
+   ]
+  },
+  "km": {
+   "title": "Gheist ប្រើប្រាស់ថូខឹន GitHub ដែលបានលួច ដើម្បីលួចយកការសម្ងាត់ពីឃ្លាំងឯកជនតាមរយៈ Actions Logs",
+   "summary": "យុទ្ធនាការស្វ័យប្រវត្តិមួយកំពុងប្រើប្រាស់ថូខឹន GitHub ដែលបានលួចដើម្បីដាក់បញ្ចូលដំណើរការការងារដែលបោះពុម្ពការសម្ងាត់របស់ឃ្លាំងទៅក្នុង GitHub Actions logs ដែលបន្ទាប់មកពួក Hacker បានទាញយកមុនពេលលុបការដំណើរការទាំងនោះចោល។ យោងតាមការវិភាគពីក្រុមហ៊ុនសន្តិសុខពពក Wiz ការវាយប្រហារនេះបានទទួលជោគជ័យលើឃ្លាំងឯកជន និងបរិយាកាស GitHub Enterprise។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចនឹងប្រឈមមុខនឹងហានិភ័យនៃការទាញយកព័ត៌មានសម្ងាត់ដោយគ្មានការអនុញ្ញាត ប្រសិនបើថូខឹន GitHub ត្រូវបានបែកធ្លាយ។ អង្គការនានាអាចចាំបាច់ត្រូវត្រួតពិនិត្យដំណើរការការងារ GitHub Actions និងការប្រើប្រាស់ថូខឹនឱ្យបានដិតដល់ដើម្បីរកមើលយុទ្ធនាការប្រមូលទិន្នន័យ.",
+   "keyPoints": [
+    "យុទ្ធនាការស្វ័យប្រវត្តិមួយប្រើប្រាស់ថូខឹន GitHub ដែលបានលួចដើម្បីដាក់បញ្ចូលដំណើរការការងារ។",
+    "ដំណើរការការងារបោះពុម្ពការសម្ងាត់ឃ្លាំងឯកជនទៅក្នុង GitHub Actions logs។",
+    "ពួក Hacker បានទាញយក logs និងលុបការដំណើរការចោលបន្ទាប់មក។",
+    "ការវាយប្រហារបានប៉ះពាល់ដល់ឃ្លាំងឯកជន និងបរិយាកាស GitHub Enterprise យោងតាម Wiz។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Gheist 利用窃取的 GitHub 令牌通过 Actions 日志窃取私有仓库机密",
+   "summary": "一项自动化攻击活动正在利用被盗的 GitHub 令牌植入工作流，将仓库机密打印到 GitHub Actions 日志中，攻击者随后在删除运行记录之前下载这些日志。根据云安全公司 Wiz 的分析，这些攻击已成功针对私有仓库和 GitHub Enterprise 环境。",
+   "impact": "如果 GitHub 令牌遭到泄露，管理私有仓库和 GitHub Enterprise 环境的开发人员和安全团队可能会面临未经授权泄露机密的风险。组织可能需要密切监视 GitHub Actions 工作流和令牌使用情况，以检测潜在的自动化日志搜集活动。",
+   "keyPoints": [
+    "自动化攻击活动使用被盗的 GitHub 令牌植入工作流。",
+    "工作流将私有仓库机密打印到 GitHub Actions 日志中。",
+    "攻击者在删除运行记录前会下载日志。",
+    "Wiz 称攻击已成功波及私有仓库和 GitHub Enterprise 环境。"
+   ]
+  },
+  "ko": {
+   "title": "Gheist, 탈취된 GitHub 토큰을 이용해 Actions 로그를 통해 비공개 리포지토리 비밀 정보 유출",
+   "summary": "자동화된 캠페인이 탈취된 GitHub 토큰을 사용하여 리포지토리의 비밀 정보를 GitHub Actions 로그에 출력하는 워크플로를 심고 있으며, 공격자들은 실행 내역을 삭제하기 전에 이 로그를 다운로드하고 있습니다. 클라우드 보안 기업 Wiz의 분석에 따르면 이 공격들은 비공개 리포지토리와 GitHub Enterprise 환경을 대상으로 성공을 거두었습니다.",
+   "impact": "GitHub 토큰이 유출될 경우 비공개 리포지토리와 GitHub Enterprise 환경을 관리하는 개발자와 보안 팀은 무단 비밀 정보 추출 위험에 직면할 수 있습니다. 조직은 잠재적인 자동화 로그 수집 캠페인을 탐지하기 위해 GitHub Actions 워크플로와 토큰 사용량을 면밀히 모니터링해야 할 수 있습니다.",
+   "keyPoints": [
+    "자동화된 캠페인이 탈취된 GitHub 토큰으로 악성 워크플로를 심고 있음.",
+    "워크플로를 통해 비공개 리포지토리 비밀 정보가 GitHub Actions 로그에 출력됨.",
+    "공격자가 로그를 다운로드한 후 실행 기록을 삭제함.",
+    "Wiz에 따르면 이 공격은 비공개 리포지토리와 GitHub Enterprise 환경에 영향을 미쳤음."
+   ]
+  }
+ }
+}

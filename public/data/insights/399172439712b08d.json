@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "399172439712b08d",
+ "contentHash": "1b77286fb9fae109",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T11:17:58.134Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+   "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that used an adversary-in-the-middle relay to capture sign-in sessions and replay stolen tokens. Huntress observed this activity between July 14 and September 22, 2026, detecting 497 successful sign-in events. The campaign successfully compromised email accounts at 79 organizations.",
+   "impact": "Security teams and technology users may need to review authentication monitoring to detect potential adversary-in-the-middle relays and token replay attempts against Microsoft 365 accounts.",
+   "keyPoints": [
+    "A campaign leveraged an adversary-in-the-middle relay to capture sign-in sessions.",
+    "Stolen tokens were replayed to break into email accounts.",
+    "Huntress observed the activity between July 14 and September 22, 2026.",
+    "The activity affected 79 organizations and 97 accounts."
+   ]
+  },
+  "km": {
+   "title": "ការវាយប្រហារ Token-Replay លើ Microsoft 365 ប៉ះពាល់គណនីចំនួន 97 នៅអង្គការចំនួន 79",
+   "summary": "អ្នកស្រាវជ្រាវផ្នែកសន្តិសុខាយប៊ឺបានបង្ហាញពីយុទ្ធនាការ Microsoft 365 ដែលបានប្រើប្រាស់ប្រព័ន្ធបញ្ជូនបន្ត adversary-in-the-middle ដើម្បីចាប់យកវគ្គចុះឈ្មោះចូល និងចាក់សារថ្មីនូវថូខឹនដែលបានលួច។ Huntress បានកត់ត្រាសកម្មភាពនេះចន្លោះថ្ងៃទី 14 ខែកក្កដាដល់ថ្ងៃទី 22 ខែកញ្ញា ឆ្នាំ 2026 និងបានរកឃើញព្រឹត្តិការណ៍ចុះឈ្មោះចូលដោយជោគជ័យ។ យុទ្ធនាការនេះបានសម្រេចជ្រៀតចូលគណនីអ៊ីមែលនៅអង្គការចំនួន 79។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវពិនិត្យមើលការត្រួតពិនិត្យការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ ដើម្បីរកឱ្យឃើញនូវការព្យាយាមបញ្ជូនបន្តនិងការចាក់សារថ្មីនូវថូខឹនប្រឆាំងនឹងគណនី Microsoft 365។",
+   "keyPoints": [
+    "យុទ្ធនាការមួយបានប្រើប្រាស់ការបញ្ជូនបន្ត adversary-in-the-middle ដើម្បីចាប់យកវគ្គចុះឈ្មោះចូល។",
+    "ថូខឹនដែលបានលួចត្រូវបានយកមកចាក់សារថ្មីដើម្បីចូលទៅក្នុងគណនីអ៊ីមែល។",
+    "Huntress បានកត់សម្គាល់សកម្មភាពនេះចន្លោះថ្ងៃទី 14 ខែកក្កដាដល់ថ្ងៃទី 22 ខែកញ្ញា ឆ្នាំ 2026។",
+    "សកម្មភាពនេះបានប៉ះពាល់ដល់អង្គការចំនួន 79 និងគណនីចំនួន 97។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Microsoft 365 令牌重放攻击入侵了 79 个组织的 97 个账户",
+   "summary": "网络安全研究人员披露了一起 Microsoft 365 攻击活动，该活动利用中间人中继捕获登录会话，然后重放被盗令牌以入侵电子邮件账户。Huntress 在 2026 年 7 月 14 日至 9 月 22 日期间观察到了这一活动，检测到多起成功的登录事件。该活动成功侵入了 79 个组织的电子邮件账户。",
+   "impact": "安全团队和技术用户可能需要审查身份验证监控，以检测针对 Microsoft 365 账户的潜在中间人中继和令牌重放尝试。",
+   "keyPoints": [
+    "攻击活动利用中间人中继来捕获登录会话。",
+    "通过重放被盗令牌来入侵电子邮件账户。",
+    "Huntress 在 2026 年 7 月 14 日至 9 月 22 日期间观察到了该活动。",
+    "该活动影响了 79 个组织和 97 个账户。"
+   ]
+  },
+  "ko": {
+   "title": "Microsoft 365 토큰 리플레이 공격으로 79개 조직의 계정 97개 침해됨",
+   "summary": "사이버 보안 연구원들은 적중개자(adversary-in-the-middle) 릴레이를 활용해 로그인 세션을 가로채고 도둑맞은 토큰을 리플레이하여 이메일 계정에 침입한 Microsoft 365 캠페인을 공개했습니다. Huntress는 2026년 7월 14일부터 9월 22일 사이에 이 활동을 관측했으며 성공적인 로그인 이벤트를 감지했습니다. 이 캠페인은 79개 조직의 이메일 계정을 성공적으로 침해했습니다.",
+   "impact": "보안 팀과 기술 사용자는 Microsoft 365 계정을 대상으로 하는 잠재적 적중개자 릴레이 및 토큰 리플레이 시도를 감지하기 위해 인증 모니터링을 검토해야 할 수 있습니다.",
+   "keyPoints": [
+    "캠페인은 로그인 세션을 가로채기 위해 적중개자 릴레이를 활용했습니다.",
+    "도난당한 토큰이 리플레이되어 이메일 계정에 침입했습니다.",
+    "Huntress는 2026년 7월 14일부터 9월 22일 사이에 이 활동을 관측했습니다.",
+    "이 활동은 79개 조직과 97개의 계정에 영향을 미쳤습니다."
+   ]
+  }
+ }
+}

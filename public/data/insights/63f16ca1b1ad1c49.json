@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "63f16ca1b1ad1c49",
+ "contentHash": "6efe6983b61130fb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T11:18:22.247Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+   "summary": "According to a report by Forever Security, a malicious instruction file placed in a developer's Downloads folder attempted to trick an AI coding agent into installing a known-malicious npm package. Security software caught this attempt on a customer's machine and stopped the agent before any code could run. The security firm was unable to determine how the file originally ended up in the folder.",
+   "impact": "This incident highlights potential security risks when AI coding agents interact with local environments and untrusted files. Developers and security teams may need to monitor how AI assistants read local instructions to prevent the execution of malicious packages.",
+   "keyPoints": [
+    "A malicious instruction file was found in a developer's Downloads folder.",
+    "The file attempted to make an AI coding agent install a known-malicious npm package.",
+    "Forever Security caught and stopped the attempt before any code ran.",
+    "The origin of the file in the Downloads folder remains undetermined."
+   ]
+  },
+  "km": {
+   "title": "ឯកសារមានមេរោគនៅក្នុងថត Downloads ព្យាយាមបោកប្រាស់ភ្នាក់ងារសរសេរកូដ AI ឱ្យដំឡើងកម្មវិធីមេរោគ",
+   "summary": "យោងតាមរបាយការណ៍ពីក្រុមហ៊ុនសុវត្ថិភាព Forever Security បានឱ្យដឹងថា ឯកសារបញ្ជាដែលមានមេរោគនៅក្នុងថត Downloads របស់ភ្នាក់ងារអភិវឌ្ឍន៍ម្នាក់ បានព្យាយាមបង្ខំឱ្យភ្នាក់ងារសរសេរកូដ AI ដំឡើងកញ្ចប់ npm ដែលមានមេរោគ។ ក្រុមហ៊ុនបានរកឃើញការប៉ុនប៉ងនេះនៅលើម៉ាស៊ីនរបស់អតិថិជនពិតប្រាកដ និងបានទប់ស្កាត់ភ្នាក់ងារនោះមុនពេលកូដណាមួយត្រូវបានដំណើរការ។ ក្រុមហ៊ុនមិនអាចកំណត់បានថា តើឯកសារនោះបានចូលទៅក្នុងថតនោះដោយរបៀបណានោះទេ។",
+   "impact": "ឧប្បត្តិហេតុនេះបង្ហាញពីហានិភ័យសវត្ថិភាពដែលអាចកើតមាន នៅពេលដែលភ្នាក់ងារសរសេរកូដ AI ប្រាស្រ័យទាក់ទងជាមួយបរិយាកាសក្នុងស្រុក និងឯកសារដែលមិនគួរឱ្យទុកចិត្ត។ ក្រុមអភិវឌ្ឍន៍និងសុវត្ថិភាពប្រហែលជាត្រូវពិនិត្យមើលពីរបៀបដែលជំនួយការ AI អានការបញ្ជាក្នុងស្រុក ដើម្បីការពារការប្រតិបត្តិកញ្ចប់មេរោគ។",
+   "keyPoints": [
+    "ឯកសារបញ្ជាដែលមានមេរោគត្រូវបានរកឃើញនៅក្នុងថត Downloads របស់អ្នកអភិវឌ្ឍន៍។",
+    "ឯកសារនោះបានព្យាយាមធ្វើឱ្យភ្នាក់ងារសរសេរកូដ AI ដំឡើងកញ្ចប់ npm ដែលมีមេរោគ។",
+    "ក្រុមហ៊ុន Forever Security បានចាប់និងទប់ស្កាត់ការប៉ុនប៉ងនោះមុនពេលកូដរត់។",
+    "ប្រភពដើមនៃឯកសារនៅក្នុងថត Downloads មិនទាន់ត្រូវបានកំណត់នៅឡើយទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "下载文件夹中的恶意文件试图诱骗AI编码代理安装恶意软件",
+   "summary": "安全公司 Forever Security 在上周发布的一份报告中称，存放在开发人员下载文件夹中的一个恶意指令文件试图诱使他们的 AI 编码 agent 安装已知的恶意 npm 软件包。该公司在真实客户的机器上截获了此次攻击尝试，并在任何代码运行之前阻止了该 agent。目前尚无法确定该文件是如何进入该文件夹的。",
+   "impact": "这一事件凸显了当 AI 编码 agent 与本地环境及不受信任的文件交互时潜在的安全风险。开发人员和安全团队可能需要监控 AI 助手读取本地指令的方式，以防止执行恶意软件包。",
+   "keyPoints": [
+    "在开发人员的下载文件夹中发现了一个恶意指令文件。",
+    "该文件试图让 AI 编码 agent 安装已知的恶意 npm 软件包。",
+    "Forever Security 在代码运行前拦截并阻止了该尝试。",
+    "目前尚不清楚该文件是如何进入下载文件夹的。"
+   ]
+  },
+  "ko": {
+   "title": "다운로드 폴더의 악성 파일이 AI 코딩 에이전트를 속여 악성 코드를 설치하도록 시도함",
+   "summary": "보안 기업 Forever Security의 보고서에 따르면, 개발자의 다운로드 폴더에 있던 악성 지시 파일이 AI 코딩 에이전트를 속여 알려진 악성 npm 패키지를 설치하려고 시도했습니다. 보안 회사는 실제 고객의 기기에서 이 시도를 포착하고 코드가 실행되기 전에 에이전트를 중단시켰습니다. 해당 파일이 어떻게 폴더에 들어갔는지는 확인되지 않았습니다.",
+   "impact": "이번 사건은 AI 코딩 에이전트가 로컬 환경 및 신뢰할 수 없는 파일과 상호작용할 때 발생할 수 있는 잠재적 보안 위험을 보여줍니다. 개발자와 보안 팀은 악성 패키지의 실행을 방지하기 위해 AI 보조 프로그램이 로컬 지시사항을 읽는 방식을 모니터링해야 할 수 있습니다.",
+   "keyPoints": [
+    "개발자의 다운로드 폴더에서 악성 지시 파일이 발견되었습니다.",
+    "이 파일은 AI 코딩 에이전트가 알려진 악성 npm 패키지를 설치하도록 유도하려고 시도했습니다.",
+    "Forever Security는 코드가 실행되기 전에 해당 시도를 포착하고 차단했습니다.",
+    "다운로드 폴더에 파일이 유입된 경로는 확인되지 않았습니다."
+   ]
+  }
+ }
+}
