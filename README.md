@@ -128,7 +128,7 @@ When available, the page also shows an **AI briefing** in the interface language
 - **Written by:** the Gemini API free tier, inside the hourly GitHub Action (`scripts/insights`). Never in the browser.
 - **Input:** only the headline and the text the publisher includes in its feed (`.cache/feed-context.json`, never committed), or the short excerpt when that is all there is. The prompt forbids adding facts and treats feed text as data, not instructions.
 - **Checks:** every response is validated (all four languages present, each in the right script, plain text only) before it is saved to `public/data/insights/<id>.json`.
-- **Labelling:** briefings are marked "AI-generated" and name the model. The original title and excerpt are always shown too.
+- **Labelling:** briefings carry a "Source & AI disclosure" note saying they are AI-generated and pointing readers to the original. The model that wrote each one is recorded in its file. The original title and excerpt are always shown too.
 - **Limits:** newest stories first, 12 per run, one request every 6.5 s. The model's "thinking" step is turned off so answers arrive quickly; a model that takes longer than 120 s is skipped in favour of the next one. A run stops when Google reports the quota is used up; the rest wait for the next run. Collecting stories never depends on this step.
 - **Cost:** $0 on the free tier. Google never bills unless you attach billing to the key's project yourself. On the free tier, Google may use what it receives (public article text) to improve its products.
 

@@ -171,10 +171,10 @@ describe('Story page', () => {
   })
 
   it.each([
-    ['en', 'New Kubernetes version released', 'Fixture summary in English.', 'Why it matters'],
-    ['km', 'កំណែ Kubernetes ថ្មីត្រូវបានចេញផ្សាយ', 'សេចក្តីសង្ខេបសាកល្បង។', 'ហេតុអ្វីវាសំខាន់'],
-    ['zh-CN', 'Kubernetes 新版本发布', '测试摘要。', '为何重要'],
-  ])('shows the AI briefing in %s, labelled as AI-generated, with the original title kept', async (locale, title, summary, impact) => {
+    ['en', 'New Kubernetes version released', 'Fixture summary in English.', 'Why it matters', 'Source & AI disclosure:'],
+    ['km', 'កំណែ Kubernetes ថ្មីត្រូវបានចេញផ្សាយ', 'សេចក្តីសង្ខេបសាកល្បង។', 'ហេតុអ្វីវាសំខាន់', 'ប្រភព និងការបង្ហាញអំពី AI៖'],
+    ['zh-CN', 'Kubernetes 新版本发布', '测试摘要。', '为何重要', '来源与 AI 声明：'],
+  ])('shows the AI briefing in %s, labelled as AI-generated, with the original title kept', async (locale, title, summary, impact, disclosure) => {
     localStorage.setItem('tnewiq.locale', JSON.stringify(locale))
     window.location.hash = 'story/4444444444444444'
     renderApp()
@@ -182,7 +182,7 @@ describe('Story page', () => {
     expect(screen.getByText(summary)).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: impact })).toBeInTheDocument()
     expect(screen.getByText('쿠버네티스 신규 버전 출시', { selector: 'span' })).toHaveAttribute('lang', 'ko')
-    expect(screen.getByText(/fixture-model/)).toBeInTheDocument()
+    expect(screen.getByText(disclosure)).toBeInTheDocument()
   })
 
   it('shows the Korean original title once when the interface is Korean', async () => {

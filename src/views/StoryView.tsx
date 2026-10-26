@@ -188,8 +188,7 @@ export function StoryView({ article, articles, isBookmarked, onToggleBookmark, o
               </ul>
             </div>
             <p className="border-t border-line pt-4 text-xs text-muted">
-              {t('story.aiNote', { model: insight.model })}
-              {insight.basedOn === 'excerpt' && <> {t('story.basedOnExcerpt')}</>}
+              <strong className="font-semibold text-ink">{t('story.aiNoteLabel')}</strong> {t('story.aiNote')}
             </p>
           </div>
         )}
