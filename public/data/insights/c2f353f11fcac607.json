@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c2f353f11fcac607",
+ "contentHash": "ab180d6c2a4be235",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T04:56:15.349Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+   "summary": "LiteLLM revealed that an Agent Platform master key was accidentally published to a public GitHub repository in late May 2026. This leak allowed a threat actor to push a malicious version of the popular Python package. The incident originated from a configuration file committed to the LiteLLM-Labs/lite-harness repository on May 27, 2026.",
+   "impact": "Security teams and developers relying on third-party packages could face risks if repository credentials or master keys are exposed. This incident may highlight the importance of scanning repositories for accidental credential leaks to protect release pipelines.",
+   "keyPoints": [
+    "An Agent Platform master key was accidentally published to a public GitHub repository.",
+    "The leak occurred in late May 2026 within the LiteLLM-Labs/lite-harness repository.",
+    "The exposure allowed threat actors to push a malicious version of the Python package."
+   ]
+  },
+  "km": {
+   "title": "សោរមេ LiteLLM ដែលធ្លាយបានអនុញ្ញាតឱ្យពួកហែកឃ័របញ្ឆោតលួចយកថូខឹន GitHub និងគ្រប់គ្រងបំពង់បញ្ចេញកំណែទម្រង់",
+   "summary": "LiteLLM បានបង្ហាញថា សោរមេរបស់ Agent Platform ត្រូវបានបោះពុម្ពផ្សាយដោយអចេតនាទៅកាន់ឃ្លាំង GitHub សាធារណៈកាលពីចុងខែឧសភា ឆ្នាំ២០២៦។ ការធ្លាយនេះបានអនុញ្ញាតឱ្យពួកគំរាមកំហែងជំរុញកំណែទម្រង់ព្យាបាទនៃកញ្ចប់ Python ដ៏ពេញនិយម។ ហេតុការណ៍នេះបានកើតឡើងពីឯកសារកំណត់រចនាសម្ព័ន្ធដែលបានដាក់ចូលទៅក្នុងឃ្លាំង LiteLLM-Labs/lite-harness កាលពីថ្ងៃទី២៧ ខែឧសភា ឆ្នាំ២០២៦។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ដែលពឹងផ្អែកលើកញ្ចប់ភាគីទីបីអាចនឹងប្រឈមមុខនឹងហានិភ័យ ប្រសិនបើសម្ភារៈសម្ងាត់ ឬសោរមេត្រូវបានបង្ហាញជាសាធារណៈ។ ហេតុការណ៍នេះអាចបញ្ជាក់ពីសារៈសំខាន់នៃការពិនិត្យមើលឃ្លាំងកូដ ដើម្បីការពារការធ្លាយព័ត៌មានសម្ងាត់ដោយអចេតនា។",
+   "keyPoints": [
+    "សោរមេរបស់ Agent Platform ត្រូវបានបោះពុម្ពផ្សាយដោយអចេតនាទៅកាន់ឃ្លាំង GitHub សាធារណៈ។",
+    "ការធ្លាយនេះបានកើតឡើងនៅចុងខែឧសភា ឆ្នាំ២០២៦ ក្នុងឃ្លាំង LiteLLM-Labs/lite-harness។",
+    "ការបង្ហាញនេះបានអនុញ្ញាតឱ្យពួកគំរាមកំហែងជំរុញកំណែទម្រង់ព្យាបាទនៃកញ្ចប់ Python។"
+   ]
+  },
+  "zh-CN": {
+   "title": "LiteLLM 主密钥泄露导致攻击者窃取 GitHub 令牌并劫持发布管道",
+   "summary": "LiteLLM 透露，一个 Agent Platform 主密钥于 2026 年 5 月下旬被意外发布到一个公共 GitHub 仓库中。这次泄露最终允许威胁行为者推送了一个恶意版本的热门 Python 软件包。该事件源于 2026 年 5 月 27 日提交到 LiteLLM-Labs/lite-harness 仓库的一个配置文件。",
+   "impact": "依赖第三方软件包的安全团队和开发人员可能会面临风险，特别是当仓库凭据或主密钥暴露时。此事件可能凸显了扫描代码库以防范意外凭据泄露对于保护发布管道的重要性。",
+   "keyPoints": [
+    "一个 Agent Platform 主密钥被意外发布到公共 GitHub 仓库中。",
+    "泄露事件发生于 2026 年 5 月下旬的 LiteLLM-Labs/lite-harness 仓库中。",
+    "该漏洞允许威胁行为者推送该 Python 软件包的恶意版本。"
+   ]
+  },
+  "ko": {
+   "title": "LiteLLM 마스터 키 유출로 공격자가 GitHub 토큰을 훔치고 배포 파이프라인을 탈취함",
+   "summary": "LiteLLM은 2026년 5월 말 Agent Platform 마스터 키가 공개 GitHub 저장소에 실수로 게시되었다고 밝혔습니다. 이 유출로 인해 위협 행위자는 인기 있는 Python 패키지의 악성 버전을 푸시할 수 있었습니다. 이 사건은 2026년 5월 27일 LiteLLM-Labs/lite-harness 저장소에 커밋된 설정 파일에서 비롯되었습니다.",
+   "impact": "타사 패키지를 사용하는 개발자와 보안 팀은 저장소 자격 증명이나 마스터 키가 노출될 경우 위험에 직면할 수 있습니다. 이 사건은 배포 파이프라인을 보호하기 위해 저장소에서 우발적인 자격 증명 유출을 검사하는 것의 중요성을 강조할 수 있습니다.",
+   "keyPoints": [
+    "Agent Platform 마스터 키가 공개 GitHub 저장소에 실수로 게시되었습니다.",
+    "유출은 2026년 5월 말 LiteLLM-Labs/lite-harness 저장소에서 발생했습니다.",
+    "이 노출로 인해 위협 행위자가 Python 패키지의 악성 버전을 푸시할 수 있었습니다."
+   ]
+  }
+ }
+}

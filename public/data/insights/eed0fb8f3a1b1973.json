@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "eed0fb8f3a1b1973",
+ "contentHash": "611a1348e8fdce08",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T04:56:46.450Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Jync v1.8.0 Adds Unified Authentication & Adjusts Navigation Pages",
+   "summary": "Jync v1.8.0 introduces unified authentication allowing enterprise portal accounts to log in directly via account password, gateway header, or ticket. The update also reorganizes navigation groups into configuration management and log management, adds a system log query page, and renames projects to synchronization tasks. Following the upgrade, external authentication is disabled by default while local account login behavior remains consistent with version 1.7.8.",
+   "impact": "This update could streamline user login processes for enterprises utilizing unified authentication methods. Administrators and developers may need to note that external authentication defaults to disabled post-upgrade, requiring manual configuration adjustments.",
+   "keyPoints": [
+    "Supports three unified authentication methods: account password via OA interface, gateway header, and ticket.",
+    "Navigation is grouped into configuration management and log management with a new system log query page.",
+    "Projects are uniformly renamed to synchronization tasks across the interface.",
+    "External authentication is disabled by default after upgrading, maintaining local login behavior from v1.7.8."
+   ]
+  },
+  "km": {
+   "title": "Jync v1.8.0 បន្ថែមការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវបង្រួបបង្រួម និងកែសម្រួលទំព័ររុករក",
+   "summary": "Jync v1.8.0 ណែនាំការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវបង្រួបបង្រួមដែលអនុញ្ញាតឱ្យគណនីផតថលសហគ្រាសចូលដោយផ្ទាល់។ ការអាប់ដេតនេះរៀបចំក្រុមរុករកឡើងវិញ បន្ថែមទំព័រស្វែងរកកំណត់ហេតុប្រព័ន្ធ និងប្តូរឈ្មោះប្រូጀektទៅជាភារកិច្ចធ្វើសមកាលកម្ម។ ក្រោយពេលអាប់ដេត ការផ្ទៀងផ្ទាត់ខាងក្រៅត្រូវបានបិទតាមលំនាំដើម។",
+   "impact": "ការផ្លាស់ប្តូរនេះអាចជួយសម្រួលដល់ដំណើរការចូលប្រើប្រាស់ និងការគ្រប់គ្រងប្រព័ន្ធសម្រាប់អ្នកប្រើប្រាស់។ អ្នកគ្រប់គ្រងប្រព័ន្ធអាចចាំបាច់ត្រូវកំណត់រចនាសម្ព័ន្ធការផ្ទៀងផ្ទាត់ខាងក្រៅឡើងវិញព្រោះវាត្រូវបានបិទតាមលំនាំដើម។",
+   "keyPoints": [
+    "គាំទ្រវិធីសាស្ត្រផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវបង្រួបបង្រួមចំនួនបីគឺ ពាក្យសម្ងាត់គណនី ក្បាលច្រកផ្លូវ និងសំបុត្រ។",
+    "រៀបចំការរុករកទៅជាការគ្រប់គ្រងការកំណត់រចនាសម្ព័ន្ធ និងការគ្រប់គ្រងកំណត់ហេតុ។",
+    "ប្តូរឈ្មោះប្រូጀektទៅជាភារកិច្ចធ្វើសមកាលកម្មនៅលើចំណុចប្រទាក់។",
+    "ការផ្ទៀងផ្ទាត់ខាងក្រៅត្រូវបានបិទតាមលំនាំដើមបន្ទាប់ពីអាប់ដេត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Jync v1.8.0 新增统一认证 & 调整导航页面",
+   "summary": "Jync v1.8.0 引入了统一认证功能，支持通过账号密码、网关头或票据三种方式直接登录企业门户账号。新版本将导航按配置管理和日志管理分组，新增了系统日志查询页，并将项目统一更名为同步任务。升级后外部认证默认关闭，本地账号登录行为与 1.7.8 保持一致。",
+   "impact": "该更新可能为企业用户提供更灵活的登录选项和更有序的界面导航。开发和安全团队在升级时需注意外部认证默认处于关闭状态，可能需要根据需求进行重新配置。",
+   "keyPoints": [
+    "支持账号密码OA接口校验、网关头和票据三种统一认证方式。",
+    "导航页面重新分组为配置管理和日志管理，并新增系统日志查询页。",
+    "界面中的项目统一改称为同步任务。",
+    "升级后外部认证默认关闭，本地账号登录行为与旧版本保持一致。"
+   ]
+  },
+  "ko": {
+   "title": "Jync v1.8.0 통합 인증 추가 및 네비게이션 페이지 조정",
+   "summary": "Jync v1.8.0은 계정 비밀번호, 게이트웨이 헤더, 티켓 등 세 가지 통합 인증 방식을 통해 기업 포털 계정으로 직접 로그인할 수 있는 기능을 도입했습니다. 이번 업데이트는 네비게이션을 설정 관리와 로그 관리로 그룹화하고, 시스템 로그 조회 페이지를 추가했으며, 프로젝트를 동기화 작업으로 일괄 변경했습니다. 업그레이드 후 외부 인증은 기본적으로 비활성화되며 로컬 계정 로그인 동작은 1.7.8 버전과 동일하게 유지됩니다.",
+   "impact": "이번 업데이트는 기업 환경에서 통합 인증을 통한 로그인 과정을 간소화할 수 있습니다. 관리자와 개발자는 업그레이드 후 외부 인증이 기본적으로 꺼져 있으므로 수동 설정 조정을 확인해야 할 수 있습니다.",
+   "keyPoints": [
+    "OA 인터페이스 검증을 통한 계정 비밀번호, 게이트웨이 헤더, 티켓 등 세 가지 통합 인증 방식 지원.",
+    "네비게이션을 설정 관리와 로그 관리로 그룹화하고 시스템 로그 조회 페이지 신설.",
+    "인터페이스 내의 프로젝트 명칭을 동기화 작업으로 통일.",
+    "업그레이드 후 외부 인증은 기본 비활성화되며 1.7.8 버전과 동일한 로컬 로그인 동작 유지."
+   ]
+  }
+ }
+}

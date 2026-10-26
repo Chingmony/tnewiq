@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f3ced0d31e33b1b2",
+ "contentHash": "128d9b4be670adf8",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T04:55:15.150Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "How short-staffed is the PHP Foundation? Fixing two RCE vulnerabilities reveals the answer",
+   "summary": "The PHP Foundation published a blog post on October 21 explaining why two remote code execution vulnerabilities took two years to fix. The foundation stated that the delay in fixes was a structural failure stemming from both security team decision-making processes and a lack of resources. Reuters later questioned foundation board members regarding the issue.",
+   "impact": "This situation may cause concern for companies relying on PHP regarding the speed and security of vulnerability patches. It highlights potential risks for development and security teams dependent on under-resourced open-source foundations.",
+   "keyPoints": [
+    "Two remote code execution vulnerabilities took two years to be fixed.",
+    "The PHP Foundation attributed the delay to structural failures, decision-making processes, and resource shortages.",
+    "Reuters interviewed foundation board members about the incident."
+   ]
+  },
+  "km": {
+   "title": "តើ PHP Foundation ខ្វះខាតបុគ្គលិកកម្រិតណា? ការដោះស្រាយចន្លោះប្រហោង RCE ពីរបានបង្ហាញចម្លើយ",
+   "summary": "កាលពីថ្ងៃទី 21 ខែតុលា PHP Foundation បានចេញផ្សាយប្លុកមួយដោយពន្យល់ពីមូលហេតុដែលចន្លោះប្រហោងប្រតិបត្តិការកូដពីចម្ងាយចំនួនពីរចំណាយពេលពីរឆ្នាំដើម្បីជួសជុល។ មូលនិធិបានបញ្ជាក់ថាការយឺតយ៉ាវក្នុងការជួសជុលគឺជាការបរាជ័យផ្នែករចនាសម្ព័ន្ធដែលកើតចេញពីដំណើរការសម្រេចចិត្តរបស់ក្រុមសន្តិសុខនិងការខ្វះខាតធនធាន។ អ្នកសារព័ត៌មាន Reuters ក៏បានសួរសំណួរទៅកាន់សមាជិកក្រុមប្រឹក្សាមូលនិធិជុំវិញបញ្ហានេះផងដែរ។",
+   "impact": "ស្ថានភាពនេះអាចធ្វើឱ្យក្រុមហ៊ុនដែលពឹងផ្អែកលើ PHP មានការព្រួយបារម្ភអំពីល្បឿននិងសុវត្ថិភាពនៃការបិទរន្ធសុវត្ថិភាព។ វាអាចបង្ហាញពីហានិភ័យសក្តានុពលសម្រាប់ក្រុមអភិវឌ្ឍន៍និងសន្តិសុខដែលពឹងផ្អែកលើមូលនិធិប្រភពបើកចំហដែលខ្វះខាតធនធាន។",
+   "keyPoints": [
+    "ចន្លោះប្រហោងប្រតិបត្តិការកូដពីចម្ងាយចំនួនពីរបានចំណាយពេលពីរឆ្នាំដើម្បីជួសជុល។",
+    "PHP Foundation បានចោទប្រកាន់ការយឺតយ៉ាវនេះថាជាការបរាជ័យផ្នែករចនាសម្ព័ន្ធនិងកង្វះខាតធនធាន។",
+    "Reuters បានសម្ភាសសមាជិកក្រុមប្រឹក្សាមូលនិធិជុំវិញឧប្បត្តិហេតុនេះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "PHP 基金会有多缺人？两个 RCE 漏洞的修复，暴露了答案",
+   "summary": "PHP 基金会于 10 月 21 日发布了一篇博客，解释了两个远程代码执行漏洞为何历时两年才得以修复。基金会表示，修复延误是结构性失败，既源于安全团队的决策流程，也源于资源不足。路透社记者随后就该话题询问了基金会董事。",
+   "impact": "这种情况可能会让依赖 PHP 的公司对漏洞修复的速度和安全性感到担忧。它凸显了依赖资源不足的开源基金会的开发和安全团队可能面临的风险。",
+   "keyPoints": [
+    "两个远程代码执行漏洞花了两年时间才被修复。",
+    "PHP 基金会称修复延误源于结构性失败以及资源不足。",
+    "路透社就此事采访了基金会董事。"
+   ]
+  },
+  "ko": {
+   "title": "PHP 재단은 사람이 얼마나 부족한가? 두 개의 RCE 취약점 수정이 답을 드러내다",
+   "summary": "PHP 재단은 10월 21일에 블로그 게시물을 통해 두 개의 원격 코드 실행 취약점이 수정되는 데 왜 2년이 걸렸는지 설명했다. 재단은 수정 지연이 보안 팀의 의사 결정 프로세스와 자원 부족 모두에서 비롯된 구조적 실패라고 밝혔다. 이후 로이터 통신 기자가 이 주제와 관련하여 재단 이사에게 질문했다.",
+   "impact": "이 상황은 PHP에 의존하는 기업들에게 취약점 패치의 속도와 보안에 대한 우려를 불러일으킬 수 있다. 이는 자원이 부족한 오픈소스 재단에 의존하는 개발 및 보안 팀에게 잠재적인 위험을 강조할 수 있다.",
+   "keyPoints": [
+    "두 개의 원격 코드 실행 취약점이 수정되는 데 2년이 소요되었다.",
+    "PHP 재단은 수정 지연이 구조적 실패와 자원 부족에서 기인했다고 밝혔다.",
+    "로이터 통신은 이 사건과 관련하여 재단 이사를 인터뷰했다."
+   ]
+  }
+ }
+}

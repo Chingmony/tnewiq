@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ad7396463092f2b2",
+ "contentHash": "9c12712193185d2a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T04:56:56.765Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+   "summary": "CISA added two critical vulnerabilities affecting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator to its Known Exploited Vulnerabilities catalog. The inclusion follows reports indicating that these flaws are under active exploitation in the wild. One of the vulnerabilities is tracked as CVE-2026-110447 with a CVSS score of 9.2.",
+   "impact": "These vulnerabilities could pose significant security risks to organizations using the affected software due to active exploitation. Security teams may need to prioritize patching or mitigation to protect against potential attacks.",
+   "keyPoints": [
+    "CISA added two critical vulnerabilities to the KEV catalog.",
+    "The flaws impact Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator.",
+    "CVE-2026-110447 carries a CVSS score of 9.2.",
+    "Reports indicate active exploitation in the wild."
+   ]
+  },
+  "km": {
+   "title": "CISA បានដាក់ចំណាំពិការភាពសំខាន់ៗពីរដែលកំពុងត្រូវបានកេងប្រវ័ញ្ចយ៉ាងសកម្មនៅក្នុង Collabora Online និង Arista VeloCloud",
+   "summary": "CISA បានបន្ថែមភាពខ្សោយសំខាន់ៗចំនួនពីរដែលប៉ះពាល់ដល់ Collabora Online Built-in CODE Server និង Arista VeloCloud Orchestrator ទៅក្នុងបញ្ជីភាពខ្សោយដែលគេដឹងថាបានកេងប្រវ័ញ្ច ដោយសារតែមានរបាយការណ៍អំពីការកេងប្រវ័ញ្ចសកម្មនៅលើប្រព័ន្ធ។ ភាពខ្សោយទាំងនោះរួមមាន CVE-2026-110447 ដែលមានពិន្ទុ CVSS 9.2។",
+   "impact": "ភាពខ្សោយទាំងនេះអាចបង្កជាហានិភ័យសន្តិសុខដល់ស្ថាប័នដែលប្រើប្រាស់កម្មវិធីទាំងនោះដោយសារតែមានការកេងប្រវ័ញ្ចសកម្ម។ ក្រុមសន្តិសុខប្រហែលជាត្រូវផ្តល់អាទិភាពដល់ការបិទបាំងរន្ធប្រហោងដើម្បីការពារប្រឆាំងនឹងការវាយប្រហារដែលអាចកើតមាន។",
+   "keyPoints": [
+    "CISA បានបន្ថែមភាពខ្សោយសំខាន់ៗចំនួនពីរទៅក្នុងបញ្ជី KEV។",
+    "ភាពខ្សោយទាំងនេះប៉ះពាល់ដល់ Collabora Online Built-in CODE Server និង Arista VeloCloud Orchestrator។",
+    "CVE-2026-110447 មានពិន្ទុ CVSS 9.2។",
+    "មានរបាយការណ៍អំពីការកេងប្រវ័ញ្ចសកម្មនៅលើប្រព័ន្ធ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "CISA 将 Collabora Online 和 Arista VeloCloud 中两个遭积极利用的严重漏洞列入警报",
+   "summary": "美国网络安全和基础设施安全局将影响 Collabora Online Built-in CODE Server 和 Arista VeloCloud Orchestrator 的两个漏洞添加到了其已知被利用漏洞目录中，并援引了野外被积极利用的报告。其中一个漏洞被追踪为 CVE-2026-110447，其 CVSS 评分为 9.2。",
+   "impact": "由于存在野外积极利用的情况，这些漏洞可能会给使用相关软件的组织带来重大的安全风险。安全团队可能需要优先进行修补或缓解，以防范潜在的攻击。",
+   "keyPoints": [
+    "CISA 将两个严重漏洞添加到了 KEV 目录中。",
+    "这些漏洞影响 Collabora Online Built-in CODE Server 和 Arista VeloCloud Orchestrator。",
+    "CVE-2026-110447 的 CVSS 评分为 9.2。",
+    "报告显示这些漏洞在野外遭到积极利用。"
+   ]
+  },
+  "ko": {
+   "title": "CISA, Collabora Online 및 Arista VeloCloud의 활발히 악용되는 치명적 취약점 두 건 경고",
+   "summary": "미국 사이버안전인프라국은 Collabora Online Built-in CODE Server 및 Arista VeloCloud Orchestrator에 영향을 미치는 두 가지 취약점을 알려진 악용 취약점 목록에 추가했으며, 실제 환경에서 활발히 악용되고 있다는 보고를 인용했다. 이 중 CVE-2026-110447 취약점의 CVSS 점수는 9.2점이다.",
+   "impact": "이러한 취약점들은 활발한 악용으로 인해 영향받는 소프트웨어를 사용하는 조직에 심각한 보안 위험을 초래할 수 있다. 보안 팀은 잠재적인 공격으로부터 보호하기 위해 패치나 완화 조치를 우선적으로 적용해야 할 수 있다.",
+   "keyPoints": [
+    "CISA가 두 개의 치약한 취약점을 KEV 목록에 추가했습니다.",
+    "이 취약점들은 Collabora Online Built-in CODE Server 및 Arista VeloCloud Orchestrator에 영향을 줍니다.",
+    "CVE-2026-110447의 CVSS 점수는 9.2점입니다.",
+    "실제 환경에서 활발히 악용되고 있다는 보고가 있습니다."
+   ]
+  }
+ }
+}

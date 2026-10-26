@@ -1,7 +1,75 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-26T02:39:49.228Z",
+ "generatedAt": "2026-10-26T04:53:01.067Z",
  "articles": [
+  {
+   "id": "f3ced0d31e33b1b2",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "PHP 基金会有多缺人？两个 RCE 漏洞的修复，暴露了答案",
+   "originalUrl": "https://www.oschina.net/news/503215",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "PHP 基金会最近很少这么坦诚。10 月 21 日它发了一篇博客，交代两个远程代码执行漏洞是怎么被拖了两年才修好的，里面有一句话大概让很多靠 PHP 吃饭的公司心里一沉：\"修复的延误是结构性的失败，既源于安全团队的决策流程，也源于它资源不足。\" 同一天，路透社记者围绕这个话题问了基金会董事，报道标题更直接：PHP 基金...",
+   "publishedAt": "2026-10-26T02:56:21.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "developer-tools",
+    "cybersecurity",
+    "programming-languages"
+   ],
+   "imageUrl": null,
+   "contentHash": "128d9b4be670adf8"
+  },
+  {
+   "id": "086779c3af2d0622",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "SmartCall v1.0.9 发布：智能体知识库上线，让 AI 客服先查资料再回答",
+   "originalUrl": "https://www.oschina.net/news/503202",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "📖 项目简介 SmartCall 是一套基于 AI 大模型 + Asterisk 通信引擎构建的新一代智能客服呼叫中心系统。系统深度融合了 AI 语音机器人、智能 IVR 流程编排、端到端双工对话模型、实时语音识别（ASR）、语音合成（TTS）、大模型意图识别 等核心能力，为企业提供从呼入智能应答到智能外呼的全链路 AI 客服解决方案。 无论...",
+   "publishedAt": "2026-10-26T02:12:02.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "developer-tools",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "e405474f809d2c2a"
+  },
+  {
+   "id": "db1bfbf1ce9ab3f9",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "ToolForge v0.2.2 正式发布：AI Agent 也能调用工具了！支持 MCP、CLI 与插件级权限管理",
+   "originalUrl": "https://www.oschina.net/news/503201",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "最近一直在持续完善自己的开源项目 ToolForge，今天正式发布 v0.2.2！ ToolForge 是一款基于 Rust + Tauri 2 构建的开源桌面工具箱，面向开发者与效率工作者，通过插件化架构整合开发调试、数据转换、文件处理、系统管理和日常效率工具。 从 v0.1.10 引入 WASM 插件市场，到 v0.2.0 实现官网一键安装，再到 v0.2.1 完善插...",
+   "publishedAt": "2026-10-26T02:08:49.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "developer-tools",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "5823543ec72b7528"
+  },
+  {
+   "id": "c281324aa383ad20",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": ":fire::fire::fire: Claude Code 工程最佳实践 | 主数据平台 1.7.0 发布，移动端上线",
+   "originalUrl": "https://www.oschina.net/news/503199",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "更新版本：V1.7.0 升级简介： 新增权限组申请与审核（开发者自助申请、运营逐组审批）；开放平台接口在线调试；Feign 内部接口统一迁移 /inner/** 并接入令牌鉴权；附件体系与文件存储增强（公开桶）；用户体系增强（身份证号等）；移动端（uniapp）登录与分享增强。 后端 50 次提交、前端 50 次提交、移动端 12 次提交、...",
+   "publishedAt": "2026-10-26T01:43:39.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "47deac9e35ba267a"
+  },
   {
    "id": "53bfa8894cc3acbf",
    "sourceId": "oschina-news",
@@ -17,6 +85,22 @@
    ],
    "imageUrl": null,
    "contentHash": "c2df83895d3319f4"
+  },
+  {
+   "id": "c03d43a4c5741eb3",
+   "sourceId": "python-insider",
+   "sourceName": "Python Insider",
+   "originalTitle": "Python 3.15.2, 3.14.10, 3.13.18, 3.12.16 and 3.11.18 are out",
+   "originalUrl": "https://blog.python.org/2026/10/python-3152-31410-31318-31216-31118/",
+   "originalLanguage": "en",
+   "originalDescription": "Five expedited security releases to distrust the compromised eMudhra intermediate CA keys.",
+   "publishedAt": "2026-10-26T00:00:00.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "programming-languages"
+   ],
+   "imageUrl": null,
+   "contentHash": "0a804d9944fa3e23"
   },
   {
    "id": "33f7736e74631c3e",
@@ -38,18 +122,17 @@
    "id": "da19872bd8ebd641",
    "sourceId": "the-hacker-news",
    "sourceName": "The Hacker News",
-   "originalTitle": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+   "originalTitle": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
    "originalUrl": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
    "originalLanguage": "en",
-   "originalDescription": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. \"In one case, the attackers targeted a government entity in…",
+   "originalDescription": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. \"What researchers saw was an attack against a European government…",
    "publishedAt": "2026-10-25T17:19:46.000Z",
    "discoveredAt": "2026-10-25T20:54:33.092Z",
    "topics": [
-    "cybersecurity",
-    "ai"
+    "cybersecurity"
    ],
    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzK2qokKedMIUzd876s0EWaLDb7qw-DMzlFWKvmfgCzMKZ2KVvdpZ-298SoEm1_PP6aoEBc6q1LAydnANGur1FbFNmXmhlo6zHtRFvgRcbx-LOoDoM_-JI-_7XkkM4r5q3LQH1SdfirarXTGeiu16d5YMDSeYs8tfJn5ITfRQ4DThbqkq66b4WdDQcOJqf/s1600/php2shell-exploit.jpg",
-   "contentHash": "7f602b74b46ba3c7"
+   "contentHash": "e29d5a2fc6fa35e7"
   },
   {
    "id": "1760a15dd7dbe317",
@@ -473,6 +556,57 @@
    "contentHash": "0e4cd91b1481bbf4"
   },
   {
+   "id": "1e9e89034d2b68ff",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+   "originalUrl": "https://arxiv.org/abs/2610.32978v1",
+   "originalLanguage": "en",
+   "originalDescription": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors…",
+   "publishedAt": "2026-10-23T17:59:21.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "1d1a014ad6667a62"
+  },
+  {
+   "id": "6bde5e248a9e175b",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+   "originalUrl": "https://arxiv.org/abs/2610.32971v1",
+   "originalLanguage": "en",
+   "originalDescription": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential…",
+   "publishedAt": "2026-10-23T17:57:22.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "c72dc39de36c98cd"
+  },
+  {
+   "id": "e371cf84949215d5",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+   "originalUrl": "https://arxiv.org/abs/2610.32969v1",
+   "originalLanguage": "en",
+   "originalDescription": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator. Human…",
+   "publishedAt": "2026-10-23T17:56:28.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "d5261a778dcad5fd"
+  },
+  {
    "id": "14b4c9cf953f428c",
    "sourceId": "the-hacker-news",
    "sourceName": "The Hacker News",
@@ -488,6 +622,23 @@
    ],
    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA5n8ST_yuElQgTwbfq1oFnVAoiTvZCW_Ct1b8lT_OQ9dnyeXfocrqzTUJJ1t920YaEa-7Sonxl9KlthV4x7lXI3dmJxc9_S11NjWRJ6dcgfsX4UGhv0KFWZsZrzXKpjh92JPyDdHPlCPQh1AHd0YKM44sVcc9d-57r8_BdrIb3V06MWfk8bRAy4kDU6I/s1600/ruby-rce.jpg",
    "contentHash": "9f2a56f6612f0645"
+  },
+  {
+   "id": "edad3740ad7c9e6b",
+   "sourceId": "arxiv-cs-lg",
+   "sourceName": "arXiv cs.LG",
+   "originalTitle": "Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection",
+   "originalUrl": "https://arxiv.org/abs/2610.32964v1",
+   "originalLanguage": "en",
+   "originalDescription": "Few-shot industrial anomaly detection requires modeling category-specific normality from only a handful of defect-free images. Common approaches tie inference to stored exemplars, impose rigid linear structure, or risk reproducing anomalous content. Flownomaly instead casts the…",
+   "publishedAt": "2026-10-23T17:53:30.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "d846365c8e162878"
   },
   {
    "id": "127639cc62d76a80",
@@ -523,6 +674,142 @@
    "contentHash": "1922953fc39ce1fe"
   },
   {
+   "id": "b8cebbb8e7c2b9d8",
+   "sourceId": "arxiv-cs-lg",
+   "sourceName": "arXiv cs.LG",
+   "originalTitle": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
+   "originalUrl": "https://arxiv.org/abs/2610.32955v1",
+   "originalLanguage": "en",
+   "originalDescription": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox…",
+   "publishedAt": "2026-10-23T17:49:43.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "05fa116a682a9968"
+  },
+  {
+   "id": "3dadb5c76e6175c3",
+   "sourceId": "arxiv-cs-lg",
+   "sourceName": "arXiv cs.LG",
+   "originalTitle": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
+   "originalUrl": "https://arxiv.org/abs/2610.32951v1",
+   "originalLanguage": "en",
+   "originalDescription": "Reinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended on-policy update off-policy and destabilize training. Existing remedies align…",
+   "publishedAt": "2026-10-23T17:45:03.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "c29ba0660b62cf29"
+  },
+  {
+   "id": "9b5b73281518ad34",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
+   "originalUrl": "https://arxiv.org/abs/2610.32948v1",
+   "originalLanguage": "en",
+   "originalDescription": "Objective: To develop a unified vision-language model for prompt-conditioned quantitative ultrasound measurement that addresses the mismatch between continuous measurement targets and discrete token-based numerical prediction. Methods: This article presents HAD-VLM, a hybrid…",
+   "publishedAt": "2026-10-23T17:40:58.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "62b04ec1dc32d78d"
+  },
+  {
+   "id": "b50a11795d923842",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
+   "originalUrl": "https://arxiv.org/abs/2610.32945v1",
+   "originalLanguage": "en",
+   "originalDescription": "Large language model (LLM) platforms introducing advertising must decide how much capability ad revenue should fund and what consumers should pay to avoid ads. We study a monopolistic platform that jointly chooses costly response quality, advertising intensity, and subscription…",
+   "publishedAt": "2026-10-23T17:39:42.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "07cf3d04409b6499"
+  },
+  {
+   "id": "86d6ff7e4d9713c7",
+   "sourceId": "arxiv-cs-lg",
+   "sourceName": "arXiv cs.LG",
+   "originalTitle": "Knowledge Distillation across Item and Code Spaces for Parallel Generative Recommendation",
+   "originalUrl": "https://arxiv.org/abs/2610.32943v1",
+   "originalLanguage": "en",
+   "originalDescription": "Generative recommendation with semantic IDs represents each item as a sequence of discrete codes derived from its semantic representation and predicts these codes to generate recommendations. Existing semantic-ID recommenders are typically trained with hard labels for the…",
+   "publishedAt": "2026-10-23T17:37:55.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "9e38b73a3ef988dd"
+  },
+  {
+   "id": "7629f2a807ab8c18",
+   "sourceId": "arxiv-cs-lg",
+   "sourceName": "arXiv cs.LG",
+   "originalTitle": "If at First You Don't Succeed, Backtrack: Lightweight Recovery for Frozen VLAs",
+   "originalUrl": "https://arxiv.org/abs/2610.32941v1",
+   "originalLanguage": "en",
+   "originalDescription": "Vision-Language-Action (VLA) models perform well on robotic manipulation, yet remain brittle once their own actions carry them into states their training data barely covers. Recovering from such failures usually requires recovery demonstrations, policy retraining, or a separate…",
+   "publishedAt": "2026-10-23T17:35:33.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "5e8f0b564868cabb"
+  },
+  {
+   "id": "af9879c4768aad3f",
+   "sourceId": "arxiv-cs-lg",
+   "sourceName": "arXiv cs.LG",
+   "originalTitle": "Learning Positive Linear Combinations of ReLUs in Fully Polynomial Time",
+   "originalUrl": "https://arxiv.org/abs/2610.32940v1",
+   "originalLanguage": "en",
+   "originalDescription": "We study the fundamental problem of PAC learning positive linear combinations of $k$ arbitrary ReLU activations on $\\mathbb{R}^d$ with respect to the Gaussian distribution, in $L_2$ loss. We give the first fully-polynomial time algorithm for this learning task. Specifically…",
+   "publishedAt": "2026-10-23T17:34:15.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "86f799888e20e504"
+  },
+  {
+   "id": "efaa35ed00c40081",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "Yalda-Embedding: Open Development of a Competitive Persian Retrieval Model",
+   "originalUrl": "https://arxiv.org/abs/2610.32933v1",
+   "originalLanguage": "en",
+   "originalDescription": "Despite advances in multilingual text representations, effective dense retrieval for Persian remains constrained by the limited availability of language-specific training resources and compact embedding models. We present Yalda Embedding, a 595.8-million-parameter Persian…",
+   "publishedAt": "2026-10-23T17:30:40.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "d63c0edf0b3d4710"
+  },
+  {
    "id": "a8648af4418674e3",
    "sourceId": "arxiv-cs-cr",
    "sourceName": "arXiv cs.CR",
@@ -538,6 +825,57 @@
    ],
    "imageUrl": null,
    "contentHash": "7b2f5ea9484be883"
+  },
+  {
+   "id": "0445d1d3de35719d",
+   "sourceId": "arxiv-cs-lg",
+   "sourceName": "arXiv cs.LG",
+   "originalTitle": "ZENO: Nonlinear filtering with Zakai Equation Neural Operators",
+   "originalUrl": "https://arxiv.org/abs/2610.32926v1",
+   "originalLanguage": "en",
+   "originalDescription": "State inference and parameter learning for nonlinear filters is a core computation for scientific machine learning with varied applications in engineering and neuroscience. The unnormalized filtering distribution is governed by the Zakai equation, a stochastic partial…",
+   "publishedAt": "2026-10-23T17:24:31.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "bedc427b5a47f2d2"
+  },
+  {
+   "id": "aad08a62ec9886ec",
+   "sourceId": "arxiv-cs-lg",
+   "sourceName": "arXiv cs.LG",
+   "originalTitle": "Adaptive Frequency Threshold Byte Pair Encoding for Mixed Natural Language and Structured Symbolic Corpora",
+   "originalUrl": "https://arxiv.org/abs/2610.32921v1",
+   "originalLanguage": "en",
+   "originalDescription": "Modern language models rely on subwording tokenization to define the discrete units of input processing, typically using methods like Byte Pair Encoding (BPE) that treat whitespace as a fixed semantic boundary. This design is inherently limited, as many meaningful…",
+   "publishedAt": "2026-10-23T17:21:18.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "4a537ca0228c3c84"
+  },
+  {
+   "id": "d2bf31fea51021be",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "SemantEq: Faithful Bidirectional Equivalence of Formal Statements",
+   "originalUrl": "https://arxiv.org/abs/2610.32919v1",
+   "originalLanguage": "en",
+   "originalDescription": "Statement autoformalization translates mathematics from natural language into a proof assistant such as Lean 4, and models now do it at scale. As provers get stronger, the burden of correctness shifts from the proof to the statement, that is, to whether the formal statement…",
+   "publishedAt": "2026-10-23T17:20:12.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "9d5a72d7af9bd316"
   },
   {
    "id": "1e9b03cbb67bfe99",
@@ -556,6 +894,40 @@
    "contentHash": "530ce7802a401909"
   },
   {
+   "id": "9ed4e8cfda1ff1da",
+   "sourceId": "arxiv-cs-lg",
+   "sourceName": "arXiv cs.LG",
+   "originalTitle": "A Tutorial on Physics Constrained Machine Learning for Hybrid Modeling, Optimization, and Control",
+   "originalUrl": "https://arxiv.org/abs/2610.32914v1",
+   "originalLanguage": "en",
+   "originalDescription": "Physics-constrained machine learning (PCML) integrates domain knowledge, first-principles, and physical constraints into AI/ML models. In this work, we present a step-by-step tutorial of a modular PCML framework, KKT-HardNet, and illustrate how it could be used for hybrid…",
+   "publishedAt": "2026-10-23T17:17:11.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "5e8043ec9b611309"
+  },
+  {
+   "id": "2faa47804c7fb968",
+   "sourceId": "arxiv-cs-lg",
+   "sourceName": "arXiv cs.LG",
+   "originalTitle": "Recommender regret for improving regularised RL estimation with bandits and MCTS",
+   "originalUrl": "https://arxiv.org/abs/2610.32910v1",
+   "originalLanguage": "en",
+   "originalDescription": "Regularised reinforcement learning (RL) algorithms rely on estimators, like Monte Carlo tree search or one-step look-ahead, to provide policy, value, or Q-value estimates in training and inference. However, existing bandit-based estimation frameworks evaluate sampling…",
+   "publishedAt": "2026-10-23T17:14:15.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "5efc627e539572e2"
+  },
+  {
    "id": "b947560c9542c5f6",
    "sourceId": "arxiv-cs-cr",
    "sourceName": "arXiv cs.CR",
@@ -571,6 +943,23 @@
    ],
    "imageUrl": null,
    "contentHash": "018cc776558485b6"
+  },
+  {
+   "id": "dd6cbcedb010253e",
+   "sourceId": "arxiv-cs-lg",
+   "sourceName": "arXiv cs.LG",
+   "originalTitle": "LoCA: Enabling Multi-Modality in Geospatial Location Encoders",
+   "originalUrl": "https://arxiv.org/abs/2610.32894v1",
+   "originalLanguage": "en",
+   "originalDescription": "Location encoders map geographic coordinates to high-dimensional descriptors through contrastive alignment with paired Earth Observation imagery. We prove that this construction is structurally limited: any Lipschitz location encoder produces an output of intrinsic dimension at…",
+   "publishedAt": "2026-10-23T17:01:04.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "78cea1d26d95d3d0"
   },
   {
    "id": "ee4c22366ef7e7ab",
@@ -605,6 +994,108 @@
    "contentHash": "2a1cdd3254aa6b30"
   },
   {
+   "id": "b21763c69541cfa7",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "Green Code or Costly Code? Evaluating the Energy Costs of Iterative LLM-Based Code Optimizations",
+   "originalUrl": "https://arxiv.org/abs/2610.32891v1",
+   "originalLanguage": "en",
+   "originalDescription": "Large Language Models (LLMs) are increasingly used to optimize code for performance. This practice often assumes that improvements in execution speed naturally translate into overall lower energy consumption. We challenge this assumption empirically by measuring whether…",
+   "publishedAt": "2026-10-23T16:58:01.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "2da5278e415a7a84"
+  },
+  {
+   "id": "84d76dc6ed72706c",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "Closing the Modality Gap via Simplex-Constrained Representations",
+   "originalUrl": "https://arxiv.org/abs/2610.32890v1",
+   "originalLanguage": "en",
+   "originalDescription": "While multimodal contrastive models like CLIP and CLAP successfully learn shared representations, their embeddings typically exhibit a persistent \\emph{modality gap}. We propose addressing this separation through a purely geometric approach: changing the embedding domain from…",
+   "publishedAt": "2026-10-23T16:57:48.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "d6eb37f12f125fd0"
+  },
+  {
+   "id": "b13cede2c93d8308",
+   "sourceId": "arxiv-cs-lg",
+   "sourceName": "arXiv cs.LG",
+   "originalTitle": "When Human Corrections Travel: Safety in Federated VLA Adaptation",
+   "originalUrl": "https://arxiv.org/abs/2610.32888v1",
+   "originalLanguage": "en",
+   "originalDescription": "Vision-language-action (VLA) policies can adapt to local human intervention, while federated learning can combine distributed robot experience without pooling raw records. We examine their prospective intersection: sharing adaptations derived from diverse human corrections…",
+   "publishedAt": "2026-10-23T16:56:03.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "f555e45fecd21da4"
+  },
+  {
+   "id": "6c44a63769b7f28a",
+   "sourceId": "arxiv-cs-lg",
+   "sourceName": "arXiv cs.LG",
+   "originalTitle": "Reinforcement Learning with Multi-Step Transition Predictions: A Bellman Theory",
+   "originalUrl": "https://arxiv.org/abs/2610.32887v1",
+   "originalLanguage": "en",
+   "originalDescription": "Multi-step predictions of future transition realizations can improve reinforcement learning, but their value remains difficult to quantify. Directly including these predictions in the state can lead to exponential state-space growth, making direct dynamic programming…",
+   "publishedAt": "2026-10-23T16:55:37.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "e62112a1371a5230"
+  },
+  {
+   "id": "3ba14100fa84ebc5",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding",
+   "originalUrl": "https://arxiv.org/abs/2610.32881v1",
+   "originalLanguage": "en",
+   "originalDescription": "Reinforcement learning (RL) post-training improves the reasoning capabilities of large language models, but its cost is dominated by autoregressive rollout generation, which can exceed 70% of training time. Existing speculative-decoding methods are poorly suited to this…",
+   "publishedAt": "2026-10-23T16:47:29.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "923bdbcc43dd4153"
+  },
+  {
+   "id": "abee8ed4de2eb31e",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "Advancing SVD-based LLM Compression via Layer-Wise Error Model Search",
+   "originalUrl": "https://arxiv.org/abs/2610.32878v1",
+   "originalLanguage": "en",
+   "originalDescription": "Low-rank SVD-based compression offers a powerful strategy to reduce the computational costs of LLMs. However, existing methods face two key limitations: (i) global rank allocation, where uncalibrated error proxies fail to capture complex error propagation, and (ii)…",
+   "publishedAt": "2026-10-23T16:46:00.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "bf1fa2f7d8181a64"
+  },
+  {
    "id": "66ff63a19e7e3ea0",
    "sourceId": "arxiv-cs-cr",
    "sourceName": "arXiv cs.CR",
@@ -623,6 +1114,108 @@
    "contentHash": "70e4e9689c5a7e9b"
   },
   {
+   "id": "c2b6b7fd42c60774",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "Do \"True\" and \"False\" Add Up to One? Complement Consistency in LLM-Agent Opinion Simulations",
+   "originalUrl": "https://arxiv.org/abs/2610.32874v1",
+   "originalLanguage": "en",
+   "originalDescription": "In LLM-agent opinion simulations, each agent reports the probability that a claim is true after seeing its own previous probability and the probabilities reported by its neighbors, and that number becomes its state in the next round. If the number describes the agent's position…",
+   "publishedAt": "2026-10-23T16:44:20.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "812faa804eb03b22"
+  },
+  {
+   "id": "dc26abc03c39901d",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "From Deliberately Constructed Systemic Representations of the World of Activity to Dialogue: A Five-Level Communication Architecture for Strong Language-Based ASI",
+   "originalUrl": "https://arxiv.org/abs/2610.32869v1",
+   "originalLanguage": "en",
+   "originalDescription": "This paper proposes a five-level organization of message formation and understanding within thinking and activity in which ASI participates. Its central thesis is that a language model's context is fundamentally incapable of presenting the foundations of utterance formation for…",
+   "publishedAt": "2026-10-23T16:41:54.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "0f86a689503f0916"
+  },
+  {
+   "id": "cfe3f300a0d06b14",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "Interpretable sparse fine-tuning with TopKLoRA enables faithful circuit discovery",
+   "originalUrl": "https://arxiv.org/abs/2610.32866v1",
+   "originalLanguage": "en",
+   "originalDescription": "Fine-tuning on datasets of unknown origin can create a backdoor in the trained model when the data includes poisoned examples. Difficult to localise and remove, backdoors can persist through safety training. While parameter-efficient fine-tuning methods capture the full…",
+   "publishedAt": "2026-10-23T16:37:29.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "69ac62af405298c2"
+  },
+  {
+   "id": "db8afe90143a009b",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "PoKER: A Probability of Kill Estimation Rate Model for Air-to-Air Missiles Using Machine Learning on Stochastic Targets",
+   "originalUrl": "https://arxiv.org/abs/2610.32864v1",
+   "originalLanguage": "en",
+   "originalDescription": "This work introduces PoKER, a novel probabilistic model engineered to optimize missile launch effectiveness in air-to-air scenarios, specifically within Beyond Visual Range (BVR) air combat. Unlike conventional Weapon Engagement Zone (WEZ) models that delineate zones based on…",
+   "publishedAt": "2026-10-23T16:34:57.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "0d66a2e94251bbf0"
+  },
+  {
+   "id": "754e0c201f089b8e",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "A Foundation Model for Policy In-Context Longitudinal Causal Effect Estimation",
+   "originalUrl": "https://arxiv.org/abs/2610.32863v1",
+   "originalLanguage": "en",
+   "originalDescription": "Longitudinal causal effect estimation is complicated by time-varying confounding and treatment-confounder feedback loops. Existing methods generally require data-specific nuisance-model fitting, and many are tailored to prespecified treatment sequences or prediction horizons…",
+   "publishedAt": "2026-10-23T16:34:49.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "7996f317ccae1a65"
+  },
+  {
+   "id": "f374f5b7e9b67a9e",
+   "sourceId": "arxiv-cs-lg",
+   "sourceName": "arXiv cs.LG",
+   "originalTitle": "Sustainability of TSFM Deployment and Pretraining: From Carbon Footprint Analysis to Mitigation via Pruning",
+   "originalUrl": "https://arxiv.org/abs/2610.32859v1",
+   "originalLanguage": "en",
+   "originalDescription": "Time Series Foundation Models (TSFMs) offer strong zero-shot forecasting capabilities, but their high pretraining cost raises a practical sustainability question: does this upfront investment pay off over a full deployment lifecycle, compared to supervised standalone models…",
+   "publishedAt": "2026-10-23T16:32:29.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "89e589d179bb58c0"
+  },
+  {
    "id": "df0e399b41113039",
    "sourceId": "techcrunch-startups",
    "sourceName": "TechCrunch Startups",
@@ -639,6 +1232,23 @@
    "contentHash": "3e5ff3086c632c6e"
   },
   {
+   "id": "c5d8ed02e1387f90",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "Reimagining Enterprise RAG for Multi-Agent Systems: A Knowledge Layer That Organizes Before It Retrieves",
+   "originalUrl": "https://arxiv.org/abs/2610.32851v1",
+   "originalLanguage": "en",
+   "originalDescription": "Enterprises are deploying agentic AI across the software development lifecycle, and they need the behavioral logic of the systems they act on, not stakeholder documentation. A seven-agent reverse-engineering pipeline recovered this logic, processing 241 repositories across 18…",
+   "publishedAt": "2026-10-23T16:21:56.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "398343272e5d67ce"
+  },
+  {
    "id": "5d794c3788a3a4be",
    "sourceId": "huggingface-blog",
    "sourceName": "Hugging Face Blog",
@@ -653,6 +1263,23 @@
    ],
    "imageUrl": null,
    "contentHash": "f5b6a3d6d83b4b6a"
+  },
+  {
+   "id": "82c51f3d03958b2d",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
+   "originalUrl": "https://arxiv.org/abs/2610.32813v1",
+   "originalLanguage": "en",
+   "originalDescription": "Agent harnesses repeatedly invoke reasoning after tool feedback, even when an earlier call has already fixed the next action. We introduce HarnessMM (Harness Minus Minus), a method for improving harness token efficiency through guarded decision reuse and recursive…",
+   "publishedAt": "2026-10-23T15:47:47.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "56c004fbc0f61fec"
   },
   {
    "id": "45b518017fb4d467",
@@ -686,6 +1313,40 @@
    ],
    "imageUrl": null,
    "contentHash": "e2dcd91b951146af"
+  },
+  {
+   "id": "231c7f57ee9f32ab",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "Multiplicative vs. Additive State Coupling in Learned Optimizer Schedules",
+   "originalUrl": "https://arxiv.org/abs/2610.32801v1",
+   "originalLanguage": "en",
+   "originalDescription": "We learn schedules for a continuous penalty relaxation of MAX-CUT by backpropagating through an unrolled classical solver. A state-blind schedule generalizes to instances substantially larger than those used for training. A state-adaptive bilinear schedule also generalizes out…",
+   "publishedAt": "2026-10-23T15:40:23.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "5f08ef7826da6687"
+  },
+  {
+   "id": "a19d8e4ffafaf6a5",
+   "sourceId": "arxiv-cs-ai",
+   "sourceName": "arXiv cs.AI",
+   "originalTitle": "Every Edge Needs a Quote: Building a Quote-Grounded Knowledge Graph of Healthcare Software Adoption with Language-Model Agents",
+   "originalUrl": "https://arxiv.org/abs/2610.32781v1",
+   "originalLanguage": "en",
+   "originalDescription": "Hospitals regularly buy software that clinicians and patients depend on. Because these purchases are costly, hard to reverse and can affect patient care, buyers look for evidence of which peer institutions already use a product and which systems it connects to. This evidence is…",
+   "publishedAt": "2026-10-23T15:28:39.000Z",
+   "discoveredAt": "2026-10-26T04:53:01.067Z",
+   "topics": [
+    "research-papers",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "0658071a20600710"
   },
   {
    "id": "6044c4f51c9b10d3",

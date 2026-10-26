@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c281324aa383ad20",
+ "contentHash": "47deac9e35ba267a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T04:55:45.154Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Claude Code Engineering Best Practices | Master Data Platform 1.7.0 Released with Mobile Launch",
+   "summary": "Master Data Platform version 1.7.0 has been released with several new features and enhancements. The update includes permission group applications and reviews, online debugging for open platform interfaces, and the migration of Feign internal interfaces to /inner/** with token authentication. Additionally, it features file storage enhancements, user system improvements, and login and sharing enhancements for the uniapp mobile version.",
+   "impact": "Developers and teams utilizing the Master Data Platform may benefit from improved permission management, enhanced security via token authentication on internal interfaces, and new mobile capabilities. The update could streamline development workflows through better debugging and file storage options.",
+   "keyPoints": [
+    "Released version 1.7.0 of the Master Data Platform.",
+    "Added permission group application and review features.",
+    "Migrated Feign internal interfaces to /inner/** with token authentication.",
+    "Enhanced mobile login and sharing via uniapp."
+   ]
+  },
+  "km": {
+   "title": "ការអនុវត្តវិស្វកម្មល្អបំផុតរបស់ Claude Code | វេទិកាទិន្នន័យមេ 1.7.0 ត្រូវបានបញ្ចេញជាមួយកំណែទម្រង់ទូរស័ព្ទដៃ",
+   "summary": "វេទិកាទិន្នន័យមេកំណែ V1.7.0 ត្រូវបានដាក់ឱ្យប្រើប្រាស់ជាមួយនឹងមុខងារថ្មីៗ និងការកែលម្អជាច្រើន។ ការអាប់ដេតនេះរួមមានការស្នើសុំ និងការពិនិត្យក្រុមសិទ្ធិ ការបំបាត់កំហុសតាមអ៊ីនធឺណិតសម្រាប់ចំណុចប្រទាក់វេទិកាបើកចំហ និងការផ្ទេរចំណុចប្រទាក់ខាងក្នុង Feign ទៅកាន់ /inner/** ជាមួយការផ្ទៀងផ្ទាត់សញ្ញាសម្ងាត់។ បន្ថែមពីនេះ វាក៏មានការកែលម្អប្រព័ន្ធផ្ទុកឯកសារ ប្រព័ន្ធអ្នកប្រើប្រាស់ និងការចូលរួម និងការចែករំលែកនៅលើទូរស័ព្ទដៃ uniapp ផងដែរ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់អាចទទួលបានអត្ថប្រយោជន៍ពីការគ្រប់គ្រងសិទ្ធិកាន់តែប្រសើរ និងសុវត្ថិភាពដែលបានកែលម្អនៅលើចំណុចប្រទាក់ខាងក្នុង។ ការអាប់ដេតនេះអាចជួយសម្រួលដល់ដំណើរការការងារអភិវឌ្ឍន៍តាមរយៈជម្រើសបំបាត់កំហុស និងការផ្ទុកឯកសារប្រសើរជាងមុន។",
+   "keyPoints": [
+    "បានបញ្ចេញវេទិកាទិន្នន័យមេកំណែ V1.7.0។",
+    "បានបន្ថែមមុខងារស្នើសុំ និងពិនិត្យក្រុមសិទ្ធិ។",
+    "បានផ្ទេរចំណុចប្រទាក់ខាងក្នុង Feign ទៅ /inner/** ជាមួយការផ្ទៀងផ្ទាត់សញ្ញាសម្ងាត់។",
+    "បានកែលម្អការចូល និងការចែករំលែកនៅលើទូរស័ព្ទដៃ uniapp។"
+   ]
+  },
+  "zh-CN": {
+   "title": ":fire::fire::fire: Claude Code 工程最佳实践 | 主数据平台 1.7.0 发布，移动端上线",
+   "summary": "主数据平台发布了 V1.7.0 版本，带来了多项更新与功能增强。本次升级包含权限组申请与审核、开放平台接口在线调试，以及 Feign 内部接口统一迁移至 /inner/** 并接入令牌鉴权。此外，系统还增强了附件体系与文件存储、用户体系，并提升了移动端 uniapp 的登录与分享功能。",
+   "impact": "开发者和技术团队可以借助此次更新获得更完善的权限管理、更安全的内部接口鉴权以及更强的移动端支持。这些改进有望提升开发调试效率以及系统整体的安全性与可用性。",
+   "keyPoints": [
+    "发布主数据平台 V1.7.0 版本。",
+    "新增开发者自助申请与运营逐组审批的权限组功能。",
+    "Feign 内部接口统一迁移至 /inner/** 并接入令牌鉴权。",
+    "增强了移动端 uniapp 的登录与分享功能。"
+   ]
+  },
+  "ko": {
+   "title": "Claude Code 엔지니어링 모범 사례 | 마스터 데이터 플랫폼 1.7.0 출시 및 모바일 버전 런칭",
+   "summary": "마스터 데이터 플랫폼 V1.7.0 버전이 출시되며 다양한 기능과 개선 사항이 포함되었습니다. 이번 업데이트에는 권한 그룹 신청 및 승인, 오픈 플랫폼 인터페이스 온라인 디버깅, 토큰 인증이 적용된 /inner/** 로의 Feign 내부 인터페이스 마이그레이션이 포함되어 있습니다. 또한 파일 저장소 강화, 사용자 체계 개선, uniapp 기반 모바일 로그인 및 공유 기능이 강화되었습니다.",
+   "impact": "개발자와 기술 팀은 향상된 권한 관리, 내부 인터페이스의 토큰 인증을 통한 보안 강화, 그리고 새로운 모바일 기능을 활용할 수 있습니다. 이번 업데이트는 더 나은 디버깅 및 파일 저장 옵션을 통해 개발 워크플로우를 간소화할 수 있습니다.",
+   "keyPoints": [
+    "마스터 데이터 플랫폼 V1.7.0 버전 출시.",
+    "권한 그룹 신청 및 승인 기능 추가.",
+    "Feign 내부 인터페이스를 /inner/** 로 마이그레이션하고 토큰 인증 연동.",
+    "uniapp 모바일 로그인 및 공유 기능 강화."
+   ]
+  }
+ }
+}
