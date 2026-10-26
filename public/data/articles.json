@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-26T15:11:56.318Z",
+ "generatedAt": "2026-10-26T15:34:56.245Z",
  "articles": [
   {
    "id": "ec17f0212ac94073",
@@ -163,6 +163,22 @@
    ],
    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
    "contentHash": "85203019104770df"
+  },
+  {
+   "id": "0e985f9313e5a142",
+   "sourceId": "cisa-news",
+   "sourceName": "CISA News",
+   "originalTitle": "CISA Unveils New Strategy to Strengthen National Cyber Defense and Critical Infrastructure Security",
+   "originalUrl": "https://www.cisa.gov/news-events/news/cisa-unveils-new-strategy-strengthen-national-cyber-defense-and-critical-infrastructure-security",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-10-26T12:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "951dafd57b00af1d"
   },
   {
    "id": "f67f5ee9f8e39aaf",
@@ -5143,6 +5159,23 @@
    "contentHash": "141c0e53950a4c8b"
   },
   {
+   "id": "e98a6170e566234a",
+   "sourceId": "cert-cc-vulnotes",
+   "sourceName": "CERT/CC Vulnerability Notes",
+   "originalTitle": "VU#763488: Memory corruption vulnerabilities in PHP",
+   "originalUrl": "https://kb.cert.org/vuls/id/763488",
+   "originalLanguage": "en",
+   "originalDescription": "Overview Two memory-related vulnerabilities have been identified in PHP versions prior to 8.2.35, 8.3.36, 8.4.27, and 8.5.12. An unauthenticated remote attacker with network access to PHP web services can exploit these vulnerabilities via specially crafted HTTP requests to…",
+   "publishedAt": "2026-10-22T22:23:51.159Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity",
+    "programming-languages"
+   ],
+   "imageUrl": null,
+   "contentHash": "9b93290affff4d2f"
+  },
+  {
    "id": "0e6b7b9249b2f756",
    "sourceId": "techcrunch-startups",
    "sourceName": "TechCrunch Startups",
@@ -7701,6 +7734,22 @@
    "contentHash": "0e833f0564773b05"
   },
   {
+   "id": "f1216cc1708e59d5",
+   "sourceId": "nist-csrc-drafts",
+   "sourceName": "NIST CSRC Drafts Open for Comment",
+   "originalTitle": "SP 800-221 Rev. 1, Enterprise Impact of Information and Communications Technology Risk: Governing and Managing ICT Risk Programs Within an Enterprise Risk PortfolioInitial Public Draft",
+   "originalUrl": "https://csrc.nist.gov/pubs/sp/800/221/r1/ipd",
+   "originalLanguage": "en",
+   "originalDescription": "Submit Your Feedback The public comment period is open through December 7, 2026, at 11:59 PM EST. We encourage you to use this comment template when preparing and submitting your response. About the Publication Enterprise information and communications technology risk…",
+   "publishedAt": "2026-10-22T04:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "1df32221f643674c"
+  },
+  {
    "id": "02187ecfa181aa58",
    "sourceId": "oschina-news",
    "sourceName": "开源中国 资讯",
@@ -8359,6 +8408,39 @@
    "contentHash": "c64271378ddf495a"
   },
   {
+   "id": "03ee9f0b2a4050ea",
+   "sourceId": "ncsc-uk",
+   "sourceName": "NCSC (UK)",
+   "originalTitle": "Critical security issue affecting PHP",
+   "originalUrl": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
+   "originalLanguage": "en",
+   "originalDescription": "Updated: The NCSC is encouraging UK organisations to take immediate action to mitigate a security issue affecting PHP (CVE-2026-109618 and CVE-2026-109619).",
+   "publishedAt": "2026-10-21T12:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity",
+    "programming-languages"
+   ],
+   "imageUrl": null,
+   "contentHash": "962054731ecac03c"
+  },
+  {
+   "id": "7e756198cefb40cc",
+   "sourceId": "cisa-news",
+   "sourceName": "CISA News",
+   "originalTitle": "CISA, FBI and Partners Warn Organizations of SafePay Ransomware Actors Targeting Multiple Critical Infrastructure Sectors",
+   "originalUrl": "https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-safepay-ransomware-actors-targeting-multiple-critical",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-10-21T12:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "d1bc952889255e24"
+  },
+  {
    "id": "95dedf578de78f3e",
    "sourceId": "openai-news",
    "sourceName": "OpenAI News",
@@ -8757,6 +8839,22 @@
    "contentHash": "b48de088fe51a5d8"
   },
   {
+   "id": "2b0ec6efcf8297be",
+   "sourceId": "nist-csrc-drafts",
+   "sourceName": "NIST CSRC Drafts Open for Comment",
+   "originalTitle": "SP 800-100 Rev. 1, Information Security Handbook: A Guide for Executive LeadershipInitial Public Draft",
+   "originalUrl": "https://csrc.nist.gov/pubs/sp/800/100/r1/ipd",
+   "originalLanguage": "en",
+   "originalDescription": "The initial public draft (ipd) of NIST Special Publication (SP) 800-100r1 (Revision 1), Information Security Handbook: A Guide for Executive Leadership , is now available for comment. Since the original version of SP 800-100 was released in 2006, the cybersecurity landscape…",
+   "publishedAt": "2026-10-21T04:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "ebd33763c7c32545"
+  },
+  {
    "id": "c7c1db1d24f97b16",
    "sourceId": "google-ai-blog",
    "sourceName": "Google AI Blog",
@@ -9033,6 +9131,22 @@
    "contentHash": "3f3b0d1505706ae5"
   },
   {
+   "id": "b9a355ed1cbb06e6",
+   "sourceId": "cert-cc-vulnotes",
+   "sourceName": "CERT/CC Vulnerability Notes",
+   "originalTitle": "VU#645818: Xerj Console API Authentication Bypass Leads to Unauthorized Credential Minting",
+   "originalUrl": "https://kb.cert.org/vuls/id/645818",
+   "originalLanguage": "en",
+   "originalDescription": "Overview An authentication bypass vulnerability in the Xerj Console API allows sessions to bypass passkey-backed requirements during token issuance. By exploiting this flaw, an attacker with an existing valid token can create independent, persistent successor credentials…",
+   "publishedAt": "2026-10-20T18:09:44.460Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "c7faf740915a54fe"
+  },
+  {
    "id": "f947e16b0eddde44",
    "sourceId": "techcrunch-startups",
    "sourceName": "TechCrunch Startups",
@@ -9210,6 +9324,23 @@
    ],
    "imageUrl": null,
    "contentHash": "a03065568477fa43"
+  },
+  {
+   "id": "6fc5224c9f33d861",
+   "sourceId": "ncsc-uk",
+   "sourceName": "NCSC (UK)",
+   "originalTitle": "Introducing a new AI chapter in the NCSC research problem book",
+   "originalUrl": "https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book",
+   "originalLanguage": "en",
+   "originalDescription": "A revolution is underway at the intersection of AI and cyber security.",
+   "publishedAt": "2026-10-20T12:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "784abb2b3b58d2d4"
   },
   {
    "id": "8d626ff9f11dd658",
@@ -10485,6 +10616,38 @@
    "contentHash": "c20a39da577dacdc"
   },
   {
+   "id": "cd8ef8034fa90562",
+   "sourceId": "ncsc-uk",
+   "sourceName": "NCSC (UK)",
+   "originalTitle": "Post-quantum updates to our TLS guidance",
+   "originalUrl": "https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance",
+   "originalLanguage": "en",
+   "originalDescription": "The NCSC publishes its recommendations for configuring post-quantum cryptography in TLS. Now is time to migrate.",
+   "publishedAt": "2026-10-15T12:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "a481118587124fb6"
+  },
+  {
+   "id": "e1bfd0abf2610173",
+   "sourceId": "ncsc-uk",
+   "sourceName": "NCSC (UK)",
+   "originalTitle": "Using TLS to protect data",
+   "originalUrl": "https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data",
+   "originalLanguage": "en",
+   "originalDescription": "Recommended profiles to securely configure TLS for the most common versions and scenarios, with additional guidance for managing older versions.",
+   "publishedAt": "2026-10-15T12:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "6d56bd6db923cb55"
+  },
+  {
    "id": "39052ad94a8a76cc",
    "sourceId": "huggingface-blog",
    "sourceName": "Hugging Face Blog",
@@ -10499,6 +10662,22 @@
    ],
    "imageUrl": null,
    "contentHash": "d7ea186ca048e8c6"
+  },
+  {
+   "id": "ced29903fb05ed23",
+   "sourceId": "owasp-asvs-releases",
+   "sourceName": "OWASP ASVS Releases",
+   "originalTitle": "OWASP Application Security Verification Standard (Bleeding Edge)",
+   "originalUrl": "https://github.com/OWASP/ASVS/releases/tag/latest",
+   "originalLanguage": "en",
+   "originalDescription": "This release is automatically recreated with the latest changes from the master branch of the ASVS project. Generated on: 2026-10-15 06:24:35 UTC This bleeding-edge version represents the most current state of the ASVS documentation and should be used for testing and preview…",
+   "publishedAt": "2026-10-15T06:24:42.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
+   "contentHash": "c485560baf798f75"
   },
   {
    "id": "5629cd91bae3111b",
@@ -10843,6 +11022,38 @@
    "contentHash": "31ae38185fcf7e12"
   },
   {
+   "id": "fde35d552b41c1fc",
+   "sourceId": "cert-cc-vulnotes",
+   "sourceName": "CERT/CC Vulnerability Notes",
+   "originalTitle": "VU#410595: Google BoringSSL Name Constraints Bypass in SAN Validation Logic",
+   "originalUrl": "https://kb.cert.org/vuls/id/410595",
+   "originalLanguage": "en",
+   "originalDescription": "Overview Five Name Constraints findings in BoringSSL (VU#410595.8–.12) describe cases where certificate names may not be constrained as intended. Records .8, .9, .10 and .12 concern the legacy crypto/x509 path; .11 concerns the newer pki path. Two have been fixed, one is…",
+   "publishedAt": "2026-10-14T15:11:33.058Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "44ffca73e3495682"
+  },
+  {
+   "id": "aebd3625fd720e56",
+   "sourceId": "cert-cc-vulnotes",
+   "sourceName": "CERT/CC Vulnerability Notes",
+   "originalTitle": "VU#948176: Multiple TLS Libraries can Bypass Delegation Enforcement",
+   "originalUrl": "https://kb.cert.org/vuls/id/948176",
+   "originalLanguage": "en",
+   "originalDescription": "Overview This note covers thirteen library-specific records (VU#948176.6, .8–.19) of how widely used TLS libraries apply X.509 Name Constraints. The records describe cases where a constrained name may be accepted by one library and rejected by another. Some are fixed, some…",
+   "publishedAt": "2026-10-14T15:11:20.471Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "0e1f71d8a1d881f2"
+  },
+  {
    "id": "768dc3c6eed6cfbc",
    "sourceId": "meta-newsroom",
    "sourceName": "Meta Newsroom",
@@ -10905,6 +11116,38 @@
    ],
    "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M4VK1DV41VQ8EZCK68R7E0CS.png",
    "contentHash": "5b2f1ec4786f12f6"
+  },
+  {
+   "id": "f55011cdfbbcc592",
+   "sourceId": "cert-cc-vulnotes",
+   "sourceName": "CERT/CC Vulnerability Notes",
+   "originalTitle": "VU#166125: Bisheng has authentication bypass vulnerabilities",
+   "originalUrl": "https://kb.cert.org/vuls/id/166125",
+   "originalLanguage": "en",
+   "originalDescription": "Overview Bisheng contains three vulnerabilities: a pre-authentication account takeover mechanism via a legacy single sign-on (SSO) endpoint; an Insecure Direct Object Reference (IDOR) vulnerability that exposes cross-user workflow data; and prior to version 2.5.0, authenticated…",
+   "publishedAt": "2026-10-14T12:39:18.342Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "7e72fcf41ec880ee"
+  },
+  {
+   "id": "d0fc17530379e0a6",
+   "sourceId": "nist-cybersecurity-insights",
+   "sourceName": "NIST Cybersecurity Insights",
+   "originalTitle": "Kicking off Cybersecurity Career Week with NIST!",
+   "originalUrl": "https://www.nist.gov/blogs/cybersecurity-insights/kicking-cybersecurity-career-week-nist",
+   "originalLanguage": "en",
+   "originalDescription": "Considering a career in cybersecurity? Cybersecurity Career Week (CCW), a campaign led by the NICE Program at NIST from October 19-24, 2026, aims to raise public awareness and help people find their path to #ChooseCyber. During this week, academia, industry, non-profit…",
+   "publishedAt": "2026-10-14T12:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "d4d2e96708c005a7"
   },
   {
    "id": "ef653547dd2376bf",
@@ -11019,6 +11262,23 @@
    "contentHash": "26fd14bdd11f0516"
   },
   {
+   "id": "cf5fee14aec1d3d3",
+   "sourceId": "mitre-attack-blog",
+   "sourceName": "MITRE ATT&CK Blog",
+   "originalTitle": "ATT&CK v20: Critical Infrastructure Campaigns, Adversary Use and Abuse of AI, & Iranian Cyber",
+   "originalUrl": "https://medium.com/mitre-attack/attack-v20-9701dd75ffb4?source=rss----6da19bd08fba---4",
+   "originalLanguage": "en",
+   "originalDescription": "ATT&CK v20: Critical Infrastructure Campaigns, Adversary Use and Abuse of AI, & Iranian Cyber Espionage ATT&CK v20 brings more critical infrastructure and cross-domain activity into the framework, with Campaigns for attacks on U.S. water utilities and an AI-assisted breach of…",
+   "publishedAt": "2026-10-13T21:13:53.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "eb2b90db1156bb70"
+  },
+  {
    "id": "8b1ab1df41ac00d8",
    "sourceId": "google-deepmind-blog",
    "sourceName": "Google DeepMind Blog",
@@ -11033,6 +11293,86 @@
    ],
    "imageUrl": null,
    "contentHash": "50797368c42ba127"
+  },
+  {
+   "id": "73bf7af4b59da435",
+   "sourceId": "cert-cc-vulnotes",
+   "sourceName": "CERT/CC Vulnerability Notes",
+   "originalTitle": "VU#456950: Komodo Periphery Agent Contains an OS Command Injection Vulnerability",
+   "originalUrl": "https://kb.cert.org/vuls/id/456950",
+   "originalLanguage": "en",
+   "originalDescription": "Overview Versions <= 2.2.0 of Periphery, an agent within the Komodo server management platform, is vulnerable to OS command injection due to missing validation of container names, through two vectors: container destruction and container log searches. This allows an…",
+   "publishedAt": "2026-10-13T19:24:10.004Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "0f928ff94237f71c"
+  },
+  {
+   "id": "16892d4bf1ada56a",
+   "sourceId": "cert-cc-vulnotes",
+   "sourceName": "CERT/CC Vulnerability Notes",
+   "originalTitle": "VU#382143: Lowcoder Query Library API contains cross-tenant authorization bypass allowing for data exfiltration",
+   "originalUrl": "https://kb.cert.org/vuls/id/382143",
+   "originalLanguage": "en",
+   "originalDescription": "Overview Lowcoder, version 2.4.10, contains an authorization bypass vulnerability in its Query Library feature’s API. Authenticated users with an admin or dev role can access private library-query data from other organizations within a multi-tenant Lowcoder instance…",
+   "publishedAt": "2026-10-13T19:21:56.387Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "53f47e880b441de5"
+  },
+  {
+   "id": "33e569999dba699f",
+   "sourceId": "mitre-attack-releases",
+   "sourceName": "MITRE ATT&CK Releases",
+   "originalTitle": "ATT&CK version 20.0",
+   "originalUrl": "https://github.com/mitre/cti/releases/tag/ATT%26CK-v20.0",
+   "originalLanguage": "en",
+   "originalDescription": "See release notes and version history for ATT&CK here",
+   "publishedAt": "2026-10-13T18:56:14.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
+   "contentHash": "8ef8220f5b320222"
+  },
+  {
+   "id": "867f3ab3d84462c2",
+   "sourceId": "cert-cc-vulnotes",
+   "sourceName": "CERT/CC Vulnerability Notes",
+   "originalTitle": "VU#573195: Go, OpenSSL, Apple, LibreSSL, pyca, wolfSSL Name-Constraint Inconsistency in RFC 5280 Implementation",
+   "originalUrl": "https://kb.cert.org/vuls/id/573195",
+   "originalLanguage": "en",
+   "originalDescription": "Overview This note covers differences in how TLS libraries interpret X.509 Name Constraints. A certificate that one library accepts may be rejected by another. Some of those differences are defects; others follow from behavior that RFC 5280 does not fully specify. Description…",
+   "publishedAt": "2026-10-13T18:27:20.433Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "940f6552a5423e22"
+  },
+  {
+   "id": "7d68648feff28d85",
+   "sourceId": "cert-cc-vulnotes",
+   "sourceName": "CERT/CC Vulnerability Notes",
+   "originalTitle": "VU#157374: XSS vulnerability in Shopware 6 enables Admin Token Theft and RCE",
+   "originalUrl": "https://kb.cert.org/vuls/id/157374",
+   "originalLanguage": "en",
+   "originalDescription": "Overview Shopware 6.7 contains a stored cross-site scripting (XSS) vulnerability in its media upload functionality that can lead to administrator credential compromise and remote code execution. Description Shopware is an open-source e-commerce platform used to build and manage…",
+   "publishedAt": "2026-10-13T18:14:02.229Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "015bc31c343df36c"
   },
   {
    "id": "7a679d710e8c186b",
@@ -11374,6 +11714,22 @@
    "contentHash": "d61482e7d8702f2c"
   },
   {
+   "id": "8a4723ca4277ee0c",
+   "sourceId": "cert-cc-vulnotes",
+   "sourceName": "CERT/CC Vulnerability Notes",
+   "originalTitle": "VU#162329: Multiple vulnerabilities in Thelia 2.6.0 and 2.6.1",
+   "originalUrl": "https://kb.cert.org/vuls/id/162329",
+   "originalLanguage": "en",
+   "originalDescription": "Overview Thelia versions 2.6.0 and 2.6.1 contain multiple vulnerabilities relating to file management, Smarty templating, module installation, and administrative workflows. Successful exploitation of these issues could enable remote code execution (RCE), server-side template…",
+   "publishedAt": "2026-10-12T14:52:17.431Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "c08fac1c85c14d1b"
+  },
+  {
    "id": "80f26b2bd8fbb1d1",
    "sourceId": "cloudflare-blog",
    "sourceName": "The Cloudflare Blog",
@@ -11420,6 +11776,22 @@
    ],
    "imageUrl": "https://substackcdn.com/image/youtube/w_728,c_limit/4v837X1Py4M",
    "contentHash": "18ad4a5214a65e7f"
+  },
+  {
+   "id": "bd329adf4cfc001e",
+   "sourceId": "ncsc-uk",
+   "sourceName": "NCSC (UK)",
+   "originalTitle": "Help the NCSC understand how organisations approach external attack surface risk",
+   "originalUrl": "https://www.ncsc.gov.uk/blogs/help-ncsc-understand-how-organisations-approach-external-attack-surface-risk",
+   "originalLanguage": "en",
+   "originalDescription": "We're looking to hear from people involved in evaluating, selecting or adopting EASM.",
+   "publishedAt": "2026-10-12T12:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "973ea477e9a18de0"
   },
   {
    "id": "227a219cfd1ce06b",
@@ -11536,6 +11908,55 @@
    "contentHash": "f6adb591647f6c25"
   },
   {
+   "id": "ea31811474b2f439",
+   "sourceId": "owasp-genai",
+   "sourceName": "OWASP Gen AI Security Project",
+   "originalTitle": "GenAI and Agentic AI Exploit Roundup Q3 2026",
+   "originalUrl": "https://genai.owasp.org/2026/10/08/genai-and-agentic-ai-exploit-roundup-q3-2026/",
+   "originalLanguage": "en",
+   "originalDescription": "Coverage period: July 1, 2026 through September 30, 2026 Overview This roundup consolidates selected major AI-related security incidents and exploit disclosures reported during the coverage period. It aligns each entry to the OWASP Top 10 for LLM Applications 2026 and the OWASP…",
+   "publishedAt": "2026-10-08T12:07:42.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "7910c4403fee43a5"
+  },
+  {
+   "id": "3550c28eb21e754b",
+   "sourceId": "ncsc-uk",
+   "sourceName": "NCSC (UK)",
+   "originalTitle": "China-linked malicious actors called out by UK and international partners for targeting sensitive data globally",
+   "originalUrl": "https://www.ncsc.gov.uk/news/china-linked-actors-called-out-by-uk-and-international-partners-for-targeting-sensitive-data",
+   "originalLanguage": "en",
+   "originalDescription": "Joint advisory with international partners highlights malicious targeting of organisations from a range of sectors across the globe.",
+   "publishedAt": "2026-10-08T12:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "92629d936710a533"
+  },
+  {
+   "id": "f9c4c3b919d252ae",
+   "sourceId": "cisa-news",
+   "sourceName": "CISA News",
+   "originalTitle": "CISA, FBI, NSA and International Partners Warn of China-based Cybersecurity Company Enabling Threat Actors to Target Multiple Critical Infrastructure Sectors Worldwide",
+   "originalUrl": "https://www.cisa.gov/news-events/news/cisa-fbi-nsa-and-international-partners-warn-china-based-cybersecurity-company-enabling-threat",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-10-08T12:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "842e81c080e5a1a2"
+  },
+  {
    "id": "21dc29a71f6177c8",
    "sourceId": "naver-d2",
    "sourceName": "NAVER D2",
@@ -11568,6 +11989,22 @@
    ],
    "imageUrl": null,
    "contentHash": "d0251ba7a37ebc7d"
+  },
+  {
+   "id": "8f8e567556d5b9f0",
+   "sourceId": "nist-csrc-drafts",
+   "sourceName": "NIST CSRC Drafts Open for Comment",
+   "originalTitle": "SP 800-185 Rev. 1, SHA-3 Derived Functions: cSHAKE, KMAC, TupleHash, and ParallelHashInitial Public Draft",
+   "originalUrl": "https://csrc.nist.gov/pubs/sp/800/185/r1/ipd",
+   "originalLanguage": "en",
+   "originalDescription": "Revision 1 introduces streaming interfaces for extendable-output function (XOF) computations, which allow applications to process input and request output incrementally without knowing the total input or output length in advance. From the Note to Reviewers (p. v): The…",
+   "publishedAt": "2026-10-08T04:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "177a52055e4d56c7"
   },
   {
    "id": "4e66a7e453a3193b",
@@ -11894,6 +12331,22 @@
    "contentHash": "c002a1184b1ae299"
   },
   {
+   "id": "0aa7163c9d2cb844",
+   "sourceId": "ncsc-uk",
+   "sourceName": "NCSC (UK)",
+   "originalTitle": "Incident affecting ASOS customers",
+   "originalUrl": "https://www.ncsc.gov.uk/news/incident-affecting-asos-customers",
+   "originalLanguage": "en",
+   "originalDescription": "ASOS has said it is investigating a cyber incident and that some customer personal information may have been accessed.",
+   "publishedAt": "2026-10-06T12:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "9d699f4f179e06fc"
+  },
+  {
    "id": "4c867040c4234347",
    "sourceId": "woowahan-techblog",
    "sourceName": "우아한형제들 기술블로그",
@@ -11973,6 +12426,22 @@
    ],
    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
    "contentHash": "e603fcc2e81ca3b9"
+  },
+  {
+   "id": "75f919b5fbceedd1",
+   "sourceId": "nist-cybersecurity-insights",
+   "sourceName": "NIST Cybersecurity Insights",
+   "originalTitle": "Introducing the New Small Business Cybersecurity Support Program Finder",
+   "originalUrl": "https://www.nist.gov/blogs/cybersecurity-insights/introducing-new-small-business-cybersecurity-support-program-finder",
+   "originalLanguage": "en",
+   "originalDescription": "For small businesses who are often confronted with limited resources, knowing how to get started and where to find support with planning, implementing, or evaluating a cybersecurity risk management strategy can be challenging — sometimes making cybersecurity feel like an…",
+   "publishedAt": "2026-10-05T12:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "ea69113f595b01db"
   },
   {
    "id": "bd1136d0fcfd6f13",
@@ -12135,6 +12604,54 @@
    ],
    "imageUrl": null,
    "contentHash": "7208d2d6accae2a7"
+  },
+  {
+   "id": "195e5e065f8a3927",
+   "sourceId": "cert-cc-vulnotes",
+   "sourceName": "CERT/CC Vulnerability Notes",
+   "originalTitle": "VU#553437: InsydeH2O IHISI SMM is vulnerable to unsafe memory write operations",
+   "originalUrl": "https://kb.cert.org/vuls/id/553437",
+   "originalLanguage": "en",
+   "originalDescription": "Overview An Out-of-bounds Write vulnerability in the InsydeH2O IHISI software used by HP PC BIOS can allow a local attacker with OS kernel privileges to perform arbitrary physical memory writes, including writes to System Management RAM (SMRAM). Because the vulnerable code…",
+   "publishedAt": "2026-10-01T14:33:19.418Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "bde9e7785719e3c2"
+  },
+  {
+   "id": "33111916e1c8d286",
+   "sourceId": "cisa-news",
+   "sourceName": "CISA News",
+   "originalTitle": "CISA Launches Cybersecurity Awareness Month: Securing the Next 250",
+   "originalUrl": "https://www.cisa.gov/news-events/news/cisa-launches-cybersecurity-awareness-month-securing-next-250",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-10-01T12:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "9a60b3c0f590fa97"
+  },
+  {
+   "id": "ae3ab3cc883ed6a9",
+   "sourceId": "nist-cybersecurity-insights",
+   "sourceName": "NIST Cybersecurity Insights",
+   "originalTitle": "Securing Water and Wastewater Operational Technology Environments",
+   "originalUrl": "https://www.nist.gov/blogs/cybersecurity-insights/securing-water-and-wastewater-operational-technology-environments",
+   "originalLanguage": "en",
+   "originalDescription": "Recent cyberattacks on the U.S. water and wastewater systems (WWS) sector are highlighting the escalating threat to our nation’s critical infrastructure and the practical challenges of securing it. These incidents underscore an important challenge: the connectivity that…",
+   "publishedAt": "2026-10-01T12:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "70b21723d87696fe"
   },
   {
    "id": "40de2077ded12536",
@@ -12442,6 +12959,22 @@
    "contentHash": "aad941917bc6d981"
   },
   {
+   "id": "c331b4a1a83196c4",
+   "sourceId": "nist-csrc-drafts",
+   "sourceName": "NIST CSRC Drafts Open for Comment",
+   "originalTitle": "CSWP 36G, False Base Station: Applying 5G Cybersecurity and Privacy CapabilitiesInitial Public Draft",
+   "originalUrl": "https://csrc.nist.gov/pubs/cswp/36/g/false-base-station-applying-5g-cybersecurity-and-p/ipd",
+   "originalLanguage": "en",
+   "originalDescription": "This initial public draft details how the availability of inexpensive, off-the-shelf hardware and software tools allows attackers to mimic legitimate carrier equipment to intercept and disrupt cellular communications. The paper evaluates how 5G devices respond to six simulated…",
+   "publishedAt": "2026-09-30T04:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "395ae2caacb37bd2"
+  },
+  {
    "id": "3076fa5761466d20",
    "sourceId": "android-developers-blog",
    "sourceName": "Android Developers Blog",
@@ -12622,6 +13155,22 @@
    "contentHash": "c21e565ff66f129f"
   },
   {
+   "id": "548f067bcc191ed7",
+   "sourceId": "cert-cc-vulnotes",
+   "sourceName": "CERT/CC Vulnerability Notes",
+   "originalTitle": "VU#762428: Authlib library contains a signature‑verification bypass vulnerability",
+   "originalUrl": "https://kb.cert.org/vuls/id/762428",
+   "originalLanguage": "en",
+   "originalDescription": "Overview Authlib (versions up to and including 1.7.2) contain a signature‑verification bypass in the JSON Web Signature (JWS) general JSON serialization handling. The JsonWebSignature.deserialize_json() function accepts a JWS object with an empty \"signatures\" array and treats…",
+   "publishedAt": "2026-09-28T19:36:11.488Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "742be23d3aa8f3e9"
+  },
+  {
    "id": "db713ef86bd59ea8",
    "sourceId": "google-ai-blog",
    "sourceName": "Google AI Blog",
@@ -12668,6 +13217,22 @@
    ],
    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
    "contentHash": "794d458f56e695ca"
+  },
+  {
+   "id": "7b1e1e501b33f733",
+   "sourceId": "ncsc-uk",
+   "sourceName": "NCSC (UK)",
+   "originalTitle": "Exploitation of vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway",
+   "originalUrl": "https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway",
+   "originalLanguage": "en",
+   "originalDescription": "The NCSC is urging UK organisations to promptly mitigate vulnerabilities affecting Citrix NetScaler ADC and Gateway, two of which are being actively exploited.",
+   "publishedAt": "2026-09-28T12:00:00.000Z",
+   "discoveredAt": "2026-10-26T15:34:56.245Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "4269bcc9114ecdcc"
   },
   {
    "id": "09d1d26fa19dd694",
