@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e52268b84b3a73fc",
+ "contentHash": "f0022a44eb373f7b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T17:40:01.445Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "MS Unveils 'Agensh', Allowing 1024 AIs to Collaborate Without a Manager, Self-Dividing Roles",
+   "summary": "Microsoft has released an open-source multi-agent harness called Agensh, which allows 1024 AI coding agents to collaborate without a central manager. In this system, agents pick tasks and share results on their own, and roles such as code review and integration emerged voluntarily as the scale increased. Microsoft published the code and experiment reproducibility tools on GitHub after releasing a related research paper in September.",
+   "impact": "This open-source release could provide developers and researchers with new methods to study large-scale AI collaboration and workflow automation. Technology users may see advancements in how multiple AI systems coordinate complex tasks without centralized control.",
+   "keyPoints": [
+    "Microsoft open-sourced a multi-agent harness named Agensh on GitHub.",
+    "The system enables 1024 AI coding agents to collaborate without a central manager.",
+    "Agents independently select tasks and share results, leading to the spontaneous division of roles like code review."
+   ]
+  },
+  "km": {
+   "title": "MS បានបង្ហាញตัว 'Agensh' ដែលអនុញ្ញាតឱ្យ AI ចំនួន ១០២៤ សហការគ្នាយ៉ាងសកម្មដោយគ្មានអ្នកគ្រប់គ្រង និងចែករំលែកតួនាទីដោយខ្លួនឯង",
+   "summary": "ក្រុមហ៊ុន Microsoft បានដាក់ឱ្យប្រើប្រាស់ជាប្រភពបើកចំហនូវប្រព័ន្ធសហការភ្នាក់ងារច្រើនហៅថា Agensh ដែលអនុញ្ញាតឱ្យភ្នាក់ងារសរសេរកូដ AI ចំនួន ១០២៤ សហការគ្នាដោយគ្មានអ្នកគ្រប់គ្រងកណ្តាល។ ភ្នាក់ងារទាំងនោះជ្រើសរើសកិច្ចការ និងចែករំលែកលទ្ធផលដោយខ្លួនឯង ដែលនាំឱ្យមានការបង្កើតតួនាទីដូចជាការពិនិត្យ និងដាក់បញ្ចូលកូដដោយស្ម័គ្រចិត្តនៅពេលដែលទំហំកើនឡើង។ Microsoft បាន প্রকাশកូដ និងឧបករណ៍សម្រាប់បង្កើតការពិសោធឡើងវិញនៅលើ GitHub បន្ទាប់ពីបានបញ្ចេញឯកសារស្រាវជ្រាវពាក់ព័ន្ធកាលពីខែកញ្ញា។",
+   "impact": "ការដាក់ឱ្យប្រើប្រាស់ជាប្រភពបើកចំហនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវនូវវិធីសាស្ត្រថ្មីៗសម្រាប់ការសិក្សាពីកិច្ចសហការ AI ខ្នាតធំ។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងឃើញមានភាពរីកចម្រើនក្នុងការសម្របសម្រួលកិច្ចការស្មុគស្មាញដោយប្រព័ន្ធ AI ច្រើនដោយគ្មានការគ្រប់គ្រងកណ្តាល។",
+   "keyPoints": [
+    "Microsoft បានដាក់ឱ្យប្រើប្រាស់ប្រព័ន្ធ Agensh ជាប្រភពបើកចំហនៅលើ GitHub។",
+    "ប្រព័ន្ធនេះអនុញ្ញាតឱ្យភ្នាក់ងារសរសេរកូដ AI ចំនួន ១០២៤ សហការគ្នាដោយគ្មានអ្នកគ្រប់គ្រងកណ្តាល។",
+    "ភ្នាក់ងារជ្រើសរើសកិច្ចការ និងចែករំលែកលទ្ធផលដោយខ្លួនឯង រួមទាំងការបង្កើតតួនាទីពិនិត្យកូដដោយស្វ័យប្រវត្តិ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "微软开源“Agensh”：1024个AI无中央管理者即可协作并自主分配角色",
+   "summary": "微软在开源平台上发布了一个名为 Agensh 的多智能体框架，允许1024个AI编程智能体在没有中央管理者的的情况下进行协作。在该系统中，智能体自行选择任务并共享结果，随着规模的扩大，负责代码审查和集成的角色也自发出现。微软此前于9月公开了相关研究论文，并于24日通过GitHub公开了代码和实验重现工具。",
+   "impact": "这一开源发布可能会为开发者和研究人员提供研究大规模AI协作和工作流自动化的大型新方法。技术用户可能会看到多个AI系统在没有集中控制的情况下协调复杂任务的进展。",
+   "keyPoints": [
+    "微软在GitHub上开源了名为 Agensh 的多智能体框架。",
+    "该系统使1024个AI编程智能体能够在没有中央管理者的统一调度下协作。",
+    "智能体自主选择任务并共享结果，从而自发产生了代码审查等角色。"
+   ]
+  },
+  "ko": {
+   "title": "MS, 관리자 없이 AI 1024개 협업하는 ‘에이전시’ 공개…스스로 역할도 나눠",
+   "summary": "마이크로소프트가 중앙 관리자 없이 AI 코딩 에이전트 1024개가 협업하는 시스템인 멀티 에이전트 하네스 에이전시를 오픈소스로 공개했다. 에이전트들이 스스로 작업을 고르고 결과를 공유하는 방식으로, 규모가 커지자 코드 검토와 통합을 맡는 역할도 자발적으로 나타났다. 마이크로소프트는 관련 연구 논문을 지난 9월 먼저 공개한 데 이어 깃허브를 통해 코드와 실험 재현 도구를 공개했다.",
+   "impact": "이번 오픈소스 공개는 개발자와 연구원들에게 대규모 AI 협업 및 워크플로 자동화를 연구할 수 있는 새로운 방법을 제공할 수 있다. 기술 사용자들은 중앙 통제 없이 여러 AI 시스템이 복잡한 작업을 조율하는 방식의 진전을 목격할 수 있다.",
+   "keyPoints": [
+    "마이크로소프트가 멀티 에이전트 하네스 에이전시를 깃허브에 오픈소스로 공개했다.",
+    "중앙 관리자 없이 AI 코딩 에이전트 1024개가 협업하는 시스템이다.",
+    "에이전트들이 스스로 작업을 고르고 결과를 공유하며, 규모가 커지면서 코드 검토 등 역할이 자발적으로 생성되었다."
+   ]
+  }
+ }
+}

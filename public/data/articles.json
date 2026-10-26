@@ -1,7 +1,154 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-26T15:34:56.245Z",
+ "generatedAt": "2026-10-26T17:25:23.895Z",
  "articles": [
+  {
+   "id": "210ebf83ea69eb6d",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Reddit's r/opensource bans all AI-related projects, sparking backlash and a rival subreddit",
+   "originalUrl": "https://the-decoder.com/reddits-r-opensource-bans-all-ai-related-projects-sparking-backlash-and-a-rival-subreddit/",
+   "originalLanguage": "en",
+   "originalDescription": "The Reddit forum r/opensource has banned all posts about AI projects, whether built with AI, AI-powered, or designed for AI. Projects must also be at least a year old and have multiple contributors, and non-English posts are excluded as well. In response, the rival forum…",
+   "publishedAt": "2026-10-26T17:19:40.000Z",
+   "discoveredAt": "2026-10-26T17:25:23.895Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "b5e8bcac76bd7020"
+  },
+  {
+   "id": "98bf36611e594341",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
+   "originalLanguage": "en",
+   "originalDescription": "Build enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS CDK: an agent that routes across two knowledge bases, retrieves through the AgentCore Gateway, and returns grounded, cited answers, with seven layers of observability and both on-demand…",
+   "publishedAt": "2026-10-26T17:15:14.000Z",
+   "discoveredAt": "2026-10-26T17:25:23.895Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "be2915806e727b89"
+  },
+  {
+   "id": "fe6583a778a0b30b",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Five weird details from Anthropic’s IPO filing",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+   "originalLanguage": "en",
+   "originalDescription": "Anthropic has finally filed its S-1 prospectus with the SEC, a document designed to give investors a look under the hood of its business, from how much its executives are making and plans for spending its IPO billions to the risks that could derail its ambitions. At more than…",
+   "publishedAt": "2026-10-26T17:10:23.000Z",
+   "discoveredAt": "2026-10-26T17:25:23.895Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "dcfb25767ecf2ca7"
+  },
+  {
+   "id": "b2ed8daad1cc7e3f",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+   "originalUrl": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+   "originalLanguage": "en",
+   "originalDescription": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
+   "publishedAt": "2026-10-26T16:49:42.000Z",
+   "discoveredAt": "2026-10-26T17:25:23.895Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "28a5dcde276576af"
+  },
+  {
+   "id": "d6e31d9e0fa6ab5c",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "SpaceX locks in $40B GPU financing deal with Apollo",
+   "originalUrl": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+   "originalLanguage": "en",
+   "originalDescription": "SpaceX has locked in a binding commitment for roughly $40 billion in financing to pay for AI chips and related data center equipment, the company disclosed in a regulatory filing Monday. In a statement, SpaceX called it the “largest committed GPU financing” ever.",
+   "publishedAt": "2026-10-26T16:46:36.000Z",
+   "discoveredAt": "2026-10-26T17:25:23.895Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "ef0471c720a660e2"
+  },
+  {
+   "id": "e4e1138add83b456",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "刚刚，Anthropic公开335页招股书：史上最大IPO，史上最亏AI公司",
+   "originalUrl": "https://www.qbitai.com/2026/10/505551.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "地球最富兄妹俩堂堂来袭！7名联创仍紧握50.1%总投票权",
+   "publishedAt": "2026-10-26T16:06:31.000Z",
+   "discoveredAt": "2026-10-26T17:25:23.895Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "fc562ab5830e0aa2"
+  },
+  {
+   "id": "ad48058b46de9c2a",
+   "sourceId": "nvidia-technical-blog",
+   "sourceName": "NVIDIA Technical Blog",
+   "originalTitle": "How NVIDIA Minerva Turns Telemetry Chaos Into Peak GPU Yield",
+   "originalUrl": "https://developer.nvidia.com/blog/how-nvidia-minerva-turns-telemetry-chaos-into-peak-gpu-yield/",
+   "originalLanguage": "en",
+   "originalDescription": "AI Factories are some of the most technologically complex operational environments ever created. Hundreds of thousands of GPUs, NVIDIA Spectrum-X Ethernet...",
+   "publishedAt": "2026-10-26T16:00:00.000Z",
+   "discoveredAt": "2026-10-26T17:25:23.895Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "c6e41e042f43df80"
+  },
+  {
+   "id": "b1d7eb2dedce5839",
+   "sourceId": "google-ai-blog",
+   "sourceName": "Google AI Blog",
+   "originalTitle": "Our newest AI Quest: Mapping the human brain",
+   "originalUrl": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+   "originalLanguage": "en",
+   "originalDescription": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+   "publishedAt": "2026-10-26T16:00:00.000Z",
+   "discoveredAt": "2026-10-26T17:25:23.895Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_sharing_updated.max-600x600.format-webp.webp",
+   "contentHash": "a64d00e1b40b5e38"
+  },
+  {
+   "id": "e30bddfbc05d54f4",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Microsoft offers buyouts to 60,000 employees",
+   "originalUrl": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+   "originalLanguage": "en",
+   "originalDescription": "Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and…",
+   "publishedAt": "2026-10-26T15:58:27.000Z",
+   "discoveredAt": "2026-10-26T17:25:23.895Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "b4963d25da098290"
+  },
   {
    "id": "ec17f0212ac94073",
    "sourceId": "nvidia-technical-blog",
@@ -39,7 +186,7 @@
    "id": "d8e91abdba8c9c3f",
    "sourceId": "ars-technica-ai",
    "sourceName": "Ars Technica AI",
-   "originalTitle": "Tesla gave up the EV crown. Now it wants to win the autonomy race",
+   "originalTitle": "Tesla gave up the EV crown. Now it wants to win the autonomy race.",
    "originalUrl": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
    "originalLanguage": "en",
    "originalDescription": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot.",
@@ -49,7 +196,7 @@
     "ai"
    ],
    "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/roadster-1152x648.jpg",
-   "contentHash": "842d9644f3be175a"
+   "contentHash": "941bb6031c6345bf"
   },
   {
    "id": "fd034521621386f2",
@@ -101,6 +248,22 @@
    "contentHash": "46584cfbedac2aa2"
   },
   {
+   "id": "1dd0579807ac7a04",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon Connect Customer now lets you view metrics by customer lifetime value and repeat-caller status",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-boma-segment/",
+   "originalLanguage": "en",
+   "originalDescription": "Now you can view your metrics across customer segments: customer lifetime value (LTV) and repeat callers. See how any metric differs for repeat callers versus the rest of your contacts, or how results hold up among your highest-LTV customers; so you can spot the groups trending…",
+   "publishedAt": "2026-10-26T13:47:00.000Z",
+   "discoveredAt": "2026-10-26T17:25:23.895Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "034e5b100f49e691"
+  },
+  {
    "id": "8730dc35da783e3d",
    "sourceId": "the-verge-ai",
    "sourceName": "The Verge AI",
@@ -115,6 +278,22 @@
    ],
    "imageUrl": null,
    "contentHash": "08c2b3f6623ba1d2"
+  },
+  {
+   "id": "955660e61e28b0ae",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon Connect Customer now measures the outcomes that drive retention and revenue",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-boma-metrics/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon Connect Customer now scores the outcome of your customer interactions. It shows whether the customer left satisfied, is at risk of churning, made a purchase, or resolved their need in self-service. You can now see whether an interaction worked, not just how efficiently…",
+   "publishedAt": "2026-10-26T13:31:00.000Z",
+   "discoveredAt": "2026-10-26T17:25:23.895Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "1b8cf5fd3d96c3db"
   },
   {
    "id": "4d610e220c2d6684",
@@ -1973,7 +2152,7 @@
    "id": "dfe5fb536ca517ba",
    "sourceId": "techcrunch-ai",
    "sourceName": "TechCrunch AI",
-   "originalTitle": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+   "originalTitle": "OpenAI says it will no longer train its AI models on the live internet, citing ‘significant risks’",
    "originalUrl": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
    "originalLanguage": "en",
    "originalDescription": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
@@ -1983,7 +2162,7 @@
     "ai"
    ],
    "imageUrl": null,
-   "contentHash": "c64deb2fcea2f523"
+   "contentHash": "0a2a1e20eb99b903"
   },
   {
    "id": "739797ca19c060e4",

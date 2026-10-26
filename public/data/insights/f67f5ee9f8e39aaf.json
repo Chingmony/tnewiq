@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f67f5ee9f8e39aaf",
+ "contentHash": "d75c533b51102a40",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T17:36:05.933Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+   "summary": "Project maintainers state that two critical vulnerabilities in Wasmtime could allow malicious WebAssembly modules to escape their intended containment sandboxes. To exploit these issues, an attacker must first use a vulnerable Wasmtime build to compile a module under their control. Additionally, one of the identified flaws specifically affects ARM64 systems.",
+   "impact": "These vulnerabilities could allow malicious modules to break out of sandboxed environments if unpatched. Developers and security teams should review and update their Wasmtime builds using the newly released fixed versions to mitigate potential sandbox escape risks.",
+   "keyPoints": [
+    "Two critical flaws were found in the Wasmtime runtime.",
+    "The vulnerabilities could allow malicious WebAssembly modules to escape sandboxes.",
+    "Exploitation requires an attacker to compile a controlled module with a vulnerable Wasmtime build.",
+    "One of the flaws impacts only ARM64 systems, and fixed versions have been released."
+   ]
+  },
+  "km": {
+   "title": "ពិការភាពសំខាន់ៗពីរនៅក្នុង Wasmtime អាចអនុញ្ញាតឱ្យម៉ូឌុល WebAssembly ដែលមានគំនិតអាក្រក់គេចផុតពីប្រអប់ខ្សាច់",
+   "summary": "អ្នកថែទាំគម្រោងបាននិយាយថា ពិការភាពសំខាន់ៗចំនួនពីរនៅក្នុង Wasmtime ដែលជាកម្មវិធីដំណើរការ WebAssembly អាចអនុញ្ញាតឱ្យម៉ូឌុល WebAssembly ដែលមានគំនិតអាក្រក់គេចផុតពីប្រអប់ខ្សាច់ដែលបានកំណត់។ អ្នកវាយប្រហារដំបូងត្រូវការពុលម៉ូឌុលដែលខ្លួនគ្រប់គ្រងដោយប្រើប្រាស់កំណែ Wasmtime ដែលមានការខ្វះខាត ហើយពិការភាពមួយប៉ះពាល់តែលើប្រព័ន្ធ ARM64 ប៉ុណ្ណោះ។ កំណែដែលបានជួសជុលរួចត្រូវបានចេញផ្សាយហើយ។",
+   "impact": "បញ្ហានេះអាចអនុញ្ញាតឱ្យម៉ូឌុលដែលមានគំនិតអាក្រក់គេចផុតពីការគ្រប់គ្រងប្រអប់ខ្សាច់ ប្រសិនបើមិនបានធ្វើបច្ចុប្បន្នភាពទេ។ ក្រុមការងារផ្នែកសុវត្ថិភាពគួរតែធ្វើបច្ចុប្បន្នភាពកំណែ Wasmtime ដើម្បីជៀសវាងហានិភ័យដែលអាចកើតមាន។",
+   "keyPoints": [
+    "រកឃើញពិការភាពសំខាន់ៗចំនួនពីរនៅក្នុង Wasmtime។",
+    "ចំណុចខ្សោយអាចអនុញ្ញាតឱ្យម៉ូឌុលគេចផុតពីប្រអប់ខ្សាច់។",
+    "តម្រូវឱ្យអ្នកវាយប្រហារចងក្រងម៉ូឌុលនៅលើកំណែដែលមានបញ្ហា។",
+    "ពិការភាពមួយប៉ះពាល់ដល់តែប្រព័ន្ធ ARM64 ប៉ុណ្ណោះ ហើយកំណែជួសជុលត្រូវបានចេញផ្សាយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "两个严重的 Wasmtime 漏洞可能允许恶意的 WebAssembly 模块逃逸沙箱",
+   "summary": "该项目的维护者表示，可以嵌入到其他软件中的 WebAssembly 运行时 Wasmtime 存在两个严重漏洞，可能允许恶意的 WebAssembly 模块逃逸其预期的隔离沙箱。攻击者首先需要使用存在漏洞的 Wasmtime 构建来编译他们控制的模块，并且其中一个漏洞仅影响 ARM64 系统。官方已发布修复版本。",
+   "impact": "这些漏洞可能会让恶意的模块突破沙箱限制，开发人员和安全团队应当应用最新发布的修复版本来降低潜在的安全风险。",
+   "keyPoints": [
+    "Wasmtime 运行时中发现了两个严重漏洞。",
+    "该漏洞可能允许恶意 WebAssembly 模块逃逸沙箱。",
+    "攻击需要利用存在漏洞的 Wasmtime 构建编译受控模块。",
+    "其中一个漏洞仅影响 ARM64 系统，修复版本已经发布。"
+   ]
+  },
+  "ko": {
+   "title": "두 가지 치명적인 Wasmtime 결함으로 인해 악성 WebAssembly 모듈이 샌드박스를 탈출할 수 있음",
+   "summary": "프로젝트 유지 관리자들에 따르면, 다른 소프트웨어에 빌드할 수 있는 WebAssembly 런타임인 Wasmtime에 두 가지 치명적인 결함이 있어 악성 WebAssembly 모듈이 의도된 샌드박스를 탈출할 수 있다고 합니다. 공격자는 취약한 Wasmtime 빌드를 사용하여 제어하는 모듈을 컴파일해야 하며, 결함 중 하나는 ARM64 시스템에만 영향을 미칩니다. 수정된 버전이 출시되었습니다.",
+   "impact": "이러한 취약점으로 인해 악성 모듈이 샌드박스 환경을 탈출할 우려가 있을 수 있습니다. 개발자와 보안 팀은 잠재적인 샌드박스 탈출 위험을 완화하기 위해 새로 출시된 수정된 버전으로 Wasmtime 빌드를 업데이트해야 합니다.",
+   "keyPoints": [
+    "Wasmtime 런타임에서 두 가지 치명적인 결함이 발견됨.",
+    "취약점으로 인해 악성 WebAssembly 모듈이 샌드박스를 탈출할 수 있음.",
+    "공격에는 취약한 Wasmtime 빌드로 제어 모듈을 컴파일하는 과정이 필요함.",
+    "결함 중 하나는 ARM64 시스템에만 영향을 미치며 수정 버전이 배포됨."
+   ]
+  }
+ }
+}

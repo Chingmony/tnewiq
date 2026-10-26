@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ce0386ac22975ba1",
+ "contentHash": "659f7786041d3b7d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T17:37:01.587Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+   "summary": "Security operations centers often struggle with piles of alerts that do not explain how an attack started or progressed. Network data, such as information from a network detection and response platform, can connect individual alerts into a single timeline. This data feeds defensive systems to tie events together into a coordinated view.",
+   "impact": "Security teams may use network data to better understand how intrusions begin and progress, helping them connect disjointed alerts into a single timeline.",
+   "keyPoints": [
+    "SOCs struggle with alerts that fail to explain how attacks start or progress.",
+    "Network data helps connect individual alerts into one timeline.",
+    "NDR platforms feed defensive systems to provide a coordinated view of events."
+   ]
+  },
+  "km": {
+   "title": "ចន្លោះការជូនដំណឹង៖ អ្វីដែលអ្នកវាយប្រហារធ្វើក្នុងចន្លោះដែលការរកឃើញធម្មតាមិនបានឃើញ",
+   "summary": "មជ្ឈមណ្ឌលប្រតិបត្តិការសុវត្ថិភាពតែងតែជួបប្រទះការជូនដំណឹងជាច្រើនដែលមិនពន្យល់ពីរបៀបដែលការវាយប្រហារបានចាប់ផ្តើម ឬរីកចម្រើននោះទេ។ ទិន្នន័យបណ្តាញ ដូចជាទិន្នន័យពីវេទិកា検出និងឆ្លើយតបបណ្តាញ អាចភ្ជាប់ការជូនដំណឹងនីមួយៗទៅជាពេលវេលាតែមួយ។ ទិន្នន័យនេះផ្គត់ផ្គង់ប្រព័ន្ធការពារដែលអាចភ្ជាប់ព្រឹត្តិការណ៍ទាំងអស់ចូលទៅក្នុងទិដ្ឋភាពសម្របសម្រួលមួយ។",
+   "impact": "ក្រុមសន្តិសុខអាចប្រើប្រាស់ទិន្នន័យបណ្តាញដើម្បីយល់កាន់តែច្បាស់អំពីរបៀបដែលការឈ្លានពានចាប់ផ្តើមនិងរីកចម្រើន ដោយជួយពួកគេភ្ជាប់ការជូនដំណឹងដែលមិនស៊ីសង្វាក់គ្នាទៅជាពេលវេលាតែមួយ។",
+   "keyPoints": [
+    "SOC ជួបប្រទះការជូនដំណឹងដែលមិនពន្យល់ពីរបៀបចាប់ផ្តើម ឬការរីកចម្រើននៃការវាយប្រហារ។",
+    "ទិន្នន័យបណ្តាញជួយភ្ជាប់ការជូនដំណឹងនីមួយៗទៅជាពេលវេលាតែមួយ។",
+    "វេទិកា NDR ផ្គត់ផ្គង់ប្រព័ន្ធការពារដើម្បីផ្តល់នូវទិដ្ឋភាពសម្របសម្រួលនៃព្រឹត្តិការណ៍។"
+   ]
+  },
+  "zh-CN": {
+   "title": "警报之间：攻击者在普通检测遗漏的空间里做什么",
+   "summary": "每个安全运营中心都在应对大量无法解释攻击如何开始或如何进展的警报。来自网络检测和响应平台等网络数据可以将各个警报连接成一条时间线，并为能够将所有事件组合成一个协调视图的防御系统提供支持。安全运营中心团队通常首先看到入侵的轮廓。",
+   "impact": "安全团队可能会利用网络数据来更好地了解入侵的开始和发展过程，从而帮助他们将零散的警报串联成一个统一的时间线。",
+   "keyPoints": [
+    "安全运营中心难以应对无法解释攻击起源或进展的警报。",
+    "网络数据有助于将各个警报连接成一条时间线。",
+    "NDR平台为防御系统提供支持以将事件组合成协调的视图。"
+   ]
+  },
+  "ko": {
+   "title": "경고 사이: 일반적인 탐지가 놓치는 공간에서 공격자가 하는 일",
+   "summary": "모든 보안 운영 센터는 공격이 어떻게 시작되었거나 진행되었는지 설명하지 못하는 수많은 경고로 어려움을 겪습니다. 네트워크 탐지 및 대응 플랫폼과 같은 네트워크 데이터는 개별 경고를 하나의 타임라인으로 연결하며, 모든 이벤트를 조정된 하나의 뷰로 묶을 수 있는 방어 시스템에 데이터를 제공합니다.",
+   "impact": "보안 팀은 네트워크 데이터를 사용하여 침입이 시작되고 진행되는 방식을 더 잘 이해할 수 있으며, 단절된 경고를 단일 타임라인으로 연결하는 데 도움을 받을 수 있습니다.",
+   "keyPoints": [
+    "SOC는 공격의 시작이나 진행 과정을 설명하지 못하는 경고로 어려움을 겪습니다.",
+    "네트워크 데이터는 개별 경고를 하나의 타임라인으로 연결합니다.",
+    "NDR 플랫폼은 이벤트에 대한 조정된 뷰를 제공하기 위해 방어 시스템에 데이터를 공급합니다."
+   ]
+  }
+ }
+}

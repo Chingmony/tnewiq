@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ec17f0212ac94073",
+ "contentHash": "b72e4a70f5770fa8",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T17:29:58.672Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How NVIDIA Mission Control 2.5 Brings Autonomous Recovery to Kubernetes",
+   "summary": "Training large-scale AI models on thousands of GPUs requires built-in monitoring and automation to optimize cluster resiliency and uptime. Data center operators have long tracked mean-time-to-repair and mean-time-between-failure, but modern AI factories raise the stakes. NVIDIA Mission Control 2.5 addresses these operational challenges for Kubernetes environments.",
+   "impact": "This release could help data center operators and developers improve uptime and resiliency when training large-scale AI models on thousands of GPUs. It may assist teams in managing cluster failures and reducing repair times in high-stakes AI factories.",
+   "keyPoints": [
+    "Training large-scale AI models on thousands of GPUs requires built-in monitoring and automation.",
+    "Cluster resiliency and uptime are critical for modern AI factories.",
+    "Data center operators traditionally measure mean-time-to-repair and mean-time-between-failure."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែល NVIDIA Mission Control 2.5 នាំយកការសង្គ្រោះស្វយ័តទៅកាន់ Kubernetes",
+   "summary": "ការបណ្តុះបណ្តាលគំរូ AI ខ្នាតធំនៅលើ GPU រាប់ពាន់ទាមទារឱ្យមានការត្រួតពិនិត្យ និងស្វ័យប្រវត្តិកម្មដែលបានបង្កើតឡើង ដើម្បីបង្កើនប្រសិទ្ធភាពភាពធន់ និងពេលវេលាដំណើរការរបស់ក្ល័ስተរ។ ប្រតិបត្តិករមជ្ឈមណ្ឌលទិន្នន័យបានវាស់វែងពេលវេលាជាមធ្យមក្នុងការជួសជុល និងពេលវេលាជាមធ្យមរវាងការបរាជ័យជាយូរមកហើយ។ ឥឡូវនេះរោងចក្រ AI សម័យទំនើបបង្កើនភាគហ៊ុនឱ្យកាន់តែខ្ពស់ជាងមុន។",
+   "impact": "ការអភិវឌ្ឍន៍នេះអាចជួយដល់ប្រតិបត្តិករមជ្ឈមណ្ឌលទិន្នន័យ និងអ្នកអភិវឌ្ឍន៍ក្នុងការបង្កើនពេលវេលាដំណើរការ និងភាពធន់នៅពេលបណ្តុះបណ្តាលគំរូ AI ខ្នាតធំ។ វាអាចជួយសម្រួលដល់ការគ្រប់គ្រងការបរាជ័យរបស់ក្ល័ስተរក្នុងរោងចក្រ AI ។",
+   "keyPoints": [
+    "ការបណ្តុះបណ្តាលគំរូ AI ខ្នាតធំនៅលើ GPU រាប់ពាន់ទាមទារការត្រួតពិនិត្យ និងស្វ័យប្រវត្តិកម្ម។",
+    "ភាពធន់របស់ក្ល័ስተរ និងពេលវេលាដំណើរការគឺជាកត្តាសំខាន់សម្រាប់រោងចក្រ AI ។",
+    "ប្រតិបត្តិករមជ្ឈមណ្ឌលទិន្នន័យបានវាស់វែងពេលវេលាជួសជុល និងពេលវេលារវាងការបរាជ័យជាយូរមកហើយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "NVIDIA Mission Control 2.5 如何为 Kubernetes 带来自主恢复",
+   "summary": "在数千个 GPU 上训练大规模 AI 模型是一项高风险的操作，必须内置监控和自动化功能以优化集群弹性和正常运行时间。在 AI 工厂出现之前，数据中心运营商就已经在衡量平均修复时间和平均故障间隔时间。现在，现代 AI 工厂面临的风险更高。",
+   "impact": "此版本可能会帮助数据中心运营商和开发人员在数千个 GPU 上训练大规模 AI 模型时，提高正常运行时间和集群弹性。它可能有助于团队在高风险的 AI 工厂中管理集群故障并减少修复时间。",
+   "keyPoints": [
+    "在数千个 GPU 上训练大规模 AI 模型需要内置监控和自动化。",
+    "集群弹性和正常运行时间对现代 AI 工厂至关重要。",
+    "数据中心运营商长期以来一直在衡量平均修复时间和平均故障间隔时间。"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA Mission Control 2.5가 Kubernetes에 자율 복구를 도입하는 방법",
+   "summary": "수천 개의 GPU에서 대규모 AI 모델을 학습시키는 것은 클러스터 복원력과 가동 시간을 최적화하기 위해 모니터링과 자동화가 내장되어야 하는 고위험 작업입니다. 데이터 센터 운영자들은 AI 팩토리가 존재하기 오래전부터 평균 수리 시간과 평균 고장 간격을 측정해 왔습니다. 이제 현대의 AI 팩토리에서는 그 위험성이 더 커졌습니다.",
+   "impact": "이번 릴리스는 데이터 센터 운영자와 개발자가 수천 개의 GPU에서 대규모 AI 모델을 학습시킬 때 가동 시간과 복원력을 향상시키는 데 도움을 줄 수 있습니다. 고위험 AI 팩토리에서 팀이 클러스터 오류를 관리하고 수리 시간을 단축하는 데 기여할 수 있습니다.",
+   "keyPoints": [
+    "수천 개의 GPU에서 대규모 AI 모델을 학습하려면 모니터링과 자동화가 내장되어야 합니다.",
+    "클러스터 복원력과 가동 시간은 현대 AI 팩토리에서 매우 중요합니다.",
+    "데이터 센터 운영자들은 평균 수리 시간과 평균 고장 간격을 측정해 왔습니다."
+   ]
+  }
+ }
+}

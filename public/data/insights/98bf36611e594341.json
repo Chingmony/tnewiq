@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "98bf36611e594341",
+ "contentHash": "be2915806e727b89",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T17:26:27.128Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK",
+   "summary": "AWS has published a guide on building an enterprise agentic retrieval system using a Managed Amazon Bedrock Knowledge Base and AWS CDK in Python. Ordinary Retrieval Augmented Generation (RAG) often fails when answers span multiple corpora, require choosing a source, or need multiple retrieval loops. By using Amazon Bedrock's Managed Knowledge Base and AgentCore, the system deploys an agent that routes across knowledge bases, uses multi-turn planning, and returns cited answers. The solution also includes built-in observability features such as Amazon CloudWatch dashboards and automated evaluations.",
+   "impact": "Developers and security teams adopting agentic RAG systems may benefit from using CDK to automate infrastructure and built-in observability tools to track agent behavior. Because agentic loops take different paths for every question, telemetry and monitoring become critical to verify that the system works reliably.",
+   "keyPoints": [
+    "Agentic retrieval uses a reasoning agent in the loop to decide whether to retrieve, which knowledge base to consult, and whether to fetch more data.",
+    "The Managed Amazon Bedrock Knowledge Base handles ingestion, storage, indexing, and retrieval natively, removing the need to provision separate OpenSearch Serverless collections.",
+    "Amazon Bedrock AgentCore exposes knowledge bases as Model Context Protocol tools and uses AgenticRetrieveStream for reranking and synthesized cited answers.",
+    "The deployment includes two Amazon CloudWatch dashboards across seven layers of telemetry alongside on-demand and continuous evaluation."
+   ]
+  },
+  "km": {
+   "title": "សាងសង់ការទាញយកទិន្នន័យបែបភ្នាក់ងារនៅលើ Managed Amazon Bedrock Knowledge Base ជាមួយ CDK",
+   "summary": "អត្ថបទនេះពិពណ៌នាអំពីការសាងសង់ប្រព័ន្ធទាញយកទិន្នន័យបែបភ្នាក់ងារកម្រិតសហគ្រាសនៅលើ Managed Amazon Bedrock Knowledge Base ដោយប្រើ AWS CDK។ ប្រព័ន្ធ RAG ធម្មតាជួបការលំបាកនៅពេលសំណួរត្រូវការប្រភពទិន្នន័យច្រើន ឬត្រូវការការស្វែងរកច្រើនជុំ។ ការប្រើប្រាស់ Managed Knowledge Base និង AgentCore អនុញ្ញាតឱ្យភ្នាក់ងារធ្វើការសម្រេចចិត្ត ជ្រើសរើសមូលដ្ឋានចំណេះដឹង និងផ្តល់ចម្លើយដែលមានការយោងត្រឹមត្រូវ។ ដំណោះស្រាយនេះក៏រួមបញ្ចូលផងដែរនូវផ្ទាំងគ្រប់គ្រង Amazon CloudWatch និងការវាយតម្លៃដោយស្វ័យប្រវត្តិ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍និងសុវត្ថិភាពអាចទទួលបានអត្ថប្រយោជន៍ពីការប្រើប្រាស់ CDK ដើម្បីស្វ័យប្រវត្តិកម្មហេដ្ឋារចនាសម្ព័ន្ធ និងឧបករណ៍តាមដានដើម្បីពិនិត្យមើលសកម្មភាពរបស់ភ្នាក់ងារ។ ការតាមដានទិន្នន័យផ្ដល់នូវភាពចាំបាច់ក្នុងការធានាថាប្រព័ន្ធដំណើរការបានល្អដោយសារភ្នាក់ងារដំណើរការតាមផ្លូវខុសៗគ្នាចំពោះសំណួរនីមួយៗ។",
+   "keyPoints": [
+    "ការទាញយកទិន្នន័យបែបភ្នាក់ងារដាក់បញ្ចូលភ្នាក់ងារវិភាគដើម្បីសម្រេចចិត្តថាតើត្រូវទាញយកទិន្នន័យពីណាមួយ។",
+    "Managed Amazon Bedrock Knowledge Base គ្រប់គ្រងការផ្ទុក និងការទាញយកដោយផ្ទាល់ដោយមិនចាំបាច់បង្កើត OpenSearch Serverless ដោយឡែក។",
+    "Amazon Bedrock AgentCore ផ្តល់នូវប្រព័ន្ធដំណើរការភ្នាក់ងារ និង AgenticRetrieveStream សម្រាប់ផ្តល់ចម្លើយដែលមានការយោង។",
+    "ការដាក់ពង្រាយរួមបញ្ចូលទាំងផ្ទាំងគ្រប់គ្រង Amazon CloudWatch ចំនួនពីរ និងការវាយតម្លៃទិន្នន័យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 CDK 在托管 Amazon Bedrock Knowledge Base 上构建智能体检索",
+   "summary": "AWS 发布了一篇关于使用 AWS CDK 在 Python 中构建托管 Amazon Bedrock Knowledge Base 企业级智能体检索系统的指南。传统的检索增强生成（RAG）在处理跨多个语料库或需要多次检索循环的问题时往往会失效。通过使用 Amazon Bedrock 的托管知识库和 AgentCore，系统可以部署一个能够跨知识库路由、使用多轮规划并返回引用答案的智能体。该方案还包括内置的可观测性功能，例如 Amazon CloudWatch 仪表板和自动化评估。",
+   "impact": "采用智能体 RAG 系统的开发人员和安全团队可以利用 CDK 自动化基础设施，并借助内置的可观测性工具来跟踪智能体行为。由于智能体循环对每个问题采取不同的路径，遥测和监控对于验证系统是否正常运行变得至关重要。",
+   "keyPoints": [
+    "智能体检索通过循环中的推理智能体来决定是否检索、咨询哪个知识库以及是否需要获取更多数据。",
+    "托管的 Amazon Bedrock Knowledge Base 原生处理摄取、存储、索引和检索，无需配置单独的 OpenSearch Serverless 集合。",
+    "Amazon Bedrock AgentCore 将知识库公开为模型上下文协议工具，并使用 AgenticRetrieveStream 进行重新排序和生成引用的答案。",
+    "该部署包含跨越七层遥测的两个 Amazon CloudWatch 仪表板以及按需和持续评估。"
+   ]
+  },
+  "ko": {
+   "title": "CDK를 사용하여 Managed Amazon Bedrock Knowledge Base에 에이전트 기반 검색 구축하기",
+   "summary": "AWS는 AWS CDK를 사용하여 Managed Amazon Bedrock Knowledge Base에 기업용 에이전트 검색 시스템을 구축하는 방법을 소개했습니다. 일반적인 RAG(Retrieval-Augmented Generation) 시스템은 답변이 여러 소스에 걸쳐 있거나 여러 번의 검색 루프가 필요할 때 실패하기 쉽습니다. Amazon Bedrock의 Managed Knowledge Base와 AgentCore를 활용하면 에이전트가 지식 베이스를 라우팅하고 멀티 턴 계획을 수행하며 출처가 명시된 답변을 반환할 수 있습니다. 또한 이 솔루션은 Amazon CloudWatch 대시보드와 자동화된 평가 기능을 포함하고 있습니다.",
+   "impact": "에이전트 기반 RAG 시스템을 도입하는 개발자와 보안 팀은 CDK를 통해 인프라 배포를 자동화하고 내장된 모니터링 도구를 통해 에이전트의 동작을 추적할 수 있습니다. 에이전트 루프가 질문마다 다른 경로를 따르기 때문에 시스템이 안정적으로 작동하는지 확인하려면 원격 측정과 모니터링이 필수적입니다.",
+   "keyPoints": [
+    "에이전트 기반 검색은 추론 에이전트를 통해 검색 여부, 참조할 지식 베이스, 추가 데이터 필요성을 결정합니다.",
+    "Managed Amazon Bedrock Knowledge Base는 수집, 저장, 인덱싱 및检索을 기본적으로 처리하므로 별도의 OpenSearch Serverless 컬렉션을 프로비저닝할 필요가 없습니다.",
+    "Amazon Bedrock AgentCore는 지식 베이스를 Model Context Protocol 도구로 제공하며 AgenticRetrieveStream을 통해 재순위화 및 인용된 답변을 반환합니다.",
+    "배포에는 7개의 텔레메트리 레이어에 걸친 두 개의 Amazon CloudWatch 대시보드와 온디맨드 및 지속적 평가 기능이 포함됩니다."
+   ]
+  }
+ }
+}

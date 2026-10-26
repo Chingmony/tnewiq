@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f46e7996faa19561",
+ "contentHash": "f62f303c4a07a9bf",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T17:41:41.499Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Hugging Face Unveils Carbon-X to Read DNA and Answer Questions, Lowering Genetic Analysis Costs",
+   "summary": "Hugging Face has released an open-source AI model named Carbon-X that processes DNA sequences and natural language together to predict the effects of genetic variants and explain them in words. Based on Alibaba's Qwen3-14B, the model scored close to large general-purpose AI systems while significantly reducing inference costs. It can be run on researchers' own hardware, allowing sensitive genomic data to be analyzed without sending it to external AI services.",
+   "impact": "This development could allow researchers and developers to analyze sensitive genomic data locally, reducing privacy concerns associated with third-party AI services. The lower inference costs and open-source availability may also make genetic analysis more accessible for various institutions.",
+   "keyPoints": [
+    "Hugging Face released the open-source AI model Carbon-X, which combines DNA processing and natural language.",
+    "The model predicts the impacts of genetic variants and explains the reasoning in words.",
+    "It achieved scores close to large general-purpose AIs while lowering inference costs.",
+    "Researchers can run it on their own hardware to keep sensitive genomic data private."
+   ]
+  },
+  "km": {
+   "title": "Hugging Face ដាក់បង្ហាញ Carbon-X ដែលអាចអាន DNA និងឆ្លើយសំណួរ ដើម្បីកាត់បន្ថយការចំណាយលើការវិភាគហ្សែន",
+   "summary": "Hugging Face បានដាក់ឱ្យប្រើប្រាស់ជាប្រភពបើកចំហនូវម៉ូដែល AI ឈ្មោះថា Carbon-X ដែលដំណើរការលំដាប់ DNA និងភាសាធម្មជាតិជាមួយគ្នា ដើម្បីទស្សន៍ទាយផលប៉ះពាល់នៃបម្រែបម្រួលហ្សែន។ ម៉ូដែលនេះទទួលបានពិន្ទុជិតស្និទ្ធនឹង AI ទូទៅខ្នាតធំ ខណៈពេលដែលកាត់បន្ថយការចំណាយលើការសន្និដ្ឋានយ៉ាងខ្លាំង។ អ្នកស្រាវជ្រាវអាចដំណើរការវានៅលើឧបករណ៍ផ្ទាល់ខ្លួន ដែលជួយឱ្យពួកគេវិភាគទិន្នន័យហ្សែនដែលមានភាពរសើបដោយមិនចាំបាច់ផ្ញើវាទៅសេវាកម្ម AI ខាងក្រៅឡើយ។",
+   "impact": "ការអភិវឌ្ឍនេះអាចជួយឱ្យអ្នកស្រាវជ្រាវនិងអ្នកអភិវឌ្ឍន៍វិភាគទិន្នន័យហ្សែនរសើបក្នុងស្រុក ដែលអាចកាត់បន្ថយបញ្ហាបារម្ភផ្នែកភាពឯកជន។ ការកាត់បន្ថយការចំណាយក៏អាចធ្វើឱ្យការវិភាគហ្សែនងាយស្រួលទទួលបានផងដែរ។",
+   "keyPoints": [
+    "Hugging Face បានបញ្ចេញម៉ូដែល AI ប្រភពបើកចំហ Carbon-X។",
+    "វាអាចព្យាករណ៍ផលប៉ះពាល់នៃបម្រែបម្រួលហ្សែន និងពន្យល់ជាពាក្យសម្ដី។",
+    "វាទទួលបានពិន្ទុជិតនឹង AI ទូទៅខ្នាតធំ និងកាត់បន្ថយការចំណាយ។",
+    "អ្នកស្រាវជ្រាវអាចដំណើរការវាលើឧបករណ៍ផ្ទាល់ខ្លួនដើម្បីការពារទិន្នន័យហ្សែន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Hugging Face发布可读取DNA并回答问题的Carbon-X，旨在降低基因分析成本",
+   "summary": "Hugging Face开源了一款名为Carbon-X的AI模型，能够将DNA序列与自然语言结合处理，预测基因变异的影响并用语言解释原因。该模型在自身评估中接近大型通用AI的分数，同时大幅降低了推理成本。由于研究人员可以在自己的设备上运行它，因此可以在不将敏感基因组数据发送给外部AI服务的情况下进行分析。",
+   "impact": "这一进展可能会让开发人员和研究人员在本地分析敏感的基因组数据，从而降低将数据发送给第三方服务的隐私担忧。更低的推理成本和开源特性也可能使更多的机构能够进行基因分析。",
+   "keyPoints": [
+    "Hugging Face开源了能够同时处理DNA和自然语言的Carbon-X模型。",
+    "该模型可以预测基因变异的影响并用语言解释。",
+    "其推理成本大幅降低，且得分接近大型通用AI。",
+    "研究人员可在自有设备上运行，保护敏感基因组数据不外泄。"
+   ]
+  },
+  "ko": {
+   "title": "허깅페이스, DNA 읽고 질문에 답하는 ‘카본-X’ 공개…유전자 분석 비용 낮춘다",
+   "summary": "허깅페이스가 DNA 서열과 자연어를 함께 처리하여 유전자 변이의 영향을 예측하고 그 이유를 설명하는 오픈소스 AI 모델 '카본-X'를 공개했다. 자체 평가에서 대형 범용 AI에 근접한 점수를 기록하면서 추론 비용을 크게 낮춘 것이 특징이다. 연구자가 자체 장비에서 직접 실행할 수 있어 민감한 유전체 데이터를 외부 AI 서비스에 전송하지 않고도 분석이 가능하다.",
+   "impact": "이번 공개로 개발자와 연구원들은 민감한 유전체 데이터를 자체 장비에서 안전하게 분석할 수 있게 되어 외부 서비스 이용에 따른 보안 우려를 줄일 수 있다. 또한 낮아진 추론 비용과 오픈소스 제공을 통해 유전자 분석의 접근성이 향상될 수 있다.",
+   "keyPoints": [
+    "허깅페이스가 DNA와 자연어를 함께 처리하는 오픈소스 AI 모델 카본-X를 공개함.",
+    "유전자 변이의 영향을 예측하고 그 이유를 말로 설명하는 기능을 제공함.",
+    "대형 범용 AI에 근접한 점수를 기록하면서도 추론 비용을 크게 낮춤.",
+    "연구자가 자체 장비에서 실행하여 민감한 유전체 데이터를 보호할 수 있음."
+   ]
+  }
+ }
+}

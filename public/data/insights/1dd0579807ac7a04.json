@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1dd0579807ac7a04",
+ "contentHash": "034e5b100f49e691",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T17:32:29.061Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Connect Customer now lets you view metrics by customer lifetime value and repeat-caller status",
+   "summary": "Amazon Connect Customer now allows users to view metrics segmented by customer lifetime value (LTV) and repeat-caller status. This feature helps identify trends in specific groups before they appear in aggregate data. Users can take targeted action based on segment performance.",
+   "impact": "Security teams, developers, and technology users managing customer service operations may use these metrics to spot underperforming groups and route high-LTV customers to effective agents. They can also adjust knowledge bases and self-service flows for repeat callers.",
+   "keyPoints": [
+    "View metrics by customer lifetime value and repeat-caller status.",
+    "Spot groups trending the wrong way before they show in aggregate.",
+    "Route high-LTV customers to effective agents.",
+    "Adjust knowledge bases and self-service flows for repeat callers."
+   ]
+  },
+  "km": {
+   "title": "Amazon Connect Customer ឥឡូវនេះអនុញ្ញាតឱ្យអ្នកមើលរង្វាស់តាមតម្លៃពេញមួយជីវិតរបស់អតិថិជន និងស្ថានភាពអ្នកហៅចូលម្តងទៀត",
+   "summary": "Amazon Connect Customer ឥឡូវនេះអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់មើលរង្វាស់ដែលបានបែងចែកតាមតម្លៃពេញមួយជីវិតរបស់អតិថិជន និងស្ថានភាពអ្នកហៅចូលម្តងទៀត។ លក្ខណៈពិសេសនេះជួយកំណត់អត្តសញ្ញាណនិន្នាការក្នុងក្រុមជាក់លាក់មុនពេលពួកវាបង្ហាញនៅក្នុងទិន្នន័យសរុប។ អ្នកប្រើប្រាស់អាចចាត់វិធានការគោលដៅដោយផ្អែកលើដំណើរការផ្នែក។",
+   "impact": "ក្រុមសន្តិសុខ អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលគ្រប់គ្រងប្រតិបត្តិការសេវាកម្មអតិថិជនអាចប្រើប្រាស់រង្វាស់ទាំងនេះដើម្បីរកមើលក្រុមដែលមានដំណើរការមិនសូវល្អ និងបញ្ជូនអតិថិជនដែលមានតម្លៃខ្ពស់ទៅកាន់ភ្នាក់ងារមានប្រសិទ្ធភាព។ ពួកវាក៏អាចកែសម្រួលមូលដ្ឋានចំណេះដឹង និងលំហូរស្វ័យសេវាសម្រាប់អ្នកហៅចូលម្តងទៀតផងដែរ។",
+   "keyPoints": [
+    "មើលរង្វាស់តាមតម្លៃពេញមួយជីវិតរបស់អតិថិជន និងស្ថានភាពអ្នកហៅចូលម្តងទៀត។",
+    "ស្វែងរកក្រុមដែលមាននិន្នាការខុសមុនពេលបង្ហាញសរុប។",
+    "បញ្ជូនអតិថិជនតម្លៃខ្ពស់ទៅកាន់ភ្នាក់ងារមានប្រសិទ្ធភាព។",
+    "កែសម្រួលមូលដ្ឋានចំណេះដឹង និងលំហូរស្វ័យសេវាសម្រាប់អ្នកហៅចូលម្តងទៀត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Connect Customer 现在允许按客户生命周期价值和重复呼叫者状态查看指标",
+   "summary": "Amazon Connect Customer 现在允许用户按客户生命周期价值（LTV）和重复呼叫者状态查看细分指标。此功能有助于在总体数据中显现之前发现特定群体的趋势。用户可以根据细分表现采取有针对性的行动。",
+   "impact": "管理客户服务运营的安全团队、开发人员和技术用户可以使用这些指标来发现表现不佳的群体，并将高 LTV 客户路由到最有效的代理。他们还可以为重复呼叫者调整知识库和自助服务流程。",
+   "keyPoints": [
+    "按客户生命周期价值和重复呼叫者状态查看指标。",
+    "在聚合数据显现之前发现走错方向的群体趋势。",
+    "将高 LTV 客户路由至最有效的代理人员。",
+    "为重复呼叫者调整知识库和自助服务流程。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Connect Customer에서 이제 고객 평생 가치 및 재발신자 상태별로 지표를 볼 수 있습니다.",
+   "summary": "Amazon Connect Customer를 통해 사용자는 이제 고객 평생 가치(LTV) 및 재발신자 상태별로 세분화된 지표를 볼 수 있습니다. 이 기능을 사용하면 전체 데이터에 나타나기 전에 특정 그룹의 추세를 파악할 수 있습니다. 사용자는 세그먼트 성과에 따라 목표 조치를 취할 수 있습니다.",
+   "impact": "고객 서비스 운영을 관리하는 보안 팀, 개발자 및 기술 사용자는 이러한 지표를 사용하여 성과가 저조한 그룹을 파악하고 높은 LTV 고객을 효과적인 상담원에게 라우팅할 수 있습니다. 또한 재발신자를 위한 지식 베이스와 셀프 서비스 흐름을 조정할 수 있습니다.",
+   "keyPoints": [
+    "고객 평생 가치 및 재발신자 상태별 지표 확인 가능.",
+    "전체 데이터에 나타나기 전에 잘못된 방향으로 추세가 흐르는 그룹 파악.",
+    "높은 LTV 고객을 가장 효과적인 상담원에게 라우팅.",
+    "재발신자를 위한 지식 베이스 및 셀프 서비스 흐름 조정."
+   ]
+  }
+ }
+}

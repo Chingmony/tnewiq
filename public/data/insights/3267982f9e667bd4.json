@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3267982f9e667bd4",
+ "contentHash": "2e0b314d7dd2e3cb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T17:38:06.562Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Backpropagation-free AI training experiment speeds up 4,000 times in ten days, from 1.76 hours to 1.6 seconds",
+   "summary": "In an open experiment training language models without backpropagation, the time to reach target performance dropped from 1.76 hours to 1.6 seconds over ten days. This improvement was achieved by the open-source community through enhancements to the training algorithm and GPU computation methods. Q Labs recently disclosed the results of the open-source project Noise, noting a speed increase of about 4,000 times from initial records using a small GPT model with 37.7 million parameters.",
+   "impact": "This development may demonstrate significant improvement potential for alternative training methods, though it does not yet provide a direct speed comparison with traditional backpropagation. Developers and researchers working on language models could find these algorithmic and GPU computation improvements useful for exploring faster training approaches.",
+   "keyPoints": [
+    "Target performance training time dropped from 1.76 hours to 1.6 seconds in ten days.",
+    "The open-source project Noise achieved about a 4,000-fold speed improvement.",
+    "Improvements were made to the training algorithm and GPU computation methods by the open-source community.",
+    "The experiment involved a small GPT model with 37.7 million parameters."
+   ]
+  },
+  "km": {
+   "title": "ការពិសลองបណ្តុះបណ្តាល AI ដែលគ្មានការផ្សព្វផ្សាយថយក្រោយ កើនឡើងល្បឿន ៤០០០ ដងក្នុងរយៈពេលដប់ថ្ងៃ ពី ១,៧៦ ម៉ោង មកនៅត្រឹម ១,៦ វិនាទី",
+   "summary": "នៅក្នុងការពិសลองជាសាធារណៈនៃការបណ្តុះបណ្តាលម៉ូដែលភាសាដោយគ្មានការផ្សព្វផ្សាយថយក្រោយ ពេលវេលាដើម្បីឈានដល់ដំណើរការគោលដៅបានថយចុះពី ១,៧៦ ម៉ោង មកត្រឹម ១,៦ វិនាទីក្នុងរយៈពេលដប់ថ្ងៃ។ វឌ្ឍនភាពនេះកើតចេញពីការកែលម្អក្បួនដោះស្រាយការបណ្តុះបណ្តាល និងវិធីសាស្ត្រគណនា GPU ដោយសហគមន៍ប្រភពបើកចំហ។ ក្រុមហ៊ុន Q Labs បានបង្ហាញពីលទ្ធផលនៃគម្រោងប្រភពបើកចំហ Noise ដោយបញ្ជាក់ថាមានការកើនឡើងល្បឿនប្រហែល ៤០០០ ដង បើធៀបនឹងកំណត់ត្រាដំបូង។",
+   "impact": "ការវិវត្តនេះអាចបង្ហាញពីសក្តានុពលនៃការកែលម្អសម្រាប់វិធីសាស្ត្របណ្តុះបណ្តាលជំនួស ទោះបីជាវាមិនទាន់ផ្តល់នូវការប្រៀបធៀបល្បឿនផ្ទាល់ជាមួយការបណ្តុះបណ្តាលតាមបែបប្រពៃណីក៏ដោយ។ អ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវអាចទាញយកការយល់ដឹងពីការកែលម្អក្បួនដោះស្រាយទាំងនេះសម្រាប់ការស្វែងរកវិធីសាស្ត្របណ្តុះបណ្តាលលឿនជាងមុន។",
+   "keyPoints": [
+    "ពេលវេលាបណ្តុះបណ្តាលបានធ្លាក់ចុះពី ១,៧៦ ម៉ោង មកនៅត្រឹម ១,៦ វិនាទីក្នុងរយៈពេលដប់ថ្ងៃ។",
+    "គម្រោងប្រភពបើកចំហ Noise សម្រេចបានការកើនឡើងល្បឿនប្រហែល ៤០០០ ដង។",
+    "សហគមន៍ប្រភពបើកចំហបានធ្វើឱ្យប្រសើរឡើងនូវក្បួនដោះស្រាយ និងវិធីសាស្ត្រគណនា GPU។",
+    "ការពិសោធន៍បានប្រើប្រាស់ម៉ូដែល GPT ខ្នាតតូចដែលមានប៉ារ៉ាម៉ែត្រ ៣៧,៧ លាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "无反向传播AI训练实验十天内提速4000倍，从1.76小时缩短至1.6秒",
+   "summary": "在一项无反向传播语言模型训练的公开实验中，达到目标性能的时间在十天内从1.76小时缩短至1.6秒。这是开源社区改进训练算法和GPU计算方式的结果。Q Labs最近公开了开源项目Noise的成果，宣布相比初期记录实现了约4000倍的速度提升。",
+   "impact": "尽管该数据并非与传统反向传播速度的直接对比，但这项成果展示了新型训练方式的改进潜力。开发人员和研究人员可能会关注这些算法和GPU计算的优化，以探索更高效的训练方法。",
+   "keyPoints": [
+    "达到目标性能的时间在十天内从1.76小时缩短至1.6秒。",
+    "开源项目Noise实现了约4000倍的速度提升。",
+    "开源社区对训练算法和GPU计算方式进行了改进。",
+    "实验涉及拥有3770万参数的小型GPT模型。"
+   ]
+  },
+  "ko": {
+   "title": "역전파 없는 AI 학습 실험, 열흘 만에 4000배 빨라져…1.76시간→1.6초",
+   "summary": "역전파 없이 언어모델을 학습하는 공개 실험에서 목표 성능에 도달하는 시간이 열흘 만에 1.76시간에서 1.6초로 줄어들었다. 이는 오픈소스 커뮤니티가 학습 알고리즘과 GPU 연산 방식을 개선한 결과이다. Q랩스는 최근 오픈소스 프로젝트 노이즈의 성과를 공개하며 초기 기록에서 약 4000배의 속도 향상을 이뤘다고 밝혔다.",
+   "impact": "기존 역전파 학습과의 직접적인 속도 비교는 아니지만 새로운 학습 방식의 개선 가능성을 보여준 성과이다. 개발자와 연구팀은 이러한 알고리즘 및 연산 방식 개선을 통해 더 빠른 학습 접근 방식을 모색하는 데 참고할 수 있다.",
+   "keyPoints": [
+    "목표 성능 도달 시간이 열흘 만에 1.76시간에서 1.6초로 단축됨.",
+    "오픈소스 프로젝트 노이즈를 통해 초기 기록 대비 약 4000배 속도 향상 달성.",
+    "오픈소스 커뮤니티의 학습 알고리즘 및 GPU 연산 방식 개선 결과임.",
+    "매개변수 3770만 개의 소형 GPT 모델을 대상으로 실험이 진행됨."
+   ]
+  }
+ }
+}

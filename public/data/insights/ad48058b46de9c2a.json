@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ad48058b46de9c2a",
+ "contentHash": "c6e41e042f43df80",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T17:28:36.171Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How NVIDIA Minerva Turns Telemetry Chaos Into Peak GPU Yield",
+   "summary": "AI Factories represent some of the most technologically complex operational environments, featuring hundreds of thousands of GPUs alongside NVIDIA Spectrum-X Ethernet and NVIDIA NVLink fabrics. Distributed schedulers and multi-week training runs operate in continuous lockstep across these systems. Different teams may own separate layers, but they all function as a single production system.",
+   "impact": "Understanding how these complex AI factory environments are managed could help developers and technology users grasp how large-scale GPU operations maintain synchronization and performance.",
+   "keyPoints": [
+    "AI Factories involve hundreds of thousands of GPUs.",
+    "Systems use NVIDIA Spectrum-X Ethernet and NVIDIA NVLink fabrics.",
+    "Distributed schedulers and multi-week training runs operate in continuous lockstep."
+   ]
+  },
+  "km": {
+   "title": "តើ NVIDIA Minerva ប្រែក្លាយភាពវឹកវរនៃទិន្នន័យទូរគមនាគមន៍ ទៅជាទិន្នផល GPU កម្រិតខ្ពស់យ៉ាងដូចម្តេច",
+   "summary": "រោងចក្រ AI គឺជាបរិយាកាសប្រតិបត្តិការដែលមានភាពស្មុគស្មាញបច្ចេកវិទ្យាបំផុតមួយ ដែលមាន GPU រាប់រយពាន់គ្រឿង រួមជាមួយនឹងបណ្តាញ NVIDIA Spectrum-X Ethernet និង NVIDIA NVLink ។ កម្មវិធីកំណត់ពេលចែកចាយ និងដំណើរការបណ្តុះបណ្តាលរយៈពេលច្រើនសប្តាហ៍ដំណើរការស្របគ្នាយ៉ាងជាប់លាប់។ ស្រទាប់ទាំងនេះដំណើរការជាប្រព័ន្ធផលិតកម្មតែមួយ ទោះបីជាក្រុមផ្សេងគ្នាជាម្ចាស់វាក៏ដោយ។",
+   "impact": "ការយល់ដឹងពីរបៀបដែលបរិយាកាសរោងចក្រ AI ដ៏ស្មុគស្មាញទាំងនេះត្រូវបានគ្រប់គ្រង អាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាយល់ពីរបៀបដែលប្រតិបត្តិការ GPU ខ្នាតធំរក្សាការធ្វើសមកាលកម្ម និងដំណើរការ។",
+   "keyPoints": [
+    "រោងចក្រ AI ពាក់ព័ន្ធនឹង GPU រាប់រយពាន់គ្រឿង។",
+    "ប្រព័ន្ធប្រើប្រាស់បណ្តាញ NVIDIA Spectrum-X Ethernet និង NVIDIA NVLink ។",
+    "កម្មវិធីកំណត់ពេលចែកចាយ និងដំណើរការបណ្តុះបណ្តាលរយៈពេលច្រើនសប្តាហ៍ដំណើរការស្របគ្នាយ៉ាងជាប់លាប់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "NVIDIA Minerva 如何将遥测混乱转化为峰值 GPU 良率",
+   "summary": "AI 工厂是有史以来技术最复杂的运营环境之一，拥有数十万个 GPU 以及 NVIDIA Spectrum-X Ethernet 和 NVIDIA NVLink 结构。分布式调度程序和数周的训练运行在这些系统中保持持续同步。即使不同的团队拥有不同的层，这些层也作为一个生产系统运行。",
+   "impact": "了解如何管理这些复杂的 AI 工厂环境可以帮助开发人员和技术人员了解大规模 GPU 运营如何保持同步和性能。",
+   "keyPoints": [
+    "AI 工厂涉及数十万个 GPU。",
+    "系统使用 NVIDIA Spectrum-X Ethernet 和 NVIDIA NVLink 结构。",
+    "分布式调度程序和数周的训练运行在持续同步中操作。"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA Minerva가 텔레메트리 혼란을 최고 GPU 수율로 전환하는 방법",
+   "summary": "AI 팩토리는 수십만 개의 GPU와 NVIDIA Spectrum-X Ethernet 및 NVIDIA NVLink 패브릭을 갖춘 기술적으로 가장 복잡한 운영 환경 중 하나입니다. 분산 스케줄러와 몇 주 동안 지속되는 학습 실행이 이러한 시스템 전체에서 지속적으로 맞물려 작동합니다. 서로 다른 팀이 각 레이어를 소유하더라도 이 레이어들은 하나의 생산 시스템으로 작동합니다.",
+   "impact": "이러한 복잡한 AI 팩토리 환경이 관리되는 방식을 이해하면 개발자와 기술 사용자가 대규모 GPU 운영에서 동기화와 성능을 유지하는 방법을 파악하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "AI 팩토리에는 수십만 개의 GPU가 포함됩니다.",
+    "시스템은 NVIDIA Spectrum-X Ethernet 및 NVIDIA NVLink 패브릭을 사용합니다.",
+    "분산 스케줄러와 몇 주간의 학습 실행이 지속적인 맞물림 속에서 작동합니다."
+   ]
+  }
+ }
+}
