@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "33f7736e74631c3e",
+ "contentHash": "e1df5c7163a61fcc",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T02:42:13.274Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+   "summary": "A security researcher revealed that a single compromised device on a Tailscale network can achieve root access on other reachable servers. The attack depends on Tailscale SSH being configured to allow port forwarding and an attacker controlling a device permitted by access rules to connect to the target.",
+   "impact": "Security teams and technology users relying on Tailscale SSH with port forwarding enabled may face risks if a connected device is compromised. This finding highlights potential security considerations when configuring network access rules.",
+   "keyPoints": [
+    "A hacked device on a Tailscale network can gain root access to other servers.",
+    "The attack requires Tailscale SSH to be set up to allow port forwarding.",
+    "The attacker must control a device that network rules already permit to connect to the target."
+   ]
+  },
+  "km": {
+   "title": "ចំណុចខ្វះចន្លោះ Tailscale SSH ដែលមិនទាន់បានជួសជុលអាចអនុញ្ញាតឱ្យឧបករណ៍ដែលຖືກ හැក ទទួលបានសិទ្ធិ root លើម៉ាស៊ីនបម្រើផ្សេងទៀត",
+   "summary": "អ្នកស្រាវជ្រាវផ្នែកសន្តិសុខម្នាក់បានរកឃើញថា ឧបករណ៍តែមួយដែលរងការវាយប្រហារនៅលើបណ្តាញ Tailscale អាចត្រូវបានប្រើដើម្បីទទួលបានសិទ្ធិ root ទៅលើម៉ាស៊ីនបម្រើផ្សេងទៀតដែលវាអាចតភ្ជាប់ទៅបាន។ ការវាយប្រហារនេះទាមទារលក្ខខណ្ឌពីរគឺ Tailscale SSH ត្រូវបានកំណត់រចនាសម្ព័ន្ធឱ្យអនុញ្ញាតការបញ្ជូនបន្តរន្ធ និងអ្នកវាយប្រហារដែលគ្រប់គ្រងឧបករណ៍រួចជាស្រេចដើម្បីតភ្ជាប់ទៅកាន់គោលដៅ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលអាចប្រើប្រាស់ Tailscale SSH អាចប្រឈមមុខនឹងហានិភ័យ ប្រសិនបើឧបករណ៍ដែលបានតភ្ជាប់ត្រូវបានសម្របសម្រួល។ នេះអាចជាការព្រមានមួយដើម្បីពិនិត្យមើលការកំណត់រចនាសម្ព័ន្ធសិទ្ធិរបស់បណ្តាញ។",
+   "keyPoints": [
+    "ឧបករណ៍ដែលត្រូវបាន හැកនៅលើបណ្តាញ Tailscale អាចទទួលបានសិទ្ធិ root លើម៉ាស៊ីនបម្រើផ្សេងទៀត។",
+    "ការវាយប្រហារទាមទារឱ្យ Tailscale SSH អនុញ្ញាតការបញ្ជូនបន្តរន្ធ។",
+    "អ្នកវាយប្រហារត្រូវតែគ្រប់គ្រងឧបករណ៍ដែលច្បាប់បណ្តាញអនុញ្ញាតឱ្យតភ្ជាប់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "未修补的 Tailscale SSH 漏洞可能让遭黑客入侵的设备获取其他服务器的 root 权限",
+   "summary": "一名安全研究人员发布的研究结果显示，Tailscale 网络上单个被黑客入侵的设备可用于获取其可达的其他服务器的 root 访问权限。该攻击需要满足两个条件：Tailscale SSH 设置为允许端口转发，以及攻击者已经控制了一台网络访问规则允许连接到目标的设备。",
+   "impact": "依赖并启用了端口转发功能的 Tailscale SSH 用户和安全团队可能会面临潜在风险，如果连接的设备遭到破坏。这凸显了在配置网络访问规则时需要谨慎考虑安全问题。",
+   "keyPoints": [
+    "Tailscale 网络上被黑客入侵的设备可以获取其他服务器的 root 访问权限。",
+    "该攻击需要 Tailscale SSH 配置为允许端口转发。",
+    "攻击者必须控制一台网络规则允许连接到目标服务器的设备。"
+   ]
+  },
+  "ko": {
+   "title": "패치되지 않은 Tailscale SSH 결함으로 해킹된 기기가 다른 서버의 root 권한을 획득할 수 있음",
+   "summary": "보안 연구원의 발표에 따르면 Tailscale 네트워크 상의 단일 해킹된 기기를 이용해 접근 가능한 다른 서버의 root 권한을 획득할 수 있습니다. 이 공격에는 포트 포워딩을 허용하도록 설정된 Tailscale SSH와, 네트워크 접근 규칙에 따라 대상에 연결할 수 있는 기기를 이미 제어하고 있는 공격자라는 두 가지 조건이 필요합니다.",
+   "impact": "포트 포워딩이 활성화된 Tailscale SSH를 사용하는 보안 팀과 기술 사용자는 연결된 기기가 손상될 경우 위험에 직면할 수 있습니다. 이는 네트워크 접근 규칙을 설정할 때 잠재적인 보안 요소를 고려해야 함을 시사합니다.",
+   "keyPoints": [
+    "Tailscale 네트워크의 해킹된 기기가 다른 서버에 대한 root 권한을 획득할 수 있습니다.",
+    "공격에는 Tailscale SSH가 포트 포워딩을 허용하도록 설정되어 있어야 합니다.",
+    "공격자는 네트워크 규칙에 따라 대상에 연결이 허용된 기기를 제어해야 합니다."
+   ]
+  }
+ }
+}

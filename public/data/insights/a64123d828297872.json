@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a64123d828297872",
+ "contentHash": "c9a02c27e2f74e0c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T02:43:48.737Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+   "summary": "A memory-corruption flaw in Google's Brotli decoder, tracked as CVE-2026-111497, impacts various software programs that unpack Brotli-compressed data. The affected programs include Bun, the Python Brotli and brotlicffi packages, and Envoy proxies configured to decompress Brotli. This vulnerability allows crafted compressed data to overwrite past the end of a buffer and corrupt program memory.",
+   "impact": "Security teams and developers using affected software such as Bun, Python packages, or Envoy proxies may need to update their components to address the memory-corruption flaw. The vulnerability could potentially be exploited using crafted compressed data to corrupt memory.",
+   "keyPoints": [
+    "A memory-corruption flaw exists in Google's Brotli decoder.",
+    "The vulnerability is tracked as CVE-2026-111497.",
+    "Affected software includes Bun, Python Brotli and brotlicffi packages, and Envoy proxies.",
+    "Crafted compressed data can overwrite past a buffer end and corrupt memory."
+   ]
+  },
+  "km": {
+   "title": "ពិការភាពឌិកូដ Brotli ដែលនៅពីក្រោយ Node.js RCE ក៏ប៉ះពាល់ដល់ Bun, Python និងកម្មវិធីផ្សេងទៀតដែលត្រូវបានប្រើប្រាស់យ៉ាងទូលំទូលាយ",
+   "summary": "ពិការភាពខូចខាតអង្គចងចាំនៅក្នុងឌិកូដ Brotli របស់ Google ដែលមានលេខសម្គាល់ CVE-2026-111497 ប៉ះពាល់ដល់កម្មវិធីជាច្រើនដែលស្រាយទិន្នន័យបានបង្ហាប់ដោយ Brotli។ កម្មវិធីដែលរងផលប៉ះពាល់រួមមាន Bun, កញ្ចប់ Python Brotli និង brotlicffi និង Envoy proxies ដែលបានរៀបចំដើម្បីពន្លាតទិន្នន័យ Brotli។ ភាពងាយរងគ្រោះនេះអនុញ្ញាតឱ្យទិន្នន័យបានបង្ហាប់ដែលបានបង្កើតឡើងសរសេរលើសពីចុងបញ្ចប់នៃប៊ុយហ្វឺ និងធ្វើឱ្យអង្គចងចាំរបស់កម្មវិធីខូចខាត។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍ដែលប្រើប្រាស់កម្មវិធីដែលរងផលប៉ះពាល់អាចត្រូវធ្វើបច្ចុប្បន្នភាពសមាសភាគរបស់ពួកគេដើម្បីដោះស្រាយបញ្ហាខូចខាតអង្គចងចាំនេះ។ ភាពងាយរងគ្រោះនេះអាចត្រូវបានកេងប្រវ័ញ្ចដោយប្រើប្រាស់ទិន្នន័យបានបង្ហាប់ដើម្បីបង្កការខូចខាតដល់អង្គចងចាំ។",
+   "keyPoints": [
+    "ពិការភាពខូចខាតអង្គចងចាំមាននៅក្នុងឌិកូដ Brotli របស់ Google។",
+    "ភាពងាយរងគ្រោះនេះត្រូវបានតាមដានក្រោមលេខ CVE-2026-111497។",
+    "កម្មវិធីដែលរងផលប៉ះពាល់រួមមាន Bun, កញ្ចប់ Python Brotli និង brotlicffi ក៏ដូចជា Envoy proxies។",
+    "ទិន្នន័យដែលបានបង្ហាប់អាចសរសេរលើសប៊ុយហ្វឺនិងធ្វើឱ្យអង្គចងចាំខូចខាត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "导致Node.js RCE的Brotli解码器缺陷同样影响Bun、Python及其他广泛使用的软件",
+   "summary": "Google的Brotli解码器中存在一个内存损坏缺陷，该缺陷被追踪为CVE-2026-111497，影响了许多解压Brotli压缩数据的程序。受影响的程序包括Bun、Python的Brotli和brotlicffi软件包，以及设置为解压Brotli的Envoy代理。该漏洞允许精心构造的压缩数据溢出缓冲区末尾并损坏程序的内存。",
+   "impact": "使用受影响软件（如Bun、Python软件包或Envoy proxies）的开发人员和安全团队可能需要更新其组件以解决此内存损坏漏洞。该漏洞可能会被利用来通过精心构造的压缩数据损坏内存。",
+   "keyPoints": [
+    "Google的Brotli解码器中存在内存损坏缺陷。",
+    "该漏洞追踪编号为CVE-2026-111497。",
+    "受影响软件包括Bun、Python Brotli与brotlicffi软件包以及Envoy proxies。",
+    "精心构造的压缩数据可以越过缓冲区末尾并损坏内存。"
+   ]
+  },
+  "ko": {
+   "title": "Node.js RCE의 원인인 Brotli 디코더 결함이 Bun, Python 및 기타 널리 사용되는 소프트웨어에도 영향",
+   "summary": "CVE-2026-111497로 추적되는 Google의 Brotli 디코더 내 메모리 손상 결함이 Brotli 압축 데이터를 압축 해제하는 여러 프로그램에 영향을 미칩니다. 영향을 받는 프로그램에는 Bun, Python Brotli 및 brotlicffi 패키지, 그리고 Brotli 압축을 해제하도록 설정된 Envoy 프록시가 포함됩니다. 이 취약점은 조작된 압축 데이터가 버퍼의 끝을 넘어 덮어쓰고 프로그램의 메모리를 손상시키도록 허용합니다.",
+   "impact": "Bun, Python 패키지 또는 Envoy 프록시와 같은 영향을 받는 소프트웨어를 사용하는 개발자와 보안 팀은 이 메모리 손상 결함을 해결하기 위해 구성 요소를 업데이트해야 할 수 있습니다. 이 취약점은 조작된 압축 데이터를 사용하여 메모리를 손상시키는 데 악용될 수 있습니다.",
+   "keyPoints": [
+    "Google의 Brotli 디코더에서 메모리 손상 결함이 발견되었습니다.",
+    "해당 취약점은 CVE-2026-111497로 추적됩니다.",
+    "영향을 받는 소프트웨어에는 Bun, Python Brotli 및 brotlicffi 패키지, Envoy 프록시가 포함됩니다.",
+    "조작된 압축 데이터는 버퍼 끝을 넘어 메모리를 손상시킬 수 있습니다."
+   ]
+  }
+ }
+}

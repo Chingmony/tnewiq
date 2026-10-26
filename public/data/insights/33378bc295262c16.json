@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "33378bc295262c16",
+ "contentHash": "09d27e8f5adda882",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T02:42:52.493Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "A 10 MB desktop AI client: Replacing Electron with Cangjie and system WebView",
+   "summary": "A developer has created a desktop framework using Huawei's Cangjie programming language, producing binary sizes between 4.7 and 10 MB. Named cj-tauri, the project operates similarly to Tauri by using web technologies for the frontend, a native binary for the backend, an IPC bridge, and the system's native WebView. The source code is available under the MIT license.",
+   "impact": "This approach could offer developers an alternative to Electron for building lightweight desktop applications with significantly smaller file sizes. Security teams and users might benefit from reduced resource consumption, though adoption depends on the maturity of the Cangjie ecosystem.",
+   "keyPoints": [
+    "The project is called cj-tauri, a Cangjie version of Tauri.",
+    "Binary output sizes range from 4.7 to 10 MB.",
+    "It uses the system WebView, such as Windows WebView2.",
+    "The repository is licensed under the MIT license."
+   ]
+  },
+  "km": {
+   "title": "កម្មវិធីកុំព្យូទ័រ AI ទំហំ 10 MB៖ ការប្រើប្រាស់ Cangjie និង WebView ប្រព័ន្ធជំនួស Electron",
+   "summary": "អ្នកអភិវឌ្ឍន៍ម្នាក់បានបង្កើតក្របខ័ណ្ឌកម្មវិធីកុំព្យូទ័រដោយប្រើភាសា Cangjie របស់ Huawei ដោយបង្កើតទំហំឯកសារពី 4.7 ដល់ 10 MB ។ គម្រោងនេះមានឈ្មោះថា cj-tauri ដែលដំណើរការស្រដៀងនឹង Tauri ដោយប្រើប្រាស់បច្ចេកវិទ្យា Web សម្រាប់ផ្នែកខាងមុខ និង binary ដើមសម្រាប់ផ្នែកខាងក្រោយ។ វាប្រើប្រាស់ WebView របស់ប្រព័ន្ធ និងមានកូដប្រភពក្រោមអាជ្ញាប័ណ្ណ MIT ។",
+   "impact": "វិធីសាស្ត្រនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវជម្រើសជំនួស Electron សម្រាប់ការបង្កើតកម្មវិធីកុំព្យូទ័រដែលមានទំហំស្រាលជាងមុន។ ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់អាចទទួលបានអត្ថប្រយោជន៍ពីការប្រើប្រាស់ធនធានតិចតួច។",
+   "keyPoints": [
+    "គម្រោងនេះមានឈ្មោះថា cj-tauri ។",
+    "ទំហំលទ្ធផលមានចាប់ពី 4.7 ដល់ 10 MB ។",
+    "វាប្រើប្រាស់ប្រព័ន្ធ WebView ផ្ទាល់ខ្លួនដូចជា Windows WebView2 ។",
+    "កូដប្រភពត្រូវបានចេញផ្សាយក្រោមអាជ្ញាប័ណ្ណ MIT ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "10 MB 的桌面 AI 客户端：用仓颉 + 系统 WebView 替代 Electron",
+   "summary": "有开发者使用华为仓颉编写了一个桌面框架，产物大小在 4.7 到 10 MB 之间。该项目名为 cj-tauri，其思路与 Tauri 类似，前端使用 Web，后端为原生二进制，中间通过 IPC 桥和能力白名单连接，并使用系统自带的 WebView。项目代码基于 MIT 协议开源。",
+   "impact": "这种方法可能为开发者提供了一种替代 Electron 的轻量级桌面应用开发方案，文件体积显著减小。技术人员和用户可能会受益于更低的资源消耗，不过具体效果仍取决于仓颉生态系统的发展。",
+   "keyPoints": [
+    "项目名称为 cj-tauri，即仓颉版 Tauri。",
+    "生成产物大小为 4.7 至 10 MB。",
+    "采用系统自带的 WebView，如 Windows WebView2。",
+    "仓库采用 MIT 开源许可证。"
+   ]
+  },
+  "ko": {
+   "title": "10 MB 데스크톱 AI 클라이언트: Cangjie와 시스템 WebView로 Electron 대체",
+   "summary": "한 개발자가 화웨이의 Cangjie 언어를 사용하여 4.7~10 MB 크기의 데스크톱 프레임워크를 개발했습니다. cj-tauri라는 이름의 이 프로젝트는 Tauri와 유사한 방식으로 동작하며, 프론트엔드는 웹 기술을 사용하고 백엔드는 네이티브 바이너리를 사용하며 IPC 브리지와 시스템 WebView를 활용합니다. 소스 코드는 MIT 라이선스로 제공됩니다.",
+   "impact": "이 접근 방식은 개발자들에게 파일 크기가 훨씬 작은 경량 데스크톱 응용 프로그램을 구축하기 위한 Electron의 대안을 제공할 수 있습니다. 보안 팀과 사용자는 자원 소비 감소의 이점을 누릴 수 있지만, 채택 여부는 Cangjie 생태계의 성숙도에 따라 달라질 수 있습니다.",
+   "keyPoints": [
+    "프로젝트 이름은 cj-tauri이며 Tauri의 Cangjie 버전입니다.",
+    "빌드 결과물의 크기는 4.7~10 MB 입니다.",
+    "Windows WebView2와 같은 시스템 WebView를 사용합니다.",
+    "저장소는 MIT 라이선스로 공개되어 있습니다."
+   ]
+  }
+ }
+}

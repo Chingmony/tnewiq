@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f5f33685ca24e7e6",
+ "contentHash": "7da00d70cc410727",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-26T02:42:42.597Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Reqmango is a self-hosted open source project management tool for teams",
+   "summary": "Reqmango is an open-source, self-hosted project management tool designed for teams. It addresses challenges such as cloud costs, data residency, and manual request triage that are common in tools like Jira. The platform can be deployed via Docker with a single click, keeping data on local machines.",
+   "impact": "This tool could offer teams an alternative to cloud-based project management solutions by reducing cloud costs and ensuring local data control. It may also streamline intake processes through automated triage features.",
+   "keyPoints": [
+    "Designed as a self-hosted open source project management tool for teams.",
+    "Can be deployed with a single click using Docker.",
+    "Keeps data stored on local machines.",
+    "Includes an Intake triage feature to help categorize new requests."
+   ]
+  },
+  "km": {
+   "title": "Reqmango គឺជាឧបករណ៍គ្រប់គ្រងគម្រោងប្រភពបើកចំហរដែលរៀបចំដោយខ្លួនឯងសម្រាប់ក្រុម",
+   "summary": "Reqmango គឺជាឧបករណ៍គ្រប់គ្រងគម្រោងប្រភពបើកចំហរដែលរៀបចំដោយខ្លួនឯងសម្រាប់ក្រុម។ វាដោះស្រាយបញ្ហាប្រឈមដូចជាថ្លៃដើមលើពពក ការរក្សាទុកទិន្នន័យ និងការតម្រៀបសំណើដោយដៃ។ វាអាចត្រូវបានដាក់ឱ្យដំណើរការតាមរយៈ Docker ជាមួយនឹងការចុចតែម្តង ដោយរក្សាទុកទិន្នន័យនៅលើម៉ាស៊ីនផ្ទាល់ខ្លួន។",
+   "impact": "ឧបករណ៍នេះអាចផ្តល់ឱ្យក្រុមនូវជម្រើសជំនួសដំណោះស្រាយគ្រប់គ្រងគម្រោងផ្អែកលើពពក និងធានាការគ្រប់គ្រងទិន្នន័យក្នុងស្រុក។ វាក៏អាចជួយសម្រួលដល់ដំណើរការតម្រៀបសំណើផងដែរ។",
+   "keyPoints": [
+    "ជាឧបករណ៍គ្រប់គ្រងគម្រោងប្រភពបើកចំហរដែលរៀបចំដោយខ្លួនឯងសម្រាប់ក្រុម។",
+    "អាចដាក់ឱ្យដំណើរការជាមួយ Docker ដោយចុចតែម្តង។",
+    "រក្សាទុកទិន្នន័យនៅលើម៉ាស៊ីនផ្ទាល់ខ្លួន។",
+    "រួមបញ្ចូលមុខងារតម្រៀបសំណើដើម្បីជួយចាត់ថ្នាក់សំណើថ្មីៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Reqmango 是面向团队的自建开源项目管理工具",
+   "summary": "Reqmango 是一款面向团队的自建开源项目管理工具，旨在解决云端成本、数据驻留以及人工分诊需求等问题。该工具支持通过 Docker 一键部署，确保数据保留在用户自己的机器上。其核心能力包括提供类型、优先级和疑似重复建议的 Intake 分诊功能。",
+   "impact": "该工具可能为团队提供一个替代云端项目的选项，有助于降低云服务成本并增强对本地数据的控制。自动化分诊功能也可能会提升团队处理新需求时的效率。",
+   "keyPoints": [
+    "面向团队的自建开源项目管理工具。",
+    "支持通过 Docker 进行一键部署。",
+    "数据保留在用户自己的机器上。",
+    "具备提供类型、优先级和疑似重复建议的 Intake 分诊功能。"
+   ]
+  },
+  "ko": {
+   "title": "Reqmango는 팀을 위한 자체 호스팅 오픈 소스 프로젝트 관리 도구입니다",
+   "summary": "Reqmango는 팀을 위해 설계된 자체 호스팅 오픈 소스 프로젝트 관리 도구입니다. 클라우드 비용, 데이터 보주, 수동 요청 분류와 같은 문제를 해결합니다. Docker를 통해 원클릭으로 배포할 수 있으며 데이터는 로컬 시스템에 유지됩니다.",
+   "impact": "이 도구는 클라우드 기반 프로젝트 관리 솔루션의 대안을 제공하여 클라우드 비용을 절감하고 로컬 데이터 제어권을 보장할 수 있습니다. 또한 자동화된 분류 기능을 통해 요청 처리 프로세스를 간소화할 수 있습니다.",
+   "keyPoints": [
+    "팀을 위한 자체 호스팅 오픈 소스 프로젝트 관리 도구입니다.",
+    "Docker를 사용하여 원클릭으로 배포할 수 있습니다.",
+    "데이터가 자체 머신에 저장됩니다.",
+    "새로운 요청을 분류하는 Intake 분진 기능을 포함합니다."
+   ]
+  }
+ }
+}
