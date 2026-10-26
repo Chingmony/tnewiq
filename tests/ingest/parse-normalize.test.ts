@@ -73,6 +73,10 @@ describe('normalizeDate', () => {
     expect(normalizeDate('Fri, 23 Oct 2026 09:30:00 GMT', NOW)).toBe('2026-10-23T09:30:00.000Z')
     expect(normalizeDate('2026-10-24T03:00:00+07:00', NOW)).toBe('2026-10-23T20:00:00.000Z')
   })
+  it('reads zoneless dates in the source offset when one is set', () => {
+    expect(normalizeDate('2026-10-23 18:52:33', NOW, '+09:00')).toBe('2026-10-23T09:52:33.000Z')
+    expect(normalizeDate('2026-10-23T09:30:00Z', NOW, '+09:00')).toBe('2026-10-23T09:30:00.000Z')
+  })
   it('returns null instead of inventing a date', () => {
     expect(normalizeDate('not a date', NOW)).toBeNull()
     expect(normalizeDate(null, NOW)).toBeNull()

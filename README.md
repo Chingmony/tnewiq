@@ -8,7 +8,7 @@ A personal technology radar. It collects the latest headlines from public RSS an
 
 - Interface languages: English, ខ្មែរ (Khmer), 简体中文 (Simplified Chinese), 한국어 (Korean)
 - Eight topics: Artificial Intelligence, Cybersecurity, Developer Tools, Programming Languages, Cloud & Infrastructure, Startups & Products, Research Papers, Mobile & Hardware
-- Cost: $0. Static hosting on Vercel (Hobby), scheduled collection on GitHub Actions, bookmarks and settings in the browser. No database, no paid APIs, no AI services.
+- Cost: $0. Static hosting on Vercel (Hobby), scheduled collection on GitHub Actions, bookmarks and settings in the browser. No database and no paid APIs. Optional AI briefings use the Gemini API free tier (see [Story pages and AI briefings](#story-pages-and-ai-briefings)).
 
 ## How it works
 
@@ -19,6 +19,8 @@ sources/sources.json ──► scripts/ingest (GitHub Actions, hourly)
                                                 ▼
                                   public/data/articles.json  (committed only when it changes)
                                                 │
+                                                ├──► scripts/insights (optional, Gemini free tier)
+                                                │       → public/data/insights/<id>.json
                                                 ▼
                          Vite build ──► Vercel ──────► React PWA (service worker caches data)
 ```
@@ -56,22 +58,26 @@ sources/sources.json ──► scripts/ingest (GitHub Actions, hourly)
 
 ## Sources
 
-29 feeds, each checked on 2026-10-25 and found to return valid RSS or Atom. They are listed in `sources/sources.json` with their homepages.
+51 feeds, each checked on 2026-10-25 or 2026-10-26 and found to return valid RSS or Atom. They are listed in `sources/sources.json` with their homepages.
 
-- **AI:** OpenAI News, Google AI Blog, Hugging Face Blog
+- **AI labs and companies:** OpenAI News, Anthropic News, Research and Engineering\*, Engineering at Meta (AI), Meta Newsroom, Google AI Blog, Google DeepMind Blog, Google Research Blog, Microsoft Research Blog, Hugging Face Blog, NVIDIA Blog, NVIDIA Technical Blog, AWS Machine Learning Blog
+- **AI news:** TechCrunch AI, The Verge AI, MIT Technology Review AI, Ars Technica AI, The Decoder, 量子位 (zh-CN), AI타임스 (ko)
+- **AI analysis:** Simon Willison's Weblog, Import AI, Latent Space
+
+\* Anthropic publishes no feed of its own. These three come from the community project [Olshansk/rss-feeds](https://github.com/Olshansk/rss-feeds), which turns anthropic.com pages into RSS. Links still lead to anthropic.com, but the feeds may lag or stop if that project changes. Meta AI's own site (ai.meta.com) has no feed and its robots.txt forbids automated collection without permission, so Meta is covered through its official Newsroom and Engineering blog feeds instead.
 - **Cybersecurity:** CISA Cybersecurity Advisories, Krebs on Security, The Hacker News
 - **Developer tools:** The GitHub Blog, VS Code Blog, NAVER D2 (ko), 우아한형제들 기술블로그 (ko), 开源中国 (zh-CN), 阮一峰的网络日志 (zh-CN)
 - **Languages:** Rust Blog, The Go Blog, Python Insider, TypeScript Blog, Node.js Releases
 - **Cloud:** Kubernetes Blog, Docker Blog, AWS What's New, The Cloudflare Blog
 - **Startups and products:** TechCrunch Startups, Product Hunt
-- **Research:** arXiv cs.AI, cs.CR and cs.LG (via the arXiv API, with 3.5 s between requests)
+- **Research:** arXiv cs.AI, cs.CL, cs.CR and cs.LG (via the arXiv API, with 3.5 s between requests)
 - **Mobile and hardware:** Apple Newsroom, Android Developers Blog, Ars Technica Gadgets
 
-Dropped after checking: InfoQ China and 36Kr (they serve HTML, not a feed). No Khmer-language technology feed has been verified yet.
+Dropped after checking: InfoQ China and 36Kr (they serve HTML, not a feed); Mistral (no public feed); Hugging Face Papers (needs sign-in); VentureBeat (blocks automated requests). No Khmer-language technology feed has been verified yet.
 
 TNewIQ stores only metadata, a short excerpt and the link, and sends readers to the original article. Review each publisher's terms of use before you publicise the site.
 
-To add a source, add an entry to `sources/sources.json` (HTTPS feed URL, homepage, language, one or two topics) and run `npm run ingest`. If the feed redirects to another host, list that host in `allowedRedirectHosts`.
+To add a source, add an entry to `sources/sources.json` (HTTPS feed URL, homepage, language, one or two topics) and run `npm run ingest`. If the feed redirects to another host, list that host in `allowedRedirectHosts`. If its dates have no time zone (for example `2026-10-26 18:52:33`), set `utcOffset` (for example `"+09:00"`).
 
 ## Development
 
@@ -92,7 +98,7 @@ npm run check       # lint + typecheck + tests + build
 | `npm run build` | Type check and production build to `dist/`. |
 | `npx pwa-assets-generator` | Regenerate PWA icons from `public/favicon.svg`. |
 
-Set `BASE_PATH=/` when building for a host that serves from the domain root. No other environment variables or secrets are used, so there is no `.env.example`.
+Set `BASE_PATH=/` when building for a host that serves from the domain root. The only other variables are `GEMINI_API_KEY` and the optional `GEMINI_MODEL`, used by `npm run insights` (see [AI briefings](#story-pages-and-ai-briefings)). The site itself needs no secrets.
 
 Test fixtures live in `tests/fixtures` and `tests/app/fixtures.ts`, are clearly marked as not real, and are never part of the production build.
 
@@ -129,7 +135,7 @@ When available, the page also shows an **AI briefing** in the interface language
 - **Input:** only the headline and the text the publisher includes in its feed (`.cache/feed-context.json`, never committed), or the short excerpt when that is all there is. The prompt forbids adding facts and treats feed text as data, not instructions.
 - **Checks:** every response is validated (all four languages present, each in the right script, plain text only) before it is saved to `public/data/insights/<id>.json`.
 - **Labelling:** briefings carry a "Source & AI disclosure" note saying they are AI-generated and pointing readers to the original. The model that wrote each one is recorded in its file. The original title and excerpt are always shown too.
-- **Limits:** newest stories first, 12 per run, one request every 6.5 s. The model's "thinking" step is turned off so answers arrive quickly; a model that takes longer than 120 s is skipped in favour of the next one. A run stops when Google reports the quota is used up; the rest wait for the next run. Collecting stories never depends on this step.
+- **Limits:** newest stories first, 40 per run (change it with the `INSIGHTS_MAX_PER_RUN` Actions variable), one request every 6.5 s. The model's "thinking" step is turned off so answers arrive quickly; a model that takes longer than 120 s is skipped in favour of the next one. A run stops when Google reports the quota is used up; the rest wait for the next run. Collecting stories never depends on this step.
 - **Cost:** $0 on the free tier. Google never bills unless you attach billing to the key's project yourself. On the free tier, Google may use what it receives (public article text) to improve its products.
 
 ### Turn it on
@@ -137,7 +143,8 @@ When available, the page also shows an **AI briefing** in the interface language
 1. Create a free API key at https://aistudio.google.com/apikey. No card is needed; do not enable billing.
 2. In GitHub, open **Settings → Secrets and variables → Actions → New repository secret**. Name it `GEMINI_API_KEY` and paste the key.
 3. Optional: under **Variables**, add `GEMINI_MODEL` to choose models, comma-separated and tried in order (default `gemini-flash-latest,gemini-flash-lite-latest`). When Google answers "overloaded" (HTTP 503), the generator waits and retries, then falls back to the next model, then leaves the rest for the next run.
-4. Run **Actions → Ingest → Run workflow**. The job summary lists how many briefings were written.
+4. Optional: add `INSIGHTS_MAX_PER_RUN` to change how many briefings each hourly run writes (default 40). Raising it never costs money on the free tier; once the daily quota is used up, the rest simply wait for the next run.
+5. Run **Actions → Ingest → Run workflow**. The job summary lists how many briefings were written.
 
 Without the secret the step is skipped and story pages say the briefing isn't ready yet.
 
@@ -157,7 +164,7 @@ Articles are always shown in their original language. When an article's language
 - **Translate page in Google Translate** opens the public article URL in Google Translate, in a new tab. Only that URL is sent.
 - **Copy headline and excerpt** copies the text so you can use any translator you choose.
 
-TNewIQ does not translate anything itself and never claims to.
+Article pages are not translated by TNewIQ. The only exception is the optional, clearly labelled [AI briefing](#story-pages-and-ai-briefings), which includes a translated title and summary.
 
 ## Privacy and security
 

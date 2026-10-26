@@ -12,6 +12,11 @@ export const SourceConfigSchema = z.object({
   maxItems: z.number().int().min(1).max(100).default(25),
   /** Extra hosts a redirect may lead to. The feed's own host is always allowed. */
   allowedRedirectHosts: z.array(z.string()).default([]),
+  /** Time zone for feed dates that carry none (e.g. "2026-10-26 18:52:33"), as "+09:00". Dates with a zone are unaffected. */
+  utcOffset: z
+    .string()
+    .regex(/^[+-]\d{2}:\d{2}$/)
+    .optional(),
 })
 
 export type SourceConfig = z.infer<typeof SourceConfigSchema>

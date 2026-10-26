@@ -8,6 +8,7 @@ import { toPlainText, truncate } from './text.ts'
 export const MAX_TITLE = 300
 export const MAX_DESCRIPTION = 280
 const FUTURE_TOLERANCE_MS = 24 * 60 * 60 * 1000
+const ZONELESS_DATE = /^(\d{4}-\d{2}-\d{2})[ T](\d{2}:\d{2}(?::\d{2}(?:\.\d+)?)?)$/
 
 const TRACKING_PARAMS = /^(utm_[a-z]+|fbclid|gclid|mc_cid|mc_eid|_hsenc|_hsmi|mkt_tok)$/i
 
@@ -34,10 +35,16 @@ export function canonicalizeUrl(raw: string | null, base?: string): string | nul
   return url.toString()
 }
 
-/** Parses a feed date. Missing, invalid or implausibly future dates become null. */
-export function normalizeDate(raw: string | null, now: Date): string | null {
+/**
+ * Parses a feed date. Missing, invalid or implausibly future dates become null.
+ * A date-time without a zone is read in `utcOffset` when the source sets one.
+ */
+export function normalizeDate(raw: string | null, now: Date, utcOffset?: string): string | null {
   if (!raw) return null
-  const time = Date.parse(raw.trim())
+  let text = raw.trim()
+  const zoneless = utcOffset ? ZONELESS_DATE.exec(text) : null
+  if (zoneless) text = `${zoneless[1]}T${zoneless[2]}${utcOffset}`
+  const time = Date.parse(text)
   if (Number.isNaN(time)) return null
   if (time > now.getTime() + FUTURE_TOLERANCE_MS) return null
   if (time < Date.UTC(1990, 0, 1)) return null
@@ -61,7 +68,7 @@ export function normalizeItem(raw: RawItem, source: SourceConfig, now: Date): Ar
     originalUrl,
     originalLanguage: source.language,
     originalDescription,
-    publishedAt: normalizeDate(raw.published, now) ?? normalizeDate(raw.updated, now),
+    publishedAt: normalizeDate(raw.published, now, source.utcOffset) ?? normalizeDate(raw.updated, now, source.utcOffset),
     discoveredAt: now.toISOString(),
     topics: classify(title, source.topics),
     imageUrl: image?.startsWith('https:') ? image : null,
