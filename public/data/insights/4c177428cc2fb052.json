@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4c177428cc2fb052",
+ "contentHash": "678d6f48b36cd32c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T02:14:16.560Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Zenon Launches Enterprise AI Guardrail Solution 'ZenGuard'",
+   "summary": "Zenon has launched 'ZenGuard', an AI guardrail solution designed to respond to security threats in generative AI services and manage enterprise-specific security policies. Developed based on operational experience from its proprietary generative AI platform 'Xenos', the solution allows users to set custom policies for each service using only natural language without model retraining. For example, financial services can block individual stock recommendations simply by entering that rule as a sentence, and the system evaluates and controls AI requests and responses accordingly.",
+   "impact": "This solution could help organizations easily enforce specific security and operational policies on generative AI services without undergoing complex model retraining. Security teams and developers may find it useful for controlling AI outputs using simple natural language rules.",
+   "keyPoints": [
+    "Zenon released the AI guardrail solution 'ZenGuard' on October 26.",
+    "The solution was developed using experience from operating the 'Xenos' AI platform.",
+    "It allows custom policies to be set via natural language without requiring model retraining.",
+    "It evaluates and controls AI requests and responses based on defined criteria."
+   ]
+  },
+  "km": {
+   "title": "Zenon ចាប់ផ្តើមដំណោះស្រាយ AI Guardrail សម្រាប់សហគ្រាស 'ZenGuard'",
+   "summary": "ក្រុមហ៊ុន Zenon បានដាក់ឱ្យដំណើរការដំណោះស្រាយ AI guardrail ដែលមានឈ្មោះថា 'ZenGuard' ដើម្បីឆ្លើយតបទៅនឹងការគំរាមកំហែងសន្តិសុខនៅក្នុងសេវាកម្ម generative AI និងគ្រប់គ្រងគោលនយោបាយសន្តិសុខរបស់សាជីវកម្មនីមួយៗ។ វាត្រូវបានអភិវឌ្ឍឡើងដោយផ្អែកលើបទពិសោធន៍នៃការដំណើរការវេទិកា generative AI 'Xenos' ផ្ទាល់ខ្លួនរបស់ខ្លួន។ លក្ខណៈពិសេសរបស់ 'ZenGuard' គឺវាអនុញ្ញាតឱ្យកំណត់គោលនយោបាយផ្ទាល់ខ្លួនដោយប្រើតែភាសាធម្មជាតិ ដោយមិនចាំបាច់មានការបណ្តុះបណ្តាលម៉ូដែលឡើងវិញទេ។",
+   "impact": "ដំណោះស្រាយនេះអាចជួយឱ្យក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍គ្រប់គ្រងការស្នើសុំ និងការឆ្លើយតបរបស់ AI យ៉ាងងាយស្រួលដោយផ្អែកលើច្បាប់ភាសាធម្មជាតិ។ វាអាចកាត់បន្ថយការគំរាមកំហែងសន្តិសុខនៅក្នុងសេវាកម្ម generative AI របស់សាជីវកម្ម។",
+   "keyPoints": [
+    "Zenon បានដាក់ឱ្យដំណើរការដំណោះស្រាយ AI guardrail 'ZenGuard'។",
+    "វាត្រូវបានអភិវឌ្ឍដោយផ្អែកលើបទពិសោធន៍ពីវេទិកា 'Xenos'។",
+    "អនុញ្ញាតឱ្យកំណត់គោលនយោបាយផ្ទាល់ខ្លួនដោយប្រើភាសាធម្មជាតិដោយមិនបាច់បណ្តុះបណ្តាលម៉ូដែលឡើងវិញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "泽农推出企业级AI护栏解决方案“ZenGuard”",
+   "summary": "泽农于26日宣布推出旨在应对生成式AI服务安全威胁并管理企业特定安全政策的AI护栏解决方案“ZenGuard”。该独立解决方案基于其自有生成式AI平台“Xenos”的护栏功能运营经验开发而成。“ZenGuard”的特点是无需重新训练模型，仅通过自然语言即可为各项服务设置自定义政策。",
+   "impact": "该解决方案可能帮助开发人员和安全团队无需进行复杂的模型重新训练，即可通过简单的自然语言规则轻松管理和控制企业AI服务的请求与响应。这有助于企业更灵活地应对生成式AI带来的安全威胁。",
+   "keyPoints": [
+    "泽农推出了企业级AI护栏解决方案“ZenGuard”。",
+    "该解决方案基于自有生成式AI平台“Xenos”的运营经验开发。",
+    "无需重新训练模型，仅用自然语言即可设置自定义服务政策。",
+    "可根据设定标准判定并控制AI的请求与响应。"
+   ]
+  },
+  "ko": {
+   "title": "제논, 기업용 AI 가드레일 솔루션 '젠가드' 출시",
+   "summary": "제논은 생성 AI 서비스의 보안 위협에 대응하고 기업별 보안 정책을 관리하는 AI 가드레일 솔루션 '젠가드'를 26일 출시했다. 자체 생성 AI 플랫폼 '제노스'의 가드레일 기능을 운영한 경험을 바탕으로 독립 솔루션을 개발했다. 젠가드는 모델 재학습 없이 자연어만으로 서비스별 맞춤 정책을 설정하는 것이 특징이다.",
+   "impact": "이번 솔루션은 기업들이 복잡한 모델 재학습 과정 없이 자연어 입력만으로 생성 AI의 요청과 응답을 통제할 수 있도록 돕는다. 개발자와 보안 팀은 이를 통해 각 서비스별 맞춤형 보안 정책을 보다 손쉽게 관리할 수 있을 것으로 보인다.",
+   "keyPoints": [
+    "제논이 AI 가드레일 솔루션 '젠가드'를 출시함.",
+    "자체 생성 AI 플랫폼 '제노스' 운영 경험을 바탕으로 개발됨.",
+    "모델 재학습 없이 자연어만으로 맞춤 정책 설정이 가능함.",
+    "금융 서비스 등 기준에 따라 AI 요청과 응답을 판정해 통제함."
+   ]
+  }
+ }
+}

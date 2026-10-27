@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "06e217f59690a1a5",
+ "contentHash": "06e398c743bec6b3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T02:12:07.300Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS EC2 Auto Scaling now supports Launch Before Terminate at account-level to replace instances",
+   "summary": "AWS EC2 Auto Scaling now allows users to enable Launch Before Terminate as the default replacement behavior across all Auto Scaling groups in an account. This setting ensures that Auto Scaling launches a replacement instance and verifies it passes health checks before terminating the old instance. The feature applies to various replacement events including instance refreshes, rebalancing, health checks, and maximum-instance-lifetime replacements.",
+   "impact": "Developers and system administrators could benefit from maintaining full application capacity and availability during instance replacement events without configuring each Auto Scaling group individually. Managing this behavior through account settings and new APIs may streamline infrastructure management across AWS Regions at no additional cost.",
+   "keyPoints": [
+    "Launch Before Terminate can now be enabled as a default replacement behavior at the account level.",
+    "New `PutAccountSetting` and `DescribeAccountSettings` APIs are available for managing the setting.",
+    "The feature applies to instance refreshes, rebalancing, health checks, and maximum-instance-lifetime replacements.",
+    "It is available in all AWS Regions at no additional cost."
+   ]
+  },
+  "km": {
+   "title": "AWS EC2 Auto Scaling ឥឡូវនេះគាំទ្រ Launch Before Terminate នៅកម្រិតគណនីដើម្បីជំនួសインスタンス",
+   "summary": "AWS EC2 Auto Scaling ឥឡូវនេះអនុញ្ញាតឱ្យអ្នកបើកដំណើរការ Launch Before Terminate ជាឥរិយាបថជំនួសលំនាំដើមនៅទូទាំងក្រុម Auto Scaling ទាំងអស់នៅក្នុងគណនីរបស់អ្នក។ នៅពេលបើកដំណើរការ Auto Scaling ចាប់ផ្តើមインスタンスជំនួស ហើយរង់ចាំវាឆ្លងកាត់ការត្រួតពិនិត្យសុខភាព មុនពេលបញ្ចប់インスタンスដែលត្រូវជំនួស។ វាអនុវត្តចំពោះព្រឹត្តិការណ៍ជំនួសដូចជា ការធ្វើឱ្យស្រស់インスタンス ការធ្វើឱ្យមានតុល្យភាព ការត្រួតពិនិត្យសុខភាព និងការជំនួសអាយុកាលインスタンスអតិបរមា។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យាអាចរក្សាសមត្ថភាពនិងភាពអាចរកបាននៃកម្មវិធីពេញលេញក្នុងអំឡុងពេលព្រឹត្តិការណ៍ជំនួសインスタンスដោយមិនចាំបាច់កំណត់រចនាសម្ព័ន្ធក្រុម Auto Scaling នីមួយៗដាច់ដោយឡែកពីគ្នា។ ការគ្រប់គ្រងការកំណត់នេះតាមរយៈគណនីអាចសម្រួលដល់ការគ្រប់គ្រងហេដ្ឋារចនាសម្ព័ន្ធទូទាំង AWS Regions ដោយមិនគិតថ្លៃបន្ថែម។",
+   "keyPoints": [
+    "Launch Before Terminate ឥឡូវនេះអាចត្រូវបានបើកដំណើរការជាឥរិយាបថជំនួសលំនាំដើមនៅកម្រិតគណនី។",
+    "API ថ្មី `PutAccountSetting` និង `DescribeAccountSettings` អាចរកបានសម្រាប់ការគ្រប់គ្រងការកំណត់។",
+    "មុខងារនេះអនុវត្តចំពោះការធ្វើឱ្យស្រស់インスタンス ការធ្វើឱ្យមានតុល្យភាព ការត្រួតពិនិត្យសុខភាព និងការជំនួសអាយុកាលインスタンスអតិបរមា។",
+    "វាមាននៅក្នុង AWS Regions ទាំងអស់ដោយគ្មានការគិតថ្លៃបន្ថែម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS EC2 Auto Scaling 现支持在账户级别启用 Launch Before Terminate 以替换实例",
+   "summary": "AWS EC2 Auto Scaling 现在允许您在账户中的所有 Auto Scaling 组中将 Launch Before Terminate 启用为默认替换行为。启用后，Auto Scaling 会启动一个替换实例，并等待其通过健康检查后再终止被替换的实例。这适用于实例刷新、重新平衡、健康检查和最大实例寿命替换等替换事件。",
+   "impact": "开发人员和技术团队可以在实例替换事件期间保持应用程序的完整容量和可用性，而无需单独配置每个 Auto Scaling 组。通过账户设置和新 API 管理此行为可能会简化各个 AWS 区域的基础设施管理，且不产生额外费用。",
+   "keyPoints": [
+    "Launch Before Terminate 现在可以在账户级别启用为默认替换行为。",
+    "可通过新的 `PutAccountSetting` 和 `DescribeAccountSettings` API 来管理此设置。",
+    "该功能适用于实例刷新、重新平衡、健康检查和最大实例寿命替换。",
+    "该功能在所有 AWS 区域均可免费使用。"
+   ]
+  },
+  "ko": {
+   "title": "AWS EC2 Auto Scaling, 인스턴스 교체를 위한 계정 수준의 Launch Before Terminate 지원",
+   "summary": "AWS EC2 Auto Scaling을 사용하면 계정의 모든 Auto Scaling 그룹에서 Launch Before Terminate를 기본 교체 동작으로 활성화할 수 있습니다. 활성화되면 Auto Scaling은 교체 인스턴스를 시작하고 상태 검사를 통과할 때까지 기다린 후 교체되는 인스턴스를 종료합니다. 이 기능은 인스턴스 새로 고침, 재균형, 상태 검사 및 최대 인스턴스 수명 교체와 같은 교체 이벤트에 적용됩니다.",
+   "impact": "개발자와 보안 팀은 각 Auto Scaling 그룹을 개별적으로 구성하지 않고도 인스턴스 교체 이벤트 동안 애플리케이션의 전체 용량과 가용성을 유지할 수 있습니다. 계정 설정 및 새로운 API를 통해 이 동작을 관리하면 추가 비용 없이 모든 AWS 리전에서 인프라 관리를 간소화할 수 있습니다.",
+   "keyPoints": [
+    "Launch Before Terminate를 이제 계정 수준에서 기본 교체 동작으로 활성화할 수 있습니다.",
+    "설정을 관리하기 위한 새로운 `PutAccountSetting` 및 `DescribeAccountSettings` API를 사용할 수 있습니다.",
+    "인스턴스 새로 고침, 재균형, 상태 검사 및 최대 인스턴스 수명 교체에 적용됩니다.",
+    "모든 AWS 리전에서 추가 비용 없이 사용할 수 있습니다."
+   ]
+  }
+ }
+}

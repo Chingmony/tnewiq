@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2ed3fea838b1aed3",
+ "contentHash": "80af9ea46c201e82",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T02:12:18.281Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Key Management Service now supports ML-KEM for post-quantum key encapsulation",
+   "summary": "AWS Key Management Service now supports Module-Lattice-Based Key-Encapsulation Mechanism, a NIST FIPS 203 post-quantum cryptography standard. This allows two parties to establish a shared secret and helps protect against harvest now, decrypt later threats. KMS supports all three NIST FIPS 203 ML-KEM key specs, including ML-KEM-512, ML-KEM-768, and ML-KEM-1024.",
+   "impact": "Security teams and developers can use this feature to protect data against future quantum computing threats by establishing quantum-resistant shared secrets. Applications may integrate these capabilities using new APIs and supported cryptographic libraries across most AWS regions.",
+   "keyPoints": [
+    "Supports NIST FIPS 203 standard ML-KEM for post-quantum key encapsulation.",
+    "Available key specifications include ML-KEM-512, ML-KEM-768, and ML-KEM-1024.",
+    "Private keys are protected in FIPS 140-3 Level 3 validated hardware security modules.",
+    "Available in all AWS regions where KMS is available except Middle East (UAE), Middle East (Bahrain), and China regions."
+   ]
+  },
+  "km": {
+   "title": "AWS Key Management Service ឥឡូវនេះគាំទ្រ ML-KEM សម្រាប់ការបុំបាច់គ្រាប់សោរក្រោយសម័យកាលក្វាន់តូម",
+   "summary": "សេវាកម្ម AWS Key Management Service ឥឡូវនេះគាំទ្រទៅលើ Module-Lattice-Based Key-Encapsulation Mechanism ដែលជាស្តង់ដារគ្រីបតូក្រាហ៊ីក្រោយសម័យកាលក្វាន់តូមក្រោម NIST FIPS 203។ វាជួយឱ្យភាគីពីរបង្កើតបាននូវការសម្ងាត់រួមគ្នា និងការពារប្រឆាំងនឹងការគំរាមកំហែងប្រមូលទុកមុននិងឌិគ្រីបពេលក្រោយ។ KMS គាំទ្រទាំងបីទំហំគ្រាប់សោរ ML-KEM ដែលបានកំណត់ក្នុង NIST FIPS 203 គឺ ML-KEM-512, ML-KEM-768 និង ML-KEM-1024។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់មុខងារនេះដើម្បីការពារទិន្នន័យប្រឆាំងនឹងការគំរាមកំហែងពីកុំព្យូទ័រក្វាន់តូមនាពេលអនាគត។ កម្មវិធីនានាអាចរួមបញ្ចូលសមត្ថភាពទាំងនេះដោយប្រើប្រាស់ API ថ្មីៗនិងបណ្ណាល័យគ្រីបតូក្រាហ៊ីដែលគាំទ្រ។",
+   "keyPoints": [
+    "គាំទ្រស្តង់ដារ NIST FIPS 203 ML-KEM សម្រាប់ការបុំបាច់គ្រាប់សោរក្រោយសម័យកាលក្វាន់តូម។",
+    "មានការកំណត់គ្រាប់សោរ ML-KEM-512, ML-KEM-768 និង ML-KEM-1024។",
+    "គ្រាប់សោរឯកជនត្រូវបានការពារនៅក្នុងម៉ូឌុលសុវត្ថិភាពផ្នែករឹងដែលបានផ្ទៀងផ្ទាត់ FIPS 140-3 កម្រិត 3។",
+    "មានដាក់ឱ្យប្រើប្រាស់ក្នុងតំបន់ AWS ទាំងអស់លើកលែងតែតំបន់មជ្ឈិមបូព៌ា (UAE) មជ្ឈិមបូព៌ា (Bahrain) និងចិន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Key Management Service 现已支持用于后量子密钥封装的 ML-KEM",
+   "summary": "AWS Key Management Service 现已支持基于模格的密钥封装机制，即 NIST FIPS 203 后量子密码学标准。这使双方能够建立共享密钥，并有助于防范先收集后解密威胁。KMS 支持 NIST FIPS 203 中定义的所有三种 ML-KEM 密钥规格，包括 ML-KEM-512、ML-KEM-768 和 ML-KEM-1024。",
+   "impact": "安全团队和开发人员可以使用此功能建立抗量子的共享密钥，以防范未来的量子计算威胁。应用程序可以通过新的 API 和受支持的加密库在大多数 AWS 区域中集成这些功能。",
+   "keyPoints": [
+    "支持用于后量子密钥封装的 NIST FIPS 203 标准 ML-KEM。",
+    "支持的密钥规格包括 ML-KEM-512、ML-KEM-768 和 ML-KEM-1024。",
+    "私钥受到经过 FIPS 140-3 3 级验证的硬件安全模块保护。",
+    "在除中东（阿联酋）、中东（巴林）和中国区域之外的所有提供 KMS 的 AWS 区域可用。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Key Management Service, 포스트 퀀텀 키 캡슐화를 위한 ML-KEM 지원 개시",
+   "summary": "AWS Key Management Service는 이제 NIST FIPS 203 포스트 퀀텀 암호화 표준인 Module-Lattice-Based Key-Encapsulation Mechanism을 지원합니다. 이를 통해 두 당사자가 공유 비밀을 설정할 수 있으며 나중에 해독하기 위해 지금 수집하는 위협에 대응할 수 있습니다. KMS는 NIST FIPS 203에 정의된 ML-KEM-512, ML-KEM-768, ML-KEM-1024의 세 가지 ML-KEM 키 사양을 모두 지원합니다.",
+   "impact": "보안 팀과 개발자는 이 기능을 사용하여 미래의 양자 컴퓨팅 위협으로부터 데이터를 보호하고 양자 내성 공유 비밀을 설정할 수 있습니다. 애플리케이션은 새로운 API와 지원되는 암호화 라이브러리를 사용하여 이러한 기능을 통합할 수 있습니다.",
+   "keyPoints": [
+    "포스트 퀀텀 키 캡슐화를 위한 NIST FIPS 203 표준 ML-KEM 지원.",
+    "지원되는 키 사양에는 ML-KEM-512, ML-KEM-768, ML-KEM-1024가 포함됨.",
+    "개인 키는 FIPS 140-3 Level 3 인증을 받은 하드웨어 보안 모듈에서 보호됨.",
+    "중동(UAE), 중동(바레인), 중국 리전을 제외한 모든 AWS 리전에서 사용 가능함."
+   ]
+  }
+ }
+}

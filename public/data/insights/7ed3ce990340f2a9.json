@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7ed3ce990340f2a9",
+ "contentHash": "865b92f9ab80d7b7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T02:10:30.896Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "VU#701544: mpc-lib Hardened Derivation Fails to Protect Ancestor Isolation",
+   "summary": "Fireblocks' mpc-lib contains a cryptographic fail-open vulnerability in its BIP32 hardened derivation implementation when a private parent key is missing. The implementation substitutes a null buffer for the missing parent secret, making the derivation delta computable and violating ancestor isolation. Consequently, an attacker with a compromised lower-level signer share and the chain code can recover the higher-level share from which it was derived.",
+   "impact": "This vulnerability eliminates a defense-in-depth layer by breaking post-compromise ancestor isolation in hardened derivation, meaning a single leaf-level share compromise can extend across a party's shares throughout the key hierarchy. While the primary MPC secret-sharing layer still prevents full private key reconstruction from a single party's shares, threshold-security assumptions degrade silently without error signals. Integrators can mitigate exposure by treating the chain code as secret and auditing derivation paths.",
+   "keyPoints": [
+    "Identified as CVE-2026-90975 in Fireblocks' mpc-lib library.",
+    "A fail-open flaw substitutes a null buffer when a private parent key is missing.",
+    "Allows recovery of ancestor shares if an attacker compromises a signer share and knows the chain code.",
+    "No vendor fix is currently available as Fireblocks could not be reached."
+   ]
+  },
+  "km": {
+   "title": "VU#701544: ការបែងចែកទម្រង់រឹង mpc-lib មិនអាចការពារការផ្ដាច់ពូជពង្ស",
+   "summary": "បណ្ណាល័យ mpc-lib របស់ Fireblocks មានភាពងាយរងគ្រោះផ្នែកគ្រីបតូក្រាហ្វីនៅក្នុងការអនុវត្តការបែងចែកទម្រង់រឹង BIP32 នៅពេលដែលគ្រាប់ចុចមាតាឯកជនបាត់បង់។ ការអនុវត្តនេះដាក់បញ្ចូលសតិបណ្ដោះអាសន្នទទេជំនួសឱ្យអាថ៌កំបាំងមាតាដែលបាត់ ដែលធ្វើឱ្យភាពខុសគ្នានៃការបែងចែកអាចគណនាបាន និងរំលោភលើការផ្ដាច់ពូជពង្ស។ ជាលទ្ធផល អ្នកវាយប្រហារដែលមានភាគហ៊ុនអ្នកចុះហត្ថលេខាកម្រិតទាបត្រូវបានសម្របសម្រួលអាចទាញយកភាគហ៊ុនកម្រិតខ្ពស់វិញបាន។",
+   "impact": "ភាពងាយរងគ្រោះនេះលុបបំបាត់ស្រទាប់ការពារស៊ីជម្រៅដោយបំបែកការផ្ដាច់ពូជពង្សក្រោយការសម្របសម្រួល ដែលមានន័យថាការសម្របសម្រួលភាគហ៊ុនកម្រិតស្លឹកតែមួយអាចពង្រីកដល់ភាគហ៊ុនផ្សេងទៀតទូទាំងឋានានុក្រមគ្រាប់ចុច។ ទោះបីជាស្រទាប់ចែករំលែកអាថ៌កំបាំង MPC មេនៅតែការពារការបង្កើតឡើងវិញនូវគ្រាប់ចុចឯកជនពេញលេញក៏ដោយ ការសន្មតសុវត្ថិភាពកម្រិតកំណត់នឹងថយចុះដោយស្ងៀមស្ងាត់។ អ្នកបញ្ចូលប្រព័ន្ធអាចកាត់បន្ថយហានិភ័យដោយរក្សាទុកកូដសង្វាក់ជាការសម្ងាត់។",
+   "keyPoints": [
+    "ត្រូវបានកំណត់ជា CVE-2026-90975 នៅក្នុងបណ្ណាល័យ mpc-lib របស់ Fireblocks ។",
+    "កំហុសខ្សោយដាក់បញ្ចូលសតិបណ្ដោះអាសន្នទទេនៅពេលដែលគ្រាប់ចុចមាតាឯកជនបាត់។",
+    "អនុញ្ញាតឱ្យទាញយកភាគហ៊ុនបុព្វបុរសវិញប្រសិនបើអ្នកវាយប្រហារដឹងពីកូដសង្វាក់។",
+    "គ្មានការជួសជុលពីអ្នកផ្គត់ផ្គង់ទេព្រោះមិនអាចទាក់ទង Fireblocks បាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "VU#701544：mpc-lib 加固派生未能保护祖先隔离",
+   "summary": "Fireblocks 的 mpc-lib 库在其 BIP32 加固派生实现中包含一个加密开放式故障漏洞，当私有父密钥缺失时会触发该问题。该实现用空缓冲区替代缺失的父密钥秘密，使得派生增量可计算，从而破坏了祖先隔离属性。因此，攻击者在攻陷较低级别的签名者份额并已知链码的情况下，可以恢复其衍生自的高级别份额。",
+   "impact": "该漏洞通过破坏加固派生中的事后妥协祖先隔离，消除了纵深防御层，这意味着单个叶级别份额的妥协可能会波及整个密钥层级中的其他份额。虽然主要的 MPC 秘密共享层仍然阻止仅从单方份额重建完整的私钥，但门限安全假设会在没有错误信号的情况下悄然降级。集成商可以通过将链码视为机密并审核派生路径来降低风险。",
+   "keyPoints": [
+    "在 Fireblocks 的 mpc-lib 库中被识别为 CVE-2026-90975。",
+    "当私有父密钥缺失时，开放式故障缺陷会替代空缓冲区。",
+    "如果攻击者攻陷签名者份额并了解链码，则允许恢复祖先份额。",
+    "由于无法联系到 Fireblocks，目前尚无厂商提供的修复程序。"
+   ]
+  },
+  "ko": {
+   "title": "VU#701544: mpc-lib 강화 파생 기능이 상위 계층 격리를 보호하지 못하는 문제",
+   "summary": "Fireblocks의 mpc-lib 라이브러리는 개인 상위 키가 누락된 경우 BIP32 강화 파생 구현에서 암호화 장애 개방(fail-open) 취약점을 포함하고 있습니다. 이 구현은 누락된 상위 비밀 대신 널 버퍼를 대체하여 파생 델타를 계산 가능하게 만들고 상위 계층 격리 속성을 위반합니다. 결과적으로 하위 수준 서명자 셰어가 손상되고 체인 코드를 알고 있는 공격자는 해당 셰어가 파생된 상위 수준 셰어를 복구할 수 있습니다.",
+   "impact": "이 취약점은 강화 파생에서 침해 후 상위 계층 격리를 무너뜨려 심층 방어 계층을 제거하며, 단일 리프 수준 셰어 침해가 키 계층 전체의 다른 셰어로 확장될 수 있음을 의미합니다. 기본 MPC 비밀 공유 계층이 단일 당사자의 셰어로부터 완전한 개인 키가 재구성되는 것을 여전히 방지하지만, 임계값 보안 가정은 오류 신호 없이 조용히 저하됩니다. 통합업체는 체인 코드를 기밀로 유지하고 파생 경로를 감사하여 노출을 줄일 수 있습니다.",
+   "keyPoints": [
+    "Fireblocks의 mpc-lib 라이브러리에서 CVE-2026-90975로 식별됨.",
+    "개인 상위 키가 누락될 때 장애 개방 결함이 널 버퍼를 대체함.",
+    "공격자가 서명자 셰어를 손상시키고 체인 코드를 아는 경우 상위 셰어 복구가 가능함.",
+    "Fireblocks에 연락할 수 없어 현재 공급업체 수정 사항이 제공되지 않음."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "93cff90a9ff025df",
+ "contentHash": "d087ea42831c6bb4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T02:13:55.999Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon RDS now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
+   "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server has added support for the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates. The new release supports SQL Server 2017 CU31+GDR KB5122774, SQL Server 2019 CU32+GDR KB5122772, SQL Server 2022 CU27 KB5104824, and SQL Server 2025 CU9 KB5122048. Users can upgrade their database instances using the Amazon RDS Management Console, AWS SDK, or CLI.",
+   "impact": "Technology users and database administrators could apply these updates to benefit from the fixes and improvements included in the Microsoft knowledge base updates. Teams may use the management console, SDK, or CLI to perform the upgrades.",
+   "keyPoints": [
+    "Amazon RDS for SQL Server supports new CU and GDR updates.",
+    "Supported versions include SQL Server 2017, 2019, 2022, and 2025 updates.",
+    "Upgrades can be performed via RDS Management Console, AWS SDK, or CLI."
+   ]
+  },
+  "km": {
+   "title": "Amazon RDS ឥឡូវនេះគាំទ្របច្ចុប្បន្នភាព Cumulative Update និង GDR ចុងក្រោយបង្អស់សម្រាប់ Microsoft SQL Server",
+   "summary": "Amazon Relational Database Service (Amazon RDS) សម្រាប់ SQL Server ឥឡូវនេះគាំទ្របច្ចុប្បន្នភាព Cumulative Updates (CU) និង General Distribution Release (GDR) ចុងក្រោយបង្អស់សម្រាប់ Microsoft SQL Server។ ការចេញផ្សាយនេះរួមបញ្ចូលទាំងការគាំទ្រសម្រាប់ SQL Server 2017 CU31+GDR KB5122774, SQL Server 2019 CU32+GDR KB5122772, SQL Server 2022 CU27 KB5104824 និង SQL Server 2025 CU9 KB5122048។ អ្នកប្រើប្រាស់អាចដំឡើងកំណែอินស្ដង់ Amazon RDS របស់ពួកគេដោយប្រើប្រាស់ Amazon RDS Management Console, AWS SDK ឬ CLI។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យា និងអ្នកគ្រប់គ្រងមូលដ្ឋានទិន្នន័យអាចអនុវត្តបច្ចុប្បន្នភាពទាំងនេះ ដើម្បីទទួលបានអត្ថប្រយោជន៍ពីការកែសម្រួល និងការជួសជុលដែលមាននៅក្នុង KB របស់ Microsoft។",
+   "keyPoints": [
+    "Amazon RDS សម្រាប់ SQL Server គាំទ្របច្ចុប្បន្នភាព CU និង GDR ថ្មី។",
+    "កំណែដែលគាំទ្ររួមមាន SQL Server 2017, 2019, 2022 និង 2025។",
+    "ការដំឡើងកំណែអាចធ្វើឡើងតាមរយៈ RDS Management Console, AWS SDK ឬ CLI។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon RDS 现已支持 Microsoft SQL Server 的最新累积更新和 GDR 更新",
+   "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server 现已支持 Microsoft SQL Server 的最新累积更新 (CU) 和通用分发版本 (GDR) 更新。此版本包括对 SQL Server 2017 CU31+GDR KB5122774、SQL Server 2019 CU32+GDR KB5122772、SQL Server 2022 CU27 KB5104824 以及 SQL Server 2025 CU9 KB5122048 的支持。用户可以使用 Amazon RDS Management Console、AWS SDK 或 CLI 升级其数据库实例。",
+   "impact": "技术人员和数据库管理员可以通过应用这些更新，获取微软知识库更新中包含的修复和改进。团队可以使用管理控制台、SDK 或 CLI 来执行升级操作。",
+   "keyPoints": [
+    "Amazon RDS for SQL Server 支持了新的 CU 和 GDR 更新。",
+    "支持的版本涵盖 SQL Server 2017、2019、2022 和 2025 的特定更新。",
+    "可通过 RDS Management Console、AWS SDK 或 CLI 进行升级。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon RDS, Microsoft SQL Server용 최신 누적 업데이트 및 GDR 업데이트 지원",
+   "summary": "Amazon Relational Database Service (Amazon RDS) for SQL Server가 Microsoft SQL Server의 최신 누적 업데이트(CU) 및 일반 배포 릴리스(GDR) 업데이트를 지원하기 시작했습니다. 이번 릴리스에는 SQL Server 2017 CU31+GDR KB5122774, SQL Server 2019 CU32+GDR KB5122772, SQL Server 2022 CU27 KB5104824, SQL Server 2025 CU9 KB5122048에 대한 지원이 포함됩니다. 사용자는 Amazon RDS Management Console, AWS SDK 또는 CLI를 사용하여 데이터베이스 인스턴스를 업그레이드할 수 있습니다.",
+   "impact": "기술 사용자 및 데이터베이스 관리자는 이러한 업데이트를 적용하여 Microsoft 문서에 포함된 수정 사항과 개선 사항의 혜택을 누릴 수 있습니다. 팀은 관리 콘솔, SDK 또는 CLI를 사용하여 업그레이드를 수행할 수 있습니다.",
+   "keyPoints": [
+    "Amazon RDS for SQL Server가 새로운 CU 및 GDR 업데이트를 지원합니다.",
+    "지원되는 버전에는 SQL Server 2017, 2019, 2022, 2025 업데이트가 포함됩니다.",
+    "RDS Management Console, AWS SDK, 또는 CLI를 통해 업그레이드가 가능합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "db71bb0ca35a8120",
+ "contentHash": "70143c1be1c9496d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T02:11:15.065Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "webframe: evaluated as a scraper and a sandbox",
+   "summary": "Simon Willison examines webframe, a project by Jeff Lindsay that allows users to run a web page like a program using a hidden headless web view. The tool is written in Go and built on the glaze library, utilizing native system browsers instead of bundling its own engine. Claude Opus 5.5 was used to test the tool, build exploratory prototypes, and evaluate its potential for web scraping and sandboxing.",
+   "impact": "This tool may offer developers and technology users an alternative approach to web scraping and sandboxing without relying on larger automation frameworks like Playwright.",
+   "keyPoints": [
+    "webframe runs web pages like programs using a hidden headless web view.",
+    "It is written in Go on top of the glaze library.",
+    "It uses the system browser depending on the operating system.",
+    "Claude Opus 5.5 evaluated the tool as a scraper and a sandbox."
+   ]
+  },
+  "km": {
+   "title": "webframe៖ ការវាយតម្លៃជាឧបករណ៍ទាញយកទិន្នន័យ និងប្រអប់ខ្សាច់សុវត្ថិភាព",
+   "summary": "Simon Willison បានពិនិត្យមើល webframe ដែលជាគម្រោងបង្កើតដោយ Jeff Lindsay អនុញ្ញាតឱ្យអ្នកប្រើប្រាស់រត់ទំព័របណ្ដាញដូចជាកម្មវិធីមួយដោយប្រើប្រាស់កន្លែងបង្ហាញបណ្ដាញដែលលាក់។ ឧបករណ៍នេះត្រូវបានសរសេរជាភាសា Go នៅលើបណ្ណាល័យ glaze ដោយប្រើប្រាស់កម្មវិធីរុករកប្រព័ន្ធស្រាប់។ Claude Opus 5.5 ត្រូវបានប្រើដើម្បីសាកល្បងឧបករណ៍នេះ និងវាយតម្លៃវាជាឧបករណ៍ទាញយកទិន្នន័យ និងប្រអប់ខ្សាច់សុវត្ថិភាព។",
+   "impact": "ឧបករណ៍នេះអាចផ្ដល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវជម្រើសថ្មីមួយសម្រាប់ការទាញយកទិន្នន័យពីបណ្ដាញដោយមិនចាំបាច់ពឹងផ្អែកលើប្រព័ន្ធធំៗដូចជា Playwright។",
+   "keyPoints": [
+    "webframe ដំណើរការទំព័របណ្ដាញដូចជាកម្មវិធីតាមរយៈកន្លែងបង្ហាញបណ្ដាញដែលលាក់។",
+    "វាត្រូវបានសរសេរជាភាសា Go នៅលើបណ្ណាល័យ glaze។",
+    "វាប្រើប្រាស់កម្មវិធីរុករកដែលមានស្រាប់ក្នុងប្រព័ន្ធ។",
+    "Claude Opus 5.5 បានវាយតម្លៃឧបករណ៍នេះជាឧបករណ៍ទាញយកនិងប្រអប់ខ្សាច់សុវត្ថិភាព។"
+   ]
+  },
+  "zh-CN": {
+   "title": "webframe：作为网页抓取工具和沙箱进行评估",
+   "summary": "Simon Willison 介绍了由 Jeff Lindsay 开发的 webframe 项目，该项目允许用户通过隐藏的无头网页视图像运行程序一样运行网页。该工具是用 Go 语言编写的，建立在 glaze 图层库之上，利用系统自带的浏览器而不是捆绑自己的浏览器引擎。Claude Opus 5.5 对该工具进行了测试，并将其评估为潜在的网页抓取和沙箱工具。",
+   "impact": "该工具可能会为开发人员提供一种替代网页抓取和沙箱的方法，而无需依赖像 Playwright 这样的大型自动化框架。",
+   "keyPoints": [
+    "webframe 通过隐藏的无头网页视图像程序一样运行网页。",
+    "它是使用 Go 语言并在 glaze 库之上编写的。",
+    "它利用系统自带的浏览器来运行。",
+    "Claude Opus 5.5 对其进行了抓取和沙箱功能的评估。"
+   ]
+  },
+  "ko": {
+   "title": "webframe: 스크래퍼 및 샌드박스로서의 평가",
+   "summary": "Simon Willison은 Jeff Lindsay가 개발한 webframe 프로젝트를 소개하며, 이 도구는 숨겨진 헤드리스 웹 뷰를 사용하여 웹 페이지를 프로그램처럼 실행할 수 있게 해준다고 전했습니다. 이 도구는 Go 언어로 작성되었으며 glaze 라이브러리를 기반으로 자체 브라우저 엔진 대신 시스템 브라우저를 활용합니다. Claude Opus 5.5가 이 도구를 테스트하고 웹 스크래핑 및 샌드박싱 도구로서 평가를 수행했습니다.",
+   "impact": "이 도구는 개발자와 기술 사용자에게 Playwright와 같은 대형 프레임워크에 의존하지 않고 웹 스크래핑 및 샌드박싱을 수행할 수 있는 대안을 제공할 수 있습니다.",
+   "keyPoints": [
+    "webframe은 숨겨진 헤드리스 웹 뷰로 웹 페이지를 프로그램처럼 실행합니다.",
+    "Go 언어로 작성되었으며 glaze 라이브러리를 기반으로 합니다.",
+    "운영체제에 따른 시스템 브라우저를 활용합니다.",
+    "Claude Opus 5.5를 통해 스크래퍼 및 샌드박스로 평가되었습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "05f1e90524d13f2f",
+ "contentHash": "0b8ad21dd5756bcf",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T02:11:56.779Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS IAM Identity Center now supports cross-Region trusted identity propagation",
+   "summary": "AWS IAM Identity Center now supports cross-Region trusted identity propagation, allowing a user's identity context to travel automatically with requests across different AWS Regions. Previously, trusted identity propagation required all accessing AWS services to be in the same Region, forcing workarounds like broad IAM roles or single-region consolidation. The new feature preserves fine-grained access control and auditing for individual users across regions at no additional cost.",
+   "impact": "This feature could help developers and security teams architect multi-region deployments while maintaining fine-grained access control and precise user auditing. Security teams may no longer need to rely on broad IAM roles to access services in different regions, potentially improving security posture for global workloads.",
+   "keyPoints": [
+    "Trusted identity propagation carries a user's identity and group associations with requests for permissions and auditing.",
+    "Cross-Region support allows identity context to propagate automatically to AWS services in different AWS Regions.",
+    "Previously, services had to reside in the same Region, or users had to rely on broad IAM roles or single-region setups.",
+    "The capability is available at no additional cost in all AWS Regions where IAM Identity Center is supported."
+   ]
+  },
+  "km": {
+   "title": "AWS IAM Identity Center ឥឡូវនេះគាំទ្រការបញ្ជូនបន្តអត្តសញ្ញាណដែលគួរឱ្យទុកចិត្តឆ្លងកាត់តំបន់",
+   "summary": "AWS IAM Identity Center ឥឡូវនេះគាំទ្រការបញ្ជូនបន្តអត្តសញ្ញាណដែលគួរឱ្យទុកចិត្តឆ្លងកាត់តំបន់ ដែលអនុញ្ញាតឱ្យបរិបទអត្តសញ្ញាណរបស់អ្នកប្រើប្រាស់ធ្វើដំណើរដោយស្វ័យប្រវត្តិជាមួយនឹងសំណើឆ្លងកាត់តំបន់ AWS ផ្សេងៗគ្នា។ កាលពីមុន ការបញ្ជូនបន្តអត្តសញ្ញាណទាមទារឱ្យសេវាកម្ម AWS ទាំងអស់ស្ថិតនៅក្នុងតំបន់ដូចគ្នា។ លក្ខណៈពិសេសថ្មីនេះរក្សាបាននូវការគ្រប់គ្រងការចូលប្រើប្រាស់ដ៏ល្អិតល្អន់ និងការសវនកម្មសម្រាប់អ្នកប្រើប្រាស់ម្នាក់ៗដោយគ្មានការចំណាយបន្ថែម។",
+   "impact": "លក្ខណៈពិសេសនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខក្នុងការរៀបចំស្ថាបត្យកម្មពង្រាយឆ្លងកាត់តំបន់ ខណៈពេលដែលរក្សាបាននូវការគ្រប់គ្រងការចូលប្រើប្រាស់ដ៏ល្អិតល្អន់ និងការសវនកម្មអ្នកប្រើប្រាស់ច្បាស់លាស់។ ក្រុមសន្តិសុខប្រហែលជាលែងត្រូវការផ្អែកលើតួនាទី IAM ទូលំទូលាយដើម្បីចូលប្រើសេវាកម្មនៅក្នុងតំបន់ផ្សេងទៀតនោះទេ។",
+   "keyPoints": [
+    "ការបញ្ជូនបន្តអត្តសញ្ញាណដែលគួរឱ្យទុកចិត្តនាំយកអត្តសញ្ញាណ និងក្រុមរបស់អ្នកប្រើប្រាស់ទៅជាមួយសំណើសម្រាប់ការអនុញ្ញាត និងការសវនកម្ម។",
+    "ការគាំទ្រឆ្លងកាត់តំបន់អនុញ្ញាតឱ្យបរិបទអត្តសញ្ញាណបញ្ជូនបន្តដោយស្វ័យប្រវត្តិទៅកាន់សេវាកម្ម AWS នៅក្នុងតំបន់ AWS ផ្សេងៗគ្នា។",
+    "មុខងារនេះមានដោយគ្មានការចំណាយបន្ថែមនៅក្នុងតំបន់ AWS ទាំងអស់ដែល IAM Identity Center គាំទ្រ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS IAM Identity Center 现已支持跨区域可信身份传播",
+   "summary": "AWS IAM Identity Center 现已支持跨区域可信身份传播，允许用户的身份上下文随请求自动传播到不同的 AWS 区域。此前，可信身份传播要求所有访问的 AWS 服务必须位于同一区域。新功能在不增加额外成本的情况下，为跨区域的单个用户保留了细粒度访问控制和审计能力。",
+   "impact": "此功能可能会帮助开发人员和安全团队构建多区域部署，同时保持精细的访问控制和精确的用户审计。安全团队可能不再需要依赖广泛的 IAM 角色来跨区域访问服务，从而有可能改善全球工作负载的安全态势。",
+   "keyPoints": [
+    "可信身份传播将用户的身份和群组关联随请求一起携带，用于权限授予和审计。",
+    "跨区域支持允许身份上下文自动传播到不同 AWS 区域中运行的 AWS 服务。",
+    "此前，所有访问用户身份的 AWS 服务必须驻留在同一 AWS 区域中。",
+    "该功能在支持 IAM Identity Center 的所有 AWS 区域中免费提供。"
+   ]
+  },
+  "ko": {
+   "title": "AWS IAM Identity Center, 이제 교차 리전 신뢰할 수 있는 ID 전파 지원",
+   "summary": "AWS IAM Identity Center가 이제 교차 리전 신뢰할 수 있는 ID 전파를 지원하여 사용자의 ID 컨텍스트가 요청과 함께 다른 AWS 리전으로 자동 전파될 수 있게 되었습니다. 이전에는 신뢰할 수 있는 ID 전파를 사용하려면 액세스하는 모든 AWS 서비스가 동일한 AWS 리전에 있어야 했습니다. 새로운 기능을 통해 추가 비용 없이 리전 간 개별 사용자에 대한 세분화된 액세스 제어와 감사를 유지할 수 있습니다.",
+   "impact": "이 기능은 개발자와 보안 팀이 세분화된 액세스 제어와 정밀한 사용자 감사를 유지하면서 다중 리전 배포를 설계하는 데 도움이 될 수 있습니다. 보안 팀은 더 이상 다른 리전의 서비스에 액세스하기 위해 광범위한 IAM 역할에 의존할 필요가 없을 수 있습니다.",
+   "keyPoints": [
+    "신뢰할 수 있는 ID 전파는 권한 부여 및 감사를 위해 사용자의 ID와 그룹 연결을 요청과 함께 전달합니다.",
+    "교차 리전 지원을 통해 ID 컨텍스트가 다른 AWS 리전에서 실행되는 AWS 서비스로 자동 전파될 수 있습니다.",
+    "이전에는 모든 AWS 서비스가 동일한 AWS 리전에 거주해야 했습니다.",
+    "이 기능은 IAM Identity Center를 사용할 수 있는 모든 AWS 리전에서 추가 비용 없이 제공됩니다."
+   ]
+  }
+ }
+}

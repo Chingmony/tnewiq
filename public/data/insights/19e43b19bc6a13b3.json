@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "19e43b19bc6a13b3",
+ "contentHash": "ed9526c4e599a2dc",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T02:15:15.361Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "KV Cache Cut by 99%, Single-Card Throughput Soars 6x: HKUST and CMU Team Up with Yanshan Technology to Open Source New Model",
+   "summary": "HKUST, CMU, and Yanshan Technology have jointly open-sourced a new model. The model cuts KV Cache by 99% and achieves a sixfold increase in single-card throughput. It is capable of running 512 concurrent long-reasoning paths on a single card.",
+   "impact": "This development could significantly improve efficiency and reduce resource constraints for developers and technology users running long-reasoning workloads on single-card setups.",
+   "keyPoints": [
+    "KV Cache is reduced by 99%.",
+    "Single-card throughput increases by 6 times.",
+    "Supports running 512 concurrent long-reasoning paths on a single card."
+   ]
+  },
+  "km": {
+   "title": "KV Cache បន្ថយ 99%, ទិន្នផលកាតតែមួយកើនឡើង 6 ដង៖ HKUST និង CMU ចាប់ដៃគ្នាជាមួយ Yanshan Technology បើកកូដម៉ូដែលថ្មី",
+   "summary": "HKUST, CMU និង Yanshan Technology បានរួមគ្នាបើកកូដម៉ូដែលថ្មីមួយ។ ម៉ូដែលនេះកាត់បន្ថយ KV Cache 99% និងសម្រេចបានការកើនឡើងទិន្នផលកាតតែមួយចំនួនប្រាំដង។ វាអាចដំណើរការផ្លូវហេតុផលវែងចំនួន 512 ក្នុងពេលដំណាលគ្នាលើកាតតែមួយ។",
+   "impact": "ការអភិវឌ្ឍនេះអាចជួយកែលម្អប្រសិទ្ធភាពយ៉ាងខ្លាំង និងកាត់បន្ថយការកំណត់ធនធានសម្រាប់អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលដំណើរការការងារហេតុផលវែងនៅលើកាតតែមួយ។",
+   "keyPoints": [
+    "KV Cache ត្រូវបានកាត់បន្ថយ 99%។",
+    "ទិន្នផលកាតតែមួយកើនឡើង 6 ដង។",
+    "គាំទ្រការដំណើរការផ្លូវហេតុផលវែងចំនួន 512 ក្នុងពេលដំណាលគ្នាក្នុងកាតតែមួយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "KV Cache砍掉99%，单卡吞吐飙6倍，港科CMU联手岩山科技开源新模型",
+   "summary": "香港科技大学、CMU联手岩山科技开源了新模型。该模型将KV Cache削减了99%，使单卡吞吐量飙升了6倍。它能够在单张卡上同时运行512路长推理。",
+   "impact": "这项进展可能会显著提高开发人员和技术用户在单卡配置上运行长推理工作负载时的效率，并降低资源限制。",
+   "keyPoints": [
+    "KV Cache被砍掉了99%。",
+    "单卡吞吐量飙升6倍。",
+    "单卡可同时跑512路长推理。"
+   ]
+  },
+  "ko": {
+   "title": "KV Cache 99% 절감, 단일 카드 처리량 6배 급증: HKUST와 CMU가 Yanshan Technology와 손잡고 신규 모델 오픈소스 공개",
+   "summary": "HKUST, CMU, Yanshan Technology가 공동으로 신규 모델을 오픈소스로 공개했습니다. 이 모델은 KV Cache를 99% 줄이고 단일 카드 처리량을 6배 향상시켰습니다. 단일 카드에서 512개의 장기 추론 경로를 동시에 실행할 수 있습니다.",
+   "impact": "이번 개발은 단일 카드 설정에서 장기 추론 워크로드를 실행하는 개발자와 기술 사용자에게 효율성을 크게 향상시키고 자원 제약을 줄여줄 수 있습니다.",
+   "keyPoints": [
+    "KV Cache가 99% 감소했습니다.",
+    "단일 카드 처리량이 6배 증가했습니다.",
+    "단일 카드에서 512개의 장기 추론을 동시에 실행할 수 있습니다."
+   ]
+  }
+ }
+}

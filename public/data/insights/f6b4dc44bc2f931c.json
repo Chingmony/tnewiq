@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f6b4dc44bc2f931c",
+ "contentHash": "973052af92d5794d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T02:11:25.668Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "summary": "CISA has added two new vulnerabilities, CVE-2026-109618 and CVE-2026-109619, to its Known Exploited Vulnerabilities Catalog. These memory corruption and stale internal request-state vulnerabilities in PHP represent frequent attack vectors for malicious actors. CISA urges all organizations to prioritize rapid remediation of these security issues.",
+   "impact": "Security teams and developers working with PHP could face significant risks from these vulnerabilities. Organizations may need to review their systems and apply patches quickly to mitigate potential exploits.",
+   "keyPoints": [
+    "CISA added CVE-2026-109618 and CVE-2026-109619 to the KEV Catalog.",
+    "The flaws involve PHP memory corruption and stale internal request-state vulnerabilities.",
+    "BOD 26-04 requires federal agencies to prioritize rapid remediation of high-risk KEV vulnerabilities.",
+    "CISA encourages all organizations to adopt risk-based vulnerability management."
+   ]
+  },
+  "km": {
+   "title": "CISA បានបន្ថែមការខ្សោយសន្តិសុខដែលគេដឹងថាមានការវាយប្រហារពីរទៅក្នុងកាតាឡុក",
+   "summary": "CISA បានបន្ថែមភាពខ្សោយសន្តិសុខថ្មីចំនួនពីរគឺ CVE-2026-109618 និង CVE-2026-109619 ទៅក្នុងកាតាឡុកភាពខ្សោយសន្តិសុខដែលគេដឹងថាមានការវាយប្រហារ (KEV)។ ភាពខ្សោយសន្តិសុខទាំងនេះពាក់ព័ន្ធនឹងការខូចខាតអង្គចងចាំ និងស្ថានភាពសំណើខាងក្នុងរបស់ PHP ដែលជាវ៉ិចទ័រវាយប្រហារញឹកញាប់សម្រាប់ពួកឧក្រិដ្ឋជនអ៊ីនធឺណិត។ CISA បានជំរុញឱ្យអង្គភាពទាំងអស់ផ្តល់អាទិភាពដល់ការដោះស្រាយបញ្ហាទាំងនេះយ៉ាងលឿន។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍ដែលប្រើប្រាស់ PHP អាចប្រឈមមុខនឹងហានិភ័យសំខាន់ៗពីភាពខ្សោយសន្តិសុខទាំងនេះ។ អង្គភាពនានាអាចចាំបាច់ត្រូវពិនិត្យប្រព័ន្ធរបស់ពួកគេ និងដាក់ពង្រាយបំណះសុវត្ថិភាពយ៉ាងឆាប់រហ័ស។",
+   "keyPoints": [
+    "CISA បានបន្ថែម CVE-2026-109618 និង CVE-2026-109619 ទៅក្នុងកាតាឡុក KEV ។",
+    "បញ្ហាទាំងនេះពាក់ព័ន្ធនឹងភាពខ្សោយសន្តិសុខអង្គចងចាំ និងស្ថានភាពសំណើខាងក្នុងរបស់ PHP ។",
+    "BOD 26-04 តម្រូវឱ្យទីភ្នាក់ងារសហព័ន្ធផ្តល់អាទិភាពដល់ការកែតម្រូវភាពខ្សោយសន្តិសុខ KEV ដែលមានហានិភ័យខ្ពស់។",
+    "CISAលើកទឹកចិត្តដល់អង្គភាពទាំងអស់ឱ្យអនុវត្តការគ្រប់គ្រងភាពខ្សោយសន្តិសុខផ្អែកលើហានិភ័យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "CISA将两个已知遭利用的漏洞添加到目录中",
+   "summary": "CISA在其已知遭利用漏洞目录中添加了两个新漏洞：CVE-2026-109618和CVE-2026-109619。这些PHP内存损坏和陈旧内部请求状态漏洞是恶意网络攻击者的常见攻击媒介，并对联邦企业构成了重大风险。CISA敦促所有组织优先快速修复这些漏洞。",
+   "impact": "使用PHP的安全团队和开发人员可能会面临这些漏洞带来的重大风险。各组织可能需要检查其系统并迅速应用补丁以减轻潜在的攻击。",
+   "keyPoints": [
+    "CISA将CVE-2026-109618和CVE-2026-109619添加到了KEV目录中。",
+    "这些漏洞涉及PHP内存损坏和陈旧内部请求状态漏洞。",
+    "BOD 26-04要求联邦机构优先快速修复高风险的KEV漏洞。",
+    "CISA鼓励所有组织采用基于风险的漏洞管理。"
+   ]
+  },
+  "ko": {
+   "title": "CISA, 알려진 악용 취약점 두 개를 카탈로그에 추가",
+   "summary": "CISA는 알려진 악용 취약점 카탈로그에 CVE-2026-109618 및 CVE-2026-109619 두 가지 새로운 취약점을 추가했습니다. 이러한 PHP 메모리 손상 및 오래된 내부 요청 상태 취약점은 악성 사이버 공격자들의 빈번한 공격 벡터이며 연방 기업에 상당한 위험을 초래합니다. CISA는 모든 조직에 이러한 보안 문제의 신속한 조치를 우선시할 것을 촉구합니다.",
+   "impact": "보안 팀과 PHP를 사용하는 개발자는 이러한 취약점으로 인해 상당한 위험에 직면할 수 있습니다. 조직은 잠재적인 악용을 완화하기 위해 시스템을 검토하고 패치를 신속하게 적용해야 할 수 있습니다.",
+   "keyPoints": [
+    "CISA는 CVE-2026-109618 및 CVE-2026-109619를 KEV 카탈로그에 추가했습니다.",
+    "해당 결함은 PHP 메모리 손상 및 오래된 내부 요청 상태 취약점과 관련이 있습니다.",
+    "BOD 26-04는 연방 기관이 고위험 KEV 취약점의 신속한 수정을 우선시하도록 요구합니다.",
+    "CISA는 모든 조직이 위험 기반 취약점 관리를 채택할 것을 권장합니다."
+   ]
+  }
+ }
+}
