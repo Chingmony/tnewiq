@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "76cf590ba5b8f05f",
+ "contentHash": "45b044d509683274",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T14:44:21.787Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Same performance, up to 3x cost... 'Complex harness' blocking AI agents",
+   "summary": "Recent research shows that making the working environment of AI coding agents complex hardly increases coding accuracy, but inference costs can increase by up to three times. Researchers from Shandong University and UC Berkeley found that reducing unnecessary instructions and tool definitions has a greater impact on cost efficiency than elaborately designing harnesses such as tools and execution procedures around the model.",
+   "impact": "This research suggests that developers and technology users could optimize expenses by simplifying agent environments rather than adding complex harnesses. Reducing unnecessary definitions may help control inference costs without sacrificing performance.",
+   "keyPoints": [
+    "Complex agent working environments barely improve code writing accuracy.",
+    "Inference costs can increase by up to three times with complex configurations.",
+    "Researchers from Shandong University and UC Berkeley conducted the study.",
+    "Simplifying instructions and tool definitions improves cost efficiency."
+   ]
+  },
+  "km": {
+   "title": "ដំណើរការដូចគ្នា តម្លៃកើនឡើងរហូតដល់៣ដង... 'Harness ស្មុគស្មាញ' រារាំងភ្នាក់ងារ AI",
+   "summary": "ការស្រាវជ្រាវថ្មីៗបង្ហាញថា ការកំណត់បរិយាកាសការងាររបស់ភ្នាក់ងារសរសេរកូដ AI ឱ្យមានភាពស្មុគស្មាញ គឺแทบមិនបង្កើនភាពត្រឹមត្រូវនៃការសរសេរកូដនោះទេ ប៉ុន្តែតម្លៃនៃការសន្និដ្ឋានអាចកើនឡើងរហូតដល់បីដង។ អ្នកស្រាវជ្រាវមកពីសាកលវិទ្យាល័យ Shandong និងសាកលវិទ្យាល័យ UC Berkeley បានរកឃើញថា ការកាត់បន្ថយការបញ្ជា និងការកំណត់ឧបករណ៍ដែលមិនចាំបាច់ មានឥទ្ធិពលខ្លាំងជាងការរចនា harness ឱ្យបានល្អិតល្អន់។",
+   "impact": "ការរកឃើញនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចកាត់បន្ថយការចំណាយតាមរយៈការធ្វើឱ្យបរិយាកាសភ្នាក់ងារមានភាពងាយស្រួល។ ការកាត់បន្ថយការកំណត់ដែលមិនចាំបាច់អាចជួយគ្រប់គ្រងតម្លៃនៃការសន្និដ្ឋានដោយមិនបាត់បង់ដំណើរការ។",
+   "keyPoints": [
+    "បរិយាកាសការងាររបស់ភ្នាក់ងារស្មុគស្មាញ แทบមិនបង្កើនភាពត្រឹមត្រូវក្នុងការសរសេរកូដទេ។",
+    "តម្លៃនៃការសន្និដ្ឋានអាចកើនឡើងរហូតដល់បីដង។",
+    "អ្នកស្រាវជ្រាវមកពីសាកលវិទ្យាល័យ Shandong និង UC Berkeley បានធ្វើការសិក្សានេះ។",
+    "ការកាត់បន្ថយការបញ្ជាដែលមិនចាំបាច់ជួយបង្កើនប្រសិទ្ធភាពចំណាយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "性能保持不变，成本飙升高达3倍……阻碍智能体的“复杂外壳”",
+   "summary": "研究结果显示，即使将AI编码智能体的工作环境配置得十分复杂，代码编写准确率也几乎不会提高，但推理成本却可能增加高达3倍。中国山东大学和美国UC伯克利的研究人员指出，比起精心设计模型周围的工具和执行程序等“外壳”，减少不必要的指令和工具定义更能对成本效益产生重大影响。",
+   "impact": "这项研究表明，开发人员和技术用户可以通过简化智能体环境来优化开销，而不是盲目添加复杂的配置。减少不必要的定义可能有助于在不牺牲性能的情况下控制推理成本。",
+   "keyPoints": [
+    "复杂的智能体工作环境几乎无法提高代码编写准确率。",
+    "推理成本可能会随着复杂配置增加多达3倍。",
+    "该研究由山东大学和UC伯克利的研究人员共同发布。",
+    "减少不必要的指令和工具定义比设计复杂外壳更能提升成本效益。"
+   ]
+  },
+  "ko": {
+   "title": "\"성능은 그대로, 비용은 최대 3배\"…에이전트 가로막는 '복잡한 하네스'",
+   "summary": "AI 코딩 에이전트의 작업 환경을 복잡하게 구성해도 코드 작성 정확도는 거의 높아지지 않지만 추론 비용은 최대 3배까지 늘어날 수 있다는 연구 결과가 나왔다. 중국 산둥대와 미국 UC버클리 연구진은 모델을 둘러싼 도구와 실행 절차 등 하네스를 정교하게 설계하는 것보다 불필요한 지시문과 도구 정의를 줄이는 편이 비용 효율에 더 큰 영향을 줄 수 있다고 분석했다.",
+   "impact": "이번 연구는 개발자와 기술 사용자가 복잡한 하네스를 추가하는 대신 에이전트 환경을 단순화하여 비용을 최적화할 수 있음을 시사한다. 불필요한 지시문과 도구 정의를 줄이면 성능 저하 없이 추론 비용을 관리하는 데 도움이 될 수 있다.",
+   "keyPoints": [
+    "AI 코딩 에이전트 환경을 복잡하게 만들어도 코드 작성 정확도는 거의 높아지지 않는다.",
+    "추론 비용은 최대 3배까지 늘어날 수 있다.",
+    "중국 산둥대와 미국 UC버클리 연구진이 연구를 진행했다.",
+    "불필요한 지시문과 도구 정의를 줄이는 것이 비용 효율에 더 큰 영향을 준다."
+   ]
+  }
+ }
+}

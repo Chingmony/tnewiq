@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7e75b9009b3b0ccb",
+ "contentHash": "173f720bb08b65b3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T14:40:38.927Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Design Tenets for Agent Identity Management Systems",
+   "summary": "NIST Cybersecurity Insights published its second blog post in a series focusing on agentic identity, authentication, and authorization. Following up on previous discussions about foundational identity and access management for scaling agents, this post introduces initial design tenets. These tenets are derived from public comments on the NCCoE Accelerating initiative.",
+   "impact": "Security teams and developers working with AI agents may find these design tenets helpful for understanding foundational requirements. Adopting these principles could assist organizations in building more secure and scalable identity and access management frameworks.",
+   "keyPoints": [
+    "This is the second blog post in a series on agentic identity, authentication, and authorization.",
+    "The post defines an initial set of design tenets for agent identity management systems.",
+    "Tenets are drawn from public comments on the NCCoE Accelerating initiative."
+   ]
+  },
+  "km": {
+   "title": "គោលការណ៍រចនាសម្រាប់ប្រព័ន្ធគ្រប់គ្រងអត្តសញ្ញាណភ្នាក់ងារ",
+   "summary": "ប្រភព NIST Cybersecurity Insights បានបោះពុម្ពផ្សាយប្លុកទីពីរនៅក្នុងស៊េរីស្តីពីអត្តសញ្ញាណ ការផ្ទៀងផ្ទាត់ និងការអនុញ្ញាតរបស់ភ្នាក់ងារ។ បន្ទាប់ពីការពិភាក្សាមុនៗស្តីពីការគ្រប់គ្រងអត្តសញ្ញាណ និងការចូលប្រើប្រាស់ ប្លុកនេះបានណែនាំសំណុំគោលការណ៍រចនាដំបូង។ គោលការណ៍ទាំងនេះត្រូវបានទាញយកចេញពីមតិសាធារណៈស្តីពីគំនិតផ្តួចផ្តើម NCCoE Accelerating។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ដែលធ្វើការជាមួយភ្នាក់ងារ AI អាចយល់ដឹងពីតម្រូវការមូលដ្ឋានតាមរយៈគោលការណ៍រចនាទាំងនេះ។ ការអនុវត្តគោលការណ៍ទាំងនេះអាចជួយស្ថាប័ននានាក្នុងការបង្កើតក្របខណ្ឌគ្រប់គ្រងអត្តសញ្ញាណដែលមានសុវត្ថិភាពជាងមុន។",
+   "keyPoints": [
+    "នេះគឺជាប្លុកទីពីរនៅក្នុងស៊េរីស្តីពីអត្តសញ្ញាណ ការផ្ទៀងផ្ទាត់ និងការអនុញ្ញាតរបស់ភ្នាក់ងារ។",
+    "អត្ថបទបានកំណត់សំណុំគោលការណ៍រចនាដំបូងសម្រាប់ប្រព័ន្ធគ្រប់គ្រងអត្តសញ្ញាណភ្នាក់ងារ។",
+    "គោលការណ៍ទាំងនេះត្រូវបានទាញចេញពីមតិសាធារណៈលើគំនិតផ្តួចផ្តើម NCCoE Accelerating។"
+   ]
+  },
+  "zh-CN": {
+   "title": "代理身份管理系统的设计原则",
+   "summary": "NIST Cybersecurity Insights 发布了关于代理身份、认证和授权系列文章的第二篇博客。在之前讨论了用于扩展代理的基础身份和访问管理之后，本文进一步定义了一组初始设计原则。这些原则摘自公众对 NCCoE Accelerating 计划的评论。",
+   "impact": "致力于 AI 代理的安全团队和开发人员可能会发现这些设计原则有助于理解基础要求。采用这些原则可能有助于组织建立更安全、更具可扩展性的身份和访问管理框架。",
+   "keyPoints": [
+    "这是关于代理身份、认证和授权系列文章的第二篇博客。",
+    "该文章为代理身份管理系统定义了一组初始设计原则。",
+    "这些原则取自公众对 NCCoE Accelerating 计划的评论。"
+   ]
+  },
+  "ko": {
+   "title": "에이전트 신원 관리 시스템을 위한 설계 원칙",
+   "summary": "NIST Cybersecurity Insights는 에이전트 신원, 인증 및 권한 부여에 관한 시리즈의 두 번째 블로그 게시물을 발행했습니다. 에이전트 확장을 위한 필수 신원 및 접근 관리 기능에 대한 이전 논의에 이어 초기 설계 원칙을 정의합니다. 다뤄진 원칙들은 NCCoE Accelerating 이니셔티브에 대한 대중의 의견에서 도출되었습니다.",
+   "impact": "보안 팀과 개발자는 이러한 설계 원칙을 통해 기본 요구 사항을 파악하는 데 도움을 받을 수 있습니다. 이러한 원칙을 채택하면 조직이 더 안전하고 확장 가능한 신원 및 접근 관리 프레임워크를 구축하는 데 기여할 수 있습니다.",
+   "keyPoints": [
+    "에이전트 신원, 인증, 권한 부여 시리즈의 두 번째 블로그 게시물입니다.",
+    "에이전트 신원 관리 시스템을 위한 초기 설계 원칙 세트를 정의합니다.",
+    "원칙은 NCCoE Accelerating 이니셔티브에 대한 대중의 의견에서 도출되었습니다."
+   ]
+  }
+ }
+}

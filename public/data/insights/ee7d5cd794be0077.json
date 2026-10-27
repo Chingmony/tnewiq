@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ee7d5cd794be0077",
+ "contentHash": "e1415ea0c161f04d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T14:41:33.795Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+   "summary": "Generative AI is making fake login pages easier to build and more convincing for attackers. These AI-generated pages can recreate familiar login screens, impersonate trusted brands, and target specific employees or organizations. Beyond simply stealing passwords, some of these pages can capture MFA codes or hijack authenticated sessions.",
+   "impact": "Security teams and technology users may face more sophisticated phishing attempts that bypass traditional awareness. Developers and organizations could need to adopt stronger authentication mechanisms that resist session hijacking and advanced credential theft.",
+   "keyPoints": [
+    "Generative AI makes creating fake login pages easier and more convincing.",
+    "Attackers can impersonate trusted brands and tailor phishing to specific targets.",
+    "Fake pages can capture passwords, MFA codes, and hijack authenticated sessions."
+   ]
+  },
+  "km": {
+   "title": "ទំព័រចូលប្រព័ន្ធក្លែងក្លាយដែលបង្កើតដោយ AI កំពុងធ្វើឱ្យការគ្រប់គ្រងគណនីកាន់តែងាយស្រួល",
+   "summary": "បញ្ញាសិប្បនិម្មិតជំនាន់ថ្មីកំពុងធ្វើឱ្យទំព័រចូលប្រព័ន្ធក្លែងក្លាយកាន់តែងាយស្រួលបង្កើត និងមានភាពដូចការពិតជាងមុនសម្រាប់ពួកឧក្រិដ្ឋជន។ ទំព័រទាំងនេះអាចបង្កើតអេក្រង់ចូលប្រព័ន្ធដែលធ្លាប់ស្គាល់ឡើងវិញ ក្លែងបន្លំម៉ាកយីហោដែលគួរឱ្យទុកចិត្ត និងកំណត់គោលដៅលើបុគ្គលិក ឬអង្គការជាក់លាក់។ ក្រៅពីការលួចពាក្យសម្ងាត់ ទំព័រទាំងនោះក៏អាចចាប់យកកូដ MFA ឬបំពានលើសម័យកាលផ្ទៀងផ្ទាត់ផងដែរ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងប្រឈមមុខនឹងការបន្លំតាមប្រព័ន្ធអ៊ីនធឺណិតដែលមានភាពស្មុគស្មាញជាងមុន ដែលអាចរំលងការប្រុងប្រយ័ត្នបែបប្រពៃណី។ អង្គការនានាអាចចាំបាច់ត្រូវអនុម័តយន្តការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវដែលកាន់តែខ្លាំងក្លាដើម្បីទប់ទល់នឹងការបំពានសម័យកាល និងការលួចព័ត៌មានសម្ងាត់។",
+   "keyPoints": [
+    "បញ្ញាសិប្បនិម្មិតជួយឱ្យការបង្កើតទំព័រចូលប្រព័ន្ធក្លែងក្លាយមានភាពងាយស្រួលនិងគួរឱ្យទុកចិត្តជាងមុន។",
+    "អ្នកវាយប្រហារអាចក្លែងបន្លំម៉ាកយីហោ និងកំណត់គោលដៅជាក់លាក់។",
+    "ទំពែក្លែងក្លាយអាចចាប់យកពាក្យសម្ងាត់ កូដ MFA និងបំពានសម័យកាលដែលបានផ្ទៀងផ្ទាត់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AI生成的虚假登录页面让账户接管变得更容易",
+   "summary": "生成式AI正使得虚假登录页面更容易构建且更具说服力。攻击者可以重建熟悉的登录屏幕、冒充受信任的品牌，并针对特定员工或组织定制网络钓鱼尝试。除了窃取密码外，一些虚假登录页面还可以捕获MFA代码或劫持已认证的会话。",
+   "impact": "安全团队和技术用户可能会面临更复杂的网络钓鱼尝试，从而绕过传统的防范意识。开发人员和组织可能需要采用更强大的身份验证机制，以抵御会话劫持和高级凭据窃取。",
+   "keyPoints": [
+    "生成式AI使创建虚假登录页面变得更容易且更有说服力。",
+    "攻击者可以冒充受信任的品牌并针对特定目标进行网络钓鱼。",
+    "虚假页面可以捕获密码、MFA代码并劫持已认证的会话。"
+   ]
+  },
+  "ko": {
+   "title": "AI가 생성한 가짜 로그인 페이지로 계정 탈취가 더 쉬워지고 있습니다",
+   "summary": "생성형 AI는 공격자들이 가짜 로그인 페이지를 더 쉽게 만들고 더 설득력 있게 제작할 수 있도록 돕고 있습니다. 공격자들은 익숙한 로그인 화면을 재현하고, 신뢰받는 브랜드를 사칭하며, 특정 직원이나 조직에 맞춘 피싱을 시도할 수 있습니다. 일부 가짜 로그인 페이지는 비밀번호 탈취를 넘어 MFA 코드 수집이나 인증된 세션 하이잭킹도 수행할 수 있습니다.",
+   "impact": "보안 팀과 기술 사용자는 기존의 보안 인식을 우회하는 더욱 정교한 피싱 시도에 직면할 수 있습니다. 개발자와 조직은 세션 하이잭킹 및 고도화된 자격 증명 도용에 대응하기 위해 더 강력한 인증 메커니즘을 도입해야 할 수 있습니다.",
+   "keyPoints": [
+    "생성형 AI를 통해 가짜 로그인 페이지를 더 쉽고 설득력 있게 제작할 수 있습니다.",
+    "공격자는 신뢰받는 브랜드를 사칭하고 특정 대상을 겨냥해 피싱을 시도할 수 있습니다.",
+    "가짜 페이지는 비밀번호와 MFA 코드를 탈취하고 인증된 세션을 가로챌 수 있습니다."
+   ]
+  }
+ }
+}

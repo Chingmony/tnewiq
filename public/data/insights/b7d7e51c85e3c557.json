@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b7d7e51c85e3c557",
+ "contentHash": "44f26a73001723a7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T14:40:28.790Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+   "summary": "Microsoft has addressed a vulnerability in the Authenticator app for Android, tracked as CVE-2026-80097, that allowed a permissionless malicious app to impersonate trusted Microsoft applications like Teams. By doing so, the malicious app could collect sign-in tokens associated with a victim's work account. Microsoft has released a fix in Authenticator for Android version 6.2606.4246 to resolve this security issue.",
+   "impact": "Security teams and technology users should ensure that the Microsoft Authenticator app on Android is updated to version 6.2606.4246 or later to protect work account credentials from unauthorized access. Failure to update could leave devices vulnerable to token theft by malicious applications.",
+   "keyPoints": [
+    "Microsoft fixed a flaw tracked as CVE-2026-80097 in the Authenticator app for Android.",
+    "The vulnerability allowed permissionless apps to pose as trusted Microsoft applications such as Teams.",
+    "Malicious apps could leverage this to collect sign-in tokens for a user's work account.",
+    "Users are advised to update to Authenticator for Android version 6.2606.4246."
+   ]
+  },
+  "km": {
+   "title": "ពិការភាពក្នុង Microsoft Authenticator អនុញ្ញាតឱ្យកម្មវិធី Android គ្មានសិទ្ធិលួចថូខឹនគណនីការងារ",
+   "summary": "ក្រុមហ៊ុន Microsoft បានដោះស្រាយពិការភាពមួយនៅក្នុងកម្មវិធី Authenticator សម្រាប់ Android ដែលតាមដានក្រោមលេខ CVE-2026-80097 ដោយអនុញ្ញាតឱ្យកម្មវិធីមាន malicious គ្មានសិទ្ធិធ្វើពុតជាកម្មវិធី Microsoft ដែលទុកចិត្តដូចជា Teams ។ តាមរយៈនេះ កម្មវិធី malicious អាចប្រមូលថូខឹនចុះឈ្មោះចូលសម្រាប់គណនីការងាររបស់ជនរងគ្រោះ។ Microsoft បានចេញផ្សាយការជួសជុលនៅក្នុង Authenticator សម្រាប់ Android កំណែ 6.2606.4246 ដើម្បីแก้ปัญหา។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាគួរតែធានាថាកម្មវិធី Microsoft Authenticator នៅលើ Android ត្រូវបានអាប់ដេតទៅកាន់កំណែ 6.2606.4246 ដើម្បីការពារព័ត៌មានសម្ងាត់គណនីការងារពីការចូលប្រើប្រាស់ដោយគ្មានការអនុញ្ញាត។ ការខកខានមិនបានអាប់ដេតអាចទុកឧបករណ៍ឱ្យងាយរងគ្រោះចំពោះការលួចថូខឹន។",
+   "keyPoints": [
+    "Microsoft បានជួសជុលពិការភាពដែលបានតាមដានជា CVE-2026-80097 នៅក្នុងកម្មវិធី Authenticator សម្រាប់ Android ។",
+    "ភាពខ្សោយនេះបានអនុញ្ញាតឱ្យកម្មវិធីគ្មានសិទ្ធិធ្វើជាកម្មវិធី Microsoft ដែលទុកចិត្តដូចជា Teams ។",
+    "កម្មវិធី malicious អាចប្រមូលថូខឹនចូលប្រើប្រាស់សម្រាប់គណនីការងារ។",
+    "អ្នកប្រើប្រាស់ត្រូវបានណែនាំឱ្យអាប់ដេតទៅកាន់ Authenticator សម្រាប់ Android កំណែ 6.2606.4246 ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Microsoft Authenticator 漏洞允许无权限的 Android 应用窃取工作账号令牌",
+   "summary": "微软修复了 Android 版 Authenticator 应用中的一个漏洞（编号为 CVE-2026-80097），该漏洞允许没有权限的恶意应用伪装成受信任的微软应用（例如 Teams），并收集受害者工作账号的登录令牌。微软已在 Android 版 Authenticator 6.2606.4246 版本中修复了此问题，建议所有用户进行更新。",
+   "impact": "安全团队和技术用户应确保将 Android 上的 Microsoft Authenticator 应用更新至 6.2606.4246 或更高版本，以保护工作账号凭据免遭未授权访问。未进行更新可能会使设备容易受到恶意应用窃取令牌的攻击。",
+   "keyPoints": [
+    "微软修复了 Android 版 Authenticator 应用中被追踪为 CVE-2026-80097 的漏洞。",
+    "该漏洞允许无权限的应用冒充诸如 Teams 等受信的微软应用。",
+    "恶意应用借此可以收集受害者工作账号的登录令牌。",
+    "建议用户更新至 Android 版 Authenticator 6.2606.4246 版本。"
+   ]
+  },
+  "ko": {
+   "title": "Microsoft Authenticator 결함으로 권한 없는 안드로이드 앱이 업무 계정 토큰 탈취 가능",
+   "summary": "마이크로소프트는 안드로이드용 Authenticator 앱에서 권한이 없는 악성 앱이 Teams와 같은 신뢰할 수 있는 마이크로소프트 앱으로 가장하여 피해자의 업무 계정 로그인 토큰을 수집할 수 있게 하는 취약점(CVE-2026-80097)을 수정했습니다. 마이크로소프트는 이 문제를 해결하기 위해 안드로이드용 Authenticator 버전 6.2606.4246에서 패치를 배포했으므로 사용자는 앱을 업데이트해야 합니다.",
+   "impact": "보안 팀과 기술 사용자는 업무 계정 자격 증명이 무단으로 액세스되는 것을 방지하기 위해 안드로이드용 Microsoft Authenticator 앱을 버전 6.2606.4246 이상으로 업데이트해야 합니다. 업데이트를 수행하지 않을 경우 기기가 악성 애플리케이션의 토큰 탈취에 취약할 수 있습니다.",
+   "keyPoints": [
+    "마이크로소프트는 안드로이드용 Authenticator 앱에서 CVE-2026-80097로 추적되는 결함을 수정했습니다.",
+    "이 취약점을 통해 권한이 없는 앱이 Teams 같은 신뢰할 수 있는 마이크로소프트 앱으로 위장할 수 있었습니다.",
+    "악성 앱은 이를 이용해 사용자의 업무 계정 로그인 토큰을 수집할 수 있었습니다.",
+    "사용자는 안드로이드용 Authenticator 버전 6.2606.4246으로 업데이트할 것을 권장합니다."
+   ]
+  }
+ }
+}

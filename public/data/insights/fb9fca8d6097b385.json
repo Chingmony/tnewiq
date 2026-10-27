@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fb9fca8d6097b385",
+ "contentHash": "174cd0b2a58cc2e4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T14:38:05.691Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Former Deepmind researcher thinks AlphaGo's playbook can cure AI hallucinations",
+   "summary": "Former Deepmind researcher Thore Graepel and his startup Metis Reasoning aim to apply AlphaGo's search principle to general reasoning. The approach involves using an explicit knowledge ledger instead of storing knowledge strictly inside model weights. This design seeks to make every conclusion checkable against evidence. However, there is currently no working system and no benchmarks available.",
+   "impact": "This proposed search-based approach could potentially address reliability issues in AI models if successfully developed. Technology users and developers may eventually see more verifiable AI outputs, though the current lack of a working system means its practical viability remains unproven.",
+   "keyPoints": [
+    "Former Deepmind researcher Thore Graepel leads the startup Metis Reasoning.",
+    "The startup aims to bring AlphaGo's search principle to general reasoning.",
+    "An explicit knowledge ledger would allow conclusions to be checked against evidence.",
+    "There is currently no working system and no benchmarks."
+   ]
+  },
+  "km": {
+   "title": "អតីតអ្នកស្រាវជ្រាវ Deepmind គិតថាវិធីសាស្ត្ររបស់ AlphaGo អាចព្យាបាលបញ្ហាបញ្ចេញមតិខុសរបស់ AI",
+   "summary": "អតីតអ្នកស្រាវជ្រាវ Deepmind លោក Thore Graepel ចង់ឱ្យក្រុមហ៊ុន startup របស់លោកឈ្មោះ Metis Reasoning យកគោលការណ៍ស្វែងរករបស់ AlphaGo មកអនុវត្តចំពោះការសន្និដ្ឋានទូទៅ។ ជំនួសឱ្យការរក្សាទុកចំណេះដឹងក្នុងទម្ងន់គំរូ បញ្ជីចំណេះដឹងច្បាស់លាស់នឹងធ្វើឱ្យរាល់ការសន្និដ្ឋានអាចពិនិត្យផ្ទៀងផ្ទាត់ជាមួយភស្តុតាងបាន។ ទោះជាយ៉ាងណាក៏ដោយ រហូតមកទល់ពេលនេះ មិនទាន់មានប្រព័ន្ធដំណើរការ ឬស្តង់ដារវាស់វែងណាមួយនៅឡើយទេ។",
+   "impact": "វិធីសាស្ត្រផ្អែកលើការស្វែងរកនេះអាចដោះស្រាយបញ្ហាភាពជឿជាក់ក្នុងការខុសឆ្គងរបស់ AI ប្រសិនបើត្រូវបានអភិវឌ្ឍដោយជោគជ័យ។ អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងឃើញលទ្ធផល AI ដែលអាចផ្ទៀងផ្ទាត់បាន ប៉ុន្តែការខ្វះខាតប្រព័ន្ធដំណើរការនាពេលបច្ចុប្បន្នបញ្ជាក់ថា លទ្ធភាពអនុវត្តជាក់ស្តែងរបស់វាគឺមិនទាន់ច្បាស់លាស់នៅឡើយទេ។",
+   "keyPoints": [
+    "អតីតអ្នកស្រាវជ្រាវ Deepmind លោក Thore Graepel ដឹកនាំក្រុមហ៊ុន startup Metis Reasoning។",
+    "ក្រុមហ៊ុននេះមានគោលបំណងយកគោលការណ៍ស្វែងរករបស់ AlphaGo មកអនុវត្តលើការសន្និដ្ឋានទូទៅ។",
+    "បញ្ជីចំណេះដឹងច្បាស់លាស់អាចឱ្យការសន្និដ្ឋានត្រូវបានពិនិត្យទល់នឹងភស្តុតាង។",
+    "បច្ចុប្បន្នមិនទាន់มีប្រព័ន្ធដំណើរការ ឬស្តង់ដារវាស់វែងណាមួយនៅឡើយទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "前 Deepmind 研究人员认为 AlphaGo 的策略可以治愈 AI 幻觉",
+   "summary": "前 Deepmind 研究人员托雷·格雷佩尔（Thore Graepel）希望他的初创公司 Metis Reasoning 将 AlphaGo 的搜索原理引入通用推理。该方法不把知识锁在模型权重中，而是通过显式的知识账本让每个结论都能根据证据进行验证。不过到目前为止，还没有可用的系统和基准测试。",
+   "impact": "这种基于搜索的方法如果成功开发，可能有助于解决人工智能模型的可靠性问题。技术开发者和用户未来或许能看到更具可验证性的 AI 输出，但由于目前缺乏可用系统，其实际可行性仍未得到证实。",
+   "keyPoints": [
+    "前 Deepmind 研究人员 Thore Graepel 领导初创公司 Metis Reasoning。",
+    "该初创公司旨在将 AlphaGo 的搜索原理应用于通用推理。",
+    "显式知识账本可使每个结论针对证据进行检查。",
+    "目前尚无可用系统和基准测试。"
+   ]
+  },
+  "ko": {
+   "title": "전 Deepmind 연구원, AlphaGo의 플레이북이 AI 환각을 치료할 수 있다고 믿다",
+   "summary": "전 Deepmind 연구원인 토레 그라펠(Thore Graepel)은 자신의 스타트업 메티스 리조닝(Metis Reasoning)을 통해 AlphaGo의 탐색 원리를 일반 추론에 적용하고자 합니다. 모델 가중치 안에 지식을 가두는 대신 명시적인 지식 원장을 사용하여 모든 결론을 증거와 대조하여 확인할 수 있도록 하는 방식입니다. 하지만 지금까지 작동하는 시스템이나 벤치마크는 없는 상태입니다.",
+   "impact": "이러한 제안된 탐색 기반 접근 방식은 성공적으로 개발될 경우 AI 모델의 신뢰성 문제를 해결하는 데 기여할 수 있습니다. 개발자와 기술 사용자들은 향후 더 검증 가능한 AI 결과물을 볼 수도 있겠지만, 현재 작동하는 시스템이 없다는 점에서 실제 실현 가능성은 아직 입증되지 않았습니다.",
+   "keyPoints": [
+    "전 Deepmind 연구원인 Thore Graepel이 스타트업 Metis Reasoning을 이끌고 있습니다.",
+    "스타트업은 AlphaGo의 탐색 원리를 일반 추론에 적용하는 것을 목표로 합니다.",
+    "명시적 지식 원장은 결론을 증거와 대조하여 확인할 수 있게 합니다.",
+    "현재 작동하는 시스템과 벤치마크는 존재하지 않습니다."
+   ]
+  }
+ }
+}

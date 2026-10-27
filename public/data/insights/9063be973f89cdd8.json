@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9063be973f89cdd8",
+ "contentHash": "053fbdeac7bee638",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T14:44:54.699Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "UJCMS 13.2.0 Released, Domestic Java CMS Website Content Management System",
+   "summary": "UJCMS 13.2.0 has been officially released, introducing a completely overhauled captcha system supporting slider, character, and silent verification alongside third-party integration. The update unifies verification components across the console and website themes, while changing the registration page to use a pop-up verification. Additionally, template maintenance and preview experiences have been improved to handle and display error codes more effectively.",
+   "impact": "This update could provide developers and administrators with more flexible configuration options for user verification and better error debugging capabilities during template maintenance. The unified verification components and improved error handling may streamline administrative workflows and enhance site security configurations.",
+   "keyPoints": [
+    "Redone captcha system supporting slider, character, and silent verification with third-party integration.",
+    "Consolidated verification components for both the console and website themes.",
+    "Registration page updated to use a pop-up verification method.",
+    "Improved template maintenance and preview with error code details for administrators and general error pages for visitors."
+   ]
+  },
+  "km": {
+   "title": "UJCMS 13.2.0 ត្រូវបានចេញផ្សាយ ដែលជាប្រព័ន្ធគ្រប់គ្រងមាតិកាគេហទំព័រ Java CMS ក្នុងស្រុក",
+   "summary": "UJCMS 13.2.0 ត្រូវបានដាក់ឱ្យដំណើរការជាផ្លូវការ ដោយបានកែសម្រួលប្រព័ន្ធផ្ទៀងផ្ទាត់ captcha ឡើងវិញ ដែលគាំទ្រការផ្ទៀងផ្ទាត់បែបស្លាយ តួអក្សរ និងស្ងាត់ ព្រមទាំងផ្តល់នូវការតភ្ជាប់ផ្ទៀងផ្ទាត់ភាគីទីបី។ ការអាប់ដេតនេះបង្រួបបង្រួមសមាសភាគផ្ទៀងផ្ទាត់សម្រាប់កុងសូល និងស្បែកគេហទំព័រ ខណៈពេលដែលផ្លាស់ប្តូរទំព័រចុះឈ្មោះទៅជាការផ្ទៀងផ្ទាត់តាមផ្ទាំងលោត។ បទពិសោធន៍ថែទាំ និងមើលគំរូជាមុនក៏ត្រូវបានកែលម្អផងដែរ។",
+   "impact": "ការអាប់ដេតនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកគ្រប់គ្រងនូវជម្រើសកំណត់រចនាសម្ព័ន្ធផ្ទៀងផ្ទាត់អ្នកប្រើប្រាស់ដែលមានភាពបត់បែនជាងមុន និងសមត្ថភាព debugging កាន់តែប្រសើរ។ សមាសភាគផ្ទៀងផ្ទាត់ដែលបានបង្រួបបង្រួមអាចជួយសម្រួលដល់ដំណើរការគ្រប់គ្រង។",
+   "keyPoints": [
+    "បានកែសម្រួលប្រព័ន្ធ captcha ឡើងវិញដោយគាំទ្រការផ្ទៀងផ្ទាត់បែបស្លាយ តួអក្សរ និងស្ងាត់។",
+    "ប្រើប្រាស់សមាសភាគផ្ទៀងផ្ទាត់រួមគ្នារវាងកុងសូល និងស្បែកគេហទំព័រ។",
+    "ទំព័រចុះឈ្មោះត្រូវបានផ្លាស់ប្តូរទៅជាការផ្ទៀងផ្ទាត់តាមផ្ទាំងលោត។",
+    "កែលម្អការថែទាំគំរូ និងការមើលជាមុនជាមួយព័ត៌មានលម្អិតកូដកំហុស។"
+   ]
+  },
+  "zh-CN": {
+   "title": "UJCMS 13.2.0 发布，国内 Java CMS 网站内容管理系统",
+   "summary": "UJCMS 13.2.0 正式发布，本次版本重做了验证码体系，支持滑块、字符与静默校验，并提供第三方验证码接入。控制台与网站主题使用统一验证组件，注册页面改为弹窗验证，方便站点按业务需要配置验证方式。同时，模板维护与预览体验也得到了同步改进。",
+   "impact": "该版本可能为开发者和管理员提供更灵活的验证方式配置选项，并通过统一的验证组件和改进的错误展示提升维护效率。这些更新有助于根据业务需求更好地管理站点安全与模板调试。",
+   "keyPoints": [
+    "重做验证码体系，支持滑块、字符与静默校验及第三方验证码接入。",
+    "控制台与网站主题使用统一验证组件。",
+    "注册页面改为弹窗验证方式。",
+    "改进模板维护与预览体验，支持查看带错误编号的模板内联详情。"
+   ]
+  },
+  "ko": {
+   "title": "UJCMS 13.2.0 출시, 국내 Java CMS 웹사이트 콘텐츠 관리 시스템",
+   "summary": "UJCMS 13.2.0이 정식 출시되었으며, 슬라이더, 문자 및 자동 검증을 지원하고 서드파티 인증을 제공하는 캡차 시스템이 전면 개편되었습니다. 콘솔과 웹사이트 테마에서 통합 인증 컴포넌트를 사용하며, 회원가입 페이지는 팝업 인증 방식으로 변경되어 사이트가 비즈니스 요구에 맞게 인증 방식을 구성할 수 있도록 지원합니다. 또한 템플릿 유지 관리 및 미리보기 경험이 함께 개선되었습니다.",
+   "impact": "이번 업데이트는 개발자와 관리자에게 사용자 인증을 위한 더 유연한 구성 옵션을 제공할 수 있으며, 템플릿 유지 관리 중 오류 디버깅 기능을 향상시킬 수 있습니다. 통합된 인증 컴포넌트와 개선된 오류 처리는 관리 워크플로우를 간소화하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "슬라이더, 문자, 자동 검증 및 서드파티 연동을 지원하는 캡차 시스템 재작업.",
+    "콘솔과 웹사이트 테마 전반에 걸친 통합 인증 컴포넌트 적용.",
+    "회원가입 페이지를 팝업 인증 방식으로 변경.",
+    "관리자를 위한 오류 번호가 포함된 템플릿 내라인 세부 정보 및 방문자를 위한 일반 오류 페이지 제공."
+   ]
+  }
+ }
+}

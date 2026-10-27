@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b98b75e5e3efe8c1",
+ "contentHash": "10c4b76a09019c30",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T14:39:24.259Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+   "summary": "Cloudflare has launched a limited-time PHP Capture the Flag challenge through its Bug Bounty program on HackerOne. The challenge invites security researchers to attempt to bypass default WAF protections and exploit vulnerabilities in a deliberately vulnerable PHP sandbox. Participants are tasked with achieving remote code execution to recover the contents of a flag file.",
+   "impact": "Security teams and developers could use insights from this challenge to better understand how WAF rules protect against PHP vulnerabilities like CVE-2026-109618 and CVE-2026-109619. Testing real-world bypasses may help organizations improve their defensive postures against automated or AI-driven threats.",
+   "keyPoints": [
+    "The challenge focuses on CVE-2026-109618 and CVE-2026-109619, known as the php2shell vulnerabilities.",
+    "The target runs stock PHP 8.5.11, Apache 2 via mod_php, and an empty index.php behind default WAF protections.",
+    "Participants must demonstrate attacker-controlled PHP code or command execution to recover the /flag file contents.",
+    "Valid submissions require a private report on HackerOne with full reproduction details and a successful UI verification result."
+   ]
+  },
+  "km": {
+   "title": "សេចក្តីផ្តើមអំពីការប្រកួតប្រជែង Cloudflare PHP Capture the Flag",
+   "summary": "Cloudflare បានដាក់ឱ្យដំណើរការនូវការប្រកួតប្រជែង PHP Capture the Flag រយៈពេលកំណត់តាមរយៈកម្មវិធី Bug Bounty របស់ខ្លួននៅលើ HackerOne ។ ការប្រកួតប្រជែងនេះអញ្ជើញអ្នកស្រាវជ្រាវផ្នែកសុវត្ថិភាពឱ្យព្យាយាមឆ្លងកាត់ការការពារ WAF លំនាំដើម និង khai thác ភាពងាយរងគ្រោះនៅក្នុងបរិយាកាស sandbox PHP ។ អ្នកចូលរួមមានភារកិច្ចសម្រេចឱ្យបានការប្រតិបត្តិ ਕੋដពីចម្ងាយ ដើម្បីទាញយកមាតិកាឯកសារ flag ។",
+   "impact": "ក្រុមសុវត្ថិភាព និងអ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់ចំណេះដឹងពីការប្រកួតប្រជែងនេះដើម្បីយល់កាន់តែច្បាស់អំពីរបៀបដែលច្បាប់ WAF ការពារប្រឆាំងនឹងភាពងាយរងគ្រោះ PHP ដូចជា CVE-2026-109618 និង CVE-2026-109619 ។ ការធ្វើតេស្តការឆ្លងកាត់ក្នុងពិភពពិតអាចជួយស្ថាប័ននានាក្នុងការកែលម្អជំហរការពាររបស់ពួកគេ។",
+   "keyPoints": [
+    "ការប្រកួតប្រជែងផ្តោតលើ CVE-2026-109618 និង CVE-2026-109619 ដែលត្រូវបានគេស្គាល់ថាជាភាពងាយរងគ្រោះ php2shell ។",
+    "គោលដៅដំណើរការ PHP 8.5.11, Apache 2 តាមរយៈ mod_php និង index.php ទទេនៅពីក្រោយការការពារ WAF លំនាំដើម។",
+    "អ្នកចូលរួមត្រូវតែបង្ហាញពីការប្រតិបត្តិ ਕੋដ PHP ឬបញ្ជាដែលគ្រប់គ្រងដោយអ្នកវាយប្រហារ ដើម្បីទាញយកមាតិកាឯកសារ /flag ។",
+    "ការដាក់ស្នើដែលមានសុពលភាពទាមទាររបាយការណ៍ឯកជននៅលើ HackerOne រួមជាមួយនឹងព័ត៌មានលម្អិតនៃការបង្កើតឡើងវិញពេញលេញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "推出 Cloudflare PHP 夺旗挑战赛",
+   "summary": "Cloudflare 通过其在 HackerOne 上的漏洞赏金计划推出了限时的 PHP 夺旗挑战赛。该挑战邀请安全研究人员尝试绕过默认的 WAF 保护，并利用刻意存在漏洞的 PHP 沙箱。参与者需要实现远程代码执行以恢复 flag 文件的内容。",
+   "impact": "安全团队和开发人员可以利用此挑战中的见解，更好地了解 WAF 规则如何防范 CVE-2026-109618 和 CVE-2026-109619 等 PHP 漏洞。测试真实世界的绕过方法可能有助于组织提高对自动化或人工智能驱动威胁的防御能力。",
+   "keyPoints": [
+    "该挑战重点关注 CVE-2026-109618 和 CVE-2026-109619，即 php2shell 背后的两个 PHP 漏洞。",
+    "目标运行原生 PHP 8.5.11、通过 mod_php 运行的 Apache 2，以及在默认 WAF 保护规则背后的空 index.php。",
+    "参与者必须证明在沙箱内通过授权的 POST 请求控制 PHP 代码或命令执行。",
+    "有效提交需要在 HackerOne 上提交包含完整复现细节和成功 UI 验证结果的私密报告。"
+   ]
+  },
+  "ko": {
+   "title": "Cloudflare PHP 깃발 夺取(Capture the Flag) 챌린지 소개",
+   "summary": "Cloudflare는 HackerOne의 버그 바운티 프로그램을 통해 기간 한정 PHP Capture the Flag 챌린지를 시작했습니다. 이 챌린지는 보안 연구원들이 기본 WAF 보호를 우회하고 취약점이 있는 PHP 샌드박스를 공격해 보도록 초대합니다. 참가자들은 원격 코드 실행을 달성하여 flag 파일의 내용을 복구하는 임무를 맡습니다.",
+   "impact": "보안 팀과 개발자는 이 챌린지의 통찰력을 사용하여 WAF 규칙이 CVE-2026-109618 및 CVE-2026-109619와 같은 PHP 취약점으로부터 보호하는 방법을 더 잘 이해할 수 있습니다. 실제 우회 방법을 테스트하면 조직이 자동화되거나 AI 기반 위협에 대한 방어 태세를 개선하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "이 챌린지는 php2shell의 배경이 되는 PHP 취약점인 CVE-2026-109618 및 CVE-2026-109619에 초점을 맞춥니다.",
+    "대상 시스템은 기본 PHP 8.5.11, mod_php를 통한 Apache 2, 그리고 기본 WAF 보호 규칙 뒤에 있는 빈 index.php를 실행합니다.",
+    "참가자는 샌드박스 내에서 공격자가 제어하는 PHP 코드 또는 명령 실행을 입증하여 /flag 파일을 복구해야 합니다.",
+    "유효한 제출에는 전체 재현 세부 정보와 성공적인 UI 검증 결과가 포함된 HackerOne의 비공개 보고서가 필요합니다."
+   ]
+  }
+ }
+}

@@ -1,7 +1,741 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-27T07:55:59.994Z",
+ "generatedAt": "2026-10-27T14:34:45.157Z",
  "articles": [
+  {
+   "id": "fb9fca8d6097b385",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Former Deepmind researcher thinks AlphaGo's playbook can cure AI hallucinations",
+   "originalUrl": "https://the-decoder.com/former-deepmind-researcher-thinks-alphagos-playbook-can-cure-ai-hallucinations/",
+   "originalLanguage": "en",
+   "originalDescription": "Former Deepmind researcher Thore Graepel wants his startup Metis Reasoning to bring AlphaGo's search principle to general reasoning. Instead of locking knowledge inside model weights, an explicit knowledge ledger would make every conclusion checkable against evidence. So far…",
+   "publishedAt": "2026-10-27T13:55:24.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "174cd0b2a58cc2e4"
+  },
+  {
+   "id": "77387043f69a853e",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
+   "originalUrl": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+   "originalLanguage": "en",
+   "originalDescription": "Apple is bringing an AI assistant to its suite of productivity apps, including Keynote, Pages, and Numbers. The assistant, which is built on AI models from Apple and OpenAI, can understand a document's context to perform tasks like designing, animating, and refining slides in…",
+   "publishedAt": "2026-10-27T13:50:51.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "044f0963750c3713"
+  },
+  {
+   "id": "80ab2e6673015dce",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Japan internet giant GMO says hackers posted stolen customer data",
+   "originalUrl": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
+   "originalLanguage": "en",
+   "originalDescription": "Japan's GMO Internet is verifying alleged customer data posted by suspected hackers following a cloud service breach.",
+   "publishedAt": "2026-10-27T13:32:57.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "101c4f1ca555c0e8"
+  },
+  {
+   "id": "a175d7b773baa33a",
+   "sourceId": "techcrunch-startups",
+   "sourceName": "TechCrunch Startups",
+   "originalTitle": "Billionaire Palmer Luckey isn’t leaving California over the wealth tax",
+   "originalUrl": "https://techcrunch.com/2026/10/27/billionaire-palmer-luckey-isnt-leaving-california-over-the-wealth-tax/",
+   "originalLanguage": "en",
+   "originalDescription": "\"It's causing a lot of people to run who I don't want to be running,\" native Californian Palmer Luckey said. \"But I'm planning on staying in California. I'm going to keep fighting it.\"",
+   "publishedAt": "2026-10-27T13:01:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "f6b1e97fef819b82"
+  },
+  {
+   "id": "0ba745f0c4950a3a",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
+   "originalUrl": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+   "originalLanguage": "en",
+   "originalDescription": "General Compute is betting on inference chips from outside the Nvidia ecosystem.",
+   "publishedAt": "2026-10-27T13:00:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai",
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "85457eb39cda38ad"
+  },
+  {
+   "id": "72732c29de14c131",
+   "sourceId": "techcrunch-startups",
+   "sourceName": "TechCrunch Startups",
+   "originalTitle": "Anduril, Qualcomm launch BlueChip, a new kind of US-made laptop",
+   "originalUrl": "https://techcrunch.com/2026/10/27/anduril-qualcomm-launch-bluechip-a-new-kind-of-us-made-laptop/",
+   "originalLanguage": "en",
+   "originalDescription": "Anduril founder Palmer Luckey is vowing to bring computer manufacturing back to the U.S. and by that he doesn't just mean assembly, but every individual component, some of which are exclusively made in China today.",
+   "publishedAt": "2026-10-27T13:00:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "startups-products",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "868db756e03860f8"
+  },
+  {
+   "id": "840f2acb14a494b9",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+   "originalUrl": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+   "originalLanguage": "en",
+   "originalDescription": "The new standard, WebAI, is designed to work with a variety of AI models.",
+   "publishedAt": "2026-10-27T13:00:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "0988bd2302f681aa"
+  },
+  {
+   "id": "b98b75e5e3efe8c1",
+   "sourceId": "cloudflare-blog",
+   "sourceName": "The Cloudflare Blog",
+   "originalTitle": "Introducing the Cloudflare PHP Capture the Flag challenge",
+   "originalUrl": "https://blog.cloudflare.com/php-ctf/",
+   "originalLanguage": "en",
+   "originalDescription": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
+   "publishedAt": "2026-10-27T13:00:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "cloud-infrastructure",
+    "programming-languages"
+   ],
+   "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M5YGNS8F8NYE3V5QERKYNG79.png",
+   "contentHash": "10c4b76a09019c30"
+  },
+  {
+   "id": "f21bc890ebec1e8c",
+   "sourceId": "cloudflare-blog",
+   "sourceName": "The Cloudflare Blog",
+   "originalTitle": "What took the Internet offline in Q3 2026",
+   "originalUrl": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+   "originalLanguage": "en",
+   "originalDescription": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
+   "publishedAt": "2026-10-27T13:00:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01KW453HMZRQX1BZKZQMN21EG8.png",
+   "contentHash": "209c89b4a52e9456"
+  },
+  {
+   "id": "9c1fdbd6e6b3c7d0",
+   "sourceId": "apple-newsroom",
+   "sourceName": "Apple Newsroom",
+   "originalTitle": "Apple introduces the new 14-inch MacBook Pro with M6",
+   "originalUrl": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+   "originalLanguage": "en",
+   "originalDescription": "Apple today announced the new 14-inch MacBook Pro with M6, delivering more performance, powerful on-device AI capabilities, and faster connectivity.",
+   "publishedAt": "2026-10-27T12:59:39.082Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "7f36907e6110f9d4"
+  },
+  {
+   "id": "8ec9f277e84435e5",
+   "sourceId": "apple-newsroom",
+   "sourceName": "Apple Newsroom",
+   "originalTitle": "Apple unveils new iMac with M6",
+   "originalUrl": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/",
+   "originalLanguage": "en",
+   "originalDescription": "Apple today announced the new iMac featuring the superfast M6, delivering even more performance and powerful AI capabilities.",
+   "publishedAt": "2026-10-27T12:59:15.245Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "40dc56eab40fba86"
+  },
+  {
+   "id": "60e134052b1b5e81",
+   "sourceId": "apple-newsroom",
+   "sourceName": "Apple Newsroom",
+   "originalTitle": "Apple Creator Studio adds powerful new AI features and even more creative tools",
+   "originalUrl": "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/",
+   "originalLanguage": "en",
+   "originalDescription": "Apple introduces updates to Apple Creator Studio, the collection of creative apps designed to put studio-grade tools into the hands of creators.",
+   "publishedAt": "2026-10-27T12:58:45.444Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "mobile-hardware",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "5e3e811551b957f6"
+  },
+  {
+   "id": "fe2bc2152fa0b938",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "OpenAI asks outside experts, including a Nobel laureate, to check proofs its AI produced in math, computer science, and physics",
+   "originalUrl": "https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics/",
+   "originalLanguage": "en",
+   "originalDescription": "OpenAI says its internal AI models have cracked three major open questions in math, computer science, and physics. One of them is part of a famous Millennium Prize Problem, each of which carries a $1 million prize. Outside experts, including a Nobel laureate, are now checking…",
+   "publishedAt": "2026-10-27T12:37:24.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "85b7c222aec8c76a"
+  },
+  {
+   "id": "b7d7e51c85e3c557",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+   "originalUrl": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+   "originalLanguage": "en",
+   "originalDescription": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account. Microsoft tracks the flaw as CVE-2026-80097 and fixed it in…",
+   "publishedAt": "2026-10-27T12:09:50.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "cybersecurity",
+    "mobile-hardware"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqk63DF3MJCMgQqpg91UsWY7mjACbBgPl50GfKwDPi7v3md6sP5l8a2BUqHABjgMN_6BzgcMx4vVKW4hR9B9pz8_XHqp5ctKqQQLw-RJwuKmVWm2MaSzEMkHIsV-Yi0V6Mq_gUYYuzTpi-BzV2-8dRVYBjtuW4nb9TbobkPwvOGTkIFTpr334JB_LZIkw/s1600/msms.jpg",
+   "contentHash": "44f26a73001723a7"
+  },
+  {
+   "id": "7e75b9009b3b0ccb",
+   "sourceId": "nist-cybersecurity-insights",
+   "sourceName": "NIST Cybersecurity Insights",
+   "originalTitle": "Design Tenets for Agent Identity Management Systems",
+   "originalUrl": "https://www.nist.gov/blogs/cybersecurity-insights/design-tenets-agent-identity-management-systems",
+   "originalLanguage": "en",
+   "originalDescription": "This is blog #2 in our series on agentic identity, authentication and authorization. Our other post can be found via Post #1. In our last blog post, we highlighted the essential nature of having fundamentally sound identity and access management (IAM) capabilities as a…",
+   "publishedAt": "2026-10-27T12:00:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "173f720bb08b65b3"
+  },
+  {
+   "id": "dc5c27b683bcf6ff",
+   "sourceId": "ncsc-uk",
+   "sourceName": "NCSC (UK)",
+   "originalTitle": "From industry concern to practical action: the value of working with regulators",
+   "originalUrl": "https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators",
+   "originalLanguage": "en",
+   "originalDescription": "How industry, the NCSC and the FCA worked together to help organisations share information while protecting market integrity",
+   "publishedAt": "2026-10-27T12:00:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "583c598e50458971"
+  },
+  {
+   "id": "c4255691bc04847b",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+   "originalUrl": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+   "originalLanguage": "en",
+   "originalDescription": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26. Someone with that key could build counterfeit devices that pass the online check owners use to verify a…",
+   "publishedAt": "2026-10-27T11:46:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkvGXPUhZZjWBsYYBAx8KeJ8WilsBMLE-JhqfNAEyCOPuxs6-4VIF1e77IHR5zVdGfRsjJkSOfUVE1JaEmKe0mSAVM-ha4SeROxEGAdkLY5n5rBqx1LBSm6UVxA167sJYZEJTRra7BSipFtdlw2S-kFCUOSa9n70NbfSka3zRNVHd0D69qbVpSGIOnuAU/s1600/keystone.jpg",
+   "contentHash": "51ebd1ea5e708095"
+  },
+  {
+   "id": "ff95d5dfcae20ed2",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "OpenAI 和 Anthropic 将大模型价格砍了八成，这门生意到底怎么算的？",
+   "originalUrl": "https://www.oschina.net/news/503251/cheap-llms",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "从六月 GPT-5.6 系列发布到现在，OpenAI 和 Anthropic 的主流模型价格塌了一大截，最多砍掉 80%。Max Woolf 把这场价格战的时间线全捋了一遍，结论有点反直觉：这不像烧钱抢市场的套路。 先看数字怎么掉的。GPT-5.6 Sol 卖 $5/$30/$0.50（输入/输出/缓存读取，每百万 token），Luna 是 $1/$6/$0.10。后来 Luna 直接砍 80...",
+   "publishedAt": "2026-10-27T11:41:06.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "developer-tools",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "24f5b50fa555cd48"
+  },
+  {
+   "id": "7bff55562550b3ed",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "OpenAI's partner content arrives in ChatGPT pre-summarized while the rest of the web gets raw scraps",
+   "originalUrl": "https://the-decoder.com/openais-partner-content-arrives-in-chatgpt-pre-summarized-while-the-rest-of-the-web-gets-raw-scraps/",
+   "originalLanguage": "en",
+   "originalDescription": "Content from OpenAI's licensing partners appears to flow into ChatGPT through a dedicated pipeline that gives it priority over the rest of the web. The article OpenAI's partner content arrives in ChatGPT pre-summarized while the rest of the web gets raw scraps appeared first on…",
+   "publishedAt": "2026-10-27T11:39:24.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "e3817e77fef99881"
+  },
+  {
+   "id": "ee7d5cd794be0077",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+   "originalUrl": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+   "originalLanguage": "en",
+   "originalDescription": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations. Some fake login pages go beyond…",
+   "publishedAt": "2026-10-27T11:32:46.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "cybersecurity",
+    "ai"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCX1RKz1isf0HwbYOFkKneC7maFNTVr0q0LTVHBsoGhEN5w7ZOfSLYqfq_6-oKzf51Vb3FJTVla21T-RrWus7Dxadw81UmqDBbw8rIWxfbBhPdI5tyAUQZSYwYaq9JetgW4_4yl1qbWU7ScrdxYjoTCot6v9gXMIyjsk4W66Z531z5oHaHHEguj6_EISU/s1600/keeper-password.jpg",
+   "contentHash": "e1415ea0c161f04d"
+  },
+  {
+   "id": "b434e7ad4a7b0ac3",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+   "originalUrl": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+   "originalLanguage": "en",
+   "originalDescription": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors. According to…",
+   "publishedAt": "2026-10-27T11:32:31.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwoWz3Ex4w0TebsrzDSdna5WAjqoQx5EHWC1kY3db9VgMg6FrGK6VbncVA9b3tKdPnqlR6qmdwsq7CT1f-Cp57WpH6lpfoF-5zb_Xg-ahdsNxO4OUTsdDVeO_8s7SQFLp54SrsWlWrZn-37sAcqv1ZeG_7Yc62vQ5X9Tq-MlIEm6EOQOiTkQVlcy9F4VG4/s1600/korean-malware.jpg",
+   "contentHash": "c19aa715f9915d49"
+  },
+  {
+   "id": "a9046c3f8fe023b6",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Anthropic uses its IPO letter to renew its pledge that Claude will never show ads",
+   "originalUrl": "https://the-decoder.com/anthropic-uses-its-ipo-letter-to-renew-its-pledge-that-claude-will-never-show-ads/",
+   "originalLanguage": "en",
+   "originalDescription": "Anthropic says it will keep ads out of Claude. In a cover letter accompanying its IPO filing, the company argues that the chatbot's sole incentive should be to provide helpful answers. The article Anthropic uses its IPO letter to renew its pledge that Claude will never show ads…",
+   "publishedAt": "2026-10-27T11:20:51.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "4519ca7d5812b956"
+  },
+  {
+   "id": "5e2d9e6f0fc03de4",
+   "sourceId": "mit-technology-review-ai",
+   "sourceName": "MIT Technology Review AI",
+   "originalTitle": "Industrial Intelligence: The next growth opportunity for manufacturing",
+   "originalUrl": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
+   "originalLanguage": "en",
+   "originalDescription": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a…",
+   "publishedAt": "2026-10-27T11:19:18.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "9b894bd4e236f413"
+  },
+  {
+   "id": "72e188139d846686",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+   "originalUrl": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+   "originalLanguage": "en",
+   "originalDescription": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
+   "publishedAt": "2026-10-27T11:00:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai",
+    "mobile-hardware",
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "cf1b1dc42a28ec5a"
+  },
+  {
+   "id": "d47b88a826590071",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "OpenAI's Ted Sanders shares a rule of thumb for picking the right GPT-model",
+   "originalUrl": "https://the-decoder.com/openais-ted-sanders-shares-a-rule-of-thumb-for-picking-the-right-gpt-model/",
+   "originalLanguage": "en",
+   "originalDescription": "OpenAI's Ted Sanders explains where GPT-6.1 Terra fits in the company's GPT lineup. The smaller model outperforms the larger Astra in technical communication and costs far less but trails it in most other areas. Sanders says model size, reasoning effort, and multi-agent systems…",
+   "publishedAt": "2026-10-27T10:09:26.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "074448043f3bc1a5"
+  },
+  {
+   "id": "ac293c561f8b783e",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "拾趣 (Magpie) v0.1.18 发布，智能信息提取，更美观的 UI",
+   "originalUrl": "https://www.oschina.net/news/503249",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "拾趣 (Magpie) v0.1.18 发布，智能信息提取，更美观的 UI 拾趣 (Magpie)是一款跨平台沉浸式自定义AI 划词工具 划选或双击，浮动条随即弹出：翻译、解释、总结实时呈现；复制、搜索、写入 Obsidian、预填日历，结果直接落地。图片、视频与扫描文档中的文字，框选亦可识别——处理在原地完成，无需迁入对话窗口。 Release ...",
+   "publishedAt": "2026-10-27T10:02:15.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "9c8bf7011e979d50"
+  },
+  {
+   "id": "10515f024c670e28",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Data center backlash is uniting America",
+   "originalUrl": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+   "originalLanguage": "en",
+   "originalDescription": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure construction and expenses that come with them - has sparked local opposition in communities across…",
+   "publishedAt": "2026-10-27T10:00:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "e1b94b1396db6f72"
+  },
+  {
+   "id": "fd8d1b1c8c0ed771",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips",
+   "originalUrl": "https://the-decoder.com/meta-gets-3-billion-from-nvidia-and-plans-to-spend-more-on-nvidia-chips/",
+   "originalLanguage": "en",
+   "originalDescription": "ia is buying into its customer Meta, which plans to run more of its AI agents on Nvidia hardware. The article Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips appeared first on The Decoder .",
+   "publishedAt": "2026-10-27T09:58:16.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "6316dc22b1096ba7"
+  },
+  {
+   "id": "0a8ecf3eb5a2843c",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "紧跟上游内核迭代，deepin 推出 Linux 7.3 内核社区尝鲜版",
+   "originalUrl": "https://www.oschina.net/news/503248",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "Linux 7.3 内核已于 10 月 19 日正式发布，deepin 社区跟进适配，现已面向社区用户开放尝鲜体验。 本次内核为社区技术预览版本，暂不作为正式版本随系统自动推送。它承载着上游最新的硬件适配、性能优化成果，让热爱技术的用户可以第一时间了解内核新特性。 内核更新：性能与硬件适配双向进阶 本次 Linux 7.3.0 内核带来...",
+   "publishedAt": "2026-10-27T09:46:18.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "76c48701324217e6"
+  },
+  {
+   "id": "eae2a3c7c621fbaa",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+   "originalUrl": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+   "originalLanguage": "en",
+   "originalDescription": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and…",
+   "publishedAt": "2026-10-27T09:33:06.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinCXm9nOGLf3YFKOH7D87d6Wau4yc3WG_4nSANlzh0oVcI9dUXg07hiHfBkDONqewGH90O6qN1cv9B1vPKGeXr7dhwAjpJ9pHCZKv2MOU9WYesukNBqS55LiPg0ytVl8JonI32qTVei_L25bCcUsPTl2PZsxYhvx0nDsxwqy3RgKE1_iRRuSbAoaH8OcY/s1600/aus.jpg",
+   "contentHash": "3bac9e6f7ddfaf1d"
+  },
+  {
+   "id": "802c1e01055cbadd",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "deepin 在第六届 RISC-V 中国峰会展示 RISC-V 桌面生态“最后一公里”进展",
+   "originalUrl": "https://www.oschina.net/news/503247",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "第六届 RISC-V 中国峰会在深圳盛大举行。在本届峰会上，deepin（深度）社区披露了其 RISC-V 桌面生态的最新进展：从主线镜像、应用商店到本地 AI 助手，deepin 正在全力打通 RISC-V 从芯片、开发板到桌面用户之间的“最后一公里”。 这几年，RISC-V 芯片越造越猛：端侧 AI 算力飙到 60 TOPS，服务器级直接上到 46 核。但...",
+   "publishedAt": "2026-10-27T09:20:58.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "acb00ad042dfeee4"
+  },
+  {
+   "id": "76cf590ba5b8f05f",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "\"성능은 그대로, 비용은 최대 3배\"…에이전트 가로막는 '복잡한 하네스'",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216712",
+   "originalLanguage": "ko",
+   "originalDescription": "AI 코딩 에이전트의 작업 환경을 복잡하게 구성해도 코드 작성 정확도는 거의 높아지지 않지만, 추론 비용은 최대 3배까지 늘어날 수 있다는 연구 결과가 나왔다. 모델을 둘러싼 도구와 실행 절차 등 '하네스'를 정교하게 설계하는 것보다 불필요한 지시문과 도구 정의를 줄이는 편이 비용 효율에 더 큰 영향을 줄 수 있다는 분석이다.중국 산둥대와 미국 UC버클리 연구진은 최근 온라인 아카이브에 공개한 연구에서 앤트로픽의 '클로드 코드'와 오픈소스 도구 '오픈코드', 최소한의 기능으로 구성된…",
+   "publishedAt": "2026-10-27T09:20:31.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "45b044d509683274"
+  },
+  {
+   "id": "c9a06b9a02d77da0",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "난베이지, 33B 오픈소스 AI 모델 공개...코딩 벤치마크서 '큐원3.8-27B' 앞서",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216711",
+   "originalLanguage": "ko",
+   "originalDescription": "중국 난베이지 LLM 연구소가 코딩과 업무 자동화를 수행하는 에이전트형 AI 모델 ‘난베이지4.3-33B(Nanbeige4.3-33B)’를 공개했다. 330억개 매개변수를 갖춘 오픈소스 모델로, 연구소 자체 평가에서 코딩과 사무 작업 관련 벤치마크 다수에서 알리바바의 '큐원3.8-27B' 등 비슷한 규모의 경쟁 모델을 앞섰다.중국 대형 채용 플랫폼 보스 직핀(BOSS Zhipin)이 운영하는 난베이지는 24일 난베이지4.3-33B를 AI 모델 공유 플랫폼 허깅페이스에 공개했다.모델은 영어와…",
+   "publishedAt": "2026-10-27T09:03:17.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai",
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "5cad1a6e7201bcd3"
+  },
+  {
+   "id": "320b48bfe5b1dc0f",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "네이버, 브룩필드와 12조원 인프라 계약...엔비디아, 3대 주주로 등극",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216729",
+   "originalLanguage": "ko",
+   "originalDescription": "네이버·엔비디아·브룩필드 3사가 추진하는 1기가와트(GW)급 글로벌 AI 인프라 사업이 본격화될 전망이다.네이버(대표 최수연)는 브룩필드와 90억달러(약 12조원) 규모의 컴퓨팅 인프라 확보 계약을 체결해 엔비디아의 전략적 지분 투자를 위한 선결 조건을 충족했다고 27일 밝혔다.이에 따라 네이버는 엔비디아를 대상으로 한 제3자 배정 유상증자 절차를 조속히 마무리할 예정이다. 유상증자가 완료되면 엔비디아는 네이버 3대 주주에 오르며 3사가 공동 추진하는 1GW급 AI 팩토리 사업도 본격적인 실행…",
+   "publishedAt": "2026-10-27T08:50:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "457eb9c7a0963c0d"
+  },
+  {
+   "id": "9063be973f89cdd8",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "UJCMS 13.2.0 发布，国内 Java CMS 网站内容管理系统",
+   "originalUrl": "https://www.oschina.net/news/503246",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "UJCMS 13.2.0 正式发布。本次版本重做验证码体系，支持滑块、字符与静默校验，并提供第三方验证码接入。控制台与网站主题使用统一验证组件，注册页面改为弹窗验证，方便站点按业务需要配置验证方式。 模板维护与预览体验同步改进：后台人员可查看带错误编号的模板内联详情，页面继续渲染；访客看到带编号的通用错误页面。...",
+   "publishedAt": "2026-10-27T08:47:05.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "developer-tools",
+    "programming-languages"
+   ],
+   "imageUrl": null,
+   "contentHash": "053fbdeac7bee638"
+  },
+  {
+   "id": "f4269ad8b3a67807",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "전남, 총인구 대비 ‘이민자 2세’ 비중 전국 최고…주민 90명 중 1명",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216723",
+   "originalLanguage": "ko",
+   "originalDescription": "전남에 거주하는 ‘이민자 2세’가 2만명에 육박한 것으로 집계됐다. 전체 인구에서 차지하는 비중은 1.12%로, 전국 17개 시도 가운데 가장 높았다.국가데이터처가 26일 발표한 ‘2025년 이주배경인구 통계 결과’의 시도별 자료를 분석한 결과, 전남의 이민자 2세는 1만9838명이었다.전남 총인구 177만8545명으로 나누면 주민 약 90명 중 1명꼴이다. 통계 기준일은 지난해 11월1일이며, 지역 비교는 광주와 전남을 구분한 원자료의 17개 시도를 기준으로 했다.이민자 2세는 부모 중…",
+   "publishedAt": "2026-10-27T08:44:37.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "9b8753e732b5112a"
+  },
+  {
+   "id": "6f829b81eb3d74bb",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "Smalltalk 开发环境 Pharo 14 发布：发布周期改到秋季、VM 迎来 RISC-V JIT",
+   "originalUrl": "https://www.oschina.net/news/503245/pharo-14-released",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "Pharo 14 发布了。这个号称\"纯面向对象、专注极简与即时反馈\"的 Smalltalk 方言开发环境，这代改动不小，但更值得注意的是节奏变了——从这一版开始，Pharo 把发布周期从春季挪到了秋季，14 是第一个按新节奏来的版本。 这代的力气主要花在三块。 开发工具现代化：新引入 Mission Control 和 Pulse（取代了老牌的 Spotte...",
+   "publishedAt": "2026-10-27T08:37:01.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "feddf35b623b7bff"
+  },
+  {
+   "id": "6670fc931ea88a8f",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "“GPU 시장 감가상각 안 통한다”...출시 6년 차 A100도 임대료 역주행",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216717",
+   "originalLanguage": "ko",
+   "originalDescription": "자산 가치는 시간이 지날수록 하락한다는 감가상각 개념이 GPU 시장에서는 통하지 않는 것으로 확인됐다.미국 벤처캐피털 앤드리슨 호로위츠(a16z)는 H200·B200·A100 등 주요 GPU 5종의 렌탈 가격 추이를 공개했다. GPU 가격 데이터 업체 오른(Ornn)의 지수를 분석한 결과, 올해 1월1일 가격을 100으로 놓았을 때 10월 기준 5종 모두 연초 대비 렌탈 가격이 오른 것으로 집계됐다.상승 폭은 H200이 약 2.6배로 가장 높았으며, B200·RTX PRO 6000·H100…",
+   "publishedAt": "2026-10-27T08:36:59.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "83c3b1bb7deb1cce"
+  },
+  {
+   "id": "43e0de6b035600a5",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "하청의 작업중지권부터 과징금까지…산안법 다시 고친 이유",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216721",
+   "originalLanguage": "ko",
+   "originalDescription": "원청 사업장에서 일하는 하청 노동자가 산업재해 발생의 급박한 위험이 있거나 우려될 때 원청에 직접 작업중지를 요구할 수 있도록 산업안전보건법이 개정됐다. 안전·보건 조치 의무를 위반해 다수의 사망자를 낸 사업주에게는 영업이익을 기준으로 과징금을 부과할 근거도 마련됐다. 위험을 발견한 노동자의 대응 권한과 사업주의 예방책임을 함께 강화하는 내용이다.고용노동부는 27일 이 같은 내용의 개정법이 공포됐다고 밝혔다. 지난해 9월 발표한 ‘노동안전 종합대책’의 주요 과제를 법제화한 것으로, 작업중지권…",
+   "publishedAt": "2026-10-27T08:32:50.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "83423c5f89038a2e"
+  },
+  {
+   "id": "eb88fc625353a88a",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "설치 안 된 설비도 ‘완료’ 처리…광주 도시철도 2호선 감사서 검수·감독 부실 무더기 적발",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216714",
+   "originalLanguage": "ko",
+   "originalDescription": "광주 도시철도 2호선 건설 과정에서 설치되지 않은 설비를 설치 완료로 검사하고, 일부 공사를 끝내지 않은 상태에서 준공 서류를 작성한 사실이 감사에서 드러났다. 시공·납품 상태를 확인해야 할 건설사업관리기술인과 이를 감독하는 발주기관의 업무가 여러 현장에서 부적정하게 처리됐다.전남광주통합특별시 감사위원회의 도시철도건설본부 종합감사 결과 공개문에 따르면 이번 감사는 지난 3월3~23일 실시됐다. 기본계획부터 설계·시공·품질·안전관리 등을 점검했으며, 일부 처분에 대한 재심의 절차를 거쳐…",
+   "publishedAt": "2026-10-27T08:25:02.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "c3f3c679d29f4f05"
+  },
+  {
+   "id": "c6fd9c70afae34ae",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+   "originalUrl": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+   "originalLanguage": "en",
+   "originalDescription": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text, security firm Xint has shown. OpenAI's reasoning models work through a problem before answering, and the service…",
+   "publishedAt": "2026-10-27T08:22:43.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNsIWTk2-hgeO3hAG2ohh1yrK20QoX_O0WDYRc83Q9qg-Igk4mEbzap014Pya2lSNiYEvbRIzilTYToybQVVtR3sQH84nJj-kd8tGWOqW3D-ylLpwcxOfvONGVSzjNuu5piwltyECtuezAw4Q8R7S3lvH_g2z3EpDT_EuOOEJg1-FRrChaADA4S6scQkU/s1600/chatgpt-compact.jpg",
+   "contentHash": "1f17efb6fc58378b"
+  },
+  {
+   "id": "5da5ea008fd4babd",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "칩스앤미디어, AI SoC·로보틱스 신규 실적에 3분기 매출 ↑",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216724",
+   "originalLanguage": "ko",
+   "originalDescription": "칩스앤미디어(대표 김상현)는 AI SoC와 로보틱스 분야 신규 라이선스 공급 성과에 힘입어 3분기 매출액(연결 기준) 71.6억 원, 영업이익 16.6억 원을 기록했다고 27일 밝혔다. 이는 전년동기 대비 각각 8.2%, 8.7% 증가한 수치다.라이선스 매출은 전년동기 대비 33.0% 증가한 44.3억 원을 기록하며 전체 매출 성장을 이끌었다. 메모리 수급 영향에 따른 고객사 칩 생산 감소로 로열티 매출은 줄었지만 AI·모빌리티 분야 신규 라이선스 확대가 이를 보완했다. 당기순이익은 환차손과…",
+   "publishedAt": "2026-10-27T08:20:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "825689c64a6cc1e8"
+  },
+  {
+   "id": "4c253899d2d0550e",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "앤트로픽 IPO 서류에 “클로드 광고 안 넣는다”...오픈AI와 차별화",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216716",
+   "originalLanguage": "ko",
+   "originalDescription": "앤트로픽 창업자 7명이 '클로드'에 광고를 도입하지 않겠다는 방침을 거듭 밝혔다. 광고 수익보다 사용자에게 유용한 답변을 제공하는 데 집중하겠다는 것으로, 광고 사업 확대를 추진하는 오픈AI와 차별화하려는 전략으로 풀이된다.앤트로픽 창업자들은 26일(현지시간) 기업공개(IPO) 투자 설명서에 포함된 서한에서 클로드를 광고 없이 운영하겠다는 약속을 재확인했다.이들은 \"광고가 매출 목표에 포함되면 플랫폼이 사용자 참여도를 무리하게 끌어올리려는 압박을 받기 쉽다\"며 \"클로드에는 그런 구조를 도입하지…",
+   "publishedAt": "2026-10-27T08:16:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "55c60f8c16a6a5c2"
+  },
+  {
+   "id": "4eae285a14e20bb1",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "[게시판] 삼쩜삼, 사내 AI 통합 플랫폼 '카터'로 운영비 45% 절감 등 단신",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216708",
+   "originalLanguage": "ko",
+   "originalDescription": "■ 자비스앤빌런즈(대표 김범섭)는 사내 AI 에이전트를 통합 관리하는 자체 플랫폼 '카터'를 구축해 AI 운영 비용을 최대 45% 절감했다고 밝혔다. 카터는 에이전트별 비용 관리와 보안 기능을 공통으로 제공하며 현재 삼쩜삼Q 등 8개 에이전트가 카터에서 운영되고 있다. 보조 호출을 경량 모델로 처리하는 '모델 티어링'으로 LLM 호출 비용을 낮췄다는 설명이다.■ 베스핀글로벌(대표 허양호)은 미국 라스베이거스에서 열린 '오라클 AI 월드 2026'에서 '2026 오라클 파트너 어워드'…",
+   "publishedAt": "2026-10-27T08:00:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "2a4ac69f3ebc2d1d"
+  },
+  {
+   "id": "d62a7b092b96278f",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "AI 많이 쓰는 ‘토큰맥싱’도 대표 사례…딕셔너리닷컴, 올해의 단어 ‘맥싱’ 선정",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216715",
+   "originalLanguage": "ko",
+   "originalDescription": "미국 온라인 사전 딕셔너리닷컴이 2026년 올해의 단어로 ‘맥싱(Maxxing)’을 선정했다. 무엇이든 최대한 끌어올리거나 최적화한다는 뜻으로, 직장에서 AI 사용을 극대화하는 ‘토큰맥싱(Tokenmaxxing)’을 대표적인 용례로 소개했다. AI를 얼마나 많이 쓰는지를 직원의 역량과 생산성 지표로 삼는 기업 문화가 올해의 언어 트렌드에도 반영됐다.딕셔너리닷컴은 25일(현지시간) 공식 발표를 통해 맥싱이 최대를 뜻하는 ‘맥시멈(maximum)’과 최대화한다는 뜻의…",
+   "publishedAt": "2026-10-27T07:58:45.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "a3d9b9824950ceb9"
+  },
   {
    "id": "2b8dc720a8b043c5",
    "sourceId": "oschina-news",
@@ -251,7 +985,7 @@
    "id": "b248b113e9c7c9db",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
-   "originalTitle": "앤트로픽도 뚫렸다...캐서드럴, AI 에이전트로 12시간 만에 내부망 침투",
+   "originalTitle": "앤트로픽도 뚫렸다...캐서드럴, 에이전트로 12시간 만에 내부망 침투",
    "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216701",
    "originalLanguage": "ko",
    "originalDescription": "미국 정부효율부(DOGE) 출신 인사들이 설립한 사이버보안 스타트업 캐서드럴(Cathedral)이 AI 에이전트를 활용해 12시간도 안 돼 앤트로픽의 내부 시스템에 침투할 수 있는 경로를 찾아냈다. 회의 기록과 급여 정보, 사내 슬랙(Slack) 메시지 등 민감한 데이터에 접근할 수 있는 취약점을 발견한 것으로, 외부 기업용 소프트웨어의 보안 허점이 첨단 AI 기업의 내부 시스템까지 위협할 수 있다는 우려가 커지고 있다.26일(현지시간) 워싱턴포스트(WP)에 따르면, 캐서드럴 연구진은…",
@@ -261,7 +995,7 @@
     "ai"
    ],
    "imageUrl": null,
-   "contentHash": "2f904d44a1f56ff0"
+   "contentHash": "00c8a50c1b072119"
   },
   {
    "id": "c5a0a028f8de4ae4",
@@ -296,6 +1030,22 @@
    "contentHash": "df359a17aa45ccae"
   },
   {
+   "id": "3f53f10f752a8269",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "ContextGem 1.0",
+   "originalUrl": "https://www.producthunt.com/products/contextgem",
+   "originalLanguage": "en",
+   "originalDescription": "Decision models join LLMs to extract data from documents Discussion | Link",
+   "publishedAt": "2026-10-27T04:48:43.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "30ec609989ff0901"
+  },
+  {
    "id": "dc98d41511a17d2e",
    "sourceId": "the-hacker-news",
    "sourceName": "The Hacker News",
@@ -326,6 +1076,54 @@
    ],
    "imageUrl": null,
    "contentHash": "b80d4e6fad704cdb"
+  },
+  {
+   "id": "3bc0362da45d1673",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "목포, 28일 해수면 높이 4.92m 이상 예보…해안 저지대 침수 대비",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216656",
+   "originalLanguage": "ko",
+   "originalDescription": "AI 생성 영상목포시가 오는 28일 바닷물 수위 상승에 대비해 해안 저지대 예찰과 방재시설 점검을 강화한다.목포는 28일 오후 1시부터 5시까지 바닷물 수위가 최고 4.92m 이상 상승할 것으로 예보됨에 따라 해수 침수 피해 예방에 나선다고 26일 밝혔다.비상근무반을 편성하고 빗물펌프장과 배수갑문, 수문 등 주요 방재시설을 사전에 점검할 계획이다. 해안 저지대를 중심으로 예찰활동도 강화한다.특히 조위 상승 시간대 해안 저지대에 주차된 차량은 침수 피해가 발생할 수 있어 해당 지역의 차량…",
+   "publishedAt": "2026-10-27T04:33:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "654c51a5cce52189"
+  },
+  {
+   "id": "ab88661a74761e9b",
+   "sourceId": "kubernetes-blog",
+   "sourceName": "Kubernetes Blog",
+   "originalTitle": "Announcing the Workload Conformance Working Group",
+   "originalUrl": "https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/",
+   "originalLanguage": "en",
+   "originalDescription": "We are excited to announce that the Kubernetes community now has a Workload Conformance Working Group . The working group is writing a shared standard for how workloads behave at runtime on Kubernetes. To get it right, we need input from the people who build those workloads and…",
+   "publishedAt": "2026-10-27T04:30:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "8a14b51b45659f01"
+  },
+  {
+   "id": "4a6e93be1a8ca207",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "전남광주서 28~29일 국제광융합엑스포…80여개사·109개 부스 참여",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216654",
+   "originalLanguage": "ko",
+   "originalDescription": "AI 생성 영상전남광주통합특별시에서 AI 반도체와 광통신, 양자·보안, 미래모빌리티 등 광융합 기술을 한자리에서 선보이는 산업 전시회가 열린다.전남광주는 오는 28일부터 29일까지 김대중컨벤션센터에서 ‘2026 국제광융합엑스포(The 24th PHOTONICS KOREA)’를 개최한다고 밝혔다.산업통상부와 전남광주가 주최하고 한국광융합산업진흥회가 주관하는 이번 행사에는 광융합산업 관련 기업과 기관 80여곳이 109개 부스 규모로 참여한다.전시 분야는 AI 데이터용 광부품과 AI 반도체·첨단…",
+   "publishedAt": "2026-10-27T04:17:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "84c500aa1b7318ba"
   },
   {
    "id": "4fbb37136b7c19fb",
@@ -879,6 +1677,22 @@
    ],
    "imageUrl": null,
    "contentHash": "47e326956ae2c470"
+  },
+  {
+   "id": "0b5e0e34b5f4a94c",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon ECR now supports replication backfill for existing container images",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/replication-backfill-amazon-ecr",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon Elastic Container Registry (Amazon ECR) now supports replication backfill, enabling you to replicate existing images in your private registry to your configured replication registry destinations. Previously, replication only applied to images pushed after the replication…",
+   "publishedAt": "2026-10-26T20:24:00.000Z",
+   "discoveredAt": "2026-10-27T14:34:45.157Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "8b9631205f5518ef"
   },
   {
    "id": "d84f30af7d5d4655",
@@ -2708,7 +3522,7 @@
    "originalTitle": "Off Grid AI",
    "originalUrl": "https://www.producthunt.com/products/off-grid-ai",
    "originalLanguage": "en",
-   "originalDescription": "Private AI on your phone and computer. Free, open source. Discussion | Link",
+   "originalDescription": "Private AI on your phone and computer. Discussion | Link",
    "publishedAt": "2026-10-26T12:12:10.000Z",
    "discoveredAt": "2026-10-27T07:55:59.994Z",
    "topics": [
@@ -2716,7 +3530,7 @@
     "ai"
    ],
    "imageUrl": null,
-   "contentHash": "a9cb555f97f77ccc"
+   "contentHash": "751b9c5975708ab2"
   },
   {
    "id": "45cd71f9e5747696",

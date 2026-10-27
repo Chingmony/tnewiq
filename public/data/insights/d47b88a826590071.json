@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d47b88a826590071",
+ "contentHash": "074448043f3bc1a5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T14:43:06.412Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "OpenAI's Ted Sanders shares a rule of thumb for picking the right GPT-model",
+   "summary": "OpenAI's Ted Sanders explained how GPT-6.1 Terra fits into the company's model lineup compared to the larger Astra model. The smaller Terra model outperforms Astra in technical communication and has a much lower cost, though it trails in most other areas. Sanders emphasized that model size, reasoning effort, and multi-agent systems are distinct dimensions that cannot be reduced to a single IQ score.",
+   "impact": "Developers and technology users may need to evaluate multiple distinct dimensions such as model size, reasoning effort, and multi-agent systems rather than relying on a single metric when choosing models. This approach could help optimize costs and performance for specific use cases like technical communication.",
+   "keyPoints": [
+    "GPT-6.1 Terra outperforms the larger Astra model in technical communication and costs far less.",
+    "Astra outperforms Terra in most other areas.",
+    "Model size, reasoning effort, and multi-agent systems are distinct dimensions that cannot be reduced to a single IQ score."
+   ]
+  },
+  "km": {
+   "title": "លោក Ted Sanders របស់ OpenAI ចែករំលែកគោលការណ៍ណែនាំសម្រាប់ការជ្រើសរើសម៉ូដែល GPT ឲ្យបានត្រឹមត្រូវ",
+   "summary": "លោក Ted Sanders មកពី OpenAI បានពន្យល់ពីទីតាំងរបស់ GPT-6.1 Terra នៅក្នុងបញ្ជីម៉ូដែលរបស់ក្រុមហ៊ុនបើប្រៀបធៀបទៅនឹងម៉ូដែល Astra ដែលធំជាង។ ម៉ូដែល Terra ដែលមានទំហំតូចជាងនេះមានដំណើរការល្អជាង Astra ក្នុងការប្រាស្រ័យទាក់ទងផ្នែកបច្ចេកទេស និងមានតម្លៃថោកជាង ប៉ុន្តែវាខ្សោយជាងក្នុងផ្នែកផ្សេងៗទៀត។ លោក Sanders បានបញ្ជាក់ថា ទំហំម៉ូដែល កិច្ចខិតខំប្រឹងប្រែងក្នុងការសន្និដ្ឋាន និងប្រព័ន្ធភ្នាក់ងារច្រើន គឺជាវិមាត្រដាច់ដោយឡែកពីគ្នា។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវវាយតម្លៃវិមាត្រដាច់ដោយឡែកពីគ្នាជាជាងពឹងផ្អែកលើរង្វាស់តែមួយ នៅពេលជ្រើសរើសម៉ូដែល។ វិធីសាស្ត្រនេះអាចជួយបង្កើនប្រសិទ្ធភាពចំណាយ និងសមត្ថភាពសម្រាប់ករណីប្រើប្រាស់ជាក់លាក់។",
+   "keyPoints": [
+    "GPT-6.1 Terra មានដំណើរការល្អជាង Astra ក្នុងការប្រាស្រ័យទាក់ទងផ្នែកបច្ចេកទេស និងមានតម្លៃថោកជាង។",
+    "ម៉ូដែល Astra មានដំណើរការល្អជាង Terra ក្នុងផ្នែកភាគច្រើនផ្សេងទៀត។",
+    "ទំហំម៉ូដែល កិច្ចខិតខំប្រឹងប្រែងក្នុងការសន្និដ្ឋាន និងប្រព័ន្ធភ្នាក់ងារច្រើន គឺជាវិមាត្រដាច់ដោយឡែកពីគ្នា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "OpenAI 的泰德·桑德斯分享了选择正确 GPT 模型的经验法则",
+   "summary": "OpenAI 的泰德·桑德斯解释了 GPT-6.1 Terra 在公司模型阵容中的定位，并将其与更大的 Astra 模型进行了对比。较小的 Terra 模型在技术交流方面的表现优于较大的 Astra 且成本低得多，但在大多数其他领域则落后。桑德斯表示，模型大小、推理努力和多智能体系统是不同的维度，不能简化为单一的智商评分。",
+   "impact": "开发人员和技术用户在选择模型时，可能需要评估模型大小、推理努力和多智能体系统等多个不同维度，而不是依赖单一指标。这种方法有助于针对特定用例优化成本和性能。",
+   "keyPoints": [
+    "GPT-6.1 Terra 在技术交流方面的表现优于较大的 Astra 且成本低得多。",
+    "Astra 在大多数其他领域表现优于 Terra。",
+    "模型大小、推理努力和多智能体系统是无法简化为单一智商评分的不同维度。"
+   ]
+  },
+  "ko": {
+   "title": "OpenAI의 테ד 샌더스가 올바른 GPT 모델을 선택하기 위한 경험 법칙을 공유합니다",
+   "summary": "OpenAI의 테ד 샌더스는 더 큰 모델인 Astra와 비교하여 GPT-6.1 Terra가 회사의 모델 라인업에서 어떤 위치를 차지하는지 설명했습니다. 더 작은 모델인 Terra는 기술적 커뮤니케이션에서 Astra보다 성능이 뛰어나고 비용이 훨씬 저렴하지만, 대부분의 다른 영역에서는 뒤처집니다. 샌더스는 모델 크기, 추론 노력, 멀티 에이전트 시스템이 단일 지능 지수로 환원할 수 없는 별개의 차원이라고 강조했습니다.",
+   "impact": "개발자와 기술 사용자는 모델을 선택할 때 단일 지표에 의존하는 대신 모델 크기, 추론 노력, 멀티 에이전트 시스템과 같은 여러 별개의 차원을 평가해야 할 수 있습니다. 이러한 접근 방식은 특정 사용 사례에 맞는 비용과 성능을 최적화하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "GPT-6.1 Terra는 기술적 커뮤니케이션에서 더 큰 Astra 모델보다 성능이 뛰어나고 비용이 훨씬 저렴합니다.",
+    "Astra는 대부분의 다른 영역에서 Terra보다 성능이 뛰어납니다.",
+    "모델 크기, 추론 노력, 멀티 에이전트 시스템은 단일 IQ 점수로 환원할 수 없는 별개의 차원입니다."
+   ]
+  }
+ }
+}
