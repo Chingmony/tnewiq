@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "73f1440d47c57bf1",
+ "contentHash": "5f1e0736def0cadc",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T20:14:05.585Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Fine-Tuning NVIDIA Nemotron to Know Local Rules, Not Just Local Languages",
+   "summary": "As global AI adoption grows, general-purpose language models are being used widely in daily life. However, these foundational models sometimes lack the specific local knowledge, cultural nuance, and precision required for particular applications. Post-training allows developers to adapt open models to meet these specific local requirements.",
+   "impact": "Developers and technology users may find that post-training helps models better address local knowledge and cultural nuances. This process could improve precision for applications that need more than just general language understanding.",
+   "keyPoints": [
+    "AI adoption is expanding globally across various languages and cultures.",
+    "General-purpose language models often lack local knowledge and cultural nuance.",
+    "Post-training can adapt open models to specific local needs and application requirements."
+   ]
+  },
+  "km": {
+   "title": "ការកែសម្រួល NVIDIA Nemotron ដើម្បីស្គាល់ច្បាប់មូលដ្ឋាន មិនមែនគ្រាន់តែភាសាមូលដ្ឋាននោះទេ",
+   "summary": "ខណៈពេលដែលការអនុម័ត AI កំពុងរីកសាយភាយទូទាំងពិភពលោក គំរូភាសាទូទៅត្រូវបានប្រើប្រាស់យ៉ាងទូលំទូលាយ។ ទោះបីជាយ៉ាងណាក៏ដោយ គំរូទាំងនេះជួនកាលខ្វះចំណេះដឹងក្នុងស្រុក ភាពខុសគ្នាបន្តិចបន្តួចทางวัฒนธรรม និងភាពជាក់លាក់ដែលតម្រូវការ។ ការបណ្តុះបណ្តាលបន្ថែមអាចកែសម្រួលគំរូបើកចំហឱ្យស្របតាមតម្រូវការទាំងនេះ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចឃើញថាការបណ្តុះបណ្តាលបន្ថែមជួយឱ្យគំរូយល់ដឹងកាន់តែប្រសើរឡើងអំពីចំណេះដឹងក្នុងស្រុក។ ដំណើរការនេះអាចបង្កើនភាពជាក់លាក់សម្រាប់កម្មវិធីដែលត្រូវការច្រើនជាងការយល់ដឹងពីភាសាទូទៅ។",
+   "keyPoints": [
+    "ការអនុម័ត AI កំពុងរីកសាយភាយទូទាំងពិភពលោក។",
+    "គំរូភាសាទូទៅជួនកាលខ្វះចំណេះដឹងក្នុងស្រុក និងភាពខុសគ្នាតាមវប្បធម៌។",
+    "ការបណ្តុះបណ្តាលបន្ថែមអាចកែសម្រួលគំរូបើកចំហឱ្យត្រូវនឹងតម្រូវការជាក់លាក់ក្នុងស្រុក។"
+   ]
+  },
+  "zh-CN": {
+   "title": "微调 NVIDIA Nemotron 以了解本地规则，而不仅仅是本地语言",
+   "summary": "随着全球 AI 普及的扩大，世界各地的人们正在日常生活中更广泛地使用 AI。通用语言模型虽然强大，但有时缺乏特定应用所需的本地知识、文化细微差别和精确度。通过后训练，可以使开源模型适应这些特定需求。",
+   "impact": "开发者和技术用户可能会发现，后训练有助于模型更好地适应本地知识和文化细微差别。这一过程可能会提高需要超越通用语言理解的应用程序的精确度。",
+   "keyPoints": [
+    "AI 的普及正在全球范围内跨语言和文化扩展。",
+    "通用语言模型有时缺乏本地知识和文化细微差别。",
+    "后训练能够使开源模型适应特定的本地需求和应用要求。"
+   ]
+  },
+  "ko": {
+   "title": "현지 언어뿐만 아니라 현지 규칙까지 학습하는 NVIDIA Nemotron 파인튜닝",
+   "summary": "전 세계적으로 AI 도입이 확대됨에 따라 다양한 언어와 문화권의 사람들이 일상생활에서 AI를 활용하고 있습니다. 범용 언어 모델은 강력한 기반 역할을 하지만, 특정 애플리케이션에 필요한 현지 지식, 문화적 뉘앙스, 정밀성이 부족할 때가 있습니다. 사후 학습을 통해 오픈 모델을 이러한 요구에 맞게 조정할 수 있습니다.",
+   "impact": "개발자와 기술 사용자는 사후 학습을 통해 모델이 현지 지식과 문화적 뉘앙스를 더 잘 반영할 수 있음을 알게 될 수 있습니다. 이 과정은 일반적인 언어 이해 이상의 것이 필요한 애플리케이션의 정확도를 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "AI 도입은 전 세계 언어와 문화에 걸쳐 확장되고 있습니다.",
+    "범용 언어 모델은 종종 현지 지식과 문화적 뉘앙스가 부족합니다.",
+    "사후 학습을 통해 오픈 모델을 특정 현지 요구 사항에 맞게 조정할 수 있습니다."
+   ]
+  }
+ }
+}

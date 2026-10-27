@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c6fd9c70afae34ae",
+ "contentHash": "1f17efb6fc58378b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T20:17:01.169Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+   "summary": "Security firm Xint demonstrated that OpenAI's conversation compaction feature can be used to copy a model's hidden reasoning into plain text. Normally, OpenAI reasoning models process problems and return the raw reasoning as an encrypted item that users cannot read. The newly found method successfully bypassed these hidden reasoning protections.",
+   "impact": "This flaw could allow users or malicious actors to extract unencrypted reasoning data that was intended to remain hidden. Security teams and developers may need to review how model features handle internal data compaction.",
+   "keyPoints": [
+    "OpenAI's compaction feature shrinks long conversations to save space.",
+    "Security firm Xint showed the feature can expose a model's hidden reasoning in plain text.",
+    "Normally, reasoning models return raw reasoning as an unreadable encrypted item."
+   ]
+  },
+  "km": {
+   "title": "ពិការភាពនៃការបង្រួមទិន្នន័យរបស់ OpenAI អនុញ្ញាតឱ្យអ្នកស្រាវជ្រាវឆ្លងកាត់ការការពារការគិតលាក់ទុក",
+   "summary": "ក្រុមហ៊ុនសន្តិសុខ Xint បានបង្ហាញថា លក្ខណៈពិសេសនៃការបង្រួមការសន្ទនារបស់ OpenAI អាចត្រូវបានបង្វែរទៅជាមធ្យោបាយចម្លងការគិតលាក់ទុករបស់ម៉ូដែលចេញជាអត្ថបទធម្មតា។ ជាទូទៅ ម៉ូដែលហេតុផលរបស់ OpenAI ដំណើរការបញ្ហាជាមុនសិន មុននឹងឆ្លើយតប ហើយសេវាកម្មនេះជាធម្មតាបង្វិលត្រឡប់មកវិញនូវហេតុផលឆៅជារូបភាពអ៊ិនគ្រីបដែលអ្នកប្រើប្រាស់មិនអាចអានបាន។ វិធីសាស្ត្រនេះបានឆ្លងកាត់ការការពារទាំងនោះ។",
+   "impact": "ពិការភាពនេះអាចអនុញ្ញាតឱ្យទិន្នន័យហេតុផលដែលត្រូវបានលាក់ទុកត្រូវបែកធ្លាយចេញមកក្រៅ។ ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចចាំបាច់ត្រូវពិនិត្យមើលពីរបៀបដែលលក្ខណៈពិសេសរបស់ម៉ូដែលគ្រប់គ្រងការបង្រួមទិន្នន័យខាងក្នុង។",
+   "keyPoints": [
+    "លក្ខណៈពិសេសបង្រួមទិន្នន័យរបស់ OpenAI បង្រួមការសន្ទនាយូរដើម្បីសន្សំសំចៃទំហំ។",
+    "ក្រុមហ៊ុនសន្តិសុខ Xint បានបង្ហាញថាវាអាចបង្ហាញការគិតលាក់ទុកជាអត្ថបទធម្មតា។",
+    "ជាធម្មតា ម៉ូដែលហេតុផលបញ្ជូនត្រឡប់មកវិញនូវហេតុផលឆៅជាធាតុអ៊ិនគ្រីបដែលមិនអាចអានបាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "OpenAI 压缩漏洞使研究人员能够绕过隐藏的推理保护机制",
+   "summary": "安全公司 Xint 展示了 OpenAI 用于节省空间的对话压缩功能可以被转变成一种将模型隐藏推理复制为纯文本的方法。OpenAI 的推理模型在回答前会先处理问题，并且该服务通常仅以用户无法读取的加密项形式返回原始推理。该方法成功绕过了隐藏的推理保护。",
+   "impact": "这个缺陷可能会让用户或攻击者提取原本旨在保持隐藏的未加密推理数据。安全团队和开发人员可能需要重新评估模型功能如何处理内部数据压缩。",
+   "keyPoints": [
+    "OpenAI 的压缩功能可以缩短冗长的对话以节省空间。",
+    "安全公司 Xint 表明该功能可以泄露模型的纯文本隐藏推理。",
+    "通常情况下，推理模型会将原始推理作为无法读取的加密项返回。"
+   ]
+  },
+  "ko": {
+   "title": "OpenAI 압축 결함으로 연구원들이 숨겨진 추론 보호 우회",
+   "summary": "보안 기업 Xint는 공간을 절약하기 위해 긴 대화를 축소하는 OpenAI의 압축 기능을 모델의 숨겨진 추론을 평문으로 복사하는 수단으로 악용할 수 있음을 입증했습니다. OpenAI의 추론 모델은 답변 전에 문제를 해결하며 서비스는 일반적으로 사용자가 읽을 수 없는 암호화된 항목으로 원시 추론만을 반환합니다. 이 방법은 숨겨진 추론 보호를 우회하는 데 성공했습니다.",
+   "impact": "이 결함으로 인해 숨겨져 있어야 할 암호화되지 않은 추론 데이터가 외부로 유출될 수 있습니다. 보안 팀과 개발자는 모델 기능이 내부 데이터 압축을 처리하는 방식을 검토해야 할 수 있습니다.",
+   "keyPoints": [
+    "OpenAI의 압축 기능은 공간을 절약하기 위해 긴 대화를 축소합니다.",
+    "보안 기업 Xint는 이 기능이 모델의 숨겨진 추론을 평문으로 노출할 수 있음을 보여주었습니다.",
+    "일반적으로 추론 모델은 원시 추론을 읽을 수 없는 암호화된 항목으로 반환합니다."
+   ]
+  }
+ }
+}

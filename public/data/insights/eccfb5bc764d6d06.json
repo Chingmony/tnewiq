@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "eccfb5bc764d6d06",
+ "contentHash": "d19f700038bc6822",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T20:15:51.139Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Corretto October 2026 Patch Updates",
+   "summary": "Amazon announced patch updates for multiple Amazon Corretto Long-Term Support and Feature Release versions of OpenJDK on October 26, 2026. The new versions now available for download include Corretto 27.0.1.0.11, 25.0.5.0.10, 21.0.13.0.11, 17.0.21.0.11, 11.0.33.0.10, and 8u512. Users can download these updates from the Corretto home page or configure a Linux repository to receive them.",
+   "impact": "Developers and technology users managing Java environments may want to apply these updates to maintain application security and stability. Using the provided package repositories could simplify the deployment of these patches across Linux systems.",
+   "keyPoints": [
+    "Amazon released patch updates for Amazon Corretto OpenJDK versions on October 26, 2026.",
+    "Available versions include 27.0.1.0.11, 25.0.5.0.10, 21.0.13.0.11, 17.0.21.0.11, 11.0.33.0.10, and 8u512.",
+    "Updates can be downloaded from the Corretto home page or via Apt, Yum, and Apk repositories."
+   ]
+  },
+  "km": {
+   "title": "បច្ចុប្បន្នភាពកែតម្រូវ Amazon Corretto ខែតុលា ឆ្នាំ២០២៦",
+   "summary": "Amazon បានប្រកាសពីបច្ចុប្បន្នភាពកែតម្រូវសម្រាប់កំណែ Amazon Corretto LTS និង FR នៃ OpenJDK នៅថ្ងៃទី២៦ ខែតុលា ឆ្នាំ២០២៦។ កំណែថ្មីៗរួមមាន Corretto 27.0.1.0.11, 25.0.5.0.10, 21.0.13.0.11, 17.0.21.0.11, 11.0.33.0.10 និង 8u512 ឥឡូវនេះអាចទាញយកបានហើយ។ អ្នកប្រើប្រាស់អាចទាញយកពួកវាពីទំព័រដើមរបស់ Corretto ឬកំណត់រចនាសម្ព័ន្ធឃ្លាំង Linux ផ្ទាល់។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យា និងអ្នកអភិវឌ្ឍន៍អាចធ្វើបច្ចុប្បន្នភាពប្រព័ន្ធរបស់ខ្លួនដើម្បីធានាស្ថិរភាព និងសុវត្ថិភាព។ ការប្រើប្រាស់ឃ្លាំងកញ្ចប់ទិន្នន័យ Linux អាចជួយសម្រួលដល់ការដំឡើងនៅលើប្រព័ន្ធ។",
+   "keyPoints": [
+    "Amazon បានចេញផ្សាយបច្ចុប្បន្នភាពកែតម្រូវសម្រាប់ OpenJDK កំណែ Corretto នៅថ្ងៃទី២៦ ខែតុលា ឆ្នាំ២០២៦។",
+    "កំណែដែលបានចេញផ្សាយរួមមាន 27.0.1.0.11, 25.0.5.0.10, 21.0.13.0.11, 17.0.21.0.11, 11.0.33.0.10 និង 8u512។",
+    "អាចទាញយកតាមរយៈទំព័រដើម Corretto ឬឃ្លាំង Apt, Yum, និង Apk ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Corretto 2026年10月补丁更新",
+   "summary": "亚马逊于2026年10月26日宣布了针对OpenJDK的多个Amazon Corretto长期支持和功能发布版本的补丁更新。现已开放下载的新版本包括Corretto 27.0.1.0.11、25.0.5.0.10、21.0.13.0.11、17.0.21.0.11、11.0.33.0.10以及8u512。用户可以通过Corretto主页下载这些更新，或者在Linux系统上配置相应的软件仓库来获取它们。",
+   "impact": "开发人员和技术用户可以通过应用这些补丁来维护Java环境的稳定性和安全性。通过配置Apt、Yum或Apk仓库，团队能够更便捷地在Linux系统上部署这些更新。",
+   "keyPoints": [
+    "亚马逊于2026年10月26日发布了Amazon Corretto补丁更新。",
+    "更新版本涵盖Corretto 27、25、21、17、11以及8u512等多个版本。",
+    "用户可从官方主页或通过Linux仓库下载更新。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Corretto 2026년 10월 패치 업데이트",
+   "summary": "아마존은 2026년 10월 26일에 OpenJDK의 Amazon Corretto 장기 지원 및 기능 릴리스 버전을 위한 패치 업데이트를 발표했다. 다운로드 가능한 새 버전에는 Corretto 27.0.1.0.11, 25.0.5.0.10, 21.0.13.0.11, 17.0.21.0.11, 11.0.33.0.10 및 8u512가 포함된다. 사용자는 Corretto 홈페이지를 통해 업데이트를 다운로드하거나 Linux 시스템에서 패키지 저장소를 구성하여 받을 수 있다.",
+   "impact": "개발자와 기술 사용자는 Java 환경의 안정성과 보안을 유지하기 위해 해당 업데이트를 적용할 수 있다. Linux 시스템에서 Apt, Yum 또는 Apk 저장소를 설정하면 업데이트 배포 과정을 간소화할 수 있다.",
+   "keyPoints": [
+    "아마존이 2026년 10월 26일 Amazon Corretto OpenJDK 패치 업데이트를 발표함.",
+    "새로운 업데이트 버전에는 Corretto 27, 25, 21, 17, 11 및 8u512가 포함됨.",
+    "Corretto 홈페이지 또는 Linux 저장소를 통해 업데이트를 획득할 수 있음."
+   ]
+  }
+ }
+}

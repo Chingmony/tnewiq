@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "dc1f78b83e65b690",
+ "contentHash": "2cacd9cd91b9656e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T20:16:00.891Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+   "summary": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but failed to turn revocation checking on. As a result, revoked client certificates could still pass the login process on affected setups. This vulnerability impacts builds using the OpenSSL backend with mutual-TLS where a revocation list is configured.",
+   "impact": "Developers and security teams utilizing GoAhead with mutual-TLS and OpenSSL may find that revoked client certificates are incorrectly accepted, bypassing intended security controls.",
+   "keyPoints": [
+    "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend.",
+    "Revocation checking was never turned on, allowing revoked client certificates to pass login.",
+    "The flaw affects builds using the OpenSSL backend with mutual-TLS."
+   ]
+  },
+  "km": {
+   "title": "កំហុស TLS របស់ GoAhead អនុញ្ញាតឱ្យប្រើប្រាស់វិញ្ញាបនបត្រអតិថិជនដែលត្រូវបានដកហូត និងបើកការឌិគ្រីបសម័យ",
+   "summary": "ម៉ាស៊ីនបម្រើបណ្តាញបង្កប់ GoAhead បានផ្ទុកបញ្ជីដកហូតវិញ្ញាបនបត្រទៅក្នុងផ្នែកខាងក្រោយ TLS របស់ខ្លួន ប៉ុន្តែមិនបានបើកដំណើរការការពិនិត្យការដកហូតនោះទេ។ ជាលទ្ធផល វិញ្ញាបនបត្រអតិថិជនដែលត្រូវបានដកហូតនៅតែអាចឆ្លងកាត់ការចូលប្រព័ន្ធនៅលើការរៀបចំដែលងាយរងគ្រោះ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ដែលប្រើប្រាស់ GoAhead អាចនឹងឃើញថា វិញ្ញាបនបត្រអតិថិជនដែលត្រូវបានដកហូតនៅតែត្រូវបានទទួលយកដោយមិនមានចេតនា។",
+   "keyPoints": [
+    "ម៉ាស៊ីនបម្រើបណ្តាញបង្កប់ GoAhead បានផ្ទុកបញ្ជីដកហូតវិញ្ញាបនបត្រ។",
+    "ការពិនិត្យការដកហូតមិនត្រូវបានបើកដំណើរការទេ។",
+    "កំហុសនេះប៉ះពាល់ដល់ការបង្កើតដែលប្រើប្រាស់ OpenSSL backend ជាមួយ mutual-TLS។"
+   ]
+  },
+  "zh-CN": {
+   "title": "GoAhead TLS 漏洞允许使用已被撤销的客户端证书并可解密会话",
+   "summary": "GoAhead 嵌入式 Web 服务器在其默认的 TLS 后端加载了证书吊销列表，但从未开启吊销检查功能，因此在受影响的设置中，已被吊销的客户端证书仍然可以通过登录。该漏洞存在于使用 OpenSSL 后端和双向 TLS 且配置了吊销列表的构建版本中。",
+   "impact": "使用带有 OpenSSL 的双向 TLS 的 GoAhead 开发人员和安全团队可能会发现，已被吊销的客户端证书被错误接受，从而绕过了预期的安全控制。",
+   "keyPoints": [
+    "GoAhead 嵌入式 Web 服务器在其默认 TLS 后端加载了证书吊销列表。",
+    "未开启吊销检查，导致吊销的客户端证书仍可登录。",
+    "该缺陷影响使用 OpenSSL 后端和 mutual-TLS 的版本。"
+   ]
+  },
+  "ko": {
+   "title": "GoAhead TLS 결함으로 취소된 클라이언트 인증서 허용 및 세션 복호화 가능",
+   "summary": "GoAhead 임베디드 웹 서버는 기본 TLS 백엔드에 인증서 폐기 목록을 로드했으나 폐기 검사를 활성화하지 않아, 영향 받는 설정에서는 취소된 클라이언트 인증서도 로그인을 통과할 수 있었습니다. 이 결함은 상호 TLS와 함께 OpenSSL 백엔드를 사용하는 빌드에 영향을 미칩니다.",
+   "impact": "상호 TLS 및 OpenSSL과 함께 GoAhead를 사용하는 개발자와 보안 팀은 취소된 클라이언트 인증서가 잘못 허용되어 의도한 보안 제어를 우회할 수 있음을 발견할 수 있습니다.",
+   "keyPoints": [
+    "GoAhead 임베디드 웹 서버가 기본 TLS 백엔드에 인증서 폐기 목록을 로드했습니다.",
+    "폐기 검사가 활성화되지 않아 취소된 클라이언트 인증서가 로그인을 통과했습니다.",
+    "이 결함은 상호 TLS와 함께 OpenSSL 백엔드를 사용하는 빌드에 영향을 미칩니다."
+   ]
+  }
+ }
+}

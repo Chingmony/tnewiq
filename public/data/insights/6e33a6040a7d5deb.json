@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6e33a6040a7d5deb",
+ "contentHash": "94e40f650e99671d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T20:16:13.996Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+   "summary": "Apple has backported security fixes for a high-severity flaw to older iPhones and iPads. The vulnerability, designated CVE-2026-86950 with a CVSS score of 8.8, is an out-of-bounds write in CoreGraphics. It has been actively exploited in real-world cyber attacks and can lead to arbitrary code execution when processing malicious files.",
+   "impact": "This update is crucial for users and security teams managing older Apple devices, as it addresses a vulnerability that is already being exploited in the wild. Applying these patches may help prevent arbitrary code execution and secure devices against active attacks.",
+   "keyPoints": [
+    "Apple backported fixes for CVE-2026-86950 to older iPhones and iPads.",
+    "The flaw is a high-severity out-of-bounds write in CoreGraphics with a CVSS score of 8.8.",
+    "It has been exploited in real-world cyber attacks.",
+    "Processing a maliciously crafted file can result in arbitrary code execution."
+   ]
+  },
+  "km": {
+   "title": "Apple បញ្ចេញកំណែទម្រង់បំប៉នសុវត្ថិភាពសម្រាប់កំហុស CoreGraphics ដែលរងការវាយប្រហារទៅលើ iPhone និង iPad ជំនាន់ចាស់",
+   "summary": "Apple បានបញ្ចេញកំណែទម្រង់សុវត្ថិភាពកម្រិតខ្ពស់សម្រាប់កំហុសដែលរងការវាយប្រហារក្នុងពិភពពិតទៅលើឧបករណ៍ជំនាន់ចាស់។ ចន្លោះប្រហោងនេះត្រូវបានតាមដានក្រោមលេខ CVE-2026-86950 ដែលមានពិន្ទុ CVSS 8.8 ជាបញ្ហាសរសេរហួសព្រំដែន (out-of-bounds write) លើ CoreGraphics។ វាអាចបណ្តាលឱ្យមានការប្រតិបត្តិលេខកូដតាមអំពើចិត្តនៅពេលដំណើរការឯកសារដែលបានបង្កើតឡើងដោយមាន malice ។",
+   "impact": "បច្ចុប្បន្នភាពនេះអាចមានសារៈសំខាន់សម្រាប់ក្រុមសុវត្ថិភាព និងអ្នកប្រើប្រាស់ឧបករណ៍ជំនាន់ចាស់ ដើម្បីការពារការវាយប្រហារបន្តបន្ទាប់ពីកំហុសដែលកំពុងត្រូវបាន khai thác ក្នុងពេលជាក់ស្តែង។",
+   "keyPoints": [
+    "Apple បានបញ្ចេញកែតម្រង់សម្រាប់ CVE-2026-86950 ទៅកាន់ឧបករណ៍ជំនាន់ចាស់។",
+    "ចន្លោះប្រហោងនេះគឺជា out-of-bounds write ក្នុង CoreGraphics ដែលមានពិន្ទុ 8.8។",
+    "វាត្រូវបានគេយកទៅប្រើប្រាស់ក្នុងការវាយប្រហារតាមអ៊ីនធឺណិតក្នុងពិភពពិត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Apple 为较旧的 iPhone 和 iPads 向后移植了针对已被利用的 CoreGraphics 漏洞的修复程序",
+   "summary": "Apple 周一向较旧的设备向后移植了高严重性安全漏洞的修复程序。该漏洞被追踪为 CVE-2026-86950（CVSS 评分：8.8），是 CoreGraphics 中的越界写入问题，在处理恶意制作的文件时可能导致任意代码执行。该漏洞的补丁此前已由 Apple 发布。",
+   "impact": "对于维护旧款 Apple 设备的开发人员和安全团队来说，此修复至关重要，因为该漏洞已在实际网络攻击中遭到利用。及时应用这些补丁可以降低设备遭受任意代码执行的风险。",
+   "keyPoints": [
+    "Apple 向较旧的 iPhone 和 iPads 向后移植了 CVE-2026-86950 的修复程序。",
+    "该漏洞是影响 CoreGraphics 的越界写入问题，CVSS 评分为 8.8。",
+    "该漏洞已在实际攻击中遭到利用。"
+   ]
+  },
+  "ko": {
+   "title": "Apple, 구형 iPhone 및 iPad용으로 악용된 CoreGraphics 취약점 수정 사항 백포트",
+   "summary": "Apple은 실제 사이버 공격에 악용된 높은 심각도의 보안 취약점에 대한 수정 사항을 구형 기기용으로 백포트했습니다. CVE-2026-86950(CVSS 점수: 8.8)으로 추적되는 이 취약점은 CoreGraphics에 영향을 미치는 범위를 벗어난 쓰기(out-of-bounds write) 결함이며, 악의적으로 조작된 파일을 처리할 때 임의 코드 실행으로 이어질 수 있습니다.",
+   "impact": "이번 업데이트는 실제로 악용되고 있는 취약점을 해결하므로, 구형 Apple 기기를 관리하는 보안 팀과 사용자에게 중요할 수 있습니다. 패치를 적용하면 임의 코드 실행 위험을 방지하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "Apple이 구형 iPhone 및 iPad용으로 CVE-2026-86950 수정 사항을 백포트했습니다.",
+    "이 취약점은 CVSS 점수 8.8의 CoreGraphics 범위를 벗어난 쓰기 결함입니다.",
+    "해당 취약점은 실제 사이버 공격에 악용되었습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9ac0f9c38b8fbaa1",
+ "contentHash": "b26fb8417fc23e62",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T20:12:08.609Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs",
+   "summary": "AWS has announced Seekable OCI (SOCI) indexing for Amazon SageMaker AI Training and processing jobs. This feature allows SageMaker AI to lazy-load container images by fetching only the necessary files to start the container and streaming the rest in the background. Users can adopt it by using pre-indexed AWS Deep Learning Containers or adding an index to their own images without modifying job definitions.",
+   "impact": "This capability could significantly reduce startup times and lower job costs for developers and technology users by eliminating download overhead. Security teams and developers can also benefit from faster iteration speeds during hyperparameter tuning and short processing jobs without risking workflow disruptions due to automated fallback mechanisms.",
+   "keyPoints": [
+    "SOCI indexing lazy-loads container images, reducing job startup times to seconds instead of minutes.",
+    "Benchmarks showed up to a 90 percent reduction in GPU idle time during image pulls.",
+    "Adoption requires no changes to job definitions, entry points, or data channels.",
+    "Jobs automatically fall back to standard downloads if an index cannot be read or lazy loading fails."
+   ]
+  },
+  "km": {
+   "title": "ប្រកាស​ដាក់​ឱ្យ​ប្រើប្រាស់​រូបភាព​ដែល​បាន​ធ្វើ​លិបិក្រម SOCI សម្រាប់​កិច្ចការ SageMaker AI ដែល​លឿន​ជាងមុន",
+   "summary": "AWS បានប្រកាសពីការដាក់ឱ្យប្រើប្រាស់ Seekable OCI (SOCI) indexing សម្រាប់កិច្ចការ Amazon SageMaker AI Training និង processing ។លក្ខណៈពិសេសនេះអនុញ្ញាតឱ្យ SageMaker AI ផ្ទុកកុងតឺន័ររូបភាពដោយទាញយកតែឯកសារចាំបាច់ដើម្បីចាប់ផ្តើម និងស្ទ្រីមផ្នែកដែលនៅសល់នៅផ្ទៃខាងក្រោយ។អ្នកប្រើប្រាស់អាចអនុម័តវាដោយប្រើ AWS Deep Learning Containers ដែលមានស្រាប់ ឬបន្ថែមលិបិក្រមទៅកាន់រូបភាពផ្ទាល់ខ្លួនដោយមិនចាំបាច់កែប្រែកិច្ចការឡើយ។",
+   "impact": "សមត្ថភាពនេះអាចកាត់បន្ថយពេលវេលាដំណើរការ និងកាត់បន្ថយការចំណាយលើកិច្ចការសម្រាប់អ្នកអភិវឌ្ឍន៍ដោយលុបបំបាត់ការទាញយកលើសចំណុះ។ វាអាចជួយបង្កើនល្បឿននៃការធ្វើតេស្ត និងកិច្ចការដំណើរការខ្លីៗដោយគ្មានហានិភ័យដល់លំហូរការងារដែលមានស្រាប់។",
+   "keyPoints": [
+    "ការធ្វើលិបិក្រម SOCI ជួយផ្ទុកកុងតឺន័ររូបភាពលឿនជាងមុន ដោយកាត់បន្ថយពេលចាប់ផ្តើមមកត្រឹមប៉ុន្មានវិនាទី។",
+    "ការវាស់វែងបង្ហាញថាការធ្លាក់ចុះពេលវេលាទំនេររបស់ GPU គឺរហូតដល់ 90 ភាគរយក្នុងអំឡុងពេលទាញយករូបភាព។",
+    "ការប្រើប្រាស់មិនទាមទារឱ្យមានការផ្លាស់ប្តូរនិយមន័យកិច្ចការ ច្រកចូល ឬបណ្តាញទិន្នន័យឡើយ។",
+    "កិច្ចការនឹងត្រឡប់ទៅរកការទាញយកធម្មតាវិញដោយស្វ័យប្រវត្តិប្រសិនបើលិបិក្រមមិនអាចអានបាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "宣布推出带有 SOCI 索引的镜像以加快 SageMaker AI 任务",
+   "summary": "AWS 宣布为 Amazon SageMaker AI 训练和处理任务推出 Seekable OCI (SOCI) 索引。该功能使 SageMaker AI 能够通过仅获取启动容器所需的文件并在代码运行时在后台流式传输其余文件来惰性加载容器镜像。用户可以通过指向预先加索引的 AWS Deep Learning Containers 或向自己的镜像添加索引来采用它，而无需更改任务定义。",
+   "impact": "通过消除下载开销，这一功能可以显著缩短开发人员和技术用户的启动时间并降低任务成本。团队还可以在超参数调整和短期处理任务期间提高迭代速度，同时通过自动回退机制避免工作流程中断的风险。",
+   "keyPoints": [
+    "SOCI 索引可实现容器镜像的惰性加载，将作业启动时间从几分钟缩短至几秒钟。",
+    "基准测试显示，在镜像拉取期间 GPU 空闲时间最多减少了 90%。",
+    "采用该功能不需要对作业定义、入口点或数据通道进行任何更改。",
+    "如果无法读取索引或惰性加载失败，作业会自动回退到标准下载。"
+   ]
+  },
+  "ko": {
+   "title": "더 빠른 SageMaker AI 작업을 위한 SOCI 인덱싱 이미지 발표",
+   "summary": "AWS는 Amazon SageMaker AI 훈련 및 처리 작업을 위한 Seekable OCI (SOCI) 인덱싱을 발표했습니다. 이 기능을 통해 SageMaker AI는 컨테이너를 시작하는 데 필요한 파일만 가져오고 코드가 실행되는 동안 나머지는 백그라운드에서 스트리밍하는 방식으로 컨테이너 이미지를 지연 로드할 수 있습니다. 사용자는 작업 정의를 변경하지 않고도 사전 인덱싱된 AWS Deep Learning Containers를 사용하거나 자신의 이미지에 인덱스를 추가하여 이를 적용할 수 있습니다.",
+   "impact": "이 기능은 다운로드 오버헤드를 제거하여 개발자와 기술 사용자의 시작 시간을 크게 단축하고 작업 비용을 절감할 수 있습니다. 또한 자동 대체 메커니즘을 통해 기존 워크플로 중단 위험 없이 하이퍼파라미터 튜닝 및 짧은 처리 작업 중 반복 속도를 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "SOCI 인덱싱은 컨테이너 이미지를 지연 로드하여 작업 시작 시간을 몇 분에서 몇 초로 단축합니다.",
+    "벤치마크 결과 이미지 풀 중에 GPU 유휴 시간이 최대 90%까지 감소했습니다.",
+    "작업 정의, 진입점 또는 데이터 채널을 변경할 필요 없이 적용할 수 있습니다.",
+    "인덱스를 읽을 수 없거나 지연 로드가 실패하면 작업이 표준 다운로드로 자동 대체됩니다."
+   ]
+  }
+ }
+}

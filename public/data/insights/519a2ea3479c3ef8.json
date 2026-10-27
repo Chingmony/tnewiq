@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "519a2ea3479c3ef8",
+ "contentHash": "f7a86142752f83a1",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T20:10:38.341Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+   "summary": "Katelyn Lesse and Angela Jiang discuss the engineering behind the Claude Platform on Latent Space. Topics covered include launching Opus 5.5, separating the model's brain from the agent's hands, scaling APIs, and building reliable managed agents. The episode also touches on Anthropic's S-1, revenue efficiency, and safety mechanisms like isolation and network controls.",
+   "impact": "Developers and engineering teams building with LLMs could gain insights into how Anthropic approaches agent scaling, safety containment, and API architecture. Understanding these practices may help teams design more reliable managed agents and secure API integrations.",
+   "keyPoints": [
+    "Katelyn Lesse and Angela Jiang explained the engineering behind the Claude Platform.",
+    "Key topics included launching Opus 5.5 and separating the model brain from the agent hands.",
+    "The episode covered scaling APIs, isolation, credentials, and network controls.",
+    "Discussions also featured Anthropic's S-1, revenue efficiency, and building reliable managed agents."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែល Anthropic បញ្ចេញ LLM លេខ 1 ក្នុងពិភពលោកដោយសុវត្ថិភាព៖ ការបំបែកខួរក្បាលចេញពីដៃ",
+   "summary": "Katelyn Lesse និង Angela Jiang បានចូលរួមក្នុងកម្មវិធី Latent Space ដើម្បីពន្យល់ពីវិស្វកម្មនៅពីក្រោយ Claude Platform ។ ប្រធានបទរួមមានការដាក់ឱ្យដំណើរការ Opus 5.5 ការបំបែកខួរក្បាលរបស់ម៉ូដែលចេញពីដៃរបស់ភ្នាក់ងារ ការពង្រីក API និងការបង្កើតភ្នាក់ងារគ្រប់គ្រងដែលគួរឱ្យទុកចិត្ត។ វគ្គនេះក៏បានប៉ះពាល់ដល់ឯកសារ S-1 របស់ Anthropic ប្រសិទ្ធភាពចំណូល និងយន្តការសុវត្ថិភាពផងដែរ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងក្រុមវិស្វកម្មដែលបង្កើតជាមួយ LLMs អាចទទួលបានការយល់ដឹងអំពីរបៀបដែល Anthropic ចូលទៅជិតការពង្រីកភ្នាក់ងារ ការទប់ស្កាត់សុវត្ថិភាព និងស្ថាបត្យកម្ម API ។ ការយល់ដឹងអំពីការអនុវត្តទាំងនេះអាចជួយក្រុមក្នុងការរចនាភ្នាក់ងារគ្រប់គ្រងដែលគួរឱ្យទុកចិត្តជាងមុន។",
+   "keyPoints": [
+    "Katelyn Lesse និង Angela Jiang បានពន្យល់ពីវិស្វកម្មនៅពីក្រោយ Claude Platform ។",
+    "ប្រធានបទសំខាន់ៗរួមមានការដាក់ឱ្យដំណើរការ Opus 5.5 និងការបំបែកខួរក្បាលចេញពីដៃ។",
+    "វគ្គនេះបានគ្របដណ្តប់លើការពង្រីក API ការ隔离 និងការគ្រប់គ្រងបណ្តាញ។",
+    "ការពិភាក្សាក៏បានបង្ហាញពីឯកសារ S-1 របស់ Anthropic និងប្រសិទ្ធភាពចំណូលផងដែរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Anthropic 如何安全地发布全球第一大 LLM：将大脑与双手分离",
+   "summary": "Katelyn Lesse 和 Angela Jiang 做客 Latent Space，解释了 Claude Platform 背后的工程技术。讨论的主题包括推出 Opus 5.5、将模型的“大脑”与代理的“双手”分离、扩展 API 以及构建可靠的托管代理。本期节目还涉及 Anthropic 的 S-1、收入效率以及隔离和网络控制等安全机制。",
+   "impact": "使用 LLM 进行构建的开发人员和工程团队可以深入了解 Anthropic 如何处理代理扩展、安全包含和 API 架构。了解这些做法可能有助于团队设计更可靠的托管代理和安全的 API 集成。",
+   "keyPoints": [
+    "Katelyn Lesse 和 Angela Jiang 解释了 Claude Platform 背后的工程技术。",
+    "重点话题包括推出 Opus 5.5 以及将模型大脑与代理双手分离。",
+    "本期节目涵盖了 API 扩展、隔离、凭据和网络控制。",
+    "讨论还涉及 Anthropic 的 S-1 以及收入效率。"
+   ]
+  },
+  "ko": {
+   "title": "Anthropic이 세계 1위 LLM을 안전하게 출시하는 방법: 두뇌와 손의 분리",
+   "summary": "Katelyn Lesse와 Angela Jiang이 Latent Space에 출연하여 Claude Platform 이면의 엔지니어링에 대해 설명합니다. 다룬 주제에는 Opus 5.5 출시, 모델의 두뇌와 에이전트의 손 분리, API 확장, 신뢰할 수 있는 관리형 에이전트 구축이 포함됩니다. 이 에피소드는 또한 Anthropic의 S-1, 수익 효율성, 격리 및 네트워크 제어와 같은 안전 메커니즘을 다룹니다.",
+   "impact": "LLM을 사용하여 빌드하는 개발자와 엔지니어링 팀은 Anthropic이 에이전트 확장, 안전 격리 및 API 아키텍처에 접근하는 방식에 대한 통찰력을 얻을 수 있습니다. 이러한 관행을 이해하면 팀이 더 신뢰할 수 있는 관리형 에이전트와 안전한 API 통합을 설계하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "Katelyn Lesse와 Angela Jiang이 Claude Platform 이면의 엔지니어링을 설명했습니다.",
+    "주요 주제에는 Opus 5.5 출시와 모델 두뇌와 에이전트 손의 분리가 포함되었습니다.",
+    "이 에피소드는 API 확장, 격리, 자격 증명 및 네트워크 제어를 다뤘습니다.",
+    "토론에는 Anthropic의 S-1과 수익 효율성도 포함되었습니다."
+   ]
+  }
+ }
+}

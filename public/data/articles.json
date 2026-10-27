@@ -1,7 +1,592 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-27T14:34:45.157Z",
+ "generatedAt": "2026-10-27T20:07:08.758Z",
  "articles": [
+  {
+   "id": "765b3236f75cc874",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Alibaba's latest Qwen models routed some requests through company servers, researchers find",
+   "originalUrl": "https://the-decoder.com/alibabas-latest-qwen-models-routed-some-requests-through-company-servers-researchers-find/",
+   "originalLanguage": "en",
+   "originalDescription": "Alibaba's Qwen 3.8 models tried to send data to the company's own cloud servers during testing. Palisade Research finds the behavior in three models from the 3.8 generation, while older models aren't affected. The likely cause: Alibaba's training infrastructure got baked into…",
+   "publishedAt": "2026-10-27T19:45:49.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "751449b2a8e5c100"
+  },
+  {
+   "id": "8333c89d9d7c203a",
+   "sourceId": "simon-willison",
+   "sourceName": "Simon Willison's Weblog",
+   "originalTitle": "Game Boy Color on My Conference Badge",
+   "originalUrl": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+   "originalLanguage": "en",
+   "originalDescription": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full…",
+   "publishedAt": "2026-10-27T19:34:18.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai",
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "98f647957b2ea86f"
+  },
+  {
+   "id": "373a8b625d1496cb",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+   "originalUrl": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+   "originalLanguage": "en",
+   "originalDescription": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
+   "publishedAt": "2026-10-27T18:55:35.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai",
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "4eb569e935c565e6"
+  },
+  {
+   "id": "d1002f7bd460f710",
+   "sourceId": "latent-space",
+   "sourceName": "Latent Space",
+   "originalTitle": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+   "originalUrl": "https://latent.space/p/opus55/",
+   "originalLanguage": "en",
+   "originalDescription": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
+   "publishedAt": "2026-10-27T18:53:10.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/f111395b-ddfb-4ddc-969e-2424a5d05eb7/chatgpt.png?t=1793127236",
+   "contentHash": "cda6e9aa5dad83ba"
+  },
+  {
+   "id": "7ded73819dc67010",
+   "sourceId": "ars-technica-ai",
+   "sourceName": "Ars Technica AI",
+   "originalTitle": "Vibe genes? Natural(ish) language comes to protein, genome design software",
+   "originalUrl": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/",
+   "originalLanguage": "en",
+   "originalDescription": "You can apparently now tell AI tools what sort of protein you want them to make.",
+   "publishedAt": "2026-10-27T18:49:08.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-615307388-832x648.jpg",
+   "contentHash": "543bff6000f2833c"
+  },
+  {
+   "id": "519a2ea3479c3ef8",
+   "sourceId": "latent-space",
+   "sourceName": "Latent Space",
+   "originalTitle": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+   "originalUrl": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+   "originalLanguage": "en",
+   "originalDescription": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction ...",
+   "publishedAt": "2026-10-27T18:40:19.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://i.ytimg.com/vi/MRQTlwcW-aQ/maxresdefault.jpg",
+   "contentHash": "f7a86142752f83a1"
+  },
+  {
+   "id": "3f1af19eb7d09511",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+   "originalUrl": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+   "originalLanguage": "en",
+   "originalDescription": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. TrendAI, which analyzed three exposed server environments…",
+   "publishedAt": "2026-10-27T18:26:46.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "cybersecurity",
+    "ai"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiniSfVwM2b4RVouLhc_nIvm2CdQCg9jtQDBVQP6BjvEC2NBaLFqU0A8RyC_GA3PkI4jF87W3h0GJ4xzycp6LAd4I3eRh3JnhnM9yi7CZ9dX2Pfe3MdDaaUSyrDUy1ksA-fdq0bUVzWcFRmS-JWOy3z7xiWB70DzgXLst_YspRqbGIAyv85_D4H9sPT7Sq3/s1600/cyberstrikeai.jpg",
+   "contentHash": "c1ee5228d85bc90c"
+  },
+  {
+   "id": "b7ff53b7c94de10e",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/",
+   "originalLanguage": "en",
+   "originalDescription": "AWS has been named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service (CCaaS) for AWS Connect Customer. This recognition marks an important milestone for our team, and it reflects years of work pushing on what's possible in customer experience.",
+   "publishedAt": "2026-10-27T18:03:12.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "24baf626ed15f0d7"
+  },
+  {
+   "id": "b49ec3bd8394c6fb",
+   "sourceId": "google-research-blog",
+   "sourceName": "Google Research Blog",
+   "originalTitle": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+   "originalUrl": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+   "originalLanguage": "en",
+   "originalDescription": "Education Innovation",
+   "publishedAt": "2026-10-27T17:35:00.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai",
+    "research-papers"
+   ],
+   "imageUrl": "https://storage.googleapis.com/gweb-research2023-media/original_images/LLMSleep_Cover.jpg",
+   "contentHash": "bbccf0956b026ed6"
+  },
+  {
+   "id": "b2aff63a03e983b2",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "VisionQuest is what happens when AI really goes rogue",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
+   "originalLanguage": "en",
+   "originalDescription": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The series is deeply fantastical, yet it plays with some of…",
+   "publishedAt": "2026-10-27T17:30:00.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "6c49dcce249ec3fc"
+  },
+  {
+   "id": "193683c2f551dc41",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Google Deepmind's Genie 4 puts a modern spin on agent designs that predate LLMs",
+   "originalUrl": "https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms/",
+   "originalLanguage": "en",
+   "originalDescription": "Google Deepmind has introduced Genie 4, a real-time world model that simulates interactive 3D worlds with sound and talking characters. Gemini models help plan in the background to keep the simulation consistent. Genie 4 is still an early research model, and longer sessions…",
+   "publishedAt": "2026-10-27T17:25:09.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "2cb697835ae00e7d"
+  },
+  {
+   "id": "1c5b51464767c2ad",
+   "sourceId": "huggingface-blog",
+   "sourceName": "Hugging Face Blog",
+   "originalTitle": "Build specialized multimodal models with LFM3",
+   "originalUrl": "https://huggingface.co/blog/LiquidAI/lfm3",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-10-27T17:16:52.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "1b0926ac31dcead1"
+  },
+  {
+   "id": "24969064b492b712",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+   "originalUrl": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+   "originalLanguage": "en",
+   "originalDescription": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
+   "publishedAt": "2026-10-27T17:08:08.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "debca065d354ba51"
+  },
+  {
+   "id": "9ac0f9c38b8fbaa1",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Announcing SOCI-indexed images for faster SageMaker AI jobs",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/",
+   "originalLanguage": "en",
+   "originalDescription": "Seekable OCI (SOCI) indexing for Amazon SageMaker AI training and processing jobs takes full container image download off the critical path. SageMaker AI lazy-loads your image to start containers in seconds instead of minutes, with no changes to your job definition. See the…",
+   "publishedAt": "2026-10-27T17:00:39.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "b26fb8417fc23e62"
+  },
+  {
+   "id": "f4247e9fd2a272b2",
+   "sourceId": "nvidia-technical-blog",
+   "sourceName": "NVIDIA Technical Blog",
+   "originalTitle": "NVIDIA RTX Spark Powers Neural Rendering and AI Characters in Games",
+   "originalUrl": "https://developer.nvidia.com/blog/nvidia-rtx-spark-powers-neural-rendering-and-ai-characters-in-games/",
+   "originalLanguage": "en",
+   "originalDescription": "NVIDIA RTX Spark is a new Windows PC platform for AI development, creation, and gaming in slim laptops and compact desktops. Powered by an NVIDIA Blackwell RTX...",
+   "publishedAt": "2026-10-27T17:00:00.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "1356b203e09384cb"
+  },
+  {
+   "id": "d5da004d8354f356",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Fix evaluation bias to unlock better models on Amazon Bedrock",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/",
+   "originalLanguage": "en",
+   "originalDescription": "Property Finder found that 96.8% of their vision-AI evaluation labels were inherited from the incumbent model, hiding its true accuracy. See how they built unbiased ground truth, applied evolutionary prompt optimization, and selected a more accurate, cost-effective model on…",
+   "publishedAt": "2026-10-27T16:53:02.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "f135cc6e553cfa64"
+  },
+  {
+   "id": "bb9f02a56d8cd14e",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Anthropic’s elaborate plan to keep Wall Street at bay",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+   "originalLanguage": "en",
+   "originalDescription": "Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for the benefit of humanity. But greater model capabilities bring greater…",
+   "publishedAt": "2026-10-27T16:51:22.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "09ccce0230f81e31"
+  },
+  {
+   "id": "e3fff8f98b614c2a",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Exowatt beats frontier models on accuracy with SageMaker serverless model customization",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/",
+   "originalLanguage": "en",
+   "originalDescription": "In this post, we show how Exowatt used Amazon SageMaker AI serverless model customization to build a repeatable AI pipeline that produces task-specific fine-tuned models for two deployment targets, edge and cloud, achieving higher accuracy than frontier models at up to 49x…",
+   "publishedAt": "2026-10-27T16:50:55.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "f3e131a1108bab1c"
+  },
+  {
+   "id": "18d6fa11580979b9",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+   "originalUrl": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+   "originalLanguage": "en",
+   "originalDescription": "Genie 4 can maintain a consistent scene for up to two minutes, double Genie 3's limit, and offers better physics and more humanlike characters.",
+   "publishedAt": "2026-10-27T16:30:57.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "ba598bc1cff6d8ab"
+  },
+  {
+   "id": "991356d9e9385200",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+   "originalLanguage": "en",
+   "originalDescription": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste…",
+   "publishedAt": "2026-10-27T16:14:18.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "17063f2262e569b0"
+  },
+  {
+   "id": "1d6c5c59e46e52b9",
+   "sourceId": "huggingface-blog",
+   "sourceName": "Hugging Face Blog",
+   "originalTitle": "Can we trust LLMs to judge whether a research idea is novel?",
+   "originalUrl": "https://huggingface.co/blog/allenai/novelty-bench",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-10-27T16:12:42.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "e6759d49c84e384d"
+  },
+  {
+   "id": "393575ee7d83ff0a",
+   "sourceId": "google-deepmind-blog",
+   "sourceName": "Google DeepMind Blog",
+   "originalTitle": "Genie 4: A new generation of world simulation",
+   "originalUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "originalLanguage": "en",
+   "originalDescription": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+   "publishedAt": "2026-10-27T16:01:38.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w528-h297-n-nu-rw-lo",
+   "contentHash": "a3901ed5c44ad42b"
+  },
+  {
+   "id": "5fb7508ef4658347",
+   "sourceId": "ars-technica-ai",
+   "sourceName": "Ars Technica AI",
+   "originalTitle": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+   "originalUrl": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+   "originalLanguage": "en",
+   "originalDescription": "Genie 4 will roll out to developers and Google AI Ultra subscribers soon.",
+   "publishedAt": "2026-10-27T16:00:22.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/vlcsnap-2026-10-27-10h06m52s461-1152x648.png",
+   "contentHash": "d1c985fb6dfe4ed8"
+  },
+  {
+   "id": "c810738ec79ec179",
+   "sourceId": "meta-engineering-ai",
+   "sourceName": "Engineering at Meta: AI",
+   "originalTitle": "PrivacyLib: Privacy Controls at the Data Access Boundary",
+   "originalUrl": "https://engineering.fb.com/2026/10/27/security/privacylib/",
+   "originalLanguage": "en",
+   "originalDescription": "This latest deep dive into Meta’s Privacy Aware Infrastructure (PAI) takes a look at PrivacyLib. A privacy requirement must hold as data moves through Meta’s diverse data and processing systems. Historically, supporting a new requirement meant implementing the same enforcement…",
+   "publishedAt": "2026-10-27T16:00:12.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "894a30590aff3851"
+  },
+  {
+   "id": "73f1440d47c57bf1",
+   "sourceId": "nvidia-technical-blog",
+   "sourceName": "NVIDIA Technical Blog",
+   "originalTitle": "Fine-Tuning NVIDIA Nemotron to Know Local Rules, Not Just Local Languages",
+   "originalUrl": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-to-know-local-rules-not-just-local-languages/",
+   "originalLanguage": "en",
+   "originalDescription": "As AI adoption expands globally, people across languages and cultures are using it in more aspects of their daily lives. General-purpose language models serve...",
+   "publishedAt": "2026-10-27T16:00:00.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "5f1e0736def0cadc"
+  },
+  {
+   "id": "8fc62bcb0cb10104",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Google’s next Genie AI model generates more realistic experiences",
+   "originalUrl": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+   "originalLanguage": "en",
+   "originalDescription": "Google announced today its Genie 4 world model for generating interactive experiences using AI. The company says the model has four main updates: It allows for more realistic worlds, lets users update an experience in real time with a natural language prompt, can generate…",
+   "publishedAt": "2026-10-27T16:00:00.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "e7a77dc23b0c48af"
+  },
+  {
+   "id": "8f31e731770ca5c5",
+   "sourceId": "ars-technica-gadgets",
+   "sourceName": "Ars Technica Gadgets",
+   "originalTitle": "From cheap tool to premium subscription: When a beloved app's price skyrockets",
+   "originalUrl": "https://arstechnica.com/gadgets/2026/10/from-cheap-tool-to-premium-subscription-when-a-beloved-apps-price-skyrockets/",
+   "originalLanguage": "en",
+   "originalDescription": "Huge price hikes force loyal users to reconsider their favorite apps.",
+   "publishedAt": "2026-10-27T15:50:19.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "mobile-hardware"
+   ],
+   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1321941710-1152x648.jpg",
+   "contentHash": "f0071384cd5cf29a"
+  },
+  {
+   "id": "85fdf95f1fdc5eec",
+   "sourceId": "nvidia-blog",
+   "sourceName": "NVIDIA Blog",
+   "originalTitle": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+   "originalUrl": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
+   "originalLanguage": "en",
+   "originalDescription": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discovery that can’t keep up with the disease. The Consortium for…",
+   "publishedAt": "2026-10-27T15:00:20.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/10/cbrain-nvidia-1.png",
+   "contentHash": "8e6a6c14eb43d0e2"
+  },
+  {
+   "id": "0e62b0d0f4210d10",
+   "sourceId": "nvidia-technical-blog",
+   "sourceName": "NVIDIA Technical Blog",
+   "originalTitle": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
+   "originalUrl": "https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark/",
+   "originalLanguage": "en",
+   "originalDescription": "Generating tokens faster starts with identifying what limits inference performance. In the batch-size-1 evaluation of Ling-3.0-flash from Inclusion AI on NVIDIA...",
+   "publishedAt": "2026-10-27T15:00:00.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "c190d4a995a2084b"
+  },
+  {
+   "id": "0fcf6f6c92fd1124",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+   "originalUrl": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+   "originalLanguage": "en",
+   "originalDescription": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
+   "publishedAt": "2026-10-27T14:59:09.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "6e1a259f9812a772"
+  },
+  {
+   "id": "fd2619caa7d8b605",
+   "sourceId": "latent-space",
+   "sourceName": "Latent Space",
+   "originalTitle": "Coding From the Himalayas With an Offline AI Agent",
+   "originalUrl": "https://latent.space/p/offline-coding/",
+   "originalLanguage": "en",
+   "originalDescription": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
+   "publishedAt": "2026-10-27T14:41:25.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/425b6203-2bf9-4c0a-9545-27f2704fa9aa/himilayas-no-wifi-1280x720.png?t=1793103846",
+   "contentHash": "39fb8f40e5f22414"
+  },
+  {
+   "id": "010584282f7d22ae",
+   "sourceId": "ars-technica-gadgets",
+   "sourceName": "Ars Technica Gadgets",
+   "originalTitle": "Apple iPhone Duo review: Two screens, two experiences, two thousand dollars",
+   "originalUrl": "https://arstechnica.com/gadgets/2026/10/apple-iphone-duo-review-two-screens-two-experiences-two-thousand-dollars/",
+   "originalLanguage": "en",
+   "originalDescription": "I respect Apple's first crack at a foldable phone, but I'm not sure I like it.",
+   "publishedAt": "2026-10-27T14:20:26.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "mobile-hardware"
+   ],
+   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/IMG_3790-1152x648.jpeg",
+   "contentHash": "3fe712a49f981ea8"
+  },
+  {
+   "id": "f5a5fbb929536e61",
+   "sourceId": "ars-technica-gadgets",
+   "sourceName": "Ars Technica Gadgets",
+   "originalTitle": "Some iPhone Duo screens are already failing, Apple says only a \"small number\" are affected",
+   "originalUrl": "https://arstechnica.com/gadgets/2026/10/some-iphone-duo-screens-are-already-failing/",
+   "originalLanguage": "en",
+   "originalDescription": "Apple's \"precision-engineered\" hinge is apparently damaging some iPhone Duo screens.",
+   "publishedAt": "2026-10-27T14:00:49.000Z",
+   "discoveredAt": "2026-10-26T22:42:48.814Z",
+   "topics": [
+    "mobile-hardware"
+   ],
+   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/iphone-duo-oops-1152x648.jpg",
+   "contentHash": "2da102eb25aca918"
+  },
+  {
+   "id": "eccfb5bc764d6d06",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon Corretto October 2026 Patch Updates",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-corretto-oct-2026-patch-updates",
+   "originalLanguage": "en",
+   "originalDescription": "On October 26, 2026 Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 27.0.1.0.11, 25.0.5.0.10, 21.0.13.0.11, 17.0.21.0.11, 11.0.33.0.10, and 8u512 are now available for download…",
+   "publishedAt": "2026-10-27T14:00:00.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "d19f700038bc6822"
+  },
+  {
+   "id": "dc1f78b83e65b690",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+   "originalUrl": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+   "originalLanguage": "en",
+   "originalDescription": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups. The flaw is in builds that use the OpenSSL backend with…",
+   "publishedAt": "2026-10-27T13:59:48.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ae8TupuVJ4B0uHZJxwQnaqstuuA42Jwt_Zh7m9RwCBp_IrCYuChUaac6fUphOhpalVEC8tfhGsYGxt1lmswBobM-r-ds6t0uEMSV9HZKT_dYcigHPxGJQo7dcJte96ymjxwSREmiGulG6xPIX4Hx3visDSuyaX2DJ3HRcctAz0Jw1T9ALkCEwZUlMsQ/s1600/goahead.jpg",
+   "contentHash": "2cacd9cd91b9656e"
+  },
+  {
+   "id": "6e33a6040a7d5deb",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+   "originalUrl": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+   "originalLanguage": "en",
+   "originalDescription": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary…",
+   "publishedAt": "2026-10-27T13:59:09.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqZx9ghfLBFufN5Q4s1dq2U1rXwenlfzU7UsqQfLWn3AEUe5CX3krGuvC6DM4mF2T9MmscvntBNxmgU7UjNOnfJQteKvuAs-4Nq0vJ3TnTkuFy1TRO3ibdh2Ekqi_WqiInvPkXjYlnvrCuYb5mb8neOOqBbmf_034wh8MPOLPKW2Nvvezpb2LFNXPbeUa6/s1600/apple-patch.jpg",
+   "contentHash": "94e40f650e99671d"
+  },
   {
    "id": "fb9fca8d6097b385",
    "sourceId": "the-decoder",
@@ -90,7 +675,7 @@
    "originalTitle": "Anduril, Qualcomm launch BlueChip, a new kind of US-made laptop",
    "originalUrl": "https://techcrunch.com/2026/10/27/anduril-qualcomm-launch-bluechip-a-new-kind-of-us-made-laptop/",
    "originalLanguage": "en",
-   "originalDescription": "Anduril founder Palmer Luckey is vowing to bring computer manufacturing back to the U.S. and by that he doesn't just mean assembly, but every individual component, some of which are exclusively made in China today.",
+   "originalDescription": "Anduril founder Palmer Luckey is vowing to bring computer manufacturing back to the U.S., and by that he doesn't just mean assembly, but every individual component, some of which are exclusively made in China today.",
    "publishedAt": "2026-10-27T13:00:00.000Z",
    "discoveredAt": "2026-10-27T14:34:45.157Z",
    "topics": [
@@ -98,7 +683,7 @@
     "mobile-hardware"
    ],
    "imageUrl": null,
-   "contentHash": "868db756e03860f8"
+   "contentHash": "72b0614d24567692"
   },
   {
    "id": "840f2acb14a494b9",
@@ -246,6 +831,38 @@
    ],
    "imageUrl": null,
    "contentHash": "173f720bb08b65b3"
+  },
+  {
+   "id": "b933b8867a0cffd5",
+   "sourceId": "cisa-advisories",
+   "sourceName": "CISA Cybersecurity Advisories",
+   "originalTitle": "EPICS Base",
+   "originalUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
+   "originalLanguage": "en",
+   "originalDescription": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive information, or potentially execute arbitrary code. The following versions of EPICS Base are affected: EPICS…",
+   "publishedAt": "2026-10-27T12:00:00.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "bdf4c7b2af14ed0c"
+  },
+  {
+   "id": "c67cf62fcc6ed47b",
+   "sourceId": "cisa-advisories",
+   "sourceName": "CISA Cybersecurity Advisories",
+   "originalTitle": "Mitsubishi Electric GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
+   "originalUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
+   "originalLanguage": "en",
+   "originalDescription": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863), bypass authentication (CVE-2026-16436 and CVE-2026-16437), or perform arbitrary operations (CVE-2026-16438), resulting in information…",
+   "publishedAt": "2026-10-27T12:00:00.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "9d3fad7148028ea3"
   },
   {
    "id": "dc5c27b683bcf6ff",
@@ -852,6 +1469,22 @@
    "contentHash": "54cb4fe1b67a83fe"
   },
   {
+   "id": "c417f8e3d39d0b89",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "originalTitle": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+   "originalUrl": "https://openai.com/index/oracle-apps-in-chatgpt",
+   "originalLanguage": "en",
+   "originalDescription": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+   "publishedAt": "2026-10-27T07:00:00.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "1696ae687e327db5"
+  },
+  {
    "id": "1c840d7b34ea0827",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -1371,6 +2004,23 @@
    "contentHash": "7213bd7e7f8867a2"
   },
   {
+   "id": "723372c8dc681795",
+   "sourceId": "anthropic-research",
+   "sourceName": "Anthropic Research",
+   "originalTitle": "How AI agents shape experts’ judgment calls",
+   "originalUrl": "https://www.anthropic.com/research/agents-judgment-calls",
+   "originalLanguage": "en",
+   "originalDescription": "As AI does more of the hands-on work, the hope is that experts still make the judgment calls, meaning the decisions with more than one defensible answer. We tested this with 50 professional analysts who did a statistical analysis with Claude Code. On each key decision, we…",
+   "publishedAt": "2026-10-27T00:00:00.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai",
+    "research-papers"
+   ],
+   "imageUrl": null,
+   "contentHash": "64086cfe1815c987"
+  },
+  {
    "id": "b7a8f6994aaa7224",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -1385,6 +2035,23 @@
    ],
    "imageUrl": null,
    "contentHash": "82e6ebbe412e210f"
+  },
+  {
+   "id": "c44dc9ed271ff418",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "originalTitle": "How Check Point accelerates vulnerability research with Daybreak",
+   "originalUrl": "https://openai.com/index/check-point-daybreak",
+   "originalLanguage": "en",
+   "originalDescription": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+   "publishedAt": "2026-10-27T00:00:00.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai",
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "098aa01370e58e54"
   },
   {
    "id": "c15b1e3c66d84564",
@@ -1420,6 +2087,23 @@
    "contentHash": "2a86d88c680085b3"
   },
   {
+   "id": "d1b2e82c44f78c76",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "GPT-6.1 Terra",
+   "originalUrl": "https://www.producthunt.com/products/openai",
+   "originalLanguage": "en",
+   "originalDescription": "Fast, capable computer use at half the price Discussion | Link",
+   "publishedAt": "2026-10-26T23:33:48.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "startups-products",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "7fead2df19731ac7"
+  },
+  {
    "id": "4ac0d41d02675392",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -1442,20 +2126,20 @@
    "originalTitle": "PulseDev",
    "originalUrl": "https://www.producthunt.com/products/pulsedev",
    "originalLanguage": "en",
-   "originalDescription": "Click any UI bug on localhost. Your AI agent fixes it. Discussion | Link",
+   "originalDescription": "Click any UI bug on localhost and your AI agent fixes it Discussion | Link",
    "publishedAt": "2026-10-26T22:47:46.000Z",
    "discoveredAt": "2026-10-27T07:55:59.994Z",
    "topics": [
     "startups-products"
    ],
    "imageUrl": null,
-   "contentHash": "64563cd5857d397c"
+   "contentHash": "467f400ba8f3d601"
   },
   {
    "id": "7ed3ce990340f2a9",
    "sourceId": "cert-cc-vulnotes",
    "sourceName": "CERT/CC Vulnerability Notes",
-   "originalTitle": "VU#701544: mpc-lib Hardened Derivation Fails to Protect Ancestor Isolation",
+   "originalTitle": "VU#701544: mpc-lib hardened derivation fails to protect ancestor isolation",
    "originalUrl": "https://kb.cert.org/vuls/id/701544",
    "originalLanguage": "en",
    "originalDescription": "Overview Fireblocks' mpc-lib library contains a cryptographic fail-open vulnerability in its BIP32 hardened derivation implementation in the case of a missing private parent key. This breaks the ancestor isolation property of hardened derivation, allowing an attacker with a…",
@@ -1465,7 +2149,7 @@
     "cybersecurity"
    ],
    "imageUrl": null,
-   "contentHash": "865b92f9ab80d7b7"
+   "contentHash": "2cfe8dead9468c9f"
   },
   {
    "id": "7bbad43981bdcc19",
@@ -2651,22 +3335,6 @@
    "contentHash": "9845f701de89e2b7"
   },
   {
-   "id": "f5a5fbb929536e61",
-   "sourceId": "ars-technica-gadgets",
-   "sourceName": "Ars Technica Gadgets",
-   "originalTitle": "Some iPhone Duo screens are already failing",
-   "originalUrl": "https://arstechnica.com/gadgets/2026/10/some-iphone-duo-screens-are-already-failing/",
-   "originalLanguage": "en",
-   "originalDescription": "Apple's \"precision-engineered\" hinge is apparently damaging some iPhone Duo screens.",
-   "publishedAt": "2026-10-26T16:51:49.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "mobile-hardware"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/iphone-duo-oops-1152x648.jpg",
-   "contentHash": "862d24268d8db3a5"
-  },
-  {
    "id": "b2ed8daad1cc7e3f",
    "sourceId": "techcrunch-ai",
    "sourceName": "TechCrunch AI",
@@ -3052,6 +3720,22 @@
    ],
    "imageUrl": null,
    "contentHash": "c477efbc9e7b7c38"
+  },
+  {
+   "id": "c2e2a44268ff72e2",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon IVS Low-Latency Streaming now provides a failover slate",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ivs-low-latency-streaming-failover-slate",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon Interactive Video Service (Amazon IVS) Low-Latency Streaming now provides a failover slate, an animated image that IVS displays to viewers when a broadcaster's stream is unexpectedly interrupted. Instead of a buffering wheel or frozen frame, viewers see the slate until…",
+   "publishedAt": "2026-10-26T15:40:00.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "d206202829ab6fd4"
   },
   {
    "id": "364769a56130a2e5",
@@ -4156,6 +4840,22 @@
    ],
    "imageUrl": null,
    "contentHash": "06e398c743bec6b3"
+  },
+  {
+   "id": "0dc7a5542f714b71",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "AWS Elemental MediaConnect Router now supports endpoint connection management",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-cross-account-endpoints/",
+   "originalLanguage": "en",
+   "originalDescription": "AWS Elemental MediaConnect Router now supports managing external connections through a new endpoint registry. The registry provides a centralized interface to register and manage both standard endpoints—devices or software outside the service, such as cameras, sources…",
+   "publishedAt": "2026-10-26T08:00:00.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "80b42e735589bdac"
   },
   {
    "id": "2ed3fea838b1aed3",
@@ -9629,6 +10329,22 @@
    "contentHash": "7eaf50b302a3ed41"
   },
   {
+   "id": "3b5a2a6a27ab5490",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "originalTitle": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+   "originalUrl": "https://openai.com/index/anima",
+   "originalLanguage": "en",
+   "originalDescription": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
+   "publishedAt": "2026-10-23T00:00:00.000Z",
+   "discoveredAt": "2026-10-27T20:07:08.758Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "24043e1c2ed6caf6"
+  },
+  {
    "id": "e16222d83dd92652",
    "sourceId": "anthropic-research",
    "sourceName": "Anthropic Research",
@@ -13685,7 +14401,7 @@
    "id": "b9a355ed1cbb06e6",
    "sourceId": "cert-cc-vulnotes",
    "sourceName": "CERT/CC Vulnerability Notes",
-   "originalTitle": "VU#645818: Xerj Console API Authentication Bypass Leads to Unauthorized Credential Minting",
+   "originalTitle": "VU#645818: Xerj Console API authentication bypass leads to unauthorized credential minting",
    "originalUrl": "https://kb.cert.org/vuls/id/645818",
    "originalLanguage": "en",
    "originalDescription": "Overview An authentication bypass vulnerability in the Xerj Console API allows sessions to bypass passkey-backed requirements during token issuance. By exploiting this flaw, an attacker with an existing valid token can create independent, persistent successor credentials…",
@@ -13695,7 +14411,7 @@
     "cybersecurity"
    ],
    "imageUrl": null,
-   "contentHash": "c7faf740915a54fe"
+   "contentHash": "93badb5075896e9d"
   },
   {
    "id": "f947e16b0eddde44",
@@ -15560,7 +16276,7 @@
    "id": "fde35d552b41c1fc",
    "sourceId": "cert-cc-vulnotes",
    "sourceName": "CERT/CC Vulnerability Notes",
-   "originalTitle": "VU#410595: Google BoringSSL Name Constraints Bypass in SAN Validation Logic",
+   "originalTitle": "VU#410595: Google BoringSSL Name Constraints bypass in SAN validation logic",
    "originalUrl": "https://kb.cert.org/vuls/id/410595",
    "originalLanguage": "en",
    "originalDescription": "Overview Five Name Constraints findings in BoringSSL (VU#410595.8–.12) describe cases where certificate names may not be constrained as intended. Records .8, .9, .10 and .12 concern the legacy crypto/x509 path; .11 concerns the newer pki path. Two have been fixed, one is…",
@@ -15570,7 +16286,7 @@
     "cybersecurity"
    ],
    "imageUrl": null,
-   "contentHash": "44ffca73e3495682"
+   "contentHash": "a36ff856fc3ad968"
   },
   {
    "id": "aebd3625fd720e56",
@@ -15833,7 +16549,7 @@
    "id": "73bf7af4b59da435",
    "sourceId": "cert-cc-vulnotes",
    "sourceName": "CERT/CC Vulnerability Notes",
-   "originalTitle": "VU#456950: Komodo Periphery Agent Contains an OS Command Injection Vulnerability",
+   "originalTitle": "VU#456950: Komodo Periphery agent contains an OS command injection vulnerability",
    "originalUrl": "https://kb.cert.org/vuls/id/456950",
    "originalLanguage": "en",
    "originalDescription": "Overview Versions <= 2.2.0 of Periphery, an agent within the Komodo server management platform, is vulnerable to OS command injection due to missing validation of container names, through two vectors: container destruction and container log searches. This allows an…",
@@ -15843,7 +16559,7 @@
     "cybersecurity"
    ],
    "imageUrl": null,
-   "contentHash": "0f928ff94237f71c"
+   "contentHash": "0c3e699213b8b31b"
   },
   {
    "id": "16892d4bf1ada56a",
@@ -15881,7 +16597,7 @@
    "id": "867f3ab3d84462c2",
    "sourceId": "cert-cc-vulnotes",
    "sourceName": "CERT/CC Vulnerability Notes",
-   "originalTitle": "VU#573195: Go, OpenSSL, Apple, LibreSSL, pyca, wolfSSL Name-Constraint Inconsistency in RFC 5280 Implementation",
+   "originalTitle": "VU#573195: Go, OpenSSL, Apple, LibreSSL, pyca, wolfSSL Name-Constraint inconsistency in RFC 5280 implementation",
    "originalUrl": "https://kb.cert.org/vuls/id/573195",
    "originalLanguage": "en",
    "originalDescription": "Overview This note covers differences in how TLS libraries interpret X.509 Name Constraints. A certificate that one library accepts may be rejected by another. Some of those differences are defects; others follow from behavior that RFC 5280 does not fully specify. Description…",
@@ -15891,7 +16607,7 @@
     "cybersecurity"
    ],
    "imageUrl": null,
-   "contentHash": "940f6552a5423e22"
+   "contentHash": "9b8c5682d2f21e10"
   },
   {
    "id": "7d68648feff28d85",

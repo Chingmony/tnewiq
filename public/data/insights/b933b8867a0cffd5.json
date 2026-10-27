@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b933b8867a0cffd5",
+ "contentHash": "bdf4c7b2af14ed0c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T20:16:37.139Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "EPICS Base",
+   "summary": "Multiple vulnerabilities have been identified in EPICS Base release 7.0.10 and prior, including CVE-2026-114595, CVE-2026-114596, CVE-2026-114597, and CVE-2026-114598. Successful exploitation of these flaws may allow attackers to cause a denial-of-service condition, corrupt memory, disclose sensitive information, or potentially execute arbitrary code. The EPICS Community has released updates in the epics-base GitHub repositories to address these issues.",
+   "impact": "Security teams and developers utilizing EPICS Base release <=7.0.10 should update to the 7.0.11 release immediately to mitigate potential critical risks such as remote code execution and memory corruption. Unpatched systems could be vulnerable to network-based attacks leading to process instability or data exposure.",
+   "keyPoints": [
+    "Affected products include EPICS Base release 7.0.10 and prior.",
+    "Vulnerabilities involve integer overflows, improper length parameter handling, and type confusion.",
+    "The EPICS Community has made updates available to resolve the flaws in the 7.0.11 release."
+   ]
+  },
+  "km": {
+   "title": "EPICS Base",
+   "summary": "ភាពខ្សោយជាច្រើនត្រូវបានរកឃើញនៅក្នុង EPICS Base កំណែ 7.0.10 និងមុននេះ រួមមាន CVE-2026-114595, CVE-2026-114596, CVE-2026-114597 និង CVE-2026-114598។ ការកេងប្រវ័ញ្ចដោយជោគជ័យលើបញ្ហាទាំងនេះអាចអនុញ្ញាតឱ្យអ្នកវាយប្រហារបង្កឱ្យមានការខកខានសេវាកម្ម ខូចខាតអង្គចងចាំ បង្ហាញព័ត៌មានរសើប ឬអាចប្រតិបត្តិកូដតាមអំពើចិត្ត។ សហគមន៍ EPICS បានចេញផ្សាយបច្ចុប្បន្នភាពនៅក្នុងឃ្លាំង epics-base GitHub ដើម្បីដោះស្រាយបញ្ហាទាំងនេះ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ដែលប្រើប្រាស់ EPICS Base កំណែ <=7.0.10 គួរតែធ្វើបច្ចុប្បន្នភាពទៅកាន់កំណែ 7.0.11 ជាបន្ទាន់ ដើម្បីកាត់បន្ថយហានិភ័យធ្ងន់ធ្ងរដែលអាចកើតមាន។ ប្រព័ន្ធដែលមិនទាន់បានបَច្ចុប្បន្នភាពអាចប្រឈមនឹងការវាយប្រហារតាមបណ្តាញដែលនាំឱ្យអស្ថិរភាពដំណើរការ។",
+   "keyPoints": [
+    "ផលិតផលដែលរងផលប៉ះពាល់រួមមាន EPICS Base កំណែ 7.0.10 និងមុននេះ។",
+    "ភាពខ្សោយរួមមានការហៀរចំនួនគត់ ការគ្រប់គ្រងប៉ារ៉ាម៉ែត្រប្រវែងមិនត្រឹមត្រូវ និងការច្រឡំប្រភេទ។",
+    "សហគមន៍ EPICS បានដាក់ឱ្យប្រើប្រាស់បច្ចុប្បន្នភាពនៅក្នុងកំណែ 7.0.11 ដើម្បីដោះស្រាយបញ្ហាទាំងនេះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "EPICS Base",
+   "summary": "在 EPICS Base 7.0.10 及更早版本中发现了多个漏洞，包括 CVE-2026-114595、CVE-2026-114596、CVE-2026-114597 和 CVE-2026-114598。成功利用这些漏洞可能会导致攻击者引发拒绝服务状态、内存损坏、泄露敏感信息或潜在地执行任意代码。EPICS 社区已在 epics-base GitHub 仓库中提供更新以解决这些问题。",
+   "impact": "使用 EPICS Base <=7.0.10 版本的安全团队和开发人员应立即更新到 7.0.11 版本，以减轻远程代码执行和内存损坏等潜在的严重风险。未修补的系统可能容易受到网络攻击，导致进程不稳定或数据泄露。",
+   "keyPoints": [
+    "受影响的产品包括 EPICS Base 7.0.10 及更早版本。",
+    "漏洞涉及整数溢出、长度参数处理不当以及类型混淆。",
+    "EPICS 社区已在 7.0.11 版本中提供更新以解决这些缺陷。"
+   ]
+  },
+  "ko": {
+   "title": "EPICS Base",
+   "summary": "EPICS Base 7.0.10 이하 버전에서 CVE-2026-114595, CVE-2026-114596, CVE-2026-114597, CVE-2026-114598을 포함한 여러 취약점이 확인되었습니다. 이러한 취약점을 성공적으로 악용하면 공격자가 서비스 거부 상태를 유발하거나, 메모리를 손상시키거나, 민감한 정보를 노출하거나, 임의의 코드를 실행할 수 있습니다. EPICS 커뮤니티는 이러한 문제를 해결하기 위해 epics-base GitHub 저장소에 업데이트를 제공했습니다.",
+   "impact": "EPICS Base <=7.0.10 버전을 사용하는 보안 팀과 개발자는 원격 코드 실행 및 메모리 손상과 같은 잠재적인 심각한 위험을 완화하기 위해 즉시 7.0.11 버전으로 업데이트해야 합니다. 패치되지 않은 시스템은 프로세스 불안정이나 데이터 노출로 이어질 수 있는 네트워크 기반 공격에 취약할 수 있습니다.",
+   "keyPoints": [
+    "영향을 받는 제품에는 EPICS Base 7.0.10 이하 버전이 포함됩니다.",
+    "취약점에는 정수 오버플로우, 부적절한 길이 매개변수 처리, 타입 혼동이 포함됩니다.",
+    "EPICS 커뮤니티는 7.0.11 버전에서 이러한 결함을 해결하기 위한 업데이트를 제공했습니다."
+   ]
+  }
+ }
+}

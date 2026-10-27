@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fd2619caa7d8b605",
+ "contentHash": "39fb8f40e5f22414",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T20:15:13.214Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Coding From the Himalayas With an Offline AI Agent",
+   "summary": "A developer living in the foothills of the Himalayas experimented with running a coding agent entirely offline on a laptop to handle network and power outages. Using Ollama to run an open-weight model locally alongside the OpenCode terminal agent, the author explored performing tasks like explaining functions, refactoring, and fixing tests without an internet connection. The setup utilized the Qwen3.5 9B model running locally on a Mac.",
+   "impact": "This workflow could allow developers in remote areas or during network disruptions to maintain productivity using local coding agents. Security teams and technology users may find that running open-weight models locally offers a way to utilize AI capabilities without sending code data over external networks.",
+   "keyPoints": [
+    "An engineer tested running a coding agent completely offline from a remote location with intermittent power and network access.",
+    "The setup used OpenCode as the terminal coding agent and Ollama to run the Qwen3.5 9B model locally on a laptop.",
+    "Offline capabilities included explaining unfamiliar functions, investigating failing tests, and helping finish features on existing projects.",
+    "Tasks requiring internet access, such as downloading new packages or web searches, still require a network connection."
+   ]
+  },
+  "km": {
+   "title": "ការសរសេរកូដពីជួរភ្នំហិមាល័យជាមួយនឹងភ្នាក់ងារ AI បែបក្រៅបណ្តាញ",
+   "summary": "អ្នកអភិវឌ្ឍន៍ម្នាក់ដែលរស់នៅជើងភ្នំហិមាល័យបានពិសោធន៍ដំណើរការភ្នាក់ងារសរសេរកូដទាំងស្រុងក្រៅបណ្តាញនៅលើកុំព្យូទ័រយួរដៃដើម្បីដោះស្រាយបញ្ហាដាច់អ៊ីនធឺណិត និងភ្លើង។ តាមរយៈការប្រើប្រាស់ Ollama ដើម្បីដំណើរការម៉ូដែលបើកចំហក្នុងស្រុកទន្ទឹមនឹងភ្នាក់ងារស្ថានីយ OpenCode អ្នកនិពន្ធបានស្វែងយល់ពីការអនុវត្តភារកិច្ចដូចជាការពន្យល់មុខងារ ការកែលម្អកូដ និងការជួសជុលតេស្តដោយគ្មានអ៊ីនធឺណិត។ ការរៀបចំនេះបានប្រើប្រាស់ម៉ូដែល Qwen3.5 9B ដែលដំណើរការក្នុងស្រុកនៅលើ Mac។",
+   "impact": "ដំណើរការការងារនេះអាចអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍នៅក្នុងតំបន់ដាច់ស្រយាល ឬក្នុងអំឡុងពេលមានការរំខានបណ្តាញរក្សាផលិតភាពដោយប្រើប្រាស់ភ្នាក់ងារសរសេរកូដក្នុងស្រុក។ ក្រុមសុវត្ថិភាព និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចរកឃើញថាការដំណើរការម៉ូដែលបើកចំហក្នុងស្រុកផ្តល់នូវមធ្យោបាយមួយដើម្បីប្រើប្រាស់សមត្ថភាព AI ដោយមិនចាំបាច់បញ្ជូនទិន្នន័យកូដតាមបណ្តាញខាងក្រៅ។",
+   "keyPoints": [
+    "វិស្វករម្នាក់បានសាកល្បងដំណើរការភ្នាក់ងារសរសេរកូដទាំងស្រុងក្រៅបណ្តាញពីទីតាំងដាច់ស្រយាលដែលមានបញ្ហាអ៊ីនធឺណិត និងភ្លើងមិនទៀងទាត់។",
+    "ការរៀបចំបានប្រើប្រាស់ OpenCode ជាភ្នាក់ងារសរសេរកូដស្ថានីយ និង Ollama ដើម្បីដំណើរការម៉ូដែល Qwen3.5 9B ក្នុងស្រុកនៅលើកុំព្យូទ័រយួរដៃ។",
+    "សមត្ថភាពក្រៅបណ្តាញរួមមានការពន្យល់មុខងារមិនស្គាល់ ការពិនិត្យមើលការបរាជ័យនៃការធ្វើតេស្ត និងការជួយបញ្ចប់មុខងារនៅលើគម្រោងដែលមានស្រាប់។",
+    "ភារកិច្ចដែលត្រូវការអ៊ីនធឺណិត ដូចជាការទាញយកកញ្ចប់ថ្មី ឬការស្វែងរកតាមបណ្តាញ នៅតែទាមទារការតភ្ជាប់បណ្តាញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在喜马拉雅山脉使用离线AI代理进行编码",
+   "summary": "一名住在喜马拉雅山脉山脚下的开发者尝试在笔记本电脑上完全离线运行编码代理，以应对网络和电力中断。通过使用Ollama在本地运行开源模型并配合OpenCode终端代理，作者探讨了在没有网络连接的情况下执行解释函数、重构代码和修复测试等任务。该设置使用了在Mac上本地运行的Qwen3.5 9B模型。",
+   "impact": "这种工作流程可以使偏远地区或遭遇网络中断的开发者利用本地编码代理保持生产力。安全团队和技术用户可能会发现，在本地运行开源模型提供了一种无需通过外部网络发送代码数据即可使用AI功能的方法。",
+   "keyPoints": [
+    "一名工程师测试了从网络和电力供应不稳定的偏远地区完全离线运行编码代理。",
+    "该设置使用OpenCode作为终端编码代理，并使用Ollama在笔记本电脑本地运行Qwen3.5 9B模型。",
+    "离线功能包括解释不熟悉的函数、调查失败的测试以及协助在现有项目中完成功能。",
+    "需要互联网访问的任务（例如下载新包或网页搜索）仍然需要网络连接。"
+   ]
+  },
+  "ko": {
+   "title": "오프라인 AI 에이전트로 히말라야에서 코딩하기",
+   "summary": "히말라야 산맥 기슭에 거주하는 한 개발자가 네트워크 및 전력 중단에 대처하기 위해 노트북에서 완전히 오프라인으로 코딩 에이전트를 실행하는 실험을 진행했습니다. Ollama를 사용하여 오픈 웨이트 모델을 로컬에서 실행하고 OpenCode 터미널 에이전트와 결합하여, 저자는 인터넷 연결 없이 함수 설명, 리팩토링, 테스트 수정 등의 작업을 수행하는 방법을 탐색했습니다. 이 설정에는 Mac에서 로컬로 실행되는 Qwen3.5 9B 모델이 사용되었습니다.",
+   "impact": "이러한 작업 흐름은 원격지에 있거나 네트워크 장애를 겪는 개발자들이 로컬 코딩 에이전트를 사용하여 생산성을 유지할 수 있도록 도울 수 있습니다. 보안 팀과 기술 사용자는 오픈 웨이트 모델을 로컬에서 실행하는 것이 외부 네트워크로 코드 데이터를 전송하지 않고도 AI 기능을 활용할 수 있는 방법을 제공한다는 것을 알게 될 수 있습니다.",
+   "keyPoints": [
+    "한 엔지니어가 전력 및 네트워크가 불안정한 원격지에서 코딩 에이전트를 완전히 오프라인으로 실행하는 테스트를 진행했습니다.",
+    "설정에는 터미널 코딩 에이전트로 OpenCode가 사용되었으며, 노트북에서 로컬로 Qwen3.5 9B 모델을 실행하기 위해 Ollama가 사용되었습니다.",
+    "오프라인 기능에는 낯선 함수 설명, 실패한 테스트 조사, 기존 프로젝트의 기능 완료 지원 등이 포함되었습니다.",
+    "새 패키지 다운로드나 웹 검색과 같이 인터넷 연결이 필요한 작업에는 여전히 네트워크 연결이 필요합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d5da004d8354f356",
+ "contentHash": "f135cc6e553cfa64",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T20:12:31.296Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Fix evaluation bias to unlock better models on Amazon Bedrock",
+   "summary": "Engineering team Property Finder discovered that 96.8 percent of their evaluation labels were inherited from a single model's predictions rather than human verification, creating a circular evaluation that blocked objective model comparison. When migrating their vision AI workload to Amazon Bedrock, alternative models appeared to underperform because the ground truth was systematically skewed toward the incumbent model. By building an unbiased ground truth and applying evolutionary prompt optimization with the AWS Generative AI Innovation Center team, Property Finder achieved higher accuracy at an 86 percent lower cost.",
+   "impact": "Developers and security teams may experience similar evaluation bottlenecks when using legacy model outputs as ground truth. This case highlights that reliance on inherited labels can unfairly disadvantage alternative models and prevent teams from successfully deploying cost-effective solutions.",
+   "keyPoints": [
+    "96.8 percent of Property Finder evaluation labels came from a single model's predictions instead of human verification.",
+    "Inherited labels and hidden errors created a circular evaluation that disadvantaged any alternative model.",
+    "Property Finder processed tens of thousands of property images daily across the Middle East and North Africa.",
+    "The team achieved higher accuracy at an 86 percent lower cost by fixing evaluation bias and using Amazon Bedrock."
+   ]
+  },
+  "km": {
+   "title": "កែំរូវការលម្អៀងនៃការវាយតម្លៃដើម្បីដោះសោគំរូប្រសើរជាងមុននៅលើ Amazon Bedrock",
+   "summary": "ក្រុមវិស្វករនៅ Property Finder បានរកឃើញថា ៩៦,៨ ភាគរយនៃស្លាកសញ្ញាវាយតម្លៃរបស់ពួកគេត្រូវបានទទួលមរតកដោយផ្ទាល់ពីការព្យាករណ៍របស់គំរូមកពីមួយជាជាងការផ្ទៀងផ្ទាត់ដោយអ្នកជំនាញមនុស្ស។ ភាពពិតមូលដ្ឋានរបស់ពួកគេត្រូវបានផ្អៀងទៅរកគំរូដែលមានស្រាប់ ដែលធ្វើឱ្យជម្រើសផ្សេងទៀតហាក់ដូចជាមានដំណើរការទាប។ តាមរយៈការបង្កើតភាពពិតមូលដ្ឋានដែលគ្មានលម្អៀង និងការអនុវត្តការបង្កើនប្រសិទ្ធភាពសំណួរ Property Finder បានសម្រេចបាននូវភាពត្រឹមត្រូវខ្ពស់ជាងមុនក្នុងតម្លៃទាបជាង ៨៦ ភាគរយ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍អាចប្រឈមមុខនឹងបញ្ហាកកស្ទះការវាយតម្លៃស្រដៀងគ្នា នៅពេលប្រើប្រាស់លទ្ធផលគំរូជំនាន់មុនជាភាពពិតមូលដ្ឋាន។ ករណីនេះបង្ហាញថាការផ្អែកលើស្លាកសញ្ញាបន្តវេនអាចធ្វើឱ្យគំរូทางเลือกខាតបង់.",
+   "keyPoints": [
+    "ស្លាកសញ្ញាវាយតម្លៃ ៩៦,៨ ភាគរយមកពីការព្យាករណ៍គំរូតែមួយ។",
+    "កំហុសលាក់កំបាំងនិងស្លាកសញ្ញាបន្តវេនបង្កើតបានជាការវាយតម្លៃរង្វង់មូល។",
+    "Property Finder បានដំណើរការរូបភាពអចលនទ្រព្យរាប់ម៉ឺនសន្លឹកជារៀងរាល់ថ្ងៃ។",
+    "ក្រុមការងារបានសម្រេចភាពត្រឹមត្រូវខ្ពស់ជាងមុនក្នុងតម្លៃទាបជាង ៨៦ ភាគរយនៅលើ Amazon Bedrock។"
+   ]
+  },
+  "zh-CN": {
+   "title": "修正评估偏差以在 Amazon Bedrock 上解锁更好的模型",
+   "summary": "Property Finder 的工程团队发现，其 96.8% 的评估标签直接继承自单个模型的预测，而不是通过人工专家验证，这造成了循环评估，阻碍了客观的模型对比。在将视觉 AI 工作负载迁移到 Amazon Bedrock 时，由于基础真值系统性地偏向现有模型，任何替代方案都显得表现不佳。通过建立无偏差的基础真值并应用进化提示词优化，Property Finder 在成本降低 86% 的同时实现了更高的准确率。",
+   "impact": "开发人员和安全团队在使用旧模型输出作为基础真值时，可能会遇到类似的评估瓶颈。该案例表明，依赖继承的标签可能会使替代方案处于不利地位，并阻止团队成功部署经济高效的解决方案。",
+   "keyPoints": [
+    "Property Finder 中 96.8% 的评估标签来自单一模型的预测而非人工验证。",
+    "继承的标签和隐藏的错误造成了对替代模型不利的循环评估。",
+    "Property Finder 在中东和北非地区每天处理数万张房产图片。",
+    "通过修复评估偏差并在 Amazon Bedrock 上进行优化，团队实现了成本降低 86% 和更高的准确率。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock에서 더 나은 모델을 활용하기 위한 평가 편향 수정",
+   "summary": "Property Finder의 엔지니어링 팀은 평가 레이블의 96.8퍼센트가 전문가의 검증 대신 단일 모델의 예측을 직접 상속받은 것이며, 이로 인해 객관적인 모델 비교를 방해하는 순환 평가가 생성되었다는 사실을 발견했습니다. 비전 AI 워크로드 마이그레이션 중 기반 진실이 기존 모델에 체계적으로 치우쳐 있어 대안 모델들이 성능이 떨어지는 것처럼 보였습니다. 편향되지 않은 기반 진실을 구축하고 진화형 프롬프트 최적화를 적용하여 Property Finder는 86퍼센트 더 낮은 비용으로 더 높은 정확도를 달성했습니다.",
+   "impact": "개발자와 보안 팀은 기존 모델 출력을 기반 진실로 사용할 때 유사한 평가 병목 현상을 겪을 수 있습니다. 이 사례는 상속된 레이블에 대한 의존도가 대안 모델에 불리하게 작용하고 비용 효율적인 솔루션 배포를 방해할 수 있음을 보여줍니다.",
+   "keyPoints": [
+    "Property Finder 평가 레이블의 96.8퍼센트는 인적 검증 대신 단일 모델의 예측에서 비롯되었습니다.",
+    "상속된 레이블과 숨겨진 오류로 인해 대안 모델에 불리한 순환 평가가 생성되었습니다.",
+    "Property Finder는 중동 및 북아프리카 전역에서 매일 수만 장의 부동산 이미지를 처리합니다.",
+    "팀은 평가 편향을 수정하고 Amazon Bedrock을 사용하여 86퍼센트 더 낮은 비용으로 더 높은 정확도를 달성했습니다."
+   ]
+  }
+ }
+}

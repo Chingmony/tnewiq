@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "85fdf95f1fdc5eec",
+ "contentHash": "8e6a6c14eb43d0e2",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T20:14:38.125Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+   "summary": "The Consortium for Biomedical Research and AI in Neurodegeneration (C-BRAIN), working with NVIDIA, is using artificial intelligence to accelerate Alzheimer's research and help overcome data bottlenecks. Launched in November 2025 and led by Dr. Randall Bateman, the consortium connects 18 member institutions to tackle the challenge of siloed data and slow research synthesis. By utilizing a hybrid centralized and federated approach alongside NVIDIA GPUs and software, C-BRAIN aims to unlock previously inaccessible data to speed up discoveries for millions of dementia patients.",
+   "impact": "This collaboration could help technology teams and developers build secure, federated data architectures for sensitive health information while maintaining patient privacy. For researchers, these AI tools may significantly reduce the time needed to synthesize complex biological data, potentially transforming how future treatments are developed.",
+   "keyPoints": [
+    "There are 57 million people living with dementia worldwide, with over 10 million new cases diagnosed annually.",
+    "C-BRAIN launched in November 2025 to unite 18 academic, philanthropic, pharma, and research organizations.",
+    "The initiative uses NVIDIA GPUs, Microsoft Azure, NVIDIA BioNeMo, and the MONAI framework to process dark data.",
+    "C-BRAIN has built two tools so far: OpenScientist and InsightEngine."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែលបញ្ញាសិប្បនិម្មិតកំពុងផ្លាស់ប្តូរល្បឿននៃការរកឃើញសម្រាប់អ្នកជំងឺវ័យចំណាស់រាប់លាននាក់",
+   "summary": "សម្ព័ន្ធសម្រាប់ការស្រាវជ្រាវជីវវេជ្ជសាស្ត្រ និងបញ្ញាសិប្បនិម្មិតក្នុងការ degeneration ប្រព័ន្ធប្រសាទ (C-BRAIN) ដោយសហការជាមួយ NVIDIA កំពុងប្រើប្រាស់បញ្ញាសិប្បនិម្មិត ដើម្បីពន្លឿនការស្រាវជ្រាវជំងឺវ៉ៃហ្សៃមឺរ (Alzheimer's) និងជម្នះឧបសគ្គទិន្នន័យ។ ចាប់ផ្ដើមក្នុងខែវិច្ឆិកា ឆ្នាំ ២០២៥ និងដឹកនាំដោយវេជ្ជបណ្ឌិត Randall Bateman សម្ព័ន្ធនេះបានប្រមូលផ្តុំស្ថាប័នសមាជិកចំនួន ១៨ ដើម្បីដោះស្រាយបញ្ហាទិន្នន័យដែលបែកខ្ញែក។ តាមរយៈវិធីសាស្ត្រសហព័ន្ធ និងការប្រើប្រាស់ប្រព័ន្ធ NVIDIA GPUs គំនិតផ្ដួចផ្ដើមនេះមានគោលបំណងដោះសោទិន្នន័យដែលមិនធ្លាប់មាន ដើម្បីពន្លឿនការរកឃើញសម្រាប់អ្នកជំងឺ។",
+   "impact": "កិច្ចសហការនេះអាចជួយដល់ក្រុមអ្នកអភិវឌ្ឍន៍ក្នុងការបង្កើតស្ថាបត្យកម្មទិន្នន័យដែលមានសុវត្ថិភាពសម្រាប់ព័ត៌មានសុខភាពងាយរងគ្រោះ ខណៈពេលដែលរក្សាបាននូវភាពឯកជនរបស់អ្នកជំងឺ។ ឧបករណ៍ទាំងនេះក៏អាចកាត់បន្ថយពេលវេលាស្រាវជ្រាវសម្រាប់អ្នកវិទ្យាសាស្ត្រផងដែរ។",
+   "keyPoints": [
+    "មនុស្សចំនួន ៥៧ លាននាក់ទូទាំងពិភពលោកកំពុងរស់នៅជាមួយជំងឺវង្វេងវង្វាន់។",
+    "C-BRAIN ត្រូវបានបង្កើតឡើងក្នុងខែវិច្ឆិកា ឆ្នាំ ២០២៥ ដោយមានស្ថាប័នសមាជិកចំនួន ១៨។",
+    "គំនិតផ្ដួចផ្ដើមនេះប្រើប្រាស់ NVIDIA GPUs ក៏ដូចជាប្រព័ន្ធ NVIDIA BioNeMo និង MONAI។",
+    "C-BRAIN បានបង្កើតឧបករណ៍ចំនួនពីរគឺ OpenScientist និង InsightEngine។"
+   ]
+  },
+  "zh-CN": {
+   "title": "人工智能如何改变数百万痴呆症患者的发现步伐",
+   "summary": "生物医学研究与神经退行性疾病人工智能联盟（C-BRAIN）正与NVIDIA合作，利用人工智能加速阿尔茨海默病的研究并克服数据瓶颈。该联盟于2025年11月成立，由兰德尔·贝特曼（Randall Bateman）博士领导，汇集了18个成员机构，旨在解决数据孤岛和研究综合速度缓慢的问题。通过结合集中式与联邦式方法以及NVIDIA的硬件和软件，C-BRAIN致力于释放此前无法获取的数据，为数百万患者加快新发现。",
+   "impact": "这项合作可能帮助开发人员和安全团队为敏感健康数据构建安全的联邦数据架构，同时保护患者隐私。对于研究人员而言，这些AI工具可能会大幅缩短处理复杂生物数据所需的时间。",
+   "keyPoints": [
+    "全球目前有5700万痴呆症患者，每年新增超过1000万例。",
+    "C-BRAIN于2025年11月成立，联合了18个学术、慈善、制药和研究机构。",
+    "该联盟使用NVIDIA GPU、微软Azure以及NVIDIA BioNeMo和MONAI框架处理未知数据。",
+    "C-BRAIN目前已开发出两个工具：OpenScientist和InsightEngine。"
+   ]
+  },
+  "ko": {
+   "title": "AI가 치매를 앓고 있는 수백만 명을 위한 발견의 속도를 바꾸는 방법",
+   "summary": "신경퇴행성 질환 생물학적 연구 및 AI 컨소시엄(C-BRAIN)은 NVIDIA와 협력하여 인공지능을 활용해 알츠하이머 연구를 가속화하고 데이터 병목 현상을 극복하고 있습니다. 2025년 11월에 출범하여 랜들 베이트먼(Randall Bateman) 박사가 이끄는 이 컨소시엄은 18개의 회원 기관을 연결하여 사막화된 데이터 문제를 해결합니다. 중앙 집중식 및 연합 학습 방식을 NVIDIA GPU 및 소프트웨어와 결합하여, C-BRAIN은 환자들을 위한 발견 속도를 높이고자 합니다.",
+   "impact": "이번 협력은 개발자와 보안 팀이 환자 프라이버시를 유지하면서 민감한 보건 정보를 위한 안전한 연합 데이터 아키텍처를 구축하는 데 도움을 줄 수 있습니다. 연구원들에게는 이러한 AI 도구가 복잡한 생물학적 데이터를 종합하는 데 걸리는 시간을 크게 줄여줄 수 있습니다.",
+   "keyPoints": [
+    "전 세계적으로 5,700만 명의 치매 환자가 있으며 매년 1,000만 명 이상의 새로운 환자가 진단됩니다.",
+    "C-BRAIN은 2025년 11월에 18개의 학술, 자선, 제약 및 연구 조직과 함께 출범했습니다.",
+    "이 컨소시엄은 NVIDIA GPU, Microsoft Azure, NVIDIA BioNeMo 및 MONAI 프레임워크를 활용합니다.",
+    "C-BRAIN은 현재 OpenScientist와 InsightEngine이라는 두 가지 도구를 구축했습니다."
+   ]
+  }
+ }
+}

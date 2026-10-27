@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d1002f7bd460f710",
+ "contentHash": "cda6e9aa5dad83ba",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T20:10:15.520Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+   "summary": "Anthropic recently released Opus 5.5, highlighting both model quality and cost efficiency. Engineering and product leaders Katelyn Lesse and Angela Jiang discussed how the lab manages increasing model capability and rapid usage growth. A key architectural concept discussed is separating the agent's brain, which handles the session log and harness, from its hands, the sandbox that executes code. This separation provides security benefits, such as keeping service credentials out of sandboxes where generated code runs.",
+   "impact": "Developers and security teams may benefit from adopting a similar architectural separation between agent control harnesses and execution sandboxes, which can improve isolation and security by preventing untrusted code from accessing credentials.",
+   "keyPoints": [
+    "Anthropic reported significant financial turnaround with strong revenue and research efficiency in its S-1 filings.",
+    "The Opus 5.5 launch emphasized both intelligence per dollar and lower running costs compared to predecessors.",
+    "Separating the agent brain from the hands isolates untrusted code execution from sensitive credentials and improves reliability and latency.",
+    "Early customer access provides feedback and reveals model behaviors in diverse external environments."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែល Anthropic ចែកចាយ Claude ជាមួយ Claude៖ ការបំបែកខួរក្បាលចេញពីដៃ",
+   "summary": "Anthropic បានចេញផ្សាយ Opus 5.5 ដោយផ្តោតលើគុណភាពម៉ូដែល និងការចំណាយដែលមានប្រសិទ្ធភាព។ មេដឹកនាំវិស្វកម្មនិងផលិតផល Katelyn Lesse និង Angela Jiang បានពិភាក្សាអំពីរបៀបដែលមន្ទីរពិសោធន៍គ្រប់គ្រងសមត្ថភាពម៉ូដែលដែលកំពុងកើនឡើង និងកំណើនការប្រើប្រាស់យ៉ាងលឿន។ គំនិតស្ថាបត្យកម្មដ៏សំខាន់មួយគឺការបំបែកខួរក្បាលរបស់ភ្នាក់ងារ ដែលគ្រប់គ្រងកំណត់ហេតុសម័យ និងបណ្តុំពីដៃ ដែលជាប្រអប់ខ្សាច់សម្រាប់ប្រតិបត្តិ ኮូដ។",
+   "impact": "ក្រុមការងារផ្នែកសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍អាចទទួលបានប្រយោជន៍ពីការបំបែកស្ថាបត្យកម្មស្រដៀងគ្នារវាងការគ្រប់គ្រងភ្នាក់ងារ និងប្រអប់ខ្សាច់ប្រតិបត្តិ ដែលអាចជួយបង្កើនភាពឯកោ និងសុវត្ថិភាពដោយការពារមិនឱ្យកូដដែលមិនទុកចិត្តចូលប្រើប្រាស់ព័ត៌មានសម្ងាត់។",
+   "keyPoints": [
+    "Anthropic បានរាយការណ៍អំពីការងើបឡើងវិញផ្នែកហិរញ្ញវត្ថុយ៉ាងខ្លាំងជាមួយនឹងប្រាក់ចំណូលខ្ពស់។",
+    "ការដាក់ឱ្យដំណើរការ Opus 5.5 បានផ្តោតលើភាពឆ្លាតវៃក្នុងមួយដុល្លារ និងការចំណាយលើការដំណើរការទាប។",
+    "ការបំបែកខួរក្បាលរបស់ភ្នាក់ងារចេញពីដៃជួយឱ្យការប្រតិបត្តិ ኮូដមានសុវត្ថិភាព និងភាពទុកចិត្តបានខ្ពស់ជាងមុន។",
+    "ការចូលប្រើប្រាស់ដំបូងរបស់អតិថិជនបានផ្តល់នូវមតិកែលម្អដ៏មានតម្លៃលើឥរិយាបថម៉ូដែល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Anthropic 如何用 Claude 发布 Claude：将大脑与双手分离",
+   "summary": "Anthropic 近期发布了 Opus 5.5，强调了模型质量与成本效益。工程与产品负责人 Katelyn Lesse 和 Angela Jiang 讨论了实验室如何应对不断增强的模型能力和快速增长的使用量。讨论中的一个核心架构概念是将代理的大脑（处理会话日志和封装）与双手（执行代码的沙盒）分离。这种分离带来了安全优势，例如防止生成的代码访问沙盒中的服务凭据。",
+   "impact": "开发人员和安全团队可以考虑在代理控制封装与执行沙盒之间采用类似的架构分离，这可以通过防止不受信任的代码访问凭据来提高隔离性和安全性。",
+   "keyPoints": [
+    "Anthropic 在 S-1 文件中报告了其高收入和高研究效率的财务扭亏为盈表现。",
+    "Opus 5.5 的发布重点在于更高的性价比以及比前代更低的运行成本。",
+    "将代理的大脑与双手分离可以将不受信任的代码执行与敏感凭据隔离开，同时提高性能和可靠性。",
+    "早期客户访问为评估模型在多样化外部环境中的行为提供了反馈。"
+   ]
+  },
+  "ko": {
+   "title": "Anthropic이 Claude를 통해 Claude를 배포하는 방법: 뇌와 손의 분리",
+   "summary": "Anthropic은 최근 모델 품질과 비용 효율성을 강조하며 Opus 5.5를 출시했습니다. 엔지니어링 및 제품 책임자인 Katelyn Lesse와 Angela Jiang은 연구소가 증가하는 모델 역량과 급격한 사용량 증가를 관리하는 방법에 대해 논의했습니다. 논의된 핵심 아키텍처 개념은 세션 로그와 하네스를 처리하는 에이전트의 뇌와 코드를 실행하는 샌드박스인 손을 분리하는 것입니다. 이러한 분리는 생성된 코드가 서비스 자격 증명에 접근하지 못하도록 방지하는 등 보안상의 이점을 제공합니다.",
+   "impact": "개발자와 보안 팀은 에이전트 제어 하네스와 실행 샌드박스 간의 유사한 아키텍처 분리를 통해 신뢰할 수 없는 코드가 자격 증명에 접근하는 것을 막고 격리성과 보안을 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "Anthropic은 S-1 서류에서 높은 수익과 연구 효율성으로 재무적 전환을 이루었다고 밝혔습니다.",
+    "Opus 5.5 출시는 비용 대비 성능 향상과 이전 모델 대비 낮은 실행 비용을 강조했습니다.",
+    "에이전트의 뇌와 손을 분리하면 신뢰할 수 없는 코드 실행을 민감한 자격 증명으로부터 격리하고 성능과 신뢰성을 높일 수 있습니다.",
+    "초기 고객 접근은 다양한 외부 환경에서의 모델 동작에 대한 피드백을 제공합니다."
+   ]
+  }
+ }
+}

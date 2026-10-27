@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c810738ec79ec179",
+ "contentHash": "894a30590aff3851",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T20:13:55.607Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
+   "summary": "Meta introduced PrivacyLib, a common library running inside the clients of its data and processing systems as part of its Privacy Aware Infrastructure (PAI). Previously, supporting a new privacy requirement required separate enforcement logic in each system, but PrivacyLib replaces this with a modular approach. It performs billions of checks every second, separates system integration from requirement implementation, and handles internal AI agent data access via propagated context.",
+   "impact": "This approach could allow developers and security teams to implement and roll out new privacy capabilities much faster without needing separate integrations for every system. It may also help organizations maintain continuous data flow monitoring and enforcement at scale.",
+   "keyPoints": [
+    "PrivacyLib runs inside the clients of hundreds of Meta's data and processing systems at the point of data access.",
+    "It features two kinds of modules: enforcing modules that can block data access, and observing modules that record data access.",
+    "The library supports internal AI agents by propagating context to link each access to its session.",
+    "Systems integrate with PrivacyLib once, allowing new privacy requirements to be deployed as reusable modules."
+   ]
+  },
+  "km": {
+   "title": "PrivacyLib៖ ការគ្រប់គ្រងឯកជនភាពនៅព្រំដែននៃការចូលប្រើទិន្នន័យ",
+   "summary": "Meta បានណែនាំ PrivacyLib ដែលជាបណ្ណាល័យទូទៅមួយដំណើរការនៅខាងក្នុងអតិថិជននៃប្រព័ន្ធទិន្នន័យ និងដំណើរការរបស់ខ្លួនជាផ្នែកមួយនៃ Privacy Aware Infrastructure (PAI)។ មុនពេលមាន PrivacyLib ការគាំទ្រតម្រូវការឯកជនភាពថ្មីទាមទារឱ្យមានការអនុវត្តឡូជីខលដាច់ដោយឡែកពីគ្នាជានិច្ចនៅក្នុងប្រព័ន្ធនីមួយៗ។ ឥឡូវនេះ PrivacyLib ជំនួសវាដោយវិធីសាស្ត្រម៉ូឌុល ដែលអនុវត្តការពិនិត្យរាប់ពាន់លានដងក្នុងមួយវិនាទី និងបំបែកការរួមបញ្ចូលប្រព័ន្ធពីការអនុវត្តតម្រូវការ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយឱ្យក្រុមអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខដាក់ពង្រាយមុខងារឯកជនភាពថ្មីៗបានលឿនជាងមុន ដោយមិនចាំបាច់មានការរួមបញ្ចូលដាច់ដោយឡែកសម្រាប់ប្រព័ន្ធនីមួយៗនោះទេ។",
+   "keyPoints": [
+    "PrivacyLib ដំណើរការនៅខាងក្នុងអតិថិជននៃប្រព័ន្ធទិន្នន័យ និងដំណើរការរាប់រយរបស់ Meta។",
+    "វាមានម៉ូឌុលពីរប្រភេទគឺ ម៉ូឌុលบังខាប់ និងម៉ូឌុលសង្កេតមើល។",
+    "បណ្ណាល័យនេះគាំទ្រភ្នាក់ងារ AI ខាងក្នុងដោយបញ្ជូនបរិបទដើម្បីភ្ជាប់ការចូលប្រើនីមួយៗទៅនឹងសម័យរបស់វា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "PrivacyLib：数据访问边界处的隐私控制",
+   "summary": "Meta 推出了 PrivacyLib，这是一个在其数据和处理系统客户端中运行的公共库，作为其 Privacy Aware Infrastructure (PAI) 的一部分。过去，支持一项新的隐私要求意味着在每个系统中单独实现相同的强制逻辑，而 PrivacyLib 通过模块化方法取代了这一点。它每秒执行数十亿次检查，并将系统集成与需求实现分离开来。",
+   "impact": "这种方法可以帮助开发人员和安全团队更快地推出新的隐私功能，而无需为每个系统单独进行集成。它还可能有助于组织在大规模下保持对数据流的持续监控和控制。",
+   "keyPoints": [
+    "PrivacyLib 在数据访问点运行在 Meta 数百个数据和处理系统的客户端内部。",
+    "它包含两种类型的模块：可以阻止数据访问的强制模块和仅记录数据访问的观察模块。",
+    "该库通过传递上下文来支持内部 AI agent，将每次访问与其会话链接起来。",
+    "系统只需与 PrivacyLib 集成一次，新的隐私功能便可以作为模块插入并重用该集成。"
+   ]
+  },
+  "ko": {
+   "title": "PrivacyLib: 데이터 접근 경계에서의 프라이버시 제어",
+   "summary": "Meta는 Privacy Aware Infrastructure (PAI)의 일환으로 데이터 및 처리 시스템의 클라이언트 내부에서 실행되는 공통 라이브러리인 PrivacyLib을 소개했습니다. 과거에는 새로운 프라이버시 요구 사항을 지원하려면 각 시스템에 별도의 적용 논리를 구현해야 했으나, PrivacyLib은 이를 모듈식 접근 방식으로 대체합니다. 이 라이브러리는 초당 수십억 번의 검사를 수행하며 시스템 통합과 요구 사항 구현을 분리합니다.",
+   "impact": "이 접근 방식은 개발자와 보안 팀이 모든 시스템에 대해 개별적인 통합 작업 없이도 새로운 프라이버시 기능을 훨씬 빠르게 배포할 수 있도록 도울 수 있습니다. 또한 조직이 대규모 환경에서 지속적인 데이터 흐름 모니터링과 제어를 유지하는 데 기여할 수 있습니다.",
+   "keyPoints": [
+    "PrivacyLib은 데이터 접근 시점에 Meta의 수백 가지 데이터 및 처리 시스템 클라이언트 내부에서 실행됩니다.",
+    "데이터 접근을 차단할 수 있는 강제 모듈과 데이터 접근을 기록하기만 하는 관측 모듈의 두 가지 종류의 모듈이 있습니다.",
+    "내부 AI 에이전트의 경우 전달된 컨텍스트를 통해 각 접근을 세션에 연결하여 지원합니다.",
+    "시스템은 PrivacyLib과 한 번만 통합하면 되므로 새로운 프라이버시 기능이 재사용 가능한 모듈로 추가됩니다."
+   ]
+  }
+ }
+}

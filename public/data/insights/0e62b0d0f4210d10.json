@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0e62b0d0f4210d10",
+ "contentHash": "c190d4a995a2084b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T20:14:51.616Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
+   "summary": "Generating tokens faster starts with identifying what limits inference performance. In the batch-size-1 evaluation of Ling-3.0-flash from Inclusion AI on NVIDIA DGX Spark, profiling showed that decoding was memory-bound. Two operations stood out as driving execution time: the mixture-of-experts computation and the output-layer projection.",
+   "impact": "Understanding these memory bottlenecks could help developers and engineers optimize inference performance for large models. Addressing memory-bound operations like MoE computation and output-layer projection may lead to faster token generation on hardware such as NVIDIA DGX Spark.",
+   "keyPoints": [
+    "Profiling a batch-size-1 evaluation of Ling-3.0-flash from Inclusion AI on NVIDIA DGX Spark showed decoding was memory-bound.",
+    "Reading model weights drove execution time during inference.",
+    "The mixture-of-experts computation and output-layer projection were the two standout operations driving execution time."
+   ]
+  },
+  "km": {
+   "title": "វិធីសាស្រ្តចំនួន៣ដើម្បីបង្កើនការទាញសន្និដ្ឋាន MoE នៅលើ NVIDIA DGX Spark",
+   "summary": "ការបង្កើតថូខឹនឱ្យកាន់តែលឿនចាប់ផ្តើមដោយការកំណត់អត្តសញ្ញាណនូវអ្វីដែលកំណត់សមត្ថភាពដំណើរការនៃការទាញសន្និដ្ឋាន។ ក្នុងការវាយតម្លៃ batch-size-1 នៃ Ling-3.0-flash ពី Inclusion AI នៅលើ NVIDIA DGX Spark ការវិភាគបង្ហាញថាការឌិកូដគឺពឹងផ្អែកលើអង្គចងចាំ។ ប្រតិបត្តិការពីរដែលលេចធ្លោគឺការគណនា mixture-of-experts និងការបញ្ចាំងស្រទាប់លទ្ធផល។",
+   "impact": "ការយល់ដឹងអំពីចំណុចខ្សោយនៃអង្គចងចាំទាំងនេះអាចជួយអ្នកអភិវឌ្ឍន៍ធ្វើឱ្យប្រសើរឡើងនូវដំណើរការទាញសន្និដ្ឋានសម្រាប់ម៉ូដែលធំៗ។ ការដោះស្រាយប្រតិបត្តិការដែលពឹងផ្អែកលើអង្គចងចាំអាចនាំឱ្យមានការបង្កើតថូខឹនលឿនជាងមុននៅលើ hardware ដូចជា NVIDIA DGX Spark ជាដើម។",
+   "keyPoints": [
+    "ការវិភាគការវាយតម្លៃ batch-size-1 នៃ Ling-3.0-flash ពី Inclusion AI នៅលើ NVIDIA DGX Spark បានបង្ហាញថាការឌិកូដពឹងផ្អែកលើអង្គចងចាំ។",
+    "ការអានទម្ងន់ម៉ូដែលបានជំរុញពេលវេលាប្រតិបត្តិ។",
+    "ការគណនា mixture-of-experts និងការបញ្ចាំងស្រទាប់លទ្ធផលគឺជាប្រតិបត្តិការពីរដែលលេចធ្លោក្នុងការជំរុញពេលវេលាប្រតិបត្តិ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在 NVIDIA DGX Spark 上提升 MoE 推理性能的 3 种方法",
+   "summary": "更快的生成 Token 始于识别限制推理性能的因素。在对 Inclusion AI 的 Ling-3.0-flash 在 NVIDIA DGX Spark 上进行 batch-size-1 评估时，性能分析显示解码受内存限制，读取模型权重驱动了执行时间。其中有两项操作尤为突出，即混合专家计算和产生模型分数的输出层投影。",
+   "impact": "了解这些内存瓶颈可以帮助开发人员和技术用户优化大模型的推理性能。针对内存受限的操作（如 MoE 计算和输出层投影）进行改进，可能会在 NVIDIA DGX Spark 等硬件上实现更快的 Token 生成速度。",
+   "keyPoints": [
+    "对 Inclusion AI 的 Ling-3.0-flash 在 NVIDIA DGX Spark 上进行 batch-size-1 评估时表明解码受内存限制。",
+    "读取模型权重驱动了执行时间。",
+    "混合专家计算和输出层投影是表现突出的两项操作。"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA DGX Spark에서 MoE 추론을 향상시키는 3가지 방법",
+   "summary": "더 빠른 토큰 생성은 추론 성능을 제한하는 요인을 파악하는 것에서 시작됩니다. NVIDIA DGX Spark에서 Inclusion AI의 Ling-3.0-flash를 batch-size-1로 평가한 결과, 프로파일링을 통해 디코딩이 메모리 바운드 상태라는 점이 나타났습니다. 모델 가중치를 읽는 작업이 실행 시간을 주도했으며, mixture-of-experts 연산과 출력층 프로젝션 등 두 가지 작업이 두드러졌습니다.",
+   "impact": "이러한 메모리 병목 현상을 이해하면 개발자와 기술 사용자가 대형 모델의 추론 성능을 최적화하는 데 도움이 될 수 있습니다. MoE 연산 및 출력층 프로젝션과 같은 메모리 바운드 작업을 해결하면 NVIDIA DGX Spark 같은 하드웨어에서 더 빠른 토큰 생성을 유도할 수 있습니다.",
+   "keyPoints": [
+    "NVIDIA DGX Spark에서 Inclusion AI의 Ling-3.0-flash를 batch-size-1로 평가한 결과 디코딩이 메모리 바운드 상태임이 프로파일링을 통해 나타났습니다.",
+    "모델 가중치를 읽는 작업이 실행 시간을 주도했습니다.",
+    "mixture-of-experts 연산과 출력층 프로젝션이 실행 시간을 주도하는 두드러진 작업이었습니다."
+   ]
+  }
+ }
+}
