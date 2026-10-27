@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "494dc52175735ea9",
+ "contentHash": "d19a588890ef5ea7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T08:05:24.774Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Center-of-Mass Interpretation of Evolution Strategies",
+   "summary": "Researchers presented a geometrical interpretation of evolution strategies by treating each perturbed model as a particle and its reward as mass. The mean-subtracted evolution strategies update corresponds exactly to the displacement between centroids, scaled by a factor dependent on the mean reward. This geometric visualization holds true for any finite population when rewards are nonnegative.",
+   "impact": "This geometric perspective could help developers and researchers gain a more intuitive understanding of how evolution strategies update models. By visualizing updates as physical displacements toward a reward-weighted center of mass, teams may find it easier to reason about optimization dynamics.",
+   "keyPoints": [
+    "Perturbed models are treated as particles with rewards acting as mass.",
+    "The mean-subtracted evolution strategy update equals the displacement scaled by a factor based on the mean reward.",
+    "Nonnegative rewards can be achieved by adding a constant without altering the update.",
+    "Under large populations or antithetic sampling, the model moves directly towards the reward-weighted center of mass."
+   ]
+  },
+  "km": {
+   "title": "ការបកស្រាយបែបកណ្តាលម៉ាសនៃយុទ្ធសាស្ត្រវិវត្តន៍",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្ហាញពីការបកស្រាយតាមធរណីមាត្រនៃយុទ្ធសាស្ត្រវិវត្តន៍ដោយចាត់ទុកគំរូដែលបានរំខាននីមួយៗជាភាគល្អិត និងរង្វាន់របស់វាជាម៉ាស។ ការធ្វើបច្ចុប្បន្នភាពនៃយុទ្ធសាស្ត្រវិវត្តន៍ដែលបានដកមធ្យមភាគគឺត្រូវគ្នាទៅនឹងការផ្លាស់ទីរវាងចំណុចកណ្តាល។ ការមើលឃើញតាមធរណីមាត្រនេះគឺពិតប្រាកដសម្រាប់ចំនួនប្រជាជនដែលមានកំណត់នៅពេលដែលរង្វាន់មិនអវិជ្ជមាន។",
+   "impact": "ទស្សនៈធរណីមាត្រនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវយល់ដឹងកាន់តែច្បាស់អំពីរបៀបដែលយុទ្ធសាស្ត្រវិវត្តន៍ធ្វើបច្ចុប្បន្នភាពគំរូ។ តាមរយៈការមើលឃើញបច្ចុប្បន្នភាពថាជាការផ្លាស់ទីរាង្គកាយឆ្ពោះទៅរកកណ្តាលម៉ាសដែលមានទម្ងន់រង្វាន់ ក្រុមការងារអាចយល់ដឹងកាន់តែងាយស្រួលអំពីដំណើរការបង្កើនប្រសិទ្ធភាព។",
+   "keyPoints": [
+    "គំរូដែលបានរំខានត្រូវបានចាត់ទុកជាភាគល្អិតដែលមានរង្វាន់ធ្វើជាម៉ាស។",
+    "ការធ្វើបច្ចុប្បន្នភាពយុទ្ធសាស្ត្រវិវត្តន៍ដែលបានដកមធ្យមភាគគឺស្មើនឹងការផ្លាស់ទីដែលធ្វើមាត្រដ្ឋានតាមកត្តាមួយ។",
+    "រង្វាន់ដែលមិនអវិជ្ជមានអាចទទួលបានដោយការបន្ថែមចំនួនថេរដោយមិនផ្លាស់ប្តូរការធ្វើបច្ចុប្បន្នភាព។",
+    "ក្រោមចំនួនប្រជាជនធំ គំរូផ្លាស់ទីដោយផ្ទាល់ឆ្ពោះទៅរកកណ្តាលម៉ាសដែលមានទម្ងន់រង្វាន់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "演化策略的质心解释",
+   "summary": "研究人员提出了一种演化策略的几何解释，将每个受到扰动的模型视为一个粒子，其奖励视为粒子的质量。减去平均值后的演化策略更新精确对应于这种位移，并根据取决于平均奖励的标量因子进行缩放。对于任何有限群体，只要奖励非负，这种几何可视化方法便完全精确。",
+   "impact": "这种几何视角可以帮助开发人员和研究人员更直观地理解演化策略如何更新模型。通过将更新可视化为朝向加权质心的物理位移，技术团队可能会发现更容易推断优化动态。",
+   "keyPoints": [
+    "受扰动的模型被视为具有奖励作为质量的粒子。",
+    "减去平均值后的演化策略更新等于按平均奖励因子缩放的位移。",
+    "通过添加常数可以使奖励非负，且不会改变更新结果。",
+    "在大群体或对偶采样极限下，模型直接向其自身群体的加权质心移动。"
+   ]
+  },
+  "ko": {
+   "title": "진화 전략의 질량 중심 해석",
+   "summary": "연구원들은 각 교란된 모델을 입자로, 그 보상을 입자의 질량으로 취급하여 진화 전략에 대한 기하학적 해석을 제시했습니다. 평균이 감산된 진화 전략 업데이트는 평균 보상에 따라 달라지는 스칼라 팩터로 스케일링된 변위와 정확히 일치합니다. 이 기하학적 시각화는 보상이 음이 아닌 경우 유한한 모집단에 대해 정확합니다.",
+   "impact": "이러한 기하학적 관점은 개발자와 연구자들이 진화 전략이 모델을 업데이트하는 방식을 더 직관적으로 이해하는 데 도움이 될 수 있습니다. 업데이트를 가중 질 중심을 향한 물리적 변위로 시각화함으로써 팀은 최적화 역학을 더 쉽게 추론할 수 있습니다.",
+   "keyPoints": [
+    "교란된 모델은 보상을 질량으로 갖는 입자로 취급됩니다.",
+    "평균이 감산된 진화 전략 업데이트는 평균 보상 기반 팩터로 스케일링된 변위와 같습니다.",
+    "업데이트를 변경하지 않고 상수를 더하여 음이 아닌 보상을 만들 수 있습니다.",
+    "대규모 모집단이나 대치 샘플링의 한계에서 모델은 자체 모집단의 가중 질량 중심을 향해 이동합니다."
+   ]
+  }
+ }
+}

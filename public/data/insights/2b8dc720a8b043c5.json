@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2b8dc720a8b043c5",
+ "contentHash": "cab8bce6b1249c66",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T07:58:23.777Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Cloudflare Discloses KV Cache Exposure Incident Involving Ultra-Long Context Prompts",
+   "summary": "Cloudflare disclosed a tenant isolation incident where the GLM-5.3 model on the Workers AI platform mixed other customers' request data into responses. The incident occurred 155 times between August 27 and September 9, exclusively on prompts with ultra-long contexts. Security researcher Gadi Evron from Knostic reported the cross-request KV cache exposure issue via HackerOne on September 8.",
+   "impact": "This cross-request data exposure incident could concern developers and security teams using AI platforms, as it highlights potential risks in tenant isolation when handling ultra-long context prompts. Users may need to review how long-context data is processed and cached.",
+   "keyPoints": [
+    "Cloudflare disclosed a tenant isolation incident affecting the GLM-5.3 model on Workers AI.",
+    "The issue occurred 155 times between August 27 and September 9.",
+    "All affected instances happened on ultra-long context prompts.",
+    "Security researcher Gadi Evron reported the issue via HackerOne on September 8."
+   ]
+  },
+  "km": {
+   "title": "Cloudflare បានបង្ហាញពីឧបទ្ទវហេតុនៃការបញ្ចេញ KV cache ពាក់ព័ន្ធនឹង prompt ដែលមានបរិបទវែងជ្រុល",
+   "summary": "Cloudflare បានបង្ហាញពីឧបទ្ទវហេតុនៃការញែកអ្នកជួល ដែលម៉ូឌែល GLM-5.3 នៅលើវេទិកា Workers AI បានលាយទិន្នន័យសំណើរបស់អតិថិជនផ្សេងទៀតចូលទៅក្នុងចម្លើយ។ ឧបទ្ទវហេតុនេះបានកើតឡើងចំនួន ១៥៥ ដង ចន្លោះថ្ងៃទី ២៧ ខែសីហា ដល់ថ្ងៃទី ៩ ខែកញ្ញា ដែលកើតឡើងទាំងស្រុងលើ prompt ដែលមានបរិបទវែងជ្រុល។ អ្នកស្រាវជ្រាវផ្នែកសន្តិសុខ Gadi Evron មកពីក្រុមហ៊ុន Knostic បានរាយការណ៍អំពីបញ្ហានេះតាមរយៈ HackerOne នៅថ្ងៃទី ៨ ខែកញ្ញា។",
+   "impact": "ឧបទ្ទវហេតុនៃការបញ្ចេញទិន្នន័យឆ្លងសំណើនេះ អាចធ្វើឱ្យអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខមានការព្រួយបារម្ភ នៅពេលប្រើប្រាស់វេទិកា AI ព្រោះវាបង្ហាញពីហានិភ័យសក្តានុពលក្នុងការញែកអ្នកជួលពេល处理 prompt ដែលមានបរិបទវែង។ អ្នកប្រើប្រាស់ប្រហែលជាត្រូវពិនិត្យឡើងវិញនូវរបៀបដែលទិន្នន័យបរិបទវែងត្រូវបានដំណើរការ។",
+   "keyPoints": [
+    "Cloudflare បានបង្ហាញពីឧបទ្ទវហេតុនៃការញែកអ្នកជួលដែលប៉ះពាល់ដល់ម៉ូឌែល GLM-5.3។",
+    "បញ្ហានេះបានកើតឡើងចំនួន ១៥៥ ដង ចន្លោះថ្ងៃទី ២៧ ខែសីហា ដល់ថ្ងៃទី ៩ ខែកញ្ញា។",
+    "ករណីទាំងអស់បានកើតឡើងនៅលើ prompt ដែលមានបរិបទវែងជ្រុល។",
+    "អ្នកស្រាវជ្រាវ Gadi Evron បានរាយការណ៍បញ្ហានេះតាមរយៈ HackerOne នៅថ្ងៃទី ៨ ខែកញ្ញា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Cloudflare 披露 KV cache 暴露事故，全部发生在超长上下文的 prompt 上",
+   "summary": "Cloudflare 公开了一起租户隔离事故，在 8 月 27 日到 9 月 9 日期间，Workers AI 平台上的 GLM-5.3 模型将其他客户的请求数据混入响应中。该问题总共发生了 155 次，且全部发生在超长上下文的 prompt 上。安全研究员 Gadi Evron 于 9 月 8 日通过 HackerOne 报告了这一跨请求 KV cache 暴露问题。",
+   "impact": "这起跨请求数据暴露事故可能会引起使用 AI 平台的开发者和安全团队的关注，因为它凸显了在处理超长上下文提示词时租户隔离可能存在的潜在风险。技术用户可能需要重新审视长上下文数据的处理和缓存机制。",
+   "keyPoints": [
+    "Cloudflare 披露了一起影响 Workers AI 平台上 GLM-5.3 模型的租户隔离事故。",
+    "该事故在 8 月 27 日至 9 月 9 日期间共发生了 155 次。",
+    "所有受影响的情况均发生在超长上下文的 prompt 上。",
+    "Knostic 公司的安全研究员 Gadi Evron 于 9 月 8 日通过 HackerOne 报告了该问题。"
+   ]
+  },
+  "ko": {
+   "title": "Cloudflare, 초장문 컨텍스트 prompt에서 발생한 KV cache 노출 사고 공개",
+   "summary": "Cloudflare는 Workers AI 플랫폼의 GLM-5.3 모델이 다른 고객의 요청 데이터를 응답에 섞어 넣은 테넌트 격리 사고를 공개했습니다. 이 문제는 8월 27일부터 9월 9일 사이에 총 155회 발생했으며, 전부 초장문 컨텍스트 prompt에서 일어났습니다. Knostic 소속 보안 연구원 Gadi Evron이 9월 8일 HackerOne을 통해 이 교차 요청 KV cache 노출 문제를 보고했습니다.",
+   "impact": "이번 교차 요청 데이터 노출 사고는 AI 플랫폼을 사용하는 개발자와 보안 팀에게 초장문 컨텍스트 prompt를 처리할 때 테넌트 격리와 관련된 잠재적 위험을 상기시켜 줍니다. 기술 사용자들은 장문 컨텍스트 데이터가 처리되고 캐시되는 방식을 재검토해야 할 수 있습니다.",
+   "keyPoints": [
+    "Cloudflare가 Workers AI 플랫폼의 GLM-5.3 모델과 관련된 테넌트 격리 사고를 공개함.",
+    "해당 문제는 8월 27일부터 9월 9일 사이에 총 155회 발생함.",
+    "모든 영향받은 사례는 초장문 컨텍스트 prompt에서 발생함.",
+    "보안 연구원 Gadi Evron이 9월 8일 HackerOne을 통해 이 문제를 보고함."
+   ]
+  }
+ }
+}

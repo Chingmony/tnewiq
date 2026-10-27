@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8ad08a17b93039d8",
+ "contentHash": "1e8eefb091a299d8",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T08:02:53.548Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Created a free, watermark-free, 2.3MB Mac vlog editing software optimized for M chips",
+   "summary": "A developer created a free, open-source vlog editing software called FrameCut for Mac users because existing tools required paid memberships. The software is only 2.3MB and specifically supports Apple Silicon chips. It utilizes dedicated hardware within the chip, such as media engines for codecs, Metal GPU for color grading and transitions, and the neural engine for speech-to-subtitles.",
+   "impact": "This tool could offer Mac users with Apple Silicon a lightweight and free option for video editing. Developers and technology users may experience efficient performance leveraging native hardware accelerators.",
+   "keyPoints": [
+    "The software is free, has no watermarks, and has a size of 2.3MB.",
+    "It is built exclusively for Apple Silicon chips.",
+    "Codecs run on media engines, color grading and transitions use Metal GPU, and speech-to-subtitles use the neural engine.",
+    "M2 testing showed a 3-minute vlog export took about 26 seconds for 1080p and about 95 seconds for 4K."
+   ]
+  },
+  "km": {
+   "title": "បានបង្កើតកម្មវិធីកាត់ត vlog សម្រាប់ Mac ឥតគិតថ្លៃ គ្មានទឹក និងទំហំត្រឹមតែ 2.3MB ដែលបានបង្កើនប្រសិទ្ធភាពសម្រាប់បន្ទះឈីប M",
+   "summary": "អ្នកអភិវឌ្ឍន៍ម្នាក់បានបង្កើតកម្មវិធីកាត់ត vlog ឥតគិតថ្លៃដែលមានឈ្មោះថា FrameCut សម្រាប់ Mac ដោយសារកម្មវិធីដែលមានស្រាប់ទាមទារសមាជិកភាពបង់ប្រាក់។ កម្មវិធីនេះមានទំហំត្រឹមតែ 2.3MB និងគាំទ្រเฉพาะបន្ទះឈីប Apple ។ វាប្រើប្រាស់ផ្នែករឹងដែលបម្រុងទុកក្នុងបន្ទះឈីប ដូចជាម៉ាស៊ីន πολυព័ត៌មានសម្រាប់កូដិក Metal GPU សម្រាប់ពណ៌និងការប្តូរ និងម៉ាស៊ីនសរសៃប្រសាទសម្រាប់សំឡេងទៅជាអត្ថបទរង។",
+   "impact": "ឧបករណ៍នេះអាចផ្តល់ឱ្យអ្នកប្រើប្រាស់ Mac ដែលមានបន្ទះឈីប Apple នូវជម្រើសដ៏ស្រាល និងឥតគិតថ្លៃសម្រាប់ការកាត់តវីដេអូ។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានប្រសិទ្ធភាពខ្ពស់ដោយប្រើប្រាស់ឧបករណ៍បង្កើនល្បឿនផ្នែករឹងដើម។",
+   "keyPoints": [
+    "កម្មវិធីនេះឥតគិតថ្លៃ គ្មានទឹក និងមានទំហំ 2.3MB។",
+    "វាត្រូវបានបង្កើតឡើងជាពិសេសសម្រាប់បន្ទះឈីប Apple ។",
+    "កូដិកដំណើរការលើម៉ាស៊ីន πολυព័ត៌មាន ការកែពណ៌ប្រើប្រាស់ Metal GPU និងសំឡេងទៅជាអត្ថបទរងប្រើប្រាស់ម៉ាស៊ីនសរសៃប្រសាទ។",
+    "ការធ្វើតេស្តលើ M2 បង្ហាញថាការនាំចេញវីដេអូ vlog 3 នាទីចំណាយពេលប្រហែល 26 វិនាទីសម្រាប់ 1080p និងប្រហែល 95 វិនាទីសម្រាប់ 4K។"
+   ]
+  },
+  "zh-CN": {
+   "title": "做了个免费、无水印、只有 2.3MB 的 Mac vlog 剪辑软件，专为 M 芯片优化",
+   "summary": "开发者因许多现有工具需要付费会员，自己编写了一款专为 Mac vlog 剪辑打造的软件 FrameCut 并开源。该软件大小仅 2.3MB 且仅支持 Apple 芯片，充分利用了芯片内的专用硬件。其实测在 M2 上表现出色，导出了 3 分钟的 1080p 和 4K 视频。",
+   "impact": "这款软件可能为使用 Apple 芯片的 Mac 用户提供了一个轻量且免费的视频剪辑新选择。技术用户和开发者或许能从中体验到原生硬件加速带来的高效性能。",
+   "keyPoints": [
+    "软件完全免费且无水印，大小仅为 2.3MB。",
+    "仅支持 Apple 芯片，并深度利用了芯片内的专用硬件。",
+    "编解码走媒体引擎，调色和转场走 Metal GPU，语音转字幕走神经网络引擎。",
+    "在 M2 上实测 3 分钟 vlog 导出 1080p 约 26 秒，4K 约 95 秒。"
+   ]
+  },
+  "ko": {
+   "title": "M 칩에 최적화된 무료, 워터마크 없음, 용량 2.3MB의 Mac vlog 편집 소프트웨어 제작",
+   "summary": "개발자는 기존 도구들이 유료 멤버십을 요구하기 때문에 Mac 사용자를 위한 무료 오픈소스 vlog 편집 소프트웨어인 FrameCut을 직접 제작했습니다. 이 소프트웨어는 2.3MB에 불과하며 Apple 칩 전용으로 제작되어 칩 내의 전용 하드웨어를 활용합니다. 코덱은 미디어 엔진, 색보정 및 전환은 Metal GPU, 음성 자막 변환은 신경망 엔진을 사용합니다.",
+   "impact": "이 도구는 Apple 칩을 사용하는 Mac 사용자에게 가볍고 무료인 동영상 편집 옵션을 제공할 수 있습니다. 기술 사용자들은 네이티브 하드웨어 가속을 활용하는 효율적인 성능을 경험할 수 있습니다.",
+   "keyPoints": [
+    "소프트웨어는 무료이며 워터마크가 없고 용량은 2.3MB입니다.",
+    "Apple 칩 전용으로 설계되었습니다.",
+    "코덱은 미디어 엔진, 색보정 및 전환은 Metal GPU, 음성 자막 변환은 신경망 엔진을 거칩니다.",
+    "M2에서 실측한 결과 3분짜리 vlog 1080p 내보내기는 약 26초, 4K는 약 95초가 소요됩니다."
+   ]
+  }
+ }
+}

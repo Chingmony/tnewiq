@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a2da896f1147a8f0",
+ "contentHash": "ce6842f93377bce4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T08:00:21.724Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+   "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) warned of unauthorized remote access to Dahua video surveillance systems. Authorities recorded cases where attackers compromised IP cameras and DVRs, gained access to video streams, altered device configurations, and created unauthorized third-party accounts.",
+   "impact": "This activity could allow malicious actors to monitor sensitive video feeds and manipulate surveillance infrastructure. Security teams managing similar devices may need to review P2P access settings and authentication mechanisms.",
+   "keyPoints": [
+    "CERT-UA issued an alert regarding unauthorized remote access to Dahua video surveillance systems.",
+    "Attackers successfully compromised IP cameras and digital video recorders.",
+    "Incident reports include unauthorized access to video streams and configuration changes.",
+    "Attackers created third-party accounts on the compromised devices."
+   ]
+  },
+  "km": {
+   "title": "ជនខិលខូចលួចគ្រប់គ្រងកាមេរ៉ា IP របស់ Dahua ក្នុងប្រទេសអ៊ុយក្រែនដោយប្រើប្រាស់ការចូលប្រើប្រាស់ P2P និងភាពខ្សោយនៃការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ",
+   "summary": "ក្រុមឆ្លើយតបបន្ទាន់កុំព្យូទ័ររបស់អ៊ុយក្រែន (CERT-UA) បានចេញការជូនដំណឹងអំពីការចូលប្រើប្រាស់ពីចម្ងាយដោយគ្មានការអនុញ្ញាតទៅលើប្រព័ន្ធឃ្លាំមើលវីដេអូដែលផលិតដោយ Dahua។ អាជ្ញាធរបានកត់ត្រាករណីនៃការសម្របសម្រួលកាមេរ៉ា IP និង DVR ជាមួយនឹងការចូលប្រើប្រាស់ストリーミング វីដេអូ ការផ្លាស់ប្តូរការកំណត់រចនាសម្ព័ន្ធឧបករណ៍ និងការបង្កើតគណនីភាគីទីបី។",
+   "impact": "សកម្មភាពនេះអាចអនុញ្ញាតឱ្យភាគី malicious ត្រួតពិនិត្យការផ្សាយវីដេអូរសើប និងគ្រប់គ្រងហេដ្ឋារចនាសម្ព័ន្ធឃ្លាំមើល។ ក្រុមសន្តិសុខដែលគ្រប់គ្រងឧបករណ៍ស្រដៀងគ្នាអាចចាំបាច់ត្រូវពិនិត្យឡើងវិញនូវការកំណត់ការចូលប្រើ P2P ។",
+   "keyPoints": [
+    "CERT-UA បានចេញការជូនដំណឹងអំពីការចូលប្រើប្រាស់ពីចម្ងាយដោយគ្មានការអនុញ្ញាតទៅលើប្រព័ន្ធ Dahua។",
+    "ជនខិលខូចបានសម្របសម្រួលកាមេរ៉ា IP និង DVR ដោយជោគជ័យ។",
+    "របាយការណ៍រួមមានការចូលប្រើប្រាស់ στream វីដេអូ និងការផ្លាស់ប្តូរការកំណត់រចនាសម្ព័ន្ធ។",
+    "មានការបង្កើតគណនីភាគីទីបីនៅលើឧបករណ៍ដែលរងផលប៉ះពាល់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "攻击者利用P2P访问和身份验证漏洞劫持乌克兰的Dahua IP摄像机",
+   "summary": "乌克兰计算机应急响应团队 (CERT-UA) 发出警报，警告未经授权远程访问Dahua制造的视频监控系统。国家特殊通信服务局记录了破坏IP摄像机和DVR、访问视频流、更改设备配置以及创建第三方帐户的案例。",
+   "impact": "此活动可能允许恶意行为者监视敏感视频流并操纵监控基础设施。管理类似设备的的安全团队可能需要审查P2P访问设置和身份验证机制。",
+   "keyPoints": [
+    "CERT-UA发布了关于未经授权远程访问Dahua视频监控系统的警报。",
+    "攻击者成功破坏了IP摄像机和数字视频录像机。",
+    "事件报告包括对视频流的未经授权访问和设备配置更改。",
+    "攻击者在受损设备上创建了第三方账户。"
+   ]
+  },
+  "ko": {
+   "title": "공격자들이 P2P 액세스 및 인증 취약점을 악용해 우크라이나의 Dahua IP 카메라를 탈취함",
+   "summary": "우크라이나 컴퓨터 긴급 대응팀(CERT-UA)은 Dahua가 제조한 영상 감시 시스템에 대한 무단 원격 액세스 경고를 발령했습니다. 우크라이나 국가특수통신서비스국은 IP 카메라와 DVR이 침해당해 비디오 스트림에 접근하고, 장치 구성을 변경하며, 제3자 계정이 생성된 사례가 기록되었다고 밝혔습니다.",
+   "impact": "이러한 활동으로 인해 악의적인 행위자가 민감한 비디오 피드를 모니터링하고 감시 인프라를 조작할 수 있습니다. 유사한 장치를 관리하는 보안 팀은 P2P 액세스 설정 및 인증 메커니즘을 검토해야 할 수 있습니다.",
+   "keyPoints": [
+    "CERT-UA는 Dahua 영상 감시 시스템에 대한 무단 원격 액세스 경고를 발행했습니다.",
+    "공격자들이 IP 카메라와 DVR을 성공적으로 침해했습니다.",
+    "사건 보고에는 비디오 스트림에 대한 무단 액세스 및 장치 구성 변경이 포함됩니다.",
+    "공격자들은 침해된 장치에 제3자 계정을 생성했습니다."
+   ]
+  }
+ }
+}

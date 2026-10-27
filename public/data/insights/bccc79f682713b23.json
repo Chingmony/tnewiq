@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "bccc79f682713b23",
+ "contentHash": "ad5f97434d3ea1b2",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T08:05:13.851Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+   "summary": "Researchers propose DecisionRAG, a retriever-free method that uses decision models to jointly evaluate candidate branches in a single forward pass without generating tokens. By mimicking how a person browses a library, DecisionRAG navigates corpus structures from broad topics to individual passages. The approach outperforms dense retrieval with an 8B reranker across multiple benchmarks while achieving fast query times.",
+   "impact": "This method could offer developers and system designers an alternative to traditional lexical or similarity-based retrieval pipelines. By eliminating the need for a first-stage retriever and task-specific training, it may streamline document navigation architectures and improve relevance estimates.",
+   "keyPoints": [
+    "DecisionRAG evaluates candidate branches in a single forward pass without generating tokens.",
+    "It navigates corpus structure from broad topics down to individual passages.",
+    "It outperforms dense retrieval with an 8B reranker by 13.8 R@1 points on MultiDoc2Dial and 17.4 Hit@1 points on Natural Questions.",
+    "Retrieval takes 0.7-1.8 seconds per query across four benchmarks."
+   ]
+  },
+  "km": {
+   "title": "ការទាញយកដោយមិនបាច់ប្រើ Retriever៖ ការរុករកឯកសារជាមួយ Decision Models",
+   "summary": "អ្នកស្រាវជ្រាវได้ស្នើ DecisionRAG ដែលជាវិធីសាស្ត្រទាញយកដោយមិនបាច់ប្រើ retriever ដោយប្រើ decision models ដើម្បីវាយតម្លៃសាខាបេក្ខជនរួមគ្នាក្នុងដំណើរការតែមួយដោយមិនបង្កើតថូខឹន។ វាអាចរុករកโครงสร้างរបស់ corpus ពីប្រធានបទធំៗរហូតដល់កថាខណ្ឌនីមួយៗ។ វិធីសាស្ត្រនេះដំណើរការបានល្អជាង dense retrieval ជាមួយនឹង 8B reranker លើការវាស់ស្ទង់ជាច្រើន។",
+   "impact": "វិធីសាស្ត្រនេះអាចផ្ដល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវជម្រើសជំនួសឱ្យប្រព័ន្ធទាញយកបែបប្រពៃណី។ វាមិនទាមទារការបណ្តុះបណ្តាលជាក់លាក់តាមភារកិច្ច ឬ first-stage retriever ដែលអាចធ្វើឱ្យស្ថាបត្យកម្មស្វែងរកឯកសារកាន់តែមានប្រសិទ្ធភាព។",
+   "keyPoints": [
+    "DecisionRAG វាយតម្លៃសាខាបេក្ខជនក្នុងដំណើរការតែមួយដោយមិនបង្កើតថូខឹន។",
+    "វាគ្ហលករុករក corpus ពីប្រធានបទធំៗដល់កថាខណ្ឌនីមួយៗ។",
+    "វាមានដំណើរការល្អជាង dense retrieval ជាមួយ 8B reranker លើ MultiDoc2Dial និង Natural Questions។",
+    "ការទាញយកចំណាយពេលតែ 0.7 ដល់ 1.8 វិនាទីក្នុងមួយសំណួរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "免检索器的检索：使用决策模型导航文档",
+   "summary": "研究人员提出了 DecisionRAG，这是一种无需传统检索器的方法，利用决策模型在单次前向传递中联合评估候选分支，且不生成任何 token。通过模仿人们浏览图书馆的方式，DecisionRAG 从广泛的主题到单个段落导航语料库的固有结构。在多个基准测试中，该方法超越了带有 8B 重排器的稠密检索。",
+   "impact": "该方法可能为开发者和系统设计人员提供传统词汇或相似度检索管道的替代方案。通过消除对第一阶段检索器和特定任务训练的需求，它或许能够简化文档导航架构并提高相关性估计。",
+   "keyPoints": [
+    "DecisionRAG 在单次前向传递中联合评估候选分支且不生成 token。",
+    "它从广泛的主题导航到单独的段落。",
+    "在 MultiDoc2Dial 和 Natural Questions 上优于带有 8B 重排器的稠密检索。",
+    "在四个基准测试中，每个查询的检索时间仅需 0.7 到 1.8 秒。"
+   ]
+  },
+  "ko": {
+   "title": "리트리버 없는 검색: 결정 모델을 통한 문서 탐색",
+   "summary": "연구진은 토큰을 생성하지 않고 단일 순방향 패스에서 후보 분기를 공동으로 평가하는 결정 모델을 사용하는 리트리버 없는 방식인 DecisionRAG를 제안했습니다. 사람이 도서관을 둘러보는 것처럼 DecisionRAG는 넓은 주제에서 개별 단락까지 코퍼스의 고유한 구조를 탐색합니다. 이 방식은 여러 벤치마크에서 8B 리랭커를 사용한 밀집 검색보다 뛰어난 성능을 보입니다.",
+   "impact": "이 방법은 개발자와 시스템 설계자에게 기존의 어휘 또는 유사성 기반 검색 파이프라인의 대안을 제공할 수 있습니다. 1단계 리트리버나 태스크 특화 학습의 필요성을 없앰으로써 문서 탐색 아키텍처를 간소화하고 관련성 추정치를 개선할 수 있습니다.",
+   "keyPoints": [
+    "DecisionRAG는 토큰 생성 없이 단일 순방향 패스에서 후보 분기를 평가합니다.",
+    "광범위한 주제부터 개별 단락까지 코퍼스 구조를 탐색합니다.",
+    "MultiDoc2Dial 및 Natural Questions에서 8B 리랭커를 탑재한 밀집 검색보다 우수한 성능을 보입니다.",
+    "4개의 벤치마크에서 쿼리당 0.7~1.8초의 검색 시간이 소요됩니다."
+   ]
+  }
+ }
+}

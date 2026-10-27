@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "dc98d41511a17d2e",
+ "contentHash": "38750d315eff23c6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T08:01:40.605Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+   "summary": "CISA has confirmed active exploitation of recently patched PHP2Shell vulnerabilities by adding them to its Known Exploited Vulnerabilities catalog. The two PHP flaws carry a CVSS score of 9.2 and enable unauthenticated remote code execution on affected deployments. One of the included vulnerabilities is identified as CVE-2026-109618, an out-of-memory issue.",
+   "impact": "Security teams and technology users could face heightened risks as these flaws are actively exploited to achieve remote code execution. Organizations should prioritize updating affected deployments to mitigate potential threats.",
+   "keyPoints": [
+    "CISA added PHP2Shell flaws to its Known Exploited Vulnerabilities catalog.",
+    "The vulnerabilities carry a CVSS score of 9.2.",
+    "They allow unauthenticated remote code execution on affected deployments.",
+    "CVE-2026-109618 is identified as an out-of-memory issue."
+   ]
+  },
+  "km": {
+   "title": "CISA បញ្ជាក់ពីការកេងប្រវ័ញ្ចយ៉ាងសកម្មលើពិការភាព PHP2Shell ចំនួនពីរដែលអនុញ្ញាតឱ្យមានការប្រតិបត្តិលេខកូដពីចម្ងាយ",
+   "summary": "ទីភ្នាក់ងារសន្តិសុខស៊ីនធឺណិត និងហេដ្ឋារចនាសម្ព័ន្ធអាមេរិក (CISA) បានបញ្ជាក់ពីការកេងប្រវ័ញ្ចយ៉ាងសកម្មលើពិការភាព PHP2Shell ដែលទើបនឹងកែសម្រួលថ្មីៗនេះ ដោយបានបន្ថែមពួកវាទៅក្នុងកាតាឡុកភាពខ្សោយដែលមានការកេងប្រវ័ញ្ចរួចហើយ (KEV)។ ភាពខ្សោយរបស់ PHP ទាំងពីរនេះមានពិន្ទុ CVSS 9.2 និងជួយសម្រួលដល់ការប្រតិបត្តិលេខកូដពីចម្ងាយដោយគ្មានការផ្ទៀងផ្ទាត់នៅលើការដាក់ពង្រាយដែលរងផលប៉ះពាល់។ ភាពខ្សោយមួយក្នុងចំណោមនោះត្រូវបានកំណត់ថាជា CVE-2026-109618 ដែលជាបញ្ហាហួសអង្គចងចាំ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងប្រឈមមុខនឹងហានិភ័យកាន់តែខ្លាំង ដោយសារពិការភាពទាំងនេះត្រូវបានកេងប្រវ័ញ្ចយ៉ាងសកម្មដើម្បីសម្រេចបានការប្រតិបត្តិលេខកូដពីចម្ងាយ។ អង្គការនានាគួរតែផ្តល់អាទិភាពដល់ការអាប់ដេតការដាក់ពង្រាយដែលរងផលប៉ះពាល់ដើម្បីកាត់បន្ថយការគំរាមកំហែងដែលអាចកើតមាន។",
+   "keyPoints": [
+    "CISA បានបន្ថែមពិការភាព PHP2Shell ទៅក្នុងកាតាឡុក KEV របស់ខ្លួន។",
+    "ភាពខ្សោយទាំងនោះមានពិន្ទុ CVSS 9.2។",
+    "ពួកវាអនុញ្ញាតឱ្យមានការប្រតិបត្តិលេខកូដពីចម្ងាយដោយគ្មានការផ្ទៀងផ្ទាត់។",
+    "CVE-2026-109618 គឺជាបញ្ហាហួសអង្គចងចាំ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "CISA 确认两个允许远程代码执行的 PHP2Shell 漏洞正遭到积极利用",
+   "summary": "美国网络安全和基础设施安全局 (CISA) 于周一确认，最近修补的 PHP2Shell 漏洞正遭到积极利用，并将其添加到了已利用漏洞 (KEV) 目录中。这两个 PHP 漏洞的 CVSS 评分均为 9.2，可在受影响的部署上实现未经身份验证的远程代码执行。其中一个漏洞被标识为 CVE-2026-109618，这是一个内存溢出问题。",
+   "impact": "由于这些漏洞正被积极利用以实现远程代码执行，安全团队和技术用户可能会面临更高的风险。组织应优先更新受影响的部署，以减轻潜在威胁。",
+   "keyPoints": [
+    "CISA 将 PHP2Shell 漏洞添加到了已利用漏洞目录中。",
+    "这些漏洞的 CVSS 评分均为 9.2。",
+    "它们允许在受影响的部署上进行未经身份验证的远程代码执行。",
+    "CVE-2026-109618 被确定为一个内存溢出问题。"
+   ]
+  },
+  "ko": {
+   "title": "CISA, 원격 코드 실행이 가능한 두 가지 PHP2Shell 취약점의 활성 악용 확인",
+   "summary": "미국 사이버보안 및 인프라 보안청(CISA)은 최근 패치된 PHP2Shell 취약점들이 활발히 악용되고 있음을 확인하고 이를 알려진 악용 취약점(KEV) 카탈로그에 추가했습니다. 두 PHP 취약점 모두 CVSS 점수 9.2를 기록했으며, 영향받는 배포 환경에서 인증되지 않은 원격 코드 실행을 가능하게 합니다. 포함된 취약점 중 하나는 메모리 부족 문제인 CVE-2026-109618로 식별되었습니다.",
+   "impact": "이러한 취약점들이 원격 코드 실행을 달성하기 위해 활발히 악용됨에 따라 보안 팀과 기술 사용자는 더 높은 위험에 직면할 수 있습니다. 조직은 잠재적 위협을 완화하기 위해 영향받는 배포 환경의 업데이트를 우선시해야 합니다.",
+   "keyPoints": [
+    "CISA는 PHP2Shell 취약점을 알려진 악용 취약점 카탈로그에 추가했습니다.",
+    "취약점들은 9.2점의 CVSS 점수를 가지고 있습니다.",
+    "영향받는 배포 환경에서 인증되지 않은 원격 코드 실행을 허용합니다.",
+    "CVE-2026-109618은 메모리 부족 문제로 식별되었습니다."
+   ]
+  }
+ }
+}

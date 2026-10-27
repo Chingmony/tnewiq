@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "20efbc5dbf11f789",
+ "contentHash": "b80d4e6fad704cdb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T08:01:51.260Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "mica-ppocr 1.2.4 Released: OCR Preprocessing Memory Cut in Half, Detection Speed Increased by 2.6x",
+   "summary": "mica-ppocr version 1.2.4 has been released, featuring a 50 percent reduction in OCR preprocessing memory usage and a 2.6 times faster detection speed compared to the previous version. The update also resolves configuration issues where PDF dual-channel settings were not reaching the engine and applications failed to start when mica.ai.ppocr.enabled was set to false. Additionally, poster-style layouts now include an entry point for declaring detection parameters.",
+   "impact": "Developers using mica-ppocr may benefit from reduced memory consumption and faster detection performance in their applications. Security and development teams can also expect more reliable configuration behavior, preventing startup failures and ensuring settings are correctly applied.",
+   "keyPoints": [
+    "OCR preprocessing memory is cut in half.",
+    "Detection speed is accelerated by 2.6 times.",
+    "Fixed issues related to PDF dual-channel configuration and mica.ai.ppocr.enabled settings.",
+    "Added declaration parameters for poster-style layouts."
+   ]
+  },
+  "km": {
+   "title": "mica-ppocr 1.2.4 ត្រូវ,បានចេញផ្សាយ៖ ការដំណើរការជាមុនរបស់ OCR កាត់បន្ថយអង្គចងចាំពាក់កណ្តាល និងល្បឿនตรวจរកកើនឡើង ២.៦ ដង",
+   "summary": "កំណែ mica-ppocr 1.2.4 ត្រូវបានចេញផ្សាយ ដែលមានការកាត់បន្ថយការប្រើប្រាស់អង្គចងចាំសម្រាប់ការដំណើរការជាមុនរបស់ OCR ពាក់កណ្តាល និងបង្កើនល្បឿនตรวจរក ២.៦ ដង។ ការអាប់ដេតនេះក៏បានដោះស្រាយបញ្ហាក្នុងការកំណត់រចនាសម្ព័ន្ធផងដែរ ដែលការកំណត់ឆានែលទ្វេរបស់ PDF មិនបានបញ្ជូនទៅកាន់ម៉ាស៊ីន និងកម្មវិធីមិនអាចចាប់ផ្តើមនៅពេលកំណត់ mica.ai.ppocr.enabled=false។ បន្ថែមពីលើនេះ ប្លង់ប្រភេទប៉ុស្ត៍ឥឡូវនេះមានចំណុចសម្រាប់ប្រកាសប៉ារ៉ាម៉ែត្រตรวจរកផងដែរ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ដែលប្រើប្រាស់ mica-ppocr អាចទទួលបានអត្ថប្រយោជន៍ពីការប្រើប្រាស់អង្គចងចាំតិចជាងមុន និងដំណើរការตรวจរកលឿនជាងមុននៅក្នុងកម្មវិធីរបស់ពួកគេ។ ក្រុមការងារបច្ចេកទេសក៏អាចរំពឹងទុកនូវការកំណត់រចនាសម្ព័ន្ធដែលមានភាពទុកចិត្តជាងមុនផងដែរ។",
+   "keyPoints": [
+    "អង្គចងចាំដំណើរការជាមុនរបស់ OCR ត្រូវបានកាត់បន្ថយពាក់កណ្តាល។",
+    "ល្បឿនตรวจរកត្រូវបានបង្កើន ២.៦ ដង។",
+    "បានជួសជុលបញ្ហាឆានែលទ្វេរបស់ PDF និងការកំណត់ mica.ai.ppocr.enabled។",
+    "បានបន្ថែមប៉ារ៉ាម៉ែត្រសម្រាប់ប្លង់ប្រភេទប៉ុស្ត៍។"
+   ]
+  },
+  "zh-CN": {
+   "title": "mica-ppocr 1.2.4 发布：OCR 预处理内存砍半，检测提速 2.6 倍",
+   "summary": "mica-ppocr 1.2.4 版本已正式发布，该版本将 OCR 预处理内存消耗减半，并将检测速度提升了 2.6 倍。此次更新还修复了两类配置问题，包括 PDF 双通道配置终于能够正确传到引擎，以及关闭 mica.ai.ppocr.enabled=false 后应用无法正常启动的问题。此外，海报类版面也新增了声明检测参数的入口。",
+   "impact": "开发人员和技术用户在使用更新后的 mica-ppocr 时，可以获得更低的内存占用和显著提升的检测性能。修复配置相关的问题有助于减少应用启动故障，并确保各项配置能够按预期生效。",
+   "keyPoints": [
+    "OCR 预处理内存砍掉一半。",
+    "检测速度提速 2.6 倍。",
+    "修复了 PDF 双通道配置无法传到引擎以及 mica.ai.ppocr.enabled 关闭时应用无法启动的问题。",
+    "海报类版面新增了声明检测参数的口子。"
+   ]
+  },
+  "ko": {
+   "title": "mica-ppocr 1.2.4 출시: OCR 전처리의 메모리 절반으로 감소 및 감지 속도 2.6배 향상",
+   "summary": "mica-ppocr 버전 1.2.4가 출시되었으며, OCR 전처리 메모리 사용량이 절반으로 줄어들고 감지 속도가 이전 대비 2.6배 빨라졌습니다. 이번 업데이트는 또한 PDF 듀얼 채널 설정이 엔진에 전달되지 않던 문제와 mica.ai.ppocr.enabled를 false로 설정했을 때 애플리케이션이 정상적으로 시작되지 않던 문제를 해결했습니다. 그 외에도 포스터 스타일 레이아웃에 감지 파라미터를 선언할 수 있는 기능이 추가되었습니다.",
+   "impact": "개발자와 기술 사용자는 mica-ppocr의 향상된 성능을 통해 메모리 소비를 줄이고 더 빠른 감지 속도의 혜택을 누릴 수 있습니다. 또한 설정 오류로 인한 애플리케이션 시작 실패 문제가 해결되어 더욱 안정적인 운영이 가능해집니다.",
+   "keyPoints": [
+    "OCR 전처리 메모리가 절반으로 감소함.",
+    "감지 속도가 2.6배 빨라짐.",
+    "PDF 듀얼 채널 설정 및 mica.ai.ppocr.enabled 관련 문제 해결.",
+    "포스터 스타일 레이아웃을 위한 감지 파라미터 선언 구멍 추가."
+   ]
+  }
+ }
+}
