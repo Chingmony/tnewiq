@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "da99f387dfb50d50",
+ "contentHash": "bca4a905bd642488",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T23:58:37.728Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
+   "summary": "Researchers introduce Auto-Research Arena, a multi-target benchmark designed to evaluate autonomous research systems and discover ideas in language modeling. The benchmark separates admissibility from improvement, using model quality and resource constraints to qualify results while specific targets measure progress. Instantiated in language model pretraining with nine targets, Arena evaluates seven research harnesses and reveals that a simple sequential search baseline outperforms several sophisticated methods. Furthermore, reusing discoveries from Arena yields lower training loss and improved held-out BPB.",
+   "impact": "This benchmark could help developers and researchers better evaluate and advance autonomous research systems in language modeling. It may also provide a framework for discovering new model and system ideas that improve training efficiency.",
+   "keyPoints": [
+    "Auto-Research Arena is a multi-target benchmark for evaluating autonomous research systems.",
+    "It separates admissibility from improvement using model quality and resource constraints.",
+    "The benchmark includes nine targets spanning model, data, training, and efficiency in language model pretraining.",
+    "A simple sequential search baseline outperformed several sophisticated methods among the seven evaluated research harnesses."
+   ]
+  },
+  "km": {
+   "title": "Auto-Research Arena៖ ការវាយតម្លៃនិងជំរុញការស្រាវជ្រាវស្វ័យប្រវត្តក្នុងភាសាម៉ូដែល",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ Auto-Research Arena ដែលជាគោលដៅវាយតម្លៃពហុគោលដៅសម្រាប់វាយតម្លៃប្រព័ន្ធស្រាវជ្រាវស្វ័យប្រវត្ត និងស្វែងរកគំនិតក្នុងការបង្កើតភាសាម៉ូដែល។ ប្រព័ន្ធនេះបែងចែកការទទួលយកពីការកែលម្អ ដោយប្រើប្រាស់គុណភាពម៉ូដែលនិងកម្រិតធនធានដើម្បីកំណត់សិទ្ធិ។ វាត្រូវបានដាក់ឱ្យដំណើរការក្នុងការបណ្តុះបណ្តាលភាសាម៉ូដែលជាមុនជាមួយគោលដៅចំនួនប្រាំបួន និងបានវាយតម្លៃប្រព័ន្ធស្រាវជ្រាវចំនួនប្រាំពីរ។ លទ្ធផលបង្ហាញថាវិធីសាស្ត្រស្វែងរកតាមលំដាប់លំដោយសាមញ្ញអាចយកឈ្នះលើវិធីសាស្ត្រស្មុគស្មាញមួយចំនួន។",
+   "impact": "វាអាចជួយដល់អ្នកអភិវឌ្ឍន៍និងអ្នកស្រាវជ្រាវក្នុងការវាយតម្លៃនិងអភិវឌ្ឍប្រព័ន្ធស្រាវជ្រាវស្វ័យប្រវត្តឱ្យកាន់តែប្រសើរឡើង។ វាក៏អាចផ្តល់នូវក្របខណ្ឌមួយសម្រាប់ការស្វែងរកគំនិតម៉ូដែលថ្មីៗផងដែរ។",
+   "keyPoints": [
+    "Auto-Research Arena គឺជាគោលដៅវាយតម្លៃពហុគោលដៅសម្រាប់ប្រព័ន្ធស្រវាជ្រាវស្វ័យប្រវត្ត។",
+    "វាបែងចែកការទទួលយកចេញពីការកែលម្អដោយផ្អែកលើគុណភាពនិងធនធាន។",
+    "វាមានគោលដៅចំនួនប្រាំបួនក្នុងផ្នែកម៉ូដែល ទិន្នន័យ ការបណ្តុះបណ្តាល និងប្រសិទ្ធភាព។",
+    "ការស្វែងរកតាមលំដាប់លំដោយសាមញ្ញបានដំណើរការប្រសើរជាងវិធីសាស្ត្រស្មុគស្មាញមួយចំនួន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Auto-Research Arena：语言建模中自动研究的基准测试与发展",
+   "summary": "研究人员推出了 Auto-Research Arena，这是一个用于评估语言建模中自主研究系统并发掘新想法的多目标基准测试。Arena 将合格性与改进性分离，利用模型质量和资源限制来决定结果是否合格，同时用选定的目标来衡量合格结果之间的进展。Arena 在语言模型预训练中实例化了九个目标，涵盖模型、数据、训练和推理效率，并评估了七个研究框架。测试表明，一个简单的顺序搜索基线超越了几种复杂的方法，显示出当前自动研究系统仍有很大的提升空间。",
+   "impact": "该基准测试可以帮助开发者和安全团队更好地评估和推进语言建模领域的自主研究系统。它还可能揭示与积极研究方向相一致的模型和系统新构想，从而提高训练效率。",
+   "keyPoints": [
+    "Auto-Research Arena 是一个用于评估自主研究系统的多目标基准测试。",
+    "该基准通过分离合格性与改进性来衡量进展。",
+    "在语言模型预训练中实例化了涵盖多个维度的九个目标。",
+    "简单的顺序搜索基线表现优于几种更复杂的自主研究方法。"
+   ]
+  },
+  "ko": {
+   "title": "Auto-Research Arena: 언어 모델링에서의 자동 연구 벤치마킹 및 발전",
+   "summary": "연구진은 자율 연구 시스템을 평가하고 언어 모델링에서 아이디어를 발굴하기 위한 다중 목표 벤치마크인 Auto-Research Arena를 소개합니다. Arena는 적격성과 개선을 분리하여 모델 품질과 자원 제약을 통해 결과의 적격 여부를 결정하며, 선택된 목표를 통해 진척도를 측정합니다. 언어 모델 사전 학습에 적용된 Arena는 모델, 데이터, 학습, 추론 효율성을 아우르는 9개의 목표를 포함하고 7개의 연구 하네스를 평가합니다. 단순한 순차 검색 기준선이 여러 정교한 방법을 능가하는 것으로 나타났습니다.",
+   "impact": "이 벤치마크는 개발자와 보안 팀이 언어 모델링 분야의 자율 연구 시스템을 더 잘 평가하고 발전시키는 데 도움을 줄 수 있습니다. 또한 새로운 모델 및 시스템 아이디어를 발견하여 학습 효율성을 높이는 기회를 제공할 수 있습니다.",
+   "keyPoints": [
+    "Auto-Research Arena는 자율 연구 시스템 평가를 위한 다중 목표 벤치마크입니다.",
+    "적격성과 개선을 분리하여 모델 품질 및 자원 제약으로 결과를 평가합니다.",
+    "언어 모델 사전 학습에서 모델, 데이터, 학습 및 효율성을 아우르는 9개의 목표를 제공합니다.",
+    "단순 순차 검색 기준선이 일부 정교한 연구 방법들을 능가하는 성능을 보였습니다."
+   ]
+  }
+ }
+}

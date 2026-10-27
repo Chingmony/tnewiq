@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2f3d201d50bf5430",
+ "contentHash": "93c779327df7a7e6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T23:53:52.076Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "SageMaker MLflow Apps now support MLflow 3.16",
+   "summary": "Amazon SageMaker AI MLflow Apps now support MLflow 3.16, introducing a redesigned tracing experience and faster experiment tracking for machine learning and generative AI workflows. The release features a redesigned default trace explorer with adjustable row heights, reorderable columns, and custom columns based on trace tags or metadata. It also accelerates metric charts for experiments containing large metric histories. New MLflow Apps will use MLflow 3.16 by default, while existing apps will be automatically upgraded during a maintenance window.",
+   "impact": "Developers and machine learning teams working with generative AI applications could benefit from improved debugging and analysis capabilities. The updated trace explorer and faster metric charts may streamline workflow monitoring without requiring immediate manual upgrades.",
+   "keyPoints": [
+    "SageMaker AI MLflow Apps now support MLflow 3.16.",
+    "The updated trace explorer is now the default with customizable columns and adjustable row heights.",
+    "Metric charts for experiments with large histories are accelerated.",
+    "New apps use MLflow 3.16 by default and existing apps will be upgraded automatically."
+   ]
+  },
+  "km": {
+   "title": "SageMaker MLflow Apps ឥឡូវនេះគាំទ្រ MLflow 3.16",
+   "summary": "Amazon SageMaker AI MLflow Apps ឥឡូវនេះគាំទ្រ MLflow 3.16 ដែលនាំមកនូវបទពិសោធន៍តាមដានដែលបានរចនាឡើងវិញ និងការតាមដានការពិសោធន៍លឿនជាងមុនសម្រាប់ដំណើរការការងារបញ្ញាសិប្បនិម្មិតជំនាន់ក្រោយនិងម៉ាស៊ីនរៀន។ កំណែនេះកែលម្អការបំបាត់កំហុស និងការវិភាគនៃកម្មវិធីនិងភ្នាក់ងារបញ្ញាសិប្បនិម្មិតជំនាន់ក្រោយ។ កម្មវិធីរុករកដានដែលបានរចនាឡើងវិញឥឡូវនេះគឺជាលំនាំដើម។ កម្មវិធី MLflow Apps ថ្មីត្រូវបានបង្កើតឡើងនៅលើ MLflow 3.16 តាមលំនាំដើម។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខ ឬអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានអត្ថប្រយោជន៍ពីសមត្ថភាពបំបាត់កំហុស និងការវិភាគដែលប្រសើរឡើង។ ការអัปដេតដោយស្វ័យប្រវត្តិនឹងជួយសម្រួលដល់ដំណើរការការងារដោយគ្មានសកម្មភាពចាំបាច់។",
+   "keyPoints": [
+    "Amazon SageMaker AI MLflow Apps គាំទ្រ MLflow 3.16។",
+    "កម្មវិធីរុករកដានដែលបានរចនាឡើងវិញគឺជាលំនាំដើម។",
+    "កម្មវិធី MLflow Apps ថ្មីត្រូវបានបង្កើតឡើងនៅលើ MLflow 3.16 តាមលំនាំដើម។",
+    "កម្មវិធីที่มีស្រាប់នឹងត្រូវអាប់ដេតក្នុងអំឡុងពេលថែទាំខាងមុខ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "SageMaker MLflow Apps 现已支持 MLflow 3.16",
+   "summary": "Amazon SageMaker AI MLflow Apps 现已支持 MLflow 3.16，为生成式人工智能和机器学习工作流带来重新设计的追踪体验以及更快的实验跟踪。MLflow 3.16 改进了生成式人工智能应用程序和代理的调试与分析。重新设计的追踪浏览器现已成为默认设置，具有可调整的行高、可重新排序的列以及来自任何追踪标签或元数据字段的自定义列。新创建的 MLflow Apps 将默认使用 MLflow 3.16，现有应用将在即将到来的维护窗口期间自动升级。",
+   "impact": "开发人员和技术用户在构建和调试生成式人工智能应用程序时，可能会受益于改进的分析工具和更快的实验跟踪。自动升级机制也意味着团队无需采取额外行动即可获得这些更新。",
+   "keyPoints": [
+    "Amazon SageMaker AI MLflow Apps 现已支持 MLflow 3.16。",
+    "默认提供重新设计的追踪浏览器，支持自定义列和调整行高。",
+    "加快了包含大量指标历史记录的实验指标图表。",
+    "新应用默认使用 MLflow 3.16，现有应用将在维护窗口期间自动升级。"
+   ]
+  },
+  "ko": {
+   "title": "SageMaker MLflow Apps, 이제 MLflow 3.16 지원",
+   "summary": "Amazon SageMaker AI MLflow Apps는 이제 MLflow 3.16을 지원하여 생성형 AI 및 머신러닝 워크플로를 위한 재설계된 추적 환경과 더 빠른 실험 추적 기능을 제공합니다. MLflow 3.16은 생성형 AI 애플리케이션과 에이전트의 디버깅 및 분석을 향상시킵니다. 재설계된 추적 탐색기가 기본으로 설정되었으며, 행 높이 조절, 열 재정렬, 추적 태그 또는 메타데이터 필드 기반의 사용자 지정 열을 지원합니다.",
+   "impact": "개발자와 기술 사용자는 향상된 디버깅 및 분석 기능의 혜택을 누릴 수 있으며, 대규모 메트릭 기록을 가진 실험에서 더 빠른 성능을 기대할 수 있습니다. 기존 앱은 유지보수 창 동안 자동으로 업그레이드되므로 별도의 조치가 필요하지 않습니다.",
+   "keyPoints": [
+    "Amazon SageMaker AI MLflow Apps가 MLflow 3.16을 지원합니다.",
+    "재설계된 추적 탐색기가 기본으로 제공되며 사용자 지정 열을 지원합니다.",
+    "대규모 메트릭 기록이 있는 실험의 메트릭 차트 속도가 빨라졌습니다.",
+    "새로운 MLflow Apps는 기본적으로 MLflow 3.16에서 생성됩니다."
+   ]
+  }
+ }
+}

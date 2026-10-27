@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "08b65e1468b74e86",
+ "contentHash": "1f32a849d7041884",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T23:53:29.924Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Memory-Enforced GPU Sharing in Kubernetes with NVIDIA CUDA 13.4",
+   "summary": "NVIDIA discusses memory-enforced GPU sharing in Kubernetes using NVIDIA CUDA 13.4. Many AI workloads require only a fraction of a GPU, and sharing helps platform teams serve more workloads using existing infrastructure. NVIDIA GPUs already support several sharing approaches, including Multi-instance GPU.",
+   "impact": "This approach could help platform teams utilize existing infrastructure more efficiently by sharing GPU resources among workloads that require only a fraction of a device.",
+   "keyPoints": [
+    "Many AI workloads need only a fraction of a GPU",
+    "Sharing GPUs allows platform teams to serve more workloads with existing infrastructure",
+    "NVIDIA GPUs support multiple sharing approaches such as Multi-instance GPU"
+   ]
+  },
+  "km": {
+   "title": "ការចែករំលែក GPU ដែលបានบังខាប់សតិនៅក្នុង Kubernetes ជាមួយ NVIDIA CUDA 13.4",
+   "summary": "NVIDIA ពិភាក្សាអំពីការចែករំលែក GPU ដែលបានบังខាប់សតិនៅក្នុង Kubernetes ដោយប្រើប្រាស់ NVIDIA CUDA 13.4។ បន្ទុកការងារ AI ជាច្រើនត្រូវការត្រឹមតែផ្នែកខ្លះនៃ GPU ប៉ុណ្ណោះ ហើយការចែករំលែកអាចជួយក្រុមការងារបម្រើការងារបានច្រើនជាងមុន។ GPU របស់ NVIDIA គាំទ្រវិធីសាស្ត្រចែករំលែកជាច្រើនរួចជាស្រេច។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយឱ្យក្រុមការងារបម្រើការងារបានកាន់តែមានប្រសិទ្ធភាពដោយប្រើប្រាស់ធនធានដែលមានស្រាប់។",
+   "keyPoints": [
+    "បន្ទុកការងារ AI ជាច្រើនត្រូវការត្រឹមតែផ្នែកខ្លះនៃ GPU ប៉ុណ្ណោះ",
+    "ការចែករំលែក GPU ជួយឱ្យក្រុមការងារបម្រើការងារបានច្រើនជាងមុន",
+    "GPU របស់ NVIDIA គាំទ្រវិធីសាស្ត្រចែករំលែកជាច្រើន"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 NVIDIA CUDA 13.4 在 Kubernetes 中实现内存强制的 GPU 共享",
+   "summary": "NVIDIA 讨论了在 Kubernetes 中使用 NVIDIA CUDA 13.4 进行内存强制的 GPU 共享。许多 AI 工作负载只需要 GPU 的一部分，共享 GPU 可以让平台团队使用现有基础设施服务更多工作负载。NVIDIA GPU 已经支持多种共享方法。",
+   "impact": "这种方法可以帮助平台团队通过共享资源更高效地利用现有基础设施来服务更多工作负载。",
+   "keyPoints": [
+    "许多 AI 工作负载只需要 GPU 的一部分",
+    "共享 GPU 允许平台团队用现有基础设施服务更多工作负载",
+    "NVIDIA GPU 已经支持多种共享方法"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA CUDA 13.4를 사용한 Kubernetes의 메모리 강제 GPU 공유",
+   "summary": "NVIDIA는 NVIDIA CUDA 13.4를 사용하여 Kubernetes에서 메모리가 강제되는 GPU 공유에 대해 설명합니다. 많은 AI 워크로드는 GPU의 일부만 필요로 하며, 공유를 통해 플랫폼 팀은 기존 인프라로 더 많은 워크مل로드를 처리할 수 있습니다. NVIDIA GPU는 이미 여러 공유 접근 방식을 지원합니다.",
+   "impact": "이 접근 방식은 플랫폼 팀이 기존 인프라를 보다 효율적으로 활용하여 더 많은 워크로드를 지원하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "많은 AI 워크로드는 GPU의 일부만 필요로 함",
+    "GPU 공유를 통해 기존 인프라로 더 많은 워크로드 처리 가능",
+    "NVIDIA GPU는 멀티 인스턴스 GPU와 같은 공유 방식 지원"
+   ]
+  }
+ }
+}

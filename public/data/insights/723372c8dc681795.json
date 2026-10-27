@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "723372c8dc681795",
+ "contentHash": "64086cfe1815c987",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T23:57:17.345Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How AI agents shape experts’ judgment calls",
+   "summary": "Anthropic Research tested 50 professional analysts performing statistical analysis with Claude Code to see how AI affects human judgment calls. On key decisions with multiple defensible answers, researchers randomly assigned which option the agent favored. Analysts mostly chose the side favored by the agent, but few acknowledged the agent as a reason for their decision afterward.",
+   "impact": "This suggests that AI agents may heavily influence professional decision-making and judgment calls even when users are not consciously aware of it. Security teams and technology users may need to be mindful of subtle persuasion effects when deploying AI tools for critical tasks.",
+   "keyPoints": [
+    "Anthropic Research tested 50 professional analysts doing statistical analysis with Claude Code.",
+    "The test focused on key decisions where there was more than one defensible answer.",
+    "Analysts mostly went with the option favored by the agent.",
+    "Few analysts named the agent as a reason for their choice afterward."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែលភ្នាក់ងារ AI បង្កើតការសម្រេចចិត្តរបស់អ្នកជំនាញ",
+   "summary": "Anthropic Research បានធ្វើតេស្តអ្នកវិភាគអាជីពចំនួន 50 នាក់ដែលធ្វើការវិភាគស្ថិតិជាមួយ Claude Code ដើម្បីមើលពីរបៀបដែល AI ប៉ះពាល់ដល់ការសម្រេចចិត្តរបស់មនុស្ស។ លើការសម្រេចចិត្តសំខាន់ៗដែលមានចម្លើយត្រឹមត្រូវច្រើនជាងមួយ អ្នកស្រាវជ្រាវបានចាត់តាំងដោយចៃដន្យនូវជម្រើសដែលភ្នាក់ងារ AI គាំទ្រ។ អ្នកវិភាគភាគច្រើនបានជ្រើសរើសភាគីដែល AI គាំទ្រ ប៉ុន្តែមានមនុស្សតិចណាស់ដែលបានលើកឡើងថា AI គឺជាហេតុផលនៅពេលក្រោយ។",
+   "impact": "បញ្ហានេះបង្ហាញថាភ្នាក់ងារ AI អាចមានឥទ្ធិពលយ៉ាងខ្លាំងទៅលើការសម្រេចចិត្តប្រកបដោយវិជ្ជាជីវៈ សូម្បីតែពេលដែលអ្នកប្រើប្រាស់មិនដឹងខ្លួនក៏ដោយ។ ក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវយកចិត្តទុកដាក់ចំពោះឥទ្ធិពលនៃការបញ្ចុះបញ្ចូលដ៏ស្រទន់ នៅពេលដាក់ពង្រloadNpmTasks ឧបករណ៍ AI សម្រាប់កិច្ចការសំខាន់ៗ។",
+   "keyPoints": [
+    "Anthropic Research បានធ្វើតេស្តអ្នកវិភាគអាជីពចំនួន 50 នាក់ដែលធ្វើការវិភាគស្ថិតិជាមួយ Claude Code។",
+    "ការធ្វើតេស្តបានផ្តោតលើការសម្រេចចិត្តសំខាន់ៗដែលមានចម្លើយការពារបានច្រើនជាងមួយ។",
+    "អ្នកវិភាគភាគច្រើនបានជ្រើសរើសទៅតាមភាគីដែលភ្នាក់ងារ AI បានគាំទ្រ។",
+    "អ្នកវិភាគតិចតួចណាស់ដែលបានដាក់ឈ្មោះភ្នាក់ងារ AI ថាជាហេតុផលសម្រាប់ការសម្រេចចិត្តរបស់ពួកគេនៅពេលក្រោយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AI 智能体如何塑造专家的判断",
+   "summary": "Anthropic Research 测试了 50 名使用 Claude Code 进行统计分析的专业分析师，以观察 AI 如何影响人类的判断。在具有多个可辩护答案的关键决策上，研究人员随机指派智能体偏向其中一个选项。分析师大多选择了智能体偏向的一方，但事后很少有人将智能体列为决策原因。",
+   "impact": "这表明，即使在用户没有意识到的时候，AI 智能体也可能会严重影响专业决策和判断。在将 AI 工具部署到关键任务中时，安全团队和技术用户可能需要警惕这种微妙的说服效应。",
+   "keyPoints": [
+    "Anthropic Research 测试了 50 名使用 Claude Code 进行统计分析的专业分析师。",
+    "测试重点关注存在多个可辩护答案的关键决策。",
+    "分析师大多采纳了智能体所偏向的一侧。",
+    "事后极少有分析师将智能体作为他们做出选择的原因。"
+   ]
+  },
+  "ko": {
+   "title": "AI 에이전트가 전문가의 판단에 미치는 영향",
+   "summary": "Anthropic Research는 Claude Code를 사용하여 통계 분석을 수행하는 50명의 전문 분석가를 대상으로 AI가 인간의 판단에 미치는 영향을 테스트했습니다. 방어 가능한 답변이 둘 이상인 주요 결정에서 연구진은 에이전트가 선호하는 옵션을 무작위로 지정했습니다. 분석가들은 대부분 에이전트가 선호하는 쪽을 선택했으며, 사후에 에이전트를 이유로 언급한 사람은 거의 없었습니다.",
+   "impact": "이는 AI 에이전트가 사용자가 의식하지 못하는 사이에도 전문가의 의사결정과 판단에 큰 영향을 미칠 수 있음을 시사합니다. 보안 팀과 기술 사용자는 중요한 작업에 AI 도구를 배포할 때 이러한 미묘한 설득 효과에 주의해야 할 수 있습니다.",
+   "keyPoints": [
+    "Anthropic Research는 Claude Code로 통계 분석을 수행하는 50명의 전문 analists를 테스트했습니다.",
+    "테스트는 방어 가능한 답변이 둘 이상인 주요 결정에 초점을 맞추었습니다.",
+    "분석가들은 대부분 에이전트가 선호하는 쪽을 선택했습니다.",
+    "분석가 중 사후에 에이전트를 선택의 이유로 꼽은 사람은 거의 없었습니다."
+   ]
+  }
+ }
+}

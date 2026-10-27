@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ec4053628a648a22",
+ "contentHash": "57f2bc58ab538133",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T23:54:32.894Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon ElastiCache for Valkey now supports changing durability on existing clusters",
+   "summary": "Amazon ElastiCache for Valkey now allows users to enable or disable durability on existing node-based clusters without needing to create a new cluster. Users can choose between synchronous and asynchronous write options to adjust their durability and latency requirements. This feature is available in all AWS Regions where ElastiCache for Valkey 9.0 and later is supported.",
+   "impact": "This capability could allow developers and technology users to easily transition between caching and persistent data store use cases as application requirements change. It may also expand the use of ElastiCache for scenarios where data loss is unacceptable, such as AI agent workflows and payment tokenization.",
+   "keyPoints": [
+    "Durability can now be changed in place on existing node-based clusters.",
+    "Synchronous writes provide zero data loss across at least two AZs.",
+    "Asynchronous writes maintain microsecond write latency with a risk of up to 10 seconds of data loss on failure.",
+    "Available in all AWS Regions supporting ElastiCache for Valkey 9.0 and later."
+   ]
+  },
+  "km": {
+   "title": "Amazon ElastiCache for Valkey ឥឡូវនេះគាំទ្រដល់ការផ្លាស់ប្តូរភាពធន់នៅលើក្លទ័របច្ចុប្បន្ន",
+   "summary": "Amazon ElastiCache for Valkey ឥឡូវនេះអនុញ្ញាតឱ្យអ្នកបើក ឬបិទភាពធន់នៅលើក្លទ័រដែលមានមូលដ្ឋានលើ节点ដែលមានស្រាប់របស់អ្នកដោយមិនចាំបាច់បង្កើតក្លទ័រថ្មីទេ។ អ្នកប្រើប្រាស់អាចជ្រើសរើសរវាងជម្រើសសរសេរ synchronously និង asynchronously ដើម្បីកែសម្រួលតម្រូវការភាពធន់ និងភាពយឺតយ៉ាវរបស់ពួកគេ។ លក្ខណៈពិសេសនេះមាននៅក្នុងតំបន់ AWS ទាំងអស់ដែលគាំទ្រ ElastiCache for Valkey 9.0 និងជំនាន់ក្រោយ។",
+   "impact": "សមត្ថភាពនេះអាចអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យា移行រវាងករណីប្រើប្រាស់ខូឃី និងឃ្លាំងទិន្នន័យជាប់លាប់បានយ៉ាងងាយស្រួល។ វាក៏អាចពង្រីកការប្រើប្រាស់ ElastiCache សម្រាប់សេណារីយ៉ូដែលការបាត់បង់ទិន្នន័យមិនអាចទទួលយកបានផងដែរ។",
+   "keyPoints": [
+    "ឥឡូវនេះភាពធន់អាចត្រូវបានផ្លាស់ប្តូរនៅលើក្លទ័រដែលមានស្រាប់ដោយផ្ទាល់។",
+    "ការសរសេរแบบ synchronous ផ្តល់នូវការមិនបាត់បង់ទិន្នន័យឆ្លងកាត់ AZ យ៉ាងហោចណាស់ពីរ។",
+    "ការសរសេរแบบ asynchronous រក្សាភាពយឺតយ៉ាវទាប ប៉ុន្តែអាចបាត់បង់ទិន្នន័យរហូតដល់ ១០ វិនាទីនៅពេលមានបញ្ហា។",
+    "មាននៅលើតំបន់ AWS ទាំងអស់ដែលគាំទ្រ ElastiCache for Valkey 9.0 និងជំនាន់ក្រោយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon ElastiCache for Valkey 现已支持在现有集群上更改持久性",
+   "summary": "Amazon ElastiCache for Valkey 现在允许在现有的基于节点的集群上启用或禁用持久性，而无需创建新集群。用户可以在同步写入和异步写入选项之间进行选择，以调整其持久性和延迟需求。此功能在所有支持 ElastiCache for Valkey 9.0 及更高版本的 AWS 区域可用。",
+   "impact": "此功能可能会使开发人员和技术用户能够随着应用需求的变化，在缓存和持久化数据存储用例之间轻松转换。它还可能将 ElastiCache 的应用扩展到无法接受数据丢失的场景，例如 AI 代理工作流和支付标记化。",
+   "keyPoints": [
+    "现在可以直接在现有的基于节点的集群上更改持久性配置。",
+    "同步写入可在至少两个 AZ 之间实现零数据丢失。",
+    "异步写入可维持微秒级的写入延迟，但在发生故障时可能会丢失最多 10 秒的未提交数据。",
+    "适用于所有支持 ElastiCache for Valkey 9.0 及更高版本的 AWS 区域。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon ElastiCache for Valkey, 기존 클러스터에서 내구성 변경 지원",
+   "summary": "Amazon ElastiCache for Valkey를 사용하면 이제 새 클러스터를 만들지 않고도 기존 노드 기반 클러스터에서 내구성을 활성화하거나 비활성화할 수 있습니다. 사용자는 동기 및 비동기 쓰기 옵션 중에서 선택하여 내구성 및 지연 시간 요구 사항을 조정할 수 있습니다. 이 기능은 ElastiCache for Valkey 9.0 이상을 지원하는 모든 AWS 리전에서 사용할 수 있습니다.",
+   "impact": "이 기능을 통해 개발자와 기술 사용자는 애플리케이션 요구 사항 변화에 따라 캐싱과 영구 데이터 저장소 유스 케이스 간에 쉽게 전환할 수 있습니다. 또한 데이터 손실이 허용되지 않는 AI 에이전트 워크플로 및 결제 토큰화 등의 시나리오로 ElastiCache의 활용 범위를 넓힐 수 있습니다.",
+   "keyPoints": [
+    "이제 기존 노드 기반 클러스터에서 직접 내구성 설정을 변경할 수 있습니다.",
+    "동기 쓰기는 최소 두 개 이상의 AZ에서 데이터 손실이 없도록 지원합니다.",
+    "비동기 쓰기는 마이크로초 단위의 쓰기 지연 시간을 유지하지만 장애 시 최대 10초간의 데이터가 손실될 수 있습니다.",
+    "ElastiCache for Valkey 9.0 이상을 지원하는 모든 AWS 리전에서 제공됩니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "901e806b4b8d9c07",
+ "contentHash": "778d7597034c46bf",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T23:54:22.407Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Aurora serverless now supports up to 384 ACUs",
+   "summary": "Amazon Aurora serverless now supports database capacity of up to 384 Aurora Capacity Units (ACUs) for the Aurora PostgreSQL-Compatible Edition, representing a 50% increase from the previous limit of 256 ACUs. With each ACU providing approximately 2 gibibytes of memory alongside corresponding CPU and networking, databases can now scale up to 768 GiB of memory. The system automatically scales down to zero when workloads complete.",
+   "impact": "This update could allow developers and technology users to run more demanding and unpredictable workloads, such as agentic AI applications, while still benefiting from automatic scaling down to zero during idle periods.",
+   "keyPoints": [
+    "Supports up to 384 ACUs for Aurora PostgreSQL-Compatible Edition.",
+    "Scales up to 768 GiB of memory.",
+    "Automatically scales down to zero when workloads complete.",
+    "Available for specific versions running on Platform Version 4."
+   ]
+  },
+  "km": {
+   "title": "Amazon Aurora serverless ឥឡូវនេះគាំទ្ររហូតដល់ 384 ACUs",
+   "summary": "Amazon Aurora serverless ឥឡូវនេះគាំទ្រសមត្ថភាពមូលដ្ឋានទិន្នន័យរហូតដល់ 384 Aurora Capacity Units (ACUs) សម្រាប់ Aurora PostgreSQL-Compatible Edition ដែលជាការកើនឡើង 50% ពីដែនកំណត់ពីមុនចំនួន 256 ACUs។ ACU នីមួយៗផ្តល់អង្គចងចាំប្រហែល 2 gibibytes ជាមួយនឹង CPU និងបណ្តាញដែលត្រូវគ្នា ដែលអនុញ្ញាតឱ្យមូលដ្ឋានទិន្នន័យអាចពង្រីកអង្គចងចាំរហូតដល់ 768 GiB។ ប្រព័ន្ធនឹងកាត់បន្ថយស្វ័យប្រវត្តិកម្រិតចុះមកសូន្យនៅពេលការងារត្រូវបានបញ្ចប់។",
+   "impact": "ការអាប់ដេតនេះអាចអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដំណើរការបន្ទុកការងារដែលត្រូវការច្រើន និងមិនអាចព្យាករណ៍បាន ដូចជាកម្មវិធី AI ភ្នាក់ងារជាដើម ខណៈពេលដែលនៅតែទទួលបានអត្ថប្រយោជន៍ពីការកាត់បន្ថយស្វ័យប្រវត្តិមកសូន្យក្នុងអំឡុងពេលទំនេរ។",
+   "keyPoints": [
+    "គាំទ្ររហូតដល់ 384 ACUs សម្រាប់ Aurora PostgreSQL-Compatible Edition។",
+    "ពង្រីកអង្គចងចាំរហូតដល់ 768 GiB។",
+    "កាត់បន្ថយស្វ័យប្រវត្តិកម្រិតចុះមកសូន្យនៅពេលការងារបញ្ចប់។",
+    "មានសម្រាប់កំណែជាក់លាក់ដែលដំណើរការលើ Platform Version 4។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Aurora serverless 现已支持最多 384 个 ACU",
+   "summary": "Amazon Aurora serverless 的 Aurora PostgreSQL 兼容版本现在支持最高 384 个 Aurora 容量单位 (ACU) 的数据库容量，比之前最高 256 个 ACU 增加了 50%。每个 ACU 提供大约 2 吉比字节 (GiB) 的内存以及相应的 CPU 和网络，单个数据库现在可以扩展到 768 GiB 的内存。当工作负载完成后，Aurora serverless 会自动缩减至零。",
+   "impact": "此更新可能使开发人员和技术用户能够运行对性能要求更高且流量不可预测的工作负载（例如智能代理 AI 应用），同时在闲置期间继续享受自动缩减至零和按实际使用付费的好处。",
+   "keyPoints": [
+    "Aurora PostgreSQL 兼容版本支持最多 384 个 ACU。",
+    "内存最高可扩展至 768 GiB。",
+    "工作负载完成后自动缩减至零。",
+    "适用于运行在 Platform Version 4 上的特定引擎版本。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Aurora serverless, 이제 최대 384 ACU 지원",
+   "summary": "Amazon Aurora serverless는 이제 Aurora PostgreSQL 호환 에디션에 대해 최대 384개의 Aurora Capacity Units (ACU) 데이터베이스 용량을 지원하며, 이는 이전 최대치인 256 ACU에서 50% 증가한 수치입니다. 각 ACU는 해당 CPU 및 네트워킹과 함께 약 2 gibibytes의 메모리를 제공하므로 단일 데이터베이스가 최대 768 GiB의 메모리로 확장할 수 있습니다. 작업 부하가 완료되면 시스템이 자동으로 0으로 축소됩니다.",
+   "impact": "이번 업데이트를 통해 개발자와 기술 사용자는 유휴 시간 동안 자동으로 0으로 축소되는 이점을 누리면서 에이전틱 AI 애플리케이션과 같이 까다롭고 예측 불가능한 트래픽 패턴을 가진 워크로드를 실행할 수 있습니다.",
+   "keyPoints": [
+    "Aurora PostgreSQL 호환 에디션에서 최대 384 ACU 지원.",
+    "최대 768 GiB의 메모리로 확장 가능.",
+    "작업 부하 완료 시 자동으로 0으로 축소.",
+    "Platform Version 4에서 실행되는 특정 버전에서 사용 가능."
+   ]
+  }
+ }
+}

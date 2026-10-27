@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0b5e0e34b5f4a94c",
+ "contentHash": "8b9631205f5518ef",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-27T23:58:26.766Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon ECR now supports replication backfill for existing container images",
+   "summary": "Amazon Elastic Container Registry (Amazon ECR) has introduced replication backfill support, allowing users to replicate existing images in a private registry to configured destinations. Previously, replication only applied to newly pushed images unless customers manually retagged preexisting ones. This feature enables replicating a full image catalog to new or existing destinations with a single API call.",
+   "impact": "This feature could help developers and technology users streamline disaster recovery readiness, multi-Region expansions, and compliance efforts by ensuring complete image catalogs exist across regions without manual retagging. Teams may also benefit from monitoring job progress and controlling concurrent jobs using new APIs.",
+   "keyPoints": [
+    "Replication backfill enables copying existing private registry images to configured replication destinations.",
+    "A single API call can replicate the full image catalog to new or existing destinations.",
+    "Up to ten backfill jobs can be run concurrently with new APIs to monitor progress and stop jobs.",
+    "The feature is available in all AWS Regions where Amazon ECR is offered."
+   ]
+  },
+  "km": {
+   "title": "Amazon ECR ឥឡូវនេះគាំទ្រការបំពេញបន្ថែមការចម្លងសម្រាប់រូបភាពកុងតឺន័រដែលមានស្រាប់",
+   "summary": "Amazon Elastic Container Registry (Amazon ECR) ឥឡូវនេះគាំទ្រការបំពេញបន្ថែមការចម្លង ដែលអនុញ្ញាតឱ្យអ្នកចម្លងរូបភាពដែលមានស្រាប់នៅក្នុង registry ឯកជនរបស់អ្នកទៅកាន់គោលដៅ replication ដែលបានកំណត់ខុសៗគ្នា។ មុនពេលមានមុខងារនេះ replication ត្រូវបានអនុវត្តចំពោះតែរូបភាពដែលបានជំរុញបន្ទាប់ពីការកំណត់រចនាសម្ព័ន្ធប៉ុណ្ណោះ។ ជាមួយនឹងមុខងារថ្មីនេះ អ្នកអាចចម្លងកាតាឡុកទំនិញរូបភាពពេញលេញរបស់អ្នកជាមួយនឹងការហៅ API តែមួយ។",
+   "impact": "លក្ខណៈពិសេសនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមការងារបច្ចេកវិទ្យាក្នុងការពង្រីកតំបន់ AWS ការត្រៀមខ្លួនសង្គ្រោះបន្ទាន់ និងការអនុលោមតាមច្បាប់ដោយមិនចាំបាច់ដាក់ស្លាករូបភាពឡើងវិញដោយដៃ។ ក្រុមការងារក៏អាចត្រួតពិនិត្យវឌ្ឍនភាព និងគ្រប់គ្រងការងារតាមរយៈ API ថ្មីផងដែរ។",
+   "keyPoints": [
+    "Amazon ECR គាំទ្រការបំពេញបន្ថែមការចម្លងសម្រាប់រូបភាពដែលមានស្រាប់។",
+    "អាចចម្លងកាតាឡុករូបភាពពេញលេញដោយប្រើការហៅ API តែមួយ។",
+    "អាចដំណើរការការងារបំពេញបន្ថែមរហូតដល់ដប់ក្នុងពេលដំណាលគ្នា។",
+    "មាននៅក្នុងតំបន់ AWS ទាំងអស់ដែល Amazon ECR អាចប្រើប្រាស់បាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon ECR 现已支持现有容器镜像的复制回填功能",
+   "summary": "Amazon Elastic Container Registry (Amazon ECR) 现已支持复制回填功能，允许用户将私有注册表中的现有镜像复制到配置好的复制注册表目标。此前，复制仅适用于启用复制配置后推送的镜像。借助复制回填，现在只需一次 API 调用即可将整个镜像目录复制到新目标或现有目标。",
+   "impact": "此功能可以帮助开发人员和技术团队简化跨区域扩展、灾难恢复准备和合规性工作，而无需手动重新打标签。团队还可以通过新 API 监控作业进度并运行最多十个并发回填作业。",
+   "keyPoints": [
+    "支持将现有私有注册表镜像复制到配置的目标。",
+    "通过单次 API 调用即可复制完整的镜像目录。",
+    "最多可同时运行十个回填作业并监控每张镜像的结果。",
+    "适用于提供 Amazon ECR 的所有 AWS 区域。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon ECR, 기존 컨테이너 이미지에 대한 복제 백필 지원 개시",
+   "summary": "Amazon Elastic Container Registry (Amazon ECR)는 이제 프라이빗 레지스트리의 기존 이미지를 구성된 복제 목적지로 복제할 수 있는 복제 백필을 지원합니다. 이전에는 복제 설정이 활성화된 후 푸시된 이미지에만 복제가 적용되었습니다. 복제 백필을 사용하면 단일 API 호출로 전체 이미지 카탈로그를 새 목적지나 기존 목적지로 복제할 수 있습니다.",
+   "impact": "이 기능은 개발자와 보안 팀 및 기술 사용자에게 수동으로 태그를 다시 지정할 필요 없이 재해 복구 준비 상태를 검증하고 규정 준수를 위해 여러 리전에 걸쳐 완전한 이미지 카탈로그를 유지하는 데 도움을 줄 수 있습니다. 사용자는 새로운 API를 통해 작업 진행 상황을 모니터링하고 동시에 최대 10개의 백필 작업을 실행할 수 있습니다.",
+   "keyPoints": [
+    "기존 프라이빗 레지스트리 이미지를 복제 목적지로 백필하는 기능 지원",
+    "단일 API 호출을 통해 전체 이미지 카탈로그를 새 목적지나 기존 목적지로 복제 가능",
+    "동시에 최대 10개의 백필 작업 실행 및 진행 상황 모니터링 가능",
+    "Amazon ECR이 제공되는 모든 AWS 리전에서 사용 가능"
+   ]
+  }
+ }
+}
