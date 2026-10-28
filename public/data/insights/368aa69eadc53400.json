@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "368aa69eadc53400",
+ "contentHash": "1028ceb8f28f9713",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T23:25:05.881Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon EKS Dashboard now provides fleet-wide visibility into certificate authority (CA) rotation",
+   "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) has added certificate authority (CA) rotation visibility to the Amazon EKS Dashboard. This feature offers a consolidated view of CA rotation status across all clusters, regions, and accounts. Platform teams can now see which clusters have CAs approaching expiration and view upcoming automated rotation events without checking each cluster individually.",
+   "impact": "This dashboard update could help security and platform teams efficiently manage cluster security by centralizing CA rotation monitoring across their fleet. It may reduce manual tracking efforts and help prevent expiration issues for clusters created since 2018.",
+   "keyPoints": [
+    "Amazon EKS Dashboard now includes fleet-wide certificate authority (CA) rotation visibility.",
+    "Clusters created since 2018 have 10-year validity CAs that are now approaching rotation periods.",
+    "The dashboard aggregates data across accounts and regions using AWS Organizations.",
+    "The feature is available at no additional cost and is viewed from the US East region (us-east-1)."
+   ]
+  },
+  "km": {
+   "title": "Amazon EKS Dashboard ឥឡូវនេះផ្ដល់នូវលទ្ធភាពមើលឃើញទូទាំងកងនាវាចរលើការបង្វិលអាជ្ញាប័ណ្ណបញ្ជាក់ (CA)",
+   "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) បានប្រកាសពីការបន្ថែមការមើលឃើញការបង្វិលអាជ្ញាប័ណ្ណបញ្ជាក់ (CA) នៅក្នុង Amazon EKS Dashboard ដែលផ្តល់នូវទិដ្ឋភាពរួមបញ្ចូលគ្នានៃការបង្វិល CA នៅទូទាំង ކ្លាសស្ទ័រ (clusters) របស់អ្នក។ មុខងារនេះជួយឱ្យក្រុមការងារអាចមើលឃើញកន្លែងដែលត្រូវការសកម្មភាពដោយមិនចាំបាច់ពិនិត្យមើល្លាសស្ទ័រនីមួយៗដាច់ដោយឡែកពីគ្នាឡើយ។ វាប្រមូលទិន្នន័យទូទាំងគណនី និងតំបន់ (Regions) តាមរយៈ AWS Organizations។",
+   "impact": "ការធ្វើបច្ចុប្បន្នភាពនេះអាចជួយឱ្យក្រុមសន្តិសុខ និងក្រុមបច្ចេកវិទ្យាគ្រប់គ្រងស្ថានភាព CA របស់ក្លាសស្ទ័របានយ៉ាងមានប្រសិទ្ធភាពពីកន្លែងតែមួយ។ វាអាចកាត់បន្ថយការងារត្រួតពិនិត្យដោយដៃ និងជួយសម្រួលដល់ការរៀបចំសកម្មភាពបង្វិល CA ដែលជិតដល់ពេលផុតកំណត់។",
+   "keyPoints": [
+    "Amazon EKS Dashboard ឥឡូវនេះបង្ហាញស្ថានភាពបង្វិល CA ទូទាំងកងនាវាចរ។",
+    "ក្លាសស្ទ័រដែលបានបង្កើតចាប់តាំងពីឆ្នាំ ២០១៨ មាន CA ដែលមានសុពលភាព ១០ ឆ្នាំ ហើយឥឡូវនេះជិតដល់ពេលត្រូវបង្វិលហើយ។",
+    "ផ្ទាំងគ្រប់គ្រងប្រមូលទិន្នន័យតាមរយៈ AWS Organizations ដោយមិនគិតថ្លៃបន្ថែម។",
+    "វាអាចមើលបានពីតំបន់ US East region (us-east-1) ហើយគាំទ្រដល់តំបន់ពាណិជ្ជកម្ម AWS ទាំងអស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon EKS Dashboard 现可提供集群范围内的证书颁发机构（CA）轮换可见性",
+   "summary": "Amazon Elastic Kubernetes Service (Amazon EKS) 宣布在 Amazon EKS Dashboard 中增加证书颁发机构（CA）轮换可见性功能，为您提供集群 CA 轮换的统一视图。该功能使您无需逐个检查每个集群，即可查看哪些集群需要采取行动。平台团队可以通过一处集中管理整个集群阵列的 CA 轮换状态。",
+   "impact": "此功能可以帮助平台和安全团队更高效地监控和优先处理大量集群的 CA 轮换，从而可能减少手动检查并防范因证书过期引发的问题。",
+   "keyPoints": [
+    "Amazon EKS Dashboard 现在支持集群范围的 CA 轮换可见性。",
+    "2018年以来创建的集群其 CA 有效期为10年，目前正接近需要开始轮换的时期。",
+    "通过 AWS Organizations 跨账户和区域聚合数据。",
+    "该功能无需额外付费，可在美国东部区域（us-east-1）查看。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon EKS Dashboard, 이제 인증 기관(CA) རྐྱབས་པ་ (CA) 순환에 대한 전체 가시성 제공",
+   "summary": "Amazon Elastic Kubernetes Service (Amazon EKS)가 Amazon EKS Dashboard에 인증 기관(CA) 2회전 순환 가시성을 추가하여 클러스터 전반의 CA 순환 상태를 통합된 뷰로 제공합니다. 이를 통해 각 클러스터를 개별적으로 확인하지 않고도 조치가 필요한 위치를 파악할 수 있습니다. 대규모 클러스터를 운영하는 플랫폼 팀은 한 곳에서 전체 함대의 상태를 관리할 수 있습니다.",
+   "impact": "이번 대시보드 업데이트는 보안 및 플랫폼 팀이 여러 클러스터의 CA 순환 상태를 중앙에서 모니터링하여 효율성을 높이는 데 도움을 줄 수 있습니다. 수동 확인 작업을 줄이고 만료 임박 문제를 방지하는 데 기여할 수 있습니다.",
+   "keyPoints": [
+    "Amazon EKS Dashboard에서 이제 전체 클러스터 범위의 CA 순환 가시성을 제공합니다.",
+    "2018년 이후 생성된 클러스터는 10년 유효기간의 CA를 가지고 있으며 이제 순환 활동 시기에 접근하고 있습니다.",
+    "AWS Organizations를 통해 계정 및 리전 간 데이터를 집계합니다.",
+    "추가 비용 없이 US East 리전(us-east-1)에서 대시보드를 조회할 수 있습니다."
+   ]
+  }
+ }
+}

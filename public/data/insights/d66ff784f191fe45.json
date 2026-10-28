@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d66ff784f191fe45",
+ "contentHash": "fbf0c9b233bad2db",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T23:22:50.787Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon RDS for Oracle now supports September 2026 Monthly Recommended Patch",
+   "summary": "Amazon Relational Database Service for Oracle now supports the September 2026 Monthly Recommended Patch for Oracle Database versions 19c and 26ai. The patch combines the July 2026 Release Update with Oracle's September Critical Security Patch Update and additional recommended fixes. It also includes an updated Oracle time zone file reflecting recent daylight saving time rule changes in Canada, Morocco, and Western Sahara.",
+   "impact": "Security teams and database administrators may want to upgrade their instances to apply the latest security updates and keep timestamp data aligned with new time zone rules.",
+   "keyPoints": [
+    "Supports September 2026 Monthly Recommended Patch for Oracle Database version 19c and 26ai.",
+    "Applies on top of the July 2026 Release Update and includes the September Critical Security Patch Update.",
+    "Includes updated Oracle time zone file DST version 46 for regions changing daylight saving time rules.",
+    "Available for new database instances or through upgrades using the Amazon RDS Management Console, AWS SDK, or CLI."
+   ]
+  },
+  "km": {
+   "title": "Amazon RDS for Oracle ឥឡូវនេះគាំទ្របំណះដែលបានណែនាំប្រចាំខែកញ្ញា ឆ្នាំ២០២៦",
+   "summary": "សេវាកម្មមូលដ្ឋានទិន្នន័យទំនាក់ទំនង Amazon សម្រាប់ Oracle ឥឡូវនេះគាំទ្របំណះដែលបានណែនាំប្រចាំខែកញ្ញា ឆ្នាំ២០២៦ សម្រាប់កំណែមូលដ្ឋានទិន្នន័យ Oracle ១៩c និង ២៦ai។ បំណះនេះរួមបញ្ចូលគ្នានូវបច្ចុប្បន្នភាពនៃការចេញផ្សាយខែកក្កដា ឆ្នាំ២០២៦ ជាមួយបំណះសុវត្ថិភាពសំខាន់ៗរបស់ Oracle និងការជួសជុលដែលបានណែនាំបន្ថែម។ វាក៏រួមបញ្ចូលផងដែរនូវឯកសារតំបន់ពេលវេលា Oracle ដែលបានធ្វើបច្ចុប្បន្នភាព ដើម្បីឆ្លុះបញ្ចាំងពីការផ្លាស់ប្តូរច្បាប់ពេលវេលាពន្លឺថ្ងៃថ្មីៗ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកគ្រប់គ្រងមូលដ្ឋានទិន្នន័យអាចធ្វើការដំឡើងកំណែដើម្បីអនុវត្តបំណះសុវត្ថិភាពចុងក្រោយនិងរក្សាទិន្នន័យពេលវេលាឱ្យស្របតាមច្បាប់តំបន់ពេលវេលាថ្មី។",
+   "keyPoints": [
+    "គាំទ្របំណះដែលបានណែនាំប្រចាំខែកញ្ញា ឆ្នាំ២០២៦ សម្រាប់កំណែ ១៩c និង ២៦ai។",
+    "រួមបញ្ចូលបំណះសុវត្ថិភាពសំខាន់ៗរបស់ Oracle សម្រាប់ខែកញ្ញា។",
+    "រួមបញ្ចូលឯកសារតំបន់ពេលវេលា DST កំណែ ៤៦ សម្រាប់ការផ្លាស់ប្តូរពេលវេលា។",
+    "អាចដាក់ពាក្យសម្រាប់ឧទាហរណ៍មូលដ្ឋានទិន្នន័យថ្មីឬធ្វើបច្ចុប្បន្នភាពតាមរយៈកុងសូល Amazon RDS ឬ CLI។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon RDS for Oracle 现已支持 2026 年 9 月每月推荐补丁",
+   "summary": "Amazon Relational Database Service for Oracle 现已为 Oracle Database 19c 和 26ai 版本提供 2026 年 9 月每月推荐补丁支持。该补丁构建于 2026 年 7 月发布更新之上，捆绑了 Oracle 的关键安全补丁更新以及其他推荐修复程序。它还包括更新的 Oracle 时区文件，反映了加拿大、摩洛哥和西撒哈拉等地最新的夏令时规则变化。",
+   "impact": "安全团队和数据库管理员可以考虑升级实例，以应用最新的安全更新，并使时间戳数据与新的时区规则保持一致。",
+   "keyPoints": [
+    "支持 Oracle Database 19c 和 26ai 版本的 2026 年 9 月每月推荐补丁。",
+    "在 2026 年 7 月发布更新的基础上应用并包含 9 月关键安全补丁更新。",
+    "包含更新的 Oracle 时区文件 DST 版本 46 以适应时区规则变更。",
+    "可通过 Amazon RDS 管理控制台、AWS SDK 或 CLI 应用于新实例或升级现有实例。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon RDS for Oracle, 2026년 9월 월간 권장 패치 지원",
+   "summary": "Amazon Relational Database Service for Oracle은 이제 Oracle Database 버전 19c 및 26ai용 2026년 9월 월간 권장 패치를 지원합니다. 이 패치는 2026년 7월 릴리스 업데이트를 기반으로 Oracle의 중요한 보안 패치 업데이트 및 추가 권장 수정 사항을 결합합니다. 또한 캐나다, 모로코, 서사하라의 일광 절약 시간 규칙 변경 사항을 반영하는 업데이트된 시간대 파일이 포함되어 있습니다.",
+   "impact": "보안 팀과 데이터베이스 관리자는 최신 보안 업데이트를 적용하고 타임스탬프 데이터를 새로운 시간대 규칙에 맞게 유지하기 위해 인스턴스를 업그레이드할 수 있습니다.",
+   "keyPoints": [
+    "Oracle Database 버전 19c 및 26ai용 2026년 9월 월간 권장 패치 지원.",
+    "2026년 7월 릴리스 업데이트 위에 적용되며 9월 중요 보안 패치 업데이트 포함.",
+    "시간대 규칙이 변경된 지역을 위한 업데이트된 Oracle 시간대 파일 DST 버전 46 포함.",
+    "Amazon RDS 관리 콘솔, AWS SDK 또는 CLI를 통해 새 데이터베이스 인스턴스에 적용하거나 기존 인스턴스 업그레이드 가능."
+   ]
+  }
+ }
+}

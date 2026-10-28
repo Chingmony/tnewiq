@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5b2d732b6c977ea0",
+ "contentHash": "b32f36dfbaa15c7f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T23:25:36.297Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Lambda durable functions now exports live telemetry for execution insights",
+   "summary": "AWS Lambda has introduced the Durable Execution Telemetry Exporter plugin for Lambda durable functions, capturing step-by-step execution histories and sending them to up to 13 built-in destinations. Additionally, a companion Model Context Protocol server allows AI agents like Kiro to query this exported telemetry data using natural language. The exporter supports TypeScript, Python, Java, and Go, and is available at no additional charge in all AWS Regions supporting Lambda durable functions.",
+   "impact": "This new observability feature could help developers and security teams gain deeper operational insights, retain execution histories past standard periods, and troubleshoot failures more efficiently using AI agents. Teams may also use data redaction and sampling controls to manage sensitive information and data volume.",
+   "keyPoints": [
+    "Captures step-by-step history of durable executions and sends data to 13 built-in destinations.",
+    "Includes a companion Model Context Protocol server for querying telemetry data via AI agents using natural language.",
+    "Supports TypeScript, Python, Java, and Go with options for field redaction and sampling rates.",
+    "Available at no additional charge in all AWS Regions that support Lambda durable functions."
+   ]
+  },
+  "km": {
+   "title": "មុខងារ Durable របស់ AWS Lambda ឥឡូវនេះបញ្ចេញទិន្នន័យ Telemetry ផ្ទាល់សម្រាប់ការយល់ដឹងពីការប្រតិបត្តិ",
+   "summary": "AWS Lambda បានប្រកាសដាក់ឱ្យប្រើប្រាស់កម្មវិធីជំនួយ Durable Execution Telemetry Exporter សម្រាប់មុខងារ durable functions របស់ Lambda ដែលចាប់យកប្រវត្តិប្រតិបត្តិការមួយជំហានម្តងៗ និងផ្ញើពួកវាទៅកាន់ទិសដៅដែលបានកំណត់។ លើសពីនេះ ម៉ាស៊ីនបម្រើ Model Context Protocol ដៃគូអនុញ្ញាតឱ្យភ្នាក់ងារ AI ដូចជា Kiro សាកសួរទិន្នន័យ Telemetry ដែលបានបញ្ចេញដោយប្រើភាសាធម្មជាតិ។ កម្មវិធីជំនួយនេះគាំទ្រភាសា TypeScript, Python, Java និង Go ដោយគ្មានការគិតថ្លៃបន្ថែម។",
+   "impact": "លក្ខណៈពិសេសថ្មីនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខទទួលបានការយល់ដឹងពីប្រតិបត្តិការកាន់តែស៊ីជម្រៅ រក្សាប្រវត្តិប្រតិបត្តិការ និងដោះស្រាយបញ្ហាបានលឿនជាងមុនដោយប្រើភ្នាក់ងារ AI។ ក្រុមការងារក៏អាចប្រើប្រាស់ការលុបបំបាត់ទិន្នន័យរសើប និងការគ្រប់គ្រងអត្រាគំរូផងដែរ។",
+   "keyPoints": [
+    "ចាប់យកប្រវត្តិជំហាននីមួយៗនៃការប្រតិបត្តិ durable និងផ្ញើទៅកាន់ទិសដៅចំនួន ១៣ ។",
+    "មានម៉ាស៊ីនបម្រើ Model Context Protocol សម្រាប់សាកសួរទិន្នន័យ Telemetry តាមរយៈភ្នាក់ងារ AI ។",
+    "គាំទ្រភាសា TypeScript, Python, Java និង Go ជាមួយជម្រើសលុបបំបាត់ទិន្នន័យរសើប។",
+    "មានជូនដោយគ្មានការគិតថ្លៃបន្ថែមនៅក្នុងតំបន់ AWS ទាំងអស់ដែលគាំទ្រ Lambda durable functions ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Lambda 持久函数现可导出实时遥测数据以提供执行洞察",
+   "summary": "AWS Lambda 为 Lambda 持久函数发布了 Durable Execution Telemetry Exporter 插件，可捕获持久执行的分步历史记录并将其发送到一个或多个目标。此外，还发布了一个配套的 Model Context Protocol 服务器，允许诸如 Kiro 之类的 AI 代理使用自然语言查询导出的遥测数据。该导出器支持 TypeScript、Python、Java 和 Go，并在所有支持 Lambda 持久函数的 AWS 区域免费提供。",
+   "impact": "这一新的可观测性功能可能会帮助开发人员和安全团队获得更深入的运营洞察，将执行历史保留超出标准期限，并使用 AI 代理更有效地排除故障。团队还可以利用敏感字段编辑和采样率控制来管理数据量。",
+   "keyPoints": [
+    "捕获持久执行的分步历史记录并将数据发送到 13 个内置目标。",
+    "配备 Model Context Protocol 服务器，支持 AI 代理使用自然语言查询遥测数据。",
+    "支持 TypeScript、Python、Java 和 Go，并提供敏感字段编辑和采样率设置功能。",
+    "在支持 Lambda 持久函数的全 AWS 区域免费提供。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Lambda 지속형 함수, 이제 실행 인사이트를 위한 실시간 텔레메트리 내보내기 지원",
+   "summary": "AWS Lambda는 Lambda 지속형 함수를 위한 Durable Execution Telemetry Exporter 플러그인을 발표하여 지속형 실행의 단계별 기록을 캡처하고 지정된 대상으로 전송할 수 있게 했습니다. 또한 Kiro와 같은 AI 에이전트가 자연어를 사용하여 내보낸 텔레메트리 데이터를 쿼리할 수 있는 Model Context Protocol 서버가 함께 제공됩니다. 이 내보내기 도구는 TypeScript, Python, Java, Go를 지원하며 Lambda 지속형 함수를 지원하는 모든 AWS 리전에서 추가 비용 없이 사용할 수 있습니다.",
+   "impact": "이 새로운 관측성 기능은 개발자와 보안 팀이 더 깊은 운영 인사이트를 얻고 표준 보관 기간을 넘어 실행 기록을 유지하며 AI 에이전트를 통해 오류를 더 효율적으로 해결하는 데 도움을 줄 수 있습니다. 또한 팀은 민감한 필드 편집 및 샘플링 비율 제어를 활용할 수 있습니다.",
+   "keyPoints": [
+    "지속형 실행의 단계별 기록을 캡처하여 13개의 기본 제공 대상으로 전송합니다.",
+    "AI 에이전트가 자연어를 사용하여 텔레메트리 데이터를 쿼리할 수 있는 Model Context Protocol 서버를 포함합니다.",
+    "TypeScript, Python, Java, Go를 지원하며 민감한 필드 마스킹 및 샘플링 속도 조절이 가능합니다.",
+    "Lambda 지속형 함수를 지원하는 모든 AWS 리전에서 추가 비용 없이 제공됩니다."
+   ]
+  }
+ }
+}

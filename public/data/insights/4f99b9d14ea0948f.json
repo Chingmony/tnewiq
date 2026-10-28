@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4f99b9d14ea0948f",
+ "contentHash": "1677451923fde2d1",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T23:24:14.367Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+   "summary": "Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems. Some organizations had to take their sites offline until the vulnerabilities could be patched. Researchers who found the issues report that the cleanup is far from over.",
+   "impact": "Developers and security teams may need to continue auditing systems and applying patches for PHP vulnerabilities. This situation could prompt organizations to re-evaluate their emergency patching workflows for critical web infrastructure.",
+   "keyPoints": [
+    "Two critical bugs were discovered in PHP",
+    "PHP powers roughly 70% of websites",
+    "Some organizations took sites offline until patches were applied",
+    "Researchers state the cleanup process is far from over"
+   ]
+  },
+  "km": {
+   "title": "CTO របស់ Wiz និយាយអំពី PHP2Shell និងការគំរាមកំហែង vulnpocalypse ដែលនឹងមកដល់",
+   "summary": "កាលពីសប្តាហ៍មុន កំហុសដ៏សំខាន់ចំនួនពីរនៅក្នុងភាសាប្រភពបើកចំហដែលដំណើរការគេហទំព័រប្រហែល 70% បានធ្វើឱ្យស្ថាប័ននានារត់ជាន់ជើងគ្នាដើម្បីជួសជុលប្រព័ន្ធរបស់ពួកគេ។ ស្ថាប័នមួយចំនួនបានបិទគេហទំព័ររបស់ពួកគេក្រៅបណ្ដាញរហូតទាល់តែរន្ធវាយប្រហារត្រូវបានបិទបាំង។ អ្នកស្រាវជ្រាវដែលបានរកឃើញបញ្ហានេះបានរាយការណ៍ថាការសម្អាតគឺនៅឆ្ងាយពីការបញ្ចប់។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខប្រហែលជាត្រូវបន្តត្រួតពិនិត្យប្រព័ន្ធ និងអនុវត្តបំណះសម្រាប់ភាពខ្សោយរបស់ PHP។ ស្ថានភាពនេះអាចជំរុញឱ្យស្ថាប័ននានាធ្វើការវាយតម្លៃឡើងវិញនូវដំណើរការបំណះបន្ទាន់របស់ពួកគេសម្រាប់ហេដ្ឋារចនាសម្ព័ន្ធគេហទំព័រដ៏សំខាន់។",
+   "keyPoints": [
+    "កំហុសសំខាន់ពីរត្រូវបានរកឃើញនៅក្នុង PHP",
+    "PHP ដំណើរការគេហទំព័រប្រហែល 70%",
+    "ស្ថាប័នមួយចំនួនបានផ្អាកគេហទំព័ររបស់ពួកគេរហូតទាល់តែបានដាក់បំណះ",
+    "អ្នកស្រាវជ្រាវបញ្ជាក់ថាដំណើរការសម្អាតមិនទាន់ចប់ទេ"
+   ]
+  },
+  "zh-CN": {
+   "title": "Wiz 的 CTO 谈 PHP2Shell 与即将到来的“漏洞大灾难”",
+   "summary": "上周，支撑着大约70%网站的开源语言中出现了两个严重漏洞，导致各组织争相修复其系统。一些组织甚至将网站下线，直到漏洞得到修补。发现这些问题的研究人员表示，清理工作远未结束。",
+   "impact": "开发人员和安全团队可能需要继续审计系统并为 PHP 漏洞应用补丁。这种情况可能会促使各组织重新评估其针对关键网络基础设施的紧急补丁工作流程。",
+   "keyPoints": [
+    "PHP 中发现了两个严重漏洞",
+    "PHP 支撑了大约 70% 的网站",
+    "一些组织在应用补丁前将网站下线",
+    "研究人员表示清理工作远未结束"
+   ]
+  },
+  "ko": {
+   "title": "PHP2Shell과 다가오는 '볼너포칼립스'에 대한 Wiz의 CTO 의견",
+   "summary": "지난주 웹사이트의 약 70%를 구동하는 오픈 소스 언어에서 두 가지 치명적인 버그가 발견되어 조직들이 시스템을 수정하느라 분주했습니다. 일부 조직은 취약점이 패치될 때까지 사이트를 오프라인 상태로 전환하기도 했습니다. 문제를 발견한 연구원들에 따르면 정리 작업은 아직 끝난 것이 아닙니다.",
+   "impact": "개발자와 보안 팀은 시스템을 계속 감사하고 PHP 취약점에 대한 패치를 적용해야 할 수 있습니다. 이 상황으로 인해 조직은 중요한 웹 인프라에 대한 긴급 패치 워크플로를 재평가하게 될 수 있습니다.",
+   "keyPoints": [
+    "PHP에서 두 가지 치명적인 버그 발견",
+    "PHP는 웹사이트의 약 70%를 구동",
+    "일부 조직은 패치가 적용될 때까지 사이트를 오프라인으로 전환",
+    "연구원들은 정리 작업이 아직 멀었다고 밝힘"
+   ]
+  }
+ }
+}

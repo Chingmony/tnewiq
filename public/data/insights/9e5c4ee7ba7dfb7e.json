@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9e5c4ee7ba7dfb7e",
+ "contentHash": "c78b6f701d222af0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T23:24:25.086Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Lambda supports Seekable OCI (SOCI) lazy loading for Lambda Managed Instances",
+   "summary": "AWS Lambda now supports Seekable OCI (SOCI) lazy loading for Event Functions packaged as OCI images on Lambda Managed Instances. Instead of downloading entire container images upfront, Lambda fetches only the files needed during execution environment startup. This capability reduces container startup times by up to 70% and is available across all AWS commercial Regions where Lambda Managed Instances is supported.",
+   "impact": "Developers and technology users building compute-intensive applications with large container images could experience significantly faster function startup times and reduced provisioning bottlenecks. This may improve the performance and scalability of data processing pipelines, high-throughput API backends, and batch computation workloads.",
+   "keyPoints": [
+    "AWS Lambda supports Seekable OCI (SOCI) lazy loading for OCI images on Lambda Managed Instances.",
+    "Container startup times can be reduced by up to 70% by streaming only required files during startup.",
+    "Users can enable the feature by creating a SOCI index in Amazon ECR and setting the image URI to the SOCI-indexed tag.",
+    "Coding assistants like Kiro, Claude Code, or Codex can configure and deploy functions using the Lambda Managed Instances skill."
+   ]
+  },
+  "km": {
+   "title": "AWS Lambda គាំទ្រការផ្ទុកបន្តិចម្ដងៗ Seekable OCI (SOCI) សម្រាប់ Lambda Managed Instances",
+   "summary": "AWS Lambda ឥឡូវនេះគាំទ្រ Seekable OCI (SOCI) សម្រាប់ការផ្ទុកបន្តិចម្ដងៗនៃ Event Functions ដែលត្រូវបានខ្ចប់ជា OCI images ដំណើរការលើ Lambda Managed Instances។ ជំនួសឱ្យការទាញយករូបភាពកុងតឺន័រទាំងមូលជាមុន Lambda ទាញយកតែឯកសារដែលត្រូវការនៅពេលចាប់ផ្តើមបរិស្ថានប្រតិបត្តិការប៉ុណ្ណោះ។ មុខងារនេះកាត់បន្ថយពេលវេលាចាប់ផ្តើមរហូតដល់ 70% និងមាននៅក្នុងតំបន់ពាណិជ្ជកម្ម AWS ទាំងអស់ដែលមាន Lambda Managed Instances។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលបង្កើតកម្មវិធីត្រូវការកម្លាំងកុំព្យូទ័រខ្លាំងអាចទទួលបានអត្ថប្រយោជន៍ពីពេលវេលាចាប់ផ្តើមមុខងារលឿនជាងមុន។ នេះអាចជួយកែលម្អដំណើរការ និងការពង្រីកទំហំនៃការបញ្ជូនទិន្នន័យ ក៏ដូចជាប្រព័ន្ធបម្រើការងារផ្សេងៗទៀត។",
+   "keyPoints": [
+    "AWS Lambda គាំទ្រการផ្ទុកបន្តិចម្ដងៗ SOCI សម្រាប់ OCI images នៅលើ Lambda Managed Instances។",
+    "ពេលវេលាចាប់ផ្តើមកុងតឺន័រអាចត្រូវបានកាត់បន្ថយរហូតដល់ 70%។",
+    "អ្នកប្រើប្រាស់អាចបង្កើត SOCI index ក្នុង Amazon ECR ដើម្បីបើកដំណើរការមុខងារនេះដោយស្វ័យប្រវត្តិ។",
+    "ជំនួយការសរសេរកូដអាចត្រូវបានប្រើប្រាស់ដើម្បីកំណត់រចនាសម្ព័ន្ធ និងដាក់ពង្រាយមុខងារផងដែរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Lambda 为 Lambda Managed Instances 提供 Seekable OCI (SOCI) 延迟加载支持",
+   "summary": "AWS Lambda 现在为运行在 Lambda Managed Instances 上、打包为 OCI 镜像的 Event Functions 提供 Seekable OCI (SOCI) 延迟加载支持。借助 SOCI 支持，Lambda 在执行环境启动的每个阶段只获取所需的文件，而不是预先下载整个镜像，从而将容器启动时间最多缩短 70%。该功能在所有支持 Lambda Managed Instances 的 AWS 商业区域可用。",
+   "impact": "构建计算密集型应用程序的开发人员和技术用户可以显著减少容器准备时间并加快启动速度。这可能会提高数据处理管道、高吞吐量 API 后端和批处理计算工作负载的性能和可扩展性。",
+   "keyPoints": [
+    "AWS Lambda 在 Lambda Managed Instances 上支持 OCI 镜像的 SOCI 延迟加载。",
+    "通过在启动时仅流传输所需的文件，容器启动时间最多可缩短 70%。",
+    "用户可以通过在 Amazon ECR 中创建 SOCI 索引并将镜像 URI 设置为 SOCI 索引标签来启用该功能。",
+    "可以使用编码助手通过 Agent Toolkit for AWS 配置和部署函数。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Lambda, Lambda Managed Instances용 Seekable OCI (SOCI) 지연 로딩 지원",
+   "summary": "AWS Lambda는 이제 Lambda Managed Instances에서 실행되는 OCI 이미지로 패키지된 Event Functions에 대해 Seekable OCI (SOCI) 지연 로딩을 지원합니다. SOCI 지원을 통해 Lambda는 전체 이미지를 미리 다운로드하는 대신 실행 환경 시작 단계에서 필요한 파일만 가져오므로 컨테이너 시작 시간이 최대 70%까지 단축됩니다. 이 기능은 Lambda Managed Instances를 사용할 수 있는 모든 AWS 상용 리전에서 제공됩니다.",
+   "impact": "대규모 컨테이너 이미지를 사용하는 연산 집약적 애플리케이션을 구축하는 개발자와 기술 사용자는 더 빠른 함수 시작 시간과 향상된 확장성의 이점을 얻을 수 있습니다. 이를 통해 데이터 처리 파이프라인 및 고처리량 API 백엔드의 성능이 개선될 수 있습니다.",
+   "keyPoints": [
+    "AWS Lambda는 Lambda Managed Instances에서 OCI 이미지에 대한 SOCI 지연 로딩을 지원합니다.",
+    "시작 시 필요한 파일만 스트리밍하여 컨테이너 시작 시간을 최대 70%까지 단축합니다.",
+    "Amazon ECR에 SOCI 인덱스를 생성하고 이미지 URI를 SOCI 인덱스 태그로 설정하여 기능을 활성화할 수 있습니다.",
+    "코딩 보조 도구를 사용하여 Lambda Managed Instances 스킬을 통해 함수를 구성하고 배포할 수 있습니다."
+   ]
+  }
+ }
+}

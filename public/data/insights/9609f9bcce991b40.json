@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9609f9bcce991b40",
+ "contentHash": "1f2a63c88a8d98b9",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T23:23:44.122Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Why Agents Love Supabase",
+   "summary": "Supabase has emerged as a top choice for AI agents building app backends, driven by practical features that reduce friction in setup and management. Key announcements include a local runtime that runs without Docker, declarative schemas stored in Git, and Supabase Compute for running processes close to the database. These updates remove traditional development hurdles, making it easier for both humans and autonomous agents to create and maintain applications.",
+   "impact": "These developer-tool improvements could streamline how applications are built and tested, particularly for workflows heavily reliant on AI agents. Teams working with automated deployment and database management may find that declarative schemas and reduced local dependencies significantly lower friction.",
+   "keyPoints": [
+    "Supabase founders Paul Copplestone and Ant Wilson discussed building an open-source company valued at $10 billion.",
+    "Frontier models frequently choose Supabase for app backends and managed databases.",
+    "New features include a local runtime without Docker, Git-based declarative schemas, and Supabase Compute in private alpha.",
+    "Scale announcements include OrioleDB, Multigres, and the Turso acquisition to support growing workloads."
+   ]
+  },
+  "km": {
+   "title": "ហេតុអ្វីបានជាភ្នាក់ងារចូលចិត្ត Supabase",
+   "summary": "Supabase បានក្លាយជាជម្រើសដ៏ពេញនិយមសម្រាប់ភ្នាក់ងារ AI ក្នុងការបង្កើតផ្នែកខាងក្រោយនៃកម្មវិធី ដោយសារតែមុខងារជាក់ស្តែងដែលកាត់បន្ថយការពិបាកក្នុងការដំឡើង និងគ្រប់គ្រង។ ការប្រកាសសំខាន់ៗរួមមានកម្មវិធីដំណើរការមូលដ្ឋានដែលមិនត្រូវការ Docker, ការកំណត់គ្រោងការណ៍ប្រកាសដែលរក្សាទុកក្នុង Git, និង Supabase Compute សម្រាប់ការដំណើរការដំណើរការជិតនឹងមូលដ្ឋានទិន្នន័យ។ ការអាប់ដេតទាំងនេះជួយកាត់បន្ថយឧបសគ្គក្នុងការអភិវឌ្ឍន៍បែបប្រពៃណី ដែលធ្វើឱ្យវាកាន់តែងាយស្រួលសម្រាប់ទាំងមនុស្ស និងភ្នាក់ងារស្វយ័តក្នុងការបង្កើត និងថែទាំកម្មវិធី។",
+   "impact": "ការកែលម្អឧបករណ៍សម្រាប់អ្នកអភិវឌ្ឍន៍ទាំងនេះអាចធ្វើឱ្យដំណើរការនៃការបង្កើត និងសាកល្បងកម្មវិធីកាន់តែងាយស្រួល ជាពិសេសសម្រាប់លំហូរការងារដែលពឹងផ្អែកខ្លាំងលើភ្នាក់ងារ AI។ ក្រុមការងារដែលធ្វើការជាមួយការដាក់ពង្រាយស្វ័យប្រវត្តិ និងការគ្រប់គ្រងមូលដ្ឋានទិន្នន័យអាចយល់ឃើញថា គ្រោងការណ៍ប្រកាស និងការកាត់បន្ថយការពឹងផ្អែកលើមូលដ្ឋានក្នុងស្រុកជួយកាត់បន្ថយការលំបាកយ៉ាងខ្លាំង។",
+   "keyPoints": [
+    "ស្ថាបនិក Supabase គឺ Paul Copplestone និង Ant Wilson បានពិភាក្សាអំពីការបង្កើតក្រុមហ៊ុនប្រភពបើកចំហដែលមានតម្លៃ ១០ ប៊ីលានដុល្លារ។",
+    "ម៉ូដែលទំនើបៗជាញឹកញាប់ជ្រើសរើស Supabase សម្រាប់ផ្នែកខាងក្រោយនៃកម្មវិធី និងមូលដ្ឋានទិន្នន័យ.",
+    "មុខងារថ្មីៗរួមមានកម្មវិធីដំណើរការមូលដ្ឋានដោយគ្មាន Docker, គ្រោងការណ៍ប្រកាសផ្អែកលើ Git និង Supabase Compute ក្នុងការសាកល្បងផ្ទាល់ខ្លួន។",
+    "ការប្រកាសទាក់ទងនឹងមាត្រដ្ឋានរួមមាន OrioleDB, Multigres និងការទិញយក Turso ដើម្បីគាំទ្រដល់បន្ទុកការងារដែលរីកចម្រើន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "为什么代理如此喜爱 Supabase",
+   "summary": "Supabase 已成为 AI 代理构建应用程序后端的首选，这得益于其减少设置和管理摩擦的实用功能。主要发布内容包括无需 Docker 即可运行的本地运行时、存储在 Git 中的声明式架构，以及用于在数据库附近运行进程的 Supabase Compute。这些更新消除了传统的开发障碍，使人类和自主代理都能更轻松地创建和维护应用程序。",
+   "impact": "这些开发者工具的改进可以简化应用程序的构建和测试方式，特别是对于严重依赖 AI 代理的工作流程。使用自动化部署和数据库管理团队可能会发现，声明式架构和减少的本地依赖项显著降低了操作阻力。",
+   "keyPoints": [
+    "Supabase 创始人 Paul Copplestone 和 Ant Wilson 讨论了如何将一家开源公司发展到 100 亿美元的估值。",
+    "前沿模型经常选择 Supabase 作为应用后端和托管数据库。",
+    "新功能包括无需 Docker 的本地运行时、基于 Git 的声明式架构以及处于私有 alpha 阶段的 Supabase Compute。",
+    "规模化发布包括 OrioleDB、Multigres 以及对 Turso 的收购，以支持不断增长的工作负载。"
+   ]
+  },
+  "ko": {
+   "title": "에이전트가 Supabase를 좋아하는 이유",
+   "summary": "Supabase는 설정 및 관리의 마찰을 줄여주는 실용적인 기능들 덕분에 AI 에이전트가 앱 백엔드를 구축하는 데 선호하는 도구로 자리 잡았습니다. 주요 발표 내용에는 Docker 없이 실행되는 로컬 런타임, Git에 저장되는 선언형 스키마, 데이터베이스 근처에서 프로세스를 실행하기 위한 Supabase Compute가 포함됩니다. 이러한 업데이트는 전통적인 개발 장벽을 제거하여 인간과 자율 에이전트 모두 애플리케이션을 더 쉽게 만들고 유지 관리할 수 있도록 돕습니다.",
+   "impact": "이러한 개발자 도구 개선 사항은 특히 AI 에이전트에 크게 의존하는 워크플로우의 경우 애플리케이션 구축 및 테스트 방식을 간소화할 수 있습니다. 자동화된 배포 및 데이터베이스 관리를 다루는 팀은 선언형 스키마와 줄어든 로컬 종속성 덕분에 작업의 번거로움이 크게 줄어드는 것을 느낄 수 있습니다.",
+   "keyPoints": [
+    "Supabase 창립자인 Paul Copplestone과 Ant Wilson은 100억 달러 가치의 오픈 소스 회사를 성장시킨 과정에 대해 논의했습니다.",
+    "최첨단 모델들은 앱 백엔드와 관리형 데이터베이스로 Supabase를 자주 선택합니다.",
+    "새로운 기능으로는 Docker 없는 로컬 런타임, Git 기반 선언형 스키마, 비공개 알파 단계의 Supabase Compute가 있습니다.",
+    "확장 관련 발표에는 증가하는 워크플로우를 지원하기 위한 OrioleDB, Multigres, Turso 인수 등이 포함됩니다."
+   ]
+  }
+ }
+}

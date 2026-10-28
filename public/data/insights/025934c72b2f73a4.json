@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "025934c72b2f73a4",
+ "contentHash": "a14c1f3f5f6067bd",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T23:21:06.848Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "v2026.10",
+   "summary": "MITRE ATLAS has released version v2026.10, featuring updates to its threat matrix data. This release includes 1 matrix, 16 tactics, 129 techniques, 92 sub-techniques, 44 mitigations, 77 case studies, 44 entities, and 37 software records. It introduces new techniques, mitigations, and updates to existing entries.",
+   "impact": "Security teams and developers working with artificial intelligence systems could use these updated ATLAS definitions to better understand, detect, and mitigate emerging AI-specific threats. The refined techniques and mitigations may help organizations improve their security postures against AI model exploitation and supply chain risks.",
+   "keyPoints": [
+    "The release includes 1 matrix, 16 tactics, 129 techniques, and 92 sub-techniques.",
+    "New techniques include Develop Capabilities: Malware Outputs from AI Models and Centralized AI Service Request Routing.",
+    "New mitigations include Adaptive AI Response Degradation and Privacy-Preserving AI Training and Inference.",
+    "Existing techniques and mitigations such as Supply Chain Compromise were renamed and updated."
+   ]
+  },
+  "km": {
+   "title": "v2026.10",
+   "summary": "MITRE ATLAS បានចេញផ្សាយកំណែ v2026.10 ដែលមានបច្ចុប្បន្នភាពចំពោះទិន្នន័យម៉ាទ្រីសការគំរាមកំហែងរបស់ខ្លួន។ កំណែនេះរួមបញ្ចូលទាំងម៉ាទ្រីស ១ យុទ្ធសាស្ត្រ ១៦ បច្ចេកទេស ១២៩ បច្ចេកទេសរង ៩២ ការបន្ធូរបន្ថយ ៤៤ ករណីសិក្សា ៧៧ អង្គភាព ៤៤ និងកំណត់ត្រាកម្មវិធី ៣៧។ វាបានណែនាំបច្ចេកទេស ការបន្ធូរបន្ថយ និងបច្ចុប្បន្នភាពថ្មីៗចំពោះធាតុដែលមានស្រាប់។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ដែលធ្វើការជាមួយប្រព័ន្ធបញ្ញាសិប្បនិម្មិតអាចប្រើប្រាស់និយមន័យ ATLAS ដែលបានអាប់ដេតទាំងនេះ ដើម្បីយល់ដាល រកឃើញ និងបន្ធូរបន្ថយការគំរាមកំហែងជាក់លាក់របស់ AI ដែលកំពុងកើតមាន។ បច្ចេកទេស និងការបន្ធូរបន្ថយដែលបានកែលម្អអាចជួយអង្គការនានាក្នុងការកែលម្អជំហរ សុវត្ថិភាពរបស់ពួកគេប្រឆាំងនឹងការស៊ីអកម៉ូដែល AI និងហានិភ័យខ្សែសង្វាក់ផ្គត់ផ្គង់។",
+   "keyPoints": [
+    "ការចេញផ្សាយនេះរួមបញ្ចូលទាំងម៉ាទ្រីស ១ យុទ្ធសាស្ត្រ ១៦ បច្ចេកទេស ១២៩ និងបច្ចេកទេសរង ៩២។",
+    "បច្ចេកទេសថ្មីៗរួមមាន Develop Capabilities: Malware Outputs from AI Models និង Centralized AI Service Request Routing។",
+    "ការបន្ធូរបន្ថយថ្មីៗរួមមាន Adaptive AI Response Degradation និង Privacy-Preserving AI Training and Inference។",
+    "បច្ចេកទេស និងការបន្ធូរបន្ថយដែលមានស្រាប់ដូចជា Supply Chain Compromise ត្រូវបានប្តូរឈ្មោះ និងអាប់ដេត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "v2026.10",
+   "summary": "MITRE ATLAS 发布了 v2026.10 版本，其中包含其威胁矩阵数据的更新。此版本包含 1 个矩阵、16 个战术、129 个技术、92 个子技术、44 个缓解措施、77 个案例研究、44 个实体和 37 个软件记录。它引入了新的技术、缓解措施以及对现有条目的更新。",
+   "impact": "从事人工智能系统开发的的安全团队和开发人员可以使用这些更新的 ATLAS 定义，以更好地理解、检测和缓解新兴的 AI 特定威胁。改进的技术和缓解措施可能有助于组织改善其应对 AI 模型利用和供应链风险的安全状况。",
+   "keyPoints": [
+    "该版本包含 1 个矩阵、16 个战术、129 个技术和 92 个子技术。",
+    "新加入的技术包括 Develop Capabilities: Malware Outputs from AI Models 和 Centralized AI Service Request Routing。",
+    "新加入的缓解措施包括 Adaptive AI Response Degradation 和 Privacy-Preserving AI Training and Inference。",
+    "对 Supply Chain Compromise 等现有技术和缓解措施进行了重命名和更新。"
+   ]
+  },
+  "ko": {
+   "title": "v2026.10",
+   "summary": "MITRE ATLAS가 위협 매트릭스 데이터가 업데이트된 v2026.10 버전을 발표했습니다. 이번 릴리스에는 1개의 매트릭스, 16개의 전술, 129개의 기법, 92개의 하위 기법, 44개의 완화 조치, 77개의 사례 연구, 44개의 엔티티, 37개의 소프트웨어 레코드가 포함되어 있습니다. 새로운 기법과 완화 조치 및 기존 항목에 대한 업데이트가 도입되었습니다.",
+   "impact": "인공지능 시스템을 다루는 보안 팀과 개발자는 이러한 업데이트된 ATLAS 정의를 사용하여 새롭게 부각되는 AI 관련 위협을 더 잘 이해하고 탐지하며 완화할 수 있습니다. 개선된 기법과 완화 조치는 조직이 AI 모델 악용 및 공급망 위험에 대응하는 보안 태세를 개선하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "이번 릴리스에는 1개의 매트릭스, 16개의 전술, 129개의 기법, 92개의 하위 기법이 포함되어 있습니다.",
+    "새로운 기법에는 Develop Capabilities: Malware Outputs from AI Models 및 Centralized AI Service Request Routing이 포함됩니다.",
+    "새로운 완화 조치에는 Adaptive AI Response Degradation 및 Privacy-Preserving AI Training and Inference가 포함됩니다.",
+    "Supply Chain Compromise과 같은 기존 기법 및 완화 조치는 이름이 변경되고 업데이트되었습니다."
+   ]
+  }
+ }
+}

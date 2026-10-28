@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "dfbc0bcf24879e0f",
+ "contentHash": "cc5e6001489a352b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T23:25:46.592Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon EKS Auto Mode now supports Kubernetes Gateway API",
+   "summary": "Amazon EKS Auto Mode has added support for the Kubernetes Gateway API, enabling users to manage application traffic using a standard and portable method. Customers can utilize Gateway and HTTPRoute resources while EKS Auto Mode automatically provisions and manages the underlying AWS infrastructure. This update allows the adoption of the Kubernetes traffic management standard without the need to install or configure a separate controller.",
+   "impact": "Developers and technology users could benefit from simplified traffic management without needing to configure a separate controller. Security teams and developers may also utilize features such as automatic TLS certificate discovery through AWS Certificate Manager.",
+   "keyPoints": [
+    "Amazon EKS Auto Mode now supports the Kubernetes Gateway API.",
+    "Underlying AWS infrastructure is automatically provisioned and managed when using Gateway and HTTPRoute resources.",
+    "Features include HTTP and gRPC routing, cross-namespace routing, weighted traffic splitting, header-based routing, and automatic TLS certificate discovery via AWS Certificate Manager.",
+    "Existing Ingress workloads continue to function alongside Gateway API resources."
+   ]
+  },
+  "km": {
+   "title": "Amazon EKS Auto Mode ឥឡូវនេះគាំទ្រ Kubernetes Gateway API",
+   "summary": "Amazon EKS Auto Mode បានបន្ថែមការគាំទ្រសម្រាប់ Kubernetes Gateway API ដែលអនុញ្ញាតឱ្យអតិថិជនកំណត់ពីរបៀបដែលចរាចរណ៍ចូលទៅកាន់កម្មវិធីរបស់ពួកគេ។ អតិថិជនអាចកំណត់រចនាសម្ព័ន្ធតុល្យភាពចរាចរណ៍កម្មវិធីដោយប្រើប្រាស់ធនធាន Gateway និង HTTPRoute ខណៈដែល EKS Auto Mode រៀបចំ និងគ្រប់គ្រងហេដ្ឋារចនាសម្ព័ន្ធ AWS ខាងក្រោមដោយស្វ័យប្រវត្តិ។ ការដាក់ឱ្យដំណើរការនេះជួយឱ្យអតិថិជនអាចប្រើប្រាស់ស្តង់ដារគ្រប់គ្រងចរាចរណ៍ Kubernetes ជំនាន់ថ្មីដោយមិនចាំបាច់ដំឡើង ឬកំណត់រចនាសម្ព័ន្ធ कन्ទ្រីឡឺដាច់ដោយឡែកឡើយ។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យា និងអ្នកអភិវឌ្ឍន៍អាចទទួលបានភាពងាយស្រួលក្នុងការគ្រប់គ្រងចរាចរណ៍ដោយមិនបាច់ដំឡើង कन्ទ្រីឡឺបន្ថែម។ វាក៏អាចช่วยផ្តល់នូវការរកវិញ្ញាបនបត្រ TLS ដោយស្វ័យប្រវត្តិផងដែរ។",
+   "keyPoints": [
+    "Amazon EKS Auto Mode គាំទ្រ Kubernetes Gateway API។",
+    "រៀបចំ និងគ្រប់គ្រងហេដ្ឋារចនាសម្ព័ន្ធ AWS ដោយស្វ័យប្រវត្តិសម្រាប់ធនធាន Gateway និង HTTPRoute។",
+    "មានសមត្ថភាពរួមបញ្ចូលទាំងការបញ្ជូនបន្ត HTTP និង gRPC និងការរកវិញ្ញាបនបត្រ TLS ដោយស្វ័យប្រវត្តិ។",
+    "បន្ទុកការងារដែលមានស្រាប់ដែលប្រើប្រាស់ធនធាន Ingress បន្តដំណើរការជាធម្មតា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon EKS Auto Mode 现已支持 Kubernetes Gateway API",
+   "summary": "Amazon EKS Auto Mode 现已支持 Kubernetes Gateway API，为客户提供了一种标准且可移植的方法来定义流量到达其应用程序的方式。客户可以使用 Gateway 和 HTTPRoute 资源配置应用程序负载均衡，而 EKS Auto Mode 会自动配置和管理底层 AWS 基础设施。通过此次发布，客户无需安装或配置单独的控制器即可采用新一代 Kubernetes 流量管理标准。",
+   "impact": "开发人员和技术用户可以利用该功能采用新的流量管理标准，而无需配置单独的控制器。团队还可以利用 AWS Certificate Manager 实现自动 TLS 证书发现等功能。",
+   "keyPoints": [
+    "Amazon EKS Auto Mode 现已支持 Kubernetes Gateway API。",
+    "EKS Auto Mode 会自动配置和管理底层 AWS 基础设施。",
+    "功能包括 HTTP 和 gRPC 路由、跨命名空间流量路由、加权流量拆分、基于标头的路由以及通过 AWS Certificate Manager 自动发现 TLS 证书。",
+    "使用 Ingress 资源的现有工作负载将继续与 Gateway API 资源一起运行。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon EKS Auto Mode, 이제 Kubernetes Gateway API 지원",
+   "summary": "Amazon EKS Auto Mode가 Kubernetes Gateway API 지원을 추가하여 고객이 애플리케이션 트래픽 도달 방식을 정의할 수 있는 표준적이고 이식 가능한 방법을 제공합니다. 고객은 Gateway 및 HTTPRoute 리소스를 사용하여 애플리케이션 로드 밸런싱을 구성할 수 있으며, EKS Auto Mode가 기본 AWS 인프라를 자동으로 프로비저닝하고 관리합니다. 이번 출시를 통해 고객은 별도의 컨트롤러를 설치하거나 구성하지 않고도 차세대 Kubernetes 트래픽 관리 표준을 채택할 수 있습니다.",
+   "impact": "개발자와 기술 사용자는 별도의 컨트롤러를 설치하지 않고도 표준화된 트래픽 관리 방식을 활용할 수 있습니다. 또한 AWS Certificate Manager를 통한 자동 TLS 인증서 검색 등의 기능을 활용할 수 있습니다.",
+   "keyPoints": [
+    "Amazon EKS Auto Mode가 Kubernetes Gateway API를 지원합니다.",
+    "Gateway 및 HTTPRoute 리소스를 사용할 때 기본 AWS 인프라가 자동으로 프로비저닝 및 관리됩니다.",
+    "HTTP 및 gRPC 라우팅, 가중치 기반 트래픽 분할, 헤더 기반 라우팅, AWS Certificate Manager를 통한 자동 TLS 인증서 검색 기능을 제공합니다.",
+    "기존 Ingress 리소스를 사용하는 워크로드는 Gateway API 리소스와 함께 계속 작동합니다."
+   ]
+  }
+ }
+}

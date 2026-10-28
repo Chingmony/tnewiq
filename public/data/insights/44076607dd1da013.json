@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "44076607dd1da013",
+ "contentHash": "c61ed75774e9e188",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T23:25:25.700Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon ECS Managed Instances adds cross-instance and Spot consolidation",
+   "summary": "Amazon ECS Managed Instances has introduced cross-instance and Spot consolidation features to optimize infrastructure. Cross-instance consolidation evaluates tasks running across multiple underutilized instances to pack them onto fewer instances, while Spot consolidation extends this to Spot capacity after checking replacement availability. These updates aim to raise utilization and lower costs by continuously monitoring fleets and reclaiming idle capacity.",
+   "impact": "Developers and technology users could see improved resource utilization and reduced costs for their On-Demand and Spot workloads. Security teams and developers may benefit from automated infrastructure optimization that applies to all existing and new capacity providers without additional cost.",
+   "keyPoints": [
+    "Cross-instance consolidation evaluates multiple underutilized instances simultaneously to pack tasks onto fewer instances.",
+    "Spot consolidation applies the same consolidation approach to Spot capacity after verifying replacement availability.",
+    "The updates are available at no additional cost in all AWS Regions."
+   ]
+  },
+  "km": {
+   "title": "Amazon ECS Managed Instances បន្ថែមការបង្រួមអន្តរគំរូ និង Spot",
+   "summary": "Amazon ECS Managed Instances បានដាក់បញ្ចូលនូវមុខងារបង្រួមអន្តរគំរូ និង Spot ដើម្បីបង្កើនប្រសិទ្ធភាពហេដ្ឋារចនាសម្ព័ន្ធ។ ការបង្រួមអន្តរគំរូធ្វើការវាយតម្លៃភារកិច្ចដែលកំពុងដំណើរការលើគំរូជាច្រើនដែលប្រើប្រាស់មិនទាន់អស់លទ្ធភាព ដើម្បីដាក់បញ្ចូលគ្នានៅលើគំរូតិចជាងមុន។ Spot ការពង្រីកសមត្ថភាពនេះទៅកាន់សមត្ថភាព Spot បន្ទាប់ពីផ្ទៀងផ្ទាត់ការមានឡើងវិញនៃសមត្ថភាពជំនួស។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានការប្រើប្រាស់ធនធានកាន់តែប្រសើរ និងកាត់បន្ថយការចំណាយសម្រាប់បន្ទុកការងារ។",
+   "keyPoints": [
+    "ការបង្រួមអន្តរគំរូវាយតម្លៃគំរូជាច្រើនដែលប្រើប្រាស់មិនទាន់អស់លទ្ធភាពក្នុងពេលដំណាលគ្នា។",
+    "Spot consolidation អនុវត្តវិធីសាស្ត្រដូចគ្នាទៅនឹងសមត្ថភាព Spot។",
+    "មុខងារទាំងនេះមាននៅលើគ្រប់តំបន់ AWS ដោយគ្មានការគិតថ្លៃបន្ថែម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon ECS Managed Instances 增加了跨实例和 Spot 整合功能",
+   "summary": "Amazon ECS Managed Instances 引入了两项基础设施优化更新：跨实例整合和 Spot 整合。跨实例整合通过评估在多个利用率不足的实例上运行的任务，将其打包到更少的实例上以提高利用率并降低成本。Spot 整合将此功能扩展到 Spot 容量，在验证有可用替换容量后整合利用率不足的 Spot 实例。",
+   "impact": "开发人员和技术用户可以利用此功能提高资源利用率并降低按需与 Spot 工作负载的成本。安全团队和开发人员可能会受益于自动化的基础设施优化，该优化适用于所有现有和新的容量提供商且无需额外付费。",
+   "keyPoints": [
+    "跨实例整合可同时评估多个利用率不足的实例并重新打包任务。",
+    "Spot 整合在验证替换容量可用后对 Spot 容量应用相同方法。",
+    "该功能在所有 AWS 区域中免费提供，并自动应用于所有现有和新的容量提供商。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon ECS Managed Instances, 인스턴스 간 및 Spot 통합 기능 추가",
+   "summary": "Amazon ECS Managed Instances는 인프라 최적화를 위해 인스턴스 간 통합과 Spot 통합이라는 두 가지 업데이트를 도입했습니다. 인스턴스 간 통합은 활용도가 낮은 여러 인스턴스에서 실행 중인 태스크를 평가하여 더 적은 수의 인스턴스로 패킹함으로써 활용도를 높이고 비용을 절감합니다. Spot 통합은 대체 용량이 사용 가능한지 확인한 후 이러한 기능을 Spot 용량까지 확장합니다.",
+   "impact": "개발자와 기술 사용자는 온디맨드 및 Spot 워크로드의 리소스 활용도가 향상되고 비용이 절감되는 효과를 얻을 수 있습니다. 기존 및 신규 용량 공급자에 추가 비용 없이 자동 적용되므로 인프라 관리 부담을 줄일 수 있습니다.",
+   "keyPoints": [
+    "인스턴스 간 통합은 활용도가 낮은 여러 인스턴스의 태스크를 동시에 평가하여 재배치합니다.",
+    "Spot 통합은 대체 용량을 먼저 확인한 후 Spot 용량에 동일한 통합 방식을 적용합니다.",
+    "모든 AWS 리전에서 추가 비용 없이 사용할 수 있습니다."
+   ]
+  }
+ }
+}

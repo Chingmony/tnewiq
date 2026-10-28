@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d5d478f3780c3ac3",
+ "contentHash": "d0ec2c78a224d118",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T23:24:54.668Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Quick now supports smart approvals for agentic actions",
+   "summary": "Amazon Quick has introduced smart approvals, a new review layer designed to reduce unnecessary approval prompts for agentic actions while maintaining human oversight. A separate review model called the classifier evaluates eligible actions, automatically approving routine tasks while sending consequential actions to the user. Existing user policies take precedence, and smart approvals never grants new access. The feature is enabled by default and can be managed by administrators or turned off by users.",
+   "impact": "This feature could help developers and security teams reduce approval fatigue for users handling routine agentic tasks without sacrificing critical oversight. Technology users may experience fewer interruptions while maintaining security controls over high-impact operations.",
+   "keyPoints": [
+    "Smart approvals uses a classifier model to automatically approve routine actions and refer consequential actions to users.",
+    "The feature only evaluates actions where the user setting is set to ask each time and respects existing policies.",
+    "High-impact actions such as external communication, permission changes, and deletions are always referred to the user.",
+    "AWS CloudTrail records each action review and setting change, and the feature is enabled by default."
+   ]
+  },
+  "km": {
+   "title": "Quick ឥឡូវនេះគាំទ្រការអនុម័តឆ្លាតវៃសម្រាប់សកម្មភាពភ្នាក់ងារ",
+   "summary": "Amazon Quick ឥឡូវនេះគាំទ្រការអនុម័តឆ្លាតវៃ ដែលជាស្រទាប់ពិនិត្យឡើងវិញដើម្បីកាត់បន្ថយការស្នើសុំការអនុម័តដែលមិនចាំបាច់ ខណៈពេលដែលរក្សាការត្រួតពិនិត្យរបស់មនុស្ស។ ម៉ូដែលពិនិត្យដាច់ដោយឡែកមួយហៅថាជាអ្នកចាត់ថ្នាក់វាយតម្លៃសកម្មភាពនីមួយៗ និងអនុម័តសកម្មភាពជាប្រចាំដោយស្វ័យប្រវត្តិ។ លក្ខណៈពិសេសនេះត្រូវបានបើកតាមលំនាំដើមសម្រាប់អ្នកប្រើប្រាស់ទាំងអស់ ហើយអ្នកគ្រប់គ្រងអាចគ្រប់គ្រងវាបាន។",
+   "impact": "មុខងារនេះអាចជួយកាត់បន្ថយភាពនឿយហត់ក្នុងការអនុម័តសម្រាប់អ្នកប្រើប្រាស់ ខណៈពេលដែលរក្សាបាននូវការត្រួតពិនិត្យលើសកម្មភាពដែលមានផលប៉ះពាល់ខ្ពស់។",
+   "keyPoints": [
+    "ការអនុម័តឆ្លាតវៃកាត់បន្ថយការស្នើសុំការអនុម័តដែលមិនចាំបាច់សម្រាប់សកម្មភាពភ្នាក់ងារ។",
+    "ម៉ូដែលអ្នកចាត់ថ្នាក់វាយតម្លៃសកម្មភាព និងអនុម័តកិច្ចការជាប្រចាំដោយស្វ័យប្រវត្តិ។",
+    "សកម្មភាពដែលមានផលប៉ះពាល់ខ្ពស់ត្រូវបានបញ្ជូនទៅឱ្យអ្នកប្រើប្រាស់ដើម្បីពិនិត្យឡើងវិញ។",
+    "លក្ខណៈពិសេសនេះត្រូវបានបើកតាមលំនាំដើមសម្រាប់អ្នកប្រើប្រាស់ទាំងអស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Quick 现在支持针对代理操作的智能审批",
+   "summary": "Amazon Quick 现在支持智能审批，这是一个审查层，旨在减少不必要的代理操作审批提示，同时保留人工监督。一个名为分类器的独立审查模型会评估符合条件的操作，自动批准常规操作，并将重要操作提交给用户审查。现有策略始终优先，智能审批不会授予新权限。该功能默认对所有用户开启，管理员和用户均可对其进行管理。",
+   "impact": "此功能可以帮助开发人员和安全团队减轻用户的审批疲劳，同时确保对高风险代理操作保持必要的监督。技术用户在减少不必要中断的同时，仍能保留对敏感操作的安全控制。",
+   "keyPoints": [
+    "智能审批使用分类器模型自动批准常规操作并将高影响操作发送给用户。",
+    "该功能仅审查设置为每次都询问的操作，并且不会授予新权限。",
+    "AWS CloudTrail 会记录智能审批中的每次操作审查和设置更改。",
+    "该功能默认对所有用户开启，并且可以通过自定义权限进行管理。"
+   ]
+  },
+  "ko": {
+   "title": "Quick, 에이전트 작업에 대한 스마트 승인 기능 지원",
+   "summary": "Amazon Quick은 불필요한 승인 프롬프트를 줄이고 중요한 작업에 대한 인간의 감독을 유지하는 검토 레이어인 스마트 승인을 지원합니다. 분류기라는 별도의 검토 모델이 각 적격 액션을 평가하여 일상적인 작업은 자동으로 승인하고 결과가 중요한 작업은 사용자에게 검토를 요청합니다. 기존 정책이 항상 우선하며 스마트 승인은 새로운 권한을 부여하지 않습니다. 이 기능은 기본적으로 켜져 있으며 관리자와 사용자가 제어할 수 있습니다.",
+   "impact": "이 기능은 개발자와 보안 팀이 사용자의 승인 피로를 줄이는 데 도움을 줄 수 있으며, 기술 사용자는 높은 영향력을 가진 작업에 대한 보안 제어를 유지하면서 불필요한 중단을 줄일 수 있습니다.",
+   "keyPoints": [
+    "스마트 승인은 분류기 모델을 사용하여 일상적인 작업을 자동 승인하고 중요 작업을 사용자에게 전달합니다.",
+    "사용자 설정이 매번 묻기로 되어 있는 작업만 검토하며 기존 정책을 우선합니다.",
+    "AWS CloudTrail은 스마트 승인을 통해 이루어진 각 작업 검토와 설정 변경을 기록합니다.",
+    "이 기능은 모든 사용자에게 기본적으로 켜져 있으며 관리자와 사용자가 관리할 수 있습니다."
+   ]
+  }
+ }
+}

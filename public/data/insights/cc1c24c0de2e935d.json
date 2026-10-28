@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "cc1c24c0de2e935d",
+ "contentHash": "17f41bd5fee13fd9",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T23:27:06.223Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Backup adds restore testing support for Amazon Redshift",
+   "summary": "AWS Backup restore testing now supports Amazon Redshift, allowing users to automate and periodically run restore tests for their backups. This feature enables users to confirm successful backups and measure restore durations alongside other supported AWS resources. Restore testing plans can be scheduled automatically to measure job completion time against recovery time objectives.",
+   "impact": "This could help security teams and developers evaluate recovery readiness and meet regulatory or compliance requirements for disaster recovery and business continuity. Users may utilize the AWS Backup console, CLI, or SDKs to configure and manage these tests.",
+   "keyPoints": [
+    "AWS Backup restore testing now includes Amazon Redshift support.",
+    "Restore testing plans automate scheduled tests and measure completion time against recovery time objectives.",
+    "Users can assign Amazon Redshift resources by ARN or tag.",
+    "The feature is available in all AWS Regions that support both restore testing and Amazon Redshift."
+   ]
+  },
+  "km": {
+   "title": "AWS Backup បន្ថែមការគាំទ្រការធ្វើតេស្តស្ដារឡើងវិញសម្រាប់ Amazon Redshift",
+   "summary": "ការធ្វើតេស្តស្ដារឡើងវិញរបស់ AWS Backup ឥឡូវនេះគាំទ្រដល់ Amazon Redshift ដែលអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ស្វ័យប្រវត្តិកម្ម និងដំណើរការការធ្វើតេស្តស្ដារឡើងវិញជាដំណាក់កាល។ លក្ខណៈពិសេសនេះជួយបញ្ជាក់ថាការបម្រុងទុក Amazon Redshift ស្ដារឡើងវិញដោយជោគជ័យ និងវាស់វែងរយៈពេលនៃការស្ដារឡើងវិញ។ អ្នកអាចដាក់បញ្ចូល Amazon Redshift ទៅក្នុងផែនការធ្វើតេស្តស្ដារឡើងវិញរបស់អ្នក។",
+   "impact": "สิ่งនេះអាចជួយដល់ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ក្នុងការវាយតម្លៃភាពរួចរាល់នៃការសង្គ្រោះ និងបំពេញតាមតម្រូវការអនុលោមភាព។ អ្នកប្រើប្រាស់អាចប្រើប្រាស់កុងសូល AWS Backup, CLI ឬ SDKs ដើម្បីគ្រប់គ្រងការធ្វើតេស្តទាំងនេះ។",
+   "keyPoints": [
+    "AWS Backup ឥឡូវនេះគាំទ្រការធ្វើតេស្តស្ដារឡើងវិញសម្រាប់ Amazon Redshift។",
+    "ផែនការធ្វើតេស្តស្ដារឡើងវិញដំណើរការស្វ័យប្រវត្តិ និងវាស់វែងពេលវេលាបញ្ចប់។",
+    "អ្នកប្រើប្រាស់អាចកំណត់ធនធាន Amazon Redshift តាមរយៈ ARN ឬស្លាក។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Backup 增加对 Amazon Redshift 的恢复测试支持",
+   "summary": "AWS Backup 恢复测试现已支持 Amazon Redshift，帮助用户自动化并定期运行备份恢复测试。此功能可让用户确认 Amazon Redshift 备份能够成功恢复并测量恢复所需的时间。用户现在可以将 Amazon Redshift 纳入其恢复测试计划中。",
+   "impact": "这可能有助于开发人员和安全团队评估恢复准备情况，并满足灾难恢复和业务连续性的监管与合规要求。用户可以通过 AWS Backup 控制台、CLI 或 SDK 开始使用此功能。",
+   "keyPoints": [
+    "AWS Backup 恢复测试现已支持 Amazon Redshift。",
+    "恢复测试计划能够按计划自动运行恢复并测量完成时间。",
+    "用户可通过 ARN 或标签指定 Amazon Redshift 资源。",
+    "该支持适用于 AWS Backup 支持恢复测试和 Amazon Redshift 的所有 AWS 区域。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Backup, Amazon Redshift에 대한 복원 테스트 지원 추가",
+   "summary": "AWS Backup 복원 테스트가 이제 Amazon Redshift를 지원하므로 백업의 복원 테스트를 자동화하고 주기적으로 실행할 수 있습니다. 이 기능을 통해 사용자는 Amazon Redshift 백업이 성공적으로 복원되는지 확인하고 소요 시간을 측정할 수 있습니다. 사용자는 복원 테스트 계획에 Amazon Redshift를 포함할 수 있습니다.",
+   "impact": "이를 통해 개발자와 보안 팀은 복구 준비 상태를 평가하고 재해 복구 및 비즈니스 연속성에 대한 규정 및 규정 준수 요구 사항을 충족할 수 있습니다. 사용자는 AWS Backup 콘솔, CLI 또는 SDK를 사용하여 이러한 테스트를 관리할 수 있습니다.",
+   "keyPoints": [
+    "AWS Backup 복원 테스트에 Amazon Redshift 지원이 추가되었습니다.",
+    "복원 테스트 계획은 예약에 따라 복원을 실행하고 목표 복구 시간과 비교하여 완료 시간을 측정합니다.",
+    "ARN 또는 태그로 Amazon Redshift 리소스를 할당할 수 있습니다.",
+    "복원 테스트와 Amazon Redshift를 모두 지원하는 모든 AWS 리전에서 사용 가능합니다."
+   ]
+  }
+ }
+}
