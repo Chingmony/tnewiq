@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ba64aa5c907b991a",
+ "contentHash": "b1d8b38348bb0536",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:54:37.253Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Multi-State Linear Attention with Generalized Second-Order Routing",
+   "summary": "Researchers have proposed MERLIN, a method that tracks the first and second moments of each segment's keys to improve multi-state linear attention mechanisms in large language models. While traditional MSLA aggregates information using only mean alignment, MERLIN incorporates alignment variance to achieve more content-aware aggregation. Experiments using Gated DeltaNet-1.3B and Mamba-2-780M demonstrate consistent performance improvements across various long-context tasks.",
+   "impact": "This approach may help developers and researchers enhance the long-context capabilities and efficiency of sequence modeling without increasing memory consumption by 4x. Security teams and technology users might benefit from improved context retrieval and question-answering accuracy in large language models.",
+   "keyPoints": [
+    "MERLIN tracks the first and second moments of each segment's keys.",
+    "It incorporates both mean and variance of alignment for content-aware aggregation.",
+    "Experiments showed performance gains on Gated DeltaNet-1.3B and Mamba-2-780M models.",
+    "Improvements include higher scores on RULER needle-in-a-haystack, long-context QA, and LongBench."
+   ]
+  },
+  "km": {
+   "title": "កិច្ចអន្តរកម្មលីនេអ៊ែរពហុរដ្ឋជាមួយការកំណត់ផ្លូវលំដាប់ទីពីរទូទៅ",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើឡើងនូវវិធីសាស្ត្រមួយឈ្មោះថា MERLIN ដែលតាមដានកម្រិតទីមួយនិងទីពីរនៃគន្លឹះរបស់ផ្នែកនីមួយៗ ដើម្បីកែលម្អយន្តការអន្តរកម្មលីនេអ៊ែរពហុរដ្ឋក្នុងគំរូភាសាខ្នាតធំ។ វិធីសាស្ត្រនេះរួមបញ្ចូលទាំងមធ្យមភាគនិងភាពប្រែប្រួលនៃការតម្រឹមដើម្បីសម្រេចបានការប្រមូលផ្ដុំទិន្នន័យដែលដឹងពីខ្លឹមសារជាងមុន។ ការពិសោធន៍លើ Gated DeltaNet-1.3B និង Mamba-2-780M បានបង្ហាញពីការរីកចម្រើនជាប្រព័ន្ធលើកិច្ចការបរិបទវែងផ្សេងៗ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ក្នុងការបង្កើនសមត្ថភាពបរិបទវែងនិងប្រសិទ្ធភាពនៃគំរូភាសាខ្នាតធំដោយមិនចាំបាច់ប្រើប្រាស់អង្គចងចាំកាន់តែច្រើននោះទេ។",
+   "keyPoints": [
+    "MERLIN តាមដានកម្រិតទីមួយនិងទីពីរនៃគន្លឹះក្នុងផ្នែកនីមួយៗ។",
+    "វាបញ្ចូលទាំងមធ្យមភាគនិងភាពប្រែប្រួលសម្រាប់ការប្រមូលផ្ដុំទិន្នន័យ។",
+    "ការពិសោធន៍បង្ហាញពីលទ្ធផលល្អប្រសើរលើ Gated DeltaNet-1.3B និង Mamba-2-780M។"
+   ]
+  },
+  "zh-CN": {
+   "title": "具有广义二阶路由的多状态线性注意力机制",
+   "summary": "研究人员提出了一种名为 MERLIN 的方法，通过跟踪每个分段键的一阶和二阶矩，来改进大型语言模型中的多状态线性注意力机制。传统的多状态线性注意力机制仅使用平均对齐来聚合信息，而 MERLIN 则结合了对齐方差以实现更具内容感知能力的聚合。在 Gated DeltaNet-1.3B 和 Mamba-2-780M 上的实验表明，该方法在各项长上下文任务中表现出持续的性能提升。",
+   "impact": "这种方法可能会帮助开发人员和研究人员提高序列建模的长上下文能力和效率，而无需消耗四倍的内存。技术用户可能会受益于大语言模型中更强的上下文检索和问答准确性。",
+   "keyPoints": [
+    "MERLIN 能够跟踪每个分段键的一阶和二阶矩。",
+    "它结合了对齐的均值与方差以进行内容感知的聚合。",
+    "在 Gated DeltaNet-1.3B 和 Mamba-2-780M 模型上进行了多状态变体实验。",
+    "在 RULER 长文本检索、长上下文问答以及 LongBench 的各项子任务中均超越了基线。"
+   ]
+  },
+  "ko": {
+   "title": "일반화된 2차 라우팅을 이용한 다중 상태 선형 어텐션",
+   "summary": "연구진은 대형 언어 모델의 다중 상태 선형 어텐션 메커니즘을 개선하기 위해 각 세그먼트 키의 1차 및 2차 모멘트를 추적하는 MERLIN이라는 방법을 제안했습니다. 기존 방식은 평균 정렬만을 사용하여 정보를 집계하지만, MERLIN은 정렬 분산을 통합하여 콘텐츠 인식 집계를 수행합니다. Gated DeltaNet-1.3B 및 Mamba-2-780M 모델을 활용한 실험에서 다양한 장문 맥락 작업 전반에 걸쳐 일관된 성능 향상이 확인되었습니다.",
+   "impact": "이 접근 방식은 개발자와 연구원이 더 많은 메모리를 소비하지 않고도 시퀀스 모델링의 장문 맥락 기능과 효율성을 향상시키는 데 도움을 줄 수 있습니다. 기술 사용자들은 대형 언어 모델의 향상된 맥락 검색 및 질의응답 정확도의 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "MERLIN은 각 세그먼트 키의 1차 및 2차 모멘트를 추적합니다.",
+    "콘텐츠 인식 집계를 위해 정렬의 평균과 분산을 모두 통합합니다.",
+    "Gated DeltaNet-1.3B 및 Mamba-2-780M 모델에 대한 실험이 수행되었습니다.",
+    "RULER 및 LongBench 등 다양한 장문 맥락 작업에서 기존 기준선을 능가하는 성능을 보였습니다."
+   ]
+  }
+ }
+}

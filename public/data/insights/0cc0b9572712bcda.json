@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0cc0b9572712bcda",
+ "contentHash": "e93e06b28780f1f4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:55:10.239Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "What Improves During Pretraining? Tracking Knowledge Acquisition with Point-in-Time Models",
+   "summary": "Researchers use point-in-time models trained on web snapshots from different years to investigate how language models learn general and domain-specific knowledge during pretraining. They introduce a temporal variability score (TVS) to measure how knowledge prevalence varies over time across web text. Evaluating six models from multiple open-source model families on six benchmarks, they observe that low- and high-TVS items are learned similarly early in training, but high-TVS items improve faster later on. At the end of pretraining, high-TVS items outperform low-TVS items across 34 of 36 model-benchmark settings.",
+   "impact": "This research could help developers and researchers better understand knowledge acquisition dynamics during pretraining by utilizing temporal variability as a diagnostic tool beyond aggregate benchmark scores.",
+   "keyPoints": [
+    "Point-in-time models trained on web snapshots from different years are used to probe knowledge prevalence over time.",
+    "The temporal variability score (TVS) is defined as the coefficient of variation of an item's negative log-likelihood across models.",
+    "High-TVS items improve faster later in training and ultimately outperform low-TVS items in 34 of 36 model-benchmark settings at the end of pretraining."
+   ]
+  },
+  "km": {
+   "title": "តើអ្វីទៅដែលប្រសើរឡើងក្នុងអំឡុងពេល προetraining? ការតាមដានការទទួលបានចំណេះដឹងជាមួយម៉ូដែល Point-in-Time",
+   "summary": "អ្នកស្រាវជ្រាវបានប្រើប្រាស់ម៉ូដែល point-in-time ដែលបានបណ្តុះបណ្តាលលើបណ្តុំទិន្នន័យគេហទំព័រពីឆ្នាំផ្សេងៗគ្នា ដើម្បីពិនិត្យមើលពីរបៀបដែលភាសាម៉ូដែលរៀនចំណេះដឹងទូទៅ និងជាក់លាក់តាមដែនក្នុងអំឡុងពេល pretraining។ ពួកគេបានណែនាំពិន្ទុអស្ថិរភាពតាមពេលវេលា (TVS) ដើម្បីវាស់វែងភាពខុសគ្នានៃចំណេះដឹងតាមពេលវេលានៅក្នុងអត្ថបទគេហទំព័រ។ តាមរយៈការវាយតម្លៃម៉ូដែលចំនួនប្រាំាំពីគ្រួសារម៉ូដែលបើកចំហរលើប្រព័ន្ធសាកល្បងចំនួនប្រាំាំ ពួកគេបានរកឃើញថាធាតុដែលមាន TVS ទាប និងខ្ពស់ត្រូវបានរៀនស្រដៀងគ្នានៅពេលចាប់ផ្ដើម ប៉ុន្តែធាតុ TVS ខ្ពស់មានភាពប្រសើរឡើងលឿនជាងមុននៅពេលក្រោយ។ នៅចុងបញ្ចប់នៃការបណ្តុះបណ្តាល ធាតុที่มี TVS ខ្ពស់បានដំណើរការល្អជាងធាតុ TVS ទាបនៅក្នុងការកំណត់ចំនួន 34 ក្នុងចំណោម 36 ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវឱ្យយល់កាន់តែច្បាស់អំពីសក្ដានុពលនៃការទទួលបានចំណេះដឹងក្នុងអំឡុងពេល pretraining តាមរយៈការប្រើប្រាស់អស្ថិរភាពតាមពេលវេលាជាឧបករណ៍វិភាគ។",
+   "keyPoints": [
+    "ម៉ូដែល point-in-time ត្រូវបានប្រើដើម្បីពិនិត្យការរីករាលដាលនៃចំណេះដឹងតាមពេលវេលា។",
+    "ពិន្ទុអស្ថិរភាពតាមពេលវេលា (TVS) ត្រូវបានកំណត់ជាមេគុណបម្រែបម្រួលនៃ negative log-likelihood របស់ធាតុមួយ។",
+    "ធាតុដែលមាន TVS ខ្ពស់ប្រសើរឡើងលឿនជាងមុននៅពេលក្រោយក្នុងអំឡុងពេលបណ្តុះបណ្តាល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "预训练期间有哪些提升？使用Point-in-Time模型追踪知识获取情况",
+   "summary": "研究人员利用在不同年份网页快照上训练的point-in-time模型，来探究语言模型在预训练过程中如何学习通用知识和领域特定知识。他们提出了时间变异性得分（TVS），以此衡量知识在不同年份网页文本中的普及程度变化。通过对多个开源模型家族的六个模型和六个基准进行评估，他们发现低TVS和高TVS的表现在训练初期相似，但高TVS表现在后期提升更快。在预训练结束时，高TVS项目在36种模型与基准设置中的34种里超越了低TVS项目。",
+   "impact": "这项研究可以帮助开发者和研究人员通过将时间变异性作为超越总体基准得分的诊断工具，更好地理解预训练期间的知识获取动态。",
+   "keyPoints": [
+    "基于不同年份网页快照训练的point-in-time模型被用于探测知识随时间的变化情况。",
+    "时间变异性得分（TVS）被定义为项目负对数似然在各模型间变异系数。",
+    "高TVS项目在训练后期改善更快，并在大多数模型基准设置中表现优于低TVS项目。"
+   ]
+  },
+  "ko": {
+   "title": "사전 학습 중 무엇이 향상되는가? Point-in-Time 모델로 지식 습득 추적하기",
+   "summary": "연구자들은 여러 연도의 웹 스냅샷으로 학습된 point-in-time 모델을 사용하여 언어 모델이 사전 학습 과정에서 일반 및 도메인 특화 지식을 어떻게 학습하는지 조사합니다. 이들은 웹 텍스트 전반에 걸쳐 지식의 유행이 시간에 따라 어떻게 변하는지 측정하기 위해 시간적 변동성 점수(TVS)를 제안합니다. 여러 오픈소스 모델 패밀리의 6개 모델과 6개의 벤치마크를 사용하여 평가한 결과, 낮은 TVS 항목과 높은 TVS 항목은 학습 초기에는 비슷하게 학습되지만 높은 TVS 항목이 후반부에 더 빠르게 향상되는 것으로 나타났습니다. 사전 학습이 끝날 무렵, 높은 TVS 항목은 36개의 모델-벤치마크 설정 중 34개에서 낮은 TVS 항목보다 우수한 성적을 거두었습니다.",
+   "impact": "이 연구는 개발자와 연구자들이 전체 벤치마크 점수를 넘어 시간적 변동성을 진단 도구로 활용함으로써 사전 학습 중 지식 획득 동학을 더 잘 이해하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "서로 다른 연도의 웹 스냅샷으로 학습된 point-in-time 모델이 시간에 따른 지식 보급을 조사하는 데 사용됩니다.",
+    "시간적 변동성 점수(TVS)는 모델 간 항목의 음의 로그 가능도 변동 계수로 정의됩니다.",
+    "높은 TVS 항목은 학습 후반부에 더 빠르게 향상되며 사전 학습 종료 시 대부분의 설정에서 낮은 TVS 항목을 상회합니다."
+   ]
+  }
+ }
+}

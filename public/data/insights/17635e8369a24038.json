@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "17635e8369a24038",
+ "contentHash": "6e730af6b72c2529",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:52:37.121Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+   "summary": "Researchers introduce Hexels, novel planar hexagonal surface elements with a first-order spatial color field for efficient 3D scene and 2D image representation. By using fewer, larger primitives that exploit locally planar regions with smoothly varying appearance, Hexels reduce memory and computational demands compared to radiance fields and splatting. Evaluations across multiple datasets show that Hexels improve PSNR, reduce training VRAM, and achieve faster frames per second while improving surface reconstruction accuracy.",
+   "impact": "This method could offer developers and researchers more efficient memory-to-quality trade-offs for 3D scene rendering and reconstruction in resource-constrained environments. The reduced VRAM usage and faster processing speeds may enable broader deployment of complex 3D visual models.",
+   "keyPoints": [
+    "Hexels are planar hexagonal surface elements featuring a first-order spatial color field.",
+    "They improve PSNR over memory-matched 2DGS by 4.53 to 7.38 dB across datasets while using lower training VRAM.",
+    "Hexels reduce 3D surface reconstruction error by 28.9% compared to memory-matched 2DGS across 15 DTU scans.",
+    "They achieve a mean F1 of 34.38% on 6 Tanks and Temples surface scenes, outperforming compared methods."
+   ]
+  },
+  "km": {
+   "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ Hexels ដែលជាធាតុកំរាលផ្ទៃឆកោនថ្មីជាមួយវាលពណ៌លំហលំដាប់ទីមួយ សម្រាប់ការបង្ហាញឈុត 3D និងរូបភាព 2D ប្រកបដោយប្រសិទ្ធភាព។ ការប្រើប្រាស់ប្រភ្នំតូច និងធំជាងមុនទាំងនេះជួយកាត់បន្ថយតម្រូវការអង្គចងចាំ និងការគណនា។ ការវាយតម្លៃបង្ហាញថា Hexels អាចកែលម្អ PSNR និងកាត់បន្ថយការប្រើប្រាស់ VRAM កំឡុងពេលបណ្តុះបណ្តាល។",
+   "impact": "វិធីសាស្ត្រនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវតុល្យភាពអង្គចងចាំនិងគុណភាពកាន់តែប្រសើរសម្រាប់ការបង្ហាញឈុត 3D ក្នុងបរិយាកាសដែលមានធនធានកំណត់។ ការប្រើប្រាស់ VRAM ទាបជាងមុនអាចជួយឱ្យការដាក់ពង្រាយម៉ូដែលរូបភាព 3D មានភាពងាយស្រួលជាងមុន។",
+   "keyPoints": [
+    "Hexels គឺជាធាតុផ្ទៃឆកោនដែលមានវាលពណ៌លំហលំដាប់ទីមួយ។",
+    "វា改善 PSNR ខ្ពស់ជាង 2DGS ពី 4.53 ដល់ 7.38 dB។",
+    "Hexels កាត់បន្ថយកំហុសនៃការស្ថាបនាផ្ទៃ 3D 28.9% បើធៀបនឹង 2DGS។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+   "summary": "研究人员推出了Hexels，这是一种带有空间一阶颜色场的新型平面六边形表面元素，用于高效的3D场景和2D图像表示。Hexels利用具有平滑外观变化的局部平面区域，通过更少、更大的基元来减少内存和计算需求。跨多个数据集的评估表明，Hexels在降低训练VRAM的同时提高了PSNR，并实现了更快的渲染速度和更高的表面重建精度。",
+   "impact": "这种方法可以为开发人员在资源受限的环境中进行3D场景渲染和重建提供更高效的内存与质量权衡。较低的VRAM使用率和更快的处理速度可能使复杂3D视觉模型的部署更加广泛。",
+   "keyPoints": [
+    "Hexels是具有一阶空间颜色场的平面六边形表面元素。",
+    "在各个数据集中，Hexels比内存匹配的2DGS的PSNR提高了4.53至7.38 dB，同时降低了训练VRAM。",
+    "在15个DTU扫描中，Hexels将3D表面重建误差比内存匹配的2DGS降低了28.9%。",
+    "在6个Tanks and Temples表面场景中，Hexels取得了最高的平均F1得分。"
+   ]
+  },
+  "ko": {
+   "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+   "summary": "연구원들은 효율적인 3D 장면 및 2D 이미지 표현을 위해 1차 공간 컬러 필드를 갖춘 새로운 평면 육각형 표면 요소인 Hexels를 소개했습니다. Hexels는 부드럽게 변하는 외형을 가진 국소 평면 영역을 활용하여 더 적고 큰 프리미티브로 메모리 및 연산 요구 사항을 줄입니다. 여러 데이터셋에 걸친 평가는 Hexels가 더 낮은 학습 VRAM을 사용하면서도 PSNR을 향상시키고 더 빠른 프레임 속도를 달성함을 보여줍니다.",
+   "impact": "이 방법은 개발자와 연구원들에게 리소스가 제한된 환경에서 3D 장면 렌더링 및 재구성을 위한 더 효율적인 메모리 대 품질 절감 효과를 제공할 수 있습니다. 줄어든 VRAM 사용량과 빠른 처리 속도는 복잡한 3D 시각 모델의 광범위한 배포를 가능하게 할 수 있습니다.",
+   "keyPoints": [
+    "Hexels는 1차 공간 컬러 필드를 특징으로 하는 평면 육각형 표면 요소입니다.",
+    "데이터셋 전반에서 메모리 일치 2DGS 대비 PSNR을 4.53~7.38 dB 향상시키고 학습 VRAM을 적게 사용합니다.",
+    "15개의 DTU 스캔에서 메모리 일치 2DGS에 비해 3D 표면 재구성 오차를 28.9% 줄입니다.",
+    "6개의 Tanks and Temples 표면장에서 비교 방법 중 가장 높은 평균 F1을 달성합니다."
+   ]
+  }
+ }
+}

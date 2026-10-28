@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7922a8baafa19a4e",
+ "contentHash": "05f8ec4d071d837b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:50:53.629Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Open Source Terminal Emulator Ghostty Releases 1.4.0 with Memory and Performance Optimizations",
+   "summary": "Ghostty has released version 1.4.0 after seven months of development with 172 contributors and 2,889 commits. A major finding in this release revealed that the macOS kernel bottlenecks every pty read at around 1 KiB regardless of buffer size. This caused previous performance issues because Ghostty processed each read individually, incurring parsing overhead every 1 KiB.",
+   "impact": "Developers and users on macOS could see performance and memory improvements as Ghostty optimizes how it handles pty reads.",
+   "keyPoints": [
+    "Ghostty 1.4.0 includes contributions from 172 developers over 7 months.",
+    "The release features 2,889 total commits.",
+    "macOS kernels bottleneck pty reads at approximately 1 KiB regardless of buffer size."
+   ]
+  },
+  "km": {
+   "title": "កម្មវិធីត្រាប់តាមស្ថានីយប្រភពបើកចំហ Ghostty ចេញផ្សាយកំណែ 1.4.0 ជាមួយនឹងការបង្កើនប្រសិទ្ធភាពសតិនិងដំណើរការ",
+   "summary": "Ghostty បានចេញផ្សាយកំណែ 1.4.0 បន្ទាប់ពីការអភិវឌ្ឍរយៈពេលប្រាំពីរខែដោយមានអ្នកចូលរួមចំណែកចំនួន ១៧២ នាក់ និងការដាក់ស្នើចំនួន ២៨៨៩ ។ ការរកឃើញដ៏សំខាន់មួយនៅក្នុងកំណែនេះបានបង្ហាញថាខឺណែល macOS រឹតត្បិតការអាន pty នីមួយៗត្រឹមប្រហែល 1 KiB ដោយមិនគិតពីទំហំសតិបណ្ដោះអាសន្នឡើយ ។ បញ្ហានេះបានពន្យល់ពីមូលហេតុដែលភាពយឺតយ៉ាវបានកើតឡើងពីមុនមក ដោយសារ Ghostty ដំណើរការការអានម្ដងៗ ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់នៅលើ macOS អាចនឹងឃើញការកሻ្រកកើនឡើងនូវដំណើរការ និងការគ្រប់គ្រងសតិ នៅពេលដែល Ghostty កែលម្អរបៀបដែលខ្លួនจัดการការអាន pty ។",
+   "keyPoints": [
+    "Ghostty 1.4.0 រួមមានការចូលរួមពីអ្នកអភិវឌ្ឍន៍ចំនួន ១៧២ នាក់ក្នុងរយៈពេល ៧ ខែ ។",
+    "កំណែនេះមានការដាក់ស្នើសរុបចំនួន ២៨៨៩ ។",
+    "ខឺណែល macOS រឹតត្បិតការអាន pty ត្រឹមប្រហែល 1 KiB ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "开源终端模拟器 Ghostty 发布 1.4.0，优化内存占用 & 性能",
+   "summary": "Ghostty 1.4.0 版本在经过 7 个月、172 位贡献者以及 2889 个提交后正式发布。该版本发现 macOS 内核会将每一次 pty 读取限制在 1 KiB 左右，无论缓冲区设得多大。这一发现解释了以前速度较慢的原因，因为 Ghostty 过去会进行多次读取并每次都处理，每读 1 KiB 就要承担一次解析开销。",
+   "impact": "开发人员和技术用户可能会在此版本中看到性能和内存方面的改善，从而缓解以往由于 pty 读取限制带来的性能开销。",
+   "keyPoints": [
+    "Ghostty 1.4.0 历时 7 个月开发，包含 172 位贡献者和 2889 个提交。",
+    "发现 macOS 内核将每次 pty 读取卡在 1 KiB 左右而不论缓冲区大小。",
+    "以往每次读取 1 KiB 都会产生解析开销并导致速度变慢。"
+   ]
+  },
+  "ko": {
+   "title": "오픈 소스 터미널 에뮬레이터 Ghostty 1.4.0 출시, 메모리 사용량 및 성능 최적화",
+   "summary": "Ghostty가 7개월 동안 172명의 기여자 및 2,889개의 커밋을 거쳐 1.4.0 버전을 출시했습니다. 이번 버전에서 발견된 주요 사실은 버퍼 크기에 상관없이 macOS 커널이 모든 pty 읽기를 약 1 KiB로 제한한다는 점입니다. 이로 인해 Ghostty는 이전 버전에서 읽을 때마다 처리를 수행하며 1 KiB마다 파싱 오버헤드를 발생시켰던 성능 저하의 원인이 밝혀졌습니다.",
+   "impact": "macOS의 개발자와 사용자는 Ghostty가 pty 읽기 처리를 최적화함에 따라 성능 및 메모리 개선 효과를 누릴 수 있습니다.",
+   "keyPoints": [
+    "Ghostty 1.4.0은 7개월 동안 172명의 기여자가 참여했습니다.",
+    "총 2,889개의 커밋이 포함되었습니다.",
+    "macOS 커널은 버퍼 크기와 관계없이 pty 읽기를 약 1 KiB로 제한합니다."
+   ]
+  }
+ }
+}

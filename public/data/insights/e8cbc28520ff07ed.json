@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e8cbc28520ff07ed",
+ "contentHash": "0378c816b2eb1f79",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:53:42.420Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well",
+   "summary": "Researchers studied in-hand object pose reaching, a complex robotics task involving diverse and difficult grasps through long sequences of consecutive goals. They presented a training recipe for a LEAP hand in simulation without human data, utilizing generated grasp datasets and an adaptive friction curriculum. The resulting policies transferred zero-shot to real hardware using motion capture or a wrist-mounted depth camera, while a learned residual safety filter was added to reduce object drops.",
+   "impact": "This research could help developers improve robotic dexterity and reliability for complex tasks while maintaining safety and preventing dropped objects. Security teams and technology users may find the portable skills useful for applications such as screwing in lightbulbs or operating in dynamic environments.",
+   "keyPoints": [
+    "The state-based policy reached 95.2% of goals within 2 cm and 0.4 rad during real-robot evaluation.",
+    "A learned residual safety filter reduced object drops by 75% while still reaching 91.5% of goals.",
+    "Policies transferred zero-shot from simulation to the real LEAP hand without human data.",
+    "The system can operate using either motion capture or a single wrist-mounted depth camera."
+   ]
+  },
+  "km": {
+   "title": "ជំរុញភាពប៉ិនប្រសប់និងសុវត្ថិភាពសម្រាប់ការឈោងចាប់ទីតាំងវត្ថុក្នុងដៃដែលដំណើរការបានយ៉ាងល្អគួរឱ្យកត់សម្គាល់",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាអំពីការឈោងចាប់ទីតាំងវត្ថុក្នុងដៃ ដែលជាកិច្ចការរ៉ូបូតស្មុគស្មាញពាក់ព័ន្ធនឹងការកាន់បែបផ្សេងៗគ្នាតាមរយៈគោលដៅបន្តបន្ទាប់គ្នា។ ពួកគេបានបង្ហាញរូបមន្តបណ្តុះបណ្តាលសម្រាប់ដៃ LEAP ក្នុងការក្លែងធ្វើដោយគ្មានទិន្នន័យមនុស្ស ដោយប្រើប្រាស់សំណុំទិន្នន័យចាប់យកនិងកម្មវិធីសិក្សាកកិត។ គោលនយោបាយទាំងនោះត្រូវបានផ្ទេរទៅកាន់ដៃពិតប្រាកដដោយប្រើប្រាស់ប្រព័ន្ធចាប់យកចលនាឬកាមេរ៉ាជម្រៅជាប់កដៃ ខណៈដែលតម្រងសុវត្ថិភាពត្រូវបានបន្ថែមដើម្បីកាត់បន្ថយការធ្លាក់វត្ថុ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍កែលម្អភាពប៉ិនប្រសប់និងភាពជឿជាក់របស់រ៉ូបូតសម្រាប់កិច្ចការស្មុគស្មាញខណៈពេលដែលរក្សាបាននូវសុវត្ថិភាព។",
+   "keyPoints": [
+    "គោលនយោបាយផ្អែកលើស្ថានភាពបានឈានដល់ 95.2% នៃគោលដៅក្នុងពេលវាយតម្លៃរ៉ូបូតពិត។",
+    "តម្រងសុវត្ថិភាពដែលបានសិក្សាបានកាត់បន្ថយការធ្លាក់វត្ថុចំនួន 75%។",
+    "គោលនយោបាយត្រូវបានផ្ទេរពីការក្លែងធ្វើទៅកាន់ដៃ LEAP ពិតប្រាកដដោយគ្មានទិន្នន័យមនុស្ស។",
+    "ប្រព័ន្ធនេះអាចដំណើរការដោយប្រើប្រាស់ប្រព័ន្ធចាប់យកចលនាឬកាមេរ៉ាជម្រៅជាប់កដៃតែមួយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "推动灵巧手抓握物体位姿达到的灵巧性与安全性研究取得显著成效",
+   "summary": "研究人员研究了手内物体位姿达到这一任务，该任务需要在长序列的连续目标中完成多样且困难的抓握。他们提出了一种在模拟中为 LEAP 手训练策略的方法，无需人类数据，利用生成的抓握数据集和自适应摩擦课程。通过精心的系统辨识，策略零样本迁移到真实的机械手上，并加入了一个可调节保守性的残余安全过滤器来减少物体掉落。",
+   "impact": "这项研究可以帮助开发人员提高机器人在复杂任务中的灵巧性和可靠性，同时保持安全并减少物体掉落。技术用户可能会发现这种便携技能对于诸如拧灯泡等应用非常有用。",
+   "keyPoints": [
+    "在真实机器人评估中，基于状态的策略在 2 厘米和 0.4 弧度内达到了 95.2% 的目标。",
+    "残余安全过滤器将物体掉落减少了 75%，同时仍达到了 91.5% 的目标。",
+    "策略在没有人类数据的情况下从模拟零样本迁移到真实的 LEAP 手。",
+    "该系统可以使用动作捕捉或单个腕式深度摄像头进行操作。"
+   ]
+  },
+  "ko": {
+   "title": "매우 뛰어난 성능을 보이는 인핸드 객체 포즈 리칭을 위한 민첩성과 안전성 향상",
+   "summary": "연구원들은 길게 이어지는 연속적인 목표 속에서 다양하고 어려운 파지를 요구하는 복잡한 로봇 공학 과제인 인핸드 객체 포즈 리칭을 연구했습니다. 이들은 인간 데이터 없이 생성된 파지 데이터셋과 적응형 마찰 커리큘럼을 기반으로 시뮬레이션에서 LEAP 손을 위한 정책을 학습시키는 방법을 제시했습니다. 정밀한 시스템 식별을 통해 모션 캡처 또는 손목 장착형 심도 카메라를 사용하여 실제 손으로 정책이 제로샷 전송되었으며, 물체 낙하를 크게 줄이기 위해 잔여 안전 필터가 추가되었습니다.",
+   "impact": "이번 연구는 개발자가 안전을 유지하고 물체 낙하를 방지하면서 복잡한 작업을 위한 로봇의 민첩성과 신뢰성을 향상시키는 데 도움을 줄 수 있습니다. 기술 사용자들은 전구 조이기와 같은 응용 분야에서 이러한 휴대용 기술이 유용하다는 것을 알게 될 수 있습니다.",
+   "keyPoints": [
+    "실제 로봇 평가에서 상태 기반 정책은 2cm 및 0.4 rad 이내에서 목표의 95.2%에 도달했습니다.",
+    "학습된 잔여 안전 필터는 목표의 91.5%에 도달하면서 물체 낙하를 75% 줄였습니다.",
+    "인간 데이터 없이 시뮬레이션에서 실제 LEAP 손으로 정책이 제로샷 전송되었습니다.",
+    "시스템은 모션 캡처 또는 단일 손목 장착형 심도 카메라를 사용하여 작동할 수 있습니다."
+   ]
+  }
+ }
+}

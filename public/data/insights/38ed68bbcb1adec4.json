@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "38ed68bbcb1adec4",
+ "contentHash": "608a517bd53745ec",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:53:54.083Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
+   "summary": "Large Language Models used in multi-turn agentic workloads often face failures stemming from prompt weaknesses, harness limitations, stochastic execution, or noisy judges. The authors argue that not all failures provide useful learning signals and introduce GEPA-Curator, a framework designed to select which agent experiences shape prompt optimization. GEPA-Curator utilizes task curation to filter out unreliable signals and prior success retrieval to supply past successful trajectories as additional context. Evaluations across GoBrowse, ALFWorld, AppWorld, and tau-bench showed performance gains of up to 20.7% over GEPA and 21.2% over ACE.",
+   "impact": "Developers and researchers working with multi-turn agentic workloads may achieve better performance and avoid harmful learning signals by using curated agent experiences for prompt optimization. This approach could improve the reliability of prompt optimizers when using models like Gemini 3.1 Pro and Claude Opus 5.",
+   "keyPoints": [
+    "GEPA-Curator filters out tasks that provide noisy or unreliable learning signals.",
+    "It retrieves past successful trajectories to give additional context to the prompt optimizer.",
+    "Evaluations were conducted on GoBrowse, ALFWorld, AppWorld, and tau-bench.",
+    "It achieved performance gains of up to 20.7% over GEPA and 21.2% over ACE."
+   ]
+  },
+  "km": {
+   "title": "GEPA-Curator៖ การរៀនចម្រាញ់សម្រាប់ភ្នាក់ងារកែលម្អខ្លួនឯង",
+   "summary": "គំរូភាសាខ្នាតធំនៅក្នុងភារកិច្ចភ្នាក់ងារជួបប្រទះការបរាជ័យដែលអាចមកពីចំណុចខ្សោយនៃប្រអប់បញ្ចូល កម្រិតកំណត់នៃហារ៉េស ការប្រតិបត្តិແບບស្ដុកាសទីក ឬអ្នកសម្រេចចិត្តដែលមានសំឡេងរំខាន។ អ្នកស្រាវជ្រាវបានណែនាំ GEPA-Curator ដែលជាក្របខ័ណ្ឌមួយជ្រើសរើសបទពិសោធន៍ភ្នាក់ងារដើម្បីបង្កើតការបង្កើនប្រសិទ្ធភាពប្រអប់បញ្ចូល។ GEPA-Curator រួមបញ្ចូលការចម្រាញ់ភារកិច្ច និងការទាញយកភាពជោគជ័យពីមុនមកផ្តល់បរិបទបន្ថែម។ ការវាយតម្លៃលើ GoBrowse, ALFWorld, AppWorld និង tau-bench បានបង្ហាញពីការកើនឡើងដំណើរការរហូតដល់ ២០,៧% លើស GEPA និង ២១,២% លើស ACE។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងក្រុមការងារអាចទទួលបានដំណើរការល្អប្រសើរជាងមុន និងជៀសវាងសញ្ញារៀនខូចខាតដោយប្រើប្រាស់បទពិសោធន៍ភ្នាក់ងារដែលបានចម្រាញ់។ វិធីសាស្ត្រនេះអាចបង្កើនភាពជឿជាក់របស់អ្នកបង្កើនប្រសិទ្ធភាពប្រអប់បញ្ចូល។",
+   "keyPoints": [
+    "GEPA-Curator ច្រាញ់ចេញនូវភារកិច្ចដែលផ្តល់សញ្ញារៀនមានសំឡេងរំខានឬមិនគួរឱ្យទុកចិត្ត។",
+    "វាទាញយកគន្លងជោគជ័យពីមុនដើម្បីផ្តល់បរិបទបន្ថែមដល់អ្នកបង្កើនប្រសិទ្ធភាពប្រអប់បញ្ចូល។",
+    "ការវាយតម្លៃត្រូវបានធ្វើឡើងនៅលើ GoBrowse, ALFWorld, AppWorld និង tau-bench។",
+    "វាទទួលបានការកើនឡើងដំណើរការរហូតដល់ ២០,៧% លើស GEPA និង ២១,២% លើស ACE។"
+   ]
+  },
+  "zh-CN": {
+   "title": "GEPA-Curator：用于自我改进智能体的精选学习",
+   "summary": "大语言模型在多轮智能体工作负载中常面临来自提示词弱点、环境限制、随机执行或噪声评判器的失败。作者指出并非所有失败都能提供有用的学习信号，并引入了GEPA-Curator框架来选择哪些智能体经验应塑造提示词优化。GEPA-Curator包含任务筛选和先前成功检索两个组件，为提示词优化提供附加上下文。在GoBrowse、ALFWorld、AppWorld和tau-bench上的评估显示，其性能比GEPA提升高达20.7%，比ACE提升高达21.2%。",
+   "impact": "开发人员和研究人员可以通过使用精选的智能体经验进行提示词优化，从而获得更好的性能并避免有害的学习信号。这种方法可能在使用Gemini 3.1 Pro和Claude Opus 5等模型时提高提示词优化的可靠性。",
+   "keyPoints": [
+    "GEPA-Curator会过滤掉提供噪声或不可靠学习信号的任务。",
+    "它选择性地检索过去的成功轨迹作为提示词优化的额外上下文。",
+    "在GoBrowse、ALFWorld、AppWorld和tau-bench上进行了评估。",
+    "相比GEPA性能提升高达20.7%，相比ACE提升高达21.2%。"
+   ]
+  },
+  "ko": {
+   "title": "GEPA-Curator: 자체 개선 에이전트를 위한 큐레이션된 학습",
+   "summary": "다중 턴 에이전트 워크로드에서 사용되는 대형 언어 모델은 프롬프트 약점, 하네스 제한, 확률적 실행 또는 노이즈가 있는 평가자로 인해 실패를 겪을 수 있습니다. 저자들은 모든 실패가 유용한 학습 신호를 제공하지는 않는다고 주장하며, 어떤 에이전트 경험이 프롬프트 최적화를 형성해야 하는지 선택하는 프레임워크인 GEPA-Curator를 소개합니다. GEPA-Curator는 신뢰할 수 없는 학습 신호를 필터링하는 작업 큐레이션과 이전 성공 궤적을 추가 컨텍스트로 제공하는 이전 성공 검색으로 구성됩니다. GoBrowse, ALFWorld, AppWorld 및 tau-bench에서 평가한 결과 GEPA 대비 최대 20.7%, ACE 대비 최대 21.2%의 성능 향상을 보였습니다.",
+   "impact": "개발자와 보안 팀은 큐레이션된 에이전트 경험을 프롬프트 최적화에 사용하여 더 나은 성능을 달성하고 유해한 학습 신호를 피할 수 있습니다. 이 접근 방식은 프롬프트 최적화 도구의 신뢰성을 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "GEPA-Curator는 노이즈가 있거나 신뢰할 수 없는 학습 신호를 제공하는 작업을 필터링합니다.",
+    "프롬프트 최적화 도구에 추가 컨텍스트를 제공하기 위해 과거 성공 궤적을 선택적으로 검색합니다.",
+    "GoBrowse, ALFWorld, AppWorld 및 tau-bench에서 평가되었습니다.",
+    "GEPA 대비 최대 20.7%, ACE 대비 최대 21.2%의 성능 향상을 기록했습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b7bbe440eab9ddc1",
+ "contentHash": "88c411de67e530bb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:54:04.832Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
+   "summary": "Researchers introduced LongChang, an automated framework designed to evaluate whether large language models can discover altered physical laws through free exploration without human hints. In simulated worlds where physics differ from ordinary rules, LLM explorers manipulate objects and build tools to investigate unexpected behaviors. Among 12 tested models, GPT-6-Astra achieved a discovery rate of 16.7 percent, while the other 11 models scored zero percent.",
+   "impact": "This research could indicate current limitations in autonomous scientific discovery and reasoning among large language models. Security and technology teams evaluating LLMs for complex, autonomous tasks may note that models currently struggle with independent exploration of unguided anomalies.",
+   "keyPoints": [
+    "LongChang is an automated framework that creates simulated worlds with altered physical laws.",
+    "LLMs act as explorers to investigate unexpected behaviors without specific research tasks or hints.",
+    "GPT-6-Astra achieved a 16.7 percent discovery rate among 12 evaluated LLMs, while the remaining 11 scored zero percent."
+   ]
+  },
+  "km": {
+   "title": "តើ LLMs អាចរកឃើញច្បាប់រូបវិទ្យាដែលលាក់កំបាំងតាមរយៈការរុករកដោយសេរីដែរឬទេ?",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ LongChang ដែលជាក្របខ័ណ្ឌស្វ័យប្រវត្តិតាមដានថាតើម៉ូដែលភាសាខ្នាតធំអាចរកឃើញច្បាប់រូបវិទ្យាដែលបានផ្លាស់ប្តូរតាមរយៈការរុករកដោយសេរីដោយគ្មានតម្រុយពីមនុស្ស។ នៅក្នុងពិភពក្លែងធ្វើដែលរូបវិទ្យាខុសពីធម្មតា ម៉ូដែល LLM បានរៀបចំវត្ថុ និងបង្កើតឧបករណ៍ដើម្បីស៊ើបអង្កេតអាកប្បកិរិយាមិនរំពឹងទុក។ ក្នុងចំណោមម៉ូដែល LLMs ចំនួន ១២ GPT-6-Astra សម្រេចបានអត្រារកឃើញ ១៦,៧ភាគរយ ខណៈដែល ១១ផ្សេងទៀតទទួលបានសូន្យភាគរយ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចបង្ហាញពីដែនកំណត់បច្ចុប្បន្ននៃការរកឃើញវិទ្យាសាស្ត្រស្វ័យភាព និងការសន្និដ្ឋានក្នុងចំណោមម៉ូដែលភាសាខ្នាតធំ។ ក្រុមសុវត្ថិភាពនិងបច្ចេកវិទ្យាអាចកត់សម្គាល់ថា ម៉ូដែលបច្ចុប្បន្ននៅតែពិបាកក្នុងការរុករកដោយឯករាជ្យ.",
+   "keyPoints": [
+    "LongChang គឺជាក្របខ័ណ្ឌស្វ័យប្រវត្តិដែលបង្កើតពិភពក្លែងធ្វើជាមួយនឹងច្បាប់រូបវិទ្យាដែលបានផ្លាស់ប្តូរ។",
+    "LLMs ធ្វើសកម្មភាពជាអ្នករុករកដើម្បីស៊ើបអង្កេតអាកប្បកិរិយាមិនរំពឹងទុកដោយគ្មានភារកិច្ចស្រាវជ្រាវជាក់លាក់។",
+    "GPT-6-Astra សម្រេចបានអត្រារកឃើញ ១៦,៧ភាគរយ ក្នុងចំណោម LLMs ចំនួន ១២ ដែលបានវាយតម្លៃ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "大语言模型能否通过自由探索揭示隐藏的物理定律？",
+   "summary": "研究人员推出了LongChang，这是一个自动化框架，旨在评估大语言模型是否能在没有人类提示的情况下，通过自由探索发现被篡改的物理定律。在物理规则与常规不同的模拟世界中，LLM探索者操纵物体并构建工具来调查意外行为。在12个被评估的LLM中，GPT-6-Astra实现了16.7%的发现率，而其他11个模型得分为0%。",
+   "impact": "这项研究可能表明了大语言模型在自主科学发现和推理方面的当前局限性。评估LLM以执行复杂自主任务的技术和安全团队可能会注意到，模型目前在独立探索未指导的异常现象方面仍然存在困难。",
+   "keyPoints": [
+    "LongChang是一个创建具有改变的物理定律的模拟世界的自动化框架。",
+    "LLM充当探索者，在没有研究任务或提示的情况下调查意外行为。",
+    "在12个评估的LLM中，GPT-6-Astra达到了16.7%的发现率，其余11个得分为0%。"
+   ]
+  },
+  "ko": {
+   "title": "LLM은 자유로운 탐구를 통해 숨겨진 물리 법칙을 밝혀낼 수 있는가?",
+   "summary": "연구진은 대형 언어 모델이 인간의 힌트 없이 자유로운 탐구를 통해 변경된 물리 법칙을 발견할 수 있는지 평가하기 위해 고안된 자동화 프레임워크 LongChang을 소개했다. 일반적인 물리학과 다른 시뮬레이션 세계에서 LLM 탐험가들은 예상치 못한 행동을 조사하기 위해 물체를 조작하고 도구를 만든다. 평가된 12개의 LLM 중 GPT-6-Astra는 16.7%의 발견율을 기록했으며, 나머지 11개 모델은 0%를 기록했다.",
+   "impact": "이번 연구는 대형 언어 모델의 자율적 과학적 발견 및 추론 능력에 대한 현재의 한계를 보여줄 수 있다. 복잡하고 자율적인 작업을 위해 LLM을 평가하는 보안 및 기술 팀은 모델들이 아직 지침이 없는 이상 현상을 독립적으로 탐구하는 데 어려움을 겪고 있음을 주목할 수 있다.",
+   "keyPoints": [
+    "LongChang은 변경된 물리 법칙을 가진 시뮬레이션 세계를 생성하는 자동화 프레임워크이다.",
+    "LLM은 연구 과제나 힌트 없이 예상치 못한 행동을 조사하는 탐험가 역할을 한다.",
+    "평가된 12개의 LLM 중 GPT-6-Astra는 16.7%의 발견율을 달성했고 나머지 11개는 0%를 기록했다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "befd66ab0debac53",
+ "contentHash": "9d0fce3b17185ab0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:52:47.504Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+   "summary": "Researchers introduced ThinkWorld, a Vision-Language-Action learning framework designed to improve robotic manipulation generalization. The framework grounds action reasoning in world dynamics and uses reinforcement learning with world imagination, representing action thoughts as a Chain-of-Dynamics composed of discrete motion tokens. This approach allows unannotated human videos to provide direct supervision from observed state transitions alongside robot demonstrations.",
+   "impact": "This framework could help developers leverage unannotated human videos to improve robotic learning and generalization across unseen tasks and environments. Technology users and security teams may see more robust robotic manipulation capabilities through improved cross-embodiment reasoning.",
+   "keyPoints": [
+    "ThinkWorld is a VLA learning framework for robotic manipulation.",
+    "It represents action thoughts as a Chain-of-Dynamics, which is a sequence of discrete motion tokens.",
+    "The framework uses reinforcement learning with world imagination to reinforce predictions matching observed outcomes.",
+    "Experiments in simulation and on real robots showed effective human-to-robot transfer and generalization to unseen tasks."
+   ]
+  },
+  "km": {
+   "title": "ThinkWorld៖ ការស្រមើស្រមៃពិភពលោកពង្រឹងការសន្និដ្ឋានខ្សែសង្វាក់នៃសក្ដានុពល",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ ThinkWorld ដែលជាក្របខ័ណ្ឌរៀន Vision-Language-Action ត្រូវបានរចនាឡើងដើម្បីកែលម្អការទូទៅនៃការបញ្ជាមនុស្សយន្ត។ ក្របខ័ណ្ឌនេះមូលដ្ឋានការសន្និដ្ឋានសកម្មភាពនៅក្នុងសក្ដានុពលពិភពលោក និងពង្រឹងវាគ្ហភាពតាមរយៈការរៀនពង្រឹងជាមួយនឹងការស្រមើស្រមៃពិភពលោក។ វិធីសាស្រ្តនេះអនុញ្ញាតឱ្យវីដេអូមនុស្សដែលគ្មានស្លាកសញ្ញាផ្តល់ការត្រួតពិនិត្យផ្ទាល់ពីការផ្លាស់ប្តូរស្ថានភាពដែលបានសង្កេតឃើញ។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចជួយអ្នកអភិវឌ្ឍន៍ប្រើប្រាស់វីដេអូមនុស្សដែលគ្មានស្លាកសញ្ញាដើម្បីកែលម្អការរៀនរបស់មនុស្សយន្ត និងការទូទៅទូទាំងភារកិច្ច និងបរិស្ថានដែលមិនធ្លាប់ឃើញ។",
+   "keyPoints": [
+    "ThinkWorld គឺជាក្របខ័ណ្ឌរៀន VLA សម្រាប់ការបញ្ជាមនុស្សយន្ត។",
+    "វាបង្ហាញពីការគិតសកម្មភាពជាសង្វាក់នៃសក្ដានុពល។",
+    "ការពិសោធន៍ក្នុងពេលក្លែងធ្វើ និងលើមនុស្សយន្តពិតបានបង្ហាញពីការផ្ទេរពីមនុស្សទៅមនុស្សយន្តដែលមានប្រសិទ្ធភាព។"
+   ]
+  },
+  "zh-CN": {
+   "title": "ThinkWorld：世界想象力强化动态链推理",
+   "summary": "研究人员推出了 ThinkWorld，这是一个旨在提高机器人操作泛化能力的 Vision-Language-Action 学习框架。该框架将动作推理建立在世界动力学基础之上，并通过具有世界想象力的强化学习加以强化，将动作思想表示为由离散运动词元组成的动态链。这种方法使未加标签的人类视频能够从观察到的状态转换中提供直接监督。",
+   "impact": "该框架可以帮助开发人员利用未加标注的人类视频来改进机器人学习，并增强其在未见过任务和环境中的泛化能力。",
+   "keyPoints": [
+    "ThinkWorld 是一个用于机器人操作的 VLA 学习框架。",
+    "它将动作思考表示为由离散运动词元组成的动态链。",
+    "该框架利用带有世界想象力的强化学习来强化与观察结果相匹配的预测。",
+    "模拟和真实机器人实验证明了有效的人机迁移和泛化能力。"
+   ]
+  },
+  "ko": {
+   "title": "ThinkWorld: 월드 상상력이 동역학 체인 추론을 강화하다",
+   "summary": "연구원들은 로봇 조작 일반화 능력을 향상시키기 위해 설계된 Vision-Language-Action 학습 프레임워크인 ThinkWorld를 소개했습니다. 이 프레임워크는 행동 추론을 세계 동역학에 기반을 두고 월드 상상력을 활용한 강화 학습을 통해 이를 강화하며, 행동 생각을 이산 모션 토큰 시퀀스로 표현합니다. 이 접근 방식을 통해 주석이 없는 인간 비디오도 관찰된 상태 전이로부터 직접적인 감독을 제공할 수 있습니다.",
+   "impact": "이 프레임워크는 개발자가 주석이 없는 인간 비디오를 활용하여 로봇 학습을 개선하고 보지 못한 작업 및 환경에서의 일반화 능력을 높이는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "ThinkWorld는 로봇 조작을 위한 VLA 학습 프레임워크입니다.",
+    "행동 생각을 이산 모션 토큰의 시퀀스인 동역학 체인으로 표현합니다.",
+    "월드 상상력을 동반한 강화 학습을 사용하여 관찰된 결과와 일치하는 예측을 강화합니다.",
+    "시뮬레이션 및 실제 로봇 실험을 통해 효과적인 인간-로봇 간 전이와 일반화 성능을 입증했습니다."
+   ]
+  }
+ }
+}

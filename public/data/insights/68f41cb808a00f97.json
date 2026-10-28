@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "articleId": "68f41cb808a00f97",
+ "contentHash": "d4fe8af0b0dd0575",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:51:13.856Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "DataGear 6.1.1 Released, Data Visualization Analysis Platform",
+   "summary": "DataGear 6.1.1 has been released, bringing critical bug fixes and feature improvements. The update fixes a bug where chart plugin information on dashboard display pages failed to correctly sync with system plugin statuses. It also improves chart plugin management features.",
+   "impact": "Users and administrators of the DataGear platform may benefit from improved plugin management and fixed synchronization bugs on dashboard pages. These updates could provide a more reliable experience when uploading, downloading, and managing chart plugins.",
+   "keyPoints": [
+    "DataGear 6.1.1 includes critical bug fixes and feature improvements.",
+    "Fixed a bug where chart plugin info on dashboard display pages did not correctly sync with system plugin status.",
+    "Chart plugin management upload now supports multiple file selection with detailed success and failure status.",
+    "Downloading a single chart plugin now directly downloads the plugin package instead of an extra zip layer."
+   ]
+  },
+  "km": {
+   "title": "DataGear 6.1.1 ត្រូវ​បាន​ដាក់​ឱ្យ​ដំណើរការ ដែល​ជា​វេទិកា​វិភាគ​ការ​មើល​ឃើញ​ទិន្នន័យ",
+   "summary": "DataGear 6.1.1 ត្រូវ​បាន​ចេញ​ផ្សាយ ដោយ​នាំ​មក​នូវ​ការ​ជួសជុល​កំហុស​ធ្ងន់ធ្ងរ និង​ការ​កែលម្អ​មុខងារ។ ការ​អាប់ដេត​នេះ​បាន​ជួសជុល​កំហុស​ដែល​ព័ត៌មាន​កម្មវិធី​ជំនួយ​គំនូសតាង​នៅលើ​ទំព័រ​បង្ហាញ​ផ្ទាំងគ្រប់គ្រង​មិន​បាន​ធ្វើ​សមកាលកម្ម​ឱ្យ​បាន​ត្រឹមត្រូវ​ទេ។",
+   "impact": "អ្នក​ប្រើប្រាស់ និង​អ្នក​គ្រប់គ្រង​វេទិកា DataGear អាច​ទទួល​បាន​អត្ថប្រយោជន៍​ពី​ការ​កែលម្អ​ការ​គ្រប់គ្រង​កម្មវិធី​ជំនួយ និង​កំហុស​ដែល​បាន​ជួសជុល។",
+   "keyPoints": [
+    "DataGear 6.1.1 រួម​បញ្ចូល​ទាំង​ការ​ជួសជុល​កំហុស​ធ្ងន់ធ្ងរ និង​ការ​កែលម្អ​មុខងារ។",
+    "បាន​ជួសជុល​កំហុស​ទាក់ទង​នឹង​ព័ត៌មាន​កម្មវិធី​ជំនួយ​គំនូសតាង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "DataGear 6.1.1 发布，数据可视化分析平台",
+   "summary": "DataGear 6.1.1 发布，带来了严重缺陷修复和功能改进。此次更新修复了看板展示页面加载的图表插件信息未正确同步系统插件状态的缺陷。同时，图表插件管理功能也得到了多项改进。",
+   "impact": "平台用户和管理员可能会受益于更稳定的插件管理和修复后的看板同步问题。这些改进能够提升上传、下载和管理图表插件时的体验。",
+   "keyPoints": [
+    "DataGear 6.1.1 包含严重缺陷修复和功能改进。",
+    "修复了看板展示页面加载的图表插件信息未正确同步系统插件状态的 BUG。",
+    "图表插件管理上传功能支持多选文件并显示详细成功与否状态。",
+    "下载单个插件时直接下载插件包而非额外再包裹一层 zip 包。"
+   ]
+  },
+  "ko": {
+   "title": "DataGear 6.1.1 출시, 데이터 시각화 분석 플랫폼",
+   "summary": "DataGear 6.1.1이 출시되어 심각한 결함 수정 및 기능 개선을 제공합니다. 이번 업데이트는 대시보드 표시 페이지에 로드된 차트 플러그인 정보가 시스템 플러그인 상태와 올바르게 동기화되지 않던 버그를 수정했습니다.",
+   "impact": "DataGear 플랫폼의 사용자와 관리자는 개선된 플러그인 관리 기능과 수정된 버그의 혜택을 누릴 수 있습니다. 이러한 변경 사항은 플러그인 업로드 및 다운로드 시 더 나은 경험을 제공할 수 있습니다.",
+   "keyPoints": [
+    "DataGear 6.1.1은 심각한 결함 수정 및 기능 개선을 포함합니다.",
+    "대시보드 표시 페이지의 차트 플러그인 정보 동기화 버그가 수정되었습니다.",
+    "차트 플러그인 업로드 시 다중 파일 선택 및 상세 상태 표시를 지원합니다."
+   ]
+  }
+ }
+}

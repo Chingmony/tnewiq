@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4d7ec723f445c21a",
+ "contentHash": "d9020788520859a5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:53:09.341Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+   "summary": "Researchers introduced Heads of Security (HoS), a prompt injection defense using learned per-head attention gates to enforce instruction-data separation. Tested on Llama-3.3-70B-Instruct and GPT-OSS-20B, HoS helps models process untrusted content without following injected instructions. The defense was evaluated against SecAlign++ and ASIDE, showing superior robustness to adaptive attacks and better preservation of base-model utility.",
+   "impact": "Security teams and developers working with large language models could find that learned attention gates offer improved robustness against adaptive prompt injection attacks while maintaining utility. This approach may help models handle untrusted content more safely during tool use and agentic workflows.",
+   "keyPoints": [
+    "HoS uses a small set of learned per-head attention gates for instruction-data separation.",
+    "The black-box RL-Hammer attack reached a 10 percent ASR against HoS compared to 85 percent against SecAlign and 97 percent against GPT-OSS-20B.",
+    "HoS preserves base-model utility across standard multiple-choice benchmarks and prompting setups.",
+    "ASIDE achieved only 10 percent utility on agentic benchmarks with tool use."
+   ]
+  },
+  "km": {
+   "title": "ក្បាលសុវត្ថិភាព៖ ខ្លោងទ្វារយកចិត្តទុកដាក់ដែលបានរៀន កែលម្អភាពរឹងមាំនៃការចាក់បញ្ចូលបញ្ជា",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ Heads of Security (HoS) ដែលជាការការពារការចាក់បញ្ចូលបញ្ជាដោយប្រើខ្លោងទ្វារយកចិត្តទុកដាក់ក្នុងមួយក្បាល ដើម្បីบังคับការបំបែកទិន្នន័យបញ្ជា។ បានធ្វើតេស្តលើ Llama-3.3-70B-Instruct និង GPT-OSS-20B ការពារនេះជួយឱ្យម៉ូដែលដំណើរការមាតិកាមិនគួរឱ្យទុកចិត្តដោយមិនធ្វើតាមបញ្ជាដែលបានចាក់បញ្ចូល។ HoS បានបង្ហាញពីភាពរឹងមាំប្រសើរជាងមុនប្រឆាំងនឹងការវាយប្រហារសម្របខ្លួន និងរក្សាបាននូវអត្ថប្រយោជន៍របស់ម៉ូដែលមូលដ្ឋានផងដែរ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍ដែលធ្វើការជាមួយម៉ូដែលភាសាខ្នាតធំអាចយល់ថា ខ្លោងទ្វារយកចិត្តទុកដាក់ដែលបានរៀនផ្តល់នូវភាពរឹងមាំប្រសើរជាងមុនប្រឆាំងនឹងការវាយប្រហារដោយការចាក់បញ្ចូលបញ្ជា។ វិធីសាស្ត្រនេះអាចជួយឱ្យម៉ូដែលគ្រប់គ្រងមាតិកាមិនគួរឱ្យទុកចិត្តដោយសុវត្ថិភាពជាងមុន។",
+   "keyPoints": [
+    "HoS ប្រើប្រាស់ខ្លោងទ្វារយកចិត្តទុកដាក់ដែលបានរៀនចំនួនតិចតួចសម្រាប់ការបំបែកទិន្នន័យបញ្ជា។",
+    "ការវាយប្រហារ RL-Hammer ឈានដល់អត្រាជោគជ័យ ១០ភាគរយប្រឆាំងនឹង HoS។",
+    "HoS រក្សាអត្ថប្រយោជន៍ម៉ូដែលមូលដ្ឋានឆ្លងកាត់ការវាស់វែងស្តង់ដារ។",
+    "ASIDE សម្រេចបានអត្ថប្រយោជន៍ត្រឹមតែ ១០ភាគរយប៉ុណ្ណោះលើការវាស់វែងភ្នាក់ងារ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "安全头：学习型注意力门控机制提高提示词注入鲁棒性",
+   "summary": "研究人员推出了安全头（HoS），这是一种通过一组少量学习得到的每头注意力门控机制来实现指令数据分离的提示词注入防御方法。HoS在Llama-3.3-70B-Instruct和GPT-OSS-20B上进行了评估，使模型能够在不遵循注入指令的情况下对不受信任的内容进行推理。与SecAlign++和ASIDE等防御方法相比，HoS对自适应攻击表现出更强的鲁棒性，并在标准效用基准测试中保持了更好的性能。",
+   "impact": "使用大语言模型的安全团队和开发人员可能会发现，学习型注意力门控机制可以提高对自适应提示词注入攻击的鲁棒性，同时保持模型效用。这种方法可能有助于模型在工具使用和代理工作流程中更安全地处理不受信任的内容。",
+   "keyPoints": [
+    "HoS使用少量学习得到的每头注意力门控来实现指令数据分离。",
+    "黑盒RL-Hammer攻击对HoS的攻击成功率仅为10%，而对SecAlign为85%，对GPT-OSS-20B为97%。",
+    "HoS在标准多项选择基准测试和提示设置中保留了基模型的效用。",
+    "ASIDE在工具使用的代理基准测试中仅实现了10%的效用。"
+   ]
+  },
+  "ko": {
+   "title": "보안 헤드: 학습된 어텐션 게이트로 프롬프트 인젝션 견고성 향상",
+   "summary": "연구원들은 학습된 헤드별 어텐션 게이트를 통해 명령어와 데이터의 분리를 강제하는 프롬프트 인젝션 방어 기법인 Heads of Security(HoS)를 소개했다. Llama-3.3-70B-Instruct 및 GPT-OSS-20B에서 평가된 HoS는 모델이 주입된 명령어를 따르지 않고 신뢰할 수 없는 콘텐츠를 처리할 수 있도록 돕는다. HoS는 적응형 공격에 대한 더 나은 견고성과 표준 유틸리티 벤치마크에서의 우수한 성능을 보여주었다.",
+   "impact": "대형 언어 모델을 다루는 보안 팀과 개발자는 학습된 어텐션 게이트가 적응형 프롬프트 인젝션 공격에 대한 향상된 견고성을 제공하는 것을 확인할 수 있다. 이 접근 방식은 모델이 도구 사용 및 에이전트 워크플로우에서 신뢰할 수 없는 콘텐츠를 더 안전하게 처리하도록 도울 수 있다.",
+   "keyPoints": [
+    "HoS는 명령어와 데이터의 분리를 위해 소수의 학습된 헤드별 어텐션 게이트를 사용한다.",
+    "블랙박스 RL-Hammer 공격은 HoS에 대해 10퍼센트의 공격 성공률을 기록했다.",
+    "HoS는 표준 객관식 벤치마크 전반에서 기본 모델의 유틸리티를 유지한다.",
+    "ASIDE는 도구 사용이 포함된 에이전트 벤치마크에서 10퍼센트의 유틸리티만 달성했다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f8d62ee87e4a58d5",
+ "contentHash": "64bef1f0b356a523",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:55:22.514Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
+   "summary": "Researchers studied how memory compression affects LLM group decisions using CrossProfile, a diagnostic benchmark with 60 templates and 480 tasks. They evaluated models including Qwen2.5-7B, Llama-3.1-8B, and DeepSeek models on rare-first and relevance-based selection heuristics. The results show that both heuristics fail predictably, as relevance selection brings in decoys and rarest-first selection performs no better than random on average. Additionally, the decision model exhibits a social proof bias by favoring facts attributed to many agents, while complete transcripts yield lower accuracy than taking no notes at all.",
+   "impact": "These findings could matter to developers and researchers designing multi-agent LLM systems by highlighting flaws in memory compression and context management strategies. Security and technology teams may need to rethink how agents process historical transcripts and attribute information to avoid degraded decision-making accuracy.",
+   "keyPoints": [
+    "CrossProfile benchmark introduces 60 templates and 480 tasks to test LLM memory heuristics.",
+    "Relevance selection allows decoys to pass through because they remain on topic.",
+    "Rarest-first selection performs similarly to random selection on average.",
+    "Removing or randomly reassigning attribution tags increases accuracy in the classic configuration by 13 to 24 points."
+   ]
+  },
+  "km": {
+   "title": "កម្រ ពាក់ព័ន្ធ និងនៅតែខុស៖ វិធីដែលសតិបរាជ័យលើការសម្រេចចិត្តជាក្រុមរបស់ LLM",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាពីរបៀបដែលការបង្រួមសតិមានឥទ្ធិពលលើការសម្រេចចិត្តជាក្រុមរបស់ LLM ដោយប្រើប្រាស់ CrossProfile ដែលជាគោលដៅវិភាគមានគំរូ 60 និងកិច្ចការ 480។ ពួកគេបានវាយតម្លៃម៉ូដែលរួមមាន Qwen2.5-7B, Llama-3.1-8B និងម៉ូដែល DeepSeek លើក្បួនជ្រើសរើសយកចំណុចកម្រនិងចំណុចពាក់ព័ន្ធ។ លទ្ធផលបង្ហាញថាក្បួនទាំងពីរបរាជ័យក្នុងការទស្សន៍ទាយ ដោយសារការជ្រើសរើសភាពពាក់ព័ន្ធនាំមកនូវការបន្លំ ហើយការជ្រើសរើសភាពកម្រគឺមិនល្អជាងការចៃដន្យនោះទេ។ បន្ថែមពីនេះ ម៉ូដែលសម្រេចចិត្តបង្ហាញភាពលំអៀងនៃការគាំទ្រពីសង្គមដោយផ្តល់ទម្ងន់បន្ថែមដល់ការពិតដែលត្រូវបានចោទប្រកាន់ទៅលើភ្នាក់ងារច្រើន ចំណែកឯកំណត់ត្រាពេញលេញផ្តល់ភាពត្រឹមត្រូវទាបជាងការមិនយកកំណត់ត្រាសោះ។",
+   "impact": "ការរកឃើញទាំងនេះអាចមានសារៈសំខាន់ចំពោះអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវដែលរចនាញាំញីប្រព័ន្ធភ្នាក់ងារ LLM ច្រើន ដោយបង្ហាញពីកំហុសឆ្គងក្នុងការបង្រួមសតិ និងយុទ្ធសាស្ត្រគ្រប់គ្រងបរិបទ។ ក្រុមសុវត្ថិភាព និងបច្ចេកវិទ្យាអាចនឹងត្រូវគិតគូរឡើងវិញអំពីរបៀបដែលភ្នាក់ងារដំណើរការកំណត់ត្រាប្រវត្តិសាស្ត្រ និងកំណត់គុណលក្ខណៈព័ត៌មាន ដើម្បីជៀសវាងការថយចុះភាពត្រឹមត្រូវនៃការសម្រេចចិត្ត។",
+   "keyPoints": [
+    "គោលដៅវិភាគ CrossProfile ណែនាំគំរូ 60 និងកិច្ចការ 480 ដើម្បីសាកល្បងក្បួនសតិរបស់ LLM។",
+    "ការជ្រើសរើសភាពពាក់ព័ន្ធអនុញ្ញាតឱ្យវត្ថុបន្លំឆ្លងកាត់ព្រោះវាស្ថិតក្នុងប្រធានបទដដែល។",
+    "ការជ្រើសរើសភាពកម្រមានដំណើរការស្រដៀងនឹងការជ្រើសរើសចៃដន្យជាមធ្យម។",
+    "ការដកចេញ ឬការកំណត់ឡើងវិញដោយចៃដន្យនូវស្លាកគុណលក្ខណៈអាចបង្កើនភាពត្រឹមត្រូវនៅក្នុងកំណត់រចនាសម្ព័ន្ធបុរាណពី 13 ទៅ 24 ពិន្ទុ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "稀少、相关却依然错误：记忆如何导致LLM群组合决策失败",
+   "summary": "研究人员使用包含60个模板和480个任务的诊断基准CrossProfile，研究了记忆压缩如何影响LLM群体决策。他们评估了包括Qwen2.5-7B、Llama-3.1-8B以及两个DeepSeek模型在内的模型，测试了优先保留稀有声明或相关声明的启发式方法。结果表明，这两种启发式方法都在可预测的地方失败，相关性选择会重新引入诱饵，而稀有优先选择平均下来并不比随机选择更好。此外，决策模型表现出一种社会证明偏见，对归因于许多代理的事实给予额外权重，而完整的文字记录产生的准确性甚至不如不记笔记。",
+   "impact": "这些发现对于设计多智能体LLM系统的开发人员和研究人员可能很重要，凸显了记忆压缩和上下文管理策略中的缺陷。安全和技术团队可能需要重新思考代理如何处理历史记录并归因信息，以避免决策准确性下降。",
+   "keyPoints": [
+    "CrossProfile基准引入了60个模板和480个任务来测试LLM记忆启发式方法。",
+    "相关性选择会引入诱饵，因为诱饵仍然与主题相关。",
+    "稀有优先选择在平均情况下不优于随机选择。",
+    "在经典配置中，移除或随机重新分配归因标签可将准确率提升13到24个百分点。"
+   ]
+  },
+  "ko": {
+   "title": "희귀하고, 관련 있으며, 여전히 틀렸다: 기억이 LLM 그룹 의사결정에 실패하는 방식",
+   "summary": "연구원들은 60개의 템플릿과 480개의 태스크를 갖춘 진단 벤치마크인 CrossProfile을 사용하여 기억 압축이 LLM 그룹 의사결정에 미치는 영향을 연구했습니다. Qwen2.5-7B, Llama-3.1-8B 및 두 개의 DeepSeek 모델을 포함한 모델들을 평가하여 가장 희귀한 주장이나 관련 주장을 유지하는 휴리스틱을 테스트했습니다. 결과에 따르면 두 휴리스틱 모두 예측 가능한 곳에서 실패하며, 관련성 선택은 미끼를 다시 끌어들이고 희귀성 우선 선택은 평균적으로 무작위 선택보다 낫지 않습니다. 또한 의사결정 모델은 많은 에이전트에게 귀속된 사실에 추가 가중치를 부여하는 사회적 증거 편향을 보이며, 전체 대화 기록은 메모를 전혀 하지 않는 것보다 더 낮은 정확도를 나타냅니다.",
+   "impact": "이러한 발견은 다중 에이전트 LLM 시스템을 설계하는 개발자와 연구원들에게 중요할 수 있으며, 기억 압축 및 컨텍스트 관리 전략의 결함을 강조합니다. 보안 및 기술 팀은 의사결정 정확도 저하를 피하기 위해 에이전트가 과거 기록을 처리하고 정보를 귀속시키는 방식을 재고해야 할 수 있습니다.",
+   "keyPoints": [
+    "CrossProfile 벤치마크는 LLM 기억 휴리스틱을 테스트하기 위해 60개의 템플릿과 480개의 태스크를 도입합니다.",
+    "관련성 선택은 미끼가 주제에 맞기 때문에 미끼를 통과시킵니다.",
+    "희귀성 우선 선택은 평균적으로 무작위 선택과 다를 바가 없습니다.",
+    "귀속 태그를 제거하거나 무작위로 재할당하면 고전적 구성에서 정확도가 13에서 24포인트 상승합니다."
+   ]
+  }
+ }
+}

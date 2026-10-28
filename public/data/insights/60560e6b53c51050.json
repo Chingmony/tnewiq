@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "60560e6b53c51050",
+ "contentHash": "2eb48414a2195bcc",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:52:15.706Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon ECS now supports GPU sharing with NVIDIA Multi-Process Service (MPS)",
+   "summary": "Amazon Elastic Container Service (Amazon ECS) now supports GPU sharing with NVIDIA Multi-Process Service (MPS). This enables running multiple Amazon ECS tasks concurrently on a single NVIDIA GPU on Amazon ECS Managed Instances and Amazon ECS on Amazon EC2. Users can define required GPU memory and optionally set maximum compute shares to increase utilization.",
+   "impact": "Developers and infrastructure teams could improve GPU utilization and reduce infrastructure costs for workloads that do not require an entire GPU. The automated monitoring and replacement of unhealthy MPS control daemons on Managed Instances may also reduce the need for manual intervention.",
+   "keyPoints": [
+    "Amazon ECS now supports GPU sharing via NVIDIA Multi-Process Service (MPS).",
+    "Multiple ECS tasks can run concurrently on a single NVIDIA GPU.",
+    "Users define container GPU memory needs and can set a maximum compute share.",
+    "Supported on Amazon ECS Managed Instances and Amazon ECS on Amazon EC2 across all commercial and AWS GovCloud (US) Regions."
+   ]
+  },
+  "km": {
+   "title": "Amazon ECS ឥឡូវនេះគាំទ្រការចែករំលែក GPU ជាមួយ NVIDIA Multi-Process Service (MPS)",
+   "summary": "Amazon Elastic Container Service (Amazon ECS) ឥឡូវនេះគាំទ្រការចែករំលែក GPU ជាមួយ NVIDIA Multi-Process Service (MPS) ដែលអនុញ្ញាតឱ្យដំណើរការកិច្ចការ Amazon ECS ច្រើនក្នុងពេលដំណាលគ្នាលើ GPU តែមួយ។ វាជួយបង្កើនការប្រើប្រាស់ GPU និងកាត់បន្ថយការចំណាយលើហេដ្ឋារចនាសម្ព័ន្ធសម្រាប់បន្ទុកការងារដែលប្រើប្រាស់សមត្ថភាព GPU ត្រឹមតែមួយផ្នែកប៉ុណ្ណោះ។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យាអាចបង្កើនប្រសិទ្ធភាពនៃការប្រើប្រាស់ GPU និងកាត់បន្ថយការចំណាយលើហេដ្ឋារចនាសម្ព័ន្ធសម្រាប់បន្ទុកការងារតូចៗ។ មុខងារត្រួតពិនិត្យស្វ័យប្រវត្តិក៏អាចជួយកាត់បន្ថយតម្រូវការសម្រាប់ការអន្តរាគមន៍ដោយដៃផងដែរ។",
+   "keyPoints": [
+    "Amazon ECS គាំទ្រការចែករំលែក GPU ជាមួយ NVIDIA MPS។",
+    "អាចដំណើរការកិច្ចការ Amazon ECS ច្រើនក្នុងពេលដំណាលគ្នាលើ GPU តែមួយ។",
+    "គាំទ្រនៅលើ Amazon ECS Managed Instances និង Amazon ECS on Amazon EC2។",
+    "មានលក់ក្នុងតំបន់ពាណិជ្ជកម្ម AWS និង AWS GovCloud (US) ទាំងអស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon ECS 现已支持使用 NVIDIA Multi-Process Service (MPS) 进行 GPU 共享",
+   "summary": "Amazon Elastic Container Service (Amazon ECS) 现已支持通过 NVIDIA Multi-Process Service (MPS) 进行 GPU 共享，允许在单个 NVIDIA GPU 上同时运行多个 Amazon ECS 任务。GPU 共享有助于提高 GPU 利用率，并降低仅使用部分 GPU 容量的工作负载的基础设施成本。用户可以在任务定义中定义容器所需的 GPU 内存，并可选择设置 GPU 计算的最大份额。",
+   "impact": "开发人员和安全或基础设施团队可以利用此功能提高部分利用率工作负载的 GPU 使用效率，并降低基础设施成本。托管实例上的自动守护进程监控有助于在服务出现故障时自动替换实例，从而减少手动干预。",
+   "keyPoints": [
+    "Amazon ECS 支持通过 NVIDIA MPS 进行 GPU 共享。",
+    "允许在单个 NVIDIA GPU 上并发运行多个 ECS 任务。",
+    "支持 Amazon ECS Managed Instances 以及 Amazon ECS on Amazon EC2。",
+    "适用于所有商业 AWS 区域和 AWS GovCloud (US) 区域。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon ECS, NVIDIA Multi-Process Service (MPS)를 통한 GPU 공유 지원",
+   "summary": "Amazon Elastic Container Service(Amazon ECS)가 NVIDIA Multi-Process Service(MPS)를 통한 GPU 공유를 지원하여, 단일 NVIDIA GPU에서 여러 Amazon ECS 태스크를 동시에 실행할 수 있게 되었습니다. GPU 공유를 통해 GPU 용량의 일부만 사용하는 워크로드의 GPU 활용률을 높이고 인프라 비용을 절감할 수 있습니다. 사용자는 컨테이너에 필요한 GPU 메모리를 정의하고 선택적으로 최대 컴퓨팅 공유 비율을 설정할 수 있습니다.",
+   "impact": "개발자와 인프라 팀은 일부 용량만 사용하는 워크로드에서 GPU 활용도를 높이고 인프라 비용을 절감할 수 있습니다. 또한 관리형 인스턴스에서 비정상적인 MPS 제어 데몬을 자동으로 감지하고 교체하므로 수동 개입의 필요성이 줄어들 수 있습니다.",
+   "keyPoints": [
+    "Amazon ECS는 NVIDIA MPS를 이용한 GPU 공유를 지원합니다.",
+    "단일 NVIDIA GPU에서 여러 ECS 태스크를 동시 실행할 수 있습니다.",
+    "Amazon ECS Managed Instances 및 Amazon ECS on Amazon EC2에서 지원됩니다.",
+    "모든 AWS 상용 리전 및 AWS GovCloud (US) 리전에서 이용 가능합니다."
+   ]
+  }
+ }
+}

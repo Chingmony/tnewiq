@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "056689f0a3fe3a58",
+ "contentHash": "bf05f905ba98ab8d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:54:47.627Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Metacognitive Decoding: Efficient Inference for Diffusion Language Agents",
+   "summary": "Researchers introduced a metacognitive controller designed to guide diffusion generation for language agents based on current response needs and environment interaction. This lightweight plug-in learns when to finalize tokens and determines the extension of generation, reducing overall computation. Experiments across five benchmarks show that the approach reduces inference FLOPs by 20.6% on average compared to the most efficient baseline while maintaining competitive task accuracy.",
+   "impact": "This approach could help developers and technology users optimize diffusion language agents by lowering inference computation costs while preserving task accuracy.",
+   "keyPoints": [
+    "Introduces a metacognitive controller for diffusion language agents to manage computation and text generation.",
+    "The plug-in is trained on agent trajectories to balance correctness and generation cost.",
+    "Reduces inference FLOPs by 20.6% on average compared with the most efficient baseline."
+   ]
+  },
+  "km": {
+   "title": "ការឌិកូដមេតាកក់និទីវ៖ ការសន្និដ្ឋានប្រកបដោយប្រសិទ្ធភាពសម្រាប់ភ្នាក់ងារភាសា Diffusion",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំឧបករណ៍បញ្ជាមេតាកក់និទីវមួយ ដែលត្រូវបានរចនាឡើងដើម្បីណែនាំការបង្កើត diffusion សម្រាប់ភ្នាក់ងារភាសា ដោយផ្អែកលើតម្រូវការឆ្លើយតបបច្ចុប្បន្ន និងអន្តរកម្មបរិស្ថាន។ កម្មវិធីជំនួយទម្ងន់ស្រាលនេះរៀនពីពេលដែលត្រូវបញ្ចប់ថូខឹន និងកំណត់ការពង្រីកនៃការបង្កើត ដោយកាត់បន្ថយការគណនាជារួម។ ការពិសោធន៍លើលក្ខណៈវិនិច្ឆ័យចំនួនប្រាំបានបង្ហាញថាវិធីសាស្ត្រនេះកាត់បន្ថយ FLOPs ការសន្និដ្ឋានចំនួន 20.6% ជាមធ្យម។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការបង្កើនប្រសិទ្ធភាពភ្នាក់ងារភាសា diffusion ដោយកាត់បន្ថយការចំណាយលើការគណនា។",
+   "keyPoints": [
+    "បានណែនាំឧបករណ៍បញ្ជាមេតាកក់និទីវសម្រាប់ភ្នាក់ងារភាសា diffusion ។",
+    "កម្មវិធីជំនួយត្រូវបានបណ្តុះបណ្តាលលើគន្លងភ្នាក់ងារដើម្បីធ្វើឱ្យមានតុល្យភាពរវាងភាពត្រឹមត្រូវ និងថ្លៃដើមនៃការបង្កើត។",
+    "កាត់បន្ថយ FLOPs ការសន្និដ្ឋានចំនួន 20.6% ជាមធ្យមបើធៀបនឹងមូលដ្ឋានគ្រឹះដែលមានប្រសិទ្ធភាពបំផុត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "元认知解码：Diffusion 语言智能体的高效推理",
+   "summary": "研究人员引入了一种元认知控制器，根据当前响应的需求和智能体与环境的交互来引导 diffusion 生成。该轻量级插件可以学习何时最终确定 token 以及生成应延伸多远，从而减少响应中的整体计算量。五个基准测试的实验表明，与最高效的基准相比，该方法在保持具有竞争力的任务准确性的同时，将推理 FLOPs 平均减少了 20.6%。",
+   "impact": "该方法可能帮助开发人员和技术用户降低 diffusion 语言智能体的推理计算成本，同时保持任务准确性。",
+   "keyPoints": [
+    "引入了用于 diffusion 语言智能体的元认知控制器以指导计算和文本生成。",
+    "该插件在智能体轨迹上进行训练，以平衡正确性和生成成本。",
+    "与最高效的基准相比，平均减少了 20.6% 的推理 FLOPs。"
+   ]
+  },
+  "ko": {
+   "title": "메타인지 디코딩: Diffusion 언어 에이전트를 위한 효율적인 추론",
+   "summary": "연구진은 현재 응답의 필요성과 환경과의 상호작용에 따라 diffusion 생성을 안내하도록 설계된 메타인지 컨트롤러를 도입했습니다. 이 경량 플러그인은 토큰을 확정할 시기와 생성 범위를 학습하여 전체 연산량을 줄여줍니다. 5개의 벤치마크 실험에 따르면 이 접근 방식은 가장 효율적인 베이스라인 대비 경쟁력 있는 태스크 정확도를 유지하면서 추론 FLOP을 평균 20.6% 줄였습니다.",
+   "impact": "이 접근 방식은 개발자와 기술 사용자에게 태스크 정확도를 유지하면서 diffusion 언어 에이전트의 추론 연산 비용을 절감하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "연산과 텍스트 생성을 관리하는 diffusion 언어 에이전트용 메타인지 컨트롤러 도입.",
+    "정확성과 생성 비용의 균형을 맞추기 위해 에이전트 궤적을 기반으로 학습된 플러그인.",
+    "가장 효율적인 베이스라인에 비해 추론 FLOP을 평균 20.6% 감소."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3675fcb155541f2a",
+ "contentHash": "c66f8c52538066b1",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:52:58.432Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "When Should We Intervene at Test Time?",
+   "summary": "Researchers introduce PORTAL, a controller that decides when to deploy an intervention, which inputs to label, and when to stop querying during test-time adaptation. PORTAL evaluates candidate prediction rules using shared comparisons and directs queries toward candidates that can overtake the current leader. The controller stops when remaining labels cannot change the choice or when accuracy gains no longer justify further queries. This mechanism prevents severe failures caused by changing arrival order and preserves gains across corruption streams.",
+   "impact": "This approach could help developers and security teams safely deploy adaptive models by preventing accuracy drops caused by inappropriate interventions. It may improve reliability when models encounter corrupted inputs or changing operating conditions.",
+   "keyPoints": [
+    "PORTAL is a controller that decides when to deploy interventions and acquire labels during test-time adaptation.",
+    "It evaluates candidates using shared comparisons and stops when further queries are unjustified.",
+    "Experiments show the method turns overall accuracy losses into useful choices on selected batches.",
+    "Acquired labels also help train stronger candidates for future batches."
+   ]
+  },
+  "km": {
+   "title": "តើពេលណាដែលយើងគួរអន្តរាគមន៍នៅពេលធ្វើតេស្ត?",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ PORTAL ដែលជាឧបករណ៍បញ្ជាសម្រេចចិត្តថាពេលណត្រូវដាក់ពង្រាយអន្តរាគមន៍ ធាតុចូលណាម្នាក់ត្រូវដាក់ស្លាក និងពេលណាត្រូវបញ្ឈប់ការស្នើសុំក្នុងអំឡុងពេលសម្របខ្លួនពេលធ្វើតេស្ត។ PORTAL វាយតម្លៃច្បាប់ព្យាករណ៍បេក្ខជនដោយប្រើប្រាស់ការប្រៀបធៀបរួមគ្នា និងដឹកនាំការសាកសួរទៅកាន់បេក្ខជនដែលអាចវ៉ាដាច់អ្នកដឹកនាំបច្ចុប្បន្ន។ ឧបករណ៍បញ្ជានេះឈប់នៅពេលដែលស្លាកដែលនៅសល់មិនអាចផ្លាស់ប្តូរជម្រើស ឬនៅពេលដែលការទទួលបានភាពត្រឹមត្រូវលែងមានភាពត្រឹមត្រូវសម្រាប់ការសាកសួរួមទៀត។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខដាក់ពង្រាយម៉ូដែលសម្របខ្លួនដោយសុវត្ថិភាពដោយការពារការធ្លាក់ចុះភាពត្រឹមត្រូវដែលបណ្តាលមកពីអន្តរាគមន៍មិនសមស្រប។ វាអាចបង្កើនភាពជឿជាក់នៅពេលដែលម៉ូដែលជួបប្រទះធាតុចូលខូចខាត ឬលក្ខខណ្ឌប្រតិបត្តិការផ្លាស់ប្តូរ។",
+   "keyPoints": [
+    "PORTAL គឺជាឧបករណ៍បញ្ជាដែលសម្រេចចិត្តពេលណាត្រូវដាក់ពង្រាយអន្តរាគមន៍ និងទទួលបានស្លាក។",
+    "វាវាយតម្លៃបេក្ខជនដោយប្រើប្រាស់ការប្រៀបធៀបរួមគ្នា និងឈប់នៅពេលសំណួរបន្ថែមមិនសមហេតុផល។",
+    "ការពិសោធន៍បង្ហាញថាវិធីសាស្ត្រនេះប្រែក្លាយការបាត់បង់ភាពត្រឹមត្រូវទៅជាជម្រើសដែលមានប្រយោជន៍។",
+    "ស្លាកដែលទទួលបានក៏ជួយបណ្តុះបណ្តាលបេក្ខជនដែលមានឥទ្ធិពលខ្លាំងជាងមុនសម្រាប់បណ្តុំពេលអនាគតផងដែរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "我们应在测试时进行干预吗？",
+   "summary": "研究人员推出了 PORTAL，这是一个在测试时自适应过程中决定何时部署干预、对哪些输入进行标记以及何时停止查询的控制器。PORTAL 使用共享比较评估候选预测规则，并将查询引导至仍能超越当前领先者的候选者。当剩余标签无法改变选择或可能的准确率增益不再证明下一次查询合理时，控制器就会停止。该机制可防止因到达顺序变化而导致的严重故障，并保留整个损坏流中的增益。",
+   "impact": "这种方法可以帮助开发人员和安全团队安全地部署自适应模型，防止由于不当干预导致准确率下降。当模型遇到损坏的输入或不断变化的运行条件时，它可能会提高可靠性。",
+   "keyPoints": [
+    "PORTAL 是一个在测试自适应期间决定何时部署干预和获取标签的控制器。",
+    "它使用共享比较评估候选者，并在进一步查询不合理时停止。",
+    "实验表明，该方法将整体准确率损失转化为对选定批次的有用选择。",
+    "获得的标签还有助于为未来的批次训练更强的候选者。"
+   ]
+  },
+  "ko": {
+   "title": "테스트 시점에 개입해야 하는 시기는 언제인가?",
+   "summary": "연구진은 테스트 시점 적응 과정에서 개입을 배포하고, 어떤 입력에 라벨을 지정하며, 언제 질의를 중단할지 결정하는 제어기인 PORTAL을 소개합니다. PORTAL은 공유 비교를 사용하여 후보 예측 규칙을 평가하고 현재 선두를 추월할 수 있는 후보에게 질의를 유도합니다. 남은 라벨이 선택을 변경할 수 없거나 가능한 정확도 향상이 추가 질의를 정당화하지 못할 때 제어기는 중지합니다.",
+   "impact": "이 접근 방식은 부적절한 개입으로 인한 정확도 저하를 방지함으로써 개발자와 보안 팀이 적응형 모델을 안전하게 배포하는 데 도움을 줄 수 있습니다. 모델이 손상된 입력이나 변경되는 운영 환경에 직면할 때 신뢰성을 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "PORTAL은 테스트 시점 적응 중에 개입 배포 시기와 라벨 획득 시기를 결정하는 제어기입니다.",
+    "공유 비교를 사용하여 후보를 평가하고 추가 질의가 불필요할 때 중단합니다.",
+    "실험에 따르면 이 방법은 전체적인 정확도 손실을 선택된 배치에 대한 유용한 선택으로 전환합니다.",
+    "획득한 라벨은 향후 배치를 위한 더 강력한 후보를 훈련하는 데도 도움이 됩니다."
+   ]
+  }
+ }
+}

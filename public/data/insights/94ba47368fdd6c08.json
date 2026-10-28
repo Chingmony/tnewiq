@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "94ba47368fdd6c08",
+ "contentHash": "69af0e32da04950e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:54:58.631Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Classical Verification of Quantum Computation Beyond the Polynomial Hierarchy",
+   "summary": "Researchers have demonstrated that a classical polynomial-time verifier can verify arbitrary polynomial-time quantum computations with an efficient quantum honest prover relative to a classical oracle. This verification applies to a language beyond the polynomial hierarchy decided exactly in quantum polynomial time. The developed protocol is public-coin with perfect completeness and a soundness error of at most 1/4. Furthermore, a new switching theorem for correlated restrictions was proved to address the limitations of Håstad's switching lemma in this context.",
+   "impact": "This research could provide new theoretical insights for security teams and researchers studying quantum complexity and verification limits. The findings establish that certain quantum verification tasks are possible beyond standard complexity hierarchies relative to an oracle.",
+   "keyPoints": [
+    "Verification is shown to be possible relative to a classical oracle for a language beyond the polynomial hierarchy.",
+    "The protocol features public coins, perfect completeness, and a soundness error of at most 1/4.",
+    "A switching theorem was proved for recursive restrictions where standard switching lemmas do not apply."
+   ]
+  },
+  "km": {
+   "title": "ការផ្ទៀងផ្ទាត់បុរាណនៃការគណនាខ្វាន់តាំលើសពីឋានានុក្រមពហុធា",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្ហាញថាអ្នកផ្ទៀងផ្ទាត់ពេលវេលាពហុធាបុរាណអាចផ្ទៀងផ្ទាត់ការគណនាខ្វាន់តាំពេលវេលាពហុធាណាមួយជាមួយអ្នកបញ្ជាក់សុចរិតខ្វាន់តាំដែលមានប្រសិទ្ធភាពធៀបនឹងអរ៉ាកលបុរាណ។ ការផ្ទៀងផ្ទាត់នេះអនុវត្តចំពោះភាសាដែលហួសពីឋានានុក្រមពហុធាដែលត្រូវបានសម្រេចយ៉ាងពិតប្រាកដក្នុងពេលពហុធាខ្វាន់តាំ។ពិធីការនេះគឺជាកាក់សាធារណៈដែលមានភាពពេញលេញល្អឥតខ្ចោះ និងកំហុសត្រឹមត្រូវយ៉ាងច្រើនបំផុត 1/4។ លើសពីនេះ ទ្រឹស្តីបទប្តូរថ្មីមួយត្រូវបានបង្ហាញសម្រាប់កម្រិតកំណត់ដែលទាក់ទងគ្នា។",
+   "impact": "ការស្រាវជ្រាវនេះអាចផ្តល់នូវការយល់ដឹងទ្រឹស្តីថ្មីសម្រាប់ក្រុមសុវត្ថិភាព និងអ្នកស្រាវជ្រាវដែលសិក្សាពីភាពស្មុគស្មាញនៃខ្វាន់តាំ និងដែនកំណត់នៃការផ្ទៀងផ្ទាត់។ លទ្ធផលទាំងនេះបញ្ជាក់ថា កិច្ចការផ្ទៀងផ្ទាត់ខ្វាន់តាំជាក់លាក់អាចធ្វើទៅបានលើសពីឋានានុក្រមភាពស្មុគស្មាញស្តង់ដារធៀបនឹងអរ៉ាកល។",
+   "keyPoints": [
+    "ការផ្ទៀងផ្ទាត់ត្រូវបានបង្ហាញថាអាចធ្វើទៅបានធៀបនឹងអរ៉ាកលបុរាណសម្រាប់ភាសាដែលហួសពីឋានានុក្រមពហុធា។",
+    "ពិធីការមានកាក់សាធារណៈ ភាពពេញលេញល្អឥតខ្ចោះ និងកំហុសត្រឹមត្រូវយ៉ាងច្រើនបំផុត 1/4។",
+    "ទ្រឹស្តីបទប្តូរមួយត្រូវបានបង្ហាញសម្រាប់កម្រិតកំណត់ដែលកម្រិតស្តង់ដារមិនអាចអនុវត្តបាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "超越多项式层级的量子计算经典验证",
+   "summary": "研究人员证明，相对于经典预言机，经典的的多项式时间验证机能够通过高效的量子诚实证明者验证任意的多项式时间量子计算。这种验证适用于超越多项式层级且在量子多项式时间内精确决定的语言。该协议是公开硬币的，具有完美完整性和至多 1/4 的可靠性误差。此外，针对这种受限制的情况证明了一个新的交换定理。",
+   "impact": "这项研究可能会为研究量子复杂性和验证限制的安全团队和研究人员提供新的理论见解。这些发现表明，相对于预言机，某些量子验证任务可以在标准复杂性层级之外实现。",
+   "keyPoints": [
+    "证明了相对于经典预言机，可以对超越多项式层级的语言进行验证。",
+    "该协议具有公开硬币、完美完整性以及至多 1/4 的可靠性误差。",
+    "针对标准切换引理不适用的递归限制证明了切换定理。"
+   ]
+  },
+  "ko": {
+   "title": "다항식 계층을 넘어선 양자 계산의 고전적 검증",
+   "summary": "연구원들은 고전적 오라클과 관련하여 고전적 다항식 시간 검증자가 효율적인 양자 정직 증명자와 함께 임의의 다항식 시간 양자 계산을 검증할 수 있음을 입증했습니다. 이 검증은 양자 다항식 시간에 정확히 결정되는 다항식 계층을 넘어서는 언어에 적용됩니다. 이 프로토콜은 퍼블릭 코인 방식이며 완전한 완전성과 최대 1/4의 건전성 오류를 가집니다. 또한, 기존의 스위칭 보조정리가 적용되지 않는 상황을 위해 새로운 스위칭 정리가 증명되었습니다.",
+   "impact": "이번 연구는 양자 복잡성과 검증 한계를 연구하는 보안 팀과 연구원들에게 새로운 이론적 통찰력을 제공할 수 있습니다. 이러한 결과는 오라클과 관련하여 특정 양자 검증 작업이 표준 복잡성 계층을 넘어 가능함을 보여줍니다.",
+   "keyPoints": [
+    "다항식 계층을 넘어선 언어에 대해 고전적 오라클과 관련하여 검증이 가능함이 증명되었습니다.",
+    "프로토콜은 퍼블릭 코인, 완전한 완전성, 최대 1/4의 건전성 오류를 특징으로 합니다.",
+    "표준 스위칭 보조정리가 적용되지 않는 재귀적 제약에 대한 스위칭 정리가 증명되었습니다."
+   ]
+  }
+ }
+}

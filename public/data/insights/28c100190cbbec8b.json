@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "28c100190cbbec8b",
+ "contentHash": "7678d80afee415eb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:53:31.176Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry",
+   "summary": "Researchers introduce KPPax, a kinetic preprocessor that translates mechanisms written in the Kinetic PreProcessor (KPP) language into differentiable, just-in-time compiled, and vectorisable chemistry code in JAX. KPPax evaluates rate laws in log space using sparse operations and integrates stiff systems via the diffrax library to provide exact sensitivities without hand-derived adjoint code. Demonstrations using the POLLU benchmark mechanism show applications in parameter identification and hybrid physics-machine-learning modelling.",
+   "impact": "This tool could allow developers and researchers to integrate traditional KPP atmospheric chemical mechanisms directly into modern differentiable programming and machine-learning frameworks. Security teams and technology users may benefit from improved parameter estimation and hybrid modeling capabilities, such as reduced emission inventory errors.",
+   "keyPoints": [
+    "KPPax generates JAX-compatible code from KPP language mechanisms.",
+    "It uses log-space sparse operations and the diffrax library for exact sensitivities.",
+    "Tested on the POLLU benchmark mechanism for parameter identification and neural-network correction."
+   ]
+  },
+  "km": {
+   "title": "KPPax៖ ការរៀបចំទុកមុននូវ kinetic ODE ដែលអាចឌីផេរ៉ង់ស្យែលបានសម្រាប់ការរៀនម៉ាស៊ីនក្នុងគីមីសាស្ត្របរិយាកាស",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ KPPax ដែលជាឧបករណ៍រៀបចំទុកមុន kinetic ដែលបំប្លែងយន្តការពីភាសា KPP ទៅជាកូដគីមី JAX ដែលអាចឌីផេរ៉ង់ស្យែលបាន បង្កើតឡើងទាន់ពេល និងអាចធ្វើជាវ៉ិចទ័របាន។ KPPax វាយតម្លៃច្បាប់អត្រាក្នុងលំហឡុកដោយប្រើប្រាស់ប្រតិបត្តិការស្ដើង និងរួមបញ្ចូលប្រព័ន្ធរឹងតាមរយៈបណ្ណាល័យ diffrax។ វាត្រូវបានបង្ហាញតាមរយៈកម្មវិធីពីរដោយប្រើប្រាស់យន្តការគោលដៅ POLLU។",
+   "impact": "ឧបករណ៍នេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍រួមបញ្ចូលយន្តការគីមីបរិយាកាស KPP ទៅក្នុងក្របខណ្ឌរៀនម៉ាស៊ីន និងការសរសេរកម្មវិធីដែលអាចឌីផេរ៉ង់ស្យែលបាន។ ក្រុមការងារអាចទទួលបានអត្ថប្រយោជន៍ពីការប៉ាន់ស្មានប៉ារ៉ាម៉ែត្រប្រសើរជាងមុន និងការបង្កើតគំរូបែបកូនកាត់។",
+   "keyPoints": [
+    "KPPax បង្កើតកូដដែលឆបគ្នាជាមួយ JAX ពីយន្តការភាសា KPP។",
+    "វាប្រើប្រាស់ប្រតិបត្តិការស្ដើងក្នុងលំហឡុក និងបណ្ណាល័យ diffrax។",
+    "បានបង្ហាញពីការអនុវត្តលើយន្តការគោលដៅ POLLU សម្រាប់ការកំណត់ប៉ារ៉ាម៉ែត្រ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "KPPax：用于的大气化学机器学习的可微分动力学 ODE 预处理器",
+   "summary": "研究人员推出了 KPPax，这是一个动力学预处理器，可将用 KPP 语言编写的机制生成为 JAX 中可微分、即时编译且可向量化的化学代码。KPPax 在对数空间中使用稀疏运算评估速率定律，并通过 diffrax 库集成刚性系统以获得精确灵敏度。通过 POLLU 基准机制演示了其在参数估计和混合物理机器学习建模中的两项应用。",
+   "impact": "该工具可能使开发人员能够将传统的 KPP 大气化学机制直接集成到现代可微分编程和机器学习框架中。技术用户和研究人员可以从改进的参数估计和减少的排放清单误差中受益。",
+   "keyPoints": [
+    "KPPax 从 KPP 语言机制生成与 JAX 兼容的代码。",
+    "它在对数空间中使用稀疏运算和 diffrax 库来获得精确灵敏度。",
+    "在 POLLU 基准机制上进行了参数识别和神经网络修正的演示。"
+   ]
+  },
+  "ko": {
+   "title": "KPPax: 대기 화학 머신러닝을 위한 미분 가능한 동역학 ODE 전처리",
+   "summary": "연구진은 Kinetic PreProcessor (KPP) 언어로 작성된 메커니즘을 JAX의 미분 가능하고 적시 컴파일되며 벡터화 가능한 화학 코드로 생성하는 동역학 전처리 도구인 KPPax를 소개합니다. KPPax는 로그 공간에서 희소 연산을 사용하여 속도 법칙을 평가하고 diffrax 라이브러리를 통해 강성 시스템을 통합하여 수동 유도 조인트 코드 없이 정확한 민감도를 얻습니다. POLLU 벤치마크 메커니즘을 사용한 두 가지 응용 프로그램이 시연되었습니다.",
+   "impact": "이 도구를 통해 개발자와 연구원은 기존 KPP 대기 화학 메커니즘을 최신 미분 가능한 프로그래밍 및 머신러닝 프레임워크에 직접 통합할 수 있습니다. 향상된 파라미터 추정 및 하이브리드 모델링 기능을 통해 기술 사용자에게 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "KPPax는 KPP 언어 메커니즘에서 JAX 호환 코드를 생성합니다.",
+    "로그 공간 희소 연산과 diffrax 라이브러리를 사용하여 정확한 민감도를 제공합니다.",
+    "POLLU 벤치마크 메커니즘을 통해 파라미터 식별 및 신경망 보정에 적용되었습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9580edeac518e201",
+ "contentHash": "352f48cc8a06f821",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:54:26.577Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control",
+   "summary": "Researchers have introduced MuonGS, a new optimizer design for language model pretraining that uses Gram-Schmidt projection to remove the radial component of each Muon update without fixing the weight norm. This approach allows the weight norm to grow at most proportionally to the square root of $t$ after $t$ steps, guaranteeing sustained accumulation and a stationarity guarantee for smooth scale-invariant objectives. In experiments with dense and mixture-of-experts models, MuonGS achieved lower validation perplexity than MuonH at long training horizons and provided a token-equivalent speedup of up to about 15% for dense models at matched validation loss.",
+   "impact": "This research could help developers and researchers design more efficient optimizers for large language model pretraining. The proposed MuonGS method may offer improved training speeds and better validation perplexity compared to existing variants like MuonH.",
+   "keyPoints": [
+    "MuonGS uses Gram-Schmidt projection to remove the radial component of each Muon update.",
+    "The method guarantees $C_T = \\Omega(\\sqrt{T})$ accumulation, sustaining it even in later training.",
+    "MuonGS achieved lower validation perplexity than MuonH in pretraining experiments with 160M-, 400M-, and MoE models."
+   ]
+  },
+  "km": {
+   "title": "MuonGS៖ ការបណ្តុះបណ្តាលមុនរបស់ LLMs ជាមួយការគ្រប់គ្រងទម្ងន់ទំហំសម្រាក",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ MuonGS ដែលជាការរចនាអុបទិមាយថ្មីមួយសម្រាប់ការបណ្តុះបណ្តាលមុនរបស់ម៉ូដែលភាសា ដោយប្រើការព្យាករ Gram-Schmidt ដើម្បីដកចេញសមាសធាតុរ៉ាឌីយ៉ាល់នៃរាល់បច្ចុប្បន្នភាព Muon ដោយមិនកំណត់ទំហំទម្ងន់។ វិធីសាស្ត្រនេះធានាបាននូវការสะสมជាបន្តបន្ទាប់ និងផ្តល់នូវល្បឿនលឿនជាងមុនក្នុងការបណ្តុះបណ្តាល។ ក្នុងការពិសោធន៍ជាមួយម៉ូដែលក្រាស់ និងម៉ូដែល MoE នោះ MuonGS សម្រេចបាននូវកំហុសក្នុងការទស្សន៍ទាយទាបជាង MuonH។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍ក្នុងការបង្កើតអុបទិមាយដែលមានប្រសិទ្ធភាពជាងមុនសម្រាប់ការបណ្តុះបណ្តាលម៉ូដែលភាសាធំៗ។",
+   "keyPoints": [
+    "MuonGS ប្រើការព្យាករ Gram-Schmidt ដើម្បីដកសមាសធាតុរ៉ាឌីយ៉ាល់ចេញ។",
+    "វិធីសាស្ត្រនេះធានាការสะสม $C_T = \\Omega(\\sqrt{T})$។",
+    "MuonGS សម្រេចបាន perplexity ទាបជាង MuonH ក្នុងការពិសោធន៍។"
+   ]
+  },
+  "zh-CN": {
+   "title": "MuonGS：使用松弛权重范数控制预训练大语言模型",
+   "summary": "研究人员推出了 MuonGS，这是一种用于大语言模型预训练的新优化器设计，它使用 Gram-Schmidt 投影移除每次 Muon 更新的径向分量，而不固定权重范数。该方法保证了持续的累积，并且在平滑的尺度不变目标下建立了平稳性保证。在密集模型和混合专家模型的预训练实验中，MuonGS 在长训练周期内实现了比 MuonH 更低的验证困惑度。",
+   "impact": "这项研究可以帮助开发者和研究人员为大型语言模型预训练设计更高效的优化器。提出的 MuonGS 方法可能会带来更高的训练速度并在匹配验证损失时提供更好的性能。",
+   "keyPoints": [
+    "MuonGS 使用 Gram-Schmidt 投影移除每次 Muon 更新的径向分量。",
+    "该方法保证了 $C_T = \\Omega(\\sqrt{T})$ 的累积，甚至在后期训练中也能持续。",
+    "MuonGS 在 160M、400M 以及 MoE 模型的预训练实验中实现了比 MuonH 更低的验证困惑度。"
+   ]
+  },
+  "ko": {
+   "title": "MuonGS: 완화된 가중치 노름 제어를 통한 LLM 사전 학습",
+   "summary": "연구진은 Gram-Schmidt 투영을 사용하여 가중치 노름을 고정하지 않고 각 Muon 업데이트의 반경 방향 성분을 제거하는 새로운 언어 모델 사전 학습용 옵티마이저 설계인 MuonGS를 제안했습니다. 이 접근 방식은 지속적인 축적을 보장하며 부드러운 스케일 불변 목적 함수에 대한 정상성 보장을 확립합니다. 밀집 모델 및 혼합 전문가 모델을 사용한 사전 학습 실험에서 MuonGS는 긴 학습 구간에서 MuonH보다 더 낮은 검증 perplexity를 달성했습니다.",
+   "impact": "이 연구는 개발자와 연구자들이 대규모 언어 모델 사전 학습을 위한 더 효율적인 옵티마이저를 설계하는 데 도움을 줄 수 있습니다. 제안된 MuonGS 방법은 기존 변종에 비해 향상된 학습 속도와 검증 손실 성능을 제공할 수 있습니다.",
+   "keyPoints": [
+    "MuonGS는 Gram-Schmidt 투영을 사용하여 각 Muon 업데이트의 반경 방향 성분을 제거합니다.",
+    "이 방법은 후반부 학습에서도 지속되는 $C_T = \\Omega(\\sqrt{T})$ 축적을 보장합니다.",
+    "MuonGS는 160M, 400M 및 MoE 모델 사전 학습 실험에서 MuonH보다 낮은 검증 perplexity를 달성했습니다."
+   ]
+  }
+ }
+}

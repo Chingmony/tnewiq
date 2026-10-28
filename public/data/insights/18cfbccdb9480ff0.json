@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "18cfbccdb9480ff0",
+ "contentHash": "0eb2f6347b897119",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:52:26.057Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Jync v1.8.1: Batch task creation and table size binning",
+   "summary": "Jync has released version 1.8.1 with new features including batch task creation and table size binning. Users can read the source table list once, bin them by estimated size, and preview to create multiple disabled tasks at once. The release also improves synchronization link speeds by changing row estimation to on-demand reading and stopping meta-databases from empty-writing every round, alongside bug fixes for row counting under large baselines and CDC states.",
+   "impact": "Administrators could benefit from streamlined workflows when managing multiple tasks and improved overall synchronization performance. Developers and security teams may note reduced meta-database write overhead and better stability in CDC and row counting under large workloads.",
+   "keyPoints": [
+    "Added batch task creation allowing administrators to select source and target connections and create 1 to 50 tasks at once.",
+    "Table size binning estimates sizes to preview and build multiple disabled tasks simultaneously.",
+    "Synchronization link speeds are improved by making row estimations on-demand and preventing empty writes in meta-databases.",
+    "Fixed row counting issues under large scale baselines and corrected several CDC status problems."
+   ]
+  },
+  "km": {
+   "title": "Jync v1.8.1 · ការបង្កើតភារកិច្ចជាបណ្តុំ និងការបែងចែកទំហំតារាង",
+   "summary": "Jync បានបញ្ចេញកំណែ v1.8.1 ដែលមានមុខងារថ្មីក្នុងការបង្កើតភារកិច្ចជាបណ្តុំ និងការបែងចែកតារាងតាមទំហំប៉ាន់ស្មាន។ ការធ្វើបច្ចុប្បន្នភាពនេះក៏បានបង្កើនល្បឿនតំណភ្ជាប់ធ្វើសមកាលកម្មដោយផ្លាស់ប្តូរការប៉ាន់ស្មានជួរដេកទៅជាការអានតាមតម្រូវការ និងជួសជុលបញ្ហាផ្សេងៗ។",
+   "impact": "អ្នកគ្រប់គ្រងអាចកាត់បន្ថយពេលវេលាក្នុងការបង្កើតភារកិច្ចច្រើនក្នុងពេលតែមួយ ខណៈដែលប្រសិទ្ធភាពនៃការធ្វើសមកាលកម្មអាចត្រូវបានកែលម្អ។",
+   "keyPoints": [
+    "បន្ថែមមុខងារបង្កើតភារកិច្ចជាបណ្តុំសម្រាប់អ្នកគ្រប់គ្រង។",
+    "ការប៉ាន់ស្មានទំហំតារាងដើម្បីបង្កើតភារកិច្ចច្រើនក្នុងពេលតែមួយ។",
+    "កែល្បឿនតំណភ្ជាប់ធ្វើសមកាលកម្ម និងកែតម្រូវបញ្ហា CDC និងចំនួនជួរដេក។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Jync v1.8.1 · 批量建任务，按表大小分箱",
+   "summary": "Jync 发布了 v1.8.1 版本，带来了批量建任务和按表大小分箱的新功能。该版本通过将行数估算改为按需读取并避免元数据库每轮空写提升了同步链路速度，同时修正了大批量基线下的行数计数与 CDC 状态问题。",
+   "impact": "管理员可以通过批量创建功能更高效地管理任务，而系统性能和稳定性也因元数据库写操作的优化和行数估算的改进而得到提升。",
+   "keyPoints": [
+    "新增批量创建任务功能，允许管理员一次性创建多个任务。",
+    "支持按估算大小分箱并在预览后批量建出停用任务。",
+    "将行数估算改为按需读取并减少元数据库空写来提升同步速度。",
+    "修正了大批量基线下的行数计数及多处 CDC 状态问题。"
+   ]
+  },
+  "ko": {
+   "title": "Jync v1.8.1 · 일괄 작업 생성 및 테이블 크기별 빈 분할",
+   "summary": "Jync가 v1.8.1 버전을 출시하며 일괄 작업 생성 및 테이블 크기별 빈 분할 기능을 선보였습니다. 소스 테이블 목록을 읽어 크기를 추정하고 미리보기 후 여러 개의 비활성 작업을 한 번에 생성할 수 있습니다. 또한 행 수 추정을 온디맨드 읽기로 변경하고 메타 데이터베이스의 불필요한 빈 쓰기를 방지하여 동기화 속도를 개선했습니다.",
+   "impact": "관리자는 다수의 작업을 보다 효율적으로 생성 및 관리할 수 있으며, 최적화된 동기화 성능과 수정된 버그를 통해 대규모 작업 처리 시 안정성이 향상될 수 있습니다.",
+   "keyPoints": [
+    "관리자를 위한 일괄 작업 생성 기능 추가로 1에서 50개의 작업을 한 번에 생성 가능.",
+    "추정 크기에 따라 빈을 나누고 미리보기를 거쳐 여러 비활성 작업 동시 생성.",
+    "행 수를 온디맨드 방식으로 읽고 메타 데이터베이스 빈 쓰기를 제거하여 동기화 링크 속도 향상.",
+    "대규모 기준선 하에서의 행 수 카운트 및 여러 CDC 상태 문제 수정."
+   ]
+  }
+ }
+}

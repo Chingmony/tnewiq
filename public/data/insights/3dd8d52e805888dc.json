@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3dd8d52e805888dc",
+ "contentHash": "bb332947ec29cc1a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:53:20.787Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
+   "summary": "Researchers demonstrated that incorporating per-entity frame freedom in relational systems leads to specific mathematical constraints, proving that relations sharing no cycle cannot interact in the pure-gauge sector. The study shows that the only gauge-invariant score of a triangle is a class function of its holonomy known as a Wilson loop, making edge attention by Wilson loops the unique form permitted by symmetry. They instantiated this equivariant sub-family as holonomy attention on general relational graphs, achieving strong performance without training.",
+   "impact": "This research could provide developers and researchers with a new theoretical foundation for relational graph architectures, potentially improving how models handle sparse graphs and unobserved relations. Security teams and technology users might benefit from the high accuracy in flagging corrupted triangles and separating clusters without labels.",
+   "keyPoints": [
+    "Relations that share no cycle cannot interact at all in the pure-gauge sector when entities have per-entity frame freedom.",
+    "The only equivariant update of an edge is a conjugation-equivariant function multiplied by the edge tensor.",
+    "Holonomy attention infers unobserved S_4 relations on sparse graphs at 0.88 without training.",
+    "The holonomy score flags corrupted triangles at AUC 0.99."
+   ]
+  },
+  "km": {
+   "title": "ការយកចិត្តទុកដាក់ជាទ្រឹស្តីខ្សែកោងឡាទីស៖ ទំនាក់ទំនងមានអន្តរកម្មតាមរយៈ Wilson Loops ប៉ុណ្ណោះ",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្ហាញថាការបញ្ចូលសេរីភាពស៊ុមក្នុងមួយអង្គភាពក្នុងប្រព័ន្ធទំនាក់ទំនងនាំឱ្យមានការកំណត់គណិតវិទ្យាជាក់លាក់ ដែលបង្ហាញថាទំនាក់ទំនងដែលមិនមានរង្វិលជុំរួមគ្នាពុំអាចមានអន្តរកម្មបានឡើយ។ ការសិក្សានេះបង្ហាញថាពិន្ទុដែលមិនប្រែប្រួលតាមរយៈរង្វាស់នៃត្រីកោណគឺជាមុខងារថ្នាក់នៃ holonomy ដែលហៅថា Wilson loop ។ វិធីសាស្ត្រនេះបង្កើតបានជាទម្រង់តែមួយគត់ដែលស៊ីមេទ្រីអនុញ្ញាតសម្រាប់ការធ្វើបច្ចុប្បន្នភាពគែម។",
+   "impact": "ការស្រាវជ្រាវនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវមូលដ្ឋានទ្រឹស្តីថ្មីសម្រាប់ស្ថាបត្យកម្មក្រាហ្វទំនាក់ទំនង ដែលអាចកែលម្អរបៀបដែលម៉ូដែលគ្រប់គ្រងក្រាហ្វរាយប៉ាយ និងទំនាក់ទំនងដែលមិនបានកំណត់។",
+   "keyPoints": [
+    "ទំនាក់ទំនងដែលគ្មានរង្វិលជុំរួមគ្នាពុំអាចមានអន្តរកម្មក្នុងវិស័យរង្វាស់សុទ្ធបានឡើយ។",
+    "ការធ្វើបច្ចុប្បន្នភាពគែមគឺអាស្រ័យលើ Wilson loop ដែលជាទម្រង់តែមួយគត់ដែលស៊ីមេទ្រីអនុញ្ញាត។",
+    "វាអាចសន្និដ្ឋានទំនាក់ទំនង S_4 ដែលមិនបានកត់សម្គាល់នៅលើក្រាហ្វរាយប៉ាយនៅកម្រិត 0.88 ដោយមិនចាំបាច់បណ្តុះបណ្តាល។",
+    "ពិន្ទុ holonomy អាចសម្គាល់ត្រីកោណខូចខាតបាននៅ AUC 0.99។"
+   ]
+  },
+  "zh-CN": {
+   "title": "作为格子规范理论的注意力：关系仅通过威尔逊回路相互作用",
+   "summary": "研究表明，如果在关系系统中引入每个实体的独立坐标系自由度，纯规范扇区中不共享周期的关系将无法进行任何交互。研究发现三角形唯一的规范不变得分是其 holonomy 的类函数，即威尔逊回路，这使得通过威尔逊回路进行的边注意力成为对称性允许的唯一形式。研究人员在通用关系图上实例化了这个等变子系列作为 holonomy 注意力，在没有训练的情况下取得了显著效果。",
+   "impact": "这项研究可以为开发人员提供关系图架构的新理论基础，并可能改善模型处理稀疏图和未观察到关系的方式。技术用户和安全团队可能会受益于其在标记受损三角形和无标签聚类分离方面的高准确性。",
+   "keyPoints": [
+    "在纯规范扇区中，不共享周期的关系完全无法相互作用。",
+    "边的唯一等变更新形式是通过共轭等变函数调整边张量。",
+    "在无需训练且仅靠组合的情况下，holonomy 注意力在稀疏图上推断未观察到的 S_4 关系的准确率达到 0.88。",
+    "holonomy 得分以 0.99 的 AUC 标记受损三角形。"
+   ]
+  },
+  "ko": {
+   "title": "격자 게이지 이론으로서의 어텐션: 윌슨 루프를 통해서만 상호작용하는 관계",
+   "summary": "연구진은 관계형 시스템에서 각 엔티티의 독립적인 좌표계 자유도를 허용할 때 순수 게이지 부문에서 사이클을 공유하지 않는 관계는 전혀 상호작용할 수 없다는 수학적 제약이 도출된다는 것을 입증했습니다. 삼각형의 유일한 게이지 불변 점수는 홀로노미의 클래스 함수인 윌슨 루프이며, 이를 통한 엣지 어텐션은 대칭성이 허용하는 유일한 형태입니다. 이 등변 하위 패밀리를 일반 관계형 그래프에 홀로노미 어텐션으로 구현하여 훈련 없이도 뛰어난 성능을 달성했습니다.",
+   "impact": "이번 연구는 개발자들과 연구자들에게 관계형 그래프 아키텍처를 위한 새로운 이론적 기반을 제공하여 모델이 희소 그래프와 관측되지 않은 관계를 처리하는 방식을 개선할 수 있게 할 수 있습니다. 또한 라벨 없이 손상된 삼각형을 식별하고 클러스터를 분리하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "엔티티별 프레임 자유도가 있을 때 사이클을 공유하지 않는 관계는 순수 게이지 부문에서 상호작용할 수 없습니다.",
+    "엣지의 유일한 등변 업데이트는 윌슨 루프를 활용하는 형태입니다.",
+    "훈련 없이 조합만으로 희소 그래프에서 관측되지 않은 S_4 관계를 0.88의 정확도로 유추합니다.",
+    "홀로노미 점수는 AUC 0.99로 손상된 삼각형을 플래그 지정합니다."
+   ]
+  }
+ }
+}

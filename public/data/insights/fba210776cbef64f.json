@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fba210776cbef64f",
+ "contentHash": "d08b88a431db6370",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:51:33.440Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "BaiMu JArgus v2.0.7 Released with Enterprise Unified Authentication",
+   "summary": "BaiMu JArgus v2.0.7 has been released, introducing enterprise unified authentication and updating the check-for-updates feature. The update also includes nine security and stability fixes.",
+   "impact": "This release could help organizations integrate better with enterprise authentication systems through ticket callbacks or trusted gateway headers, while security fixes may improve overall stability.",
+   "keyPoints": [
+    "Added enterprise unified authentication with two integration methods: ticket callback and trusted gateway header.",
+    "Redesigned the check-for-updates feature.",
+    "Completed nine security and stability fixes."
+   ]
+  },
+  "km": {
+   "title": "百目 JArgus v2.0.7 — កំណែផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវបង្រួបបង្រួមសហគ្រាស",
+   "summary": "百目 JArgus v2.0.7 បានចេញផ្សាយដោយបន្ថែមការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវបង្រួបបង្រួមសហគ្រាស កែប្រែមុខងារពិនិត្យការអាប់ដេត និងបញ្ចប់ការជួសជុលសុវត្ថិភាពនិងស្ថិរភាពចំនួន ៩។",
+   "impact": "ការអាប់ដេតនេះអាចជួយដល់អ្នកប្រើប្រាស់ក្នុងការរួមបញ្ចូលប្រព័ន្ធផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ និងអាចបង្កើនស្ថិរភាពតាមរយៈការជួសជុលសុវត្ថិភាព។",
+   "keyPoints": [
+    "បានបន្ថែមការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវបង្រួបបង្រួមសហគ្រាសជាមួយវិធីសាស្ត្រចូលប្រើពីរ។",
+    "បានកែប្រែមុខងារពិនិត្យការអាប់ដេត។",
+    "បានបញ្ចប់ការជួសជុលសុវត្ថិភាពនិងស្ថិរភាពចំនួន ៩។"
+   ]
+  },
+  "zh-CN": {
+   "title": "百目 JArgus v2.0.7 — 企业统一认证版本",
+   "summary": "百目 JArgus v2.0.7 发布，新增了企业统一认证功能，改造了检查更新模块，并完成了 9 项安全与稳定性修复。企业统一认证支持票据回调和受信网关头两种接入方式。",
+   "impact": "该版本的企业统一认证功能和安全修复可能会帮助企业用户更安全地接入系统并提升运行稳定性。",
+   "keyPoints": [
+    "新增企业统一认证功能，支持票据回调与受信网关头两种接入方式。",
+    "改造了检查更新功能。",
+    "完成 9 项安全与稳定性修复。"
+   ]
+  },
+  "ko": {
+   "title": "百目 JArgus v2.0.7 — 기업 통합 인증 버전",
+   "summary": "百目 JArgus v2.0.7이 출시되어 기업 통합 인증이 추가되었고 업데이트 확인 기능이 개편되었으며, 9개의 보안 및 안정성 수정이 완료되었습니다.",
+   "impact": "이번 업데이트를 통해 기업 사용자는 인증 시스템을 유연하게 연동할 수 있으며, 각종 보안 및 안정성 수정으로 시스템 안정성이 향상될 수 있습니다.",
+   "keyPoints": [
+    "티켓 콜백과 신뢰할 수 있는 게이트웨이 헤더의 두 가지 방식을 지원하는 기업 통합 인증 추가",
+    "업데이트 확인 기능 개편",
+    "9개의 보안 및 안정성 수정 완료"
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "092baa0aebd81af7",
+ "contentHash": "73475b5e3848cfdb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T05:54:16.040Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
+   "summary": "Researchers explored how data composition in synthetically generated tool-use environments affects the training of large language model tool-use agents. They proposed the SynthAPI pipeline to control environment diversity across tools, tasks, and databases, training 849 models on 458,752 tasks. This research yielded a scaling law that predicts downstream agent generalization based on the scale and composition of synthesized environments. The resulting agents outperformed models trained on data from prior work across four evaluation benchmarks.",
+   "impact": "These findings could help developers and researchers optimize data budgets for training tool-use agents by prioritizing tool and database diversity over task volume. Security teams and technology users may see improved agent generalization and performance on complex, multi-step tasks.",
+   "keyPoints": [
+    "The SynthAPI pipeline controls environment diversity along tools, tasks, and databases.",
+    "The study analyzed 458,752 tasks across 849 trained models of four different sizes.",
+    "Scaling tool and database diversity is more effective than increasing task counts as data budgets grow.",
+    "Agents trained using these scaling findings outperformed models trained on prior synthetic environment generation data."
+   ]
+  },
+  "km": {
+   "title": "ច្បាប់នៃការខ្នាតសម្រាប់ភ្នាក់ងារប្រើប្រាស់ឧបករណ៍តាមរយៈការសំយោគបរិស្ថានដែលអាចគ្រប់គ្រងបាន",
+   "summary": "អ្នកស្រាវជ្រាវបានស្វែងយល់ពីរបៀបដែលសមាសភាពទិន្នន័យនៅក្នុងបរិស្ថានប្រើប្រាស់ឧបករណ៍ដែលបានសំយោគឡើងវិញប៉ះពាល់ដល់ការបណ្តុះបណ្តាលភ្នាក់ងារប្រើប្រាស់ឧបករណ៍គំរូភាសាខ្នាតធំ។ ពួកគេបានស្នើឡើងនូវបំពង់បង្ហូរប្រេង SynthAPI ដើម្បីគ្រប់គ្រងភាពចម្រុះនៃបរិស្ថានទូទាំងឧបករណ៍ ការងារ និងមូលដ្ឋានទិន្នន័យ ដោយបានបណ្តុះបណ្តាលម៉ូដែលចំនួន 849 លើការងារចំនួន 458,752។ ការស្រាវជ្រាវនេះបានបង្កើតច្បាប់នៃការខ្នាតមួយដែលទស្សន៍ទាយពីការធ្វើសាមញ្ញកម្មរបស់ភ្នាក់ងារដោយផ្អែកលើខ្នាត និងសមាសភាពនៃបរិស្ថានដែលបានសំយោគ។",
+   "impact": "ការរកឃើញទាំងនេះអាចជួយអ្នកអភិវឌ្ឍន៍បង្កើនប្រសិទ្ធភាពថវិកាទិន្នន័យសម្រាប់ការបណ្តុះបណ្តាលភ្នាក់ងារប្រើប្រាស់ឧបករណ៍ដោយផ្តល់អាទិភាពដល់ភាពចម្រុះនៃឧបករណ៍ និងមូលដ្ឋានទិន្នន័យ។ ក្រុមសុវត្ថិភាព និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងឃើញការធ្វើសាមញ្ញកម្មនិងដំណើរការរបស់ភ្នាក់ងារកាន់តែប្រសើរឡើងលើការងារស្មុគស្មាញ។",
+   "keyPoints": [
+    "បំពង់បង្ហូរប្រេង SynthAPI គ្រប់គ្រងភាពចម្រុះនៃបរិស្ថានលើឧបករណ៍ ការងារ និងមូលដ្ឋានទិន្នន័យ។",
+    "ការសិក្សាបានវិភាគការងារចំនួន 458,752 នៅលើម៉ូដែលចំនួន 849 ដែលមានទំហំខុសគ្នាប្រាំបួន។",
+    "ការបង្កើនភាពចម្រុះនៃឧបករណ៍ និងមូលដ្ឋានទិន្នន័យមានប្រសិទ្ធភាពជាងការបង្កើនចំនួនការងារនៅពេលថវិកាទិន្នន័យកើនឡើង។",
+    "ភ្នាក់ងារដែលបានបណ្តុះបណ្តាលតាមការរកឃើញទាំងនេះបានបង្ហាញលទ្ធផលល្អជាងម៉ូដែលពីការងារមុនៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过可控环境合成实现工具使用代理的缩放定律",
+   "summary": "研究人员探讨了合成生成的工具使用环境中的数据组合如何影响大语言模型工具使用代理的训练。他们提出了SynthAPI管道，该管道沿着工具、任务和数据库等维度明确控制生成环境的多样性，并在四个不同大小的849个训练模型上对458,752个任务进行了研究。这项研究得出了一条缩放定律，可以根据合成环境的规模和组成来预测下游代理的泛化能力。由此产生的代理在四个评估基准上表现优于先前研究中训练的模型。",
+   "impact": "这些发现可以帮助开发人员和研究人员优先考虑工具和数据库的多样性，从而优化工具使用代理的训练数据预算。安全团队和技术用户可能会看到代理在复杂的多步骤任务中具有更好的泛化能力和性能。",
+   "keyPoints": [
+    "SynthAPI管道沿工具、任务和数据库轴控制生成环境的多样性。",
+    "该研究对四种不同大小的849个训练模型中的458,752个任务进行了变体分析。",
+    "随着数据预算的增长，扩大工具和数据库的多样性比增加任务数量更有效。",
+    "根据这些发现训练出的代理在四个评估基准上优于以前工作的模型。"
+   ]
+  },
+  "ko": {
+   "title": "제어 가능한 환경 합성을 통한 도구 사용 에이전트를 위한 스케일링 법칙",
+   "summary": "연구원들은 합성 생성된 도구 사용 환경의 데이터 구성이 대규모 언어 모델 도구 사용 에이전트의 훈련에 어떤 영향을 미치는지 연구했습니다. 이들은 도구, 작업, 데이터베이스 축을 따라 생성된 환경의 다양성을 명시적으로 제어하는 SynthAPI 파이프라인을 제안했으며, 4가지 다른 크기의 849개 훈련된 모델에 걸쳐 458,752개의 작업을 대상으로 연구를 진행했습니다. 이 연구는 합성된 환경의 규모와 구성을 기반으로 하위 에이전트 일반화를 예측하는 스케일링 법칙을 도출했습니다. 결과 에이전트는 4가지 평가 벤치마크에서 이전 연구의 데이터로 훈련된 모델보다 우수한 성능을 보였습니다.",
+   "impact": "이러한 연구 결과는 개발자와 연구원이 작업 수보다 도구 및 데이터베이스 다양성을 우선시하여 도구 사용 에이전트 훈련을 위한 데이터 예산을 최적화하는 데 도움이 될 수 있습니다. 보안 팀과 기술 사용자는 복잡한 다단계 작업에서 향상된 에이전트 일반화 및 성능을 확인할 수 있습니다.",
+   "keyPoints": [
+    "SynthAPI 파이프라인은 도구, 작업, 데이터베이스 축을 따라 환경 다양성을 제어합니다.",
+    "이 연구는 4가지 다른 크기의 849개 모델에 걸쳐 458,752개의 작업을 분석했습니다.",
+    "데이터 예산이 증가함에 따라 도구 및 데이터베이스 다양성을 확장하는 것이 작업 수를 늘리는 것보다 더 효과적입니다.",
+    "이러한 발견에 따라 훈련된 에이전트는 이전 연구의 데이터로 훈련된 모델보다 우수한 성과를 거두었습니다."
+   ]
+  }
+ }
+}
