@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "28c7cc4d12419c93",
+ "contentHash": "adbb65adc0e060f6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T19:04:09.284Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Nvidia's open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
+   "summary": "Nvidia has released Nemotron 3.5 Transcribe, an open speech recognition model that handles transcription, speaker recognition, and translation using text prompt instructions. The model leads several benchmarks while utilizing only a sixth of the active parameters of its strongest open rival. Alongside the model, Nvidia is providing an 800,000-hour speech dataset and fine-tuning tools.",
+   "impact": "Developers and technology users could benefit from a more efficient speech recognition model that handles multiple tasks with fewer active parameters. Security teams and researchers may utilize the included large speech dataset and fine-tuning tools for custom deployments.",
+   "keyPoints": [
+    "Nvidia released Nemotron 3.5 Transcribe as an open speech recognition model.",
+    "It supports transcription, translation, and speaker recognition via text prompts.",
+    "The model leads several benchmarks using one-sixth of the active parameters of its main open rival.",
+    "Nvidia is shipping a dataset of over 800,000 hours of speech and fine-tuning tools."
+   ]
+  },
+  "km": {
+   "title": "Nemotron 3.5 Transcribe បើកចំហរបស់ Nvidia រួមបញ្ចូលគ្នានូវការអានអត្ថបទ ការបកប្រែ និងការស្គាល់អ្នកនិយាយ",
+   "summary": "ក្រុមហ៊ុន Nvidia បានចេញផ្សាយ Nemotron 3.5 Transcribe ដែលជាម៉ូឌែលស្គាល់សំឡេងបើកចំហមួយ គ្រប់គ្រងការអានអត្ថបទ ការស្គាល់អ្នកនិយាយ និងការបកប្រែដោយយកការបញ្ជាជាអត្ថបទ។ ម៉ូឌែលនេះនាំមុខការវាស់វែងជាច្រើន ដោយប្រើប្រាស់ប៉ារ៉ាម៉ែត្រសកម្មត្រឹមតែមួយចំណែកប្រាំមនៃគូប្រជែងបើកចំហដ៏ខ្លាំងបំផុតរបស់ខ្លួន។ ក្រៅពីនេះ Nvidia ក៏កំពុងបញ្ចេញชุดទិន្នន័យសំឡេងជាង 800,000 ម៉ោង ព្រមទាំងឧបករណ៍សម្រាប់កែសម្រួលផងដែរ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានផលប្រយោជន៍ពីម៉ូឌែលស្គាល់សំឡេងដែលមានប្រសិទ្ធភាពជាងមុន ដែលអាចគ្រប់គ្រងកិច្ចការច្រើនជាមួយប៉ារ៉ាម៉ែត្រសកម្មតិចជាង។ ក្រុមការងារសុវត្ថិភាពអាចប្រើប្រាស់ชุดទិន្នន័យសំឡេងខ្នាតធំ និងឧបករណ៍កែសម្រួលសម្រាប់តម្រូវការផ្ទាល់ខ្លួន។",
+   "keyPoints": [
+    "Nvidia បានចេញផ្សាយ Nemotron 3.5 Transcribe ជាម៉ូឌែលស្គាល់សំឡេងបើកចំហ។",
+    "វាគាំទ្រការអានអត្ថបទ ការបកប្រែ និងការស្គាល់អ្នកនិយាយតាមរយៈការបញ្ជាជាអត្ថបទ។",
+    "ម៉ូឌែលនេះនាំមុខការវាស់វែងដោយប្រើប្រាស់ប៉ារ៉ាម៉ែត្រសកម្មតិចជាងគូប្រជែង។",
+    "Nvidia កំពុងផ្តល់ជូនชุดទិន្នន័យសំឡេងជាង 800,000 ម៉ោង និងឧបករណ៍កែសម្រួល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Nvidia开源Nemotron 3.5 Transcribe集成了转录、翻译和说话人识别功能",
+   "summary": "Nvidia发布了Nemotron 3.5 Transcribe，这是一个开源的语音识别模型，能够处理转录、说话人识别和翻译，并接受文本提示词指令。该模型在多个基准测试中领先，而其活跃参数仅为最强开源竞争对手的六分之一。此外，Nvidia还发布了一个包含超过80万小时语音的数据集以及微调工具。",
+   "impact": "开发人员和技术用户可以利用这个更高效的语音模型，以更少的活跃参数处理多项任务。安全团队和研究人员可能会使用附带的大型语音数据集和微调工具来进行定制化部署。",
+   "keyPoints": [
+    "Nvidia发布了开源语音识别模型Nemotron 3.5 Transcribe。",
+    "它通过文本提示处理转录、翻译和说话人识别。",
+    "该模型在多个基准测试中领先，且活跃参数量较少。",
+    "Nvidia同时提供超过80万小时的语音数据集和微调工具。"
+   ]
+  },
+  "ko": {
+   "title": "Nvidia의 오픈 소스 Nemotron 3.5 Transcribe, 음성 변환·번역·화자 인식 통합",
+   "summary": "Nvidia는 텍스트 프롬프트로 지시를 받아 음성 변환, 화자 인식, 번역을 처리하는 오픈 소스 음성 인식 모델 Nemotron 3.5 Transcribe를 출시했습니다. 이 모델은 가장 강력한 오픈 소스 경쟁사의 활성 파라미터 중 6분의 1만 사용하면서도 여러 벤치마크에서 선두를 차지하고 있습니다. 아울러 Nvidia는 8만 시간이 넘는 음성 데이터셋과 미세 조정 도구도 함께 제공하고 있습니다.",
+   "impact": "개발자와 기술 사용자는 더 적은 활성 파라미터로 여러 작업을 처리하는 효율적인 음성 인식 모델의 혜택을 누릴 수 있습니다. 보안 팀과 연구원들은 제공된 대규모 음성 데이터셋과 미세 조정 도구를 맞춤형 배포에 활용할 수 있습니다.",
+   "keyPoints": [
+    "Nvidia가 오픈 소스 음성 인식 모델 Nemotron 3.5 Transcribe를 출시함.",
+    "텍스트 프롬프트를 통해 음성 변환, 번역, 화자 인식을 처리함.",
+    "강력한 경쟁사 대비 적은 활성 파라미터로 여러 벤치마크에서 우위를 차지함.",
+    "8만 시간 이상의 음성 데이터셋과 미세 조정 도구가 함께 제공됨."
+   ]
+  }
+ }
+}

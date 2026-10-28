@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "257599f0048efc91",
+ "contentHash": "2f43e0e4fdc7d4e9",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T19:03:38.320Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+   "summary": "Cybersecurity researchers disclosed an AI-assisted attack by a suspected China-nexus threat actor using PHP2Shell vulnerabilities to breach exposed systems. Observed on October 25, 2026, the activity involved combining PHP2Shell with a kernel privilege escalation exploit to root servers and breach a U.S. government-affiliated network.",
+   "impact": "This attack demonstrates how threat actors may combine vulnerabilities with AI assistance and privilege escalation exploits to compromise sensitive government-affiliated networks. Security teams may need to monitor for PHP2Shell exploitation and kernel privilege escalation attempts on exposed systems.",
+   "keyPoints": [
+    "Researchers disclosed details of an AI-assisted attack by a suspected China-nexus threat actor.",
+    "The attack leveraged PHP2Shell vulnerabilities on October 25, 2026.",
+    "Attackers combined PHP2Shell with a kernel privilege escalation exploit to root 25 servers.",
+    "A U.S. government-affiliated network was breached during the activity."
+   ]
+  },
+  "km": {
+   "title": "ការវាយប្រហារ PHP2Shell គ្រប់គ្រងម៉ាស៊ីនមេចំនួន ២៥ និងទម្លុះបណ្តាញដែលពាក់ព័ន្ធនឹងរដ្ឋាភិបាលសហរដ្ឋអាមេរិក",
+   "summary": "អ្នកស្រាវជ្រាវសន្តិសុខាយប៊ែរបានបង្ហាញព័ត៌មានលម្អិតអំពីការវាយប្រហារដែលត្រូវបានគាំទ្រដោយបញ្ញាសិប្បនិម្មិត (AI) ដោយក្រុមឧក្រិដ្ឋជនដែលសង្ស័យថាមានទំនាក់ទំនងជាមួយប្រទេសចិន ដោយបានប្រើប្រាស់ខ្សោយភាព PHP2Shell ដើម្បីទម្លុះប្រព័ន្ធដែលបើកចំហ។ សកម្មភាពនេះត្រូវបានគេសង្កេតឃើញនៅថ្ងៃទី ២៥ ខែតុលា ឆ្នាំ ២០២៦ ដែលពាក់ព័ន្ធនឹងការរួមបញ្ចូល PHP2Shell ជាមួយការវាយប្រហារដំឡើងសិទ្ធិស្នូលប្រព័ន្ធដើម្បីគ្រប់គ្រងម៉ាស៊ីនមេ។",
+   "impact": "ការវាយប្រហារនេះបង្ហាញពីរបៀបដែលក្រុមឧក្រិដ្ឋជនអាចរួមបញ្ចូលខ្សោយភាពជាមួយនឹងជំនួយពី AI និងការវាយប្រហារដំឡើងសិទ្ធិ ដើម្បីបំផ្លិចបំផ្លាញបណ្តាញរដ្ឋាភិបាលដែលមានភាពរសើប។ ក្រុមសន្តិសុខបច្ចេកវិទ្យាអាចត្រូវដំឡើងការត្រួតពិនិត្យលើការកេងប្រវ័ញ្ច PHP2Shell និងការដំឡើងសិទ្ធិស្នូលប្រព័ន្ធនៅលើប្រព័ន្ធដែលបើកចំហ។",
+   "keyPoints": [
+    "អ្នកស្រាវជ្រាវបានបង្ហាញព័ត៌មានលម្អិតនៃការវាយប្រហារដែលគាំទ្រដោយ AI ដោយក្រុមឧក្រិដ្ឋជនដែលសង្ស័យថាពាក់ព័ន្ធនឹងប្រទេសចិន។",
+    "ការវាយប្រហារបានប្រើប្រាស់ខ្សោយភាព PHP2Shell នៅថ្ងៃទី ២៥ ខែតុលា ឆ្នាំ ២០២៦។",
+    "ពួកឧក្រិដ្ឋជនបានបញ្ចូល PHP2Shell ជាមួយការវាយប្រហារដំឡើងសិទ្ធិស្នូលប្រព័ន្ធដើម្បីគ្រប់គ្រងម៉ាស៊ីនមេចំនួន ២៥។",
+    "បណ្តាញដែលពាក់ព័ន្ធនឹងរដ្ឋាភិបាលសហរដ្ឋអាមេរិកត្រូវបានទម្លុះក្នុងអំឡុងពេលសកម្មភាពនេះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "PHP2Shell 攻击攻陷 25 台服务器并入侵美国政府相关网络",
+   "summary": "网络安全研究人员披露了一起疑似由中国背景的威胁团伙发起的、由人工智能辅助的攻击详情，该团伙利用 PHP2Shell 漏洞入侵了暴露的系统。此次活动于 2026 年 10 月 25 日被发现，攻击者将 PHP2Shell 与内核提权漏洞结合使用，以获取服务器的 root 权限并入侵美国政府相关网络。",
+   "impact": "此次攻击表明威胁团伙可能会将漏洞与人工智能协助以及提权利用相结合，从而对敏感的政府相关网络造成破坏。安全团队可能需要监控暴露系统上的 PHP2Shell 利用和内核提权尝试。",
+   "keyPoints": [
+    "研究人员披露了一起疑似中国背景威胁团伙发起的 AI 辅助攻击详情。",
+    "该攻击于 2026 年 10 月 25 日利用了 PHP2Shell 漏洞。",
+    "攻击者将 PHP2Shell 与内核提权漏洞结合以获取 25 台服务器的 root 权限。",
+    "活动期间入侵了一个美国政府相关网络。"
+   ]
+  },
+  "ko": {
+   "title": "PHP2Shell 공격으로 서버 25대 장악 및 미국 정부 관련 네트워크 해킹",
+   "summary": "사이버 보안 연구원들은 중국계로 의심되는 위협 행위자가 주도한 인공지능(AI) 지원 공격의 세부 정보를 공개했으며, 이들은 PHP2Shell 취약점을 악용하여 노출된 시스템을 침해했습니다. 2026년 10월 25일에 관측된 이 활동은 PHP2Shell을 커널 권한 상승 익스플로잇과 결합하여 서버를 장악하고 미국 정부 관련 네트워크를 침해하는 방식을 사용했습니다.",
+   "impact": "이번 공격은 위협 행위자들이 취약점과 AI 지원 및 권한 상승 익스플로잇을 결합하여 민감한 정부 관련 네트워크를 손상시킬 수 있음을 보여줍니다. 보안 팀은 노출된 시스템에서 PHP2Shell 악용 및 커널 권한 상승 시도를 모니터링해야 할 수 있습니다.",
+   "keyPoints": [
+    "연구원들은 중국계로 의심되는 위협 행위자의 AI 지원 공격에 대한 세부 정보를 공개했습니다.",
+    "이 공격은 2026년 10월 25일에 PHP2Shell 취약점을 악용했습니다.",
+    "공격자들은 PHP2Shell을 커널 권한 상승 익스플로잇과 결합하여 서버 25대를 장악했습니다.",
+    "해당 활동 중 미국 정부 관련 네트워크가 침해되었습니다."
+   ]
+  }
+ }
+}

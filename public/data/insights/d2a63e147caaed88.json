@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d2a63e147caaed88",
+ "contentHash": "05cc561073b25c96",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T19:01:13.798Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Google opens Android development to third-party AI agents and unveils new Gemini APIs",
+   "summary": "Google is opening Android Studio to third-party AI agents via a new Bring Your Own Agent feature. The integrated development environment now supports over 40 coding agents, such as Anthropic's Claude Agent and OpenAI's Codex. Additionally, new terminal tools help these agents complete user interface tasks faster while consuming fewer tokens.",
+   "impact": "This integration could allow developers to utilize their preferred coding assistants directly within Android Studio. Security teams and developers may want to evaluate how third-party agents interact with development environments and codebases.",
+   "keyPoints": [
+    "Android Studio now supports third-party AI agents via a Bring Your Own Agent feature.",
+    "Over 40 coding agents are supported, including Claude Agent and OpenAI's Codex.",
+    "New terminal tools help agents finish UI tasks 77 percent faster.",
+    "Agents can perform tasks using up to three times fewer tokens."
+   ]
+  },
+  "km": {
+   "title": "Google បើកការអភិវឌ្ឍ Android ឱ្យភ្នាក់ងារ AI ភាគីទីបី និងបង្ហាញមុខ Gemini APIs ថ្មី",
+   "summary": "Google កំពុងបើក Android Studio ឱ្យភ្នាក់ងារ AI ភាគីទីបីតាមរយៈមុខងារ Bring Your Own Agent ថ្មី។ បច្ចុប្បន្នបរិយាកាសអភិវឌ្ឍន៍នេះគាំទ្រភ្នាក់ងារសរសេរកូដជាង 40 រួមមាន Claude Agent របស់ Anthropic និង Codex របស់ OpenAI ។ ឧបករណ៍终端ថ្មីក៏ជួយឱ្យភ្នាក់ងារទាំងនោះបញ្ចប់កិច្ចការ UI លឿនជាងមុនផងដែរ។",
+   "impact": "ការរួមបញ្ចូលគ្នានេះអាចអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍ប្រើប្រាស់ជំនួយការសរសេរកូដដែលពួកគេចូលចិត្តដោយផ្ទាល់នៅក្នុង Android Studio ។ ក្រុមការងារផ្នែកសុវត្ថិភាពនិងអ្នកអភិវឌ្ឍន៍អាចពិនិត្យមើលពីរបៀបដែលភ្នាក់ងារភាគីទីបីអន្តរកម្មជាមួយបរិយាកាសអភិវឌ្ឍន៍។",
+   "keyPoints": [
+    "Android Studio ឥឡូវនេះគាំទ្រភ្នាក់ងារ AI ភាគីទីបីតាមរយៈមុខងារ Bring Your Own Agent ។",
+    "ភ្នាក់ងារសរសេរកូដជាង 40 ត្រូវបានគាំទ្រ រួមមាន Claude Agent និង OpenAI's Codex ។",
+    "ឧបករណ៍终端ថ្មីជួយឱ្យភ្នាក់ងារបញ្ចប់កិច្ចការ UI លឿនជាងមុន 77 ភាគរយ។",
+    "ភ្នាក់ងារអាចប្រើប្រាស់ថូខឹនតិចជាងមុនរហូតដល់បីដង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "谷歌向第三方AI代理开放Android开发并推出新的Gemini API",
+   "summary": "谷歌正通过全新的“自带代理”功能向第三方AI代理开放Android Studio。该集成开发环境现已支持40多个编码代理，其中包括Anthropic的Claude Agent和OpenAI的Codex。谷歌表示，新的终端工具还帮助代理以更少的token消耗更快地完成UI任务。",
+   "impact": "这一集成可能允许开发人员直接在Android Studio中使用他们首选的编码助手。开发人员和安全团队可以评估第三方代理如何与开发环境及代码库进行交互。",
+   "keyPoints": [
+    "Android Studio通过新的“自带代理”功能支持第三方AI代理。",
+    "支持40多个编码代理，包括Anthropic的Claude Agent和OpenAI的Codex。",
+    "新的终端工具帮助代理完成UI任务的速度提升了77%。",
+    "代理在执行任务时使用的token数量最多减少了三倍。"
+   ]
+  },
+  "ko": {
+   "title": "구글, 타사 AI 에이전트에 안드로이드 개발 개방 및 새로운 Gemini API 공개",
+   "summary": "구글은 새로운 'Bring Your Own Agent' 기능을 통해 안드로이드 스튜디오를 타사 AI 에이전트에 개방하고 있다. 이 통합 개발 환경은 이제 Anthropic의 Claude Agent 및 OpenAI의 Codex를 포함하여 40개 이상의 코딩 에이전트를 지원한다. 구글에 따르면 새로운 터미널 도구는 에이전트가 더 적은 토큰을 사용하면서 UI 작업을 더 빠르게 완료할 수 있도록 돕는다.",
+   "impact": "이번 통합을 통해 개발자는 안드로이드 스튜디오 내에서 선호하는 코딩 보조 도구를 직접 활용할 수 있다. 개발자와 보안 팀은 타사 에이전트가 개발 환경 및 코드베이스와 상호 작용하는 방식을 평가할 수 있다.",
+   "keyPoints": [
+    "안드로이드 스튜디오가 'Bring Your Own Agent' 기능을 통해 타사 AI 에이전트를 지원한다.",
+    "Claude Agent와 OpenAI의 Codex를 포함해 40개 이상의 코딩 에이전트가 지원된다.",
+    "새로운 터미널 도구는 에이전트가 UI 작업을 77퍼센트 더 빠르게 완료하도록 돕는다.",
+    "에이전트는 최대 3배 적은 토큰을 사용하여 작업을 수행할 수 있다."
+   ]
+  }
+ }
+}

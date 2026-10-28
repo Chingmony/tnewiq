@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8d24f5677c199a45",
+ "contentHash": "5523a8a536989152",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T19:03:05.400Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "GitHub Universe 2026: Evolving every layer of the stack",
+   "summary": "At GitHub Universe 2026, GitHub shared its vision for a comprehensive software delivery system centered on developer-guided AI agents. The company introduced several new products, including the GitHub Copilot app, Copilot Fusion for multi-model orchestration, Copilot projects, session continuity, and Copilot automations. These offerings aim to improve velocity, intelligence, and quality by managing workflows from issue to merge across multiple repositories and surfaces.",
+   "impact": "These new tools and agentic delivery models could change how developers and teams manage software development lifecycles, potentially increasing velocity and reducing manual handoffs. Security teams and technology users may see changes in how bugs are caught and how secure-by-default practices are integrated into automated workflows.",
+   "keyPoints": [
+    "GitHub introduced a vision for agentic software delivery focusing on velocity, intelligence, and quality.",
+    "The new GitHub Copilot app handles tasks from issue to merge across projects in an agent-first surface.",
+    "Copilot Fusion evaluates task needs and orchestrates multiple models to balance cost and performance.",
+    "Session continuity enables developers to follow the same cloud agent session across VS Code, the CLI, the web, and the GitHub app."
+   ]
+  },
+  "km": {
+   "title": "GitHub Universe 2026៖ ការវិវត្តគ្រប់កម្រិតនៃស្ដាក",
+   "summary": "នៅក្នុងព្រឹត្តិការណ៍ GitHub Universe 2026 GitHub បានចែករំលែកចក្ខុវិស័យរបស់ខ្លួនសម្រាប់ប្រព័ន្ធចែកចាយកម្មវិធីដ៏ទូលំទូលាយមួយ ដែលផ្តោតលើភ្នាក់ងារ AI ដែលដឹកនាំដោយអ្នកអភិវឌ្ឍន៍។ ក្រុមហ៊ុនបានណែនាំផលិតផលថ្មីៗជាច្រើន រួមមានកម្មវិធី GitHub Copilot, Copilot Fusion សម្រាប់ការសម្របសម្រួលម៉ូដែលច្រើន, Copilot projects, ភាពបន្តនៃសម័យ និង Copilot automations។ ការផ្តល់ជូនទាំងនេះមានគោលបំណងកែលម្អល្បឿន ភាពវៃឆ្លាត និងគុណភាពដោយគ្រប់គ្រងលំហូរការងារពីបញ្ហាដល់ការបញ្ចូលគ្នានៅទូទាំងឃ្លាំងជាច្រើន។",
+   "impact": "ឧបករណ៍ថ្មីៗ និងម៉ូដែលចែកចាយបែបភ្នាក់ងារទាំងនេះអាចផ្លាស់ប្តូររបៀបដែលអ្នកអភិវឌ្ឍន៍ និងក្រុមការងារគ្រប់គ្រងវដ្តជីវិតនៃការអភិវឌ្ឍន៍កម្មវិធី ដោយអាចបង្កើនល្បឿន និងកាត់បន្ថយការបញ្ជូនបន្តដោយដៃ។ ក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងឃើញការផ្លាស់ប្តូរនៅក្នុងរបៀបដែលកំហុសត្រូវបានរកឃើញ និងរបៀបដែលការអនុវត្តសុវត្ថិភាពត្រូវបានរួមបញ្ចូលទៅក្នុងលំហូរការងារស្វ័យប្រវត្តិ។",
+   "keyPoints": [
+    "GitHub បានណែនាំចក្ខុវិស័យសម្រាប់ការចែកចាយកម្មវិធីបែបភ្នាក់ងារដោយផ្តោតលើល្បឿន ភាពវៃឆ្លាត និងគុណភាព។",
+    "កម្មវិធី GitHub Copilot ថ្មីគ្រប់គ្រងកិច្ចការពីបញ្ហាដល់ការបញ្ចូលគ្នាទូទាំងគម្រោងក្នុងផ្ទៃមុខដែលផ្តល់អាទិភាពដល់ភ្នាក់ងារ។",
+    "Copilot Fusion វាយតម្លៃតម្រូវការកិច្ចការ និងសម្របសម្រួលម៉ូដែលជាច្រើនដើម្បីធ្វើឱ្យមានតុល្យភាពរវាងតម្លៃ និងដំណើរការ។",
+    "ភាពបន្តនៃសម័យអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍តាមដានសម័យភ្នាក់ងារពពកដូចគ្នានៅទូទាំង VS Code, CLI, គេហទំព័រ និងកម្មវិធី GitHub។"
+   ]
+  },
+  "zh-CN": {
+   "title": "GitHub Universe 2026：演进技术栈的每一层",
+   "summary": "在 GitHub Universe 2026 上，GitHub 分享了其构建一个以开发者引导的 AI 代理为核心的全面软件交付系统的愿景。该公司推出了多款新产品，包括 GitHub Copilot 应用、用于多模型编排的 Copilot Fusion、Copilot projects、会话连续性以及 Copilot automations。这些产品旨在通过管理从问题到合并的跨多仓库和多界面的工作流，来提升速度、智能和质量。",
+   "impact": "这些新工具和代理交付模式可能会改变开发者和团队管理软件开发生命周期的方式，从而可能提高开发速度并减少人工交接。安全团队和技术用户可能会看到在自动化工作流中捕获错误以及集成默认安全实践的方式发生变化。",
+   "keyPoints": [
+    "GitHub 推出了聚焦于速度、智能和质量的代理式软件交付愿景。",
+    "全新的 GitHub Copilot 应用在一个以代理为先的界面中处理跨项目的从问题到合并的任务。",
+    "Copilot Fusion 评估任务需求并编排多个模型，以平衡成本和性能。",
+    "会话连续性使开发者能够在 VS Code、CLI、网页端和 GitHub 应用之间跟踪同一个云代理会话。"
+   ]
+  },
+  "ko": {
+   "title": "GitHub Universe 2026: 스택의 모든 계층 진화",
+   "summary": "GitHub Universe 2026에서 GitHub는 개발자가 주도하는 AI 에이전트를 중심으로 하는 포괄적인 소프트웨어 전달 시스템에 대한 비전을 공유했습니다. 회사는 GitHub Copilot 앱, 다중 모델 오케스트레이션을 위한 Copilot Fusion, Copilot projects, 세션 연속성, Copilot automations를 포함한 여러 신제품을 소개했습니다. 이러한 제품은 여러 저장소와 인터페이스에 걸쳐 이슈부터 병합까지 워크플로를 관리함으로써 속도, 지능 및 품질을 향상시키는 것을 목표로 합니다.",
+   "impact": "이러한 새로운 도구와 에이전트 기반 전달 모델은 개발자와 팀이 소프트웨어 개발 생명주기를 관리하는 방식을 변화시켜 속도를 높이고 수동 핸드오프를 줄일 수 있습니다. 보안 팀과 기술 사용자는 자동화된 워크플로에 버그 포착 및 기본 보안 관행이 통합되는 방식의 변화를 볼 수 있습니다.",
+   "keyPoints": [
+    "GitHub는 속도, 지능 및 품질에 초점을 맞춘 에이전트 소프트웨어 전달 비전을 소개했습니다.",
+    "새로운 GitHub Copilot 앱은 에이전트 중심 인터페이스에서 프로젝트 전반의 이슈부터 병합까지의 작업을 처리합니다.",
+    "Copilot Fusion은 작업 요구 사항을 평가하고 여러 모델을 오케스트레이션하여 비용과 성능의 균형을 맞춥니다.",
+    "세션 연속성을 통해 개발자는 VS Code, CLI, 웹 및 GitHub 앱 전반에서 동일한 클라우드 에이전트 세션을 추적할 수 있습니다."
+   ]
+  }
+ }
+}

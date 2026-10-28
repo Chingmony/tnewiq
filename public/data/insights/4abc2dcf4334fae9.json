@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4abc2dcf4334fae9",
+ "contentHash": "90247c608eea3348",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T19:02:16.076Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+   "summary": "Security researcher Orange Tsai of DEVCORE demonstrated how a chain of logic flaws without memory corruption can allow a malicious web page to execute code on a Windows computer outside the Microsoft Edge sandbox. The complete method was published on October 28, following a $175,000 win at the Pwn2Own Berlin contest in May. Microsoft patched the underlying Edge bugs the day after the contest concluded.",
+   "impact": "This research demonstrates that complex security boundaries can be bypassed using logic flaws alone, which may prompt security teams to review application logic alongside traditional memory safety checks.",
+   "keyPoints": [
+    "A chain of logic flaws bypassed Microsoft Edge's sandbox without using memory corruption.",
+    "The exploit method was published by Orange Tsai of DEVCORE on October 28.",
+    "The technique won $175,000 at the Pwn2Own Berlin contest in May.",
+    "Microsoft issued a fix for the Edge bugs the day after the contest."
+   ]
+  },
+  "km": {
+   "title": "អ្នកស្រាវជ្រាវបង្ហាញពីរបៀបដែលកំហុសតក្កវិទ្យាតែមួយគត់បានបំបែក Microsoft Edge ក្នុងការឈ្នះទឹកប្រាក់ ១៧៥.០០០ ដុល្លារនៅ Pwn2Own",
+   "summary": "អ្នកស្រាវជ្រាវសន្តិសុខ Orange Tsai មកពី DEVCORE បានបង្ហាញពីរបៀបដែលខ្សែសង្វាក់នៃកំហុសតក្កវិទ្យា ដោយគ្មានការខូចខាតអង្គចងចាំ អាចប្រែក្លាយទំព័រគេហទំព័រ malicious ទៅជាកូដដែលដំណើរការលើកុំព្យូទ័រ Windows នៅខាងក្រៅប្រអប់សុវត្ថិភាព Microsoft Edge ។ វិធីសាស្ត្រពេញលេញត្រូវបានបោះពុម្ពផ្សាយនៅថ្ងៃទី ២៨ ខែតុលា បន្ទាប់ពីខ្សែសង្វាក់នេះឈ្នះប្រាក់ ១៧៥.០០០ ដុល្លារនៅឯការប្រកួត Pwn2Own Berlin ក្នុងខែឧសភា ។ Microsoft បានជួសជុលកំហុស Edge ទាំងនោះនៅថ្ងៃបន្ទាប់ពីការប្រកួត ។",
+   "impact": "ការស្រាវជ្រាវនេះបង្ហាញថាព្រំដែនសន្តិសុខស្មុគស្មាញអាចត្រូវបានគេឆ្លងកាត់ដោយប្រើតែកំហុសតក្កវិទ្យា ដែលអាចជំរុញឱ្យក្រុមសន្តិសុខពិនិត្យមើលតក្កវិទ្យាកម្មវិធីរួមជាមួយនឹងការពិនិត្យសុវត្ថិភាពអង្គចងចាំបែបប្រពៃណី ។",
+   "keyPoints": [
+    "ខ្សែសង្វាក់នៃកំហុសតក្កវិទ្យាបានឆ្លងកាត់ប្រអប់សុវត្ថិភាព Microsoft Edge ដោយមិនប្រើប្រាស់ការខូចខាតអង្គចងចាំ ។",
+    "វិធីសាស្ត្រវាយប្រហារនេះត្រូវបានបោះពុម្ពផ្សាយដោយ Orange Tsai មកពី DEVCORE នៅថ្ងៃទី ២៨ ខែតុលា ។",
+    "បច្ចេកទេសនេះបានឈ្នះប្រាក់ ១៧៥.០០០ ដុល្លារនៅឯការប្រកួត Pwn2Own Berlin ក្នុងខែឧសភា ។",
+    "Microsoft បានចេញកែសម្រួលសម្រាប់កំហុស Edge នៅថ្ងៃបន្ទាប់ពីការប្រកួត ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "研究人员披露仅凭逻辑漏洞如何在 Pwn2Own 比赛中赢得 17.5 万美元并攻破 Microsoft Edge",
+   "summary": "安全研究员 Orange Tsai（来自 DEVCORE）展示了一系列不涉及内存破坏的逻辑缺陷，如何能将恶意网页转化为在 Microsoft Edge 沙盒之外的 Windows 计算机上运行的代码。该完整方法于 10 月 28 日发布，此前该漏洞链在 5 月份的 Pwn2Own Berlin 比赛中赢得了 17.5 万美元的奖金。微软在比赛结束的第二天修复了这些 Edge 漏洞。",
+   "impact": "这项研究表明，仅利用逻辑缺陷就可以绕过复杂的安全边界，这可能会促使安全团队在传统的内存安全检查之外，重新审查应用程序逻辑。",
+   "keyPoints": [
+    "一系列逻辑缺陷在没有内存破坏的情况下绕过了 Microsoft Edge 的沙盒。",
+    "DEVCORE 的 Orange Tsai 于 10 月 28 日发布了完整的攻击方法。",
+    "该技术在 5 月的 Pwn2Own Berlin 比赛中赢得了 17.5 万美元。",
+    "微软在比赛结束的第二天发布了针对 Edge 漏洞的修复程序。"
+   ]
+  },
+  "ko": {
+   "title": "연구원이 17만 5천 달러 규모의 Pwn2Own 우승을 차지한 로직 버그 단독의 Microsoft Edge 해킹 방식 공개",
+   "summary": "DEVCORE의 보안 연구원 Orange Tsai는 메모리 손상 없이 로직 결함 체인을 사용하여 악성 웹 페이지를 Microsoft Edge 샌드박스 외부의 Windows 컴퓨터에서 실행되는 코드로 변환할 수 있음을 보여주었습니다. 전체 방법은 5월 Pwn2Own Berlin 대회에서 17만 5천 달러를 수상한 지 5개월 만인 10월 28일에 공개되었습니다. Microsoft는 대회 다음 날 Edge 버그를 수정했습니다.",
+   "impact": "이번 연구는 메모리 안전성 검사 외에도 로직 결함만으로 복잡한 보안 경계를 우회할 수 있음을 보여주며, 보안 팀이 애플리케이션 로직을 함께 검토하도록 유도할 수 있습니다.",
+   "keyPoints": [
+    "로직 결함 체인이 메모리 손상 없이 Microsoft Edge 샌드박스를 우회했습니다.",
+    "DEVCORE의 Orange Tsai가 10월 28일에 전체 공격 방식을 공개했습니다.",
+    "이 기법은 5월 Pwn2Own Berlin 대회에서 17만 5천 달러의 상금을 수상했습니다.",
+    "Microsoft는 대회 다음 날 Edge 버그에 대한 패치를 배포했습니다."
+   ]
+  }
+ }
+}

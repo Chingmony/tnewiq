@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f83598082f121f26",
+ "contentHash": "10df3418d59cb61c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T19:06:22.409Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+   "summary": "Threat actors have started probing for a critical vulnerability in Oracle E-Business Suite just days after Oracle released a security patch. The flaw, identified as CVE-2026-101767 with a CVSS score of 9.8, involves improper authentication in the Oracle Application Object Library. Defused Cyber, a threat intelligence firm, reported the active probing activity.",
+   "impact": "Security teams and administrators using Oracle E-Business Suite may face immediate risks if they have not applied the recent security patch. This activity could indicate potential exploitation attempts against the critical flaw.",
+   "keyPoints": [
+    "Threat actors are targeting CVE-2026-101767 in Oracle E-Business Suite.",
+    "The vulnerability carries a CVSS score of 9.8.",
+    "The flaw involves improper authentication in the Oracle Application Object Library.",
+    "Oracle patched the issue last week."
+   ]
+  },
+  "km": {
+   "title": "ពួក ह्याគ getTarget ទៅលើកំហុសឆ្គង Oracle E-Business Suite RCE ដ៏គ្រោះថ្នាក់ បន្ទាប់ពីមានបំណះសុវត្ថិភាពមិនយូរប៉ុន្មាន",
+   "summary": "ក្រុមខិលខូចបានចាប់ផ្តើមស្វែងរកភាពខ្សោយដ៏គ្រោះថ្នាក់នៅក្នុង Oracle E-Business Suite ត្រឹមតែប៉ុន្មានថ្ងៃបន្ទាប់ពី Oracle បានចេញផ្សាយបំណះសុវត្ថិភាព។ ភាពខ្សោយនេះត្រូវបានកំណត់សម្គាល់ថា CVE-2026-101767 ដែលមានពិន្ទុ CVSS 9.8 ពាក់ព័ន្ធនឹងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវមិនត្រឹមត្រូវនៅក្នុង Oracle Application Object Library។ ក្រុមហ៊ុនស៊ើបការណ៍សម្ងាត់ផ្នែកសុវត្ថិភាព Defused Cyber បានរាយការណ៍អំពីសកម្មភាពស្វែងរកនេះ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកគ្រប់គ្រងដែលប្រើប្រាស់ Oracle E-Business Suite អាចនឹងប្រឈមមុខនឹងហានិភ័យភ្លាមៗប្រសិនបើពួកគេមិនទាន់បានអនុវត្តបំណះសុវត្ថិភាពថ្មីៗនេះ។ សកម្មភាពនេះអាចបង្ហាញពីការប៉ុនប៉ងកេងប្រវ័ញ្ចប្រឆាំងនឹងភាពខ្សោយដ៏សំខាន់នេះ។",
+   "keyPoints": [
+    "ក្រុមខិលខូចកំពុងកំណត់គោលដៅលើ CVE-2026-101767 នៅក្នុង Oracle E-Business Suite។",
+    "ភាពខ្សោយនេះមានពិន្ទុ CVSS 9.8។",
+    "កំហុសឆ្គងនេះពាក់ព័ន្ធនឹងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវមិនត្រឹមត្រូវនៅក្នុង Oracle Application Object Library។",
+    "Oracle បានដាក់បំណះបញ្ហាទាំនេះកាលពីសប្តាហ៍មុន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "黑客在发布安全补丁几天后针对Oracle E-Business Suite的关键RCE漏洞进行扫描",
+   "summary": "根据威胁情报公司Defused Cyber的报告，威胁发起者开始针对Oracle E-Business Suite中一个新修补的关键漏洞进行探测。该漏洞被标识为CVE-2026-101767，CVSS评分为9.8，是Oracle E-Business Suite的Oracle Application Object Library中身份验证不当的问题。Oracle已于上周作为其关键更新的一部分修复了该漏洞。",
+   "impact": "如果尚未应用最新的安全补丁，使用Oracle E-Business Suite的安全团队和管理员可能会面临直接风险。这种探测活动可能表明针对该关键漏洞的潜在利用尝试。",
+   "keyPoints": [
+    "威胁发起者正在针对Oracle E-Business Suite中的CVE-2026-101767进行探测。",
+    "该漏洞的CVSS评分高达9.8。",
+    "该漏洞涉及Oracle Application Object Library中的身份验证不当。",
+    "Oracle已在上周发布了该漏洞的补丁。"
+   ]
+  },
+  "ko": {
+   "title": "보안 패치 배포 며칠 만에 해커들이 치명적인 Oracle E-Business Suite RCE 취약점 타겟팅",
+   "summary": "위협 인텔리전스 기업 Defused Cyber에 따르면, 위협 행위자들이 Oracle E-Business Suite의 새로 패치된 치명적 취약점을 탐색하기 시작했다고 합니다. 문제의 취약점은 Oracle Application Object Library의 부적절한 인증 문제인 CVE-2026-101767이며 CVSS 점수는 9.8점입니다. 해당 취약점은 지난주 Oracle이 Critical 패치의 일환으로 수정했습니다.",
+   "impact": "Oracle E-Business Suite를 사용하는 보안 팀과 관리자는 최근 보안 패치를 적용하지 않은 경우 즉각적인 위험에 직면할 수 있습니다. 이러한 활동은 치명적인 결함에 대한 잠재적인 악용 시도를 나타낼 수 있습니다.",
+   "keyPoints": [
+    "위협 행위자들이 Oracle E-Business Suite의 CVE-2026-101767을 타겟팅하고 있습니다.",
+    "해당 취약점의 CVSS 점수는 9.8점입니다.",
+    "이 결함은 Oracle Application Object Library의 부적절한 인증과 관련이 있습니다.",
+    "Oracle은 지난주에 이 문제를 패치했습니다."
+   ]
+  }
+ }
+}

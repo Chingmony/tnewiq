@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "53865a638e7ceae6",
+ "contentHash": "bc20b50a18d7bce0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T18:58:29.848Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Accelerating software delivery with agentic QA automation using Amazon Nova Act – Part 3",
+   "summary": "As QA automation adoption grows inside an organization, organizing tests and controlling access becomes a major challenge. The third part of the series introduces two new capabilities for QA Studio, a reference solution built with Amazon Nova Act: applications for organizing tests and reporting health metrics, and team-based user management for access control. Applications act as containers that group tests and assign ownership, while health metrics record execution outcomes as Amazon CloudWatch custom metrics to calculate a health score.",
+   "impact": "These new capabilities could help development and security teams better manage large-scale test automation suites, track health metrics across different environments, and assign clear ownership for application testing.",
+   "keyPoints": [
+    "QA Studio introduces applications to organize tests, report health metrics, and assign ownership.",
+    "Team-based user management controls who can view and modify tests across an organization.",
+    "Execution outcomes are recorded as Amazon CloudWatch custom metrics to compute an application health score ranging from 0 to 100.",
+    "Metrics and views help teams track trends, filter by environment, and identify flaky tests."
+   ]
+  },
+  "km": {
+   "title": "ការពន្លឿនការបញ្ជូនកម្មវិធីដោយស្វ័យប្រវត្តិកម្ម QA ភ្នាក់ងារដោយប្រើ Amazon Nova Act – ផ្នែកទី 3",
+   "summary": "នៅពេលដែលការអនុម័តស្វ័យប្រវត្តិកម្ម QA កើនឡើង បញ្ហានៃការរៀបចំតេស្ត និងការគ្រប់គ្រងការចូលប្រើប្រាស់បានកើតឡើង។ ផ្នែកទីបីនេះណែនាំសមត្ថភាពពីរសម្រាប់ QA Studio ដែលត្រូវបានបង្កើតឡើងជាមួយ Amazon Nova Act គឺកម្មវិធីសម្រាប់ការរៀបចំតេស្ត និងការគ្រប់គ្រងអ្នកប្រើប្រាស់ផ្អែកលើក្រុម។ កម្មវិធីទាំងនេះជួយកំណត់ភាពជាម្ចាស់ ដាក់ជាក្រុមតេស្ត និងតាមដានរង្វាស់សុខភាពតាមរយៈ Amazon CloudWatch។",
+   "impact": "មុខងារទាំងនេះអាចជួយដល់ក្រុមអភិវឌ្ឍន៍ និងសន្តិសុខក្នុងការគ្រប់គ្រងការធ្វើតេស្តស្វ័យប្រវត្តិកម្មទ្រង់ទ្រាយធំ និងកំណត់ការទទួលខុសត្រូវច្បាស់លាស់។",
+   "keyPoints": [
+    "QA Studio ណែនាំកម្មវិធីដើម្បីរៀបចំតេស្ត និងរាយការណ៍រង្វាស់សុខភាព។",
+    "ការគ្រប់គ្រងអ្នកប្រើប្រាស់ផ្អែកលើក្រុមគ្រប់គ្រងអ្នកដែលមើល និងកែប្រើតេស្ត។",
+    "លទ្ធផលប្រតិបត្តិត្រូវបានកត់ត្រាជា Amazon CloudWatch ដើម្បីគណនាកិនពិន្ទុសុខភាព។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 Amazon Nova Act 通过智能体 QA 自动化加速软件交付 – 第 3 部分",
+   "summary": "随着组织内部 QA 自动化采用率的增长，测试组织和权限控制成为新的挑战。本系列第三部分介绍了使用 Amazon Nova Act 构建的参考解决方案 QA Studio 的两项新功能：用于组织测试和报告健康指标的应用程序，以及用于控制查看和修改权限的基于团队的用户管理。应用程序充当容器，将测试分组并分配所有权，同时健康指标将执行结果记录为 Amazon CloudWatch 自定义指标以计算健康评分。",
+   "impact": "这些新功能可以帮助开发和安全团队更好地管理大规模测试自动化套件，跨不同环境跟踪健康指标，并为应用程序测试分配明确的所有权。",
+   "keyPoints": [
+    "QA Studio 引入了应用程序来组织测试、报告健康指标并分配所有权。",
+    "基于团队的用户管理可控制组织中谁可以查看和更改测试。",
+    "执行结果被记录为 Amazon CloudWatch 自定义指标，以计算 0 到 100 之间的应用程序健康评分。",
+    "指标和视图可帮助团队跟踪趋势、按环境过滤并识别不稳定的测试。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Nova Act를 활용한 에이전틱 QA 자동화로 소프트웨어 전달 가속화 – 3부",
+   "summary": "조직 내에서 QA 자동화 도입이 증가함에 따라 테스트 조직화와 액세스 제어가 중요한 과제로 떠오릅니다. 3부에서는 Amazon Nova Act로 구축된 참조 솔루션인 QA Studio에 테스트를 조직하고 상태 지표를 보고하는 애플리케이션 기능과 팀 기반 사용자 관리 기능 등 두 가지 새로운 기능이 추가되었습니다. 애플리케이션은 테스트를 그룹화하고 소유권을 할당하는 컨테이너 역할을 하며, 상태 지표는 실행 결과를 Amazon CloudWatch 사용자 지정 지표로 기록하여 건강 점수를 계산합니다.",
+   "impact": "이러한 새로운 기능은 개발 및 보안 팀이 대규모 테스트 자동화 스위트를 더 잘 관리하고, 다양한 환경에서 상태 지표를 추적하며, 애플리케이션 테스트에 대한 명확한 소유권을 할당하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "QA Studio는 테스트를 조직하고 상태 지표를 보고하며 소유권을 할당하는 애플리케이션 기능을 도입합니다.",
+    "팀 기반 사용자 관리를 통해 조직 내에서 테스트를 보고 변경할 수 있는 사람을 제어합니다.",
+    "실행 결과는 Amazon CloudWatch 사용자 지정 지표로 기록되어 0에서 100 사이의 애플리케이션 건강 점수를 계산합니다.",
+    "지표와 뷰를 통해 팀은 트렌드를 추적하고, 환경별로 필터링하며, 불안정한 테스트를 식별할 수 있습니다."
+   ]
+  }
+ }
+}

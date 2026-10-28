@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9590ed7a40f8b7a4",
+ "contentHash": "a3e4c8e8c54a8589",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T19:06:35.274Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+   "summary": "A critical 16-year-old vulnerability in the open-source EDK II code used for UEFI firmware allows code execution before the operating system loads. This issue specifically affects machines while they are booting over the network. UEFI firmware is the initial software that runs when a computer powers on.",
+   "impact": "This flaw could allow attackers to run code prior to Secure Boot if they can reach the target machine during a network boot. Security teams and system administrators managing network-booting servers may need to monitor or patch firmware components derived from EDK II.",
+   "keyPoints": [
+    "A critical 16-year-old flaw affects EDK II open-source code.",
+    "EDK II is used by most hardware makers to build UEFI firmware.",
+    "The vulnerability allows code execution before the OS loads, specifically during network boots."
+   ]
+  },
+  "km": {
+   "title": "ពិការភាព UEFI អាយុ ១៦ ឆ្នាំដ៏គ្រោះថ្នាក់ខ្លាំងអាចដំណើរការកូដមុន Secure Boot នៅលើម៉ាស៊ីនបម្រើប៊ូតតាមបណ្តាញ",
+   "summary": "ពិការភាពអាយុ ១៦ ឆ្នាំដ៏គ្រោះថ្នាក់នៅក្នុង EDK II ដែលជាកូដប្រភពបើកចំហប្រើប្រាស់ដោយក្រុមហ៊ុនផលិតផ្នែករឹងភាគច្រើនសម្រាប់បង្កើត UEFI firmware បានអនុញ្ញាតឱ្យអ្នកវាយប្រហារដំណើរការកូដនៅលើម៉ាស៊ីនមុនពេលប្រព័ន្ធប្រតិបត្តិការផ្ទុក ប៉ុន្តែធ្វើឡើងបានតែពេលម៉ាស៊ីនកំពុងប៊ូតតាមបណ្តាញប៉ុណ្ណោះ។ UEFI firmware គឺជាកម្មវិធីដែលដំណើរការដំបូងបង្អស់ពេលកុំព្យូទ័រត្រូវបានបើក មុនពេលប្រព័ន្ធប្រតិបត្តិការ។",
+   "impact": "បញ្ហានេះអាចអនុញ្ញាតឱ្យអ្នកវាយប្រហារដំណើរការកូដមុន Secure Boot ប្រសិនបើពួកគេអាចចូលទៅដល់ម៉ាស៊ីនខណៈពេលប៊ូតតាមបណ្តាញ។ ក្រុមសន្តិសុខនិងអ្នកគ្រប់គ្រងប្រព័ន្ធអាចត្រូវពិនិត្យមើលសមាសភាគ firmware ដែលបង្កើតចេញពី EDK II។",
+   "keyPoints": [
+    "ពិការភាពអាយុ ១៦ ឆ្នាំប៉ះពាល់ដល់កូដប្រភពបើកចំហ EDK II។",
+    "EDK II ត្រូវ បាន ប្រើ ប្រាស់ ដោយ ក្រុមហ៊ុន ផលិត ផ្នែក រឹង ភាគ ច្រើន សម្រាប់ UEFI firmware។",
+    "ភាពខ្សោយនេះអនុញ្ញាតឱ្យដំណើរការកូដមុនពេលប្រព័ន្ធប្រតិបត្តិការផ្ទុកក្នុងពេលប៊ូតតាមបណ្តាញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "存在16年的严重UEFI漏洞可在网络启动服务器上在Secure Boot之前运行代码",
+   "summary": "EDK II中存在一个长达16年的严重漏洞。EDK II是大多数硬件厂商用于构建UEFI固件的开源代码，该漏洞允许攻击者在操作系统加载之前在机器上运行代码，但前提是机器正在通过网络启动。UEFI firmware是计算机开机时最先运行的软件。",
+   "impact": "如果攻击者能够在网络启动期间接触到目标机器，该漏洞可能会使他们能够在 Secure Boot 之前运行代码。负责管理网络启动服务器的安全团队和技术人员可能需要关注或修补受影响的固件组件。",
+   "keyPoints": [
+    "开源代码EDK II中发现了一个存在16年的严重漏洞。",
+    "大多数硬件厂商使用EDK II构建UEFI固件。",
+    "该漏洞允许在网络启动期间于操作系统加载前执行代码。"
+   ]
+  },
+  "ko": {
+   "title": "네트워크 부팅 서버에서 Secure Boot보다 먼저 코드를 실행할 수 있는 16년 된 치명적인 UEFI 결함",
+   "summary": "대부분의 하드웨어 제조사가 UEFI 펌웨어를 구축하는 데 사용하는 오픈 소스 코드인 EDK II에서 16년 된 치명적인 결함이 발견되었습니다. 이 결함은 공격자가 운영체제가 로드되기 전에 기기에서 코드를 실행할 수 있도록 허용하지만, 기기가 네트워크를 통해 부팅되는 동안에만 가능합니다. UEFI 펌웨어는 컴퓨터가 켜질 때 운영체제보다 먼저 실행되는 소프트웨어입니다.",
+   "impact": "이 취약점은 네트워크 부팅 중에 대상 기기에 접근할 수 있는 공격자가 Secure Boot 이전에 코드를 실행할 수 있게 할 수 있습니다. 네트워크 부팅 서버를 관리하는 보안 팀과 기술 사용자는 EDK II 기반의 펌웨어 구성을 점검하거나 패치해야 할 수 있습니다.",
+   "keyPoints": [
+    "EDK II 오픈 소스 코드에 16년 된 치명적인 결함이 존재합니다.",
+    "EDK II는 대부분의 하드웨어 제조사가 UEFI 펌웨어를 만드는 데 사용합니다.",
+    "이 취약점은 네트워크 부팅 중에 운영체제 로드 전 코드 실행을 허용합니다."
+   ]
+  }
+ }
+}

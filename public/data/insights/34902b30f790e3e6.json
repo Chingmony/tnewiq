@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "34902b30f790e3e6",
+ "contentHash": "fba77313ca1c1e3f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T19:03:18.884Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+   "summary": "Developers pushed code to GitHub 17.9 billion times over the past 12 months, surpassing the combined totals of 2024 and 2025. Total commits reached 34.3 billion, while merged pull requests climbed to 1.3 billion. This rapid growth coincided with the widespread adoption of coding agents, which moved from experimental tools to core daily assistants.",
+   "impact": "Development teams and security professionals may see faster release cycles and increased repository activity due to agent integration and automation. Software maintainers could also benefit from higher automation use, such as Dependabot pull requests, though managing the sheer volume of agent-driven commits may require adjusted review workflows.",
+   "keyPoints": [
+    "Developers pushed code to GitHub 17.9 billion times in the past 12 months.",
+    "By September, more than 40% of pull requests were started with an agent, up from 17% in March.",
+    "New repositories with an agent configuration file logged eight times as many commits on average as repos without one.",
+    "GitHub Actions ran a job 1,440 times every second, totaling 124 million times a day."
+   ]
+  },
+  "km": {
+   "title": "Octoverse៖ ការCommit និង Push កើនឡើងដល់កម្រិតខ្ពស់បំផុតក្នុងឆ្នាំ ២០២៦ ខណៈអ្នកអភិវឌ្ឍន៍សាងសង់ជាមួយភ្នាក់ងារ",
+   "summary": "អ្នកអភិវឌ្ឍន៍បានបញ្ជូនកូដទៅកាន់ GitHub ចំនួន ១៧,៩ ប៊ីដងក្នុងរយៈពេល ១២ ខែកន្លងមកនេះ ដែលច្រើនជាងឆ្នាំ ២០២៤ និង ២០២៥ រួមបញ្ចូលគ្នា។ ការCommit សរុបបានឡើងដល់ ៣៤,៣ ប៊ីដង ខណៈសំណើ Pull Request ដែលបានបញ្ចូលគ្នាបានកើនឡើងដល់ ១,៣ ប៊ីដង។ ការលូតលាស់យ៉ាងឆាប់រហ័សនេះស្របពេលជាមួយនឹងការប្រើប្រាស់ភ្នាក់ងារសរសេរកូដយ៉ាងទូលំទូលាយ ដែលបានប្រែក្លាយពីឧបករណ៍ពិសោធន៍ទៅជាជំនួយការប្រចាំថ្ងៃដ៏សំខាន់។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍និងអ្នកជំនាញផ្នែកសន្តិសុខអាចនឹងឃើញវដ្តនៃការចេញផ្សាយលឿនជាងមុន និងសកម្មភាពឃ្លាំងផ្ទុកកូដកើនឡើង ដោយសារតែការរួមបញ្ចូលគ្នារหว่างភ្នាក់ងារនិងស្វ័យប្រវត្តិកម្ម។ អ្នកថែទាំកម្មវិធីក៏អាចទទួលបានអត្ថប្រយោជន៍ពីការប្រើប្រាស់ស្វ័យប្រវត្តិកម្មខ្ពស់ផងដែរ ទោះបីជាការគ្រប់គ្រងបរិមាណដ៏ច្រើននៃការCommit ដែលជំរុញដោយភ្នាក់ងារអាចទាមទារឱ្យមានការកែសម្រួលលំហូរការងារពិនិត្យក៏ដោយ។",
+   "keyPoints": [
+    "អ្នកអភិវឌ្ឍន៍បានបញ្ជូនកូដទៅកាន់ GitHub ចំនួន ១៧,៩ ប៊ីដងក្នុងរយៈពេល ១២ ខែកន្លងមកនេះ។",
+    "ត្រឹមខែកញ្ញា សំណើ Pull Request มากជាង ៤០% ត្រូវបានចាប់ផ្តើមដោយប្រើភ្នាក់ងារ កើនឡើងពី ១៧% ក្នុងខែមីនា។",
+    "ឃ្លាំងផ្ទុកកូដថ្មីដែលមានឯកសារកំណត់រចនាសម្ព័ន្ធភ្នាក់ងារបានកត់ត្រាការCommit ជាមធ្យមច្រើនជាងប្រាំដងបើធៀបនឹងឃ្លាំងដែលគ្មាន។",
+    "GitHub Actions បានដំណើរការការងារចំនួន ១.៤៤០ ដងក្នុងមួយវិនាទី ដែលស្មើនឹង ១២៤ លានដងក្នុងមួយថ្ងៃ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Octoverse：随着开发者借助智能体进行构建，2026年提交量和推送量再创新高",
+   "summary": "在过去的12个月里，开发者向GitHub推送代码达179亿次，超过了2024和2025年的总和。总提交量达到343亿次，合并的拉取请求攀升至13亿次。这种快速增长恰逢编码智能体的广泛应用，它们从实验性工具转变为核心的日常助手。",
+   "impact": "由于智能体集成和自动化技术的应用，开发团队和安全专业人员可能会看到更快的发布周期以及增加的代码库活动。软件维护人员还可以从更高水平的自动化中受益，例如Dependabot拉取请求，尽管管理由智能体驱动的大量提交可能需要调整审查工作流。",
+   "keyPoints": [
+    "在过去的12个月里，开发者向GitHub推送代码达179亿次。",
+    "截至9月份，超过40%的拉取请求由智能体发起，高于3月份的17%。",
+    "带有智能体配置文件的新代码库平均记录的提交量是没有配置文件的平均新代码库的八倍。",
+    "GitHub Actions每秒运行1440个任务，每天总计1.24亿次。"
+   ]
+  },
+  "ko": {
+   "title": "Octoverse: 개발자들이 에이전트와 함께 빌드함에 따라 2026년 커밋 및 푸시가 최고 기록 달성",
+   "summary": "지난 12개월 동안 개발자들이 GitHub에 코드를 푸시한 횟수는 179억 번으로, 2024년과 2025년을 합친 것보다 많습니다. 총 커밋 수는 343억 건에 달했고 병합된 풀 리퀘스트는 13억 건으로 증가했습니다. 이러한 급격한 성장은 코딩 에이전트의 광범위한 도입 시기와 맞물려, 에이전트가 실험적 도구에서 핵심 일상 보조 도구로 전환되었습니다.",
+   "impact": "개발 팀과 보안 전문가들은 에이전트 통합 및 자동화로 인해 더 빠른 릴리스 주기와 증가된 리포지토리 활동을 경험할 수 있습니다. 소프트웨어 유지보수 담당자 역시 Dependabot 풀 리퀘스트와 같은 높은 수준의 자동화 혜택을 누릴 수 있지만, 에이전트로 인해 생성되는 대량의 커밋을 관리하기 위해 검토 워크플로를 조정해야 할 수도 있습니다.",
+   "keyPoints": [
+    "개발자들은 지난 12개월 동안 GitHub에 179억 번 코드를 푸시했습니다.",
+    "9월 기준 전체 풀 리퀘스트의 40% 이상이 에이전트로 시작되었으며, 이는 3월의 17%에서 증가한 수치입니다.",
+    "에이전트 구성 파일이 있는 새 리포지토리는 그렇지 않은 새 리포지토리에 비해 평균적으로 8배 많은 커밋을 기록했습니다.",
+    "GitHub Actions는 매초 1,440개의 작업을 실행하여 하루 총 1억 2,400만 번을 기록했습니다."
+   ]
+  }
+ }
+}

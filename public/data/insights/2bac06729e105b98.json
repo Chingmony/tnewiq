@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2bac06729e105b98",
+ "contentHash": "d8fc0ab3015d2153",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T18:57:58.386Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Distributed training with Ray Train DLCs and EFA on EKS",
+   "summary": "Building custom containers for distributed PyTorch training can be complex due to the need to align CUDA, PyTorch, NCCL, EFA libraries, and Ray versions. AWS provides pre-built Ray Train Deep Learning Containers (DLCs) through Amazon ECR Public to simplify this process. A walkthrough sample demonstrates fine-tuning Qwen2.5-1.5B using PyTorch Fully Sharded Data Parallel across eight NVIDIA L4 GPUs on two g6.12xlarge instances on Amazon EKS without building custom images.",
+   "impact": "Development and security teams could save significant time and effort by avoiding manual container image maintenance and compatibility troubleshooting. Utilizing pre-built DLCs may also streamline scaling distributed machine learning workloads on Kubernetes.",
+   "keyPoints": [
+    "Ray Train DLCs bundle PyTorch, CUDA, NCCL, EFA libraries, and Ray into a single pre-built and patched image from AWS.",
+    "KubeRay acts as an open-source Kubernetes operator that manages Ray head and worker pods using a RayCluster manifest on Amazon EKS.",
+    "The sample fine-tunes Qwen2.5-1.5B with PyTorch FSDP across two g6.12xlarge instances without requiring custom container builds."
+   ]
+  },
+  "km": {
+   "title": "Distributed training with Ray Train DLCs and EFA on EKS",
+   "summary": "ការបង្កើតកុងតឺន័រផ្ទាល់ខ្លួនសម្រាប់ការបណ្តុះបណ្តាល PyTorch ចែកចាយអាចមានភាពស្មុគស្មាញដោយសារតម្រូវការសម្របសម្រួលកំណែ CUDA, PyTorch, NCCL, EFA និង Ray ។ AWS ផ្តល់នូវ Ray Train Deep Learning Containers (DLCs) ដែលបានបង្កើតរួចជាស្រេចតាមរយៈ Amazon ECR Public ដើម្បីសម្រួលដល់ដំណើរការនេះ។ គំរូនាំផ្លូវបង្ហាញពីការលៃតម្រូវ Qwen2.5-1.5B ដោយប្រើ PyTorch Fully Sharded Data Parallel លើ GPU NVIDIA L4 ចំនួនប្រាំបីនៅលើគំរូ g6.12xlarge ចំនួនពីរនៅលើ Amazon EKS ដោយមិនបាច់បង្កើតរូបភាពកុងតឺន័រផ្ទាល់ខ្លួនឡើយ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងសុវត្ថិភាពអាចចំណាយពេល និងកម្លាំងតិចជាងមុន ដោយជៀសវាងការថែទាំរូបភាពកុងតឺន័រដោយដៃ និងការដោះស្រាយបញ្ហាភាពស៊ីសង្វាក់គ្នា។ ការប្រើប្រាស់ DLCs ដែលបានបង្កើតស្រាប់ ក៏អាចជួយសម្រួលដល់ការពង្រីកបន្ទុកការងាររៀនម៉ាស៊ីនដែលបានចែកចាយនៅលើ Kubernetes ផងដែរ។",
+   "keyPoints": [
+    "Ray Train DLCs រួមបញ្ចូល PyTorch, CUDA, NCCL, EFA និង Ray ទៅក្នុងរូបភាពតែមួយដែលបានបង្កើត និងជួសជុលរួចជាស្រេចពី AWS ។",
+    "KubeRay គឺជាកម្មវិធីប្រតិបត្តិការ Kubernetes ប្រភពបើកចំហដែលគ្រប់គ្រងកន្លែង Ray head និង worker តាមរយៈ manifest របស់ RayCluster នៅលើ Amazon EKS ។",
+    "គំរូនេះលៃតម្រូវ Qwen2.5-1.5B ជាមួយ PyTorch FSDP ឆ្លងកាត់គំរូ g6.12xlarge ចំនួនពីរដោយមិនចាំបាច់បង្កើតកុងតឺន័រផ្ទាល់ខ្លួនទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Distributed training with Ray Train DLCs and EFA on EKS",
+   "summary": "由于需要协调 CUDA、PyTorch、NCCL、EFA 库和 Ray 版本，为分布式 PyTorch 训练构建自定义容器可能非常复杂。AWS 通过 Amazon ECR Public 提供预构建的 Ray Train 深度学习容器 (DLC) 来简化此过程。演练示例展示了在 Amazon EKS 上的两个 g6.12xlarge 实例上的八个 NVIDIA L4 GPU 之间，使用 PyTorch Fully Sharded Data Parallel 微调 Qwen2.5-1.5B，且无需构建任何自定义镜像。",
+   "impact": "通过避免手动维护容器镜像和兼容性故障排除，开发和安全团队可以节省大量时间和精力。使用预构建的 DLC 也可能简化在 Kubernetes 上扩展分布式机器学习工作负载的过程。",
+   "keyPoints": [
+    "Ray Train DLC 将 PyTorch、CUDA、NCCL、EFA 库和 Ray 打包成 AWS 预构建和维护的单一镜像。",
+    "KubeRay 是一个开源的 Kubernetes 运算符，使用 Amazon EKS 上的 RayCluster 清单来管理 Ray 头节点和工作节点 pod。",
+    "该示例使用 PyTorch FSDP 在两个 g6.12xlarge 实例上微调 Qwen2.5-1.5B，而无需构建任何镜像。"
+   ]
+  },
+  "ko": {
+   "title": "Distributed training with Ray Train DLCs and EFA on EKS",
+   "summary": "분산 PyTorch 학습을 위한 커스텀 컨테이너 구축은 CUDA, PyTorch, NCCL, EFA 라이브러리 및 Ray 버전을 일치시켜야 하므로 복잡할 수 있습니다. AWS는 이 과정을 간소화하기 위해 Amazon ECR Public을 통해 사전 구축된 Ray Train Deep Learning Containers(DLC)를 제공합니다. 제공된 샘플 가이드는 커스텀 이미지를 빌드하지 않고도 Amazon EKS의 g6.12xlarge 인스턴스 2대의 NVIDIA L4 GPU 8개에서 PyTorch Fully Sharded Data Parallel을 사용하여 Qwen2.5-1.5B를 미세 조정하는 방법을 보여줍니다.",
+   "impact": "개발 및 보안 팀은 수동 컨테이너 이미지 유지 관리 및 호환성 문제 해결을 피함으로써 상당한 시간과 노력을 절약할 수 있습니다. 사전 구축된 DLC를 활용하면 Kubernetes에서 분산 머신러닝 워크로드의 확장성도 향상될 수 있습니다.",
+   "keyPoints": [
+    "Ray Train DLC는 PyTorch, CUDA, NCCL, EFA 라이브러리 및 Ray를 AWS가 사전 구축하고 패치한 단일 이미지로 결합합니다.",
+    "KubeRay는 Amazon EKS에서 RayCluster 매니페스트를 사용하여 Ray 헤드 및 워커 포드를 관리하는 오픈소스 Kubernetes 오퍼레이터입니다.",
+    "이 샘플은 커스텀 이미지 빌드 없이 2대의 g6.12xlarge 인스턴스에서 PyTorch FSDP를 사용하여 Qwen2.5-1.5B를 미세 조정합니다."
+   ]
+  }
+ }
+}

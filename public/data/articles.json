@@ -1,7 +1,607 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-28T13:00:35.665Z",
+ "generatedAt": "2026-10-28T18:52:51.211Z",
  "articles": [
+  {
+   "id": "29b3350fcf5dde8e",
+   "sourceId": "vscode-blog",
+   "sourceName": "Visual Studio Code Blog",
+   "originalTitle": "Visual Studio Code 1.145 (Insiders)",
+   "originalUrl": "https://code.visualstudio.com/updates/v1_145",
+   "originalLanguage": "en",
+   "originalDescription": "Learn what is new in Visual Studio Code 1.145 (Insiders). Read the full article",
+   "publishedAt": null,
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "7755dd8d02931752"
+  },
+  {
+   "id": "297bfab976061294",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
+   "originalUrl": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/",
+   "originalLanguage": "en",
+   "originalDescription": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities…",
+   "publishedAt": "2026-10-28T18:50:39.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "7a363ad3ae8cb58b"
+  },
+  {
+   "id": "721146dc4df94791",
+   "sourceId": "ars-technica-ai",
+   "sourceName": "Ars Technica AI",
+   "originalTitle": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+   "originalUrl": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+   "originalLanguage": "en",
+   "originalDescription": "Gemini 4 Carbon is essentially a slightly better version of Argon.",
+   "publishedAt": "2026-10-28T18:47:27.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-2-1152x648.jpg",
+   "contentHash": "730e4c769caca32c"
+  },
+  {
+   "id": "8c981a7773ea1054",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Microsoft is ending Copilot support on smart TVs",
+   "originalUrl": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+   "originalLanguage": "en",
+   "originalDescription": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assistant's functionality on all TVs this year, according to a report by Windows Central. The news comes…",
+   "publishedAt": "2026-10-28T18:36:26.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "1a9f478895e8565b"
+  },
+  {
+   "id": "4ebc8e400813c855",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
+   "originalLanguage": "en",
+   "originalDescription": "Stand up a governed, multi-account Agentic AI Platform on Amazon Bedrock AgentCore. This post walks through the architecture and an open-source reference blueprint: the operating model, control plane, per-Workstream cells, separate inference and tool gateways, and a CI/CD…",
+   "publishedAt": "2026-10-28T18:28:26.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "52379f02a445bf06"
+  },
+  {
+   "id": "2bac06729e105b98",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Distributed training with Ray Train DLCs and EFA on EKS",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/",
+   "originalLanguage": "en",
+   "originalDescription": "The Ray Train Deep Learning Container ships the full CUDA-through-EFA stack, so you build no image. This post walks through a reproducible sample that fine-tunes Qwen2.5-1.5B with PyTorch FSDP across eight GPUs on two EFA-enabled g6.12xlarge instances on Amazon EKS, using the…",
+   "publishedAt": "2026-10-28T18:19:54.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "d8fc0ab3015d2153"
+  },
+  {
+   "id": "53865a638e7ceae6",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Accelerating software delivery with agentic QA automation using Amazon Nova Act – Part 3",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act-part-3/",
+   "originalLanguage": "en",
+   "originalDescription": "As QA test automation spreads across an organization, organizing tests and controlling who owns them becomes the real work. Part 3 of the QA Studio series on Amazon Nova Act adds applications that organize tests and report health metrics, plus team-based user management that…",
+   "publishedAt": "2026-10-28T18:12:13.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "bc20b50a18d7bce0"
+  },
+  {
+   "id": "3402ef3be45eaaf5",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+   "originalUrl": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+   "originalLanguage": "en",
+   "originalDescription": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First identified in late 2023, Silent Train uses rotating…",
+   "publishedAt": "2026-10-28T18:08:33.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXuRyHXVM1n6S9Z49nYkM2dmJjKwuZx2RAre0CQSpB202GteLj8keMogqzR7ZVIv7YRc9udBHU7-oCpnpzL6nLaez3ypbVr9cVmiH9zFwJVApy5cev84W725y38auaUdkCQGN3zvngCivMUl-SYV1jnJu9eHduaYeBzro4cdmFHIQJfBQN4RvcC-fUTrs1/s1600/si.jpg",
+   "contentHash": "3d350a9d65ef0f50"
+  },
+  {
+   "id": "f4fbe885f8a380c9",
+   "sourceId": "ars-technica-ai",
+   "sourceName": "Ars Technica AI",
+   "originalTitle": "Google AI gets cagey when asked who won the 2020 elections",
+   "originalUrl": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+   "originalLanguage": "en",
+   "originalDescription": "But the AI responses get more forthright when asked outside the US.",
+   "publishedAt": "2026-10-28T17:46:32.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-1152x648.jpg",
+   "contentHash": "87d280f51f4bad8b"
+  },
+  {
+   "id": "8a5e3ec0466b72d0",
+   "sourceId": "apple-newsroom",
+   "sourceName": "Apple Newsroom",
+   "originalTitle": "Apple unveils groundbreaking MacBook Pro with PROLED XDR Display",
+   "originalUrl": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+   "originalLanguage": "en",
+   "originalDescription": "Apple today introduced the all-new MacBook Pro with PROLED XDR Display featuring breakthrough tandem OLED technology.",
+   "publishedAt": "2026-10-28T17:09:28.430Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "c1db7de66733aa9b"
+  },
+  {
+   "id": "346aefdaad097d5a",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+   "originalUrl": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+   "originalLanguage": "en",
+   "originalDescription": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a store must pass identity checks and send Google its full catalog, along with…",
+   "publishedAt": "2026-10-28T17:08:09.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "cybersecurity",
+    "mobile-hardware"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJGjoQXY31UWoQz0bfvFTDRKy4lDpdbhqOJFgOspdG5AcGZNlsme3byg1-XnmyLsx7HQrxb0iojoqyoeO0KDhEDWbLxzQLceuQwSlD8TXgkhzoRCyFepV0PcOwNee4lCypBnYFiZ4DhJ_ZojQ0HyRuCGGqFVAwBxMqdzkOHL2I1tLTUctLATvKl7MMONo/s1600/android-app-install.jpg",
+   "contentHash": "04655f274fe6d344"
+  },
+  {
+   "id": "e8e0cb1d0e685ced",
+   "sourceId": "google-deepmind-blog",
+   "sourceName": "Google DeepMind Blog",
+   "originalTitle": "Gemini 4 Carbon: Our next frontier model",
+   "originalUrl": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-10-28T17:00:58.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "7c66693efbe21bb6"
+  },
+  {
+   "id": "9327e550d0f4f4ee",
+   "sourceId": "meta-newsroom",
+   "sourceName": "Meta Newsroom",
+   "originalTitle": "Meta Partners With Five US Universities to Accelerate Medical and Scientific Breakthroughs",
+   "originalUrl": "https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/",
+   "originalLanguage": "en",
+   "originalDescription": "Meta is bringing Superintelligence models, research funding, and direct researcher collaboration to US universities that are using our models to solve critical issues in science and medicine. The post Meta Partners With Five US Universities to Accelerate Medical and Scientific…",
+   "publishedAt": "2026-10-28T17:00:49.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": "https://about.fb.com/wp-content/uploads/2026/10/Meta-Partners-With-Five-US-Universities-to-Accelerate-Medical-and-Scientific-Breakthroughs_Header.jpg?fit=1920%2C1080",
+   "contentHash": "4716f81759502710"
+  },
+  {
+   "id": "1760a15dd7dbe317",
+   "sourceId": "vscode-blog",
+   "sourceName": "Visual Studio Code Blog",
+   "originalTitle": "Visual Studio Code 1.144",
+   "originalUrl": "https://code.visualstudio.com/updates/v1_144",
+   "originalLanguage": "en",
+   "originalDescription": "Learn what's new in Visual Studio Code 1.144 Read the full article",
+   "publishedAt": "2026-10-28T17:00:00.000Z",
+   "discoveredAt": "2026-10-25T13:43:48.608Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "3ab987ce80e96655"
+  },
+  {
+   "id": "db30df4bb3be374c",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
+   "originalUrl": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+   "originalLanguage": "en",
+   "originalDescription": "Following improvements made to Chrome's enhanced autofill last year that included your name, passport number, email address, and physical addresses sourced from your Google Accounts and services like Google Wallet, the feature is now expanding. Starting today, Chrome's enhanced…",
+   "publishedAt": "2026-10-28T17:00:00.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "49b2ff209acaccf6"
+  },
+  {
+   "id": "dc7790b3a03a16cf",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+   "originalUrl": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+   "originalLanguage": "en",
+   "originalDescription": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+   "publishedAt": "2026-10-28T17:00:00.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "91a5c34542061009"
+  },
+  {
+   "id": "f2796a9e771f5f13",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+   "originalUrl": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+   "originalLanguage": "en",
+   "originalDescription": "The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.",
+   "publishedAt": "2026-10-28T17:00:00.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "ba9f52522277a633"
+  },
+  {
+   "id": "d2a63e147caaed88",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Google opens Android development to third-party AI agents and unveils new Gemini APIs",
+   "originalUrl": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
+   "originalLanguage": "en",
+   "originalDescription": "Google is opening up Android Studio to third-party AI agents. Through a new \"Bring Your Own Agent\" feature, the IDE now supports more than 40 coding agents, including Anthropic's Claude Agent and OpenAI's Codex. Google says new terminal tools also help agents finish UI tasks 77…",
+   "publishedAt": "2026-10-28T16:59:59.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "05cc561073b25c96"
+  },
+  {
+   "id": "c16d44eb50537700",
+   "sourceId": "nodejs-releases",
+   "sourceName": "Node.js Releases",
+   "originalTitle": "Node.js 26.13.0 (LTS)",
+   "originalUrl": "https://nodejs.org/en/blog/release/v26.13.0",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-10-28T16:58:40.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "programming-languages"
+   ],
+   "imageUrl": null,
+   "contentHash": "62970b2d122610cf"
+  },
+  {
+   "id": "e9a7a10b5a66f3aa",
+   "sourceId": "simon-willison",
+   "sourceName": "Simon Willison's Weblog",
+   "originalTitle": "GitHub Octoverse 2026",
+   "originalUrl": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+   "originalLanguage": "en",
+   "originalDescription": "GitHub Octoverse 2026 I'm at GitHub Universe today (GitHub gave me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report, and highlighted these numbers in particular: This is a pretty stark representation of the impact…",
+   "publishedAt": "2026-10-28T16:45:23.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai",
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "3680eef8988439d2"
+  },
+  {
+   "id": "7ffc6e7f6ce1eb22",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "OpenAI teases Dots for Europe, but its Berlin DevDay was really about building a platform",
+   "originalUrl": "https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/",
+   "originalLanguage": "en",
+   "originalDescription": "At DevDay Exchange in Berlin, OpenAI mostly repeated what it had already announced, but it did share a few new details. The AI assistant Dots should roll out more widely in Europe \"in a few weeks,\" and weekly Codex users in Germany have grown twentyfold since January. A clear…",
+   "publishedAt": "2026-10-28T16:25:02.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "452b1a9ed19ea6ea"
+  },
+  {
+   "id": "4abc2dcf4334fae9",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+   "originalUrl": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+   "originalLanguage": "en",
+   "originalDescription": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown. Orange Tsai of DEVCORE published the full method on October 28, five months after the…",
+   "publishedAt": "2026-10-28T16:23:34.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAGi2cGlEYo6PNV9aaEulhQB9MtbWjCBFhi3MugyJf4kGwtSPjq9F9wxhlptAUKuipSCQ0_NhE5eyEbHzMWnT6hVLsXtqrIQImq0QndxbKoKMz_gzxJonZa2jnvwHGEqjN_J7uyi5BPaqlGmtMn1y9xzJQywFZB_FNgKV-GR7qtBQfVmrLxdoUlyhPTiA/s1600/edge.jpg",
+   "contentHash": "90247c608eea3348"
+  },
+  {
+   "id": "de2913282eeb1567",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Claude for Legal now verifies sources automatically, then hands the file to a lawyer",
+   "originalUrl": "https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer/",
+   "originalLanguage": "en",
+   "originalDescription": "Anthropic is adding pre-built templates to Claude for Legal. These interactive overviews and tables simplify setup for legal teams and speed up routine work like contract reviews, while more than 60 integrations let firms connect their own databases directly. The article Claude…",
+   "publishedAt": "2026-10-28T16:20:03.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "fcdede917b3074b9"
+  },
+  {
+   "id": "1583c560106073a3",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Meta says it’ll probably delay its controversial new business terms again",
+   "originalUrl": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely",
+   "originalLanguage": "en",
+   "originalDescription": "Meta says it may push the implementation of its new business terms past November 20th as it faces backlash from publishers over concerns about AI training. In a post on X, Meta communications head Andy Stone said the company does \"not plan to make policy changes without a full…",
+   "publishedAt": "2026-10-28T16:15:30.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "6330081b46cc937d"
+  },
+  {
+   "id": "8d24f5677c199a45",
+   "sourceId": "github-blog",
+   "sourceName": "The GitHub Blog",
+   "originalTitle": "GitHub Universe 2026: Evolving every layer of the stack",
+   "originalUrl": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+   "originalLanguage": "en",
+   "originalDescription": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog .",
+   "publishedAt": "2026-10-28T16:09:28.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "5523a8a536989152"
+  },
+  {
+   "id": "34902b30f790e3e6",
+   "sourceId": "github-blog",
+   "sourceName": "The GitHub Blog",
+   "originalTitle": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+   "originalUrl": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+   "originalLanguage": "en",
+   "originalDescription": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog .",
+   "publishedAt": "2026-10-28T16:07:40.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "fba77313ca1c1e3f"
+  },
+  {
+   "id": "257599f0048efc91",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+   "originalUrl": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+   "originalLanguage": "en",
+   "originalDescription": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was…",
+   "publishedAt": "2026-10-28T16:02:45.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl3PPkqzXf7YyMcnwdBu5XWlOwWtUonf15z0n79qMtIOVTb4LNfKdnl7tUK-45_2boP9r2ZKuHmX6e1BZLmo-LYF-rUwH8gtNrynFuaX4rlNh20UXPvtIfC85BcKcHXK1qei6uOJyImSjTfO537yljJve0Y_zMlfFfhBl0mKPfppWhkfojtGlYgxLjdSO0/s1600/php-united.jpg",
+   "contentHash": "2f43e0e4fdc7d4e9"
+  },
+  {
+   "id": "c3f3cbf4e178e822",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "AI execs may be too out of touch to build for the general public",
+   "originalUrl": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+   "originalLanguage": "en",
+   "originalDescription": "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.",
+   "publishedAt": "2026-10-28T15:53:52.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "6e07f1b1a745d476"
+  },
+  {
+   "id": "28c7cc4d12419c93",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Nvidia's open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
+   "originalUrl": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/",
+   "originalLanguage": "en",
+   "originalDescription": "Nvidia has released Nemotron 3.5 Transcribe, an open speech recognition model that handles transcription, speaker recognition, and translation and takes its instructions as text prompts. It leads several benchmarks and uses only a sixth of the active parameters of its strongest…",
+   "publishedAt": "2026-10-28T15:49:39.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "adbb65adc0e060f6"
+  },
+  {
+   "id": "776aed39bd32c423",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "South Korea’s financial industry hit by fresh wave of cyberattacks",
+   "originalUrl": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+   "originalLanguage": "en",
+   "originalDescription": "South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",
+   "publishedAt": "2026-10-28T15:41:18.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "413864320ff31efd"
+  },
+  {
+   "id": "68aae12c9eff8d7b",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "New Artificial Analysis index widens the gap between open and closed models",
+   "originalUrl": "https://the-decoder.com/new-artificial-analysis-index-widens-the-gap-between-open-and-closed-models/",
+   "originalLanguage": "en",
+   "originalDescription": "Artificial Analysis overhauled its Intelligence Index, causing Kimi K3.1 Pro to drop five spots in the rankings. The article New Artificial Analysis index widens the gap between open and closed models appeared first on The Decoder .",
+   "publishedAt": "2026-10-28T15:04:43.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "afa7ee957fa58776"
+  },
+  {
+   "id": "9fa8e4999dc54776",
+   "sourceId": "nvidia-blog",
+   "sourceName": "NVIDIA Blog",
+   "originalTitle": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+   "originalUrl": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+   "originalLanguage": "en",
+   "originalDescription": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in…",
+   "publishedAt": "2026-10-28T15:00:46.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/10/nv-blog-1280x680-2-1.jpg",
+   "contentHash": "e64c0cfff619fe31"
+  },
+  {
+   "id": "8fd264d14a343cc6",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Voice AI in vogue: Nvidia releases new open transcription model",
+   "originalUrl": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+   "originalLanguage": "en",
+   "originalDescription": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to rivals like ElevenLabs.",
+   "publishedAt": "2026-10-28T15:00:00.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "418b15c645689734"
+  },
+  {
+   "id": "ec733f799e1aaee3",
+   "sourceId": "huggingface-blog",
+   "sourceName": "Hugging Face Blog",
+   "originalTitle": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+   "originalUrl": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-10-28T14:58:17.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "bb77435eaf6f31c3"
+  },
+  {
+   "id": "bddebf86268f0d30",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "xAI is buying out homeowners who promise not to sue over data center noise",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+   "originalLanguage": "en",
+   "originalDescription": "A subsidiary of Elon Musk's xAI is offering to buy up homes in a Mississippi neighborhood, as long as residents don't join a lawsuit targeting the company's nearby data center and power plant, according to a report from The Guardian. A realtor going door-to-door in the…",
+   "publishedAt": "2026-10-28T14:44:00.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "797baf7b3c52a179"
+  },
+  {
+   "id": "7f577f4b01c6fc58",
+   "sourceId": "simon-willison",
+   "sourceName": "Simon Willison's Weblog",
+   "originalTitle": "The October inflection point for vibe game development",
+   "originalUrl": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+   "originalLanguage": "en",
+   "originalDescription": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new…",
+   "publishedAt": "2026-10-28T13:55:15.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai",
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "f5f9530cfa0dd4f3"
+  },
+  {
+   "id": "3d80486e8e6b07c7",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open",
+   "originalUrl": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/",
+   "originalLanguage": "en",
+   "originalDescription": "In just 7 days, TechCrunch Founder Summit takes over Boston’s SoWa Power Station on November 4. Your chance to save up to $100 on tickets is running out, and the opportunity to learn and connect directly with experienced founders, investors, and startup leaders is almost here.",
+   "publishedAt": "2026-10-28T13:00:00.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "49281681ac0d8087"
+  },
   {
    "id": "ab08e27b9d711333",
    "sourceId": "docker-blog",
@@ -17,6 +617,22 @@
    ],
    "imageUrl": null,
    "contentHash": "967c700eaf18a893"
+  },
+  {
+   "id": "f83598082f121f26",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+   "originalUrl": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+   "originalLanguage": "en",
+   "originalDescription": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of improper authentication in the…",
+   "publishedAt": "2026-10-28T12:48:03.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBB03AGS7veiAqQ7-xPeadzhhaRvDmhOlLgQcDN0y-r1na_us5yomWjBEXCbwbw8OW_o8SSGjjqk4VZFQ4ZxLiWKQPZxlcBkzJ5lv3OlEV0rOETUKyQzWoZ74LGpSjOjrScmk1rVf0OhRmDACHG3jwSDfBnnta75I_3s_nuoWGZmcfg7NZfHBp_PEIl8aj/s1600/oracle-hack.jpg",
+   "contentHash": "10df3418d59cb61c"
   },
   {
    "id": "3a0e6f223eff99ed",
@@ -51,6 +667,22 @@
    "contentHash": "3b5c791e0694bd1d"
   },
   {
+   "id": "9590ed7a40f8b7a4",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+   "originalUrl": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+   "originalLanguage": "en",
+   "originalDescription": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but only while the machine is booting over the network. UEFI firmware is the…",
+   "publishedAt": "2026-10-28T11:50:00.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoVVx2e6mg8LPbhDYmtubHewVD_9BI7UcctCMSwwG-h4SuOyZJOvIyTre_g9Ggo6sLw6Bjrse_1FsqKKThyiIvc5CbuYqq4caYCtUciHGg33wReFQgOjJuTX5FrnSS3OZTd_yjXt03l_kxwIX-NshU9A8wpANSdQwOWkDKzy31QdXkCD6UP21dOpfbjhg/s1600/server-bios.jpg",
+   "contentHash": "a3e4c8e8c54a8589"
+  },
+  {
    "id": "7142103ed69166ab",
    "sourceId": "oschina-news",
    "sourceName": "开源中国 资讯",
@@ -66,6 +698,23 @@
    ],
    "imageUrl": null,
    "contentHash": "f37f2032ab4c4e40"
+  },
+  {
+   "id": "be06f9a5da472d1c",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Wazuh and AI for Enhanced SOC Workflows",
+   "originalUrl": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+   "originalLanguage": "en",
+   "originalDescription": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster…",
+   "publishedAt": "2026-10-28T11:30:00.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "cybersecurity",
+    "ai"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjo5_lgjV0zvHt5XW8CcCjQnBc_cvxOxrGxsrliXv3s9c6RD-Aw7eXOlNrp78QHxSnVO5yBgphx7KqCjkjje3YbwCFUtXUdLN4xA-sW_zVoFsK7au37XZxUPyoDRlhCIGsxc2at70I_FexwVKgdyub-XuuvwIZCy1o6hoCU50o7lhHWDSgktrcsrXkN9p8/s1600/wazuh.png",
+   "contentHash": "0c6730342335af5a"
   },
   {
    "id": "3c84bdc9f1b42a29",
@@ -211,6 +860,22 @@
    ],
    "imageUrl": null,
    "contentHash": "530ded02d032f4ce"
+  },
+  {
+   "id": "e2ed7680c50ae3f0",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "originalTitle": "The future of the firm",
+   "originalUrl": "https://openai.com/index/the-future-of-the-firm",
+   "originalLanguage": "en",
+   "originalDescription": "How AI might enter the org chart—beneath, beside, and between us.",
+   "publishedAt": "2026-10-28T10:00:00.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "b24d3077d2f5186b"
   },
   {
    "id": "dd6cb5a673590f79",
@@ -1089,6 +1754,38 @@
    "contentHash": "88b6c6e647fbe833"
   },
   {
+   "id": "8498dcc26b7abf49",
+   "sourceId": "vscode-blog",
+   "sourceName": "Visual Studio Code Blog",
+   "originalTitle": "VS Code Wrapped: GitHub Universe 2026",
+   "originalUrl": "https://code.visualstudio.com/blogs/2026/10/28/vscode-wrapped",
+   "originalLanguage": "en",
+   "originalDescription": "Explore how VS Code evolved between GitHub Universe 2025 and 2026, with new ways to code, collaborate with agents, and manage work across tools and environments. Read the full article",
+   "publishedAt": "2026-10-28T00:00:00.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "03546335d57152be"
+  },
+  {
+   "id": "87c5f673c2d3cb37",
+   "sourceId": "android-developers-blog",
+   "sourceName": "Android Developers Blog",
+   "originalTitle": "Agentic and Flexible: A next era of Android development",
+   "originalUrl": "https://developer.android.com/blog/posts/build-it-your-way-a-next-era-of-android-development",
+   "originalLanguage": "en",
+   "originalDescription": "Today, at the Android Dev Summit, we are announcing the broad availability of many tools and APIs designed to remove everyday friction and give you more flexibility to build great Android apps.",
+   "publishedAt": "2026-10-28T00:00:00.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "33469c828155a736"
+  },
+  {
    "id": "b0196e7d9ec2b57c",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -1103,6 +1800,38 @@
    ],
    "imageUrl": null,
    "contentHash": "4f6dc05829865ee3"
+  },
+  {
+   "id": "c9012ada3d8ab081",
+   "sourceId": "android-developers-blog",
+   "sourceName": "Android Developers Blog",
+   "originalTitle": "What's new in Android developer tools and performance at Android Dev Summit",
+   "originalUrl": "https://developer.android.com/blog/posts/android-dev-summit-26-developer-tools-performance",
+   "originalLanguage": "en",
+   "originalDescription": "This year at Android Dev Summit we shared how Android's developer tools are evolving to help you be more productive alongside your agents.",
+   "publishedAt": "2026-10-28T00:00:00.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "bd77959cb6086b1e"
+  },
+  {
+   "id": "cd81f181e09678fd",
+   "sourceId": "android-developers-blog",
+   "sourceName": "Android Developers Blog",
+   "originalTitle": "Your favorite agents are now integrated in Android Studio",
+   "originalUrl": "https://developer.android.com/blog/posts/ai-agents-android-studio-integration",
+   "originalLanguage": "en",
+   "originalDescription": "Android Studio Rabbit 2 is now stable and ready for you to use in production. This release includes key features to improve your development such as Bring Your Own Agent, new XR Emulator features, a LeakCanary update, a new agent skills manager tool, AI code review, and more.",
+   "publishedAt": "2026-10-28T00:00:00.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "97a6e24d5b40121b"
   },
   {
    "id": "4c5627bb695205d1",
@@ -7825,14 +8554,14 @@
    "originalTitle": "AWS Elemental MediaConnect Router now supports endpoint connection management",
    "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/mediaconnect-cross-account-endpoints/",
    "originalLanguage": "en",
-   "originalDescription": "AWS Elemental MediaConnect Router now supports managing external connections through a new endpoint registry. The registry provides a centralized interface to register and manage both standard endpoints—devices or software outside the service, such as cameras, sources…",
+   "originalDescription": "AWS Elemental MediaConnect Router now supports managing connections through a new endpoint registry, which allows you to register devices or software external to MediaConnect and connect those endpoints to your router inputs and outputs. You can share registered endpoints…",
    "publishedAt": "2026-10-26T08:00:00.000Z",
    "discoveredAt": "2026-10-27T20:07:08.758Z",
    "topics": [
     "cloud-infrastructure"
    ],
    "imageUrl": null,
-   "contentHash": "80b42e735589bdac"
+   "contentHash": "e1e1e1b915e9415d"
   },
   {
    "id": "2ed3fea838b1aed3",
@@ -8746,22 +9475,6 @@
    ],
    "imageUrl": null,
    "contentHash": "7a69ecee986a4417"
-  },
-  {
-   "id": "1760a15dd7dbe317",
-   "sourceId": "vscode-blog",
-   "sourceName": "Visual Studio Code Blog",
-   "originalTitle": "Visual Studio Code 1.144 (Insiders)",
-   "originalUrl": "https://code.visualstudio.com/updates/v1_144",
-   "originalLanguage": "en",
-   "originalDescription": "Learn what is new in Visual Studio Code 1.144 (Insiders) Read the full article",
-   "publishedAt": null,
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "bacca1f5558d8cc4"
   },
   {
    "id": "b411fbb2487aa2da",
@@ -21397,22 +22110,6 @@
    ],
    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp",
    "contentHash": "a163b2f2ceaeadc8"
-  },
-  {
-   "id": "c919c2b059f3ef35",
-   "sourceId": "krebs-on-security",
-   "sourceName": "Krebs on Security",
-   "originalTitle": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-   "originalUrl": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
-   "originalLanguage": "en",
-   "originalDescription": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically…",
-   "publishedAt": "2026-09-28T15:08:57.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "4d4c19a95fef5dac"
   }
  ]
 }
