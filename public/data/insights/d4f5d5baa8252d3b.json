@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d4f5d5baa8252d3b",
+ "contentHash": "0383fda62e47dd4d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T13:04:50.466Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+   "summary": "Adobe has released patches for eight critical security flaws in Campaign Classic. Successful exploitation of these vulnerabilities could lead to arbitrary code execution, security feature bypass, and privilege escalation. Among the addressed issues is CVE-2026-104351, a code injection vulnerability with a CVSS score of 9.9.",
+   "impact": "Security teams and administrators using Campaign Classic may want to apply these patches promptly to mitigate the risks of arbitrary code execution and privilege escalation.",
+   "keyPoints": [
+    "Adobe released patches for eight critical security flaws in Campaign Classic.",
+    "Vulnerabilities could lead to arbitrary code execution, security feature bypass, and privilege escalation.",
+    "CVE-2026-104351 is a code injection vulnerability with a CVSS score of 9.9."
+   ]
+  },
+  "km": {
+   "title": "Adobe បានជួសជុលចំណុចខ្សោយដ៏គ្រោះថ្នាក់ចំនួន 8 ក្នុង Campaign Classic ដែលអនុញ្ញាតឱ្យប្រតិបត្តិកូដ និងឆ្លងកាត់សុវត្ថិភាព",
+   "summary": "Adobe បានចេញផ្សាយបំណះដើម្បីដោះស្រាយបញ្ហាសុវត្ថិភាពដ៏សំខាន់ជាច្រើននៅក្នុង Campaign Classic ដែលអាចបណ្តាលឱ្យមានការប្រតិបត្តិូដតាមអំពើចិត្ត ការឆ្លងកាត់មុខងារសុវត្ថិភាព និងការដំឡើងសិទ្ធិ។ បញ្ហាទាំងនោះរួមមាន CVE-2026-104351 ដែលជាចំណុចខ្សោយនៃការចាក់បញ្ចូលកូដដែលមានពិន្ទុ CVSS 9.9។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកគ្រប់គ្រងដែលប្រើប្រាស់ Campaign Classic អាចអនុវត្តបំណះទាំងនេះភ្លាមៗ ដើម្បីកាត់បន្ថយហានិភ័យនៃការប្រតិបត្តិូដតាមអំពើចិត្ត។",
+   "keyPoints": [
+    "Adobe បានចេញផ្សាយបំណះសម្រាប់បញ្ហាសុវត្ថិភាពចំនួនប្រាំបីនៅក្នុង Campaign Classic។",
+    "ភាពងាយរងគ្រោះអាចនាំឱ្យមានការប្រតិបត្តិកូដតាមអំពើចិត្ត និងការដំឡើងសិទ្ធិ។",
+    "CVE-2026-104351 គឺជាចំណុចខ្សោយនៃការចាក់បញ្ចូលកូដដែលមានពិន្ទុ CVSS 9.9។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Adobe 修复了 Campaign Classic 中的 8 个严重漏洞，允许代码执行和安全绕过",
+   "summary": "Adobe 已发布补丁，以解决 Campaign Classic 中的多个严重安全漏洞。成功利用这些漏洞可能会导致任意代码 execution、安全功能绕过和权限提升。其中修复的问题包括 CVE-2026-104351，这是一个 CVSS 评分为 9.9 的代码注入漏洞。",
+   "impact": "使用 Campaign Classic 的安全团队和管理员可能需要及时应用这些补丁，以降低任意代码执行和权限提升的风险。",
+   "keyPoints": [
+    "Adobe 发布了 Campaign Classic 中八个严重安全漏洞的补丁。",
+    "这些漏洞可能导致任意代码执行、安全功能绕过和权限提升。",
+    "CVE-2026-104351 是一个 CVSS 评分为 9.9 的代码注入漏洞。"
+   ]
+  },
+  "ko": {
+   "title": "Adobe, 코드 실행 및 보안 우회를 허용하는 Campaign Classic의 치명적 결함 8건 수정",
+   "summary": "Adobe는 Campaign Classic의 여러 치명적인 보안 결함을 해결하기 위해 패치를 발표했습니다. 이러한 취약점을 성공적으로 악용할 경우 임의 코드 실행, 보안 기능 우회 및 권한 상승으로 이어질 수 있습니다. 해결된 문제 중에는 CVSS 점수 9.9의 코드 주입 취약점인 CVE-2026-104351이 포함되어 있습니다.",
+   "impact": "Campaign Classic을 사용하는 보안 팀과 관리자는 임의 코드 실행 및 권한 상승 위험을 완화하기 위해 이러한 패치를 신속하게 적용해야 할 수 있습니다.",
+   "keyPoints": [
+    "Adobe가 Campaign Classic의 8가지 치명적인 보안 결함에 대한 패치를 발표했습니다.",
+    "취약점 악용 시 임의 코드 실행 및 권한 상승을 초래할 수 있습니다.",
+    "CVE-2026-104351은 CVSS 점수 9.9의 코드 주입 취약점입니다."
+   ]
+  }
+ }
+}

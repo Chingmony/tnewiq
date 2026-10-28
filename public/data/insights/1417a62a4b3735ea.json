@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1417a62a4b3735ea",
+ "contentHash": "694210f3b0bf0215",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T13:14:54.996Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+   "summary": "Researchers reported that a critical Oracle PeopleSoft bug exploited by ShinyHunters since May consists of three chained vulnerabilities rather than a single flaw. Oracle patched these issues in June under the single identifier CVE-2026-35273. The vulnerability originates from a server-side request forgery that gains access to an internal management interface because PeopleSoft trusts its loopback address.",
+   "impact": "Security teams and organizations using Oracle PeopleSoft may need to verify that CVE-2026-35273 patches are properly applied, as chained vulnerabilities can present complex risks. Understanding that the flaw involves an SSRF abusing loopback trust could help administrators evaluate similar internal network exposure.",
+   "keyPoints": [
+    "The bug exploited by ShinyHunters since May is a chain of three flaws.",
+    "Oracle released a patch in June under CVE-2026-35273.",
+    "The root cause is a server-side request forgery reaching an internal management interface.",
+    "PeopleSoft trusts its own loopback address, enabling the exploit path."
+   ]
+  },
+  "km": {
+   "title": "Zero-Day របស់ Oracle PeopleSoft ដែលត្រូវបានកេងប្រវ័ញ្ចដោយ ShinyHunters គឺជាការផ្សារភ្ជាប់គ្នានៃកំហុសចំនួនបី",
+   "summary": "អ្នកស្រាវជ្រាវបានប្រកាសថាកំហុស Oracle PeopleSoft ដ៏ធ្ងន់ធ្ងរដែលត្រូវបានកេងប្រវ័ញ្ចដោយ ShinyHunters ចាប់តាំងពីខែឧសភា មិនមែនជាកំហុសតែមួយទេ ប៉ុន្តែជាកំហុសបីដែលត្រូវបានផ្សារភ្ជាប់គ្នា។ Oracle បានជួសជុលកំហុសទាំងបីនេះក្រោមលេខសម្គាល់តែមួយ CVE-2026-35273 ក្នុងខែមិថុនា។ ប្រភពដើមនៃបញ្ហានេះគឺការក្លែងបន្លំសំណើនៅខាងម៉ាស៊ីនបម្រើដែលចូលទៅដល់ចំណុចប្រទាក់គ្រប់គ្រងផ្ទៃក្នុង ដោយសារ PeopleSoft ទុកចិត្តលើអាសយដ្ឋាន loopback ផ្ទាល់ខ្លួន។",
+   "impact": "ក្រុមសន្តិសុខនិងអង្គការដែលប្រើប្រាស់ Oracle PeopleSoft អាចចាំបាច់ត្រូវផ្ទៀងផ្ទាត់ថាបំណះ CVE-2026-35273 ត្រូវបានអនុវត្តយ៉ាងត្រឹមត្រូវ។ ការយល់ដឹងអំពីចំណុចខ្សោយនេះអាចជួយអ្នកគ្រប់គ្រងវាយតម្លៃការបញ្ចេញបណ្តាញខាងក្នុងស្រដៀងគ្នា។",
+   "keyPoints": [
+    "កំហុសដែលកេងប្រវ័ញ្ចដោយ ShinyHunters ចាប់តាំងពីខែឧសភា គឺជាខ្សែសង្វាក់នៃកំហុសបី។",
+    "Oracle បានចេញបំណះក្នុងខែមិថុនាក្រោមលេខ CVE-2026-35273 ។",
+    "មូលហេតុចម្បងគឺការក្លែងបន្លំសំណើនៅខាងម៉ាស៊ីនបម្រើដែលចូលទៅដល់ចំណុចប្រទាក់គ្រប់គ្រងផ្ទៃក្នុង។",
+    "PeopleSoft ទុកចិត្តលើអាសយដ្ឋាន loopback ផ្ទាល់ខ្លួនរបស់វា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "ShinyHunters利用的Oracle PeopleSoft零日漏洞原来是三个相连的缺陷",
+   "summary": "研究人员本周表示，自5月以来被ShinyHunters利用的Oracle PeopleSoft严重漏洞并非单一缺陷，而是三个漏洞链在一起。Oracle在6月通过单一标识符CVE-2026-35273修复了所有这三个漏洞。该漏洞的根本原因是一个服务器端请求伪造，由于PeopleSoft信任其自己的回环地址，从而能够访问内部管理接口。",
+   "impact": "使用Oracle PeopleSoft的安全团队和组织可能需要验证是否已正确应用CVE-2026-35273补丁，因为漏洞链可能会带来复杂的风险。了解该缺陷涉及滥用回环信任的服务器端请求伪造，可能有助于管理员评估类似的内部网络暴露情况。",
+   "keyPoints": [
+    "ShinyHunters自5月以来利用的漏洞是由三个缺陷组成的链条。",
+    "Oracle在6月发布了CVE-2026-35273补丁。",
+    "根本原因是可以触及内部管理接口的服务器端请求伪造。",
+    "PeopleSoft信任自身的回环地址从而促成了该漏洞。"
+   ]
+  },
+  "ko": {
+   "title": "ShinyHunters가 악용한 Oracle PeopleSoft 제로데이, 세 개의 결함이 체인된 것으로 밝혀져",
+   "summary": "연구원들은 5월부터 ShinyHunters가 악용해 온 치명적인 Oracle PeopleSoft 버그가 단일 결함이 아니라 세 가지가 연쇄적으로 얽힌 것이라고 이번 주에 밝혔습니다. Oracle은 6월에 CVE-2026-35273이라는 단일 식별자 아래 이 세 가지를 모두 패치했습니다. 이 문제의 근원은 PeopleSoft가 자체 루프백 주소를 신뢰하기 때문에 내부 관리 인터페이스에 도달하는 서버 측 요청 위조입니다.",
+   "impact": "Oracle PeopleSoft를 사용하는 보안 팀과 조직은 체인된 취약점이 복잡한 위험을 초래할 수 있으므로 CVE-2026-35273 패치가 올바르게 적용되었는지 확인해야 할 수 있습니다. 이 결함이 루프백 신뢰를 악용하는 서버 측 요청 위조와 관련이 있음을 이해하면 관리자가 유사한 내부 네트워크 노출을 평가하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "5월부터 ShinyHunters가 악용한 버그는 세 가지 결함의 연쇄입니다.",
+    "Oracle은 6월에 CVE-2026-35273 식별자로 패치를 발표했습니다.",
+    "근본 원인은 내부 관리 인터페이스에 도달하는 서버 측 요청 위조입니다.",
+    "PeopleSoft가 자체 루프백 주소를 신뢰하여 공격 경로를 가능하게 했습니다."
+   ]
+  }
+ }
+}

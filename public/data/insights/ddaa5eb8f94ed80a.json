@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ddaa5eb8f94ed80a",
+ "contentHash": "32ec327500206a49",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T13:13:44.132Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "NVIDIA and Oracle Form Large-Scale Vera Rubin Alliance to Overcome GPU Idle Limits",
+   "summary": "Nvidia and Oracle have expanded their AI infrastructure collaboration to reduce enterprise GPU idle times by introducing a new computing architecture. They officially launched the Nvidia Vera Rubin NVL72 system and standalone Vera CPUs on Oracle Cloud Infrastructure (OCI). This design allows separate expansion of CPU resources for tasks like code execution and data retrieval, preventing expensive GPUs from sitting idle while waiting for work.",
+   "impact": "This collaboration could help technology users and organizations maximize the efficiency of their hardware investments by reducing GPU downtime. Developers and system architects may benefit from improved infrastructure that separates heavy processing demands more effectively.",
+   "keyPoints": [
+    "Nvidia and Oracle expanded AI infrastructure collaboration.",
+    "Nvidia Vera Rubin NVL72 systems and standalone Vera CPUs were officially launched on OCI.",
+    "The architecture allows separate scaling of CPU resources for code execution and data retrieval.",
+    "The approach aims to decrease the time expensive GPUs spend waiting for tasks."
+   ]
+  },
+  "km": {
+   "title": "NVIDIA និង Oracle បង្កើតសម្ព័ន្ធភាព Vera Rubin ទំហំធំ ដើម្បីជម្នះដែនកំណត់ទំនេរ GPU",
+   "summary": "Nvidia និង Oracle បានពង្រីកកិច្ចសហការផ្នែកហេដ្ឋារចនាសម្ព័ន្ធ AI ដើម្បីកាត់បន្ថយបញ្ហាទំនេរ GPU របស់សហគ្រាសតាមរយៈការបង្ហាញនូវស្ថាបត្យកម្មកុំព្យូទ័រថ្មីមួយ។ ពួកគេបានដាក់លក់ជាផ្លូវការនូវប្រព័ន្ធ Nvidia Vera Rubin NVL72 និង Vera CPUs ដាច់ដោយឡែកនៅលើ Oracle Cloud Infrastructure (OCI)។ ការរចនានេះអនុញ្ញាតឱ្យមានការពង្រីកធនធាន CPU ដាច់ដោយឡែកសម្រាប់កិច្ចការដូចជាការប្រតិបត្តិ ኮដ និងការទាញយកទិន្នន័យជាដើម។",
+   "impact": "កិច្ចសហការនេះអាចជួយអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការបង្កើនប្រសិទ្ធភាពនៃការវិនិយោគ hardware របស់ពួកគេដោយកាត់បន្ថយពេលវេលាទំនេររបស់ GPU។",
+   "keyPoints": [
+    "Nvidia និង Oracle បានពង្រីកកិច្ចសហការហេដ្ឋារចនាសម្ព័ន្ធ AI។",
+    "ប្រព័ន្ធ Nvidia Vera Rubin NVL72 និង Vera CPUs ត្រូវបានដាក់ឱ្យដំណើរការនៅលើ OCI។",
+    "ស្ថាបត្យកម្មថ្មីនេះមានគោលបំណងកាត់បន្ថយពេលវេលាទំនេររបស់ GPU ដែលមានតម្លៃថ្លៃ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "英伟达与甲骨文建立“Vera Rubin”大规模同盟，突破GPU闲置极限",
+   "summary": "英伟达与甲骨文扩大了人工智能基础设施合作，并推出了旨在减少企业GPU闲置问题的新计算架构。双方于27日宣布在Oracle Cloud Infrastructure (OCI)上正式推出Nvidia Vera Rubin NVL72系统以及独立的Vera CPU。该设计允许独立扩展负责代码执行和数据检索等任务的CPU资源，从而减少昂贵的GPU等待工作的时间。",
+   "impact": "这项合作可能会帮助技术用户和企业通过减少GPU停机时间来提高硬件投资效率。开发人员和系统架构师可以从更有效分离繁重处理需求的改进基础设施中受益。",
+   "keyPoints": [
+    "英伟达与甲骨文扩大了AI基础设施合作。",
+    "Nvidia Vera Rubin NVL72系统和独立的Vera CPU在OCI上正式发布。",
+    "该架构允许为代码执行和数据检索单独扩展CPU资源。",
+    "此举旨在减少昂贵的GPU等待任务的时间。"
+   ]
+  },
+  "ko": {
+   "title": "엔비디아·오라클, '베라 루빈' 대규모 동맹…GPU 유휴 한계 넘는다",
+   "summary": "엔비디아와 오라클이 AI 인프라 협력을 확대하고 기업들의 GPU 유휴 문제를 줄이기 위한 새로운 컴퓨팅 구조를 제시했다. 양사는 오라클 클라우드 인프라(OCI)에 엔비디아 베라 루빈 NVL72 시스템과 독립형 베라 CPU를 정식 출시했다. 이를 통해 고성능 GPU뿐 아니라 AI 에이전트의 코드 실행과 데이터 검색 등을 담당하는 CPU 자원을 별도로 확장하여 비싼 GPU가 작업을 기다리며 놀고 있는 시간을 줄이겠다는 구상이다.",
+   "impact": "이번 협력은 기술 사용자들과 기업들이 비싼 하드웨어의 유휴 시간을 줄이고 자원 효율성을 극대화하는 데 도움을 줄 수 있다. 개발자와 인프라 담당자는 작업 부하를 더 효율적으로 분산시키는 향상된 시스템 구조의 혜택을 누릴 수 있다.",
+   "keyPoints": [
+    "엔비디아와 오라클이 AI 인프라 협력을 확대함.",
+    "OCI에 엔비디아 베라 루빈 NVL72 시스템과 독립형 베라 CPU가 정식 출시됨.",
+    "코드 실행과 데이터 검색을 담당하는 CPU 자원을 별도로 확장할 수 있음.",
+    "GPU가 작업을 기다리며 유휴 상태로 있는 시간을 줄이는 것을 목표로 함."
+   ]
+  }
+ }
+}

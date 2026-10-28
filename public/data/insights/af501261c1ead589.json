@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "af501261c1ead589",
+ "contentHash": "d168d0f5a5116b5b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T13:14:01.376Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+   "summary": "Tailscale has released version 1.104.4 to address security flaws in its built-in SSH server. These vulnerabilities involve how Tailscale SSH forwards network connections, a task handled by the Tailscale background process with root privileges. Exploiting these flaws could allow an attacker to reach services and files on other servers restricted to the root user.",
+   "impact": "This update could matter to security teams and technology users as it prevents unauthorized root-level access to services and files across connected servers. Applying version 1.104.4 may help mitigate the risk of compromised devices affecting other systems on the network.",
+   "keyPoints": [
+    "Tailscale released version 1.104.4 to fix SSH server flaws.",
+    "The vulnerabilities relate to how network connections are forwarded.",
+    "The background process runs with root privileges."
+   ]
+  },
+  "km": {
+   "title": "Tailscale បានកែសម្រួលកំហុស SSH ដែលអាចអនុញ្ញាតឱ្យឧបករណ៍រងការវាយប្រហារទទួលបានសិទ្ធិ root នៅលើម៉ាស៊ីនបម្រើផ្សេងទៀត",
+   "summary": "ក្រុមហ៊ុន Tailscale បានចេញផ្សាយកំណែ 1.104.4 ដើម្បីដោះស្រាយកំហុសនៅក្នុងម៉ាស៊ីនបម្រើ SSH ដែលភ្ជាប់មកជាមួយ។ ចន្លោះប្រហោងទាំងនេះពាក់ព័ន្ធនឹងរបៀបដែល Tailscale SSH បញ្ជូនបន្តការតភ្ជាប់បណ្តាញ ដែលជាភារកិច្ចដំណើរការដោយដំណើរការផ្ទៃខាងក្រោយរបស់ Tailscale ដែលមានសិទ្ធិជា root។ ការកេងប្រវ័ញ្ចចំណុចខ្សោយទាំងនេះអាចអនុញ្ញាតឱ្យជនខិលខូចចូលទៅដល់សេវាកម្ម និងឯកសារនៅលើម៉ាស៊ីនបម្រើផ្សេងទៀត។",
+   "impact": "ការអាប់ដេតនេះអាចមានសារៈសំខាន់សម្រាប់ក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យា ដោយសារវាជួយការពារការចូលប្រើប្រាស់ដោយគ្មានការអនុញ្ញាត។ ការដំឡើងកំណែ 1.104.4 អាចជួយកាត់បន្ថយហានិភ័យនៃឧបករណ៍ដែលខូចខាតមិនឱ្យប៉ះពាល់ដល់ប្រព័ន្ធផ្សេងទៀត។",
+   "keyPoints": [
+    "Tailscale បានចេញផ្សាយកំណែ 1.104.4 ដើម្បីកែសម្រួលកំហុស SSH។",
+    "ចំណុចខ្សោយទាក់ទងនឹងការបញ្ជូនបន្តការតភ្ជាប់បណ្តាញ។",
+    "ដំណើរការផ្ទៃខាងក្រោយដំណើរការដោយមានសិទ្ធិ root។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Tailscale 修复了可能允许被黑客攻击的设备在其他服务器上获得根权限的 SSH 漏洞",
+   "summary": "Tailscale 发布了 1.104.4 版本，以修复其内置 SSH 服务器中的漏洞。这些漏洞存在于 Tailscale SSH 转发网络连接的方式中，该任务由具有 root 权限的 Tailscale 后台进程执行。攻击者利用这些漏洞可能会接触到其他服务器上只有 root 用户才能访问的服务和文件。",
+   "impact": "这次更新对于安全团队和技术用户来说可能很重要，因为它可以防止对其他服务器上的服务和文件进行未授权的访问。应用 1.104.4 版本可能有助于降低受损设备影响网络上其他系统的风险。",
+   "keyPoints": [
+    "Tailscale 发布了 1.104.4 版本以修复 SSH 漏洞。",
+    "漏洞与网络连接的转发方式有关。",
+    "后台进程以 root 权限运行。"
+   ]
+  },
+  "ko": {
+   "title": "Tailscale, 해킹된 장치가 다른 서버에서 루트 권한을 획득할 수 있는 SSH 결함 패치",
+   "summary": "Tailscale은 내장 SSH 서버의 결함을 해결하기 위해 버전 1.104.4를 출시했습니다. 이러한 취약점은 Tailscale SSH가 네트워크 연결을 전달하는 방식과 관련이 있으며, 이는 루트 권한을 가진 Tailscale 백그라운드 프로세스가 수행하는 작업입니다. 공격자는 이 결함을 악용하여 루트 사용자만 접근할 수 있는 다른 서버의 서비스와 파일에 도달할 수 있습니다.",
+   "impact": "이번 업데이트는 연결된 서버 전반에서 서비스와 파일에 대한 무단 루트 수준의 접근을 방지하므로 보안 팀과 기술 사용자에게 중요할 수 있습니다. 버전 1.104.4를 적용하면 손상된 장치가 네트워크의 다른 시스템에 미치는 위험을 완화하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "Tailscale은 SSH 서버 결함을 수정하기 위해 버전 1.104.4를 출시했습니다.",
+    "취약점은 네트워크 연결 전달 방식과 관련이 있습니다.",
+    "백그라운드 프로세스는 루트 권한으로 실행됩니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5a67c4a918c8a893",
+ "contentHash": "ac4581c848716e29",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T13:13:26.723Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Baidu open-sources Ernie Unlimited OCR 2, achieving the world's first arbitrary-page document parsing",
+   "summary": "Baidu has officially released and open-sourced Ernie Unlimited OCR 2, claiming the world's first arbitrary-page document parsing capability. This pushes the processing upper bound of OCR from dozens of pages to infinity while reaching state-of-the-art levels. Real-world tests show that parsing massive books exceeding 3,600 cumulative pages at once maintains high accuracy and processing efficiency.",
+   "impact": "This advancement could allow developers and technology users to process very large documents and multi-page books efficiently while maintaining high accuracy. Security teams and users may find new utility in handling massive data sets without traditional page-count limitations.",
+   "keyPoints": [
+    "Baidu officially released and open-sourced Ernie Unlimited OCR 2.",
+    "The system achieves arbitrary-page document parsing, removing previous page limits.",
+    "Real-world tests successfully parsed massive books exceeding 3,600 cumulative pages at once with high accuracy and efficiency."
+   ]
+  },
+  "km": {
+   "title": "Baidu បើកកូដប្រភព Ernie Unlimited OCR 2 ដោយសម្រេចបានការញែកឯកសារដែលមានចំនួនទំព័រមិនកំណត់ជាលើកដំបូងនៅលើពិភពលោក",
+   "summary": "Baidu បានដាក់ឱ្យប្រើប្រាស់ និងបើកកូដប្រភពជាផ្លូវការនូវ Ernie Unlimited OCR 2 ដែលអះអាងថាជាការញែកឯកសារទំព័រមិនកំណត់ដំបូងគេបង្អស់នៅលើពិភពលោក។ ការណ៍នេះបានបំបែកដែនកំណត់នៃការประมวลផល OCR ពីត្រឹមរាប់សិបទំព័រទៅជាគ្មានដែនកំណត់ ខណៈពេលដែលឈានដល់កម្រិតទំនើបបំផុត។ ការធ្វើតេស្តជាក់ស្តែងបានបង្ហាញថា ការញែកសៀវភៅធំៗដែលមានចំនួនសរុបលើសពី ៣៦០០ទំព័រក្នុងពេលតែមួយ នៅតែរក្សាបាននូវភាពជាក់លាក់ និងប្រសិទ្ធភាពខ្ពស់។",
+   "impact": "ភាពរីកចម្រើននេះអាចអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដំណើរការឯកសារធំៗ និងសៀវភៅច្រើនទំព័របានយ៉ាងមានប្រសិទ្ធភាព ខណៈពេលដែលរក្សាបាននូវភាពជាក់លាក់ខ្ពស់។",
+   "keyPoints": [
+    "Baidu បានដាក់ឱ្យប្រើប្រាស់ និងបើកកូដប្រភព Ernie Unlimited OCR 2 ជាផ្លូវការ។",
+    "ប្រព័ន្ធនេះសម្រេចបានការញែកឯកសារដែលមានចំនួនទំព័រមិនកំណត់ ដោយលុបបំបាត់ដែនកំណត់ទំព័រពីមុន។",
+    "ការធ្វើតេស្តជាក់ស្តែងបានញែកសៀវភៅដែលមានទំហំធំលើសពី ៣៦០០ទំព័រក្នុងពេលតែមួយដោយជោគជ័យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "百度开源“文心 Unlimited OCR 2”，全球首次实现任意页数文档解析",
+   "summary": "百度正式发布并开源文心 Unlimited OCR 2，宣称全球首次实现任意页数文档解析，将OCR的处理上界从几十页推到无限，并达到最先进水平。实测显示，在一次性解析累计超过3600页的大体量书籍、文档长度大幅增加的情况下，该系统依然保持了较高的精度和处理效率。",
+   "impact": "这一进展可能会帮助开发者和技术用户更高效地处理超长文档和大体量书籍，同时保持高精度。技术用户和团队在应对庞大的多页文档解析需求时，可能会获得新的处理能力。",
+   "keyPoints": [
+    "百度正式发布并开源文心 Unlimited OCR 2。",
+    "宣称全球首次实现任意页数文档解析，将处理上限推到无限。",
+    "实测显示一次性解析累计超过3600页的大体量书籍仍能保持高精度和高效率。"
+   ]
+  },
+  "ko": {
+   "title": "바이두, '원신 Unlimited OCR 2' 오픈소스화... 세계 최초 임의 페이지 수 문서 파싱 구현",
+   "summary": "바이두가 공식적으로 '원신 Unlimited OCR 2'를 발표하고 오픈소스화했으며, 세계 최초로 임의 페이지 수 문서 파싱을 구현했다고 밝혔습니다. 이는 OCR의 처리 상한선을 수십 페이지에서 무한대로 끌어올리며 최고 수준에 도달한 것입니다. 실제 테스트에서 누적 3600페이지를 초과하는 대규모 서적을 한 번에 파싱하면서도 높은 정확도와 처리 효율성을 유지하는 것으로 나타났습니다.",
+   "impact": "이러한 발전은 개발자와 기술 사용자가 높은 정확도를 유지하면서 매우 대형 문서와 여러 페이지로 구성된 책을 효율적으로 처리할 수 있게 도울 수 있습니다. 사용자와 보안 팀은 전통적인 페이지 수 제한 없이 대규모 데이터 세트를 처리하는 데 유용함을 발견할 수 있습니다.",
+   "keyPoints": [
+    "바이두가 원신 Unlimited OCR 2를 공식 발표하고 오픈소스화함.",
+    "기존의 페이지 제한을 없애고 임의 페이지 수 문서 파싱을 구현함.",
+    "실제 테스트에서 누적 3600페이지가 넘는 대형 서적을 한 번에 고속으로 파싱함."
+   ]
+  }
+ }
+}

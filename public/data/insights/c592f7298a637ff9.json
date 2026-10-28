@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c592f7298a637ff9",
+ "contentHash": "f85ca414238fb3be",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T13:06:24.303Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AI agents hacked Anthropic, maker of arguably the most capable AI models for cyberdefense",
+   "summary": "Cybersecurity startup Cathedral used AI agents to infiltrate Anthropic's internal systems via third-party software during a bug bounty program. While Anthropic confirmed that sales, HR, and IT data were accessed, the company disputes the depth of the breach. This incident highlights the security risks posed by external software dependencies.",
+   "impact": "This event may demonstrate that even advanced AI labs are vulnerable through third-party software, which could cause security teams to scrutinize their external software dependencies more closely.",
+   "keyPoints": [
+    "Cathedral used AI agents to break into Anthropic's internal systems.",
+    "The breach occurred via third-party software as part of a bug bounty program.",
+    "Anthropic confirmed access to sales, HR, and IT data but disputes the depth of the breach."
+   ]
+  },
+  "km": {
+   "title": "ភ្នាក់ងារ AI បានhack Anthropic ដែលជាក្រុមហ៊ុនផលិតម៉ូដែល AI ដែលមានសមត្ថភាពបំផុតសម្រាប់ការពារសន្តិសុខស៊ីនធឺណិត",
+   "summary": "ក្រុមហ៊ុនចាប់ផ្តើមអាជីវកម្មសន្តិសុខស៊ីនធឺណិត Cathedral បានប្រើប្រាស់ភ្នាក់ងារ AI ដើម្បីទម្លុះចូលទៅក្នុងប្រព័ន្ធខាងក្នុងរបស់ Anthropic តាមរយៈកម្មវិធីរបស់ភាគីទីបី ជាផ្នែកមួយនៃកម្មវិធីស្វែងរកកំហុស។ Anthropic បានបញ្ជាក់ពីការទទួលបានទិន្នន័យផ្នែកលក់ ធនធានមនុស្ស និង IT ប៉ុន្តែមានការជំទាស់អំពីជម្រៅនៃការទម្លុះចូលនោះ។ ហេតុការណ៍នេះបង្ហាញពីភាពងាយរងគ្រោះតាមរយៈការពឹងផ្អែកលើកម្មវិធីខាងក្រៅសូម្បីតែសម្រាប់មន្ទីរពិសោធន៍ AI ชั้นนำក៏ដោយ។",
+   "impact": "ព្រឹត្តិការណ៍នេះអាចបង្ហាញថាសូម្បីតែមន្ទីរពិសោធន៍ AI ជឿនលឿនក៏ងាយរងគ្រោះតាមរយៈកម្មវិធីភាគីទីបីដែរ ដែលអាចធ្វើឱ្យក្រុមសន្តិសុខពិនិត្យមើលការពឹងផ្អែកលើកម្មវិធីខាងក្រៅរបស់ពួកគេកាន់តែដិតដល់។",
+   "keyPoints": [
+    "Cathedral បានប្រើប្រាស់ភ្នាក់ងារ AI ដើម្បីចូលទៅក្នុងប្រព័ន្ធខាងក្នុងរបស់ Anthropic។",
+    "ការទម្លុះចូលនេះកើតឡើងតាមរយៈកម្មវិធីភាគីទីបីជាផ្នែកមួយនៃកម្មវិធីស្វែងរកកំហុស។",
+    "Anthropic បានបញ្ជាក់ពីការចូលប្រើទិន្នន័យផ្នែកលក់ ធនធានមនុស្ស និង IT ប៉ុន្តែបានជំទាស់ពីជម្រៅនៃការជ្រៀតចូល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AI 代理黑入了 Anthropic，该公司制造了可以说是最强的网络防御 AI 模型",
+   "summary": "网络安全初创公司 Cathedral 在一项漏洞赏金计划中，利用 AI 代理通过第三方软件侵入了 Anthropic 的内部系统。Anthropic 确认销售、人力资源和 IT 数据遭到访问，但对漏洞入侵的深度存在争议。该事件表明，即使是领先的 AI 实验室，在面对外部软件依赖时也非常脆弱。",
+   "impact": "这一事件可能表明，即使是先进的 AI 实验室也容易通过第三方软件受到攻击，这可能会促使安全团队更加仔细地审查外部软件依赖项。",
+   "keyPoints": [
+    "Cathedral 使用 AI 代理闯入了 Anthropic 的内部系统。",
+    "此次入侵是通过第三方软件作为漏洞赏金计划的一部分进行的。",
+    "Anthropic 确认销售、人力资源和 IT 数据遭到访问，但对入侵深度存有争议。"
+   ]
+  },
+  "ko": {
+   "title": "사이버 방어에 가장 뛰어난 AI 모델을 만든다고 평가받는 Anthropic을 해킹한 AI 에이전트",
+   "summary": "사이버보안 스타트업 Cathedral이 버그 바운티 프로그램의 일환으로 제3자 소프트웨어를 통해 Anthropic의 내부 시스템에 침투하기 위해 AI 에이전트를 사용했습니다. Anthropic은 영업, 인사 및 IT 데이터에 대한 접근을 확인했으나 침해의 깊이에 대해서는 이견을 보였습니다. 이번 사건은 선도적인 AI 연구소조차 외부 소프트웨어 의존성으로 인해 얼마나 취약한지 보여줍니다.",
+   "impact": "이번 사건은 선도적인 AI 연구소조차 제3자 소프트웨어를 통해 취약할 수 있음을 보여줄 수 있으며, 보안 팀이 외부 소프트웨어 의존성을 더욱 면밀히 검토하게 만들 수 있습니다.",
+   "keyPoints": [
+    "Cathedral이 AI 에이전트를 사용하여 Anthropic의 내부 시스템에 침입했습니다.",
+    "이 침해는 버그 바운티 프로그램의 일환으로 제3자 소프트웨어를 통해 발생했습니다.",
+    "Anthropic은 영업, 인사, IT 데이터 접근을 확인했으나 침해 수준에 대해서는 이견을 제기했습니다."
+   ]
+  }
+ }
+}

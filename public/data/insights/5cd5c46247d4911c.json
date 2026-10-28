@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5cd5c46247d4911c",
+ "contentHash": "0c99b320167f5e85",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-28T13:11:03.269Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "[New AI Model] Baidu Releases OCR Capable of Reading Documents Over 100 Pages and 5 Other Updates",
+   "summary": "Baidu has open-sourced 'Unlimited OCR 2', a vision-language model capable of reading and analyzing hundreds of pages of long documents at once. The 3.34-billion-parameter model can recognize text, tables, formulas, images, and heading structures. It utilizes a sparse mechanism called 'SR-SWA' to prevent computational and memory usage from increasing rapidly even with longer documents.",
+   "impact": "This model could help developers and organizations process and structure large, complex documents efficiently without excessive resource consumption. Security teams and technology users may benefit from improved automated parsing of extensive technical or financial paperwork.",
+   "keyPoints": [
+    "Baidu open-sourced the 'Unlimited OCR 2' model.",
+    "It is a 3.34-billion-parameter vision-language model.",
+    "It can analyze hundreds of pages of documents including tables, formulas, and images.",
+    "It uses 'SR-SWA' to control computation and memory usage on long documents."
+   ]
+  },
+  "km": {
+   "title": "[ម៉ូឌែល AI ថ្មី] Baidu បញ្ចេញ OCR ដែលអាចអានឯកសារលើសពី ១០០ ទំព័រ និងការអាប់ដេតចំនួន ៥ ផ្សេងទៀត",
+   "summary": "Baidu បានដាក់ឱ្យប្រើប្រាស់ជាប្រភពបើកចំហនូវម៉ូឌែល «Unlimited OCR 2» ដែលជាម៉ូឌែលអានអត្ថបទតាមរូបភាព (OCR) មានសមត្ថភាពអាន និងវិភាគឯកសារវែងៗរាប់រយទំព័រក្នុងពេលតែមួយ។ ម៉ូឌែលទំហំប៉ារ៉ាម៉ែត្រ ៣,៣៤ ពាន់លាននេះ អាចស្គាល់អត្ថបទ តារាង រូបមន្ត រូបភាព និងរចនាសម្ព័ន្ធចំណងជើង។ វាប្រើប្រាស់បច្ចេកវិទ្យា «SR-SWA» ដើម្បីកុំឱ្យការប្រើប្រាស់អង្គចងចាំ និងការគណនាហក់ឡើងខ្ពស់ពេកពេលឯកសារកាន់តែវែង។",
+   "impact": "ម៉ូឌែលនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងអង្គការនានាក្នុងការដំណើរការ និងរៀបចំឯកសារធំៗដែលមានភាពស្មុគស្មាញប្រកបដោយប្រសិទ្ធភាពដោយមិនប្រើប្រាស់ធនធានហួសហេតុ។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានផលប្រយោជន៍ពីការញែកទិន្នន័យស្វ័យប្រវត្តិកាន់តែប្រសើរឡើងសម្រាប់ឯកសារបច្ចេកទេស ឬហិរញ្ញវត្ថុវែងៗ។",
+   "keyPoints": [
+    "Baidu បានដាក់ឱ្យប្រើប្រាស់ម៉ូឌែល Unlimited OCR 2 ជាប្រភពបើកចំហ។",
+    "វាជាម៉ូឌែលទំហំប៉ារ៉ាម៉ែត្រ ៣,៣៤ ពាន់លាន។",
+    "វាអាចវិភាគឯកសាររាប់រយទំព័រ រួមទាំងតារាង រូបមន្ត និងរូបភាព។",
+    "វាប្រើប្រាស់ SR-SWA ដើម្បីគ្រប់គ្រងការគណ និងអង្គចងចាំលើឯកសារវែងៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "[AI新模型] 百度发布可阅读百页以上文档的OCR等6项更新",
+   "summary": "百度开源了能够一次性阅读和分析数百页长文档的光学字符识别模型“Unlimited OCR 2”。这是一个拥有33.4亿参数的视觉语言模型，不仅能识别文档中的文字，还能识别表格、公式、图片以及标题结构等。特别是它采用了名为“SR-SWA”的稀疏机制，即使文档变长，计算量和内存占用也不会急剧增加。",
+   "impact": "该模型可能帮助开发者和技术用户高效处理和结构化大型复杂文档，而不会消耗过多资源。技术团队可以利用其优化的长文档解析能力来处理大量技术或财务资料。",
+   "keyPoints": [
+    "百度开源了“Unlimited OCR 2”模型。",
+    "这是一个33.4亿参数的视觉语言模型。",
+    "能够识别长达数百页的文档中的文字、表格、公式和图片。",
+    "采用SR-SWA机制以防止长文档带来的计算与内存剧增。"
+   ]
+  },
+  "ko": {
+   "title": "[AI 모델 신작] 바이두, 100페이지 이상 문서 읽는 OCR 공개 등 6종",
+   "summary": "바이두가 수백 페이지에 달하는 긴 문서를 한 번에 읽고 분석할 수 있는 광학문자인식 모델 '언리미티드 OCR 2'를 오픈소스로 공개했다. 해당 모델은 33억4000만개 매개변수 규모의 비전언어모델로 문서의 문자뿐만 아니라 표, 수식, 그림, 제목 구조 등을 인식할 수 있다. 특히 문서가 길어져도 연산량과 메모리 사용량이 급격히 늘어나지 않도록 'SR-SWA'라는 희소 방식을 사용한다.",
+   "impact": "이번 모델 공개로 개발자와 기술 사용자는 과도한 자원 소모 없이 방대하고 복잡한 문서를 효율적으로 처리하고 구조화할 수 있게 될 수 있다. 기술 팀과 사용자들은 대규모 기술 문서나 재무 서류의 자동 파싱 기능 향상으로 혜택을 얻을 수 있다.",
+   "keyPoints": [
+    "바이두가 '언리미티드 OCR 2' 모델을 오픈소스로 공개함.",
+    "33억4000만개 매개변수 규모의 비전언어모델임.",
+    "문자의 표, 수식, 그림, 제목 구조 등을 인식해 정리 가능함.",
+    "SR-SWA 방식을 통해 긴 문서에서도 연산량과 메모리 사용량 급증을 방지함."
+   ]
+  }
+ }
+}
