@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4c05b99e9871663c",
+ "contentHash": "3ecf0f92be9a0e59",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T10:10:12.931Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Zentrola 1.3.1 Released: Upstream Subscription Accounts and API Key Individual Enable/Disable Support",
+   "summary": "Zentrola 1.3.1 has been released, introducing a credential-level call status switch. Administrators can now individually enable or disable subscription credentials and API keys in the service provider credential list. When a credential is disabled, it will no longer be used for routing new requests, and the system will automatically select other eligible credentials if available.",
+   "impact": "This feature could help teams manage multiple upstream accounts more flexibly by allowing them to temporarily disable specific subscription accounts or API keys without disrupting overall service.",
+   "keyPoints": [
+    "Zentrola 1.3.1 adds credential-level call status switches.",
+    "Administrators can individually enable or disable subscription credentials and API keys.",
+    "Disabled credentials are excluded from new request routing.",
+    "The system automatically selects other eligible credentials when one is disabled."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យដំណើរការ Zentrola 1.3.1៖ ការគាំទ្រការបើក និងបិទគណនីជាវ និង API Key ម្ដងមួយៗ",
+   "summary": "Zentrola 1.3.1 ត្រូវបានដាក់ឱ្យដំណើរការដោយបានបន្ថែមមុខងារបើកនិងបិទស្ថានភាពហៅកម្រិតសម្គាល់។ អ្នកគ្រប់គ្រងឥឡូវនេះអាចបើកឬបិទសម្គាល់ការជាវ និង API Key ម្ដងមួយៗនៅក្នុងបញ្ជីសម្គាល់របស់អ្នកផ្ដល់សេវា។ នៅពេលដែលបិទ សម្គាល់នោះនឹងលែងត្រូវបានប្រើប្រាស់សម្រាប់ការបញ្ជូនសំណើថ្មីទៀតហើយ។",
+   "impact": "លក្ខណៈពិសេសនេះអាចជួយឱ្យក្រុមការងារគ្រប់គ្រងគណនីដើមទឹកបានកាន់តែប្រសើរដោយអនុញ្ញាតឱ្យផ្អាកជាបណ្ដោះអាសន្ននូវគណនីការជាវឬ API Key ជាក់លាក់ណាមួយ។",
+   "keyPoints": [
+    "Zentrola 1.3.1 បន្ថែមប៊ូតុងស្ថានភាពហៅកម្រិតសម្គាល់។",
+    "អ្នកគ្រប់គ្រងអាចបើកឬបិទសម្គាល់ការជាវ និង API Key ម្ដងមួយៗ។",
+    "សម្គាល់ដែលត្រូវបានបិទនឹងមិនត្រូវយកមកប្រើប្រាស់សម្រាប់សំណើថ្មីទៀតទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Zentrola 1.3.1 发布：上游订阅号和 API Key 支持逐条启停",
+   "summary": "Zentrola 1.3.1 版本已发布，新增了凭据级“调用状态”开关。管理员现在可以在服务商凭据列表中，逐条启用或停用订阅凭据和 API Key。停用后，该凭据将不再参与新请求的选路，系统会自动选择其他符合条件的凭据。",
+   "impact": "此功能可以帮助团队在管理多个上游账号时更加灵活，能够临时停用特定账号而不会影响整体请求路由。",
+   "keyPoints": [
+    "Zentrola 1.3.1 增加了凭据级调用状态开关。",
+    "支持在服务商凭据列表中逐条启用或停用订阅凭据和 API Key。",
+    "停用后的凭据不再参与新请求的选路。",
+    "系统会自动选择其他符合条件的凭据。"
+   ]
+  },
+  "ko": {
+   "title": "Zentrola 1.3.1 출시: 업스트림 구독 계정 및 API Key 개별 활성화 및 비활성화 지원",
+   "summary": "Zentrola 1.3.1이 출시되어 자격 증명 수준의 호출 상태 스위치가 추가되었습니다. 관리자는 이제 서비스 제공업체 자격 증명 목록에서 구독 자격 증명과 API Key를 개별적으로 활성화하거나 비활성화할 수 있습니다. 비활성화된 자격 증명은 새 요청 라우팅에 참여하지 않으며, 시스템은 다른 조건에 맞는 자격 증명을 자동으로 선택합니다.",
+   "impact": "이 기능은 팀이 여러 업스트림 계정을 더 유연하게 관리할 수 있도록 도울 수 있으며, 특정 구독 계정이나 API Key를 일시적으로 중단할 때 유용할 수 있습니다.",
+   "keyPoints": [
+    "Zentrola 1.3.1에 자격 증명 수준 호출 상태 스위치 추가",
+    "서비스 제공업체 자격 증명 목록에서 구독 자격 증명 및 API Key 개별 제어 가능",
+    "비활성화된 자격 증명은 새로운 요청 라우팅에서 제외됨",
+    "조건에 맞는 다른 자격 증명을 시스템이 자동으로 선택"
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "48f467fc9990539a",
+ "contentHash": "79f1da09b8dbfde0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T10:11:48.654Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+   "summary": "CISA added a VMware ESX security flaw to its Known Exploited Vulnerabilities catalog after CrowdStrike reported its weaponization by a China-linked threat actor named Warp Panda. The vulnerability, tracked as CVE-2026-41709, was used in attacks against the U.S. legal sector. According to reports, the flaw was exploited to reduce audit trail visibility.",
+   "impact": "Security teams and technology users may need to review their VMware ESX environments for indicators of compromise related to CVE-2026-41709. Because the vulnerability allows attackers to reduce audit trail visibility, organizations could face challenges in detecting and investigating related intrusions.",
+   "keyPoints": [
+    "CISA added CVE-2026-41709 to its Known Exploited Vulnerabilities catalog.",
+    "The vulnerability affects Broadcom VMware ESX.",
+    "A China-linked threat actor named Warp Panda weaponized the flaw against the U.S. legal sector.",
+    "The exploit was used to reduce audit trail visibility."
+   ]
+  },
+  "km": {
+   "title": "ពួក Hacker ពាក់ព័ន្ធនឹងចិនបានប្រើប្រាស់ VMware ESX Zero-Day ដើម្បីកាត់បន្ថយភាពមើលឃើញនៃកំណត់ហេតុសវនកម្ម",
+   "summary": "ទីភ្នាក់ងារសន្តិសុខគ្របដណ្តប់អ៊ីនធឺណិត និងហេដ្ឋារចនាសម្ព័ន្ធអាមេរិក (CISA) បានបន្ថែមបញ្ហាប្រឈមសុវត្ថិភាព VMware ESX ទៅក្នុងបញ្ជីរាយនាមការខ្សោយសុវត្ថិភាពដែលត្រូវបានប្រើប្រាស់រួចហើយ (KEV) បន្ទាប់ពី CrowdStrike បានបង្ហាញថាវាត្រូវបានប្រើប្រាស់ដោយក្រុមពួក Hacker ដែលមានទំនាក់ទំនងជាមួយប្រទេសចិនឈ្មោះ Warp Panda ក្នុងការវាយប្រហារទៅលើវិស័យច្បាប់របស់អាមេរិក។ ការខ្សោយសុវត្ថិភាពនេះគឺ CVE-2026-41709។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវពិនិត្យឡើងវិញនូវបរិស្ថាន VMware ESX របស់ពួកគេ ដើម្បីស្វែងរកសញ្ញាណនៃការជ្រៀតចូលដែលទាក់ទងនឹង CVE-2026-41709។ ដោយសារតែការខ្សោយសុវត្ថិភាពនេះអនុញ្ញាតឱ្យពួក Hacker កាត់បន្ថយភាពមើលឃើញនៃកំណត់ហេតុសវនកម្ម អង្គការានានាអាចប្រឈមមុខនឹងការលំបាកក្នុងការរកឃើញ និងស៊ើបអង្កេតការចូលុកលុយដែលទាក់ទងគ្នា។",
+   "keyPoints": [
+    "CISA បានបន្ថែម CVE-2026-41709 ទៅក្នុងបញ្ជីរាយនាមការខ្សោយសុវត្ថិភាពដែលត្រូវបានប្រើប្រាស់រួចហើយ។",
+    "ភាពខ្សោយសុវត្ថិភាពនេះប៉ះពាល់ដល់ Broadcom VMware ESX។",
+    "ក្រុមពួក Hacker ដែលមានទំនាក់ទំនងនឹងចិនឈ្មោះ Warp Panda បានប្រើប្រាស់ការខ្សោយសុវត្ថិភាពនេះប្រឆាំងនឹងវិស័យច្បាប់របស់អាមេរិក។",
+    "ការវាយប្រហារនេះត្រូវបានប្រើដើម្បីកាត់បន្ថយភាពមើលឃើញនៃកំណត់ហេតុសវនកម្ម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "与中国相关的黑客利用 VMware ESX 零日漏洞降低审计跟踪可见性",
+   "summary": "美国网络安全和基础设施安全局 (CISA) 于周三将影响 Broadcom VMware ESX 的安全漏洞加入其已知被利用漏洞 (KEV) 目录中。此前，CrowdStrike 透露该漏洞已被一个名为 Warp Panda 的与中国有关联的威胁行为者武器化，并针对美国法律行业发动攻击。该漏洞被编号为 CVE-2026-41709。",
+   "impact": "安全团队和技术用户可能需要检查其 VMware ESX 环境，以查找与 CVE-2026-41709 相关的入侵迹象。由于该漏洞被用于降低审计跟踪可见性，组织在检测和调查相关入侵时可能会面临困难。",
+   "keyPoints": [
+    "CISA 将 CVE-2026-41709 添加到其已知被利用漏洞目录中。",
+    "该漏洞影响 Broadcom VMware ESX。",
+    "与中国有关联的威胁行为者 Warp Panda 针对美国法律行业武器化了该漏洞。",
+    "该漏洞被用于降低审计跟踪可见性。"
+   ]
+  },
+  "ko": {
+   "title": "중국 연계 해커들이 감사 추적 가시성을 낮추기 위해 VMware ESX 제로데이 악용",
+   "summary": "미국 사이버안보CISA는 CrowdStrike가 Warp Panda라는 중국 연계 위협 행위자에 의해 미국 법률 부문을 타겟으로 한 공격에 이 취약점이 악용되었다고 밝힌 후, Broadcom VMware ESX에 영향을 미치는 보안 결함을 알려진 악용 취약점(KEV) 카탈로그에 추가했습니다. 문제의 취약점은 CVE-2026-41709입니다.",
+   "impact": "보안 팀과 기술 사용자는 CVE-2026-41709와 관련된 침해 지표가 있는지 VMware ESX 환경을 검토해야 할 수 있습니다. 이 취약점은 감사 추적 가시성을 줄이는 데 악용되었기 때문에 조직은 관련 침해를 감지하고 조사하는 데 어려움을 겪을 수 있습니다.",
+   "keyPoints": [
+    "CISA는 CVE-2026-41709를 알려진 악용 취약점 카탈로그에 추가했습니다.",
+    "해당 취약점은 Broadcom VMware ESX에 영향을 미칩니다.",
+    "Warp Panda라는 중국 연계 위협 행위자가 미국 법률 부문을 대상으로 이 취약점을 무기화했습니다.",
+    "이 취약점은 감사 추적 가시성을 낮추는 데 악용되었습니다."
+   ]
+  }
+ }
+}

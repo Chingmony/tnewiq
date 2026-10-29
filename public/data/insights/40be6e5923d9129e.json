@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "40be6e5923d9129e",
+ "contentHash": "555da79c90f058ec",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T10:07:44.486Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Declarative Sidecar Management: Introducing and Operating OpenKruise SidecarSet",
+   "summary": "Operating database instances in Kubernetes often requires deploying sidecar containers alongside the main database container for tasks like logging and health checks. Because sidecars update much more frequently than the database, managing them across numerous pods creates significant configuration, deployment, and monitoring challenges. To address this without disrupting the main database containers, the team adopted OpenKruise SidecarSet for declarative sidecar management. SidecarSet provides built-in features for configuration management, update strategies, and progress aggregation.",
+   "impact": "Development and security teams operating sidecar containers in Kubernetes could benefit from declarative management tools like OpenKruise SidecarSet to handle updates without restarting primary containers. This approach may reduce manual tracking and custom scripting efforts, though it introduces the operational overhead of managing an external controller.",
+   "keyPoints": [
+    "Sidecars share data volumes with database containers but have different lifecycles and require frequent updates.",
+    "Native Kubernetes lacks a built-in way to update sidecar images across multiple pods in-place without restarting the main container.",
+    "OpenKruise SidecarSet provides a Custom Resource that separates sidecar container lifecycles from main containers.",
+    "SidecarSet handles configuration, update strategy, and status aggregation natively."
+   ]
+  },
+  "km": {
+   "title": "ការគ្រប់គ្រងស៊ីដាកាដោយប្រកាស៖ ការដាក់បញ្ចូល និងដំណើរការ OpenKruise SidecarSet",
+   "summary": "ការដំណើរការសេវាកម្មក្នុង Kubernetes ជារឿយៗទាមទារឱ្យមានកុងតឺន័រស៊ីដាកាភ្ជាប់ជាមួយកុងតឺន័រមេសម្រាប់កិច្ចការដូចជាការប្រមូលកំណត់ហេតុ និងការពិនិត្យសុខភាព។ ដោយសារស៊ីដាកាត្រូវអាប់ដេតញឹកញាប់ជាងកុងតឺន័រមេ ការគ្រប់គ្រងពួកវានៅលើផតជាច្រើនបង្កឱ្យមានបញ្ហាប្រឈមក្នុងការកំណត់រចនាសម្ព័ន្ធ ការដាក់ពង្រាយ និងការតាមដាន។ ដើម្បីដោះស្រាយបញ្ហានេះ ក្រុមការងារបានអនុម័ត OpenKruise SidecarSet សម្រាប់ការគ្រប់គ្រងស៊ីដាកាដោយប្រកាស។ SidecarSet ផ្តល់នូវមុខងារស្រាប់សម្រាប់ការគ្រប់គ្រងការកំណត់រចនាសម្ព័ន្ធ យុទ្ធសាស្ត្រអាប់ដេត និងការចងក្រងវឌ្ឍនភាព។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងសុវត្ថិភាពដែលដំណើរការស៊ីដាកាក្នុង Kubernetes អាចទទួលបានផលប្រយោជន៍ពីឧបករណ៍គ្រប់គ្រងដូចជា OpenKruise SidecarSet ដើម្បីគ្រប់គ្រងការអាប់ដេតដោយមិនចាំបាច់ចាប់ផ្តើមកុងតឺន័រមេឡើងវិញ។ វិធីសាស្ត្រនេះអាចកាត់បន្ថយការងារសរសេរស្គ្រីបផ្ទាល់ខ្លួន ទោះបីជាវាបន្ថែមภาระក្នុងការគ្រប់គ្រងឧបករណ៍បញ្ជាខាងក្រៅក៏ដោយ។",
+   "keyPoints": [
+    "ស៊ីដាកាចែករំលែកទិន្នន័យជាមួយកុងតឺន័រមូលដ្ឋាន ប៉ុន្តែមានវដ្តជីវិតខុសគ្នា និងត្រូវការអាប់ដេតញឹកញាប់។",
+    "Kubernetes គ្មានវិធីសាស្ត្រស្រាប់ក្នុងការអាប់ដេតរូបភាពស៊ីដាកានៅលើផតជាច្រើនក្នុងពេលតែមួយដោយមិនចាប់ផ្តើមកុងតឺន័រមេឡើងវិញទេ។",
+    "OpenKruise SidecarSet ផ្តល់នូវធនធានផ្ទាល់ខ្លួនដែលបំបែកវដ្តជីវិតរបស់ស៊ីដាកាចេញពីកុងតឺន័រមេ។",
+    "SidecarSet គ្រប់គ្រងការកំណត់រចនាសម្ព័ន្ធ យុទ្ធសាស្ត្រអាប់ដេត និងការប្រមូលផ្តុំស្ថានភាព។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Sidecar 的声明式管理：引入与运营 OpenKruise SidecarSet",
+   "summary": "在 Kubernetes 中运行服务时，通常需要在主容器旁边附加 Sidecar 容器来处理日志和指标收集等辅助功能。由于 Sidecar 的更新频率远高于数据库，跨众多 Pod 管理它们会带来配置、部署和监控方面的挑战。为了在不干扰主数据库容器的情况下解决此问题，团队引入了 OpenKruise SidecarSet 进行声明式 Sidecar 管理。SidecarSet 提供了配置管理、更新策略和状态汇总的功能。",
+   "impact": "在 Kubernetes 中运营 Sidecar 容器的开发和安全团队可以借助 OpenKruise SidecarSet 等声明式管理工具来处理更新，而无需重启主容器。这种方法可能会减少手动跟踪和自定义脚本工作，尽管它带来了管理外部控制器的运营开销。",
+   "keyPoints": [
+    "Sidecar 与数据库容器共享数据卷，但生命周期不同且需要频繁更新。",
+    "原生 Kubernetes 缺乏一种在不重启主容器的情况下就地更新多个 Pod 中 Sidecar 镜像的方法。",
+    "OpenKruise SidecarSet 提供了一个自定义资源，将 Sidecar 容器的生命周期与主容器分离。",
+    "SidecarSet 原生处理配置、更新策略和状态汇总。"
+   ]
+  },
+  "ko": {
+   "title": "사이드카의 선언적 관리: OpenKruise SidecarSet 도입과 운영",
+   "summary": "쿠버네티스에서 서비스를 운영하다 보면 메인 컨테이너 옆에 사이드카 컨테이너를 함께 배치하는 일이 흔하며, 사이드카는 로그 및 메트릭 수집 등의 기능으로 인해 메인 컨테이너보다 훨씬 자주 변경된다. 수많은 Pod에서 사이드카를 개별 관리하면 형상 관리, 배포, 모니터링 전반에 어려움이 발생한다. 메인 DB 컨테이너를 재시작하지 않고 사이드카만 갱신하기 위해 팀은 선언적 사이드카 관리를 위한 OpenKruise SidecarSet을 도입했다.",
+   "impact": "쿠버네티스 환경에서 사이드카 컨테이너를 운영하는 개발 및 보안 팀은 OpenKruise SidecarSet과 같은 선언적 도구를 활용해 주요 컨테이너의 중단 없이 업데이트를 관리할 수 있다. 이 접근법은 수동 스크립트 작성 및 관리 부담을 줄여줄 수 있으나, 외부 컨트롤러 운영에 따른 추가적인 관리 부담이 따를 수 있다.",
+   "keyPoints": [
+    "사이드카는 데이터베이스와 볼륨을 공유하지만 라이프사이클이 달라 빈번한 변경과 업데이트가 필요하다.",
+    "순수 쿠버네티스 환경에서는 메인 컨테이너를 유지한 채 실행 중인 Pod의 사이드카 이미지만 일괄 인플레이스 갱신하기 어렵다.",
+    "OpenKruise SidecarSet은 사이드카 컨테이너의 라이프사이클을 메인 컨테이너와 분리해 관리하는 커스텀 리소스를 제공한다.",
+    "SidecarSet은 형상 관리, 업데이트 전략, 상태 집계 기능을 기본적으로 지원한다."
+   ]
+  }
+ }
+}

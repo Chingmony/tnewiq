@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a6cabdd8a08d75c0",
+ "contentHash": "25b8cab6b8491e4b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T10:07:00.973Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "No Public IP, No Router Configuration: How Peanut Hull Turns Enterprise Remote Access Into a Basic Capability",
+   "summary": "Hybrid work is no longer an emergency option, but enterprise remote access often faces bottlenecks due to internal networks hidden behind NAT without real public IPs. Applying for dedicated lines can be costly, and configuring port mapping on routers presents challenges. Peanut Hull addresses these enterprise remote access needs.",
+   "impact": "This approach could help companies establish remote access without needing public IP addresses or modifying router settings. It may offer an alternative to expensive dedicated lines for hybrid work and remote maintenance.",
+   "keyPoints": [
+    "Hybrid work and remote operations require accessing internal systems like ERP and monitoring feeds.",
+    "Many enterprise broadband connections are behind NAT without a real public IP.",
+    "Applying for fixed dedicated lines can cost thousands or tens of thousands annually."
+   ]
+  },
+  "km": {
+   "title": "គ្មាន IP សាធារណៈ មិនប៉ះរ៉៉ូទ័រ៖ របៀបដែល Peanut Hull ធ្វើឱ្យការចូលប្រើពីចម្ងាយរបស់សហគ្រាសក្លាយជាសមត្ថភាពមូលដ្ឋាន",
+   "summary": "ការងារចម្រុះមិនមែនជាជម្រើសបន្ទាន់ទៀតទេ។ ការចូលប្រើពីចម្ងាយរបស់សហគ្រាសតែងតែជួបឧបសគ្គដោយសារបណ្តាញខាងក្នុងនៅពីក្រោយ NAT ដែលគ្មាន IP សាធារណៈពិតប្រាកដ។ ការស្នើសុំខ្សែបណ្តាញដាច់ដោយឡែកមានតម្លៃថ្លៃ ហើយការកំណត់ផតនៅលើរ៉៉ូទ័រអាចមានភាពស្មុគស្មាញ។ Peanut Hull ដោះស្រាយបញ្ហាប្រឈមទាំងនេះ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយឱ្យក្រុមហ៊ុនបង្កើតការចូលប្រើពីចម្ងាយដោយមិនចាំបាច់មានអាសយដ្ឋាន IP សាធារណៈ ឬកែប្រែការកំណត់រ៉៉ូទ័រ។ វាអាចផ្តល់ជម្រើសជំនួសខ្សែបណ្តាញដែលមានតម្លៃថ្លៃសម្រាប់កិច្ចការចម្រុះ។",
+   "keyPoints": [
+    "ការងារចម្រុះនិងប្រតិបត្តិការពីចម្ងាយទាមទារការចូលប្រើប្រព័ន្ធខាងក្នុង។",
+    "ការតភ្ជាប់អ៊ីនធឺណិតសហគ្រាសជាច្រើនស្ថិតនៅពីក្រោយ NAT ដោយគ្មាន IP សាធារណៈពិតប្រាកដ។",
+    "ការស្នើសុំខ្សែបណ្តាញអចិន្ត្រៃយ៍មានតម្លៃថ្លៃក្នុងមួយឆ្នាំៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "无公网IP，不碰路由器：花生壳如何把企业远程访问做成“基础能力”",
+   "summary": "混合办公早已不是应急选项，而企业远程访问的瓶颈往往在于NAT后方没有真实公网IP的内网环境。申请固定专线成本高昂，在路由器上做端口映射也存在管理难题。花生壳旨在将企业远程访问转变为一种基础能力。",
+   "impact": "该技术可能帮助企业在没有公网IP或不修改路由器配置的情况下实现远程访问，从而降低混合办公和运维的门槛与成本。",
+   "keyPoints": [
+    "混合办公、运维和连锁门店监控对远程访问的需求日益增加。",
+    "大量企业宽带处于NAT后方且没有真实公网IP。",
+    "申请固定专线每年需要数千甚至上万元的成本。"
+   ]
+  },
+  "ko": {
+   "title": "공인 IP 없음, 라우터 손대지 않음: 피넛헐이 기업 원격 접속을 '기본 능력'으로 만드는 방법",
+   "summary": "하이브리드 근무는 더 이상 비상 옵션이 아니지만, 기업의 원격 접속 병목 현상은 주로 실제 공인 IP가 없는 NAT 뒤의 내부 네트워크로 인해 발생합니다. 전용선을 신청하는 것은 비용이 많이 들고 라우터에서 포트 매핑을 설정하는 것은 어려울 수 있습니다. 피넛헐은 이러한 기업의 원격 접속 요구를 해결합니다.",
+   "impact": "이러한 접근 방식은 기업이 공인 IP 주소 없이 또는 라우터 설정을 변경하지 않고도 원격 접속을 구축하는 데 도움을 줄 수 있습니다. 하이브리드 근무를 위해 비용이 많이 드는 전용선의 대안을 제공할 수 있습니다.",
+   "keyPoints": [
+    "하이브리드 근무와 원격 운영은 내부 시스템 접근을 필요로 합니다.",
+    "많은 기업용 광대역 연결이 실제 공인 IP 없이 NAT 뒤에 있습니다.",
+    "고정 전용선을 신청하는 데는 매년 상당한 비용이 소요될 수 있습니다."
+   ]
+  }
+ }
+}

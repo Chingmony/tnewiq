@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2041a5b9d28d0017",
+ "contentHash": "a5e429848a90ca6f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T10:09:21.777Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Kakao opens two embedding models for personal AI agents",
+   "summary": "Kakao announced that it has open-sourced two embedding models named Kanana-2-Embedding on Hugging Face. The released models consist of the 3-billion-parameter Kanana-2-3B-Embedding and the 1.3-billion-parameter Kanana-2-1.3B-Embedding. These models quantify the meaning of text to search for information related to questions based on semantic similarity.",
+   "impact": "Developers and teams working on personalized AI agents could use these models to search for relevant information from past conversations and contexts. This may help in building systems that understand semantic similarity rather than relying solely on general language models.",
+   "keyPoints": [
+    "Kakao released two embedding models named Kanana-2-Embedding as open source on Hugging Face.",
+    "The models include a 3B parameter version and a 1.3B parameter version.",
+    "They quantify text meaning to find information based on semantic similarity between questions and data."
+   ]
+  },
+  "km": {
+   "title": "កាកាវ បើកបង្ហាញម៉ូเดែលបង្កប់ចំនួនពីរសម្រាប់ភ្នាក់ងារ AI ផ្ទាល់ខ្លួន",
+   "summary": "កាកាវ បានប្រកាសថាខ្លួនបានដាក់ឱ្យប្រើប្រាស់ជាប្រភពបើកចំហនូវម៉ូដែលបង្កប់ចំនួនពីរដែលមានឈ្មោះថា Kanana-2-Embedding នៅលើ Hugging Face។ ម៉ូដែលដែលបានដាក់ឱ្យប្រើប្រាស់រួមមាន Kanana-2-3B-Embedding ទំហំ 3 ពាន់លានប៉ារ៉ាម៉ែត្រ និង Kanana-2-1.3B-Embedding ទំហំ 1.3 ពាន់លានប៉ារ៉ាម៉ែត្រ។ ម៉ូដែលទាំងនេះធ្វើមាត្រដ្ឋានអត្ថន័យនៃអត្ថបទ ដើម្បីស្វែងរកព័ត៌មានដែលទាក់ទងនឹងសំណួរដោយផ្អែកលើភាពស្រដៀងគ្នានៃអត្ថន័យ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងក្រុមការងារដែលធ្វើការលើភ្នាក់ងារ AI ផ្ទាល់ខ្លួនអាចប្រើប្រាស់ម៉ូដែលទាំងនេះដើម្បីស្វែងរកព័ត៌មានពាក់ព័ន្ធពីការសន្ទនា និងបរិបទពីមុនៗ។ វាអាចជួយក្នុងការបង្កើតប្រព័ន្ធដែលយល់ពីភាពស្រដៀងគ្នានៃអត្ថន័យជំនួសឱ្យការផ្អែកលើម៉ូដែលភាសាទូទៅតែប៉ុណ្ណោះ។",
+   "keyPoints": [
+    "កាកាវបានបញ្ចេញម៉ូដែលបង្កប់ Kanana-2-Embedding ចំនួនពីរជាប្រភពបើកចំហនៅលើ Hugging Face។",
+    "ម៉ូដែលទាំងនោះរួមមាន גרែស្ដង់ដារទំហំ 3B និងទំហំ 1.3B ប៉ារ៉ាម៉ែត្រ។",
+    "ពួកវាធ្វើមាត្រដ្ឋានអត្ថន័យអត្ថបទដើម្បីស្វែងរកព័ត៌មានដោយផ្អែកលើភាពស្រដៀងគ្នានៃអត្ថន័យរវាងសំណួរនិងទិន្នន័យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Kakao开源两款用于个人AI代理的嵌入模型",
+   "summary": "Kakao宣布在Hugging Face上开源了两款名为Kanana-2-Embedding的嵌入模型，作为个性化AI代理的基础技术。此次公开的模型包括30亿参数规模的Kanana-2-3B-Embedding和13亿参数的Kanana-2-1.3B-Embedding。这些模型将文本意义数值化，用于根据语义相似度搜索与问题相关的信息。",
+   "impact": "开发人员和技术团队可以利用这些模型，通过语义相似度从过去的对话和上下文中检索所需信息。这可能有助于构建能够更好地理解上下文关联的个性化AI代理系统。",
+   "keyPoints": [
+    "Kakao在Hugging Face上开源了两款Kanana-2-Embedding嵌入模型。",
+    "发布的模型包含30亿参数版本和13亿参数版本。",
+    "它们通过数值化文本含义，基于语义相似度来查找与问题相关的信息。"
+   ]
+  },
+  "ko": {
+   "title": "카카오, 개인 AI 에이전트용 임베딩 모델 2종 오픈 공개",
+   "summary": "카카오는 개인화 AI 에이전트의 기반 기술인 임베딩 모델 '카나나-2-임베딩' 2종을 허깅페이스에 오픈소스로 공개했다고 밝혔다. 공개된 모델은 30억 매개변수 규모의 '카나나-2-3B-임베딩'과 13억 매개변수의 '카나나-2-1.3B-임베딩' 등 2종이다. 이 모델들은 텍스트의 의미를 수치화하여 질문과 정보 간의 의미적 유사도를 바탕으로 필요한 정보를 찾아내는 역할을 한다.",
+   "impact": "개발자와 보안 팀 및 기술 사용자들은 이를 통해 과거 대화와 맥락 속에서 필요한 정보를 효과적으로 탐색하는 개인화 AI 에이전트를 구축하는 데 활용할 수 있다. 일반 언어모델과 달리 의미적 유사도를 기반으로 정보를 찾아내므로 관련 시스템 개발에 도움을 줄 수 있다.",
+   "keyPoints": [
+    "카카오가 허깅페이스를 통해 '카나나-2-임베딩' 2종을 오픈소스로 공개했다.",
+    "공개된 모델은 30억(3B) 매개변수와 13억(1.3B) 매개변수 규모의 2가지 버전이다.",
+    "질문과 정보 간의 의미적 유사도를 기반으로 필요한 정보를 찾아내는 임베딩 모델이다."
+   ]
+  }
+ }
+}

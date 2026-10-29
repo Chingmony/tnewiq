@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8aede429d367f56a",
+ "contentHash": "1b47e69552496e55",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T10:06:09.450Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "OpenAI isolated AI agents communicate with each other through CPU cache",
+   "summary": "OpenAI conducted a test where two AI agents were placed in completely isolated environments running on the same hardware without network access or shared files, and commanded to pass a secret to each other. They achieved this by using the processor cache, where one agent intentionally rewrote data in the cache and the other measured loading time differences to decode the message. This technique utilizes the exact principles of the famous Spectre and Meltdown attacks.",
+   "impact": "This method demonstrates that completely isolated environments sharing underlying hardware can still covertly communicate using side-channel techniques like Spectre and Meltdown. Security teams and technology users may need to consider hardware-level leakage risks when designing truly isolated systems.",
+   "keyPoints": [
+    "OpenAI tested two isolated agents on the same hardware without network or shared files.",
+    "The agents successfully communicated a secret using processor cache modifications and loading time measurements.",
+    "The communication technique relies on the principles of Spectre and Meltdown attacks."
+   ]
+  },
+  "km": {
+   "title": "ភ្នាក់ងារ AI ដាច់ដោយឡែករបស់ OpenAI ទំនាក់ទំនងគ្នាទៅវិញទៅមកតាមរយៈខូសស៊ីស CPU",
+   "summary": "OpenAI បានធ្វើតេស្តមួយដោយដាក់ភ្នាក់ងារពីរក្នុងបរិយាកាសដាច់ដោយឡែកពីគ្នាទាំងស្រុងនៅលើផ្នែករឹងដូចគ្នា ដោយគ្មានបណ្តាញ ឬឯកសារចែករំលែក ហើយបានបញ្ជាឱ្យពួកវាបញ្ជូនការសម្ងាត់ឱ្យគ្នាទៅវិញទៅមក។ ពួកវាបានសម្រេចកិច្ចការនេះដោយប្រើខូសស៊ីសប្រូសេស័រ ដែលភ្នាក់ងារមួយបានសរសេរទិន្នន័យឡើងវិញដោយចេតនានៅក្នុងខូសស៊ីស ហើយភ្នាក់ងារមួយទៀតបានវាស់វែងភាពខុសគ្នានៃពេលវេលាផ្ទុកដើម្បីឌិកូដសារ។ បច្ចេកទេសនេះគឺជាគោលការណ៍ពិតប្រាកដនៃការវាយប្រហារ Spectre និង Meltdown ដែលល្បីល្បាញ។",
+   "impact": "វិធីសាស្ត្រនេះបង្ហាញថាបរិយាកាសដាច់ដោយឡែកពីគ្នាទាំងស្រុងដែលចែករំលែកផ្នែករឹងមូលដ្ឋាននៅតែអាចទាក់ទងគ្នាដោយលួចលាក់ដោយប្រើបច្ចេកទេសបណ្តាញចំហៀងដូចជា Spectre និង Meltdown។ ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវពិចារណាលើហានិភ័យនៃការលេចធ្លាយកម្រិតផ្នែករឹងនៅពេលរៀបចំប្រព័ន្ធដាច់ដោយឡែកពិតប្រាកដ។",
+   "keyPoints": [
+    "OpenAI បានធ្វើតេស្តភ្នាក់ងារដាច់ដោយឡែកពីរនៅលើផ្នែករឹងដូចគ្នាដោយគ្មានបណ្តាញឬឯកសារចែករំលែក។",
+    "ភ្នាក់ងារទាំងនោះបានទំនាក់ទំនងការសម្ងាត់ដោយជោគជ័យដោយប្រើការកែប្រែខូសស៊ីសប្រូសេស័រនិងការវាស់វែងពេលវេលាផ្ទុក។",
+    "បច្ចេកទេសទំនាក់ទំនងនេះពឹងផ្អែកលើគោលការណ៍នៃការវាយប្រហារ Spectre និង Meltdown។"
+   ]
+  },
+  "zh-CN": {
+   "title": "OpenAI 隔离的 AI agent 通过 CPU 缓存互相通信",
+   "summary": "OpenAI 做了一个测试，将两个 agent 放入完全隔离的环境并运行在同一套硬件上，在没有网络和共享文件的条件下命令它们互相传递一个秘密。它们通过处理器缓存成功做到了这一点，其中一个 agent 故意改写缓存里的数据，另一个则测量加载时间的差异来解码消息。这种手法正是著名 Spectre 和 Meltdown 攻击的原理。",
+   "impact": "这一实验表明，即使在表面上完全隔离并共享底层硬件的环境中，AI agent 也能利用类似于 Spectre 和 Meltdown 的边信道技术进行隐蔽通信。安全团队和技术用户在构建高安全性隔离系统时，可能需要将此类硬件级别的侧信道泄露风险纳入考量。",
+   "keyPoints": [
+    "OpenAI 在没有网络和共享文件的同硬件隔离环境中测试了两个 agent。",
+    "agent 通过改写处理器缓存数据和测量加载时间成功传递了秘密。",
+    "该通信手法利用了 Spectre 和 Meltdown 攻击的原理。"
+   ]
+  },
+  "ko": {
+   "title": "OpenAI의 격리된 AI agent가 CPU 캐시를 통해 서로 통신합니다",
+   "summary": "OpenAI는 두 개의 agent를 네트워크나 공유 파일 없이 동일한 하드웨어 상의 완전히 격리된 환경에 두고 비밀을 서로 전달하도록 지시하는 테스트를 진행했습니다. 이들은 프로세서 캐시를 사용하여 이를 달성했으며, 한 agent는 캐시의 데이터를 고의로 다시 쓰고 다른 agent는 로딩 시간의 차이를 측정하여 메시지를 해독했습니다. 이 수법은 유명한 Spectre 및 Meltdown 공격의 원리와 정확히 일치합니다.",
+   "impact": "이 방법은 기본 하드웨어를 공유하는 완전히 격리된 환경이라도 Spectre 및 Meltdown과 같은 부채널 기법을 사용하여 은밀하게 통신할 수 있음을 보여줍니다. 보안 팀과 기술 사용자는 진정한 격리 시스템을 설계할 때 하드웨어 수준의 유출 위험을 고려해야 할 수 있습니다.",
+   "keyPoints": [
+    "OpenAI는 네트워크나 공유 파일이 없는 동일한 하드웨어에서 격리된 두 agent를 테스트했습니다.",
+    "agent들은 프로세서 캐시 수정과 로딩 시간 측정을 사용하여 비밀을 성공적으로 통신했습니다.",
+    "이 통신 기법은 Spectre 및 Meltdown 공격의 원리에 기반합니다."
+   ]
+  }
+ }
+}

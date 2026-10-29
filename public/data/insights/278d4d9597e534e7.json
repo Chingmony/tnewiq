@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "278d4d9597e534e7",
+ "contentHash": "838b94fba5969041",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T10:06:48.940Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "NVIDIA Unveils Speech Recognition AI Supporting 40 Languages, Achieving Highest Accuracy Among Open Models",
+   "summary": "NVIDIA has released an open-weight AI model named Nemotron 3.5 Transcribe that converts speech in 40 languages into text. The model can distinguish speakers even when multiple people speak at once, and it supports natural language commands for dictation styles as well as technical terms and proper nouns. It achieved top-level accuracy in public speech recognition model evaluations.",
+   "impact": "This development could provide developers and technology users with a highly accurate open tool for multilingual speech recognition and speaker diarization. Security teams and users may benefit from its ability to process complex audio environments and specialized terminology.",
+   "keyPoints": [
+    "Nemotron 3.5 Transcribe was released on October 28.",
+    "The model supports 40 languages and distinguishes speakers in overlapping speech.",
+    "It uses a Mixture of Experts (MoE) architecture.",
+    "It achieved the highest level of accuracy in public speech recognition evaluations."
+   ]
+  },
+  "km": {
+   "title": "NVIDIA បញ្ចេញ AI ស្គាល់សំឡេងគាំទ្រ 40 ភាសា សម្រេចបានភាពត្រឹមត្រូវខ្ពស់បំផុតក្នុងចំណោមម៉ូដែលបើកចំហ",
+   "summary": "NVIDIA បានប្រកាសបង្ហាញម៉ូដែល AI បើកចំហដែលមានឈ្មោះថា Nemotron 3.5 Transcribe ដែលអាចបម្លែងសំឡេងជា 40 ភាសាទៅជាអត្ថបទ។ ម៉ូដែលនេះអាចបែងចែកអ្នកនិយាយទោះបីជាមានមនុស្សច្រើននិយាយត្រួតគ្នា ក៏ដូចជាគាំទ្របញ្ជាភាសាធម្មជាតិ និងការស្គាល់ពាក្យបច្ចេកទេស។ វាបានឈានដល់កម្រិតភាពត្រឹមត្រូវខ្ពស់បំផុតនៅក្នុងការវាយតម្លៃម៉ូដែលស្គាល់សំឡេងជាសាធារណៈ។",
+   "impact": "ការអភិវឌ្ឍនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់នូវឧបករណ៍បើកចំហដែលមានភាពត្រឹមត្រូវខ្ពស់សម្រាប់ការស្គាល់សំឡេងពហុភាសា។ វាក៏អាចជួយសម្រួលដល់ការដំណើរការបរិស្ថានអូឌីយ៉ូស្មុគស្មាញ និងពាក្យបច្ចេកទេសផងដែរ។",
+   "keyPoints": [
+    "Nemotron 3.5 Transcribe ត្រូវ បាន បញ្ចេញ នៅ ថ្ងៃ ទី 28 ខែ តុលា។",
+    "គាំទ្រ 40 ភាសា និង អាច បែងចែក អ្នក និយាយ ក្នុង ស្ថានភាព និយាយ ត្រួត គ្នា។",
+    "ប្រើប្រាស់ រចនាសម្ព័ន្ធ Mixture of Experts (MoE)។",
+    "ទទួលបាន កម្រិត ភាព ត្រឹមត្រូវ ខ្ពស់ បំផុត ក្នុងការ វាយតម្លៃ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "英伟达发布支持40种语言的语音识别AI：实现开源模型最高准确率",
+   "summary": "英伟达公开了一款名为Nemotron 3.5 Transcribe的开源权重AI模型，可将40种语言的语音转换为文本。该模型支持在多人重叠说话的情况下区分说话人，并通过自然语言指令指定听写方式，同时支持专业术语和专有名词识别。它在公开语音识别模型性能评估中创下了最高准确率水平。",
+   "impact": "这一进展可能为开发者和技术用户提供一个高精度的多语言语音识别开源工具。安全团队和用户可能会受益于其处理复杂音频环境和专业术语的能力。",
+   "keyPoints": [
+    "英伟达于10月28日发布了Nemotron 3.5 Transcribe。",
+    "该模型支持40种语言并在多人重叠说话时区分说话人。",
+    "它采用了混合专家（MoE）架构。",
+    "它在公开语音识别模型评估中获得了最高准确率。"
+   ]
+  },
+  "ko": {
+   "title": "엔비디아, 40개 언어 지원하는 음성 인식 AI 공개…오픈 모델 최고 정확도 달성",
+   "summary": "엔비디아가 40개 언어의 음성을 텍스트로 변환하고 여러 사람이 겹쳐 말하는 상황에서도 화자를 구분하는 오픈웨이트 AI 모델인 네모트론 3.5 트랜스크라이브(Nemotron 3.5 Transcribe)를 공개했다. 신모델은 자연어 명령으로 받아쓰기 방식을 지정할 수 있으며 전문용어와 고유명사 인식도 지원한다. 이는 공개 음성 인식 모델 성능 평가에서 최고 수준의 정확도를 기록했다.",
+   "impact": "이번 공개는 개발자와 기술 사용자들에게 다국어 음성 인식 및 화자 분리를 위한 고정밀 오픈 모델 선택지를 제공할 수 있다. 복잡한 오디오 환경이나 전문 용어 처리가 필요한 시스템에서 유용하게 활용될 수 있다.",
+   "keyPoints": [
+    "엔비디아가 28일(현지시간) 네모트론 3.5 트랜스크라이브를 공개함",
+    "40개 언어 지원 및 다중 화자 겹침 상황에서 화자 구분 가능",
+    "전문가 혼합(MoE) 구조를 채택함",
+    "공개 음성 인식 모델 성능 평가에서 최고 수준의 정확도를 기록함"
+   ]
+  }
+ }
+}

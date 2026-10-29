@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "96402b0bba36a553",
+ "contentHash": "da170235a937f422",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T10:07:27.810Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+   "summary": "Hackers exploited a critical Cisco Catalyst SD-WAN vulnerability that was fixed in February. The attackers deployed a custom malware named KeyDrift to target systems controlling organization networks. According to Cisco Talos, the malware is designed to copy site-to-site traffic encryption keys for later use.",
+   "impact": "This highlights the risks associated with unpatched critical flaws in network infrastructure. Security teams may need to review their systems for indicators of past compromise related to this historical activity.",
+   "keyPoints": [
+    "Hackers exploited a critical Cisco Catalyst SD-WAN flaw fixed in February.",
+    "A custom malware called KeyDrift was planted to steal encryption keys.",
+    "KeyDrift copies keys that encrypt traffic between network sites for later use."
+   ]
+  },
+  "km": {
+   "title": "ពួក Hacker បាន khai thác ចន្លោះប្រហោង Cisco SD-WAN ដើម្បីដាំមេរ៉ូម៉ាតសម្លាប់សោរអ៊ិនគ្រីប",
+   "summary": "ពួក Hacker បាន khai thác ចន្លោះប្រហោងដ៏សំខាន់មួយនៅលើ Cisco Catalyst SD-WAN ដែលត្រូវបានជួសជុលកាលពីខែកុម្ភៈ។ ការវាយប្រហារនេះបានដាក់ពង្រាយមេរ៉ូម៉ាតផ្ទាល់ខ្លួនដែលមានឈ្មោះថា KeyDrift ចូលទៅក្នុងប្រព័ន្ធគ្រប់គ្រងបណ្តាញ SD-WAN ។ យោងតាម Cisco Talos មេរ៉ូម៉ាតនេះត្រូវបានបង្កើតឡើងដើម្បីចម្លងសោរអ៊ិនគ្រីបចរាចរណ៍រវាងទីតាំងនានា។",
+   "impact": "បញ្ហានេះបង្ហាញពីហានិភ័យនៃចន្លោះប្រហោងសំខាន់ៗដែលមិនទាន់បានជួសជុលនៅលើហេដ្ឋារចនាសម្ព័ន្ធបណ្តាញ។ ក្រុមសន្តិសុខអាចចាំបាច់ត្រូវពិនិត្យប្រព័ន្ធរបស់ពួកគេចំពោះសញ្ញាណនៃការជ្រៀតចូលពីអតីតកាល។",
+   "keyPoints": [
+    "ពួក Hacker បាន khai thác ចន្លោះប្រហោង Cisco Catalyst SD-WAN ដែលបានជួសជុលខែកុម្ភៈ។",
+    "មេរ៉ូម៉ាត KeyDrift ត្រូវបានដាំដើម្បីលួចសោរអ៊ិនគ្រីប។",
+    "KeyDrift ចម្លងសោរអ៊ិនគ្រីបចរាចរណ៍រវាងទីតាំងសម្រាប់ប្រើប្រាស់ពេលក្រោយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "黑客利用 Cisco SD-WAN 漏洞植入旨在窃取加密密钥的恶意软件",
+   "summary": "黑客利用了一个在2月修复的Cisco Catalyst SD-WAN严重漏洞，将定制恶意软件植入到控制组织SD-WAN网络的系统中。Cisco Talos于10月28日表示，该名为KeyDrift的恶意软件旨在复制在各个站点之间加密流量的密钥并将其存储以供以后使用。",
+   "impact": "这凸显了网络基础设施中未修补的关键漏洞所带来的风险。安全团队可能需要检查其系统，以查找与此历史活动相关的过去受损迹象。",
+   "keyPoints": [
+    "黑客利用了2月份修复的Cisco Catalyst SD-WAN严重漏洞。",
+    "植入了名为KeyDrift的定制恶意软件以窃取加密密钥。",
+    "KeyDrift会复制站点间流量加密密钥供以后使用。"
+   ]
+  },
+  "ko": {
+   "title": "해커들이 암호화 키 탈취용 악성코드를 심기 위해 Cisco SD-WAN 결함을 악용함",
+   "summary": "해커들이 2월에 패치된 취약한 Cisco Catalyst SD-WAN 결함을 악용하여 조직의 SD-WAN 네트워크를 제어하는 시스템 내부에 맞춤형 악성코드를 심었다. Cisco Talos는 10월 28일 KeyDrift라는 악성코드가 사이트 간 트래픽을 암호화하는 키를 복사하여 나중에 사용하기 위해 저장하도록 설계되었다고 밝혔다.",
+   "impact": "이는 네트워크 인프라의 패치되지 않은 취약점과 관련된 위험을 보여준다. 보안 팀은 이 과거 활동과 관련된 과거 침해 흔적이 있는지 시스템을 검토해야 할 수 있다.",
+   "keyPoints": [
+    "해커들이 2월에 수정된 Cisco Catalyst SD-WAN 결함을 악용함.",
+    "암호화 키를 탈취하기 위해 KeyDrift라는 맞춤형 악성코드가 심어짐.",
+    "KeyDrift는 사이트 간 트래픽을 암호화하는 키를 복사하여 저장함."
+   ]
+  }
+ }
+}

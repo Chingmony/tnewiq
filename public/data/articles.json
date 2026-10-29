@@ -1,7 +1,734 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-29T02:30:43.789Z",
+ "generatedAt": "2026-10-29T10:03:28.916Z",
  "articles": [
+  {
+   "id": "d62a8f09dced3dd9",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "AI has come for Arizona’s water",
+   "originalUrl": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+   "originalLanguage": "en",
+   "originalDescription": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and squat, dwarfed by…",
+   "publishedAt": "2026-10-29T10:00:04.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "47099931c3543c47"
+  },
+  {
+   "id": "8aede429d367f56a",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "OpenAI 隔离的 AI agent 通过 CPU 缓存互相通信",
+   "originalUrl": "https://www.oschina.net/news/503303/openai-securing-our-frontier-model-training-environment",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "OpenAI 做了个测试：把两个 agent 放进完全隔离的环境，跑在同一套硬件上，没有网络、没有共享文件，命令它们互相传递一个秘密。它们做到了——用的是处理器缓存。一个 agent 故意改写缓存里的数据，另一个测量加载时间的差异，把消息解码出来。这套手法正是著名 Spectre 和 Meltdown 攻击的原理。 这不是科幻设定，是 ...",
+   "publishedAt": "2026-10-29T09:48:03.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "developer-tools",
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "1b47e69552496e55"
+  },
+  {
+   "id": "7302e2c4a0369bea",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "앤트로픽, 1인 신약 개발사 인수...클로드로 직접 치료제 개발",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216778",
+   "originalLanguage": "ko",
+   "originalDescription": "앤트로픽이 직원 한 명으로 운영되던 바이오테크 스타트업을 인수하고 '클로드'를 활용한 자체 신약 개발에 나섰다. 창업자 한 명이 클로드로 외부 연구소 11곳을 관리하며 18개월도 안 돼 희귀 근육질환 치료제의 동물실험에서 성과를 거둔 사례를 바탕으로, AI 중심의 새로운 신약 개발 방식을 시험한다.앤트로픽은 27일(현지시간) 지난 7월 희귀 유전성 근육질환 치료제를 개발하는 미스릴 메디신(Mithril Medicine)을 인수했다고 공식 블로그를 통해 밝혔다.구체적인 인수 금액은 공개하지…",
+   "publishedAt": "2026-10-29T09:00:15.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "379e6e38b717f37e"
+  },
+  {
+   "id": "1a6363661301a16a",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "AAII 평가 대폭 개편에 순위 변동…구글 1위·오픈AI 약진",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216802",
+   "originalLanguage": "ko",
+   "originalDescription": "글로벌 AI 모델 평가업체 아티피셜 애널리시스(AA)가 종합 성능 평가 기준을 대폭 개편하면서 주요 AI 모델의 순위가 달라졌다. 오픈AI의 'GPT-6 아스트라'와 'GPT-6.1 솔'이 상위권으로 올라왔으며, 구글의 최신 모델 '제미나이 4 카본'이 앤트로픽의 '클로드 오퍼스 5.5'를 제치고 1위를 차지했다. 새 평가에서는 기존 지식·추론 문제의 비중을 조정하고 실제 코딩과 과학 연구를 수행하는 능력을 강화했다. 전체 평가에서 비공개 데이터 등을 활용하는 비중을 60%로 높여, 모델이…",
+   "publishedAt": "2026-10-29T09:00:00.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "07a959fd5d55820a"
+  },
+  {
+   "id": "278d4d9597e534e7",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "엔비디아, 40개 언어 지원하는 음성 인식 AI 공개…오픈 모델 최고 정확도 달성",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216779",
+   "originalLanguage": "ko",
+   "originalDescription": "엔비디아가 40개 언어의 음성을 텍스트로 변환하고 여러 사람이 겹쳐 말하는 상황에서도 화자를 구분하는 오픈웨이트 AI 모델을 공개했다. 자연어 명령으로 받아쓰기 방식을 지정할 수 있고, 전문용어와 고유명사 인식도 지원한다. 공개 음성 인식 모델 성능 평가에서 최고 수준의 정확도를 기록했다.엔비디아는 28일(현지시간) 음성 인식 AI 모델 '네모트론 3.5 트랜스크라이브(Nemotron 3.5 Transcribe)'를 공개했다. 신모델은 전문가 혼합(MoE) 구조로, 음성 처리 장치를 포함한…",
+   "publishedAt": "2026-10-29T08:50:02.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "838b94fba5969041"
+  },
+  {
+   "id": "a6cabdd8a08d75c0",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "无公网IP，不碰路由器：花生壳如何把企业远程访问做成“基础能力”",
+   "originalUrl": "https://www.oschina.net/news/503298",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "混合办公早已不是应急选项。当员工在机场需要调取ERP中的库存数据，当运维人员半夜要连回机房处理告警，当连锁门店的监控画面需要统一汇入总部——企业远程访问的瓶颈，往往不在应用本身，而在那条“进不去的内网”。大量企业宽带处于NAT后方，没有真实公网IP；申请固定专线动辄每年数千甚至上万元；在路由器上做端口映射...",
+   "publishedAt": "2026-10-29T08:45:27.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "25b8cab6b8491e4b"
+  },
+  {
+   "id": "eb9779541f1e84d2",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "GearUI Kit 1.0 正式发布：82 个组件、四端统一，重新定义 Kotlin 跨平台 UI 开发体验",
+   "originalUrl": "https://www.oschina.net/news/503295",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "一套 Kotlin 代码，一套设计语言，一套完整的跨平台 UI 开发体系。 2026 年 10 月 29 日，GearUI Kit 1.0.0 正式发布！ 从 2026 年 3 月 2 日写下第一行代码，到今天正式发布，历经近 8 个月、440 多次代码提交、8 个公开测试版本，我们终于迎来了 GearUI Kit 的第一个正式版本。 这不仅仅是一次版本号升级。 我们希望为...",
+   "publishedAt": "2026-10-29T08:31:04.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "developer-tools",
+    "programming-languages"
+   ],
+   "imageUrl": null,
+   "contentHash": "0494827a8d03a177"
+  },
+  {
+   "id": "96402b0bba36a553",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+   "originalUrl": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+   "originalLanguage": "en",
+   "originalDescription": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for…",
+   "publishedAt": "2026-10-29T08:24:22.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDuVB5nQJHwAnAATDQxAqD8KtWk7IpNvBqXQq6RPkqJ72joLVDp5dUDDdYmRHlrbUhJQpaQQ59p245XjotvW2DNx_fKk7cPp0wJUsK0z5IQY2jXA1oP-YcYKLtSdBXnZJDNECWOzX9tP3-12cKXJm2A1KKoBsu9CEiOYKbgJDVqvQt7YRF8Fzd706YumA/s1600/cisco-sdwan.jpg",
+   "contentHash": "da170235a937f422"
+  },
+  {
+   "id": "40be6e5923d9129e",
+   "sourceId": "naver-d2",
+   "sourceName": "NAVER D2",
+   "originalTitle": "사이드카의 선언적 관리: OpenKruise SidecarSet 도입과 운영",
+   "originalUrl": "https://d2.naver.com/helloworld/2983631",
+   "originalLanguage": "ko",
+   "originalDescription": "Kubernetes에서 서비스를 운영하다 보면 메인 컨테이너 옆에 사이드카(sidecar) 컨테이너를 붙이는 일이 흔합니다. 사이드카에는 로그와 메트릭 수집, 프록시처럼 주 기능은 아니지만 같은 Pod 안에서 함께 실행되어야 하는 기능이 포함됩니다. 저희 팀이 운영하는 관리형 데이터베이스 서비스도 DB 인스턴스를 Pod 단위로 실행하고, 그 Pod에 DB 컨테이너 외에 헬스 체크, 메트릭과 로그 수집 등을 위한 사이드카를 함께 둡니다. 이 사이드카들은 DB와 같은 데이터 볼륨에 접근해야 하므로…",
+   "publishedAt": "2026-10-29T08:22:22.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "555da79c90f058ec"
+  },
+  {
+   "id": "49b07ce1b5968d70",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "광주 20대, 수도권으로 순유출…전남에선 오히려 순유입",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216814",
+   "originalLanguage": "ko",
+   "originalDescription": "올해 상반기 광주의 20대는 수도권으로 빠져나간 인원이 들어온 인원보다 많았지만, 전남과의 이동에서는 반대였다. 50·60대는 전남으로의 순유출이 두드러져 연령에 따라 인구 이동의 방향이 달랐다.국가데이터처 국가통계포털(KOSIS)의 전출지·전입지·연령별 이동자수를 분석한 결과, 올해 1~6월 광주의 20대는 수도권과의 이동에서 2218명이 순유출됐다. 전남과의 이동에서는 527명이 광주로 순유입됐다.분석 대상은 전남광주통합특별시 출범 이전인 올해 1~6월의 주민등록 전입신고 기반 자료다…",
+   "publishedAt": "2026-10-29T08:20:00.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "15194fe37c98fdc3"
+  },
+  {
+   "id": "51d4f42d90ea3b43",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "오픈AI, 연내 '챗GPT' 대화·업무 기능 통합…별도 모드 전환 없앤다",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216804",
+   "originalLanguage": "ko",
+   "originalDescription": "오픈AI가 올해 안에 '챗GPT'의 일반 대화 기능과 업무 자동화 기능(챗GPT 워크)을 통합한다. 이용자가 별도의 작업 모드로 전환하지 않아도 AI에 질문하고 문서를 작성하거나 외부 프로그램을 조작하는 등 복잡한 업무를 하나의 대화에서 처리할 수 있도록 개편할 계획이다. AI가 질문에 답하는 챗봇을 넘어 실제 업무를 수행하는 에이전트로 진화하면서, 일반 대화와 작업 실행의 경계를 없애려는 움직임이다.티보 소티오 오픈AI 챗GPT·코덱스 책임자는 28일(현지시간) X를 통해 \"올해 중 채팅과…",
+   "publishedAt": "2026-10-29T08:20:00.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "23f0317a11ba72a2"
+  },
+  {
+   "id": "843c961e52939e15",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "앤트로픽, 계약서 검토·법률 조사 자동화하는 '클로드' 도구 출시",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216808",
+   "originalLanguage": "ko",
+   "originalDescription": "앤트로픽이 기업 법무팀의 계약서 검토와 법률 조사 등을 자동화하는 도구를 출시했다. 법률 문서를 분석해 계약 조건의 문제점을 찾아내고, 여러 국가의 관련 법규를 비교하거나 규제 변화와 법무 요청을 추적하는 기능을 제공한다.앤트로픽은 28일(현지시간) 기업용 법률 AI 서비스 ‘클로드 포 리걸(Claude for Legal)’에 법무 업무용 ‘아티팩트(Artifacts)’ 갤러리를 추가했다고 밝혔다.아티팩트는 클로드에서 사용할 수 있는 대화형 도구로, 법무 담당자는 문서와 관련 자료를 입력해…",
+   "publishedAt": "2026-10-29T08:08:52.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "043e9a40377163c2"
+  },
+  {
+   "id": "032bbfdb4d73a3d7",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "오픈AI·앤트로픽, 미 중간선거 앞두고 AI 악용 감시 강화",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216803",
+   "originalLanguage": "ko",
+   "originalDescription": "오픈AI와 앤트로픽이 오는 11월3일 미국 중간선거를 앞두고 AI를 악용한 허위정보 유포와 조직적인 여론 조작을 막기 위한 대응을 강화한다. 오픈AI는 수백명의 직원을 투입한 선거 상황실을 가동하고, 앤트로픽은 가짜 언론사 운영과 조직적인 선거 개입을 탐지하는 기능을 개선했다.28일(현지시간) 폴리티코에 따르면, 오픈AI는 이번 주부터 모든 투표 집계가 끝날 때까지 '선거 운영 센터(Election Operations Center)'를 운영한다.여러 부서에서 수백명의 직원이 참여해 '챗GPT'…",
+   "publishedAt": "2026-10-29T08:01:55.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "a55d360b5254df23"
+  },
+  {
+   "id": "10311ef9d70da440",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "푸틴 \"머스크는 진정한 천재\" 극찬...러시아판 스타링크 개발은 이제 첫걸음",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216811",
+   "originalLanguage": "ko",
+   "originalDescription": "블라디미르 푸틴 러시아 대통령이 일론 머스크 CEO를 “진정한 천재”라고 극찬했다. 러시아가 자체 위성 인터넷망 구축에 나섰지만, 머스크의 스페이스X가 운영하는 ‘스타링크(Starlink)’와 비교하면 아직 초기 단계에 불과하다는 점도 인정했다.BBC와 로이터 등에 따르면, 푸틴 대통령은 28일(현지시간) 모스크바에서 열린 러시아·아프리카 정상회의 관련 행사에서 러시아의 저궤도 위성 인터넷 프로젝트 ‘라스베트(Rassvet)’ 개발 현황을 보고받던 중 이같이 말했다.막수트 샤다예프 러시아…",
+   "publishedAt": "2026-10-29T07:54:36.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "59e289658b7c37e7"
+  },
+  {
+   "id": "2041a5b9d28d0017",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "카카오, 개인 AI 에이전트용 임베딩 모델 2종 오픈 공개",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216798",
+   "originalLanguage": "ko",
+   "originalDescription": "카카오(대표 정신아)는 개인화 AI 에이전트의 기반 기술인 임베딩 모델 '카나나-2-임베딩’ 2종을 허깅페이스에 오픈소스로 공개했다고 29일 밝혔다.공개한 모델은 30억(3B) 매개변수 규모의 ‘카나나-2-3B-임베딩’과 13억(1.3B) 매개변수의 ‘카나나-2-1.3B-임베딩’ 등 2종이다. 텍스트의 의미를 수치화해 질문과 관련된 정보를 검색하는 모델에 해당한다.일반 언어모델과 달리 질문과 정보 간 의미적 유사도를 기반으로 필요한 정보를 찾아내며, 개인화 AI 에이전트가 과거 대화와 맥락에서…",
+   "publishedAt": "2026-10-29T07:50:13.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "a5e429848a90ca6f"
+  },
+  {
+   "id": "883ec5b66e8850f3",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "말레이시아 공항서 160억 규모 AI 칩 압수...중국 밀수 경로 의심",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216805",
+   "originalLanguage": "ko",
+   "originalDescription": "말레이시아 세관 당국이 쿠알라룸푸르 국제공항에서 1210만달러(약 160억원) 상당의 첨단 AI 반도체가 탑재된 서버 30대를 압수했다. 세관은 해당 물품이 수출 규제를 피하기 위해 허위 신고된 것으로 보고, 지난 6월 적발된 사건과 연관된 반도체 밀수 조직을 추적하고 있다.로이터는 28일(현지시간) 말레이시아 세관 당국이 지난 15일 쿠알라룸푸르 국제공항 자유무역구에서 검사 도중 첨단 AI 칩이 들어 있는 서버 30대를 발견했다고 보도했다. 압수 물품의 가치는 약 1210만달러로…",
+   "publishedAt": "2026-10-29T07:48:19.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "e74a0d476ed147b5"
+  },
+  {
+   "id": "e1545d6b486d4608",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "중국, 2030년 LLM 세계 선두 전망…미국은 최첨단 모델 우위 유지",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216800",
+   "originalLanguage": "ko",
+   "originalDescription": "중국이 2030년까지 대형언어모델(LLM)을 비롯한 핵심 기술 분야에서 세계 선두에 오르고, 미국과 함께 AI 시장을 주도할 것이라는 전망이 나왔다. 미국이 최첨단 AI 모델 성능에서 근소한 우위를 유지하겠지만, 중국은 소프트웨어 최적화와 낮은 운영 비용을 앞세워 경쟁력을 높일 것으로 분석됐다.블룸버그 인텔리전스(BI)는 28일(현지시간) 공개한 보고서에서 중국이 2030년까지 17개 핵심 산업 분야 가운데 8개 분야에서 세계 선두에 오를 것으로 전망했다.여기에는 AI의 핵심 기술인 LLM이…",
+   "publishedAt": "2026-10-29T07:30:53.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "9ad5b0e507bd29a0"
+  },
+  {
+   "id": "4c05b99e9871663c",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "Zentrola 1.3.1 发布：上游订阅号和 API Key 支持逐条启停",
+   "originalUrl": "https://www.oschina.net/news/503294",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "团队使用多个上游账号时，有时需要临时停用某个订阅号或 API Key，让新请求走其他账号。Zentrola 1.3.1 为此增加了凭据级“调用状态”开关。 管理员现在可以在服务商凭据列表中，逐条启用或停用订阅凭据和 API Key。停用后，该凭据不再参与新请求的选路；如果还有其他符合条件的凭据，系统会自动选择它们。人工启停与系统...",
+   "publishedAt": "2026-10-29T07:29:17.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "3ecf0f92be9a0e59"
+  },
+  {
+   "id": "f50bf28a94578c0e",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "CXMT, 수율 20%에도 HBM3E 양산 추진…SK하이닉스는 70%",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216797",
+   "originalLanguage": "ko",
+   "originalDescription": "중국 최대 D램 제조업체 창신메모리(CXMT)가 생산 수율이 20~30%에 그치는 상황에서도 AI 반도체용 고대역폭메모리(HBM) 생산에 나선다. 미국의 수출 규제로 첨단 메모리 확보가 어려워진 중국 AI 반도체 업계에 공급하기 위해서다. 다만 제품 성능과 생산 효율 모두 SK하이닉스·삼성전자와 격차가 커 당장 경쟁력을 확보하기는 어려울 전망이다.로이터는 28일(현지시간) CXMT가 HBM3E 시제품을 중국 내 여러 AI 칩 설계업체에 공급했으며, 앞으로 2개월 안에 제한적인 생산을 시작할…",
+   "publishedAt": "2026-10-29T07:26:12.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "d7ade8c833d5153b"
+  },
+  {
+   "id": "115d7eb2bf3cd165",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "순천, 14개 기관 합동 산불진화 훈련…230명·장비 22대 투입",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216658",
+   "originalLanguage": "ko",
+   "originalDescription": "AI 생성 영상순천시에서 대형산불 발생 상황을 가정한 유관기관 합동 산불진화 훈련이 진행됐다.순천은 22일 서면 운평리 청소년수련원 일원에서 전남광주통합특별시와 공동으로 ‘2026년 산불진화 통합훈련’을 실시했다고 밝혔다.훈련에는 전남광주통합특별시와 순천시, 산림청, 인접 시·군, 소방·경찰 등 14개 기관 230명이 참여했다. 산불진화헬기 3대와 고성능 산불진화차 등 장비 22대도 동원됐다.훈련은 청소년수련원 인근 야산에서 발생한 산불이 강풍으로 빠르게 확산되는 상황을 가정해 진행됐다.산불…",
+   "publishedAt": "2026-10-29T07:25:00.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "022fd200db2c471e"
+  },
+  {
+   "id": "a5df86cf85ebe82b",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "과기정통부, 내년 피지컬 AI 트레이닝 센터 구축...산업 생태계 육성 본격화",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216793",
+   "originalLanguage": "ko",
+   "originalDescription": "과학기술정보통신부가 내년에 피지컬 AI 학습용 데이터를 생산·활용하는 '피지컬 AI 트레이닝센터'를 구축한다. 이와 함께 우정사업본부와 현장 실증사업도 추진한다.과기정통부는 29일 서울 대한상공회의소에서 피지컬 AI 모델·데이터·로봇 업계 등 산학연 전문가들과 이 같은 내용을 포함한 피지컬 AI 정책 방향을 논의했다고 밝혔다. 이날 참석자들은 초기 단계 피지컬 AI와 AI 로봇 활용의 필요성 및 방안을 집중 논의했다.트레이닝센터는 월드 모델·파운데이션 모델 등 핵심기술 고도화에 필요한 양질의…",
+   "publishedAt": "2026-10-29T07:14:30.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "20d0bb624ae2d655"
+  },
+  {
+   "id": "db8b25540a6925bb",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "앤트로픽, 기업 AI 투자 효과 분석 도구 출시…성과 측정·비용 관리 지원",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216792",
+   "originalLanguage": "ko",
+   "originalDescription": "앤트로픽이 기업의 AI 투자 효과를 분석하는 도구를 출시했다. 단순한 AI 사용량을 넘어 실제 업무에서 어떤 성과를 냈는지, 비용은 얼마나 들었는지 파악할 수 있도록 지원한다. 기업들의 AI 도입이 늘면서 투자 대비 효과를 측정하고 지출을 효율적으로 관리하려는 수요를 겨냥한 것이다.앤트로픽은 28일(현지시간) 기업용 AI 서비스 ‘클로드 엔터프라이즈(Claude Enterprise)’에 스마트 보고서(Smart Reports), 직원 대상 인앱 설문조사(In-app surveys), 팀 공동…",
+   "publishedAt": "2026-10-29T07:05:00.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "72854c2897af0851"
+  },
+  {
+   "id": "3f38cf8422d4c589",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "\"챗GPT 조언 따라 간질약 줄이다 사망\"…31세 여성 유족, 오픈AI 제소",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216813",
+   "originalLanguage": "ko",
+   "originalDescription": "미국의 31세 여성이 '챗GPT'의 조언에 따라 간질 치료제 복용량을 줄이다 사망했다며 유족이 오픈AI를 상대로 소송을 제기했다. 챗GPT가 의료진과 상의하지 않은 채 약물을 감량하도록 유도하고, 이 사실을 의사에게 숨기도록 조언했다는 주장이다.뉴욕타임스(NYT)에 따르면, 아마존 소프트웨어 엔지니어였던 보웬 완의 부모는 27일(현지시간) 오픈AI를 상대로 소송을 제기했다. 완은 간질 치료제인 라모트리진의 복용량을 줄이던 중 지난 2월 사망했다. 당시 사용한 AI 모델은…",
+   "publishedAt": "2026-10-29T06:30:00.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "39425966f0cbb10e"
+  },
+  {
+   "id": "48f467fc9990539a",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+   "originalUrl": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+   "originalLanguage": "en",
+   "originalDescription": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as…",
+   "publishedAt": "2026-10-29T06:22:33.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcr5vMvEpNtC6AAPL85NwoZLwafJYuuIYKlofAez4dmACEH-0VI-icaKusP2b9HgxcJC2AMyZkdGNfVOyXQCWqjK-_vIvw1OjptUH_maUL82An7MRxEnZQ62JZqPqwuTp6QQ8TWq4y0SRqUb6KhdXLYRJMyUHg2cQBzez3g-0G8jh2ujIgx-6FqQdWBuFr/s1600/esx-audit.jpg",
+   "contentHash": "79f1da09b8dbfde0"
+  },
+  {
+   "id": "71eaddcee7df407c",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "오픈AI·앤트로픽, 캘리포니아주에 AI 규제 강화 촉구...'킬 스위치'는 입장 엇갈려",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216789",
+   "originalLanguage": "ko",
+   "originalDescription": "오픈AI와 앤트로픽이 캘리포니아주에 AI 안전 규제 강화를 촉구했다. 오픈AI는 AI 모델의 긴급 종료 기능과 외부 독립 감사를 의무화하는 방안을 제안했고, 앤트로픽은 심각한 위험이 확인된 모델의 출시를 법원이 막을 수 있어야 한다고 주장했다. 다만 모델 전체를 한 번에 중단하는 '킬 스위치(Kill Switch)' 의무화에는 입장이 엇갈렸다.로이터에 따르면, 앤트로픽은 지난 15일(현지시간) 개빈 뉴섬 캘리포니아 주지사에게 보낸 서한에서 AI 모델이 대중에게 심각한 위험을 초래할 경우 정부가…",
+   "publishedAt": "2026-10-29T06:12:56.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "11645edef3729a72"
+  },
+  {
+   "id": "47a1974644ec047b",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "아마존, AI 비서 '알렉사+' 탑재 신제품 5종 공개...기기 사업부 250명 감원",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216784",
+   "originalLanguage": "ko",
+   "originalDescription": "아마존이 AI 비서 ‘알렉사+(Alexa+)’를 탑재한 스마트홈 기기 신제품 5종을 공개했다. 카메라로 사물을 인식하는 스마트 스피커부터 수면 상태에 맞춰 깨워주는 알람 시계, AI가 사진을 선별하는 디지털 액자까지 제품군을 확대했다. 다만 신제품 발표와 같은 날 기기·서비스 사업부에서 약 250명을 감원해 사업 확장과 조직 효율화를 동시에 추진했다.아마존은 28일(현지시간) 신형 스마트 디스플레이 ‘에코 쇼 16(Echo Show 16)’과 카메라를 내장한 ‘에코 스튜디오(Echo…",
+   "publishedAt": "2026-10-29T06:04:32.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "20a36ee6783ddf48"
+  },
+  {
+   "id": "99614364c3668c99",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "여수시립소라도서관, 청소년 진로멘토 스쿨…회차별 12명 모집",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216668",
+   "originalLanguage": "ko",
+   "originalDescription": "AI 생성 영상여수시립소라도서관이 심리검사와 전문가 상담을 연계한 청소년 진로 탐색 프로그램을 운영한다.여수는 오는 11월7일부터 21일까지 매주 토요일 오전 10시부터 낮 12시까지 소라도서관에서 ‘청소년 진로멘토 스쿨’을 총 3회 운영한다고 26일 밝혔다.대상은 여수지역 초등학교 4학년부터 고등학교 3학년까지의 청소년이다. 참가자는 운영 기간 가운데 원하는 날짜를 선택해 1회 참여할 수 있으며 회차별 정원은 12명이다.프로그램에서는 U&I학습유형검사를 통해 참가자의 성격과 학습 성향을…",
+   "publishedAt": "2026-10-29T05:58:00.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "2f021a7541c12284"
+  },
+  {
+   "id": "c50f3c4d5adfd4c8",
+   "sourceId": "latent-space",
+   "sourceName": "Latent Space",
+   "originalTitle": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+   "originalUrl": "https://latent.space/p/ainews-gemini-4-carbon/",
+   "originalLanguage": "en",
+   "originalDescription": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
+   "publishedAt": "2026-10-29T05:55:19.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "a0a35438725b50bf"
+  },
+  {
+   "id": "7cd598614444dd0a",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+   "originalUrl": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+   "originalLanguage": "en",
+   "originalDescription": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the…",
+   "publishedAt": "2026-10-29T05:50:17.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9wRucatO6j8IYS9drMJNn_BtgvNwY739pg33a6-50h33cCXnqi4unW5RppMfzO6TLjMdDQ-XICWN6uKTU6ai_SyLBeD8k4SdO7Kx2-QJeMbz0LSEMZkuKZls2dMSNoJmkY5nSc2SOduiSkVpKY9uFjCG0gU73hMvSyyqMANymiqb012-Z_rVUUUJtQQ5C/s1600/php-palo.jpg",
+   "contentHash": "b3b84d28395f0a95"
+  },
+  {
+   "id": "41fb6596828f3778",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "한컴, ‘AI 팀' 노마디안으로 미국 SMB 공략...에이전트포스·뮤즈에 도전",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216782",
+   "originalLanguage": "ko",
+   "originalDescription": "한글과컴퓨터(대표 김연수)가 AI 워크포스 플랫폼 '노마디안'으로 미국 1인 사업자·소기업(SMB) 대상 AI 에이전트 시장에 도전한다. 아마존웹서비스(AWS) 등 현지 파트너 4곳과 협력해 521만 현지 SMB 수요를 흡수한다는 전략이다. 오는 12월 미국 베타 서비스를 시작하고 내년 3월 글로벌 상용 버전을 출시한다.한컴은 29일 판교 한컴타워에서 기자간담회를 열고 AI 사업 전략과 미국 진출계획을 발표했다.노마디안은 3D로 구현된 워크플레이스에서 직무별 AI 팀원 12명이 역할과…",
+   "publishedAt": "2026-10-29T05:48:16.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "8cb877649d417ec3"
+  },
+  {
+   "id": "d63c1dd283e59426",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "16 次发版背后，是每一位贡献者的力量｜Devlive Community 10 月开源月报",
+   "originalUrl": "https://www.oschina.net/news/503292",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "Devlive Community 2026 年 10 月 · Devlive Community 开源社区月报 十月，Devlive Community 的开源项目继续向前。 从跨平台桌面工具、AI Agent，到统一权限治理、知识管理与多云对象存储，我们持续推进产品迭代，也迎来了新的社区代码贡献。 这个月，我们发布了 16 个正式版本，完成了多项功能升级，并与外部贡献者一...",
+   "publishedAt": "2026-10-29T05:47:18.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "4c32c7e1fc481874"
+  },
+  {
+   "id": "ef3cba27b8e75a86",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "구글, 기업용 '제미나이 에이전트' 연내 일반 이용자에 제공",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216787",
+   "originalLanguage": "ko",
+   "originalDescription": "구글이 기업용 '제미나이 에이전트(Gemini Agent)'의 핵심 기능을 올해 안에 일반 소비자에게도 제공한다. AI가 이용자의 지시를 받아 복잡한 작업을 스스로 계획하고 실행하는 기능으로, 클라우드에서 24시간 작동하며 여러 서비스에 걸친 업무를 처리할 수 있다. 이미 일부 소비자에게 제공하고 있는 '제미나이 스파크(Gemini Spark)'와 비슷하지만, 기업용으로 개발한 보안·실행 기술을 활용해 이용자 10억명을 확보한 제미나이 앱부터 새로운 에이전트 경험을 제공한다는 계획이다.순다르…",
+   "publishedAt": "2026-10-29T05:31:50.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "528480944eea3e73"
+  },
+  {
+   "id": "7a52250ac7f55f5e",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Arco",
+   "originalUrl": "https://www.producthunt.com/products/arco-4",
+   "originalLanguage": "en",
+   "originalDescription": "GitHub and Linear issues, right inside your Codex Discussion | Link",
+   "publishedAt": "2026-10-29T05:31:15.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "4ac6c0b4a7d6bca5"
+  },
+  {
+   "id": "32d65cee3f7227ba",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "삼성SDS, 3분기 매출 3조7725억원 두자릿수 성장세… 피지컬 AI 실증 본격화",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216781",
+   "originalLanguage": "ko",
+   "originalDescription": "삼성SDS가 클라우드와 물류 사업의 동반 성장에 힘입어 3분기 두 자릿수 매출 성장을 기록했다. 피지컬 AI 분야에서는 글로벌 로봇 기업들과 손잡고 삼성 계열사 현장 실증에 나섰다.삼성SDS는 29일 3분기 잠정실적으로 매출 3조7725억 원, 영업이익 2410억 원을 기록했다고 밝혔다. 전년 동기 대비 매출은 11.2%, 영업이익은 3.7% 증가했다.IT서비스 부문 매출은 1조6810억 원으로 5.3% 늘었다. 이 가운데 클라우드 매출은 AX 사업 확대에 힘입어 18% 증가한 7961억 원을…",
+   "publishedAt": "2026-10-29T05:11:41.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "8c466a6fe9edf4c4"
+  },
+  {
+   "id": "fedcce47a6e31130",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "我只说了 15 句“哪里不对”，OpenAgents 就帮我做出了一个鹈鹕骑行 3D 游戏",
+   "originalUrl": "https://www.oschina.net/news/503291",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "我只说了15句“哪里不对”，OpenAgents就帮我做出了一个鹈鹕骑行3D游戏 本文所用的作品、全部渲染截图与制作过程数据，均由作者本人授权发布。 一个 161 KB 的 HTML 文件，零外部素材。AI 真正干活 5.9 小时。而这位用户做的，只是看图、说一句哪里不对。 快来成为用户体验官，快速上手！ https://openagents.org/blog/...",
+   "publishedAt": "2026-10-29T05:05:32.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "9119d1816683300d"
+  },
+  {
+   "id": "893678f27db8525f",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "세일즈포스 이어 오라클도 AI에 통합…기업용 소프트웨어 판도 변화",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216783",
+   "originalLanguage": "ko",
+   "originalDescription": "오라클이 자사의 기업용 소프트웨어와 데이터를 '챗GPT'에서 통합해 사용할 수 있는 새로운 업무 환경을 공개했다. 지난 8월 세일즈포스가 앤트로픽의 '클로드'에 고객관계관리(CRM) 시스템을 연결한 데 이어, 세계적인 기업용 소프트웨어 업체들이 자사 프로그램의 주요 기능을 외부 AI 서비스에 개방하고 있다. 이용자가 여러 프로그램을 직접 조작하는 대신 AI에 업무를 지시하는 방식으로, 기업용 소프트웨어의 사용자 인터페이스가 챗GPT나 클로드 중심으로 바뀌고 있다.오픈AI와 오라클은…",
+   "publishedAt": "2026-10-29T05:04:29.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "9ee053bfea2f26df"
+  },
+  {
+   "id": "10326e2ed379f037",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "미 법무부, 엔비디아의 허깅페이스 인수 조사...AI 모델 유통망 장악 가능성 검토",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216777",
+   "originalLanguage": "ko",
+   "originalDescription": "미국 법무부가 엔비디아의 129억3000만달러(약 17조원) 규모 허깅페이스 인수 거래를 놓고 반독점 조사에 착수했다. AI 칩 시장을 장악한 엔비디아가 세계 최대 AI 모델 공유 플랫폼까지 확보하면 경쟁사의 시장 접근을 제한하고 AI 생태계 전반에 영향력을 확대할 수 있다는 우려에서다.로이터는 28일(현지시간) 정통한 소식통들을 인용, 법무부가 허깅페이스 인수가 AI 시장의 경쟁에 미칠 영향을 살펴보고 있다고 보도했다.당국은 엔비디아가 이번 인수를 통해 AI 모델 유통의 핵심 경로를 장악할…",
+   "publishedAt": "2026-10-29T04:02:52.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "3434d7b7e66c0ca8"
+  },
+  {
+   "id": "a11c4c5556567f4a",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "“智启未来·AI科普千校计划”滨州正式启动，开源中国捐赠 500 万教育服务资源",
+   "originalUrl": "https://www.oschina.net/news/503290",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "10月28日，“智启未来 AI 科普千校计划（山东站）”公益项目在滨州正式启动。本次项目旨在推进人工智能教育普及，提升山东省青少年科学素养，开源中国无偿捐赠总价值约500万元AI科普教育服务资源，助力省内中小学生平等获取优质AI科普教育机会。 该项目由山东省青少年科技教育协会、山东省科普志愿者协会联合开展，山东省...",
+   "publishedAt": "2026-10-29T04:01:22.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "developer-tools",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "25e9a4be79a07661"
+  },
+  {
+   "id": "ee88b79f773f95f5",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "Anthropic 平台负责人：多 Agent 跑起来之后，还有四个工程难题无法解决",
+   "originalUrl": "https://www.oschina.net/news/503288/new-problems-for-engineers-to-solve",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "\"很多软件工程师正在经历一场身份危机。这份工作变了很多。有人沮丧，有人正玩得开心。\" 写这段话的是 Anthropic 平台负责人 Katelyn Lesse，她看到的是另一种可能：\"AI 要创造出它本可以创造的那些惊人成果，除非软件工程师把那些问题解决掉，否则做不到。这件事是生存级的，说实话这挺好玩。\" 她所说的\"那些问题\"，来自...",
+   "publishedAt": "2026-10-29T03:52:12.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "94b5f244fae074d3"
+  },
+  {
+   "id": "1aaf15dd6840fecb",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "구글, AI로 검색량 급증했지만 광고 매출은 둔화...주가 10% 급락",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216774",
+   "originalLanguage": "ko",
+   "originalDescription": "구글이 AI 기능 도입으로 최근 5년 사이 가장 빠른 검색량 증가세를 기록했지만, 핵심 수익원인 검색 광고 매출은 시장 기대에 미치지 못했다. AI 검색 사용자가 빠르게 늘어나지만, 광고 수익화가 이를 따라가지 못하면서 투자자들의 우려가 커졌다. 클라우드 매출이 두 배 이상 증가했음에도 실적 발표 이후 구글 주가는 시간외 거래에서 약 10% 급락했다.구글은 28일(현지시간) 2026년 3분기 실적을 발표했다. 전체 매출은 전년 동기 대비 25% 증가한 1276억달러(약 170조원)를…",
+   "publishedAt": "2026-10-29T03:51:17.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "93f7301ac944eee8"
+  },
+  {
+   "id": "414534be96c107de",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "文远知行001号员工带队，景烁科技首轮融资数千万美元",
+   "originalUrl": "https://www.qbitai.com/2026/10/506281.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "10月29日，文远知行披露旗下子公司景烁科技首次融资进展",
+   "publishedAt": "2026-10-29T03:27:50.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai",
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "da5f206600f32065"
+  },
+  {
+   "id": "add9dfa3ffc8cfdf",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "Cursor 把创造 Agent 的那套工序做成了产品",
+   "originalUrl": "https://www.oschina.net/news/503287/cursor-agent-sdk",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "Cursor 把自己的家底掏出来了。10 月 20 日发布的 Agent SDK，就是他们构建 Bugbot、Security Reviewer、Rollouts 这些托管 agent 时用的那套框架——现在对外开放。 该团队提到，最有用的 agent 是贴合某个团队工作方式的。以前要这么做，基本等于二选一——要么接受一个按别人工作流设计好的产品，要么从零开始搭。Age...",
+   "publishedAt": "2026-10-29T03:21:04.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "078a345d6da488e2"
+  },
+  {
+   "id": "ff899eae3c511202",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "谷歌发布 Gemini 4 Carbon，安全能力先开放给白帽子",
+   "originalUrl": "https://www.oschina.net/news/503286/google-gemini-4-carbon",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "Google DeepMind 宣布推出 Gemini 4 Carbon，离上一代 Argon 只隔了两周。官方给它的定位很聚焦：迄今最强的网络安全能力和长程任务能力。 成绩单先摆出来。Artificial Analysis Intelligence Index v5.0 上拿到 59 分排第一；WebDev Arena 上靠网页开发和产物的质量提升，elo 涨了 89 分，以 1768 排到第 4。但真正的重...",
+   "publishedAt": "2026-10-29T03:14:34.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "b779f3f0dd23b02f"
+  },
+  {
+   "id": "c5315acb60bdd5a1",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "小雨智造与国家钢结构质检中心共建实验室，乔忠良：具身智能新质生产力已成事实",
+   "originalUrl": "https://www.qbitai.com/2026/10/506273.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "2026年10月27日，“工业具身智能焊接与检测技术联合实验室”正式揭牌成立。",
+   "publishedAt": "2026-10-29T02:51:45.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "c0b283af73e2ad76"
+  },
+  {
+   "id": "8eefe839afe5d65c",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "告别拖拉拽！敲敲云零代码上线 AI Skills：开源免费，一句话搭建 CRM、进销存、OA 系统",
+   "originalUrl": "https://www.oschina.net/news/503285",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "零代码，为什么还是这么累？ 零代码平台喊了很多年 \"人人都是开发者\"，可真正上手过的人都知道：拖一个字段、点一下属性、再拖一个字段…… 一张十几个字段的表单就要配半小时；接着画审批流，拉节点、连箭头、设审批人、写回写规则；最后还要拼仪表盘，选图表、绑数据、调栅格。 \"不用写代码\" 不等于 \"不用干活\"。传统零...",
+   "publishedAt": "2026-10-29T02:49:36.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "developer-tools",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "03a77bff78a0e205"
+  },
   {
    "id": "d852a5ecf89552a4",
    "sourceId": "oschina-news",
@@ -19,6 +746,54 @@
    "contentHash": "d9ccdbee065d9bd9"
   },
   {
+   "id": "3ccdb25a8e3b2a8a",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍",
+   "originalUrl": "https://www.qbitai.com/2026/10/505934.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "用扩散模型怎么做做Agent？",
+   "publishedAt": "2026-10-29T02:18:28.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "33c1a231f1a901dc"
+  },
+  {
+   "id": "8b6dd74b01bdd291",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "24万开卖！理想重造i6，李想：目标全球畅销",
+   "originalUrl": "https://www.qbitai.com/2026/10/506246.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "理想今年最后一场发布会，自研电池芯片全部上车",
+   "publishedAt": "2026-10-29T00:59:26.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "b85dcccda604ecfd"
+  },
+  {
+   "id": "6ccd1352f98e15c3",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "刚刚，Gemini 4 Carbon全面超越Opus 5.5！首发Token半价",
+   "originalUrl": "https://www.qbitai.com/2026/10/506227.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "能连肝数日修Bug，免疫提示词注入",
+   "publishedAt": "2026-10-29T00:03:58.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "a803c8d9f689886d"
+  },
+  {
    "id": "f7566aa101f59431",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -33,6 +808,22 @@
    ],
    "imageUrl": null,
    "contentHash": "b47a95e8fc5ed57e"
+  },
+  {
+   "id": "7ddf0d3de558cc05",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Flatbread",
+   "originalUrl": "https://www.producthunt.com/products/flatbread",
+   "originalLanguage": "en",
+   "originalDescription": "Share the whole agent run, not a screenshot Discussion | Link",
+   "publishedAt": "2026-10-28T23:47:45.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "25669be5d1fb6287"
   },
   {
    "id": "da9c62c52f6c35e6",
@@ -117,6 +908,22 @@
    "contentHash": "44b494428e02a87f"
   },
   {
+   "id": "aff3ee3326fe842c",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "AssemblyAI",
+   "originalUrl": "https://www.producthunt.com/products/assemblyai",
+   "originalLanguage": "en",
+   "originalDescription": "text-to-speech built for voice agents Discussion | Link",
+   "publishedAt": "2026-10-28T22:35:24.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "c92397363c11de76"
+  },
+  {
    "id": "9be7e916451ee406",
    "sourceId": "mitre-atlas-releases",
    "sourceName": "MITRE ATLAS Releases",
@@ -132,6 +939,38 @@
    ],
    "imageUrl": "https://avatars.githubusercontent.com/u/59848506?s=60&v=4",
    "contentHash": "748512a540d28f9e"
+  },
+  {
+   "id": "4b080ff5a1f17dde",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "AutoShelf 2.6",
+   "originalUrl": "https://www.producthunt.com/products/autoshelf",
+   "originalLanguage": "en",
+   "originalDescription": "Automate any folder on your Mac with if-this-then-that rules Discussion | Link",
+   "publishedAt": "2026-10-28T22:19:51.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "1f803881a4a1e1ee"
+  },
+  {
+   "id": "4ef6ddedb2e4f33b",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Polylane for ChatGPT",
+   "originalUrl": "https://www.producthunt.com/products/polylane",
+   "originalLanguage": "en",
+   "originalDescription": "Ask ChatGPT what broke in production Discussion | Link",
+   "publishedAt": "2026-10-28T22:04:42.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "4264c5653231b68c"
   },
   {
    "id": "00c86afa1d52d7bd",
@@ -294,6 +1133,22 @@
    ],
    "imageUrl": null,
    "contentHash": "08d3027cc498b570"
+  },
+  {
+   "id": "06cef07de21f8187",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Floot in ChatGPT",
+   "originalUrl": "https://www.producthunt.com/products/floot",
+   "originalLanguage": "en",
+   "originalDescription": "Build and publish real apps without leaving ChatGPT Discussion | Link",
+   "publishedAt": "2026-10-28T20:14:10.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "5268b5952fb9fd6f"
   },
   {
    "id": "7b5653451a244c2d",
@@ -505,6 +1360,22 @@
    "contentHash": "a19aaf5e927805d2"
   },
   {
+   "id": "ed1ee031cdb3547c",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Suno MCP",
+   "originalUrl": "https://www.producthunt.com/products/suno",
+   "originalLanguage": "en",
+   "originalDescription": "The music layerfor your AI stack Discussion | Link",
+   "publishedAt": "2026-10-28T18:33:54.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "a10efa74c8ca98e2"
+  },
+  {
    "id": "4ebc8e400813c855",
    "sourceId": "aws-machine-learning-blog",
    "sourceName": "AWS Machine Learning Blog",
@@ -536,6 +1407,22 @@
    ],
    "imageUrl": null,
    "contentHash": "d0ec2c78a224d118"
+  },
+  {
+   "id": "6a3c107674b90b01",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "IFTTT.ai",
+   "originalUrl": "https://www.producthunt.com/products/ifttt",
+   "originalLanguage": "en",
+   "originalDescription": "The easiest way to automate anything Discussion | Link",
+   "publishedAt": "2026-10-28T18:26:21.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "65c909e02e8c43db"
   },
   {
    "id": "2bac06729e105b98",
@@ -682,6 +1569,22 @@
    ],
    "imageUrl": null,
    "contentHash": "cc5e6001489a352b"
+  },
+  {
+   "id": "ebb2facf6c17761b",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Gemini 4 Carbon",
+   "originalUrl": "https://www.producthunt.com/products/gemini-4-carbon",
+   "originalLanguage": "en",
+   "originalDescription": "Google's next frontier model Discussion | Link",
+   "publishedAt": "2026-10-28T17:27:14.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "647220397cd7c7cb"
   },
   {
    "id": "8a5e3ec0466b72d0",
@@ -1283,6 +2186,38 @@
    "contentHash": "b1ba60a6a4f46aea"
   },
   {
+   "id": "902ef6036dced0f2",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "MAO",
+   "originalUrl": "https://www.producthunt.com/products/mao-multi-agentic-orchestration-tool",
+   "originalLanguage": "en",
+   "originalDescription": "Team up Claude Code, Codex and Grok on one canvas Discussion | Link",
+   "publishedAt": "2026-10-28T11:27:28.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "31769752c80df24d"
+  },
+  {
+   "id": "9792fbb896fe9c60",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "StoreLocale",
+   "originalUrl": "https://www.producthunt.com/products/storelocale",
+   "originalLanguage": "en",
+   "originalDescription": "Translate app UI in App Store & Google Play screenshots Discussion | Link",
+   "publishedAt": "2026-10-28T11:24:39.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "2fa51c3d1ad87fd2"
+  },
+  {
    "id": "d4f5d5baa8252d3b",
    "sourceId": "the-hacker-news",
    "sourceName": "The Hacker News",
@@ -1315,6 +2250,22 @@
    "contentHash": "42c4efe6bcf87acd"
   },
   {
+   "id": "b77a562874026c96",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "【图片中转测试，未发布】工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
+   "originalUrl": "https://www.qbitai.com/2026/10/506194.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "让基建作为常驻buff",
+   "publishedAt": "2026-10-28T11:09:10.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "80b40ea4ddd91e98"
+  },
+  {
    "id": "bab4d2d109d6ff57",
    "sourceId": "ars-technica-gadgets",
    "sourceName": "Ars Technica Gadgets",
@@ -1329,6 +2280,22 @@
    ],
    "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Trans-Pacific-cables-at-risk-1071x648.jpg",
    "contentHash": "b08c4b1464fd55b1"
+  },
+  {
+   "id": "9e70ac413cc2b4ef",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Smart Jelly",
+   "originalUrl": "https://www.producthunt.com/products/smart-jelly",
+   "originalLanguage": "en",
+   "originalDescription": "Your everyday AI tools and memory in one Mac app. Discussion | Link",
+   "publishedAt": "2026-10-28T10:57:05.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "7b2fe8dbdd697ed1"
   },
   {
    "id": "c592f7298a637ff9",
@@ -1347,6 +2314,22 @@
    "contentHash": "f85ca414238fb3be"
   },
   {
+   "id": "6638f11074c5546d",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
+   "originalUrl": "https://www.qbitai.com/2026/10/506098.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "让基建作为常驻buff",
+   "publishedAt": "2026-10-28T10:32:39.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "8624eaf4101ac9b7"
+  },
+  {
    "id": "2e5063d5ddc42334",
    "sourceId": "the-hacker-news",
    "sourceName": "The Hacker News",
@@ -1361,6 +2344,22 @@
    ],
    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf2g4rsWnZ5eQP03cr-4e99MQStvJmuaTTi91WESG3ua1ddAW73T6X22gyaspj2SirqH-1bSAU9VkOg2F1Kh9TLmPc4jYsNAlD72S2XzCeTTRHSiN3B7is7roWwIMcIm__yRu8SkUBbyeWxAEBo5Fe-bbACZWRuoxZqv_pysQ9iMsZRHPCD_clJZsNIDs/s1600/anyrun-main.jpg",
    "contentHash": "408b9a3c2ff2f8a4"
+  },
+  {
+   "id": "28ca2f21fbc63707",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Kin",
+   "originalUrl": "https://www.producthunt.com/products/kin-6",
+   "originalLanguage": "en",
+   "originalDescription": "Connect your accounts once. Every AI follows your rules. Discussion | Link",
+   "publishedAt": "2026-10-28T10:24:00.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "d0deb8ef8bbda42f"
   },
   {
    "id": "73827fc9ff4b5e44",
@@ -1428,6 +2427,22 @@
    "contentHash": "b24d3077d2f5186b"
   },
   {
+   "id": "4800b69e29fe5e1c",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Notch Metrics",
+   "originalUrl": "https://www.producthunt.com/products/notch-metrics",
+   "originalLanguage": "en",
+   "originalDescription": "Put your revenue and product analytics metrics in the notch Discussion | Link",
+   "publishedAt": "2026-10-28T09:57:56.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "76357bd7cf0ebd9f"
+  },
+  {
    "id": "dd6cb5a673590f79",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -1474,6 +2489,54 @@
    ],
    "imageUrl": null,
    "contentHash": "baa7938fb10789b4"
+  },
+  {
+   "id": "97c8ce38be152d86",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "威卡：用数据集链接具身智能和工程机械",
+   "originalUrl": "https://www.qbitai.com/2026/10/506063.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "威卡：为工程机械的智能化与少人化，提供一条被验证的路径",
+   "publishedAt": "2026-10-28T09:01:27.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "b41a8393bc77915a"
+  },
+  {
+   "id": "b3b61bd4f09a72b5",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "19个项目18个成功，6个GPCR靶点全获命中！国产AI制药再破技术天花板",
+   "originalUrl": "https://www.qbitai.com/2026/10/506055.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "精度达AlphaFold 3两倍，分子之心拿下高难度抗体设计",
+   "publishedAt": "2026-10-28T08:59:00.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "f9bf1944411aec8c"
+  },
+  {
+   "id": "1c6d2ddd5d74f43f",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "0营收估值200亿美元，具身版OpenAI又融10亿美元",
+   "originalUrl": "https://www.qbitai.com/2026/10/506042.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "斯坦福伯克利宗师组团，贝索斯红杉抢着送钱",
+   "publishedAt": "2026-10-28T08:55:26.000Z",
+   "discoveredAt": "2026-10-29T10:03:28.916Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "57bbd4a4c69e2129"
   },
   {
    "id": "3634249801614830",
@@ -22675,22 +23738,6 @@
    ],
    "imageUrl": null,
    "contentHash": "71ebcddde80df595"
-  },
-  {
-   "id": "a549ba57c7dcc3e1",
-   "sourceId": "naver-d2",
-   "sourceName": "NAVER D2",
-   "originalTitle": "Hive는 잊으려 했지만, Spark는 기억하고 있었다: 사라진 get_table RPC 복원기",
-   "originalUrl": "https://d2.naver.com/helloworld/7314597",
-   "originalLanguage": "ko",
-   "originalDescription": "TApplicationException · UNKNOWN_METHOD Invalid method name: 'get_table' 이 글은 네이버의 Hadoop 플랫폼인 C3의 Metastore를 Apache Hive 4.2로 올리는 과정에서 Spark 잡(job)이 실패한 현상과 그 원인을 추적해, Metastore Thrift 인터페이스에서 조용히 사라졌던 RPC 하나를 복원하기까지의 과정을 다룹니다. 코드 변경 자체는 IDL 두 줄과 서버 구현 몇 줄이 전부지만, 그 이면에는 Thrift…",
-   "publishedAt": "2026-09-29T08:39:50.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "3736653a9c7642d6"
   }
  ]
 }
