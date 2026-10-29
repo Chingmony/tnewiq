@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3a81f60e380623f6",
+ "contentHash": "63c37d281fc7114e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T21:56:34.264Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon RDS for Oracle and SQL Server now support storage autoscaling on additional storage volumes",
+   "summary": "Amazon RDS for SQL Server and Amazon RDS for Oracle now support storage autoscaling on additional storage volumes. This feature automatically scales storage capacity without downtime in response to growing database workloads. Users can set a desired maximum storage limit for each additional storage volume, and autoscaling will automatically increase capacity when utilization approaches provisioned limits.",
+   "impact": "This update could help database administrators and developers avoid application downtime from under-provisioning and reduce costs from over-provisioning. It simplifies resource management by automatically handling storage scaling across new and existing instances.",
+   "keyPoints": [
+    "Storage autoscaling is now supported on additional storage volumes for Amazon RDS for SQL Server and Amazon RDS for Oracle.",
+    "Up to three additional storage volumes can be added to increase storage capacity up to 256 TiB.",
+    "The feature scales storage automatically with zero downtime as consumption approaches provisioned capacity.",
+    "Autoscaling incurs no additional charges and is available in all commercial and AWS GovCloud (US) Regions."
+   ]
+  },
+  "km": {
+   "title": "Amazon RDS សម្រាប់ Oracle និង SQL Server ឥឡូវនេះគាំទ្រការលៃតម្រូវទំហំផ្ទុកដោយស្វ័យប្រវត្តិនៅលើបរិមាណទំហំផ្ទុកបន្ថែម",
+   "summary": "Amazon RDS សម្រាប់ SQL Server និង Amazon RDS ឥឡូវនេះគាំទ្រការលៃតម្រូវទំហំផ្ទុកដោយស្វ័យប្រវត្តិនៅលើបរិមាណទំហំផ្ទុកបន្ថែម។ លក្ខណៈពិសេសនេះជួយពង្រីកទំហំផ្ទុកដោយស្វ័យប្រវត្តិដោយគ្មានការឈប់សម្រាកពេលកំពុងប្រើប្រាស់ ដើម្បីឆ្លើយតបទៅនឹងបន្ទុកការងារមូលដ្ឋានទិន្នន័យដែលធំឡើង។ អ្នកប្រើប្រាស់អាចកំណត់ដែនកំណត់ទំហំផ្ទុកអតិបរមាដែលចង់បានសម្រាប់បរិមាណបន្ថែមនីមួយៗ ហើយប្រព័ន្ធនឹងពង្រីកវាដោយស្វ័យប្រវត្តិ។",
+   "impact": "ការអាប់ដេតនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងក្រុមការងារជៀសវាងការឈប់ដំណើរការកម្មវិធី និងកាត់បន្ថយការចំណាយលើធនធានដែលមិនបានប្រើប្រាស់។ វាជួយសម្រួលដល់ការគ្រប់គ្រងធនធានទំហំផ្ទុកសម្រាប់ទាំងទិន្នន័យថ្មី និងដែលមានស្រាប់។",
+   "keyPoints": [
+    "គាំទ្រការលៃតម្រូវទំហំផ្ទុកដោយស្វ័យប្រវត្តិនៅលើបរិមាណទំហំផ្ទុកបន្ថែមសម្រាប់ Amazon RDS សម្រាប់ SQL Server និង Oracle។",
+    "អាចបន្ថែមបរិមាណទំហំផ្ទុកបន្ថែមរហូតដល់បីដើម្បីបង្កើនសមត្ថភាពរហូតដល់ 256 TiB។",
+    "មុខងារនេះដំណើរការដោយស្វ័យប្រវត្តិដោយគ្មានការឈប់សម្រាកនៅពេលដែលការប្រើប្រាស់ចូលជិតកម្រិតកំណត់។",
+    "គ្មានការគិតថ្លៃបន្ថែមសម្រាប់ការប្រើប្រាស់មុខងារនេះទេ ហើយមាននៅក្នុងតំបន់ AWS ទាំងអស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon RDS for Oracle 和 SQL Server 现已支持在附加存储卷上进行存储自动扩容",
+   "summary": "Amazon RDS for SQL Server 和 Amazon RDS for Oracle 现已支持在附加存储卷上使用 RDS 存储自动扩容功能。该功能可在数据库工作负载增长时自动扩展存储容量，且不会造成停机。用户只需为每个附加存储卷设置所需的最大存储限制，系统便会在实际利用率接近配额时自动扩展容量。",
+   "impact": "此更新可以帮助开发人员和技术团队避免因资源预留不足而导致应用程序停机，并减少因过度预留而产生的额外成本。它通过自动管理容量扩展，简化了新数据库实例和现有数据库实例的存储维护工作。",
+   "keyPoints": [
+    "Amazon RDS for SQL Server 和 Amazon RDS for Oracle 现已在附加存储卷上支持存储自动扩容。",
+    "最多可添加三个附加存储卷，将存储容量提升至最高 256 TiB。",
+    "当实际利用率接近预配置容量时，系统会自动扩展容量且零停机时间。",
+    "该自动扩容功能不收取额外费用，适用于所有商业 AWS 区域和 AWS GovCloud (US) 区域。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon RDS for Oracle 및 SQL Server, 추가 스토리지 볼륨에 대한 스토리지 자동 확장 지원",
+   "summary": "Amazon RDS for SQL Server와 Amazon RDS for Oracle이 추가 스토리지 볼륨에서 RDS 스토리지 자동 확장을 지원합니다. 이 기능은 가동 중단 없이 증가하는 데이터베이스 워크로드에 대응하여 스토리지 용량을 자동으로 확장합니다. 사용자는 각 추가 스토리지 볼륨에 대해 원하는 최대 스토리지 한도를 설정하기만 하면 시스템이 자동으로 용량을 조절합니다.",
+   "impact": "이번 업데이트를 통해 개발자와 운영 팀은 용량 부족으로 인한 애플리케이션 중단을 방지하고 과다 프로비저닝으로 인한 비용을 절감할 수 있습니다. 신규 및 기존 데이터베이스 인스턴스 모두에서 스토리지 관리가 더욱 단순화됩니다.",
+   "keyPoints": [
+    "Amazon RDS for SQL Server 및 Amazon RDS for Oracle의 추가 스토리지 볼륨에서 스토리지 자동 확장이 지원됩니다.",
+    "최대 3개의 추가 볼륨을 추가하여 스토리지 용량을 최대 256 TiB까지 늘릴 수 있습니다.",
+    "실제 사용량이 프로비저닝된 용량에 접근할 때 가동 중단 없이 자동으로 용량이 확장됩니다.",
+    "자동 확장 기능에 대한 추가 요금은 없으며 모든 상용 AWS 리전 및 AWS GovCloud (US) 리전에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

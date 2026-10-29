@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c0138fec61383be4",
+ "contentHash": "e9941a6f14475891",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T21:58:27.822Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Siemens Mendix SAML Module",
+   "summary": "Siemens has released new versions for the Mendix SAML module to address an authentication bypass vulnerability tracked as CVE-2026-89209. The flaw involves improper protection against SAML assertion replay in IdP-initiated authentication flows. Unauthenticated remote attackers could exploit this vulnerability by replaying a valid SAML response to gain unauthorized access.",
+   "impact": "Security teams and developers using affected Mendix SAML modules may face risks of unauthorized application access if attackers replay valid SAML responses in IdP-initiated flows. Organizations can mitigate this risk by disabling IdP-initiated SSO or updating to the latest vendor-released versions.",
+   "keyPoints": [
+    "Affected products include Mendix SAML (Mendix 10 compatible) and (Mendix 11 compatible) versions prior to 4.2.4, and Mendix SAML (Mendix 9 compatible) versions prior to 3.6.29.",
+    "The vulnerability carries a CVSS base score of 6.8 and is classified as CVE-2026-89209.",
+    "Siemens recommends updating to the latest versions or disabling IdP-initiated SSO as a mitigation."
+   ]
+  },
+  "km": {
+   "title": "ម៉ូឌុល Siemens Mendix SAML",
+   "summary": "Siemens បានចេញផ្សាយកំណែថ្មីសម្រាប់ម៉ូឌុល Mendix SAML ដើម្បីដោះស្រាយបញ្ហាខ្សោយនៃការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវដែលមានលេខសម្គាល់ CVE-2026-89209។ ចន្លោះប្រហោងនេះពាក់ព័ន្ធនឹងការការពារមិនបានត្រឹមត្រូវប្រឆាំងនឹងការចាក់បញ្ចូលសារ SAML ឡើងវិញនៅក្នុងលំហូរផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវដែលផ្តួចផ្តើមដោយ IdP។ ជនខិលខូចពីចម្ងាយដែលមិនបានផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវអាចទាញយកប្រយោជន៍ពីភាពខ្សោយនេះ ដើម្បីទទួលបានការចូលប្រើប្រាស់ដោយគ្មានការអនុញ្ញាត។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍ដែលប្រើប្រាស់ម៉ូឌុល Mendix SAML ដែលងាយរងគ្រោះអាចប្រឈមមុខនឹងហានិភ័យនៃការទទួលបានការចូលប្រើប្រាស់កម្មវិធីដោយគ្មានការអនុញ្ញាត។ អង្គភាពអាចកាត់បន្ថយហានិភ័យនេះដោយបិទមុខងារ IdP-initiated SSO ឬធ្វើបច្ចុប្បន្នភាពទៅកំណែថ្មីបំផុត។",
+   "keyPoints": [
+    "ផលិតផលដែលរងផលប៉ះពាល់រួមមាន Mendix SAML កំណែអាយុទាបជាង 4.2.4 និង 3.6.29។",
+    "ភាពខ្សោយនេះមានពិន្ទុ CVSS កម្រិត 6.8 និងត្រូវបានកំណត់ជា CVE-2026-89209។",
+    "Siemens ណែនាំឱ្យធ្វើបច្ចុប្បន្នភាពទៅកំណែចុងក្រោយ ឬបិទ IdP-initiated SSO ជាដំណោះស្រាយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Siemens Mendix SAML 模块",
+   "summary": "Siemens 针对 Mendix SAML 模块发布了新版本，以修复编号为 CVE-2026-89209 的身份验证绕过漏洞。该漏洞源于在 IdP 发起的身份验证流中未能正确防范 SAML 断言重放。未授权的远程攻击者可以通过重放有效的 SAML 响应来获得对应用程序的未授权访问。",
+   "impact": "使用受影响的 Mendix SAML 模块的开发人员和安全团队可能会面临未经授权访问应用程序的风险。组织可以通过禁用 IdP 发起的 SSO 或更新到供应商发布的最新版本来降低此风险。",
+   "keyPoints": [
+    "受影响的产品包括 4.2.4 版本之前的 Mendix SAML（兼容 Mendix 10 和 Mendix 11）以及 3.6.29 版本之前的 Mendix SAML（兼容 Mendix 9）。",
+    "该漏洞的 CVSS 基础评分为 6.8，编号为 CVE-2026-89209。",
+    "Siemens 建议更新至最新版本或禁用 IdP 发起的 SSO 作为缓解措施。"
+   ]
+  },
+  "ko": {
+   "title": "Siemens Mendix SAML 모듈",
+   "summary": "Siemens는 CVE-2026-89209로 추적되는 인증 우회 취약점을 해결하기 위해 Mendix SAML 모듈의 새 버전을 출시했습니다. 이 결함은 IdP 시작 인증 흐름에서 SAML 어설션 재플레이에 대한 적절한 보호가 부족하여 발생합니다. 인증되지 않은 원격 공격자가 유효한 SAML 응답을 재플레이하여 애플리케이션에 무단으로 액세스할 수 있습니다.",
+   "impact": "영향을 받는 Mendix SAML 모듈을 사용하는 개발자와 보안 팀은 공격자가 유효한 SAML 응답을 재플레이할 경우 무단 접근 위험에 직면할 수 있습니다. 조직은 IdP 시작 SSO를 비활성화하거나 최신 버전으로 업데이트하여 이 위험을 완화할 수 있습니다.",
+   "keyPoints": [
+    "영향을 받는 제품에는 4.2.4 미만의 Mendix SAML (Mendix 10 및 Mendix 11 호환)과 3.6.29 미만의 Mendix SAML (Mendix 9 호환)이 포함됩니다.",
+    "이 취약점의 CVSS 기본 점수는 6.8이며 CVE-2026-89209로 지정되었습니다.",
+    "Siemens는 최신 버전으로 업데이트하거나 IdP 시작 SSO를 비활성화할 것을 권장합니다."
+   ]
+  }
+ }
+}

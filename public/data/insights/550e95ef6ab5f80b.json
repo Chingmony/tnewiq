@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "550e95ef6ab5f80b",
+ "contentHash": "e612b3bb5ecd79a0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T21:58:17.410Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hitachi Energy TRO600 series products",
+   "summary": "Hitachi Energy has disclosed multiple vulnerabilities affecting its TRO600 series products, specifically CVE-2026-10756 and CVE-2026-106087. These security flaws involve improper restriction of communication channels and missing authentication for critical functions. Affected versions include TRO600 versions up to 9.2.1.6, 9.1.1.0 and prior, 9.2.2.1, and 9.1.2.0.",
+   "impact": "Security teams and technology users managing these energy sector systems could face remote exploitation risks, including sensitive information disclosure and unauthorized access. Updating to the latest version, such as version 9.2.2.1 or 9.1.2.0, may help mitigate these vulnerabilities.",
+   "keyPoints": [
+    "Vulnerabilities affect Hitachi Energy TRO600 series products.",
+    "CVE-2026-10756 allows authenticated attackers to bypass network access restrictions via port forwarding.",
+    "CVE-2026-106087 is an arbitrary file read vulnerability that can expose sensitive configuration files and passwords.",
+    "Vendor fixes are available in versions 9.2.2.1 and 9.1.2.0."
+   ]
+  },
+  "km": {
+   "title": "ផលិតផលស៊េរី Hitachi Energy TRO600",
+   "summary": "Hitachi Energy បានប្រកាសពីភាពខ្សោយសុវត្ថិភាពជាច្រើនដែលប៉ះពាល់ដល់ផលិតផលស៊េរី TRO600 ដែលរួមមាន CVE-2026-10756 និង CVE-2026-106087។ ចន្លោះប្រហោងទាំងនេះពាក់ព័ន្ធនឹងការដាក់កម្រិតមិនបានត្រឹមត្រូវលើបណ្តាញទំនាក់ទំនងនិងការខ្វះខauthentication សម្រាប់មុខងារសំខាន់ៗ។ កំណែដែលរងផលប៉ះពាល់រួមមាន TRO600 កំណែ 9.2.1.6 និងទាបជាងនេះ កំណែ 9.1.1.0 និងទាបជាងនេះ កំណែ 9.2.2.1 និងកំណែ 9.1.2.0។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលគ្រប់គ្រងប្រព័ន្ធទាំងនេះអាចនឹងប្រឈមមុខនឹងហានិភ័យនៃការបញ្ជាពីចម្ងាយ ការបែកធ្លាយព័ត៌មានរសើប និងការចូលប្រើប្រាស់ដោយគ្មានការអនុញ្ញាត។ ការធ្វើបច្ចុប្បន្នភាពទៅកាន់កំណែចុងក្រោយដូចជាកំណែ 9.2.2.1 ឬ 9.1.2.0 អាចជួយកាត់បន្ថយបញ្ហាទាំងនេះបាន។",
+   "keyPoints": [
+    "ភាពខ្សោយសុវត្ថិភាពប៉ះពាល់ដល់ផលិតផលស៊េរី Hitachi Energy TRO600។",
+    "CVE-2026-10756 អនុញ្ញាតឱ្យអ្នកវាយប្រហារដែលបានផ្ទៀងផ្ទាត់សិទ្ធិអាចឆ្លងកាត់ការកំណត់បណ្តាញតាមរយៈ port forwarding។",
+    "CVE-2026-106087 គឺជាចន្លោះប្រហោងអានឯកសារតាមអំពើចិត្តដែលអាចបង្ហាញឯកសារកំណត់រចនាសម្ព័ន្ធរសើបនិងពាក្យសម្ងាត់។",
+    "ការជួសជុលពីក្រុមហ៊ុនផលិតមាននៅលើកំណែ 9.2.2.1 និង 9.1.2.0។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Hitachi Energy TRO600 系列产品",
+   "summary": "Hitachi Energy 公布了影响其 TRO600 系列产品的多个漏洞，即 CVE-2026-10756 和 CVE-2026-106087。这些安全漏洞涉及通信渠道限制不当以及关键功能缺少身份验证。受影响的版本包括 TRO600 9.2.1.6 及更低版本、9.1.1.0 及更低版本、9.2.2.1 以及 9.1.2.0。",
+   "impact": "管理这些能源行业系统的安全团队和技术用户可能会面临远程攻击风险，包括敏感信息泄露和未经授权的访问。更新到最新版本（例如版本 9.2.2.1 或 9.1.2.0）可以帮助缓解这些漏洞。",
+   "keyPoints": [
+    "漏洞影响 Hitachi Energy TRO600 系列产品。",
+    "CVE-2026-10756 允许经过身份验证的攻击者通过端口转发绕过网络访问限制。",
+    "CVE-2026-106087 是一个任意文件读取漏洞，可能会泄露敏感配置文件和密码数据。",
+    "供应商已在版本 9.2.2.1 和 9.1.2.0 中提供了修复程序。"
+   ]
+  },
+  "ko": {
+   "title": "Hitachi Energy TRO600 시리즈 제품",
+   "summary": "Hitachi Energy는 TRO600 시리즈 제품에 영향을 미치는 여러 취약점(CVE-2026-10756 및 CVE-2026-106087)을 공개했습니다. 이러한 보안 결함은 통신 채널의 부적절한 제한 및 중요 기능에 대한 인증 누락과 관련이 있습니다. 영향 받는 버전에는 TRO600 9.2.1.6 이하 버전, 9.1.1.0 이하 버전, 9.2.2.1 및 9.1.2.0이 포함됩니다.",
+   "impact": "이러한 에너지 부문 시스템을 관리하는 보안 팀과 기술 사용자는 민감한 정보 유출 및 무단 액세스를 포함한 원격 공격 위험에 직면할 수 있습니다. 버전 9.2.2.1 또는 9.1.2.0과 같은 최신 버전으로 업데이트하면 이러한 취약점을 완화하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "취약점이 Hitachi Energy TRO600 시리즈 제품에 영향을 미칩니다.",
+    "CVE-2026-10756은 인증된 공격자가 포트 포워딩을 통해 네트워크 액세스 제한을 우회할 수 있도록 허용합니다.",
+    "CVE-2026-106087은 민감한 구성 파일 및 비밀번호 데이터를 노출할 수 있는 임의 파일 읽기 취약점입니다.",
+    "벤더 수정 사항은 버전 9.2.2.1 및 9.1.2.0에서 제공됩니다."
+   ]
+  }
+ }
+}

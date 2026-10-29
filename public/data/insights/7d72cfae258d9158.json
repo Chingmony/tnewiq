@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7d72cfae258d9158",
+ "contentHash": "5b14f6852248bce1",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T21:56:23.563Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Build a repeatable PHP-to-Java migration engine with Kiro",
+   "summary": "AWS Machine Learning Blog published a post detailing how to build a repeatable PHP-to-Java migration engine using Kiro, an AI integrated development environment. The methodology uses a discovery scanner, an eight-phase workflow, and a parity harness to verify the accuracy of the generated Java code. Developers can use Kiro for interactive, developer-in-the-loop migrations or scale the process using AWS Transform with the same skill files.",
+   "impact": "Development and security teams modernizing legacy systems could use this methodology to reduce manual translation errors and establish verifiable parity between old and new codebases. The approach may help streamline large-scale migrations by standardizing processes across multiple projects.",
+   "keyPoints": [
+    "Kiro pairs an AI agent with a codebase to handle multi-step engineering tasks.",
+    "The migration engine uses an eight-phase workflow, a discovery scanner, and a parity harness.",
+    "Migrations can be run interactively in Kiro or scaled across multiple applications using AWS Transform.",
+    "The methodology is encoded in versioned Markdown capability packages called skill files."
+   ]
+  },
+  "km": {
+   "title": "សាងសង់ម៉ាស៊ីនផ្ទេរ PHP ទៅ Java ដែលអាចធ្វើម្តងទៀតបានជាមួយ Kiro",
+   "summary": "ប្លុក AWS Machine Learning បានផ្សព្វផ្សាយអត្ថបទមួយស្តីពីរបៀបបង្កើតម៉ាស៊ីនផ្ទេរ PHP ទៅ Java ដែលអាចធ្វើម្តងទៀតបានដោយប្រើប្រាស់ Kiro ដែលជាបរិយាកាសអភិវឌ្ឍន៍រួមបញ្ចូលគ្នាជាមួយ AI។ វិធីសាស្ត្រនេះប្រើប្រាស់ម៉ាស៊ីនស្កេនស្វែងរក លំហូរការងារប្រាំបីដំណាក់កាល និងឧបករណ៍ផ្ទៀងផ្ទាត់ភាពត្រូវគ្នា។ អ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់ Kiro សម្រាប់ការផ្ទេរអន្តរកម្ម ឬពង្រីកដំណើរការដោយប្រើ AWS Transform។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍និងសន្តិសុខដែលធ្វើទំនើបកម្មប្រព័ន្ធចាស់ៗ អាចប្រើប្រាស់វិធីសាស្ត្រនេះដើម្បីកាត់បន្ថយការបកប្រែខុសដោយដៃ និងបង្កើតភាពត្រូវគ្នាដែលអាចផ្ទៀងផ្ទាត់បាន។",
+   "keyPoints": [
+    "Kiro ផ្គូផ្គងភ្នាក់ងារ AI ជាមួយកូដដើម្បីគ្រប់គ្រងកិច្ចការវិស្វកម្មច្រើនជំហាន។",
+    "ម៉ាស៊ីនផ្ទេរប្រើប្រាស់លំហូរការងារប្រាំបីដំណាក់កាល និងម៉ាស៊ីនស្កេនស្វែងរក។",
+    "ការផ្ទេរអាចធ្វើឡើងតាមរយៈ Kiro ឬពង្រីកទ្រង់ទ្រាយធំដោយប្រើ AWS Transform។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 Kiro 构建可重复的 PHP 到 Java 迁移引擎",
+   "summary": "AWS Machine Learning Blog 发布了一篇文章，详细介绍了如何使用 AI 集成开发环境 Kiro 构建可重复的 PHP 到 Java 迁移引擎。该方法使用发现扫描器、八阶段工作流以及一致性验证工具来确保生成的 Java 代码的准确性。开发人员可以使用 Kiro 进行交互式迁移，或使用 AWS Transform 运行相同的方法来扩展至多个项目。",
+   "impact": "负责现代化旧系统的开发和安全团队可以利用此方法减少手动转换错误，并在新旧代码库之间建立可验证的一致性。这种方法可能有助于通过跨多个项目标准化流程来简化大规模迁移。",
+   "keyPoints": [
+    "Kiro 将 AI 智能体与代码库配对，以运行多步骤工程任务。",
+    "迁移引擎围绕八阶段工作流、发现扫描器和一致性验证工具构建。",
+    "迁移可以通过 Kiro 进行交互式处理，或通过 AWS Transform 在产品组合规模上进行并行处理。",
+    "所有方法都打包在版本化的 Markdown 能力包（技能文件）中。"
+   ]
+  },
+  "ko": {
+   "title": "Kiro를 사용하여 반복 가능한 PHP-to-Java 마이그레이션 엔진 구축",
+   "summary": "AWS Machine Learning Blog는 AI 통합 개발 환경인 Kiro를 사용하여 반복 가능한 PHP-to-Java 마이그레이션 엔진을 구축하는 방법을 설명하는 게시물을 공개했습니다. 이 방법론은 검색 스캐너, 8단계 워크플로, 패리티 하네스를 사용하여 생성된 Java 코드의 정확성을 검증합니다. 개발자는 Kiro를 사용하여 대화형 마이그레이션을 수행하거나 동일한 스킬 파일을 사용하여 AWS Transform으로 확장할 수 있습니다.",
+   "impact": "레거시 시스템을 현대화하는 개발 및 보안 팀은 이 방법론을 사용하여 수동 번역 오류를 줄이고 기존 코드와 새 코드 간의 검증 가능한 일치성을 확보할 수 있습니다. 이 접근 방식은 여러 프로젝트에서 프로세스를 표준화하여 대규모 마이그레이션을 간소화하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "Kiro는 AI 에이전트를 코드베이스와 결합하여 다단계 엔지니어링 작업을 실행합니다.",
+    "마이그레이션 엔진은 검색 스캐너, 8단계 워크플로 및 패리티 하네스를 중심으로 구성됩니다.",
+    "마이그레이션은 Kiro에서 대화식으로 수행하거나 AWS Transform을 통해 병렬 작업으로 확장할 수 있습니다.",
+    "방법론은 버전이 지정된 Markdown 기능 패키지인 스킬 파일에 인코딩됩니다."
+   ]
+  }
+ }
+}

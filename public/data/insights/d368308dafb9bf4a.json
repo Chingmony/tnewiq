@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d368308dafb9bf4a",
+ "contentHash": "d3441c8c21154f0b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T21:55:21.775Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Microsoft Research Focus – Edition #97",
+   "summary": "Microsoft has released Edition #97 of its Microsoft Research Focus series, hosted by Sowbhagya Suresh across social media, YouTube, and podcast platforms. This episode covers cutting-edge topics including the ForkPilot self-improving agentic framework, coding agent bottlenecks, AI use in workplaces, Shiksha Copilot, mid-range weather forecasting improvements, and the public preview of BioEmu2. The update highlights recent research developments, tools, and ideas being explored across Microsoft.",
+   "impact": "Developers and researchers working with AI agents, weather forecasting tools, or coding assistants may find these frameworks and benchmarks useful for improving efficiency and reliability. The introduction of tools like ForkPilot and BioEmu2 could offer new methods for reducing processing demands and enhancing scientific modeling.",
+   "keyPoints": [
+    "ForkPilot is a new self-improving agentic framework that reduces AI processing demands by up to 59%.",
+    "CABRA is a framework designed to generate coding challenges from scratch to analyze coding agent success and failure.",
+    "BioEmu2 is now available in public preview.",
+    "The episode also discusses Shiksha Copilot, workplace AI usage patterns, and mid-range weather forecasting improvements."
+   ]
+  },
+  "km": {
+   "title": "ការផ្តោតលើការស្រាវជ្រាវរបស់ Microsoft - ការបោះពុម្ពលេខ 97",
+   "summary": "Microsoft បានចេញផ្សាយការបោះពុម្ពលេខ 97 នៃស៊េរី Microsoft Research Focus ដែលរៀបចំដោយ Sowbhagya Suresh តាមរយៈប្រព័ន្ធផ្សព្វផ្សាយសង្គម YouTube និងវេទិកាផតខាស់។ វគ្គនេះនិយាយអំពីប្រធានបទទំនើបៗ រួមមានក្របខ័ណ្ឌភ្នាក់ងារស្វ័យភាព ForkPilot បញ្ហាកកស្ទះនៃភ្នាក់ងារកូដ ការប្រើប្រាស់ AI នៅកន្លែងធ្វើការ Shiksha Copilot ការព្យាករណ៍អាកាសធាតុ និងការមើលជាមុនជាសាធារណៈរបស់ BioEmu2។ ការអាប់ដេតនេះបង្ហាញពីការអភិវឌ្ឍន៍ស្រាវជ្រាវ ឧបករណ៍ និងគំនិតថ្មីៗ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងអ្នកស្រាវជ្រាវដែលធ្វើការជាមួយភ្នាក់ងារ AI ឧបករណ៍ព្យាករណ៍អាកាសធាតុ ឬជំនួយការសរសេរកូដ អាចរកឃើញក្របខ័ណ្ឌទាំងនេះមានប្រយោជន៍ក្នុងការកែលម្អប្រសិទ្ធភាព។ ការដាក់ឱ្យប្រើប្រាស់ឧបករណ៍ដូចជា ForkPilot និង BioEmu2 អាចផ្តល់នូវវិធីសាស្ត្រថ្មីៗក្នុងការកាត់បន្ថយការប្រើប្រាស់ធនធាន។",
+   "keyPoints": [
+    "ForkPilot គឺជាក្របខ័ណ្ឌភ្នាក់ងារស្វ័យភាពថ្មីដែលកាត់បន្ថយតម្រូវការដំណើរការ AI រហូតដល់ 59%។",
+    "CABRA គឺជាក្របខ័ណ្ឌមួយដែលត្រូវបានរចនាឡើងដើម្បីបង្កើតបញ្ហាប្រឈមក្នុងការសរសេរកូដដើម្បីវិភាគភាពជោគជ័យនិងបរាជ័យរបស់ភ្នាក់ងារកូដ។",
+    "BioEmu2 ឥឡូវនេះមានជាសាធារណៈសម្រាប់ការមើលជាមុន។",
+    "វគ្គនេះក៏បានពិភាក្សាអំពី Shiksha Copilot និងការកែលម្អការព្យាករណ៍អាកាសធាតុផងដែរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "微软研究焦点 – 第 97 期",
+   "summary": "微软发布了第 97 期微软研究焦点系列内容，由 Sowbhagya Suresh 主持，并在社交渠道、YouTube 和各大播客平台上播出。本期节目涵盖了多项前沿研究，包括自适应智能体框架 ForkPilot、编码智能体瓶颈、工作场所中的 AI 使用、Shiksha Copilot、中程天气预报改进以及 BioEmu2 的公开预览。此次更新突出了微软研究人员正在探索的最新思想、工具和发现。",
+   "impact": "从事 AI 智能体、天气预报工具或编码助手的开发人员和研究人员可能会发现这些框架和基准有助于提高效率和可靠性。像 ForkPilot 和 BioEmu2 这样的工具可能会为降低处理需求和增强科学建模提供新方法。",
+   "keyPoints": [
+    "ForkPilot 是一个新的自我完善智能体框架，可将 AI 处理需求减少高达 59%。",
+    "CABRA 是一个旨在从头生成编码挑战的框架，用于分析编码智能体的成功与失败。",
+    "BioEmu2 现已推出公开预览版。",
+    "该期节目还讨论了 Shiksha Copilot、职场 AI 使用模式以及中程天气预报的改进。"
+   ]
+  },
+  "ko": {
+   "title": "Microsoft Research Focus – 제97판",
+   "summary": "마이크로소프트는 소셜 채널, YouTube 및 주요 팟캐스트 플랫폼을 통해 Sowbhagya Suresh가 진행하는 Microsoft Research Focus 제97판을 공개했습니다. 이번 에피소드에서는 자기 개선 에이전트 프레임워크인 ForkPilot, 코딩 에이전트의 병목 현상, 직장에서의 AI 활용, Shiksha Copilot, 중기 일기예보 개선, BioEmu2의 공개 미리보기 등 최신 연구 주제를 다룹니다.",
+   "impact": "AI 에이전트, 일기예보 도구 또는 코딩 어시스턴트를 다루는 개발자와 연구원들은 이러한 프레임워크와 벤치마크를 통해 효율성과 신뢰성을 높일 수 있습니다. ForkPilot 및 BioEmu2와 같은 도구는 처리 요구 사항을 줄이고 과학적 모델링을 향상시키는 새로운 방법을 제공할 수 있습니다.",
+   "keyPoints": [
+    "ForkPilot은 AI 처리 요구 사항을 최대 59%까지 줄여주는 새로운 자기 개선 에이전트 프레임워크입니다.",
+    "CABRA는 코딩 에이전트의 성공과 실패를 분석하기 위해 처음부터 코딩 문제를 생성하도록 설계된 프레임워크입니다.",
+    "BioEmu2가 공개 미리보기로 제공됩니다.",
+    "이 에피소드에서는 Shiksha Copilot, 직장 내 AI 사용 패턴, 중기 날씨 예측 개선 사항도 다룹니다."
+   ]
+  }
+ }
+}

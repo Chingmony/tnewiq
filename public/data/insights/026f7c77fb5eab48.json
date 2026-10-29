@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "026f7c77fb5eab48",
+ "contentHash": "77074ce2c71c275d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T21:59:19.544Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+   "summary": "Independent researcher Ben Zimmermann discovered 26,400 valid credentials left by developers in public code on the Chinese code-hosting service Gitee. After scanning 7.25 million public repositories, the researcher confirmed that the exposed credentials still worked when tested. Most of the uncovered items were keys for cloud and AI services.",
+   "impact": "This exposure could allow unauthorized individuals to access sensitive cloud and AI systems using the valid keys found in public repositories. Developers and security teams may need to carefully monitor repositories to prevent accidental credential leaks.",
+   "keyPoints": [
+    "26,400 valid credentials were found exposed in public Gitee repositories.",
+    "The keys still worked when tested by independent researcher Ben Zimmermann.",
+    "The researcher scanned 7.25 million public Gitee repositories.",
+    "Most of the exposed keys were for cloud and AI services."
+   ]
+  },
+  "km": {
+   "title": "រកឃើញព័ត៌មានសម្ងាត់ផ្នែកពពក និង AI ដែលមានសុពលភាពចំនួន ២៦.៤០០ ត្រូវបានដាក់បង្ហាញជាសាធារណៈក្នុងឃ្លាំង Gitee",
+   "summary": "អ្នកស្រាវជ្រាវឯករាជ្យ Ben Zimmermann បានរកឃើញព័ត៌មានសម្ងាត់ចំនួន ២៦.៤០០ ដែលអ្នកអភិវឌ្ឍន៍បានបន្សល់ទុកក្នុងកូដសាធារណៈនៅលើសេវាកម្មបង្ហូរកូដ Gitee ។ បន្ទាប់ពីស្កែនឃ្លាំងសាធារណៈចំនួន ៧,២៥ លាន អ្នកស្រាវជ្រាវបានបញ្ជាក់ថាព័ត៌មានសម្ងាត់ទាំងនោះនៅតែដំណើរការនៅពេលធ្វើតេស្ត។ ភាគច្រើននៃទិន្នន័យដែលបានរកឃើញគឺជាគ្រាប់ចុចសម្រាប់សេវាកម្មពពក និង AI ។",
+   "impact": "ការលាតត្រដាងនេះអាចអនុញ្ញាតឱ្យបុគ្គលដែលគ្មានការអនុញ្ញាតចូលប្រើប្រាស់ប្រព័ន្ធពពក និង AI ដោយប្រើគ្រាប់ចុចដែលមានសុពលភាពដែលបានរកឃើញនៅក្នុងឃ្លាំងសាធារណៈ។ អ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខអាចចាំបាច់ត្រូវត្រួតពិនិត្យឃ្លាំងកូដយ៉ាងប្រុងប្រយ័ត្នដើម្បីការពារការលេចធ្លាយព័ត៌មានសម្ងាត់ដោយអចេតនា។",
+   "keyPoints": [
+    "ព័ត៌មានសម្ងាត់ដែលមានសុពលភាពចំនួន ២៦.៤០០ ត្រូវបានរកឃើញនៅលើ Gitee ។",
+    "គ្រាប់ចុចទាំងនោះនៅតែដំណើរការនៅពេលធ្វើតេស្តដោយអ្នកស្រាវជ្រាវ Ben Zimmermann ។",
+    "អ្នកស្រាវជ្រាវបានស្កែនឃ្លាំងសាធារណៈ Gitee ចំនួន ៧,២៥ លាន ។",
+    "ភាគច្រើននៃគ្រាប់ចុចដែលបានរកឃើញគឺសម្រាប់សេវាកម្មពពក និង AI ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在公共 Gitee 仓库中发现 26,400 个有效的云和 AI 凭证暴露",
+   "summary": "独立研究员本·齐默尔曼（Ben Zimmermann）在中国代码托管服务 Gitee 的公共代码中发现了 26,400 个由开发人员留下的有效凭证。在扫描了 725 万个公共代码库后，该研究员确认这些暴露的凭证在测试时仍然有效。其中大部分是被发现的云和 AI 服务密钥。",
+   "impact": "这次暴露可能会允许未经授权的人员使用在公共代码库中找到的有效密钥访问敏感的云和 AI 系统。开发人员和安全团队可能需要仔细监控代码库，以防止意外泄漏凭证。",
+   "keyPoints": [
+    "在公共 Gitee 仓库中发现 26,400 个有效的凭证。",
+    "经独立研究员本·齐默尔曼测试，这些密钥仍然有效。",
+    "研究员扫描了 725 万个公共 Gitee 仓库。",
+    "大多数暴露的密钥用于云和 AI 服务。"
+   ]
+  },
+  "ko": {
+   "title": "공개된 Gitee 저장소에서 유효한 클라우드 및 AI 자격 증명 26,400개 노출 확인",
+   "summary": "독립 연구원 벤 침머만(Ben Zimmermann)이 중국 코드 호스팅 서비스인 Gitee의 공개 코드에 개발자들이 남겨둔 26,400개의 유효한 자격 증명을 발견했습니다. 725만 개의 공개 저장소를 스캔한 후, 연구원은 노출된 자격 증명이 테스트 시 여전히 작동함을 확인했습니다. 노출된 항목의 대부분은 클라우드 및 AI 서비스용 키였습니다.",
+   "impact": "이번 노출로 인해 인가되지 않은 개인이 공개 저장소에서 발견된 유효한 키를 사용하여 민감한 클라우드 및 AI 시스템에 접근할 수 있게 될 수 있습니다. 개발자와 보안 팀은 우발적인 자격 증명 유출을 방지하기 위해 저장소를 주의 깊게 모니터링해야 할 수 있습니다.",
+   "keyPoints": [
+    "공개된 Gitee 저장소에서 유효한 자격 증명 26,400개가 노출된 채 발견되었습니다.",
+    "독립 연구원 벤 침머만이 테스트했을 때 해당 키들은 여전히 작동했습니다.",
+    "연구원은 725만 개의 공개 Gitee 저장소를 스캔했습니다.",
+    "노출된 키의 대부분은 클라우드 및 AI 서비스용이었습니다."
+   ]
+  }
+ }
+}

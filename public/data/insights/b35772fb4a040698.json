@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b35772fb4a040698",
+ "contentHash": "58a2ec948eb33fdb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T21:58:58.876Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+   "summary": "According to security startup NebuSec, a flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone via a voice call when answered. The attacker only required an ordinary Telegram account to execute the attack. Telegram addressed the issue in version 12.10.4, which was released in late September.",
+   "impact": "This vulnerability could allow attackers to gain full control of a user's device simply by having them answer a voice call. Developers and users should ensure their applications are updated to version 12.10.4 or later to mitigate these risks.",
+   "keyPoints": [
+    "A flaw in Telegram for Android allowed full device control when combined with two other bugs.",
+    "The attack was triggered when a victim answered an incoming voice call.",
+    "An attacker needed only an ordinary Telegram account.",
+    "Telegram fixed the issue in version 12.10.4 in late September."
+   ]
+  },
+  "km": {
+   "title": "נקប្រមាញ់កំហុសក្នុង Telegram សម្រាប់ Android អនុញ្ញាតឱ្យអ្នកវាយប្រហាររត់កូដពេលអ្នកប្រើប្រាស់ឆ្លើយការហៅជាសំឡេង",
+   "summary": "បើយោងតាមក្រុមហ៊ុនចាប់ផ្តើមអាជីវកម្មសុវត្ថិភាព NebuSec បានឱ្យដឹងថា កំហុសមួយនៅក្នុង Telegram សម្រាប់ Android អាចត្រូវបានភ្ជាប់ជាមួយកំហុសពីរផ្សេងទៀតដើម្បីគ្រប់គ្រងទូរស័ព្ទរបស់ជនរងគ្រោះទាំងស្រុងតាមរយៈការហៅជាសំឡេង នៅពេលដែលជនរងគ្រោះបានឆ្លើយតប។ អ្នកវាយប្រហារត្រូវការត្រឹមតែគណនី Telegram ធម្មតាប៉ុណ្ណោះ។ Telegram បានជួសជុលកំហុសនេះនៅក្នុងកំណែ 12.10.4 ដែលបានដាក់ឱ្យប្រើប្រាស់នៅចុងខែកញ្ញា។",
+   "impact": "ភាពងាយរងគ្រោះនេះអាចអនុញ្ញាតឱ្យអ្នកវាយប្រហារទទួលបានការគ្រប់គ្រងពេញលេញលើឧបករណ៍របស់អ្នកប្រើប្រាស់តាមរយៈការឆ្លើយការហៅជាសំឡេង។ ក្រុមអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់គួរតែធានាថាកម្មវិធីរបស់ពួកគេត្រូវបានអាប់ដេតទៅកំណែ 12.10.4 ឬថ្មីជាងនេះ។",
+   "keyPoints": [
+    "កំហុសមួយនៅក្នុង Telegram សម្រាប់ Android អនុញ្ញាតឱ្យគ្រប់គ្រងឧបករណ៍ទាំងស្រុងនៅពេលរួមបញ្ចូលជាមួយកំហុសពីរផ្សេងទៀត។",
+    "ការវាយប្រហារត្រូវបានបង្កឡើងនៅពេលដែលជនរងគ្រោះឆ្លើយការហៅជាសំឡេងចូល។",
+    "អ្នកវាយប្រហារត្រូវការត្រឹមតែគណនី Telegram ធម្មតាប៉ុណ្ណោះ។",
+    "Telegram បានជួសជុលបញ្ហានេះនៅក្នុងកំណែ 12.10.4 នៅចុងខែកញ្ញា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Telegram 安卓漏洞允许攻击者在用户接听语音电话时运行代码",
+   "summary": "安全初创公司 NebuSec 表示，Telegram 安卓版本中的一个漏洞可以与另外两个漏洞结合，在受害者接听语音电话时完全控制受害者的手机。攻击者仅需一个普通的 Telegram 账号即可。Telegram 已在 9 月下旬发布的 12.10.4 版本中修复了该漏洞。",
+   "impact": "此漏洞可能允许攻击者仅通过让用户接听语音电话便获得对设备的完全控制。开发人员和用户应确保将应用程序更新至 12.10.4 或更高版本以降低风险。",
+   "keyPoints": [
+    "Telegram 安卓版的一个漏洞在与其他两个漏洞结合时可实现完全设备控制。",
+    "当受害者接听来电语音电话时会触发该攻击。",
+    "攻击者只需要一个普通的 Telegram 账号。",
+    "Telegram 已于 9 月下旬在 12.10.4 版本中修复了该问题。"
+   ]
+  },
+  "ko": {
+   "title": "Telegram 안드로이드 취약점으로 사용자가 음성 통화를 받을 때 공격자가 코드를 실행할 수 있어",
+   "summary": "보안 스타트업 NebuSec에 따르면, Telegram 안드로이드의 결함이 다른 두 개의 버그와 결합되어 피해자가 음성 통화를 받을 때 전화기를 완전히 제어할 수 있는 것으로 나타났습니다. 공격자는 일반 Telegram 계정만 있으면 되었습니다. Telegram은 9월 말에 배포된 12.10.4 버전에서 이 결함을 수정했습니다.",
+   "impact": "이 취약점으로 인해 공격자는 사용자가 음성 통화를 받는 것만으로도 기기를 완전히 제어할 수 있게 될 수 있습니다. 개발자와 사용자는 이러한 위험을 완화하기 위해 애플리케이션을 12.10.4 버전 이상으로 업데이트해야 합니다.",
+   "keyPoints": [
+    "Telegram 안드로이드의 결함이 두 개의 다른 버그와 결합하여 완전한 기기 제어를 허용했습니다.",
+    "피해자가 걸려온 음성 통화를 받을 때 공격이 트리거되었습니다.",
+    "공격자에게는 일반 Telegram 계정만 필요했습니다.",
+    "Telegram은 9월 말 12.10.4 버전에서 이 문제를 해결했습니다."
+   ]
+  }
+ }
+}

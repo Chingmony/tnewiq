@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "193f5a35878b3318",
+ "contentHash": "649fea57b755fde0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T21:59:39.739Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+   "summary": "GitHub has announced a new package firewall available in public preview to block the installation of suspicious npm packages. The firewall acts as an install-time policy gate by inspecting metadata requests and package downloads for signs of malicious activity. Currently, the feature only supports npm packages.",
+   "impact": "This feature could help developers and security teams prevent malicious packages from entering their systems during installation. It may provide an automated layer of defense against supply chain threats.",
+   "keyPoints": [
+    "GitHub introduced a new package firewall in public preview.",
+    "It blocks the installation of suspicious npm packages.",
+    "The firewall inspects metadata requests and package downloads for malicious activity.",
+    "The feature currently supports only npm packages."
+   ]
+  },
+  "km": {
+   "title": "GitHub បង្ហាញ npm Firewall ដើម្បីទប់ស្កាត់កញ្ចប់មេរោគមុនពេលដំឡើង",
+   "summary": "GitHub បានប្រកាសពីការដាក់ឱ្យប្រើប្រាស់នូវកញ្ចប់ firewall ថ្មីមួយក្នុងទម្រង់ជា public preview ដើម្បីទប់ស្កាត់ការដំឡើងកញ្ចប់ npm ដែលមានភាពសង្ស័យ។ កញ្ចប់ firewall នេះធ្វើការត្រួតពិនិត្យសំណើទិន្នន័យមេ និងការទាញយកកញ្ចប់ដើម្បីស្វែងរកសញ្ញានៃសកម្មភាពខុសច្បាប់។ បច្ចុប្បន្ន លក្ខណៈពិសេសនេះគាំទ្រតែកញ្ចប់ npm ប៉ុណ្ណោះ។",
+   "impact": "មុខងារនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខទប់ស្កាត់កញ្ចប់មេរោគមិនឱ្យចូលទៅក្នុងប្រព័ន្ធរបស់ពួកគេក្នុងអំឡុងពេលដំឡើង។ វាអាចផ្ដល់នូវស្រទាប់ការពារស្វ័យប្រវត្តិនឹងការគំរាមកំហែងខ្សែសង្វាក់ផ្គត់ផ្គង់។",
+   "keyPoints": [
+    "GitHub បានដាក់ឱ្យប្រើប្រាស់កញ្ចប់ firewall ថ្មីក្នុងទម្រង់ជា public preview",
+    "វាទប់ស្កាត់ការដំឡើងកញ្ចប់ npm ដែលមានភាពសង្ស័យ",
+    "Firewall ពិនិត្យសំណើទិន្នន័យមេ និងការទាញយកកញ្ចប់សម្រាប់សកម្មភាពខុសច្បាប់",
+    "លក្ខណៈពិសេសនេះបច្ចុប្បន្នគាំទ្រតែកញ្ចប់ npm ប៉ុណ្ណោះ"
+   ]
+  },
+  "zh-CN": {
+   "title": "GitHub 推出 npm 防火墙以在安装前拦截恶意软件包",
+   "summary": "GitHub 宣布推出一项全新的软件包防火墙公共预览版，旨在阻止安装可疑的 npm 软件包。该防火墙充当安装时的策略门，通过检查元数据请求和软件包下载来寻找恶意活动的迹象。目前，该功能仅支持 npm 软件包。",
+   "impact": "此功能可以帮助开发人员和安全团队在安装过程中防止恶意软件包进入其系统。它可能会为供应链威胁提供自动化的防御层。",
+   "keyPoints": [
+    "GitHub 推出了处于公共预览阶段的新软件包防火墙。",
+    "它能够阻止可疑 npm 软件包的安装。",
+    "防火墙会检查元数据请求和软件包下载以发现恶意活动。",
+    "该功能目前仅支持 npm 软件包。"
+   ]
+  },
+  "ko": {
+   "title": "GitHub, 설치 전 악성 패키지 차단을 위한 npm 방화벽 출시",
+   "summary": "GitHub는 의심스러운 npm 패키지의 설치를 차단하기 위해 공개 미리보기 형태로 새로운 패키지 방화벽을 도입한다고 발표했습니다. 이 방화벽은 메타데이터 요청과 패키지 다운로드에서 악성 활동의 징후를 검사하여 설치 시점 정책 게이트 역할을 합니다. 현재 이 기능은 npm 패키지만 지원합니다.",
+   "impact": "이 기능은 개발자와 보안 팀이 설치 과정에서 악성 패키지가 시스템에 유입되는 것을 막는 데 도움을 줄 수 있습니다. 공급망 위협에 대한 자동화된 방어 계층을 제공할 수 있습니다.",
+   "keyPoints": [
+    "GitHub가 공개 미리보기로 새로운 패키지 방화벽을 도입했습니다.",
+    "의심스러운 npm 패키지의 설치를 차단합니다.",
+    "방화벽은 메타데이터 요청과 패키지 다운로드의 악성 활동 징후를 검사합니다.",
+    "이 기능은 현재 npm 패키지만 지원합니다."
+   ]
+  }
+ }
+}

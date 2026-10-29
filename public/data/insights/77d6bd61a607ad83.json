@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "77d6bd61a607ad83",
+ "contentHash": "1dcaed877d45c900",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T21:54:01.508Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Microsoft fixes a Windows 11 annoyance as PC revenue declines",
+   "summary": "Microsoft has begun rolling out a Windows 11 preview update, KB5127936, for versions 26H2 and 25H2. The update addresses user complaints about the right-click menu by introducing a customize menu button. Additionally, the update introduces Cloud Rebuild, a recovery feature that reinstalls Windows 11 directly from the cloud without external media.",
+   "impact": "The new update could reduce frustration for power users who previously relied on custom scripts to modify the right-click menu. Meanwhile, Cloud Rebuild may simplify recovery for unbootable systems, though users should note it acts as a fresh install rather than a repair.",
+   "keyPoints": [
+    "Preview update KB5127936 is rolling out gradually for Windows 11 versions 26H2 and 25H2.",
+    "A new customize menu button lets users toggle, rearrange, and control commands in the right-click menu.",
+    "Cloud Rebuild reinstalls Windows 11 and necessary system drivers directly from Windows Update without external media.",
+    "Cloud Rebuild performs a fresh install rather than a repair, meaning existing applications and files are not included."
+   ]
+  },
+  "km": {
+   "title": "មីក្រូសូហ្វ (Microsoft) ដោះស្រាយបញ្ហាគួរឱ្យខឹងសម្បារនៅលើ Windows 11 ខណៈដែលចំណូលពីកុំព្យូទ័រថយចុះ",
+   "summary": "ក្រុមហ៊ុន Microsoft បានចាប់ផ្តើមបញ្ចេញកំណែអាប់ដេតមើលជាមុនសម្រាប់ Windows 11 គឺ KB5127936 ដែលដោះស្រាយបញ្ហាពាក់ព័ន្ធនឹងម៉ឺនុយចុចខាងស្តាំ។ កំណែអាប់ដេតនេះក៏បានណែនាំមុខងារ Cloud Rebuild ដែលជាជម្រើសសង្គ្រោះដើម្បីដំឡើង Windows 11 ឡើងវិញដោយផ្ទាល់ពីប្រព័ន្ធអ៊ីនធឺណិតផងដែរ។",
+   "impact": "ការអាប់ដេតនេះអាចជួយកាត់បន្ថយភាពរំខានសម្រាប់អ្នកប្រើប្រាស់ដែលធ្លាប់តែមិនពេញចិត្តនឹងម៉ឺនុយចុចខាងស្តាំ។ មុខងារ Cloud Rebuild ក៏អាចជួយសម្រួលដល់ការសង្គ្រោះប្រព័ន្ធផងដែរ ប៉ុន្តែវាដំណើរការដូចជាការដំឡើងថ្មីស្រឡាង។",
+   "keyPoints": [
+    "កំណែអាប់ដេតមើលជាមុន KB5127936 កំពុងត្រូវបានបញ្ចេញជាបន្តបន្ទាប់សម្រាប់ Windows 11 កំណែ 26H2 និង 25H2។",
+    "ប៊ូតុងប្ដូរតាមបំណងម៉ឺនុយថ្មីអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់គ្រប់គ្រងពាក្យបញ្ជាពេលចុចកណ្ដុរខាងស្តាំ។",
+    "មុខងារ Cloud Rebuild ទាញយករូបភាព Windows 11 និងកម្មវិធីបញ្ជាដោយផ្ទាល់ពី Windows Update។",
+    "Cloud Rebuild មិនមែនជាការជួសជុលទេ ប៉ុន្តែវាជាការដំឡើងថ្មីដែលមិនរួមបញ្ចូលកម្មវិធី និងឯកសារចាស់ៗឡើយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "微软在 PC 营收下降之际修复了 Windows 11 的一个烦恼",
+   "summary": "微软开始推送 Windows 11 预览更新 KB5127936，以解决用户对右键菜单的不满。该更新引入了一个自定义菜单按钮，并带来了一项名为 Cloud Rebuild 的新恢复功能，允许在系统无法启动时直接从云端重新安装 Windows 11。",
+   "impact": "此更新可能会缓解长期以来对 Windows 11 右键菜单感到不满的高级用户的困扰。同时，Cloud Rebuild 可能会简化无法启动系统的恢复流程，但由于它类似于全新安装，用户需要注意保留数据。",
+   "keyPoints": [
+    "预览更新 KB5127936 正逐步向 Windows 11 26H2 和 25H2 版本推出。",
+    "新增的自定义菜单按钮允许用户控制右键菜单中的显示命令、切换内置命令以及重新排列项目。",
+    "Cloud Rebuild 可以直接从 Windows Update 拉取系统镜像和系统驱动程序，无需外部媒体。",
+    "Cloud Rebuild 表现得更像是全新安装而不是修复，不会保留现有的应用程序和文件。"
+   ]
+  },
+  "ko": {
+   "title": "PC 매출이 감소하는 가운데 마이크로소프트가 Windows 11의 불편 사항을 수정합니다",
+   "summary": "마이크로소프트는 Windows 11 버전 26H2 및 25H2를 위한 미리 보기 업데이트 KB5127936의 배포를 시작했습니다. 이번 업데이트는 우클릭 메뉴에 대한 사용자 불만을 해결하고, 외부 매체 없이 클라우드에서 직접 Windows 11을 재설치하는 Cloud Rebuild 기능을 도입했습니다.",
+   "impact": "이번 업데이트는 기존 우클릭 메뉴에 불만이 있던 파워 유저들의 불편을 완화할 수 있습니다. 또한 Cloud Rebuild는 부팅 불가 시스템의 복구를 단순화할 수 있으나, 기존 파일이 포함되지 않는 새로운 설치 방식으로 작동하므로 주의가 필요합니다.",
+   "keyPoints": [
+    "미리 보기 업데이트 KB5127936이 Windows 11 버전 26H2 및 25H2를 대상으로 점진적 배포 중입니다.",
+    "새로운 메뉴 사용자 지정 버튼을 통해 사용자는 우클릭 메뉴에 나타나는 명령을 제어하고 재정렬할 수 있습니다.",
+    "Cloud Rebuild는 외부 매체 없이 Windows Update에서 직접 Windows 11 이미지와 시스템 드라이버를 가져옵니다.",
+    "Cloud Rebuild는 기존 앱과 파일이 포함되지 않는 신규 설치처럼 작동합니다."
+   ]
+  }
+ }
+}

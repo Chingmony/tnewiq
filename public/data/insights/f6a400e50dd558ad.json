@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f6a400e50dd558ad",
+ "contentHash": "0e55b16a39b239f4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T21:57:46.775Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs",
+   "summary": "AWS Batch has introduced quota management for SageMaker Training jobs, allowing organizations to divide compute capacity into quota shares by team, project, or workload. Administrators can configure resource-sharing strategies like lending and borrowing to maximize GPU utilization while ensuring team allocations are honored. The feature also supports cross-share and in-share preemption to prioritize important workloads.",
+   "impact": "This capability could help administrators and development teams operating multi-tenant AI/ML environments better coordinate access to shared GPU resources, reduce idle compute time, and ensure high-priority workloads run without manual intervention.",
+   "keyPoints": [
+    "Quota management allows compute capacity to be divided into quota shares for teams or projects.",
+    "Resource-sharing strategies include RESERVE, LEND, and LEND_AND_BORROW for idle compute.",
+    "Cross-share preemption automatically reclaims lent capacity when jobs arrive in a lending quota share.",
+    "In-share preemption allows higher priority jobs to preempt lower priority jobs within a share."
+   ]
+  },
+  "km": {
+   "title": "ខ្ចី និងប្តូរយកធនធានរវាងក្រុមការងារជាមួយមុខងារគ្រប់គ្រងកូតារបស់ AWS Batch សម្រាប់កិច្ចការបណ្តុះបណ្តាល SageMaker",
+   "summary": "AWS Batch បានដាក់ឱ្យដំណើរការនូវការគ្រប់គ្រងកូតាសម្រាប់កិច្ចការបណ្តុះបណ្តាល SageMaker ដែលអនុញ្ញាតឱ្យស្ថាប័ននានាแบ่งសមត្ថភាពគណនាទៅជាចំណែកកូតាផ្អែកលើក្រុម គម្រោង ឬភារកិច្ច។ អ្នកគ្រប់គ្រងអាចកំណត់រចនាសម្ព័ន្ធយុទ្ធសាស្ត្រចែករំលែកធនធានដូចជាការខ្ចី និងការប្តូរយក ដើម្បីបង្កើនការប្រើប្រាស់ GPU ឱ្យបានអតិបរមា ខណៈពេលដែលធានាបាននូវការបែងចែកកូតារបស់ក្រុមនីមួយៗ។ មុខងារនេះក៏គាំទ្រផងដែរនូវការទាមទារធនធានឡើងវិញឆ្លងកាត់ចំណែកនិងក្នុងចំណែកដើម្បីផ្តល់អាទិភាពដល់ភារកិច្ចសំខាន់ៗ។",
+   "impact": "សមត្ថភាពនេះអាចជួយអ្នកគ្រប់គ្រង និងក្រុមអភិវឌ្ឍន៍ដែលដំណើរការបរិយាកាស AI/ML ច្រើនក្រុម សម្របសម្រួលការចូលប្រើប្រាស់ធនធាន GPU ដែលបានចែករំលែកឱ្យកាន់តែប្រសើរ កាត់បន្ថយពេលវេលាទំនេររបស់ប្រព័ន្ធ និងធានាថាភារកិច្ចដែលមានអាទិភាពខ្ពស់អាចដំណើរការបានដោយមិនបាច់មានការអន្តរាគមន៍ដោយដៃ។",
+   "keyPoints": [
+    "ការគ្រប់គ្រងកូតាអនុញ្ញាតឱ្យបែងចែកសមត្ថភាពគណនាទៅជាចំណែកកូតាសម្រាប់ក្រុម ឬគម្រោង។",
+    "យុទ្ធសាស្ត្រចែករំលែកធនធានរួមមាន RESERVE, LEND និង LEND_AND_BORROW សម្រាប់កម្លាំងគណនាដែលទំនេរ។",
+    "ការទាមទារធនធានឆ្លងកាត់ចំណែកធ្វើការទាមទារយកសមត្ថភាពដែលបានខ្ចីមកវិញដោយស្វ័យប្រវត្តិនៅពេលមានកិច្ចការមកដល់។",
+    "ការទាមទារធនធានក្នុងចំណែកអនុញ្ញាតឱ្យកិច្ចការដែលមានអាទិភាពខ្ពស់ទទួលបានសិទ្ធិមុនកិច្ចការដែលមានអាទិភាពទាប។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过 AWS Batch 针对 SageMaker 培训作业的配额管理在团队之间借用资源",
+   "summary": "AWS Batch 推出了针对 SageMaker 培训作业的配额管理功能，允许组织按团队、项目或工作负载将计算能力划分为配额份额。管理员可以配置资源共享策略（例如借用和出借），以最大化 GPU 利用率，同时兑现每个团队的分配。该功能还支持跨份额和份额内抢占，以优先处理重要的工作负载。",
+   "impact": "此功能可以帮助管理多租户 AI/ML 环境的管理员和开发团队更好地协调对共享 GPU 资源的访问，减少计算空闲时间，并确保高优先级工作负载无需手动干预即可运行。",
+   "keyPoints": [
+    "配额管理允许将计算能力划分为针对团队或项目的配额份额。",
+    "空闲计算的资源共享策略包括 RESERVE、LEND 和 LEND_AND_BORROW。",
+    "当借出份额中到达作业时，跨份额抢占会自动收回出借的容量。",
+    "份额内抢占允许高优先级作业在份额内抢先运行低优先级作业。"
+   ]
+  },
+  "ko": {
+   "title": "SageMaker Training 작업을 위한 AWS Batch의 할당량 관리를 통한 팀 간 리소스 대여 및 차용",
+   "summary": "AWS Batch는 SageMaker Training 작업을 위한 할당량 관리 기능을 출시하여 조직이 팀, 프로젝트 또는 워크로드별로 컴퓨팅 용량을 할당량 공유로 나눌 수 있도록 지원합니다. 관리자는 대여 및 차용과 같은 리소스 공유 전략을 구성하여 GPU 활용도를 극대화하는 동시에 각 팀의 할당량을 보장할 수 있습니다. 이 기능은 또한 중요한 워크로드의 우선순위를 지정하기 위해 공유 간 선점 및 공유 내 선점을 지원합니다.",
+   "impact": "이 기능은 다중 팀 AI/ML 환경을 운영하는 관리자와 개발 팀이 공유 GPU 리소스에 대한 액세스를 더 잘 조율하고, 유휴 컴퓨팅 시간을 줄이며, 수동 개입 없이 고우선순위 워크로드가 실행되도록 보장하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "할당량 관리를 통해 컴퓨팅 용량을 팀이나 프로젝트별 할당량 공유로 나눌 수 있습니다.",
+    "유휴 컴퓨팅을 위한 리소스 공유 전략에는 RESERVE, LEND, LEND_AND_BORROW가 포함됩니다.",
+    "공유 간 선점은 대여 공유에 작업이 도착할 때 대여된 용량을 자동으로 회수합니다.",
+    "공유 내 선점을 통해 우선순위가 높은 작업이 공유 내의 우선순위가 낮은 작업보다 먼저 실행될 수 있습니다."
+   ]
+  }
+ }
+}

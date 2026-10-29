@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f21574bd1bc9e549",
+ "contentHash": "451a7da3c72f1765",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T21:56:13.233Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Building intent-driven UI testing with Amazon Nova Act",
+   "summary": "Epsilon adopted Amazon Nova Act and Amazon Bedrock AgentCore Browser to scale intent-driven UI testing across its product teams. The Agentic Platform team integrated these tools into their shared infrastructure to provide resilient, natural-language testing as a managed platform service. This approach layers on top of their existing Playwright regression suite without creating maintenance overhead or duplicating browser infrastructure efforts.",
+   "impact": "Development and security teams could leverage managed, ephemeral browser sessions and natural-language test steps that are resilient to cosmetic UI changes. Organizations may reduce maintenance overhead for UI tests while maintaining existing regression foundations.",
+   "keyPoints": [
+    "Epsilon integrated Amazon Nova Act and Amazon Bedrock AgentCore Browser into its Agentic Platform.",
+    "The solution delivers natural-language, intent-driven UI testing as a managed service across product teams.",
+    "Playwright remains Epsilon's regression backbone while intent-based testing provides resilience against cosmetic changes.",
+    "The platform offers managed ephemeral browser sessions, session recording to Amazon S3, and AWS IAM authentication."
+   ]
+  },
+  "km": {
+   "title": "ការសាងសង់ការធ្វើតេស្ត UI ជំរុញដោយចេតនាដោយប្រើប្រាស់ Amazon Nova Act",
+   "summary": "ក្រុមហ៊ុន Epsilon បានប្រើប្រាស់ Amazon Nova Act និង Amazon Bedrock AgentCore Browser ដើម្បីពង្រីកការធ្វើតេស្ត UI ជំរុញដោយចេតនាទូទាំងក្រុមផលិតផលរបស់ខ្លួន។ ក្រុមការងារ Agentic Platform បានរួមបញ្ចូលឧបករណ៍ទាំងនេះទៅក្នុងហេដ្ឋារចនាសម្ព័ន្ធរួមរបស់ពួកគេ ដើម្បីផ្តល់នូវការធ្វើតេស្តដែលមានភាពធន់ និងប្រើប្រាស់ភាសាធម្មជាតិជាសេវាកម្មវេទិកាគ្រប់គ្រង។ វិធីសាស្ត្រនេះដំណើរការលើសែលទ្រព្យសកម្មតេស្តថយក្រោយ Playwright ដែលមានស្រាប់របស់ពួកគេដោយមិនបង្កឱ្យមានការចំណាយលើការថែទាំបន្ថែម។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងសន្តិសុខអាចទាញយកអត្ថប្រយោជន៍ពីសម័យរុករកបណ្តោះអាសន្នដែលបានគ្រប់គ្រង និងជំហានតេស្តភាសាធម្មជាតិដែលមានភាពធន់នឹងការផ្លាស់ប្តូរ UI ផ្ទៃខាងក្រៅ។ អង្គការអាចកាត់បន្ថយការចំណាយលើការថែទាំសម្រាប់ការធ្វើតេស្ត UI ខណៈពេលដែលរក្សាបាននូវមូលដ្ឋានគ្រឹះថយក្រោយដែលមានស្រាប់។",
+   "keyPoints": [
+    "ក្រុមហ៊ុន Epsilon បានរួមបញ្ចូល Amazon Nova Act និង Amazon Bedrock AgentCore Browser ទៅក្នុង Agentic Platform របស់ខ្លួន។",
+    "ដំណោះស្រាយនេះផ្តល់នូវការធ្វើតេស្ត UI ជំរុញដោយចេតនាដោយប្រើប្រាស់ភាសាធម្មជាតិជាសេវាកម្មគ្រប់គ្រងទូទាំងក្រុមផលិតផល។",
+    "Playwright នៅតែជាឆ្អឹងខ្នងនៃការធ្វើតេស្តថយក្រោយរបស់ Epsilon ខណៈដែលការធ្វើតេស្តផ្អែកលើចេតនាផ្តល់នូវភាពធន់ទ្រាំនឹងការផ្លាស់ប្តូរផ្ទៃខាងក្រៅ។",
+    "វេទិកានេះផ្តល់នូវសម័យរុករកបណ្តោះអាសន្នដែលបានគ្រប់គ្រង ការថតវគ្គទៅកាន់ Amazon S3 និងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវតាមរយៈ AWS IAM។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 Amazon Nova Act 构建意图驱动的 UI 测试",
+   "summary": "Epsilon 采用 Amazon Nova Act 和 Amazon Bedrock AgentCore Browser，在其产品团队中大规模推广意图驱动的 UI 测试。其 Agentic Platform 团队将这些工具集成到共享基础设施中，作为托管平台服务提供具有弹性且基于自然语言的测试。这种方法叠加在他们现有的 Playwright 回归测试套件之上，而不会产生额外的维护开销或重复的浏览器基础设施工作。",
+   "impact": "开发和安全团队可以利用托管的、短暂的浏览器会话以及能够抵御外观 UI 变化的自然语言测试步骤。组织或许能够降低 UI 测试的维护开销，同时保持现有的回归测试基础。",
+   "keyPoints": [
+    "Epsilon 将 Amazon Nova Act 和 Amazon Bedrock AgentCore Browser 集成到其 Agentic Platform 中。",
+    "该解决方案作为跨产品团队的托管服务交付自然语言、意图驱动的 UI 测试。",
+    "Playwright 仍然是 Epsilon 的回归测试骨干，而基于意图的测试则提供了针对外观变化的弹性。",
+    "该平台提供托管的短暂浏览器会话、到 Amazon S3 的会话录制以及 AWS IAM 身份验证。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Nova Act를 활용한 의도 기반 UI 테스트 구축",
+   "summary": "Epsilon은 제품 팀 전반에서 의도 기반 UI 테스트를 확장하기 위해 Amazon Nova Act와 Amazon Bedrock AgentCore Browser를 도입했습니다. Agentic Platform 팀은 이러한 도구를 공유 인프라에 통합하여 관리형 플랫폼 서비스로 탄력적이고 자연어 기반의 테스트를 제공합니다. 이 접근 방식은 유지보수 오버헤드를 발생시키거나 브라우저 인프라 작업을 중복하지 않고 기존의 Playwright 회귀 테스트 스위트 상단에 계층화됩니다.",
+   "impact": "개발 및 보안 팀은 관리되는 임시 브라우저 세션과 외관상의 UI 변경에 탄력적인 자연어 테스트 단계를 활용할 수 있습니다. 조직은 기존 회귀 테스트 기반을 유지하면서 UI 테스트에 대한 유지보수 오버헤드를 줄일 수 있습니다.",
+   "keyPoints": [
+    "Epsilon은 Amazon Nova Act와 Amazon Bedrock AgentCore Browser를 Agentic Platform에 통합했습니다.",
+    "이 솔루션은 제품 팀 전반에 걸쳐 관리형 서비스로 자연어 기반의 의도 기반 UI 테스트를 제공합니다.",
+    "Playwright는 Epsilon의 회귀 테스트 백본으로 유지되며 의도 기반 테스트는 외관상의 변경에 대한 탄력성을 제공합니다.",
+    "플랫폼은 관리되는 임시 브라우저 세션, Amazon S3로의 세션 녹화, AWS IAM 인증을 제공합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a41c6b1e5e903c63",
+ "contentHash": "44ab501050da90db",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T21:57:16.837Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Building a multiplayer game world with autonomous Fable-class models",
+   "summary": "Jacob Sansbury describes building Spawn, a massively multiplayer gaming environment where players use prompts to modify the world. The project is developed autonomously by a swarm of Fable-powered agents that ship code to production hourly. The system handles production errors, bug reports, and feature requests by having AI agents process and deploy changes within an hour.",
+   "impact": "This approach demonstrates extreme agentic engineering and continuous deployment, though it raises questions about its viability for higher-stakes software. Developers and teams might observe how AI autonomy handles rapid production changes and error recovery, while noting the different behaviors exhibited by various frontier models.",
+   "keyPoints": [
+    "Spawn allows players to modify the game world using prompts sent to an in-game agent named Savi.",
+    "The game is developed autonomously by a swarm of Fable-powered agents costing over $3 million in tokens per month.",
+    "Agents ship updates to production hourly, handling bugs, error reports, and feature requests directly.",
+    "Different AI models produced distinct results, with Fable enabling full autonomy while GPT-6 Astra disabled features during a security review."
+   ]
+  },
+  "km": {
+   "title": "ការសាងសង់ពិភពហ្គេមច្រើនអ្នកលេងជាមួយម៉ូដែលថ្នាក់ Fable ស្វ័យប្រវត្តិ",
+   "summary": "Jacob Sansbury បានរៀបរាប់ពីការសាងសង់ Spawn ដែលជាបរិយាកាសហ្គេមអ្នកលេងច្រើន ដែលអ្នកលេងអាចប្រើប្រាស់សំណើដើម្បីកែប្រែពិភពហ្គេម។ គម្រោងនេះត្រូវបានអភិវឌ្ឍដោយស្វ័យប្រវត្តិដោយក្រុមភ្នាក់ងារ Fable ដែលបញ្ចេញកូដទៅកាន់ផលិតកម្មរាល់ម៉ោង។ ប្រព័ន្ធនេះគ្រប់គ្រងកំហុសផលិតកម្ម របាយការណ៍កំហុស និងសំណើសុំមុខងារថ្មីៗដោយឱ្យភ្នាក់ងារ AI ដោះស្រាយ និងដាក់ឱ្យប្រើប្រាស់ការកែប្រែក្នុងរយៈពេលមួយម៉ោង។",
+   "impact": "វិធីសាស្ត្រនេះបង្ហាញពីវិស្វកម្មភ្នាក់ងារខ្លាំងក្លា និងការដាក់ឱ្យប្រើប្រាស់ជាបន្តបន្ទាប់ ប៉ុន្តែវាអាចបង្កើនសំណួរអំពីលទ្ធភាពអនុវត្តលើកម្មវិធីដែលមានហានិភ័យខ្ពស់។ អ្នកអភិវឌ្ឍន៍ និងក្រុមការងារអាចកត់សម្គាល់ពីរបៀបដែលស្វ័យប្រវត្តិនៃ AI ដោះស្រាយការកែប្រែផលិតកម្ម និងការសង្គ្រោះកំហុស។",
+   "keyPoints": [
+    "Spawn អនុញ្ញាតឱ្យអ្នកលេងកែប្រែពិភពហ្គេមដោយប្រើសំណើទៅកាន់ភ្នាក់ងារក្នុងហ្គេមឈ្មោះ Savi។",
+    "ហ្គេមនេះត្រូវបានអភិវឌ្ឍដោយស្វ័យប្រវត្តិដោយក្រុមភ្នាក់ងារថ្នាក់ Fable ដែលចំណាយថវិកាលើតូខែនជាង ៣ លានដុល្លារក្នុងមួយខែ។",
+    "ភ្នាក់ងារបញ្ចេញបច្ចុប្បន្នភាពទៅផលិតកម្មរាល់ម៉ោង និងจัดการកំហុសដោយផ្ទាល់។",
+    "ម៉ូដែល AI ផ្សេងៗគ្នាបង្ហាញលទ្ធផលខុសគ្នា ដោយ Fable អាចផ្តល់ស្វ័យប្រវត្តិកម្មពេញលេញ ខណៈ GPT-6 Astra បានបិទមុខងារពេលពិនិត្យសុវត្ថិភាព។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用自主 Fable 级模型构建多人游戏世界",
+   "summary": "Jacob Sansbury 介绍了 Spawn 的构建过程，这是一个支持多人在线的游戏环境，玩家可以通过提示词修改游戏世界。该项目由一群由 Fable 驱动的智能体自主开发，每小时向生产环境发布代码。系统通过 AI 智能体在一小时内处理并部署更改，从而应对生产错误、漏洞报告和功能请求。",
+   "impact": "这种方法展示了极端的高级智能体工程和持续部署，不过对于风险更高的软件，其可行性可能会引发讨论。开发者和团队可以观察 AI 自主性如何处理快速的生产变更和错误恢复，同时注意到不同前沿模型表现出的不同行为。",
+   "keyPoints": [
+    "Spawn 允许玩家通过向游戏内智能体 Savi 发送提示词来修改游戏世界。",
+    "该游戏由一群由 Fable 驱动的智能体自主开发，每月消耗价值超过 300 万美元的 Token。",
+    "智能体每小时向生产环境发布更新，直接处理漏洞、错误报告和功能请求。",
+    "不同的 AI 模型产生了不同的结果，Fable 实现了完全自主，而 GPT-6 Astra 在安全审查期间禁用了相关功能。"
+   ]
+  },
+  "ko": {
+   "title": "자율형 Fable급 모델로 멀티플레이어 게임 세계 구축하기",
+   "summary": "Jacob Sansbury는 플레이어가 프롬프트를 사용하여 게임 세계를 수정할 수 있는 다중 사용자 게임 환경인 Spawn의 구축 과정을 설명합니다. 이 프로젝트는 매시간 프로덕션에 코드를 배포하는 Fable 기반 에이전트 무리에 의해 자율적으로 개발됩니다. 시스템은 AI 에이전트가 프로덕션 오류, 버그 보고서, 기능 요청을 처리하고 한 시간 이내에 변경 사항을 배포하도록 처리합니다.",
+   "impact": "이 접근 방식은 극한의 에이전트 엔지니어링과 지속적 배포를 보여주지만, 위험 부담이 더 큰 소프트웨어에서의 실현 가능성에 대해서는 의문을 제기할 수 있습니다. 개발자와 팀은 AI 자율성이 빠른 프로덕션 변경 및 오류 복구를 처리하는 방식을 관찰할 수 있습니다.",
+   "keyPoints": [
+    "Spawn을 사용하면 플레이어는 게임 내 에이전트인 Savi에게 프롬프트를 보내 게임 세계를 수정할 수 있습니다.",
+    "이 게임은 한 달에 토큰 비용으로 300만 달러 이상을 사용하는 Fable 기반 에이전트 무리에 의해 자율적으로 개발됩니다.",
+    "에이전트는 매시간 프로덕션에 업데이트를 배포하며 버그, 오류 보고서, 기능 요청을 직접 처리합니다.",
+    "서로 다른 AI 모델은 다른 결과를 산출했으며, Fable은 완전한 자율성을 가능하게 한 반면 GPT-6 Astra는 보안 검토 중 기능을 비활성화했습니다."
+   ]
+  }
+ }
+}

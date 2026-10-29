@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d3ed0a84a8f24477",
+ "contentHash": "289427e45b3015ef",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T21:58:38.229Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hitachi Energy CoreTec Product",
+   "summary": "Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities affecting its CoreTec products, which could impact product confidentiality, integrity, and availability. The vulnerabilities include CVE-2026-13162 in the time synchronization handler and CVE-2026-43284 in the Linux kernel IPsec ESP subsystem. Affected versions include CoreTec5 and CoreTec4 versions 3.4.0 and prior, as well as CoreTec5 version 5.0.0. Hitachi Energy recommends updating to CoreTec5 version 5.0.0 for remediation.",
+   "impact": "Security teams and technology users managing these systems could face risks of full device control or local privilege escalation to root. Applying the vendor-provided updates may help mitigate these vulnerabilities.",
+   "keyPoints": [
+    "CoreTec5 and CoreTec4 versions 3.4.0 and prior are affected by CVE-2026-13162 and CVE-2026-43284.",
+    "CVE-2026-13162 is an OS command injection vulnerability in the configuration daemon's time synchronization handler.",
+    "CVE-2026-43284 is a write-what-where condition in the Linux kernel IPsec ESP subsystem allowing local privilege escalation.",
+    "Hitachi Energy advises updating to CoreTec5 version 5.0.0 to fix the issues."
+   ]
+  },
+  "km": {
+   "title": "ផលិតផល Hitachi Energy CoreTec",
+   "summary": "ក្រុមហ៊ុន Hitachi Energy បានដឹងពីភាពខ្សោយនៃការចាក់បញ្ចូលពាក្យបញ្ជា OS និងភាពខ្សោយ Dirty Frag ដែលប៉ះពាល់ដល់ផលិតផល CoreTec។ ភាពខ្សោយទាំងនេះអាចជះឥទ្ធិពលដល់ការសម្ងាត់ ភាពសុចរិត និងលទ្ធភាពទទួលបាននៃផលិតផល។ ក្រុមហ៊ុនបានណែនាំឱ្យអាប់ដេតទៅកាន់ CoreTec5 កំណែ 5.0.0 ដើម្បីដោះស្រាយបញ្ហានេះ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចប្រឈមមុខនឹងហានិភ័យនៃការគ្រប់គ្រងឧបករណ៍ទាំងស្រុង ឬការដំឡើងសិទ្ធិមូលដ្ឋានទៅជា root។ ការអនុវត្តបច្ចុប្បន្នភាពពីក្រុមហ៊ុនផលិតអាចជួយកាត់បន្ថយហានិភ័យទាំងនេះ។",
+   "keyPoints": [
+    "ផលិតផល CoreTec5 និង CoreTec4 កំណែ 3.4.0 និងទាបជាងនេះរងផលប៉ះពាល់ដោយ CVE-2026-13162 និង CVE-2026-43284។",
+    "CVE-2026-13162 គឺជាភាពខ្សោយនៃការចាក់បញ្ចូលពាក្យបញ្ជា OS នៅក្នុងកម្មវិធីគ្រប់គ្រងការធ្វើសមកាលកម្មពេលវេលា។",
+    "CVE-2026-13162 និង CVE-2026-43284 អាចផ្តល់ការគ្រប់គ្រងពេញលេញលើឧបករណ៍ ឬដំឡើងសិទ្ធិទៅជា root។",
+    "ក្រុមហ៊ុន Hitachi Energy បានផ្តល់អនុសាសន៍ឱ្យអាប់ដេតទៅកាន់ CoreTec5 កំណែ 5.0.0។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Hitachi Energy CoreTec 产品",
+   "summary": "日立能源（Hitachi Energy）已知悉影响其 CoreTec 产品的 OS 命令注入和 Dirty Frag 漏洞。成功利用这些漏洞可能会影响产品的机密性、完整性和可用性。受影响的版本包括 CoreTec5 和 CoreTec4 的 3.4.0 及更早版本，日立能源建议更新至 CoreTec5 5.0.0 版本以进行修复。",
+   "impact": "管理这些系统的安全团队和技术用户可能会面临设备被完全控制或本地用户权限提升至 root 的风险。应用官方提供的更新可以帮助缓解这些漏洞带来的威胁。",
+   "keyPoints": [
+    "CoreTec5 和 CoreTec4 的 3.4.0 及更早版本受到 CVE-2026-13162 和 CVE-2026-43284 的影响。",
+    "CVE-2026-13162 是配置守护进程时间同步处理程序中的 OS 命令注入漏洞。",
+    "CVE-2026-13162 允许具有特定角色的认证用户执行任意系统命令。",
+    "官方建议将产品更新至 CoreTec5 5.0.0 版本以修复相关漏洞。"
+   ]
+  },
+  "ko": {
+   "title": "Hitachi Energy CoreTec 제품",
+   "summary": "Hitachi Energy는 CoreTec 제품에 영향을 미치는 OS 명령 주입 및 Dirty Frag 취약점에 대해 인지하고 있으며, 이러한 취약점의 악용은 제품의 기밀성, 무결성, 가용성에 영향을 미칠 수 있습니다. 영향을 받는 버전에는 CoreTec5 및 CoreTec4 3.4.0 이하 버전이 포함됩니다. Hitachi Energy는 문제 해결을 위해 CoreTec5 버전 5.0.0으로 업데이트할 것을 권장합니다.",
+   "impact": "보안 팀과 기술 사용자는 장치에 대한 전체 제어권 상실이나 로컬 권한 상승 위험에 직면할 수 있습니다. 벤더가 제공하는 업데이트를 적용하면 이러한 취약점을 완화하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "CoreTec5 및 CoreTec4 3.4.0 이하 버전이 CVE-2026-13162 및 CVE-2026-43284 취약점에 영향을 받습니다.",
+    "CVE-2026-13162는 시간 동기화 핸들러의 OS 명령 주입 취약점입니다.",
+    "CVE-2026-43284는 Linux 커널의 IPsec ESP 서브시스템과 관련된 취약점입니다.",
+    "Hitachi Energy는 CoreTec5 버전 5.0.0으로 업데이트할 것을 권고합니다."
+   ]
+  }
+ }
+}
