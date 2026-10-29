@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "93dde8cc7b16e732",
+ "contentHash": "258cd5c6ea058ab6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T17:22:27.179Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+   "summary": "Cloudflare published its DDoS Threat Report for the third quarter of 2026, analyzing data from its network collected between July and September. The report highlights a surge in short-burst, low-bandwidth attacks alongside a drop in hyper-volumetric attacks. Additionally, attackers shifted amplification tactics by abandoning CLDAP floods while heavily increasing DNS amplification and UDP floods.",
+   "impact": "Security teams and network administrators may need to adjust defenses to handle frequent, short-duration low-bandwidth attacks and changing amplification vectors. The data suggests that while law enforcement actions can temporarily disrupt major IoT botnets, new variants continue to emerge rapidly.",
+   "keyPoints": [
+    "Short-burst attacks under 10 minutes and 1 Gbps surged by 208%.",
+    "Hyper-volumetric attacks exceeding 1 Tbps plummeted by nearly 69% from Q2, following earlier law enforcement actions against four IoT botnets.",
+    "CLDAP floods collapsed by 99.5%, while DNS amplification and general UDP floods surged by 215% and 122% respectively.",
+    "Cloudflare autonomously mitigated 18.2 million network-layer DDoS attacks and 14.4 trillion HTTP DDoS requests in Q3 2026."
+   ]
+  },
+  "km": {
+   "title": "របាយការណ៍ការគំរាមកំហែង DDoS របស់ Cloudflare ត្រីមាសទី៣ ឆ្នាំ២០២៦៖ ហ្វូងការវាយប្រហារច្រើន យក្សតិច",
+   "summary": "Cloudflare បានចេញផ្សាយរបាយការណ៍ការគំរាមកំហែង DDoS សម្រាប់ត្រីមាសទីបីនៃឆ្នាំ២០២៦ ដោយវិភាគទិន្នន័យពីបណ្តាញរបស់ខ្លួនក្នុងខែកក្កដា សីហា និងកញ្ញា។ របាយការណ៍នេះបានបង្ហាញពីការកើនឡើងនៃការវាយប្រហាររយៈពេលខ្លី និងកម្រិតទាប ព្រមទាំងការថយចុះនៃការវាយប្រហារទំហំធំខ្លាំង។ បន្ថែមពីនេះ ពួកឧក្រិដ្ឋជនបានប្តូរយុទ្ធសាស្ត្រពង្រីកដោយបោះបង់ការវាយប្រហារបែប CLDAP និងបែរទៅរកការកើនឡើងនៃការំពង្រីក DNS និង UDP វិញ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកគ្រប់គ្រងបណ្តាញអាចចាំបាច់ត្រូវកែសម្រួលការការពារដើម្បីទប់ទល់នឹងការវាយប្រហាររយៈពេលខ្លីដែលកើតឡើងញឹកញាប់ និងការផ្លាស់ប្តូរទម្រង់នៃការវាយប្រហារ។ ទិន្នន័យនេះបង្ហាញថាទោះបីជាសកម្មភាពរបស់ច្បាប់អាចរំខានបូតណែត IoT ធំៗជាបណ្តោះអាសន្ន ប៉ុន្តែប្រភេទថ្មីៗនៅតែបន្តលេចឡើងយ៉ាងលឿន។",
+   "keyPoints": [
+    "ការវាយប្រហាររយៈពេលខ្លីក្រោម ១០នាទី និង ១ Gbps បានកើនឡើង ២០៨ភាគរយ។",
+    "ការវាយប្រហារទំហំធំខ្លាំងលើសពី ១ Tbps បានធ្លាក់ចុះជិត ៦៩ភាគរយពីត្រីមាសទី២ បន្ទាប់ពីវិធានការណ៍អនុវត្តច្បាប់លើបូតណែត IoT ចំនួនបួន។",
+    "ការវាយប្រហារប្រភេទ CLDAP បានធ្លាក់ចុះ ៩៩.៥ភាគរយ ខណៈដែលការំពង្រីក DNS និង UDP បានកើនឡើងរៀងៗខ្លួន ២១៥ភាគរយ និង ១២២ភាគរយ។",
+    "Cloudflare បានទប់ស្កាត់ការវាយប្រហារ DDoS កម្រិតបណ្តាញចំនួន ១៨.២លានដង និងសំណើ HTTP DDoS ចំនួន ១៤.៤ទ្រីលានក្នុងត្រីមាសទី៣ ឆ្នាំ២០២៦។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Cloudflare 2026年第三季度DDoS威胁报告：更多蜂群，更少巨兽",
+   "summary": "Cloudflare发布了2026年第三季度DDoS威胁报告，分析了7月至9月期间其网络中的数据。报告指出，持续时间短、低带宽的攻击激增，而超大容量攻击则有所下降。此外，攻击者改变了反射和放大策略，放弃了CLDAP泛洪，转而大幅增加DNS放大和通用UDP泛洪。",
+   "impact": "安全团队和网络管理员可能需要调整防御策略，以应对频繁的短时低带宽攻击以及不断变化的放大向量。数据表明，尽管执法行动可以暂时瓦解主要的物联网僵尸网络，但新变种仍在不断涌现。",
+   "keyPoints": [
+    "持续时间不到10分钟且低于1 Gbps的短时突发攻击激增了208%。",
+    "超过1 Tbps的超大容量攻击较第二季度暴跌近69%，这与早些时候针对四个物联网僵尸网络的执法行动相吻合。",
+    "CLDAP泛洪暴跌了99.5%，而DNS放大和通用UDP泛洪分别激增了215%和122%。",
+    "Cloudflare在2026年第三季度自动缓解了1820万次网络层DDoS攻击和14.4万亿次HTTP DDoS请求。"
+   ]
+  },
+  "ko": {
+   "title": "Cloudflare 2026년 3분기 DDoS 위협 보고서: 더 많은 무리, 더 적은 거인",
+   "summary": "Cloudflare는 7월부터 9월까지 자사 네트워크에서 수집된 데이터를 분석한 2026년 3분기 DDoS 위협 보고서를 발표했습니다. 이 보고서는 단기 저대역폭 공격의 급증과 초고용량 공격의 감소를 강조합니다. 또한 공격자들은 CLDAP 플러드를 중단하고 DNS 증폭 및 일반 UDP 플러드를 크게 늘리며 증폭 전술을 변경했습니다.",
+   "impact": "보안 팀과 네트워크 관리자는 빈번한 단기 저대역폭 공격과 변화하는 증폭 벡터에 대응하기 위해 방어 체계를 조정해야 할 수 있습니다. 이 데이터는 법 집행 기관의 조치가 주요 IoT 봇넷을 일시적으로 해체할 수 있더라도 새로운 변종이 계속해서 빠르게 나타나고 있음을 시사합니다.",
+   "keyPoints": [
+    "10분 미만 및 1 Gbps 이하의 단기 버스트 공격이 208% 급증했습니다.",
+    "1 Tbps를 초과하는 초고용량 공격은 이전에 이루어진 4개의 IoT 봇넷에 대한 법 집행 조치와 맞물려 2분기 대비 약 69% 급감했습니다.",
+    "CLDAP 플러드는 99.5% 폭락했으며, DNS 증폭과 일반 UDP 플러드는 각각 215%와 122% 급증했습니다.",
+    "Cloudflare는 2026년 3분기에 1,820만 건의 네트워크 계층 DDoS 공격과 14조 4,000억 건의 HTTP DDoS 요청을 자율적으로 완화했습니다."
+   ]
+  }
+ }
+}

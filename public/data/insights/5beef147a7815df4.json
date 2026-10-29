@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5beef147a7815df4",
+ "contentHash": "1c4c39d3bf20a66d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T17:04:15.881Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+   "summary": "Developers are combining frontier AI models like GPT-6 Astra with NVIDIA Omniverse libraries to build simulations using natural-language instructions. NVIDIA teams demonstrated workflows including reconstructing editable building models from site scans, testing gas-turbine operating scenarios with a digital twin, and assembling kitchen scenes using open source SimReady assets. These projects showcase how AI agents can assist with tasks like interpreting panoramic photos, running thermochemistry calculations, and scene assembly.",
+   "impact": "This integration of frontier AI models and Omniverse tools may streamline how developers and engineers build simulations, design industrial layouts, and test scenarios. Teams could potentially reduce the time required to construct editable digital environments and evaluate equipment behavior.",
+   "keyPoints": [
+    "Developers use natural-language instructions to direct AI agents and Omniverse libraries for simulation tasks.",
+    "A workflow was developed to digitally reconstruct a building without its contents from panoramic photos and point-cloud measurements for warehouse planning.",
+    "An interactive what-if analysis application for a simulated gas turbine allows engineers to test operating scenarios and faults.",
+    "The SimReady Central Library provides access to over 2,000 simulation-ready USD assets for robotics and factory digital twin workflows."
+   ]
+  },
+  "km": {
+   "title": "ចូលទៅក្នុង Omniverse៖ របៀបដែលអ្នកអភិវឌ្ឍន៍បំប្លែងគំនិតទៅជាការក្លែងធ្វើជាមួយនឹងភ្នាក់ងារ AI កម្រិតខ្ពស់",
+   "summary": "អ្នកអភិវឌ្ឍន៍កំពុងរួមបញ្ចូលគ្នានូវម៉ូដែល AI កម្រិតខ្ពស់ជាមួយបណ្ណាល័យ NVIDIA Omniverse ដើម្បីបង្កើតកម្មវិធីក្លែងធ្វើតាមរយៈការបញ្ជាជាភាសាធម្មជាតិ។ ក្រុមការងារ NVIDIA បានបង្ហាញពីលំហូរការងាររួមទាំងការកសាងគំរូមើលឃើញអគារឡើងវិញពីការស្កេនទីតាំង ការសាកល្បងសេណារីយ៉ូដំណើរការទួរប៊ីនហ្គាស និងការផ្គុំឈុតឆាកផ្ទះបាយ។ គម្រោងទាំងនេះបង្ហាញពីរបៀបដែលភ្នាក់ងារ AI អាចជួយក្នុងការបកស្រាយរូបថតបែប Panoramic ការគណនារ៉ាឌីកាល់ និងការផ្គុំឈុតឆាក។",
+   "impact": "ការរួមបញ្ចូលគ្នានេះអាចសម្រួលដល់របៀបដែលអ្នកអភិវឌ្ឍន៍ និងវិស្វករបង្កើតការក្លែងធ្វើ និងវាយតម្លៃឥរិយាបថបរិក្ខារ។ ក្រុមការងារអាចកាត់បន្ថយពេលវេលាក្នុងការសាងសង់បរិស្ថានឌីជីថលដែលងាយស្រួលកែសម្រួល។",
+   "keyPoints": [
+    "អ្នកអភិវឌ្ឍន៍ប្រើប្រាស់ការបញ្ជាជាភាសាធម្មជាតិដើម្បីដឹកនាំភ្នាក់ងារ AI និងបណ្ណាល័យ Omniverse ។",
+    "លំហូរការងារមួយត្រូវបានបង្កើតឡើងដើម្បីកសាងអគារឡើងវិញដោយគ្មានសម្ភារខាងក្នុងសម្រាប់ការរៀបចំផែនការឃ្លាំង។",
+    "កម្មវិធីវិភាគសម្រាប់ទួរប៊ីនហ្គាសដែលបានក្លែងធ្វើអនុញ្ញាតឱ្យវិស្វករសាកល្បងសេណារីយ៉ូនិងកំហុសនានា។",
+    "បណ្ណាល័យ SimReady Central ផ្តល់នូវទ្រព្យសម្បត្តិ USD ជាង ២០០០ ដែលត្រៀមរួចជាស្រេចសម្រាប់ការក្លែងធ្វើ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "进入Omniverse：开发人员如何借助前沿AI代理将创意转化为仿真",
+   "summary": "开发人员正在将前沿AI模型与NVIDIA Omniverse库结合起来，通过自然语言指令构建仿真应用程序。NVIDIA团队展示了相关工作流，包括从现场扫描中重建可编辑的建筑模型、使用数字孪生测试燃气轮机运行场景以及利用开源SimReady资产组装厨房场景。这些项目展示了AI代理如何协助完成解释全景照片、运行热化学计算和场景组装等任务。",
+   "impact": "前沿AI模型与Omniverse工具的结合可能会简化开发人员和工程师构建仿真、设计工业布局以及测试场景的方式。团队可能能够减少构建可编辑数字环境和评估设备行为所需的时间。",
+   "keyPoints": [
+    "开发人员使用自然语言指令引导AI代理和Omniverse库执行仿真任务。",
+    "开发了一种工作流，可根据全景照片和点云测量数据从现场扫描中重建没有内部物品的建筑模型。",
+    "模拟燃气轮机的假设分析应用程序允许工程师测试运行条件和故障。",
+    "SimReady Central库提供2,000多个仿真就绪的USD资产，用于机器人技术和工厂数字孪生工作流。"
+   ]
+  },
+  "ko": {
+   "title": "옴니버스 진입: 개발자가 프론티어 AI 에이전트를 통해 아이디어를 시뮬레이션으로 전환하는 방법",
+   "summary": "개발자는 자연어 지시를 통해 시뮬레이션 작업을 수행하기 위해 프론티어 AI 모델을 NVIDIA Omniverse 라이브러리와 결합하고 있습니다. NVIDIA 팀은 현장 스캔에서 편집 가능한 건물 모델 재구성, 디지털 튜인을 통한 가스 터빈 운영 시나리오 테스트, 오픈 소스 SimReady 에셋을 이용한 주방 장면 조립 등의 워크플로를 시연했습니다. 이러한 프로젝트는 AI 에이전트가 파노라마 사진 해석, 열화학 계산 실행, 장면 조립 등의 작업을 도울 수 있음을 보여줍니다.",
+   "impact": "프론티어 AI 모델과 Omniverse 도구의 이러한 통합은 개발자와 엔지니어가 시뮬레이션을 구축하고 산업 레이아웃을 설계하며 시나리오를 테스트하는 방법을 간소화할 수 있습니다. 팀은 편집 가능한 디지털 환경을 구축하고 장비 동작을 평가하는 데 소요되는 시간을 단축할 수 있습니다.",
+   "keyPoints": [
+    "개발자는 자연어 지시를 사용하여 시뮬레이션 작업을 위해 AI 에이전트와 Omniverse 라이브러리를 유도합니다.",
+    "창고 계획을 위해 현장 스캔에서 내부 내용물 없이 건물을 디지털 방식으로 재구성하는 워크플로가 개발되었습니다.",
+    "시뮬레이션된 가스 터빈을 중심으로 한 가정 분석 애플리케이션을 통해 엔지니어는 작동 조건과 결함을 테스트할 수 있습니다.",
+    "SimReady Central 라이브러리는 로봇 공학 및 공장 디지털 트윈 워크플로를 위한 2,000개 이상의 시뮬레이션 준비 USD 에셋에 대한 액세스를 제공합니다."
+   ]
+  }
+ }
+}

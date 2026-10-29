@@ -1,7 +1,674 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-29T10:03:28.916Z",
+ "generatedAt": "2026-10-29T16:57:09.659Z",
  "articles": [
+  {
+   "id": "fa73a25059b17ce1",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/",
+   "originalLanguage": "en",
+   "originalDescription": "MoEngage turned roughly 400 private REST APIs across 7 AWS Regions into permission-scoped agent tools with Amazon Bedrock AgentCore Gateway. No per-service MCP servers, no public endpoints, and no 400-tool context bloat. See how OpenAPI specs, Cedar policies, and managed Amazon…",
+   "publishedAt": "2026-10-29T16:54:52.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "69e84ec57ab4e9e7"
+  },
+  {
+   "id": "8b38a3a44bca7fc7",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "U.S. investigated Chinese spy plot aimed at Nvidia CEO",
+   "originalUrl": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+   "originalLanguage": "en",
+   "originalDescription": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.",
+   "publishedAt": "2026-10-29T16:42:32.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "791e3ad2d222c6bf"
+  },
+  {
+   "id": "070a8640133333c9",
+   "sourceId": "ars-technica-ai",
+   "sourceName": "Ars Technica AI",
+   "originalTitle": "Google admits AI search makes less money, but it's fixing that with more ads",
+   "originalUrl": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+   "originalLanguage": "en",
+   "originalDescription": "Google's negative cash flow balloons to -$9.06 billion, and stock price tumbles following Q3 earnings.",
+   "publishedAt": "2026-10-29T16:24:55.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-1152x648.jpg",
+   "contentHash": "0ed8f830aff0c72d"
+  },
+  {
+   "id": "8dc21525d02f2a41",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+   "originalUrl": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+   "originalLanguage": "en",
+   "originalDescription": "rained on 100 million square feet of building permits, dream wants to disrupt Autodesk with AI.",
+   "publishedAt": "2026-10-29T16:21:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "b293c31d59db3286"
+  },
+  {
+   "id": "8b5c8b217b9f2294",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks/",
+   "originalLanguage": "en",
+   "originalDescription": "NVIDIA Nemotron 3.5 Super VL is a 120B-parameter mixture-of-experts model that pairs reasoning and tool use with multimodal understanding. This post explores its architecture and use cases, then shows how to deploy it on Amazon EKS, EKS Auto Mode, and Amazon SageMaker HyperPod…",
+   "publishedAt": "2026-10-29T16:11:08.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "8cc43acae7fb5fa7"
+  },
+  {
+   "id": "5beef147a7815df4",
+   "sourceId": "nvidia-blog",
+   "sourceName": "NVIDIA Blog",
+   "originalTitle": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+   "originalUrl": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+   "originalLanguage": "en",
+   "originalDescription": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building…",
+   "publishedAt": "2026-10-29T16:00:35.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/10/Copy-of-nvidia-ov-x-astra-4up-KV-r1-press-4k-r2-scaled.png",
+   "contentHash": "1c4c39d3bf20a66d"
+  },
+  {
+   "id": "b4aa36f8de23ff77",
+   "sourceId": "meta-engineering-ai",
+   "sourceName": "Engineering at Meta: AI",
+   "originalTitle": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
+   "originalUrl": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/",
+   "originalLanguage": "en",
+   "originalDescription": "Over the last year we’ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we’re sharing the results and positive impact we’ve seen with Catching JiTTests deployed into…",
+   "publishedAt": "2026-10-29T16:00:12.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "65a1b6db5af19318"
+  },
+  {
+   "id": "0b10feeb1a78db81",
+   "sourceId": "latent-space",
+   "sourceName": "Latent Space",
+   "originalTitle": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+   "originalUrl": "https://latent.space/p/elorian/",
+   "originalLanguage": "en",
+   "originalDescription": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
+   "publishedAt": "2026-10-29T16:00:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/c0263f23-d8f4-45a5-8e75-1ea88650605f/Elorian_Decoy_Feature_Image.png?t=1793221147",
+   "contentHash": "3217f505127a1fef"
+  },
+  {
+   "id": "5f992c32f5756cf3",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Microsoft’s AI future has fewer jobs",
+   "originalUrl": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+   "originalLanguage": "en",
+   "originalDescription": "To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft's workforce. Microsoft is now offering voluntary buyouts to…",
+   "publishedAt": "2026-10-29T16:00:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "cf81f4b8e40e4a6e"
+  },
+  {
+   "id": "1be6a1df25ca72b4",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+   "originalUrl": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+   "originalLanguage": "en",
+   "originalDescription": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit…",
+   "publishedAt": "2026-10-29T15:57:05.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcSWXTg8eHlxb0m5-m8xCEly9KQO-0qKV9c7QD7fF51aCb4HUEucmb657vogvKmlA8ra_4kMI6i_w11eYPIVvPSEBnuKnPg9E_HpEw0H1czq883zm_NaUEzarlfXlLd2OKd4b2jbPmMDXvWloR9iNa748-3xhEjD5wNuIznKGTmNwIV3CSeoBkt61zN5o/s1600/linux-dos.png",
+   "contentHash": "73fef86305a94d94"
+  },
+  {
+   "id": "477937df1bf729c9",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
+   "originalUrl": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/",
+   "originalLanguage": "en",
+   "originalDescription": "Mistral has released the weights for Large 4, aka \"Le Chonk,\" a trillion-parameter model trained entirely in Europe. Mistral says it beats its open rivals at coding, and independent testing shows it's fast and fairly cheap. It still can't match China's top models, scoring 26…",
+   "publishedAt": "2026-10-29T15:25:27.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "dfed7a53efc77ca2"
+  },
+  {
+   "id": "d9e7c9ddc0eb7fb8",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+   "originalUrl": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+   "originalLanguage": "en",
+   "originalDescription": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that…",
+   "publishedAt": "2026-10-29T15:20:29.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1ij0gwe-L1jDZxdoUPZ6hpSJnJgMHh2bG8bFF2y8y-dJA9nY0Fr2JOU2i4NaCetGqvTZOtvaRXbZONR6d8ajjMR6DNm_X7OwaVCiH7dPycEN9xGI0psNvPYbwDhpGmUQ4Qyhp5x9fqQ_sgzjcReslK-a-gRS3kFr5_JOns1kkuC6UheDHVb2yaV8EAhIF/s1600/claude-hack.jpg",
+   "contentHash": "c23e0f40f17ddb5b"
+  },
+  {
+   "id": "411c66dec517a32d",
+   "sourceId": "nvidia-technical-blog",
+   "sourceName": "NVIDIA Technical Blog",
+   "originalTitle": "Unlocking Tensor Core Performance for Machine Learning Interatomic Potentials",
+   "originalUrl": "https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials/",
+   "originalLanguage": "en",
+   "originalDescription": "Atomistic simulations help researchers understand how molecules and materials behave, from chemical reactions and phase transitions to mechanical failure. These...",
+   "publishedAt": "2026-10-29T15:00:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "ecbd2c226b29d919"
+  },
+  {
+   "id": "7d26f449290aa7e0",
+   "sourceId": "techcrunch-startups",
+   "sourceName": "TechCrunch Startups",
+   "originalTitle": "Agent identity startup Mintive lands Cowboy Ventures, Coatue, angels Jeff Dean, Andrej Karpathy",
+   "originalUrl": "https://techcrunch.com/2026/10/29/agent-identity-startup-mintive-lands-cowboy-ventures-coatue-angels-jeff-dean-andrej-karpathy/",
+   "originalLanguage": "en",
+   "originalDescription": "Mintive was founded by two engineers who have been working on AI for decades through Google Brain and Coursera. It's platform promises to help IT easily control enterprise agents.",
+   "publishedAt": "2026-10-29T15:00:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "c4f5026ec1633542"
+  },
+  {
+   "id": "8d448df3e470faab",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "The NYT Cooking app is testing AI recipe modifications",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+   "originalLanguage": "en",
+   "originalDescription": "The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it has sparked some drama among users. Last Friday, NYT Cooking senior editor Genevieve Ko announced the feature, which can be used to recommend substitutions for…",
+   "publishedAt": "2026-10-29T14:39:37.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "8dd9fbc2839c5d30"
+  },
+  {
+   "id": "bc01622ffa1cd4de",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+   "originalUrl": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+   "originalLanguage": "en",
+   "originalDescription": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
+   "publishedAt": "2026-10-29T14:35:26.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "ed8e86103fc486b4"
+  },
+  {
+   "id": "4a3597f1441a1e18",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "US antitrust regulators are scrutinizing Nvidia's Hugging Face deal and sales practices",
+   "originalUrl": "https://the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices/",
+   "originalLanguage": "en",
+   "originalDescription": "The US Justice Department is looking into Nvidia's planned acquisition of open-source platform Hugging Face. The article US antitrust regulators are scrutinizing Nvidia's Hugging Face deal and sales practices appeared first on The Decoder .",
+   "publishedAt": "2026-10-29T14:07:49.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "65d9cab22b8c14e0"
+  },
+  {
+   "id": "95cafd4597e819bb",
+   "sourceId": "simon-willison",
+   "sourceName": "Simon Willison's Weblog",
+   "originalTitle": "Quoting Ben Hylak",
+   "originalUrl": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+   "originalLanguage": "en",
+   "originalDescription": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much. we're special that way. — Ben Hylak Tags…",
+   "publishedAt": "2026-10-29T14:06:27.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai",
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "52423acd0d9f7c82"
+  },
+  {
+   "id": "3a644431de131a74",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Anthropic is asking Wall Street to believe in AGI",
+   "originalUrl": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+   "originalLanguage": "en",
+   "originalDescription": "Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing — a document known as an S-1. Anthropic just filed its S-1 to go public on the Nasdaq, and it…",
+   "publishedAt": "2026-10-29T14:00:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "9091124e0bdb26be"
+  },
+  {
+   "id": "17b1ed18b9db9df1",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+   "originalUrl": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+   "originalLanguage": "en",
+   "originalDescription": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity…",
+   "publishedAt": "2026-10-29T13:42:40.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBMb78BxIXnGaXFzCXPdswdQZsuh8rz63Y22pLX3cOkgRgaPv3KJgw6fRULDT3am1YO4eA1obnh0aOdxZy4KVZMww8sxNOtxzZXYcouotzbB25LVdJrCeDk0MQsgCmsYQBAaGdwyhmiMNa2Y90ujuXFXZPLTIrOo1PB6vtWqWAXygOvM72cEmXvHTN9Ktw/s1600/google-gemini.jpg",
+   "contentHash": "9511d9ed566f114b"
+  },
+  {
+   "id": "86f9ef27ef78aa2e",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Chinese spies targeted Nvidia CEO Jensen Huang, according to The New York Times",
+   "originalUrl": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
+   "originalLanguage": "en",
+   "originalDescription": "US intelligence agencies believe an executive in Nvidia CEO Jensen Huang's circle is an informant for China. The article Chinese spies targeted Nvidia CEO Jensen Huang, according to The New York Times appeared first on The Decoder .",
+   "publishedAt": "2026-10-29T13:42:38.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "884950eea2080aba"
+  },
+  {
+   "id": "e508e29ae812fe58",
+   "sourceId": "huggingface-blog",
+   "sourceName": "Hugging Face Blog",
+   "originalTitle": "Granite Switch 4.1.1 — Update models like you update software",
+   "originalUrl": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-10-29T13:37:07.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "64303fa145533b02"
+  },
+  {
+   "id": "130656092a266855",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Anthropic’s business plan: Build God or die trying",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+   "originalLanguage": "en",
+   "originalDescription": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the…",
+   "publishedAt": "2026-10-29T13:30:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "31add4f3770fe993"
+  },
+  {
+   "id": "2819b64e84df49d8",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses",
+   "originalUrl": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses/",
+   "originalLanguage": "en",
+   "originalDescription": "Chinese AI labs are now mainly tapping OpenAI's most powerful model, GPT-6 Astra, instead of Anthropic's Claude. The article OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses appeared first on The Decoder .",
+   "publishedAt": "2026-10-29T13:20:14.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "7431fa1ead185343"
+  },
+  {
+   "id": "84f5c4345b63da3c",
+   "sourceId": "nvidia-blog",
+   "sourceName": "NVIDIA Blog",
+   "originalTitle": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
+   "originalUrl": "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero/",
+   "originalLanguage": "en",
+   "originalDescription": "This Halloween week, GFN Thursday is delivering a fresh batch of gaming treats. Something wicked this blade comes. S-GAME’s Phantom Blade Zero launches on GeForce NOW today, bringing a scarily good blend of martial arts and punk fantasy to the cloud. There’s also something on…",
+   "publishedAt": "2026-10-29T13:00:16.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/10/gfn-thursday-10-29-blog-1920x1080-logo.jpg",
+   "contentHash": "27f8b2abf14b8aeb"
+  },
+  {
+   "id": "2b68ad855b3cfb8e",
+   "sourceId": "techcrunch-startups",
+   "sourceName": "TechCrunch Startups",
+   "originalTitle": "Who will you learn from in 6 days at TechCrunch Founder Summit? Meet the founders and investors taking the stages",
+   "originalUrl": "https://techcrunch.com/2026/10/29/who-will-you-learn-from-in-6-days-at-techcrunch-founder-summit-meet-the-founders-and-investors-taking-the-stage/",
+   "originalLanguage": "en",
+   "originalDescription": "Six days from now, on November 4, TechCrunch Founder Summit brings experienced founders, investors, and operators to Boston to share the decisions, mistakes, pivots, and lessons that shaped their companies. Register before it starts for ticket savings and deals.",
+   "publishedAt": "2026-10-29T13:00:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "abae368cf7738390"
+  },
+  {
+   "id": "3b6251909818d39b",
+   "sourceId": "docker-blog",
+   "sourceName": "Docker Blog",
+   "originalTitle": "Coding Agent Horror Stories: The CVE That Did Not Exist",
+   "originalUrl": "https://www.docker.com/blog/coding-agent-horror-stories-the-cve-that-did-not-exist/",
+   "originalLanguage": "en",
+   "originalDescription": "An AI code review agent invented a CVE and recommended dangerous fixes. Learn how Docker Sandboxes contain agents and why their output needs verification.",
+   "publishedAt": "2026-10-29T13:00:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "cc64204d09ce5a93"
+  },
+  {
+   "id": "3eb958348088c8d0",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+   "originalUrl": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+   "originalLanguage": "en",
+   "originalDescription": "With Pipecat, Deepgram will likely gain a deeper understanding of real-time voice and video infrastructure.",
+   "publishedAt": "2026-10-29T13:00:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai",
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "2e3ce723b0548dc3"
+  },
+  {
+   "id": "f303d11137ac0122",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
+   "originalUrl": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/",
+   "originalLanguage": "en",
+   "originalDescription": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions.",
+   "publishedAt": "2026-10-29T13:00:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "c4a39e16ec63e294"
+  },
+  {
+   "id": "93dde8cc7b16e732",
+   "sourceId": "cloudflare-blog",
+   "sourceName": "The Cloudflare Blog",
+   "originalTitle": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+   "originalUrl": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
+   "originalLanguage": "en",
+   "originalDescription": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
+   "publishedAt": "2026-10-29T12:55:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M6256EDR0931RP6THCDNZ2R5.01M6256F3NTWXMKQE0RGKEM0G2.png",
+   "contentHash": "258cd5c6ea058ab6"
+  },
+  {
+   "id": "550e95ef6ab5f80b",
+   "sourceId": "cisa-advisories",
+   "sourceName": "CISA Cybersecurity Advisories",
+   "originalTitle": "Hitachi Energy TRO600 series products",
+   "originalUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
+   "originalLanguage": "en",
+   "originalDescription": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be exploited for remote code execution (RCE) to carry out further attacks and disclosure of sensitive…",
+   "publishedAt": "2026-10-29T12:00:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "e612b3bb5ecd79a0"
+  },
+  {
+   "id": "c0138fec61383be4",
+   "sourceId": "cisa-advisories",
+   "sourceName": "CISA Cybersecurity Advisories",
+   "originalTitle": "Siemens Mendix SAML Module",
+   "originalUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
+   "originalLanguage": "en",
+   "originalDescription": "View CSAF Summary Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a valid SAML assertion in IdP-initiated authentication flows. Siemens has released new versions for…",
+   "publishedAt": "2026-10-29T12:00:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "e9941a6f14475891"
+  },
+  {
+   "id": "d3ed0a84a8f24477",
+   "sourceId": "cisa-advisories",
+   "sourceName": "CISA Cybersecurity Advisories",
+   "originalTitle": "Hitachi Energy CoreTec Product",
+   "originalUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
+   "originalLanguage": "en",
+   "originalDescription": "View CSAF Summary Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful exploitation of these vulnerabilities could result in impact on confidentiality, integrity and availability…",
+   "publishedAt": "2026-10-29T12:00:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "289427e45b3015ef"
+  },
+  {
+   "id": "89ba8a41a1ee0be0",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+   "originalUrl": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+   "originalLanguage": "en",
+   "originalDescription": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than…",
+   "publishedAt": "2026-10-29T11:39:41.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "cybersecurity",
+    "ai"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRqwLeHISYWaiVNUxkANuqw6ob8Exu7_9CIEt6uHbsNa7mcNUkSWZqNZHEL3_kqPPHXVq4RGTxqZZhMdybwcVVT28qCihLUi0I5ghW9Xk5sVDB2u2kJqULx-_FEcsEHuTCU5vIwReQZghbj8HjQD4zq8H1yiGSYNlmNC25YkViZxlqndOhIp1CD2s_sLlc/s1600/wiz-webinar.jpg",
+   "contentHash": "375efc6119f852da"
+  },
+  {
+   "id": "b35772fb4a040698",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+   "originalUrl": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+   "originalLanguage": "en",
+   "originalDescription": "A flaw in Telegram for Android allowed an attacker to run code on a victim's phone via a voice call once the victim answered, according to security startup NebuSec. The attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app…",
+   "publishedAt": "2026-10-29T11:39:18.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "cybersecurity",
+    "mobile-hardware"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguzUg6G-A4KdRvBuhj9LZ93cFfXfvMNkg3dJO0H9sfNJ3MTlecsgLEMIk5TnIrdl2N6UGB8D9rlqLduGEZVm7X-XrWZr6Xh5ZrVp38x5uTd1vHyHGcjRR2N3gctNen-CBSz8JihnNL57galBoeOVKwG5w3qsOZnqmGYdkxzjurrI3QWolmS1Qfz_E_Wog/s1600/telegram.jpg",
+   "contentHash": "be12e6e8ae0e1cda"
+  },
+  {
+   "id": "ff04f1caf15467be",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+   "originalUrl": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+   "originalLanguage": "en",
+   "originalDescription": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As…",
+   "publishedAt": "2026-10-29T11:33:41.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "cybersecurity",
+    "ai"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDZvKBLpFrPhWNRvVvRjmTtgwdpGykJjCmzNWNaytIUO2C9VadEDZjeY35hq6H33jHDxV7kAOMTyOV7RO_YUG2caQ75nA_NstH_GxfRJo57n970u4ACXwZXoKl8mizESwgP9wulusqUmSnZwjFNHIJZ2hk_VzrlCJ5HBD9_8zs8Fj1WZULiZoZMD9G9D8/s1600/conf.jpg",
+   "contentHash": "cb717b163746db7a"
+  },
+  {
+   "id": "026f7c77fb5eab48",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+   "originalUrl": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+   "originalLanguage": "en",
+   "originalDescription": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent researcher Ben Zimmermann found them by scanning 7.25 million public…",
+   "publishedAt": "2026-10-29T11:33:15.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "cybersecurity",
+    "ai"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwVszv5076OudfiraNA4yh_XuzZZof-jYaklwUgiY700oPMvBHQfKHx-8yLNwhF9NVXahFRvWwU7c0mPCsIG-GUo45Fi_LT6ecZMsaRUfaLIL6eK16qeku1PO5aMTQRV0VKJh-pjKG4rC-RyajCGjL4R_A5W6YPsps4B4-GhEbstuAN7AnelVJPwIFK5W-/s1600/gite.jpg",
+   "contentHash": "77074ce2c71c275d"
+  },
+  {
+   "id": "7d482c1bcf9fa313",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+   "originalUrl": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+   "originalLanguage": "en",
+   "originalDescription": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is…",
+   "publishedAt": "2026-10-29T10:44:46.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKqTkl_DfXdrvaLinBOu5OU0NISVo_mPJfqRmnHL-m8efFXEijbxOVsFgrSPparCspKfoUtxDtfA7gu8myFTfvWCFJfse3BQakKGOZCA54pWh371KyXdluHyqjckIBFjZ36Ogv1EI42yDCO2dt02noigEyL2RKJ8lEivH3PCWJURryc1JtNO9djpeW88tJ/s1600/cisco-flaws.jpg",
+   "contentHash": "85f4e7941efe4ae1"
+  },
+  {
+   "id": "193f5a35878b3318",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+   "originalUrl": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+   "originalLanguage": "en",
+   "originalDescription": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time. \"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an…",
+   "publishedAt": "2026-10-29T10:26:33.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "cybersecurity",
+    "developer-tools"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ7hXo0MoiQiXCSLnOj0h2YUqDhIHl13Le4XxOU3UxV7X2mm4_YGJKOT6akyW58uRaMhslGN6NY9B_1u7V-y_fy0kYJHKoVA-yBWVt53xqBk06_syRpASgWezvnVIZs9goRlwNrp_HMVj_Pu8rzXmIsfJBV1YzhJ8IAd-1g7FFVhFWqc9HegTk4Jok5kR9/s1600/github.gif",
+   "contentHash": "649fea57b755fde0"
+  },
+  {
+   "id": "f9a4c190922d8644",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Google's AI search problem finally shows up in the earnings report, some investors believe",
+   "originalUrl": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe/",
+   "originalLanguage": "en",
+   "originalDescription": "Google's stock dropped as much as ten percent after its quarterly earnings. Cloud revenue more than doubled to $30.7 billion, but search revenue grew just 12 percent, slower than expected. Google acknowledged that its fast-growing AI mode brings in less revenue than traditional…",
+   "publishedAt": "2026-10-29T10:16:34.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "234ed5ec84f041c1"
+  },
+  {
+   "id": "32d69d7e6fd51a11",
+   "sourceId": "mit-technology-review-ai",
+   "sourceName": "MIT Technology Review AI",
+   "originalTitle": "We urgently need to monitor AI agents’ actions in real time",
+   "originalUrl": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+   "originalLanguage": "en",
+   "originalDescription": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed…",
+   "publishedAt": "2026-10-29T10:11:12.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "24372a584740ea23"
+  },
   {
    "id": "d62a8f09dced3dd9",
    "sourceId": "the-verge-ai",
@@ -35,6 +702,41 @@
    ],
    "imageUrl": null,
    "contentHash": "1b47e69552496e55"
+  },
+  {
+   "id": "cd1deb1a176494e2",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "Neton 1.0.0 正式发布：面向 AI 原生开发的 Kotlin/Native 服务端应用框架",
+   "originalUrl": "https://www.oschina.net/news/503302",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "Neton Framework 1.0.0 正式发布，现已上线 Maven Central。 这是 Neton 的第一个稳定版本。从应用装配、依赖注入、HTTP API，到数据库、认证授权、缓存、任务调度、对象存储和 WebSocket，Neton 为 Kotlin 开发者提供了一套围绕原生服务端应用构建的开发体系。 Neton 的定位不是底层网络库，而是与 Spring Boot、Larav...",
+   "publishedAt": "2026-10-29T09:21:23.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "developer-tools",
+    "ai",
+    "programming-languages"
+   ],
+   "imageUrl": null,
+   "contentHash": "fc5450e44e272f66"
+  },
+  {
+   "id": "b36cbddd30558fea",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+   "originalUrl": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+   "originalLanguage": "en",
+   "originalDescription": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through…",
+   "publishedAt": "2026-10-29T09:05:39.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "cybersecurity",
+    "programming-languages"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh65eroK1pQacKJwqeGmgp2sDta1mgCrPuNMXiwAgTi-FVZNc1V4D7qooFFc-V-XNOJzYpjYk28Y_kIkoHMNJfnQ5h2gI0-bOWlVOt9VJ9oZUpRsBzYLsSMe3oNRTfZe53dtpezOOq1MHmWhEhAigbyOMLx4jWAbcvvImY39jY1h4FMS4_OUqSDF-kZJvQ/s1600/linux-gitlab.jpg",
+   "contentHash": "6cf3debd656573c5"
   },
   {
    "id": "7302e2c4a0369bea",
@@ -583,6 +1285,23 @@
    "contentHash": "9ee053bfea2f26df"
   },
   {
+   "id": "5e60471476735c37",
+   "sourceId": "kubernetes-blog",
+   "sourceName": "Kubernetes Blog",
+   "originalTitle": "From Working Group to SIG Architecture: spotlight on AI Conformance",
+   "originalUrl": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/",
+   "originalLanguage": "en",
+   "originalDescription": "In this SIG Architecture spotlight we talked with Janet Kuo (Google) and Yuan Tang (Red Hat) about the journey of AI Conformance in Kubernetes, from the initial Working Group to the integration SIG Architecture as a subproject. Introductions Frederico Muñoz and Kirti Goyal…",
+   "publishedAt": "2026-10-29T05:00:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "cloud-infrastructure",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "7d076ca53aa64799"
+  },
+  {
    "id": "10326e2ed379f037",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -792,6 +1511,54 @@
    ],
    "imageUrl": null,
    "contentHash": "a803c8d9f689886d"
+  },
+  {
+   "id": "6394645bd5105adc",
+   "sourceId": "huggingface-blog",
+   "sourceName": "Hugging Face Blog",
+   "originalTitle": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+   "originalUrl": "https://huggingface.co/blog/anydecisionmodel",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-10-29T00:00:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "21d591a6b3ec2699"
+  },
+  {
+   "id": "718617961cab3abc",
+   "sourceId": "huggingface-blog",
+   "sourceName": "Hugging Face Blog",
+   "originalTitle": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+   "originalUrl": "https://huggingface.co/blog/announcing-project-protostar",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-10-29T00:00:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "62800ecdefdf2998"
+  },
+  {
+   "id": "b6b30743068c2627",
+   "sourceId": "huggingface-blog",
+   "sourceName": "Hugging Face Blog",
+   "originalTitle": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+   "originalUrl": "https://huggingface.co/blog/mistral-large4",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-10-29T00:00:00.000Z",
+   "discoveredAt": "2026-10-29T16:57:09.659Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "bb3e43dd1348aeb8"
   },
   {
    "id": "f7566aa101f59431",
@@ -2352,14 +3119,14 @@
    "originalTitle": "Kin",
    "originalUrl": "https://www.producthunt.com/products/kin-6",
    "originalLanguage": "en",
-   "originalDescription": "Connect your accounts once. Every AI follows your rules. Discussion | Link",
+   "originalDescription": "The AI labs want to own you. Make them answer to you. Discussion | Link",
    "publishedAt": "2026-10-28T10:24:00.000Z",
    "discoveredAt": "2026-10-29T10:03:28.916Z",
    "topics": [
     "startups-products"
    ],
    "imageUrl": null,
-   "contentHash": "d0deb8ef8bbda42f"
+   "contentHash": "41ee86c64787d382"
   },
   {
    "id": "73827fc9ff4b5e44",
@@ -5885,7 +6652,7 @@
    "id": "c67cf62fcc6ed47b",
    "sourceId": "cisa-advisories",
    "sourceName": "CISA Cybersecurity Advisories",
-   "originalTitle": "Mitsubishi Electric GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
+   "originalTitle": "Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
    "originalUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
    "originalLanguage": "en",
    "originalDescription": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863), bypass authentication (CVE-2026-16436 and CVE-2026-16437), or perform arbitrary operations (CVE-2026-16438), resulting in information…",
@@ -5895,7 +6662,7 @@
     "cybersecurity"
    ],
    "imageUrl": null,
-   "contentHash": "9d3fad7148028ea3"
+   "contentHash": "a5897941fc45c888"
   },
   {
    "id": "dc5c27b683bcf6ff",
@@ -23705,39 +24472,6 @@
    ],
    "imageUrl": null,
    "contentHash": "82f69b90ae5c1132"
-  },
-  {
-   "id": "6432f88e541d5635",
-   "sourceId": "microsoft-research-blog",
-   "sourceName": "Microsoft Research Blog",
-   "originalTitle": "Introducing Quine: An AI research system designed for the complexity of biology",
-   "originalUrl": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
-   "originalLanguage": "en",
-   "originalDescription": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecting insights across biological scales and modalities, Quine helps scientists computationally search…",
-   "publishedAt": "2026-09-29T14:00:02.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai",
-    "research-papers"
-   ],
-   "imageUrl": null,
-   "contentHash": "5744641aa3de5a34"
-  },
-  {
-   "id": "afa8c33f8eb7996a",
-   "sourceId": "huggingface-blog",
-   "sourceName": "Hugging Face Blog",
-   "originalTitle": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-   "originalUrl": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-   "originalLanguage": "en",
-   "originalDescription": null,
-   "publishedAt": "2026-09-29T13:07:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "71ebcddde80df595"
   }
  ]
 }

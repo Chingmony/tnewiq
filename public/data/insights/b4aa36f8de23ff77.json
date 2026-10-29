@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b4aa36f8de23ff77",
+ "contentHash": "65a1b6db5af19318",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T17:08:11.678Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
+   "summary": "Meta has deployed its Catching Just-in-Time Tests (JiTTests) approach into production, utilizing large language models to generate executable tests that catch bugs before code lands. The system operates at scale across Meta's massive codebase, using tandem intent-aware and dodgy diff workflows. To filter false positives, Meta employs a rule-based approach combined with an LLM-as-Judge ensemble and human review.",
+   "impact": "This approach could help developers and security teams catch severe bugs earlier in the development lifecycle with fewer false positives. It may offer a scalable method for large codebases where traditional testing struggles to keep pace.",
+   "keyPoints": [
+    "JiTTests leverage large language models to generate executable tests that demonstrate concrete behavioral differences in code changes.",
+    "The system uses two tandem workflows: intent-aware and dodgy diff.",
+    "Meta filters false positives using a rule-based approach, an LLM-as-Judge ensemble, and human review."
+   ]
+  },
+  "km": {
+   "title": "ការចាប់បាប់កំហុសមុនពេលដាក់ឱ្យប្រើប្រាស់៖ វិធីសាស្ត្រ JiTTesting ជាមួយមនុស្សចូលរួមក្នុងទំហំពេញលេញ",
+   "summary": "Meta បានដាក់ឱ្យប្រើប្រាស់វិធីសាស្ត្រ Catching Just-in-Time Tests (JiTTests) ក្នុងការផលិត ដោយប្រើប្រាស់ម៉ូដែលភាសាខ្នាតធំដើម្បីបង្កើតតេស្តដែលអាចប្រតិបត្តិបាន ដើម្បីចាប់កំហុសមុនពេលកូដត្រូវបានដាក់បញ្ចូល។ ប្រព័ន្ធនេះដំណើរការលើកូដបេស្ដដ៏ធំរបស់ Meta ដោយប្រើប្រាស់លំហូរការងារទ្វេដង។ ដើម្បីត្រងយកលទ្ធផលខុស Meta បានប្រើប្រាស់វិធីសាស្ត្រផ្អែកលើច្បាប់រួមជាមួយ LLM-as-Judge និងការពិនិត្យដោយមនុស្ស។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខចាប់កំហុសធ្ងន់ធ្ងរបានលឿនជាងមុនក្នុងអំឡុងពេលអភិវឌ្ឍន៍ជាមួយនឹងការជូនដំណឹងខុសតិចតួច។ វាអាចផ្ដល់នូវវិធីសាស្ត្រដែលអាចពង្រីកបានសម្រាប់ប្រព័ន្ធកូដធំៗ។",
+   "keyPoints": [
+    "JiTTests ប្រើប្រាស់ម៉ូដែលភាសាខ្នាតធំដើម្បីបង្កើតតេស្តដែលអាចប្រតិបត្តិបាន។",
+    "ប្រព័ន្ធនេះប្រើប្រាស់លំហូរការងារទ្វេដងគឺ intent-aware និង dodgy diff។",
+    "Meta ត្រងយកលទ្ធផលខុសដោយប្រើប្រាស់ច្បាប់ LLM-as-Judge និងការពិនិត្យដោយមនុស្ស។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在代码落地前捕获漏洞：JiTTesting 在全规模下的“人在回路”方法",
+   "summary": "Meta 已将其 Catching Just-in-Time Tests (JiTTests) 方法投入生产，利用大语言模型生成可执行测试，在代码落地前捕获漏洞。该系统在 Meta 庞大的代码库上大规模运行，并使用了意图感知和可疑差异的双重工作流。为了过滤误报，Meta 采用基于规则的方法、LLM-as-Judge 集成以及人工审查相结合的方式。",
+   "impact": "这种方法可以帮助开发人员和安全团队在开发周期的早期捕获严重漏洞，并减少误报。对于传统测试难以跟上步伐的大型代码库，它可能提供一种可扩展的方案。",
+   "keyPoints": [
+    "JiTTests 利用大语言模型生成可执行测试，展示代码更改中的具体行为差异。",
+    "该系统使用意图感知和可疑差异两个串联工作流。",
+    "Meta 结合使用基于规则的方法、LLM-as-Judge 集成和人工审查来过滤误报。"
+   ]
+  },
+  "ko": {
+   "title": "코드가 반영되기 전에 버그 잡기: 대규모 전개에서의 JiTTesting의 휴먼 인 더 루프 접근법",
+   "summary": "Meta는 대형 언어 모델을 활용하여 코드가 반영되기 전에 실행 가능한 테스트를 생성하고 버그를 잡아내는 Catching Just-in-Time Tests (JiTTests) 방식을 프로덕션에 배포했습니다. 이 시스템은 Meta의 방대한 코드베이스 전반에서 대규모로 작동하며, 의도 인식 및 의심스러운 차이점(dodgy diff)의 두 가지 워크플로우를 사용합니다. 오탐을 걸러내기 위해 Meta는 규칙 기반 접근 방식과 LLM-as-Judge 앙상블, 그리고 인간의 검토를 결합하여 사용합니다.",
+   "impact": "이 접근 방식은 개발자와 보안 팀이 개발 주기 초기 단계에서 심각한 버그를 더 일찍 발견하고 오탐을 줄이는 데 도움을 줄 수 있습니다. 전통적인 테스트가 속도를 따라가지 못하는 대규모 코드베이스에 확장 가능한 방법을 제공할 수 있습니다.",
+   "keyPoints": [
+    "JiTTests는 대형 언어 모델을 활용하여 코드 변경의 구체적인 행동 차이를 보여주는 실행 가능한 테스트를 생성합니다.",
+    "이 시스템은 의도 인식 및 dodgy diff의 두 가지 병렬 워크플로우를 사용합니다.",
+    "Meta는 규칙 기반 방식, LLM-as-Judge 앙상블, 그리고 인간의 검토를 결합하여 오탐을 필터링합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3b6251909818d39b",
+ "contentHash": "cc64204d09ce5a93",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T17:21:10.790Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Coding Agent Horror Stories: The CVE That Did Not Exist",
+   "summary": "A platform engineer built a local, self-hosted code review bot named BuaJi using Ollama to review team code changes. BuaJi had strict permissions, lacking any capability to alter infrastructure or push code, and ran entirely on local hardware. When the engineer pushed a routine security version bump for PostgreSQL, BuaJi produced a massive fifteen hundred word rejection filled with alarming claims about data exfiltration and architectural takeovers.",
+   "impact": "This incident shows that AI coding and review agents can generate severe, unfounded hallucinations that mimic authoritative security warnings. Developers and security teams may need to account for false positives and dramatic fabrications from AI tools even when those tools have restricted permissions.",
+   "keyPoints": [
+    "An engineer created a local code review bot named BuaJi running on Ollama to keep company source code private.",
+    "BuaJi was restricted to reading code and commenting, with no permissions to run infrastructure commands or push commits.",
+    "The engineer pushed a standard version bump for PostgreSQL from 16.11 to 16.13.",
+    "BuaJi rejected the change with a 1,500-word report falsely claiming the update was an architectural takeover designed to leak internal data."
+   ]
+  },
+  "km": {
+   "title": "រឿងរ៉ាវភ័យរន្ធត់របស់ភ្នាក់ងារកូដ៖ CVE ដែលមិនធ្លាប់មាន",
+   "summary": "វិស្វករវេទិកាម្នាក់បានបង្កើតបូតពិនិត្យកូដក្នុងស្រុកមួយឈ្មោះថា BuaJi ដោយប្រើប្រាស់ Ollama ដើម្បីពិនិត្យមើលការផ្លាស់ប្តូរកូដរបស់ក្រុម។ BuaJi មានការកំណត់សិទ្ធិយ៉ាងតឹងរ៉ឹង ដោយគ្មានលទ្ធភាពកែប្រែហេដ្ឋារចនាសម្ព័ន្ធ ឬបញ្ជូនកូដនោះទេ។ នៅពេលដែលវិស្វករបានធ្វើបច្ចុប្បន្នភាពកំណែសុវត្ថិភាពធម្មតាសម្រាប់ PostgreSQL BuaJi បានបង្កើតការបដិសេធយ៉ាងវែងអន្លាយដល់ទៅ ១៥០០ ពាក្យ ជាមួយនឹងការអះអាងដ៏គួរឱ្យព្រួយបារម្ភអំពីការលេចធ្លាយទិន្នន័យ។",
+   "impact": "ឧប្បត្តិហេតុនេះបង្ហាញថាភ្នាក់ងារកូដ සහ AI អាចបង្កើតការយល់សប្តិខុសធ្ងន់ធ្ងរដែលធ្វើត្រាប់តាមការព្រមានផ្នែកសុវត្ថិភាព។ អ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខប្រហែលជាត្រូវគិតគូរពីការរាយការណ៍ខុសពីឧបករណ៍ AI ទោះបីជាឧបករណ៍ទាំងនោះត្រូវបានដាក់កម្រិតសិទ្ធិក៏ដោយ។",
+   "keyPoints": [
+    "វិស្វករម្នាក់បានបង្កើតបូតពិនិត្យកូដក្នុងស្រុកឈ្មោះ BuaJi ដំណើរការលើ Ollama ដើម្បីរក្សាកូដប្រភពរបស់ក្រុមហ៊ុនឱ្យមានសុវត្ថិភាព។",
+    "BuaJi ត្រូវបានកំណត់ត្រឹមតែការអានកូដ និងការបញ្ចេញមតិប៉ុណ្ណោះ ដោយគ្មានសិទ្ធិដំណើរការបញ្ជាហេដ្ឋារចនាសម្ព័ន្ធទេ។",
+    "វិស្វករបានធ្វើបច្ចុប្បន្នភាពកំណែស្តង់ដារសម្រាប់ PostgreSQL ពី 16.11 ទៅ 16.13 ។",
+    "BuaJi បានបដិសេធការផ្លាស់ប្តូរនេះជាមួយនឹងរបាយការណ៍ ១៥០០ ពាក្យ ដោយអះអាងខុសថាវាជាការគ្រប់គ្រងស្ថាបត្យកម្មដើម្បីលេចធ្លាយទិន្នន័យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "编码代理恐怖故事：并不存在的 CVE",
+   "summary": "一名平台工程师使用 Ollama 构建了一个名为 BuaJi 的本地自托管代码审查机器人，用于审查团队的代码更改。BuaJi 拥有严格的权限，无法更改基础设施或推送代码，且完全在本地硬件上运行。当工程师推送常规的 PostgreSQL 安全版本升级时，BuaJi 却生成了一份长达 1500 字的拒绝报告，其中包含关于数据外泄的惊人指控。",
+   "impact": "这一事件表明，人工智能编码和审查代理可能会产生严重的、毫无根据的幻觉，并模仿权威的安全警告。即使这些工具拥有受限的权限，开发人员和安全团队也可能需要应对来自人工智能工具的误报和虚构内容。",
+   "keyPoints": [
+    "一名工程师创建了一个名为 BuaJi 的本地代码审查机器人，运行在 Ollama 上以保护公司源代码私密性。",
+    "BuaJi 仅限于读取代码和评论，没有运行基础设施命令或推送提交的权限。",
+    "工程师推送了 PostgreSQL 从 16.11 到 16.13 的标准版本升级。",
+    "BuaJi 拒绝了这一更改，并发布了一份 1500 字的报告，错误地声称该更新是旨在泄露内部数据的架构接管。"
+   ]
+  },
+  "ko": {
+   "title": "코딩 에이전트 공포 이야기: 존재하지 않는 CVE",
+   "summary": "플랫폼 엔지니어가 팀의 코드 변경 사항을 검토하기 위해 Ollama를 사용하여 BuaJi라는 로컬 자체 호스팅 코드 리뷰 봇을 만들었습니다. BuaJi는 엄격한 권한을 가지고 있어 인프라를 변경하거나 코드를 푸시할 수 없었으며 로컬 하드웨어에서만 실행되었습니다. 엔지니어가 PostgreSQL의 일반적인 보안 버전 업그레이드를 푸시했을 때, BuaJi는 데이터 유출에 대한 경악스러운 주장이 담긴 1,500단어 분량의 거대한 거절 보고서를 작성했습니다.",
+   "impact": "이번 사건은 AI 코딩 및 리뷰 에이전트가 권위 있는 보안 경고를 모방하여 심각하고 근거 없는 환각을 생성할 수 있음을 보여줍니다. 개발자와 보안 팀은 AI 도구에 제한된 권한이 부여된 경우에도 이러한 도구의 오탐지와 허구적 주장을 고려해야 할 수 있습니다.",
+   "keyPoints": [
+    "엔지니어가 회사의 소스 코드를 비공개로 유지하기 위해 Ollama에서 실행되는 BuaJi라는 로컬 코드 리뷰 봇을 만들었습니다.",
+    "BuaJi는 코드를 읽고 댓글을 남기는 것으로 제한되었으며 인프라 명령을 실행하거나 커밋을 푸시할 권한이 없었습니다.",
+    "엔지니어는 PostgreSQL 버전을 16.11에서 16.13으로 표준 업그레이드했습니다.",
+    "BuaJi는 해당 업데이트가 내부 데이터를 유출하기 위한 아키텍처 탈취라고 허위 주장하는 1,500단어 분량의 보고서로 변경 사항을 거부했습니다."
+   ]
+  }
+ }
+}

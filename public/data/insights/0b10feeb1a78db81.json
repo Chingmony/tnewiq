@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0b10feeb1a78db81",
+ "contentHash": "3217f505127a1fef",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T17:08:43.805Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+   "summary": "Elorian has launched its first visual reasoning model named Glimpse and co-released a new benchmark called DecoyCount in partnership with Mercor. DecoyCount tests whether language models genuinely count objects or rely on visual shortcuts and substitution heuristics. According to tests, frontier models scored below 50% accuracy on the benchmark, while Elorian's Glimpse scored 50.48% in an internal test. Elorian CEO Andrew Dai stated that the evaluation images and text were withheld from Glimpse's training data.",
+   "impact": "The DecoyCount benchmark and Glimpse's release may prompt developers and security teams to re-evaluate how visual reasoning and counting capabilities are tested in AI models. The findings suggest that general reasoning improvements do not automatically translate to reliable visual reasoning, highlighting a need for better diagnostic benchmarks.",
+   "keyPoints": [
+    "Elorian launched Glimpse, described as a visual thinking model that reasons about the physical world.",
+    "The DecoyCount benchmark tests whether models genuinely count objects or use visual shortcuts across seven mechanisms.",
+    "Frontier models scored below 50% on DecoyCount, with GPT-6 Astra reaching the highest score of 43.17%.",
+    "Elorian reported an internal score of 50.48% for Glimpse on the 1,660 DecoyCount items without training data contamination."
+   ]
+  },
+  "km": {
+   "title": "តើម៉ូដែលឈានមុខអាចមើលឃើញឆ្លងកាត់ការបន្លំបានទេ? Elorian សាកល្បងហេតុផលមើលឃើញ",
+   "summary": "ក្រុមហ៊ុន Elorian បានចាប់ផ្ដើមដាក់ឱ្យដំណើរការម៉ូដែលហេតុផលមើលឃើញដំបូងរបស់ខ្លួនឈ្មោះថា Glimpse និងបានបញ្ចេញសន្ទុះវាយតម្លៃថ្មីមួយហៅថា DecoyCount ក្នុងភាពជាដៃគូជាមួយ Mercor។ DecoyCount ធ្វើតេស្តថាតើម៉ូដែលភាសាពិតជារាប់វត្ថុ ឬពឹងផ្អែកលើផ្លូវកាត់មើលឃើញ។ យោងតាមការធ្វើតេស្ត ម៉ូដែលឈានមុខទទួលបានពិន្ទុក្រោម 50% ខណៈដែលម៉ូដែល Glimpse របស់ Elorian ទទួលបាន 50.48% ក្នុងការធ្វើតេស្តផ្ទៃក្នុង។",
+   "impact": "ការដាក់ឱ្យប្រើប្រាស់សន្ទុះវាយតម្លៃ DecoyCount និងម៉ូដែល Glimpse អាចជំរុញឱ្យអ្នកអភិវឌ្ឍន៍ពិនិត្យឡើងវិញនូវរបៀបដែលសមត្ថភាពហេតុផលមើលឃើញត្រូវបានសាកល្បងនៅក្នុងប្រព័ន្ធ AI។ ការរកឃើញនេះបង្ហាញថាការកែលម្អហេតុផលទូទៅមិនទាន់គ្រប់គ្រាន់សម្រាប់ការយល់ដឹងផ្នែកមើលឃើញនោះទេ។",
+   "keyPoints": [
+    "Elorian បានបញ្ចេញម៉ូដែល Glimpse ដែលជាប្រព័ន្ធហេតុផលអំពីពិភពរូបវន្តពីអ្វីដែលវាឃើញ។",
+    "សន្ទុះវាយតម្លៃ DecoyCount សាកល្បងសមត្ថភាពរាប់វត្ថុតាមយន្តការចំនួនប្រាំពីរ។",
+    "ម៉ូដែលឈានមុខទទួលបានពិន្ទុក្រោម 50% នៅលើ DecoyCount ដោយ GPT-6 Astra ទទួលបានខ្ពស់ជាងគេត្រឹម 43.17%。",
+    "Elorian រាយការណ៍ថា Glimpse ទទួលបានពិន្ទុ 50.48% លើធាតុ DecoyCount ចំនួន 1,660។"
+   ]
+  },
+  "zh-CN": {
+   "title": "前沿模型能否看穿诱饵？Elorian 测试视觉推理能力",
+   "summary": "Elorian 推出了其首个视觉推理模型 Glimpse，并与 Mercor 合作推出了名为 DecoyCount 的全新基准测试。DecoyCount 用于测试语言模型是真正对物体进行计数，还是依赖视觉捷径与替代启发式方法。测试显示，前沿模型的 DecoyCount 准确率均低于 50%，而 Elorian 的 Glimpse 在内部测试中获得了 50.48% 的分数。Elorian 首席执行官 Andrew Dai 表示，评估图像和文本均未用于 Glimpse 的训练。",
+   "impact": "DecoyCount 基准测试的发布以及 Glimpse 的推出，可能会促使开发人员和安全团队重新评估 AI 模型中视觉推理和计数能力的测试方式。研究结果表明，通用推理能力的提升并不等同于可靠的视觉推理能力，这凸显了改进基准测试的需求。",
+   "keyPoints": [
+    "Elorian 推出了被称为视觉思考模型的 Glimpse，用于根据所见内容对物理世界进行推理。",
+    "DecoyCount 基准测试通过七种机制检验模型是真正计数还是使用视觉捷径。",
+    "前沿模型在 DecoyCount 上的准确率均低于 50%，其中 GPT-6 Astra 得分最高，为 43.17%。",
+    "Elorian 报告称 Glimpse 在 1,660 个 DecoyCount 测试项目上获得了 50.48% 的分数且无数据污染。"
+   ]
+  },
+  "ko": {
+   "title": "프론티어 모델이 유인물을 구별할 수 있을까? Elorian, 시각적 추론 테스트",
+   "summary": "Elorian이 첫 시각적 추론 모델인 Glimpse를 출시하고 Mercor와 파트너십을 맺어 DecoyCount라는 새로운 벤치마크를 공개했다. DecoyCount는 언어 모델이 실제로 객체를 세는지 아니면 시각적 지름길이나 대체 휴리스틱에 의존하는지 테스트한다. 테스트 결과에 따르면 프론티어 모델들은 DecoyCount에서 50% 미만의 정확도를 기록했으며, Elorian의 Glimpse는 내부 테스트에서 50.48%를 기록했다. Elorian의 CEO 앤드루 다이에 따르면 평가 이미지와 텍스트는 Glimpse의 훈련 데이터에서 배제되었다.",
+   "impact": "DecoyCount 벤치마크와 Glimpse의 등장은 개발자와 보안 팀이 AI 모델의 시각적 추론 및 카운팅 능력을 테스트하는 방식을 재검토하게 만들 수 있다. 일반적인 추론 능력의 향상이 신뢰할 수 있는 시각적 추론으로 자동 이어지지 않음을 시사한다.",
+   "keyPoints": [
+    "Elorian은 물리 세계에 대해 시각적으로 추론하는 모델인 Glimpse를 출시했다.",
+    "DecoyCount 벤치마크는 7가지 메커니즘을 통해 모델이 객체를 실제로 세는지 테스트한다.",
+    "프론티어 모델들은 DecoyCount에서 50% 미만의 점수를 기록했으며 GPT-6 Astra가 43.17%로 가장 높았다.",
+    "Elorian은 Glimpse가 1,660개의 DecoyCount 항목에서 50.48%를 기록했다고 밝혔다."
+   ]
+  }
+ }
+}

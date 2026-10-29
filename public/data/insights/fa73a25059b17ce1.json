@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fa73a25059b17ce1",
+ "contentHash": "69e84ec57ab4e9e7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T16:59:06.681Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway",
+   "summary": "MoEngage utilized AgentCore Gateway from Amazon Bedrock AgentCore to convert its roughly 400 private internal REST APIs into permission-scoped agent tools without exposing them to the public internet. Operating across 25 engineering teams and seven AWS Regions, the company avoided building custom Model Context Protocol (MCP) servers or complex per-integration networking. This approach saved an estimated six months of platform engineering effort and reduced API onboarding time from days to hours.",
+   "impact": "Security teams and developers managing private API infrastructures could benefit from centralizing tool access and authorization server-side rather than building custom MCP servers per team. This architecture may allow organizations to securely scale agent capabilities without introducing public endpoints or complex per-integration networking.",
+   "keyPoints": [
+    "MoEngage has approximately 400 internal REST APIs managed by 25 engineering teams across seven AWS Regions.",
+    "The company used AgentCore Gateway to turn private APIs into agent tools without exposing them to the public internet.",
+    "The solution avoided the deployment of over 20 separate Model Context Protocol (MCP) servers.",
+    "Onboarding a new API now takes hours instead of days, saving an estimated six months of platform engineering effort."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែល MoEngage បានបំប្លែង API ច្រើនជាង 400 ទៅជាឧបករណ៍ភ្នាក់ងារដោយប្រើ AgentCore Gateway",
+   "summary": "ក្រុមហ៊ុន MoEngage បានប្រើប្រាស់ AgentCore Gateway ពី Amazon Bedrock AgentCore ដើម្បីបំប្លែង API ផ្ទៃក្នុងប្រហែល 400 ទៅជាឧបករណ៍ភ្នាក់ងារដែលមានកម្រិតអនុញ្ញាត ដោយមិនចាំបាច់បញ្ចេញពួកវាទៅកាន់អ៊ីនធឺណិតសាធារណៈនោះទេ។ វិធីសាស្ត្រនេះបានជួយសន្សំសំចៃពេលវិស្វកម្មវេទិកាប្រហែលប្រាំាំខែ និងកាត់បន្ថយពេលវេលាបញ្ចូល API ថ្មីពីជាច្រើនថ្ងៃមកត្រឹមប៉ុន្មានម៉ោងវិញ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ដែលគ្រប់គ្រងโครงสร้างพื้นฐาน API ឯកជនអាចទទួលបានផលចំណេញពីការផ្ដុំកណ្តាលនូវការចូលប្រើប្រាស់ និងការអនុញ្ញាតឧបករណ៍នៅផ្នែកម៉ាស៊ីនបម្រើ។ ស្ថាបត្យកម្មនេះអាចជួយឱ្យស្ថាប័នពង្រីកសមត្ថភាពភ្នាក់ងារដោយសុវត្ថិភាពដោយមិនចាំបាច់បង្កើតចំណុចបញ្ចប់សាធារណៈ។",
+   "keyPoints": [
+    "MoEngage មាន API ផ្ទៃក្នុងប្រហែល 400 ដែលគ្រប់គ្រងដោយក្រុមវិស្វកម្មចំនួន 25 នៅទូទាំងប្រាំពីរតំបន់ AWS ។",
+    "ក្រុមហ៊ុនបានប្រើប្រាស់ AgentCore Gateway ដើម្បីបំប្លែង API ឯកជនទៅជាឧបករណ៍ភ្នាក់ងារដោយមិនបញ្ចេញទៅកាន់អ៊ីនធឺណិតសាធារណៈ។",
+    "ដំណោះស្រាយនេះបានជៀសវាងការដាក់ពង្រាយម៉ាស៊ីនបម្រើ Model Context Protocol (MCP) ច្រើនជាង 20 ។",
+    "ការបញ្ចូល API ថ្មីឥឡូវនេះចំណាយពេលត្រឹមតែប៉ុន្មានម៉ោងជំនួសឱ្យជាច្រើនថ្ងៃ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "MoEngage 如何使用 AgentCore Gateway 将 400 多个 API 转换为智能体工具",
+   "summary": "MoEngage 使用来自 Amazon Bedrock AgentCore 的 AgentCore Gateway，将其约 400 个内部私有 REST API 转换为权限受控的智能体工具，且无需将它们暴露到公共互联网。该公司跨越 25 个工程团队和 7 个 AWS 区域运作，避免了构建自定义的 Model Context Protocol (MCP) 服务器或复杂的每集成网络。这种方法为 MoEngage 节省了大约六个月的平台工程工作量，并将接入新 API 的时间从几天缩短至几小时。",
+   "impact": "管理私有 API 基础设施的安全团队和开发人员可以从集中化工具访问和服务器端授权中受益，而无需为每个团队构建自定义的 MCP 服务器。这种架构可能使组织能够在不引入公共端点或复杂网络配置的情况下安全地扩展智能体功能。",
+   "keyPoints": [
+    "MoEngage 拥有大约 400 个内部 REST API，由 7 个 AWS 区域中的 25 个工程团队构建。",
+    "该公司使用 AgentCore Gateway 将私有 API 转换为智能体工具，同时保持其在 VPC 内部私有运行。",
+    "该方案避免了部署和维护 20 多个单独的 Model Context Protocol (MCP) 服务器。",
+    "接入新 API 现在仅需数小时而非数天，节省了约六个月的平台工程工作量。"
+   ]
+  },
+  "ko": {
+   "title": "MoEngage가 AgentCore Gateway를 사용하여 400개 이상의 API를 에이전트 도구로 전환한 방법",
+   "summary": "MoEngage는 Amazon Bedrock AgentCore의 AgentCore Gateway를 사용하여 약 400개의 내부 비공개 REST API를 공개 인터넷에 노출하지 않고 권한이 제한된 에이전트 도구로 변환했습니다. 25개의 엔지니어링 팀과 7개의 AWS 리전에 걸쳐 운영되는 이 회사는 개별 모델 컨텍스트 프로토콜(MCP) 서버를 구축하거나 복잡한 통합별 네트워킹을 구성하는 것을 피했습니다. 이 접근 방식으로 플랫폼 엔지니어링 노력을 약 6개월간 절감했으며, 새로운 API 온보딩 시간이 수일에서 수 시간으로 단축되었습니다.",
+   "impact": "비공개 API 인프라를 관리하는 보안 팀과 개발자는 팀마다 사용자 지정 MCP 서버를 구축하는 대신 도구 액세스 및 권한 부여를 서버 측에서 중앙화하는 이점을 얻을 수 있습니다. 이 아키텍처는 조직이 공개 엔드포인트나 복잡한 통합별 네트워크를 추가하지 않고도 에이전트 기능을 안전하게 확장할 수 있도록 지원할 수 있습니다.",
+   "keyPoints": [
+    "MoEngage에는 7개의 AWS 리전에서 25개의 엔지니어링 팀이 구축한 약 400개의 내부 REST API가 있습니다.",
+    "회사는 비공개 API를 공개 인터넷에 노출하지 않고 에이전트 도구로 전환하기 위해 AgentCore Gateway를 사용했습니다.",
+    "이 솔루션을 통해 20개가 넘는 개별 모델 컨텍스트 프로토콜(MCP) 서버 배포를 피할 수 있었습니다.",
+    "새로운 API를 온보딩하는 데 소요되는 시간이 수일에서 수 시간으로 단축되었습니다."
+   ]
+  }
+ }
+}

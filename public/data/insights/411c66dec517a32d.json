@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "411c66dec517a32d",
+ "contentHash": "ecbd2c226b29d919",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T17:11:02.577Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Unlocking Tensor Core Performance for Machine Learning Interatomic Potentials",
+   "summary": "Atomistic simulations help researchers understand molecular and material behaviors such as chemical reactions, phase transitions, and mechanical failure. These simulations traditionally involve a cost-accuracy trade-off. While quantum-mechanical methods like density functional theory offer high accuracy, their computational costs limit their use for large systems or long simulations.",
+   "impact": "This development could help researchers overcome computational cost limits when performing atomistic simulations for large systems or long durations. Technology users and developers working with machine learning interatomic potentials may see improved performance.",
+   "keyPoints": [
+    "Atomistic simulations help researchers understand molecular and material behaviors.",
+    "Simulations currently face a trade-off between cost and accuracy.",
+    "Density functional theory provides accurate energies and forces but has high computational costs."
+   ]
+  },
+  "km": {
+   "title": "ការដោះសោសមត្ថភាព Tensor Core សម្រាប់សក្តានុពលអន្តរអាតូមរៀនដោយម៉ាស៊ីន",
+   "summary": "ការក្លែងធ្វើអាតូមិកជួយអ្នកស្រាវជ្រាវឱ្យយល់ពីរបៀបដែលម៉ូលេគុល និងវត្ថុធាតុមានឥរិយាបថ ដូចជាប្រតិកម្មគីមី ការផ្លាស់ប្តូរដំណាក់កាល និងការបរាជ័យមេកានិច។ ការក្លែងធ្វើទាំងនេះមានការសម្របសម្រួលរវាងការចំណាយ និងភាពត្រឹមត្រូវ។ វិធីសាស្ត្រមេកានិចកង់ទិចអាចផ្តល់ថាមពល និងកម្លាំងត្រឹមត្រូវ ប៉ុន្តែការចំណាយលើការគណនារបស់ពួកគេច្រើនតែកម្រិតការប្រើប្រាស់របស់វា។",
+   "impact": "ការអភិវឌ្ឍន៍នេះអាចជួយអ្នកស្រាវជ្រាវយកឈ្នះលើដែនកំណត់នៃការចំណាយលើការគណនាក្នុងអំឡុងពេលក្លែងធ្វើអាតូមិក។ អ្នកអភិវឌ្ឍន៍អាចទទួលបាននូវដំណើរការប្រសើរជាងមុនពេលធ្វើការជាមួយសក្តានុពលអន្តរអាតូមរៀនដោយម៉ាស៊ីន។",
+   "keyPoints": [
+    "ការក្លែងធ្វើអាតូមិកជួយយល់ដឹងពីឥរិយាបថម៉ូលេគុល និងវត្ថុធាតុ។",
+    "ការក្លែងធ្វើមានតុល្យភាពរវាងតម្លៃ និងភាពត្រឹមត្រូវ។",
+    "វិធីសាស្ត្រមេកានិចកង់ទិចមានតម្លៃគណនាខ្ពស់សម្រាប់ប្រព័ន្ធធំៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "释放用于机器学习原子间势的 Tensor Core 性能",
+   "summary": "原子模拟帮助研究人员了解分子和材料的行为，包括化学反应、相变和机械失效。这些模拟在成本和准确性之间存在权衡。诸如密度泛函理论等量子力学方法可以提供准确的能量和力，但其计算成本往往限制了其在大系统或长时间模拟中的使用。",
+   "impact": "这一进展可能帮助研究人员在对大型系统或进行长时间模拟时克服计算成本限制。从事机器学习原子间势的技术用户和开发人员可能会看到性能的提升。",
+   "keyPoints": [
+    "原子模拟帮助研究人员了解分子和材料的行为。",
+    "模拟伴随着成本与准确性的权衡。",
+    "密度泛函理论计算成本高，限制了大系统的使用。"
+   ]
+  },
+  "ko": {
+   "title": "머신러닝 원자 간 포텐셜을 위한 Tensor Core 성능 잠금 해제",
+   "summary": "원자 시뮬레이션은 연구자들이 화학 반응, 상 변이, 기계적 파손 등 분자와 물질의 거동을 이해하는 데 도움을 줍니다. 이러한 시뮬레이션은 비용과 정확성 사이의 절충안을 수반합니다. 밀도 범함수 이론과 같은 양자역학적 방법은 정확한 에너지와 힘을 제공할 수 있지만, 높은 계산 비용으로 인해 대규모 시스템이나 장기 시뮬레이션에서의 사용이 제한됩니다.",
+   "impact": "이러한 발전은 연구자들이 대규모 시스템이나 장기 시뮬레이션을 수행할 때 계산 비용 한계를 극복하는 데 도움을 줄 수 있습니다. 머신러닝 원자 간 포텐셜을 다루는 기술 사용자 및 개발자는 향상된 성능을 경험할 수 있습니다.",
+   "keyPoints": [
+    "원자 시뮬레이션은 분자와 물질의 거동 이해를 돕습니다.",
+    "시뮬레이션은 비용과 정확성 간의 절충안을 가집니다.",
+    "밀도 범함수 이론은 정확하지만 계산 비용이 높습니다."
+   ]
+  }
+ }
+}

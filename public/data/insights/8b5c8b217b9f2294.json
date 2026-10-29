@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8b5c8b217b9f2294",
+ "contentHash": "8cc43acae7fb5fa7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T17:03:50.640Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS",
+   "summary": "NVIDIA Nemotron 3.5 Super VL is now available on AWS, joining other Nemotron models. It is a 120B-parameter mixture-of-experts model activating 12B parameters per token, combining reasoning and tool use with text, image, document, and video understanding. The model can be deployed on Amazon EKS, Amazon EKS Auto Mode, and Amazon SageMaker HyperPod EKS using reference implementations and infrastructure such as Amazon FSx for Lustre and Elastic Fabric Adapter.",
+   "impact": "Developers and technology users building agentic workflows may use this deployment guide to run multimodal AI models on AWS infrastructure. Security teams and developers utilizing the model for tasks like vulnerability identification and threat triage can benefit from its capabilities while maintaining control over their environment.",
+   "keyPoints": [
+    "NVIDIA Nemotron 3.5 Super VL features 120B total parameters and activates 12B parameters per token.",
+    "It supports text, image, document, and video inputs with a context length of up to 1M tokens.",
+    "The architecture uses a hybrid Mamba-Transformer MoE design and a RADIO vision encoder.",
+    "Deployment is supported on Amazon EKS, Amazon EKS Auto Mode, and Amazon SageMaker HyperPod EKS."
+   ]
+  },
+  "km": {
+   "title": "បង្កើនល្បឿន AI ភ្នាក់ងារជាមួយម៉ូដែល NVIDIA Nemotron នៅលើ Amazon EKS និង SageMaker HyperPod EKS",
+   "summary": "NVIDIA Nemotron 3.5 Super VL ឥឡូវនេះមាននៅលើ AWS ដោយចូលរួមជាមួយម៉ូដែល Nemotron ផ្សេងទៀត។ វាគឺជាម៉ូដែល mixture-of-experts ទំហំ 120B ដែលធ្វើឱ្យប៉ារ៉ាម៉ែត្រ 12B សកម្មក្នុងមួយថូខឹន និងរួមបញ្ចូលគ្នានូវការសន្និដ្ឋាន ការប្រើប្រាស់ឧបករណ៍ ជាមួយនឹងការយល់ដឹងពីអត្ថបទ រូបភាព ឯកសារ និងវីដេអូ។ ម៉ូដែលនេះអាចដាក់ពង្រាយនៅលើ Amazon EKS, Amazon EKS Auto Mode និង Amazon SageMaker HyperPod EKS។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលបង្កើតដំណើរការការងារ AI ភ្នាក់ងារ អាចប្រើប្រាស់មគ្គុទ្ទេសក៍ដាក់ពង្រាយនេះដើម្បីដំណើរការម៉ូដែល AI ពហុមាត្រដ្ឋាននៅលើហេដ្ឋារចនាសម្ព័ន្ធ AWS។ ក្រុមសន្តិសុខអាចទទួលបានអត្ថប្រយោជន៍ពីសមត្ថភាពរបស់វាក្នុងការកំណត់អត្តសញ្ញាណភាពងាយរងគ្រោះ ខណៈពេលដែលរក្សាបាននូវការគ្រប់គ្រងលើបរិស្ថានរបស់ពួកគេ។",
+   "keyPoints": [
+    "NVIDIA Nemotron 3.5 Super VL មានប៉ារ៉ាម៉ែត្រសរុប 120B និងប៉ារ៉ាម៉ែត្រសកម្ម 12B ក្នុងមួយថូខឹន។",
+    "វាគាំទ្រការបញ្ចូលអត្ថបទ រូបភាព ឯកសារ និងវីដេអូ ដែលមានប្រវែងបរិបទរហូតដល់ 1M ថូខឹន។",
+    "ស្ថាបត្យកម្មនេះប្រើប្រាស់ការរចនា Mamba-Transformer MoE កូនកាត់ និងអ៊ិនកូឌ័រទស្សនៈ RADIO។",
+    "ការដាក់ពង្រាយត្រូវបានគាំទ្រនៅលើ Amazon EKS, Amazon EKS Auto Mode និង Amazon SageMaker HyperPod EKS។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在 Amazon EKS 和 SageMaker HyperPod EKS 上使用 NVIDIA Nemotron 模型加速智能体 AI",
+   "summary": "NVIDIA Nemotron 3.5 Super VL 现已登陆 AWS，加入了现有的 Nemotron 模型阵列。它是一个拥有 1200 亿参数的混合专家（MoE）模型，每个 token 激活 120 亿参数，结合了推理、工具使用以及文本、图像、文档和视频理解能力。该模型可以部署在 Amazon EKS、Amazon EKS Auto Mode 以及 Amazon SageMaker HyperPod EKS 上。",
+   "impact": "构建智能体工作流的开发者和技术用户可以利用此部署指南在 AWS 基础设施上运行多模态 AI 模型。利用该模型进行漏洞识别和威胁分类的安全团队和开发者可以在维持对其环境控制的同时获益。",
+   "keyPoints": [
+    "NVIDIA Nemotron 3.5 Super VL 拥有 1200 亿总参数，每个 token 激活 120 亿参数。",
+    "它支持文本、图像、文档和视频输入，上下文长度最高可达 1M token。",
+    "该模型采用混合 Mamba-Transformer MoE 架构和 RADIO 视觉编码器。",
+    "支持在 Amazon EKS、Amazon EKS Auto Mode 和 Amazon SageMaker HyperPod EKS 上进行部署。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon EKS 및 SageMaker HyperPod EKS에서 NVIDIA Nemotron 모델로 에이전트 AI 가속화",
+   "summary": "NVIDIA Nemotron 3.5 Super VL이 AWS에 새롭게 추가되었습니다. 이 모델은 120B 파라미터 혼합 전문가(MoE) 모델로 토큰당 12B 파라미터를 활성화하며, 추론 및 도구 사용을 텍스트, 이미지, 문서, 비디오 이해와 결합합니다. 이 모델은 Amazon EKS, Amazon EKS Auto Mode 및 Amazon SageMaker HyperPod EKS에 배포할 수 있습니다.",
+   "impact": "에이전트 워크플로우를 구축하는 개발자와 기술 사용자는 이 배포 가이드를 활용하여 AWS 인프라에서 멀티모달 AI 모델을 실행할 수 있습니다. 취약점 식별 및 위협 분류와 같은 작업에 모델을 활용하는 보안 팀과 개발자는 환경에 대한 제어를 유지하면서 그 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "NVIDIA Nemotron 3.5 Super VL은 총 120B 파라미터를 가지며 토큰당 12B를 활성화합니다.",
+    "텍스트, 이미지, 문서, 비디오 입력을 지원하며 최대 1M 토큰의 컨텍스트 길이를 제공합니다.",
+    "하이브리드 Mamba-Transformer MoE 아키텍처와 RADIO 비전 인코더를 사용합니다.",
+    "Amazon EKS, Amazon EKS Auto Mode 및 Amazon SageMaker HyperPod EKS에서의 배포를 지원합니다."
+   ]
+  }
+ }
+}
