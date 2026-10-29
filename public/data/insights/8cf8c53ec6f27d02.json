@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8cf8c53ec6f27d02",
+ "contentHash": "7c11b1e58e7d141d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:38:16.342Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Timestral",
+   "summary": "Researchers have introduced Timestral, a family of four time series foundation models for probabilistic forecasting with parameter sizes ranging from 5M to 209M. The models achieve a new state of the art on GIFT-Eval, TIME, and fev-bench benchmarks, with the 209M and 123M versions securing the top two spots across every metric. The approach combines Decoupled Horizon Forecasting, a native covariate framework, and a two-stage pretraining and post-training pipeline using synthetic and real data. Model weights and inference code have been released on Hugging Face and GitHub.",
+   "impact": "Developers and researchers working on time series forecasting could leverage these open-source models for improved probabilistic predictions. The availability of weights and code on Hugging Face and GitHub may facilitate immediate testing and integration into forecasting pipelines.",
+   "keyPoints": [
+    "Timestral consists of four models with 5M, 28M, 123M, and 209M parameters.",
+    "The models achieved top results on GIFT-Eval, TIME, and fev-bench.",
+    "Key innovations include Decoupled Horizon Forecasting and a two-stage training pipeline.",
+    "Model weights are available on Hugging Face and inference code is on GitHub."
+   ]
+  },
+  "km": {
+   "title": "Timestral",
+   "summary": "អ្នកស្រាវជ្រាវបានដាក់បង្ហាញ Timestral ដែលជាក្រុមគ្រួសារនៃគំរូគ្រឹះស៊េរីពេលវេលាចំនួនបួនសម្រាប់ការទស្សន៍ទាយប្រូបាប៊ីលីតេ ដែលមានទំហំប៉ារ៉ាម៉ែត្រចាប់ពី 5M ដល់ 209M។ គំរូទាំងនេះទទួលបានកម្រិតខ្ពស់ថ្មីនៅលើការវាយតម្លៃ GIFT-Eval, TIME និង fev-bench ដោយកំណែ 209M និង 123M ទទួលបានចំណាត់ថ្នាក់កំពូលទាំងពីរលើរាល់រង្វាស់។ វិធីសាស្ត្រនេះរួមបញ្ចូលការទស្សន៍ទាយផ្តាច់ព្រំមេឃ និងបំពង់បង្ហូរការបណ្តុះបណ្តាលពីរដំណាក់កាល។ ទម្ងន់គំរូ និងកូដត្រូវបានដាក់ឱ្យប្រើប្រាស់នៅលើ Hugging Face និង GitHub។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវដែលធ្វើការលើការទស្សន៍ទាយស៊េរីពេលវេលាអាចប្រើប្រាស់គំរូប្រភពបើកចំហទាំងនេះសម្រាប់ការទស្សន៍ទាយប្រូបាប៊ីលីតោកាន់តែប្រសើរ។ ការមានទម្ងន់គំរូ និងកូដនៅលើ Hugging Face និង GitHub អាចជួយសម្រួលដល់ការធ្វើតេស្ត និងការរួមបញ្ចូលភ្លាមៗ។",
+   "keyPoints": [
+    "Timestral មានគំរូចំនួនបួនដែលមានប៉ារ៉ាម៉ែត្រ 5M, 28M, 123M និង 209M។",
+    "គំរូទាំងនេះទទួលបានលទ្ធផលកំពូលនៅលើ GIFT-Eval, TIME និង fev-bench។",
+    "ការច្នៃប្រឌិតសំខាន់ៗរួមមាន Decoupled Horizon Forecasting និងបំពង់បង្ហូរការបណ្តុះបណ្តាលពីរដំណាក់កាល។",
+    "ទម្ងន់គំរូមាននៅលើ Hugging Face ហើយកូដសន្និដ្ឋានគឺនៅលើ GitHub។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Timestral",
+   "summary": "研究人员推出了 Timestral，这是一个由四个用于概率预测的时间序列基础模型组成的系列，参数量分别为 5M、28M、123M 和 209M。这些模型在 GIFT-Eval、TIME 和 fev-bench 上创下了最新的先进水平，其中 Timestral-209M 和 Timestral-123M 在各项指标上均占据前两名。该方法结合了解耦预测视界、原生协变量框架以及使用合成和真实数据的两阶段训练管道。模型权重和推理代码已分别在 Hugging Face 和 GitHub 上发布。",
+   "impact": "从事时间序列预测的开发人员和研究人员可以利用这些开源模型来获得更好的概率预测效果。在 Hugging Face 和 GitHub 上提供模型权重和代码，可能有助于进行直接测试和集成到预测流程中。",
+   "keyPoints": [
+    "Timestral 包含参数量为 5M、28M、123M 和 209M 的四个模型。",
+    "这些模型在 GIFT-Eval、TIME 和 fev-bench 上取得了顶级结果。",
+    "核心创新包括解耦预测视界和两阶段训练管道。",
+    "模型权重可在 Hugging Face 上获取，推理代码可在 GitHub 上获取。"
+   ]
+  },
+  "ko": {
+   "title": "Timestral",
+   "summary": "연구진은 확률적 예측을 위한 네 가지 시계열 파운데이션 모델 패밀리인 Timestral을 발표했으며, 파라미터 크기는 5M, 28M, 123M, 209M입니다. 이 모델들은 GIFT-Eval, TIME, fev-bench에서 새로운 최고 수준을 달성했으며, Timestral-209M과 Timestral-123M이 모든 지표에서 상위 두 자리를 차지했습니다. 이 접근 방식은 디커플드 호라이즌 예측, 고유 공변량 프레임워크, 그리고 합성 및 실제 데이터를 사용하는 2단계 훈련 파이프라인을 결합합니다. 모델 가중치와 추론 코드는 Hugging Face와 GitHub에 공개되어 있습니다.",
+   "impact": "시계열 예측을 연구하는 개발자와 연구원들은 향상된 확률적 예측을 위해 이 오픈소스 모델들을 활용할 수 있습니다. Hugging Face와 GitHub에서 모델 가중치와 코드를 사용할 수 있으므로 즉각적인 테스트와 예측 파이프라인 통합이 용이해질 수 있습니다.",
+   "keyPoints": [
+    "Timestral은 5M, 28M, 123M, 209M 파라미터를 가진 네 개의 모델로 구성됩니다.",
+    "이 모델들은 GIFT-Eval, TIME, fev-bench에서 최고 성적을 달성했습니다.",
+    "핵심 혁신에는 디커플드 호라이즌 예측과 2단계 훈련 파이프라인이 포함됩니다.",
+    "모델 가중치는 Hugging Face에서, 추론 코드는 GitHub에서 제공됩니다."
+   ]
+  }
+ }
+}

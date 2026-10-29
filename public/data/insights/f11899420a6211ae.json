@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f11899420a6211ae",
+ "contentHash": "6e074546a2649945",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:33:38.676Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Announcing the AWS Marketplace and Amazon Business unified storefront",
+   "summary": "AWS Marketplace and Amazon Business have announced a unified storefront, combining software, data, and AI tools with physical goods and supplies into a single curated catalog. Administrators can connect their organization's Amazon Business account, import products into their branded storefront, and set governance rules that apply to both catalogs. Purchases for AWS Marketplace listings complete directly within the storefront and appear on the AWS invoice, while buyers selecting Amazon Business products are seamlessly directed to an authenticated cart via single sign-on. The new connector is available across all AWS Regions where AWS Marketplace operates for eligible storefront customers.",
+   "impact": "This unified storefront could streamline procurement processes for organizations by reducing duplicated approval workflows and separate reporting. It may simplify purchasing management for developers and IT teams who acquire both digital software and physical supplies.",
+   "keyPoints": [
+    "Combines AWS Marketplace offerings with Amazon Business physical goods into one catalog.",
+    "Administrators can set governance rules once to apply across both catalogs.",
+    "AWS Marketplace purchases complete directly on the AWS invoice.",
+    "Single sign-on links Amazon Business product selections to an authenticated cart."
+   ]
+  },
+  "km": {
+   "title": "ការប្រកាសអំពីហាងទំនិញរួមបញ្ចូលគ្នារវាង AWS Marketplace និង Amazon Business",
+   "summary": "AWS Marketplace និង Amazon Business បានប្រកាសអំពីហាងទំនិញរួមបញ្ចូលគ្នា ដែលដាក់បញ្ចូលគ្នានូវកម្មវិធី ទិន្នន័យ និងឧបករណ៍ AI ជាមួយនឹងទំនិញរូបវន្តនៅក្នុងកាតាឡុកតែមួយ។ អ្នកគ្រប់គ្រងអាចភ្ជាប់គណនី Amazon Business នាំចូលទំនិញ និងកំណត់ច្បាប់អភិបាលកិច្ចដែលអនុវត្តលើកាតាឡុកទាំងពីរ។ ការទិញនៅលើ AWS Marketplace បញ្ចប់ដោយផ្ទាល់នៅក្នុងហាង និងបង្ហាញនៅលើវិក្កយបត្រ AWS ខណៈពេលដែលការជ្រើសរើសទំនិញ Amazon Business ប្រើប្រាស់ការចុះឈ្មោះចូលតែមួយ។",
+   "impact": "វាអាចជួយសម្រួលដល់ដំណើរការលទ្ធកម្មសម្រាប់អង្គភាពដោយកាត់បន្ថយការស្ទួនគ្នានៃការយល់ព្រម និងរបាយការណ៍ដាច់ដោយឡែកពីគ្នា។",
+   "keyPoints": [
+    "ដាក់បញ្ចូលសេវាកម្ម AWS Marketplace និងទំនិញ Amazon Business ចូលក្នុងកាតាឡុកតែមួយ។",
+    "អ្នកគ្រប់គ្រងអាចកំណត់ច្បាប់អភិបាលកិច្ចតែមួយសម្រាប់កាតាឡុកទាំងពីរ។",
+    "ការទិញ AWS Marketplace បង្ហាញនៅលើវិក្កយបត្រ AWS។"
+   ]
+  },
+  "zh-CN": {
+   "title": "宣布推出 AWS Marketplace 与 Amazon Business 统一店面",
+   "summary": "AWS Marketplace 和 Amazon Business 宣布推出统一店面，将来自 AWS Marketplace 的软件、数据和 AI 工具与来自 Amazon Business 的实体商品和物资放在一个精心策划的目录中。组织现在可以为团队提供一个单一的采购入口，管理员可以设置适用于两个目录的通用治理规则。AWS Marketplace 的采购可直接在店面中完成并显示在 AWS 发票上，而选择 Amazon Business 产品的买家则可以通过单点登录无缝进入购物车。",
+   "impact": "这一统一店面可以帮助采购团队减少重复的审批规则和独立报告，从而简化企业的采购管理流程。",
+   "keyPoints": [
+    "将 AWS Marketplace 列表与 Amazon Business 实物商品整合到一个目录中。",
+    "管理员只需设置一次治理规则，即可应用于两个目录。",
+    "AWS Marketplace 的购买操作直接在店面完成并列入 AWS 发票。",
+    "通过单点登录将买家带入已验证的 Amazon Business 购物车。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Marketplace 및 Amazon Business 통합 스토어프론트 발표",
+   "summary": "AWS Marketplace와 Amazon Business가 AWS Marketplace의 소프트웨어, 데이터 및 AI 도구를 Amazon Business의 실물 상품 및 물품과 결합하는 통합 스토어프론트를 발표했습니다. 조직은 이제 두 카탈로그에 모두 적용되는 거버넌스 규칙을 설정하고 하나의 큐레이션된 카탈로그를 팀에 제공할 수 있습니다. AWS Marketplace 구매는 스토어프론트에서 직접 완료되어 AWS 인보イス에 표시되며, Amazon Business 상품을 선택한 구매자는 단일 로그인(SSO)을 통해 인증된 카트로 이동합니다.",
+   "impact": "이 통합 스토어프론트는 중복되는 승인 규칙과 별도의 보고 관리를 줄여 조직의 조달 프로세스를 간소화할 수 있습니다.",
+   "keyPoints": [
+    "AWS Marketplace 항목과 Amazon Business 상품을 단일 카탈로그로 통합합니다.",
+    "관리자가 거버넌스 규칙을 한 번만 설정하면 두 카탈로그 모두에 적용됩니다.",
+    "AWS Marketplace 구매는 스토어프론트에서 직접 완료되고 AWS 인보イス에 나타납니다.",
+    "단일 로그인을 통해 Amazon Business 카트에 쉽게 접근할 수 있습니다."
+   ]
+  }
+ }
+}

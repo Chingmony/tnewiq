@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9764cff4daa03134",
+ "contentHash": "757f9f59ca8e80ac",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:41:31.221Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "The Structure Gap: When More Data Cannot Replace Structured Reasoning",
+   "summary": "A new research paper examines the limitation of the belief that large amounts of data can replace explicit domain knowledge in AI. The authors define structure-encoded problems where tasks are sharply constrained by known structure and introduce the structure gap, which represents the finite-resource gap between methods receiving governing structure versus those receiving only examples. Through theoretical proofs and controlled experiments in inversion, sparse recovery, and graph reachability, the paper demonstrates that finite datasets leave residual uncertainty that structure resolves.",
+   "impact": "This research could impact developers and technology users by showing that relying solely on more data and structure-agnostic learning may leave persistent excess risk. When validated structure is available, it may be used to constrain the hypothesis space before learning begins.",
+   "keyPoints": [
+    "Defines structure-encoded problems constrained by known structure such as solvers, physical laws, or graphs.",
+    "Introduces the structure gap as the finite-resource gap between structured methods and data-only learners.",
+    "Proves the concept using a Gaussian inverse problem, cell-coverage lower bounds, and unobserved-orbit non-identifiability.",
+    "Shows that validated structure can constrain the hypothesis space before learning begins."
+   ]
+  },
+  "km": {
+   "title": "គម្លាតរចនាសម្ព័ន្ធ៖ នៅពេលដែលទិន្នន័យកាន់តែច្រើនមិនអាចជំនួសការសន្និដ្ឋានដែលមានរចនាសម្ព័ន្ធ",
+   "summary": "ឯកសារស្រាវជ្រាវថ្មីមួយបានពិនិត្យមើលដែនកំណត់នៃការជឿជាក់ថា ទិន្នន័យចំនួនច្រើនអាចជំនួសចំណេះដឹងផ្នែកជាក់លាក់នៅក្នុង AI ។ អ្នកនិពន្ធបានកំណត់បញ្ហាដែលបានអ៊ិនកូដតាមរចនាសម្ព័ន្ធ និងបានណែនាំគម្លាតរចនាសម្ព័ន្ធ ដែលបង្ហាញពីគម្លាតធនធានកំណត់រវាងវិធីសាស្ត្រដែលទទួលបានរចនាសម្ព័ន្ធ និងវិធីសាស្ត្រដែលទទួលបានតែឧទាហរណ៍ប៉ុណ្ណោះ។ តាមរយៈការបញ្ជាក់ទ្រឹស្តី និងការពិសោធន៍ បានបង្ហាញថាชุดទិន្នន័យកំណត់បន្សល់ទុកនូវភាពមិនប្រាកដប្រជាដែលរចនាសម្ព័ន្ធអាចដោះស្រាយបាន។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជះឥទ្ធិពលដល់អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យា ដោយបង្ហាញថាការផ្អែកលើតែទិន្នន័យច្រើនអាចបន្សល់ទុកនូវហានិភ័យលើសកំណត់។ នៅពេលដែលមានរចនាសម្ព័ន្ធត្រឹមត្រូវ វាអាចត្រូវបានប្រើដើម្បីកំណត់ដែនកំណត់នៃសម្មតិកម្មមុនពេលការរៀនចាប់ផ្តើម។",
+   "keyPoints": [
+    "កំណត់បញ្ហាដែលបានអ៊ិនកូដតាមរចនាសម្ព័ន្ធដូចជាកូដដោះស្រាយ ឬច្បាប់រូបវិទ្យា។",
+    "ណែនាំគម្លាតរចនាសម្ព័ន្ធដែលជាគម្លាតធនធានកំណត់រវាងវិធីសាស្ត្រមានរចនាសម្ព័ន្ធ និងអ្នករៀនទិន្នន័យសុទ្ធសាធ។",
+    "បញ្ជាក់ទ្រឹស្តីតាមរយៈបញ្ហាผกผัน Gaussian និងដែនកំណត់នៃការគ្របដណ្តប់កោសិកា។",
+    "បង្ហាញថារចនាសម្ព័ន្ធដែលបានត្រួតពិនិត្យអាចកំណត់លំហសម្មតិកម្មមុនពេលការរៀនចាប់ផ្តើម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "结构鸿沟：为什么更多的数据无法取代结构化推理",
+   "summary": "一篇新的研究论文探讨了认为足够多的数据可以取代AI中显式领域知识这一信念的局限性。作者定义了由已知结构（如求解器、对称群或物理定律）严格约束的结构编码问题，并引入了结构鸿沟的概念，即接收控制结构的方法与仅接收示例的学习者之间的有限资源差距。通过理论证明和受控实验，该论文证明了有限数据集会留下可以通过结构解决的残余不确定性。",
+   "impact": "这项研究可能会影响开发人员和技术用户，因为它表明仅依赖更多的数据和无结构学习可能会留下持续的超额风险。当验证过的结构可用时，它可以在学习开始之前用来约束假设空间。",
+   "keyPoints": [
+    "定义了由求解器、物理定律或图等已知结构约束的结构编码问题。",
+    "引入了结构鸿沟，作为结构化方法与仅有数据的学习者之间的有限资源差距。",
+    "通过高斯逆问题、单元覆盖下界和未观察轨道不可识别性证明了该概念。",
+    "表明已验证的结构可以在学习开始前约束假设空间。"
+   ]
+  },
+  "ko": {
+   "title": "구조적 간격: 더 많은 데이터가 구조화된 추론을 대체할 수 없는 경우",
+   "summary": "새로운 연구 논문은 충분히 많은 데이터로 학습된 대규모 학습기가 AI에서 명시적 도메인 지식을 선택 사항으로 만들 수 있다는 믿음의 한계를 검사합니다. 저자들은 솔버, 물리 법칙 또는 그래프와 같은 알려진 구조에 의해 결정되거나 엄격하게 제한되는 작업인 구조 인코딩 문제를 정의하고, 지배 구조를 받는 방법과 예제만 받는 학습자 간의 유한 자원 간격인 구조적 간격을 소개합니다. 이론적 증명과 통제된 실험을 통해 이 논문은 유한 데이터 세트가 구조가 해결하는 잔류 불확실성을 남긴다는 것을 보여줍니다.",
+   "impact": "이 연구는 개발자와 기술 사용자에게 더 많은 데이터와 구조에 구애받지 않는 학습에만 의존하는 것이 지속적인 초과 위험을 남길 수 있음을 보여줌으로써 영향을 미칠 수 있습니다. 검증된 구조를 사용할 수 있는 경우, 학습이 시작되기 전에 가설 공간을 제한하는 데 사용될 수 있습니다.",
+   "keyPoints": [
+    "솔버, 대칭 그룹, 그래프 또는 물리 법칙과 같은 알려진 구조로 제한되는 구조 인코딩 문제를 정의합니다.",
+    "구조적 방법과 데이터 전용 학습자 사이의 유한 자원 간격으로 구조적 간격을 소개합니다.",
+    "가우스 역문제, 셀 커버리지 하한, 관찰되지 않은 궤도 식별 불가능성을 사용하여 이를 증명합니다.",
+    "검증된 구조가 학습이 시작되기 전에 가설 공간을 제한할 수 있음을 보여줍니다."
+   ]
+  }
+ }
+}

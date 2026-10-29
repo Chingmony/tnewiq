@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "25c9b5514979e525",
+ "contentHash": "ed618524896368c7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:40:25.856Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Collective Dynamics of Self-Reinforcement: How Cross-Task Coupling Drives Policy Collapse in Unsupervised RLVR",
+   "summary": "Label-free reinforcement learning with verifiable rewards (RLVR) initially improves language model reasoning, but eventually collapses when training uses many problems. The authors explain this dataset-size dependence as a collective instability where shared parameters amplify perturbations while problems are still uncertain. Through a solvable model and simulations, they identify a critical number of problems and show that removing the shared direction prevents collapse entirely.",
+   "impact": "This research could help developers and researchers better understand and prevent policy collapse in unsupervised reinforcement learning with verifiable rewards. By identifying the critical role of dataset size and shared coupling, security teams and developers may be able to design more stable training strategies for language models.",
+   "keyPoints": [
+    "Label-free RLVR can lead to model collapse where accuracy falls and the model gives the same answer to every problem.",
+    "The collapse occurs as a collective instability driven by cross-task coupling when training uses many problems.",
+    "A critical number of problems determines when the shared mode outpaces per-problem sharpening.",
+    "Removing the shared direction in a small Transformer prevents collapse entirely."
+   ]
+  },
+  "km": {
+   "title": "សក្ដានុពលសមូហភាពនៃការបញ្ជាក់ដោយខ្លួនឯង៖ របៀបដែលការភ្ជាប់ភារកិច្ចឆ្លងគ្នាបណ្ដាលឱ្យមានការដួលរលំគោលនយោបាយនៅក្នុង Unsupervised RLVR",
+   "summary": "ការរៀនពង្រឹងដោយគ្មានស្លាកជាមួយរង្វាន់ដែលអាចផ្ទៀងផ្ទាត់បាន (RLVR) ដំបូងឡើយជួយកែលម្អការផ្ទៀងផ្ទាត់របស់ភាសាម៉ូដែល ប៉ុន្តែទីបំផុតវាបានដួលរលំនៅពេលដែលការបណ្តុះបណ្តាលប្រើប្រាស់បញ្ហាជាច្រើន។ អ្នកស្រាវជ្រាវបានពន្យល់ពីការពឹងផ្អែកលើទំហំទិន្នន័យនេះថាជាអស្ថិរភាពសមូហភាព។ ការពិសោធន៍បានបង្ហាញថាការដកទិសដៅដែលបានចែករំលែកចេញ គឺអាចការពារការដួលរលំបានទាំងស្រុង។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍យល់ដឹងកាន់តែច្បាស់អំពីការដួលរលំគោលនយោបាយនៅក្នុង RLVR និងអាចជួយបង្កើតយុទ្ធសាស្ត្របណ្តុះបណ្តាលដែលមានស្ថេរភាពជាងមុន។",
+   "keyPoints": [
+    "RLVR ដែលគ្មានស្លាកអាចនាំឱ្យមានការដួលរលំម៉ូដែល ដែលភាពត្រឹមត្រូវធ្លាក់ចុះ។",
+    "ការដួលរលំកើតឡើងជាអស្ថិរភាពសមូហភាពដែលជំរុញដោយការភ្ជាប់ភារកិច្ចឆ្លងគ្នា។",
+    "ការដកទិសដៅរួមគ្នាចេញនៅក្នុង Transformer តូចមួយ អាចការពារការដួលរលំបានទាំងស្រុង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "自增强的集体动力学：跨任务耦合如何驱动无监督RLVR中的策略崩塌",
+   "summary": "带有可验证奖励的无标签强化学习（RLVR）最初可以提高语言模型的推理能力，但在使用大量问题进行训练时最终会发生崩塌。作者将这种对数据集大小的依赖解释为一种集体不稳定性，即在问题仍不确定时，共享参数会放大扰动。通过可解模型和模拟，研究表明移除共享方向可以完全防止崩塌。",
+   "impact": "这项研究可以帮助开发人员和研究人员更好地理解和预防无监督RLVR中的策略崩塌。通过识别数据集大小和共享耦合的关键作用，技术人员或能为语言模型设计出更稳定的训练策略。",
+   "keyPoints": [
+    "无标签RLVR会导致模型崩塌，此时准确率下降且模型对每个问题给出相同的答案。",
+    "当使用大量问题训练时，崩塌表现为由跨任务耦合驱动的集体不稳定性。",
+    "关键问题数量决定了共享模式何时超过单问题锐化。",
+    "在小型Transformer中移除共享方向可以完全防止崩塌。"
+   ]
+  },
+  "ko": {
+   "title": "자기 강화의 집단적 역학: 교차 태스크 결합이 비지도 RLVR에서 정책 붕괴를 유발하는 방식",
+   "summary": "검증 가능한 보상이 있는 무라벨 강화 학습(RLVR)은 언어 모델의 추론 능력을 처음에는 향상시키지만, 많은 문제를 사용하여 학습할 경우 결국 붕괴합니다. 저자들은 이 데이터셋 크기 의존성을 문제들이 여전히 불확실할 때 공유된 매개변수가 교란을 증폭시키는 집단적 불안정성으로 설명합니다. 가해진 시뮬레이션을 통해 임계 문제 수를 확인하고 공유 방향을 제거하면 붕괴를 완전히 방지할 수 있음을 보여줍니다.",
+   "impact": "이 연구는 개발자와 연구자들이 비지도 RLVR에서의 정책 붕괴를 더 잘 이해하고 방지하는 데 도움을 줄 수 있습니다. 데이터셋 크기와 공유 결합의 중요한 역할을 파악함으로써, 기술 사용자와 팀들은 언어 모델을 위한 더 안정적인 학습 전략을 설계할 수 있을 것입니다.",
+   "keyPoints": [
+    "라벨이 없는 RLVR은 정확도가 떨어지고 모델이 모든 문제에 동일한 답변을 하게 되는 모델 붕괴로 이어질 수 있습니다.",
+    "붕괴는 많은 문제를 사용하여 학습할 때 교차 태스크 결합에 의해 발생하는 집단적 불안정성으로 나타납니다.",
+    "임계 문제 수는 공유 모드가 문제별 샤프닝을 능가하는 시점을 결정합니다.",
+    "소형 Transformer에서 공유 방향을 제거하면 붕괴가 완전히 방지됩니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a4bead04a6a0d40b",
+ "contentHash": "75d3b8cef582e1e2",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:41:05.785Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "GroundControl: Satellite-Conditioned Multi-View Diffusion for Reconstruction-Free Novel View Synthesis",
+   "summary": "Researchers introduce GroundControl, a new satellite-conditioned multi-view diffusion model designed for outdoor scene novel-view synthesis. The approach combines street-level input images with satellite images using cross-attention conditioning to prevent unrealistic spatial layouts during scene extrapolation. The method operates without 3D scene reconstruction, relying solely on posed street and satellite views. Experiments demonstrate that this model outperforms existing baselines in generating novel views, particularly when target views have minimal overlap with source views.",
+   "impact": "This method could help developers and researchers generate more realistic novel views of outdoor scenes from sparse image collections without performing 3D reconstruction. Security teams or technology users relying on spatial imaging may find improved accuracy in challenging extrapolation scenarios.",
+   "keyPoints": [
+    "GroundControl uses satellite images to condition multi-view diffusion models for outdoor scenes.",
+    "The model avoids unrealistic spatial layouts when synthesizing views outside input views.",
+    "It relies entirely on posed street and satellite views without using 3D scene reconstruction.",
+    "Experiments show it performs better than satellite-conditioned or street-view conditioned baselines."
+   ]
+  },
+  "km": {
+   "title": "GroundControl៖ ការ拡散ពហuទិដ្ឋភាពដែលគ្រប់គ្រងដោយរូបភាពផ្កាយរណបសម្រាប់ការសំយោគទិដ្ឋភាពថ្មីដោយមិនបាច់បង្កើតឡើងវិញ",
+   "summary": "អ្នកស្រាវជ្រាវได้ណែនាំ GroundControl ដែលជាម៉ូដែល拡散ពហuទិដ្ឋភាពថ្មីគ្រប់គ្រងដោយរូបភាពផ្កាយរណប សម្រាប់សំយោគទិដ្ឋភាពថ្មីនៃឈុតឆាកក្រៅអគារ។ វិធីសាស្ត្រនេះផ្សំរូបភាពបញ្ចូលកម្រិតផ្លូវថ្នល់ជាមួយរូបភាពផ្កាយរណបដោយប្រើការគ្រប់គ្រង cross-attention ដើម្បីការពារកុំឱ្យមានប្លង់លំហមិនប្រាកដប្រជា។ ម៉ូដែលនេះមិនប្រើការបង្កើតឈុតឆាក 3D ឡើងវិញទេ ប៉ុន្តែពឹងផ្អែកតែលើទិដ្ឋភាពផ្លូវថ្នល់និងផ្កាយរណបដែលមានទីតាំងប៉ុណ្ណោះ។ ការពិសោធន៍បានបង្ហាញថា ម៉ូដែលនេះដំណើរការបានល្អជាង baseline ដែលមានស្រាប់។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍បង្កើតទិដ្ឋភាពថ្មីៗនៃឈុតឆាកក្រៅអគារបានប្រាកដប្រជាជាងមុន ដោយមិនចាំបាច់ធ្វើការបង្កើត 3D ឡើងវិញឡើយ។",
+   "keyPoints": [
+    "GroundControl ប្រើរូបភាពផ្កាយរណបដើម្បីគ្រប់គ្រងម៉ូដែល拡散ពហuទិដ្ឋភាពសម្រាប់ឈុតឆាកក្រៅអគារ។",
+    "វាជៀសវាងប្លង់លំហមិនប្រាកដប្រជាពេលសំយោគទិដ្ឋភាពនៅក្រៅទិដ្ឋភាពបញ្ចូល។",
+    "វាមិនប្រើប្រាស់ការបង្កើតឈុតឆាក 3D ឡើងវិញទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "GroundControl：用于免重建新视角合成的卫星条件多视角扩散模型",
+   "summary": "研究人员推出了 GroundControl，这是一种用于室外场景新视角合成的新型卫星条件多视角扩散模型。该方法结合了街景输入图像与卫星图像，通过交叉注意力条件设置来防止场景外推时产生不切实际的空间布局。该模型不使用三维场景重建，仅依赖于已知位姿的街景和卫星视图。实验表明，该模型在生成新视角时优于现有的基线模型。",
+   "impact": "这种方法可以帮助开发者在没有三维重建的情况下，从稀疏图像集合中生成更逼真的室外场景新视角。依赖空间成像的技术用户可能会在具有挑战性的外推场景中获得更高的准确性。",
+   "keyPoints": [
+    "GroundControl 使用卫星图像来为室外场景的多视角扩散模型提供条件控制。",
+    "该模型避免了在合成输入视图之外的视角时出现不切实际的空间布局。",
+    "它完全依赖于已知位姿的街景和卫星视图，而不使用三维场景重建。",
+    "实验证明其性能优于卫星条件或街景条件基线模型。"
+   ]
+  },
+  "ko": {
+   "title": "GroundControl: 재구성 없는 새로운 뷰 합성을 위한 위성 조건부 다중 뷰 확산 모델",
+   "summary": "연구원들은 야외 장면의 새로운 뷰 합성을 위해 설계된 새로운 위성 조건부 다중 뷰 확산 모델인 GroundControl을 소개합니다. 이 접근 방식은 거리 수준의 입력 이미지와 위성 이미지를 교차 주의 조건화와 결합하여 장면 외삽 중에 비현실적인 공간 레이아웃이 발생하는 것을 방지합니다. 이 모델은 3D 장면 reconstruction을 사용하지 않으며 포즈가 지정된 거리 및 위성 뷰에만 의존합니다. 실험에 따르면 이 모델은 기존 기준선보다 새로운 뷰 생성에서 더 나은 성능을 보입니다.",
+   "impact": "이 방법은 개발자들이 3D 재구성 없이도 드문 이미지 컬렉션에서 야외Scene의 더 현실적인 새로운 뷰를 생성하는 데 도움이 될 수 있습니다. 공간 이미징을 사용하는 기술 사용자들은 까다로운 외삽 시나리오에서 향상된 정확도를 경험할 수 있습니다.",
+   "keyPoints": [
+    "GroundControl은 야외 장면을 위한 다중 뷰 확산 모델을 조건화하기 위해 위성 이미지를 사용합니다.",
+    "이 모델은 입력 뷰 외부의 뷰를 합성할 때 비현실적인 공간 레이아웃을 방지합니다.",
+    "3D 장면 reconstruction을 사용하지 않고 포즈가 지정된 거리 및 위성 뷰에만 의존합니다.",
+    "실험 결과 위성 조건부 또는 거리 뷰 조건부 기준선보다 우수한 성능을 보였습니다."
+   ]
+  }
+ }
+}

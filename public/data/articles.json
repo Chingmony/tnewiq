@@ -1,7 +1,56 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-28T23:15:28.251Z",
+ "generatedAt": "2026-10-29T02:30:43.789Z",
  "articles": [
+  {
+   "id": "d852a5ecf89552a4",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "Wails v3 正式发布：用 Go 写桌面应用，这次真的成熟了",
+   "originalUrl": "https://www.oschina.net/news/503284",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "2026 年 10 月 26 日，Wails 项目正式发布了 v3.0.0。距 2023 年 1 月第一个 alpha 版本发布，这个\"下一代版本\"打磨了近四年，如今终于摘掉了 alpha/beta 的帽子，进入正式可用状态。 对不熟悉 Wails 的读者简单介绍一下：Wails 是一个用 Go 构建桌面应用的框架，前端写 HTML/CSS/JS，后端写 Go，两者通过自动生成的绑定...",
+   "publishedAt": "2026-10-29T02:19:57.000Z",
+   "discoveredAt": "2026-10-29T02:30:43.789Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "d9ccdbee065d9bd9"
+  },
+  {
+   "id": "f7566aa101f59431",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "[AI리더의 서가] 하네스 엔지니어링으로 완성하는 에이전틱 AI",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216584",
+   "originalLanguage": "ko",
+   "originalDescription": "하네스 엔지니어링으로 완성하는 에이전틱 AI고돈호 | 한빛미디어2026년 10월 25일추천이유저자는 프롬프트 튜닝을 넘어 코드로 AI 모델을 제어하는 하네스 엔지니어링의 원리를 ReAct 패턴 직접 구현부터 보안, 배포까지 실전 프로젝트 3개를 통해 전달합니다. 안정적으로 작동하는 프로덕션 수준의 AI 에이전트 구축을 원하는 개발자에게 필수적인 내용을 담고 있습니다.상세보기 이달 6일 국회 과학기술정보방송통신위원회의 과학기술정보통신부 국정감사에서는 AI 예산의 균형이 도마에 올랐다. 성능과…",
+   "publishedAt": "2026-10-29T00:00:00.000Z",
+   "discoveredAt": "2026-10-29T02:30:43.789Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "b47a95e8fc5ed57e"
+  },
+  {
+   "id": "da9c62c52f6c35e6",
+   "sourceId": "simon-willison",
+   "sourceName": "Simon Willison's Weblog",
+   "originalTitle": "Quoting Ted Sanders",
+   "originalUrl": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+   "originalLanguage": "en",
+   "originalDescription": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single…",
+   "publishedAt": "2026-10-28T23:23:21.000Z",
+   "discoveredAt": "2026-10-29T02:30:43.789Z",
+   "topics": [
+    "ai",
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "3781a308411bd29d"
+  },
   {
    "id": "ee5e2424785d3c85",
    "sourceId": "techcrunch-startups",
@@ -1590,6 +1639,22 @@
    "contentHash": "bba14a7429ce2be3"
   },
   {
+   "id": "f11899420a6211ae",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Announcing the AWS Marketplace and Amazon Business unified storefront",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/marketplace-business-storefront/",
+   "originalLanguage": "en",
+   "originalDescription": "Today, AWS Marketplace and Amazon Business announced the unified storefront. Organizations can now give their teams one curated catalog that puts software, data, and AI tools from AWS Marketplace alongside physical goods and supplies from Amazon Business. Many enterprises…",
+   "publishedAt": "2026-10-28T08:00:00.000Z",
+   "discoveredAt": "2026-10-29T02:30:43.789Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "6e074546a2649945"
+  },
+  {
    "id": "5cd5c46247d4911c",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -2373,14 +2438,14 @@
    "originalTitle": "AI for Science expands to foundations and research institutions",
    "originalUrl": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
    "originalLanguage": "en",
-   "originalDescription": "We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program.",
+   "originalDescription": "We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.",
    "publishedAt": "2026-10-28T00:00:00.000Z",
    "discoveredAt": "2026-10-28T23:15:28.251Z",
    "topics": [
     "ai"
    ],
    "imageUrl": null,
-   "contentHash": "98cab751bcbaeee6"
+   "contentHash": "cdbe3fdafa6b7ada"
   },
   {
    "id": "4c5627bb695205d1",
@@ -22626,22 +22691,6 @@
    ],
    "imageUrl": null,
    "contentHash": "3736653a9c7642d6"
-  },
-  {
-   "id": "c09077304de8be38",
-   "sourceId": "android-developers-blog",
-   "sourceName": "Android Developers Blog",
-   "originalTitle": "Driving growth on Google Play: The next era of subscriptions",
-   "originalUrl": "https://developer.android.com/blog/posts/driving-growth-on-google-play-the-next-era-of-subscriptions",
-   "originalLanguage": "en",
-   "originalDescription": "On Google Play, we are continuously expanding our subscription platform to help you drive growth, adapt to new business models, and meet your users exactly where they are.",
-   "publishedAt": "2026-09-29T00:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:53:11.806Z",
-   "topics": [
-    "mobile-hardware"
-   ],
-   "imageUrl": null,
-   "contentHash": "3b7a32aa56115936"
   }
  ]
 }

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "59cc7949628a5388",
+ "contentHash": "b34bdbb4964355ce",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:38:41.984Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Zero-Shot Multimodal Event Spotting in Soccer Broadcasts",
+   "summary": "Researchers introduce a zero-shot framework to detect, classify, and temporally localize events in full-length soccer broadcasts without requiring task-specific parameter training. The approach segments matches into overlapping clips using a compact visual storyboard and aligned commentary transcripts, which are processed jointly by a general-purpose multimodal model. Tested on three manually annotated matches with 130 events, the best configuration reaches 72.0% F1@5s and surpasses SoccerNet-trained models in a cross-dataset setting, while reducing inference costs significantly.",
+   "impact": "This zero-shot framework could reduce the reliance on large annotated datasets and soccer-specific training for sports analytics and video indexing. Developers and technology users may benefit from lower inference costs and automated highlight selection supported by natural-language explanations.",
+   "keyPoints": [
+    "Detects, classifies, and temporally localizes events in soccer broadcasts without task-specific training.",
+    "Achieves 72.0% F1@5s on three manually annotated matches containing 130 events.",
+    "Storyboard representation reduces inference cost by 72% compared with individual frames.",
+    "Introduces an evidence-grounded excitement-scoring stage with natural-language explanations for highlights."
+   ]
+  },
+  "km": {
+   "title": "ការរកឃើញព្រឹត្តិការណ៍ពហុញ្ញាណបែប Zero-Shot ក្នុងការផ្សាយបន្តផ្ទាល់បាល់ទាត់",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំប្រព័ន្ធបែប zero-shot មួយដើម្បីរកឃើញ ចាត់ថ្នាក់ និងកំណត់ពេលវេលាព្រឹត្តិការណ៍ក្នុងការផ្សាយបន្តផ្ទាល់បាល់ទាត់ពេញលេញ ដោយមិនចាំបាច់មានការបណ្តុះបណ្តាលប៉ារ៉ាម៉ែត្រជាក់លាក់នោះទេ។ វិធីសាស្ត្រនេះបែងចែកការប្រកួតជាឈុតត្រួតស៊ីគ្នាដែលបង្ហាញដោយផ្ទាំងរូបភាពមើលឃើញ និងស្គ្រីបអត្ថាធិប្បាយ ដែលត្រូវបានដំណើរការរួមគ្នាដោយម៉ូដែលពហុញ្ញាណទូទៅ។ ការធ្វើតេស្តលើការប្រកួតចំនួនបីដែលមានព្រឹត្តិការណ៍ ១៣០ បានបង្ហាញពីលទ្ធផលល្អប្រសើរ និងការកាត់បន្ថយការចំណាយលើការវាយតម្លៃ។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចកាត់បន្ថយការពឹងផ្អែកលើសំណុំទិន្នន័យចំណាំធំៗ និងការបណ្តុះបណ្តាលជាក់លាក់សម្រាប់ផ្នែកវិភាគកីឡា។ អ្នកអភិវឌ្ឍន៍អាចទទួលបានអត្ថប្រយោជន៍ពីការចំណាយទាប និងការជ្រើសរើសវីដេអូនាំមុខដោយស្វ័យប្រវត្តិ។",
+   "keyPoints": [
+    "រកឃើញ និងចាត់ថ្នាក់ព្រឹត្តិការណ៍ក្នុងការផ្សាយបាល់ទាត់ដោយមិនបាច់បណ្តុះបណ្តាលជាក់លាក់។",
+    "សម្រេចបាន 72.0% F1@5s លើការប្រកួតដែលបានចំណាំដោយដៃចំនួនបី។",
+    "កាត់បន្ថយការចំណាយលើការវាយតម្លៃចំនួន 72% បើធៀបនឹងការប្រើហ្វ្រេមនីមួយៗ។",
+    "ណែនាំដំណាក់កាលពិន្ទុរំភើបដែលមានការពន្យល់ជាភាសាធម្មជាតិសម្រាប់ការជ្រើសរើសវីដេអូនាំមុខ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "足球转播中的零样本多模态事件检测",
+   "summary": "研究人员提出了一种零样本框架，能够在无需特定任务参数训练的情况下，对完整足球转播中的事件进行检测、分类和时间定位。该方法将每场比赛分割成重叠的剪辑，由紧凑的视觉故事板和对齐的解说文本表示，并由通用多模态模型共同处理。在包含130个事件的三场手动注释比赛中，最佳配置达到了72.0%的F1@5s，在跨数据集设置中优于经过SoccerNet训练的模型，同时将推理成本降低了72%。",
+   "impact": "该零样本框架可能会减少体育分析和视频索引对大型标注数据集以及特定足球训练的依赖。开发者和技术用户可能会受益于更低的推理成本以及带有自然语言解释的自动化精彩片段选择。",
+   "keyPoints": [
+    "无需特定任务训练即可检测、分类和定位足球转播中的事件。",
+    "在包含130个事件的三场手动注释比赛中达到72.0%的F1@5s。",
+    "与单帧相比，故事板表示将推理成本降低了72%。",
+    "引入了基于证据的兴奋评分阶段，并提供用于精彩片段选择的自然语言解释。"
+   ]
+  },
+  "ko": {
+   "title": "축구 중계에서의 제로샷 멀티모달 이벤트 감지",
+   "summary": "연구원들은 태스크 특화 매개변수 학습 없이 전체 축구 중계에서 이벤트를 감지, 분류 및 시간적으로 지역화하는 제로샷 프레임워크를 선보였다. 이 접근 방식은 경기를 겹치는 클립으로 분할하고, 압축된 시각적 스토리보드와 정렬된 해설 대본을 범용 멀티모달 모델을 통해 함께 처리한다. 130개의 이벤트가 포함된 수동 주석 경기 3개에서 최적의 구성은 72.0%의 F1@5s를 달성했으며, 크로스 데이터셋 설정에서 SoccerNet으로 학습된 모델들을 능가하고 추론 비용을 72% 절감했다.",
+   "impact": "이 제로샷 프레임워크는 스포츠 분석 및 비디오 인덱싱을 위한 대규모 주석 데이터셋과 축구 특화 학습에 대한 의존도를 줄일 수 있다. 개발자와 기술 사용자들은 더 낮은 추론 비용과 자연어 설명이 지원되는 자동 하이라이트 선택의 이점을 얻을 수 있다.",
+   "keyPoints": [
+    "태스크 특화 학습 없이 축구 중계의 이벤트를 감지, 분류 및 지역화함.",
+    "130개의 이벤트가 포함된 수동 주석 경기에서 72.0%의 F1@5s를 달성함.",
+    "스토리보드 표현을 사용하여 개별 프레임에 비해 추론 비용을 72% 줄임.",
+    "하이트라이트 선택을 위한 자연어 설명이 포함된 증거 기반 흥미 점수 산정 단계를 도입함."
+   ]
+  }
+ }
+}

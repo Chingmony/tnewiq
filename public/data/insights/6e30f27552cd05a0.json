@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6e30f27552cd05a0",
+ "contentHash": "47bed23ee13fa167",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:38:52.962Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Spectral Braids: A Topological Descriptor for Dynamic Directed Networks",
+   "summary": "Researchers propose spectral braids, a new methodology for dynamic directed networks that tracks complex eigenvalues over time as they wind around each other in the complex plane. This winding pattern forms a braid, which is captured as a word and mapped to a matrix using the Burau representation to provide a fixed-size feature vector. Each eigenvalue describes community behavior, and each crossing records one group overtaking another. Experiments on synthetic online community networks show that the proposed features achieve 97.1% accuracy on four classes compared to 44.5% for methods that do not track eigenvalues.",
+   "impact": "This topological descriptor could offer developers and researchers a powerful way to classify dynamic directed networks with high accuracy. The ability of Burau features to distinguish networks containing the same events in different orders may improve machine learning models that analyze complex network evolution over time.",
+   "keyPoints": [
+    "Spectral braids track complex eigenvalues over time in dynamic directed networks to form topological braids.",
+    "The Burau representation maps braid words to matrices, yielding fixed-size feature vectors for classifiers.",
+    "The method achieved 97.1% accuracy on four classes in experiments, outperforming non-tracking features.",
+    "Burau features successfully separate networks with the same events in different orders."
+   ]
+  },
+  "km": {
+   "title": "Spectral Braids: A Topological Descriptor for Dynamic Directed Networks",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើឡើងនូវ spectral braids ដែលជាវិធីសាស្ត្រថ្មីសម្រាប់បណ្តាញទិសដៅថាមវន្ត ដោយតាមដាន eigenvalues ស្មុគស្មាញតាមពេលវេលា។ លំនាំនៃការរុំព័ទ្ធនេះបង្កើតបានជា braid ដែលត្រូវបានប្រែជាពាក្យ និងផែនទីទៅជាម៉ាទ្រីសដោយប្រើ Burau representation។ ការពិសោធន៍នៅលើបណ្តាញសហគមន៍អនឡាញសំយោគបង្ហាញថា លក្ខណៈពិសេសដែលបានស្នើឡើងទទួលបានភាពត្រឹមត្រូវ 97.1% នៅលើថ្នាក់ចំនួនបួន។",
+   "impact": "វិធីសាស្ត្រនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវមធ្យោបាយដ៏មានឥទ្ធិពលមួយក្នុងការចាត់ថ្នាក់បណ្តាញទិសដៅថាមវន្តដោយភាពត្រឹមត្រូវខ្ពស់។ វាក៏អាចជួយដល់ម៉ូដែលរៀនម៉ាស៊ីនក្នុងការវិភាគការវិវត្តនៃបណ្តាញស្មុគស្មាញផងដែរ។",
+   "keyPoints": [
+    "Spectral braids តាមដាន eigenvalues ស្មុគស្មាញតាមពេលវេលាដើម្បីបង្កើតជា topological braids ។",
+    "Burau representation បំប្លែងពាក្យ braid ទៅជាម៉ាទ្រីសសម្រាប់ឧបករណ៍ចាត់ថ្នាក់។",
+    "វិធីសាស្ត្រនេះទទួលបានភាពត្រឹមត្រូវ 97.1% ក្នុងការពិសោធន៍។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Spectral Braids: A Topological Descriptor for Dynamic Directed Networks",
+   "summary": "研究人员提出了光谱辫（spectral braids），这是一种用于动态有向网络的新方法，通过追踪复特征值在复平面上的缠绕来工作。这种缠绕模式形成了一个辫子，被转化为一个字，并使用Burau表示映射到矩阵，为分类器提供固定大小的特征向量。在合成在线社区网络上的实验表明，所提出的特征在四个类别上达到了97.1%的准确率。",
+   "impact": "该拓扑描述符可能为开发者和研究人员提供一种高准确率分类动态有向网络的方法。Burau特征能够区分包含相同事件但顺序不同的网络，这可能改善机器学习模型对复杂网络演化的分析能力。",
+   "keyPoints": [
+    "光谱辫在动态有向网络中随时间追踪复特征值以形成拓扑辫。",
+    "Burau表示将辫子字映射为矩阵，为分类器生成固定大小的特征向量。",
+    "实验表明该方法在四类分类中达到了97.1%的准确率。",
+    "Burau特征能够区分包含相同事件但顺序不同的网络。"
+   ]
+  },
+  "ko": {
+   "title": "Spectral Braids: A Topological Descriptor for Dynamic Directed Networks",
+   "summary": "연구자들은 복소평면에서 시간에 따라 얽히는 복소 고유값을 추적하는 동적 방향성 네트워크 방법론인 spectral braids를 제안했습니다. 이 얽힘 패턴은 브레이드로 형성되며 단어로 읽혀 Burau 표현을 사용해 매트릭스로 매핑되어 고정 크기 피처 벡터를 제공합니다. 합성 온라인 커뮤니티 네트워크를 이용한 실험 결과, 제안된 피처는 4개의 클래스에서 97.1%의 정확도를 달성했습니다.",
+   "impact": "이 위상학적 서술자는 개발자와 연구원에게 높은 정확도로 동적 방향성 네트워크를 분류할 수 있는 강력한 방법을 제공할 수 있습니다. Burau 피처는 동일한 이벤트가 다른 순서로 포함된 네트워크를 구분할 수 있어 복잡한 네트워크 진화를 분석하는 기계 학습 모델을 개선할 수 있습니다.",
+   "keyPoints": [
+    "Spectral braids는 동적 방향성 네트워크에서 시간에 따른 복소 고유값을 추적하여 위상학적 브레이드를 형성합니다.",
+    "Burau 표현은 브레이드 단어를 매트릭스로 매핑하여 분류기를 위한 고정 크기 피처 벡터를 생성합니다.",
+    "실험에서 제안된 피처는 4개 클래스에서 97.1%의 정확도를 달성했습니다.",
+    "Burau 피처는 동일한 이벤트가 다른 순서로 포함된 네트워크를 성공적으로 분리합니다."
+   ]
+  }
+ }
+}

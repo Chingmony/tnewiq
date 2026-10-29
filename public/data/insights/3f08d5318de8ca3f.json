@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3f08d5318de8ca3f",
+ "contentHash": "2ae43d1d8e2f7f76",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:37:46.987Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "GAS-PFN: Graph-Aware Spatiotemporal Prior-Data Fitted Networks for Zero-Shot Traffic Forecasting",
+   "summary": "Researchers introduce GAS-PFN, a Graph-Aware Spatiotemporal Prior-Data Fitted Network designed for zero-shot traffic forecasting. GAS-PFN incorporates sampled road topology into synthetic task priors via random-walk diffusion and uses a co-designed inference architecture to model temporal and spatiotemporal interactions. Across six benchmarks at a 90-minute horizon, GAS-PFN reduces mean squared error on average compared to prior models.",
+   "impact": "This approach could help developers and transport systems deploy traffic forecasting models to new or evolving networks without costly retraining. By aligning PFN priors with graph structures, security and technology teams may achieve more accurate zero-shot predictions using target-network context.",
+   "keyPoints": [
+    "Introduces GAS-PFN to combine graph-aware traffic modeling with zero-shot adaptation.",
+    "Incorporates sampled road topology into synthetic task priors using random-walk diffusion.",
+    "Reduces MSE by 34.0% on average relative to TimePFN across six benchmarks at the 90-minute horizon.",
+    "Reduces MSE by 27.7% on average compared to four recent industry-developed general-purpose zero-shot forecasters."
+   ]
+  },
+  "km": {
+   "title": "GAS-PFN៖ បណ្តាញសមស្របតាមទិន្នន័យជាមុនដែលមានការយល់ដឹងពីក្រាហ្វសម្រាប់ការព្យាករចរាចរណ៍បែប Zero-Shot",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ GAS-PFN ដែលជាបណ្តាញសមស្របតាមទិន្នន័យជាមុនដែលមានការយល់ដឹងពីក្រាហ្វ និងលំហ-ពេល សម្រាប់ការព្យាករចរាចរណ៍បែប zero-shot។ GAS-PFN បញ្ចូលសណ្ឋានដីផ្លូវដែលបានយកគំរូតាមទៅក្នុងប្រាយជាមុននៃកិច្ចការសំយោគតាមរយៈការសាយភាយបែបដើរចៃដន្យ។ វាជួយកាត់បន្ថយសារធាតុខុសគ្នាតាមមធ្យមភាគនៅលើភស្តុតាងគោលដៅប្រាំមួយបើធៀបនឹងម៉ូដែលមុនៗ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងប្រព័ន្ធដឹកជញ្ជូនដាក់ពង្រាយម៉ូដែលព្យាករណ៍ចរាចរណ៍ទៅកាន់បណ្តាញថ្មីៗដោយមិនបាច់ចំណាយពេលបណ្តុះបណ្តាលឡើងវិញច្រើន។ ការកែសម្រួលប្រាយរបស់ PFN ឱ្យស្របតាមរចនាសម្ព័ន្ធក្រាហ្វអាចផ្តល់នូវការព្យាករណ៍ zero-shot ដែលមានភាពត្រឹមត្រូវជាងមុន។",
+   "keyPoints": [
+    "បានណែនាំ GAS-PFN ដើម្បីផ្សំការគំរូនៃចរាចរណ៍ដែលមានការយល់ដឹងពីក្រាហ្វជាមួយនឹងការសម្របខ្លួនបែប zero-shot។",
+    "បញ្ចូលសណ្ឋានដីផ្លូវដែលបានយកគំរូតាមទៅក្នុងប្រាយជាមុននៃកិច្ចការសំយោគដោយប្រើការសាយភាយបែបដើរចៃដន្យ។",
+    "កាត់បន្ថយ MSE ជាមធ្យម 34.0% ប្រៀបធៀបទៅនឹង TimePFN នៅលើភស្តុតាងគោលដៅចំនួនប្រាំមួយនៅចន្លោះពេល 90 នាទី។",
+    "កាត់បន្ថយ MSE ជាមធ្យម 27.7% ប្រៀបធៀបទៅនឹងម៉ូដែលព្យាករណ៍ zero-shot ឧស្សាហកម្មចំនួនបួនថ្មីៗនេះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "GAS-PFN：用于零样本交通预测的图感知时空先验数据拟合网络",
+   "summary": "研究人员推出了GAS-PFN，即图感知时空先验数据拟合网络，用于零样本交通预测。GAS-PFN通过随机游走扩散将采样得到的道路拓扑纳入合成任务先验中，并在预训练期间学习图耦合动态。在90分钟预测视野的六个基准测试中，GAS-PFN的平均均方误差显著降低。",
+   "impact": "这种方法可以帮助开发人员和技术团队将交通预测模型部署到新的或不断演进的网络中，而无需进行高昂的重新训练。通过将PFN先验与图结构对齐，用户可能在使用目标网络上下文时获得更准确的零样本预测。",
+   "keyPoints": [
+    "引入GAS-PFN以结合图感知交通建模与零样本适应能力。",
+    "通过随机游走扩散将采样的道路拓扑整合到合成任务先验中。",
+    "在90分钟视野的六个基准测试中，相比TimePFN平均将MSE降低了34.0%。",
+    "相比四个近期行业开发的通用零样本预测器，平均将MSE降低了27.7%。"
+   ]
+  },
+  "ko": {
+   "title": "GAS-PFN: 제로샷 교통 예측을 위한 그래프 인식 시공간 사전 데이터 적합 네트워크",
+   "summary": "연구진은 제로샷 교통 예측을 위해 설계된 그래프 인식 시공간 사전 데이터 적합 네트워크인 GAS-PFN을 소개했습니다. GAS-PFN은 랜덤 워크 확산을 통해 샘플링된 도로 토폴로지를 합성 작업 사전에 통합하며, 사전 학습 중에 그래프 결합 동역학을 학습합니다. 90분 지평선의 6개 벤치마크에서 GAS-PFN은 이전 모델에 비해 평균 평균제곱오차를 줄였습니다.",
+   "impact": "이 접근 방식은 개발자와 기술 팀이 비용이 많이 드는 재학습 없이도 새로운 네트워크나 진화하는 네트워크에 교통 예측 모델을 배포하는 데 도움을 줄 수 있습니다. PFN 사전과 그래프 구조를 정렬함으로써 사용자는 대상 네트워크 컨텍스트를 사용하여 더 정확한 제로샷 예측을 달성할 수 있습니다.",
+   "keyPoints": [
+    "그래프 인식 교통 모델링과 제로샷 적응을 결합하기 위해 GAS-PFN을 도입했습니다.",
+    "랜덤 워크 확산을 사용하여 샘플링된 road 토폴로지를 합성 작업 사전에 통합합니다.",
+    "90분 지평선의 6개 벤치마크에서 TimePFN에 비해 평균 MSE를 34.0% 줄였습니다.",
+    "최근 개발된 4개의 범용 제로샷 예측기에 비해 평균 MSE를 27.7% 줄였습니다."
+   ]
+  }
+ }
+}

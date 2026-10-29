@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f9ef34b51bdd81be",
+ "contentHash": "331ba02531a9f2a6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:39:55.258Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Pneuma: A Large-Scale Real-World Time Series Benchmark for Commercial Aircraft Predictive Maintenance",
+   "summary": "Researchers introduce Pneuma, the first publicly available large-scale benchmark for predictive maintenance using onboard time series from in-service commercial aircraft. Built around bleed air systems, the dataset contains over 920 million multivariate time steps across four aircraft types and 9 verified fault scenarios aligned with real maintenance logs. The benchmark structures tasks into multivariate forecasting, supervised fault classification, and unsupervised anomaly detection.",
+   "impact": "This benchmark could help developers and researchers improve reproducibility in predictive maintenance by providing a standardized real-world dataset. Security and technology teams may use these insights to better understand model limitations when handling complex aviation time series and class imbalance.",
+   "keyPoints": [
+    "Pneuma contains over 920 million multivariate time steps.",
+    "The dataset covers four aircraft types and 9 verified fault scenarios.",
+    "It supports three tasks: multivariate forecasting, supervised fault classification, and unsupervised anomaly detection.",
+    "Evaluations show that strong contemporary models struggle with subtle fault signatures."
+   ]
+  },
+  "km": {
+   "title": "Pneuma៖ ស្តង់ដារសាកល្បងស៊េរីពេលវេលាពិភពលោកពិតខ្នាតធំសម្រាប់ថែទាំព្យាករណ៍យន្តហោះពាណិជ្ជកម្ម",
+   "summary": "អ្នកស្រាវជ្រាវបានដាក់បង្ហាញ Pneuma ដែលជាស្តង់ដារសាកល្បងខ្នាតធំជាសាធារណៈដំបូងគេសម្រាប់ការថែទាំព្យាករណ៍ដោយប្រើស៊េរីពេលវេលាonboardពីយន្តហោះពាណិជ្ជកម្មក្នុងសេវាកម្ម។ សំណុំទិន្នន័យនេះផ្តោតលើប្រព័ន្ធខ្យល់bleed និងមានជំហានពេលវេលាច្រើនជាង 920 លាននៅលើប្រភេទយន្តហោះចំនួនបួន និងសេណារីយ៉ូកំហុសចំនួន 9 ដែលបានផ្ទៀងផ្ទាត់។ ស្តង់ដារសាកល្បងនេះរៀបចំកិច្ចការជាបីគឺការព្យាករណ៍ពហុអថេរ ការចាត់ថ្នាក់កំហុសក្រោមការគ្រប់គ្រង និងការរកឃើញភាពមិនប្រក្រតីដោយគ្មានការគ្រប់គ្រង។",
+   "impact": "ស្តង់ដារសាកល្បងនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកស្រាវជ្រាវកែលម្អការ再現នៃការព្យាករណ៍ថែទាំដោយផ្តល់នូវសំណុំទិន្នន័យស្តង់ដារក្នុងពិភពលោកពិត។ ក្រុមបច្ចេកវិទ្យាអាចប្រើប្រាស់ការយល់ដឹងទាំងនេះដើម្បីយល់កាន់តែច្បាស់អំពីដែនកំណត់របស់ម៉ូដែលនៅពេលដោះស្រាយស៊េរីពេលវេលាអាកាសចរណ៍ស្មុគស្មាញ។",
+   "keyPoints": [
+    "Pneuma មានជំហានពេលវេលាច្រើនជាង 920 លាន។",
+    "សំណុំទិន្នន័យគ្របដណ្តប់ប្រភេទយន្តហោះចំនួនបួន និងសេណារីយ៉ូកំហុសចំនួន 9។",
+    "វាគាំទ្រកិច្ចការចំនួនបីគឺការព្យាករណ៍ពហុអថេរ ការចាត់ថ្នាក់កំហុស និងការរកឃើញភាពមិនប្រក្រតី។",
+    "ការវាយតម្លៃបង្ហាញថាម៉ូដែលបច្ចុប្បន្នខ្លាំងៗនៅតែមានបញ្ហាក្នុងការរកឃើញសញ្ញាកំហុសស្រទន់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Pneuma：面向商用飞机预测性维护的大规模真实世界时间序列基准",
+   "summary": "研究人员推出了 Pneuma，这是第一个公开可用的、使用服役商用飞机机载时间序列的大规模预测性维护基准。该数据集围绕引气系统构建，包含跨越四种飞机类型和 9 种经过验证的故障场景的超过 9.2 亿个多元时间步长。基准将任务结构化为多元预测、监督故障分类和无监督异常检测。",
+   "impact": "该基准可以通过提供标准化的真实世界数据集，帮助开发人员和研究人员提高预测性维护的重现性。技术团队可能会利用这些见解更好地了解模型在处理复杂航空时间序列和类不平衡时的局限性。",
+   "keyPoints": [
+    "Pneuma 包含超过 9.2 亿个多元时间步长。",
+    "该数据集涵盖四种飞机类型和 9 种经过验证的故障场景。",
+    "它支持三项任务：多元预测、监督故障分类和无监督异常检测。",
+    "评估显示，即使是强大的当代模型也很难处理微妙的故障特征。"
+   ]
+  },
+  "ko": {
+   "title": "Pneuma: 상업용 항공기 예측 유지보수를 위한 대규모 실제 시계열 벤치마크",
+   "summary": "연구원들은 운항 중인 상업용 항공기의 탑재 시계열을 사용하는 최초의 공개 대규모 예측 유지보수 벤치마크인 Pneuma를 소개했습니다. 블리드 에어 시스템을 중심으로 구축된 이 데이터셋은 4가지 항공기 유형과 실제 정비 로그에 일치하는 9가지 검증된 결함 시나리오에 걸쳐 9억 2천만 개 이상의 다변수 시간 단계를 포함합니다. 벤치마크는 다변수 예측, 감독형 결함 분류, 비감독형 이상 탐지의 세 가지 작업으로 구성됩니다.",
+   "impact": "이 벤치마크는 표준화된 실제 데이터셋을 제공함으로써 개발자와 연구자들이 예측 유지보수의 재현성을 향상시키는 데 도움을 줄 수 있습니다. 기술 팀은 복잡한 항공 시계열과 클래스 불균형을 처리할 때 모델의 한계를 더 잘 이해하기 위해 이러한 통찰력을 사용할 수 있습니다.",
+   "keyPoints": [
+    "Pneuma는 9억 2천만 개 이상의 다변수 시간 단계를 포함합니다.",
+    "이 데이터셋은 4가지 항공기 유형과 9가지 검증된 결함 시나리오를 다룹니다.",
+    "다변수 예측, 감독형 결함 분류, 비감독형 이상 탐지의 세 가지 작업을 지원합니다.",
+    "평가 결과 강력한 현대 모델도 미묘한 결함 서령을 처리하는 데 어려움을 겪는 것으로 나타났습니다."
+   ]
+  }
+ }
+}

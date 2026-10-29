@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "98a382ca4e990ce0",
+ "contentHash": "87ed904c0eaf6db0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:38:30.890Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation",
+   "summary": "Personalized recommendation relies on learning semantic and collaborative relations through generative recommendation and discrete semantic IDs. To address limitations where models do not directly inherit item semantic relations and collaborative relations are learned implicitly, researchers propose REGER. REGER is a unified framework that incorporates inter-item relations into semantic pretraining, history encoding, and semantic ID generation. Experiments on real-world datasets show that REGER provides consistent improvements over existing generative recommendation baselines.",
+   "impact": "This framework may help developers and researchers improve generative recommendation systems by explicitly incorporating semantic and collaborative inter-item relations. Technology users could experience more accurate recommendations based on better preference modeling.",
+   "keyPoints": [
+    "Generative recommendation autoregressively generates discrete semantic IDs of items.",
+    "REGER incorporates inter-item relations into semantic pretraining, history encoding, and semantic ID generation.",
+    "The framework pretrains through generative semantic retrieval to inherit inter-item semantic similarity.",
+    "Experiments on real-world datasets show consistent improvements over existing generative recommendation baselines."
+   ]
+  },
+  "km": {
+   "title": "REGER៖ ការគូសគំរូទំនាក់ទំនងរវាងទំនិញជាមួយលេខសម្គាល់ន័យសម្រាប់ប្រព័ន្ធណែនាំបែបជំនាន់",
+   "summary": "ការណែនាំផ្ទាល់ខ្លួនពឹងផ្អែកលើការរៀនទំនាក់ទំនងន័យនិងសហការគ្នារវាងទំនិញតាមរយៈប្រព័ន្ធណែនាំបែបជំនាន់និងលេខសម្គាល់ន័យដាច់ពីគ្នា។ ដើម្បីដោះស្រាយបញ្ហាក្នុងការទទួលមរតកទំនាក់ទំនងន័យ អ្នកស្រាវជ្រាវបានស្នើឡើងនូវ REGER ដែលជាក្របខ័ណ្ឌរួមបញ្ចូលទំនាក់ទំនងរវាងទំនិញ។ ការពិសោធន៍លើសំណុំទំនិញជាក់ស្តែងបង្ហាញពីការកើនឡើងឥតឈប់ឈរបើធៀបនឹងមូលដ្ឋានដែលមានស្រាប់។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចជួយអ្នកអភិវឌ្ឍន៍កែលម្អប្រព័ន្ធណែនាំដោយបញ្ចូលទំនាក់ទំនងន័យនិងការសហការរវាងទំនិញ។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានការណែនាំដែលត្រឹមត្រូវជាងមុន។",
+   "keyPoints": [
+    "ប្រព័ន្ធណែនាំបែបជំនាន់បង្កើតលេខសម្គាល់ន័យដាច់ពីគ្នា.",
+    "REGER បញ្ចូលទំនាក់ទំនងរវាងទំនិញទៅក្នុងការបណ្តុះបណ្តាលមុន ការអ៊ិនកូដប្រវត្តិ និងការបង្កើតលេខសម្គាល់ន័យ.",
+    "ការពិសោធន៍បង្ហាញពីការកើនឡើងប្រសិទ្ធភាពធៀបនឹងគំរូមូលដ្ឋានដែលមានស្រាប់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "REGER：利用语义ID对生成式推荐中的项目间关系进行建模",
+   "summary": "个性化推荐依赖于通过生成式推荐和离散语义ID来学习项目之间的语义和协同关系。为了解决模型无法直接继承项目语义关系且协同关系主要隐式学习的局限性，研究人员提出了REGER。REGER是一个统一的框架，将项目间关系显式纳入语义预训练、历史编码和语义ID生成中。在真实数据集上的广泛实验表明，该方法比现有的生成式推荐基线有一致的改进。",
+   "impact": "该框架可能帮助开发者和研究人员通过显式结合项目间的语义与协同关系来改进生成式推荐系统。技术用户可能会体验到基于更好偏好建模的更准确推荐。",
+   "keyPoints": [
+    "生成式推荐通过自回归方式生成项目的离散语义ID。",
+    "REGER将项目间关系融入语义预训练、历史编码和语义ID生成中。",
+    "通过生成式语义检索进行预训练，使其能够继承项目间的语义相似性。",
+    "真实数据集上的实验证明了其相对于现有生成式推荐基线的一致改进。"
+   ]
+  },
+  "ko": {
+   "title": "REGER: 생성형 추천을 위한 시맨틱 ID 기반 아이템 간 관계 모델링",
+   "summary": "개인화 추천은 생성형 추천과 이산 시맨틱 ID를 통해 아이템 간의 시맨틱 및 협업 관계를 학습하는 데 의존합니다. 모델이 아이템의 시맨틱 관계를 직접 상속하지 못하고 협업 관계가 암묵적으로 학습되는 한계를 해결하기 위해 연구자들은 REGER를 제안합니다. REGER는 아이템 간 관계를 시맨틱 사전 학습, 히스토리 인코딩, 시맨틱 ID 생성에 명시적으로 통합하는 통합 프레임워크입니다. 실제 데이터셋에 대한 실험은 기존 생성형 추천 베이스라인에 비해 일관된 개선을 보여줍니다.",
+   "impact": "이 프레임워크는 개발자와 연구자가 아이템 간의 시맨틱 및 협업 관계를 명시적으로 통합하여 생성형 추천 시스템을 개선하는 데 도움을 줄 수 있습니다. 기술 사용자는 더 나은 선호도 모델링을 기반으로 한 정확한 추천을 경험할 수 있습니다.",
+   "keyPoints": [
+    "생성형 추천은 아이템의 이산 시맨틱 ID를 자기회귀 방식으로 생성합니다.",
+    "REGER는 아이템 간 관계를 시맨틱 사전 학습, 히스토리 인코딩, 시맨틱 ID 생성에 통합합니다.",
+    "생성형 시맨틱 검색을 통해 사전 학습하여 아이템 간 시맨틱 유사성을 상속합니다.",
+    "실제 데이터셋 실험을 통해 기존 생성형 추천 베이스라인 대비 일관된 성능 향상을 입증했습니다."
+   ]
+  }
+ }
+}

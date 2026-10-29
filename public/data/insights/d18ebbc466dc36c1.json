@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d18ebbc466dc36c1",
+ "contentHash": "d15327eea7892855",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:40:14.798Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "When uncertainty quantification fails: structural vulnerabilities and corrections for selective prediction under clinical class imbalance",
+   "summary": "Selective prediction systems in clinical AI rely on uncertainty scores to defer ambiguous cases to humans. However, in tasks with severe class imbalance, uncertainty measures fail to capture clinical ambiguity and instead act as a proxy for class membership, penalizing minority patients. The study demonstrates that combining CCR with threshold-aware metrics restores monotonicity and mitigates minority exclusion across synthetic conditions and neurodegenerative cohorts.",
+   "impact": "This research highlights that standard uncertainty quantification can create a systemic illusion of safety under class imbalance. Developers and security or clinical AI teams may need to adopt threshold-aligned uncertainty measures and class-stratified evaluation to prevent the silent exclusion of vulnerable patients.",
+   "keyPoints": [
+    "Standard uncertainty scores break down in prognostic tasks with severe class imbalance, measuring dataset sparsity instead of clinical ambiguity.",
+    "Global metrics either collapse minority sensitivity or protect the minority at the expense of majority patients.",
+    "Combining CCR with threshold-aware metrics restores strict monotonicity and safely mitigates minority exclusion."
+   ]
+  },
+  "km": {
+   "title": "ពេលដែលការវាស់វែងអស្ថេរភាពបរាជ័យ៖ ភាពងាយរងគ្រោះផ្នែករចនាសម្ព័ន្ធ និងការកែតម្រូវសម្រាប់ការទាយទុកមុនជ្រើសរើសក្រោមអតុល្យភាពថ្នាក់គ្លីនិក",
+   "summary": "ប្រព័ន្ធទាយទុកមុនជ្រើសរើសក្នុងបញ្ញាសិប្បនិម្មិតផ្នែកគ្លីនិកពឹងផ្អែកលើពិន្ទុអស្ថេរភាពដើម្បីបញ្ជូនករណីមិនច្បាស់លាស់ទៅឱ្យអ្នកជំនាញជាមនុស្ស។ ទោះបីជាយ៉ាងណាក៏ដោយ ក្នុងកិច្ចការដែលមានអតុល្យភាពថ្នាក់ធ្ងន់ធ្ងរ ការវាស់វែងអស្ថេរភាពបរាជ័យក្នុងការចាប់យកភាពមិនច្បាស់លាស់ផ្នែកគ្លីនិក។ ការសិក្សានេះបង្ហាញថាការរួមបញ្ចូល CCR ជាមួយរង្វាស់ដែលដឹងពីកម្រិតកំណត់អាចស្តារការឡើងចុះតាមលំដាប់ឡើងវិញ និងកាត់បន្ថយការបដិសេធអ្នកជំងឺជនជាតិភាគតិច។",
+   "impact": "ការស្រាវជ្រាវនេះបង្ហាញថាការវាស់វែងអស្ថេរភាពស្តង់ដារអាចបង្កើតការភាន់ច្រឡំប្រព័ន្ធនៃសុវត្ថិភាពក្រោមអតុល្យភាពថ្នាក់។ ក្រុមអភិវឌ្ឍន៍ និងសុវត្ថិភាពអាចចាំបាច់ត្រូវអនុម័តរង្វាស់អស្ថេរភាពដែលស្របតាមកម្រិតកំណត់ដើម្បីការពារការបដិសេធអ្នកជំងឺដែលងាយរងគ្រោះដោយស្ងៀមស្ងាត់។",
+   "keyPoints": [
+    "ពិន្ទុអស្ថេរភាពស្តង់ដារខូចទ្រង់ទ្រាយក្នុងកិច្ចការទាយទុកមុនដែលមានអតុល្យភាពថ្នាក់ធ្ងន់ធ្ងរ។",
+    "រង្វាស់សកលទាំងការបាក់បែកភាពប្រែប្រួលជនជាតិភាគតិច ឬការពារជនជាតិភាគតិចដោយចំណាយលើអ្នកជំងឺភាគច្រើន។",
+    "ការរួមបញ្ចូល CCR ជាមួយរង្វាស់ដឹងពីកម្រិតកំណត់ស្តារការឡើងចុះតាមលំដាប់ដ៏តឹងរឹងឡើងវិញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "当不确定性量化失败时：临床类不平衡下选择性预测的结构性漏洞与修正",
+   "summary": "临床人工智能中的选择性预测系统依赖于不确定性分数来将模糊案例推迟给人类专家。然而，在具有严重类不平衡的预后任务中，不确定性度量无法捕捉临床模糊性，而是成为类成员身份的代理，系统性地惩罚少数群体患者。研究表明，将 CCR 与感知阈值的度量相结合可以恢复单调性，并在合成条件和神经退行性队列中减轻少数群体的排除。",
+   "impact": "这项研究表明，标准的不确定性量化在类不平衡下可能会产生系统性的安全错觉。开发人员和安全团队可能需要采用阈值对齐的不确定性度量和类分层评估，以防止默默排除最脆弱的患者。",
+   "keyPoints": [
+    "在具有严重类不平衡的预后任务中，标准不确定性分数会失效并测量数据集的稀疏性。",
+    "全局指标要么崩溃少数群体敏感性，要么以牺牲多数群体患者为代价保护少数群体。",
+    "将 CCR 与感知阈值的指标相结合可恢复严格的单调性并安全地减轻少数群体排除。"
+   ]
+  },
+  "ko": {
+   "title": "불확실성 정량화가 실패할 때: 임상적 클래스 불균형 하에서 선택적 예측을 위한 구조적 취약점 및 보정",
+   "summary": "임상 인공지능의 선택적 예측 시스템은 모호한 사례를 인간 전문가에게 연기하기 위해 불확실성 점수에 의존합니다. 그러나 심각한 클래스 불균형이 있는 예후 작업에서는 불확실성 측정값이 임상적 모호성을 포착하지 못하고 클래스 소속의 프록시가 되어 소수 환자를 체계적으로 불이익을 줍니다. 연구에 따르면 CCR을 임계값 인식 메트릭과 결합하면 단조성이 회복되고 소수 환자 배제가 완화됩니다.",
+   "impact": "이 연구는 표준 불확실성 정량화가 클래스 불균형 하에서 체계적인 안전 환상을 생성할 수 있음을 보여줍니다. 개발자와 보안 팀은 가장 취약한 환자가 조용히 배제되는 것을 방지하기 위해 임계값 정렬 불확실성 측정 및 클래스 계층화 평가를 채택해야 할 수 있습니다.",
+   "keyPoints": [
+    "심각한 클래스 불균형이 있는 예후 작업에서 표준 불확실성 점수는 임상적 모호성 대신 데이터 집합 희소성을 측정합니다.",
+    "전역 메트릭은 소수 민감도를 붕괴시키거나 다수 환자의 희생을 대가로 소수를 보호합니다.",
+    "CCR을 임계값 인식 메트릭과 결합하면 엄격한 단조성이 회복되고 소수 환자 배제가 안전하게 완화됩니다."
+   ]
+  }
+ }
+}

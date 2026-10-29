@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d852a5ecf89552a4",
+ "contentHash": "d9ccdbee065d9bd9",
+ "model": "gemini-flash-latest",
+ "generatedAt": "2026-10-29T02:32:58.427Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Wails v3 officially released: Writing desktop applications with Go is truly mature now",
+   "summary": "On October 26, 2026, the Wails project officially released version 3.0.0. This next-generation release spent nearly four years in development following its first alpha release in January 2023, moving past alpha and beta stages into an officially usable state. Wails is a framework for developing desktop applications that combines a Go backend with an HTML, CSS, and JavaScript frontend via automatically generated bindings.",
+   "impact": "Desktop application developers can now leverage Go alongside web frontend technologies in a officially stabilized environment. This release may offer teams greater confidence in adopting Wails for production-grade desktop software.",
+   "keyPoints": [
+    "Wails v3.0.0 was officially launched on October 26, 2026.",
+    "The version reached production readiness after almost four years of refinement since January 2023.",
+    "Wails pairs a Go backend with HTML, CSS, and JavaScript frontends using auto-generated bindings."
+   ]
+  },
+  "km": {
+   "title": "Wails v3 ត្រូវបានប្រកាសចេញជាផ្លូវការ៖ ការសរសេរកម្មវិធី Desktop ដោយប្រើ Go ឥឡូវនេះពិតជាមានភាពពេញលេញ",
+   "summary": "នៅថ្ងៃទី ២៦ ខែតុលា ឆ្នាំ ២០២៦ គម្រោង Wails បានប្រកាសចេញជាផ្លូវការនូវកំណែ v3.0.0។ កំណែជំនាន់ក្រោយនេះត្រូវបានកែលម្អអស់រយៈពេលជិតបួនឆ្នាំចាប់តាំងពីការចេញផ្សាយ alpha ដំបូងនៅខែមករា ឆ្នាំ ២០២៣ ហើយឥឡូវនេះបានបញ្ចប់ដំណាក់កាលសាកល្បង និងឈានដល់កម្រិតអាចប្រើប្រាស់ជាផ្លូវការ។ Wails គឺជា framework សម្រាប់បង្កើតកម្មវិធី desktop ដែលប្រើប្រាស់ Go នៅផ្នែក backend និង HTML/CSS/JS នៅផ្នែក frontend តាមរយៈការភ្ជាប់ដោយស្វ័យប្រវត្តិ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់ភាសា Go និងបច្ចេកវិទ្យា web ដើម្បីបង្កើតកម្មវិធី desktop ក្នុងកម្រិតមួយដែលកាន់តែមានស្ថេរភាព។ ការឈានដល់កំណែផ្លូវការនេះអាចជួយបង្កើនទំនុកចិត្តដល់អ្នកប្រើប្រាស់ framework នេះសម្រាប់ការងារជាក់ស្តែង។",
+   "keyPoints": [
+    "Wails v3.0.0 ត្រូវបានបញ្ចេញជាផ្លូវការនៅថ្ងៃទី ២៦ ខែតុលា ឆ្នាំ ២០២៦។",
+    "កំណែនេះបានឆ្លងកាត់ការអភិវឌ្ឍជិត ៤ ឆ្នាំគិតចាប់តាំងពីកំណែ alpha ដំបូងក្នុងខែមករា ឆ្នាំ ២០២៣។",
+    "Wails ប្រើប្រាស់ Go សម្រាប់ backend និង HTML/CSS/JS សម្រាប់ frontend ដោយភ្ជាប់គ្នាតាម bindings ស្វ័យប្រវត្តិ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Wails v3 正式发布：用 Go 写桌面应用，这次真的成熟了",
+   "summary": "2026 年 10 月 26 日，Wails 项目正式发布了 v3.0.0 版本。该版本自 2023 年 1 月首个 alpha 版本推出以来历经近四年的打磨，现已摘掉 alpha 与 beta 的标签，正式进入可用状态。Wails 是一个用于构建桌面应用的框架，前端使用 HTML、CSS 和 JS，后端采用 Go，两者通过自动生成的绑定机制协同工作。",
+   "impact": "该框架的正式发布可为希望结合 Go 语言与现代前端技术构建桌面软件的开发者提供更成熟的选择。这可能有助于提升基于该技术栈开发的应用在生产环境中的可靠性。",
+   "keyPoints": [
+    "Wails v3.0.0 于 2026 年 10 月 26 日正式发布。",
+    "该版本距 2023 年 1 月首个 alpha 版本经历了近四年的开发与打磨。",
+    "Wails 框架支持使用 HTML/CSS/JS 编写前端，并通过自动绑定与 Go 后端通信。"
+   ]
+  },
+  "ko": {
+   "title": "Wails v3 공식 출시: Go 언어로 데스크톱 앱 개발, 이제 진정으로 성숙해지다",
+   "summary": "2026년 10월 26일 Wails 프로젝트가 v3.0.0 버전을 공식 출시했습니다. 2023년 1월 첫 알파 버전 공개 이후 약 4년간의 개발을 거쳐 알파 및 베타 단계를 마치고 정식 사용 가능한 상태가 되었습니다. Wails는 프론트엔드에 HTML, CSS, JS를 사용하고 백엔드에 Go를 적용하여 자동 생성된 바인딩으로 연결하는 데스크톱 앱 개발 프레임워크입니다.",
+   "impact": "데스크톱 애플리케이션 개발자는 Go 언어와 웹 기술을 결합하여 정식 안정 버전을 기반으로 프로그램을 구축할 수 있습니다. 프레임워크의 성숙화로 인해 관련 소프트웨어 제작 시 안정성이 향상될 수 있습니다.",
+   "keyPoints": [
+    "Wails v3.0.0이 2026년 10월 26일에 공식 출시되었습니다.",
+    "2023년 1월 첫 알파 버전 공개 이후 약 4년 만에 정식 사용 상태에 진입했습니다.",
+    "Wails는 Go 백엔드와 HTML/CSS/JS 프론트엔드를 자동 바인딩으로 연결합니다."
+   ]
+  }
+ }
+}

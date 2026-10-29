@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "42ea27d9c39b9757",
+ "contentHash": "f1d9353d6da3795c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:39:20.387Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "TeamGym: A Gym for Team Decision-Making by AI Agents with Distributed Information",
+   "summary": "Researchers introduced TeamGym, a new environment designed to evaluate and train language model-based agents on collaborative team decision-making tasks sourced from legal, finance, medical, and software engineering data. TeamGym uses the concept of pivotal information to control and track how agents share and integrate distributed facts across participants. Testing multiple language models revealed performance gaps when information is distributed or requires independent retrieval by agents. Furthermore, training policies via reinforcement learning using TeamGym improved final decision quality and induced emergent coordination.",
+   "impact": "This research could help developers and researchers understand and address communication and retrieval limitations in multi-agent AI systems. Training methods demonstrated in the study may offer ways to improve coordination and decision-making in collaborative agent environments.",
+   "keyPoints": [
+    "TeamGym evaluates and trains language model agents on team decision-making using real-world corpora.",
+    "Distributing pivotal information across participants lowers success rates by 22.9 percentage points.",
+    "Requiring participants to extract pivotal information themselves lowers success rates by another 19.9 points.",
+    "Reinforcement learning training on team decision loss improved final-decision quality and induced coordination."
+   ]
+  },
+  "km": {
+   "title": "TeamGym៖ កន្លែងហាត់ប្រាណសម្រាប់ការសម្រេចចិត្តជាក្រុមដោយភ្នាក់ងារ AI ដែលមានព័ត៌មានចែកចាយ",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ TeamGym ដែលជាបរិយាកាសមួយត្រូវបានរចនាឡើងដើម្បីវាយតម្លៃ និងបណ្តុះបណ្តាលភ្នាក់ងារផ្អែកលើគំរូភាសាលើកិច្ចការសម្រេចចិត្តជាក្រុម។ TeamGym ប្រើប្រាស់គំនិតនៃព័ត៌មានសំខាន់ៗដើម្បីគ្រប់គ្រង និងតាមដានពីរបៀបដែលភ្នាក់ងារចែករំលែក និងរួមបញ្ចូលការពិតដែលបានចែកចាយ។ ការធ្វើតេស្តគំរូភាសាបានបង្ហាញពីគម្លាតនៃការអនុវត្ត នៅពេលដែលព័ត៌មានត្រូវបានចែកចាយ ឬតម្រូវឱ្យមានការទាញយកដោយឯករាជ្យ។ លើសពីនេះ ការបណ្តុះបណ្តាលគោលនយោបាយតាមរយៈការរៀនពង្រឹងបានធ្វើឱ្យប្រសើរឡើងនូវគុណភាពនៃការសម្រេចចិត្តចុងក្រោយ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍យល់ដឹង និងដោះស្រាយបញ្ហាខ្វះខាតនៃការទំនាក់ទំនង និងការទាញយកនៅក្នុងប្រព័ន្ធ AI ច្រើនភ្នាក់ងារ។ វិធីសាស្ត្របណ្តុះបណ្តាលអាចផ្តល់នូវមធ្យោបាយដើម្បីបង្កើនការសម្របសម្រួលនៅក្នុងបរិយាកាសភ្នាក់ងារសហការ។",
+   "keyPoints": [
+    "TeamGym វាយតម្លៃ និងបណ្តុះបណ្តាលភ្នាក់ងារគំរូភាសាលើការសម្រេចចិត្តជាក្រុម។",
+    "ការចែកចាយព័ត៌មានសំខាន់ៗកាត់បន្ថយអត្រាជោគជ័យ ២២,៩ ភាគរយ។",
+    "តម្រូវឱ្យអ្នកចូលរួមទាញយកព័ត៌មានដោយខ្លួនឯងកាត់បន្ថយអត្រាជោគជ័យ ១៩,៩ ពិន្ទុទៀត។",
+    "ការបណ្តុះបណ្តាលការរៀនពង្រឹងបានកែលម្អគុណភាពនៃការសម្រេចចិត្តចុងក្រោយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "TeamGym：分布式信息下AI智能体团队决策训练场",
+   "summary": "研究人员推出了TeamGym，这是一个用于评估和训练基于语言模型的智能体团队决策任务的环境，数据来源于真实世界的法律、金融、医疗和软件工程语料库。TeamGym引入了关键信息的概念，以控制和追踪智能体在团队决策中如何分享和整合分布式事实。对多个语言模型的测试表明，当信息被分散或需要独立检索时，性能会出现下降。此外，通过强化学习使用TeamGym训练策略，可以提高最终决策质量并引发涌现协调。",
+   "impact": "这项研究可能有助于开发者和研究人员理解并解决多智能体AI系统中的通信和检索局限性。研究中展示的训练方法或许能为提升协作智能体环境中的协调性和决策能力提供途径。",
+   "keyPoints": [
+    "TeamGym使用真实世界语料库评估和训练语言模型智能体进行团队决策。",
+    "将关键信息分配给不同参与者会使成功率平均下降22.9个百分点。",
+    "要求参与者自行提取关键信息会使成功率再降低19.9个百分点。",
+    "通过强化学习训练团队决策损失改善了最终决策质量并诱导了协调。"
+   ]
+  },
+  "ko": {
+   "title": "TeamGym: 분산된 정보를 다루는 AI 에이전트의 팀 의사결정을 위한 짐",
+   "summary": "연구원들은 실제 법률, 금융, 의료, 소프트웨어 공학 말뭉치로 구성된 팀 의사결정 문제에서 언어 모델 기반 에이전트를 평가하고 훈련하기 위한 환경인 TeamGym을 소개했다. TeamGym은 핵심 정보라는 개념을 도입하여 에이전트가 팀 의사결정 시 분산된 사실을 공유하고 통합하는 방식을 제어하고 추적한다. 여러 언어 모델을 검토한 결과, 정보가 분산되어 있거나 에이전트가 직접 검색해야 할 때 성능 격차가 발생하는 것으로 나타났다. 또한 강화 학습을 통한 정책 훈련은 최종 의사결정 품질을 향상시키고 협력을 유도했다.",
+   "impact": "이번 연구는 개발자와 연구자들이 다중 에이전트 AI 시스템의 통신 및 검색 한계를 이해하고 해결하는 데 도움을 줄 수 있다. 연구에서 시연된 훈련 방법은 협업 에이전트 환경에서 조정 능력과 의사결정을 개선하는 방법을 제공할 수 있다.",
+   "keyPoints": [
+    "TeamGym은 실제 말뭉치를 사용하여 팀 의사결정에서 언어 모델 에이전트를 평가하고 훈련합니다.",
+    "핵심 정보를 분산시키면 단일 모델에 제공할 때보다 성공률이 평균 22.9퍼센트포인트 낮아집니다.",
+    "참가자가 직접 핵심 정보를 식별하고 추출해야 할 때 성공률이 19.9포인트 더 낮아집니다.",
+    "강화 학습을 통한 훈련은 최종 의사결정 품질을 향상시키고 협력을 유도했습니다."
+   ]
+  }
+ }
+}

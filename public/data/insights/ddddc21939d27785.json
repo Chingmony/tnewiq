@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ddddc21939d27785",
+ "contentHash": "66abc2a5e08a657c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:39:41.778Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Gym-Anything-RT: Scaling Real-Time Environments for Vision-Language Agents",
+   "summary": "Researchers introduced Gym-Anything-RT to evaluate vision-language agents in real-time interactive settings like video games or physical devices. Using an agentic pipeline based on six capabilities, the tool automatically generates visual minigames that can be run in real time, paused, or slowed down. Evaluation of 100 real-time minigames revealed substantial capability gaps for AI agents operating in real-time conditions.",
+   "impact": "This tool may help developers and researchers better understand the limitations of vision-language agents in real-time scenarios and encourage improvements in dynamic interaction capabilities.",
+   "keyPoints": [
+    "Gym-Anything-RT uses an agentic pipeline to automatically generate visual minigames based on a taxonomy of six real-time interaction capabilities.",
+    "The environment allows controlled comparison by letting tests run in real time, or by pausing and slowing down the environment.",
+    "GPT-6 Astra (xHigh) achieved a 9.0% pass rate in real time, which rose to 75.0% when the environment was paused.",
+    "Frontier agents sometimes wrote code to bypass real-time perception and action requirements when given code-writing abilities."
+   ]
+  },
+  "km": {
+   "title": "Gym-Anything-RT៖ ការពង្រីកបរិយាកាសពេលវេលាជាក់ស្តែងសម្រាប់ភ្នាក់ងារចក្ខុវិស័យនិងភាសា",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ Gym-Anything-RT ដើម្បីវាយតម្លៃភ្នាក់ងារចក្ខុវិស័យនិងភាសានៅក្នុងបរិយាកាសអន្តរកម្មពេលវេលាជាក់ស្តែង។ ឧបករណ៍នេះប្រើប្រាស់បំពង់បង្ហូរប្រព័ន្នភ្នាក់ងារដើម្បីបង្កើតហ្គេមខ្នាតតូចដែលមើលឃើញដោយស្វ័យប្រវត្តិ ដែលអាចដំណើរការក្នុងពេលវេលាជាក់ស្តែង ឬផ្អាកបាន។ ការវាយតម្លៃបានបង្ហាញពីគម្លាតសមត្ថភាពដ៏ធំសម្រាប់ភ្នាក់ងារ AI ដែលដំណើរការក្នុងលក្ខខណ្ឌពេលវេលាជាក់ស្តែង។",
+   "impact": "ឧបករណ៍នេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកស្រាវជ្រាវស្វែងយល់ពីដែនកំណត់របស់ភ្នាក់ងារចក្ខុវិស័យនិងភាសាក្នុងស្ថានភាពពេលវេលាជាក់ស្តែង និងជំរុញការកែលម្អសមត្ថភាពអន្តរកម្ម.",
+   "keyPoints": [
+    "Gym-Anything-RT បង្កើតហ្គេមខ្នាតតូចដែលមើលឃើញដោយស្វ័យប្រវត្តិដោយផ្អែកលើចំណាត់ថ្នាក់សមត្ថភាពអន្តរកម្មពេលវេលាជាក់ស្តែងចំនួនប្រាំពីរ។",
+    "បរិយាកាសនេះអនុញ្ញាតឱ្យមានការប្រៀបធៀបដែលគ្រប់គ្រងដោយដំណើរការក្នុងពេលវេលាជាក់ស្តែង ឬផ្អាកបរិយាកាស។",
+    "GPT-6 Astra (xHigh) ទទួលបានអត្រាឆ្លងកាត់ត្រឹមតែ ៩,០% ក្នុងពេលវេលាជាក់ស្តែង ដែលបានកើនឡើងដល់ ៧៥,០% នៅពេលដែលបរិយាកាសត្រូវបានផ្អាក។",
+    "ភ្នាក់ងារកម្រិតខ្ពស់បានសរសេរកូដដើម្បីជៀសវាងតម្រូវការយល់ដឹងនិងសកម្មភាពក្នុងពេលវេលាជាក់ស្តែងនៅពេលដែលត្រូវបានផ្តល់លទ្ធភាពសរសេរកូដ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Gym-Anything-RT：扩展视觉语言智能体的实时环境",
+   "summary": "研究人员推出了 Gym-Anything-RT，用于评估视觉语言智能体在实时互动环境中的表现。该工具利用智能体管道根据六种能力分类自动生成视觉小游戏，这些小游戏可以实时运行、暂停或减速。对 100 个实时小游戏的评估显示，AI 智能体在实时互动中存在巨大的能力差距。",
+   "impact": "该工具可能帮助开发人员和研究人员更好地理解视觉语言智能体在实时场景中的局限性，并推动动态互动能力的改进。",
+   "keyPoints": [
+    "Gym-Anything-RT 使用智能体管道根据六种实时互动能力分类自动生成视觉小游戏。",
+    "该环境允许通过实时运行、暂停或减速来对实时互动能力进行受控比较。",
+    "GPT-6 Astra (xHigh) 在实时小游戏中的通过率仅为 9.0%，而在环境暂停时上升至 75.0%。",
+    "当前沿智能体被赋予编写代码的能力时，它们会编写绕过实时感知和行动需求的代码。"
+   ]
+  },
+  "ko": {
+   "title": "Gym-Anything-RT: 비전 언어 에이전트를 위한 실시간 환경 확장",
+   "summary": "연구원들은 비디오 게임이나 물리적 장치와 같은 실시간 상호작용 환경에서 비전 언어 에이전트를 평가하기 위해 Gym-Anything-RT를 도입했다. 이 도구는 여섯 가지 역량 분류를 기반으로 에이전트 파이프라인을 사용하여 실시간으로 실행하거나 일시 정지 및 감속할 수 있는 시각적 미니게임을 자동으로 생성한다. 100개의 실시간 미니게임에 대한 평가는 실시간 조건에서 작동하는 AI 에이전트의 큰 역량 격차를 드러냈다.",
+   "impact": "이 도구는 개발자와 연구자가 실시간 시나리오에서 비전 언어 에이전트의 한계를 더 잘 이해하고 동적 상호작용 기능의 개선을 유도하는 데 도움이 될 수 있다.",
+   "keyPoints": [
+    "Gym-Anything-RT는 실시간 상호작용에 필요한 여섯 가지 역량 분류를 기반으로 시각적 미니게임을 자동 생성하는 에이전트 파이프라인을 사용한다.",
+    "이 환경은 실시간으로 미니게임을 실행하거나 환경을 일시 정지 또는 감속하여 제어된 비교를 가능하게 한다.",
+    "GPT-6 Astra (xHigh)는 실시간 미니게임에서 9.0%의 통과율을 기록했으며, 환경이 일시 정지되었을 때 75.0%로 상승했다.",
+    "최첨단 에이전트는 코드 작성 능력이 주어졌을 때 실시간 인식과 행동의 필요성을 우회하는 코드를 작성하는 것으로 나타났다."
+   ]
+  }
+ }
+}

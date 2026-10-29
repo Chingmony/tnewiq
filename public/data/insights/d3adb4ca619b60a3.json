@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d3adb4ca619b60a3",
+ "contentHash": "c6db25ee7a100888",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:37:57.512Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Understanding the limits of latent world models",
+   "summary": "World models are proposed for agent reasoning over long horizons, but current evaluations focus on task performance rather than underlying environment dynamics. Researchers introduce faithful latent world models as an equivariance condition and propose latent rollout consistency (LRC) to evaluate action-conditioned latent prediction. Results show that none of the studied state-of-the-art latent world models faithfully model the actual environment dynamics.",
+   "impact": "This finding could change how developers and researchers evaluate latent world models by shifting focus from task performance to actual environment dynamics modeling. Security teams and technology users may need to exercise caution when relying on world models for complex decision-making tasks.",
+   "keyPoints": [
+    "World models are used to help agents reason over long temporal and spatial horizons.",
+    "Researchers introduced faithful latent world models and the latent rollout consistency (LRC) metric.",
+    "None of the studied state-of-the-art latent world models faithfully model environment dynamics."
+   ]
+  },
+  "km": {
+   "title": "ការយល់ដឹងពីដែនកំណត់នៃគំរូពិភពលោកឡាតង់",
+   "summary": "គំរូពិភពលោកត្រូវបានស្នើឡើងសម្រាប់ភ្នាក់ងារក្នុងការហេតុផល ប៉ុន្តែការវាយតម្លៃបច្ចុប្បន្នច្រើនតែផ្តោតលើដំណើរការការងារ ជាជាងសក្ដានុពលបរិស្ថាន។ អ្នកស្រាវជ្រាវបានណែនាំគំរូពិភពលោកឡាតង់ស្មោះត្រង់ និងស្នើម៉ែត្រវាយតម្លៃភាពស៊ីសង្វាក់គ្នានៃការបញ្ចេញឡាតង់ (LRC)។ លទ្ធផលបង្ហាញថាគ្មានគំរូពិភពលោកឡាតង់ទំនើបណាមួយអាចគូសវាសសក្ដានុពលបរិស្ថានបានយ៉ាងពិតប្រាកដនោះឡើយ។",
+   "impact": "ការរកឃើញនេះអាចផ្លាស់ប្តូររបៀបដែលអ្នកអភិវឌ្ឍន៍វាយតម្លៃគំរូពិភពលោកដោយផ្តោតលើសក្ដានុពលបរិស្ថាន។ ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវប្រុងប្រយ័ត្ននៅពេលពឹងផ្អែកលើគំរូពិភពលោកសម្រាប់ការសម្រេចចិត្ត។",
+   "keyPoints": [
+    "គំរូពិភពលោកត្រូវបានប្រើប្រាស់ដើម្បីជួយភ្នាក់ងារក្នុងការគិត។",
+    "អ្នកស្រាវជ្រាវបានណែនាំគំរូពិភពលោកឡាតង់ស្មោះត្រង់និងម៉ែត្រ LRC។",
+    "គ្មានគំរូពិភពលោកឡាតង់ទំនើបណាមួយគូសវាសសក្ដានុពលបរិស្ថានបានយ៉ាងពិតប្រាកដនោះទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "理解潜在世界模型的局限性",
+   "summary": "世界模型被广泛提议作为使智能体能够跨越长时空跨度进行推理的核心组件。然而，当前评估往往强调任务性能，而对所学习的世界模型是否获得了反映环境底层结构的预测性潜在动态提供有限的洞察。研究人员引入了忠实潜在世界模型作为环境转换映射与所学潜在动态之间的等变条件，并提出潜在展开一致性（LRC）来评估动作条件下的潜在预测。研究发现，在所研究的最先进潜在世界模型中，没有一个通过忠实地建模环境动态来真正解决该任务。",
+   "impact": "这一发现可能会改变开发人员和研究人员评估潜在世界模型的方式，将重点从任务性能转移到环境动态建模上。安全团队和技术人员在依赖世界模型进行复杂决策时可能需要更加谨慎。",
+   "keyPoints": [
+    "世界模型被用作帮助智能体进行推理的核心组件。",
+    "研究人员提出了忠实潜在世界模型和潜在展开一致性（LRC）指标。",
+    "没有一个被研究的最先进潜在世界模型能忠实地建模环境动态。"
+   ]
+  },
+  "ko": {
+   "title": "잠재 세계 모델의 한계 이해하기",
+   "summary": "세계 모델은 에이전트가 오랜 시간 및 공간적 범위에서 추론할 수 있도록 하는 핵심 구성 요소로 제안됩니다. 그러나 현재의 평가는 작업 성능을 강조하는 반면 학습된 세계 모델이 환경의 기본 구조를 반영하는 예측 잠재 동역학을 획득했는지에 대해서는 제한적인 통찰을 제공합니다. 연구진은 충실한 잠재 세계 모델을 환경의 전이 맵과 학습된 잠재 동역학 간의 동변 조건으로 도입하고, 행동 조건부 잠재 예측을 평가하기 위해 잠재 롤아웃 일관성(LRC) 지표를 제안합니다. 연구 결과, 연구된 최신 잠재 세계 모델 중 환경의 동역학을 실제로 충실하게 모델링하여 작업을 해결하는 모델은 없는 것으로 나타났습니다.",
+   "impact": "이러한 발견은 개발자와 연구자가 작업 성능에서 실제 환경 동역학 모델링으로 초점을 전환하여 잠재 세계 모델을 평가하는 방식을 바꿀 수 있습니다. 보안 팀과 기술 사용자는 복잡한 의사결정을 위해 세계 모델에 의존할 때 주의를 기울여야 할 수 있습니다.",
+   "keyPoints": [
+    "세계 모델은 에이전트의 추론을 돕기 위해 제안됩니다.",
+    "연구진은 충실한 잠재 세계 모델과 잠재 롤아웃 일관성(LRC) 지표를 제안했습니다.",
+    "연구된 최신 잠재 세계 모델 중 환경 동역학을 충실히 모델링한 모델은 없습니다."
+   ]
+  }
+ }
+}

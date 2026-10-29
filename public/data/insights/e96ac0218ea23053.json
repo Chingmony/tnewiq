@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e96ac0218ea23053",
+ "contentHash": "87e68e0e4a42d3ef",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:41:16.811Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "GTFormer: A Syntax-Free Graph Network Alternative to Transformers for 8192$\\times$ Length Extrapolation in Linear Time",
+   "summary": "Researchers introduced GTFormer, a syntax-free hierarchical Graph Neural Network designed to replace flat self-attention in sequence modeling. By organizing raw token streams into a bounded-degree hierarchy, the model avoids the quadratic compute and memory barriers of traditional Transformers. It enables zero-shot extrapolation to much longer sequence lengths in linear memory on a single commodity GPU.",
+   "impact": "This approach could allow developers and security teams to process significantly longer codebases, logs, and documents efficiently without running into out-of-memory errors or attention collapse. It may offer a scalable alternative for long-context tasks using standard hardware.",
+   "keyPoints": [
+    "GTFormer replaces traditional self-attention with a hierarchical Graph Neural Network.",
+    "It features a bounded-degree hierarchy combining a binary reduction tree, shift edges, and expander shortcuts.",
+    "The model extrapolates zero-shot up to 8192 times sequence length training limits in linear memory."
+   ]
+  },
+  "km": {
+   "title": "GTFormer៖ ជម្រើសបណ្តាញក្រាហ្វដែលគ្មានវាក្យសម្ព័ន្ធជំនួសឱ្យ Transformers សម្រាប់ការបន្លាយប្រវែង 8192× ក្នុងពេលលីនេអ៊ែរ",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ GTFormer ដែលជាបណ្តាញសរសៃប្រសាទក្រាហ្វលំដាប់ថ្នាក់គ្មានវាក្យសម្ព័ន្ធ ដើម្បីជំនួសការយកចិត្តទុកដាក់លើខ្លួនឯងសម្រាប់ការធ្វើគំរូลำดับ។ តាមរយៈការរៀបចំចរន្តថូខឹនទៅជាลำดับថ្នាក់ដែលមានកម្រិតកំណត់ គំរូនេះជៀសវាងការគណនាក្នុងកម្រិតការ៉េនិងឧបសគ្គអង្គចងចាំរបស់ Transformers បែបប្រពៃណី។ វាអាចឱ្យការបន្លាយប្រវែងដល់កម្រិតដ៏ច្រើនសន្ធឹកសន្ធាប់ក្នុងអង្គចងចាំលីនេអ៊ែរនៅលើ GPU តែមួយ។",
+   "impact": "វិធីសាស្ត្រនេះអាចអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខដំណើរការកូដ កំណត់ហេតុ និងឯកសារដែលមានប្រវែងវែងយ៉ាងមានប្រសិទ្ធភាពដោយមិនជួបប្រទះបញ្ហាអស់អង្គចងចាំ។ វាអាចផ្តល់នូវជម្រើសដែលអាចពង្រីកបានសម្រាប់កិច្ចការបរិបទវែងដោយប្រើប្រាស់ hardware ធម្មតា។",
+   "keyPoints": [
+    "GTFormer ជំនួសការយកចិត្តទុកដាក់លើខ្លួនឯងដោយបណ្តាញសរសៃប្រសាទក្រាហ្វលំដាប់ថ្នាក់។",
+    "វាមានលំដាប់ថ្នាក់កម្រិតកំណត់ដែលរួមបញ្ចូលទាំងដើមឈើកាត់បន្ថយគោលពីរ និងផ្លូវកាត់ផ្សេងៗ។",
+    "គំរូនេះអាចពង្រីកប្រវែងដល់ 8192 ដងលើសពីដែនកំណត់នៃការបណ្តុះបណ្តាលក្នុងអង្គចងចាំលីនេអ៊ែរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "GTFormer：一种无句法的图网络替代方案，可在线性时间内实现 Transformers 的 8192 倍长度外推",
+   "summary": "研究人员推出了 GTFormer，这是一种无句法的分层图神经网络，旨在替代序列建模中的扁平自注意力机制。通过将原始词元流组织为有界度层次结构，该模型避免了传统 Transformer 的平方级计算和内存壁垒。它能够在单个普通 GPU 上以线性内存实现零样本超长序列外推。",
+   "impact": "这种方法可能会让开发人员和安全团队高效处理极长的代码库、日志和文档，而不会遇到内存耗尽或注意力崩溃的问题。它可能为使用标准硬件进行长上下文任务提供一种可扩展的替代方案。",
+   "keyPoints": [
+    "GTFormer 用分层图神经网络替代了传统的自注意力机制。",
+    "它采用包含二叉归约树、移位边和扩展器捷径的有界度层次结构。",
+    "该模型在单个普通 GPU 上以线性内存实现了训练长度 8192 倍的零样本外推。"
+   ]
+  },
+  "ko": {
+   "title": "GTFormer: 선형 시간에 8192배 길이 외삽을 제공하는 Transformer의 구문 없는 그래프 네트워크 대안",
+   "summary": "연구원들은 시퀀스 모델링에서 평면 자기 주의 메커니즘을 대체하기 위해 설계된 구문 없는 계층적 그래프 신경망인 GTFormer를 발표했습니다. 원시 토큰 스트림을 유한 차수 계층 구조로 조직하여 전통적인 Transformer의 이차 계산 및 메모리 장벽을 피합니다. 단일 일반 GPU에서 선형 메모리로 훨씬 더 긴 시퀀스 길이에 대한 제로샷 외삽이 가능합니다.",
+   "impact": "이 접근 방식은 개발자와 보안 팀이 메모리 부족이나 주의 집중 붕괴 없이 매우 긴 코드베이스, 로그 및 문서를 효율적으로 처리할 수 있도록 도울 수 있습니다. 표준 하드웨어를 사용하여 긴 컨텍스트 작업을 수행할 수 있는 확장 가능한 대안을 제공할 수 있습니다.",
+   "keyPoints": [
+    "GTFormer는 기존의 자기 주의 메커니즘을 계층적 그래프 신경망으로 대체합니다.",
+    "이진 축소 트리와 이동 에지를 결합한 유한 차수 계층 구조를 특징으로 합니다.",
+    "이 모델은 단일 일반 GPU에서 선형 메모리로 훈련 한계의 8192배까지 제로샷 외삽을 수행합니다."
+   ]
+  }
+ }
+}

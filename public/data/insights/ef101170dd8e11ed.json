@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ef101170dd8e11ed",
+ "contentHash": "2348ef8cf4c4cc3a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:37:24.748Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Beyond Answer Changes: Matched Same-Class Controls for Local Audio Evidence",
+   "summary": "Researchers studied audio-language models to determine if answer changes after local sound-event edits reflect event class sensitivity or waveform rewriting sensitivity. By comparing matched same-class and different-class replacements across 600 synthetic soundscapes and three models, they found that different-class replacements produce 49.7 to 60.9 percentage points more answer changes. Same-class accuracy stayed within 5.2 percentage points of the original accuracy.",
+   "impact": "This testing protocol may help developers and researchers better understand how audio-language models respond to local changes in event classes. It could aid in evaluating model sensitivity and reliability.",
+   "keyPoints": [
+    "Tested 600 synthetic soundscapes and three models from two architecture families.",
+    "Different-class replacements produced 49.7 to 60.9 percentage points more answer changes than same-class replacements.",
+    "Same-class accuracy remained within 5.2 percentage points of original accuracy.",
+    "Soundscape-weighted selective accuracy for the inserted class ranged from 73.7 to 81.9%."
+   ]
+  },
+  "km": {
+   "title": "ក្រៅពីការផ្លាស់ប្តូរចម្លើយ៖ ការគ្រប់គ្រងថ្នាក់ដូចគ្នាដែលបានផ្គូផ្គងសម្រាប់ភស្តុតាងអូឌីយ៉ូក្នុងស្រុក",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាអំពីគំរូភាសាអូឌីយ៉ូ ដើម្បីកំណត់ថាតើការផ្លាស់ប្តូរចម្លើយបន្ទាប់ពីការកែសម្រួលព្រឹត្តិការណ៍សំឡេងក្នុងស្រុកឆ្លុះបញ្ចាំងពីភាពរសើបនៃថ្នាក់ព្រឹត្តិការណ៍ ឬភាពរសើបនៃការសរសេរទម្រង់រលកឡើងវិញ។ តាមរយៈការប្រៀបធៀបការជំនួសថ្នាក់ដូចគ្នា និងថ្នាក់ផ្សេងគ្នាលើទេសភាពសំឡេងសំយោគចំនួន ៦០០ និងគំរូបី វាត្រូវបានរកឃើញថាការជំនួសថ្នាក់ផ្សេងគ្នាបង្កើតការផ្លាស់ប្តូរចម្លើយច្រើនជាងការជំនួសថ្នាក់ដូចគ្នាពី ៤៩.៧ ទៅ ៦០.៩ ពិន្ទុភាគរយ។ ភាពត្រឹមត្រូវនៃថ្នាក់ដូចគ្នាគឺនៅតែស្ថិតក្នុងចន្លោះ ៥.២ ពិន្ទុភាគរយនៃភាពត្រឹមត្រូវដើម។",
+   "impact": "ពិធីការធ្វើតេស្តនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវឱ្យយល់កាន់តែច្បាស់អំពីរបៀបដែលគំរូភាសាអូឌីយ៉ូឆ្លើយតបទៅនឹងការផ្លាស់ប្តូរក្នុងស្រុកនៃថ្នាក់ព្រឹត្តិការណ៍។",
+   "keyPoints": [
+    "បានធ្វើតេស្តលើទេសភាពសំឡេងសំយោគចំនួន ៦០០ និងគំរូបីពីគ្រួសារស្ថាបត្យកម្មពីរ។",
+    "ការជំនួសថ្នាក់ផ្សេងគ្នាបានបង្កើតការផ្លាស់ប្តូរចម្លើយពី ៤៩.៧ ទៅ ៦០.៩ ពិន្ទុភាគរយច្រើនជាងការជំនួសថ្នាក់ដូចគ្នា។",
+    "ភាពត្រឹមត្រូវនៃថ្នាក់ដូចគ្នាបាននៅសល់ក្នុងរង្វង់ ៥.២ ពិន្ទុភាគរយនៃភាពត្រឹមត្រូវដើម។",
+    "ភាពត្រឹមត្រូវដែលបានជ្រើសរើសដែលមានទម្ងន់ទេសភាពសំឡេងសម្រាប់ថ្នាក់ដែលបានបញ្ចូលគឺពី ៧៣.៧ ទៅ ៨១.៩%។"
+   ]
+  },
+  "zh-CN": {
+   "title": "超越回答变化：用于本地音频证据的匹配同类对照",
+   "summary": "研究人员对音频语言模型进行了研究，以确定本地声音事件编辑后的回答变化反映的是事件类别敏感性、波形重写敏感性，还是两者兼有。通过在600个合成音景和来自两个架构系列的三个模型中比较匹配的同类替换与不同类替换，研究发现不同类替换产生的回答变化比同类替换多出49.7到60.9个百分点。同类准确率保持在原始准确率的5.2个百分点以内。",
+   "impact": "该测试协议可能有助于开发者和研究人员更好地理解音频语言模型如何响应事件类别的本地变化。它可能有助于评估模型的敏感性和可靠性。",
+   "keyPoints": [
+    "测试了600个合成音景以及来自两个架构系列的三个模型。",
+    "不同类替换产生的回答变化比同类替换多49.7到60.9个百分点。",
+    "同类准确率与原始准确率的差距保持在5.2个百分点以内。",
+    "插入类别的音景加权选择性准确率为73.7%至81.9%。"
+   ]
+  },
+  "ko": {
+   "title": "답변 변경을 넘어: 로컬 오디오 증거를 위한 일치된 동급 대조군",
+   "summary": "연구진은 오디오-언어 모델을 연구하여 로컬 사운드 이벤트 편집 후의 답변 변경이 이벤트 클래스 민감성, 파형 재작성 민감성 또는 둘 다를 반영하는지 확인했습니다. 600개의 합성 사운드스케이프와 두 개의 아키텍처 패밀리 소속 세 가지 모델에서 일치하는 동급 교체와 다른급 교체를 비교한 결과, 다른급 교체는 동급 교체보다 49.7에서 60.9 퍼센트 포인트 더 많은 답변 변경을 발생시켰습니다. 동급 정확도는 원래 정확도의 5.2 퍼센트 포인트 이내로 유지되었습니다.",
+   "impact": "이 테스트 프로토콜은 개발자와 연구진이 오디오-언어 모델이 이벤트 클래스의 로컬 변화에 어떻게 반응하는지 더 잘 이해하는 데 도움을 줄 수 있습니다. 모델의 민감성과 신뢰성을 평가하는 데 유용할 수 있습니다.",
+   "keyPoints": [
+    "600개의 합성 사운드스케이프와 두 개의 아키텍처 패밀리 소속 세 가지 모델을 테스트했습니다.",
+    "다른급 교체는 동급 교체에 비해 49.7에서 60.9 퍼센트 포인트 더 많은 답변 변경을 생성했습니다.",
+    "동급 정확도는 원래 정확도의 5.2 퍼센트 포인트 이내로 유지되었습니다.",
+    "삽입된 클래스에 대한 사운드스케이프 가중 선택적 정확도는 73.7에서 81.9%였습니다."
+   ]
+  }
+ }
+}

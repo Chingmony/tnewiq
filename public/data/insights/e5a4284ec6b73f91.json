@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e5a4284ec6b73f91",
+ "contentHash": "da23812f5f4d1901",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:40:36.590Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Kinematic Constraint-Referenced Evaluation for Articulated Object Manipulation",
+   "summary": "Researchers introduce Constraint-Referenced Strategy (CRS), a new evaluation method for articulated object manipulation that projects end-effector twists onto object joint axes. CRS separates progress along a joint from off-constraint waste without requiring recorded demonstrations or learned judges. Tests on simulated objects showed that CRS can detect distinct behavioral signatures that binary task success metrics miss.",
+   "impact": "This evaluation method could help developers better diagnose manipulation policy failures by identifying off-axis movements and distinguishing between different transfer failures. Security teams and developers may find it useful for precise performance analysis of robotic controllers.",
+   "keyPoints": [
+    "CRS projects the commanded end-effector twist onto the object's joint axis.",
+    "The method requires a joint model and a joint-following scripted controller.",
+    "It does not require recorded demonstrations or learned judges.",
+    "CRS verdicts remain unchanged under joint-axis errors up to 30 degrees relative to a scripted controller."
+   ]
+  },
+  "km": {
+   "title": "ការវាយតម្លៃផ្អែកលើការកំណត់កម្រិត kinematic សម្រាប់ការគ្រប់គ្រងវត្ថុដែលមានសន្លាក់",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំយុទ្ធសាស្ត្រ Constraint-Referenced Strategy (CRS) ដែលជាវិធីសាស្ត្រវាយតម្លៃថ្មីសម្រាប់ការគ្រប់គ្រងវត្ថុដែលមានសន្លាក់។ វិធីសាស្ត្រនេះបែងចែកវឌ្ឍនភាពតាមបណ្តោយសន្លាក់ពីការខ្ជះខ្ជាយក្រៅកម្រិតដោយមិនចាំបាច់មានការបង្ហាញដែលបានថត់ទុកនោះទេ។ ការធ្វើតេស្តលើវត្ថុត្រាប់តាមបានបង្ហាញថា CRS អាចរកឃើញលក្ខណៈអាកប្បកិរិយាផ្សេងៗគ្នាដែលរង្វាស់ជោគជ័យបែបគោលពីរខកខានមិនបានដឹង។",
+   "impact": "វិធីសាស្ត្រវាយតម្លៃនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ធ្វើរោគវិនិច្ឆ័យការបរាជ័យនៃគោលនយោបាយគ្រប់គ្រងបានប្រសើរជាងមុនតាមរយៈការកំណត់អត្តសញ្ញាណចលនាខុសអ័ក្ស។ ក្រុមសុវត្ថិភាពនិងអ្នកអភិវឌ្ឍន៍អាចយល់ឃើញថាវាមានប្រយោជន៍សម្រាប់ការវិភាគដំណើរការយ៉ាងជាក់លាក់នៃឧបករណ៍បញ្ជាមនុស្សយន្ត។",
+   "keyPoints": [
+    "CRS ព្យាករណ៍ការបង្វិលចុងបញ្ចប់ទៅលើអ័ក្សសន្លាក់របស់វត្ថុ។",
+    "វិធីសាស្ត្រនេះទាមទារគំរូសន្លាក់និងឧបករណ៍បញ្ជាតាមសន្លាក់។",
+    "វាពុំត្រូវការការបង្ហាញដែលបានថតទុកឬអ្នកវាយតម្លៃដែលបានរៀននោះទេ។",
+    "ការវិនិច្ឆ័យរបស់ CRS មិនមានការប្រែប្រួលក្រោមការខុសឆ្គងអ័ក្សសន្លាក់រហូតដល់ 30 ដឺក្រេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "关节物体操作的运动学约束参考评估",
+   "summary": "研究人员引入了约束参考策略（CRS），这是一种用于关节物体操作的新评估方法，通过将末端执行器扭转投影到物体的关节轴上来工作。CRS 将沿关节的进展与偏离约束的无效动作分离，且不需要录制的示范或学习型评判器。对模拟物体的测试表明，CRS 可以检测出二进制任务成功指标所忽略的独特行为特征。",
+   "impact": "这种评估方法可以帮助开发人员通过识别偏轴运动来更好地诊断操作策略的失败。安全团队和开发人员可能会发现它对于精确分析机器人控制器的性能非常有用。",
+   "keyPoints": [
+    "CRS 将指令末端执行器扭转投影到物体的关节轴上。",
+    "该方法需要一个关节模型和一个由其衍生的关节跟随脚本控制器。",
+    "它不需要录制的示范或学习型评判器。",
+    "相对于脚本控制器，CRS 判定在高达 30 度的关节轴误差下保持不变。"
+   ]
+  },
+  "ko": {
+   "title": "관절형 객체 조작을 위한 운동학적 제약 참조 평가",
+   "summary": "연구원들은 객체의 관절 축에 엔드이펙터 비틀림을 투영하는 관절형 객체 조작 평가 방법인 Constraint-Referenced Strategy(CRS)를 도입했습니다. CRS는 녹화된 시연이나 학습된 판정기 없이 관절을 따라 진행되는 진행 상황과 제약 외 낭비를 구분합니다. 시뮬레이션된 객체에 대한 테스트 결과, CRS는 이진 작업 성공 지표가 놓치는 고유한 행동 특성을 감지할 수 있는 것으로 나타났습니다.",
+   "impact": "이 평가 방법은 개발자가 축 이탈 움직임을 식별하여 조작 정책 실패를 더 잘 진단하는 데 도움을 줄 수 있습니다. 보안 팀과 개발자는 로봇 제어기의 정확한 성능 분석에 유용하게 사용할 수 있습니다.",
+   "keyPoints": [
+    "CRS는 명령된 엔드이펙터 비틀림을 객체의 관절 축에 투영합니다.",
+    "이 방법은 관절 모델과 그로부터 파생된 관절 추적 스크립트 제어기가 필요합니다.",
+    "기록된 시연이나 학습된 판정기는 필요하지 않습니다.",
+    "CRS 판정은 스크립트 제어기 대비 최대 30도의 관절 축 오류 하에서 변경되지 않습니다."
+   ]
+  }
+ }
+}

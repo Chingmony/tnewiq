@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "43fc8fdeaf4daa89",
+ "contentHash": "f64849a7397600b3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:36:55.919Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "VideoLVR: Latent Visual Reasoning over Grounded Video Evidence",
+   "summary": "Researchers have introduced VideoLVR, a method that constructs latent visual evidence from local regions at relevant video moments to improve video understanding in multimodal large language models. The approach uses a visual token prediction objective to supervise latent visual evidence generation and integrates with reinforcement learning. Experiments across multiple video benchmarks show that VideoLVR improves video understanding, particularly for fine-grained tasks, without substantially expanding the multimodal context.",
+   "impact": "This approach could help developers and researchers improve video understanding in multimodal models without incurring the high context expansion costs associated with reinserting cropped regions or frames. Security teams and technology users may benefit from more reliable reasoning over visual content in video analysis applications.",
+   "keyPoints": [
+    "VideoLVR constructs latent visual evidence from local regions at relevant video moments.",
+    "A visual token prediction objective unifies visual evidence reconstruction and text generation.",
+    "The method can be extended to reinforcement learning by treating sampled visual tokens as actions.",
+    "Experiments demonstrate effectiveness on multiple video benchmarks, especially for fine-grained tasks."
+   ]
+  },
+  "km": {
+   "title": "VideoLVR៖ ការហេតុផលមើលឃើញមិនទាន់ឃើញច្បាស់លើភស្តុតាងវីដេអូដែលមានមូលដ្ឋាន",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ VideoLVR ដែលជាវិធីសាស្ត្រមួយបង្កើតភស្តុតាងមើលឃើញមិនទាន់ឃើញច្បាស់ពីតំបន់ក្នុងមូលដ្ឋាននៅពេលវីដេអូពាក់ព័ន្ធ ដើម្បីកែលម្អការយល់ដឹងវីដេអូក្នុងគំរូភាសាធំ multimodal ។ វិធីសាស្ត្រនេះប្រើប្រាស់គោលដៅព្យាករណ៍ថូខឹនមើលឃើញដើម្បីគ្រប់គ្រងការបង្កើតភស្តុតាង និងរួមបញ្ចូលជាមួយនឹងការរៀនពង្រឹង។ ការពិសោធន៍លើស្តង់ដារវីដេអូជាច្រើនបង្ហាញថា VideoLVR ធ្វើឱ្យការយល់ដឹងវីដេអូកាន់តែប្រសើរឡើងដោយមិនពង្រីកបរិបទ multimodal ខ្លាំងនោះទេ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍កែលម្អការយល់ដឹងវីដេអូក្នុងគំរូ multimodal ដោយមិនបាត់បង់ការចំណាយលើការការពង្រីកបរិបទ។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានផលប្រយោជន៍ពីការហេតុផលដែលគួរឱ្យទុកចិត្តជាងមុនលើខ្លឹមសារវីដេអូ។",
+   "keyPoints": [
+    "VideoLVR បង្កើតភស្តុតាងមើលឃើញមិនទាន់ឃើញច្បាស់ពីតំបន់ក្នុងមូលដ្ឋាននៅពេលវីដេអូពាក់ព័ន្ធ។",
+    "គោលដៅព្យាករណ៍ថូខឹនមើលឃើញបង្រួបបង្រួមការបង្កើតភស្តុតាងឡើងវិញ និងការបង្កើតអត្ថបទ។",
+    "វិធីសាស្ត្រនេះអាចពង្រីកទៅដល់ការរៀនពង្រឹងដោយចាត់ទុកថូខឹនមើលឃើញជាសកម្មភាព។",
+    "ការពិសោធន៍បង្ហាញពីប្រសិទ្ធភាពលើស្តង់ដារវីដេអូច្រើន ជាពិសេសលើកិច្ចការលម្អិត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "VideoLVR：基于扎实视频证据的潜在视觉推理",
+   "summary": "研究人员推出了 VideoLVR，这是一种在相关视频时刻从局部区域构建潜在视觉证据的方法，以改善多模态大语言模型中的视频理解能力。该方法使用视觉词元预测目标来监督潜在视觉证据的生成，并与强化学习相结合。在多个视频基准上的实验表明，VideoLVR 改善了视频理解能力，特别是在需要细粒度视觉证据的任务上，且没有大幅扩展多模态上下文。",
+   "impact": "这种方法可以帮助开发人员在不显著增加多模态上下文扩展成本的情况下改善多模态模型的视频理解。技术用户和安全团队可能会受益于视频分析应用中对视觉内容更可靠的推理。",
+   "keyPoints": [
+    "VideoLVR 从相关视频时刻的局部区域构建潜在视觉证据。",
+    "视觉词元预测目标将视觉证据重建和文本生成统一在同一框架中。",
+    "该方法通过将采样的视觉词元视作动作来扩展到强化学习中。",
+    "多项视频基准实验证明了其有效性，特别针对细粒度任务。"
+   ]
+  },
+  "ko": {
+   "title": "VideoLVR: 근거 기반 비디오 증거에 대한 잠재적 시각적 추론",
+   "summary": "연구진은 멀티모달 대형 언어 모델의 비디오 이해도를 향상시키기 위해 관련 비디오 시점의 로컬 영역에서 잠재적 시각적 증거를 구축하는 방법인 VideoLVR을 소개했습니다. 이 접근 방식은 시각적 토큰 예측 목표를 사용하여 잠재적 시각적 증거 생성을 감독하고 강화 학습과 결합합니다. 여러 비디오 벤치마크 실험에 따르면 VideoLVR은 멀티모달 컨텍스트를 크게 확장하지 않으면서도 비디오 이해도를 향상시킵니다.",
+   "impact": "이 접근 방식은 개발자가 크롭된 영역이나 프레임을 다시 삽입하는 데 따르는 높은 컨텍스트 확장 비용 없이 멀티모달 모델의 비디오 이해도를 향상시키는 데 도움을 줄 수 있습니다. 기술 사용자들은 비디오 분석 애플리케이션에서 시각적 내용에 대한 보다 안정적인 추론의 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "VideoLVR은 관련 비디오 시점의 로컬 영역에서 잠재적 시각적 증거를 구축합니다.",
+    "시각적 토큰 예측 목표는 시각적 증거 재구성와 텍스트 생성을 통합합니다.",
+    "이 방법은 샘플링된 시각적 토큰을 액션으로 처리하여 강화 학습으로 확장됩니다.",
+    "여러 비디오 벤치마크에서의 실험을 통해 특히 세밀한 작업에서 효과가 입증되었습니다."
+   ]
+  }
+ }
+}

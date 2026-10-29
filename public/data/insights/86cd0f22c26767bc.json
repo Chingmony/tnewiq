@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "86cd0f22c26767bc",
+ "contentHash": "2b4795a2cb85143d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:37:07.254Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "EnvSched: Environment-Aware Scheduling for Rollout-Efficient Agent Reinforcement Learning",
+   "summary": "Researchers introduced EnvSched, an online scheduler designed to make agentic reinforcement learning more efficient by organizing, evaluating, and scheduling task instances together with their environments. EnvSched uses rollout history to assign scheduling value through exploitation and coverage, organizing environment-task pairs in a dual-relation graph. When tested on Qwen3-8B using BFCL-v3, tau-Bench, and ACEBench-Agent, EnvSched achieved an average score of 48.81 after 40 steps, surpassing the top random selection score attained after 120 steps.",
+   "impact": "This approach could help developers and researchers improve the rollout efficiency of agent reinforcement learning under finite budgets. It may also improve downstream performance across different model sizes without requiring additional pilot rollouts.",
+   "keyPoints": [
+    "EnvSched is an online scheduler that learns from rollout history to manage data at the environment level.",
+    "It models environment-task pairs as nodes in a dual-relation graph to predict within-task reward variance.",
+    "It uses quotas and similarity penalties to limit concentration and maintain diverse batches.",
+    "It achieved an average score of 48.81 after 40 training steps on Qwen3-8B, outperforming random task selection after 120 steps."
+   ]
+  },
+  "km": {
+   "title": "EnvSched៖ ការកំណត់ពេលដែលដឹងពីបរិស្ថានសម្រាប់ការពង្រឹងការសិក្សាសារព័ត៌មានភ្នាក់ងារប្រកបដោយប្រសិទ្ធភាព",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ EnvSched ដែលជាកម្មវិធីកំណត់ពេលតាមអ៊ីនធឺណិតត្រូវបានរចនាឡើងដើម្បីធ្វើឱ្យការពង្រឹងការសិក្សារបស់ភ្នាក់ងារកាន់តែមានប្រសិទ្ធភាពដោយការរៀបចំ និងវាយតម្លៃកិច្ចការជាមួយបរិស្ថានរបស់ពួកគេ។ EnvSched ប្រើប្រាស់ប្រវត្តិសាស្រ្តរំកិលដើម្បីកំណត់តម្លៃកំណត់ពេលតាមរយៈការកេងប្រវ័ញ្ច និងការគ្របដណ្តប់ ដោយរៀបចំគូបរិស្ថាន-កិច្ចការនៅក្នុងក្រាហ្វទំនាក់ទំនងទ្វេដង។ នៅពេលធ្វើតេស្តលើ Qwen3-8B តាមរយៈ BFCL-v3, tau-Bench និង ACEBench-Agent វាទទួលបានពិន្ទុជាមធ្យម 48.81 បន្ទាប់ពី 40 ជំហាន។",
+   "impact": "វិធីសាស្រ្តនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវកែលម្អប្រសិទ្ធភាពនៃការរៀនពង្រឹងភ្នាក់ងារក្រោមថវិកាកំណត់។ វាក៏អាចបង្កើនដំណើរការនៅពេលអនាគតផងដែរ។",
+   "keyPoints": [
+    "EnvSched គឺជាកម្មវិធីកំណត់ពេលតាមអ៊ីនធឺណិតដែលរៀនពីប្រវត្តិរំកិលដើម្បីគ្រប់គ្រងទិន្នន័យនៅកម្រិតបរិស្ថាន។",
+    "វាគំរូគូបរិស្ថាន-កិច្ចការជាโหนดនៅក្នុងក្រាហ្វទំនាក់ទំនងទ្វេដង។",
+    "វាប្រើប្រាស់កូតា និងការពិន័យស្រដៀងគ្នាដើម្បីរក្សាភាគហ៊ុនចម្រុះ។",
+    "វាទទួលបានពិន្ទុជាមធ្យម 48.81 បន្ទាប់ពី 40 ជំហាននៅលើ Qwen3-8B ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "EnvSched：用于提升智能体强化学习推出效率的环境感知调度",
+   "summary": "研究人员推出了 EnvSched，这是一个在线调度程序，旨在通过将任务实例与其确定工具、状态和验证程序的环境一起组织和评估，来提高智能体强化学习的效率。EnvSched 利用推出历史通过利用和覆盖来分配调度价值，并在双关系图中组织环境-任务对。在使用 BFCL-v3、tau-Bench 和 ACEBench-Agent 对 Qwen3-8B 进行测试时，EnvSched 在 40 个训练步骤后达到了 48.81 的平均分，超过了随机任务选择在 120 个步骤后达到的最高分。",
+   "impact": "这种方法可以帮助开发人员和研究人员在有限的预算下提高智能体强化学习的推出效率。它还可能在相同的训练预算下改善不同模型大小的下游性能。",
+   "keyPoints": [
+    "EnvSched 是一个从推出历史中学习的在线调度程序，用于在环境级别管理数据。",
+    "它将环境-任务对建模为双关系图中的节点，以预测任务内奖励方差。",
+    "它使用配额和相似性惩罚来限制集中度并保持多样化的批次。",
+    "它在 Qwen3-8B 上经过 40 个训练步骤后平均得分为 48.81，优于随机任务选择。"
+   ]
+  },
+  "ko": {
+   "title": "EnvSched: 롤아웃 효율적인 에이전트 강화학습을 위한 환경 인지 스케줄링",
+   "summary": "연구원들은 도구, 상태 및 검증기를 결정하는 환경과 함께 작업 인스턴스를 구성, 평가 및 예약하여 에이전트 강화 학습을 더 효율적으로 만들도록 설계된 온라인 스케줄러인 EnvSched를 도입했습니다. EnvSched는 롤아웃 기록을 사용하여 활용 및 커버리지를 통해 스케줄링 값을 할당하고, 이중 관계 그래프에서 환경-작업 쌍을 구성합니다. BFCL-v3, tau-Bench, ACEBench-Agent를 사용한 Qwen3-8B 테스트에서 EnvSched는 40번의 학습 단계 후에 48.81의 평균 점수를 달성했습니다.",
+   "impact": "이 접근 방식은 개발자와 연구원이 제한된 예산 하에서 에이전트 강화 학습의 롤아웃 효율성을 개선하는 데 도움이 될 수 있습니다. 또한 추가 파일럿 롤아웃 없이 다양한 모델 크기에서 다운스트림 성능을 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "EnvSched는 롤아웃 기록에서 학습하여 환경 수준에서 데이터를 관리하는 온라인 스케줄러입니다.",
+    "이중 관계 그래프의 노드로 환경-작업 쌍을 모델링합니다.",
+    "할당량과 유사성 페널티를 사용하여 집중을 제한하고 다양한 배치를 유지합니다.",
+    "Qwen3-8B에서 40번의 학습 단계 후 평균 점수 48.81을 달성했습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "da9c62c52f6c35e6",
+ "contentHash": "3781a308411bd29d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:33:18.352Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Quoting Ted Sanders",
+   "summary": "Ted Sanders explained OpenAI's model naming conventions and the multidimensional nature of LLM performance. He noted that while performance varies across tasks, much of it is explained by model size, where larger models are generally more performant, cost more per token, and have better recall of esoteric facts. Sanders also detailed how version numbers signify release order, relationships to other releases, and the magnitude of improvement.",
+   "impact": "Developers and technology users may use this insight to better understand model scaling, performance trade-offs, and versioning conventions when selecting LLMs for their applications.",
+   "keyPoints": [
+    "LLM performance is multidimensional and not strictly ordered across different tasks.",
+    "Much of the performance variation is explained by model size.",
+    "Bigger models are generally more performant, cost more per token, and have better recall of esoteric facts.",
+    "Version numbers signify release order, relationship to other releases, and the magnitude of improvement."
+   ]
+  },
+  "km": {
+   "title": "ការដកស្រង់សម្តី Ted Sanders",
+   "summary": "Ted Sanders បានពន្យល់ពីបទបញ្ញត្តិដាក់ឈ្មោះម៉ូដែលរបស់ OpenAI និងធម្មជាតិពហុវិមាត្រនៃដំណើរការ LLM។ លោកបានកត់សម្គាល់ថា ទោះបីជាដំណើរការប្រែប្រួលតាមភារកិច្ចក៏ដោយ ភាគច្រើននៃបំរែបំរួលនេះត្រូវបានពន្យល់ដោយទំហំម៉ូដែល។ ម៉ូដែលធំជាងជាទូៃលមានដំណើរការល្អជាង ចំណាយអស់ច្រើនជាងក្នុងមួយថូខឹន និងចងចាំការពិតឯកទេសបានល្អជាង។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចយល់ដឹងកាន់តែច្បាស់អំពីការធ្វើមាត្រដ្ឋានម៉ូដែល ការប្តូរប្រាក់ និងបទបញ្ញត្តិដាក់កំណែ នៅពេលជ្រើសរើស LLM សម្រាប់កម្មវិធីរបស់ពួកគេ។",
+   "keyPoints": [
+    "ដំណើរការ LLM គឺពហុវិមាត្រ និងមិនមានការតម្រៀបជាក់លាក់ទេ។",
+    "ទំហំម៉ូដែលពន្យល់ពីបំរែបំរួលដំណើរការភាគច្រើន។",
+    "ម៉ូដែលធំជាងមានដំណើរការល្អជាង ចំណាយប្រាក់ច្រើន និងចងចាំបានល្អជាង។",
+    "លេខកំណែបង្ហាញពីលំដាប់នៃការចេញផ្សាយ និងកម្រិតនៃការកែលម្អ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "引用 Ted Sanders 的话",
+   "summary": "Ted Sanders 解释了 OpenAI 的模型命名惯例以及大语言模型性能的多维特性。他指出，尽管性能因任务而异，但大部分性能变化都可以用模型大小来解释。一般来说，更大的模型性能更强、每 token 成本更高且对冷门事实的记忆更好。Sanders 还详细说明了版本号如何表示发布顺序、与其他发布的关系以及改进的幅度。",
+   "impact": "开发人员和技术用户可以更好地理解模型规模、性能权衡以及在为其应用程序选择大语言模型时的版本命名惯例。",
+   "keyPoints": [
+    "大语言模型的性能是多维的，在不同任务之间没有固定的排序。",
+    "性能的大部分变化可以用模型大小来解释。",
+    "更大的模型通常性能更好、每个 token 成本更高，并且对冷门事实的记忆更好。",
+    "版本号表示发布顺序、与其他发布的关系以及改进幅度。"
+   ]
+  },
+  "ko": {
+   "title": "Ted Sanders 인용하기",
+   "summary": "Ted Sanders는 OpenAI의 모델 명명 규칙과 LLM 성능의 다차원적 특성에 대해 설명했다. 그는 성능이 작업마다 다양하지만 성능 변동의 상당 부분이 모델 크기로 설명된다고 언급했다. 일반적으로 더 큰 모델은 더 우수한 성능을 내고, 토큰당 비용이 더 많이 들며, 생소한 사실에 대한 회상 능력이 더 좋다.",
+   "impact": "개발자와 기술 사용자는 애플리케이션용 LLM을 선택할 때 모델 확장, 성능 트레이드오프, 버전 관리 규칙을 더 잘 이해할 수 있다.",
+   "keyPoints": [
+    "LLM 성능은 다차원적이며 작업 전반에 걸쳐 고정된 순서가 없다.",
+    "성능 변동의 대부분은 모델 크기로 설명된다.",
+    "더 큰 모델은 일반적으로 성능이 더 좋고 토큰당 비용이 더 많이 든다.",
+    "버전 번호는 릴리스 순서와 개선의 크기를 나타낸다."
+   ]
+  }
+ }
+}

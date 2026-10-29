@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3ca8fbf291564688",
+ "contentHash": "faf8dc34cc136168",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-29T02:37:35.876Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "MoI-Bench: A Benchmark for Image Generation and Editing on Mobile Devices",
+   "summary": "Researchers introduce MoI-Bench, a new benchmark designed to evaluate image generation and editing models on mobile devices based on practical user needs. The benchmark includes 64 subtasks and 1150 samples structured around operations and visual targets, accompanied by MoI-Eval for detailed criteria-based evaluation. The evaluation of representative models reveals insights into capability gaps between on-device and server-side models, as well as deployment costs. The findings suggest that expanding task coverage and improving editing quality are more critical for current on-device models than pursuing further deployment efficiency.",
+   "impact": "Developers and researchers working on mobile AI models could use these insights to target specific capability gaps rather than broad goals. The two-dimensional Quality-Deployability map may help teams better assess the practical suitability of models for mobile deployment.",
+   "keyPoints": [
+    "MoI-Bench consists of 64 subtasks and 1150 samples grounded in mobile user needs.",
+    "The benchmark features 16 operations and 8 visual target categories forming an Operation x Target design.",
+    "MoI-Eval provides task-specific criteria covering instruction following, visual quality, and detail preservation.",
+    "A Quality-Deployability capability map is introduced to assess models for practical mobile use."
+   ]
+  },
+  "km": {
+   "title": "MoI-Bench៖ ស្តង់ដារវាយតម្លៃសម្រាប់ការបង្កើត និងកែសម្រួលរូបភាពនៅលើឧបករណ៍ចល័ត",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ MoI-Bench ដែលជាស្តង់ដារវាយតម្លៃថ្មីមួយត្រូវបានបង្កើតឡើងដើម្បីវាយតម្លៃម៉ូដែលបង្កើត និងកែសម្រួលរូបភាពនៅលើឧបករណ៍ចល័តដោយផ្អែកលើតម្រូវការជាក់ស្តែងរបស់អ្នកប្រើប្រាស់។ ស្តង់ដារនេះរួមមានអនុភារកិច្ចចំនួន 64 និងគំរូចំនួន 1150 ដែលរៀបចំឡើងជុំវិញប្រតិបត្តិការ និងគោលដៅរូបភាព ព្រមទាំងមានភ្ជាប់មកជាមួយនូវ MoI-Eval សម្រាប់ការវាយតម្លៃលម្អិត។ លទ្ធផលនៃការវាយតម្លៃបានបង្ហាញពីគម្លាតសមត្ថភាពរវាងម៉ូដែលនៅលើឧបករណ៍ចល័ត និងម៉ូដែលនៅលើម៉ាស៊ីនមេ ក៏ដូចជាការចំណាយលើការដាក់ពង្រាយផងដែរ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវដែលធ្វើការលើម៉ូដែលបញ្ញាសិប្បនិម្មិតនៅលើឧបករណ៍ចល័តអាចប្រើប្រាស់ការយល់ដឹងទាំងនេះដើម្បីដោះស្រាយគម្លាតសមត្ថភាពជាក់លាក់។ ផែនទីសមត្ថភាពគុណភាព និងលទ្ធភាពដាក់ពង្រាយអាចជួយក្រុមការងារវាយតម្លៃភាពសមស្របជាក់ស្តែងនៃម៉ូដែល.",
+   "keyPoints": [
+    "MoI-Bench មានអនុភារកិច្ចចំនួន 64 និងគំរូចំនួន 1150។",
+    "វាមានកំណត់ប្រតិបត្តិការចំនួន 16 និងប្រភេទគោលដៅរូបភាពចំនួន 8។",
+    "MoI-Eval ផ្តល់នូវលក្ខណៈវិនិច្ឆ័យជាក់លាក់សម្រាប់ភារកិច្ចនីមួយៗ។",
+    "ផែនទីសមត្ថភាពគុណភាព និងលទ្ធភាពដាក់ពង្រាយត្រូវបានណែនាំសម្រាប់ការវាយតម្លៃជាក់ស្តែង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "MoI-Bench：移动设备图像生成与编辑基准测试",
+   "summary": "研究人员推出了 MoI-Bench，这是一个基于移动端实际用户需求构建的图像生成与编辑基准测试。该基准包含 64 个子任务和 1150 个样本，涵盖 16 种操作和 8 种视觉目标类别，并配合 MoI-Eval 提供了详细的评估标准。对代表性模型的评估揭示了端侧模型与服务器端模型之间的能力差距及部署成本。研究表明，扩大任务覆盖范围和提升编辑效率对当前端侧模型而言比一味追求部署效率更为重要。",
+   "impact": "开发人员和研究人员可以利用这些洞察来精确定位具体的模型能力差距，而非盲目追求广泛的应用目标。二维的质量与可部署性能力图谱有助于团队更好地评估模型在移动端的实际适用性。",
+   "keyPoints": [
+    "MoI-Bench 包含 64 个子任务和 1150 个样本，基于移动用户需求。",
+    "基准采用操作与目标的交叉设计，包含 16 种操作和 8 种视觉目标。",
+    "MoI-Eval 引入了针对指令遵循、视觉质量和细节保持的任务特定标准。",
+    "引入了二维的质量与可部署性能力图谱来评估实际移动端应用。"
+   ]
+  },
+  "ko": {
+   "title": "MoI-Bench: 모바일 기기에서의 이미지 생성 및 편집을 위한 벤치마크",
+   "summary": "연구원들은 모바일 사용자 요구에 기반하여 이미지 생성 및 편집 모델을 평가하기 위해 설계된 새로운 벤치마크인 MoI-Bench를 발표했습니다. 이 벤치마크는 64개의 하위 태스크와 1150개의 샘플로 구성되며, 연산과 시각적 목표를 중심으로 설계되었고 상세한 평가 기준을 제공하는 MoI-Eval을 동반합니다. 대표적인 모델들에 대한 평가는 온디바이스 모델과 서버 사이드 모델 간의 역량 격차 및 배포 비용을 보여줍니다. 현재 온디바이스 모델의 경우 배포 효율성 향상보다는 태스크 커버리지 확대와 편집 품질 개선이 더 중요하다는 점을 시사합니다.",
+   "impact": "모바일 AI 모델을 개발하는 개발자와 연구원들은 광범위한 목표 대신 특정 역량 격차를 해결하기 위해 이러한 통찰력을 활용할 수 있습니다. 2차원 품질-배포성 역량 맵은 팀이 모바일 배포를 위한 모델의 실제 적합성을 더 잘 평가하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "MoI-Bench는 모바일 사용자 요구에 기반한 64개의 하위 태스크와 1150개의 샘플을 포함합니다.",
+    "이 벤치마크는 16개의 연산과 8개의 시각적 목표 범주를 정의하는 직교 축 구조를 사용합니다.",
+    "MoI-Eval은 지시 따르기, 시각적 품질, 세부 사항 보존을 아우르는 태스크별 기준을 제공합니다.",
+    "실제 모바일 사용을 위해 모델을 평가하는 2차원 품질-배포성 역량 맵이 도입되었습니다."
+   ]
+  }
+ }
+}
