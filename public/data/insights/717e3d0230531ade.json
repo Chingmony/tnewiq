@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "717e3d0230531ade",
+ "contentHash": "44906947dfad1920",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T16:06:07.025Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Attackers exploit PHP2Shell vulnerability to compromise US government servers",
+   "summary": "Ten days after the disclosure of two RCE vulnerabilities in PHP, they have been weaponized and actively exploited against Palo Alto Networks PAN-OS firewalls. Security firm Dream discovered a complete set of attack artifacts on October 25, including a custom PHP2Shell exploitation chain and Fragnesia kernel privilege escalation.",
+   "impact": "This active exploitation could pose significant risks to organizations using vulnerable systems, as attackers are utilizing these chains for server compromise. Security teams may need to prioritize patching and monitoring for indicators of compromise related to these specific vulnerabilities.",
+   "keyPoints": [
+    "Two PHP RCE vulnerabilities have been weaponized and utilized in real-world attacks.",
+    "The attacks targeted Palo Alto Networks PAN-OS firewalls rather than ordinary PHP websites.",
+    "Security firm Dream found a custom PHP2Shell exploitation chain and Fragnesia kernel privilege escalation on October 25."
+   ]
+  },
+  "km": {
+   "title": "អ្នកប្រយុទ្ធប្រើប្រាស់ភាពខ្វះចន្លោះ PHP2Shell ដើម្បីគ្រប់គ្រងម៉ាស៊ីនបម្រើរបស់រដ្ឋាភិបាលសហរដ្ឋអាមេរិក",
+   "summary": "ដប់ថ្ងៃបន្ទាប់ពីការបង្ហាញពីភាពខ្វះចន្លោះ RCE ពីរនៅក្នុង PHP ពួកវាត្រូវបានគេយកមកប្រើប្រាស់ជាអាវុធ និងវាយប្រហារលើផ្ទាំងគ្រប់គ្រង Palo Alto Networks PAN-OS firewalls ។ ក្រុមហ៊ុនសន្តិសុខ Dream បានរកឃើញសំណល់នៃការវាយប្រហារពេញលេញកាលពីថ្ងៃទី 25 ខែតុលា រួមទាំងខ្សែសង្វាក់ khai thác PHP2Shell និងការដំឡើងសិទ្ធិស្នូល Fragnesia ។",
+   "impact": "ការវាយប្រហារសកម្មនេះអាចបង្កហានិភ័យដល់ស្ថាប័នដែលប្រើប្រាស់ប្រព័ន្ធរងគ្រោះ ដោយសារអ្នកវាយប្រហារកំពុងប្រើប្រាស់ខ្សែសង្វាក់ទាំងនេះដើម្បីគ្រប់គ្រងម៉ាស៊ីនបម្រើ។ ក្រុមសន្តិសុខបច្ចេកវិទ្យាអាចនឹងត្រូវផ្តល់អាទិភាពដល់ការបិទរន្ធសុវត្ថិភាព និងការតាមដានសញ្ញាណនៃការគំរាមកំហែង។",
+   "keyPoints": [
+    "ភាពខ្វះចន្លោះ PHP RCE ពីរត្រូវបានយកមកប្រើប្រាស់ជាអាវុធក្នុងការវាយប្រហារជាក់ស្តែង។",
+    "ការវាយប្រហារនេះបានកំណត់គោលដៅទៅលើ Palo Alto Networks PAN-OS firewalls ជំនួសឱ្យគេហទំព័រ PHP ធម្មតា។",
+    "ក្រុមហ៊ុនសន្តិសុខ Dream បានរកឃើញខ្សែសង្វាក់ khai thác PHP2Shell និងការដំឡើងសិទ្ធិស្នូល Fragnesia កាលពីថ្ងៃទី 25 ខែតុលា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "攻击者利用 PHP2Shell 漏洞控入侵美国政府服务器",
+   "summary": "在 PHP 基金会的两个 RCE 漏洞披露十天后，它们已经被武器化并用于实战攻击，目标指向 Palo Alto Networks 的 PAN-OS 防火墙。安全公司 Dream 在 10 月 25 日发现了一整套攻击残留，其中包括定制版 PHP2Shell 利用链和 Fragnesia 内核提权。",
+   "impact": "这种实战利用可能会对使用受影响系统的组织带来重大安全风险，因为攻击者正在利用这些攻击链入侵服务器。安全团队可能需要优先进行补丁修复，并监控与这些特定漏洞相关的妥协指标。",
+   "keyPoints": [
+    "两个 PHP RCE 漏洞已被武器化并在实际攻击中被利用。",
+    "攻击目标是 Palo Alto Networks 的 PAN-OS 防火墙而非普通 PHP 网站。",
+    "安全公司 Dream 于 10 月 25 日发现了定制版 PHP2Shell 利用链和 Fragnesia 内核提权等攻击残留。"
+   ]
+  },
+  "ko": {
+   "title": "공격자가 PHP2Shell 취약점을 이용해 미국 정부 서버를 침해함",
+   "summary": "PHP의 두 가지 RCE 취약점이 공개된 지 열흘 만에 무기화되어 Palo Alto Networks PAN-OS 방화벽을 상대로 실제 공격에 악용되었습니다. 보안 기업 Dream은 10월 25일에 맞춤형 PHP2Shell 익스플로잇 체인과 Fragnesia 커널 권한 상승을 포함한 전체 공격 흔적을 발견했습니다.",
+   "impact": "이번 실전 악용은 취약한 시스템을 사용하는 조직에 심각한 위험을 초래할 수 있으며, 공격자들이 서버 침해를 위해 해당 체인을 사용하고 있기 때문입니다. 보안 팀은 패치 적용과 특정 취약점 관련 침해 지표 모니터링을 우선시해야 할 수 있습니다.",
+   "keyPoints": [
+    "두 개의 PHP RCE 취약점이 무기화되어 실제 공격에 사용되었습니다.",
+    "공격은 일반적인 PHP 웹사이트가 아닌 Palo Alto Networks PAN-OS 방화벽을 겨냥했습니다.",
+    "보안 기업 Dream은 10월 25일에 맞춤형 PHP2Shell 익스플로잇 체인과 Fragnesia 커널 권한 상승 흔적을 발견했습니다."
+   ]
+  }
+ }
+}

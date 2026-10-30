@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2d955aba4d41909b",
+ "contentHash": "c64cf8c356df4f99",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T16:09:47.021Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "VeriCUA: Verification as Agentic Exploration for Computer-Using Agents",
+   "summary": "VeriCUA is a platform-agnostic framework designed to verify task completion for computer-using agents across desktop, mobile, and web environments. Instead of relying on partial views from static VLM judges or generated programs, VeriCUA treats verification as dynamic evidence gathering through agentic exploration. The system constructs a task rubric, selects appropriate GUI or code checks, and combines findings using explicit evidence rules for both online and offline settings.",
+   "impact": "This framework could improve how developers and researchers evaluate computer-using agents by providing more reliable verification and stronger rejection of false completion claims. It may also reduce the engineering costs of tailoring separate verifiers for different platforms.",
+   "keyPoints": [
+    "VeriCUA is a platform-agnostic framework for verification through agentic exploration.",
+    "It combines GUI and code checks to gather evidence for unresolved requirements.",
+    "Experiments demonstrate improved agreement with reference labels compared to baselines.",
+    "The approach shows larger offline gains on hard cases and stronger online rejection of false claims."
+   ]
+  },
+  "km": {
+   "title": "VeriCUA៖ ការផ្ទៀងផ្ទាត់ជាការរុករកដោយភ្នាក់ងារសម្រាប់ភ្នាក់ងារប្រើប្រាស់កុំព្យូទ័រ",
+   "summary": "VeriCUA គឺជាក្របខណ្ឌអព្យាក្រឹតតាមវេទិកាដែលត្រូវបានបង្កើតឡើងដើម្បីផ្ទៀងផ្ទាត់ការបញ្ចប់កិច្ចការសម្រាប់ភ្នាក់ងារប្រើប្រាស់កុំព្យូទ័រនៅទូទាំងបរិយាកាសកុំព្យូទ័រលើតុ ទូរស័ព្ទដៃ និងបណ្តាញ។ វាចាត់ទុកការផ្ទៀងផ្ទាត់ជាការប្រមូលភស្តុតាង និងការវាយតម្លៃថាមវន្តតាមរយៈការរុករកដោយភ្នាក់ងារជំនួសឱ្យការប្រើប្រាស់ទិដ្ឋភាពផ្នែកខ្លះ។ ប្រព័ន្ធនេះបង្កើតលក្ខណៈវិនិច្ឆ័យកិច្ចការ ជ្រើសរើសការពិនិត្យ GUI ឬកូដ និងផ្សំការរកឃើញក្រោមច្បាប់ភស្តុតាងច្បាស់លាស់។",
+   "impact": "ក្របខណ្ឌនេះអាចជួយកែលម្អរបៀបដែលអ្នកអភិវឌ្ឍន៍វាយតម្លៃភ្នាក់ងារប្រើប្រាស់កុំព្យូទ័រដោយផ្តល់នូវការផ្ទៀងផ្ទាត់ដែលគួរឱ្យទុកចិត្តជាងមុន។ វាក៏អាចកាត់បន្ថយការចំណាយផ្នែកវិស្វកម្មផងដែរ។",
+   "keyPoints": [
+    "VeriCUA គឺជាក្របខណ្ឌអព្យាក្រឹតតាមវេទិកាសម្រាប់ការផ្ទៀងផ្ទាត់តាមរយៈការរុករកដោយភ្នាក់ងារ។",
+    "វាបញ្ចូលការពិនិត្យ GUI និងកូដដើម្បីប្រមូលភស្តុតាងសម្រាប់តម្រូវការដែលមិនទាន់ដោះស្រាយ។",
+    "ការពិសោធន៍បង្ហាញពីភាពប្រសើរឡើងក្នុងការយល់ស្របជាមួយស្លាកយោងបើធៀបនឹងមូលដ្ឋានគ្រឹះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "VeriCUA：作为计算机使用代理的代理式探索验证",
+   "summary": "VeriCUA 是一个平台无关的框架，旨在跨桌面、移动和网页环境为计算机使用代理验证任务完成情况。该系统将验证视为通过代理式探索进行的动态证据收集和评估，而不是依赖静态视觉语言模型裁判或生成程序的局部视图。它通过构建任务评分标准、选择 GUI 或代码检查，并在线上和线下设置下结合明确的证据规则来评估结果。",
+   "impact": "该框架可以通过提供更可靠的验证和更强地拒绝虚假完成声明，来改善开发人员评估计算机使用代理的方式。它还可能降低为不同平台定制单独验证器的工程成本。",
+   "keyPoints": [
+    "VeriCUA 是一个用于通过代理式探索进行验证的平台无关框架。",
+    "它结合了 GUI 和代码检查来收集未解决要求的证据。",
+    "实验表明，在这些设置中，与基线相比，它与参考标签的一致性有所提高。"
+   ]
+  },
+  "ko": {
+   "title": "VeriCUA: 컴퓨터 사용 에이전트를 위한 에이전트 탐색으로서의 검증",
+   "summary": "VeriCUA는 데스크톱, 모바일, 웹 환경 전반에서 컴퓨터 사용 에이전트의 작업 완료를 검증하기 위한 플랫폼 중립적 프레임워크입니다. 이 시스템은 정적 VLM 심사관이나 생성된 프로그램의 부분적 뷰에 의존하는 대신 검증을 에이전트 탐색을 통한 동적 증거 수집 및 평가로 처리합니다. 작업 루브릭을 구축하고, GUI 또는 코드 검사를 선택하며, 명시적 증거 규칙에 따라 결과를 결합합니다.",
+   "impact": "이 프레임워크는 개발자가 컴퓨터 사용 에이전트를 평가하는 방식을 개선하고 더 신뢰할 수 있는 검증을 제공할 수 있습니다. 또한 서로 다른 플랫폼을 위해 별도의 검증기를 맞춤화하는 엔지니어링 비용을 줄일 수 있습니다.",
+   "keyPoints": [
+    "VeriCUA는 에이전트 탐색을 통한 검증을 위한 플랫폼 중립적 프레임워크입니다.",
+    "GUI 및 코드 검사를 결합하여 해결되지 않은 요구사항에 대한 증거를 수집합니다.",
+    "실험 결과 기준선에 비해 참조 레이블과의 일치도가 향상된 것으로 나타났습니다."
+   ]
+  }
+ }
+}

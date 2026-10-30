@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d5d3db1f3a9a1503",
+ "contentHash": "54484419a2320e19",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T16:02:39.751Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+   "summary": "Breakthrough Listen and the SETI Institute are incorporating agentic AI into the daily search for extraterrestrial intelligence at the Allen Telescope Array in Northern California. Powered by the NVIDIA Holoscan platform and processing terabits of data per second using NVIDIA GPUs and CUDA-X libraries, AI agents can steer the telescope, correct incoming data, and apply models based on natural language requests. The pipeline has achieved the first real-time AI detection of a pulsar in the Crab Nebula.",
+   "impact": "This technology could significantly speed up the processing of massive sensor data streams for researchers and observatories, reducing tasks that take weeks or years down to hours. Security teams and technology users may find that advancements in high-throughput data processing, edge inference, and natural language orchestration frameworks improve real-time system management.",
+   "keyPoints": [
+    "Agentic AI is now used at the Allen Telescope Array to steer instruments, enhance data, and apply AI models via natural language requests.",
+    "The NVIDIA Holoscan platform and DAQIRI library allow the system to process terabits per second of sensor data directly in GPU memory.",
+    "The pipeline successfully achieved the first real-time AI detection of a pulsar in the Crab Nebula."
+   ]
+  },
+  "km": {
+   "title": "រឿងរ៉ាវបន្លឺសំឡេងនៅពេលយប់៖ AI បែបភ្នាក់ងារចូលរួមក្នុងការស្វែងរកសញ្ញាពីក្រៅភព",
+   "summary": "ស្ថាប័ន Breakthrough Listen និង SETI Institute កំពុងដាក់បញ្ចូល AI បែបភ្នាក់ងារទៅក្នុងការស្វែងរកភាពវៃឆ្លាតក្រៅភពប្រចាំថ្ងៃនៅកន្លែងតេឡេស្កុប Allen Telescope Array ក្នុងភាគខាងជើងរដ្ឋកាលីហ្វ័រញ៉ា។ ដោយប្រើប្រាស់វេទិកា NVIDIA Holoscan និងដំណើរការទិន្នន័យទំហំធំក្នុងមួយវិនាទីតាមរយៈ GPU របស់ NVIDIA ភ្នាក់ងារ AI អាចបញ្ជាតេឡេស្កុប កែសម្រួលទិន្នន័យចូល និងអនុវត្តគំរូដោយផ្អែកលើសំណើភាសាធម្មជាតិ។ ប្រព័ន្ធនេះបានសម្រេចការរកឃើញ pulsar ក្នុងពេលវេលាជាក់ស្តែងដោយ AI ជាលើកដំបូងនៅក្នុង nebula ឈ្មោះ Crab Nebula។",
+   "impact": "បច្ចេកវិទ្យានេះអាចជួយពន្លឿនដំណើរការទិន្នន័យឧបករណ៏ដ៏ច្រើនសន្ធឹកសន្ធាប់សម្រាប់អ្នកស្រាវជ្រាវ និងកន្លែងអង្កេតការណ៍ ដោយកាត់បន្ថយពេលវេលាដែលធ្លាប់ត្រូវចំណាយពេលរាប់សប្តាហ៍ ឬរាប់ឆ្នាំមកត្រឹមប៉ុន្មានម៉ោងវិញ។ ក្រុមការងារសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានផលចំណេញពីវឌ្ឍនភាពនៃការដំណើរការទិន្នន័យល្បឿនលឿននិងប្រព័ន្ធគ្រប់គ្រងភាសាធម្មជាតិ។",
+   "keyPoints": [
+    "AI បែបភ្នាក់ងារត្រូវបានប្រើប្រាស់នៅ Allen Telescope Array ដើម្បីបញ្ជាឧបករណ៍ ពង្រឹងទិន្នន័យ និងអនុវត្តគំរូតាមរយៈសំណើភាសាធម្មជាតិ។",
+    "វេទិកា NVIDIA Holoscan និងបណ្ណាល័យ DAQIRI ជួយឱ្យប្រព័ន្ធទាញទិន្នន័យឧបករណ៏កម្រិត terabits ក្នុងមួយវិនាទីចូលទៅក្នុងអង្គចងចាំ GPU ដោយផ្ទាល់។",
+    "ប្រព័ន្ធនេះបានទទួលជោគជ័យក្នុងការរកឃើញ pulsar ក្នុងពេលវេលាជាក់ស្តែងដោយ AI ជាលើកដំបូងនៅក្នុង Crab Nebula។"
+   ]
+  },
+  "zh-CN": {
+   "title": "深夜的蜂鸣声：智能体 AI 加入搜寻地外信号的行列",
+   "summary": "Breakthrough Listen 和 SETI Institute 正在将智能体 AI 引入加州北部艾伦望远镜阵列对地外文明的日常搜寻中。在 NVIDIA Holoscan 平台的支持下，借助 NVIDIA GPU 和 CUDA-X 库每秒处理数太比特的数据，AI 智能体现在可以通过自然语言请求来操纵望远镜、增强和纠正传入的数据并应用 AI 模型。该流水线已经在蟹状星云中实现了首次实时 AI 探测脉冲星。",
+   "impact": "这项技术可能会显著加快研究人员和天文台处理海量传感器数据流的速度，将原本需要数周或数年的任务缩短至几小时。安全团队和技术用户可能会发现，高吞吐量数据处理、边缘推理以及自然语言编排框架方面的进步能够提升实时系统管理能力。",
+   "keyPoints": [
+    "智能体 AI 目前正用于艾伦望远镜阵列，通过自然语言请求来操纵仪器、校准并应用 AI 模型。",
+    "NVIDIA Holoscan 平台和 DAQIRI 库使望远镜能够将每秒数太比特的传感器数据直接拉入 GPU 内存中进行处理。",
+    "该系统管道已成功在蟹状星云中实现了首次实时 AI 探测脉冲星。"
+   ]
+  },
+  "ko": {
+   "title": "밤에 울리는 신호: 외계 신호 탐사에 합류한 에이전트 AI",
+   "summary": "Breakthrough Listen과 SETI Institute는 캘리포니아 북부의 앨런 망원경 배열에서 외계 지성체 탐사에 에이전트 AI를 도입하고 있습니다. NVIDIA Holoscan 플랫폼을 기반으로 하고 NVIDIA GPU 및 CUDA-X 라이브러리를 사용하여 초당 테라비트의 데이터를 처리하는 AI 에이전트는 이제 단일 자연어 요청으로 장비를 조작하고, 들어오는 데이터를 개선 및 보정하며, 모델을 적용할 수 있습니다. 이 파이프라인은 게 성운에서 펄서를 실시간 AI로 최초 감지하는 성과를 거두었습니다.",
+   "impact": "이 기술은 연구자와 천문대가 대규모 센서 데이터 스트림을 처리하는 속도를 크게 높여 몇 주 또는 몇 년이 걸리던 작업을 몇 시간으로 단축할 수 있습니다. 보안 팀과 기술 사용자는 고처리량 데이터 처리, 엣지 추론 및 자연어 오케스트레이션 프레임워크의 발전으로 실시간 시스템 관리가 향상되는 것을 경험할 수 있습니다.",
+   "keyPoints": [
+    "에이전트 AI는 이제 앨런 망원경 배열에서 자연어 요청을 통해 장비를 조작하고, 데이터를 보정하며, AI 모델을 적용하는 데 사용됩니다.",
+    "NVIDIA Holoscan 플랫폼과 DAQIRI 라이브러리를 통해 망원경은 초당 테라비트의 센서 데이터를 GPU 메모리로 직접 가져와 처리할 수 있습니다.",
+    "이 시스템은 게 성운에서 펄서의 첫 실시간 AI 탐지를 성공적으로 달성했습니다."
+   ]
+  }
+ }
+}

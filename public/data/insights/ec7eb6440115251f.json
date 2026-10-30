@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ec7eb6440115251f",
+ "contentHash": "66fc333667fcdf35",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T16:09:58.512Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Multi-View MoE: Letting Every Router Shape Expert Computation",
+   "summary": "Researchers propose Multi-View MoE to improve expert selection and computation in sparse mixture-of-experts models. The method uses a MultiRouter submodule with independently initialized routers to aggregate sigmoid scores, and reuses router preferences to modulate expert computation without increasing the active-expert count, FLOPs, or communication volume. Experiments on a 24-layer 10B-A1B model trained on 708B tokens show a 1.18 percentage point improvement on a nine-task downstream mean compared to the baseline.",
+   "impact": "This approach could help developers improve model capabilities without incurring additional computational or communication costs, as it maintains the active-expert count and FLOPs.",
+   "keyPoints": [
+    "Multi-View MoE improves expert selection with multiple routers and reuses preferences to modulate computation.",
+    "The MultiRouter submodule uses independently initialized routers that develop differentiated expert preferences.",
+    "The method preserves the active-expert count, expert FLOPs, and all-to-all communication volume.",
+    "A 24-layer 10B-A1B model trained on 708B tokens achieved a 1.18 percentage point improvement on a nine-task downstream mean."
+   ]
+  },
+  "km": {
+   "title": "Multi-View MoE៖ ការអនុញ្ញាតឱ្យរ៉ោតទ័រនីមួយៗកំណត់ការគណនារ៎បស់អ្នកជំនាញ",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើ Multi-View MoE ដើម្បីកែលម្អការជ្រើសរើស និងការគណនារបស់អ្នកជំនាញនៅក្នុងម៉ូដែល sparse mixture-of-experts (MoE)។ វិធីសាស្ត្រនេះប្រើប្រាស់ម៉ូឌុលរង MultiRouter ដើម្បីប្រមូលផ្តុំពិន្ទុ sigmoid ពីកម្រិតរ៉ោតទ័រដែលបានចាប់ផ្តើមដោយឯករាជ្យ និងប្រើប្រាស់ចំណូលចិត្តរ៉ោតទ័រឡើងវិញដើម្បីកែសម្រួលការគណនារបស់អ្នកជំនាញដោយមិនបង្កើនចំនួនអ្នកជំនាញសកម្ម FLOPs ឬបរិមាណទំនាក់ទំនងនោះទេ។ ការពិសោធន៍នៅលើម៉ូដែល 24-layer 10B-A1B បានបង្ហាញពីការកើនឡើង 1.18 ភាគរយនៅលើការវាយតម្លៃចុះក្រោមចំនួនប្រាំបួន។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍ក្នុងការកែលម្អសមត្ថភាពម៉ូដែលដោយមិនចាំបាច់ចំណាយប្រាក់បន្ថែមលើការគណនា ឬទំនាក់ទំនងឡើយ។",
+   "keyPoints": [
+    "Multi-View MoE កែលម្អការជ្រើសរើសអ្នកជំនាញជាមួយរ៉ោតទ័រច្រើន។",
+    "ម៉ូឌុលរង MultiRouter ប្រើប្រាស់រ៉ោតទ័រដែលមានចំណូលចិត្តអ្នកជំនាញខុសៗគ្នា។",
+    "វាគឺរក្សាទុកចំនួនអ្នកជំនាញសកម្ម និងបរិមាណទំនាក់ទំនងដដែល។",
+    "ម៉ូដែលដែលបានបណ្តុះបណ្តាលទទួលបានការកើនឡើង 1.18 ភាគរយនៅលើមធ្យមភាគការងារប្រាំបួន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Multi-View MoE: 让每个路由器塑造专家计算",
+   "summary": "研究人员提出了 Multi-View MoE，以改善稀疏混合专家（MoE）模型中的专家选择和计算。该方法使用具有独立初始化路由器的 MultiRouter 子模块来聚合 sigmoid 分数，并重用路由器偏好来调节专家计算，同时不增加活动专家数量、FLOPs 或通信量。在经过 708B token 训练的 24 层 10B-A1B 模型上的实验表明，其九任务下游均值比基线提高了 1.18 个百分点。",
+   "impact": "这种方法可以帮助开发者在不产生额外计算或通信成本的情况下提升模型能力，因为它保持了活动专家数量和 FLOPs 的不变。",
+   "keyPoints": [
+    "Multi-View MoE 通过多个路由器改进专家选择，并重用偏好来调节计算。",
+    "MultiRouter 子模块使用独立初始化的路由器来培养差异化的专家偏好。",
+    "该方法保持了活动专家计数、专家 FLOPs 和全对全通信量不变。",
+    "在 708B token 上训练的 24 层 10B-A1B 模型使九任务下游均值提高了 1.18 个百分点。"
+   ]
+  },
+  "ko": {
+   "title": "Multi-View MoE: 모든 라우터가 전문가 연산을 형성하도록 허용",
+   "summary": "연구원들은 희소 혼합 전문가(MoE) 모델에서 전문가 선택과 연산을 개선하기 위해 Multi-View MoE를 제안했습니다. 이 방법은 독립적으로 초기화된 라우터를 가진 MultiRouter 하위 모듈을 사용하여 sigmoid 점수를 집계하고, 활성 전문가 수, FLOPs 또는 통신량을 늘리지 않고 라우터 선호도를 재사용하여 전문가 연산을 조절합니다. 708B 토큰으로 학습된 24 레이어 10B-A1B 모델에서 실험한 결과, 9개 작업 다운스트림 평균이 기준선 대비 1.18 퍼센트 포인트 향상되었습니다.",
+   "impact": "이 접근 방식은 활성 전문가 수와 FLOPs를 유지하므로 개발자가 추가적인 연산이나 통신 비용 없이 모델 성능을 향상시키는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "Multi-View MoE는 여러 라우터로 전문가 선택을 개선하고 선호도를 재사용하여 연산을 조절합니다.",
+    "MultiRouter 하위 모듈은 독립적으로 초기화된 라우터를 사용하여 차별화된 전문가 선호도를 개발합니다.",
+    "이 방법은 활성 전문가 수, 전문가 FLOPs 및 모든 통신 양을 유지합니다.",
+    "708B 토큰으로 학습된 24 레이어 10B-A1B 모델은 9개 작업 다운스트림 평균에서 1.18 퍼센트 포인트 향상을 보였습니다."
+   ]
+  }
+ }
+}

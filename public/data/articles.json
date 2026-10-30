@@ -1,7 +1,413 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-30T08:42:17.026Z",
+ "generatedAt": "2026-10-30T15:58:45.836Z",
  "articles": [
+  {
+   "id": "1f8c31d7527badfd",
+   "sourceId": "nvidia-technical-blog",
+   "sourceName": "NVIDIA Technical Blog",
+   "originalTitle": "How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+   "originalUrl": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform/",
+   "originalLanguage": "en",
+   "originalDescription": "NVIDIA GPUDirect Storage (GDS) accelerates GPU storage access in on-premises and cloud environments. It provides a robust, portable, and efficient data path...",
+   "publishedAt": "2026-10-30T15:01:36.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "e7c1dc902a3fa51b"
+  },
+  {
+   "id": "d5d3db1f3a9a1503",
+   "sourceId": "nvidia-blog",
+   "sourceName": "NVIDIA Blog",
+   "originalTitle": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+   "originalUrl": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+   "originalLanguage": "en",
+   "originalDescription": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a major leap forward with AI, and it increasingly…",
+   "publishedAt": "2026-10-30T15:00:10.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/10/IMG_1607-ATA-2023-CREDIT-Joe-Marfia-scaled.jpg",
+   "contentHash": "54484419a2320e19"
+  },
+  {
+   "id": "4d4206ade98bad0a",
+   "sourceId": "cloudflare-blog",
+   "sourceName": "The Cloudflare Blog",
+   "originalTitle": "Cloudflare services for private origins is now generally available",
+   "originalUrl": "https://blog.cloudflare.com/private-origins-public-to-private/",
+   "originalLanguage": "en",
+   "originalDescription": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
+   "publishedAt": "2026-10-30T14:23:43.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01KW44TXMXRJ1NFA38CJB0MT3A.png",
+   "contentHash": "79f413de7b3ac563"
+  },
+  {
+   "id": "e54e2cc79a7ae6cb",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate",
+   "originalUrl": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
+   "originalLanguage": "en",
+   "originalDescription": "At TechCrunch Founder Summit 2026, happening November 4 at SoWa Power Station in Boston, networking powered by Braindate is designed to make those conversations easier to find, whether they are in 1:1 or small-group on-site meetings. Register before the event starts to save up…",
+   "publishedAt": "2026-10-30T14:00:00.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "650314935d57a0e9"
+  },
+  {
+   "id": "baf2e8680ec92ea7",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+   "originalUrl": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+   "originalLanguage": "en",
+   "originalDescription": "DoorDash said that it is open to working with third-party agent makers",
+   "publishedAt": "2026-10-30T13:54:25.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "c71cfa23b13fd213"
+  },
+  {
+   "id": "57bd8cae501a4c78",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Silicon Valley wants you to invest in miracles",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+   "originalLanguage": "en",
+   "originalDescription": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring…",
+   "publishedAt": "2026-10-30T13:11:05.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "8a638bdba73d9e72"
+  },
+  {
+   "id": "7f76fde50a9a4114",
+   "sourceId": "microsoft-research-blog",
+   "sourceName": "Microsoft Research Blog",
+   "originalTitle": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+   "originalUrl": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+   "originalLanguage": "en",
+   "originalDescription": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances. The post From synthetic enterprise…",
+   "publishedAt": "2026-10-30T13:05:28.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "ai",
+    "research-papers"
+   ],
+   "imageUrl": null,
+   "contentHash": "8db81e8e41b059e2"
+  },
+  {
+   "id": "1c953c6f303dffb2",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+   "originalLanguage": "en",
+   "originalDescription": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the…",
+   "publishedAt": "2026-10-30T13:01:14.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "b69390f40336708f"
+  },
+  {
+   "id": "6edb7f80f01baf9f",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "5 days left: Your last chance to connect, scale, and save at TechCrunch Founder Summit 2026",
+   "originalUrl": "https://techcrunch.com/2026/10/30/5-days-left-your-last-chance-to-connect-scale-and-save-at-techcrunch-founder-summit-2026/",
+   "originalLanguage": "en",
+   "originalDescription": "5 days to save up to $100, plus a second pass for free to TechCrunch Founder Summit 2026 in Boston on November 4. Register now.",
+   "publishedAt": "2026-10-30T13:00:00.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "636419508bca8794"
+  },
+  {
+   "id": "93ad0842fdd46a0d",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+   "originalUrl": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+   "originalLanguage": "en",
+   "originalDescription": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
+   "publishedAt": "2026-10-30T13:00:00.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "ai",
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "0d09ecd8f64ff1a2"
+  },
+  {
+   "id": "2789fa9f0effd660",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Open-weight model GLM 5.3 built full Firefox exploit chains with zero human input in under 48 hours",
+   "originalUrl": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/",
+   "originalLanguage": "en",
+   "originalDescription": "Epoch AI researchers say the widely available AI model GLM 5.3 turned public security fixes into working exploits before updates reached Firefox users. It autonomously compromised six Firefox releases for about $1,000 in API fees each without triggering safeguards from any…",
+   "publishedAt": "2026-10-30T12:22:18.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "ai",
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "dec3196e23a39652"
+  },
+  {
+   "id": "c67ce218705117aa",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
+   "originalUrl": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+   "originalLanguage": "en",
+   "originalDescription": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported. Trezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis…",
+   "publishedAt": "2026-10-30T12:21:56.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih5QxhFnBw6d40ollOAoolmZedxywTm7DeBQpEqydVG5Pqg0v5iDVFT1hhbsW7Thqg00oI8MACNXC9FX6MCp_qMRkBRiqdxb9D4CDKfTWTZwI5eyY3V2IOa8ODSg24kX7Ni_C968r2X89tUXwPbDnHPV9xX-ydhytwerqMI1ru7tqdIK-cqA0p9oM5Ppxr/s1600/trezor-wallet.jpg",
+   "contentHash": "4b5d97c4b8e859e2"
+  },
+  {
+   "id": "67deeb1099f33e56",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+   "originalUrl": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+   "originalLanguage": "en",
+   "originalDescription": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything. Their concerns are practical. An IPS protection could block…",
+   "publishedAt": "2026-10-30T11:58:53.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitJWSYL167QzDoyvN2y9DAuXmFFe0en34dEHp-I2sSVLEPIfljdlRfeIthyMQUgSvf9AfwW4p-solbE5zH3cKpfeLKWg-IqPnVdHbKQ99Bw91fDAoqHx3E9mlpNmXYA5i3RnaTYxZYkZcwbeY31O4CljtFQYp2JPLTmJo1BI09Al9Kh-CDtzFubVly7hM/s1600/cp.jpg",
+   "contentHash": "08dd49e253fa24f5"
+  },
+  {
+   "id": "6e108b3d65de6b7a",
+   "sourceId": "ars-technica-gadgets",
+   "sourceName": "Ars Technica Gadgets",
+   "originalTitle": "Review: You Can See Everything blurs the view of Elizabeth Holmes' deceit",
+   "originalUrl": "https://arstechnica.com/culture/2026/10/review-you-can-see-everything-blurs-the-view-of-elizabeth-holmes-deceit/",
+   "originalLanguage": "en",
+   "originalDescription": "Disgraced founder of Theranos has some people falling for her act all over again.",
+   "publishedAt": "2026-10-30T11:30:01.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "mobile-hardware"
+   ],
+   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/holmes1-1152x648.jpg",
+   "contentHash": "49eae037c2f90626"
+  },
+  {
+   "id": "276d6c976393e41b",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "聚力开源向实 赋能产业创新——2026 上海开源软件应用创新大赛总决赛暨创新增长大会圆满落幕",
+   "originalUrl": "https://www.oschina.net/news/503320",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "10月29日至30日，2026上海开源软件应用创新大赛总决赛暨创新增长大会在上海张江人工智能创新小镇举行。本届大赛由开源中国主办，自8月5日启动报名以来，共收到报名项目766个，40余家合作企业和开源社区参与；12道真实产业命题吸引269个项目应题攻关，30支团队晋级总决赛，角逐总价值100万元的奖池。10月30日的颁奖典礼上...",
+   "publishedAt": "2026-10-30T11:10:59.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "68265c9673bdd260"
+  },
+  {
+   "id": "717e3d0230531ade",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "攻击者利用 PHP2Shell 漏洞控入侵美国政府服务器",
+   "originalUrl": "https://www.oschina.net/news/503319/chained-php2shell-exploit-roots-25-servers",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "十天前我们写过 PHP 基金会那两个拖了两年才修好的 RCE 漏洞（CVE-2026-109618 / CVE-2026-109619）。现在它们已经被武器化、实战利用了——而且打的不是普通 PHP 网站，是 Palo Alto Networks 的 PAN-OS 防火墙。 安全公司 Dream 在 10 月 25 日发现了一整套攻击残留：定制版 PHP2Shell 利用链 + Fragnesia 内核提权（C...",
+   "publishedAt": "2026-10-30T11:02:56.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "developer-tools",
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "44906947dfad1920"
+  },
+  {
+   "id": "7f7f167172823740",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Maine’s data center revolt will decide who controls the Senate",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+   "originalLanguage": "en",
+   "originalDescription": "Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short. \"I'm terrified,\" a man shouted. \"AI data centers are destroying our climate. They are poisoning our water.\" Collins…",
+   "publishedAt": "2026-10-30T11:00:00.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "36c1240e5dfa0b3f"
+  },
+  {
+   "id": "fd21ba9fb7e5a765",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "DeepSeek 千亿融资名单曝光，国资占比从 2% 跳到 27%",
+   "originalUrl": "https://www.oschina.net/news/503318",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "DeepSeek 第二轮融资拿下了 1055 亿元人民币，约 158 亿美元。The Information 拿到了出资名单，近 30 家投资者——比金额更有意思的是名单的构成变化。 腾讯和宁德时代仍是两大主力。腾讯两轮各出 100 亿；宁德时代及其董事长两轮分别出 50 亿和 100 亿。长鑫存储和中芯国际这两家芯片厂商也在里面，金额未披露。互联网...",
+   "publishedAt": "2026-10-30T10:56:51.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "developer-tools",
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "0a3bc922767a9d0d"
+  },
+  {
+   "id": "e93de4dec38c1d3f",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+   "originalUrl": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+   "originalLanguage": "en",
+   "originalDescription": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets. The conspiracy was organized and led by members of former Syrian…",
+   "publishedAt": "2026-10-30T10:40:45.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxhyw9NKYcR8Nkb28O8I-MA0sr3NhXC_Xr7gjpFqZKFd-29F8pGa5TCuIL2GTBPLAPzQ9iW5DsU_2zK-pUWIar_TdJdKiQMsptNjA-XxvVwMACBSQR9tW_qAC8d7I21YdqraYoY5LdWCRE8vKXjrxYCEW8X7ZbPulwCzdTdxODqnMuJbqQUZStRMRiKHc/s1600/tweets.jpg",
+   "contentHash": "6138706e8326bccf"
+  },
+  {
+   "id": "3d369ba568194a2c",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "엔비디아, 네이버 3대 주주로…1.3조 다음 달 6일 납입",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216835",
+   "originalLanguage": "ko",
+   "originalDescription": "엔비디아가 네이버 3대 주주에 오르며 AI 팩토리 협력이 본격화된다.네이버(대표 최수연)는 엔비디아를 대상으로 한 제3자 배정 유상증자 납입일이 다음 달 6일로 확정됐다고 30일 공시했다. 투자 규모는 10억달러(약 1조3400억원)로 신주 상장 예정일은 다음 달 27일이다.양사는 지난 7월 신주인수계약을 체결하며 네이버가 AI 팩토리 사업에 필요한 최소 90억달러(약 12조402억원) 규모의 컴퓨팅 인프라를 확보하도록 조건을 걸었다. 네이버는 지난 27일 브룩필드와 관련 계약을 맺으며 이…",
+   "publishedAt": "2026-10-30T10:36:17.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "5c3f1abe613c5691"
+  },
+  {
+   "id": "0ec9141342ed8f27",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "这个 Agent 宿主把界面做成了纯文本，你想要什么形状自己让 Agent 改",
+   "originalUrl": "https://www.oschina.net/news/503317/herdr-dev-agent-ide-runtime",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "Herdr 的自我介绍里有一句话很吸睛：\"每一处界面都是你 agent 能改的文件。\" 它是一个给 coding agent 用的原生宿主——Claude Code、Codex、以及任何在终端里跑的 agent 都能住进去。想法是反过来的：不是让你去学一套新的 IDE 布局，而是把整个界面做成纯文本文件，你要什么形状，让 agent 自己改。 具体做法简单到有点...",
+   "publishedAt": "2026-10-30T09:06:17.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "f2cfdc4906e01be2"
+  },
+  {
+   "id": "343f7e143a68647e",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "qData 数据中台开源版 v1.6.5 发布：Doris 数据源适配增强，新增演示数据清除脚本",
+   "originalUrl": "https://www.oschina.net/news/503316",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "随着数据平台应用场景不断丰富，数据库适配范围与部署后的使用体验，逐渐成为开发者关注的两个方面。既要让已有数据源能够参与更多平台功能，也需要考虑产品体验完成后如何整理演示环境。 qData 数据中台开源版 v1.6.5 正式发布。 本次更新主要围绕 Apache Doris 数据源适配增强和演示数据清理脚本新增展开，分别完善数据...",
+   "publishedAt": "2026-10-30T09:01:15.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "15d443746f6e8af5"
+  },
+  {
+   "id": "c096782638d443ac",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+   "originalUrl": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+   "originalLanguage": "en",
+   "originalDescription": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling…",
+   "publishedAt": "2026-10-30T09:00:00.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "4638cb342337557c"
+  },
+  {
+   "id": "4b53227f9f3bab60",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+   "originalUrl": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+   "originalLanguage": "en",
+   "originalDescription": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update…",
+   "publishedAt": "2026-10-30T08:55:47.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMAV00lkxu7R724ItLdgrRsnEYHR_d2eUSdcen_KymGeBY1tCo8SRVz6w_XiNzzYgwpcl0Me3JCJz8DeieRM_0jb8aL4VkHAAIeXrqNf8oQkmzKahqMHOGvhkFK32HOasHZht8BwtI1NxEZ-_nIwmQY_8fxpGbbl3csC6oZKCVnIRk3iYTRhH975dyxsWS/s1600/cursor-vscode.jpg",
+   "contentHash": "c3d9655c56cbb012"
+  },
+  {
+   "id": "0490d044ec8e3371",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "数据迁移同步工具 CloudCanal v6.6.0.0 发布，Kudu 同步能力升级",
+   "originalUrl": "https://www.oschina.net/news/503315",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "CloudCanal 免费社区版 是 ClouGence 公司推出的一款全自研、可视化、自动化数据迁移同步工具，具备 结构迁移、数据迁移、数据同步、数据校验、数据订正 等功能，支持 60+ 款流行关系型数据库、实时数仓、消息中间件、缓存数据库和搜索引擎之间数据互通，其中包含国产数据库 OceanBase、PolarDB、TiDB、StarRocks、Doris...",
+   "publishedAt": "2026-10-30T08:49:52.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "c296efa4b03ca53e"
+  },
   {
    "id": "1f6d67391a1445d3",
    "sourceId": "latent-space",
@@ -33,6 +439,39 @@
    ],
    "imageUrl": null,
    "contentHash": "0cb7ee24c93f6ed3"
+  },
+  {
+   "id": "bc4258f9677bca1e",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+   "originalUrl": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+   "originalLanguage": "en",
+   "originalDescription": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from…",
+   "publishedAt": "2026-10-30T07:45:30.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitgPkf4uToEgXwcfmDEKipEveRL2l0PEz6WIegAc2uWyf5_khO7Scgu6MpWHRovED7S-4sKJb4o88JsJT8NI8zB8WCBo04Q9TrEVNJa-08EbxP_zdPkaA7wsBEPIjXbApW1StdY8JunSewAi9TNrAcMwYZjqSsVktddqQ0uIi8-rUzXq1LMMLBHBdccapz/s1600/drupal-rce.jpg",
+   "contentHash": "56bb983ce01316d2"
+  },
+  {
+   "id": "5d096e437ca717a4",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "英伟达团队基于 MiniMax H3 开源视频增强方案，最高支持 4K 重生成",
+   "originalUrl": "https://www.qbitai.com/2026/10/506743.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "英伟达与麻省理工学院团队，在 Hugging Face 发布了视频增强项目 Open-H3-Regenerate-2K 的模型权重",
+   "publishedAt": "2026-10-30T07:31:11.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "ai",
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "6868d88978fdfd81"
   },
   {
    "id": "4ab405ec32330e7e",
@@ -4017,6 +4456,22 @@
    ],
    "imageUrl": null,
    "contentHash": "62800ecdefdf2998"
+  },
+  {
+   "id": "85f94c0fe8f02a81",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "originalTitle": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+   "originalUrl": "https://openai.com/index/credit-saison",
+   "originalLanguage": "en",
+   "originalDescription": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+   "publishedAt": "2026-10-29T00:00:00.000Z",
+   "discoveredAt": "2026-10-30T15:58:45.836Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "a59ff448e58ddb72"
   },
   {
    "id": "b6b30743068c2627",
@@ -24331,463 +24786,6 @@
    ],
    "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2273107915-1024x648.jpg",
    "contentHash": "59b912d785d435a5"
-  },
-  {
-   "id": "806b1f92932cb664",
-   "sourceId": "github-blog",
-   "sourceName": "The GitHub Blog",
-   "originalTitle": "How 3 Java Champions are using GitHub Copilot for increased productivity",
-   "originalUrl": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
-   "originalLanguage": "en",
-   "originalDescription": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog .",
-   "publishedAt": "2026-10-20T16:05:03.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "developer-tools",
-    "programming-languages"
-   ],
-   "imageUrl": null,
-   "contentHash": "97d9da8f0ee7eefd"
-  },
-  {
-   "id": "4a79326aef7c9f51",
-   "sourceId": "microsoft-research-blog",
-   "sourceName": "Microsoft Research Blog",
-   "originalTitle": "Called to serve: Tech, research, and positive impact",
-   "originalUrl": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/",
-   "originalLanguage": "en",
-   "originalDescription": "Lab Director Chris White has worked on research challenges with real-world implications—from new approaches to wartime data analysis to tools for combating human trafficking. He talks to program manager Weishung Liu about the influences that led to the work and more. The post…",
-   "publishedAt": "2026-10-20T16:00:00.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai",
-    "research-papers"
-   ],
-   "imageUrl": null,
-   "contentHash": "edb708bfc24983dd"
-  },
-  {
-   "id": "9c36667f60bf2949",
-   "sourceId": "mit-technology-review-ai",
-   "sourceName": "MIT Technology Review AI",
-   "originalTitle": "The new economics of enterprise AI",
-   "originalUrl": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
-   "originalLanguage": "en",
-   "originalDescription": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, every process depends on it, and the question changes from…",
-   "publishedAt": "2026-10-20T15:20:25.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "078d51b68fea1e57"
-  },
-  {
-   "id": "401594029845115e",
-   "sourceId": "apple-newsroom",
-   "sourceName": "Apple Newsroom",
-   "originalTitle": "Apple unveils the 2026 Designers of Tomorrow",
-   "originalUrl": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-2026-designers-of-tomorrow/",
-   "originalLanguage": "en",
-   "originalDescription": "Apple’s Designers of Tomorrow showcase returns to spotlight the best in emerging talent, this time focusing on the theme of presence.",
-   "publishedAt": "2026-10-20T14:59:22.784Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "mobile-hardware"
-   ],
-   "imageUrl": null,
-   "contentHash": "5785e9c69a51df46"
-  },
-  {
-   "id": "bc34cbec3dd5a0fb",
-   "sourceId": "cloudflare-blog",
-   "sourceName": "The Cloudflare Blog",
-   "originalTitle": "Introducing tsrs: A port of TypeScript to Rust",
-   "originalUrl": "https://blog.cloudflare.com/typescript-rust-port/",
-   "originalLanguage": "en",
-   "originalDescription": "Cloudflare is collaborating on tsrs, a Rust port of TypeScript that is up to 8x faster and uses 70% less memory.",
-   "publishedAt": "2026-10-20T13:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "cloud-infrastructure",
-    "programming-languages"
-   ],
-   "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M5C82VPWPDDZ7P6P0G4H7KB3.png",
-   "contentHash": "1f0dcd5a2fec4a61"
-  },
-  {
-   "id": "509f48468ef3f724",
-   "sourceId": "ars-technica-ai",
-   "sourceName": "Ars Technica AI",
-   "originalTitle": "Meta Muse exposes users' personal and business secrets when they share conversations",
-   "originalUrl": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
-   "originalLanguage": "en",
-   "originalDescription": "Meta is suspending the sharing feature while it investigates its privacy.",
-   "publishedAt": "2026-10-20T12:33:13.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-robot-hand-caution-1152x648.jpg",
-   "contentHash": "56355d2517d3993e"
-  },
-  {
-   "id": "4157ee8ff904fa3c",
-   "sourceId": "apple-newsroom",
-   "sourceName": "Apple Newsroom",
-   "originalTitle": "Apple announces American Manufacturing Program partners for latest iPhone lineup",
-   "originalUrl": "https://www.apple.com/newsroom/2026/10/apple-announces-american-manufacturing-program-partners-for-latest-iphone-lineup/",
-   "originalLanguage": "en",
-   "originalDescription": "Apple announced new and expanded partnerships with American companies that are supplying critical materials and components for iPhone Duo and iPhone 18 Pro.",
-   "publishedAt": "2026-10-20T12:00:22.992Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "mobile-hardware"
-   ],
-   "imageUrl": null,
-   "contentHash": "a922c6a18b51535b"
-  },
-  {
-   "id": "552cbee8ac3d9b61",
-   "sourceId": "cisa-advisories",
-   "sourceName": "CISA Cybersecurity Advisories",
-   "originalTitle": "#StopRansomware: SafePay Ransomware",
-   "originalUrl": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a",
-   "originalLanguage": "en",
-   "originalDescription": "Advisory at a Glance Title #StopRansomware: SafePay Ransomware Original Publication October 20, 2026 Executive Summary This advisory details recent activity by the SafePay ransomware group. SafePay actors have been highly active since August 2024, targeting businesses and…",
-   "publishedAt": "2026-10-20T12:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "a03065568477fa43"
-  },
-  {
-   "id": "6fc5224c9f33d861",
-   "sourceId": "ncsc-uk",
-   "sourceName": "NCSC (UK)",
-   "originalTitle": "Introducing a new AI chapter in the NCSC research problem book",
-   "originalUrl": "https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book",
-   "originalLanguage": "en",
-   "originalDescription": "A revolution is underway at the intersection of AI and cyber security.",
-   "publishedAt": "2026-10-20T12:00:00.000Z",
-   "discoveredAt": "2026-10-26T15:34:56.245Z",
-   "topics": [
-    "cybersecurity",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "784abb2b3b58d2d4"
-  },
-  {
-   "id": "8d626ff9f11dd658",
-   "sourceId": "cisa-advisories",
-   "sourceName": "CISA Cybersecurity Advisories",
-   "originalTitle": "Hitachi Energy MicroSCADA X SYS600 Product",
-   "originalUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-04",
-   "originalLanguage": "en",
-   "originalDescription": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect MicroSCADA X SYS600 product versions listed in this document. These vulnerabilities can be exploited to carry out various attacks on the product. Please refer to the Recommended Immediate Actions…",
-   "publishedAt": "2026-10-20T12:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "8d46b0e3513a2c43"
-  },
-  {
-   "id": "c4d6d4ec5bcc77a7",
-   "sourceId": "mit-technology-review-ai",
-   "sourceName": "MIT Technology Review AI",
-   "originalTitle": "AI adoption by industry shows what other sectors can learn",
-   "originalUrl": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
-   "originalLanguage": "en",
-   "originalDescription": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption–tech is just the first industry in line. As generative AI and automation tools…",
-   "publishedAt": "2026-10-20T12:00:00.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "7be5fc1d5df1edbe"
-  },
-  {
-   "id": "1725d137aa3debc0",
-   "sourceId": "openai-news",
-   "sourceName": "OpenAI News",
-   "originalTitle": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-   "originalUrl": "https://openai.com/index/ted-taylor-restaurant",
-   "originalLanguage": "en",
-   "originalDescription": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-   "publishedAt": "2026-10-20T10:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "eec0e829957bfef4"
-  },
-  {
-   "id": "4560d3830d9f5377",
-   "sourceId": "mit-technology-review-ai",
-   "sourceName": "MIT Technology Review AI",
-   "originalTitle": "A visit to Samsung’s massive new semiconductor hub",
-   "originalUrl": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
-   "originalLanguage": "en",
-   "originalDescription": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing complex in Pyeongtaek, South Korea. Three…",
-   "publishedAt": "2026-10-20T09:00:00.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai",
-    "mobile-hardware"
-   ],
-   "imageUrl": null,
-   "contentHash": "b5e01e12d3443825"
-  },
-  {
-   "id": "aa8847d44cbae332",
-   "sourceId": "openai-news",
-   "sourceName": "OpenAI News",
-   "originalTitle": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-   "originalUrl": "https://openai.com/index/terminal-x",
-   "originalLanguage": "en",
-   "originalDescription": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-   "publishedAt": "2026-10-20T07:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "d382a5447f80d3c8"
-  },
-  {
-   "id": "b343be92f1e1d3cc",
-   "sourceId": "naver-d2",
-   "sourceName": "NAVER D2",
-   "originalTitle": "2026년과 이후 JavaScript의 동향 - JavaScript(ECMAScript)",
-   "originalUrl": "https://d2.naver.com/helloworld/2675915",
-   "originalLanguage": "ko",
-   "originalDescription": "2016년부터 매년 이어 오던 \"JavaScript의 동향\" 연재는 2020년을 마지막으로 한동안 쉬었습니다. 그사이 6년이 지났고, 그 6년 동안 ECMAScript 명세는 여섯 번 개정되었습니다. 2020년 글을 쓸 때 Stage 2였던 Temporal은 9년에 걸친 논의 끝에 Stage 4에 올랐고, 이제 Chrome과 Firefox, Node.js에서 플래그 없이 쓸 수 있습니다. 달라진 것은 명세만이 아닙니다. 2020년에는 상상하기 어려웠던 방식으로 코드를 쓰는 사람이 늘었습니다…",
-   "publishedAt": "2026-10-20T05:51:56.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "developer-tools",
-    "programming-languages"
-   ],
-   "imageUrl": null,
-   "contentHash": "9dd463dd2907a322"
-  },
-  {
-   "id": "1cfb6291fa158d05",
-   "sourceId": "openai-news",
-   "sourceName": "OpenAI News",
-   "originalTitle": "OpenAI acquires Orchestra Bio",
-   "originalUrl": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-   "originalLanguage": "en",
-   "originalDescription": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-   "publishedAt": "2026-10-20T00:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "ai",
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "8c4fcfefeeafc538"
-  },
-  {
-   "id": "39e60f901a735303",
-   "sourceId": "huggingface-blog",
-   "sourceName": "Hugging Face Blog",
-   "originalTitle": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
-   "originalUrl": "https://huggingface.co/blog/hf-torchtpu",
-   "originalLanguage": "en",
-   "originalDescription": null,
-   "publishedAt": "2026-10-20T00:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "7e7c15f4a8dda89e"
-  },
-  {
-   "id": "41fb25a47d12d204",
-   "sourceId": "huggingface-blog",
-   "sourceName": "Hugging Face Blog",
-   "originalTitle": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
-   "originalUrl": "https://huggingface.co/blog/anylanguagemodel-1-0",
-   "originalLanguage": "en",
-   "originalDescription": null,
-   "publishedAt": "2026-10-20T00:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "d0f34a40e1f4cc69"
-  },
-  {
-   "id": "ac67a5f12ec971da",
-   "sourceId": "anthropic-research",
-   "sourceName": "Anthropic Research",
-   "originalTitle": "How Claude designed protein binders against scorpion neurotoxins",
-   "originalUrl": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
-   "originalLanguage": "en",
-   "originalDescription": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins.",
-   "publishedAt": "2026-10-20T00:00:00.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai",
-    "research-papers"
-   ],
-   "imageUrl": null,
-   "contentHash": "24995e5a3b7c5ddd"
-  },
-  {
-   "id": "c2b4b68d7e0027f0",
-   "sourceId": "huggingface-blog",
-   "sourceName": "Hugging Face Blog",
-   "originalTitle": "MPS in PyTorch 2.15",
-   "originalUrl": "https://huggingface.co/blog/mps-pytorch-2-15",
-   "originalLanguage": "en",
-   "originalDescription": null,
-   "publishedAt": "2026-10-20T00:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "2c18226888cca014"
-  },
-  {
-   "id": "f4b372c09c603dbf",
-   "sourceId": "rust-blog",
-   "sourceName": "Rust Blog",
-   "originalTitle": "Announcing rustup 1.29.2",
-   "originalUrl": "https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/",
-   "originalLanguage": "en",
-   "originalDescription": "The rustup team is happy to announce the release of rustup version 1.29.2. Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software. What's new in rustup 1.29.2 This is a small release which only…",
-   "publishedAt": "2026-10-20T00:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "programming-languages"
-   ],
-   "imageUrl": null,
-   "contentHash": "a6b5e21fcd8ae59d"
-  },
-  {
-   "id": "a286ccfbec858524",
-   "sourceId": "simon-willison",
-   "sourceName": "Simon Willison's Weblog",
-   "originalTitle": "My obituary for programming",
-   "originalUrl": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
-   "originalLanguage": "en",
-   "originalDescription": "My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic…",
-   "publishedAt": "2026-10-19T23:58:25.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai",
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "70fcfd2268874244"
-  },
-  {
-   "id": "21dc8fc69ccc990a",
-   "sourceId": "ars-technica-ai",
-   "sourceName": "Ars Technica AI",
-   "originalTitle": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
-   "originalUrl": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
-   "originalLanguage": "en",
-   "originalDescription": "US fears Saudi government will help ex-OpenAI engineer flee spying charges.",
-   "publishedAt": "2026-10-19T20:21:53.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2214263510-1024x648.jpg",
-   "contentHash": "7647979b8b2ca6c4"
-  },
-  {
-   "id": "68e2ee5d21f7dc1b",
-   "sourceId": "cloudflare-blog",
-   "sourceName": "The Cloudflare Blog",
-   "originalTitle": "Cutting our inference bill by 68% by being obsessive about optimization",
-   "originalUrl": "https://blog.cloudflare.com/obsessive-inference-optimization/",
-   "originalLanguage": "en",
-   "originalDescription": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while speeding up reviews.",
-   "publishedAt": "2026-10-19T19:12:53.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M58N5J1Y9HY8N3R115KEY6NE.png",
-   "contentHash": "33b64134a46cb01d"
-  },
-  {
-   "id": "5e09805dda87945d",
-   "sourceId": "github-blog",
-   "sourceName": "The GitHub Blog",
-   "originalTitle": "How to continue a GitHub Copilot app session in VS Code",
-   "originalUrl": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
-   "originalLanguage": "en",
-   "originalDescription": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog .",
-   "publishedAt": "2026-10-19T18:47:22.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "ba028e439413f323"
-  },
-  {
-   "id": "0f4aa3cd99c05948",
-   "sourceId": "ars-technica-gadgets",
-   "sourceName": "Ars Technica Gadgets",
-   "originalTitle": "ReactOS reaches major milestone with NTFS install support",
-   "originalUrl": "https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/",
-   "originalLanguage": "en",
-   "originalDescription": "ReactOS gains NTFS install support with new driver.",
-   "publishedAt": "2026-10-19T18:30:56.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "mobile-hardware"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ReactOS_NTFS_Drive_Properties.jpg",
-   "contentHash": "a18558e889858f84"
-  },
-  {
-   "id": "c93e63abfb94a4dc",
-   "sourceId": "mit-technology-review-ai",
-   "sourceName": "MIT Technology Review AI",
-   "originalTitle": "Making the internet better for AI agents might make it worse for everyone else",
-   "originalUrl": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
-   "originalLanguage": "en",
-   "originalDescription": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform…",
-   "publishedAt": "2026-10-19T18:22:47.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "8de9d5218eefbdf9"
-  },
-  {
-   "id": "40634a33b7feb1d3",
-   "sourceId": "cloudflare-blog",
-   "sourceName": "The Cloudflare Blog",
-   "originalTitle": "Introducing Clairic, a new System One class of extraction models",
-   "originalUrl": "https://blog.cloudflare.com/clairic-extraction-model/",
-   "originalLanguage": "en",
-   "originalDescription": "Clairic is a new model from Cloudflare that is a System One extraction modeI, capable of extracting, computing, estimating, and forecasting data from unstructured inputs.",
-   "publishedAt": "2026-10-19T17:48:26.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M5AKCGDJHDMM9AVJKV73MJGX.png",
-   "contentHash": "4d227b7a4a096fa9"
   }
  ]
 }

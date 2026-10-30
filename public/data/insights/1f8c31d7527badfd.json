@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1f8c31d7527badfd",
+ "contentHash": "e7c1dc902a3fa51b",
+ "model": "gemini-flash-latest",
+ "generatedAt": "2026-10-30T16:00:25.236Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+   "summary": "NVIDIA GPUDirect Storage (GDS) accelerates GPU storage access across both on-premises and cloud environments. It establishes a robust, portable, and efficient data path directly between NVIDIA GPUs and storage targets. This architecture is designed to support a broad range of platforms, application frameworks, and workload patterns.",
+   "impact": "Configuring GDS could help developers and administrators increase bandwidth and minimize latency for GPU-intensive workloads. It may also lower CPU and memory utilization across compatible systems.",
+   "keyPoints": [
+    "NVIDIA GPUDirect Storage accelerates GPU storage access in on-premises and cloud setups.",
+    "It provides a direct, efficient data path between NVIDIA GPUs and storage targets.",
+    "The technology aims to increase bandwidth, minimize latency, and reduce CPU and memory usage."
+   ]
+  },
+  "km": {
+   "title": "របៀបពិនិត្យ និងកំណត់រចនាសម្ព័ន្ធ NVIDIA GPUDirect Storage សម្រាប់ផ្លែតហ្វមរបស់អ្នក",
+   "summary": "NVIDIA GPUDirect Storage (GDS) បង្កើនល្បឿននៃការចូលប្រើប្រាស់អង្គផ្ទុកទិន្នន័យ GPU នៅក្នុងបរិស្ថានផ្ទាល់ (on-premises) និងលើពពក (cloud)។ វាផ្តល់នូវផ្លូវទិន្នន័យដ៏រឹងមាំ អាចចល័តបាន និងមានប្រសិទ្ធភាពរវាង NVIDIA GPU និងគោលដៅផ្ទុកទិន្នន័យ។ ស្ថាបត្យកម្មនេះត្រូវបានរចនាឡើងដើម្បីគាំទ្រដល់ផ្លែតហ្វម ក្របខ័ណ្ឌកម្មវិធី និងទម្រង់ការងារជាច្រើនប្រភេទ។",
+   "impact": "ការកំណត់រចនាសម្ព័ន្ធ GDS អាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកគ្រប់គ្រងបង្កើនកម្រិតបញ្ជូន និងកាត់បន្ថយភាពយឺតយ៉ាវសម្រាប់បន្ទុកការងារ GPU។ វាក៏អាចកាត់បន្ថយការប្រើប្រាស់ CPU និងអង្គចងចាំនៅលើប្រព័ន្ធដែលត្រូវគ្នាផងដែរ។",
+   "keyPoints": [
+    "NVIDIA GPUDirect Storage បង្កើនល្បឿនចូលប្រើប្រាស់អង្គផ្ទុកទិន្នន័យ GPU នៅក្នុងបរិស្ថាន on-premises និង cloud។",
+    "វាផ្តល់នូវផ្លូវទិន្នន័យប្រកបដោយប្រសិទ្ធភាពរវាង NVIDIA GPU និងគោលដៅផ្ទុកទិន្នន័យ។",
+    "បច្ចេកវិទ្យានេះមានគោលបំណងបង្កើនកម្រិតបញ្ជូន បង្រួមភាពយឺតយ៉ាវ និងកាត់បន្ថយការប្រើប្រាស់ CPU ព្រមទាំងអង្គចងចាំ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "如何为您的平台检查并配置 NVIDIA GPUDirect Storage",
+   "summary": "NVIDIA GPUDirect Storage (GDS) 能够加速本地部署和云环境中的 GPU 存储访问。它在 NVIDIA GPU 和存储目标之间提供了一条强大、可移植且高效的数据路径。该架构旨在跨广泛的平台、应用程序框架和工作负载模式提高数据传输性能。",
+   "impact": "配置 GDS 可帮助开发人员和系统管理员提升 GPU 密集型工作负载的带宽并降低延迟。它还可能减少兼容系统上的 CPU 和内存资源占用。",
+   "keyPoints": [
+    "NVIDIA GPUDirect Storage 可加速本地与云环境中的 GPU 存储访问。",
+    "它在 NVIDIA GPU 与存储目标之间建立高效且可移植的数据路径。",
+    "该技术旨在提高带宽、最小化延迟并减少 CPU 与内存的利用率。"
+   ]
+  },
+  "ko": {
+   "title": "플랫폼에 맞게 NVIDIA GPUDirect Storage를 확인하고 구성하는 방법",
+   "summary": "NVIDIA GPUDirect Storage(GDS)는 온프레미스 및 클라우드 환경에서 GPU 스토리지 액세스를 가속화합니다. 이는 NVIDIA GPU와 스토리지 대상 사이에 견고하고 이식 가능하며 효율적인 데이터 경로를 제공합니다. 이러한 구조는 다양한 플랫폼, 애플리케이션 프레임워크 및 워크로드 패턴을 지원하도록 설계되었습니다.",
+   "impact": "GDS를 구성하면 개발자와 시스템 관리자가 GPU 집약적인 워크로드의 대역폭을 높이고 지연 시간을 줄이는 데 도움이 될 수 있습니다. 또한 호환 시스템에서 CPU 및 메모리 사용률을 낮출 수 있습니다.",
+   "keyPoints": [
+    "NVIDIA GPUDirect Storage는 온프레미스 및 클라우드 환경에서 GPU 스토리지 액세스를 가속화합니다.",
+    "NVIDIA GPU와 스토리지 타깃 간에 효율적인 데이터 경로를 제공합니다.",
+    "대역폭을 늘리고 지연 시간을 최소화하며 CPU 및 메모리 사용률을 줄이는 것을 목표로 합니다."
+   ]
+  }
+ }
+}

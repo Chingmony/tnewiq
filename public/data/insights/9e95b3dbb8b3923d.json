@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9e95b3dbb8b3923d",
+ "contentHash": "eff649cb5c187487",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T16:08:17.271Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "An ODE-based Sampler for Discrete Diffusion Models",
+   "summary": "Researchers introduce exponential residual flows (ERFs) to establish a deterministic ordinary differential equation formulation for discrete diffusion models, answering whether an analogous formulation to continuous diffusion models exists. By augmenting the discrete state with a continuous residual variable for each token and position, the framework allows residuals to evolve deterministically according to piecewise-defined ODEs. The authors prove this construction preserves the marginals of the original diffusion and derive a practical discretization specialized to masked and uniform diffusion. Empirical improvements over previous approaches are demonstrated across code and text generation tasks.",
+   "impact": "This framework could enable accelerated sampling and consistency distillation for discrete diffusion models by providing deterministic trajectories. Developers and researchers working on code and text generation tasks may see empirical improvements over existing approaches.",
+   "keyPoints": [
+    "Exponential residual flows (ERFs) introduce a deterministic ODE formulation for discrete diffusion models.",
+    "The framework augments discrete states with continuous residual variables that evolve via piecewise-defined ODEs.",
+    "ERFs preserve the marginals of the original diffusion and support consistency distillation.",
+    "The sampler yields empirical improvements across code and text generation benchmarks."
+   ]
+  },
+  "km": {
+   "title": "កម្មវិធីគំរូផ្អែកលើ ODE សម្រាប់ម៉ូឌែលបំរែបំរួលដាច់ដោយឡែក",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំលំហូរអត្រានុកូលដ្ឋានអិចស្ប៉ូណង់ស្យែល ដើម្បីបង្កើតរូបមន្តសមីការឌីផេរ៉ង់ស្យែលធម្មតាដែលមានលក្ខណៈកំណត់សម្រាប់ម៉ូឌែលបំរែបំរួលដាច់ដោយឡែក។ ក្របខ័ណ្ឌនេះពង្រីកស្ថានភាពដាច់ដោយឡែកជាមួយនឹងអរូបីសំណល់បន្តបន្ទាប់គ្នាសម្រាប់និមួយៗ ហើយអាចទ្រទ្រង់ការចម្រั่นភាពស៊ីសង្វាក់គ្នា។ ការធ្វើតេស្តបង្ហាញពីភាពប្រសើរឡើងជាក់ស្តែងលើកិច្ចការបង្កើតកូដ និងអត្ថបទ។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចជួយបង្កើនល្បឿននៃការយកគំរូនិងការចម្រន់ភាពស៊ីសង្វាក់គ្នាក្នុងម៉ូឌែលបំរែបំរួលដាច់ដោយឡែក។ អ្នកអភិវឌ្ឍន៍អាចទទួលបានលទ្ធផលប្រសើរជាងមុនលើកិច្ចការបង្កើតកូដនិងអត្ថបទ។",
+   "keyPoints": [
+    "លំហូរអត្រានុកូលដ្ឋានអិចស្ប៉ូណង់ស្យែលបង្កើតរូបមន្ត ODE សម្រាប់ម៉ូឌែលបំរែបំរួលដាច់ដោយឡែក។",
+    "ក្របខ័ណ្ឌនេះបន្ថែមអរូបីសំណល់បន្តបន្ទាប់គ្នាដែលវិវត្តតាម ODEs ។",
+    "វាបង្ហាញពីភាពប្រសើរឡើងជាក់ស្តែងលើការបង្កើតកូដនិងអត្ថបទ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "离散扩散模型的基于ODE的采样器",
+   "summary": "研究人员引入了指数残差流（ERF），为离散扩散模型建立了一个确定性常微分方程表述，肯定了类似于连续扩散模型的对应形式的存在。通过为每个标记和位置的离散状态增加一个连续残差变量，该框架使残差根据分段定义的ODE确定性地演化。作者证明了这种构建方式保留了原始扩散的边缘分布，并推导出了专门用于掩码和均匀扩散的实用离散化方法。在代码和 text 生成任务等多种基准测试中，该方法表现出了对以往方法的经验性改进。",
+   "impact": "该框架通过提供确定性轨迹，可能为离散扩散模型实现加速采样和一致性蒸馏。从事代码和文本生成任务的开发人员和研究人员可能会发现其性能优于现有方法。",
+   "keyPoints": [
+    "指数残差流（ERF）为离散扩散模型引入了确定性ODE表述。",
+    "该框架通过分段定义的ODE使连续残差变量确定性演化。",
+    "该方法保持了原始扩散的边缘分布并支持一致性蒸馏。",
+    "在代码和文本生成任务中展现了经验性能提升。"
+   ]
+  },
+  "ko": {
+   "title": "이산 확산 모델을 위한 ODE 기반 샘플러",
+   "summary": "연구원들은 이산 확산 모델을 위한 결정론적 상미분 방정식 공식을 확립하기 위해 지수 잔차 흐름(ERF)을 도입하여 연속 확산 모델과 유사한 공식이 존재하는지 확인했습니다. 각 토큰 및 위치에 대한 연속 잔차 변수로 이산 상태를 보강함으로써 프레임워크는 잔차가 조각별로 정의된 ODE에 따라 결정론적으로 진화하도록 합니다. 저자들은 이 구조가 원래 확산의 주변 분포를 보존함을 증명하고 마스크 및 균일 확산에 특화된 실용적인 이산화 방식을 도출했습니다. 코드 및 텍스트 생성 작업을 포함한 다양한 벤치마크에서 이전 접근 방식에 비해 경험적 개선이 입증되었습니다.",
+   "impact": "이 프레임워크는 결정론적 궤적을 제공하여 이산 확산 모델의 가속 샘플링 및 일관성 증류를 가능하게 할 수 있습니다. 코드 및 텍스트 생성 작업을 수행하는 개발자와 연구원은 기존 방식에 비해 향상된 성능을 확인할 수 있습니다.",
+   "keyPoints": [
+    "지수 잔차 흐름(ERF)은 이산 확산 모델을 위한 결정론적 ODE 공식을 도입합니다.",
+    "프레임워크는 조각별 정의된 ODE를 통해 진화하는 연속 잔차 변수로 이산 상태를 보강합니다.",
+    "이 구조는 원래 확산의 주변 분포를 보존하고 일관성 증류를 지원합니다.",
+    "코드 및 텍스트 생성 벤치마크에서 경험적 개선을 보여줍니다."
+   ]
+  }
+ }
+}

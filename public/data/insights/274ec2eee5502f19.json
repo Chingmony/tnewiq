@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "274ec2eee5502f19",
+ "contentHash": "6db702057df1b4f0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T16:09:01.420Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder",
+   "summary": "Researchers evaluated a joint approach to proactive assistance that combines gating and memory-grounded hint generation in a single compact decoder model. Tested across 28,058 decision points, the single 1B decoder performs both tasks in one pass by gating from an intermediate layer and generating hints. Results show it matches or exceeds traditional two-model pipelines on automatic end-to-end measures while reducing wall-clock time.",
+   "impact": "This approach could help developers and technology users by reducing compute overhead and latency for proactive assistants without sacrificing quality. However, human evaluations show that smaller single models may still fall short of larger 8B pipelines.",
+   "keyPoints": [
+    "Evaluated joint gating and hint generation across 28,058 decision points.",
+    "A single 1B decoder performs both gating and generation in one pass.",
+    "The memory profile significantly drives hint quality, while retrieval and larger generators add nothing on exact match.",
+    "Human evaluations rated the single model on par with a matched 1B pipeline but below an 8B pipeline."
+   ]
+  },
+  "km": {
+   "title": "ពេលណាត្រូវជួយនិងអ្វីដែលត្រូវស្នើ៖ ការគ្រប់គ្រងរួមគ្នា និងការបង្កើតតម្រុយផ្អែកលើអង្គចងចាំនៅក្នុងឌីកូឌ័រតូចល្មមតែមួយ",
+   "summary": "អ្នកស្រាវជ្រាវបានវាយតម្លៃវិធីសាស្ត្ររួមគ្នាមួយសម្រាប់ការជំនួយបែបសកម្ម ដែលបញ្ចូលគ្នានូវការគ្រប់គ្រងនិងការបង្កើតតម្រុយផ្អែកលើអង្គចងចាំទៅក្នុងម៉ូដែលឌីកូឌ័រតូចតែមួយ។ ការធ្វើតេស្តលើចំណុចសម្រេចចិត្តចំនួន ២៨.០៥៨ បានបង្ហាញថាឌីកូឌ័រទំហំ 1B អាចអនុវត្តការងារទាំងពីរបានក្នុងពេលតែមួយ។ លទ្ធផលបង្ហាញថាវាអាចផ្គូផ្គង ឬលើសបណ្តាញពីរម៉ូដែលបែបប្រពៃណីនៅលើរង្វាស់ស្វ័យប្រវត្តិ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយកាត់បន្ថយការផ្ទុកកុំព្យូទ័រ និងពេលវេលាឆ្លើយតបសម្រាប់ជំនួយការសកម្មដោយមិនបាត់បង់គុណភាព។ ទោះជាយ៉ាងណាក៏ដោយ ការវាយតម្លៃរបស់មនុស្សបង្ហាញថា ម៉ូដែលតូចតែមួយអាចនៅតែមានកម្រិតទាបជាងបណ្តាញ 8B ធំជាង។",
+   "keyPoints": [
+    "បានវាយតម្លៃការគ្រប់គ្រងរួមគ្នា និងការបង្កើតតម្រុយលើចំណុចសម្រេចចិត្តចំនួន ២៨.០៥៨។",
+    "ឌីកូឌ័រទំហំ 1B តែមួយអនុវត្តទាំងការគ្រប់គ្រង និងការបង្កើតក្នុងពេលតែមួយ។",
+    "ទម្រង់អង្គចងចាំជំរុញគុណភាពតម្រុយយ៉ាងខ្លាំង។",
+    "ការវាយតម្លៃរបស់មនុស្សបានផ្តល់ចំណាត់ថ្នាក់ម៉ូដែលតែមួយស្មើនឹងបណ្តាញ 1B ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "何时协助与建议什么：紧凑型解码器中的联合门控与基于记忆的提示生成",
+   "summary": "研究人员评估了一种主动协助的联合方法，该方法在一个紧凑的解码器模型中结合了门控和基于记忆的提示生成。在 28,058 个决策点上进行测试，单一的 1B 解码器通过从中间层进行门控并在同一通道中生成提示来执行这两项任务。结果表明，它在自动端到端指标上与或超过了双模型流水线，同时减少了挂钟时间。",
+   "impact": "这种方法可以帮助开发者和技术用户降低主动助手的计算开销和延迟，且不会牺牲质量。然而，人工评估表明，较小的单一模型可能仍不及更大的 8B 流水线。",
+   "keyPoints": [
+    "在 28,058 个决策点上评估了联合门控和提示生成。",
+    "单个 1B 解码器可在单次运行中执行门控和生成。",
+    "记忆配置文件显著决定了提示质量，而检索和更大的生成器在精确匹配上没有增加效果。",
+    "人工评估显示单模型与匹配的 1B 流水线水平相当，但低于 8B 流水线。"
+   ]
+  },
+  "ko": {
+   "title": "지원 시점과 제안 내용: 단일 소형 디코더에서의 결합 게이팅 및 메모리 기반 힌트 생성",
+   "summary": "연구원들은 단일 소형 디코더 모델에서 게이팅과 메모리 기반 힌트 생성을 결합한 능동형 지원 접근 방식을 평가했습니다. 28,058개의 결정 지점에서 테스트한 결과, 단일 1B 디코더는 중간 레이어에서 게이팅을 수행하고 동일한 패스에서 생성하는 방식으로 두 가지 작업을 모두 수행합니다. 결과는 자동 엔드투엔드 측정에서 기존의 2 모델 파이프라인과 일치하거나 초과함을 보여줍니다.",
+   "impact": "이 접근 방식은 품질 저하 없이 능동형 어시스턴트의 연산 오버헤드와 지연 시간을 줄이는 데 도움이 될 수 있습니다. 그러나 사람의 평가는 더 작은 단일 모델이 여전히 더 큰 8B 파이프라인에는 미치지 못할 수 있음을 보여줍니다.",
+   "keyPoints": [
+    "28,058개의 결정 지점에서 결합 게이팅 및 힌트 생성 평가.",
+    "단일 1B 디코더가 한 번의 패스로 게이팅과 생성을 모두 수행.",
+    "메모리 프로필이 힌트 품질을 크게 좌우하며, 검색과 더 큰 생성기는 정확한 일치에 영향을 주지 않음.",
+    "사람의 평가는 단일 모델이 일치하는 1B 파이프라인과 동등하고 8B 파이프라인보다는 낮다고 평가함."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7c8daa36d11d4cb7",
+ "contentHash": "6476faa92d57125a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T16:10:09.475Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "PIVOT: Progressive Intervention via Online Teacher Correction",
+   "summary": "Researchers introduced PIVOT, a method that addresses the limitations of reinforcement learning from verifiable rewards (RLVR) on hard reasoning tasks. PIVOT inserts teacher-generated corrections into student rollouts and applies token-level KL supervision alongside the RLVR objective. Controlled experiments demonstrated that this combination outperforms existing methods across hard logic games and mathematical reasoning benchmarks.",
+   "impact": "This approach could improve how models learn from complex reasoning and logic tasks by addressing sparse feedback issues. Developers and researchers working with reinforcement learning might achieve better training performance and higher accuracy on mathematical and logical benchmarks.",
+   "keyPoints": [
+    "RLVR is limited on hard reasoning tasks due to sparse outcome-level feedback when rollouts fail.",
+    "PIVOT combines trajectory-level intervention and token-level supervision.",
+    "The method nearly doubled mean avg@8 on logic games from 19.5% to 35.6% compared to the best baseline."
+   ]
+  },
+  "km": {
+   "title": "PIVOT៖ ការអន្តរាគមន៍កម្រិតបន្តបន្ទាប់តាមរយៈការកែតម្រូវពីគ្រូបង្រៀនអនឡាញ",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ PIVOT ដែលជាវិធីសាស្ត្រមួយដោះស្រាយបញ្ហាកម្រិតកំណត់នៃការរៀនពង្រឹងពីការផ្តល់រង្វាន់ដែលអាចផ្ទៀងផ្ទាត់បាន (RLVR) លើកិច្ចការពិបាកៗ។ PIVOT បញ្ចូលការកែតម្រូវដែលបង្កើតដោយគ្រូបង្រៀនទៅក្នុងដំណើរការរបស់សិស្ស និងអនុវត្តការគ្រប់គ្រងកម្រិតថូខឹន។ ការពិសោធន៍បានបង្ហាញថាវិធីសាស្ត្រនេះដំណើរការល្អជាងវិធីសាស្ត្រមុនៗនៅលើល្បែងតក្កវិជ្ជា និងគណិតវិទ្យា។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយកែលម្អរបៀបដែលម៉ូដែលរៀនពីកិច្ចការស្មុគស្មាញ និងដោះស្រាយបញ្ហា反馈ខ្សោយ។ អ្នកអភិវឌ្ឍន៍អាចទទួលបានលទ្ធផលប្រសើរជាងមុនលើកិច្ចការគណិតវិទ្យា និងតក្កវិជ្ជា។",
+   "keyPoints": [
+    "RLVR ត្រូវបានកំណត់ដោយសារមតិកែលម្អតិតតួចលើកិច្ចការពិបាកៗ។",
+    "PIVOT រួមបញ្ចូលទាំងការអន្តរាគមន៍កម្រិតគន្លង និងការគ្រប់គ្រងកម្រិតថូខឹន។",
+    "វិធីសាស្ត្រនេះបានបង្កើនពិន្ទុជាមធ្យមលើល្បែងតក្កវិជ្ជាពី ១៩.៥% ដល់ ៣៥.៦%。"
+   ]
+  },
+  "zh-CN": {
+   "title": "PIVOT：通过在线教师纠正进行的渐进式干预",
+   "summary": "研究人员引入了 PIVOT，这是一种旨在解决可验证奖励强化学习（RLVR）在困难推理任务中受限问题的方法。PIVOT 将教师生成的修正插入到学生采样中，并将词元级监督与 RLVR 目标结合起来。对照实验表明，该组合方法在困难逻辑游戏和数学推理基准测试中优于现有方法。",
+   "impact": "这种方法可以改善模型从复杂推理和逻辑任务中学习的效果，并解决反馈稀疏的问题。使用强化学习的开发人员可能会在数学和逻辑基准测试中获得更好的训练性能。",
+   "keyPoints": [
+    "由于困难推理任务中的稀疏反馈，RLVR 的学习信号会受到限制。",
+    "PIVOT 结合了轨迹级干预和词元级监督。",
+    "在逻辑游戏上，该方法将平均 avg@8 从基线的 19.5% 几乎翻倍至 35.6%。"
+   ]
+  },
+  "ko": {
+   "title": "PIVOT: 온라인 교사 조정을 통한 점진적 개입",
+   "summary": "연구원들은 어려운 추론 작업에서 검증 가능한 보상 기반 강화학습(RLVR)의 한계를 해결하기 위한 PIVOT 방법을 소개했습니다. PIVOT은 교사가 생성한 수정을 학생의 롤아웃에 삽입하고 RLVR 목표와 함께 토큰 수준의 감독을 적용합니다. 통제된 실험을 통해 이 조합이 기존 방법보다 뛰어난 성능을 보인다는 것이 입증되었습니다.",
+   "impact": "이 접근 방식은 모델이 복잡한 추론 및 논리 작업에서 학습하는 방식을 개선하고 부족한 피드백 문제를 해결할 수 있습니다. 개발자와 연구원은 수학 및 논리 벤치마크에서 더 나은 학습 성능을 달성할 수 있습니다.",
+   "keyPoints": [
+    "RLVR은 어려운 추론 작업에서 희소한 피드백으로 인해 학습 신호가 부족합니다.",
+    "PIVOT은 궤적 수준 개입과 토큰 수준 감독을 결합합니다.",
+    "이 방법은 논리 게임에서 평균 avg@8을 기존 기준인 19.5%에서 35.6%로 거의 두 배 높였습니다."
+   ]
+  }
+ }
+}

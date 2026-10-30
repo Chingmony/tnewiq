@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8354237bbbcdadca",
+ "contentHash": "913f2afb77c457ff",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T16:10:32.769Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Gym-Anything for Robotics: Scaling physical simulations with digital agents",
+   "summary": "Researchers introduce Gym-Anything for Robotics, a framework that uses coding agents to create realistic robotics simulations and overcome scaling bottlenecks. By selecting simulations based on U.S. GDP data and using an adversarial creation-audit loop, they built RoboWorld, a benchmark containing 25 simulations and multiple reinforcement learning environments. Experiments show that frontier models currently fail on all RoboWorld test tasks, but performance can be improved using new techniques such as in-context learning and self-assisted learning.",
+   "impact": "This framework could help developers and researchers train embodied AI models more effectively by leveraging automated simulation generation. The released pipeline, RL environments, and benchmark may facilitate future research in robotics and vision-language-action models.",
+   "keyPoints": [
+    "Gym-Anything for Robotics uses coding agents to automate the creation of robotics simulations.",
+    "RoboWorld includes 25 simulations with 25 test and 175 training RL environments based on U.S. GDP data.",
+    "Frontier models achieved an average reward of only 0.06 on RoboWorld test tasks.",
+    "New training methods like in-context learning and privileged teachers substantially improve model performance."
+   ]
+  },
+  "km": {
+   "title": "Gym-Anything សម្រាប់រ៉ូប៊ីទិក៖ ការពង្រីកការក្លែងធ្វើរូបវិទ្យាជាមួយភ្នាក់ងារឌីជីថល",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ Gym-Anything សម្រាប់រ៉ូប៊ីទិក ដែលជាក្របខ័ណ្ឌមួយប្រើប្រាស់ភ្នាក់ងារសរសេរកូដដើម្បីបង្កើតការក្លែងធ្វើរ៉ូប៊ីទិកប្រាកដនិយម និងជម្នះឧបសគ្គនៃការខ្នាត។ តាមរយៈការជ្រើសរើសការក្លែងធ្វើផ្អែកលើទិន្នន័យផលិតផលក្នុងស្រុកសរុប (GDP) របស់សហរដ្ឋអាមេរិក ពួកគេបានសាងសង់ RoboWorld ដែលជាបណ្តុំនៃការក្លែងធ្វើ និងបរិយាកាសសិក្សា។ ការពិសោធបង្ហាញថា បច្ចុប្បន្នម៉ូដែលកម្រិតខ្ពស់មិនអាចឆ្លើយតបនឹងភារកិច្ចទាំងអស់នៅក្នុង RoboWorld បានទេ ប៉ុន្តែដំណើរការអាចត្រូវបានកែលម្អដោយប្រើបច្ចេកទេសថ្មីៗ។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវក្នុងការបណ្តុះបណ្តាលគំរូបញ្ញាសិប្បនិម្មិតដែលបង្កប់ក្នុងរូបរាងឱ្យកាន់តែមានប្រសិទ្ធភាព។ បំពង់បង្ហូរប្រេង បរិយាកាស និងគោលការណ៍ដែលបានចេញផ្សាយអាចជួយសម្រួលដល់ការស្រាវជ្រាវនាពេលអនាគត។",
+   "keyPoints": [
+    "Gym-Anything សម្រាប់រ៉ូប៊ីទិក ប្រើប្រាស់ភ្នាក់ងារសរសេរកូដដើម្បីស្វ័យប្រវត្តិកម្មការបង្កើតការក្លែងធ្វើរ៉ូប៊ីទិក។",
+    "RoboWorld រួមបញ្ចូលការក្លែងធ្វើចំនួន ២៥ និងបរិយាកាសរៀនសូត្រជាច្រើន។",
+    "ម៉ូដែលកម្រិតខ្ពស់ទទួលបានពិន្ទុជាមធ្យមត្រឹមតែ ០,០៦ ប៉ុណ្ណោះលើភារកិច្ចតេស្ត RoboWorld។",
+    "វិធីសាស្ត្របណ្តុះបណ្តាលថ្មីៗជួយកែលម្អដំណើរការរបស់ម៉ូដែលយ៉ាងខ្លាំង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Gym-Anything for Robotics：利用数字智能体扩展物理仿真",
+   "summary": "研究人员推出了Gym-Anything for Robotics，这是一个利用编码智能体创建逼真机器人仿真并克服扩展瓶颈的框架。通过根据美国GDP数据选择仿真任务并采用对抗性创建-审核循环，他们构建了包含25个仿真以及多个强化学习环境的RoboWorld基准。实验表明，当前最先进的前沿模型在所有RoboWorld测试任务上均告失败，但通过上下文学习和自辅助学习等新技术可以显著提升性能。",
+   "impact": "该框架可能帮助开发者和研究人员利用自动仿真生成技术更有效地训练具身AI模型。发布的代码库、强化学习环境和基准测试有望促进机器人技术及视觉-语言-动作模型的未来研究。",
+   "keyPoints": [
+    "Gym-Anything for Robotics使用编码智能体来自动化创建机器人仿真。",
+    "RoboWorld包含25个仿真以及基于美国GDP数据的25个测试和175个训练强化学习环境。",
+    "前沿模型在RoboWorld测试任务上的平均奖励仅为0.06。",
+    "诸如上下文学习和特权教师等新技术显著提升了模型性能。"
+   ]
+  },
+  "ko": {
+   "title": "로보틱스를 위한 Gym-Anything: 디지털 에이전트를 통한 물리 시뮬레이션 확장",
+   "summary": "연구진은 코딩 에이전트를 활용하여 현실적인 로보틱스 시뮬레이션을 생성하고 확장 한계를 극복하는 프레임워크인 Gym-Anything for Robotics를 소개했습니다. 미국 GDP 데이터를 기반으로 시뮬레이션을 선정하고 대립적 생성-감사 루프를 사용하여 25개의 시뮬레이션과 강화 학습 환경을 포함하는 벤치마크인 RoboWorld를 구축했습니다. 실험 결과, 현재 최고의 프론티어 모델들도 모든 RoboWorld 테스트 작업에서 실패했으나 인컨텍스트 학습 등 새로운 기법을 통해 성능을 향상시킬 수 있음이 나타났습니다.",
+   "impact": "이 프레임워크는 개발자와 연구원들이 자동화된 시뮬레이션 생성을 통해 체화된 인공지능 모델을 더 효과적으로 훈련하는 데 도움을 줄 수 있습니다. 공개된 파이프라인과 환경은 로보틱스 분야의 향후 연구를 촉진할 수 있습니다.",
+   "keyPoints": [
+    "Gym-Anything for Robotics는 코딩 에이전트를 사용하여 로보틱스 시뮬레이션 생성을 자동화합니다.",
+    "RoboWorld는 25개의 시뮬레이션과 미국 GDP 데이터를 기반으로 한 다수의 학습 환경을 포함합니다.",
+    "프론티어 모델들은 RoboWorld 테스트 작업에서 평균 0.06의 보상만을 달성했습니다.",
+    "인컨텍스트 학습과 자가 보조 학습 등의 새로운 방법이 모델 성능을 실질적으로 향상시킵니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "01c7e4cbb7b7ddab",
+ "contentHash": "e6841477bb7ec5a2",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T16:08:50.571Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races",
+   "summary": "TextSeal2 is a distortion-free watermark for large language models that maintains its signal under speculative decoding without changing the acceptance rate or adding inference latency. It merges multiple keys into a single virtual key using AutoMark's Gaussian copula and verifies keyed drafts using an exponential race. Evaluations across three LLMs show improved detection rates compared to TextSeal and textGrain.",
+   "impact": "Developers and security teams working with large language models could use TextSeal2 to watermark outputs without compromising generation quality or incurring inference latency. The preservation of signals under speculative decoding may assist in maintaining detection reliability in accelerated generation pipelines.",
+   "keyPoints": [
+    "TextSeal2 introduces a distortion-free watermarking scheme for LLMs.",
+    "It merges two or more keys into a virtual key via AutoMark's Gaussian copula.",
+    "It maintains watermarking signals under speculative decoding without changing the acceptance rate.",
+    "It outperforms TextSeal and textGrain in detection rates at a false-positive rate of $10^{-3}$."
+   ]
+  },
+  "km": {
+   "title": "TextSeal2៖ ការដាក់ទឹកលើ LLM ដោយគ្មានការបំភ្លៃតាមរយៈ Copula Mixing និង Memoryless Races",
+   "summary": "TextSeal2 គឺជាកូដសម្គាល់ទឹកគ្មានការបំភ្លៃសម្រាប់គំរូភាសាខ្នាតធំ ដែលរក្សាសញ្ញារបស់វាក្រោមការឌិកូដរំពឹងទុកដោយមិនផ្លាស់ប្តូរអត្រាយល់ព្រម ឬបន្ថែមភាពយឺតយ៉ាវនៃការសន្និដ្ឋាន។ វាបញ្ចូលសោរច្រើនទៅក្នុងសោរនិម្មិតតែមួយដោយប្រើ Gaussian copula របស់ AutoMark និងផ្ទៀងផ្ទាត់សេចក្តីព្រាងដោយប្រើការប្រណាំងអិចស្ប៉ូណង់ស្យែល។ ការវាយតម្លៃលើគំរូ LLM ចំនួនបីបានបង្ហាញពីអត្រាស្វែងរកដែលប្រសើរជាងបើធៀបនឹង TextSeal និង textGrain។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខដែលធ្វើការជាមួយគំរូភាសាខ្នាតធំអាចប្រើប្រាស់ TextSeal2 ដើម្បីដាក់សញ្ញាសម្គាល់លើទិន្នផលដោយមិនប៉ះពាល់ដល់គុណភាពនៃការបង្កើត ឬបង្កើនភាពយឺតយ៉ាវនៃការសន្និដ្ឋាន។ ការរក្សាសញ្ញាទុកក្រោមការឌិកូដរំពឹងទុកអាចជួយរក្សាភាពជឿជាក់នៃការตรวจរកក្នុងដំណើរការបង្កើតលឿនជាងមុន។",
+   "keyPoints": [
+    "TextSeal2 បង្ហាញពីគ្រោងការណ៍ដាក់សញ្ញាសម្គាល់ទឹកដែលគ្មានការបំភ្លៃសម្រាប់ LLM។",
+    "វាបញ្ចូលសោរពីរ ឬច្រើនទៅក្នុងសោរនិម្មិតតាមរយៈ Gaussian copula របស់ AutoMark។",
+    "វាថែរក្សាសញ្ញាសម្គាល់ទឹកក្រោមការឌិកូដរំពឹងទុកដោយមិនផ្លាស់ប្តូរអត្រាយល់ព្រមឡើយ។",
+    "វាមានដំណើរការល្អជាង TextSeal និង textGrain ក្នុងអត្រាស្វែងរកនៅអត្រាវិជ្ជមានខុស $10^{-3}$។"
+   ]
+  },
+  "zh-CN": {
+   "title": "TextSeal2：结合Copula混合与无记忆竞争的无失真大语言模型水印技术",
+   "summary": "TextSeal2 是一种针对大语言模型的无失真水印技术，能够在推测解码下保持信号，同时不改变接受率且不增加推理延迟。它利用 AutoMark 的高斯 Copula 将两个或多个密钥合并为一个虚拟密钥，并通过指数级竞争来验证带密钥的草稿。对三个大语言模型的评估显示，其检测率优于 TextSeal 和 textGrain。",
+   "impact": "使用大语言模型的开发者和安全团队可以利用 TextSeal2 为输出添加水印，而不会损害生成质量或引入推理延迟。在推测解码下保持信号的能力可能有助于在加速生成流程中维护检测的可靠性。",
+   "keyPoints": [
+    "TextSeal2 引入了一种用于大语言模型的无失真水印方案。",
+    "它通过 AutoMark 的高斯 Copula 将多个密钥合并为一个虚拟密钥。",
+    "它在推测解码下保持水印信号且不改变接受率。",
+    "在 $10^{-3}$ 的误报率下，其检测率优于 TextSeal 和 textGrain。"
+   ]
+  },
+  "ko": {
+   "title": "TextSeal2: 코퓰러 믹싱과 메모리리스 레이스를 활용한 왜곡 없는 LLM 워터마킹",
+   "summary": "TextSeal2는 수용률을 변경하거나 추론 지연을 추가하지 않으면서 추세 디코딩 상태에서도 신호를 유지하는 대형 언어 모델용 왜곡 없는 워터마크입니다. AutoMark의 가우스 코퓰러를 사용하여 두 개 이상의 키를 단일 가상 키로 병합하고 지수적 경주를 사용하여 키가 지정된 초안을 검증합니다. 세 가지 LLM에 대한 평가는 TextSeal 및 textGrain에 비해 향상된 탐지율을 보여줍니다.",
+   "impact": "대형 언어 모델을 다루는 개발자와 보안 팀은 생성 품질 저하나 추론 지연 없이 출력에 워터마크를 지정하기 위해 TextSeal2를 사용할 수 있습니다. 추세 디코딩 하에서 신호가 유지되면 가속화된 생성 파이프라인에서 탐지 신뢰성을 유지하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "TextSeal2는 LLM을 위한 왜곡 없는 워터마킹 방식을 도입합니다.",
+    "AutoMark의 가우스 코퓰러를 통해 둘 이상의 키를 단일 가상 키로 병합합니다.",
+    "수용률을 변경하지 않고 추세 디코딩 하에서 워터마크 신호를 유지합니다.",
+    "$10^{-3}$의 오탐율에서 TextSeal 및 textGrain보다 더 높은 탐지율을 보입니다."
+   ]
+  }
+ }
+}

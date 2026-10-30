@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b056a6cde4fc1b7f",
+ "contentHash": "bc34991eaf3ab86d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T16:09:36.558Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Multistatic ISAC with Deep Learning-Based Clutter Suppression for 5G and Beyond",
+   "summary": "Integrated sensing and communications systems using 5G and beyond can face performance degradation from dense and dynamic clutter that affects range and Doppler estimation. To resolve this, researchers introduced a multistatic ISAC framework featuring deep learning-based clutter suppression. The approach uses residual and attention-enhanced deep neural network architectures to improve robustness and enhance target responses.",
+   "impact": "This research could help developers and engineers improve target localization and velocity estimation in integrated sensing and communications systems. Security teams and technology users may see more reliable wireless sensing capabilities in complex environments.",
+   "keyPoints": [
+    "Multistatic ISAC increases sensing coverage but suffers from dense and dynamic clutter.",
+    "Conventional signal processing baselines showed limited robustness under strong clutter conditions.",
+    "Deep learning methods use residual and attention-enhanced deep neural networks to suppress clutter.",
+    "The new methods outperform conventional approaches in position and velocity estimation."
+   ]
+  },
+  "km": {
+   "title": "Multistatic ISAC ជាមួយការបំបាត់សំឡេងរំខានដោយផ្អែកលើ Deep Learning សម្រាប់ 5G និងអនាគត",
+   "summary": "ប្រព័ន្ធ Integrated sensing and communications ដែលប្រើប្រាស់សញ្ញា 5G និងជំនាន់ក្រោយអាចជួបប្រទះបញ្ហាថយចុះប្រសិទ្ធភាពដោយសារសំឡេងរំខានក្រាស់និងមានចលនា។ ដើម្បីដោះស្រាយបញ្ហានេះ អ្នកស្រាវជ្រាវបានណែនាំក្របខ័ណ្ឌ multistatic ISAC ជាមួយនឹងការបំបាត់សំឡេងរំខានដោយផ្អែកលើ deep learning។ វិធីសាស្ត្រនេះប្រើប្រាស់ស្ថាបត្យកម្មគ្រោងបណ្តាញសរសៃប្រសាទស៊ីជម្រៅដើម្បីបង្កើនភាពរឹងមាំនិងឆ្លើយតបគោលដៅកាន់តែប្រសើរ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងវិស្វករកែលម្អការកំណត់ទីតាំងគោលដៅនិងល្បឿននៅក្នុងប្រព័ន្ធសញ្ញា។ ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានសមត្ថភាពចាប់សញ្ញាឥតខ្សែដែលគួរឱ្យទុកចិត្តជាងមុន។",
+   "keyPoints": [
+    "Multistatic ISAC ពង្រីកការគ្របដណ្តប់ការចាប់សញ្ញាប៉ុន្តែរងផលប៉ះពាល់ដោយសំឡេងរំខានក្រាស់។",
+    "វិធីសាស្ត្រដំណើរការសញ្ញាបុរាណមានភាពរឹងមាំកម្រិតកំណត់ក្រោមលក្ខខណ្ឌសំឡេងរំខានខ្លាំង។",
+    "វិធីសាស្ត្រ deep learning ប្រើប្រាស់បណ្តាញសរសៃប្រសាទស៊ីជម្រៅដើម្បីទប់ស្កាត់សំឡេងរំខាន។",
+    "វិធីសាស្ត្រថ្មីនេះមានដំណើរការល្អជាងវិធីសាស្ត្របុរាណក្នុងការប៉ាន់ស្មានទីតាំងនិងល្បឿនគោលដៅ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "面向5G及未来的基于深度学习杂波抑制的多基地ISAC",
+   "summary": "使用5G及以后信号的集成传感和通信系统可能会因密集且动态的杂波而导致性能下降，从而影响距离和多普勒估计。为了解决这一限制，研究人员提出了一种具有杂波抑制功能的多基地ISAC框架。该方法采用残差和注意力增强的深度神经网络架构，以直接从受杂波污染的观测中增强目标响应。",
+   "impact": "这项研究可以帮助开发人员和工程师改善集成传感和通信系统中的目标定位和速度估计。安全团队和技术用户可能会在复杂环境中获得更可靠的无线传感能力。",
+   "keyPoints": [
+    "多基地ISAC增加了传感覆盖范围，但密集动态杂波会大大降低估计精度。",
+    "在强杂波条件下，传统的信号处理基准表现出有限的鲁棒性。",
+    "引入深度学习杂波抑制方法以提高对密集动态杂波的鲁棒性。",
+    "新方法在各种杂波条件下的目标位置和速度估计方面显著优于传统方法。"
+   ]
+  },
+  "ko": {
+   "title": "5G 및 그 이후를 위한 딥러닝 기반 클러터 억제 기능을 갖춘 멀티스태틱 ISAC",
+   "summary": "5G 및 그 이후의 신호를 사용하는 통합 센싱 및 통신 시스템은 거리 및 도플러 추정에 영향을 미치는 조밀하고 동적인 클러터로 인해 성능 저하를 겪을 수 있습니다. 이를 해결하기 위해 연구진은 클러터 억제 기능이 포함된 멀티스태틱 ISAC 프레임워크를 제시했습니다. 이 접근 방식은 잔여 및 어텐션 강화 심층 신경망 아키텍처를 사용하여 클러터로 오염된 관측에서 대상 응답을 직접 향상시킵니다.",
+   "impact": "이번 연구는 개발자와 엔지니어가 통합 센싱 및 통신 시스템에서 대상 위치 및 속도 추정을 개선하는 데 도움을 줄 수 있습니다. 보안 팀과 기술 사용자는 복잡한 환경에서 더욱 신뢰할 수 있는 무선 센싱 기능을 확보할 수 있습니다.",
+   "keyPoints": [
+    "멀티스태틱 ISAC은 센싱 범위를 넓히지만 조밀하고 동적인 클러터로 인해 성능이 저하될 수 있습니다.",
+    "기존의 신호 처리 기준선들은 강한 클러터 조건에서 제한된 강건성을 보였습니다.",
+    "딥러닝 기반 클러터 억제 방법은 심층 신경망을 사용하여 조밀하고 동적인 클러터에 대한 강건성을 향상시킵니다.",
+    "새로운 방법들은 다양한 클러터 조건에서 대상 위치 및 속도 추정 시 기존 접근 방식보다 우수한 성능을 보입니다."
+   ]
+  }
+ }
+}

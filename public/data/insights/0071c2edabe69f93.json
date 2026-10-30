@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0071c2edabe69f93",
+ "contentHash": "baab47f1e1ad7e91",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T16:10:21.640Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation",
+   "summary": "Researchers introduce Multi-teacher Adaptive On-policy Self-Distillation (MTA-OPSD), a novel token-level adaptive method for post-training large language models. Existing approaches use a fixed teacher throughout training or a single partial reference per response, which the paper argues is insufficient because teacher preferences vary per token. MTA-OPSD constructs a multi-teacher pool and allows every token to adaptively select its preferred teacher during training using majority voting and KL-based selection. Experiments on mathematical reasoning tasks using Qwen3 models show that MTA-OPSD achieves an average gain of up to +5.9 over the base model.",
+   "impact": "This method could offer developers and researchers a more effective approach to post-training large language models, especially for complex tasks like mathematical reasoning. By adapting teacher supervision at the token level, teams may see performance improvements compared to traditional fixed or response-level OPSD methods.",
+   "keyPoints": [
+    "Existing OPSD approaches keep the teacher fixed or vary exposure only across responses.",
+    "A pilot study shows teacher preferences vary token by token within the same response.",
+    "MTA-OPSD allows every token to adaptively select its preferred teacher from a multi-teacher pool.",
+    "Experiments with Qwen3 models on mathematical reasoning show average gains of up to +5.9 over the base model."
+   ]
+  },
+  "km": {
+   "title": "តoken នីមួយៗត្រូវការគ្រូផ្ទាល់ខ្លួន៖ ការទាញយកចំណេះដឹងដោយខ្លួនឯងបែប On-policy បែបបត់បែនដែលមានគ្រូច្រើន",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំវិធីសាស្ត្រ Multi-teacher Adaptive On-policy Self-Distillation (MTA-OPSD) ដែលជាវិធីសាស្ត្រកម្រិតតoken បត់បែនដំបូងគេសម្រាប់ការបណ្តុះបណ្តាលគំរូភាសាខ្នាតធំ។ វិធីសាស្ត្រដែលមានស្រាប់ប្រើប្រាស់គ្រូថេរ ឬប្រែប្រួលការបង្ហាញតែចន្លោះនៃការឆ្លើយតប ដែលការសិក្សានេះបង្ហាញថាមិនគ្រប់គ្រាន់ព្រោះចំណង់ចំណូលចិត្តរបស់គ្រូអាចប្រែប្រួលតាមតoken។ MTA-OPSD បង្កើតពហុកាលីបគ្រូ និងអនុញ្ញាតឱ្យតoken នីមួយៗជ្រើសរើសគ្រូដែលខ្លួនចូលចិត្តដោយបត់បែនក្នុងអំឡុងពេលបណ្តុះបណ្តាល។ ការពិសោធន៍លើកិច្ចការហេតុផលគណិតវិទ្យាដោយប្រើគំរូ Qwen3 បង្ហាញថា MTA-OPSD ទទួលបានការកើនឡើងជាមធ្យមរហូតដល់ +5.9 ធៀបនឹងគំរូพื้นដ្ឋាន។",
+   "impact": "វិធីសាស្ត្រនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវវិធីសាស្ត្រដែលមានប្រសិទ្ធភាពជាងមុនសម្រាប់ការបណ្តុះបណ្តាលគំរូភាសាខ្នាតធំ ជាពិសេសសម្រាប់កិច្ចការស្មុគស្មាញដូចជាហេតុផលគណិតវិទ្យា។ តាមរយៈការសម្របសម្រួលការត្រួតពិនិត្យរបស់គ្រូនៅកម្រិតតoken ក្រុមការងារអាចទទួលបានការកែលម្អដំណើរការល្អជាងវិធីសាស្ត្រ OPSD បែបប្រពៃណី។",
+   "keyPoints": [
+    "វិធីសាស្ត្រ OPSD ដែលមានស្រាប់រក្សាគ្រូឱ្យថេរ ឬប្រែប្រួលតែឆ្លងកាត់ការឆ្លើយតបប៉ុណ្ណោះ។",
+    "ការសិក្សាបង្ហាញថាចំណង់ចំណូលចិត្តរបស់គ្រូខុសគ្នាពីតoken មួយទៅតoken មួយនៅក្នុងការឆ្លើយតបដូចគ្នា។",
+    "MTA-OPSD អនុញ្ញាតឱ្យតoken នីមួយៗជ្រើសរើសគ្រូដែលខ្លួនចូលចិត្តពីពហុកាលីបគ្រូដោយបត់បែន។",
+    "ការពិសោធន៍ជាមួយគំរូ Qwen3 លើកិច្ចការគណិតវិទ្យាបង្ហាញពីការកើនឡើងជាមធ្យមរហូតដល់ +5.9។"
+   ]
+  },
+  "zh-CN": {
+   "title": "每个Token都需要自己的老师：多教师自适应策略内自我蒸馏",
+   "summary": "研究人员推出了多教师自适应策略内自我蒸馏（MTA-OPSD）方法，这是首个针对大语言模型后训练的token级自适应OPSD方法。现有方法在整个训练过程中保持教师固定，或仅在不同响应之间自适应调整部分参考暴露，本文认为这两种方法都不够充分。MTA-OPSD构建了一个包含候选教师的多教师池，使每个token在训练期间能够自适应选择其首选教师。使用Qwen3模型在数学推理任务上的实验表明，MTA-OPSD相比基础模型取得了高达+5.9的平均提升。",
+   "impact": "该方法可能为开发者和研究人员提供一种更有效的大模型后训练途径，尤其适用于数学推理等复杂任务。通过在token级别调整教师监督，技术团队有望获得优于传统固定或响应级OPSD方法的性能表现。",
+   "keyPoints": [
+    "现有的OPSD方法在整个训练中保持教师固定或仅跨响应调整暴露。",
+    "试点研究表明，教师偏好在同一响应的不同token之间存在差异。",
+    "MTA-OPSD允许每个token从多教师池中自适应选择其首选教师。",
+    "Qwen3模型在数学推理任务上的实验显示平均提升高达+5.9。"
+   ]
+  },
+  "ko": {
+   "title": "모든 토큰에는 자신만의 교사가 필요합니다: 다중 교사 적응형 온폴리시 자체 증류",
+   "summary": "연구원들은 대형 언어 모델의 사후 학습을 위한 최초의 토큰 수준 적응형 OPSD 방법인 MTA-OPSD(Multi-teacher Adaptive On-policy Self-Distillation)를 도입했습니다. 기존 접근 방식은 학습 내내 교사를 고정하거나 응답 간에만 부분 참조 노출을 가변적으로 적용하지만, 본 논문에서는 교사 선호도가 동일한 응답 내에서도 토큰별로 다르기 때문에 이것만으로는 충분하지 않다고 주장합니다. MTA-OPSD는 후보 교사들로 구성된 다중 교사 풀을 구축하여 모든 토큰이 학습 중에 선호하는 교사를 적응적으로 선택할 수 있도록 합니다. Qwen3 모델을 사용한 수학적 추론 작업 실험에서 MTA-OPSD는 베이스 모델 대비 최대 +5.9의 평균 향상률을 기록했습니다.",
+   "impact": "이 방법은 개발자와 연구원들에게 대형 언어 모델의 사후 학습을 위한 더욱 효과적인 접근 방식을 제공할 수 있으며, 특히 수학적 추론과 같은 복잡한 작업에 유용할 수 있습니다. 토큰 수준에서 교사 지도를 적응시킴으로써 팀은 기존의 고정 방식이나 응답 수준의 OPSD 방식에 비해 성능이 향상되는 것을 확인할 수 있습니다.",
+   "keyPoints": [
+    "기존의 OPSD 접근 방식은 학습 과정 동안 교사를 고정하거나 응답 간에만 노출을 변경합니다.",
+    "파일럿 연구에 따르면 동일한 응답 내에서도 교사 선호도가 토큰마다 다릅니다.",
+    "MTA-OPSD는 모든 토큰이 다중 교사 풀에서 선호하는 교사를 적응적으로 선택할 수 있게 합니다.",
+    "수학적 추론 작업에서 Qwen3 모델을 사용한 실험 결과 베이스 모델 대비 최대 +5.9의 평균 향상을 보였습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0ec9141342ed8f27",
+ "contentHash": "f2cfdc4906e01be2",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T16:07:01.804Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "This Agent Host Made Its Interface Pure Text, Let Your Agent Change It to Whatever Shape You Want",
+   "summary": "Herdr is a native host designed for coding agents like Claude Code, Codex, and other terminal-running agents. Its design philosophy centers on making every interface a file that your agent can modify. Instead of learning a new IDE layout, the entire interface is built as a plain text file so you can instruct the agent to change its shape.",
+   "impact": "This approach could change how developers interact with coding environments by allowing agents to directly modify their host interfaces. Users may experience more customizable workflows through text-driven adjustments.",
+   "keyPoints": [
+    "Herdr is a native host for coding agents such as Claude Code and Codex.",
+    "The interface is structured entirely out of plain text files.",
+    "Users can have their agent modify the interface layout directly."
+   ]
+  },
+  "km": {
+   "title": "កម្មវិធីបង្ហោះ Agent នេះបានបង្កើតចំណុចប្រទាក់ជាអត្ថបទសុទ្ធ អ្នកចង់បានរាងបែបណាក៏បានដោយគ្រាន់តែឱ្យ Agent កែប្រែ",
+   "summary": "Herdr គឺជាកម្មវិធីបង្ហោះដើមសម្រាប់ coding agent ដូចជា Claude Code, Codex និង agent ផ្សេងទៀតដែលដំណើរការក្នុង终端។ គោលគំនិតរបស់វាគឺធ្វើឱ្យរាល់ចំណុចប្រទាក់ក្លាយជាឯកសារដែល agent របស់អ្នកអាចកែប្រែបាន។ ជំនួសឱ្យការរៀនប្លង់ IDE ថ្មី ចំណុចប្រទាក់ទាំងមូលត្រូវបានធ្វើជាឯកសារអត្ថបទសុទ្ធ ដើម្បីឱ្យអ្នកអាចឱ្យ agent កែប្រែវាដោយខ្លួនឯង។",
+   "impact": "វិធីសាស្ត្រនេះអាចផ្លាស់ប្តូររបៀបដែលអ្នកអភិវឌ្ឍន៍ធ្វើអន្តរកម្មជាមួយបរិយាកាសកូដ ដោយអនុញ្ញាតឱ្យ agent កែប្រែចំណុចប្រទាក់របស់វាដោយផ្ទាល់។ អ្នកប្រើប្រាស់អាចទទួលបាន workflows ដែលអាចបបួលតាមបំណងតាមរយៈការកែសម្រួលអត្ថបទ។",
+   "keyPoints": [
+    "Herdr គឺជាកម្មវិធីបង្ហោះសម្រាប់ coding agents ដូចជា Claude Code និង Codex។",
+    "ចំណុចប្រទាក់ត្រូវបានបង្កើតឡើងទាំងស្រុងពីឯកសារអត្ថបទសុទ្ធ។",
+    "អ្នកប្រើប្រាស់អាចឱ្យ agent របស់ពួកគេកែប្រែប្លង់ចំណុចប្រទាក់ដោយផ្ទាល់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "这个 Agent 宿主把界面做成了纯文本，你想要什么形状自己让 Agent 改",
+   "summary": "Herdr 是一个专为 Claude Code、Codex 以及任何在终端中运行的 coding agent 设计的原生宿主。它的自我介绍指出每一处界面都是你 agent 能改的文件。该项目颠覆了常规思路，不让用户去学习一套新的 IDE 布局，而是将整个界面做成纯文本文件，让用户通过指示 agent 自行修改界面形状。",
+   "impact": "这种设计思路可能会改变开发者与编程环境的交互方式，允许 agent 直接修改其宿主界面。技术用户或许能通过文本驱动的方式获得高度自定义的工作流。",
+   "keyPoints": [
+    "Herdr 是一个面向 coding agent 的原生宿主环境。",
+    "支持 Claude Code、Codex 以及终端运行的其他 agent。",
+    "界面采用纯文本文件构建，允许 agent 自行修改布局。"
+   ]
+  },
+  "ko": {
+   "title": "이 Agent 호스트는 인터페이스를 纯文本로 만들어서, 원하는 모양으로 Agent에게 직접 수정하게 합니다",
+   "summary": "Herdr는 Claude Code, Codex 및 터미널에서 실행되는 모든 코딩 agent를 위한 네이티브 호스트입니다. 모든 인터페이스가 agent가 수정할 수 있는 파일이라는 점을 내세우고 있습니다. 새로운 IDE 레이아웃을 배우는 대신 전체 인터페이스를 일반 텍스트 파일로 만들어 원하는 모양으로 agent가 직접 수정하도록 합니다.",
+   "impact": "이 접근 방식은 개발자가 코딩 환경과 상호작용하는 방식을 변화시키며, agent가 호스트 인터페이스를 직접 수정할 수 있도록 도울 수 있습니다. 사용자는 텍스트 기반 조정을 통해 맞춤형 워크플로우를 경험할 수 있습니다.",
+   "keyPoints": [
+    "Herdr은 Claude Code와 Codex 같은 코딩 agent를 위한 네이티브 호스트입니다.",
+    "인터페이스는 일반 텍스트 파일로 구성되어 있습니다.",
+    "사용자는 agent에게 인터페이스 레이아웃을 직접 수정하도록 지시할 수 있습니다."
+   ]
+  }
+ }
+}

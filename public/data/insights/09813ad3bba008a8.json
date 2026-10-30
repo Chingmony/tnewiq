@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "09813ad3bba008a8",
+ "contentHash": "e6efec943c9ee03d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T16:09:12.043Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Collaborative AI agents for autonomous experimental research with solid-state quantum spins",
+   "summary": "Researchers presented an autonomous research laboratory using large language model agents that assess each other's work, formulate questions, and conduct experiments. The agents investigated quantum spins in diamond to derive calibration settings, check results computationally, and test predictions. When signal drift caused an initial experiment to be inconclusive, the agents revised the protocol and successfully met acceptance criteria.",
+   "impact": "This approach could change how automated experiments are conducted by introducing agent-based peer review and error correction. Technology users and researchers may find that collaborative AI frameworks improve the reliability of autonomous research outcomes.",
+   "keyPoints": [
+    "AI agents based on large language models assessed each other's work to direct investigations.",
+    "The system investigated ensembles of quantum spins in diamond.",
+    "Agents revised a measurement protocol after detecting signal drift during data collection.",
+    "Collaborating agents successfully selected questions, derived theory, and tested predictions experimentally."
+   ]
+  },
+  "km": {
+   "title": "ភ្នាក់ងារ AI សហការគ្នាសម្រាប់ការស្រាវជ្រាវពិសោធន៍ស្វ័យប្រវត្តជាមួយនឹង spin រ៉ូមទិកសភាពរឹង",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្ហាញពីមន្ទីរពិសោធន៍ស្រាវជ្រាវស្វ័យប្រវត្តមួយ ដែលប្រើប្រាស់ភ្នាក់ងារគំរូភាសាខ្នាតធំដើម្បីវាយតម្លៃការងាររបស់គ្នាទៅវិញទៅមក បង្កើតសំណួរ និងធ្វើការពិសោធន៍។ ភ្នាក់ងារទាំងនោះបានស៊ើបអង្កេត quantum spins នៅក្នុងពេជ្រ ដើម្បីទាញយកការកំណត់ការក្រិតតាមខ្នាត និងពិនិត្យមើលលទ្ធផល។ នៅពេលដែលសញ្ញាបំភាន់ធ្វើឱ្យការពិសោធន៍ដំបូងមិនសន្និដ្ឋានបាន ភ្នាក់ងារបានកែសម្រួលពិធីការនេះឡើងវិញ។",
+   "impact": "វិធីសាស្ត្រនេះអាចផ្លាស់ប្តូររបៀបដែលការពិសោធន៍ស្វ័យប្រវត្តត្រូវបានធ្វើឡើងតាមរយៈការណែនាំពីការត្រួតពិនិត្យគ្នាទៅវិញទៅមក។ អ្នកស្រាវជ្រាវអាចយល់ឃើញថា ក្របខ័ណ្ឌ AI សហការគ្នាកែលម្អភាពជឿជាក់នៃការស្រាវជ្រាវស្វ័យប្រវត្ត។",
+   "keyPoints": [
+    "ភ្នាក់ងារ AI ផ្អែកលើគំរូភាសាខ្នាតធំបានវាយតម្លៃការងាររបស់គ្នាទៅវិញទៅមកដើម្បីដឹកនាំការស៊ើបអង្កេត។",
+    "ប្រព័ន្ធនេះបានស៊ើបអង្កេត quantum spins នៅក្នុងពេជ្រ។",
+    "ភ្នាក់ងារបានកែសម្រួលពិធីការវាស់វែងបន្ទាប់ពីរកឃើញសញ្ញាបំភាន់ក្នុងអំឡុងពេលប្រមូលទិន្នន័យ។",
+    "ភ្នាក់ងារសហការគ្នាបានជ្រើសរើសសំណួរ ទាញយកទ្រឹស្តី និងសាកល្បងការព្យាករណ៍ដោយពិសោធន៍ដោយជោគជ័យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "用于固态量子自旋自主实验研究的协作式AI智能体",
+   "summary": "研究人员提出了一种自主研究实验室，其中的大语言模型智能体能够评估彼此的工作、提出问题并进行实验。智能体对金刚石中的量子自旋进行了研究，以得出校准设置、进行计算检查并测试预测。当信号漂移导致初始实验结果不确定时，智能体修改了测量方案并成功满足了验收标准。",
+   "impact": "这种方法通过引入基于智能体的同行评审和纠错机制，可能会改变自动化实验的进行方式。技术用户和研究人员可能会发现，协作式AI框架提高了自主研究成果的可靠性。",
+   "keyPoints": [
+    "基于大语言模型的AI智能体通过互相评估工作来指导调查。",
+    "该系统研究了金刚石中的量子自旋集合。",
+    "智能体在数据采集过程中检测到信号漂移后修改了测量方案。",
+    "协作智能体成功选择研究问题、推导理论结果并通过实验测试了预测。"
+   ]
+  },
+  "ko": {
+   "title": "고체 양자 스핀을 이용한 자율 실험 연구를 위한 협업 AI 에이전트",
+   "summary": "연구원들은 대형 언어 모델 기반 에이전트가 서로의 작업을 평가하고, 질문을 제기하며, 실험을 수행하는 자율 연구실을 발표했습니다. 에이전트들은 다이아몬드의 양자 스핀을 조사하여 교정 설정을 유도하고, 계산을 통해 결과를 확인하며, 예측을 테스트했습니다. 신호 표류로 인해 초기 실험이 결론에 이르지 못하자 에이전트들은 측정 프로토콜을 수정했습니다.",
+   "impact": "이 접근 방식은 에이전트 기반 동료 평가 및 오류 수정을 도입하여 자동화된 실험이 수행되는 방식을 바꿀 수 있습니다. 기술 사용자 및 연구원들은 협업 AI 프레임워크가 자율 연구 결과의 신뢰성을 향상시킨다는 것을 알게 될 수 있습니다.",
+   "keyPoints": [
+    "대형 언어 모델 기반의 AI 에이전트가 서로의 작업을 평가하여 조사를 안내했습니다.",
+    "이 시스템은 다이아몬드의 양자 스핀 앙상블을 조사했습니다.",
+    "에이전트들은 데이터 수집 중 신호 표류를 감지한 후 측정 프로토콜을 수정했습니다.",
+    "협업 에이전트는 연구 질문을 선택하고, 이론적 결과를 도출하며, 실험을 통해 예측을 성공적으로 테스트했습니다."
+   ]
+  }
+ }
+}

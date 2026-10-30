@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ac19a8d59d2d5a31",
+ "contentHash": "cc612ddb9d829a74",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T16:08:29.537Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Difficulty Calibration Across Time for Membership Inference in Diffusion Models",
+   "summary": "Researchers have introduced new methods for membership inference attacks on diffusion models by focusing on difficulty calibration across training time and diffusion time. The standard reconstruction loss approach often struggles because simple unseen images can score lower loss than complex training images. To address this, the authors propose Reference-Model Calibration and Temporal Self-Calibration to separate memorization from inherent image difficulty. These methods outperform the state of the art and generalize across various model parameterizations.",
+   "impact": "Security teams and researchers studying model privacy could use these calibration techniques to more accurately audit training data and identify copyrighted or private images in diffusion models. This may improve current auditing frameworks and help assess the memorization risks of machine learning models.",
+   "keyPoints": [
+    "Standard membership inference attacks using reconstruction loss often fail because image difficulty varies.",
+    "Reference-Model Calibration compares a fine-tuned model against an earlier checkpoint to isolate memorized data.",
+    "Temporal Self-Calibration uses a single model by comparing losses across neighboring diffusion timesteps.",
+    "The proposed methods outperform existing state-of-the-art approaches and generalize across different parameterizations."
+   ]
+  },
+  "km": {
+   "title": "ការក្រិតកម្រិតពិបាកឆ្លងកាត់ពេលវេលាសម្រាប់ការសន្និដ្ឋានសមាជិកភាពក្នុង Diffusion Models",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំវិធីសាស្ត្រថ្មីៗសម្រាប់ការវាយប្រហារសន្និដ្ឋានសមាជិកភាពលើ diffusion models ដោយផ្តោតលើការក្រិតកម្រិតពិបាកឆ្លងកាត់ពេលវេលាฝึกហ្វឹកហាត់និងពេលវេលា diffusion។ វិធីសាស្ត្រគណនាការខូចខាតស្តង់ដារច្រើនតែបរាជ័យព្រោះរូបភាពធម្មតាមិនទាន់ឃើញអាចទទួលបានពិន្ទុខូចខាតទាបជាងរូបភាពបណ្តុះបណ្តាលដែលស្មុគស្មាញ។ ដើម្បីដោះស្រាយបញ្ហានេះ អ្នកនិពន្ធបានស្នើ Reference-Model Calibration និង Temporal Self-Calibration ដើម្បីបែងចែកការចងចាំចេញពីកម្រិតពិបាកដើមរបស់រូបភាព។ វិធីសាស្ត្រទាំងនេះផ្តល់លទ្ធផលល្អជាងបច្ចេកវិទ្យាបច្ចុប្បន្ន និងអាចប្រើប្រាស់បានទូទាំង parameterizations ផ្សេងៗ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកស្រាវជ្រាវដែលសិក្សាអំពីភាពឯកជនរបស់ម៉ូដែលអាចប្រើប្រាស់បច្ចេកទេសក្រិតទាំងនេះដើម្បីត្រួតពិនិត្យទិន្នន័យបណ្តុះបណ្តាលឱ្យកាន់តែត្រឹមត្រូវ និងរកឃើញរូបភាពដែលមានកម្មសិទ្ធិបញ្ញាឬឯកជនក្នុង diffusion models។ វាក៏អាចជួយកែលម្អក្របខណ្ឌត្រួតពិនិត្យបច្ចុប្បន្ន និងជួយវាយតម្លៃហានិភ័យនៃការចងចាំរបស់ម៉ូដែលម៉ាស៊ីនផងដែរ។",
+   "keyPoints": [
+    "ការវាយប្រហារសន្និដ្ឋានសមាជិកភាពស្តង់ដារច្រើនតែបរាជ័យដោយសារកម្រិតពិបាករបស់រូបភាពមានភាពខុសគ្នា។",
+    "Reference-Model Calibration ប្រៀបធៀបម៉ូដែលដែលបានកែសម្រួលជាមួយ checkpoint មុន ដើម្បីញែកទិន្នន័យដែលបានចងចាំ។",
+    "Temporal Self-Calibration ប្រើម៉ូដែលតែមួយដោយប្រៀបធៀបការខូចខាតឆ្លងកាត់ diffusion timesteps ដែលនៅជិតគ្នា។",
+    "វិធីសាស្ត្រដែលបានស្នើឡើងមានប្រសិទ្ធភាពខ្ពស់ជាងវិធីសាស្ត្រទំនើបបច្ចុប្បន្ន និងអាចប្រើប្រាស់បានទូទាំង parameterizations ផ្សេងៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "扩散模型中成员推理的跨时间难度校准",
+   "summary": "研究人员针对扩散模型中的成员推理攻击引入了新方法，通过在训练时间和扩散时间两个轴上进行难度校准来提升效果。标准的方法通常使用重建损失，但这往往会失败，因为某些未见过的简单图像可能比复杂的训练图像具有更低的损失。为了解决这个问题，作者提出了参考模型校准和时间自校准，将死记硬背与图像本身的固有难度区分开来。这些方法大大超越了现有技术，并能够跨不同的模型参数化方案进行推广。",
+   "impact": "研究模型安全的安全团队和研究人员可以利用这些校准技术，更准确地审计训练数据并识别扩散模型中的版权或私密图像。这可能会改进当前的审计框架，并有助于评估机器学习模型的记忆风险。",
+   "keyPoints": [
+    "使用重建损失的标准成员推理攻击常常因为图像难度差异而失效。",
+    "参考模型校准将微调模型的损失与早期检查点进行比较，以隔离新记住的数据。",
+    "时间自校准仅使用单个模型，通过比较目标时间步与相邻时间步的损失来减弱图像难度。",
+    "所提出的方法大幅超越了最先进的技术，并且可以推广到不同的模型参数化中。"
+   ]
+  },
+  "ko": {
+   "title": "Diffusion Model에서의 멤버십 추론을 위한 시간에 따른 난이도 보정",
+   "summary": "연구원들은 훈련 시간과 diffusion 시간에 걸친 난이도 보정에 초점을 맞춰 diffusion model에 대한 멤버십 추론 공격을 위한 새로운 방법들을 도입했습니다. 표준 재구성 손실 접근 방식은 복잡한 훈련 이미지보다 단순한 미지의 이미지가 더 낮은 손실을 기록할 수 있기 때문에 종종 실패합니다. 이를 해결하기 위해 저자들은 암기 과정을 이미지의 본래 난이도와 분리하기 위해 Reference-Model Calibration과 Temporal Self-Calibration을 제안합니다. 이러한 방법들은 최신 기술을 크게 상회하며 다양한 모델 매개변수화 전반에 걸쳐 일반화됩니다.",
+   "impact": "모델 보안을 연구하는 보안 팀과 연구원들은 이러한 보정 기법을 사용하여 훈련 데이터를 더욱 정확하게 감사하고 diffusion model 내의 저작권이 있거나 사적인 이미지를 식별할 수 있습니다. 이는 현재의 감사 프레임워크를 개선하고 머신러닝 모델의 암기 위험을 평가하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "재구성 손실을 사용하는 표준 멤버십 추론 공격은 이미지 난이도의 차이로 인해 자주 실패합니다.",
+    "Reference-Model Calibration은 미세 조정된 모델의 손실을 이전 체크포인트와 비교하여 암기된 데이터를 분리합니다.",
+    "Temporal Self-Calibration은 단일 모델만을 사용하여 인접한 타임스텝 간의 손실을 비교함으로써 이미지 난이도를 완화합니다.",
+    "제안된 방법들은 기존의 최신 기술을 큰 마진으로 능가하며 다양한 모델 매개변수화에 일반화됩니다."
+   ]
+  }
+ }
+}

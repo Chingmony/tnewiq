@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4d4206ade98bad0a",
+ "contentHash": "79f413de7b3ac563",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T16:02:50.732Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Cloudflare services for private origins is now generally available",
+   "summary": "Cloudflare services for private origins are now generally available, allowing users to point a proxied DNS record at a private IP and connect over an existing Cloudflare One connection. This enables services like WAF, caching, bot management, and Workers to work for private origins without exposing a public IP or opening firewall ports. Eligible customers can access the feature by pointing a proxied A or AAAA record at a private IP, with private network routing enabled automatically for standard private ranges.",
+   "impact": "Security and development teams may use this feature to protect internal APIs, AI agent backends, and operational tools with standard web application firewall rules, rate limiting, and bot management without exposing public IPs. Developers can automate deployments using standard DNS records with an added private routing attribute via the API.",
+   "keyPoints": [
+    "Cloudflare services for private origins became generally available, moving past the closed beta launched in June.",
+    "Proxied DNS records pointing to private IPs route traffic over existing Cloudflare One connections.",
+    "Application services like WAF, bot management, rate limiting, caching, and Workers are supported.",
+    "Private network routing turns on automatically for RFC 1918, RFC 6598, and RFC 4193 private IP ranges."
+   ]
+  },
+  "km": {
+   "title": "សេវាកម្ម Cloudflare សម្រាប់ដើមកំណើតឯកជនឥឡូវនេះមានជាទូទៅហើយ",
+   "summary": "សេវាកម្ម Cloudflare សម្រាប់ដើមកំណើតឯកជនឥឡូវនេះមានជាទូទៅហើយ ដែលអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ចង្អុលកំណត់ត្រា DNS ដែលបានប្រុកស៊ីទៅ IP ឯកជន និងភ្ជាប់តាមរយៈការតភ្ជាប់ Cloudflare One ដែលមានស្រាប់។ នេះធ្វើឱ្យសេវាកម្មដូចជា WAF ការឃ្លាំងសម្ងាត់ ការគ្រប់គ្រងបុត និង Workers ដំណើរការសម្រាប់ដើមកំណើតឯកជនដោយមិនចាំបាច់បង្ហាញ IP សាធារណៈ។ អតិថិជនដែលមានសិទ្ធិអាចប្រើប្រាស់មុខងារនេះដោយចង្អុលកំណត់ត្រា A ឬ AAAA ទៅ IP ឯកជន។",
+   "impact": "ក្រុមសន្តិសុខ និងអភិវឌ្ឍន៍អាចប្រើប្រាស់មុខងារនេះដើម្បីការពារ API ខាងក្នុង និងឧបករណ៍ប្រតិបត្តិការដោយប្រើក្បួន WAF ស្តង់ដារ ដោយមិនចាំបាច់បង្ហាញ IP សាធារណៈ ឬបើកច្រកជញ្ជាំងភ្លើង។ អ្នកអភិវឌ្ឍន៍ក៏អាច स्व động ការដាក់ពង្រាយដោយប្រើ API ផងដែរ។",
+   "keyPoints": [
+    "សេវាកម្ម Cloudflare សម្រាប់ដើមកំណើតឯកជនឥឡូវនេះមានជាទូទៅហើយ បន្ទាប់ពីការធ្វើតេស្តបិទបញ្ចប់។",
+    "កំណត់ត្រា DNS ដែលបានប្រុកស៊ីចង្អុលទៅ IP ឯកជន ហើយបញ្ជូនចរាចរណ៍តាមរយៈការតភ្ជាប់ Cloudflare One។",
+    "សេវាកម្មកម្មវិធីដូចជា WAF ការគ្រប់គ្រងបុត និង Workers ត្រូវបានគាំទ្រ។",
+    "ការបញ្ជូនបន្តបណ្តាញឯកជនបើកដោយស្វ័យប្រវត្តិសម្រាប់ជួរ IP ឯកជនស្តង់ដារ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "用于私有源站的 Cloudflare 服务现已全面可用",
+   "summary": "用于私有源站的 Cloudflare 服务现已全面可用，允许用户将代理 DNS 记录指向私有 IP，并通过现有的 Cloudflare One 连接到达源站。这使得 WAF、缓存、机器人管理和 Workers 等服务能够像用于公共源站一样用于私有源站，而无需暴露公共 IP 或打开防火墙端口。符合条件的客户可以通过将代理的 A 或 AAAA 记录指向私有 IP 来使用此功能。",
+   "impact": "安全和开发团队可以利用此功能通过标准 WAF 规则、速率限制和机器人管理来保护内部 API 和运维工具，而无需暴露公共 IP。开发人员还可以通过 API 中的私有路由属性来自动化部署。",
+   "keyPoints": [
+    "用于私有源站的 Cloudflare 服务现已全面可用，不再局限于封闭测试。",
+    "指向私有 IP 的代理 DNS 记录通过现有的 Cloudflare One 连接传输流量。",
+    "支持 WAF、机器人管理、速率限制、缓存和 Workers 等应用服务。",
+    "私有网络路由会自动为标准的私有 IP 范围启用。"
+   ]
+  },
+  "ko": {
+   "title": "프라이빗 오리진을 위한 Cloudflare 서비스 일반 가용성 개시",
+   "summary": "프라이빗 오리진을 위한 Cloudflare 서비스가 이제 정식 출시되어, 사용자가 프록시된 DNS 레코드를 프라이빗 IP로 지정하고 기존 Cloudflare One 연결을 통해 오리진에 도달할 수 있게 되었습니다. 이를 통해 공개 IP를 노출하거나 방화벽 포트를 열지 않고도 WAF, 캐싱, 봇 관리, Workers 등의 서비스를 프라이빗 오리진에 적용할 수 있습니다. 자격이 있는 고객은 프록시된 A 또는 AAAA 레코드를 프라이빗 IP로 지정하여 이 기능을 사용할 수 있습니다.",
+   "impact": "보안 및 개발 팀은 공개 IP를 노출하지 않고도 표준 WAF 규칙, 속도 제한, 봇 관리를 통해 내부 API와 운영 도구를 보호하는 데 이 기능을 활용할 수 있습니다. 개발자는 API를 통해 프라이빗 라우팅 속성이 포함된 표준 DNS 레코드로 배포를 자동화할 수 있습니다.",
+   "keyPoints": [
+    "프라이빗 오리진을 위한 Cloudflare 서비스가 클로즈 베타를 거쳐 정식 출시되었습니다.",
+    "프라이빗 IP를 가리키는 프록시된 DNS 레코드는 기존 Cloudflare One 연결을 통해 트래픽을 라우팅합니다.",
+    "WAF, 봇 관리, 속도 제한, 캐싱, Workers 등의 애플리케이션 서비스가 지원됩니다.",
+    "표준 프라이빗 IP 대역에 대해 프라이빗 네트워크 라우팅이 자동으로 활성화됩니다."
+   ]
+  }
+ }
+}

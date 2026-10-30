@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4b53227f9f3bab60",
+ "contentHash": "c3d9655c56cbb012",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T16:07:33.464Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+   "summary": "Cybersecurity researchers discovered that a trojanized version of Anthropic's official Claude Code extension was distributed via the Cursor Marketplace as a legitimate update. Version 2.1.313 of the extension was distributed under the legitimate publisher identity and attempted to install a persistent SSH backdoor on affected systems. This incident prompted Cursor to temporarily shut down the marketplace.",
+   "impact": "This event could matter to developers and security teams because compromised extensions distributed through official channels may expose systems to unauthorized access and persistent backdoors. Users might need to review installed extensions and verify the security posture of their development environments.",
+   "keyPoints": [
+    "A trojanized version of Anthropic's official Claude Code extension was found on the Cursor Marketplace.",
+    "The malicious update, version 2.1.313, used the legitimate publisher identity.",
+    "The update attempted to install a persistent SSH backdoor on affected systems.",
+    "Cursor temporarily shut down the marketplace in response."
+   ]
+  },
+  "km": {
+   "title": "កូដផ្នែកបន្ថែមផ្លូវការរបស់ Claude Code នៅលើ Cursor Marketplace ត្រូវបានបញ្ចូលមេរោគ Trojan ជាមួយនឹង Backdoor SSH ដែលមានលក្ខណៈជាប់លាប់",
+   "summary": "អ្នកស្រាវជ្រាវសន្តិសុខស៊ីនធើនិនបានរកឃើញថា កូដផ្នែកបន្ថែមផ្លូវការ Claude Code របស់ Anthropic ត្រូវបានចែកចាយតាមរយៈ Cursor Marketplace ក្នុងទម្រង់ជាបច្ចុប្បន្នភាពស្របច្បាប់ដែលមានបញ្ចូលមេរោគ Trojan។ កំណែ ២.១.៣១៣ ត្រូវបានចែកចាយក្រោមអត្តសញ្ញាណអ្នកបោះពុម្ពផ្សាយស្របច្បាប់ និងបានព្យាយាមដំឡើង SSH backdoor ដែលមានលក្ខណៈជាប់លាប់នៅលើប្រព័ន្ធដែលរងផលប៉ះពាល់។ ហេតុការណ៍នេះបានជំរុញឱ្យ Cursor បិទផ្សារទំនើបនេះជាបណ្ដោះអាសន្ន។",
+   "impact": "ព្រឹត្តិការណ៍នេះអាចមានសារៈសំខាន់ចំពោះអ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខ ដោយសារតែផ្នែកបន្ថែមដែលត្រូវបានសម្របសម្រួលអាចធ្វើឱ្យប្រព័ន្ធប្រឈមមុខនឹងការចូលដំណើរការដោយគ្មានការអនុញ្ញាត។ អ្នកប្រើប្រាស់អាចនឹងត្រូវពិនិត្យមើលផ្នែកបន្ថែមដែលបានដំឡើងឡើងវិញ។",
+   "keyPoints": [
+    "កំណែដែលមានបញ្ចូលមេរោគ Trojan នៃកូដផ្នែកបន្ថែម Claude Code ត្រូវបានរកឃើញនៅលើ Cursor Marketplace។",
+    "បច្ចុប្បន្នភាពដែលមានបញ្ហានេះគឺកំណែ ២.១.៣១៣។",
+    "វាបានព្យាយាមដំឡើង SSH backdoor នៅលើប្រព័ន្ធដែលរងផលប៉ះពាល់។",
+    "Cursor បានបិទផ្សារទំនើបជាបណ្ដោះអាសន្នបន្ទាប់ពីហេតុការណ៍នេះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Cursor 市场上的官方 Claude Code 扩展被植入持久 SSH 后门木马",
+   "summary": "网络安全研究人员披露，Anthropic 官方 Claude Code 扩展的木马化版本通过 Cursor Marketplace 分发为合法更新。该扩展的 2.1.313 版本在合法的发布者身份下进行分发，并试图在受影响的系统上安装持久性 SSH 后门。这一恶意更新促使 Cursor 暂时关闭了该市场。",
+   "impact": "这起事件可能对开发者和安全团队产生影响，因为通过官方渠道分发的受损扩展可能会使系统面临未授权访问和持久后门的风险。技术用户可能需要检查已安装的扩展并验证开发环境的安全性。",
+   "keyPoints": [
+    "Anthropic 官方 Claude Code 扩展的木马化版本在 Cursor Marketplace 上被发现。",
+    "恶意更新版本号为 2.1.313，使用了合法的发布者身份。",
+    "该更新试图在受影响的系统上安装持久的 SSH 后门。",
+    "Cursor 因此事件暂时关闭了该市场。"
+   ]
+  },
+  "ko": {
+   "title": "지속형 SSH 백도어로 트로이목마화된 Cursor 마켓플레이스의 공식 Claude Code 확장 프로그램",
+   "summary": "사이버 보안 연구원들은 Anthropic의 공식 Claude Code 확장 프로그램의 트로이목마화된 버전이 합법적인 업데이트로 가장하여 Cursor 마켓플레이스를 통해 배포되었다고 밝혔습니다. 해당 확장 프로그램의 2.1.313 버전은 합법적인 게시자 신원으로 배포되었으며 영향받은 시스템에 지속형 SSH 백도어를 설치하려고 시도했습니다. 이 악성 업데이트로 인해 Cursor는 마켓플레이스를 일시적으로 중단했습니다.",
+   "impact": "이 사건은 공식 채널을 통해 배포된 손상된 확장 프로그램이 시스템을 무단 액세스와 지속형 백도어에 노출시킬 수 있으므로 개발자와 보안 팀에게 중요할 수 있습니다. 기술 사용자들은 설치된 확장 프로그램을 검토하고 개발 환경의 보안 상태를 확인해야 할 수 있습니다.",
+   "keyPoints": [
+    "Anthropic의 공식 Claude Code 확장 프로그램의 트로이목마화된 버전이 Cursor 마켓플레이스에서 발견되었습니다.",
+    "문제의 악성 업데이트는 2.1.313 버전이며 합법적인 게시자 신원을 사용했습니다.",
+    "이 업데이트는 영향받은 시스템에 지속형 SSH 백도어 설치를 시도했습니다.",
+    "이로 인해 Cursor는 마켓플레이스를 일시적으로 폐쇄했습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7f76fde50a9a4114",
+ "contentHash": "8db81e8e41b059e2",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T16:03:43.391Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+   "summary": "Microsoft developed the Industry Evaluation Data Generation Platform to evaluate Microsoft Copilot at enterprise scale using full-scale synthetic enterprise environments. The platform is grounded in public data sources like O*NET, job postings, and SEC filings to mimic real workflows without using sensitive customer data. It features synthetic enterprise environments, automated query generation pipelines, and structured quality frameworks to ensure AI accuracy and safety.",
+   "impact": "This evaluation approach could help technology developers and security teams test enterprise AI tools rigorously without compromising sensitive customer data. It may also provide a reliable way to ensure AI accuracy and safety across complex business workflows.",
+   "keyPoints": [
+    "The Industry Evaluation Data Generation Platform uses full-scale synthetic enterprise environments grounded in public data sources.",
+    "The system mimics real business workflows to help Microsoft find issues that generic benchmarks would miss.",
+    "Safety and privacy are built into the platform by design with automated content-safety checks to prevent harmful or personally identifiable material.",
+    "The evaluation strategy relies on synthetic enterprise environments, automated query generation pipelines, and structured quality frameworks."
+   ]
+  },
+  "km": {
+   "title": "ពីការវាយតម្លៃទិន្នន័យសហគ្រាសសំយោគ ឆ្ពោះទៅរកទំនុកចិត្ត AI ដ៏ពិតប្រាកដរបស់ Microsoft Copilot",
+   "summary": "Microsoft បានបង្កើត Industry Evaluation Data Generation Platform ដើម្បីវាយតម្លៃ Microsoft Copilot នៅកម្រិតសហគ្រាសដោយប្រើបរិយាកាសសហគ្រាសសំយោគពេញលេញ។ វេទិកានេះត្រូវបានបង្កើតឡើងដោយផ្អែកលើប្រភពទិន្នន័យសាធារណៈ ដើម្បីក្លែងធ្វើដំណើរការការងារពិតប្រាកដដោយមិនចាំបាច់ប្រើប្រាស់ទិន្នន័យអតិថិជនដែលមានភាពរសើបនោះទេ។ វាមានបរិយាកាសសហគ្រាសសំយោគ បំពង់បង្ហូរសំណួរស្វ័យប្រវត្តិ និងក្របខ័ណ្ឌគុណភាពដែលមានរចនាសម្ព័ន្ធ។",
+   "impact": "វិធីសាស្ត្រវាយតម្លៃនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍បច្ចេកវិទ្យា និងក្រុមសន្តិសុខក្នុងការធ្វើតេស្តឧបករណ៍ AI របស់សហគ្រាសយ៉ាងម៉ត់ចត់ដោយមិនប៉ះពាល់ដល់ទិន្នន័យរសើប។ វាក៏អាចផ្ដល់នូវមធ្យោបាយដ៏គួរឱ្យទុកចិត្តដើម្បីធានាបាននូវភាពត្រឹមត្រូវ និងសុវត្ថិភាពរបស់ AI ផងដែរ។",
+   "keyPoints": [
+    "Industry Evaluation Data Generation Platform ប្រើប្រាស់បរិយាកាសសហគ្រាសសំយោគពេញលេញដែលផ្អែកលើប្រភពទិន្នន័យសាធារណៈ។",
+    "ប្រព័ន្ធនេះក្លែងធ្វើដំណើរការការងារពិតប្រាកដដើម្បីជួយ Microsoft រកឃើញបញ្ហាដែលសន្ទស្សន៍ទូទៅអាចនឹងខកខាន។",
+    "សុវត្ថិភាព និងភាពឯកជនត្រូវបានបញ្ចូលទៅក្នុងវេទិកាតាំងពីដំបូងជាមួយនឹងការត្រួតពិនិត្យសុវត្ថិភាពមាតិកាស្វ័យប្រវត្តិ។",
+    "យុទ្ធសាស្ត្រវាយតម្លៃពឹងផ្អែកលើបរិយាកាសសហគ្រាសសំយោគ បំពង់បង្ហូរសំណួរស្វ័យប្រវត្តិ និងក្របខ័ណ្ឌគុណភាព។"
+   ]
+  },
+  "zh-CN": {
+   "title": "从合成企业数据评估到真正的 Microsoft Copilot AI 信任",
+   "summary": "微软开发了 Industry Evaluation Data Generation Platform，使用全规模合成企业环境在企业规模上评估 Microsoft Copilot。该平台以 O*NET 等公开数据源为基础来模拟真实业务工作流，从而在不使用任何敏感客户数据的情况下进行评估。它结合了合成企业环境、自动化查询生成管道和结构化质量框架来确保 AI 的准确性和安全性。",
+   "impact": "这种评估方法可以帮助开发人员和安全团队在不泄露敏感客户数据的情况下严密测试企业 AI 工具。它还可能为确保复杂业务工作流中的 AI 准确性和安全性提供可靠的基准。",
+   "keyPoints": [
+    "Industry Evaluation Data Generation Platform 使用以公共数据源为基础的全规模合成企业环境。",
+    "该系统模拟真实业务工作流，帮助微软发现通用基准可能遗漏的问题。",
+    "该平台在设计时内置了安全与隐私保护，并利用自动化内容安全检查来排除有害或个人可识别信息。",
+    "评估策略依赖于合成企业环境、自动化查询生成管道和结构化质量框架。"
+   ]
+  },
+  "ko": {
+   "title": "합성 기업 데이터 평가에서 실제 Microsoft Copilot AI 신뢰성 확보로",
+   "summary": "마이크로소프트는 전체 규모의 합성 기업 환경을 사용하여 기업 규모에서 Microsoft Copilot을 평가하기 위해 Industry Evaluation Data Generation Platform을 개발했습니다. 이 플랫폼은 민감한 고객 데이터를 전혀 사용하지 않고 실제 비즈니스 워크플로를 모방하기 위해 O*NET 등의 공개 데이터 소스를 기반으로 구축되었습니다. 합성 기업 환경, 자동화된 쿼리 생성 파이프라인, 구조화된 품질 프레임워크를 특징으로 합니다.",
+   "impact": "이러한 평가 방식은 개발자와 보안 팀이 민감한 고객 데이터를 손상시키지 않고 기업용 AI 도구를 엄격하게 테스트하는 데 도움을 줄 수 있습니다. 또한 복잡한 비즈니스 워크플로 전반에서 AI의 정확성과 안전성을 보장하는 신뢰할 수 있는 기반을 제공할 수 있습니다.",
+   "keyPoints": [
+    "Industry Evaluation Data Generation Platform은 공개 데이터 소스를 기반으로 한 전면적인 합성 기업 환경을 사용합니다.",
+    "이 시스템은 실제 비즈니스 워크플로를 모방하여 일반적인 벤치마크가 놓칠 수 있는 문제를 마이크로소프트가 찾도록 돕습니다.",
+    "안전성과 프라이버시는 자동화된 콘텐츠 안전 검사를 통해 플랫폼 설계 단계부터 내장되어 있습니다.",
+    "평가 전략은 합성 기업 환경, 자동화된 쿼리 생성 파이프라인, 구조화된 품질 프레임워크를 기반으로 합니다."
+   ]
+  }
+ }
+}
