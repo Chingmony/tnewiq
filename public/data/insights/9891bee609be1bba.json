@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9891bee609be1bba",
+ "contentHash": "597a86aaec34e89f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T08:46:25.048Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "AI AIOps Platform Weekly Update: New RUM Module Launched",
+   "summary": "Blueking Lite, an AI-first lightweight IT operations product, released its weekly updates. The update introduces a brand new RUM module designed to understand website visits and user experiences from a real user perspective. Additionally, CMDB updates include an upgraded scanning and discovery workflow.",
+   "impact": "Development and IT operations teams could benefit from improved resource discovery and enhanced user experience monitoring capabilities. These updates may help administrators better track website access and manage system configurations.",
+   "keyPoints": [
+    "A brand new RUM module was launched to monitor website access and user experience from a real user perspective.",
+    "CMDB scanning and discovery was upgraded to a progressive process of port detection, process identification, and configuration collection.",
+    "CMDB now supports collecting data reconciliation."
+   ]
+  },
+  "km": {
+   "title": "ការអាប់ដេតប្រចាំសប្តាហ៍របស់វេទិកា AI AIOps៖ ការដាក់ឱ្យដំណើរការម៉ូឌុល RUM ថ្មី",
+   "summary": "Blueking Lite ដែលជាផលិតផលប្រតិបត្តិការបច្ចេកវិទ្យាព័ត៌មានបែបស្រាលដែលផ្អែកលើ AI បានចេញផ្សាយការអាប់ដេតប្រចាំសប្តាហ៍របស់ខ្លួន។ ការអាប់ដេតនេះបានដាក់ឱ្យដំណើរការម៉ូឌុល RUM ថ្មីស្រឡាងមួយ ដែលត្រូវបានរចនាឡើងដើម្បីយល់ដឹងពីការចូលមើលគេហទំព័រ និងបទពិសោធន៍អ្នកប្រើប្រាស់ពីទស្សនៈអ្នកប្រើប្រាស់ពិតប្រាកដ។ លើសពីនេះ ការអាប់ដេត CMDB ក៏បានរួមបញ្ចូលនូវដំណើរការស្កែន និងស្វែងរកដែលត្រូវបានកែលម្អផងដែរ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងប្រតិបត្តិការបច្ចេកវិទ្យាអាចទទួលបានប្រយោជន៍ពីការកែលម្អការស្វែងរកធនធាន និងសមត្ថភាពតាមដានបទពិសោធន៍អ្នកប្រើប្រាស់។ ការអាប់ដេតទាំងនេះអាចជួយអ្នកគ្រប់គ្រងក្នុងការតាមដានការចូលប្រើប្រាស់គេហទំព័រ និងគ្រប់គ្រងការកំណត់រចនាសម្ព័ន្ធប្រព័ន្ធបានកាន់តែប្រសើរ។",
+   "keyPoints": [
+    "ម៉ូឌុល RUM ថ្មីស្រឡាងមួយត្រូវបានដាក់ឱ្យដំណើរការដើម្បីតាមដានការចូលមើលគេហទំព័រ និងបទពិសោធន៍អ្នកប្រើប្រាស់ពីมุมมองអ្នកប្រើប្រាស់ពិតប្រាកដ។",
+    "ការស្កែន និងស្វែងរករបស់ CMDB ត្រូវបានអាប់ដេតទៅជាដំណើរការបន្តបន្ទាប់នៃការរកឃើញច្រក ការកំណត់អត្តសញ្ញាណដំណើរការ និងការប្រមូលការកំណត់រចនាសម្ព័ន្ធ។",
+    "CMDB ឥឡូវនេះគាំទ្រដល់ការប្រមូលទិន្នន័យផ្សះផ្សាផងដែរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "【AI 智能运维平台】本周更新：全新上线 RUM 模块，从真实用户视角了解网站访问与使用体验",
+   "summary": "AI First 轻量版运维产品 Blueking Lite 发布了本周更新速递，全新上线了 RUM 模块，以便从真实用户视角了解网站访问与使用体验。同时，CMDB 模块的扫描发现功能也进行了升级，优化了发现流程并新增了采集数据调和功能。",
+   "impact": "开发和运维团队可以借助新增的 RUM 模块更直观地了解真实用户的访问体验。扫描和发现流程的改进也可能帮助管理员在没有配置数据库账号的情况下发现疑似对象，从而提升运维效率。",
+   "keyPoints": [
+    "全新上线 RUM 模块，从真实用户视角了解网站访问与使用体验。",
+    "CMDB 扫描发现升级为端口探测、进程识别到配置采集的递进流程。",
+    "在未配置数据库账号的情况下也可发现疑似对象。",
+    "新增采集数据调和功能。"
+   ]
+  },
+  "ko": {
+   "title": "AI AIOps 플랫폼 주간 업데이트: 새로운 RUM 모듈 출시",
+   "summary": "AI 퍼스트 경량 IT 운영 제품인 Blueking Lite가 주간 업데이트를 발표했습니다. 이번 업데이트에는 실제 사용자 관점에서 웹사이트 방문 및 사용 경험을 파악할 수 있도록 설계된 새로운 RUM 모듈이 도입되었습니다. 또한 CMDB 업데이트에는 향상된 스캔 및 검색 워크플로가 포함되었습니다.",
+   "impact": "개발 및 운영 팀은 향상된 리소스 검색 및 사용자 경험 모니터링 기능을 활용할 수 있습니다. 이러한 업데이트는 관리자가 웹사이트 접근을 더 잘 추적하고 시스템 구성을 관리하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "실제 사용자 관점에서 웹사이트 방문 및 사용 경험을 파악하기 위한 새로운 RUM 모듈이 출시되었습니다.",
+    "CMDB 스캔 및 검색 기능이 포트 감지, 프로세스 식별, 구성 수집의 단계별 프로세스로 업그레이드되었습니다.",
+    "CMDB는 이제 데이터 조율 수집을 지원합니다."
+   ]
+  }
+ }
+}

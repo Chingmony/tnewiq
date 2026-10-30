@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "29e6c25ba84f01bc",
+ "contentHash": "f049547f94c1250e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T08:52:07.567Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Probing Spatial State Representations in Visual Foundation Models",
+   "summary": "Researchers investigated whether visual foundation models provide representations that support persistent spatial states under streaming egocentric observations of static indoor environments. Using frozen-feature probes across ten representations, they evaluated four levels of spatial capability including spatial structure, object persistence, predictive spatial update, and actionability. The findings show that capability profiles vary across tasks, network layers, and prefix lengths, and that strong readout of the visible scene does not guarantee accurate object persistence or future-feature retrieval. Ultimately, object persistence and actionability build on camera-pose readout, while feature prediction relies on visible-scene readout.",
+   "impact": "Developers and researchers working with visual foundation models may need to evaluate representations beyond simple decoding capabilities, considering whether spatial information is maintained beyond observation and updated predictively. Security teams and technology users should note that these models show limitations in reliable continuous action utility and goal-dependent candidate selection.",
+   "keyPoints": [
+    "Tested ten representations using frozen-feature probes across four levels of spatial capability.",
+    "Found that capability profiles vary across tasks, network layers, and prefix lengths.",
+    "Object persistence and actionability build on camera-pose readout.",
+    "Feature prediction builds on visible-scene readout."
+   ]
+  },
+  "km": {
+   "title": "ការពិនិត្យមើលតំណាងរដ្ឋលំហនៅក្នុង Visual Foundation Models",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាថាតើ Visual Foundation Models ផ្តល់នូវតំណាងដែលគាំទ្រដល់រដ្ឋលំហជាប់លាប់ក្រោមការសង្កេតបែប egocentric នៃបរិយាកាសក្នុងផ្ទះឋិតិវន្តដែរឬទេ។ ដោយប្រើប្រាស់ការសាកល្បង frozen-feature លើតំណាងចំនួនដប់ ពួកគេបានវាយតម្លៃកម្រិតសមត្ថភាពលំហចំនួនបួន រួមមានរចនាសម្ព័ន្ធលំហ ភាពជាប់លាប់នៃវត្ថុ ការធ្វើបច្ចុប្បន្នភាពលំហព្យាករ និងលទ្ធភាពសកម្មភាព។ លទ្ធផលបង្ហាញថាកម្រិតសមត្ថភាពប្រែប្រួលទៅតាមភារកិច្ច កម្រិតបណ្តាញ និងប្រវែងបុព្វបទ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងអ្នកស្រាវជ្រាវអាចចាំបាច់ត្រូវវាយតម្លៃតំណាងលំហដោយផ្អែកលើថាតើព័ត៌មានត្រូវបានរក្សានិងធ្វើបច្ចុប្បន្នភាពសម្រាប់ការសម្រេចចិត្តគោលដៅ។",
+   "keyPoints": [
+    "បានធ្វើតេស្តតំណាងចំនួនដប់ដោយប្រើប្រាស់ការសាកល្បង frozen-feature ។",
+    "រកឃើញថាសមត្ថភាពប្រែប្រួលតាមភារកិច្ច និងស្រទាប់បណ្តាញ។",
+    "ភាពជាប់លាប់នៃវត្ថុនិងសកម្មភាពពឹងផ្អែកលើការអានទីតាំងកាមេរ៉ា។",
+    "ការព្យាករណ៍លក្ខណៈពិសេសពឹងផ្អែកលើការអានឈុតឆាកដែលមើលឃើញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "探索视觉基础模型中的空间状态表示",
+   "summary": "研究人员探讨了视觉基础模型是否能够提供支持持久空间状态的表示，并在静态室内环境的流式自我中心观察下进行研究。通过对十种表示使用冻结特征探针，他们评估了四个级别的空间能力，包括空间结构、物体持久性、预测性空间更新和可行动性。研究结果表明，能力配置文件因任务、网络层和前缀长度而异，对可见场景的强大读数不能确保准确的物体持久性或未来特征检索。",
+   "impact": "开发人员和研究人员在评估视觉基础模型时，可能需要超越简单的解码能力，考虑空间信息是否在观察之外得到维护、预测性更新并用于目标导向的行动。技术用户应该注意模型在可靠的连续行动效用方面表现出的局限性。",
+   "keyPoints": [
+    "在十种表示上使用冻结特征探针测试了四个级别的空间能力。",
+    "发现能力配置文件随任务、网络层和前缀长度而变化。",
+    "物体持久性和可行动性建立在相机位姿读数之上。",
+    "特征预测建立在可见场景读数之上。"
+   ]
+  },
+  "ko": {
+   "title": "시각 기초 모델의 공간 상태 표현 조사",
+   "summary": "연구원들은 시각 기초 모델이 정적 실내 환경의 스트리밍 자기중심적 관찰 하에서 지속적인 공간 상태를 지원하는 표현을 제공하는지 조사했습니다. 10가지 표현에 걸쳐 동결된 특징 프로브를 사용하여 공간 구조, 객체 지속성, 예측적 공간 업데이트 및 실행 가능성의 네 가지 수준의 공간 능력을 평가했습니다. 연구 결과 능력 프로필이 작업, 네트워크 레이어 및 접두사 길이에 따라 다르며 가시적 장면의 강력한 판독이 정확한 객체 지속성이나 미래 특징 검색을 보장하지 않는다는 점이 밝혀졌습니다.",
+   "impact": "개발자와 연구원은 시각 기초 모델을 평가할 때 단순한 디코딩 능력을 넘어 공간 정보가 관찰 이후에도 유지되고 예측적으로 업데이트되는지 고려해야 할 수 있습니다. 기술 사용자는 이러한 모델이 신뢰할 수 있는 연속적인 행동 효용 측면에서 한계를 보인다는 점을 유의해야 합니다.",
+   "keyPoints": [
+    "10가지 표현에 대해 동결된 특징 프로브를 사용하여 4가지 수준의 공간 능력을 테스트함.",
+    "능력 프로필이 작업, 네트워크 레이어 및 접두사 길이에 따라 다름을 발견함.",
+    "객체 지속성과 실행 가능성은 카메라 포즈 판독을 바탕으로 함.",
+    "특징 예측은 가시적 장면 판독을 바탕으로 함."
+   ]
+  }
+ }
+}

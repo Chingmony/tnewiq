@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e745bf194ab22996",
+ "contentHash": "c606d32e56c75599",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T08:52:18.665Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender",
+   "summary": "Researchers propose ShallowDefend, a framework that uses shallow safety alignment to address vulnerabilities in multi-turn conversations with large language models. The framework operates through an Assess to Decide to Respond process, where the defender assesses user intent, commits to an explicit safety decision, and generates a reply based on that commitment. Trained using reinforcement learning with rule-based or LLM-as-judge rewards, the method targets the initial token span that determines a response's trajectory. Experiments across two model families and fourteen benchmarks show that the defenders achieve strong multi-turn safety while preserving utility.",
+   "impact": "This approach could help security teams and developers improve multi-turn safety in large language models by turning the inherent shallowness of alignment into an effective defense mechanism. It may offer a reliable way to handle harmful requests distributed across multiple conversation turns without relying solely on external judges.",
+   "keyPoints": [
+    "Alignment is shallow, with safety behavior concentrated in a model's first few output tokens.",
+    "The Assess to Decide to Respond framework forces an explicit, parseable safety decision before generating a reply.",
+    "Training uses reinforcement learning with self-verified or graded rewards.",
+    "Defenders achieved the strongest multi-turn safety across fourteen benchmarks while preserving utility."
+   ]
+  },
+  "km": {
+   "title": "ShallowDefend៖ ការទាញយកអត្ថប្រយោជន៍ពីការតម្រឹមតម្រូវសុវត្ថិភាពកម្រិតផ្ទៃសម្រាប់ការពារការសន្ទនាច្រើនជុំ",
+   "summary": "អ្នកស្រាវជ្រាវได้ស្នើឡើងនូវក្របខណ្ឌ ShallowDefend ដើម្បីដោះស្រាយភាពខ្សោយនៃការការពារសុវត្ថិភាពនៅក្នុងការសន្ទនាច្រើនជុំជាមួយម៉ូដែលភាសាខ្នាតធំ។ ក្របខណ្ឌនេះដំណើរការតាមរយៈការវាយតម្លៃ ការសម្រេចចិត្ត និងការឆ្លើយតប ដោយតម្រូវឱ្យមានការសម្រេចចិត្តលើសុវត្ថិភាពច្បាស់លាស់មុនពេលបង្កើតចម្លើយ។ ការបណ្តុះបណ្តាលនេះប្រើប្រាស់ការរៀនពង្រឹងកម្លាំងជំរុញ ដែលជួយឱ្យម៉ូដែលរក្សាបាននូវសុវត្ថិភាពកាន់តែប្រសើរឡើង។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយដល់ក្រុមការងារផ្នែកសុវត្ថិភាព និងអ្នកអភិវឌ្ឍន៍ក្នុងការបង្កើនសុវត្ថិភាពនៃការសន្ទនាច្រើនជុំសម្រាប់ម៉ូដែលភាសាខ្នាតធំ ដោយប្រែក្លាយភាពខ្សោយដែលមានស្រាប់ទៅជាយន្តការការពារ។",
+   "keyPoints": [
+    "ការតម្រឹមតម្រូវសុវត្ថិភាពគឺស្ថិតនៅកម្រិតផ្ទៃ ដែលប្រមូលផ្តុំនៅក្នុងថូខឹនដំបូងៗរបស់ម៉ូដែល។",
+    "ក្របខណ្ឌនេះអនុវត្តការសម្រេចចិត្តលើសុវត្ថិភាពច្បាស់លាស់មុនពេលបង្កើតការឆ្លើយតប។",
+    "ការធ្វើតេស្តបង្ហាញពីសុវត្ថិភាពខ្លាំងក្លាក្នុងការសន្ទនាច្រើនជុំ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "ShallowDefend：利用浅层安全对齐实现多轮防御",
+   "summary": "研究人员提出了ShallowDefend框架，利用浅层安全对齐来解决大语言模型在多轮对话中的安全漏洞。该框架通过评估、决定和响应的过程，让防御者在生成回复之前提交明确且可解析的安全决策。通过使用强化学习进行训练，该方法针对决定响应轨迹的初始token区间，在多个基准测试中展现出强大的人工智能安全性能。",
+   "impact": "该方法可能帮助开发人员和安全团队利用对齐机制本身的浅层特性作为防御手段，从而提高大语言模型在多轮交互中的安全性。它可能提供一种无需外部裁判即可处理多轮对话风险的有效途径。",
+   "keyPoints": [
+    "模型的安全行为集中在前几个输出token中，表现出对齐的浅层特性。",
+    "框架通过评估、决定和响应流程在生成回复前提交明确的安全决策。",
+    "训练利用强化学习以及自我验证或分级奖励机制。",
+    "在十四个基准测试中实现了强大的多轮安全防御并保持了实用性。"
+   ]
+  },
+  "ko": {
+   "title": "ShallowDefend: 멀티 턴 방어를 위한 浅层(얕은) 안전 정렬 활용",
+   "summary": "연구원들은 대규모 언어 모델의 멀티 턴 대화 취약점을 해결하기 위해 얕은 안전 정렬을 활용하는 프레임워크인 ShallowDefend를 제어합니다. 이 프레임워크는 평가, 결정, 응답의 과정을 통해 방어자가 명시적인 안전 결정을 내리고 이에 기반한 답변을 생성하도록 합니다. 강화 학습을 통해 훈련된 이 방법은 응답의 궤적을 결정하는 초기 토큰 구간을 활용하여 여러 벤치마크에서 강력한 멀티 턴 안전성을 달성합니다.",
+   "impact": "이 접근 방식은 보안 팀과 개발자가 정렬의 본질적인 얕은 특성을 효과적인 방어 메커니즘으로 전환하여 대규모 언어 모델의 멀티 턴 안전성을 향상시키는 데 기여할 수 있습니다. 외부 심사자 없이도 여러 대화 턴에 걸친 위험을 처리할 수 있는 신뢰할 수 있는 방법을 제공할 수 있습니다.",
+   "keyPoints": [
+    "안전 행동은 모델의 처음 몇 개의 출력 토큰에 집중되어 있습니다.",
+    "프레임워크는 응답을 생성하기 전에 명시적이고 파싱 가능한 안전 결정을 내리도록 합니다.",
+    "강화 학습을 사용하여 페이로드 턴에서 결정을 훈련합니다.",
+    "14개의 벤치마크에서 유용성을 유지하면서 가장 강력한 멀티 턴 안전성을 달성했습니다."
+   ]
+  }
+ }
+}

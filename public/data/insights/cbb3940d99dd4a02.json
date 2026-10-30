@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "cbb3940d99dd4a02",
+ "contentHash": "12cf90b4f33d751d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T08:47:47.159Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Trillion-parameter model Mistral Large 4 releases open weights, matching top scores with fewer tokens",
+   "summary": "Mistral has released open weights for Mistral Large 4, codenamed Le Chonk, featuring one trillion parameters. It is natively multimodal and represents the strongest coding capability among open-weight models. The model is currently one of the largest in the open-weight category and was trained from scratch on European infrastructure.",
+   "impact": "This release could provide developers and technology users with access to a massive open-weight model with advanced coding and multimodal capabilities. Security teams and developers may evaluate how this European-trained infrastructure impacts open-source AI adoption and performance.",
+   "keyPoints": [
+    "Mistral Large 4 has one trillion parameters and the internal codename Le Chonk.",
+    "It features native multimodal capabilities and strong coding performance.",
+    "The model was trained from scratch on European infrastructure."
+   ]
+  },
+  "km": {
+   "title": "ម៉ូឌែលប៉ារ៉ាម៉ែត្រមួយលានលាន Mistral Large 4 បញ្ចេញទម្ងន់បើកចំហ ដោយប្រើប្រាស់ថូខឹនតិចជាងមុនដើម្បីសម្រេចបានពិន្ទុខ្ពស់បំផុត",
+   "summary": "ក្រុមហ៊ុន Mistral បានដាក់ឱ្យប្រើប្រាស់ទម្ងន់បើកចំហសម្រាប់ម៉ូឌែល Mistral Large 4 ដែលមានឈ្មោះកូដថា Le Chonk និងមានប៉ារ៉ាម៉ែត្រចំនួនមួយលានលាន។ វាគឺជាម៉ូឌែលពហុព័ត៌មានដើម និងមានសមត្ថភាពសរសេរកូដខ្លាំងបំផុតក្នុងចំណោមម៉ូឌែលទម្ងន់បើកចំហ។ ម៉ូឌែលនេះត្រូវបានបណ្តុះបណ្តាលចាប់ផ្តើមពីដំបូងនៅលើហេដ្ឋារចនាសម្ព័ន្ធអឺរ៉ុប។",
+   "impact": "ការបញ្ចេញនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវលទ្ធភាពប្រើប្រាស់ម៉ូឌែលទម្ងន់បើកចំហខ្នាតយក្សដែលមានសមត្ថភាពសរសេរកូដ និងពហុព័ត៌មានកម្រិតខ្ពស់។ ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចធ្វើការវាយតម្លៃពីផលប៉ះពាល់នៃការអនុវត្ត AI ប្រភពបើកចំហនេះ។",
+   "keyPoints": [
+    "Mistral Large 4 មានប៉ារ៉ាម៉ែត្រចំនួនមួយលានលាននិងមានឈ្មោះកូដ Le Chonk។",
+    "វាមានសមត្ថភាពពហុព័ត៌មានដើម និងសមត្ថភាពសរសេរកូដខ្លាំងក្លា។",
+    "ម៉ូឌែលនេះត្រូវបានបណ្តុះបណ្តាលពីដំបូងនៅលើហេដ្ឋារចនាសម្ព័ន្ធអឺរ៉ុប។"
+   ]
+  },
+  "zh-CN": {
+   "title": "万亿参数模型 Mistral Large 4 开放权重，用更少的 token 打平了最高分",
+   "summary": "Mistral 开源了 Mistral Large 4 的权重，其内部代号为 Le Chonk，拥有 1 万亿参数。该模型具备原生多模态能力，是目前开放权重阵营里体量最大的一批模型，且完全从零开始在欧洲的基础设施上进行训练。它在端到端代码质量和代码库维度上展现出了强大的编码能力。",
+   "impact": "该模型的发布可能会为开发者和技术用户提供一个新的超大规模开源权重选择，带来先进的代码编写和多模态处理能力。安全团队和开发者可以关注其在欧洲基础设施上训练带来的合规性与性能表现。",
+   "keyPoints": [
+    "Mistral Large 4 拥有 1 万亿参数，内部代号为 Le Chonk。",
+    "具备原生多模态特性，是开源权重阵营中体量最大的一批模型。",
+    "完全从零开始在欧洲的基础设施上完成训练。"
+   ]
+  },
+  "ko": {
+   "title": "1조 파라미터 모델 Mistral Large 4 오픈 웨이트 공개, 적은 토큰으로 최고점 달성",
+   "summary": "Mistral이 내부 코드명 Le Chonk인 Mistral Large 4의 가중치를 오픈소스로 공개했습니다. 이 모델은 1조 개의 파라미터를 가지며 네이티브 멀티모달 기능을 갖추고 오픈웨이트 진영에서 가장 강력한 코딩 능력을 보여줍니다. 유럽의 인프라에서 처음부터 새로 훈련된 현재까지의 오픈웨이트 진영 중 가장 큰 규모의 모델 중 하나입니다.",
+   "impact": "이번 공개로 개발자와 기술 사용자들은 강력한 코딩 및 멀티모달 능력을 갖춘 대규모 오픈웨이트 모델을 활용할 수 있게 될 수 있습니다. 보안 팀과 개발자는 유럽 인프라에서 훈련된 해당 AI 모델의 도입과 성능을 평가할 수 있습니다.",
+   "keyPoints": [
+    "Mistral Large 4는 1조 개의 파라미터와 내부 코드명 Le Chonk를 가집니다.",
+    "네이티브 멀티모달 기능과 오픈웨이트 중 가장 강력한 코딩 능력을 제공합니다.",
+    "유럽의 인프라에서 처음부터 새로 훈련되었습니다."
+   ]
+  }
+ }
+}

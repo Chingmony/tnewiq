@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b4818ca0105902d6",
+ "contentHash": "56220c59bf8eb69f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T08:48:18.268Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Using Attention Layers as Memory: A RISC-V CPU Compiled into Qwen Weights",
+   "summary": "Developer Divyansh Agrawal has compiled a functional RISC-V CPU directly into the weights of Qwen 3.5 4B, utilizing the model's Gated DeltaNet attention layer as memory. Named Qwenputer, this system runs entirely within the model's forward pass without external runtimes, tools, or sandboxes. It is capable of executing arithmetic as well as C and MicroPython code.",
+   "impact": "This development showcases novel methods for executing code directly within neural network weights, which could inspire new research into model capabilities and computational structures. Technology users and developers may find it interesting as an exploration of language models operating beyond traditional generation tasks.",
+   "keyPoints": [
+    "Developer Divyansh Agrawal created a system named Qwenputer.",
+    "A RISC-V CPU was compiled into the weights of Qwen 3.5 4B.",
+    "The model's Gated DeltaNet attention layer is used as memory.",
+    "The CPU executes entirely within the forward pass and can run C and MicroPython code."
+   ]
+  },
+  "km": {
+   "title": "ការប្រើប្រាស់ស្រទាប់ Attention ជាអង្គចងចាំ៖ CPU ប្រភេទ RISC-V ត្រូវបានចងក្រងក្នុងទម្ងន់ Qwen",
+   "summary": "អ្នកអភិវឌ្ឍន៍ Divyansh Agrawal បានចងក្រង CPU ប្រភេទ RISC-V ផ្ទាល់ទៅក្នុងទម្ងន់របស់ Qwen 3.5 4B ដោយប្រើប្រាស់ស្រទាប់ Gated DeltaNet attention របស់ម៉ូដែលនេះជាអង្គចងចាំ។ ប្រព័ន្ធនេះត្រូវបានគេដាក់ឈ្មោះថា Qwenputer ហើយវាដំណើរការទាំងស្រុងនៅក្នុង forward pass របស់ម៉ូដែល ដោយមិនចាំបាច់មាន runtime ខាងក្រៅនោះទេ។ វាអាចអនុវត្តការគណនារសើប និងដំណើរការកូដ C ក៏ដូចជា MicroPython ផងដែរ។",
+   "impact": "ការអភិវឌ្ឍនេះបង្ហាញពីវិធីសាស្ត្រថ្មីៗក្នុងការប្រតិបត្តិូកូដដោយផ្ទាល់នៅក្នុងទម្ងន់បណ្តាញសរសៃប្រសាទ ដែលអាចជំរុញឱ្យមានការស្រាវជ្រាវថ្មីៗលើសមត្ថភាពរបស់ម៉ូដែល។ ក្រុមអភិវឌ្ឍន៍អាចចាត់ទុកវាជាការស្វែងយល់ពីរបៀបដែលម៉ូដែលភាសាដំណើរការក្រៅពីកិច្ចការបង្កើតអត្ថបទបែបប្រពៃណី។",
+   "keyPoints": [
+    "អ្នកអភិវឌ្ឍន៍ Divyansh Agrawal បានបង្កើតប្រព័ន្ធមួយដែលមានឈ្មោះថា Qwenputer ។",
+    "CPU ប្រភេទ RISC-V ត្រូវបានចងក្រងចូលទៅក្នុងទម្ងន់របស់ Qwen 3.5 4B ។",
+    "ស្រទាប់ Gated DeltaNet attention របស់ម៉ូដែលត្រូវបានប្រើជាអង្គចងចាំ។",
+    "CPU ដំណើរការទាំងស្រុងនៅក្នុង forward pass និងអាចរត់កូដ C និង MicroPython បាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "拿注意力层当内存——有人在 Qwen 权重里编译了一颗 RISC-V CPU",
+   "summary": "开发者 Divyansh Agrawal 将一颗真正的 RISC-V CPU 编译到了 Qwen 3.5 4B 的权重中，并使用模型自身的 Gated DeltaNet 注意力层作为内存。这个被命名为 Qwenputer 的系统完全运行在模型的前向传播中，无需外部运行时、工具调用或沙箱。它能够执行算术操作，并运行 C 语言和 MicroPython 代码。",
+   "impact": "这一进展展示了在神经网络权重内部直接执行代码的新方法，可能会激发对模型能力和计算结构的新研究。技术用户和开发人员可能会将其视为对语言模型超越传统生成任务潜力的有趣探索。",
+   "keyPoints": [
+    "开发者 Divyansh Agrawal 创建了名为 Qwenputer 的系统。",
+    "一颗 RISC-V CPU 被编译进 Qwen 3.5 4B 的权重中。",
+    "模型自身的 Gated DeltaNet 注意力层被用作内存。",
+    "CPU 完全在前向传播中运行，可执行 C 和 MicroPython 代码。"
+   ]
+  },
+  "ko": {
+   "title": "어텐션 레이어를 메모리로 사용: Qwen 가중치 내에 컴파일된 RISC-V CPU",
+   "summary": "개발자 디비얀시 아그라발(Divyansh Agrawal)이 Qwen 3.5 4B의 가중치 내에 실제 RISC-V CPU를 컴파일하고, 모델 자체의 Gated DeltaNet 어텐션 레이어를 메모리로 사용하도록 구현했습니다. Qwenputer로 명명된 이 시스템은 외부 런타임, 도구 호출, 샌드박스 없이 모델의 순전파 과정에서 완전히 실행됩니다. 이 CPU는 산술 연산을 수행하고 C 및 MicroPython 코드를 실행할 수 있습니다.",
+   "impact": "이번 개발은 신경망 가중치 내부에서 직접 코드를 실행하는 새로운 방법을 보여주며, 모델 역량과 연산 구조에 대한 새로운 연구에 영감을 줄 수 있습니다. 개발자들과 기술 사용자들은 이를 전통적인 생성 작업을 넘어선 언어 모델의 작동 방식을 탐구하는 사례로 주목할 수 있습니다.",
+   "keyPoints": [
+    "개발자 디비얀시 아그라발이 Qwenputer라는 시스템을 제작했습니다.",
+    "Qwen 3.5 4B의 가중치 안에 RISC-V CPU가 컴파일되었습니다.",
+    "모델의 Gated DeltaNet 어텐션 레이어가 메모리로 사용됩니다.",
+    "CPU는 순전파 내에서 완전히 실행되며 C 및 MicroPython 코드를 실행할 수 있습니다."
+   ]
+  }
+ }
+}

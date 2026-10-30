@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a65db5201afd95aa",
+ "contentHash": "a726667387f90e23",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T08:51:12.821Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+   "summary": "Researchers introduce SpecSlot, a pixel-space rectified-flow Transformer designed to decouple output detail from global attention sequence length. By expanding spatial anchors into multiple slots assigned to disjoint bands of DCT coefficients, low-frequency structure engages in global exchange while high-frequency detail is modeled locally. This approach allows the model to increase spectral detail without enlarging the global sequence.",
+   "impact": "This method could offer developers and researchers a way to improve generative Transformer efficiency and convergence speed. It may reduce computational costs while maintaining or improving FID performance on datasets like ImageNet.",
+   "keyPoints": [
+    "SpecSlot decouples output detail from the length of the global attention sequence.",
+    "Only the lowest-frequency slot from each anchor participates in global attention, while other slots interact locally.",
+    "On ImageNet-512, SpecSlot improves FID by 2.84 over the control with 3.9% fewer FLOPs.",
+    "On text-to-image generation, it surpasses JiT-B/8 on DPG-Bench at a lower forward cost."
+   ]
+  },
+  "km": {
+   "title": "អាន បែងចែក បញ្ជូន៖ ការដាក់សញ្ញាសម្គាល់គូនិងតួនាទីសម្រាប់ Transformers កំណើតលំហភីកសែល",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ SpecSlot ដែលជា Transformer លំហភីកសែល rectified-flow ដែលបំបែកលម្អិតលទ្ធផលចេញពីប្រវែងលំដាប់ការយកចិត្តទុកដាក់សកល។ តាមរយៈការពង្រីកយុថ្កាលំហទៅជារន្ធជាច្រើន SpecSlot អនុញ្ញាតឱ្យរចនាសម្ព័ន្ធប្រេកង់ទាបចូលរួមក្នុងការផ្លាស់ប្តូរសកល ខណៈដែលលម្អិតប្រេកង់ខ្ពស់ត្រូវបានគូសវាសក្នុងស្រុក។ វិធីសាស្ត្រនេះអនុញ្ញាតឱ្យម៉ូដែលបង្កើនព័ត៌មានលម្អិតវិសដាលដោយមិនបង្កើនលំដាប់សកល។",
+   "impact": "វិធីសាស្ត្រនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវមធ្យោបាយមួយដើម្បីបង្កើនប្រសិទ្ធភាពនិងល្បឿនបង្រួបបង្រួមរបស់ generative Transformers។ វាអាចកាត់បន្ថយថ្លៃដើមគណនាខណៈពេលដែលរក្សា ឬកែលម្អការអនុវត្ត FID លើសំណុំទិន្នន័យដូចជា ImageNet ។",
+   "keyPoints": [
+    "SpecSlot បំបែកលម្អិតលទ្ធផលចេញពីប្រវែងលំដាប់ការយកចិត្តទុកដាក់សកល។",
+    "មានតែរន្ធប្រេកង់ទាបបំផុតពីយុថ្កានីមួយៗប៉ុណ្ណោះដែលចូលរួមក្នុងការយកចិត្តទុកដាក់សកល។",
+    "នៅលើ ImageNet-512 វាធ្វើឱ្យប្រសើរឡើង FID ចំនួន ២,៨៤ លើការគ្រប់គ្រងជាមួយនឹង FLOPs តិចជាង ៣,៩% ។",
+    "នៅលើការបង្កើតអត្ថបទទៅរូបភាព វាហួសពី JiT-B/8 នៅលើ DPG-Bench ក្នុងតម្លៃបញ្ជូនបន្តទាបជាង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "读取、分配、路由：像素空间生成式 Transformer 的角色耦合分词",
+   "summary": "研究人员推出了 SpecSlot，这是一种像素空间 rectified-flow Transformer，它将输出细节与全局注意力序列的长度解耦。通过将每个空间锚点扩展到多个分配了不相交 DCT 系数频段的槽中，低频结构参与全局交换，而高频细节则在局部进行建模。这种方法允许模型在不扩大全局序列的情况下增加光谱细节。",
+   "impact": "这种方法可以为开发人员和研究人员提供一种提高生成式 Transformer 效率和收敛速度的方法。它可能会降低计算成本，同时在 ImageNet 等数据集上保持或改善 FID 性能。",
+   "keyPoints": [
+    "SpecSlot 将输出细节与全局注意力序列的长度解耦。",
+    "每个锚点中只有最低频的槽参与全局注意力，而所有槽都在本地交互。",
+    "在 ImageNet-512 上，SpecSlot 的 FID 比对照组提高了 2.84，同时 FLOPs 减少了 3.9%。",
+    "在文本到图像生成方面，它以较低的前向成本在 DPG-Bench 上超过了 JiT-B/8。"
+   ]
+  },
+  "ko": {
+   "title": "읽기, 할당, 라우팅: 픽셀 공간 생성형 Transformer를 위한 역할 결합 토큰화",
+   "summary": "연구원들은 출력 세부 사항을 전역 어텐션 시퀀스 길이와 분리하도록 설계된 픽셀 공간 rectified-flow Transformer인 SpecSlot을 소개합니다. 공간 앵커를 서로 겹치지 않는 DCT 계수 대역에 할당된 여러 슬롯으로 확장함으로써, 저주파 구조는 전역 교환에 참여하고 고주파 세부 사항은 로컬에서 모델링됩니다. 이 접근 방식을 통해 모델은 전역 시퀀스를 확대하지 않고도 스펙트럼 세부 사항을 늘릴 수 있습니다.",
+   "impact": "이 방법은 개발자와 연구원에게 생성형 Transformer의 효율성과 수렴 속도를 향상시킬 수 있는 방법을 제공할 수 있습니다. ImageNet과 같은 데이터셋에서 계산 비용을 줄이면서 FID 성능을 유지하거나 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "SpecSlot은 출력 세부 사항을 전역 어텐션 시퀀스의 길이와 분리합니다.",
+    "각 앵커의 가장 낮은 주파수 슬롯만 전역 어텐션에 참여하고 모든 슬롯은 로컬에서 상호 작용합니다.",
+    "ImageNet-512에서 SpecSlot은 3.9% 더 적은 FLOPs로 대조군에 비해 FID를 2.84 개선했습니다.",
+    "텍스트-이미지 생성에서 DPG-Bench의 JiT-B/8을 더 낮은 전방 비용으로 능가합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4ab405ec32330e7e",
+ "contentHash": "bdd4d0e8b40ce9dc",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T08:46:03.982Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Open Source Interface Platform v6.3.1 Released with Added Timeout Feature",
+   "summary": "The open source interface development and management platform ApiGo has released version 6.3.1, which introduces a new timeout feature. ApiGo features a multi-database pluggable data source framework and SQL2API capabilities. It supports MCP access for various AI office platforms such as WorkBuddy, Qianwen Office, Trea Work, and Doubao.",
+   "impact": "Developers and technology users utilizing this platform could benefit from better control over interface execution times with the new timeout feature. Teams integrating AI office platforms or managing multiple SQL and NoSQL data sources may find these updates useful for workflow optimization.",
+   "keyPoints": [
+    "ApiGo v6.3.1 has been released with a new timeout feature.",
+    "The platform provides a multi-database pluggable data source framework and SQL2API.",
+    "It supports MCP access for AI office platforms like WorkBuddy, Qianwen Office, Trea Work, and Doubao."
+   ]
+  },
+  "km": {
+   "title": "វេទិកាអន្តរហ្វេសប្រភពបើកចំហ v6.3.1 ត្រូវបានបញ្ចេញដោយបន្ថែមម៉ោងកំណត់ផុតកំណត់",
+   "summary": "វេទិកាអភិវឌ្ឍន៍ និងគ្រប់គ្រងអន្តរហ្វេសប្រភពបើកចំហ ApiGo បានបញ្ចេញកំណែ v6.3.1 ដែលបានបន្ថែមមុខងារកំណត់ម៉ោងផុតកំណត់ថ្មី។ ApiGo មានក្របខ័ណ្ឌប្រភពទិន្នន័យដែលអាចដោតបញ្ចូលបានច្រើនមូលដ្ឋានទិន្នន័យ និង SQL2API។ វាគាំទ្រការចូលប្រើ MCP សម្រាប់វេទិកាការិយាល័យ AI ផ្សេងៗដូចជា WorkBuddy, Qianwen Office, Trea Work និង Doubao ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលប្រើប្រាស់វេទិកានេះអាចទទួលបានអត្ថប្រយោជន៍ពីការគ្រប់គ្រងពេលវេលាប្រតិបត្តិអន្តរហ្វេសកាន់តែប្រសើរឡើងជាមួយមុខងារកំណត់ម៉ោងថ្មី។ ក្រុមការងារដែលរួមបញ្ចូលវេទិកាការិយាល័យ AI ឬគ្រប់គ្រងប្រភពទិន្នន័យ SQL និង NoSQL ច្រើនអាចយល់ឃើញថាការអាប់ដេតទាំងនេះមានប្រយោជន៍សម្រាប់ការបង្កើនប្រសិទ្ធភាពការងារ។",
+   "keyPoints": [
+    "ApiGo v6.3.1 ត្រូវបានបញ្ចេញជាមួយនឹងមុខងារកំណត់ម៉ោងថ្មី។",
+    "វេទិកានេះផ្តល់នូវក្របខ័ណ្ឌប្រភពទិន្នន័យដែលអាចដោតបញ្ចូលបានច្រើនមូលដ្ឋានទិន្នន័យ និង SQL2API។",
+    "វាគាំទ្រការចូលប្រើ MCP សម្រាប់វេទិកាការិយាល័យ AI ដូចជា WorkBuddy, Qianwen Office, Trea Work និង Doubao ។"
+   ]
+  },
+  "zh-CN": {
+   "title": ":fire::fire:开源接口平台 v6.3.1 发布，新增超时时间",
+   "summary": "开源接口开发和管理平台 ApiGo 发布了 v6.3.1 版本，新增了超时时间功能。ApiGo 具备多数据库插件化数据源框架和 SQL2API 功能。它支持 WorkBuddy、千问办公、Trea Work、豆包等 AI 办公平台 MCP 接入。",
+   "impact": "使用该平台的开发者和技术用户可以通过新增的超时时间功能更好地控制接口执行时间。整合 AI 办公平台或管理多种 SQL 与 NoSQL 数据源的团队可能会发现这些更新对优化工作流程有所帮助。",
+   "keyPoints": [
+    "ApiGo v6.3.1 已发布并新增了超时时间功能。",
+    "平台提供多数据库插件化数据源框架和 SQL2API。",
+    "支持 WorkBuddy、千问办公、Trea Work、豆包等 AI 办公平台的 MCP 接入。"
+   ]
+  },
+  "ko": {
+   "title": "오픈 소스 인터페이스 플랫폼 v6.3.1 출시, 타임아웃 기능 추가",
+   "summary": "오픈 소스 인터페이스 개발 및 관리 플랫폼인 ApiGo가 타임아웃 기능이 추가된 v6.3.1 버전을 출시했습니다. ApiGo는 다중 데이터베이스 플러그인 가능 데이터 소스 프레임워크와 SQL2API를 제공합니다. WorkBuddy, Qianwen Office, Trea Work, Doubao 등 다양한 AI 오피스 플랫폼의 MCP 연동을 지원합니다.",
+   "impact": "이 플랫폼을 사용하는 개발자와 기술 사용자는 새로운 타임아웃 기능을 통해 인터페이스 실행 시간을 더 잘 제어할 수 있습니다. AI 오피스 플랫폼을 통합하거나 여러 SQL 및 NoSQL 데이터 소스를 관리하는 팀은 이러한 업데이트가 워크플로우 최적화에 유용하다고 느낄 수 있습니다.",
+   "keyPoints": [
+    "ApiGo v6.3.1이 타임아웃 기능과 함께 출시되었습니다.",
+    "플랫폼은 다중 데이터베이스 플러그인 가능 데이터 소스 프레임워크와 SQL2API를 제공합니다.",
+    "WorkBuddy, Qianwen Office, Trea Work, Doubao 등 AI 오피스 플랫폼의 MCP 연동을 지원합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b3bacef6b597bf6a",
+ "contentHash": "32d833b2b58e8aac",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T08:50:49.639Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
+   "summary": "Researchers have introduced propose-filter-release (PFR), a new privacy primitive that privately filters input data to scale noise to typical sensitivity rather than worst-case influence. By using a concave friendliness score and a friendly-DP release mechanism, PFR turns a mechanism protecting typical records into a standard differentially private one. The approach works under public conditions on the record count and applies to various tasks including scalar statistics and principal subspace estimation.",
+   "impact": "This method could help developers and security teams reduce excessive noise in privacy-preserving data analysis by adapting to typical data rather than worst-case records. It may allow for more accurate data releases while maintaining standard differential privacy guarantees across different applications.",
+   "keyPoints": [
+    "PFR uses private filtering to adapt noise scaling to typical data sensitivity.",
+    "The primitive requires a concave friendliness score and a friendly-DP release mechanism.",
+    "It guarantees differential privacy under public conditions on the number of records.",
+    "Instantiations include scalar statistics, principal subspace estimation, and treatment-rule selection."
+   ]
+  },
+  "km": {
+   "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំវិធីសាស្ត្រ propose-filter-release (PFR) ដែលជាបច្ចេកវិទ្យាភាពឯកជនថ្មីមួយដើម្បីកែតម្រូវសំឡេងរំខានទិន្នន័យស្របតាមភាពរសើបធម្មតា។ វាប្រើប្រាស់ការត្រងឯកជនដើម្បីបំប្លែងយន្តការការពារទិន្នន័យធម្មតាឱ្យទៅជាភាពឯកជនឌីផេរ៉ង់ស្យែលស្តង់ដារ។ វិធីសាស្ត្រនេះអាចប្រើប្រាស់បានសម្រាប់កិច្ចការផ្សេងៗដូចជាស្ថិតិស្កាឡា និងការប៉ាន់ស្មានលំហមេ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខកាត់បន្ថយសំឡេងរំខានខ្លាំងពេកក្នុងការវិភាគទិន្នន័យ។ វាអាចផ្តល់នូវការបញ្ចេញទិន្នន័យដែលត្រឹមត្រូវជាងមុនខណៈពេលដែលនៅតែរក្សាបាននូវស្តង់ដារភាពឯកជនឌីផេរ៉ង់ស្យែល។",
+   "keyPoints": [
+    "PFR ប្រើការត្រងឯកជនដើម្បីកែតម្រូវសំឡេងរំខានទៅនឹងភាពរសើបនៃទិន្នន័យធម្មតា។",
+    "វាធានាបាននូវភាពឯកជនឌីផេរ៉ង់ស្យែលក្រោមលក្ខខណ្ឌសាធារណៈស្តីពីចំនួនកំណត់ត្រា។",
+    "វាអាចត្រូវបានអនុវត្តចំពោះស្ថិតិស្កាឡា ការប៉ាន់ស្មានលំហមេ និងកិច្ចការផ្សេងៗទៀត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
+   "summary": "研究人员引入了propose-filter-release (PFR)，这是一种通过私有过滤将噪声规模缩放到典型敏感度的新型隐私基元。通过私有化过滤输入数据，PFR能够将保护典型记录的机制转变为标准意义上的差分隐私机制。该方法需要一个凹友好度分数和一个友好差分隐私的发布机制，适用于标量统计和主子空间估计等多种任务。",
+   "impact": "该方法可能帮助开发人员和安全团队通过适应典型数据而非最坏情况记录，来减少隐私保护数据分析中的过度噪声。它可能在保持标准差分隐私保证的同时，实现更准确的数据发布。",
+   "keyPoints": [
+    "PFR利用私有过滤将噪声缩放到典型的数据敏感度。",
+    "该基元需要凹友好度分数和友好的差分隐私发布机制。",
+    "它在记录数量的公共条件下保证差分隐私。",
+    "已被应用于标量统计、主子空间估计和用户直方图的KL散度等场景。"
+   ]
+  },
+  "ko": {
+   "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
+   "summary": "연구자들은 프라이빗 필터링을 통해 노이즈 크기를 전형적인 민감도에 맞추는 새로운 프라이버시 프리미티브인 propose-filter-release (PFR)를 소개했다. PFR은 입력을 프라이빗하게 필터링하여 최악의 경우가 아닌 전형적인 레코드를 보호하는 메커니즘을 표준 차분 프라이버시를 만족하도록 변환한다. 이 접근 방식은 레코드 수에 대한 공개 조건 하에서 차분 프라이버시를 보장하며 다양한 통계 및 추정 작업에 적용될 수 있다.",
+   "impact": "이 방법은 개발자와 보안 팀이 최악의 레코드 대신 전형적인 데이터에 적응하여 프라이버시 보호 데이터 분석에서 과도한 노이즈를 줄이는 데 도움을 줄 수 있다. 다양한 응용 분야에서 표준 차분 프라이버시 보장을 유지하면서 더 정확한 데이터 배포를 가능하게 할 수 있다.",
+   "keyPoints": [
+    "PFR은 프라이빗 필터링을 사용하여 노이즈 크기를 전형적인 데이터 민감도에 맞춘다.",
+    "오목한 친화도 점수와 친화적 차분 프라이버시 릴리스 메커니즘을 요구한다.",
+    "레코드 수에 대한 공개 조건 하에서 차분 프라이버시를 보장한다.",
+    "스칼라 통계, 주 부분공간 추정 및 치료 규칙 선택 등에 적용될 수 있다."
+   ]
+  }
+ }
+}

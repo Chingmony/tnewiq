@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5deadd170ccdf431",
+ "contentHash": "7c22e2a609517a2c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T08:51:45.882Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "From extreme weather to agricultural consequences with agentic AI",
+   "summary": "Researchers present WxCrop, an agent that judges agricultural hazards from weather indices using causal analysis. The system combines weather and agricultural information to predict crop loss reliably for past and forecast dates. It was demonstrated in Florida on hurricanes, freezes, and dry heat using a loss model calibrated on insurance records.",
+   "impact": "This tool could help governments, growers, and scientists respond to agricultural disasters quickly by providing sourced crop loss predictions. It may improve the ability to assess risks from extreme weather events.",
+   "keyPoints": [
+    "WxCrop is an agent that evaluates agricultural hazards using physically interpretable weather indices.",
+    "It combines weather and agricultural data to predict crop loss for past and forecast dates.",
+    "The hurricane index detected recorded cyclone days with an AUC of 0.98.",
+    "Users can query the agent for crop group loss as a fraction of expected season value."
+   ]
+  },
+  "km": {
+   "title": "ពីអាកាសធាតុ ακραία ដល់ផលវិបាកលើវិស័យកសិកម្មដោយប្រើ agentic AI",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្ហាញ WxCrop ដែលជាភ្នាក់ងារវាយតម្លៃគ្រោះថ្នាក់កសិកម្មពីសន្ទស្សន៍អាកាសធាតុដោយប្រើការវិភាគមូលហេតុ។ ប្រព័ន្ធនេះបញ្ចូលគ្នានូវព័ត៌មានអាកាសធាតុ និងកសិកម្ម ដើម្បីព្យាករណ៍ការខាតបង់ដំណាំសម្រាប់កាលបរិច្ឆេទកន្លងមក និងការមកដល់។ វាត្រូវបានបង្ហាញនៅក្នុងរដ្ឋ Florida លើខ្យល់ព្យុះ ទឹកកក និងកំដៅស្ងួត ដោយប្រើគំរូខាតបង់ដែលបានកែតម្រូវតាមកំណត់ត្រាធានារ៉ាប់រង។",
+   "impact": "ឧបករណ៍នេះអាចជួយដល់រដ្ឋាភិបាល កសិករ និងអ្នកវិទ្យាសាស្ត្រក្នុងការឆ្លើយតបទៅនឹងគ្រោះមហន្តរាយកសិកម្មយ៉ាងឆាប់រហ័សដោយផ្អែកលើការព្យាករណ៍ដែលប្រភពច្បាស់លាស់។ វាអាចកែលម្អសមត្ថភាពក្នុងការវាយតម្លៃហានិភ័យពីព្រឹត្តិការណ៍អាកាសធាតុ ακραία។",
+   "keyPoints": [
+    "WxCrop គឺជាភ្នាក់ងារវាយតម្លៃគ្រោះថ្នាក់កសិកម្មដោយប្រើសន្ទស្សន៍អាកាសធាតុ។",
+    "វាបញ្ចូលទិន្នន័យអាកាសធាតុ និងកសិកម្មដើម្បីព្យាករណ៍ការខាតបង់ដំណាំ។",
+    "សន្ទស្សន៍ខ្យល់ព្យុះបានរកឃើញថ្ងៃព្យុះដែលមានកំណត់ត្រាជាមួយនឹង AUC 0.98។",
+    "អ្នកប្រើប្រាស់អាចសួរភ្នាក់ងារអំពីការខាតបង់ក្រុមដំណាំជាប្រភាគនៃតម្លៃរដូវរំពឹងទុក។"
+   ]
+  },
+  "zh-CN": {
+   "title": "利用智能代理AI从极端天气走向农业影响",
+   "summary": "研究人员推出了 WxCrop，这是第一个通过因果分析检查物理可解释的天气指数来判断农业灾害的代理。该系统结合了天气和农业信息，可以可靠地预测过去和预测日期的作物损失。它在佛罗里达州进行了飓风、严寒和干旱的演示，并使用针对每种情况根据保险记录校准的损失模型。",
+   "impact": "该工具可以通过提供有来源的作物损失预测，帮助政府、种植者和科学家快速应对农业灾害。它可能会提高评估极端天气事件风险的能力。",
+   "keyPoints": [
+    "WxCrop 是一个使用物理可解释的天气指数评估农业灾害的代理。",
+    "它结合了天气和农业数据，以预测过去和预测日期的作物损失。",
+    "飓风指数以 0.98 的 AUC 检测到记录的气旋日。",
+    "用户可以向代理询问每个作物群的损失占预期季节价值的分数。"
+   ]
+  },
+  "ko": {
+   "title": "에이전틱 AI를 활용한 극단적인 날씨에서 농업적 영향까지",
+   "summary": "연구원들은 인과 분석을 통해 물리적으로 해석 가능한 기상 지수로부터 농업적 위험을 판단하는 최초의 에이전트인 WxCrop을 제시했습니다. 이 시스템은 기상 및 농업 정보를 결합하여 과거 및 예측 날짜의 작물 손실을 안정적으로 예측합니다. 이 도호는 플로리다에서 허리케인, 한파, 건조한 더위를 대상으로 보험 기록을 바탕으로 보정된 손실 모델을 사용하여 시연되었습니다.",
+   "impact": "이 도구는 정부, 재배자, 과학자들이 출처가 명시된 작물 손실 예측을 제공받아 농업 재해에 신속하게 대응할 수 있도록 도울 수 있습니다. 극단적인 날씨 이벤트의 위험을 평가하는 능력을 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "WxCrop은 물리적으로 해석 가능한 기상 지수를 사용하여 농업적 위험을 평가하는 에이전트입니다.",
+    "기상 및 농업 데이터를 결합하여 과거 및 예측 날짜의 작물 손실을 예측합니다.",
+    "허리케인 지수는 0.98의 AUC로 기록된 사이클론 일을 감지했습니다.",
+    "사용자는 에이전트에 각 작물 그룹의 손실을 예상 시즌 가치의 비율로 문의할 수 있습니다."
+   ]
+  }
+ }
+}

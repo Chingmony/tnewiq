@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9eae0295d0de9183",
+ "contentHash": "26e7c17f88647b7f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T08:51:24.269Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model",
+   "summary": "Researchers propose a Kullback-Leibler ball centered at a density model fitted to a data record to improve distributionally robust optimization. Because the resulting problem can accommodate only a few scenarios, an adaptive scenario set is built by alternating between solving the finite problem and drawing new realizations steered toward the worst case. Testing on a multi-item newsvendor problem and a grid capacity expansion problem showed that centering the ball at the learned nominal lowers cost under distribution shift when records are scarce.",
+   "impact": "This approach could help developers and researchers reduce costs under distribution shift when working with scarce data records. However, the advantage may fade as data records grow or as shifts depart from the learned model structure.",
+   "keyPoints": [
+    "Proposes a KL ball centered at a fitted density model rather than an empirical distribution.",
+    "Builds the scenario set adaptively by drawing new realizations steered toward the worst case.",
+    "Tested on a multi-item newsvendor problem and a capacity expansion problem on realistic grid data.",
+    "Lowers cost under distribution shift when data records are scarce and the model captures structure."
+   ]
+  },
+  "km": {
+   "title": "ការបង្កើតសេណារីយ៉ូសម្របខ្លួនសម្រាប់ KL-DRO ជុំវិញគំរូដង់ស៊ីតេដែលបានរៀន",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើឱ្យប្រើប្រាស់រង្វង់ Kullback-Leibler ដែលផ្ដោតលើគំរូដង់ស៊ីតេដែលបានកែតម្រូវទៅនឹងកំណត់ត្រាទិន្នន័យ ដើម្បីកែលម្អការធ្វើឱ្យប្រសើរឡើងប្រកបដោយភាពរឹងមាំនៃការចែកចាយ។ ដោយសារបញ្ហាលទ្ធផលអាចรองรับសេណារីយ៉ូតិចតួចប៉ុណ្ណោះ សំណុំសេណារីយ៉ូសម្របខ្លួនត្រូវបានបង្កើតឡើងដោយការជំនួសគ្នារវាងការដោះស្រាយបញ្ហាfinite និងការទាញយកការពិតថ្មីៗ។ ការធ្វើតេស្តលើបញ្ហាអ្នកលក់សារព័ត៌មានពហុមុខទំនិញ និងបញ្ការពង្រីកសមត្ថភាពបណ្តាញអគ្គិសនី បានបង្ហាញថាការផ្ដោតរង្វង់លើគំរូដែលបានរៀនជួយកាត់បន្ថយការចំណាយក្រោមការប្តូរការចែកចាយ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកស្រាវជ្រាវកាត់បន្ថយការចំណាយក្រោមការប្តូរការចែកចាយនៅពេលធ្វើការជាមួយកំណត់ត្រាទិន្នន័យខ្សោះខ្សោយ។ ទោះយ៉ាងណា ប្រៀបខ្លាំងនេះអាចថយចុះនៅពេលដែលកំណត់ត្រាទិន្នន័យកើនឡើងឬការប្តូរចេញឆ្ងាយពី cấu trúc របស់គំរូ។",
+   "keyPoints": [
+    "ស្នើឱ្យប្រើប្រាស់រង្វង់ KL ដែលផ្តោតលើគំរូដង់ស៊ីតេដែលបានកែតម្រូវជាជាងការចែកចាយបទពិសោធន៍។",
+    "កសាងសំណុំសេណារីយ៉ូដោយសម្របខ្លួនតាមរយៈការទាញយកការពិតថ្មីៗដែលនាំទៅរកករណីអាក្រក់បំផុត។",
+    "បានធ្វើតេស្តលើបញ្ហាអ្នកលក់សារព័ត៌មានពហុមុខទំនិញ និងបញ្ការពង្រីកសមត្ថភាពក្រឡាចត្រង្គ។",
+    "កាត់បន្ថយការចំណាយក្រោមការប្តូរការចែកចាយនៅពេលដែលកំណត់ត្រាទិន្នន័យមានតិចតួច។"
+   ]
+  },
+  "zh-CN": {
+   "title": "围绕学习密度模型的 KL-DRO 自适应情景生成",
+   "summary": "研究人员提出了一种以拟合数据记录的密度模型为中心的 Kullback-Leibler 球，以改进分布鲁棒优化。由于生成的问题只能容纳少量情景，因此通过在求解有限问题和抽取针对最坏情况的新实现之间交替来构建自适应情景集。在多物品报童问题和现实电网数据上的容量扩展问题进行的测试表明，当记录稀缺时，将球中心设在学习的名义模型上可以降低分布偏移下的成本。",
+   "impact": "该方法可能有助于开发人员和研究人员在处理稀缺数据记录时降低分布偏移带来的成本。然而，随着数据记录的增长或偏移偏离模型学到的结构，这种优势可能会减弱。",
+   "keyPoints": [
+    "提出以拟合的密度模型为中心的 KL 球，而不是经验分布。",
+    "通过抽取指向最坏情况的新实现来以自适应方式构建情景集。",
+    "在多物品报童问题和真实电网数据的容量扩展问题上进行了测试。",
+    "在数据记录稀缺且模型捕捉到结构时，可降低分布偏移下的成本。"
+   ]
+  },
+  "ko": {
+   "title": "학습된 밀도 모델 주변의 KL-DRO를 위한 적응형 시나리오 생성",
+   "summary": "연구원들은 분포 강건 최적화를 개선하기 위해 데이터 기록에 피팅된 밀도 모델을 중심으로 하는 Kullback-Leibler 볼을 제안합니다. 결과 문제는 소수의 시나리오만 수용할 수 있으므로, 유한 문제를 해결하는 것과 최악의 시나리오를 향해 유도된 새로운 실현을 도출하는 것을 번갈아 수행하여 적응형 시나리오 세트를 구축합니다. 다중 품목 뉴스벤더 문제와 현실적인 그리드 데이터의 용량 확장 문제에서 테스트한 결과, 기록이 부족할 때 볼의 중심을 학습된 명목 모델에 두면 분포 이동 하에서 비용이 절감되는 것으로 나타났습니다.",
+   "impact": "이 접근 방식은 개발자와 연구원들이 부족한 데이터 기록을 다룰 때 분포 이동에 따른 비용을 줄이는 데 도움이 될 수 있습니다. 그러나 데이터 기록이 증가하거나 이동이 모델이 학습한 구조에서 벗어날 경우 이점은 줄어들 수 있습니다.",
+   "keyPoints": [
+    "경험적 분포 대신 피팅된 밀도 모델을 중심으로 하는 KL 볼을 제안합니다.",
+    "최악의 시나리오로 유도된 새로운 실현을 도출하여 적응형 방식으로 시나리오 세트를 구축합니다.",
+    "다중 품목 뉴스벤더 문제와 그리드 데이터의 용량 확장 문제에서 테스트되었습니다.",
+    "기록이 부족하고 모델이 구조를 포착할 때 분포 이동 하에서 비용을 낮춥니다."
+   ]
+  }
+ }
+}

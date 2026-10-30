@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d5397b83db2c5a25",
+ "contentHash": "a3df5b103de43c7f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T08:51:35.648Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Luggage re-identification: A study of strategies towards a real-world application",
+   "summary": "A new study examines luggage re-identification (ReID) strategies for end-to-end pipelines operating across multiple video streams. The research addresses real-world challenges such as occlusions, cluttered backgrounds, and crowded scenes in environments like airports and train stations. It evaluates variants on a benchmark dataset to improve practical performance by merging different views and shots.",
+   "impact": "Security teams and developers working on video surveillance and luggage management systems may use these findings to improve object tracking across disjoint camera views. The strategies could help overcome real-world environmental challenges like occlusions and crowded scenes.",
+   "keyPoints": [
+    "Luggage re-identification is crucial for video surveillance, security, and lost luggage recovery.",
+    "Real-world scenarios like occlusions and crowded scenes often degrade the performance of appearance-based cropped image matching.",
+    "The paper studies an end-to-end pipeline operating from multiple video streams.",
+    "Researchers evaluated variants on a real-world benchmark dataset to optimize view and shot selection."
+   ]
+  },
+  "km": {
+   "title": "ការកំណត់អត្តសញ្ញាណកាបូបសាជាថ្មី៖ ការសិក្សាអំពីយុទ្ធសាស្ត្រឆ្ពោះទៅរកកម្មវិធីក្នុងពិភពពិត",
+   "summary": "ការសិក្សាថ្មីមួយបានពិនិត្យមើលយុទ្ធសាស្ត្រកំណត់អត្តសញ្ញាណកាបូបសាជាថ្មីសម្រាប់ដំណើរការខ្សែសង្វាក់ពីចុងដល់ចប់ដែលដំណើរការលើស្ទ្រីមវីដេអូជាច្រើន។ ការស្រាវជ្រាវនេះដោះស្រាយបញ្ហាប្រឈមក្នុងពិភពពិតដូចជាការបាំងបិទ ផ្ទៃខាងក្រោយរញ៉េរញ៉ៃ និងកន្លែងមានមនុស្សកកកុញនៅក្នុងបរិយាកាសដូចជាព្រលានយន្តហោះ និងស្ថានីយរថភ្លើង។ ការសិក្សានេះវាយតម្លៃលើសំណុំទិន្នន័យគោលដើម្បីកែលម្អដំណើរការជាក់ស្តែងតាមរយៈការបញ្ចូលគ្នានូវមុំមើលនិងប្លង់ផ្សេងៗ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ដែលធ្វើការលើការឃ្លាំមើលវីដេអូ និងប្រព័ន្ធគ្រប់គ្រងកាបូបអាចប្រើប្រាស់ការរកឃើញទាំងនេះដើម្បីកែលម្អការតាមដានវត្ថុនៅតាមមុំកាមេរ៉ាផ្សេងៗគ្នា។ យុទ្ធសាស្ត្រទាំងនេះអាចជួយជម្នះបញ្ហាប្រឈមបរិយាកាសក្នុងពិភពពិតដូចជាការបាំងបិទ និងកន្លែងមានមនុស្សកកកុញ។",
+   "keyPoints": [
+    "ការកំណត់អត្តសញ្ញាណកាបូបសាជាថ្មីមានសារៈសំខាន់សម្រាប់ការឃ្លាំមើលវីដេអូ សន្តិសុខ និងការសង្គ្រោះកាបូបដែលបាត់បង់។",
+    "សេណារីយ៉ូក្នុងពិភពពិតដូចជាការបាំងបិទនិងកន្លែងមានមនុស្សកកកុញតែងតែลดប្រសិទ្ធភាពនៃការផ្គូផ្គងរូបភាពដែលបានកាត់។",
+    "ឯកសារនេះសិក្សាអំពីដំណើរការខ្សែសង្វាក់ពីចុងដល់ចប់ដែលដំណើរការពីស្ទ្រីមវីដេអូជាច្រើន។",
+    "អ្នកស្រាវជ្រាវបានវាយតម្លៃលើសំណុំទិន្នន័យគោលក្នុងពិភពពិតដើម្បីបង្កើនប្រសិទ្ធភាពនៃការជ្រើសរើសមុំមើលនិងប្លង់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "行李重新识别：迈向现实世界应用的的策略研究",
+   "summary": "一项新研究探讨了在多个视频流中运行的端到端管道的行李重新识别策略。该研究解决了机场和火车站等复杂环境中常见的遮挡、背景杂乱和人群拥挤等现实挑战。研究人员在真实世界环境中获取的基准数据集上评估了不同变体，以改进实际应用中的重新识别性能。",
+   "impact": "从事视频监控和行李管理系统的安全团队和开发人员可以利用这些发现来改善跨不同摄像机视图的对象跟踪。这些策略可能有助于克服遮挡和人群拥挤等现实环境中的挑战。",
+   "keyPoints": [
+    "行李重新识别对于视频监控、安全和找回丢失行李至关重要。",
+    "遮挡和拥挤场景等现实世界的挑战显著降低了基于外观的裁剪图像匹配性能。",
+    "该论文研究了从多个视频流运行的端到端管道的策略。",
+    "研究人员在基准数据集上评估了不同的变体，以优化同一行李不同视图和镜头的选择与合并。"
+   ]
+  },
+  "ko": {
+   "title": "수하물 재식별: 실제 환경 적용을 위한 전략 연구",
+   "summary": "새로운 연구는 여러 비디오 스트림에서 작동하는 종단간 파이프라인을 위한 수하물 재식별 전략을 조사합니다. 이 연구는 공항과 기차역 같은 환경에서 가려짐, 복잡한 배경, 혼잡한 장소와 같은 현실 세계의 과제를 다룹니다. 연구진은 실제 환경에서 수집된 벤치마크 데이터셋에서 다양한 변형을 평가하여 실제 응용 프로그램에서의 성능을 향상시키고자 했습니다.",
+   "impact": "비디오 감시 및 수하물 관리 시스템을 다루는 보안 팀과 개발자는 이 연구 결과를 활용하여 서로 다른 카메라 뷰 간의 객체 추적을 개선할 수 있습니다. 이러한 전략은 가려짐이나 혼잡한 장소와 같은 실제 환경의 어려움을 극복하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "수하물 재식별은 비디오 감시, 보안, 분실 수하물 찾기에서 중요한 작업입니다.",
+    "가려짐이나 혼잡한 장면과 같은 현실 세계의 시나리오는 외형 기반 잘린 이미지 매칭의 성능을 크게 저하시킵니다.",
+    "이 논문은 여러 비디오 스트림에서 작동하는 종단간 파이프라인의 전략을 연구합니다.",
+    "연구진은 실제 환경의 벤치마크 데이터셋에서 다양한 변형을 평가하여 뷰와 샷의 선택 및 병합을 최적화했습니다."
+   ]
+  }
+ }
+}

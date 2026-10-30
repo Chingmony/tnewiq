@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "20f2814dcfa23f12",
+ "contentHash": "4c39e1067dd81c7f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T08:51:01.505Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Rethinking Neural Thickets Without Weight Perturbations",
+   "summary": "Researchers investigated the Neural Thickets hypothesis, which suggests pretrained language models contain dense neighborhoods of task-specific experts uncovered by random Gaussian perturbations. While reproducing the gains, the study shows that full-weight perturbations are unnecessary, as perturbing a single decoder block or adding a random bias to output logits can match or exceed them. This led to the formalization of Perturb-Select-Vote (PSV), a method that generates perturbed predictors, selects high-performing members using a validation set, and aggregates predictions. The findings indicate that performance gains come from output diversity, selection, and voting rather than weight-space experts.",
+   "impact": "This approach could offer developers and researchers a training-free alternative to full-weight perturbation ensembles for both language and vision tasks. Using a fully frozen model with logit PSV may simplify implementation while maintaining or improving performance under domain shifts.",
+   "keyPoints": [
+    "Random weight perturbations are not necessary to achieve the reported gains of the Neural Thickets hypothesis.",
+    "Adding a random bias to output logits can match or exceed full-weight perturbations on reasoning tasks.",
+    "Perturb-Select-Vote (PSV) generates perturbed predictors, selects high performers on a validation set, and aggregates predictions.",
+    "Logit PSV improves performance under domain shift in vision tasks while keeping the model fully frozen."
+   ]
+  },
+  "km": {
+   "title": "ការគិតគូរឡើងវិញអំពី Neural Thickets ដោយគ្មានការរំខានទម្ងន់",
+   "summary": "អ្នកស្រាវជ្រាវបានពិនិត្យមើលសម្មតិកម្ម Neural Thickets ដែលបង្ហាញថាម៉ូដែលភាសាដែលបានបណ្តុះបណ្តាលមុនស្ថិតនៅក្នុងកន្លែងក្រាស់នៃអ្នកជំនាញជាក់លាក់តាមភារកិច្ចក្នុងលំហទម្ងន់។ ការសិក្សានេះបង្ហាញថា ការរំខានទម្ងន់ពេញលេញមិនចាំបាច់ទេ ព្រោះការបន្ថែមការលំអៀងចៃដន្យទៅនឹង output logits អាចផ្ដល់លទ្ធផលស្មើ ឬលើសពីនេះ។ វិធីសាស្ត្រ Perturb-Select-Vote (PSV) ត្រូវបានបង្កើតឡើងដើម្បីបង្កើត predictors ដែលត្រូវបានរំខាន ជ្រើសរើសសមាជិកដែលមានដំណើរការខ្ពស់ និងដាក់បញ្ចូលការព្យាករណ៍របស់ពួកគេ។ លទ្ធផលទាំងនេះបង្ហាញថា ការកើនឡើងនូវដំណើរការគឺមកពីភាពចម្រុះនៃលទ្ធផល ការជ្រើសរើស និងការបោះឆ្នោត ជាជាងអ្នកជំនាញក្នុងលំហទម្ងន់។",
+   "impact": "វិធីសាស្ត្រនេះអាចផ្ដល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវជម្រើសថ្មីដែលមិនតម្រូវឱ្យមានការបណ្តុះបណ្តាលសម្រាប់ ensembles ការរំខានទម្ងន់ពេញលេញទាំងភាសា និងចក្ខុវិស័យ។ ការប្រើប្រាស់ម៉ូដែលដែលកកទាំងស្រុងជាមួយ logit PSV អាចជួយសម្រួលដល់ការអនុវត្តខណៈពេលដែលរក្សាបាននូវដំណើរការល្អប្រសើរ។",
+   "keyPoints": [
+    "ការរំខានទម្ងន់ចៃដន្យមិនចាំបាច់ដើម្បីទទួលបានផលចំណេញដែលបានរាយការណ៍នោះទេ។",
+    "ការបន្ថែមការលំអៀងចៃដន្យទៅនឹង output logits អាចផ្គូផ្គង ឬលើសពីការរំខានទម្ងន់ពេញលេញ។",
+    "Perturb-Select-Vote (PSV) ជ្រើសរើសអ្នកទស្សន៍ទាយដែលមានដំណើរការខ្ពស់នៅលើកម្រិតសុពលភាពតូចមួយ។",
+    "Logit PSV កែលម្អដំណើរការក្រោមការផ្លាស់ប្តូរដែនក្នុងចក្ខុវិស័យដោយរក្សាឱ្យម៉ូដែលកកទាំងស្រុង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在没有权重扰动的情况下重新思考 Neural Thickets",
+   "summary": "研究人员对 Neural Thickets 假设进行了重新审视，该假设认为预训练语言模型位于权重空间中特定任务专家的密集邻域中。虽然复现了报告的增益，但研究表明不需要这种几何解释，仅对单个解码器块进行扰动或向输出 logits 添加随机偏置就可以匹配或超过全权重扰动。研究人员将其形式化为 Perturb-Select-Vote (PSV) 方法，该方法生成受扰动的预测器，在验证集上选择高性能成员并聚合预测。这些结果表明，增益来自于输出多样性、选择和投票，而不是权重空间的专家。",
+   "impact": "该方法可能为开发人员和研究人员提供一种无需训练的替代方案，用于语言和视觉任务中的全权重扰动集成。使用完全冻结的模型配合 logit PSV 可以在简化实现的同时，在域偏移下保持或提高性能。",
+   "keyPoints": [
+    "实现 Neural Thickets 报告的增益并不需要随机权重扰动。",
+    "向输出 logits 添加随机偏置在大多数推理任务上可以匹配或超过全权重扰动。",
+    "Perturb-Select-Vote (PSV) 过程通过生成扰动预测器、在验证集上选择并聚合预测来实现。",
+    "Logit PSV 在完全冻结模型的情况下改善了视觉任务在域偏移下的性能。"
+   ]
+  },
+  "ko": {
+   "title": "가중치 perturbation 없는 Neural Thickets 재고",
+   "summary": "연구원들은 사전 학습된 언어 모델이 가중치 공간 내 특정 작업 전문가들의 조밀한 근방에 위치한다는 Neural Thickets 가설을 조사했습니다. 보고된 이득을 재현하는 동시에, 전체 가중치 perturbation이 필수가 아니며 단일 디코더 블록을 perturbation하거나 출력 로짓에 무작위 편향을 추가하는 것만으로도 이를 충족하거나 능가할 수 있음을 보여주었습니다. 연구진은 이를 Perturb-Select-Vote (PSV) 절차로 정형화하여 perturbation된 예측기를 생성하고 소규모 검증 세트에서 성능이 좋은 멤버를 선택하여 예측을 집계합니다. 이러한 결과는 성능 향상이 가중치 공간의 전문가가 아니라 출력 다양성, 선택, 투표에서 비롯됨을 시사합니다.",
+   "impact": "이 접근 방식은 개발자와 연구원에게 언어 및 비전 작업에서 전체 가중치 perturbation 앙상블을 대체할 수 있는 훈련이 필요 없는 대안을 제공할 수 있습니다. 완전히 고정된 모델과 logit PSV를 함께 사용하면 도메인 변화 하에서도 구현을 단순화하면서 성능을 유지하거나 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "보고된 이득을 달성하는 데 무작위 가중치 perturbation은 필수적이지 않습니다.",
+    "출력 로짓에 무작위 편향을 추가하는 것은 대부분의 추론 작업에서 전체 가중치 perturbation과 일치하거나 능가합니다.",
+    "Perturb-Select-Vote (PSV)는 perturbation된 예측기를 생성하고 소규모 검증 세트에서 고성능 멤버를 선택합니다.",
+    "Logit PSV는 완전히 고정된 모델을 유지하면서 비전 작업의 도메인 변화 하에서 성능을 크게 향상시킵니다."
+   ]
+  }
+ }
+}

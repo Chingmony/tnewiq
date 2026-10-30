@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5c6d398f025e14ff",
+ "contentHash": "09e6fe4e568b9f86",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T08:51:56.519Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "world2vec: Mechanistic world models through latent dynamics learning",
+   "summary": "Researchers introduced world2vec, a new method to learn mechanistic world models directly from observations and actions without reward information. The model learns latent dynamics that faithfully reproduce true systems over long prediction horizons using significantly fewer parameters than existing models such as DreamerV3, TD-MPC2, and LeWM. It achieves state-of-the-art performance in controlling continuous environments from pixels and accurate system identification across 71 attractors.",
+   "impact": "This approach could improve mechanistic interpretability and scientific discovery by providing world models that faithfully capture environment dynamics with fewer parameters. Developers and researchers working on reinforcement learning and control systems may find it useful for achieving state-of-the-art control and accurate system identification.",
+   "keyPoints": [
+    "Introduces world2vec for learning mechanistic world models without reward information.",
+    "Uses at least one order of magnitude fewer parameters than DreamerV3, TD-MPC2, and LeWM.",
+    "Achieves state-of-the-art performance in controlling continuous environments from pixels.",
+    "Demonstrates accurate system identification across a benchmark of 71 attractors."
+   ]
+  },
+  "km": {
+   "title": "world2vec៖ ម៉ូเดែលពិភពលោកបែបមេកានិចតាមរយៈការរៀនសូត្រសក្ដានុពលបាំងមុខ",
+   "summary": "អ្នកស្រាវជ្រាវបានដាក់បង្ហាញ world2vec ដែលជាវិធីសាស្ត្រថ្មីមួយក្នុងការសិក្សាម៉ូដពិភពលោកបែបមេកានិចដោយផ្ទាល់ពីការសង្កេត និងសកម្មភាពដោយគ្មានព័ត៌មានរង្វាន់។ ម៉ូដែលនេះរៀនសូត្រសក្ដានុពលបាំងមុខដែលបង្កើតឡើងវិញនូវប្រព័ន្ធពិតប្រាកដក្នុងរយៈពេលព្យាករណ៍វែងដោយប្រើប៉ារ៉ាម៉ែត្រតិចជាងមុន។ វាសម្រេចបាននូវដំណើរការកម្រិតខ្ពស់ក្នុងការគ្រប់គ្រងបរិស្ថានបន្តបន្ទាប់ពីភីកសែល និងការកំណត់អត្តសញ្ញាណប្រព័ន្ធ។",
+   "impact": "វិធីសាស្ត្រនេះអាចធ្វើឱ្យប្រសើរឡើងនូវការបកស្រាយបែបមេកានិច និងការរកឃើញវិទ្យាសាស្ត្រដោយផ្តល់នូវម៉ូដែលពិភពលោកដែលចាប់យកសក្ដានុពលបរិស្ថានជាមួយប៉ារ៉ាម៉ែត្រតិច។ អ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់វាដើម្បីសម្រេចបាននូវការគ្រប់គ្រងកម្រិតខ្ពស់។",
+   "keyPoints": [
+    "បានដាក់បង្ហាញ world2vec សម្រាប់រៀនសូត្រម៉ូដែលពិភពលោកដោយគ្មានព័ត៌មានរង្វាន់។",
+    "ប្រើប្រាស់ប៉ារ៉ាម៉ែត្រតិចជាង DreamerV3, TD-MPC2 និង LeWM ។",
+    "សម្រេចបានការគ្រប់គ្រងបរិស្ថានបន្តបន្ទាប់ពីភីកសែល។",
+    "បង្ហាញពីការកំណត់អត្តសញ្ញាណប្រព័ន្ធត្រឹមត្រូវឆ្លងកាត់ការទាក់ទាញចំនួន 71 ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "world2vec：通过潜在动态学习构建机械论世界模型",
+   "summary": "研究人员推出了 world2vec，这是一种无需奖励信息、直接从观察和行动中学习机械论世界模型的方​​法。该模型学习潜在动态，能够在较长的预测范围内忠实地再现真实系统，且其参数数量比 DreamerV3、TD-MPC2 和 LeWM 等现有模型少至少一个数量级。它在通过像素控制连续环境以及在 71 个吸引子基准测试中进行准确的系统辨识方面实现了先进的性能。",
+   "impact": "这种方法通过提供能够以更少参数真实捕捉环境动态的世界模型，可能有助于提高机械论的可解释性和科学发现。从事强化学习和控制系统的开发者可能会发现它对实现先进控制和准确系统辨识很有用。",
+   "keyPoints": [
+    "引入了 world2vec，在没有奖励信息的情况下学习机械论世界模型。",
+    "使用的参数比 DreamerV3、TD-MPC2 和 LeWM 少至少一个数量级。",
+    "通过像素控制连续环境时实现了先进性能。",
+    "在 71 个吸引子的基准测试中展示了准确的系统辨识。"
+   ]
+  },
+  "ko": {
+   "title": "world2vec: 잠재 동역학 학습을 통한 기계론적 월드 모델",
+   "summary": "연구진은 보상 정보 없이 관측과 행동으로부터 직접 기계론적 월드 모델을 학습하는 새로운 방법인 world2vec을 소개했습니다. 이 모델은 DreamerV3, TD-MPC2, LeWM보다 훨씬 적은 매개변수를 사용하여 긴 예측 지평에 걸쳐 실제 시스템을 충실히 재현하는 잠재 동역학을 학습합니다. 픽셀로부터 연속적인 환경을 제어하고 71개의 어트랙터 벤치마크에서 정확한 시스템 식별을 수행하는 최고 수준의 성능을 달성합니다.",
+   "impact": "이 접근 방식은 적은 매개변수로 환경 동역학을 충실히 포착하는 월드 모델을 제공함으로써 기계론적 해석 가능성과 과학적 발견을 향상시킬 수 있습니다. 강화 학습 및 제어 시스템을 다루는 개발자들은 최고 수준의 제어와 정확한 시스템 식별을 달성하는 데 유용하게 활용할 수 있습니다.",
+   "keyPoints": [
+    "보상 정보 없이 기계론적 월드 모델을 학습하기 위한 world2vec 소개.",
+    "DreamerV3, TD-MPC2, LeWM보다 적어도 한 자릿수 이상 적은 매개변수 사용.",
+    "픽셀로부터 연속적인 환경을 제어하는 최첨단 성능 달성.",
+    "71개의 어트랙터 벤치마크에 걸친 정확한 시스템 식별 입증."
+   ]
+  }
+ }
+}

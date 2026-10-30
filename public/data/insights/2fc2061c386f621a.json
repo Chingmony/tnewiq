@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2fc2061c386f621a",
+ "contentHash": "57d1feb55fa9fb2c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T08:49:38.986Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Anthropic Introduces 'Claude' Self-Conversation Monitoring Technology, Detecting 78% of Harmful Usage",
+   "summary": "Anthropic has developed and deployed a self-assessment technology where Claude evaluates the risks of its conversations with users. Instead of using a separate AI model, Claude reviews the conversation immediately after answering to determine potential misuse. This approach successfully caught large-scale fraud and unauthorized extraction attempts of AI model information that previous monitoring systems missed, while keeping additional compute costs under 2%.",
+   "impact": "This new monitoring method may help security teams and technology providers detect harmful usage more efficiently without significantly increasing computational costs. Developers might look into similar self-assessment approaches to improve safety monitoring in their own AI models.",
+   "keyPoints": [
+    "Anthropic deployed a self-assessment safety monitoring technology for Claude.",
+    "Claude evaluates conversation risks itself immediately after generating an answer without using a separate AI model.",
+    "The system detected large-scale fraud and attempts to extract illegal AI model information.",
+    "Additional computational costs were kept below 2%."
+   ]
+  },
+  "km": {
+   "title": "Anthropic បង្ហាញខ្លួនបច្ចេកវិទ្យាត្រួតពិនិត្យការសន្ទនារបស់ Claude ដោយខ្លួនឯង ដែលរកឃើញការប្រើប្រាស់មានគ្រោះថ្នាក់ចំនួន 78%",
+   "summary": "Anthropic បានអភិវឌ្ឍ និងដាក់ឱ្យប្រើប្រាស់បច្ចេកវិទ្យាវាយតម្លៃដោយខ្លួនឯង ដែលអនុញ្ញាតឱ្យ Claude វាយតម្លៃហានិភ័យនៃការសន្ទនារវាងខ្លួន និងអ្នកប្រើប្រាស់។ ដោយមិនចាំបាច់ប្រើប្រាស់គំរូ AI ដាច់ដោយឡែកទេ Claude បានពិនិត្យមើលការសន្ទនានៅពេលបន្ទាប់ពីឆ្លើយរួច ដើម្បីកំណត់លទ្ធភាពនៃការបំពាន។ វិធីសាស្ត្រនេះបានរកឃើញការបោកប្រាស់ទ្រង់ទ្រាយធំ និងការប៉ុនប៉ងទាញយកព័ត៌មានគំរូ AI ខុសច្បាប់ ដែលប្រព័ន្ធត្រួតពិនិត្យមុនៗបានខកខាន។",
+   "impact": "បច្ចេកវិទ្យានេះអាចជួយក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការរកឃើញការប្រើប្រាស់ដែលមានគ្រោះថ្នាក់ដោយមិនបង្កើនការចំណាយលើការគណនាក្នុងកម្រិតខ្ពស់។",
+   "keyPoints": [
+    "Anthropic បានដាក់ឱ្យដំណើរការបច្ចេកវិទ្យាត្រួតពិនិត្យសុវត្ថិភាពវាយតម្លៃដោយខ្លួនឯងសម្រាប់ Claude។",
+    "Claude វាយតម្លៃហានិភ័យនៃការសន្ទនាដោយខ្លួនឯងភ្លាមៗបន្ទាប់ពីផ្ដល់ចម្លើយ។",
+    "ប្រព័ន្ធនេះបានរកឃើញការបោកប្រាស់ទ្រង់ទ្រាយធំ និងការប៉ុនប៉ងទាញយកព័ត៌មានគំរូ AI ខុសច្បាប់។",
+    "ការចំណាយលើការគណនាបន្ថែមត្រូវបានរក្សាទុកក្រោម 2%។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Anthropic引入“Claude”自我对话监控技术，检测出78%的有害使用",
+   "summary": "Anthropic开发并实际应用了一项新技术，让Claude能够自行评估其与用户对话的风险。该方法不调用单独的AI模型，而是在Claude回答后立即审查对话以判断被滥用的可能性。这种方法不仅发现了以往监控系统漏掉的大规模诈骗和非法提取AI模型信息的企图，还将额外的计算成本控制在2%以下。",
+   "impact": "这项新技术可能会帮助安全团队和技术用户在不显著增加计算成本的情况下更有效地检测有害使用。开发人员未来或许可以借鉴类似的自我评估方法来增强AI模型的安全性监控。",
+   "keyPoints": [
+    "Anthropic为Claude开发并部署了名为自我评估的安全监控技术。",
+    "Claude在回答后立即自行审查对话风险，无需调用独立的AI模型。",
+    "该系统成功检测出了大规模诈骗以及非法提取AI模型信息的企图。",
+    "附加计算成本被成功控制在2%以下。"
+   ]
+  },
+  "ko": {
+   "title": "앤트로픽, '클로드' 자기 대화 감시 기술 도입…유해 사용 78% 탐지",
+   "summary": "앤트로픽이 클로드가 이용자와 나눈 대화의 위험성을 스스로 평가하는 기술을 개발해 실제 서비스에 적용했다. 별도의 AI 모델을 동원하지 않고 클로드가 답변 직후 대화를 검토해 악용 가능성을 판단하는 방식이다. 기존 감시 체계가 놓친 대규모 사기와 불법적인 AI 모델 정보 추출 시도까지 찾아냈으며, 추가 연산 비용도 2% 미만으로 억제했다.",
+   "impact": "이러한 자기 평가 감시 기술은 보안 팀과 기술 사용자에게 추가적인 연산 비용 부담을 최소화하면서도 유해한 사용 사례를 효율적으로 탐지할 수 있는 가능성을 제공할 수 있다. 개발자들은 향후 유사한 자가 평가 방식을 활용해 AI 모델의 안전성을 강화하는 방안을 검토할 수 있다.",
+   "keyPoints": [
+    "앤트로픽이 클로드를 위한 자기 평가 안전 감시 기술을 개발 및 적용함.",
+    "별도의 AI 모델 없이 클로드가 답변 직후 대화를 검토해 위험성을 평가함.",
+    "기존 감시 체계가 놓친 대규모 사기와 불법 정보 추출 시도를 탐지함.",
+    "추가 연산 비용을 2% 미만으로 억제함."
+   ]
+  }
+ }
+}

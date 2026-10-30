@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "efe1026dde3d35a3",
+ "contentHash": "419db2d1e29f738f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T08:50:38.837Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Elucidating the Design Space of LM Data Attribution",
+   "summary": "Researchers explore the design space of LLM data attribution and introduce the Controlled Attribution Benchmark (CATT) for fact tracing. CATT uses LLMs fine-tuned on fictitious knowledge to provide unambiguous ground truth and systematically alter dataset properties like document redundancy and lexical distractors. The study demonstrates that replacing standard cross-entropy loss gradients with negative log-odds gradients significantly improves attribution performance by isolating critical tokens.",
+   "impact": "Security and development teams may use these findings to improve data attribution methods and counterfactual retraining performance. The negative log-odds correction and targeted token aggregation could help developers better trace data influence in language models.",
+   "keyPoints": [
+    "Introduced the Controlled Attribution Benchmark (CATT) using fictitious knowledge for unambiguous ground truth.",
+    "Redundancy and lexical distractors consistently degrade attribution performance.",
+    "Replacing cross-entropy loss gradients with negative log-odds gradients surfaces critical tokens.",
+    "Negative log-odds correction improved ground truth recall and counterfactual retraining performance."
+   ]
+  },
+  "km": {
+   "title": "ការពន្យល់អំពីលំហការរចនានៃការកំណត់ប្រភពទិន្នន័យ LM",
+   "summary": "អ្នកស្រាវជ្រាវបានស្វែងយល់ពីលំហការរចនានៃការកំណត់ប្រភពទិន្នន័យ LLM និងបានណែនាំស្តង់ដារវាយតម្លៃ Controlled Attribution Benchmark (CATT) សម្រាប់ការតាមដានការពិត។ CATT ប្រើប្រាស់ LLM ដែលត្រូវបានលៃតម្រូវលើចំណេះដឹងក្លែងក្លាយ ដើម្បីផ្តល់នូវមូលដ្ឋានច្បាស់លាស់ និងផ្លាស់ប្តូរលក្ខណៈទិន្នន័យជាប្រព័ន្ធ។ ការសិក្សានេះបង្ហាញថា ការជំនួសជម្រាលបាត់បង់ cross-entropy ជាមួយនឹងជម្រាល negative log-odds ជួយកែលម្អដំណើរការកំណត់ប្រភពយ៉ាងខ្លាំង។",
+   "impact": "ក្រុមសុវត្ថិភាពនិងអ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់ការរកឃើញទាំងនេះដើម្បីបង្កើនប្រសិទ្ធភាពវិធីសាស្ត្រកំណត់ប្រភពទិន្នន័យ។ ការកែតម្រូវ negative log-odds អាចជ่วยឱ្យអ្នកអភិវឌ្ឍន៍តាមដានឥទ្ធិពលទិន្នន័យនៅក្នុងគំរូភាសាបានកាន់តែប្រសើរ។",
+   "keyPoints": [
+    "បានណែនាំស្តង់ដារ Controlled Attribution Benchmark (CATT) ដោយប្រើចំណេះដឹងក្លែងក្លាយ។",
+    "ភាពស្้ำគ្នានៃឯកសារនិងកត្តាបំបែរអារម្មណ៍ធ្វើឱ្យដំណើរការកំណត់ប្រភពថយចុះ។",
+    "ការជំនួសជម្រាលបាត់បង់ cross-entropy ជាមួយ negative log-odds ជួយរកឃើញថូខឹនសំខាន់ៗ។",
+    "ការកែតម្រូវ negative log-odds បានកែលម្អការរំលឹកមូលដ្ឋានការពិតយ៉ាងខ្លាំង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "阐明 LM 数据归因的设计空间",
+   "summary": "研究人员探索了大语言模型（LLM）数据归因的设计空间，并引入了用于事实追踪的可控归因基准（CATT）。CATT 使用在虚构知识上微调的 LLM 来提供明确的基准真相，并系统性地改变数据集属性，例如文档冗余和词汇干扰。研究表明，用负对数几率梯度代替标准交叉熵损失梯度可以通过分离关键词元来显著提高归因性能。",
+   "impact": "安全和开发团队可以利用这些发现来改进数据归因方法和反事实再训练性能。负对数几率修正和目标词元聚合可能有助于开发人员更好地追踪语言模型中的数据影响。",
+   "keyPoints": [
+    "引入了使用虚构知识提供明确基准真相的可控归因基准（CATT）。",
+    "冗余和词汇干扰会一致地降低归因性能。",
+    "用负对数几率梯度替换标准交叉熵损失梯度能够显现出关键词元。",
+    "负对数几率修正显著提高了基准真相的召回率和反事实再训练性能。"
+   ]
+  },
+  "ko": {
+   "title": "LM 데이터 어트리뷰션의 디자인 공간 규명",
+   "summary": "연구원들은 LLM 데이터 어트리뷰션의 디자인 공간을 탐색하고 사실 추적을 위한 통제된 어트리뷰션 벤치마크(CATT)를 도입했습니다. CATT는 가상의 지식으로 미세 조정된 LLM을 사용하여 명확한 정답을 제공하고 문서 중복 및 어휘 방해 요소와 같은 데이터셋 속성을 체계적으로 변경합니다. 본 연구는 표준 교차 엔트로피 손실 기울기를 음의 로그 오즈 기울기로 교체하면 중요한 토큰을 분리하여 어트리뷰션 성능을 크게 향상시킨다는 것을 보여줍니다.",
+   "impact": "보안 및 개발 팀은 이러한 연구 결과를 활용하여 데이터 어트리뷰션 방법과 반사실적 재학습 성능을 개선할 수 있습니다. 음의 로그 오즈 보정 및 대상 토큰 집계는 개발자가 언어 모델에서 데이터의 영향을 더 잘 추적하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "명확한 정답 제공을 위해 가상 지식을 사용하는 통제된 어트리뷰션 벤치마크(CATT) 도입.",
+    "문서 중복과 어휘 방해 요소는 어트리뷰션 성능을 지속적으로 저하시킴.",
+    "표준 교차 엔트로피 손실 기울기를 음의 로그 오즈 기울기로 대체하여 중요한 토큰을 부각.",
+    "음의 로그 오즈 보정은 정답 재현율과 반사실적 재학습 성능을 향상시킴."
+   ]
+  }
+ }
+}

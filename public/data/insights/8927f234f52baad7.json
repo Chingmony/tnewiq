@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8927f234f52baad7",
+ "contentHash": "da9d692f96e5d7da",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T08:46:14.638Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency added two security flaws affecting Cisco and GitLab software to its Known Exploited Vulnerabilities catalog. This action was taken after citing evidence of active exploitation in the wild. One of the listed vulnerabilities is CVE-2026-97229, an integer overflow or wraparound vulnerability with a CVSS score of 10.0 in GitLab Community Edition and Enterprise.",
+   "impact": "Security teams may need to prioritize patching these actively exploited vulnerabilities to protect systems from potential attacks. Developers and administrators should review their GitLab and Cisco deployments against the KEV catalog.",
+   "keyPoints": [
+    "CISA added Cisco and GitLab flaws to the Known Exploited Vulnerabilities catalog.",
+    "Evidence of active exploitation was cited for the additions.",
+    "CVE-2026-97229 is an integer overflow vulnerability in GitLab Community Edition and Enterprise.",
+    "CVE-2026-97229 carries a maximum CVSS score of 10.0."
+   ]
+  },
+  "km": {
+   "title": "CISA បន្ថែមបញ្ហាខ្សោយ GitLab RCE និង Cisco Firewall DoS ដែលកំពុងរងការវាយប្រហារសកម្មទៅក្នុង KEV",
+   "summary": "ទីភក្ដីសន្តិសុខគ្របដណ្ដប់អ៊ីនធឺណិត និងសុវត្ថិភាពហេដ្ឋារចនាសម្ព័ន្ធសហរដ្ឋអាមេរិក បានបន្ថែមបញ្ហាខ្សោយសុវត្ថិភាពចំនួនពីរដែលប៉ះពាល់ដល់កម្មវិធី Cisco និង GitLab ទៅក្នុងបញ្ជីគ្រោះថ្នាក់ដែលត្រូវបានកេងប្រវ័ញ្ចដឹងឮស្រាប់។ សកម្មភាពនេះធ្វើឡើងបន្ទាប់ពីមានភស្តុតាងនៃការកេងប្រវ័ញ្ចសកម្ម។ កំហុសខ្សោយមួយក្នុងចំណោមនោះគឺ CVE-2026-97229 ដែលមានពិន្ទុ CVSS ដល់ទៅ 10.0 ក្នុង GitLab Community Edition និង Enterprise។",
+   "impact": "ក្រុមសន្តិសុខប្រហែលជាត្រូវផ្តល់អាទិភាពដល់ការបិទរន្ធសុវត្ថិភាពទាំងនេះ ដើម្បីការពារប្រព័ន្ធពីការវាយប្រហារដែលអាចកើតមាន។ អ្នកគ្រប់គ្រងប្រព័ន្ធគួរតែពិនិត្យមើលការប្រើប្រាស់ GitLab និង Cisco របស់ខ្លួនធៀបនឹងបញ្ជី KEV។",
+   "keyPoints": [
+    "CISA បានបន្ថែមបញ្ហាខ្សោយរបស់ Cisco និង GitLab ទៅក្នុងបញ្ជី KEV។",
+    "ភស្តុតាងនៃការកេងប្រវ័ញ្ចសកម្មត្រូវបានដកស្រង់សម្រាប់បញ្ជីទាំងនេះ។",
+    "CVE-2026-97229 គឺជាបញ្ហាខ្សោយ integer overflow ក្នុង GitLab Community Edition និង Enterprise។",
+    "CVE-2026-97229 មានពិន្ទុ CVSS អតិបរមា 10.0។"
+   ]
+  },
+  "zh-CN": {
+   "title": "CISA 将遭积极利用的 GitLab RCE 和 Cisco 防火墙 DoS 漏洞纳人 KEV",
+   "summary": "美国网络安全和基础设施安全局于周四将影响 Cisco 和 GitLab 软件的两个安全漏洞添加到了“已知利用漏洞”目录中，并援引了存在积极利用的证据。其中列出的漏洞包括 CVE-2026-97229，这是一个存在于 GitLab 社区版和企业版中的整数溢出或环绕漏洞，CVSS 评分高达 10.0。",
+   "impact": "安全团队可能需要优先修补这些遭到积极利用的漏洞，以保护系统免受潜在攻击。开发人员和管理员应根据 KEV 目录审查其 GitLab 和 Cisco 的部署情况。",
+   "keyPoints": [
+    "CISA 将 Cisco 和 GitLab 的漏洞添加到了已知利用漏洞目录中。",
+    "这些漏洞被添加的原因是存在遭积极利用的证据。",
+    "CVE-2026-97229 是 GitLab 社区版和企业版中的整数溢出漏洞。",
+    "CVE-2026-97229 的 CVSS 评分为最高分 10.0。"
+   ]
+  },
+  "ko": {
+   "title": "CISA, 실제로 악용 중인 GitLab RCE 및 Cisco 방화벽 DoS 취약점을 KEV에 추가",
+   "summary": "미국 사이버보안 및 인프라 보안국은 목요일 Cisco 및 GitLab 소프트웨어에 영향을 미치는 두 가지 보안 취약점을 실제로 악용되고 있다는 증거를 인용하여 알려진 악용 취약점 목록에 추가했습니다. 나열된 취약점 중 하나인 CVE-2026-97229는 GitLab 커뮤니티 에디션 및 엔터프라이즈의 정수 오버플로 또는 래퍼라운드 취약점으로, CVSS 점수 10.0을 기록했습니다.",
+   "impact": "보안 팀은 잠재적인 공격으로부터 시스템을 보호하기 위해 실제로 악용되는 이 취약점들에 대한 패치를 우선적으로 적용해야 할 수 있습니다. 개발자와 관리자는 KEV 목록을 참조하여 GitLab 및 Cisco 배포 환경을 검토해야 합니다.",
+   "keyPoints": [
+    "CISA가 Cisco 및 GitLab 취약점을 알려진 악용 취약점 목록에 추가했습니다.",
+    "실제 악용 증거가 발견되어 해당 취약점들이 등록되었습니다.",
+    "CVE-2026-97229는 GitLab 커뮤니티 에디션 및 엔터프라이즈의 정수 오버플로 취약점입니다.",
+    "CVE-2026-97229의 CVSS 점수는 10.0점입니다."
+   ]
+  }
+ }
+}

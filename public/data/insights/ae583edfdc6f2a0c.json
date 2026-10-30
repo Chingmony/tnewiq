@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ae583edfdc6f2a0c",
+ "contentHash": "d297f70b45458355",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T08:52:30.565Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Testimony from Timelines: Evidence-Grounded Significance Testing of Temporal Clinical Hypotheses",
+   "summary": "Language models often answer temporal hypotheses with fluent assertions rather than empirical tests. To address this, researchers present STRATA, a benchmark that grades every decision in health data analysis across 8,735 hypotheses. They also propose ART, a staged paradigm that exposes each decision as an inspectable output, helping close the verdict-evidence gap.",
+   "impact": "This research could help developers and security or health teams better evaluate language model reliability by grading analytical decisions rather than just final conclusions. It may also improve how models handle complex data analysis tasks in sensitive domains like health.",
+   "keyPoints": [
+    "STRATA is a benchmark with 8,735 hypotheses over clinical timelines of vaccine adverse-event reports.",
+    "The benchmark includes gold plans, evidence sets, p-values, and verdicts derived from a released codebook.",
+    "ART is a staged paradigm (articulate, retrieve, test) designed to expose each decision as an inspectable output.",
+    "Experiments showed models fail mostly at choosing relevant records, but ART helps close this gap."
+   ]
+  },
+  "km": {
+   "title": "សក្ខីកម្មពីបន្ទាត់ពេលវេលា៖ ការធ្វើតេស្តសារៈសំខាន់ផ្អែកលើភស្តុតាងនៃសម្មติកម្មគ្លីនិកតាមពេលវេលា",
+   "summary": "ម៉ូដែលភាសាតែងតែឆ្លើយតបទៅនឹងសម្មតិកម្មតាមពេលវេលាជាមួយនឹងការអះអាងរលូនជាជាងការធ្វើតេស្តជាក់ស្តែង។ ដើម្បីដោះស្រាយបញ្ហានេះ អ្នកស្រាវជ្រាវបានបង្ហាញ STRATA ដែលជាស្តង់ដារវាយតម្លៃរាល់ការសម្រេចចិត្តក្នុងការវិភាគទិន្នន័យសុខភាព។ ពួកគេក៏បានស្នើផងដែរនូវ ART ដែលជាគំរូដំណាក់កាលដែលបង្ហាញពីការសម្រេចចិត្តនីមួយៗជាទិន្នផលដែលអាចត្រួតពិនិត្យបាន។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខ ឬសុខភាពក្នុងការវាយតម្លៃភាពជឿជាក់របស់ម៉ូដែលភាសាឱ្យកាន់តែប្រសើរឡើងដោយផ្អែកលើការសម្រេចចិត្តវិភាគ។ វាក៏អាចកែលម្អរបៀបដែលម៉ូដែលគ្រប់គ្រងកិច្ចការវិភាគទិន្នន័យស្មុគស្មាញនៅក្នុងវិស័យរសើបផងដែរ។",
+   "keyPoints": [
+    "STRATA គឺជាស្តង់ដារវាយតម្លៃដែលមានសម្មតិកម្មចំនួន 8,735 លើបន្ទាត់ពេលវេលាគ្លីនិកនៃការរាយការណ៍ពីផលប៉ះពាល់វ៉ាក់សាំង។",
+    "ស្តង់ដារនេះរួមបញ្ចូលទាំងផែនការមាស សំណុំភស្តុតាង តម្លៃ p និងការវិនិច្ឆ័យដែលបានមកពីសៀវភៅកូដដែលបានចេញផ្សាយ។",
+    "ART គឺជាគំរូដំណាក់កាលដែលត្រូវបានរចនាឡើងដើម្បីបង្ហាញការសម្រេចចិត្តនីមួយៗជាទិន្នផលដែលអាចត្រួតពិនិត្យបាន។",
+    "ការពិសោធន៍បានបង្ហាញថា ម៉ូដែលបរាជ័យភាគច្រើនក្នុងការជ្រើសរើសកំណត់ត្រាដែលពាក់ព័ន្ធ ប៉ុន្តែ ART ช่วยបង្រួមគម្លាតនេះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "来自时间线的证词：基于证据的时间临床假设显著性检验",
+   "summary": "语言模型通常用流利的断言来回答时间假设，而不是进行实证检验。为了解决这个问题，研究人员提出了STRATA，这是一个在健康数据分析中对每项决策进行评分的基准，包含8,735个假设。他们还提出了ART（阐述、检索、测试），这是一种将每个决策公开为可检查输出的分阶段范式。",
+   "impact": "这项研究可以帮助开发人员以及安全或健康团队通过对分析决策而非仅仅是最终结论进行评分，来更好地评估语言模型的可靠性。它还可能改善模型在健康等敏感领域中处理复杂数据分析任务的方式。",
+   "keyPoints": [
+    "STRATA是一个基准，包含疫苗不良事件报告临床时间线上的8,735个假设。",
+    "该基准包括根据发布的代码手册推导出的黄金计划、证据集、p值和裁决。",
+    "ART是一种分阶段范式，旨在将每个决策公开为可检查的输出。",
+    "实验表明，模型主要在选择哪些记录算数方面失败，而ART弥补了这一差距。"
+   ]
+  },
+  "ko": {
+   "title": "타임라인의 증언: 시간적 임상 가설의 증거 기반 유의성 검정",
+   "summary": "언어 모델은 종종 실제 검증 대신 유창한 문장으로 시간적 가설에 답변합니다. 이를 해결하기 위해 연구진은 8,735개의 가설을 바탕으로 건강 데이터 분석의 모든 결정을 평가하는 벤치마크인 STRATA를 발표했습니다. 또한 각 결정을 검사 가능한 출력으로 노출하는 단계별 패러다임인 ART를 제안했습니다.",
+   "impact": "이 연구는 개발자 및 보안 또는 건강 팀이 최종 결론뿐만 아니라 분석 결정을 평가하여 언어 모델의 신뢰성을 더 잘 평가하는 데 도움을 줄 수 있습니다. 또한 건강과 같은 민감한 분야에서 모델이 복잡한 데이터 분석 작업을 처리하는 방식을 개선할 수 있습니다.",
+   "keyPoints": [
+    "STRATA는 백신 이상사례 보고의 임상 타임라인에 걸쳐 8,735개의 가설을 포함하는 벤치마크입니다.",
+    "이 벤치마크에는 공개된 코드북에서 도출된 골드 플랜, 증거 세트, p-값 및 판정이 포함되어 있습니다.",
+    "ART는 각 결정을 검사 가능한 출력으로 노출하도록 설계된 단계별 패러다임입니다.",
+    "실험 결과 모델은 주로 관련 레코드를 선택하는 데 실패하지만 ART가 이 격차를 줄여줍니다."
+   ]
+  }
+ }
+}
