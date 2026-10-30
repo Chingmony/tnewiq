@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "497113aecb641622",
+ "contentHash": "28f4922793bb07fe",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T21:00:58.079Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Training Foundation Models with a Single Algorithm",
+   "summary": "Researchers demonstrated that the algorithmic separation across foundation model training stages is not fundamental. By deriving suitable RL objectives as maximum-likelihood fitting to model-generated target distributions, all stages can be placed under a single likelihood-based training algorithm called unified training. This system mixes static data and RL generations within a single trainer, turning the lifecycle into a problem of choosing data and proportions.",
+   "impact": "This unified training approach could improve the accuracy-compute tradeoff and task coverage for developers and technology users. It may also provide a stronger starting point for continual learning by streamlining the foundation-model training lifecycle.",
+   "keyPoints": [
+    "Foundation models are typically trained in separate stages including pretraining, midtraining, SFT, and RL.",
+    "Unified training places all training stages under a single likelihood-based training algorithm.",
+    "The framework mixes static data and RL generations within a single trainer.",
+    "Experiments show improved accuracy-compute tradeoff, task coverage, and a stronger starting point for continual learning."
+   ]
+  },
+  "km": {
+   "title": "ការបណ្តុះបណ្តាលម៉ូដែលមូលដ្ឋានដោយប្រើក្បួនដោះស្រាយតែមួយ",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្ហាញថាការបែងចែកក្បួនដោះស្រាយនៅទូទាំងដំណាក់កាលបណ្តុះបណ្តាលម៉ូដែលមូលដ្ឋានមិនមែនជារឿងសំខាន់នោះទេ។ តាមរយៈការទទួលបានគោលដៅ RL ដែលសមស្របជាការបំពាក់អតិបរមា-ប្រហាក់ប្រហែលទៅនឹងការចែកចាយគោលដៅដែលបង្កើតដោយម៉ូដែល ដំណាក់កាលទាំងនេះអាចដាក់នៅក្រោមឧបាយកលបណ្តុះបណ្តាលផ្អែកលើប្រហាក់ប្រហែលតែមួយ។ ប្រព័ន្ធនេះលាយទិន្នន័យឋិតិវន្ត និងការបង្កើត RL នៅក្នុងឧបករណ៍បណ្តុះបណ្តាលតែមួយ។",
+   "impact": "វិធីសាស្ត្របណ្តុះបណ្តាលឯកភាពនេះអាចកែលម្អតុល្យភាពរវាងភាពត្រឹមត្រូវ និងការគណនា ក៏ដូចជាការគ្របដណ្តប់ភារកិច្ចសម្រាប់អ្នកអភិវឌ្ឍន៍។ វាក៏អាចផ្តល់នូវចំណុចចាប់ផ្តើមដ៏រឹងមាំបន្ថែមទៀតសម្រាប់ការរៀនសូត្រជាបន្តបន្ទាប់ផងដែរ។",
+   "keyPoints": [
+    "ម៉ូដែលមូលដ្ឋានជាទូទៅត្រូវបានបណ្តុះបណ្តាលជាដំណាក់កាលដាច់ដោយឡែកពីគ្នា។",
+    "ការបណ្តុះបណ្តាលឯកភាពដាក់ដំណាក់កាលបណ្តុះបណ្តាលទាំងអស់ក្រោម კ្បួនដោះស្រាយតែមួយ។",
+    "ប្រព័ន្ធនេះលាយទិន្នន័យឋិតិវន្ត និងការបង្កើត RL ក្នុងឧបករណ៍បណ្តុះបណ្តាលតែមួយ។",
+    "ការពិសោធន៍បង្ហាញពីភាពប្រសើរឡើងនៃតុល្យភាពភាពត្រឹមត្រូវ និងការគណនា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用单一算法训练基础模型",
+   "summary": "研究人员表明，基础模型训练阶段之间的算法分离并不是根本性的。通过将适当的强化学习目标推导为对模型生成的目标分布的最大似然拟合，可以将所有这些阶段置于单一的基于似然的训练算法即统一训练之下。该系统在一个训练器中混合了静态数据和强化学习生成内容。",
+   "impact": "这种统一的训练方法可能会改善开发人员和技术用户的准确度与计算权衡以及任务覆盖范围。它还可能为持续学习提供更强大的起点。",
+   "keyPoints": [
+    "基础模型通常分阶段进行训练，包括预训练、中段训练、SFT和RL。",
+    "统一训练将所有训练阶段置于单一的基于似然的训练算法下。",
+    "该框架在单个训练器中混合了静态数据和RL生成内容。",
+    "实验表明其改善了准确度与计算的权衡以及任务覆盖范围。"
+   ]
+  },
+  "ko": {
+   "title": "단일 알고리즘을 사용한 파운데이션 모델 학습",
+   "summary": "연구진은 파운데이션 모델 학습 단계 전반에 걸친 알고리즘적 분리가 근본적이지 않다는 점을 입증했습니다. 모델이 생성한 타겟 분포에 대한 최대 가능도 적합으로 적절한 RL 목표를 유도함으로써, 모든 단계를 단일 가능도 기반 학습 알고리즘인 통합 학습 아래에 둘 수 있습니다. 이 시스템은 단일 트레이너 내에서 정적 데이터와 RL 생성을 혼합합니다.",
+   "impact": "이러한 통합 학습 접근 방식은 개발자와 기술 사용자에게 정확도와 연산의 절차적 균형 및 태스크 커버리지를 향상시킬 수 있습니다. 또한 지속적인 학습을 위한 더 강력한 출발점을 제공할 수도 있습니다.",
+   "keyPoints": [
+    "파운데이션 모델은 일반적으로 사전 학습, 중간 학습, SFT, RL 등의 단계로 나누어 학습됩니다.",
+    "통합 학습은 모든 학습 단계를 단일 가능도 기반 학습 알고리즘 아래에 배치합니다.",
+    "이 프레임워크는 단일 트레이너 내에서 정적 데이터와 RL 생성을 혼합합니다.",
+    "실험 결과 정확도와 연산의 트레이드오프 및 태스크 커버리지가 향상되었습니다."
+   ]
+  }
+ }
+}

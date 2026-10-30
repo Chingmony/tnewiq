@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4c968204a488b73f",
+ "contentHash": "50c9733762151cb5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T20:57:33.433Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon MSK now supports TLS 1.3 for data in transit",
+   "summary": "Amazon MSK now supports TLS 1.3 for MSK Provisioned clusters through encryption policies. Customers can opt in by selecting a named security policy in their cluster configuration. Policies can support both TLS 1.2 and TLS 1.3 or restrict connections to TLS 1.3 only.",
+   "impact": "This could help organizations meet stricter compliance requirements and enterprise security standards. Developers and security teams may use the flexible policy options to upgrade clients at their own pace while improving protection for streaming data.",
+   "keyPoints": [
+    "Amazon MSK Provisioned clusters now support TLS 1.3 through encryption policies.",
+    "TLS 1.3 offers faster and more secure encryption, and is a prerequisite for post-quantum cryptography.",
+    "Named security policies allow customers to choose between dual TLS 1.2/1.3 support or strict TLS 1.3-only connections.",
+    "The capability is available at no additional cost in all AWS Regions where Amazon MSK Provisioned is available."
+   ]
+  },
+  "km": {
+   "title": "Amazon MSK ឥឡូវនេះគាំទ្រ TLS 1.3 សម្រាប់ទិន្នន័យកំពុងបញ្ជូន",
+   "summary": "Amazon MSK ឥឡូវនេះគាំទ្រពិធីការ TLS សម្រាប់កំណែ 1.3 សម្រាប់ Amazon MSK Provisioned clusters តាមរយៈគោលនយោបាយអ៊ិនគ្រីប។ អតិថិជនអាចជ្រើសរើសចូលរួមដោយជ្រើសរើសគោលនយោបាយសុវត្ថិភាពដែលមានឈ្មោះនៅក្នុងការកំណត់រចនាសម្ព័ន្ធ cluster របស់ពួកគេ។",
+   "impact": "នេះអាចជួយដល់ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ក្នុងការបំពេញតាមស្តង់ដារអនុលោមភាព និងធ្វើឱ្យប្រសើរឡើងនូវការការពារទិន្នន័យ។ អតិថិជនអាចដំឡើងកំណែ clients តាមល្បឿនផ្ទាល់ខ្លួនរបស់ពួកគេមុនពេលអនុវត្តគោលនយោបាយតឹងរ៉ឹងជាងមុន។",
+   "keyPoints": [
+    "Amazon MSK Provisioned clusters ឥឡូវនេះគាំទ្រ TLS 1.3 តាមរយៈគោលនយោបាយអ៊ិនគ្រីប។",
+    "TLS 1.3 ផ្តល់នូវការអ៊ិនគ្រីបលឿនជាងមុន និងមានសុវត្ថិភាពជាងមុនសម្រាប់ទិន្នន័យស្ទ្រីម។",
+    "អតិថិជនអាចជ្រើសរើសគោលនយោបាយដែលគាំទ្រទាំង TLS 1.2 និង TLS 1.3 ឬកំណត់កម្រិតតឹងរ៉ឹងចំពោះ TLS 1.3 ប៉ុណ្ណោះ។",
+    "សមត្ថភាពនេះអាចប្រើប្រាស់បានដោយមិនគិតថ្លៃបន្ថែមនៅក្នុងតំបន់ AWS ទាំងអស់ដែល Amazon MSK Provisioned មាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon MSK 现已支持针对传输中数据的 TLS 1.3",
+   "summary": "Amazon MSK 现在通过加密策略为 MSK Provisioned 集群支持传输层安全协议版本 1.3。客户可以通过在其集群配置中选择命名的安全策略来选择加入。策略可以同时支持 TLS 1.2 和 TLS 1.3，或者仅将连接限制为 TLS 1.3。",
+   "impact": "这可以帮助组织满足更严格的合规框架和企业安全标准。开发人员和安全团队可以利用灵活的策略选项按自己的节奏升级客户端，同时增强流数据的安全性。",
+   "keyPoints": [
+    "Amazon MSK Provisioned 集群现已通过加密策略支持 TLS 1.3。",
+    "TLS 1.3 为流数据提供更快、更安全的加密，并且是后量子密码学的先决条件之一。",
+    "命名安全策略允许客户选择混合支持 TLS 1.2 和 TLS 1.3 或仅限 TLS 1.3 的连接。",
+    "该功能在提供 Amazon MSK Provisioned 的所有 AWS 区域中免费提供。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon MSK, 전송 중인 데이터를 위한 TLS 1.3 지원 시작",
+   "summary": "Amazon MSK는 이제 암호화 정책을 통해 MSK Provisioned 클러스터용 전송 계층 보안 프로토콜 버전 1.3을 지원합니다. 고객은 클러스터 구성에서 명명된 보안 정책을 선택하여 이를 적용할 수 있습니다. 정책은 TLS 1.2와 TLS 1.3을 모두 지원하거나 TLS 1.3 전용으로 연결을 제한할 수 있습니다.",
+   "impact": "이는 조직이 더 엄격한 규정 준수 프레임워크와 기업 보안 표준을 충족하는 데 도움을 줄 수 있습니다. 개발자와 보안 팀은 유연한 정책 옵션을 사용하여 스트리밍 데이터 보호를 강화하는 동시에 자체 속도에 맞춰 클라이언트를 업그레이드할 수 있습니다.",
+   "keyPoints": [
+    "Amazon MSK Provisioned 클러스터는 이제 암호화 정책을 통해 TLS 1.3을 지원합니다.",
+    "TLS 1.3은 스트리밍 데이터를 위해 더 빠르고 안전한 암호화를 제공하며 양자 후 암호화의 전제 조건 중 하나입니다.",
+    "명명된 보안 정책을 통해 고객은 TLS 1.2 및 TLS 1.3을 모두 지원하는 정책과 엄격한 TLS 1.3 전용 정책 중에서 선택할 수 있습니다.",
+    "이 기능은 Amazon MSK Provisioned가 제공되는 모든 AWS 리전에서 추가 비용 없이 사용할 수 있습니다."
+   ]
+  }
+ }
+}

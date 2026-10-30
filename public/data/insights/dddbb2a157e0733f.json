@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "dddbb2a157e0733f",
+ "contentHash": "e1bec4d52a48e537",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T20:54:59.761Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Connect Customer automatically saves in-progress emails as drafts",
+   "summary": "Amazon Connect now automatically saves in-progress emails as drafts. This feature helps agents resume their work without losing progress due to connectivity issues, accidental browser closes, or page refreshes. Restored drafts include the message body, recipients, subject line, and attachment references.",
+   "impact": "This functionality could improve agent productivity by preventing data loss during network disruptions or browser accidents. Additionally, developers can access saved draft data in Amazon S3 buckets to build integrations with other applications.",
+   "keyPoints": [
+    "In-progress emails are automatically saved as drafts.",
+    "Restored drafts include message body, recipients, subject line, and attachments.",
+    "Saved draft data can be accessed in Amazon S3 buckets for building integrations."
+   ]
+  },
+  "km": {
+   "title": "Amazon Connect រក្សាទុកអ៊ីមែលដែលកំពុងសរសេរដោយស្វ័យប្រវត្តិជាសេចក្តីព្រាង",
+   "summary": "Amazon Connect ឥឡូវនេះរក្សាទុកអ៊ីមែលដែលកំពុងសរសេរជាសេចក្តីព្រាងដោយស្វ័យប្រវត្តិ។ លក្ខណៈពិសេសនេះជួយឱ្យភ្នាក់ងារអាចបន្តការងារដោយមិនបាត់បង់ទិន្នន័យនៅពេលមានបញ្ហាបណ្តាញ ឬពេលកម្មវិធីរុករកត្រូវបានបិទ ឬផ្ទុកឡើងវិញដោយចៃដន្យ។ សេចក្តីព្រាងដែលបានស្តារឡើងវិញរួមមានតួអក្សរ អ្នកទទួល ប្រធានបទ និងឯកសារភ្ជាប់។",
+   "impact": "មុខងារនេះអាចជួយបង្កើនផលិតភាពរបស់ភ្នាក់ងារដោយការពារការបាត់បង់ទិន្នន័យក្នុងអំឡុងពេលមានបញ្ហាបណ្តាញ ឬបញ្ហាកម្មវិធីរុករក។ លើសពីនេះ អ្នកអភិវឌ្ឍន៍អាចចូលប្រើទិន្នន័យសេចក្តីព្រាងដែលបានរក្សាទុកនៅក្នុង Amazon S3 buckets ដើម្បីបង្កើតការរួមបញ្ចូលជាមួយកម្មវិធីផ្សេងទៀត។",
+   "keyPoints": [
+    "អ៊ីមែលដែលកំពុងសរសេរត្រូវបានរក្សាទុកជាសេចក្តីព្រាងដោយស្វ័យប្រវត្តិ។",
+    "សេចក្តីព្រាងដែលបានស្តារឡើងវិញរួមមានតួអក្សរ អ្នកទទួល ប្រធានបទ និងឯកសារភ្ជាប់។",
+    "ទិន្នន័យសេចក្តីព្រាងអាចចូលប្រើបាននៅក្នុង Amazon S3 buckets សម្រាប់ការបង្កើតការរួមបញ្ចូល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Connect 自动将正在编写的电子邮件保存为草稿",
+   "summary": "Amazon Connect 现在可以自动将正在编写的电子邮件保存为草稿。当连接中断或浏览器意外关闭、刷新时，该功能可帮助客服人员恢复工作而不会丢失进度。恢复后的草稿会保留正文、收件人、主题和附件引用。",
+   "impact": "此功能可以通过防止网络中断或浏览器意外关闭期间的数据丢失来提高客服人员的工作效率。此外，开发人员可以访问 Amazon S3 存储桶中保存的草稿数据，以与其他应用程序构建集成。",
+   "keyPoints": [
+    "正在编写的电子邮件会自动保存为草稿。",
+    "恢复的草稿包含正文、收件人、主题和附件引用。",
+    "可以在 Amazon S3 存储桶中访问保存的草稿数据以构建集成。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Connect, 작성 중인 이메일을 초안으로 자동 저장",
+   "summary": "Amazon Connect는 이제 작성 중인 이메일을 초안으로 자동 저장합니다. 이 기능은 연결이 끊기거나 브라우저가 실수로 닫히거나 새로 고쳐질 때 상담원이 진행 상황을 잃지 않고 작업을 재개할 수 있도록 돕습니다. 복원된 초안에는 메시지 본문, 수신자, 제목 및 첨부 파일 참조가 그대로 유지됩니다.",
+   "impact": "이 기능은 네트워크 중단이나 브라우저 사고 중 데이터 손실을 방지하여 상담원의 생산성을 향상시킬 수 있습니다. 또한 개발자는 Amazon S3 버킷에서 저장된 초안 데이터에 액세스하여 다른 응용 프로그램과의 통합을 구축할 수 있습니다.",
+   "keyPoints": [
+    "작성 중인 이메일이 초안으로 자동 저장됩니다.",
+    "복원된 초안에는 본문, 수신자, 제목 및 첨부 파일이 포함됩니다.",
+    "저장된 초안 데이터는 Amazon S3 버킷에서 통합 구축에 활용할 수 있습니다."
+   ]
+  }
+ }
+}

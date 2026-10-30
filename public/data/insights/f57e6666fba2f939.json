@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f57e6666fba2f939",
+ "contentHash": "07fd535fcfdb83e2",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T20:57:43.873Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon RDS for Oracle no longer requires automatic minor version upgrades for JVM, Spatial, Locator, and OLAP options",
+   "summary": "Amazon RDS for Oracle now allows users to disable automatic minor version upgrades on new and existing database instances that use the JVM, Spatial, Locator, or OLAP option. Previously, enabling automatic minor version upgrades was mandatory for these options. With this update, database administrators can choose when to apply minor version upgrades. This change is available across all commercial AWS Regions and AWS GovCloud (US) Regions.",
+   "impact": "Database administrators and technology users now have greater control over their database maintenance schedules and upgrade timing when using these specific Oracle options. However, teams must be mindful to apply updates regularly to maintain security fixes.",
+   "keyPoints": [
+    "Automatic minor version upgrades can now be turned off for instances using JVM, Spatial, Locator, or OLAP options.",
+    "Users can decide when to apply minor version upgrades instead of being required to keep them enabled.",
+    "AWS recommends applying new minor versions regularly to maintain the latest Oracle security fixes if automatic upgrades are disabled.",
+    "The change is available in all commercial AWS Regions and AWS GovCloud (US) Regions."
+   ]
+  },
+  "km": {
+   "title": "Amazon RDS for Oracle លែងទាមទារការដំឡើងកំណែរងអត់ស្វ័យប្រវត្តិសម្រាប់ជម្រើស JVM, Spatial, Locator និង OLAP ទៀតហើយ",
+   "summary": "Amazon RDS for Oracle ឥឡូវនេះអនុញ្ញាតឱ្យអ្នកបិទការដំឡើងកំណែរងស្វ័យប្រវត្តិនៅលើគំរូមូលដ្ឋានទិន្នន័យថ្មី និងដែលមានស្រាប់ ដែលប្រើប្រាស់ជម្រើស JVM, Spatial, Locator ឬ OLAP ។ ពីមុនជម្រើសទាំងនេះទាមទារឱ្យបើកដំណើរការដំឡើងកំណែរងស្វ័យប្រវត្តិ ។ ជាមួយនឹងការផ្លាស់ប្តូរនេះ អ្នកអាចសម្រេចចិត្តពេលណាត្រូវអនុវត្តការដំឡើងកំណែរងទៅលើគំរូមូលដ្ឋានទិន្នន័យរបស់អ្នក ។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យា និងអ្នកគ្រប់គ្រងមូលដ្ឋានទិន្នន័យអាចមានភាពបត់បែនកាន់តែច្រើនក្នុងការគ្រប់គ្រងពេលវេលាដំឡើងកំណែ និងការថែទាំប្រព័ន្ធរបស់ពួកគេ ។ ទោះជាយ៉ាងណាក៏ដោយ ការអនុវត្តការអាប់ដេតជាប្រចាំនៅតែត្រូវបានណែនាំដើម្បីរក្សាសុវត្ថិភាពចុងក្រោយ ។",
+   "keyPoints": [
+    "អាចបិទការដំឡើងកំណែរងស្វ័យប្រវត្តិសម្រាប់ជម្រើស JVM, Spatial, Locator ឬ OLAP បានហើយ ។",
+    "អ្នកប្រើប្រាស់អាចសម្រេចចិត្តដោយខ្លួនឯងលើពេលវេលាដំឡើងកំណែរង ។",
+    "ការផ្លាស់ប្តូរនេះមាននៅក្នុងតំបន់ពាណិជ្ជកម្ម AWS និងតំបន់ AWS GovCloud (US) ទាំងអស់ ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon RDS for Oracle 不再强制要求对 JVM、Spatial、Locator 和 OLAP 选项进行自动次要版本升级",
+   "summary": "Amazon RDS for Oracle 现在允许用户在使用 JVM、Spatial、Locator 或 OLAP 选项的新数据库实例和现有数据库实例上关闭自动次要版本升级。在此之前，这些选项要求必须启用自动次要版本升级。通过此更改，用户可以自行决定何时将次要版本升级应用于数据库实例。此更改适用于所有商业 AWS 区域和 AWS GovCloud (US) 区域。",
+   "impact": "数据库管理员和技术团队在管理使用这些特定 Oracle 选项的实例时，可以获得更多的升级时间表控制权。不过，如果关闭了自动升级，建议定期应用新次要版本以确保获取最新的 Oracle 安全修复。",
+   "keyPoints": [
+    "使用 JVM、Spatial、Locator 或 OLAP 选项的实例现在可以关闭自动次要版本升级。",
+    "用户可以自主决定应用次要版本升级的时间。",
+    "如果关闭自动升级，官方建议定期应用新版本以保留最新的安全修复。",
+    "该更改已在所有商业 AWS 区域和 AWS GovCloud (US) 区域推出。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon RDS for Oracle에서 JVM, Spatial, Locator 및 OLAP 옵션에 대한 자동 마이너 버전 업그레이드가 더 이상필요하지 않음",
+   "summary": "Amazon RDS for Oracle은 이제 JVM, Spatial, Locator 또는 OLAP 옵션을 사용하는 신규 및 기존 DB 인스턴스에서 자동 마이너 버전 업그레이드를 비활성화할 수 있도록 지원합니다. 이전에는 이러한 옵션을 사용할 때 자동 마이너 버전 업그레이드가 필수였습니다. 이번 변경으로 사용자가 직접 마이너 버전 업그레이드 시점을 결정할 수 있게 되었으며, 이 변경 사항은 모든 상용 AWS 리전 및 AWS GovCloud (US) 리전에서 사용할 수 있습니다.",
+   "impact": "데이터베이스 관리자와 기술 팀은 해당 Oracle 옵션을 사용할 때 업그레이드 일정에 대해 더 많은 제어권을 갖게 될 수 있습니다. 다만, 자동 업그레이드를 끄더라도 최신 보안 수정을 유지하려면 정기적으로 업데이트를 적용하는 것이 권장됩니다.",
+   "keyPoints": [
+    "JVM, Spatial, Locator 또는 OLAP 옵션을 사용하는 DB 인스턴스에서 자동 마이너 버전 업그레이드를 끌 수 있습니다.",
+    "사용자가 직접 마이너 버전 업그레이드 적용 시점을 결정할 수 있습니다.",
+    "자동 업그레이드를 비활성화한 경우 최신 보안 수정을 위해 정기적인 업데이트 적용이 권장됩니다.",
+    "모든 상용 AWS 리전 및 AWS GovCloud (US) 리전에서 이용할 수 있습니다."
+   ]
+  }
+ }
+}

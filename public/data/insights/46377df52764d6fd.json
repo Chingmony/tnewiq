@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "46377df52764d6fd",
+ "contentHash": "049b04ab5bf19b17",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T20:56:18.683Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
+   "summary": "Cloudflare shared a follow-up analysis on the exploitation and patching of eMudhra's eight extremely weak private keys, such as the number 4, which were publicly recoverable from certificates. The incident allowed anyone to potentially issue fraudulent certificates, prompting eMudhra to announce its exit from the public CA business. Cloudflare immediately patched high-priority systems within hours using Pingora and AI-assisted source code analysis, and implemented logging to track weak key usage.",
+   "impact": "Security teams and developers may need to ensure their systems reject vulnerable eMudhra keys and verify that any necessary patches are applied. Technology users and organizations could face risks from unpatched clients that do not enforce Certificate Transparency, as attackers could exploit the weak intermediate keys.",
+   "keyPoints": [
+    "eMudhra used eight extremely weak keys, including the number 4, for intermediate private keys.",
+    "The affected private keys could be recovered almost instantly from public certificates by anyone.",
+    "Cloudflare patched high-impact systems within hours and implemented logging in Pingora.",
+    "Cloudflare observed about 22,000 attempted handshakes with the weak keys, with many related to test sites or origins setting up certificates."
+   ]
+  },
+  "km": {
+   "title": "4 real? តាមដានការប្រើប្រាស់ខុស និងការជួសជុលគ្រាប់ចុចខ្សោយរបស់ eMudhra",
+   "summary": "Cloudflare បានចែករំលែកការវិភាគលម្អិតបន្ថែមអំពីការប្រើប្រាស់ខុស និងការជួសជុលគ្រាប់ចុចឯកជនខ្សោយខ្លាំងចំនួនប្រាំបីរបស់ eMudhra ដូចជាលេខ 4 ដែលអាចទាញយកឡើងវិញជាសាធារណៈពីវិញ្ញាបនបត្រ។ เหตุการณ์នេះបានអនុញ្ញាតឱ្យនរណាម្នាក់អាចចេញវិញ្ញាបនបត្រក្លែងក្លាយបាន ដែលជំរុញឱ្យ eMudhra ប្រកាសដកខ្លួនចេញពីអាជីវកម្ម CA សាធារណៈ។ Cloudflare បានជួសជុលប្រព័ន្ធអាទិភាពខ្ពស់ភ្លាមៗក្នុងរយៈពេលប៉ុន្មានម៉ោងដោយប្រើប្រាស់ Pingora និងការវិភាគកូដប្រភពជំនួយដោយ AI។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចចាំបាច់ត្រូវធានាថាប្រព័ន្ធរបស់ពួកគេបដិសេធគ្រាប់ចុច eMudhra ដែលមានភាពងាយរងគ្រោះ ហើយអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចប្រឈមមុខនឹងហានិភ័យពីអតិថិជនដែលមិនបានជួសជុល។",
+   "keyPoints": [
+    "eMudhra បានប្រើគ្រាប់ចុចខ្សោយខ្លាំងចំនួនប្រាំបី រួមទាំងលេខ 4 ផងដែរ។",
+    "គ្រាប់ចុចឯកជនដែលរងផលប៉ះពាល់អាចត្រូវបានសង្គ្រោះស្ទើរតែភ្លាមៗពីវិញ្ញាបនបត្រសាធារណៈ។",
+    "Cloudflare បានជួសជុលប្រព័ន្ធដែលមានឥទ្ធិពលខ្លាំងក្នុងរយៈពេលប៉ុន្មានម៉ោង។",
+    "Cloudflare បានកត់ត្រាការប៉ុនប៉ងចាប់ដៃចំនួនប្រហែល 22,000 ដងជាមួយនឹងគ្រាប់ចុចខ្សោយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "4 real? 追踪 eMudhra 弱密钥的利用与修补",
+   "summary": "Cloudflare 分享了关于 eMudhra 八个极弱私钥（例如数字 4）被利用和修补情况的深入后续分析，这些私钥可以从公共证书中被直接恢复。这一事件允许任何人生成欺诈性证书，促使 eMudhra 宣布退出公共 CA 业务。Cloudflare 通过 Pingora 和人工智能辅助的代码分析，在数小时内迅速修补了高优先级系统，并实施了日志记录来追踪弱密钥的使用情况。",
+   "impact": "安全团队和开发人员可能需要确保其系统拒绝脆弱的 eMudhra 密钥，并验证是否应用了必要的补丁。如果不强制执行证书透明度且未修补客户端，技术用户和组织可能会面临攻击者利用弱中间密钥的风险。",
+   "keyPoints": [
+    "eMudhra 使用了八个极其脆弱的密钥作为中间私钥，其中包括数字 4。",
+    "受影响的私钥可以被任何人从公共证书中几乎立即恢复。",
+    "Cloudflare 在几小时内修补了高影响系统，并在 Pingora 中增加了日志记录功能。",
+    "Cloudflare 观察到大约 22,000 次使用弱密钥的握手尝试。"
+   ]
+  },
+  "ko": {
+   "title": "4 real? eMudhra의 취약한 키 악용 및 패치 추적",
+   "summary": "Cloudflare는 공개 인증서에서 즉시 복구할 수 있는 숫자 4와 같은 eMudhra의 8가지 극도로 취약한 개인 키의 악용 및 패치에 대한 심층적인 후속 분석을 공유했습니다. 이 사건으로 인해 누구나 위조된 인증서를 발급할 수 있게 되었으며, eMudhra는 공개 CA 사업에서 철수한다고 발표했습니다. Cloudflare는 Pingora와 AI 지원 소스 코드 분석을 사용하여 몇 시간 만에 고위험 시스템을 즉시 패치하고 취약한 키 사용을 추적하기 위한 로깅을 구현했습니다.",
+   "impact": "보안 팀과 개발자는 시스템이 취약한 eMudhra 키를 거부하도록 하고 필요한 패치가 적용되었는지 확인해야 할 수 있습니다. 인증서 투명성을 적용하지 않는 패치되지 않은 클라이언트로 인해 기술 사용자과 조직이 공격자의 위협에 직면할 수 있습니다.",
+   "keyPoints": [
+    "eMudhra는 숫자 4를 포함하여 중간 개인 키에 대해 극도로 취약한 8개의 키를 사용했습니다.",
+    "영향을 받은 개인 키는 공개 인증서에서 누구나 거의 즉시 복구할 수 있었습니다.",
+    "Cloudflare는 몇 시간 내에 영향도가 높은 시스템을 패치했습니다.",
+    "Cloudflare는 취약한 키를 사용한 약 22,000건의 핸드셰이크 시도를 관측했습니다."
+   ]
+  }
+ }
+}

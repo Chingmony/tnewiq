@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8fc971e55b17c65a",
+ "contentHash": "e99a3f600de64b12",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T20:59:06.952Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+   "summary": "Threat actors attempted to exploit a high-severity remote code execution flaw in WordPress Core shortly after patches were released. The vulnerability impacts WordPress Core versions 4.7 through 7.1.3 and has a CVSS score of 8.1. Within a 24-hour period, nearly 63,000 attack attempts were observed.",
+   "impact": "This highlights the rapid exploitation attempts by threat actors following vulnerability disclosures and patch releases. Security teams managing WordPress sites running affected versions may need to prioritize applying updates immediately to mitigate risks.",
+   "keyPoints": [
+    "Nearly 63,000 attack attempts occurred in 24 hours.",
+    "The vulnerability is a remote code execution flaw in WordPress Core versions 4.7 through 7.1.3.",
+    "The security flaw carries a CVSS score of 8.1.",
+    "Patches were released following the discovery of the high-severity issue."
+   ]
+  },
+  "km": {
+   "title": "កំហុស RCE របស់ WordPress ទាក់ទាញការវាយប្រហារជិត 63,000 ដងក្នុងរយៈពេលត្រឹមតែ 24 ម៉ោង",
+   "summary": "ជនខិលខូចបានព្យាយាមប្រើប្រាស់កំហុសសុវត្ថិភាពកម្រិតខ្ពស់នៃការប្រតិបត្តិ ਕੋដពីចម្ងាយនៅក្នុង WordPress Core បន្ទាប់ពីការចេញផ្សាយបំណះបន្តិច។ ចន្លោះប្រហោងនេះប៉ះពាល់ដល់ WordPress Core កំណែ 4.7 ដល់ 7.1.3 និងមានពិន្ទុ CVSS 8.1។ ការវាយប្រហារជិត 63,000 ដងត្រូវបានកត់ត្រាក្នុងរយៈពេល 24 ម៉ោង។",
+   "impact": "បញ្ហានេះបង្ហាញពីការប៉ុនប៉ងវាយប្រហារយ៉ាងលឿនដោយក្រុមខិលខូចបន្ទាប់ពីការបង្ហាញពីចន្លោះប្រហោង និងការចេញបំណះ។ ក្រុមសន្តិសុខដែលគ្រប់គ្រងគេហទំព័រ WordPress ដែលប្រើប្រាស់កំណែរងផលប៉ះពាល់អាចត្រូវដាក់អាទិភាពក្នុងការដំឡើងបំណះភ្លាមៗ។",
+   "keyPoints": [
+    "ការវាយប្រហារជិត 63,000 ដងបានកើតឡើងក្នុងរយៈពេល 24 ម៉ោង។",
+    "ចន្លោះប្រហោងនេះគឺជាកំហុសប្រតិបត្តិ ਕੋដពីចម្ងាយក្នុង WordPress Core កំណែ 4.7 ដល់ 7.1.3។",
+    "កំហុសសុវត្ថិភាពនេះមានពិន្ទុ CVSS 8.1។",
+    "បំណះត្រូវបានចេញផ្សាយបន្ទាប់ពីបញ្ហាកម្រិតខ្ពស់នេះត្រូវបានរកឃើញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "WordPress RCE 漏洞在短短 24 小时内引发近 63,000 次攻击尝试",
+   "summary": "在补丁发布后不久，威胁行为者被发现试图利用 WordPress Core 中的一个高危安全漏洞。该漏洞属于远程代码 execution 缺陷，影响 WordPress Core 4.7 至 7.1.3 版本，CVSS 评分高达 8.1。在短短 24 小时内，监测到了近 63,000 次攻击尝试。",
+   "impact": "这凸显了威胁行为者在漏洞披露和补丁发布后进行快速利用的行为。管理受影响 WordPress 网站的安全团队可能需要优先应用更新以降低风险。",
+   "keyPoints": [
+    "在 24 小时内发生了近 63,000 次攻击尝试。",
+    "该漏洞是影响 WordPress Core 4.7 至 7.1.3 版本的远程代码执行缺陷。",
+    "该漏洞的 CVSS 评分为 8.1。",
+    "在问题披露后官方发布了相应的补丁。"
+   ]
+  },
+  "ko": {
+   "title": "WordPress RCE 취약점, 단 24시간 만에 약 63,000건의 공격 시도 받아",
+   "summary": "패치가 배포된 직후 위협 행위자들이 WordPress Core의 고위험 보안 취약점을 악용하려 한 시도가 관측되었습니다. 해당 취약점은 WordPress Core 버전 4.7부터 7.1.3에 영향을 미치는 원격 코드 실행 결함이며 CVSS 점수 8.1을 기록했습니다. 24시간 동안 약 63,000건의 공격 시도가 발생했습니다.",
+   "impact": "이는 취약점 공개 및 패치 배포 직후 위협 행위자들이 빠르게 악용을 시도함을 보여줍니다. 영향을 받는 버전을 실행하는 WordPress 사이트를 관리하는 보안 팀은 위험을 완화하기 위해 즉시 업데이트를 적용해야 할 수 있습니다.",
+   "keyPoints": [
+    "24시간 동안 약 63,000건의 공격 시도가 발생했습니다.",
+    "취약점은 WordPress Core 버전 4.7에서 7.1.3까지 영향을 미치는 원격 코드 실행 결함입니다.",
+    "보안 취약점의 CVSS 점수는 8.1입니다.",
+    "고위험 문제 발견 이후 패치가 배포되었습니다."
+   ]
+  }
+ }
+}

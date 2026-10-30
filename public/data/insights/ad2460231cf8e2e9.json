@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ad2460231cf8e2e9",
+ "contentHash": "b37ded9105b47888",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T20:56:07.637Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "OpenAI sets new behavioral guidelines for AI models that have already proven hard to control",
+   "summary": "OpenAI has updated its Model Spec by restructuring its AI behavior guidelines around five core values. These values include faithfulness to human intent and correctability. GPT models are expected to use conversation history to understand user intent and disclose their own assumptions.",
+   "impact": "These changes could influence how developers and users interact with GPT models if the guidelines effectively shape AI behavior. However, whether the models will actually follow these new rules remains uncertain.",
+   "keyPoints": [
+    "OpenAI updated its Model Spec with five core values.",
+    "New values include faithfulness to human intent and correctability.",
+    "GPT models should use conversation history to determine user desires.",
+    "Models are instructed to disclose their own assumptions."
+   ]
+  },
+  "km": {
+   "title": "OpenAI កំណត់គោលការណ៍ណែនាំអំពីឥរិយាបថថ្មីសម្រាប់ម៉ូដែល AI ដែលពិបាកគ្រប់គ្រង",
+   "summary": "OpenAI បានធ្វើបច្ចុប្បន្នភាព Model Spec របស់ខ្លួនដោយរៀបចំគោលការណ៍ណែនាំអំពីឥរិយាបថ AI ឡើងវិញជុំវិញតម្លៃស្នូលចំនួនប្រាំ។ តម្លៃទាំងនេះរួមបញ្ចូលទាំងភាពស្មោះត្រង់ចំពោះចេតនារបស់มนุษย์ និង khả năng អាចកែតម្រូវបាន។ ម៉ូដែល GPT ឥឡូវនេះគួរតែប្រើប្រាស់ប្រវត្តិការសន្ទនាដើម្បីស្វែងយល់ពីអ្វីដែលអ្នកប្រើប្រាស់ចង់បាន និងបង្ហាញពីការសន្មត់របស់ខ្លួន។",
+   "impact": "ការផ្លាស់ប្តូរទាំងនេះអាចប៉ះពាល់ដល់របៀបដែលអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់អន្តរកម្មជាមួយម៉ូដែល GPT ប្រសិនបើគោលការណ៍ណែនាំបង្កើតឥរិយាបថ AI ។ ប៉ុន្តែការអនុវត្តតាមច្បាប់ទាំងនេះរបស់ម៉ូដែលនៅតែមិនទាន់ច្បាស់លាស់។",
+   "keyPoints": [
+    "OpenAI បានធ្វើបច្ចុប្បន្នភាព Model Spec ជាមួយនឹងតម្លៃស្នូលចំនួនប្រាំ។",
+    "តម្លៃថ្មីរួមមានភាពស្មោះត្រង់ចំពោះចេតនារបស់មនុស្សនិងភាពអាចកែតម្រូវបាន។",
+    "ម៉ូដែល GPT គួរតែប្រើប្រាស់ប្រវត្តិការសន្ទនាដើម្បីកំណត់បំណងប្រាថ្នារបស់អ្នកប្រើប្រាស់។",
+    "ម៉ូដែលត្រូវបានណែនាំឱ្យបង្ហាញពីការសន្មត់ផ្ទាល់ខ្លួន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "OpenAI为已被证明难以控制的AI模型制定新的行为准则",
+   "summary": "OpenAI更新了其Model Spec，将其AI行为准则重新围绕五个核心价值观进行重组。这些价值观包括忠于人类意图和可纠正性。GPT模型现在应该利用对话历史来弄清楚用户真正想要什么，并披露他们自己的假设。",
+   "impact": "如果这些准则能够有效塑造AI行为，这些变动可能会影响开发者和用户与GPT模型的互动方式。然而，模型是否会真正遵循这些新规则还是另一回事。",
+   "keyPoints": [
+    "OpenAI更新了包含五个核心价值观的Model Spec。",
+    "新价值观包括忠于人类意图和可纠正性。",
+    "GPT模型应利用对话历史确定用户的实际需求。",
+    "模型被要求披露其自身的假设。"
+   ]
+  },
+  "ko": {
+   "title": "OpenAI, 통제하기 어려운 것으로 입증된 AI 모델을 위한 새로운 행동 지침 마련",
+   "summary": "OpenAI는 인간의 의도에 대한 충실성과 수정 가능성을 포함한 5가지 핵심 가치를 중심으로 AI 행동 지침을 재구성하여 Model Spec을 업데이트했습니다. 이제 GPT 모델은 대화 기록을 활용하여 사용자가 실제로 원하는 바를 파악하고 자신의 가정을 공개해야 합니다.",
+   "impact": "이러한 변경 사항은 지침이 AI 행동을 효과적으로 형성하는 경우 개발자와 사용자가 GPT 모델과 상호 작용하는 방식에 영향을 미칠 수 있습니다. 그러나 모델이 실제로 이러한 새로운 규칙을 따를지는 불확실합니다.",
+   "keyPoints": [
+    "OpenAI가 5가지 핵심 가치로 Model Spec을 업데이트했습니다.",
+    "새로운 가치에는 인간의 의도에 대한 충실성과 수정 가능성이 포함됩니다.",
+    "GPT 모델은 대화 기록을 사용하여 사용자의 바람을 파악해야 합니다.",
+    "모델은 자신의 가정을 공개하도록 지시받았습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c82e903baa3d40fa",
+ "contentHash": "2e0e0fe2a91fb1f0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T20:54:38.632Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Web Search now available on Kiro in AWS GovCloud (US)",
+   "summary": "Kiro web search is now available in AWS GovCloud (US), providing agents with real-time access to current internet information. The agent automatically utilizes web search for queries involving recent changes or topics beyond its training data, and includes citations in the answers. Enterprise administrators can disable web search and web fetch through the Kiro console settings, remove web tools from custom agents, or block them using permission rules.",
+   "impact": "This feature could allow developers and users in regulated environments to access up-to-date information directly through their agents. Security and administrative teams may use the provided controls to manage and restrict web tool access according to organizational policies.",
+   "keyPoints": [
+    "Web search is now available on Kiro in AWS GovCloud (US).",
+    "Agents automatically use web search for recent topics and provide citations.",
+    "Administrators can turn off web search and web fetch via the Kiro console or block them with permission rules."
+   ]
+  },
+  "km": {
+   "title": "ការស្វែងរកតាមបណ្តាញឥឡូវនេះមាននៅលើ Kiro ក្នុង AWS GovCloud (US)",
+   "summary": "ការស្វែងរកតាមបណ្តាញរបស់ Kiro ឥឡូវនេះមាននៅលើ AWS GovCloud (US) ដែលផ្តល់ឱ្យភ្នាក់ងារនូវការចូលប្រើព័ត៌មានបច្ចុប្បន្នតាមអ៊ីនធឺណិតក្នុងពេលជាក់ស្តែង។ ភ្នាក់ងារប្រើប្រាស់ការស្វែងរកតាមបណ្តាញដោយស្វ័យប្រវត្តិនៅពេលសំណួរពាក់ព័ន្ធនឹងការផ្លាស់ប្តូរថ្មីៗ ឬប្រធានបទដែលលើសពីទិន្នន័យបណ្តុះបណ្តាលរបស់ម៉ូដែល ហើយចម្លើយរួមបញ្ចូលទាំងឯកសារយោងផងដែរ។ អ្នកគ្រប់គ្រងសហគ្រាសអាចបិទការស្វែងរកតាមបណ្តាញ និងការទាញយកតាមបណ្តាញពីកុងសូល Kiro ក្រោមការកំណត់។",
+   "impact": "លក្ខណៈពិសេសនេះអាចអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់ទទួលបានព័ត៌មានទាន់សម័យតាមរយៈភ្នាក់ងាររបស់ពួកគេ។ ក្រុមការងារសុវត្ថិភាពអាចប្រើប្រាស់ការគ្រប់គ្រងដែលមានដើម្បីកំណត់ការចូលប្រើឧបករណ៍បណ្តាញតាមគោលនយោបាយរបស់អង្គការ។",
+   "keyPoints": [
+    "ការស្វែងរកតាមបណ្តាញឥឡូវនេះមាននៅលើ Kiro ក្នុង AWS GovCloud (US)។",
+    "ភ្នាក់ងារប្រើប្រាស់ការស្វែងរកតាមបណ្តាញដោយស្វ័យប្រវត្តិសម្រាប់ប្រធានបទថ្មីៗ និងផ្តល់ឯកសារយោង។",
+    "អ្នកគ្រប់គ្រងអាចបិទការស្វែងរកតាមបណ្តាញ និងការទាញយកតាមបណ្តាញតាមរយៈការកំណត់កុងសូល Kiro ឬទប់ស្កាត់ពួកវាដោយប្រើច្បាប់អនុញ្ញាត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Web Search 现已在 AWS GovCloud (US) 的 Kiro 上推出",
+   "summary": "Kiro 网络搜索现已在 AWS GovCloud (US) 中可用，为代理提供对互联网当前信息的实时访问。当问题涉及近期更改或超出模型训练数据的主题时，代理会自动使用网络搜索，并且使用网络结果的答案会包含引用。Kiro 企业管理员可以从 Kiro 控制台的“设置”下为其组织关闭网络搜索和网页抓取功能。",
+   "impact": "此功能可使开发人员和用户通过其代理直接获取最新信息。安全和管理团队可以利用提供的控制措施，根据组织政策来管理和限制网络工具的访问权限。",
+   "keyPoints": [
+    "网络搜索现已在 AWS GovCloud (US) 的 Kiro 上推出。",
+    "代理会自动将网络搜索用于近期主题并在答案中包含引用。",
+    "管理员可以通过 Kiro 控制台关闭网络搜索和网页抓取，或使用权限规则阻止它们。"
+   ]
+  },
+  "ko": {
+   "title": "AWS GovCloud (US)의 Kiro에서 웹 검색 사용 가능",
+   "summary": "Kiro 웹 검색이 이제 AWS GovCloud (US)에서 제공되어 에이전트가 인터넷의 최신 정보에 실시간으로 액세스할 수 있게 되었습니다. 에이전트는 최근 변경 사항이나 모델의 학습 데이터를 벗어난 주제와 관련된 질문에 대해 웹 검색을 자동으로 사용하며, 웹 결과를 사용하는 답변에는 출처가 포함됩니다. Kiro 엔터프라이즈 관리자는 설정에서 조직의 웹 검색 및 웹 가져오기를 비활성화할 수 있습니다.",
+   "impact": "이 기능을 통해 개발자와 사용자는 에이전트를 통해 최신 정보에 접근할 수 있습니다. 보안 및 관리 팀은 제공되는 제어 기능을 사용하여 조직 정책에 따라 웹 도구 접근을 관리하거나 차단할 수 있습니다.",
+   "keyPoints": [
+    "웹 검색이 이제 AWS GovCloud (US)의 Kiro에서 제공됩니다.",
+    "에이전트는 최신 주제에 대해 웹 검색을 자동으로 사용하고 인용을 제공합니다.",
+    "관리자는 Kiro 콘솔을 통해 웹 검색 및 웹 가져오기를 끄거나 권한 규칙으로 차단할 수 있습니다."
+   ]
+  }
+ }
+}

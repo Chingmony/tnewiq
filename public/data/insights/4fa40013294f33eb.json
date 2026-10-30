@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4fa40013294f33eb",
+ "contentHash": "f92e0c1561eea1de",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T20:57:54.636Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+   "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence-powered penetration testing framework called ARTEX to target high-value entities. The campaign has been linked to a China-based targeted intrusion adversary tracked by CrowdStrike as Vapor Panda. This activity involves simultaneous attacks directed at numerous organizations worldwide.",
+   "impact": "Security teams and technology users might face advanced automated threats as state-sponsored actors adopt AI-powered frameworks for intrusions. Organizations could need to review their defenses against simultaneous, high-value targeting techniques.",
+   "keyPoints": [
+    "Chinese threat actors are using an AI-powered penetration testing framework named ARTEX.",
+    "The tool is written in the Go programming language.",
+    "CrowdStrike attributes this activity to Vapor Panda, formerly known as VexatiousTemper."
+   ]
+  },
+  "km": {
+   "title": "ពួក Hacker ចិនប្រើប្រាស់ ARTEX ដើរដោយ AI ដើម្បីកំណត់គោលដៅលើអង្គការជាង ២០០ ទូទាំងពិភពលោក",
+   "summary": "ក្រុមពួក Hacker ដែលមានរដ្ឋចិនគាំទ្រ ត្រូវបានគេកត់សម្គាល់ឃើញថាបានប្រើប្រាស់ប្រព័ន្ធសាកល្បងជ្រៀតចូលដែលដើរដោយបញ្ញាសប្បនិម្មិតកូដ Go ហៅថា ARTEX ក្នុងការវាយប្រហារលើគោលដៅសំខាន់ៗ។ សកម្មភាពនេះត្រូវបានភ្ជាប់ដោយក្រុមហ៊ុន CrowdStrike ទៅនឹងក្រុមជ្រៀតចូលដែលមានមូលដ្ឋាននៅប្រទេសចិនដែលខ្លួនតាមដានក្រោមឈ្មោះ Vapor Panda។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងប្រឈមមុខនឹងការគំរាមកំហែងស្វ័យប្រវត្តិដ៏កម្រិតខ្ពស់ ខណៈដែលពួក Hacker ប្រើប្រាស់ប្រព័ន្ធបញ្ញាសប្បនិម្មិតសម្រាប់ការជ្រៀតចូល។ អង្គការនានាอาจត្រូវពិនិត្យឡើងវិញនូវការការពាររបស់ពួកគេប្រឆាំងនឹងបច្ចេកទេសកំណត់គោលដៅក្នុងពេលដំណាលគ្នា។",
+   "keyPoints": [
+    "ក្រុម Hacker ចិនកំពុងប្រើប្រាស់ប្រព័ន្ធសាកល្បងជ្រៀតចូលដើរដោយ AI ដែលមានឈ្មោះថា ARTEX។",
+    "ឧបករណ៍នេះត្រូវបានសរសេរជាភាសាកូដ Go។",
+    "ក្រុមហ៊ុន CrowdStrike បានកំណត់សកម្មភាពនេះទៅលើក្រុម Vapor Panda ដែលពីមុនហៅថា VexatiousTemper។"
+   ]
+  },
+  "zh-CN": {
+   "title": "中国黑客使用人工智能驱动的 ARTEX 攻击全球 200 多个组织",
+   "summary": "据观察，有中国国家背景的威胁行为者正在使用一个名为 ARTEX 的基于 Go 语言的人工智能渗透测试框架，同时针对高价值目标发起攻击。CrowdStrike 将该活动归咎于一个名为 Vapor Panda 的中国定向入侵对手。这种活动涉及同时针对全球众多组织的攻击。",
+   "impact": "随着国家背景的威胁行为者采用人工智能驱动的框架进行入侵，安全团队和技术用户可能会面临先进的自动化威胁。组织可能需要重新审视其针对同时进行的、高价值定向攻击技术的防御措施。",
+   "keyPoints": [
+    "中国威胁行为者正在使用名为 ARTEX 的人工智能渗透测试框架。",
+    "该工具使用 Go 编程语言编写。",
+    "CrowdStrike 将此活动归因于 Vapor Panda（此前称为 VexatiousTemper）。"
+   ]
+  },
+  "ko": {
+   "title": "중국 해커, AI 기반 ARTEX를 사용하여 전 세계 200개 이상의 조직을 표적으로 삼다",
+   "summary": "중국 국가 지원 위협 행위자들이 고가치 표적을 동시에 공격하기 위해 ARTEX라는 Go 기반 인공지능 침투 테스트 프레임워크를 사용하는 것이 관찰되었습니다. 이 활동은 CrowdStrike에 의해 Vapor Panda로 추적되는 중국 기반 표적 침입 적대 세력의 소행으로 지목되었습니다. 이러한 활동에는 전 세계의 수많은 조직을 향한 동시다발적 공격이 포함됩니다.",
+   "impact": "보안 팀과 기술 사용자는 국가 지원 행위자들이 침입을 위해 AI 기반 프레임워크를 채택함에 따라 고도로 발전된 자동화 위협에 직면할 수 있습니다. 조직은 동시 다발적인 고가치 표적화 기법에 대응하기 위해 방어 체계를 검토해야 할 수 있습니다.",
+   "keyPoints": [
+    "중국 위협 행위자들이 ARTEX라는 AI 기반 침투 테스트 프레임워크를 사용하고 있습니다.",
+    "해당 도구는 Go 프로그래밍 언어로 작성되었습니다.",
+    "CrowdStrike는 이 활동을 이전에는 VexatiousTemper로 알려진 Vapor Panda의 소행으로 귀속시켰습니다."
+   ]
+  }
+ }
+}

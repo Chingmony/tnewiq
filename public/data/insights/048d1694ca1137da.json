@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "048d1694ca1137da",
+ "contentHash": "561aa29e6f01ce76",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T20:58:36.221Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS WAF announces automatic SDK integration for Amazon CloudFront distributions",
+   "summary": "AWS WAF has introduced automatic SDK integration for Amazon CloudFront distributions. When enabled, CloudFront automatically adds the AWS WAF JavaScript SDK script tag to served HTML without requiring application code changes. This integration supplies necessary client-side signals for three AWS WAF managed rule groups.",
+   "impact": "This feature could reduce manual maintenance and prevent common misconfigurations for teams managing multiple applications. Security teams may find it easier to ensure client-side signals are consistently provided without modifying deployment pipelines.",
+   "keyPoints": [
+    "CloudFront automatically adds the script tag to served HTML when enabled.",
+    "Supports Bot Control, Fraud Control ATP, and Fraud Control ACFP managed rule groups.",
+    "Eliminates the need to manually add and maintain script tags across application pages.",
+    "Can be configured using the AWS Management Console, CLI, SDK, CDK, or CloudFormation with no additional charge."
+   ]
+  },
+  "km": {
+   "title": "AWS WAF ប្រកាសពីការរួមបញ្ចូល SDK ដោយស្វ័យប្រវត្តិសម្រាប់ Amazon CloudFront distributions",
+   "summary": "AWS WAF បានប្រកាសពីការរួមបញ្ចូល SDK ដោយស្វ័យប្រវត្តិសម្រាប់ Amazon CloudFront distributions។ នៅពេលបើកដំណើរការ CloudFront បន្ថែមស្លាកស្គ្រីបសម្រាប់ AWS WAF JavaScript SDK ទៅក្នុង HTML ដែលខ្លួនផ្តល់ជូនដោយមិនចាំបាច់ផ្លាស់ប្តូរកូដកម្មវិធីនោះទេ។ ការរួមបញ្ចូលនេះផ្តល់នូវសញ្ញាខាងភាគីអតិថិជនដែលប្រើប្រាស់ដោយក្រុមច្បាប់គ្រប់គ្រង AWS WAF ចំនួនបី។",
+   "impact": "មុខងារនេះអាចជួយកាត់បន្ថយការងារថែទាំដោយដៃ និងជៀសវាងកំហុសឆ្គងទូទៅសម្រាប់ក្រុមដែលគ្រប់គ្រងកម្មវិធីជាច្រើន។ ក្រុមសន្តិសុខអាចរកឃើញថាវាកាន់តែងាយស្រួលក្នុងការធានាថាការផ្តល់សញ្ញាខាងភាគីអតិថិជនត្រូវបានធ្វើឡើងជាប្រចាំ។",
+   "keyPoints": [
+    "CloudFront បន្ថែមស្លាកស្គ្រីបដោយស្វ័យប្រវត្តិទៅក្នុង HTML នៅពេលបើកដំណើរការ។",
+    "គាំទ្រដល់ក្រុមច្បាប់គ្រប់គ្រង Bot Control និង Fraud Control។",
+    "លុបបំបាត់តម្រូវការក្នុងការបន្ថែម និងថែទាំស្លាកស្គ្រីបដោយដៃនៅលើទំព័រកម្មវិធីនីមួយៗ។",
+    "អាចកំណត់រចនាសម្ព័ន្ធដោយប្រើប្រាស់ AWS Management Console, CLI, SDK, CDK ឬ CloudFormation ដោយគ្មានការគិតថ្លៃបន្ថែម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS WAF 宣布为 Amazon CloudFront distributions 提供自动 SDK 集成",
+   "summary": "AWS WAF 宣布为 Amazon CloudFront distributions 提供自动 SDK 集成。启用后，CloudFront 会将 AWS WAF JavaScript SDK 的脚本标签添加到其提供的 HTML 中，而无需更改应用程序代码、构建过程或部署。该 SDK 提供了三个 AWS WAF 托管规则组所需的客户端信号。",
+   "impact": "此功能可以减少管理多个应用程序的团队的手动维护工作，并防止常见的配置错误。安全团队可能会发现在不修改部署管道的情况下，更容易确保一致地提供客户端信号。",
+   "keyPoints": [
+    "启用后，CloudFront 会自动将脚本标签添加到提供的 HTML 中。",
+    "为 Bot Control、Fraud Control ATP 和 Fraud Control ACFP 托管规则组提供支持。",
+    "消除了在每个应用程序页面上手动添加和维护脚本标签的需求。",
+    "可以使用 AWS Management Console、CLI、SDK、CDK 或 CloudFormation 进行配置，且不收取额外费用。"
+   ]
+  },
+  "ko": {
+   "title": "AWS WAF, Amazon CloudFront distributions를 위한 자동 SDK 통합 발표",
+   "summary": "AWS WAF는 Amazon CloudFront distributions를 위한 자동 SDK 통합을 발표했습니다. 활성화하면 CloudFront는 애플리케이션 코드나 빌드 프로세스, 배포의 변경 없이 제공되는 HTML에 AWS WAF JavaScript SDK 스크립트 태그를 자동으로 추가합니다. 이 SDK는 세 가지 AWS WAF 관리형 규칙 그룹에 사용되는 클라이언트 측 신호를 공급합니다.",
+   "impact": "이 기능은 여러 애플리케이션을 관리하는 팀의 수동 유지 관리 작업을 줄이고 일반적인 설정 오류를 방지하는 데 도움을 줄 수 있습니다. 보안 팀은 배포 파이프라인을 수정하지 않고도 클라이언트 측 신호가 일관되게 제공되도록 보장하기가 더 쉬워질 수 있습니다.",
+   "keyPoints": [
+    "활성화 시 CloudFront가 제공되는 HTML에 스크립트 태그를 자동으로 추가합니다.",
+    "Bot Control 및 Fraud Control 관리형 규칙 그룹을 지원합니다.",
+    "애플리케이션 페이지마다 스크립트 태그를 수동으로 추가하고 유지 관리할 필요가 없습니다.",
+    "추가 비용 없이 AWS Management Console, CLI, SDK, CDK 또는 CloudFormation을 사용하여 구성할 수 있습니다."
+   ]
+  }
+ }
+}

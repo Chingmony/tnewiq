@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ab9badac7de59b44",
+ "contentHash": "2a34ef0b9a225abc",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T20:58:26.364Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw",
+   "summary": "Building autonomous agents requires a model, a harness, and domain-specific tools. Developers need a runtime that enforces policies, along with optimization and observability tools for reliable execution to deploy an agent more securely. The challenge for production agents is making them capable and safe while accessing real enterprise systems and data.",
+   "impact": "This may help developers and security teams deploy agents more securely by using a runtime that enforces policies. It could also provide optimization and observability tools for reliable execution.",
+   "keyPoints": [
+    "Building autonomous agents requires a model, a harness, and domain-specific tools.",
+    "A secure runtime is needed to enforce policies for agent deployment.",
+    "Optimization and observability tools are necessary for reliable execution.",
+    "Production agents must be capable and safe while accessing enterprise systems and data."
+   ]
+  },
+  "km": {
+   "title": "កសាងភ្នាក់ងារឯកទេសនៅលើស្តាកដែលអ្នកគ្រប់គ្រងជាមួយ NVIDIA NemoClaw",
+   "summary": "ការកសាងភ្នាក់ងារស្វ័យប្រវត្តិតម្រូវឱ្យមានម៉ូដែល កំណត់ហេតុ និងឧបករណ៍ជាក់លាក់តាមដែន។ អ្នកអភិវឌ្ឍន៍ត្រូវការរ៉ាន់ថែមដែលអនុវត្តគោលការណ៍ រួមជាមួយឧបករណ៍បង្កើនប្រសិទ្ធភាព និងការសង្កេតសម្រាប់ការប្រតិបត្តិដែលអាចទុកចិត្តបាន។ បញ្ហាប្រឈមសម្រាប់ភ្នាក់ងារផលិតកម្មគឺការធ្វើឱ្យភ្នាក់ងារទាំងនោះមានសមត្ថភាព និងមានសុវត្ថិភាពក្នុងការដំណើរការជាមួយការចូលប្រើប្រាស់ប្រព័ន្ធ និងទិន្នន័យរបស់សហគ្រាសពិតប្រាកដ។",
+   "impact": "នេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខដាក់ពង្រាយភ្នាក់ងារដោយសុវត្ថិភាពជាងមុនដោយប្រើរ៉ាន់ថែមដែលអនុវត្តគោលការណ៍។ វាក៏អាចផ្តល់នូវឧបករណ៍បង្កើនប្រសិទ្ធភាព និងការសង្កេតសម្រាប់ការប្រតិបត្តិដែលអាចទុកចិត្តបានផងដែរ។",
+   "keyPoints": [
+    "ការកសាងភ្នាក់ងារស្វ័យប្រវត្តិតម្រូវឱ្យមានម៉ូដែល កំណត់ហេតុ និងឧបករណ៍ជាក់លាក់តាមដែន។",
+    "រ៉ាន់ថែមដែលមានសុវត្ថិភាពគឺត្រូវបានទាមទារដើម្បីអនុវត្តគោលការណ៍សម្រាប់ការដាក់ពង្រាយភ្នាក់ងារ។",
+    "ឧបករណ៍បង្កើនប្រសិទ្ធភាព និងការសង្កេតគឺចាំបាច់សម្រាប់ការប្រតិបត្តិដែលអាចទុកចិត្តបាន។",
+    "ភ្នាក់ងារផលិតកម្មត្រូវតែមានសមត្ថភាព និងសុវត្ថិភាពខណៈពេលដែលកំពុងចូលប្រើប្រាស់ប្រព័ន្ធ និងទិន្នន័យរបស់សហគ្រាស។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 NVIDIA NemoClaw 在您控制的技术栈上构建专业化智能体",
+   "summary": "构建自主智能体需要模型、控制框架以及特定领域的工具。为了更安全地部署智能体，开发人员需要一个能够强制执行策略的运行时，以及用于可靠执行的优化和可观测性工具。对于生产级智能体，面临的挑战在于使它们在访问实际企业系统和数据时既具备能力又安全可控。",
+   "impact": "这可能会帮助开发人员和安全团队通过使用强制执行策略的运行时来更安全地部署智能体。它还可能为可靠执行提供优化和可观测性工具。",
+   "keyPoints": [
+    "构建自主智能体需要模型、控制框架和特定领域的工具。",
+    "需要一个安全的运行时来强制执行智能体部署的策略。",
+    "优化和可观测性工具对可靠执行是必不可少的。",
+    "生产级智能体在访问企业系统和数据时必须具备能力且安全。"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA NemoClaw를 사용하여 제어할 수 있는 스택에서 특화된 에이전트 구축",
+   "summary": "자율 에이전트를 구축하려면 모델, 하네스, 도메인별 도구가 필요합니다. 에이전트를 더 안전하게 배포하기 위해 개발자는 정책을 시행하는 런타임과 안정적인 실행을 위한 최적화 및 관측 가능성 도구가 필요합니다. 프로덕션 에이전트의 과제는 실제 기업 시스템 및 데이터에 액세스하는 동안 이러한 에이전트의 역량을 강화하고 안전하게 운영하는 것입니다.",
+   "impact": "이는 개발자와 보안 팀이 정책을 시행하는 런타임을 사용하여 에이전트를 더 안전하게 배포하는 데 도움이 될 수 있습니다. 또한 안정적인 실행을 위한 최적화 및 관측 가능성 도구를 제공할 수도 있습니다.",
+   "keyPoints": [
+    "자율 에이전트를 구축하려면 모델, 하네스, 도메인별 도구가 필요합니다.",
+    "에이전트 배포를 위한 정책을 시행하려면 보안 런타임이 필요합니다.",
+    "안정적인 실행을 위해서는 최적화 및 관측 가능성 도구가 필수적입니다.",
+    "프로덕션 에이전트는 기업 시스템과 데이터에 액세스하는 동안 능력이 뛰어나고 안전해야 합니다."
+   ]
+  }
+ }
+}

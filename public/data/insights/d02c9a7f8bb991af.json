@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d02c9a7f8bb991af",
+ "contentHash": "496452c74c0f483f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T21:00:11.877Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Glue Data Catalog now supports Apache Iceberg table optimization in the US West (N. California) Region",
+   "summary": "AWS Glue Data Catalog has added support for automatic table optimization for Apache Iceberg tables in the US West (N. California) Region. This feature helps manage large tables by compacting small files in the background, removing old snapshots, and deleting unreferenced files. Users can enable optimization for individual tables or across an entire Data Catalog using the AWS Glue console, AWS CLI, or AWS SDKs.",
+   "impact": "This feature could help developers and data engineers maintain query performance and reduce storage costs for data lakes over time. Teams may also benefit from centralized monitoring through the AWS Glue console, Amazon CloudWatch metrics, and logs.",
+   "keyPoints": [
+    "Automatic table optimization is now available for Apache Iceberg tables in the US West (N. California) Region.",
+    "The feature compacts small files, removes expired snapshots, and deletes unreferenced files in the background.",
+    "Optimization can be enabled for individual tables or all tables in the Data Catalog.",
+    "Runs can be monitored via the AWS Glue console, Amazon CloudWatch metrics, and logs."
+   ]
+  },
+  "km": {
+   "title": "AWS Glue Data Catalog ឥឡូវនេះគាំទ្រការបង្កើនប្រសិទ្ធភាពតារាង Apache Iceberg នៅក្នុងតំបន់ US West (N. California)",
+   "summary": "AWS Glue Data Catalog បានបន្ថែមការគាំទ្រសម្រាប់ការបង្កើនប្រសិទ្ធភាពតារាងស្វ័យប្រវត្តិសម្រាប់តារាង Apache Iceberg នៅក្នុងតំបន់ US West (N. California)។ លក្ខណៈពិសេសនេះជួយគ្រប់គ្រងតារាងធំៗដោយការបង្រួម ፋ៊ីលតូចៗក្នុងផ្ទៃខាងក្រោយ ការដកហូតរូបភាពថតចម្លងចាស់ៗ និងការលុប ፋ៊ីលដែលគ្មានឯកសារយោង។ អ្នកប្រើប្រាស់អាចបើកដំណើរការបង្កើនប្រសិទ្ធភាពសម្រាប់តារាងនីមួយៗ ឬសម្រាប់តារាងទាំងអស់នៅក្នុង Data Catalog របស់ពួកគេ។",
+   "impact": "មុខងារនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងវិស្វករទិន្នន័យក្នុងការរក្សាល្បឿននៃការសាកសួរទិន្នន័យ និងកាត់បន្ថយការចំណាយលើការផ្ទុកទិន្នន័យ។ ក្រុមការងារក៏អាចទទួលបានប្រយោជន៍ពីការត្រួតពិនិត្យតាមរយៈកុងសូល AWS Glue ក៏ដូចជាម៉ែត្រ និងកំណត់ហេតុរបស់ Amazon CloudWatch ផងដែរ។",
+   "keyPoints": [
+    "ការបង្កើនប្រសិទ្ធភាពតារាងស្វ័យប្រវត្តិឥឡូវនេះមានសម្រាប់តារាង Apache Iceberg នៅក្នុងតំបន់ US West (N. California)។",
+    "មុខងារនេះបង្រួមឯកសារតូចៗ លុបរូបភាពថតចម្លងដែលហួសកាលកំណត់ និងលុបឯកសារគ្មានឯកសារយោង។",
+    "ការបង្កើនប្រសិទ្ធភាពអាចត្រូវបានបើកដំណើរការតាមរយៈកុងសូល AWS Glue, AWS CLI ឬ AWS SDKs។",
+    "ការដំណើរការអាចត្រូវបានតាមដានតាមរយៈកុងសូល AWS Glue និងកំណត់ហេតុរបស់ Amazon CloudWatch។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Glue Data Catalog 现已在美国西部（加利福尼亚北部）区域支持 Apache Iceberg 表优化",
+   "summary": "AWS Glue Data Catalog 现已在美国西部（加利福尼亚北部）区域为 Apache Iceberg 表提供自动表优化支持。该功能通过在后台压缩小文件、清理过期快照以及删除未引用的文件，来帮助管理数据湖中的大型表。用户可以通过 AWS Glue 控制台、AWS CLI 或 AWS SDK 为单个表或 Data Catalog 中的所有表启用表优化。",
+   "impact": "此功能可以帮助开发人员和数据工程师维护查询性能，并随着时间的推移降低数据湖的存储成本。团队还可以通过 AWS Glue 控制台、Amazon CloudWatch 指标和日志来监控每次运行情况。",
+   "keyPoints": [
+    "Apache Iceberg 表的自动表优化现已在美国西部（加利福尼亚北部）区域推出。",
+    "该功能可在后台持续监控并压缩小文件、移除过期快照以及删除不再需要的未引用文件。",
+    "用户可以为单个表或 Data Catalog 中的所有表启用表优化。",
+    "可以通过 AWS Glue 控制台、Amazon CloudWatch 指标和日志监控每次运行。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Glue Data Catalog, US West (N. California) 리전에서 Apache Iceberg 테이블 최적화 지원",
+   "summary": "AWS Glue Data Catalog가 US West (N. California) 리전에서 Apache Iceberg 테이블을 위한 자동 테이블 최적화 지원을 추가했습니다. 이 기능은 백그라운드에서 작은 파일을 압축하고, 보존 기간이 지난 스냅샷을 제거하며, 참조되지 않는 파일을 삭제하여 대규모 테이블을 관리하는 데 도움을 줍니다. 사용자는 AWS Glue 콘솔, AWS CLI 또는 AWS SDK를 사용하여 개별 테이블 또는 Data Catalog의 모든 테이블에 대해 최적화를 활성화할 수 있습니다.",
+   "impact": "이 기능은 개발자와 데이터 엔지니어가 데이터 레이크의 쿼리 성능을 유지하고 시간이 지남에 따라 스토리지 비용을 절감하는 데 도움을 줄 수 있습니다. 또한 팀은 AWS Glue 콘솔, Amazon CloudWatch 지표 및 로그를 통해 각 실행을 모니터링할 수 있습니다.",
+   "keyPoints": [
+    "US West (N. California) 리전의 Apache Iceberg 테이블에 대한 자동 테이블 최적화가 지원됩니다.",
+    "백그라운드에서 작은 파일을 압축하고, 만료된 스냅샷을 제거하며, 불필요한 파일을 삭제합니다.",
+    "AWS Glue 콘솔, AWS CLI 또는 AWS SDK를 통해 테이블 최적화를 활성화할 수 있습니다.",
+    "AWS Glue 콘솔, Amazon CloudWatch 지표 및 로그를 통해 모니터링이 가능합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "33f30c5083f66cd6",
+ "contentHash": "efa32364c83ab37f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T20:58:46.518Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+   "summary": "TeamViewer has fixed a security flaw where a controlled remote host machine can attack the computer connecting to control it. In this scenario, the connecting computer acts as the viewer while the controlled machine acts as the host. A malicious or compromised host could exploit this vulnerability to crash the viewer's TeamViewer application and potentially run code depending on the platform.",
+   "impact": "Security teams and users utilizing TeamViewer could face risks if connecting to compromised or malicious host machines. This vulnerability may allow attackers to crash software or execute unauthorized code on the controlling device.",
+   "keyPoints": [
+    "TeamViewer addressed a flaw affecting remote control sessions.",
+    "The vulnerability allows a controlled host machine to attack the viewer computer.",
+    "Exploitation can crash the viewer's TeamViewer application.",
+    "Depending on the platform, execution of commands may also be possible."
+   ]
+  },
+  "km": {
+   "title": "កំហុស TeamViewer អនុញ្ញាតឱ្យកុំព្យូទ័រពីចម្ងាយវាយប្រហារអ្នកប្រើប្រាស់ដែលភ្ជាប់ដើម្បីគ្រប់គ្រងពួកវា",
+   "summary": "TeamViewer បានជួសជុលកំហុសមួយដែលអនុញ្ញាតឱ្យម៉ាស៊ីនដែលត្រូវបានគ្រប់គ្រងនៅក្នុងវគ្គពីចម្ងាយធ្វើការវាយប្រហារលើកុំព្យូទ័រដែលបានតភ្ជាប់ដើម្បីគ្រប់គ្រងវា។ នៅក្នុងវគ្គ TeamViewer កុំព្យូទ័រដែលតភ្ជាប់និងគ្រប់គ្រងគឺជាអ្នកមើលចំណែកម៉ាស៊ីនដែលវាគ្រប់គ្រងគឺជាម៉ាស៊ីនម្ចាស់ផ្ទះ។ ម៉ាស៊ីនម្ចាស់ផ្ទះដែលមានគំនិតអាក្រក់ឬត្រូវបានសម្របសម្រួលអាចទាញយកប្រយោជន៍ពីកំហុសនេះដើម្បីបង្កឱ្យកម្មវិធី TeamViewer របស់អ្នកមើលគាំង និងអាស្រ័យលើប្រព័ន្ធផ្សាយ អាចដំណើរការផងដែរ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់អាចប្រឈមមុខនឹងហានិភ័យនៅពេលតភ្ជាប់ទៅកាន់ម៉ាស៊ីនម្ចាស់ផ្ទះដែលមានបញ្ហា។ ភាពងាយរងគ្រោះនេះអាចអនុញ្ញាតឱ្យមានការគាំងកម្មវិធីឬដំណើរការកូដនៅលើឧបករណ៍គ្រប់គ្រង។",
+   "keyPoints": [
+    "TeamViewer បានដោះស្រាយកំហុសមួយដែលប៉ះពាល់ដល់វគ្គគ្រប់គ្រងពីចម្ងាយ។",
+    "ភាពងាយរងគ្រោះអនុញ្ញាតឱ្យម៉ាស៊ីនម្ចាស់ផ្ទះដែលត្រូវបានគ្រប់គ្រងវាយប្រហារលើកុំព្យូទ័រអ្នកមើល។",
+    "ការកេងប្រវ័ញ្ចអាចធ្វើឱ្យកម្មវិធី TeamViewer របស់អ្នកមើលគាំង។",
+    "អាស្រ័យលើវេទិកា ការប្រតិបត្តិកូដក៏អាចកើតមានផងដែរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "TeamViewer 漏洞允许远程计算机攻击连接并控制它们的的主机用户",
+   "summary": "TeamViewer 修复了一个漏洞，该漏洞允许在远程会话中被控制的机器攻击连接并控制它的计算机。在 TeamViewer 会话中，连接并控制的计算机是查看者，而被控制的机器则是主机。恶意或受损的主机可以利用该漏洞使查看者的 TeamViewer 崩溃，并且根据平台的不同，还可能运行代码。",
+   "impact": "连接到受损或恶意主机的使用者和安全团队可能会面临风险。此漏洞可能会让攻击者在控制端设备上崩溃软件或运行未经授权的代码。",
+   "keyPoints": [
+    "TeamViewer 修复了一个影响远程控制会话的漏洞。",
+    "该漏洞允许被控制的主机机器攻击查看者计算机。",
+    "恶意利用可以导致查看者的 TeamViewer 应用程序崩溃。",
+    "根据平台的不同，甚至可能执行代码。"
+   ]
+  },
+  "ko": {
+   "title": "TeamViewer 취약점으로 원격 컴퓨터가 제어하기 위해 연결한 사용자를 공격 가능",
+   "summary": "TeamViewer는 원격 세션에서 제어되는 피제어 기기가 제어를 위해 연결한 컴퓨터를 공격할 수 있는 취약점을 수정했습니다. TeamViewer 세션에서 연결하여 제어하는 컴퓨터는 뷰어이며 제어되는 기기는 호스트입니다. 악성 또는 손상된 호스트는 이 취약점을 악용하여 뷰어의 TeamViewer를 충돌시키고 플랫폼에 따라 코드를 실행할 수도 있습니다.",
+   "impact": "보안팀과 사용자는 손상되었거나 악성인 호스트 기기에 연결할 때 위험에 직면할 수 있습니다. 이 취약점으로 인해 제어 중인 기기에서 소프트웨어가 충돌하거나 코드가 실행될 수 있습니다.",
+   "keyPoints": [
+    "TeamViewer가 원격 제어 세션에 영향을 미치는 취약점을 수정했습니다.",
+    "이 취약점은 제어되는 호스트 기기가 뷰어 컴퓨터를 공격할 수 있게 합니다.",
+    "악용 시 뷰어의 TeamViewer 애플리케이션이 충돌할 수 있습니다.",
+    "플랫폼에 따라 코드 실행도 가능할 수 있습니다."
+   ]
+  }
+ }
+}

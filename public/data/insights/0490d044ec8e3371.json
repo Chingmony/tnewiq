@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0490d044ec8e3371",
+ "contentHash": "c296efa4b03ca53e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T21:00:01.210Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Data Migration and Synchronization Tool CloudCanal v6.6.0.0 Released with Upgraded Kudu Synchronization Capabilities",
+   "summary": "CloudCanal free community edition is a visual and automated data migration and synchronization tool developed by ClouGence. It features structural migration, data migration, data synchronization, data verification, and data correction. The tool supports data interoperability among over 60 popular relational databases, real-time data warehouses, message middlewares, cache databases, and search engines.",
+   "impact": "This tool may help developers and technology users streamline data interoperability across a wide variety of relational databases, real-time data warehouses, and search engines. The upgraded synchronization capabilities could improve efficiency when managing data flows involving Kudu.",
+   "keyPoints": [
+    "CloudCanal v6.6.0.0 has been released with upgraded Kudu synchronization capabilities.",
+    "It is an all-self-developed, visual, and automated data migration and synchronization tool.",
+    "It supports over 60 popular databases, data warehouses, and message middlewares including domestic databases like OceanBase, PolarDB, and TiDB."
+   ]
+  },
+  "km": {
+   "title": "ឧបករណ៍ផ្ទេរ និងធ្វើសមកាលកម្មទិន្នន័យ CloudCanal v6.6.0.0 ត្រូវបានដាក់ឱ្យដំណើរការជាមួយសមត្ថភាពធ្វើសមកាលកម្ម Kudu ប្រសើរឡើង",
+   "summary": "កំណែសហគមន៍ឥតគិតថ្លៃរបស់ CloudCanal គឺជាឧបករណ៍ផ្ទេរ និងធ្វើសមកាលកម្មទិន្នន័យដោយស្វ័យប្រវត្តិ ដែលត្រូវបានបង្កើតឡើងដោយក្រុមហ៊ុន ClouGence ។ វាមានមុខងារផ្ទេររចនាសម្ព័ន្ធ ផ្ទេរទិន្នន័យ ធ្វើសមកាលកម្មទិន្នន័យ ផ្ទៀងផ្ទាត់ទិន្នន័យ និងកែតម្រូវទិន្នន័យ។ ឧបករណ៍នេះគាំទ្រដល់ការផ្លាស់ប្តូរទិន្នន័យរវាងមូលដ្ឋានទិន្នន័យ និងឃ្លាំងទិន្នន័យជាង 60 ។",
+   "impact": "ឧបករណ៍នេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការសម្របសម្រួលការផ្ទេរទិន្នន័យរវាងប្រព័ន្ធផ្សេងៗ។ សមត្ថភាពដែលបានធ្វើឱ្យប្រសើរឡើងអាចជួយបង្កើនប្រសិទ្ធភាពក្នុងការគ្រប់គ្រងទិន្នន័យ.",
+   "keyPoints": [
+    "CloudCanal v6.6.0.0 ត្រូវបានចេញផ្សាយជាមួយនឹងការធ្វើឱ្យប្រសើរឡើងនូវសមត្ថភាពធ្វើសមកាលកម្ម Kudu ។",
+    "វាជាឧបករណ៍ផ្ទេរ និងធ្វើសមកាលកម្មទិន្នន័យដោយស្វ័យប្រវត្តិ។",
+    "វាគាំទ្រមូលដ្ឋានទិន្នន័យជាង 60 រួមមាន OceanBase, PolarDB, TiDB និង StarRocks ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "数据迁移同步工具 CloudCanal v6.6.0.0 发布，Kudu 同步能力升级",
+   "summary": "ClouGence 公司推出了 CloudCanal 免费社区版，这是一款全自研、可视化、自动化数据迁移同步工具。该工具具备结构迁移、数据迁移、数据同步、数据校验和数据订正等功能。它支持在 60 多款流行关系型数据库、实时数仓、消息中间件、缓存数据库和搜索引擎之间实现数据互通。",
+   "impact": "该工具可能帮助开发人员和技术用户更高效地在多种数据库和数据仓库之间进行数据迁移与互通。Kudu 同步能力的升级可能会改善相关数据流的管理体验。",
+   "keyPoints": [
+    "CloudCanal v6.6.0.0 版本发布并升级了 Kudu 同步能力。",
+    "该工具提供结构迁移、数据迁移、数据同步、数据校验和数据订正等功能。",
+    "支持包括 OceanBase、PolarDB、TiDB、StarRocks 和 Doris 在内的 60 多款流行数据库和数仓。"
+   ]
+  },
+  "ko": {
+   "title": "데이터 마이그레이션 및 동기화 도구 CloudCanal v6.6.0.0 출시, Kudu 동기화 기능 업그레이드",
+   "summary": "ClouGence가 출시한 CloudCanal 무료 커뮤니티 에디션은 자체 개발된 시각적 자동 데이터 마이그레이션 및 동기화 도구입니다. 이 도구는 구조 마이그레이션, 데이터 마이그레이션, 데이터 동기화, 데이터 검증 및 데이터 보정 등의 기능을 제공합니다. 60개 이상의 인기 관계형 데이터베이스, 실시간 데이터 웨어하우스, 메시지 미들웨어 간의 데이터 상호 운용성을 지원합니다.",
+   "impact": "이 도구는 개발자와 기술 사용자가 다양한 데이터베이스와 웨어하우스 간의 데이터 이동을 관리하는 데 도움을 줄 수 있습니다. Kudu 동기화 기능 향상은 관련 데이터 처리 작업의 효율성을 높일 수 있습니다.",
+   "keyPoints": [
+    "Kudu 동기화 기능이 업그레이드된 CloudCanal v6.6.0.0이 출시되었습니다.",
+    "구조 마이그레이션, 데이터 동기화 및 검증 등의 기능을 갖춘 자동화 도구입니다.",
+    "OceanBase, PolarDB, TiDB 등을 포함한 60개 이상의 데이터베이스와 호환됩니다."
+   ]
+  }
+ }
+}

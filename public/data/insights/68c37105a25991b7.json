@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "68c37105a25991b7",
+ "contentHash": "280d7eff95316eaa",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T20:55:19.981Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Daybreak Red from OpenAI now available to eligible customers on Amazon Bedrock in AWS GovCloud (US-East)",
+   "summary": "Daybreak Red from OpenAI is now available for eligible customers on Amazon Bedrock in AWS GovCloud (US-East) and US East (Ohio). Part of OpenAI's Daybreak cyber defense initiative, the model is built for authorized vulnerability research, exploit reproduction, and mitigation development. Access requires enrollment and approval from OpenAI, followed by enablement through the AWS account team.",
+   "impact": "Security teams and developers working in secure environments could use this tool to investigate complex security problems with fewer refusals and stronger controls. The deployment includes zero-operator access enforced at the chip and ensures inference data is not used for model training.",
+   "keyPoints": [
+    "Daybreak Red: GPT-5.6 Cyber is designed for authorized vulnerability research and exploit reproduction.",
+    "The model runs on Amazon Bedrock in AWS GovCloud (US-East) and US East (Ohio).",
+    "Features include zero-operator access at the chip level and strict data privacy controls where inference data is not used for training.",
+    "Access requires enrollment with OpenAI and approval before enabling via AWS."
+   ]
+  },
+  "km": {
+   "title": "Daybreak Red មកពី OpenAI ឥឡូវនេះមានសម្រាប់អតិថិជនដែលមានសិទ្ធិនៅលើ Amazon Bedrock ក្នុង AWS GovCloud (US-East)",
+   "summary": "Daybreak Red មកពី OpenAI ឥឡូវនេះមានសម្រាប់អតិថិជនដែលមានសិទ្ធិនៅលើ Amazon Bedrock ក្នុង AWS GovCloud (US-East) និង US East (Ohio)។ ម៉ូដែលនេះត្រូវបានបង្កើតឡើងសម្រាប់ការស្រាវជ្រាវភាពរងគ្រោះ ការបង្កើតការវាយប្រហារឡើងវិញ និងការអភិវឌ្ឍការបន្ធូរបន្ថយដែលត្រូវបានអនុញ្ញាត។ ការចូលប្រើប្រាស់ទាមទារឱ្យមានការចុះឈ្មោះ និងការយល់ព្រមពី OpenAI ព្រមទាំងការបើកដំណើរការតាមរយៈក្រុមគណនី AWS។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់ឧបករណ៍នេះដើម្បីស៊ើបអង្កេតបញ្ហាសន្តិសុខស្មុគស្មាញដោយមានការបដិសេធតិចជាងមុន។ ការដាក់ពង្រាយនេះរួមបញ្ចូលទាំងការគ្រប់គ្រងការចូលប្រើប្រាស់ និងធានាថាទិន្នន័យមិនត្រូវបានប្រើប្រាស់ដើម្បីហ្វឹកហាត់ម៉ូដែលនោះទេ។",
+   "keyPoints": [
+    "Daybreak Red: GPT-5.6 Cyber ត្រូវបានរចនាឡើងសម្រាប់ការស្រាវជ្រាវភាពរងគ្រោះដែលបានអនុញ្ញាត។",
+    "ម៉ូដែលនេះដំណើរការនៅលើ Amazon Bedrock ក្នុង AWS GovCloud (US-East) និង US East (Ohio)។",
+    "វាមានការគ្រប់គ្រងទិន្នន័យយ៉ាងតឹងរឹងដោយទិន្នន័យ inference មិនត្រូវបានប្រើប្រាស់សម្រាប់ការហ្វឹកហាត់ឡើយ។",
+    "ការចូលប្រើប្រាស់ទាមទារការចុះឈ្មោះជាមួយ OpenAI និងការយល់ព្រមជាមុន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "OpenAI 的 Daybreak Red 现已在 AWS GovCloud (US-East) 的 Amazon Bedrock 上向符合条件的客户提供",
+   "summary": "来自 OpenAI 的 Daybreak Red 现已在 AWS GovCloud (US-East) 和 US East (Ohio) 的 Amazon Bedrock 上向符合条件的客户开放。作为 OpenAI Daybreak 网络防御计划的一部分，该模型专为授权的漏洞研究、漏洞利用重现和缓解开发而构建。访问需要 OpenAI 的注册和批准，然后通过 AWS 账户团队进行启用。",
+   "impact": "安全团队和开发人员可以使用此工具以更少的拒绝和更强的控制来调查复杂的安全问题。该部署在芯片级强制执行零操作员访问，并确保推理数据不用于模型训练。",
+   "keyPoints": [
+    "Daybreak Red: GPT-5.6 Cyber 专为授权漏洞研究和漏洞利用重现而构建。",
+    "该模型可在 AWS GovCloud (US-East) 和 US East (Ohio) 的 Amazon Bedrock 上运行。",
+    "推理数据不用于训练模型，并且不需要与 OpenAI 共享数据。",
+    "访问需要注册 Daybreak 并在获得批准后通过 AWS 启用。"
+   ]
+  },
+  "ko": {
+   "title": "OpenAI의 Daybreak Red, AWS GovCloud (US-East)의 Amazon Bedrock에서 자격 있는 고객을 위해 제공 시작",
+   "summary": "OpenAI의 Daybreak Red가 AWS GovCloud (US-East) 및 US East (Ohio)의 Amazon Bedrock에서 자격을 갖춘 고객을 대상으로 제공됩니다. OpenAI의 Daybreak 사이버 방어 이니셔티브의 일환인 이 모델은 승인된 취약점 연구, 익스플로잇 재현, 완화 개발을 위해 구축되었습니다. 접근을 위해서는 OpenAI의 등록 및 승인이 필요하며 이후 AWS 계정 팀을 통해 활성화할 수 있습니다.",
+   "impact": "보안 팀과 개발자는 이 도구를 사용하여 더 적은 거부와 강력한 제어 속에서 복잡한 보안 문제를 조사할 수 있습니다. 칩 수준에서 강제되는 제로 운영자 접근을 제공하며 추론 데이터가 모델 학습에 사용되지 않습니다.",
+   "keyPoints": [
+    "Daybreak Red: GPT-5.6 Cyber는 승인된 취약점 연구 및 익스플로잇 재현을 위해 설계되었습니다.",
+    "해당 모델은 AWS GovCloud (US-East) 및 US East (Ohio)의 Amazon Bedrock에서 실행됩니다.",
+    "추론 데이터는 모델 학습에 사용되지 않으며 OpenAI와 공유할 필요가 없습니다.",
+    "모델 접근을 위해서는 OpenAI의 등록 및 승인이 필요합니다."
+   ]
+  }
+ }
+}

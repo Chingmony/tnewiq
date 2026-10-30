@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7f66bb1efb4272c1",
+ "contentHash": "7d5809ca4baf73e9",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T20:57:03.934Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+   "summary": "The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US), allowing organizations to access OpenAI models via AWS. It features two components, Work for complex tasks and Codex for software development. The deployment routes model requests through Amazon Bedrock Mantle in us-gov-west-1 using AWS IAM and regional controls. Zero data retention and strict data residency requirements are supported to help protect sensitive information.",
+   "impact": "Security teams and developers in regulated industries could use this configuration to safely deploy AI coding and workflow tools while adhering to strict data residency and governance requirements. Organizations may need to review workstations, endpoints, and IAM policies to ensure proper authorization and network restrictions.",
+   "keyPoints": [
+    "The ChatGPT desktop app is available on Amazon Bedrock in AWS GovCloud (US) using OpenAI frontier models.",
+    "It includes Work for complex tasks and Codex for software development across IDEs, CLI, and the desktop app.",
+    "Model inference routes through Amazon Bedrock Mantle in us-gov-west-1 with IAM governance and zero data retention support.",
+    "Deployments require specific configuration files like requirements.toml and config.toml alongside network restrictions."
+   ]
+  },
+  "km": {
+   "title": "កំណត់រចនាសម្ព័ន្ធកម្មវិធី ChatGPT លើកុំព្យូទ័រជាមួយ Amazon Bedrock ក្នុង AWS GovCloud (US)",
+   "summary": "កម្មវិធី ChatGPT លើកុំព្យូទ័រឥឡូវនេះអាចប្រើប្រាស់បាននៅលើ Amazon Bedrock ក្នុង AWS GovCloud (US) ដែលផ្តល់នូវការចូលប្រើម៉ូដែល OpenAI តាមរយៈ AWS ។ វាមានសមាសធcreateComponentពីរគឺ Work សម្រាប់កិច្ចការស្មុគស្មាញ និង Codex សម្រាប់ការអភិវឌ្ឍន៍សូហ្វវែរ។ ការដាក់ឱ្យប្រើប្រាស់នេះបញ្ជូនសំណើតាមរយៈ Amazon Bedrock Mantle ក្នុង us-gov-west-1 ដោយប្រើប្រាស់ AWS IAM និងការគ្រប់គ្រងក្នុងតំបន់។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់ការកំណត់រចនាសម្ព័ន្ធនេះដើម្បីដាក់ឱ្យប្រើប្រាស់ឧបករណ៍ AI ដោយគោរពតាមតម្រូវការការពារទិន្នន័យដ៏តឹងរឹង។ ស្ថាប័ននានាអាចចាំបាច់ត្រូវពិនិត្យឡើងវិញនូវគោលការណ៍កុំព្យូទ័រ និងសិទ្ធិ AWS ដើម្បីធានាបាននូវសុវត្ថិភាព។",
+   "keyPoints": [
+    "កម្មវិធី ChatGPT លើកុំព្យូទ័រអាចប្រើប្រាស់នៅលើ Amazon Bedrock ក្នុង AWS GovCloud (US) ។",
+    "វាមានសមាសធcreateComponent Work និង Codex សម្រាប់ការអភិវឌ្ឍន៍សូហ្វវែរ។",
+    "សំណើត្រូវបានបញ្ជូនតាមរយៈ Amazon Bedrock Mantle ក្នុង us-gov-west-1 ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在 AWS GovCloud (US) 中使用 Amazon Bedrock 配置 ChatGPT 桌面应用程序",
+   "summary": "ChatGPT 桌面应用程序现已在 AWS GovCloud (US) 的 Amazon Bedrock 上线，通过 AWS 提供对 OpenAI 前沿模型的访问。它提供两个主要组件，即用于复杂多步骤任务的 Work 和用于软件开发的编码代理 Codex。该配置通过 us-gov-west-1 中的 Amazon Bedrock Mantle 路由模型请求，并支持零数据保留和区域控制。",
+   "impact": "安全团队和开发人员可以利用此配置在受监管的环境中安全地部署 AI 工具，同时满足严格的数据治理和隐私要求。组织可能需要审查设备策略和 AWS 身份权限，以确保符合其安全合规标准。",
+   "keyPoints": [
+    "ChatGPT 桌面应用程序现可在 AWS GovCloud (US) 的 Amazon Bedrock 上使用。",
+    "包含用于复杂任务的 Work 和用于软件开发的 Codex 组件。",
+    "模型推理通过 us-gov-west-1 中的 Amazon Bedrock Mantle 进行路由。",
+    "支持零数据保留（ZDR）以保护敏感信息并满足隐私要求。"
+   ]
+  },
+  "ko": {
+   "title": "AWS GovCloud (US)의 Amazon Bedrock으로 ChatGPT 데스크톱 앱 구성하기",
+   "summary": "ChatGPT 데스크톱 앱을 AWS GovCloud (US)의 Amazon Bedrock에서 사용할 수 있게 되어 AWS를 통해 OpenAI 모델에 접근할 수 있게 되었습니다. 복잡한 작업을 수행하는 Work와 소프트웨어 개발을 위한 코딩 에이전트인 Codex 두 가지 구성 요소를 제공합니다. 모델 요청은 AWS IAM 및 지역 제어를 사용하여 us-gov-west-1의 Amazon Bedrock Mantle을 통해 라우팅됩니다.",
+   "impact": "보안 팀과 개발자는 이 구성을 활용하여 엄격한 데이터 거버넌스 및 개인정보 보호 요구 사항을 충족하면서 AI 도구를 안전하게 배포할 수 있습니다. 조직은 워크스테이션 정책과 AWS 권한을 검토하여 적절한 보안을 유지해야 할 수 있습니다.",
+   "keyPoints": [
+    "ChatGPT 데스크톱 앱이 AWS GovCloud (US)의 Amazon Bedrock에서 지원됩니다.",
+    "작업 수행을 위한 Work와 소프트웨어 개발을 위한 Codex를 포함합니다.",
+    "us-gov-west-1의 Amazon Bedrock Mantle을 통해 모델 추론이 라우팅됩니다.",
+    "데이터 보존이 없는(ZDR) 기능과 엄격한 지역 제어를 지원합니다."
+   ]
+  }
+ }
+}

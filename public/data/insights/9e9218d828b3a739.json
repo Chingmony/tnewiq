@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9e9218d828b3a739",
+ "contentHash": "38fc05318e889b35",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T21:01:08.015Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Comparing Human Role-Players and LLM-Simulated Clients in Online Counselling Training: An Analysis of Counselling Patterns",
+   "summary": "This study investigates the capabilities of Large Language Models to simulate counselling clients in educational role-plays compared to human role-players. Novice counsellors interacted with human peers and with clients simulated by Mistrals Mixtral 8x7b using 4-bit quantization. The interactions were analyzed using a counselling communication pattern system at the sentence level.",
+   "impact": "The findings show the potential of LLM-based role-playing exercises to enhance counselling competencies and identify areas for further refinement in virtual client simulations.",
+   "keyPoints": [
+    "Studied LLM-simulated counselling clients versus human role-players.",
+    "Used Mistrals Mixtral 8x7b with 4-bit quantization for client simulation.",
+    "Analyzed interactions using a counselling communication pattern system at the sentence level."
+   ]
+  },
+  "km": {
+   "title": "ការប្រៀបធៀបអ្នកសម្ដែងតួនាទីជាមនុស្ស និងអតិថិជនដែលត្រាប់តាមដោយ LLM ក្នុងការបណ្តុះបណ្តាលការប្រឹក្សាយោបល់តាមអ៊ីនធឺណិត៖ ការវិភាគគំរូនៃការប្រឹក្សាយោបល់",
+   "summary": "ការសិក្សានេះពិនិត្យមើលសមត្ថភាពរបស់ Large Language Models ក្នុងការត្រាប់តាមអតិថិជនប្រឹក្សាយោបល់ក្នុងការលេងតួនាទីអប់រំ បើធៀបនឹងអ្នកសម្ដែងតួនាទីជាមនុស្ស។ អ្នកប្រឹក្សាយោបល់ថ្មីថ្មោងបានអន្តរកម្មជាមួយមិត្តភក្តិជាមនុស្ស និងអតិថិជនដែលត្រាប់តាមដោយ Mistrals Mixtral 8x7b ដោយប្រើការកំណត់បរិមាណ 4-ប៊ីត។ អន្តរកម្មទាំងនេះត្រូវបានវិភាគជាមួយប្រព័ន្ធគំរូទំនាក់ទំនងប្រឹក្សាយោបល់នៅកម្រិតប្រយោគ។",
+   "impact": "ការរកឃើញនេះបង្ហាញពីសក្តានុពលនៃការហាត់សមលេងតួនាទីផ្អែកលើ LLM ដើម្បីបង្កើនសមត្ថភាពប្រឹក្សាយោបល់ និងកំណត់ផ្នែកសម្រាប់ការកែលម្អបន្ថែមទៀតនៅក្នុងការក្លែងធ្វើអតិថិជននិម្មិត។",
+   "keyPoints": [
+    "បានសិក្សាអតិថិជនប្រឹក្សាយោបល់ដែលត្រាប់តាមដោយ LLM ប្រៀបធៀបនឹងអ្នកសម្ដែងតួនាទីជាមនុស្ស។",
+    "បានប្រើប្រាស់ Mistrals Mixtral 8x7b ជាមួយការកំណត់បរិមាណ 4-ប៊ីតសម្រាប់ការក្លែងធ្វើអតិថិជន។",
+    "បានវិភាគអន្តរកម្មដោយប្រើប្រព័ន្ធគំរូទំនាក់ទំនងប្រឹក្សាយោបល់នៅកម្រិតប្រយោគ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在线咨询培训中人类角色扮演者与LLM模拟客户的比较：咨询模式分析",
+   "summary": "本研究调查了大语言模型在教育角色扮演中模拟咨询客户的能力，并与人类角色扮演者进行了比较。新手咨询师与扮演客户的人类同伴进行了互动，随后与使用4位量化的Mistrals Mixtral 8x7b模拟的客户进行了互动。这些互动在句子级别上使用咨询沟通模式系统进行了分析。",
+   "impact": "研究结果突出了基于LLM的角色扮演练习在增强咨询能力方面的潜力，并确定了虚拟客户模拟中需要进一步完善的领域。",
+   "keyPoints": [
+    "研究了LLM模拟咨询客户与人类角色扮演者的对比。",
+    "使用采用4位量化的Mistrals Mixtral 8x7b进行客户模拟。",
+    "在句子级别使用咨询沟通模式系统分析了互动。"
+   ]
+  },
+  "ko": {
+   "title": "온라인 상담 교육에서 인간 역할극 참여자와 LLM 시뮬레이션 클라이언트 비교: 상담 패턴 분석",
+   "summary": "이 연구는 교육적 역할극에서 상담 클라이언트를 시뮬레이션하는 Large Language Models의 능력을 인간 역할극 참여자와 비교하여 조사합니다. 초보 상담사들은 인간 동료 및 4비트 양자화를 사용한 Mistrals Mixtral 8x7b가 시뮬레이션한 클라이언트와 상호작용했습니다. 이러한 상호작용은 문장 수준의 상담 커뮤니케이션 패턴 시스템을 사용하여 분석되었습니다.",
+   "impact": "연구 결과는 LLM 기반 역할극 연습이 상담 역량을 향상시키고 가상 클라이언트 시뮬레이션의 추가 개선 영역을 식별할 수 있는 잠재력을 보여줍니다.",
+   "keyPoints": [
+    "LLM 시뮬레이션 상담 클라이언트와 인간 역할극 참여자를 연구함.",
+    "클라이언트 시뮬레이션을 위해 4비트 양자화가 적용된 Mistrals Mixtral 8x7b를 사용함.",
+    "문장 수준에서 상담 커뮤니케이션 패턴 시스템을 사용하여 상호작용을 분석함."
+   ]
+  }
+ }
+}

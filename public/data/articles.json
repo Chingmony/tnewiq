@@ -1,7 +1,476 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-30T15:58:45.836Z",
+ "generatedAt": "2026-10-30T20:50:09.391Z",
  "articles": [
+  {
+   "id": "71902cabc13f295e",
+   "sourceId": "ars-technica-ai",
+   "sourceName": "Ars Technica AI",
+   "originalTitle": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+   "originalUrl": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+   "originalLanguage": "en",
+   "originalDescription": "People who love AI don't always love telling others they used it.",
+   "publishedAt": "2026-10-30T20:40:13.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2228700612-1152x648.jpg",
+   "contentHash": "a7533fecbad9d073"
+  },
+  {
+   "id": "ba4f0ba987a7b511",
+   "sourceId": "nvidia-technical-blog",
+   "sourceName": "NVIDIA Technical Blog",
+   "originalTitle": "Run AI Models for Edge Application Development with Just a Few Commands",
+   "originalUrl": "https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands/",
+   "originalLanguage": "en",
+   "originalDescription": "AI is expanding beyond the data center as developers build a new generation of agents to act at the edge: monitoring driver attention and cabin conditions,...",
+   "publishedAt": "2026-10-30T20:33:18.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "3159b91f70af3def"
+  },
+  {
+   "id": "8198aceabf492528",
+   "sourceId": "techcrunch-startups",
+   "sourceName": "TechCrunch Startups",
+   "originalTitle": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+   "originalUrl": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal/",
+   "originalLanguage": "en",
+   "originalDescription": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal & Manges has been the talk of the legal industry. And now an AI firm has entered the picture.",
+   "publishedAt": "2026-10-30T19:55:13.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "startups-products",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "e1250a51e708de9c"
+  },
+  {
+   "id": "7a7299e8243f3fd7",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making",
+   "originalUrl": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
+   "originalLanguage": "en",
+   "originalDescription": "An AI agent performed brain surgery on an epileptic mouse, picking the drug, the brain target, and the injection coordinates on its own. According to lead researcher Ocana-Santero, it's the first time an AI agent has autonomously chosen a treatment and delivered it to a living…",
+   "publishedAt": "2026-10-30T19:42:59.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "82e8b68735a8b954"
+  },
+  {
+   "id": "c82e903baa3d40fa",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Web Search now available on Kiro in AWS GovCloud (US)",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/kiro-web-search-aws-govcloud-us/",
+   "originalLanguage": "en",
+   "originalDescription": "Kiro web search gives the agent real-time access to current information on the internet, so its answers draw on up-to-date search results and page content. The agent uses web search automatically when a question involves recent changes or topics beyond the model's training…",
+   "publishedAt": "2026-10-30T19:40:00.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "2e0e0fe2a91fb1f0"
+  },
+  {
+   "id": "1692dbfc7287ca8b",
+   "sourceId": "ars-technica-ai",
+   "sourceName": "Ars Technica AI",
+   "originalTitle": "Basically no one is using AI agents for their DoorDash orders",
+   "originalUrl": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+   "originalLanguage": "en",
+   "originalDescription": "But it's still early days for the relatively new e-commerce use case.",
+   "publishedAt": "2026-10-30T19:30:52.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2301817894-1024x648.jpg",
+   "contentHash": "e0255b61819f2517"
+  },
+  {
+   "id": "dddbb2a157e0733f",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon Connect Customer automatically saves in-progress emails as drafts",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-email-draft-save/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon Connect Customer automatically saves in-progress emails as drafts, helping agents resume work without losing progress when connectivity is interrupted or when their browser is accidentally closed or refreshed. When agents return, their drafts are restored with the…",
+   "publishedAt": "2026-10-30T19:30:00.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "e1bec4d52a48e537"
+  },
+  {
+   "id": "b9ee8bb30716fa37",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Google’s satellite AI server transmits its first response to Earth",
+   "originalUrl": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+   "originalLanguage": "en",
+   "originalDescription": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku…",
+   "publishedAt": "2026-10-30T18:21:38.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "9838442dc9d8db5b"
+  },
+  {
+   "id": "68c37105a25991b7",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Daybreak Red from OpenAI now available to eligible customers on Amazon Bedrock in AWS GovCloud (US-East)",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-daybreak-red-govcloud-east/",
+   "originalLanguage": "en",
+   "originalDescription": "Security teams need powerful tools to find vulnerabilities, test exploits, and build defenses. Daybreak Red from OpenAI is now available to eligible customers on Amazon Bedrock in AWS GovCloud (US-East), bringing advanced AI to this work. Part of OpenAI’s Daybreak cyber defense…",
+   "publishedAt": "2026-10-30T18:20:00.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "280d7eff95316eaa"
+  },
+  {
+   "id": "05eb8ef979fbb957",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Malicious Claude Code extension in Cursor's marketplace attempted remote access and data theft",
+   "originalUrl": "https://the-decoder.com/malicious-claude-code-extension-in-cursors-marketplace-attempted-remote-access-and-data-theft/",
+   "originalLanguage": "en",
+   "originalDescription": "A tampered Claude Code extension was live on the Cursor marketplace for about 11 hours, affecting up to 5,000 users. It tried to steal user data and set up remote access. Cursor took the entire marketplace offline and reinstated it after confirming there was no further risk…",
+   "publishedAt": "2026-10-30T18:16:10.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "8f675b5dadd8687a"
+  },
+  {
+   "id": "0aa2c4ab9e7d550d",
+   "sourceId": "techcrunch-startups",
+   "sourceName": "TechCrunch Startups",
+   "originalTitle": "Satlyt takes another step toward turning satellites into space data centers",
+   "originalUrl": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/",
+   "originalLanguage": "en",
+   "originalDescription": "Satlyt ran a successful test this month bringing it closer to turning spacecraft, starting with satellites, into virtual data centers.",
+   "publishedAt": "2026-10-30T18:01:24.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "2f9dbf75654a708e"
+  },
+  {
+   "id": "037154e824aaff25",
+   "sourceId": "huggingface-blog",
+   "sourceName": "Hugging Face Blog",
+   "originalTitle": "nemotron-halloween",
+   "originalUrl": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-10-30T17:57:24.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "5dcc3e60c84eafbe"
+  },
+  {
+   "id": "4d0843b360d077cf",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Zest’s new AI agent finds restaurants and books reservations over text",
+   "originalUrl": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+   "originalLanguage": "en",
+   "originalDescription": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+   "publishedAt": "2026-10-30T17:47:12.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "add0991c4e006fbf"
+  },
+  {
+   "id": "ad2460231cf8e2e9",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "OpenAI sets new behavioral guidelines for AI models that have already proven hard to control",
+   "originalUrl": "https://the-decoder.com/openai-sets-new-behavioral-guidelines-for-ai-models-that-have-already-proven-hard-to-control/",
+   "originalLanguage": "en",
+   "originalDescription": "OpenAI has updated its Model Spec, restructuring its AI behavior guidelines around five core values, including faithfulness to human intent and correctability. GPT models should now draw on conversation history to figure out what users actually want and disclose their own…",
+   "publishedAt": "2026-10-30T17:44:59.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "b37ded9105b47888"
+  },
+  {
+   "id": "46377df52764d6fd",
+   "sourceId": "cloudflare-blog",
+   "sourceName": "The Cloudflare Blog",
+   "originalTitle": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
+   "originalUrl": "https://blog.cloudflare.com/emudhra-patching/",
+   "originalLanguage": "en",
+   "originalDescription": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
+   "publishedAt": "2026-10-30T17:38:50.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M66XYHSQQJRRA4097AJD12PN.png",
+   "contentHash": "049b04ab5bf19b17"
+  },
+  {
+   "id": "0371ff9250f932ad",
+   "sourceId": "ars-technica-ai",
+   "sourceName": "Ars Technica AI",
+   "originalTitle": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+   "originalUrl": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+   "originalLanguage": "en",
+   "originalDescription": "Low costs and offline security mean magnetic tape still has a job.",
+   "publishedAt": "2026-10-30T17:38:19.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg",
+   "contentHash": "3a32123f0bb427f9"
+  },
+  {
+   "id": "8789b25f4f928a02",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+   "originalLanguage": "en",
+   "originalDescription": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present…",
+   "publishedAt": "2026-10-30T17:38:04.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "ffe198d062fae850"
+  },
+  {
+   "id": "f7975896246f3ccc",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "How Worldwide Express automated freight exceptions with Amazon Bedrock",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+   "originalLanguage": "en",
+   "originalDescription": "Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free…",
+   "publishedAt": "2026-10-30T17:32:20.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "9700f9ac0f2f1a8d"
+  },
+  {
+   "id": "7f66bb1efb4272c1",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/",
+   "originalLanguage": "en",
+   "originalDescription": "The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US). This post walks through a controlled local deployment that routes model inference to Amazon Bedrock in AWS GovCloud (US-West) using API-mode sign-in, a managed device policy, a named AWS profile…",
+   "publishedAt": "2026-10-30T17:27:45.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "7d5809ca4baf73e9"
+  },
+  {
+   "id": "35931fe17d7b0680",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Google's AI Mode doesn't drive traffic \"for anybody,\" Reddit CEO Huffman warns the entire web",
+   "originalUrl": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web/",
+   "originalLanguage": "en",
+   "originalDescription": "Reddit lost over one million Google search referrals per week in October, CEO Steve Huffman said. The stock dropped more than 25 percent despite strong earnings. Huffman blames Google's AI Overviews and AI Mode for driving zero traffic to external sites. Reddit now tests login…",
+   "publishedAt": "2026-10-30T17:15:24.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "8e9808aa36a0c8ed"
+  },
+  {
+   "id": "235bb524b25e5166",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Google’s first data center satellite is online and writing poetry",
+   "originalUrl": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+   "originalLanguage": "en",
+   "originalDescription": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+   "publishedAt": "2026-10-30T17:00:00.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "b12f065ca809a85b"
+  },
+  {
+   "id": "4c968204a488b73f",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon MSK now supports TLS 1.3 for data in transit",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-tls/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon MSK now supports version 1.3 of Transport Layer Security (TLS) protocol for MSK Provisioned clusters through encryption policies. TLS 1.3 delivers faster, more secure encryption for streaming data and is increasingly required by compliance frameworks and enterprise…",
+   "publishedAt": "2026-10-30T17:00:00.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "50c9733762151cb5"
+  },
+  {
+   "id": "f57e6666fba2f939",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon RDS for Oracle no longer requires automatic minor version upgrades for JVM, Spatial, Locator, and OLAP options",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-jvm-spatial-locator-olap-options-amvu-optional/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon Relational Database Service (Amazon RDS) for Oracle now lets you turn off automatic minor version upgrades on new and existing DB instances that use the JVM, Spatial, Locator, or OLAP option. Previously, these options required automatic minor version upgrades to be…",
+   "publishedAt": "2026-10-30T17:00:00.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "07fd535fcfdb83e2"
+  },
+  {
+   "id": "4fa40013294f33eb",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+   "originalUrl": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+   "originalLanguage": "en",
+   "originalDescription": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based…",
+   "publishedAt": "2026-10-30T16:58:44.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "cybersecurity",
+    "ai"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP1M46Z4Xs0qNHz9xzhTea14XsqTHvNhAfnGb4Ni9goHQR2ypz3BLKRgu-WxWD8VSUNMB3YAP7UhcCAK1AweCc3lC-7VlJ-OqNniD4FvZdE_R-XJkkRadhl2tp3-PqbKPWmQTeJ3a3gvd1kHH_zaW06tCf9cH-7k5feNqHrqbChMAsc5K3hruiX9BDROAe/s1600/CS.jpg",
+   "contentHash": "f92e0c1561eea1de"
+  },
+  {
+   "id": "77395d8493e28ae3",
+   "sourceId": "ars-technica-ai",
+   "sourceName": "Ars Technica AI",
+   "originalTitle": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
+   "originalUrl": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
+   "originalLanguage": "en",
+   "originalDescription": "Applying for FAFSA may get messy as DOJ “ghost student” crackdown ramps up.",
+   "publishedAt": "2026-10-30T16:53:49.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1425343562-1152x648.jpg",
+   "contentHash": "75de193f85a2c935"
+  },
+  {
+   "id": "621b53d3ad76e2c0",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
+   "originalUrl": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+   "originalLanguage": "en",
+   "originalDescription": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
+   "publishedAt": "2026-10-30T16:03:45.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "5a388870b7be0cba"
+  },
+  {
+   "id": "ab9badac7de59b44",
+   "sourceId": "nvidia-technical-blog",
+   "sourceName": "NVIDIA Technical Blog",
+   "originalTitle": "Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw",
+   "originalUrl": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw/",
+   "originalLanguage": "en",
+   "originalDescription": "Building an autonomous agent requires a model, a harness, and domain-specific tools. To deploy an agent more securely, developers need a runtime that enforces...",
+   "publishedAt": "2026-10-30T16:00:00.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "2a34ef0b9a225abc"
+  },
+  {
+   "id": "048d1694ca1137da",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "AWS WAF announces automatic SDK integration for Amazon CloudFront distributions",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-waf-automatic-sdk-integration-amazon-cloudfront/",
+   "originalLanguage": "en",
+   "originalDescription": "AWS WAF announces automatic SDK integration for Amazon CloudFront distributions. When you enable it, CloudFront adds the script tag for the AWS WAF JavaScript SDK to the HTML it serves, with no change to your application code, build process, or deployment. The SDK supplies the…",
+   "publishedAt": "2026-10-30T15:57:00.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "cloud-infrastructure",
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "561aa29e6f01ce76"
+  },
+  {
+   "id": "33f30c5083f66cd6",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+   "originalUrl": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+   "originalLanguage": "en",
+   "originalDescription": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host. A malicious or…",
+   "publishedAt": "2026-10-30T15:17:28.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge-ZayNgwlu4fhpD2BSyGgkMYehkV0atRJINisISPLpiubkgyXopa4NWVnxOZs9gi-DEYTNEQ5G2pu-X5iSHyMp8pguzp-Q6g-1-mGwcy3so4AkeuYFuYoaotOcmF5A-2oVDvnxd0B_FaZ7JJt8W3zrNFot6kBlJp7WffHkb7m92C9bNQnwFLwnNgXpDk/s1600/teamviewer-flaw.jpg",
+   "contentHash": "efa32364c83ab37f"
+  },
   {
    "id": "1f8c31d7527badfd",
    "sourceId": "nvidia-technical-blog",
@@ -36,6 +505,22 @@
    "contentHash": "54484419a2320e19"
   },
   {
+   "id": "d7f3b41f1dba70c8",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+   "originalLanguage": "en",
+   "originalDescription": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning…",
+   "publishedAt": "2026-10-30T14:58:06.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "c8bb27bfbea368e8"
+  },
+  {
    "id": "4d4206ade98bad0a",
    "sourceId": "cloudflare-blog",
    "sourceName": "The Cloudflare Blog",
@@ -50,6 +535,22 @@
    ],
    "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01KW44TXMXRJ1NFA38CJB0MT3A.png",
    "contentHash": "79f413de7b3ac563"
+  },
+  {
+   "id": "8fc971e55b17c65a",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+   "originalUrl": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+   "originalLanguage": "en",
+   "originalDescription": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7…",
+   "publishedAt": "2026-10-30T14:08:14.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf-pzflJO9HQoCdvBvYNtS12gwwEjAbM4dQ30ak7UYaIPzsVPN9MlFwvIDEFkbe9cWg4wQRFPbGfJ0YXjzGcBS6mUTwttwkQ8IR7OoHyTz3owZkVzYQOAObyJUqfjsC-PqMw2pv41_m68hb6ZkwJb56kGx-Ypv7GWZBtDzjyTTQ8L8i9NxA8_MDVoJSEba/s1600/wp-hack.jpg",
+   "contentHash": "e99a3f600de64b12"
   },
   {
    "id": "e54e2cc79a7ae6cb",
@@ -74,14 +575,14 @@
    "originalTitle": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
    "originalUrl": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
    "originalLanguage": "en",
-   "originalDescription": "DoorDash said that it is open to working with third-party agent makers",
+   "originalDescription": "DoorDash said that it is open to working with third-party agent makers.",
    "publishedAt": "2026-10-30T13:54:25.000Z",
    "discoveredAt": "2026-10-30T15:58:45.836Z",
    "topics": [
     "ai"
    ],
    "imageUrl": null,
-   "contentHash": "c71cfa23b13fd213"
+   "contentHash": "c664c6133824825f"
   },
   {
    "id": "57bd8cae501a4c78",
@@ -329,6 +830,22 @@
    "contentHash": "5c3f1abe613c5691"
   },
   {
+   "id": "84abd1857de5dfd9",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "originalTitle": "Making it easier for websites to express AI training preferences",
+   "originalUrl": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+   "originalLanguage": "en",
+   "originalDescription": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+   "publishedAt": "2026-10-30T09:30:00.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "a8e081c38b0f625b"
+  },
+  {
    "id": "0ec9141342ed8f27",
    "sourceId": "oschina-news",
    "sourceName": "开源中国 资讯",
@@ -359,6 +876,22 @@
    ],
    "imageUrl": null,
    "contentHash": "15d443746f6e8af5"
+  },
+  {
+   "id": "a86d24c59c826150",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "originalTitle": "Community safety report and new protections for teens",
+   "originalUrl": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+   "originalLanguage": "en",
+   "originalDescription": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+   "publishedAt": "2026-10-30T09:00:00.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "3a94126c4c0cd1a0"
   },
   {
    "id": "c096782638d443ac",
@@ -441,6 +974,22 @@
    "contentHash": "0cb7ee24c93f6ed3"
   },
   {
+   "id": "d02c9a7f8bb991af",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "AWS Glue Data Catalog now supports Apache Iceberg table optimization in the US West (N. California) Region",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-data-catalog-optimizers-us-west-1/",
+   "originalLanguage": "en",
+   "originalDescription": "AWS Glue Data Catalog now supports automatic table optimization for Apache Iceberg tables in the US West (N. California) Region. Apache Iceberg is an open table format that delivers fast query performance over large tables in data lakes. With this launch, you can enable table…",
+   "publishedAt": "2026-10-30T08:00:00.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "496452c74c0f483f"
+  },
+  {
    "id": "bc4258f9677bca1e",
    "sourceId": "the-hacker-news",
    "sourceName": "The Hacker News",
@@ -521,6 +1070,22 @@
    ],
    "imageUrl": null,
    "contentHash": "597a86aaec34e89f"
+  },
+  {
+   "id": "5c117ceb9df7af7b",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "광양경자청, 2026 GFEZ 전문가그룹 간담회 개최",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216836",
+   "originalLanguage": "ko",
+   "originalDescription": "광양만권경제자유구역청(청장 구충곤)은 30일 브리브 광주 바이 롯데호텔에서 GFEZ의 의료·철강·화학·항만물류 4개 산업 분야 전문가들과 지속가능한 발전 및 기업 투자유치 방안을 논의하는 '2026 전문가그룹 간담회'를 개최했다. 이번 행사에서는 급변하는 국내외 산업환경에 대응하고, GFEZ의 산업 경쟁력을 강화하기 위해 각 분야 전문가들이 지역의 산업 강점을 활용한 신규 투자유치 기회와 산업 간 연계·협력 방안에 대해 논의했다.전문가들은 글로벌 공급망 재편과 탄소중립 전환, AI 기술 발전…",
+   "publishedAt": "2026-10-30T06:45:00.000Z",
+   "discoveredAt": "2026-10-30T20:50:09.391Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "53789989666e8025"
   },
   {
    "id": "cab620b89f065db5",
@@ -1212,14 +1777,14 @@
    "originalTitle": "Canva Brush",
    "originalUrl": "https://www.producthunt.com/products/canva",
    "originalLanguage": "en",
-   "originalDescription": "Canva Brush: a vision-language model that edits your designs Discussion | Link",
+   "originalDescription": "A vision-language model that edits your designs Discussion | Link",
    "publishedAt": "2026-10-29T19:23:23.000Z",
    "discoveredAt": "2026-10-25T13:43:48.608Z",
    "topics": [
     "startups-products"
    ],
    "imageUrl": null,
-   "contentHash": "cf081b50db18a389"
+   "contentHash": "39c97807e3aefb23"
   },
   {
    "id": "d368308dafb9bf4a",
@@ -3980,14 +4545,14 @@
    "originalTitle": "iSurge",
    "originalUrl": "https://www.producthunt.com/products/isurge",
    "originalLanguage": "en",
-   "originalDescription": "An activity monitor, at your notch. Discussion | Link",
+   "originalDescription": "Activity monitor, per-app volume, disk cleanup at your notch Discussion | Link",
    "publishedAt": "2026-10-29T06:15:46.000Z",
    "discoveredAt": "2026-10-30T08:42:17.026Z",
    "topics": [
     "startups-products"
    ],
    "imageUrl": null,
-   "contentHash": "285ec5d5d7d4a070"
+   "contentHash": "1552a92b16589f18"
   },
   {
    "id": "71eaddcee7df407c",
@@ -4188,7 +4753,7 @@
    "originalTitle": "From Working Group to SIG Architecture: spotlight on AI Conformance",
    "originalUrl": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/",
    "originalLanguage": "en",
-   "originalDescription": "In this SIG Architecture spotlight we talked with Janet Kuo (Google) and Yuan Tang (Red Hat) about the journey of AI Conformance in Kubernetes, from the initial Working Group to the integration SIG Architecture as a subproject. Introductions Frederico Muñoz and Kirti Goyal…",
+   "originalDescription": "In this SIG Architecture spotlight we talked with Janet Kuo (Google) and Yuan Tang (TensorScale AI) about the journey of AI Conformance in Kubernetes, from the initial Working Group to the integration SIG Architecture as a subproject. Introductions Frederico Muñoz and Kirti…",
    "publishedAt": "2026-10-29T05:00:00.000Z",
    "discoveredAt": "2026-10-29T16:57:09.659Z",
    "topics": [
@@ -4196,7 +4761,7 @@
     "ai"
    ],
    "imageUrl": null,
-   "contentHash": "7d076ca53aa64799"
+   "contentHash": "1394a3ee1026d209"
   },
   {
    "id": "10326e2ed379f037",
@@ -24217,575 +24782,6 @@
    ],
    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/10/gtc26-berlin-ai-factory-confidential-computing-bare-metal-blog-1920x1080-5869427.jpg",
    "contentHash": "1242bbbbfcd3576a"
-  },
-  {
-   "id": "09d942bb1aad0976",
-   "sourceId": "nvidia-blog",
-   "sourceName": "NVIDIA Blog",
-   "originalTitle": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
-   "originalUrl": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
-   "originalLanguage": "en",
-   "originalDescription": "Agents are only as useful as what they know, and only as trustworthy as the boundaries they run within. Leading enterprises are using the open source NVIDIA Agent Toolkit — now expanded with new tools — to customize and control agents, use company data to inform their answers…",
-   "publishedAt": "2026-10-21T10:10:01.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai",
-    "mobile-hardware"
-   ],
-   "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/10/agentic-ai-agent-toolkit-pr-berlin-social-1920x1080-5811548.jpg",
-   "contentHash": "95a3f9eac6ef784f"
-  },
-  {
-   "id": "d46c8940730c093a",
-   "sourceId": "nvidia-blog",
-   "sourceName": "NVIDIA Blog",
-   "originalTitle": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
-   "originalUrl": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
-   "originalLanguage": "en",
-   "originalDescription": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and industries The portfolio includes the new NVIDIA Nemotron…",
-   "publishedAt": "2026-10-21T10:00:07.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai",
-    "mobile-hardware"
-   ],
-   "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/10/agentic-ai-key-visual-open-models-pr-gtc-berlin-2026-4k-scaled.png",
-   "contentHash": "9a7bbae1465dcb85"
-  },
-  {
-   "id": "b2842111c9af260e",
-   "sourceId": "nvidia-technical-blog",
-   "sourceName": "NVIDIA Technical Blog",
-   "originalTitle": "Inside NVIDIA Sentry: Secure AI Agents at Runtime",
-   "originalUrl": "https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime/",
-   "originalLanguage": "en",
-   "originalDescription": "An AI agent can complete its assignment and still cross a security boundary. Recent incidents show that agents can circumvent security controls while using...",
-   "publishedAt": "2026-10-21T09:52:16.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "022a5d36ee11e68a"
-  },
-  {
-   "id": "88a80623a9615ed2",
-   "sourceId": "nvidia-technical-blog",
-   "sourceName": "NVIDIA Technical Blog",
-   "originalTitle": "How NVIDIA OpenShell Reference Architecture Secures and Governs AI Agent Workloads at Scale",
-   "originalUrl": "https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale/",
-   "originalLanguage": "en",
-   "originalDescription": "Autonomous agents can work for hours on complex tasks, accessing files, tools, the internet, and spawning other agents to collaborate with. Executing complex...",
-   "publishedAt": "2026-10-21T09:50:14.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "238320c5dc4357cd"
-  },
-  {
-   "id": "1642ad325f565486",
-   "sourceId": "nvidia-technical-blog",
-   "sourceName": "NVIDIA Technical Blog",
-   "originalTitle": "Developing an AI Factory Digital Twin with an Agent-Assisted Workflow",
-   "originalUrl": "https://developer.nvidia.com/blog/developing-an-ai-factory-digital-twin-with-an-agent-assisted-workflow/",
-   "originalLanguage": "en",
-   "originalDescription": "Building an AI factory digital twin requires developers to bring site plans, equipment assets, and engineering requirements into a consistent model that teams...",
-   "publishedAt": "2026-10-21T09:38:49.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "07c2560c392f2a24"
-  },
-  {
-   "id": "3c46a6dfc80ab06c",
-   "sourceId": "nvidia-technical-blog",
-   "sourceName": "NVIDIA Technical Blog",
-   "originalTitle": "Achieve Productive AI Capacity Faster and More Predictably with NVIDIA DSX POD",
-   "originalUrl": "https://developer.nvidia.com/blog/achieve-productive-ai-capacity-faster-and-more-predictably-with-nvidia-dsx-pod/",
-   "originalLanguage": "en",
-   "originalDescription": "AI factories turn energy into intelligence. But before an AI workload can produce its first token, operators must bring an interconnected system of compute,...",
-   "publishedAt": "2026-10-21T09:35:32.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "0c9f582b8b16b890"
-  },
-  {
-   "id": "db3718abbfc4c7d4",
-   "sourceId": "nvidia-blog",
-   "sourceName": "NVIDIA Blog",
-   "originalTitle": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
-   "originalUrl": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
-   "originalLanguage": "en",
-   "originalDescription": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political events. Today, it hosts a different kind of spectacle. GTC Berlin runs three days…",
-   "publishedAt": "2026-10-21T09:30:16.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai",
-    "mobile-hardware"
-   ],
-   "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/10/jhh-keynote-kv-1920x1080-1.jpg",
-   "contentHash": "af988f0999d91e4b"
-  },
-  {
-   "id": "9f546203b6c706e9",
-   "sourceId": "woowahan-techblog",
-   "sourceName": "우아한형제들 기술블로그",
-   "originalTitle": "critical-script, 배달의민족 웹뷰 로딩 성능을 30% 개선한 인라인 스크립트 로딩 전략 이야기",
-   "originalUrl": "https://techblog.woowahan.com/27864/",
-   "originalLanguage": "ko",
-   "originalDescription": "들어가며 배달의민족 앱은 일부 지면을 웹뷰로 구성하는 하이브리드 앱입니다. 대표적인 커머스 서비스인 B마트의 가게홈 지면도 웹뷰로 구성됩니다. 웹뷰는 한 번의 개발로 iOS와 Android에 동시에 대응할 수 있어 개발 공수가 적고, 스토어 심사를 거치지 않아 필요할 때 배포할 수 있는 장점이 있습니다. 다만 화면을 그리기 위한 에셋(HTML, CSS, JavaScript)을 매번 다운로드해야 해서, 코드가 이미 앱 번들에 […] The post critical-script, 배달의민족 웹뷰…",
-   "publishedAt": "2026-10-21T07:56:08.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "26ee3f0f760f6c76"
-  },
-  {
-   "id": "de9db6f384cbc788",
-   "sourceId": "openai-news",
-   "sourceName": "OpenAI News",
-   "originalTitle": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-   "originalUrl": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-   "originalLanguage": "en",
-   "originalDescription": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-   "publishedAt": "2026-10-21T07:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "ai",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "20eb0ec3b125787d"
-  },
-  {
-   "id": "ea92da5c121ecb45",
-   "sourceId": "openai-news",
-   "sourceName": "OpenAI News",
-   "originalTitle": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-   "originalUrl": "https://openai.com/index/building-chatgpt-ad-stack",
-   "originalLanguage": "en",
-   "originalDescription": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-   "publishedAt": "2026-10-21T07:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "c0a09cc68168b803"
-  },
-  {
-   "id": "8dc7c7425eafc839",
-   "sourceId": "latent-space",
-   "sourceName": "Latent Space",
-   "originalTitle": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
-   "originalUrl": "https://latent.space/p/ainews-deepseek-deepinfer-open-source/",
-   "originalLanguage": "en",
-   "originalDescription": "An open source “bomb” drops from China",
-   "publishedAt": "2026-10-21T06:54:09.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai",
-    "developer-tools"
-   ],
-   "imageUrl": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/0ec35ae9-34c4-4317-964f-b6b0837dc76f/07a949cd-f727-48e2-9bd4-c4d110bf94e9_1326x1362.jpg?t=1792620904",
-   "contentHash": "9e3dbb64dac3d8b4"
-  },
-  {
-   "id": "c2fc46d0e6d3f17b",
-   "sourceId": "latent-space",
-   "sourceName": "Latent Space",
-   "originalTitle": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
-   "originalUrl": "https://latent.space/p/tenex/",
-   "originalLanguage": "en",
-   "originalDescription": "Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
-   "publishedAt": "2026-10-21T05:01:26.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": "https://i.ytimg.com/vi/Vki6cklFqxo/maxresdefault.jpg",
-   "contentHash": "f85d897f39ab63e8"
-  },
-  {
-   "id": "64ddfb139fec8a1c",
-   "sourceId": "openai-news",
-   "sourceName": "OpenAI News",
-   "originalTitle": "Using thousands of AI agents to uncover new leads in biological data",
-   "originalUrl": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-   "originalLanguage": "en",
-   "originalDescription": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-   "publishedAt": "2026-10-21T04:50:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "b48de088fe51a5d8"
-  },
-  {
-   "id": "2b0ec6efcf8297be",
-   "sourceId": "nist-csrc-drafts",
-   "sourceName": "NIST CSRC Drafts Open for Comment",
-   "originalTitle": "SP 800-100 Rev. 1, Information Security Handbook: A Guide for Executive LeadershipInitial Public Draft",
-   "originalUrl": "https://csrc.nist.gov/pubs/sp/800/100/r1/ipd",
-   "originalLanguage": "en",
-   "originalDescription": "The initial public draft (ipd) of NIST Special Publication (SP) 800-100r1 (Revision 1), Information Security Handbook: A Guide for Executive Leadership , is now available for comment. Since the original version of SP 800-100 was released in 2006, the cybersecurity landscape…",
-   "publishedAt": "2026-10-21T04:00:00.000Z",
-   "discoveredAt": "2026-10-26T15:34:56.245Z",
-   "topics": [
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "ebd33763c7c32545"
-  },
-  {
-   "id": "c7c1db1d24f97b16",
-   "sourceId": "google-ai-blog",
-   "sourceName": "Google AI Blog",
-   "originalTitle": "Southeast Asia’s digital economy to hit $368 billion",
-   "originalUrl": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
-   "originalLanguage": "en",
-   "originalDescription": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
-   "publishedAt": "2026-10-21T04:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/e-Conomy_SEA_hero.max-600x600.format-webp.webp",
-   "contentHash": "bc555b10f3440ea7"
-  },
-  {
-   "id": "171f9c58701ea991",
-   "sourceId": "naver-d2",
-   "sourceName": "NAVER D2",
-   "originalTitle": "2026년과 이후 JavaScript의 동향 - 브라우저 밖의 JavaScript",
-   "originalUrl": "https://d2.naver.com/helloworld/1443473",
-   "originalLanguage": "ko",
-   "originalDescription": "브라우저 밖의 JavaScript 동향을 마지막으로 다루었던 2019년 시점( 1부 , 2부 )에서는 Node.js 12와 막 1년을 넘긴 Deno를 소개하며 \"Node.js와 같은 성공을 거둘 수 있을지는 아직 미지수\"라고 썼습니다. 패키지 관리자 영역은 \"npm의 독주 체제\"라고 표현했고 npm 회사의 불확실한 상황에 맞서 Entropic, Open-Registry, GitHub Package Registry 같은 도전자가 등장했다고 전했습니다. 7년이 지난 지금 Node.js는 연 1회…",
-   "publishedAt": "2026-10-21T03:38:48.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "developer-tools",
-    "programming-languages"
-   ],
-   "imageUrl": null,
-   "contentHash": "128bb07b0e2827b9"
-  },
-  {
-   "id": "00e55c99b31a2f0f",
-   "sourceId": "android-developers-blog",
-   "sourceName": "Android Developers Blog",
-   "originalTitle": "A more reliable way to add and edit contacts on Android",
-   "originalUrl": "https://developer.android.com/blog/posts/reliable-way-to-add-and-edit-contacts-android",
-   "originalLanguage": "en",
-   "originalDescription": "Apps that target the upcoming Android release will no longer be able to directly write to contacts with the WRITE_CONTACTS permission.",
-   "publishedAt": "2026-10-21T00:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:53:11.806Z",
-   "topics": [
-    "mobile-hardware"
-   ],
-   "imageUrl": null,
-   "contentHash": "7d3ae9ca759c06bc"
-  },
-  {
-   "id": "0309219fc60b2459",
-   "sourceId": "go-blog",
-   "sourceName": "The Go Blog",
-   "originalTitle": "Help set Go's priorities for next year",
-   "originalUrl": "https://go.dev/blog/survey2026-announce",
-   "originalLanguage": "en",
-   "originalDescription": "Share your experience with Go in the 2026 Go Developer Survey, open through November 3.",
-   "publishedAt": "2026-10-21T00:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "programming-languages"
-   ],
-   "imageUrl": null,
-   "contentHash": "b055fc69f48ed128"
-  },
-  {
-   "id": "252684366be4bd9d",
-   "sourceId": "anthropic-news",
-   "sourceName": "Anthropic News",
-   "originalTitle": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
-   "originalUrl": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
-   "originalLanguage": "en",
-   "originalDescription": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement.",
-   "publishedAt": "2026-10-21T00:00:00.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "328b9f4d8c2117ac"
-  },
-  {
-   "id": "3fe372fb2e8166f0",
-   "sourceId": "openai-news",
-   "sourceName": "OpenAI News",
-   "originalTitle": "Cloudflare links vulnerability discovery to defense with OpenAI",
-   "originalUrl": "https://openai.com/index/cloudflare-cyber",
-   "originalLanguage": "en",
-   "originalDescription": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
-   "publishedAt": "2026-10-21T00:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "ai",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "4e2b5533cce7a972"
-  },
-  {
-   "id": "e270f5ba4688033d",
-   "sourceId": "openai-news",
-   "sourceName": "OpenAI News",
-   "originalTitle": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-   "originalUrl": "https://openai.com/index/empowering-cyber-defenders",
-   "originalLanguage": "en",
-   "originalDescription": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-   "publishedAt": "2026-10-21T00:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "866b8920dba8767f"
-  },
-  {
-   "id": "e8fdc622cfa67671",
-   "sourceId": "python-insider",
-   "sourceName": "Python Insider",
-   "originalTitle": "Python 3.15.1, 3.14.9 and 3.13.17 are out",
-   "originalUrl": "https://blog.python.org/2026/10/python-3151-3149-31317/",
-   "originalLanguage": "en",
-   "originalDescription": "Three certified security releases for 3.15, 3.14 and 3.13.",
-   "publishedAt": "2026-10-21T00:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "programming-languages"
-   ],
-   "imageUrl": null,
-   "contentHash": "b0fd8e8ebef98f14"
-  },
-  {
-   "id": "4257f838c0d22be2",
-   "sourceId": "simon-willison",
-   "sourceName": "Simon Willison's Weblog",
-   "originalTitle": "eMudhra Intermediate CA Compromise",
-   "originalUrl": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
-   "originalLanguage": "en",
-   "originalDescription": "eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores. Any…",
-   "publishedAt": "2026-10-20T23:50:25.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai",
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "c89d94893805234b"
-  },
-  {
-   "id": "c78cf468160e1a45",
-   "sourceId": "cloudflare-blog",
-   "sourceName": "The Cloudflare Blog",
-   "originalTitle": "8 eMudhra certificates are compromised. Here's what you need to know",
-   "originalUrl": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
-   "originalLanguage": "en",
-   "originalDescription": "Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what customers and developers should do next.",
-   "publishedAt": "2026-10-20T22:20:16.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M5DK5FY53PEFH46MT990YMSR.png",
-   "contentHash": "63e5c2f8a4342eb7"
-  },
-  {
-   "id": "e2b10a07d52407c2",
-   "sourceId": "ars-technica-gadgets",
-   "sourceName": "Ars Technica Gadgets",
-   "originalTitle": "JustWatch, which tackles streaming fragmentation, launches own streaming service",
-   "originalUrl": "https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service/",
-   "originalLanguage": "en",
-   "originalDescription": "A lifetime ad-free subscription is available.",
-   "publishedAt": "2026-10-20T20:20:12.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "mobile-hardware"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Global_banner_preview-1152x648.png",
-   "contentHash": "150e6c6ffd2cd39e"
-  },
-  {
-   "id": "379ed475f59bcf1f",
-   "sourceId": "ars-technica-ai",
-   "sourceName": "Ars Technica AI",
-   "originalTitle": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
-   "originalUrl": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
-   "originalLanguage": "en",
-   "originalDescription": "Meta changes AI scraping policy but won’t add language respecting robots.txt.",
-   "publishedAt": "2026-10-20T20:07:58.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2299491134-1152x648.jpg",
-   "contentHash": "e51df91fb5c7528d"
-  },
-  {
-   "id": "3fae25bc07477e49",
-   "sourceId": "ars-technica-ai",
-   "sourceName": "Ars Technica AI",
-   "originalTitle": "Gemini's Personal Intelligence is coming to cars",
-   "originalUrl": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
-   "originalLanguage": "en",
-   "originalDescription": "It's probably time to audit your Gemini settings.",
-   "publishedAt": "2026-10-20T20:00:33.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/google-gemini-android-auto-1152x648.png",
-   "contentHash": "4fc802edb4575f89"
-  },
-  {
-   "id": "dd45cf1955c24060",
-   "sourceId": "ars-technica-gadgets",
-   "sourceName": "Ars Technica Gadgets",
-   "originalTitle": "OpenBSD 8.0 arrives with security record still intact",
-   "originalUrl": "https://arstechnica.com/gadgets/2026/10/openbsd-8-0-lands-with-intel-arc-graphics-support/",
-   "originalLanguage": "en",
-   "originalDescription": "OpenBSD 8.0 lands with Intel Arc support, ARM64 hibernation, and 64-vCPU guests",
-   "publishedAt": "2026-10-20T19:57:18.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "mobile-hardware"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/OpenBSD80Fish-e1792523267196.png",
-   "contentHash": "e9115ea88610cc41"
-  },
-  {
-   "id": "7fa30abfca2c7ff1",
-   "sourceId": "simon-willison",
-   "sourceName": "Simon Willison's Weblog",
-   "originalTitle": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
-   "originalUrl": "https://simonwillison.net/2026/Oct/20/battledrones/",
-   "originalLanguage": "en",
-   "originalDescription": "My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to play . I'm somewhat embarrassed to admit that I got there by telling Claude to…",
-   "publishedAt": "2026-10-20T19:34:19.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai",
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "64b6737079377f33"
-  },
-  {
-   "id": "e383381c77c0c2a8",
-   "sourceId": "latent-space",
-   "sourceName": "Latent Space",
-   "originalTitle": "The Programmable Data Center — Evan Conrad, SF Compute",
-   "originalUrl": "https://latent.space/p/sfcompute2/",
-   "originalLanguage": "en",
-   "originalDescription": "From GPU trading to physical settlement, independent markets, and programmable compute",
-   "publishedAt": "2026-10-20T19:31:57.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": "https://i.ytimg.com/vi/EAtLq9_vrE0/maxresdefault.jpg",
-   "contentHash": "ebc5a1a137be69c9"
-  },
-  {
-   "id": "7b93b8c0d8e313e1",
-   "sourceId": "ars-technica-gadgets",
-   "sourceName": "Ars Technica Gadgets",
-   "originalTitle": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
-   "originalUrl": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
-   "originalLanguage": "en",
-   "originalDescription": "Ukraine’s latest drone innovation may boost bleak odds of evacuating casualties.",
-   "publishedAt": "2026-10-20T18:22:54.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "mobile-hardware"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Ukraine-drone-evacuation-1152x648.jpg",
-   "contentHash": "3f3b0d1505706ae5"
-  },
-  {
-   "id": "b9a355ed1cbb06e6",
-   "sourceId": "cert-cc-vulnotes",
-   "sourceName": "CERT/CC Vulnerability Notes",
-   "originalTitle": "VU#645818: Xerj Console API authentication bypass leads to unauthorized credential minting",
-   "originalUrl": "https://kb.cert.org/vuls/id/645818",
-   "originalLanguage": "en",
-   "originalDescription": "Overview An authentication bypass vulnerability in the Xerj Console API allows sessions to bypass passkey-backed requirements during token issuance. By exploiting this flaw, an attacker with an existing valid token can create independent, persistent successor credentials…",
-   "publishedAt": "2026-10-20T18:09:44.460Z",
-   "discoveredAt": "2026-10-26T15:34:56.245Z",
-   "topics": [
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "93badb5075896e9d"
-  },
-  {
-   "id": "f947e16b0eddde44",
-   "sourceId": "techcrunch-startups",
-   "sourceName": "TechCrunch Startups",
-   "originalTitle": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
-   "originalUrl": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
-   "originalLanguage": "en",
-   "originalDescription": "Eric Schmidt’s fortune is about to get even bigger.",
-   "publishedAt": "2026-10-20T17:55:12.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "3fd5bf86670981d1"
-  },
-  {
-   "id": "21a4308dfea07111",
-   "sourceId": "typescript-blog",
-   "sourceName": "TypeScript Blog",
-   "originalTitle": "Announcing TypeScript 7.1 Beta",
-   "originalUrl": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/",
-   "originalLanguage": "en",
-   "originalDescription": "Today we’re excited to announce the beta release of TypeScript 7.1! npm install -D typescript@beta Let’s take a look at what’s new in TypeScript 7.1! Support for Import Attributes in Ambient Modules Import attributes are metadata that are attached to import statements…",
-   "publishedAt": "2026-10-20T17:53:06.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "programming-languages"
-   ],
-   "imageUrl": null,
-   "contentHash": "eab008ad6a812e14"
-  },
-  {
-   "id": "5e09c3ded611dfaa",
-   "sourceId": "ars-technica-ai",
-   "sourceName": "Ars Technica AI",
-   "originalTitle": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
-   "originalUrl": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
-   "originalLanguage": "en",
-   "originalDescription": "Meta argues nobody “decided” to pirate books to train AI.",
-   "publishedAt": "2026-10-20T17:40:20.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2273107915-1024x648.jpg",
-   "contentHash": "59b912d785d435a5"
   }
  ]
 }
