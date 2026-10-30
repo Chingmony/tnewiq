@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b36cbddd30558fea",
+ "contentHash": "6cf3debd656573c5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T02:05:15.391Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+   "summary": "Alpine Linux reported that an attacker attempted to exploit a critical GitLab vulnerability on its GitLab server a week after a fix was released. The vulnerability, tracked as CVE-2026-97229 with a CVSS score of 10.0, allows code execution on a GitLab server using a crafted regular expression in a CI configuration. Alpine stated that they found no evidence the attack was successful.",
+   "impact": "This highlights the risks associated with delayed security updates, as servers can face exploitation attempts shortly after patches are released. Security teams and administrators may need to prioritize rapid patching to mitigate potential code execution risks.",
+   "keyPoints": [
+    "An attacker attempted to exploit a GitLab vulnerability on Alpine Linux's server.",
+    "The flaw is designated as CVE-2026-97229 with a CVSS score of 10.0.",
+    "The vulnerability involves a crafted regular expression in a CI configuration enabling code execution.",
+    "Alpine Linux found no evidence that the attack was successful."
+   ]
+  },
+  "km": {
+   "title": "ជនდაჯਮഘាតបានព្យាយាមវាយប្រហារ GitLab របស់ Alpine Linux តាមរយៈកំហុស CVSS 10.0",
+   "summary": "Alpine Linux បានរាយការណ៍ថា ជនខិលខូចម្នាក់បានព្យាយាមទាញយកប្រយោជន៍ពីរន្ធគំហុស GitLab ដ៏គ្រោះថ្នាក់នៅលើម៉ាស៊ីនបម្រើរបស់ខ្លួន មួយសប្តាហ៍បន្ទាប់ពី GitLab បានចេញផ្សាយដំណោះស្រាយ។ រន្ធគំហុសដែលមានលេខសម្គាល់ CVE-2026-97229 និងពិន្ទុ CVSS 10.0 អនុញ្ញាតឱ្យដំណើរការកូដនៅលើម៉ាស៊ីនបម្រើ GitLab តាមរយៈកន្សោម రెగុឡា អ៊ិចប្រេសិន នៅក្នុងការកំណត់រចនាសម្ព័ន្ធ CI។ Alpine បានបញ្ជាក់ថា ខ្លួនមិនរកឃើញភស្តុតាងណាមួយបញ្ជាក់ថាការវាយប្រហារនោះទទួលបានជោគជ័យឡើយ។",
+   "impact": "បញ្ហានេះបង្ហាញពីហានិភ័យនៃការយឺតយ៉ាវក្នុងការអាប់ដេតសុវត្ថិភាព ព្រោះម៉ាស៊ីនបម្រើអាចប្រឈមនឹងការវាយប្រហារមិនយូរប៉ុន្មានបន្ទាប់ពីការចេញផ្សាយបំណះ។ ក្រុមសន្តិសុខ និងអ្នកគ្រប់គ្រងប្រព័ន្ធអាចចាំបាច់ត្រូវផ្តល់អាទិភាពដល់ការបិទរន្ធគំហុសឱ្យបានរហ័ស។",
+   "keyPoints": [
+    "ជនខិលខូចបានព្យាយាមវាយប្រហាររន្ធគំហុស GitLab នៅលើម៉ាស៊ីនបម្រើរបស់ Alpine Linux។",
+    "រន្ធគំហុសនេះមានលេខ CVE-2026-97229 ជាមួយពិន្ទុ CVSS 10.0។",
+    "រន្ធគំហុសនេះអនុញ្ញាតឱ្យប្រតិបត្តិការកូដតាមរយៈកន្សោម రెగុឡា អ៊ិចប្រេសិន ក្នុងការកំណត់រចនាសម្ព័ន្ធ CI។",
+    "Alpine Linux រកមិនឃើញភស្តុតាងបញ្ជាក់ថាការវាយប្រហារនោះសម្រេចជោគជ័យទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "攻击者利用Ruby留下的CVSS 10.0漏洞尝试攻击Alpine Linux的GitLab",
+   "summary": "Alpine Linux于10月28日表示，在GitLab发布修复补丁一周后，攻击者试图在其自己的GitLab服务器上利用一个严重的GitLab漏洞。该漏洞编号为CVE-2026-97229，CVSS评分为10.0，允许攻击者通过CI配置中精心构造的正则表达式在GitLab服务器上运行代码。Alpine表示没有发现该攻击成功的证据。",
+   "impact": "这凸显了延迟安装安全更新所带来的风险，服务器在补丁发布后不久便可能面临利用尝试。安全团队和管理员可能需要优先进行快速修补，以减轻潜在的代码执行风险。",
+   "keyPoints": [
+    "攻击者试图在Alpine Linux的GitLab服务器上利用关键的GitLab漏洞。",
+    "该漏洞编号为CVE-2026-97229，CVSS评分为10.0。",
+    "该漏洞可通过CI配置中的正则表达式在GitLab服务器上运行代码。",
+    "Alpine Linux未发现该攻击成功的证据。"
+   ]
+  },
+  "ko": {
+   "title": "공격자가 Ruby가 방치한 CVSS 10.0 취약점을 통해 Alpine Linux의 GitLab을 공격하려 시도",
+   "summary": "Alpine Linux는 GitLab이 수정 사항을 배포한 지 일주일 만에 공격자가 자체 GitLab 서버에서 심각한 GitLab 취약점을 악용하려고 시도했다고 10월 28일에 밝혔다. CVE-2026-97229로 추적되는 이 취약점은 CVSS 점수 10.0으로, CI 구성에서 조작된 정규식을 통해 공격자가 GitLab 서버에서 코드를 실행할 수 있게 한다. Alpine은 공격이 성공했다는 증거를 찾지 못했다고 밝혔다.",
+   "impact": "이번 사건은 보안 업데이트가 지연될 때 발생할 수 있는 위험을 보여주며, 패치가 배포된 직후 서버가 공격 시도에 직면할 수 있음을 시사한다. 보안 팀과 관리자는 잠재적인 코드 실행 위험을 완화하기 위해 신속한 패치를 우선시해야 할 수 있다.",
+   "keyPoints": [
+    "공격자가 Alpine Linux의 GitLab 서버에서 치명적인 GitLab 취약점을 악용하려고 시도함.",
+    "해당 취약점은 CVE-2026-97229이며 CVSS 점수는 10.0임.",
+    "이 취약점은 CI 구성의 정규식을 통해 GitLab 서버에서 코드를 실행할 수 있게 함.",
+    "Alpine Linux는 공격이 성공했다는 증거를 발견하지 못함."
+   ]
+  }
+ }
+}

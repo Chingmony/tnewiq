@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a39be66c5a0cd62f",
+ "contentHash": "2fad24650a931f3f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T02:06:17.171Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Backup now supports cross-account management and cross-account backup in the AWS European Sovereign Cloud",
+   "summary": "AWS Backup has added support for cross-account management, cross-account backup, and delegated administrators in the AWS European Sovereign Cloud (Germany) Region. These features allow users to centrally manage, monitor, and copy backups across organization accounts using AWS Organizations. Users can deploy organization-wide backup policies, monitor various jobs from a single location, and copy recovery points to vaults in other accounts. There is no additional charge to use these capabilities beyond standard AWS Backup pricing.",
+   "impact": "Security teams and cloud administrators could use these features to improve backup protection against accidental or malicious deletion by isolating recovery points in separate accounts. Organizations may also benefit from delegated administration, allowing teams to manage backups without requiring access to the main management account.",
+   "keyPoints": [
+    "Cross-account management and backup are now supported in the AWS European Sovereign Cloud (Germany) Region.",
+    "Users can deploy organization-wide backup policies via AWS Organizations or delegated administrators.",
+    "Recovery points can be copied to vaults in other accounts for added protection against deletion.",
+    "There is no extra charge for using these capabilities beyond standard pricing."
+   ]
+  },
+  "km": {
+   "title": "AWS Backup ឥឡូវនេះគាំទ្រការគ្រប់គ្រងឆ្លងគណនី និងការបម្រុងទុកឆ្លងគណនីនៅក្នុង AWS European Sovereign Cloud",
+   "summary": "AWS Backup បានបន្ថែមការគាំទ្រសម្រាប់ការគ្រប់គ្រងឆ្លងគណនី ការបម្រុងទុកឆ្លងគណនី និងអ្នកគ្រប់គ្រងដែលបានផ្ទេរអំណាចនៅក្នុងតំបន់ AWS European Sovereign Cloud (Germany)។លក្ខណៈពិសេសទាំងនេះអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់គ្រប់គ្រង តាមដាន និងចម្លងការបម្រុងទុកកណ្តាលនៅទូទាំងគណនីអង្គការដោយប្រើ AWS Organizations។អ្នកប្រើប្រាស់អាចដាក់ពង្រាយគោលការណ៍បម្រុងទុកទូទាំងអង្គការ តាមដានការងារពីកន្លែងតែមួយ និងចម្លងចំណុចសង្គ្រោះទៅកាន់គណនីផ្សេងទៀត។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកគ្រប់គ្រងប្រព័ន្ធពពកអាចប្រើប្រាស់មុខងារទាំងនេះដើម្បីបង្កើនការការពារការបម្រុងទុកប្រឆាំងនឹងការលុបដោយចៃដន្យ ឬដោយចេតនាអាក្រក់។អង្គការក៏អាចទទួលបានអត្ថប្រយោជន៍ពីការគ្រប់គ្រងដែលបានផ្ទេរអំណាច ដែលអនុញ្ញាតឱ្យក្រុមការងារគ្រប់គ្រងការបម្រុងទុកដោយមិនចាំបាច់ចូលទៅកាន់គណនីគ្រប់គ្រងចម្បងឡើយ។",
+   "keyPoints": [
+    "ការគ្រប់គ្រង និងការបម្រុងទុកឆ្លងគណនីឥឡូវនេះត្រូវបានគាំទ្រនៅក្នុងតំបន់ AWS European Sovereign Cloud (Germany)។",
+    "អ្នកប្រើប្រាស់អាចដាក់ពង្រាយគោលការណ៍បម្រុងទុកទូទាំងអង្គការតាមរយៈ AWS Organizations។",
+    "ចំណុចសង្គ្រោះអាចត្រូវបានចម្លងទៅកាន់គណនីផ្សេងទៀតសម្រាប់ការការពារបន្ថែម។",
+    "គ្មានការគិតថ្លៃបន្ថែមសម្រាប់ការប្រើប្រាស់លក្ខណៈពិសេសទាំងនេះក្រៅពីតម្លៃស្តង់ដារឡើយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Backup 现已在 AWS European Sovereign Cloud 中支持跨账号管理和跨账号备份",
+   "summary": "AWS Backup 现已在 AWS European Sovereign Cloud (Germany) 区域支持跨账号管理、跨账号备份以及委派管理员功能。这些功能可帮助用户使用 AWS Organizations 在组织内的各个账号之间集中管理、监控和复制备份。用户可以部署组织范围的备份策略、从一个位置监控各种任务，并将恢复点复制到其他账号的备份库中。除标准 AWS Backup 定价外，使用这些功能不收取额外费用。",
+   "impact": "安全团队和云管理员可以利用这些功能，通过将恢复点隔离在其他账号中来增强对意外或恶意删除的保护。组织还可以从委派管理中受益，使团队能够在无需访问主管理账号的情况下管理备份。",
+   "keyPoints": [
+    "AWS European Sovereign Cloud (Germany) 区域现已支持跨账号管理和跨账号备份。",
+    "用户可以通过 AWS Organizations 或委派管理员部署组织范围的备份策略。",
+    "可以将恢复点复制到其他账号的备份库以防止意外或恶意删除。",
+    "除标准 AWS Backup 定价外，使用这些功能无需支付额外费用。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Backup, 이제 AWS European Sovereign Cloud에서 교차 계정 관리 및 교차 계정 백업 지원",
+   "summary": "AWS Backup이 AWS European Sovereign Cloud (Germany) 리전에서 교차 계정 관리, 교차 계정 백업 및 위임 관리자 지원을 추가했습니다. 이러한 기능을 통해 사용자는 AWS Organizations를 사용하여 조직 내 계정 간에 백업을 중앙에서 관리, 모니터링 및 복사할 수 있습니다. 사용자는 조직 전체의 백업 정책을 배포하고, 단일 위치에서 작업을 모니터링하며, 복구 지점을 다른 계정의 백업 볼트로 복사할 수 있습니다. 표준 AWS Backup 요금 외에 이러한 기능을 사용하는 데 추가 비용은 청구되지 않습니다.",
+   "impact": "보안 팀과 클라우드 관리자는 복구 지점을 다른 계정에 격리하여 우발적이거나 악의적인 삭제로부터 백업 보호를 강화하는 데 이러한 기능을 사용할 수 있습니다. 또한 조직은 위임된 관리를 통해 기본 관리 계정에 대한 액세스 권한 없이도 팀이 백업을 관리할 수 있는 이점을 얻을 수 있습니다.",
+   "keyPoints": [
+    "AWS European Sovereign Cloud (Germany) 리전에서 교차 계정 관리 및 백업이 지원됩니다.",
+    "사용자는 AWS Organizations 또는 위임된 관리자를 통해 조직 전체 백업 정책을 배포할 수 있습니다.",
+    "삭제로부터 추가적인 보호를 위해 복구 지점을 다른 계정의 볼트로 복사할 수 있습니다.",
+    "표준 백업 요금 외에 추가 비용 없이 사용할 수 있습니다."
+   ]
+  }
+ }
+}

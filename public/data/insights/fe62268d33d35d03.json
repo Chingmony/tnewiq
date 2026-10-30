@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fe62268d33d35d03",
+ "contentHash": "d8e0790d578eecc9",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T02:04:32.145Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon MSK Connect now supports updating connector plugins and worker configurations",
+   "summary": "Amazon MSK Connect now allows users to update the custom plugin and worker configuration of an existing connector in place. Previously, this required deleting and recreating the connector. The update preserves committed offsets so tasks continue processing from where they left off.",
+   "impact": "This capability may reduce operational overhead and risk for developers and operations teams by eliminating the need to delete and recreate connectors. It could make updating connector code dependencies and tuning worker settings less disruptive.",
+   "keyPoints": [
+    "Updates can now be done in place without deleting and recreating connectors.",
+    "Connectors keep their committed offsets and resume processing after the update.",
+    "The feature supports updating custom plugins and worker-level settings.",
+    "Available at no additional cost in all AWS Regions where Amazon MSK Connect is supported."
+   ]
+  },
+  "km": {
+   "title": "Amazon MSK Connect ឥឡូវនេះគាំទ្រដល់ការអាប់ដេតកម្មវិធីជំនួយតំណ និងការកំណត់រចនាសម្ព័ន្ធកម្មករ",
+   "summary": "Amazon MSK Connect ឥឡូវនេះអនុញ្ញាតឱ្យអ្នកអាប់ដេតកម្មវិធីជំនួយផ្ទាល់ខ្លួន និងការកំណត់រចនាសម្ព័ន្ធកម្មករនៃតំណដែលមានស្រាប់ដោយផ្ទាល់។ កាលពីមុន សកម្មភាពនេះតម្រូវឱ្យលុបនិងបង្កើតតំណឡើងវិញ។ ការអាប់ដេតនេះរក្សាទុកទិន្នន័យដែលបានប្តេជ្ញាចិត្ត ដូច្នេះភារកិច្ចបន្តដំណើរការពីកន្លែងដែលពួកវាបានឈប់។",
+   "impact": "លក្ខណៈពិសេសនេះអាចកាត់បន្ថយបន្ទុកប្រតិបត្តិការ និងហានិភ័យសម្រាប់អ្នកអភិវឌ្ឍន៍ដោយមិនបាច់លុបនិងបង្កើតតំណឡើងវិញ។ វាអាចធ្វើឱ្យការអាប់ដេតកូដ និងការកំណត់ការលៃតម្រូវមានភាពរលូនជាងមុន។",
+   "keyPoints": [
+    "ការអាប់ដេតអាចធ្វើឡើងដោយផ្ទាល់ដោយមិនចាំបាច់លុបនិងបង្កើតតំណឡើងវិញ។",
+    "តំណរក្សាទុកទិន្នន័យដែលបានប្តេជ្ញាចិត្ត និងបន្តដំណើរការបន្ទាប់ពីអាប់ដេតរួច។",
+    "គាំទ្រដល់ការអាប់ដេតកម្មវិធីជំនួយផ្ទាល់ខ្លួន និងការកំណត់កម្រិតកម្មករ។",
+    "មានដោយគ្មានការគិតថ្លៃបន្ថែមនៅក្នុងតំបន់ AWS ទាំងអស់ដែលគាំទ្រ Amazon MSK Connect។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon MSK Connect 现已支持更新连接器插件和工作线程配置",
+   "summary": "Amazon MSK Connect 现在允许用户直接更新现有连接器的自定义插件和工作线程配置。此前，这需要删除并重新创建连接器。该更新保留了已提交的偏移量，因此任务在更新完成后可以从中断处继续处理。",
+   "impact": "此功能消除了删除和重新创建连接器的需求，从而可能降低开发人员和运维团队的操作开销与风险。它可能会使更新连接器代码依赖项和调整工作线程设置变得更不具破坏性。",
+   "keyPoints": [
+    "现在可以直接进行更新，而无需删除和重新创建连接器。",
+    "连接器保留其已提交的偏移量并在更新后恢复处理。",
+    "支持更新自定义插件和工作线程级别的设置。",
+    "在支持 Amazon MSK Connect 的所有 AWS 区域中提供且不产生额外费用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon MSK Connect, 이제 커넥터 플러그인 및 워커 구성 업데이트 지원",
+   "summary": "Amazon MSK Connect를 사용하면 기존 커넥터의 사용자 지정 플러그인과 워커 구성을 제자리에서 업데이트할 수 있습니다. 이전에는 커넥터를 삭제하고 다시 생성해야 했습니다. 이번 업데이트는 커밋된 오프셋을 유지하므로 업데이트가 완료되면 작업이 중단된 지점부터 계속 처리됩니다.",
+   "impact": "이 기능은 커넥터를 삭제하고 다시 생성할 필요가 없으므로 개발자와 운영 팀의 운영 오버헤드와 위험을 줄일 수 있습니다. 커넥터 코드 종속성을 업데이트하고 워커 설정을 조정하는 작업이 덜 파괴적으로 이루어질 수 있습니다.",
+   "keyPoints": [
+    "커넥터를 삭제하고 다시 생성할 필요 없이 제자리에서 업데이트가 가능합니다.",
+    "커넥터는 커밋된 오프셋을 유지하고 업데이트 완료 후 처리를 계속합니다.",
+    "사용자 지정 플러그인 및 워커 수준 설정 업데이트를 지원합니다.",
+    "Amazon MSK Connect가 지원되는 모든 AWS 리전에서 추가 비용 없이 제공됩니다."
+   ]
+  }
+ }
+}

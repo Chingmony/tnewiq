@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8fc43b3d0efcc5fb",
+ "contentHash": "fd88fdd351dc2264",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T02:04:21.974Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Aurora now supports post-quantum TLS key exchange",
+   "summary": "Amazon Aurora PostgreSQL-Compatible Edition has introduced support for post-quantum TLS key exchange. This feature offers post-quantum cryptography options for encrypting data in transit. Users running Amazon Aurora PostgreSQL version 18 and higher can modify the ssl_groups parameter and select cryptographic groups from an allow list.",
+   "impact": "This update could help organizations enhance their data-in-transit security using post-quantum cryptography options. Security teams and database administrators may align their database configurations with evolving organizational security standards.",
+   "keyPoints": [
+    "Amazon Aurora PostgreSQL-Compatible Edition now supports post-quantum TLS key exchange.",
+    "Available on Amazon Aurora PostgreSQL versions 18 and higher.",
+    "Users can modify the ssl_groups parameter using allowed cryptographic groups."
+   ]
+  },
+  "km": {
+   "title": "Amazon Aurora ឥឡូវនេះគាំទ្រការដោះដូរគ្រាប់ចុច post-quantum TLS",
+   "summary": "Amazon Aurora PostgreSQL-Compatible Edition បានដាក់ឱ្យប្រើប្រាស់ការគាំទ្រសម្រាប់ការដោះដូរគ្រាប់ចុច post-quantum TLS ដែលផ្តល់នូវជម្រើសគ្រីបតូក្រាហ្វី post-quantum សម្រាប់ការអ៊ិនគ្រីបាទិន្នន័យរបស់អ្នកពេលកំពុងបញ្ជូន។ កំណែ Amazon Aurora PostgreSQL 18 និងខ្ពស់ជាងនេះគាំទ្រដល់ការកែប្រែប៉ារ៉ាម៉ែត្រ ssl_groups។ អ្នកអាចជ្រើសរើសក្រុមគ្រីបតូក្រាហ្វីពីបញ្ជីអនុញ្ញាតដើម្បីឱ្យស្របតាមស្ដង់ដារសុវត្ថិភាពរបស់ស្ថាប័នអ្នក។",
+   "impact": "បច្ចុប្បន្នភាពនេះអាចជួយដល់ក្រុមសន្តិសុខ និងអ្នកគ្រប់គ្រងមូលដ្ឋានទិន្នន័យក្នុងការបង្កើនសុវត្ថិភាពទិន្នន័យពេលកំពុងបញ្ជូនដោយប្រើប្រាស់ជម្រើសគ្រីបតូក្រាហ្វី post-quantum។",
+   "keyPoints": [
+    "Amazon Aurora PostgreSQL-Compatible Edition ឥឡូវនេះគាំទ្រការដោះដូរគ្រាប់ចុច post-quantum TLS។",
+    "អាចប្រើបាននៅលើកំណែ Amazon Aurora PostgreSQL 18 និងខ្ពស់ជាងនេះ។",
+    "អ្នកប្រើប្រាស់អាចកែប្រែប៉ារ៉ាម៉ែត្រ ssl_groups។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Aurora 现已支持后量子 TLS 密钥交换",
+   "summary": "Amazon Aurora PostgreSQL 兼容版现已引入对后量子 TLS 密钥交换的支持，为传输中的数据加密提供后量子密码学选项。Amazon Aurora PostgreSQL 18 及更高版本支持修改 ssl_groups 参数。用户可以从 Amazon Aurora PostgreSQL 允许列表中选择密码组，以符合其组织的安全标准。",
+   "impact": "此更新可能有助于安全团队和开发人员使用后量子密码学选项来增强传输中的数据安全，并使其数据库配置符合组织的安全标准。",
+   "keyPoints": [
+    "Amazon Aurora PostgreSQL 兼容版现已支持后量子 TLS 密钥交换。",
+    "适用于 Amazon Aurora PostgreSQL 18 及更高版本。",
+    "用户可以通过修改 ssl_groups 参数从允许列表中选择密码组。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Aurora, 포스트 퀀텀 TLS 키 교환 지원 개시",
+   "summary": "Amazon Aurora PostgreSQL 호환 에디션이 전송 중인 데이터 암호화를 위한 포스트 퀀텀 암호화 옵션을 제공하는 포스트 퀀텀 TLS 키 교환 지원을 도입했습니다. Amazon Aurora PostgreSQL 버전 18 이상에서는 ssl_groups 매개변수 수정을 지원합니다. 조직의 보안 표준에 맞추기 위해 Amazon Aurora PostgreSQL 허용 목록에서 암호화 그룹을 선택할 수 있습니다.",
+   "impact": "이번 업데이트를 통해 개발자와 보안 팀은 포스트 퀀텀 암호화 옵션을 사용하여 전송 중인 데이터의 보안을 강화하고 조직의 보안 표준에 맞게 데이터베이스 설정을 조정할 수 있습니다.",
+   "keyPoints": [
+    "Amazon Aurora PostgreSQL 호환 에디션에서 포스트 퀀텀 TLS 키 교환 지원 시작",
+    "Amazon Aurora PostgreSQL 버전 18 이상에서 지원",
+    "ssl_groups 매개변수를 수정하여 허용된 암호화 그룹 선택 가능"
+   ]
+  }
+ }
+}

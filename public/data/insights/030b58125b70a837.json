@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "030b58125b70a837",
+ "contentHash": "c5f2bce3eba4075b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T02:05:45.610Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon DynamoDB Accelerator (DAX) is now available in additional Regions",
+   "summary": "Amazon DynamoDB Accelerator (DAX) has expanded its availability to two additional AWS Regions: Canada (Central) and Africa (Cape Town). DAX functions as a fully managed, highly available in-memory cache designed to improve Amazon DynamoDB performance. It provides microsecond latency for read-intensive and bursty workloads while being API-compatible with DynamoDB.",
+   "impact": "Developers and technology users in or near these regions may now utilize DAX locally to meet low-latency requirements for their applications while minimizing code changes. This expansion allows customers to keep cached data within the Region and benefit from automated patching and failover.",
+   "keyPoints": [
+    "DAX is now available in Canada (Central) and Africa (Cape Town).",
+    "It delivers up to ten times performance improvement from milliseconds to microseconds.",
+    "The service is API-compatible with DynamoDB for minimal code changes.",
+    "It offers automated patching and failover as a fully managed service."
+   ]
+  },
+  "km": {
+   "title": "Amazon DynamoDB Accelerator (DAX) ឥឡូវនេះមាននៅលើតំបន់បន្ថែមទៀតហើយ",
+   "summary": "Amazon DynamoDB Accelerator (DAX) ឥឡូវនេះមាននៅលើតំបន់ AWS ចំនួនពីរបន្ថែមទៀតគឺ Canada (Central) និង Africa (Cape Town)។ DAX គឺជាឃ្លាំងទិន្នន័យក្នុងអង្គចងចាំដែលគ្រប់គ្រងយ៉ាងពេញលេញ និងមានកម្រិតខ្ពស់សម្រាប់ Amazon DynamoDB។ វាជួយ cải thiệnដំណើរការរហូតដល់ដប់ដងពីមីលីវិនាទីទៅមីក្រូវិនាទី។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យាអាចប្រើប្រាស់សេវាកម្មនេះដើម្បីបំពេញតាមតម្រូវការភាពយឺតយ៉ាវទាបក្នុងតំបន់ និងកាត់បន្ថយការផ្លាស់ប្តូរកូដ។ អតិថិជនក៏អាចរក្សាទុកទិន្នន័យដែលបានរក្សាទុកក្នុងឃ្លាំងក្នុងតំបន់របស់ពួកគេផងដែរ។",
+   "keyPoints": [
+    "DAX មាននៅលើតំបន់ Canada (Central) និង Africa (Cape Town)។",
+    "វាផ្តល់នូវការបង្កើនល្បឿនរហូតដល់ដប់ដង។",
+    "វាត្រូវគ្នាជាមួយ API របស់ DynamoDB។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon DynamoDB Accelerator (DAX) 现已在更多区域推出",
+   "summary": "Amazon DynamoDB Accelerator (DAX) 现已在加拿大（中部）和非洲（开普敦）两个额外的 AWS 区域推出。DAX 是针对 Amazon DynamoDB 的完全托管、高可用内存缓存，可将性能提高最多十倍。它能够加速读取密集型和突发型工作负载，同时减轻 DynamoDB 表的读取流量。",
+   "impact": "开发者和技术用户现在可以在这些新区域使用 DAX，以满足低延迟要求并将缓存数据保留在区域内。该服务提供完全托管的功能，包括自动打补丁和故障转移，且只需进行极少的代码修改。",
+   "keyPoints": [
+    "DAX 现已在 Canada (Central) 和 Africa (Cape Town) 区域推出。",
+    "可将性能从单毫秒级提升至微秒级。",
+    "与 DynamoDB API 兼容，只需进行最小的代码更改。",
+    "提供自动化补丁和故障转移等完全托管的管理功能。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon DynamoDB Accelerator(DAX)를 이제 추가 리전에서 사용할 수 있습니다",
+   "summary": "Amazon DynamoDB Accelerator(DAX)가 캐나다(중부) 및 아프리카(케이프타운)의 두 가지 추가 AWS 리전에서 제공되기 시작했습니다. DAX는 Amazon DynamoDB를 위한 완전관리형 고가용성 인메모리 캐시로, 성능을 최대 10배까지 향상시킵니다. 읽기 집약적이고 트래픽 변동이 심한 워크로드를 가속화할 수 있습니다.",
+   "impact": "개발자와 기술 사용자는 이제 해당 지역에서 로컬로 DAX를 활용하여 저지연 요구 사항을 충족하고 캐시된 데이터를 해당 리전 내에 유지할 수 있습니다. 완전관리형 서비스로서 자동 패치 및 장애 조치 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "DAX가 Canada (Central) 및 Africa (Cape Town) 리전에 추가되었습니다.",
+    "단일 밀리초에서 마이크로초 단위로 최대 10배 성능이 향상됩니다.",
+    "DynamoDB와 API 호환되어 최소한의 코드 변경으로 적용할 수 있습니다.",
+    "자동 패치 및 장애 조치를 포함한 완전관리형 서비스입니다."
+   ]
+  }
+ }
+}

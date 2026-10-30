@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c1b1ca00ee67cc54",
+ "contentHash": "86bac9f552769ca7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T02:06:37.796Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon SageMaker AI now supports SOCI-indexed images to start training jobs in seconds",
+   "summary": "Amazon SageMaker AI now supports Seekable OCI (SOCI)-indexed container images for training and processing jobs. This feature allows containers to start in seconds by lazy-loading images and fetching only necessary files at the beginning. It cuts GPU idle time during image pulls by up to 90 percent without impacting training performance.",
+   "impact": "Developers and technology users could experience significantly faster start times for deep learning jobs and reduced costs for idle GPU time. Security and development teams can adopt this feature by using pre-indexed AWS Deep Learning Containers or by adding a SOCI index to their own images in Amazon ECR.",
+   "keyPoints": [
+    "SOCI-indexed images start Amazon SageMaker AI training containers in seconds.",
+    "Cuts GPU idle time during image pulls by up to 90 percent.",
+    "Lazy-loads container images by fetching only needed files to start and streaming the rest in the background.",
+    "Available in all AWS Regions where SageMaker AI is available."
+   ]
+  },
+  "km": {
+   "title": "Amazon SageMaker AI ឥឡូវនេះគាំទ្ររូបភាពដែលមានលិបិក្រម SOCI ដើម្បីចាប់ផ្តើមការងារបណ្តុះបណ្តាលក្នុងរយៈពេលប៉ុន្មានវិនាទី",
+   "summary": "Amazon SageMaker AI ប្រកាសគាំទ្ររូបភាពកុងតឺន័រដែលមានលិបិក្រម Seekable OCI (SOCI) សម្រាប់ការងារបណ្តុះបណ្តាល និងដំណើរការ។ លក្ខណៈពិសេសនេះជួយឱ្យការងារចាប់ផ្តើមដំណើរការកូដរបស់អ្នកលឿនជាងមុន ដោយកាត់បន្ថយពេលវេលាទំនេររបស់ GPU រហូតដល់ 90 ភាគរយ។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យាអាចកាត់បន្ថយពេលវេលារង់ចាំ និងការចំណាយលើការទាញយករូបភាពធំៗសម្រាប់កិច្ចការរៀនស៊ីជម្រៅ ដោយសារតែប្រព័ន្ធផ្ទុកទិន្នន័យបណ្តោះអាសន្ន និងទាញយកតែឯកសារចាំបាច់ប៉ុណ្ណោះ។",
+   "keyPoints": [
+    "គាំទ្ររូបភាពកុងតឺន័រដែលមានលិបិក្រម SOCI សម្រាប់ការងារបណ្តុះបណ្តាល និងដំណើរការ។",
+    "កាត់បន្ថយពេលវេលាទំនេររបស់ GPU រហូតដល់ 90 ភាគរយដោយគ្មានផលប៉ះពាល់ដល់ដំណើរការបណ្តុះបណ្តាល។",
+    "ផ្ទុកទិន្នន័យតាមតម្រូវការដោយទាញយកតែឯកសារចាំបាច់ដើម្បីចាប់ផ្តើមកុងតឺន័រ។",
+    "មានដាក់ឱ្យប្រើប្រាស់នៅក្នុងតំបន់ AWS ទាំងអស់ដែល SageMaker AI ដំណើរការ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon SageMaker AI 现已支持 SOCI 索引镜像，可在几秒钟内启动训练作业",
+   "summary": "Amazon SageMaker AI 宣布支持用于训练和处理作业的可检索 OCI (SOCI) 索引容器镜像，使作业能够更快地运行代码。SOCI 索引镜像可在几秒钟内启动 Amazon SageMaker AI 训练容器，在镜像拉取期间将 GPU 空闲时间减少高达 90%，且对训练性能没有影响。",
+   "impact": "开发人员和技术用户可以大幅减少大型深度学习镜像的下载等待时间，从而降低 GPU 空闲时间的成本。开发团队可以通过使用预索引的 AWS 深度学习容器或为 Amazon ECR 中的自定义镜像添加 SOCI index 来采用此功能。",
+   "keyPoints": [
+    "支持 SOCI 索引容器镜像用于训练和处理作业。",
+    "在镜像拉取期间将 GPU 空闲时间减少高达 90%。",
+    "通过延迟加载仅获取启动容器所需的文件并在后台流式传输其余文件。",
+    "已在提供 SageMaker AI 的所有 AWS 区域推出。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon SageMaker AI, 몇 초 만에 훈련 작업을 시작할 수 있는 SOCI 인덱싱 이미지 지원",
+   "summary": "Amazon SageMaker AI는 훈련 및 처리 작업을 위한 SOCI(Seekable OCI) 인덱싱 컨테이너 이미지 지원을 발표하여 코드가 더 빨리 실행되도록 지원합니다. SOCI 인덱싱된 이미지는 수 초 내에 Amazon SageMaker AI 훈련 컨테이너를 시작하며, 훈련 성능에 영향을 주지 않고 이미지 풀 중 GPU 유휴 시간을 최대 90%까지 줄여줍니다.",
+   "impact": "개발자와 기술 사용자는 대규모 딥 러닝 작업의 시작 시간을 단축하고 유휴 GPU 시간에 대한 비용을 절감할 수 있습니다. 사전 인덱싱된 AWS Deep Learning Container를 사용하거나 Amazon ECR의 자체 이미지에 SOCI 인덱스를 추가하여 이 기능을 적용할 수 있습니다.",
+   "keyPoints": [
+    "훈련 및 처리 작업을 위한 SOCI 인덱싱된 컨테이너 이미지 지원.",
+    "이미지 풀 중 GPU 유휴 시간을 최대 90% 단축.",
+    "컨테이너 시작에 필요한 파일만 가져오고 나머지는 백그라운드에서 스트리밍하는 지연 로딩 방식 적용.",
+    "SageMaker AI를 사용할 수 있는 모든 AWS 리전에서 제공."
+   ]
+  }
+ }
+}

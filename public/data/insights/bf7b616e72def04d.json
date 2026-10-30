@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "articleId": "bf7b616e72def04d",
+ "contentHash": "1d821aaf0b747c40",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T02:06:27.288Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS DataSync Enhanced mode now supports Amazon FSx for Windows File Server, FSx for NetApp ONTAP, and Red Hat OpenShift Virtualization",
+   "summary": "AWS DataSync Enhanced mode now supports Amazon FSx for Windows File Server and FSx for NetApp ONTAP as source or destination locations, enabling Windows to Windows transfers. Additionally, Enhanced mode agents can now run on Red Hat OpenShift Virtualization version 4.20 or later. These updates bring the same location options to Enhanced mode as Basic mode while utilizing parallel processing for higher performance and detailed metrics.",
+   "impact": "Developers and technology users could achieve higher performance and remove file count limitations during data transfers. Security teams and administrators may also benefit from expanded agent deployment options including Red Hat OpenShift Virtualization.",
+   "keyPoints": [
+    "AWS DataSync Enhanced mode supports Amazon FSx for Windows File Server and FSx for NetApp ONTAP as sources or destinations.",
+    "Enhanced mode agents can run on Red Hat OpenShift Virtualization version 4.20 or later.",
+    "Enhanced mode processes data in parallel to provide higher performance and detailed metrics without file count limitations.",
+    "OpenShift Virtualization joins existing deployment options like VMware ESXi, KVM, Microsoft Hyper-V, and Amazon EC2."
+   ]
+  },
+  "km": {
+   "title": "โหมด Enhanced ของ AWS DataSync ឥឡូវនេះគាំទ្រ Amazon FSx for Windows File Server, FSx for NetApp ONTAP និង Red Hat OpenShift Virtualization",
+   "summary": "โหมด Enhanced របស់ AWS DataSync ឥឡូវនេះគាំទ្រ Amazon FSx for Windows File Server និង FSx for NetApp ONTAP ជាទីតាំងដើមឬទិសដៅ។ លើសពីនេះ ភ្នាក់ងារโหมด Enhanced អាចដំណើរការលើ Red Hat OpenShift Virtualization កំណែ 4.20 ឬថ្មីกว่าនេះ។ ការអាប់ដេតនេះអនុញ្ញាតឱ្យផ្ទេរទិន្នន័យ Windows ទៅ Windows និងដំណើរការទិន្នន័យស្របគ្នាដើម្បីប្រសិទ្ធភាពខ្ពស់ជាងមុន។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានប្រសិទ្ធភាពខ្ពស់ជាងមុន និងលុបបំបាត់ដែនកំណត់ចំនួនឯកសារ។ ក្រុមការងារផ្នែកសុវត្ថិភាពក៏អាចទទួលបានជម្រើសពង្រីកការដាក់ពង្រាយភ្នាក់ងារថ្មីផងដែរ។",
+   "keyPoints": [
+    "โหมด Enhanced គាំទ្រ Amazon FSx for Windows File Server និង FSx for NetApp ONTAP។",
+    "ភ្នាក់ងារโหมด Enhanced អាចដំណើរការលើ Red Hat OpenShift Virtualization កំណែ 4.20 ឬថ្មីជាងនេះ។",
+    "ដំណើរការទិន្នន័យស្របគ្នាដើម្បីផ្តល់នូវប្រសិទ្ធភាពខ្ពស់និងរង្វាស់លម្អិត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS DataSync 增强模式现已支持 Amazon FSx for Windows File Server、FSx for NetApp ONTAP 以及 Red Hat OpenShift Virtualization",
+   "summary": "AWS DataSync 增强模式现已支持将 Amazon FSx for Windows File Server 和 FSx for NetApp ONTAP 用作源位置或目标位置，从而支持 Windows 到 Windows 的传输。此外，增强模式代理现在可以在 Red Hat OpenShift Virtualization 4.20 或更高版本上运行。该功能通过并行处理数据以提高性能，并移除了文件数量限制。",
+   "impact": "开发人员和技术用户在进行数据传输时可能会获得更高的性能并消除文件数量限制。技术团队还可以通过新增的 Red Hat OpenShift Virtualization 选项来扩展代理部署。",
+   "keyPoints": [
+    "支持 Amazon FSx for Windows File Server 和 FSx for NetApp ONTAP 作为源或目标位置。",
+    "增强模式代理可在 Red Hat OpenShift Virtualization 4.20 或更高版本上运行。",
+    "增强模式可并行处理数据以提供更高性能和详细的数据传输指标。"
+   ]
+  },
+  "ko": {
+   "title": "AWS DataSync Enhanced 모드, Amazon FSx for Windows File Server, FSx for NetApp ONTAP 및 Red Hat OpenShift Virtualization 지원 추가",
+   "summary": "AWS DataSync Enhanced 모드가 이제 Amazon FSx for Windows File Server 및 FSx for NetApp ONTAP를 소스 또는 대상 위치로 지원하여 Windows 간 전송을 가능하게 합니다. 또한 Enhanced 모드 에이전트를 Red Hat OpenShift Virtualization 버전 4.20 이상에서 실행할 수 있습니다. 이 업데이트를 통해 향상된 성능과 상세한 전송 지표를 제공합니다.",
+   "impact": "개발자와 기술 사용자는 데이터 전송 시 향상된 성능을 활용하고 파일 개수 제한을 없앨 수 있습니다. 또한 새로운 에이전트 배포 옵션을 통해 인프라 운영 유연성이 높아질 수 있습니다.",
+   "keyPoints": [
+    "Enhanced 모드가 Amazon FSx for Windows File Server 및 FSx for NetApp ONTAP를 지원합니다.",
+    "Enhanced 모드 에이전트는 Red Hat OpenShift Virtualization 버전 4.20 이상에서 실행될 수 있습니다.",
+    "데이터를 병렬로 처리하여 더 높은 성능과 상세한 전송 지표를 제공합니다."
+   ]
+  }
+ }
+}

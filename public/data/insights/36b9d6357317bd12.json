@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "36b9d6357317bd12",
+ "contentHash": "76d9dc748e834b29",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T02:04:42.484Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "VibeVoice-ASR-BitNet Real-World Test: CPU Real-Time Transcription on AIGCPanel",
+   "summary": "Microsoft compressed a speech recognition model from 4.62GB to 1.58GB, and AIGCPanel packaged it into a one-click running package. VibeVoice-ASR-BitNet provides an open-source solution for pure CPU inference. It supports multiple languages including Chinese, English, French, and Italian.",
+   "impact": "This development could make local speech transcription more accessible by removing the need for dedicated GPUs or complex Python and CUDA setups. Developers and technology users may benefit from easier deployment and efficient pure CPU transcription.",
+   "keyPoints": [
+    "Microsoft reduced the speech recognition model size from 4.62GB to 1.58GB.",
+    "AIGCPanel provides a one-click running package for the model.",
+    "The VibeVoice-ASR-BitNet model supports pure CPU inference.",
+    "It supports languages such as Chinese, English, French, and Italian."
+   ]
+  },
+  "km": {
+   "title": "ការសាកល្បង VibeVoice-ASR-BitNet៖ ការបម្លែងសំឡេងជាអត្ថបទពេលវេលាជាក់ស្តែងលើ CPU តាមរយៈ AIGCPanel",
+   "summary": "Microsoft បានបង្ហាប់ម៉ូដែលចំណាំសំឡេងពី 4.62GB មកត្រឹម 1.58GB ហើយ AIGCPanel បានបង្កើតវាជាកញ្ចប់ដំណើរការចុចតែមួយ។ VibeVoice-ASR-BitNet គឺជាចម្លើយប្រភពបើកចំហសម្រាប់ដំណើរការ推理នៅលើ CPU សុទ្ធសាធ។ វាគាំទ្រភាសាចិន អង់គ្លេស បារាំង និងអ៊ីតាលី។",
+   "impact": "ការអភិវឌ្ឍនេះអាចធ្វើឱ្យការបម្លែងសំឡេងក្នុងមូលដ្ឋានកាន់តែងាយស្រួលដោយមិនចាំបាច់ប្រើកាតក្រាហ្វិក ឬការរៀបចំ Python និង CUDA ស្មុគស្មាញឡើយ។ អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានប្រយោជន៍ពីការដាក់ពង្រាយកាន់តែងាយស្រួល។",
+   "keyPoints": [
+    "Microsoft បានកាត់បន្ថយទំហំម៉ូដែលចំណាំសំឡេងពី 4.62GB មកត្រឹម 1.58GB។",
+    "AIGCPanel បានផ្តល់កញ្ចប់ដំណើរការចុចតែមួយសម្រាប់ម៉ូដែលនេះ។",
+    "ម៉ូដែល VibeVoice-ASR-BitNet គាំទ្រការដំណើរការលើ CPU សុទ្ធសាធ។",
+    "វាគាំទ្រភាសាដូចជាចិន អង់គ្លេស បារាំង និងអ៊ីតាលី។"
+   ]
+  },
+  "zh-CN": {
+   "title": "VibeVoice-ASR-BitNet 实测：AIGCPanel 上 CPU 实时转写",
+   "summary": "微软将语音识别模型从 4.62GB 压缩至 1.58GB，AIGCPanel 将其制作成了一键运行包。VibeVoice-ASR-BitNet 是微软开源的纯 CPU 推理方案，支持中、英、法、意等语言。过去本地中文转写通常需要显卡或复杂的 Python 与 CUDA 配置，而该方案提供了新的途径。",
+   "impact": "这一进展可能会降低本地语音转写的硬件门槛，使开发者和技术用户无需依赖显卡或繁琐的环境配置即可进行纯 CPU 推理。它有助于更便捷地实现实时中文转写及多语言支持。",
+   "keyPoints": [
+    "微软将语音识别模型体积从 4.62GB 压缩到 1.58GB。",
+    "AIGCPanel 提供了模型的一键运行包。",
+    "VibeVoice-ASR-BitNet 支持纯 CPU 推理。",
+    "该模型支持中、英、法、意等多种语言。"
+   ]
+  },
+  "ko": {
+   "title": "VibeVoice-ASR-BitNet 실측: AIGCPanel에서의 CPU 실시간 전사",
+   "summary": "마이크로소프트는 음성 인식 모델을 4.62GB에서 1.58GB로 압축했으며, AIGCPanel은 이를 원클릭 실행 패키지로 만들었다. VibeVoice-ASR-BitNet은 순수 CPU 추론을 지원하는 오픈소스 솔루션이다. 이 모델은 중국어, 영어, 프랑스어, 이탈리아어 등을 지원한다.",
+   "impact": "이번 개발로 인해 전용 GPU나 복잡한 Python 및 CUDA 설정 없이도 로컬 음성 전사를 더 쉽게 이용할 수 있게 될 수 있다. 개발자와 기술 사용자는 더 간편한 배포와 효율적인 순수 CPU 전사의 혜택을 누릴 수 있다.",
+   "keyPoints": [
+    "마이크로소프트는 음성 인식 모델 크기를 4.62GB에서 1.58GB로 줄였다.",
+    "AIGCPanel은 해당 모델을 위한 원클릭 실행 패키지를 제공한다.",
+    "VibeVoice-ASR-BitNet 모델은 순수 CPU 추론을 지원한다.",
+    "중국어, 영어, 프랑스어, 이탈리아어 등의 언어를 지원한다."
+   ]
+  }
+ }
+}

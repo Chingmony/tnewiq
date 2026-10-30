@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9d1698f184c56956",
+ "contentHash": "d9e04810d0801fae",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T02:06:06.446Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Managed Grafana now supports in-place upgrade to Grafana version 13.2",
+   "summary": "Amazon Managed Grafana now allows users to perform an in-place upgrade from version 12.4 to version 13.2. This update brings features from open-source Grafana versions 13.0 through 13.2, including Git Sync, dynamic dashboards, and PromQL query support in the Amazon CloudWatch data source plugin. Upgrades are available in all AWS regions where the service is generally available and can be initiated via the AWS Console, AWS SDK, or AWS CLI.",
+   "impact": "This update could help developers manage dashboards more effectively using version control with Git Sync and create more adaptable layouts with dynamic dashboards. Technology users and security teams may also benefit from expanded query options like PromQL for CloudWatch metrics.",
+   "keyPoints": [
+    "Supports in-place upgrade from version 12.4 to 13.2.",
+    "Includes Git Sync, dynamic dashboards, and PromQL query support in the Amazon CloudWatch data source plugin.",
+    "Available in all AWS regions where Amazon Managed Grafana is generally available.",
+    "Upgrades can be performed using the AWS Console, AWS SDK, or AWS CLI."
+   ]
+  },
+  "km": {
+   "title": "Amazon Managed Grafana ឥឡូវនេះគាំទ្រការដំឡើងកំណែផ្ទាល់ទៅកាន់ Grafana កំណែ 13.2",
+   "summary": "Amazon Managed Grafana ឥឡូវនេះអនុញ្ញាតឱ្យធ្វើការដំឡើងកំណែផ្ទាល់ពី Grafana កំណែ 12.4 ទៅ 13.2។ ការដំឡើងកំណែនេះនាំមកនូវមុខងារថ្មីៗដូចជា Git Sync ផ្ទាំងគ្រប់គ្រងឌីណាមិក និងការគាំទ្រសំណួរ PromQL នៅក្នុងដេប៉ូទិន្នន័យ Amazon CloudWatch។ ការអាប់ដេតនេះមាននៅក្នុងគ្រប់តំបន់ AWS ដែល Amazon Managed Grafana ដាក់ឱ្យប្រើប្រាស់។",
+   "impact": "ការអាប់ដេតនេះអាចជួយអ្នកអភិវឌ្ឍន៍គ្រប់គ្រងផ្ទាំងគ្រប់គ្រងតាមរយៈប្រព័ន្ធគ្រប់គ្រងកំណែ និងបង្កើតប្លង់ឆ្លើយតបកាន់តែប្រសើរ។ ក្រុមការងារផ្នែកសុវត្ថិភាពក៏អាចទទួលបានអត្ថប្រយោជន៍ពីជម្រើសសំណួរ PromQL បន្ថែមផងដែរ។",
+   "keyPoints": [
+    "គាំទ្រការដំឡើងកំណែផ្ទាល់ពីកំណែ 12.4 ទៅ 13.2។",
+    "រួមបញ្ចូលមុខងារ Git Sync ផ្ទាំងគ្រប់គ្រងឌីណាមិក និង PromQL។",
+    "អាចប្រើប្រាស់បាននៅក្នុងគ្រប់តំបន់ AWS ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Managed Grafana 现已支持就地升级至 Grafana 13.2 版本",
+   "summary": "Amazon Managed Grafana 现在支持从 Grafana 12.4 版本就地升级到 13.2 版本。此次升级引入了开源 Grafana 13.0 至 13.2 版本中的功能，包括 Git Sync、动态仪表盘以及 Amazon CloudWatch 数据源插件中的 PromQL 查询支持。用户可以通过 AWS 控制台、AWS SDK 或 AWS CLI 进行升级。",
+   "impact": "此更新可以帮助开发人员通过 Git Sync 使用版本控制来管理仪表盘，并构建更具适应性的布局。技术用户和安全团队也可能从 PromQL 等扩展查询选项中受益。",
+   "keyPoints": [
+    "支持从版本 12.4 就地升级到 13.2。",
+    "包含 Git Sync、动态仪表盘和 CloudWatch 的 PromQL 支持。",
+    "在 Amazon Managed Grafana 普遍可用的所有 AWS 区域提供支持。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Managed Grafana, Grafana 버전 13.2로의 제자리 업그레이드 지원",
+   "summary": "Amazon Managed Grafana는 이제 Grafana 버전 12.4에서 13.2로의 제자리 업그레이드를 지원합니다. 이번 업그레이드에는 Git Sync, 동적 대시보드, Amazon CloudWatch 데이터 소스 플러그인의 PromQL 쿼리 지원 등 오픈소스 Grafana 13.0~13.2 버전의 기능이 포함됩니다. 업그레이드는 AWS 콘솔, AWS SDK 또는 AWS CLI를 통해 수행할 수 있습니다.",
+   "impact": "이번 업데이트를 통해 개발자는 Git Sync를 사용하여 버전 제어로 대시보드를 관리하고 동적 대시보드로 유연한 레이아웃을 구축할 수 있습니다. 기술 사용자 및 보안 팀은 PromQL과 같은 확장된 쿼리 옵션의 이점을 누릴 수 있습니다.",
+   "keyPoints": [
+    "버전 12.4에서 13.2로의 제자리 업그레이드 지원.",
+    "Git Sync, 동적 대시보드 및 CloudWatch의 PromQL 쿼리 지원 포함.",
+    "Amazon Managed Grafana가 정식 제공되는 모든 AWS 리전에서 사용 가능."
+   ]
+  }
+ }
+}

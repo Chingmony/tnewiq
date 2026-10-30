@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "cd1deb1a176494e2",
+ "contentHash": "fc5450e44e272f66",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-30T02:05:03.909Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Neton 1.0.0 Released: A Kotlin/Native Server-Side Application Framework for AI-Native Development",
+   "summary": "Neton Framework 1.0.0 has been officially released and is now available on Maven Central as its first stable version. Neton provides Kotlin developers with a comprehensive development system for building native server-side applications. The framework covers features including application assembly, dependency injection, HTTP APIs, databases, authentication, caching, task scheduling, object storage, and WebSocket.",
+   "impact": "This release could offer Kotlin developers a new server-side framework comparable to Spring Boot or Laravel for native applications. Security and development teams may find its built-in features helpful for structuring native server-side applications.",
+   "keyPoints": [
+    "Neton Framework 1.0.0 is the first stable version and is available on Maven Central.",
+    "It is designed for Kotlin developers building native server-side applications.",
+    "Features include dependency injection, HTTP APIs, databases, authentication, caching, and WebSocket support."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យដំណើរការ Neton 1.0.0៖ ក្របខ័ណ្ឌកម្មវិធីម៉ាស៊ីនបម្រើ Kotlin/Native សម្រាប់កិច្ចអភិវឌ្ឍន៍ AI-Native",
+   "summary": "ក្របខ័ណ្ឌ Neton Framework 1.0.0 ត្រូវបានដាក់ឱ្យដំណើរការជាផ្លូវការ និងមាននៅលើ Maven Central ដែលជាកំណែមានស្ថេរភាពដំបូងគេ។ Neton ផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍ Kotlin នូវប្រព័ន្ធអភិវឌ្ឍន៍សម្រាប់ការកសាងកម្មវិធីម៉ាស៊ីនបម្រើដើម។ វាគ្របដណ្តប់លើការផ្គុំកម្មវិធី ការចាក់បញ្ចូលការពឹងផ្អែក HTTP API មូលដ្ឋានទិន្នន័យ ការផ្ទៀងផ្ទាត់ ការដាក់ឃ្លាំងសម្ងាត់ ការកំណត់ពេលភារកិច្ច ការផ្ទុកវត្ថុ និង WebSocket។",
+   "impact": "ការចេញផ្សាយនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវជម្រើសក្របខ័ណ្ឌថ្មីសម្រាប់ការកសាងកម្មវិធីម៉ាស៊ីនបម្រើដើម។ ក្រុមអភិវឌ្ឍន៍អាចប្រើប្រាស់មុខងារទាំងនេះសម្រាប់ការអភិវឌ្ឍកម្មវិធីរបស់ពួកគេ។",
+   "keyPoints": [
+    "Neton Framework 1.0.0 គឺជាកំណែមានស្ថេរភាពដំបូងនៅលើ Maven Central។",
+    "វាត្រូវបានបង្កើតឡើងសម្រាប់អ្នកអភិវឌ្ឍន៍ Kotlin ។",
+    "វាគាំទ្រមុខងារដូចជា HTTP API មូលដ្ឋានទិន្នន័យ ការផ្ទៀងផ្ទាត់ និង WebSocket ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Neton 1.0.0 正式发布：面向 AI 原生开发的 Kotlin/Native 服务端应用框架",
+   "summary": "Neton Framework 1.0.0 已正式发布并上线 Maven Central，这是 Neton 的第一个稳定版本。Neton 为 Kotlin 开发者提供了一套围绕原生服务端应用构建的开发体系。其功能涵盖应用装配、依赖注入、HTTP API、数据库、认证授权、缓存、任务调度、对象存储和 WebSocket。",
+   "impact": "该版本的发布可能为 Kotlin 开发者提供一个新的服务端应用构建选择。开发团队或许能够利用其内置的丰富功能来开发原生服务端应用。",
+   "keyPoints": [
+    "Neton Framework 1.0.0 是首个稳定版本并已上线 Maven Central。",
+    "为 Kotlin 开发者提供原生服务端应用开发体系。",
+    "功能包含依赖注入、HTTP API、数据库、认证授权、WebSocket 等。"
+   ]
+  },
+  "ko": {
+   "title": "Neton 1.0.0 정식 출시: AI 네이티브 개발을 위한 Kotlin/Native 서버 측 애플리케이션 프레임워크",
+   "summary": "Neton Framework 1.0.0이 정식 출시되어 Maven Central에 등록되었으며, 이는 Neton의 첫 번째 안정 버전입니다. Neton은 Kotlin 개발자들에게 네이티브 서버 측 애플리케이션 구축을 위한 개발 체계를 제공합니다. 애플리케이션 조립, 의존성 주입, HTTP API, 데이터베이스, 인증 및 인가, 캐시, 작업 스케줄링, 객체 스토리지, WebSocket 기능을 포함하고 있습니다.",
+   "impact": "이번 표시는 Kotlin 개발자에게 네이티브 서버 측 애플리케이션을 위한 새로운 프레임워크 선택지를 제공할 수 있습니다. 개발팀은 내장된 다양한 기능을 활용하여 서버 측 애플리케이션을 구축하는 데 참고할 수 있습니다.",
+   "keyPoints": [
+    "Neton Framework 1.0.0은 첫 번째 안정 버전이며 Maven Central에 출시되었습니다.",
+    "Kotlin 개발자를 위한 네이티브 서버 측 애플리케이션 개발 체계를 제공합니다.",
+    "의존성 주입, HTTP API, 데이터베이스, 인증, WebSocket 등의 기능을 지원합니다."
+   ]
+  }
+ }
+}
