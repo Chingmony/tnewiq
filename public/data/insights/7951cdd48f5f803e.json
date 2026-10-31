@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7951cdd48f5f803e",
+ "contentHash": "512e7c8e13e5d605",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T22:36:17.291Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Disparity Laundering: Consensus Without Fairness in Clinical Multi-Agent Systems",
+   "summary": "Clinical large language models are increasingly used as multi-agent teams based on the assumption that deliberation averages out individual errors. However, testing across a full factorial of five model families and four aggregation topologies on 120 real MIMIC-IV cases shows that deliberation does not average out bias. This phenomenon leads to consensus without fairness.",
+   "impact": "Security teams and technology users might need to reconsider relying solely on multi-agent consensus to ensure fair clinical outcomes. Developers could face challenges regarding bias propagation in collaborative AI systems.",
+   "keyPoints": [
+    "Clinical large language models are frequently deployed as multi-agent teams.",
+    "Testing involved five model families and four aggregation topologies using 120 real MIMIC-IV cases.",
+    "Deliberation averages out individual errors but does not eliminate bias."
+   ]
+  },
+  "km": {
+   "title": "ការលាងសម្អាតវិសមភាព៖ ការយល់ស្របដោយគ្មានភាពយុត្តិធម៌នៅក្នុងប្រព័ន្ធភ្នាក់ងារពហុក្លីនិក",
+   "summary": "គំរូភាសាខ្នាតធំทางគ្លីនិកត្រូវបានដាក់ឱ្យប្រើប្រាស់កាន់តែខ្លាំងឡើងជាក្រុមភ្នាក់ងារច្រើន ដោយសារការសន្និដ្ឋានថាការពិភាក្សាអាចកាត់បន្ថយข้อผิดพลาดបុគ្គល។ ទោះបីជាយ៉ាងណាក៏ដោយ ការធ្វើតេស្តលើក្រុមគ្រួសារគំរូប្រាំ និងថបូឡូស៊ីបណ្តុំបួននៅលើករណី MIMIC-IV ពិតប្រាកដចំនួន 120 បង្ហាញថាការពិភាក្សាមិនអាចកាត់បន្ថយភាពលំអៀងនោះទេ។ បាតុភូតនេះនាំឱ្យមានការយល់ស្របដោយគ្មានភាពយុត្តិធម៌។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវពិចារណាម្តងទៀតលើការផ្អែកតែលើការយល់ស្របរបស់ភ្នាក់ងារច្រើនដើម្បីធានាបាននូវលទ្ធផលគ្លីនិកដ៏យុត្តិធម៌។ អ្នកអភិវឌ្ឍន៍អាចប្រឈមមុខនឹងបញ្ហាប្រឈមទាក់ទងនឹងការរីករាលដាលនៃភាពលំអៀងនៅក្នុងប្រព័ន្ធ AI កិច្ចសហការ។",
+   "keyPoints": [
+    "គំរូភាសាខ្នាតធំทางគ្លីនិកត្រូវបានដាក់ឱ្យប្រើប្រាស់ជាញឹកញាប់ជាក្រុមភ្នាក់ងារច្រើន។",
+    "ការធ្វើតេស្តពាក់ព័ន្ធនឹងក្រុមគ្រួសារគំរូប្រាំ និងថបូឡូស៊ីបណ្តុំបួន ដោយប្រើករណី MIMIC-IV ពិតប្រាកដចំនួន 120 ។",
+    "ការពិភាក្សាកាត់បន្ថយข้อผิดพลาดបុគ្គល ប៉ុន្តែមិនលុបបំបាត់ភាពលំអៀងនោះទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "差异洗白：临床多智能体系统中缺乏公平性的共识",
+   "summary": "临床大语言模型越来越多地以多智能体团队的形式部署，其假设是审议可以平均掉个人错误。然而，在一项针对120个真实MIMIC-IV病例的五大模型系列和四种聚合拓扑的全析因测试中发现，审议并不能平均掉偏见。这种现象导致了缺乏公平性的共识。",
+   "impact": "安全团队和技术用户可能需要重新考虑是否仅仅依靠多智能体共识来确保公平的临床结果。开发人员可能会在协作式AI系统的偏见传播方面面临挑战。",
+   "keyPoints": [
+    "临床大语言模型经常被部署为多智能体团队。",
+    "测试涉及5个模型系列和4种聚合拓扑，使用了120个真实的MIMIC-IV病例。",
+    "审议可以平均掉个人错误，但不能消除偏见。"
+   ]
+  },
+  "ko": {
+   "title": "격차 세탁: 임상 멀티 에이전트 시스템에서의 공정성 없는 합의",
+   "summary": "임상 대규모 언어 모델은 심의를 통해 개별 오류를 상쇄할 수 있다는 가정 하에 멀티 에이전트 팀으로 점점 더 많이 배치되고 있습니다. 그러나 120개의 실제 MIMIC-IV 사례를 대상으로 5개의 모델 패밀리와 4개의 집계 토폴로지를 완전히 조합하여 테스트한 결과, 심의는 편향을 상쇄하지 못하는 것으로 나타났습니다. 이 현상은 공정성이 결여된 합의로 이어집니다.",
+   "impact": "보안 팀과 기술 사용자는 공정한 임상 결과를 보장하기 위해 멀티 에이전트 합의에만 의존하는 것을 재고해야 할 수 있습니다. 개발자는 협업 AI 시스템에서의 편향 전파와 관련된 문제에 직면할 수 있습니다.",
+   "keyPoints": [
+    "임상 대규모 언어 모델은 자주 멀티 에이전트 팀으로 배포됩니다.",
+    "테스트에는 120개의 실제 MIMIC-IV 사례를 사용한 5개의 모델 패밀리와 4개의 집계 토폴로지가 포함되었습니다.",
+    "심의는 개별 오류를 상쇄하지만 편향을 없애지는 못합니다."
+   ]
+  }
+ }
+}

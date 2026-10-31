@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0fc78f7bfae1b62f",
+ "contentHash": "4c99c1289a7169db",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T22:37:45.488Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Embodied at Sea: Imitation Learning for Multi-Task Underwater Manipulation",
+   "summary": "Behavior Cloning has shown promising generalization capabilities for robotic manipulation in terrestrial environments. However, marine visual distortions and dynamic currents create a severe domain shift that remains a key bottleneck in adapting generalist architectures. This highlights the challenges of applying imitation learning techniques to underwater environments.",
+   "impact": "Developers and researchers working on underwater robotics may face significant challenges with domain shifts caused by marine visual distortions and currents. Addressing these bottlenecks could be necessary for successfully adapting generalist architectures to aquatic environments.",
+   "keyPoints": [
+    "Behavior Cloning shows promise for robotic manipulation in terrestrial environments.",
+    "Marine visual distortions create a severe domain shift.",
+    "Dynamic currents act as a key bottleneck for generalist architectures."
+   ]
+  },
+  "km": {
+   "title": "Embodied at Sea: Imitation Learning for Multi-Task Underwater Manipulation",
+   "summary": "Behavior Cloning បានបង្ហាញពីសមត្ថភាពទូទៅដ៏មានសង្ឃឹមសម្រាប់ការគ្រប់គ្រងមនុស្សយន្តនៅក្នុងបរិយាកាសនៅលើគោក។ ទោះជាយ៉ាងណាក៏ដោយ ការបំភ្លៃរូបភាពក្នុងសមុទ្រ និងចរន្តទឹកថាមវន្តបង្កើតបានជាការប្តូរដែនដ៏ធ្ងន់ធ្ងរ ដែលនៅតែជាឧបសគ្គសំខាន់ក្នុងការសម្របខ្លួនទៅនឹងស្ថាបត្យកម្មទូទៅ។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យាអាចប្រឈមមុខនឹងឧបសគ្គក្នុងការសម្របខ្លួនស្ថាបត្យកម្មមនុស្សយន្តដោយសារតែការបំភ្លៃរូបភាពក្នុងសមុទ្រ និងចរន្តទឹក។ ការដោះស្រាយបញ្ហាទាំងនេះអាចមានសារៈសំខាន់សម្រាប់ការអនុវត្តជាក់ស្តែង។",
+   "keyPoints": [
+    "Behavior Cloning មានសក្តានុពលក្នុងការគ្រប់គ្រងមនុស្សយន្តនៅលើគោក។",
+    "ការបំភ្លៃរូបភាពក្នុងសមុទ្របង្កជាបញ្ហាប្រឈមខ្លាំង។",
+    "ចរន្តទឹកថាមវន្តគឺជាឧបសគ្គក្នុងការអភិវឌ្ឍស្ថាបត្យកម្មទូទៅ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Embodied at Sea: Imitation Learning for Multi-Task Underwater Manipulation",
+   "summary": "行为克隆已在地面环境的机器人操作中展示出良好的泛化能力。然而，海洋视觉畸变和动态洋流造成了严重的域偏移，这仍然是适应通用架构的关键瓶颈。这凸显了将模仿学习技术应用于水下环境时所面临的挑战。",
+   "impact": "开发人员和技术团队在水下机器人领域可能会遇到由于视觉畸变和洋流引起的域偏移问题。克服这些瓶颈可能有助于未来通用架构在水下环境中的应用。",
+   "keyPoints": [
+    "行为克隆在地面机器人操作中表现出泛化能力。",
+    "海洋视觉畸变会导致严重的域偏移。",
+    "动态洋流是适应通用架构的关键瓶颈。"
+   ]
+  },
+  "ko": {
+   "title": "Embodied at Sea: Imitation Learning for Multi-Task Underwater Manipulation",
+   "summary": "Behavior Cloning은 지상 환경에서 로봇 조작을 위한 유망한 일반화 능력을 보여주었습니다. 그러나 해양 시각적 왜곡과 동적 해류는 심각한 도메인 시프트를 발생시키며, 이는 범용 아키텍처를 적응시키는 데 있어 여전히 주요 병목 현상으로 남아 있습니다. 이는 수중 환경에 모방 학습 기술을 적용할 때의 과제를 보여줍니다.",
+   "impact": "개발자와 연구팀은 해양 시각 왜곡과 해류로 인한 도메인 시프트 문제에 직면할 수 있으며, 이는 수중 로보틱스 개발에 영향을 미칠 수 있습니다. 이러한 병목 현상을 해결하는 것이 범용 아키텍처 적응에 중요할 수 있습니다.",
+   "keyPoints": [
+    "Behavior Cloning은 지상 로봇 조작에서 일반화 능력을 보여줌.",
+    "해양 시각 왜곡은 심각한 도메인 시프트를 유발함.",
+    "동적 해류는 범용 아키텍처 적응의 주요 병목 현상임."
+   ]
+  }
+ }
+}

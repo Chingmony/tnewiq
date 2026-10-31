@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2f31155d7d718ddd",
+ "contentHash": "7499de0c60d7e4fd",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T22:36:07.006Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "HotPOT: Operator Transformer with Heterogeneous Physics Experts for Large-Scale PDE Pre-training",
+   "summary": "Large-scale PDE pre-training involves training a single model on data from multiple partial differential equations. However, adding heterogeneous PDEs with different governing equations, physical variables, and variable interactions does not always improve predictive performance.",
+   "impact": "This research could help developers and researchers working on physics-informed machine learning understand the limitations of mixing diverse partial differential equations. It may lead to better architectures for multi-task scientific machine learning models.",
+   "keyPoints": [
+    "Large-scale PDE pre-training trains a single model on data from multiple partial differential equations.",
+    "Heterogeneous PDEs feature different governing equations, physical variables, and variable interactions.",
+    "Adding heterogeneous PDEs does not always improve predictive performance."
+   ]
+  },
+  "km": {
+   "title": "HotPOT៖ Operator Transformer with Heterogeneous Physics Experts for Large-Scale PDE Pre-training",
+   "summary": "ការបណ្តុះបណ្តាលជាមុន PDE ខ្នាតធំ បណ្តុះបណ្តាលគំរាតែមួយនៅលើទិន្នន័យពីសមីការឌីផេរ៉ង់ស្យែលផ្នែកជាច្រើន។ ទោះជាយ៉ាងណាក៏ដោយ ការបន្ថែម PDE ដែលមានភាពចម្រុះគ្នាជាមួយនឹងសមីការគ្រប់គ្រង អុបទិក និងអថេររូបវន្តផ្សេងៗ មិនតែងតែធ្វើឱ្យប្រសើរឡើងនូវការព្យាករណ៍នោះទេ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកស្រាវជ្រាវយល់ពីដែនកំណត់នៃការលាយសមីការឌីផេរ៉ង់ស្យែលផ្នែកផ្សេងៗ។ វាអាចនាំឱ្យមានស្ថាបត្យកម្មកាន់តែប្រសើរសម្រាប់គំរូលេខរូបវិទ្យា។",
+   "keyPoints": [
+    "ការបណ្តុះបណ្តាលជាមុន PDE ខ្នាតធំបណ្តុះបណ្តាលគំរាតែមួយលើទិន្នន័យពីសមីការឌីផេរ៉ង់ស្យែលផ្នែកច្រើន។",
+    "PDE ចម្រុះមានសមីការគ្រប់គ្រង អថេររូបវន្ត និងអន្តរកម្មអថេរផ្សេងៗគ្នា។",
+    "ការបន្ថែម PDE ចម្រុះមិនតែងតែធ្វើឱ្យប្រសើរឡើងនូវសមត្ថភាពព្យាករណ៍នោះទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "HotPOT：用于大规模 PDE 预训练的具有异构物理专家的算子 Transformer",
+   "summary": "大规模 PDE 预训练在来自多个偏微分方程的数据上训练单一模型。然而，添加具有不同控制方程、物理变量和变量交互的异构 PDE 并不总能提高预测性能。",
+   "impact": "这项研究可以帮助开发人员和安全团队或技术用户更好地理解混合不同偏微分方程的局限性。它可能会为科学机器学习模型带来更好的架构改进。",
+   "keyPoints": [
+    "大规模 PDE 预训练在来自多个偏微分方程的数据上训练单一模型。",
+    "异构 PDE 具有不同的控制方程、物理变量和变量交互。",
+    "添加异构 PDE 并不总是能改善预测性能。"
+   ]
+  },
+  "ko": {
+   "title": "HotPOT: 대규모 PDE 사전 훈련을 위한 이종 물리 전문가가 포함된 오퍼레이터 트랜스포머",
+   "summary": "대규모 PDE 사전 훈련은 여러 편미분 방정식의 데이터로 단일 모델을 훈련합니다. 그러나 서로 다른 지배 방정식, 물리적 변수 및 변수 상호 작용을 가진 이종 PDE를 추가하는 것이 항상 예측 성능을 향상시키지는 않습니다.",
+   "impact": "이 연구는 개발자와 기술 사용자가 다양한 편미분 방정식을 혼합하는 것의 한계를 이해하는 데 도움을 줄 수 있습니다. 이는 과학적 머신러닝 모델을 위한 더 나은 아키텍처로 이어질 수 있습니다.",
+   "keyPoints": [
+    "대규모 PDE 사전 훈련은 여러 편미분 방정식의 데이터로 단일 모델을 훈련합니다.",
+    "이종 PDE는 서로 다른 지배 방정식, 물리적 변수 및 변수 상호 작용을 특징으로 합니다.",
+    "이종 PDE를 추가하는 것이 항상 예측 성능을 향상시키지는 않습니다."
+   ]
+  }
+ }
+}

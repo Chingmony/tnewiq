@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d7e07578b278d8a0",
+ "contentHash": "7b00a7d9160f0b24",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T22:37:55.284Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Convex-SKM-Net: Low-Latency Block Halfspace Corrections for Neural Convex Constraint Satisfaction",
+   "summary": "Fast inference and strict constraint satisfaction are important for learning-based decision-making. Traditional methods frequently depend on constraint-specific projections or feasible-set parameterizations, and iterative repair can be expensive. To address this, Convex-SKM-Net is introduced as a convex solution.",
+   "impact": "This approach may offer developers and technology users an alternative for achieving strict constraint satisfaction and fast inference without relying on costly iterative repair.",
+   "keyPoints": [
+    "Fast inference and strict constraint satisfaction are essential for learning-based decision-making.",
+    "Existing methods often rely on constraint-specific projections or feasible-set parameterizations.",
+    "Iterative repair can be costly.",
+    "Convex-SKM-Net introduces a convex method."
+   ]
+  },
+  "km": {
+   "title": "Convex-SKM-Net៖ ការកែសម្រួលពាក់កណ្តាលលំហប្លុកដែលមានភាពយឺតយ៉ាវទាបសម្រាប់ការបំពេញលក្ខខណ្ឌ محدودی convex របស់ប្រព័ន្ធប្រសាទ",
+   "summary": "ការសន្និដ្ឋានលឿន និងការបំពេញលក្ខខណ្ឌតឹងរ៉ឹងគឺជាสิ่งសំខាន់សម្រាប់ការសម្រេចចិត្តផ្អែកលើការរៀនសូត្រ។ វិធីសាស្ត្រដែលមានស្រាប់ច្រើនតែពឹងផ្អែកលើការបញ្ចាំងជាក់លាក់នៃលក្ខខណ្ឌ ឬការកំណត់ប៉ារ៉ាម៉ែត្រសំណុំដែលអាចធ្វើទៅបាន។ យើងណែនាំ Convex-SKM-Net ដែលជាដំណោះស្រាយ محدودی convex ។",
+   "impact": "វិធីសាស្ត្រនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវជម្រើសថ្មីសម្រាប់ការបំពេញលក្ខខណ្ឌដោយមិនចាំបាច់ចំណាយប្រាក់ច្រើនលើការជួសជុលដដែលៗ។",
+   "keyPoints": [
+    "ការសន្និដ្ឋានលឿននិងការបំពេញលក្ខខណ្ឌតឹងរ៉ឹងគឺចាំបាច់សម្រាប់ការសម្រេចចិត្ត។",
+    "វិធីសាស្ត្រដែលមានស្រាប់ច្រើនតែពឹងផ្អែកលើការបញ្ចាំងជាក់លាក់នៃលក្ខខណ្ឌ។",
+    "ការជួសជុលដដែលៗអាចមានតម្លៃថ្លៃ។",
+    "Convex-SKM-Net ត្រូវបានណែនាំជាវិធីសាស្ត្រ convex ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Convex-SKM-Net：用于神经凸约束满足的低延迟块半空间修正",
+   "summary": "快速推理和严格的约束满足对于基于学习的决策至关重要。现有方法通常依赖于特定约束的投影或可行集参数化，而迭代修复可能成本高昂。为此，我们介绍了 Convex-SKM-Net 这一凸方法。",
+   "impact": "该方法可能会为开发人员提供一种在进行学习型决策时实现低延迟和严格约束满足的新选择，并减少对昂贵迭代修复的依赖。",
+   "keyPoints": [
+    "快速推理和严格的约束满足对基于学习的决策至关重要。",
+    "现有方法通常依赖特定约束的投影或可行集参数化。",
+    "迭代修复可能成本高昂。",
+    "Convex-SKM-Net 被引入作为一种凸方法。"
+   ]
+  },
+  "ko": {
+   "title": "Convex-SKM-Net: 신경망 볼록 제약 만족을 위한 저지연 블록 반공간 보정",
+   "summary": "빠른 추론과 엄격한 제약 만족은 학습 기반 의사결정에 필수적이다. 기존 방법들은 종종 제약 조건별 투영이나 허용 가능 집합 매개변수화에 의존하며, 반복적인 수리는 비용이 많이 들 수 있다. 본 논문에서는 볼록한 접근 방식인 Convex-SKM-Net을 소개한다.",
+   "impact": "이 접근 방식은 개발자와 기술 사용자에게 비용이 많이 드는 반복 수리에 의존하지 않고도 빠른 추론과 엄격한 제약 만족을 달성할 수 있는 대안을 제공할 수 있다.",
+   "keyPoints": [
+    "빠른 추론과 엄격한 제약 만족은 학습 기반 의사결정에 필수적이다.",
+    "기존 방법들은 종종 제약 조건별 투영이나 허용 가능 집합 매개변수화에 의존한다.",
+    "반복 수리는 비용이 많이 들 수 있다.",
+    "Convex-SKM-Net이 볼록 방법으로 소개되었다."
+   ]
+  }
+ }
+}

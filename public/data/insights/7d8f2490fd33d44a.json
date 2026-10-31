@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7d8f2490fd33d44a",
+ "contentHash": "ff5d6e4c91fb7f9d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T22:35:47.372Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "CuraEval: Evaluating Demonstration Curation on Mixed-Skill Robot Data",
+   "summary": "Robot imitation learning utilizes demonstrations from operators of varying skill levels, making the selection of training data a challenging task. Current methods use metrics such as smoothness, diversity, or estimated influence on policy performance to score these demonstrations. However, differences in selection criteria continue to present challenges for researchers.",
+   "impact": "This evaluation framework could help developers and researchers better understand how different data selection criteria affect robot imitation learning. It may provide insights into improving training data quality when working with mixed-skill operator datasets.",
+   "keyPoints": [
+    "Robot imitation learning relies on demonstrations from operators with varying skill levels.",
+    "Selecting training data remains a difficult challenge.",
+    "Existing methods score demonstrations based on smoothness, diversity, or policy influence."
+   ]
+  },
+  "km": {
+   "title": "CuraEval: ការវាយតម្លៃការចម្រាញ់ការបង្ហាញនៅលើទិន្នន័យមនុស្សយន្តដែលមានជំនាញចម្រុះ",
+   "summary": "ការរៀនត្រាប់តាមរបស់មនុស្សយន្តប្រើប្រាស់ការបង្ហាញពីប្រតិបត្តិករដែលមានជំនាញខុសៗគ្នា ប៉ុន្តែការជ្រើសរើសទិន្នន័យបណ្តុះបណ្តាលនៅតែជាបញ្ហាប្រឈម។ វិធីសាស្ត្រដែលមានស្រាប់ដាក់ពិន្ទុការបង្ហាញដោយប្រើភាពរលូន ភាពចម្រុះ ឬឥទ្ធិពលប៉ាន់ស្មានលើដំណើរការគោលនយោបាយ។ ទោះជាយ៉ាងណាក៏ដោយ ភាពខុសគ្នានៅក្នុងការជ្រើសរើសនៅតែបន្តបង្កជាបញ្ហាប្រឈម។",
+   "impact": "ក្របខ័ណ្ឌវាយតម្លៃនេះអាចជួយអ្នកអភិវឌ្ឍន៍យល់កាន់តែច្បាស់អំពីរបៀបដែលលក្ខណៈវិនិច្ឆ័យនៃការជ្រើសរើសទិន្នន័យផ្សេងៗគ្នាមានឥទ្ធិពលលើការរៀនត្រាប់តាមរបស់មនុស្សយន្ត។",
+   "keyPoints": [
+    "ការរៀនត្រាប់តាមរបស់មនុស្សយន្តពឹងផ្អែកលើការបង្ហាញពីប្រតិបត្តិករដែលមានកម្រិតជំនាញខុសៗគ្នា។",
+    "ការជ្រើសរើសទិន្នន័យបណ្តុះបណ្តាលនៅតែជាបញ្ហាប្រឈមដ៏ពិបាក។",
+    "វិធីសាស្ត្រដែលមានស្រាប់ដាក់ពិន្ទុការបង្ហាញដោយផ្អែកលើភាពរលូន ភាពចម្រុះ ឬឥទ្ធិពលគោលនយោបាយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "CuraEval：评估混合技能机器人数据上的演示筛选",
+   "summary": "机器人模仿学习使用来自不同技能水平操作员的演示，但选择训练数据仍然具有挑战性。现有方法使用平滑度、多样性或对策略性能的估计影响来对演示进行评分。然而，选择标准上的差异依然给研究人员带来了挑战。",
+   "impact": "该评估框架可以帮助开发人员更好地理解不同的数据选择标准如何影响机器人模仿学习。它可能为在使用混合技能操作员数据集时提高训练数据质量提供见解。",
+   "keyPoints": [
+    "机器人模仿学习依赖于来自不同技能水平操作员的演示。",
+    "选择训练数据仍然是一个困难的挑战。",
+    "现有方法根据平滑度、多样性或策略影响对演示进行评分。"
+   ]
+  },
+  "ko": {
+   "title": "CuraEval: 혼합 기술 로봇 데이터에 대한 시연 선별 평가",
+   "summary": "로봇 모방 학습은 다양한 기술을 가진 운영자의 시연을 사용하지만, 훈련 데이터를 선택하는 것은 여전히 어려운 과제입니다. 기존 방법들은 부드러움, 다양성, 또는 정책 성능에 미치는 추정 영향을 사용하여 시연 점수를 매깁니다. 그러나 선택 기준의 차이는 여전히 과제로 남아 있습니다.",
+   "impact": "이 평가 프레임워크는 개발자가 다양한 데이터 선택 기준이 로봇 모방 학습에 미치는 영향을 더 잘 이해하는 데 도움을 줄 수 있습니다. 혼합 기술 운영자 데이터셋으로 작업할 때 훈련 데이터 품질을 개선하는 데 대한 통찰력을 제공할 수 있습니다.",
+   "keyPoints": [
+    "로봇 모방 학습은 다양한 숙련도의 운영자가 제공하는 시연을 활용합니다.",
+    "훈련 데이터 선택은 여전히 어려운 과제입니다.",
+    "기존 방법은 부드러움, 다양성, 또는 정책 영향도에 따라 시연 점수를 매깁니다."
+   ]
+  }
+ }
+}

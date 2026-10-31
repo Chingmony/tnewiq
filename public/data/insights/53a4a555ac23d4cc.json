@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "53a4a555ac23d4cc",
+ "contentHash": "e00d56cc793200f0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T22:38:05.533Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "GearUp: DAG-aware Acceleration for Serverless Inference Serving via Slack-guided Pre-loading",
+   "summary": "Serverless platforms are increasingly hosting machine learning inference workflows modeled as directed acyclic graphs of interdependent functions. Beyond container startup, each machine learning node must load libraries, model weights, and CUDA kernels before it can run. These associated costs impact overall serving performance.",
+   "impact": "This research could help developers and technology teams optimize serverless inference workflows by reducing initialization bottlenecks through smarter pre-loading strategies. Security teams and users might benefit from more efficient resource utilization in serverless environments.",
+   "keyPoints": [
+    "Serverless platforms host machine learning inference workflows modeled as directed acyclic graphs.",
+    "Workflows consist of interdependent functions where each node requires libraries, model weights, and CUDA kernels.",
+    "Initialization costs occur before execution alongside container startup."
+   ]
+  },
+  "km": {
+   "title": "GearUp៖ ការបង្កើនល្បឿនដែលដឹងពី DAG សម្រាប់ការផ្ដល់សេវាសន្និដ្ឋាន Serverless តាមរយៈការផ្ទុកទុកជាមុនដែលដឹកនាំដោយ Slack",
+   "summary": "វេទិកា Serverless កំពុងកើនឡើងក្នុងការបង្ហោះដំណើរការការងារសន្និដ្ឋានម៉ាស៊ីនរៀន ដែលត្រូវបានគំរូជាក្រាហ្វវដ្តទិសដៅនៃមុខងារពឹងផ្អែកគ្នាទៅវិញទៅមក។ ក្រៅពីការចាប់ផ្ដើមខនតឺន័រ ថ្នាំងម៉ាស៊ីនរៀននីមួយៗត្រូវផ្ទុកបណ្ណាល័យ ទម្ងន់ម៉ូដែល និង CUDA kernels មុនពេលវាអាចដំណើរការ។ ការចំណាយទាំងនេះប៉ះពាល់ដល់ដំណើរការផ្ដល់សេវាទូទៅ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមបច្ចេកវិទ្យាក្នុងការបង្កើនប្រសិទ្ធភាពដំណើរការការងារសន្និដ្ឋាន Serverless ដោយកាត់បន្ថយការពន្យារពេលនៃការចាប់ផ្ដើមតាមរយៈយុទ្ធសាស្ត្រផ្ទុកទុកជាមុនដ៏ឆ្លាតវៃ។ ក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់អាចទទួលបានអត្ថប្រយោជន៍ពីការប្រើប្រាស់ធនធានដែលមានប្រសិទ្ធភាពជាងមុននៅក្នុងបរិយាកាស Serverless។",
+   "keyPoints": [
+    "វេទិកា Serverless បង្ហោះដំណើរការការងារសន្និដ្ឋានម៉ាស៊ីនរៀនដែលបានគំរូជាក្រាហ្វវដ្តទិសដៅ។",
+    "ដំណើរការការងារមានមុខងារពឹងផ្អែកគ្នាទៅវិញទៅមកដែលថ្នាំងនីមួយៗត្រូវការបណ្ណាល័យ ទម្ងន់ម៉ូដែល និង CUDA kernels។",
+    "ការចំណាយលើការចាប់ផ្ដើមកើតឡើងមុនពេលប្រតិបត្តិការស្របពេលនឹងការចាប់ផ្ដើមខនតឺន័រ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "GearUp：通过松弛引导预加载实现无服务器推理服务的DAG感知加速",
+   "summary": "无服务器平台越来越多地托管机器学习推理工作流，这些工作流被建模为相互依赖函数的有向无环图。除了容器启动之外，每个机器学习节点在运行之前必须加载库、模型权重和CUDA kernels。这些成本会影响整体的服务性能。",
+   "impact": "这项研究可以通过更聪明的预加载策略减少初始化瓶颈，帮助开发人员和技术团队优化无服务器推理工作流。安全团队和用户可能会从无服务器环境中更高效的资源利用中受益。",
+   "keyPoints": [
+    "无服务器平台托管被建模为有向无环图的机器学习推理工作流。",
+    "工作流由相互依赖的函数组成，每个节点都需要库、模型权重和CUDA kernels。",
+    "初始化成本在执行前与容器启动一同发生。"
+   ]
+  },
+  "ko": {
+   "title": "GearUp: 슬랙 유도 사전 로딩을 통한 서버리스 추론 서빙을 위한 DAG 인식 가속",
+   "summary": "서버리스 플랫폼은 상호 의존적인 함수의 방향성 비순환 그래프로 모델링된 머신러닝 추론 워크플로우를 점점 더 많이 호스팅하고 있습니다. 컨테이너 시작 외에도 각 머신러닝 노드는 실행되기 전에 라이브러리, 모델 가중치, CUDA kernel을 로드해야 합니다. 이러한 비용은 전체 서빙 성능에 영향을 미칩니다.",
+   "impact": "이 연구는 더 스마트한 사전 로딩 전략을 통해 초기화 병목 현상을 줄임으로써 개발자와 기술 팀이 서버리스 추론 워크플로우를 최적화하는 데 도움을 줄 수 있습니다. 보안 팀과 사용자는 서버리스 환경에서 보다 효율적인 자원 활용의 이점을 얻을 수 있습니다.",
+   "keyPoints": [
+    "서버리스 플랫폼은 방향성 비순환 그래프로 모델링된 머신러닝 추론 워크플로우를 호스팅합니다.",
+    "워크플로우는 각 노드에 라이브러리, 모델 가중치, CUDA kernel이 필요한 상호 의존적 함수로 구성됩니다.",
+    "초기화 비용은 컨테이너 시작과 함께 실행 전에 발생합니다."
+   ]
+  }
+ }
+}
