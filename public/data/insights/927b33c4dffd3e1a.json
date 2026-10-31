@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "927b33c4dffd3e1a",
+ "contentHash": "96ef8e9a3f90247d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T18:48:20.077Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Precedent or Intent? What Coding Agents Follow When Evolving Existing Code",
+   "summary": "Existing code shows past implementation decisions without explaining their underlying reasoning. When coding agents modify functionality or add new features, these historical decisions can conflict with new instructions. This situation highlights a fundamental question for agentic systems regarding how they handle code evolution.",
+   "impact": "Developers and teams utilizing coding agents may need to consider how agents balance past code patterns against new task instructions. This could influence the reliability and correctness of automated code modifications.",
+   "keyPoints": [
+    "Existing code reveals past implementation decisions without explaining the reasoning.",
+    "Past decisions can conflict with new task instructions during code updates.",
+    "The situation raises a fundamental question for coding agents when evolving code."
+   ]
+  },
+  "km": {
+   "title": "គំរូដើម ឬ បំណង? អ្វីដែលភ្នាក់ងារសរសេរកូដគោរពពេលវិវត្តកូដដែលមានស្រាប់",
+   "summary": "កូដដែលមានស្រាប់បង្ហាញពីការសម្រេចចិត្តក្នុងការអនុវត្តពីមុន ប៉ុន្តែ σកម្រពន្យល់ពីហេតុផលនៅពីក្រោយវាណាស់។ នៅពេលដែលភ្នាក់ងារសរសេរកូដអនុវត្តមុខងារថ្មីៗ ឬកែប្រែមុខងារដែលមានស្រាប់ ការសម្រេចចិត្តពីអតីតកាលអាចផ្ទុយទៅនឹងការណែនាំកិច្ចការថ្មី។ នេះលើកឡើងពីសំណួរមូលដ្ឋានមួយសម្រាប់ប្រព័ន្ធភ្នាក់ងារ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងក្រុមការងារដែលប្រើប្រាស់ភ្នាក់ងារសរសេរកូដអាចត្រូវពិចារណាពីរបៀបដែលភ្នាក់ងារថ្លឹងថ្លែងទម្រង់កូដអតីតកាលធៀបនឹងការណែនាំថ្មី ដែលអាចប៉ះពាល់ដល់ភាពជឿជាក់នៃការកែប្រែកូដស្វ័យប្រវត្តិ។",
+   "keyPoints": [
+    "កូដដែលមានស្រាប់បង្ហាញពីការសម្រេចចិត្តពីមុនដោយគ្មានការពន្យល់ពីហេតុផល។",
+    "ការសម្រេចចិត្តពីអតីតកាលអាចប៉ះទង្គិចជាមួយការណែនាំកិច្ចការថ្មី។",
+    "វាបង្កើនសំណួរមូលដ្ឋានសម្រាប់ភ្នាក់ងារសរសេរកូដនៅពេលវិវត្តកូដ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "先例还是意图？编码代理在演进现有代码时遵循什么",
+   "summary": "现有代码揭示了过去的实现决策，但很少解释其背后的原因。当编码代理实现新功能或修改现有功能时，过去的决策可能会与新的任务指令发生冲突。这给代理系统提出了一个关于如何处理代码演进的基本问题。",
+   "impact": "使用编码代理的开发人员和团队可能需要考虑代理如何在过去的编码模式与新任务指令之间进行权衡。这可能会影响自动化代码修改的可靠性。",
+   "keyPoints": [
+    "现有代码显示了过去的实现决策但没有解释原因。",
+    "在更新代码时，过去的决策可能会与新任务指令冲突。",
+    "这种情况对代码演进中的代理提出了根本性问题。"
+   ]
+  },
+  "ko": {
+   "title": "선례인가 의도인가? 기존 코드를 발전시킬 때 코딩 에이전트가 따르는 것",
+   "summary": "기존 코드는 과거의 구현 결정을 보여주지만 그 이면의 이유는 거의 설명하지 않습니다. 코딩 에이전트가 새로운 기능을 구현하거나 기존 기능을 수정할 때 과거의 결정은 새로운 작업 지침과 충돌할 수 있습니다. 이는 에이전트 시스템에 코드 진화와 관련된 근본적인 질문을 제기합니다.",
+   "impact": "코딩 에이전트를 사용하는 개발자와 팀은 에이전트가 과거의 코드 패턴과 새로운 작업 지침의 균형을 어떻게 맞추는지 고려해야 할 수 있습니다. 이는 자동화된 코드 수정의 신뢰성에 영향을 미칠 수 있습니다.",
+   "keyPoints": [
+    "기존 코드는 이유에 대한 설명 없이 과거의 구현 결정을 드러냅니다.",
+    "과거의 결정은 새로운 작업 지침과 충돌할 수 있습니다.",
+    "이 상황은 코딩 에이전트가 코드를 발전시킬 때 근본적인 질문을 제기합니다."
+   ]
+  }
+ }
+}

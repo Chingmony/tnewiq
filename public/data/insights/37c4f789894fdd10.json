@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "37c4f789894fdd10",
+ "contentHash": "c3b52a39eefca56b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T18:47:15.630Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Rosemary: Efficient and Adaptable In-Storage Acceleration for Fully Homomorphic Encryption",
+   "summary": "Fully Homomorphic Encryption (FHE) allows computation on encrypted data to support privacy-preserving computing. Despite its promise, deploying FHE is limited by significant computational, memory, and data-movement overheads. Current acceleration strategies often face constraints.",
+   "impact": "This research could help address the high overheads associated with Fully Homomorphic Encryption, potentially making privacy-preserving computing more practical for developers and technology users.",
+   "keyPoints": [
+    "Fully Homomorphic Encryption enables computation on encrypted data.",
+    "FHE deployment faces massive computational, memory, and data-movement overheads.",
+    "Existing acceleration strategies are often constrained."
+   ]
+  },
+  "km": {
+   "title": "Rosemary៖ ការបង្កើនល្បឿនក្នុងឧបករណ៍ផ្ទុកទិន្នន័យប្រកបដោយប្រសិទ្ធភាពនិងភាពបត់បែនសម្រាប់ Fully Homomorphic Encryption",
+   "summary": "Fully Homomorphic Encryption អនុញ្ញាតឱ្យមានការគណនាលើទិន្នន័យដែលបានអ៊ិនគ្រីបសម្រាប់កុំព្យូទ័ររក្សាសុវត្ថិភាពឯកជនភាព។ ទោះបីជាមានសន្យាក៏ដោយ ការដាក់ពង្រាយ FHE នៅតែមានកម្រិតដោយសារតែការគណនា ការចងចាំ និងការចំណាយលើការផ្លាស់ទីទិន្នន័យដ៏ធំ។ យុទ្ធសាស្ត្របង្កើនល្បឿនដែលមានស្រាប់ច្រើនតែជួបប្រទះការកំណត់។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយដោះស្រាយការចំណាយខ្ពស់ដែលទាក់ទងនឹង Fully Homomorphic Encryption ដែលអាចធ្វើឱ្យការគណនារក្សាសុវត្ថិភាពឯកជនភាពកាន់តែមានប្រយោជន៍សម្រាប់អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យា។",
+   "keyPoints": [
+    "Fully Homomorphic Encryption បើកដំណើរការការគណនាលើទិន្នន័យដែលបានអ៊ិនគ្រីប។",
+    "ការដាក់ពង្រាយ FHE ប្រឈមមុខនឹងការគណនា ការចងចាំ និងការចំណាយលើការផ្លាស់ទីទិន្នន័យយ៉ាងច្រើន។",
+    "យុទ្ធសាស្ត្របង្កើនល្បឿនដែលមានស្រាប់ច្រើនតែមានការកំណត់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Rosemary：用于 Fully Homomorphic Encryption 的高效且适应性强的存储内加速",
+   "summary": "Fully Homomorphic Encryption 能够对加密数据进行计算，对隐私保护计算具有广阔前景。然而，由于巨大的计算、内存和数据移动开销，FHE 的部署仍然受到限制。现有的加速策略经常面临瓶颈。",
+   "impact": "这项研究可能有助于解决与 Fully Homomorphic Encryption 相关的高昂开销，从而可能使隐私保护计算对开发人员和技术用户更具实用性。",
+   "keyPoints": [
+    "Fully Homomorphic Encryption 支持对加密数据进行计算。",
+    "FHE 部署面临巨大的计算、内存和数据移动开销。",
+    "现有的加速策略通常受到限制。"
+   ]
+  },
+  "ko": {
+   "title": "Rosemary: Fully Homomorphic Encryption을 위한 효율적이고 적응 가능한 스토리지 내 가속",
+   "summary": "Fully Homomorphic Encryption은 암호화된 데이터에 대한 연산을 가능하게 하여 프라이버시 보호 컴퓨팅에 유망합니다. 그러나 FHE 배포는 막대한 연산, 메모리, 데이터 이동 오버헤드로 인해 여전히 제한을 받고 있습니다. 기존 가속 전략은 종종 제약에 직면합니다.",
+   "impact": "이 연구는 Fully Homomorphic Encryption과 관련된 높은 오버헤드를 해결하는 데 도움을 줄 수 있으며, 잠재적으로 개발자와 기술 사용자에게 프라이버시 보호 컴퓨팅을 더 실용적으로 만들 수 있습니다.",
+   "keyPoints": [
+    "Fully Homomorphic Encryption은 암호화된 데이터에 대한 연산을 가능하게 합니다.",
+    "FHE 배포는 막대한 연산, 메모리 및 데이터 이동 오버헤드에 직면합니다.",
+    "기존 가속 전략은 종종 제약을 받습니다."
+   ]
+  }
+ }
+}

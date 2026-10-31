@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "540ad2fbf10b8956",
+ "contentHash": "dea484abdffe4c50",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T18:48:30.168Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Nearly Minimax Optimal Regret for Adversarial Linear Bandits with Strong Corruptions",
+   "summary": "Researchers studied adversarial linear bandits with strong corruption, where an adaptive adversary selects reward vectors and a strong adversary corrupts each observed reward after the learner takes an action. This process is constrained by a known total corruption budget C. The study examines how strong corruption breaks existing methods.",
+   "impact": "This research could help developers and researchers working on bandit algorithms better understand how strong corruptions affect regret bounds and system performance.",
+   "keyPoints": [
+    "The study focuses on adversarial linear bandits with strong corruption.",
+    "An adaptive adversary chooses the reward vectors.",
+    "A strong adversary corrupts each observed reward after the learner's action.",
+    "The corruptions are subject to a known total corruption budget C."
+   ]
+  },
+  "km": {
+   "title": "កម្រិតខុសគ្នាច្រើនបំផុតស្ទើរតែល្អបំផុតសម្រាប់ Adversarial Linear Bandits ដែលមានការខូចខាតខ្លាំង",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាអំពី adversarial linear bandits ដែលមានការខូចខាតខ្លាំង ដែលក្នុងនោះអ្នកប្រកួតប្រជែងបែបសម្របខ្លួនជ្រើសរើសវ៉ិចទ័ររង្វាន់ ហើយអ្នកប្រកួតប្រជែងខ្លាំងធ្វើឱ្យខូចរង្វាន់នីមួយៗដែលបានសង្កេតឃើញបន្ទាប់ពីឃើញសកម្មភាពរបស់សិស្ស។ដំណើរការនេះស្ថិតក្រោមថវិកាខូចខាតសរុបដែលគេស្គាល់ C។ ការសិក្សានេះពិនិត្យមើលពីរបៀបដែលការខូចខាតខ្លាំងបំផ្លាញវិធីសាស្ត្រដែលមានស្រាប់។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវដែលធ្វើការលើក្បួនដោះស្រាយបេនឌីតឱ្យយល់កាន់តែច្បាស់អំពីរបៀបដែលការខូចខាតខ្លាំងប៉ះពាល់ដល់ដែនកំណត់នៃភាពខុសគ្នា និងដំណើរការប្រព័ន្ធ។",
+   "keyPoints": [
+    "ការសិក្សាផ្តោតលើ adversarial linear bandits ដែលមានការខូចខាតខ្លាំង។",
+    "អ្នកប្រកួតប្រជែងបែបសម្របខ្លួនជ្រើសរើសវ៉ិចទ័ររង្វាន់។",
+    "អ្នកប្រកួតប្រជែងខ្លាំងធ្វើឱ្យខូចរង្វាន់នីមួយៗបន្ទាប់ពីសកម្មភាពរបស់សិស្ស។",
+    "ការខូចខាតស្ថិតក្រោមថវិកាខូចខាតសរុប C ដែលគេស្គាល់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "具有强破坏的对抗性线性多臂老虎机的近极小极大遗憾",
+   "summary": "研究人员研究了具有强破坏的对抗性线性多臂老虎机，其中自适应对抗者选择奖励向量，而强破坏者在学习者采取行动后破坏每个观察到的奖励。该过程受制于一个已知的总破坏预算 C。该研究探讨了强破坏如何破坏现有方法。",
+   "impact": "这项研究可能有助于从事老虎机算法开发的开发者和研究人员更好地了解强破坏如何影响遗憾界限和系统性能。",
+   "keyPoints": [
+    "研究重点关注具有强破坏的对抗性线性多臂老虎机。",
+    "自适应对抗者选择奖励向量。",
+    "强破坏者在学习者行动后破坏每个观察到的奖励。",
+    "破坏受制于已知的总破坏预算 C。"
+   ]
+  },
+  "ko": {
+   "title": "강한 오염이 있는 적대적 선형 밴디트를 위한 거의 미니맥스 최적 후회",
+   "summary": "연구원들은 적응형 적대자가 보상 벡터를 선택하고 강한 적대자가 학습자의 행동을 본 후 관찰된 각 보상을 오염시키는, 강한 오염이 있는 적대적 선형 밴디트를 연구했습니다. 이 과정은 알려진 총 오염 예산 C의 적용을 받습니다. 이 연구는 강한 오염이 기존 방법을 어떻게 깨뜨리는지 조사합니다.",
+   "impact": "이 연구는 밴디트 알고리즘을 연구하는 개발자와 연구자들이 강한 오염이 후회 한계와 시스템 성능에 미치는 영향을 더 잘 이해하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "이 연구는 강한 오염이 있는 적대적 선형 밴디트에 초점을 맞춥니다.",
+    "적응형 적대자가 보상 벡터를 선택합니다.",
+    "강한 적대자가 학습자의 행동 이후 관찰된 각 보상을 오염시킵니다.",
+    "오염은 알려진 총 오염 예산 C에 종속됩니다."
+   ]
+  }
+ }
+}

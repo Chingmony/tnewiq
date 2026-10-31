@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d67e3a17ae403798",
+ "contentHash": "b055b61211dd5d5d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T18:44:41.972Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Public endpoints for Amazon ElastiCache Serverless now in AWS GovCloud (US)",
+   "summary": "Amazon ElastiCache Serverless for Valkey now supports public endpoints in the AWS GovCloud (US) Regions. This feature allows connections to caches from serverless functions or applications running outside a VPC. It eliminates the need for setting up a VPN, bastion host, or SSH.",
+   "impact": "Developers and technology users could connect to caches from outside a VPC more easily without configuring a VPN or bastion host. This may streamline connectivity for serverless functions and external applications operating in AWS GovCloud (US) Regions.",
+   "keyPoints": [
+    "Amazon ElastiCache Serverless for Valkey now supports public endpoints.",
+    "The feature is available in the AWS GovCloud (US) Regions.",
+    "It enables connections from outside a VPC without a VPN, bastion host, or SSH."
+   ]
+  },
+  "km": {
+   "title": "ចំណុចប្រទាក់សាធារណៈសម្រាប់ Amazon ElastiCache Serverless ឥឡូវនេះមាននៅក្នុង AWS GovCloud (US)",
+   "summary": "Amazon ElastiCache Serverless for Valkey ឥឡូវនេះគាំទ្រចំណុចប្រទាក់សាធារណៈនៅក្នុងតំបន់ AWS GovCloud (US)។ លក្ខណៈពិសេសនេះអនុញ្ញាតឱ្យអ្នកភ្ជាប់ទៅកាន់ឃ្លាំងសម្ងាត់ពីមុខងារស៊ើវើឡេស ឬកម្មវិធីណាមួយដែលកំពុងដំណើរការនៅខាងក្រៅ VPC។ វាជួយកាត់បន្ថយតម្រូវការក្នុងការរៀបចំ VPN, bastion host ឬ SSH។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងភ្ជាប់ទៅកាន់ឃ្លាំងសម្ងាត់ពីខាងក្រៅ VPC បានយ៉ាងងាយស្រួលជាងមុនដោយមិនបាច់កំណត់រចនាសម្ព័ន្ធ VPN ឬ bastion host នោះទេ។ វាក៏អាចជួយសម្រួលដល់ការតភ្ជាប់សម្រាប់មុខងារស៊ើវើឡេស និងកម្មវិធីខាងក្រៅដែលដំណើរការនៅក្នុងតំបន់ AWS GovCloud (US) ផងដែរ។",
+   "keyPoints": [
+    "Amazon ElastiCache Serverless for Valkey ឥឡូវនេះគាំទ្រចំណុចប្រទាក់សាធារណៈ។",
+    "មុខងារនេះមាននៅក្នុងតំបន់ AWS GovCloud (US)។",
+    "វាអាចឱ្យមានការតភ្ជាប់ពីខាងក្រៅ VPC ដោយមិនចាំបាច់មាន VPN, bastion host ឬ SSH ឡើយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon ElastiCache Serverless 公共端点现已登陆 AWS GovCloud (US)",
+   "summary": "Amazon ElastiCache Serverless for Valkey 现已在 AWS GovCloud (US) 区域支持公共端点。该功能允许您从无服务器函数或在 VPC 外部运行的任何应用程序连接到缓存。它无需设置 VPN、堡垒机或 SSH。",
+   "impact": "开发人员和技术用户可以更轻松地从 VPC 外部连接到缓存，而无需配置 VPN 或堡垒机。这可能会简化在 AWS GovCloud (US) 区域中运行的无服务器函数和外部应用程序的连接。",
+   "keyPoints": [
+    "Amazon ElastiCache Serverless for Valkey 现已支持公共端点。",
+    "该功能可在 AWS GovCloud (US) 区域使用。",
+    "它允许从 VPC 外部连接，无需 VPN、堡垒机或 SSH。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon ElastiCache Serverless 공용 엔드포인트, AWS GovCloud (US)에 출시",
+   "summary": "Amazon ElastiCache Serverless for Valkey가 이제 AWS GovCloud (US) 리전에서 공용 엔드포인트를 지원합니다. 이 기능을 사용하면 VPN, 배스천 호스트 또는 SSH를 설정하지 않고도 VPC 외부에서 실행되는 서버리스 함수나 애플리케이션에서 캐시에 연결할 수 있습니다.",
+   "impact": "개발자와 기술 사용자는 VPN이나 배스천 호스트를 구성하지 않고도 VPC 외부에서 캐시에 더 쉽게 연결할 수 있습니다. 이는 AWS GovCloud (US) 리전에서 운영되는 서버리스 함수와 외부 애플리케이션의 연결을 간소화할 수 있습니다.",
+   "keyPoints": [
+    "Amazon ElastiCache Serverless for Valkey가 이제 공용 엔드포인트를 지원합니다.",
+    "이 기능은 AWS GovCloud (US) 리전에서 사용할 수 있습니다.",
+    "VPN, 배스천 호스트 또는 SSH 없이 VPC 외부에서 연결할 수 있습니다."
+   ]
+  }
+ }
+}

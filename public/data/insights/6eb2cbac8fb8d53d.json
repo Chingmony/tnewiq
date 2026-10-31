@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6eb2cbac8fb8d53d",
+ "contentHash": "6d1d1cdf33318abe",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T18:49:00.108Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Variational Consequence-Driven Offline Reinforcement Learning",
+   "summary": "Offline reinforcement learning (RL) typically mitigates distribution shift by imposing divergence constraints on the action distributions of the learned and behavior policies. However, this paradigm cannot ensure the underlying dynamic consistency structure. Even minor action changes can disrupt this consistency.",
+   "impact": "This research may help developers and researchers working on offline reinforcement learning to better address distribution shift and dynamic consistency issues.",
+   "keyPoints": [
+    "Offline RL usually mitigates distribution shift via divergence constraints.",
+    "Action distributions are placed between learned and behavior policies.",
+    "Current paradigms fail to ensure underlying dynamic consistency structures."
+   ]
+  },
+  "km": {
+   "title": "ការរៀនពង្រឹងក្រៅបណ្តាញដោយផ្អែកលើផលវិបាកប្រែប្រួល",
+   "summary": "ការរៀនពង្រឹង (RL) ក្រៅបណ្តាញជាទូទៅកាត់បន្ថយការបម្លាស់ទីការចែកចាយដោយកំណត់ការរឹតបន្តឹងលើការបែងចែកសកម្មភាពនៃគោលនយោបាយដែលបានរៀន និងអាកប្បកិរិយា។ ទោះជាយ៉ាងណាក៏ដោយ គំរូនេះមិនអាចធានារចនាសម្ព័ន្ធភាពស៊ីសង្វាក់គ្នានៃសក្ដានុពលមូលដ្ឋាននោះទេ។ សូម្បីតែការផ្លាស់ប្តូរសកម្មភាពបន្តិចបន្តួចក៏អាចរំខានដល់ភាពស៊ីសង្វាក់គ្នានេះដែរ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវដែលធ្វើការលើការរៀនពង្រឹងក្រៅបណ្តាញ ដើម្បីដោះស្រាយបញ្ហាបម្លាស់ទីការចែកចាយ និងភាពស៊ីសង្វាក់គ្នានៃសក្ដានុពលឱ្យកាន់តែប្រសើរឡើង។",
+   "keyPoints": [
+    "RL ក្រៅបណ្តាញតែងតែកាត់បន្ថយការបម្លាស់ទីការចែកចាយតាមរយៈការរឹតបន្តឹងការបែងចែក។",
+    "ការបែងចែកសកម្មភាពត្រូវបានដាក់រវាងគោលនយោបាយដែលបានរៀន និងអាកប្បកិរិយា។",
+    "គំរូ الحالي មិនអាចធានារចនាសម្ព័ន្ធភាពស៊ីសង្វាក់គ្នានៃសក្ដានុពលមូលដ្ឋានបានទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "变分结果驱动离线强化学习",
+   "summary": "离线强化学习（RL）通常通过对学习策略和行为策略的动作分布施加散度约束来缓解分布偏移。然而，这种范式无法确保底层动态一致性结构。即使是微小的动作变化也会破坏这种一致性。",
+   "impact": "这项研究可能有助于从事离线强化学习的开发者和研究人员更好地解决分布偏移和动态一致性问题。",
+   "keyPoints": [
+    "离线RL通常通过散度约束缓解分布偏移。",
+    "动作分布被置于学习策略和行为策略之间。",
+    "当前范式无法确保底层动态一致性结构。"
+   ]
+  },
+  "ko": {
+   "title": "변분 결과 기반 오프라인 강화학습",
+   "summary": "오프라인 강화학습(RL)은 일반적으로 학습된 정책과 행동 정책의 행동 분포에 발산 제약을 부과하여 분포 변화를 완화합니다. 그러나 이 패러다임은 근본적인 동적 일관성 구조를 보장할 수 없습니다. 사소한 행동 변화조차 이 일관성을 깨뜨릴 수 있습니다.",
+   "impact": "이 연구는 오프라인 강화학습을 연구하는 개발자와 연구원들이 분포 변화 및 동적 일관성 문제를 더 잘 해결하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "오프라인 RL은 일반적으로 발산 제약을 통해 분포 변화를 완화합니다.",
+    "행동 분포는 학습된 정책과 행동 정책 사이에 배치됩니다.",
+    "현재 패러다임은 근본적인 동적 일관성 구조를 보장하지 못합니다."
+   ]
+  }
+ }
+}

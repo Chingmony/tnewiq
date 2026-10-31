@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0ef8b8a3d15d55c4",
+ "contentHash": "b51b0d3173eae64a",
+ "model": "gemini-flash-latest",
+ "generatedAt": "2026-10-31T18:37:42.387Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits",
+   "summary": "Beginning November 29, OpenAI intends to use data from Daybreak Blue sessions to train its models, including instances where users had previously disabled training. Following user backlash, the company issued a follow-up email promising a separate opt-out mechanism. The decision has renewed concerns similar to a previous dispute involving mathematicians who suspected their unpublished work was used for training without permission.",
+   "impact": "Security teams and users relying on Daybreak Blue may need to monitor their settings to ensure sensitive session data is not incorporated into model training. The separate opt-out mechanism could require manual action from organizations aiming to protect proprietary cybersecurity workflows.",
+   "keyPoints": [
+    "OpenAI plans to begin using Daybreak Blue session data for model training starting November 29.",
+    "The training was originally set to proceed even if users had turned off data training.",
+    "Following backlash, OpenAI promised to provide a separate opt-out option in a follow-up email.",
+    "The change has reignited prior concerns regarding data usage without user consent."
+   ]
+  },
+  "km": {
+   "title": "OpenAI គ្រោងនឹងបង្វឹកម៉ូដែលលើទិន្នន័យវគ្គសន្តិសុខស៊ីប៊ែរ Daybreak Blue ដែលពីមុនត្រូវបានហាមឃាត់",
+   "summary": "ចាប់ពីថ្ងៃទី ២៩ ខែវិច្ឆិកា ក្រុមហ៊ុន OpenAI នឹងប្រើប្រាស់ទិន្នន័យពីវគ្គ Daybreak Blue ដើម្បីបង្វឹកម៉ូដែលរបស់ខ្លួន សូម្បីតែនៅពេលអ្នកប្រើប្រាស់បានបិទការបង្វឹកក៏ដោយ។ បន្ទាប់ពីមានការរិះគន់ អ៊ីមែលបន្តបន្ទាប់មួយបានសន្យាថានឹងមានយន្តការជ្រើសរើសមិនចូលរួម (opt-out) ដាច់ដោយឡែកមួយ។ វិធានការនេះបានធ្វើឱ្យមានការព្រួយបារម្ភឡើងវិញ ដូចជម្លោះពីមុនជាមួយក្រុមអ្នកគណិតវិទ្យាដែលសង្ស័យថា OpenAI បានប្រើការស្រាវជ្រាវមិនទាន់ចេញផ្សាយរបស់ពួកគេដោយគ្មានការយល់ព្រម។",
+   "impact": "ក្រុមការងារសន្តិសុខ និងអ្នកប្រើប្រាស់ប្រព័ន្ធ Daybreak Blue អាចនឹងត្រូវពិនិត្យការកំណត់ឡើងវិញ ដើម្បីកុំឱ្យទិន្នន័យវគ្គការងាររសើបត្រូវបានយកទៅបង្វឹកម៉ូដែល។ ជម្រើសដកខ្លួនចេញដាច់ដោយឡែកនេះ អាចតម្រូវឱ្យស្ថាប័ននានាចាត់វិធានការដោយផ្ទាល់ ដើម្បីការពារទិន្នន័យរបស់ខ្លួន។",
+   "keyPoints": [
+    "OpenAI គ្រោងប្រើទិន្នន័យវគ្គ Daybreak Blue សម្រាប់បង្វឹកម៉ូដែលចាប់ពីថ្ងៃទី ២៩ ខែវិច្ឆិកា។",
+    "ការបង្វឹកនេះត្រូវបានគ្រោងធ្វើឡើងទោះបីជាអ្នកប្រើប្រាស់បានបិទមុខងារបង្វឹកពីមុនក៏ដោយ។",
+    "ក្រោយរងការរិះគន់ OpenAI បានសន្យាតាមរយៈអ៊ីមែលថានឹងផ្តល់ជម្រើស opt-out ដាច់ដោយឡែកមួយ។",
+    "បញ្ហានេះបានបង្កឱ្យមានការព្រួយបារម្ភជាថ្មីជុំវិញការប្រើប្រាស់ទិន្នន័យដោយគ្មានការអនុញ្ញាត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "OpenAI 计划使用此前受限的 Daybreak Blue 网络安全会话数据训练模型",
+   "summary": "从 11 月 29 日开始，OpenAI 将使用 Daybreak Blue 会话中的数据来训练其模型，即使相关用户此前已关闭训练功能。在引发反对声浪后，该公司通过后续邮件承诺将提供单独的退出选项。此举重新引发了类似于此前与数学家争议的担忧，当时数学家怀疑 OpenAI 未经许可使用了其未发表的研究成果进行训练。",
+   "impact": "使用 Daybreak Blue 的安全团队和技术人员可能需要重新评估其数据隐私设置，以防止敏感会话被用于训练。新增的单独退出机制可能需要企业主动采取操作以确保工作流程数据不被泄露。",
+   "keyPoints": [
+    "OpenAI 计划自 11 月 29 日起使用 Daybreak Blue 会话数据进行模型训练。",
+    "即使此前用户已关闭模型训练，原本也会受该变动影响。",
+    "在遭到反对后，OpenAI 发送后续邮件承诺提供单独的退出机制。",
+    "该举措重新引发了对未经同意使用训练数据的担忧。"
+   ]
+  },
+  "ko": {
+   "title": "OpenAI, 이전에 제한되었던 Daybreak Blue 사이버 보안 세션 데이터를 모델 학습에 사용할 계획",
+   "summary": "OpenAI는 11월 29일부터 사용자가 학습 기능을 비활성화한 경우에도 Daybreak Blue 세션 데이터를 모델 학습에 활용할 계획입니다. 사용자의 반발이 이어지자 회사는 후속 이메일을 통해 별도의 수신 거부(opt-out) 방안을 제공하겠다고 약속했습니다. 이번 조치는 미발표 연구 자료가 무단으로 학습에 쓰였다고 의심했던 수학자들과의 과거 분쟁과 유사한 우려를 다시 불러일으키고 있습니다.",
+   "impact": "Daybreak Blue를 활용하는 보안팀과 사용자들은 민감한 세션 데이터가 모델 학습에 반영되지 않도록 설정을 점검해야 할 수 있습니다. 보안 워크플로를 보호하려는 조직은 향후 제공될 별도의 거부 절차를 수동으로 적용해야 할 가능성이 있습니다.",
+   "keyPoints": [
+    "OpenAI는 11월 29일부터 Daybreak Blue 세션 데이터를 모델 학습에 사용할 예정입니다.",
+    "학습 기능을 비활성화한 사용자 데이터도 당초 포함 대상이었습니다.",
+    "반발이 일자 OpenAI는 별도의 opt-out 옵션을 약속하는 후속 이메일을 발송했습니다.",
+    "이번 결정은 동의 없는 데이터 학습 사용에 대한 기존의 우려를 재점화했습니다."
+   ]
+  }
+ }
+}
