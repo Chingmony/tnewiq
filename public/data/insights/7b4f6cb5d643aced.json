@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7b4f6cb5d643aced",
+ "contentHash": "3e51a290486274f5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:57:05.272Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Ramanujan Challenge Results: AI-Assisted Evaluation Pipeline for Multi-Format Proofs",
+   "summary": "Researchers analyzed submissions to the Ramanujan Challenge, a benchmark of research-level number theory problems containing unpublished results and open conjectures. The submissions included correct answers conceptually distinct from official solutions and a proof for one of the published open conjectures. To address the difficulty of judging complex proofs at scale, the authors introduced an AI-assisted evaluation pipeline for natural language proofs, Computer Algebra Systems code, and Lean formalizations.",
+   "impact": "This evaluation pipeline could improve the accuracy of assessing research-level mathematical submissions by reducing false-positive verdicts on natural language proofs and improving judgment accuracy on supporting code. These improvements may offer a reliable methodology for evaluating complex mathematics and AI applications for science at scale.",
+   "keyPoints": [
+    "The Ramanujan Challenge features research-level number theory problems, including unpublished results and open conjectures.",
+    "Analysis of submissions revealed correct answers distinct from official solutions and a proof for a published open conjecture.",
+    "The new AI-assisted evaluation pipeline assesses semantic and logical correctness across natural language, CAS code, and Lean formalizations.",
+    "The pipeline reduced false-positive verdicts on natural language proofs from 23% to 6% and improved supporting code judgment accuracy from 46% to 58%."
+   ]
+  },
+  "km": {
+   "title": "លទ្ធផលនៃកម្មវិធី Ramanujan Challenge៖ បំពង់បង្ហូរការវាយតម្លៃជំនួយដោយ AI សម្រាប់ភស្តុតាងទ្រង់ទ្រង់ច្រើនទម្រង់",
+   "summary": "អ្នកស្រាវជ្រាវបានវិភាគលើការស្នើសុំនៅក្នុង Ramanujan Challenge ដែលជាគោលស្ដង់ដារនៃបញ្ហាទ្រឹស្តីចំនួនកម្រិតស្រាវជ្រាវដែលមានលទ្ធផលមិនទាន់បានបោះពុម្ពផ្សាយ និងការទស្សន៍ទាយបើកចំហ។ ការស្នើសុំទាំងនោះរួមមានចម្លើយត្រឹមត្រូវដែលខុសគ្នាពីដំណោះស្រាយផ្លូវការ និងភស្តុតាងសម្រាប់ការពិតនៃការទស្សន៍ទាយបើកចំហដែលបានបោះពុម្ពផ្សាយមួយ។ ដើម្បីដោះស្រាយការពិបាកក្នុងការវិនិច្ឆ័យភស្តុតាងស្មុគស្មាញក្នុងទ្រង់ទ្រង់ធំ អ្នកនិពន្ធបានដាក់ឱ្យប្រើប្រាស់បំពង់បង្ហូរការវាយតម្លៃជំនួយដោយ AI សម្រាប់ភស្តុតាងភាសាធម្មជាតិ កូដប្រព័ន្ធពិជ័យគណិតកុំព្យូទ័រ និងការបង្កើតទម្រង់ Lean ជាដើម។",
+   "impact": "បំពង់បង្ហូរការវាយតម្លៃនេះអាចកែលម្អភាពត្រឹមត្រូវនៃការវាយតម្លៃលើការស្នើសុំគណិតវិទ្យាកម្រិតស្រាវជ្រាវ ដោយកាត់បន្ថយការវិនិច្ឆ័យខុសលើភស្តុតាងភាសាធម្មជាតិ និងបង្កើនភាពត្រឹមត្រូវលើកូដគាំទ្រ។ វិធីសាស្ត្រនេះអាចផ្តល់នូវកម្រិតស្តង់ដារដែលអាចទុកចិត្តបានសម្រាប់ការវាយតម្លៃគណិតវិទ្យាស្មុគស្មាញ និងកម្មវិធី AI សម្រាប់វិទ្យាសាស្ត្រក្នុងទំហំធំ។",
+   "keyPoints": [
+    "Ramanujan Challenge មានលក្ខណៈពិសេសជាបញ្ហាទ្រឹស្តីចំនួនកម្រិតស្រាវជ្រាវ រួមទាំងលទ្ធផលមិនទាន់បានបោះពុម្ព និងការទស្សន៍ទាយបើកចំហ។",
+    "ការវិភាគលើការស្នើសុំបានបង្ហាញពីចម្លើយត្រឹមត្រូវដែលខុសប្លែកពីដំណោះស្រាយផ្លូវការ និងភស្តុតាងសម្រាប់ការទស្សន៍ទាយបើកចំហដែលបានបោះពុម្ពផ្សាយ។",
+    "បំពង់បង្ហូរការវាយតម្លៃថ្មីដែលជំនួយដោយ AI ធ្វើការវាយតម្លៃភាពត្រឹមត្រូវនៃអត្ថន័យ និងឡូជីខលឆ្លងកាត់ភាសាធម្មជាតិ កូដ CAS និងទម្រង់ Lean ។",
+    "បំពង់បង្ហូរនេះបានកាត់បន្ថយការវិនិច្ឆ័យខុសលើភស្តុតាងភាសាធម្មជាតិពី 23% ទៅ 6% និងបានកែលម្អភាពត្រឹមត្រូវនៃការវិនិច្ឆ័យកូដគាំទ្រពី 46% ទៅ 58% ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "拉马努金挑战赛结果：用于多格式证明的AI辅助评估流程",
+   "summary": "研究人员分析了拉马努金挑战赛的提交结果，该挑战赛包含数论领域的研究级问题、未发表的成果以及开放性猜想。提交内容包括与官方解答在概念上不同的正确答案，以及对已发表开放性猜想之一的证明。为了解决大规模可靠判断复杂证明的难题，作者引入了一个针对自然语言证明、计算机代数系统代码和Lean形式化的AI辅助评估流程。",
+   "impact": "该评估流程可能会减少自然语言证明的误报率并提高对支持代码的判断准确率，从而提升评估研究级数学提交内容的准确性。这些改进可能为大规模评估复杂数学以及科学AI应用提供可靠的方法论。",
+   "keyPoints": [
+    "拉马努金挑战赛以研究级数论问题为特色，其中包括未发表的成果和开放性猜想。",
+    "对提交内容的分析显示出了与官方解答不同的正确答案以及对某一已发表开放性猜想的证明。",
+    "新型AI辅助评估流程可对自然语言、计算机代数系统代码和Lean形式化进行语义和逻辑正确性的评估。",
+    "该流程将自然语言证明的误报率从23%降至6%，并将支持代码的判断准确率从46%提高到58%。"
+   ]
+  },
+  "ko": {
+   "title": "라마누잔 챌린지 결과: 다중 형식 증명을 위한 AI 보조 평가 파이프라인",
+   "summary": "연구원들은 미발표 결과와 미해결 추측을 포함하는 연구 수준의 정수론 문제 벤치마크인 라마누잔 챌린지의 제출작들을 분석했습니다. 제출작에는 공식 해답과 개념적으로 다른 정답들과 발행된 미해결 추측 중 하나에 대한 증명이 포함되었습니다. 대규모로 복잡한 증명을 신뢰성 있게 평가하는 어려움을 해결하기 위해 저자들은 자연어 증명, 컴퓨터 대수 시스템 코드, Lean 형식화를 위한 AI 보조 평가 파이프라인을 도입했습니다.",
+   "impact": "이 평가 파이프라인은 자연어 증명에 대한 오탐지율을 낮추고 지원 코드에 대한 판단 정확도를 향상시켜 연구 수준의 수학 제출물 평가 정확도를 높일 수 있습니다. 이러한 개선 사항은 복잡한 수학과 과학 분야의 AI 응용 프로그램을 대규모로 평가할 수 있는 신뢰할 수 있는 방법론을 제공할 수 있습니다.",
+   "keyPoints": [
+    "라마누잔 챌린지는 미발표 결과와 미해결 추측을 포함하는 연구 수준의 정수론 문제를 특징으로 합니다.",
+    "제출물 분석을 통해 공식 해답과 다른 정답들과 발행된 미해결 추측에 대한 증명이 밝혀졌습니다.",
+    "새로운 AI 보조 평가 파이프라인은 자연어, 컴퓨터 대수 시스템 코드, Lean 형식화 전반의 의미론적 및 논리적 정확성을 평가합니다.",
+    "이 파이프라인은 자연어 증명에 대한 오탐지 판정을 23%에서 6%로 줄이고 지원 코드 판단 정확도를 46%에서 58%로 향상시켰습니다."
+   ]
+  }
+ }
+}

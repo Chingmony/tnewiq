@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9bd8eebb57e509b9",
+ "contentHash": "2cf41187412e337f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:56:42.649Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Power Adjusting Games Under Block-Dependent Pool Payout Schemes",
+   "summary": "Researchers have analyzed the T-PAW power adjusting attack, which includes FAW and PAW as special cases, under practical block-dependent payout schemes such as PPLNS, PROP, and EXP. The study also introduces Power Adjusting Hopping (PAH), where an adversary adjusts power allocation based on round age without withholding blocks, and derives revenue ratios for PROP and EXP. Results show that previous global-reset proportional schemes misestimate T-PAW gains, and that PPLNS is the least vulnerable payout scheme.",
+   "impact": "Security teams and mining pool operators may use these findings to understand vulnerabilities in different payout schemes. The analysis indicates that PPLNS offers better mitigation against these attacks compared to PROP and EXP.",
+   "keyPoints": [
+    "Analyzed T-PAW under practical payout schemes: PPLNS, PROP, and EXP.",
+    "Introduced Power Adjusting Hopping (PAH) and derived revenue ratios for PROP and EXP.",
+    "Demonstrated that previous GRP models misestimate T-PAW gains.",
+    "Found that PPLNS is the least vulnerable scheme, being immune to PAH and mitigating T-PAW."
+   ]
+  },
+  "km": {
+   "title": "ហ្គេមលៃតម្រូវថាមពលក្រោមគ្រោងការណ៍ទូទាត់ប្រាក់របស់វរសេនាតូចអាស្រ័យលើប្លុក",
+   "summary": "អ្នកស្រាវជ្រាវបានវិភាគការវាយប្រហារការលៃតម្រូវថាមពល T-PAW ក្រោមគ្រោងការណ៍ទូទាត់ប្រាក់ពិតប្រាកដដែលអាស្រ័យលើប្លុកដូចជា PPLNS, PROP និង EXP។ ការសិក្សានេះក៏បានណែនាំផងដែរនូវ Power Adjusting Hopping (PAH) ដែលជាកន្លែងដែលគូប្រជែងលៃតម្រូវការបែងចែកថាមពលដោយផ្អែកលើអាយុជុំដោយមិនទប់ប្លុក។ លទ្ធផលបង្ហាញថាគ្រោងការណ៍ពីមុនបានប៉ាន់ស្មានខុសនូវការទទួលបាន T-PAW ហើយ PPLNS គឺជាគ្រោងការណ៍ដែលមានភាពងាយរងគ្រោះតិចបំផុត។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកគ្រប់គ្រងវរសេនាតូចអាចប្រើប្រាស់ការរកឃើញទាំងនេះដើម្បីយល់ពីភាពងាយរងគ្រោះនៅក្នុងគ្រោងការណ៍ទូទាត់ផ្សេងៗគ្នា។ ការវិភាគបង្ហាញថា PPLNS ផ្តល់នូវការកាត់បន្ថយที่ดีជាងប្រឆាំងនឹងការវាយប្រហារទាំងនេះ។",
+   "keyPoints": [
+    "បានវិភាគ T-PAW ក្រោមគ្រោងការណ៍ទូទាត់ប្រាក់ជាក់ស្តែង PPLNS, PROP និង EXP។",
+    "បានណែនាំ Power Adjusting Hopping (PAH) និងបានដកស្រង់សមាមាត្រប្រាក់ចំណូលសម្រាប់ PROP និង EXP។",
+    "បានបង្ហាញថាគំរូ GRP ពីមុនប៉ាន់ស្មានខុសនូវការទទួលបាន T-PAW។",
+    "បានរកឃើញថា PPLNS គឺជាគ្រោងការណ៍ដែលមានភាពងាយរងគ្រោះតិចបំផុតចំពោះការវាយប្រហារទាំងនេះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "区块依赖矿池支付方案下的功率调整博弈",
+   "summary": "研究人员在实际部署的区块依赖支付方案（如PPLNS、PROP和EXP）下，分析了包含FAW和PAW作为特例的T-PAW功率调整攻击。该研究还引入了功率调整跳跃（PAH），即任何规模的对手根据区块工作轮次年龄调整其对矿池的功率分配而不扣留任何区块。结果表明，以往的全局重置比例方案会错误估计T-PAW的收益，而PPLNS是最不容易受到攻击的方案。",
+   "impact": "安全团队和矿池运营者可以利用这些发现来了解不同支付方案中的漏洞。分析表明，与PROP和EXP相比，PPLNS对这些攻击提供了更好的缓解作用。",
+   "keyPoints": [
+    "在实际支付方案PPLNS、PROP和EXP下分析了T-PAW。",
+    "引入了功率调整跳跃（PAH）并推导了PROP和EXP的收益比率。",
+    "表明先前的GRP模型对T-PAW收益的估计存在偏差。",
+    "发现PPLNS是最不容易受到攻击的方案，对PAH免疫并减轻了T-PAW的影响。"
+   ]
+  },
+  "ko": {
+   "title": "블록 종속 풀 지급 체계에서의 전력 조정 게임",
+   "summary": "연구원들은 PPLNS, PROP, EXP 등 실제 사용되는 블록 종속 지급 체계 하에서 FAW와 PAW를 특수한 경우로 포함하는 T-PAW 전력 조정 공격을 분석했다. 본 연구에서는 블록을 보류하지 않고 라운드 작업 연령에 따라 풀에 대한 전력 할당을 조정하는 Power Adjusting Hopping(PAH)을 도입하고 PROP 및 EXP에 대한 수익 비율을 유도했다. 결과는 이전의 글로벌 리셋 비율 체계가 T-PAW 이득을 잘못 추정하며 PPLNS가 가장 취약하지 않은 체계임을 보여준다.",
+   "impact": "보안 팀과 마이닝 풀 운영자는 이러한 연구 결과를 활용하여 다양한 지급 체계의 취약점을 이해할 수 있다. 분석에 따르면 PPLNS는 PROP 및 EXP에 비해 이러한 공격에 대한 더 나은 완화 효과를 제공한다.",
+   "keyPoints": [
+    "실제 지급 체계인 PPLNS, PROP, EXP 하에서 T-PAW 분석.",
+    "Power Adjusting Hopping(PAH) 도입 및 PROP와 EXP의 수익 비율 유도.",
+    "이전 GRP 모델이 T-PAW 이득을 잘못 추정함을 입증.",
+    "PPLNS가 PAH에 면역이 있고 T-PAW를 완화하는 가장 취약하지 않은 체계임을 발견."
+   ]
+  }
+ }
+}

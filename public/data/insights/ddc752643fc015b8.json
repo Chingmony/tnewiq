@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ddc752643fc015b8",
+ "contentHash": "58b9ad5fd0fbd14a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:55:29.905Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Bedrock expands API support and introduces Cross-Region Inferencing for OpenAI models in AWS GovCloud (US)",
+   "summary": "Amazon Bedrock has introduced support for OpenAI GPT-5.6 models, including Terra and Luna, on the bedrock-runtime endpoint in AWS GovCloud (US) regions. The update brings support for Responses, Converse, and Chat Completions APIs, alongside Cross-Region Inference to improve throughput and redundancy. These OpenAI models integrate with existing account-level controls, logging, metrics, and cost management tools on Bedrock.",
+   "impact": "Development and security teams operating in AWS GovCloud can leverage higher throughput and redundancy through Cross-Region Inference while maintaining US data sovereignty. The integration with existing logging, metrics, and cost tools allows teams to track model usage and spending consistently.",
+   "keyPoints": [
+    "Amazon Bedrock supports OpenAI GPT-5.6 models (Terra and Luna) in AWS GovCloud (US).",
+    "Cross-Region Inference automatically routes requests across AWS GovCloud (US) regions for higher throughput and redundancy.",
+    "Expanded API support includes Responses, Converse, and Chat Completions APIs on the bedrock-runtime endpoint.",
+    "Usage works with existing account-level controls, model invocation logging, CloudWatch metrics, and AWS Cost Explorer."
+   ]
+  },
+  "km": {
+   "title": "Amazon ពង្រីកការគាំទ្រ API និងណែនាំ Cross-Region Inferencing សម្រាប់ម៉ូដែល OpenAI ក្នុង AWS GovCloud (US)",
+   "summary": "Amazon Bedrock ឥឡូវនេះគាំទ្រម៉ូដែល OpenAI GPT-5.6 គឺ Terra និង Luna នៅលើ bedrock-runtime endpoint ជាមួយនឹងការគាំទ្រសម្រាប់ Responses, Converse និង Chat Completions APIs ក្នុង AWS GovCloud (US)។ ការអាប់ដេតនេះក៏បានបន្ថែមការគាំទ្រ Cross-Region Inference ដើម្បីអនុញ្ញាតឱ្យអតិថិជនទទួលបានកម្រិតបញ្ជូនខ្ពស់ និងការបម្រុងទុកបន្ថែម។ ម៉ូដែលទាំងនេះក៏ដំណើរការជាមួយការគ្រប់គ្រងកម្រិតគណនីដែលមានស្រាប់ ដូចជាការ記錄 ការវាស់វែង និងឧបករណ៍គ្រប់គ្រងចំណាយផងដែរ។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យា និងសុវត្ថិភាពដែលប្រើប្រាស់ AWS GovCloud អាចទទួលបានអត្ថប្រយោជន៍ពីកម្រិតបញ្ជូនខ្ពស់ និងការបម្រុងទុកតាមរយៈ Cross-Region Inference ខណៈពេលដែលរក្សាបាននូវអធិបតេយ្យភាពទិន្នន័យរបស់សហរដ្ឋអាមេរិក។ ការរួមបញ្ចូលគ្នាជាមួយការ記錄 និងឧបករណ៍ចំណាយដែលមានស្រាប់ ជួយឱ្យងាយស្រួលតាមដានការប្រើប្រាស់ផងដែរ។",
+   "keyPoints": [
+    "Amazon Bedrock គាំទ្រម៉ូដែល OpenAI GPT-5.6 (Terra និង Luna) ក្នុង AWS GovCloud (US)។",
+    "Cross-Region Inference បញ្ជូនសំណើដោយស្វ័យប្រវត្តិឆ្លងកាត់តំបន់ AWS GovCloud (US) ដើម្បីទទួលបានកម្រិតបញ្ជូនខ្ពស់ជាងមុន។",
+    "ការពង្រីកការគាំទ្រ API រួមមាន Responses, Converse និង Chat Completions APIs។",
+    "ការប្រើប្រាស់អាចផ្ទៀងផ្ទាត់តាមរយៈ Logging, CloudWatch metrics និង AWS Cost Explorer ដែលមានស្រាប់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Bedrock 在 AWS GovCloud (US) 中扩展了对 OpenAI 模型的 API 支持并引入了跨区域推理功能",
+   "summary": "Amazon Bedrock 现在在 AWS GovCloud (US) 中通过 bedrock-runtime 端点支持 OpenAI GPT-5.6 模型（Terra 和 Luna），并支持 Responses、Converse 和 Chat Completions API。该更新还引入了跨区域推理功能，允许客户在 AWS GovCloud (US) 区域内获得更高的吞吐量和冗余度。这些模型可与 Bedrock 现有的账户级控制、日志记录、指标和成本管理工具无缝集成。",
+   "impact": "在 AWS GovCloud 中工作的开发和安全团队可以通过跨区域推理获得更高的吞吐量和冗余，同时维护美国的数据主权。与现有日志、指标和成本工具的集成，使团队能够轻松地跨模型追踪使用情况和支出。",
+   "keyPoints": [
+    "Amazon Bedrock 在 AWS GovCloud (US) 中支持 OpenAI GPT-5.6 模型（Terra 和 Luna）。",
+    "跨区域推理在 AWS GovCloud (US) 区域之间自动路由推理请求以提供更高吞吐量。",
+    "在 bedrock-runtime 端点上扩展了对 Responses、Chat Completions 和 Converse API 的支持。",
+    "模型使用情况可与 Bedrock 的模型调用日志、CloudWatch 指标以及 AWS Cost Explorer 结合使用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock, AWS GovCloud (US)에서 OpenAI 모델에 대한 API 지원 확대 및 크로스 리전 추론 도입",
+   "summary": "Amazon Bedrock은 AWS GovCloud (US)의 bedrock-runtime 엔드포인트에서 Terra 및 Luna를 포함한 OpenAI GPT-5.6 모델에 대한 지원을 추가했습니다. 이번 업데이트에는 Responses, Converse, Chat Completions API 지원과 함께 더 높은 처리량과 중복성을 제공하는 크로스 리전 추론 기능이 포함됩니다. 이러한 모델은 기존의 계정 수준 제어, 로깅, 메트릭 및 비용 관리 도구와 연동됩니다.",
+   "impact": "AWS GovCloud를 사용하는 개발 및 보안 팀은 미국의 데이터 주권을 유지하면서 크로스 리전 추론을 통해 더 높은 처리량과 중복성을 확보할 수 있습니다. 기존 로깅, 메트릭, 비용 관리 도구와의 통합을 통해 모델 사용량과 지출을 일관되게 추적할 수 있습니다.",
+   "keyPoints": [
+    "Amazon Bedrock이 AWS GovCloud (US)에서 OpenAI GPT-5.6 모델(Terra 및 Luna)을 지원합니다.",
+    "크로스 리전 추론은 AWS GovCloud (US) 리전 간에 요청을 자동으로 라우팅하여 더 높은 처리량을 제공합니다.",
+    "bedrock-runtime 엔드포인트에서 Responses, Converse, Chat Completions API 지원이 확대되었습니다.",
+    "기존 Bedrock 모델 호출 로깅, CloudWatch 메트릭, AWS Cost Explorer와 연동하여 사용량과 비용을 확인할 수 있습니다."
+   ]
+  }
+ }
+}

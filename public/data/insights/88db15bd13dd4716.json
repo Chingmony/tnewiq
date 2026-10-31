@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "88db15bd13dd4716",
+ "contentHash": "6b1cf3fbf41e0c56",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:59:07.330Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates",
+   "summary": "Researchers have proposed a scalable template-based augmentation pipeline to address the lack of multilingual safety training for Large Language Models. By extracting safe templates from harmful prompts, translating them, and filling them with culturally authentic entities, they produced MSafeTemp, a validated corpus spanning 60 languages. Evaluations using this dataset reveal that English-only evaluations misjudge multilingual safety, as attacks failing in English may succeed when translated or culturally localized.",
+   "impact": "This approach could help developers and security teams improve multilingual safety training and evaluation for Large Language Models. Using culturally authentic and diverse data may lead to more responsible models across less-represented languages.",
+   "keyPoints": [
+    "Safety alignment in Large Language Models is typically focused on English, harming low-resource language performance.",
+    "The proposed pipeline creates massive multilingual refusal and benign corpora using safe templates and culturally authentic entities.",
+    "Researchers released MSafeTemp, a validated corpus spanning 60 languages for safety alignment and evaluation.",
+    "English-only evaluations can misjudge safety because translated or culturally localized attacks may still succeed."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែលខ្ញុំបានតម្រឹមគំរូរបស់អ្នក៖ ការពង្រីកការបណ្តុះបណ្តាលសុវត្ថិភាពពហុភាសាជាមួយគំរូ",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើបំពង់បង្កើនទំហំផ្អែកលើគំរូដើម្បីដោះស្រាយបញ្ហាខ្វះខាតការបណ្តុះបណ្តាលសុវត្ថិភាពពហុភាសាសម្រាប់ Large Language Models។ តាមរយៈការស្រង់គំរូមានសុវត្ថិភាពពីការបញ្ជាដែលបង្កគ្រោះថ្នាក់ ការបកប្រែពួកវា និងការបំពេញដោយអង្គភាពពិតប្រាកដតាមវប្បធម៌ ពួកគេបានបង្កើត MSafeTemp ដែលជាបណ្តុំទិន្នន័យមានសុពលភាពគ្របដណ្តប់ 60 ភាសា។ ការវាយតម្លៃដោយប្រើបណ្តុំទិន្នន័យនេះបង្ហាញថា ការវាយតម្លៃតែភាសាអង់គ្លេសអាចវាយតម្លៃសុវត្ថិភាពពហុភាសាខុស។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខក្នុងការកែលម្អការបណ្តុះបណ្តាលសុវត្ថិភាពពហុភាសា និងការវាយតម្លៃសម្រាប់ Large Language Models។ ការប្រើប្រាស់ទិន្នន័យចម្រុះ និងស្របតាមវប្បធម៌អាចនាំឱ្យមានគំរូដែលមានការទទួលខុសត្រូវខ្ពស់ជាងមុននៅទូទាំងភាសាដែលមិនសូវមានធនធាន។",
+   "keyPoints": [
+    "ការតម្រឹមសុវត្ថិភាពសម្រាប់ Large Language Models ភាគច្រើនផ្តោតលើភាសាអង់គ្លេស ដែលប៉ះពាល់ដល់ដំណើរការភាសាធនធានទាប។",
+    "បំពង់ដែលបានស្នើឡើងបង្កើតបណ្តុំទិន្នន័យបដិសេធនិងស្របច្បាប់ពហុភាសាដ៏ច្រើនដោយប្រើគំរូសុវត្ថិភាព។",
+    "អ្នកស្រាវជ្រាវបានបញ្ចេញ MSafeTemp ដែលជាបណ្តុំទិន្នន័យមានសុពលភាពគ្របដណ្តប់ 60 ភាសា។",
+    "ការវាយតម្លៃភាសាអង់គ្លេសសុទ្ធសាធអាចវាយតម្លៃសុវត្ថិភាពពហុភាសាខុសពីការពិត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "如何对齐您的模型：使用模板扩大多语言安全训练",
+   "summary": "研究人员提出了一种可扩展的基于模板的数据增强管道，以解决大语言模型中多语言安全训练不足的问题。通过从有害提示中提取安全模板、翻译它们并填充具有文化真实性的实体，他们发布了MSafeTemp，这是一个跨越60种语言的经过验证的语料库。使用该数据集的评估表明，仅进行英语评估会误判多语言安全性。",
+   "impact": "这种方法可以帮助开发者和安全团队改善大语言模型的的多语言安全训练和评估。使用文化真实且多样化的数据可能会带来在低资源语言中更安全、更负责任的模型。",
+   "keyPoints": [
+    "大语言模型的安全对齐主要集中在英语上，损害了低资源语言的性能。",
+    "所提出的管道利用安全模板和文化真实实体生成了大量的多语言拒绝和良性语料库。",
+    "研究人员发布了MSafeTemp，这是一个跨越60种语言的经验证的安全对齐和评估语料库。",
+    "仅靠英语评估会误判多语言安全性，因为翻译后或文化本土化的攻击可能会成功。"
+   ]
+  },
+  "ko": {
+   "title": "내 모델을 정렬하는 방법: 템플릿을 통한 다국어 안전 교육 규모 확장",
+   "summary": "연구진은 Large Language Models의 다국어 안전 교육 부족 문제를 해결하기 위해 확장 가능한 템플릿 기반 증강 파이프라인을 제안했습니다. 유해한 프롬프트에서 안전한 템플릿을 추출하고, 이를 번역한 뒤 문화적으로 인증된 엔티티로 채워 넣는 방식으로 60개 언어를 아우르는 검증된 말뭉치인 MSafeTemp를 출시했습니다. 이 데이터셋을 활용한 평가는 영어 전용 평가가 다국어 안전성을 오판한다는 점을 보여줍니다.",
+   "impact": "이 접근 방식은 개발자와 보안 팀이 Large Language Models의 다국어 안전 교육 및 평가를 개선하는 데 도움을 줄 수 있습니다. 문화적으로 진정성 있고 다양한 데이터를 사용하면 저자원 언어 전반에서 더욱 안전하고 책임감 있는 모델로 이어질 수 있습니다.",
+   "keyPoints": [
+    "Large Language Models의 안전성 정렬은 주로 영어에 집중되어 있어 저자원 언어 성능에 타격을 줍니다.",
+    "제안된 파이프라인은 안전한 템플릿과 문화적 진정성을 가진 엔티티를 사용하여 대규모 다국어 거부 및 양성 말뭉치를 생성합니다.",
+    "연구진은 다국어 안전성 정렬 및 평가를 위해 60개 언어를 아우르는 검증된 말뭉치인 MSafeTemp를 공개했습니다.",
+    "영어 전용 평가는 번역되거나 현지화된 공격이 성공할 수 있기 때문에 다국어 안전성을 오판하게 만듭니다."
+   ]
+  }
+ }
+}

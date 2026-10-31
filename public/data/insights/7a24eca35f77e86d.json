@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7a24eca35f77e86d",
+ "contentHash": "c643fc62013ee97c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:55:40.384Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "The biggest names in AI are backing a new way to opt out of scraping",
+   "summary": "OpenAI, Google, Microsoft, and Anthropic have announced support for a new standard that allows publishers to opt out of AI scraping. The shared policy token signal enables publishers to apply training preferences across multiple AI companies at once. Proposed by Anthropic's Kevin Kelley through the Internet Engineering Task Force, the mechanism functions within a website's robots.txt file.",
+   "impact": "This new standard could simplify how publishers manage their content permissions across multiple AI platforms by reducing the need for individual configurations. Security and administrative teams may find it easier to enforce web crawling preferences through a centralized mechanism.",
+   "keyPoints": [
+    "OpenAI, Google, Microsoft, and Anthropic are adopting a new scraping opt-out standard.",
+    "Publishers can apply AI training preferences to multiple companies at once.",
+    "The shared policy token was proposed by Kevin Kelley of Anthropic.",
+    "The signal operates within a website's robots.txt file."
+   ]
+  },
+  "km": {
+   "title": "ឈ្មោះធំៗក្នុងវិស័យ AI កំពុងគាំទ្រវិធីសាស្ត្រថ្មីមួយដើម្បីបដិសេធការបោសសម្អាតទិន្នន័យ",
+   "summary": "OpenAI, Google, Microsoft និង Anthropic បានប្រកាសថានឹងអនុម័តស្តង់ដារថ្មីមួយ ដែលអនុញ្ញាតឱ្យអ្នកបោះពុម្ពផ្សាយអាចបដិសេធមិនឱ្យ AI យកទិន្នន័យរបស់ខ្លួន។ សញ្ញាគោលនយោបាយរួមគ្នាថ្មីនេះជួយឱ្យអ្នកបោះពុម្ពផ្សាយអាចកំណត់ចំណូលចិត្តបណ្តុះបណ្តាល AI លើក្រុមហ៊ុនជាច្រើនក្នុងពេលតែមួយ។ ស្តង់ដារនេះត្រូវបានស្នើឡើងដោយ Kevin Kelley មកពីក្រុមហ៊ុន Anthropic តាមរយៈ IETF និងដាក់ក្នុងឯកសារ robots.txt របស់គេហទំព័រ។",
+   "impact": "ស្តង់ដារថ្មីនេះអាចធ្វើឱ្យអ្នកបោះពុម្ពផ្សាយកាន់តែងាយស្រួលក្នុងការគ្រប់គ្រងសិទ្ធិមាតិកានៅលើវេទិកា AI ជាច្រើន ដោយមិនចាំបាច់កំណត់រចនាសម្ព័ន្ធម្តងមួយៗនោះឡើយ។",
+   "keyPoints": [
+    "ក្រុមហ៊ុន OpenAI, Google, Microsoft និង Anthropic គាំទ្រស្តង់ដារបដិសេធការយកទិន្នន័យថ្មី។",
+    "អ្នកបោះពុម្ពផ្សាយអាចអនុវត្តចំណូលចិត្តលើក្រុមហ៊ុន AI ច្រើនក្នុងពេលតែមួយ។",
+    "ស្នើឡើងដោយ Kevin Kelley ដែលជាអ្នកដឹកនាំផ្នែកបច្ចេកទេសនៅ Anthropic ។",
+    "ដំណើរការនៅក្នុងឯកសារ robots.txt របស់គេហទំព័រ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "人工智能领域的巨头们正在支持一种拒绝数据抓取的新方法",
+   "summary": "OpenAI、谷歌、微软和Anthropic宣布将采用一项新标准，允许发布商拒绝被人工智能抓取数据。通过这项控制，发布商可以一次性向多家AI公司应用其AI训练偏好，而无需单独设置。这个共享的“策略令牌”信号由Anthropic的标准技术主管Kevin Kelley在互联网工程任务组（IETF）中提出，并将存在于网站的robots.txt文件中。",
+   "impact": "这一新标准可能会简化发布商在多个AI平台之间管理内容权限的方式，减少单独配置的需求。技术团队和网站管理员可能会发现通过集中机制强制执行网络抓取偏好变得更加容易。",
+   "keyPoints": [
+    "OpenAI、谷歌、微软和Anthropic将采用新的抓取退出标准。",
+    "发布商可以跨多家中AI公司应用训练偏好。",
+    "该共享策略令牌由Anthropic的Kevin Kelley提出。",
+    "该信号存在于网站的robots.txt文件中。"
+   ]
+  },
+  "ko": {
+   "title": "AI 업계 거물들이 스크래핑 거부를 위한 새로운 방식을 지지하고 있습니다",
+   "summary": "OpenAI, 구글, 마이크로소프트, 앤스로픽은 퍼블리셔가 AI 스크래핑을 거부할 수 있도록 지원하는 새로운 표준을 도입할 것이라고 밝혔습니다. 이 공통 제어 기능을 통해 퍼블리셔는 개별적으로 설정하는 대신 여러 AI 회사에 걸쳐 AI 학습 선호도를 한 번에 적용할 수 있습니다. 앤스로픽의 기술 리드인 케빈 켈리가 IETF를 통해 제안한 이 공유 정책 토큰 신호는 웹사이트의 robots.txt 파일 내에 위치하게 됩니다.",
+   "impact": "이 새로운 표준은 퍼블리셔가 여러 AI 플랫폼에서 콘텐츠 권한을 관리하는 방식을 단순화하고 개별 설정의 필요성을 줄일 수 있습니다. 기술 팀과 보안 팀은 중앙화된 메커니즘을 통해 웹 크롤링 선호도를 더 쉽게 적용할 수 있게 될 것입니다.",
+   "keyPoints": [
+    "OpenAI, 구글, 마이크로소프트, 앤스로픽이 새로운 스크래핑 거부 표준을 도입합니다.",
+    "퍼블리셔가 여러 AI 회사에 학습 선호도를 일괄 적용할 수 있습니다.",
+    "앤스로픽의 케빈 켈리가 제안한 공유 정책 토큰입니다.",
+    "신호는 웹사이트의 robots.txt 파일 내에서 작동합니다."
+   ]
+  }
+ }
+}

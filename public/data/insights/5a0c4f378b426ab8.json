@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5a0c4f378b426ab8",
+ "contentHash": "48496adf66476b7c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:57:26.775Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Machine Learning-Based Detection of Mobile Money Scan Messages in Ghana: A Comparative Evaluation of Naive Bayes, Support Vector Machine, and Randon Forest Classifiers",
+   "summary": "Researchers presented a supervised machine-learning pipeline to classify scam and legitimate mobile money SMS messages in Ghana using a corpus of 220 messages. The study evaluated Multinomial Naive Bayes, linear support vector machine, and Random Forest classifiers following domain-specific normalization and TF-IDF vectorization. Naive Bayes and linear SVM achieved held-out accuracy, F1-score, and AUC of 1.00.",
+   "impact": "These findings suggest that interpretable classical classifiers could be effective for carrier- or handset-level filtering of mobile money scams in low-resource, on-device settings. Developers and security teams may use these insights to build lightweight detection tools against social-engineering fraud.",
+   "keyPoints": [
+    "Mobile money is Ghana's preferred retail payment channel, with over 26.7 million active accounts.",
+    "The dataset consisted of 220 labeled messages across 18 scam and legitimate subcategories.",
+    "Naive Bayes and linear SVM classifiers achieved held-out accuracy, F1, and AUC of 1.00."
+   ]
+  },
+  "km": {
+   "title": "ការរកឃើញសារបោកប្រាស់ប្រាក់តាមទូរស័ព្ទដៃនៅប្រទេសហ្គាណាផ្អែកលើម៉ាស៊ីនរៀន៖ ការវាយតម្លៃប្រៀបធៀបនៃ Naive Bayes, Support Vector Machine និង Random Forest Classifiers",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្ហាញពីប្រព័ន្ធម៉ាស៊ីនរៀនដែលមានការគ្រប់គ្រង ដើម្បីចាត់ថ្នាក់សារ SMS បោកប្រាស់និងស្របច្បាប់នៃប្រាក់តាមទូរស័ព្ទដៃនៅប្រទេសហ្គាណា ដោយប្រើប្រាស់សំណុំទិន្នន័យចំនួន ២២០ សារ។ ការសិក្សានេះបានវាយតម្លៃទៅលើ Multinomial Naive Bayes, linear support vector machine និង Random Forest classifiers។ Naive Bayes និង linear SVM បានសម្រេចភាពត្រឹមត្រូវក្នុងកម្រិត 1.00។",
+   "impact": "លទ្ធផលទាំងនេះបង្ហាញថា ការចាត់ថ្នាក់បែបបុរាណអាចមានប្រសិទ្ធភាពសម្រាប់ការតម្រងសារបោកប្រាស់នៅកម្រិតក្រុមហ៊ុនទូរស័ព្ទ ឬឧបករណ៍ផ្ទាល់ខ្លួនក្នុងបរិបទធនធានទាប។ អ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខអាចប្រើប្រាស់ការយល់ដឹងទាំងនេះដើម្បីបង្កើតឧបករណ៍ตรวจរាវស្រាលៗ។",
+   "keyPoints": [
+    "ប្រាក់តាមទូរស័ព្ទដៃគឺជាបណ្តាញទូទាត់លក់រាយដែលពេញចិត្តជាងគេនៅប្រទេសហ្គាណា ដោយមានគណនីសកម្មជាង ២៦,៧ លាន.",
+    "សំណុំទិន្នន័យមាន ២២០ សារដែលបានដាក់ស្លាកក្នុងប្រភេទរងចំនួន ១៨។",
+    "Naive Bayes និង linear SVM បានសម្រេចភាពត្រឹមត្រូវ 1.00 លើសំណុំតេស្ត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "基于机器学习的加纳移动支付诈骗短信检测：对朴素贝叶斯、支持向量机和随机森林分类器的比较评估",
+   "summary": "研究人员提出了一种监督式机器学习管道，使用包含220条消息的语料库对加纳的移动支付诈骗和合法短信进行分类。该研究在领域特定归一化和TF-IDF向量化之后，评估了多项式朴素贝叶斯、线性支持向量机和随机森林分类器。朴素贝叶斯和线性SVM在保留测试集上的准确率、F1值和AUC均达到了1.00。",
+   "impact": "这些发现表明，可解释的传统分类器可能适用于低资源、设备端环境中的运营商或手机端诈骗短信过滤。开发人员和安全团队可以利用这些见解构建轻量级检测工具，以防范社会工程学欺诈。",
+   "keyPoints": [
+    "移动支付是加纳首选的零售支付渠道，拥有超过2670万个活跃账户。",
+    "数据集包含220条带有标签的消息，涵盖18个诈骗和合法子类别。",
+    "朴素贝叶斯和线性SVM分类器在测试集上的准确率、F1和AUC达到了1.00。"
+   ]
+  },
+  "ko": {
+   "title": "가나의 모바일 머니 스캠 메시지 머신러닝 기반 탐지: Naive Bayes, Support Vector Machine 및 Random Forest 분류기의 비교 평가",
+   "summary": "연구원들은 220개의 메시지로 구성된 말뭉치를 사용하여 가나의 모바일 머니 스캠 및 합법적 SMS 메시지를 분류하기 위한 감독형 머신러닝 파이프라인을 제시했습니다. 이 연구는 도메인 특화 정규화 및 TF-IDF 벡터화 이후 Multinomial Naive Bayes, 선형 서포트 벡터 머신, Random Forest 분류기를 평가했습니다. Naive Bayes와 선형 SVM은 1.00의 테스트 정확도, F1, AUC를 기록했습니다.",
+   "impact": "이러한 결과는 해석 가능한 전통적 분류기가 자원이 부족한 온디바이스 환경에서 통신사 또는 단말기 수준의 스캠 필터링에 효과적일 수 있음을 시사합니다. 개발자와 보안 팀은 이러한 통찰력을 활용하여 소셜 엔지니어링 사기에 대응하는 경량 탐지 도구를 구축할 수 있습니다.",
+   "keyPoints": [
+    "모바일 머니는 2,670만 개 이상의 활성 계정을 가진 가나의 선호 소매 결제 채널입니다.",
+    "데이터셋은 18개의 스캠 및 합법적 하위 카테고리에 걸쳐 레이블이 지정된 220개의 메시지로 구성되었습니다.",
+    "Naive Bayes 및 선형 SVM 분류기는 홀드아웃 정확도, F1, AUC에서 1.00을 달성했습니다."
+   ]
+  }
+ }
+}

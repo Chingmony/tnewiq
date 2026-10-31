@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a8ad6091c5e432eb",
+ "contentHash": "e1868b83e6cfd3aa",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:56:01.263Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Managed Prometheus collectors now support Amazon MSK consumer-group metrics",
+   "summary": "Managed Prometheus collectors now support collecting Amazon MSK consumer-group metrics for Amazon Managed Service for Prometheus and Amazon CloudWatch. The integration gathers Kafka exporter and consumer-group lag metrics directly from Amazon MSK clusters without requiring users to operate their own collection agents. The collected metrics can be ingested into an Amazon Managed Service for Prometheus workspace or Amazon CloudWatch for querying and analysis.",
+   "impact": "This feature could help developers and technology users monitor Kafka stream health and consumer performance more easily. It may assist in detecting processing bottlenecks within streaming applications.",
+   "keyPoints": [
+    "Managed Prometheus collectors now support Amazon MSK consumer-group metrics.",
+    "The integration collects Kafka exporter and consumer-group lag metrics from Amazon MSK clusters.",
+    "Metrics can be ingested into Amazon Managed Service for Prometheus or Amazon CloudWatch.",
+    "The feature is available in all AWS Regions where managed Prometheus collectors are generally available."
+   ]
+  },
+  "km": {
+   "title": "ตัวรวบรวม Managed Prometheus ឥឡូវនេះគាំទ្ររង្វាស់กลุ่มผู้บริโภค Amazon MSK",
+   "summary": "ตัวรวบรวม Managed Prometheus ឥឡូវនេះគាំទ្រការប្រមូលរង្វាស់กลุ่มผู้บริโภค Amazon MSK សម្រាប់ Amazon Managed Service for Prometheus និង Amazon CloudWatch។ ការរួមបញ្ចូលគ្នានេះប្រមូលរង្វាស់ Kafka exporter និង رង្វាស់ភាពយឺតយ៉ាវរបស់กลุ่มผู้บริโภค ពីคลัสเตอร์ Amazon MSK ของคุณโดยไม่ต้องเรียกใช้ตัวแทนรวบรวมด้วยตนเอง។ អ្នកสามารถนำเข้ารង្វាស់ที่รวบรวมไว้ไปยังพื้นที่ทำงาน Amazon Managed Service for Prometheus หรือ Amazon CloudWatch ដើម្បី truy vấn และວິភាគ។",
+   "impact": "คุณลักษณะนี้អាចช่วยให้ผู้พัฒนาและผู้ใช้เทคโนโลยีตรวจสอบสุขภาพของสตรีม Kafka และประสิทธิภาพของผู้บริโภคได้ง่ายขึ้น มันอาจช่วยในการตรวจจับคอขวดในการประมวลผลภายในแอปพลิเคชันสตรีมมิ่งของคุณ។",
+   "keyPoints": [
+    "ตัวรวบรวม Managed Prometheus ឥឡូវនេះគាំទ្រรង្វាស់กลุ่มผู้บริโภค Amazon MSK។",
+    "การรวมกันนี้รวบรวมរង្វាស់ Kafka exporter และរង្វាស់ភាពយឺតយ៉ាវຂອງกลุ่มผู้บริโภคจากคลัสเตอร์ Amazon MSK។",
+    "สามารถนำเข้ารង្វាស់ไปยังพื้นที่ทำงาน Amazon Managed Service for Prometheus หรือ Amazon CloudWatch។",
+    "คุณลักษณะนี้มีให้บริการในทุกภูมิภาค AWS ที่ตัวรวบรวม Managed Prometheus ทั่วไปมีให้บริการ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "托管 Prometheus 采集器现已支持 Amazon MSK 消费者组指标",
+   "summary": "托管 Prometheus 采集器现已为 Amazon Managed Service for Prometheus 和 Amazon CloudWatch 提供对 Amazon MSK 消费者组指标的支持。该集成可直接从您的 Amazon MSK 集群收集 Kafka 导出器指标和消费者组滞后指标，无需您自行运行和管理采集代理。您可以将收集到的指标摄入到 Amazon Managed Service for Prometheus 工作区或 Amazon CloudWatch 中进行查询和分析。",
+   "impact": "此功能可以帮助开发人员和技术用户更轻松地监控 Kafka 流运行状况和消费者性能。它可能有助于检测流应用程序中的处理瓶颈。",
+   "keyPoints": [
+    "托管 Prometheus 采集器现已支持 Amazon MSK 消费者组指标。",
+    "该集成从 Amazon MSK 集群收集 Kafka 导出器和消费者组滞后指标。",
+    "指标可摄入到 Amazon Managed Service for Prometheus 工作区或 Amazon CloudWatch。",
+    "该功能在所有普遍提供托管 Prometheus 采集器的 AWS 区域均可用。"
+   ]
+  },
+  "ko": {
+   "title": "관리형 Prometheus 수집기, Amazon MSK 소비자 그룹 메트릭 지원",
+   "summary": "관리형 Prometheus 수집기가 Amazon Managed Service for Prometheus 및 Amazon CloudWatch를 위한 Amazon MSK 소비자 그룹 메트릭을 지원합니다. 이 통합 기능은 사용자가 직접 수집 에이전트를 운영할 필요 없이 Amazon MSK 클러스터에서 Kafka 익스포터 메트릭과 소비자 그룹 지연 메트릭을 수집합니다. 수집된 메트릭은 Amazon Managed Service for Prometheus 워크스페이스나 Amazon CloudWatch로取り込み 쿼리 및 분석할 수 있습니다.",
+   "impact": "이 기능은 개발자와 기술 사용자가 Kafka 스트림 상태와 소비자 성능을 더 쉽게 모니터링하는 데 도움을 줄 수 있습니다. 스트리밍 애플리케이션의 처리 병목 현상을 감지하는 데 유용할 수 있습니다.",
+   "keyPoints": [
+    "관리형 Prometheus 수집기가 Amazon MSK 소비자 그룹 메트릭을 지원합니다.",
+    "통합 기능은 Amazon MSK 클러스터에서 Kafka 익스포터 및 소비자 그룹 지연 메트릭을 수집합니다.",
+    "수집된 메트릭은 Amazon Managed Service for Prometheus 워크스페이스 또는 Amazon CloudWatch로取り込み 됩니다.",
+    "이 기능은 관리형 Prometheus 수집기를 사용할 수 있는 모든 AWS 리전에서 이용 가능합니다."
+   ]
+  }
+ }
+}

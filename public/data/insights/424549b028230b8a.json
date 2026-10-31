@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "424549b028230b8a",
+ "contentHash": "6cfc93491f88a05c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:58:55.878Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "IndicIPR-QA: A Benchmark for Extractive Question Answering on Indian IPR Laws",
+   "summary": "Researchers have introduced IndicIPR-QA1, a new extractive question answering benchmark covering all seven Indian Intellectual Property Rights Acts. The dataset comprises 4,462 question-answer pairs derived from 1,116 statutory contexts and was generated using GPT-4o before undergoing rigorous validation checks. Evaluation results show a significant performance gap, with BM25 achieving a token-level F1 score of 20.21 compared to 85.02 for fine-tuned InLegalBERT.",
+   "impact": "This benchmark could provide developers and researchers with a standardized way to evaluate legal NLP models on complex statutory texts. Security teams and technology users may note the reliance on advanced language models like GPT-4o for dataset generation and the necessity of domain-specific models like InLegalBERT for accurate extraction.",
+   "keyPoints": [
+    "IndicIPR-QA1 contains 4,462 QA pairs across seven Indian IPR Acts.",
+    "Validation included automatic checks, LLM evaluations, and a 200-pair human audit.",
+    "BM25 achieved a token-level F1 score of 20.21.",
+    "Fine-tuned InLegalBERT reached a token-level F1 score of 85.02."
+   ]
+  },
+  "km": {
+   "title": "IndicIPR-QA៖ ស្តង់ដារសម្រាប់ការឆ្លើយសំណួរទាញយកលើច្បាប់កម្មសិទ្ធិបញ្ញារបស់ឥណ្ឌា",
+   "summary": "អ្នកស្រាវជ្រាវបានដាក់បង្ហាញ IndicIPR-QA1 ដែលជាស្តង់ដារឆ្លើយសំណួរទាញយកថ្មីមួយគ្របដណ្តប់លើច្បាប់កម្មសិទ្ធិបញ្ញាឥណ្ឌាទាំងប្រាំពីរ។សំណុំទិន្នន័យនេះមានគូសំណួរនិងចម្លើយចំនួន ៤.៤៦២ ដែលបានមកពីបរិបទច្បាប់ចំនួន ១.១១៦ និងត្រូវបានបង្កើតឡើងដោយប្រើ GPT-4o មុនពេលឆ្លងកាត់ការត្រួតពិនិត្យគុណភាព។ លទ្ធផលវាយតម្លៃបង្ហាញពីគម្លាតដំណើរការដ៏ធំ ដោយ BM25 ទទួលបានពិន្ទុ F1 កម្រិតតូខឹន ២០,២១ ចំណែកឯ InLegalBERT ដែលបានលៃតម្រូវរួចទទួលបាន ៨៥,០២។",
+   "impact": "ស្តង់ដារនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវនូវវិធីសាស្ត្រស្តង់ដារមួយដើម្បីវាយតម្លៃម៉ូដែល NLP ផ្នែកច្បាប់លើអត្ថបទលក្ខន្តិកៈស្មុគស្មាញ។ ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចកត់សម្គាល់ពីការពឹងផ្អែកលើភាសាម៉ូដែលកម្រិតខ្ពស់ដូចជា GPT-4o សម្រាប់ការបង្កើតសំណុំទិន្នន័យ។",
+   "keyPoints": [
+    "IndicIPR-QA1 មានគូ QA ចំនួន ៤.៤៦២ ឆ្លងកាត់ច្បាប់ IPR ឥណ្ឌាចំនួនប្រាំពីរ។",
+    "ការផ្ទៀងផ្ទាត់រួមមានការត្រួតពិនិត្យស្វ័យប្រវត្តិ ការវាយតម្លៃ LLM និងការសវនកម្មមនុស្សចំនួន ២០០ គូ។",
+    "BM25 សម្រេចបានពិន្ទុ F1 កម្រិតតូខឹន ២០,២១។",
+    "InLegalBERT ដែលបានលៃតម្រូវសម្រេចបាន ៨៥,០២។"
+   ]
+  },
+  "zh-CN": {
+   "title": "IndicIPR-QA：印度知识产权法抽取式问答基准",
+   "summary": "研究人员推出了 IndicIPR-QA1，这是一个涵盖印度全部七项知识产权法的抽取式问答基准。该数据集包含来自 1,116 个法定上下文的 4,462 个问答对，使用 GPT-4o 生成并通过了严格的验证检查。评估结果显示出显著的性能差距，BM25 的词元级 F1 分数为 20.21，而微调后的 InLegalBERT 达到了 85.02。",
+   "impact": "该基准测试可以为开发人员和研究人员提供一种标准化方法，用于评估复杂法定文本上的法律 NLP 模型。安全团队和技术用户可能会注意到对诸如 GPT-4o 等先进语言模型的依赖，以及特定领域模型（如 InLegalBERT）对于准确提取的必要性。",
+   "keyPoints": [
+    "IndicIPR-QA1 包含跨越七项印度 IPR 法的 4,462 个问答对。",
+    "验证过程包括自动检查、大语言模型评估以及 200 对人工审核。",
+    "BM25 的词元级 F1 分数达到了 20.21。",
+    "微调后的 InLegalBERT 达到了 85.02 的 F1 分数。"
+   ]
+  },
+  "ko": {
+   "title": "IndicIPR-QA: 인도 IPR 법률에 대한 추출적 질의응답 벤치마크",
+   "summary": "연구진은 인도 지식재산권법 7개 전체를 아우르는 새로운 추출적 질의응답 벤치마크인 IndicIPR-QA1을 발표했습니다. 이 데이터셋은 1,116개의 법적 문맥에서 파생된 4,462개의 질의응답 쌍을 포함하며 GPT-4o를 사용하여 생성되었고 엄격한 검증을 거쳤습니다. 평가 결과, BM25는 토큰 수준 F1 점수 20.21을 기록한 반면 미세 조정된 InLegalBERT는 85.02를 기록하여 큰 성능 격차를 보였습니다.",
+   "impact": "이 벤치마크는 개발자와 연구자에게 복잡한 법률 텍스트에서 법률 NLP 모델을 평가할 수 있는 표준화된 방법을 제공할 수 있습니다. 보안 팀과 기술 사용자는 데이터셋 생성을 위한 고급 언어 모델 의존성과 정확한 추출을 위한 도메인 특화 모델의 필요성에 주목할 수 있습니다.",
+   "keyPoints": [
+    "IndicIPR-QA1은 7개의 인도 IPR 법률에 걸쳐 4,462개의 QA 쌍을 포함합니다.",
+    "검증에는 자동 검사, LLM 평가, 200쌍 인간 감사가 포함되었습니다.",
+    "BM25는 토큰 수준 F1 점수 20.21을 달성했습니다.",
+    "미세 조정된 InLegalBERT는 85.02의 F1 점수를 기록했습니다."
+   ]
+  }
+ }
+}

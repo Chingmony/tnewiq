@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e2f84991ef24370b",
+ "contentHash": "3a1fa8803addf29f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:58:33.882Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing",
+   "summary": "Researchers introduce BURGER, a language-conditioned robotic drawing benchmark that uses a scalable, prompt-driven pipeline to generate continuous drawing trajectories in simulation and the real world. The benchmark utilizes 28,200 simulated demonstrations across 282 tasks to evaluate five representative vision-language-action models. Experiments show that certain models can benefit from increased task diversity and demonstration scale, capture multimodal drawing behaviors, and generalize to unseen compositions. The team also deployed a trained policy on a Franka Panda arm to demonstrate reactive drawing under human intervention.",
+   "impact": "This research could help developers and researchers better understand the generalization limits and failure patterns of vision-language-action models. It may guide improvements in how robotic systems handle language grounding, spatial composition, and scalable training data.",
+   "keyPoints": [
+    "BURGER provides a prompt-driven pipeline for generating continuous drawing trajectories in simulation and reality.",
+    "The benchmark includes 28,200 simulated demonstrations spanning 282 drawing tasks.",
+    "Five representative vision-language-action models were evaluated across data scales, language grounding, and multimodal behavior.",
+    "A trained policy was successfully deployed on a Franka Panda arm to draw reactively under human intervention."
+   ]
+  },
+  "km": {
+   "title": "BURGER៖ ការវាយតម្លៃនិងការយល់ដឹងពីការធ្វើសកលភាវូបនីយកម្មរបស់មនុស្សយន្តតាមរយៈការគូររូបជាក់ស្តែង",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ BURGER ដែលជាស្តង់ដារវាយតម្លៃការគូររូបរបស់មនុស្សយន្តដែលគ្រប់គ្រងដោយភាសា ដោយប្រើប្រាស់បំពង់បង្ហូរទឹកដែលជំរុញដោយការបញ្ជាដើម្បីបង្កើតគន្លងគូររូបជាបន្តបន្ទាប់ទាំងក្នុងប្រព័ន្ធក្លែងធ្វើ និងពិភពពិត។ ស្តង់ដារនេះប្រើប្រាស់ការបង្ហាញតាមការក្លែងធ្វើចំនួន ២៨.២០០ ដែលគ្របដណ្តប់លើភារកិច្ចគូររូបចំនួន ២៨២ ដើម្បីវាយតម្លៃម៉ូដែលចក្ខុវិស័យ-ភាសា-សកម្មភាពចំនួនប្រាំ។ ការពិសោធន៍បង្ហាញថា ម៉ូដែលមួយចំនួនអាចទទួលបានអត្ថប្រយោជន៍ពីភាពចម្រុះនៃភារកិច្ច និងមាត្រដ្ឋាននៃការបង្ហាញកាន់តែធំ។ ក្រុមការងារក៏បានដាក់ឱ្យប្រើប្រាស់គោលការណ៍ដែលបានបណ្តុះបណ្តាលនៅលើដៃមនុស្សយន្ត Franka Panda ផងដែរ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកស្រាវជ្រាវឱ្យយល់កាន់តែច្បាស់អំពីដែនកំណត់នៃសកលភាវូបនីយកម្មនិងលំនាំបរាជ័យនៃម៉ូដែលចក្ខុវិស័យ-ភាសា-សកម្មភាព។ វាអាចណែនាំពីការកែលម្អរបៀបដែលប្រព័ន្ធមនុស្សយន្តគ្រប់គ្រងការភ្ជាប់ភាសា និងទិន្នន័យបណ្តុះបណ្តាល។",
+   "keyPoints": [
+    "BURGER ផ្តល់នូវបំពង់បង្ហូរទឹកដែលជំរុញដោយការបញ្ជាសម្រាប់ការបង្កើតគន្លងគូររូបជាបន្តបន្ទាប់។",
+    "ស្តង់ដារនេះរួមបញ្ចូលទាំងការបង្ហាញតាមការក្លែងធ្វើចំនួន ២៨.២០០ លើភារកិច្ចគូររូបចំនួន ២៨២។",
+    "ម៉ូដែលចំនួនប្រាំត្រូវបានវាយតម្លៃលើមាត្រដ្ឋានទិន្នន័យ ការភ្ជាប់ភាសា និងអាកប្បកិរិយាចម្រុះ។",
+    "គោលការណ៍ដែលបានបណ្តុះបណ្តាលត្រូវបានដាក់ឱ្យប្រើប្រាស់ដោយជោគជ័យលើដៃមនុស្សយន្ត Franka Panda។"
+   ]
+  },
+  "zh-CN": {
+   "title": "BURGER：通过具身绘图对机器人泛化能力进行基准测试与理解",
+   "summary": "研究人员介绍了 BURGER，这是一个基于语言条件控制的机器人绘图基准测试，采用可扩展的提示驱动流程在仿真和现实世界中生成连续的绘图轨迹。该基准测试使用了涵盖 282 个绘图任务的 28,200 个仿真演示，评估了五个具有代表性的视觉-语言-动作模型。实验表明，某些模型可以受益于更高的任务多样性和演示规模，捕捉多模态绘图行为，并泛化到熟悉的物体的未知组合。研究团队还在 Franka Panda 机械臂上部署了训练好的策略，展示了在人工干预下进行反应式绘图的能力。",
+   "impact": "这项研究可以帮助开发人员和研究人员更好地理解视觉-语言-动作模型的泛化局限性和失效模式。它可能指导改进机器人系统处理语言 grounding、空间组合以及可扩展训练数据的方式。",
+   "keyPoints": [
+    "BURGER 提供了一个提示驱动的流程，用于在仿真和现实中生成连续的绘图轨迹。",
+    "该基准测试包含跨越 282 个绘图任务的 28,200 个仿真演示。",
+    "评估了五个代表性的视觉-语言-动作模型的数据规模、语言 grounding 和多模态行为。",
+    "成功在 Franka Panda 机械臂上部署了训练好的策略以进行反应式绘图。"
+   ]
+  },
+  "ko": {
+   "title": "BURGER: 체화된 드로잉을 통한 로봇 일반화 벤치마킹 및 이해",
+   "summary": "연구진은 시뮬레이션과 현실 세계에서 연속적인 드로잉 궤적을 생성하기 위해 확장 가능하고 프롬프트 기반의 파이프라인을 사용하는 언어 조건부 로봇 드로잉 벤치마크인 BURGER를 소개합니다. 이 벤치마크는 282개의 드로잉 작업에 걸친 28,200개의 시뮬레이션 시연을 사용하여 대표적인 5개의 비전-언어-행동 모델을 평가합니다. 실험에 따르면 일부 모델은 작업 다양성과 시연 규모의 증가로부터 이점을 얻고, 다중 모달 드로잉 행동을 포착하며, 익숙한 객체의 보지 못한 조합으로 일반화할 수 있음을 보여줍니다. 또한 연구팀은 훈련된 정책을 Franka Panda 로봇 팔에 배포하여 인간의 개입 하에 반응형으로 그림을 그리는 능력을 입증했습니다.",
+   "impact": "이번 연구는 개발자와 연구자가 비전-언어-행동 모델의 일반화 한계와 실패 패턴을 더 잘 이해하는 데 도움을 줄 수 있습니다. 로봇 시스템이 언어 접지, 공간 구성, 그리고 확장 가능한 훈련 데이터를 처리하는 방식을 개선하는 지침이 될 수 있습니다.",
+   "keyPoints": [
+    "BURGER는 시뮬레이션과 현실에서 연속적인 드로잉 궤적을 생성하기 위한 프롬프트 기반 파이프라인을 제공합니다.",
+    "이 벤치마크에는 282개의 드로잉 작업을 아우르는 28,200개의 시뮬레이션 시연이 포함되어 있습니다.",
+    "데이터 규모, 언어 접지, 다중 모달 행동에 걸쳐 5개의 대표적인 비전-언어-행동 모델을 평가했습니다.",
+    "훈련된 정책을 Franka Panda 로봇 팔에 배포하여 인간 개입 하에 반응형 드로잉을 시연했습니다."
+   ]
+  }
+ }
+}

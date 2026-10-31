@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fe0e0eb72638a474",
+ "contentHash": "70860b4a8332f8b3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:53:19.427Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams",
+   "summary": "Cost management for generative AI is a shared responsibility between application builders and cloud spend teams. As agentic workloads scale and increase token consumption, traditional cost-saving steps like shorter prompts are no longer enough. The AWS Machine Learning Blog outlines a five-stage operating model involving FinOps and platform teams to manage, attribute, observe, enforce, and optimize Amazon Bedrock costs.",
+   "impact": "FinOps and platform teams could use this five-stage framework to better attribute costs, enforce budgets, and optimize platform defaults for generative AI workloads. Technology users and developers may see more structured cost governance applied to their agentic workflows and AI applications.",
+   "keyPoints": [
+    "Cost management for generative AI requires an architectural and operational discipline.",
+    "Agentic workflows scale token consumption based on autonomy and context size rather than user interactions.",
+    "The five-stage operating model consists of attribute, observe, enforce, optimize, and operate.",
+    "Amazon Bedrock automatically attributes inference costs to the IAM principal that made the call."
+   ]
+  },
+  "km": {
+   "title": "ការគ្រប់គ្រងការចំណាយលើ Amazon Bedrock ពីដើមដល់ចប់៖ មគ្គុទ្ទេសក៍សម្រាប់ក្រុម FinOps និងក្រុមវេទិកា",
+   "summary": "ការគ្រប់គ្រងការចំណាយសម្រាប់បញ្ញាសិប្បនិម្មិត (Generative AI) គឺជាការទទួលខុសត្រូវរួមគ្នារវាងក្រុមបង្កើតកម្មវិធី និងក្រុមគ្រប់គ្រងការចំណាយលើខ្សែកាប (Cloud)។ ប្លុក AWS Machine Learning បានបង្ហាញពីគំរូប្រតិបត្តិការប្រាំដំណាក់កាលដើម្បីជួយដល់ក្រុម FinOps និងក្រុមវេទិកាក្នុងការគ្រប់គ្រង តម្រង់ទិស និងបង្កើនប្រសិទ្ធភាពនៃការចំណាយលើ Amazon Bedrock។",
+   "impact": "ក្រុម FinOps និងក្រុមវិស្វកម្មវេទិកាអាចប្រើប្រាស់ក្របខ័ណ្ឌនេះដើម្បីកំណត់ការចំណាយ កំណត់ថវិកា និងបង្កើនប្រសិទ្ធភាពលំនាំដើមនៃវេទិកាសម្រាប់ដំណើរការ AI។",
+   "keyPoints": [
+    "ការគ្រប់គ្រងការចំណាយលើ Generative AI ត្រូវការវិន័យផ្នែកស្ថាបត្យកម្ម និងប្រតិបត្តិការ។",
+    "គំរូប្រតិបត្តិការមានប្រាំដំណាក់កាលគឺ កំណត់ម្ចាស់ តាមដាន បង្ខំឱ្យអនុវត្ត បង្កើនប្រសិទ្ធភាព និងដំណើរការ។",
+    "Amazon Bedrock កំណត់តម្លៃចំណាយលើការសន្និដ្ឋានដោយស្វ័យប្រវត្តិទៅកាន់ IAM principal ដែលបានហៅទូរសព្ទ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "端到端管理 Amazon Bedrock 成本：FinOps 与平台团队实操指南",
+   "summary": "生成式 AI 的成本管理是构建应用程序的团队与负责云开销的团队共同承担的责任。随着智能体工作负载的扩展，传统的节省成本措施已不再足够。AWS Machine Learning Blog 提出了一种包含五个阶段的运营模型，供 FinOps 和平台团队用于管理、归因、监控、执行和优化 Amazon Bedrock 的成本。",
+   "impact": "FinOps 和平台团队可以利用该五阶段框架更好地将成本归因、强制执行预算并优化生成式 AI 工作负载的平台默认设置。技术用户和开发人员可能会看到其智能工作流程受到更规范的成本治理。",
+   "keyPoints": [
+    "生成式 AI 的成本管理需要架构和运营方面的规范。",
+    "智能工作负载的词元消耗随着自主程度和上下文大小而扩展，而不仅仅取决于用户交互次数。",
+    "五阶段运营模型包括归因、观察、强制执行、优化和运营。",
+    "Amazon Bedrock 会自动将推理成本归因于发起调用的 IAM 主体。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock 비용 엔드투엔드 관리: FinOps 및 플랫폼 팀을 위한 플레이북",
+   "summary": "생성형 AI 비용 관리는 애플리케이션을 빌드하는 팀과 클라우드 지출을 담당하는 팀 간의 공동 책임입니다. 에이전틱 워크로드가 확장됨에 따라 기존의 비용 절감 조치만으로는 충분하지 않습니다. AWS Machine Learning Blog는 FinOps 및 플랫폼 팀이 Amazon Bedrock 비용을 관리, 귀속, 모니터링, 집행 및 최적화할 수 있는 5단계 운영 모델을 제시합니다.",
+   "impact": "FinOps 및 플랫폼 팀은 이 5단계 프레임워크를 활용하여 비용을 더 정확히 귀속시키고 예산을 집행하며 생성형 AI 워크로드의 플랫폼 기본값을 최적화할 수 있습니다. 기술 사용자 및 개발자는 에이전틱 워크플로에 적용되는 더욱 체계적인 비용 거버넌스를 경험할 수 있습니다.",
+   "keyPoints": [
+    "생성형 AI 비용 관리는 아키텍처 및 운영 측면의 규율이 필요합니다.",
+    "에이전틱 워크플로는 사용자 상호 작용 수보다는 자율성 정도와 컨텍스트 크기에 따라 토큰 소비가 확장됩니다.",
+    "5단계 운영 모델은 귀속, 관찰, 집행, 최적화 및 운영으로 구성됩니다.",
+    "Amazon Bedrock은 호출을 수행한 IAM 주체에게 추론 비용을 자동으로 귀속시킵니다."
+   ]
+  }
+ }
+}

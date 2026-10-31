@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8d57a35c344cc10d",
+ "contentHash": "a19cd5837b41956e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:56:31.724Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "FARMS: A Verifiable Foundation for Automated Computational Science",
+   "summary": "Researchers introduced FARMS, a foundation designed to transform computational mathematics into AI-ready computing knowledge with explicit guarantees. The system connects formal statements to source context, algorithmic meaning, and quantitative guarantees using source preparation, reusable representations, and semantic review. In tests across 171 targets in randomized numerical linear algebra and numerical partial differential equations, 157 were accepted by the pipeline.",
+   "impact": "This development could help developers and researchers build trustworthy automated computational science systems by providing an affordable and reusable knowledge foundation with verifiable Lean-checked implications.",
+   "keyPoints": [
+    "FARMS transforms computational mathematics into AI-ready computing knowledge.",
+    "The pipeline accepted 157 out of 171 tested targets across numerical linear algebra and numerical partial differential equations.",
+    "Mean estimated costs ranged from US $0.85 to $2.29 per target.",
+    "The approach uses Lean-checked implications to connect source premises to computational skills like heat-flow solves and wave-response compression."
+   ]
+  },
+  "km": {
+   "title": "FARMS៖ មូលដ្ឋានគ្រឹះដែលអាចផ្ទៀងផ្ទាត់បានសម្រាប់ការគណនាវិទ្យាសាស្ត្រស្វ័យប្រវត្តិ",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ FARMS ដែលជាមូលដ្ឋានគ្រឹះមួយត្រូវបានបង្កើតឡើងដើម្បីបំលែងគណិតវិទ្យាគណនាទៅជាចំណេះដឹងកុំព្យូទ័រដែលត្រៀមរួចជាស្រេចសម្រាប់ AI ជាមួយនឹងការធានាច្បាស់លាស់។ ប្រព័ន្ធនេះភ្ជាប់សេចក្តីថ្លែងការណ៍ផ្លូវការទៅនឹងបរិបទប្រភព អត្ថន័យក្បួនដោះស្រាយ និងការធានាបរិមាណ។ ក្នុងការធ្វើតេស្តលើគោលដៅចំនួន ១៧១ នៅក្នុងពិជគណិតលីនេអ៊ែរលេខ និងសមីការឌីផេរ៉ង់ស្យែលផ្នែកលេខ គោលដៅចំនួន ១៥៧ ត្រូវបានទទួលយកដោយដំណើរការនេះ។",
+   "impact": "ការអភិវឌ្ឍនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវកសាងប្រព័ន្ធវិទ្យាសាស្ត្រគណនាស្វ័យប្រវត្តិដែលអាចទុកចិត្តបាន ដោយផ្តល់នូវមូលដ្ឋានគ្រឹះចំណេះដឹងដែលអាចប្រើប្រាស់ឡើងវិញបាន និងមានតម្លៃសមរម្យ។",
+   "keyPoints": [
+    "FARMS បំលែងគណិតវិទ្យាគណនាទៅជាចំណេះដឹងកុំព្យូទ័ររួចរាល់សម្រាប់ AI ។",
+    "ដំណើរការនេះបានទទួលយកគោលដៅចំនួន ១៥៧ ក្នុងចំណោម ១៧១ ដែលបានធ្វើតេស្ត។",
+    "ការចំណាយប៉ាន់ស្មានមធ្យមមានចាប់ពី ០,៨៥ ដុល្លារ ដល់ ២,២៩ ដុល្លារអាមេរិកក្នុងមួយគោលដៅ។",
+    "វិធីសាស្ត្រនេះប្រើប្រាស់ការសន្និដ្ឋានដែលបានពិនិត្យដោយ Lean ដើម្បីភ្ជាប់ប្រភពទៅនឹងជំនាញគណនា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "FARMS：自动化计算科学的可验证基础",
+   "summary": "研究人员推出了FARMS，这是一个旨在将计算数学转化为具有明确保证的AI就绪计算知识的基础系统。该系统通过源准备、可重用表示和语义审查，将形式化语句连接到源上下文、算法意义和定量保证。在随机数值线性代数和数值偏微分方程的171个目标的测试中，有157个被该管道接受。",
+   "impact": "这一发展可以帮助开发人员和研究人员构建值得信赖的自动化计算科学系统，提供具有经验证的Lean检查含义的经济实惠且可重用的知识基础。",
+   "keyPoints": [
+    "FARMS将计算数学转化为AI就绪的计算知识。",
+    "在随机数值线性代数和数值偏微分方程的171个目标中，管道接受了157个。",
+    "每个目标的平均估计成本在0.85至2.29美元之间。",
+    "该方法利用经Lean检查的含义将选定的语句连接到计算技能，例如热流求解和波响应压缩。"
+   ]
+  },
+  "ko": {
+   "title": "FARMS: 자동화된 계산 과학을 위한 검증 가능한 기반",
+   "summary": "연구진은 명시적 보증과 함께 계산 수학을 AI 준비 컴퓨팅 지식으로 변환하도록 설계된 기반인 FARMS를 소개했습니다. 이 시스템은 소스 준비, 재사용 가능한 표현, 의미론적 검토를 통해 형식적 문장을 소스 컨텍스트, 알고리즘적 의미 및 정량적 보증에 연결합니다. 무작위 수치 선형 대수 및 수치 편미분 방정식의 171개 타겟에 대한 테스트에서 157개가 파이프라인의 승인을 받았습니다.",
+   "impact": "이러한 발전은 개발자와 연구원들이 Lean 검증을 거친 명시적 의미를 갖춘 저렴하고 재사용 가능한 지식 기반을 제공함으로써 신뢰할 수 있는 자동화된 계산 과학 시스템을 구축하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "FARMS는 계산 수학을 AI 준비 컴퓨팅 지식으로 변환합니다.",
+    "수치 선형 대수 및 수치 편미분 방정식에서 테스트된 171개 타겟 중 157개가 수용되었습니다.",
+    "타겟당 평균 예상 비용은 0.85달러에서 2.29달러 사이입니다.",
+    "이 접근 방식은 Lean 검증을 거친 함의를 사용하여 선택된 문장을 열 흐름 해결 및 파동 응답 압축과 같은 계산 기술에 연결합니다."
+   ]
+  }
+ }
+}

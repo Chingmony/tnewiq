@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5f339602e97edb0f",
+ "contentHash": "55d362d2b0653f96",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:55:51.209Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon CloudFront now provides viewer ISP and post-quantum TLS details",
+   "summary": "Amazon CloudFront can now forward two new optional headers, CloudFront-Viewer-ISP and CloudFront-Viewer-TLS-Details, to origins. The ISP header provides the name of the viewer's internet service provider to track networks and isolate unusual traffic. The TLS details header provides cryptography information including key exchange, signature scheme, and signature public key type to identify post-quantum cryptography usage.",
+   "impact": "Developers and security teams could use these new headers to measure post-quantum cryptography adoption, analyze traffic by network, and identify clients that do not yet use PQC.",
+   "keyPoints": [
+    "Amazon CloudFront now supports two new optional origin request headers.",
+    "The CloudFront-Viewer-ISP header identifies the viewer internet service provider.",
+    "The CloudFront-Viewer-TLS-Details header describes the TLS cryptography and post-quantum usage.",
+    "Headers can be forwarded by adding them to an origin request policy attached to a distribution."
+   ]
+  },
+  "km": {
+   "title": "Amazon CloudFront ឥឡូវនេះផ្តល់នូវព័ត៌មានលម្អិតអំពី ISP របស់អ្នកមើល និង TLS ប្រភេទក្រោយកង់ទិច (post-quantum)",
+   "summary": "Amazon CloudFront ឥឡូវនេះអាចបញ្ជូនបន្តក្បាល (headers) បន្ថែមចំនួនពីរគឺ CloudFront-Viewer-ISP និង CloudFront-Viewer-TLS-Details ទៅកាន់ប្រភពដើមរបស់អ្នក។ ក្បាល ISP ផ្ដល់ឈ្មោះសេវាអ៊ីនធឺណិតរបស់អ្នកមើល ដើម្បីតាមដានបណ្តាញនិងញែកចរាចរណ៍ខុសប្រក្រតី។ ក្បាលព័ត៌មានលម្អិត TLS ផ្ដល់ព័ត៌មានគ្រីបតូក្រាហ្វី ដើម្បីមើលថាតើការតភ្ជាប់ប្រើប្រាស់គ្រីបតូក្រាហ្វីក្រោយកង់ទិច (PQC) ដែរឬទេ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍និងសុវត្ថិភាពអាចប្រើប្រាស់ក្បាលទាំងនេះដើម្បីវាស់វែងការប្រើប្រាស់គ្រីបតូក្រាហ្វីក្រោយកង់ទិច វិភាគចរាចរណ៍តាមបណ្តាញ និងកំណត់អត្តសញ្ញាណអតិថិជនដែលមិនទាន់បានប្រើប្រាស់វា។",
+   "keyPoints": [
+    "Amazon CloudFront ឥឡូវនេះគាំទ្រក្បាលសំណើប្រភពដើមថ្មីចំនួនពីរ។",
+    "ក្បាល CloudIdent-Viewer-ISP កំណត់ឈ្មោះអ្នកផ្ដល់សេវាអ៊ីនធឺណិតរបស់អ្នកមើល។",
+    "ក្បាល CloudFront-Viewer-TLS-Details ពិពណ៌នាអំពីគ្រីបតូក្រាហ្វី TLS និងការប្រើប្រាស់ PQC។",
+    "ក្បាលទាំងនេះអាចត្រូវបានបញ្ជូនបន្តដោយបន្ថែមពួកវាទៅក្នុងគោលការណ៍សំណើប្រភពដើម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon CloudFront 现提供查看者 ISP 和后量子 TLS 详细信息",
+   "summary": "Amazon CloudFront 现在可以向源站转发两个新的可选请求头：CloudFront-Viewer-ISP 和 CloudFront-Viewer-TLS-Details。ISP 请求头包含查看者的互联网服务提供商名称，以便查看流量来源网络并隔离异常流量。TLS 详细信息请求头则描述了每个查看者 TLS 连接所使用的密码学信息，从而可以确认连接是否使用了后量子密码学（PQC）。",
+   "impact": "开发人员和安全团队可以使用这些新请求头来衡量后量子密码学的采用率、按网络分析流量，并识别尚未支持 PQC 的客户端。",
+   "keyPoints": [
+    "Amazon CloudFront 现在支持两个新的可选源站请求头。",
+    "CloudFront-Viewer-ISP 请求头能够识别查看者的互联网服务提供商。",
+    "CloudFront-Viewer-TLS-Details 请求头可描述 TLS 密码学及后量子密码学的使用情况。",
+    "可以通过将请求头添加到源站请求策略并附加到分发来转发这些标头。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon CloudFront, 이제 뷰어 ISP 및 포스트 퀀텀 TLS 세부 정보 제공",
+   "summary": "Amazon CloudFront는 이제 두 개의 새로운 선택적 헤더인 CloudFront-Viewer-ISP 및 CloudFront-Viewer-TLS-Details를 오리진에 전달할 수 있습니다. ISP 헤더는 뷰어의 인터넷 서비스 제공업체 이름을 제공하여 요청이 들어온 네트워크를 확인하고 이상 트래픽을 격리할 수 있게 해줍니다. TLS 세부 정보 헤더는 각 뷰어의 TLS 연결에 사용된 암호화 방식을 설명하여 포스트 퀀텀 암호화(PQC) 사용 여부를 확인할 수 있도록 합니다.",
+   "impact": "개발자와 보안 팀은 이러한 새로운 헤더를 사용하여 포스트 퀀텀 암호화 채택률을 측정하고, 네트워크별로 트래픽을 분석하며, 아직 PQC를 사용하지 않는 클라이언트를 식별할 수 있습니다.",
+   "keyPoints": [
+    "Amazon CloudFront는 이제 두 개의 새로운 오리진 요청 헤더를 지원합니다.",
+    "CloudFront-Viewer-ISP 헤더는 뷰어의 인터넷 서비스 제공업체 이름을 제공합니다.",
+    "CloudFront-Viewer-TLS-Details 헤더는 TLS 연결의 암호화 및 포스트 퀀텀 암호화 사용 여부를 설명합니다.",
+    "오리진 요청 정책에 헤더를 추가하고 배포에 연결하여 오리진으로 전달할 수 있습니다."
+   ]
+  }
+ }
+}

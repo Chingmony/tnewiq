@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f99c78c74896b64c",
+ "contentHash": "09d0cb1f6c195a5c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:56:53.154Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Advancing Clinical Genomic Analysis with a Skill-Centred Agent",
+   "summary": "Researchers have developed ClinGeX, a large-language-model agent that uses 105 curated executable skills to assist with clinical genomic analysis. In benchmark tests against 223 cases, ClinGeX reached a 71.7 percent macro-averaged task-level concordance with expert reference classifications. A human-AI collaboration study with 45 professionals showed that ClinGeX assistance increased case-level concordance across variant analysis, rare disease, and molecular oncology decision-making while reducing interpretation time.",
+   "impact": "This approach may help address bottlenecks in clinical genomic analysis by supporting specialists with automated skill composition. Technology users and security teams could see improved efficiency in clinical workflows, though real-world adoption depends on continued validation.",
+   "keyPoints": [
+    "ClinGeX is a large-language-model agent combining 105 curated executable skills.",
+    "It achieved 71.7 percent macro-averaged task-level concordance on 223 temporally held-out benchmark cases.",
+    "Assistance from ClinGeX increased case-level concordance in variant analysis, rare diseases, and molecular oncology.",
+    "Professional users in a study and a one-month assessment reported time savings and conclusion adoption."
+   ]
+  },
+  "km": {
+   "title": "ការជំរុញការវិភាគហ្សែនគ្លីនិកជាមួយនឹងភ្នាក់ងារផ្អែកលើជំនាញ",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្កើត ClinGeX ដែលជាភ្នាក់ងារគំរូភាសាខ្នាតធំប្រើប្រាស់ជំនាញដែលអាចប្រតិបត្តិបានចំនួន ១០៥ ដើម្បីជួយដល់ការវិភាគហ្សែនគ្លីនិក។ វាយតម្លៃលើករណីគោល ១០៥ ClinGeX សម្រេចបានកម្រិតស៊ីសង្វាក់គ្នា ៧១.៧ភាគរយ ជាមួយនឹងចំណាត់ថ្នាក់យោងរបស់អ្នកជំនាញ។ ការសិក្សាសហការរវាងមនុស្ស និង AI បានបង្ហាញថា ClinGeX ជួយបង្កើនកម្រិតស៊ីសង្វាក់គ្នាក្នុងករណីនីមួយៗ និងកាត់បន្ថយពេលបកស្រាយ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយដោះស្រាយបញ្ហាតឹងច្រមុះក្នុងការវិភាគហ្សែនគ្លីនិក និងបង្កើនប្រសិទ្ធភាពការងារសម្រាប់អ្នកជំនាញ។",
+   "keyPoints": [
+    "ClinGeX គឺជាភ្នាក់ងារគំរូភាសាខ្នាតធំដែលមានជំនាញប្រតិបត្តិ ១០៥ ។",
+    "វាទទួលបានកម្រិតស៊ីសង្វាក់គ្នា ៧១.៧ភាគរយ លើករណីគោល។",
+    "វាបានបង្កើនកម្រិតស៊ីសង្វាក់គ្នាក្នុងការវិភាគ variant រោគកម្រ និងជំងឺមហារីកម៉ូលេគុល។",
+    "អ្នកជំនាញបានរាយការណ៍ពីការសន្សំសំចៃពេលវេលា និងការទទួលយកការសន្និដ្ឋាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用以技能为中心的智能体推进临床基因组分析",
+   "summary": "研究人员开发了名为ClinGeX的大语言模型智能体，通过105项精心策划的可执行技能来协助临床基因组分析。在223个暂留基准案例中，ClinGeX与专家参考分类达到了71.7%的宏平均任务级一致性。一项涉及45名专业人员的人机协作研究表明，ClinGeX的协助提高了变异分析、罕见病和分子肿瘤学决策中的案例级一致性，并减少了解析时间。",
+   "impact": "这种方法可能会通过自动化技能组合来缓解临床基因组分析中的瓶颈，从而帮助技术用户提高工作流效率。不过，其实际应用仍需进一步验证。",
+   "keyPoints": [
+    "ClinGeX是一个结合了105项可执行技能的大语言模型智能体。",
+    "在223个基准案例中实现了71.7%的宏平均任务级一致性。",
+    "提高了变异分析、罕见病和分子肿瘤学决策的案例级一致性。",
+    "专业人员在评估中报告了时间节省和对结论的采纳。"
+   ]
+  },
+  "ko": {
+   "title": "스킬 중심 에이전트를 통한 임상 유전체 분석 발전",
+   "summary": "연구진은 105개의 선별된 실행 가능한 스킬을 결합하여 임상 유전체 분석을 지원하는 대형 언어 모델 에이전트인 ClinGeX를 개발했습니다. 223개의 벤치마크 케이스에서 ClinGeX는 전문가 참조 분류와 71.7퍼센트의 거시 평균 작업 수준 일치도를 달성했습니다. 45명의 전문가가 참여한 협업 연구에서 ClinGeX 지원은 변이 분석, 희귀 질환, 분자 종양학 의사결정에서 사례 수준 일치도를 높이고 해석 시간을 단축했습니다.",
+   "impact": "이 접근 방식은 자동화된 스킬 구성을 통해 임상 유전체 분석의 병목 현상을 해결하는 데 도움을 줄 수 있으며, 기술 사용자의 워크플로 효율성을 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "ClinGeX는 105개의 실행 가능한 스킬을 결합한 대형 언어 모델 에이전트입니다.",
+    "223개의 벤치마크 케이스에서 71.7퍼센트의 거시 평균 작업 수준 일치도를 달성했습니다.",
+    "변이 분석, 희귀 질환, 분자 종양학에서의 사례 수준 일치도를 높였습니다.",
+    "전문가들은 평가 과정에서 시간 절약과 결론 채택을 보고했습니다."
+   ]
+  }
+ }
+}

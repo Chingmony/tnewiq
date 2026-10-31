@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b4f57eb1a0edb702",
+ "contentHash": "7eaf9b1a20699672",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:57:36.687Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "The Privacy and Security Risks of Edge LLM Optimization",
+   "summary": "Edge deployment of Large Language Models requires optimization techniques to reduce memory, computation, and energy costs. However, preserving task performance does not necessarily mean preserving security. Optimization acts as an information transformation that can alter representations, decision pathways, and trust boundaries, which introduces security drift and new attack surfaces.",
+   "impact": "Security teams and developers may need to account for optimization-induced attack surfaces when deploying Large Language Models on edge devices. This process could create security drift that alters trust boundaries and decision pathways.",
+   "keyPoints": [
+    "Edge deployment of Large Language Models requires memory, computation, and energy optimization.",
+    "Preserving task performance does not guarantee the preservation of security.",
+    "Optimization is an information transformation that can alter representations and trust boundaries.",
+    "Security drift and optimization-induced attack surfaces can be created during optimization."
+   ]
+  },
+  "km": {
+   "title": "ហានិភ័យឯកជនភាព និងសុវត្ថិភាពនៃការបង្កើនប្រសិទ្ធភាព Edge LLM",
+   "summary": "ការដាក់ឱ្យប្រើប្រាស់ Large Language Models នៅលើ edge ទាមទារបច្ចេកទេសបង្កើនប្រសិទ្ធភាពដើម្បីកាត់បន្ថយអង្គចងចាំ ការគណនា និងថាមពល។ ទោះយ៉ាងណាក៏ដោយ ការរក្សាដំណើរការភារកិច្ចមិនមានន័យថាការរក្សាសុវត្ថិភាពនោះទេ។ ការបង្កើនប្រសិទ្ធភាពគឺជាការបំប្លែងព័ត៌មានដែលបង្កើតឱ្យមានការរសាត់សុវត្ថិភាព និងផ្ទៃវាយប្រហារថ្មី។",
+   "impact": "ក្រុមសុវត្ថិភាព និងអ្នកអភិវឌ្ឍន៍អាចចាំបាច់ត្រូវពិចារណាលើផ្ទៃវាយប្រហារដែលបណ្តាលមកពីការបង្កើនប្រសិទ្ធភាព នៅពេលដាក់ឱ្យប្រើប្រាស់ Large Language Models នៅលើឧបករណ៍ edge។",
+   "keyPoints": [
+    "ការដាក់ឱ្យប្រើប្រាស់ Large Language Models នៅលើ edge ទាមទារការបង្កើនប្រសិទ្ធភាពអង្គចងចាំ និងថាមពល។",
+    "ការរក្សាដំណើរការការងារមិនធានាសុវត្ថិភាពនោះទេ។",
+    "ការបង្កើនប្រសិទ្ធភាពអាចផ្លាស់ប្តូរតំណាង និងព្រំដែនទុកចិត្ត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "边缘端 LLM 优化的隐私与安全风险",
+   "summary": "大语言模型的边缘部署需要使用优化技术来降低内存、计算和能耗成本。然而，保持任务性能并不一定意味着保持安全性。优化是一种信息转换，可能会改变表示、决策路径和信任边界，从而产生安全漂移和优化引发的攻击面。",
+   "impact": "当在边缘设备上部署 Large Language Models 时，安全团队和开发人员可能需要考虑优化所带来的攻击面。此过程可能会产生改变信任边界和决策路径的安全漂移。",
+   "keyPoints": [
+    "Large Language Models 的边缘部署需要减少内存、计算和能源成本的优化技术。",
+    "保持任务性能并不等于保持安全性。",
+    "优化是一种可以改变表示和信任边界的信息转换。",
+    "安全漂移和优化引发的攻击面可能会在此过程中产生。"
+   ]
+  },
+  "ko": {
+   "title": "엣지 LLM 최적화의 프라이버시 및 보안 위험",
+   "summary": "Large Language Models의 엣지 배포는 메모리, 연산, 에너지 비용을 줄이기 위한 최적화 기법이 필요합니다. 그러나 작업 성능을 유지한다고 해서 보안까지 유지되는 것은 아닙니다. 최적화는 표현, 의사 결정 경로, 신뢰 경계를 변경할 수 있는 정보 변환으로, 보안 드리프트와 최적화로 인한 공격 표면을 생성합니다.",
+   "impact": "보안 팀과 개발자는 Large Language Models를 엣지 장치에 배포할 때 최적화로 인해 발생하는 공격 표면을 고려해야 할 수 있습니다. 이 과정은 신뢰 경계와 의사 결정 경로를 변경하는 보안 드리프트를 초래할 수 있습니다.",
+   "keyPoints": [
+    "Large Language Models의 엣지 배포는 메모리, 연산 및 에너지 비용 절감을 요구합니다.",
+    "작업 성능의 유지가 보안의 유지를 보장하지는 않습니다.",
+    "최적화는 표현과 신뢰 경계를 변경할 수 있는 정보 변환입니다.",
+    "보안 드리프트와 최적화로 인한 공격 표면이 생성될 수 있습니다."
+   ]
+  }
+ }
+}

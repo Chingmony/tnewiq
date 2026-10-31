@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "articleId": "79c10b7d4b32fa34",
+ "contentHash": "09762281ef3ed982",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:58:22.587Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Homebrewed SLMs: Autoregressive and Masked Diffusion Language Models Built at Home for Portuguese",
+   "summary": "A new tutorial demonstrates how to train a specialist language model from scratch on a single consumer GPU, including the tokenizer, for Brazilian Portuguese. It releases a tested Python package, notebooks, and reference numbers for 11M to 12M parameter models using both autoregressive and masked diffusion generation. The evaluation covers Brazilian prose and federal laws, detailing performance characteristics and a catalogue of defects found through measurement.",
+   "impact": "This approach could allow developers and researchers to train and evaluate specialist language models locally using consumer hardware without needing a data centre. Technology users and security teams may find the insights on detecting tampered text and domain-specific tasks useful for evaluating small models.",
+   "keyPoints": [
+    "Trained a language model from scratch on a single consumer GPU, including the tokenizer.",
+    "Released a Python package and notebooks featuring autoregressive and masked diffusion generation.",
+    "Tested models containing 11 to 12M parameters on Brazilian prose and federal laws.",
+    "Compared model performance against a 6-gram floor and public models of larger sizes."
+   ]
+  },
+  "km": {
+   "title": "ម៉ូដែលភាសាខ្នាតតូចបង្កើតដោយខ្លួនឯង៖ ម៉ូដែលភាសា Autoregressive និង Masked Diffusion សម្រាប់ភាសាព័រទុយហ្គាល់",
+   "summary": "ការបង្រៀនថ្មីមួយបង្ហាញពីរបៀបបណ្តុះបណ្តាលម៉ូដែលភាសាជំនាញមួយពីដំបូងនៅលើក្រាហ្វិកកាតសម្រាប់អ្នកប្រើប្រាស់ទូទៅ ដោយរួមបញ្ចូលទាំងតូខេននីសផងដែរ។ វាបានចេញផ្សាយកញ្ចប់ Python កំណត់ចំណាំ និងលេខយោងសម្រាប់ម៉ូដែលដែលមានប៉ារ៉ាម៉ែត្រពី ១១ ដល់ ១២ លាន។ ការវាយតម្លៃនេះផ្តោតលើ prose និងច្បាប់សហព័ន្ធរបស់ប្រេស៊ីល ដោយបង្ហាញពីលក្ខណៈដំណើរការ និងពិការភាពដែលបានរកឃើញ។",
+   "impact": "វិធីសាស្ត្រនេះអាចអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍បណ្តុះបណ្តាល និងវាយតម្លៃម៉ូដែលភាសាជំនាញក្នុងស្រុកដោយប្រើប្រាស់ម៉ាស៊ីនផ្ទាល់ខ្លួនដោយមិនចាំបាច់មានមជ្ឈមណ្ឌលទិន្នន័យ។ វាក៏អាចផ្តល់នូវការយល់ដឹងមានប្រយោជន៍សម្រាប់ការវាយតម្លៃម៉ូដែលខ្នាតតូចផងដែរ។",
+   "keyPoints": [
+    "បានបណ្តុះបណ្តាលម៉ូដែលភាសាពីដំបូងនៅលើក្រាហ្វិកកាតអ្នកប្រើប្រាស់ទូទៅមួយ។",
+    "បានចេញផ្សាយកញ្ចប់ Python និងកំណត់ចំណាំជាមួយការបង្កើតបែប autoregressive និង masked diffusion។",
+    "បានធ្វើតេស្តម៉ូដែលដែលមានប៉ារ៉ាម៉ែត្រ ១១ ដល់ ១២ លាននៅលើអត្ថបទ និងច្បាប់របស់ប្រេស៊ីល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "自制小型语言模型：专为葡萄牙语在本地构建的自回归和掩码扩散语言模型",
+   "summary": "一项新教程展示了如何在单个消费级GPU上从头开始训练专门的语言模型，包括分词器。该教程发布了一个经过测试的Python软件包和两个笔记本，支持在单个网络上进行自回归和掩码扩散生成，参数规模为1100万到1200万。评估范围涵盖巴西散文和联邦法律，详细记录了性能特征及通过测量发现的缺陷目录。",
+   "impact": "这种方法可以使开发人员和研究人员无需数据中心即可在本地使用消费级硬件训练和评估专门的语言模型。技术用户和安全团队可能会发现有关检测篡改文本和特定领域任务的见解对评估小型模型有所帮助。",
+   "keyPoints": [
+    "在单个消费级GPU上从头开始训练语言模型，包含分词器。",
+    "发布了包含自回归和掩码扩散生成的Python软件包和笔记本。",
+    "测试了参数量在1100万至1200万之间的模型在巴西散文和联邦法律上的表现。",
+    "对比了模型与6-gram基准以及更大规模公开模型的性能。"
+   ]
+  },
+  "ko": {
+   "title": "홈브루 SLM: 포르투갈어를 위해 집에서 구축한 자기회귀 및 마스크 확산 언어 모델",
+   "summary": "새로운 튜토리얼은 토크나이저를 포함하여 단일 소비자용 GPU에서 전문 도메인 언어 모델을 처음부터 훈련하는 방법을 보여줍니다. 이 프로젝트는 자기회귀 및 마스크 확산 생성을 지원하는 테스트된 파이썬 패키지와 노트북, 그리고 1,100만~1,200만 개 매개변수 모델에 대한 참조 숫자를 공개합니다. 평가는 브라질 산문과 연방법을 대상으로 하며, 성능 특성과 측정을 통해 발견된 결함 목록을 상세히 다룹니다.",
+   "impact": "이 접근 방식은 개발자와 연구원이 데이터 센터 없이도 소비자용 하드웨어를 사용하여 로컬에서 전문 언어 모델을 훈련하고 평가할 수 있도록 도울 수 있습니다. 기술 사용자 및 보안 팀은 조작된 텍스트 감지 및 도메인별 작업에 대한 통찰력을 소형 모델 평가에 유용하게 활용할 수 있습니다.",
+   "keyPoints": [
+    "토크나이저를 포함하여 단일 소비자용 GPU에서 언어 모델을 처음부터 훈련함.",
+    "자기회귀 및 마스크 확산 생성이 포함된 파이썬 패키지과 노트북을 공개함.",
+    "1,100만~1,200만 개 매개변수를 가진 모델을 브라질 산문과 연방법으로 테스트함."
+   ]
+  }
+ }
+}

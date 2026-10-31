@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9c0b19f7a896099d",
+ "contentHash": "7d058a3d72bd6060",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:58:44.820Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "NEOPIC: A Neural Operator Framework for Particle-based Kinetic Plasma Simulations",
+   "summary": "Researchers introduce NEOPIC, a neural operator framework designed for particle-based kinetic plasma simulations. The framework acts directly on the empirical measure of particles without requiring a grid, mesh, or tree structure. It serves as a plug-and-play field solver that replaces only the field solve and can be combined with various time integrators. Numerical experiments confirm theoretical findings, and a single trained model remains stable beyond its training time window.",
+   "impact": "This framework could improve particle-based simulations by eliminating mesh-based particle noise aliasing and offering linear complexity. Developers and researchers working with plasma simulations may benefit from its plug-and-play nature and potential toward foundation models for fields.",
+   "keyPoints": [
+    "NEOPIC is a neural operator framework that acts directly on particle positions without using a mesh or tree.",
+    "It serves as a plug-and-play field solver that can be trained on data from particle-in-cell, particle-in-Fourier, or tree codes.",
+    "The framework has an O(N_p) computational complexity whose constants are independent of any mesh or tree.",
+    "Numerical experiments on various electrostatic benchmarks confirm the theoretical findings."
+   ]
+  },
+  "km": {
+   "title": "NEOPIC៖ ក្របខ័ណ្ឌប្រតិបត្តិករសរសៃប្រសាទសម្រាប់ការក្លែងធ្វើប្លាស្មាគីនេទិចផ្អែកលើភាគល្អិត",
+   "summary": "អ្នកស្រាវជ្រាវได้ណែនាំ NEOPIC ដែលជាក្របខ័ណ្ឌប្រតិបត្តិករសរសៃប្រសាទសម្រាប់រៀនប្រតិបត្តិករវាលនៅក្នុងវិធីសាស្ត្រផ្អែកលើភាគល្អិតដែលអនុវត្តចំពោះការក្លែងធ្វើប្លាស្មាគីនេទិច។ ភាពថ្មីថ្មោងសំខាន់របស់វាគឺប្រតិបត្តិករសរសៃប្រសាទដែលធ្វើសកម្មភាពផ្ទាល់លើរង្វាស់ εμπειρική នៃភាគល្អិតដោយមិនចាំបាច់មានក្រឡាចត្រង្គ ឬដើមឈើទេ។ វាជំនួសតែការដោះស្រាយវាលប៉ុណ្ណោះ និងអាចប្រើជាឧបករណ៍ជំនួសបានយ៉ាងងាយស្រួលសម្រាប់វិធីសាស្ត្រផ្អែកលើភាគល្អិតផ្សេងៗ។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចជួយកែលម្អការក្លែងធ្វើផ្អែកលើភាគល្អិតដោយជៀសវាងការខូចទ្រង់ទ្រាយសំឡេងរំខានពីក្រឡាចត្រង្គ។ អ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវអាចទទួលបានអត្ថប្រយោជន៍ពីភាពងាយស្រួលក្នុងការរួមបញ្ចូល និងភាពស្មុគស្មាញលីេនអ៊ែររបស់វា។",
+   "keyPoints": [
+    "NEOPIC គឺជាក្របខ័ណ្ឌប្រតិបត្តិករសរសៃប្រសាទដែលដំណើរការផ្ទាល់លើទីតាំងភាគល្អិត។",
+    "វាអាចត្រូវបានបណ្តុះបណ្តាលលើទិន្នន័យពីកូដផ្សេងៗ និងរួមបញ្ចូលជាមួយកម្មវិធីរួមបញ្ចូលពេលវេលាណាមួយ។",
+    "ការវិភាគភាពស្មុគស្មាញបង្ហាញថាវាជាវិធីសាស្ត្រ O(N_p) ។",
+    "ការពិសោធន៍ជាលេខបានបញ្ជាក់ពីការរកឃើញទ្រឹស្តីនៅលើគោលដៅអគ្គិសនី στατική ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "NEOPIC：用于基于粒子的动理学等离子体模拟的神经算子框架",
+   "summary": "研究人员介绍了NEOPIC，这是一个用于学习基于粒子的动理学等离子体模拟中场算子的框架。其核心创新是一个直接作用于粒子经验测度而非网格上的神经算子，并且在粒子位置处进行评估。由于它仅替代了场求解部分，因此可以作为即插即用的场求解器，并与各种时间积分器结合使用。数值实验证实了理论发现，单个模型在超过其训练时间窗口时仍保持稳定。",
+   "impact": "该框架可以通过消除网格引起的粒子噪声混叠来改进粒子模拟。开发人员和研究人员可能会受益于其即插即用的特性以及在线性复杂度下处理多维基准测试的能力。",
+   "keyPoints": [
+    "NEOPIC是一个直接作用于粒子位置的神经算子框架，无需网格或树结构。",
+    "它可作为即插即用的场求解器，并能使用来自多种代码的数据进行训练。",
+    "复杂度分析表明NEOPIC是一种O(N_p)方法，其常数独立于任何网格或树。",
+    "在二维和三维静电基准测试上的数值实验证实了理论结果。"
+   ]
+  },
+  "ko": {
+   "title": "NEOPIC: 입자 기반 동역학 플라즈마 시뮬레이션을 위한 신경 연산자 프레임워크",
+   "summary": "연구진은 입자 기반 동역학 플라즈마 시뮬레이션에서 장 연산자를 학습하기 위한 프레임워크인 NEOPIC을 소개합니다. 핵심 혁신은 그리드가 아닌 입자의 경험적 측정값에 직접 작용하며 입자 위치에서 평가되는 신경 연산자입니다. 장求解 부분만 대체하므로 플러그앤플레이 방식으로 작동하며, 수치 실험을 통해 이론적 결과가 확인되었습니다.",
+   "impact": "이 프레임워크는 격자 기반 입자 노이즈 에일리어싱을 제거하여 입자 기반 시뮬레이션을 개선할 수 있습니다. 개발자와 연구팀은 플러그앤플레이 특성과 선형 복잡도로부터 혜택을 얻을 수 있습니다.",
+   "keyPoints": [
+    "NEOPIC은 그리드나 트리 없이 입자 위치에 직접 작용하는 신경 연산자 프레임워크입니다.",
+    "다양한 코드의 데이터로 학습할 수 있는 플러그앤플레이 장 솔버 역할을 합니다.",
+    "복잡도 분석에 따르면 NEOPIC은 메쉬나 트리와 무관하게 상수가 설정되는 O(N_p) 메서드입니다.",
+    "2차원 및 3차원 정전기 벤치마크에 대한 수치 실험에서 이론적 결과가 확인되었습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3b8361d079acb9cc",
+ "contentHash": "ab296a65fe4e2a04",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:53:41.047Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "dbreunig/nesformer",
+   "summary": "Drew Breunig has created nesformer by baking a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. The project was inspired by qwenputer and built using Opus 5.5 prompts to explore emulating the chip and RAM inside model weights. Users can now play NES ROMs like Super Mario Bros very slowly running inside Qwen.",
+   "impact": "This project demonstrates novel approaches to embedding traditional computational logic and hardware emulation directly into neural network weights. Developers and AI researchers may find it an interesting exploration of model capabilities, though practical performance is currently very slow.",
+   "keyPoints": [
+    "A working emulator for the Nintendo Entertainment System 6502 CPU was baked into Qwen3.5-4B weights.",
+    "The project was inspired by qwenputer created by Divyansh Agrawal.",
+    "Opus 5.5 prompts and Christopher Pow's NES CPU conformance tests from 15 years ago were used to build the system.",
+    "NES ROMs such as Super Mario Bros can be played very slowly inside Qwen."
+   ]
+  },
+  "km": {
+   "title": "dbreunig/nesformer",
+   "summary": "លោក Drew Breunig បានបង្កើត nesformer តាមរយៈការបញ្ចូលកម្មវិធីត្រាប់តាមសម្រាប់ CPU របស់ Nintendo Entertainment System 6502 ទៅក្នុងទម្ងន់របស់ Qwen3.5-4B។ គម្រោងនេះត្រូវបានបំផុសគំនិតដោយ qwenputer និងបង្កើតឡើងដោយប្រើប្រាស់ពាក្យបញ្ជាពី Opus 5.5។ អ្នកប្រើប្រាស់ឥឡូវនេះអាចលេង NES ROMs ដូចជា Super Mario Bros ក្នុងល្បឿនយឺតខ្លាំងនៅខាងក្នុង Qwen។",
+   "impact": "គម្រោងនេះបង្ហាញពីវិធីសាស្ត្រថ្មីៗក្នុងការបង្កប់ឡូជីខលកុំព្យូទ័រ និងការត្រាប់តាមផ្នែករឹងដោយផ្ទាល់ទៅក្នុងទម្ងន់បណ្តាញសរសៃប្រសាទ។ អ្នកអភិវឌ្ឍន៍អាចចាត់ទុកវាជាការស្វែងយល់ដ៏គួរឱ្យចាប់អារម្មណ៍ទោះបីជាល្បឿនប្រតិបត្តិការនៅយឺតក៏ដោយ។",
+   "keyPoints": [
+    "កម្មវិធីត្រាប់តាមសម្រាប់ NES 6502 CPU ត្រូវបានបញ្ចូលទៅក្នុងទម្ងន់ Qwen3.5-4B។",
+    "គម្រោងនេះត្រូវ បានបំផុសគំនិតដោយ qwenputer របស់ Divyansh Agrawal។",
+    "ពាក្យបញ្ជា Opus 5.5 និងការធ្វើតេស្តពី Christopher Pow ត្រូវបានប្រើប្រាស់ដើម្បីបង្កើតប្រព័ន្ធនេះ។",
+    "NES ROMs ដូចជា Super Mario Bros អាចដំណើរការក្នុងល្បឿនយឺតខ្លាំងនៅខាងក្នុង Qwen។"
+   ]
+  },
+  "zh-CN": {
+   "title": "dbreunig/nesformer",
+   "summary": "Drew Breunig 将任天堂娱乐系统 6502 CPU 的工作模拟器嵌入到 Qwen3.5-4B 的权重中，创建了 nesformer。该项目受 Divyansh Agrawal 的 qwenputer 启发，并使用 Opus 5.5 提示词构建，旨在探索在模型权重中模拟芯片和内存。用户现在可以在 Qwen 内部运行并非常缓慢地玩超级马里奥兄弟等 NES ROM。",
+   "impact": "该项目展示了将传统计算逻辑和硬件模拟直接嵌入神经网络权重的新方法。开发者和人工智能研究人员可能会将其视为对模型能力的有趣探索，尽管目前实际运行速度非常慢。",
+   "keyPoints": [
+    "任天堂娱乐系统 6502 CPU 的工作模拟器被嵌入到 Qwen3.5-4B 权重中。",
+    "该项目灵感来源于 Divyansh Agrawal 创建的 qwenputer。",
+    "构建系统时使用了 Opus 5.5 提示词以及 Christopher Pow 发布的一套 NES CPU 一致性测试。",
+    "现在可以在 Qwen 内部非常缓慢地玩超级马里奥兄弟等 NES ROM。"
+   ]
+  },
+  "ko": {
+   "title": "dbreunig/nesformer",
+   "summary": "Drew Breunig은 Qwen3.5-4B의 가중치에 닌텐도 엔터테인먼트 시스템 6502 CPU용 작동 에뮬레이터를 내장하여 nesformer를 만들었습니다. 이 프로젝트는 Divyansh Agrawal의 qwenputer에서 영감을 받았으며, 모델 가중치 내에서 칩과 램을 에뮬레이트하기 위해 Opus 5.5 프롬프트를 사용하여 구축되었습니다. 이제 사용자는 Qwen 내부에서 슈퍼 마리오 브라더스와 같은 NES ROM을 매우 느리게 플레이할 수 있습니다.",
+   "impact": "이 프로젝트는 전통적인 연산 로직과 하드웨어 에뮬레이션을 신경망 가중치에 직접 내장하는 새로운 접근 방식을 보여줍니다. 개발자와 AI 연구원들은 모델의 기능을 탐구하는 흥미로운 사례로 볼 수 있으나, 현재 실제 성능은 매우 느립니다.",
+   "keyPoints": [
+    "닌텐도 엔터테인먼트 시스템 6502 CPU용 작동 에뮬레이터가 Qwen3.5-4B 가중치에 내장되었습니다.",
+    "이 프로젝트는 qwenputer에서 영감을 받아 제작되었습니다.",
+    "시스템 구축을 위해 Opus 5.5 프롬프트와 Christopher Pow의 NES CPU 적합성 테스트가 사용되었습니다.",
+    "Qwen 내부에서 슈퍼 마리오 브라더스 같은 NES ROM을 매우 느린 속도로 실행할 수 있습니다."
+   ]
+  }
+ }
+}

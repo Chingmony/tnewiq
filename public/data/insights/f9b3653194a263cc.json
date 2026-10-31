@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f9b3653194a263cc",
+ "contentHash": "ef7ceedbae132e56",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:54:26.968Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime",
+   "summary": "Amazon Bedrock AgentCore runtime introduces Session endpoints, allowing developers to preview web applications live in the browser as a coding agent builds them. The capability runs each agent session in an isolated microVM and provides an authenticated URL that forwards traffic directly to allowed ports. This allows users to watch pages update within seconds as the agent modifies files, bypassing traditional deployment delays.",
+   "impact": "This capability could significantly speed up the development and review cycle for teams using coding agents, enabling real-time feedback without manual deployments. Security teams and developers should note that access requires explicit authentication via IAM or JWT, and the URLs are scoped strictly to the active session for testing purposes.",
+   "keyPoints": [
+    "AgentCore runtime executes each agent session within an isolated microVM.",
+    "Session endpoints provide authenticated URLs to forward HTTP and WebSocket traffic to allowed ports.",
+    "Developers can view website updates live in a browser without requiring separate deployment steps.",
+    "Access requires authentication using either AWS IAM Signature Version 4 or JSON Web Tokens (JWT)."
+   ]
+  },
+  "km": {
+   "title": "មើលកម្មវិធីបណ្តាញជាមុនផ្ទាល់ នៅពេលដែលភ្នាក់ងារសរសេរកូដរបស់អ្នកបង្កើតពួកវាជាមួយ Amazon Bedrock AgentCore runtime",
+   "summary": "Amazon Bedrock AgentCore runtime ណែនាំ Session endpoints ដែលអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍មើលកម្មវិធីបណ្តាញជាមុនផ្ទាល់នៅក្នុងកម្មវិធីរុករក នៅពេលដែលភ្នាក់ងារសរសេរកូដកំពុងបង្កើតពួកវា។ លក្ខណៈពិសេសនេះដំណើរការវគ្គភ្នាក់ងារនីមួយៗនៅក្នុង microVM ដាច់ដោយឡែកពីគ្នា និងផ្តល់នូវ URL ដែលបានផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ។ នេះអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់មើលទំព័រធ្វើបច្ចុប្បន្នភាពក្នុងរយៈពេលប៉ុន្មានវិនាទីនៅពេលដែលភ្នាក់ងារកែប្រែឯកសារ។",
+   "impact": "សមត្ថភាពនេះអាចពន្លឿនវដ្តនៃការអភិវឌ្ឍន៍ និងការពិនិត្យឡើងវិញសម្រាប់ក្រុមដែលប្រើប្រាស់ភ្នាក់ងារសរសេរកូដ ដោយបើកដំណើរការមតិកែលម្អក្នុងពេលវេលាជាក់ស្តែង។ អ្នកអភិវឌ្ឍន៍គួរតែចំណាំថាការចូលប្រើទាមទារការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវតាមរយៈ IAM ឬ JWT ហើយ URL មានកំណត់ត្រឹមតែវគ្គសកម្មប៉ុណ្ណោះ។",
+   "keyPoints": [
+    "AgentCore runtime ដំណើរការវគ្គភ្នាក់ងារនីមួយៗនៅក្នុង microVM ដាច់ដោយឡែកពីគ្នា។",
+    "Session endpoints ផ្តល់នូវ URL ដែលបានផ្ទៀងផ្ទាត់ដើម្បីបញ្ជូនចរាចរណ៍ទៅកាន់ច្រកដែលបានអនុញ្ញាត។",
+    "អ្នកអភិវឌ្ឍន៍អាចមើលការអាប់ដេតគេហទំព័រផ្ទាល់នៅក្នុងកម្មវិធីរុករកដោយមិនចាំបាច់មានជំហានដាក់ពង្រាយដាច់ដោយឡែក។",
+    "ការចូលប្រើទាមទារការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវដោយប្រើ AWS IAM ឬ JSON Web Tokens។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 Amazon Bedrock AgentCore 运行时在编码代理构建网页应用时进行实时预览",
+   "summary": "Amazon Bedrock AgentCore 运行时引入了会话端点，允许开发人员在编码代理构建网页应用时在浏览器中实时预览。该功能在独立的微虚拟机中运行每个代理会话，并提供经过身份验证的 URL，可将流量直接转发到允许的端口。这使开发人员能够在代理修改文件时在几秒钟内看到页面更新，从而绕过传统的部署延迟。",
+   "impact": "此功能可以显式加快使用编码代理的团队的开发和审查周期，实现无需手动部署的实时反馈。安全团队和开发人员应注意，访问需要通过 IAM 或 JWT 进行显式身份验证，并且 URL 仅限于活动会话用于测试目的。",
+   "keyPoints": [
+    "AgentCore 运行时在隔离的微虚拟机中执行每个代理会话。",
+    "会话端点提供经过身份验证的 URL，用于将 HTTP 和 WebSocket 流量转发到允许的端口。",
+    "开发人员无需单独的部署步骤即可在浏览器中实时查看网站更新。",
+    "访问需要使用 AWS IAM Signature Version 4 或 JSON Web 令牌进行身份验证。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock AgentCore 런타임으로 코딩 에이전트가 빌드하는 동안 웹 앱을 실시간으로 미리 보기",
+   "summary": "Amazon Bedrock AgentCore 런타임은 코딩 에이전트가 웹 애플리케이션을 빌드할 때 브라우저에서 실시간으로 미리 볼 수 있는 세션 엔드포인트를 도입했습니다. 이 기능은 각 에이전트 세션을 격리된 microVM에서 실행하며 허용된 포트로 트래픽을 전달하는 인증된 URL을 제공합니다. 이를 통해 사용자는 에이전트가 파일을 수정함에 따라 몇 초 안에 페이지가 업데이트되는 것을 볼 수 있습니다.",
+   "impact": "이 기능은 코딩 에이전트를 사용하는 팀의 개발 및 검토 주기를 크게 가속화하여 수동 배포 없이 실시간 피드백을 가능하게 할 수 있습니다. 보안 팀과 개발자는 접근 시 IAM 또는 JWT를 통한 인증이 필요하며 URL은 테스트 목적으로 활성 세션에만 국한된다는 점을 유의해야 합니다.",
+   "keyPoints": [
+    "AgentCore 런타임은 각 에이전트 세션을 격리된 microVM 내에서 실행합니다.",
+    "세션 엔드포인트는 허용된 포트로 HTTP 및 WebSocket 트래픽을 전달하는 인증된 URL을 제공합니다.",
+    "개발자는 별도의 배포 단계 없이 브라우저에서 실시간으로 웹사이트 업데이트를 볼 수 있습니다.",
+    "접근하려면 AWS IAM Signature Version 4 또는 JSON Web Token을 사용하여 인증해야 합니다."
+   ]
+  }
+ }
+}

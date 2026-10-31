@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d8631ef7c27786fe",
+ "contentHash": "7631d77f0b83eb74",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:58:11.658Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Efficient Scalable Oversight via Rewinding",
+   "summary": "Researchers have introduced rewindable interactive proofs (RIPs), a new model of relativizing interactive proofs designed for scalable oversight where a weak verifier checks computations from powerful AI systems. In an RIP, the verifier can rewind the prover to an earlier interaction state by saving and restoring snapshots of the AI model. The authors construct an RIP for computations whose outputs are robust to minor changes in oracle answers, achieving greater efficiency than prior proofs without assuming a truthful prover. The implementation features an honest prover running in linear time and a verifier running in nearly linear time after preprocessing, and it can outperform state-of-the-art deployed proof systems.",
+   "impact": "This research could provide developers and researchers with more efficient methods for scalable AI oversight without requiring cryptographic assumptions or a truthful prover. Security teams and technology users might benefit from faster verification protocols when controlling the prover's execution environment through checkpoints or virtual machines.",
+   "keyPoints": [
+    "Introduced rewindable interactive proofs (RIPs) for scalable AI oversight.",
+    "Allows the verifier to rewind the prover by restoring model state snapshots.",
+    "Constructed a protocol that is more efficient than prior proofs and uses no cryptography.",
+    "Honest prover runs in linear time and the verifier runs in nearly linear time after preprocessing."
+   ]
+  },
+  "km": {
+   "title": "ការត្រួតពិនិត្យដែលអាចធ្វើមាត្រដ្ឋានបានប្រកបដោយប្រសិទ្ធភាពតាមរយៈការ rewind",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំពី rewindable interactive proofs (RIPs) ដែលជាគំរូថ្មីនៃការបញ្ជាក់អន្តរកម្មដែលទាក់ទងគ្នាសម្រាប់ការត្រួតពិនិត្យដែលអាចធ្វើមាត្រដ្ឋានបាន ដែលឧបករណ៍ផ្ទៀងផ្ទាត់ខ្សោយពិនិត្យមើលការគណនាពីប្រព័ន្ធ AI ខ្លាំង។ នៅក្នុង RIP ឧបករណ៍ផ្ទៀងផ្ទាត់អាច rewind ឧបករណ៍បញ្ជាក់ទៅកាន់ស្ថានភាពអន្តរកម្មមុនដោយរក្សាទុក និងស្តាររូបភាពថតនៃម៉ូដែល AI ឡើងវិញ។ អ្នកនិពន្ធបានបង្កើត RIP សម្រាប់ការគណនាដែលមានភាពរឹងមាំចំពោះការផ្លាស់ប្តូរតូចតាចនៅក្នុងចម្លើយ oracle ដោយសម្រេចបាននូវប្រសិទ្ធភាពខ្ពស់ជាងការបញ្ជាក់មុនៗដោយមិនចាំបាច់សន្មតថាមានឧបករណ៍បញ្ជាក់ពិតប្រាកដ។ ការអនុវត្តនេះមានឧបករណ៍បញ្ជាក់ស្មោះត្រង់ដែលដំណើរការក្នុងពេលវេលាเชิงเส้น និងឧបករណ៍ផ្ទៀងផ្ទាត់ដែលដំណើរការក្នុងពេលវេលាជិតเชิงเส้น បន្ទាប់ពីការរៀបចំជាមុន ហើយវាអាចដំណើរការលឿនជាងប្រព័ន្ធបញ្ជាក់ចុងក្រោយបង្អស់។",
+   "impact": "ការស្រាវជ្រាវនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវនូវវិធីសាស្ត្រដែលមានប្រសិទ្ធភាពជាងមុនសម្រាប់ការត្រួតពិនិត្យ AI ដែលអាចធ្វើមាត្រដ្ឋានបានដោយមិនចាំបាច់មានការសន្មតគ្រីបតូግራាហ្វី ឬឧបករណ៍បញ្ជាក់ពិតប្រាកដ។ ក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានអត្ថប្រយោជន៍ពីពិធីការផ្ទៀងផ្ទាត់លឿនជាងមុន នៅពេលគ្រប់គ្រងបរិយាកាសប្រតិបត្តិរបស់ឧបករណ៍បញ្ជាក់តាមរយៈចំណុចត្រួតពិនិត្យ ឬម៉ាស៊ីននិម្មិត។",
+   "keyPoints": [
+    "បានណែនាំ rewindable interactive proofs (RIPs) សម្រាប់ការត្រួតពិនិត្យ AI ដែលអាចធ្វើមាត្រដ្ឋានបាន។",
+    "អនុញ្ញាតឱ្យឧបករណ៍ផ្ទៀងផ្ទាត់ rewind ឧបករណ៍បញ្ជាក់ដោយស្តាររូបភាពថតស្ថានភាពម៉ូដែលឡើងវិញ។",
+    "បានបង្កើតពិធីការដែលមានប្រសិទ្ធភាពជាងការបញ្ជាក់មុនៗ និងមិនប្រើគ្រីបតូግራាហ្វី។",
+    "ឧបករណ៍បញ្ជាក់ស្មោះត្រង់ដំណើរការក្នុងពេលវេលាเชิงเส้น និងឧបករណ៍ផ្ទៀងផ្ទាត់ដំណើរការក្នុងពេលវេលាជិតเชิงเส้นបន្ទាប់ពីការរៀបចំជាមុន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过倒回实现高效的可扩展监督",
+   "summary": "研究人员引入了可倒回交互式证明（RIPs），这是一种用于可扩展监督的新型相对化交互式证明模型，允许弱验证器检查更强大的AI系统的计算输出。在RIP中，验证器可以通过保存和恢复AI模型的状态快照，将证明者倒回到早期的交互状态。作者为输出对应对一小部分oracle答案更改具有鲁棒性的计算构建了一个RIP，在不假设证明者诚实的情况下，比先前的相对化证明实现了更高的效率。该实现的诚实证明者运行时间呈线性，验证器在预处理后运行时间接近线性，并且可以比最先进的已部署证明系统更快。",
+   "impact": "这项研究可以为开发人员和研究人员提供更高效的可扩展AI监督方法，而无需密码学假设或诚实的证明者。当通过检查点或虚拟机控制证明者的执行环境时，安全团队和技术人员可能会受益于更快的验证协议。",
+   "keyPoints": [
+    "引入了用于可扩展AI监督的可倒回交互式证明（RIPs）。",
+    "允许验证器通过恢复模型状态快照来倒回证明者。",
+    "构建了一个比先前证明更高效且不使用密码学的协议。",
+    "诚实证明者运行时间呈线性，验证器在预处理后运行时间接近线性。"
+   ]
+  },
+  "ko": {
+   "title": "리와인드를 통한 효율적이고 확장 가능한 감독",
+   "summary": "연구진은 강력한 AI 시스템의 연산 출력을 약한 검증자가 확인할 수 있도록 설계된 확장 가능한 감독을 위한 새로운 상대화 대화형 증명 모델인 리와인드 가능 대화형 증명(RIPs)을 도입했습니다. RIP에서 검증자는 AI 모델의 상태 스냅샷을 저장하고 복원하여 증명자를 이전 상호작용 상태로 리와인드할 수 있습니다. 저자들은 오라클 답변의 작은 변화에 출력이 강건한 연산을 위한 RIP를 구축하여, 정직한 증명자를 가정하지 않고도 이전의 상대화된 증명보다 더 큰 효율성을 달성했습니다. 이 구현은 선형 시간에 실행되는 정직한 증명자와 전처리와 거의 선형 시간에 실행되는 검증자를 특징으로 하며, 최신 배포된 증명 시스템보다 더 빠를 수 있습니다.",
+   "impact": "이 연구는 개발자와 연구자에게 암호학적 가정이나 정직한 증명자 없이도 확장 가능한 AI 감독을 위한 더 효율적인 방법을 제공할 수 있습니다. 보안 팀과 기술 사용자는 체크포인트나 가상 머신을 통해 증명자의 실행 환경을 제어할 때 더 빠른 검증 프로토콜의 혜택을 받을 수 있습니다.",
+   "keyPoints": [
+    "확장 가능한 AI 감독을 위한 리와인드 가능 대화형 증명(RIPs) 도입.",
+    "검증자가 모델 상태 스냅샷을 복원하여 증명자를 리와인드할 수 있도록 허용.",
+    "이전 증명보다 효율적이며 암호학을 사용하지 않는 프로토콜 구축.",
+    "정직한 증명자는 선형 시간에 실행되며 검증자는 전처리 후 거의 선형 시간에 실행됨."
+   ]
+  }
+ }
+}

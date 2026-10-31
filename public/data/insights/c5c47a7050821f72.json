@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c5c47a7050821f72",
+ "contentHash": "bb61292f6e338529",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:56:11.468Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon SageMaker AI inference now supports GPU partitioning for real-time endpoints",
+   "summary": "Amazon SageMaker AI inference now supports GPU partitioning using NVIDIA Multi-Instance GPU technology. This allows users to divide a single GPU into up to seven isolated partitions with dedicated memory and compute. Customers can now host multiple small and mid-size models on one accelerator instead of dedicating an entire GPU to each model.",
+   "impact": "This feature could help developers and technology users optimize GPU utilization and reduce costs for workloads running small or mid-size models. Security and infrastructure teams may benefit from hardware-enforced isolation between shared models on the same accelerator.",
+   "keyPoints": [
+    "Supports NVIDIA Multi-Instance GPU (MIG) technology to create up to seven isolated partitions per GPU.",
+    "Allows multiple small and mid-size models to share a single accelerator with hardware-enforced isolation.",
+    "Application code does not need to change since models are invoked by name.",
+    "Available on P4d, P5, G7, and G7e instances across specific AWS regions."
+   ]
+  },
+  "km": {
+   "title": "Amazon SageMaker AI inference ឥឡូវនេះគាំទ្រការបែងចែក GPU សម្រាប់ការបញ្ចប់ពេលវេលាជាក់ស្តែង",
+   "summary": "ការសន្និដ្ឋាន Amazon SageMaker AI ឥឡូវនេះគាំទ្រការបែងចែក GPU ដោយអនុញ្ញាតឱ្យដំណើរការម៉ូដែលជាច្រើននៅលើ GPU តែមួយ។ វាប្រើប្រាស់បច្ចេកវិទ្យា NVIDIA Multi-Instance GPU ដើម្បីបែងចែក GPU ទៅជាផ្នែកដាច់ដោយឡែករហូតដល់ប្រាំពីរ។ អតិថិជនអាចដាក់ម៉ូដែលខ្នាតតូចនិងមធ្យមនៅលើឧបករណ៍បង្កើនល្បឿនតែមួយដោយមានការញែកផ្នែករឹង។",
+   "impact": "មុខងារនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍បង្កើនប្រសិទ្ធភាពការប្រើប្រាស់ GPU និងកាត់បន្ថយការចំណាយសម្រាប់ម៉ូដែលខ្នាតតូចនិងមធ្យម។",
+   "keyPoints": [
+    "គាំទ្របច្ចេកវិទ្យា NVIDIA Multi-Instance GPU ។",
+    "បែងចែក GPU ជាប្រាំពីរផ្នែកដាច់ដោយឡែកពីគ្នា។",
+    "អនុញ្ញាតឱ្យម៉ូដែលជាច្រើនចែករំលែកឧបករណ៍បង្កើនល្បឿនតែមួយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon SageMaker AI inference 现在支持为实时端点提供 GPU 分区功能",
+   "summary": "Amazon SageMaker AI inference 现已支持 GPU 分区，允许在单个 GPU 上运行多个模型，而无需为每个模型独占一个加速器。该功能利用 NVIDIA Multi-Instance GPU 技术将一个 GPU 最多划分为七个具有独立内存和计算能力的隔离分区。客户现在可以将多个中小型模型托管在一个加速器上。",
+   "impact": "该功能可以帮助开发人员和技术用户优化 GPU 资源利用率并降低中小型模型的成本。硬件强制隔离可以确保共享加速器的不同模型之间不会互相抢占内存或吞吐量。",
+   "keyPoints": [
+    "使用 NVIDIA Multi-Instance GPU 技术将 GPU 划分为最多七个隔离分区。",
+    "多个中小型模型可共享单个加速器并具有硬件强制隔离。",
+    "通过按名称调用模型，应用程序代码无需更改。",
+    "在特定区域的 P4d、P5、G7 和 G7e 实例上可用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon SageMaker AI inference가 실시간 엔드포인트를 위한 GPU 파티셔닝을 지원합니다",
+   "summary": "Amazon SageMaker AI inference는 이제 GPU 파티셔닝을 지원하여 각 모델에 가속기 하나씩을 할당하는 대신 하나의 GPU에서 여러 모델을 실행할 수 있게 합니다. NVIDIA Multi-Instance GPU 기술을 사용하여 SageMaker AI는 고유한 메모리와 연산 능력을 가진 최대 7개의 격리된 파티션으로 GPU를 분할합니다. 고객은 중소형 모델을 단일 가속기에 함께 호스팅할 수 있습니다.",
+   "impact": "이 기능은 개발자와 기술 사용자가 GPU 활용도를 최적화하고 중소형 모델 워크로드의 비용을 절감하는 데 도움을 줄 수 있습니다. 하드웨어 기반 격리를 통해 공유 가속기 상의 모델 간 간섭을 방지할 수 있습니다.",
+   "keyPoints": [
+    "NVIDIA Multi-Instance GPU 기술을 사용하여 GPU를 최대 7개의 격리된 파티션으로 분할합니다.",
+    "여러 중소형 모델이 하드웨어 격리를 통해 하나의 가속기를 공유합니다.",
+    "모델 이름으로 호출하므로 애플리케이션 코드를 변경할 필요가 없습니다.",
+    "특정 지역의 P4d, P5, G7 및 G7e 인스턴스에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

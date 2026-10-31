@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fd61a9e16b7124eb",
+ "contentHash": "76dc961dd9f13843",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:57:15.985Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Retrieval as Traversal: Value-Indexed Memory for Stateful Long-Context Agents",
+   "summary": "Researchers propose an alternative to attention and recurrent compression called retrieval as a persistent local traversal through an address space. By separating a memory's content from its address and defining utility by revealed information, the approach uses a cost-regularised indexing objective. Testing a simple fixed-geometry instance on MiniGrid Memory showed a mean return of 0.95 after 0.59M training steps, compared to 0.94M for Gaussian absolute addressing and over 2M for categorical absolute addressing.",
+   "impact": "This approach could suggest that stateful retrieval is easier to learn than stateless retrieval, potentially offering more efficient memory management for long-context agents. Further experimentation is necessary to test the full proposed method with learned geometry and repeated retrieval.",
+   "keyPoints": [
+    "Separates a memory's content from its address to define utility by the information revealed.",
+    "Employs a cost-regularised indexing objective that preserves information value inside local neighbourhoods.",
+    "Achieved a 0.95 mean return after 0.59M training steps with a five-token context on MiniGrid Memory."
+   ]
+  },
+  "km": {
+   "title": "ការទាញយកជាដំណើរការឆ្លងកាត់៖ អង្រ្កឹះអង្គចងចាំដែលមានសន្ទស្សន៍តម្លៃសម្រាប់ភ្នាក់ងារបរិបទវែងដែលមានរដ្ឋ",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើវិធីសាស្ត្រជំនួសសម្រាប់ការទាញយកតាមរយៈការធ្វើដំណើរក្នុងលំហអាសយដ្ឋានដោយបំបែកមាតិកាអង្គចងចាំចេញពីអាសយដ្ឋានរបស់វា។ វិធីសាស្ត្រនេះកំណត់ប្រយោជន៍ដោយព័ត៌មានដែលបង្ហាញតាមរយៈការទាញយក និងប្រើគោលបំណងធ្វើសន្ទស្សន៍ដែលបានគ្រប់គ្រងថ្លៃដើម។ ការធ្វើតេស្តលើ MiniGrid Memory បង្ហាញពីលទ្ធផលជាមធ្យម 0.95 បន្ទាប់ពីជំហានបណ្តុះបណ្តាល 0.59 លានដង។",
+   "impact": "វិធីសាស្ត្រនេះអាចបង្ហាញថាការទាញយកដែលមានរដ្ឋអាចងាយស្រួលរៀនជាងការទាញយកគ្មានរដ្ឋ ដែលអាចផ្តល់នូវការគ្រប់គ្រងអង្គចងចាំកាន់តែមានប្រសិទ្ធភាព។ ការពិសោធន៍បន្ថែមគឺចាំបាច់ដើម្បីសាកល្បងវិធីសាស្ត្រពេញលេញនេះ។",
+   "keyPoints": [
+    "បំបែកមាតិកាអង្គចងចាំចេញពីអាសយដ្ឋានរបស់វាដើម្បីកំណត់ប្រយោជន៍តាមព័ត៌មាន។",
+    "ប្រើប្រាស់គោលបំណងធ្វើសន្ទស្សន៍ដែលគ្រប់គ្រងថ្លៃដើមដើម្បីរក្សាតម្លៃព័ត៌មាន។",
+    "សម្រេចបានការត្រឡប់មកវិញជាមធ្យម 0.95 បន្ទាប់ពីជំហានបណ្តុះបណ្តាល 0.59 លានដងនៅលើ MiniGrid Memory។"
+   ]
+  },
+  "zh-CN": {
+   "title": "作为遍历的检索：面向有状态长上下文代理的价值索引内存",
+   "summary": "研究人员提出了一种替代注意力机制和循环压缩的方法，即将检索定义为通过地址空间的持久本地遍历。该方法将内存的内容与其地址分离，并通过所揭示的信息来定义效用，从而引入成本正则化索引目标。在 MiniGrid Memory 上的测试显示，在使用五 token 上下文的情况下，持久本地遍历头在经过 0.59M 训练步骤后达到了 0.95 的平均回报。",
+   "impact": "这种方法可能表明有状态检索比无状态检索更容易学习，从而可能为长上下文代理提供更高效的内存管理。需要进一步的实验来测试完整的方法。",
+   "keyPoints": [
+    "将内存的内容与其地址分离，根据所揭示的信息定义效用。",
+    "采用成本正则化的索引目标，在本地邻域内保留信息价值。",
+    "在 MiniGrid Memory 上经 0.59M 训练步骤即达到 0.95 平均回报。"
+   ]
+  },
+  "ko": {
+   "title": "순회로서의 검색: 상태 유지형 롱컨텍스트 에이전트를 위한 가치 색인 메모리",
+   "summary": "연구원들은 주소 공간을 통한 지속적인 로컬 순회로서의 검색이라는 주의 및 순환 압축의 대안을 제안합니다. 메모리의 콘텐츠를 주소와 분리하고 유용성을 정보로 정의하는 이 접근 방식은 비용 정규화된 색인 목표를 사용합니다. MiniGrid Memory에서 가장 단순한 고정 지오메트리 인스턴스를 테스트한 결과 5토큰 컨텍스트로 0.59M 학습 단계 후에 0.95 평균 리턴을 달성했습니다.",
+   "impact": "이 접근 방식은 상태 유지형 검색이 무상태형 검색보다 학습하기 더 쉬울 수 있음을 시사할 수 있으며, 롱컨텍스트 에이전트를 위한 효율적인 메모리 관리를 제공할 수 있습니다. 전체 제안 방법을 테스트하려면 추가 실험이 필요합니다.",
+   "keyPoints": [
+    "메모리의 콘텐츠를 주소와 분리하여 정보 유용성을 정의합니다.",
+    "로컬 이웃 내에서 정보 가치를 보존하는 비용 정규화된 색인 목표를 채택합니다.",
+    "MiniGrid Memory에서 0.59M 학습 단계 후 0.95 평균 리턴을 달성했습니다."
+   ]
+  }
+ }
+}

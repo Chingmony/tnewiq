@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "65010c73046ecfbc",
+ "contentHash": "cfdad1f8fa4a1f49",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:57:47.898Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "On the Fundamental Limits of Prefill-Based Decoding Length Prediction",
+   "summary": "Researchers studied the problem of predicting large language model decoding lengths using only prefill-phase hidden states. They found that current benchmark accuracy collapses when the target model, dataset, or sampling configuration changes due to the inherent stochasticity of autoregressive decoding. By treating decoding as a stopped stochastic process, they derived bounds and an affine variance law that prefill-side methods must obey. They propose a new benchmarking protocol that fixes the model, data, and sampling parameters and reports relative-error metrics.",
+   "impact": "This research could help developers and engineers better understand the limitations of inference scheduling predictors. Security teams and system users may benefit from more reliable benchmarking protocols that account for system error rather than relying on unstable accuracy metrics.",
+   "keyPoints": [
+    "Current predictors suffer from accuracy collapse when models, datasets, or sampling configurations change.",
+    "The instability is traced to the inherent stochasticity of autoregressive decoding.",
+    "The decode length follows a normal law with an affine variance law.",
+    "A new benchmarking protocol is proposed to fix models, data, and sampling parameters while reporting relative errors."
+   ]
+  },
+  "km": {
+   "title": "ស្តីពីដែនកំណត់មូលដ្ឋាននៃការទស្សន៍ទាយប្រវែងឌិកូដផ្អែកលើការបំពេញជាមុន",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាអំពីបញ្ហានៃការទស្សន៍ទាយចំនួនតូខិនដែលម៉ូដែលភាសាខ្នាតធំនឹងធ្វើការឌិកូដ ដោយប្រើប្រាស់តែស្ថានភាពលាក់កំបាំងក្នុងដំណាក់កាលបំពេញជាមុនប៉ុណ្ណោះ។ ពួកគេបានរកឃើញថាភាពត្រឹមត្រូវនៃសន្ទុះបច្ចុប្បន្នធ្លាក់ចុះនៅពេលដែលម៉ូដែលគោលដៅ ឈុតទិន្នន័យ ឬការកំណត់រចនាសម្ព័ន្ធគំរូផ្លាស់ប្តូរ ដោយសារតែភាព stochastic ធម្មជាតិនៃការឌិកូដបែប autoregressive ។ តាមរយៈការព្យាបាលការឌិកូដជាដំណើរការ stochastic ដែលបានឈប់ ពួកគេបានទាញយកដែនកំណត់ និងច្បាប់បំរែបំរួល affine ដែលវិធីសាស្ត្របំពេញជាមុនត្រូវតែគោរពតាម។ ពួកគេក៏បានស្នើឱ្យមានពិធីការវាយតម្លៃថ្មីមួយផងដែរ ដែលជួសជុលប៉ារ៉ាម៉ែត្រម៉ូដែល ទិន្នន័យ និងគំរូ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍យល់កាន់តែច្បាស់អំពីដែនកំណត់នៃឧបករណ៍ទស្សន៍ទាយពេលកំណត់កាលវិភាគអ៊ិនហ្វឺរែន។ ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានប្រយោជន៍ពីពិធីការវាយតម្លៃដែលគួរឱ្យទុកចិត្តជាងមុន។",
+   "keyPoints": [
+    "ឧបករណ៍ទស្សន៍ទាយបច្ចុប្បន្នជួបប្រទះការធ្លាក់ចុះភាពត្រឹមត្រូវនៅពេលដែលប៉ារ៉ាម៉ែត្រផ្លាស់ប្តូរ។",
+    "ភាពមិនស្ថិតស្ថេរគឺបណ្តាលមកពីភាព stochastic នៃការឌិកូដបែប autoregressive ។",
+    "ប្រវែងឌិកូដអនុវត្តតាមច្បាប់ធម្មតាជាមួយនឹងច្បាប់បំរែបំរួល affine ។",
+    "ពិធីការវាយតម្លៃថ្មីមួយត្រូវបានស្នើឡើងដើម្បីដោះស្រាយបញ្ហាข้อผิดพลาดនៃប្រព័ន្ធ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "关于基于预填充的解码长度预测的基本限制",
+   "summary": "研究人员研究了仅使用预填充阶段隐藏状态来预测大型语言模型解码长度的问题。他们发现，由于自回归解码固有的随机性，当目标模型、数据集或采样配置发生变化时，当前的基准测试准确率会崩溃。通过将解码视为停止的随机过程，他们推导出了预填充端方法必须遵守的边界和仿射方差定律。他们主张采用一种固定模型、数据和采样参数并报告相对误差指标的基准测试协议。",
+   "impact": "这项研究可以帮助开发者更好地理解推理调度预测器的局限性。安全团队和技术用户可能会受益于更可靠的基准测试协议，该协议能够说明系统误差而不是依赖不稳定的准确率指标。",
+   "keyPoints": [
+    "当目标模型、数据集或采样配置改变时，当前预测器的准确率会崩溃。",
+    "这种不稳定性源于自回归解码固有的随机性。",
+    "解码长度遵循带有仿差定律的正态规律。",
+    "研究人员提出了一个固定模型、数据和采样参数并报告相对误差的新基准测试协议。"
+   ]
+  },
+  "ko": {
+   "title": "프리필 기반 디코딩 길이 예측의 근본적 한계에 대하여",
+   "summary": "연구진은 프리필 단계의 은닉 상태만을 사용하여 대형 언어 모델이 디코딩할 토큰 수를 예측하는 문제를 연구했습니다. 타겟 모델, 데이터셋 또는 샘플링 구성이 변경될 때 자기회귀 디코딩의 고유한 확률성으로 인해 현재 벤치마크 정확도가 무너진다는 것을 밝혔습니다. 디코딩을 중단된 확률 과정으로 처리하여 프리필 측 방법이 반드시 준수해야 하는 경계와 아핀 분산 법칙을 도출했습니다. 모델, 데이터, 샘플링 파라미터를 고정하고 상대 오차 지표를 보고하는 새로운 벤치마킹 프로토콜을 제안합니다.",
+   "impact": "이번 연구는 개발자와 엔지니어가 추론 스케줄링 예측기의 한계를 더 잘 이해하는 데 도움이 될 수 있습니다. 보안 팀과 기술 사용자는 불안정한 정확도 지표에 의존하는 대신 시스템 오류를 설명하는 보다 신뢰할 수 있는 벤치마킹 프로토콜의 이점을 누릴 수 있습니다.",
+   "keyPoints": [
+    "모델, 데이터셋 또는 샘플링 구성이 변경되면 현재 예측기의 정확도가 붕괴됩니다.",
+    "이러한 불안정성은 자기회귀 디코딩의 내재적 확률성에서 비롯됩니다.",
+    "디코딩 길이는 아핀 분산 법칙과 함께 정규 법칙을 따릅니다.",
+    "모델, 데이터 및 샘플링 파라미터를 고정하는 새로운 벤치마킹 프로토콜이 제안되었습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "05d2c2ba3f12e911",
+ "contentHash": "a4c06eff8ddc0057",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:57:59.888Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "TRACER, a time-to-event EHR foundation model for disease detection across health systems",
+   "summary": "Researchers developed TRACER, a decoder-based foundation model pretrained on electronic health records from over 4.5 million patients across four health systems. The model was evaluated on 16 incident diseases at 1-, 2-, and 5-year horizons in more than 2 million patients from two external health systems. Evaluations at realistic low false-positive rates showed that patients flagged by TRACER at 95% specificity were up to eight times more likely to be diagnosed within a year than unselected patients.",
+   "impact": "This model could serve as a potential tool for disease screening across different health systems, though developers and clinical users should carefully evaluate detection and false-alert burdens at specific operating points.",
+   "keyPoints": [
+    "TRACER is a decoder-based EHR foundation model pretrained on data from over 4.5 million patients.",
+    "Evaluated on 16 incident diseases across 1-, 2-, and 5-year horizons in over 2 million patients from two external health systems.",
+    "At 95% specificity, flagged patients were up to eight times more likely to be diagnosed within a year.",
+    "Performance metrics revealed that detection and false-alert burden varied across diseases and health systems."
+   ]
+  },
+  "km": {
+   "title": "TRACER ដែលជាម៉ូเดលមូលដ្ឋាន EHR សម្រាប់រករោគវិនិច្ឆ័យជំងឺនៅទូទាំងប្រព័ន្ធសុខាភិបាល",
+   "summary": "អ្នកស្រាវជ្រាវបានអភិវឌ្ឍ TRACER ដែលជាម៉ូដែលមូលដ្ឋានផ្អែកលើឌីកូឌ័រត្រូវបានបណ្តុះបណ្តាលទុកមុនលើកំណត់ត្រាវេជ្ជសាស្ត្រអេឡិចត្រូនិកពីអ្នកជំងឺជាង 4.5 លាននាក់មកពីប្រព័ន្ធសុខាភិបាលចំនួនបួន។ ម៉ូដែលនេះត្រូវបានវាយតម្លៃលើជំងឺចំនួន 16 នៅចន្លោះពេល 1 ឆ្នាំ 2 ឆ្នាំ និង 5 ឆ្នាំ ក្នុងចំណោមអ្នកជំងឺជាង 2 លាននាក់ពីប្រព័ន្ធសុខាភិបាលពីរផ្សេងទៀត។ ការវាយតម្លៃក្នុងអត្រាវិជ្ជមានក្លែងក្លាយទាបបានបង្ហាញថា អ្នកជំងឺដែលត្រូវបានសម្គាល់ដោយ TRACER គឺមានលទ្ធភាពខ្ពស់រហូតដល់ប្រាំដងក្នុងការទទួលបានការរោគវិនិច្ឆ័យក្នុងរយៈពេលមួយឆ្នាំ។",
+   "impact": "ម៉ូដែលនេះអាចជាឧបករណ៍សក្តានុពលសម្រាប់ការពិនិត្យរកជំងឺ ប៉ុន្តែអ្នកអភិវឌ្ឍន៍គួរតែវាយតម្លៃដោយប្រុងប្រយ័ត្ននូវបន្ទុកនៃការរកឃើញនិងការជូនដំណឹងខុសនៅក្នុងការប្រើប្រាស់គ្លីនិក។",
+   "keyPoints": [
+    "TRACER គឺជាម៉ូដែលមូលដ្ឋាន EHR ដែលបានបណ្តុះបណ្តាលលើអ្នកជំងឺជាង 4.5 លាននាក់។",
+    "បានវាយតម្លៃលើជំងឺចំនួន 16 ក្នុងចំណោមអ្នកជំងឺជាង 2 លាននាក់ពីប្រព័ន្ធសុខាភិបាលខាងក្រៅចំនួនពីរ។",
+    "នៅកម្រិតជាក់លាក់ 95% អ្នកជំងឺដែលបានសម្គាល់មានឱកាសខ្ពស់ក្នុងការទទួលបានការរោគវិនិច្ឆ័យក្នុងរយៈពេលមួយឆ្នាំ។",
+    "បន្ទុកនៃការរកឃើញនិងការជូនដំណឹងខុសមានភាពខុសគ្នាទៅតាមជំងឺនិងប្រព័ន្ធសុខាភិបាល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "TRACER：一个用于跨卫生系统疾病检测的基准EHR时间事件模型",
+   "summary": "研究人员开发了TRACER，这是一个基于解码器的基础模型，利用来自四个卫生系统中超过450万名患者的数据进行了预训练。研究在两个未参与模型开发的外部卫生系统中，对超过200万名患者的16种突发疾病在1年、2年和5年时间跨度进行了评估。在实际的低假阳性率下进行评估表明，在95%特异性下被TRACER标记的患者在一年内被诊断的可能性是未选择患者的多达八倍。",
+   "impact": "该模型可能成为疾病筛查的潜在工具，但开发人员和技术用户在临床使用时应仔细评估不同疾病和卫生系统中的检测与误报负担。",
+   "keyPoints": [
+    "TRACER是一个在来自450多万名患者的数据上进行预训练的EHR基础模型。",
+    "在来自两个外部卫生系统的200多万名患者中评估了16种突发疾病。",
+    "在95%的特异性下，被标记的患者在一年内被诊断出的几率高达未选择患者的八倍。",
+    "检测和误报负担在不同疾病和卫生系统之间有所不同。"
+   ]
+  },
+  "ko": {
+   "title": "보건 시스템 전반의 질병 감지를 위한 시계열 EHR 파운데이션 모델, TRACER",
+   "summary": "연구원들은 4개 보건 시스템의 450만 명이 넘는 환자 데이터를 기반으로 사전 학습된 디코더 기반 파운데이션 모델인 TRACER를 개발했습니다. 이 모델은 모델 개발에서 제외된 2개 보건 시스템의 200만 명이 넘는 환자를 대상으로 1년, 2년, 5년 시점에서 16가지 발생 질병에 대해 평가되었습니다. 현실적인 낮은 위양성률에서 평가한 결과, 95% 특이도에서 TRACER가 식별한 환자는 선택되지 않은 환자에 비해 1년 이내에 진단될 확률이 최대 8배 높았습니다.",
+   "impact": "이 모델은 질병 스크리닝을 위한 잠재적 도구가 될 수 있으며, 개발자와 기술 사용자들은 임상 적용을 위해 감지 및 오경보 부담을 신중하게 평가해야 할 수 있습니다.",
+   "keyPoints": [
+    "TRACER는 450만 명 이상의 환자 데이터를 기반으로 사전 학습된 EHR 파운데이션 모델입니다.",
+    "외부 보건 시스템 2곳의 200만 명이 넘는 환자를 대상으로 16가지 질병을 평가했습니다.",
+    "95% 특이도에서 식별된 환자는 1년 이내에 진단될 확률이 최대 8배 높았습니다.",
+    "감지 및 오경보 부담은 질병과 보건 시스템에 따라 다르게 나타났습니다."
+   ]
+  }
+ }
+}

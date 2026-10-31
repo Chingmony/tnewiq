@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1f766ec7b68d14d4",
+ "contentHash": "2486f918a4b89bf5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T00:54:37.489Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Build a Validated Kubernetes Runtime for NVIDIA Dynamo",
+   "summary": "Teams building AI applications require a repeatable path from model configuration to working inference endpoints. NVIDIA Dynamo is a distributed inference framework designed to coordinate model serving across GPU workers. Deploying it on Kubernetes is only the initial step, as successful deployment also requires properly functioning GPU drivers, resource allocation, scheduling, networking, and monitoring.",
+   "impact": "Developers and technology users working with distributed inference may need to carefully configure GPU drivers, scheduling, networking, and monitoring to ensure successful model deployments on Kubernetes. Proper integration of these components could help teams achieve a reliable path from model configuration to a working inference endpoint.",
+   "keyPoints": [
+    "AI application teams need a repeatable path from model configuration to inference endpoints.",
+    "NVIDIA Dynamo is a distributed inference framework coordinating model serving across GPU workers.",
+    "Successful deployments require working GPU drivers, resource allocation, scheduling, networking, and monitoring."
+   ]
+  },
+  "km": {
+   "title": "កសាងបរិស្ថានរត់ការ Kubernetes ដែលបានផ្ទៀងផ្ទាត់សម្រាប់ NVIDIA Dynamo",
+   "summary": "ក្រុមការងារដែលបង្កើតកម្មវិធីបញ្ញាសិប្បនិម្មិតត្រូវការផ្លូវច្បាស់លាស់ពីការកំណត់រចនាសម្ព័ន្ធម៉ូដែលទៅកាន់ចំណុចបញ្ចប់នៃការសន្និដ្ឋានដែលដំណើរការ។ NVIDIA Dynamo គឺជាក្របខ័ណ្ឌសន្និដ្ឋានដែលចែកចាយដែលសម្របសម្រួលការបម្រើម៉ូដែលឆ្លងកាត់កម្មករ GPU។ ការដាក់ពង្រាយវានៅលើ Kubernetes គឺជាជំហានដំបូងប៉ុណ្ណោះ ខណៈដែលការដាក់ពង្រាយម៉ូដែលឱ្យបានជោគជ័យទាមទារនូវកត្តាបន្ថែមទៀត។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវកំណត់រចនាសម្ព័ន្ធកម្មវិធីបញ្ជា GPU ការកំណត់ពេល បណ្តាញ និងការត្រួតពិនិត្យដោយប្រុងប្រយ័ត្ន ដើម្បីធានាបាននូវការដាក់ពង្រាយម៉ូដែលប្រកបដោយជោគជ័យ។ ការរួមបញ្ចូលគ្នាដ៏ត្រឹមត្រូវនៃសមាសភាគទាំងនេះអាចជួយឱ្យក្រុមការងារសម្រេចបាននូវដំណើរការដែលអាចទុកចិត្តបាន។",
+   "keyPoints": [
+    "ក្រុមការងារបង្កើតកម្មវិធីបញ្ញាសិប្បនិម្មិតត្រូវការផ្លូវដែលអាចធ្វើម្តងទៀតបានពីការកំណត់រចនាសម្ព័ន្ធម៉ូដែល។",
+    "NVIDIA Dynamo គឺជាក្របខ័ណ្ឌសន្និដ្ឋានដែលចែកចាយដែលសម្របសម្រួលការបម្រើម៉ូដែល។",
+    "ការដាក់ពង្រាយដោយជោគជ័យទាមទារកម្មវិធីបញ្ជា GPU ការបែងចែកធនធាន និងបណ្តាញដែលដំណើរការស្របគ្នា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "为 NVIDIA Dynamo 构建经过验证的 Kubernetes 运行时",
+   "summary": "构建人工智能应用程序的团队需要一条从模型配置到可用推理端点的可重复路径。NVIDIA Dynamo 是一个分布式推理框架，负责协调 GPU 工作节点之间的模型服务。将其部署在 Kubernetes 上仅仅是第一步，成功的模型部署还需要 GPU 驱动程序、资源分配、调度、网络和监控等协同工作。",
+   "impact": "开发人员和技术用户在部署分布式推理时，可能需要仔细配置 GPU 驱动程序、调度、网络和监控，以确保模型成功部署。这些组件的正确集成有助于团队建立从模型配置到推理端点的可靠路径。",
+   "keyPoints": [
+    "人工智能应用团队需要从模型配置到推理端点的可重复路径。",
+    "NVIDIA Dynamo 是一个在 GPU 工作节点之间协调模型服务的分布式推理框架。",
+    "成功的部署需要正常工作的 GPU 驱动程序、资源分配、调度、网络和监控。"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA Dynamo를 위한 검증된 Kubernetes 런타임 구축",
+   "summary": "AI 애플리케이션을 구축하는 팀은 모델 구성에서 작동하는 추론 엔드포인트로 이어지는 반복 가능한 경로가 필요합니다. NVIDIA Dynamo는 GPU 작업자 전반에서 모델 서빙을 조율하는 분산 추론 프레임워크입니다. Kubernetes에 배포하는 것은 첫 걸음에 불과하며 성공적인 모델 배포를 위해서는 GPU 드라이버, 자원 할당, 스케줄링, 네트워킹 및 모니터링이 모두 원활히 작동해야 합니다.",
+   "impact": "개발자와 기술 사용자들은 Kubernetes에서 성공적인 모델 배포를 보장하기 위해 GPU 드라이버, 스케줄링, 네트워킹 및 모니터링을 신중하게 구성해야 할 수 있습니다. 이러한 구성 요소들의 적절한 통합은 팀이 신뢰할 수 있는 추론 엔드포인트 구축 경로를 확보하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "AI 애플리케이션 팀은 모델 구성에서 추론 엔드포인트로 가는 반복 가능한 경로가 필요합니다.",
+    "NVIDIA Dynamo는 GPU 작업자 간의 모델 서빙을 조율하는 분산 추론 프레임워크입니다.",
+    "성공적인 배포를 위해서는 작동하는 GPU 드라이버, 자원 할당, 스케줄링, 네트워킹 및 모니터링이 필요합니다."
+   ]
+  }
+ }
+}
