@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "00dc952b59087f14",
+ "contentHash": "7f4d7e5113e975f2",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T13:49:02.381Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "InferD: A Honeypot Framework for AI Inference Infrastructure",
+   "summary": "Researchers introduce InferD, a low-interaction honeypot framework designed for AI inference infrastructure to address the unique deception challenges of AI services. Operating under the principle of deception without inference, the system answers all adversary requests from static response pools without executing any submitted inputs. InferD organizes emulation into transport, service protocol, vulnerability surface, and agentic session planes, along with a provenance plane to link planted credentials to downstream processing evidence.",
+   "impact": "This framework could help security teams and researchers safely measure threat characteristics and observe adversary behavior against exposed AI infrastructure without risking actual model execution or computational exposure. It may provide better visibility into how attackers target AI serving stacks and agent orchestration gateways.",
+   "keyPoints": [
+    "AI inference infrastructure faces rapid exposure and indexing on the public internet.",
+    "InferD operates on deception without inference by using static response pools.",
+    "The framework uses transport, service protocol, vulnerability surface, and agentic session planes.",
+    "A provenance plane links planted credentials to downstream model-mediated processing evidence."
+   ]
+  },
+  "km": {
+   "title": "InferD៖ ប្រព័ន្ធហូនីប៉តសម្រាប់ហេដ្ឋារចនាសម្ព័ន្ធស្វែងយល់សន្និដ្ឋាន AI",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ InferD ដែលជាប្រព័ន្ធហូនីប៉តអន្តរកម្មទាបត្រូវបានរចនាឡើងសម្រាប់ហេដ្ឋារចនាសម្ព័ន្ធស្វែងយល់សន្និដ្ឋាន AI ដើម្បីដោះស្រាយបញ្ហាប្រឈមនៃការបោកប្រាស់នៃសេវាកម្ម AI ។ ដំណើរការក្រោមគោលការណ៍បោកប្រាស់ដោយគ្មានការសន្និដ្ឋាន ប្រព័ន្ធនេះឆ្លើយតបសំណើរបស់អ្នកវាយប្រហារទាំងអស់ពីកន្លែងស្តុកចម្លើយឋិតិវន្តដោយមិនដំណើរការធាតុចូលណាមួយឡើយ។ InferD បែងចែកការត្រាប់តាមជាបួនស្រទាប់គឺ ការដឹកជញ្ជូន ពិធីការសេវាកម្ម ផ្ទៃងាយរងគ្រោះ និងវគ្គភ្នាក់ងារ រួមជាមួយស្រទាប់ប្រភពដើមដើម្បីភ្ជាប់ព័ត៌មានសម្ងាត់ដែលបានដាក់ទៅនឹងភស្តុតាងដំណើរការ។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចជួយដល់ក្រុមសន្តិសុខ និងអ្នកស្រាវជ្រាវក្នុងការវាស់វែងលក្ខណៈនៃការគំរាមកំហែង និងobservation សុវត្ថិភាពលើហេដ្ឋារចនាសម្ព័ន្ធ AI ដោយមិនប្រឈមនឹងការប្រតិបត្តិម៉ូដែលពិតប្រាកដ។ វាអាចផ្តល់នូវភាពមើលឃើញកាន់តែប្រសើរអំពីរបៀបដែលអ្នកវាយប្រហារកំណត់គោលដៅលើកកសាង AI និងច្រកផ្លូវសម្របសម្រួលភ្នាក់ងារ។",
+   "keyPoints": [
+    "ហេដ្ឋារចនាសម្ព័ន្ធសន្និដ្ឋាន AI ប្រឈមមុខនឹងការបង្ហាញនិងការដាក់លិបិក្រមយ៉ាងលឿននៅលើអ៊ីនធឺណិតសាធារណៈ។",
+    "InferD ដំណើរការលើការបោកប្រាស់ដោយគ្មានការសន្និដ្ឋានតាមរយៈការប្រើប្រាស់បណ្តុំចម្លើយឋិតិវន្ត។",
+    "ក្របខ័ណ្ឌនេះប្រើប្រាស់ស្រទាប់ដឹកជញ្ជូន ពិធីការសេវាកម្ម ផ្ទៃងាយរងគ្រោះ និងវគ្គភ្នាក់ងារ។",
+    "ស្រទាប់ប្រភពដើមភ្ជាប់ព័ត៌មានសម្ងាត់ដែលបានដាក់ទៅនឹងភស្តុតាងដំណើរការតាមរយៈម៉ូដែល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "InferD：一个用于AI推理基础设施的蜜罐框架",
+   "summary": "研究人员推出了InferD，这是一个专为AI推理基础设施设计的低交互蜜罐框架，旨在应对AI服务独特的欺骗挑战。该系统秉持无推理欺骗的原则，通过静态响应池回答攻击者的所有请求，而从不执行任何提交的输入。InferD将仿真分解为传输、服务协议、漏洞表面和智能体会话四个欺骗平面，并增加了一个溯源平面，将植入的凭据与下游模型介导的处理证据联系起来。",
+   "impact": "该框架可以帮助安全团队和研究人员安全地衡量威胁特征，并观察攻击者针对暴露的AI基础设施的行为，而不会冒实际模型执行或计算暴露的风险。它可能会更好地揭示攻击者如何针对AI服务栈和智能体编排网关。",
+   "keyPoints": [
+    "AI推理基础设施在部署后数小时内在公网上面临公开暴露和索引。",
+    "InferD通过静态响应池运行无推理欺骗原则。",
+    "该框架将仿真分为传输、服务协议、漏洞表面和智能体会话四个平面。",
+    "溯源平面将植入的凭据链接到下游模型处理证据。"
+   ]
+  },
+  "ko": {
+   "title": "InferD: AI 추론 인프라를 위한 허니팟 프레임워크",
+   "summary": "연구원들은 AI 서비스의 독특한 기만 과제를 해결하기 위해 AI 추론 인프라용으로 설계된 저상호작용 허니팟 프레임워크인 InferD를 소개했습니다. 추론 없는 기만 원칙에 따라 작동하는 이 시스템은 제출된 입력을 실행하지 않고 정적 응답 풀에서 공격자의 모든 요청에 답변합니다. InferD는 에뮬레이션을 전송, 서비스 프로토콜, 취약점 표면, 에이전트 세션의 네 가지 기만 평면으로 분해하고, 심어진 자격 증명을 하위 모델 매개 처리 증거에 연결하는 출처 평면을 추가합니다.",
+   "impact": "이 프레임워크는 보안 팀과 연구원이 실제 모델 실행이나 연산 노출 위험 없이 노출된 AI 인프라에 대한 위협 특성을 안전하게 측정하고 공격자 행동을 관찰하는 데 도움을 줄 수 있습니다. 공격자가 AI 서빙 스택과 에이전트 오케스트레이션 게이트웨이를 타겟팅하는 방식에 대한 가시성을 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "AI 추론 인프라는 배포 후 몇 시간 만에 공용 인터넷에 노출되고 색인화되는 직면에 있습니다.",
+    "InferD는 정적 응답 풀을 사용하여 추론 없는 기만 방식으로 작동합니다.",
+    "이 프레임워크는 전송, 서비스 프로토콜, 취약점 표면 및 에이전트 세션 평면을 활용합니다.",
+    "출처 평면은 심어진 자격 증명을 하위 모델 매개 처리 증거에 연결합니다."
+   ]
+  }
+ }
+}

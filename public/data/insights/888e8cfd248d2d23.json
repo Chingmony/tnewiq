@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "888e8cfd248d2d23",
+ "contentHash": "313846d92309a212",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T13:49:23.390Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "SEAL: Sealed Queries for Local Sanitization against Indirect Prompt Injection",
+   "summary": "Researchers introduced SEAL, a defense mechanism against indirect prompt injection that sanitizes untrusted tool outputs for local LLM agents. SEAL learns a soft prompt and scoring readout offline to localize and delete malicious content using a frozen task model. It relies on trusted initial context to construct scoring queries, requiring no defense-generated tokens or separate verifier models. Testing on AgentDojo and AgentDyn shows that SEAL suppresses attacks while improving task completion.",
+   "impact": "This method could help developers and security teams protect local LLM agents from indirect prompt injection while preserving task evidence and operating within limited inference budgets. It may offer a more efficient alternative to existing defenses by using significantly fewer defense-related tokens.",
+   "keyPoints": [
+    "SEAL learns a soft prompt and scoring readout offline to sanitize tool outputs.",
+    "It constructs scoring queries from trusted initial context and the learned prompt.",
+    "On AgentDojo, SEAL reduced attack success from 34.6 percent to 0.1 percent and increased Joint task completion from 51.4 percent to 77.5 percent.",
+    "It uses approximately 127 times fewer defense-related tokens than PISanitizer."
+   ]
+  },
+  "km": {
+   "title": "SEAL: ការសាកសួរដែលបានផ្សាភ្ជាប់សម្រាប់ការសម្អាតមូលដ្ឋានប្រឆាំងនឹងការបញ្ចូលប្រអប់បញ្ចូលដោយប្រយោល",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ SEAL ដែលជាយន្តការការពារប្រឆាំងនឹងការបញ្ចូលប្រអប់បញ្ចូលដោយប្រយោល ដើម្បីសម្អាតលទ្ធផលឧបករណ៍ដែលមិនទុកចិត្តសម្រាប់ភ្នាក់ងារ LLM មូលដ្ឋាន។ SEAL រៀនប្រអប់បញ្ចូលទន់ និងការអានពិន្ទុក្រៅបណ្តាញ ដើម្បី本地化 និងលុបមាតិកាព្យាបាទដោយប្រើម៉ូដែលភ្នាក់ងារដែលត្រជាក់។ វាពឹងផ្អែកលើបរិបទដំបូងដែលគួរឱ្យទុកចិត្តដើម្បីបង្កើតសំណួរសាកសួរ ដោយមិនចាំបាច់មានថូខឹនការពារដែលបង្កើតឡើងដោយប្រព័ន្ធ ឬម៉ូដែលផ្ទៀងផ្ទាត់ដាច់ដោយឡែកនោះទេ។ ការធ្វើតេស្តនៅលើ AgentDojo និង AgentDyn បង្ហាញថា SEAL បង្ក្រាបការវាយប្រហារខណៈពេលដែលធ្វើឱ្យប្រសើរឡើងនូវការបញ្ចប់កិច្ចការក្រោមការវាយប្រហារ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខការពារភ្នាក់ងារ LLM មូលដ្ឋានពីការបញ្ចូលប្រអប់បញ្ចូលដោយប្រយោល ខណៈពេលដែលរក្សាភស្តុតាងកិច្ចការ និងដំណើរការក្នុងដែនកំណត់នៃការសន្និដ្ឋាន។ វាអាចផ្តល់នូវជម្រើសដែលមានប្រសិទ្ធភាពជាងមុនចំពោះការការពារដែលមានស្រាប់ដោយប្រើប្រាស់ថូខឹនទាក់ទងនឹងការការពារតិចជាងមុនយ៉ាងខ្លាំង។",
+   "keyPoints": [
+    "SEAL រៀនប្រអប់បញ្ចូលទន់ និងការអានពិន្ទុក្រៅបណ្តាញ ដើម្បីសម្អាតលទ្ធផលឧបករណ៍។",
+    "វាបង្កើតសំណួរសាកសួរពីបរិបទដំបូងដែលគួរឱ្យទុកចិត្ត និងប្រអប់បញ្ចូលដែលបានរៀន។",
+    "នៅលើ AgentDojo SEAL បានកាត់បន្ថយភាពជោគជ័យនៃការវាយប្រហារពី ៣៤,៦ភាគរយ មកត្រឹម ០,១ភាគរយ និងបានកើនឡើងការបញ្ចប់កិច្ចការរួមគ្នាពី ៥១,៤ភាគរយ ដល់ ៧៧,៥ភាគរយ។",
+    "វាប្រើប្រាស់ថូខឹនទាក់ទងនឹងការការពារប្រហែល ១២៧ដង តិចជាង PISanitizer។"
+   ]
+  },
+  "zh-CN": {
+   "title": "SEAL：用于防御间接提示词注入的本地净化密封查询",
+   "summary": "研究人员推出了SEAL，这是一种针对本地LLM代理的间接提示词注入防御机制，可净化不可信的工具输出。SEAL通过离线学习软提示词和评分读数，利用冻结的任务模型来清理工具输出。它从受信任的初始context构建评分查询，不需要防御生成的token或单独的验证器模型。在AgentDojo和AgentDyn上的测试表明，SEAL在抑制攻击的同时提高了任务完成率。",
+   "impact": "这种方法可以帮助开发人员和安全团队保护本地LLM代理免受间接提示词注入攻击，同时保留任务证据并在有限的推理预算下运行。通过使用显着更少的防御相关token，它可能为现有防御提供更高效的替代方案。",
+   "keyPoints": [
+    "SEAL离线学习软提示词和评分读数以净化工具输出。",
+    "它由受信任的初始context和学习到的提示词构建评分查询。",
+    "在AgentDojo上，SEAL将攻击成功率从34.6%降至0.1%，并将联合任务完成率从51.4%提高到77.5%。",
+    "它使用的防御相关token比PISanitizer少大约127倍。"
+   ]
+  },
+  "ko": {
+   "title": "SEAL: 간접 프롬프트 주입에 대응하는 로컬 정화를 위한 밀봉된 쿼리",
+   "summary": "연구진은 신뢰할 수 없는 도구 출력을 정화하여 로컬 LLM 에이전트를 보호하는 간접 프롬프트 주입 방어 메커니즘인 SEAL을 소개했습니다. SEAL은 오프라인에서 소프트 프롬프트와 채점 판독값을 학습하여 고정된 태스크 모델을 사용해 도구 출력을 정화합니다. 신뢰할 수 있는 초기 컨텍스트에서 채점 쿼리를 생성하므로 방어 관련 토큰이나 별도의 검증기 모델이 필요하지 않습니다. AgentDojo와 AgentDyn에서의 테스트 결과, SEAL은 공격을 억제하는 동시에 공격 상황에서의 작업 완료율을 향상시키는 것으로 나타났습니다.",
+   "impact": "이 방법은 개발자와 보안 팀이 작업 증거를 보존하고 제한된 추론 예산 내에서 작동하면서 로컬 LLM 에이전트를 간접 프롬프트 주입으로부터 보호하는 데 도움을 줄 수 있습니다. 기존 방어 수단보다 훨씬 적은 방어 관련 토큰을 사용하여 보다 효율적인 대안을 제공할 수 있습니다.",
+   "keyPoints": [
+    "SEAL은 도구 출력을 정화하기 위해 소프트 프롬프트와 채점 판독값을 오프라인에서 학습합니다.",
+    "신뢰할 수 있는 초기 컨텍스트와 학습된 프롬프트를 사용하여 채점 쿼리를 구성합니다.",
+    "AgentDojo에서 SEAL은 공격 성공률을 34.6퍼센트에서 0.1퍼센트로 낮추고, 공동 작업 완료율을 51.4퍼센트에서 77.5퍼센트로 높였습니다.",
+    "최첨단 방어 기술인 PISanitizer보다 약 127배 적은 방어 관련 토큰을 사용합니다."
+   ]
+  }
+ }
+}

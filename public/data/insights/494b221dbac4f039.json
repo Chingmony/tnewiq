@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "494b221dbac4f039",
+ "contentHash": "c3724510c2f1c654",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T13:50:18.514Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "PairWatch: Pair-Aware Anomaly Transformer for Detecting Adversarial Rendezvous in Public Satellite Catalogs",
+   "summary": "Researchers introduce PairWatch, a pair-aware Anomaly Transformer designed to detect adversarial rendezvous and proximity operations in public TLE catalogs by modeling satellite pairs and kinematic symmetry. Existing maneuver detectors often treat satellites individually, resulting in false alarms or missed events. Alongside the model, the authors release an open benchmark featuring documented RPO events, synthetic adversarial windows, and hard-negative sets.",
+   "impact": "This tool and benchmark could help security teams and catalog operators reliably screen public satellite data for adversarial proximity operations using a single operational threshold. However, developers should be cautious of evaluation metrics like AUROC, which may hide shortcut-learning failures in simpler baselines.",
+   "keyPoints": [
+    "PairWatch uses a sign-symmetric geometric similarity over relative-motion features to improve attention priors.",
+    "The open benchmark includes 359 windows covering 11 documented RPO events, synthetic windows, and hard negatives.",
+    "PairWatch successfully separates real RPO from operational negatives using a single threshold in 100 percent of bootstrap resamples.",
+    "Simpler baselines can achieve high overall AUROC through shortcut learning without performing the security-relevant task."
+   ]
+  },
+  "km": {
+   "title": "PairWatch៖ Pair-Aware Anomaly Transformer សម្រាប់រកឃើញការជួបជុំគ្នាបំផ្លាញគ្នានៅក្នុងកាតាឡុកផ្កាយរណបសាធារណៈ",
+   "summary": "អ្នកស្រាវជ្រាវបានដាក់បង្ហាញ PairWatch ដែលជាប្រព័ន្ធ Anomaly Transformer សម្រាប់ตรวจរកការជួបជុំគ្នានៅជិតគ្នារបស់ផ្កាយរណបនៅក្នុងកាតាឡុក TLE ដោយផ្អែកលើគូផ្កាយរណប និងភាពស៊ីមេទ្រី kinematic ។ ប្រព័ន្ធរកឃើញចលនាមុនៗច្រើនតែពិនិត្យផ្កាយរណបនីមួយៗដាច់ដោយឡែកពីគ្នា ដែលបណ្តាលឱ្យមានកំហុសឆ្គង។ ពួកគេក៏បានចេញផ្សាយនូវទិន្នន័យស្តង់ដារបើកចំហដែលមានព្រឹត្តិការណ៍ RPO ចំនួន ១១ និងទិន្នន័យផ្សេងទៀតផងដែរ។",
+   "impact": "ឧបករណ៍នេះអាចជួយក្រុមសន្តិសុខក្នុងការពិនិត្យមើលទិន្នន័យផ្កាយរណបសាធារណៈសម្រាប់ប្រតិបត្តិការជិតគ្នាដោយប្រើដែនកំណត់តែមួយ។ ទោះជាយ៉ាងណាក៏ដោយ អ្នកអភិវឌ្ឍន៍គួរតែប្រុងប្រយ័ត្នចំពោះរង្វាស់វាយតម្លៃដូចជា AUROC ដែលអាចលាក់បាំងភាពខ្សោយរបស់ម៉ូដែលសាមញ្ញ។",
+   "keyPoints": [
+    "PairWatch ប្រើប្រាស់ភាពស្រដៀងគ្នាធរណីមាត្រដើម្បីកែលម្អការផ្អោបផ្ដើមយកចិត្តទុកដាក់។",
+    "កាតាឡុកស្តង់ដារបើកចំហមានបង្កប់វីដូសចំនួន ៣៥៩ រួមទាំងព្រឹត្តិការណ៍ RPO ដែលបានកត់ត្រាទុក។",
+    "PairWatch ទទួលបានជោគជ័យក្នុងការបែងចែក RPO ពិតប្រាកដពីអវិជ្ជមានប្រតិបត្តិការដោយប្រើដែនកំណត់តែមួយ។",
+    "ម៉ូដែលមូលដ្ឋានសាមញ្ញអាចទទួលបាន AUROC ខ្ពស់តាមរយៈការរៀនផ្លូវកាត់ដោយមិនអាចបំពេញភារកិច្ចទាក់ទងនឹងសន្តិសុខបានឡើយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "PairWatch：用于检测公共卫星目录中对抗性交会 Pair-Aware 异常 Transformer",
+   "summary": "研究人员推出了 PairWatch，这是一个专为公共 TLE 目录设计的成对感知异常 Transformer，用于检测对抗性交会和接近操作（RPO）。现有的机动检测器通常将每颗卫星孤立处理，导致误报或漏报。与该模型一同发布的还有一个包含已记录 RPO 事件、合成对抗窗口和硬负样本集的公开基准测试。",
+   "impact": "该工具和基准测试可以帮助安全团队和目录运营商使用单一操作阈值可靠地筛查公共卫星数据中的对抗性接近操作。然而，开发人员应警惕诸如 AUROC 等评估指标，它们可能会掩盖较简单基线模型中的捷径学习缺陷。",
+   "keyPoints": [
+    "PairWatch 在相对运动特征上使用符号对称的几何相似性来增强注意力先验。",
+    "公开基准测试包含 359 个窗口，涵盖 11 个有记录的 RPO 事件、合成窗口和硬负样本。",
+    "在通过单一阈值分离真实 RPO 与操作负样本的测试中，PairWatch 在所有自助重抽样中均获得成功。",
+    "更简单的基线可以通过捷径学习获得较高的整体 AUROC，但无法完成安全相关的任务。"
+   ]
+  },
+  "ko": {
+   "title": "PairWatch: 공개 위성 카탈로그에서 적대적 랑데부를 감지하기 위한 Pair-Aware Anomaly Transformer",
+   "summary": "연구진은 위성 쌍과 운동학적 대칭성을 모델링하여 공개 TLE 카탈로그에서 적대적 랑데부 및 근접 작전(RPO)을 감지하도록 설계된 페어 인식 Anomaly Transformer인 PairWatch를 소개합니다. 기존의 기동 감지기는 각 위성을 개별적으로 처리하여 오탐을 발생시키거나 RPO를 놓치는 문제가 있었습니다. 저자들은 문서화된 RPO 사건, 합성 적대적 윈도우 등을 포함하는 공개 벤치마크도 함께 공개했습니다.",
+   "impact": "이 도구와 벤치마크는 보안 팀과 운영자가 단일 임계값을 사용하여 공개 위성 데이터에서 적대적 근접 작전을 안정적으로 선별하는 데 도움을 줄 수 있습니다. 그러나 개발자는 단순한 기본 모델의 지름길 학습 결함을 숨길 수 있는 AUROC와 같은 평가 지표에 주의해야 합니다.",
+   "keyPoints": [
+    "PairWatch는 상대 운동 특징에 대해 부호 대칭 기하학적 유사성을 사용하여 어텐션 사전 분포를 보강합니다.",
+    "공개 벤치마크에는 11개의 문서화된 RPO 사건, 합성 윈도우, 하드 네거티브 세트를 아우르는 359개의 윈도우가 포함되어 있습니다.",
+    "PairWatch는 단일 임계값으로 실제 RPO와 운영상 네거티브를 분리하는 데 성공했습니다.",
+    "더 단순한 기본 모델은 보안 관련 작업을 수행하지 못하면서도 지름길 학습을 통해 더 높은 전체 AUROC를 달성할 수 있습니다."
+   ]
+  }
+ }
+}

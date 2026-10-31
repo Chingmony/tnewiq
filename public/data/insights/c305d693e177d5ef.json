@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c305d693e177d5ef",
+ "contentHash": "fa44f2f7d8e5d447",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T13:47:06.941Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency added two security flaws impacting Ivanti Connect Secure to its Known Exploited Vulnerabilities catalog. This follows active exploitation of the vulnerabilities in the wild. One of the listed vulnerabilities is CVE-2026-111357, which features a CVSS score of 8.8 and involves missing authentication for a critical function.",
+   "impact": "Security teams and technology users may face heightened risks as these vulnerabilities are actively exploited. Organizations utilizing Ivanti Connect Secure should review the KEV catalog entries and apply necessary mitigations.",
+   "keyPoints": [
+    "CISA added two Ivanti Connect Secure security flaws to the KEV catalog.",
+    "The additions follow active exploitation in the wild.",
+    "CVE-2026-111357 has a CVSS score of 8.8 and involves missing authentication for a critical function."
+   ]
+  },
+  "km": {
+   "title": "អ្នកប្រយុទ្ធផ្សារភ្ជាប់ចំណុចខ្សោយ Ivanti Connect Secure បី ដើម្បីទទួលបានសិទ្ធិ root ដោយគ្មានការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ",
+   "summary": "ទីភ្នាក់ងារសន្តិសុខគ្រោះថ្នាក់ស៊ីនទិចនិងហេដ្ឋារចនាសម្ព័ន្ធសហរដ្ឋអាមេរិកបានបន្ថែមចំណុចខ្សោយសន្តិសុខចំនួនពីរដែលប៉ះពាល់ដល់ Ivanti Connect Secure ទៅក្នុងកាតាឡុកចំណុចខ្សោយដែលគេស្គាល់ថាបានកេងប្រវ័ញ្ច បន្ទាប់ពីមានការកេងប្រវ័ញ្ចសកម្មនៅក្នុងធម្មជាតិ។ ចំណុចខ្សោយមួយក្នុងចំណោមនោះគឺ CVE-2026-111357 ដែលមានពិន្ទុ CVSS 8.8 និងពាក់ព័ន្ធនឹងការខ្វះការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវសម្រាប់មុខងារសំខាន់មួយ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចប្រឈមមុខនឹងហានិភ័យកើនឡើង ដោយសារចំណុចខ្សោយទាំងនេះត្រូវបានកេងប្រវ័ញ្ចយ៉ាងសកម្ម។ អង្គការដែលប្រើប្រាស់ Ivanti Connect Secure គួរតែពិនិត្យមើលបញ្ជីកាតាឡុក KEV និងអនុវត្តវិធានការបន្ធូរបន្ថយចាំបាច់។",
+   "keyPoints": [
+    "CISA បានបន្ថែមចំណុចខ្សោយសន្តិសុខ Ivanti Connect Secure ចំនួនពីរទៅក្នុងកាតាឡុក KEV។",
+    "ការបន្ថែមនេះកើតឡើងបន្ទាប់ពីមានការកេងប្រវ័ញ្ចសកម្មនៅក្នុងធម្មជាតិ។",
+    "CVE-2026-111357 មានពិន្ទុ CVSS 8.8 និងពាក់ព័ន្ធនឹងការខ្វះការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវសម្រាប់មុខងារសំខាន់មួយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "攻击者串联三个 Ivanti Connect Secure 漏洞以获得未经身份验证的 root 访问权限",
+   "summary": "美国网络安全和基础设施安全局于周五将影响 Ivanti Connect Secure 的两个安全漏洞添加到其已知利用漏洞目录中，此前该漏洞在野外受到了积极利用。其中列出的漏洞之一是 CVE-2026-111357，其 CVSS 评分为 8.8，涉及关键功能的身份验证缺失。",
+   "impact": "由于这些漏洞正受到积极利用，安全团队和技术用户可能会面临更高的风险。使用 Ivanti Connect Secure 的组织应审查 KEV 目录条目并应用必要的缓解措施。",
+   "keyPoints": [
+    "CISA 将两个 Ivanti Connect Secure 安全漏洞添加到了 KEV 目录中。",
+    "此次添加是在野外发生积极利用之后进行的。",
+    "CVE-2026-111357 的 CVSS 评分为 8.8，涉及关键功能的身份验证缺失。"
+   ]
+  },
+  "ko": {
+   "title": "공격자들이 인증되지 않은 root 권한을 얻기 위해 세 개의 Ivanti Connect Secure 취약점을 체인화함",
+   "summary": "미국 사이버안보 및 인프라 보안청은 야외에서 활발히 악용된 이후 Ivanti Connect Secure에 영향을 미치는 두 가지 보안 결함을 알려진 악용 취약점 카탈로그에 추가했습니다. 나열된 취약점 중 하나는 CVE-2026-111357이며, CVSS 점수 8.8점을 기록했고 임계 기능에 대한 인증 누락을 포함하고 있습니다.",
+   "impact": "이러한 취약점들이 활발히 악용됨에 따라 보안 팀과 기술 사용자는 더 높은 위험에 직면할 수 있습니다. Ivanti Connect Secure를 사용하는 조직은 KEV 카탈로그 항목을 검토하고 필요한 완화 조치를 적용해야 합니다.",
+   "keyPoints": [
+    "CISA는 두 개의 Ivanti Connect Secure 보안 결함을 KEV 카탈로그에 추가했습니다.",
+    "이번 추가는 야외에서의 활발한 악용에 따른 것입니다.",
+    "CVE-2026-111357은 8.8점의 CVSS 점수를 가지며 임계 기능에 대한 인증 누락을 포함합니다."
+   ]
+  }
+ }
+}

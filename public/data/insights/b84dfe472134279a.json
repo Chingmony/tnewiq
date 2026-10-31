@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b84dfe472134279a",
+ "contentHash": "695d80d67fc8ad2e",
+ "model": "gemini-flash-latest",
+ "generatedAt": "2026-10-31T13:42:38.728Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+   "summary": "American blockchain analysis firm Chainalysis confirmed it was targeted in a cybersecurity incident involving an external actor. The company stated that the intruder accessed non-sensitive customer data through internal tools. Chainalysis noted that the incident did not result in unauthorized access to investigation content, authentication credentials, or session tokens.",
+   "impact": "Organizations using Chainalysis could face exposure of customer identity data, though critical credentials and investigation materials were reportedly not compromised. Security teams may monitor whether internal tools and third-party analytics integrations pose similar exposure risks.",
+   "keyPoints": [
+    "Chainalysis detected a cybersecurity incident carried out by an external actor.",
+    "The external actor accessed non-sensitive customer identity data.",
+    "Investigation content, authentication credentials, and session tokens were not accessed."
+   ]
+  },
+  "km": {
+   "title": "Chainalysis បញ្ជាក់ពីការជ្រៀតចូលឧបករណ៍ផ្ទៃក្នុង និងការលេចធ្លាយទិន្នន័យអត្តសញ្ញាណអតិថិជន",
+   "summary": "ក្រុមហ៊ុនវិភាគប្លុកឆេនអាមេរិក Chainalysis បានបញ្ជាក់ថា ខ្លួនបានក្លាយជាគោលដៅនៃឧប្បត្តិហេតុសន្តិសុខតាមប្រព័ន្ធអ៊ីនធឺណិត ដែលមានតួអង្គខាងក្រៅបានចូលប្រើប្រាស់ទិន្នន័យអតិថិជនមិនរសើប។ ក្រុមហ៊ុនបានបញ្ជាក់ថា ឧប្បត្តិហេតុនេះមិនបានបណ្តាលឱ្យមានការចូលប្រើដោយគ្មានការអនុញ្ញាតចំពោះខ្លឹមសារស៊ើបអង្កេត ព័ត៌មានសម្ងាត់ផ្ទៀងផ្ទាត់ ឬ session tokens ឡើយ។",
+   "impact": "ស្ថាប័នដែលប្រើប្រាស់សេវាកម្ម Chainalysis អាចប្រឈមនឹងការលេចធ្លាយទិន្នន័យអត្តសញ្ញាណ ទោះបីជាព័ត៌មានសម្ងាត់ និងខ្លឹមសារស៊ើបអង្កេតសំខាន់ៗមិនត្រូវបានប៉ះពាល់ក៏ដោយ។ ក្រុមការងារសន្តិសុខអាចត្រូវតាមដានហានិភ័យដែលអាចកើតមានចំពោះឧបករណ៍ផ្ទៃក្នុងរបស់ខ្លួន។",
+   "keyPoints": [
+    "Chainalysis បានរកឃើញឧប្បត្តិហេតុសន្តិសុខតាមប្រព័ន្ធអ៊ីនធឺណិតបង្កឡើងដោយតួអង្គខាងក្រៅ។",
+    "តួអង្គខាងក្រៅបានចូលប្រើប្រាស់ទិន្នន័យអតិថិជនដែលមិនរសើប។",
+    "ខ្លឹមសារស៊ើបអង្កេត ព័ត៌មានសម្ងាត់ផ្ទៀងផ្ទាត់ និង session tokens មិនត្រូវបានប៉ះពាល់នោះទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Chainalysis 确认内部工具遭入侵且客户身份数据泄露",
+   "summary": "美国区块链分析公司 Chainalysis 表示其成为一起网络安全事件的目标，一名外部攻击者访问了非敏感客户数据。然而，该公司指出，此次数据泄露并未导致其调查内容、身份验证凭据或会话令牌遭到未授权访问。",
+   "impact": "使用 Chainalysis 的机构可能会面临客户身份数据暴露的风险，尽管关键凭据和调查内容据称未受影响。这可能会提示安全团队进一步评估内部工具访问与防护措施。",
+   "keyPoints": [
+    "Chainalysis 发现了一起由外部攻击者实施的网络安全事件。",
+    "外部攻击者访问了非敏感的客户身份数据。",
+    "调查内容、身份验证凭证及会话令牌均未遭到未授权访问。"
+   ]
+  },
+  "ko": {
+   "title": "Chainalysis, 내부 도구 침입 및 고객 신원 데이터 노출 확인",
+   "summary": "미국 블록체인 분석 기업 Chainalysis는 외부 공격자가 비민감성 고객 데이터에 접근한 사이버 보안 침해 사고의 표적이 되었다고 밝혔습니다. 다만 회사 측은 이번 침해로 인해 조사 내용, 인증 자격 증명 또는 세션 토큰에 대한 무단 접근은 발생하지 않았다고 언급했습니다.",
+   "impact": "Chainalysis를 사용하는 조직은 고객 신원 데이터 노출 가능성을 확인할 필요가 있을 수 있으나, 핵심 자격 증명과 조사 데이터는 침해되지 않은 것으로 보입니다. 보안팀은 내부 도구를 겨냥한 외부 위협에 유의할 수 있습니다.",
+   "keyPoints": [
+    "Chainalysis가 외부 공격자에 의한 사이버 보안 침해를 감지했습니다.",
+    "외부 행위자가 비민감성 고객 데이터에 접근했습니다.",
+    "조사 내용, 인증 자격 증명 및 세션 토큰은 무단 접근되지 않았습니다."
+   ]
+  }
+ }
+}

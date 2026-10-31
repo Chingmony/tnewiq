@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3b04dc0f7e9451df",
+ "contentHash": "76926e36716c8f1e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T13:49:44.712Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Investigating Data Flows from Android Games",
+   "summary": "Researchers investigated data collection and transmission in popular free-to-play Android games by analyzing over 16 GB of network traffic from 50 puzzle games. They also explored the effectiveness of user-side countermeasures for certain apps. The study found that while tools like ad-blocking DNS services generally decrease data flows, withholding consent or opting out can lead to inconsistent behavior and increased outgoing traffic. An open dataset of these measurements has been released to encourage further analysis.",
+   "impact": "This research could help developers, security teams, and users understand how privacy threats manifest in mobile applications. The findings regarding unpredictable traffic behavior from opt-out requests may inform how developers and privacy advocates approach user-side countermeasures.",
+   "keyPoints": [
+    "Analyzed over 16 GB of network traffic from 50 puzzle games to investigate data flows.",
+    "Tested user-side countermeasures including ad-blocking DNS services and consent withdrawals.",
+    "Found that opting out or withholding consent can produce inconsistent behavior and increased outgoing traffic.",
+    "Released an open dataset of the measurements to encourage further research."
+   ]
+  },
+  "km": {
+   "title": "ការស៊ើបអង្កេតលើលំហូរទិន្នន័យពីហ្គេម Android",
+   "summary": "អ្នកស្រាវជ្រាវបានស៊ើបអង្កេតការប្រមូល និងបញ្ជូនទិន្នន័យនៅក្នុងហ្គេម Android ឥតគិតថ្លៃដ៏ពេញនិយម ដោយវិភាគចរាចរណ៍បណ្តាញទំហំជាង ១៦ GB មកពីហ្គេមផ្សងសំណាងចំនួន ៥០។ ពួកគេក៏បានស្វែងយល់ផងដែរអំពីប្រសិទ្ធភាពនៃវិធានការទប់ស្កាត់ពីខាងអ្នកប្រើប្រាស់សម្រាប់កម្មវិធីមួយចំនួន។ ការសិក្សាបានរកឃើញថា ខណៈពេលដែលឧបករណ៍ដូចជាសេវាកម្ម DNS ប្លុកពាណិជ្ជកម្មអាចកាត់បន្ថយលំហូរទិន្នន័យ ការមិនផ្តល់ការយល់ព្រមអាចបណ្តាលឱ្យមានអាកប្បកិរិយាមិនស៊ីសង្វាក់គ្នា។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយដល់ក្រុមអ្នកអភិវឌ្ឍន៍ និងអ្នកជំនាញសន្តិសុខក្នុងការយល់ដឹងពីការគំរាមកំហែងភាពឯកជននៅក្នុងកម្មវិធីទូរស័ព្ទ។ ការរកឃើញទាក់ទងនឹងការស្នើសុំមិនចូលរួមអាចជាឯកសារយោងសម្រាប់ការអនុវត្តវិធានការការពារភាពឯកជន។",
+   "keyPoints": [
+    "បានវិភាគចរាចរណ៍បណ្តាញជាង ១៦ GB ពីហ្គេមចំនួន ៥០។",
+    "បានពិនិត្យមើលប្រសិទ្ធភាពនៃវិធានការទប់ស្កាត់ពីខាងអ្នកប្រើប្រាស់។",
+    "បានរកឃើញថាការដកខ្លួនចេញអាចបង្កើនចរាចរណ៍ចេញ។",
+    "បានចេញផ្សាយชุดទិន្នន័យបើកចំហសម្រាប់ការវិភាគបន្ថែម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "调查来自Android游戏的数据流",
+   "summary": "研究人员通过分析来自50款解谜游戏的16 GB以上的网络流量，调查了热门免费Android游戏中的数据收集与传输情况。他们还探讨了部分应用中用户端应对措施的有效性。研究发现，虽然广告拦截DNS服务等措施可以减少数据流，但拒绝授权和选择退出数据收集可能会产生不一致的行为，甚至增加出站流量。研究团队已发布了这些测量数据的开源数据集以鼓励进一步分析。",
+   "impact": "这项研究可以帮助开发人员、安全团队和技术用户了解隐私威胁在移动应用程序中的表现形式。关于退出请求可能导致不可预测流量行为的发现，可能会影响开发人员和隐私倡导者对待用户端应对措施的方式。",
+   "keyPoints": [
+    "分析了来自50款解谜游戏的16 GB以上网络流量以调查数据流。",
+    "测试了用户端应对措施，包括广告拦截DNS服务和撤回同意。",
+    "发现选择退出或拒绝授权可能会产生不一致的行为并增加出站流量。",
+    "发布了测量数据的开源数据集以促进进一步研究。"
+   ]
+  },
+  "ko": {
+   "title": "안드로이드 게임의 데이터 흐름 조사",
+   "summary": "연구진은 50개의 퍼즐 게임에서 수집한 16 GB 이상의 네트워크 트래픽을 분석하여 인기 무료 안드로이드 게임의 데이터 수집 및 전송 실태를 조사했습니다. 또한 일부 앱에 대한 사용자 측 대응 수단의 효과를 살펴보았습니다. 광고 차단 DNS 서비스와 같은 대책은 데이터 흐름을 줄이는 반면, 동의 거부 및 데이터 수집 거부는 일관되지 않은 동작과 송신 트래픽 증가를 유발할 수 있음을 발견했습니다. 추가 분석을 장려하기 위해 측정한 데이터는 오픈 데이터셋으로 공개되었습니다.",
+   "impact": "이번 연구는 개발자, 보안 팀, 기술 사용자가 모바일 애플리케이션의 프라이버시 위협 양상을 파악하는 데 도움을 줄 수 있습니다. 수집 거부 요청 시 예측할 수 없는 트래픽 동작이 발생할 수 있다는 연구 결과는 개발자와 프라이버시 전문가들이 사용자 측 대응 방안에 접근하는 방식에 영향을 미칠 수 있습니다.",
+   "keyPoints": [
+    "50개의 퍼즐 게임에서 16 GB 이상의 네트워크 트래픽을 분석하여 데이터 흐름 조사",
+    "광고 차단 DNS 서비스 및 동의 철회를 포함한 사용자 측 대응 수단 테스트",
+    "수집 거부나 동의 거부가 일관되지 않은 동작과 송신 트래픽 증가를 유발할 수 있음을 발견",
+    "추가 연구를 장려하기 위해 측정 데이터를 오픈 데이터셋으로 공개"
+   ]
+  }
+ }
+}

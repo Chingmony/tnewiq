@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "26e83aede607bf60",
+ "contentHash": "7a35b0bf11a432e9",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T13:50:06.483Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hardware-Aware Model Inversion in Memristive Spiking Neural Networks",
+   "summary": "Researchers explore how hardware non-idealities and reliability faults in memristive spiking neural networks affect privacy through model-inversion leakage. They introduce Spiking Domain Model Inversion, a method combining Expectation over Transformation with surrogate gradients to study inversion under stochastic analog behavior. Across four datasets, reconstruction leakage does not vary monotonically with model accuracy or hardware variability. The findings show that hardware variability is not inherently privacy-preserving, as leakage depends on the specific hardware state.",
+   "impact": "These findings could matter to security teams and developers by showing that hardware non-idealities like neuron-threshold perturbations can increase reconstruction fidelity by up to 51.8 percent, meaning hardware variability may not automatically protect privacy. Developers and security teams might need to account for specific hardware states rather than relying on model accuracy alone when assessing privacy risks.",
+   "keyPoints": [
+    "Hardware-accelerated spiking neural networks on memristive crossbar arrays offer energy efficiency gains.",
+    "The study introduces Spiking Domain Model Inversion to analyze leakage under non-ideal memristive substrates.",
+    "Neuron-threshold perturbations can increase reconstruction fidelity by up to 51.8 percent at comparable accuracy levels.",
+    "Weight noise reduces leakage under the same inversion procedure, showing leakage does not vary monotonically with hardware variability."
+   ]
+  },
+  "km": {
+   "title": "ការបញ្ច្រាសគំរូដែលដឹងអំពីផ្នែករឹងនៅក្នុងបណ្តាញប្រសាទស្ពៃគីងមេម្រីស្ទីវ",
+   "summary": "អ្នកស្រាវជ្រាវបានស្វែងយល់ពីរបៀបដែលភាពមិនល្អឥតខ្ចោះនៃផ្នែករឹង និងកំហុសភាពជឿជាក់នៅក្នុងបណ្តាញប្រសាទស្ពៃគីងមេម្រីស្ទីវប៉ះពាល់ដល់ឯកជនភាពតាមរយៈការលេចធ្លាយការបញ្ច្រាសគំរូ។ ពួកគេបានណែនាំវិធីសាស្ត្របញ្ច្រាសគំរូដែនស្ពៃគីង ដែលរួមបញ្ចូលគ្នានូវការរំពឹងទុកលើការផ្លាស់ប្តូរជាមួយនឹងជម្រាលជំនួសដើម្បីសិក្សាពីការបញ្ច្រាសក្រោមឥរិយាបថអាណាឡូក stochastic។ ឆ្លងកាត់ datasets ចំនួនបួន ការលេចធ្លាយនៃការស្ដារឡើងវិញមិនប្រែប្រួលតាមលំដាប់ជាមួយនឹងភាពត្រឹមត្រូវនៃគំរូ ឬភាពប្រែប្រួលនៃផ្នែករឹងនោះទេ។ ការរកឃើញទាំងនេះបង្ហាញថាភាពប្រែប្រួលនៃផ្នែករឹងមិនមែនរក្សាឯកជនភាពដោយធម្មជាតិនោះទេ ព្រោះការលេចធ្លាយអាស្រ័យលើស្ថានភាពផ្នែករឹងជាក់លាក់។",
+   "impact": "ការរកឃើញទាំងនេះអាចមានសារៈសំខាន់សម្រាប់ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ ដោយបង្ហាញថាភាពមិនល្អឥតខ្ចោះនៃផ្នែករឹងដូចជាការរំខានដល់កម្រិតអ៊ីសូឡង់ប្រសាទអាចបង្កើនភាពស្មោះត្រង់នៃការស្ដារឡើងវិញរហូតដល់ ៥១.៨ភាគរយ ដែលមានន័យថាភាពប្រែប្រួលនៃផ្នែករឹងអាចនឹងមិនការពារឯកជនភាពដោយស្វ័យប្រវត្តិទេ។ អ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខប្រហែលជាត្រូវគិតគូរពីស្ថានភាពផ្នែករឹងជាក់លាក់ ជាជាងការពឹងផ្អែកលើភាពត្រឹមត្រូវនៃគំរូតែឯងពេលវាយតម្លៃហានិភ័យឯកជនភាព។",
+   "keyPoints": [
+    "បណ្តាញប្រសាទស្ពៃគីងដែលបង្កើនល្បឿនដោយផ្នែករឹងនៅលើមេម្រីស្ទីវក្រូសបារអារ៉េផ្តល់នូវការកើនឡើងប្រសិទ្ធភាពថាមពល។",
+    "ការសិក្សានេះណែនាំវិធីសាស្ត្របញ្ច្រាសគំរូដែនស្ពៃគីងដើម្បីវិភាគការលេចធ្លាយក្រោមស្រទាប់មេម្រីស្ទីវដែលមិនល្អឥតខ្ចោះ។",
+    "ការរំខានដល់កម្រិតអ៊ីសូឡង់ប្រសាទអាចបង្កើនភាពស្មោះត្រង់នៃការស្ដារឡើងវិញរហូតដល់ ៥១.៨ភាគរយនៅកម្រិតភាពត្រឹមត្រូវប្រហាក់ប្រហែលគ្នា។",
+    "សំលេងរំខានទម្ងន់កាត់បន្ថយការលេចធ្លាយក្រោមវិធីសាស្ត្របញ្ច្រាសដូចគ្នា ដែលបង្ហាញថាការលេចធ្លាយមិនប្រែប្រួលតាមលំដាប់ជាមួយភាពប្រែប្រួលនៃផ្នែករឹងនោះទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "忆阻脉冲神经网络中的硬件感知模型反演",
+   "summary": "研究人员探讨了忆阻交叉开关阵列上实现的硬件加速脉冲神经网络中的硬件非理想性和可靠性故障如何通过模型反演泄漏影响隐私。他们引入了脉冲域模型反演方法，该方法将变换期望与替代梯度相结合，以研究随机模拟行为下的反演。在四个数据集上，重建泄漏不会随着模型准确性或硬件可变性呈单调变化。研究结果表明，硬件可变性并非天生就能保护隐私，因为泄漏取决于具体的硬件状态。",
+   "impact": "这些发现可能对安全团队和开发人员很重要，表明神经元阈值扰动等硬件非理想性可以将重建保真度提高多达51.8%，这意味着硬件可变性可能无法自动保护隐私。在评估隐私风险时，开发人员和安全团队可能需要考虑特定的硬件状态，而不是仅仅依赖模型准确性。",
+   "keyPoints": [
+    "在忆阻交叉开关阵列上实现的硬件加速脉冲神经网络提供了显著的能源效率提升。",
+    "该研究引入了脉冲域模型反演来分析非理想忆阻基底下的泄漏。",
+    "在可比的准确性水平下，神经元阈值扰动可将重建保真度提高高达51.8%。",
+    "相比之下，权重噪声在相同的反演程序下会减少泄漏，这表明泄漏不会随着硬件可变性呈单调变化。"
+   ]
+  },
+  "ko": {
+   "title": "멤리스티브 스파이킹 신경망에서의 하드웨어 인식 모델 인버전",
+   "summary": "연구원들은 멤리스티브 크로스바 어레이에 구현된 하드웨어 가속 스파이킹 신경망에서 하드웨어 비이상성과 신뢰성 결함이 모델 인버전 유출을 통해 프라이버시에 미치는 영향을 탐구합니다. 그들은 확률적 아날로그 동작 하에서 인버전을 연구하기 위해 변환 기대를 대리 그래디언트와 결합하는 스파이킹 도메인 모델 인버전 방법을 도입합니다. 네 개의 데이터 세트에서 재구성 유출은 모델 정확도나 하드웨어 가변성에 따라 단조롭게 변하지 않습니다. 이러한 결과는 유출이 특정 하드웨어 상태에 따라 달라지므로 하드웨어 가변성이 본질적으로 프라이버시를 보호하지는 않는다는 것을 보여줍니다.",
+   "impact": "이러한 결과는 뉴런 임계값 교란과 같은 하드웨어 비이상성이 재구성 충실도를 최대 51.8%까지 높일 수 있음을 보여줌으로써 보안 팀과 개발자에게 중요할 수 있으며, 이는 하드웨어 가변성이 프라이버시를 자동으로 보호하지 못할 수 있음을 의미합니다. 개발자와 보안 팀은 프라이버시 위험을 평가할 때 모델 정확도에만 의존하는 것보다 특정 하드웨어 상태를 고려해야 할 수 있습니다.",
+   "keyPoints": [
+    "멤리스티브 크로스바 어레이에 구현된 하드웨어 가속 스파이킹 신경망은 상당한 에너지 효율성 향상을 제공합니다.",
+    "이 연구는 비이상적 멤리스티브 기판에서의 유출을 분석하기 위해 스파이킹 도메인 모델 인버전을 도입합니다.",
+    "유사한 정확도 수준에서 뉴런 임계값 교란은 재구성 충실도를 최대 51.8%까지 증가시킵니다.",
+    "대조적으로 가중치 노이즈는 동일한 인버전 절차 하에서 유출을 감소시키며, 이는 유출이 하드웨어 가변성과 함께 단조롭게 변하지 않음을 보여줍니다."
+   ]
+  }
+ }
+}
