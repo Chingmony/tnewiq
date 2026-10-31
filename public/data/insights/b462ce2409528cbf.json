@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b462ce2409528cbf",
+ "contentHash": "9b86bbfb6cefa4fe",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:08:35.416Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Fast and accurate neural triage decoding of ultra-high-rate quantum LDPC codes",
+   "summary": "Researchers introduced neural triage decoding, a framework that uses syndrome consistency to adaptively allocate neural computation for high-rate quantum low-density parity-check (qLDPC) codes. The method uses a local neural message-passing network to predict error corrections, applies additional iterations for residual violations, and employs a diversification stage for remaining shots. The approach achieves state-of-the-art accuracy comparable to near optimal algorithmic decoders while significantly reducing decoding latency.",
+   "impact": "This development could help address the high computational latency traditionally associated with high-rate qLDPC decoders, offering a path toward fast, accurate, and scalable quantum error correction. Security teams and technology users working on fault-tolerant quantum computing may benefit from reduced physical qubit overhead and more efficient decoding mechanisms.",
+   "keyPoints": [
+    "Neural triage decoding adaptively allocates neural computation using syndrome consistency.",
+    "The framework uses a local neural message-passing network to rapidly predict error corrections.",
+    "It achieves state-of-the-art accuracy comparable to near optimal algorithmic decoders.",
+    "Decoding latency is reduced by approximately one to two orders of magnitude."
+   ]
+  },
+  "km": {
+   "title": "ការឌិកូដកូដ quantum LDPC អត្រាខ្ពស់បំផុតតាមប្រព័ន្ធប្រសាទ Neural Triage ដែលលឿននិងមានភាពជាក់លាក់ខ្ពស់",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំអំពីការឌិកូដប្រភេទ neural triage ដែលជាក្របខ័ណ្ឌមួយប្រើប្រាស់ភាពស៊ីសង្វាក់គ្នានៃ syndrome ដើម្បីបែងចែកការគណនាប្រព័ន្ធប្រសាទប្រកបដោយភាពបត់បែនសម្រាប់កូដ quantum low-density parity-check (qLDPC) អត្រាខ្ពស់។ វិធីសាស្ត្រនេះប្រើប្រាស់បណ្តាញបញ្ជូនសារប្រព័ន្ធប្រសាទក្នុងស្រុកដើម្បីទស្សន៍ទាយការកែតម្រូវកំហុសយ៉ាងឆាប់រហ័ស។ លទ្ធផលបង្ហាញថាវាអាចសម្រេចបាននូវភាពជាក់លាក់កម្រិតខ្ពស់ស្រដៀងទៅនឹងការឌិកូដតាមក្បួនដោះស្រាយល្អបំផុត ខណៈពេលដែលកាត់បន្ថយពេលវេលាឡាតង់នៃការឌិកូដយ៉ាងច្រើន។",
+   "impact": "ការវិវត្តនេះអាចជួយកាត់បន្ថយពេលវេលាគណនាដែលតែងតួចកើតមានជាមួយឧបករណ៍ឌិកូដ qLDPC អត្រាខ្ពស់ ដោយផ្តល់នូវផ្លូវឆ្ពោះទៅរកការកែតម្រូវកំហុស quantum ដែលលឿន ជាក់លាក់ និងអាចពង្រីកទំហំបាន។ អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានប្រយោជន៍ពីការកាត់បន្ថយបន្ទុក physical qubit។",
+   "keyPoints": [
+    "ការឌិកូដ neural triage បែងចែកការគណនាប្រព័ន្ធប្រសាទដោយផ្អែកលើភាពស៊ីសង្វាក់គ្នានៃ syndrome។",
+    "ក្របខ័ណ្ឌនេះប្រើប្រាស់បណ្តាញបញ្ជូនសារប្រព័ន្ធប្រសាទក្នុងស្រុកដើម្បីទស្សន៍ទាយការកែតម្រូវកំហុស។",
+    "វាសម្រេចបាននូវភាពជាក់លាក់កម្រិតខ្ពស់ស្រដៀងនឹងឧបករណ៍ឌិកូដតាមក្បួនដោះស្រាយ។",
+    "ពេលវេលាឡាតង់នៃការឌិកូដត្រូវបានកាត់បន្ថយយ៉ាងខ្លាំង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "超高码率量子LDPC码的快速准确神经分诊解码",
+   "summary": "研究人员引入了神经分诊解码（neural triage decoding）框架，该框架利用综合征一致性来自适应分配神经计算，适用于高码率量子低密度奇偶校验（qLDPC）码。该方法使用本地神经消息传递网络快速预测纠错，通过附加迭代减少残余综合征冲突，并为剩余情况采用多样化阶段。实验证明，该方法实现了接近最优算法解码器的先进准确性，同时将解码延迟降低了约一到两个数量级。",
+   "impact": "这一进展可能有助于降低高码率qLDPC解码器通常伴随的大量计算延迟，为近期的快速、准确且可扩展的量子纠错铺平道路。从事容错量子计算的技术人员和安全团队可能会从降低的物理量子比特开销中受益。",
+   "keyPoints": [
+    "神经分诊解码利用综合征一致来自适应分配神经计算。",
+    "该框架利用本地神经消息传递网络快速预测错误纠正。",
+    "实现了与接近最优算法解码器相当的先进准确性。",
+    "将解码延迟显著降低了一到两个数量级。"
+   ]
+  },
+  "ko": {
+   "title": "초고율 양자 LDPC 코드를 위한 빠르고 정확한 뉴럴 트리아지 디코딩",
+   "summary": "연구원들은 고율 양자 저밀도 패리티 검사(qLDPC) 코드를 위해 신드롬 일관성을 사용하여 신경 계산을 적응적으로 할당하는 뉴럴 트리아지 디코딩 프레임워크를 도입했습니다. 이 방법은 로컬 신경 메시지 전달 네트워크를 사용하여 오류 수정을 빠르게 예측하고, 잔여 신드롬 위반을 줄이기 위해 추가 반복을 적용하며, 남은 샷에 대해 다각화 단계를 사용합니다. 이 프레임워크는 거의 최적에 가까운 알고리즘 디코더와 견줄 만한 최고 수준의 정확도를 달성하면서 디코딩 지연 시간을 크게 줄입니다.",
+   "impact": "이번 개발은 기존 고율 qLDPC 디코더에서 발생하던 상당한 계산 지연을 해결하는 데 도움을 줄 수 있으며, 단기적으로 빠르고 정확하며 확장 가능한 양자 오류 정정으로 나아가는 유망한 길을 제시합니다. 기술 사용자 및 개발자는 물리적 큐비트 오버헤드 감소의 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "뉴럴 트리아지 디코딩은 신드롬 일관성을 사용하여 신경 계산을 적응적으로 할당합니다.",
+    "이 프레임워크는 로컬 신경 메시지 전달 네트워크를 통해 오류 수정을 빠르게 예측합니다.",
+    "거의 최적에 가까운 알고리즘 디코더와 유사한 최고 수준의 정확도를 달성합니다.",
+    "디코딩 지연 시간을 대폭 줄여줍니다."
+   ]
+  }
+ }
+}

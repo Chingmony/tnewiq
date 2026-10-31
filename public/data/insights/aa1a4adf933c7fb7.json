@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "aa1a4adf933c7fb7",
+ "contentHash": "6c8a1dfa5a990d4e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:09:49.821Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "DYNAS: A Dynamic Network Penetration Testing Framework Using Deep Hierarchical Reinforcement Learning",
+   "summary": "Researchers introduce DYNAS, a dynamic network attack simulator designed to support controlled reinforcement learning evaluation under defensive and non-stationary conditions. They also present Pen-DHRL, a recurrent manager-worker policy that uses IDS-conditioned global context to select persistent subgoals. Experimental results show that Pen-DHRL outperforms flat baselines across multiple scenario variants and training regimes.",
+   "impact": "This framework could help security teams and researchers better evaluate automated penetration testing tools under realistic defensive network conditions. It may provide developers with more resilient approaches for testing network security automation.",
+   "keyPoints": [
+    "DYNAS combines large-scale scenario generation with stateful intrusion detection responses and noise.",
+    "Pen-DHRL uses a recurrent manager-worker policy to select persistent subgoals.",
+    "Pen-DHRL outperformed GNN, Invariant, and Attention baselines across evaluated scenarios."
+   ]
+  },
+  "km": {
+   "title": "DYNAS៖ ក្របខ័ណ្ឌធ្វើតេស្តជ្រៀតចូលបណ្តាញឌីណាមិកដោយប្រើការរៀនពង្រឹងឋានានុក្រមជ្រៅ",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ DYNAS ដែលជាកម្មវិធីក្លែងធ្វើការវាយប្រហារបណ្តាញឌីណាមិក ដែលត្រូវបានរចនាឡើងដើម្បីគាំទ្រដល់ការវាយតម្លៃការរៀនពង្រឹងក្រោមលក្ខខណ្ឌការពារ។ ពួកគេក៏បានណែនាំ Pen-DHRL ដែលជាគោលនយោបាយអ្នកគ្រប់គ្រង និងកម្មករដែលប្រើប្រាស់បរិបទសកលដែលមានលក្ខខណ្ឌ IDS ។ លទ្ធផលពិសោធន៍បង្ហាញថា Pen-DHRL មានដំណើរការល្អជាងគោលបំណងផ្សេងទៀត។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចជួយក្រុមសន្តិសុខ និងអ្នកស្រាវជ្រាវវាយតម្លៃឧបករណ៍ធ្វើតេស្តជ្រៀតចូលដោយស្វ័យប្រវត្តិក្រោមលក្ខខណ្ឌបណ្តាញការពារជាក់ស្តែង។ វាអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវវិធីសាស្ត្រដែលមានភាពធន់ជាងមុនសម្រាប់ការធ្វើតេស្តស្វ័យប្រវត្តិកម្មសុវត្ថិភាពបណ្តាញ។",
+   "keyPoints": [
+    "DYNAS រួមបញ្ចូលគ្នានូវការបង្កើតសេណារីយ៉ូខ្នាតធំជាមួយនឹងការឆ្លើយតបការរកឃើញការ intrusions ដែលមានរដ្ឋ។",
+    "Pen-DHRL ប្រើប្រាស់គោលនយោបាយអ្នកគ្រប់គ្រង និងកម្មករដើម្បីជ្រើសរើសគោលដៅរងជាប់លាប់។",
+    "Pen-DHRL បានវ៉ាដាច់គោលបំណងផ្សេងទៀតនៅទូទាំងសេណារីយ៉ូដែលបានវាយតម្លៃ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "DYNAS：使用深度分层强化学习的动态网络渗透测试框架",
+   "summary": "研究人员提出了DYNAS，这是一种动态网络攻击模拟器，旨在支持在防御和非平稳条件下进行受控的强化学习评估。他们还推出了Pen-DHRL，这是一种使用IDS条件化全局上下文选择持久子目标的循环管理者-工作者策略。实验结果表明，Pen-DHRL在多个场景变体和训练机制中优于基线模型。",
+   "impact": "该框架可以帮助安全团队和研究人员在真实的防御网络条件下更好地评估自动渗透测试工具。它可能为开发人员提供更具韧性的方法来测试网络安全自动化。",
+   "keyPoints": [
+    "DYNAS将大规模场景生成与有状态的入侵检测响应和噪声相结合。",
+    "Pen-DHRL使用循环管理者-工作者策略来选择持久的子目标。",
+    "Pen-DHRL在评估的场景中表现优于GNN、Invariant和Attention基线。"
+   ]
+  },
+  "ko": {
+   "title": "DYNAS: 심층 계층적 강화 학습을 사용하는 동적 네트워크 침투 테스트 프레임워크",
+   "summary": "연구원들은 방어 및 비정상 상태 조건 하에서 제어된 강화 학습 평가를 지원하도록 설계된 동적 네트워크 공격 시뮬레이터인 DYNAS를 소개합니다. 또한 IDS 조건부 글로벌 컨텍스트를 사용하여 지속적인 하위 목표를 선택하는 순환 관리자-작업자 정책인 Pen-DHRL을 소개합니다. 실험 결과는 Pen-DHRL이 여러 시나리오 변형 및 학습 체제에서 기준 모델보다 우수한 성능을 보인다는 것을 보여줍니다.",
+   "impact": "이 프레임워크는 보안 팀과 연구원이 현실적인 방어 네트워크 조건 하에서 자동화된 침투 테스트 도구를 더 잘 평가하는 데 도움이 될 수 있습니다. 이는 개발자에게 네트워크 보안 자동화를 테스트하기 위한 더 탄력적인 접근 방식을 제공할 수 있습니다.",
+   "keyPoints": [
+    "DYNAS는 대규모 시나리오 생성과 상태 비저장/유지 침투 탐지 응답 및 노이즈를 결합합니다.",
+    "Pen-DHRL은 지속적인 하위 목표를 선택하기 위해 순환 관리자-작업자 정책을 사용합니다.",
+    "Pen-DHRL은 평가된 시나리오에서 기준 모델보다 뛰어난 성능을 달성했습니다."
+   ]
+  }
+ }
+}

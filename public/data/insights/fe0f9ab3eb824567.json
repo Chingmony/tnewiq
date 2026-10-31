@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fe0f9ab3eb824567",
+ "contentHash": "21037087792ec140",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:10:12.822Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "From if to Oops: Turning a conditional into a key-recovery oracle",
+   "summary": "Researchers demonstrated that deterministic variants of CSIDH and OSIDH-LD, designed to remove randomness and prevent certain fault attacks, instead introduce a new vulnerability. Because secret-dependent steps occur at fixed public points, attackers can repeatedly target the same instruction to force selection masks to zero. This reveals whether a secret exponent reaches a chosen threshold, allowing a binary search to recover the full key.",
+   "impact": "Security teams and developers working on post-quantum cryptography may need to reconsider deterministic implementations, as this research shows they can enable efficient key-recovery attacks using fault injection. Implementing proposed randomization countermeasures could help protect cryptographic operations against such instruction-skipping faults.",
+   "keyPoints": [
+    "Deterministic CSIDH and OSIDH-LD remove randomness but allow attackers to repeatedly fault the same secret-dependent step.",
+    "An attacker can skip an instruction to force a lane selection mask to zero and determine if a secret threshold is reached.",
+    "Full key recovery requires at most 297 oracle queries for OSIDH-LD and 222 for deterministic CSIDH-512.",
+    "Fault resistance may require abandoning determinism in favor of randomization countermeasures."
+   ]
+  },
+  "km": {
+   "title": "ពី if ទៅ Oops៖ ការបំប្លែងលក្ខខណ្ឌទៅជា oracle ការពារសោរ",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្ហាញថាប្រភេទ deterministic នៃ CSIDH និង OSIDH-LD ដែលត្រូវបានរចនាឡើងដើម្បីយកភាពចៃដន្យចេញ បានបង្កើតឡើងនូវចំណុចខ្សោយថ្មីមួយជំនួសវិញ។ ដោយសារជំហានអាស្រ័យលើអាថ៌កំបាំងកើតឡើងនៅចំណុចសាធារណៈថេរ អ្នកវាយប្រហារអាចកំណត់គោលដៅលើការបញ្ជាដដែលៗដើម្បីបង្ខំឱ្យមានកំហុស។ នេះបង្ហាញពីកម្រិតអសកម្មនៃអាថ៌កំបាំង និងអនុញ្ញាតឱ្យមានការស្វែងរកគោលដៅដើម្បីទាញយកសោរពេញលេញ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ដែលធ្វើការលើគ្រីបតូግራាហ៍ក្រោយសម័យកوانតូម អាចនឹងត្រូវពិចារណាមើលឡើងវិញលើការ প্রয়োগ deterministic ព្រោះវាអាចបើកផ្លូវដល់ការវាយប្រហារទាញយកសោរ។ ការអនុវត្តវិធានការណ៍ទប់ស្កាត់ដោយចៃដន្យអាចជួយការពារប្រតិបត្តិការគ្រីបតូពីកំហុសទាំងនេះ។",
+   "keyPoints": [
+    "CSIDH និង OSIDH-LD បែប deterministic ដកភាពចៃដន្យចេញ ប៉ុន្តែអនុញ្ញាតឱ្យអ្នកវាយប្រហារបង្កើតកំហុសលើជំហានដដែលៗ។",
+    "អ្នកវាយប្រហារអាចរំលងការបញ្ជាដើម្បីកំណត់របាំងជ្រើសរើសឱ្យស្មើនឹងសូន្យ។",
+    "ការទាញយកសោរពេញលេញត្រូវការសំណួរ oracle ច្រើនបំផុត 297 សម្រាប់ OSIDH-LD និង 222 សម្រាប់ deterministic CSIDH-512។",
+    "ភាពធន់ទ្រាំនឹងកំហុសអាចទាមទារឱ្យបោះបង់ចោលភាព deterministic និងងាកមកប្រើប្រាស់ភាពចៃដន្យវិញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "从 if 到 Oops：将条件判断转变为密钥恢复预言机",
+   "summary": "研究人员发现，旨在消除随机性并防止某些故障攻击的确定性 CSIDH 和 OSIDH-LD 变体反而引入了新的漏洞。由于依赖密钥的步骤发生在固定的公开位置，攻击者可以重复对同一指令注入故障。这可以揭示密钥指数是否达到了选定的阈值，从而通过二分查找恢复完整密钥。",
+   "impact": "从事后量子密码学开发的团队和安全人员可能需要重新考虑确定性实现，因为研究表明它们可能通过故障注入实现高效的密钥恢复攻击。实施提出的随机化对策可以帮助保护密码操作免受此类指令跳过故障的影响。",
+   "keyPoints": [
+    "确定性的 CSIDH 和 OSIDH-LD 移除了随机性，但允许攻击者重复对相同的密钥相关步骤注入故障。",
+    "攻击者可以通过跳过指令将选择掩码强制为零，从而判断是否达到了密钥阈值。",
+    "对于 OSIDH-LD 最多需要 297 次预言机查询，对于具有 CSIDH-512 规模密钥的确定性 CSIDH 最多需要 222 次。",
+    "抗故障能力可能需要放弃确定性并采用随机化对策。"
+   ]
+  },
+  "ko": {
+   "title": "if에서 Oops로: 조건을 키 복구 오라클로 전환하기",
+   "summary": "연구원들은 무작위성을 제거하고 특정 결함 공격을 방지하도록 설계된 CSIDH 및 OSIDH-LD의 결정론적 변형이 오히려 새로운 취약점을 도입한다는 사실을 입증했습니다. 비밀에 종속된 단계가 고정된 공개 지점에서 발생하기 때문에 공격자는 동일한 명령어를 반복적으로 공격할 수 있습니다. 이를 통해 비밀 지수가 선택된 임계값에 도달했는지 여부를 파악하고 이진 탐색을 통해 전체 키를 복구할 수 있습니다.",
+   "impact": "포스트 퀀텀 암호화를 다루는 보안 팀과 개발자는 결정론적 구현이 결함 주입을 통한 효율적인 키 복구 공격을 가능하게 할 수 있으므로 이를 재고해야 할 수 있습니다. 제안된 무작위화 대응책을 구현하면 이러한 명령어 건너뛰기 결함으로부터 암호화 연산을 보호하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "결정론적 CSIDH 및 OSIDH-LD는 무작위성을 제거하지만 공격자가 동일한 비밀 종속 단계를 반복적으로 공격할 수 있게 합니다.",
+    "공격자는 명령어를 건너뛰어 선택 마스크를 0으로 강제하고 비밀 임계값 도달 여부를 확인할 수 있습니다.",
+    "전체 키 복구에는 OSIDH-LD의 경우 최대 297회의 오라클 쿼리가 필요하며 결정론적 CSIDH-512의 경우 최대 222회가 필요합니다.",
+    "결함 저항성을 위해서는 결정론을 포기하고 무작위화 대응책을 도입해야 할 수 있습니다."
+   ]
+  }
+ }
+}

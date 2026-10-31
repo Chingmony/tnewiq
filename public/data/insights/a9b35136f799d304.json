@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a9b35136f799d304",
+ "contentHash": "6b74ada619b32f03",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:07:51.580Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "RecHash: Segmented Hash-Entangled Chains for Stateful Sequential Authentication",
+   "summary": "RecHash is a stateful sequential authentication construction utilizing paired hash-chain openings and an authenticated record history. It builds upon previous hash-entangled constructions by assigning each record to a predetermined chain segment with complementary positions encoding digest blocks. This design ensures all digests fit scheduled slots independently of preceding messages while maintaining a segmented state transition and resource results.",
+   "impact": "This research could offer developers and security teams a new cryptographic building block for stateful sequential authentication. While concrete post-quantum reduction and security across renewal remain open, the construction provides a structured approach using standardized hash-based signatures.",
+   "keyPoints": [
+    "RecHash uses paired hash-chain openings and an authenticated record history for stateful sequential authentication.",
+    "Each record is assigned to a predetermined chain segment, with complementary positions encoding each digest block.",
+    "A 256-bit digest with 32 pairs and a length of 65535 provides 254 application records followed by a renewal certificate.",
+    "A renewal-free security-composition theorem is established conditional on authenticated history and an adaptive one-step guarantee."
+   ]
+  },
+  "km": {
+   "title": "RecHash៖ ខ្សែសង្វាក់ជាប់ទាក់ទងហាសបែងចែកផ្នែកសម្រាប់ការផ្ទៀងផ្ទាត់លំដាប់ស្ថានភាព",
+   "summary": "RecHash គឺជាសំណង់ផ្ទៀងផ្ទាត់លំដាប់ស្ថានភាពដែលផ្អែកលើការបើកខ្សែសង្វាក់ហាសផ្គូផ្គង និងប្រវត្តិកំណត់ត្រាដែលបានផ្ទៀងផ្ទាត់។ វាអភិវឌ្ឍទំនាក់ទំនងទីតាំងថយចុះនៃសំណង់ជាប់ទាក់ទងហាសឆ្នាំ ២០១៩ ដោយកំណត់កំណត់ត្រាណាមួយទៅផ្នែកខ្សែសង្វាក់ដែលបានកំណត់ទុកជាមុន។ ការរចនានេះធានាថាការញ៉ាំបញ្ចូលទាំងអស់សមស្របនឹងរន្ធដែលបានកំណត់ដោយមិនអាស្រ័យលើសារមុនៗឡើយ។",
+   "impact": "សំណង់នេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខនូវវិធីសាស្រ្តថ្មីមួយសម្រាប់ការផ្ទៀងផ្ទាត់លំដាប់ស្ថានភាព ទោះបីជាការកាត់បន្ថយក្រោយឃ្វាន់ទុំ និងសុវត្ថិភាពនៅពេលបន្តនៅតែជាសំណួរដែលត្រូវសិក្សាបន្ថែម។",
+   "keyPoints": [
+    "RecHash ប្រើប្រាស់ការបើកខ្សែសង្វាក់ហាសផ្គូផ្គង និងប្រវត្តិកំណត់ត្រាដែលបានផ្ទៀងផ្ទាត់។",
+    "កំណត់ត្រានីមួយៗត្រូវបានកំណត់ទៅផ្នែកខ្សែសង្វាក់ដែលបានកំណត់ទុកជាមុន។",
+    "ទ្រឹស្តីបទសមាសភាពសុវត្ថិភាពដែលគ្មានការបន្តត្រូវបានផ្តល់ជូនដោយមានលក្ខខណ្ឌនៅលើប្រវត្តិកំណត់ត្រាដែលបានផ្ទៀងផ្ទាត់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "RecHash：用于有状态序列认证的分段哈希纠缠链",
+   "summary": "RecHash 是一种基于成对哈希链开启和经认证的记录历史的有状态序列认证结构。它扩展了 2019 年哈希纠缠结构的递减位置关系，将每个记录分配到预定的链段中，并用互补位置编码每个摘要块。该设计确保所有摘要都能适应预定的槽位，而独立于先前的消息。",
+   "impact": "该研究可能为开发人员和安全团队提供一种用于有状态序列认证的新构建方法。虽然具体的后量子归约和跨更新的安全性仍有待研究，但它为基于哈希的签名标准化提供了一种结构化方案。",
+   "keyPoints": [
+    "RecHash 使用成对的哈希链开启和经认证的记录历史进行有状态序列认证。",
+    "每个记录被分配到一个预定的链段，互补位置对每个摘要块进行编码。",
+    "256 位摘要、32 个配对和 65535 的长度可提供 254 个应用记录以及一个更新证书。",
+    "在经认证的历史和自适应单步保证的条件下，给出了无更新的安全组合定理。"
+   ]
+  },
+  "ko": {
+   "title": "RecHash: 상태 저장 순차 인증을 위한 분할된 해시 얽힘 체인",
+   "summary": "RecHash는 쌍을 이룬 해시 체인 오프닝과 인증된 레코드 기록을 기반으로 하는 상태 저장 순차 인증 구조입니다. 이 구조는 각 레코드를 미리 결정된 체인 세그먼트에 할당하고 상보적인 위치로 각 다이제스트 블록을 인코딩하여 이전 메시지와 독립적으로 모든 다이제스트가 예약된 슬롯에 맞도록 합니다.",
+   "impact": "이 연구는 개발자와 보안 팀에게 상태 저장 순차 인증을 위한 새로운 암호화 구성 요소를 제공할 수 있습니다. 구체적인 양자 후 약축과 갱신 전반의 보안은 여전히 미해결 과제로 남아 있습니다.",
+   "keyPoints": [
+    "RecHash는 쌍을 이룬 해시 체인 오프닝과 인증된 레코드 기록을 사용합니다.",
+    "각 레코드는 미리 결정된 체인 세그먼트에 할당됩니다.",
+    "256비트 다이제스트, 32개의 쌍, 65535의 길이는 254개의 애플리케이션 레코드와 갱신 인증서를 제공합니다.",
+    "인증된 기록과 적응형 단일 단계 보장을 조건으로 하는 갱신 없는 보안 구성 정리를 제공합니다."
+   ]
+  }
+ }
+}

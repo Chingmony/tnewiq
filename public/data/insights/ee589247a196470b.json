@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ee589247a196470b",
+ "contentHash": "1e0c67d1732312e0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:10:23.802Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "ExploreRepair: Evidence-Specialized Agents for Vulnerability Repair under Information Constraints",
+   "summary": "Automated vulnerability repair often occurs with incomplete information, such as missing classification or proof-of-vulnerability tests. To address this, researchers proposed ExploreRepair, a framework that uses a team of exploration agents to explore multiple interpretations of a vulnerability. The framework collects observations from three specialized agents, synthesizes them using lesson and patch aggregators, and reconciles proposals without benchmark feedback. When evaluated on PatchEval and VulnLoc+, ExploreRepair achieved higher success rates compared to existing approaches like EvoRepair and LoopRepair when using GPT-5.6-Luna and DeepSeek-V4.1-Flash.",
+   "impact": "This approach could help developers and security teams effectively repair vulnerabilities even when they lack complete information or proof-of-vulnerability tests. The multi-agent exploration and aggregation strategy may improve the reliability and success rates of automated patch generation.",
+   "keyPoints": [
+    "ExploreRepair uses a team of exploration agents to handle incomplete vulnerability information.",
+    "The framework utilizes lesson and patch aggregators to synthesize observations and implementations.",
+    "On PatchEval, ExploreRepair achieved success rates of 39.6% with GPT-5.6-Luna and 71.6% with DeepSeek-V4.1-Flash.",
+    "On VulnLoc+, the framework reached success rates of 51.4% and 62.9% for the respective models, outperforming existing approaches."
+   ]
+  },
+  "km": {
+   "title": "ExploreRepair៖ ភ្នាក់ងារឯកទេសភស្តុតាងសម្រាប់ការជួសជុលភាពរងគ្រោះក្រោមការកំណត់ព័ត៌មាន",
+   "summary": "ការជួសជុលភាពរងគ្រោះដោយស្វ័យប្រវត្តិជារឿយៗត្រូវដំណើរការដោយមានព័ត៌មានមិនពេញលេញ។ ដើម្បីដោះស្រាយបញ្ហានេះ អ្នកស្រាវជ្រាវបានស្នើ ExploreRepair ដែលជាក្របខ័ណ្ឌប្រើប្រាស់ភ្នាក់ងារស្វែងរកដើម្បីពិនិត្យមើលការបកស្រាយផ្សេងៗនៃភាពរងគ្រោះ។ ក្របខ័ណ្ឌនេះប្រមូលការសង្កេតពីភ្នាក់ងារឯកទេសចំនួនបី បង្កើតការជួសជុលតាមរយៈការចងក្រង និងផ្សះផ្សាយសំណើដោយគ្មានមតិកែលម្អគោលដៅ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខក្នុងការជួសជុលភាពរងគ្រោះប្រកបដោយប្រសិទ្ធភាព ទោះបីជាខ្វះខាតព័ត៌មានពេញលេញក៏ដោយ។ វាអាចកែលម្អអត្រាជោគជ័យនៃការបង្កើតបំណះដោយស្វ័យប្រវត្តិ។",
+   "keyPoints": [
+    "ExploreRepair ប្រើប្រាស់ភ្នាក់ងារស្វែងរកដើម្បីដោះស្រាយព័ត៌មានភាពរងគ្រោះដែលមិនពេញលេញ។",
+    "ក្របខ័ណ្ឌនេះប្រើប្រាស់អ្នកចងក្រងមេរៀន និងបំណះដើម្បីសំយោគការសង្កេត។",
+    "នៅលើ PatchEval សម្រេចបានអត្រាជោគជ័យ 39.6% និង 71.6% ជាមួយម៉ូដែលផ្សេងៗគ្នា។",
+    "នៅលើ VulnLoc+ វាសម្រេចបានអត្រាជោគជ័យ 51.4% និង 62.9% ដោយលើសពីវិធីសាស្ត្រមុនៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "ExploreRepair：信息约束下用于漏洞修复的证据专有智能体",
+   "summary": "自动化漏洞修复通常需要在漏洞信息不完整的情况下进行。为了解决这一挑战，研究人员提出了ExploreRepair框架，该框架利用一组探索智能体来探索漏洞的多种可能解释。该框架收集来自三个专门智能体的观察结果，通过聚合器综合修复方案，并在没有基准反馈的情况下调解这些提议。在评估中，ExploreRepair的成功率超过了现有的EvoRepair和LoopRepair方法。",
+   "impact": "这种方法可以帮助开发人员和安全团队在缺乏完整漏洞信息或测试的情况下有效地修复漏洞。多智能体探索和聚合策略可能会提高自动化补丁生成的成功率。",
+   "keyPoints": [
+    "ExploreRepair利用多个探索智能体来处理不完整的漏洞信息。",
+    "该框架通过经验和补丁聚合器独立综合修复方案。",
+    "在PatchEval上，使用GPT-5.6-Luna和DeepSeek-V4.1-Flash取得了更高的成功率。",
+    "在VulnLoc+上也超越了没有PoV测试的LoopRepair变体。"
+   ]
+  },
+  "ko": {
+   "title": "ExploreRepair: 정보 제약 하의 취약점 수정을 위한 증거 특화 에이전트",
+   "summary": "자동화된 취약점 수정은 종종 불완전한 정보 속에서 이루어져야 합니다. 이 문제를 해결하기 위해 연구진은 취약점에 대한 여러 해석을 탐색하는 에이전트 팀을 사용하는 프레임워크인 ExploreRepair를 제안했습니다. 이 프레임워크는 세 가지 특화된 에이전트로부터 관찰을 수집하고, 집계기를 통해 패치를 종합하며, 벤치마크 피드백 없이 제안을 조율합니다. 평가 결과 ExploreRepair는 기존 방식보다 더 높은 성공률을 기록했습니다.",
+   "impact": "이 접근 방식은 개발자와 보안 팀이 불완전한 정보나 테스트가 부족한 상황에서도 취약점을 효과적으로 수정하는 데 도움을 줄 수 있습니다. 다중 에이전트 탐색 및 집계 전략은 자동화된 패치 생성의 신뢰성과 성공률을 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "ExploreRepair는 불완전한 취약점 정보를 처리하기 위해 탐색 에이전트 팀을 활용합니다.",
+    "이 프레임워크는 교훈 및 패치 집계기를 사용하여 관찰 결과와 구현을 종합합니다.",
+    "PatchEval에서 GPT-5.6-Luna와 DeepSeek-V4.1-Flash를 사용하여 각각 높은 성공률을 달성했습니다.",
+    "VulnLoc+에서도 기존 방법들의 성능을 능가하는 성공률을 기록했습니다."
+   ]
+  }
+ }
+}

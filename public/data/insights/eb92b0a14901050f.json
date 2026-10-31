@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "eb92b0a14901050f",
+ "contentHash": "f542e55ccb3105a3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:09:19.795Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Deep Learning Based Behavioral Drift Modeling for Continuous Biometric Authentication",
+   "summary": "Researchers proposed a two-level keystroke dynamics authentication system using deep learning to provide continuous behavioral drift monitoring. Level 1 uses Temporal Convolutional Networks with contrastive learning and population-based training for fixed-text password authentication, achieving a 3.77% Equal Error Rate. Level 2 continuously monitors natural free-text sessions using a 4-Model Deep Learning Ensemble and triggers a re-authentication flow if suspicious behavioral drift is identified.",
+   "impact": "Security teams and developers working on biometric authentication could use these findings to improve defenses against session hijacking and behavioral anomalies. The approach demonstrates how continuous monitoring and adaptive deep learning models may enhance user verification security.",
+   "keyPoints": [
+    "Level 1 fixed-text authentication achieves a 3.77% Equal Error Rate using Temporal Convolutional Networks.",
+    "Level 2 continuously monitors free-text typing sessions via a 4-Model Deep Learning Ensemble.",
+    "The system falls back to Level 1 re-authentication if suspicious behavioral drift occurs.",
+    "Evaluations utilized the Buffalo dataset and GREYC dataset for keystroke dynamics."
+   ]
+  },
+  "km": {
+   "title": "ការធ្វើគំរូរសាត់បំបែកអាកប្បកិរិយាផ្អែកលើការរៀនស៊ីជម្រៅសម្រាប់ការផ្ទៀងផ្ទាត់ជីវមាត្រជាបន្តបន្ទាប់",
+   "summary": "ការស្រាវជ្រាវនេះបានស្នើឡើងនូវប្រព័ន្ធផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវនៃសក្ដានុពលការវាយអក្សរពីររួត ដែលផ្តល់នូវសុវត្ថិភាពការពារជាជាន់ៗតាមរយៈការតាមដានការសាត់បំបែកអាកប្បកិរិយាជាបន្តបន្ទាប់។ កម្រិតទី១ ប្រើប្រាស់បណ្តាញ convolutional បណ្តោះអាសន្នសម្រាប់ការផ្ទៀងផ្ទាត់ពាក្យសម្ងាត់ ខណៈដែលកម្រិតទី២ តាមដានសកម្មភាពវាយអក្សរដោយសេរីរបស់អ្នកប្រើប្រាស់ជាបន្តបន្ទាប់ដោយប្រើប្រាស់សំណុំម៉ូដែលរៀនស៊ីជម្រៅចំនួនបួន។ ប្រព័ន្ធនេះក៏អាចផ្ទៀងផ្ទាត់អ្នកប្រើប្រាស់ឡើងវិញដោយត្រឡប់ទៅកម្រិតទី១ វិញ ប្រសិនបើរកឃើញភាពមិនប្រក្រតីនៃអាកប្បកិរិយា។",
+   "impact": "ក្រុមសុវត្ថិភាពនិងអ្នកអភិវឌ្ឍន៍ដែលធ្វើការលើការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវជីវមាត្រអាចប្រើប្រាស់លទ្ធផលទាំងនេះដើម្បីបង្កើនការការពារប្រឆាំងនឹងការលួចប្រើប្រាស់សម័យនិងភាពមិនប្រក្រតីនៃអាកប្បកិរិយា។ វិធីសាស្ត្រនេះអាចបង្ហាញពីរបៀបដែលការតាមដានជាបន្តបន្ទាប់ជួយបង្កើនសុវត្ថិភាពនៃការផ្ទៀងផ្ទាត់អ្នកប្រើប្រាស់។",
+   "keyPoints": [
+    "ការផ្ទៀងផ្ទាត់អត្ថបទថេរកម្រិតទី១ សម្រេចបានអត្រាខុសត្រូវស្មើគ្នា ៣.៧៧ភាគរយ។",
+    "កម្រិតទី២ តាមដានវគ្គវាយអក្សរដោយសេរីជាបន្តបន្ទាប់តាមរយៈសំណុំម៉ូដែលរៀនស៊ីជម្រៅចំនួនបួន។",
+    "ប្រព័ន្ធបញ្ជូនអ្នកប្រើប្រាស់ត្រឡប់ទៅកាន់កម្រិតទី១ វិញ ប្រសិនបើរកឃើញការសាត់បំបែកអាកប្បកិរិយាគួរឱ្យសង្ស័យ។",
+    "ការវាយតម្លៃបានប្រើប្រាស់បណ្តុំទិន្នន័យ Buffalo និង GREYC ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "基于深度学习的行为漂移建模用于持续生物特征认证",
+   "summary": "本研究提出了一种基于两级击键动态的认证系统，通过持续的行为漂移监视提供纵深防御安全。第一级使用带有对比学习和基于群体训练的时间卷积网络进行固定文本密码认证，实现了3.77%的等错误率。第二级使用四模型深度学习集成对自然自由文本会话期间的用户输入进行持续监视，如果在监视期间检测到可疑的行为漂移，系统将返回第一级重新认证用户。",
+   "impact": "致力于生物特征认证的安全团队和开发人员可以利用这些发现来改进针对会话劫持和行为异常的防御措施。该方法表明，持续监视和自适应深度学习模型可能增强用户验证的安全性。",
+   "keyPoints": [
+    "第一级固定文本认证利用时间卷积网络实现了3.77%的等错误率。",
+    "第二级通过四个深度学习模型集成持续监视自由文本输入会话。",
+    "如果检测到可疑的行为漂移，系统会触发返回第一级的重新认证机制。",
+    "评估使用了Buffalo数据集和GREYC数据集的击键动态数据。"
+   ]
+  },
+  "ko": {
+   "title": "지속적인 생체 인증을 위한 딥러닝 기반 행동 드리프트 모델링",
+   "summary": "본 연구는 지속적인 행동 드리프트 모니터링을 통해 심층 방어 보안을 제공하는 2단계 키스트로크 다이내믹스 인증 시스템을 제안합니다. 1단계는 대조 학습과 집단 기반 훈련이 적용된 임시 합성곱 네트워크를 사용하여 고정 텍스트 비밀번호 인증을 수행하며 3.77%의 동일 오류율을 달성합니다. 성공적인 인증 후, 2단계는 4개 모델 딥러닝 앙상블을 사용하여 자연스러운 자유 텍스트 세션 동안 사용자의 입력을 지속적으로 모니터링합니다.",
+   "impact": "생체 인증을 다루는 보안 팀과 개발자는 이러한 연구 결과를 활용하여 세션 하이재킹 및 행동 이상에 대한 방어력을 향상시킬 수 있습니다. 이 접근 방식은 지속적인 모니터링과 적응형 딥러닝 모델이 사용자 검증 보안을 강화할 수 있음을 보여줍니다.",
+   "keyPoints": [
+    "1단계 고정 텍스트 인증은 임시 합성곱 네트워크를 활용하여 3.77%의 동일 오류율을 달성합니다.",
+    "2단계는 4개 모델 딥러닝 앙상블을 통해 자유 텍스트 입력 세션을 지속적으로 모니터링합니다.",
+    "의심스러운 행동 드리프트가 감지되면 시스템은 1단계로 돌아가 재인증을 수행합니다.",
+    "평가는 Buffalo 데이터셋과 GREYC 데이터셋의 키스트로크 다이내믹스를 활용했습니다."
+   ]
+  }
+ }
+}

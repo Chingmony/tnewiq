@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "09f142bd2640f272",
+ "contentHash": "dc35cb8bb4f28027",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:04:13.238Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+   "summary": "Researchers at security firm Parameter discovered a malicious ChatGPT share link that could execute an attacker's code within the logged-in session of users who opened it. This vulnerability allowed unauthorized reading of private conversations. The issue was reported to OpenAI on October 18 through their bug bounty program.",
+   "impact": "This security flaw could have allowed attackers to compromise active user sessions and access private chat histories. OpenAI addressed the issue by fixing it eight days after the report and classified it as a P1 vulnerability.",
+   "keyPoints": [
+    "A malicious ChatGPT share link could run code in a user's logged-in session.",
+    "The flaw allowed attackers to read private conversations.",
+    "Researchers at Parameter reported the issue on October 18.",
+    "OpenAI fixed the vulnerability eight days later and rated it P1."
+   ]
+  },
+  "km": {
+   "title": "តំណភ្ជាប់ ChatGPT ដែលបានចែករំលែកអាចដំណើរការកូដរបស់អ្នកវាយប្រហារនៅក្នុងសម័យរបស់អ្នក និងអានការជជែកឯកជន",
+   "summary": "អ្នកស្រាវជ្រាវមកពីក្រុមហ៊ុនសន្តិសុខ Parameter បានរកឃើញតំណភ្ជាប់ ChatGPT ដែលមានគ្រោះថ្នាក់ ដែលអាចដំណើរការកូដរបស់អ្នកវាយប្រហារនៅក្នុងសម័យចូលប្រើប្រាស់របស់អ្នកប្រើប្រាស់ដែលបានបើកវា។ ចន្លោះប្រហោងនេះបានអនុញ្ញាតឱ្យអានការសន្ទនាឯកជនដោយគ្មានការអនុញ្ញាត។ បញ្ហាត្រូវបានរាយការណ៍ទៅ OpenAI នៅថ្ងៃទី១៨ ខែតុលា តាមរយៈកម្មវិធីស្វែងរកកំហុស។",
+   "impact": "ភាពខ្សោយខាងផ្នែកសន្តិសុខនេះអាចអនុញ្ញាតឱ្យអ្នកវាយប្រហារបំពានលើសម័យរបស់អ្នកប្រើប្រាស់ និងចូលប្រើប្រាស់ប្រវត្តិជជែកឯកជន។ OpenAI បានដោះស្រាយបញ្ហានេះដោយកែសម្រួលវាប្រាំបីថ្ងៃបន្ទាប់ពីការរាយការណ៍ និងបានចាត់ថ្នាក់វាជាកម្រិត P1។",
+   "keyPoints": [
+    "តំណភ្ជាប់ ChatGPT ដែលមានគ្រោះថ្នាក់អាចដំណើរការកូដនៅក្នុងសម័យចូលប្រើប្រាស់របស់អ្នកប្រើប្រាស់។",
+    "ភាពខ្សោយនេះអនុញ្ញាតឱ្យអ្នកវាយប្រហារអានការសន្ទនាឯកជន។",
+    "អ្នកស្រាវជ្រាវនៅ Parameter បានរាយការណ៍អំពីបញ្ហានេះនៅថ្ងៃទី១៨ ខែតុលា។",
+    "OpenAI បានជួសជុលភាពខ្សោយនេះប្រាំបីថ្ងៃក្រោយមក និងបានចាត់ថ្នាក់វាជា P1។"
+   ]
+  },
+  "zh-CN": {
+   "title": "共享的 ChatGPT 链接可以在您的会话中运行攻击者代码并读取私人聊天记录",
+   "summary": "安全公司 Parameter 的研究人员发现，一个恶意的 ChatGPT 共享链接可以在打开它的任何已登录用户的会话中运行攻击者的代码，从而允许他们读取私人对话。研究人员于 10 月 18 日通过 OpenAI 的漏洞赏金计划报告了该漏洞。",
+   "impact": "此安全漏洞可能允许攻击者利用活跃的用户会话并访问私人聊天记录。OpenAI 在收到报告八天后修复了该问题，并将其评级为最严重的 P1 类别。",
+   "keyPoints": [
+    "恶意的 ChatGPT 共享链接可以在用户的登录会话中运行代码。",
+    "该漏洞允许攻击者读取私人对话。",
+    "Parameter 的研究人员于 10 月 18 日报告了该问题。",
+    "OpenAI 在八天后修复了该漏洞并将其评级为 P1。"
+   ]
+  },
+  "ko": {
+   "title": "공유된 ChatGPT 링크가 세션에서 공격자의 코드를 실행하고 비공개 채팅을 읽을 수 있음",
+   "summary": "보안 기업 Parameter의 연구원들은 열어본 사용자의 로그인된 세션에서 공격자의 코드를 실행하고 비공개 대화를 읽을 수 있는 악성 ChatGPT 공유 링크를 발견했습니다. 연구원들은 10월 18일 OpenAI의 버그 바운티 프로그램을 통해 이 결함을 신고했습니다.",
+   "impact": "이 보안 취약점은 공격자가 활성 사용자 세션을 손상시키고 비공개 대화 기록에 접근할 수 있게 만들 수 있었습니다. OpenAI는 신고 접수 8일 후에 문제를 해결했으며 가장 심각한 범주인 P1으로 평가했습니다.",
+   "keyPoints": [
+    "악성 ChatGPT 공유 링크가 사용자의 로그인된 세션에서 코드를 실행할 수 있었습니다.",
+    "이 결함으로 인해 공격자가 비공개 대화를 읽을 수 있었습니다.",
+    "Parameter의 연구원들이 10월 18일에 이 문제를 신고했습니다.",
+    "OpenAI는 8일 후 취약점을 수정하고 P1으로 평가했습니다."
+   ]
+  }
+ }
+}

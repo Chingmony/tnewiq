@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "eaf2883a4d2bb0ac",
+ "contentHash": "9d8a511ea5c4c64a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:10:34.632Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Syndrome Trellis Decryption in Post-Quantum Cryptography",
+   "summary": "Researchers presented a novel post-quantum cryptographic framework based on masked high-memory convolutional codes using the Niederreiter paradigm. The design derives its public key from a polynomial parity-check matrix with dense random masking and invertible linear transformations to resist structural attacks. It utilizes a parallel array of syndrome-trellis decoders for practical implementation and high throughput.",
+   "impact": "This framework could offer security margins exceeding traditional McEliece- and Niederreiter-based systems by factors greater than 2^200, potentially strengthening post-quantum cryptography. Security teams and developers may benefit from linear-time decryption, scalable message handling, and efficient hardware or software implementations.",
+   "keyPoints": [
+    "Based on masked high-memory convolutional codes in the Niederreiter paradigm.",
+    "Achieves security margins exceeding classical McEliece- and Niederreiter systems by over 2^200.",
+    "Supports linear-time decryption and arbitrary plaintext lengths.",
+    "Employs a parallel array of syndrome-trellis decoders for high throughput."
+   ]
+  },
+  "km": {
+   "title": "ការឌិកូដរចនាសម្ព័ន្ធ Syndrome Trellis ក្នុងគ្រីបតូសាស្ត្រក្រោយសម័យកាលក្វាន់តូម",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្ហាញពីក្របខ័ណ្ឌគ្រីបតូសាស្ត្រក្រោយសម័យកាលក្វាន់តូមថ្មីមួយ ដែលផ្អែកលើកូដ convolutional អង្សាសេខ្ពស់ដែលបានលាក់បាំងក្រោមទម្រង់ Niederreiter ។ ប្រព័ន្ធនេះប្រើប្រាស់ម៉ាទ្រីសពិនិត្យភាពស្មើគ្នានៃពហុធា ដើម្បីទប់ទល់នឹងការវាយប្រហារលើរចនាសម្ព័ន្ធ និងរក្សាសុវត្ថិភាពខ្ពស់។ ការអនុវត្តជាក់ស្តែងត្រូវបានសម្រួលតាមរយៈប្រព័ន្ធស្របគ្នានៃឧបករណ៍ឌិកូដ syndrome-trellis ។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចផ្តល់នូវកម្រិតសុវត្ថិភាពខ្ពស់ជាងប្រព័ន្ធ McEliece និង Niederreiter បែបបុរាណក្នុងកម្រិតលើសពី 2^200 ដែលអាចជួយដល់ការអភិវឌ្ឍន៍សុវត្ថិភាពក្វាន់តូម។ អ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខប្រព័ន្ធអាចទទួលបានអត្ថប្រយោជន៍ពីល្បឿនឌិកូដលីនេអ៊ែរ និង khả năngធ្វើមាត្រដ្ឋានប្រកបដោយប្រសិទ្ធភាព។",
+   "keyPoints": [
+    "ផ្អែកលើកូដ convolutional អង្សាសេខ្ពស់ដែលបានលាក់បាំងក្នុងទម្រង់ Niederreiter ។",
+    "សម្រេចបានកម្រិតសុវត្ថិភាពលើសពីប្រព័ន្ធ McEliece និង Niederreiter បែបបុរាណជាង 2^200 ។",
+    "គាំទ្រការឌិកូដលីនេអ៊ែរ និងប្រវែងអត្ថបទធម្មតាដោយគ្មានការកំណត់។",
+    "ប្រើប្រាស់ឧបករណ៍ឌិកូដ syndrome-trellis បែបស្របគ្នាសម្រាប់ប្រសិទ្ធភាពខ្ពស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "后量子密码学中的校 码网格解密",
+   "summary": "研究人员提出了一种基于 Niederreiter 范式中掩码高内存卷积码的新型后量子密码框架。该公钥源自一个带有密集随机掩码和可逆线性变换的高内存多项式校验矩阵，能够抵御已知的结构和代数攻击。合法接收者具备多项式时间的解密能力，而攻击者则受限于指数复杂度的通用信息集解码。",
+   "impact": "该构建的安全裕度可能比经典的 McEliece 和 Niederreiter 系统高出 2^200 倍以上，从而显著增强后量子密码学的发展。开发人员和安全团队可以利用线性时间解密、可扩展的消息长度以及高效的硬件和软件吞吐量来实现其实际应用。",
+   "keyPoints": [
+    "基于 Niederreiter 范式中的掩码高内存卷积码。",
+    "安全裕度超过传统 McEliece 和 Niederreiter 系统 2^200 倍以上。",
+    "支持任意明文长度和线性时间解密。",
+    "通过并行校正网格解码器阵列实现高效吞吐量。"
+   ]
+  },
+  "ko": {
+   "title": "양자 후 암호학에서의 신드롬 트렐리스 복호화",
+   "summary": "연구진은 Niederreiter 패러다임 내에서 마스킹된 고메모리 합성곱 부호를 기반으로 하는 새로운 양자 후 암호화 프레임워크를 발표했습니다. 공개 키는 조밀한 무작위 마스킹과 가역 선형 변환이 추가된 고메모리 다항식 패리티 검사 행렬에서 파생되어 구조적 공격을 방어합니다. 적법한 수신자는 다항식 시간 복호화 능력을 유지하는 반면 공격자는 지수적 복잡성의 정보 집합 복호화로 제한됩니다.",
+   "impact": "이 구조는 기존 McEliece 및 Niederreiter 기반 시스템보다 2^200배를 초과하는 보안 마진을 달성할 수 있어 양자 후 암호화를 강화하는 데 기여할 수 있습니다. 개발자와 보안 팀은 선형 시간 복호화, 임의의 평문 길이 지원, 그리고 높은 처리량을 제공하는 하드웨어 및 소프트웨어 구현의 이점을 얻을 수 있습니다.",
+   "keyPoints": [
+    "Niederreiter 패러다임 내의 마스킹된 고메모리 합성곱 부호 기반.",
+    "기존 McEliece 및 Niederreiter 시스템을 2^200배 이상 초과하는 보안 마진 달성.",
+    "임의의 평문 길이와 선형 시간 복호화 지원.",
+    "고속 처리량을 위한 병렬 신드롬 트렐리스 복호기 배열 활용."
+   ]
+  }
+ }
+}

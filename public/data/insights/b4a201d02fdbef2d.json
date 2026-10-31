@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b4a201d02fdbef2d",
+ "contentHash": "2273df8e27fe2722",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:08:13.697Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Numerical Integration on Bounded Domains via Learned Reflected Diffusions",
+   "summary": "Researchers studied high-dimensional integration on bounded convex domains to estimate integrals of non-negative integrands. Because standard Quasi-Monte Carlo and existing diffusion samplers do not respect domain constraints, the authors built a proposal from reflected dynamics that stay within the domain by construction. A neural score model reverses a reflected diffusion process, and a change-of-measure formula yields a training objective and unbiased importance-sampling estimator without extra boundary terms. For non-smooth integrands, they derived a REINFORCE estimator using Gaussian proposal densities before reflection.",
+   "impact": "This method could offer developers and researchers a better way to handle high-dimensional numerical integration on bounded domains. The strong performance and favorable scaling demonstrated across synthetic and real-world problems may improve Monte Carlo estimation workflows.",
+   "keyPoints": [
+    "The method uses reflected dynamics to keep evaluation points within the bounded domain D.",
+    "A neural score model is trained to reverse the reflected diffusion process.",
+    "A REINFORCE estimator handles non-smooth integrands without differentiating r.",
+    "Evaluations on synthetic and real-world problems show favorable scaling with dimensions and point counts."
+   ]
+  },
+  "km": {
+   "title": "ការរួមបញ្ចូលគ្នាតាមលេខលើដែនកំណត់តាមរយៈការផ្សព្វផ្សាយដែលបានឆ្លុះបញ្ចាំងដែលបានសិក្សា",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាពីការរួមបញ្ចូលគ្នាកម្រិតវិមាត្រខ្ពស់នៅលើដែន محدود convex ដើម្បីប៉ាន់ស្មានអាំងតេក្រាលនៃ non-negative integrands។ ដោយសារ Quasi-Monte Carlo ស្តង់ដារ និង diffusion samplers ដែលមានស្រាប់មិនគោរពតាមការកំណត់ដែន អ្នកនិពន្ធបានបង្កើតសំណើមួយពី reflected dynamics ដែលស្ថិតនៅក្នុងដែនដោយការសាងសង់។ ម៉ូដែលពិន្ទុប្រសាទប្រែក្រឡាស់ដំណើរការផ្សព្វផ្សាយដែលបានឆ្លុះបញ្ចាំង ហើយរូបមន្តប្តូររង្វាស់បង្កើតបានជាគោលដៅបណ្តុះបណ្តាល និងអ្នកប៉ាន់ស្មានការយកគំរូតាមសារៈសំខាន់ដោយគ្មានលក្ខខណ្ឌព្រំដែនបន្ថែម។ សម្រាប់ non-smooth integrands ពួកគេបានទាញយកអ្នកប៉ាន់ស្មាន REINFORCE ដោយប្រើដង់ស៊ីតេសំណើ Gaussian មុនពេលឆ្លុះបញ្ចាំង។",
+   "impact": "វិធីសាស្ត្រនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវនូវវិធីសាស្ត្រកាន់តែប្រសើរក្នុងការจัดการការរួមបញ្ចូលគ្នាតាមលេខកម្រិតវិមាត្រខ្ពស់នៅលើដែនកំណត់។ ការអនុវត្តដ៏រឹងមាំ និងការធ្វើមាត្រដ្ឋានដ៏អំណោយផលដែលបានបង្ហាញអាចធ្វើឱ្យប្រសើរឡើងនូវដំណើរការប៉ាន់ស្មាន Monte Carlo ។",
+   "keyPoints": [
+    "វិធីសាស្ត្រនេះប្រើប្រាស់ reflected dynamics ដើម្បីរក្សាពិន្ទុវាយតម្លៃក្នុងដែនកំណត់ D។",
+    "ម៉ូដែលពិន្ទុប្រសាទត្រូវបានបណ្តុះបណ្តាលដើម្បីបញ្ច្រាសដំណើរការផ្សព្វផ្សាយដែលបានឆ្លុះបញ្ចាំង។",
+    "អ្នកប៉ាន់ស្មាន REINFORCE គ្រប់គ្រង non-smooth integrands ដោយមិនបែងចែក r។",
+    "ការវាយតម្លៃលើបញ្ហាប្រឌិត និងពិភពពិតបង្ហាញពីការធ្វើមាត្រដ្ឋានដ៏អំណោយផលជាមួយវិមាត្រ និងចំនួនពិន្ទុ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过学习反射扩散进行有界域上的数值积分",
+   "summary": "研究人员研究了有界凸域上的高维积分，以估计非负被积函数的积分。由于标准准蒙特卡洛方法和现有的扩散采样器不遵守域约束，作者从通过构造保持在域内的反射动力学构建了建议。神经得分模型经过训练以逆转此过程，并且反射扩散的测度变化公式产生了训练目标和无偏重要性采样估计器。对于平滑度受限的被积函数，他们在反射前使用高斯建议密度推导出了训练梯度的REINFORCE估计器。",
+   "impact": "该方法可能为开发者和研究人员提供一种更好的方法来处理有界域上的高维数值积分。在合成问题和现实世界问题中表现出的强大性能以及良好的维度和点数扩展性，可能会改善蒙特卡洛估计工作流程。",
+   "keyPoints": [
+    "该方法使用反射动力学将评估点保持在有界域D内。",
+    "训练神经得分模型以逆转反射扩散过程。",
+    "使用REINFORCE估计器处理非平滑被积函数，而无需区分r。",
+    "在合成和实际问题上的评估显示了良好的维度和蒙特卡洛点数扩展性。"
+   ]
+  },
+  "ko": {
+   "title": "학습된 반사 확산을 통한 유계 도메인에서의 수치적 적분",
+   "summary": "연구자들은 음수가 아닌 피적분 함수의 적분을 추정하기 위해 유계 볼록 도메인에서의 고차원 적분을 연구했습니다. 표준 준몬테카를로 및 기존 확산 샘플러는 도메인 제약을 존중하지 않기 때문에, 저자들은 구성에 의해 도메인 내부에 유지되는 반사 동역학으로부터 제안을 구축했습니다. 신경망 스코어 모델이 이 과정을 역전시키도록 학습되며, 반사 확산을 위한 측도 변환 공식은 추가 경계 조건 없이 학습 목표와 편향되지 않은 중요도 샘플링 추정치를 생성합니다. 매끄럽지 않은 피적분 함수의 경우, 반사 전 가우스 제안 밀도를 사용하여 학습 기울기의 REINFORCE 추정치를 유도했습니다.",
+   "impact": "이 방법은 개발자와 연구원에게 유계 도메인에서 고차원 수치 적분을 처리할 수 있는 더 나은 방법을 제공할 수 있습니다. 합성 및 실제 문제에서 입증된 강력한 성능과 유리한 확장성은 몬테카를로 추정 워크플로우를 개선할 수 있습니다.",
+   "keyPoints": [
+    "이 방법은 평가 점수가 유계 도메인 D 내에 유지되도록 반사 동역학을 사용합니다.",
+    "신경망 스코어 모델은 반사 확산 과정을 역전시키도록 학습됩니다.",
+    "REINFORCE 추정기는 r을 미분하지 않고 매끄럽지 않은 피적분 함수를 처리합니다.",
+    "합성 및 실제 문제에 대한 평가는 차원 및 점 수에 따른 유리한 확장성을 보여줍니다."
+   ]
+  }
+ }
+}

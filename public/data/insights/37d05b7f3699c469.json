@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "37d05b7f3699c469",
+ "contentHash": "51e94d0999874e62",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:08:46.136Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "rTaste: Do Research Agents Have Taste? Evaluating Early Stage Research Judgment",
+   "summary": "A study evaluated six frontier models acting as research agents to test their early-stage research judgment, known as taste. The agents proposed and ranked minimum viable experiments based on seven recent NLP papers, which were then executed and audited. While the agents produced many worthwhile experiments, the evidence that their rankings improved the choice of which to run remained limited.",
+   "impact": "This evaluation could help developers understand the limitations of AI research agents in selecting and prioritizing worthwhile experiments. Security teams and technology users may need to exercise caution when relying on AI for autonomous scientific judgment.",
+   "keyPoints": [
+    "Six frontier models tested seven recent NLP papers by proposing minimum viable experiments.",
+    "Out of 415 experiments, 194 were judged sound, valuable, and new, with 73 deemed beyond the seed paper and non-obvious.",
+    "Agent teams cost more without showing a clear overall improvement in proposal quality.",
+    "An evaluation harness and dataset of all 415 experiments are available on GitHub."
+   ]
+  },
+  "km": {
+   "title": "rTaste៖ តើភ្នាក់ងារស្រាវជ្រាវមានរសជាតិដែរឬទេ? ការវាយតម្លៃការសម្រេចចិត្តស្រាវជ្រាវដំណាក់កាលដំបូង",
+   "summary": "ការសិក្សាមួយបានវាយតម្លៃទៅលើម៉ូដែលកម្រិតមុខសញ្ញាចំនួនប្រាំបួន ដែលដើរតួជាភ្នាក់ងារស្រាវជ្រាវដើម្បីសាកល្បងការសម្រេចចិត្តស្រាវជ្រាវដំណាក់កាលដំបូងរបស់ពួកគេ។ ភ្នាក់ងារទាំងនោះបានស្នើ និងដាក់ចំណាត់ថ្នាក់ការពិសោធន៍ដែលអាចធ្វើទៅបាន ដោយផ្អែកលើឯកសារ NLP ថ្មីៗចំនួនប្រាំពីរ ដែលត្រូវបានអនុវត្ត និងត្រួតពិនិត្យ។ ខណៈពេលដែលភ្នាក់ងារបានបង្កើតការពិសោធន៍ដ៏មានតម្លៃជាច្រើន ភស្តុតាងដែលបង្ហាញថាចំណាត់ថ្នាក់របស់ពួកគេបានកែលម្អការជ្រើសរើសការពិសោធន៍នៅតែមានកម្រិត។",
+   "impact": "ការវាយតម្លៃនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍យល់ពីដែនកំណត់នៃភ្នាក់ងារស្រាវជ្រាវ AI ក្នុងការជ្រើសរើស និងផ្តល់អាទិភាពដល់ការពិសោធន៍ដែលមានតម្លៃ។ ក្រុមសុវត្ថិភាព និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវមានការប្រុងប្រយ័ត្ននៅពេលពឹងផ្អែកលើ AI សម្រាប់ការសម្រេចចិត្តវិទ្យាសាស្ត្រស្វ័យប្រវត្ត។",
+   "keyPoints": [
+    "ម៉ូដែលកម្រិតមុខសញ្ញាចំនួនប្រាំបួនបានសាកល្បងឯកសារ NLP ថ្មីៗចំនួនប្រាំពីរ។",
+    "ក្នុងចំណោមការពិសោធន៍ចំនួន 415 គឺមាន 194 ត្រូវបានវិនិច្ឆ័យថាត្រឹមត្រូវ មានតម្លៃ និងថ្មី។",
+    "ក្រុមភ្នាក់ងារចំណាយប្រាក់ច្រើនជាងមុនដោយគ្មានការកែលម្អជាទូទៅច្បាស់លាស់លើគុណភាពនៃការស្នើសុំ។",
+    "ឧបករណ៍វាយតម្លៃ និងសំណុំទិន្នន័យនៃការពិសោធន៍ទាំង 415 គឺមាននៅលើ GitHub។"
+   ]
+  },
+  "zh-CN": {
+   "title": "rTaste：研究智能体有品味吗？评估早期研究判断力",
+   "summary": "一项研究评估了六个前沿模型作为研究智能体时的表现，以测试其早期的研究判断力即品味。这些智能体根据七篇近期的NLP论文提出并排列了最小可行实验，随后这些实验得到了执行和审计。虽然智能体产生了许多有价值的实验，但没有确凿证据表明它们的排名改善了实验选择。",
+   "impact": "这项评估可能有助于开发者了解人工智能研究 agents 在选择和优先处理有价值实验方面的局限性。安全团队和技术用户在依赖人工智能进行自主科学判断时可能需要保持谨慎。",
+   "keyPoints": [
+    "六个前沿模型对七篇近期的NLP论文进行了测试，并提出了最小可行实验。",
+    "在415个实验中，有194个被评为合理、有价值且新颖，其中73个被认为超越了种子论文且不显而易见。",
+    "智能体团队成本更高，但在提案质量上没有明显的整体提升。",
+    "评估工具和包含415个实验的数据集已在GitHub上发布。"
+   ]
+  },
+  "ko": {
+   "title": "rTaste: 연구 에이전트에게 취향이 있는가? 초기 연구 판단력 평가",
+   "summary": "연구 에이전트로 활동하는 6개의 프론티어 모델을 대상으로 초기 연구 판단력, 즉 취향을 테스트하기 위한 연구가 진행되었습니다. 에이전트들은 최근 7편의 NLP 논문을 바탕으로 최소 기능 실험을 제안하고 순위를 매겼으며, 이후 해당 실험들이 실행 및 감사를 거쳤습니다. 에이전트들이 가치 있는 실험을 많이 생성했음에도 불구하고, 그들의 순위가 실행할 실험의 선택을 개선했다는 증거는 여전히 제한적이었습니다.",
+   "impact": "이번 평가는 개발자들이 가치 있는 실험을 선택하고 우선순위를 정하는 데 있어 AI 연구 에이전트의 한계를 이해하는 데 도움을 줄 수 있습니다. 보안 팀과 기술 사용자는 자율적인 과학적 판단을 위해 AI에 의존할 때 주의를 기울여야 할 수 있습니다.",
+   "keyPoints": [
+    "6개의 프론티어 모델이 최근 7편의 NLP 논문을 바탕으로 최소 기능 실험을 제안하고 테스트를 진행했습니다.",
+    "415개의 실험 중 194개가 건전하고 가치 있으며 참신한 것으로 평가되었으며, 이 중 73개는 시드 논문을 넘어 비자명한 것으로 판단되었습니다.",
+    "에이전트 팀은 제안서 품질의 전반적인 향상 없이 비용만 더 많이 발생시켰습니다.",
+    "평가 하니스와 415개 실험 모두의 데이터셋은 GitHub에서 이용할 수 있습니다."
+   ]
+  }
+ }
+}

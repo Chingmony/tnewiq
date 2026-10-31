@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ea7a427f1dbd961a",
+ "contentHash": "dc115ec8852113b4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:10:57.660Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Surprise Alone Learns Lies: Evidence-Gated Continual Learning for LLMs from Streaming Claims",
+   "summary": "Continual learning methods for large language models that select what to learn based on surprise are vulnerable to streams containing lies. Because planted falsehoods about known topics have low probability, they are highly surprising and get absorbed by surprise-driven learners. Researchers studied LoRA-adapted students like Qwen2.5-1.5B, Qwen2.5-3B, and Llama-3.2-3B learning from streams of true and false claims, reporting four findings regarding verifier keys, regression tests, prior flagging, and evidence routing.",
+   "impact": "Security teams and developers working on continual learning for LLMs may find that relying solely on surprise or single evaluation signals can lead models to absorb planted falsehoods. Combining trusted evidence routing with other signals could help reduce poison rates, though sophisticated attackers might still bypass certain filters.",
+   "keyPoints": [
+    "Surprise-driven learners absorb planted lies at a rate similar to random selection because falsehoods about known subjects are highly surprising.",
+    "Verifier judges can remove lies depending on their accuracy, but real LLM judges tend to be cautious and reject both unsourced truths and source-backed updates.",
+    "An original model's prior can flag claims contradicting its knowledge, though an attacker with model access can craft lies to pass it.",
+    "Routing contradicted claims to trusted sources recovers legitimate updates, but planted sources for lies can degrade the system."
+   ]
+  },
+  "km": {
+   "title": "Surprise Alone Learns Lies: Evidence-Gated Continual Learning for LLMs from Streaming Claims",
+   "summary": "វិធីសាស្ត្ររៀនបន្តបន្ទាប់សម្រាប់ម៉ូដែលភាសាខ្នាតធំដែលជ្រើសរើសអ្វីត្រូវរៀនដោយផ្អែកលើភាពភ្ញាក់ផ្អើលគឺមានភាពងាយរងគ្រោះពេលស្ទ្រីមមានការកុហក។ ការសិក្សានេះបានប្រើប្រាស់ម៉ូដែលដូចជា Qwen2.5-1.5B, Qwen2.5-3B និង Llama-3.2-3B ដើម្បីសិក្សាពីស្ទ្រីមនៃការអះអាងពិត និងមិនពិត។ អ្នកស្រាវជ្រាវបានរាយការណ៍ពីការរកឃើញចំនួនបួនពាក់ព័ន្ធនឹងការផ្ទៀងផ្ទាត់ ការធ្វើតេស្ត ការសម្គាល់ការអះអាង និងការបញ្ជូនភស្តុតាង។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍ដែលធ្វើការលើការរៀនបន្តបន្ទាប់សម្រាប់ LLMs អាចនឹងឃើញថាការផ្អែកលើភាពភ្ញាក់ផ្អើលតែមួយមុខអាចធ្វើឱ្យម៉ូដែលស្រូបយកព័ត៌មានមិនពិត។ ការរួមបញ្ចូលការបញ្ជូនភស្តុតាងដែលគួរឱ្យទុកចិត្តអាចជ่วยកាត់បន្ថយអត្រាពិល ប៉ុន្តែការវាយប្រហារក៏អាចឆ្លងកាត់ការត្រួតពិនិត្យមួយចំនួនផងដែរ។",
+   "keyPoints": [
+    "អ្នករៀនដែលជំរុញដោយភាពភ្ញាក់ផ្អើលស្រូបយកការកុហកក្នុងអត្រាស្រដៀងនឹងការជ្រើសរើសដោយចៃដន្យ។",
+    "ចៅក្រមផ្ទៀងផ្ទាត់អាចលុបការកុហកចេញ ប៉ុន្តែចៅក្រម LLM ពិតប្រាកដច្រើនតែមានការប្រុងប្រយ័ត្នខ្ពស់។",
+    "ចំណេះដឹងមុនរបស់ម៉ូដែលដើមអាចសម្គាល់ការអះអាងដែលផ្ទុយគ្នា ទោះបីជាអ្នកវាយប្រហារអាចបង្កើតការកុហកដើម្បីឱ្យឆ្លងកាត់ក៏ដោយ។",
+    "ការបញ្ជូនការអះអាងដែលផ្ទុយគ្នាទៅកាន់ប្រភពដែលគួរឱ្យទុកចិត្តអាចស្តារបច្ចុប្បន្នភាពស្របច្បាប់ឡើងវិញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Surprise Alone Learns Lies: Evidence-Gated Continual Learning for LLMs from Streaming Claims",
+   "summary": "大型语言模型的持续学习方法通常根据意外性来决定学习内容，但在流数据包含谎言时这种规则并不安全。关于已知事物的虚假信息在模型认知中概率较低，因此极具意外性，导致受意外驱动的学习者会吸收几乎所有的这类谎言。研究人员使用Qwen2.5-1.5B、Qwen2.5-3B和Llama-3.2-3B等LoRA适配学生模型，从包含关于虚构人物及真实CounterFact事实的真假声明流中进行了研究，并报告了四项发现。",
+   "impact": "开发人员和安全团队在为LLMs设计持续学习系统时可能会发现，仅依赖意外性或单一评估信号可能导致模型吸收植入的虚假信息。将可信证据路由与验证机制相结合有助于降低投毒率，但攻击者仍可能绕过某些过滤机制。",
+   "keyPoints": [
+    "受意外驱动的学习者吸收植入谎言的比率与随机选择相似，因为关于已知事实的谎言具有极高的意外性。",
+    "验证器法官可以在其准确性范围内消除谎言，但真实的LLM法官往往较为谨慎，会拒绝无来源的真实信息甚至有来源支持的更新。",
+    "模型自身先验可以标记与其已知相矛盾的声明，但具有模型访问权限的攻击者可以选择能够通过该检查的谎言。",
+    "将矛盾声明路由到攻击者无法植入的可信来源可以恢复合法更新，但如果攻击者为30%的谎言植入匹配来源，系统效果甚至不如单独使用法官。"
+   ]
+  },
+  "ko": {
+   "title": "Surprise Alone Learns Lies: Evidence-Gated Continual Learning for LLMs from Streaming Claims",
+   "summary": "거대 언어 모델을 위한 지속적 학습 방법은 놀라움(surprise)을 기준으로 학습할 내용을 결정하는 경우가 많으나, 스트림에 거짓말이 포함된 경우 이 규칙은 안전하지 않다. 모델이 아는 내용에 대한 조작된 거짓 정보는 낮은 확률을 가지므로 매우 놀라운 것으로 취급되며, 놀라움 기반 학습자는 이러한 거짓말을 거의 모두 흡수하게 된다. 연구진은 Qwen2.5-1.5B, Qwen2.5-3B, Llama-3.2-3B 등 LoRA 적응형 모델을 사용하여 참과 거짓 주장의 스트림을 통해 이 문제를 연구하고 네 가지 발견을 보고했다.",
+   "impact": "LLM을 위한 지속적 학습을 개발하는 보안 팀과 개발자는 놀라움이나 단일 평가 신호에만 의존할 경우 모델이 조작된 허위 정보를 흡수할 수 있음을 인지해야 한다. 신뢰할 수 있는 증거 라우팅을 다른 신호와 결합하면 오염률을 줄이는 데 도움이 될 수 있으나, 정교한 공격자는 여전히 일부 필터를 우회할 수 있다.",
+   "keyPoints": [
+    "놀라움 기반 학습자는 알려진 주제에 대한 거짓 정보가 매우 놀랍기 때문에 무작위 선택과사 유사한 비율로 거짓말을 흡수한다.",
+    "검증기 판사는 정확도에 따라 거짓말을 제거할 수 있으나 실제 LLM 판사는 신중하여 출처가 없는 진실이나 출처가 있는 업데이트도 거부하는 경향이 있다.",
+    "원래 모델의 사전 지식은 모순되는 주장을 플래그 지정할 수 있으나, 모델 접근 권한이 있는 공격자는 이를 통과하는 거짓말을 선택할 수 있다.",
+    "모순된 주장을 공격자가 심을 수 없는 신뢰할 수 있는 출처로 라우팅하면 합법적인 업데이트를 복구할 수 있으나, 거짓말에 일치하는 출처가 심어지면 시스템 성능이 저하될 수 있다."
+   ]
+  }
+ }
+}

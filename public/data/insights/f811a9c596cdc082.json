@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f811a9c596cdc082",
+ "contentHash": "d470bb955ecbdee8",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:09:08.830Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Preserving Utility in Continual LLM Unlearning via Orthogonal Projections",
+   "summary": "Researchers address the challenge of continuous LLM unlearning, where removing sensitive data sequentially often leads to model degradation and interference. They introduce Continual Orthogonal Projection (COP), a gradient-projection scheme that restricts updates to the orthogonal complement of activation subspaces from prior forget sets. This method guarantees first-order non-interference with earlier deletions while storing only a low-rank basis per layer. Experiments on TOFU and RWKU benchmarks demonstrate that COP preserves utility across sequential requests without weakening forgetting.",
+   "impact": "This approach could help developers perform iterative unlearning on large language models more reliably without degrading model utility or forgetting performance. Security teams and model maintainers may benefit from an efficient way to handle continuous privacy requests using minimal storage.",
+   "keyPoints": [
+    "Sequential LLM unlearning typically causes utility decay and interference between successive updates.",
+    "Continual Orthogonal Projection (COP) restricts updates to the orthogonal complement of previous activation subspaces.",
+    "COP stores only a low-rank basis per layer and requires neither past gradients nor previous forget sets.",
+    "Experiments on TOFU and RWKU show COP preserves utility and prevents objective collapse effectively."
+   ]
+  },
+  "km": {
+   "title": "ការរក្សាប្រយោជន៍ក្នុងការលុបបំបាត់ទិន្នន័យ LLM បន្តបន្ទាប់តាមរយៈការព្យាករណ៍អរតូហ្គោណល",
+   "summary": "អ្នកស្រាវជ្រាវបានដោះស្រាយបញ្ហាប្រឈមនៃការលុបបំបាត់ទិន្នន័យ LLM បន្តបន្ទាប់ ដែលការដកទិន្នន័យរសើបចេញជាបន្តបន្ទាប់ច្រើនតែនាំឱ្យខូចគុណភាពម៉ូដែល។ ពួកគេបានដាក់ឱ្យប្រើប្រាស់វិធីសាស្ត្រ Continual Orthogonal Projection (COP) ដែលជាគ្រោងការណ៍ព្យាករណ៍ជម្រាលដើម្បីកំណត់ការអាប់ដេតទៅនឹងការបំពេញអរតូហ្គោណល។ វិធីសាស្ត្រនេះធានាថាមិនមានការប៉ះទង្គិចជាមួយការលុបមុនៗឡើយ ដោយរក្សាទុកត្រឹមមូលដ្ឋានរ៉ែងទាបក្នុងមួយស្រទាប់។ ការពិសោធន៍នៅលើស្តង់ដារ TOFU និង RWKU បង្ហាញថា COP រក្សាប្រយោជន៍បានល្អនៅពេលស្នើសុំលុបជាបន្តបន្ទាប់។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍អនុវត្តការលុបបំបាត់ទិន្នន័យនៅលើម៉ូដែលភាសាខ្នាតធំបានកាន់តែគួរឱ្យទុកចិត្តដោយមិនធ្វើឱ្យប៉ះពាល់ដល់ប្រយោជន៍ម៉ូដែលឡើយ។ ក្រុមសន្តិសុខនិងអ្នកថែទាំម៉ូដែលអាចទទួលបានអត្ថប្រយោជន៍ពីវិធីសាស្ត្រដ៏មានប្រសិទ្ធភាពក្នុងការគ្រប់គ្រងសំណើសុំភាពឯ tưដោយប្រើប្រាស់ទំហំផ្ទុកតិចតួច។",
+   "keyPoints": [
+    "ការលុបបំបាត់ទិន្នន័យ LLM បន្តបន្ទាប់ជាទូទៅបណ្ដាលឱ្យខូចប្រយោជន៍ម៉ូដែលនិងមានការរំខានរវាងការអាប់ដេត។",
+    "Continual Orthogonal Projection (COP) កំណត់ការអាប់ដេតទៅនឹងទំហំរងនៃការធ្វើឱ្យសកម្មពីមុន។",
+    "COP រក្សាទុកត្រឹមមូលដ្ឋានរ៉ែងទាបក្នុងមួយស្រទាប់ដោយមិនចាំបាច់មានជម្រាលពីមុនទេ។",
+    "ការពិសោធន៍នៅលើ TOFU និង RWKU បង្ហាញថា COP រក្សាប្រយោជន៍និងការពារការដួលរលំនៃគោលដៅបានយ៉ាងមានប្រសិទ្ធភាព។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过正交投影在持续大语言模型遗忘中保持效用",
+   "summary": "研究人员针对大语言模型持续遗忘中的挑战提出了解决方案，连续删除敏感数据通常会导致模型性能衰退和干扰。他们介绍了持续正交投影（COP），这是一种梯度投影方案，将每次更新限制在先前遗忘集激活子空间的正交补上。该方法在保证与早期删除不产生一阶干扰的同时，每层仅存储低秩基。在TOFU和RWKU基准上的实验表明，COP能够在连续请求中保持效用而不削弱遗忘效果。",
+   "impact": "这种方法可以帮助开发人员更可靠地在大语言模型上执行迭代遗忘，而不会降低模型的效用或遗忘性能。安全团队和模型维护人员可以受益于一种以极少存储开销处理持续隐私请求的高效方法。",
+   "keyPoints": [
+    "连续的大语言模型遗忘通常会导致效用衰减和连续更新之间的干扰。",
+    "持续正交投影（COP）将更新限制在先前激活子空间的正交补中。",
+    "COP每层仅存储一个低秩基，既不需要过去的梯度也不需要先前的遗忘集。",
+    "在TOFU和RWKU上的实验表明，COP能有效保持效用并防止目标崩塌。"
+   ]
+  },
+  "ko": {
+   "title": "직교 투영을 통한 지속적 LLM 잊기에서의 유용성 유지",
+   "summary": "연구원들은 민감한 데이터를 연속적으로 제거할 때 모델 저하와 간섭이 발생하는 지속적 LLM 잊기 문제를 다룹니다. 이들은 이전 망각 세트의 활성화 부분 공간의 직교 여공간으로 업데이트를 제한하는 경사 투영 방식인 지속적 직교 투영(COP)을 도입합니다. 이 접근 방식은 이전 삭제와의 1차적 비간섭을 보장하며 레이어당 저랭크 기법만을 저장합니다. TOFU 및 RWKU 벤치마크에 대한 실험 결과 COP는 잊기 성능을 약화시키지 않으면서 연속적인 요청 전체에서 유용성을 유지하는 것으로 나타났습니다.",
+   "impact": "이 접근 방식은 개발자가 모델의 유용성이나 망각 성능을 저하시키지 않고 대규모 언어 모델에서 반복적인 잊기 작업을 보다 안정적으로 수행하는 데 도움이 될 수 있습니다. 보안 팀과 모델 관리자는 최소한의 저장 공간을 사용하여 지속적인 개인정보 보호 요청을 처리하는 효율적인 방법의 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "연속적인 LLM 잊기는 일반적으로 유용성 저하와 연속적인 업데이트 간의 간섭을 유발합니다.",
+    "지속적 직교 투영(COP)은 업데이트를 이전 활성화 부분 공간의 직교 여공간으로 제한합니다.",
+    "COP는 레이어당 저랭크 기반만 저장하며 과거 경사도나 이전 망각 세트가 필요하지 않습니다.",
+    "TOFU 및 RWKU 실험에 따르면 COP는 유용성을 보존하고 목표 붕괴를 효과적으로 방지합니다."
+   ]
+  }
+ }
+}

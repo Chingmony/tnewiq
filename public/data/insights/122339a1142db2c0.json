@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "122339a1142db2c0",
+ "contentHash": "f96e12242f089d14",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:08:02.272Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Discovering Interpretable Acoustic Features in Autoregressive Voice-Cloning TTS Models",
+   "summary": "Researchers introduced a feature-based interpretability framework for autoregressive voice-cloning text-to-speech models using sparse autoencoders, PCA, and random directions. They analyzed Qwen3-TTS and five additional models to understand how these architectures represent acoustic properties. The study found that models encode concepts such as pitch, energy, noise, and accent, though sparse prediction and steering effectiveness varied by concept.",
+   "impact": "This research could help developers and researchers better understand the internal mechanics and feature representations of voice-cloning text-to-speech models. Understanding these features may assist in improving model control, interpretability, and the discovery of novel concepts within speech generation architectures.",
+   "keyPoints": [
+    "Introduced a feature-based interpretability framework using sparse autoencoders, PCA, and random directions.",
+    "Tested generalization across Qwen3-TTS and five additional models.",
+    "Found that models encode concepts like pitch, energy, noise, and accent.",
+    "Identified 684 automatically validated sparse autoencoder features in Qwen3-TTS covering speaker clusters, speaking style, and recording conditions."
+   ]
+  },
+  "km": {
+   "title": "ការស្វែងរកលក្ខណៈពិសេស音响ដែលអាចបកស្រាយបាននៅក្នុងម៉ូដែល Voice-Cloning TTS បែប Autoregressive",
+   "summary": "អ្នកស្រាវជ្រាវបានដាក់បង្ហាញក្របខ័ណ្ឌភាពអាចបកស្រាយបានផ្អែកលើលក្ខណៈពិសេសសម្រាប់ម៉ូដែល Voice-Cloning TTS បែប autoregressive ដោយប្រើប្រាស់ sparse autoencoders, PCA និងទិសដៅចៃដន្យ។ ពួកគេបានវិភាគ Qwen3-TTS និងម៉ូដែលចំនួន 5 បន្ថែមទៀតដើម្បីយល់ពីរបៀបដែលស្ថាបត្យកម្មទាំងនេះបង្ហាញពីលក្ខណៈសម្បត្តិ音响។ ការសិក្សាបានរកឃើញថា ម៉ូកែលទាំងនេះអ៊ិនកូដគំនិតដូចជា កម្ពស់សំឡេង ថាមពល កាកសំណល់ និងសំឡេងតំបន់ ទោះបីជាការព្យាករណ៍បែប sparse និងការបញ្ជាមានប្រសិទ្ធភាពសម្រាប់តែគំនិតខ្លះក៏ដោយ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវឱ្យយល់កាន់តែច្បាស់អំពីដំណើរការខាងក្នុង និងការបង្ហាញលក្ខណៈពិសេសនៃម៉ូដែល Voice-Cloning TTS។ ការយល់ដឹងពីលក្ខណៈពិសេសទាំងនេះ អាចជួយកែលម្អការគ្រប់គ្រងម៉ូដែល ភាពអាចបកស្រាយបាន និងការស្វែងរកគំនិតថ្មីៗនៅក្នុងស្ថាបត្យកម្មបង្កើតសំឡេង។",
+   "keyPoints": [
+    "បានដាក់បង្ហាញក្របខ័ណ្ឌភាពអាចបកស្រាយបានផ្អែកលើលក្ខណៈពិសេសដោយប្រើប្រាស់ sparse autoencoders, PCA និងទិសដៅចៃដន្យ។",
+    "បានសាកល្បងការធ្វើទូទៅ化ឆ្លងកាត់ Qwen3-TTS និងម៉ូដែលចំនួន 5 បន្ថែមទៀត។",
+    "បានរកឃើញថា ម៉ូដែលអ៊ិនកូដគំនិតដូចជា កម្ពស់សំឡេង ថាមពល កាកសំណល់ និងសំឡេងតំបន់។",
+    "បានកំណត់អត្តសញ្ញាណលក្ខណៈពិសេស sparse autoencoders ចំនួន 684 ដែលត្រូវបានផ្ទៀងផ្ទាត់ដោយស្វ័យប្រវត្តិនៅក្នុង Qwen3-TTS។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在自回归语音克隆TTS模型中发现可解释的声学特征",
+   "summary": "研究人员为自回归语音克隆TTS模型引入了一个基于特征的可解释性框架，使用了稀疏自编码器、PCA和随机方向通过稀疏探测、引导和定量自动可解释性进行分析。他们重点研究了Qwen3-TTS并将探测和引导扩展到另外5个模型以测试跨架构的泛化能力。这些模型编码了音高、能量、噪声和口音等概念，但稀疏预测和引导仅对某些概念有效。",
+   "impact": "这项研究可能帮助开发人员和安全团队更好地理解语音克隆TTS模型的内部机制和特征表示。了解这些特征可能有助于改进模型控制、可解释性以及在语音生成架构中发现新概念。",
+   "keyPoints": [
+    "引入了一个使用稀疏自编码器、PCA和随机方向的基于特征的可解释性框架。",
+    "测试了Qwen3-TTS以及另外5个模型的跨架构泛化能力。",
+    "发现模型编码了音高、能量、噪声和口音等概念。",
+    "在Qwen3-TTS中自动验证了684个稀疏自编码器特征，涵盖说话人集群、说话风格和录音条件。"
+   ]
+  },
+  "ko": {
+   "title": "자기회귀 음성 복제 TTS 모델에서 해석 가능한 음향 특징 발견",
+   "summary": "연구진은 희소 오토인코더, PCA, 그리고 무작위 방향을 활용하여 자기회귀 음성 복제 TTS 모델을 위한 특징 기반 해석 가능성 프레임워크를 도입했다. Qwen3-TTS를 중심으로 분석하고 5개의 추가 모델로 확장하여 아키텍처 전반의 일반화 성능을 테스트했다. 이 모델들은 피치, 에너지, 노이즈, 억양 같은 개념을 인코딩하지만, 희소 예측과 제어는 일부 개념에 대해서만 효과적인 것으로 나타났다.",
+   "impact": "이번 연구는 개발자와 연구진이 음성 복제 TTS 모델의 내부 메커니즘과 특징 표현을 더 잘 이해하는 데 도움을 줄 수 있다. 이러한 특징에 대한 이해는 모델 제어, 해석 가능성 향상, 그리고 음성 생성 아키텍처 내 새로운 개념 발견에 기여할 수 있다.",
+   "keyPoints": [
+    "희소 오토인코더, PCA, 무작위 방향을 사용한 특징 기반 해석 가능성 프레임워크 도입.",
+    "Qwen3-TTS 및 5개의 추가 모델을 대상으로 일반화 성능 테스트.",
+    "모델이 피치, 에너지, 노이즈, 억양 등의 개념을 인코딩함을 확인.",
+    "Qwen3-TTS에서 화자 군집, 발화 스타일, 녹음 조건을 아우르는 684개의 자동 검증된 희소 오토인코더 특징 발견."
+   ]
+  }
+ }
+}

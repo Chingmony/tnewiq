@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "81e879ee9fa4a0df",
+ "contentHash": "7b2695a33458952f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:07:12.841Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Connect Customer now supports versioning and aliasing for flows",
+   "summary": "Amazon Connect Customer now supports versioning and aliasing for flows and flow modules. This allows users to create immutable versions of a flow, attach friendly names or aliases to them, and point resources to an alias rather than a specific version. Rolling out a new version can be done through a single update without republishing or relinking each resource.",
+   "impact": "This feature could simplify how developers and administrators build, test, and deploy customer experience flows while minimizing impact to live end-customer traffic. It may allow teams to validate updates in a test environment and move production traffic to a new version with a single update.",
+   "keyPoints": [
+    "Amazon Connect Customer now supports versioning and aliasing for flows and flow modules.",
+    "Users can create immutable flow versions and attach one or more aliases.",
+    "Resources like phone numbers and queues can point to an alias instead of a specific version.",
+    "A new version can be rolled out to production with a single update."
+   ]
+  },
+  "km": {
+   "title": "Amazon Connect Customer ឥឡូវនេះគាំទ្រការគ្រប់គ្រងកំណែនិងឈ្មោះក្លែងក្លាយសម្រាប់លំហូរ",
+   "summary": "Amazon Connect Customer ឥឡូវនេះគាំទ្រការគ្រប់គ្រងកំណែ និងឈ្មោះក្លែងក្លាយសម្រាប់លំហូរនិងម៉ូឌុលលំហូរ ដែលជួយសម្រួលដល់ការបង្កើត ការធ្វើតេស្ត និងការដាក់ពង្រាយលំហូរបទពិសោធន៍អតិថិជន។ មុខងារនេះជួយកាត់បន្ថយផលប៉ះពាល់ដល់ចរាចរណ៍អតិថិជនផ្ទាល់ ដោយអនុញ្ញាតឱ្យបង្កើតកំណែដែលមិនអាចកែប្រែបាន និងភ្ជាប់ឈ្មោះក្លែងក្លាយទៅនឹងកំណែជាក់លាក់មួយ។ ការដាក់ឱ្យប្រើប្រាស់កំណែថ្មីអាចធ្វើឡើងតាមរយៈការអាប់ដេតតែមួយដោយមិនចាំបាច់បោះពុម្ពផ្សាយឡើងវិញនោះទេ។",
+   "impact": "មុខងារនេះអាចជួយក្រុមការងារ និងអ្នកអភិវឌ្ឍន៍ក្នុងការសាកល្បង និងដាក់ពង្រាយលំហូរអតិថិជនដោយកាត់បន្ថយផលប៉ះពាល់លើចរាចរណ៍ផ្ទាល់។ វាអាចធ្វើឱ្យការផ្លាស់ប្តូរទៅកាន់កំណែថ្មីក្នុងផលិតកម្មមានភាពងាយស្រួលជាងមុនតាមរយៈការអាប់ដេតតែមួយដង។",
+   "keyPoints": [
+    "Amazon Connect Customer គាំទ្រការគ្រប់គ្រងកំណែ និងឈ្មោះក្លែងក្លាយសម្រាប់លំហូរ។",
+    "អ្នកប្រើប្រាស់អាចបង្កើតកំណែលំហូរដែលមិនអាចកែប្រែបាន និងភ្ជាប់ឈ្មោះក្លែងក្លាយមួយ ឬច្រើន។",
+    "ធនធានដូចជាលេខទូរសព្ទអាចចង្អុលទៅឈ្មោះក្លែងក្លាយជំនួសឱ្យកំណែជាក់លាក់។",
+    "ការដាក់ឱ្យប្រើប្រាស់កំណែថ្មីត្រូវការការអាប់ដេតតែមួយប៉ុណ្ណោះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Connect Customer 现已支持流的版本控制和别名功能",
+   "summary": "Amazon Connect Customer 现已支持流和流模块的版本控制和别名功能，从而简化了客户体验流的构建、测试和部署，同时最大限度地减少对实时最终客户流量的影响。通过此功能，用户可以创建流的不可变版本并附加一个或多个别名，然后将队列和电话号码等资源指向别名而不是特定版本。推出新版本只需进行一次更新，无需重新发布或重新链接每个资源。",
+   "impact": "此功能可以帮助开发人员和管理员更轻松地构建、测试和部署客户体验流，同时降低对实时生产环境流量的影响。团队可能能够在测试环境中验证更新，并通过单次更新将生产流量无缝切换到新版本。",
+   "keyPoints": [
+    "Amazon Connect Customer 现在支持流和流模块的版本控制和别名功能。",
+    "用户可以创建不可变的流版本并为其分配别名。",
+    "电话号码和队列等资源可以指向别名而非特定版本。",
+    "只需单次更新即可将新版本推出至生产环境。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Connect Customer, 이제 플로우에 대한 버전 관리 및 별칭 지원",
+   "summary": "Amazon Connect Customer가 이제 플로우 및 플로우 모듈에 대한 버전 관리와 별칭 지정을 지원하여, 라이브 최종 고객 트래픽에 대한 영향을 최소화하면서 고객 경험 플로우를 구축, 테스트 및 배포하는 과정을 단순화합니다. 이 기능을 통해 사용자는 플로우의 변경 불가능한 버전을 생성하고 하나 이상의 친숙한 이름인 별칭을 연결한 다음, 특정 버전 대신 별칭을 가리키도록 리소스를 구성할 수 있습니다. 새로운 버전의 배포는 각 리소스를 다시 게시하거나 연결할 필요 없이 단 한 번의 업데이트로 수행할 수 있습니다.",
+   "impact": "이 기능은 개발자와 운영 팀이 라이브 트래픽에 미치는 영향을 줄이면서 고객 경험 플로우를 더 쉽게 테스트하고 배포하는 데 도움을 줄 수 있습니다. 프로덕션 환경에서 테스트를 거친 새 버전으로 전환할 때 단 한 번의 업데이트로 모든 전화번호를 손쉽게 연결할 수 있습니다.",
+   "keyPoints": [
+    "Amazon Connect Customer가 플로우 및 플로우 모듈의 버전 관리 및 별칭 지정을 지원합니다.",
+    "사용자는 변경 불가능한 플로우 버전을 생성하고 별칭을 지정할 수 있습니다.",
+    "전화번호 및 큐와 같은 리소스를 특정 버전 대신 별칭에 연결할 수 있습니다.",
+    "단 한 번의 업데이트로 새로운 버전을 프로덕션에 적용할 수 있습니다."
+   ]
+  }
+ }
+}

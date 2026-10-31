@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "412f6bfe9942b27a",
+ "contentHash": "9c274cedf62a0d6c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:10:01.149Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Attack-Resilient Multi-Bit Image Watermarking Framework via Latent Coordinate Sign Clamping",
+   "summary": "Researchers propose a training-free image watermarking framework that uses the overcompleteness of diffusion latent spaces to embed multi-bit payloads into arbitrary images while maintaining high visual quality. The framework includes a three-layer decoding pipeline to handle channel noise and integrates advanced defenses against active adversaries and forgery. Empirical evaluations show the method supports a scalable 32-to-128-bit capacity and achieves strong performance against removal and regeneration attacks.",
+   "impact": "This framework could offer developers and security teams a robust way to protect image copyrights and attribute both natural and AI-generated content without requiring model training. Technology users and platforms may benefit from improved forgery detection and resistance against advanced removal attempts.",
+   "keyPoints": [
+    "Proposes a training-free watermarking framework for multi-bit payloads in arbitrary images.",
+    "Features a three-layer decoding pipeline combining magnitude-weighted majority voting, BCH, and Chase decoding.",
+    "Integrates a steganalysis-resistant noise camouflage layer and a dual-layer forgery defense.",
+    "Achieves a 32-to-128-bit scalable capacity with high decode rates against attacks."
+   ]
+  },
+  "km": {
+   "title": "ក្របខ័ណ្ឌសម្គាល់រូបភាពពហុប៊ីតដែលមានភាពធន់នឹងការវាយប្រហារតាមរយៈ Latent Coordinate Sign Clamping",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើឡើងនូវក្របខ័ណ្ឌសម្គាល់ទឹកលើរូបភាពដែលមិនចាំបាច់បណ្តុះបណ្តាល ដោយប្រើប្រាស់លំហឡាតង់របស់ diffusion ដើម្បីបង្កប់ទិន្នន័យពហុប៊ីតទៅក្នុងរូបភាពតាមអំពើចិត្ត ខណៈពេលដែលរក្សាបាននូវគុណភាពមើលឃើញខ្ពស់។ ក្របខ័ណ្ឌនេះរួមបញ្ចូលទាំងបំពង់បង្ហូរឌិកូដបីស្រទាប់ និងវិធានការការពារប្រឆាំងនឹងការក្លែងបន្លំ។ ការវាយតម្លៃជាក់ស្តែងបានបង្ហាញថាវិធីសាស្ត្រនេះគាំទ្រសមត្ថភាពចាប់ពី 32 ដល់ 128 ប៊ីត និងមានប្រសិទ្ធភាពខ្ពស់ក្នុងការប្រឆាំងនឹងការវាយប្រហារ។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខនូវមធ្យោបាយដ៏រឹងមាំមួយដើម្បីការពាររក្សាសិទ្ធិរូបភាព និងកំណត់ប្រភពដើមនៃមាតិកាដោយមិនចាំបាច់បណ្តុះបណ្តាលម៉ូដែល។",
+   "keyPoints": [
+    "ស្នើឡើងនូវក្របខ័ណ្ឌសម្គាល់ទឹកដែលមិនចាំបាច់បណ្តុះបណ្តាលសម្រាប់រូបភាពផ្សេងៗ។",
+    "មានបំពង់បង្ហូរឌិកូដបីស្រទាប់ដើម្បីដោះស្រាយសំឡេងរំខានក្នុងបណ្តាញ។",
+    "រួមបញ្ចូលទាំងស្រទាប់បិទបាំងសំឡេងរំខាន និងការការពារការក្លែងបន្លំពីរស្រទាប់។",
+    "សម្រេចបាននូវសមត្ថភាពខ្នាតពី 32 ដល់ 128 ប៊ីត ជាមួយនឹងអត្រាឌិកូដខ្ពស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过Latent Coordinate Sign Clamping的抗攻击多比特图像水印框架",
+   "summary": "研究人员提出了一种无需训练的图像水印框架，利用扩散潜在空间的超完备性将多比特有效载荷嵌入任意图像中，同时保持高视觉质量。该框架包含一个三层解码管道以应对信道噪声，并集成了针对恶意攻击和伪造的防御机制。实证评估表明，该方法支持可扩展的32到128比特容量，并在对抗删除和再生攻击时表现出强大的性能。",
+   "impact": "该框架可能为开发人员和安全团队提供一种稳健的方法来保护图像版权并归属自然图像与AI生成内容，而无需进行模型培训。技术用户和平台可能会受益于改进的伪造检测和对高级删除尝试的抵抗力。",
+   "keyPoints": [
+    "提出了一种针对任意图像的无训练多比特水印框架。",
+    "采用由幅度加权多数投票、BCH和Chase解码组成的三层解码管道。",
+    "集成抗隐写分析的噪声伪装层和双层伪造防御机制。",
+    "实现了32至128比特的可扩展容量以及对抗攻击的高解码率。"
+   ]
+  },
+  "ko": {
+   "title": "Latent Coordinate Sign Clamping을 이용한 공격 탄력적 다비트 이미지 워터마킹 프레임워크",
+   "summary": "연구진은 확산 잠재 공간의 과완비성을 활용하여 높은 시각적 품질을 유지하면서 임의의 이미지에 다비트 페이로드를 삽입할 수 있는 트레이닝 프리 워터마킹 프레임워크를 제안합니다. 이 프레임워크에는 채널 노이즈를 처리하기 위한 3계층 디코딩 파이프라인이 포함되어 있으며 적대적 공격과 위조를 방지하는 방어 메커니즘이 통합되어 있습니다. 실증적 평가는 이 방법이 확장 가능한 32~128비트 용량을 지원하며 제거 및 재생 공격에 대해 강력한 성능을 달성함을 보여줍니다.",
+   "impact": "이 프레임워크는 개발자와 보안 팀에게 모델 학습 없이 이미지 저작권을 보호하고 자연 이미지 및 AI 생성 콘텐츠의 출처를 밝힐 수 있는 강력한 방법을 제공할 수 있습니다. 기술 사용자 및 플랫폼은 향상된 위조 탐지 및 고급 제거 시도에 대한 저항력의 이점을 얻을 수 있습니다.",
+   "keyPoints": [
+    "임의의 이미지에 다비트 페이로드를 삽입하는 트레이닝 프리 워터마킹 프레임워크 제안.",
+    "크기 가중 다수결 투표, BCH 및 Chase 디코딩을 결합한 3계층 디코딩 파이프라인 특징.",
+    "스테گان분석 저항성 노이즈 위장 레이어 및 이중 레이어 위조 방어 통합.",
+    "32~128비트의 확장 가능한 용량과 공격에 대한 높은 디코딩 비율 달성."
+   ]
+  }
+ }
+}

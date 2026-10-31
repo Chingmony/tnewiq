@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "748e47efe1228c0e",
+ "contentHash": "e9f23b2471fca2f1",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:10:45.353Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Integrating Perception, Comprehension, and Projection for Alert Validation: A Unified Cyber Situational Awareness Framework",
+   "summary": "Security Operation Centres face challenges validating large alert volumes with limited resources due to a lack of context. Researchers evaluated perception-, comprehension-, and projection-level cyber situational awareness (CSA) within a unified framework using Captain and Kairos. The study formulates alert validation as a positive-unlabelled multi-instance learning task over CSA-derived behavioural hypotheses, and evaluated it on the DARPA TC dataset.",
+   "impact": "This research could help security teams optimize alert validation workflows by showing that richer CSA does not always improve results, suggesting that selective and adaptive CSA progression may be more effective.",
+   "keyPoints": [
+    "Comprehension-level CSA substantially improves alert validation by incorporating causal attack context.",
+    "PU-MIL achieves up to 28.6 and 75 percentage-point gains in Recall@5 over baselines on Cadets and Theia.",
+    "Projection-level CSA can yield additional benefits, but its effectiveness varies across projection horizons.",
+    "Richer CSA value depends on when and how it is introduced."
+   ]
+  },
+  "km": {
+   "title": "ការរួមបញ្ចូលការយល់ដឹង ការស្វែងយល់ និងការព្យាករណ៍សម្រាប់ការផ្ទៀងផ្ទាត់ការជូនដំណឹង៖ ក្របខ័ណ្ឌការយល់ដឹងពីស្ថានភាពស៊ីនធើនិសបង្រួបបង្រួម",
+   "summary": "មជ្ឈមណ្ឌលប្រតិបត្តិការសន្តិសុខត្រូវតែផ្ទៀងផ្ទាត់បរិមាណដ៏ច្រើននៃការជូនដំណឹងជាមួយនឹងធនធានអ្នកវិភាគដែលមានកំណត់។ អ្នកស្រាវជ្រាវបានធ្វើការវាយតម្លៃជាប្រព័ន្ធអំពីកម្រិតនៃការយល់ដឹងពីស្ថានភាពស៊ីនធើនិសក្នុងក្របខ័ណ្ឌតែមួយដោយប្រើប្រាស់ Captain និង Kairos។ ការវាយតម្លៃពិសោធន៍លើសំណុំទិន្នន័យ DARPA TC បង្ហាញថាការយល់ដឹងកម្រិតខ្ពស់ជួយកែលម្អការផ្ទៀងផ្ទាត់យ៉ាងខ្លាំង។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយក្រុមសន្តិសុខយល់ដឹងពីរបៀបបង្កើនប្រសិទ្ធភាពនៃការផ្ទៀងផ្ទាត់ការជូនដំណឹងដោយជ្រើសរើសកម្រិតនៃការយល់ដឹងពីស្ថានភាពស៊ីនធើនិសឱ្យបានសមស្រប។",
+   "keyPoints": [
+    "ការយល់ដឹងពីស្ថានភាពស៊ីនធើនិសកម្រិតស្វែងយល់ជួយកែលម្អការផ្ទៀងផ្ទាត់ការជូនដំណឹង។",
+    "ការសិក្សានេះប្រើប្រាស់សំណុំទិន្នន័យ DARPA TC សម្រាប់ការវាយតម្លៃពិសោធន៍។",
+    "ប្រសិទ្ធភាពនៃការយល់ដឹងកម្រិតព្យាករណ៍ប្រែប្រួលទៅតាមកម្រិតនៃពេលវេលាព្យាករណ៍។"
+   ]
+  },
+  "zh-CN": {
+   "title": "集成感知、理解和预测的警报验证：统一的网络态势感知框架",
+   "summary": "安全运营中心必须在分析师资源有限的情况下验证大量警报，而这些警报往往缺乏足够的上下文。本文在统一的警报验证框架内对感知级、理解级和预测级网络态势感知（CSA）进行了首次系统评估。通过使用Captain和Kairos并在DARPA TC数据集上进行实验评估，研究表明理解级CSA通过结合因果攻击上下文显著改善了验证效果。",
+   "impact": "这项研究可以帮助安全团队认识到更丰富的CSA并不一定总能带来更好的警报验证效果，从而推动根据验证需求自适应选择CSA的发展。",
+   "keyPoints": [
+    "理解级CSA通过引入因果攻击上下文大大改进了警报验证。",
+    "PU-MIL在Cadets和Theia数据集上取得了显著的Recall@5增益。",
+    "预测级CSA可以带来额外的好处，但其有效性随预测时界的改变而变化。",
+    "CSA的价值取决于其引入的时机和方式。"
+   ]
+  },
+  "ko": {
+   "title": "경고 검증을 위한 인지, 이해, 예측의 통합: 통합된 사이버 상황 인식 프레임워크",
+   "summary": "보안 운영 센터는 제한된 분석가 리소스로 많은 양의 경고를 검증해야 하지만 경고에는 컨텍스트가 부족한 경우가 많습니다. 본 연구에서는 Captain과 Kairos를 사용하여 통합된 경고 검증 프레임워크 내에서 지각, 이해 및 예측 수준의 사이버 상황 인식을 체계적으로 평가했습니다. DARPA TC 데이터셋에 대한 실험 평가는 이해 수준의 CSA가 인과적 공격 컨텍스트를 통합하여 검증을 크게 향상시킨다는 점을 보여줍니다.",
+   "impact": "이 연구는 더 풍부한 CSA가 항상 더 나은 경고 검증으로 이어지는 것은 아니며, 검증 요구 사항에 따라 선별적이고 적응적인 CSA 진행이 필요함을 시사하여 보안 팀에 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "이해 수준의 CSA는 인과적 공격 컨텍스트를 통합하여 경고 검증을 대폭 개선합니다.",
+    "PU-MIL은 Cadets 및 Theia에서 기준선 대비 Recall@5 향상을 달성했습니다.",
+    "예측 수준의 CSA는 추가적인 이점을 제공할 수 있으나 유효성은 예측 지점에 따라 다릅니다.",
+    "풍부한 CSA의 가치는 도입 시기와 방법에 따라 달라집니다."
+   ]
+  }
+ }
+}

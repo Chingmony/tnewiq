@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e124da2b38ca5f52",
+ "contentHash": "5a37e38c60a1e040",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:08:57.291Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "The Precision Wall: An Optimizer-Dependent Boundary for Optimization under Power-Law Measurement Spectra",
+   "summary": "Researchers studied low-rank matrix sensing with power-law measurement covariance, finding that division-normalised first-order optimizers stall above a critical exponent due to a numerical precision wall. They traced this failure to the smallest non-gauge expected Hessian eigenvalue dropping below the effective denominator floor of the optimizer. A proposed formula successfully predicts Adam's onset across a held-out grid of configurations.",
+   "impact": "This research could help developers and researchers better understand the limitations of division-normalised optimizers under power-law measurement spectra. It may also provide a way to predict and distinguish denominator-precision walls from other failure modes.",
+   "keyPoints": [
+    "Replacing isotropic Gaussian designs with power-law measurement covariance leaves the Burer-Monteiro landscape free of spurious local minima.",
+    "Division-normalised first-order optimizers stall above a critical exponent due to a numerical precision wall.",
+    "A proposed boundary formula predicts Adam's onset within 0.45 across a held-out grid.",
+    "The approximation fails at D = 2 and reflects a finite-D spectral crossover."
+   ]
+  },
+  "km": {
+   "title": "ជញ្ជាំងភាពជាក់លាក់៖ ព្រំដែនអាស្រ័យលើកម្មវិធីបង្កើនប្រសិទ្ធភាពសម្រាប់ការបង្កើនប្រសិទ្ធភាពក្រោមវិសាលគមវាស់វែងច្បាប់អំណាច",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាអំពីការចាប់សញ្ញា მេាទ្រីសរ៉ែងទាបជាមួយនឹង covariance វាស់ច្បាប់អំណាច ដោយរកឃើញថា កម្មវិធីបង្កើនប្រសិទ្ធភាពលំដាប់ទីមួយដែលបានធម្មតាក្នុងការបែងចែកបានជាប់គាំងលើសពីកាំរស្មីសំខាន់ដោយសារតែជញ្ជាំងភាពជាក់លាក់លេខ។ ពួកគេបានតាមដានការបរាជ័យនេះទៅនឹង eigenvalue Hessian ដែលរំពឹងទុកមិនមែនរង្វាស់តូចបំផុតដែលធ្លាក់ក្រោមជាន់ភាគបែងដ៏មានប្រសិទ្ធភាព។ រូបមន្តដែលបានស្នើឡើងព្យាករណ៍ដោយជោគជ័យនូវការចាប់ផ្តើមរបស់ Adam នៅទូទាំងក្រឡាចត្រង្គដែលបានរៀបចំ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវឱ្យយល់កាន់តែច្បាស់អំពីដែនកំណត់នៃកម្មវិធីបង្កើនប្រសិទ្ធភាពក្រោមវិសាលគមវាស់វែងច្បាប់អំណាច។ វាក៏អាចផ្តល់នូវមធ្យោបាយមួយដើម្បីទស្សន៍ទាយ និងបែងចែកជញ្ជាំងភាពជាក់លាក់ភាគបែងពីរបៀបបរាជ័យផ្សេងទៀត។",
+   "keyPoints": [
+    "ការជំនួសការរចនា Gaussian isotropic ជាមួយ covariance វាស់ច្បាប់អំណាចធ្វើឱ្យទេសភាព Burer-Monteiro គ្មានរង្វាស់មូលដ្ឋានក្លែងក្លាយ។",
+    "កម្មវិធីបង្កើនប្រសិទ្ធភាពលំដាប់ទីមួយដែលបានធម្មតាក្នុងការបែងចែកជាប់គាំងលើសពីកាំរស្មីសំខាន់ដោយសារជញ្ជាំងភាពជាក់លាក់លេខ។",
+    "រូបមន្តព្រំដែនដែលបានស្នើឡើងព្យាករណ៍ការចាប់ផ្តើមរបស់ Adam ក្នុងរង្វង់ 0.45 ។",
+    "ការ approximating បរាជ័យនៅ D = 2 និងឆ្លុះបញ្ចាំងពីវិសាលគមឆ្លងកាត់ D មានកំណត់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "精度墙：幂律测量谱下优化的一种依赖优化器的边界",
+   "summary": "研究人员研究了具有幂律测量协方差的低秩矩阵感知，发现在除法归一化的一阶优化器中，由于数值精度墙的存在，优化器在超过临界指数时会停滞。他们将这种失效追溯到最小的非规范期望Hessian特征值下降到优化器的有效分母底限以下。所提出的公式成功预测了Adam在保留网格配置上的启动点。",
+   "impact": "这项研究可以帮助开发人员和研究人员更好地理解幂律测量谱下除法归一化优化器的局限性。它也可能提供一种方法来预测并将分母精度墙与其它失效模式区分开来。",
+   "keyPoints": [
+    "用幂律测量协方差替换各向同性高斯设计使Burer-Monteiro景观没有伪局部最小值。",
+    "除法归一化的一阶优化器由于数值精度墙而在超过临界指数时停滞。",
+    "所提出的边界公式在保留网格上预测Adam的启动误差在0.45以内。",
+    "该近似在D = 2时失效，并反映了有限D的光谱交叉。"
+   ]
+  },
+  "ko": {
+   "title": "정밀도 벽: 멱법칙 측정 스펙트럼에서의 최적화를 위한 최적화기 의존적 경계",
+   "summary": "연구원들은 멱법칙 측정 공분산을 가진 저랭크 매트릭스 센싱을 연구했으며, 수치적 정밀도 벽으로 인해 나눗셈 정규화된 1차 최적화기가 임계 지수를 초과하여 정체된다는 것을 발견했습니다. 그들은 이 실패를 가장 작은 비게이지 예상 Hessian 고유값이 최적화기의 유효 분모 바닥 아래로 떨어지는 원인으로 추적했습니다. 제안된 공식은 보류된 그리드 구성 전반에서 Adam의 시작점을 성공적으로 예측합니다.",
+   "impact": "이 연구는 개발자와 연구원들이 멱법칙 측정 스펙트럼 하에서 나눗셈 정규화된 최적화기의 한계를 더 잘 이해하는 데 도움이 될 수 있습니다. 또한 분모 정밀도 벽을 다른 실패 모드와 구분하고 예측할 수 있는 수단을 제공할 수도 있습니다.",
+   "keyPoints": [
+    "등방성 가우스 설정을 멱법칙 측정 공분산으로 대체하면 Burer-Monteiro 지형에 가짜 국소 최솟값이 없어집니다.",
+    "나눗셈 정규화된 1차 최적화기는 수치적 정밀도 벽으로 인해 임계 지수를 초과하여 정체됩니다.",
+    "제안된 경계 공식은 보류된 그리드 전체에서 0.45 이내로 Adam의 시작을 예측합니다.",
+    "이 근사는 D = 2에서 실패하며 유한 D 스펙트럼 교차를 반영합니다."
+   ]
+  }
+ }
+}

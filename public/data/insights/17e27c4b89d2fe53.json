@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "17e27c4b89d2fe53",
+ "contentHash": "63541da425e59ef7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-10-31T07:09:30.221Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Understanding and Mitigating Role Spoofing in LLMs",
+   "summary": "Researchers explore role spoofing in large language models, a type of attack where malicious text in tool outputs impersonates the user due to role confusion. The study examines how models track conversation sources using content and structure cues, finding that combined fake structure and content attacks are highly effective. To address this, the authors propose a new detection method using linear probes trained to predict conversation roles.",
+   "impact": "This research could help security teams and developers understand why frontier models remain vulnerable to role spoofing despite existing defenses. The proposed linear probe detection method may offer a way to identify and mitigate these impersonation attacks across different settings.",
+   "keyPoints": [
+    "LLMs can suffer from role confusion, attributing text sources by style rather than labeled role.",
+    "Role spoofing occurs when malicious text in tool outputs impersonates the user.",
+    "Adversarial training against content-based injections leaves models vulnerable to structure-based attacks.",
+    "A new detection method utilizing linear probes can effectively identify role spoofing across various settings."
+   ]
+  },
+  "km": {
+   "title": "ការយល់ដឹង និងការបន្ធូរបន្ថយការបន្លំតួនាទីនៅក្នុង LLMs",
+   "summary": "អ្នកស្រាវជ្រាវបានពិនិត្យមើលការបន្លំតួនាទីនៅក្នុង LLMs ដែលជាការវាយប្រហារតាមរយៈអត្ថបទមានគ្រោះថ្នាក់នៅក្នុងទិន្នផលឧបករណ៍ដើម្បីបន្លំជាអ្នកប្រើប្រាស់។ ការសិក្សានេះបង្ហាញថាគំរូតាមដានប្រភពសន្ទនាដោយប្រើប្រាស់តម្រុយខ្លឹមសារនិងរចនាសម្ព័ន្ធ ដែលធ្វើឱ្យពួកវាងាយរងគ្រោះថ្នាក់។ ជាចុងក្រោយ ពួកគេបានស្នើវិធីសាស្ត្រថ្មីមួយដើម្បីរកឃើញការបន្លំតួនាទីដោយប្រើប្រាស់ប្រូបលីនេអ៊ែរ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយដល់ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍ក្នុងការយល់ដឹងពីភាពងាយរងគ្រោះចំពោះការបន្លំតួនាទី។ វិធីសាស្ត្ររកឃើញថ្មីនេះក៏អាចជួយទប់ស្កាត់ការវាយប្រហារបែបនេះផងដែរ។",
+   "keyPoints": [
+    "LLMs ងាយរងគ្រោះថ្នាក់ដោយសារការច្រឡំតួនាទី។",
+    "ការបន្លំតួនាទីកើតឡើងនៅពេលអត្ថបទមានគ្រោះថ្នាក់បន្លំជាអ្នកប្រើប្រាស់។",
+    "វិធីសាស្ត្ររកឃើញថ្មីប្រើប្រាស់ប្រូបលីនេអ៊ែរដើម្បីទស្សន៍ទាយតួនាទី។"
+   ]
+  },
+  "zh-CN": {
+   "title": "理解和缓解大语言模型中的角色欺骗",
+   "summary": "研究人员探讨了大语言模型中的角色欺骗问题，这是一种由于角色混淆导致工具输出中的恶意文本冒充用户的攻击方式。该研究分析了模型如何利用内容和结构线索来追踪对话来源，并表明结合虚假结构和内容的攻击高度有效。最后，作者提出了一种使用线性探针检测角色欺骗的新方法。",
+   "impact": "这项研究可以帮助开发人员和安全团队了解为什么前沿模型仍然容易受到角色欺骗的影响。所提出的线性探针检测方法可能为在不同环境中识别和缓解此类攻击提供有效途径。",
+   "keyPoints": [
+    "大语言模型容易出现角色混乱，根据风格而不是标签来归属文本来源。",
+    "角色欺骗发生在工具输出中的恶意文本冒充用户时。",
+    "针对基于内容的对抗性训练无法阻止基于结构的攻击。",
+    "使用线性探针预测角色的检测方法在多种设置下均有效。"
+   ]
+  },
+  "ko": {
+   "title": "LLM에서의 역할 스푸핑 이해 및 완화",
+   "summary": "연구자들은 역할 혼란으로 인해 도구 출력의 악성 텍스트가 사용자를 사칭하는 공격인 LLM의 역할 스푸핑을 조사했습니다. 이 연구는 모델이 내용과 구조 단서를 사용하여 대화 소스를 추적하는 방식을 분석하고 가짜 구조와 내용이 결합된 공격이 매우 효과적임을 보여줍니다. 마지막으로 저자들은 대화 역할을 예측하도록 훈련된 선형 프로브를 사용하여 역할 스푸핑을 감지하는 새로운 방법을 제안합니다.",
+   "impact": "이 연구는 개발자와 보안 팀이 최신 모델이 여전히 역할 스푸핑에 취약한 이유를 이해하는 데 도움이 될 수 있습니다. 제안된 선형 프로브 감지 방법은 다양한 환경에서 이러한 사칭 공격을 식별하고 완화하는 수단을 제공할 수 있습니다.",
+   "keyPoints": [
+    "LLM은 레이블이 지정된 역할 대신 스타일에 따라 텍스트 소스를 속이는 역할 혼란을 겪을 수 있습니다.",
+    "역할 스푸핑은 도구 출력의 악성 텍스트가 사용자를 사칭할 때 발생합니다.",
+    "콘텐츠 기반 주입에 대응하는 적대적 훈련은 구조 기반 공격에 취약하게 만듭니다.",
+    "역할을 예측하도록 훈련된 선형 프로브를 활용한 새로운 감지 방법이 효과적입니다."
+   ]
+  }
+ }
+}
