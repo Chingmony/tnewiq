@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "articleId": "75d79aea8e71b361",
+ "contentHash": "2b3c54a17fe708fb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T21:21:55.901Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "On the stability of learning",
+   "summary": "Learning algorithms are typically analyzed assuming informative gradients are continuously available. However, this is not always the case in practice. For instance, learning signals in biological neural networks may be sparse, local, and intermittently available.",
+   "impact": "This research could help developers and researchers better understand how learning systems perform under realistic conditions where learning signals are not continuously present. It may influence the design of more robust algorithms inspired by biological neural networks.",
+   "keyPoints": [
+    "Learning algorithms are often analyzed assuming continuous informative gradients.",
+    "Biological neural networks may have sparse, local, and intermittently available learning signals."
+   ]
+  },
+  "km": {
+   "title": "ស្តីពីស្ថេរភាពនៃការរៀនសូត្រ",
+   "summary": "ក្បួនដោះស្រាយការរៀនសូត្រជាទូទៅត្រូវបានវិភាគក្រោមការសន្មត់ថាជម្រាលព័ត៌មានមានជាបន្តបន្ទាប់។ ប៉ុន្តែរឿងនេះមិនតែងតែត្រឹមត្រូវនោះទេ។ ឧទាហរណ៍ សញ្ញារៀននៅក្នុងបណ្តាញប្រសាទជីវសាស្ត្រអាចមានលក្ខណៈស្តើង មូលដ្ឋាន និងមានជាដំណាក់កាលៗប៉ុណ្ណោះ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវឱ្យយល់កាន់តែច្បាស់អំពីរបៀបដែលប្រព័ន្ធរៀនដំណើរការក្រោមលក្ខខណ្ឌជាក់ស្តែង។ វាអាចមានឥទ្ធិពលលើការរចនាក្បួនដោះស្រាយដែលមានភាពធន់ជាងមុន។",
+   "keyPoints": [
+    "ក្បួនដោះស្រាយការរៀនសូត្រច្រើនតែត្រូវបានវិភាគដោយសន្មត់ថាមានជម្រាលព័ត៌មានបន្តបន្ទាប់។",
+    "បណ្តាញប្រសាទជីវសាស្ត្រអាចមានសញ្ញារៀនស្តើង និងមានជាដំណាក់កាលៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "关于学习的稳定性",
+   "summary": "学习算法通常在假设信息梯度连续可用的情况下进行分析。但这并非总是如此。例如，生物神经网络中的学习信号可能是稀疏的、局部的，并且在任何给定时间都只是间歇性可用。",
+   "impact": "这项研究可以帮助开发人员和研究人员更好地理解学习系统在信息梯度不连续的现实条件下的表现。它可能会影响受生物神经网络启发而设计更具鲁棒性的算法。",
+   "keyPoints": [
+    "学习算法通常在假设连续信息梯度的情况下进行分析。",
+    "生物神经网络中的学习信号可能是稀疏、局部且间歇性可用的。"
+   ]
+  },
+  "ko": {
+   "title": "학습의 안정성에 대하여",
+   "summary": "학습 알고리즘은 일반적으로 유용한 그래디언트가 지속적으로 사용 가능하다는 가정 하에 분석됩니다. 하지만 항상 그렇지는 않습니다. 예를 들어 생물학적 신경망의 학습 신호는 희소하고 국소적이며 간헐적으로만 제공될 수 있습니다.",
+   "impact": "이번 연구는 개발자와 연구자가 학습 신호가 지속적으로 존재하지 않는 현실적인 조건에서 학습 시스템이 어떻게 작동하는지 더 잘 이해하는 데 도움을 줄 수 있습니다. 이는 생물학적 신경망에서 영감을 받은 더 견고한 알고리즘 설계를 유도할 수 있습니다.",
+   "keyPoints": [
+    "학습 알고리즘은 대개 연속적인 유용한 그래디언트를 가정하여 분석됩니다.",
+    "생물학적 신경망의 학습 신호는 희소하고 간헐적일 수 있습니다."
+   ]
+  }
+ }
+}

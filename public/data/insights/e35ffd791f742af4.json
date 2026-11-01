@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e35ffd791f742af4",
+ "contentHash": "2ae3d41127b075a3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T21:19:38.014Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "UniPCH: A Unified Framework for Cross-Chain Payments via Payment Channel Hubs",
+   "summary": "Payment channel hubs enable private cross-chain payments, yet current protocols remain difficult to extend across heterogeneous blockchains. These existing payment flows often depend on specific blockchain representations for transactions, channel updates, and settlement.",
+   "impact": "This research could help developers build more extensible protocols for cross-chain payments across heterogeneous blockchains. It may also improve how payment channel hubs handle transaction representations and settlements.",
+   "keyPoints": [
+    "Payment channel hubs enable private cross-chain payments.",
+    "Existing protocols are difficult to extend across heterogeneous blockchains.",
+    "Payment flows depend on how particular blockchains represent transactions, authorize updates, and settle."
+   ]
+  },
+  "km": {
+   "title": "UniPCH៖ ក្របខ័ណ្ឌបង្រួបបង្រួមសម្រាប់ការបង់ប្រាក់ឆ្លងកាត់បណ្តាញ blockchain តាមរយៈមជ្ឈមណ្ឌលបណ្តាញទូទាត់",
+   "summary": "មជ្ឈមណ្ឌលបណ្តាញទូទាត់អនុញ្ញាតឱ្យมีการបង់ប្រាក់ឆ្លងកាត់បណ្តាញ blockchain ប្រកបដោយភាពឯកជន ប៉ុន្តែពិធីការដែលមានស្រាប់នៅតែពិបាកពង្រីកទូទាំងបណ្តាញ blockchain ដែលមានលក្ខណៈខុសៗគ្នា។ លំហូរនៃការទូទាត់ទាំងនេះច្រើនតែអាស្រ័យលើរបៀបដែលបណ្តាញ blockchain ជាក់លាក់តំណាងឱ្យប្រតិបត្តិការ អនុញ្ញាតការអាប់ដេតឆានែល និងការទូទាត់សង។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍បង្កើតពិធីការដែលអាចពង្រីកបានកាន់តែច្រើនសម្រាប់ការទូទាត់ឆ្លងកាត់បណ្តាញ blockchain និងអាចកែលម្អរបៀបដែលមជ្ឈមណ្ឌលបណ្តាញទូទាត់จัดการការតំណាងប្រតិបត្តិការ។",
+   "keyPoints": [
+    "មជ្ឈមណ្ឌលបណ្តាញទូទាត់អនុញ្ញាតការបង់ប្រាក់ឆ្លងកាត់បណ្តាញ blockchain ប្រកបដោយភាពឯកជន។",
+    "ពិធីការដែលមានស្រាប់ពិបាកពង្រីកទូទាំងបណ្តាញ blockchain ដែលខុសៗគ្នា។",
+    "លំហូរទូទាត់អាស្រ័យលើការតំណាងប្រតិបត្តិការរបស់បណ្តាញ blockchain នីមួយៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "UniPCH：通过支付通道枢纽进行跨链支付的统一框架",
+   "summary": "支付通道枢纽能够实现私密的跨链支付，但现有的协议在异构区块链之间扩展仍然很困难。它们的支付流通常取决于特定区块链如何表示交易、授权通道更新以及进行结算。",
+   "impact": "这项研究可能帮助开发人员为异构区块链之间的跨链支付构建更具可扩展性的协议。它还可能改善支付通道枢纽处理交易表示和结算的方式。",
+   "keyPoints": [
+    "支付通道枢纽能够实现私密的跨链支付。",
+    "现有协议难以在异构区块链之间进行扩展。",
+    "支付流取决于特定区块链表示交易、更新和结算的方式。"
+   ]
+  },
+  "ko": {
+   "title": "UniPCH: 결제 채널 허브를 통한 크로스체인 결제를 위한 통합 프레임워크",
+   "summary": "결제 채널 허브는 사생활이 보호되는 크로스체인 결제를 가능하게 하지만, 기존 프로토콜은 이종 블록체인 전반으로 확장하기 여전히 어렵습니다. 이러한 결제 흐름은 종종 특정 블록체인이 트랜잭션을 표현하고, 채널 업데이트를 승인하며, 정산하는 방식에 따라 달라집니다.",
+   "impact": "이 연구는 개발자들이 이종 블록체인 간의 크로스체인 결제를 위해 더 확장 가능한 프로토콜을 구축하는 데 도움을 줄 수 있습니다. 또한 결제 채널 허브가 트랜잭션 표현과 정산을 처리하는 방식을 개선할 수도 있습니다.",
+   "keyPoints": [
+    "결제 채널 허브는 사생활이 보호되는 크로스체인 결제를 가능하게 함.",
+    "기존 프로토콜은 이종 블록체인 간 확장이 어려움.",
+    "결제 흐름은 블록체인의 트랜잭션 표현 및 정산 방식에 의존함."
+   ]
+  }
+ }
+}

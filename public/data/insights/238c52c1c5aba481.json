@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "238c52c1c5aba481",
+ "contentHash": "f5b03c9fa44c6a5b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T21:21:46.383Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+   "summary": "Many everyday tasks require controlling contact force and motion simultaneously. On humanoid robots, this force needs to be coordinated across both hands and the entire body rather than relying only on kinematic trajectories. To address this, researchers have introduced FLORE, a new framework for learning force-reactive humanoid loco-manipulation.",
+   "impact": "This framework could help developers improve how humanoid robots handle complex everyday tasks that require both movement and precise force control. Security teams and technology users may see advancements in robotic manipulation capabilities.",
+   "keyPoints": [
+    "Everyday tasks require controlling both contact force and motion.",
+    "Humanoids must coordinate force across both hands and the whole body.",
+    "Force cannot always be specified by kinematic trajectories alone.",
+    "FLORE is presented as a framework for learning force-reactive loco-manipulation."
+   ]
+  },
+  "km": {
+   "title": "ការរៀនគ្រប់គ្រងកម្លាំងប្រតិកម្មសម្រាប់មនុស្សយន្តរូបរាងមនុស្ស",
+   "summary": "កិច្ចការប្រចាំថ្ងៃជាច្រើនទាមទារឱ្យមានការគ្រប់គ្រងទាំងកម្លាំងប៉ះទង្គិច និងចលនា។ នៅលើមនុស្សយន្តរូបរាងមនុស្ស កម្លាំងនេះច្រើនតែត្រូវសម្របសម្រួលនៅទូទាំងដៃទាំងសងខាង និងរាងកាយទាំងមូល។ ដូច្នេះ អ្នកស្រាវជ្រាវបានបង្ហាញ FLORE ដែលជាក្របខ័ណ្ឌមួយសម្រាប់ការរៀនគ្រប់គ្រងកម្លាំងប្រតិកម្ម។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចជួយអ្នកអភិវឌ្ឍន៍ក្នុងការធ្វើឱ្យប្រសើរឡើងនូវរបៀបដែលមនុស្សយន្តដោះស្រាយកិច្ចការប្រចាំថ្ងៃដ៏ស្មុគស្មាញ។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចឃើញមានការរីកចម្រើនក្នុងសមត្ថភាពគ្រប់គ្រងរបស់មនុស្សយន្ត។",
+   "keyPoints": [
+    "កិច្ចការប្រចាំថ្ងៃទាមទារការគ្រប់គ្រងកម្លាំងប៉ះទង្គិចនិងចលនា។",
+    "កម្លាំងត្រូវតែសម្របសម្រួលលើដៃទាំងសងខាងនិងរាងកាយទាំងមូល។",
+    "FLORE ត្រូវបានណែនាំជាក្របខ័ណ្ឌសម្រាប់ការរៀនគ្រប់គ្រងកម្លាំងប្រតិកម្ម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "学习力反应式人形loco-manipulation",
+   "summary": "许多日常任务需要同时控制接触力和运动。在人形机器人上，这种力通常必须在双手和整个身体之间进行协调，而不能仅由运动轨迹指定。因此，研究人员提出了FLORE，这是一个用于学习力反应式人形loco-manipulation的框架。",
+   "impact": "该框架可能帮助开发者改善人形机器人处理需要运动和精确力控制的复杂日常任务的方式。技术用户和安全团队可能会看到机器人操作能力的提升。",
+   "keyPoints": [
+    "许多日常任务需要控制接触力和运动。",
+    "机器人必须在双手和全身协调力。",
+    "无法仅通过运动轨迹指定力。",
+    "FLORE是一个学习力反应式loco-manipulation的框架。"
+   ]
+  },
+  "ko": {
+   "title": "힘 반응형 휴머노이드 로코매니퓰레이션 학습",
+   "summary": "많은 일상 업무는 접촉력과 움직임을 동시에 제어해야 합니다. 휴머노이드의 경우 이 힘은 양손과 전신에 걸쳐 조정되어야 하며 운동학적 궤적만으로는 지정할 수 없습니다. 따라서 연구진은 힘 반응형 휴머노이드 로코매니퓰레이션을 학습하기 위한 프레임워크인 FLORE를 제시합니다.",
+   "impact": "이 프레임워크는 개발자가 움직임과 정밀한 힘 제어가 모두 필요한 복잡한 일상 업무를 휴머노이드가 처리하는 방식을 개선하는 데 도움을 줄 수 있습니다. 기술 사용자는 로봇 조작 능력의 향상을 기대할 수 있습니다.",
+   "keyPoints": [
+    "일상 업무는 접촉력과 움직임의 제어가 모두 필요합니다.",
+    "휴머노이드는 양손과 전신에 걸쳐 힘을 조정해야 합니다.",
+    "운동학적 궤적만으로는 힘을 지정할 수 없습니다.",
+    "FLORE는 힘 반응형 로코매니퓰레이션을 학습하기 위한 프레임워크입니다."
+   ]
+  }
+ }
+}

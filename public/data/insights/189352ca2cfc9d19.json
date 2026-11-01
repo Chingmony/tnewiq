@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "189352ca2cfc9d19",
+ "contentHash": "f5f55831ed75e9f2",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T21:24:34.256Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Does VGGT Know What It Does Not Know?",
+   "summary": "Feed-forward 3D reconstruction models like VGGT can regress cameras and geometry in a single forward pass. However, these models do not report uncertainty for their predicted camera poses. Because of this, an incorrect relative pose appears indistinguishable from a correct one.",
+   "impact": "This lack of uncertainty estimation could make it difficult for developers and users to detect errors in automated 3D reconstruction tasks. Understanding whether the frozen model can recognize its own limitations may help improve reliability in future applications.",
+   "keyPoints": [
+    "VGGT is a feed-forward 3D reconstruction model.",
+    "It regresses cameras and geometry in a single forward pass.",
+    "The model reports no uncertainty for predicted camera poses."
+   ]
+  },
+  "km": {
+   "title": "តើ VGGT ដឹងទេថាវាអត់ដឹងអ្វីខ្លះ?",
+   "summary": "ម៉ូឌែលស្ថាបនាឡើងវិញ 3D បែប feed-forward ដូចជា VGGT អាចធ្វើការ regress កាមេរ៉ា និងធរណីមាត្រក្នុងដំណើរឆ្លងកាត់តែមួយ។ ទោះជាយ៉ាងណាក៏ដោយ ម៉ូឌែលទាំងនេះមិនរាយការណ៍អំពីភាពមិនប្រាកដប្រជាសម្រាប់ទីតាំងកាមេរ៉ាដែលខ្លួនទายទុកនោះទេ។ ជាលទ្ធផល ទីតាំងដែលខុសគឺមើលទៅមិនខុសគ្នាពីទីតាំងដែលត្រូវនោះទេ។",
+   "impact": "ការខ្វះខាតការប៉ាន់ប្រមាណភាពមិនប្រាកដប្រជានេះអាចធ្វើឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់ពិបាកក្នុងការរកឃើញកំហុសក្នុងការងារស្ថាបនាឡើងវិញ 3D ដោយស្វ័យប្រវត្តិ។ ការយល់ដឹងថាតើម៉ូឌែលអាចសម្គាល់ដែនកំណត់របស់វាបានឬអត់ អាចជួយកែលម្អភាពជឿទុកចិត្តក្នុងការប្រើប្រាស់ពេលអនាគត។",
+   "keyPoints": [
+    "VGGT គឺជាម៉ូឌែលស្ថាបនាឡើងវិញ 3D បែប feed-forward។",
+    "វាធ្វើការ regress កាមេរ៉ា និងធរណីមាត្រក្នុងដំណើរឆ្លងកាត់តែមួយ។",
+    "ម៉ូឌែលនេះមិនរាយការណ៍ពីភាពមិនប្រាកដប្រជាសម្រាប់ទីតាំងកាមេរ៉ាដែលបានទាយទុកនោះទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "VGGT 知道它自己不知道什么吗？",
+   "summary": "像 VGGT 这样的前馈 3D 重建模型可以在单次前向传递中回归相机和几何形状。然而，它们并没有为预测的相机位姿报告任何不确定性。因此，错误的相对位姿看起来与正确的位姿没有区别。",
+   "impact": "这种不确定性估计的缺乏可能会使开发人员和用户难以在自动 3D 重建任务中发现错误。了解冻结的模型是否能够识别自身的局限性，可能有助于提高未来应用中的可靠性。",
+   "keyPoints": [
+    "VGGT 是一个前馈 3D 重建模型。",
+    "它在单次前向传递中回归相机和几何形状。",
+    "该模型不对预测的相机位姿报告不确定性。"
+   ]
+  },
+  "ko": {
+   "title": "VGGT는 자신이 모르는 것을 알고 있는가?",
+   "summary": "VGGT와 같은 피드포워드 3D 재구성 모델은 단일 순방향 패스에서 카메라와 지오메트리를 회귀할 수 있습니다. 그러나 이 모델들은 예측된 카메라 포즈에 대한 불확실성을 보고하지 않습니다. 이로 인해 잘못된 상대 포즈가 올바른 포즈와 구별되지 않습니다.",
+   "impact": "이러한 불확실성 추정의 부재는 개발자와 사용자가 자동화된 3D 재구성 작업에서 오류를 감지하기 어렵게 만들 수 있습니다. 고정된 모델이 자신의 한계를 인식할 수 있는지 여부를 파악하는 것은 향후 응용 프로그램의 신뢰성을 향상시키는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "VGGT는 피드포워드 3D 재구성 모델입니다.",
+    "단일 순방향 패스에서 카메라와 지오메트리를 회귀합니다.",
+    "모델은 예측된 카메라 포즈에 대한 불확실성을 보고하지 않습니다."
+   ]
+  }
+ }
+}

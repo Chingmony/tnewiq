@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ff2372532e85dded",
+ "contentHash": "18975a7a5c582b43",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T21:24:14.897Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Understanding Jev-Style System One Models: Does Structure Reduce Selection Bias?",
+   "summary": "Selection bias in large language models can persist even when instructions tell models to ignore presentation order or prompts encourage reasoning. Recent efforts to replicate Jev-style System One behavior have led to a growing family of models that predict probabilities directly.",
+   "impact": "This research could help developers and researchers better understand how model architecture and probability prediction affect selection bias. It may offer insights into improving model reliability when dealing with presentation order issues.",
+   "keyPoints": [
+    "Selection bias persists in large language models despite instructions or reasoning prompts.",
+    "Recent efforts reproduce Jev-style System One behavior.",
+    "A growing family of models predicts probabilities directly."
+   ]
+  },
+  "km": {
+   "title": "ការយល់ដឹងអំពីម៉ូឌែល System One បែប Jev៖ តើโครงសាស្ត្រកាត់បន្ថយភាពលំអៀងនៃការជ្រើសរើសដែរឬទេ?",
+   "summary": "ភាពលំអៀងនៃការជ្រើសរើសនៅក្នុងម៉ូឌែលភាសាខ្នាតធំអាចនៅតែបន្ត ទោះបីជាមានការណែនាំឱ្យមិនអើពើនឹងលំដាប់នៃការបង្ហាញ ឬការបញ្ជាឱ្យមានការហេតុផលក៏ដោយ។ កិច្ចខិតខំប្រឹងប្រែងថ្មីៗដើម្បីបង្កើតឥរិយាបថ System One បែប Jev ឡើងវិញ បានបង្កើតគ្រួសារម៉ូឌែលដែលទស្សន៍ទាយប្រូបាប៊ីលីតេដោយផ្ទាល់។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍យល់កាន់តែច្បាស់ពីរបៀបដែលរចនាសម្ព័ន្ធម៉ូឌែល និងការទស្សន៍ទាយប្រូបាប៊ីលីតេប៉ះពាល់ដល់ភាពលំអៀងនៃការជ្រើសរើស។ វាអាចផ្តល់នូវការយល់ដឹងក្នុងការកែលម្អភាពជឿជាក់របស់ម៉ូឌែល។",
+   "keyPoints": [
+    "ភាពលំអៀងនៃការជ្រើសរើសនៅតែបន្តនៅក្នុងម៉ូឌែលភាសាខ្នាតធំ។",
+    "កិច្ចខិតខំប្រឹងប្រែងថ្មីៗបង្កើតឥរិយាបថ System One បែប Jev ឡើងវិញ។",
+    "ក្រុមគ្រួសារម៉ូឌែលដែលទស្សន៍ទាយប្រូបាប៊ីលីតេដោយផ្ទាល់កំពុងមានការរីកចម្រើន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "理解 Jev 风格的 System One 模型：结构能减少选择偏差吗？",
+   "summary": "尽管有忽略呈现顺序的指令或引发推理的提示，大型语言模型中的选择偏差仍然存在。最近复制 Jev 风格 System One 行为的努力已经产生了一个不断增长的模型系列，可以直接预测概率。",
+   "impact": "这项研究可能帮助开发人员和安全团队更好地理解模型结构和概率预测如何影响选择偏差。它可能会为解决呈现顺序问题带来新的见解。",
+   "keyPoints": [
+    "大型语言模型中仍然存在选择偏差。",
+    "近期努力重现了 Jev 风格的 System One 行为。",
+    "一类直接预测概率的模型家族正在不断增长。"
+   ]
+  },
+  "ko": {
+   "title": "Jev 스타일 System One 모델 이해하기: 구조가 선택 편향을 줄이는가?",
+   "summary": "대형 언어 모델의 선택 편향은 프레젠테이션 순서를 무시하라는 지시나 추론을 유도하는 프롬프트에도 불구하고 지속될 수 있습니다. Jev 스타일의 System One 동작을 재현하려는 최근의 노력으로 확률을 직접 예측하는 점점 더 많은 모델 패밀리가 탄생했습니다.",
+   "impact": "이 연구는 개발자와 연구자가 모델 아키텍처와 확률 예측이 선택 편향에 미치는 영향을 더 잘 이해하는 데 도움이 될 수 있습니다. 제시 순서 문제와 관련된 모델 신뢰성을 개선하는 데 대한 통찰력을 제공할 수 있습니다.",
+   "keyPoints": [
+    "대형 언어 모델에서는 지시나 추론 프롬프트에도 불구하고 선택 편향이 지속됩니다.",
+    "최근 노력을 통해 Jev 스타일의 System One 동작이 재현되었습니다.",
+    "확률을 직접 예측하는 모델 패밀리가 성장하고 있습니다."
+   ]
+  }
+ }
+}

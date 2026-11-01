@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "49af57e0b89a8b7b",
+ "contentHash": "19a7c4b9507d3d6f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T21:22:16.335Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
+   "summary": "Large language models show promise in specialty medicine, but current evaluations typically focus on isolated clinical encounters instead of tracking clinical responsibilities across a longitudinal care pathway. To address this, researchers introduced NPC-RubricBench, a phase-aware evaluation approach for cancer care. This framework aims to assess how models handle evolving clinical responsibilities over time.",
+   "impact": "This evaluation framework could help developers and medical researchers better understand how large language models perform across complex, multi-stage medical workflows. Technology users and clinical teams may use these insights to assess the reliability of AI models in long-term patient care pathways.",
+   "keyPoints": [
+    "Current evaluations of large language models in medicine often focus on isolated clinical encounters.",
+    "Clinical responsibilities evolve over a longitudinal care pathway.",
+    "NPC-RubricBench is introduced as a phase-aware evaluation framework for cancer care."
+   ]
+  },
+  "km": {
+   "title": "ការវាយតម្លៃផ្អែកលើrubricជាក់លាក់របស់អតិថិជននៃគំរូភាសាខ្នាតធំទូទាំងការថែទាំជំងឺមហារីកតាមរយៈការតាមដានរយៈពេលវែង",
+   "summary": "គំរូភាសាខ្នាតធំបង្ហាញពីសក្តានុពលក្នុងវេជ្ជសាស្ត្រជំនាញ ប៉ុន្តែការវាយតម្លៃដែលមានស្រាប់ភាគច្រើនផ្តោតលើការពិនិត្យព្យាបាលដាច់ដោយឡែកជាជាងការតាមដានពីរបៀបដែលការទទួលខុសត្រូវផ្នែកព្យាបាលវិវត្តន៍ទូទាំងដំណើរការថែទាំរយៈពេលវែង។ ដើម្បីដោះស្រាយបញ្ហានេះ អ្នកស្រាវជ្រាវបានណែនាំ NPC-RubricBench ដែលជាវិធីសាស្ត្រវាយតម្លៃតាមដំណាក់កាល។ ក្របខ័ណ្ឌនេះមានគោលបំណងវាយតម្លៃពីរបៀបដែលគំរូនានាគ្រប់គ្រងការទទួលខុសត្រូវផ្នែកព្យាបាលដែលវិវត្តតាមពេលវេលា។",
+   "impact": "ក្របខ័ណ្ឌវាយតម្លៃនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវផ្នែកវេជ្ជសាស្ត្រឱ្យយល់កាន់តែច្បាស់អំពីរបៀបដែលគំរូភាសាខ្នាតធំដំណើរការទូទាំងដំណើរការការងារវេជ្ជសាស្ត្រដ៏ស្មុគស្មាញ។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យា និងក្រុមព្យាបាលអាចប្រើប្រាស់ការយល់ដឹងទាំងនេះដើម្បីវាយតម្លៃភាពជឿជាក់នៃគំរូបញ្ញាសិប្បនិម្មិតក្នុងដំណើរការថែទាំអ្នកជំងឺរយៈពេលវែង។",
+   "keyPoints": [
+    "ការវាយតម្លៃបច្ចុប្បន្ននៃគំរូភាសាខ្នាតធំក្នុងវិស័យវេជ្ជសាស្ត្រច្រើនតែផ្តោតលើការពិនិត្យព្យាបាលដាច់ដោយឡែក។",
+    "ការទទួលខុសត្រូវផ្នែកព្យាបាលវិវត្តន៍តាមដំណើរការថែទាំរយៈពេលវែង។",
+    "NPC-RubricBench ត្រូវបានណែនាំជាក្របខ័ណ្ឌវាយតម្លៃតាមដំណាក់កាលសម្រាប់ការថែទាំជំងឺមហារីក។"
+   ]
+  },
+  "zh-CN": {
+   "title": "基于患者特定评分标准的大型语言模型在纵向癌症护理中的评估",
+   "summary": "大型语言模型在专科医学中展现出了潜力，但现有的评估大多关注孤立的临床接触，而不是追踪临床职责在纵向护理路径中如何演变。为此，研究人员引入了 NPC-RubricBench，这是一种面向癌症护理的阶段感知评估方法。该框架旨在评估模型如何处理随时间演变的临床职责。",
+   "impact": "该评估框架可以帮助开发人员和医学研究人员更好地理解大型语言模型在复杂的多阶段医疗工作流程中的表现。技术用户和临床团队可能会利用这些见解来评估人工智能模型在长期患者护理路径中的可靠性。",
+   "keyPoints": [
+    "当前对医学中大型语言模型的评估通常侧重于孤立的临床接触。",
+    "临床职责在纵向护理路径中不断演变。",
+    "NPC-RubricBench 被引入作为癌症护理的阶段感知评估框架。"
+   ]
+  },
+  "ko": {
+   "title": "장기적인 암 치료 과정에서 대형 언어 모델의 환자 맞춤형 루브릭 기반 평가",
+   "summary": "대형 언어 모델은 전문 의학 분야에서 가능성을 보여주고 있지만, 기존의 평가는 종단적 치료 경로 전반에 걸쳐 임상적 책임이 어떻게 진화하는지 추적하기보다는 주로 고립된 임상 접점에 초점을 맞추고 있습니다. 이를 해결하기 위해 연구자들은 암 치료를 위한 단계 인식 평가 방식인 NPC-RubricBench를 도입했습니다. 이 프레임워크는 모델이 시간에 따라 진화하는 임상적 책임을 어떻게 처리하는지 평가하는 것을 목표로 합니다.",
+   "impact": "이 평가 프레임워크는 개발자와 의료 연구원이 복잡한 다단계 의료 워크플로 전반에서 대형 언어 모델의 성능을 더 잘 이해하는 데 도움이 될 수 있습니다. 기술 사용자 및 임상 팀은 이러한 통찰력을 사용하여 장기적인 환자 치료 경로에서 AI 모델의 신뢰성을 평가할 수 있습니다.",
+   "keyPoints": [
+    "의학 분야의 대형 언어 모델에 대한 현재 평가는 종종 고립된 임상 접점에 초점을 맞춥니다.",
+    "임상적 책임은 종단적 치료 경로에 따라 진화합니다.",
+    "NPC-RubricBench는 암 치료를 위한 단계 인식 평가 프레임워크로 도입되었습니다."
+   ]
+  }
+ }
+}

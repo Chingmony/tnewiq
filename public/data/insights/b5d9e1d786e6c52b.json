@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b5d9e1d786e6c52b",
+ "contentHash": "d552a006e9a35230",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T21:19:00.688Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Too many clients spoil the logs: distributed parsing, aggregation techniques and metrics",
+   "summary": "Log messages are used to identify anomalies in IoT systems and across many applications. Federated log anomaly detection has been investigated to enable collaboration among infrastructures belonging to different organizations.",
+   "impact": "Security teams and developers working with IoT systems and federated infrastructures may find these techniques useful for anomaly detection across different organizations.",
+   "keyPoints": [
+    "Log messages help identify anomalies in IoT systems",
+    "Federated log anomaly detection enables collaboration across different organizations",
+    "Distributed parsing and aggregation techniques are explored"
+   ]
+  },
+  "km": {
+   "title": "អតិថិជនច្រើនពេកធ្វើឱ្យកំណត់ហេតុខូចខាត៖ ការញែកបែបdistributed បច្ចេកទេសសរុប និងរង្វាស់",
+   "summary": "សារកំណត់ហេតុត្រូវបានប្រើប្រាស់ដើម្បីកំណត់អត្តសញ្ញាណភាពមិនប្រក្រតីនៅក្នុងប្រព័ន្ធ IoT និងកម្មវិធីជាច្រើន។ ការរកឃើញភាពមិនប្រក្រតីនៃកំណត់ហេតុបែប federated ត្រូវបានសិក្សាស្រាវជ្រាវយ៉ាងស៊ីជម្រៅ ដើម្បីអាចឱ្យមានកិច្ចសហការគ្នារវាងហេដ្ឋារចនាសម្ព័ន្ធរបស់អង្គការផ្សេងៗគ្នា។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍ដែលធ្វើការជាមួយប្រព័ន្ធ IoT និងហេដ្ឋារចនាសម្ព័ន្ធបែប federated អាចរកឃើញថាបច្ចេកទេសទាំងនេះមានប្រយោជន៍សម្រាប់ការរកឃើញភាពមិនប្រក្រតី។",
+   "keyPoints": [
+    "សារកំណត់ហេតុជួយកំណត់អត្តសញ្ញាណភាពមិនប្រក្រតីក្នុងប្រព័ន្ធ IoT",
+    "ការរកឃើញភាពមិនប្រក្រតីនៃកំណត់ហេតុបែប federated អនុញ្ញាតឱ្យមានកិច្ចសហការ",
+    "ការញែកបែប distributed និងបច្ចេកទេសសរុបត្រូវបានសិក្សាស្រាវជ្រាវ"
+   ]
+  },
+  "zh-CN": {
+   "title": "客户端过多会破坏日志：分布式解析、聚合技术与指标",
+   "summary": "日志消息被用于识别IoT系统中的异常，并在许多应用中得到广泛使用。为了实现不同组织所属基础设施之间的协作，人们对联邦日志异常检测进行了深入研究。",
+   "impact": "从事IoT系统和联邦基础设施的安全团队和开发人员可能会发现这些技术有助于跨不同组织进行异常检测。",
+   "keyPoints": [
+    "日志消息有助于识别IoT系统中的异常",
+    "联邦日志异常检测实现不同组织间的协作",
+    "探讨了分布式解析和聚合技术"
+   ]
+  },
+  "ko": {
+   "title": "너무 많은 클라이언트가 로그를 망친다: 분산 파싱, 집계 기술 및 지표",
+   "summary": "로그 메시지는 IoT 시스템의 이상 현상을 식별하는 데 사용되며 다양한 응용 프로그램에서 널리 활용되고 있습니다. 서로 다른 조직의 인프라 간 협업을 가능하게 하기 위해 연합 로그 이상 탐구가 철저히 연구되었습니다.",
+   "impact": "IoT 시스템 및 연합 인프라를 다루는 보안 팀과 개발자는 이러한 기술이 다양한 조직 간의 이상 탐지에 유용하다는 것을 알 수 있습니다.",
+   "keyPoints": [
+    "로그 메시지는 IoT 시스템의 이상을 식별하는 데 도움을 줌",
+    "연합 로그 이상 탐구는 다양한 조직 간의 협업을 가능하게 함",
+    "분산 파싱 및 집계 기술이 연구됨"
+   ]
+  }
+ }
+}
