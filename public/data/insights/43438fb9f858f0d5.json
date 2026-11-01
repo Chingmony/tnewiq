@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "43438fb9f858f0d5",
+ "contentHash": "02c016985109fdc5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T16:54:51.117Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Test-Time Communication in Trading Agent Swarms",
+   "summary": "Agent communication has typically been studied on tasks with shared goals and rapid feedback. Trading lacks these features because each agent manages its own account and market scoring is late and noisy. Therefore, a trading swarm consists of a population of independent entities.",
+   "impact": "This research could help developers and technology users understand how independent agents coordinate under noisy conditions. It may provide insights for building more resilient multi-agent systems in complex environments.",
+   "keyPoints": [
+    "Agent communication is traditionally studied on shared-objective tasks with fast feedback.",
+    "Trading environments lack shared objectives and fast feedback.",
+    "Each trading agent manages its own account with delayed and noisy market scoring.",
+    "A trading swarm functions as a population of independent entities."
+   ]
+  },
+  "km": {
+   "title": "ការទំនាក់ទំនងពេលសាកល្បងនៅក្នុងក្រុមភ្នាក់ងារជួញដូរ",
+   "summary": "ការទំនាក់ទំនងរវាងភ្នាក់ងារភាគច្រើនត្រូវបានសិក្សាតlើកិច្ចការដែលមានគោលដៅរួម និងមតិត្រឡប់លឿន។ ការជួញដូរមិនមានលក្ខណៈទាំងនេះទេ ព្រោះភ្នាក់ងារនីមួយៗគ្រប់គ្រងគណនីផ្ទាល់ខ្លួន ហើយទីផ្សារផ្តល់ពិន្ទុយឺតនិងមានសំឡេងរំខាន។ ដូច្នេះ ក្រុមភ្នាក់ងារជួញដូរគឺជាចំនួនប្រជាសាស្ត្រនៃភ្នាក់ងារឯករាជ្យ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាឱ្យយល់ពីរបៀបដែលភ្នាក់ងារឯករាជ្យសម្របសម្រួលក្រោមលក្ខខណ្ឌមានសំឡេងរំខាន។ វាអាចផ្តល់នូវការយល់ដឹងសម្រាប់ការបង្កើតប្រព័ន្ធភ្នាក់ងារច្រើនដែលមានភាពធន់ជាងមុនក្នុងបរិយាកាសស្មុគស្មាញ។",
+   "keyPoints": [
+    "ការទំនាក់ទំនងភ្នាក់ងារត្រូវបានសិក្សាតាមប្រពៃណីលើកិច្ចការគោលដៅរួមដែលមានមតិត្រឡប់លឿន។",
+    "បរិយាកាសជួញដូរខ្វះគោលដៅរួមនិងមតិត្រឡប់លឿន។",
+    "ភ្នាក់ងារជួញដូរនីមួយៗគ្រប់គ្រងគណនីផ្ទាល់ខ្លួនដោយមានការផ្តល់ពិន្ទុទីផ្សារយឺតនិងមានសំឡេងរំខាន។",
+    "ក្រុមភ្នាក់ងារជួញដូរដំណើរការជាចំនួនប្រជាសាស្ត្រនៃអង្គភាពឯករាជ្យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "交易智能体集群中的测试时通信",
+   "summary": "智能体之间的通信主要在具有共同目标和快速反馈的任务上进行研究。交易则两者皆无：每个智能体管理自己的账户，决策由市场进行迟缓且带有噪声的评分。因此，交易智能体集群是由独立个体组成的人群。",
+   "impact": "这项研究可能帮助开发人员和技术用户理解独立智能体如何在有噪声的条件下进行协调。它可能为在复杂环境中构建更具韧性的多智能体系统提供见解。",
+   "keyPoints": [
+    "智能体通信传统上是在具有快速反馈的共同目标任务上进行研究的。",
+    "交易环境缺乏共同目标和快速反馈。",
+    "每个交易智能体管理自己的账户，市场评分延迟且带有噪声。",
+    "交易智能体集群是一群独立的实体。"
+   ]
+  },
+  "ko": {
+   "title": "트레이딩 에이전트 스웜의 테스트 타임 통신",
+   "summary": "에이전트 간 통신은 주로 공통된 목표와 빠른 피드백이 있는 작업에서 연구되었습니다. 트레이딩은 각 에이전트가 자신의 계정을 관리하고 시장에서 늦고 노이즈가 많은 방식으로 점수가 매겨지기 때문에 이 두 가지 모두가 없습니다. 따라서 트레이딩 스웜은 독립적인 개체들로 이루어진 집단입니다.",
+   "impact": "이 연구는 개발자와 기술 사용자가 노이즈가 많은 조건에서 독립적인 에이전트들이 어떻게 조정하는지 이해하는 데 도움을 줄 수 있습니다. 복잡한 환경에서 더 탄력적인 멀티 에이전트 시스템을 구축하기 위한 통찰력을 제공할 수 있습니다.",
+   "keyPoints": [
+    "에이전트 통신은 전통적으로 빠른 피드백이 있는 공통 목표 작업에서 연구되었습니다.",
+    "트레이딩 환경에는 공통 목표와 빠른 피드백이 부족합니다.",
+    "각 트레이딩 에이전트는 지연되고 노이즈가 많은 시장 점수 매기기와 함께 자신의 계정을 관리합니다.",
+    "트레이딩 스웜은 독립적인 개체들의 집합으로 기능합니다."
+   ]
+  }
+ }
+}

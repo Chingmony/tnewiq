@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f943d579a729e359",
+ "contentHash": "44f3fca467577e3d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T16:56:59.791Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Multi-Label Agreement: A Flexible Framework for Inter-Annotator Reliability",
+   "summary": "Reliable evaluation of inter-annotator agreement is important for assessing the consistency of annotation processes. Established IAA metrics such as Cohen's kappa, Fleiss' kappa, and Krippendorff's alpha are commonly applied in single-label settings. However, multi-label settings require a flexible framework.",
+   "impact": "This research could help developers and researchers better assess consistency in complex annotation processes involving multi-label data. It may improve how inter-annotator reliability is measured in tasks beyond traditional single-label settings.",
+   "keyPoints": [
+    "Reliable inter-annotator agreement evaluation assesses annotation consistency.",
+    "Traditional metrics like Cohen's kappa and Krippendorff's alpha are used for single-label settings.",
+    "A flexible framework is introduced for multi-label agreement."
+   ]
+  },
+  "km": {
+   "title": "កិច្ចព្រមព្រៀងលើស្លាកច្រើន៖ ក្របខ័ណ្ឌបត់បែនសម្រាប់ភាពជឿជាក់រវាងអ្នកដាក់ស្លាក",
+   "summary": "ការវាយតម្លៃគួរឱ្យទុកចិត្តនៃកិច្ចព្រមព្រៀងរវាងអ្នកដាក់ស្លាកគឺមានសារៈសំខាន់សម្រាប់ការវាយតម្លៃភាពស៊ីសង្វាក់គ្នានៃដំណើរការដាក់ស្លាក។ រង្វាស់ IAA ដែលបានបង្កើតឡើងដូចជា Cohen's kappa, Fleiss' kappa និង Krippendorff's alpha ត្រូវបានអនុវត្តជាទូទៅក្នុងការកំណត់ស្លាកតែមួយ។ ទោះជាយ៉ាងណាក៏ដោយ ការកំណត់ស្លាកច្រើនទាមទារឱ្យមានក្របខ័ណ្ឌបត់បែនមួយ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវវាយតម្លៃភាពស៊ីសង្វាក់គ្នាក្នុងដំណើរការដាក់ស្លាកស្មុគស្មាញដែលមានទិន្នន័យស្លាកច្រើនបានប្រសើរជាងមុន។ វាអាចកែលម្អវិធីសាស្ត្រវាស់វែងភាពជឿជាក់រវាងអ្នកដាក់ស្លាកក្នុងការងារដែលហួសពីការកំណត់ស្លាកតែមួយបែបប្រពៃណី។",
+   "keyPoints": [
+    "ការវាយតម្លៃកិច្ចព្រមព្រៀងរវាងអ្នកដាក់ស្លាកគួរឱ្យទុកចិត្តវាស់វែងភាពស៊ីសង្វាក់គ្នានៃការដាក់ស្លាក។",
+    "រង្វាស់បែបប្រពៃណីដូចជា Cohen's kappa និង Krippendorff's alpha ត្រូវបានប្រើសម្រាប់ការកំណត់ស្លាកតែមួយ។",
+    "ក្របខ័ណ្ឌបត់បែនមួយត្រូវបានណែនាំសម្រាប់កិច្ចព្រមព្រៀងលើស្លាកច្រើន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "多标签一致性：评估标注者间信度的灵活框架",
+   "summary": "可靠地评估标注者间一致性对于评估标注过程的一致性非常重要。诸如 Cohen's kappa、Fleiss' kappa 和 Krippendorff's alpha 等既定的 IAA 指标通常应用于单标签场景。然而，多标签场景需要一个灵活的框架。",
+   "impact": "这项研究可以帮助开发人员和研究人员更好地评估涉及多标签数据的复杂标注过程中的一致性。它可能会改善在传统单标签场景之外的任务中衡量标注者间信度的方式。",
+   "keyPoints": [
+    "可靠的标注者间一致性评估能够衡量标注的一致性。",
+    "Cohen's kappa 和 Krippendorff's alpha 等传统指标用于单标签场景。",
+    "引入了一个用于多标签一致性的灵活框架。"
+   ]
+  },
+  "ko": {
+   "title": "다중 레이블 일치도: 상호 주석자 신뢰도를 위한 유연한 프레임워크",
+   "summary": "상호 주석자 일치도의 신뢰할 수 있는 평가는 주석 프로세스의 일관성을 평가하는 데 중요합니다. Cohen's kappa, Fleiss' kappa, Krippendorff's alpha와 같은 기존 IAA 지표는 단일 레이블 설정에서 일반적으로 적용됩니다. 그러나 다중 레이블 설정에는 유연한 프레임워크가 필요합니다.",
+   "impact": "이 연구는 개발자와 연구자가 다중 레이블 데이터와 관련된 복잡한 주석 프로세스의 일관성을 더 잘 평가하는 데 도움을 줄 수 있습니다. 전통적인 단일 레이블 설정을 넘어선 작업에서 상호 주석자 신뢰도가 측정되는 방식을 개선할 수 있습니다.",
+   "keyPoints": [
+    "신뢰할 수 있는 상호 주석자 일치도 평가는 주석 일관성을 평가합니다.",
+    "Cohen's kappa 및 Krippendorff's alpha와 같은 전통적인 지표는 단일 레이블 설정에 사용됩니다.",
+    "다중 레이블 일치도를 위한 유연한 프레임워크가 도입되었습니다."
+   ]
+  }
+ }
+}

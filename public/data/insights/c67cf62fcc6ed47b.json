@@ -1,53 +1,48 @@
 {
  "schemaVersion": 1,
  "articleId": "c67cf62fcc6ed47b",
- "contentHash": "9d3fad7148028ea3",
+ "contentHash": "a5897941fc45c888",
  "model": "gemini-flash-lite-latest",
- "generatedAt": "2026-10-27T20:16:50.981Z",
+ "generatedAt": "2026-11-01T16:58:03.628Z",
  "basedOn": "feed-text",
  "languages": {
   "en": {
-   "title": "Mitsubishi Electric GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
-   "summary": "CISA has released a cybersecurity advisory regarding multiple vulnerabilities affecting various Mitsubishi Electric software products, including GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32, and BizViz. Successful exploitation of these flaws could allow attackers to execute arbitrary code, bypass authentication, or perform arbitrary operations. This can lead to information disclosure, data tampering or deletion, and denial-of-service conditions.",
-   "impact": "These vulnerabilities could impact organizations utilizing affected Mitsubishi Electric software within critical manufacturing sectors. Security teams and system administrators may need to apply vendor fixes, such as version 10.97.3 or later for GENESIS64 and ICONICS Suite, or implement recommended mitigations like restricting logins to administrators, using firewalls, and blocking remote access from untrusted networks.",
+   "title": "Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
+   "summary": "CISA issued a cybersecurity advisory regarding vulnerabilities affecting multiple products from Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions. Successful exploitation of these vulnerabilities could allow attackers to execute arbitrary code, bypass authentication, or perform arbitrary operations. This may lead to information disclosure, data tampering or destruction, and system denial-of-service conditions.",
+   "impact": "Security teams and administrators managing affected Mitsubishi Electric systems could face significant risks such as arbitrary code execution and authentication bypass. Applying vendor fixes and updates may help mitigate these vulnerabilities.",
    "keyPoints": [
-    "Vulnerabilities include out-of-bounds write (CVE-2023-4863), authentication bypass, and arbitrary operation issues.",
     "Affected products include GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32, and BizViz.",
-    "Exploitation may result in arbitrary code execution, information disclosure, data tampering, or denial of service.",
-    "Mitsubishi Electric has released fixed versions and provided workarounds such as restricting local admin logins and blocking remote access."
+    "Vulnerabilities include CVE-2023-4863, CVE-2026-16436, CVE-2026-16437, and CVE-2026-16438.",
+    "Flaws involve out-of-bounds write, weak password recovery mechanisms, and incorrect privilege assignment."
    ]
   },
   "km": {
-   "title": "Mitsubishi Electric GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 និង BizViz",
-   "summary": "CISA បានចេញផ្សាយការជូនដំណឹងអំពីសុវត្ថិភាពស៊ីនធឺណិតពាក់ព័ន្ធនឹងខ្សោយភាពរងគ្រោះច្រើនដែលប៉ះពាល់ដល់ផលិតផលសូហ្វវែររបស់ Mitsubishi Electric រួមមាន GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 និង BizViz។ ការកេងប្រវ័ញ្ចបានសម្រេចលើចំណុចខ្សោយទាំងនេះអាចអនុញ្ញាតឱ្យអ្នកវាយប្រហារប្រតិបត្តិូដប្បន្នភាពតាមអំពើចិត្ត រំលងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ ឬអនុវត្តប្រតិបត្តិការតាមអំពើចិត្ត។",
-   "impact": "ភាពរងគ្រោះទាំងនេះអាចប៉ះពាល់ដល់អង្គការដែលប្រើប្រាស់សូហ្វវែរ Mitsubishi Electric ដែលងាយរងគ្រោះក្នុងវិស័យផលិតកម្មសំខាន់ៗ។ ក្រុមសុវត្ថិភាពនិងអ្នកគ្រប់គ្រងប្រព័ន្ធអាចចាំបាច់ត្រូវអនុវត្តការជួសជុលពីក្រុមហ៊ុនផលិត ឬដាក់ចេញនូវវិធានការបន្ធូរបន្ថយដែលបានណែនាំ។",
+   "title": "Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
+   "summary": "CISA បានចេញផ្សាយការជូនដំណឹងអំពីសុវត្ថិភាពតាមប្រព័ន្ធអ៊ីនធឺណិតដែលពាក់ព័ន្ធនឹងភាពងាយរងគ្រោះលើផលិតផលជាច្រើនរបស់ Mitsubishi Electric និង Mitsubishi Electric Iconics Digital Solutions។ ការកេងប្រវ័ញ្ចដោយជោគជ័យលើភាពងាយរងគ្រោះទាំងនេះអាចអនុញ្ញាតឱ្យអ្នកវាយប្រហារប្រតិបត្តិូដកូដតាមអំពើចិត្ត រំលងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ ឬអនុវត្តប្រតិបត្តិការតាមអំពើចិត្ត។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកគ្រប់គ្រងប្រព័ន្ធអាចប្រឈមមុខនឹងហានិភ័យដូចជាការប្រតិូដកូដតាមអំពើចិត្ត និងការរំលងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ។ ការអនុវត្តបំណះសុវត្ថិភាពពីក្រុមហ៊ុនផលិតអាចជួយកាត់បន្ថយហានិភ័យទាំងនេះ។",
    "keyPoints": [
-    "ចំណុចខ្សោយរួមមាន Out-of-bounds Write, ការរំលងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ និងបញ្ហាប្រតិបត្តិការតាមអំពើចិត្ត។",
     "ផលិតផលដែលរងផលប៉ះពាល់រួមមាន GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 និង BizViz។",
-    "ការកេងប្រវ័ញ្ចអាចបណ្តាលឱ្យមានការប្រតិបត្តិូដ ក៏ដូចជាការបង្ហាញព័ត៌មាន ឬការបដិសេធសេវាកម្ម។",
-    "Mitsubishi Electric បានចេញផ្សាយកំណែដែលបានជួសជុល និងបានផ្តល់នូវដំណោះស្រាយបណ្តោះអាសន្ន។"
+    "ភាពងាយរងគ្រោះរួមមាន CVE-2023-4863, CVE-2026-16436, CVE-2026-16437 និង CVE-2026-16438។"
    ]
   },
   "zh-CN": {
-   "title": "Mitsubishi Electric GENESIS、GENESIS64、ICONICS Suite、Hyper Historian、AnalytiX、MobileHMI、IoTWorX、MC Works64、GENESIS32 和 BizViz",
-   "summary": "CISA 发布了一份网络安全通报，涉及影响多款三菱电机软件产品的多个漏洞，包括 GENESIS、GENESIS64、ICONICS Suite、Hyper Historian、AnalytiX、MobileHMI、IoTWorX、MC Works64、GENESIS32 和 BizViz。成功利用这些漏洞可能允许攻击者执行任意代码、绕过身份验证或执行任意操作，从而导致信息泄露、数据篡改、破坏或删除以及拒绝服务状态。",
-   "impact": "这些漏洞可能会对在关键制造领域使用受影响的三菱电机软件的组织产生影响。安全团队和系统管理员可能需要应用厂商修复程序（例如针对 GENESIS64 和 ICONICS Suite 的 10.97.3 或更高版本），或实施推荐的缓解措施，例如限制本地管理员登录、使用防火墙以及阻止来自不受信任网络的远程访问。",
+   "title": "Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
+   "summary": "美国网络安全和基础设施安全局发布了关于三菱电机及三菱电机Iconics数字解决方案多个产品的安全公告。成功利用这些漏洞可能允许攻击者执行任意代码、绕过身份验证或执行任意操作，从而导致信息泄露、数据篡改或破坏以及系统拒绝服务状态。",
+   "impact": "管理受影响三菱电机的安全团队和技术人员可能会面临代码执行和身份验证绕过等风险。应用厂商提供的修复程序和更新可能有助于缓解这些漏洞。",
    "keyPoints": [
-    "漏洞包括越界写入（CVE-2023-4863）、身份验证绕过和任意操作问题。",
     "受影响的产品包括 GENESIS、GENESIS64、ICONICS Suite、Hyper Historian、AnalytiX、MobileHMI、IoTWorX、MC Works64、GENESIS32 和 BizViz。",
-    "利用漏洞可能导致任意代码执行、信息披露、数据篡改或拒绝服务条件。",
-    "三菱电机已发布修复版本并提供了诸如限制管理员登录和阻止远程访问等缓解建议。"
+    "涉及的漏洞包括 CVE-2023-4863、CVE-2026-16436、CVE-2026-16437 和 CVE-2026-16438。",
+    "漏洞类型包含越界写、弱密码恢复机制以及不正确的权限分配。"
    ]
   },
   "ko": {
-   "title": "Mitsubishi Electric GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 및 BizViz",
-   "summary": "CISA는 GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32, BizViz 등 여러 미쓰비시 전기 소프트웨어 제품에 영향을 미치는 다수의 취약점에 대한 사이버 보안 권고를 발표했습니다. 이러한 취약점을 성공적으로 악용하면 공격자가 임의 코드를 실행하거나, 인증을 우회하거나, 임의 작업을 수행하여 정보 유출, 정보 변조·파괴·삭제 및 서비스 거부 상태를 초래할 수 있습니다.",
-   "impact": "이러한 취약점은 주요 제조 부문에서 영향을 받는 미쓰비시 전기 소프트웨어를 사용하는 조직에 영향을 미칠 수 있습니다. 보안 팀과 시스템 관리자는 벤더 수정 사항을 적용하거나 관리자만 로그인하도록 제한하고 방화벽을 사용하는 등의 권장 완화 조치를 구현해야 할 수 있습니다.",
+   "title": "Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
+   "summary": "CISA는 미쓰비시 전기 및 미쓰비시 전기 Iconics Digital Solutions의 여러 제품에 영향을 미치는 취약점에 대한 보안 권고를 발행했습니다. 이러한 취약점을 성공적으로 악용할 경우 공격자가 임의 코드를 실행하거나 인증을 우회하거나 임의 작업을 수행할 수 있으며, 이는 정보 유출, 데이터 변조 또는 파괴, 시스템 거부 서비스 상태로 이어질 수 있습니다.",
+   "impact": "영향을 받는 미쓰비시 전기 시스템을 관리하는 보안 팀과 기술 사용자는 임의 코드 실행 및 인증 우회와 같은 위험에 직면할 수 있습니다. 벤더가 제공하는 수정 사항을 적용하여 이러한 취약점을 완화할 수 있습니다.",
    "keyPoints": [
-    "취약점에는 범주를 벗어난 쓰기(CVE-2023-4863), 인증 우회, 임의 작업 문제가 포함됩니다.",
-    "영향을 받는 제품에는 GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 및 BizViz가 포함됩니다.",
-    "악용 시 임의 코드 실행, 정보 유출, 데이터 변조 또는 서비스 거부 상태가 발생할 수 있습니다.",
-    "미쓰비시 전기는 수정된 버전을 출시하고 관리자 로그인 제한 및 원격 액세스 차단과 같은 완화 조치를 권장했습니다."
+    "영향을 받는 제품에는 GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32, BizViz 등이 포함됩니다.",
+    "관련 취약점에는 CVE-2023-4863, CVE-2026-16436, CVE-2026-16437, CVE-2026-16438이 포함됩니다.",
+    "취약점 유형에는 범위를 벗어난 쓰기, 취약한 비밀번호 복구 메커니즘, 잘못된 권한 할당이 있습니다."
    ]
   }
  }

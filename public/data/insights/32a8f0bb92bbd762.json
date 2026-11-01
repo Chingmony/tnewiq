@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "32a8f0bb92bbd762",
+ "contentHash": "852f918e68f5efdc",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T16:58:14.253Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Beyond Benchmarks: Why Sonnet 5.5 is Better for Coding Than Kimi K3.1 and GPT-6.1",
+   "summary": "A developer shared their experience using Sonnet 5.5 within Claude Code for daily development tasks such as fixing bugs, adding APIs, modifying frontend pages, and cross-file refactoring. They reported that it is fast, produces reliable code that rarely requires rework, and completes tasks without stopping or getting stuck halfway.",
+   "impact": "This suggests that real-world coding performance may depend on task completion and consistency rather than benchmark scores alone. Developers might consider integrating tools like Sonnet 5.5 for smoother multi-file workflows and reduced need for intervention.",
+   "keyPoints": [
+    "Used for daily development tasks including bug fixing, API addition, frontend modifications, and cross-file refactoring.",
+    "Responses are fast and the generated code typically works on the first try with minimal rework.",
+    "Executes tasks completely without stopping or getting stuck halfway."
+   ]
+  },
+  "km": {
+   "title": "លើសពីការវាស់ស្ទង់៖ មូលហេតុដែល Sonnet 5.5 សរសេរកូដបានល្អជាង Kimi K3.1 និង GPT-6.1",
+   "summary": "អ្នកអភិវឌ្ឍន៍ម្នាក់បានចែករំលែកបទពិសោធន៍នៃការប្រើប្រាស់ Sonnet 5.5 នៅក្នុង Claude Code សម្រាប់ការងារអភិវឌ្ឍន៍ប្រចាំថ្ងៃដូចជាការជួសជុលបាក់ ការបន្ថែម API ការកែប្រែទំព័រ前端 និងការកែទម្រង់កូដឆ្លងឯកសារ។ ពួកគេបានរាយការណ៍ថាវាមានល្បឿនលឿន បង្កើតកូដដែលគួរឱ្យទុកចិត្ត និងមិនសូវត្រូវការការកែសម្រួលឡើងវិញ ហើយអាចបំពេញភារកិច្ចបានដោយរលូនដោយមិនជាប់គាំង។",
+   "impact": "បញ្ហានេះបង្ហាញថាដំណើរការសរសេរកូដក្នុងស្ថានភាពពិតប្រាកដអាចអាស្រ័យលើការបញ្ចប់ភារកិច្ច និងភាពជាប់លាប់ ជាជាងពិន្ទុវាស់ស្ទង់តែប៉ុណ្ណោះ។ អ្នកអភិវឌ្ឍន៍អាចពិចារណាក្នុងការប្រើប្រាស់ឧបករណ៍ដូចជា Sonnet 5.5 សម្រាប់ការងារឯកសារច្រើនដោយរលូន។",
+   "keyPoints": [
+    "ត្រូវបានប្រើប្រាស់សម្រាប់ការងារអភិវឌ្ឍន៍ប្រចាំថ្ងៃ រួមមានការជួសជុលបាក់ និងការកែប្រែទំព័រ។",
+    "មានល្បឿនលឿន ហើយកូដដែលបានបង្កើតអាចប្រើប្រាស់បានភ្លាមៗ។",
+    "បំពេញភារកិច្ចបានរហូតដល់ចប់ដោយមិនឈប់ពាក់កណ្តាលផ្លូវ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "跑分之外：为什么 Sonnet 5.5 写代码比 Kimi K3.1 和 GPT-6.1 更好用",
+   "summary": "一位开发者分享了在日常开发中使用 Claude Code 里的 Sonnet 5.5 进行修 bug、加接口、改前端页面和跨文件重构的体验。使用感受是反应快、写出的代码基本一次可用且很少返工，并且任务能够一路做完，从不中途停止或原地绕圈。",
+   "impact": "这表明实际开发中的代码表现可能更依赖于任务执行的连贯性和稳定性，而不仅是基准跑分。开发者或许可以考虑采用 Sonnet 5.5 来优化多文件工作流并减少返工。",
+   "keyPoints": [
+    "用于真实项目中的修 bug、加接口、改前端页面和跨文件重构。",
+    "响应速度快且代码质量高，极少需要返工。",
+    "能够独立完成任务，不会中途停滞或原地绕圈。"
+   ]
+  },
+  "ko": {
+   "title": "벤치마크 그 이상: Sonnet 5.5가 Kimi K3.1 및 GPT-6.1보다 코딩에 더 유용한 이유",
+   "summary": "한 개발자가 Claude Code 내의 Sonnet 5.5를 사용하여 버그 수정, API 추가, 프론트엔드 페이지 수정, 교차 파일 리팩토링 등 실제 프로젝트 작업을 수행한 경험을 공유했습니다. 응답이 빠르고 생성된 코드가 거의 한 번에 작동하여 수정 작업이 거의 필요 없으며, 작업이 중간에 멈추거나 제자리걸음을 하지 않고 끝까지 완료된다고 평가했습니다.",
+   "impact": "이는 실제 코딩 성능이 단순한 벤치마크 점수보다는 작업 완료율과 일관성에 더 의존할 수 있음을 시사합니다. 개발자들은 원활한 다중 파일 워크플로우와 개입 최소화를 위해 Sonnet 5.5 같은 도구 도입을 고려할 수 있습니다.",
+   "keyPoints": [
+    "버그 수정, API 추가, 프론트엔드 수정, 교차 파일 리팩토링 등의 작업에 사용됨.",
+    "빠른 응답 속도를 보이며 작성된 코드가 대부분 재작업 없이 바로 사용 가능함.",
+    "중간에 멈추거나 맴도는 현상 없이 작업을 끝까지 완수함."
+   ]
+  }
+ }
+}

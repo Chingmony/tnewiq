@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "bac0ecabdc43eb5a",
+ "contentHash": "7337ee58ddbbd5e5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T16:58:24.272Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "GKS Fully Homomorphic Encryption: Security Analysis",
+   "summary": "Traditional encryption schemes require data to be decrypted before use, creating a fundamental operational vulnerability. Fully homomorphic encryption eliminates this issue by allowing computations to be performed directly on encrypted data. A security analysis of GKS fully homomorphic encryption has been presented on arXiv cs.CR.",
+   "impact": "This security analysis could provide developers and security teams with deeper insights into the cryptographic strengths and operational risks of fully homomorphic encryption schemes like GKS. Understanding these vulnerabilities may influence how secure computation workloads are implemented.",
+   "keyPoints": [
+    "Traditional encryption requires data decryption before use, posing a security vulnerability.",
+    "Fully homomorphic encryption allows computation directly on encrypted data.",
+    "A security analysis of GKS fully homomorphic encryption has been released on arXiv."
+   ]
+  },
+  "km": {
+   "title": "ការវិភាគសុវត្ថិភាពលើការអ៊ិនគ្រីបស្វ័យភាពពេញលេញ GKS",
+   "summary": "គ្រោងការណ៍អ៊ិនគ្រីបបែបបុរាណតម្រូវឱ្យទិន្នន័យត្រូវបានឌិគ្រីបមុនពេលប្រើប្រាស់ ដែលបង្កើតបានជាភាពងាយរងគ្រោះប្រតិបត្តិការមូលដ្ឋាន។ ការអ៊ិនគ្រីបស្វ័យភាពពេញលេញលុបបំបាត់ភាពងាយរងគ្រោះនេះដោយអនុញ្ញាតឱ្យមានការគណនាដោយផ្ទាល់លើទិន្នន័យដែលបានអ៊ិនគ្រីប។ ការវិភាគសុវត្ថិភាពលើការអ៊ិនគ្រីបស្វ័យភាពពេញលេញ GKS ត្រូវបានបង្ហាញនៅលើ arXiv cs.CR។",
+   "impact": "ការវិភាគសុវត្ថិភាពនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខនូវការយល់ដឹងកាន់តែស៊ីជម្រៅអំពីភាពរឹងមាំគ្រីបតូក្រាហ្វិក និងហានិភ័យប្រតិបត្តិការនៃគ្រោងការណ៍អ៊ិនគ្រីបស្វ័យភាពពេញលេញ GKS។ ការយល់ដឹងអំពីភាពងាយរងគ្រោះទាំងនេះអាចជះឥទ្ធិពលដល់របៀបដែលបន្ទុកការងារគណនាសុវត្ថិភាពត្រូវបានអនុវត្ត។",
+   "keyPoints": [
+    "ការអ៊ិនគ្រីបបែបបុរាណទាមទារការឌិគ្រីបទិន្នន័យមុនពេលប្រើប្រាស់ ដែលបង្កជាបញ្ហាសុវត្ថិភាព។",
+    "ការអ៊ិនគ្រីបស្វ័យភាពពេញលេញអនុញ្ញាតឱ្យមានការគណនាដោយផ្ទាល់លើទិន្នន័យអ៊ិនគ្រីប។",
+    "ការវិភាគសុវត្ថិភាពលើការអ៊ិនគ្រីបស្វ័យភាពពេញលេញ GKS ត្រូវបានចេញផ្សាយនៅលើ arXiv។"
+   ]
+  },
+  "zh-CN": {
+   "title": "GKS 全同态加密：安全性分析",
+   "summary": "传统加密方案共享一个根本的操作漏洞，即加密数据在使用前必须先解密。全同态加密通过直接在加密数据上进行计算，消除了这一漏洞。arXiv cs.CR 上发布了一项关于 GKS 全同态加密的安全性分析。",
+   "impact": "这项安全性分析可能会为开发人员和安全团队提供对 GKS 等全同态加密方案的密码学强度和操作风险的更深入见解。理解这些漏洞可能会影响安全计算工作负载的实现方式。",
+   "keyPoints": [
+    "传统加密要求在使用前解密数据，从而产生操作漏洞。",
+    "全同态加密允许直接在加密数据上进行计算。",
+    "GKS 全同态加密的安全性分析已在 arXiv 上发布。"
+   ]
+  },
+  "ko": {
+   "title": "GKS 완전동형암호: 보안 분석",
+   "summary": "모든 전통적인 암호화 체계는 암호화된 데이터를 사용하기 전에 복호화해야 하는 근본적인 운영 취약점을 공유합니다. 완전동형암호는 암호화된 데이터 위에서 직접 연산을 수행할 수 있도록 하여 이 취약점을 제거합니다. GKS 완전동형암호에 대한 보안 분석이 arXiv cs.CR에 발표되었습니다.",
+   "impact": "이 보안 분석은 개발자와 보안 팀에게 GKS와 같은 완전동형암호 체계의 암호화 강도 및 운영 위험에 대한 더 깊은 통찰력을 제공할 수 있습니다. 이러한 취약점을 이해하면 안전한 연산 워크로드가 구현되는 방식에 영향을 미칠 수 있습니다.",
+   "keyPoints": [
+    "전통적인 암호화는 사용 전 데이터 복호화를 요구하여 보안 취약성을 유발합니다.",
+    "완전동형암호는 암호화된 데이터에 직접 연산을 수행할 수 있게 합니다.",
+    "GKS 완전동형암호에 대한 보안 분석이 arXiv에 공개되었습니다."
+   ]
+  }
+ }
+}

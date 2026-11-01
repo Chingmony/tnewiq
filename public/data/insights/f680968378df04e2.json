@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f680968378df04e2",
+ "contentHash": "b818c42fbe274493",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T16:57:09.847Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Watermark Basins: Black-Box Detection of Distilled LLMs",
+   "summary": "Proprietary language models and their reasoning traces are vulnerable to API-based distillation. In this scenario, an adversary trains a student model using the outputs of a teacher model. To gather evidence of such distillation, model providers can apply watermarks to the teacher's outputs.",
+   "impact": "This method could help model providers detect unauthorized API-based distillation and gather evidence against adversaries training student models on proprietary outputs. Security teams and developers may use these detection mechanisms to protect intellectual property.",
+   "keyPoints": [
+    "Proprietary language models and reasoning traces face risks from API-based distillation.",
+    "Adversaries can train student models using the outputs from a teacher model.",
+    "Model providers can watermark teacher outputs to obtain evidence of distillation."
+   ]
+  },
+  "km": {
+   "title": "Watermark Basins: ការរកឃើញແບບ Black-Box នៃ Distilled LLMs",
+   "summary": "ភាសាម៉ូដែលកម្មសិទ្ធិនិងដានហេតុផលរបស់ពួកវាគឺងាយរងគ្រោះដោយសារការទាញយកតាមរយៈ API ដែលជាកន្លែងដែលភាគីខិលខូចបណ្តុះបណ្តាលសិស្សម៉ូដែលលើលទ្ធផលរបស់គ្រូម៉ូដែល។ ដើម្បីទទួលបានភស្តុតាងនៃការទាញយកនេះ អ្នកផ្តល់សេវាម៉ូដែលអាចដាក់សញ្ញាសម្គាល់លើលទ្ធផលរបស់គ្រូ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកផ្តល់ម៉ូដែលក្នុងការរកឃើញការទាញយកតាមរយៈ API ដោយគ្មានការអនុញ្ញាត និងប្រមូលភស្តុតាងប្រឆាំងនឹងគូប្រជែង។ ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់យន្តការរកឃើញទាំងនេះដើម្បីការពារកម្មសិទ្ធិបញ្ញា។",
+   "keyPoints": [
+    "ភាសាម៉ូដែលកម្មសិទ្ធិនិងដានហេតុផលប្រឈមមុខនឹងហានិភ័យពីការទាញយកតាមរយៈ API ។",
+    "ភាគីខិលខូចអាចបណ្តុះបណ្តាលសិស្សម៉ូដែលដោយប្រើលទ្ធផលពីគ្រូម៉ូដែល។",
+    "អ្នកផ្តល់សេវាម៉ូដែលអាចដាក់សញ្ញាសម្គាល់លើលទ្ធផលរបស់គ្រូដើម្បីទទួលបានភស្តុតាងនៃការទាញយក។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Watermark Basins：蒸馏 LLMs 的黑盒检测",
+   "summary": "专有语言模型及其推理痕迹容易受到基于 API 的蒸馏攻击，攻击者可以在教师模型的输出上训练学生模型。为了获取蒸馏的证据，模型提供商可以对教师的输出进行水印处理。",
+   "impact": "这种方法可以帮助模型提供商检测未经授权的基于 API 的蒸馏行为，并收集针对在专有输出上训练学生模型的攻击者的证据。开发人员和安全团队可能会使用这些检测机制来保护知识产权。",
+   "keyPoints": [
+    "专有语言模型和推理痕迹面临来自基于 API 的蒸馏的风险。",
+    "攻击者可以使用教师模型的输出训练学生模型。",
+    "模型提供商可以通过对教师输出进行水印处理来获取蒸馏证据。"
+   ]
+  },
+  "ko": {
+   "title": "Watermark Basins: 증류된 LLM의 블랙박스 탐지",
+   "summary": "독점 언어 모델과 그 추론 흔적은 API 기반 증류에 취약하며, 공격자는 교사 모델의 출력을 기반으로 학생 모델을 학습시킬 수 있습니다. 증류에 대한 증거를 확보하기 위해 모델 제공업체는 교사의 출력에 워터마크를 적용할 수 있습니다.",
+   "impact": "이 방법은 모델 제공업체가 승인되지 않은 API 기반 증류를 감지하고 독점 출력을 사용하여 학생 모델을 학습시키는 공격자에 대한 증거를 수집하는 데 도움을 줄 수 있습니다. 보안 팀과 개발자는 지적 재산을 보호하기 위해 이러한 감지 메커니즘을 사용할 수 있습니다.",
+   "keyPoints": [
+    "독점 언어 모델과 추론 흔적이 API 기반 증류에 취약함.",
+    "공격자가 교사 모델의 출력을 사용하여 학생 모델을 학습시킬 수 있음.",
+    "모델 제공업체가 교사 출력에 워터마크를 적용하여 증류 증거를 얻을 수 있음."
+   ]
+  }
+ }
+}

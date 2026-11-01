@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0e1ea97ad7073e88",
+ "contentHash": "9db9e7b77c9b6bac",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T16:56:19.967Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "LinMix: Data Mixing as Linear Domain Attribution",
+   "summary": "Language model performance relies heavily on the domain mixture found in pretraining data corpora. Current data mixing methods typically determine domain weights by training multiple small proxy models using random mixes, followed by fitting a regression model to forecast performance.",
+   "impact": "This research could help developers better understand how domain mixtures affect language model performance. It may lead to more efficient data mixing methods.",
+   "keyPoints": [
+    "Language model performance depends heavily on pretraining data domain mixtures.",
+    "Popular data mixing methods train small proxy models on random mixes.",
+    "Regression models are then used to predict performance from the mixes."
+   ]
+  },
+  "km": {
+   "title": "LinMix៖ ការលាយទិន្នន័យជាការកំណត់ដែនលីនេអ៊ែរ",
+   "summary": "ដំណើរការរបស់គំរូភាសាអាស្រ័យយ៉ាងខ្លាំងទៅលើការលាយបញ្ចូលគ្នានៃដែននៅក្នុងទិន្នន័យមូលដ្ឋានសម្រាប់ការបណ្តុះបណ្តាលជាមុន។ វិធីសាស្ត្រលាយទិន្នន័យពេញនិយមជ្រើសរើសទម្ងន់ដែនទាំងនេះដោយបណ្តុះបណ្តាលគំរូប្រូកស៊ីតូចៗជាច្រើនលើការលាយចៃដន្យ និងបន្ទាប់មកបំពាក់គំរូថយក្រោយដើម្បីព្យាករណ៍ដំណើរការ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍យល់កាន់តែច្បាស់អំពីរបៀបដែលការលាយដែនប៉ះពាល់ដល់ដំណើរការគំរូភាសា។ វាអាចនាំឱ្យមានវិធីសាស្ត្រលាយទិន្នន័យដែលមានប្រសិទ្ធភាពជាងមុន។",
+   "keyPoints": [
+    "ដំណើរការគំរូភាសាអាស្រ័យលើការលាយដែនទិន្នន័យបណ្តុះបណ្តាលជាមុន។",
+    "វិធីសាស្ត្រលាយទិន្នន័យពេញនិយមបណ្តុះបណ្តាលគំរូប្រូកស៊ីតូចៗលើការលាយចៃដន្យ។",
+    "គំរូថយក្រោយត្រូវបានប្រើដើម្បីព្យាករណ៍ដំណើរការពីការលាយបញ្ចូលគ្នា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "LinMix：作为线性域归因的数据混合",
+   "summary": "语言模型的性能在很大程度上取决于预训练数据语料库中的域混合。流行的数据混合方法通常通过在随机混合上训练许多小型代理模型来选择这些域权重，然后拟合回归模型来预测性能。",
+   "impact": "这项研究可以帮助开发人员更好地理解域混合如何影响语言模型性能。它可能会带来更有效的数据混合方法。",
+   "keyPoints": [
+    "语言模型性能严重依赖于预训练数据域混合。",
+    "流行的数据混合方法在随机混合上训练小型代理模型。",
+    "然后使用回归模型从混合中预测性能。"
+   ]
+  },
+  "ko": {
+   "title": "LinMix: 선형 도메인 어트리뷰션으로서의 데이터 믹싱",
+   "summary": "언어 모델의 성능은 사전 학습 데이터 코퍼스의 도메인 혼합에 크게 좌우된다. 인기 있는 데이터 믹싱 방법은 무작위 혼합을 통해 여러 개의 작은 프록시 모델을 학습시킨 다음 회귀 모델을 적합하여 성능을 예측하는 방식으로 이러한 도메인 가중치를 선택한다.",
+   "impact": "이 연구는 개발자들이 도메인 혼합이 언어 모델 성능에 미치는 영향을 더 잘 이해하는 데 도움을 줄 수 있다. 더 효율적인 데이터 믹싱 방법으로 이어질 수도 있다.",
+   "keyPoints": [
+    "언어 모델 성능은 사전 학습 데이터 도메인 혼합에 크게 의존한다.",
+    "인기 있는 데이터 믹싱 방법은 무작위 혼합으로 작은 프록시 모델을 학습시킨다.",
+    "회귀 모델은 혼합으로부터 성능을 예측하는 데 사용된다."
+   ]
+  }
+ }
+}

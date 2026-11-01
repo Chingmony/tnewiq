@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "44ba5b28daf0820b",
+ "contentHash": "41b43d44dd8f29b9",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T16:52:50.930Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Google wants video AI to understand what people need as they work",
+   "summary": "A Google-led research team developed StreamVibe, a video agent created to observe people performing tasks like cooking or furniture assembly and offer assistance only when required. However, a benchmark evaluation demonstrated that none of the tested models can reliably determine the correct moment to intervene in longer videos. As a result, errors accumulate over time and the overall quality of responses decreases significantly.",
+   "impact": "This research highlights current limitations in video AI agents, suggesting that developers may face challenges with error compounding and timing accuracy in long-form video tasks. Security teams and technology users should note that automated intervention systems might not perform reliably during extended workflows.",
+   "keyPoints": [
+    "A Google-led research team built a video agent named StreamVibe.",
+    "StreamVibe is designed to watch people cook or assemble furniture and speak up only when help is needed.",
+    "A benchmark revealed that none of the tested models reliably choose the right moment in longer videos.",
+    "Errors compound and response quality drops sharply in longer video evaluations."
+   ]
+  },
+  "km": {
+   "title": "Google ចង់ឱ្យវីដេអូ AI យល់ពីអ្វីដែលមនុស្សត្រូវការពេលកំពុងបំពេញការងារ",
+   "summary": "ក្រុមស្រាវជ្រាវដឹកនាំដោយ Google បានបង្កើត StreamVibe ដែលជាភ្នាក់ងារវីដេអូត្រូវបានរចនាឡើងដើម្បីមើលមនុស្សចម្អិនអាហារ ឬផ្គុំគ្រឿងសង្ហារិម និងនិយាយឡើងតែនៅពេលដែលត្រូវការជំនួយប៉ុណ្ណោះ។ ការវាយតម្លៃស្តង់ដារបានបង្ហាញថា គ្មានម៉ូដែលណាដែលបានធ្វើតេស្តអាចកំណត់ពេលវេលាត្រឹមត្រូវនៅក្នុងវីដេអូវែងៗដោយទុកចិត្តបាននោះទេ ដោយសារកំហុសឆ្គងកើនឡើងជាលំដាប់ និងគុណភាពនៃការឆ្លើយតបធ្លាក់ចុះយ៉ាងខ្លាំង។",
+   "impact": "ការស្រាវជ្រាវនេះបង្ហាញពីដែនកំណត់បច្ចុប្បន្ននៃភ្នាក់ងារវីដេអូ AI ដោយបង្ហាញថាអ្នកអភិវឌ្ឍន៍អាចនឹងប្រឈមមុខនឹងបញ្ហាប្រឈមជាមួយការកើនឡើងកំហុស និងភាពត្រឹមត្រូវនៃពេលវេលាក្នុងកិច្ចការវីដេអូរយៈពេលវែង។ ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាគួរកត់សម្គាល់ថា ប្រព័ន្ធអន្តរាគមន៍ស្វ័យប្រវត្តប្រហែលជាមិនដំណើរការដោយទុកចិត្តបានទេ។",
+   "keyPoints": [
+    "ក្រុមស្រាវជ្រាវដឹកនាំដោយ Google បានបង្កើតភ្នាក់ងារវីដេអូមួយឈ្មោះថា StreamVibe។",
+    "StreamVibe ត្រូវបានរចនាឡើងដើម្បីមើលមនុស្សចម្អិនអាហារ ឬផ្គុំគ្រឿងសង្ហារិម និងនិយាយតែពេលត្រូវការជំនួយ។",
+    "ការវាយតម្លៃស្តង់ដារបានបង្ហាញថា គ្មានម៉ូដែលណាអាចជ្រើសរើសពេលវេលាត្រឹមត្រូវក្នុងវីដេអូវែងៗដោយទុកចិត្តបានទេ។",
+    "កំហុសកើនឡើងជាលំដាប់ ហើយគុណភាពនៃការឆ្លើយតបធ្លាក់ចុះយ៉ាងខ្លាំង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Google 希望视频 AI 能够在人们工作时理解他们的需求",
+   "summary": "由 Google 领导的研究团队构建了 StreamVibe，这是一个视频智能体，旨在观察人们做饭或组装家具，并且仅在需要帮助时才开口。基准测试表明，在较长的视频中，没有一个测试模型能够可靠地选择正确的介入时机，因为错误会累积且响应质量会急剧下降。",
+   "impact": "这项研究突显了当前视频 AI 智能体的局限性，表明开发人员在处理长视频任务时可能会面临错误累积和时间准确性方面的挑战。安全团队和技术用户应当注意，自动化干预系统在长时间的工作流程中可能无法可靠运行。",
+   "keyPoints": [
+    "由 Google 领导的研究团队构建了一个名为 StreamVibe 的视频智能体。",
+    "StreamVibe 旨在观察人们做饭或组装家具，并在需要帮助时开口。",
+    "基准测试显示，测试模型无法在较长视频中可靠地选择正确时机。",
+    "在较长的视频评估中，错误会不断累积且响应质量急剧下降。"
+   ]
+  },
+  "ko": {
+   "title": "Google은 비디오 AI가 사람들이 일할 때 필요한 것을 이해하기를 원합니다",
+   "summary": "Google이 이끄는 연구팀은 사람들이 요리하거나 가구를 조립하는 것을 관찰하고 도움이 필요할 때만 말하도록 설계된 비디오 에이전트인 StreamVibe를 구축했습니다. 벤치마크에 따르면 테스트된 모델 중 어느 것도 더 긴 동영상에서 올바른 순간을 안정적으로 포착하지 못했으며, 오류가 누적되고 응답 품질이 급격히 떨어지는 것으로 나타났습니다.",
+   "impact": "이번 연구는 비디오 AI 에이전트의 현행 한계를 부각하며, 개발자들이 장편 비디오 작업에서 오류 누적 및 타이밍 정확도 문제에 직면할 수 있음을 시사합니다. 보안 팀과 기술 사용자는 자동화된 개입 시스템이 장시간의 작업 흐름 동안 안정적으로 작동하지 않을 수 있음을 유의해야 합니다.",
+   "keyPoints": [
+    "Google이 이끄는 연구팀이 StreamVibe라는 비디오 에이전트를 제작했습니다.",
+    "StreamVibe는 사람들이 요리하거나 가구를 조립하는 것을 지켜보고 필요할 때만 말하도록 설계되었습니다.",
+    "벤치마크 결과 테스트된 모델 중 어떤 것도 더 긴 동영상에서 올바른 시점을 안정적으로 선택하지 못했습니다.",
+    "오류가 누적되면서 응답 품질이 급격히 떨어집니다."
+   ]
+  }
+ }
+}

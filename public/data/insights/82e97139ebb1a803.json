@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "82e97139ebb1a803",
+ "contentHash": "1491dbd898e0df17",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T16:55:50.430Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Constraining the Commit Boundary: A DIO/ODI-Informed Authorization Guardrail for Agentic Entity Resolution",
+   "summary": "Agentic Entity Resolution systems iteratively plan actions, retrieve evidence, revise hypotheses, and propose graph mutations. An erroneous identity hypothesis may condition later retrieval and produce apparent confirmation. This paper proposes a Digital Identity authorization guardrail to constrain the commit boundary.",
+   "impact": "This research could help security teams and developers manage risks in automated agentic entity resolution by preventing erroneous identity hypotheses from propagating.",
+   "keyPoints": [
+    "Agentic Entity Resolution systems iteratively plan actions and retrieve evidence.",
+    "Erroneous identity hypotheses can condition later retrieval and cause false confirmation.",
+    "The paper introduces a DIO/ODI-informed authorization guardrail."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់កម្រិតព្រំដែននៃការបញ្ជូន៖ របាំងការអនុញ្ញាតដែលបានinformed ដោយ DIO/ODI សម្រាប់ Agentic Entity Resolution",
+   "summary": "ប្រព័ន្ធ Agentic Entity Resolution រៀបចំផែនការសកម្មភាព ទាញយកភស្តុតាង កែសម្រួលសម្មតិកម្ម និងស្នើឱ្យមានការបំប្លែងក្រាហ្វ។ សម្មតិកម្មអត្តសញ្ញាណខុសឆ្គងអាចប៉ះពាល់ដល់ការទាញយកពេលក្រោយ និងបង្កើតការបញ្ជាក់ក្លែងក្លាយ។ ឯកសារនេះស្នើឱ្យមានរបាំងការអនុញ្ញាតឌីជីថលអត្តសញ្ញាណដើម្បីកំណត់ព្រំដែននៃការបញ្ជូន។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយដល់ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ក្នុងការគ្រប់គ្រងហានិភ័យនៅក្នុងប្រព័ន្ធ Agentic Entity Resolution ដែលស្វ័យប្រវត្តិ។",
+   "keyPoints": [
+    "ប្រព័ន្ធ Agentic Entity Resolution រៀបចំផែនការសកម្មភាពនិងទាញយកភស្តុតាង។",
+    "សម្មតិកម្មអត្តសញ្ញាណខុសឆ្គងអាចបង្កើតការបញ្ជាក់ខុស។",
+    "ឯកសារស្នើរបាំងការអនុញ្ញាតដែលinformed ដោយ DIO/ODI។"
+   ]
+  },
+  "zh-CN": {
+   "title": "约束提交边界：基于 DIO/ODI 的 Agentic Entity Resolution 授权护栏",
+   "summary": "Agentic Entity Resolution 系统迭代地规划行动、检索证据、修正假设并提出图变异。错误的身份假设可能会影响后续的检索并产生表面上的确认。本文提出了一种数字身份授权护栏来约束提交边界。",
+   "impact": "这项研究可能有助于开发人员和安全团队防止错误的身份假设在自动化实体解析系统中传播。",
+   "keyPoints": [
+    "Agentic Entity Resolution 系统迭代规划行动并检索证据。",
+    "错误的身份假设可能导致虚假确认。",
+    "本文提出了基于 DIO/ODI 的授权护栏。"
+   ]
+  },
+  "ko": {
+   "title": "커밋 경계 제한: Agentic Entity Resolution을 위한 DIO/ODI 기반 권한 부여 가드레일",
+   "summary": "Agentic Entity Resolution 시스템은 반복적으로 작업을 계획하고, 증거를 검색하고, 가설을 수정하고, 그래프 변이를 제안합니다. 잘못된 신원 가설은 이후 검색에 영향을 미쳐 허위 확증을 낳을 수 있습니다. 본 논문은 커밋 경계를 제한하기 위한 디지털 신원 권한 부여 가드레일을 제안합니다.",
+   "impact": "이 연구는 개발자와 보안 팀이 자동화된 에이전트 엔티티 해결 시스템에서 잘못된 신원 가설의 전파를 방지하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "Agentic Entity Resolution 시스템은 반복적으로 작업을 계획하고 증거를 검색합니다.",
+    "잘못된 신원 가설은 후속 검색에 영향을 미쳐 허위 확증을 유발할 수 있습니다.",
+    "본 논문은 DIO/ODI 기반 권한 부여 가드레일을 제안합니다."
+   ]
+  }
+ }
+}

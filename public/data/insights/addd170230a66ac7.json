@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "addd170230a66ac7",
+ "contentHash": "ee871071df50444d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T16:57:43.158Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Asynchronous Verifiable and Complete Secret Sharing: From Design Patterns to System-Level Trade-offs",
+   "summary": "Modern secret sharing protocols aim to provide robust secret sharing within fully asynchronous Byzantine systems. However, comparing their practical costs across different papers, assumptions, and workloads remains challenging. This difficulty extends beyond simple experimentation, as protocols often share similar asymptotic traits.",
+   "impact": "Security teams and developers may find it difficult to evaluate and compare the practical costs of modern secret sharing protocols due to varying assumptions and workloads. Understanding these system-level trade-offs could help in selecting the appropriate protocols for asynchronous Byzantine systems.",
+   "keyPoints": [
+    "Modern secret sharing protocols promise robust operation in fully asynchronous Byzantine systems.",
+    "Practical costs are difficult to compare across different papers, assumptions, and workloads.",
+    "The evaluation difficulty goes beyond experimental challenges."
+   ]
+  },
+  "km": {
+   "title": "ការចែករំលែកអាថ៌កំបាំងដែលអាចផ្ទៀងផ្ទាត់បាននិងពេញលេញបែបអសមកាល៖ ពីគំរូនៃការរចនាទៅកាន់ការដោះដូរតាមកម្រិតប្រព័ន្ធ",
+   "summary": "ពិធីការចែករំលែកអាថ៌កំបាំងសម័យទំនើបសន្យាថានឹងផ្តល់នូវការចែករំលែកអាថ៌កំបាំងដ៏រឹងមាំនៅក្នុងប្រព័ន្ធ Byzantine អសមកាលពេញលេញ។ ទោះបីជាយ៉ាងណាក៏ដោយ ការចំណាយជាក់ស្តែងរបស់ពួកវានៅតែពិបាកក្នុងការប្រៀបធៀបឆ្លងកាត់ឯកសារ ការសន្មត់ និងបន្ទុកការងារផ្សេងៗគ្នា។ ភាពលំបាកនេះមិនត្រឹមតែជាបញ្ហានៃការពិសោធន៍នោះទេ ប៉ុន្តែពិធីការដែលមានលក្ខណៈស្រដៀងគ្នាអាចមានការប្រឈម។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍ប្រហែលជាពិបាកក្នុងការវាយតម្លៃ និងប្រៀបធៀបការចំណាយជាក់ស្តែងនៃពិធីការចែករំលែកអាថ៌កំបាំង ដោយសារការសន្មត់ និងបន្ទុកការងារខុសៗគ្នា។ ការយល់ដឹងពីការដោះដូរតាមកម្រិតប្រព័ន្ធទាំងនេះ អាចជួយក្នុងការជ្រើសរើសពិធីការដែលសមស្របសម្រាប់ប្រព័ន្ធ Byzantine អសមកាល។",
+   "keyPoints": [
+    "ពិធីការចែករំលែកអាថ៌កំបាំងសម័យទំនើបសន្យាថានឹងដំណើរការយ៉ាងរឹងមាំនៅក្នុងប្រព័ន្ធ Byzantine អសមកាល។",
+    "ការចំណាយជាក់ស្តែងគឺពិបាកក្នុងការប្រៀបធៀបឆ្លងកាត់ឯកសារ ការសន្មត់ និងបន្ទុកការងារ។",
+    "ភាពលំបាកក្នុងការវាយតម្លៃគឺលើសពីបញ្ហាប្រឈមនៃការពិសោធន៍។"
+   ]
+  },
+  "zh-CN": {
+   "title": "异步可验证且完整的秘密共享：从设计模式到系统级权衡",
+   "summary": "现代秘密共享协议旨在完全异步的拜占庭系统中实现强大的秘密共享。然而，跨不同论文、假设和工作负载来比较它们的实际成本仍然很困难。这种困难不仅仅是实验层面的，因为具有相似渐进特性的协议在实际应用中难以直接对比。",
+   "impact": "由于存在不同的假设和工作负载，安全团队和开发人员在评估和比较现代秘密共享协议的实际成本时可能会遇到困难。了解这些系统级权衡可能有助于为异步拜占庭系统选择合适的协议。",
+   "keyPoints": [
+    "现代秘密共享协议承诺在完全异步的拜占庭系统中实现强大的秘密共享。",
+    "跨不同论文、假设和工作负载很难比较其实际成本。",
+    "评估的困难不仅仅局限于实验挑战。"
+   ]
+  },
+  "ko": {
+   "title": "비동기 검증 가능 및 완전한 비밀 공유: 디자인 패턴에서 시스템 수준 트레이드오프까지",
+   "summary": "현대 비밀 공유 프로토콜은 완전한 비동기 비잔틴 시스템에서 강력한 비밀 공유를 제공하는 것을 목표로 합니다. 그러나 다양한 논문, 가정, 워크로드 간에 실제 비용을 비교하는 것은 여전히 어렵습니다. 이러한 어려움은 단순히 실험적인 문제에 국한되지 않으며, 유사한 점근적 특성을 가진 프로토콜 간에도 발생합니다.",
+   "impact": "보안 팀과 개발자는 다양한 가정과 워크로드로 인해 현대 비밀 공유 프로토콜의 실제 비용을 평가하고 비교하는 데 어려움을 겪을 수 있습니다. 이러한 시스템 수준의 트레이드오프를 이해하면 비동기 비잔틴 시스템에 적합한 프로토콜을 선택하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "현대 비밀 공유 프로토콜은 완전한 비동기 비잔틴 시스템에서 강력한 작동을 약속합니다.",
+    "실제 비용은 서로 다른 논문, 가정, 워크로드 간에 비교하기 어렵습니다.",
+    "평가의 어려움은 실험적 과제를 넘어섭니다."
+   ]
+  }
+ }
+}

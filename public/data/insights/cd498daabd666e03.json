@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "cd498daabd666e03",
+ "contentHash": "a3d4d5d5df49b743",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T16:51:50.349Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
+   "summary": "Adobe Research and UC San Diego have developed EditAgent, an AI system designed to edit images similarly to a Photoshop professional. Instead of repeatedly using a general-purpose editor, the agent selects specialized tools for specific tasks. A standard language model then evaluates the results using measured image data to choose the best option.",
+   "impact": "This approach demonstrates a new method for AI image editing by utilizing specialized tools, which could influence future developments in automated editing workflows. However, the high computational requirement of about ten times the standard compute may impact its practical adoption for developers and users.",
+   "keyPoints": [
+    "Adobe Research and UC San Diego created EditAgent.",
+    "The AI system selects specialized tools for tasks instead of relying on a single general-purpose editor.",
+    "A standard language model chooses the best result based on measured image data.",
+    "The system requires about ten times the normal compute."
+   ]
+  },
+  "km": {
+   "title": "Adobe កំពុងសាកល្បងថាតើភ្នាក់ងារ AI អាចប្រើប្រាស់ឧបករណ៍កែសម្រួលដូចជាអ្នកជំនាញ Photoshop យ៉ាងដូចម្ដេច",
+   "summary": "Adobe Research និង UC San Diego បានបង្កើត EditAgent ដែលជាប្រព័ន្ធ AI កែសម្រួលរូបភាពប្រហាក់ប្រហែលនឹងអ្នកជំនាញ Photoshop ។ ជំនួសឱ្យការប្រើប្រាស់ឧបករណ៍ទូទៅដដែលៗ ភ្នាក់ងារនេះជ្រើសរើសឧបករណ៍ឯកទេសសម្រាប់កិច្ចការនីមួយៗ។ ម៉ូដែលភាសាធម្មតាមួយជ្រើសរើសលទ្ធផលល្អបំផុតដោយផ្អែកលើទិន្នន័យរូបភាពដែលបានវាស់វែង។",
+   "impact": "វិធីសាស្ត្រនេះអាចបង្ហាញពីវិធីសាស្រ្តថ្មីសម្រាប់ការកែសម្រួលរូបភាព ប៉ុន្តែវាត្រូវការកម្លាំងកុំព្យូទ័រប្រហែលដប់ដង ដែលអាចប៉ះពាល់ដល់ការអនុវត្តជាក់ស្តែងសម្រាប់អ្នកអភិវឌ្ឍន៍ ឬអ្នកប្រើប្រាស់។",
+   "keyPoints": [
+    "Adobe Research និង UC San Diego បានបង្កើត EditAgent ។",
+    "ប្រព័ន្ធ AI ជ្រើសរើសឧបករណ៍ឯកទេសសម្រាប់កិច្ចការនីមួយៗ។",
+    "ម៉ូដែលភាសាធម្មតាជ្រើសរើសលទ្ធផលល្អបំផុតដោយផ្អែកលើទិន្នន័យរូបភាព។",
+    "វាត្រូវការកម្លាំងកុំព្យូទ័រប្រហែលដប់ដងច្រើនជាងធម្មតា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Adobe 正在测试 AI 智能体能多大程度上像 Photoshop 专业人士一样使用编辑工具",
+   "summary": "Adobe Research 和加州大学圣迭戈分校构建了 EditAgent，这是一个能够更像 Photoshop 专业人士那样编辑图像的 AI 系统。该智能体没有重复使用相同的通用编辑器，而是为每个任务选择合适的专用工具，并让标准语言模型根据测量的图像数据选择最佳结果。",
+   "impact": "这种方法展示了 AI 图像编辑的新途径，可能会对未来的自动化工作流程产生影响。然而，它需要大约十倍的计算量，这可能会限制开发人员和技术用户的实际应用。",
+   "keyPoints": [
+    "Adobe Research 和 UC San Diego 合作构建了 EditAgent。",
+    "智能体会为每项任务选择正确的专用工具，而非依赖通用编辑器。",
+    "标准语言模型根据测量的图像数据选择最佳结果。",
+    "该方法需要大约十倍的计算量。"
+   ]
+  },
+  "ko": {
+   "title": "Adobe는 AI 에이전트가 Photoshop 전문가처럼 편집 도구를 얼마나 잘 사용할 수 있는지 테스트하고 있습니다",
+   "summary": "Adobe Research와 샌디에이고 캘리포니아 대학교는 Photoshop 전문가처럼 이미지를 편집하는 AI 시스템인 EditAgent를 개발했습니다. 이 에이전트는 일반적인 범용 편집기를 반복해서 사용하는 대신 각 작업에 맞는 특화된 도구를 선택합니다. 이어 표준 언어 모델이 측정된 이미지 데이터를 기반으로 가장 좋은 결과를 선택합니다.",
+   "impact": "이 접근 방식은 전문화된 도구를 활용하는 새로운 AI 이미지 편집 방식을 보여주며 향후 개발 방식에 영향을 미칠 수 있습니다. 다만 일반 연산량의 약 10배가 필요하다는 점이 실제 적용에 제약이 될 수 있습니다.",
+   "keyPoints": [
+    "Adobe Research와 UC San Diego가 EditAgent를 제작했습니다.",
+    "에이전트가 작업별로 특화된 도구를 선택합니다.",
+    "표준 언어 모델이 측정된 이미지 데이터를 기반으로 최적의 결과를 선택합니다.",
+    "이 방식은 약 10배의 연산량이 필요합니다."
+   ]
+  }
+ }
+}

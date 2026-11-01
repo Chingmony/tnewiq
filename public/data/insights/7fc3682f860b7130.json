@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7fc3682f860b7130",
+ "contentHash": "e9a1a28aae50f48e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T16:55:40.604Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Amazon ElastiCache expands data tiering to R8gd and R7gd nodes in Europe (Spain) and Asia Pacific (Hyderabad)",
+   "summary": "Amazon ElastiCache for Valkey data tiering has expanded to new regions and node types. It is now available on Graviton4-based R8gd nodes in the AWS Europe (Spain) Region, as well as on Graviton3-based R7gd nodes in the Europe (Spain) and Asia Pacific (Hyderabad) Regions. Data tiering offers a lower-cost method to scale Valkey workloads.",
+   "impact": "This expansion could provide developers and technology users in these regions with more cost-effective options for scaling their Valkey data workloads. Teams managing large caches may benefit from lower infrastructure costs by utilizing these newly supported node types and regions.",
+   "keyPoints": [
+    "Amazon ElastiCache for Valkey data tiering is now available on R8gd nodes in Europe (Spain).",
+    "Data tiering is available on R7gd nodes in Europe (Spain) and Asia Pacific (Hyderabad).",
+    "R8gd nodes are powered by Graviton4, while R7gd nodes use Graviton3."
+   ]
+  },
+  "km": {
+   "title": "Amazon ElastiCache ពង្រីកការកំណត់កម្រិតទិន្នន័យទៅកាន់ nodes ប្រភេទ R8gd និង R7gd ក្នុងតំបន់អឺរ៉ុប (អេស្ប៉ាញ) និងអាស៊ីប៉ាស៊ីហ្វិក (អ៊ីដ្រាបាដ)",
+   "summary": "Amazon ElastiCache សម្រាប់ទិន្នន័យ Valkey tiering ឥឡូវនេះមាននៅលើ Graviton4-based R8gd nodes ក្នុងតំបន់ AWS អឺរ៉ុប (អេស្ប៉ាញ) និងនៅលើ Graviton3-based R7gd nodes ក្នុងតំបន់អឺរ៉ុប (អេស្ប៉ាញ) និងអាស៊ីប៉ាស៊ីហ្វិក (អ៊ីដ្រាបាដ)។ ការកំណត់កម្រិតទិន្នន័យគឺជាវិធីសាស្ត្រចំណាយទាបជាងមុនដើម្បីពង្រីក Valkey ។",
+   "impact": "ការពង្រីកនេះអាចផ្ដល់ឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងតំបន់ទាំងនេះនូវជម្រើសដែលមានតម្លៃសមរម្យជាងមុនសម្រាប់ការំពង្រីកបន្ទុកការងារទិន្នន័យ Valkey។ ក្រុមការងារអាចទទួលបានអត្ថប្រយោជន៍ពីការចំណាយលើហេដ្ឋារចនាសម្ព័ន្ធទាបជាងមុនដោយប្រើប្រាស់ប្រភេទ node និងតំបន់ថ្មីទាំងនេះ។",
+   "keyPoints": [
+    "Amazon ElastiCache សម្រាប់ Valkey data tiering ឥឡូវនេះមាននៅលើ R8gd nodes ក្នុងតំបន់អឺរ៉ុប (អេស្ប៉ាញ)។",
+    "Data tiering មាននៅលើ R7gd nodes ក្នុងតំបន់អឺរ៉ុប (អេស្ប៉ាញ) និងអាស៊ីប៉ាស៊ីហ្វិក (អ៊ីដ្រាបាដ)។",
+    "R8gd nodes ដំណើរការដោយ Graviton4 ចំណែកឯ R7gd nodes ប្រើប្រាស់ Graviton3។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon ElastiCache 将数据分层扩展至欧洲（西班牙）和亚太地区（海得拉巴）的 R8gd 和 R7gd 节点",
+   "summary": "Amazon ElastiCache for Valkey 数据分层现已在 AWS 欧洲（西班牙）区域基于 Graviton4 的 R8gd 节点上推出，并且在欧洲（西班牙）和亚太地区（海得拉巴）区域基于 Graviton3 的 R7gd 节点上推出。数据分层是扩展 Valkey 的一种低成本方法。",
+   "impact": "此次扩展可能会为这些地区的开发人员和技术用户提供更具成本效益的选择，以扩展其 Valkey 数据工作负载。管理大型缓存的团队可能会通过利用这些新支持的节点类型和区域来降低基础设施成本。",
+   "keyPoints": [
+    "Amazon ElastiCache for Valkey 数据分层现已在欧洲（西班牙）的 R8gd 节点上可用。",
+    "数据分层现已在欧洲（西班牙）和亚太地区（海得拉巴）的 R7gd 节点上可用。",
+    "R8gd 节点基于 Graviton4，而 R7gd 节点使用 Graviton3。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon ElastiCache, 유럽(스페인) 및 아시아 태평양(하이드라바드)의 R8gd 및 R7gd 노드로 데이터 티어링 확장",
+   "summary": "Amazon ElastiCache for Valkey 데이터 티어링이 AWS 유럽(스페인) 리전의 Graviton4 기반 R8gd 노드와 유럽(스페인) 및 아시아 태평양(하이드라바드) 리전의 Graviton3 기반 R7gd 노드에서 이제 제공됩니다. 데이터 티어링은 Valkey를 확장하는 더 저렴한 방법입니다.",
+   "impact": "이번 확장을 통해 해당 지역의 개발자와 기술 사용자는 Valkey 데이터 워크로드를 확장할 때 비용 효율적인 옵션을 더 많이 확보할 수 있습니다. 대규모 캐시를 관리하는 팀은 새로 지원되는 노드 유형과 리전을 활용하여 인프라 비용을 절감할 수 있습니다.",
+   "keyPoints": [
+    "Amazon ElastiCache for Valkey 데이터 티어링이 유럽(스페인)의 R8gd 노드에서 제공됩니다.",
+    "데이터 티어링은 유럽(스페인) 및 아시아 태평양(하이드라바드)의 R7gd 노드에서 사용할 수 있습니다.",
+    "R8gd 노드는 Graviton4 기반이며 R7gd 노드는 Graviton3을 사용합니다."
+   ]
+  }
+ }
+}

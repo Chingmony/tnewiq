@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "691c8e08da04e4f9",
+ "contentHash": "70fe3256dfacff4e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T16:54:21.412Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "What Carries Forward? Pretraining Disclosure Across Language Model Releases",
+   "summary": "Understanding the pretraining of language models requires data, processing procedures, and computational resources. It remains unclear whether successive model releases preserve or expand earlier disclosure. A document-based audit was conducted to examine 41 language models.",
+   "impact": "This research could help technology users and developers understand transparency trends in successive language model releases. It may shed light on whether information about training data and computational resources is being preserved or expanded.",
+   "keyPoints": [
+    "Understanding pretraining requires data, processing procedures, and computational resources",
+    "It is unclear if successive releases preserve or expand earlier disclosure",
+    "A document-based audit of 41 language models was conducted"
+   ]
+  },
+  "km": {
+   "title": "តើមានអ្វីខ្លះដែលបន្តទៅមុខ? ការបង្ហាញការបណ្តុះបណ្តាលមុនតាមការចេញផ្សាយម៉ូដែលភាសា",
+   "summary": "ការយល់ដឹងពីរបៀបដែលម៉ូដែលភាសាត្រូវបានបណ្តុះបណ្តាលមុន ទាមទារព័ត៌មានអំពីទិន្នន័យ ដំណើរការ និងធនធានកុំព្យូទ័រ។ វាគ្មិននៅតែមិនច្បាស់ថាតើការចេញផ្សាយបន្តបន្ទាប់រក្សា ឬពង្រីកការបង្ហាញមុនៗ។ ការសវនកម្មផ្អែកលើឯកសារមួយត្រូវបានធ្វើឡើងលើ 41 ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកប្រើប្រាស់បច្ចេកវិទ្យា និងអ្នកអភិវឌ្ឍន៍ស្វែងយល់ពីនិន្នាការតម្លាភាពក្នុងការចេញផ្សាយម៉ូដែលភាសាជាប់ៗគ្នា។ វាអាចបញ្ជាក់ថាតើព័ត៌មានអំពីទិន្នន័យបណ្តុះបណ្តាល និងធនធានកុំព្យូទ័រត្រូវបានរក្សាទុក ឬពង្រីក។",
+   "keyPoints": [
+    "ការយល់ដឹងពីការបណ្តុះបណ្តាលមុនទាមទារទិន្នន័យ ដំណើរការ និងធនធានកុំព្យូទ័រ",
+    "វានៅតែមិនច្បាស់ថាតើការចេញផ្សាយបន្តបន្ទាប់រក្សា ឬពង្រីកការបង្ហាញមុន",
+    "ការសវនកម្មផ្អែកលើឯកសារនៃ 41 ម៉ូដែលភាសាត្រូវបានធ្វើឡើង"
+   ]
+  },
+  "zh-CN": {
+   "title": "什么得以延续？语言模型发布中的预训练披露情况",
+   "summary": "了解语言模型是如何进行预训练的需要关于其数据、处理程序和计算资源的信息。然而，连续的版本发布是保留还是扩大了早期的披露内容尚不清楚。我们对41个语言模型进行了一项基于文档的审计。",
+   "impact": "这项研究可能帮助技术用户和开发者了解连续语言模型发布中的透明度趋势。它可能会阐明关于训练数据和计算资源的信息是否得到了保留或扩展。",
+   "keyPoints": [
+    "理解预训练需要数据、处理程序和计算资源",
+    "连续发布是否保留或扩大早期披露尚不清楚",
+    "进行了针对41个语言模型的基于文档的审计"
+   ]
+  },
+  "ko": {
+   "title": "무엇이 이어지는가? 언어 모델 출시 전반에 걸친 사전 학습 공개",
+   "summary": "언어 모델이 어떻게 사전 학습되었는지 이해하려면 데이터, 처리 절차 및 컴퓨팅 리소스에 대한 정보가 필요합니다. 그러나 후속 출시에서 이전 공개 내용을 유지하는지 아니면 확장하는지는 여전히 불분명합니다. 41개의 언어 모델을 대상으로 문서 기반 감사가 수행되었습니다.",
+   "impact": "이 연구는 기술 사용자과 개발자가 연속적인 언어 모델 출시에서의 투명성 트렌드를 이해하는 데 도움을 줄 수 있습니다. 학습 데이터 및 컴퓨팅 리소스에 대한 정보가 보존되는지 또는 확장되는지 밝혀낼 수 있습니다.",
+   "keyPoints": [
+    "사전 학습을 이해하려면 데이터, 처리 절차 및 컴퓨팅 리소스가 필요함",
+    "후속 출시가 이전 공개를 유지하거나 확장하는지 여부는 불분명함",
+    "41개의 언어 모델에 대한 문서 기반 감사가 진행됨"
+   ]
+  }
+ }
+}
