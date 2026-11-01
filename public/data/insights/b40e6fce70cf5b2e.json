@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b40e6fce70cf5b2e",
+ "contentHash": "9fd9fee998e0d0bf",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T09:31:19.479Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Structured Security Explanations for Learning-Based Vulnerability Detection",
+   "summary": "Software vulnerability detection remains difficult due to reliance on predefined rules, implicit learning from code and labels, or the use of large language models for final judgments. The source text notes that it remains unclear whether these limitations can be overcome with structured approaches.",
+   "impact": "Security teams and developers relying on automated detection tools may need to consider how vulnerability patterns are analyzed, as current methods still face fundamental challenges in providing clear explanations.",
+   "keyPoints": [
+    "Software vulnerability detection is still difficult.",
+    "Existing approaches use predefined analysis rules or implicit learning.",
+    "Large language models are often used to make final security judgments."
+   ]
+  },
+  "km": {
+   "title": "ការពន្យល់សុវត្ថិភាពដែលមានរចនាសម្ព័ន្ធសម្រាប់ការរកឃើញភាពងាយរងគ្រោះដោយផ្អែកលើការរៀនសូត្រ",
+   "summary": "ការរកឃើញភាពងាយរងគ្រោះនៃកម្មវិធីនៅតែមានការលំបាកដោយសារតែការពឹងផ្អែកលើច្បាប់វិភាគដែលបានកំណត់ទុកជាមុន ការរៀនលំនាំដោយប្រយោលពីកូដ ឬការប្រើប្រាស់គំរូភាសាធំៗសម្រាប់សេចក្តីសម្រេចចិត្តចុងក្រោយ។ អត្ថបទប្រភពបានកត់សម្គាល់ថាវានៅតែមិនច្បាស់ថាតើសំណួរទាំងនេះអាចត្រូវបានដោះស្រាយឬយ៉ាងណា។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍ដែលពឹងផ្អែកលើឧបករណ៍រកឃើញស្វ័យប្រវត្តិតាមដានអាចនឹងត្រូវពិចារណាពីរបៀបដែលលំនាំភាពងាយរងគ្រោះត្រូវបានវិភាគ ដោយសារវិធីសាស្ត្របច្ចុប្បន្ននៅតែប្រឈមមុខនឹងបញ្ហាប្រឈមជាមូលដ្ឋាន។",
+   "keyPoints": [
+    "ការរកឃើញភាពងាយរងគ្រោះនៃកម្មវិធីនៅតែមានការលំបាក។",
+    "វិធីសាស្ត្រដែលមានស្រាប់ប្រើប្រាស់ច្បាប់វិភាគដែលបានកំណត់ទុកជាមុន។",
+    "គំរូភាសាធំៗត្រូវបានប្រើប្រាស់ញឹកញាប់ដើម្បីធ្វើការសម្រេចចិត្តសន្តិសុខចុងក្រោយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "基于学习的漏洞检测的结构化安全解释",
+   "summary": "由于依赖预定义的分析规则、从代码和标签中隐式学习漏洞模式，或者使用大语言模型做出最终的安全判断，软件漏洞 detection 仍然很困难。源文本指出，目前尚不清楚这些限制是否能够得到克服。",
+   "impact": "依赖自动化检测工具的安全团队和开发人员可能需要重新考虑漏洞模式的分析方式，因为当前的方法在提供清晰解释方面仍然面临根本性挑战。",
+   "keyPoints": [
+    "软件漏洞检测仍然十分困难。",
+    "现有方法使用预定义的分析规则或隐式学习。",
+    "大语言模型常被用于做出最终的安全判断。"
+   ]
+  },
+  "ko": {
+   "title": "학습 기반 취약성 탐지를 위한 구조화된 보안 설명",
+   "summary": "소프트웨어 취약성 탐지는 사전 정의된 분석 규칙, 코드와 레이블로부터의 암묵적 학습, 또는 최종 보안 판단을 위한 대형 언어 모델의 사용에 의존하기 때문에 여전히 어렵습니다. 원문에서는 이러한 제한이 극복될 수 있는지 여부가 여전히 불분명하다고 언급합니다.",
+   "impact": "자동화된 탐지 도구에 의존하는 보안 팀과 개발자는 현재의 방법이 명확한 설명을 제공하는 데 있어 여전히 근본적인 과제에 직면해 있으므로 취약성 패턴이 분석되는 방식을 고려해야 할 수 있습니다.",
+   "keyPoints": [
+    "소프트웨어 취약성 탐지는 여전히 어렵습니다.",
+    "기존 접근 방식은 사전 정의된 분석 규칙이나 암묵적 학습을 사용합니다.",
+    "대형 언어 모델이 최종 보안 판단을 내리는 데 자주 사용됩니다."
+   ]
+  }
+ }
+}

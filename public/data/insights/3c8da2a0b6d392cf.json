@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3c8da2a0b6d392cf",
+ "contentHash": "5488e3d8390ede94",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T09:27:09.982Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+   "summary": "Hackers compromised signed-in Polymarket traders' positions and transferred their funds on October 29 by injecting malicious code into the website. The malicious code replaced a page-speed script loaded from an outside company, DebugBear. Polymarket has stated that it is refunding approximately $2.7 million to 726 affected wallets.",
+   "impact": "This incident highlights supply chain risks associated with third-party scripts loaded on websites. Developers and security teams may need to review external resource integrations and monitoring to prevent similar compromises.",
+   "keyPoints": [
+    "Malicious code replaced an outside page-speed script on Polymarket.",
+    "The attack occurred on October 29 and affected signed-in traders.",
+    "Polymarket is refunding about $2.7 million to 726 impacted wallets.",
+    "Blockchain records show crypto worth about $2.64 million reached the hackers."
+   ]
+  },
+  "km": {
+   "title": "ពួក ह्याគឃ័រ លួចប្រាក់ប្រហែល ២,៧ លានដុល្លារ ពីពាណិជ្ជករ Polymarket តាមរយៈស្គ្រីប DebugBear ដែលរងការបំពាន",
+   "summary": "កូដព្យាបាទនៅលើគេហទំព័រទីផ្សារព្យាករណ៍ Polymarket បានលក់ទីតាំងរបស់ពាណិជ្ជករដែលបានចូលគណនី និងផ្ទេរថវិកាទៅឱ្យពួក ह्याគឃ័រ កាលពីថ្ងៃទី២៩ ខែតុលា។ កូដនោះបានជំនួសស្គ្រីបល្បឿនទំព័រដែលគេហទំព័របានផ្ទុកពីក្រុមហ៊ុនខាងក្រៅ។ Polymarket បានប្រកាសថាខ្លួនកំពុងសងប្រាក់វិញប្រហែល ២,៧ លានដុល្លារ ទៅកាន់កាបូបប្រាក់ចំនួន ៧២៦ ដែលរងផលប៉ះពាល់។",
+   "impact": "ឧប្បត្តិហេតុនេះបង្ហាញពីហានិភ័យនៃខ្សែសង្វាក់ផ្គត់ផ្គង់ដែលទាក់ទងនឹងស្គ្រីបភាគីទីបីនៅលើគេហទំព័រ។ ក្រុមអភិវឌ្ឍន៍និងសុវត្ថិភាពអាចចាំបាច់ត្រូវពិនិត្យឡើងវិញនូវការរួមបញ្ចូលធនធានខាងក្រៅដើម្បីការពារការបំពានស្រដៀងគ្នានេះ។",
+   "keyPoints": [
+    "កូដព្យាបាទបានជំនួសស្គ្រីបល្បឿនទំព័រខាងក្រៅនៅលើ Polymarket។",
+    "ការវាយប្រហារបានកើតឡើងនៅថ្ងៃទី២៩ ខែតុលា និងបានប៉ះពាល់ដល់ពាណិជ្ជករដែលបានចូលគណនី។",
+    "Polymarket កំពុងសងប្រាក់វិញប្រហែល ២,៧ លានដុល្លារ ដល់កាបូបប្រាក់ចំនួន ៧២៦។",
+    "កំណត់ត្រា区块链បង្ហាញថា הקריបតូមានតម្លៃប្រហែល ២,៦៤ លានដុល្លារបានទៅដល់ពួក ह्याគឃ័រ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "黑客通过被劫持的 DebugBear 脚本从 Polymarket 交易员处窃取约 270 万美元",
+   "summary": "10月29日，预测市场 Polymarket 网站上的恶意代码出售了部分已登录交易员的头寸并将他们的资金转移给黑客。该恶意代码替换了网站从外部公司加载的页面速度脚本。Polymarket 表示正在向 726 个受影响的钱包退款约 270 万美元。",
+   "impact": "这一事件突显了与网站加载的第三方脚本相关的供应链风险。开发人员和安全团队可能需要审查外部资源集成和监控，以防止发生类似的妥协事件。",
+   "keyPoints": [
+    "恶意代码替换了 Polymarket 上的外部页面速度脚本。",
+    "攻击发生在 10 月 29 日并影响了已登录的交易员。",
+    "Polymarket 正在向 726 个受影响的钱包退款约 270 万美元。",
+    "区块链记录显示价值约 264 万美元的加密货币到达了黑客手中。"
+   ]
+  },
+  "ko": {
+   "title": "해커들이 탈취된 DebugBear 스크립트를 통해 Polymarket 트레이더들로부터 약 270만 달러를 갈취함",
+   "summary": "10월 29일 예측 시장인 Polymarket 웹사이트의 악성 코드가 로그인한 트레이더들의 포지션을 일부 매각하고 자금을 해커들에게 이전했습니다. 해당 악성 코드는 사이트가 외부 회사로부터 로드한 페이지 속도 스크립트를 대체했습니다. Polymarket은 피해를 입은 726개의 지갑에 약 270만 달러를 환불하고 있다고 밝혔습니다.",
+   "impact": "이번 사건은 웹사이트에 로드되는 제3자 스크립트와 관련된 공급망 위험을 보여줍니다. 개발자와 보안 팀은 유사한 침해를 방지하기 위해 외부 리소스 통합 및 모니터링을 검토해야 할 수 있습니다.",
+   "keyPoints": [
+    "악성 코드가 Polymarket의 외부 페이지 속도 스크립트를 대체했습니다.",
+    "공격은 10월 29일에 발생하여 로그인한 트레이더들에게 영향을 미쳤습니다.",
+    "Polymarket은 피해를 입은 726개의 지갑에 약 270만 달러를 환불하고 있습니다.",
+    "블록체인 기록에 따르면 약 264만 달러 상당의 암호화폐가 해커들에게 도달했습니다."
+   ]
+  }
+ }
+}

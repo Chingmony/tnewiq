@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "202849170d6b51a3",
+ "contentHash": "95167cec9289882c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T09:32:39.172Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "When POST Becomes GET: Investigating HTTP Method Interchangeability and Its Security Implications",
+   "summary": "HTTP method semantics usually divide safe retrieval from state-changing actions, but deployed web applications do not always enforce this consistently. This paper investigates HTTP method interchangeability, specifically looking at how POST requests can be handled in certain contexts. Researchers study this behavior and its security implications for modern web applications.",
+   "impact": "Security teams and developers may need to review how their web applications handle and enforce HTTP method semantics. Inconsistent enforcement could introduce security risks related to state-changing operations.",
+   "keyPoints": [
+    "HTTP method semantics distinguish retrieval from state-changing operations.",
+    "Deployed web applications do not always enforce these boundaries consistently.",
+    "The paper investigates HTTP method interchangeability where POST requests may behave differently."
+   ]
+  },
+  "km": {
+   "title": "ពេលដែល POST ក្លាយជា GET៖ ការស៊ើបអង្កេតលើការផ្លាស់ប្តូរគ្នារវាងវិធីសាស្ត្រ HTTP និងផលប៉ះពាល់ផ្នែកសុវត្ថិភាពរបស់វា",
+   "summary": "ន័យរបស់វិធីសាស្ត្រ HTTP ជាទូទៅបែងចែកការទាញយកទិន្នន័យដោយសុវត្ថិភាពពីសកម្មភាពផ្លាស់ប្តូរស្ថានភាព ប៉ុន្តែកម្មវិធីវេបសាយដែលបានដាក់ឱ្យប្រើប្រាស់មិនតែងតែអនុវត្តព្រំដែននេះបានល្អិតល្អន់នោះទេ។ អត្ថបទស្រាវជ្រាវនេះសិក្សាអំពីការផ្លាស់ប្តូរគ្នារវាងវិធីសាស្ត្រ HTTP ដែលជាឥរិយាបថមួយអាចអនុញ្ញាតឱ្យសំណើ POST ត្រូវបានដោះស្រាយ។ អ្នកស្រាវជ្រាវសិក្សាពីឥរិយាបថនេះនិងផលប៉ះពាល់ផ្នែកសុវត្ថិភាពរបស់វា។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍ប្រហែលជាត្រូវពិនិត្យឡើងវិញពីរបៀបដែលកម្មវិធីវេបសាយរបស់ពួកគេគ្រប់គ្រងនិងអនុវត្តន័យនៃវិធីសាស្ត្រ HTTP។ ការអនុវត្តមិនស៊ីសង្វាក់គ្នាអាចបង្កជាហានិភ័យផ្នែកសុវត្ថិភាព។",
+   "keyPoints": [
+    "ន័យរបស់វិធីសាស្ត្រ HTTP បែងចែកការទាញយកពីប្រតិបត្តិការផ្លាស់ប្តូរស្ថានភាព។",
+    "កម្មវិធីវេបសាយមិនតែងតែអនុវត្តព្រំដែនទាំងនេះបានស៊ីសង្វាក់គ្នានោះទេ។",
+    "ឯកសារនេះស្រាវជ្រាវពីការផ្លាស់ប្តូរគ្នារវាងវិធីសាស្ត្រ HTTP ដែលសំណើ POST អាចមានប្រែប្រួល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "当 POST 变为 GET：研究 HTTP 方法可互换性及其安全影响",
+   "summary": "HTTP 方法语义通常是安全检索与状态更改操作之间的界限，但已部署的网络应用程序并不总是始终如一地执行此界限。在本文中，我们研究了 HTTP 方法可互换性，即 POST 请求在某些情况下可能被处理的行为。研究人员探讨了这种行为及其对网络应用程序的安全影响。",
+   "impact": "安全团队和开发人员可能需要审查其网络应用程序处理和执行 HTTP 方法语义的方式。不一致的执行可能会引入与状态更改操作相关的安全风险。",
+   "keyPoints": [
+    "HTTP 方法语义区分了安全检索与状态更改操作。",
+    "已部署的网络应用程序并不总是始终如一地强制执行这些界限。",
+    "本文研究了 POST 请求可能表现出可互换性的 HTTP 方法行为。"
+   ]
+  },
+  "ko": {
+   "title": "POST가 GET이 될 때: HTTP 메서드 상호 교환성 및 그 보안적 영향 조사",
+   "summary": "HTTP 메서드 시맨틱은 안전한 검색과 상태 변경 작업을 구분하는 일반적인 경계이지만 배포된 웹 애플리케이션은 항상 이 경계를 일관되게 강제하지 않습니다. 본 논문에서는 POST 요청이 특정 방식으로 처리될 수 있는 HTTP 메서드 상호 교환성을 연구합니다. 연구원들은 이 행위와 보안적 영향을 조사합니다.",
+   "impact": "보안 팀과 개발자는 웹 애플리케이션이 HTTP 메서드 시맨틱을 처리하고 강제하는 방식을 검토해야 할 수 있습니다. 일관되지 않은 강제는 상태 변경 작업과 관련된 보안 위험을 초래할 수 있습니다.",
+   "keyPoints": [
+    "HTTP 메서드 시맨틱은 검색과 상태 변경 작업을 구분합니다.",
+    "배포된 웹 애플리케이션은 이러한 경계를 항상 일관되게 강제하지 않습니다.",
+    "이 논문은 POST 요청이 처리될 수 있는 HTTP 메서드 상호 교환성을 연구합니다."
+   ]
+  }
+ }
+}

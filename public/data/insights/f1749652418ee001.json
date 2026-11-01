@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f1749652418ee001",
+ "contentHash": "fa4882df967e8a8e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T09:30:04.891Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Jync v1.8.2 Log CDC Covers Xinchuang Databases with Improved Concurrency and Auditing",
+   "summary": "Jync version 1.8.2 has expanded its log CDC capabilities from MySQL, Oracle, PostgreSQL, and SQL Server to cover various domestic and compatible databases, including YashanDB YStream, Dameng DM8 LogMiner, openGauss, and other PostgreSQL dialect families. The synchronization side now includes targeted fixes for row count auditing and block comparisons for deletions. Additionally, multiple tasks on the same connection configuration are now allocated parallelism based on the number of active tasks, queuing instead of failing when the pool is full.",
+   "impact": "Developers and database administrators working with domestic and compatible databases may benefit from broader CDC support and more stable concurrency management. The improved row count auditing and queue-based fallback mechanisms could enhance data synchronization reliability.",
+   "keyPoints": [
+    "Log CDC expanded to support YashanDB YStream, Dameng DM8 LogMiner, and openGauss among other dialects.",
+    "Added targeted row count auditing fixes and deletion comparison blocks on the synchronization side.",
+    "Multiple tasks on a single connection now allocate parallelism by active task count with a queue fallback instead of failing."
+   ]
+  },
+  "km": {
+   "title": "Jync v1.8.2 គាំទ្រមូលដ្ឋានទិន្នន័យ Xinchuang ជាមួយការធ្វើសមកាលកម្មកាន់តែប្រសើរ",
+   "summary": "កំណែ Jync v1.8.2 បានពង្រីកសមត្ថភាព Log CDC របស់ខ្លួនទៅកាន់មូលដ្ឋានទិន្នន័យក្នុងស្រុក និងស្របគ្នាជាច្រើនទៀតដូចជា YashanDB YStream, Dameng DM8 LogMiner និង openGauss ។ ផ្នែកធ្វើសមកាលកម្មបានបន្ថែមការជួសជុលគោលដៅសម្រាប់ការសវនកម្មចំនួនជួរដេក និងការប្រៀបធៀបបំណែកសម្រាប់ការលុប។ ជាងនេះទៅទៀត ការងារច្រើននៅលើការតភ្ជាប់តែមួយឥឡូវនេះត្រូវបានបែងចែកប៉ារ៉ាឡែលដោយផ្អែកលើចំនួនការងារសកម្ម ដោយតម្រង់ជួរជំនួសឱ្យការបរាជ័យនៅពេលដែលពែរពេញ។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យាអាចទទួលបានអត្ថប្រយោជន៍ពីការគាំទ្រ CDC កាន់តែទូលំទូលាយ និងការគ្រប់គ្រងភាពស្របគ្នាប្រកបដោយស្ថិរភាពជាងមុន។ ការសវនកម្មចំនួនជួរដេកដែលបានកែលម្អ និងយន្តការតម្រង់ជួរអាចបង្កើនភាពជឿជាក់នៃការធ្វើសមកាលកម្មទិន្នន័យ។",
+   "keyPoints": [
+    "ពង្រីក Log CDC ទៅកាន់ YashanDB YStream, Dameng DM8 LogMiner និង openGauss ។",
+    "បានបន្ថែមការជួសជុលសវនកម្មចំនួនជួរដេក និងការប្រៀបធៀបការលុប។",
+    "ការងារច្រើនលើការតភ្ជាប់តែមួយឥឡូវនេះតម្រង់ជួរជំនួសឱ្យការបរាជ័យនៅពេលពែរពេញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Jync v1.8.2 · 日志 CDC 覆盖信创数据库，并发与审计更稳",
+   "summary": "Jync v1.8.2 将日志 CDC 从 MySQL、Oracle、PostgreSQL 和 SQL Server 扩展到了更多国产与兼容数据库，包括崖山 YStream、达梦 DM8 LogMiner 以及 openGauss 等 PG 方言家族。同步侧新增了行数审计的定点修补与删除比对分块。同时，同一连接配置上的多个任务改为按活跃任务数分配并行度，池满时采用排队退让而非直接判失.",
+   "impact": "开发者和技术团队可以借助更广泛的国产数据库 CDC 支持来提升数据同步能力。并发任务的排队退让机制以及行数审计优化，能够增强高负载场景下的系统稳定性和准确性。",
+   "keyPoints": [
+    "日志 CDC 扩展支持崖山 YStream、达梦 DM8 LogMiner 和 openGauss 等数据库。",
+    "同步侧新增行数审计的定点修补与删除比对分块功能。",
+    "同一连接下的多个任务改为按活跃任务数分配并行度并在池满时排队退让。"
+   ]
+  },
+  "ko": {
+   "title": "Jync v1.8.2, 신창 데이터베이스를 아우르는 로그 CDC와 향상된 동시성 및 감사 기능 제공",
+   "summary": "Jync v1.8.2는 로그 CDC 지원 범위를 MySQL, Oracle, PostgreSQL, SQL Server에서 야산 YStream, 다몽 DM8 LogMiner, openGauss 등 다양한 국산 및 호환 데이터베이스로 확장했습니다. 동기화 측면에서는 행 수 감사에 대한 정밀 수정 및 삭제 비교 블록이 추가되었습니다. 또한 동일한 연결 설정의 여러 작업이 활성 작업 수에 따라 병렬 처리를 할당받도록 변경되어, 풀이 가득 찼을 때 실패 처리되는 대신 대기열에서 처리됩니다.",
+   "impact": "개발자와 기술 팀은 확장된 CDC 지원과 보다 안정적인 동시성 관리를 통해 데이터 동기화의 신뢰성을 높일 수 있습니다. 향상된 감사 기능과 대기열 기반의 폴백 메커니즘은 시스템 안정성에 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "로그 CDC가 야산 YStream, 다몽 DM8 LogMiner, openGauss 등을 포함한 호환 데이터베이스로 확장됨.",
+    "동기화 측면에 행 수 감사 정밀 수정 및 삭제 비교 블록 추가.",
+    "동일 연결 내 다중 작업이 활성 작업 수에 따라 병렬도를 할당받고 풀 포화 시 대기하도록 변경됨."
+   ]
+  }
+ }
+}

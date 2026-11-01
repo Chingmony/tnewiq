@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f9220c3a290bbfef",
+ "contentHash": "1aac5c7beb233b64",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T09:29:14.577Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Jync v1.9.0 Released with Webhook Alerts and ETL Batches",
+   "summary": "Jync has released version 1.9.0, introducing Webhook alert notifications and ETL batches while expanding ETL connection types to seven new databases. The update also fixes a set of issues related to leases and connection pools within the synchronization links. Webhook alerts feature categorized push notifications for events such as sync failures and CDC anomalies, supporting cool-down periods and formats for generic, DingTalk, WeChat Work, and Lark platforms with encrypted storage.",
+   "impact": "This release could help users and security teams maintain better visibility over synchronization failures and anomalies while ensuring connection details are stored securely. Developers managing ETL workflows may benefit from improved organization through shared connections and sequential table execution.",
+   "keyPoints": [
+    "Added Webhook alert notifications for sync failures and CDC anomalies with cool-down periods.",
+    "Webhook addresses are stored encrypted, and the UI only displays the ending digits.",
+    "Introduced ETL batches allowing multiple tables with the same source and target to share connections and schedules.",
+    "Expanded ETL connection types to seven new databases and fixed synchronization link issues involving leases and connection pools."
+   ]
+  },
+  "km": {
+   "title": "Jync v1.9.0 ជាមួយនឹងការជូនដំណឹង Webhook និងបណ្តុំ ETL",
+   "summary": "Jync បានបញ្ចេញកំណែ v1.9.0 ដែលបានបន្ថែមការជូនដំណឹងតាម Webhook និងបណ្តុំ ETL ព្រមទាំងការពង្រីកប្រភេទការតភ្ជាប់ ETL ទៅកាន់មូលដ្ឋានទិន្នន័យថ្មីចំនួន 7 ។ ការអាប់ដេតនេះក៏បានជួសជុលបញ្ហាជាច្រើនដែលទាក់ទងនឹង lease និង connection pools នៅក្នុងតំណភ្ជាប់ស៊ីនហ្វ្រូនីសផងដែរ។ ការជូនដំណឹងតាម Webhook គាំទ្រដល់ការជូនដំណឹងតាមប្រភេទ និងមានការការពារការរក្សាទុកដោយអ៊ិនគ្រីប។",
+   "impact": "ការអាប់ដេតនេះអាចជួយដល់ក្រុមការងារក្នុងការតាមដានបញ្ហាស៊ីនហ្វ្រូនីសកាន់តែប្រសើរ និងធានាសុវត្ថិភាពទិន្នន័យនៃការតភ្ជាប់។ អ្នកអភិវឌ្ឍន៍អាចទទួលបានផលចំណេញពីការរៀបចំ ETL ឱ្យមានរបៀបរៀបរយជាងមុន។",
+   "keyPoints": [
+    "បានបន្ថែមការជូនដំណឹងតាម Webhook សម្រាប់ការបរាជ័យក្នុងការស៊ីនហ្វ្រូនីស និងភាពមិនប្រក្រតីរបស់ CDC។",
+    "អាសយដ្ឋាន Webhook ត្រូវបានរក្សាទុកដោយអ៊ិនគ្រីប និងបង្ហាញតែលេខកូដខាងក្រោយនៅលើទំព័រ។",
+    "បានបន្ថែមបណ្តុំ ETL ដែលអនុញ្ញាតឱ្យតារាងច្រើនចែករំលែកការតភ្ជាប់ និងកាលវិភាគរួមគ្នា។",
+    "បានពង្រីកប្រភេទការតភ្ជាប់ ETL ទៅកាន់មូលដ្ឋានទិន្នន័យថ្មីចំនួន 7 និងបានជួសជុលបញ្ហាដែលពាក់ព័ន្ធនឹង lease និង connection pools។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Jync v1.9.0 · Webhook 告警与 ETL 批次",
+   "summary": "Jync 发布了 v1.9.0 版本，新增了 Webhook 告警通知与 ETL 批次功能，并将 ETL 连接类型扩展到了 7 种新库。同步链路方面，修复了一组关于租约与连接池的问题。Webhook 告警支持按分类推送同步失败和 CDC 异常等事件，支持冷却时间以及通用、钉钉、企业微信和飞书格式，且地址加密存储，页面只回显尾号。",
+   "impact": "此次更新通过引入分类告警推送和加密存储，可以帮助开发与运维团队更及时、安全地监控同步链路的异常。ETL 批次功能的加入能够让同源同目标的表共享连接与调度，从而优化任务执行流程。",
+   "keyPoints": [
+    "新增 Webhook 告警通知，支持同步失败和 CDC 异常等事件分类推送及冷却时间。",
+    "Webhook 地址采用加密存储，页面仅回显尾号以确保安全性。",
+    "推出 ETL 批次功能，使同源同目标的多个表共享一对连接与一条调度并按顺序执行。",
+    "ETL 连接类型扩充到 7 种新库，并修复了同步链路中涉及租约与连接池的问题。"
+   ]
+  },
+  "ko": {
+   "title": "Jync v1.9.0, Webhook 경고 및 ETL 배치 기능 출시",
+   "summary": "Jync가 v1.9.0 버전을 출시하여 Webhook 경고 알림과 ETL 배치를 추가하고, ETL 연결 타입을 7개의 새로운 데이터베이스로 확장했습니다. 이번 업데이트는 또한 동기화 링크 내의 임대(lease) 및 커넥션 풀과 관련된 일련의 문제를 수정했습니다. Webhook 경고는 동기화 실패 및 CDC 이상 등의 이벤트에 대한 분류별 푸시 알림과 쿨다운 시간을 지원하며 주소는 암호화되어 저장됩니다.",
+   "impact": "이번 업데이트는 개발자와 운영 팀이 동기화 실패 및 이상 징후를 더 안전하고 효과적으로 모니터링할 수 있도록 도울 수 있습니다. ETL 배치를 통해 연결과 스케줄을 공유하여 여러 테이블의 작업을 더 효율적으로 관리할 수 있습니다.",
+   "keyPoints": [
+    "동기화 실패 및 CDC 이상 등에 대한 Webhook 경고 알림 기능 추가.",
+    "Webhook 주소는 암호화되어 저장되며 페이지에는 끝자리만 표시됨.",
+    "동일한 소스와 타겟을 가진 여러 테이블이 연결과 스케줄을 공유하고 순차적으로 실행되는 ETL 배치 기능 도입.",
+    "ETL 연결 타입을 7개의 새로운 데이터베이스로 확장하고 임대 및 커넥션 풀 관련 동기화 링크 문제 수정."
+   ]
+  }
+ }
+}

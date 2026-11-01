@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "92b80ccda6f9177d",
+ "contentHash": "bd9e9fb2390ce32b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T09:29:54.041Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "DataY Lightweight Data Platform, v1.0.5 Version Update",
+   "summary": "DataY has released its v1.0.5 update for its open-source, lightweight integrated data platform. The platform uses a single JAR file and a self-developed stream-batch unified processing engine to avoid complex component dependencies. It is designed to run efficiently on minimal hardware such as a 2-core 4GB setup.",
+   "impact": "This platform may lower the operational barrier for developers and technology users by eliminating the need for heavy component stacks like Hadoop or Spark for smaller-scale data tasks. Teams could benefit from reduced infrastructure requirements for data integration, modeling, and development.",
+   "keyPoints": [
+    "DataY is an open-source, lightweight integrated data platform.",
+    "It features a single JAR file and a self-developed stream-batch unified processing engine.",
+    "It can run on a 2-core 4G configuration to handle data integration, modeling, and development."
+   ]
+  },
+  "km": {
+   "title": "វេទិកាទិន្នន័យស្រាល DataY បច្ចុប្បន្នភាពកំណែ v1.0.5",
+   "summary": "DataY គឺជាវេទិកាទិន្នន័យចម្រុះដែលមានប្រភពបើកចំហនិងមានទម្ងន់ស្រាល ដែលដំណើរការជាមួយឯកសារ JAR តែមួយ និងម៉ាស៊ីនដំណើរការស្ទ្រីមនិងបាច់រួមបញ្ចូលគ្នា។ វាត្រូវបានរចនាឡើងដើម្បីកាត់បន្ថយស្មុគស្មាញនៃការថែទាំប្រព័ន្ធដោយមិនចាំបាច់ប្រើប្រាស់សមាសភាគធុនធ្ងន់។",
+   "impact": "វាអាចជួយកាត់បន្ថយឧបសគ្គផ្នែកប្រតិបត្តិការសម្រាប់ក្រុមអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យា ដោយសារតែវាអាចដំណើរការលើកម្លាំងម៉ាស៊ីនតិចតួច។",
+   "keyPoints": [
+    "DataY គឺជាវេទិកាទិន្នន័យចម្រុះដែលមានប្រភពបើកចំហ។",
+    "វាប្រើប្រាស់ឯកសារ JAR តែមួយ និងម៉ាស៊ីនដំណើរការទិន្នន័យផ្ទាល់ខ្លួន។",
+    "វាអាចដំណើរការបានយ៉ាងរលូននៅលើកម្លាំងម៉ាស៊ីន 2-core 4G ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "DataY 轻量数据平台，v1.0.5 版本更新",
+   "summary": "DataY 是一套开源、轻量的一体化数据平台，发布了 v1.0.5 版本更新。该平台采用一个 JAR 文件和自研流批一体处理引擎，避免了传统数据平台复杂的组件依赖。它旨在降低运维门槛，2 核 4G 硬件配置即可运行数据集成、建模和开发等功能。",
+   "impact": "这可能会降低开发人员和技术用户在构建数据平台时的基础设施门槛，使小型团队无需庞大的组件集群即可进行数据开发和集成。",
+   "keyPoints": [
+    "DataY 是一套开源且轻量的一体化数据平台。",
+    "通过单个 JAR 文件和自研流批一体处理引擎减少组件依赖。",
+    "仅需 2 核 4G 配置即可跑通数据集成、建模和开发。"
+   ]
+  },
+  "ko": {
+   "title": "DataY 경량 데이터 플랫폼, v1.0.5 버전 업데이트",
+   "summary": "DataY는 오픈소스 경량 통합 데이터 플랫폼으로 v1.0.5 업데이트를 진행했습니다. 이 플랫폼은 하나의 JAR 파일과 자체 개발한 스트림-배치 통합 처리 엔진을 사용하여 복잡한 컴포넌트 의존성을 없애고 운영 장벽을 낮추도록 설계되었습니다.",
+   "impact": "개발자와 기술 사용자들은 복잡한 컴포넌트 스택 없이도 소규모 하드웨어 환경에서 데이터 통합 및 개발을 수행할 수 있어 인프라 부담을 줄일 수 있습니다.",
+   "keyPoints": [
+    "DataY는 오픈소스 경량 통합 데이터 플랫폼입니다.",
+    "단일 JAR 파일과 자체 개발한 스트림-배치 통합 처리 엔진을 사용합니다.",
+    "2코어 4G 환경에서도 데이터 통합, 모델링, 개발 작업을 실행할 수 있습니다."
+   ]
+  }
+ }
+}
