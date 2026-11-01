@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7b0c85e523beb0ea",
+ "contentHash": "1ac15f39ca0b76e3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T02:20:51.856Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Beyond Aggregate WER: In-domain Adaptation, Learner Speech, Code-Switching, and Speaker Attribution in Online Spanish Learning Classrooms",
+   "summary": "Automatic speech recognition provides transcripts for educational natural language processing, but aggregate word error rate can hide errors in learner speech, multilingual turns, and speaker attribution. The text compares platform-integrated, open-weight, and adapted models in online Spanish learning classrooms.",
+   "impact": "Developers and researchers may need to look beyond aggregate word error rate to evaluate speech recognition performance in educational settings accurately. Understanding these specific error concentrations could help improve tools for learner speech, code-switching, and speaker attribution.",
+   "keyPoints": [
+    "Automatic speech recognition provides transcripts for educational natural language processing.",
+    "Aggregate word error rate can conceal errors in specific areas like learner speech.",
+    "The study compares platform-integrated, open-weight, and adapted models."
+   ]
+  },
+  "km": {
+   "title": "ហួសពី aggregate WER៖ ការសម្របខ្លួនក្នុងដែន ការនិយាយរបស់អ្នកសិក្សា ការប្តូរ ኮូដ និងការកំណត់អត្តសញ្ញាណអ្នកនិយាយនៅក្នុងថ្នាក់រៀនភាសាអេស្ប៉ាញអនឡាញ",
+   "summary": "ការស្គាល់សំឡេងដោយស្វ័យប្រវត្តិផ្តល់នូវប្រតិចារិកសម្រាប់ការដំណើរការភាសាធម្មជាតិអប់រំ ប៉ុន្តែអត្រាកំហុសពាក្យសរុបអាចលាក់កំបាំងកំហុសនៅក្នុងការនិយាយរបស់អ្នកសិក្សា ការប្តូរពហុភាសា និងការកំណត់អត្តសញ្ញាណអ្នកនិយាយ។ យើងប្រៀបធៀបគំរូដែលរួមបញ្ចូលជាមួយវេទិកា ទម្ងន់បើកចំហ និងសម្របខ្លួន។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍និងសុវត្ថិភាពអាចចាំបាច់ត្រូវពិនិត្យមើលឱ្យបានហួសពីអត្រាកំហុសពាក្យសរុប ដើម្បីវាយតម្លៃដំណើរការនៃការស្គាល់សំឡេងក្នុងការអប់រំ។ ការយល់ដឹងពីកំហុសទាំងនេះអាចជួយកែលម្អឧបករណ៍សម្រាប់ការនិយាយរបស់អ្នកសិក្សា។",
+   "keyPoints": [
+    "ការស្គាល់សំឡេងដោយស្វ័យប្រវត្តិផ្តល់នូវប្រតិចារិកសម្រាប់ការអប់រំ។",
+    "អត្រាកំហុសពាក្យសរុបអាចលាក់កំបាំងកំហុសនៅក្នុងការនិយាយរបស់អ្នកសិក្សា។",
+    "ការប្រៀបធៀបគំរូដែលរួមបញ្ចូលជាមួយវេទិកា ទម្ងន់បើកចំហ និងសម្របខ្លួន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "超越总体字错率：在线西班牙语学习课堂中的域内适应、学习者语音、语码转换和说话人归属",
+   "summary": "自动语音识别为教育自然语言处理提供转录文本，但总体的字错率可能会掩盖集中在学习者语音、多语种转换以及说话人归属方面的错误。我们对平台集成、开放权重和适应后的模型进行了比较。",
+   "impact": "开发人员和技术用户可能需要超越总体字错率来准确评估教育环境中的语音识别性能。了解这些特定的错误集中情况可能有助于改进针对学习者语音、语码转换和说话人归属的工具。",
+   "keyPoints": [
+    "自动语音识别为教育自然语言处理提供转录文本。",
+    "总体字错率可能会掩盖特定区域的错误。",
+    "研究比较了平台集成、开放权重以及适应后的模型。"
+   ]
+  },
+  "ko": {
+   "title": "전체 WER을 넘어: 온라인 스페인어 학습 교실에서의 도메인 내 적응, 학습자 음성, 코드 스위칭 및 화자 식별",
+   "summary": "자동 음성 인식은 교육용 자연어 처리를 위한 텍스트를 제공하지만, 전체 단어 오류율은 학습자 음성, 다국어 전환, 화자 식별에 집중된 오류를 가릴 수 있습니다. 본 연구에서는 플랫폼 통합, 오픈 웨이트 및 적응된 모델들을 비교합니다.",
+   "impact": "개발자와 기술 사용자는 교육 환경에서 음성 인식 성능을 정확히 평가하기 위해 전체 단어 오류율 외의 지표를 살펴봐야 할 수 있습니다. 이러한 특정 오류 집중도를 이해하면 학습자 음성 및 화자 식별 도구를 개선하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "자동 음성 인식이 교육용 자연어 처리를 위한 텍스트를 제공합니다.",
+    "전체 단어 오류율은 학습자 음성 등의 오류를 감출 수 있습니다.",
+    "플랫폼 통합, 오픈 웨이트, 적응된 모델들을 비교합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5433d48c0a4a7162",
+ "contentHash": "e5f76aa91bdc8123",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T02:18:08.090Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "datasette-llm 0.1a9",
+   "summary": "datasette-llm version 0.1a9 has been released with a user experience improvement. The underlying plugin now automatically picks up the default model used by LLM. This update allows users to run Datasette Agent without having to explicitly configure a default model.",
+   "impact": "This release could simplify the setup process for developers and users working with Datasette Agent and LLM by reducing manual configuration steps.",
+   "keyPoints": [
+    "datasette-llm 0.1a9 has been released.",
+    "The plugin now picks up the default model used by LLM automatically.",
+    "Users no longer need to explicitly configure a default model when starting Datasette Agent."
+   ]
+  },
+  "km": {
+   "title": "datasette-llm 0.1a9",
+   "summary": "ការចេញផ្សាយ datasette-llm 0.1a9 នាំមកនូវការកែលម្អបទពិសោធន៍អ្នកប្រើប្រាស់បន្តិចបន្តួច។ ជំនួយការផ្នែកបਲាស៊ินឥឡូវនេះអាចជ្រើសរើសម៉ូដែលលំនាំដើមដែលប្រើដោយ LLM ដោយស្វ័យប្រវត្តិ។ ការអាប់ដេតនេះអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ចាប់ផ្តើមប្រើប្រាស់ Datasette Agent ដោយមិនចាំបាច់កំណត់រចនាសម្ព័ន្ធម៉ូដែលលំនាំដើមយ៉ាងច្បាស់លាស់នោះទេ។",
+   "impact": "ការអាប់ដេតនេះអាចជួយសម្រួលដល់ដំណើរការរៀបចំសម្រាប់អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់ដោយកាត់បន្ថយជំហានកំណត់រចនាសម្ព័ន្ធដោយដៃ។",
+   "keyPoints": [
+    "datasette-llm 0.1a9 ត្រូវបានចេញផ្សាយ។",
+    "ប្លាកហ្គូនឥឡូវនេះជ្រើសរើសម៉ូដែលលំនាំដើមរបស់ LLM ដោយស្វ័យប្រវត្តិ។",
+    "មិនចាំបាច់បញ្ជាក់ម៉ូដែលលំនាំដើមជាមួយ `-s` ទៀតទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "datasette-llm 0.1a9",
+   "summary": "datasette-llm 0.1a9 版本发布，对底层插件进行了用户体验改进。它现在可以自动获取 LLM 使用的默认模型，这意味着用户无需显式配置默认模型即可开始使用 Datasette Agent。",
+   "impact": "此次更新可能会简化开发人员和用户在使用 Datasette Agent 和 LLM 时的配置流程，减少手动指定模型的步骤。",
+   "keyPoints": [
+    "datasette-llm 0.1a9 已发布。",
+    "该插件现在能自动捕获 LLM 的默认模型。",
+    "启动 Datasette Agent 时不再需要显式配置默认模型。"
+   ]
+  },
+  "ko": {
+   "title": "datasette-llm 0.1a9",
+   "summary": "사용자 경험이 소폭 개선된 datasette-llm 0.1a9 버전이 출시되었습니다. 이제 기본 플러그인이 LLM에서 사용하는 기본 모델을 자동으로 가져오므로, 기본 모델을 명시적으로 설정하지 않고도 Datasette Agent를 사용할 수 있습니다.",
+   "impact": "이번 업데이트를 통해 개발자와 사용자는 수동 설정 단계를 줄이고 Datasette Agent를 더 편리하게 실행할 수 있게 될 수 있습니다.",
+   "keyPoints": [
+    "datasette-llm 0.1a9 버전이 출시됨.",
+    "플러그인이 LLM의 기본 모델을 자동으로 인식함.",
+    "Datasette Agent 실행 시 기본 모델을 명시적으로 설정할 필요가 없어짐."
+   ]
+  }
+ }
+}

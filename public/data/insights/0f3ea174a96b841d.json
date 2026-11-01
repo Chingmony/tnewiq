@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0f3ea174a96b841d",
+ "contentHash": "ec075c21591f0715",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T02:19:07.466Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Answer-Only Disclosure: Private-Context LLM Assistance over Web APIs with a Leakage Ledger",
+   "summary": "Web assistants are increasingly using a mix of an on-device model and a cloud LLM via a Web API to answer questions about private documents. Through collaborative decoding, the document remains on the client device while the cloud only receives an approved public view.",
+   "impact": "This approach could help protect private user data by preventing sensitive documents from being sent directly to cloud LLMs, though developers and security teams may need to evaluate how public views and leakage ledgers are managed.",
+   "keyPoints": [
+    "Web assistants pair a small on-device model with a cloud LLM over a Web API.",
+    "Documents remain on the client during collaborative decoding.",
+    "The cloud only receives a public view approved by the user."
+   ]
+  },
+  "km": {
+   "title": "ការទម្លាយព័ត៌មានបែបឆ្លើយតបតែប៉ុណ្ណោះ៖ ការជំនួយដោយ LLM ឯកជនតាមរយៈ Web APIs ជាមួយបញ្ជីកត់ត្រាការលេចធ្លាយ",
+   "summary": "ជំនួយការនៅលើបណ្តាញអ៊ីនធឺណិតកាន់តែច្រើនឡើងប្រើប្រាស់ម៉ូដែលនៅលើឧបករណ៍និង cloud LLM តាមរយៈ Web API ដើម្បីឆ្លើយសំណួរអំពីឯកសារឯកជនរបស់អ្នកប្រើប្រាស់។ តាមរយៈការឌិកូដសហការគ្នា ឯកសារនៅតែស្ថិតនៅលើឧបករណ៍របស់អតិថិជន ខណៈដែល cloud ទទួលបានតែទិដ្ឋភាពសាធារណៈដែលបានអនុម័តប៉ុណ្ណោះ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយការពារទិន្នន័យឯកជនរបស់អ្នកប្រើប្រាស់ដោយការពារកុំឱ្យឯកសាររសើបត្រូវបានបញ្ជូនដោយផ្ទាល់ទៅ cloud LLM ទោះបីជាអ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខប្រហែលជាត្រូវវាយតម្លៃពីរបៀបគ្រប់គ្រងទិដ្ឋភាពសាធារណៈនិងបញ្ជីកត់ត្រាការលេចធ្លាយក៏ដោយ។",
+   "keyPoints": [
+    "ជំនួយការនៅលើបណ្តាញផ្គូផ្គងម៉ូដែលខ្នាតតូចនៅលើឧបករណ៍ជាមួយ cloud LLM តាមរយៈ Web API ។",
+    "ឯកសារនៅតែស្ថិតនៅលើឧបករណ៍ក្នុងអំឡុងពេលឌិកូដសហការគ្នា។",
+    "Cloud ទទួលបានតែទិដ្ឋភាពសាធារណៈដែលបានអនុម័តដោយអ្នកប្រើប្រាស់ប៉ុណ្ណោះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "仅回答披露：通过带泄露账本的Web API实现私有上下文LLM协助",
+   "summary": "网络助手越来越多地通过将小型端侧模型与Web API背后的云端LLM配对，来回答关于用户私有文档的问题。在协同解码过程中，文档保留在客户端，而云端仅接收用户批准的公共视图。",
+   "impact": "这种方法可以通过防止敏感文档直接发送到云端LLM来帮助保护用户的私有数据，尽管开发人员和安全团队可能需要评估如何管理公共视图和泄露账本。",
+   "keyPoints": [
+    "网络助手将小型端侧模型与Web API上的云端LLM配对。",
+    "在协同解码期间，文档保留在客户端上。",
+    "云端仅接收用户批准的公共视图。"
+   ]
+  },
+  "ko": {
+   "title": "답변 전용 공개: 유출 원장이 포함된 Web API를 통한 프라이빗 컨텍스트 LLM 지원",
+   "summary": "웹 어시스턴트는 소형 온디바이스 모델과 Web API 뒤의 클라우드 LLM을 결합하여 사용자의 개인 문서에 대한 질문에 점점 더 많이 답변하고 있습니다. 협력 디코딩을 통해 문서는 클라이언트에 유지되며 클라우드는 사용자가 승인한 공개 뷰만 수신합니다.",
+   "impact": "이 접근 방식은 민감한 문서가 클라우드 LLM으로 직접 전송되는 것을 방지하여 개인 사용자 데이터를 보호하는 데 도움이 될 수 있으며, 개발자와 보안 팀은 공개 뷰와 유출 원장이 관리되는 방식을 평가해야 할 수 있습니다.",
+   "keyPoints": [
+    "웹 어시스턴트는 소형 온디바이스 모델과 Web API상의 클라우드 LLM을 페어링합니다.",
+    "협력 디코딩 중 문서는 클라이언트에 유지됩니다.",
+    "클라우드는 사용자가 승인한 공개 뷰만 수신합니다."
+   ]
+  }
+ }
+}

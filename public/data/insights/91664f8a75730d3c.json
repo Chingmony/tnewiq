@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "91664f8a75730d3c",
+ "contentHash": "3979453f281f901c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T02:19:27.587Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Calculation and rejection diverge in language models tested at known mechanical limits",
+   "summary": "Language models were tested at known mechanical limits to observe how they handle engineering quantities. The study examined situations where models return engineering quantities with a solved status, leading trusting software to pass them on despite the requested design being physically impossible. Such failures might stem from poor calculation, how the answer is requested, or a failure to judge.",
+   "impact": "Software developers and technology users may need to implement stricter validation checks before trusting engineering quantities returned by language models. Security teams and developers should be aware that models might pass on physically impossible designs as solved.",
+   "keyPoints": [
+    "Language models were tested at known mechanical limits.",
+    "Models sometimes return engineering quantities with the status solved for physically impossible designs.",
+    "Software trusting the model passes these quantities on.",
+    "Failures could involve poor calculation, the request method, or a failure to judge."
+   ]
+  },
+  "km": {
+   "title": "ការគណនា និងការបដិសេធមានភាពខុសគ្នាផ្អែកលើគំរូភាសាដែលបានសាកល្បងនៅដែនកំណត់មេកានិចដែលគេស្គាល់",
+   "summary": "គំរូភាសាត្រូវបានសាកល្បងនៅដែនកំណត់មេកានិចដែលគេស្គាល់ ដើម្បី观察របៀបដែលពួកវាจัดการបរិមាណវិស្វកម្ម។ ការសិក្សានេះបានពិនិត្យមើលស្ថានភាពដែលគំរូនានាបញ្ជូនបរិមាណវិស្វកម្មដែលមានស្ថានភាពបានដោះស្រាយ ដែលនាំឱ្យកម្មវិធីដែលទុកចិត្តបញ្ជូនវាបន្តទោះបីជាការរចនាដែលបានស្នើសុំមិនអាចទៅរួចក៏ដោយ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍កម្មវិធី និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវអនុវត្តការត្រួតពិនិត្យសុពលភាពឱ្យបានតឹងរ៉ឹងជាងមុន មុនពេលទុកចិត្តលើបរិមាណវិស្វកម្មដែលត្រឡប់មកពីគំរូភាសា។",
+   "keyPoints": [
+    "គំរូភាសាត្រូវបានសាកល្បងនៅដែនកំណត់មេកានិចដែលគេស្គាល់។",
+    "គំរូខ្លះត្រឡប់បរិមាណវិស្វកម្មជាមួយនឹងស្ថានភាពបានដោះស្រាយសម្រាប់ដែនកំណត់ដែលមិនអាចទៅរួច។",
+    "កម្មវិធីដែលទុកចិត្តលើគំរូបានបញ្ជូនបរិមាណទាំងនោះបន្ត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在已知机械极限下测试的语言模型中，计算与拒绝出现分歧",
+   "summary": "语言模型在已知的机械极限下进行了测试，以观察它们如何处理工程量。研究检查了模型返回带有已解决状态的工程量的情况，即使请求的设计在物理上是不可能的，信任它的软件也会将其传递下去。此类失败可能反映了计算不佳、答案请求方式或判断失败。",
+   "impact": "软件开发人员和技术人员在信任语言模型返回的工程量之前，可能需要实施更严格的验证检查。开发人员应注意，模型可能会将物理上不可能的设计作为已解决传递过去。",
+   "keyPoints": [
+    "语言模型在已知的机械极限下进行了测试。",
+    "模型有时会对物理上不可能的设计返回已解决状态的工程量。",
+    "信任模型的软件会传递这些量。",
+    "失败可能源于计算不佳、请求方式或判断失败。"
+   ]
+  },
+  "ko": {
+   "title": "알려진 기계적 한계에서 테스트된 언어 모델에서 계산과 거부가 서로 갈라집니다",
+   "summary": "언어 모델이 공학적 수량을 처리하는 방식을 관찰하기 위해 알려진 기계적 한계에서 테스트되었습니다. 요청된 설계가 물리적으로 불가능할 때조차도 모델이 해결됨 상태로 공학적 수량을 반환하면 이를 신뢰하는 소프트웨어가 그대로 전달하는 상황을 연구했습니다. 이러한 실패는 형편없는 계산, 답변이 요청된 방식, 또는 판단 실패를 반영할 수 있습니다.",
+   "impact": "소프트웨어 개발자와 기술 사용자는 언어 모델이 반환하는 공학적 수량을 신뢰하기 전에 더 엄격한 검증 절차를 구현해야 할 수 있습니다. 개발자와 보안 팀은 모델이 물리적으로 불가능한 설계를 해결됨으로 전달할 수 있음을 인지해야 합니다.",
+   "keyPoints": [
+    "언어 모델이 알려진 기계적 한계에서 테스트되었습니다.",
+    "모델은 물리적으로 불가능한 설계에 대해 해결됨 상태의 공학적 수량을 반환하기도 합니다.",
+    "모델을 신뢰하는 소프트웨어가 이러한 수량을 전달합니다.",
+    "실패는 불량한 계산이나 요청 방식, 판단 실패에서 비롯될 수 있습니다."
+   ]
+  }
+ }
+}

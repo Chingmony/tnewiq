@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "42dbcbcb7314cffa",
+ "contentHash": "bf26fe82603237ef",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T02:18:38.342Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Estimating Implicit Expected Log Density Ratios",
+   "summary": "Density ratio estimation (DRE) is a key subroutine used when exact probabilities cannot be computed in applications such as experimental design, generative modelling, and reinforcement learning. This paper introduces a new approach related to estimating implicit expected log density ratios.",
+   "impact": "This research could impact developers and researchers working on generative modelling, experimental design, and reinforcement learning by improving how density ratios are handled when exact probabilities are unavailable.",
+   "keyPoints": [
+    "Density ratio estimation (DRE) is used when exact probabilities cannot be computed.",
+    "DRE is applied in experimental design, generative modelling, and reinforcement learning.",
+    "The paper introduces an approach for estimating implicit expected log density ratios."
+   ]
+  },
+  "km": {
+   "title": "ការប៉ាន់ស្មានសមាមាត្រដង់ស៊ីតេសំណូមពរដែលរំពឹងទុកដោយប្រយោល",
+   "summary": "ការប៉ាន់ស្មានសមាមាត្រដង់ស៊ីតេ (DRE) គឺជាអនុរាជវង្សដ៏សំខាន់មួយ នៅពេលដែលប្រូបាប៊ីលីតេពិតប្រាកដមិនអាចគណនាបាន ក្នុងការអនុវត្តផ្សេងៗដូចជា ការរចនាពិសោធន៍ ការធ្វើគំរូជំនាន់ និងការរៀនពង្រឹង។ នៅក្នុងឯកសារនេះ យើងណែនាំអំពីវិធីសាស្ត្រថ្មីមួយ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចមានឥទ្ធិពលលើអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវដែលធ្វើការលើការធ្វើគំរូជំនាន់ ការរចនាពិសោធន៍ និងការរៀនពង្រឹង ដោយកែលម្អរបៀបដែលសមាមាត្រដង់ស៊ីតេត្រូវបានគ្រប់គ្រង។",
+   "keyPoints": [
+    "ការប៉ាន់ស្មានសមាមាត្រដង់ស៊ីតេ (DRE) ត្រូវបានប្រើប្រាស់នៅពេលដែលប្រូបាប៊ីលីតេពិតប្រាកដមិនអាចគណនាបាន។",
+    "DRE ត្រូវបានអនុវត្តក្នុងការរចនាពិសោធន៍ ការធ្វើគំរូជំនាន់ និងការរៀនពង្រឹង។",
+    "ឯកសារនេះណែនាំពីវិធីសាស្ត្រថ្មីទាក់ទងនឹងសមាមាត្រដង់ស៊ីតេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "估计隐式期望对数密度比",
+   "summary": "当无法计算精确概率时，密度比估计（DRE）是广泛应用中的关键子程序，这些应用从实验设计到生成建模和强化学习。在本文中，我们引入了一种新方法。",
+   "impact": "这项研究可能会影响从事生成建模、实验设计和强化学习的开发人员和研究人员，有助于改善在无法获得精确概率时处理密度比的方式。",
+   "keyPoints": [
+    "当无法计算精确概率时使用密度比估计（DRE）。",
+    "DRE 应用于实验设计、生成建模和强化学习中。",
+    "本文引入了一种估计隐式期望对数密度比的方法。"
+   ]
+  },
+  "ko": {
+   "title": "암묵적 기대 로그 밀도 비율 추정",
+   "summary": "정확한 확률을 계산할 수 없을 때, 밀도 비율 추정(DRE)은 실험 설계부터 생성 모델링 및 강화 학습에 이르는 다양한 응용 분야에서 핵심 서브루틴입니다. 본 논문에서는 새로운 접근 방식을 소개합니다.",
+   "impact": "이번 연구는 정확한 확률을 사용할 수 없을 때 밀도 비율을 처리하는 방식을 개선함으로써 생성 모델링, 실험 설계, 강화 학습을 다루는 개발자와 연구원들에게 영향을 미칠 수 있습니다.",
+   "keyPoints": [
+    "정확한 확률을 계산할 수 없을 때 밀도 비율 추정(DRE)이 사용됩니다.",
+    "DRE는 실험 설계, 생성 모델링, 강화 학습에 적용됩니다.",
+    "본 논문에서는 암묵적 기대 로그 밀도 비율 추정 관련 내용을 소개합니다."
+   ]
+  }
+ }
+}

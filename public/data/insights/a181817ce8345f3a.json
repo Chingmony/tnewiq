@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a181817ce8345f3a",
+ "contentHash": "739897ff04e315fd",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T02:17:58.782Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How We Took Over ChatGPT Accounts",
+   "summary": "Parameter Labs discovered an exploit chain against ChatGPT's HTML previews feature involving the MathLive JavaScript library and postMessage() communication. By using innerHTML without proper checks, untrusted code in an iframe could inject a new iframe without sandbox restrictions. Attackers leveraged a permitted YouTube domain via the YouTube oEmbed endpoint to reflect and execute JavaScript, allowing them to fetch private user data and take actions on behalf of a signed-in user.",
+   "impact": "Security teams and developers working with sandboxed iframes and cross-frame messaging may need to review how postMessage() listeners validate message origins and handle innerHTML assignments. This vulnerability demonstrates how complex attack chains can bypass strict Content Security Policy rules if permitted external domains or endpoints are not tightly controlled.",
+   "keyPoints": [
+    "Parameter Labs found an exploit against ChatGPT's HTML previews implementation.",
+    "The attack used postMessage() from a sandboxed iframe to trigger a virtual keyboard in the parent page via innerHTML.",
+    "A YouTube oEmbed endpoint was used to bypass CSP rules and execute JavaScript.",
+    "OpenAI closed the vulnerability and paid a $5,000 bug bounty."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែលយើងបានគ្រប់គ្រងគណនី ChatGPT",
+   "summary": "Parameter Labs បានរកឃើញការវាយប្រហារមួយប្រឆាំងនឹងមុខងារ HTML previews របស់ ChatGPT ដែលពាក់ព័ន្ធនឹងបណ្ណាល័យ MathLive JavaScript និងការទំនាក់ទំនងតាមរយៈ postMessage()។ តាមរយៈការប្រើប្រាស់ innerHTML ដោយគ្មានការពិនិត្យត្រឹមត្រូវ កូដដែលមិនគួរឱ្យទុកចិត្តនៅក្នុង iframe អាចបញ្ចូល iframe ថ្មីដោយគ្មានការកំណត់កម្រិតសុវត្ថិភាព។ អ្នកវាយប្រហារបានប្រើប្រាស់ដែន YouTube ដែលត្រូវបានអនុញ្ញាត ដើម្បីដំណើរការ JavaScript ដែលអនុញ្ញាតឱ្យពួកគេទាញយកទិន្នន័យឯកជនរបស់អ្នកប្រើប្រាស់។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ដែលធ្វើការជាមួយ iframes និងការផ្ញើសារឆ្លងកាត់ស៊ុម អាចចាំបាច់ត្រូវពិនិត្យមើលពីរបៀបដែល postMessage() ផ្ទៀងផ្ទាត់ប្រភពសារ។ ចន្លោះប្រហោងនេះបង្ហាញពីរបៀបដែលខ្សែសង្វាក់វាយប្រហារស្មុគស្មាញអាចឆ្លងកាត់ច្បាប់ CSP ដ៏តឹងរឹង ប្រសិនបើដែនខាងក្រៅដែលបានអនុញ្ញាតមិនត្រូវបានគ្រប់គ្រងតឹងរ៉ឹងទេ។",
+   "keyPoints": [
+    "Parameter Labs បានរកឃើញការវាយប្រហារលើការអនុវត្ត HTML previews របស់ ChatGPT។",
+    "ការវាយប្រហារបានប្រើប្រាស់ postMessage() ពី iframe ដែលមានសុវត្ថិភាព ដើម្បីបង្កឱ្យមានក្ដារចុចនិម្មិត។",
+    "ចំណុចបញ្ចប់ YouTube oEmbed ត្រូវបានប្រើប្រាស់ដើម្បីរំលងច្បាប់ CSP និងដំណើរការ JavaScript។",
+    "OpenAI បានបិទរន្ធខ្សោយនេះ និងបានផ្ដល់ប្រាក់រង្វាន់ចំនួន 5000 ដុល្លារ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "我们是如何接管 ChatGPT 账户的",
+   "summary": "Parameter Labs 发现针对 ChatGPT 的 HTML previews 功能的一个漏洞利用链，该漏洞涉及 MathLive JavaScript 库以及 postMessage() 通信。由于未对 innerHTML 进行适当检查，iframe 中的不受信任代码能够注入一个没有沙箱限制的新iframe。攻击者利用 YouTube oEmbed 端点反射并执行 JavaScript，从而能够获取用户的私密数据并代表登录用户执行操作。",
+   "impact": "使用沙箱 iframe 和跨帧消息传递的安全团队和开发人员可能需要审查 postMessage() 监听器验证消息来源以及处理 innerHTML 赋值的方式。此漏洞表明，如果未严格控制允许的外部域或端点，复杂的攻击链可能会绕过严格的内容安全策略规则。",
+   "keyPoints": [
+    "Parameter Labs 发现了针对 ChatGPT 的 HTML previews 实现的漏洞。",
+    "该攻击使用来自沙箱 iframe 的 postMessage() 通过 innerHTML 在父页面中触发虚拟键盘。",
+    "利用 YouTube oEmbed 端点绕过 CSP 规则并执行 JavaScript。",
+    "OpenAI 修复了该漏洞并支付了 5000 美元的漏洞赏金。"
+   ]
+  },
+  "ko": {
+   "title": "ChatGPT 계정을 탈취한 방법",
+   "summary": "Parameter Labs는 MathLive JavaScript 라이브러리와 postMessage() 통신을 포함하는 ChatGPT의 HTML previews 구현에 대한 익스플로잇 체인을 발견했습니다. 적절한 검증 없이 innerHTML을 사용함으로써 iframe 내의 신뢰할 수 없는 코드가 샌드박스 제한이 없는 새로운 iframe을 주입할 수 있었습니다. 공격자는 YouTube oEmbed 엔드포인트를 통해 JavaScript를 반사시키고 실행함으로써 비공개 사용자 데이터를 가져오고 로그인된 사용자를 대신하여 작업을 수행할 수 있었습니다.",
+   "impact": "샌드박스된 iframe 및 크로스 프레임 메시징을 사용하는 보안 팀과 개발자는 postMessage() 리스너가 메시지 출처를 검증하고 innerHTML 할당을 처리하는 방식을 검토해야 할 수 있습니다. 이 취약점은 허용된 외부 도메인이나 엔드포인트가 엄격하게 통제되지 않을 경우 복잡한 공격 체인이 엄격한 콘텐츠 보안 정책 규칙을 우회할 수 있음을 보여줍니다.",
+   "keyPoints": [
+    "Parameter Labs는 ChatGPT의 HTML previews 구현에 대한 익스플로잇을 발견했습니다.",
+    "이 공격은 샌드박스된 iframe의 postMessage()를 사용하여 innerHTML을 통해 부모 페이지의 가상 키보드를 트리거했습니다.",
+    "YouTube oEmbed 엔드포인트를 사용하여 CSP 규칙을 우회하고 JavaScript를 실행했습니다.",
+    "OpenAI는 취약점을 수정하고 5,000달러의 버그 바운티를 지급했습니다."
+   ]
+  }
+ }
+}

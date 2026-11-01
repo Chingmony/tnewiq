@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2cac0abcab791660",
+ "contentHash": "5edec93c4277d15a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T02:22:16.716Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "FAD-KV: Adaptive Dictionary KV Caching for Efficient Reasoning Decoding",
+   "summary": "Key-value caching is an essential mechanism in large language models that stores intermediate representations to speed up autoregressive decoding. However, as generation lengths increase, both memory and computation for the KV cache grow linearly. This growth makes compression techniques critical for efficient handling.",
+   "impact": "Efficient KV cache compression methods could help reduce memory consumption and computational overhead for large language models during long generations. Developers and technology users may benefit from improved performance and scalability.",
+   "keyPoints": [
+    "Key-value caching stores intermediate key and value representations in large language models.",
+    "It is used to accelerate autoregressive decoding.",
+    "KV cache memory and computation grow linearly as generation length increases."
+   ]
+  },
+  "km": {
+   "title": "FAD-KV: Adaptive Dictionary KV Caching for Efficient Reasoning Decoding",
+   "summary": "ការរក្សាទុកគុវលា Key-value គឺជាយន្តការស្នូលនៅក្នុងម៉ូដែលភាសាខ្នាតធំ ដែលរក្សាទុកការតំណាងកម្រិតមធ្យមដើម្បីពន្លឿនការឌិកូដ។ នៅពេលដែលប្រវែងនៃការបង្កើតកើនឡើង អង្គចងចាំ និងការគណនា KV cache កើនឡើងតាមលំដាប់លំដោយ។",
+   "impact": "វិធីសាស្ត្របង្ហាប់ KV cache ប្រហែលជាជួយកាត់បន្ថយការប្រើប្រាស់អង្គចងចាំ និងការចំណាយលើការគណនាសម្រាប់ម៉ូដែលភាសាខ្នាតធំ។ អ្នកអភិវឌ្ឍន៍អាចទទួលបានអត្ថប្រយោជន៍ពីការបង្កើនប្រសិទ្ធភាព។",
+   "keyPoints": [
+    "ការរក្សាទុក KV cache គឺជាយន្តការស្នូលក្នុងម៉ូដែលភាសាខ្នាតធំ។",
+    "វាត្រូវបានប្រើដើម្បីពន្លឿនការឌិកូដអូតូរេហ្គ្រេស៊ីវ។",
+    "អង្គចងចាំ និងការគណនា KV cache កើនឡើងជាលំដាប់នៅពេលប្រវែងបង្កើតកើនឡើង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "FAD-KV: 适应性字典 KV 缓存用于高效推理解码",
+   "summary": "键值（KV）缓存在大语言模型中是一个核心机制，它通过存储中间键和值表示来加速自回归解码。随着生成长度的增加，KV 缓存的内存和计算量呈线性增长，这使得压缩技术变得至关重要。",
+   "impact": "高效的 KV 缓存压缩方法可能有助于降低大语言模型在长文本生成过程中的内存消耗和计算开销。开发人员和技术用户可能会受益于性能和可扩展性的提升。",
+   "keyPoints": [
+    "键值缓存在大语言模型中存储中间的键和值表示。",
+    "该机制用于加速自回归解码。",
+    "随着生成长度的增加，KV 缓存的内存和计算量呈线性增长。"
+   ]
+  },
+  "ko": {
+   "title": "FAD-KV: 효율적인 추론 디코딩을 위한 적응형 사전 KV 캐싱",
+   "summary": "키-값(KV) 캐싱은 대규모 언어 모델의 핵심 메커니즘으로, 중간 키 및 값 표현을 저장하여 자기회귀 디코딩을 가속화합니다. 생성 길이가 증가함에 따라 KV 캐시 메모리 및 연산이 선형적으로 증가하므로 압축이 매우 중요해집니다.",
+   "impact": "효율적인 KV 캐시 압축 방법은 긴 생성 과정에서 대규모 언어 모델의 메모리 소비와 연산 오버헤드를 줄이는 데 도움이 될 수 있습니다. 개발자와 기술 사용자는 성능 및 확장성 향상의 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "키-값 캐싱은 대규모 언어 모델의 핵심 메커니즘입니다.",
+    "중간 키 및 값 표현을 저장하여 자기회귀 디코딩을 가속화합니다.",
+    "생성 길이가 증가함에 따라 KV 캐시 메모리와 연산이 선형적으로 증가합니다."
+   ]
+  }
+ }
+}

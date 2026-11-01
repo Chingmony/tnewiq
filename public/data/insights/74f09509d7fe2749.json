@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "74f09509d7fe2749",
+ "contentHash": "6495fe8890d99210",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T02:19:57.526Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Prompt Lottery in LLM-as-a-Judge: Measuring and Mitigating Sensitivity to Syntactic Rephrasing",
+   "summary": "LLM-as-a-Judge is widely used to evaluate large language models, but current methods generally assume that a single judge prompt acts as a stable evaluation tool. Previous research has mainly focused on intentional prompt alterations like scoring rubrics. This work examines the sensitivity of judge prompts to syntactic rephrasing.",
+   "impact": "This research could help developers and technology users understand the reliability of LLM evaluation methods. It may lead to improved mitigation strategies against evaluation instability caused by minor prompt variations.",
+   "keyPoints": [
+    "LLM-as-a-Judge is a standard method for evaluating large language models.",
+    "Current approaches often assume a single judge prompt is stable.",
+    "Prior work mostly explored deliberate prompt modifications such as scoring rubrics."
+   ]
+  },
+  "km": {
+   "title": "ការបោះឆ្នោតបញ្ជាក្នុង LLM-as-a-Judge៖ ការវាស់វែង និងការបន្ធូរបន្ថយភាពងាយរងគ្រះចំពោះការសរសេរឡើងវិញនូវវាក្យសព្ទ",
+   "summary": "LLM-as-a-Judge បានក្លាយជាស្តង់ដារសម្រាប់ការវាយតម្លៃម៉ូដែលភាសាខ្នាតធំ ប៉ុន្តែវិធីសាស្ត្រភាគច្រើនសន្មត់ថាការបញ្ជាតែមួយមុខធ្វើការជាឧបករណ៍វាយតម្លៃស្ថិរភាព។ ការងារពីមុនភាគច្រើនបានរុករកការកែប្រែការបញ្ជាដោយចេតនាដូចជាកម្រងពិន្ទុ។ ការងារនេះពិនិត្យមើលភាពងាយរងគ្រះនៃការបញ្ជាចំពោះការសរសេរឡើងវិញនូវវាក្យសព្ទ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាយល់ពីភាពទុកចិត្តបាននៃវិធីសាស្ត្រវាយតម្លៃ LLM។ វាអាចនាំឱ្យមានការកែលម្អយុទ្ធសាស្ត្របន្ធូរបន្ថយប្រឆាំងនឹងអស្ថិរភាពនៃការវាយតម្លៃដែលបណ្តាលមកពីការប្រែប្រួលការបញ្ជាបន្តិចបន្តួច។",
+   "keyPoints": [
+    "LLM-as-a-Judge គឺជាវិធីសាស្ត្រស្តង់ដារសម្រាប់ការវាយតម្លៃម៉ូដែលភាសាខ្នាតធំ។",
+    "វិធីសាស្ត្របច្ចុប្បន្នมักសន្មត់ថាការបញ្ជាតែមួយមានស្ថិរភាព។",
+    "ការងារពីមុនបានស្វែងយល់ជាចម្បងលើការកែប្រែការបញ្ជាដោយចេតនាដូចជាកម្រងពិន្ទុ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "LLM-as-a-Judge 中的提示彩票：衡量和缓解对句法改写的敏感性",
+   "summary": "LLM-as-a-Judge 已成为评估大语言模型的标准，但大多数方法默认单个评估提示词是一个稳定的评估工具。先前的研究主要探讨了刻意的提示词修改，例如评分标准。本研究探讨了评估提示词对句法改写的敏感性。",
+   "impact": "这项研究可能有助于开发人员和技术用户了解 LLM 评估方法的可靠性。它可能会带来改进的缓解策略，以应对由微小提示词变化引起的评估不稳定性。",
+   "keyPoints": [
+    "LLM-as-a-Judge 是评估大语言标准的常用方法。",
+    "当前方法通常假设单个评估提示词是稳定的。",
+    "先前的工作主要探讨了诸如评分标准等刻意的提示词修改。"
+   ]
+  },
+  "ko": {
+   "title": "LLM-as-a-Judge에서의 프롬프트 복권: 구문 재rephrasing에 대한 민감도 측정 및 완화",
+   "summary": "LLM-as-a-Judge는 대형 언어 모델을 평가하는 표준이 되었지만, 대부분의 접근 방식은 단일 심사위원 프롬프트가 안정적인 평가 도구로 작동한다고 암묵적으로 가정합니다. 이전 연구는 주로 채점 루브릭과 같은 의도적인 프롬프트 수정을 탐구했습니다. 본 연구는 구문 재작성에 대한 심사위원 프롬프트의 민감도를 조사합니다.",
+   "impact": "이 연구는 개발자와 기술 사용자가 LLM 평가 방법의 신뢰성을 이해하는 데 도움을 줄 수 있습니다. 사소한 프롬프트 변동으로 인한 평가 불안정성에 대응하기 위한 개선된 완화 전략으로 이어질 수 있습니다.",
+   "keyPoints": [
+    "LLM-as-a-Judge는 대형 언어 모델 평가를 위한 표준입니다.",
+    "현재 접근 방식은 단일 심사위원 프롬프트가 안정적이라고 가정합니다.",
+    "이전 연구는 주로 채점 루브릭과 같은 의도적인 프롬프트 수정을 탐구했습니다."
+   ]
+  }
+ }
+}

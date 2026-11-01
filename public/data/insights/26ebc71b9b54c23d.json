@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "26ebc71b9b54c23d",
+ "contentHash": "f8c1cb11877b9ff8",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T02:23:18.413Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "TensorBound: Characterizing Tensor Binding Failures in AI Compiler and Runtime Stacks",
+   "summary": "AI compiler and runtime stacks must preserve bindings between tensor values and their operations, storage, and execution state. These bindings can fail while underlying objects remain present, causing symptoms to appear in another layer. Researchers present TensorBound to empirically study these tensor binding failures.",
+   "impact": "This research could help developers and security teams better understand and detect synchronization or binding issues across different layers of AI compiler and runtime stacks.",
+   "keyPoints": [
+    "AI compiler and runtime stacks must maintain bindings for tensor values.",
+    "Binding failures can happen even when underlying objects are still present.",
+    "Symptoms of these failures often appear in a different layer.",
+    "TensorBound provides an empirical approach to characterizing these issues."
+   ]
+  },
+  "km": {
+   "title": "TensorBound៖ ការកំណត់លក្ខណៈនៃការបរាជ័យនៃការចង Tensor នៅក្នុងកម្មវិធី compiler និង runtime របស់ AI",
+   "summary": "កម្មវិធី compiler និង runtime របស់ AI ត្រូវតែរក្សាការចងរវាងតម្លៃ tensor និងប្រតិបត្តិការ ការផ្ទុក និងស្ថានភាពប្រតិបត្តិរបស់វា។ ការចងទាំងនេះអាចបរាជ័យខណៈពេលដែលវត្ថុមូលដ្ឋាននៅតែមាន ដោយមានរោគសញ្ញាបង្ហាញនៅក្នុងស្រទាប់ផ្សេងទៀត។ យើងបង្ហាញ TensorBound ដែលជាការសិក្សាเชิงជាក់ស្តែង។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខយល់ដឹងកាន់តែច្បាស់អំពីបញ្ហាការចងនៅក្នុងស្រទាប់ផ្សេងៗនៃ AI compiler និង runtime stacks។",
+   "keyPoints": [
+    "AI compiler និង runtime stacks ត្រូវតែថែរក្សាការចងសម្រាប់តម្លៃ tensor។",
+    "ការបរាជ័យនៃការចងអាចកើតឡើងទោះបីជាវត្ថុមូលដ្ឋាននៅតែមានក៏ដោយ។",
+    "រោគសញ្ញានៃការបរាជ័យទាំងនេះច្រើនតែបង្ហាញនៅក្នុងស្រទាប់ផ្សេង។",
+    "TensorBound ណែនាំវិធីសាស្ត្រเชิงជាក់ស្តែងដើម្បីកំណត់លក្ខណៈបញ្ហាទាំងនេះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "TensorBound：表征AI编译器和运行时堆栈中的张量绑定失败",
+   "summary": "AI编译器和运行时堆栈必须保持张量与其操作、存储和执行状态之间的绑定。这些底层对象存在时绑定仍可能失败，且症状会出现在另一层中。我们提出了TensorBound来进行实证研究。",
+   "impact": "这项研究可能帮助开发人员和安全团队更好地理解和检测AI编译器及运行时堆栈不同层之间的同步或绑定问题。",
+   "keyPoints": [
+    "AI编译器和运行时堆栈必须维护张量值的绑定。",
+    "即使底层对象仍然存在，绑定也可能失败。",
+    "这些失败的症状通常会出现在不同的层中。",
+    "TensorBound提供了一种实证方法来表征这些问题。"
+   ]
+  },
+  "ko": {
+   "title": "TensorBound: AI 컴파일러 및 런타임 스택에서 텐서 바인딩 실패 특성화",
+   "summary": "AI 컴파일러 및 런타임 스택은 텐서 값과 연산, 스토리지, 실행 상태 간의 바인딩을 유지해야 합니다. 기본 객체가 존재하는 동안에도 이러한 바인딩이 실패할 수 있으며, 증상은 다른 계층에서 나타납니다. 연구진은 이를 실증적으로 분석하기 위해 TensorBound를 제시합니다.",
+   "impact": "이 연구는 개발자와 보안 팀이 AI 컴파일러 및 런타임 스택의 다양한 계층 간 동기화 또는 바인딩 문제를 더 잘 이해하고 감지하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "AI 컴파일러 및 런타임 스택은 텐서 값에 대한 바인딩을 유지해야 합니다.",
+    "기본 객체가 여전히 존재하는 상태에서도 바인딩 실패가 발생할 수 있습니다.",
+    "이러한 실패의 증상은 종종 다른 계층에서 나타납니다.",
+    "TensorBound는 이러한 문제를 실증적으로 연구하기 위해 도입되었습니다."
+   ]
+  }
+ }
+}

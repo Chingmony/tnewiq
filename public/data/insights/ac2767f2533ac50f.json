@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ac2767f2533ac50f",
+ "contentHash": "01984a9c81fac539",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T02:19:47.431Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Jailbreak Connectivity: Towards Diverse, Transferable, and Universal Multimodal Large Language Model Jailbreak",
+   "summary": "Multimodal large language models (MLLMs) remain vulnerable to visual jailbreak attacks that bypass their safety safeguards. Current methods often optimize isolated adversarial examples, which restricts their attack diversity, transferability, and generalization. To address this, a new approach is proposed to improve jailbreak effectiveness.",
+   "impact": "This research could help security teams understand the limitations of current MLLM safety safeguards against visual jailbreak attacks. Developers may use these insights to build more robust and generalizable defenses for multimodal models.",
+   "keyPoints": [
+    "MLLMs are vulnerable to visual jailbreak attacks bypassing safety safeguards",
+    "Existing methods optimize isolated adversarial examples",
+    "Current techniques limit attack diversity, transferability, and generalization"
+   ]
+  },
+  "km": {
+   "title": "ការតភ្ជាប់ការបំបែកគុក៖ ឆ្ពោះទៅរកការបំបែកគុកគំរូភាសាខ្នាតធំ multimodal ដែលមានភាពចម្រុះ អាចផ្ទេរបាន និងជាសកល",
+   "summary": "ម៉ូដែលភាសាខ្នាតធំ multimodal (MLLMs) គឺងាយរងគ្រោះនឹងការវាយប្រហារបំបែកគុកតាមរយៈរូបភាពដែលឆ្លងកាត់ការការពារសុវត្ថិភាព។ វិធីសាស្ត្រដែលមានស្រាប់ជាទូទៅបង្កើនប្រសិទ្ធភាពឧទាហរណ៍អរិភាពដាច់ដោយឡែក ដែលកំណត់ភាពចម្រុះនៃការវាយប្រហារ ការផ្ទេរ និងការធ្វើសាមញ្ញកម្ម។ យើងស្នើឡើងការបំបែកគុក...",
+   "impact": "ការណ៍នេះអាចជួយឱ្យក្រុមសន្តិសុខយល់ដឹងពីដែនកំណត់នៃការការពារសុវត្ថិភាព MLLMs បច្ចុប្បន្នប្រឆាំងនឹងការវាយប្រហារដោយរូបភាព។ អ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់ការយល់ដឹងទាំងនេះដើម្បីបង្កើតការការពារដែលមានភាពរឹងមាំជាងមុនសម្រាប់ម៉ូដែល multimodal។",
+   "keyPoints": [
+    "ម៉ូដែល MLLMs ងាយរងគ្រោះនឹងការវាយប្រហារបំបែកគុកតាមរយៈរូបភាព",
+    "វិធីសាស្ត្រដែលមានស្រាប់បង្កើនប្រសិទ្ធភាពឧទាហរណ៍អរិភាពដាច់ដោយឡែក",
+    "បច្ចេកទេសបច្ចុប្បន្នจำกัดភាពចម្រុះ និងការផ្ទេរនៃការវាយប្រហារ"
+   ]
+  },
+  "zh-CN": {
+   "title": "越狱连通性：迈向多样化、可转移和通用的多模态大语言模型越狱",
+   "summary": "多模态大语言模型（MLLMs）容易受到绕过安全防护的视觉越狱攻击。现有方法通常优化孤立的对抗性示例，限制了攻击的多样性、可转移性和泛化能力。为此，我们提出了越狱...",
+   "impact": "这项研究可以帮助安全团队了解当前 MLLM 安全防护在面对视觉越狱攻击时的局限性。开发人员可能会利用这些见解为多模态模型构建更强大且更具泛化能力的防御措施。",
+   "keyPoints": [
+    "多模态大语言模型容易受到绕过安全防护的视觉越狱攻击",
+    "现有方法通常优化孤立的对抗性示例",
+    "现有技术限制了攻击的多样性、可转移性和泛化能力"
+   ]
+  },
+  "ko": {
+   "title": "탈옥 연결성: 다양하고, 전송 가능하며, 보편적인 멀티모달 대형 언어 모델 탈옥을 향하여",
+   "summary": "멀티모달 대형 언어 모델(MLLM)은 안전 장치를 우회하는 시각적 탈옥 공격에 취약합니다. 기존 방법들은 대개 고립된 적대적 예제를 최적화하여 공격의 다양성, 전송성, 일반화를 제한합니다. 이에 대응하여 제안된 접근 방식은 탈옥 효과를 개선하는 것을 목표로 합니다.",
+   "impact": "이 연구는 보안 팀이 시각적 탈옥 공격에 대한 현재 MLLM 안전 장치의 한계를 이해하는 데 도움을 줄 수 있습니다. 개발자들은 이러한 통찰력을 활용하여 멀티모달 모델을 위한 보다 견고하고 일반화 가능한 방어 체계를 구축할 수 있습니다.",
+   "keyPoints": [
+    "MLLM은 안전 장치를 우회하는 시각적 탈옥 공격에 취약함",
+    "기존 방법들은 고립된 적대적 예제를 최적화함",
+    "현재 기술은 공격의 다양성, 전송성 및 일반화를 제한함"
+   ]
+  }
+ }
+}

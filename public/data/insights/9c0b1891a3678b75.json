@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9c0b1891a3678b75",
+ "contentHash": "eafd267614788c8c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T02:21:46.114Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Revision-Bound Evidence Cuts: Authenticated Queries and Contextual Witness Capacity",
+   "summary": "Authentic records can support unauthorized narratives when qualifications, query scope, or counterevidence are silently dropped. To address this, researchers present revision-bound evidence cuts, a framework for authenticating both supporting and opposing inference obligations across changing environments.",
+   "impact": "This framework could help security teams and developers ensure that authentic records are not misused through dropped counterevidence or altered query scopes, though its practical impact depends on implementation.",
+   "keyPoints": [
+    "Authentic records can support unauthorized narratives when qualifications are dropped.",
+    "Query scope and counterevidence can be silently removed from records.",
+    "Revision-bound evidence cuts provide a framework for authenticating inference obligations."
+   ]
+  },
+  "km": {
+   "title": "ការកាត់បន្ថយភស្តុតាងដែលចងភ្ជាប់នឹងការកែសម្រួល៖ សំណួរដែលបានផ្ទៀងផ្ទាត់ និងសមត្ថភាពសាក្សីតាមបរិបទ",
+   "summary": "កំណត់ត្រាពិតប្រាកដអាចគាំទ្រដល់និទានកថាដែលគ្មានការអនុញ្ញាត នៅពេលដែលលក្ខណៈសម្បត្តិ វិសាលភាពសំណួរ ឬភស្តុតាងបដិសេធត្រូវបានលុបចោលដោយស្ងៀមស្ងាត់។ យើងបង្ហាញពីការកាត់បន្ថយភស្តុតាងដែលចងភ្ជាប់នឹងការកែសម្រួល ដែលជាក្របខ័ណ្ឌមួយសម្រាប់ផ្ទៀងផ្ទាត់ទាំងភារកិច្ចសន្និដ្ឋានដែលគាំទ្រ និងប្រឆាំង។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខក្នុងការធានាថាកកំណត់ត្រាពិតប្រាកដមិនត្រូវរងការបំពានតាមរយៈការលុបភស្តុតាងបដិសេធនោះទេ ទោះបីជាផលប៉ះពាល់ជាក់ស្តែងអាស្រ័យលើការអនុវត្តក៏ដោយ។",
+   "keyPoints": [
+    "កំណត់ត្រាពិតប្រាកដអាចគាំទ្រនិទានកថាដែលគ្មានការអនុញ្ញាតនៅពេលដែលលក្ខណៈសម្បត្តិត្រូវបានលុបចោល។",
+    "វិសាលភាពសំណួរ និងភស្តុតាងបដិសេធអាចត្រូវបានដកចេញដោយស្ងៀមស្ងាត់។",
+    "ការកាត់បន្ថយភស្តុតាងផ្តល់នូវក្របខ័ណ្ឌសម្រាប់ផ្ទៀងផ្ទាត់ភារកិច្ចសន្និដ្ឋាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "版本绑定的证据裁剪：经过身份验证的查询和上下文见证能力",
+   "summary": "当真实记录的资质、查询范围或反证被默默舍弃时，它们可能会支持未经授权的叙述。为此，我们提出了版本绑定的证据裁剪，这是一个用于在不断变化的环境中验证支持性和反对性推理义务的框架。",
+   "impact": "该框架可能有助于安全团队和开发者确保真实记录不会因反证被丢弃而被滥用，不过其实际效果取决于具体的实现方式。",
+   "keyPoints": [
+    "当资质被舍弃时，真实记录可能会支持未经授权的叙述。",
+    "查询范围和反证可能会从记录中被默默移除。",
+    "版本绑定的证据裁剪提供了一个验证推理义务的框架。"
+   ]
+  },
+  "ko": {
+   "title": "리비전 바운드 증거 컷: 인증된 쿼리와 문맥적 증인 역량",
+   "summary": "진정한 기록은 자격, 쿼리 범위 또는 반대 증거가 조용히 누락될 때 승인되지 않은 내러티브를 지원할 수 있습니다. 우리는 변화하는 환경 전반에서 지원 및 반대 추론 의무를 모두 인증하기 위한 프레임워크인 리비전 바운드 증거 컷을 제시합니다.",
+   "impact": "이 프레임워크는 보안 팀과 개발자가 반대 증거의 누락을 통해 진정한 기록이 오용되지 않도록 보장하는 데 도움을 줄 수 있으나, 실제 영향은 구현 방식에 따라 달라질 수 있습니다.",
+   "keyPoints": [
+    "자격이 누락될 경우 진정한 기록이 승인되지 않은 내러티브를 지원할 수 있습니다.",
+    "쿼리 범위와 반대 증거가 조용히 제거될 수 있습니다.",
+    "리비전 바운드 증거 컷은 추론 의무를 인증하기 위한 프레임워크를 제공합니다."
+   ]
+  }
+ }
+}

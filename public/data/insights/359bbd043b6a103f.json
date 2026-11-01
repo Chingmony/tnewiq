@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "359bbd043b6a103f",
+ "contentHash": "056223624cec868e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-01T02:22:28.974Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "SciGame: Let Agents Play the Scientific Discovery Games in the Real and Counterfactual World",
+   "summary": "Large language model agents are increasingly utilized for scientific discovery. Current benchmarks often mix law inference with programming, evaluate data fitting instead of predicting unseen inputs, and fail to separate empirical evidence from pretrained priors. A new approach called SciGame is introduced to address these limitations.",
+   "impact": "Researchers and developers working on AI agents for scientific discovery may benefit from better separation of empirical evidence and pretrained priors. This could lead to more accurate evaluations of prediction capabilities on unseen inputs.",
+   "keyPoints": [
+    "Large language model agents are increasingly used for scientific discovery.",
+    "Existing benchmarks mix law inference with programming.",
+    "Current benchmarks score data fitting rather than prediction on unseen inputs.",
+    "Existing benchmarks do not separate empirical evidence from pretrained priors."
+   ]
+  },
+  "km": {
+   "title": "SciGame៖ ឱ្យភ្នាក់ងារលេងហ្គេមស្វែងរកវិទ្យាសាស្ត្រក្នុងពិភពពិត និងពិភពផ្ទុយពីការពិត",
+   "summary": "ភ្នាក់ងារគំរូភាសាខ្នាតធំត្រូវបានគេប្រើប្រាស់កាន់តែច្រើនឡើងសម្រាប់ការស្វែងរកវិទ្យាសាស្ត្រ។ ទោះបីជាយ៉ាងណាក៏ដោយ តេស្តគោលដែលមានស្រាប់លាយឡំការសន្និដ្ឋានច្បាប់ជាមួយនឹងការសរសេរកម្មវិធី និងមិនបែងចែកភស្តុតាងជាក់ស្តែងពីបុរេកាលដែលបានបណ្តុះបណ្តាលទុកមុននោះទេ។",
+   "impact": "ក្រុមការងារ និងអ្នកអភិវឌ្ឍន៍អាចនឹងទទួលបានការយល់ដឹងកាន់តែប្រសើរឡើងចំពោះការវាយតម្លៃលើការព្យាករណ៍ ដោយសារតែការបែងចែករវាងភស្តុតាងជាក់ស្តែង និងបុរេកាលដែលមានស្រាប់។",
+   "keyPoints": [
+    "ភ្នាក់ងារគំរូភាសាខ្នាតធំត្រូវបានប្រើប្រាស់សម្រាប់ការស្វែងរកវិទ្យាសាស្ត្រ។",
+    "តេស្តគោលដែលមានស្រាប់លាយឡំការសន្និដ្ឋានច្បាប់ជាមួយការសរសេរកម្មវិធី។",
+    "តេស្តគោលមិនបែងចែកភស្តុតាងជាក់ស្តែងពីបុរេកាលទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "SciGame：让智能体在真实与反事实世界中玩科学发现游戏",
+   "summary": "大语言模型智能体正越来越多地被用于科学 discovery。然而，现有的基准测试将规律推断与编程混为一谈，评分关注的是数据拟合而非对未见输入的预测，并且未能将经验证据与预训练先验区分开来。为此引入了 SciGame。",
+   "impact": "开发科学发现智能体的研究人员和开发团队可能会获得更清晰的评估标准，从而更好地衡量智能体对未见输入预测的真实能力。",
+   "keyPoints": [
+    "大语言模型智能体正越来越多地被用于科学发现。",
+    "现有基准测试将规律推断与编程混合在一起。",
+    "现有基准测试对数据拟合进行评分，而不是对未见输入的预测进行评分。",
+    "现有基准测试没有将经验证据与预训练先验分离开来。"
+   ]
+  },
+  "ko": {
+   "title": "SciGame: 에이전트가 현실 및 반사실적 세계에서 과학적 발견 게임을 하도록 하다",
+   "summary": "대규모 언어 모델 에이전트는 과학적 발견을 위해 점점 더 많이 사용되고 있다. 그러나 기존 벤치마크들은 법칙 추론을 프로그래밍과 혼합하고, 보이지 않는 입력에 대한 예측 대신 데이터 적합성을 채점하며, 경험적 증거를 사전 학습된 사전 확률과 분리하지 않는다.",
+   "impact": "과학적 발견을 위한 AI 에이전트를 개발하는 연구원과 개발팀은 경험적 증거와 사전 확률의 분리를 통해 보이지 않는 입력에 대한 예측 능력을 더 정확하게 평가할 수 있을 것이다.",
+   "keyPoints": [
+    "대규모 언어 모델 에이전트가 과학적 발견에 점점 더 많이 사용되고 있다.",
+    "기존 벤치마크는 법칙 추론과 프로그래밍을 혼합한다.",
+    "기존 벤치마크는 보이지 않는 입력에 대한 예측이 아니라 데이터 적합성을 채점한다.",
+    "기존 벤치마크는 경험적 증거를 사전 학습된 사전 확률과 분리하지 않는다."
+   ]
+  }
+ }
+}
