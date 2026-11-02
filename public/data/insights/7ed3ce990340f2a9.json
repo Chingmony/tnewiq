@@ -1,53 +1,52 @@
 {
  "schemaVersion": 1,
  "articleId": "7ed3ce990340f2a9",
- "contentHash": "2cfe8dead9468c9f",
+ "contentHash": "3e5f62ac5d620e08",
  "model": "gemini-flash-lite-latest",
- "generatedAt": "2026-10-27T23:58:05.143Z",
+ "generatedAt": "2026-11-02T00:54:57.967Z",
  "basedOn": "feed-text",
  "languages": {
   "en": {
-   "title": "VU#701544: mpc-lib hardened derivation fails to protect ancestor isolation",
-   "summary": "Fireblocks' mpc-lib contains a cryptographic fail-open vulnerability in its BIP32 hardened derivation implementation when a private parent key is missing. The implementation substitutes a null buffer for the missing parent secret, allowing an attacker with a compromised lower-level signer share to compute the derivation delta. This breaks ancestor isolation and allows the attacker to recover the higher-level share from which it was derived. No vendor fix is currently available as Fireblocks could not be reached.",
-   "impact": "Security teams and developers relying on mpc-lib could face a silent reduction in defense-in-depth, as the compromise of a single leaf-level share may extend across a party's shares through the entire key hierarchy. While a full private key cannot be reconstructed from a single party's shares alone, the degradation of threshold-security assumptions means security teams should treat the compromise of any single share as potentially exposing that party's other shares. Integrators may reduce exposure by treating the chain code as secret and auditing derivation paths.",
+   "title": "VU#701544: Retraction of mpc-lib hardened derivation fails to protect ancestor isolation",
+   "summary": "Fireblocks' mpc-lib library contained a reported fail-open vulnerability in its BIP32 hardened derivation implementation due to missing private parent keys. After review, CERT/CC and Fireblocks determined this is not a valid vulnerability because mpc-lib signing protocols use non-hardened derivation and successful exploitation would require privileged access. Fireblocks clarifies that hardened indices are handled as non-hardened.",
+   "impact": "Technology users and security teams may need to note that while the specific vulnerability is retracted, integrators can still mitigate risk by treating chain codes as secret and avoiding reliance on hardened derivation for signer share isolation. A compromised lower-level share could potentially impact other shares if chain codes are exposed.",
    "keyPoints": [
-    "A fail-open vulnerability exists in mpc-lib's BIP32 hardened derivation implementation under CVE-2026-90975.",
-    "Missing parent secrets are replaced with a null buffer, making the derivation delta computable.",
-    "The flaw destroys post-compromise ancestor isolation silently without generating errors or logs.",
-    "Treating the chain code as secret can prevent the attack since the derivation delta relies on HMAC-SHA512."
+    "Fireblocks' mpc-lib library was reported to have a BIP32 hardened derivation fail-open flaw involving missing parent keys.",
+    "CERT/CC retracted the vulnerability after review, noting that mpc-lib uses non-hardened derivation and handles hardened indices accordingly.",
+    "Effective exploitation would require privileged access that already holds the master share.",
+    "Integrators can protect systems by treating chain codes as secret and auditing derivation paths."
    ]
   },
   "km": {
-   "title": "VU#701544៖ ការទទួលបានដេរីវេដែលបានពង្រឹងរបស់ mpc-lib បរាជ័យក្នុងការការពារភាពឯកោរបស់បុព្វបុរស",
-   "summary": "បណ្ណាល័យ mpc-lib របស់ Fireblocks មានការខ្សោយខ្សាយផ្នែកគ្រីបតូដែលបរាជ័យក្នុងការអនុវត្តដេរីវេដែលបានពង្រឹង BIP32 នៅពេលដែលគ្រាប់ចុចមេឯកជនខ្វះខាត។ ការអនុវត្តនេះជំនួសដោយបូហ្វ័រទទេសម្រាប់អាថ៌កំបាំងមេដែលបាត់ ដែលអនុញ្ញាតឱ្យអ្នកវាយប្រហារដែលមានចំណែកអ្នកចុះហត្ថលេខាកម្រិតទាបអាចគណនាដេរីវេបាន។ នេះបំបែកទ្រព្យសម្បត្តិឯកោបុព្វបុរស និងអនុញ្ញាតឱ្យអ្នកវាយប្រហារយកចំណែកកម្រិតខ្ពស់មកវិញ។ គ្មានការជួសជុលពីអ្នកលក់ទេព្រោះមិនអាចទាក់ទង Fireblocks បានទេ។",
-   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ដែលពឹងផ្អែកលើ mpc-lib អាចជួបប្រទះការថយចុះស្ងាត់ៗនៃការការពារក្នុងជម្រៅ ខណៈដែលការសម្របសម្រួលនៃចំណែកកម្រិតស្លឹកតែមួយអាចពង្រីកដល់ចំណែកទូទាំងឋានានុក្រមគ្រាប់ចុច។ ទោះបីជាគ្រាប់ចុចឯកជនពេញលេញមិនអាចសាងសង់ឡើងវិញពីចំណែកភាគីតែមួយក៏ដោយ ការធ្លាក់ចុះនៃសន្មត់សន្តិសុខមានន័យថាក្រុមសន្តិសុខគួរតែព្យាបាលការសម្របសម្រួលនៃចំណែកណាមួយថាអាចបង្ហាញចំណែកផ្សេងទៀត។ អ្នកบูรณาការអាចកាត់បន្ថយការប៉ះពាល់ដោយរក្សាទុកកូដ سلسلة ជាអាថ៌កំបាំង។",
+   "title": "VU#701544: ការដកហូតការបញ្ជាក់ពីភាពខ្សោយនៃមែកធាង mpc-lib hardened derivation ដែលមិនអាចការពារការ izolasi មេ",
+   "summary": "បណ្ណាល័យ mpc-lib របស់ Fireblocks ត្រូវបានគេរាយការណ៍ថាមានបញ្ហាខ្សោយផ្នែកគ្រីបតូ ប៉ុន្តែបន្ទាប់ពីការពិនិត្យឡើងវិញ CERT/CC និង Fireblocks បានកំណត់ថាវាគ្មិនមែនជាភាពខ្សោយពិតប្រាកដនោះទេ។ Fireblocks បានបញ្ជាក់ថាពិធីការចុះហត្ថលេខារបស់ mpc-lib ប្រើប្រាស់តែការបំបែកមិនមែន hardened ហើយការកេងប្រវ័ញ្ចប្រកបដោយប្រសិទ្ធភាពទាមទារសិទ្ធិអំណាចពិសេស។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍អាចកត់សម្គាល់ថា ទោះបីជាបញ្ហានេះត្រូវបានដកហូតក៏ដោយ ការពារសុវត្ថិភាពកូដអាចត្រូវបានកែលម្អដោយរក្សា chain codes ជាការសម្ងាត់។",
    "keyPoints": [
-    "ភាពខ្សោយខ្សាយបរាជ័យមាននៅក្នុងការអនុវត្តដេរីវេ BIP32 របស់ mpc-lib ក្រោម CVE-2026-90975។",
-    "អាថ៌កំបាំងមេដែលបាត់ត្រូវបានជំនួសដោយបូហ្វ័រទទេ ដែលធ្វើឱ្យដេរីវេអាចគណនាបាន។",
-    "កំហុសនេះបំផ្លាញភាពឯកោរបស់បុព្វបុរសដោយស្ងៀមស្ងាត់ដោយគ្មានកំហុស ឬកំណត់ហេតុ។",
-    "ការរក្សាកូដ سلسلة ជាអាថ៌កំបាំងអាចការពារការវាយប្រហារនេះបាន។"
+    "បញ្ហាខ្សោយដែលបានរាយការណ៍ត្រូវបានដកហូតវិញបន្ទាប់ពីការវិភាគបន្ថែម។",
+    "mpc-lib ប្រើប្រាស់ការបំបែក BIP32 แบบមិនមែន hardened សម្រាប់ការចុះហត្ថលេខា។",
+    "ការកេងប្រវ័ញ្ចទាមទារសិទ្ធិអំណាច privileged access ដែលមានស្រាប់។"
    ]
   },
   "zh-CN": {
-   "title": "VU#701544: mpc-lib 的加固派生未能保护祖先隔离性",
-   "summary": "Fireblocks 的 mpc-lib 库在其 BIP32 加固派生实现中包含一个密码学故障开放漏洞，发生在缺少私有父密钥的情况。该实现用空缓冲区替换缺失的父密钥秘密，允许拥有受损低级签名者份额的攻击者计算派生增量。这打破了祖先隔离属性，允许攻击者恢复其派生自的高级份额。由于无法联系到 Fireblocks，目前尚无供应商修复程序。",
-   "impact": "依赖 mpc-lib 的安全团队和开发人员可能会面临纵深防御能力的无声削弱，因为单个叶级份额的受损可能会跨越整个密钥层次结构暴露该方的份额。虽然仅凭单方份额无法重建完整的私钥，但阈值安全假设的退化意味着安全团队应将任何单一份额的受损视为可能暴露该方的其他份额。集成商可以通过将链代码视为机密来减少暴露。",
+   "title": "VU#701544: mpc-lib 强化派生撤回未能保护祖先隔离",
+   "summary": "Fireblocks 的 mpc-lib 库曾被报告在 BIP32 强化派生实现中存在漏洞。经过评估，CERT/CC 和 Fireblocks 确定这不是一个有效的漏洞，因为 mpc-lib 签名协议仅使用非强化 BIP32 派生，且有效利用需要特权访问。",
+   "impact": "开发人员和安全团队可以注意到，尽管该漏洞已被撤回，集成商仍可以通过将链码保密来降低暴露风险，并避免依赖强化派生来进行签名者份额隔离。",
    "keyPoints": [
-    "在 CVE-2026-90975 下，mpc-lib 的 BIP32 加固派生实现中存在故障开放漏洞。",
-    "缺失的父密钥秘密被替换为空缓冲区，使得派生增量可计算。",
-    "该缺陷在没有任何错误或日志信号的情况下静默破坏了后妥协祖先隔离。",
-    "由于派生增量依赖于 HMAC-SHA512，将链代码保密可以防止此攻击。"
+    "Fireblocks 的 mpc-lib 被报告存在涉及缺失私有父密钥的 BIP32 强化派生问题。",
+    "在进一步审查后，CERT/CC 确认该问题并非有效漏洞。",
+    "Fireblocks 澄清签名协议仅使用非强化派生。",
+    "保持链码机密是有效的减灾措施。"
    ]
   },
   "ko": {
-   "title": "VU#701544: mpc-lib 강화 파생이 상위 계층 격리를 보호하지 못함",
-   "summary": "Fireblocks의 mpc-lib 라이브러리는 개인 상위 키가 누락된 경우 BIP32 강화 파생 구현에서 암호화 실패 개방 취약점을 포함하고 있습니다. 이 구현은 누락된 상위 비밀을 널 버퍼로 대체하여, 손상된 하위 수준 서명자 공유를 가진 공격자가 파생 델타를 계산할 수 있도록 합니다. 이는 상위 계층 격리 속성을 깨뜨리고 공격자가 파생된 상위 공유를 복구할 수 있게 합니다. Fireblocks에 연락할 수 없어 현재 공급업체 패정은 제공되지 않습니다.",
-   "impact": "mpc-lib에 의존하는 보안 팀과 개발자는 심층 방어의 무소음 저하에 직면할 수 있으며, 단일 리프 수준 공유의 손상이 키 계층 전체에 걸쳐 해당 당사자의 공유를 노출할 수 있습니다. 단일 당사자의 공유만으로는 전체 개인 키를 재구성할 수 없지만, 임계값 보안 가정의 저하는 보안 팀이 단일 공유의 손상을 해당 당사자의 다른 공유가 노출될 수 있는 것으로 간주해야 함을 의미합니다. 통합자는 체인 코드를 비밀로 유지하여 노출을 줄일 수 있습니다.",
+   "title": "VU#701544: mpc-lib 하드니드 파생 취약점 철회로 조상 격리 보호 실패",
+   "summary": "Fireblocks의 mpc-lib 라이브러리에서 BIP32 하드니드 파생 구현과 관련된 취약점이 보고되었습니다. 검토 후 CERT/CC와 Fireblocks는 mpc-lib 서명 프로토콜이 비하드니드 파생만을 사용하며 유효한 악에는 특권 액세스가 필요하다는 점을 확인하여 유효한 취약점이 아니라고 결정했습니다.",
+   "impact": "개발자와 보안 팀은 해당 취약점이 철회되었더라도 통합자가 체인 코드를 비밀로 유지하고 서명자 공유 격리를 위해 하드니드 파생에만 의존하지 않음으로써 위험을 줄일 수 있음을 유의할 수 있습니다.",
    "keyPoints": [
-    "CVE-2026-90975에 따라 mpc-lib의 BIP32 강화 파생 구현에 실패 개방 취약점이 존재합니다.",
-    "누락된 상위 비밀은 널 버퍼로 대체되어 파생 델타를 계산할 수 있게 만듭니다.",
-    "이 결함은 오류나 로그 신호 없이 사후 손상 상위 계층 격리를 조용히 파괴합니다.",
-    "파생 델타가 HMAC-SHA512에 의존하므로 체인 코드를 비밀로 유지하면 공격을 방지할 수 있습니다."
+    "mpc-lib의 BIP32 하드니드 파생 문제에 대한 보고가 검토 후 철회되었습니다.",
+    "Fireblocks는 서명 프로토콜이 비하드니드 파생을 사용한다고 밝혔습니다.",
+    "성공적인 악용에는 이미 마스터 공유를 보유한 특권 액세스가 필요합니다.",
+    "체인 코드를 비밀로 유지하는 것이 권장되는 완화 조치입니다."
    ]
   }
  }

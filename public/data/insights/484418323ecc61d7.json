@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "484418323ecc61d7",
+ "contentHash": "6cb858cef2b0eff6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T00:59:37.942Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "From Self-Confidence to Statistical Accuracy: Scaling Human-in-the-Loop Evaluation with Direct and LLM-Assisted Auditing",
+   "summary": "Large language models and multimodal large language models often feature miscalibrated model-reported self-confidence, though it can still aid efficient evaluation. Meanwhile, LLM-as-a-judge provides a scalable alternative to direct human auditing.",
+   "impact": "These findings could help developers and evaluation teams improve how they assess model reliability and accuracy. Utilizing LLM-assisted auditing may offer more scalable evaluation pathways.",
+   "keyPoints": [
+    "Model-reported self-confidence in LLMs and MLLMs is often miscalibrated.",
+    "Self-confidence can still be useful for efficient evaluation.",
+    "LLM-as-a-judge provides a scalable alternative to direct human auditing."
+   ]
+  },
+  "km": {
+   "title": "ពីទំនុកចិត្តលើខ្លួនឯងដល់ភាពត្រឹមត្រូវតាមស្ថិតិ៖ ការពង្រីកការវាយតម្លៃដែលមានមនុស្សចូលរួមដោយផ្ទាល់ជាមួយនឹងការធ្វើសវនកម្មដោយផ្ទាល់ និងជំនួយដោយ LLM",
+   "summary": "សម្រាប់ម៉ូដែលភាសាខ្នាតធំ និងម៉ូដែលភាសាខ្នាតធំ multimodal ទំនុកចិត្តលើខ្លួនឯងដែលរាយការណ៍ដោយម៉ូដែលជារឿយៗមិនត្រូវបានកែតម្រូវត្រឹមត្រូវនោះទេ ប៉ុន្តែវាអាចនៅតែមានប្រយោជន៍សម្រាប់ការវាយតម្លៃប្រកបដោយប្រសិទ្ធភាព។ ក្នុងពេលជាមួយគ្នានេះ ការប្រើប្រាស់ LLM ជាអ្នកវិនិច្ឆ័យផ្តល់នូវជម្រើសដែលអាចពង្រីកបានជំនួសឱ្យការធ្វើសវនកម្មដោយមនុស្សដោយផ្ទាល់។",
+   "impact": "ការរកឃើញទាំងនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមវាយតម្លៃក្នុងការកែលម្អរបៀបដែលពួកគេវាស់វែងភាពជឿជាក់ និងភាពត្រឹមត្រូវរបស់ម៉ូដែល។ ការប្រើប្រាស់សវនកម្មដែលគាំទ្រដោយ LLM អាចផ្តល់នូវមធ្យោបាយវាយតម្លៃដែលអាចពង្រីកបាន។",
+   "keyPoints": [
+    "ទំនុកចិត្តលើខ្លួនឯងដែលរាយការណ៍ដោយម៉ូដែលនៅក្នុង LLMs និង MLLMs มักមិនត្រូវបានកែតម្រូវត្រឹមត្រូវទេ។",
+    "ទំនុកចិត្តលើខ្លួនឯងនៅតែអាចមានប្រយោជន៍សម្រាប់ការវាយតម្លៃប្រកបដោយប្រសិទ្ធភាព។",
+    "LLM ជាអ្នកវិនិច្ឆ័យផ្តល់នូវជម្រើសដែលអាចពង្រីកបានជំនួសឱ្យការធ្វើសវនកម្មដោយមនុស្សដោយផ្ទាល់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "从自我信心到统计准确性：通过直接和LLM辅助审计扩展人在回路评估",
+   "summary": "对于大型语言模型和多模态大型语言模型，模型报告的自我信心通常校准不当，但它可能仍然对高效评估有用。同时，将LLM作为裁判为直接人工审计提供了可扩展的替代方案。",
+   "impact": "这些发现可能有助于开发人员和评估团队改进他们评估模型可靠性和准确性的方法。利用LLM辅助审计可能会提供更具可扩展性的评估途径。",
+   "keyPoints": [
+    "LLM和MLLM中模型报告的自我信心通常校准不当。",
+    "自我信心对于高效评估可能仍然有用。",
+    "LLM作为裁判为直接人工审计提供了可扩展的替代方案。"
+   ]
+  },
+  "ko": {
+   "title": "자기 확신에서 통계적 정확성으로: 직접 및 LLM 보조 감사를 통한 휴먼 인 더 루프 평가 확장",
+   "summary": "대형 언어 모델과 멀티모달 대형 언어 모델의 경우 모델이 보고한 자기 확신이 잘못 보정되는 경우가 많지만 효율적인 평가에는 여전히 유용할 수 있습니다. 동시에 LLM-as-a-judge는 직접 인간 감사의 확장 가능한 대안을 제공합니다.",
+   "impact": "이러한 연구 결과는 개발자와 평가 팀이 모델 신뢰성과 정확성을 평가하는 방식을 개선하는 데 도움이 될 수 있습니다. LLM 보조 감사를 활용하면 더 확장 가능한 평가 경로를 제공할 수 있습니다.",
+   "keyPoints": [
+    "LLM 및 MLLM에서 모델이 보고한 자기 확신은 종종 잘못 보정됩니다.",
+    "자기 확신은 여전히 효율적인 평가에 유용할 수 있습니다.",
+    "LLM-as-a-judge는 직접 인간 감사의 확장 가능한 대안을 제공합니다."
+   ]
+  }
+ }
+}

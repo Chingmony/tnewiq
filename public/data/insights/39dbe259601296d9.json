@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "articleId": "39dbe259601296d9",
+ "contentHash": "1529f1004eaf7124",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T00:57:18.020Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Model Selection for Off-Policy Evaluation via Pairwise Bellman Validation",
+   "summary": "Model selection and hyperparameter tuning present a central challenge in off-policy evaluation because errors of fitted Q-functions and occupancy-ratio estimates cannot be directly evaluated from held-out transitions. Bellman-residual and minimax validation methods are often utilized to address this issue.",
+   "impact": "This research could help developers and researchers better handle model selection and hyperparameter tuning challenges in off-policy evaluation.",
+   "keyPoints": [
+    "Model selection and hyperparameter tuning are central challenges in off-policy evaluation.",
+    "Errors of fitted Q-functions and occupancy-ratio estimates cannot be directly evaluated from held-out transitions."
+   ]
+  },
+  "km": {
+   "title": "ការជ្រើសរើសម៉ូដែលសម្រាប់ការវាយតម្លៃក្រៅគោលនយោបាយតាមរយៈការផ្ទៀងផ្ទាត់ Bellman ជាគូ",
+   "summary": "ការជ្រើសរើសម៉ូដែល និងការលៃតម្រូវប៉ារ៉ាម៉ែត្របង្ហាញពីបញ្ហាប្រឈមដ៏សំខាន់ក្នុងការវាយតម្លៃក្រៅគោលនយោបាយ ព្រោះកំហុសនៃការប៉ាន់ស្មាន Q-functions និង occupancy-ratio មិនអាចវាយតម្លៃដោយផ្ទាល់ពីការផ្លាស់ប្តូរដែលបានរក្សាទុកនោះទេ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ក្នុងការគ្រប់គ្រងបញ្ហាប្រឈមនៃការជ្រើសរើសម៉ូដែលនិងប៉ារ៉ាម៉ែត្រ។",
+   "keyPoints": [
+    "ការជ្រើសរើសម៉ូដែលគឺជាបញ្ហាប្រឈមក្នុងការវាយតម្លៃក្រៅគោលនយោបាយ។",
+    "កំហុសមិនអាចវាយតម្លៃដោយផ្ទាល់ពីការផ្លាស់ប្តូរបានទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过成对贝尔曼验证进行离线策略评估的模型选择",
+   "summary": "模型选择和超参数调整构成了离线策略评估中的一个核心挑战，因为拟合的Q函数和占用比率估计值的误差无法直接从保留的转换中进行评估。贝尔曼残差和极小极大验证方法通常被用于解决这一问题。",
+   "impact": "这项研究可能有助于开发人员更好地应对离线策略评估中的模型选择和超参数调优挑战。",
+   "keyPoints": [
+    "模型选择和超参数调整是离线策略评估中的核心挑战。",
+    "拟合的Q函数和占用比率误差无法直接从保留的转换中进行评估。"
+   ]
+  },
+  "ko": {
+   "title": "쌍별 벨만 검증을 통한 오프폴리시 평가를 위한 모델 선택",
+   "summary": "모델 선택과 하이퍼파라미터 튜닝은 피팅된 Q-함수와 점유 비율 추정치의 오류를 홀드아웃 전환에서 직접 평가할 수 없기 때문에 오프폴리시 평가에서 핵심적인 과제를 제기합니다.",
+   "impact": "이 연구는 개발자들이 오프폴리시 평가에서 모델 선택과 하이퍼파라미터 튜닝 과제를 더 잘 다루는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "모델 선택과 하이퍼파라미터 튜닝은 오프폴리시 평가의 핵심 과제입니다.",
+    "Q-함수와 점유 비율 추정치의 오류는 직접 평가할 수 없습니다."
+   ]
+  }
+ }
+}

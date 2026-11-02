@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "961739d1b06ed231",
+ "contentHash": "19c207d2adb8aee4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T01:00:07.012Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Adapting LLM-SC to Living Sacred Heritage: Domain-Specific Extraction, Semantic Networks and Human Evaluation on Pashupatinath Temple Reviews",
+   "summary": "Large language model pipelines can convert visitor reviews into structured data, though generic schemes might miss rituals, sacred spaces, cultural restrictions, and emotionally mixed experiences. To address this, researchers adapted LLM-Social Computing to living sacred heritage sites using domain-specific extraction, semantic networks, and human evaluation on Pashupatinath Temple reviews.",
+   "impact": "This approach could help developers and cultural heritage teams build more accurate text-processing pipelines for domain-specific contexts. It may also improve how sentiment and cultural nuances are captured from user reviews.",
+   "keyPoints": [
+    "Generic LLM pipelines may miss rituals and cultural restrictions at sacred sites.",
+    "Researchers adapted LLM-Social Computing for living sacred heritage.",
+    "The study utilized Pashupatinath Temple reviews for domain-specific extraction and semantic networks."
+   ]
+  },
+  "km": {
+   "title": "ការសម្របសម្រួល LLM-SC ទៅនឹងបេតិកភណ្ឌសក្ការៈរស់៖ ការទាញយកតាមដែនជាក់លាក់ បណ្តាញអត្ថន័យ និងការវាយតម្លៃរបស់មនុស្សលើការវាយតម្លៃវត្ត Pashupatinath Temple",
+   "summary": "បណ្តាញគំរូភាសាខ្នាតធំអាចបំប្លែងការវាយតម្លៃរបស់អ្នកទស្សនាទៅជាទិន្នន័យមានរចនាសម្ព័ន្ធ ប៉ុន្តែគ្រោងការណ៍ទូទៅអាចខកខានពិធីសាសនា បរិវេណសក្ការៈ ការដាក់កម្រិតវប្បធម៌ និងបទពិសោធន៍លាយឡំអារម្មណ៍។ អ្នកស្រាវជ្រាវបានសម្របសម្រួល LLM-Social Computing ទៅកាន់ទីកន្លែងបេតិកភណ្ឌសក្ការៈរស់ដោយប្រើប្រាស់ការទាញយកតាមដែនជាក់លាក់ បណ្តាញអត្ថន័យ និងការវាយតម្លៃរបស់មនុស្សលើការវាយតម្លៃ Pashupatinath Temple។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមការងារបេតិកភណ្ឌវប្បធម៌បង្កើតបណ្តាញដំណើរការអត្ថបទដែលត្រឹមត្រូវជាងមុនសម្រាប់បរិបទដែនជាក់លាក់។ វាក៏អាចកែលម្អរបៀបដែលអារម្មណ៍ និងភាពខុសគ្នានៃវប្បធម៌ត្រូវបានចាប់យកពីការវាយតម្លៃរបស់អ្នកប្រើប្រាស់ផងដែរ។",
+   "keyPoints": [
+    "បណ្តាញ LLM ទូទៅអាចខកខានពិធីសាសនា និងការដាក់កម្រិតវប្បធម៌នៅកន្លែងសក្ការៈ។",
+    "អ្នកស្រាវជ្រាវបានសម្របសម្រួល LLM-Social Computing សម្រាប់បេតិកភណ្ឌសក្ការៈរស់។",
+    "ការសិក្សានេះបានប្រើប្រាស់ការវាយតម្លៃ Pashupatinath Temple សម្រាប់ការទាញយកតាមដែនជាក់លាក់ និងបណ្តាញអត្ថន័យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "将LLM-SC适应于活态神圣遗产：针对Pashupatinath Temple评论的特定领域提取、语义网络和人工评估",
+   "summary": "大型语言模型管道可以将游客评论转换为结构化数据，但通用方案可能会错过仪式、神圣空间、文化限制以及活态神圣遗产景点的混合情感体验。研究人员通过对Pashupatinath Temple评论进行特定领域提取、语义网络构建和人工评估，调整了LLM-Social Computing。",
+   "impact": "这种方法可能有助于开发人员和文化遗产团队针对特定领域构建更准确的文本处理管道。它还可能改善从用户评论中捕捉情感和文化细微差别的方式。",
+   "keyPoints": [
+    "通用LLM管道可能会漏掉神圣地点的仪式和文化限制。",
+    "研究人员将LLM-Social Computing调整适应于活态神圣遗产。",
+    "该研究利用Pashupatinath Temple的评论进行了特定领域提取和语义网络分析。"
+   ]
+  },
+  "ko": {
+   "title": "LLM-SC를 살아있는 신성한 유산에 적용: Pashupatinath Temple 리뷰를 활용한 도메인 특화 추출, 시맨틱 네트워크 및 인간 평가",
+   "summary": "대규모 언어 모델 파이프라인은 방문객 리뷰를 구조화된 데이터로 변환할 수 있지만, 일반적인 방식은 살아있는 신성한 유산 장소에서의 의식, 신성한 공간, 문화적 제한 및 복합적인 감정 경험을 놓칠 수 있습니다. 연구자들은 Pashupatinath Temple 리뷰에 대한 도메인 특화 추출, 시맨틱 네트워크 및 인간 평가를 사용하여 LLM-Social Computing을 적용했습니다.",
+   "impact": "이 접근 방식은 개발자와 문화유산 팀이 도메인 특화 맥락을 위한 더 정확한 텍스트 처리 파이프라인을 구축하는 데 도움이 될 수 있습니다. 또한 사용자 리뷰에서 감정과 문화적 뉘앙스를 포착하는 방식을 개선할 수도 있습니다.",
+   "keyPoints": [
+    "일반적인 LLM 파이프라인은 신성한 장소의 의식과 문화적 제한을 놓칠 수 있습니다.",
+    "연구자들은 살아있는 신성한 유산을 위해 LLM-Social Computing을 조정했습니다.",
+    "이 연구는 도메인 특화 추출과 시맨틱 네트워크를 위해 Pashupatinath Temple 리뷰를 활용했습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4156e3ea1cd1d099",
+ "contentHash": "9d95d800650f3e3f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T00:55:18.327Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "FOCUS: Active Critic Learning for Long-Horizon Language Model Agents",
+   "summary": "Sparse outcome rewards make it difficult for long-horizon language-model agents to assign credit to earlier actions. Learned critics provide value estimates for intermediate states, but these estimates can be inaccurate. Estimating intermediate values with repetitive approaches also poses challenges.",
+   "impact": "This research could help developers improve how language model agents handle long-horizon tasks and credit assignment. Better value estimates may lead to more reliable and accurate AI agents.",
+   "keyPoints": [
+    "Sparse outcome rewards hinder credit assignment for early actions in long-horizon language-model agents.",
+    "Learned critics provide value estimates for intermediate states.",
+    "These value estimates can sometimes be inaccurate."
+   ]
+  },
+  "km": {
+   "title": "FOCUS៖ ការរៀនរិះគន់សកម្មសម្រាប់ភ្នាក់ងារគំរូភាសារយៈពេលវែង",
+   "summary": "រង្វាន់លទ្ធផលស្ដួចស្ដើងធ្វើឱ្យវាពិបាកសម្រាប់ភ្នាក់ងារគំរូភាសារយៈពេលវែងក្នុងការកំណត់ឥណទានទៅលើសកម្មភាពមុនៗ។ អ្នករិះគន់ដែលបានរៀនផ្ដល់ការប៉ាន់ប្រមាណតម្លៃសម្រាប់រដ្ឋមធ្យម ប៉ុន្តែការប៉ាន់ប្រមាណទាំងនេះអាចមានភាពមិនត្រឹមត្រូវ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍ปรับปรุงពីរបៀបដែលភ្នាក់ងារគំរូភាសាគ្រប់គ្រងភារកិច្ចរយៈពេលវែង។ ការប៉ាន់ប្រមាណតម្លៃកាន់តែប្រសើរអាចនាំឱ្យមានភ្នាក់ងារ AI ដែលគួរឱ្យទុកចិត្តជាងមុន។",
+   "keyPoints": [
+    "រង្វាន់លទ្ធផលស្ដួចស្ដើងរារាំងការកំណត់ឥណទានសម្រាប់សកម្មភាពដំបូង។",
+    "អ្នករិះគន់ដែលបានរៀនផ្ដល់ការប៉ាន់ប្រមាណតម្លៃសម្រាប់រដ្ឋមធ្យម។",
+    "ការប៉ាន់ប្រមាណតម្លៃទាំងនេះអាចមានភាពមិនត្រឹមត្រូវ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "FOCUS：长视野语言模型代理的主动评论家学习",
+   "summary": "稀疏的结果奖励使得长视野语言模型代理难以将功劳分配给早期的操作。学习到的评论家为中间状态提供价值估计，但这些估计可能不准确，同时用重复的方法估计中间价值也面临挑战。",
+   "impact": "这项研究可能帮助开发人员改进语言模型代理处理长视野任务和功劳分配的方式。更好的价值估计可能会带来更可靠和准确的AI代理。",
+   "keyPoints": [
+    "稀疏的结果奖励阻碍了长视野语言模型代理对早期操作的功劳分配。",
+    "学习到的评论家为中间状态提供价值估计。",
+    "这些价值估计可能会不准确。"
+   ]
+  },
+  "ko": {
+   "title": "FOCUS: 장기 호라이즌 언어 모델 에이전트를 위한 능동 비평가 학습",
+   "summary": "희소한 결과 보상은 장기 호라이즌 언어 모델 에이전트가 이전 작업에 크레딧을 할당하기 어렵게 만듭니다. 학습된 비평가는 중간 상태에 대한 가치 추정치를 제공하지만 이러한 추정치는 부정확할 수 있습니다.",
+   "impact": "이 연구는 개발자가 언어 모델 에이전트가 장기 호라이즌 작업을 처리하고 크레딧을 할당하는 방식을 개선하는 데 도움이 될 수 있습니다. 더 나은 가치 추정은 더 신뢰할 수 있고 정확한 AI 에이전트로 이어질 수 있습니다.",
+   "keyPoints": [
+    "희소한 결과 보상은 장기 호라이즌 에이전트의 초기 작업 크레딧 할당을 방해합니다.",
+    "학습된 비평가는 중간 상태에 대한 가치 추정치를 제공합니다.",
+    "이러한 가치 추정치는 부정확할 수 있습니다."
+   ]
+  }
+ }
+}

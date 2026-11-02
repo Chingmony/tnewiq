@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4d6e0e9538e37fdb",
+ "contentHash": "89deb8421ccd795c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T00:56:18.769Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Free to Look, Free to Reason: Simple LLM Harnesses Outdiagnose Hand-Crafted Root Cause Analysis Agents",
+   "summary": "Root cause analysis of microservice failures often relies on LLM agents with hand-crafted investigations using standard operating procedures, fixed stages, and role agents. Because each is evaluated on its own data against a few baselines, their overall effectiveness remains uncertain.",
+   "impact": "This research could influence how developers and security teams design root cause analysis agents for microservice failures by highlighting limitations in current hand-crafted evaluation approaches.",
+   "keyPoints": [
+    "Root cause analysis for microservice failures has attracted many LLM agents.",
+    "Current investigations use hand-crafted standard operating procedures, fixed stages, and role agents.",
+    "Evaluations are typically performed on isolated data against few baselines."
+   ]
+  },
+  "km": {
+   "title": "ឥតគិតថ្លៃក្នុងការមើល ឥតគិតថ្លៃក្នុងការពិចារណា៖ កម្មវិធី LLM សាមញ្ញជួយវិភាគមូលហេតុឫសគល់បានល្អជាងភ្នាក់ងារកែច្នៃដោយដៃ",
+   "summary": "ការវិភាគមូលហេតុឫសគល់នៃបរាជ័យមីក្រូសេវាកម្មទាក់ទាញភ្នាក់ងារ LLM ជាច្រើន ដែលការស៊ើបអង្កេតរបស់ពួកគេត្រូវបានកែច្នៃដោយដៃ តាមរយៈនីតិវិធីប្រតិបត្តិស្តង់ដារ ដំណាក់កាលថេរ និងភ្នាក់ងារតួនាទី។ ដោយសារភ្នាក់ងារនីមួយៗត្រូវបានវាយតម្លៃនៅលើទិន្នន័យផ្ទាល់ខ្លួនប្រឆាំងនឹង baseline មួយចំនួន ដូច្នេះគេមិនដឹងថាតើវាបែបណានោះទេ។",
+   "impact": "វាអាចប៉ះពាល់ដល់របៀបដែលក្រុមអភិវឌ្ឍន៍ និងសន្តិសុខបង្កើតភ្នាក់ងារវិភាគមូលហេតុឫសគល់សម្រាប់មីក្រូសេវាកម្ម ដោយបង្ហាញពីកម្រិតកំណត់នៃការវាយតម្លៃបែបកែច្នៃដោយដៃបច្ចុប្បន្ន។",
+   "keyPoints": [
+    "ការវិភាគមូលហេតុឫសគល់សម្រាប់បរាជ័យមីក្រូសេវាកម្មបានទាក់ទាញភ្នាក់ងារ LLM ជាច្រើន។",
+    "ការស៊ើបអង្កេតបច្ចុប្បន្នប្រើប្រាស់នីតិវិធីប្រតិបត្តិស្តង់ដារកែច្នៃដោយដៃ ដំណាក់កាលថេរ និងភ្នាក់ងារតួនាទី។",
+    "ការវាយតម្លៃជាទូទៅត្រូវបានធ្វើឡើងនៅលើទិន្នន័យដាច់ដោយឡែកធៀបនឹង baseline មួយចំនួន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "自由查看、自由推理：简单的 LLM 工具超越了手工制作的根本原因分析智能体",
+   "summary": "微服务故障的根本原因分析吸引了许多 LLM 智能体，它们的调查是通过标准操作程序、固定阶段和角色智能体手工制作的。由于每个智能体都在其自己的数据上针对少数基准进行评估，因此其整体效果尚不明确。",
+   "impact": "这项研究可能会影响开发人员和安全团队为微服务故障设计根本原因分析智能体的方式，并突出了当前手工评估方法的局限性。",
+   "keyPoints": [
+    "微服务故障的根本原因分析吸引了许多 LLM 智能体。",
+    "当前的调查使用手工制作的标准操作程序、固定阶段和角色智能体。",
+    "评估通常是在孤立的数据上针对少数基准进行的。"
+   ]
+  },
+  "ko": {
+   "title": "자유롭게 보고 자유롭게 추론하다: 단순한 LLM 하네스가 수작업으로 만든 근본 원인 분석 에이전트를 능가하다",
+   "summary": "마이크로서비스 장애의 근본 원인 분석은 표준 운영 절차, 고정된 단계, 역할 에이전트를 통해 수작업으로 조사하는 많은 LLM 에이전트를 끌어들였다. 각 에이전트는 몇 가지 기준선에 대해 자체 데이터로 평가되기 때문에 이러한 방식의 실제 효과는 아직 불확실하다.",
+   "impact": "이 연구는 개발자와 보안 팀이 마이크로서비스 장애에 대한 근본 원인 분석 에이전트를 설계하는 방식에 영향을 미칠 수 있으며, 현재의 수작업 평가 방식의 한계를 부각시킬 수 있다.",
+   "keyPoints": [
+    "마이크로서비스 장애에 대한 근본 원인 분석은 많은 LLM 에이전트를 끌어들였다.",
+    "현재의 조사는 수작업으로 만든 표준 운영 절차, 고정된 단계, 역할 에이전트를 사용한다.",
+    "평가는 일반적으로 몇 가지 기준선에 대해 자체 데이터로 수행된다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0af5f4d5a8f60d6e",
+ "contentHash": "5d22b7e15af40bcb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T00:56:39.013Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Do Similarity Measures Measure Similarity? How User Activity Creates Phantom Correlation in Recommender Systems",
+   "summary": "Item-item similarity is a foundational signal in recommender systems, assuming two items are similar when the same users consume them. Despite sparse and scaled interaction data, the field implicitly assumes item similarity reflects true relationships. However, user activity can create phantom correlations within these systems.",
+   "impact": "This issue could impact developers and teams designing recommender systems by showing how user activity creates phantom correlations. Understanding this may help improve how similarity measures are evaluated.",
+   "keyPoints": [
+    "Item-item similarity assumes items are similar if consumed by the same users.",
+    "It serves as a foundational signal in recommender systems.",
+    "Interaction data is characterized by sparsity and scale.",
+    "User activity can create phantom correlation in recommender systems."
+   ]
+  },
+  "km": {
+   "title": "តើការវាស់វែងភាពស្រដៀងគ្នាវាស់ភាពស្រដៀងគ្នាដែរឬទេ? របៀបដែលសកម្មភាពអ្នកប្រើប្រាស់បង្កើតទំនាក់ទំនងក្លែងក្លាយនៅក្នុងប្រព័ន្ធអនុសាសន៍",
+   "summary": "ភាពស្រដៀងគ្នារវាងមុខទំនិញនិងមុខទំនិញគឺជាសញ្ញាគ្រឹះមួយនៅក្នុងប្រព័ន្ធអនុសាសន៍ ដោយសន្មតថាមុខទំនិញពីរស្រដៀងគ្នា នៅពេលដែលអ្នកប្រើប្រាស់ដូចគ្នាប្រើប្រាស់វា។ ទោះបីជាមានភាពខ្វះខាត និងទំហំនៃទិន្នន័យអន្តរកម្មក៏ដោយ វាមានការសន្មតដោយប្រយោលថាមុខទំនិញទាំងនោះមានភាពស្រដៀងគ្នា។ ទោះជាយ៉ាងណាក៏ដោយ សកម្មភាពរបស់អ្នកប្រើប្រាស់អាចបង្កើតទំនាក់ទំនងក្លែងក្លាយនៅក្នុងប្រព័ន្ធទាំងនេះ។",
+   "impact": "បញ្ហានេះអាចប៉ះពាល់ដល់អ្នកអភិវឌ្ឍន៍ និងក្រុមការងារដែលបង្កើតប្រព័ន្ធអនុសាសន៍ ដោយបង្ហាញពីរបៀបដែលសកម្មភាពអ្នកប្រើប្រាស់បង្កើតទំនាក់ទំនងក្លែងក្លាយ។ ការយល់ដឹងពីចំណុចនេះអាចជួយកែលម្អរបៀបវាយតម្លៃការវាស់វែងភាពស្រដៀងគ្នា។",
+   "keyPoints": [
+    "ភាពស្រដៀងគ្នារវាងមុខទំនិញសន្មតថាពួកវាស្រដៀងគ្នាប្រសិនបើអ្នកប្រើប្រាស់តែមួយប្រើវា។",
+    "វាជាសញ្ញាគ្រឹះនៅក្នុងប្រព័ន្ធអនុសាសន៍។",
+    "ទិន្នន័យអន្តរកម្មមានភាពខ្វះខាត និងមានទំហំធំ។",
+    "សកម្មភាពអ្នកប្រើប្រាស់អាចបង្កើតទំនាក់ទំនងក្លែងក្លាយនៅក្នុងប្រព័ន្ធអនុសាសន៍។"
+   ]
+  },
+  "zh-CN": {
+   "title": "相似度测量真的能测量相似度吗？用户活动如何在推荐系统中产生虚假相关性",
+   "summary": "物品间相似度是推荐系统中最古老、最基础的信号之一，即假定两个物品被同一用户消费时它们是相似的。尽管交互数据具有稀疏性和规模性，但该领域普遍隐式地假设物品相似度反映了真实关系。然而，用户活动可能会在这些系统中产生虚假相关性。",
+   "impact": "这个问题可能会影响设计推荐系统的开发人员和安全团队，因为它揭示了用户活动如何产生虚假相关性。理解这一点可能有助于改进相似度测量的评估方式。",
+   "keyPoints": [
+    "物品间相似度假定被同一用户消费的物品具有相似性。",
+    "它是推荐系统中的基础信号。",
+    "交互数据表现出稀疏性和规模性。",
+    "用户活动可能会在推荐系统中产生虚假相关性。"
+   ]
+  },
+  "ko": {
+   "title": "유사도 측정은 정말 유사도를 측정하는가? 추천 시스템에서 사용자 활동이 가상 상관관계를 만드는 방식",
+   "summary": "아이템 간 유사성은 추천 시스템에서 가장 오래되고 기본적인 신호 중 하나로, 동일한 사용자가 소비할 때 두 아이템이 유사하다고 가정합니다. 상호작용 데이터의 희소성과 규모에도 불구하고, 필드 전반의 암묵적 가정은 아이템 유사성이 진정한 관계를 반영한다는 것입니다. 그러나 사용자 활동은 이러한 시스템 내에서 가상 상관관계를 생성할 수 있습니다.",
+   "impact": "이 문제는 사용자 활동이 어떻게 가상 상관관계를 생성하는지 보여줌으로써 추천 시스템을 설계하는 개발자와 보안 팀에 영향을 미칠 수 있습니다. 이를 이해하면 유사도 측정 평가 방식을 개선하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "아이템 간 유사성은 동일 사용자가 소비할 경우 유사하다고 가정합니다.",
+    "이는 추천 시스템의 기초적인 신호 역할을 합니다.",
+    "상호작용 데이터는 희소성과 규모가 특징입니다.",
+    "사용자 활동은 추천 시스템에서 가상 상관관계를 만들 수 있습니다."
+   ]
+  }
+ }
+}

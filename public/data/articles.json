@@ -1,7 +1,72 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-01T21:13:12.022Z",
+ "generatedAt": "2026-11-02T00:48:58.213Z",
  "articles": [
+  {
+   "id": "e8409ed2573f1342",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "[AI리더의 서가] 문제 해결을 위한 AI 에이전트 설계",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216785",
+   "originalLanguage": "ko",
+   "originalDescription": "문제 해결을 위한 AI 에이전트 설계이선협 | 한빛미디어2026년 10월 30일추천이유이 책은 AI 에이전트가 정말 필요한지부터 시작해 문제를 분석하고 LLM과 코드의 역할을 나누는 설계 능력을 갖추도록 합니다. 저자는 프레임워크 없이 직접 구현한 다섯 가지 실제 예제를 통해 어떤 상황에서도 적용할 수 있는 오래가는 설계 감각을 전달합니다.상세보기 \"회사에서 AI 에이전트를 도입하자는데, 개발팀은 어디서부터 공부해야 하나요?\" 영풍문고 IT 매대 앞에서 이런 질문을 받는다면, 영풍문고…",
+   "publishedAt": "2026-11-02T00:00:00.000Z",
+   "discoveredAt": "2026-11-02T00:48:58.213Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "48e8b1111ed7e882"
+  },
+  {
+   "id": "215d5e6ee0fa4f77",
+   "sourceId": "simon-willison",
+   "sourceName": "Simon Willison's Weblog",
+   "originalTitle": "If in doubt, delete the uv.lock file",
+   "originalUrl": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+   "originalLanguage": "en",
+   "originalDescription": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don't include a uv.lock file, since it's rude for a…",
+   "publishedAt": "2026-11-01T23:24:22.000Z",
+   "discoveredAt": "2026-11-02T00:48:58.213Z",
+   "topics": [
+    "ai",
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "0951f61405c426e1"
+  },
+  {
+   "id": "944be91cc06a18a8",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+   "originalUrl": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+   "originalLanguage": "en",
+   "originalDescription": "Data centers are deeply unpopular. But what if we called them something else?",
+   "publishedAt": "2026-11-01T21:55:23.000Z",
+   "discoveredAt": "2026-11-02T00:48:58.213Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "a05121468fc30f88"
+  },
+  {
+   "id": "9a97986aa28bfe34",
+   "sourceId": "github-blog",
+   "sourceName": "The GitHub Blog",
+   "originalTitle": "Game Off 2026: The theme is SHIFT",
+   "originalUrl": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+   "originalLanguage": "en",
+   "originalDescription": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog .",
+   "publishedAt": "2026-11-01T21:36:00.000Z",
+   "discoveredAt": "2026-11-02T00:48:58.213Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "77128ac907ef9f3e"
+  },
   {
    "id": "7a5ce7ed2f78d284",
    "sourceId": "techcrunch-ai",
@@ -36,6 +101,23 @@
    "contentHash": "090c6e14f46970e7"
   },
   {
+   "id": "a50df85975f921da",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "JimuBI v2.5.6 发布，修复 7 项安全漏洞",
+   "originalUrl": "https://www.oschina.net/news/503332",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "项目介绍 真正的 AI 大屏来了，一句话描述需求，AI 自动生成数据大屏与仪表盘，支持对话式修改优化 :sparkles: 积木报表是一款免费的数据可视化报表工具，像搭积木一样完全在线设计。分三大模块：JimuReport 主攻复杂报表与打印，JimuBI 专注数据大屏与仪表盘可视化，JimuChatBI 提供对话式智能数据分析。 AI 智能生成：...",
+   "publishedAt": "2026-11-01T15:08:10.000Z",
+   "discoveredAt": "2026-11-02T00:48:58.213Z",
+   "topics": [
+    "developer-tools",
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "49bd541a5e36bc49"
+  },
+  {
    "id": "cd498daabd666e03",
    "sourceId": "the-decoder",
    "sourceName": "The Decoder",
@@ -66,6 +148,39 @@
    ],
    "imageUrl": null,
    "contentHash": "0de309ab43f5f5a2"
+  },
+  {
+   "id": "408d7df7dba1d630",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "XXL-AI v1.4.0 发布｜AI 应用开发平台",
+   "originalUrl": "https://www.oschina.net/news/503331",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "Release Notes 【本地版（Desk 桌面端）】 1、【新增】人机交互流程统一：Agent执行任务过程中需要用户确认操作，主动发起人机交互请求，人机协同完成任务； 2、【新增】人机交互标准组件：提供权限确认、用户多选项选择、用户输入等标准化人机交互组件，Agent集成并自动启用； 3、【新增】Agent可观测：支持开发者模式提...",
+   "publishedAt": "2026-11-01T14:30:58.000Z",
+   "discoveredAt": "2026-11-02T00:48:58.213Z",
+   "topics": [
+    "developer-tools",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "90645346b3ee0e14"
+  },
+  {
+   "id": "7b9836f901528139",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "花了三年搭了一套 iPaaS 低代码平台，今天决定把 Demo 开源",
+   "originalUrl": "https://www.oschina.net/news/503330",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "前言 做了好几年管理系统，每次给客户上 OA、CRM 或者 SaaS，总觉得重复造轮子的事情太多。表单、列表、审批流程、打印模板……这些东西几乎每个项目都要从头写一遍，但真正的业务逻辑却只占 20%。 于是我开始做一套可视化的低代码平台： 让产品经理甚至业务人员，拖拽几下就能把一个管理系统搭起来。写了大半年，核心框...",
+   "publishedAt": "2026-11-01T14:00:35.000Z",
+   "discoveredAt": "2026-11-02T00:48:58.213Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "a137cdc0efa11367"
   },
   {
    "id": "4a0fe19cbd272393",
@@ -24618,121 +24733,6 @@
    ],
    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj49OFtokFF7N2TVBrjY_XC7E-OBiaU7QI0bBuS8sRk2RCrhj7g_hQWeTxWJjF_fFyMXXSd6ZhiZc2M_K6Wq9-LSRnNzrWiL8eV0IXlA-iTrkt-UbQ8K6DMLYAjEqy1fOgxJkHiGerU_cRfBVIwhLLWGRiWUdp1Kc0cKZaGxRXz27_vWwuaQrDHppXS_N1Y/s1600/mark.jpg",
    "contentHash": "9f2eafa76714aa49"
-  },
-  {
-   "id": "5923975de2198253",
-   "sourceId": "techcrunch-startups",
-   "sourceName": "TechCrunch Startups",
-   "originalTitle": "TechCrunch Disrupt 2026 Startup Battlefield 200: Celebrating outstanding achievements",
-   "originalUrl": "https://techcrunch.com/2026/10/22/techcrunch-disrupt-2026-startup-battlefield-200-celebrating-outstanding-achievements/",
-   "originalLanguage": "en",
-   "originalDescription": "Among the Startup Battlefield 200 were many industry-defining companies exhibiting and pitching on the Showcase Stage. Here are the standouts.",
-   "publishedAt": "2026-10-22T16:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "cad58c978ec733de"
-  },
-  {
-   "id": "782124816a0361db",
-   "sourceId": "nvidia-technical-blog",
-   "sourceName": "NVIDIA Technical Blog",
-   "originalTitle": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
-   "originalUrl": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes/",
-   "originalLanguage": "en",
-   "originalDescription": "AI developers aren’t just running a single model anymore—they’re orchestrating multiple models in parallel, chaining inference calls, and experimenting...",
-   "publishedAt": "2026-10-22T16:00:00.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "a210674bf1cdff21"
-  },
-  {
-   "id": "9fdd22fa30fbdf82",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "Uber puts all 30,000 employees on ChatGPT Work",
-   "originalUrl": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-   "originalLanguage": "en",
-   "originalDescription": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
-   "publishedAt": "2026-10-22T16:00:00.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "0f5649a88a01626e"
-  },
-  {
-   "id": "b19d4267dd308428",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "AWS Direct Connect announces 100G expansion in Bangalore, India",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-direct-connect-100g-bangalore/",
-   "originalLanguage": "en",
-   "originalDescription": "Today, AWS announced the expansion of 100 Gbps dedicated connections at the existing AWS Direct Connect location in the Netmagic DC2 data center near Bangalore, India. You can now establish private, direct network access to all public AWS Regions (except those in China), AWS…",
-   "publishedAt": "2026-10-22T16:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "e591dd2f9d35070b"
-  },
-  {
-   "id": "db007afeffa315be",
-   "sourceId": "microsoft-research-blog",
-   "sourceName": "Microsoft Research Blog",
-   "originalTitle": "Flint-interactive: A language for creating interactive data visualizations",
-   "originalUrl": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
-   "originalLanguage": "en",
-   "originalDescription": "Flint-interactive gives AI agents a language for creating interactive visualizations. Click a chart, filter data, highlight related content, and explore beyond the view the author originally chose. The post Flint-interactive: A language for creating interactive data…",
-   "publishedAt": "2026-10-22T16:00:00.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai",
-    "research-papers"
-   ],
-   "imageUrl": null,
-   "contentHash": "279617f227763ada"
-  },
-  {
-   "id": "751f5f4dac8b0370",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "Homomorphic Encryption with Coset Code Construction",
-   "originalUrl": "https://arxiv.org/abs/2610.31437v1",
-   "originalLanguage": "en",
-   "originalDescription": "Homomorphic encryption enables computation on input data without decrypting it. This paper extends a construction based on scalar message codes, utilizing coset codes to pack $k$ message symbols into a ciphertext vector of length $n$. For a given field and vector length, this…",
-   "publishedAt": "2026-10-22T15:34:33.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "e6894f51774cddae"
-  },
-  {
-   "id": "2eded73c1a58a8ad",
-   "sourceId": "simon-willison",
-   "sourceName": "Simon Willison's Weblog",
-   "originalTitle": "Quoting Armin Ronacher",
-   "originalUrl": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
-   "originalLanguage": "en",
-   "originalDescription": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. — Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , llms",
-   "publishedAt": "2026-10-22T15:34:13.000Z",
-   "discoveredAt": "2026-10-26T15:11:56.318Z",
-   "topics": [
-    "ai",
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "8b4986e3082fb7e1"
   }
  ]
 }

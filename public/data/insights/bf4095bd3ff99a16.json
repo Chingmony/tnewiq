@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "bf4095bd3ff99a16",
+ "contentHash": "7aae7d3fb6d57c75",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T00:56:28.900Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Improving Signals, Declining Encoder: A Known-Answer Test of Label-Free Monitoring in Self-Supervised Learning",
+   "summary": "Self-supervised training is typically monitored without labels by examining the loss and statistics of learned features. Researchers report a case where encoders lost part of what they had learned to check whether these label-free monitoring signals noticed the decline. The study involved training LeJEPA encoders on synthetic data.",
+   "impact": "This research could help developers and researchers understand the limitations of label-free monitoring in self-supervised learning. It may highlight whether current signals are sufficient to detect degradation in trained encoders.",
+   "keyPoints": [
+    "Self-supervised training is monitored without labels using loss and feature statistics.",
+    "Researchers tested if monitoring signals notice when encoders lose learned information.",
+    "The experiment involved training LeJEPA encoders on synthetic data."
+   ]
+  },
+  "km": {
+   "title": "សញ្ញាកាន់តែប្រសើរ អាកកូដឺកាន់តែធ្លាក់ចុះ៖ ការធ្វើតេស្តចម្លើយដែលគេដឹងស្រាប់នៃការតាមដានដោយគ្មានស្លាកក្នុងការរៀនដោយខ្លួនឯង",
+   "summary": "ការបណ្តុះបណ្តាលដែលគ្រប់គ្រងដោយខ្លួនឯងត្រូវបានតាមដានដោយគ្មានស្លាកតាមរយៈការបាត់បង់ និងស្ថិតិរបស់អ្នកអភិវឌ្ឍន៍លក្ខណៈដែលបានសិក្សា។ អ្នកស្រាវជ្រាវបានរាយការណ៍អំពីករណីមួយដែលអាកកូដឺបានបាត់បង់ផ្នែកខ្លះនៃអ្វីដែលពួកគេបានសិក្សា ដើម្បីពិនិត្យមើលថាតើសញ្ញាទាំងនេះបានកត់សម្គាល់ដែរឬទេ។ ការសិក្សានេះពាក់ព័ន្ធនឹងការបណ្តុះបណ្តាលអាកកូដឺ LeJEPA លើទិន្នន័យសំយោគ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវឱ្យយល់កាន់តែច្បាស់អំពីដែនកំណត់នៃការតាមដានដោយគ្មានស្លាកក្នុងការរៀនដោយខ្លួនឯង។ វាអាចបង្ហាញថាតើសញ្ញាបច្ចុប្បន្នគ្រប់គ្រាន់ដើម្បីរកឃើញការធ្លាក់ចុះរបស់អ្នកអភិវឌ្ឍន៍ដែលបានបណ្តុះបណ្តាលដែរឬទេ។",
+   "keyPoints": [
+    "ការបណ្តុះបណ្តាលដែលគ្រប់គ្រងដោយខ្លួនឯងត្រូវបានតាមដានដោយគ្មានស្លាកដោយប្រើស្ថិតិបាត់បង់និងលក្ខណៈ។",
+    "អ្នកស្រាវជ្រាវបានធ្វើតេស្តថាតើសញ្ញាតាមដានកត់សម្គាល់ពេលដែលអាកកូដឺបាត់បង់ព័ត៌មានដែលបានសិក្សា។",
+    "ការពិសោធន៍ពាក់ព័ន្ធនឹងការបណ្តុះបណ្តាលអាកកូដឺ LeJEPA លើទិន្នន័យសំយោគ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "信号改善，编码器下降：自监督学习中无标签监控已知答案测试",
+   "summary": "自监督训练在没有标签的情况下，通过所学特征的损失和统计数据进行监控。研究人员报告了一个案例，其中编码器失去了它们所学到的一部分内容，以检查这些信号是否注意到了这一点。该研究涉及在合成数据上训练 LeJEPA 编码器。",
+   "impact": "这项研究可以帮助开发人员和研究人员了解自监督学习中无标签监控的局限性。它可能会强调当前的信号是否足以检测已训练编码器的退化。",
+   "keyPoints": [
+    "自监督训练通过损失和特征统计在没有标签的情况下进行监控。",
+    "研究人员测试了当编码器丢失所学信息时监控信号是否会注意到。",
+    "该实验涉及在合成数据上训练 LeJEPA 编码器。"
+   ]
+  },
+  "ko": {
+   "title": "향상되는 신호, 쇠퇴하는 인코더: 자기 지도 학습에서 무라벨 모니터링의 정답 공개 테스트",
+   "summary": "자기 지도 학습은 학습된 피처의 손실과 통계를 통해 라벨 없이 모니터링됩니다. 연구자들은 인코더가 학습한 내용의 일부를 잃어버린 사례를 보고하여 이러한 모니터링 신호가 이를 감지했는지 확인했습니다. 이 연구에는 합성 데이터로 LeJEPA 인코더를 훈련하는 작업이 포함되었습니다.",
+   "impact": "이 연구는 개발자와 연구자가 자기 지도 학습에서 무라벨 모니터링의 한계를 이해하는 데 도움을 줄 수 있습니다. 현재의 신호가 훈련된 인코더의 저하를 감지하기에 충분한지 여부를 강조할 수 있습니다.",
+   "keyPoints": [
+    "자기 지도 학습은 손실과 피처 통계를 사용하여 라벨 없이 모니터링됩니다.",
+    "연구자들은 인코더가 학습된 정보를 잃었을 때 모니터링 신호가 이를 알아채는지 테스트했습니다.",
+    "이 실험에는 합성 데이터에 대한 LeJEPA 인코더 훈련이 포함되었습니다."
+   ]
+  }
+ }
+}

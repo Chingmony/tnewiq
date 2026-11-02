@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e1aaef5993bcd7c6",
+ "contentHash": "65ab2cfac2733d33",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T00:58:56.927Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Can JEV Support Clinical Trial Criteria Assessment?",
+   "summary": "Clinical trial prescreening requires distinguishing unmet conditions from insufficient evidence in patient records. A retrospective comparison was conducted using JEV, a non-generative decision model returning native outputs, given patient records, criterion questions, and predefined answer options.",
+   "impact": "This research could help developers and technology users understand how non-generative decision models perform in clinical trial prescreening tasks. Security teams and technology users may find that structured decision models offer reliable alternatives for processing sensitive medical records.",
+   "keyPoints": [
+    "Clinical trial prescreening involves separating unmet conditions from insufficient evidence.",
+    "The study evaluated JEV, which is a non-generative decision model.",
+    "The evaluation used patient records, criterion questions, and predefined answer options."
+   ]
+  },
+  "km": {
+   "title": "តើ JEV អាចគាំទ្រការវាយតម្លៃលក្ខខណ្ឌពិសោធន៍គ្លីនិកដែរឬទេ?",
+   "summary": "ការត្រួតពិនិត្យជាមុននៃការពិសោធន៍គ្លីនិកទាមទារឱ្យមានការបែងចែករវាងលក្ខខណ្ឌដែលមិនទាន់បំពេញនិងភស្តុតាងที่ไม่គ្រប់គ្រាន់នៅក្នុងកំណត់ត្រាអ្នកជំងឺ។ ការប្រៀបធៀបឡើងវិញត្រូវបានធ្វើឡើងដោយប្រើប្រាស់ JEV ដែលជាម៉ូដែលសម្រេចចិត្តមិនបង្កើត ដែលផ្តល់លទ្ធផលដើម ដោយផ្អែកលើកំណត់ត្រាអ្នកជំងឺ សំណួរលក្ខខណ្ឌ និងជម្រើសចម្លើយដែលបានកំណត់ទុកជាមុន។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការយល់ដឹងពីរបៀបដែលម៉ូដែលសម្រេចចិត្តមិនបង្កើតដំណើរការក្នុងការងារត្រួតពិនិត្យជាមុននៃការពិសោធន៍គ្លីនិក។ Teams សុវត្ថិភាពនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចឃើញថាម៉ូដែលសម្រេចចិត្តដែលមានโครงสร้างផ្តល់នូវជម្រើសជំនួសដែលអាចទុកចិត្តបានសម្រាប់ដំណើរការកំណត់ត្រាវេជ្ជសាស្ត្រដែលមានភាពរសើប។",
+   "keyPoints": [
+    "ការត្រួតពិនិត្យជាមុននៃការពិសោធន៍គ្លីនិកពាក់ព័ន្ធនឹងការបែងចែកលក្ខខណ្ឌដែលមិនទាន់បំពេញពីភស្តុតាងที่ไม่គ្រប់គ្រាន់។",
+    "ការសិក្សានេះបានវាយតម្លៃលើ JEV ដែលជាម៉ូដែលសម្រេចចិត្តមិនបង្កើត។",
+    "ការវាយតម្លៃបានប្រើប្រាស់កំណត់ត្រាអ្នកជំងឺ សំណួរលក្ខខណ្ឌ និងជម្រើសចម្លើយដែលបានកំណត់ទុកជាមុន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "JEV 能支持临床试验标准评估吗？",
+   "summary": "临床试验预筛选需要区分患者病历中未满足的条件与证据不足的情况。研究人员针对患者病历、标准问题和预定义的答案选项，回顾性地比较了 JEV，这是一个返回原生输出的非生成式决策模型。",
+   "impact": "这项研究可能有助于开发人员和技术用户了解非生成式决策模型在临床试验预筛选任务中的表现。安全团队和技术用户可能会发现，结构化决策模型为处理敏感医疗记录提供了可靠的替代方案。",
+   "keyPoints": [
+    "临床试验预筛选涉及将未满足的条件与证据不足的情况区分开来。",
+    "该研究评估了 JEV，这是一个非生成式决策模型。",
+    "评估使用了患者病历、标准问题和预定义的答案选项。"
+   ]
+  },
+  "ko": {
+   "title": "JEV가 임상시험 기준 평가를 지원할 수 있는가?",
+   "summary": "임상시험 사전 스크리닝은 환자 기록에서 충족되지 않은 조건과 불충분한 증거를 구별해야 합니다. 환자 기록, 기준 질문, 미리 정의된 답변 옵션을 바탕으로 네이티브 출력을 반환하는 비생성형 결정 모델인 JEV를 후향적으로 비교했습니다.",
+   "impact": "이 연구는 개발자와 기술 사용자가 임상시험 사전 스크리닝 작업에서 비생성형 결정 모델의 성능을 이해하는 데 도움을 줄 수 있습니다. 보안 팀과 기술 사용자는 구조화된 결정 모델이 민감한 의료 기록을 처리하는 데 신뢰할 수 있는 대안을 제공한다는 점을 알게 될 수 있습니다.",
+   "keyPoints": [
+    "임상시험 사전 스크리닝은 충족되지 않은 조건과 불충분한 증거를 분리하는 것을 포함합니다.",
+    "이 연구는 비생성형 결정 모델인 JEV를 평가했습니다.",
+    "평가에는 환자 기록, 기준 질문, 미리 정의된 답변 옵션이 사용되었습니다."
+   ]
+  }
+ }
+}

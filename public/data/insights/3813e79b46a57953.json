@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3813e79b46a57953",
+ "contentHash": "1ee5f68df58d2e93",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T00:57:37.310Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "LUCID: Local Understanding of Covariate Importance with Conditional Density Estimation",
+   "summary": "Computing local-level variable importance is critical for understanding machine learning models. Local permutation-based variable importance metrics offer a simple yet powerful approach by measuring how much a model's output changes when perturbing its inputs. However, existing perturbation methods face limitations.",
+   "impact": "This research could help developers and technology users better understand machine learning models through local-level variable importance metrics. It may address limitations found in existing perturbation approaches.",
+   "keyPoints": [
+    "Computing local-level variable importance is critical for understanding machine learning models.",
+    "Local permutation-based variable importance metrics measure how much a model's output changes when perturbing its inputs.",
+    "Existing perturbation methods currently face limitations."
+   ]
+  },
+  "km": {
+   "title": "LUCID៖ ការយល់ដឹងក្នុងស្រុកអំពីសារៈសំខាន់នៃ Covariate ជាមួយ Conditional Density Estimation",
+   "summary": "ការគណនាសារៈសំខាន់អចិន្ត្រៃយ៍កម្រិតមូលដ្ឋានគឺមានសារៈសំខាន់ណាស់សម្រាប់ការយល់ដឹងពីម៉ូដែលម៉ាស៊ីនសិក្សា។ រង្វាស់សារៈសំខាន់ដែលផ្អែកលើការផ្លាស់ប្តូរទីតាំងក្នុងស្រុកផ្តល់នូវវិធីសាស្រ្តដ៏សាមញ្ញប៉ុន្តែមានឥទ្ធិពល។ ទោះបីជាយ៉ាងណាក៏ដោយ វិធីសាស្ត្រដែលមានស្រាប់កំពុងប្រឈមមុខនឹងកម្រិតកំណត់។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍យល់ដឹងកាន់តែប្រសើរឡើងអំពីម៉ូដែលម៉ាស៊ីនសិក្សា។ វាអាចដោះស្រាយបញ្ហាកម្រិតកំណត់នៃវិធីសាស្ត្រដែលមានស្រាប់។",
+   "keyPoints": [
+    "ការគណនាសារៈសំខាន់អចិន្ត្រៃយ៍កម្រិតមូលដ្ឋានគឺមានសារៈសំខាន់សម្រាប់ការយល់ដឹងពីម៉ូដែល។",
+    "រង្វាស់សារៈសំខាន់វាស់វែងការផ្លាស់ប្តូរទិន្នផលនៅពេលកែប្រែធាតុចូល។",
+    "វិធីសាស្ត្រដែលមានស្រាប់កំពុងប្រឈមមុខនឹងកម្រិតកំណត់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "LUCID：使用条件密度估计对协变量重要性进行局部理解",
+   "summary": "计算局部变量重要性对于理解机器学习模型至关重要。基于局部排列的变量重要性指标提供了一种简单而强大的方法，通过测量扰动输入时模型输出的变化来衡量。然而，现有的扰动方法面临着局限性。",
+   "impact": "这项研究可能帮助开发人员和技术用户更好地理解机器学习模型。它可能会解决现有扰动方法中存在的局限性。",
+   "keyPoints": [
+    "计算局部变量重要性对于理解机器学习模型至关重要。",
+    "基于局部排列的变量重要性指标能够测量输入扰动时的输出变化。",
+    "现有的扰动方法目前面临局限性。"
+   ]
+  },
+  "ko": {
+   "title": "LUCID: Conditional Density Estimation을 이용한 공변량 중요도의 로컬 이해",
+   "summary": "로컬 수준의 변수 중요도를 계산하는 것은 머신러닝 모델을 이해하는 데 매우 중요합니다. 로컬 순열 기반 변수 중요도 메트릭은 입력이 교란될 때 모델의 출력이 얼마나 변하는지 측정하여 간단하면서도 강력한 접근 방식을 제공합니다. 그러나 기존의 교란 방법들은 한계에 직면해 있습니다.",
+   "impact": "이 연구는 개발자와 기술 사용자들이 머신러닝 모델을 더 잘 이해하는 데 도움을 줄 수 있습니다. 기존 교란 방법의 한계를 해결하는 데 기여할 수 있습니다.",
+   "keyPoints": [
+    "로컬 수준의 변수 중요도 계산은 머신러닝 모델 이해에 중요합니다.",
+    "로컬 순열 기반 메트릭은 입력 교란 시 모델 출력 변화를 측정합니다.",
+    "기존 교란 방법들은 한계를 가지고 있습니다."
+   ]
+  }
+ }
+}

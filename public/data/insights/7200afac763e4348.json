@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7200afac763e4348",
+ "contentHash": "da89d7806010984d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T00:58:18.065Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "TRACE: Memory-Efficient Time Series Class-Incremental Learning via Temporal-Spectral Reconstruction",
+   "summary": "Web-connected sensing applications continuously generate multivariate time series with evolving behavioral categories. This makes Time Series Class-Incremental Learning, or TSCIL, essential for adapting to new classes without forgetting previously acquired knowledge. The TRACE method addresses memory-efficient time series class-incremental learning through temporal-spectral reconstruction.",
+   "impact": "This approach could help developers and technology users handle evolving behavioral categories in web-connected sensing applications. It may provide a way to adapt to new classes while retaining previously acquired knowledge efficiently.",
+   "keyPoints": [
+    "Web-connected sensing applications continuously generate multivariate time series with evolving behavioral categories.",
+    "TSCIL is essential for adapting to new classes without forgetting past knowledge.",
+    "TRACE uses temporal-spectral reconstruction for memory-efficient time series class-incremental learning."
+   ]
+  },
+  "km": {
+   "title": "TRACE: ការរៀនកើនឡើងថ្នាក់ស៊េរីពេលវេលាដែលមានប្រសិទ្ធភាពសតិដោយផ្អែកលើការស្ថាបនាឡើងវិញនូវពេលវេលា-វិសាលគម",
+   "summary": "កម្មវិធីចាប់សញ្ញាដែលបានតភ្ជាប់បណ្តាញបង្កើតស៊េរីពេលវេលាចម្រុះជាបន្តបន្ទាប់ជាមួយនឹងប្រភេទអាកប្បកិរិយាវិវត្តន៍ ដែលធ្វើឱ្យការរៀនកើនឡើងថ្នាក់ស៊េរីពេលវេលាមានសារៈសំខាន់សម្រាប់ការសម្របខ្លួនទៅនឹងថ្នាក់ថ្មីដោយមិនភ្លេចចំណេះដឹងពីមុន។ វិធីសាស្ត្រ TRACE ដោះស្រាយបញ្ហាការរៀនកើនឡើងថ្នាក់ស៊េរីពេលវេលាដែលមានប្រសិទ្ធភាពសតិ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការจัดการប្រភេទអាកប្បកិរិយាវិវត្តន៍នៅក្នុងកម្មវិធីចាប់សញ្ញា និងអាចរក្សាទុកចំណេះដឹងពីមុនបានយ៉ាងមានប្រសិទ្ធភាព។",
+   "keyPoints": [
+    "កម្មវិធីចាប់សញ្ញាបណ្តាញបង្កើតស៊េរីពេលវេលាចម្រុះជាបន្តបន្ទាប់។",
+    "TSCIL មានសារៈសំខាន់ណាស់សម្រាប់ការសម្របខ្លួនទៅនឹងថ្នាក់ថ្មី។",
+    "TRACE ប្រើប្រាស់ការស្ថាបនាឡើងវិញនូវពេលវេលា-វិសាលគមសម្រាប់ប្រសិទ្ធភាពសតិ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "TRACE：通过时-频重建实现内存高效的时间序列类增量学习",
+   "summary": "联网传感应用会不断生成具有不断演变的行为类别的多变量时间序列，这使得时间序列类增量学习对于适应新类别同时不遗忘以前获取的知识至关重要。TRACE方法通过时-频重建解决了内存高效的时间序列类增量学习问题。",
+   "impact": "这种方法可以帮助开发人员和技术用户处理联网传感应用中不断演变的行为类别，并可能在适应新类别的同时有效保留以前获取的知识。",
+   "keyPoints": [
+    "联网传感应用不断生成具有演变行为类别的多变量时间序列。",
+    "TSCIL对于适应新类别且不遗忘先前知识至关重要。",
+    "TRACE通过时-频重建实现内存高效的时间序列类增量学习。"
+   ]
+  },
+  "ko": {
+   "title": "TRACE: 시공간-스펙트럼 재구성을 통한 메모리 효율적인 시계열 클래스-증분 학습",
+   "summary": "웹 연결 센싱 응용 프로그램은 진화하는 행동 범주를 가진 다변량 시계열을 지속적으로 생성하므로, 시계열 클래스-증분 학습은 이전에 획득한 지식을 잊지 않으면서 새로운 클래스에 적응하는 데 필수적입니다. TRACE 방법은 시공간-스펙트럼 재구성을 통해 메모리 효율적인 시계열 클래스-증분 학습을 다룹니다.",
+   "impact": "이 접근 방식은 개발자와 기술 사용자가 웹 연결 센싱 응용 프로그램에서 진화하는 행동 범주를 처리하는 데 도움을 줄 수 있으며, 이전에 획득한 지식을 유지하면서 새로운 클래스에 효율적으로 적응하는 방법을 제공할 수 있습니다.",
+   "keyPoints": [
+    "웹 연결 센싱 응용 프로그램은 진화하는 행동 범주의 다변량 시계열을 지속적으로 생성합니다.",
+    "TSCIL은 과거 지식을 잊지 않고 새로운 클래스에 적응하는 데 필수적입니다.",
+    "TRACE는 시공간-스펙트럼 재구성을 활용합니다."
+   ]
+  }
+ }
+}
