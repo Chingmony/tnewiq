@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a21877761e8a1764",
+ "contentHash": "59cec9d879d4e846",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T07:49:16.298Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Instance-dependent sequential limits as an exact information ledger",
+   "summary": "Researchers proved instance-dependent limits for bandit regret, sequential tests, best-arm identification, and Markov decision processes using a single chain written as an exact ledger. The approach uses a chain rule where data processing loses a conditional divergence, and applies a one-parameter family of martingale identities to extend the decomposition. Testing across seven published sources, the ledger located the difference between standard algorithms and classical limits.",
+   "impact": "This research could help developers and researchers better analyze and understand the performance limits of sequential algorithms like bandit regret and Markov decision processes. By pinpointing discrepancies between standard algorithms and classical limits, teams may gain clearer insights into algorithm optimization.",
+   "keyPoints": [
+    "Instance-dependent limits for bandit regret, sequential tests, best-arm identification, and Markov decision processes are proved by one chain.",
+    "The chain is structured as an exact information ledger using a divergence decomposition and data processing.",
+    "A one-parameter family of martingale identities extends the decomposition to every tilt between two instances.",
+    "Testing across seven published sources showed the ledger can locate differences between standard algorithms and classical limits."
+   ]
+  },
+  "km": {
+   "title": "ដែនកំណត់លំដាប់អាស្រ័យលើឧទាហរណ៍ជាបញ្ជីព័ត៌មានពិតប្រាកដ",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្ហាញពីដែនកំណត់អាស្រ័យលើឧទាហរណ៍សម្រាប់ bandit regret, sequential tests, best-arm identification និង Markov decision processes ដោយប្រើខ្សែសង្វាក់តែមួយដែលសរសេរជាបញ្ជីព័ត៌មានពិតប្រាកដ។ វិធីសាស្ត្រនេះប្រើប្រាស់ក្បួនខ្សែសង្វាក់ដែលការដំណើរការទិន្នន័យបាត់បង់ conditional divergence យ៉ាងពិតប្រាកដ។ ការធ្វើតេស្តលើប្រភពដែលបានបោះពុម្ពផ្សាយចំនួនប្រាំពីរបានបង្ហាញពីភាពខុសគ្នារវាងក្បួនដោះស្រាយស្តង់ដារ និងដែនកំណត់បុរាណ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវក្នុងការវិភាគ និងស្វែងយល់កាន់តែច្បាស់អំពីដែនកំណត់ដំណើរការនៃក្បួនដោះស្រាយលំដាប់។ តាមរយៈការកំណត់អត្តសញ្ញាណភាពខុសគ្នា ក្រុមការងារអាចទទួលបានការយល់ដឹងកាន់តែច្បាស់អំពីការបង្កើនប្រសិទ្ធភាពក្បួនដោះស្រាយ។",
+   "keyPoints": [
+    "ដែនកំណត់អាស្រ័យលើឧទាហរណ៍សម្រាប់ bandit regret, sequential tests, best-arm identification និង Markov decision processes ត្រូវបានបញ្ជាក់ដោយខ្សែសង្វាក់តែមួយ។",
+    "ខ្សែសង្វាក់នេះត្រូវបានសរសេរជាបញ្ជីព័ត៌មានពិតប្រាកដដោយប្រើការបំបែក divergence និងការដំណើរការទិន្នន័យ។",
+    "ការធ្វើតេស្តលើប្រភពបោះពុម្ពចំនួនប្រាំពីរបានបង្ហាញពីភាពខុសគ្នារវាងក្បួនដោះស្រាយស្តង់ដារ និងដែនកំណត់បុរាណ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "作为精确信息账本的实例依赖序列极限",
+   "summary": "研究人员使用一条被写成精确账本的单一链条，证明了针对强盗遗憾、序列检验、最佳臂识别和马尔可夫决策过程的实例依赖极限。该方法利用了链式法则，其中数据处理会准确损失一个条件散度，并通过一族单参数鞅恒等式将分解扩展到任意两个实例之间的倾斜。在七个已发布的来源上进行的测试表明，该账本能够定位标准算法与经典极限之间的差异。",
+   "impact": "这项研究可以帮助开发人员和研究人员更好地理解决策和序列算法的性能极限。通过精确定位标准算法与经典极限之间的差异，技术人员可能会对算法优化获得更清晰的见解。",
+   "keyPoints": [
+    "通过单一链条证明了强盗遗憾、序列检验、最佳臂识别和马尔可夫决策过程的实例依赖极限。",
+    "该链条通过散度分解和数据处理被写为精确的账本。",
+    "一族单参数鞅恒等式将分解扩展到了两个实例之间的每种倾斜。",
+    "在七个已发布来源上的测试显示，该账本找出了标准算法与经典极限之间的差异。"
+   ]
+  },
+  "ko": {
+   "title": "정확한 정보 원장으로서의 인스턴스 종속 순차 한계",
+   "summary": "연구진은 정확한 원장으로 작성된 단일 체인을 통해 밴딧 후회, 순차 검정, 최적 팔 식별 및 마르코프 결정 프로세스에 대한 인스턴스 종속 한계를 증명했습니다. 이 접근 방식은 데이터 처리가 조건부 발산을 정확히 잃어버리는 체인 규칙을 사용하며, 단일 매개변수 마틴게일 항등식을 통해 분해를 확장합니다. 7개의 출판된 소스에서 테스트한 결과, 이 원장은 표준 알고리즘과 고전적 한계 사이의 차이를 찾아냈습니다.",
+   "impact": "이번 연구는 개발자와 연구자가 순차 알고리즘의 성능 한계를 더 잘 분석하고 이해하는 데 도움을 줄 수 있습니다. 표준 알고리즘과 고전적 한계 간의 차이를 정확히 찾아냄으로써 팀은 알고리즘 최적화에 대한 더 명확한 통찰력을 얻을 수 있습니다.",
+   "keyPoints": [
+    "밴딧 후회, 순차 검정, 최적 팔 식별 및 마르코프 결정 프로세스의 인스턴스 종속 한계가 단일 체인으로 증명되었습니다.",
+    "이 체인은 발산 분해와 데이터 처리를 사용하여 정확한 정보 원장으로 작성되었습니다.",
+    "단일 매개변수 마틴게일 항등식 가족이 두 인스턴스 간의 모든 기울기로 분해를 확장합니다.",
+    "7개의 출판된 소스에서 원장은 표준 알고리즘과 고전적 한계 사이의 차이를 포착했습니다."
+   ]
+  }
+ }
+}

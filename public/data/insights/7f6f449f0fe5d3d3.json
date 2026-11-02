@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7f6f449f0fe5d3d3",
+ "contentHash": "d9f151cb38079709",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T07:44:02.150Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Use Like a Container, Isolate Like a VM",
+   "summary": "NAVER D2 released a presentation session from the 10th NAVER Engineering Day titled Use Like a Container, Isolate Like a VM: kata-containers with GPU. The session introduces methods for isolating Kubernetes GPU nodes with VMs while optimizing performance to host levels. It covers topics such as kata-containers architecture, allocating GPUs and NICs to VMs, and improving VM boot time and performance.",
+   "impact": "This session could help platform developers seeking to enhance isolation in multi-user GPU environments or developers considering VM-based runtimes like kata-containers in Kubernetes. It may also assist those aiming to achieve bare-metal level performance for GPU, IB, and storage in VM environments.",
+   "keyPoints": [
+    "Released a session from NAVER Engineering Day 10th about kata-containers with GPU.",
+    "Introduced methods to isolate Kubernetes GPU nodes using VMs and optimize performance.",
+    "Covered topics including introduction background, kata-containers architecture, and joint allocation of GPUs and NICs to VMs.",
+    "Addressed improvements in VM boot time and performance along with user Pod specs."
+   ]
+  },
+  "km": {
+   "title": "ប្រើប្រាស់ដូចខុងតឺន័រ ដាក់ឱ្យដាច់ដោយឡែកដូច VM",
+   "summary": "NAVER D2 បានចេញផ្សាយវគ្គបទបង្ហាញពីកម្មវិធី NAVER Engineering Day 10th ក្រោមចំណងជើងថា Use Like a Container, Isolate Like a VM: kata-containers with GPU។ បទបង្ហាញនេះណែនាំអំពីវិធីសាស្ត្រក្នុងការញែកโหนด GPU របស់ Kubernetes ដោយប្រើ VM ព្រមទាំងបង្កើនប្រសិទ្ធភាពដល់កម្រិតហូស។ វាគ្របដណ្តប់លើប្រធានបទដូចជាស្ថាបត្យកម្ម kata-containers ការបែងចែក GPU និង NIC ទៅក្នុង VM និងការកែលម្អពេលវេលាបូតនិងប្រសិទ្ធភាពរបស់ VM។",
+   "impact": "វគ្គនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍វេទិកាដែលចង់ពង្រឹងភាពឯកោក្នុងបរិស្ថាន GPU ដែលមានអ្នកប្រើប្រាស់ច្រើន ឬអ្នកអភិវឌ្ឍន៍ដែលពិចារណាលើការប្រើប្រាស់รันថែមផ្អែកលើ VM នៅក្នុង Kubernetes។ វាក៏អាចជួយអ្នកដែលចង់សម្រេចបានប្រសិទ្ធភាពកម្រិត bare-metal សម្រាប់ GPU, IB និង storage នៅក្នុងបរិស្ថាន VM ផងដែរ។",
+   "keyPoints": [
+    "បានចេញផ្សាយវគ្គពី NAVER Engineering Day 10th អំពី kata-containers with GPU។",
+    "បានណែនាំវិធីសាស្ត្រដើម្បីញែកโหนด GPU របស់ Kubernetes ដោយប្រើ VM និងបង្កើនប្រសិទ្ធភាព។",
+    "បានគ្របដណ្តប់លើផ្ទៃខាងក្រោយនៃការណែនាំ ស្ថាបត្យកម្ម kata-containers និងការបែងចែក GPU និង NIC រួមគ្នាទៅក្នុង VM។",
+    "បាននិយាយអំពីការកែលម្អពេលវេលាបូតនិងប្រសិទ្ធភាពរបស់ VM ព្រមទាំង Pod specs របស់អ្នកប្រើប្រាស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "像容器一样使用，像虚拟机一样隔离",
+   "summary": "NAVER D2 公开了一场来自第10届 NAVER Engineering Day 的演讲分享，主题为“像容器一样使用，像虚拟机一样隔离：kata-containers with GPU”。该演讲介绍了通过虚拟机隔离 Kubernetes GPU 节点并将其性能优化至主机水平的方法。内容涵盖了背景介绍与 kata-containers 架构、向虚拟机同时分配 GPU 和 NIC、改善虚拟机启动时间与性能等主题。",
+   "impact": "该分享可能对希望在多用户 GPU 环境中增强隔离性的平台开发人员，或正在考虑在 Kubernetes 中引入 kata-containers 及虚拟机运行时环境的开发人员提供帮助。它也可能协助那些致力于在虚拟机环境中将 GPU、IB 和存储性能提升至 bare metal 水平的开发人员。",
+   "keyPoints": [
+    "公开了第10届 NAVER Engineering Day 关于 kata-containers with GPU 的演讲。",
+    "介绍了使用虚拟机隔离 Kubernetes GPU 节点并优化性能的方法。",
+    "涵盖了引入背景、kata-containers 架构以及向虚拟机分配 GPU 和 NIC 的内容。",
+    "讨论了虚拟机启动时间与性能的改善以及用户编写的 Pod spec。"
+   ]
+  },
+  "ko": {
+   "title": "컨테이너처럼 쓰고, VM처럼 격리하기",
+   "summary": "NAVER D2는 사내 기술 교류 행사 NAVER Engineering Day 10th에서 발표된 '컨테이너처럼 쓰고, VM처럼 격리하기: kata-containers with GPU' 세션을 공개했다. 이 세션은 Kubernetes GPU 노드를 VM으로 격리해 나눠 쓰면서 호스트 수준의 성능까지 최적화한 방법을 소개한다. 도입 배경과 kata-containers의 구조, VM에 GPU와 NIC를 함께 할당하기, VM 부팅 시간과 성능 개선하기 등의 내용을 다룬다.",
+   "impact": "다수 사용자가 GPU 노드를 함께 쓰는 환경에서 격리를 강화하려는 플랫폼 개발자나 Kubernetes에서 kata-containers 및 VM 기반 런타임 도입을 검토하는 개발자에게 도움이 될 수 있다. 또한 VM 환경에서 GPU, IB, storage 성능을 bare metal 수준으로 맞추려는 개발자에게 유용한 참고 자료가 될 수 있다.",
+   "keyPoints": [
+    "NAVER Engineering Day 10th에서 발표된 kata-containers with GPU 세션 공개",
+    "Kubernetes GPU 노드를 VM으로 격리하여 성능을 최적화한 방법 소개",
+    "kata-containers 구조 및 VM에 GPU와 NIC를 함께 할당하는 방법 포함",
+    "VM 부팅 시간 및 성능 개선 내용과 사용자 Pod spec 소개"
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "cdd9f4db26cd1733",
+ "contentHash": "e91b6bd51cd3b702",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T07:50:00.989Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Fast Privacy Loss Accounting for Random Allocation via Multiscale FFT",
+   "summary": "Researchers introduced a multiscale FFT algorithm to improve privacy loss distribution accounting for the random allocation sampling scheme. The new method reduces the running time dependence on the accuracy parameter alpha from quadratic to O(alpha^-1 log(1/alpha)). Additionally, the approach utilizes a mean-preserving connect-the-dots projection to reduce rounding errors.",
+   "impact": "This improvement could allow developers and researchers to compute privacy bounds more efficiently for techniques like DP-SGD with PREAMBLE. The speedups of several orders of magnitude at high accuracy may make privacy-preserving optimizations faster and more practical.",
+   "keyPoints": [
+    "The multiscale FFT algorithm improves privacy loss accounting for random allocation sampling.",
+    "Running time dependence on accuracy parameter alpha is improved from O(alpha^-2) to O(alpha^-1 log(1/alpha)).",
+    "Rounding errors in privacy loss mean and chi-squared divergence are reduced from O(alpha) to O(alpha^2 / log(t)).",
+    "Experiments demonstrate speedups of several orders of magnitude at high accuracy."
+   ]
+  },
+  "km": {
+   "title": "ការគណនាការបាត់បង់ភាពឯកជនលឿនសម្រាប់ការបែងចែកចៃដន្យតាមរយៈ Multiscale FFT",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំក្បួនដោះស្រាយ multiscale FFT ដើម្បីធ្វើឱ្យការគណនាការចែកចាយការបាត់បង់ភាពឯកជនសម្រាប់គ្រោងការណ៍យកគំរូតាមការបែងចែកចៃដន្យកាន់តែប្រសើរឡើង។ វិធីសាស្ត្រថ្មីនេះកាត់បន្ថយពេលវេលាដំណើរការលើប៉ារ៉ាម៉ែត្រភាពត្រឹមត្រូវ alpha ពីការរៀបការ៉េទៅជា O(alpha^-1 log(1/alpha))។ បន្ថែមពីនេះ វិធីសាស្ត្រនេះប្រើប្រាស់ការបញ្ចាំងແບບ mean-preserving connect-the-dots ដើម្បីកាត់បន្ថយកំហុសនៃការមូលចំនួន។",
+   "impact": "ការកែលម្អនេះអាចអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខគណនាដែនកំណត់ភាពឯកជនបានលឿនជាងមុនសម្រាប់បច្ចេកទេសដូចជា DP-SGD ជាមួយ PREAMBLE។ ការបង្កើនល្បឿនយ៉ាងខ្លាំងក្នុងកម្រិតភាពត្រឹមត្រូវខ្ពស់អាចធ្វើឱ្យការបង្កើនប្រសិទ្ធភាពការពារភាពឯកជនកាន់តែមានលក្ខណៈជាក់ស្តែង។",
+   "keyPoints": [
+    "ក្បួនដោះស្រាយ multiscale FFT ធ្វើឱ្យការគណនាការបាត់បង់ភាពឯកជនសម្រាប់ការយកគំរូតាមការបែងចែកចៃដន្យមានភាពប្រសើរឡើង។",
+    "ពេលវេលាដំណើរការត្រូវបានកែលម្អពី O(alpha^-2) ទៅ O(alpha^-1 log(1/alpha))។",
+    "កំហុសនៃការមូលចំនួនត្រូវបានកាត់បន្ថយពី O(alpha) ទៅ O(alpha^2 / log(t))។",
+    "ការពិសោធន៍បង្ហាញពីការបង្កើនល្បឿនជាច្រើនដងនៅកម្រិតភាពត្រឹមត្រូវខ្ពស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过多尺度 FFT 实现随机分配的快速隐私损失计算",
+   "summary": "研究人员引入了一种多尺度 FFT 算法，用于改善随机分配采样方案中的隐私损失分布计算。新方法将运行时间对准确度参数 alpha 的依赖从平方级降低至 O(alpha^-1 log(1/alpha))。此外，该方法利用均值保持的点对点投影来减少舍入误差。",
+   "impact": "这一改进可以帮助开发人员和安全团队更高效地为 DP-SGD 与 PREAMBLE 等技术计算隐私边界。在高性能下实现的数个数量级加速，可能会使隐私保护优化变得更加实用。",
+   "keyPoints": [
+    "多尺度 FFT 算法改进了随机分配采样的隐私损失计算。",
+    "运行时间对准确度参数 alpha 的依赖从 O(alpha^-2) 改善为 O(alpha^-1 log(1/alpha))。",
+    "隐私损失均值和卡方散度的舍入误差从 O(alpha) 降至 O(alpha^2 / log(t))。",
+    "实验表明，该算法在高精度下实现了数个数量级的加速。"
+   ]
+  },
+  "ko": {
+   "title": "멀티스케일 FFT를 통한 무작위 할당의 빠른 프라이버시 손실 회계",
+   "summary": "연구진은 무작위 할당 샘플링 방식에 대한 프라이버시 손실 분포 회계를 개선하기 위해 멀티스케일 FFT 알고리즘을 도입했습니다. 새로운 방법은 정확도 매개변수 alpha에 대한 실행 시간 의존성을 제곱에서 O(alpha^-1 log(1/alpha))로 줄였습니다. 또한 이 접근 방식은 평균 유지 connect-the-dots 투영을 활용하여 반올림 오차를 줄입니다.",
+   "impact": "이러한 개선을 통해 개발자와 보안 팀은 PREAMBLE이 포함된 DP-SGD와 같은 기술에 대한 프라이버시 경계를 더 효율적으로 계산할 수 있습니다. 고정밀도에서 수주 배의 속도 향상을 이루어냄으로써 프라이버시 보호 최적화가 더욱 실용화될 수 있습니다.",
+   "keyPoints": [
+    "멀티ส케일 FFT 알고리즘은 무작위 할당 샘플링에 대한 프라이버시 손실 회계를 개선합니다.",
+    "정확도 매개변수 alpha에 대한 실행 시간 의존성이 O(alpha^-2)에서 O(alpha^-1 log(1/alpha))로 개선되었습니다.",
+    "프라이버시 손실 평균 및 카이제곱 발산의 반올림 오차가 O(alpha)에서 O(alpha^2 / log(t))로 감소했습니다.",
+    "실험 결과 높은 정확도에서 수주 배의 속도 향상을 달성했습니다."
+   ]
+  }
+ }
+}

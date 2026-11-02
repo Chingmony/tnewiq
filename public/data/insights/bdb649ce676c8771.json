@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "bdb649ce676c8771",
+ "contentHash": "0fed451e5604389b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T07:48:32.880Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hierarchical World Models with Implicit Dynamics",
+   "summary": "Researchers introduce ID-WM (Implicit Dynamics World Models), a hierarchical world model designed to improve long-horizon planning for embodied agents by decoupling state-space reachability from local control. The framework uses a high-level model to sample feasible transitions and a low-level inverse dynamics world model to solve for precise actions. This approach helps mitigate cumulative errors and search complexity found in existing methods. Evaluations across three navigation and manipulation suites show a 38.5% improvement over state-of-the-art planners and a 135% performance gain over single-level world model MPC.",
+   "impact": "This hierarchical world model approach could help developers and researchers tackle cumulative errors and search complexity in complex, long-horizon tasks. The decoupling of state-space reachability from local control may offer more robust generalization and fine-grained control for embodied agents in unseen configurations.",
+   "keyPoints": [
+    "ID-WM decouples state-space reachability from local control using a hierarchical design.",
+    "A high-level model samples feasible transitions while a low-level inverse dynamics model handles precise actions.",
+    "The system achieved a 38.5% improvement over state-of-the-art policy and diffusion-based planners.",
+    "A 135% performance gain over single-level world model MPC was demonstrated on long-horizon tasks."
+   ]
+  },
+  "km": {
+   "title": "ម៉ូដែលពិភពលោកឋានានុក្រមជាមួយសក្ដានុពលមិនច្បាស់",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ ID-WM ដែលជាម៉ូដែលពិភពលោកឋានានុក្រមមួយត្រូវបានរចនាឡើងដើម្បីកែលម្អការរៀបចំផែនការរយៈពេលវែងសម្រាប់ភ្នាក់ងារដែលមានរូបរាង ដោយបំបែកលទ្ធភាពទៅដល់លំហរដ្ឋពីការគ្រប់គ្រងក្នុងមូលដ្ឋាន។ ក្របខ័ណ្ឌនេះប្រើប្រាស់ម៉ូដែលកម្រិតខ្ពស់ដើម្បីគំរូការផ្លាស់ប្តូរ និងម៉ូដែលកម្រិតទាបជាដំណោះស្រាយសក្ដានុពលបញ្ច្រាសដើម្បីកំណត់សកម្មភាពច្បាស់លាស់។ វិធីសាស្ត្រនេះជួយកាត់បន្ថយកំហុសឆ្គងដែលสะสม និងភាពស្មុគស្មាញនៃការស្វែងរក។ ការវាយតម្លៃលើកន្លែងរុករកនិងការរៀបចំចំនួនបីបង្ហាញពីការកែលម្អ 38.5% លើកម្មវិធីរៀបចំផែនការបច្ចុប្បន្ន និងការកើនឡើងសមត្ថភាព 135% ប្រៀបធៀបនឹង MPC ម៉ូដែលពិភពលោកកម្រិតតែមួយ។",
+   "impact": "វិធីសាស្ត្រម៉ូដែលពិភពលោកឋានានុក្រមនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវដោះស្រាយកំហុសឆ្គងដែលสะสม និងភាពស្មុគស្មាញនៃការស្វែងរកក្នុងកិច្ចការរយៈពេលវែង។ ការបំបែកលទ្ធភាពទៅដល់លំហរដ្ឋពីការគ្រប់គ្រងក្នុងមូលដ្ឋានអាចផ្ដល់នូវការទូទៅការណ៍កាន់តែរឹងមាំ និងការគ្រប់គ្រងលម្អិតសម្រាប់ភ្នាក់ងារដែលមានរូបរាងក្នុងកម្រងដែលមិនធ្លាប់ឃើញ។",
+   "keyPoints": [
+    "ID-WM បំបែកលទ្ធភាពទៅដល់លំហរដ្ឋពីការគ្រប់គ្រងក្នុងមូលដ្ឋានដោយប្រើការរចនាឋានានុក្រម។",
+    "ម៉ូដែលកម្រិតខ្ពស់គំរូការផ្លាស់ប្តូរខណៈពេលដែលម៉ូដែលសក្ដានុពលបញ្ច្រាសកម្រិតទាបจัดการសកម្មភាពច្បាស់លាស់។",
+    "ប្រព័ន្ធនេះទទួលបានការកែលម្អ 38.5% លើកម្មវិធីរៀបចំផែនការគោលនយោបាយ និងឌីហ្វីយូហ្សិនទំនើប។",
+    "ការកើនឡើងសមត្ថភាព 135% លើ MPC ម៉ូដែលពិភពលោកកម្រិតតែមួយត្រូវបានបង្ហាញលើកិច្ចការរយៈពេលវែង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "具有隐式动态的层次化世界模型",
+   "summary": "研究人员推出了ID-WM（隐式动态世界模型），这是一个分层世界模型，旨在通过将状态空间可达性与局部控制解耦来改善具身智能体的长视野规划。该框架利用高级模型在状态流形上采样可行的转换，并利用低级世界模型作为逆动力学求解器将这些转换落实为精确动作。这种方法有助于减轻现有方法中累积的错误和搜索复杂性。在三个导航和操作套件上的评估显示，该方法比最先进的策略和扩散规划器提高了38.5%，在复杂且未见过的长视野任务配置中，比单层世界模型MPC性能提升了135%。",
+   "impact": "这种分层世界模型方法可能有助于开发人员和研究人员解决复杂长视野任务中的累积错误和搜索复杂性。状态空间可达性与局部控制的解耦可能会为未见过配置中的具身智能体提供更强的泛化能力和精细控制。",
+   "keyPoints": [
+    "ID-WM采用分层设计将状态空间可达性与局部控制解耦。",
+    "高级模型采样可行转换，低级逆动力学模型处理精确动作。",
+    "与最先进的策略和基于扩散的规划器相比，性能提升了38.5%。",
+    "在长视野任务中，性能比单层世界模型MPC提高了135%。"
+   ]
+  },
+  "ko": {
+   "title": "암묵적 동역학을 갖춘 계층적 세계 모델",
+   "summary": "연구원들은 상태 공간 도달 가능성을 로컬 제어와 분리하여 체화된 에이전트의 장기 계획을 개선하도록 설계된 계층적 세계 모델인 ID-WM(Implicit Dynamics World Models)을 소개했습니다. 이 프레임워크는 고수준 모델을 사용하여 상태 다양체 전반의 실현 가능한 전이를 샘플링하고, 저수준 세계 모델을 역동역학 솔버로 사용하여 이러한 전이를 정밀한 행동으로 구체화합니다. 이 접근 방식은 기존 방법에서 나타나는 누적 오류와 검색 복잡성을 완화하는 데 도움을 줍니다. 세 가지 내비게이션 및 조작 스위트에서의 평가는 최신 정책 및 확산 기반 플래너 대비 38.5% 향상된 성능을 보여주며, 복잡하고 보지 못한 장기 작업 구성에서 단일 수준 세계 모델 MPC 대비 135%의 성능 향상을 기록했습니다.",
+   "impact": "이 계층적 세계 모델 접근 방식은 개발자와 연구자들이 복잡한 장기 작업에서 누적 오류와 검색 복잡성을 해결하는 데 도움을 줄 수 있습니다. 상태 공간 도달 가능성과 로컬 제어의 분리는 보지 못한 구성에서 체화된 에이전트에 대해 더 강력한 일반화와 세밀한 제어를 제공할 수 있습니다.",
+   "keyPoints": [
+    "ID-WM은 계층적 설계를 사용하여 상태 공간 도달 가능성을 로컬 제어와 분리합니다.",
+    "고수준 모델은 실현 가능한 전이를 샘플링하고 저수준 역동역학 모델은 정밀한 행동을 처리합니다.",
+    "최신 정책 및 확산 기반 플래너에 비해 38.5% 향상된 성능을 달성했습니다.",
+    "장기 작업에서 단일 수준 세계 모델 MPC 대비 135%의 성능 향상을 보여주었습니다."
+   ]
+  }
+ }
+}

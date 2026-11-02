@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ebcbdbf522df5ed1",
+ "contentHash": "297e7e82390ae51a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T07:47:23.695Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "C++ Web Framework Paozhu Releases Version 1.17.4",
+   "summary": "The C++ web framework Paozhu has released version 1.17.4. This update introduces OAuth2.1 server, OAuth2.1 client, and JWT modules, alongside a GitHub authorization client. Additionally, the release includes numerous fixes for the ORM module.",
+   "impact": "Developers working with Paozhu can now utilize new authentication and authorization modules like OAuth2.1 and JWT, as well as GitHub integration. The ORM module fixes could also improve stability for applications built on this platform.",
+   "keyPoints": [
+    "Added OAuth2.1 server and client modules",
+    "Added JWT module and a GitHub authorization client",
+    "Fixed a large number of issues in the ORM module"
+   ]
+  },
+  "km": {
+   "title": "framework เว็บ C++ Paozhu ដាក់ឱ្យដំណើរការកំណែ 1.17.4",
+   "summary": "framework เว็บ C++ Paozhu បានដាក់ឱ្យដំណើរការកំណែ 1.17.4។ ការអាប់ដេតនេះបានបន្ថែមម៉ូឌុលម៉ាស៊ីនបម្រើ OAuth2.1 ម៉ូឌុលអតិថិជន OAuth2.1 និងម៉ូឌុល JWT រួមទាំងអតិថិជនការអនុញ្ញាត GitHub ផងដែរ។ លើសពីនេះ វាក៏បានកែសម្រួលបញ្ហាច្រើននៅក្នុងម៉ូឌុល ORM ផងដែរ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ដែលប្រើប្រាស់ Paozhu អាចនឹងទទួលបានអត្ថប្រយោជន៍ពីមុខងារផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ និងការអនុញ្ញាតថ្មីៗ ក៏ដូចជាស្ថិរភាពកាន់តែប្រសើរឡើងនៅក្នុងម៉ូឌុល ORM។",
+   "keyPoints": [
+    "បានបន្ថែមម៉ូឌុលម៉ាស៊ីនបម្រើ និងអតិថិជន OAuth2.1",
+    "បានបន្ថែមម៉ូឌុល JWT និងអតិថិជនអនុញ្ញាត GitHub",
+    "បានកែសម្រួលបញ្ហានៅក្នុងម៉ូឌុល ORM ជាច្រើន"
+   ]
+  },
+  "zh-CN": {
+   "title": "C++ web框架 Paozhu 发布1.17.4版",
+   "summary": "C++ Web框架 Paozhu 现已发布 1.17.4 版本。本次更新加入了 OAuth2.1 服务端、OAuth2.1 客户端以及 JWT 模块，并顺便添加了一个 GitHub 授权客户端。此外，新版本还大量修复了 ORM 模块中的问题。",
+   "impact": "使用该框架的开发人员可以利用新增的 OAuth2.1 和 JWT 模块以及 GitHub 授权能力来开发应用。ORM 模块的大量修复也可能提高相关数据库操作的稳定性和可靠性。",
+   "keyPoints": [
+    "加入了 OAuth2.1 服务端和客户端模块",
+    "新增了 JWT 模块及 GitHub 授权客户端",
+    "大量修复了 ORM 模块"
+   ]
+  },
+  "ko": {
+   "title": "C++ 웹 프레임워크 Paozhu, 1.17.4 버전 출시",
+   "summary": "C++ 웹 프레임워크 Paozhu가 1.17.4 버전을 출시했습니다. 이번 업데이트에는 OAuth2.1 서버, OAuth2.1 클라이언트, JWT 모듈이 추가되었으며 GitHub 인증 클라이언트도 함께 포함되었습니다. 또한 ORM 모듈의 수많은 버그가 수정되었습니다.",
+   "impact": "개발자들은 새로운 인증 및 권한 부여 모듈과 GitHub 연동 기능을 활용할 수 있으며 ORM 모듈 수정으로 인해 플랫폼의 안정성이 향상될 수 있습니다.",
+   "keyPoints": [
+    "OAuth2.1 서버 및 클라이언트 모듈 추가",
+    "JWT 모듈 및 GitHub 인증 클라이언트 추가",
+    "ORM 모듈 대량 수정"
+   ]
+  }
+ }
+}

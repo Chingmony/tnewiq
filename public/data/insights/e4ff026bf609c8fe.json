@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e4ff026bf609c8fe",
+ "contentHash": "e86f52af2d009240",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T07:48:43.324Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+   "summary": "Researchers introduce RoboArchitect, a system that automates the design of agent harnesses for robotic policies without updating any model weights. A coding model observes rollouts, diagnoses failures, and iteratively revises the harness around a frozen robot policy. The approach allows the harness to evolve with persistent memory, carrying learned experience into later decisions.",
+   "impact": "This automated design method could provide a strong alternative to finetuning for new robot setups. Developers and researchers may achieve significant performance improvements on unseen scenes and tasks without modifying model weights.",
+   "keyPoints": [
+    "RoboArchitect automates agent harness design for robotic policies.",
+    "A coding model diagnoses failures and iteratively revises the harness.",
+    "The system raises average success significantly on unseen scenes and tasks.",
+    "The harness evolves its own persistent memory to carry learned experience into later decisions."
+   ]
+  },
+  "km": {
+   "title": "RoboArchitect៖ ការស្វ័យប្រវត្តភាវូបនីយកម្មនៃការរចនាភ្នាក់ងាររ៉ូបូតដែលមានសតិជាប់លាប់",
+   "summary": "ការសិក្សាថ្មីមួយបង្ហាញពី RoboArchitect ដែលជាប្រព័ន្ធស្វ័យប្រវត្តកម្មការរចនាភ្នាក់ងារសម្រាប់គោលការណ៍រ៉ូបូតដោយមិនចាំបាច់កែប្រទទម្ងន់គំរូឡើយ។ ម៉ូដែលសរសេរកូដធ្វើការសង្កេត រកមូលហេតុបរាជ័យ និងកែសម្រួលដកស្រង់ឡើងវិញជុំវិញគោលការណ៍រ៉ូបូតដែលបានកក។ ប្រព័ន្ធនេះអនុញ្ញាតឱ្យការរចនាវិវត្តជាមួយសតិជាប់លាប់ដើម្បីផ្ទុកបទពិសោធន៍ដែលបានរៀន។",
+   "impact": "វិធីសាស្ត្រស្វ័យប្រវត្តនេះអាចផ្តល់ជាជម្រើសដ៏រឹងមាំជំនួសឱ្យការលៃតម្រូវសម្រាប់រ៉ូបូតថ្មីៗ។ អ្នកអភិវឌ្ឍន៍អាចទទួលបានការរីកចម្រើនផ្នែកដំណើរការលើឈុតនិងភារកិច្ចដែលមិនធ្លាប់ឃើញដោយមិនបាច់កែប្រទទម្ងន់គំរូឡើយ។",
+   "keyPoints": [
+    "RoboArchitect ធ្វើឱ្យការរចនាភ្នាក់ងាររ៉ូបូតមានលក្ខណៈស្វ័យប្រវត្ត។",
+    "ម៉ូដែលកូដធ្វើរោគវិនិច្ឆ័យកំហុសនិងកែសម្រួលការរចនាឡើងវិញ។",
+    "ប្រព័ន្ធនេះដំឡើងភាគរយជោគជ័យជាមធ្យមលើឈុតនិងភារកិច្ចថ្មីៗ។",
+    "ការរចនាវិវត្តដោយមានសតិជាប់លាប់ដើម្បីយកបទពិសោធន៍ទៅប្រើប្រាស់បន្ត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "RoboArchitect：利用持久内存自动化设计机器人智能体",
+   "summary": "研究人员推出了 RoboArchitect，这是一个能够在不更新任何模型权重的情况下自动化设计机器人策略智能体框架的系统。代码模型观察运行情况、诊断故障，并围绕冻结的机器人策略迭代修改框架。该方法允许框架利用持久内存不断演进，将学习到的经验带入后续决策中。",
+   "impact": "这种自动化设计方法可以为新机器人设置的微调提供强有力的替代方案。开发人员和研究人员可能在未见过的场景和任务上获得显着的性能提升，而无需修改模型权重。",
+   "keyPoints": [
+    "RoboArchitect 能够自动化设计机器人策略的智能体框架。",
+    "代码模型诊断故障并迭代修改智能体框架。",
+    "该系统显著提高了未见场景和任务上的平均成功率。",
+    "框架演化出自身的持久内存，将学习到的经验带入后续决策。"
+   ]
+  },
+  "ko": {
+   "title": "RoboArchitect: 지속형 메모리를 갖춘 로봇 에이전트 설계 자동화",
+   "summary": "연구진은 모델 가중치를 수정하지 않고 로봇 정책을 위한 에이전트 하네스 설계를 자동화하는 시스템인 RoboArchitect를 소개합니다. 코딩 모델이 실행 과정을 관찰하고 실패를 진단하며, 고정된 로봇 정책 주위로 하네스를 반복적으로 수정합니다. 이 접근 방식은 하네스가 지속형 메모리와 함께 진화하여 학습된 경험을 이후 결정에 활용할 수 있게 합니다.",
+   "impact": "이러한 자동화된 설계 방식은 새로운 로봇 설정에 대한 파인튜닝의 강력한 대안이 될 수 있습니다. 개발자와 연구팀은 모델 가중치를 수정하지 않고도 보지 못한 장면과 작업에서 성능을 크게 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "RoboArchitect는 로봇 정책을 위한 에이전트 하네스 설계를 자동화합니다.",
+    "코딩 모델이 실패를 진단하고 하네스를 반복적으로 수정합니다.",
+    "보지 못한 장면과 작업에서 평균 성공률을 크게 향상시킵니다.",
+    "하네스가 자체 지속형 메모리를 진화시켜 학습된 경험을 이후 결정에 반영합니다."
+   ]
+  }
+ }
+}

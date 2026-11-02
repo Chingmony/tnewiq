@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ed72e21129ac4e47",
+ "contentHash": "2c4e0b8e5fcea279",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T07:48:54.168Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches",
+   "summary": "Differentially Private Stochastic Gradient Descent deployments often use sampling schemes that result in variable batch sizes, but privacy guarantees usually require these batch sizes to remain hidden. Distributed settings or memory constraints can reveal batch sizes or require truncation, which increases privacy loss. To address this, researchers proposed a mechanism using a random number of dummy points to privatize the batch size and preserve privacy guarantees under truncation.",
+   "impact": "This mechanism could help developers and security teams maintain privacy guarantees in distributed or constrained environments where batch sizes might otherwise be exposed or truncated. It may offer better privacy-efficiency tradeoffs compared to previous direct accounting methods.",
+   "keyPoints": [
+    "Variable batch sizes in DP-SGD can leak privacy if sizes are revealed by communication traffic or memory constraints.",
+    "Batch truncation to a maximum size can significantly increase privacy loss.",
+    "A new mechanism uses a random number of dummy points to privatize batch sizes and handle truncation.",
+    "The approach provides efficient privacy accounting and better tradeoffs than previous direct accounting for truncated batches."
+   ]
+  },
+  "km": {
+   "title": "ការរាប់លើទិន្នន័យក្លែងក្លាយ៖ ការពង្រីកភាពឯកជនជាមួយនឹងចំនួនដែលអាចសង្កេតបាន និងបណ្តុំទិន្នន័យដែលបានកាត់បន្ថយ",
+   "summary": "ការប្រើប្រាស់ Differentially Private Stochastic Gradient Descent ច្រើនតែពឹងផ្អែកលើបណ្តុំទិន្នន័យដែលមានទំហំប្រែប្រួល ប៉ុន្តែការធានាភាពឯកជនទាមទារមិនឱ្យបង្ហាញទំហំបណ្តុំទាំងនោះឡើយ។ ការដាក់កម្រិតលើសតិ ឬបរិយាកាសចែកចាយអាចបង្ហាញទំហំបណ្តុំ ឬទាមទារការកាត់បន្ថយ ដែលធ្វើឱ្យបាត់បង់ភាពឯកជនកាន់តែច្រើន។ ដើម្បីដោះស្រាយបញ្ហានេះ អ្នកស្រាវជ្រាវបានស្នើឡើងនូវយន្តការមួយដោយប្រើប្រាស់ចំនួនចៃដន្យនៃចំណុចក្លែងក្លាយដើម្បីការពារភាពឯកជននៃទំហំបណ្តុំ។",
+   "impact": "យន្តការនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខរក្សាការធានាភាពឯកជននៅក្នុងបរិយាកាសចែកចាយ ដែលទំហំបណ្តុំទិន្នន័យអាចត្រូវបានបង្ហាញ ឬកាត់បន្ថយ។",
+   "keyPoints": [
+    "ទំហំបណ្តុំទិន្នន័យប្រែប្រួលអាចលេចធ្លាយភាពឯកជនប្រសិនបើត្រូវបានបង្ហាញ។",
+    "ការកាត់បន្ថយទំហំបណ្តុំអាចបង្កើនការបាត់បង់ភាពឯកជនយ៉ាងខ្លាំង។",
+    "យន្តការថ្មីប្រើប្រាស់ចំណុចក្លែងក្លាយចំនួនចៃដន្យដើម្បីការពារទំហំបណ្តុំ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "依赖虚拟数据：结合可观察计数与截断批次的隐私放大技术",
+   "summary": "在 Differentially Private Stochastic Gradient Descent 的许多实际部署中，服务器会分批处理数据，但隐私保证通常要求不泄露可变批次的大小。分布式设置或内存限制可能会暴露这些批次大小并需要进行截断，从而增加隐私损失。为了应对这些挑战，研究人员提出了一种使用随机数量的虚拟点来隐 私化批次大小并在截断情况下维持隐私保证的简单机制。",
+   "impact": "该机制可能帮助开发人员和安全团队在批次大小容易暴露或需要截断的分布式环境中维护隐私保证。它相比以往的方法可能提供更好的隐私与效率权衡。",
+   "keyPoints": [
+    "可变批次大小在公开时会破坏 DP-SGD 的隐私保证。",
+    "批次截断会导致隐私损失显著增加。",
+    "新机制利用随机数量的虚拟点来使批次大小私有化并处理截断问题。"
+   ]
+  },
+  "ko": {
+   "title": "더미 데이터 활용: 관측 가능한 카운트와 잘린 배치를 이용한 프라이버시 증폭",
+   "summary": "Differentially Private Stochastic Gradient Descent의 실제 배포 과정에서 서버는 배치 단위로 데이터를 처리하며 가변적인 배치 크기를 사용하지만 프라이버시 보장을 위해서는 크기가 노출되지 않아야 한다. 분산 환경이나 메모리 제약은 배치 크기를 노출시키거나 잘라내기를 요구하여 프라이버시 손실을 증가시킬 수 있다. 이를 해결하기 위해 연구진은 임의의 수의 더미 포인트를 사용하여 배치 크기를 비공개로 만들고 잘라내기 상황에서도 프라이버시 보장을 유지하는 메커니즘을 제안했다.",
+   "impact": "이 메커니즘은 개발자와 보안 팀이 배치 크기가 노출되거나 잘릴 수 있는 분산 환경이나 제약된 환경에서 프라이버시 보장을 유지하는 데 도움을 줄 수 있다. 기존의 직접 회계 방법보다 더 나은 프라이버시-효율성 절감 효과를 제공할 수 있다.",
+   "keyPoints": [
+    "가변적인 배치 크기는 통신이나 제약으로 인해 노출될 경우 프라이버시를 위협할 수 있다.",
+    "최대 크기로 배치를 잘라내는 과정은 프라이버시 손실을 크게 증가시킬 수 있다.",
+    "새로운 메커니즘은 임의의 더미 포인트를 활용하여 배치 크기를 비공개로 처리한다."
+   ]
+  }
+ }
+}

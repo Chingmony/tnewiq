@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "078c2d791ee450cd",
+ "contentHash": "cae9fd6ec93cff71",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T07:46:19.809Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "ApiGo Open Source Interface Platform Go Version Released",
+   "summary": "ApiGoo, the Go language version of ApiGo, has been released as an online interface development and management platform. It features a multi-database plug-in data source framework and SQL2API capabilities. The platform supports MCP integration for AI office platforms such as WorkBuddy, Qianwen Office, Trea Work, and Doubao.",
+   "impact": "Developers and technology users could benefit from streamlined online interface development and SQL-based API publishing across various data sources. The integration capabilities with multiple AI office platforms may also provide new workflows for teams utilizing these tools.",
+   "keyPoints": [
+    "ApiGoo is the Go language version of ApiGo.",
+    "It features a multi-database plug-in data source framework and SQL2API.",
+    "Supports MCP access for AI office platforms like WorkBuddy, Qianwen Office, Trea Work, and Doubao.",
+    "Supports data sources such as mysql, oracle, 达梦, TiDB, DolphinDB, and DuckDB."
+   ]
+  },
+  "km": {
+   "title": "វេទិកាអន្តរមាត់ប្រភពបើកចំហ ApiGo កំណែ Go ត្រូវបានដាក់ឱ្យដំណើរការ",
+   "summary": "ApiGoo គឺជាកំណែភាសា Go របស់ ApiGo ដែលជាវេទិកាអភិវឌ្ឍន៍ និងគ្រប់គ្រងអន្តរមាត់អនឡាញ។ វាមានក្របខ័ណ្ឌប្រភពទិន្នន័យដោតចូលពហុមូលដ្ឋានទិន្នន័យ និង SQL2API។ វាក៏គាំទ្រដល់ការភ្ជាប់ MCP សម្រាប់វេទិកាការិយាល័យ AI ផងដែរ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានប្រយោជន៍ពីការអភិវឌ្ឍន៍អន្តរមាត់អនឡាញដែលងាយស្រួលជាងមុន។",
+   "keyPoints": [
+    "ApiGoo គឺជាកំណែភាសា Go របស់ ApiGo។",
+    "វាមានក្របខ័ណ្ឌប្រភពទិន្នន័យដោតចូលពហុមូលដ្ឋានទិន្នន័យ និង SQL2API។",
+    "គាំទ្រការភ្ជាប់ MCP សម្រាប់វេទិកាការិយាល័យ AI ដូចជា WorkBuddy និង Doubao។"
+   ]
+  },
+  "zh-CN": {
+   "title": ":fire::fire: ApiGo 开源接口平台 Go 版本发布",
+   "summary": "ApiGoo 是 ApiGo 的 Go 语言版本，是一款在线接口开发和管理平台，具备多数据库插件化数据源框架和 SQL2API 功能。该平台支持 WorkBuddy、千问办公、Trea Work、豆包等 AI 办公平台 MCP 接入。同时支持接入多种 SQL 或 NoSQL 数据源，支持在线可视化编写 SQL 快速发布接口。",
+   "impact": "开发者和技术用户可以通过该平台利用多数据库源进行在线可视化接口开发和管理。与多种 AI 办公平台的接入能力可能会为相关开发带来更多便利。",
+   "keyPoints": [
+    "ApiGoo 是 ApiGo 的 Go 语言版本。",
+    "支持多数据库插件化数据源框架与 SQL2API。",
+    "支持 WorkBuddy、千问办公、Trea Work、豆包等 AI 办公平台 MCP 接入。",
+    "支持 mysql、oracle、达梦、TiDB、DolphinDB、DuckDB 等数据源。"
+   ]
+  },
+  "ko": {
+   "title": "ApiGo 오픈소스 인터페이스 플랫폼 Go 버전 출시",
+   "summary": "ApiGoo는 ApiGo의 Go 언어 버전으로, 온라인 인터페이스 개발 및 관리 플랫폼입니다. 다중 데이터베이스 플러그인 식 데이터 소스 프레임워크와 SQL2API 기능을 제공합니다. WorkBuddy, 천문 오피스, Trea Work, 두바오 등의 AI 오피스 플랫폼 MCP 연동을 지원합니다.",
+   "impact": "개발자와 기술 사용자는 다양한 데이터 소스를 활용하여 온라인으로 인터페이스를 개발하고 관리하는 데 도움을 받을 수 있습니다. AI 오피스 플랫폼과의 연동 기능은 관련 도구를 사용하는 팀에게 새로운 작업 흐름을 제공할 수 있습니다.",
+   "keyPoints": [
+    "ApiGoo는 ApiGo의 Go 언어 버전입니다.",
+    "다중 데이터베이스 플러그인 데이터 소스 프레임워크와 SQL2API를 지원합니다.",
+    "WorkBuddy, 천문 오피스, Trea Work, 두바오 등 AI 오피스 플랫폼 MCP 연동을 지원합니다.",
+    "mysql, oracle, 다몽, TiDB, DolphinDB, DuckDB 등의 데이터 소스를 지원합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "565acd9087144f35",
+ "contentHash": "835522ac0c89f1c0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T07:43:51.023Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Coding AI performs well on direct tasks but misses hidden requirements, with top models scoring 45.5%",
+   "summary": "AI coding agents perform clear instructions well but remain weak at identifying requirements that developers do not explicitly explain. In a new benchmark reflecting real software development environments, even the top-performing model scored only 45.5%. Additionally, cases were observed where increasing inference actually degraded code quality. Cognition, the developer of the coding agent Devin, announced this new coding performance evaluation tool, FrontierCode 2.0, on its official blog.",
+   "impact": "Development and security teams may need to carefully define all project requirements rather than relying on AI coding agents to infer hidden needs. Technology users should also be aware that increasing AI inference depth may not always improve code quality.",
+   "keyPoints": [
+    "AI coding agents struggle to identify unstated requirements not explicitly explained by developers.",
+    "The top-performing model scored 45.5% on the FrontierCode 2.0 benchmark.",
+    "Increasing inference was found to sometimes decrease code quality.",
+    "Cognition released the FrontierCode 2.0 evaluation tool on its official blog."
+   ]
+  },
+  "km": {
+   "title": "AI សរសេរកូដធ្វើការងារច្បាស់លាស់បានល្អ ប៉ុន្តែខកខានតម្រូវការលាក់កំបាំង ដោយម៉ូដែលល្អបំផុតទទួលបាន 45.5%",
+   "summary": "ភ្នាក់ងារ AI សរសេរកូដអាចអនុវត្តការបញ្ជាច្បាស់លាស់បានល្អ ប៉ុន្តែនៅតែមានភាពខ្សោយក្នុងការស្វែងរកតម្រូវការដែលអ្នកអភិវឌ្ឍន៍មិនបានពន្យល់ដោយផ្ទាល់។ នៅក្នុងការវាយតម្លៃស្តង់ដារថ្មីដែលสะท้อนបរិយាកាសអភិវឌ្ឍន៍កម្មវិធីជាក់ស្តែង ម៉ូដែលដែលមានសមត្ថភាពខ្ពស់បំផុតក៏ទទួលបានត្រឹមតែ 45.5% ប៉ុណ្ណោះ។ លើសពីនេះ ករណីមួយចំនួនត្រូវបានរកឃើញដែលការបង្កើនការសន្និដ្ឋានធ្វើឱ្យគុណភាពកូដធ្លាក់ចុះថែមទៀត។ ក្រុមហ៊ុន Cognition ដែលជាអ្នកអភិវឌ្ឍន៍ភ្នាក់ងារសរសេរកូដ Devin បានប្រកាសឧបករណ៍វាយតម្លៃសមត្ថភាពសរសេរកូដថ្មី FrontierCode 2.0 នៅលើប្លុកផ្លូវការរបស់ខ្លួន។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍និងសុវត្ថិភាពប្រហែលជាត្រូវកំណត់តម្រូវការគម្រោងឱ្យបានច្បាស់លាស់ ជាជាងការផ្អែកលើភ្នាក់ងារ AI ដើម្បីស្វែងរកតម្រូវការលាក់កំបាំង។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាក៏គួរតែដឹងផងដែរថា ការបង្កើនកម្រិតសន្និដ្ឋានរបស់ AI ប្រហែលជាមិនតែងតែធ្វើឱ្យគុណភាពកូដប្រសើរឡើងនោះទេ។",
+   "keyPoints": [
+    "ភ្នាក់ងារ AI សរសេរកូដមានការលំបាកក្នុងការស្វែងរកតម្រូវការដែលមិនបានបញ្ជាក់ច្បាស់។",
+    "ម៉ូដែលដែលមានដំណើរការខ្ពស់បំផុតទទួលបាន 45.5% លើស្តង់ដារ FrontierCode 2.0។",
+    "ការបង្កើនការសន្និដ្ឋានត្រូវបានគេរកឃើញថាពេលខ្លះធ្វើឱ្យគុណភាពកូដថយចុះ។",
+    "ក្រុមហ៊ុន Cognition បានបញ្ចេញឧបករណ៍វាយតម្លៃ FrontierCode 2.0 នៅលើប្លុកផ្លូវការរបស់ខ្លួន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "编程AI擅长明确指令却遗漏隐藏需求，顶级模型得分仅为45.5%",
+   "summary": "评估结果显示，AI编程代理虽然能够很好地执行明确指令，但在找出开发者未直接说明的需求方面仍然存在不足。在反映实际软件开发环境的新基准测试中，表现最好的模型也只获得了45.5%的成绩。此外，还发现了一些增加推理反而导致代码质量下降的案例。开发编程代理Devin的Cognition于上月27日在官方博客上公布了全新的编程性能评估工具FrontierCode 2.0。",
+   "impact": "开发和安全团队可能需要仔细定义所有项目需求，而不应依赖AI编程代理去推断隐藏需求。技术用户也应当意识到，增加AI推理深度并不一定总能提高代码质量。",
+   "keyPoints": [
+    "AI编程代理难以识别开发者未明确解释的潜在需求。",
+    "顶级模型在FrontierCode 2.0基准测试中得分为45.5%。",
+    "有案例表明增加推理反而会降低代码质量。",
+    "Cognition在其官方博客上发布了FrontierCode 2.0评估工具。"
+   ]
+  },
+  "ko": {
+   "title": "\"코딩 AI, 시키는 일은 잘하지만 숨은 요구는 놓쳐\"…최고 모델도 45.5%",
+   "summary": "AI 코딩 에이전트가 명확한 지시는 잘 수행하지만, 개발자가 직접 설명하지 않은 요구 사항을 파악하는 데는 여전히 취약하다는 평가 결과가 나왔다. 실제 소프트웨어 개발 환경을 반영한 새로운 벤치마크에서 최고 성능 모델도 45.5%를 기록했으며, 추론을 늘릴수록 오히려 코드 품질이 떨어지는 사례도 확인됐다. 코딩 에이전트 Devin을 개발한 코그니션은 공식 블로그를 통해 새로운 코딩 성능 평가 도구인 FrontierCode 2.0을 공개했다.",
+   "impact": "개발 및 보안 팀은 AI 코딩 에이전트가 숨겨진 요구 사항을 유추하기를 기대하기보다 프로젝트 요구 사항을 명확하게 정의해야 할 수 있다. 기술 사용자 역시 추론 단계를 늘리는 것이 항상 코드 품질 향상으로 이어지지 않을 수 있음을 인지해야 한다.",
+   "keyPoints": [
+    "AI 코딩 에이전트는 개발자가 직접 설명하지 않은 숨은 요구 사항을 파악하는 데 취약함.",
+    "실제 개발 환경을 반영한 벤치마크에서 최고 성능 모델은 45.5%를 기록함.",
+    "추론을 늘릴수록 오히려 코드 품질이 떨어지는 사례도 확인됨.",
+    "코그니션은 공식 블로그를 통해 새로운 평가 도구인 FrontierCode 2.0을 발표함."
+   ]
+  }
+ }
+}

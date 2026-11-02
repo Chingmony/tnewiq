@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "articleId": "bb71f0b07a1e6e15",
+ "contentHash": "a2dc0cb0458431e6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T07:49:26.791Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "DecisionRank: On-Policy Distillation for Decision-Model Rerankers",
+   "summary": "Researchers introduced DecisionRank, a decision model trained via item-space on-policy distillation (OPD) to transfer ranking knowledge from generative LLMs without autoregressive decoding latency. By sorting student document scores into a ranked sequence, a generative teacher provides conditional feedback to supervise those scores directly. Combined with offline ranking supervision, DecisionRank achieves state-of-the-art performance on retrieval benchmarks like TREC DL, BEIR, and BRIGHT.",
+   "impact": "This approach could help developers achieve superior retrieval and reranking performance while significantly reducing inference latency compared to generative listwise counterparts. Security teams and technology users may benefit from faster, highly accurate models on reasoning-intensive retrieval tasks.",
+   "keyPoints": [
+    "Decision models predict choices or scores directly to avoid autoregressive decoding latency.",
+    "Item-space OPD builds student rollouts by sorting document scores into a ranked sequence.",
+    "DecisionRank at 1.7B parameters surpasses its 27B generative teacher on TREC DL19--23.",
+    "An 8B DecisionRank model runs substantially faster than its generative listwise counterpart."
+   ]
+  },
+  "km": {
+   "title": "DecisionRank: On-Policy Distillation for Decision-Model Rerankers",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ DecisionRank ដែលជាម៉ូเดលសម្រេចចិត្តបណ្តុះបណ្តាលតាមរយៈ item-space on-policy distillation ដើម្បីផ្ទេរចំណេះដឹងពី LLMs កំណើត។ វាជួយជៀសវាងភាពយឺតយ៉ាវនៃការឌិកូដ និងសម្រេចបាននូវដំណើរការល្អបំផុតនៅលើគោលដៅទាញយកទិន្នន័យ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍សម្រេចបាននូវដំណើរការទាញយកទិន្នន័យលឿន និងមានប្រសិទ្ធភាពជាងមុន។",
+   "keyPoints": [
+    "ម៉ូដែលសម្រេចចិត្តទស្សន៍ទាយជម្រើសដោយផ្ទាល់ដើម្បីជៀសវាងភាពយឺតយ៉ាវ។",
+    "DecisionRank សម្រេចបាននូវលទ្ធផលល្អប្រសើរលើ TREC DL, BEIR និង BRIGHT។"
+   ]
+  },
+  "zh-CN": {
+   "title": "DecisionRank: 面向决策模型重排器的在线蒸馏",
+   "summary": "研究人员引入了DecisionRank，这是一种通过项空间在线蒸馏训练的决策模型，用于将生成式LLM的排序知识转移到决策模型中，同时避免自回归解码延迟。通过将学生文档分数排序为序列，生成式教师提供条件反馈来直接监督这些分数。结合离线排序监督，DecisionRank在TREC DL、BEIR和BRIGHT等检索基准测试上实现了最先进的性能。",
+   "impact": "这种方法可以帮助开发者在显著降低推理延迟的同时获得更优异的检索和重排性能。技术用户和安全团队可能会受益于在推理密集型检索任务中运行更快且高度准确的模型。",
+   "keyPoints": [
+    "决策模型直接预测选择或分数以避免自回归解码延迟。",
+    "项空间在线蒸馏通过将学生文档分数排序为排名序列来构建rollout。",
+    "1.7B参数的DecisionRank在TREC DL19--23上超过了其27B的生成式教师模型。",
+    "8B版本的运行速度比生成式列表对应模型快数倍。"
+   ]
+  },
+  "ko": {
+   "title": "DecisionRank: On-Policy Distillation for Decision-Model Rerankers",
+   "summary": "연구진은 자기회귀 디코딩 지연을 피하면서 생성형 LLM의 순위 지정 지식을 전달하기 위해 item-space on-policy distillation(OPD)으로 학습된 결정 모델인 DecisionRank를 소개했습니다. 학생 문서 점수를 순위가 매겨진 시퀀스로 정렬하여 생성형 교사가 해당 점수를 직접 감독하는 조건부 피드백을 제공합니다. 오프라인 순위 감독과 결합된 DecisionRank는 TREC DL, BEIR, BRIGHT와 같은 검색 벤치마크에서 최고 수준의 성능을 달성합니다.",
+   "impact": "이 접근 방식은 개발자가 생성형 대안에 비해 지연 시간을 크게 줄이면서 뛰어난 검색 및 재순위 지정 성능을 달성하는 데 도움이 될 수 있습니다. 기술 사용자 및 보안 팀은 추론 집약적 검색 작업에서 더 빠르고 정확한 모델의 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "결정 모델은 선택이나 점수를 직접 예측하여 자기회귀 디코딩 지연을 방지합니다.",
+    "item-space OPD는 학생 문서 점수를 순위 시퀀스로 정렬하여 롤아웃을 구성합니다.",
+    "1.7B 매개변수의 DecisionRank는 TREC DL19--23에서 27B 생성형 교사를 능가합니다.",
+    "8B 모델은 생성형 리스트 방식에 비해 훨씬 빠른 속도로 실행됩니다."
+   ]
+  }
+ }
+}
