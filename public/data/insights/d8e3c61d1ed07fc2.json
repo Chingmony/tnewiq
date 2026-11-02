@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d8e3c61d1ed07fc2",
+ "contentHash": "ff0abc0dc0442192",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T18:32:05.824Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Support New AI Frameworks Faster Using NVIDIA Workload Map",
+   "summary": "NVIDIA introduced the NVIDIA DSX AI Factory Platform, which combines technologies to help the ecosystem design, build, and operate efficient AI factories. The platform includes open-source, modular software components designed to support multi-tenant operations and scaling. Operating an AI factory requires a shared understanding of distributed workloads, including their components, pod templates, replica counts, and status.",
+   "impact": "This platform could help developers and technology users better manage and scale distributed workloads in AI factories.",
+   "keyPoints": [
+    "The NVIDIA DSX AI Factory Platform helps design, build, and operate efficient AI factories.",
+    "It includes open-source, modular software components for multi-tenant operations and scaling.",
+    "Operating an AI factory requires a shared understanding of distributed workloads and their components."
+   ]
+  },
+  "km": {
+   "title": "គាំទ្រframework AI ថ្មីៗបានលឿនជាងមុនដោយប្រើ NVIDIA Workload Map",
+   "summary": "NVIDIA បានណែនាំ NVIDIA DSX AI Factory Platform ដែលប្រមូលផ្តុំនូវបច្ចេកវិទ្យាដើម្បីជួយដល់ប្រព័ន្ធអេកូឡូស៊ីក្នុងការរចនា សាងសង់ និងដំណើរការរោងចក្រ AI ប្រកបដោយប្រសិទ្ធភាព។ វេទិកានេះរួមបញ្ចូលទាំងសមាសភាគកម្មវិធីប្រភពបើកចំហរ និងម៉ូឌុល ដែលត្រូវបានសាងសង់ឡើងដើម្បីគាំទ្រដល់ប្រតិបត្តិការដែលមានអ្នកជួលច្រើន និងការធ្វើមាត្រដ្ឋាន។ ការដំណើរការរោងចក្រ AI ទាមទារឱ្យមានការយល់ដឹងរួមគ្នាអំពីបន្ទុកការងារដែលបានចែកចាយ។",
+   "impact": "វេទិកានេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការគ្រប់គ្រង និងធ្វើមាត្រដ្ឋានបន្ទុកការងារដែលបានចែកចាយនៅក្នុងរោងចក្រ AI កាន់តែប្រសើរឡើង។",
+   "keyPoints": [
+    "NVIDIA DSX AI Factory Platform ជួយរចនា សាងសង់ និងដំណើរការរោងចក្រ AI ប្រកបដោយប្រសិទ្ធភាព។",
+    "វាមានសមាសភាគកម្មវិធីប្រភពបើកចំហរ និងម៉ូឌុលសម្រាប់ប្រតិបត្តិការអ្នកជួលច្រើន និងការធ្វើមាត្រដ្ឋាន។",
+    "ការដំណើរការរោងចក្រ AI ទាមទារការយល់ដឹងរួមគ្នាអំពីបន្ទុកការងារដែលបានចែកចាយ និងសមាសភាគរបស់វា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 NVIDIA Workload Map 更快支持新的 AI 框架",
+   "summary": "NVIDIA 推出了 NVIDIA DSX AI Factory Platform，该平台汇集了各种技术，旨在帮助生态系统设计、构建和运营更高效的 AI 工厂。其中包括支持多租户运营和扩展的开源模块化软件组件。运营 AI 工厂需要对分布式工作负载及其组件、Pod 模板、副本计数和状态有共同的理解。",
+   "impact": "该平台可能会帮助开发人员和技术用户更好管理和扩展 AI 工厂中的分布式工作负载。",
+   "keyPoints": [
+    "NVIDIA DSX AI Factory Platform 帮助设计、构建和运营高效的 AI 工厂。",
+    "它包含用于多租户运营和扩展的开源模块化软件组件。",
+    "运营 AI 工厂需要对分布式工作负载及其组件有共同的理解。"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA Workload Map을 사용하여 새로운 AI 프레임워크를 더 빠르게 지원",
+   "summary": "NVIDIA는 생태계가 더 효율적인 AI 팩토리를 설계, 구축 및 운영할 수 있도록 기술을 통합한 NVIDIA DSX AI Factory Platform을 소개했습니다. 이 플랫폼에는 멀티 테넌트 운영 및 확장을 지원하기 위해 구축된 오픈 소스 모듈형 소프트웨어 구성 요소가 포함되어 있습니다. AI 팩토리를 운영하려면 분산 워크로드와 그 구성 요소에 대한 공유된 이해가 필요합니다.",
+   "impact": "이 플랫폼은 개발자와 기술 사용자가 AI 팩토리의 분산 워크로드를 더 잘 관리하고 확장하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "NVIDIA DSX AI Factory Platform은 효율적인 AI 팩토리의 설계, 구축 및 운영을 지원합니다.",
+    "멀티 테넌트 운영 및 확장을 위한 오픈 소스 모듈형 소프트웨어 구성 요소를 포함합니다.",
+    "AI 팩토리 운영에는 분산 워크로드와 그 구성 요소에 대한 공유된 이해가 필요합니다."
+   ]
+  }
+ }
+}

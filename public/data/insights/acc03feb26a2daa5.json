@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "acc03feb26a2daa5",
+ "contentHash": "6d590386ed8ae2ca",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T18:30:39.743Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
+   "summary": "Agentic AI applications can incur high costs at production scale because each task requires multiple iterative model calls. To address this, developers can use sequence-level knowledge distillation (SeqKD) to fine-tune a smaller student model using the text outputs of a larger teacher model. A new blog post explains how to implement SeqKD on Amazon SageMaker AI to improve efficiency while maintaining task quality.",
+   "impact": "This approach could help developers reduce the high per-task costs associated with running frontier models in production agentic applications. Security and technology teams might use SeqKD to deploy faster, more cost-effective models without needing access to teacher model logits or complex reinforcement learning infrastructure.",
+   "keyPoints": [
+    "Agentic tasks involve loops of multiple model calls, compounding production costs.",
+    "Knowledge distillation transfers behavior from a large teacher model to a smaller student model.",
+    "Sequence-level knowledge distillation (SeqKD) uses only teacher text outputs via supervised fine-tuning.",
+    "The post covers generating teacher trajectories, encoding them, and training on Amazon SageMaker AI."
+   ]
+  },
+  "km": {
+   "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
+   "summary": "កម្មវិធីភ្នាក់ងារ AI អាចមានការចំណាយខ្ស់នៅទ្រង់ទ្រាយផលិតកម្ម ដោយសារកិច្ចការនីមួយៗទាមទារការហៅម៉ូដែលច្រើនដង។ ដើម្បីដោះស្រាយបញ្ហានេះ អ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់ចំណេះដឹង distilling កម្រិតលំដាប់ (SeqKD) ដើម្បីปรับម៉ូដែលសិស្សតូចជាងដោយប្រើលទ្ធផលអត្ថបទពីម៉ូដែលគ្រូបង្រៀនធំជាង។ អត្ថបទប្លុកថ្មីមួយពន្យល់ពីរបៀបអនុវត្ត SeqKD នៅលើ Amazon SageMaker AI។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍កាត់បន្ថយការចំណាយខ្ពស់ក្នុងមួយកិច្ចការដែលទាក់ទងនឹងការដំណើរការម៉ូដែលទំនើបក្នុងកម្មវិធីភ្នាក់ងារផលិតកម្ម។ ក្រុមសុវត្ថិភាពនិងបច្ចេកវិទ្យាអាចប្រើប្រាស់វាដើម្បីដាក់ពង្រាយម៉ូដែលដែលលឿនជាងមុននិងមានតម្លៃសមរម្យជាងមុន។",
+   "keyPoints": [
+    "កិច្ចការភ្នាក់ងារពាក់ព័ន្ធនឹងរង្វិលជុំនៃការហៅម៉ូដែលច្រើនដង ដែលធ្វើឲ្យការចំណាយកើនឡើង។",
+    "ការចម្រាញ់ចំណេះដឹងផ្ទេរអាកប្បកិរិយាពីម៉ូដែលគ្រូធំទៅម៉ូដែលសិស្សតូច។",
+    "SeqKD ប្រើប្រាស់តែលទ្ធផលអត្ថបទរបស់គ្រូតាមរយៈការកែសម្រួលយ៉ាងល្អិតល្អន់ដែលបានត្រួតពិនិត្យ។",
+    "អត្ថបទគ្របដណ្តប់លើការបង្កើតគន្លងគ្រូ ការអ៊ិនកូដ និងការបណ្តុះបណ្តាលនៅលើ Amazon SageMaker AI។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
+   "summary": "由于每个任务都需要多次模型调用，智能体AI应用程序在生产规模下会产生高昂的成本。为了解决这个问题，开发人员可以使用序列级知识蒸馏（SeqKD），利用较大教师模型的文本输出微调较小的学生模型。一篇新的博客文章介绍了如何在Amazon SageMaker AI上实现SeqKD以提高效率并保持任务质量。",
+   "impact": "这种方法可以帮助开发人员降低在生产智能体应用程序中运行前沿模型的高昂每任务成本。安全和技术团队可以利用SeqKD部署更快、更具成本效益的模型，而无需访问教师模型logits或复杂的强化学习基础设施。",
+   "keyPoints": [
+    "智能体任务涉及多次模型调用的循环，从而增加了生产成本。",
+    "知识蒸馏将行为从大型教师模型转移到小型学生模型。",
+    "序列级知识蒸馏（SeqKD）仅通过监督微调使用教师的文本输出。",
+    "文章介绍了生成教师轨迹、对其进行编码以及在Amazon SageMaker AI上进行训练的方法。"
+   ]
+  },
+  "ko": {
+   "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
+   "summary": "에이전트 AI 애플리케이션은 각 작업에 여러 번의 모델 호출이 필요하기 때문에 프로덕션 규모에서 높은 비용을 발생시킬 수 있습니다. 이를 해결하기 위해 개발자는 시퀀스 수준 지식 증류(SeqKD)를 사용하여 더 큰 교사 모델의 텍스트 출력을 기반으로 더 작은 학생 모델을 미세 조정할 수 있습니다. 새로운 블로그 게시물에서는 Amazon SageMaker AI에서 SeqKD를 구현하여 효율성을 높이고 작업 품질을 유지하는 방법을 설명합니다.",
+   "impact": "이 접근 방식은 개발자가 프로덕션 에이전트 애플리케이션에서 최첨단 모델을 실행하는 데 드는 높은 작업당 비용을 줄이는 데 도움이 될 수 있습니다. 보안 및 기술 팀은 교사 모델 로짓이나 복잡한 강화 학습 인프라에 대한 액세스 없이도 더 빠르고 비용 효율적인 모델을 배포하는 데 SeqKD를 사용할 수 있습니다.",
+   "keyPoints": [
+    "에이전트 작업은 여러 모델 호출 루프를 포함하여 프로덕션 비용을 증가시킵니다.",
+    "지식 증류는 대형 교사 모델의 동작을 소형 학생 모델로 이전합니다.",
+    "시퀀스 수준 지식 증류(SeqKD)는 지도 미세 조정을 통해 교사의 텍스트 출력만 사용합니다.",
+    "이 게시물은 교사 궤적 생성, 인코딩, Amazon SageMaker AI에서의 학습 방법을 다룹니다."
+   ]
+  }
+ }
+}

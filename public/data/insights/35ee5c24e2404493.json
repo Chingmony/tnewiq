@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "35ee5c24e2404493",
+ "contentHash": "ae2b9eb498e8b106",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T18:30:52.813Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Agentic engineering intelligence with Amazon Nova Multimodal Embeddings and Amazon Bedrock AgentCore",
+   "summary": "AWS introduced a multi-agent engineering assistant built using Amazon Bedrock AgentCore, Amazon Nova Multimodal Embeddings, and the open source Strands Agents SDK to help evaluate part substitutions. The system uses a planner to route tasks to three specialist agents that search a multimodal knowledge base, score candidates against deterministic rules, and compare part photos. The assistant assembles evidence and drafts justification memos and Integration Impact Assessments, while keeping the engineer as the decision-maker.",
+   "impact": "This approach could help development and engineering teams reduce the manual effort of cross-referencing datasheets and specifications for obsolete components. Security and compliance teams may benefit from the automated generation of audit trail entries aligned with AS9100 standards.",
+   "keyPoints": [
+    "The multi-agent system uses Amazon Bedrock AgentCore, Amazon Nova Multimodal Embeddings, and the Strands Agents SDK.",
+    "A planner routes work across three specialist agents covering catalog search, evaluation, and knowledge retrieval.",
+    "The system uses deterministic Python code for tolerance-rule evaluation to ensure consistent pass or flag verdicts.",
+    "Engineers remain the final decision-makers, as the system only assembles evidence and drafts documents without approving substitutions."
+   ]
+  },
+  "km": {
+   "title": "Agentic engineering intelligence with Amazon Nova Multimodal Embeddings and Amazon Bedrock AgentCore",
+   "summary": "AWS បានណែនាំជំនួយការផ្នែកវិស្វកម្មភ្នាក់ងារច្រើន ដែលបង្កើតឡើងដោយប្រើប្រាស់ Amazon Bedrock AgentCore, Amazon Nova Multimodal Embeddings និង Strands Agents SDK ប្រភពបើកចំហ ដើម្បីជួយវាយតម្លៃការជំនួសគ្រឿងបន្លាស់។ ប្រព័ន្ធនេះប្រើប្រាស់ឧបករណ៍រៀបចំផែនការដើម្បីបញ្ជូនកិច្ចការទៅកាន់ភ្នាក់ងារឯកទេសចំនួនបី ដែលស្វែងរកមូលដ្ឋានចំណេះដឹងពហុព័ត៌មាន ពិន្ទុបេក្ខជនប្រឆាំងនឹងច្បាប់កំណត់ និងប្រៀបធៀបរូបថតគ្រឿងបន្លាស់។ ជំនួយការប្រមូលផ្តុំភស្តុតាង និងសេចក្តីព្រាងអនុស្សរណៈនៃការ justification ខណៈពេលដែលរក្សាវិស្វករជាអ្នកសម្រេចចិត្ត។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយក្រុមអភិវឌ្ឍន៍ និងវិស្វកម្មកាត់បន្ថយការខិតខំប្រឹងប្រែងដោយដៃក្នុងការឆ្លងកាត់ឯកសារទិន្នន័យ និងលក្ខណៈបច្ចេកទេសសម្រាប់សមាសធាតុដែលហួសសម័យ។ ក្រុមសន្តិសុខ និងការអនុលោមតាមច្បាប់អាចទទួលបានអត្ថប្រយោជន៍ពីការបង្កើតដោយស្វ័យប្រវត្តិនូវធាតុផ្សំផ្លូវសវនកម្មដែលស្របតាមស្តង់ដារ AS9100។",
+   "keyPoints": [
+    "ប្រព័ន្ធភ្នាក់ងារច្រើនប្រើប្រាស់ Amazon Bedrock AgentCore, Amazon Nova Multimodal Embeddings និង Strands Agents SDK។",
+    "អ្នករៀបចំផែនការបញ្ជូនការងារឆ្លងកាត់ភ្នាក់ងារឯកទេសចំនួនបីដែលគ្របដណ្តប់លើការស្វែងរកកាតាឡុក ការវាយតម្លៃ និងការទាញយកចំណេះដឹង។",
+    "ប្រព័ន្ធប្រើប្រាស់កូដ Python កំណត់សម្រាប់ការវាយតម្លៃច្បាប់អត់ឱន ដើម្បីធានាបាននូវការសម្រេចចិត្តឆ្លងកាត់ ឬដាក់ទង់ជាប់លាប់។",
+    "វិស្វករនៅតែជាអ្នកសម្រេចចិត្តចុងក្រោយ ដោយសារប្រព័ន្ធគ្រាន់តែប្រមូលផ្តុំភស្តុតាង និងសេចក្តីព្រាងឯកសារដោយមិនអនុម័តការជំនួសឡើយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Agentic engineering intelligence with Amazon Nova Multimodal Embeddings and Amazon Bedrock AgentCore",
+   "summary": "AWS 推出了一款多智能体工程助手，该助手使用 Amazon Bedrock AgentCore、Amazon Nova Multimodal Embeddings 以及开源的 Strands Agents SDK 构建，用于协助评估零部件替代方案。该系统使用规划器将工作分配给三个专业智能体，这些智能体负责搜索多模态知识库、根据确定性规则对候选对象进行评分并比较零件照片。助手负责收集证据并起草理由备忘录和集成影响评估，同时始终由工程师担任决策者。",
+   "impact": "这种方法可以帮助开发和工程团队减少交叉引用过时组件的数据表和规范的手动工作。安全和合规团队可能会受益于自动生成符合 AS9100 标准的审计追踪条目。",
+   "keyPoints": [
+    "多智能体系统使用 Amazon Bedrock AgentCore、Amazon Nova Multimodal Embeddings 和 Strands Agents SDK。",
+    "规划器将工作路由给三个专业智能体，分别负责目录搜索、评估和知识检索。",
+    "系统使用确定性的 Python 代码进行容差规则评估，以确保结果的一致性。",
+    "工程师始终是决策者，系统仅组建证据并起草文档，从不自行批准替代方案。"
+   ]
+  },
+  "ko": {
+   "title": "Agentic engineering intelligence with Amazon Nova Multimodal Embeddings and Amazon Bedrock AgentCore",
+   "summary": "AWS는 부품 대체 평가를 지원하기 위해 Amazon Bedrock AgentCore, Amazon Nova Multimodal Embeddings, 오픈 소스 Strands Agents SDK를 사용하여 구축된 멀티 에이전트 엔지니어링 어시스턴트를 소개했습니다. 이 시스템은 플래너를 사용하여 멀티모달 지식 베이스를 검색하고, 결정론적 규칙에 따라 후보를 채점하고, 부품 사진을 비교하는 세 명의 전문가 에이전트에 작업을 라우팅합니다. 어시스턴트는 증거를 수집하고 정당성 메모 및 통합 영향 평가 초안을 작성하는 동안 엔지니어가 의사 결정권자로 남도록 합니다.",
+   "impact": "이 접근 방식은 개발 및 엔지니어링 팀이 단종된 구성 요소에 대한 데이터 시트와 사양을 상호 참조하는 수동 노력을 줄이는 데 도움이 될 수 있습니다. 보안 및 규정 준수 팀은 AS9100 표준에 부합하는 감사 추적 항목의 자동 생성으로부터 이점을 얻을 수 있습니다.",
+   "keyPoints": [
+    "멀티 에이전트 시스템은 Amazon Bedrock AgentCore, Amazon Nova Multimodal Embeddings 및 Strands Agents SDK를 사용합니다.",
+    "플래너는 카탈로그 검색, 평가 및 지식 검색을 다루는 세 명의 전문가 에이전트에 작업을 라우팅합니다.",
+    "시스템은 일관된 통과 또는 플래그 판정을 보장하기 위해 허용 오차 규칙 평가를 위해 결정론적 Python 코드를 사용합니다.",
+    "시스템은 증거를 수집하고 문서를 초안할 뿐 대체품을 직접 승인하지 않으므로 엔지니어가 최종 의사 결정자로 남습니다."
+   ]
+  }
+ }
+}

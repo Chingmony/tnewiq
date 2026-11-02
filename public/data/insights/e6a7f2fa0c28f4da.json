@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e6a7f2fa0c28f4da",
+ "contentHash": "595057926194fd81",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T18:30:28.790Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI",
+   "summary": "When building Retrieval Augmented Generation applications, developers can use Amazon Bedrock Knowledge Bases to manage data ingestion, storage, indexing, and retrieval. For basic public website content, the Amazon Bedrock Web Crawler is the recommended starting point. However, sources requiring customized handling, such as removing boilerplate or attaching custom metadata, can be prepared using the open source Python crawler Crawl4AI before ingestion into Amazon S3.",
+   "impact": "Developers building RAG applications can improve answer quality by customizing how web content is filtered, structured, and tagged before it enters their knowledge base. This approach may help teams target specific page regions, manage metadata for retrieval filtering, and remove unwanted navigation elements.",
+   "keyPoints": [
+    "Amazon Bedrock Knowledge Bases manages data sources, ingestion, storage, indexing, and retrieval for RAG applications.",
+    "The Amazon Bedrock Web Crawler handles standard public website content with scheduled syncs and JavaScript support.",
+    "Crawl4AI can be used as a preparation step to write Markdown and metadata sidecars to Amazon S3 for custom processing.",
+    "Custom preparation allows for structured Markdown generation, targeted CSS selector extraction, and custom metadata attachment."
+   ]
+  },
+  "km": {
+   "title": "រៀបចំមាតិកាគេហទំព័រសម្រាប់ Amazon Bedrock Knowledge Bases ជាមួយ Crawl4AI",
+   "summary": "ពេលសាងសង់កម្មវិធី Retrieval Augmented Generation អ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់ Amazon Bedrock Knowledge Bases ដើម្បីគ្រប់គ្រងការនាំចូល ទិន្នន័យ ការផ្ទុក ការលិបិក្រម និងការទាញយក។ សម្រាប់មាតិកាគេហទំព័រសាធារណៈមូលដ្ឋាន Amazon Bedrock Web Crawler គឺជាចំណុចចាប់ផ្ដើមដែលបានណែនាំ។ ទោះជាយ៉ាងណាក៏ដោយ ប្រភពដែលត្រូវការការគ្រប់គ្រងតាមបំណងអាចត្រូវបានរៀបចំដោយប្រើប្រាស់ Crawl4AI មុនពេលនាំចូលទៅក្នុង Amazon S3។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ដែលសាងសង់កម្មវិធី RAG អាចកែលម្អគុណភាពចម្លើយដោយកែប្រែពីរបៀបដែលមាតិកាគេហទំព័រត្រូវបានត្រង រៀបចំរចនាសម្ព័ន្ធ និងដាក់ស្លាកមុនពេលវាចូលទៅក្នុងមូលដ្ឋានចំណេះដឹង។ វិធីសាស្រ្តនេះអាចជួយក្រុមការងារកំណត់គោលដៅតំបន់ទំព័រជាក់លាក់ និងគ្រប់គ្រងទិន្នន័យមេតាសម្រាប់ការត្រងការទាញយក។",
+   "keyPoints": [
+    "Amazon Bedrock Knowledge Bases គ្រប់គ្រងប្រភពទិន្នន័យ ការនាំចូល ការផ្ទុក ការលិបិក្រម និងការទាញយកសម្រាប់កម្មវិធី RAG។",
+    "Amazon Bedrock Web Crawler គ្រប់គ្រងមាតិកាគេហទំព័រសាធារណៈស្តង់ដារជាមួយការធ្វើសមកាលកម្មតាមកាលវិភាគ។",
+    "Crawl4AI អាចត្រូវបានប្រើជាជំហានរៀបចំដើម្បីសរសេរឯកសារ Markdown និងទិន្នន័យមេតាទៅកាន់ Amazon S3។",
+    "ការរៀបចំតាមបំណងអនុញ្ញាតឱ្យបង្កើត Markdown មានរចនាសម្ព័ន្ធ ការទាញយកតាមឧបករណ៍ជ្រើសរើស CSS និងការភ្ជាប់ទិន្នន័យមេតាផ្ទាល់ខ្លួន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 Crawl4AI 为 Amazon Bedrock Knowledge Bases 准备网页内容",
+   "summary": "在构建检索增强生成应用程序时，开发者可以使用 Amazon Bedrock Knowledge Bases 来管理数据摄取、存储、索引和检索。对于基本的公共网站内容，Amazon Bedrock Web Crawler 是推荐的起点。然而，对于需要定制处理（如删除样板文件或附加自定义 metadata）的源材料，可以在摄取到 Amazon S3 之前使用开源 Python 爬虫 Crawl4AI 进行准备。",
+   "impact": "构建 RAG 应用程序的开发者可以通过自定义网页内容在进入知识库之前的过滤、结构化和标记方式来提高答案质量。这种方法可能有助于团队针对特定页面区域、管理检索过滤的 metadata 以及删除不需要的导航元素。",
+   "keyPoints": [
+    "Amazon Bedrock Knowledge Bases 为 RAG 应用程序管理数据源、摄取、存储、索引和检索。",
+    "Amazon Bedrock Web Crawler 通过计划同步和 JavaScript 支持处理标准公共网站内容。",
+    "Crawl4AI 可用作准备步骤，将 Markdown 和 metadata 边车写入 Amazon S3 以进行自定义处理。",
+    "自定义准备允许进行结构化的 Markdown 生成、有针对性的 CSS 选择器提取和自定义 metadata 附加。"
+   ]
+  },
+  "ko": {
+   "title": "Crawl4AI를 사용하여 Amazon Bedrock Knowledge Bases용 웹 콘텐츠 준비",
+   "summary": "Retrieval Augmented Generation 애플리케이션을 구축할 때 개발자는 Amazon Bedrock Knowledge Bases를 사용하여 데이터 수집, 저장, 색인화 및 검색을 관리할 수 있습니다. 기본 공개 웹사이트 콘텐츠의 경우 Amazon Bedrock Web Crawler가 권장되는 시작점입니다. 그러나 상용구 제거 또는 사용자 지정 메타데이터 연결과 같은 맞춤형 처리가 필요한 소스의 경우 Amazon S3로 수집하기 전에 오픈 소스 Python 크롤러인 Crawl4AI를 사용하여 준비할 수 있습니다.",
+   "impact": "RAG 애플리케이션을 구축하는 개발자는 웹 콘텐츠가 지식 베이스에 들어가기 전에 필터링, 구조화 및 태그 지정되는 방식을 사용자 지정하여 답변 품질을 향상시킬 수 있습니다. 이 접근 방식은 팀이 특정 페이지 영역을 타겟팅하고, 검색 필터링을 위한 메타데이터를 관리하고, 원치 않는 탐색 요소를 제거하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "Amazon Bedrock Knowledge Bases는 RAG 애플리케이션을 위한 데이터 소스, 수집, 저장, 색인화 및 검색을 관리합니다.",
+    "Amazon Bedrock Web Crawler는 예약된 동기화 및 JavaScript 지원을 통해 표준 공개 웹사이트 콘텐츠를 처리합니다.",
+    "Crawl4AI는 Markdown 및 메타데이터 사이드카를 Amazon S3에 기록하여 사용자 지정 처리를 수행하는 준비 단계로 사용할 수 있습니다.",
+    "사용자 지정 준비를 통해 구조화된 Markdown 생성, 타겟팅된 CSS 선택기 추출 및 사용자 지정 메타데이터 첨부가 가능합니다."
+   ]
+  }
+ }
+}

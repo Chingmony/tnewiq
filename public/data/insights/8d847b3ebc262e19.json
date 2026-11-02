@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8d847b3ebc262e19",
+ "contentHash": "575eba7802020743",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-02T18:34:39.236Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Stop counting tokens, start counting what ships",
+   "summary": "AI coding agents perform multiple steps like planning, coding, and testing, consuming significantly more tokens than basic chat prompts. Per-token pricing makes these high-value workflows increasingly expensive, prompting companies to look at alternative metrics. Instead of tracking token consumption or imposing blanket caps, organizations are advised to measure cost per merged pull request and quality metrics. Addressing these costs involves routing tasks based on model complexity and shifting toward owned capacity for routine work.",
+   "impact": "Developers and security teams may need to adopt hybrid routing gateways and evaluate open-weight models to control escalating AI costs without blocking productivity. Technology users could see changes in how AI capacity is allocated and managed within their enterprises.",
+   "keyPoints": [
+    "AI coding agents can use 10 to 50 times more tokens than basic chat prompts by repeating processes to correct errors.",
+    "Gartner predicts AI coding token costs could surpass average developer salaries by 2028.",
+    "A better performance metric is cost per merged pull request, tracked alongside rework and defect rates.",
+    "Routing routine tasks to open-weight models on-premises can reduce token costs significantly, as demonstrated by HPE."
+   ]
+  },
+  "km": {
+   "title": "ឈប់គិតពីតូខេន ងាកមកគិតពីលទ្ធផលផលិតផលដែលបានបញ្ចេញវិញ",
+   "summary": "ភ្នាក់ងារសរសេរកូដ AI អនុវត្តជំហានជាច្រើនដូចជាការរៀបចំផែនការ សរសេរកូដ និងការធ្វើតេស្ត ដែលប្រើប្រាស់តូខេនច្រើនជាងការជជែកធម្មតា។ ការកំណត់តម្លៃតាមតូខេនធ្វើឱ្យលំហូរការងារដែលមានតម្លៃទាំងនេះកាន់តែមានតម្លៃថ្លៃ ដែលជំរុញឱ្យក្រុមហ៊ុននានាស្វែងរកវិធានការវាស់វែងផ្សេងទៀត។ ជំនួសឱ្យការតាមដានការប្រើប្រាស់តូខេន អង្គភាពនានាត្រូវបានណែនាំឱ្យវាស់វែងថ្លៃដើមក្នុងមួយការបញ្ចូលសំណើច្របាច់បញ្ចូលគ្នា និងរង្វាស់គុណភាព។ ការដោះស្រាយការចំណាយទាំងនេះពាក់ព័ន្ធនឹងការបញ្ជូនបន្តកិច្ចការដោយផ្អែកលើភាពស្មុគស្មាញរបស់ម៉ូដែល និងការផ្លាស់ប្តូរឆ្ពោះទៅរកសមត្ថភាពគ្រប់គ្រងផ្ទាល់ខ្លួនសម្រាប់កិច្ចការទម្លាប់។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងសន្តិសុខអាចចាំបាច់ត្រូវអនុម័តច្រកទ្វារបញ្ជូនបន្តកូនកាត់ និងវាយតម្លៃម៉ូដែលដែលមានទម្ងន់បើកចំហ ដើម្បីគ្រប់គ្រងការចំណាយ AI ដែលកើនឡើងដោយមិនរារាំងផលិតភាព។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចឃើញការផ្លាស់ប្តូរក្នុងការបែងចែក និងគ្រប់គ្រងសមត្ថភាព AI នៅក្នុងសហគ្រាសរបស់ពួកគេ។",
+   "keyPoints": [
+    "ភ្នាក់ងារសរសេរកូដ AI អាចប្រើប្រាស់តូខេនច្រើនជាងការជជែកធម្មតាពី ១០ ទៅ ៥០ ដងតាមរយៈការធ្វើម្តងទៀតដើម្បីកែតម្រូវកំហុស។",
+    "Gartnerព្យាករណ៍ថាថ្លៃដើមតូខេនសរសេរកូដAIអាចលើសពីប្រាក់ខែជាមធ្យមរបស់អ្នកអភិវឌ្ឍន៍នៅឆ្នាំ២០២៨។",
+    "រង្វាស់ដំណើរការที่ดีជាងគឺថ្លៃដើមក្នុងមួយសំណើច្របាច់បញ្ចូលគ្នាដែលបានបញ្ចូលគ្នា ដោយតាមដានជាមួយអត្រាការងារឡើងវិញនិងពិការភាព។",
+    "ការបញ្ជូនកិច្ចការទម្លាប់ទៅកាន់ម៉ូដែលទម្ងន់បើកចំហក្នុងទីតាំងផ្ទាល់អាចកាត់បន្ថយថ្លៃដើមតូខេនយ៉ាងច្រើន ដូចដែលបានបង្ហាញដោយHPE។"
+   ]
+  },
+  "zh-CN": {
+   "title": "停止计算Token，开始关注实际交付的产品",
+   "summary": "AI编码代理执行规划、生成代码、运行测试和修复错误等多步流程，消耗的Token数量比基本聊天提示词多出10到50倍。按Token计费使这些高价值工作流程变得极其昂贵，促使企业寻找替代指标。建议组织不再仅仅追踪Token消耗或施加一刀切的限制，而是衡量每个合并拉取请求的成本以及质量指标。应对这些成本的方法包括根据模型复杂度分流任务，并在常规工作转向自有算力。",
+   "impact": "开发人员和安全团队可能需要采用混合路由网关并评估开源权重模型，以便在不阻碍生产力的同时控制不断上升的AI成本。技术用户可能会看到其企业内部AI算力分配和管理方式发生变化。",
+   "keyPoints": [
+    "AI编码代理通过重复流程以纠正错误，其消耗的Token可能是基本聊天提示词的10到50倍。",
+    "Gartner预测，到2028年，AI编码Token成本可能会超过平均开发人员薪资。",
+    "一个更好的绩效指标是每个合并拉取请求的成本，并结合返工和缺陷率一同追踪。",
+    "将常规工作路由至本地运行的开源权重模型可以显着降低Token成本，HPE的实践证明了这一点。"
+   ]
+  },
+  "ko": {
+   "title": "토큰 세기를 멈추고 실제 배포되는 결과물을 측정하세요",
+   "summary": "AI 코딩 에이전트는 계획, 코드 생성, 테스트 실행 및 오류 수정 과정을 반복하면서 기본 채팅 프롬프트보다 10배에서 50배 더 많은 토큰을 사용합니다. 토큰당 가격 책정 방식으로 인해 가치 있는 워크플로가 매우 비용이 많이 드는 구조가 되면서 기업들은 대안 지표를 찾고 있습니다. 토큰 소비량을 추적하거나 일률적인 제한을 두는 대신, 병합된 풀 리퀘스트당 비용과 품질 지표를 측정하는 것이 권장됩니다. 이러한 비용을 해결하기 위해 모델 복잡성에 따라 작업을 라우팅하고 일상적인 작업에 대해 자체 보유 용량으로 전환하는 방법이 제시됩니다.",
+   "impact": "개발자와 보안 팀은 생산성을 저해하지 않으면서 급증하는 AI 비용을 통제하기 위해 하이브리드 라우팅 게이트웨이를 도입하고 오픈 웨이트 모델을 평가해야 할 수 있습니다. 기술 사용자들은 기업 내 AI 용량이 할당되고 관리되는 방식의 변화를 경험할 수 있습니다.",
+   "keyPoints": [
+    "AI 코딩 에이전트는 오류를 수정하기 위해 프로세스를 반복하면서 기본 채팅 프롬프트보다 10배에서 50배 많은 토큰을 사용할 수 있습니다.",
+    "가트너(Gartner)는 2028년까지 AI 코딩 토큰 비용이 평균 개발자 급여를 초과할 수 있다고 예측합니다.",
+    "더 나은 성과 지표는 재작업 및 결함률과 함께 추적되는 병합된 풀 리퀘스트당 비용입니다.",
+    "HPE가 입증한 바와 같이, 온프레미스에서 실행되는 오픈 웨이트 모델로 일상적인 작업을 라우팅하면 토큰 비용을 크게 줄일 수 있습니다."
+   ]
+  }
+ }
+}
