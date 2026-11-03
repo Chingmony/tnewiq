@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "903beca356366dc7",
+ "contentHash": "e56eb2a06357b4fa",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-03T01:45:31.737Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Connect Customer now supports Cases and External Tool events in the Wait block",
+   "summary": "Amazon Connect Customer has added support for Cases and External Tool events within its Wait block. Users can now configure flows to wait until a Connect Case field meets a specified condition or an External Tool invocation finishes. This update provides greater control over real-time data changes in customer experience flows.",
+   "impact": "This feature could help developers and administrators reduce unnecessary transfers and save time by holding interactions until critical information, such as updated refund statuses, is available. It may also allow flows to automatically resume and route interactions based on specific outcomes.",
+   "keyPoints": [
+    "Wait block now supports Cases and External Tool events.",
+    "Users can wait until a Connect Case field meets a condition or an External Tool invocation completes.",
+    "Enables holding flows until critical data like refund statuses are updated."
+   ]
+  },
+  "km": {
+   "title": "Amazon Connect Customer ឥឡូវនេះគាំទ្រព្រឹត្តិការណ៍ Cases និង External Tool នៅក្នុង Wait block",
+   "summary": "Amazon Connect Customer បានបន្ថែមការគាំទ្រសម្រាប់ព្រឹត្តិការណ៍ Cases និង External Tool នៅក្នុង Wait block របស់ខ្លួន។ អ្នកប្រើប្រាស់ឥឡូវនេះអាចកំណត់រចនាសម្ព័ន្ធលំហូរដើម្បីរង់ចាំរហូតដល់វាល Connect Case បំពេញតាមលក្ខខណ្ឌជាក់លាក់ ឬការហៅ External Tool បញ្ចប់។ ការអាប់ដេតនេះផ្តល់នូវការគ្រប់គ្រងកាន់តែប្រសើរឡើងលើការផ្លាស់ប្តូរទិន្នន័យពេលវេលាជាក់ស្តែងនៅក្នុងលំហូរបទពិសោធន៍អតិថិជន។",
+   "impact": "លក្ខណៈពិសេសនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកគ្រប់គ្រងកាត់បន្ថយការផ្ទេរដែលមិនចាំបាច់និងសន្សំសំចៃពេលវេលាដោយសង្កត់ការអន្តរកម្មរហូតដល់ព័ត៌មានសំខាន់ៗត្រូវបានរកឃើញ។ វាក៏អាចអនុញ្ញាតឱ្យលំហូរចាប់ផ្តើមឡើងវិញដោយស្វ័យប្រវត្តនិងបញ្ជូនអន្តរកម្មផ្អែកលើលទ្ធផលផងដែរ។",
+   "keyPoints": [
+    "Wait block ឥឡូវនេះគាំទ្រព្រឹត្តិការណ៍ Cases និង External Tool ។",
+    "អ្នកប្រើប្រាស់អាចរង់ចាំរហូតដល់វាល Connect Case បំពេញតាមលក្ខខណ្ឌឬការហៅ External Tool បញ្ចប់។",
+    "អនុញ្ញាតឱ្យរង់ចាំទិន្នន័យសំខាន់ៗដូចជាស្ថានភាពសងប្រាក់វិញមុនពេលបន្តលំហូរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Connect Customer 的 Wait block 现在支持 Cases 和 External Tool 事件",
+   "summary": "Amazon Connect Customer 在其 Wait block 中新增了对 Cases 和 External Tool 事件的支持。用户现在可以配置流程，等待 Connect Case 字段满足特定条件或 External Tool 调用完成。此更新让用户能够更好地控制客户体验流程中的实时数据变化。",
+   "impact": "此功能可以帮助开发人员和管理员减少不必要的转接并节省时间，在获取关键信息之前暂停交互。它还可能允许流程根据特定结果自动恢复和路由交互。",
+   "keyPoints": [
+    "Wait block 现在支持 Cases 和 External Tool 事件。",
+    "用户可以等待 Connect Case 字段满足条件或 External Tool 调用完成。",
+    "允许在退款状态等关键信息更新前暂挂交互流程。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Connect Customer, Wait block에서 Cases 및 External Tool 이벤트 지원 추가",
+   "summary": "Amazon Connect Customer는 Wait block 내에서 Cases 및 External Tool 이벤트에 대한 지원을 추가했습니다. 사용자는 Connect Case 필드가 지정된 조건을 충족하거나 External Tool 호출이 완료될 때까지 대기하도록 흐름을 구성할 수 있습니다. 이 업데이트를 통해 고객 경험 흐름의 실시간 데이터 변경에 대한 제어력이 향상되었습니다.",
+   "impact": "이 기능은 개발자와 관리자가 불필요한 전송을 줄이고 시간을 절약하는 데 도움을 줄 수 있으며, 환불 상태와 같은 중요 정보를 확보할 때까지 상호 작용을 보류할 수 있게 합니다. 또한 특정 결과에 따라 상호 작용을 자동으로 재개하고 라우팅하는 데 기여할 수 있습니다.",
+   "keyPoints": [
+    "Wait block에서 Cases 및 External Tool 이벤트 지원.",
+    "Connect Case 필드가 조건을 충족하거나 External Tool 호출이 완료될 때까지 대기 가능.",
+    "중요 정보가 업데이트될 때까지 상호 작용 흐름을 보류하여 불필요한 전송 방지."
+   ]
+  }
+ }
+}

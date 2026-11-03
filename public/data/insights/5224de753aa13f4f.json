@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5224de753aa13f4f",
+ "contentHash": "631e1cc31e7c09c1",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-03T01:40:47.325Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon RDS for Oracle now supports M8i and R8i instances in additional AWS Regions",
+   "summary": "Amazon Relational Database Service for Oracle now supports M8i and R8i instances in several new AWS Regions. M8i and R8i instances are now available in Asia Pacific (New Zealand) and Canada West (Calgary), while R8i instances are additionally available in Europe (Milan, Stockholm, and Zurich) and Israel (Tel Aviv). These instances utilize custom Intel Xeon 6 processors to provide improved price-performance and memory bandwidth compared to prior generations. They are available under the Bring Your Own License model for Oracle Database Enterprise Edition and Oracle Database Standard Edition 2.",
+   "impact": "Developers and database administrators managing Oracle workloads may benefit from higher performance and expanded regional deployment options. Teams could experience up to 15 percent better price-performance and increased memory bandwidth when migrating to these new instance types.",
+   "keyPoints": [
+    "M8i and R8i instances are now available in Asia Pacific (New Zealand) and Canada West (Calgary).",
+    "R8i instances are now available in Europe (Milan, Stockholm, Zurich) and Israel (Tel Aviv).",
+    "Instances are powered by custom Intel Xeon 6 processors offering 2.5x more memory bandwidth.",
+    "Available for Oracle Database Enterprise Edition and Standard Edition 2 using the Bring Your Own License model."
+   ]
+  },
+  "km": {
+   "title": "Amazon RDS for Oracle ឥឡូវនេះគាំទ្រប្រភេទគំរូ M8i និង R8i នៅក្នុងតំបន់ AWS បន្ថែមទៀត",
+   "summary": "សេវាកម្មមូលដ្ឋានទិន្នន័យទំនាក់ទំនង Amazon សម្រាប់ Oracle ឥឡូវនេះគាំទ្រប្រភេទគំរូ M8i និង R8i នៅក្នុងតំបន់ AWS បន្ថែម។ ប្រភេទគំរូទាំងពីរនេះមាននៅលើតំបន់អាស៊ីប៉ាស៊ីហ្វិក (នូវែលសេឡង់) និងកាណាដាខាងលិច (Calgary) ហើយ R8i មាននៅលើតំបន់អឺរ៉ុប (មីឡាន ស្ដុកខុល និងស៊ុយរិច) និងអ៊ីស្រាអែល (តេល៉ាអាវីវ)។ ប្រភេទគំរូទាំងនេះដំណើរការដោយខួរក្បាលកុំព្យូទ័រ Intel Xeon 6 ផ្ទាល់ខ្លួន ដែលផ្ដល់នូវដំណើរការខ្ពស់និងកម្រិតបញ្ជូនអង្គចងចាំលឿនជាងមុន។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យាអាចទទួលបានអត្ថប្រយោជន៍ពីដំណើរការប្រសើរជាងមុន និងជម្រើសនៃការដាក់ពង្រាយក្នុងតំបន់កាន់តែទូលំទូលាយ។ ការប្រើប្រាស់ប្រភេទគំរូថ្មីទាំងនេះអាចជួយបង្កើនប្រសិទ្ធភាពតម្លៃនិងការអនុវត្តការងារ។",
+   "keyPoints": [
+    "ប្រភេទគំរូ M8i និង R8i ឥឡូវនេះមាននៅតំបន់អាស៊ីប៉ាស៊ីហ្វិក (នូវែលសេឡង់) និងកាណាដាខាងលិច (Calgary)។",
+    "ប្រភេទគំរូ R8i បន្ថែមមាននៅអឺរ៉ុប និងអ៊ីស្រាអែល។",
+    "ដំណើរការដោយខួរក្បាលកុំព្យូទ័រ Intel Xeon 6 ផ្ទាល់ខ្លួន។",
+    "អាចប្រើប្រាស់បានក្រោមម៉ូដែលអាជ្ញាប័ណ្ណផ្ទាល់ខ្លួនសម្រាប់ Oracle Database Enterprise Edition និង Standard Edition 2។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon RDS for Oracle 现已在更多 AWS 区域支持 M8i 和 R8i 实例",
+   "summary": "Amazon Relational Database Service for Oracle 现已在更多 AWS 区域支持 M8i 和 R8i 实例。M8i 和 R8i 实例现已在亚太地区（新西兰）和加拿大西部（卡尔加里）推出，R8i 实例还可在欧洲（米兰、斯德哥尔摩和苏黎世）以及以色列（特拉维夫）使用。这些实例由定制的 Intel Xeon 6 处理器驱动，可提供更高的性能和更快的主内存带宽。它们适用于 Oracle Database Enterprise Edition 和 Oracle Database Standard Edition 2 的自带许可模式。",
+   "impact": "开发人员和数据库管理员在部署 Oracle 工作负载时可以获得更高的性能和更多的区域选择。迁移到这些新实例可能会带来更好的性价比和显著增加的内存带宽。",
+   "keyPoints": [
+    "M8i 和 R8i 实例现已在亚太地区（新西兰）和加拿大西部（卡尔加里）推出。",
+    "R8i 实例现已在欧洲多地及以色列（特拉维夫）推出。",
+    "采用定制的 Intel Xeon 6 处理器，提供更高的性价比和内存带宽。",
+    "适用于 Oracle Database Enterprise Edition 和 Standard Edition 2 的自带许可模式。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon RDS for Oracle, 추가 AWS 리전에서 M8i 및 R8i 인스턴스 지원",
+   "summary": "Amazon Relational Database Service for Oracle이 이제 추가 AWS 리전에서 M8i 및 R8i 인스턴스를 지원합니다. M8i 및 R8i 인스턴스는 이제 아시아 태평양(뉴질랜드) 및 캐나다 서부(캘거리)에서 사용할 수 있으며, R8i 인스턴스는 유럽(밀라노, 스톡홀름, 취리히) 및 이스라엘(텔아비브)에서도 사용할 수 있습니다. 이 인스턴스는 맞춤형 Intel Xeon 6 프로세서로 구동되어 향상된 가격 대비 성능과 메모리 대역폭을 제공합니다. Oracle Database Enterprise Edition 및 Standard Edition 2에 대한 라이선스 가져오기 모델로 제공됩니다.",
+   "impact": "개발자와 보안 팀은 새로운 인스턴스 유형을 통해 향상된 성능과 더 넓어진 리전 선택의 폭을 활용할 수 있습니다. 이전 세대 대비 가격 대비 성능과 메모리 대역폭이 개선되어 데이터베이스 워크로드 운영에 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "M8i 및 R8i 인스턴스가 아시아 태평양(뉴질랜드) 및 캐나다 서부(캘거리) 리전에 추가됨.",
+    "R8i 인스턴스가 유럽 및 이스라엘 리전에 추가됨.",
+    "맞춤형 Intel Xeon 6 프로세서를 탑재하여 향상된 성능 제공.",
+    "Oracle Database Enterprise Edition 및 Standard Edition 2의 라이선스 가져오기 모델 지원."
+   ]
+  }
+ }
+}

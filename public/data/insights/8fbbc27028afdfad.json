@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8fbbc27028afdfad",
+ "contentHash": "c61bdc80e5af976d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-03T01:41:08.012Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "llm 0.37",
+   "summary": "Simon Willison has released version 0.37 of his LLM command-line interface tool and Python library, featuring two months of accumulated updates. The release introduces new models like gpt-6.1-sol and gpt-6.1-terra, alongside a new llm openai endpoint add command. The default model has been changed to gpt-6-luna at half the price of the previous gpt-5.6-luna default. Additionally, embedding support now handles various content types for models such as Gemini Embedding 2.",
+   "impact": "Developers using the LLM tool may benefit from easier configuration of OpenAI-compatible endpoints, cheaper default model pricing, and broader content-type handling for embeddings. Security teams and developers could also note how AI-assisted pull requests and triage using models like Opus 5.5 and GPT-6 Astra were handled for project maintenance.",
+   "keyPoints": [
+    "Added gpt-6.1-sol and gpt-6.1-terra models.",
+    "Introduced the llm openai endpoint add command for configuring OpenAI-compatible endpoints.",
+    "Switched the default model to gpt-6-luna.",
+    "Updated embeddings support to handle multiple content types for Gemini Embedding 2."
+   ]
+  },
+  "km": {
+   "title": "llm 0.37",
+   "summary": "Simon Willison បានចេញផ្សាយកំណែ 0.37 នៃឧបករណ៍ LLM CLI និងបណ្ណាល័យ Python ដែលនាំមកនូវមុខងារ និងការកែសម្រួលថ្មីៗ។ ការចេញផ្សាយនេះបានបន្ថែមម៉ូឌែល gpt-6.1-sol និង gpt-6.1-terra ព្រមទាំងបញ្ជា llm openai endpoint add ថ្មី។ ម៉ូឌែលលំនាំដើមត្រូវបានប្តូរទៅ gpt-6-luna ដែលមានតម្លៃពាក់កណ្តាលនៃម៉ូឌែលមុន។",
+   "impact": "អ្នកអភិវឌ្ឍន៍អាចទទួលបានផលចំណេញពីការកំណត់រចនាសម្ព័ន្ធកាន់តែងាយស្រួល និងតម្លៃម៉ូឌែលលំនាំដើមដែលមានតម្លៃថោកជាងមុន។ ការប្រើប្រាស់ជំនួយពី AI ក្នុងការពិនិត្យសំណើក៏អាចជាគំរូមួយសម្រាប់អ្នកថែទាំគម្រោងផងដែរ។",
+   "keyPoints": [
+    "បានបន្ថែមម៉ូឌែល gpt-6.1-sol និង gpt-6.1-terra។",
+    "បានបន្ថែមបញ្ជា llm openai endpoint add ។",
+    "បានប្តូរម៉ូឌែលលំនាំដើមទៅ gpt-6-luna។",
+    "បានអាប់ដេតការគាំទ្រ embedding សម្រាប់ប្រភេទមាតិកាផ្សេងៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "llm 0.37",
+   "summary": "Simon Willison 发布了他的 LLM 命令行工具和 Python 库的 0.37 版本，包含了约两个月的新功能和修复。该版本添加了 gpt-6.1-sol 和 gpt-6.1-terra 模型，并引入了一个新的 llm openai endpoint add 命令来简化配置。默认模型已切换为 gpt-6-luna，价格是前一个默认模型 gpt-5.6-luna 的一半。",
+   "impact": "开发者可以受益于更简便的 OpenAI 兼容端点配置、更便宜的默认模型价格以及对多种内容类型的嵌入支持。同时，使用 AI 协助分类和处理合并请求的经验也为开源维护提供了参考。",
+   "keyPoints": [
+    "添加了 gpt-6.1-sol 和 gpt-6.1-terra 模型。",
+    "新增了 llm openai endpoint add 命令。",
+    "将默认模型切换为 gpt-6-luna。",
+    "嵌入功能现在可接受不同的二进制内容类型以支持 Gemini Embedding 2。"
+   ]
+  },
+  "ko": {
+   "title": "llm 0.37",
+   "summary": "Simon Willison이 LLM CLI 도구 및 Python 라이브러리의 0.37 버전을 출시했습니다. 이번 릴리스에는 gpt-6.1-sol 및 gpt-6.1-terra 모델 추가와 OpenAI 호환 엔드포인트 설정을 돕는 새로운 llm openai endpoint add 명령어 등이 포함되어 있습니다. 기본 모델은 이전 기본값의 절반 가격인 gpt-6-luna로 변경되었습니다.",
+   "impact": "개발자들은 OpenAI 호환 엔드포인트의 더 쉬운 설정과 저렴해진 기본 모델 가격의 혜택을 받을 수 있습니다. 또한 AI를 활용한 풀 리퀘스트 분류 및 검토 방식은 오픈소스 프로젝트 관리 방식에 시사점을 줄 수 있습니다.",
+   "keyPoints": [
+    "gpt-6.1-sol 및 gpt-6.1-terra 모델 추가.",
+    "llm openai endpoint add 명령어 신설.",
+    "기본 모델을 gpt-6-luna로 변경.",
+    "Gemini Embedding 2 등을 위한 임베딩 지원 업데이트."
+   ]
+  }
+ }
+}

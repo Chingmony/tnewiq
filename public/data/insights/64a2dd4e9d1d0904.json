@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "64a2dd4e9d1d0904",
+ "contentHash": "d02c3f7395cbe18a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-03T01:43:57.290Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon RDS now supports per snapshot billing",
+   "summary": "Amazon RDS now offers per snapshot billing, allowing users to track the cost of each individual snapshot rather than seeing only an aggregate view at the database instance level. Users can apply cost allocation tags to their snapshots to track backup spending and budgets more precisely. This feature is enabled by default at no additional charge for all Amazon RDS engines across all commercial and AWS GovCloud (US) Regions.",
+   "impact": "This update could help developers and finance teams better manage and allocate their backup expenditures by providing granular cost visibility. Security teams and administrators may also find it easier to track compliance and data retention costs per snapshot.",
+   "keyPoints": [
+    "Per snapshot billing provides the cost of each individual Amazon RDS snapshot.",
+    "Previously, charges were only visible in aggregate at the database instance level on Cost and Usage reports and Cost Explorer.",
+    "Cost allocation tags can be used on snapshots to understand backup spend and budgets.",
+    "The feature is enabled by default at no additional charge across all commercial and AWS GovCloud (US) Regions."
+   ]
+  },
+  "km": {
+   "title": "Amazon RDS ឥឡូវនេះគាំទ្រការគិតថ្លៃតាម snapshot នីមួយៗ",
+   "summary": "Amazon RDS ឥឡូវនេះផ្តល់ជូននូវការគិតថ្លៃតាម snapshot នីមួយៗ ដែលអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ដឹងពីតម្លៃរបស់ snapshot នីមួយៗជំនួសឱ្យការមើលឃើញតែទិដ្ឋភាពសរុបនៅកម្រិត database instance ។ អ្នកប្រើប្រាស់អាចប្រើស្លាកបែងចែកថ្លៃដើមនៅលើ snapshots ដើម្បីមើលការចំណាយលើការបម្រុងទុកកាន់តែច្បាស់។ លក្ខណៈពិសេសនេះត្រូវបានបើកដំណើរការដោយស្វ័យប្រវត្តិដោយមិនគិតថ្លៃបន្ថែមនៅលើគ្រប់ commercial AWS Regions និង AWS GovCloud (US) Regions ។",
+   "impact": "ការអាប់ដេតនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍និងក្រុមហិរញ្ញវត្ថុគ្រប់គ្រងនិងបែងចែកការចំណាយលើការបម្រុងទុកបានប្រសើរជាងមុនតាមរយៈទិដ្ឋភាពថ្លៃដើមលម្អិត។ វាក៏អាចជួយឱ្យអ្នកប្រើប្រាស់យល់កាន់តែច្បាស់អំពីថវិកាสำรองទិន្នន័យផងដែរ។",
+   "keyPoints": [
+    "ការគិតថ្លៃតាម snapshot នីមួយៗអនុញ្ញាតឱ្យដឹងពីតម្លៃរបស់ Amazon RDS snapshot នីមួយៗ។",
+    "ពីមុន ការគិតថ្លៃត្រូវបានដាក់បញ្ចូលគ្នានៅកម្រិត database instance ក្នុង Cost and Usage report និង Cost Explorer ។",
+    "ស្លាកបែងចែកថ្លៃដើមអាចត្រូវបានប្រើនៅលើ snapshots ដើម្បីតាមដានការចំណាយលើការបម្រុងទុក។",
+    "លក្ខណៈពិសេសនេះត្រូវបានបើកដោយស្វ័យប្រវត្តិដោយគ្មានថ្លៃបន្ថែមសម្រាប់គ្រប់ Amazon RDS engines ទាំងអស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon RDS 现已支持按单独快照计费",
+   "summary": "Amazon RDS 现在支持对 Amazon RDS 快照进行按快照计费，允许用户获取每个单独快照的成本。此前，RDS 快照费用在成本和使用情况报告以及成本资源管理器中按数据库实例级别进行汇总。现在，用户可以在快照上使用成本分配标签，准确了解每个快照的费用，从而更好地了解备份支出和预算。按快照计费默认启用且不收取额外费用，适用于所有商业 AWS 区域和 AWS GovCloud (US) 区域的所有 Amazon RDS 引擎。",
+   "impact": "这项更新可以帮助开发人员和财务团队通过更精细的成本可见性来更好地管理和分配备份开支。技术用户和管理人员也可以利用成本分配标签更精准地监控预算。",
+   "keyPoints": [
+    "按快照计费允许用户获取每个单独快照的确切成本。",
+    "此前费用仅在成本和使用情况报告中按数据库实例级别以汇总形式显示。",
+    "用户可以在快照上使用成本分配标签来查看具体的备份支出。",
+    "该功能默认在所有商业和 AWS GovCloud (US) 区域的所有 Amazon RDS 引擎上免费启用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon RDS, 이제 스냅샷별 청구 지원",
+   "summary": "Amazon RDS는 이제 Amazon RDS 스냅샷에 대한 스냅샷별 청구를 지원하여 개별 스냅샷의 비용을 확인할 수 있도록 합니다. 이전에 RDS 스냅샷 요금은 비용 및 사용량 보고서와 비용 탐색기에서 데이터베이스 인스턴스 수준으로 집계되었습니다. 이제 스냅샷에 비용 할당 태그를 사용하여 각 스냅샷의 정확한 비용을 파악함으로써 백업 지출과 예산을 더 잘 이해할 수 있습니다. 스냅샷별 청구는 추가 비용 없이 모든 상용 AWS 리전 및 AWS GovCloud (US) 리전의 모든 Amazon RDS 엔진에서 기본적으로 활성화됩니다.",
+   "impact": "이번 업데이트를 통해 개발자와 재무 팀은 세부적인 비용 가시성을 확보하여 백업 지출을 더 효과적으로 관리하고 할당할 수 있습니다. 기술 사용자들은 백업 예산을 더 정확하게 추적하고 분석하는 데 도움을 받을 수 있습니다.",
+   "keyPoints": [
+    "스냅샷별 청구를 통해 각 개별 스냅샷의 비용을 확인할 수 있습니다.",
+    "기존에는 비용 및 사용량 보고서와 Cost Explorer에서 데이터베이스 인스턴스 수준으로만 요금이 집계되었습니다.",
+    "스냅샷에 비용 할당 태그를 사용하여 백업 지출과 예산을 정확히 파악할 수 있습니다.",
+    "이 기능은 추가 비용 없이 모든 상용 및 AWS GovCloud (US) 리전의 RDS 엔진에서 기본 활성화됩니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ffd68c265483a73e",
+ "contentHash": "7e98abf8c51dc9ed",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-03T01:45:01.001Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Aurora MySQL 3.14 (compatible with MySQL 8.0.46) is generally available",
+   "summary": "Amazon Aurora MySQL-Compatible Edition 3 now supports MySQL 8.0.46 through the release of Aurora MySQL 3.14. The update includes community MySQL fixes, Aurora-specific improvements, and support for post-quantum TLS key exchange. Users can upgrade their databases during scheduled maintenance windows or through automatic minor version upgrades.",
+   "impact": "This release could help users enhance data encryption in-transit by utilizing post-quantum cryptography options. Developers and database administrators may also benefit from using AWS Organizations Upgrade Rollout Policy to orchestrate upgrades across clusters in phases.",
+   "keyPoints": [
+    "Aurora MySQL 3.14 is compatible with MySQL 8.0.46.",
+    "Introduces support for post-quantum TLS key exchange.",
+    "Available in all AWS Regions where Aurora MySQL is offered.",
+    "Upgrades can be performed in-place, via snapshot restore, or automatic minor version upgrades."
+   ]
+  },
+  "km": {
+   "title": "Amazon Aurora MySQL 3.14 (ដែលឆបគ្នាជាមួយ MySQL 8.0.46) ឥឡូវនេះមានជាទូទៅហើយ",
+   "summary": "Amazon Aurora MySQL-Compatible Edition 3 ឥឡូវនេះគាំទ្រ MySQL 8.0.46 តាមរយៈការដាក់ឱ្យចេញនូវ Aurora MySQL 3.14 ដែលរួមមានការជួសជុលពីសហគមន៍ MySQL និងការកែលម្អជាក់លាក់របស់ Aurora។ ការអាប់ដេតនេះក៏ណែនាំការគាំទ្រសម្រាប់ការផ្លាស់ប្តូរគន្លឹះ post-quantum TLS ផងដែរ។ អ្នកប្រើប្រាស់អាចអាប់ដេតមូលដ្ឋានទិន្នន័យរបស់ពួកគេក្នុងអំឡុងពេលបង្អួចថែទាំដែលបានកំណត់ពេល។",
+   "impact": "ការចេញផ្សាយនេះអាចជួយអ្នកប្រើប្រាស់ពង្រឹងការគ្របដណ្តប់ទិន្នន័យក្នុងពេលបញ្ជូនដោយប្រើប្រាស់ជម្រើសគ្រីបតូកូដសាស្ត្រ post-quantum ។ ក្រុមការងារបច្ចេកវិទ្យាក៏អាចប្រើប្រាស់គោលការណ៍រៀបចំការអាប់ដេតរបស់ AWS Organizations ដើម្បីគ្រប់គ្រងការអាប់ដេតផងដែរ។",
+   "keyPoints": [
+    "Aurora MySQL 3.14 ឆបគ្នាជាមួយ MySQL 8.0.46។",
+    "ណែនាំការគាំទ្រសម្រាប់ការផ្លាស់ប្តូរគន្លឹះ post-quantum TLS។",
+    "មាននៅក្នុងតំបន់ AWS ទាំងអស់ដែល Aurora MySQL អាចប្រើបាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Aurora MySQL 3.14（兼容 MySQL 8.0.46）现已全面上市",
+   "summary": "Amazon Aurora MySQL 兼容版 3 现已支持 MySQL 8.0.46，推出了 Aurora MySQL 3.14 版本。该版本包含社区 MySQL 修复、Aurora 特定改进以及对后量子 TLS 密钥交换的支持。用户可以在预定的维护窗口期间或通过自动次要版本升级来升级数据库。",
+   "impact": "此版本可以通过引入后量子密码学选项，帮助技术用户提升传输中数据的加密安全性。管理员还可以利用 AWS Organizations 升级推出策略来分阶段统一管理集群升级。",
+   "keyPoints": [
+    "Aurora MySQL 3.14 兼容 MySQL 8.0.46。",
+    "引入了对后量子 TLS 密钥交换的支持。",
+    "在所有提供 Aurora MySQL 的 AWS 区域中可用。",
+    "支持就地升级或通过快照还原执行次要版本升级。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Aurora MySQL 3.14(MySQL 8.0.46 호환) 정식 출시",
+   "summary": "Amazon Aurora MySQL 호환 에디션 3은 이제 Aurora MySQL 3.14 출시를 통해 MySQL 8.0.46을 지원합니다. 이 업데이트에는 커뮤니티 MySQL 수정 사항, Aurora 전용 개선 사항 및 포스트 퀀텀 TLS 키 교환 지원이 포함됩니다. 사용자는 예약된 유지 관리 창이나 자동 마이너 버전 업그레이드를 통해 데이터베이스를 업그레이ד할 수 있습니다.",
+   "impact": "이 릴리스는 포스트 퀀텀 암호화 옵션을 사용하여 전송 중인 데이터를 암호화하는 기능을 제공할 수 있습니다. 또한 운영 팀은 AWS 조직 업그레이드 롤아웃 정책을 활용하여 클러스터 업그레이드를 단계별로 조율할 수 있습니다.",
+   "keyPoints": [
+    "Aurora MySQL 3.14는 MySQL 8.0.46과 호환됩니다.",
+    "포스트 퀀텀 TLS 키 교환 지원이 도입되었습니다.",
+    "Aurora MySQL을 사용할 수 있는 모든 AWS 리전에서 지원됩니다."
+   ]
+  }
+ }
+}

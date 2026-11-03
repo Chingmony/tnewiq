@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a3562df3fff969c3",
+ "contentHash": "8bfbd555bed51f05",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-03T01:45:11.384Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+   "summary": "This week featured various attacks ranging from simple tactics like fake support calls and trusted extensions to massive security issues. Incidents included billions stolen, hidden networks of hacked devices, and poisoned software. Attackers also found new ways to turn normal tools against users.",
+   "impact": "Security teams and developers may need to remain vigilant against both simple social engineering tactics and complex attacks that exploit normal tools. Users could face significant risks from seemingly minor oversights like unpassworded devices or shared links.",
+   "keyPoints": [
+    "Attacks involved simple tricks like fake support calls and shared links.",
+    "Major incidents included billions stolen and hidden networks of hacked devices.",
+    "Poisoned software and tools turned against users were reported."
+   ]
+  },
+  "km": {
+   "title": "សេចក្តីសង្ខេបប្រចាំសប្តាហ៍៖ CVEs សំខាន់ៗ Linux DDoS Botnet ការបោកប្រាស់តាម Device-Code កម្មវិធីស្កុបវែរ Android និងច្រើនទៀត",
+   "summary": "សប្តាហ៍នេះមានការវាយប្រហារផ្សេងៗគ្នា ចាប់ពីល្បិចសាមញ្ញដូចជាការខលជំនួយក្លែងក្លាយ និងផ្នែកបន្ថែមដែលទុកចិត្ត រហូតដល់បញ្ហាសុវត្ថិភាពធំៗ។ ព្រឹត្តិការណ៍រួមមានទឹកប្រាក់រាប់ពាន់លានត្រូវបានលួច បណ្តាញលាក់កំបាំងនៃឧបករណ៍ត្រូវបានហេក និងកម្មវិធីដែលមានជាតិពុល។ ពួកattacker ក៏បានរកឃើញវិធីថ្មីៗដើម្បីប្រើប្រាស់ឧបករណ៍ធម្មតាប្រឆាំងនឹងអ្នកប្រើប្រាស់ផងដែរ។",
+   "impact": "ក្រុមសុវត្ថិភាព និងអ្នកអភិវឌ្ឍន៍អាចនឹងត្រូវមានការប្រុងប្រយ័ត្នខ្ពស់ប្រឆាំងនឹងល្បិចវិស្វកម្មសង្គមសាមញ្ញ និងការវាយប្រហារស្មុគស្មាញ។ អ្នកប្រើប្រាស់អាចនឹងប្រឈមមុខនឹងហានិភ័យសំខាន់ៗពីកំហុសតូចតាច។",
+   "keyPoints": [
+    "ការវាយប្រហារពាក់ព័ន្ធនឹងល្បិចសាមញ្ញដូចជាការខលជំនួយក្លែងក្លាយ។",
+    "ព្រឹត្តិការណ៍សំខាន់ៗរួមមានទឹកប្រាក់រាប់ពាន់លានត្រូវបានលួច។",
+    "កម្មវិធីដែលមានជាតិពុល និងឧបករណ៍ត្រូវបានប្រែជាប្រឆាំងនឹងអ្នកប្រើប្រាស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "每周回顾：严重 CVE、Linux DDoS 僵尸网络、设备代码网络钓鱼、Android 间谍软件等",
+   "summary": "本周发生了各种攻击，从虚假支持电话和受信任的扩展等简单策略，到严重的安全问题。事件包括数十亿美元被盗、被黑客入侵设备的隐藏网络以及受污染的软件。攻击者还找到了将常规工具转为对抗用户的新方法。",
+   "impact": "安全团队和开发人员可能需要警惕简单的社会工程策略以及利用常规工具的复杂攻击。用户可能会面临来自看似微不足道的疏忽的重大风险。",
+   "keyPoints": [
+    "攻击涉及虚假支持电话和共享链接等简单技巧。",
+    "重大事件包括数十亿美元被盗和被黑受害者设备的隐藏网络。",
+    "报告了受污染的软件和被用来对付用户的工具。"
+   ]
+  },
+  "ko": {
+   "title": "주간 요약: 치명적인 CVE, Linux DDoS 봇넷, 장치 코드 피싱, Android 스파이웨어 등",
+   "summary": "이번 주에는 가짜 지원 전화 및 신뢰할 수 있는 확장 프로그램 같은 단순한 전술부터 대규모 보안 문제까지 다양한 공격이 발생했습니다. 수십억 원의 도난, 해킹된 장치의 숨겨진 네트워크, 오염된 소프트웨어 등이 사건에 포함되었습니다. 공격자들은 일반 도구를 사용자에 대항하여 악용하는 새로운 방법도 찾아냈습니다.",
+   "impact": "보안 팀과 개발자는 단순한 사회 공학적 전술과 일반 도구를 악용하는 복잡한 공격 모두에 대해 경계를 유지해야 할 수 있습니다. 사용자는 비밀번호가 없는 장치나 공유 링크 같은 사소해 보이는 부주의로 인해 심각한 위험에 직면할 수 있습니다.",
+   "keyPoints": [
+    "공격에는 가짜 지원 전화 및 공유 링크 같은 단순한 수법이 포함되었습니다.",
+    "주요 사건으로 수십억의 도난 및 해킹된 장치의 숨겨진 네트워크가 있었습니다.",
+    "오염된 소프트웨어와 사용자를 공격하는 데 악용된 도구가 보고되었습니다."
+   ]
+  }
+ }
+}
