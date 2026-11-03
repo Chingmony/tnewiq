@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "45e38e3b3debc240",
+ "contentHash": "3bb988b5374f2141",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-03T23:30:30.169Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Connect Customer lets agents pause and resume emails",
+   "summary": "Amazon Connect Customer now allows agents to pause and resume emails while waiting for approvals or information. Agents can handle other priority contacts, while paused time is tracked separately from active handling time. Supervisors can monitor paused emails in real time and set flows to automatically transfer or resume emails exceeding a configured threshold.",
+   "impact": "This feature could help contact centers improve workflow efficiency by letting agents switch to higher-priority tasks. It may also provide supervisors with more accurate metrics regarding email handling and pause durations.",
+   "keyPoints": [
+    "Agents can pause and resume emails from the Agent Workspace or Contact Control Panel.",
+    "Paused time is tracked separately from active handling time.",
+    "Supervisors can monitor pause duration in real time and use flows to automate actions for long-paused emails."
+   ]
+  },
+  "km": {
+   "title": "Amazon Connect Customer អនុញ្ញាតឱ្យភ្នាក់ងារ tạm dừng និងបន្តអ៊ីមែលឡើងវិញ",
+   "summary": "Amazon Connect Customer ឥឡូវនេះអនុញ្ញាតឱ្យភ្នាក់ងារផ្អាក និងបន្តអ៊ីមែលឡើងវិញ ខណៈពេលដែលកំពុងរង់ចាំការอนุมัติ ឬព័ត៌មាន។ ភ្នាក់ងារអាចទจัดการជាមួយទំនាក់ទំនងដែលមានអាទិភាពខ្ពស់ជាងមុន ខណៈដែលពេលវេលាផ្អាកត្រូវបានតាមដានដាច់ដោយឡែកពីពេលវេលាจัดการសកម្ម។ អ្នកគ្រប់គ្រងអាចត្រួតពិនិត្យអ៊ីមែលដែលបានផ្អាកក្នុងពេលវេលាជាក់ស្តែង។",
+   "impact": "មុខងារនេះអាចជួយមជ្ឈមណ្ឌលទំនាក់ទំនងកែលម្អប្រសិទ្ធភាពការងារដោយអនុញ្ញាតឱ្យភ្នាក់ងារប្តូរទៅកាន់ភារកិច្ចដែលមានអាទិភាពខ្ពស់ជាង។ វាក៏អាចផ្តល់ឱ្យអ្នកគ្រប់គ្រងនូវរង្វាស់ដ៏ត្រឹមត្រូវផងដែរ។",
+   "keyPoints": [
+    "ភ្នាក់ងារអាចផ្អាក និងបន្តអ៊ីមែលឡើងវិញដោយផ្ទាល់ពី Agent Workspace ឬ Contact Control Panel។",
+    "ពេលវេលាផ្អាកត្រូវបានតាមដានដាច់ដោយឡែកពីពេលវេលាจัดการសកម្ម។",
+    "អ្នកគ្រប់គ្រងអាចត្រួតពិនិត្យអ៊ីមែលដែលបានផ្អាក និងរយៈពេលផ្អាកក្នុងពេលវេលាជាក់ស្តែង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Connect Customer 允许客服暂停和恢复电子邮件",
+   "summary": "Amazon Connect Customer 现在允许客服在等待信息或审批时暂停和恢复电子邮件，从而腾出时间处理更高优先级的联系人。暂停时间与主动处理时间分开跟踪，使主管能够更准确地查看客服处理电子邮件所花费的时间。主管可以实时监控暂停的电子邮件和暂停时长，并使用流来自动恢复或转移超出配置阈值的电子邮件。",
+   "impact": "此功能可能会通过允许客服处理高优先级任务来提高联络中心的效率。它还可能为主管提供更准确的电子邮件处理时间和暂停时长指标。",
+   "keyPoints": [
+    "客服可以直接从 Agent Workspace 或 Contact Control Panel 暂停和恢复电子邮件。",
+    "暂停时间与主动处理时间分开进行跟踪。",
+    "主管可以实时监控暂停的电子邮件以及暂停的时长。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Connect Customer lets agents pause and resume emails",
+   "summary": "Amazon Connect Customer를 사용하면 상담원이 승인이나 정보를 기다리는 동안 이메일을 일시 중지했다가 나중에 다시 재개할 수 있습니다. 일시 중지된 시간은 활성 처리 시간과 별도로 추적되므로 상담원이 이메일 작업에 소요한 시간을 관리자가 더 정확하게 파악할 수 있습니다. 관리자는 실시간으로 일시 중지된 이메일과 일시 중지 지속 시간을 모니터링할 수 있습니다.",
+   "impact": "이 기능은 상담원이 우선순위가 높은 작업에 집중할 수 있도록 하여 작업 효율성을 향상시키는 데 도움을 줄 수 있습니다. 또한 관리자에게 더 정확한 이메일 처리 및 일시 중지 시간 지표를 제공할 수 있습니다.",
+   "keyPoints": [
+    "상담원은 Agent Workspace 또는 Contact Control Panel에서 직접 이메일을 일시 중지하고 재개할 수 있습니다.",
+    "일시 중지된 시간은 활성 처리 시간과 별도로 추적됩니다.",
+    "관리자는 실시간으로 일시 중지된 이메일과 지속 시간을 모니터링할 수 있습니다."
+   ]
+  }
+ }
+}

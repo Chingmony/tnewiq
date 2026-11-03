@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "49acf98068f7a42d",
+ "contentHash": "3f72ca7da0c08e71",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-03T23:31:49.157Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+   "summary": "Blockchain infrastructure provider Chainstack disclosed that an external attacker gained unauthorized access to parts of its infrastructure. The cyber attack is assessed to be part of a large-scale, AI-powered attack campaign that came to light last week. The incident led to the exposure of customer data and password hashes.",
+   "impact": "This breach could pose risks to customers whose data and password hashes were exposed. Security teams and technology users may need to review their credentials and watch for further developments regarding the AI-powered campaign.",
+   "keyPoints": [
+    "Chainstack was targeted in a cyber attack affecting parts of its infrastructure",
+    "An unauthorized party gained access to customer data and password hashes",
+    "The incident is part of a large-scale, AI-powered attack campaign"
+   ]
+  },
+  "km": {
+   "title": "Chainstack រាយការណ៍ពីការ breaches ប្រព័ន្ធផលិតកម្មដែលបែកធ្លាយទិន្នន័យអតិថិជន និង Password Hashes",
+   "summary": "ក្រុមហ៊ុនផ្តល់សេវាហេដ្ឋារចនាសម្ព័ន្ធប្លុកឆេន Chainstack បានបង្ហាញថា ខ្លួនរងការវាយប្រហារតាមប្រព័ន្ធអ៊ីនធឺណិត ដែលអនុញ្ញាតឱ្យភាគីដែលគ្មានការអនុញ្ញាតទទួលបានសិទ្ធិចូលប្រើប្រាស់ផ្នែកខ្លះនៃហេដ្ឋារចនាសម្ព័ន្ធរបស់ខ្លួន។ 事件នេះត្រូវបានគេវាយតម្លៃថាជាផ្នែកមួយនៃការយុទ្ធនាការវាយប្រហារខ្នាតធំដែលបំពាក់ដោយបញ្ញាសិប្បនិម្មិត (AI)។ ឧប្បត្តិហេតុនេះបណ្តាលឱ្យបែកធ្លាយទិន្នន័យអតិថិជន និង password hashes ។",
+   "impact": "ការ breached នេះអាចបង្កហានិភ័យដល់អតិថិជនដែលទិន្នន័យ និង password hashes របស់ពួកគេត្រូវបានបែកធ្លាយ។ ក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវពិនិត្យឡើងវិញនូវព័ត៌មានសម្ងាត់របស់ពួកគេ។",
+   "keyPoints": [
+    "Chainstack ត្រូវបានកំណត់គោលដៅក្នុងការវាយប្រហារតាមប្រព័ន្ធអ៊ីនធឺណិត",
+    "ភាគីគ្មានការអនុញ្ញាតទទួលបានសិទ្ធិចូលប្រើប្រាស់ទិន្នន័យអតិថិជន និង password hashes",
+    "ឧប្បត្តិហេតុនេះគឺជាផ្នែកមួយនៃការយុទ្ធនាការវាយប្រហារដែលដំណើរការដោយ AI"
+   ]
+  },
+  "zh-CN": {
+   "title": "Chainstack 报告生产系统遭入侵，导致客户数据和密码哈希泄露",
+   "summary": "区块链基础设施提供商 Chainstack 于周二透露，其成为网络攻击的目标，未经授权的第三方得以访问其部分基础设施。经评估，该事件是上周曝光的大规模人工智能驱动攻击活动的一部分。此次事件导致客户数据和密码哈希遭到泄露。",
+   "impact": "此次泄露可能会给数据和密码哈希被曝光的客户带来风险。安全团队和技术人员可能需要检查其凭证，并关注该人工智能驱动攻击活动的后续进展。",
+   "keyPoints": [
+    "区块链基础设施提供商 Chainstack 遭到网络攻击",
+    "未经授权的攻击者获取了部分基础设施的访问权限",
+    "事件导致客户数据和密码哈希暴露"
+   ]
+  },
+  "ko": {
+   "title": "Chainstack, 고객 데이터 및 비밀번호 해시가 노출된 프로덕션 시스템 침해 보고",
+   "summary": "블록체인 인프라 제공업체인 Chainstack은 인프라의 일부에 대한 권한 없는 접근을 허용한 사이버 공격의 표적이 되었다고 밝혔습니다. 이번 사건은 지난주에 드러난 대규모 AI 기반 공격 캠페인의 일부로 평가됩니다. 이로 인해 고객 데이터와 비밀번호 해시가 노출되었습니다.",
+   "impact": "이번 침해는 데이터와 비밀번호 해시가 노출된 고객에게 위험을 초래할 수 있습니다. 보안 팀과 기술 사용자는 자격 증명을 검토하고 AI 기반 캠페인과 관련된 추가 진행 상황을 주시해야 할 수 있습니다.",
+   "keyPoints": [
+    "블록체인 인프라 제공업체 Chainstack이 사이버 공격을 받음",
+    "권한 없는 공격자가 인프라 일부에 대한 접근 권한을 획득함",
+    "사건으로 인해 고객 데이터와 비밀번호 해시가 노출됨"
+   ]
+  }
+ }
+}

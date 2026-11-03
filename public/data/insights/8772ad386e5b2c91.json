@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8772ad386e5b2c91",
+ "contentHash": "38112068d630d0e0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-03T23:35:15.618Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Config now supports 10 new resource types",
+   "summary": "AWS Config has added support for 10 additional AWS resource types across services like Amazon ElastiCache and Amazon QuickSight. Users who have enabled recording for all resource types will have these new additions tracked automatically. The newly supported types are available in all regions where the resources are available, and can be used in Config rules and aggregators.",
+   "impact": "This expansion could provide security teams and developers with broader environment coverage for discovering, auditing, assessing, and remediating resources. It may allow for more comprehensive monitoring across AWS environments where these services are utilized.",
+   "keyPoints": [
+    "AWS Config now supports 10 additional resource types.",
+    "New resource types include Amazon ElastiCache and Amazon QuickSight components.",
+    "Recording is tracked automatically if all resource types are enabled.",
+    "The new types are available in Config rules, aggregators, and all applicable regions."
+   ]
+  },
+  "km": {
+   "title": "AWS Config ឥឡូវនេះគាំទ្រប្រភេទធនធានថ្មីចំនួន 10",
+   "summary": "AWS Config បានបន្ថែមការគាំទ្រសម្រាប់ប្រភេទធនធាន AWS ចំនួន ១០ បន្ថែមទៀតនៅទូទាំងសេវាកម្មសំខាន់ៗរួមមាន Amazon ElastiCache និង Amazon QuickSight។ ការពង្រីកនេះផ្តល់នូវការគ្របដណ្តប់កាន់តែធំលើបរិយាកាស AWS របស់អ្នក ដោយអាចឱ្យអ្នកស្វែងរក វាយតម្លៃ ពិនិត្យ និងកែតម្រូវធនធានបានកាន់តែមានប្រសិទ្ធភាព។ ប្រសិនបើអ្នកបានបើកដំណើរការការកត់ត្រាសម្រាប់ប្រភេទធនធានទាំងអស់ AWS Config នឹងតាមដានការបន្ថែមថ្មីទាំងនេះដោយស្វ័យប្រវត្តិ។",
+   "impact": "ការពង្រីកនេះអាចផ្តល់ឱ្យក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍នូវការគ្របដណ្តប់បរិយាកាសកាន់តែទូលំទូលាយសម្រាប់ការរកឃើញ និងការត្រួតពិនិត្យធនធាន។ វាអាចជួយឱ្យមានការត្រួតពិនិត្យកាន់តែទូលំទូលាយនៅទូទាំងបរិយាកាស AWS ដែលសេវាកម្មទាំងនេះត្រូវបានប្រើប្រាស់។",
+   "keyPoints": [
+    "AWS Config ឥឡូវនេះគាំទ្រប្រភេទធនធានថ្មីចំនួន ១០ បន្ថែមទៀត។",
+    "ប្រភេទធនធានថ្មីរួមមានសមាសភាគ Amazon ElastiCache និង Amazon QuickSight។",
+    "ការកត់ត្រាត្រូវបានតាមដានដោយស្វ័យប្រវត្តិ ប្រសិនបើប្រភេទធនធានទាំងអស់ត្រូវបានបើក។",
+    "ប្រភេទថ្មីទាំងនោះមាននៅក្នុងច្បាប់ Config, aggregators និងគ្រប់តំបន់ទាំងអស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Config 现已支持 10 种新资源类型",
+   "summary": "AWS Config 现已在 Amazon ElastiCache 和 Amazon QuickSight 等关键服务中增加对 10 种额外 AWS 资源类型的支持。这一扩展为您的 AWS 环境提供了更广泛的覆盖范围，使您能够更有效地发现、评估、审计和修正更广泛的资源。如果您已启用所有资源类型的记录，AWS Config 将自动跟踪这些新增加的内容。",
+   "impact": "此次扩展可以为开发人员和安全团队提供更广泛的环境覆盖，以便发现、审计、评估和修正资源。它可能有助于在使用这些服务的 AWS 环境中进行更全面的监控。",
+   "keyPoints": [
+    "AWS Config 现在支持 10 种额外的资源类型。",
+    "新的资源类型包括 Amazon ElastiCache 和 Amazon QuickSight 组件。",
+    "如果启用了所有资源类型的记录，AWS Config 会自动跟踪这些新增内容。",
+    "新资源类型可在所有可用区域、Config 规则和聚合器中使用。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Config, 10가지 신규 리소스 유형 지원 개시",
+   "summary": "AWS Config는 Amazon ElastiCache 및 Amazon QuickSight를 포함한 주요 서비스 전반에 걸쳐 10가지 추가 AWS 리소스 유형에 대한 지원을 추가했습니다. 이번 확장을 통해 AWS 환경을 더 포괄적으로 커버하여 광범위한 리소스를 보다 효과적으로 검색, 평가, 감사 및 수정할 수 있게 되었습니다. 모든 리소스 유형에 대해 레코딩을 활성화한 경우 AWS Config가 이러한 새로운 항목을 자동으로 추적합니다.",
+   "impact": "이번 확장은 개발자와 보안 팀에게 리소스 검색, 감사, 평가 및 수정을 위한 더 넓은 환경 가시성을 제공할 수 있습니다. 해당 서비스가 사용되는 AWS 환경 전반에서 보다 포괄적인 모니터링을 가능하게 할 수 있습니다.",
+   "keyPoints": [
+    "AWS Config가 10개의 추가 리소스 유형을 지원합니다.",
+    "새로운 리소스 유형에는 Amazon ElastiCache 및 Amazon QuickSight 구성 요소가 포함됩니다.",
+    "모든 리소스 유형에 대한 레코딩이 활성화된 경우 자동으로 추적됩니다.",
+    "새로운 리소스 유형은 모든 해당 지역, Config 규칙 및 어그리게이터에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

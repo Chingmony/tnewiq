@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a7f64e0d32da7d5c",
+ "contentHash": "7664111f4ac229f5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-03T23:33:02.293Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Bring structured and unstructured data together with Amazon Quick",
+   "summary": "Amazon Quick introduces a unified experience that combines structured data from databases and unstructured data from documents like PDFs and reports. Users can connect Amazon S3-backed knowledge bases and enriched structured datasets within a single Space. A conversational AI agent then allows users to query across both data types simultaneously through a chat interface. Built-in AI guardrails and permission settings ensure secure and controlled interactions.",
+   "impact": "Technology users and developers managing disparate data sources may streamline their analysis workflows by querying both structured metrics and unstructured documents through a single AI agent. This approach could reduce the need to switch between multiple tools and manually correlate data.",
+   "keyPoints": [
+    "Amazon Quick combines structured data datasets and unstructured S3 knowledge bases in a unified Space.",
+    "A custom conversational AI agent queries both data types and returns a combined response with citations.",
+    "The architecture consists of three layers: Data layer, Workspace layer, and Agent layer.",
+    "Built-in AI guardrails, such as content safety screening, are applied to chat interactions."
+   ]
+  },
+  "km": {
+   "title": "នាំយកទិន្នន័យមានរចនាសម្ព័ន្ធ និងគ្មានរចនាសម្ព័ន្ធមកជាមួយគ្នាជាមួយ Amazon Quick",
+   "summary": "Amazon Quick ណែនាំបទពិសោធន៍បង្រួបបង្រួមមួយដែលផ្សំទិន្នន័យមានរចនាសម្ព័ន្ធពីមូលដ្ឋានទិន្នន័យ និងទិន្នន័យគ្មានរចនាសម្ព័ន្ធពីឯកសារដូចជា PDF និងរបាយការណ៍។ អ្នកប្រើប្រាស់អាចភ្ជាប់មូលដ្ឋានចំណេះដឹងដែលគាំទ្រដោយ Amazon S3 និងชุดទិន្នន័យដែលមានរចនាសម្ព័ន្ធសម្បូរបែបនៅក្នុង Space តែមួយ។ ភ្នាក់ងារ AI สนทនាបន្ទាប់មកអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់សាកសួរទិន្នន័យទាំងពីរប្រភេទพร้อมគ្នា.",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលគ្រប់គ្រងប្រភពទិន្នន័យដាច់ដោយឡែកពីគ្នា អាចសម្រួលលំហូរការងារវិភាគរបស់ពួកគេដោយការសាកសួរទាំងរង្វាស់រចនាសម្ព័ន្ធ និងឯកសារគ្មានរចនាសម្ព័ន្ធតាមរយៈភ្នាក់ងារ AI តែមួយ។",
+   "keyPoints": [
+    "Amazon Quick រួមបញ្ចូលគ្នានូវชุดទិន្នន័យមានរចនាសម្ព័ន្ធ និងមូលដ្ឋានចំណេះដឹង S3 នៅក្នុង Space តែមួយ។",
+    "ភ្នាក់ងារ AI สนทនាផ្ទាល់ខ្លួនសាកសួរទិន្នន័យទាំងពីរប្រភេទ និងត្រឡប់ចម្លើយរួមបញ្ចូលគ្នា។",
+    "ស្ថាបត្យកម្មមានបីស្រទាប់គឺ ស្រទាប់ទិន្នន័យ ស្រទាប់កន្លែងធ្វើការ និងស្រទាប់ភ្នាក់ងារ។",
+    "របាំងការពារ AI ដែលភ្ជាប់មកជាមួយត្រូវបានអនុវត្តចំពោះទំនាក់ទំនងสนทនា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 Amazon Quick 将结构化和非结构化数据汇聚在一起",
+   "summary": "Amazon Quick 引入了一种统一的体验，将来自数据库的结构化数据与存储在文档、报告和文件中的非结构化数据结合起来。用户可以在单个 Space 中连接由 Amazon S3 支持的知识库和经过丰富处理的结构化数据集。随后，对话式 AI 代理允许用户通过单一聊天界面同时查询这两种数据类型，并获得带有引用的综合响应。",
+   "impact": "管理分散数据源的技术人员和开发人员可以通过单一 AI 代理查询结构化指标和非结构化文档，从而简化其分析工作流程。这种方法可能减少在多个工具之间切换并手动关联结果的需求。",
+   "keyPoints": [
+    "Amazon Quick 在统一的 Space 中结合了结构化数据和非结构化 S3 知识库。",
+    "自定义对话式 AI 代理可以查询这两种数据类型并返回带引用的综合响应。",
+    "架构由三层组成：数据层、工作区层和代理层。",
+    "聊天交互应用了内置的 AI 安全防护栏，例如内容安全筛选。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Quick을 통해 정형 및 비정형 데이터 통합하기",
+   "summary": "Amazon Quick은 데이터베이스의 정형 데이터와 문서, 보고서 등의 비정형 데이터를 결합하는 통합 경험을 제공합니다. 사용자는 단일 Space 내에서 Amazon S3 기반 지식 베이스와 보강된 정형 데이터셋을 연결할 수 있습니다. 그 후 대화형 AI 에이전트를 통해 단일 채팅 인터페이스로 두 데이터 유형을 동시에 쿼리할 수 있습니다.",
+   "impact": "분산된 데이터 소스를 관리하는 개발자와 기술 사용자는 단일 AI 에이전트를 통해 정형 지표와 비정형 문서를 모두 쿼리함으로써 분석 워크플로를 간소화할 수 있습니다. 이 접근 방식은 여러 도구 사이를 전환하고 결과를 수동으로 상관관계 분석해야 하는 필요성을 줄일 수 있습니다.",
+   "keyPoints": [
+    "Amazon Quick은 단일 Space에서 정형 데이터셋과 비정형 S3 지식 베이스를 결합합니다.",
+    "맞춤형 대화형 AI 에이전트가 두 데이터 유형을 모두 쿼리하고 인용이 포함된 통합 응답을 반환합니다.",
+    "아키텍처는 데이터 계층, 워크스페이스 계층, 에이전트 계층의 세 가지 계층으로 구성됩니다.",
+    "채팅 상호 작용에는 콘텐츠 안전성 검사와 같은 내장 AI 가드레일이 적용됩니다."
+   ]
+  }
+ }
+}

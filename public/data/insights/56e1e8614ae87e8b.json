@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "56e1e8614ae87e8b",
+ "contentHash": "76752a30a24327ce",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-03T23:32:30.348Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Connect Customer prefills the email address for new threads started from cases",
+   "summary": "Amazon Connect Customer now automatically fills in the customer email address from the linked customer profile when agents start a new email thread from a case. This feature aims to save agents time and reduce manual entry errors. It is available in multiple AWS regions including US East, US West, Canada, Europe, Asia Pacific, and Africa.",
+   "impact": "This update could improve efficiency for agents handling customer cases by eliminating manual address lookups and typing errors. Developers and administrators working with Amazon Connect can leverage this built-in profile linking feature across supported AWS regions.",
+   "keyPoints": [
+    "Automatically prefills customer email addresses from linked customer profiles for new email threads.",
+    "Aims to save time and reduce manual data entry errors for agents.",
+    "Available in various AWS regions such as US East, Europe, Asia Pacific, and Africa."
+   ]
+  },
+  "km": {
+   "title": "Amazon Connect Customer បំពេញអាសយដ្ឋានអ៊ីមែលជាមុនសម្រាប់ខ្សែស្រឡាយថ្មីដែលបានចាប់ផ្តើមពីករណី",
+   "summary": "Amazon Connect Customer ឥឡូវនេះបំពេញអាសយដ្ឋានអ៊ីមែលរបស់អតិថិជនដោយស្វ័យប្រវត្តពីប្រវត្តិរូបអតិថិជនដែលបានតភ្ជាប់ នៅពេលដែលភ្នាក់ងារចាប់ផ្តើមខ្សែស្រឡាយអ៊ីមែលថ្មីពីករណីមួយ។ មុខងារនេះជួយសន្សំសំចៃពេលវេលារបស់ភ្នាក់ងារ និងកាត់បន្ថយការខុសឆ្គងក្នុងការបញ្ចូលទិន្នន័យដោយដៃ។ វាមាននៅលើតំបន់ AWS ជាច្រើនរួមទាំងអាមេរិក អឺរ៉ុប អាស៊ីប៉ាស៊ីហ្វិក និងអាហ្វ្រិក។",
+   "impact": "ការអាប់ដេតនេះអាចជួយបង្កើនប្រសិទ្ធភាពសម្រាប់ភ្នាក់ងារដែលจัดการករណីអតិថិជន ដោយកាត់បន្ថយការស្វែងរកអាសយដ្ឋានដោយដៃ។",
+   "keyPoints": [
+    "បំពេញអាសយដ្ឋានអ៊ីមែលអតិថិជនដោយស្វ័យប្រវត្តិពីប្រវត្តិរូបដែលបានតភ្ជាប់។",
+    "ជួយសន្សំសំចៃពេលវេលា និងកាត់បន្ថយការខុសឆ្គងក្នុងការបញ្ចូលទិន្នន័យ។",
+    "មាននៅលើតំបន់ AWS ជាច្រើន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Connect Customer 为从案例发起的新邮件线程预填电子邮件地址",
+   "summary": "当坐席从案例发起新的电子邮件线程时，Amazon Connect Customer 现在会自动从关联的客户个人资料中填充客户的电子邮件地址。此功能旨在为坐席节省时间并减少手动输入错误。该功能已在多个 AWS 区域可用。",
+   "impact": "此更新可以提高处理客户案例的坐席的工作效率，避免手动查找和输入地址时产生错误。开发人员和管理员可以在支持的 AWS 区域中使用此集成功能。",
+   "keyPoints": [
+    "从关联的客户个人资料中自动预填客户电子邮件地址。",
+    "旨在节省坐席时间并减少手动输入错误。",
+    "在多个 AWS 区域提供支持。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Connect Customer가 케이스에서 시작된 새 스레드에 대해 이메일 주소를 미리 채웁니다",
+   "summary": "이제 상담원이 케이스에서 새 이메일 스레드를 시작할 때 Amazon Connect Customer가 연결된 고객 프로필에서 고객의 이메일 주소를 자동으로 채워줍니다. 이 기능은 상담원의 시간을 절약하고 수동 입력 오류를 줄이는 것을 목표로 합니다. 이 기능은 여러 AWS 리전에서 사용할 수 있습니다.",
+   "impact": "이번 업데이트는 상담원이 수동으로 주소를 찾거나 입력할 필요가 없도록 하여 고객 케이스 처리 효율성을 향상시킬 수 있습니다. 개발자와 관리자는 지원되는 AWS 리전에서 이 기능을 활용할 수 있습니다.",
+   "keyPoints": [
+    "연결된 고객 프로필에서 고객 이메일 주소를 자동으로 미리 채웁니다.",
+    "상담원의 시간을 절약하고 수동 입력 오류를 줄입니다.",
+    "여러 AWS 리전에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

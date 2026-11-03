@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5350cf64f29cdc8a",
+ "contentHash": "77ffaedc8696f03f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-03T23:35:26.764Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+   "summary": "Barracuda has disclosed two vulnerabilities in its products that can be chained together. This attack path allows an attacker to bypass authorization controls and achieve root access on a vulnerable device. The issues consist of a pre-authentication authorization bypass and a command injection vulnerability.",
+   "impact": "Security teams and technology users may face critical risks if susceptible devices are left unpatched, as attackers could potentially achieve full root access. Developers and administrators should review the disclosed flaws, including CVE-2026-116606, and apply available updates.",
+   "keyPoints": [
+    "Barracuda disclosed details of two product vulnerabilities.",
+    "Chaining the flaws allows authorization bypass and root access.",
+    "Vulnerabilities include pre-authentication authorization bypass and command injection.",
+    "CVE-2026-116606 has a CVSS score of 9.3."
+   ]
+  },
+  "km": {
+   "title": "កំហុសឆ្គង Barracuda អាចត្រូវបានផ្សារភ្ជាប់ដើម្បីឆ្លងកាត់ការផ្ទៀងផ្ទាត់សិទ្ធិ និងទទួលបានសិទ្ធិ root",
+   "summary": "ក្រុមហ៊ុន Barracuda បានបង្ហាញព័ត៌មានលម្អិតអំពីភាពងាយរងគ្រោះចំនួនពីរនៅក្នុងផលិតផលរបស់ខ្លួន ដែលអាចត្រូវបានផ្សារភ្ជាប់ជាមួយគ្នា។ ការវាយប្រហារនេះអាចអនុញ្ញាតឱ្យពួកហฮាកឃ័រឆ្លងកាត់ការត្រួតពិនិត្យសិទ្ធិ និងទទួលបានសិទ្ធិ root នៅលើឧបករណ៍ដែលងាយរងគ្រោះ។ ភាពងាយរងគ្រោះទាំងនោះរួមមានការឆ្លងកាត់ការផ្ទៀងផ្ទាត់សិទ្ធិមុនពេលផ្ទៀងផ្ទាត់ និងភាពងាយរងគ្រោះនៃការចាក់បញ្ចូលពាក្យបញ្ជា។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចប្រឈមនឹងហានិភ័យធ្ងន់ធ្ងរ ប្រសិនបើឧបករណ៍ដែលងាយរងគ្រោះមិនត្រូវបានបិទរន្ធសុវត្ថិភាពទេ ព្រោះពួកហាកឃ័រអាចទទួលបានសិទ្ធិ root ពេញលេញ។",
+   "keyPoints": [
+    "ក្រុមហ៊ុន Barracuda បានបង្ហាញភាពងាយរងគ្រោះចំនួនពីរនៅលើផលិតផលរបស់ខ្លួន។",
+    "ការផ្សារភ្ជាប់ភាពងាយរងគ្រោះអនុញ្ញាតឱ្យឆ្លងកាត់សិទ្ធិ និងទទួលបានសិទ្ធិ root ។",
+    "បញ្ហាពាក់ព័ន្ធនឹងការឆ្លងកាត់ការផ្ទៀងផ្ទាត់សិទ្ធិ និងការចាក់បញ្ចូលពាក្យបញ្ជា។",
+    "CVE-2026-116606 មានពិន្ទុ CVSS ដល់ទៅ 9.3។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Barracuda 漏洞可被组合利用以绕过授权并获取 Root 权限",
+   "summary": "Barracuda 公布了影响其产品的两个漏洞的详细信息，若将这两个漏洞结合利用，攻击者可以绕过授权控制并在受影响的设备上获得 root 权限。这些漏洞包括一个预身份验证授权绕过漏洞和一个命令注入漏洞。",
+   "impact": "如果受影响的设备未得到及时修复，安全团队和技术用户可能会面临严重风险，因为攻击者可能获得完全的 root 权限。管理员应密切关注相关漏洞并应用更新。",
+   "keyPoints": [
+    "Barracuda 披露了影响其产品的两个漏洞。",
+    "组合利用这些漏洞可绕过授权并获取 root 权限。",
+    "漏洞包括预身份验证授权绕过和命令注入。",
+    "CVE-2026-116606 的 CVSS 评分为 9.3。"
+   ]
+  },
+  "ko": {
+   "title": "권한을 우회하고 Root 권한을 얻기 위해 체인으로 연결될 수 있는 Barracuda 결함",
+   "summary": "Barracuda는 제품에 영향을 미치는 두 가지 취약점의 세부 정보를 공개했으며, 이를 체인으로 연결할 경우 공격자가 권한 제어를 우회하고 취약한 장치에 대한 root 권한을 얻을 수 있습니다. 해당 취약점은 사전 인증 권한 우회 취약점과 명령 삽입 취약점으로 구성되어 있습니다.",
+   "impact": "취약한 장치가 패치되지 않은 상태로 방치될 경우 공격자가 완전한 root 권한을 획득할 수 있으므로 보안 팀과 기술 사용자는 심각한 위험에 직면할 수 있습니다. 관리자는 공개된 결함을 검토하고 업데이트를 적용해야 합니다.",
+   "keyPoints": [
+    "Barracuda가 제품에 영향을 미치는 두 가지 취약점을 공개했습니다.",
+    "결함을 체인으로 연결하여 권한 우회 및 root 권한 획득이 가능합니다.",
+    "취약점에는 사전 인증 권한 우회 및 명령 삽입이 포함됩니다.",
+    "CVE-2026-116606의 CVSS 점수는 9.3입니다."
+   ]
+  }
+ }
+}

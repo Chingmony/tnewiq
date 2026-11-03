@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "21dc542a15790d27",
+ "contentHash": "32da947e589bc1bd",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-03T23:33:56.044Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Building ultra-low-latency voice AI applications on AWS",
+   "summary": "Cartesia uses State Space Models and AWS infrastructure to provide sub-100ms text-to-speech and speech-to-text globally. The company features two production voice models, Sonic for speech generation and Ink for transcription. These models address the streaming latency challenges traditionally faced by transformer-based architectures.",
+   "impact": "Developers building voice AI applications could use State Space Models to achieve lower latency and maintain natural conversational flows. This technology may help technical teams overcome the traditional trade-off between higher quality and higher latency in speech synthesis and transcription.",
+   "keyPoints": [
+    "Cartesia uses State Space Models to deliver sub-100ms text-to-speech and speech-to-text.",
+    "Sonic is Cartesia's model for speech generation and Ink is used for transcription.",
+    "State Space Models maintain a constant memory footprint and provide native streaming support."
+   ]
+  },
+  "km": {
+   "title": "ការបង្កើតកម្មវិធីបញ្ញាសិប្បនិម្មិតសំឡេងដែលមានភាពយឺតយ៉ាវទាបបំផុតនៅលើ AWS",
+   "summary": "Cartesia ប្រើប្រាស់ State Space Models និងហេដ្ឋារចនាសម្ព័ន្ធ AWS ដើម្បីផ្តល់នូវសេវាកម្មបំប្លែងអត្ថបទទៅជាសំឡេងនិងសំឡេងទៅជាអត្ថបទដែលមានភាពយឺតយ៉ាវក្រោម 100 មីលីវិនាទីនៅទូទាំងពិភពលោក។ ក្រុមហ៊ុននេះមានម៉ូដែលសំឡេងផលិតកម្មចំនួនពីរគឺ Sonic សម្រាប់ការបង្កើតសំឡេង និង Ink សម្រាប់ការសរសេរអត្ថបទតាមសម្លេង។ ម៉ូដែលទាំងនេះដោះស្រាយបញ្ហាប្រឈមនៃភាពយឺតយ៉ាវក្នុងការផ្សាយផ្ទាល់ដែលស្ថាបត្យកម្មផ្អែកលើ transformers តែងតែជួបប្រទះ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ដែលបង្កើតកម្មវិធីបញ្ញាសិប្បនិម្មិតសំឡេងអាចប្រើប្រាស់ State Space Models ដើម្បីសម្រេចបានភាពយឺតយ៉ាវទាបនិងរក្សាលំហូរនៃការសន្ទនាធម្មជាតិ។ បច្ចេកវិទ្យានេះអាចជួយក្រុមបច្ចេកទេសជំនះលើបញ្ហាប្រឈមរវាងគុណភាពខ្ពស់និងភាពយឺតយ៉ាវខ្ពស់ក្នុងការសំយោគនិងការសរសេរអត្ថបទតាមសំឡេង។",
+   "keyPoints": [
+    "Cartesia ប្រើប្រាស់ State Space Models ដើម្បីផ្តល់ការបំប្លែងអត្ថបទទៅជាសំឡេងនិងសំឡេងទៅជាអត្ថបទក្រោម 100 មីលីវិនាទី។",
+    "Sonic គឺជាម៉ូដែលរបស់ Cartesia សម្រាប់ការបង្កើតសំឡេង ហើយ Ink ត្រូវបានប្រើសម្រាប់ការសរសេរអត្ថបទតាមសំឡេង។",
+    "State Space Models រក្សាអង្គចងចាំថេរ និងគាំទ្រការផ្សាយផ្ទាល់ដោយផ្ទាល់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在 AWS 上构建超低延迟语音 AI 应用程序",
+   "summary": "Cartesia 利用状态空间模型和 AWS 基础设施在全球范围内提供低于 100 毫秒的文本转语音和语音转文本服务。该公司推出了两个生产语音模型：用于语音生成的 Sonic 和用于转录的 Ink。这些模型解决了传统基于 Transformer 架构在流式传输延迟上面临的挑战。",
+   "impact": "构建语音 AI 应用程序的开发者可以使用状态空间模型来实现更低的延迟并维持自然的对话流程。这项技术可能帮助技术团队克服语音合成和转录中高质量与高延迟之间的传统权衡。",
+   "keyPoints": [
+    "Cartesia 使用状态空间模型来实现低于 100 毫秒的文本转语音和语音转文本。",
+    "Sonic 是 Cartesia 用于语音生成的模型，Ink 用于转录。",
+    "状态空间模型保持恒定的内存占用并支持原生流式传输。"
+   ]
+  },
+  "ko": {
+   "title": "AWS에서 초저지연 음성 AI 애플리케이션 구축하기",
+   "summary": "Cartesia는 State Space Models와 AWS 인프라를 활용하여 전 세계적으로 100밀리초 미만의 텍스트 음성 변환 및 음성 텍스트 변환을 제공합니다. 이 회사는 음성 생성을 위한 Sonic과 전사를 위한 Ink라는 두 가지 프로덕션 음성 모델을 보유하고 있습니다. 이러한 모델들은 기존 트랜스포머 기반 아키텍처가 직면했던 스트리밍 지연 문제를 해결합니다.",
+   "impact": "음성 AI 애플리케이션을 구축하는 개발자는 State Space Models를 사용하여 더 낮은 지연 시간을 달성하고 자연스러운 대화 흐름을 유지할 수 있습니다. 이 기술은 기술 팀이 음성 합성 및 전사에서 더 높은 품질과 더 높은 지연 시간 사이의 전통적인 절충안을 극복하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "Cartesia는 State Space Models를 사용하여 100밀리초 미만의 텍스트 음성 변환 및 음성 텍스트 변환을 제공합니다.",
+    "Sonic은 음성 생성을 위한 Cartesia의 모델이며 Ink는 전사에 사용됩니다.",
+    "State Space Models는 일정한 메모리 공간을 유지하고 네이티브 스트리밍을 지원합니다."
+   ]
+  }
+ }
+}
