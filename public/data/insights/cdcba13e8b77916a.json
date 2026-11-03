@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "cdcba13e8b77916a",
+ "contentHash": "72809ad91102e865",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-03T09:39:34.513Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+   "summary": "BTCPay Server urged users to install the latest software version after reports of Bitcoin and Litecoin being stolen from hot wallets on older instances. The investigation revealed that the attacks targeted servers running BTCPay Server 2.4.1 or earlier. BTCPay Server is a self-hosted, open-source cryptocurrency payment processor.",
+   "impact": "Administrators and users running older versions of BTCPay Server could face risks of cryptocurrency theft from hot wallets. Upgrading to the latest software version may help mitigate these security threats.",
+   "keyPoints": [
+    "Bitcoin and Litecoin were stolen from hot wallets.",
+    "Attacks targeted servers running BTCPay Server 2.4.1 or earlier.",
+    "Users are urged to install the latest software version."
+   ]
+  },
+  "km": {
+   "title": "ពួក Hacker រំលោភបំពានចំណុចខ្សោយ BTCPay Server ដើម្បីលួច Bitcoin និង Litecoin ពី Hot Wallets",
+   "summary": "BTCPay Server បានទទូចឱ្យអ្នកប្រើប្រាស់ដំឡើងកំណែសូហ្វវែរចុងក្រោយបំផុត បន្ទាប់ពីមានរបាយការណ៍អំពីការលួច Bitcoin និង Litecoin ពី hot wallets នៅលើកំណែចាស់ៗ។ ការស៊ើបអង្កេតបានរកឃើញថា ការវាយប្រហារទាំងនោះបានកំណត់គោលដៅលើសឺវើដែលដំណើរការ BTCPay Server 2.4.1 ឬទាបជាងនេះ។ BTCPay Server គឺជាកម្មវិធីដំណើរការទូទាត់រូបិយប័ណ្ណគ្រីបតូកូដបែបកូដបើកទូលាយដែលបង្ហោះដោយខ្លួនឯង។",
+   "impact": "អ្នកគ្រប់គ្រង និងអ្នកប្រើប្រាស់ដែលដំណើរការកំណែចាស់របស់ BTCPay Server អាចប្រឈមមុខនឹងហានិភ័យនៃការលួចរូបិយប័ណ្ណគ្រីបតូពី hot wallets។ ការធ្វើបច្ចុប្បន្នភាពទៅកំណែសូហ្វវែរថ្មីបំផុតអាចជួយកាត់បន្ថយការគំរាមកំហែងសុវត្ថិភាពទាំងនេះ។",
+   "keyPoints": [
+    "Bitcoin និង Litecoin ត្រូវបានលួចពី hot wallets។",
+    "ការវាយប្រហារបានកំណត់គោលដៅលើសឺវើដែលដំណើរការ BTCPay Server 2.4.1 ឬទាបជាងនេះ។",
+    "អ្នកប្រើប្រាស់ត្រូវបានទទូចឱ្យដំឡើងកំណែសូហ្វវែរចុងក្រោយបំផុត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "黑客利用 BTCPay Server 漏洞从热钱包中窃取 Bitcoin 和 Litecoin",
+   "summary": "在接到有关运行旧版本的实例中热钱包的 Bitcoin 和 Litecoin 被盗的报告后，BTCPay Server 敦促用户安装其软件的最新版本。调查发现，这些攻击的目标是运行 BTCPay Server 2.4.1 或更早版本的服务器。BTCPay Server 是一个自托管的开源加密货币支付处理器。",
+   "impact": "运行旧版本 BTCPay Server 的管理员和用户可能会面临热钱包中加密货币被盗的风险。升级到最新软件版本可能会降低这些安全威胁。",
+   "keyPoints": [
+    "Bitcoin 和 Litecoin 从热钱包中被盗。",
+    "攻击目标为运行 BTCPay Server 2.4.1 或更早版本的服务器。",
+    "敦促用户安装最新软件版本。"
+   ]
+  },
+  "ko": {
+   "title": "해커, BTCPay Server 결함을 악용하여 핫 월렛에서 Bitcoin 및 Litecoin 도용",
+   "summary": "BTCPay Server는 구버전을 실행 중인 인스턴스의 핫 월렛에서 Bitcoin과 Litecoin이 도난당했다는 보고에 대응하여 사용자에게 최신 소프트웨어 버전을 설치할 것을 촉구했습니다. 조사 결과 이번 공격은 BTCPay Server 2.4.1 이하 버전을 실행 중인 서버를 겨냥한 것으로 나타났습니다. BTCPay Server는 자체 호스팅되는 오픈 소스 암호화폐 결제 프로세서입니다.",
+   "impact": "이전 버전의 BTCPay Server를 실행하는 관리자와 사용자는 핫 월렛에서 암호화폐를 도난당할 위험에 직면할 수 있습니다. 최신 소프트웨어 버전으로 업그레이드하면 이러한 보안 위협을 완화하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "핫 월렛에서 Bitcoin과 Litecoin이 도난당했습니다.",
+    "공격은 BTCPay Server 2.4.1 이하 버전을 실행하는 서버를 타겟으로 삼았습니다.",
+    "사용자들에게 최신 소프트웨어 버전 설치가 촉구되었습니다."
+   ]
+  }
+ }
+}

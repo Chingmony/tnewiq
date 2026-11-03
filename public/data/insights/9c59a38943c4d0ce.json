@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9c59a38943c4d0ce",
+ "contentHash": "de19a605e2ada63e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-03T09:41:21.248Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+   "summary": "Synology is urging customers to update the DiskStation Manager software powering its NAS devices following ransomware attacks. The company observed threat actors exploiting a vulnerability that was patched in December 2024. These attacks target devices running outdated versions of DSM to encrypt data and extort ransom.",
+   "impact": "Developers and system administrators managing Synology NAS devices should ensure that DiskStation Manager is updated to patched versions. Failing to apply available security updates may leave systems vulnerable to ransomware attacks and data encryption.",
+   "keyPoints": [
+    "Synology NAS devices are being targeted in ransomware attacks.",
+    "Attackers are exploiting a vulnerability patched in December 2024.",
+    "The attacks affect devices running outdated versions of DiskStation Manager.",
+    "The goal of the attacks is to encrypt data and extort ransom."
+   ]
+  },
+  "km": {
+   "title": "ប្រព័ន្ធ Synology NAS ត្រូវបានកំណត់គោលដៅក្នុងការវាយប្រហារដោយមេរោគជំរិតទារប្រាក់ដែលទាញយកប្រយោជន៍ពីកំហុស DSM ដែលបានជួសជុល",
+   "summary": "Synology កំពុងជំរុញឱ្យអតិថិជនធ្វើបច្ចុប្បន្នភាពកម្មវិធី DiskStation Manager ដែលដំណើរការលើឧបករណ៍ NAS របស់ខ្លួន បន្ទាប់ពីមានការវាយប្រហារដោយមេរោគជំរិតទារប្រាក់។ ក្រុមហ៊ុនបានរកឃើញពួកឧក្រិដ្ឋជនតាមប្រព័ន្ធអ៊ីនធឺណិតទាញយកប្រយោជន៍ពីភាពងាយរងគ្រោះដែលត្រូវបានជួសជុលកាលពីខែធ្នូ ឆ្នាំ ២០២៤។ ការវាយប្រហារទាំងនេះមានគោលបំណងអ៊ិនគ្រីបទិន្នន័យ និងជំរិតទារប្រាក់។",
+   "impact": "អ្នកគ្រប់គ្រងប្រព័ន្ធនិងអ្នកអភិវឌ្ឍន៍ដែលប្រើប្រាស់ឧបករណ៍ Synology NAS គួរតែធានាថា DiskStation Manager ត្រូវបានធ្វើបច្ចុប្បន្នភាពទៅកំណែដែលបានជួសជុល។ ការមិនអនុវត្តបច្ចុប្បន្នភាពសុវត្ថិភាពអាចធ្វើឱ្យប្រព័ន្ធងាយរងគ្រោះចំពោះការវាយប្រហារដោយមេរោគជំរិតទារប្រាក់។",
+   "keyPoints": [
+    "ឧបករណ៍ Synology NAS កំពុងរងការវាយប្រហារដោយមេរោគជំរិតទារប្រាក់។",
+    "ពួកឧក្រិដ្ឋជនកំពុងទាញយកប្រយោជន៍ពីភាពងាយរងគ្រោះដែលបានជួសជុលក្នុងខែធ្នូ ឆ្នាំ ២០២៤។",
+    "ការវាយប្រហារប៉ះពាល់ដល់ឧបករណ៍ដែលប្រើប្រាស់កំណែ DiskStation Manager ចាស់។",
+    "គោលបំណងនៃការវាយប្រហារគឺដើម្បីអ៊ិនគ្រីបទិន្នន័យ និងទារប្រាក់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "群晖 NAS 设备成为勒索软件攻击的目标，攻击者利用已修补的 DSM 漏洞",
+   "summary": "在发生勒索软件攻击后，群晖正敦促客户更新为其网络附加存储设备提供支持的 DiskStation Manager 软件。该公司表示，观察到威胁行为者正在利用在 2024 年 12 月修补的一个漏洞，针对运行过时版本 DSM 的设备。这些攻击旨在加密数据并勒索赎金。",
+   "impact": "管理群晖 NAS 设备的开发人员和系统管理员应确保将 DiskStation Manager 更新到已修补的版本。未能应用安全更新可能会使系统容易受到勒索软件攻击和数据加密的影响。",
+   "keyPoints": [
+    "群晖 NAS 设备正成为勒索软件攻击的目标。",
+    "攻击者正在利用 2024 年 12 月修补的一个漏洞。",
+    "攻击影响运行过时版本 DiskStation Manager 的设备。",
+    "攻击的目的是加密数据并勒索赎金。"
+   ]
+  },
+  "ko": {
+   "title": "패치된 DSM 결함을 악용한 랜섬웨어 공격의 표적이 된 Synology NAS 장치",
+   "summary": "Synology는 랜섬웨어 공격 발생 후 NAS 장치를 구동하는 DiskStation Manager 소프트웨어를 업데이트할 것을 고객들에게 촉구하고 있습니다. 이 회사는 위협 행위자들이 구버전 DSM을 실행하는 장치를 대상으로 2024년 12월에 패치된 취약점을 악용하고 있는 것을 관측했다고 밝혔습니다. 이러한 공격은 데이터를 암호화하고 랜섬을 갈취하는 것을 목표로 합니다.",
+   "impact": "Synology NAS 장치를 관리하는 개발자와 보안 팀은 DiskStation Manager가 패치된 버전으로 업데이트되었는지 확인해야 합니다. 보안 업데이트를 적용하지 않으면 시스템이 랜섬웨어 공격과 데이터 암호화에 취약해질 수 있습니다.",
+   "keyPoints": [
+    "Synology NAS 장치가 랜섬웨어 공격의 표적이 되고 있습니다.",
+    "공격자들은 20이번에 패치된 2024년 12월의 취약점을 악용하고 있습니다.",
+    "이번 공격은 구버전 DiskStation Manager를 실행하는 장치들에 영향을 미칩니다.",
+    "공격의 목적은 데이터를 암호화하고 랜섬을 갈취하는 것입니다."
+   ]
+  }
+ }
+}
