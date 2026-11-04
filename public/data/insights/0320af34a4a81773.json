@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0320af34a4a81773",
+ "contentHash": "49a70fd6344064bc",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-04T15:34:45.920Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Anthropic's new prototype proves which model wrote an AI response without exposing its weights",
+   "summary": "Anthropic has released FlashProve, a research prototype that uses cryptography to verify whether an AI response actually came from a claimed model. The system currently features significant limitations despite its cryptographic approach.",
+   "impact": "This cryptographic verification method could provide developers and security teams with a way to trust AI model origins without exposing proprietary weights. However, due to significant limitations, its immediate practical utility may be restricted.",
+   "keyPoints": [
+    "Anthropic released FlashProve as a research prototype.",
+    "The system uses cryptography to verify AI response origins.",
+    "FlashProve verifies models without exposing their weights.",
+    "The prototype currently has significant limitations."
+   ]
+  },
+  "km": {
+   "title": "គំរូដើមថ្មីរបស់ Anthropic បញ្ជាក់ថាតើម៉ូដែលណាមួយបានសរសេរចម្លើយ AI ដោយមិនបញ្ចេញទម្ងន់របស់វា",
+   "summary": "Anthropic បានចេញផ្សាយ FlashProve ដែលជាគំរូដើមស្រាវជ្រាវប្រើប្រាស់គ្រីបតូហ្គ្រាហ្វី ដើម្បីផ្ទៀងផ្ទាត់ថាតើចម្លើយ AI ពិតជាមកពីម៉ូដែលដែលបានអះអាងដែរឬទេ។ ប្រព័ន្ធនេះនៅតែមានកម្រិតសំខាន់ៗ។",
+   "impact": "វិធីសាស្ត្រផ្ទៀងផ្ទាត់នេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវមធ្យោបាយដើម្បីជឿទុកចិត្តលើប្រភពដើមនៃម៉ូដែល AI ដោយមិនចាំបាច់បញ្ចេញទម្ងន់កម្មសិទ្ធិ។ ទោះជាយ៉ាងណាក៏ដោយ ដោយសារមានកម្រិតសំខាន់ៗ utilidad របស់វាអាចមានកម្រិត។",
+   "keyPoints": [
+    "Anthropic បានចេញផ្សាយ FlashProve ជាគំរូដើមស្រាវជ្រាវ។",
+    "ប្រព័ន្ធប្រើប្រាស់គ្រីបតូហ្គ្រាហ្វីដើម្បីផ្ទៀងផ្ទាត់ប្រភពចម្លើយ AI។",
+    "FlashProve ផ្ទៀងផ្ទាត់ម៉ូដែលដោយមិនបញ្ចេញទម្ងន់របស់វា។",
+    "គំរូដើមបច្ចុប្បន្នមានកម្រិតសំខាន់ៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Anthropic的新原型证明了哪个模型编写了AI响应而无需暴露其权重",
+   "summary": "Anthropic发布了FlashProve，这是一个研究原型，它使用密码学来验证AI响应是否真的来自声称的模型。该系统目前仍然存在明显的局限性。",
+   "impact": "这种密码学验证方法可能为开发人员和安全团队提供一种信任AI模型来源的方法，且无需暴露其专有权重。然而，由于存在明显的局限性，其实际应用可能会受到限制。",
+   "keyPoints": [
+    "Anthropic发布了作为研究原型的FlashProve。",
+    "该系统使用密码学验证AI响应来源。",
+    "FlashProve在不暴露权重的情况下验证模型。",
+    "该原型目前具有明显的局限性。"
+   ]
+  },
+  "ko": {
+   "title": "Anthropic의 새로운 프로토타입은 가중치를 공개하지 않고도 어떤 모델이 AI 응답을 작성했는지 증명합니다",
+   "summary": "Anthropic은 암호학을 사용하여 AI 응답이 실제로 주장된 모델에서 나왔는지 확인하는 연구용 프로토타입인 FlashProve를 출시했습니다. 이 시스템은 여전히 상당한 한계를 가지고 있습니다.",
+   "impact": "이러한 암호화 검증 방식은 개발자와 보안 팀이 소유권 가중치를 노출하지 않고도 AI 모델 출원을 신뢰할 수 있는 방법을 제공할 수 있습니다. 그러나 상당한 한계로 인해 즉각적인 실용성은 제한될 수 있습니다.",
+   "keyPoints": [
+    "Anthropic이 연구용 프로토타입으로 FlashProve를 출시했습니다.",
+    "시스템은 암호학을 사용하여 AI 응답 출처를 검증합니다.",
+    "FlashProve는 가중치를 노출하지 않고 모델을 검증합니다.",
+    "프로토타입은 현재 상당한 한계를 가지고 있습니다."
+   ]
+  }
+ }
+}

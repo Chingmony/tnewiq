@@ -1,7 +1,782 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-04T06:31:02.904Z",
+ "generatedAt": "2026-11-04T15:28:30.777Z",
  "articles": [
+  {
+   "id": "29b3350fcf5dde8e",
+   "sourceId": "vscode-blog",
+   "sourceName": "Visual Studio Code Blog",
+   "originalTitle": "Visual Studio Code 1.145",
+   "originalUrl": "https://code.visualstudio.com/updates/v1_145",
+   "originalLanguage": "en",
+   "originalDescription": "Learn what's new in Visual Studio Code 1.145 Read the full article",
+   "publishedAt": "2026-11-04T17:00:00.000Z",
+   "discoveredAt": "2026-10-28T18:52:51.211Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "8e8f64e449105951"
+  },
+  {
+   "id": "4c0f71dc47d14de2",
+   "sourceId": "vscode-blog",
+   "sourceName": "Visual Studio Code Blog",
+   "originalTitle": "Visual Studio Code 1.146 (Insiders)",
+   "originalUrl": "https://code.visualstudio.com/updates/v1_146",
+   "originalLanguage": "en",
+   "originalDescription": "Learn what's new in Visual Studio Code 1.146 (Insiders) Read the full article",
+   "publishedAt": null,
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "893ba8cc07abe30c"
+  },
+  {
+   "id": "0320af34a4a81773",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Anthropic's new prototype proves which model wrote an AI response without exposing its weights",
+   "originalUrl": "https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights/",
+   "originalLanguage": "en",
+   "originalDescription": "Anthropic has released FlashProve, a research prototype that uses cryptography to verify whether an AI response actually came from the claimed model. The system still has significant limitations. The article Anthropic's new prototype proves which model wrote an AI response…",
+   "publishedAt": "2026-11-04T15:23:49.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "49a70fd6344064bc"
+  },
+  {
+   "id": "2322faed842dfa6f",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Sam Altman addresses RAM comments: people should ‘put as much as they want in their computers’",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments",
+   "originalLanguage": "en",
+   "originalDescription": "OpenAI CEO Sam Altman spent election night defending his position on PC RAM purchases. He changed his name on X to \"Ram Altman\" in response to another user's comment, saying, \"i actually do want the world to have tons of memory and people to put as much as they want in their…",
+   "publishedAt": "2026-11-04T14:46:01.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "1d86e0577d46dcdb"
+  },
+  {
+   "id": "1be4fdd8e6ca80f0",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "originalTitle": "OpenAI to acquire Pierre Computer Company, Inc.",
+   "originalUrl": "https://openai.com/index/openai-to-acquire-pierre",
+   "originalLanguage": "en",
+   "originalDescription": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+   "publishedAt": "2026-11-04T14:30:00.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "340c633b8d2b956c"
+  },
+  {
+   "id": "f4b7ff866caa5870",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+   "originalUrl": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+   "originalLanguage": "en",
+   "originalDescription": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker…",
+   "publishedAt": "2026-11-04T14:27:52.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "cybersecurity",
+    "mobile-hardware"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx1cus2o8fkYGLhQu9BfPgGtAUwnmTAMucLagfAodBuRoYnyxGIJKgpqtKFyCSV-WSG3pDqmPujhj-iwoOZB-zF8JjbQMrLzDHYtdTPA3hD3Kc3rqYQM4CQwkICwZkh8K6O8ZSt-WAA_PBoUA6lHwh_55dbDlKizsjzcTN847c9BSHsWHmrAP42JHRHIYS/s1600/ios-exploit.jpg",
+   "contentHash": "54f3ed863ffaa458"
+  },
+  {
+   "id": "d13fbfe75d78ae19",
+   "sourceId": "cloudflare-blog",
+   "sourceName": "The Cloudflare Blog",
+   "originalTitle": "See the agents, set the terms: new visibility and control for personal agents",
+   "originalUrl": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+   "originalLanguage": "en",
+   "originalDescription": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
+   "publishedAt": "2026-11-04T14:00:00.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M6HZ1ZE3ZTGF9NEGGPF8SZNS.png",
+   "contentHash": "fc85af1d4f5752d7"
+  },
+  {
+   "id": "6c941b016a2f37cc",
+   "sourceId": "mit-technology-review-ai",
+   "sourceName": "MIT Technology Review AI",
+   "originalTitle": "Securing the agentic enterprise with data lineage",
+   "originalUrl": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+   "originalLanguage": "en",
+   "originalDescription": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal…",
+   "publishedAt": "2026-11-04T13:00:00.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "058d7bee3d794585"
+  },
+  {
+   "id": "83abbe2c5d4334fb",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
+   "originalUrl": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
+   "originalLanguage": "en",
+   "originalDescription": "Today is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today.",
+   "publishedAt": "2026-11-04T13:00:00.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "4321b6534c6051ff"
+  },
+  {
+   "id": "eeeb8b0c17d40904",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+   "originalUrl": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+   "originalLanguage": "en",
+   "originalDescription": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in an advisory and fixed it in versions 8.1.4.1…",
+   "publishedAt": "2026-11-04T12:07:04.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaJWnScdkMx0R5_Zt00NtYVNjNavBR7IMrLzJM_tZGMTpZtAvV7uNWt6BQbBrlUzH-aBoj_ZmMEOG__aTA8VmfTeiHUR9gfqNe2eYf9fSM-sYQkmCOg10qZ3ZaKyM_RS1QUQhm8s5NMw-xnYaWMDgDakmFyp9tbJgQ4hOZTf0cxe9E6x7uWt3JeN6bS3k/s1600/ruby-rails.jpg",
+   "contentHash": "5de2ab7f492c4385"
+  },
+  {
+   "id": "9a66a9476221031c",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Google hasn’t figured out how to make AI pay like its search engine",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
+   "originalLanguage": "en",
+   "originalDescription": "Search queries are growing at their fastest rate in five years, Google parent Alphabet said in its earnings report last week. However, Google's Search revenue growth slowed to 12 percent year over year in the third quarter, down from roughly 17 percent in the previous quarter…",
+   "publishedAt": "2026-11-04T12:00:00.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "8b2fb2c766ff461c"
+  },
+  {
+   "id": "a60c29c498ad06a8",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+   "originalUrl": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+   "originalLanguage": "en",
+   "originalDescription": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0. Dom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known…",
+   "publishedAt": "2026-11-04T11:46:27.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAVPXiuTBfhBnpwaZHMfSDWymKJrXbS88kOEO1Xuh5t11qAnwSKeFTHGQy6ZG9Sr2N-wRYrJg58x3lKFbybvU9p1a85lxaCHfBa61vO1DfjEhUi5Yzf6bQS1eN7Mu-s_sUwkE-JGc-UznJ1p0qfmwMDusXFzWawXKXMt6jj-vENxyQG12uAUDUe0p0gtg/s1600/xen.jpg",
+   "contentHash": "768ac0166e917ae6"
+  },
+  {
+   "id": "6cb0374f8d770396",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+   "originalUrl": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+   "originalLanguage": "en",
+   "originalDescription": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one. One recent case shows what…",
+   "publishedAt": "2026-11-04T11:34:20.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQqFIm3V3DsL6rHtjhkN8qVT2sU-caHUEuPgeepdZ6lLsIJ-09GFg_HVVBgeHP36W0abqUeCuaNuAOIheSGYB9hxmHbQGcgREBBxStEFLijgx-Cd8C8Z8wLuxgFFu75O8hAAOcdjAxgCZ-iYoBvYS09AcITdqMnmLZOn2JdGaEp04SPrgYkgQ14dl1S0JS/s1600/reco.gif",
+   "contentHash": "d2cc48ff6c318461"
+  },
+  {
+   "id": "73251ea6fbbb9651",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+   "originalUrl": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+   "originalLanguage": "en",
+   "originalDescription": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called…",
+   "publishedAt": "2026-11-04T11:24:31.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMawvNNOvRYRm-k7ii9yDdw214v4kwQ7h5fAfOaUVkvMetNwArral8qumlObtaftjOcBsibL9vkqM1UT0-9l9jYPjj3M3C9NcPfg5pdIuENUfdKlK7lyseCS30AVhgLLs6a-2fdXlSDymSVeyIziO7IC13HFCaOf1v4sjbgmkeKfewWNsbTJCJ0WR2zLBZ/s1600/key.jpg",
+   "contentHash": "f1d1ae2567c8f730"
+  },
+  {
+   "id": "90662dd7a15a813f",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Exit polls show AI ranked last among voter priorities in the 2026 U.S. midterms",
+   "originalUrl": "https://the-decoder.com/exit-polls-show-ai-ranked-last-among-voter-priorities-in-the-2026-u-s-midterms/",
+   "originalLanguage": "en",
+   "originalDescription": "In the 2026 U.S. midterm elections, AI ranked last among campaign issues: only 56 percent of respondents cited AI and data centers as an important factor. According to NBC exit polls, corruption (90 percent) and the cost of living (89 percent) clearly dominated, despite growing…",
+   "publishedAt": "2026-11-04T10:45:54.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "44abadcced6001e1"
+  },
+  {
+   "id": "1e6f2ae7c668b9f9",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "不靠堆砌数据，让机器人看懂真实物理世界 | 招商局狮子山实验室发布「驭物™ Lion-ER-35B-A3B」具身推理模型",
+   "originalUrl": "https://www.qbitai.com/2026/11/507586.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "仅激活3B参数，十项基准全线提升！",
+   "publishedAt": "2026-11-04T10:08:38.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "f5edebbbaff5d7b5"
+  },
+  {
+   "id": "86f26f940f92c53a",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Schools that turn off Google's AI will lose search too starting in 2027",
+   "originalUrl": "https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027/",
+   "originalLanguage": "en",
+   "originalDescription": "Starting in 2027, Google plans to turn off AI features in its school products by default, letting schools decide what to enable. The catch: schools that block AI entirely on their devices will also lose access to Google Search, since the two systems are now too deeply…",
+   "publishedAt": "2026-11-04T10:06:23.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "1358776be04eb7a5"
+  },
+  {
+   "id": "f55780449bd7af99",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "앤트로픽 \"RSI 가속에 AI 안전 대책 뒤처질 수도\"…통제 강화 검토",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216984",
+   "originalLanguage": "ko",
+   "originalDescription": "앤트로픽이 AI를 활용한 연구개발이 급격히 빨라지면서 안전성과 보안 대책을 마련하는 속도를 앞지를 수 있다고 경고했다. 특히 과거에도 개발 속도가 크게 빨라진 사실을 뒤늦게 파악한 적이 있다고 인정하며, 재귀적 자기개선(RSI)에 대비해 인간의 감독과 통제 체계를 강화할 필요성을 제기했다.테크크런치는 2일(현지시간) 앤트로픽이 기업공개(IPO)를 위해 미국 증권거래위원회(SEC)에 제출한 증권신고서 수정본(S-1/A)에 이 같은 위험을 구체적으로 추가했다고 보도했다.지난달 26일 최초…",
+   "publishedAt": "2026-11-04T09:24:21.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "96afd17132db3b84"
+  },
+  {
+   "id": "fce613d50e661210",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "오픈AI, AI로 하드웨어 설계 일주일 만에 완료…실제 시제품 제작",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216989",
+   "originalLanguage": "ko",
+   "originalDescription": "오픈AI가 AI 모델을 활용해 기계·전기 공학부터 시스템 설계, 시제품 제작까지 하드웨어 개발 전반을 가속하고 있다고 밝혔다. 설계 도면 작성과 시뮬레이션 설정은 물론 제조 과정에 필요한 작업까지 지원하며, 내부 팀의 아이디어 검증과 설계 반복 속도를 높이고 있다는 설명이다.오픈AI는 3일(현지시간) 공식 블로그를 통해 'GPT-6'로 기능 요구사항을 정하고, 'GPT-6 아스트라(Astra)'를 활용해 사람이 설계 결과물을 직접 수정하지 않고 실제 장치를 만들 수 있는지 실험했다고…",
+   "publishedAt": "2026-11-04T09:07:03.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "85353875e3115552"
+  },
+  {
+   "id": "a462338fc4850faf",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "\"AI에 일 맡길수록 감독 능력도 퇴화\"…앤트로픽 엔지니어 경고",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217019",
+   "originalLanguage": "ko",
+   "originalDescription": "AI 에이전트가 코딩과 업무를 대신하는 비중이 늘면서 인간의 판단력과 전문성이 약해질 수 있다는 경고가 나오고 있다. 특히 AI가 만든 결과물을 검증하려면 인간의 전문성이 필요하지만, AI에 작업을 맡길수록 그 능력마저 퇴화할 수 있다는 '감독의 역설(Paradox of Supervision)'이 새로운 문제로 떠올랐다.앤트로픽의 '클로드 코드' 개발팀에서 일하는 엔지니어 애디 오스마니는 3일(현지시간) X에 공개한 글에서 AI 에이전트가 발전할수록 개발자들이 비판적 사고와 검증 능력을…",
+   "publishedAt": "2026-11-04T09:00:00.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "15b85ef70f5cf347"
+  },
+  {
+   "id": "efa7c7f9d0d9888e",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "超维动力全栈矩阵亮相2026香港金融科技周，具身智能硬科技引爆全场",
+   "originalUrl": "https://www.qbitai.com/2026/11/507574.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "一场别开生面的具身智能科技盛宴",
+   "publishedAt": "2026-11-04T08:59:57.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "88468ffb5cc1b7ca"
+  },
+  {
+   "id": "968f455edd892eae",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "调问更新 10.19 ~ 11.3：测评计分能力全面升级，问卷设计与管理体验持续优化",
+   "originalUrl": "https://www.oschina.net/news/503394",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "DWSurvey 更新日志 测评计分能力全面升级，问卷设计与管理体验持续优化 坚持前后端代码 100% 开源 助力企业建设自主可控的问卷调研系统 官网地址www.diaowen.net ➔ 源码下载Gitee 仓库 ➔ 本次更新：新增迫选题、量表反向计分、维度结果判定及公式赋分等功能，进一步完善测评应用能力。同时优化规则引擎、AI 外呼、团队...",
+   "publishedAt": "2026-11-04T08:55:48.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "b66c335cfba7dd7f"
+  },
+  {
+   "id": "511651698a5d5b7d",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "\"AI 초장문 처리 속도 최대 35배 높인다\"…자이프라, 새 어텐션 기술 공개",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217008",
+   "originalLanguage": "ko",
+   "originalDescription": "미국 AI 스타트업 자이프라(Zyphra)가 초장문 문맥 처리 속도를 크게 높일 수 있는 새로운 희소 어텐션 기술을 공개했다. 문서 전체를 검색하는 대신 정보를 계층적으로 정리한 뒤 필요한 부분만 찾아가는 방식으로, 1000만 토큰 문맥에서 기존 일반 어텐션보다 최대 35배 빠른 처리 속도를 낼 수 있다는 예측 결과를 제시했다.자이프라는 2일(현지시간) 기존 트랜스포머의 연산 부담을 줄이기 위해 개발한 '자이프라 계층적 어텐션(ZHA·Zyphra Hierarchical Attention)'…",
+   "publishedAt": "2026-11-04T08:54:42.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "4933b3ed6d8afff3"
+  },
+  {
+   "id": "07702e7b922cb6d5",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "虎鲸文娱“鲸锐AI”平台正式上线，AI视频单分钟成本节省30%以上",
+   "originalUrl": "https://www.qbitai.com/2026/11/507567.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "11月4日，虎鲸文娱集团打造的行业首个AI影视制作与管理平台“鲸锐AI”正式上线。",
+   "publishedAt": "2026-11-04T08:49:12.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "fed9e6c08d05a73a"
+  },
+  {
+   "id": "89fbd54d81232b6e",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "仓颉语言原生 Coding Agent：cjh，一个文件就是整个开发团队",
+   "originalUrl": "https://www.oschina.net/news/503393",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "项目地址 GitHub: https://github.com/yangyongzhen/cjh 它是什么 cjh 是一个用华为仓颉语言从零实现的交互式编码代理（coding agent harness）。在终端里用自然语言描述任务，Agent 自主规划、调用工具、观察结果、迭代直到完成——全程 TUI 实时呈现，也可以通过 Web 远程驱动。 但它不是又一个\"LLM 套壳\"。cjh 从立项...",
+   "publishedAt": "2026-11-04T08:44:14.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "6ebbf8ec24899b6e"
+  },
+  {
+   "id": "65a45fb2060b2648",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "\"AI 현장 엔지니어 연봉 최대 19억원\"...기업들 FDE 확보 총력",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217007",
+   "originalLanguage": "ko",
+   "originalDescription": "기업들이 AI의 실제 업무 적용을 지원하는 '전방 배치 엔지니어(FDE)' 확보 경쟁에 나서면서, 이들의 몸값이 치솟고 있다. 최상위급 인력의 연간 총보수는 최대 145만달러(약 19억원)에 달하는 것으로 나타났다. AI 도입이 실험 단계를 넘어 실제 사업 성과를 내는 단계로 접어들면서 현장에 AI 시스템을 구축할 수 있는 인재의 가치가 높아지고 있다는 분석이다.2일(현지시간) 월스트리트저널(WSJ)에 따르면, 미국 헤드헌팅 업체 크리스천앤팀버스(Christian & Timbers)가 최근…",
+   "publishedAt": "2026-11-04T08:40:04.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "f2878920f703164f"
+  },
+  {
+   "id": "f60e09dd7144e79a",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "PingWAF - 面向现代 Web 应用的高性能分布式安全防护平台",
+   "originalUrl": "https://www.oschina.net/p/pingwaf",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "PingWAF 基于 Rust 构建，是一款开源 Web 应用防火墙（WAF）与反向代理安全平台。项目以 Pingap 和 Cloudflare Pingora 为底层代理技术，融合语义级攻击检测、智能规则匹配、CC 防护、Bot 管理、访问控制、分布式策略同步及可视化安全运营能力，为企业网站、API 服务、SaaS 平台及互联网业务提供一套可自主部署、集中管理...",
+   "publishedAt": "2026-11-04T08:37:50.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "711dfc719d510c62"
+  },
+  {
+   "id": "11390f5728bed10a",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "\"엔비디아 심기 거스를라\"...오픈AI도 중국 칩 수출 규제에 발언 자제",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216992",
+   "originalLanguage": "ko",
+   "originalDescription": "엔비디아가 AI 칩 시장의 압도적인 지배력을 바탕으로 고객사의 사업 결정은 물론 미국 정부의 수출 정책에도 막강한 영향력을 행사하고 있다는 보도가 나왔다. 오픈AI조차 엔비디아와의 관계 악화를 우려해 중국에 대한 첨단 반도체 수출 규제 문제에서 공개적인 입장을 내는 데 신중한 태도를 보여온 것으로 전해졌다.2일(현지시간) 디 인포메이션에 따르면, 오픈AI의 노엄 브라운 부사장은 최근 사내 슬랙 채널에 회사의 대중국 반도체 수출 정책 변화를 다룬 기사를 공유하며 \"우리의 반도체 수출 정책은…",
+   "publishedAt": "2026-11-04T08:33:34.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "6b8eae49d054e1e5"
+  },
+  {
+   "id": "a70e88695dcba709",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "중국 브레인코, 뇌 자극 '전자식 비만 치료제' 개발 중",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217015",
+   "originalLanguage": "ko",
+   "originalDescription": "중국 뇌-컴퓨터 인터페이스(BCI) 기업 브레인코(BrainCo)가 뇌를 자극해 식욕을 억제하는 웨어러블 기기를 개발하고 있다. 주사나 약물 없이 뇌 신호를 조절해 비만 치료제와 유사한 효과를 내겠다는 구상으로, 기존 GLP-1 계열 비만 치료제를 대체할 수 있는 새로운 방식으로 주목된다.닉스 허 브레인코 공동 창업 파트너는 3일(현지시간) 런던에서 열린 블룸버그 테크 행사에서 \"전자식 GLP-1\"을 목표로 한 제품을 개발 중이며, 2~3년 안에 시장에 출시할 계획이라고 밝혔다. 중국에서 먼저…",
+   "publishedAt": "2026-11-04T08:28:16.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "2ebb891097a853b4"
+  },
+  {
+   "id": "7f330728e0367f47",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "EU 최고법원 법무관 \"AI 기사 무단 요약은 저작권 침해\"...구글 제미나이 소송 주목",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217014",
+   "originalLanguage": "ko",
+   "originalDescription": "유럽연합(EU) 최고법원인 유럽사법재판소(ECJ)의 법무관이 구글의 AI 챗봇 '제미나이'가 언론사 기사를 검색해 답변을 생성하는 과정에서 저작권을 침해할 수 있다는 법률 의견을 내놨다. 단순히 기사에 담긴 사실을 전달하는 것은 문제가 없지만, 원문의 표현을 재현하거나 이용자가 원문을 읽지 않아도 될 정도로 내용을 제공하면 언론사의 권리를 침해할 수 있다는 판단이다.월스트리트저널(WSJ)에 따르면, 마치에이 슈푸나르 ECJ 수석 법무관은 4일(현지시간) AI 챗봇이 언론사 웹사이트에서 기사를…",
+   "publishedAt": "2026-11-04T08:24:28.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "38d09dda0278f62f"
+  },
+  {
+   "id": "8fbc5f560a7a8a6c",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "전남광주, 축사 1362농가 화재 점검…전기 요인 48.8%",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217020",
+   "originalLanguage": "ko",
+   "originalDescription": "AI 생성 영상전남광주통합특별시가 겨울철 축사 화재 예방을 위해 돼지·가금 사육농가 1362호를 대상으로 화재 위험요인 점검에 나선다. 최근 5년간 지역 축사 화재 211건 가운데 전기적 요인이 48.8%로 가장 많았다.전남광주는 오는 12월10일까지 돼지 사육농가 470호와 3000마리 이상 닭·오리 사육농가 892호를 대상으로 농가 자율점검과 시군·소방기관의 예방조치 이행 확인을 추진한다고 4일 밝혔다.전남광주통합소방본부에 따르면 2021년부터 2025년까지 지역에서 발생한 축사 화재는…",
+   "publishedAt": "2026-11-04T08:21:05.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "a43f8154dcee22d3"
+  },
+  {
+   "id": "ae5b3132b9c3ca62",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "“건강을 디자인하다”… 계양구보건소, 석재 아트월로 공공의료 공간에 새로운 활력",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217021",
+   "originalLanguage": "ko",
+   "originalDescription": "인천시 계양구보건소가 의료공간의 기능성과 심미성을 조화롭게 담아낸 실내 석재 아트월을 선보였다. 이번 프로젝트는 보건소를 방문하는 주민들에게 친근하고 편안한 환경을 제공하고, 공공의료시설의 공간적 가치를 높이는 데 초점을 맞췄다.특히 민원 접수 및 대기공간의 벽면을 활용해 의료와 건강을 상징하는 디자인을 구현한 점이 눈길을 끈다. 중앙에는 청진기를 든 의료 캐릭터를 배치하고, 양옆으로 심전도 파형과 하트, 주사기, 의약품 등 다양한 의료 관련 이미지를 조화롭게 구성했다.밝고 생동감 있는 색채와…",
+   "publishedAt": "2026-11-04T08:19:54.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "c0b8a05d15d3810a"
+  },
+  {
+   "id": "595e0a9dfde72e64",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+   "originalUrl": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+   "originalLanguage": "en",
+   "originalDescription": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016. The Ministry of…",
+   "publishedAt": "2026-11-04T08:17:11.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvVXRk9XWLvV5V7-gF-fqxa3YEEGpquE2Q8rML0rLK7ieZAbLJLqsHS6Sk012cwUslyYApJRP4b8SvmPCyATY2SbWpuhWILK0MRglNFqH5l5rVhTjSaJunpjWvbt8O9_UUnZnuxMJ26k5S4aQNj6pMBJLhY0gfn4zIY0Ot6m-gkntqxJiU4qgoAL3641pw/s1600/russia-hackerss.jpg",
+   "contentHash": "53c08f28d06c7413"
+  },
+  {
+   "id": "4593d622215b86dd",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "여수세계섬박람회 61일 마무리…폐막 전날 250만명, 섬 관광 가능성 남겨",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217016",
+   "originalLanguage": "ko",
+   "originalDescription": "2026 여수세계섬박람회가 4일 61일간의 일정을 마무리한다. 개막 초반 콘텐츠를 보강하고 관람환경을 개선한 뒤 후반 관람객이 빠르게 늘었지만, 폐막 전날까지 누적 실적은 당초 목표인 300만명에 미치지 못했다. 행사 이후에는 관광시설 활용과 재정 성과에 대한 평가가 남는다.여수세계섬박람회 조직위원회 발표에 따르면 지난 3일까지 누적 관람객은 250만2594명으로 목표의 83.4%를 기록했다. 박람회는 지난 9월5일 개막해 돌산 진모지구 주행사장과 여수세계박람회장, 개도·금오도 일원에서 전시와…",
+   "publishedAt": "2026-11-04T08:13:26.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "0585c1e859d3be41"
+  },
+  {
+   "id": "19aac174c0565a65",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "현대제철, 사내 생성 AI 통합 플랫폼 '스틸-X' 가동...전사 AX 페달링",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217017",
+   "originalLanguage": "ko",
+   "originalDescription": "현대제철이 차세대 생성 AI 통합 플랫폼을 가동하며 전사 AX 혁신을 가속한다.현대제철은 최근 사내 문서와 데이터를 자산화하고 통합 검색·분석과 다양한 AI 서비스를 제공하는 플랫폼 '스틸(Steel)-X'의 가동에 나섰다고 4일 밝혔다.스틸-X는 여러 시스템과 부서에 분산된 사내 지식을 효율적으로 활용하고 반복적인 정보 탐색, 문서 작성 등 업무를 줄여 업무 생산성을 높이기 위해 구축한 플랫폼이다. 현대제철과 현대오토에버가 기획 단계부터 협업해 업무 환경과 사용자 요구사항을 반영해…",
+   "publishedAt": "2026-11-04T08:05:31.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "570a9d1a2d9920e6"
+  },
+  {
+   "id": "687ac9614aed3b08",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "에이티넘인베 투자기업 올거나이즈, 일본 증시 상장",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217013",
+   "originalLanguage": "ko",
+   "originalDescription": "기업용 AI 전문 올거나이즈(대표 이창수)가 일본 증시에 상장했다.에이티넘인베스트먼트는 4일 자사 투자 포트폴리오 중 하나인 올거나이즈가 일본 도쿄증권거래소 그로스시장에 상장했다고 밝혔다.미국 캘리포니아에서 출발한 올거나이즈는 한국·미국·일본에서 AI 솔루션 사업을 전개했다. 2018년 올거나이즈코리아, 2019년 올거나이즈 재팬을 각각 설립하며 사업 기반을 넓혔다.이후 일본 시장에서 사업 확장이 본격화하자 현지 상장을 추진, 2021년 11월 일본으로 본사를 이전하는 플립을 통해 지주회사인…",
+   "publishedAt": "2026-11-04T08:04:33.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "497ababa993a6f49"
+  },
+  {
+   "id": "3283c26289395b8e",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "[게시판] 넘즈에이아이, 20억 프리시드 2차 투자 유치 등 단신",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217018",
+   "originalLanguage": "ko",
+   "originalDescription": "■ 넘즈에이아이(대표 유재민)는 미래에셋벤처투자와 한국투자파트너스로부터 20억원 규모의 프리시드 2차 투자를 유치했다고 밝혔다. 누적 투자 금액은 60억원이며 팁스(TIPS)에도 선정돼 연구비 8억원을 지원받는다. 자체 개발한 정형 데이터 파운데이션 모델 ‘코실로’는 올해 9월 공개 당시 글로벌 벤치마크 탭아레나(TabArena)에서 종합과 분류 및 회귀 평가 모두 1위를 기록한 바 있다.■ 한컴(대표 김연수)은 토펙엔지니어링건축사사무소와 에이전틱 운영체제(OS) 사업 협력을 위한…",
+   "publishedAt": "2026-11-04T08:00:00.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai",
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "f54d20079b257cd0"
+  },
+  {
+   "id": "70a9d23e30654281",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "qData 数据中台专业版 v3.0.1 发布：模型设计、版本管理与指标建模迎来多项升级！",
+   "originalUrl": "https://www.oschina.net/news/503390",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "qData 数据中台专业版 v3.0.1 发布。 在 v3.0.0 数据建模体系升级的基础上，本次版本继续围绕业务规划、数据建模、指标管理和数据集成几个环节补充功能。 其中，数据建模部分进一步完善了业务实体关系、概念模型关系图以及贴源、维度、事实、应用、汇总等多类逻辑模型的设计与版本管理；指标管理新增派生指标模块，并补充...",
+   "publishedAt": "2026-11-04T07:48:32.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "f619b1f5892d4785"
+  },
+  {
+   "id": "226d22a423412bf1",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+   "originalUrl": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+   "originalLanguage": "en",
+   "originalDescription": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later…",
+   "publishedAt": "2026-11-04T07:46:15.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "cybersecurity",
+    "mobile-hardware"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm9fDI_lHL64S1r-eoB5-99WagZJBIjKDF-bEJ9egJw_EiLUomXSakGnV0vdq9Fqu2j6KVWM4upLmOwweDCKQ32f21W8CTsQHnoGMhFm-ISPNQEg1Jq5WbDujqLHVkGSEsox0Xd3Yc5Dd-v4-6rdzU4akd97y7cBhRYFO2ofmxpf3HYspJ6MkJs2RtfC4/s1600/android-patch.jpg",
+   "contentHash": "bdd4e4b7dd8c4ef1"
+  },
+  {
+   "id": "714198814495cfb8",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "\"오픈AI, 수년간 내부 보안 취약점 경고 무시\"...개발 속도 우선에 기밀 유출 위험",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217011",
+   "originalLanguage": "ko",
+   "originalDescription": "오픈AI가 수년간 직원들로부터 내부 보안 취약점에 대한 경고를 받고도 적극적으로 대응하지 않았다는 지적이 나왔다. 구글과 앤트로픽 등 경쟁사와의 기술 개발 경쟁을 우선하면서 내부 연구 자료와 소프트웨어 코드가 외부에 유출될 위험을 방치했다는 것이다.로이터는 3일(현지시간) 복수의 관계자를 인용, 챗GPT가 출시된 2022년 말 이전부터 오픈AI 직원들이 경영진과 이사회에 보안 문제를 제기해 왔다고 보도했다. 일부 직원은 이러한 문제 제기에도 경영진이 보안보다 경쟁사와의 기술 격차를 좁히는 데…",
+   "publishedAt": "2026-11-04T07:30:09.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai",
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "2ac138b9be4255fa"
+  },
+  {
+   "id": "74ea6c87bfb50cf7",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "에스엘즈, 실리콘밸리 VC 주관 스타트업 경연대회서 글로벌 결선 진출",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217009",
+   "originalLanguage": "ko",
+   "originalDescription": "에스엘즈(대표 이유미·정재헌)는 실리콘밸리 벤처캐피털(VC) 페가수스 테크벤처스가 주관하는 ‘2026 스타트업 월드컵 한국 결선’에서 최종 우승을 차지했다고 4일 밝혔다. 이로써 에스엘즈는 미국 샌프란시스코에서 열리는 글로벌 결선(세미파이널) 무대에 올라 해외 스타트업과 자웅을 겨루게 됐다.스타트업 월드컵은 전 세계 200개 이상의 지역 예선을 거쳐 선발된 유망 기업들이 기술 경쟁력 및 비즈니스 확장성을 겨룬다. 미국 본선 최종 우승팀에게는 100만달러(약 13억4000만원) 규모의 투자금과…",
+   "publishedAt": "2026-11-04T07:25:20.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai",
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "c9ec076719320971"
+  },
+  {
+   "id": "b65c13c86538af46",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "전남 국립의대 36년 만에 순천대로 확정…정원 60명 배정",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217010",
+   "originalLanguage": "ko",
+   "originalDescription": "전남지역 국립 의과대학 설립 대학이 첫 유치 건의 36년 만에 국립순천대학교로 결정됐다. 목포대와 순천대의 통합 협상이 결렬된 뒤 진행된 후보대학 심사에서 순천대가 1.30점 앞섰고, 정부는 추천 절차에 대한 법률 검토를 거쳐 최종 선정했다.교육부와 보건복지부는 4일 전남광주통합특별시의 국립순천대와 경북 국립경국대를 지역의대 신설 대학으로 선정하고 정원을 각각 60명과 40명 배정했다고 발표했다. 정부는 2030년 첫 신입생 입학을 목표로 의대 신설을 추진하고, 지자체와 대학이 참여하는…",
+   "publishedAt": "2026-11-04T07:23:01.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "adb8d1fd6ed1a314"
+  },
+  {
+   "id": "7cace8e45638bb42",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "\"중국 AI 위협 과장됐나\"…성능 격차 확대에 벤치마크 신뢰성 논쟁",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217012",
+   "originalLanguage": "ko",
+   "originalDescription": "아티피셜 애널리시스(AA)의 새로운 성능 평가에서 미국 최상위 모델과 중국 오픈 모델의 격차가 크게 벌어지면서 중국 AI의 경쟁력이 과대평가된 것 아니냐는 논쟁이 벌어지고 있다. 특히 비공개 문제를 늘린 뒤 성능 차이가 커지자 기존 모델들이 공개된 시험에 맞춰 성능을 높여왔다는 의혹이 제기됐지만, 평가 기준 자체가 달라졌기 때문에 이를 단정할 수 없다는 반론도 나온다.비즈니스 인사이더는 3일(현지시간) AI 모델 평가업체 AA의 새로운 평가 결과를 분석하며, 중국의 저렴한 오픈웨이트 모델이…",
+   "publishedAt": "2026-11-04T07:18:22.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "d71f3b12c0f53979"
+  },
+  {
+   "id": "c2703d6ae2923f5a",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "Jync v1.12.0 · 同步前检查、内容校验与诊断包",
+   "originalUrl": "https://www.oschina.net/news/503388",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "Jync v1.12.0 · 同步前检查、内容校验与诊断包 新增 同步前检查：项目页可在不写入任何数据的情况下排练下一轮：源/目标连通性、待执行的 CREATE/ALTER/DROP、目标表缺失/缺列/类型不兼容、游标列与索引、CDC 可用性，以及 binlog CDC 的表布局漂移（停机期间源表跑过 DDL 会在预检报错并提示重建基线）。结果按 ERROR ...",
+   "publishedAt": "2026-11-04T07:04:17.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "b4143dc17980ce1f"
+  },
+  {
+   "id": "a3433e936d2c04bf",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "originalTitle": "Daybreak Red is now available in AWS GovCloud (US-East)",
+   "originalUrl": "https://openai.com/index/daybreak-red-aws-govcloud",
+   "originalLanguage": "en",
+   "originalDescription": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+   "publishedAt": "2026-11-04T07:00:00.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "847427aa117f1c25"
+  },
+  {
+   "id": "08d7937afce1dcdb",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "구글 \"학교에서 AI 끄려면 검색도 포기해야\"...교육용 AI 제한 놓고 논란",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216998",
+   "originalLanguage": "ko",
+   "originalDescription": "구글이 미국 초·중·고교(K-12) 학생 계정에서 '제미나이'와 '구글 클래스룸' 등 AI 기능을 기본적으로 차단하기로 했다. 하지만 학교가 구글 검색을 허용하면 검색에 내장된 AI 기능도 함께 제공해야 해 논란이 일고 있다. AI 사용을 원하지 않는 학교에 사실상 검색 서비스까지 포기하도록 한다는 비판이다.크리스 필립스 구글 교육 부문 부사장은 3일(현지시간) 공식 블로그를 통해 제미나이 챗봇과 노트북, 구글 클래스룸의 AI 기능, 구글 검색을 학생 계정에서 기본적으로 비활성화한다고 밝혔다…",
+   "publishedAt": "2026-11-04T06:47:06.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "da18b7a4a39ac81f"
+  },
+  {
+   "id": "66126e7d980a9dde",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "오픈AI, 일상 업무 AI 평가 '라이프밸' 공개...개인 비서 성능 1년 새 49%→81%",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216996",
+   "originalLanguage": "ko",
+   "originalDescription": "오픈AI가 챗GPT를 단순한 대화형 도구에서 실제 일상 업무를 처리하는 개인 AI 비서로 발전시키기 위한 성능 평가 체계를 공개했다. 육아와 건강 관리, 금융 등 생활 밀착형 업무를 얼마나 잘 수행하는지 측정해 에이전트 역량의 개선 정도를 추적한다는 구상이다. 오픈AI는 2일(현지시간) 육아와 건강 관리, 금융, 쇼핑 등 일상적인 업무를 AI가 얼마나 잘 수행하는지 평가하는 벤치마크 '라이프밸(LifeVal)'을 공개했다.라이프밸은 미국 및 다국가 시간 사용 조사 데이터에 더해 3995명을…",
+   "publishedAt": "2026-11-04T06:41:07.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "1c21f554890f9203"
+  },
+  {
+   "id": "37e34240f6b31ae2",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "앤트로픽, 일본 이어 호주서도 IPO 개인 공모…글로벌 투자자 결집",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217005",
+   "originalLanguage": "ko",
+   "originalDescription": "앤트로픽이 미국 기업공개(IPO)를 앞두고 일본에 이어 호주에서도 개인투자자를 대상으로 주식 판매를 추진한다. 미국 증시에 상장하는 주식을 현지 증권사를 통해 해외 투자자에게 직접 판매하는 방식으로, 글로벌 투자자 기반을 확대하려는 움직임이다.로이터에 따르면, 호주 최대 은행인 커먼웰스은행(CBA)의 증권 자회사 컴섹(CommSec)은 3일(현지시간) 앤트로픽의 호주 개인투자자 공모에서 대표 증권사 역할을 맡을 예정이라고 밝혔다. 맥쿼리를 비롯해 모건스탠리 웰스 매니지먼트 호주 법인, 모건스…",
+   "publishedAt": "2026-11-04T06:32:06.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "9fc57f9b9e20c4df"
+  },
   {
    "id": "bb27e0779de39b61",
    "sourceId": "aitimes-kr",
@@ -51,6 +826,22 @@
    "contentHash": "ffed3b1e6549aec3"
   },
   {
+   "id": "55c94afa2925d0dc",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Rungle",
+   "originalUrl": "https://www.producthunt.com/products/rungle",
+   "originalLanguage": "en",
+   "originalDescription": "Turn your running photos and clips into share-ready Reels Discussion | Link",
+   "publishedAt": "2026-11-04T06:09:49.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "f4f9885e266dd88a"
+  },
+  {
    "id": "0647bf3d65fac631",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -65,6 +856,22 @@
    ],
    "imageUrl": null,
    "contentHash": "57f06b02e442db81"
+  },
+  {
+   "id": "0f2962e63e089703",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+   "originalUrl": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+   "originalLanguage": "en",
+   "originalDescription": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score…",
+   "publishedAt": "2026-11-04T05:43:11.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9IgE0BWDAvYzjY8wFSMADIRn69AMLYxUa-oPoOISNBOpPbxwBNoWrbXWzI6P0deiU6WDqitiIZx1gFXSAlR8xX9rj56BuU48veMEPJAGSsmQTbVPirFOCuyMc_KQxtbPfc841GZGZ-3HSYYHCGbHnzrihtwQUaMlXrT3leLzI2USh00hc9OBw4k1SCJt4/s1600/wp-exploit.jpg",
+   "contentHash": "1705d3cc9bff0e14"
   },
   {
    "id": "9dd76ba9fddc5df7",
@@ -373,6 +1180,22 @@
    "contentHash": "9ae00169609fae68"
   },
   {
+   "id": "5dc58f1368427b04",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Fedora Linux 45",
+   "originalUrl": "https://www.producthunt.com/products/fedora-linux-45",
+   "originalLanguage": "en",
+   "originalDescription": "GNOME 51: Wayland fixes, oo7 keys, and modern toolchains. Discussion | Link",
+   "publishedAt": "2026-11-04T01:04:14.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "0a0d0f1fc8de93cb"
+  },
+  {
    "id": "92c50f67a507db6c",
    "sourceId": "the-verge-ai",
    "sourceName": "The Verge AI",
@@ -421,6 +1244,38 @@
    "contentHash": "b8041914140cbacb"
   },
   {
+   "id": "f72f1f636fab957f",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "TellPip",
+   "originalUrl": "https://www.producthunt.com/products/tellpip",
+   "originalLanguage": "en",
+   "originalDescription": "A little bird that whispers what to say in your calls Discussion | Link",
+   "publishedAt": "2026-11-03T23:13:42.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "59623c7fad9431f3"
+  },
+  {
+   "id": "5226e12e1f5077ab",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Hashference",
+   "originalUrl": "https://www.producthunt.com/products/hashference",
+   "originalLanguage": "en",
+   "originalDescription": "Fund 45+ top AI models using your idle CPU/GPU compute Discussion | Link",
+   "publishedAt": "2026-11-03T23:09:16.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "590af23626a99f40"
+  },
+  {
    "id": "52eb9ce7b224919a",
    "sourceId": "techcrunch-ai",
    "sourceName": "TechCrunch AI",
@@ -467,6 +1322,22 @@
    ],
    "imageUrl": null,
    "contentHash": "7962880bdeb55a30"
+  },
+  {
+   "id": "2cc373a8f31ec700",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Freeport Markets",
+   "originalUrl": "https://www.producthunt.com/products/freeport-markets",
+   "originalLanguage": "en",
+   "originalDescription": "Our proprietary AI finds the top onchain wallets to copy Discussion | Link",
+   "publishedAt": "2026-11-03T21:56:35.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "5d5c85f528bd9246"
   },
   {
    "id": "14409ffa4e7706ac",
@@ -612,6 +1483,22 @@
    ],
    "imageUrl": null,
    "contentHash": "879dcfaff980a7cf"
+  },
+  {
+   "id": "9146fd56cf18d60b",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Hindsight Models and Inference API",
+   "originalUrl": "https://www.producthunt.com/products/vectorize",
+   "originalLanguage": "en",
+   "originalDescription": "Small, fast models for reranking, embeddings and decisions Discussion | Link",
+   "publishedAt": "2026-11-03T19:30:48.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "15d39f961d78ef32"
   },
   {
    "id": "8eb28acdb4745ec7",
@@ -798,6 +1685,22 @@
    ],
    "imageUrl": null,
    "contentHash": "e30181aa1857fff5"
+  },
+  {
+   "id": "f0a48276fa17edbe",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "PasteGuard for Mac",
+   "originalUrl": "https://www.producthunt.com/products/pasteguard-2",
+   "originalLanguage": "en",
+   "originalDescription": "Keep secrets and personal data out of AI chats Discussion | Link",
+   "publishedAt": "2026-11-03T18:42:44.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "a0157e7653df963e"
   },
   {
    "id": "90ff5ab634ecc941",
@@ -1184,6 +2087,23 @@
    "contentHash": "7dedf90c2dd52df3"
   },
   {
+   "id": "f7538761740eda60",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/workspaces-ai-agents-linux-windows-11",
+   "originalLanguage": "en",
+   "originalDescription": "WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops, in addition to Windows Server. You can run each AI agent on the operating system that its workflows and applications require. Your agents can then work in the same environments that your workforce…",
+   "publishedAt": "2026-11-03T18:00:00.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "cloud-infrastructure",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "ec81896243ab5fdb"
+  },
+  {
    "id": "174d2be942e2d10b",
    "sourceId": "arxiv-cs-ai",
    "sourceName": "arXiv cs.AI",
@@ -1501,6 +2421,22 @@
    "contentHash": "76752a30a24327ce"
   },
   {
+   "id": "92bfb82f903c3fc9",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "TrackEdge",
+   "originalUrl": "https://www.producthunt.com/products/trackedge-2",
+   "originalLanguage": "en",
+   "originalDescription": "Hidden AI buttons on your MacBook’s trackpad Discussion | Link",
+   "publishedAt": "2026-11-03T16:56:37.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "336284af8410e4b3"
+  },
+  {
    "id": "62e23c789fbfd2f8",
    "sourceId": "the-hacker-news",
    "sourceName": "The Hacker News",
@@ -1532,6 +2468,22 @@
    ],
    "imageUrl": null,
    "contentHash": "ae45770a2cc483b0"
+  },
+  {
+   "id": "127639cc62d76a80",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Basedash Verified dashboards",
+   "originalUrl": "https://www.producthunt.com/products/basedash",
+   "originalLanguage": "en",
+   "originalDescription": "Show your team which dashboards to trust Discussion | Link",
+   "publishedAt": "2026-11-03T16:49:46.000Z",
+   "discoveredAt": "2026-10-25T13:43:48.608Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "7f902764302dca3b"
   },
   {
    "id": "a7f64e0d32da7d5c",
@@ -1785,6 +2737,22 @@
    ],
    "imageUrl": null,
    "contentHash": "5d092621c33d030c"
+  },
+  {
+   "id": "7cc26f101b7ab892",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Deployed Yet?",
+   "originalUrl": "https://www.producthunt.com/products/deployed-yet",
+   "originalLanguage": "en",
+   "originalDescription": "See if your Vercel, Cloudflare and GitHub deploys shipped Discussion | Link",
+   "publishedAt": "2026-11-03T16:01:13.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "f2193b0767d45cb3"
   },
   {
    "id": "55e43bcf23925747",
@@ -2081,6 +3049,22 @@
    "contentHash": "313cb8bbe98c4737"
   },
   {
+   "id": "c4ec31c82cda551d",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Sendu",
+   "originalUrl": "https://www.producthunt.com/products/sendu",
+   "originalLanguage": "en",
+   "originalDescription": "Drop files easily across your local network Discussion | Link",
+   "publishedAt": "2026-11-03T14:20:30.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "7c6758ef13f2d80b"
+  },
+  {
    "id": "4bf89075fbcb998c",
    "sourceId": "arxiv-cs-cl",
    "sourceName": "arXiv cs.CL",
@@ -2096,6 +3080,22 @@
    ],
    "imageUrl": null,
    "contentHash": "1164f06436461e90"
+  },
+  {
+   "id": "7f251a2320ab82b5",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Zero Wire",
+   "originalUrl": "https://www.producthunt.com/products/cloudflare",
+   "originalLanguage": "en",
+   "originalDescription": "Check your exposure to critical CVEs with one agent prompt Discussion | Link",
+   "publishedAt": "2026-11-03T14:12:58.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "df82ddac317eda2f"
   },
   {
    "id": "ab804fcfb76fa0a2",
@@ -2164,6 +3164,22 @@
    "contentHash": "5ee6ca1ec3ab1271"
   },
   {
+   "id": "d49d9e4f5cd76622",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "LiveReacting for ChatGPT",
+   "originalUrl": "https://www.producthunt.com/products/livereacting",
+   "originalLanguage": "en",
+   "originalDescription": "Run 24/7 and pre-recorded live streams from ChatGPT Discussion | Link",
+   "publishedAt": "2026-11-03T13:45:28.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "d98aaad3691a7946"
+  },
+  {
    "id": "a3dbb2251f9ed0a9",
    "sourceId": "arxiv-cs-cr",
    "sourceName": "arXiv cs.CR",
@@ -2195,6 +3211,22 @@
    ],
    "imageUrl": null,
    "contentHash": "f4ce7fa624c14e19"
+  },
+  {
+   "id": "fa465a15dcff5113",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Datashake MCP",
+   "originalUrl": "https://www.producthunt.com/products/datashake-hub",
+   "originalLanguage": "en",
+   "originalDescription": "Plug review and social data straight into your AI assistant Discussion | Link",
+   "publishedAt": "2026-11-03T12:49:49.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "b062580f916163cf"
   },
   {
    "id": "44fb3c4f0988293b",
@@ -2395,6 +3427,22 @@
    ],
    "imageUrl": null,
    "contentHash": "ddaceb81dbdb1434"
+  },
+  {
+   "id": "20870a547c339b47",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Sonari",
+   "originalUrl": "https://www.producthunt.com/products/sonari",
+   "originalLanguage": "en",
+   "originalDescription": "A hand-gesture instrument and MIDI controller for Mac Discussion | Link",
+   "publishedAt": "2026-11-03T11:19:10.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "0e8dc45485cf76f8"
   },
   {
    "id": "e168d5f8ea0683e5",
@@ -16277,22 +17325,6 @@
    "contentHash": "b055b61211dd5d5d"
   },
   {
-   "id": "29b3350fcf5dde8e",
-   "sourceId": "vscode-blog",
-   "sourceName": "Visual Studio Code Blog",
-   "originalTitle": "Visual Studio Code 1.145 (Insiders)",
-   "originalUrl": "https://code.visualstudio.com/updates/v1_145",
-   "originalLanguage": "en",
-   "originalDescription": "Learn what is new in Visual Studio Code 1.145 (Insiders). Read the full article",
-   "publishedAt": null,
-   "discoveredAt": "2026-10-28T18:52:51.211Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "7755dd8d02931752"
-  },
-  {
    "id": "297bfab976061294",
    "sourceId": "techcrunch-ai",
    "sourceName": "TechCrunch AI",
@@ -19772,22 +20804,6 @@
    ],
    "imageUrl": null,
    "contentHash": "eafd267614788c8c"
-  },
-  {
-   "id": "127639cc62d76a80",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Basedash View-only members",
-   "originalUrl": "https://www.producthunt.com/products/basedash",
-   "originalLanguage": "en",
-   "originalDescription": "Share dashboards with anyone. They can look, not edit. Discussion | Link",
-   "publishedAt": "2026-10-27T21:26:34.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "1fd700a81e90be1a"
   },
   {
    "id": "08b65e1468b74e86",
@@ -23629,1046 +24645,6 @@
    ],
    "imageUrl": null,
    "contentHash": "e8949c481e224ce5"
-  },
-  {
-   "id": "939d943fc8f0d399",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-   "originalUrl": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
-   "originalLanguage": "en",
-   "originalDescription": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
-   "publishedAt": "2026-10-27T02:00:00.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "110606dbeeca85d2"
-  },
-  {
-   "id": "8af7b30500f9c04c",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-   "originalUrl": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-   "originalLanguage": "en",
-   "originalDescription": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
-   "publishedAt": "2026-10-27T01:12:21.000Z",
-   "discoveredAt": "2026-10-27T02:07:02.617Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "0c86425da57943d2"
-  },
-  {
-   "id": "d0c4c2aa473666cc",
-   "sourceId": "oschina-news",
-   "sourceName": "开源中国 资讯",
-   "originalTitle": "DjangoAdmin 敏捷开发框架 FastAPI+NaiveVue 版本 v2.7.3 发布",
-   "originalUrl": "https://www.oschina.net/news/503223",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "v2.7.3 更新内容： 1、修复近期用户反馈的问题； 基于 FastAPI、Vue3、TypeScript、NaiveUI、Vite、VueRouter 等技术栈构建的前后端分离企业级数据中台解决方案。内置精细化到按钮及方法级别的 RBAC 权限管控体系，集成用户管理、角色管理、权限菜单、部门管理、职级岗位、系统日志、数据字典、系统参数、行政区划、任务...",
-   "publishedAt": "2026-10-27T01:01:03.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "7213bd7e7f8867a2"
-  },
-  {
-   "id": "550f4d88633d4245",
-   "sourceId": "anthropic-news",
-   "sourceName": "Anthropic News",
-   "originalTitle": "Expanding our partnership with GSA to bring Claude to all levels of government",
-   "originalUrl": "https://www.anthropic.com/news/expanding-partnership-gsa",
-   "originalLanguage": "en",
-   "originalDescription": "We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.",
-   "publishedAt": "2026-10-27T00:00:00.000Z",
-   "discoveredAt": "2026-10-27T23:47:44.075Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "6feebdded3a3dc78"
-  },
-  {
-   "id": "723372c8dc681795",
-   "sourceId": "anthropic-research",
-   "sourceName": "Anthropic Research",
-   "originalTitle": "How AI agents shape experts’ judgment calls",
-   "originalUrl": "https://www.anthropic.com/research/agents-judgment-calls",
-   "originalLanguage": "en",
-   "originalDescription": "As AI does more of the hands-on work, the hope is that experts still make the judgment calls, meaning the decisions with more than one defensible answer. We tested this with 50 professional analysts who did a statistical analysis with Claude Code. On each key decision, we…",
-   "publishedAt": "2026-10-27T00:00:00.000Z",
-   "discoveredAt": "2026-10-27T20:07:08.758Z",
-   "topics": [
-    "ai",
-    "research-papers"
-   ],
-   "imageUrl": null,
-   "contentHash": "64086cfe1815c987"
-  },
-  {
-   "id": "b7a8f6994aaa7224",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "[AI리더의 서가] 테디노트의 LangGraph 에이전트 비법노트",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216582",
-   "originalLanguage": "ko",
-   "originalDescription": "테디노트의 LangGraph 에이전트 비법노트이경록·김태한·임한택·최재훈·강민석·김성연 | 리코멘드2026년 7월 6일추천이유저자들은 LangGraph를 활용해 단순 챗봇을 넘어 도구를 사용하고 협업하는 실무급 에이전트를 설계·구축하는 방법을 단계적으로 제시합니다. 상태 관리, 워크플로 그래프화, 멀티에이전트 패턴까지 현장에서 검증된 실전 기법을 담았습니다.상세보기 국내에서 랭체인을 공부해 본 개발자라면 '테디노트'라는 이름을 한 번쯤 지나쳤을 가능성이 크다. 리코멘드가 지난 7월 6일 펴낸…",
-   "publishedAt": "2026-10-27T00:00:00.000Z",
-   "discoveredAt": "2026-10-27T02:07:02.617Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "82e6ebbe412e210f"
-  },
-  {
-   "id": "c44dc9ed271ff418",
-   "sourceId": "openai-news",
-   "sourceName": "OpenAI News",
-   "originalTitle": "How Check Point accelerates vulnerability research with Daybreak",
-   "originalUrl": "https://openai.com/index/check-point-daybreak",
-   "originalLanguage": "en",
-   "originalDescription": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-   "publishedAt": "2026-10-27T00:00:00.000Z",
-   "discoveredAt": "2026-10-27T20:07:08.758Z",
-   "topics": [
-    "ai",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "098aa01370e58e54"
-  },
-  {
-   "id": "dcad83d827337ce8",
-   "sourceId": "anthropic-news",
-   "sourceName": "Anthropic News",
-   "originalTitle": "Early progress on accelerating drug development with Claude",
-   "originalUrl": "https://www.anthropic.com/research/early-progress-drug-development",
-   "originalLanguage": "en",
-   "originalDescription": "We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.",
-   "publishedAt": "2026-10-27T00:00:00.000Z",
-   "discoveredAt": "2026-10-27T23:47:44.075Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "c67c4803cefa1b4f"
-  },
-  {
-   "id": "c15b1e3c66d84564",
-   "sourceId": "simon-willison",
-   "sourceName": "Simon Willison's Weblog",
-   "originalTitle": "GPT-6.1 Terra",
-   "originalUrl": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
-   "originalLanguage": "en",
-   "originalDescription": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra , a fast, efficient model that combines…",
-   "publishedAt": "2026-10-26T23:53:07.000Z",
-   "discoveredAt": "2026-10-27T02:07:02.617Z",
-   "topics": [
-    "ai",
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "21b626389d343a6b"
-  },
-  {
-   "id": "b555ce2afa55383d",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "OpenAI announces three big science discoveries and a new way to work with academics",
-   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
-   "originalLanguage": "en",
-   "originalDescription": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to…",
-   "publishedAt": "2026-10-26T23:34:58.000Z",
-   "discoveredAt": "2026-10-27T02:07:02.617Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "2a86d88c680085b3"
-  },
-  {
-   "id": "4ac0d41d02675392",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "오픈AI, ‘GPT-6.1 테라’ 출시…자동화 성능 높이고 가격 낮춰",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216690",
-   "originalLanguage": "ko",
-   "originalDescription": "오픈AI가 컴퓨터 작업 성능을 높이고 이용 비용을 낮춘 ‘GPT-6.1 테라’를 출시했다. 문서 처리와 코딩 등 반복 업무를 대규모로 자동화하려는 기업·개발자 수요를 겨냥했다. API 가격을 ‘GPT-6.1 솔’의 절반으로 책정하고, 외부 평가에서도 작업당 비용과 환각을 줄여 비용 대비 성능 경쟁력을 강화했다.오픈AI는 26일(현지시간) 공식 블로그를 통해 GPT-5.6 테라의 후속 모델을 공개했다. 송장 정보를 읽어 회계 프로그램에 입력하거나 도면을 해석하는 등 반복적인 컴퓨터 업무를 주요…",
-   "publishedAt": "2026-10-26T23:01:41.000Z",
-   "discoveredAt": "2026-10-27T02:07:02.617Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "ea7bdf876a2e45c2"
-  },
-  {
-   "id": "b8027b998a3859ca",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "PulseDev",
-   "originalUrl": "https://www.producthunt.com/products/pulsedev",
-   "originalLanguage": "en",
-   "originalDescription": "Click any UI bug on localhost and your AI agent fixes it Discussion | Link",
-   "publishedAt": "2026-10-26T22:47:46.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "467f400ba8f3d601"
-  },
-  {
-   "id": "7ed3ce990340f2a9",
-   "sourceId": "cert-cc-vulnotes",
-   "sourceName": "CERT/CC Vulnerability Notes",
-   "originalTitle": "VU#701544: Retraction of mpc-lib hardened derivation fails to protect ancestor isolation",
-   "originalUrl": "https://kb.cert.org/vuls/id/701544",
-   "originalLanguage": "en",
-   "originalDescription": "Overview Fireblocks' mpc-lib library contains a cryptographic fail-open vulnerability in its BIP32 hardened derivation implementation in the case of a missing private parent key. This breaks the ancestor isolation property of hardened derivation, allowing an attacker with a…",
-   "publishedAt": "2026-10-26T22:45:54.629Z",
-   "discoveredAt": "2026-10-27T02:07:02.617Z",
-   "topics": [
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "3e5f62ac5d620e08"
-  },
-  {
-   "id": "7bbad43981bdcc19",
-   "sourceId": "ars-technica-gadgets",
-   "sourceName": "Ars Technica Gadgets",
-   "originalTitle": "Microsoft offers to buy out a quarter of its workforce",
-   "originalUrl": "https://arstechnica.com/gadgets/2026/10/microsoft-offers-voluntary-buyouts-to-60000-employees/",
-   "originalLanguage": "en",
-   "originalDescription": "Employees in the US, Canada, India, and the UK may receive offers to leave MS today.",
-   "publishedAt": "2026-10-26T22:36:06.000Z",
-   "discoveredAt": "2026-10-27T02:07:02.617Z",
-   "topics": [
-    "mobile-hardware"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2021/02/microsoft-1152x648.jpg",
-   "contentHash": "59dd1a928ee01cc7"
-  },
-  {
-   "id": "e77549dba84aa9c3",
-   "sourceId": "cloudflare-blog",
-   "sourceName": "The Cloudflare Blog",
-   "originalTitle": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
-   "originalUrl": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-   "originalLanguage": "en",
-   "originalDescription": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
-   "publishedAt": "2026-10-26T22:01:23.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "cloud-infrastructure",
-    "ai"
-   ],
-   "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M5X2P2KSNBX6J13E3B4219PW.png",
-   "contentHash": "fa16202fa167b345"
-  },
-  {
-   "id": "59ef953e05841540",
-   "sourceId": "techcrunch-startups",
-   "sourceName": "TechCrunch Startups",
-   "originalTitle": "Databricks co-founder shares his secrets for winning big enterprise customers",
-   "originalUrl": "https://techcrunch.com/2026/10/26/databricks-co-founder-shares-his-secrets-for-winning-big-enterprises-customers/",
-   "originalLanguage": "en",
-   "originalDescription": "Turns out selling to big companies isn’t about having the shiniest tech: It’s about hitching a ride on a giant’s sales team.",
-   "publishedAt": "2026-10-26T22:00:00.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "f0f5491c77160e82"
-  },
-  {
-   "id": "a9c488820a62ac4a",
-   "sourceId": "openai-news",
-   "sourceName": "OpenAI News",
-   "originalTitle": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-   "originalUrl": "https://openai.com/index/greptile-code-review-codex-astra",
-   "originalLanguage": "en",
-   "originalDescription": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-   "publishedAt": "2026-10-26T22:00:00.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "9be7c113bf212e39"
-  },
-  {
-   "id": "c47346db7f5b14d8",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "[10월26일] “빅테크 빼면 AI 효과=0”…아폴로 보고서가 보여준 것과 보여주지 못한 것",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216649",
-   "originalLanguage": "ko",
-   "originalDescription": "미국의 대형 투자회사 아폴로 리서치가 빅테크를 제외한 미국 기업들의 AI 재무 성과가 '0'이라는 분석을 내놓자, 미국 언론들이 잇달아 이를 비중 있게 다뤘습니다. 25일(현지시간) 블룸버그는 '아폴로 이코노미스트, 기술업계 밖 AI 성과는 0이라고 주장'이라는 제목을 달았습니다. 테크크런치도 'AI가 대부분 기업에 가져다준 재무적 성과는 0'이라고 보도했고, 비즈니스 인사이더도 비슷한 내용을 전했습니다. AI에 막대한 돈을 쏟아붓고도 아직 뚜렷한 성과가 보이지 않는다는 메시지는 그만큼…",
-   "publishedAt": "2026-10-26T22:00:00.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "f8fe6455175cee45"
-  },
-  {
-   "id": "092e8ceea2bd79fc",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "Anthropic is burning gas to feed the AI boom",
-   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
-   "originalLanguage": "en",
-   "originalDescription": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US Securities and…",
-   "publishedAt": "2026-10-26T21:45:31.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "24efffbb05fb9e35"
-  },
-  {
-   "id": "158b80486d5284b9",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Revix AI",
-   "originalUrl": "https://www.producthunt.com/products/revix-ai-2",
-   "originalLanguage": "en",
-   "originalDescription": "AI code review that learns your repo's own rules Discussion | Link",
-   "publishedAt": "2026-10-26T21:29:10.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "startups-products",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "2aa1dc43e29f38c5"
-  },
-  {
-   "id": "46d10a69e813b74b",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "앤트로픽, IPO 위험 공개…보안 사고부터 데이터센터 반발까지",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216689",
-   "originalLanguage": "ko",
-   "originalDescription": "기업공개(IPO)를 추진하는 앤트로픽이 상장신청서에서 AI 보안 사고와 데이터센터 반발, 반도체 공급망 의존 등 사업을 위협할 위험 요인을 공개했다. 차세대 모델의 학습을 한 달 넘게 늦추고, 안전성 평가 중 AI가 외부 시스템에 접근한 사실도 드러났다. 대규모 투자금을 확보하더라도 안전 문제와 전력·반도체 공급 차질로 개발과 서비스 확대가 막힐 수 있다는 설명이다.앤트로픽은 26일(현지시간) 공개한 IPO 서류에서 94페이지를 위험 요인 설명에 할애했다. 여기에는 이미 발생한 보안 사고뿐…",
-   "publishedAt": "2026-10-26T21:28:25.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "ai",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "36404cb764e77fdc"
-  },
-  {
-   "id": "0f0fec468481564a",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "앤트로픽 IPO 서류에 드러난 재무 부담…800조 지출 약정·빅테크 의존",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216688",
-   "originalLanguage": "ko",
-   "originalDescription": "기업공개(IPO)를 추진하는 앤트로픽의 상장 신청서에서 막대한 장기 지출 약정과 빅테크에 대한 높은 의존도가 드러났다. 향후 10년에 걸쳐 약속한 지출은 6000억달러(약 796조원)를 넘으며, 계약 상당수는 취소할 수 없거나 실제 사용량과 관계없이 비용을 지급해야 한다. 빠른 매출 성장으로 분기 영업 흑자를 기록했지만, 상장 이후에도 장기 계약 비용을 충당하고 추가 자금을 확보해야 하는 과제를 안았다.26일(현지시간) 로이터와 블룸버그 등에 따르면, 앤트로픽은 상장 신청서에서 8개 파트너사와…",
-   "publishedAt": "2026-10-26T21:15:25.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "892ffbc2eea45118"
-  },
-  {
-   "id": "0227791c6305c414",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "앤트로픽, 상장 신청서 공개…11월 공모 절차 추진",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216687",
-   "originalLanguage": "ko",
-   "originalDescription": "앤트로픽이 상장 신청서를 공개하고 나스닥 입성을 위한 본격적인 절차에 들어갔다. 기업용 AI 수요에 힘입어 올해 상반기 매출이 지난해 같은 기간의 약 14배로 늘어난 가운데, 첨단 AI 개발과 서비스 운영에 필요한 대규모 자금 확보에 나섰다. 오는 11월 투자자 대상 공모 마케팅을 시작할 예정으로, 주요 AI 개발사의 자금 조달 경쟁에도 속도가 붙을 전망이다.앤트로픽은 26일(현지시간) 미국 증권거래위원회(SEC)에 기업공개(IPO)를 위한 증권 신고서 ‘S-1’을 공개 제출했다. 지난 6월…",
-   "publishedAt": "2026-10-26T20:52:10.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "4f80eb6fd73f33ba"
-  },
-  {
-   "id": "ced29903fb05ed23",
-   "sourceId": "owasp-asvs-releases",
-   "sourceName": "OWASP ASVS Releases",
-   "originalTitle": "OWASP Application Security Verification Standard (Bleeding Edge)",
-   "originalUrl": "https://github.com/OWASP/ASVS/releases/tag/latest",
-   "originalLanguage": "en",
-   "originalDescription": "This release is automatically recreated with the latest changes from the master branch of the ASVS project. Generated on: 2026-10-26 20:31:51 UTC This bleeding-edge version represents the most current state of the ASVS documentation and should be used for testing and preview…",
-   "publishedAt": "2026-10-26T20:31:58.000Z",
-   "discoveredAt": "2026-10-26T15:34:56.245Z",
-   "topics": [
-    "cybersecurity"
-   ],
-   "imageUrl": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
-   "contentHash": "8ec6479794546af8"
-  },
-  {
-   "id": "744292a2af160189",
-   "sourceId": "the-decoder",
-   "sourceName": "The Decoder",
-   "originalTitle": "GPT-6.1 Terra halves OpenAI's API prices and still gains ground on its larger models",
-   "originalUrl": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/",
-   "originalLanguage": "en",
-   "originalDescription": "OpenAI has released GPT-6.1 Terra, a mid-range model that cuts API prices in half compared to its predecessor. Analysts say it sets a new standard for intelligence per dollar, especially for everyday computing tasks and AI-driven computer control. The article GPT-6.1 Terra…",
-   "publishedAt": "2026-10-26T20:30:55.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "c2611dedaf37f271"
-  },
-  {
-   "id": "232610421dd7bc7d",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "fswitcher",
-   "originalUrl": "https://www.producthunt.com/products/fswitcher",
-   "originalLanguage": "en",
-   "originalDescription": "fswitcher replaces Command-Tab on your Mac Discussion | Link",
-   "publishedAt": "2026-10-26T20:26:31.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "47e326956ae2c470"
-  },
-  {
-   "id": "0b5e0e34b5f4a94c",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "Amazon ECR now supports replication backfill for existing container images",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/replication-backfill-amazon-ecr",
-   "originalLanguage": "en",
-   "originalDescription": "Amazon Elastic Container Registry (Amazon ECR) now supports replication backfill, enabling you to replicate existing images in your private registry to your configured replication registry destinations. Previously, replication only applied to images pushed after the replication…",
-   "publishedAt": "2026-10-26T20:24:00.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "8b9631205f5518ef"
-  },
-  {
-   "id": "d84f30af7d5d4655",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Nuvio 5.0",
-   "originalUrl": "https://www.producthunt.com/products/nuvio",
-   "originalLanguage": "en",
-   "originalDescription": "Hand your financial admin to your AI agent Discussion | Link",
-   "publishedAt": "2026-10-26T20:06:22.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "3e4aaabdd368b71a"
-  },
-  {
-   "id": "3806ea7442989e07",
-   "sourceId": "ars-technica-ai",
-   "sourceName": "Ars Technica AI",
-   "originalTitle": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
-   "originalUrl": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
-   "originalLanguage": "en",
-   "originalDescription": "Included is the ability to limit which applications Siri can directly access.",
-   "publishedAt": "2026-10-26T20:04:16.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Siri-AI-1152x648.png",
-   "contentHash": "27fd5c405d8d9a9e"
-  },
-  {
-   "id": "bf68372e4aa1842b",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "[AI 이슈트렌드] 대남 방송 재개·소방 빨대 논란 속 역삼동 방화·프랑스 시위 관심",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216685",
-   "originalLanguage": "ko",
-   "originalDescription": "AI타임스와 이스트에이드의 10월 셋째 주(10월16일~22일) 이슈 분석 결과 대남 확성기 가동 재개와 대법원장 탄핵 공방 등 주요 정치권 이슈를 포함해 프랑스 시위와 역삼동 화재 등 사건·사고 소식이 상위권에 올랐다.이번 주 검색량 1위는 '김여정 대남확성기 가동(4.54%)'이 차지했다. 김여정 노동당 총무부장은 이달 중 대남 확성기 방송 재개를 예고했다. 실제 재개되면 지난해 6월 중단 이후 약 1년 4개월 만인 것으로 확인됐다.2위는 '선관위 특검 직원 사망(3.47%)'이 차지했다…",
-   "publishedAt": "2026-10-26T19:28:52.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "cc7453724b0c0da0"
-  },
-  {
-   "id": "118a0be49606e101",
-   "sourceId": "the-decoder",
-   "sourceName": "The Decoder",
-   "originalTitle": "Anthropic opens its books for Wall Street, showing record revenue and mounting obligations",
-   "originalUrl": "https://the-decoder.com/anthropic-opens-its-books-for-wall-street-showing-record-revenue-and-mounting-obligations/",
-   "originalLanguage": "en",
-   "originalDescription": "Anthropic is the first major AI lab to file an S-1 with the SEC, planning to list on the Nasdaq under the ticker \"ANT.\" The numbers are strong, with $11.6 billion in quarterly revenue, a first-ever operating profit, and existing customers spending nine times more year over…",
-   "publishedAt": "2026-10-26T19:14:45.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "e2e7e6ca16180b0a"
-  },
-  {
-   "id": "e36a8771b7bcc29e",
-   "sourceId": "cert-cc-vulnotes",
-   "sourceName": "CERT/CC Vulnerability Notes",
-   "originalTitle": "VU#128947: COVESA vsomeip excessive memory allocation in reliable (TCP) endpoint buffer handling",
-   "originalUrl": "https://kb.cert.org/vuls/id/128947",
-   "originalLanguage": "en",
-   "originalDescription": "Overview vsomeip, COVESA's open source implementation of the SOME/IP automotive communication middleware, contained a memory allocation vulnerability present in versions 3.7.3 and below. A vsomeip reliable (TCP) SOME/IP endpoint grows its receive buffer to an attacker-declared…",
-   "publishedAt": "2026-10-26T19:07:02.688Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "1bbc73bf574502a5"
-  },
-  {
-   "id": "b4ee20a095cf1887",
-   "sourceId": "ars-technica-gadgets",
-   "sourceName": "Ars Technica Gadgets",
-   "originalTitle": "Apple reveals updated iPad mini with a bigger OLED screen for $700",
-   "originalUrl": "https://arstechnica.com/apple/2026/10/apple-reveals-updated-ipad-mini-with-a-bigger-oled-screen-for-700/",
-   "originalLanguage": "en",
-   "originalDescription": "Apple claims this is the most significant update ever for the iPad mini line.",
-   "publishedAt": "2026-10-26T19:04:40.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "mobile-hardware"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Apple-iPad-mini-hero-1152x648.jpg",
-   "contentHash": "6766d78f6922bb52"
-  },
-  {
-   "id": "de56fb996b09bd29",
-   "sourceId": "simon-willison",
-   "sourceName": "Simon Willison's Weblog",
-   "originalTitle": "Quoting Jason Koebler",
-   "originalUrl": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
-   "originalLanguage": "en",
-   "originalDescription": "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech…",
-   "publishedAt": "2026-10-26T19:00:25.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "ai",
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "c2b642f51c8f8d5d"
-  },
-  {
-   "id": "1e663d1fa1b08d3e",
-   "sourceId": "ars-technica-ai",
-   "sourceName": "Ars Technica AI",
-   "originalTitle": "ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees",
-   "originalUrl": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
-   "originalLanguage": "en",
-   "originalDescription": "US robotics company stands by ICE deal as more than 300 employees warn of risk.",
-   "publishedAt": "2026-10-26T18:50:41.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Radeco-Cerberus-robot-1152x648.jpg",
-   "contentHash": "8e73a95323cbc098"
-  },
-  {
-   "id": "f6103bcf0b57b4fc",
-   "sourceId": "apple-newsroom",
-   "sourceName": "Apple Newsroom",
-   "originalTitle": "Siri AI is available in more languages starting today",
-   "originalUrl": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/",
-   "originalLanguage": "en",
-   "originalDescription": "With the 27.2 software updates released today, Siri AI is expanding to French, Japanese, Korean, Portuguese, and Spanish.",
-   "publishedAt": "2026-10-26T18:37:30.189Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "mobile-hardware",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "637406cccaa185a7"
-  },
-  {
-   "id": "184c19819c4f9520",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/",
-   "originalLanguage": "en",
-   "originalDescription": "Today, AWS announces the general availability of OpenAI GPT-6.1 Terra on Amazon Bedrock. GPT-6.1 Terra expands the GPT-6 family with a balance of capability, speed, and cost efficiency for everyday workloads. As the newest model in the Terra line, GPT-6.1 Terra combines…",
-   "publishedAt": "2026-10-26T18:27:00.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "cloud-infrastructure",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "368d0144f80faefa"
-  },
-  {
-   "id": "4764a547323cc60e",
-   "sourceId": "the-hacker-news",
-   "sourceName": "The Hacker News",
-   "originalTitle": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-   "originalUrl": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
-   "originalLanguage": "en",
-   "originalDescription": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages…",
-   "publishedAt": "2026-10-26T18:12:22.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "cybersecurity",
-    "programming-languages"
-   ],
-   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdh3aURB79okzf_mo3sPzJy6vKRiWdPc4gyrE93xmMW-MRgYHrOuJ5yya0TpovJvi-2ol3GubNo5ir76ui-2jBo1jUvOd45Z8f98YeGVAECGcwgpRetuyxFxGWY8bBOB4a0G1H5YiYoYJ3Kd8YauFJGUIVTKYVHsLrvDElRe8sOuD4Y8CKMrAtCA6eJazr/s1600/m-code.jpg",
-   "contentHash": "f275c6799b6c9ecb"
-  },
-  {
-   "id": "3c9cc4cef7cbd332",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "Amazon WorkSpaces Core Managed Instances now supports ModifyVolume API",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-workspaces-cmi-modifyvolume/",
-   "originalLanguage": "en",
-   "originalDescription": "Amazon WorkSpaces Core Managed Instances now supports the ModifyVolume API, which lets you change volume size, volume type, IOPS, or throughput in place, without detaching the volume or restarting the instance. Previously, changing storage capacity or performance on a deployed…",
-   "publishedAt": "2026-10-26T18:00:00.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "ad71e3e9fe6cb901"
-  },
-  {
-   "id": "bccc79f682713b23",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
-   "originalUrl": "https://arxiv.org/abs/2610.35868v1",
-   "originalLanguage": "en",
-   "originalDescription": "While language models have become dramatically more capable, retrieval still largely relies on lexical matching or similarity in fixed embedding spaces. This creates a capability asymmetry: what the retriever fails to find, even the strongest generator cannot recover. We…",
-   "publishedAt": "2026-10-26T17:59:44.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "ad5f97434d3ea1b2"
-  },
-  {
-   "id": "494dc52175735ea9",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Center-of-Mass Interpretation of Evolution Strategies",
-   "originalUrl": "https://arxiv.org/abs/2610.35865v1",
-   "originalLanguage": "en",
-   "originalDescription": "Evolution strategies (ES) update a model by sampling a population of perturbed copies, scoring each one, and moving in the reward-weighted direction of the perturbations. This update is usually presented as an estimate of a smoothed gradient. We present a geometrical…",
-   "publishedAt": "2026-10-26T17:59:33.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "d19a588890ef5ea7"
-  },
-  {
-   "id": "da99f387dfb50d50",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
-   "originalUrl": "https://arxiv.org/abs/2610.35866v1",
-   "originalLanguage": "en",
-   "originalDescription": "As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark for evaluating autonomous research systems and discovering ideas in language…",
-   "publishedAt": "2026-10-26T17:59:33.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "bca4a905bd642488"
-  },
-  {
-   "id": "238c52c1c5aba481",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Learning Force-Reactive Humanoid Loco-Manipulation",
-   "originalUrl": "https://arxiv.org/abs/2610.35862v1",
-   "originalLanguage": "en",
-   "originalDescription": "Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Therefore, we present FLORE, a framework for learning…",
-   "publishedAt": "2026-10-26T17:59:11.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "f5b03c9fa44c6a5b"
-  },
-  {
-   "id": "75d79aea8e71b361",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "On the stability of learning",
-   "originalUrl": "https://arxiv.org/abs/2610.35856v1",
-   "originalLanguage": "en",
-   "originalDescription": "Learning algorithms are usually analyzed under the assumption that informative gradients are continuously available. But this is not always true---learning signals in biological neural networks, for example, may be sparse, local, and only intermittently available at any given…",
-   "publishedAt": "2026-10-26T17:58:14.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "2b3c54a17fe708fb"
-  },
-  {
-   "id": "f4c384acde8e9fca",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "OpenRadView",
-   "originalUrl": "https://www.producthunt.com/products/openradview",
-   "originalLanguage": "en",
-   "originalDescription": "Free, open-source viewer for your own CT, MRI and X-rays Discussion | Link",
-   "publishedAt": "2026-10-26T17:57:31.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "910b39e72b575bf6"
-  },
-  {
-   "id": "addcc356018895ea",
-   "sourceId": "aws-machine-learning-blog",
-   "sourceName": "AWS Machine Learning Blog",
-   "originalTitle": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
-   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/",
-   "originalLanguage": "en",
-   "originalDescription": "Fleet-wide computer vision needs a model per camera, not one model for the whole fleet. This post presents a working Amazon SageMaker SDK v3 reference architecture that trains, quality-gates, compiles per-camera models with SageMaker Neo, and versions thousands of them, with an…",
-   "publishedAt": "2026-10-26T17:56:58.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "ai",
-    "cloud-infrastructure",
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "ed9b3f9f365dd4c6"
-  },
-  {
-   "id": "49af57e0b89a8b7b",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
-   "originalUrl": "https://arxiv.org/abs/2610.35847v1",
-   "originalLanguage": "en",
-   "originalDescription": "Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across a longitudinal care pathway. Here we introduce NPC-RubricBench, a phase-aware…",
-   "publishedAt": "2026-10-26T17:56:26.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "19a7c4b9507d3d6f"
-  },
-  {
-   "id": "06f2dd2011c901bd",
-   "sourceId": "arxiv-cs-cl",
-   "sourceName": "arXiv cs.CL",
-   "originalTitle": "Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR",
-   "originalUrl": "https://arxiv.org/abs/2610.35846v1",
-   "originalLanguage": "en",
-   "originalDescription": "Expanding multilingual ASR systems to new languages is challenging when adaptation must preserve previously supported languages without replaying source-language training data. We study this problem in connector-based Speech LLMs, where a trainable connector maps speech…",
-   "publishedAt": "2026-10-26T17:56:22.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "23a47498284ed613"
-  },
-  {
-   "id": "189a6179ad47c5b9",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Work Agents: Systems, Capabilities, and Optimization",
-   "originalUrl": "https://arxiv.org/abs/2610.35845v1",
-   "originalLanguage": "en",
-   "originalDescription": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish…",
-   "publishedAt": "2026-10-26T17:56:21.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "2a6a7aadc36a8dbf"
-  },
-  {
-   "id": "a2f4556057059511",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "I-HITL: Inalienable Human-in-the-Loop",
-   "originalUrl": "https://arxiv.org/abs/2610.35835v1",
-   "originalLanguage": "en",
-   "originalDescription": "Human oversight is a pillar of AI safety. It is often exercised by a human in the loop (HITL) who approves critical actions taken by an AI agent. AI agents' increasing ability to bypass guardrails, though, raises the question of how to enforce HITL robustly. We introduce the…",
-   "publishedAt": "2026-10-26T17:52:14.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "abab5ed9365bc784"
-  },
-  {
-   "id": "49a215be08266f61",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "Information-Theoretic Secure Aggregation With Heterogeneous Client Quantization",
-   "originalUrl": "https://arxiv.org/abs/2610.35833v1",
-   "originalLanguage": "en",
-   "originalDescription": "In federated learning (FL), secure aggregation enables a server to compute the sum of local model updates of $N$ clients, without revealing any information on the individual model updates to the server, beyond their sum. Different clients may be subject to heterogeneous…",
-   "publishedAt": "2026-10-26T17:51:08.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "b27af2196d8332ec"
-  },
-  {
-   "id": "dc63de82786a14be",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy",
-   "originalUrl": "https://arxiv.org/abs/2610.35832v1",
-   "originalLanguage": "en",
-   "originalDescription": "Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model (WAM) policies across manipulation demands remains to be…",
-   "publishedAt": "2026-10-26T17:51:02.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "77d872b8b575da39"
-  },
-  {
-   "id": "f5addaf282bb14af",
-   "sourceId": "the-decoder",
-   "sourceName": "The Decoder",
-   "originalTitle": "Researchers find six patterns that make AI text so exhausting to read",
-   "originalUrl": "https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/",
-   "originalLanguage": "en",
-   "originalDescription": "A study from New York University and the University of Texas at Austin shows that frontier language models systematically overuse linguistic patterns that are hard for humans to parse. The researchers trace the problem to training on code and math, where correctness gets…",
-   "publishedAt": "2026-10-26T17:50:15.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "f34391c397383d29"
-  },
-  {
-   "id": "c224b5ccc2dca74f",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models",
-   "originalUrl": "https://arxiv.org/abs/2610.35829v1",
-   "originalLanguage": "en",
-   "originalDescription": "A vulnerability costs more to fix the later it is discovered. As coding agents generate code faster than developers can review it, software needs a first line of defense screening each new function in real time. LLM agents have recently become capable of finding real-world…",
-   "publishedAt": "2026-10-26T17:50:09.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "ai",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "96b05bb9c9e9d22d"
-  },
-  {
-   "id": "ff2372532e85dded",
-   "sourceId": "arxiv-cs-cl",
-   "sourceName": "arXiv cs.CL",
-   "originalTitle": "Understanding Jev-Style System One Models: Does Structure Reduce Selection Bias?",
-   "originalUrl": "https://arxiv.org/abs/2610.35826v1",
-   "originalLanguage": "en",
-   "originalDescription": "Selection bias in large language models (LLMs) can persist despite instructions to ignore presentation order or prompts that elicit reasoning. Recent efforts to reproduce Jev-style System One behavior have produced a growing family of models that predict probabilities directly…",
-   "publishedAt": "2026-10-26T17:48:55.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "18975a7a5c582b43"
-  },
-  {
-   "id": "c85198bbddef2ec1",
-   "sourceId": "the-hacker-news",
-   "sourceName": "The Hacker News",
-   "originalTitle": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-   "originalUrl": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
-   "originalLanguage": "en",
-   "originalDescription": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code. PHP says the flaw can be reached through the…",
-   "publishedAt": "2026-10-26T17:45:57.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "cybersecurity",
-    "programming-languages"
-   ],
-   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGYEqFaRxRywsWzBt-2T2G_Jpdp4zy3iV7qI1alNGRaBf_8TMdzRQQb335GhASkVoXD3q9mGkiLjAog4ez9d7DHhl88lkNVvuhI74KiKZP0zZpb2O8yyqyDw12WoYTiGaq1AVfG9TfGcdNhP-DmRwuKJ4Pj4mr9rEo-TVLYxYSpmUogJUSFZFL_VaduQ/s1600/php-windows.jpg",
-   "contentHash": "8008900c26eb242c"
-  },
-  {
-   "id": "a7f46c4aaa0095af",
-   "sourceId": "mit-technology-review-ai",
-   "sourceName": "MIT Technology Review AI",
-   "originalTitle": "Will the real Anthropic please stand up",
-   "originalUrl": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
-   "originalLanguage": "en",
-   "originalDescription": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks)…",
-   "publishedAt": "2026-10-26T17:45:43.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "122e312e37116d9f"
-  },
-  {
-   "id": "8fba65da5d43098c",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
-   "originalUrl": "https://arxiv.org/abs/2610.35817v1",
-   "originalLanguage": "en",
-   "originalDescription": "A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task. To achieve these two skills, we introduce Zero-real Agent Policy (ZAP), a recipe that teaches a small off-the-shelf vision-language model to control a…",
-   "publishedAt": "2026-10-26T17:44:34.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "f245ce0e4f43cc47"
-  },
-  {
-   "id": "189352ca2cfc9d19",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Does VGGT Know What It Does Not Know?",
-   "originalUrl": "https://arxiv.org/abs/2610.35806v1",
-   "originalLanguage": "en",
-   "originalDescription": "Feed-forward 3D reconstruction models such as VGGT regress cameras and geometry in a single forward pass, but they report no uncertainty for the camera poses they predict: an incorrect relative pose looks no different from a correct one. We ask whether the frozen model…",
-   "publishedAt": "2026-10-26T17:37:39.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "f5f55831ed75e9f2"
-  },
-  {
-   "id": "5dc99d44750c68e6",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Learning When to Commit: Schedule Distillation for Fast Diffusion Language Models",
-   "originalUrl": "https://arxiv.org/abs/2610.35804v1",
-   "originalLanguage": "en",
-   "originalDescription": "Diffusion large language models (dLLMs) can generate multiple tokens in parallel, but often require many decoding rounds to complete a response. Efficient generation depends not only on which tokens are easy to predict, but also on how committing to them helps predict the…",
-   "publishedAt": "2026-10-26T17:35:58.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "f385125baa399e2e"
-  },
-  {
-   "id": "3b705959ac4d1f30",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Game theory of academic effort and hiring in the age of AI",
-   "originalUrl": "https://arxiv.org/abs/2610.35802v1",
-   "originalLanguage": "en",
-   "originalDescription": "Many academic disciplines (in particular, mathematics and the theoretical sciences) face difficult questions about how to adapt their practices to the rise of highly capable artificial intelligence (AI). Before AI, a well-written research paper with a strong theoretical result…",
-   "publishedAt": "2026-10-26T17:35:30.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "ea5b001f1e93fd66"
-  },
-  {
-   "id": "4156e3ea1cd1d099",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "FOCUS: Active Critic Learning for Long-Horizon Language Model Agents",
-   "originalUrl": "https://arxiv.org/abs/2610.35801v1",
-   "originalLanguage": "en",
-   "originalDescription": "Sparse outcome rewards make it difficult for long-horizon language-model agents to assign credit to earlier actions. Learned critics provide value estimates for intermediate states, but these estimates can be inaccurate, while estimating intermediate values with repetitive…",
-   "publishedAt": "2026-10-26T17:34:47.000Z",
-   "discoveredAt": "2026-10-27T07:55:59.994Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "9d95d800650f3e3f"
-  },
-  {
-   "id": "c703d92e74636f36",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "The RealReal won’t let AI agents hog designer clothing",
-   "originalUrl": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
-   "originalLanguage": "en",
-   "originalDescription": "The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot defense system, effectively making it harder for AI agents to shop on its site. The change comes days after The Verge reported that an AI agent could be used to take advantage of The…",
-   "publishedAt": "2026-10-26T17:30:55.000Z",
-   "discoveredAt": "2026-10-26T22:42:48.814Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "bffee6e64f18c060"
   }
  ]
 }

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "73251ea6fbbb9651",
+ "contentHash": "f1d1ae2567c8f730",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-04T15:40:03.716Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+   "summary": "A China-aligned threat actor named SlippyNunchucks launched a surveillance campaign starting July 1, 2026. The campaign hijacks DNS requests by abusing insecure HTTP communications in the Windows versions of Sogou Input Method. This operation deploys an implant known as DarkVigil or FDMTP to target organizations.",
+   "impact": "Security teams and technology users may need to monitor for insecure HTTP communications and DNS hijacking attempts related to Sogou Input Method. Developers could need to review software update mechanisms and network traffic security to prevent similar backdoor deployment vectors.",
+   "keyPoints": [
+    "A threat actor called SlippyNunchucks is behind the operation.",
+    "The campaign uses DNS hijacking by abusing insecure HTTP communications in Sogou Input Method for Windows.",
+    "Operations began around July 1, 2026.",
+    "The campaign deploys the DarkVigil backdoor, also known as FDMTP."
+   ]
+  },
+  "km": {
+   "title": "ពួក Hacker ដែលពាក់ព័ន្ធនឹងប្រទេសចិនបានប្លន់យកសំណើ DNS របស់ Sogou Input Method ដើម្បីដាក់ឱ្យដំណើរការ DarkVigil Backdoor",
+   "summary": "ក្រុមឧក្រិដ្ឋជនអ៊ីនធឺណិតដែលមានទំនាក់ទំនងជាមួយចិនហៅថា SlippyNunchucks បានធ្វើការវាយប្រហារតាមដានចាប់ពីថ្ងៃទី ១ ខែកក្កដា ឆ្នាំ ២០២៦។ យុទ្ធនាការនេះបានប្លន់យកសំណើ DNS ដោយឆ្លប្រាស់ការប្រាស្រ័យទាក់ទង HTTP ដែលមិនមានសុវត្ថិភាពនៅក្នុង Sogou Input Method កំណែ Windows។ ប្រតិបត្តិការនេះបានដាក់ឱ្យដំណើរការកម្មវិធីបង្កប់ដែលគេស្គាល់ថា DarkVigil ឬ FDMTP ដើម្បីកំណត់គោលដៅលើអង្គភាពផ្សេងៗ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវតាមដានការទំនាក់ទំនង HTTP ដែលមិនមានសុវត្ថិភាព និងការប៉ុនប៉ងប្លន់យក DNS ពាក់ព័ន្ធនឹង Sogou Input Method។ អ្នកអភិវឌ្ឍន៍អាចត្រូវការពិនិត្យឡើងវិញនូវយន្តការអាប់ដេតកម្មវិធី និងសុវត្ថិភាពចរាចរណ៍បណ្តាញ។",
+   "keyPoints": [
+    "ក្រុមឧក្រិដ្ឋជនដែលមានឈ្មោះថា SlippyNunchucks គឺជាអ្នកនៅពីក្រោយប្រតិបត្តិការនេះ។",
+    "យុទ្ធនាការនេះប្រើប្រាស់ការប្លន់យក DNS តាមរយៈការប្រើប្រាស់ HTTP ដែលមិនមានសុវត្ថិភាពនៅក្នុង Sogou Input Method សម្រាប់ Windows។",
+    "សកម្មភាពបានចាប់ផ្តើមនៅថ្ងៃទី ១ ខែកក្កដា ឆ្នាំ ២០២៦។",
+    "យុទ្ធនាការនេះដាក់ឱ្យដំណើរការ DarkVigil backdoor ដែលត្រូវបានគេស្គាល់ថា FDMTP។"
+   ]
+  },
+  "zh-CN": {
+   "title": "与中国相关的黑客劫持 Sogou Input Method 的 DNS 请求以部署 DarkVigil 后门",
+   "summary": "一个与中国相关的威胁团伙 SlippyNunchucks 被指控发动了一起监视行动，该行动始于2026年7月1日。攻击者通过滥用 Windows 版本 Sogou Input Method 中的不安全 HTTP 通信来劫持 DNS 请求。此次行动旨在部署名为 DarkVigil（又称 FDMTP）的植入物以针对组织。",
+   "impact": "安全团队和技术用户可能需要监控与 Sogou Input Method 相关的不安全 HTTP 通信和 DNS 劫持企图。开发人员可能需要审查软件更新机制和网络流量安全，以防止类似的后门部署途径。",
+   "keyPoints": [
+    "名为 SlippyNunchucks 的威胁团伙是此次行动的幕后黑手。",
+    "该行动通过滥用 Windows 版 Sogou Input Method 中的不安全 HTTP 通信来进行 DNS 劫持。",
+    "行动于2026年7月1日开始被观测到。",
+    "行动部署了名为 DarkVigil 或 FDMTP 的后门植入物。"
+   ]
+  },
+  "ko": {
+   "title": "중국 연계 해커, DarkVigil 백도어 배포 위해 Sogou Input Method DNS 요청 탈취",
+   "summary": "SlippyNunchucks로 알려진 중국 연계 위협 행위자가 2026년 7월 1일부터 시작된 감시 캠페인을 벌였다. 이 캠페인은 Windows 버전 Sogou Input Method의 보안이 취약한 HTTP 통신을 악용하여 DNS 요청을 탈취한다. 이 작전은 DarkVigil 또는 FDMTP로 불리는 임플란트를 배포하여 조직을 겨냥하도록 설계되었다.",
+   "impact": "보안 팀과 기술 사용자는 Sogou Input Method와 관련된 보안 취약한 HTTP 통신 및 DNS 탈취 시도를 모니터링해야 할 수 있다. 개발자는 유사한 백도어 배포 벡터를 방지하기 위해 소프트웨어 업데이트 메커니즘과 네트워크 트래픽 보안을 검토해야 할 수 있다.",
+   "keyPoints": [
+    "SlippyNunchucks라는 위협 행위자가 이번 작전의 배후에 있다.",
+    "이 캠페인은 Windows용 Sogou Input Method의 취약한 HTTP 통신을 악용하여 DNS를 탈취한다.",
+    "작전은 2026년 7월 1일부터 관측되었다.",
+    "이 캠페인은 DarkVigil(FDMTP) 백도어를 배포한다."
+   ]
+  }
+ }
+}
