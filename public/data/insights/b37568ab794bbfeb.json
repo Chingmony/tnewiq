@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b37568ab794bbfeb",
+ "contentHash": "d8f4e7c82b05a4b7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-04T06:38:10.853Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Weight-space programming for auditing clinical decision networks",
+   "summary": "Researchers studied whether a frontier language model, Claude Opus 5.5, could use weight-space programming to audit and repair small neural networks trained for radiotherapy screening. Given only a clinical protocol and the network weights without data, tools, or code execution, the model successfully identified broken rules in 16 of 18 flawed networks and repaired them by changing a median of 3 parameters. However, the results indicate that the model cannot yet fully certify that a network is correct.",
+   "impact": "This approach could offer developers and security teams a new way to inspect and correct neural network models at the parameter level. However, because the technique cannot yet certify correctness, teams may need to rely on additional black-box testing and validation methods before deploying clinical decision systems.",
+   "keyPoints": [
+    "Claude Opus 5.5 audited small neural networks with 433 to 4,801 parameters blindly using weight-space programming.",
+    "The language model named the broken rule in 16 of 18 flawed networks and repaired each by changing a median of 3 parameters.",
+    "Fine-tuning also repaired every network but altered nearly every parameter in the process.",
+    "The method cannot yet certify that a network is fully correct."
+   ]
+  },
+  "km": {
+   "title": "ការសរសេរកម្មវិធីលំហទម្ងន់សម្រាប់ការត្រួតពិនិត្យបណ្តាញសម្រេចចិត្តគ្លីនិក",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាថាតើម៉ូដែលភាសាកម្រិតខ្ពស់មួយអាចប្រើប្រាស់ការសរសេរកម្មវិធីលំហទម្ងន់ ដើម្បីត្រួតពិនិត្យ និងជួសជុលបណ្តាញសរសៃប្រសាទខ្នាតតូចដែលបានបណ្តុះបណ្តាលសម្រាប់ការពិនិត្យវិទ្យុសកម្មដែរឬទេ។ ដោយទទួលបានតែពិធីការគ្លីនិក និងទម្ងន់បណ្តាញដោយគ្មានទិន្នន័យ ឧបករណ៍ ឬការប្រតិបត្តិ ਕੋដ ម៉ូដែលនេះបានកំណត់អត្តសញ្ញាណច្បាប់ដែលខូចនៅក្នុងបណ្តាញចំនួន ១៦ ក្នុងចំណោម ១៨ និងបានជួសជុលវា។ ទោះជាយ៉ាងណាក៏ដោយ លទ្ធផលបង្ហាញថា ម៉ូដែលនេះមិនទាន់អាចបញ្ជាក់ថាបណ្តាញមួយត្រឹមត្រូវទាំងស្រុងនោះទេ។",
+   "impact": "វិធីសាស្ត្រនេះអាចផ្តល់ឱ្យក្រុមអភិវឌ្ឍន៍នូវមធ្យោបាយថ្មីមួយដើម្បីត្រួតពិនិត្យ និងកែតម្រូវម៉ូដែលបណ្តាញសរសៃប្រសាទនៅកម្រិតប៉ារ៉ាម៉ែត្រ។ ប៉ុន្តែដោយសារតែបច្ចេកទេសនេះមិនទាន់អាចបញ្ជាក់ភាពត្រឹមត្រូវ ក្រុមការងារអាចចាំបាច់ត្រូវពឹងផ្អែកលើការធ្វើតេស្តបន្ថែម។",
+   "keyPoints": [
+    "ការសរសេរកម្មវិធីលំហទម្ងន់ត្រូវបានប្រើដើម្បីត្រួតពិនិត្យបណ្តាញសរសៃប្រសាទខ្នាតតូច។",
+    "ម៉ូដែលភាសាបានកំណត់ឈ្មោះច្បាប់ដែលខូច និងបានជួសជុលវាដោយផ្លាស់ប្តរប៉ារ៉ាម៉ែត្រមួយចំនួន។",
+    "វិធីសាស្ត្រនេះមិនទាន់អាចបញ្ជាក់ថាបណ្តាញគឺត្រឹមត្រូវទាំងស្រុងនៅឡើយទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "用于审计临床决策网络的权重空间编程",
+   "summary": "研究人员探讨了前沿语言模型是否可以使用权重空间编程来审计和修复为放射治疗筛选训练小型神经网络。在仅给定临床协议和网络权重且没有数据、工具或代码执行的情况下，该模型成功识别了18个有缺陷网络中的16个破损规则，并通过修改中位数为3个参数进行了修复。然而，结果表明该模型尚无法完全证明网络是正确的。",
+   "impact": "这种方法可以为开发人员和安全团队提供一种在参数级别检查和纠正神经网络模型的新途径。然而，由于该技术尚不能证明正确性，团队在部署临床决策系统之前可能仍需依靠额外的黑盒测试和验证方法。",
+   "keyPoints": [
+    "使用权重空间编程在没有工具或数据的情况下盲目审计小型神经网络。",
+    "语言模型在18个有缺陷的网络中命名了16个破损规则，并通过修改少量参数进行了修复。",
+    "微调也可以修复每个网络，但会改变几乎所有的参数。",
+    "测试结果表明该方法尚无法证明网络完全正确。"
+   ]
+  },
+  "ko": {
+   "title": "임상 결정 네트워크 감사를 위한 가중치 공간 프로그래밍",
+   "summary": "연구원들은 최신 언어 모델이 가중치 공간 프로그래밍을 사용하여 방사선 치료 스크리닝을 위해 훈련된 소형 신경망을 감사하고 수정할 수 있는지 조사했습니다. 데이터, 도구 또는 코드 실행 없이 임상 프로토콜과 네트워크 가중치만을 사용하여, 모델은 결함이 있는 18개의 네트워크 중 16개에서 손상된 규칙을 식별하고 중앙값 3개의 파라미터를 변경하여 수정했습니다. 그러나 결과는 이 모델이 아직 네트워크가 올바르다고 완전히 인증할 수는 없음을 보여줍니다.",
+   "impact": "이 접근 방식은 개발자와 보안 팀에게 파라미터 수준에서 신경망 모델을 검사하고 수정할 수 있는 새로운 방법을 제공할 수 있습니다. 그러나 이 기술이 아직 정확성을 인증할 수 없으므로, 팀은 임상 결정 시스템을 배포하기 전에 추가적인 블랙박스 테스트 및 검증 방법에 의존해야 할 수 있습니다.",
+   "keyPoints": [
+    "가중치 공간 프로그래밍을 사용하여 도구 나 데이터 없이 소형 신경망을 블라인드로 감사했습니다.",
+    "언어 모델은 결함이 있는 16개의 네트워크에서 손상된 규칙을 찾아내고 소수의 파라미터를 변경하여 수정했습니다.",
+    "미세 조정도 모든 네트워크를 수정했지만 거의 모든 파라미터를 변경했습니다.",
+    "결과는 아직 네트워크가 올바르다고 인증할 수 없음을 나타냅니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8eb28acdb4745ec7",
+ "contentHash": "cb7284dad268c7af",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-04T06:36:09.064Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+   "summary": "Researchers introduce DreamX, an approach that repurposes a pretrained video diffusion model to serve as a universal latent action learner. It extracts compact latent actions from spatiotemporal features, compressing each latent video frame by 300 times. The resulting latent space acts as a shared action interface across different embodiments, environments, and action parameterizations.",
+   "impact": "This model could improve cross-embodiment transfer and reduce the computational cost of video-diffusion-based policies for developers and researchers working with robotics and video models.",
+   "keyPoints": [
+    "DreamX repurposes a pretrained video diffusion model into a universal latent action learner.",
+    "It compresses each latent video frame by 300 times, from 1200 to 4 tokens.",
+    "The method achieves state-of-the-art performance on LARY-Bench among latent action models.",
+    "It enables any-to-any video transfer and zero-shot action transfer across human and robot embodiments."
+   ]
+  },
+  "km": {
+   "title": "DreamX: ម៉ូเดុលបំភាយវីដេអូគឺជាអ្នកសិក្សាសកម្មភាពឡាតង់ជាសកល",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ DreamX ដែលជាវិធីសាស្ត្រកែច្នៃម៉ូเดុលបំភាយវីដេអូដែលបានបណ្តុះបណ្តាលស្រាប់ ដើម្បីក្លាយជាអ្នកសិក្សាសកម្មភាពឡាតង់ជាសកល។ វាស្រង់ចេញនូវសកម្មភាពឡាតង់តូចល្មមពីលក្ខណៈពិសេស spatiotemporal និងបង្ហាប់ស៊ុមវីដេអូនីមួយៗចំនួន 300 ដង។ លំហឡាតង់លទ្ធផលនេះបម្រើការជាចំណុចប្រទាក់សកម្មភាពរួមគ្នាមួយឆ្លងកាត់ embodiments បរិស្ថាន និងប៉ារ៉ាម៉ែត្រសកម្មភាពផ្សេងៗគ្នា។",
+   "impact": "វាអាចជួយកែលម្អការផ្ទេរឆ្លង embodiments និងកាត់បន្ថយការចំណាយលើការគណនាសម្រាប់គោលនយោបាយផ្អែកលើការបំភាយវីដេអូសម្រាប់អ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខ។",
+   "keyPoints": [
+    "DreamX កែច្នៃម៉ូដុលបំភាយវីដេអូស្រាប់ទៅជាអ្នកសិក្សាសកម្មភាពឡាតង់ជាសកល។",
+    "វាបង្ហាប់ស៊ុមវីដេអូនីមួយៗចំនួន 300 ដង ពី 1200 ទៅ 4 តូកិន។",
+    "វាសម្រេចបាននូវដំណើរការកម្រិតខ្ពស់បំផុតនៅលើ LARY-Bench ក្នុងចំណោមម៉ូដុលសកម្មភាពឡាតង់។",
+    "វាអាចឱ្យមានការផ្ទេរវីដេអូណាមួយទៅណាមួយ និងការផ្ទេរសកម្មភាព zero-shot ឆ្លងកាត់ embodiments របស់មនុស្ស និងរ៉ូប៊ីូត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "DreamX：视频扩散模型是一个通用的潜在动作学习器",
+   "summary": "研究人员推出了 DreamX，该方法将预训练的视频扩散模型重新用作通用的潜在动作学习器。它从视频模型的时空特征中提取出紧凑的潜在动作，将每个潜在视频帧压缩 300 倍。由此产生的潜在空间可作为跨不同具身、环境和动作参数化的共享动作接口。",
+   "impact": "这可能会改善跨具身迁移，并降低基于视频扩散的策略的计算成本，对开发人员和技术用户产生影响。",
+   "keyPoints": [
+    "DreamX 将预训练的视频扩散模型重新改造为通用的潜在动作学习器。",
+    "它将每个潜在视频帧压缩 300 倍，从 1200 个标记压缩到 4 个标记。",
+    "在 LARY-Bench 上，DreamX 在潜在动作模型中实现了最先进的性能。",
+    "它支持跨不同具身和环境的任意视频传输和零样本动作迁移。"
+   ]
+  },
+  "ko": {
+   "title": "DreamX: 비디오 확산 모델은 범용 잠재 액션 학습기입니다",
+   "summary": "연구원들은 사전 훈련된 비디오 확산 모델을 범용 잠재 액션 학습기로 재용도하는 DreamX를 소개합니다. 이 방식은 비디오 모델의 시공간적 특징에서 컴팩트한 잠재 액션을 추출하여 각 잠재 비디오 프레임을 300배 압축합니다. 결과로 생성된 잠재 공간은 다양한 신체, 환경 및 액션 매개변수에 걸쳐 공유 액션 인터페이스 역할을 합니다.",
+   "impact": "개발자들과 기술 사용자들에게 이 모델은 교차 신체 전송을 개선하고 비디오 확산 기반 정책의 연산 비용을 줄이는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "DreamX는 사전 훈련된 비디오 확산 모델을 범용 잠재 액션 학습기로 재용도합니다.",
+    "각 잠재 비디오 프레임을 1200개 토큰에서 4개 토큰으로 300배 압축합니다.",
+    "LARY-Bench에서 잠재 액션 모델 중 최고 수준의 성능을 달성합니다.",
+    "인간과 로봇 등 다양한 신체와 환경 간의 비디오 전송 및 제로샷 액션 전송을 지원합니다."
+   ]
+  }
+ }
+}

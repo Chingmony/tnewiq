@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4079641725d4c0e0",
+ "contentHash": "0a7d9b629ed0697d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-04T06:36:32.181Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
+   "summary": "Researchers have independently re-implemented and studied a practical variant of Direct Nash Optimization, known as DNO-Prct, on the Llama 3.1 8B Instruct and Mistral 7B Instruct v0.1 models. By using iterative on-policy sampling, LLM rating, and contrastive updates, the method improved the length-controlled win rates against GPT-4o on AlpacaEval 2.0. The study also evaluated the use of open-weight annotators instead of proprietary models, alongside various method ablations.",
+   "impact": "This empirical study could help developers understand how to align language models more effectively using DNO-Prct without strictly relying on proprietary models for annotation. Teams working on model alignment may find the ablation insights useful for optimizing pipeline components.",
+   "keyPoints": [
+    "DNO-Prct approximates a Nash equilibrium of a two-player preference game for language model alignment.",
+    "Three iterations raised the length-controlled win rate against GPT-4o from 31.7% to 45.3% for Llama and 6.8% to 18.4% for Mistral.",
+    "Open-weight annotators retained a significant portion of the gains achieved when using GPT-4o as an annotator.",
+    "Ablations removing gold responses, data look-back, or accepting only teacher-preferred pairs scored 6 to 10 points lower than the full procedure."
+   ]
+  },
+  "km": {
+   "title": "ការតម្រឹមកម្រិតភាសាជាមួយចំណង់ចំណូលចិត្តទូទៅ៖ ការសិក្សាเชิงបទពិសោធន៍នៃ Direct Nash Optimization",
+   "summary": "អ្នកស្រាវជ្រាវបានធ្វើការអនុវត្តឡើងវិញ និងសិក្សាអំពីកំណែជាក់ស្តែងនៃ Direct Nash Optimization ដែលហៅថា DNO-Prct នៅលើម៉ូឌែល Llama 3.1 8B Instruct និង Mistral 7B Instruct v0.1។ វិធីសាស្ត្រនេះបានជួយកែលម្អអត្រាឈ្នះនៅលើ AlpacaEval 2.0 តាមរយៈការយកគំរូតាមគោលនយោបាយ ការវាយតម្លៃដោយ LLM និងការធ្វើបច្ចុប្បន្នភាពផ្ទុយគ្នា។ ការសិក្សានេះក៏បានវាយតម្លៃពីការប្រើប្រាស់អ្នកចំណាំដែលមានទម្ងន់បើកចំហជំនួសឱ្យម៉ូឌែលកម្មសិទ្ធិផងដែរ។",
+   "impact": "ការសិក្សានេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍យល់ពីរបៀបតម្រឹមម៉ូឌែលភាសាកាន់តែមានប្រសិទ្ធភាពដោយប្រើ DNO-Prct ដោយមិនចាំបាច់ពឹងផ្អែកលើម៉ូឌែលកម្មសិទ្ធិសម្រាប់ការចំណាំនោះទេ។ ក្រុមការងារអាចទទួលបានអត្ថប្រយោជន៍ពីការយល់ដឹងអំពីសមាសភាគនៃដំណើរការនេះ។",
+   "keyPoints": [
+    "DNO-Prct ប្រហាក់ប្រហែលនឹងតុល្យភាព Nash នៃការលេងចំណង់ចំណូលចិត្តរវាងអ្នកលេងពីរនាក់សម្រាប់ការតម្រឹមម៉ូឌែលភាសា។",
+    "ការធ្វើម្តងទៀតចំនួនបីដងបានដំឡើងអត្រាឈ្នះដែលគ្រប់គ្រងដោយប្រវែងសម្រាប់ Llama និង Mistral។",
+    "អ្នកចំណាំដែលមានទម្ងន់បើកចំហរក្សាបាននូវភាគរយដ៏ច្រើននៃកំណើនដែលទទួលបានពី GPT-4o។",
+    "ការលុបចោលចម្លើយមាស ឬទិន្នន័យត្រឡប់ក្រោយ បានធ្វើឱ្យពិន្ទុធ្លាក់ចុះពី ៦ ទៅ ១០ ពិន្ទុធៀបនឹងនីតិវិធីពេញលេញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "将语言模型与通用偏好对齐：直接纳什优化的实证研究",
+   "summary": "研究人员独立重新实现并研究了直接纳什优化（Direct Nash Optimization）的实用变体 DNO-Prct，测试对象为 Llama 3.1 8B Instruct 和 Mistral 7B Instruct v0.1 模型。通过迭代式策略采样、大模型评分和对比更新，该方法提高了模型在 AlpacaEval 2.0 上对抗 GPT-4o 的长度控制胜率。研究还评估了使用开源权重注释器代替专有模型的效果以及各种消融配置。",
+   "impact": "这项实证研究可以帮助开发人员了解如何使用 DNO-Prct 更有效地对齐语言模型，而不严格依赖专有模型进行注释。致力于模型对齐的团队可能会发现这些消融实验结果对优化流程组件有所帮助。",
+   "keyPoints": [
+    "DNO-Prct 通过近似双人偏好游戏的纳什均衡来对齐语言模型。",
+    "经过三次迭代，Llama 对抗 GPT-4o 的长度控制胜率从 31.7% 提升至 45.3%，Mistral 从 6.8% 提升至 18.4%。",
+    "使用同系列开源权重注释器能够保留使用 GPT-4o 作为注释器时所获得的大部分胜率增益。",
+    "移除黄金回复、移除数据回溯或仅接受教师首选对的变体比完整程序低 6 到 10 个长度控制点。"
+   ]
+  },
+  "ko": {
+   "title": "일반 선호도와 언어 모델 정렬: 직접 내쉬 최적화에 대한 실증적 연구",
+   "summary": "연구자들은 Llama 3.1 8B Instruct 및 Mistral 7B Instruct v0.1 모델을 대상으로 직접 내쉬 최적화(Direct Nash Optimization)의 실용적 변형인 DNO-Prct를 독립적으로 재구현하고 연구했습니다. 반복적인 온정책 샘플링, LLM 기반 평가, 대조 업데이트를 통해 이 방법은 AlpacaEval 2.0에서 GPT-4o를 상대로 한 길이 제어 승률을 향상시켰습니다. 또한 연구에서는 오픈 웨이트 주석기의 활용과 다양한 제거 실험을 평가했습니다.",
+   "impact": "이번 실증 연구는 개발자들이 주석 작업을 위해 독점 모델에 엄격히 의존하지 않고도 DNO-Prct를 사용하여 언어 모델을 보다 효과적으로 정렬하는 방법을 이해하는 데 도움이 될 수 있습니다. 모델 정렬을 연구하는 팀은 파이프라인 구성 요소를 최적화하는 데 이 통찰력을 활용할 수 있습니다.",
+   "keyPoints": [
+    "DNO-Prct는 2인 선호 게임의 내쉬 균형을 근사하여 언어 모델을 정렬합니다.",
+    "세 번의 반복을 통해 Llama와 Mistral의 GPT-4o 대비 길이 제어 승률이 각각 향상되었습니다.",
+    "오픈 웨이트 주석기를 사용했을 때도 GPT-4o를 주석기로 사용했을 때 얻은 이득의 상당 부분을 유지했습니다.",
+    "골드 응답이나 데이터 룩백을 제거한 변형들은 전체 절차보다 낮은 점수를 기록했습니다."
+   ]
+  }
+ }
+}

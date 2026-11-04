@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6560e745265dab56",
+ "contentHash": "10239d0d27269159",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-04T06:33:16.930Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How is Universal Embedding Used in Kream?",
+   "summary": "A session from the 10th NAVER Engineering Day details how Kream utilizes universal embeddings and general retrieval across various recommendation systems. The presentation shares the transition from separate recommendation models to a unified embedding space, the limitations encountered in version one, and how version two resolved these issues. Key improvements in v2 included faster response latencies and reduced memory usage through technical adjustments like Matryoshka Representation Learning and Roaring Bitmaps.",
+   "impact": "ML engineers and developers working on recommendation systems could benefit from these insights into unifying embedding spaces, reducing model count, and optimizing filtered vector retrieval. Teams dealing with high latency or memory constraints in vector searches might find the strategies for handling conditions and vector resolutions useful.",
+   "keyPoints": [
+    "Kream shifted from using separate recommendation models for each section to a single universal embedding space.",
+    "Version one faced limitations including model instability, heavy 768-dimension vectors, and restrictions in handling large or flexible conditions.",
+    "Version two addressed these limits using Matryoshka Representation Learning, Roaring Bitmaps, and optimized brute-force calculations.",
+    "The updates resulted in approximately four times faster response latency and reduced memory usage to one-sixth."
+   ]
+  },
+  "km": {
+   "title": "តើ Universal Embedding ត្រូវបានប្រើប្រាស់យ៉ាងដូចម្តេចនៅក្នុង Kream?",
+   "summary": "វគ្គបង្ហាញមួយពីកម្មវិធី NAVER Engineering Day លើកទី 10 បានពិភាក្សាអំពីរបៀបដែល Kream ប្រើប្រាស់ 통합 임베딩 (Universal Embedding) និងការទាញយកទិន្នន័យទូទៅក្នុងប្រព័ន្ធណែនាំរបស់ខ្លួន។ វាបង្ហាញពីការផ្លាស់ប្តូរពីម៉ូដែលដាច់ដោយឡែកទៅជាលំហបង្កប់តែមួយ ការកំណត់ខറ്റ്‌នៃកំណែទីមួយ និងរបៀបដែលកំណែទីពីរបានដោះស្រាយបញ្ហាទាំងនោះ។ ការកែលម្អរួមមានការកាត់បន្ថយការពន្យាពេលនៃការឆ្លើយតប និងការប្រើប្រាស់អង្គចងចាំ។",
+   "impact": "វិស្វករ ML និងអ្នកអភិវឌ្ឍន៍ដែលធ្វើការលើប្រព័ន្ធណែនាំអាចទទួលបានចំណេះដឹងពីការពង្រឹងលំហបង្កប់ និងការកែលម្អការស្វែងរកវ៉ិចទ័រដែលមានលក្ខខណ្ឌ។ ក្រុមការងារដែលជួបប្រទះបញ្ហាល្បឿនយឺត ឬការប្រើប្រាស់អង្គចងចាំច្រើនក្នុងការស្វែងរកវ៉ិចទ័រអាចយកវិធីសាស្ត្រទាំងនេះទៅពិចារណា។",
+   "keyPoints": [
+    "Kream បានប្តូរពីការប្រើប្រាស់ម៉ូដែលណែនាំដាច់ដោយឡែកមកជាលំហបង្កប់សកលតែមួយ។",
+    "កំណែទីមួយមានដែនកំណត់ដូចជាអស្ថិរភាពម៉ូដែល និងវ៉ិចទ័រទំហំ 768 ដ៏ធ្ងន់។",
+    "កំណែទីពីរបានដោះស្រាយដែនកំណត់ទាំងនេះដោយប្រើប្រាស់ Matryoshka Representation Learning និង Roaring Bitmaps។",
+    "ការអាប់ដេតនេះបានធ្វើឱ្យការពន្យាពេលនៃការឆ្លើយតបលឿនជាងមុនប្រហែល 4 ដង និងកាត់បន្ថយអង្គចងចាំត្រឹម 1 ផ្នែកក្នុងចំណោម 6 ផ្នែក។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Universal Embedding在Kream中是如何使用的？",
+   "summary": "第10届NAVER Engineering Day上的一场演讲介绍了Kream如何在各种推荐系统中使用Universal Embedding和通用检索。内容分享了从各个板块独立模型向统一嵌入空间的转变、v1版本暴露的局限性，以及v2版本解决这些问题并扩展方向的过程。v2版本通过Matryoshka Representation Learning和Roaring Bitmap等技术实现了更快的响应延迟和更低的内存消耗。",
+   "impact": "从事推荐系统的机器学习工程师和开发人员可以从中了解如何统一嵌入空间、减少模型数量以及优化带条件的向量检索。处理向量搜索中高延迟或内存限制的团队可能会发现这些处理条件和向量分辨率的策略很有帮助。",
+   "keyPoints": [
+    "Kream将以往各推荐板块各自独立的模型整合为单一的Universal Embedding空间。",
+    "v1版本面临模型不稳定、768维向量沉重以及无法处理大型或组合条件等局限性。",
+    "v2版本通过Matryoshka Representation Learning、Roaring Bitmap以及全量计算优化解决了这些问题。",
+    "优化后响应延迟缩短了约4倍，内存使用量减少至原来的六分之一。"
+   ]
+  },
+  "ko": {
+   "title": "크림에서 통합 임베딩(Universal Embedding)은 어떻게 쓰일까?",
+   "summary": "제10회 NAVER Engineering Day에서 발표된 세션으로, 크림에서 통합 임베딩과 범용 리트리벌이 추천 시스템 전반에 쓰이는 방식과 v1의 한계를 v2에서 해결한 과정을 공유합니다. 구좌별로 따로 존재하던 추천 모델을 하나의 범용 임베딩 공간으로 통합하고, MRL과 Roaring Bitmap 등을 적용해 응답 지연을 줄이고 메모리를 최적화한 과정을 다룹니다.",
+   "impact": "추천 시스템의 후보 생성 단계에 관심이 있는 ML 엔지니어와 기획자들은 임베딩 공간 통합 및 조건부 벡터 검색 최적화에 대한 인사이트를 얻을 수 있습니다. 벡터 검색 시 지연 시간이나 메모리 사용량으로 고민하는 개발 팀에게 유용한 참고 사례가 될 수 있습니다.",
+   "keyPoints": [
+    "크림은 추천 구좌별로 따로 두었던 모델을 여러 목적에 쓸 수 있는 하나의 범용 임베딩 공간으로 통합했습니다.",
+    "v1 모델은 가끔 발생하는 모델 붕괴와 무거운 768차원, 그리고 자유로운 조건 조합의 한계를 겪었습니다.",
+    "v2에서는 MRL(Matryoshka Representation Learning)과 Roaring Bitmap 등을 도입해 한계를 극복했습니다.",
+    "결과적으로 응답 지연은 약 4배 빨라지고 메모리는 1/6로 줄어드는 개선을 이루었습니다."
+   ]
+  }
+ }
+}

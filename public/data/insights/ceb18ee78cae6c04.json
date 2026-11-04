@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ceb18ee78cae6c04",
+ "contentHash": "a63fcb5788d22044",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-04T06:38:22.480Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "MedPhysBench: A Benchmark for Evaluating Language Models on Medical Physics Calculations and Error Detection",
+   "summary": "MedPhysBench is a new benchmark designed to evaluate language models on medical physics calculations and error detection across radiation therapy, diagnostic imaging, nuclear medicine, and radiation protection. The benchmark uses ten seeded generators of calculation items and checking tasks, producing a held-out test split of 1,200 items. Twelve models were tested on the benchmark, scoring between 33.3% and 100.0% on calculations, with top models showing strong performance while other models struggled with level-3 clinical tasks and specific corrections. The research also evaluated error detection capabilities by presenting models with worksheets or results containing planted errors.",
+   "impact": "This benchmark could help developers and medical institutions assess the reliability of language models before deploying them for safety-critical tasks in medical physics. Understanding model failure modes, such as omitted inverse-square corrections or high false-alarm rates during error detection, may guide future safety improvements and validation workflows for AI in healthcare.",
+   "keyPoints": [
+    "MedPhysBench includes ten seeded generators covering radiation therapy, diagnostic imaging, nuclear medicine, and radiation protection.",
+    "Twelve evaluated models scored between 33.3% and 100.0% on calculation items.",
+    "Five models detected at least 96.7% of mostly large planted errors with a maximum of 4% false alarms.",
+    "The benchmark code, per-item outcomes, and targeted-test responses have been released."
+   ]
+  },
+  "km": {
+   "title": "MedPhysBench៖ ស្តង់ដារវាយតម្លៃសម្រាប់គំរូភាសាលើការគណនារូបវិទ្យាវេជ្ជសាស្ត្រ និងការរកឃើញកំហុស",
+   "summary": "MedPhysBench គឺជាស្តង់ដារថ្មីមួយដែលត្រូវបានបង្កើតឡើងដើម្បីវាយតម្លៃគំរូភាសាលើការគណនារូបវិទ្យាវេជ្ជសាស្ត្រ និងការរកឃើញកំហុសក្នុងការថែទាំកាំរស្មី រូបភាពរោគវិនិច្ឆ័យ ឱសថនុយក្លេអ៊ែរ និងការការពារកាំរស្មី។ ស្តង់ដារនេះប្រើប្រាស់ម៉ាស៊ីនបង្កើតធាតុគណនារចំនួនដប់ និងភារកិច្ចពិនិត្យ ដែលបង្កើតបានជាសំណុំតេស្តចំនួន ១២00។ គំរូភាសាចំនួន ១២ ត្រូវបានធ្វើតេស្តនៅលើស្តង់ដារនេះ ដោយទទួលបានពិន្ទុពី ៣៣,៣% ដល់ ១០០,០% លើការគណនា។",
+   "impact": "ស្តង់ដារនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងស្ថាប័នវេជ្ជសាស្ត្រក្នុងការវាយតម្លៃភាពជឿជាក់នៃគំរូភាសា មុនពេលដាក់ពង្រាយពួកវាសម្រាប់ភារកិច្ចសំខាន់ៗផ្នែកសុវត្ថិភាពក្នុងរូបវិទ្យាវេជ្ជសាស្ត្រ។ ការយល់ដឹងអំពីកំហុសរបស់គំរូអាចណែនាំដល់ការកែលម្អសុវត្ថិភាពនាពេលអនាគត។",
+   "keyPoints": [
+    "MedPhysBench រួមបញ្ចូលទាំងម៉ាស៊ីនបង្កើតចំនួនដប់ដែលគ្របដណ្តប់លើការព្យាបាលដោយកាំរស្មី និងរូបភាពរោគវិនិច្ឆ័យ។",
+    "គំរូដែលបានវាយតម្លៃចំនួនដប់ពីរទទួលបានពិន្ទុពី ៣៣,៣% ដល់ ១០០,០% ។",
+    "កូដស្តង់ដារ លទ្ធផល និងការឆ្លើយតបនៃការធ្វើតេស្តត្រូវបានផ្សព្វផ្សាយរួចហើយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "MedPhysBench：用于评估语言模型医学物理计算与错误检测能力的基准测试",
+   "summary": "MedPhysBench是一个新基准，用于评估语言模型在放射治疗、诊断成像、核医学和辐射防护方面的医学物理计算与错误检测能力。该基准包含十个计算条目和检查任务的生成器，在一个包含1200个条目的测试集上进行了评估。十二个模型在计算方面的得分在33.3%到100.0%之间，其中表现最好的几个模型准确率极高，而其他一些模型在3级临床任务和特定校正方面表现较差。",
+   "impact": "该基准可以帮助开发人员和医疗机构在将语言模型部署到医学物理学中涉及安全的关键任务之前，评估其可靠性。了解模型的故障模式（例如忽略平方反比校正或在错误检测中出现较高误报率）可能会指导未来医疗AI的安全改进和验证工作流程。",
+   "keyPoints": [
+    "MedPhysBench涵盖放射治疗、诊断成像、核医学和辐射防护等领域的十个生成器。",
+    "十二个被评估的模型在计算项目上的得分从33.3%到100.0%不等。",
+    "五个模型检测到了至少96.7%的大部分植入错误，误报率最高为4%。",
+    "研究人员已发布了基准代码、逐项结果以及针对性测试响应。"
+   ]
+  },
+  "ko": {
+   "title": "MedPhysBench: 의학 물리학 계산 및 오류 감지에서 언어 모델을 평가하기 위한 벤치마크",
+   "summary": "MedPhysBench는 방사선 치료, 진단 영상, 핵의학 및 방사선 방호 분야에서 의학 물리학 계산 및 오류 감지에 대한 언어 모델을 평가하기 위해 설계된 새로운 벤치마크입니다. 이 벤치마크는 10개의 계산 항목 및 검사 작업 생성기를 사용하여 1,200개의 항목으로 구성된 테스트 세트를 생성합니다. 12개의 모델이 벤치마크에서 테스트를 거쳤으며 계산 부문에서 33.3%에서 100.0% 사이의 점수를 기록했습니다.",
+   "impact": "이 벤치마크는 개발자와 의료 기관이 의학 물리학의 안전이 중요한 작업에 언어 모델을 배포하기 전에 신뢰성을 평가하는 데 도움이 될 수 있습니다. 오류 감지 중 역제곱 법칙 보정 누락 또는 높은 오탐율과 같은 모델 실패 모드를 이해하면 의료 분야 AI의 향후 안전 개선 및 검증 워크플로를 안내할 수 있습니다.",
+   "keyPoints": [
+    "MedPhysBench는 방사선 치료, 진단 영상, 핵의학 및 방사선 방호를 다루는 10개의 생성기를 포함합니다.",
+    "평가된 12개 모델은 계산 항목에서 33.3%에서 100.0% 사이의 점수를 받았습니다.",
+    "5개의 모델이 최대 4%의 오탐율로 대다수의 큰 심어진 오류 중 최소 96.7%를 감지했습니다.",
+    "벤치마크 코드, 항목별 결과 및 타겟 테스트 응답이 공개되었습니다."
+   ]
+  }
+ }
+}

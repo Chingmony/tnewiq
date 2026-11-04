@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9f3b695215aeb7c8",
+ "contentHash": "ec657a67a83ba14f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-04T06:38:33.848Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "A simple adaptive accelerated optimistic dual averaging method for unconstrained convex optimization in $p$-norm geometry",
+   "summary": "Researchers have proposed an adaptive accelerated optimistic dual averaging method, termed A2ODA, for unconstrained convex optimization using low-cost preconditioning based on p-norm geometry for p between 2 and infinity. The method is line-search-free and features a new stepsize selection technique based on an aggregated affine lower model. It provides a simple, unified update structure across different values of p without requiring elaborate updates for cases where p is greater than 2.",
+   "impact": "This method could offer developers and researchers working on large-scale first-order optimization a more efficient, line-search-free approach with a nearly optimal convergence rate under local smoothness conditions.",
+   "keyPoints": [
+    "Introduces the A2ODA method for unconstrained convex optimization.",
+    "Employs low-cost preconditioning based on p-norm geometry for p in the range [2, infinity].",
+    "Features a line-search-free design with a new stepsize selection technique.",
+    "Derives a convergence bound that separates constant and gap-dependent curvature effects."
+   ]
+  },
+  "km": {
+   "title": "វិធីសាស្ត្រគណនាកម្រិតមធ្យមពីរដែលប្រសើរឡើងយ៉ាងរហ័ស និងសម្របខ្លួនបានសាមញ្ញសម្រាប់ការបង្កើនប្រសិទ្ធភាពប៉ោងគ្មានដែនកំណត់ក្នុងធរណីមាត្រ p-norm",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើវិធីសាស្ត្រគណនាកម្រិតមធ្យមពីរដែលប្រសើរឡើងយ៉ាងរហ័ស និងសម្របខ្លួនបានហៅថា A2ODA សម្រាប់ការបង្កើនប្រសិទ្ធភាពប៉ោងគ្មានដែនកំណត់ដោយប្រើប្រាស់ការកំណត់ជាមុនដែលមានតម្លៃទាបផ្អែកលើធរណីមាត្រ p-norm សម្រាប់ p ស្ថិតក្នុងចន្លោះពី 2 ដល់ infinity។ វិធីសាស្ត្រនេះមិនតម្រូវឱ្យមានការស្វែងរកបន្ទាត់ទេ និងមានបច្ចេកទេសជ្រើសរើសជំហានថ្មីផ្អែកលើគំរូទាប affine ប្រមូលផ្តុំ។ វាផ្តល់នូវរចនាសម្ព័ន្ធអាប់ដេតដ៏សាមញ្ញ និងរួបរួមគ្នានៅទូទាំងតម្លៃ p ផ្សេងៗគ្នា។",
+   "impact": "វិធីសាស្ត្រនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវនូវវិធីសាស្ត្រដែលមានប្រសិទ្ធភាពជាងមុនសម្រាប់ការបង្កើនប្រសិទ្ធភាពទ្រង់ទ្រាយធំដោយមានអត្រា趋近ជិតល្អបំផុតក្រោមលក្ខខណ្ឌរលោងក្នុងតំបន់។",
+   "keyPoints": [
+    "បានណែនាំវិធីសាស្ត្រ A2ODA សម្រាប់ការបង្កើនប្រសិទ្ធភាពប៉ោងគ្មានដែនកំណត់។",
+    "ប្រើប្រាស់ការកំណត់ជាមុនតម្លៃទាបផ្អែកលើធរណីមាត្រ p-norm។",
+    "ការរចនាដែលមិនចាំបាច់ស្វែងរកបន្ទាត់ជាមួយបច្ចេកទេសជ្រើសរើសជំហានថ្មី។",
+    "ទទួលបានដែនកំណត់នៃការ converges ដែលញែកឥទ្ធិពលខ្សែកោងថេរ និងអាស្រ័យលើចន្លោះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "用于 $p$-范数几何中无约束凸优化的简单自适应加速乐观对偶平均方法",
+   "summary": "研究人员提出了一种用于无约束凸优化的自适应加速乐观对偶平均（A2ODA）方法，该方法采用基于 $p$-范数几何（$p$ 在 2 到无穷大之间）的低成本预处理。该方法无需进行直线搜索，并采用基于聚合仿射下模型的新步长选择技术。它在不同的 $p$ 值下具有简单且统一的更新结构，当 $p$ 大于 2 时不需要比欧几里得情况更复杂的更新。",
+   "impact": "该方法可能为从事大规模一阶优化的开发者和研究人员提供一种更高效、无需直线搜索且在局部平滑条件下具有近乎最优收敛速率的方法。",
+   "keyPoints": [
+    "引入了用于无约束凸优化的 A2ODA 方法。",
+    "采用了基于 $p$-范数几何（$p$ 属于 $[2, ext{infinity}]$）的低成本预处理。",
+    "具有无需直线搜索的设计和基于聚合仿射下模型的新步长选择技术。",
+    "推导出了区分常数曲率和间隙相关曲率影响的收敛界限。"
+   ]
+  },
+  "ko": {
+   "title": "p-노름 기하학에서의 제약 없는 볼록 최적화를 위한 단순 적응형 가속 낙관적 이중 평균화 방법",
+   "summary": "연구진은 p가 2에서 무한대 사이인 p-노름 기하학을 기반으로 한 저비용 사전조건화를 채택한 제약 없는 볼록 최적화를 위한 적응형 가속 낙관적 이중 평균화(A2ODA) 방법을 제안했습니다. 이 방법은 라인 서치가 필요 없으며 집계된 아핀 하위 모델을 기반으로 한 새로운 보폭 선택 기법을 채택합니다. p > 2인 경우에도 유클리드 경우 p = 2보다 더 복잡한 업데이트를 요구하지 않으며 다양한 p 값에 걸쳐 단순하고 통일된 업데이트 구조를 제공합니다.",
+   "impact": "이 방법은 대규모 1차 최적화를 다루는 개발자와 연구원들에게 국소 매끄러움 조건 하에서 거의 최적의 수렴 속도를 제공하는 효율적이고 라인 서치가 필요 없는 접근 방식을 제공할 수 있습니다.",
+   "keyPoints": [
+    "제약 없는 볼록 최적화를 위한 A2ODA 방법 도입.",
+    "[2, infinity] 범위의 p에 대한 p-노름 기하학 기반 저비용 사전조건화 채택.",
+    "라인 서치가 필요 없는 설계 및 새로운 보폭 선택 기법 적용.",
+    "상수 및 간격 종속 곡률의 효과를 분리하는 수렴 경계 유도."
+   ]
+  }
+ }
+}

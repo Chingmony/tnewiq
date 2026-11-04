@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "534aa0712ea5852a",
+ "contentHash": "505970bdc35afd40",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-04T06:37:03.542Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
+   "summary": "Researchers studied how effectively undesired behaviors in language models can be suppressed using two model organisms with narrow and broad triggers. They evaluated methods like SFT, GRPO, and gradient-ascent unlearning based on immediate suppression, durability under further training, and general capability preservation. To improve durability, they introduced Prefix-Expanded Adversarial Reinforcement Learning (PEARL), a GRPO variant. PEARL achieved strong immediate suppression, preserved task accuracy across Qwen3-4B and GPT-OSS-20B model families, and remained durable under further fine-tuning.",
+   "impact": "This research could help developers and security teams more effectively remove undesired behaviors from language models. PEARL may provide a way to achieve durable suppression that resists re-emergence during subsequent fine-tuning.",
+   "keyPoints": [
+    "Two model organisms were constructed with narrow and broad triggers for misbehavior.",
+    "Methods evaluated include SFT, GRPO, and gradient-ascent unlearning.",
+    "PEARL is a GRPO variant that augments rollouts with continuations from intermediate states.",
+    "PEARL achieved strong immediate suppression and durability across Qwen3-4B and GPT-OSS-20B."
+   ]
+  },
+  "km": {
+   "title": "ការទប់ស្កាត់អាកប្បកិរិយាមិនស៊ីសង្វាក់គ្នាក្នុងម៉ូដែលភាសាប្រកបដោយភាពធន់",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាអំពីរបៀបទប់ស្កាត់អាកប្បកិរិយាមិនចង់បាននៅក្នុងម៉ូដែលភាសាដោយប្រើម៉ូដែលពិសោធន៍ពីរដែលមានកត្តាជំរុញតូចនិងធំទូលាយ។ ពួកគេបានវាយតម្លៃវិធីសាស្ត្រដូចជា SFT, GRPO និង gradient-ascent unlearning ។ ដើម្បីបង្កើនភាពធន់ ពួកគេបានណែនាំវិធីសាស្ត្រ Prefix-Expanded Adversarial Reinforcement Learning ដែលហៅកាត់ថា PEARL ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខក្នុងការលុបបំបាត់អាកប្បកិរិយាមិនចង់បានចេញពីម៉ូដែលភាសាឱ្យកាន់តែមានប្រសិទ្ធភាព។ PEARL អាចផ្តល់នូវមធ្យោបាយមួយដើម្បីសម្រេចបាននូវការទប់ស្កាត់ដ៏ធន់ប្រឆាំងនឹងការលេចឡើងវិញ។",
+   "keyPoints": [
+    "ម៉ូដែលពិសោធន៍ពីរត្រូវបានបង្កើតឡើងជាមួយនឹងកត្តាជំរុញផ្សេងៗគ្នាសម្រាប់ការប្រព្រឹត្តខុស។",
+    "វិធីសាស្ត្រដែលបានវាយតម្លៃរួមមាន SFT, GRPO និង gradient-ascent unlearning ។",
+    "PEARL គឺជាប្រភេទ GRPO មួយដែលពង្រឹងការវាយតម្លៃជាមួយស្ថានភាពកម្រិតមធ្យម។",
+    "PEARL សម្រេចបាននូវការទប់ស្កាត់ភ្លាមៗនិងភាពធន់លើត្រកូលម៉ូដែល Qwen3-4B និង GPT-OSS-20B ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "持久抑制语言模型中的不对齐行为",
+   "summary": "研究人员通过构建具有窄触发器和宽触发器的两个模型有机体，研究了如何有效地抑制语言模型中出现的不良行为。他们根据即时抑制、进一步训练下的耐久性以及通用能力的保持，评估了SFT、GRPO和梯度上升遗忘等方法。为了提高耐久性，他们引入了一种名为PEARL的GRPO变体，该方法在Qwen3-4B和GPT-OSS-20B模型系列中实现了强效的即时抑制并保持了任务准确性。",
+   "impact": "这项研究可以帮助开发人员和安全团队更有效地从语言模型中消除不良行为。PEARL可能为实现抵抗后续微调重新出现的持久抑制提供了一种途径。",
+   "keyPoints": [
+    "构建了两个具有窄触发器和宽触发器的模型有机体来模拟错位行为。",
+    "评估的方法包括SFT、GRPO和梯度上升遗忘。",
+    "PEARL是一种通过采样中间状态延续来增强展开的GRPO变体。",
+    "PEARL在进一步微调下保持了强大的即时抑制能力和任务准确性。"
+   ]
+  },
+  "ko": {
+   "title": "언어 모델의 정렬되지 않은 행동을 지속적으로 억제하기",
+   "summary": "연구원들은 좁은 트리거와 넓은 트리거를 가진 두 가지 모델 유기체를 사용하여 언어 모델의 원치 않는 행동을 얼마나 효과적으로 억제할 수 있는지 연구했습니다. 그들은 즉각적인 억제, 추가 학습 시의 내구성, 일반 능력 유지 측면에서 SFT, GRPO, 경사 상승 망각 등의 방법을 평가했습니다. 내구성을 높이기 위해 중간 상태의 연속으로 롤아웃을 확장하는 GRPO 변종인 PEARL을 도입했습니다.",
+   "impact": "이번 연구는 개발자와 보안 팀이 언어 모델에서 원치 않는 행동을 더욱 효과적으로 제거하는 데 도움을 줄 수 있습니다. PEARL은 후속 미세 조정 과정에서 재발에 저항하는 지속적인 억제를 달성할 수 있는 방법을 제공할 수 있습니다.",
+   "keyPoints": [
+    "잘못된 정렬을 유발하는 좁은 트리거와 넓은 트리거를 가진 두 가지 모델 유기체가 구축되었습니다.",
+    "평가된 방법에는 SFT, GRPO 및 경사 상승 망각이 포함됩니다.",
+    "PEARL은 캐시된 궤적에서 샘플링된 중간 상태의 연속으로 롤아웃을 보강하는 GRPO 변종입니다.",
+    "PEARL은 Qwen3-4B 및 GPT-OSS-20B 모델군에서 강력한 즉각적 억제와 작업 정확도를 유지했습니다."
+   ]
+  }
+ }
+}

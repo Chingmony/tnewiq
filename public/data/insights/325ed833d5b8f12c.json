@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "325ed833d5b8f12c",
+ "contentHash": "67209d1a84e10027",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-04T06:37:48.291Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+   "summary": "Researchers found that in long-horizon agent reasoning, numerical noise grows within verification windows and draft acceptance results can change the output distribution after 30 steps. To address this, they developed an approach that trains the draft model to be rejected at critical decision points. This causes the target and draft models to part ways, forcing critical thinking tokens to be sampled directly from the target model under less noisy conditions. The method raises end-to-end success rates on complex agentic coding benchmarks without altering the target model.",
+   "impact": "This approach could help developers and technology users improve the reasoning accuracy and reliability of long-horizon agents on complex tasks. Security and development teams may benefit from more robust agentic coding benchmarks without needing to modify the underlying target model.",
+   "keyPoints": [
+    "Numerical noise grows within verification windows during long-horizon agent reasoning.",
+    "Draft acceptance results can change the output distribution after 30 steps.",
+    "Training the draft model to be rejected forces critical reasoning tokens to be sampled from the target model.",
+    "The approach raises end-to-end success rate on complex agentic coding benchmarks."
+   ]
+  },
+  "km": {
+   "title": "ការវែកញែកដោយការទស្សន៍ទាយបែបប្រឆាំងធ្វើឱ្យភ្នាក់ងាររយៈពេលវែងកាន់តែប្រសើរឡើង",
+   "summary": "អ្នកស្រាវជ្រាវបានរកឃើញថា ក្នុងការវែកញែករបស់ភ្នាក់ងាររយៈពេលវែង សំឡេងរំខានលេខកើនឡើងនៅក្នុងបង្អួចផ្ទៀងផ្ទាត់ ហើយលទ្ធផលនៃការទទួលយកសេចក្តីព្រាងអាចផ្លាស់ប្តូរការចែកចាយទិន្នផល។ ដើម្បីដោះស្រាយបញ្ហានេះ ពួកគេបានបង្កើតវិធីសាស្ត្រមួយដែលបណ្តុះបណ្តាលគំរូសេចក្តីព្រាងឱ្យត្រូវបានច្រានចោលនៅចំណុចសំខាន់ៗ។ វិធីសាស្រ្តនេះបង្កើនអត្រាជោគជ័យលើគោលដៅសរសេរកូដភ្នាក់ងារដ៏ស្មុគស្មាញដោយមិនផ្លាស់ប្តូរគំរូគោលដៅឡើយ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការកែលម្អភាពត្រឹមត្រូវនៃការវែកញែករបស់ភ្នាក់ងាររយៈពេលវែងលើកិច្ចការស្មុគស្មាញ។",
+   "keyPoints": [
+    "សំឡេងរំខានលេខកើនឡើងនៅក្នុងបង្អួចផ្ទៀងផ្ទាត់ក្នុងអំឡុងពេលវែកញែករបស់ភ្នាក់ងាររយៈពេលវែង។",
+    "លទ្ធផលនៃការទទួលយកសេចក្តីព្រាងអាចផ្លាស់ប្តូរការចែកចាយទិន្នផលបន្ទាប់ពី 30 ជំហាន។",
+    "ការបណ្តុះបណ្តាលគំរូសេចក្តីព្រាងឱ្យត្រូវបានច្រានចោលบังคับឱ្យតូខេនវែកញែកសំខាន់ៗត្រូវបានយកគំរូតាមពីគំរូគោលដៅ។",
+    "វិធីសាស្រ្តនេះដំឡើងអត្រាជោគជ័យលើគោលដៅសរសេរកូដភ្នាក់ងារស្មុគស្មាញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "对抗式推测推理改善长视界智能体",
+   "summary": "研究人员发现，在长视界智能体推理中，数值噪声会在验证窗口内增长，草稿接受结果会在 30 步后改变模型的输出分布。为了解决这个问题，他们开发了一种方法，通过训练草稿模型在关键决策点被拒绝。这使得目标模型和草稿模型分道扬镳，从而在噪声最小的条件下直接从目标模型采样关键思考词元。该方法在不改变目标模型的情况下提高了复杂智能体编程基准的端到端成功率。",
+   "impact": "这种方法可以帮助开发人员和技术用户提高长视界智能体在复杂任务上的推理准确性和可靠性。安全和开发团队可能会受益于更稳健的智能体编程基准，而无需修改底层目标模型。",
+   "keyPoints": [
+    "在长视界智能体推理期间，数值噪声在验证窗口内增长。",
+    "草稿接受结果会在 30 步后改变输出分布。",
+    "训练草稿模型被拒绝迫使关键推理词元从目标模型中采样。",
+    "该方法提高了复杂智能体编程基准的端到端成功率。"
+   ]
+  },
+  "ko": {
+   "title": "적대적 추측 추론은 장기 호라이즌 에이전트를 개선합니다",
+   "summary": "연구원들은 장기 호라이즌 에이전트 추론에서 검증 창 내에서 수치 노이즈가 증가하고 초안 수락 결과가 30단계 후에 모델의 출력 분포를 변경할 수 있음을 발견했습니다. 이를 해결하기 위해 그들은 중요한 결정 지점에서 초안 모델이 거부되도록 훈련하는 접근 방식을 개발했습니다. 이 접근 방식은 대상 모델을 변경하지 않고도 복잡한 에이전트 코딩 벤치마크에서 엔드투엔드 성공률을 높입니다.",
+   "impact": "이 접근 방식은 개발자와 기술 사용자가 복잡한 작업에서 장기 호라이즌 에이전트의 추론 정확도와 신뢰성을 향상시키는 데 도움이 될 수 있습니다. 보안 및 개발 팀은 기본 대상 모델을 수정하지 않고도 더 강력한 에이전트 코딩 벤치마크의 이점을 누릴 수 있습니다.",
+   "keyPoints": [
+    "장기 호라이즌 에이전트 추론 중에 검증 창 내에서 수치 노이즈가 증가합니다.",
+    "초안 수락 결과는 30단계 후에 출력 분포를 변경할 수 있습니다.",
+    "초안 모델이 거부되도록 훈련하면 중요한 추론 토큰이 대상 모델에서 샘플링됩니다.",
+    "이 접근 방식은 복잡한 에이전트 코딩 벤치마크에서 엔드투엔드 성공률을 높입니다."
+   ]
+  }
+ }
+}
