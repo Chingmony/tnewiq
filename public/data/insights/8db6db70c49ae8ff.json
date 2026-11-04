@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8db6db70c49ae8ff",
+ "contentHash": "21b00a15f149a667",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-04T22:03:16.201Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
+   "summary": "NVIDIA discusses using NVIDIA NeMo to transform production evidence into prioritized issues and custom evaluations. This process helps developers improve prompts, tools, models, memory, skills, and harness code. The approach addresses the limitation where generic benchmark scores fail to explain domain-specific agent failures.",
+   "impact": "Developers and technology users could use this approach to better understand why domain-specific agents fail in production. This may help in refining prompts, tools, models, memory, skills, and harness code more effectively than relying solely on generic benchmark scores.",
+   "keyPoints": [
+    "Turn production evidence into prioritized issues and custom evaluations.",
+    "Improve prompts, tools, models, memory, skills, and harness code.",
+    "Generic benchmark scores may not adequately explain domain-specific agent failures."
+   ]
+  },
+  "km": {
+   "title": "ប្រើប្រាស់ NVIDIA NeMo ដើម្បីបំប្លែងការបរាជ័យរបស់ Agent ទៅជាការសាកល្បង និងការជួសជុល",
+   "summary": "NVIDIA បានពិភាក្សាអំពីការប្រើប្រាស់ NVIDIA NeMo ដើម្បីបំប្លែងភស្តុតាងផលិតកម្មទៅជាបញ្ហាដែលមានអាទិភាព និងការវាយតម្លៃផ្ទាល់ខ្លួន។ ដំណើរការនេះជួយអ្នកអភិវឌ្ឍន៍ក្នុងការកែលម្អប្រអប់បញ្ចូល ឧបករណ៍ ម៉ូឌែល អង្សចរិក ការចងចាំ ជំនាញ និងកូដ។ វិធីសាស្ត្រនេះដោះស្រាយបញ្ហាដែលពិន្ទុគោលទូទៅមិនអាចពន្យល់ពីការបរាជ័យរបស់ Agent ក្នុងដែនជាក់លាក់។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចប្រើប្រាស់វិធីសាស្ត្រនេះ ដើម្បីយល់កាន់តែច្បាស់ពីមូលហេតុដែល Agent ដែនជាក់លាក់បរាជ័យក្នុងផលិតកម្ម។ វាអាចជួយក្នុងការកែលម្អប្រអប់បញ្ចូល ឧបករណ៍ ម៉ូឌែល និងកូដប្រកបដោយប្រសិទ្ធភាពជាងការផ្អែកលើពិន្ទុគោលទូទៅតែប៉ុណ្ណោះ។",
+   "keyPoints": [
+    "បំប្លែងភស្តុតាងផលិតកម្មទៅជាបញ្ហាដែលមានអាទិភាព និងការវាយតម្លៃផ្ទាល់ខ្លួន។",
+    "កែលម្អប្រអប់បញ្ចូល ឧបករណ៍ ម៉ូឌែល ការចងចាំ ជំនាញ និងកូដ។",
+    "ពិន្ទុគោលទូទៅប្រហែលជាមិនពន្យល់ពីការបរាជ័យរបស់ Agent នោះទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 NVIDIA NeMo 将 Agent 故障转化为测试和修复方案",
+   "summary": "NVIDIA 讨论了如何使用 NVIDIA NeMo 将生产环境中的证据转化为优先问题和自定义评估。该过程帮助开发人员改进提示词、工具、模型、记忆、技能和框架代码。这种方法解决了通用基准分数无法解释领域特定 Agent 故障的局限性。",
+   "impact": "开发人员和技术用户可以利用此方法更好地理解领域特定 Agent 在生产环境中发生故障的原因。与仅依赖通用基准分数相比，这可能有助于更有效地改进提示词、工具、模型、记忆、技能和框架代码。",
+   "keyPoints": [
+    "将生产环境证据转化为优先问题和自定义评估。",
+    "改进提示词、工具、模型、记忆、技能和框架代码。",
+    "通用基准分数可能无法解释特定领域的故障。"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA NeMo를 사용하여 Agent 실패를 테스트 및 수정으로 전환하기",
+   "summary": "NVIDIA는 NVIDIA NeMo를 사용하여 프로덕션 증거를 우선순위가 지정된 문제 및 맞춤형 평가로 전환하는 방법을 설명합니다. 이 프로세스는 개발자가 프롬프트, 도구, 모델, 메모리, 기술 및 하네스 코드를 개선하는 데 도움을 줍니다. 이 접근 방식은 일반적인 벤치마크 점수가 도메인별 Agent 실패를 설명하지 못하는 한계를 해결합니다.",
+   "impact": "개발자와 기술 사용자는 이 접근 방식을 사용하여 도메인별 Agent가 프로덕션에서 실패하는 이유를 더 잘 이해할 수 있습니다. 이는 일반적인 벤치마크 점수만 의존하는 것보다 프롬프트, 도구, 모델, 메모리, 기술 및 하네스 코드를 더 효과적으로 개선하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "프로덕션 증거를 우선순위가 지정된 문제 및 맞춤형 평가로 전환합니다.",
+    "프롬프트, 도구, 모델, 메모리, 기술 및 하네스 코드를 개선합니다.",
+    "일반적인 벤치마크 점수는 도메인별 Agent 실패를 설명하지 못할 수 있습니다."
+   ]
+  }
+ }
+}

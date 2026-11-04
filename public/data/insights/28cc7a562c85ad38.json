@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "28cc7a562c85ad38",
+ "contentHash": "fc1025b09e546b01",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-04T22:00:50.347Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+   "summary": "SonicWall has announced it will not issue patches for two vulnerabilities affecting end-of-life Global Management System (GMS) versions 9.5.2 and earlier. Among these is CVE-2026-109593, a high-severity unauthenticated file read vulnerability with a CVSS score of 9.1. This flaw could allow an attacker with network access to read internal GMS files.",
+   "impact": "Organizations continuing to use end-of-life SonicWall GMS software may remain exposed to unpatched vulnerabilities like CVE-2026-109593. Security teams should be aware that network access could allow attackers to read internal files, potentially increasing risk.",
+   "keyPoints": [
+    "SonicWall will not patch two vulnerabilities affecting end-of-life GMS systems.",
+    "Affected products include SonicWall GMS 9.5.2 and earlier versions.",
+    "CVE-2026-109593 is an unauthenticated file read vulnerability with a CVSS score of 9.1.",
+    "The flaw could allow attackers with network access to read internal GMS files."
+   ]
+  },
+  "km": {
+   "title": "SonicWall จะไม่កែសម្រួលចំណុចខ្សោយ EoL GMS ដែលអាចបញ្ចេញឯកសារ និងកែប្រែកំណត់ត្រាដែនបាស",
+   "summary": "SonicWall បានប្រកាសថានឹងមិនចេញបំណះសម្រាប់ចំណុចខ្សោយចំនួនពីរដែលប៉ះពាល់ដល់ប្រព័ន្ធ Global Management System (GMS) ដែលផុតអាយុកាលកំរិត 9.5.2 និងកំណែមុនៗនោះទេ។ ក្នុងចំណោមនោះមាន CVE-2026-109593 ដែលជាចំណុចខ្សោយអានឯកសារដោយគ្មានការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ និងមានពិន្ទុ CVSS 9.1។ ចំណុចខ្សោយនេះអាចអនុញ្ញាតឱ្យជនខិលខូចដែលមានសិទ្ធិ அணுகុបណ្តាញអានឯកសារ GMS ខាងក្នុងបាន។",
+   "impact": "ស្ថាប័នដែលបន្តប្រើប្រាស់កម្មវិធី SonicWall GMS ដែលផុតអាយុកាលអាចប្រឈមមុខនឹងចំណុចខ្សោយដែលគ្មានបំណះ។ ក្រុមសន្តិសុខគួរតែប្រុងប្រយ័ត្នចំពោះហានិភ័យនៃការចូលប្រើប្រាស់បណ្តាញដែលອາດអនុញ្ញាតឱ្យអានឯកសារខាងក្នុងបាន។",
+   "keyPoints": [
+    "SonicWall នឹងមិនដាក់បំណះលើចំណុចខ្សោយពីរនៅលើប្រព័ន្ធ GMS ដែលផុតអាយុកាលនោះទេ។",
+    "ផលិតផលដែលរងផលប៉ះពាល់គឺ SonicWall GMS 9.5.2 និងកំណែមុនៗ។",
+    "CVE-2026-109593 គឺជាចំណុចខ្សោយអានឯកសារដោយគ្មានការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវដែលមានពិន្ទុ CVSS 9.1។",
+    "ចំណុចខ្សោយនេះអាចអនុញ្ញាតឱ្យអ្នកវាយប្រហារអានឯកសារខាងក្នុង GMS បាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "SonicWall 不会修复可能暴露文件和修改数据库记录的 EoL GMS 漏洞",
+   "summary": "SonicWall 已经警告称，有两个漏洞影响已停止支持的 Global Management System (GMS) 系统，并且官方表示不会为这些漏洞发布补丁。这些安全缺陷影响 SonicWall GMS 9.5.2 及更早版本，其中包括 CVE-2026-109593，这是一个 CVSS 评分为 9.1 的未经身份验证的文件读取漏洞。该漏洞可能允许具有网络访问权限的攻击者读取内部 GMS 文件。",
+   "impact": "继续使用已停止支持的 SonicWall GMS 软件的组织可能会面临未修补的漏洞风险。安全团队应当注意，网络访问可能会使攻击者能够读取内部文件，从而增加潜在的安全风险。",
+   "keyPoints": [
+    "SonicWall 将不会为已停止支持的 GMS 系统漏洞发布补丁。",
+    "受影响的产品包括 SonicWall GMS 9.5.2 及更早版本。",
+    "CVE-2026-109593 是一个未经身份验证的文件读取漏洞，CVSS 评分为 9.1。",
+    "该漏洞可能允许具有网络访问权限的攻击者读取内部 GMS 文件。"
+   ]
+  },
+  "ko": {
+   "title": "SonicWall, 파일 유출 및 데이터베이스 레코드 변경이 가능한 EoL GMS 취약점을 패치하지 않음",
+   "summary": "SonicWall은 지원이 종료된 Global Management System(GMS) 시스템에 영향을 미치는 두 가지 취약점에 대해 패치를 제공하지 않을 것이라고 경고했습니다. SonicWall GMS 9.5.2 및 이전 버전에 영향을 미치는 이 취약점 중에는 CVSS 점수 9.1점의 인증되지 않은 파일 읽기 취약점인 CVE-2026-109593이 포함되어 있습니다. 이 결함으로 인해 네트워크에 접근할 수 있는 공격자가 내부 GMS 파일을 읽을 수 있게 될 수 있습니다.",
+   "impact": "지원이 종료된 SonicWall GMS 소프트웨어를 계속 사용하는 조직은 패치되지 않은 취약점에 노출될 수 있습니다. 보안 팀은 네트워크 접근을 통해 공격자가 내부 파일을 읽을 수 있어 잠재적인 위험이 증가할 수 있음을 인지해야 합니다.",
+   "keyPoints": [
+    "SonicWall은 지원이 종료된 GMS 시스템의 취약점에 대해 패치를 제공하지 않을 것입니다.",
+    "영향을 받는 제품은 SonicWall GMS 9.5.2 및 이전 버전입니다.",
+    "CVE-2026-109593은 CVSS 점수 9.1점의 인증되지 않은 파일 읽기 취약점입니다.",
+    "이 결함은 네트워크 접근 권한이 있는 공격자가 내부 GMS 파일을 읽을 수 있게 할 수 있습니다."
+   ]
+  }
+ }
+}

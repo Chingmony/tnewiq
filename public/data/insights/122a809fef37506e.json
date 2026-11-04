@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "122a809fef37506e",
+ "contentHash": "779ce34c548c208d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-04T21:57:23.154Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Anthropic's text watermark is easy to bypass on several older Claude models",
+   "summary": "Anthropic is expanding text watermarks to four additional Claude models prior to the EU AI Act December deadline. However, on older models including Claude Opus 4.6 and Sonnet 4.6, API users are able to disable the watermark by altering a single sampling parameter. Anthropic addressed this loophole by issuing a compliance warning.",
+   "impact": "This issue may affect how developers and organizations ensure compliance with regulatory standards like the EU AI Act when using older models. Security teams and technology users should be aware that watermarking controls can be bypassed through simple parameter adjustments.",
+   "keyPoints": [
+    "Anthropic is adding text watermarks to four more Claude models for the EU AI Act December deadline.",
+    "Older models like Claude Opus 4.6 and Sonnet 4.6 allow API users to disable watermarks by changing a sampling parameter.",
+    "Anthropic responded to the bypass loophole with a compliance warning."
+   ]
+  },
+  "km": {
+   "title": "សញ្ញាសម្គាល់ទឹកអត្ថបទរបស់ Anthropic ងាយស្រួលគេចវេសនៅលើម៉ូដែល Claude ចាស់ៗមួយចំនួន",
+   "summary": "Anthropic កំពុងដាក់ឱ្យប្រើប្រាស់សញ្ញាសម្គាល់ទឹកអត្ថបទទៅលើម៉ូដែល Claude ចំនួនបួនបន្ថែមទៀត មុនពេលកាលកំណត់ខែធ្នូនៃច្បាប់ EU AI Act។ ប៉ុន្តែនៅលើម៉ូដែលចាស់ៗដូចជា Claude Opus 4.6 និង Sonnet 4.6 អ្នកប្រើប្រាស់ API អាចបិទសញ្ញាសម្គាល់ទឹកដោយប្តូរប៉ារ៉ាម៉ែត្រគំរាតតែមួយ។ Anthropic បានឆ្លើយតបចំពោះចន្លោះប្រហោងនេះដោយចេញការព្រមានអំពីការអនុលោមតាមច្បាប់។",
+   "impact": "បញ្ហានេះអាចប៉ះពាល់ដល់របៀបដែលអ្នកអភិវឌ្ឍន៍ និងក្រុមការងារសន្តិសុខធានាបាននូវការអនុលោមតាមស្តង់ដារបទប្បញ្ញត្តិដូចជា EU AI Act នៅពេលប្រើប្រាស់ម៉ូដែលចាស់ៗ។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាគួរតែដឹងថាការគ្រប់គ្រងសញ្ញាសម្គាល់ទឹកអាចត្រូវបានគេចវេសតាមរយៈការកែតម្រូវប៉ារ៉ាម៉ែត្រងាយៗ។",
+   "keyPoints": [
+    "Anthropic កំពុងបន្ថែមសញ្ញាសម្គាល់ទឹកអត្ថបទទៅលើម៉ូដែល Claude ចំនួនបួនទៀតសម្រាប់កាលកំណត់ខែធ្នូរបស់ EU AI Act។",
+    "ម៉ូដែលចាស់ៗដូចជា Claude Opus 4.6 និង Sonnet 4.6 អនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ API បិទសញ្ញាសម្គាល់ទឹកដោយប្តូរប៉ារ៉ាម៉ែត្រគំរាត។",
+    "Anthropic បានឆ្លើយតបចំពោះរន្ធច្រកគេចវេសនេះដោយការចេញការព្រមានអំពីការអនុលោមតាមច្បាប់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Anthropic 的文本水印在几个旧版 Claude 模型上很容易被绕过",
+   "summary": "在欧盟人工智能法案（EU AI Act）12月截止日期到来之前，Anthropic 正在向另外四个 Claude 模型推出文本水印。然而，在 Claude Opus 4.6 和 Sonnet 4.6 等旧模型上，API 用户可以通过更改单个采样参数来禁用水印。Anthropic 对这一漏洞的回应是发出合规警告。",
+   "impact": "在使用旧模型时，这一问题可能会影响开发人员和安全团队确保符合 EU AI Act 等监管标准的方式。技术用户应当注意，可以通过简单的参数调整来绕过水印控制。",
+   "keyPoints": [
+    "Anthropic 正在为欧盟人工智能法案 12 月的截止日期向另外四个 Claude 模型添加文本水印。",
+    "Claude Opus 4.6 和 Sonnet 4.6 等旧模型允许 API 用户通过更改采样参数来禁用水印。",
+    "Anthropic 针对该漏洞发出了合规警告作为回应。"
+   ]
+  },
+  "ko": {
+   "title": "Anthropic의 텍스트 워터마크는 일부 구형 Claude 모델에서 쉽게 우회됨",
+   "summary": "Anthropic은 EU AI Act의 12월 마감일을 앞두고 네 개의 Claude 모델에 추가로 텍스트 워터마크를 도입하고 있습니다. 그러나 Claude Opus 4.6 및 Sonnet 4.6 같은 구형 모델에서는 API 사용자가 단일 샘플링 파라미터를 변경하여 워터마크를 비활성화할 수 있습니다. Anthropic은 이 허점에 대해 규정 준수 경고로 대응했습니다.",
+   "impact": "이 문제는 개발자와 보안 팀이 구형 모델을 사용할 때 EU AI Act와 같은 규제 표준 준수를 보장하는 방식에 영향을 미칠 수 있습니다. 기술 사용자는 간단한 파라미터 조정을 통해 워터마크 제어를 우회할 수 있음을 인지해야 합니다.",
+   "keyPoints": [
+    "Anthropic은 EU AI Act 12월 마감일에 맞춰 네 개의 Claude 모델에 텍스트 워터마크를 추가하고 있습니다.",
+    "Claude Opus 4.6 및 Sonnet 4.6 같은 구형 모델에서는 API 사용자가 샘플링 파라미터를 변경하여 워터마크를 비활성화할 수 있습니다.",
+    "Anthropic은 우회 허점에 대해 규정 준수 경고를 발행하여 대응했습니다."
+   ]
+  }
+ }
+}

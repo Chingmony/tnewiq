@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9b89acc964d05b36",
+ "contentHash": "92e2af2877549117",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-04T22:02:25.060Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How U Mobile built agentic telco operations with Amazon Bedrock AgentCore",
+   "summary": "Malaysian 5G network provider U Mobile built AiDaH, an AI-driven agentic helpdesk, using Amazon Bedrock AgentCore in collaboration with AWS and partner Axrail. The platform addresses operational fragmentation by navigating multiple systems, analyzing results, and proposing corrective actions to reduce reliance on manual troubleshooting. Within a year, AiDaH has scaled to handle over 150 operational scenarios across six business divisions, resulting in a drop in trouble ticket volumes by up to 84.5 percent in key categories.",
+   "impact": "Technology teams and developers dealing with fragmented enterprise systems may find that agentic architectures help reduce manual context-switching and system escalations. Security and operational teams could benefit from using managed agent runtimes and built-in guardrails to streamline complex troubleshooting workflows.",
+   "keyPoints": [
+    "U Mobile developed AiDaH using Amazon Bedrock AgentCore with AWS and Axrail.",
+    "The system handles over 150 documented operational scenarios across six business divisions.",
+    "Internal measurements show trouble ticket volumes falling by up to 84.5 percent in key categories."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែល U Mobile បានសាងសង់ប្រតិបត្តិការទូរគមនាគមន៍បែបភ្នាក់ងារដោយប្រើ Amazon Bedrock AgentCore",
+   "summary": "ក្រុមហ៊ុន U Mobile ដែលជាអ្នកផ្តល់សេវាបណ្តាញ 5G នៅប្រទេសម៉ាឡេស៊ី បានបង្កើត AiDaH ដែលជាតុជំនួយបែបភ្នាក់ងារជំរុញដោយ AI ដោយប្រើប្រាស់ Amazon Bedrock AgentCore សហការជាមួយ AWS និងដៃគូ Axrail។ ប្រព័ន្ធនេះដោះស្រាយបញ្ហាការបែកបាក់ប្រតិបត្តិការដោយរុករកប្រព័ន្ធច្រើន វិភាគលទ្ធផល និងស្នើវិធានការណ៍កែតម្រូវ។ ក្នុងរយៈពេលមួយឆ្នាំ AiDaH បានពង្រីកខ្លួនដើម្បីจัดการសេណារីយ៉ូប្រតិបត្តិការជាង ១៥០ លើផ្នែកអាជីវកម្មចំនួនប្រាំំរី ដែលធ្វើឱ្យបរិមាណសំបុត្របញ្ហាធ្លាក់ចុះរហូតដល់ ៨៤.៥ភាគរយ។",
+   "impact": "ក្រុមបច្ចេកវិទ្យានិងអ្នកអភិវឌ្ឍន៍ដែលដោះស្រាយជាមួយប្រព័ន្ធសាជីវកម្មដែលបែកខ្ញែកអាចយល់ឃើញថាស្ថាបត្យកម្មភ្នាក់ងារជួយកាត់បន្ថយការប្តូរបរិបទដោយដៃ។ ក្រុមសន្តិសុខនិងប្រតិបត្តិការអាចទទួលបានអត្ថប្រយោជន៍ពីការប្រើប្រាស់ពេលវេលារត់ការភ្នាក់ងារដែលគ្រប់គ្រងរួចជាស្រេច។",
+   "keyPoints": [
+    "U Mobile បានអភិវឌ្ឍ AiDaH ដោយប្រើ Amazon Bedrock AgentCore ជាមួយ AWS និង Axrail។",
+    "ប្រព័ន្ធនេះគ្រប់គ្រងសេណារីយ៉ូប្រតិបត្តិការជាង ១៥០ លើផ្នែកអាជីវកម្មចំនួនប្រាំមួយ។",
+    "រង្វាស់ផ្ទៃក្នុងបង្ហាញថាកម្រិតបរិមាណសំបុត្របញ្ហាបានធ្លាក់ចុះរហូតដល់ ៨៤.៥ភាគរយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "U Mobile 如何利用 Amazon Bedrock AgentCore 构建智能代理电信运营",
+   "summary": "马来西亚 5G 网络运营商 U Mobile 与 AWS 及其合作伙伴 Axrail 合作，使用 Amazon Bedrock AgentCore 构建了由人工智能驱动的代理帮助台 AiDaH。该平台通过跨多个系统导航、分析结果并提出纠正措施来应对运营碎片化问题，从而减少对手动排查的依赖。在启动后的一年内，AiDaH 已扩展到处理六个业务部门的 150 多个运营场景，使关键类别的故障工单量下降了高达 84.5%。",
+   "impact": "处理碎片化企业系统的技术团队和开发人员可能会发现，代理架构有助于减少手动上下文切换和系统升级。安全和运营团队可以从使用托管代理运行时和内置护栏中受益，以简化复杂的故障排除工作流。",
+   "keyPoints": [
+    "U Mobile 与 AWS 和 Axrail 合作开发了基于 Amazon Bedrock AgentCore 的 AiDaH。",
+    "该系统处理六个业务部门的 150 多个已记录的运营场景。",
+    "内部测量显示关键类别的故障工单量下降了高达 84.5%。"
+   ]
+  },
+  "ko": {
+   "title": "U Mobile이 Amazon Bedrock AgentCore를 사용하여 에이전트 기반 통신 운영을 구축한 방법",
+   "summary": "말레이시아의 5G 네트워크 제공업체인 U Mobile은 AWS 및 파트너 Axrail과 협력하여 Amazon Bedrock AgentCore를 사용해 AI 기반 에이전트 헬프데스크인 AiDaH를 구축했습니다. 이 플랫폼은 여러 시스템을 탐색하고 결과를 분석하며 수정 조치를 제안하여 운영 단편화 문제를 해결합니다. 1년 내에 AiDaH는 6개 사업 부문에 걸쳐 150개 이상의 운영 시나리오를 처리하도록 확장되었으며, 주요 범주에서 장애 티켓 볼륨이 최대 84.5% 감소했습니다.",
+   "impact": "단편화된 엔터프라이즈 다중 시스템을 다루는 기술 팀과 개발자는 에이전트 아키텍처가 수동 컨텍스트 전환 및 시스템 에스컬레이션을 줄이는 데 도움이 된다는 점을 알 수 있습니다. 보안 및 운영 팀은 관리형 에이전트 런타임과 내장 가드레일을 사용하여 복잡한 문제 해결 워크플로를 간소화할 수 있습니다.",
+   "keyPoints": [
+    "U Mobile은 AWS 및 Axrail과 함께 Amazon Bedrock AgentCore를 사용하여 AiDaH를 개발했습니다.",
+    "이 시스템은 6개 사업 부문에 걸쳐 150개 이상의 문서화된 운영 시나리오를 처리합니다.",
+    "내부 측정 결과 주요 범주에서 장애 티켓 볼륨이 최대 84.5% 감소했습니다."
+   ]
+  }
+ }
+}
