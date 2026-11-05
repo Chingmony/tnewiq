@@ -1,7 +1,318 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-04T21:55:13.950Z",
+ "generatedAt": "2026-11-05T02:30:07.507Z",
  "articles": [
+  {
+   "id": "171f9c58701ea991",
+   "sourceId": "naver-d2",
+   "sourceName": "NAVER D2",
+   "originalTitle": "2026년과 이후 JavaScript의 동향 - 브라우저 밖의 JavaScript",
+   "originalUrl": "https://d2.naver.com/helloworld/1443473",
+   "originalLanguage": "ko",
+   "originalDescription": "브라우저 밖의 JavaScript 동향을 마지막으로 다루었던 2019년 시점( 1부 , 2부 )에서는 Node.js 12와 막 1년을 넘긴 Deno를 소개하며 \"Node.js와 같은 성공을 거둘 수 있을지는 아직 미지수\"라고 썼습니다. 패키지 관리자 영역은 \"npm의 독주 체제\"라고 표현했고 npm 회사의 불확실한 상황에 맞서 Entropic, Open-Registry, GitHub Package Registry 같은 도전자가 등장했다고 전했습니다. 7년이 지난 지금 Node.js는 연 1회…",
+   "publishedAt": "2026-11-05T02:17:06.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "developer-tools",
+    "programming-languages"
+   ],
+   "imageUrl": null,
+   "contentHash": "128bb07b0e2827b9"
+  },
+  {
+   "id": "b343be92f1e1d3cc",
+   "sourceId": "naver-d2",
+   "sourceName": "NAVER D2",
+   "originalTitle": "2026년과 이후 JavaScript의 동향 - JavaScript(ECMAScript)",
+   "originalUrl": "https://d2.naver.com/helloworld/2675915",
+   "originalLanguage": "ko",
+   "originalDescription": "2016년부터 매년 이어 오던 \"JavaScript의 동향\" 연재는 2020년을 마지막으로 한동안 쉬었습니다. 그사이 6년이 지났고, 그 6년 동안 ECMAScript 명세는 여섯 번 개정되었습니다. 2020년 글을 쓸 때 Stage 2였던 Temporal은 9년에 걸친 논의 끝에 Stage 4에 올랐고, 이제 Chrome과 Firefox, Node.js에서 플래그 없이 쓸 수 있습니다. 달라진 것은 명세만이 아닙니다. 2020년에는 상상하기 어려웠던 방식으로 코드를 쓰는 사람이 늘었습니다…",
+   "publishedAt": "2026-11-05T02:15:08.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "developer-tools",
+    "programming-languages"
+   ],
+   "imageUrl": null,
+   "contentHash": "9dd463dd2907a322"
+  },
+  {
+   "id": "b4d7e2009c05be6a",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "🔥🔥开源接口平台 v6.5.0 发布，升级 JDK 25",
+   "originalUrl": "https://www.oschina.net/news/503403",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "ApiGo 是一款在线接口开发和管理平台，多数据库插件化数据源框架、SQL2API 。支持 WorkBuddy、千问办公、Trea Work、豆包等 AI 办公平台 MCP 接入。支持接入（mysql、oracle、达梦、TiDB、DolphinDB、Hive、DuckDB ）等 SQL 或 NoSQL 数据源，在线可视化编写 SQL 快速发布接口，支持接口上下线、接口管理、接口限流、权限...",
+   "publishedAt": "2026-11-05T02:02:49.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "f098abb9adaa2e66"
+  },
+  {
+   "id": "df3642c58022be87",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "禅道开源版 22.7 发布，运行环境升级为 PHP 8.4，完善了系统通知渠道，优化系统通知文案",
+   "originalUrl": "https://www.oschina.net/news/503402",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "大家好，禅道开源版22.7发布！本次发布补充了禅道对象的通知渠道，让更多业务对象的动态都能及时触达干系人；优化系统通知文案，消息提示更加准确清晰，方便用户快速知晓后续如何处理。 新版本将为用户带来更好的使用体验和更高的工作效率，感谢大家一直以来的支持和反馈，我们将继续努力提供更优秀的产品和服务！ 安装包...",
+   "publishedAt": "2026-11-05T01:46:42.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "developer-tools",
+    "programming-languages"
+   ],
+   "imageUrl": null,
+   "contentHash": "7f8b27fa63603894"
+  },
+  {
+   "id": "5701fed5a0c43eab",
+   "sourceId": "naver-d2",
+   "sourceName": "NAVER D2",
+   "originalTitle": "2026년과 이후 JavaScript의 동향 - WebAssembly",
+   "originalUrl": "https://d2.naver.com/helloworld/7770448",
+   "originalLanguage": "ko",
+   "originalDescription": "2020년 글 은 W3C 권고(1.0) 직후의 WebAssembly(이하 'wasm')를 다뤘습니다. '미래 버전에 포함될 작업'으로 스레드, SIMD(single instruction, multiple data), 참조 타입, 꼬리 호출, ESM(ECMAScript modules) 통합을 소개했고, Bytecode Alliance와 WASI(WebAssembly System Interface)가 그리는 브라우저 밖의 그림을 살펴봤습니다. 그리고 \"아직까지 실서비스에서의 활발한 사용이 눈에…",
+   "publishedAt": "2026-11-05T01:42:15.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "developer-tools",
+    "programming-languages"
+   ],
+   "imageUrl": null,
+   "contentHash": "92aca3e21849f68b"
+  },
+  {
+   "id": "4141e307099b1663",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "JeecgBoot V3.9.6 发布，67 项安全漏洞集中修复，AI 图像生成上线",
+   "originalUrl": "https://www.oschina.net/news/503401",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "前言 JeecgBoot V3.9.6 是一次以「安全」为主线的版本。距离 V3.9.5 发布两个多月，这一版集中处理了社区和安全研究人员报告的 67 项安全漏洞，覆盖越权访问、租户隔离、登录爆破、短信轰炸、SQL 注入、SSRF、XSS、远程代码执行等方向，并为大量导入导出、新增、删除接口补齐了按钮权限。 功能方面，AI 流程编排新增「图...",
+   "publishedAt": "2026-11-05T01:30:09.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "developer-tools",
+    "ai",
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "c48cb320ad9edf62"
+  },
+  {
+   "id": "ad1030df5ce46710",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Apple is reportedly cutting budgets for its internal AI usage",
+   "originalUrl": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+   "originalLanguage": "en",
+   "originalDescription": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
+   "publishedAt": "2026-11-05T01:26:22.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "0f1f9e10d7eb3002"
+  },
+  {
+   "id": "0ee5115bb8658d79",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "After the midterms, a bigger clash over data centers could be coming",
+   "originalUrl": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+   "originalLanguage": "en",
+   "originalDescription": "Data center opposition crossed party lines in Tuesday’s midterms.",
+   "publishedAt": "2026-11-05T01:02:14.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "e2750b5a278bf472"
+  },
+  {
+   "id": "6a999ac344e50032",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "从3D生成到世界模型，这家AI公司想和年轻人一起定义问题",
+   "originalUrl": "https://www.qbitai.com/2026/11/507675.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "薪资+期权不限！实习生也能训核心模型",
+   "publishedAt": "2026-11-05T00:41:34.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "a874ef0049e4883c"
+  },
+  {
+   "id": "e67a7f6019761439",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "[AI리더의 서가] 에이젠틱 디자인 패턴",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216790",
+   "originalLanguage": "ko",
+   "originalDescription": "에이젠틱 디자인 패턴안토니오 굴리 | 인사이트2026년 7월 23일추천이유개발자가 21가지 검증된 패턴을 통해 자율적으로 판단하고 행동하는 AI 에이전트를 구축하는 방법을 익힐 수 있습니다. 이 책은 단순한 언어 모델을 넘어 구조화된 설계로 더 지능적이고 견고한 시스템을 만드는 실전 역량을 제공합니다.상세보기 소프트웨어 공학에 디자인 패턴이 있듯, 에이전트 개발에도 반복해 쓰는 해법의 목록이 필요해졌다. 영풍문고 북마스터가 이번 주 고른 『에이젠틱 디자인 패턴』은 프롬프트 체이닝과 라우팅에서…",
+   "publishedAt": "2026-11-05T00:00:00.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "17047390330c80f4"
+  },
+  {
+   "id": "7aa63af445bdd3ac",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+   "originalUrl": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+   "originalLanguage": "en",
+   "originalDescription": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
+   "publishedAt": "2026-11-04T22:45:09.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "f2d6ea80ab71b06a"
+  },
+  {
+   "id": "b531b56f4ce7687d",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Qualcomm is betting big on data centers as smartphone sales sink",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+   "originalLanguage": "en",
+   "originalDescription": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with…",
+   "publishedAt": "2026-11-04T22:42:15.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "0a74803535f05ee1"
+  },
+  {
+   "id": "c1e93e47438d89a0",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+   "originalUrl": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+   "originalLanguage": "en",
+   "originalDescription": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
+   "publishedAt": "2026-11-04T22:13:16.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "40b3ac9b4d5edfc3"
+  },
+  {
+   "id": "7b2603b92a595fb0",
+   "sourceId": "nvidia-technical-blog",
+   "sourceName": "NVIDIA Technical Blog",
+   "originalTitle": "How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
+   "originalUrl": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations/",
+   "originalLanguage": "en",
+   "originalDescription": "As GPU clusters scale, operations span compute, network, hardware, and scheduling. Site reliability engineers (SREs) often have to examine multiple dashboards...",
+   "publishedAt": "2026-11-04T22:00:17.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "bcb85578ce6b6ec8"
+  },
+  {
+   "id": "aea11314fe3163a4",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "[11월4일] \"글·코드 넘어 영상까지\"…LLM이 영상 제작 도구로 진화한다",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216981",
+   "originalLanguage": "ko",
+   "originalDescription": "미공개 AI 모델 '페이블 5.5'로 일본 극장판 수준의 2D 애니메이션을 제작했다는 주장을 3일 소개해 드린 바 있습니다. 개발자는 이미지나 영상 생성 AI를 사용하지 않고 100% 코드만으로 만들었다고 주장했지만, 실제 제작 코드가 공개되지 않아 진위를 둘러싼 논란이 일었습니다.이처럼 대형언어모델(LLM)이 직접 코드를 작성해 영상을 제작하는 사례는 이미 상당수 등장했습니다. LLM이 글과 코드를 작성하는 데 이어 영상 제작까지 맡기 시작한 것입니다. 최근에는 개발자들의 실험을 넘어 기업…",
+   "publishedAt": "2026-11-04T22:00:00.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "851049da4c401485"
+  },
+  {
+   "id": "b314cbc6665b0c27",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Almost no one uses AI agents to book their Uber, company says",
+   "originalUrl": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+   "originalLanguage": "en",
+   "originalDescription": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+   "publishedAt": "2026-11-04T21:56:01.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "d8eabe33a4e7204e"
+  },
+  {
+   "id": "576b3975e72bb4e8",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "17 better ways Elon Musk could have wasted $446 million",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
+   "originalLanguage": "en",
+   "originalDescription": "One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is the site formerly known as Twitter, and it is your main source of contact with…",
+   "publishedAt": "2026-11-04T21:45:00.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "35072910b81633c9"
+  },
+  {
+   "id": "a8da02734f0a78dd",
+   "sourceId": "ars-technica-gadgets",
+   "sourceName": "Ars Technica Gadgets",
+   "originalTitle": "AMD's record quarter: Data center business doubles, while gaming craters",
+   "originalUrl": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters/",
+   "originalLanguage": "en",
+   "originalDescription": "AMD's gaming revenue fell 40 percent in an otherwise record $13.4 billion quarter.",
+   "publishedAt": "2026-11-04T21:29:46.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "mobile-hardware"
+   ],
+   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/AMD_Helios_Rack_Instinct_MI455X-1152x540.webp",
+   "contentHash": "c88ab6e426cfa533"
+  },
+  {
+   "id": "b7dda2c1b5853746",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon ECS Managed Daemons can now collect json-file logs from application containers on Amazon ECS Managed Instances",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ecs-managed-instances-json-file-log-driver/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon Elastic Container Service (Amazon ECS) introduces json-file log driver support for Amazon ECS Managed Instances and log driver volumes for Amazon ECS Managed Daemons. Together, these features let you collect application logs with the observability agent of your choice…",
+   "publishedAt": "2026-11-04T21:29:00.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "01a95a1e79f07462"
+  },
   {
    "id": "bd044bc53c19f14d",
    "sourceId": "techcrunch-ai",
@@ -439,6 +750,22 @@
    ],
    "imageUrl": null,
    "contentHash": "8e8f64e449105951"
+  },
+  {
+   "id": "d2293883430a9b2f",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon Connect Customer now shows associated cases in contact records",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-cases-contact-records/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon Connect Customer now includes case IDs and reference numbers in contact records, helping supervisors and analysts understand which customer issues drive contact volume. Cases track issues, such as refund requests or billing disputes, across interactions and teams…",
+   "publishedAt": "2026-11-04T17:00:00.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "8e3618c14e4ffc87"
   },
   {
    "id": "fd967385c80b6aad",
@@ -1249,6 +1576,22 @@
    "contentHash": "497ababa993a6f49"
   },
   {
+   "id": "0072af5efe2a8bfc",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "AWS DataSync Enhanced mode supports OpenID Connect (OIDC) for Google Cloud and Microsoft Azure",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/datasync-enhanced-oidc-google-azure/",
+   "originalLanguage": "en",
+   "originalDescription": "AWS DataSync Enhanced mode now supports OpenID Connect (OIDC) authentication for Google Cloud Storage and Microsoft Azure Blob Storage locations. DataSync uses an AWS Identity and Access Management (IAM) role to get short-lived credentials from Google Cloud or Microsoft Entra…",
+   "publishedAt": "2026-11-04T08:00:00.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "8f4c171100c7b451"
+  },
+  {
    "id": "063fa34b1a782035",
    "sourceId": "aws-whats-new",
    "sourceName": "AWS What's New",
@@ -1296,6 +1639,38 @@
    ],
    "imageUrl": null,
    "contentHash": "0f9f391cd8585a8e"
+  },
+  {
+   "id": "fb1030bd8cf0e2c4",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon S3 Tables now provide a simple, cost-effective path for data lake modernization",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-tables-managed-migration-hive-to-iceberg/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon S3 Tables now offer managed migration of your Apache Hive tables to Apache Iceberg. Iceberg adds ACID transactions, schema evolution, and time travel to your data lake, but moving off Hive usually means building a migration pipeline for each table, which can take weeks…",
+   "publishedAt": "2026-11-04T08:00:00.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "c265d8e34a3a3d9f"
+  },
+  {
+   "id": "fbaa86a829ad59fd",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "originalTitle": "A thousand fewer paths to root",
+   "originalUrl": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+   "originalLanguage": "en",
+   "originalDescription": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+   "publishedAt": "2026-11-04T08:00:00.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "3c73a7f8fcae75ec"
   },
   {
    "id": "70a9d23e30654281",
@@ -1977,6 +2352,22 @@
    "contentHash": "dfe489872794f387"
   },
   {
+   "id": "295354ff422b0d4d",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "originalTitle": "Introducing Images 2.6",
+   "originalUrl": "https://openai.com/index/introducing-images-2-6",
+   "originalLanguage": "en",
+   "originalDescription": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+   "publishedAt": "2026-11-04T00:00:00.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "7d295703c6ec4778"
+  },
+  {
    "id": "49b5a8702a50f62b",
    "sourceId": "anthropic-research",
    "sourceName": "Anthropic Research",
@@ -1992,6 +2383,22 @@
    ],
    "imageUrl": null,
    "contentHash": "b2b13b87e94b961e"
+  },
+  {
+   "id": "981785a01550309d",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "originalTitle": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+   "originalUrl": "https://openai.com/index/devrev-enterprise-self-service",
+   "originalLanguage": "en",
+   "originalDescription": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+   "publishedAt": "2026-11-04T00:00:00.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "6496d11c61577ea2"
   },
   {
    "id": "af6c83acf8e77bda",
@@ -17591,6 +17998,23 @@
    "contentHash": "33c1a231f1a901dc"
   },
   {
+   "id": "e9eaa059c358e81f",
+   "sourceId": "naver-d2",
+   "sourceName": "NAVER D2",
+   "originalTitle": "AI 시대의 개발자를 꿈꾸는 학생 개발자에게",
+   "originalUrl": "https://d2.naver.com/helloworld/1975819",
+   "originalLanguage": "ko",
+   "originalDescription": "시작하며: 2018년과 2026년 사이의 간격과 격변기의 고민 ​ 2018년에 저는 ' 백엔드 개발자를 꿈꾸는 학생개발자에게 '라는 글을 이곳 D2 블로그에 공유했습니다. 당시 학생 개발자들과의 미트업 행사에서 나왔던 질문과 답변을 정리한 글이었습니다. 그 후 8년의 시간이 흘렀기에 그 글만 노출된다면 학생들에게 현시점에 적절한 정보를 주지 못할까 봐 걱정되었습니다. 그래서 2025년 말 설문으로 질문을 받아 후속편을 작성했습니다. ​ 그동안 저도 경험과 지식을 더 쌓았습니다. 하지만 지금…",
+   "publishedAt": "2026-10-29T01:24:17.000Z",
+   "discoveredAt": "2026-11-05T02:30:07.507Z",
+   "topics": [
+    "developer-tools",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "eec40925a1ff0a0f"
+  },
+  {
    "id": "8b6dd74b01bdd291",
    "sourceId": "qbitai",
    "sourceName": "量子位",
@@ -24219,433 +24643,6 @@
    ],
    "imageUrl": null,
    "contentHash": "ab46c626fe91bae2"
-  },
-  {
-   "id": "a9046c3f8fe023b6",
-   "sourceId": "the-decoder",
-   "sourceName": "The Decoder",
-   "originalTitle": "Anthropic uses its IPO letter to renew its pledge that Claude will never show ads",
-   "originalUrl": "https://the-decoder.com/anthropic-uses-its-ipo-letter-to-renew-its-pledge-that-claude-will-never-show-ads/",
-   "originalLanguage": "en",
-   "originalDescription": "Anthropic says it will keep ads out of Claude. In a cover letter accompanying its IPO filing, the company argues that the chatbot's sole incentive should be to provide helpful answers. The article Anthropic uses its IPO letter to renew its pledge that Claude will never show ads…",
-   "publishedAt": "2026-10-27T11:20:51.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "4519ca7d5812b956"
-  },
-  {
-   "id": "5e2d9e6f0fc03de4",
-   "sourceId": "mit-technology-review-ai",
-   "sourceName": "MIT Technology Review AI",
-   "originalTitle": "Industrial Intelligence: The next growth opportunity for manufacturing",
-   "originalUrl": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
-   "originalLanguage": "en",
-   "originalDescription": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a…",
-   "publishedAt": "2026-10-27T11:19:18.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "9b894bd4e236f413"
-  },
-  {
-   "id": "72e188139d846686",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
-   "originalUrl": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
-   "originalLanguage": "en",
-   "originalDescription": "Simplismart says its annualized revenue run rate has grown fourteenfold in six months, with the U.S. accounting for more than half its revenue.",
-   "publishedAt": "2026-10-27T11:00:00.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "ai",
-    "mobile-hardware",
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "7cca31322633b8f2"
-  },
-  {
-   "id": "66e41a8dee42099b",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "RePAIR: Inverting Backdoor Attacks in Semantic Segmentation",
-   "originalUrl": "https://arxiv.org/abs/2610.37015v1",
-   "originalLanguage": "en",
-   "originalDescription": "Despite significant advances in computer vision, semantic segmentation models remain vulnerable to backdoor attacks, posing a security risk. These attacks redirect pixels of a chosen victim class to an attacker-specified target class when a trigger is present, while preserving…",
-   "publishedAt": "2026-10-27T10:53:47.000Z",
-   "discoveredAt": "2026-10-28T05:47:59.099Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "0caedd5428a212bd"
-  },
-  {
-   "id": "3edf0c0ed92a9304",
-   "sourceId": "qbitai",
-   "sourceName": "量子位",
-   "originalTitle": "印奇把4D雷达也端到端了",
-   "originalUrl": "https://www.qbitai.com/2026/10/505852.html",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "毫米波雷达，AI算力10TOPS",
-   "publishedAt": "2026-10-27T10:40:12.000Z",
-   "discoveredAt": "2026-10-28T13:00:35.665Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "ccc4cb6544f66542"
-  },
-  {
-   "id": "d47b88a826590071",
-   "sourceId": "the-decoder",
-   "sourceName": "The Decoder",
-   "originalTitle": "OpenAI's Ted Sanders shares a rule of thumb for picking the right GPT-model",
-   "originalUrl": "https://the-decoder.com/openais-ted-sanders-shares-a-rule-of-thumb-for-picking-the-right-gpt-model/",
-   "originalLanguage": "en",
-   "originalDescription": "OpenAI's Ted Sanders explains where GPT-6.1 Terra fits in the company's GPT lineup. The smaller model outperforms the larger Astra in technical communication and costs far less but trails it in most other areas. Sanders says model size, reasoning effort, and multi-agent systems…",
-   "publishedAt": "2026-10-27T10:09:26.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "074448043f3bc1a5"
-  },
-  {
-   "id": "b5d9e1d786e6c52b",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "Too many clients spoil the logs: distributed parsing, aggregation techniques and metrics",
-   "originalUrl": "https://arxiv.org/abs/2610.36946v1",
-   "originalLanguage": "en",
-   "originalDescription": "Log messages are employed to identify anomalies in IoT systems and have been widely used across many applications. To enable collaboration among infrastructures belonging to different organizations, federated log anomaly detection has been thoroughly investigated for this…",
-   "publishedAt": "2026-10-27T10:03:58.000Z",
-   "discoveredAt": "2026-10-28T05:47:59.099Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "d552a006e9a35230"
-  },
-  {
-   "id": "ac293c561f8b783e",
-   "sourceId": "oschina-news",
-   "sourceName": "开源中国 资讯",
-   "originalTitle": "拾趣 (Magpie) v0.1.18 发布，智能信息提取，更美观的 UI",
-   "originalUrl": "https://www.oschina.net/news/503249",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "拾趣 (Magpie) v0.1.18 发布，智能信息提取，更美观的 UI 拾趣 (Magpie)是一款跨平台沉浸式自定义AI 划词工具 划选或双击，浮动条随即弹出：翻译、解释、总结实时呈现；复制、搜索、写入 Obsidian、预填日历，结果直接落地。图片、视频与扫描文档中的文字，框选亦可识别——处理在原地完成，无需迁入对话窗口。 Release ...",
-   "publishedAt": "2026-10-27T10:02:15.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "9c8bf7011e979d50"
-  },
-  {
-   "id": "10515f024c670e28",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "Data center backlash is uniting America",
-   "originalUrl": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
-   "originalLanguage": "en",
-   "originalDescription": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure construction and expenses that come with them - has sparked local opposition in communities across…",
-   "publishedAt": "2026-10-27T10:00:00.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "e1b94b1396db6f72"
-  },
-  {
-   "id": "fd8d1b1c8c0ed771",
-   "sourceId": "the-decoder",
-   "sourceName": "The Decoder",
-   "originalTitle": "Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips",
-   "originalUrl": "https://the-decoder.com/meta-gets-3-billion-from-nvidia-and-plans-to-spend-more-on-nvidia-chips/",
-   "originalLanguage": "en",
-   "originalDescription": "ia is buying into its customer Meta, which plans to run more of its AI agents on Nvidia hardware. The article Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips appeared first on The Decoder .",
-   "publishedAt": "2026-10-27T09:58:16.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "ai",
-    "mobile-hardware"
-   ],
-   "imageUrl": null,
-   "contentHash": "6316dc22b1096ba7"
-  },
-  {
-   "id": "a80c0702d7858fdf",
-   "sourceId": "qbitai",
-   "sourceName": "量子位",
-   "originalTitle": "乔布斯的皮克斯，狂赞中国物理AI数据终端",
-   "originalUrl": "https://www.qbitai.com/2026/10/505830.html",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "顶尖智能汽车玩家的终局，不会停在智能汽车",
-   "publishedAt": "2026-10-27T09:54:51.000Z",
-   "discoveredAt": "2026-10-28T13:00:35.665Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "297089a3759e1f37"
-  },
-  {
-   "id": "a17557c803c02204",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "Developing a Dynamic Multi-factor Authentication System for Securing Smart Organizations",
-   "originalUrl": "https://arxiv.org/abs/2610.36926v1",
-   "originalLanguage": "en",
-   "originalDescription": "As smart organizations increasingly rely on technologies like AI, big data, and IoT, securing these systems is crucial. This research introduces a dynamic multi-factor authentication (MFA) system within the Zero Trust Architecture (ZTA) framework, which enforces continuous…",
-   "publishedAt": "2026-10-27T09:52:02.000Z",
-   "discoveredAt": "2026-10-28T05:47:59.099Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "e4262bce12c29f75"
-  },
-  {
-   "id": "0a8ecf3eb5a2843c",
-   "sourceId": "oschina-news",
-   "sourceName": "开源中国 资讯",
-   "originalTitle": "紧跟上游内核迭代，deepin 推出 Linux 7.3 内核社区尝鲜版",
-   "originalUrl": "https://www.oschina.net/news/503248",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "Linux 7.3 内核已于 10 月 19 日正式发布，deepin 社区跟进适配，现已面向社区用户开放尝鲜体验。 本次内核为社区技术预览版本，暂不作为正式版本随系统自动推送。它承载着上游最新的硬件适配、性能优化成果，让热爱技术的用户可以第一时间了解内核新特性。 内核更新：性能与硬件适配双向进阶 本次 Linux 7.3.0 内核带来...",
-   "publishedAt": "2026-10-27T09:46:18.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "76c48701324217e6"
-  },
-  {
-   "id": "eae2a3c7c621fbaa",
-   "sourceId": "the-hacker-news",
-   "sourceName": "The Hacker News",
-   "originalTitle": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
-   "originalUrl": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
-   "originalLanguage": "en",
-   "originalDescription": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and…",
-   "publishedAt": "2026-10-27T09:33:06.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "cybersecurity"
-   ],
-   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinCXm9nOGLf3YFKOH7D87d6Wau4yc3WG_4nSANlzh0oVcI9dUXg07hiHfBkDONqewGH90O6qN1cv9B1vPKGeXr7dhwAjpJ9pHCZKv2MOU9WYesukNBqS55LiPg0ytVl8JonI32qTVei_L25bCcUsPTl2PZsxYhvx0nDsxwqy3RgKE1_iRRuSbAoaH8OcY/s1600/aus.jpg",
-   "contentHash": "3bac9e6f7ddfaf1d"
-  },
-  {
-   "id": "802c1e01055cbadd",
-   "sourceId": "oschina-news",
-   "sourceName": "开源中国 资讯",
-   "originalTitle": "deepin 在第六届 RISC-V 中国峰会展示 RISC-V 桌面生态“最后一公里”进展",
-   "originalUrl": "https://www.oschina.net/news/503247",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "第六届 RISC-V 中国峰会在深圳盛大举行。在本届峰会上，deepin（深度）社区披露了其 RISC-V 桌面生态的最新进展：从主线镜像、应用商店到本地 AI 助手，deepin 正在全力打通 RISC-V 从芯片、开发板到桌面用户之间的“最后一公里”。 这几年，RISC-V 芯片越造越猛：端侧 AI 算力飙到 60 TOPS，服务器级直接上到 46 核。但...",
-   "publishedAt": "2026-10-27T09:20:58.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "acb00ad042dfeee4"
-  },
-  {
-   "id": "76cf590ba5b8f05f",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "\"성능은 그대로, 비용은 최대 3배\"…에이전트 가로막는 '복잡한 하네스'",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216712",
-   "originalLanguage": "ko",
-   "originalDescription": "AI 코딩 에이전트의 작업 환경을 복잡하게 구성해도 코드 작성 정확도는 거의 높아지지 않지만, 추론 비용은 최대 3배까지 늘어날 수 있다는 연구 결과가 나왔다. 모델을 둘러싼 도구와 실행 절차 등 '하네스'를 정교하게 설계하는 것보다 불필요한 지시문과 도구 정의를 줄이는 편이 비용 효율에 더 큰 영향을 줄 수 있다는 분석이다.중국 산둥대와 미국 UC버클리 연구진은 최근 온라인 아카이브에 공개한 연구에서 앤트로픽의 '클로드 코드'와 오픈소스 도구 '오픈코드', 최소한의 기능으로 구성된…",
-   "publishedAt": "2026-10-27T09:20:31.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "45b044d509683274"
-  },
-  {
-   "id": "6c09a5e29d2f6772",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Yardlet",
-   "originalUrl": "https://www.producthunt.com/products/yardlet-2",
-   "originalLanguage": "en",
-   "originalDescription": "The Mac app for the coding agents you already use Discussion | Link",
-   "publishedAt": "2026-10-27T09:15:28.000Z",
-   "discoveredAt": "2026-10-28T13:00:35.665Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "0e564fa59303ac0e"
-  },
-  {
-   "id": "c9a06b9a02d77da0",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "난베이지, 33B 오픈소스 AI 모델 공개...코딩 벤치마크서 '큐원3.8-27B' 앞서",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216711",
-   "originalLanguage": "ko",
-   "originalDescription": "중국 난베이지 LLM 연구소가 코딩과 업무 자동화를 수행하는 에이전트형 AI 모델 ‘난베이지4.3-33B(Nanbeige4.3-33B)’를 공개했다. 330억개 매개변수를 갖춘 오픈소스 모델로, 연구소 자체 평가에서 코딩과 사무 작업 관련 벤치마크 다수에서 알리바바의 '큐원3.8-27B' 등 비슷한 규모의 경쟁 모델을 앞섰다.중국 대형 채용 플랫폼 보스 직핀(BOSS Zhipin)이 운영하는 난베이지는 24일 난베이지4.3-33B를 AI 모델 공유 플랫폼 허깅페이스에 공개했다.모델은 영어와…",
-   "publishedAt": "2026-10-27T09:03:17.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "ai",
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "5cad1a6e7201bcd3"
-  },
-  {
-   "id": "e35ffd791f742af4",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "UniPCH: A Unified Framework for Cross-Chain Payments via Payment Channel Hubs",
-   "originalUrl": "https://arxiv.org/abs/2610.36866v1",
-   "originalLanguage": "en",
-   "originalDescription": "Payment channel hubs (PCHs) enable private cross-chain payments, but existing protocols remain difficult to extend across heterogeneous blockchains. Their payment flows often depend on how particular blockchains represent transactions, authorize channel updates, and settle…",
-   "publishedAt": "2026-10-27T09:01:45.000Z",
-   "discoveredAt": "2026-10-28T05:47:59.099Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "2ae3d41127b075a3"
-  },
-  {
-   "id": "320b48bfe5b1dc0f",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "네이버, 브룩필드와 12조원 인프라 계약...엔비디아, 3대 주주로 등극",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216729",
-   "originalLanguage": "ko",
-   "originalDescription": "네이버·엔비디아·브룩필드 3사가 추진하는 1기가와트(GW)급 글로벌 AI 인프라 사업이 본격화될 전망이다.네이버(대표 최수연)는 브룩필드와 90억달러(약 12조원) 규모의 컴퓨팅 인프라 확보 계약을 체결해 엔비디아의 전략적 지분 투자를 위한 선결 조건을 충족했다고 27일 밝혔다.이에 따라 네이버는 엔비디아를 대상으로 한 제3자 배정 유상증자 절차를 조속히 마무리할 예정이다. 유상증자가 완료되면 엔비디아는 네이버 3대 주주에 오르며 3사가 공동 추진하는 1GW급 AI 팩토리 사업도 본격적인 실행…",
-   "publishedAt": "2026-10-27T08:50:00.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "457eb9c7a0963c0d"
-  },
-  {
-   "id": "9063be973f89cdd8",
-   "sourceId": "oschina-news",
-   "sourceName": "开源中国 资讯",
-   "originalTitle": "UJCMS 13.2.0 发布，国内 Java CMS 网站内容管理系统",
-   "originalUrl": "https://www.oschina.net/news/503246",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "UJCMS 13.2.0 正式发布。本次版本重做验证码体系，支持滑块、字符与静默校验，并提供第三方验证码接入。控制台与网站主题使用统一验证组件，注册页面改为弹窗验证，方便站点按业务需要配置验证方式。 模板维护与预览体验同步改进：后台人员可查看带错误编号的模板内联详情，页面继续渲染；访客看到带编号的通用错误页面。...",
-   "publishedAt": "2026-10-27T08:47:05.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "developer-tools",
-    "programming-languages"
-   ],
-   "imageUrl": null,
-   "contentHash": "053fbdeac7bee638"
-  },
-  {
-   "id": "1746bf58f7b69391",
-   "sourceId": "qbitai",
-   "sourceName": "量子位",
-   "originalTitle": "Physical RSI第一站！便利店打工“人”自己进化，物理AI飞轮启动了",
-   "originalUrl": "https://www.qbitai.com/2026/10/505799.html",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "无人在环进店实测啃下长尾场景",
-   "publishedAt": "2026-10-27T08:46:12.000Z",
-   "discoveredAt": "2026-10-28T13:00:35.665Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "51b83858ca59194b"
-  },
-  {
-   "id": "f4269ad8b3a67807",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "전남, 총인구 대비 ‘이민자 2세’ 비중 전국 최고…주민 90명 중 1명",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216723",
-   "originalLanguage": "ko",
-   "originalDescription": "전남에 거주하는 ‘이민자 2세’가 2만명에 육박한 것으로 집계됐다. 전체 인구에서 차지하는 비중은 1.12%로, 전국 17개 시도 가운데 가장 높았다.국가데이터처가 26일 발표한 ‘2025년 이주배경인구 통계 결과’의 시도별 자료를 분석한 결과, 전남의 이민자 2세는 1만9838명이었다.전남 총인구 177만8545명으로 나누면 주민 약 90명 중 1명꼴이다. 통계 기준일은 지난해 11월1일이며, 지역 비교는 광주와 전남을 구분한 원자료의 17개 시도를 기준으로 했다.이민자 2세는 부모 중…",
-   "publishedAt": "2026-10-27T08:44:37.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "9b8753e732b5112a"
-  },
-  {
-   "id": "6f829b81eb3d74bb",
-   "sourceId": "oschina-news",
-   "sourceName": "开源中国 资讯",
-   "originalTitle": "Smalltalk 开发环境 Pharo 14 发布：发布周期改到秋季、VM 迎来 RISC-V JIT",
-   "originalUrl": "https://www.oschina.net/news/503245/pharo-14-released",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "Pharo 14 发布了。这个号称\"纯面向对象、专注极简与即时反馈\"的 Smalltalk 方言开发环境，这代改动不小，但更值得注意的是节奏变了——从这一版开始，Pharo 把发布周期从春季挪到了秋季，14 是第一个按新节奏来的版本。 这代的力气主要花在三块。 开发工具现代化：新引入 Mission Control 和 Pulse（取代了老牌的 Spotte...",
-   "publishedAt": "2026-10-27T08:37:01.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "feddf35b623b7bff"
-  },
-  {
-   "id": "6670fc931ea88a8f",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "“GPU 시장 감가상각 안 통한다”...출시 6년 차 A100도 임대료 역주행",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216717",
-   "originalLanguage": "ko",
-   "originalDescription": "자산 가치는 시간이 지날수록 하락한다는 감가상각 개념이 GPU 시장에서는 통하지 않는 것으로 확인됐다.미국 벤처캐피털 앤드리슨 호로위츠(a16z)는 H200·B200·A100 등 주요 GPU 5종의 렌탈 가격 추이를 공개했다. GPU 가격 데이터 업체 오른(Ornn)의 지수를 분석한 결과, 올해 1월1일 가격을 100으로 놓았을 때 10월 기준 5종 모두 연초 대비 렌탈 가격이 오른 것으로 집계됐다.상승 폭은 H200이 약 2.6배로 가장 높았으며, B200·RTX PRO 6000·H100…",
-   "publishedAt": "2026-10-27T08:36:59.000Z",
-   "discoveredAt": "2026-10-27T14:34:45.157Z",
-   "topics": [
-    "ai",
-    "mobile-hardware"
-   ],
-   "imageUrl": null,
-   "contentHash": "83c3b1bb7deb1cce"
-  },
-  {
-   "id": "37c6df5315825977",
-   "sourceId": "qbitai",
-   "sourceName": "量子位",
-   "originalTitle": "KV Cache被压成常数！OCR开源新王：页数没上限，缓存砍96%",
-   "originalUrl": "https://www.qbitai.com/2026/10/505773.html",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "OCR 3.0时代，来了",
-   "publishedAt": "2026-10-27T08:35:33.000Z",
-   "discoveredAt": "2026-10-28T13:00:35.665Z",
-   "topics": [
-    "ai",
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "f1d2c5de6b2bdc44"
   }
  ]
 }
