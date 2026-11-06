@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a4dbacf967e62059",
+ "contentHash": "f1913aa407d55443",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T21:46:02.174Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "The post-quantum future of web privacy",
+   "summary": "Cloudflare discusses the transition of web privacy and the Privacy Pass protocol to post-quantum cryptography. While Privacy Pass remains unconditionally private against quantum attackers, it currently relies on classical cryptography like RSA and elliptic curves, meaning a quantum attacker could eventually forge tokens. Researchers are developing new capabilities such as MOLE to support post-quantum private authentication, though post-quantum alternatives present challenges due to their significantly larger sizes.",
+   "impact": "Security teams and developers may need to re-engineer authentication and privacy systems to handle the larger size and higher cost of post-quantum primitives. Technology users could benefit from maintained privacy guarantees as the web transitions to post-quantum standards.",
+   "keyPoints": [
+    "Authenticated key-agreement protocols like TLS and Privacy Pass need post-quantum transitions.",
+    "Privacy Pass currently relies on classical cryptography like RSA and elliptic curves for tokens.",
+    "Privacy Pass remains unconditionally private, meaning quantum attackers cannot link token redemption to issuance.",
+    "Post-quantum alternatives face challenges due to their large sizes, such as ML-DSA-44 signatures being 2,420 bytes."
+   ]
+  },
+  "km": {
+   "title": "អនាគតក្រោយសម័យកុលន្តមេកានិចនៃភាពឯកជននៅលើបណ្តាញអ៊ីនធឺណិត",
+   "summary": "ប្លុក Cloudflare បានពិភាក្សាអំពីការផ្លាស់ប្តូរភាពឯកជននៅលើបណ្តាញ និងពិធីការ Privacy Pass ទៅកាន់គ្រីបតូសាស្ត្រក្រោយសម័យកុលន្តមេកានិច។ ទោះបីជា Privacy Pass រក្សាភាពឯកជនដាច់ខាតប្រឆាំងនឹងការវាយប្រហារដោយកុលន្តមេកានិចក៏ដោយ ក៏វាបច្ចុប្បន្នពឹងផ្អែកលើគ្រីបតូសាស្ត្របុរាណ ដែលមានន័យថាអ្នកវាយប្រហារអាចក្លែងបន្លំថូខឹននៅពេលអនាគត។ អ្នកស្រាវជ្រាវកំពុងអភិវឌ្ឍសមត្ថភាពថ្មីដូចជា MOLE ដើម្បីគាំទ្រការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវឯកជនក្រោយសម័យកុលន្តមេកានិច ទោះបីជាជម្រើសទាំងនោះមានទំហំធំជាងមុនក៏ដោយ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍ប្រហែលជាត្រូវរៀបចំប្រព័ន្ធផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវនិងភាពឯកជនឡើងវិញ ដើម្បីគ្រប់គ្រងទំហំធំនិងការចំណាយខ្ពស់នៃគ្រីបតូសាស្ត្រក្រោយសម័យកុលន្តមេកានិច។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានអត្ថប្រយោជន៍ពីការធានាភាពឯកជនដែលបានរក្សាទុក នៅពេលដែលបណ្តាញប្តូរទៅស្តង់ដារក្រោយសម័យកុលន្តមេកានិច។",
+   "keyPoints": [
+    "ពិធីការព្រមព្រៀងគន្លឹះដែលបានផ្ទៀងផ្ទាត់ដូចជា TLS និង Privacy Pass ត្រូវការការផ្លាស់ប្តូរក្រោយសម័យកុលន្តមេកានិច។",
+    "Privacy Pass បច្ចុប្បន្នពឹងផ្អែកលើគ្រីបតូសាស្ត្របុរាណដូចជា RSA និងខ្សែកោងអេលីបទីកសម្រាប់ថូខឹន។",
+    "Privacy Pass នៅតែរក្សាភាពឯកជនដាច់ខាត ដែលមានន័យថាអ្នកវាយប្រហារមិនអាចភ្ជាប់ការប្តូរប្រាក់ថូខឹនទៅនឹងការចេញផ្សាយរបស់វាបានទេ។",
+    "ជម្រើសក្រោយសម័យកុលន្តមេកានិចប្រឈមមុខនឹងបញ្ហាប្រឈមដោយសារទំហំធំរបស់វា ដូចជាហត្ថលេខា ML-DSA-44 មានទំហំ ២៤២០ បាយត៍។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Web隐私的后量子未来",
+   "summary": "Cloudflare博客讨论了Web隐私以及Privacy Pass协议向后量子密码学的过渡。虽然Privacy Pass在抵御量子攻击时依然保持无条件隐私，但它目前依赖于古典密码学（如RSA和椭圆曲线），这意味着量子攻击者未来可能伪造令牌。研究人员正在开发诸如MOLE等新技术以支持后量子私密认证，尽管后量子替代方案由于尺寸显著增大而面临挑战。",
+   "impact": "安全团队和开发人员可能需要重新设计身份验证和隐私系统，以应对后量子基元更大的尺寸和更高的成本。随着Web向后量子标准过渡，技术用户可能会受益于持续维护的隐私保证。",
+   "keyPoints": [
+    "TLS和Privacy Pass等经过身份验证的密钥协商协议需要进行后量子过渡。",
+    "Privacy Pass目前在令牌方面依赖于RSA和椭圆曲线等古典密码学。",
+    "Privacy Pass仍然是绝对私密的，这意味着量子攻击者无法将令牌的兑换与其发放关联起来。",
+    "后量子替代方案由于体积庞大而面临挑战，例如ML-DSA-44签名高达2,420字节。"
+   ]
+  },
+  "ko": {
+   "title": "웹 프라이버시의 포스트 퀀텀 미래",
+   "summary": "Cloudflare 블로그는 웹 프라이버시와 Privacy Pass 프로토콜의 포스트 퀀텀 암호화 전환에 대해 논의합니다. Privacy Pass는 양자 공격에 대해 무조건적인 프라이버시를 유지하지만, 현재 RSA 및 타원 곡선과 같은 고전 암호화에 의존하므로 양자 공격자가 토큰을 위조할 수 있게 됩니다. 연구원들은 더 큰 크기로 인한 과제에도 불구하고 포스트 퀀텀 비공개 인증을 지원하기 위해 MOLE과 같은 새로운 기능을 개발하고 있습니다.",
+   "impact": "보안 팀과 개발자는 포스트 퀀텀 기본 요소의 더 큰 크기와 높은 비용을 처리하기 위해 인증 및 프라이버시 시스템을 재설계해야 할 수 있습니다. 기술 사용자는 웹이 포스트 퀀텀 표준으로 전환됨에 따라 유지되는 프라이버시 보장의 이점을 누릴 수 있습니다.",
+   "keyPoints": [
+    "TLS 및 Privacy Pass와 같은 인증된 키 합의 프로토콜에는 포스트 퀀텀 전환이 필요합니다.",
+    "Privacy Pass는 현재 토큰을 위해 RSA 및 타원 곡선과 같은 고전 암호화에 의존합니다.",
+    "Privacy Pass는 여전히 무조건적으로 비공개이므로 양자 공격자가 토큰 상환을 발행과 연결할 수 없습니다.",
+    "포스트 퀀텀 대안은 ML-DSA-44 서명이 2,420바이트에 달하는 등 큰 크기로 인해 과제에 직면해 있습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b88d19c1279b14b3",
+ "contentHash": "cf6a29087f1b7f59",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T21:44:45.173Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS launches support for amortization of EC2 Capacity Blocks for ML",
+   "summary": "AWS Data Exports for Cost and Usage Report 2.0 and AWS Cost Explorer now amortize the upfront fee for Amazon EC2 Capacity Blocks for ML across the reservation duration. Previously, the upfront fee appeared as a single charge on the purchase date. The new feature allows users to see amortized costs for both launched instances and unused capacity alongside instance usage.",
+   "impact": "This change could help developers, teams, and financial administrators accurately allocate GPU costs to specific projects and identify unused capacity. Technology users may find it easier to plan future Capacity Block purchases based on clear cost distribution.",
+   "keyPoints": [
+    "Upfront fees for Amazon EC2 Capacity Blocks for ML are now amortized across the reservation duration.",
+    "Amortized costs appear for both instances launched into Capacity Blocks and unused capacity.",
+    "The feature is available at no additional charge in most AWS Regions.",
+    "CUR 2.0 and Cost Explorer include specific columns and views for tracking these amortized costs."
+   ]
+  },
+  "km": {
+   "title": "AWS ចាប់ផ្តើមគាំទ្រការបែងចែករំលោះនៃ EC2 Capacity Blocks សម្រាប់ ML",
+   "summary": "AWS Data Exports សម្រាប់ Cost and Usage Report 2.0 និង AWS Cost Explorer ឥឡូវនេះរំលោះថ្លៃសេវាដើមសម្រាប់ Amazon EC2 Capacity Blocks សម្រាប់ ML ពេញមួយរយៈពេលនៃការកក់នីមួយៗ។ កាលពីមុន ថ្លៃសេវាដើមបានបង្ហាញជាការគិតប្រាក់តែមួយដងនៅថ្ងៃទិញ។ លក្ខណៈពិសេសថ្មីនេះអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់មើលឃើញថ្លៃដើមដែលបានរំលោះសម្រាប់ទាំងគំរូដែលបានដាក់ឱ្យដំណើរការ និងសមត្ថភាពដែលไม่ได้ប្រើប្រាស់។",
+   "impact": "ការផ្លាស់ប្តូរនេះអាចជួយក្រុមការងារបែងចែកថ្លៃដើម GPU ទៅឱ្យគម្រោងជាក់លាក់ និងកំណត់អត្តសញ្ញាណសមត្ថភាពដែលไม่ได้ប្រើប្រាស់។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចគ្រោងទុកការទិញ Capacity Blocks នាពេលអនាគតបានកាន់តែងាយស្រួល។",
+   "keyPoints": [
+    "ថ្លៃសេវាដើមសម្រាប់ Amazon EC2 Capacity Blocks សម្រាប់ ML ឥឡូវនេះត្រូវបានរំលោះពេញមួយរយៈពេលនៃការកក់។",
+    "ថ្លៃដើមដែលបានរំលោះបង្ហាញសម្រាប់ទាំងគំរូដែលបានដាក់ឱ្យដំណើរការ និងសមត្ថភាពដែលមិនបានប្រើប្រាស់។",
+    "មុខងារនេះមានដោយឥតគិតថ្លៃបន្ថែមនៅក្នុងតំបន់ AWS ភាគច្រើន។",
+    "CUR 2.0 និង Cost Explorer រួមបញ្ចូលទាំងជួរដេក និងទិដ្ឋភាពជាក់លាក់សម្រាប់ការតាមដានថ្លៃដើមទាំងនេះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS 推出对面向 ML 的 EC2 Capacity Blocks 摊销支持",
+   "summary": "AWS Data Exports 的 Cost and Usage Report 2.0 和 AWS Cost Explorer 现在会将 Amazon EC2 Capacity Blocks for ML 的预付费用在每个预留期内进行摊销。在此之前，预付费用会在购买当天作为单一费用显示。新功能使用户能够看到启动实例和未使用的容量的摊销成本，并与实例使用情况一起显示。",
+   "impact": "这一更改可以帮助团队准确地将 GPU 成本分配给特定项目，并识别未使用的容量。技术用户可能会发现根据清晰的成本分布来规划未来的 Capacity Block 采购变得更加容易。",
+   "keyPoints": [
+    "面向 ML 的 Amazon EC2 Capacity Blocks 预付费用现在可在预留期内摊销。",
+    "启动到 Capacity Block 中的实例以及未使用的容量都会显示摊销成本。",
+    "该功能在大多数 AWS 区域中免费提供。",
+    "CUR 2.0 和 Cost Explorer 包含用于跟踪这些摊销成本的特定列和视图。"
+   ]
+  },
+  "ko": {
+   "title": "AWS, ML용 EC2 Capacity Blocks 상각 지원 출시",
+   "summary": "AWS Data Exports의 Cost and Usage Report 2.0 및 AWS Cost Explorer는 이제 각 예약 기간 동안 ML용 Amazon EC2 Capacity Blocks의 선불 요금을 상각합니다. 이전에는 선불 요금이 구매 날짜에 단일 청구로 표시되었습니다. 새로운 기능을 통해 사용자는 인스턴스 사용량과 함께 실행된 인스턴스와 사용되지 않은 용량의 상각 비용을 확인할 수 있습니다.",
+   "impact": "이러한 변경 사항은 팀이 GPU 비용을 특정 프로젝트에 정확하게 할당하고 사용되지 않은 용량을 식별하는 데 도움이 될 수 있습니다. 기술 사용자는 명확한 비용 분산을 바탕으로 향후 Capacity Block 구매를 더 쉽게 계획할 수 있습니다.",
+   "keyPoints": [
+    "ML용 Amazon EC2 Capacity Blocks의 선불 요금이 이제 예약 기간 동안 상각됩니다.",
+    "Capacity Block에 시작된 인스턴스와 사용되지 않은 용량 모두에 대해 상각된 비용이 표시됩니다.",
+    "이 기능은 대부분의 AWS 리에서 추가 비용 없이 사용할 수 있습니다.",
+    "CUR 2.0 및 Cost Explorer에는 이러한 상각 비용을 추적하기 위한 특정 열과 뷰가 포함되어 있습니다."
+   ]
+  }
+ }
+}

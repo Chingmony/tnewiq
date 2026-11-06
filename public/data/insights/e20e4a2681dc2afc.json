@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e20e4a2681dc2afc",
+ "contentHash": "0f17c885718218bf",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T21:40:26.373Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
+   "summary": "During reinforcement learning post-training, training trajectories are generated on the fly by running inference with the current policy model. To improve efficiency, inference and training often run in parallel on separate GPU resources in a disaggregated setup. Although the policy model updates only on training GPUs, the system must periodically refresh the weights on the other resources.",
+   "impact": "This approach may help development and infrastructure teams optimize disaggregated reinforcement learning setups by streamlining how model weights are periodically refreshed across separate GPU resources.",
+   "keyPoints": [
+    "Training trajectories are generated on the fly during RL post-training using inference with the current policy model.",
+    "Inference and training often run in parallel on separate GPU resources for better training efficiency.",
+    "The system must periodically refresh model weights on separate resources even though updates happen only on training GPUs."
+   ]
+  },
+  "km": {
+   "title": "ការបង្កើនល្បឿននៃការកែសម្រួលទម្ងន់ Reinforcement Learning ជាមួយ Reshard Collective",
+   "summary": "ក្នុងអំឡុងពេលក្រោយការបណ្តុះបណ្តាល Reinforcement Learning បណ្តាញដំណើរការបណ្តុះបណ្តាលត្រូវបានបង្កើតឡើងភ្លាមៗដោយដំណើរការ inference ជាមួយគំរូគោលនយោបាយបច្ចុប្បន្ន។ ដើម្បីប្រសិទ្ធភាពនៃការបណ្តុះបណ្តាល វាជារឿងធម្មតាដែលដំណើរការ inference និងការបណ្តុះបណ្តាលស្របគ្នាលើធនធាន GPU ដាច់ដោយឡែកនៅក្នុងការរៀបចំដែលបានបែងចែក។ ទោះបីជាគំរូគោលនយោបាយត្រូវបានធ្វើបច្ចុប្បន្នភាពតែនៅលើ GPU បណ្តុះបណ្តាលក៏ដោយ ប្រព័ន្ធត្រូវតែធ្វើឱ្យស្រស់ទម្ងន់ជាប្រចាំនៅលើធនធានផ្សេងទៀត។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយក្រុមអភិវឌ្ឍន៍និងក្រុមហេដ្ឋារចនាសម្ព័ន្ធបង្កើនប្រសិទ្ធភាពការរៀបចំ Reinforcement Learning ដែលបានបែងចែក ដោយសម្រួលពីរបៀបដែលទម្ងន់គំរូត្រូវបានធ្វើឱ្យស្រស់ជាប្រចាំឆ្លងកាត់ធនធាន GPU ដាច់ដោយឡែក។",
+   "keyPoints": [
+    "គន្លងបណ្តុះបណ្តាលត្រូវបានបង្កើតឡើងភ្លាមៗក្នុងអំឡុងពេលក្រោយការបណ្តុះបណ្តាល RL ដោយប្រើ inference ជាមួយគំរូគោលនយោបាយបច្ចុប្បន្ន។",
+    "Inference និងការបណ្តុះបណ្តាលច្រើនតែដំណើរការស្របគ្នាលើធនធាន GPU ដាច់ដោយឡែកដើម្បីប្រសិទ្ធភាពបណ្តុះបណ្តាលកាន់តែប្រសើរ។",
+    "ប្រព័ន្ធត្រូវតែធ្វើឱ្យស្រស់ទម្ងន់គំរូជាប្រចាំនៅលើធនធានដាច់ដោយឡែក ទោះបីជាការធ្វើបច្ចុប្បន្នភាពកើតឡើងតែលើ GPU បណ្តុះបណ្តាលក៏ដោយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 Reshard Collective 加速强化学习权重调整",
+   "summary": "在强化学习后训练期间，训练轨迹是通过使用当前策略模型运行推理实时生成的。为了提高训练效率，通常在分离设置中的独立 GPU 资源上并行运行推理和训练。尽管策略模型仅在训练 GPU 上更新，但系统必须定期刷新其他资源上的权重。",
+   "impact": "这种方法可能有助于开发和基础设施团队优化分离的强化学习设置，从而简化在独立 GPU 资源之间定期刷新模型权重的方式。",
+   "keyPoints": [
+    "在 RL 后训练期间，使用当前策略模型的推理实时生成训练轨迹。",
+    "推理和训练通常在独立的 GPU 资源上并行运行以提高训练效率。",
+    "尽管更新仅在训练 GPU 上进行，系统仍必须定期刷新独立资源上的权重。"
+   ]
+  },
+  "ko": {
+   "title": "Reshard Collective를 활용한 강화 학습 가중치 재조정 가속화",
+   "summary": "강화 학습 후훈련 동안 훈련 궤적은 현재 정책 모델로 추론을 실행하여 즉시 생성됩니다. 훈련 효율성을 위해 분리된 설정의 별도 GPU 리소스에서 추론과 훈련을 병렬로 실행하는 것이 일반적입니다. 정책 모델은 훈련 GPU에서만 업데이트되지만, 시스템은 다른 리소스의 가중치를 주기적으로 새로 고쳐야 합니다.",
+   "impact": "이 접근 방식은 별도의 GPU 리소스 전체에서 모델 가중치가 주기적으로 새로 고쳐지는 방식을 간소화하여 개발 및 인프라 팀이 분리된 강화 학습 설정을 최적화하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "RL 후훈련 중 현재 정책 모델과의 추론을 통해 훈련 궤적이 즉시 생성됩니다.",
+    "훈련 효율성을 높이기 위해 추론과 훈련은 별도의 GPU 리소스에서 병렬로 실행되는 경우가 많습니다.",
+    "업데이트가 훈련 GPU에서만 발생하더라도 시스템은 별도 리소스의 가중치를 주기적으로 새로 고쳐야 합니다."
+   ]
+  }
+ }
+}

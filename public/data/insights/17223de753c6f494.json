@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "17223de753c6f494",
+ "contentHash": "843bd8b25ddb6451",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T21:45:40.453Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Capacity Reservation Resource Groups now support Amazon EC2 Capacity Blocks and interruptible Capacity Reservations in AWS GovCloud (US) Regions",
+   "summary": "Amazon EC2 Capacity Blocks for ML and interruptible Capacity Reservations can now be added to Capacity Reservation Resource Groups in AWS GovCloud (US) Regions. Previously, these resource groups were limited to On-Demand Capacity Reservations. This update allows users to include any type of Capacity Reservation in a resource group to launch EC2 instances across their reserved capacity portfolio.",
+   "impact": "Developers and technology users could find it easier to launch EC2 instances and manage reserved capacity across their entire portfolio. Users may also configure prioritization preferences and automatic fallback to EC2 On-Demand capacity when reservations run out.",
+   "keyPoints": [
+    "Capacity Reservation Resource Groups in AWS GovCloud (US) Regions now support Amazon EC2 Capacity Blocks for ML and interruptible Capacity Reservations.",
+    "Previously, Capacity Reservation Resource Groups only supported On-Demand Capacity Reservations.",
+    "Users can specify prioritization preferences across reservation types and configure automatic fallback to EC2 On-Demand capacity.",
+    "There are no additional charges for using this feature."
+   ]
+  },
+  "km": {
+   "title": "Capacity Reservation Resource Groups ឥឡូវនេះគាំទ្រ Amazon EC2 Capacity Blocks និង interruptible Capacity Reservations នៅក្នុង AWS GovCloud (US) Regions",
+   "summary": "Amazon EC2 Capacity Blocks for ML និង interruptible Capacity Reservations ឥឡូវនេះអាចត្រូវបានបន្ថែមទៅ Capacity Reservation Resource Groups នៅក្នុង AWS GovCloud (US) Regions។ កាលពីមុន ក្រុមធនធានទាំងនេះត្រូវបានកំណត់ចំពោះតែ On-Demand Capacity Reservations ប៉ុណ្ណោះ។ ការអាប់ដេតនេះអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់រួមបញ្ចូលប្រភេទ Capacity Reservation ណាមួយទៅក្នុងក្រុមធនធាន ដើម្បីបើកដំណើរការ EC2 instances តាមរយៈផលប័ត្រសមត្ថភាពដែលបានបម្រុងទុករបស់ពួកគេ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងយល់ថាវាជាការងាយស្រួលជាងមុនក្នុងការបើកដំណើរការ EC2 instances និងគ្រប់គ្រងសមត្ថភាពដែលបានបម្រុងទុក។ អ្នកប្រើប្រាស់ក៏អាចកំណត់ចំណង់ចំណូលចិត្តការផ្តល់អាទិភាព និងការប្តូរដោយស្វ័យប្រវត្តិទៅកាន់ EC2 On-Demand capacity នៅពេលដែលសមត្ថភាពបម្រុងទុកអស់។",
+   "keyPoints": [
+    "Capacity Reservation Resource Groups នៅក្នុង AWS GovCloud (US) Regions ឥឡូវនេះគាំទ្រ Amazon EC2 Capacity Blocks for ML និង interruptible Capacity Reservations។",
+    "កាលពីមុន Capacity Reservation Resource Groups គាំទ្រតែ On-Demand Capacity Reservations ប៉ុណ្ណោះ។",
+    "អ្នកប្រើប្រាស់អាចបញ្ជាក់ពីចំណង់ចំណូលចិត្តការផ្តល់អាទិភាពលើប្រភេទបម្រុងទុក និងកំណត់ការប្តូរដោយស្វ័យប្រវត្តិទៅកាន់ EC2 On-Demand capacity។",
+    "មិនមានការគិតថ្លៃបន្ថែមសម្រាប់ការប្រើប្រាស់មុខងារនេះទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Capacity Reservation Resource Groups 现在在 AWS GovCloud (US) Regions 支持 Amazon EC2 Capacity Blocks 和 interruptible Capacity Reservations",
+   "summary": "Amazon EC2 Capacity Blocks for ML 和 interruptible Capacity Reservations 现在可以添加至 AWS GovCloud (US) Regions 的 Capacity Reservation Resource Groups 中。此前，这些资源组仅支持 On-Demand Capacity Reservations。该更新使用户能够将任何类型的 Capacity Reservation 添加到资源组中，从而更轻松地跨预留容量组合启动 EC2 实例。",
+   "impact": "开发人员和技术用户可能会发现在整个预留容量组合中启动 EC2 实例和管理预留容量变得更加容易。用户还可以在预留容量耗尽时配置优先级首选项以及自动回退到 EC2 On-Demand capacity。",
+   "keyPoints": [
+    "AWS GovCloud (US) Regions 中的 Capacity Reservation Resource Groups 现在支持 Amazon EC2 Capacity Blocks for ML 和 interruptible Capacity Reservations。",
+    "此前，Capacity Reservation Resource Groups 仅包含 On-Demand Capacity Reservations。",
+    "用户可以在不同的预留类型之间指定优先级首选项，并配置自动回退到 EC2 On-Demand capacity。",
+    "使用此功能不产生额外费用。"
+   ]
+  },
+  "ko": {
+   "title": "Capacity Reservation Resource Groups now support Amazon EC2 Capacity Blocks and interruptible Capacity Reservations in AWS GovCloud (US) Regions",
+   "summary": "Amazon EC2 Capacity Blocks for ML 및 interruptible Capacity Reservations를 이제 AWS GovCloud (US) Regions의 Capacity Reservation Resource Groups에 추가할 수 있습니다. 이전에 이러한 리소스 그룹에는 On-Demand Capacity Reservations만 포함될 수 있었습니다. 이 업데이트를 통해 사용자는 모든 유형의 Capacity Reservation을 리소스 그룹에 추가하여 전체 예약 용량 포트폴리오에서 EC2 인스턴스를 더 쉽게 시작할 수 있습니다.",
+   "impact": "개발자와 기술 사용자는 전체 예약 용량 포트폴리오에서 EC2 인스턴스를 시작하고 관리하는 것이 더 쉬워질 수 있습니다. 또한 사용자는 예약 용량이 소진되었을 때 예약 유형 간의 우선순위 기본 설정을 지정하고 EC2 On-Demand capacity로 자동 대체되도록 구성할 수 있습니다.",
+   "keyPoints": [
+    "AWS GovCloud (US) Regions의 Capacity Reservation Resource Groups는 이제 Amazon EC2 Capacity Blocks for ML 및 interruptible Capacity Reservations를 지원합니다.",
+    "이전에는 Capacity Reservation Resource Groups에 On-Demand Capacity Reservations만 포함될 수 있었습니다.",
+    "사용자는 예약 유형 간의 우선순위 기본 설정을 지정하고 EC2 On-Demand capacity로 자동 대체되도록 구성할 수 있습니다.",
+    "이 기능을 사용하는 데 추가 요금은 없습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0860da24c720aefb",
+ "contentHash": "c6d1b0110e262217",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T21:42:15.276Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 1",
+   "summary": "This post explains how to govern AI agent access using Okta Cross App Access (XAA) alongside Amazon Bedrock AgentCore. Administrators can register agents in Okta, approve application reach, and have Okta evaluate policies whenever an agent acts for a user. Amazon Bedrock AgentCore runtime and Amazon Bedrock AgentCore Identity execute Okta's decisions on AWS by validating grants and securing short-lived access tokens.",
+   "impact": "Security teams and developers could benefit from this setup by gaining stricter governance over AI agents acting on behalf of users. It may help prevent unauthorized actions across applications by ensuring Okta policies are enforced and revoked quickly.",
+   "keyPoints": [
+    "Okta Cross App Access allows administrators to control which users an AI agent can act for within specific applications.",
+    "In testing, Okta refused new requests within about 1 second after a user assignment was removed, and issued tokens expired within 5 minutes.",
+    "Amazon Bedrock AgentCore runtime validates Okta grants, while Amazon Bedrock AgentCore Identity manages token redemption.",
+    "The architecture utilizes three token types for requests: an ID token, an ID-JAG grant, and a resource access token."
+   ]
+  },
+  "km": {
+   "title": "គ្រប់គ្រងសិទ្ធិរបស់ភ្នាក់ងារ AI ជាមួយ Okta Cross App Access និង Amazon Bedrock AgentCore – ផ្នែកទី ១",
+   "summary": "អត្ថបទនេះពន្យល់ពីរបៀបគ្រប់គ្រងការចូលប្រើរបស់ភ្នាក់ងារ AI ដោយប្រើប្រាស់ Okta Cross App Access (XAA) រួមជាមួយ Amazon Bedrock AgentCore។ អ្នកគ្រប់គ្រងអាចចុះឈ្មោះភ្នាក់ងារនៅក្នុង Okta អនុម័តកម្មវិធីដែលវាអាចទៅដល់ និងអនុញ្ញាតឱ្យ Okta ពិនិត្យមើលគោលការណ៍រាល់ពេលដែលភ្នាក់ងារធ្វើសកម្មភាពជំនួសអ្នកប្រើប្រាស់។ Amazon Bedrock AgentCore runtime និង Amazon Bedrock AgentCore Identity អនុវត្តសេចក្តីសម្រេចរបស់ Okta នៅលើ AWS ដោយសុពលភាពសិទ្ធិ និងការពារថូខឹនចូលប្រើប្រាស់រយៈពេលខ្លី។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍អាចទទួលបានប្រយោជន៍ពីការរៀបចំនេះតាមរយៈការទទួលបានការគ្រប់គ្រងដ៏តឹងរឹងជាងមុនលើភ្នាក់ងារ AI ដែលធ្វើសកម្មភាពជំនួសអ្នកប្រើប្រាស់។ វាអាចជួយការពារសកម្មភាពដែលគ្មានការអនុញ្ញាតនៅទូទាំងកម្មវិធីដោយធានាថាគោលការណ៍ Okta ត្រូវបានអនុវត្តនិងដកហូតយ៉ាងឆាប់រហ័ស។",
+   "keyPoints": [
+    "Okta Cross App Access អនុញ្ញាតឱ្យអ្នកគ្រប់គ្រងគ្រប់គ្រងអ្នកប្រើប្រាស់ដែលភ្នាក់ងារ AI អាចធ្វើសកម្មភាពជំនួសក្នុងកម្មវិធីជាក់លាក់។",
+    "នៅក្នុងការធ្វើតេស្ត Okta បានបដិសេធសំណើថ្មីៗក្នុងរយៈពេលប្រហែល ១ វិនាទី បន្ទាប់ពីការចាត់តាំងអ្នកប្រើប្រាស់ត្រូវបានដកចេញ ហើយថូខឹនដែលបានចេញរួចអស់សុពលភាពក្នុងរយៈពេល ៥ នាទី។",
+    "Amazon Bedrock AgentCore runtime ធ្វើឱ្យមានសុពលភាពសិទ្ធិរបស់ Okta ខណៈពេលដែល Amazon Bedrock AgentCore Identity គ្រប់គ្រងការប្តូរថូខឹន។",
+    "ស្ថាបត្យកម្មនេះប្រើប្រាស់ថូខឹនចំនួនបីប្រភេទសម្រាប់សំណើ៖ ថូខឹនអត្តសញ្ញាណ (ID token) ថូខឹនអនុញ្ញាត ID-JAG និងថូខឹនចូលប្រើប្រាស់ធនធាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 Okta Cross App Access 和 Amazon Bedrock AgentCore 管理 AI 智能体访问权限 – 第 1 部分",
+   "summary": "本文介绍了如何结合使用 Okta Cross App Access (XAA) 和 Amazon Bedrock AgentCore 来管理 AI 智能体的访问权限。管理员可以在 Okta 中注册智能体、批准其可访问的应用程序，并在智能体代表用户行事时由 Okta 评估策略。Amazon Bedrock AgentCore runtime 和 Amazon Bedrock AgentCore Identity 通过验证授权并在令牌保险库中保管短期访问令牌，在 AWS 上执行 Okta 的决策。",
+   "impact": "安全团队和开发人员可以通过此设置获得对代表用户行事的 AI 智能体的更严格治理。它可以通过确保快速强制执行和撤销 Okta 策略来帮助防止应用程序中的未经授权操作。",
+   "keyPoints": [
+    "Okta Cross App Access 允许管理员控制 AI 智能可以在特定应用程序中代表哪些用户行事。",
+    "在测试中，管理员取消用户分配后，Okta 在大约 1 秒内拒绝了智能体的新请求，而已发出的令牌在 5 分钟内过期。",
+    "Amazon Bedrock AgentCore runtime 验证 Okta 授权，而 Amazon Bedrock AgentCore Identity 则负责兑换短期访问令牌。",
+    "请求流程使用三种令牌：ID 令牌、ID-JAG 授权以及资源可接受的访问令牌。"
+   ]
+  },
+  "ko": {
+   "title": "Okta Cross App Access 및 Amazon Bedrock AgentCore로 AI 에이전트アクセス 제어 – 파트 1",
+   "summary": "이 글에서는 Okta Cross App Access(XAA)와 Amazon Bedrock AgentCore를 사용하여 AI 에이전트의 접근 권한을 관리하는 방법을 설명합니다. 관리자는 Okta에 에이전트를 등록하고 접근 가능한 애플리케이션을 승인할 수 있으며, 에이전트가 사용자를 대신하여 작업할 때마다 Okta가 정책을 평가합니다. Amazon Bedrock AgentCore runtime과 Amazon Bedrock AgentCore Identity는 AWS에서 Okta의 결정을 실행하여 권한을 검증하고 단기 액세스 토큰을 관리합니다.",
+   "impact": "보안 팀과 개발자는 사용자를 대신하여 작업하는 AI 에이전트에 대한 더 엄격한 거버넌스를 확보함으로써 이 설정을 활용할 수 있습니다. Okta 정책이 신속하게 적용되고 철회되도록 하여 애플리케이션 전반의 무단 작업을 방지하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "Okta Cross App Access를 사용하면 관리자가 특정 애플리케이션 내에서 AI 에이전트가 누구를 대신해 행동할 수 있는지 제어할 수 있습니다.",
+    "테스트에서 관리자가 사용자 할당을 제거한 지 약 1초 만에 Okta가 에이전트의 새 요청을 거부했으며, 이미 발급된 토큰은 5분 이내에 만료되었습니다.",
+    "Amazon Bedrock AgentCore runtime은 Okta 권한 부여를 검증하고, Amazon Bedrock AgentCore Identity는 토큰 교환을 처리합니다.",
+    "요청에는 ID 토큰, ID-JAG 승인, 리소스 액세스 토큰 등 세 가지 토큰이 사용됩니다."
+   ]
+  }
+ }
+}

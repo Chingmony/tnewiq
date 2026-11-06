@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "12404fdb4aa23698",
+ "contentHash": "2f95fcf661334480",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T21:44:22.851Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+   "summary": "Threat actors are attempting to exploit a recently disclosed OpenSSH security flaw tracked as CVE-2026-123158 and codenamed SSHole. The vulnerability has a CVSS score of 8.1 and impacts Linux systems running OpenSSH on the musl C library with Pluggable Authentication Modules disabled. According to Previdian, attackers have targeted the flaw within hours of disclosure and gained root access on a honeypot.",
+   "impact": "This vulnerability could allow unauthorized sign-ins to accounts with no password set, posing significant security risks to affected Linux systems. Security teams and system administrators may need to apply patches or review OpenSSH configurations on systems utilizing the musl C library and disabled PAM.",
+   "keyPoints": [
+    "CVE-2026-123158 is codenamed SSHole and carries a CVSS score of 8.1.",
+    "The flaw enables sign-ins to accounts that have no password set.",
+    "It impacts Linux systems running OpenSSH on the musl C library with PAM disabled.",
+    "Threat actors targeted the vulnerability within hours and gained root on a honeypot."
+   ]
+  },
+  "km": {
+   "title": "ពួក ह्याគឃ័រ គោលដៅលើ OpenSSH SSHole ខ្សោយ ក្នុងរយៈពេលប៉ុន្មានម៉ោងក្រោយការលាតត្រដាង ទទួលបានសិទ្ធិ root លើ honeypot",
+   "summary": "ក្រុមឧក្រិដ្ឋជនតាមប្រព័ន្ធអ៊ីនធឺណិតកំពុងព្យាយាម khai thác ភាពខ្សោយសុវត្ថិភាព OpenSSH ដែលទើបតែត្រូវបានលាតត្រដាងថ្មីៗនេះ ហើយតាមដានក្រោមលេខ CVE-2026-123158 និងមានឈ្មោះកូដថា SSHole ។ ភាពខ្សោយនេះមានពិន្ទុ CVSS ៨,១ ហើយប៉ះពាល់ដល់ប្រព័ន្ធ Linux ដែលដំណើរការ OpenSSH លើបណ្ណាល័យ musl C ដោយបិទ Pluggable Authentication Modules ។បើយោងតាម Previdian ពួកអ្នកវាយប្រហារបានកំណត់គោលដៅលើភាពខ្សោយនេះក្នុងរយៈពេលប៉ុន្មានម៉ោងក្រោយការលាតត្រដាង និងទទួលបានសិទ្ធិ root លើ honeypot ។",
+   "impact": "ភាពខ្សោយនេះអាចអនុញ្ញាតឱ្យមានការចូលគណនីដែលគ្មានពាក្យសម្ងាត់កំណត់ ដែលបង្កហានិភ័យសុវត្ថិភាពយ៉ាងខ្លាំងដល់ប្រព័ន្ធ Linux ដែលរងផលប៉ះពាល់ ។ ក្រុមសន្តិសុខនិងអ្នកគ្រប់គ្រងប្រព័ន្ធអាចចាំបាច់ត្រូវអនុវត្តការបិទបាំងសុវត្ថិភាព ឬពិនិត្យឡើងវិញនូវការកំណត់រចនាសម្ព័ន្ធ OpenSSH ។",
+   "keyPoints": [
+    "CVE-2026-123158 មានឈ្មោះកូដថា SSHole និងមានពិន្ទុ CVSS ៨,១ ។",
+    "ភាពខ្សោយនេះអនុញ្ញាតឱ្យចូលគណនីដែលគ្មានពាក្យសម្ងាត់កំណត់ ។",
+    "វាប៉ះពាល់ដល់ប្រព័ន្ធ Linux ដែលដំណើរការ OpenSSH លើ musl C ដោយបិទ PAM ។",
+    "ពួកអ្នកវាយប្រហារបានកំណត់គោលដៅលើភាពខ្សោយនេះយ៉ាងឆាប់រហ័សនិងទទួលបានសិទ្ធិ root ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "黑客在披露后数小时内攻击 OpenSSH SSHole 漏洞，并在蜜罐上获得 root 权限",
+   "summary": "根据 Previdian 的消息，威胁行为者正试图利用最近披露的一个影响 OpenSSH 的安全漏洞，该漏洞允许登录未设置密码的账户。该漏洞被追踪为 CVE-2026-123158（CVSS 评分 8.1），代号为 SSHole，影响在 musl C 库上运行且禁用了可插拔身份验证模块的 Linux 系统。攻击者在漏洞披露数小时内便对其进行了攻击，并在蜜罐上获得了 root 权限。",
+   "impact": "该漏洞可能会允许未经授权登录没有设置密码的账户，给受影响的 Linux 系统带来重大的安全风险。安全团队和技术用户可能需要检查系统配置并采取防护措施，以应对使用 musl C 库且禁用 PAM 的环境所带来的威胁。",
+   "keyPoints": [
+    "CVE-2026-123158 漏洞代号为 SSHole，CVSS 评分达 8.1。",
+    "该漏洞允许登录没有设置密码的账户。",
+    "影响在 musl C 库上运行且禁用 PAM 的 Linux 系统。",
+    "黑客在披露后数小时内便展开攻击并在蜜罐上获得 root 权限。"
+   ]
+  },
+  "ko": {
+   "title": "해커, 공개 몇 시간 만에 OpenSSH SSHole 결함을 공격하여 허니팟에서 root 권한 획득",
+   "summary": "Previdian에 따르면 위협 행위자들이 비밀번호가 설정되지 않은 계정에 로그인을 가능하게 하는 최근 공개된 OpenSSH 보안 결함을 악용하려고 시도하고 있습니다. CVE-2026-123158으로 추적되고 SSHole이라는 코드명이 붙은 이 취약점은 CVSS 점수 8.1을 기록했으며, PAM이 비활성화된 상태로 musl C 라이브러리에서 OpenSSH를 실행하는 Linux 시스템에 영향을 미칩니다. 공격자들은 공개 후 몇 시간 만에 이 결함을 노려 허니팟에서 root 권한을 획득했습니다.",
+   "impact": "이 취약점은 비밀번호가 없는 계정에 대한 무단 로그인을 허용할 수 있어 영향받는 Linux 시스템에 상당한 보안 위험을 초래할 수 있습니다. 보안 팀과 기술 사용자는 musl C 라이브러리를 사용하고 PAM이 비활성화된 시스템에서 설정을 검토하거나 패치를 적용해야 할 수 있습니다.",
+   "keyPoints": [
+    "CVE-2026-123158은 SSHole이라는 코드명을 가지며 CVSS 점수 8.1입니다.",
+    "이 결함은 비밀번호가 설정되지 않은 계정에 로그인할 수 있게 합니다.",
+    "PAM이 비활성화된 musl C 라이브러리 상의 OpenSSH Linux 시스템에 영향을 줍니다.",
+    "공격자들은 공개 후 몇 시간 만에 결함을 공격하여 허니팟에서 root를 획득했습니다."
+   ]
+  }
+ }
+}

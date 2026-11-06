@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d4ce973489ce0c41",
+ "contentHash": "5845569d5dd6728a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T21:41:20.109Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Taxonomy of agentic primitives in Amazon Quick",
+   "summary": "AWS developed Amazon Quick and identified a recurring problem of lacking a shared definition for agentic work primitives. To resolve confusion in product design and user experience, developers established a taxonomy based on four questions: When, What, Who, and How. The framework categorizes the system into triggers, agents, and capabilities, with learning feeding back from runtime.",
+   "impact": "This taxonomy could help developers reason about agentic systems more clearly and prevent overlapping concepts during platform building. A shared vocabulary may also improve how agent systems are structured under the hood.",
+   "keyPoints": [
+    "Agentic work was decomposed into four questions: When, What, Who, and How.",
+    "Triggers start work and answer When and What, categorized as human-initiated, agent-delegated, scheduled, or event-driven.",
+    "Agents are defined as persistent, learning actors that consist of instructions, capabilities, and learned context.",
+    "This post is the first in a series detailing the architecture of Amazon Quick."
+   ]
+  },
+  "km": {
+   "title": "ចំណាត់ថ្នាក់នៃបឋមកថាភ្នាក់ងារក្នុង Amazon Quick",
+   "summary": "ក្នុងអំឡុងពេលសាងសង់ Amazon Quick ក្រុមការងារបានបង្កើតចំណាត់ថ្នាក់មួយដើម្បីកំណត់និយមន័យនៃសមាសភាគការងារភ្នាក់ងារ ដោយបែងចែកវាជាសំណួរចំនួនបួនគឺ ពេលណា អ្វី អ្នកណា និងរបៀបណា។ ក្របខ័ណ្ឌនេះពន្យល់ពីទំនាក់ទំនងរវាងកម្រុញ ភ្នាក់ងារ និងសមត្ថភាព ដោយមានការរៀនសូត្រពីដំណើរការពេលរត់។ នេះជួយដោះស្រាយបញ្ហាស្ទះក្នុងការរចនាផលិតផល និងបទពិសោធន៍អ្នកប្រើប្រាស់។",
+   "impact": "វាក្យស័ព្ទដែលបានចែករំលែកនេះ អាចជួយឱ្យអ្នកអភិវឌ្ឍន៍យល់ដឹងកាន់តែច្បាស់អំពីប្រព័ន្ធភ្នាក់ងារ និងសម្រួលដល់ការកសាងប្រព័ន្ធនៅเบื้องក្រោម។",
+   "keyPoints": [
+    "ការងារភ្នាក់ងារត្រូវបានបែងចែកជាសំណួរចំនួនបួន៖ ពេលណា អ្វី អ្នកណា និងរបៀបណា។",
+    "កម្រុញចាប់ផ្តើមការងារ និងមានផ្ទុកនូវការណែនាំ ដូចជាការចាប់ផ្តើមដោយមនុស្ស ការចាត់តាំងដោយភ្នាក់ងារ ការកំណត់ពេល ឬតាមព្រឹត្តិការណ៍។",
+    "ភ្នាក់ងារគឺជាតួអង្គជាប់លាប់ដែលអាចរៀនសូត្របាន ដែលរួមមានការណែនាំ សមត្ថភាព និងបរិបទដែលបានរៀន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Quick 中的智能体原语分类",
+   "summary": "在构建 Amazon Quick 的过程中，团队发现缺乏对智能体工作原语的统一定义，导致产品设计和用户体验出现混乱。为此，开发人员通过分解四个问题（何时、何事、何人、如何）建立了一个分类法。该框架将系统分解为触发器、智能体和能力，并通过运行时学习进行反馈。",
+   "impact": "统一的词汇表可能有助于开发人员更清晰地理解智能体系统，并在构建底层架构时减少概念重叠。",
+   "keyPoints": [
+    "智能体工作被分解为四个问题：何时、何事、何人、如何。",
+    "触发器启动工作并携带指令，分为人工发起、智能体委派、定时调度和事件驱动四种类型。",
+    "智能体被定义为持久的、具备学习能力的行动者，由指令、能力和已学习的上下文组成。",
+    "这是介绍 Amazon Quick 架构系列文章中的第一篇。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Quick의 에이전트 프리미티브 분류 체계",
+   "summary": "Amazon Quick을 구축하는 동안 개발팀은 에이전트 작업 프리미티브에 대한 공통된 정의가 부족하여 제품 설계와 사용자 경험에 혼선이 빚어지는 문제를 해결하고자 했습니다. 이를 위해 언제, 무엇을, 누가, 어떻게라는 네 가지 질문을 통해 에이전트 작업을 분해하여 새로운 분류 체계를 마련했습니다. 해당 프레임워크는 트리거, 에이전트, 기능 간의 관계를 정의하고 런타임 학습을 피드백으로 반영합니다.",
+   "impact": "이 공유된 어휘는 개발자가 에이전트 시스템을 더 명확하게 이해하고 내부 구조를 설계할 때 혼선을 줄이는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "에이전트 작업은 언제, 무엇을, 누가, 어떻게라는 네 가지 질문으로 분해되었습니다.",
+    "트리거는 작업을 시작하고 지시사항을 전달하며, 인간 시작형, 에이전트 위임형, 예약형, 이벤트 기반형으로 나뉩니다.",
+    "에이전트는 지침, 기능, 학습된 컨텍스트로 구성된 지속적이고 학습하는 주체로 정의됩니다.",
+    "이번 글은 Amazon Quick 아키텍처를 다루는 시리즈의 첫 번째 게시물입니다."
+   ]
+  }
+ }
+}

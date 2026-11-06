@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3f022a3e76900146",
+ "contentHash": "8acf97b69cdd90b8",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T21:41:41.904Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
+   "summary": "Organizations building AI applications often struggle to give LLM agents access to enterprise data lakes without duplicating integration logic. To solve this for planning teams in Amazon's North America Sort Center, a serverless Model Context Protocol (MCP) server was built on Amazon ECS using AWS Fargate. This centralized gateway uses a metadata-driven approach to discover new datasets automatically, eliminating the need for custom integration code per table.",
+   "impact": "This architecture could help development and security teams streamline data lake onboarding for AI agents by centralizing access control and eliminating per-dataset code. It may also provide a scalable, multi-tenant solution that handles bursty AI workloads while reducing permission drift.",
+   "keyPoints": [
+    "Built a serverless Model Context Protocol server on Amazon ECS with AWS Fargate.",
+    "Exposing new datasets requires only a JSON metadata file discovered during pipeline syncs.",
+    "Centralizes access control and agent-agnostic tool interfaces at the MCP server layer.",
+    "Designed to support multiple agents and applications in a multi-tenant environment."
+   ]
+  },
+  "km": {
+   "title": "ម៉ាស៊ីនបម្រើ MCP បែប Serverless សម្រាប់ការចូលប្រើបឹងទិន្នន័យភ្នាក់ងារ AI នៅលើ Amazon ECS Fargate",
+   "summary": "ស្ថាប័នដែលបង្កើតកម្មវិធីបញ្ញាសិប្បនិម្មិត (AI) តែងតែជួបប្រទះបញ្ហាប្រឈមក្នុងការផ្តល់ឱ្យភ្នាក់ងារ LLM នូវការចូលប្រើបឹងទិន្នន័យរបស់សហគ្រាសដោយមិនចាំបាច់ស្ទួនកូដរួមបញ្ចូលគ្នា។ ដើម្បីដោះស្រាយបញ្ហានេះសម្រាប់ក្រុមផែនការនៅក្នុងបណ្តាញមជ្ឈមណ្ឌលតម្រៀបអាមេរិកខាងជើងរបស់ Amazon ម៉ាស៊ីនបម្រើ Model Context Protocol (MCP) បែប serverless ត្រូវបានបង្កើតឡើងនៅលើ Amazon ECS ដោយប្រើ AWS Fargate។ ច្រកទ្វារកណ្តាលនេះប្រើវិធីសាស្ត្រផ្អែកលើទិន្នន័យមេដើម្បីស្វែងរកសំណុំទិន្នន័យថ្មីដោយស្វ័យប្រវត្តិ ដោយមិនចាំបាច់មានកូដរួមបញ្ចូលគ្នាផ្ទាល់ខ្លួនសម្រាប់តារាងនីមួយៗឡើយ។",
+   "impact": "ស្ថាបត្យកម្មនេះអាចជួយដល់ក្រុមអភិវឌ្ឍន៍ និងសុវត្ថិភាពក្នុងការសម្រួលការនាំយកបឹងទិន្នន័យចូលសម្រាប់ភ្នាក់ងារ AI តាមរយៈការផ្ដុំការគ្រប់គ្រងការចូលប្រើប្រាស់នៅកន្លែងតែមួយ។ វាក៏អាចផ្តល់នូវដំណោះស្រាយដែលអាចពង្រីកបាន និងមានច្រើនភ្នាក់ងារ ដែលគ្រប់គ្រងបន្ទុកការងារ AI ដែលមានអត្រាប្រែប្រួលខ្ពស់ផងដែរ។",
+   "keyPoints": [
+    "បានបង្កើតម៉ាស៊ីនបម្រើ Model Context Protocol បែប serverless នៅលើ Amazon ECS ជាមួយ AWS Fargate។",
+    "ការបង្ហាញសំណុំទិន្នន័យថ្មីត្រូវការត្រឹមតែឯកសារទិន្នន័យមេ JSON ដែលត្រូវបានរកឃើញដោយស្វ័យប្រវត្តិក្នុងអំឡុងពេលធ្វើសមកាលកម្មបំពង់បង្ហូរប្រព័ន្ធ។",
+    "ផ្ដុំការគ្រប់គ្រងការចូលប្រើប្រាស់ និងចំណុចប្រទាក់ឧបករណ៍ដែលមិនអាស្រ័យលើភ្នាក់ងារនៅកម្រិតម៉ាស៊ីនបម្រើ MCP។",
+    "បានរចនាឡើងដើម្បីគាំទ្រភ្នាក់ងារ និងកម្មវិធីច្រើននៅក្នុងបរិយាកាសអ្នកជួលច្រើន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在 Amazon ECS Fargate 上构建用于 AI 智能体访问数据湖的无服务器 MCP 服务器",
+   "summary": "构建人工智能应用程序的组织经常面临一个挑战：在不重复集成逻辑的情况下，让大语言模型智能体访问企业数据湖。为了解决亚马逊北美分拣中心计划团队的这一问题，团队在 Amazon ECS 上使用 AWS Fargate 构建了一个无服务器的模型上下文协议（MCP）服务器。该服务器作为集中式的智能体无关网关，仅需一个在管道同步时自动发现的 JSON 元数据文件即可公开新数据集。",
+   "impact": "该架构可以帮助开发和安全团队通过集中访问控制并消除每个数据集的自定义代码，来简化 AI 智能体的数据湖接入流程。它还可能提供一个可扩展的多租户解决方案，以应对突发的 AI 工作负载并减少权限漂移。",
+   "keyPoints": [
+    "在带有 AWS Fargate 的 Amazon ECS 上构建了无服务器模型上下文协议服务器。",
+    "公开新数据集只需一个在管道同步期间自动发现的 JSON 元数据文件。",
+    "在 MCP 服务器层集中执行访问控制并提供与智能体无关的工具接口。",
+    "旨在支持多租户环境中的多个智能体和应用程序。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon ECS Fargate에서 AI 에이전트 데이터 lake 액세스를 위한 서버리스 MCP 서버",
+   "summary": "인공지능(AI) 기반 애플리케이션을 구축하는 조직은 모든 에이전트와 애플리케이션에 걸쳐 통합 로직을 중복하지 않고 대규모 언어 모델(LLM) 에이전트에 엔터프라이즈 데이터 lake 액세스 권한을 부여하는 반복적인 과제에 직면합니다. Amazon의 북미 정렬 센터 계획 팀을 위해 이 문제를 해결하기 위해 AWS Fargate가 포함된 Amazon ECS에 서버리스 Model Context Protocol(MCP) 서버가 구축되었습니다. 이 서버는 AI 에이전트와 엔터프라이즈 데이터 lake 간의 중앙 집중식 에이전트 중립적 게이트웨이 역할을 합니다.",
+   "impact": "이 아키텍처는 개발 및 보안 팀이 액세스 제어를 중앙 집중화하고 데이터셋별 코드를 제거하여 AI 에이전트의 데이터 lake 온보딩을 간소화하는 데 도움이 될 수 있습니다. 또한 권한 드리프트를 줄이면서 급증하는 AI 워크로드를 처리하는 확장 가능한 멀티 테넌트 솔루션을 제공할 수 있습니다.",
+   "keyPoints": [
+    "AWS Fargate가 포함된 Amazon ECS에 서버리스 Model Context Protocol 서버 구축.",
+    "새로운 데이터셋을 노출하려면 파이프라인 동기화 중에 서버가 자동으로 검색하는 JSON 메타데이터 파일만 필요.",
+    "MCP 서버 계층에서 액세스 제어 및 에이전트 중립적 도구 인터페이스를 중앙 집중화.",
+    "멀티 테넌트 환경에서 여러 에이전트와 애플리케이션을 지원하도록 설계됨."
+   ]
+  }
+ }
+}

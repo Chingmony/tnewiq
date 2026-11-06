@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c95c8fa334b22970",
+ "contentHash": "3fc7a38ae0c985b2",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T21:44:34.786Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+   "summary": "Fabian Theis and his lab at Helmholtz Munich have driven algorithmic developments for multi-scale, multi-modal biological data. While enthusiasm for Virtual Cell projects faced setbacks after models struggled with perturbation prediction against basic baselines, recent methodological reassessments show that better-calibrated metrics allow deep learning models to succeed. Meanwhile, major initiatives like a new $1.8 billion commitment from Biohub, NIH, DOE, Google, and Meta aim to generate massive datasets to help model complex biological scales.",
+   "impact": "Researchers and data scientists working on AI and biology could see new opportunities as massive multi-scale datasets come online. Software developers building biological simulation and prediction tools may need to adopt better-calibrated metrics to properly evaluate machine learning performance.",
+   "keyPoints": [
+    "Fabian Theis leads efforts at Helmholtz Munich focused on multi-scale, multi-modal biological data algorithms.",
+    "Biohub announced a $1.8 billion commitment alongside the NIH, DOE, Google, and Meta to fund new measurement capabilities and data collection.",
+    "Virtual Cell modeling faced scrutiny when basic constant baselines outperformed sophisticated perturbation prediction models, though better evaluation metrics show deep learning models can succeed.",
+    "New measurement and infrastructure technologies like lab-in-the-loop automation and advanced microscopy are maturing to support large-scale biological data generation."
+   ]
+  },
+  "km": {
+   "title": "ការគ្រប់គ្រងជីវវិទ្យា - Fabian Theis, Helmholtz Munich",
+   "summary": "Fabian Theis និងមន្ទីរពិសោធន៍របស់លោកនៅ Helmholtz Munich បានជំរុញការអភិវឌ្ឍក្បួនដោះស្រាយសម្រាប់ទិន្នន័យជីវសាស្ត្រពហុកម្រិត។ គម្រោងកោសិកានិម្មិតបានជួបប្រទះបញ្ហាប្រឈមនៅពេលដែលម៉ូដែលស្មុគស្មាញបរាជ័យក្នុងការយកឈ្នះលើមូលដ្ឋានគ្រឹះសាមញ្ញ ប៉ុន្តែការវាយតម្លៃឡើងវិញបង្ហាញថាម៉ូដែលសិក្សាជ្រៅជ្រះអាចដំណើរការបានល្អប្រសើរជាមួយរង្វាស់ដែលបានលៃតម្រូវត្រឹមត្រូវ។ លើសពីនេះ គំនិតផ្ដួចផ្ដើមថ្មីមួយដែលមានទឹកប្រាក់ ១,៨ ប៊ីដុល្លារពី Biohub, NIH, DOE, Google និង Meta មានគោលបំណងបង្កើតชุดទិន្នន័យខ្នាតធំ។",
+   "impact": "អ្នកស្រាវជ្រាវ និងអ្នកវិទ្យាសាស្ត្រទិន្នន័យដែលធ្វើការលើបញ្ញាសិប្បនិម្មិត និងជីវវិទ្យាអាចនឹងឃើញឱកាសថ្មីៗ នៅពេលដែលชุดទិន្នន័យខ្នាតធំត្រូវបានដាក់ឱ្យប្រើប្រាស់។ អ្នកអភិវឌ្ឍន៍កម្មវិធីដែលបង្កើតឧបករណ៍ក្លែងធ្វើជីវសាស្ត្រប្រហែលជាត្រូវប្ដូរមកប្រើប្រាស់រង្វាស់ដែលបានកែតម្រូវល្អជាងមុន។",
+   "keyPoints": [
+    "Fabian Theis ដឹកនាំការងារលើក្បួនដោះស្រាយទិន្នន័យជីវសាស្ត្រនៅ Helmholtz Munich។",
+    "Biohub បានប្រកាសពីការប្ដេជ្ញាចិត្តទឹកប្រាក់ ១,៨ ប៊ីដុល្លារសហរដ្ឋអាមេរិក រួមជាមួយស្ថាប័នជាច្រើនទៀត ដើម្បីផ្តល់មូលនិធិដល់សមត្ថភាពវាស់វែងថ្មីៗ។",
+    "ការបង្កើតគំរូកោសិកានិម្មិតបានជួបប្រទះការពិនិត្យឡើងវិញ នៅពេលដែលមូលដ្ឋានសាមញ្ញអាចយកឈ្នះម៉ូដែលស្មុគស្មាញ។",
+    "បច្ចេកវិទ្យាវាស់វែងនិងហេដ្ឋារចនាសម្ព័ន្ធថ្មីៗកំពុងរីកចម្រើនដើម្បីគាំទ្រដល់ការបង្កើតទិន្នន័យជីវសាស្ត្រខ្នាតធំ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "控制生物学 - Fabian Theis，Helmholtz Munich",
+   "summary": "Fabian Theis 及其在 Helmholtz Munich 的实验室一直在推动多尺度、多模态生物数据算法的发展。尽管虚拟细胞项目在面对扰动预测时曾因基础模型表现不佳而受到质疑，但近期研究表明，采用校准更好的评估指标可以使深度学习模型表现出色。与此同时，来自 Biohub、NIH、DOE、Google 和 Meta 的 18 亿美元资金投入旨在生成海量数据集，以支持复杂生物尺度的建模。",
+   "impact": "致力于人工智能与生物学研究的研究人员和数据科学人员可能会迎来新的机遇。开发生物模拟和预测工具的软件工程师可能需要采用更精准的评估指标来正确衡量机器学习的性能。",
+   "keyPoints": [
+    "Fabian Theis 领导了 Helmholtz Munich 针对多尺度生物数据算法的研究。",
+    "Biohub 联合 NIH、DOE、Google 和 Meta 宣布了 18 亿美元的资金承诺，用于资助新的测量能力和数据收集。",
+    "虚拟细胞建模曾因基础基线表现优于复杂模型而引发讨论，但更好的评估指标显示深度学习模型依然有效。",
+    "诸如实验室闭环自动化和先进显微镜等新技术正在走向成熟，以支持大规模生物数据的生成。"
+   ]
+  },
+  "ko": {
+   "title": "생물학 제어 - Fabian Theis, Helmholtz Munich",
+   "summary": "Fabian Theis와 Helmholtz Munich의 연구실은 다중 척도, 다중 모달 생물학 데이터를 위한 알고리즘 발전을 이끌어왔습니다. 가상 세포 프로젝트는 교란 예측 문제에서 복잡한 모델이 기본 기준선보다 나은 성과를 내지 못하면서 한계를 겪었으나, 최근의 평가 지표 개선을 통해 딥러닝 모델이 성공할 수 있음이 나타났습니다. 한편 Biohub, NIH, DOE, Google, Meta가 참여하는 18억 달러 규모의 대규모 데이터 수집 노력이 복합적인 생물학적 척도를 모델링하는 데 도움을 줄 것으로 기대됩니다.",
+   "impact": "인공지능과 생물학 분야를 연구하는 연구원과 데이터 과학자들은 대규모 다중 척도 데이터셋이 제공됨에 따라 새로운 기회를 접할 수 있습니다. 생물학적 시뮬레이션 및 예측 도구를 구축하는 소프트웨어 개발자는 머신러닝 성능을 올바르게 평가하기 위해 개선된 지표를 도입해야 할 수 있습니다.",
+   "keyPoints": [
+    "Fabian Theis는 Helmholtz Munich에서 다중 척도 생물학 데이터 알고리즘 관련 연구를 주도하고 있습니다.",
+    "Biohub는 NIH, DOE, Google, Meta와 함께 새로운 측정 기능 및 데이터 수집에 자금을 지원하기 위해 18억 달러 규모의 약속을 발표했습니다.",
+    "가상 세포 모델링은 기본 기준선이 복잡한 모델을 능가하는 문제에 직면했으나, 더 잘 보정된 지표를 통해 딥러닝 모델의 성능 입증이 가능해졌습니다.",
+    "루프 내 자동화 및 고급 현미경과 같은 새로운 측정 및 인프라 기술이 대규모 생물학적 데이터 생성을 지원하기 위해 성숙해지고 있습니다."
+   ]
+  }
+ }
+}

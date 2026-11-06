@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "319e7df558d145a4",
+ "contentHash": "9de0b43140bd7b9c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T21:43:50.433Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+   "summary": "Some WordPress sites can still face attacks while installing the fix for an actively exploited vulnerability discovered by Picus Security researcher Umut Bayram. During the update process, the fix unpacks its files using the site's old and unpatched code. This leaves a window where an attacker timing their strike correctly can run code on the server.",
+   "impact": "Security teams and developers managing WordPress sites may need to take extra precautions during updates. Blocking web access during the update process could help mitigate this risk.",
+   "keyPoints": [
+    "Sites can still be attacked while installing the fix for an actively exploited WordPress flaw.",
+    "The update unpacks its files using the site's old unpatched code.",
+    "An attacker striking at the right moment can run code on the server.",
+    "The discovering researcher advises blocking web access to prevent this risk."
+   ]
+  },
+  "km": {
+   "title": "ការដំឡើងបំណះសម្រាប់កំហុស WordPress ដែលត្រូវបានវាយប្រហារ អាចធ្វើឱ្យគេហទំព័រមួយចំនួនងាយរងគ្រោះជាលើកចុងក្រោយ",
+   "summary": "គេហទំព័រ WordPress មួយចំនួននៅតែអាចរងការវាយប្រហារក្នុងអំឡុងពេលដំឡើងបំណះសម្រាប់កំហុសដែលកំពុងត្រូវបានកេងប្រវ័ញ្ចយ៉ាងសកម្ម ដែលរកឃើញដោយអ្នកស្រាវជ្រាវ Picus Security ឈ្មោះ Umut Bayram។ កំឡុងពេលអាប់ដេត ការដំឡើងបំណះបានទាញយកឯកសារដោយប្រើកូដចាស់ដែលមិនទាន់បានជួសជុលរបស់គេហទំព័រ។ នេះអាចបើកឱកាសឱ្យជនខិលខូចវាយប្រហារនៅពេលត្រឹមត្រូវដើម្បីដំណើរការកូដនៅលើ සෙቨើរ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍អាចនឹងត្រូវប្រុងប្រយ័ត្នបន្ថែមពេលធ្វើបច្ចុប្បន្នភាពគេហទំព័រ WordPress ។ ការបិទដំណើរការបណ្តាញគេហទំព័របណ្តោះអាសន្នអាចជួយកាត់បន្ថយហានិភ័យនេះ។",
+   "keyPoints": [
+    "គេហទំព័រនៅតែអាចរងការវាយប្រហារពេលដំឡើងបំណះ WordPress ។",
+    "ការអាប់ដេតទាញយកឯកសារដោយប្រើកូដចាស់របស់គេហទំព័រ។",
+    "ការវាយប្រហារចំពេលអាចអនុញ្ញាតឱ្យដំណើរការកូដនៅលើស៊ែរវើ។",
+    "អ្នកស្រាវជ្រាវណែនាំឱ្យបិទការចូលប្រើប្រាស់បណ្តាញគេហទំព័រ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "为已遭受攻击的 WordPress 漏洞安装修复程序可能会让某些网站再次暴露",
+   "summary": "根据 Picus Security 研究员 Umut Bayram 的发现，一些 WordPress 网站在安装针对正在被积极利用的漏洞的修复程序时仍可能受到攻击。由于更新程序在解包文件时仍然使用网站旧的、未修补的代码，因此在正确时机发起攻击的攻击者可以在服务器上运行代码。研究人员建议阻止对该网站的网络访问。",
+   "impact": "负责管理 WordPress 网站的开发人员和安全团队在更新期间可能需要采取额外预防措施。在更新过程中阻止网络访问或许能够帮助缓解此风险。",
+   "keyPoints": [
+    "安装被积极利用的 WordPress 漏洞修复程序时网站仍可被攻击。",
+    "更新程序使用网站旧的未修补代码解包文件。",
+    "在恰当时机攻击的攻击者可以在服务器上运行代码。",
+    "发现该问题的研究人员建议阻止网络访问。"
+   ]
+  },
+  "ko": {
+   "title": "악용된 WordPress 결함에 대한 수정 프로그램 설치로 일부 사이트가 마지막으로 노출될 수 있음",
+   "summary": "Picus Security의 연구원 Umut Bayram에 따르면, 일부 WordPress 사이트는 활발히 악용된 결함에 대한 수정 프로그램을 설치하는 동안에도 여전히 공격을 받을 수 있습니다. 수정 프로그램을 설치하는 업데이트는 사이트의 오래되고 패치되지 않은 코드를 사용하여 파일을 압축 해제하므로, 적절한 시점에 공격을 가하는 공격자는 서버에서 코드를 실행할 수 있습니다. 연구원은 웹 접근을 차단할 것을 권장합니다.",
+   "impact": "개발자와 보안 팀은 WordPress 사이트를 업데이트할 때 추가적인 주의를 기울여야 할 수 있습니다. 업데이트 과정에서 웹 접근을 차단하는 것이 위험을 완화하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "활발히 악용된 WordPress 결함 수정 프로그램을 설치하는 동안에도 사이트가 공격받을 수 있습니다.",
+    "업데이트는 사이트의 이전 패치되지 않은 코드를 사용하여 파일을 압축 해제합니다.",
+    "적절한 시점에 공격하는 공격자는 서버에서 코드를 실행할 수 있습니다.",
+    "발견한 연구원은 웹 접근 차단을 권장합니다."
+   ]
+  }
+ }
+}

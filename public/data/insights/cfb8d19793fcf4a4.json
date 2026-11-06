@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "cfb8d19793fcf4a4",
+ "contentHash": "bc6391a97151680b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T21:39:37.192Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Agent Registry is now generally available in AWS GovCloud (US-West) Region",
+   "summary": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now generally available in the AWS GovCloud (US-West) Region. It functions as a fully managed discovery service providing a central catalog for organizing, curating, and discovering resources. Users can publish MCP servers, tools, agents, agent skills, and custom resources to a searchable registry with approval workflows. People and AI agents can locate resources using hybrid search, catalog browsing, and a native MCP endpoint.",
+   "impact": "Public sector organizations and their partners may use this service to maintain a single governed inventory of agents and tools in their environment. Approval workflows and AWS CloudTrail audit logs can help support compliance and oversight requirements.",
+   "keyPoints": [
+    "Agent Registry is now available in the AWS GovCloud (US-West) Region.",
+    "It is available through Amazon Bedrock AgentCore.",
+    "Organizations can publish MCP servers, tools, agents, agent skills, and custom resources.",
+    "Features include hybrid search, catalog browsing, a native MCP endpoint, and approval workflows."
+   ]
+  },
+  "km": {
+   "title": "Agent Registry ឥឡូវនេះមានជាទូទៅនៅក្នុងតំបន់ AWS GovCloud (US-West)",
+   "summary": "AWS Agent Registry ដែលមានតាមរយៈ Amazon Bedrock AgentCore ឥឡូវនេះអាចប្រើប្រាស់បាននៅក្នុងតំបន់ AWS GovCloud (US-West) ហើយ។ វាគឺជាសេវាកម្មរកឃើញដែលគ្រប់គ្រងយ៉ាងពេញលេញ ដែលផ្តល់នូវកាតាឡុកកណ្តាលសម្រាប់រៀបចំ ថែទាំ និងស្វែងរកធនធាន។ អ្នកប្រើប្រាស់អាចបោះពុម្ពផ្សាយម៉ាស៊ីនមេ MCP ឧបករណ៍ ភ្នាក់ងារ ជំនាញភ្នាក់ងារ និងធនធានផ្ទាល់ខ្លួនទៅក្នុងបញ្ជីឈ្មោះដែលអាចស្វែងរកបាន។",
+   "impact": "ស្ថាប័នវិស័យសាធារណៈនិងដៃគូរបស់ពួកគេអាចប្រើប្រាស់មុខងារនេះដើម្បីរក្សាបញ្ជីសារពើភណ្ឌដែលគ្រប់គ្រងតែមួយសម្រាប់ភ្នាក់ងារនិងឧបករណ៍នៅក្នុងបរិស្ថានរបស់ពួកគេ។ លំហូរការងារអនុម័ត និងកំណត់ហេតុសវនកម្ម AWS CloudTrail អាចជួយគាំទ្រដល់តម្រូវការអនុលោមភាព និងការត្រួតពិនិត្យ។",
+   "keyPoints": [
+    "Agent Registry ឥឡូវនេះមាននៅក្នុងតំបន់ AWS GovCloud (US-West)។",
+    "វាមានតាមរយៈ Amazon Bedrock AgentCore។",
+    "វាផ្តល់នូវកាតាឡុកកណ្តាលសម្រាប់រៀបចំ ថែទាំ និងស្វែងរកធនធាន។",
+    "ការគ្រប់គ្រងអាចធ្វើឡើងតាមរយៈលំហូរការងារអនុម័ត និងកំណត់ហេតុសវនកម្ម AWS CloudTrail។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Agent Registry 现已在 AWS GovCloud (US-West) 区域正式推出",
+   "summary": "通过 Amazon Bedrock AgentCore 提供的 AWS Agent Registry 现已在 AWS GovCloud (US-West) 区域推出。AWS Agent Registry 是一项完全托管的发现服务，可为您的组织提供一个集中目录，用于组织、策划和发现资源。您可以将 MCP 服务器、工具、代理、代理技能和自定义资源发布到可搜索的注册表中，并通过审批工作流控制可发现的内容。",
+   "impact": "公共部门组织及其合作伙伴可以利用此环境中的单一受管清单来管理代理和工具。审批工作流和 AWS CloudTrail 审计日志可以支持他们的合规性和监督要求。",
+   "keyPoints": [
+    "Agent Registry 现已在 AWS GovCloud (US-West) 区域提供。",
+    "该服务通过 Amazon Bedrock AgentCore 提供。",
+    "支持发布 MCP 服务器、工具、代理、代理技能和自定义资源。",
+    "支持通过审批工作流和 AWS CloudTrail 审计日志进行合规与监督。"
+   ]
+  },
+  "ko": {
+   "title": "Agent Registry가 이제 AWS GovCloud (US-West) 리전에서 정식 출시되었습니다",
+   "summary": "Amazon Bedrock AgentCore를 통해 제공되는 AWS Agent Registry가 이제 AWS GovCloud (US-West) 리전에서 제공됩니다. AWS Agent Registry는 조직이 리소스를 조직화, 큐레이션 및 검색할 수 있는 중앙 카탈로그를 제공하는 완전 관리형 검색 서비스입니다. MCP 서버, 도구, 에이전트, 에이전트 스킬 및 커스텀 리소스를 검색 가능한 레지스트리에 게시할 수 있습니다.",
+   "impact": "공공 부문 조직과 파트너는 환경 내 에이전트와 도구에 대한 단일 관리형 인벤토리를 확보할 수 있습니다. 승인 워크플로와 AWS CloudTrail 감사 로그는 규정 준수 및 감독 요구 사항을 지원하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "Agent Registry가 AWS GovCloud (US-West) 리전에서 출시되었습니다.",
+    "Amazon Bedrock AgentCore를 통해 사용할 수 있습니다.",
+    "MCP 서버, 도구, 에이전트, 에이전트 스킬 및 커스텀 리소스를 레지스트리에 게시할 수 있습니다.",
+    "승인 워크플로와 AWS CloudTrail 감사 로그를 지원합니다."
+   ]
+  }
+ }
+}

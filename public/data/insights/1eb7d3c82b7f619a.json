@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1eb7d3c82b7f619a",
+ "contentHash": "90ab3e4a4385ee69",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T21:42:48.616Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Taxbit Assist: A grounded, role-aware AI agent on Amazon Bedrock AgentCore",
+   "summary": "Taxbit has developed Taxbit Assist, an embedded AI assistant built on Amazon Bedrock AgentCore to help compliance teams inside its digital-asset tax and accounting platform dashboard. The assistant addresses challenges regarding scattered knowledge bases by providing grounded, cited answers while adhering to strict role permissions, regional data residency, and safety compliance standards. According to internal analytics, over 55 percent of users who use Assist return to ask another question within 24 hours.",
+   "impact": "This architecture demonstrates how financial and regulatory technology platforms can leverage managed agent runtimes and Retrieval Augmented Generation to securely deploy domain-specific AI assistants. Security and development teams may use these insights to manage data privacy, role-based access control, and model safety constraints in regulated environments.",
+   "keyPoints": [
+    "Taxbit Assist is built on Amazon Bedrock AgentCore and uses the Strands Agents SDK.",
+    "The assistant requires grounded and cited answers, strict role and organization awareness, and compliance with data privacy regulations without providing tax advice.",
+    "Amazon Bedrock Guardrails screens incoming messages and masks PII in place before invoking the model.",
+    "Internal production analytics show that over 55 percent of users who ask a question return within 24 hours."
+   ]
+  },
+  "km": {
+   "title": "Taxbit Assist៖ ភ្នាក់ងារ AI ដែលមានមូលដ្ឋានច្បាស់លាស់ និងដឹងអំពីតួនាទីនៅលើ Amazon Bedrock AgentCore",
+   "summary": "Taxbit បានបង្កើត Taxbit Assist ដែលជាជំនួយការ AI ฝังตัวនៅលើ Amazon Bedrock AgentCore ដើម្បីជួយក្រុមអនុលោមភាពនៅក្នុងផ្ទាំងគ្រប់គ្រងវេទិកាពន្ធដារ និងគណនេយ្យទ្រព្យសកម្មឌីជីថលរបស់ខ្លួន។ ជំនួយការនេះដោះស្រាយបញ្ហាប្រឈមទាក់ទងនឹងមូលដ្ឋានចំណេះដឹងដែលពាយច្រឡាយ ដោយផ្តល់ចម្លើយដែលមានការយោងត្រឹមត្រូវ ខណៈពេលដែលគោរពសិទ្ធិអំណាចតួនាទី ការរក្សាទុកទិន្នន័យក្នុងតំបន់ និងស្ដង់ដារសុវត្ថិភាព។ យោងតាមទិន្នន័យផ្ទៃក្នុង អ្នកប្រើប្រាស់ជាង 55 ភាគរយដែលបានសួរសំណួរគឺត្រឡប់មកសួរសំណួរផ្សេងទៀតក្នុងរយៈពេល 24 ម៉ោង។",
+   "impact": "ស្ថាបត្យកម្មនេះបង្ហាញពីរបៀបដែលវេទិកាបច្ចេកវិទ្យាហិរញ្ញវត្ថុ និងបទប្បញ្ញត្តិអាចប្រើប្រាស់កម្មវិធីដំណើរការភ្នាក់ងារ និងការទាញយកចំណេះដឹងបន្ថែម ដើម្បីដាក់ឱ្យប្រើប្រាស់ជំនួយការ AI ជាក់លាក់តាមដែនដោយសុវត្ថិភាព។ ក្រុមសុវត្ថិភាព និងអភិវឌ្ឍន៍អាចប្រើប្រាស់ចំណេះដឹងទាំងនេះដើម្បីគ្រប់គ្រងភាពឯកជននៃទិន្នន័យ ការគ្រប់គ្រងការចូលប្រើប្រាស់ផ្អែកលើតួនាទី និងដែនកំណត់សុវត្ថិភាពគំរូក្នុងបរិយាកាសដែលមានបទប្បញ្ញត្តិ។",
+   "keyPoints": [
+    "Taxbit Assist ត្រូវ បាន សាងសង់ លើ Amazon Bedrock AgentCore និង ប្រើប្រាស់ Strands Agents SDK ។",
+    "ជំនួយការទាមទារចម្លើយដែលមានមូលដ្ឋាននិងការយោង ការដឹងអំពីតួនាទី និងអង្គការ ក៏ដូចជាការអនុលោមតាមបទប្បញ្ញត្តិឯកជនភាពទិន្នន័យដោយមិនផ្តល់ដំបូន្មានពន្ធដារ។",
+    "Amazon Bedrock Guardrails ពិនិត្យសារចូល និងលាក់ទិន្នន័យផ្ទាល់ខ្លួន (PII) មុនពេលហៅគំរូ។",
+    "ការវិភាគផលិតកម្មផ្ទៃក្នុងបង្ហាញថាអ្នកប្រើប្រាស់ជាង 55 ភាគរយត្រឡប់មកវិញក្នុងរយៈពេល 24 ម៉ោង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Taxbit Assist：在 Amazon Bedrock AgentCore 上运行的具备基于事实且支持角色感知的 AI 智能体",
+   "summary": "Taxbit 开发了 Taxbit Assist，这是一个嵌入在其数字资产税务和会计平台仪表板中的 AI 助手，构建于 Amazon Bedrock AgentCore 之上。该助手通过提供基于事实且带有引用的答案，解决了知识分散的问题，同时遵循严格的角色权限、区域数据驻留和安全合规标准。根据内部生产分析，超过 55% 使用该助手的用户在 24 小时内会再次提问。",
+   "impact": "该架构展示了金融和监管技术平台如何利用托管智能体运行时和检索增强生成技术，在受监管的环境中安全部署特定领域的 AI 助手。安全和开发团队可以利用这些见解来管理数据隐私、基于角色的访问控制以及模型安全约束。",
+   "keyPoints": [
+    "Taxbit Assist 构建于 Amazon Bedrock AgentCore 之上并运行在 AgentCore 运行时中。",
+    "该助手提供基于事实且带引用的回答，具备角色和组织感知能力，且不提供税务建议。",
+    "Amazon Bedrock Guardrails 会在调用模型之前筛选传入消息并就地屏蔽个人身份信息（PII）。",
+    "内部生产分析表明，超过 55% 的提问用户会在 24 小时内再次提问。"
+   ]
+  },
+  "ko": {
+   "title": "Taxbit Assist: Amazon Bedrock AgentCore 기반의 근거 있고 역할 인식이 가능한 AI 에이전트",
+   "summary": "Taxbit은 디지털 자산 세무 및 회계 플랫폼 대시보드 내에서 컴플라이언스 팀을 지원하기 위해 Amazon Bedrock AgentCore를 기반으로 구축된 임베디د AI 어시스턴트인 Taxbit Assist를 개발했습니다. 이 어시스턴트는 흩어져 있던 지식 베이스 문제를 해결하고, 엄격한 역할 권한, 지역별 데이터 레지던시, 안전 컴플라이언스 표준을 준수하면서 출처가 명시된 답변을 제공합니다. 내부 운영 분석에 따르면 Assist에 질문한 사용자 중 55퍼센트 이상이 24시간 이내에 다시 질문하는 것으로 나타났습니다.",
+   "impact": "이 아키텍처는 금융 및 규제 기술 플랫폼이 관리형 에이전트 런타임과 검색 증강 생성(RAG)을 활용하여 규제 환경에서 도메인 특화 AI 어시스턴트를 안전하게 배포할 수 있는 방법을 보여줍니다. 보안 및 개발 팀은 이러한 통찰력을 사용하여 규제된 환경에서 데이터 프라이버시, 역할 기반 접근 제어, 모델 안전 제약을 관리할 수 있습니다.",
+   "keyPoints": [
+    "Taxbit Assist는 Amazon Bedrock AgentCore를 기반으로 구축되었으며 AgentCore 런타임에서 실행됩니다.",
+    "어시스턴트는 세무 조언을 제공하지 않으면서 근거 있고 인용된 답변, 엄격한 역할 및 조직 인식, 데이터 프라이버시 규정 준수를 요구합니다.",
+    "Amazon Bedrock Guardrails는 모델을 호출하기 전에 수신 메시지를 검사하고 개인 식별 정보(PII)를 마스킹합니다.",
+    "내부 운영 분석에 따르면 질문을 한 사용자 중 55퍼센트 이상이 24시간 이내에 다시 방문하는 것으로 나타났습니다."
+   ]
+  }
+ }
+}

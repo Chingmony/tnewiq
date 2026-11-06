@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "189563f1d6f7d0a3",
+ "contentHash": "cb33d2feb070bb74",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T21:40:37.433Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+   "summary": "Amazon SageMaker Inference now supports GPU partitioning using NVIDIA Multi-Instance GPU (MIG), allowing users to divide a physical GPU into independent hardware-isolated partitions. This feature works with endpoints that use inference components, enabling the deployment of multiple models beyond the total number of physical accelerators. Each partition receives dedicated compute, cache, memory, and memory bandwidth, offering predictable latency, fault isolation, and the ability to right-size model deployments.",
+   "impact": "Developers and security teams could benefit from hardware-enforced tenant isolation, predictable latency, and eliminated cold starts for multiple models hosted on a single GPU. It may also help organizations reduce costs by avoiding under-utilization and eliminating the need to manage complex self-managed Kubernetes fleets for MIG capabilities.",
+   "keyPoints": [
+    "SageMaker Inference now supports NVIDIA Multi-Instance GPU (MIG) for GPU partitioning.",
+    "GPU partitioning is available for endpoints that use inference components.",
+    "Each partition features hardware-enforced isolation for compute, memory, and bandwidth.",
+    "The capability prevents cold starts and allows multiple models to share a single physical GPU safely."
+   ]
+  },
+  "km": {
+   "title": "SageMaker Inference ឥឡូវនេះគាំទ្រ Multi-Instance GPU ដើម្បីបង្កើនការប្រើប្រាស់ GPU ឱ្យអស់លទ្ធភាពសម្រាប់ចំណុចបញ្ចប់គំរូ",
+   "summary": "Amazon SageMaker Inference ឥឡូវនេះគាំទ្រការបែងចែក GPU ដោយប្រើ NVIDIA Multi-Instance GPU ដែលអនុញ្ញាតឱ្យបែងចែក GPU រូបវន្តទៅជាផ្នែកដាច់ដោយឡែកពីគ្នាដោយមានការការពារផ្នែករឹង។ លក្ខណៈពិសេសនេះដំណើរការជាមួយចំណុចបញ្ចប់ដែលប្រើប្រាស់សមាសភាគសន្និដ្ឋាន ដោយអនុញ្ញាតឱ្យដាក់ពង្រាយគំរូជាច្រើនលើសពីចំនួនឧបករណ៍ពន្លឿនរូបវន្ត។ ការបែងចែកនីមួយៗទទួលបានថាមពលគណនា អង្គចងចាំ និងកម្រិតបញ្ជូនអង្គចងចាំដាច់ដោយឡែកពីគ្នា។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងសុវត្ថិភាពអាចទទួលបានអត្ថប្រយោជន៍ពីការផ្ដាច់ខ្លួនរបស់អ្នកប្រើប្រាស់តាមរយៈផ្នែករឹង ការទប់ស្កាត់ការពន្យារពេលដែលមិនបានរំពឹងទុក និងការកាត់បន្ថយការចាប់ផ្តើមយឺតសម្រាប់គំរូជាច្រើន។ វាក៏អាចជួយកាត់បន្ថយចំណាយផងដែរដោយជៀសវាងការប្រើប្រាស់ធនធានមិនអស់លទ្ធភាព។",
+   "keyPoints": [
+    "SageMaker Inference ឥឡូវនេះគាំទ្រ NVIDIA Multi-Instance GPU សម្រាប់ការបែងចែក GPU។",
+    "ការបែងចែក GPU គឺអាចប្រើបានសម្រាប់ចំណុចបញ្ចប់ដែលប្រើប្រាស់សមាសភាគសន្និដ្ឋាន។",
+    "ផ្នែកនីមួយៗមានការផ្ដាច់ខ្លួនតាមរយៈផ្នែករឹងសម្រាប់អង្គគណនា អង្គចងចាំ និងកម្រិតបញ្ជូន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "SageMaker Inference 现已支持 Multi-Instance GPU 以最大化模型端点的 GPU 利用率",
+   "summary": "Amazon SageMaker Inference 现在支持使用 NVIDIA Multi-Instance GPU 进行 GPU 分区，允许将物理 GPU 划分为独立的硬件隔离分区。此功能适用于使用推理组件的端点，使部署的模型数量能够超出物理加速器的总数。每个分区都获得固定的计算份额和专用的内存块，并在硬件层面上强制实施隔离。",
+   "impact": "开发人员和安全团队可以受益于硬件强制实施的租户隔离、可预测的延迟以及消除多个模型的冷启动。它还可能通过避免资源利用不足并省去管理复杂的自建 Kubernetes 集群的麻烦来帮助降低成本。",
+   "keyPoints": [
+    "SageMaker Inference 现已支持 NVIDIA Multi-Instance GPU 用于 GPU 分区。",
+    "GPU 分区适用于使用推理组件的端点。",
+    "每个分区都具有针对计算、缓存、内存和内存带宽的硬件级隔离。",
+    "该功能防止冷启动并允许在单个物理 GPU 上安全地托管多个模型。"
+   ]
+  },
+  "ko": {
+   "title": "SageMaker Inference, 모델 엔드포인트의 GPU 활용률 극대화를 위해 Multi-Instance GPU 지원",
+   "summary": "Amazon SageMaker Inference는 이제 NVIDIA Multi-Instance GPU를 사용한 GPU 분할을 지원하여 물리적 GPU를 독립적인 하드웨어 격리 파티션으로 나눌 수 있습니다. 이 기능은 추론 컴포넌트를 사용하는 엔드포인트에서 작동하며, 물리적 가속기 수보다 더 많은 모델을 배포할 수 있게 합니다. 각 파티션은 고정된 연산 공유와 전용 메모리 블록을 받으며 하드웨어에서 격리가 강제됩니다.",
+   "impact": "개발자와 보안 팀은 하드웨어 기반 테넌트 격리, 예측 가능한 지연 시간, 콜드 스타트 제거의 이점을 누릴 수 있습니다. 또한 자원 활용 미달을 방지하고 복잡한 자체 관리 Kubernetes 클러스터 운영 부담을 줄여 비용을 절감하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "SageMaker Inference는 이제 GPU 파티셔닝을 위해 NVIDIA Multi-Instance GPU를 지원합니다.",
+    "GPU 파티셔ニング은 추론 컴포넌트를 사용하는 엔드포인트에서 작동합니다.",
+    "각 파티션은 연산, 캐시, 메모리, 메모리 대역폭에 대해 하드웨어 격리를 제공합니다.",
+    "이 기능은 콜드 스타트를 방지하고 하나의 물리적 GPU에서 여러 모델을 안전하게 호스팅할 수 있게 합니다."
+   ]
+  }
+ }
+}

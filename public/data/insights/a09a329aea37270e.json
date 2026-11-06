@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a09a329aea37270e",
+ "contentHash": "94f6bc8512b6ecc9",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T21:42:03.954Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2",
+   "summary": "This post builds on Part 1 by introducing Amazon Bedrock AgentCore Gateway, Policy, and Observability to scale AI agent access governance. Instead of agents connecting directly to Model Context Protocol servers, agents route through a single Gateway endpoint that evaluates Cedar policies and handles Okta grant redemptions. A second agent running on Amazon EKS is added to demonstrate multi-environment support, while Amazon CloudWatch and AgentCore Observability centralize audit and decision logs.",
+   "impact": "Security teams and developers could scale enterprise AI deployments more securely by centralizing access control, policy enforcement, and audit logging. Using a single Gateway endpoint with Cedar policies may reduce configuration drift and simplify compliance compared to managing authorization checks across thousands of individual servers.",
+   "keyPoints": [
+    "Amazon Bedrock AgentCore Gateway acts as a single front door for agent requests, replacing direct connections to MCP servers.",
+    "Cedar policies in AgentCore evaluate tool listings and calls prior to target execution, preventing unauthorized token redemptions.",
+    "A second agent running on Amazon EKS joins under its own Okta identity to show environment-agnostic front door support.",
+    "Amazon CloudWatch and AgentCore Observability combine OpenTelemetry spans and Okta System Logs into a single auditing path."
+   ]
+  },
+  "km": {
+   "title": "គ្រប់គ្រងការចូលប្រើប្រាស់ភ្នាក់ងារ AI ជាមួយ Okta Cross App Access និង Amazon Bedrock AgentCore – ភាគទី ២",
+   "summary": "អត្ថបទនេះបន្តពីភាគទី ១ ដោយណែនាំ Amazon Bedrock AgentCore Gateway, Policy និង Observability ដើម្បីពង្រីកការគ្រប់គ្រងការចូលប្រើប្រាស់របស់ភ្នាក់ងារ AI ។ ជំនួសឱ្យការភ្ជាប់ដោយផ្ទាល់ទៅកាន់ម៉ាស៊ីនបម្រើ MCP ភ្នាក់ងារផ្ញើតាមច្រក Gateway តែមួយ ដែលវាយតម្លៃគោលនយោបាយ Cedar និងគ្រប់គ្រងការដោះដូរការអនុញ្ញាតរបស់ Okta ។ ភ្នាក់ងារទីពីរដែលដំណើរការលើ Amazon EKS ត្រូវបានបន្ថែមដើម្បីបង្ហាញពីការគាំទ្របរិយាកាសច្រើន ខណៈដែល Amazon CloudWatch និង AgentCore Observability ប្រមូលផ្តុំកំណត់ហេតុសវនកម្មនៅកន្លែងតែមួយ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍អាចពង្រីកការដាក់ពង្រាយ AI សហគ្រាសកាន់តែមានសុវត្ថិភាពតាមរយៈការកណ្តាលការគ្រប់គ្រងការចូលប្រើប្រាស់ និងការអនុវត្តគោលនយោបាយ។ ការប្រើប្រាស់ច្រក Gateway តែមួយជាមួយគោលនយោបាយ Cedar អាចកាត់បន្ថយភាពខុសគ្នានៃការកំណត់ និងសម្រួលដល់ការអនុលោមភាព។",
+   "keyPoints": [
+    "Amazon Bedrock AgentCore Gateway ដើរតួជាទ្វារខាងមុខតែមួយសម្រាប់សំណើរបស់ភ្នាក់ងារជំនួសឱ្យការតភ្ជាប់ផ្ទាល់។",
+    "គោលនយោបាយ Cedar នៅក្នុង AgentCore វាយតម្លៃបញ្ជីឧបករណ៍ និងការហៅទូរសព្ទមុនពេលប្រតិបត្តិគោលដៅ។",
+    "ភ្នាក់ងារទីពីរដែលដំណើរការលើ Amazon EKS ចូលរួមក្រោមអត្តសញ្ញាណ Okta ផ្ទាល់ខ្លួនរបស់វា។",
+    "Amazon CloudWatch និង AgentCore Observability រួមបញ្ចូលគ្នានូវកំណត់ហេតុសវនកម្មទៅជាផ្លូវតែមួយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 Okta Cross App Access 和 Amazon Bedrock AgentCore 管理 AI 智能体访问 – 第 2 部分",
+   "summary": "本文在第 1 部分的基础上介绍了 Amazon Bedrock AgentCore Gateway、Policy 和 Observability，以扩展 AI 智能体访问治理。智能体不再直接连接到 Model Context Protocol 服务器，而是通过单一的网关端点进行路由，该端点负责评估 Cedar 策略并处理 Okta 授权兑现。文章添加了在 Amazon EKS 上运行的第二个智能体以展示多环境支持，同时通过 Amazon CloudWatch 和 AgentCore Observability 集中审计和决策日志。",
+   "impact": "安全团队和开发人员可以通过集中访问控制、策略执行和审计日志，更安全地扩展企业级 AI 部署。使用带有 Cedar 策略的单一网关端点可以减少配置漂移，并简化与在数千个独立服务器上管理授权检查相比的合规工作。",
+   "keyPoints": [
+    "Amazon Bedrock AgentCore Gateway 充当智能体请求的单一前端，取代了与 MCP 服务器的直接连接。",
+    "AgentCore 中的 Cedar 策略在目标执行之前评估工具列表和调用，防止未授权的令牌兑现。",
+    "在 Amazon EKS 上运行的第二个智能体在其自己的 Okta 身份下加入，展示了与环境无关的前端支持。",
+    "Amazon CloudWatch 和 AgentCore Observability 将 OpenTelemetry 跨度和 Okta 系统日志组合到一个审计路径中。"
+   ]
+  },
+  "ko": {
+   "title": "Okta Cross App Access 및 Amazon Bedrock AgentCore로 AI 에이전트 액세스 제어하기 – 파트 2",
+   "summary": "이 글은 파트 1을 바탕으로 Amazon Bedrock AgentCore Gateway, Policy, Observability를 도입하여 AI 에이전트 액세스 거버넌스를 확장합니다. 에이전트가 Model Context Protocol 서버에 직접 연결하는 대신 Cedar 정책을 평가하고 Okta 권한 부여 상환을 처리하는 단일 Gateway 엔드포인트를 통해 라우팅됩니다. Amazon EKS에서 실행되는 두 번째 에이전트가 추가되어 다중 환경 지원을 보여주며, Amazon CloudWatch와 AgentCore Observability가 감사 및 결정 로그를 중앙 집중화합니다.",
+   "impact": "보안 팀과 개발자는 액세스 제어, 정책 시행, 감사 로그를 중앙 집중화하여 엔터프라이즈 AI 배포를 더 안전하게 확장할 수 있습니다. Cedar 정책이 적용된 단일 Gateway 엔드포인트를 사용하면 수천 개의 개별 서버에서 권한 부여 확인을 관리하는 것에 비해 구성 편차를 줄이고 준법 감정을 단순화할 수 있습니다.",
+   "keyPoints": [
+    "Amazon Bedrock AgentCore Gateway는 MCP 서버와의 직접 연결을 대체하여 에이전트 요청을 위한 단일 진입점 역할을 합니다.",
+    "AgentCore의 Cedar 정책은 대상 실행 전에 도구 목록과 호출을 평가하여 무단 토큰 상환을 방지합니다.",
+    "Amazon EKS에서 실행되는 두 번째 에이전트는 고유한 Okta ID로 참여하여 환경에 구애받지 않는 진입점 지원을 보여줍니다.",
+    "Amazon CloudWatch와 AgentCore Observability는 OpenTelemetry 스팬과 Okta 시스템 로그를 단일 감사 경로로 결합합니다."
+   ]
+  }
+ }
+}
