@@ -1,7 +1,456 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-06T07:57:18.926Z",
+ "generatedAt": "2026-11-06T15:57:18.198Z",
  "articles": [
+  {
+   "id": "c51817c27b4afaa4",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Frontier Radar #5: If AGI is so close, why is everyone leaving? The neolabs and their bets",
+   "originalUrl": "https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets/",
+   "originalLanguage": "en",
+   "originalDescription": "OpenAI is talking about the AGI era, and Nvidia CEO Jensen Huang says AGI has arrived. At the same time, co-creators of today's models are leaving OpenAI, Google DeepMind, and Meta to start their own labs, raising billions with no product to show. Why? They're betting that the…",
+   "publishedAt": "2026-11-06T15:55:23.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "04794d32989ad28f"
+  },
+  {
+   "id": "291e476bb8671d5a",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+   "originalUrl": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+   "originalLanguage": "en",
+   "originalDescription": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
+   "publishedAt": "2026-11-06T15:54:47.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "01f74b7350087166"
+  },
+  {
+   "id": "c95c8fa334b22970",
+   "sourceId": "latent-space",
+   "sourceName": "Latent Space",
+   "originalTitle": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+   "originalUrl": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
+   "originalLanguage": "en",
+   "originalDescription": "As systems biology efforts heat up to map biology at higher resolution, greater breadth and more modalities, Fabian Theis is pushing the frontier from mapping to predicting to controlling biology",
+   "publishedAt": "2026-11-06T15:10:53.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://i.ytimg.com/vi/3nAV2s4GYbs/maxresdefault.jpg",
+   "contentHash": "3fc7a38ae0c985b2"
+  },
+  {
+   "id": "d40f9466337f4802",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+   "originalUrl": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon said that the feature will roll out to millions of users in coming weeks.",
+   "publishedAt": "2026-11-06T14:10:00.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "4f31407863f722c3"
+  },
+  {
+   "id": "5a90caffb2c87d2e",
+   "sourceId": "huggingface-blog",
+   "sourceName": "Hugging Face Blog",
+   "originalTitle": "ToyBlocks: A controlled world for robot learning and evaluation",
+   "originalUrl": "https://huggingface.co/blog/allenai/toyblocks",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-11-06T14:00:48.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "5f0016d8c16f86ec"
+  },
+  {
+   "id": "17223de753c6f494",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Capacity Reservation Resource Groups now support Amazon EC2 Capacity Blocks and interruptible Capacity Reservations in AWS GovCloud (US) Regions",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/capacity-reservation-resource-groups-support-in-aws-govcloud-regions",
+   "originalLanguage": "en",
+   "originalDescription": "Starting today, you can add Amazon EC2 Capacity Blocks for ML and interruptible Capacity Reservations to Capacity Reservation Resource Groups in AWS GovCloud (US) Regions. Amazon EC2 offers different reservation offerings such as On-Demand Capacity Reservations (ODCRs)…",
+   "publishedAt": "2026-11-06T14:00:00.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "843bd8b25ddb6451"
+  },
+  {
+   "id": "58fc9a0b8ae1b328",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Amazon will let you text Alexa your shopping list",
+   "originalUrl": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the products they're looking to buy and/or provide a photograph of the item, and Alexa for Shopping will search for matching…",
+   "publishedAt": "2026-11-06T14:00:00.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "feab83af1f3d8fe6"
+  },
+  {
+   "id": "a4dbacf967e62059",
+   "sourceId": "cloudflare-blog",
+   "sourceName": "The Cloudflare Blog",
+   "originalTitle": "The post-quantum future of web privacy",
+   "originalUrl": "https://blog.cloudflare.com/vole-mole/",
+   "originalLanguage": "en",
+   "originalDescription": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
+   "publishedAt": "2026-11-06T14:00:00.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M6RNKQ9RKEJ9CKY6DGNF44RV.01M6RNKRJAQTN05BV66646AM7Z.png",
+   "contentHash": "f1913aa407d55443"
+  },
+  {
+   "id": "da70389577516074",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "METR finds Anthropic may have crossed its own AI acceleration warning threshold back in July",
+   "originalUrl": "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/",
+   "originalLanguage": "en",
+   "originalDescription": "Nonprofit METR spent eleven weeks auditing Anthropic's internal research data and concluded that the pace of model development has roughly doubled, with about 80 percent of the speedup driven by AI-assisted research. Anthropic redacted the most informative evidence, though…",
+   "publishedAt": "2026-11-06T13:40:07.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "6f33913c153ee64d"
+  },
+  {
+   "id": "af70465faf15ad6f",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Thinking Machines' Inkling 2 Small claims top spot among western open-weight models",
+   "originalUrl": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/",
+   "originalLanguage": "en",
+   "originalDescription": "Thinking Machines, the startup from former OpenAI CTO Mira Murati, is releasing Inkling 2 Small, a mixture-of-experts model with 594 billion parameters. The company claims it's the strongest western open-weight model. Better agentic performance comes at a price, though, with…",
+   "publishedAt": "2026-11-06T13:25:09.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "36dd349bd11b2c5f"
+  },
+  {
+   "id": "76d77f901fa07104",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Underdog shows off a 32MB speech model in new demo",
+   "originalUrl": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+   "originalLanguage": "en",
+   "originalDescription": "Despite its small size, Underdog's new model can generate both speech and music.",
+   "publishedAt": "2026-11-06T13:02:16.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "1ec5aadc33227c72"
+  },
+  {
+   "id": "a3dde5726f36f95f",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Physicl raises $10M to make the digital world real enough for robots",
+   "originalUrl": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+   "originalLanguage": "en",
+   "originalDescription": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+   "publishedAt": "2026-11-06T13:00:00.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai",
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "1be1445af5de5f92"
+  },
+  {
+   "id": "0b7161df55d908be",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+   "originalUrl": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+   "originalLanguage": "en",
+   "originalDescription": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News…",
+   "publishedAt": "2026-11-06T12:06:43.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFEFFUv1MUNRoFx03Jcw0k5NZCU0EOf5qEpbvAEQoTSTzoxHWPk1rc7XgQeG1USPP9vVB0ePI_lzQLqBU5bHdQ7-YrwEXFo8gJwayqwCvCtcDrw1JYMxKYxieV3bcQeCRAJAxt8CRfifzMzL22_ab0Z0OxwWrNckC36gPEOnubZnzagv6DkV7iY4AQJfA/s1600/paint-rce.jpg",
+   "contentHash": "946aa8328dd4af5e"
+  },
+  {
+   "id": "bf3ff9f08f48ce87",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+   "originalUrl": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+   "originalLanguage": "en",
+   "originalDescription": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their…",
+   "publishedAt": "2026-11-06T12:06:35.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil2RWGFxPYdzFDr1Tl0G6604dLCacXJDMaR-i0nSdrR7vBGgK-lUkZbE5eZYMbWO0Geqw_rDbN2qUkWpEadukl6gccv-xuUWJfEOx2_FWFiZxjVs4uNPiRK3JYOBo0QI1Lx08xd9Iz3-8TFN_kf-njbCQ-AFDcLNNRy6JcwsZyoM12qLt99OzNQNhmaGs/s1600/claude-dispatch.jpg",
+   "contentHash": "2afb6ca69bdb8564"
+  },
+  {
+   "id": "980a934d66b53cbb",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Protesters break into Microsoft data center site in Amsterdam",
+   "originalUrl": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+   "originalLanguage": "en",
+   "originalDescription": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports…",
+   "publishedAt": "2026-11-06T11:55:19.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "7d20cbc0ade63413"
+  },
+  {
+   "id": "e25300bea606e1ad",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation",
+   "originalUrl": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/",
+   "originalLanguage": "en",
+   "originalDescription": "Anthropic's IPO is in trouble as investors push back on the $1.5 trillion valuation and the tech market sells off. The article Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation appeared first on The Decoder .",
+   "publishedAt": "2026-11-06T11:38:17.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "cf54c7cc06de387e"
+  },
+  {
+   "id": "3690b3a90a0c8a48",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Anthropic adds bank account access to Claude so users can track their spending",
+   "originalUrl": "https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending/",
+   "originalLanguage": "en",
+   "originalDescription": "Anthropic is introducing a new feature in Claude called Personal Finance, which allows users to connect their bank and card accounts and ask questions about their finances. The article Anthropic adds bank account access to Claude so users can track their spending appeared first…",
+   "publishedAt": "2026-11-06T11:33:13.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "9b48049f8a5b3f26"
+  },
+  {
+   "id": "be398781c151cc44",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "The Flood is Coming And The Pipes Were Already Full",
+   "originalUrl": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
+   "originalLanguage": "en",
+   "originalDescription": "An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what…",
+   "publishedAt": "2026-11-06T11:30:00.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhRlCxdfW4sb5-1zEBHpFyJfxetSva89fr67wc8zSfvidW5W4KQKckoTrRxOAUbjM94U2ydFjiXybLJPrp6pm1V-WUuC4IpkJjhIT56OG8go8E_8fR8cK-llV0UtXdRIxZS5XxuVwEbRj1G_zAErMjpkMHVdzkGBQrB46VErPyE7MBaW6sj0N64pRd3_A/s1600/FLOOD.jpg",
+   "contentHash": "eec9ae72dd909b60"
+  },
+  {
+   "id": "4930533eac042624",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "2026 开源行业解决方案创新赛「开源基础软件与解决方案赛道」决赛名单公布",
+   "originalUrl": "https://www.oschina.net/news/503457",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "第四届开放原子大赛 · 2026 开源行业解决方案创新赛「开源基础软件与解决方案赛道」决赛入围名单今日公布，以下 10 支队伍成功晋级，将于 11 月 13 日在北京亦庄通明湖会展中心参加总决赛。 现将入围名单按报名时间顺序公示如下： 项目名称 负责人 仓库链接 实时交互数字人引擎 李恒中 https://github.com/lipku/LiveT...",
+   "publishedAt": "2026-11-06T11:23:16.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "ad5bf412c92f46f9"
+  },
+  {
+   "id": "515eab3709d2228e",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "2026 开源行业解决方案创新赛「开源智能硬件解决方案赛道」决赛名单公布",
+   "originalUrl": "https://www.oschina.net/news/503456",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "第四届开放原子大赛 · 2026 开源行业解决方案创新赛「开源智能硬件解决方案赛道」决赛入围名单今日公布，以下 10 支队伍成功晋级，将于 11 月 13 日在北京亦庄通明湖会展中心参加总决赛。 现将入围名单按报名时间顺序公示如下： 项目名称 负责人 代码仓库链接 Blockless 科创教育 AI 嵌入式软件开发平台 辛瑞莉 https:...",
+   "publishedAt": "2026-11-06T10:54:23.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "69ad5bd0a588908e"
+  },
+  {
+   "id": "b0388d69473dd791",
+   "sourceId": "latent-space",
+   "sourceName": "Latent Space",
+   "originalTitle": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+   "originalUrl": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
+   "originalLanguage": "en",
+   "originalDescription": "November 5, 2026 — Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic.",
+   "publishedAt": "2026-11-06T10:35:21.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/0b4283eb-1bca-4f20-a474-648eae34f704/Smol_Screenshot_2026-11-06_02.26.38-7ec1786ced3a658a.png?t=1793961438",
+   "contentHash": "692b507cfa1deeb9"
+  },
+  {
+   "id": "1ca94b52e709b2f5",
+   "sourceId": "mit-technology-review-ai",
+   "sourceName": "MIT Technology Review AI",
+   "originalTitle": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+   "originalUrl": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+   "originalLanguage": "en",
+   "originalDescription": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately…",
+   "publishedAt": "2026-11-06T10:00:00.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "552793383e1032bb"
+  },
+  {
+   "id": "812ca5bb4e5fdf91",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "구글 출신 연구진, 65B 모델로 8배 큰 AI 코딩 성능 추월…개발비도 10분의 1",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217107",
+   "originalLanguage": "ko",
+   "originalDescription": "구글 출신 연구진이 설립한 리커시브 인텔리전스(Ricursive Intelligence)가 매개변수 규모가 8배 가까이 큰 AI 모델을 코딩 성능 평가에서 앞서는 오픈웨이트 모델을 공개했다. 기존 선두 모델보다 개발 비용은 약 10분의 1에 불과하다고 밝혀, 대형 모델에 맞먹는 성능을 적은 비용으로 구현한 사례로 주목받고 있다.리커시브 인텔리전스는 최근 650억개 매개변수를 갖춘 오픈웨이트 AI 모델 '리플-65B 프리뷰(Ripple-65B Preview)'를 공개했다. 터미널 기반 코딩과…",
+   "publishedAt": "2026-11-06T08:44:08.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "19cc1f6bca7ccea3"
+  },
+  {
+   "id": "8bd431dc88d7bd65",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "엔비디아, 미국 노후 전화국 130곳 AI 데이터센터로 전환 추진",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217096",
+   "originalLanguage": "ko",
+   "originalDescription": "엔비디아가 미국의 노후 전화국 건물을 AI 데이터센터로 개조해 20개 주에 걸친 분산형 네트워크를 구축하는 방안을 추진하고 있다. 신규 데이터센터 건설에 필요한 시간과 비용, 인허가 부담을 줄이고 기존 통신시설에 남아 있는 전력과 통신 인프라를 활용하려는 전략이다.디 인포메이션은 5일(현지시간) 엔비디아가 사모펀드 아폴로 글로벌 매니지먼트와 손잡고 아폴로가 소유한 광대역 통신업체 브라이트스피드(Brightspeed)의 기존 시설을 AI 데이터센터로 전환하는 방안을 논의하고 있다고…",
+   "publishedAt": "2026-11-06T08:25:00.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "0504606dd745d6e7"
+  },
+  {
+   "id": "f45baf484678afaf",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "앤트로픽, AI 자기개선 가속 징후…개발 속도 2배·미공개 모델 3개 확인",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217080",
+   "originalLanguage": "ko",
+   "originalDescription": "앤트로픽이 AI를 활용해 차세대 모델의 성능 개선 속도를 약 2배 높였다는 연구 결과가 나왔다. 최근 훈련을 마친 미공개 모델 3개도 확인돼, AI가 더 뛰어난 AI를 개발하는 재귀적 자기개선(RSI)이 현실화할 가능성에 관심이 쏠리고 있다.AI 안전 연구기관 METR은 5일(현지시간) 앤트로픽의 AI 연구개발 가속에 대한 독립 평가 보고서를 공개하고, 지난해 10월 이후 앤트로픽의 모델 성능 개선 속도가 이전보다 약 1.9배 빨라졌다고 밝혔다. 이는 과거 약 2년 동안 이뤄졌던 수준의 성능…",
+   "publishedAt": "2026-11-06T08:21:04.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "d10e5d83d75d6441"
+  },
+  {
+   "id": "c44b8627cc59dc2d",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "앤트로픽, '클로드' 게임 복제 제한 완화…\"비슷한 게임 만들 수 있어\"",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217115",
+   "originalLanguage": "ko",
+   "originalDescription": "앤트로픽이 '클로드 코드'의 게임 복제 금지 조치를 완화했다. 기존 게임을 그대로 복제하는 것은 계속 금지하지만, 특정 게임을 참고해 비슷한 장르의 독창적인 게임을 만드는 작업은 허용하기로 했다.앤트로픽은 4일(현지시간) 최근 게임 개발 관련 요청을 지나치게 제한한다는 이용자들의 지적에 따라 '클로드 오퍼스 5.5'의 지침을 수정했다. 기존 게임의 복제를 요청받더라도 단순히 거부하는 대신, 같은 장르의 새로운 게임을 제작하도록 제안하는 방식이다.애디 오스마니 앤트로픽 기술 담당자는 X를 통해…",
+   "publishedAt": "2026-11-06T08:10:00.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "303693b6f1ef6807"
+  },
+  {
+   "id": "a3b94f1fb170a2b6",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+   "originalUrl": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+   "originalLanguage": "en",
+   "originalDescription": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While we investigated, we removed access to Reactor and Data…",
+   "publishedAt": "2026-11-06T08:04:49.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoSpb8lu1ytakNne4rJ58nWfLFrYtdR7MCyZ2prSaLKiAb2Bt_upvfAHl-slDTt_3h7zxFdhbPcLwzAkcHDjnvu2TNcVp6JsgJU6GI5GMvZrrmzZTUZDyeOhS0GnFV-YtazzzcgMFnUvkqKmpSr9FBrCXQhlyPZM9E8c7LPSxACwPhfJ4nFzIANqdaVXUd/s1600/chain-breach.jpg",
+   "contentHash": "aa8f08408587365f"
+  },
+  {
+   "id": "ab4e3594afc35602",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "[게시판] 리얼월드, 로봇 파운데이션 모델 ‘리얼덱스’ 시연 등 단신",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217113",
+   "originalLanguage": "ko",
+   "originalDescription": "■ 리얼월드(대표 류중희)는 중국 상하이에서 열리는 중국국제수입박람회(CIIE 2026)에 참가해 로봇 파운데이션 모델(RFM) ‘리얼덱스’를 시연한다고 밝혔다. 한국과 일본 제조 현장의 실데이터로 학습해 다섯 손가락 로봇 핸드의 정밀 조작을 지원한다. 현장에서는 휴머노이드 로봇이 움직이는 컨베이어 벨트 위에서 서로 다른 형태의 물체를 집어 옮기는 모습을 선보인다.■ 도구로보틱스(대표 김진효)는 ‘글로벌 ICT 표준 컨퍼런스(GISC) 2026’에서 ‘2026 ICT 특허경영대상’…",
+   "publishedAt": "2026-11-06T08:00:00.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "51088b65b3cbfd94"
+  },
   {
    "id": "cd1fcd114a991c8b",
    "sourceId": "oschina-news",
@@ -67,6 +516,22 @@
    "contentHash": "688401471067498b"
   },
   {
+   "id": "2ac9d9ca588ddb78",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Letterpress-1",
+   "originalUrl": "https://www.producthunt.com/products/letterpress-1",
+   "originalLanguage": "en",
+   "originalDescription": "One script install to automate growth for your website Discussion | Link",
+   "publishedAt": "2026-11-06T07:15:25.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "07568ee10d9779f0"
+  },
+  {
    "id": "2837367967aca411",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -83,6 +548,23 @@
    "contentHash": "9fc304f6177bd2c3"
   },
   {
+   "id": "4439f27cf211506a",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "DeepSeek带火稀疏计算，国产芯片公司加速突围：这家公司又融近10亿",
+   "originalUrl": "https://www.qbitai.com/2026/11/508155.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "Q3营收实现数倍增长",
+   "publishedAt": "2026-11-06T07:00:29.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "b967615333b6b586"
+  },
+  {
    "id": "4c6ea686e4bd6a9b",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -97,6 +579,22 @@
    ],
    "imageUrl": null,
    "contentHash": "3c9a6dfa1d15beef"
+  },
+  {
+   "id": "c675299fdf38cda0",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "一边赛博修仙，一边卖家电！AI短剧开始冲双11业绩了？",
+   "originalUrl": "https://www.qbitai.com/2026/11/508118.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "挑战商业视频的高难度场景",
+   "publishedAt": "2026-11-06T06:54:17.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "633ed3fa224b30cc"
   },
   {
    "id": "5ba22669dda4e51a",
@@ -131,6 +629,22 @@
    "contentHash": "fb91e7d2e23c0a1e"
   },
   {
+   "id": "f0f3a5086ac35a6b",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "从RSI、Agent、Physical AI到整个系统栈，2026 奇点智能技术大会最新日程公布！",
+   "originalUrl": "https://www.qbitai.com/2026/11/508143.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "11 月 20—21 日，2026 奇点智能技术大会将在北京万达文华酒店举行。",
+   "publishedAt": "2026-11-06T06:43:14.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "531b12f8bfac809d"
+  },
+  {
    "id": "de887b36064864c2",
    "sourceId": "oschina-news",
    "sourceName": "开源中国 资讯",
@@ -146,6 +660,22 @@
    ],
    "imageUrl": null,
    "contentHash": "3bfcfd05997a093d"
+  },
+  {
+   "id": "af6e9dcd22b25b89",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "팔란티어, 신발 제조사 창신과 맞손…AI로 신발 제조 공정 혁신",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217101",
+   "originalLanguage": "ko",
+   "originalDescription": "팔란티어 테크놀로지스(PLTR)은 글로벌 신발 제조기업 창신INC와 개발·생산 운영 전반에 ‘파운드리’와 AI 플랫폼 ‘AIP’를 적용하는 파트너십을 체결했다고 6일 밝혔다.이번 협력으로 신발 개발과 샘플 기획부터 공장 생산까지 이어지는 정보와 업무 흐름을 연결해 창신의 각 팀이 전 과정을 한눈에 파악할 수 있도록 지원한다.파트너십은 최근 진행된 ‘에이전트캠프’ 성과를 바탕으로 체결됐다. 에이전트캠프는 AI 에이전트를 직접 구축해 실제 업무에 적용해 보는 과정으로 양사는 창신의 실제 데이터를…",
+   "publishedAt": "2026-11-06T06:40:00.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "ae4973705629e304"
   },
   {
    "id": "5abb565a9d0476ac",
@@ -358,6 +888,38 @@
    "contentHash": "6fc1329331d11d14"
   },
   {
+   "id": "d6fb6d5f94414f1c",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "99.4%登顶全球第一！这个中国AI师承世界冠军",
+   "originalUrl": "https://www.qbitai.com/2026/11/508107.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "一举刷新「AI安全世界杯」CyberGym世界纪录",
+   "publishedAt": "2026-11-06T05:01:47.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "52631dd784a8cc07"
+  },
+  {
+   "id": "2bea2f5f6042cdc6",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "카카오, 의사결정 모델 ‘카나나-2-v-디사이드’ 공개",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217087",
+   "originalLanguage": "ko",
+   "originalDescription": "타입세이프 AI의 ‘제브’와 업스테이지의 ‘솔라 디사이드’에 이어 카카오도 AI 에이전트용 의사결정 모델을 내놨다.카카오(대표 정신아)는 AI 의사결정 지원용 멀티모달 모델 ‘카나나-2-v-디사이드’를 허깅페이스에 오픈소스로 공개했다고 6일 밝혔다.의사결정 모델은 문장 대신 확률과 선택 및 점수 등 규격화된 형태로 판단 결과를 제공해 AI 에이전트의 연속적인 판단에 활용된다.카나나-2-v-디사이드는 카카오의 멀티모달 언어모델 ‘카나나-2-v-3b’를 기반으로 개발됐다. 텍스트와 이미지를 함께…",
+   "publishedAt": "2026-11-06T04:10:00.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "1f5d26316062c7eb"
+  },
+  {
    "id": "a96be4ca4afc0644",
    "sourceId": "oschina-news",
    "sourceName": "开源中国 资讯",
@@ -404,6 +966,22 @@
    ],
    "imageUrl": null,
    "contentHash": "6030195021132401"
+  },
+  {
+   "id": "14b89f475667ab39",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "香港金融科技周 x StartmeupHK 2026主论坛：以「金融+」、「AI+」及全球拓展开拓新机遇",
+   "originalUrl": "https://www.qbitai.com/2026/11/507988.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "香港金融科技周 x StartmeupHK 2026踏入第11届",
+   "publishedAt": "2026-11-06T03:36:34.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "6a815e7d336e5e5f"
   },
   {
    "id": "ce0d5671779fb27c",
@@ -470,6 +1048,22 @@
    "contentHash": "f8dee8706a7291e8"
   },
   {
+   "id": "acef340f90e4e6c0",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "AI短剧门槛降降降！实测即梦短剧工作室：剧本分镜预演一条龙，伙伴计划长期护航",
+   "originalUrl": "https://www.qbitai.com/2026/11/507972.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "Seedance 2.5 单秒低至0.15元",
+   "publishedAt": "2026-11-06T03:20:05.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "4fd4230444539449"
+  },
+  {
    "id": "a90e8222e922a30d",
    "sourceId": "docker-blog",
    "sourceName": "Docker Blog",
@@ -501,6 +1095,22 @@
    ],
    "imageUrl": null,
    "contentHash": "33cedcc6a85c3e7b"
+  },
+  {
+   "id": "c950dc177f5da82b",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "crystl",
+   "originalUrl": "https://www.producthunt.com/products/crystl-multitasking-terminal",
+   "originalLanguage": "en",
+   "originalDescription": "multitasking terminal for AI coding agents, built for macOS Discussion | Link",
+   "publishedAt": "2026-11-06T02:44:33.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "73e73f88dff8e70a"
   },
   {
    "id": "199f5808e45281f5",
@@ -552,6 +1162,39 @@
    "contentHash": "17ea457aae4624a4"
   },
   {
+   "id": "e15769ca5c01e8ab",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "腾讯 Hy4 调用激增已十倍扩容，Agent 能力开源模型第一",
+   "originalUrl": "https://www.qbitai.com/2026/11/507967.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "11月 5 日，腾讯宣布因 Hy4 调用激增，WorkBuddy 已进行十倍扩容",
+   "publishedAt": "2026-11-06T02:00:11.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai",
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "8ab374de193bd1a7"
+  },
+  {
+   "id": "74c5d395e24e2145",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Cursor Craft",
+   "originalUrl": "https://www.producthunt.com/products/cursor-craft",
+   "originalLanguage": "en",
+   "originalDescription": "Custom cursors for Mac Discussion | Link",
+   "publishedAt": "2026-11-06T01:53:45.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "636c02566db4f875"
+  },
+  {
    "id": "ad929875c5a71925",
    "sourceId": "the-verge-ai",
    "sourceName": "The Verge AI",
@@ -584,6 +1227,22 @@
    "contentHash": "a58eda4d6518ec92"
   },
   {
+   "id": "4736954850b46e4f",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Kodivo",
+   "originalUrl": "https://www.producthunt.com/products/kodivo",
+   "originalLanguage": "en",
+   "originalDescription": "Learn coding with AI and PHP through swipeable cards Discussion | Link",
+   "publishedAt": "2026-11-06T00:07:03.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "6dff3c4320d45254"
+  },
+  {
    "id": "8b33f1382f19de19",
    "sourceId": "the-verge-ai",
    "sourceName": "The Verge AI",
@@ -598,6 +1257,22 @@
    ],
    "imageUrl": null,
    "contentHash": "f28e89236690cada"
+  },
+  {
+   "id": "13e4c95dcbaa6d34",
+   "sourceId": "huggingface-blog",
+   "sourceName": "Hugging Face Blog",
+   "originalTitle": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+   "originalUrl": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-11-06T00:00:00.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "c8429439afcb47e8"
   },
   {
    "id": "9337b2477a054b57",
@@ -632,6 +1307,22 @@
    "contentHash": "ea007b3b02cb9917"
   },
   {
+   "id": "c268f72e5fa452d2",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Cloptima",
+   "originalUrl": "https://www.producthunt.com/products/cloptima",
+   "originalLanguage": "en",
+   "originalDescription": "AI Gateway, Guardrails & LLM FinOps Discussion | Link",
+   "publishedAt": "2026-11-05T23:40:34.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "82512d8f6925f376"
+  },
+  {
    "id": "2db6d8a58a2b9e17",
    "sourceId": "oschina-news",
    "sourceName": "开源中国 资讯",
@@ -664,6 +1355,22 @@
    ],
    "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/nasa-x-70-image-1152x648.jpeg",
    "contentHash": "7394fdde46a39a3e"
+  },
+  {
+   "id": "b739ab5f1085c912",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "MacDupl",
+   "originalUrl": "https://www.producthunt.com/products/macdupl-run-every-acc-in-its-own-app",
+   "originalLanguage": "en",
+   "originalDescription": "Run every account in its own app Discussion | Link",
+   "publishedAt": "2026-11-05T22:47:07.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "a3eee5b2bc3b68ae"
   },
   {
    "id": "17b57e4655701f14",
@@ -762,6 +1469,22 @@
    "contentHash": "affcb7557ce0308c"
   },
   {
+   "id": "c46bbbf0a082f7a2",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "AudioCentral",
+   "originalUrl": "https://www.producthunt.com/products/audiocentral",
+   "originalLanguage": "en",
+   "originalDescription": "Control every app’s audio from your Mac’s menu bar. Discussion | Link",
+   "publishedAt": "2026-11-05T21:36:58.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "9c807f166bf0d23c"
+  },
+  {
    "id": "91579e5cb3810703",
    "sourceId": "aws-whats-new",
    "sourceName": "AWS What's New",
@@ -776,6 +1499,22 @@
    ],
    "imageUrl": null,
    "contentHash": "3eb201ed78c3477c"
+  },
+  {
+   "id": "6fc2c093a8b232ab",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Codiclens",
+   "originalUrl": "https://www.producthunt.com/products/codiclens-local-ai-powerd-mac-launcher",
+   "originalLanguage": "en",
+   "originalDescription": "Local AI powerd Mac launcher and file finder Discussion | Link",
+   "publishedAt": "2026-11-05T21:12:24.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "3a5c56a12b3cd1b7"
   },
   {
    "id": "3345bc1c75176424",
@@ -858,6 +1597,22 @@
    ],
    "imageUrl": null,
    "contentHash": "f6a2beec88281dc7"
+  },
+  {
+   "id": "1192ef5ce2087cd4",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Magic Wonders",
+   "originalUrl": "https://www.producthunt.com/products/magic-wonders",
+   "originalLanguage": "en",
+   "originalDescription": "A smart wand to duel, control your home and create magic Discussion | Link",
+   "publishedAt": "2026-11-05T20:06:11.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "aeb854a6080c39ff"
   },
   {
    "id": "b1feafc8620ed538",
@@ -1088,6 +1843,22 @@
    ],
    "imageUrl": null,
    "contentHash": "44564f6c42112a6e"
+  },
+  {
+   "id": "6ba64f4bb7ff5cf6",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Plainmail",
+   "originalUrl": "https://www.producthunt.com/products/plainmail",
+   "originalLanguage": "en",
+   "originalDescription": "Real email on every domain you own, for $5 a month flat Discussion | Link",
+   "publishedAt": "2026-11-05T18:55:10.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "9629b24ad20208e5"
   },
   {
    "id": "9aae8329808f16cc",
@@ -1694,6 +2465,22 @@
    "contentHash": "64560efbe713b2ef"
   },
   {
+   "id": "17c36ca30ca95309",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Kivo",
+   "originalUrl": "https://www.producthunt.com/products/kivo-4",
+   "originalLanguage": "en",
+   "originalDescription": "Free on device dictation for any Mac app and AI agent Discussion | Link",
+   "publishedAt": "2026-11-05T17:51:26.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "bd42f64fbbe73417"
+  },
+  {
    "id": "ce0de58b61f85fd7",
    "sourceId": "arxiv-cs-ai",
    "sourceName": "arXiv cs.AI",
@@ -1743,6 +2530,22 @@
    ],
    "imageUrl": null,
    "contentHash": "172d3e41cf392c38"
+  },
+  {
+   "id": "f0f52524eb719187",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "BuildFerry",
+   "originalUrl": "https://www.producthunt.com/products/buildferry",
+   "originalLanguage": "en",
+   "originalDescription": "Install iOS test builds on any iPhone with one link Discussion | Link",
+   "publishedAt": "2026-11-05T17:46:58.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "9230610bc89ee415"
   },
   {
    "id": "abfdd3b51255897f",
@@ -2141,6 +2944,22 @@
    ],
    "imageUrl": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
    "contentHash": "31f439413ea1bb2f"
+  },
+  {
+   "id": "24b85554b69f505b",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Wisp",
+   "originalUrl": "https://www.producthunt.com/products/wisp-9",
+   "originalLanguage": "en",
+   "originalDescription": "Wisp is a little AI fairy who lives on your desktop Discussion | Link",
+   "publishedAt": "2026-11-05T16:28:20.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "aec7940922546281"
   },
   {
    "id": "74d0282e39f3d6ac",
@@ -2642,6 +3461,22 @@
    "contentHash": "a9c703d0059ff6a3"
   },
   {
+   "id": "41255b61e1f9956d",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Openroster",
+   "originalUrl": "https://www.producthunt.com/products/openroster",
+   "originalLanguage": "en",
+   "originalDescription": "Which \"Open\" companies are actually open source Discussion | Link",
+   "publishedAt": "2026-11-05T14:19:55.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "c021a961bef29c3f"
+  },
+  {
    "id": "b70b8869011c1b7a",
    "sourceId": "the-decoder",
    "sourceName": "The Decoder",
@@ -2672,6 +3507,22 @@
    ],
    "imageUrl": null,
    "contentHash": "0bf9184fd761fb6b"
+  },
+  {
+   "id": "b2ab31cd0bc5e7d4",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Rankfender v3.0",
+   "originalUrl": "https://www.producthunt.com/products/rankfender",
+   "originalLanguage": "en",
+   "originalDescription": "The SEO/GEO operating system, built for people and AI agents Discussion | Link",
+   "publishedAt": "2026-11-05T14:05:15.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "a73e2501af33fea6"
   },
   {
    "id": "f1409885451c3730",
@@ -2771,6 +3622,22 @@
    ],
    "imageUrl": null,
    "contentHash": "dce321535857271d"
+  },
+  {
+   "id": "2e8b58d552fb246c",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "孩子的人生大事，你要怎样的AI？海亮科服把AI生涯规划带给更多家庭",
+   "originalUrl": "https://www.qbitai.com/2026/11/507919.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "基础规划免费！",
+   "publishedAt": "2026-11-05T13:17:00.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "4ecf8c8bc3c7fa82"
   },
   {
    "id": "6bb40619f26fca14",
@@ -3081,6 +3948,22 @@
    "contentHash": "ba2faad44a56f742"
   },
   {
+   "id": "63dc60d2e4de5bee",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "三条AI技术路线终将合流？智象创始人梅涛提出智能体化的世界模型",
+   "originalUrl": "https://www.qbitai.com/2026/11/507834.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "走向“智能体化世界模型”。",
+   "publishedAt": "2026-11-05T09:37:40.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "06619a883d376ead"
+  },
+  {
    "id": "64c545ff7f2c34b8",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -3127,6 +4010,22 @@
    ],
    "imageUrl": null,
    "contentHash": "1de1957540e3f78a"
+  },
+  {
+   "id": "b91eab90a94a3c43",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "拼多多让年轻人造草莓工厂，170天后“答案”熟了",
+   "originalUrl": "https://www.qbitai.com/2026/11/507823.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "拼多多把农创赛搬出了PPT。",
+   "publishedAt": "2026-11-05T09:00:18.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "0b46a2dcbb551d54"
   },
   {
    "id": "14e90e72d3401ddf",
@@ -3339,6 +4238,22 @@
    ],
    "imageUrl": null,
    "contentHash": "7225d0eac3ca6acb"
+  },
+  {
+   "id": "f22f5d0bc3aa61b8",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "AWS CodeConnections is now available in the AWS GovCloud (US-West) Region",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-codeconnections-govcloud-west/",
+   "originalLanguage": "en",
+   "originalDescription": "AWS CodeConnections is now available in the AWS GovCloud (US-West) Region, in addition to AWS GovCloud (US-East). CodeConnections lets you connect AWS services such as AWS CodePipeline and AWS CodeBuild to source code repositories hosted with third-party providers such as…",
+   "publishedAt": "2026-11-05T08:00:00.000Z",
+   "discoveredAt": "2026-11-06T15:57:18.198Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "829f49c2b8ee994e"
   },
   {
    "id": "1340a6304b967eba",
@@ -23728,928 +24643,6 @@
    ],
    "imageUrl": null,
    "contentHash": "62800ecdefdf2998"
-  },
-  {
-   "id": "85f94c0fe8f02a81",
-   "sourceId": "openai-news",
-   "sourceName": "OpenAI News",
-   "originalTitle": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-   "originalUrl": "https://openai.com/index/credit-saison",
-   "originalLanguage": "en",
-   "originalDescription": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
-   "publishedAt": "2026-10-29T00:00:00.000Z",
-   "discoveredAt": "2026-10-30T15:58:45.836Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "a59ff448e58ddb72"
-  },
-  {
-   "id": "b6b30743068c2627",
-   "sourceId": "huggingface-blog",
-   "sourceName": "Hugging Face Blog",
-   "originalTitle": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-   "originalUrl": "https://huggingface.co/blog/mistral-large4",
-   "originalLanguage": "en",
-   "originalDescription": null,
-   "publishedAt": "2026-10-29T00:00:00.000Z",
-   "discoveredAt": "2026-10-29T16:57:09.659Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "bb3e43dd1348aeb8"
-  },
-  {
-   "id": "f7566aa101f59431",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "[AI리더의 서가] 하네스 엔지니어링으로 완성하는 에이전틱 AI",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216584",
-   "originalLanguage": "ko",
-   "originalDescription": "하네스 엔지니어링으로 완성하는 에이전틱 AI고돈호 | 한빛미디어2026년 10월 25일추천이유저자는 프롬프트 튜닝을 넘어 코드로 AI 모델을 제어하는 하네스 엔지니어링의 원리를 ReAct 패턴 직접 구현부터 보안, 배포까지 실전 프로젝트 3개를 통해 전달합니다. 안정적으로 작동하는 프로덕션 수준의 AI 에이전트 구축을 원하는 개발자에게 필수적인 내용을 담고 있습니다.상세보기 이달 6일 국회 과학기술정보방송통신위원회의 과학기술정보통신부 국정감사에서는 AI 예산의 균형이 도마에 올랐다. 성능과…",
-   "publishedAt": "2026-10-29T00:00:00.000Z",
-   "discoveredAt": "2026-10-29T02:30:43.789Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "b47a95e8fc5ed57e"
-  },
-  {
-   "id": "7ddf0d3de558cc05",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Flatbread",
-   "originalUrl": "https://www.producthunt.com/products/flatbread",
-   "originalLanguage": "en",
-   "originalDescription": "Share the whole agent run, not a screenshot Discussion | Link",
-   "publishedAt": "2026-10-28T23:47:45.000Z",
-   "discoveredAt": "2026-10-29T10:03:28.916Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "25669be5d1fb6287"
-  },
-  {
-   "id": "da9c62c52f6c35e6",
-   "sourceId": "simon-willison",
-   "sourceName": "Simon Willison's Weblog",
-   "originalTitle": "Quoting Ted Sanders",
-   "originalUrl": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
-   "originalLanguage": "en",
-   "originalDescription": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single…",
-   "publishedAt": "2026-10-28T23:23:21.000Z",
-   "discoveredAt": "2026-10-29T02:30:43.789Z",
-   "topics": [
-    "ai",
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "3781a308411bd29d"
-  },
-  {
-   "id": "ee5e2424785d3c85",
-   "sourceId": "techcrunch-startups",
-   "sourceName": "TechCrunch Startups",
-   "originalTitle": "Upwind raises $400M after walking away from Datadog acquisition offer",
-   "originalUrl": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/",
-   "originalLanguage": "en",
-   "originalDescription": "The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price.",
-   "publishedAt": "2026-10-28T23:15:00.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "c0bed7deb77f737d"
-  },
-  {
-   "id": "3b64f2126ca310fc",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "Adam Mosseri says negativity around AI is ‘going to get worse’",
-   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
-   "originalLanguage": "en",
-   "originalDescription": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast…",
-   "publishedAt": "2026-10-28T23:05:39.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "220de3fa37a01c37"
-  },
-  {
-   "id": "025934c72b2f73a4",
-   "sourceId": "mitre-atlas-releases",
-   "sourceName": "MITRE ATLAS Releases",
-   "originalTitle": "v2026.10",
-   "originalUrl": "https://github.com/mitre-atlas/atlas-data/releases/tag/v2026.10",
-   "originalLanguage": "en",
-   "originalDescription": "Content v2026.10 This version of ATLAS data contains 1 matrix, 16 tactics, 129 techniques, 92 sub-techniques, 44 mitigations, 77 case studies, 44 entities, and 37 software records. Techniques Added new techniques Develop Capabilities: Malware Outputs from AI Models Collection…",
-   "publishedAt": "2026-10-28T22:55:37.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "cybersecurity",
-    "ai"
-   ],
-   "imageUrl": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
-   "contentHash": "a14c1f3f5f6067bd"
-  },
-  {
-   "id": "0c9c5da2c2166495",
-   "sourceId": "ars-technica-gadgets",
-   "sourceName": "Ars Technica Gadgets",
-   "originalTitle": "As US ties fray, Europe plans first undersea cable link to Greenland",
-   "originalUrl": "https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/",
-   "originalLanguage": "en",
-   "originalDescription": "Europe's Pan-Arctic Cable will bypass US to link Canada, Japan, and South Korea.",
-   "publishedAt": "2026-10-28T22:35:50.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "mobile-hardware"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/EU-and-Greenland-meeting-1152x648.jpg",
-   "contentHash": "44b494428e02a87f"
-  },
-  {
-   "id": "aff3ee3326fe842c",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "AssemblyAI",
-   "originalUrl": "https://www.producthunt.com/products/assemblyai",
-   "originalLanguage": "en",
-   "originalDescription": "text-to-speech built for voice agents Discussion | Link",
-   "publishedAt": "2026-10-28T22:35:24.000Z",
-   "discoveredAt": "2026-10-29T10:03:28.916Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "c92397363c11de76"
-  },
-  {
-   "id": "9be7e916451ee406",
-   "sourceId": "mitre-atlas-releases",
-   "sourceName": "MITRE ATLAS Releases",
-   "originalTitle": "v6.1.0",
-   "originalUrl": "https://github.com/mitre-atlas/atlas-data/releases/tag/v6.1.0",
-   "originalLanguage": "en",
-   "originalDescription": "GitHub release on 2026-10-28",
-   "publishedAt": "2026-10-28T22:35:03.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "cybersecurity",
-    "ai"
-   ],
-   "imageUrl": "https://avatars.githubusercontent.com/u/59848506?s=60&v=4",
-   "contentHash": "748512a540d28f9e"
-  },
-  {
-   "id": "4b080ff5a1f17dde",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "AutoShelf 2.6",
-   "originalUrl": "https://www.producthunt.com/products/autoshelf",
-   "originalLanguage": "en",
-   "originalDescription": "Automate any folder on your Mac with if-this-then-that rules Discussion | Link",
-   "publishedAt": "2026-10-28T22:19:51.000Z",
-   "discoveredAt": "2026-10-29T10:03:28.916Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "1f803881a4a1e1ee"
-  },
-  {
-   "id": "00c86afa1d52d7bd",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "[10월28일] AI가 던진 근본적인 질문 \"인간이란 무엇인가\"…존재 가치 논쟁 잇따라",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216742",
-   "originalLanguage": "ko",
-   "originalDescription": "AI가 글을 쓰고 그림을 그리면서 시작된 인간의 창의성에 관한 논쟁이 이제 인간의 정체성과 존재 가치를 묻는 근본적인 질문으로 이어지고 있습니다. AI가 수학과 과학 발견에 참여하고 스스로 판단해 행동하는 수준으로 발전하면서, 인간이 다른 존재와 구별되는 근거는 무엇인지 다시 생각해야 한다는 전문가들의 의견이 잇따르는 것입니다. 특히 인간의 지적 능력이 더 이상 특별하지 않다면 무엇으로 인간의 가치를 설명할 수 있는지가 핵심적인 질문으로 떠오르고 있습니다.니콜라스 디르크스 뉴욕과학아카데미 회장…",
-   "publishedAt": "2026-10-28T22:00:00.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "993a8e360dd1f4eb"
-  },
-  {
-   "id": "0c8f9ce2d60c8e0d",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
-   "originalUrl": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
-   "originalLanguage": "en",
-   "originalDescription": "Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS.",
-   "publishedAt": "2026-10-28T21:58:32.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "ai",
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "1c90097c22473f2d"
-  },
-  {
-   "id": "e46d29680afeffb3",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "Google expands AI Search ads globally as core ad growth slows",
-   "originalUrl": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
-   "originalLanguage": "en",
-   "originalDescription": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion.",
-   "publishedAt": "2026-10-28T21:48:37.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "5403e73d46c7f3bc"
-  },
-  {
-   "id": "020314ea17c3bf3d",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "Microsoft recorded $10 billion in revenue from OpenAI",
-   "originalUrl": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
-   "originalLanguage": "en",
-   "originalDescription": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",
-   "publishedAt": "2026-10-28T21:34:30.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "24f3ec5562ab91bc"
-  },
-  {
-   "id": "cf0b445a13fca74c",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "Akai is embracing vibe-coded mods with an open-source MPC",
-   "originalUrl": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
-   "originalLanguage": "en",
-   "originalDescription": "The MPC Sample Key isn't even formally announced yet, but Akai is already showing off what the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion of hackers and custom firmware developers by giving them early access to the device…",
-   "publishedAt": "2026-10-28T21:34:04.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "ai",
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "2cd0945e7e99fd4d"
-  },
-  {
-   "id": "f32d7efe87a5d30e",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "Microsoft hits 10 quarters of record-breaking revenue in a row",
-   "originalUrl": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
-   "originalLanguage": "en",
-   "originalDescription": "Whatever the future of AI might be, the current situation is still very good for Microsoft. The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the year-ago quarter.",
-   "publishedAt": "2026-10-28T21:25:30.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "d57e0aaad99c6eb2"
-  },
-  {
-   "id": "28c94bbaeedec1a3",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "애플, 16년 만에 터치스크린 맥북 출시…스티브 잡스의 원칙 뒤집었다",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216769",
-   "originalLanguage": "ko",
-   "originalDescription": "애플이 창사 이래 처음으로 터치스크린을 탑재한 맥북 프로를 공개했다. 스티브 잡스 창업자가 2010년 노트북 터치스크린을 강하게 비판한 이후 16년 만에 기존 입장을 바꾼 것이다. 새로운 맥북 프로는 OLED 디스플레이와 아이폰의 '다이내믹 아일랜드'까지 도입하고, 화면을 손가락으로 조작할 수 있도록 운영체제도 개선했다.애플은 28일(현지시간) 미국 로스앤젤레스에서 신제품 발표 행사를 열고 '프로LED XDR(PROLED XDR)' 디스플레이를 탑재한 14인치와 16인치 맥북 프로를 공개했다…",
-   "publishedAt": "2026-10-28T21:09:36.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "8b97f2602c24be9f"
-  },
-  {
-   "id": "d66ff784f191fe45",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "Amazon RDS for Oracle now supports September 2026 Monthly Recommended Patch",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-september-mrp",
-   "originalLanguage": "en",
-   "originalDescription": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the September 2026 Monthly Recommended Patch (MRP) for Oracle Database version 19c and 26ai. An MRP is a minor engine version that builds on a quarterly Release Update (RU), bundling Oracle's Critical…",
-   "publishedAt": "2026-10-28T21:00:00.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "fbf0c9b233bad2db"
-  },
-  {
-   "id": "9957645d2f759c41",
-   "sourceId": "mit-technology-review-ai",
-   "sourceName": "MIT Technology Review AI",
-   "originalTitle": "Creating AI value with enterprise context",
-   "originalUrl": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
-   "originalLanguage": "en",
-   "originalDescription": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when…",
-   "publishedAt": "2026-10-28T20:32:02.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "c5cc133d1f4cd703"
-  },
-  {
-   "id": "c73fe1f4abea9eeb",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "구글, 1년 만에 AI 성능 평가 1위 탈환…'제미나이 4 카본' 출시",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216768",
-   "originalLanguage": "ko",
-   "originalDescription": "구글이 1년 만에 AI 모델 종합 성능 평가에서 세계 1위를 탈환했다. 새로 공개한 '제미나이 4 카본(Gemini 4 Carbon)'은 아티피셜 애널리시스(AA) 평가에서 앤트로픽의 '클로드 오퍼스 5.5'와 오픈AI의 'GPT-6 아스트라'를 제치고 정상에 올랐다. 특히 사이버 보안과 장시간 자율 작업 능력을 대폭 개선했으며, 복잡한 소프트웨어의 취약점을 찾아내고 공격 가능성을 검증한 뒤 수정하는 작업에서 최고 수준의 성능을 기록했다.구글 딥마인드는 28일(현지시간) 공식 블로그를 통해…",
-   "publishedAt": "2026-10-28T20:22:15.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "08d3027cc498b570"
-  },
-  {
-   "id": "06cef07de21f8187",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Floot in ChatGPT",
-   "originalUrl": "https://www.producthunt.com/products/floot",
-   "originalLanguage": "en",
-   "originalDescription": "Build and publish real apps without leaving ChatGPT Discussion | Link",
-   "publishedAt": "2026-10-28T20:14:10.000Z",
-   "discoveredAt": "2026-10-29T10:03:28.916Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "5268b5952fb9fd6f"
-  },
-  {
-   "id": "7b5653451a244c2d",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
-   "originalUrl": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
-   "originalLanguage": "en",
-   "originalDescription": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with…",
-   "publishedAt": "2026-10-28T20:03:00.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "72e0a6c61f8f1e6c"
-  },
-  {
-   "id": "02bf3705d3d86c18",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "Amazon Bedrock AgentCore CLI version 1.0 is now available",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available/",
-   "originalLanguage": "en",
-   "originalDescription": "AWS announces the general availability of Amazon Bedrock AgentCore CLI version 1.0 (@aws/agentcore 1.0.0), rebuilt with faster startup, a consistent command structure, and support for more AgentCore resources. The CLI helps developers create, develop, deploy, and operate AI…",
-   "publishedAt": "2026-10-28T20:00:00.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "cloud-infrastructure",
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "b5ef6d09d9ae782b"
-  },
-  {
-   "id": "9609f9bcce991b40",
-   "sourceId": "latent-space",
-   "sourceName": "Latent Space",
-   "originalTitle": "Why Agents Love Supabase",
-   "originalUrl": "https://latent.space/p/supabase/",
-   "originalLanguage": "en",
-   "originalDescription": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
-   "publishedAt": "2026-10-28T19:48:05.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": "https://i.ytimg.com/vi/zHG6sAss_kE/maxresdefault.jpg",
-   "contentHash": "1f2a63c88a8d98b9"
-  },
-  {
-   "id": "16681fd606d5f699",
-   "sourceId": "openai-news",
-   "sourceName": "OpenAI News",
-   "originalTitle": "Evernote turns AI-driven discovery into paid subscriptions",
-   "originalUrl": "https://openai.com/ads/customers/evernote",
-   "originalLanguage": "en",
-   "originalDescription": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
-   "publishedAt": "2026-10-28T19:40:49.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "319e6a1ecc6f29fb"
-  },
-  {
-   "id": "3b6696291dbcf94f",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "Anthropic just launched tools to show companies what their AI spending is buying",
-   "originalUrl": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
-   "originalLanguage": "en",
-   "originalDescription": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
-   "publishedAt": "2026-10-28T19:19:58.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "36f84135fcd7c9e5"
-  },
-  {
-   "id": "e96e1135675ce562",
-   "sourceId": "the-decoder",
-   "sourceName": "The Decoder",
-   "originalTitle": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
-   "originalUrl": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
-   "originalLanguage": "en",
-   "originalDescription": "Just two weeks after Gemini 4 Argon, Google DeepMind is releasing Gemini 4 Carbon, which tops the Artificial Analysis Intelligence Index v5 with 59 points. Google says the model is built for extended agent workflows and the full cyber defense lifecycle. Because of those…",
-   "publishedAt": "2026-10-28T19:17:58.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "a1df09d5d33f954e"
-  },
-  {
-   "id": "4f99b9d14ea0948f",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
-   "originalUrl": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
-   "originalLanguage": "en",
-   "originalDescription": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities…",
-   "publishedAt": "2026-10-28T19:05:46.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "1677451923fde2d1"
-  },
-  {
-   "id": "d67e3a17ae403798",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "Public endpoints for Amazon ElastiCache Serverless now in AWS GovCloud (US)",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-serverless-public-endpoints-govcloud/",
-   "originalLanguage": "en",
-   "originalDescription": "Amazon ElastiCache Serverless for Valkey now supports public endpoints in the AWS GovCloud (US) Regions. A public endpoint lets you connect to your cache from a serverless function or any application running outside a VPC, without setting up a VPN, a bastion host, or an SSH…",
-   "publishedAt": "2026-10-28T19:00:00.000Z",
-   "discoveredAt": "2026-10-29T21:50:24.895Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "b055b61211dd5d5d"
-  },
-  {
-   "id": "297bfab976061294",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
-   "originalUrl": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/",
-   "originalLanguage": "en",
-   "originalDescription": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities…",
-   "publishedAt": "2026-10-28T18:50:39.000Z",
-   "discoveredAt": "2026-10-28T18:52:51.211Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "7a363ad3ae8cb58b"
-  },
-  {
-   "id": "721146dc4df94791",
-   "sourceId": "ars-technica-ai",
-   "sourceName": "Ars Technica AI",
-   "originalTitle": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
-   "originalUrl": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
-   "originalLanguage": "en",
-   "originalDescription": "Gemini 4 Carbon is essentially a slightly better version of Argon.",
-   "publishedAt": "2026-10-28T18:47:27.000Z",
-   "discoveredAt": "2026-10-28T18:52:51.211Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-2-1152x648.jpg",
-   "contentHash": "730e4c769caca32c"
-  },
-  {
-   "id": "9e5c4ee7ba7dfb7e",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "AWS Lambda supports Seekable OCI (SOCI) lazy loading for Lambda Managed Instances",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-seekable-oci-soci/",
-   "originalLanguage": "en",
-   "originalDescription": "AWS Lambda now supports Seekable OCI (SOCI) for lazy loading Event Functions packaged as Open Container Initiative (OCI) images running on Lambda Managed Instances . With SOCI support, Lambda fetches only the files needed at each stage of the execution environment startup…",
-   "publishedAt": "2026-10-28T18:44:00.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "c78b6f701d222af0"
-  },
-  {
-   "id": "e2bdf0707ac4f099",
-   "sourceId": "nodejs-releases",
-   "sourceName": "Node.js Releases",
-   "originalTitle": "Node.js 24.22.2 (LTS)",
-   "originalUrl": "https://nodejs.org/en/blog/release/v24.22.2",
-   "originalLanguage": "en",
-   "originalDescription": null,
-   "publishedAt": "2026-10-28T18:40:14.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "programming-languages"
-   ],
-   "imageUrl": null,
-   "contentHash": "614e513769d91152"
-  },
-  {
-   "id": "8c981a7773ea1054",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "Microsoft is ending Copilot support on smart TVs",
-   "originalUrl": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
-   "originalLanguage": "en",
-   "originalDescription": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assistant's functionality on all TVs this year, according to a report by Windows Central. The news comes…",
-   "publishedAt": "2026-10-28T18:36:26.000Z",
-   "discoveredAt": "2026-10-28T18:52:51.211Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "1a9f478895e8565b"
-  },
-  {
-   "id": "6c1de1083885681a",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "Introducing time series collections for the next generation of Amazon OpenSearch Serverless",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-series-collection-next-generation-opensearch-serverless/",
-   "originalLanguage": "en",
-   "originalDescription": "Today, we're announcing support for time series collections on the next generation of Amazon OpenSearch Serverless. With time series collections, you can ingest, store, and analyze logs, metrics, traces, and event data without provisioning or managing clusters. They absorb…",
-   "publishedAt": "2026-10-28T18:35:00.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "a19aaf5e927805d2"
-  },
-  {
-   "id": "ed1ee031cdb3547c",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Suno MCP",
-   "originalUrl": "https://www.producthunt.com/products/suno",
-   "originalLanguage": "en",
-   "originalDescription": "The music layerfor your AI stack Discussion | Link",
-   "publishedAt": "2026-10-28T18:33:54.000Z",
-   "discoveredAt": "2026-10-29T10:03:28.916Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "a10efa74c8ca98e2"
-  },
-  {
-   "id": "4ebc8e400813c855",
-   "sourceId": "aws-machine-learning-blog",
-   "sourceName": "AWS Machine Learning Blog",
-   "originalTitle": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
-   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
-   "originalLanguage": "en",
-   "originalDescription": "Stand up a governed, multi-account Agentic AI Platform on Amazon Bedrock AgentCore. This post walks through the architecture and an open-source reference blueprint: the operating model, control plane, per-Workstream cells, separate inference and tool gateways, and a CI/CD…",
-   "publishedAt": "2026-10-28T18:28:26.000Z",
-   "discoveredAt": "2026-10-28T18:52:51.211Z",
-   "topics": [
-    "ai",
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "52379f02a445bf06"
-  },
-  {
-   "id": "d5d478f3780c3ac3",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "Quick now supports smart approvals for agentic actions",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/quick-smart-approvals-agentic-actions/",
-   "originalLanguage": "en",
-   "originalDescription": "Amazon Quick now supports smart approvals, a review layer that reduces unnecessary approval prompts while preserving human oversight of the actions that matter most. As agents take more actions on a user's behalf, such as sending email, updating records, and creating tickets…",
-   "publishedAt": "2026-10-28T18:28:00.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "d0ec2c78a224d118"
-  },
-  {
-   "id": "6a3c107674b90b01",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "IFTTT.ai",
-   "originalUrl": "https://www.producthunt.com/products/ifttt",
-   "originalLanguage": "en",
-   "originalDescription": "The easiest way to automate anything Discussion | Link",
-   "publishedAt": "2026-10-28T18:26:21.000Z",
-   "discoveredAt": "2026-10-29T10:03:28.916Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "65c909e02e8c43db"
-  },
-  {
-   "id": "2bac06729e105b98",
-   "sourceId": "aws-machine-learning-blog",
-   "sourceName": "AWS Machine Learning Blog",
-   "originalTitle": "Distributed training with Ray Train DLCs and EFA on EKS",
-   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/",
-   "originalLanguage": "en",
-   "originalDescription": "The Ray Train Deep Learning Container ships the full CUDA-through-EFA stack, so you build no image. This post walks through a reproducible sample that fine-tunes Qwen2.5-1.5B with PyTorch FSDP across eight GPUs on two EFA-enabled g6.12xlarge instances on Amazon EKS, using the…",
-   "publishedAt": "2026-10-28T18:19:54.000Z",
-   "discoveredAt": "2026-10-28T18:52:51.211Z",
-   "topics": [
-    "ai",
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "d8fc0ab3015d2153"
-  },
-  {
-   "id": "53865a638e7ceae6",
-   "sourceId": "aws-machine-learning-blog",
-   "sourceName": "AWS Machine Learning Blog",
-   "originalTitle": "Accelerating software delivery with agentic QA automation using Amazon Nova Act – Part 3",
-   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act-part-3/",
-   "originalLanguage": "en",
-   "originalDescription": "As QA test automation spreads across an organization, organizing tests and controlling who owns them becomes the real work. Part 3 of the QA Studio series on Amazon Nova Act adds applications that organize tests and report health metrics, plus team-based user management that…",
-   "publishedAt": "2026-10-28T18:12:13.000Z",
-   "discoveredAt": "2026-10-28T18:52:51.211Z",
-   "topics": [
-    "ai",
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "bc20b50a18d7bce0"
-  },
-  {
-   "id": "3402ef3be45eaaf5",
-   "sourceId": "the-hacker-news",
-   "sourceName": "The Hacker News",
-   "originalTitle": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
-   "originalUrl": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
-   "originalLanguage": "en",
-   "originalDescription": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First identified in late 2023, Silent Train uses rotating…",
-   "publishedAt": "2026-10-28T18:08:33.000Z",
-   "discoveredAt": "2026-10-28T18:52:51.211Z",
-   "topics": [
-    "cybersecurity"
-   ],
-   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXuRyHXVM1n6S9Z49nYkM2dmJjKwuZx2RAre0CQSpB202GteLj8keMogqzR7ZVIv7YRc9udBHU7-oCpnpzL6nLaez3ypbVr9cVmiH9zFwJVApy5cev84W725y38auaUdkCQGN3zvngCivMUl-SYV1jnJu9eHduaYeBzro4cdmFHIQJfBQN4RvcC-fUTrs1/s1600/si.jpg",
-   "contentHash": "3d350a9d65ef0f50"
-  },
-  {
-   "id": "368aa69eadc53400",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "Amazon EKS Dashboard now provides fleet-wide visibility into certificate authority (CA) rotation",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-dashboard-fleet-wide-visibility-certificate-authority-ca-rotation/",
-   "originalLanguage": "en",
-   "originalDescription": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announces certificate authority (CA) rotation visibility in the Amazon EKS Dashboard, giving you a consolidated view of CA rotation across your clusters. The Amazon EKS Dashboard already provides centralized visibility into…",
-   "publishedAt": "2026-10-28T18:07:00.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "1028ceb8f28f9713"
-  },
-  {
-   "id": "6047c8e896d218eb",
-   "sourceId": "ars-technica-gadgets",
-   "sourceName": "Ars Technica Gadgets",
-   "originalTitle": "Amazon turns its most capable smart speaker into a smart camera, too",
-   "originalUrl": "https://arstechnica.com/gadgets/2026/10/amazon-adds-a-camera-to-its-best-sounding-smart-speaker-for-30-extra/",
-   "originalLanguage": "en",
-   "originalDescription": "The Echo Studio with Home Camera can \"see and understand what's in front of the camera.\"",
-   "publishedAt": "2026-10-28T18:05:22.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "mobile-hardware"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/download-1152x648.png",
-   "contentHash": "1efd96ccef6060a8"
-  },
-  {
-   "id": "44076607dd1da013",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "Amazon ECS Managed Instances adds cross-instance and Spot consolidation",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/",
-   "originalLanguage": "en",
-   "originalDescription": "Today, Amazon Elastic Container Service (Amazon ECS) Managed Instances introduces two infrastructure optimization updates: cross-instance and Spot consolidation. Cross-instance consolidation evaluates tasks running across multiple underutilized instances together, packing them…",
-   "publishedAt": "2026-10-28T18:00:00.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "c61ed75774e9e188"
-  },
-  {
-   "id": "5b2d732b6c977ea0",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "AWS Lambda durable functions now exports live telemetry for execution insights",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-durable-telemetry/",
-   "originalLanguage": "en",
-   "originalDescription": "AWS Lambda announces the Durable Execution Telemetry Exporter plugin for Lambda durable functions. This new observability plugin captures the step-by-step history of your durable executions and sends them to one or more destinations of your choice. You can use the exported data…",
-   "publishedAt": "2026-10-28T18:00:00.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "b32f36dfbaa15c7f"
-  },
-  {
-   "id": "f4fbe885f8a380c9",
-   "sourceId": "ars-technica-ai",
-   "sourceName": "Ars Technica AI",
-   "originalTitle": "Google AI gets cagey when asked who won the 2020 elections",
-   "originalUrl": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
-   "originalLanguage": "en",
-   "originalDescription": "But the AI responses get more forthright when asked outside the US.",
-   "publishedAt": "2026-10-28T17:46:32.000Z",
-   "discoveredAt": "2026-10-28T18:52:51.211Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-1152x648.jpg",
-   "contentHash": "87d280f51f4bad8b"
-  },
-  {
-   "id": "dfbc0bcf24879e0f",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "Amazon EKS Auto Mode now supports Kubernetes Gateway API",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-auto-mode-kubernetes-gateway-api/",
-   "originalLanguage": "en",
-   "originalDescription": "Amazon EKS Auto Mode now supports the Kubernetes Gateway API, giving customers a standard, portable way to define how traffic reaches their applications. Customers can configure application load balancing using Gateway and HTTPRoute resources, and EKS Auto Mode provisions and…",
-   "publishedAt": "2026-10-28T17:33:00.000Z",
-   "discoveredAt": "2026-10-28T23:15:28.251Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "cc5e6001489a352b"
-  },
-  {
-   "id": "ebb2facf6c17761b",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Gemini 4 Carbon",
-   "originalUrl": "https://www.producthunt.com/products/gemini-4-carbon",
-   "originalLanguage": "en",
-   "originalDescription": "Google's next frontier model Discussion | Link",
-   "publishedAt": "2026-10-28T17:27:14.000Z",
-   "discoveredAt": "2026-10-29T10:03:28.916Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "647220397cd7c7cb"
-  },
-  {
-   "id": "8a5e3ec0466b72d0",
-   "sourceId": "apple-newsroom",
-   "sourceName": "Apple Newsroom",
-   "originalTitle": "Apple unveils groundbreaking MacBook Pro with PROLED XDR Display",
-   "originalUrl": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
-   "originalLanguage": "en",
-   "originalDescription": "Apple today introduced the all-new MacBook Pro with PROLED XDR Display featuring breakthrough tandem OLED technology.",
-   "publishedAt": "2026-10-28T17:09:28.430Z",
-   "discoveredAt": "2026-10-28T18:52:51.211Z",
-   "topics": [
-    "mobile-hardware"
-   ],
-   "imageUrl": null,
-   "contentHash": "c1db7de66733aa9b"
-  },
-  {
-   "id": "346aefdaad097d5a",
-   "sourceId": "the-hacker-news",
-   "sourceName": "The Hacker News",
-   "originalTitle": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-   "originalUrl": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
-   "originalLanguage": "en",
-   "originalDescription": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a store must pass identity checks and send Google its full catalog, along with…",
-   "publishedAt": "2026-10-28T17:08:09.000Z",
-   "discoveredAt": "2026-10-28T18:52:51.211Z",
-   "topics": [
-    "cybersecurity",
-    "mobile-hardware"
-   ],
-   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJGjoQXY31UWoQz0bfvFTDRKy4lDpdbhqOJFgOspdG5AcGZNlsme3byg1-XnmyLsx7HQrxb0iojoqyoeO0KDhEDWbLxzQLceuQwSlD8TXgkhzoRCyFepV0PcOwNee4lCypBnYFiZ4DhJ_ZojQ0HyRuCGGqFVAwBxMqdzkOHL2I1tLTUctLATvKl7MMONo/s1600/android-app-install.jpg",
-   "contentHash": "04655f274fe6d344"
-  },
-  {
-   "id": "e8e0cb1d0e685ced",
-   "sourceId": "google-deepmind-blog",
-   "sourceName": "Google DeepMind Blog",
-   "originalTitle": "Gemini 4 Carbon: Our next frontier model",
-   "originalUrl": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-   "originalLanguage": "en",
-   "originalDescription": null,
-   "publishedAt": "2026-10-28T17:00:58.000Z",
-   "discoveredAt": "2026-10-28T18:52:51.211Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "7c66693efbe21bb6"
-  },
-  {
-   "id": "9327e550d0f4f4ee",
-   "sourceId": "meta-newsroom",
-   "sourceName": "Meta Newsroom",
-   "originalTitle": "Meta Partners With Five US Universities to Accelerate Medical and Scientific Breakthroughs",
-   "originalUrl": "https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/",
-   "originalLanguage": "en",
-   "originalDescription": "Meta is bringing Superintelligence models, research funding, and direct researcher collaboration to US universities that are using our models to solve critical issues in science and medicine. The post Meta Partners With Five US Universities to Accelerate Medical and Scientific…",
-   "publishedAt": "2026-10-28T17:00:49.000Z",
-   "discoveredAt": "2026-10-28T18:52:51.211Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": "https://about.fb.com/wp-content/uploads/2026/10/Meta-Partners-With-Five-US-Universities-to-Accelerate-Medical-and-Scientific-Breakthroughs_Header.jpg?fit=1920%2C1080",
-   "contentHash": "4716f81759502710"
-  },
-  {
-   "id": "1760a15dd7dbe317",
-   "sourceId": "vscode-blog",
-   "sourceName": "Visual Studio Code Blog",
-   "originalTitle": "Visual Studio Code 1.144",
-   "originalUrl": "https://code.visualstudio.com/updates/v1_144",
-   "originalLanguage": "en",
-   "originalDescription": "Learn what's new in Visual Studio Code 1.144 Read the full article",
-   "publishedAt": "2026-10-28T17:00:00.000Z",
-   "discoveredAt": "2026-10-25T13:43:48.608Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "3ab987ce80e96655"
-  },
-  {
-   "id": "db30df4bb3be374c",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
-   "originalUrl": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
-   "originalLanguage": "en",
-   "originalDescription": "Following improvements made to Chrome's enhanced autofill last year that included your name, passport number, email address, and physical addresses sourced from your Google Accounts and services like Google Wallet, the feature is now expanding. Starting today, Chrome's enhanced…",
-   "publishedAt": "2026-10-28T17:00:00.000Z",
-   "discoveredAt": "2026-10-28T18:52:51.211Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "49b2ff209acaccf6"
   }
  ]
 }
