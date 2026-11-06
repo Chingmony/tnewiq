@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e23c23bf8692e8d5",
+ "contentHash": "95b087824895f150",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T07:59:50.969Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Anthropic Adds Personal Finance Feature to Claude for Account Linking and Spending Analysis",
+   "summary": "Anthropic has added a personal finance feature to Claude, allowing users to connect bank accounts and credit cards to analyze their financial status. The feature aggregates transaction history from multiple financial accounts to identify spending patterns, upcoming expenses, duplicate payments, and unnecessary fees. Anthropic announced on November 5, local time, that the beta version of this personal finance feature is rolling out to paid subscribers in the United States, specifically targeting users on the Pro, Max, and Ultra plans through the financial data connection service Plaid.",
+   "impact": "This feature could allow users to manage their personal finances more efficiently by leveraging AI to automatically track spending and fees. Developers and security teams might need to consider how sensitive financial data is integrated and handled via third-party services like Plaid.",
+   "keyPoints": [
+    "Anthropic added a personal finance feature to Claude for account linking and spending analysis.",
+    "The beta service launched for paid subscribers in the United States on Pro, Max, and Ultra plans.",
+    "Users connect accounts through the financial data connection service Plaid."
+   ]
+  },
+  "km": {
+   "title": "Anthropic បន្ថែមមុខងារហិរញ្ញវត្ថុផ្ទាល់ខ្លួនទៅក្នុង Claude សម្រាប់ការតភ្ជាប់គណនី និងការវិភាគការចំណាយ",
+   "summary": "Anthropic បានបន្ថែមមុខងារហិរញ្ញវត្ថុផ្ទាល់ខ្លួនទៅក្នុង Claude ដែលអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ភ្ជាប់គណនីធនាគារ និងកាតឥណទាន ដើម្បីវិភាគស្ថានភាពហិរញ្ញវត្ថុផ្ទាល់ខ្លួន។ មុខងារនេះចងក្រងប្រវត្តិប្រតិបត្តិការពីគណនីហិរញ្ញវត្ថុជាច្រើន ដើម្បីស្វែងយល់ពីគំរូនៃការចំណាយ ការចំណាយដែលគ្រោងទុក ក៏ដូចជាការទូទាត់ស្복គ្នា និងកម្រៃសេវាដែលមិនចាំបាច់។ Anthropic បានប្រកាសកាលពីថ្ងៃទី 5 ថា សេវាកម្មបែតាសម្រាប់មុខងារនេះត្រូវបានដាក់ឱ្យប្រើប្រាស់សម្រាប់អ្នកជាវដែលមានបង់ប្រាក់នៅក្នុងសហរដ្ឋអាមេរិក។",
+   "impact": "មុខងារនេះអាចជួយឱ្យអ្នកប្រើប្រាស់គ្រប់គ្រងហិរញ្ញវត្ថុផ្ទាល់ខ្លួនបានកាន់តែប្រសើរឡើងតាមរយៈការប្រើប្រាស់ AI ដើម្បីតាមដានការចំណាយ និងកម្រៃសេវា។ ក្រុមការងារផ្នែកបច្ចេកវិទ្យា និងសុវត្ថិភាពអាចនឹងត្រូវពិចារណាលើរបៀបដែលទិន្នន័យហិរញ្ញវត្ថុរសើបត្រូវបាន統合 និងគ្រប់គ្រងតាមរយៈសេវាកម្មភាគីទីបីដូចជា Plaid។",
+   "keyPoints": [
+    "Anthropic បានបន្ថែមមុខងារហិរញ្ញវត្ថុផ្ទាល់ខ្លួនទៅក្នុង Claude ។",
+    "សេវាកម្មបែតាត្រូវបានដាក់ឱ្យប្រើប្រាស់សម្រាប់អ្នកជាវដែលមានបង់ប្រាក់នៅសហរដ្ឋអាមេរិក។",
+    "អ្នកប្រើប្រាស់ភ្ជាប់គណនីតាមរយៈសេវាកម្ម Plaid ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Anthropic在Claude中添加个人金融功能以连接账户并分析支出",
+   "summary": "Anthropic为Claude新增了个人金融功能，允许用户连接银行账户和信用卡来分析个人财务状况。该功能可汇总多个金融账户的交易记录，以了解消费模式和预期支出，甚至能找出重复扣款或不必要的费用。Anthropic于当地时间5日宣布，该个人金融功能的测试版面向美国地区的付费订阅用户推出，涵盖Pro、Max和Ultra套餐的用户。用户可以通过金融数据连接服务Plaid连接银行账户。",
+   "impact": "该功能可能会让用户利用人工智能自动追踪支出和费用，从而更有效地管理个人财务。开发人员和安全团队可能需要关注通过Plaid等第三方服务集成和处理敏感财务数据的方式。",
+   "keyPoints": [
+    "Anthropic在Claude中增加了个人金融功能以连接账户和分析支出。",
+    "测试版服务向美国地区的Pro、Max和Ultra付费订阅用户推出。",
+    "用户通过金融数据连接服务Plaid连接银行账户。"
+   ]
+  },
+  "ko": {
+   "title": "앤트로픽, 클로드에 개인 금융 기능 추가…계좌 연결해 지출 분석",
+   "summary": "앤트로픽이 클로드에 은행 계좌와 신용카드를 연결해 개인 재무 상태를 분석할 수 있는 개인 금융 기능을 추가했다. 여러 금융 계좌의 거래 내역을 종합해 소비 패턴과 예정 지출을 파악하고, 중복 결제나 불필요한 수수료까지 찾아준다. 앤트로픽은 개인 금융 기능의 베타 서비스를 미국 내 유료 구독자인 프로, 맥스, 울트라 요금제 사용자 대상으로 출시한다고 밝혔다.",
+   "impact": "이 기능은 사용자가 AI를 활용해 지출과 수수료를 자동으로 추적하고 관리하는 데 도움을 줄 수 있다. 개발자와 보안 팀은 플레이드와 같은 타사 서비스를 통해 민감한 금융 데이터가 어떻게 통합되고 처리되는지 검토해야 할 수 있다.",
+   "keyPoints": [
+    "앤트로픽이 클로드에 계좌 연결 및 지출 분석이 가능한 개인 금융 기능을 추가함.",
+    "미국 내 프로, 맥스, 울트라 유료 구독자를 대상으로 베타 서비스 출시.",
+    "플레이드(Plaid) 금융 데이터 연결 서비스를 통해 계좌 연동 지원."
+   ]
+  }
+ }
+}
