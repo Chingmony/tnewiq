@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "48883bea1791b2e2",
+ "contentHash": "6ea50bf8e7621dd7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T00:31:10.646Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Configure, Certify, and Operate Kubernetes GPU Clusters with NVIDIA DSX OS",
+   "summary": "NVIDIA discusses how underperforming GPUs can slow down entire distributed training jobs, even when nodes pass basic health checks and display normal utilization. These performance issues can emerge at any point during a cluster's lifecycle, such as when nodes are replaced or drivers are patched. Operators often only discover these problems after a workload is already running.",
+   "impact": "Technology users and infrastructure operators may face unexpected performance bottlenecks in distributed training jobs due to hard-to-detect GPU issues. Security and operations teams could need better monitoring tools to identify failing hardware before workloads are impacted.",
+   "keyPoints": [
+    "One underperforming GPU can slow down an entire distributed training job.",
+    "Nodes with issues may still pass basic health checks and show normal utilization.",
+    "Problems can appear at any point in a cluster lifecycle due to node replacements or driver patches."
+   ]
+  },
+  "km": {
+   "title": "កំណត់រចនាសម្ព័ន្ធ បញ្ជាក់ និងដំណើរការ Kubernetes GPU Clusters ជាមួយ NVIDIA DSX OS",
+   "summary": "NVIDIA បានពិភាក្សាអំពីរបៀបដែល GPU ដែលដំណើរការយឺតអាចធ្វើឱ្យការបណ្តុះបណ្តាលចែកចាយទាំងមូលយឺតយ៉ាវ ទោះបីជា节点ឆ្លងកាត់ការពិនិត្យសុខភាពមូលដ្ឋានក៏ដោយ។ បញ្ហាទាំងនេះអាចលេចឡើងនៅពេលណាក៏បានក្នុងអំឡុងពេលវដ្តជីវិតរបស់ cluster ដូចជាពេលដែល nodes ត្រូវបានជំនួស ឬ drivers ត្រូវបានកែសម្រួល។ អ្នកប្រតិបត្តិมักរកឃើញបញ្ហាទាំងនេះបន្ទាប់ពីការងារកំពុងដំណើរការ។",
+   "impact": "អ្នកប្រើប្រាស់បច្ចេកវិទ្យា និងអ្នកប្រតិបត្តិអាចនឹងជួបប្រទះបញ្ហាស្ទះដំណើរការដែលមិនបានរំពឹងទុក។ ក្រុមការងារអាចត្រូវការវិធីសាស្ត្រល្អប្រសើរដើម្បីរកឱ្យឃើញបញ្ហាฮาร์ดဝែរមុនពេលវាប៉ះពាល់ដល់ការងារ។",
+   "keyPoints": [
+    "GPU ដែលដំណើរការយឺតអាចធ្វើឱ្យការបណ្តុះបណ្តាលចែកចាយទាំងមូលយឺតយ៉ាវ។",
+    "Nodes ដែលមានបញ្ហានៅតែអាចឆ្លងកាត់ការពិនិត្យសុខភាពមូលដ្ឋាន។",
+    "បញ្ហាអាចបង្ហាញខ្លួននៅពេលណាក៏បានក្នុងអំឡុងពេលវដ្តជីវិតរបស់ cluster។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 NVIDIA DSX OS 配置、认证和运行 Kubernetes GPU 集群",
+   "summary": "NVIDIA 讨论了性能不佳的 GPU 如何减慢整个分布式训练任务的速度，即使节点通过了基本健康检查并显示正常利用率。这些性能问题可能在集群生命周期的任何阶段出现，例如在更换节点或修补驱动程序时。运维人员通常只能在工作负载运行后才发现这些问题。",
+   "impact": "技术用户和运维团队可能会在分布式训练任务中面临意外的性能瓶颈。团队可能需要更好的监控手段，以便在工作负载受到影响之前发现硬件故障。",
+   "keyPoints": [
+    "单个性能不佳的 GPU 可能会减慢整个分布式训练任务。",
+    "存在问题的节点仍可能通过基本健康检查并显示正常利用率。",
+    "由于节点更换或驱动补丁，问题可能在集群生命周期的任何阶段出现。"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA DSX OS를 사용하여 Kubernetes GPU 클러스터 구성, 인증 및 운영",
+   "summary": "NVIDIA는 성능이 저하된 단 하나의 GPU가 기본 상태 검사를 통과하고 정상적인 사용률을 보여주더라도 전체 분산 학습 작업 속도를 저하시킬 수 있다고 설명합니다. 이러한 성능 문제는 노드가 교체되거나 드라이버가 패치되는 등 클러스터 수명 주기 중 언제든지 발생할 수 있습니다. 운영자는 워크로드가 실행된 후에야 비로소 이 문제를 발견하는 경우가 많습니다.",
+   "impact": "기술 사용자 및 운영 팀은 감지하기 어려운 GPU 문제로 인해 분산 학습 작업에서 예상치 못한 성능 저하를 겪을 수 있습니다. 하드웨어 문제로 인해 워크로드가 영향을 받기 전에 이를 식별할 수 있는 도구가 필요할 수 있습니다.",
+   "keyPoints": [
+    "성능이 저하된 단일 GPU로 인해 전체 분산 학습 작업이 느려질 수 있습니다.",
+    "문제가 있는 노드도 기본 상태 검사를 통과하고 정상 사용률을 보일 수 있습니다.",
+    "노드 교체나 드라이버 패치로 인해 클러스터 수명 주기 중 언제든지 문제가 나타날 수 있습니다."
+   ]
+  }
+ }
+}

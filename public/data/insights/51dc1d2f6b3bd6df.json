@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "51dc1d2f6b3bd6df",
+ "contentHash": "f6a2beec88281dc7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T00:25:49.142Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Inside GitHub’s new Git storage architecture",
+   "summary": "GitHub announced its new Git storage architecture designed to handle thousands of writes per second and scale reads on demand. Internal testing demonstrated support for 5,000 concurrent agents working on a repository and 7,200 pushes per second. The architecture minimizes coordination and decouples storage from compute, relying on the observation that only reference updates require agreement while Git objects are immutable.",
+   "impact": "This new architecture may allow developers and organizations to scale agentic development significantly without changing their standard Git workflows. Security teams and developers could also benefit from maintaining consistent low latency and standard protections even under high-frequency writes and read fan-outs.",
+   "keyPoints": [
+    "The architecture supports 5,000 concurrent agents and 7,200 pushes per second on a single repository.",
+    "It relies on two core principles: minimizing coordination and decoupling storage from compute.",
+    "Git objects are immutable and named by contents, meaning only reference updates require agreement.",
+    "Developers continue to push, fetch, and branch using standard Git workflows."
+   ]
+  },
+  "km": {
+   "title": "ស្វែងយល់ពីស្ថាបត្យកម្មទំហំផ្ទុក Git ថ្មីរបស់ GitHub",
+   "summary": "GitHub បានប្រកាសពីស្ថាបត្យកម្មទំហំផ្ទុក Git ថ្មីរបស់ខ្លួន ដែលមានសមត្ថភាពគ្រប់គ្រងការសរសេររាប់ពាន់ដងក្នុងមួយវិនាទី និងការអានតាមតម្រូវការ។ ការធ្វើតេស្តផ្ទៃក្នុងបានបង្ហាញពីសមត្ថភាពក្នុងការគាំទ្រភ្នាក់ងារចំនួន 5,000 ក្នុងពេលដំណាលគ្នា និងការជំរុញកូដ 7,200 ដងក្នុងមួយវិនាទី។ ស្ថាបត្យកម្មនេះកាត់បន្ថយការសម្របសម្រួល និងបំបែកទំហំផ្ទុកចេញពីកុំព្យូទ័រ ដោយផ្អែកលើការយល់ដឹងថាមានតែកាធ្វើបច្ចុប្បន្នភាពឯកសារយោងប៉ុណ្ណោះដែលត្រូវការការយល់ព្រម។",
+   "impact": "ស្ថាបត្យកម្មថ្មីនេះអាចអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍ពង្រីកការអភិវឌ្ឍន៍ដោយភ្នាក់ងារយ៉ាងខ្លាំងដោយមិនចាំបាច់ផ្លាស់ប្តូរដំណើរការការងារ Git ធម្មតាឡើយ។",
+   "keyPoints": [
+    "ស្ថាបត្យកម្មនេះគាំទ្រភ្នាក់ងារចំនួន 5,000 ក្នុងពេលដំណាលគ្នា និងការជំរុញកូដ 7,200 ដងក្នុងមួយវិនាទីនៅលើឃ្លាំងទិន្នន័យតែមួយ។",
+    "វាពឹងផ្អែកលើគោលការណ៍ស្នូលពីរគឺ ការកាត់បន្ថយការសម្របសម្រួល និងការបំបែកទំហំផ្ទុកចេញពីកុំព្យូទ័រ។",
+    "អ្នកអភិវឌ្ឍន៍នៅតែបន្តជំរុញ ទាញ និងបង្កើតសាខាតាមដំណើរការការងារ Git ស្តង់ដារ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "深入了解 GitHub 的全新 Git 存储架构",
+   "summary": "GitHub 宣布推出了全新的 Git 架构，能够每秒处理数千次写入并按需扩展读取。内部测试表明，该架构支持 5,000 个并发代理在一个仓库上工作，每秒可向仓库发送 7,200 次推送。该架构通过最小化协调并将存储与计算解耦来构建，其核心观察是只有引用更新需要达成一致，而 Git 对象是不可变的。",
+   "impact": "这一新架构可能会让开发者在不改变标准 Git 工作流程的情况下，显著扩展基于代理的开发规模。安全团队和技术用户也可能在高频写入和读取扩展的情况下受益于持续低延迟。",
+   "keyPoints": [
+    "该架构支持在单个仓库上由 5,000 个并发代理工作并实现每秒 7,200 次推送。",
+    "核心原则包括最小化协调以及将存储与计算解耦。",
+    "由于 Git 对象是不可变的，因此只有引用更新需要达成一致。",
+    "开发者仍可像往常一样使用标准 Git 工作流程进行推送、获取和创建分支。"
+   ]
+  },
+  "ko": {
+   "title": "GitHub의 새로운 Git 스토리지 아키텍처 내부 살펴보기",
+   "summary": "GitHub는 초당 수천 건의 쓰기를 처리하고 온디맨드로 읽기를 확장할 수 있는 새로운 Git 스토리지 아키텍처를 발표했습니다. 내부 테스트를 통해 하나의 리포지토리에 대해 5,000개의 동시 에이전트를 지원하고 초당 7,200회의 푸시를 처리하는 능력을 입증했습니다. 이 아키텍처는 조정을 최소화하고 스토리지와 컴퓨팅을 분리하여 구축되었습니다.",
+   "impact": "이 새로운 아키텍처를 통해 개발자는 표준 Git 워크플로를 변경하지 않고도 에이전트 기반 개발을 크게 확장할 수 있습니다. 보안 팀과 기술 사용자도 높은 빈도의 쓰기 작업 속에서도 일관되게 낮은 지연 시간을 유지할 수 있는 이점을 얻을 수 있습니다.",
+   "keyPoints": [
+    "이 아키텍처는 하나의 리포지토리에서 5,000개의 동시 에이전트와 초당 7,200회의 푸시를 지원합니다.",
+    "조정 최소화와 스토리지 및 컴퓨팅 분리라는 두 가지 핵심 원칙을 기반으로 합니다.",
+    "참조 업데이트만 합의가 필요하며 Git 객체는 불변입니다.",
+    "개발자는 기존과 동일한 표준 Git 워크플로를 사용하여 푸시, 페치, 브랜치 작업을 수행합니다."
+   ]
+  }
+ }
+}

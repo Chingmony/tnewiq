@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d6f90cb0462c10ef",
+ "contentHash": "ba4785840ef33f1f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T00:25:15.693Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Getting started with Web Answer on Amazon Bedrock AgentCore",
+   "summary": "AWS announced the general availability of Web Answer on Amazon Bedrock AgentCore, providing a managed tool that delivers synthesized, source-cited answers from current web sources with a single API call. The tool eliminates the need for developers to build and maintain a custom search, retrieval, synthesis, and citation pipeline. It handles parallel searches, fact-checking, and responsible AI safeguards automatically. Developers can add it as a target on an AgentCore Gateway and call it from an agent.",
+   "impact": "This feature could save developers significant time by removing the overhead of building custom retrieval and citation pipelines for agents. Security and development teams may benefit from reduced code maintenance and fewer points of failure related to hallucinations and stale content. However, relying on a managed service means relinquishing some direct control over the synthesis process.",
+   "keyPoints": [
+    "Web Answer on Amazon Bedrock AgentCore is now generally available.",
+    "It collapses search, retrieval, synthesis, and citation into a single tool call.",
+    "It runs agentic searches in parallel, verifies facts, and returns answers with source URLs.",
+    "It differs from Web Search by handling the synthesis and model execution for the user."
+   ]
+  },
+  "km": {
+   "title": "ការចាប់ផ្តើមប្រើប្រាស់ Web Answer នៅលើ Amazon Bedrock AgentCore",
+   "summary": "AWS បានប្រកាសពីការដាក់ឱ្យប្រើប្រាស់ទូទៅនៃ Web Answer នៅលើ Amazon Bedrock AgentCore ដែលជាឧបករណ៍គ្រប់គ្រងមួយផ្តល់នូវចម្លើយដែលមានការសង្ខេប និងមានប្រភពយោងពីបណ្តាញអ៊ីនធឺណិតបច្ចុប្បន្ន តាមរយៈការហៅឧបករណ៍តែមួយ។ ឧបករណ៍នេះជួយឱ្យអ្នកសាងសង់ភ្នាក់ងារមិនបាច់ចំណាយពេលបង្កើត និងថែទាំប្រព័ន្ធស្វែងរក ទាញយក សង្ខេប និងដកស្រង់ប្រភពដោយខ្លួនឯងនោះទេ។ វាគ្រប់គ្រងការស្វែងរកស្របគ្នា ការផ្ទៀងផ្ទាត់ការពិត និងសុវត្ថិភាពបញ្ញាសិប្បនិម្មិតដោយស្វ័យប្រវត្តិ។",
+   "impact": "លក្ខណៈពិសេសនេះអាចជួយសន្សំសំចៃពេលវេលាដល់អ្នកអភិវឌ្ឍន៍យ៉ាងច្រើនដោយកាត់បន្ថយការងារបង្កើតប្រព័ន្ធទាញយក និងដកស្រង់ប្រភពផ្ទាល់ខ្លួនសម្រាប់ភ្នាក់ងារ។ ក្រុមសុវត្ថិភាព និងអ្នកអភិវឌ្ឍន៍អាចទទួលបានផលប្រយោជន៍ពីការថែទាំកូដតិចជាងមុន និងកាត់បន្ថយកំហុសឆ្គង។ ប៉ុន្តែ ការពឹងផ្អែកលើសេវាកម្មគ្រប់គ្រងមានន័យថាការបាត់បង់ការគ្រប់គ្រងផ្ទាល់ខ្លះលើដំណើរការសង្ខេប។",
+   "keyPoints": [
+    "Web Answer នៅលើ Amazon Bedrock AgentCore ឥឡូវនេះមានការដាក់ឱ្យប្រើប្រាស់ទូទៅហើយ។",
+    "វាបញ្ចូលការស្វែងរក ការទាញយក ការសង្ខេប និងការដកស្រង់ប្រភពទៅក្នុងការហៅឧបករណ៍តែមួយ។",
+    "វាដំណើរការស្វែងរកស្របគ្នា ផ្ទៀងផ្ទាត់ការពិត និងត្រឡប់ចម្លើយដែលមានតំណភ្ជាប់ប្រភព។",
+    "វាខុសគ្នាពី Web Search ត្រង់ថាវាគ្រប់គ្រងការសង្ខេប និងដំណើរការគំរូជំនួសអ្នកប្រើប្រាស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Bedrock AgentCore 上的 Web Answer 入门指南",
+   "summary": "AWS 宣布 Amazon Bedrock AgentCore 上的 Web Answer 正式全面可用。借助 Web Answer，智能体构建者只需进行一次工具调用，即可获取来自当前网络来源的、经过综合且带有引用的答案。他们不再需要自行构建搜索、检索、综合和引用管道。该工具会自动规划并行搜索、核对事实并应用负责任的 AI 安全防护措施。",
+   "impact": "此功能可以通过消除为智能体构建自定义检索和引用管道的开销，从而为开发人员节省大量时间。安全和开发团队可能会受益于更少的代码维护以及与幻觉和陈旧内容相关的更少故障点。然而，依赖托管服务意味着放弃对综合过程的一些直接控制权。",
+   "keyPoints": [
+    "Amazon Bedrock AgentCore 上的 Web Answer 现已全面可用。",
+    "它将搜索、检索、综合和引用压缩为单次工具调用。",
+    "它会并行运行智能搜索、验证事实并返回带有源 URL 的答案。",
+    "它与 Web Search 的不同之处在于它为用户处理综合和模型执行。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock AgentCore의 Web Answer 시작하기",
+   "summary": "AWS는 Amazon Bedrock AgentCore의 Web Answer 정식 출시를 발표했습니다. Web Answer를 사용하면 에이전트 개발자는 단 한 번의 도구 호출로 최신 웹 소스에서 가져온 통합되고 출처가 표기된 답변을 얻을 수 있습니다. 개발자는 더 이상 검색, 검색 결과 회수, 통합 및 인용 파이프라인을 직접 구축하고 유지 관리할 필요가 없습니다. 이 도구는 병렬 검색, 사실 확인, 책임 있는 AI 안전 장치를 자동으로 처리합니다.",
+   "impact": "이 기능은 에이전트를 위한 맞춤형 검색 및 인용 파이프라인 구축에 드는 부담을 줄여주어 개발자의 시간을 크게 절약할 수 있습니다. 보안 및 개발 팀은 코드 유지 관리 감소와 환각 및 오래된 콘텐츠로 인한 오류 지점 감소의 혜택을 누릴 수 있습니다. 그러나 관리형 서비스에 의존한다는 것은 통합 프로세스에 대한 일부 직접적인 제어권을 포기한다는 것을 의미합니다.",
+   "keyPoints": [
+    "Amazon Bedrock AgentCore의 Web Answer가 이제 정식 출시되었습니다.",
+    "검색, 회수, 통합, 인용을 단일 도구 호출로 통합합니다.",
+    "병렬로 검색을 계획 및 실행하고, 사실을 확인하며, 소스 URL이 포함된 답변을 반환합니다.",
+    "사용자를 대신하여 통합 및 모델 실행을 처리한다는 점에서 Web Search와 다릅니다."
+   ]
+  }
+ }
+}

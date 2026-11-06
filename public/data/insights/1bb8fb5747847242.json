@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1bb8fb5747847242",
+ "contentHash": "2f9e8661ba68d895",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T00:29:20.160Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Baidu releases ERNIE 5.5 Flash Base with 280 billion parameters as an open-source foundation model",
+   "summary": "Baidu has released ERNIE 5.5 Flash Base, a new open-source foundation model featuring 280 billion parameters. The model is a Mixture of Experts architecture pre-trained on 33.5 trillion tokens. It has been shipped deliberately without fine-tuning to allow developers to adapt it for their own use.",
+   "impact": "Developers and technology users may find this model useful for custom adaptation since it is provided without fine-tuning. Security teams and developers can review the open-source release for integration into their infrastructure.",
+   "keyPoints": [
+    "Baidu released ERNIE 5.5 Flash Base as an open-source foundation model.",
+    "The model has 280 billion parameters and uses a Mixture of Experts architecture.",
+    "It was pre-trained on 33.5 trillion tokens.",
+    "The model is shipped without fine-tuning for developer customization."
+   ]
+  },
+  "km": {
+   "title": "Baidu ចេញផ្សាយ ERNIE 5.5 Flash Base ដែលមានប៉ារ៉ាម៉ែត្រ ២៨០ ប៊ីលាន ជាម៉ូដែលមូលដ្ឋានប្រភពបើកចំហ",
+   "summary": "Baidu បានចេញផ្សាយ ERNIE 5.5 Flash Base ដែលជាម៉ូដែលមូលដ្ឋានប្រភពបើកចំហមានប៉ារ៉ាម៉ែត្រ ២៨០ ប៊ីលាន។ ម៉ូដែលនេះត្រូវបានបណ្តុះបណ្តាលទុកជាមុននៅលើថូខឹនចំនួន ៣៣,៥ ទ្រីលាន។ វាត្រូវបានបញ្ចេញដោយចេតនាដោយគ្មានការលៃតម្រូវល្អិតល្អន់ ដើម្បីឱ្យអ្នកអភិវឌ្ឍន៍អាចយកវាទៅប្រើប្រាស់តាមតម្រូវការ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងយល់ថាវាមានប្រយោជន៍សម្រាប់ការកែសម្រួលផ្ទាល់ខ្លួន ព្រោះវាត្រូវបានផ្តល់ជូនដោយគ្មានការលៃតម្រូវល្អិតល្អន់។ ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍អាចពិនិត្យមើលការចេញផ្សាយប្រភពបើកចំហនេះសម្រាប់ការដាក់បញ្ចូលទៅក្នុងប្រព័ន្ធរបស់ពួកគេ។",
+   "keyPoints": [
+    "Baidu បានចេញផ្សាយ ERNIE 5.5 Flash Base ជាម៉ូដែលមូលដ្ឋានប្រភពបើកចំហ។",
+    "ម៉ូដែលនេះមានប៉ារ៉ាម៉ែត្រ ២៨០ ប៊ីលាន។",
+    "វាត្រូវបានបណ្តុះបណ្តាលទុកជាមុននៅលើថូខឹនចំនួន ៣៣,៥ ទ្រីលាន។",
+    "ម៉ូដែលនេះត្រូវបានបញ្ចេញដោយគ្មានការលៃតម្រូវល្អិតល្អន់សម្រាប់អ្នកអភិវឌ្ឍន៍។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Baidu 发布拥有 2800 亿参数的开源基础模型 ERNIE 5.5 Flash Base",
+   "summary": "Baidu 发布了 ERNIE 5.5 Flash Base，这是一个拥有 2800 亿参数的开源基础模型。该模型采用了在 33.5 万亿个词元上进行预训练的混合专家架构。该模型故意在没有微调的情况下发布，以便开发者可以根据需要进行调整。",
+   "impact": "由于该模型在发布时没有经过微调，开发者和技术用户可能会发现它非常适合进行自定义调整。开发人员和安全团队可以评估这一开源模型，以将其集成到现有的基础设施中。",
+   "keyPoints": [
+    "Baidu 发布了开源基础模型 ERNIE 5.5 Flash Base。",
+    "该模型拥有 2800 亿参数并采用混合专家架构。",
+    "模型在 33.5 万亿个词元上进行了预训练。",
+    "发布时故意未进行微调以便开发者自定义。"
+   ]
+  },
+  "ko": {
+   "title": "Baidu, 2,800억 개의 파라미터를 가진 오픈 소스 파운데이션 모델 ERNIE 5.5 Flash Base 출시",
+   "summary": "Baidu는 2,800억 개의 파라미터를 가진 새로운 오픈 소스 파운데이션 모델인 ERNIE 5.5 Flash Base를 출시했습니다. 이 모델은 33조 5,000억 개의 토큰으로 사전 학습된 전문가 혼합(MoE) 아키텍처를 사용합니다. 개발자가 원하는 대로 활용할 수 있도록 미세 조정 없이 의도적으로 배포되었습니다.",
+   "impact": "개발자와 기술 사용자들은 미세 조정 없이 제공되는 이 모델을 통해 맞춤형 조정을 수행할 수 있을 것입니다. 개발자와 보안 팀은 인프라 통합을 위해 이 오픈 소스 배포판을 검토할 수 있습니다.",
+   "keyPoints": [
+    "Baidu가 오픈 소스 파운데이션 모델로 ERNIE 5.5 Flash Base를 출시했습니다.",
+    "이 모델은 2,800억 개의 파라미터를 가지고 있습니다.",
+    "33조 5,000억 개의 토큰으로 사전 학습되었습니다.",
+    "개발자 맞춤 조정을 위해 미세 조정 없이 배포되었습니다."
+   ]
+  }
+ }
+}

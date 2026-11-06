@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "73081b685d2070af",
+ "contentHash": "3662bbc9bcf4ad9f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T00:28:47.722Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon DynamoDB now supports bulk put items",
+   "summary": "AWS has announced the general availability of bulk put items for Amazon DynamoDB, enabling users to write data directly from Amazon S3 into existing DynamoDB tables. This fully managed feature removes the need to build custom ingestion pipelines or manage table capacity. It includes support for individual item condition expressions for insert-only or version-guarded writes, and offers both Standard and Accelerated tiers.",
+   "impact": "Developers and data engineers could use this feature to simplify data backfills, migrations, and catalog enrichments without impacting existing workloads. The managed approach may reduce the operational overhead associated with building custom pipelines and handling table capacity during large-scale data imports.",
+   "keyPoints": [
+    "Amazon DynamoDB now supports bulk put items to write data from Amazon S3 into existing tables.",
+    "The feature offers Standard and Accelerated tiers for different workload timing requirements.",
+    "Each item supports its own condition expression for insert-only or version-guarded writes.",
+    "Common use cases include daily refreshes, catalog enrichments, backfills, and migrations."
+   ]
+  },
+  "km": {
+   "title": "Amazon ឥឡូវនេះគាំទ្រការបញ្ចូលទិន្នន័យចំនួនច្រើនក្នុងពេលតែមួយសម្រាប់ DynamoDB",
+   "summary": "AWS បានប្រកាសពីការដាក់ឱ្យប្រើប្រាស់ជាទូទៅនូវមុខងារបញ្ចូលទិន្នន័យចំនួនច្រើនសម្រាប់ Amazon DynamoDB ដែលជាមុខងារគ្រប់គ្រងពេញលេញសម្រាប់សរសេរទិន្នន័យពី Amazon S3 ទៅក្នុងតារាង DynamoDB ដែលមានស្រាប់។ មុខងារនេះជួយឱ្យអ្នកអភិវឌ្ឍន៍ និងវិស្វករទិន្នន័យអាចសរសេរទិន្នន័យដោយមិនបាច់បង្កើតបំពង់បង្ហូរទិន្នន័យផ្ទាល់ខ្លួន ឬប៉ះពាល់ដល់បន្ទុកការងារដែលមានស្រាប់នោះទេ។ វាគាំទ្រកន្សោមលក្ខខណ្ឌសម្រាប់ធាតុនីមួយៗ និងមានកម្រិត Standard និង Accelerated។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងក្រុមការងារបច្ចេកវិទ្យាអាចប្រើប្រាស់មុខងារនេះដើម្បីសម្រួលដល់ការផ្ទេរទិន្នន័យ និងការបន្ថែមទិន្នន័យទ្រង់ទ្រាយធំដោយមិនបារម្ភពីរឿងរៀបចំបំពង់ទិន្នន័យផ្ទាល់ខ្លួន។ វាអាចជួយកាត់បន្ថយពេលវេលា និងការចំណាយលើការគ្រប់គ្រងសមត្ថភាពតារាង។",
+   "keyPoints": [
+    "Amazon DynamoDB ឥឡូវនេះគាំទ្រការបញ្ចូលទិន្នន័យពី Amazon S3 ទៅក្នុងតារាងដែលមានស្រាប់។",
+    "មានកម្រិត Standard និង Accelerated សម្រាប់តម្រូវការពេលវេលាខុសគ្នា។",
+    "ធាតុនីមួយៗគាំទ្រកន្សោមលក្ខខណ្ឌរៀងខ្លួនសម្រាប់ការសរសេរទិន្នន័យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon DynamoDB 现已支持批量写入项目功能",
+   "summary": "AWS 宣布 Amazon DynamoDB 的批量写入项目功能已正式全面可用，这是一项全托管功能，可将 Amazon S3 中的数据写入现有的 DynamoDB 表中。利用此功能，开发人员和数据エンジニア无需构建自定义管道或管理表容量即可写入数据。该功能支持每项使用各自的条件表达式，并提供标准层和加速层以满足不同工作负载的需求。",
+   "impact": "开发人员和安全或数据团队可以利用此功能简化数据迁移、回填和目录丰富工作，而不会对现有工作负载造成影响。这种托管方式可能会降低构建自定义注入管道和处理表容量时的操作复杂性。",
+   "keyPoints": [
+    "Amazon DynamoDB 现已支持将 Amazon S3 中的数据批量写入现有表。",
+    "提供标准层和加速层以适应不同的时间敏感度工作负载。",
+    "每个项目支持自身的条件表达式以进行插入或版本保护写入。",
+    "常见用例包括每日刷新、大型目录丰富、回填和迁移。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon DynamoDB, 대량 항목 쓰기 기능 지원 시작",
+   "summary": "AWS는 Amazon S3의 데이터를 기존 DynamoDB 테이블에 직접 쓸 수 있는 완전 관리형 기능인 Amazon DynamoDB용 대량 항목 쓰기의 정식 출시를 발표했습니다. 이 기능을 통해 개발자와 데이터 엔지니어는 커스텀 파이프라인을 구축하거나 테이블 용량을 관리하지 않고도 비용 효율적으로 데이터를 쓸 수 있습니다. 각 항목은 개별 조건식을 지원하며 Standard 계층과 Accelerated 계층을 제공합니다.",
+   "impact": "개발자와 엔지니어는 이 기능을 사용하여 기존 워크로드에 영향을 주지 않고 대규모 데이터 마이그레이션, 백필, 카탈로그 보강 등을 간소화할 수 있습니다. 관리형 접근 방식을 통해 커스텀 파이프라인 구축 및 테이블 용량 관리에 소요되는 운영 부담을 줄일 수 있습니다.",
+   "keyPoints": [
+    "Amazon DynamoDB는 이제 S3의 데이터를 기존 테이블로 쓰는 대량 항목 쓰기 기능을 지원합니다.",
+    "대부분의 워크로드를 위한 Standard 계층과 시간 민감형 워크로드를 위한 Accelerated 계층을 제공합니다.",
+    "각 항목은 삽입 전용 또는 버전 보호 쓰기를 위한 자체 조건식을 지원합니다.",
+    "일일 새로 고침, 대규모 카탈로그 보강, 백필, 마이그레이션 등이 일반적인 사용 사례입니다."
+   ]
+  }
+ }
+}

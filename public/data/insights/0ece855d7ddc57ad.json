@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0ece855d7ddc57ad",
+ "contentHash": "85fed6fedca31e7f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T00:25:25.970Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Announcing Web Answer on Amazon Bedrock AgentCore",
+   "summary": "Amazon Web Services has announced the general availability of Web Answer on Amazon Bedrock AgentCore. Web Answer is a managed tool that provides a synthesized, grounded, and cited answer to natural-language questions in a single call. It builds on the previously launched Web Search capability to deliver finished answers using current web sources.",
+   "impact": "Agent builders could use this tool to integrate web-sourced answers into their agents without having to build and maintain custom search, retrieval, and citation pipelines. Developers may benefit from built-in controls such as domain lists and publish-date filters.",
+   "keyPoints": [
+    "Web Answer is generally available on Amazon Bedrock AgentCore in the US East (N. Virginia) Region.",
+    "It returns a synthesized, cited answer from current web sources in a single tool call.",
+    "Features include domain include and deny lists, as well as publish-date filters.",
+    "It attaches as a target on an AgentCore Gateway and is called over MCP with IAM authentication."
+   ]
+  },
+  "km": {
+   "title": "ការប្រកាសអំពី Web Answer នៅលើ Amazon Bedrock AgentCore",
+   "summary": "ក្រុមហ៊ុន Amazon បានប្រកាសពីការដាក់ឱ្យប្រើប្រាស់ជាទូទៅនៃ Web Answer នៅលើ Amazon Bedrock AgentCore។ វាគឺជាឧបករណ៍គ្រប់គ្រងមួយដែលផ្ដល់នូវចម្លើយដែលមានការសង្ខេប និងមានឯកសារយោងពីប្រភពបណ្ដាញសម្រាប់សំណួរភាសាធម្មជាតិក្នុងពេលហៅតែមួយ។ មុខងារនេះត្រូវបានបង្កើតឡើងបន្តពី Web Search ដើម្បីផ្ដល់ជាចម្លើយសម្រេចស្រេចដល់អ្នកប្រើប្រាស់។",
+   "impact": "អ្នកសាងសង់ភ្នាក់ងារអាចភ្ជាប់វាទៅនឹងភ្នាក់ងាររបស់ពួកគេ ដើម្បីទទួលបានចម្លើយដែលផ្អែកលើបណ្ដាញបច្ចុប្បន្នដោយមិនចាំបាច់បង្កើតប្រព័ន្ធស្វែងរកផ្ទាល់ខ្លួន។ វាក៏ផ្ដល់នូវការគ្រប់គ្រងដែនកំណត់ និងតម្រងកាលបរិច្ឆេទផងដែរ។",
+   "keyPoints": [
+    "Web Answer គឺមានវត្តមានជាទូទៅនៅក្នុងតំបន់ US East (N. Virginia)។",
+    "វាផ្ដល់នូវចម្លើយដែលមានការយោងប្រភពយ៉ាងត្រឹមត្រូវតាមរយៈការហៅឧបករណ៍តែមួយ។",
+    "វាមានមុខងារកំណត់ដែនអនុញ្ញាត បដិសេធ និងតម្រងកាលបរិច្ឆេទបោះពុម្ពផ្សាយ។",
+    "វាភ្ជាប់ជាគោលដៅនៅលើ AgentCore Gateway តាមរយៈ MCP និងផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវដោយ IAM។"
+   ]
+  },
+  "zh-CN": {
+   "title": "宣布在 Amazon Bedrock AgentCore 上推出 Web Answer",
+   "summary": "亚马逊宣布在 Amazon Bedrock AgentCore 上正式推出 Web Answer。Web Answer 是一项托管工具，可以通过单次调用对自然语言问题返回综合的、有依据的且带引用的答案。它在之前推出的 Web Search 基础上进行了扩展，直接返回最终整理好的答案。",
+   "impact": "智能体构建者可以使用此工具将基于当前网页来源的答案集成到他们的智能体中，而无需自己构建和维护搜索、检索和引用流程。开发人员还可以通过域名黑白名单和发布日期过滤器来控制搜索范围。",
+   "keyPoints": [
+    "Web Answer 现已在 US East (N. Virginia) 区域正式可用。",
+    "它通过单次工具调用即可返回基于当前网页来源的带引用答案。",
+    "支持包含/拒绝域名列表以及发布日期过滤器以控制搜索范围。",
+    "它作为目标附加在 AgentCore Gateway 上，通过 MCP 调用并使用 IAM 进行身份验证。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock AgentCore의 Web Answer 출시 발표",
+   "summary": "아마존은 Amazon Bedrock AgentCore에서 Web Answer의 정식 출시를 발표했습니다. Web Answer는 자연어 질문에 대해 단일 호출로 종합되고 출처가 표기된 답변을 반환하는 관리형 도구입니다. 이 도구는 기존의 Web Search 기능을 확장하여 검색된 웹 콘텐츠를 완성된 답변 형태로 제공합니다.",
+   "impact": "에이전트 개발자는 자체 검색 및 추출 파이프라인을 구축하지 않고도 현재 웹 소스 기반의 완성된 답변을 에이전트에 연동할 수 있습니다. 도메인 허용 및 거부 목록, 게시일 필터 등을 통해 검색 범위를 제어할 수 있습니다.",
+   "keyPoints": [
+    "Web Answer는 US East (N. Virginia) 리전에서 정식 제공됩니다.",
+    "단 한 번의 도구 호출로 최신 웹 소스 기반의 출처가 있는 답변을 반환합니다.",
+    "도메인 포함 및 거부 목록, 게시일 필터를 사용하여 검색 범위를 제어할 수 있습니다.",
+    "AgentCore Gateway의 타겟으로 연결되며 IAM 인증을 통해 MCP로 호출됩니다."
+   ]
+  }
+ }
+}

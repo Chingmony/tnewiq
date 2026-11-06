@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6743065e0cc44bea",
+ "contentHash": "870eb16d5f83afc4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T00:25:36.366Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them",
+   "summary": "OpenAI has introduced GPT-6 Cyber, an AI model designed to discover security vulnerabilities in software, create exploits, and recommend patches. According to OpenAI, the model has identified 81 previously unknown vulnerabilities in Firefox and generated 948 working exploits within the Linux kernel, outperforming its predecessor significantly.",
+   "impact": "This model could help security teams discover vulnerabilities faster and develop patches more efficiently. However, its ability to develop working exploits may also raise security concerns regarding automated attacks.",
+   "keyPoints": [
+    "OpenAI introduced the GPT-6 Cyber AI model for security tasks.",
+    "It can find vulnerabilities, develop exploits, and suggest patches.",
+    "It discovered 81 previously unknown vulnerabilities in Firefox.",
+    "It created 948 working exploits in the Linux kernel."
+   ]
+  },
+  "km": {
+   "title": "GPT-6 Cyber របស់ OpenAI អាចចូលប្រព័ន្ធនិងស្នើវិធីជួសជុលបាន",
+   "summary": "OpenAI បានដាក់បង្ហាញ GPT-6 Cyber ដែលជាគំរូ AI សាងសង់ឡើងដើម្បីស្វែងរកចំណុចខ្សោយផ្នែកសន្តិសុខក្នុងកម្មវិធី អភិវឌ្ឍការវាយប្រហារ និងស្នើបំណះ។ យោងតាម OpenAI វាបានរកឃើញចំណុចខ្សោយដែលមិនធ្លាប់ដឹងពីមុនចំនួន 81 នៅក្នុង Firefox និងបានអភិវឌ្ឍការវាយប្រហារដែលដំណើរការបានចំនួន 948 នៅក្នុង Linux kernel ដែលលើសពីម៉ូដែលមុនយ៉ាងខ្លាំង។",
+   "impact": "វាអាចជួយក្រុមសន្តិសុខស្វែងរកចំណុចខ្សោយបានលឿន និងអភិវឌ្ឍបំណះបានកាន់តែមានប្រសិទ្ធភាព។ ប៉ុន្តែសមត្ថភាពក្នុងការអភិវឌ្ឍការវាយប្រហារក៏អាចបង្កើនក្តីបារម្ភផ្នែកសន្តិសុខផងដែរ។",
+   "keyPoints": [
+    "OpenAI បានណែនាំគំរូ AI GPT-6 Cyber សម្រាប់កិច្ចការសន្តិសុខ។",
+    "វាអាចរកចំណុចខ្សោយ អភិវឌ្ឍការវាយប្រហារ និងស្នើបំណះ។",
+    "វាបានរកឃើញចំណុចខ្សោយថ្មីចំនួន 81 ក្នុង Firefox។",
+    "វាបានបង្កើតការវាយប្រហារចំនួន 948 ក្នុង Linux kernel។"
+   ]
+  },
+  "zh-CN": {
+   "title": "OpenAI 的 GPT-6 Cyber 既能入侵系统又能提出修复方案",
+   "summary": "OpenAI 推出了 GPT-6 Cyber，这是一个旨在发现软件安全漏洞、开发利用代码并建议补丁的 AI 模型。根据 OpenAI 的说法，它已经在 Firefox 中发现了 81 个以前未知的漏洞，并在 Linux 内核中开发了 948 个可运行的漏洞利用程序，显著超过了其前身。",
+   "impact": "该模型可能会帮助安全团队更快地发现漏洞并更有效地开发补丁。然而，它开发可用漏洞利用的能力也可能引发对自动化攻击的安全担忧。",
+   "keyPoints": [
+    "OpenAI 推出了用于安全任务的 GPT-6 Cyber AI 模型。",
+    "它能够寻找漏洞、开发利用代码并建议补丁。",
+    "它在 Firefox 中发现了 81 个以前未知的漏洞。",
+    "它在 Linux 内核中创建了 948 个可运行的漏洞利用程序。"
+   ]
+  },
+  "ko": {
+   "title": "OpenAI의 GPT-6 Cyber는 시스템 침투와 수정 제안이 모두 가능합니다",
+   "summary": "OpenAI는 소프트웨어 보안 취약점을 찾고, 익스플로잇을 개발하며, 패치를 제안하도록 구축된 AI 모델인 GPT-6 Cyber를 공개했습니다. OpenAI에 따르면, 이 모델은 Firefox에서 이전에 알려지지 않은 81개의 취약점을 발견했으며 Linux 커널에서 948개의 작동하는 익스플로잇을 개발하여 이전 모델보다 훨씬 뛰어난 성능을 보였습니다.",
+   "impact": "이 모델은 보안 팀이 취약점을 더 빠르게 발견하고 패치를 더 효율적으로 개발하는 데 도움을 줄 수 있습니다. 그러나 작동하는 익스플로잇을 개발하는 능력은 자동화된 공격과 관련된 보안 우려를 높일 수도 있습니다.",
+   "keyPoints": [
+    "OpenAI는 보안 작업을 위한 GPT-6 Cyber AI 모델을 소개했습니다.",
+    "취약점 찾기, 익스플로잇 개발, 패치 제안이 가능합니다.",
+    "Firefox에서 이전에 알려지지 않은 81개의 취약점을 발견했습니다.",
+    "Linux 커널에서 948개의 작동하는 익스플로잇을 생성했습니다."
+   ]
+  }
+ }
+}

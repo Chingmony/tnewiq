@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e0773151ab5d4260",
+ "contentHash": "16f57ff45bf7d956",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T00:27:56.152Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How Amazon Marketplace evaluates content quality with Amazon SageMaker AI",
+   "summary": "Amazon Marketplace uses a multi-model fusion approach powered by Amazon SageMaker AI to evaluate the holistic quality of A+ Content on product detail pages. By rendering complete ecommerce content as a single snapshot and analyzing it with Vision-Language Models, the system assesses how text, images, and layout work together. The pipeline combines VLM semantic scores with OCR readability signals using a CatBoost classifier, and employs SHAP to generate actionable improvement recommendations for selling partners.",
+   "impact": "Development and security teams working on large-scale content moderation or quality evaluation could use this multi-model fusion approach to assess heterogeneous media holistically rather than checking individual assets in isolation. Implementing similar pipelines on Amazon SageMaker AI may help organizations automate complex review processes while providing explainable recommendations to end users.",
+   "keyPoints": [
+    "Selling partners using high-quality A+ Content can boost sales by 8 to 20 percent.",
+    "The evaluation system renders full ecommerce content as a single snapshot to assess the complete user experience.",
+    "Vision-Language Models are paired with OCR readability signals in a CatBoost classifier trained on expert annotations.",
+    "SHAP is used to explain quality decisions and generate actionable recommendations for improving content."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែល Amazon Marketplace វាយតម្លៃគុណភាពមាតិកាដោយប្រើ Amazon SageMaker AI",
+   "summary": "Amazon Marketplace ប្រើប្រាស់វិធីសាស្ត្របញ្ចូលគ្នានូវម៉ូដែលច្រើនដែលដំណើរការដោយ Amazon SageMaker AI ដើម្បីវាយតម្លៃគុណភាពរួមនៃមាតិកា A+ នៅលើទំព័រព័ត៌មានលម្អិតនៃផលិតផល។ តាមរយៈការបង្ហាញមាតិកាពាណិជ្ជកម្មអេឡិចត្រូនិកពេញលេញជាផ្ទាំងតែមួយ និងវិភាគវាជាមួយ Vision-Language Models ប្រព័ន្ធនេះវាយតម្លៃពីរបៀបដែលអត្ថបទ រូបភាព និងប្លង់ដំណើរការរួមគ្នា។ បំពង់ដំណើរការនេះរួមបញ្ចូលពិន្ទុ语义របស់ VLM ជាមួយនឹងសញ្ញាអាន OCR ដោយប្រើឧបករណ៍ចាត់ថ្នាក់ CatBoost និងប្រើប្រាស់ SHAP ដើម្បីបង្កើតអនុសាសន៍កែលម្អដែលអាចអនុវត្តបានសម្រាប់ដៃគូពាណិជ្ជកម្ម។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងសុវត្ថិភាពដែលធ្វើការលើការសម្របសម្រួលមាតិកាទ្រង់ទ្រាយធំ ឬការវាយតម្លៃគុណភាព អាចប្រើប្រាស់វិធីសាស្ត្របញ្ចូលគ្នានូវម៉ូដែលច្រើននេះ ដើម្បីវាយតម្លៃមាតិកាចម្រុះជារួម ជាជាងការពិនិត្យមើលទ្រព្យសកម្មនីមួយៗដាច់ដោយឡែកពីគ្នា។ ការអនុវត្តបំពង់ដំណើរការស្រដៀងគ្នានៅលើ Amazon SageMaker AI អាចជួយអង្គការនានាក្នុងការស្វ័យប្រវត្តិកម្មដំណើរការពិនិត្យស្មុគស្មាញ ខណៈពេលដែលផ្តល់នូវអនុសាសន៍ដែលអាចពន្យល់បានដល់អ្នកប្រើប្រាស់ចុងក្រោយ។",
+   "keyPoints": [
+    "ដៃគូពាណិជ្ជកម្មដែលប្រើប្រាស់មាតិកា A+ គុណភាពខ្ពស់អាចបង្កើនការលក់ពី ៨ ដល់ ២០ភាគរយ។",
+    "ប្រព័ន្ធវាយតម្លៃបង្ហាញមាតិកាពាណិជ្ជកម្មអេឡិចត្រូនិកពេញលេញជាផ្ទាំងតែមួយ ដើម្បីវាយតម្លៃបទពិសោធន៍អ្នកប្រើប្រាស់ទាំងមូល។",
+    "Vision-Language Models ត្រូវបូករួមជាមួយសញ្ញាអាន OCR ក្នុងឧបករណ៍ចាត់ថ្នាក់ CatBoost ដែលបានបណ្តុះបណ្តាលលើការចំណាំរបស់អ្នកជំនាញ។",
+    "SHAP ត្រូវបានប្រើដើម្បីពន្យល់ពីការសម្រេចចិត្តលើគុណភាព និងបង្កើតអនុសាសន៍ដែលអាចអនុវត្តបានសម្រាប់ការកែលម្អមាតិកា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Marketplace 如何使用 Amazon SageMaker AI 评估内容质量",
+   "summary": "Amazon Marketplace 使用由 Amazon SageMaker AI 驱动的多模型融合方法来评估产品详情页上 A+ 内容的整体质量。通过将完整的电子商务内容渲染为单个快照并使用视觉语言模型进行分析，该系统能够评估文本、图像和布局如何协同工作。该管道将 VLM 语义分数与 OCR 可读性信号结合在经过专家标注训练的 CatBoost 分类器中，并采用 SHAP 为卖家生成可操作的改进建议。",
+   "impact": "致力于大规模内容审核或质量评估的开发和安全团队可以使用这种多模型融合方法来整体评估异构媒体，而不是孤立地检查单个资产。在 Amazon SageMaker AI 上实现类似的管道可以帮助组织自动化复杂的审核流程，同时向最终用户提供可解释的建议。",
+   "keyPoints": [
+    "使用高质量 A+ 内容的销售伙伴可以将销售额提高 8% 至 20%。",
+    "评估系统将完整的电子商务内容渲染为单个快照，以评估完整的用户体验。",
+    "视觉语言模型与 CatBoost 分类器中的 OCR 可读性信号相结合，该分类器经过专家注释培训。",
+    "SHAP 用于解释质量决策并为销售伙伴生成可操作的改进建议。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Marketplace가 Amazon SageMaker AI를 사용하여 콘텐츠 품질을 평가하는 방법",
+   "summary": "Amazon Marketplace는 Amazon SageMaker AI로 구동되는 다중 모델 융합 접근 방식을 사용하여 제품 상세 페이지의 A+ 콘텐츠 전반적인 품질을 평가합니다. 완전한 전자 상거래 콘텐츠를 단일 스냅샷으로 렌더링하고 비전 언어 모델(VLM)로 분석하여 텍스트, 이미지 및 레이아웃이 어떻게 상호 작용하는지 평가합니다. 이 파이프라인은 전문가 주석으로 학습된 CatBoost 분류기에서 VLM 의미론적 점수와 OCR 가독성 신호를 결합하고, SHAP를 사용하여 판매 파트너를 위한 실행 가능한 개선 권장 사항을 생성합니다.",
+   "impact": "대규모 콘텐츠 조정 또는 품질 평가를 담당하는 개발 및 보안 팀은 이 다중 모델 융합 접근 방식을 사용하여 개별 자산을 격리하여 확인하는 대신 이질적인 미디어를 전체적으로 평가할 수 있습니다. Amazon SageMaker AI에서 유사한 파이프라인을 구현하면 조직이 복잡한 검토 프로세스를 자동화하는 동시에 최종 사용자에게 설명 가능한 권장 사항을 제공하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "고품질 A+ 콘텐츠를 사용하는 판매 파트너는 매출을 8~20% 늘릴 수 있습니다.",
+    "평가 시스템은 전체 전자 상거래 콘텐츠를 단일 스냅샷으로 렌더링하여 완전한 사용자 경험을 평가합니다.",
+    "비전 언어 모델은 전문가 주석으로 학습된 CatBoost 분류기에서 OCR 가독성 신호와 결합됩니다.",
+    "SHAP는 품질 결정을 설명하고 판매 파트너를 위한 실행 가능한 개선 권장 사항을 생성하는 데 사용됩니다."
+   ]
+  }
+ }
+}

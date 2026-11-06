@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e6d6c85b3eb3fa4e",
+ "contentHash": "a1f365382740bcd4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T00:29:09.400Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Claude AI can plug directly into your bank account",
+   "summary": "Anthropic introduced a new Personal Finance feature for Claude that connects the AI to bank and card accounts using the Plaid platform. Users can ask the chatbot questions about where their money went, remaining bills before payday, affordability of large purchases, and potential monthly savings. The system operates with read-only access facilitated by Plaid.",
+   "impact": "This integration could allow users to manage their personal finances more easily through natural language queries. Security teams and users may want to review how third-party platforms handle sensitive financial data access.",
+   "keyPoints": [
+    "Anthropic added a Personal Finance feature to Claude.",
+    "The feature connects Claude to bank and credit card accounts via Plaid.",
+    "Claude provides spending breakdowns, bill tracking, and savings estimates.",
+    "Claude's access to bank accounts is read-only."
+   ]
+  },
+  "km": {
+   "title": "Claude AI អាចភ្ជាប់ដោយផ្ទាល់ទៅក្នុងគណនីធនាគាររបស់អ្នក",
+   "summary": "ក្រុមហ៊ុន Anthropic បានដាក់បង្ហាញមុខងារហិរញ្ញវត្ថុផ្ទាល់ខ្លួនថ្មីមួយសម្រាប់ Claude ដែលអាចភ្ជាប់ AI ទៅនឹងគណនីធនាគារ និងកាតដោយប្រើប្រាស់ប្រព័ន្ធ Plaid ។ អ្នកប្រើប្រាស់អាចសួរ chatbot អំពីកន្លែងដែលលុយរបស់ពួកគេបានចំណាយ និងវិក្កយបត្រដែលនៅសល់ ។ ការចូលប្រើប្រាស់នេះគឺស្ថិតក្នុងទម្រង់អានតែប៉ុណ្ណោះដោយមាន Plaid សម្របសម្រួល ។",
+   "impact": "ការរួមបញ្ចូលគ្នានេះអាចអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់គ្រប់គ្រងហិរញ្ញវត្ថុផ្ទាល់ខ្លួនរបស់ពួកគេបានយ៉ាងងាយស្រួលតាមរយៈសំណួរភាសាធម្មជាតិ ។ ក្រុមសុវត្ថិភាព និងអ្នកប្រើប្រាស់អាចពិនិត្យមើលពីរបៀបដែលទិន្នន័យហិរញ្ញវត្ថុត្រូវបានគ្រប់គ្រង ។",
+   "keyPoints": [
+    "Anthropic បានបន្ថែមមុខងារហិរញ្ញវត្ថុផ្ទាល់ខ្លួនទៅក្នុង Claude ។",
+    "មុខងារនេះភ្ជាប់ Claude ទៅនឹងគណនីធនាគារតាមរយៈ Plaid ។",
+    "Claude អាចផ្តល់នូវព័ត៌មានលម្អិតនៃការចំណាយ និងការប៉ាន់ស្មានប្រាក់សន្សំ ។",
+    "ការចូលទៅកាន់គណនីធនាគាររបស់ Claude គឺសម្រាប់អានតែប៉ុណ្ណោះ ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Claude AI 可以直接接入您的银行账户",
+   "summary": "Anthropic 为 Claude 推出了全新的个人理财功能，通过 Plaid 银行桥接平台将 AI 连接到用户的银行和卡片账户。用户可以向聊天机器人询问资金去向、发薪日前的剩余账单、大宗消费的负担能力以及每月可节省的金额。该功能通过 Plaid 提供只读访问权限。",
+   "impact": "此集成可能会让用户通过自然语言查询更轻松地管理个人财务。安全团队和用户可能会关注第三方平台如何处理敏感的财务数据访问权限。",
+   "keyPoints": [
+    "Anthropic 为 Claude 增加了个人理财功能。",
+    "该功能通过 Plaid 将 Claude 连接到银行和信用卡账户。",
+    "Claude 可以提供消费明细、账单追踪和节省估算。",
+    "Claude 对银行账户的访问权限是只读的。"
+   ]
+  },
+  "ko": {
+   "title": "Claude AI, 은행 계좌에 직접 연결 가능",
+   "summary": "Anthropic은 Plaid 은행 브릿지 플랫폼을 통해 Claude를 은행 및 카드 계좌에 연결하는 새로운 개인 금융 기능을 선보였습니다. 사용자는 챗봇에게 돈이 어디로 갔는지, 급여일까지 남은 고지서가 무엇인지 물어볼 수 있습니다. 이 기능은 Plaid를 통해 읽기 전용으로 액세스됩니다.",
+   "impact": "이번 통합을 통해 사용자는 자연어 질의를 통해 개인 재정을 더 쉽게 관리할 수 있습니다. 보안 팀과 사용자는 민감한 금융 데이터 액세스가 어떻게 처리되는지 검토할 수 있습니다.",
+   "keyPoints": [
+    "Anthropic이 Claude에 개인 금융 기능을 추가했습니다.",
+    "이 기능은 Plaid를 통해 Claude를 은행 및 신용카드로 연결합니다.",
+    "Claude는 지출 내역, 고지서 추적, 저축 추정치를 제공합니다.",
+    "Claude의 은행 계좌 액세스는 읽기 전용입니다."
+   ]
+  }
+ }
+}

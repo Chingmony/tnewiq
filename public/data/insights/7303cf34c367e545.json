@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7303cf34c367e545",
+ "contentHash": "2d3645ff0f801fc3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-06T00:30:50.806Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Agents aren’t humans (but they kinda are)",
+   "summary": "AI agents are growing rapidly on the web and act on behalf of users by controlling cloud computers or browsers. Sites struggle to recognize, serve, or hold accountable the individual users behind these remote agents. As agentic traffic increases, traditional blocking methods become unviable, forcing sites to deal with intermediaries that hide direct user information.",
+   "impact": "Security teams and site operators may need to develop new mechanisms for identity, reputation, and accountability to manage agent traffic securely without blocking legitimate access.",
+   "keyPoints": [
+    "AI agents are automations controlled by users and hosted by operators such as Meta or OpenAI.",
+    "Agents act continuously and in parallel without human limits, posing new challenges for sites.",
+    "Remote agents act as intermediaries, removing direct site visibility into the underlying user.",
+    "The ecosystem needs new tools to preserve the relationship between sites, operators, and users."
+   ]
+  },
+  "km": {
+   "title": "ភ្នាក់ងារមិនមែនជាមនុស្សទេ (ប៉ុន្តែពួកវាប្រហាក់ប្រហែល)",
+   "summary": "ភ្នាក់ងារ AI កំពុងរីកចម្រើនយ៉ាងឆាប់រហ័សនៅលើបណ្តាញអ៊ីនធឺណិត និងធ្វើសកម្មភាពជំនួសអ្នកប្រើប្រាស់ដោយគ្រប់គ្រងកុំព្យូទ័រលើពពក ឬកម្មវិធីរុករក។ គេហទំព័រមានការលំបាកក្នុងការសម្គាល់ បម្រើ ឬទាមទារការទទួលខុសត្រូវពីអ្នកប្រើប្រាស់ដែលនៅពីក្រោយភ្នាក់ងារទាំងនេះ។ នៅពេលដែលចរាចរណ៍ភ្នាក់ងារកើនឡើង វិធីសាស្ត្របិទបាំងបែបបុរាណមិនអាចប្រើប្រាស់បានទៀតទេ ដែលបង្ខំឱ្យគេហទំព័រដោះស្រាយជាមួយនឹង intermediaries។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកដំណើរការគេហទំព័រអាចនឹងត្រូវអភិវឌ្ឍន៍យន្តការថ្មីសម្រាប់អត្តសញ្ញាណ កេរ្តិ៍ឈ្មោះ និងការទទួលខុសត្រូវ ដើម្បីគ្រប់គ្រងចរាចរណ៍ភ្នាក់ងារដោយសុវត្ថិភាព។",
+   "keyPoints": [
+    "ភ្នាក់ងារ AI គឺជាស្វ័យប្រវត្តិកម្មដែលគ្រប់គ្រងដោយអ្នកប្រើប្រាស់ និងបង្ហោះដោយអ្នកដំណើរការដូចជា Meta ឬ OpenAI។",
+    "ភ្នាក់ងារដំណើរការឥតឈប់ឈរ និងស្របគ្នាដោយគ្មានដែនកំណត់របស់មនុស្ស ដែលបង្កើតបញ្ហាប្រឈមថ្មីៗ។",
+    "ភ្នាក់ងារពីចម្ងាយដើរតួជា intermediaries ដោយលាក់បាំងព័ត៌មានអ្នកប្រើប្រាស់ផ្ទាល់ពីគេហទំព័រ។",
+    "ប្រព័ន្ធអេកូឡូស៊ីត្រូវការឧបករណ៍ថ្មីដើម្បីរក្សាទំនាក់ទំនងរវាងគេហទំព័រ អ្នកដំណើរការ និងអ្នកប្រើប្រាស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "代理不是人类（但它们有点像）",
+   "summary": "AI代理在网络上迅速发展，通过控制云端计算机或浏览器代表用户执行操作。网站很难识别、服务或追究这些远程代理背后用户的责任。随着代理流量的增长，传统的拦截方法变得不可行，迫使网站必须应对隐藏了直接用户信息的中间件。",
+   "impact": "安全团队和网站运营者可能需要开发新的身份、声誉和问责机制，以便在不封锁合法访问的情况下安全地管理代理流量。",
+   "keyPoints": [
+    "AI代理是由用户指令控制、由Meta或openai等运营商托管的自动化程序。",
+    "代理可以不受人类限制地持续并并行运行，给网站带来新的挑战。",
+    "远程代理作为中间件存在，导致网站失去了关于用户的直接信息。",
+    "生态系统需要新的工具来维护网站、运营商和用户之间的关系。"
+   ]
+  },
+  "ko": {
+   "title": "에이전트는 사람이 아닙니다 (하지만 어느 정도 그렇습니다)",
+   "summary": "AI 에이전트는 웹상에서 급격히 증가하고 있으며 클라우드 컴퓨터나 브라우저를 제어하여 사용자를 대신해 행동합니다. 사이트는 이러한 원격 에이전트 뒤에 있는 개별 사용자를 인식하거나 서비스하거나 책임을 묻는 데 어려움을 겪습니다. 에이전트 트래픽이 증가함에 따라 기존의 차단 방법은 효과가 없어지며, 사이트는 직접적인 사용자 정보를 숨기는 중개자와 맞닥뜨리게 됩니다.",
+   "impact": "보안 팀과 사이트 운영자는 합법적인 접근을 차단하지 않고 에이전트 트래픽을 안전하게 관리하기 위해 신원, 평판, 책임에 대한 새로운 메커니즘을 개발해야 할 수 있습니다.",
+   "keyPoints": [
+    "AI 에이전트는 사용자의 지시를 받아 Meta나 OpenAI 같은 운영자가 호스팅하는 자동화 도구입니다.",
+    "에이전트는 인간의 한계 없이 24시간 병렬로 실행되어 사이트에 새로운 과제를 제기합니다.",
+    "원격 에이전트는 중개자 역할을 하여 사이트가 기본 사용자에 대한 직접적인 정보를 잃게 만듭니다.",
+    "생태계는 사이트, 운영자, 사용자 간의 관계를 유지할 수 있는 새로운 도구가 필요합니다."
+   ]
+  }
+ }
+}
