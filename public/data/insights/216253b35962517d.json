@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "216253b35962517d",
+ "contentHash": "4e2804733872c197",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T23:50:00.564Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Measured Coupling for Parallel Decoding in Diffusion Language Models",
+   "summary": "Researchers introduced a new measured coupling method for parallel decoding in diffusion language models. Instead of penalizing pairs of positions with similar predictions like mean-field decoding, the approach uses the coupling itself to measure how committing one token changes confidence at another. The method uses cheap probes inside the main forward pass without extra training or models. Tested across three models and four benchmarks, it requires fewer steps and is faster in most settings, though it comes at an average accuracy cost of 1.1 points.",
+   "impact": "This method could offer developers and researchers a faster way to run diffusion language models by reducing the number of decoding steps needed. However, security and technology teams may need to weigh the speed gains against the average 1.1 point drop in accuracy.",
+   "keyPoints": [
+    "Replaces mean-field proxy with direct coupling measurement to determine safe tokens to commit together.",
+    "Uses cheap probes inside the main forward pass requiring no extra training or additional models.",
+    "Requires far fewer steps and is faster in most settings across three models and four benchmarks.",
+    "Incurs an average accuracy cost of 1.1 points."
+   ]
+  },
+  "km": {
+   "title": "ការភ្ជាប់ដែលបានវាស់វែងសម្រាប់ការឌិកូដស្របគ្នាពហុជំហាននៅក្នុង Diffusion Language Models",
+   "summary": "Diffusion language models អាចសរសេរថូខឹនជាច្រើនក្នុងមួយជំហាន ប៉ុន្តែត្រូវជ្រើសរើសថូខឹនដែលមានសុវត្ថិភាពដើម្បីកត់ត្រាជាមួយគ្នា។ ការវិធីសាស្ត្រថ្មីជំនួសប្រូកស៊ី mean-field ជាមួយនឹងការភ្ជាប់ផ្ទាល់ដើម្បីវាស់វែងថាតើការកត់ត្រាថូខឹនមួយផ្លាស់ប្តូរទំនុកចិត្តរបស់ម៉ូដែលនៅកន្លែងផ្សេងទៀតយ៉ាងដូចម្តេច។ ការប្រើប្រាស់ប្រុបតម្លៃថោកខាងក្នុងដំណើរការឆ្ពោះទៅមុខសំខាន់ដោយមិនចាំបាច់មានការបណ្តុះបណ្តាលបន្ថែម។ វាត្រូវការជំហានតិចជាងមុននិងមានល្បឿនលឿនជាងមុននៅលើម៉ូដែលចំនួនបី និងគោលដៅសាកល្បងចំនួនបួន ជាមួយនឹងការចំណាយភាពត្រឹមត្រូវជាមធ្យម ១.១ ពិន្ទុ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ដំណើរការម៉ូដែលភាសាដោយលឿនជាងមុនតាមរយៈការកាត់បន្ថយជំហានឌិកូដ។ ទោះបីជាយ៉ាងណាក៏ដោយ ក្រុមការងារបច្ចេកវិទ្យាអាចនឹងត្រូវពិចារណាល្បឿនដែលទទួលបានធៀបនឹងការថយចុះភាពត្រឹមត្រូវ។",
+   "keyPoints": [
+    "ជំនួសវិធីសាស្ត្រ mean-field ជាមួយការវាស់វែងការភ្ជាប់ផ្ទាល់។",
+    "ប្រើប្រុបតម្លៃថោកក្នុងដំណើរការដោយមិនបាច់មានការបណ្តុះបណ្តាលបន្ថែម។",
+    "ត្រូវការជំហានតិចជាងមុននិងលឿនជាងមុនលើម៉ូដែលបី និងការសាកល្បងបួន។",
+    "មានការខាតបង់ភាពត្រឹមត្រូវជាមធ្យម ១.១ ពិន្ទុ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "扩散语言模型中用于并行解码的测得耦合",
+   "summary": "研究人员在扩散语言模型中引入了一种用于并行解码的测得耦合方法。该方法用耦合本身替代了平均场解码的代理指标，直接测量提交一个token如何改变模型对另一个token的置信度。该方法在主前向传递内部使用低成本探针，无需额外训练或模型。在三个模型和四个基准测试中，它比平均场解码需要更少的步骤且在多数设置下更快，平均准确率成本为1.1个点。",
+   "impact": "这种方法可以为开发者提供一种更快运行扩散语言模型的方式，减少所需的解码步骤。不过，技术团队在采用时可能需要权衡速度提升与平均1.1个点的准确率损失。",
+   "keyPoints": [
+    "用直接耦合测量替代了平均场代理指标。",
+    "在主前向传递中使用低成本探针，无需额外训练或模型。",
+    "在三个模型和四个基准测试中需要更少步骤且速度更快。",
+    "平均准确率成本为1.1个点。"
+   ]
+  },
+  "ko": {
+   "title": "Diffusion Language Models에서의 병렬 디코딩을 위한 측정된 커플링",
+   "summary": "확산 언어 모델에서 병렬 디코딩을 위한 새로운 측정된 커플링 방법이 도입되었습니다. 평균 현장 디코딩의 프록시 대신 하나의 토큰을 커밋하는 것이 다른 토큰의 모델 신뢰도를 얼마나 변화시키는지 측정하는 커플링 방식을 사용합니다. 메인 순방향 패스 내부에서 추가 훈련이나 모델 없이 저렴한 프로브를 사용하여 이를 측정합니다. 세 가지 모델과 네 가지 벤치마크에서 이 방법은 평균 1.1점의 정확도 비용으로 더 적은 단계가 필요하며 대부분의 설정에서 더 빠른 속도를 보였습니다.",
+   "impact": "이 방법은 개발자와 기술 팀에게 디코딩 단계를 줄여 확산 언어 모델을 더 빠르게 실행할 수 있는 대안을 제공할 수 있습니다. 단, 속도 향상과 평균 1.1점의 정확도 저하 사이의 절차적 타당성을 검토해야 할 수 있습니다.",
+   "keyPoints": [
+    "평균 현장 프록시를 직접적인 커플링 측정으로 대체함.",
+    "추가 훈련이나 모델 없이 메인 순방향 패스 내에서 저렴한 프로브를 사용함.",
+    "세 가지 모델과 네 가지 벤치마크에서 더 적은 단계와 빠른 속도를 기록함.",
+    "평균 1.1점의 정확도 비용이 발생함."
+   ]
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "65115db3a0cbc7eb",
+ "contentHash": "75ecdea7a599b8cf",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T23:45:40.068Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "StepBack: Step-Level Error-Localized Resampling for Efficient Test-Time Reasoning",
+   "summary": "Researchers proposed StepBack, a step-level error-localized resampling method designed to improve efficient test-time reasoning. Given a small set of draft trajectories, StepBack uses lightweight signals to localize likely first error positions and then resamples the detected error step and its suffix before applying majority answer voting. Empirically, the method matches self-consistency accuracy across seven mathematical reasoning and multi-hop QA benchmarks while reducing token usage by up to 41.26%.",
+   "impact": "Developers and technology users working with chain-of-thought reasoning could reduce token usage and inference costs during test-time without sacrificing accuracy. Security teams and developers may also combine StepBack with adaptive inference methods to further improve efficiency.",
+   "keyPoints": [
+    "StepBack uses step-level error-localized resampling for efficient test-time reasoning.",
+    "It localizes likely first error positions using lightweight signals on a small set of draft trajectories.",
+    "It resamples the detected error step and its suffix followed by majority answer voting.",
+    "It reduces token usage by up to 41.26% while matching self-consistency accuracy across seven benchmarks."
+   ]
+  },
+  "km": {
+   "title": "StepBack៖ ការយកគំរូតាមកម្រិតជំហានដែលកំណត់កំហុសសម្រាប់ហេតុផលពេលសាកល្បងមានប្រសិទ្ធភាព",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើ StepBack ដែលជាវិធីសាស្ត្រយកគំរូតាមកម្រិតជំហានដែលមានកំហុសក្នុងតំបន់ សម្រាប់ការធ្វើហេតុផលពេលសាកល្បងមានប្រសិទ្ធភាព។ វិធីសាស្ត្រនេះកំណត់ទីតាំងកំហុសដំបូងដោយប្រើសញ្ញាទម្ងន់ស្រាល និងយកគំរូតាមជំហានកំហុសដែលបានរកឃើញឡើងវិញ។ វាអាចផ្គូផ្គងភាពត្រឹមត្រូវនៃវិធីសាស្ត្រ Self-consistency ខណៈពេលដែលកាត់បន្ថយការប្រើប្រាស់ថូខឹនរហូតដល់ 41.26%។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចកាត់បន្ថយការប្រើប្រាស់ថូខឹន និងចំណាយពេលសាកល្បងដោយមិនបាត់បង់ភាពត្រឹមត្រូវ។ វាក៏អាចរួមបញ្ចូលគ្នាជាមួយនឹងវិធីសាស្ត្រ inference បែបបត់បែនផ្សេងទៀតផងដែរ។",
+   "keyPoints": [
+    "StepBack គឺជាវិធីសាស្ត្រយកគំរូតាមកម្រិតជំហានដែលកំណត់កំហុស។",
+    "វាប្រើប្រាស់សញ្ញាទម្ងន់ស្រាលដើម្បីកំណត់ទីតាំងកំហុសដំបូង។",
+    "វាអាចកាត់បន្ថយការប្រើប្រាស់ថូខឹនរហូតដល់ 41.26% នៅលើការវាស់ស្ទង់ចំនួនប្រាំពីរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "StepBack：用于高效测试时推理的步级错误定位重采样",
+   "summary": "研究人员提出了 StepBack，这是一种用于高效测试时推理的步级错误定位重采样方法。给定一小组草稿轨迹，StepBack 使用轻量级信号定位可能的第一个错误位置，然后对检测到的错误步骤及其后缀进行重新采样，最后进行多数答案投票。实验表明，StepBack 在七个数学推理和多跳问答基准测试中平均匹配了 Self-consistency 的准确率，同时将令牌使用量减少了高达 41.26%。",
+   "impact": "开发人员和技术用户在进行测试时推理时，可以降低令牌使用量和成本，同时保持准确性。开发人员还可能将 StepBack 与自适应推理方法结合使用，以进一步提高推理时的效率。",
+   "keyPoints": [
+    "StepBack 是一种用于高效测试时推理的步级错误定位重采样方法。",
+    "它使用轻量级信号定位草稿轨迹中可能的第一个错误位置。",
+    "它匹配了 Self-consistency 在七个基准测试中的准确率。",
+    "它能够将令牌使用量减少高达 41.26%。"
+   ]
+  },
+  "ko": {
+   "title": "StepBack: 효율적인 테스트 시간 추론을 위한 스텝 수준 오류 지역화 재샘플링",
+   "summary": "연구진은 효율적인 테스트 시간 추론을 위한 스텝 수준 오류 지역화 재샘플링 방법인 StepBack을 제안했습니다. 소수의 초안 궤적을 바탕으로 StepBack은 경량 신호를 사용하여 예상되는 첫 번째 오류 위치를 국소화한 후 감지된 오류 스텝과 접미사를 재샘플링하고 다수결 투표를 수행합니다. 실험적으로 StepBack은 7개의 수학적 추론 및 멀티홉 QA 벤치마크에서 Self-consistency의 정확도를 유지하면서 토큰 사용량을 최대 41.26%까지 줄였습니다.",
+   "impact": "개발자와 기술 사용자는 정확도를 희생하지 않고도 테스트 시간 동안 토큰 사용량과 비용을 줄일 수 있습니다. 또한 개발자는 StepBack을 적응형 추론 방법과 결합하여 추론 효율성을 더욱 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "StepBack은 효율적인 테스트 시간 추론을 위한 스텝 수준 오류 지역화 재샘플링 방법입니다.",
+    "경량 신호를 사용하여 초안 궤적에서 첫 번째 오류 위치를 국소화합니다.",
+    "7개의 벤치마크에서 Self-consistency와 유사한 정확도를 달성합니다.",
+    "토큰 사용량을 최대 41.26%까지 줄입니다."
+   ]
+  }
+ }
+}

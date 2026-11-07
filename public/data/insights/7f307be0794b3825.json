@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7f307be0794b3825",
+ "contentHash": "f66fe07f94326583",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T23:46:10.750Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Learning a patient world model for health system simulation in intensive care",
+   "summary": "Researchers propose learning a patient world model from longitudinal electronic health records using a neural network to provide a shared clinical representation for health system simulation. This model captures history-dependent dynamics, such as recovery differences in patients with identical current support states but different prior trajectories. By coupling the model predictions to ICU resources and scenarios, it can evaluate bed capacity, care dispatch, and post-ICU transfers without requiring model rebuilding for new questions.",
+   "impact": "This approach could allow developers and healthcare operations teams to evaluate multiple care policies by reconfiguring scenarios instead of rebuilding task-specific state models. Security teams and technology users may benefit from flexible simulations that handle complex longitudinal data accurately.",
+   "keyPoints": [
+    "A neural network learns a patient world model from longitudinal EHRs to serve multiple simulation scenarios.",
+    "The model was trained on MIMIC-IV and coupled to ICU calendars, resources, and queues.",
+    "It captures a 24-h recovery difference based on prior trajectories, a detail missed by conventional compact state models."
+   ]
+  },
+  "km": {
+   "title": "ការរៀនគំរូពិភពលោករបស់អ្នកជំងឺសម្រាប់ការក្លែងធ្វើប្រព័ន្ធសុខាភិបាលក្នុងផ្នែកសង្គ្រោះបន្ទាន់",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើឱ្យរៀនគំរូពិភពលោករបស់អ្នកជំងឺពីកំណត់ត្រាវេជ្ជសាស្ត្រអេឡិចត្រូនិចតាមរយៈបណ្តាញសរសៃប្រសាទ ដើម្បីផ្តល់នូវតំណាងគ្លីនិកshared សម្រាប់ការក្លែងធ្វើប្រព័ន្ធសុខាភិបាល។ គំរូនេះចាប់យកសក្ដានុពលអាស្រ័យលើប្រវត្តិ ដូចជាភាពខុសគ្នានៃការជាសះស្បើយរបស់អ្នកជំងឺដែលមានស្ថានភាពគាំទ្រដូចគ្នា ប៉ុន្តែមានគន្លងខុសគ្នាពីមុន។ ដោយភ្ជាប់ការទស្សន៍ទាយទៅនឹងធនធាន ICU វាអាចវាយតម្លៃសមត្ថភាពគ្រែ និងគោលនយោបាយផ្សេងៗដោយមិនចាំបាច់បង្កើតគំរូឡើងវិញ។",
+   "impact": "វិធីសាស្ត្រនេះអាចអនុញ្ញាតឱ្យក្រុមការងារវាយតម្លៃគោលនយោបាយថែទាំជាច្រើនតាមរយៈការកំណត់រចនាសម្ព័ន្ធសេណារីយ៉ូឡើងវិញជំនួສឱ្យការបង្កើតគំរូថ្មី។ វាក៏អាចជួយសម្រួលដល់ការប្រៀបធៀបគោលនយោបាយថែទាំផ្សេងៗផងដែរ។",
+   "keyPoints": [
+    "បណ្តាញសរសៃប្រសាទរៀនគំរូពិភពលោករបស់អ្នកជំងឺពី EHRs សម្រាប់សេណារីយ៉ូក្លែងធ្វើជាច្រើន។",
+    "គំរូនេះត្រូវបានបណ្តុះបណ្តាលនៅលើ MIMIC-IV និងភ្ជាប់ទៅនឹងធនធាន ICU ។",
+    "វាអាចចាប់យកភាពខុសគ្នានៃការជាសះស្បើយក្នុងរយៈពេល 24 ម៉ោងផ្អែកលើគន្លងមុនៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "学习重症监护中用于卫生系统模拟的患者世界模型",
+   "summary": "研究人员提出使用神经网络从纵向电子健康记录中学习患者世界模型，为卫生系统模拟提供共享的临床表征。该模型能够捕捉历史依赖的动态，例如先前轨迹不同但当前支持状态相同的患者在恢复上的差异。通过将模型预测与ICU资源和场景相结合，它可以在无需为新问题重建模型的情况下评估床位容量、护理调度和转科能力。",
+   "impact": "这种方法可以使开发人员和医疗运营团队通过重新配置场景来评估多种护理政策，而无需重建特定于任务的状态模型。技术人员可能会受益于能够准确处理复杂纵向数据的灵活模拟系统。",
+   "keyPoints": [
+    "神经网络从纵向EHR中学习患者世界模型以支持多种模拟场景。",
+    "模型在MIMIC-IV上进行训练，并与ICU日历、资源和队列相结合。",
+    "模型捕捉到了基于先前轨迹的24小时恢复差异，这是传统紧凑状态模型所忽略的细节。"
+   ]
+  },
+  "ko": {
+   "title": "중환자실 보건 시스템 시뮬레이션을 위한 환자 세계 모델 학습",
+   "summary": "연구원들은 신경망을 사용하여 종단적 전자의무기록(EHR)으로부터 환자 세계 모델을 학습시켜 보건 시스템 시뮬레이션을 위한 공통 임상 표현을 제공하는 방법을 제안합니다. 이 모델은 동일한 현재 지원 상태를 가졌으나 이전 경로가 다른 환자들의 회복 차이와 같은 이력 의존적 역학을 포착합니다. 모델의 예측을 ICU 자원 및 시나리오와 연결함으로써, 새로운 질문에 대해 모델을 다시 구축할 필요 없이 병상 용량 및 치료 배치를 평가할 수 있습니다.",
+   "impact": "이 접근 방식은 개발자와 의료 운영 팀이 특정 작업별 상태 모델을 다시 구축하는 대신 시나리오를 재구성하여 여러 치료 정책을 평가할 수 있도록 도울 수 있습니다. 기술 사용자들은 복잡한 종단적 데이터를 정확하게 처리하는 유연한 시뮬레이션의 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "신경망이 종단적 EHR에서 환자 세계 모델을 학습하여 다양한 시뮬레이션 시나리오를 지원합니다.",
+    "모델은 MIMIC-IV에서 학습되었으며 ICU 자원 및 대기열과 연결됩니다.",
+    "이전 경로에 따른 24시간 회복 차이를 포착하며, 이는 기존 상태 모델에서는 놓치던 세부 사항입니다."
+   ]
+  }
+ }
+}

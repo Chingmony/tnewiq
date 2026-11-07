@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e64f34e3e3f22b61",
+ "contentHash": "e172a7d073f1c396",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T23:43:51.926Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
+   "summary": "Researchers examined errors in five memory systems for longitudinal medical dialogue and identified three recurring causes related to outdated evidence, mixed individuals, and missing safety facts. To address these issues, they developed MedGraph, a graph memory that extracts dated facts, attributes them correctly, and links records into historical chains. Tested on MedMemoryBench, MedGraph achieved the highest overall accuracy using both GPT and Qwen backbones compared to the tested baselines.",
+   "impact": "This approach could improve how AI medical assistants track longitudinal patient data, potentially reducing memory retrieval errors and safety omissions in clinical dialogue systems.",
+   "keyPoints": [
+    "Identified three recurring causes of errors in five memory systems on longitudinal medical dialogue.",
+    "MedGraph links medication, diagnosis, and measurement records into chains to preserve earlier states.",
+    "Achieved the highest overall accuracy on MedMemoryBench with GPT and Qwen backbones."
+   ]
+  },
+  "km": {
+   "title": "MedGraph៖ ការថែរក្សាស្ថានភាពអ្នកជំងឺដោយប្រើប្រាស់សតិក្រាហ្វសម្រាប់កិច្ចសន្ទនាវេជ្ជសាស្ត្ររយៈពេលវែង",
+   "summary": "អ្នកស្រាវជ្រាវបានពិនិត្យមើលកំហុសឆ្គងនៅក្នុងប្រព័ន្ធសតិចំនួនប្រាំសម្រាប់កិច្ចសន្ទនាវេជ្ជសាស្ត្រតាមដានរយៈពេលវែង និងបានរកឃើញមូលហេតុចំនួនបីដែលកើតឡើងម្តងហើយម្តងទៀត។ ដើម្បីដោះស្រាយបញ្ហាទាំងនេះ ពួកគេបានបង្កើត MedGraph ដែលជាសតិក្រាហ្វស្រង់យក حقائق តាមកាលបរិច្ឆេទ ផ្ដល់កម្មសិទ្ធិ និងភ្ជាប់កំណត់ត្រាទៅជាខ្សែសង្វាក់ប្រវត្តិសាស្ត្រ។ នៅលើ MedMemoryBench ប្រព័ន្ធ MedGraph ទទួលបានភាពត្រឹមត្រូវខ្ពស់បំផុតដោយប្រើប្រាស់ប្រព័ន្ធ GPT និង Qwen។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយបង្កើនរបៀបដែលជំនួយការវេជ្ជសាស្ត្របញ្ញាសិប្បនិម្មិតតាមដានទិន្នន័យអ្នកជំងឺក្នុងរយៈពេលវែង និងអាចកាត់បន្ថយកំហុសឆ្គងក្នុងការទាញយកសតិ។",
+   "keyPoints": [
+    "បានរកឃើញមូលហេតុចំនួនបីនៃកំហុសក្នុងប្រព័ន្ធសតិសម្រាប់កិច្ចសន្ទនាវេជ្ជសាស្ត្ររយៈពេលវែង។",
+    "MedGraph ភ្ជាប់កំណត់ត្រាថ្នាំ ការរោគវិនិច្ឆ័យ និងការវាស់វែងទៅជាខ្សែសង្វាក់ដើម្បីរក្សាស្ថានភាពមុនៗ។",
+    "ទទួលបានភាពត្រឹមត្រូវខ្ពស់បំផុតនៅលើ MedMemoryBench ជាមួយមូលដ្ឋាន GPT និង Qwen។"
+   ]
+  },
+  "zh-CN": {
+   "title": "MedGraph：利用图记忆在长期医疗对话中维护患者状态",
+   "summary": "研究人员检查了五个记忆系统在纵向医疗对话中的错误，并发现了三个反复出现的原因。为了解决这些问题，他们推出了 MedGraph，这是一种专为这三种情况构建的图记忆系统，能够提取带日期的事实并将其链接成历史链条。在 MedMemoryBench 上，无论使用 GPT 还是 Qwen 作为骨干网络，MedGraph 都取得了最高的整体准确率。",
+   "impact": "该方法可能会改善人工智能医疗助手追踪纵向患者数据的方式，并可能减少临床对话系统中的记忆检索错误。",
+   "keyPoints": [
+    "指出了五个记忆系统在纵向医疗对话中错误的三个反复出现的原因。",
+    "MedGraph 将用药、诊断和测量记录链接成链条以保留早期状态。",
+    "在 MedMemoryBench 上使用 GPT 和 Qwen 骨干网络实现了最高整体准确率。"
+   ]
+  },
+  "ko": {
+   "title": "MedGraph: 장기 의료 대화를 위한 그래프 메모리 기반 환자 상태 유지",
+   "summary": "연구진은 종단적 의료 대화에서 다섯 가지 메모리 시스템의 오류를 조사하고 세 가지 반복 원인을 찾아냈습니다. 이를 해결하기 위해 날짜별 사실을 추출하고 기록을 체인으로 연결하는 그래프 메모리인 MedGraph를 선보였습니다. MedMemoryBench 테스트에서 MedGraph는 GPT 및 Qwen 백본을 모두 사용할 때 가장 높은 전체 정확도를 기록했습니다.",
+   "impact": "이 접근 방식은 AI 의료 보조 도구가 장기적인 환자 데이터를 추적하는 방식을 개선하고 임상 대화 시스템에서 메모리 검색 오류를 줄이는 데 기여할 수 있습니다.",
+   "keyPoints": [
+    "종단적 의료 대화에서 다섯 가지 메모리 시스템의 오류에 대한 세 가지 반복 원인 식별.",
+    "MedGraph는 약물, 진단, 측정 기록을 체인으로 연결하여 이전 상태를 보존.",
+    "GPT 및 Qwen 백본을 사용하여 MedMemoryBench에서 가장 높은 전체 정확도 달성."
+   ]
+  }
+ }
+}

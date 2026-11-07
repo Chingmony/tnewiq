@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "307ba6a3144c0443",
+ "contentHash": "d06df07f5b30f131",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T23:45:59.928Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Synthesis of Ovarian Cancer Multi-Omics Datasets: A Biology-Informed Evaluation Framework",
+   "summary": "Researchers introduce a biology-informed and patient-disjoint framework to evaluate synthetic paired RNA expression and copy-number variation profiles in high-grade serous ovarian cancer cohorts. The approach assesses modality fidelity and cross-modality coherence using real training and held-out data as a reference. Three variational autoencoder-based integration architectures were adapted to generate paired profiles, with the top-performing model demonstrating strong training-data proximity.",
+   "impact": "This evaluation framework could provide developers and researchers with a standardized reference method for comparing future multi-omic generative models and ensuring synthetic data preserves critical biological structures.",
+   "keyPoints": [
+    "Introduces a biology-informed and patient-disjoint evaluation framework for paired multi-omic synthetic data.",
+    "Applied to the longitudinal DECIDER high-grade serous ovarian cancer cohort.",
+    "Assesses modality-specific fidelity and RNA-CNV coherence against real training and held-out data references.",
+    "Adapts three variational autoencoder architectures to generate paired RNA expression and copy-number variation profiles."
+   ]
+  },
+  "km": {
+   "title": "ការសំយោគชุดข้อมูล Multi-Omics នៃជំងឺមហារីកអូវែ៖ ក្របខណ្ឌវាយតម្លៃដែលផ្អែកលើជីវសាស្ត្រ",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំក្របខណ្ឌដែលផ្អែកលើជីវសាស្ត្រ និងអ្នកជំងឺដាច់ដោយឡែក ដើម្បីវាយតម្លៃទម្រង់សំយោគនៃការបញ្ចេញ RNA និងការប្រែប្រួលចំនួនច្បាប់ចម្លងក្នុងការប្រមូលផ្តុំជំងឺមហារីកអូវែ។ វិធីសាស្ត្រនេះវាយតម្លៃភាពស្មោះត្រង់នៃទម្រង់និងភាពស៊ីសង្វាក់គ្នារវាងគូ RNA និង CNV ដោយប្រើប្រាស់ទម្រង់បណ្តុះបណ្តាលពិតប្រាកដនិងទិន្នន័យដែលបានរក្សាទុកជាឯកសារយោង។ ស្ថាបត្យកម្មរួមបញ្ចូលគ្នាមួយចំនួនដែលផ្អែកលើ variational autoencoders ត្រូវបានសម្របខ្លួនដើម្បីបង្កើតទម្រង់ជាគូ។",
+   "impact": "ក្របខណ្ឌវាយតម្លៃនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍និងអ្នកស្រាវជ្រាវនូវវិធីសាស្ត្រយោងស្តង់ដារសម្រាប់ការប្រៀបធៀបម៉ូដែលបង្កើត multi-omic និងធានាថាទិន្នន័យសំយោគរក្សាបាននូវโครงสร้างជីវសាស្ត្រសំខាន់ៗ។",
+   "keyPoints": [
+    "ណែនាំក្របខណ្ឌវាយតម្លៃដែលផ្អែកលើជីវសាស្ត្រនិងអ្នកជំងឺដាច់ដោយឡែកសម្រាប់ទិន្នន័យសំយោគ multi-omic ជាគូ។",
+    "អនុវត្តលើក្រុមអ្នកជំងឺមហារីកអូវែ DECIDER ។",
+    "វាយតម្លៃភាពស្មោះត្រង់ជាក់លាក់នៃទម្រង់និងភាពស៊ីសង្វាក់គ្នារវាង RNA និង CNV ។",
+    "សម្របស្ថាបត្យកម្ម variational autoencoders ចំនួនបីដើម្បីបង្កើតទម្រង់ជាគូ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "卵巢癌多组学数据集的合成：生物学信息评估框架",
+   "summary": "研究人员引入了一个基于生物学且患者不相交的框架，用于评估高级别浆液性卵巢癌队列中合成的配对 RNA 表达和拷贝数变异配置文件。该方法以真实训练数据和留出数据作为参考，评估模态特异性保真度以及 RNA 和 CNV 对之间的连贯性。研究适配了三种基于变分自编码器的多组学集成架构来生成配对配置文件，表现最好的模型显示出最强的训练数据邻近性。",
+   "impact": "该评估框架可以为开发人员和研究人员提供一个标准参考方法，用于比较未来的多组学生成模型，并确保合成数据保留关键的生物学结构。",
+   "keyPoints": [
+    "引入了用于配对多组学合成数据的基于生物学的患者不相交评估框架。",
+    "应用于纵向的 DECIDER 高级别浆液性卵巢癌队列。",
+    "针对真实训练数据和留出数据参考评估模态保真度和 RNA-CNV 连贯性。",
+    "适配了三种变分自编码器架构来生成配对的 RNA 表达和拷贝数变异配置文件。"
+   ]
+  },
+  "ko": {
+   "title": "난소암 다중 오믹스 데이터셋의 합성: 생물학 기반 평가 프레임워크",
+   "summary": "연구진은 고등급 장액성 난소암 코호트에서 합성된 짝지어진 RNA 발현 및 복제수 변이 프로필을 평가하기 위한 생물학 기반의 환자 분리형 프레임워크를 소개합니다. 이 접근 방식은 실제 훈련 데이터와 보류된 데이터를 참조로 사용하여 모달리티별 충실도와 RNA 및 CNV 쌍 간의 일관성을 평가합니다. 짝지어진 프로필을 생성하기 위해 변분 오토인코더 기반의 세 가지 다중 오믹스 통합 아키텍처가 적용되었습니다.",
+   "impact": "이 평가 프레임워크는 개발자와 연구원에게 향후 다중 오믹스 생성 모델을 비교하고 합성 데이터가 중요한 생물학적 구조를 보존하는지 확인하기 위한 표준화된 참조 방법을 제공할 수 있습니다.",
+   "keyPoints": [
+    "짝지어진 다중 오믹스 합성 데이터를 위한 생물학 기반의 환자 분리형 평가 프레임워크 도입.",
+    "종단적 DECIDER 고등급 장액성 난소암 코호트에 적용됨.",
+    "실제 훈련 및 보류 데이터 참조를 바탕으로 모달리티별 충실도와 RNA-CNV 일관성을 평가함.",
+    "짝지어진 RNA 발현 및 복제수 변이 프로필을 생성하기 위해 세 가지 변분 오토인코더 아키텍처를 채택함."
+   ]
+  }
+ }
+}

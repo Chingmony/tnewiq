@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9edf7047eef9f53e",
+ "contentHash": "c73fbe0321fc9854",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T23:48:58.308Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Decision Models as Retrieval Gates Against Injection and Pollution",
+   "summary": "Researchers tested open-weight decision models as retrieval gates to screen web text against injection and pollution threats. Using a Kev-4B gate to read HTML passages reduced attack success from 27.9% with no defense and 13.6% with standard mitigations down to 5.7%. The gate processes each passage in 76 milliseconds and maintains clean query responsiveness, while keeping fake pages out of answers in pollution tests.",
+   "impact": "This approach could help security teams and developers protect language model applications from malicious instructions and fake pages found in retrieved web text. The low processing time and preserved query responsiveness suggest that decision models may offer an efficient defense layer without significant performance trade-offs.",
+   "keyPoints": [
+    "A Kev-4B decision model gate reduced attack success to 5.7%, compared to 27.9% with no defense and 13.6% with standard mitigations.",
+    "The gate processes each passage in 76 ms and wrongly flags only 4 of 186 benign pages.",
+    "Filtering candidate pages before selecting the top ten kept fake pages out of answers and held accuracy at 83% in pollution tests.",
+    "Gates performed better when reading HTML rather than plain text."
+   ]
+  },
+  "km": {
+   "title": "ម៉ូដែលសម្រេចចិត្តជាទ្វារទាញយកប្រឆាំងនឹងការបញ្ចូលមតិ និងការបំពុល",
+   "summary": "អ្នកស្រាវជ្រាវបានសាកល្បងម៉ូដែលសម្រេចចិត្តដែលមានទម្ងន់បើកចំហជាទ្វារទាញយកដើម្បីពិនិត្យអត្ថបទគេហទំព័រប្រឆាំងនឹងការគំរាមកំហែងនៃការបញ្ចូលមតិ និងការបំពុល។ ការប្រើប្រាស់ទ្វារ Kev-4B ដើម្បីអានផ្នែក HTML បានកាត់បន្ថយអត្រាជោគជ័យនៃការវាយប្រហារពី ២៧,៩% ដែលគ្មានការការពារ និង ១៣,៦% ដែលមានការបន្ធូរបន្ថយស្តង់ដារ ឱ្យមកនៅត្រឹម ៥,៧%។ ទ្វារនេះដំណើរការផ្នែកនីមួយៗក្នុងរយៈពេល ៧៦ មីលីវិនាទី និងរក្សានូវភាពឆ្លើយតបចំពោះសំណសួរដែលស្អាតបានល្អ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយដល់ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ក្នុងការការពារកម្មវិធីម៉ូដែលភាសាពីការបញ្ជាដែលមានគ្រោះថ្នាក់ និងទំព័រปลอมដែលបានរកឃើញនៅក្នុងអត្ថបទគេហទំព័រដែលបានទាញយក។",
+   "keyPoints": [
+    "ទ្វារម៉ូដែលសម្រេចចិត្ត Kev-4B បានកាត់បន្ថយអត្រាជោគជ័យនៃការវាយប្រហារមកត្រឹម ៥,៧%។",
+    "ទ្វារចំណាយពេល ៧៦ មីលីវិនាទីក្នុងមួយផ្នែក និងបានសម្គាល់ខុសតែ ៤ ក្នុងចំណោមទំព័រអំណោយផល ១៨៦ ប៉ុណ្ណោះ។",
+    "ការតម្រងទំព័រមុនពេលជ្រើសរើសកំពូលដប់បានរក្សាភាពត្រឹមត្រូវនៅកម្រិត ៨៣%។",
+    "ទ្វារមានដំណើរការល្អជាងនៅពេលអាន HTML ជាជាងអត្ថបទធម្មតា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "作为注入和污染防御检索门的决策模型",
+   "summary": "研究人员测试了开源权重的决策模型，将其作为检索门来筛选网页文本，以防范注入和污染威胁。使用 Kev-4B 门读取HTML段落后，在没有防御时为 27.9%、标准缓解措施下为 13.6% 的攻击成功率下降到了 5.7%。该门处理每个段落耗时 76 毫秒，并在污染测试中将虚假页面挡在答案之外。",
+   "impact": "这种方法可以帮助安全团队和开发者保护语言模型应用，免受检索到的网页文本中的恶意指令和虚假页面侵害。较低的处理时间和良好的查询响应率表明，决策模型可能提供了一种高效的防御层，而不会带来显著的性能损失。",
+   "keyPoints": [
+    "Kev-4B 决策模型门将攻击成功率降至 5.7%，相比无防御时的 27.9% 和标准缓解措施下的 13.6% 有所改善。",
+    "该门处理每个段落需要 76 毫秒，在 186 个良性页面中仅错误标记了 4 个。",
+    "在选择前十名之前过滤候选页面，使准确率保持在 83%。",
+    "门读取 HTML 时比读取纯文本能捕获更多攻击。"
+   ]
+  },
+  "ko": {
+   "title": "주입 및 오염에 대응하는 검색 게이트로서의 결정 모델",
+   "summary": "연구진은 웹 텍스트의 주입 및 오염 위협을 선별하기 위한 검색 게이트로 공개 가중치 결정 모델을 테스트했습니다. Kev-4B 게이트를 사용하여 HTML 구문을 읽은 결과, 방어가 없을 때 27.9%, 표준 완화 조치 시 13.6%였던 공격 성공률이 5.7%로 감소했습니다. 이 게이트는 구문당 76밀리초가 소요되며 오염 테스트에서 가짜 페이지를 답변에 포함되지 않도록 유지합니다.",
+   "impact": "이 접근 방식은 보안 팀과 개발자가 검색된 웹 텍스트에 포함된 악성 지침과 가짜 페이지로부터 언어 모델 애플리케이션을 보호하는 데 도움을 줄 수 있습니다. 낮은 처리 시간과 유지된 쿼리 응답성은 결정 모델이 심각한 성능 저하 없이 효율적인 방어 레이어를 제공할 수 있음을 시사합니다.",
+   "keyPoints": [
+    "Kev-4B 결정 모델 게이트는 공격 성공률을 방어 없음 27.9% 및 표준 완화 13.6% 대비 5.7%로 낮췄습니다.",
+    "게이트는 구문당 76밀리초의 처리 시간이 소요되며 186개의 양성 페이지 중 4개만 잘못 표시했습니다.",
+    "상위 10개를 선택하기 전에 후보 페이지를 필터링하여 오염 테스트에서 83%의 정확도를 유지했습니다.",
+    "게이트는 일반 텍스트를 읽을 때보다 HTML을 읽을 때 더 많은 공격을 포착했습니다."
+   ]
+  }
+ }
+}

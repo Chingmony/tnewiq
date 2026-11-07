@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ce0de58b61f85fd7",
+ "contentHash": "2d6fce12918b571f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T23:47:42.849Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "MOMASPLAT: Dynamic Novel-View Demonstration Augmentation for Mobile Manipulation",
+   "summary": "Researchers introduce MOMASPLAT, a novel-view demonstration augmentation framework for mobile manipulation designed to synthesize full manipulation trajectories from unseen robot base poses. Unlike previous approaches that struggle with static scene assumptions during post-contact interaction phases, MOMASPLAT reconstructs both the static scene and the manipulated object in 3D. The framework combines 3D Gaussian Splatting, feed-forward 3D foundation models, and kinematics-based action retargeting to generate geometrically consistent synthetic demonstrations.",
+   "impact": "This method could significantly improve robot robustness to unseen base poses and reduce the need for large-scale real-world data collection in mobile manipulation. Developers and researchers working on visuomotor policies may achieve higher success rates and better handling of dynamic object interactions.",
+   "keyPoints": [
+    "MOMASPLAT synthesizes full manipulation trajectories including dynamic object interactions from unseen robot base poses.",
+    "It combines 3D Gaussian Splatting, 3D foundation models, and kinematics-based action retargeting.",
+    "Evaluations across five real-world mobile manipulation tasks showed it more than doubled the average success rate of the strongest baseline.",
+    "The framework reduces the need for large-scale real-world data collection."
+   ]
+  },
+  "km": {
+   "title": "MOMASPLAT៖ ការបង្កើនការបង្ហាញទិដ្ឋភាពថ្មីបែបឌីណាមិកសម្រាប់ការរៀបចំផ្លាស់ទី",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ MOMASPLAT ដែលជាក្របខ័ណ្ឌបង្កើនការបង្ហាញទិដ្ឋភាពថ្មីសម្រាប់ការរៀបចំផ្លាស់ទី ដែលត្រូវបានរចនាឡើងដើម្បីសំយោគគន្លងរៀបចំពេញលេញពីទីតាំងមូលដ្ឋានរ៉ូបូតដែលមិនធ្លាប់ឃើញ។ មិនដូចវិធីសាស្ត្រមុនៗដែលខកខានក្នុងការបង្ហាញវត្ថុដែលបានរៀបចំក្នុងអំឡុងពេលអន្តរកម្មទេ MOMASPLAT អាចបង្កើតឡើងវិញនូវឆាកឋិតិវន្ត និងវត្ថុដែលបានរៀបចំជា 3D ។ ក្របខ័ណ្ឌនេះរួមបញ្ចូលគ្នាជាមួយ 3D Gaussian Splatting, ម៉ូដែលមូលដ្ឋាន 3D និងការកំណត់គោលដៅសកម្មភាពផ្អែកលើគីណემაទិច។",
+   "impact": "វិធីសាស្ត្រនេះអាចកែលម្អភាពរឹងមាំរបស់រ៉ូបូតយ៉ាងខ្លាំងចំពោះទីតាំងមូលដ្ឋានដែលមិនធ្លាប់ឃើញ និងកាត់បន្ថយតម្រូវការសម្រាប់ការប្រមូលទិន្នន័យក្នុងពិភពពិតខ្នាតធំ។ អ្នកអភិវឌ្ឍន៍និងអ្នកស្រាវជ្រាវដែលធ្វើការលើគោលនយោបាយមើលឃើញអាចទទួលបានអត្រាជោគជ័យខ្ពស់ជាងមុន។",
+   "keyPoints": [
+    "MOMASPLAT សំយោគគន្លងរៀបចំពេញលេញ រួមទាំងអន្តរកម្មវត្ថុឌីណាមិកពីទីតាំងមូលដ្ឋានរ៉ូបូតដែលមិនធ្លាប់ឃើញ។",
+    "វាផ្សំជាមួយ 3D Gaussian Splatting ម៉ូដែលមូលដ្ឋាន 3D និងការកំណត់គោលដៅសកម្មភាពផ្អែកលើគីណემაទិច។",
+    "ការវាយតម្លៃលើកិច្ចការរៀបចំផ្លាស់ទីក្នុងពិភពពិតចំនួនប្រាំបានបង្ហាញថាវាបានបង្កើនអត្រាជោគជ័យជាមធ្យមជាងទ្វេដង។",
+    "ក្របខ័ណ្ឌនេះកាត់បន្ថយតម្រូវការសម្រាប់ការប្រមូលទិន្នន័យក្នុងពិភពពិតខ្នាតធំ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "MOMASPLAT：用于移动操作的动态新视角演示增强",
+   "summary": "研究人员推出了 MOMASPLAT，这是一个用于移动操作的新视角演示增强框架，旨在从事先未见过的机器人基座姿态合成完整的操作轨迹。与先前假设静态场景的方法不同，MOMASPLAT 能够以 3D 形式分别重建静态场景和被操作物体。该框架结合了 3D 高斯泼溅、前馈 3D 基础模型和基于运动学的动作重定向，以生成几何一致的合成演示。",
+   "impact": "该方法可能会显著提高机器人对未见基座姿态的鲁棒性，并减少对大规模真实世界数据收集的需求。从事视觉运动策略开发的工程师和研究人员可能会获得更高的成功率以及更好的动态物体交互处理能力。",
+   "keyPoints": [
+    "MOMASPLAT 可以从事先未见过的机器人基座姿态合成包括动态物体交互在内的完整操作轨迹。",
+    "它结合了 3D 高斯泼溅、3D 基础模型和基于运动学的动作重定向。",
+    "在五个真实世界的移动操作任务上的评估表明，它的平均成功率比最强基线提高了一倍以上。",
+    "该框架减少了对大规模真实世界数据收集的需求。"
+   ]
+  },
+  "ko": {
+   "title": "MOMASPLAT: 모바일 조작을 위한 동적 신규 뷰 시연 증강",
+   "summary": "연구원들은 로봇의 미지의 베이스 포즈로부터 전체 조작 궤적을 합성하도록 설계된 모바일 조작용 신규 뷰 시연 증강 프레임워크인 MOMASPLAT을 소개합니다. 정적 장면을 가정하여 접촉 후 상호 작용 단계에서 실패하는 기존 접근 방식과 달리, MOMASPLAT은 정적 장면과 조작된 물체를 3D로 각각 재구성합니다. 이 프레임워크는 3D Gaussian Splatting, 피드포워드 3D 파운데이션 모델, 그리고 키네마틱스 기반 액션 리타게팅을 결합하여 기하학적으로 일관된 합성 시연을 생성합니다.",
+   "impact": "이 방법은 미지의 베이스 포즈에 대한 로봇의 견고성을 크게 향상시키고 대규모 실제 데이터 수집의 필요성을 줄일 수 있습니다. 시각운동 정책을 다루는 개발자와 연구원들은 더 높은 성공률과 동적 물체 상호 작용에 대한 향상된 처리 능력을 얻을 수 있습니다.",
+   "keyPoints": [
+    "MOMASPLAT은 미지의 로봇 베이스 포즈로부터 동적 물체 상호 작용을 포함한 전체 조작 궤적을 합성합니다.",
+    "3D Gaussian Splatting, 3D 파운데이션 모델, 그리고 키네마틱스 기반 액션 리타게팅을 결합합니다.",
+    "세 가지 장면의 5가지 실제 모바일 조작 작업 평가에서 가장 강력한 기준선의 평균 성공률을 두 배 이상 높였습니다.",
+    "대규모 실제 데이터 수집의 필요성을 줄여줍니다."
+   ]
+  }
+ }
+}

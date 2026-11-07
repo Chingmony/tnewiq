@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c596e45e28a6fa81",
+ "contentHash": "12698e22f04b76fe",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T23:46:21.193Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hybrid Machine Learning for Imbalanced Landing-Phase Safety Event Prediction from Flight Data",
+   "summary": "Researchers propose an interpretable hybrid feature-fusion framework for multiclass landing-phase safety-event prediction using multivariate flight data. The approach combines an LSTM autoencoder to detect deviations with parameter-specific statistical features, which are then processed by a class-weighted XGBoost classifier. Evaluated on 53,750 NASA DASHlink approach windows across three arrival airports, the framework achieved a mean macro recall above 0.90 under repeated partitioning and retraining.",
+   "impact": "This framework could help security teams and developers improve rare-event detection and flight-data monitoring models. The findings suggest that local specialization and pooled training strategies can be adapted based on airport-level data availability.",
+   "keyPoints": [
+    "The framework integrates an LSTM autoencoder with a class-weighted XGBoost classifier.",
+    "It was evaluated using 53,750 NASA DASHlink approach windows from three arrival airports.",
+    "Results demonstrated a mean macro recall above 0.90 across all airports.",
+    "Feature attributions linked predictions to operationally relevant variables such as vertical path and speed."
+   ]
+  },
+  "km": {
+   "title": "ម៉ាស៊ីនសិក្សាបែបកូនសង្ករសម្រាប់ការទស្សន៍ទាយព្រឹត្តិការណ៍សុវត្ថិភាពដំណាក់កាលចុះចតមិនមានតុល្យភាពពីទិន្នន័យហោះហើរ",
+   "summary": "ការសិក្សានេះស្នើឱ្យមានក្របខ័ណ្ឌបញ្ចូលគ្នានូវលក្ខណៈពិសេសកូនសង្ករដែលអាចបកស្រាយបាន សម្រាប់ការទស្សន៍ទាយព្រឹត្តិការណ៍សុវត្ថិភាពដំណាក់កាលចុះចតថ្នាក់ច្រើន។ ប្រព័ន្ធនេះប្រើប្រាស់ LSTM autoencoder និង XGBoost classifier ដែលបំពាក់ទម្ងន់តាមថ្នាក់ ដើម្បីកំណត់អត្តសញ្ញាណស្ថានភាពមិនប្រក្រតី។ ការវាយតម្លៃត្រូវបានធ្វើឡើងដោយប្រើប្រាស់បង្អួចវិធីសាស្រ្ត NASA DASHlink ចំនួន 53,750 មកពីព្រលានយន្តហោះចំនួនបី។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចជួយដល់ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ក្នុងការបង្កើនការរកឃើញព្រឹត្តិការណ៍កម្រ និងការត្រួតពិនិត្យទិន្នន័យហោះហើរ។",
+   "keyPoints": [
+    "ក្របខ័ណ្ឌនេះប្រើប្រាស់ LSTM autoencoder រួមជាមួយនឹង XGBoost classifier ។",
+    "វាត្រូវបានវាយតម្លៃដោយប្រើប្រាស់បង្អួចវិធីសាស្រ្ត NASA DASHlink ចំនួន 53,750។",
+    "លទ្ធផលបង្ហាញពីការរកឃើញប្រកបដោយតុល្យភាពថ្នាក់ខ្លាំងជាមួយនឹង mean macro recall លើសពី 0.90។"
+   ]
+  },
+  "zh-CN": {
+   "title": "基于混合机器学习的飞行数据不平衡着陆阶段安全事件预测",
+   "summary": "本研究提出了一种可解释的混合特征融合框架，用于多分类着陆阶段安全事件预测。该框架结合了用于表征偏离常规行为的LSTM自编码器与类加权XGBoost分类器。研究使用了来自三个到达机场的53,750个NASA DASHlink进近窗口进行了评估，结果显示在重复划分和再训练下，所有机场的平均宏召回率均高于0.90。",
+   "impact": "该框架可以帮助开发人员和安全团队改善稀有事件检测以及飞行数据监控模型。研究结果表明，可以根据机场级的数据可用性来调整本地专业化和联合训练策略。",
+   "keyPoints": [
+    "该框架将LSTM自编码器与类加权XGBoost分类器相结合。",
+    "评估使用了来自三个到达机场的53,750个NASA DASHlink进近窗口。",
+    "所有机场的平均宏召回率均超过0.90。",
+    "特征归因将预测结果与垂直路径、配置、速度和进近上下文等变量联系起来。"
+   ]
+  },
+  "ko": {
+   "title": "비행 데이터를 이용한 불균형 착륙 단계 안전 이벤트 예측을 위한 하이브리드 머신러닝",
+   "summary": "본 연구는 다중 클래스 착륙 단계 안전 이벤트 예측을 위한 해석 가능한 하이브리드 특징 융합 프레임워크를 제안합니다. 이 프레임워크는 편차를 특성화하는 LSTM 오토인코더와 클래스 가중치가 부여된 XGBoost 분류기를 결합합니다. 세 곳의 도착 공항에서 수집된 53,750개의 NASA DASHlink 접근 윈도우를 사용하여 평가한 결과, 반복적인 분할 및 재훈련 하에서 모든 공항에서 0.90 이상의 평균 매크로 재현율을 달성했습니다.",
+   "impact": "이 프레임워크는 보안 팀과 개발자가 희귀 이벤트 감지 및 비행 데이터 모니터링 모델을 개선하는 데 도움을 줄 수 있습니다. 연구 결과는 공항별 데이터 가용성에 따라 로컬 전문화 및 풀링 학습 전략을 조정할 수 있음을 시사합니다.",
+   "keyPoints": [
+    "프레임워크는 LSTM 오토인코더와 클래스 가중치가 부여된 XGBoost 분류기를 통합합니다.",
+    "세 곳의 도착 공항에서 가져온 53,750개의 NASA DASHlink 접근 윈도우로 평가되었습니다.",
+    "모든 공항에서 0.90 이상의 평균 매크로 재현율을 기록했습니다.",
+    "특징 기여도를 통해 예측을 수직 경로, 구성, 속도 및 접근 컨텍스트 변수와 연결합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f3b411487e8b307d",
+ "contentHash": "b48ec2867cbed891",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T23:44:46.057Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks",
+   "summary": "Coding agents need reliable evaluation, but existing benchmarks can become stale as models improve and evaluation infrastructure changes, creating benchmark maintenance debt. To address this, the authors introduce a continuous-validation workflow and apply it to Terminal-Bench 2.0, identifying issues in about 30% of the benchmark and releasing Terminal-Bench 2.1. These repairs increased accuracy by over 10 percentage points and shifted leaderboard positions by up to three ranks. The study also shows that resource allocation, such as wall-clock time limits, can materially change agent performance and must be validated alongside tasks.",
+   "impact": "Developers and researchers evaluating coding agents may need to account for benchmark maintenance debt and resource allocation settings, as outdated benchmarks or restrictive time limits can significantly skew model accuracy and leaderboard results.",
+   "keyPoints": [
+    "Benchmark maintenance debt describes the growing gap between benchmark scores and actual model capabilities due to stale verification and changing evaluation infrastructure.",
+    "An audit of Terminal-Bench 2.0 identified issues in roughly 30% of the benchmark, leading to the release of Terminal-Bench 2.1.",
+    "Repairs increased overall accuracy by over 10 percentage points and shifted leaderboard ranks by up to three positions.",
+    "Extending time limits significantly altered agent performance, demonstrating that resource budgets are a crucial part of measurement specifications."
+   ]
+  },
+  "km": {
+   "title": "Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks",
+   "summary": "ភ្នាក់ងារសរសេរកូដគឺជាការដាក់ពង្រាយ LLMs ដ៏សំខាន់ ប៉ុន្តែការវាយតម្លៃអាចនឹងចាស់គំនិតនៅពេលដែលម៉ូដែលរីកចម្រើន ដែលបង្កើតបានជាបំណុលថែទាំសូចនាករ។ អ្នកស្រាវជ្រាវបានណែនាំដំណើរការផ្ទៀងផ្ទាត់បន្តបន្ទាប់ និងបានអនុវត្តវាចំពោះ Terminal-Bench 2.0 ដោយបានរកឃើញបញ្ហាប្រហែល 30% និងបានបញ្ចេញ Terminal-Bench 2.1។ ការកែសម្រួលទាំងនេះបានបង្កើនភាពត្រឹមត្រូវជាង 10 ភាគរយ និងបានផ្លាស់ប្តូរចំណាត់ថ្នាក់នៅលើតារាងពិន្ទុ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខអាចចាំបាច់ត្រូវពិចារណាលើការថែទាំសូចនាករ និងការបែងចែកធនធាន ព្រោះកម្រិតកំណត់ពេលវេលាឬសូចនាករដែលចាស់អាចប៉ះពាល់ដល់លទ្ធផលនៃការវាយតម្លៃម៉ូដែល។",
+   "keyPoints": [
+    "បំណុលថែទាំសូចនាករគឺជាគម្លាតរវាងពិន្ទុសូចនាករនិងសមត្ថភាពម៉ូដែល។",
+    "ការសវនកម្មលើ Terminal-Bench 2.0 បានរកឃើញបញ្ហាប្រហែល 30% ។",
+    "ការកែសម្រួលបានបង្កើនភាពត្រឹមត្រូវជាង 10 ភាគរយ។",
+    "ថវិកាធនធានគឺជាផ្នែកមួយនៃការវាស់វែងដែលត្រូវតែផ្ទៀងផ្ទាត់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks",
+   "summary": "编码智能体是LLM的重要应用，但随着模型改进和评估基础设施变化，现有基准测试可能会过时，从而产生基准维护债务。为此，研究人员引入了持续验证工作流并将其应用于Terminal-Bench 2.0，在约30%的基准测试中发现了问题并发布了Terminal-Bench 2.1。这些修复使准确率提高了10个百分点以上，并且排行榜排名发生了变化。研究还表明，资源分配（如墙钟时间限制）会显著改变智能体性能。",
+   "impact": "开发人员和技术用户在评估大语言模型时，可能需要关注基准测试维护和资源预算设置，因为过时的基准或不当的时间限制可能会显著扭曲模型性能评估结果。",
+   "keyPoints": [
+    "基准维护 debt 指的是由于验证过时和基础设施变化导致的基准分数与模型能力之间的差距。",
+    "对 Terminal-Bench 2.0 的审计发现了大约30%的问题，并催生了 Terminal-Bench 2.1。",
+    "修复后准确率提高了10个百分点以上，排行榜排名移动了最多三个名次。",
+    "延长壁钟时间限制显著缩小了不同模型之间的性能差距，表明资源预算必须与任务一起进行验证。"
+   ]
+  },
+  "ko": {
+   "title": "Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks",
+   "summary": "코딩 에이전트는 LLM의 중요한 배포 형태이지만, 모델이 발전함에 따라 기존 벤치마크가 구식화되어 벤치마크 유지 관리 부채가 발생할 수 있습니다. 연구진은 지속적인 검증 워크플로를 도입하여 Terminal-Bench 2.0에 적용하였고, 벤치마크의 약 30%에서 문제를 발견하여 Terminal-Bench 2.1을 출시했습니다. 이러한 수정으로 정확도가 10% 이상 향상되었으며 리더보드 순위가 변동되었습니다. 또한 자원 할당이 에이전트 성능에 큰 영향을 미친다는 점이 입증되었습니다.",
+   "impact": "개발자와 기술 사용자들은 모델 평가 시 벤치마크의 유지 관리 상태와 자원 예산 설정을 고려해야 할 수 있으며, 그렇지 않으면 모델 성능과 순위 결과가 왜곡될 수 있습니다.",
+   "keyPoints": [
+    "벤치마크 유지 관리 부채는 검증의 한계와 평가 인프라 변경으로 인해 발생합니다.",
+    "Terminal-Bench 2.0에 대한 감사 결과 약 30%에서 문제가 발견되었습니다.",
+    "수정 사항을 반영한 Terminal-Bench 2.1은 정확도를 10% 이상 향상시켰습니다.",
+    "시간 제한과 같은 자원 예산은 작업과 함께 검증되어야 하는 측정 사양의 일부입니다."
+   ]
+  }
+ }
+}

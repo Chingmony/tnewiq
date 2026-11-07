@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ad7ce0682301424c",
+ "contentHash": "1b499b8e003857c8",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T23:48:36.215Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "LABBA: LLM-Assisted Behavioral Biometric Authentication",
+   "summary": "Researchers introduced LABBA, a context-aware authentication framework that integrates LLM-based reasoning with a phone-blowing behavioral biometric technique. By collecting blow-acoustic signals and extracting spectral and temporal features, the system converts data into structured prompts using discrete rules or continuous scores. Experimental evaluation with 50 participants showed accuracy rates of 99.46% and 99.38% in rule-based and score-based modes.",
+   "impact": "This approach could help security teams and developers build more adaptive authentication systems that resist spoofing and real-world behavioral variability. The integration of LLMs may provide enhanced contextual reasoning and robustness compared to traditional non-LLM behavioral biometric classifiers.",
+   "keyPoints": [
+    "LABBA integrates LLM-based contextual reasoning with a phone-blowing behavioral biometric technique.",
+    "The system extracts spectral and temporal features from blow-acoustic signals.",
+    "It achieved 99.46% accuracy in rule-based mode and 99.38% accuracy in score-based mode during evaluations with 50 participants."
+   ]
+  },
+  "km": {
+   "title": "LABBA៖ ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវជីវមាត្រតាមបែបផែនអាកប្បកិរិយាដែលជំនួយដោយ LLM",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ LABBA ដែលជាក្របខ័ណ្ឌផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវដែលមានការយល់ដឹងពីបរិបទ ដោយរួមបញ្ចូលការវែកញែកផ្អែកលើ LLM ជាមួយនឹងបច្ចេកទេសជីវមាត្រអាកប្បកិរិយាเป่าទូរសព្ទ។ តាមរយៈការប្រមូលសញ្ញា الصوتของการเป่า និងការទាញយកលក្ខណៈពិសេសតាមវិសាលគម និងពេលវេលា ប្រព័ន្ធនេះបំលែងទិន្នន័យទៅជាសំណួរដែលមានโครงสร้าง។ ការវាយតម្លៃពិសោធន៍ជាមួយអ្នកចូលរួមចំនួន 50 នាក់បានបង្ហាញពីអត្រាភាពត្រឹមត្រូវ 99.46% និង 99.38% ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍បង្កើតប្រព័ន្ធផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវដែលមានភាពបត់បែនជាងមុន និងទប់ទល់នឹងការក្លែងបន្លំ។ ការរួមបញ្ចូល LLM អាចផ្តល់នូវការវែកញែកបរិបទ និងភាពរឹងមាំប្រសើរជាងមុនបើធៀបនឹងឧបករណ៍ចាត់ថ្នាក់ជីវមាត្រអាកប្បកិរិយាបែបប្រពៃណី។",
+   "keyPoints": [
+    "LABBA រួមបញ្ចូលការវែកញែកបរិបទផ្អែកលើ LLM ជាមួយនឹងបច្ចេកទេសជីវមាត្រអាកប្បកិរិយាเป่าទូរសព្ទ។",
+    "ប្រព័ន្ធនេះទាញយកលក្ខណៈពិសេសតាមវិសាលគម និងពេលវេលាពីសញ្ញាសំឡេងเป่า។",
+    "វាទទួលបានភាពត្រឹមត្រូវ 99.46% ក្នុងរបៀបផ្អែកលើច្បាប់ និង 99.38% ក្នុងរបៀបផ្អែកលើពិន្ទុ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "LABBA：LLM辅助的行为生物特征认证",
+   "summary": "研究人员推出了LABBA，这是一个上下文感知认证框架，将基于LLM的推理与吹手机行为生物特征技术相结合。通过收集吹气声学信号并提取频谱和时间特征，该系统使用离散规则或连续分数将数据转化为结构化的提示。对50名参与者的实验评估显示，基于规则和基于分数的模式下的准确率分别为99.46%和99.38%。",
+   "impact": "这种方法可以帮助安全团队和开发人员构建更具适应性的认证系统，以抵御欺骗和现实世界的行为变异。与传统的非LLM行为生物特征分类器相比，LLM的集成可能会提供增强的上下文推理和鲁棒性。",
+   "keyPoints": [
+    "LABBA将基于LLM的上下文推理与吹手机行为生物特征技术相结合。",
+    "该系统从吹气声学信号中提取频谱和时间特征。",
+    "在对50名参与者的评估中，规则模式和分数模式的准确率分别达到了99.46%和99.38%。"
+   ]
+  },
+  "ko": {
+   "title": "LABBA: LLM 지원 행동 생체 인식 인증",
+   "summary": "연구진은 LLM 기반 추론을 휴대폰 불기 행동 생체 인식 기술과 결합한 맥락 인식 인증 프레임워크인 LABBA를 소개했습니다. 불기 음향 신호를 수집하고 스펙트럼 및 시간적 특징을 추출하여, 시스템은 데이터를 규칙 기반 범주 또는 연속 점수를 사용하여 구조화된 프롬프트로 변환합니다. 50명의 참가자를 대상으로 한 실험 평가에서 규칙 기반 및 점수 기반 모드에서 각각 99.46%와 99.38%의 정확도를 달성했습니다.",
+   "impact": "이 접근 방식은 보안 팀과 개발자가 스푸핑 및 실제 환경의 행동 가변성에 저항하는 더 적응력 있는 인증 시스템을 구축하는 데 도움을 줄 수 있습니다. LLM의 통합은 기존의 비LLM 행동 생체 인식 분류기에 비해 향상된 맥락 추론과 견고성을 제공할 수 있습니다.",
+   "keyPoints": [
+    "LABBA는 LLM 기반 맥락 추론을 휴대폰 불기 행동 생체 인식 기술과 결합합니다.",
+    "시스템은 불기 음향 신호에서 스펙트럼 및 시간적 특징을 추출합니다.",
+    "50명의 참가자를 대상으로 한 평가에서 규칙 기반 모드 99.46%, 점수 기반 모드 99.38%의 정확도를 기록했습니다."
+   ]
+  }
+ }
+}

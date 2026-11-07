@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "099bd49063f71dc7",
+ "contentHash": "e174a882bfa62187",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T23:44:13.245Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing",
+   "summary": "Researchers introduced VLA-Tug, a lightweight probe over the latent layers of Vision-Language-Action models designed to improve early failure detection and classification. The method uses supervision on pre-failure segments to increase detection rates while bounding missed-detection and false-alarm rates. Additionally, a new dataset of 3,180 annotated manipulation episodes has been released to support future research.",
+   "impact": "This method could help developers and security teams deploy Vision-Language-Action models more safely by providing efficient, real-time monitoring and failure mode prediction on the edge. It may also improve task success rates and prevent equipment damage or endangerment during deployment.",
+   "keyPoints": [
+    "VLA-Tug is a lightweight probe operating over latent layers of a VLA backbone.",
+    "Supervising on pre-failure segments increases early failure detection by up to 30% over the strongest baseline.",
+    "Bounds on missed-detection and false-alarm rates remain valid in up to 86% of runs under shift to unseen tasks.",
+    "A dataset of 3,180 annotated manipulation episodes is released to support future work."
+   ]
+  },
+  "km": {
+   "title": "ការទស្សន៍ទាយ និងការចាត់ថ្នាក់កំហុសនៅក្នុង Vision-Language-Action Models តាមរយៈ Calibrated Latent Probing",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ VLA-Tug ដែលជាឧបករណ៍ត្រួតពិនិត្យស្រាលលើស្រទាប់ឡាតង់នៃ Vision-Language-Action models ដើម្បីកែលម្អការរកឃើញ និងចាត់ថ្នាក់កំហុសមុនពេលវាើតឡើង។ វិធីសាស្ត្រនេះប្រើប្រាស់ការត្រួតពិនិត្យលើផ្នែកមុនពេលមានកំហុស ដើម្បីបង្កើនអត្រារកឃើញកំហុស។ បន្ថែមពីនេះ ឈុតទិន្នន័យដែលមានវគ្គរៀបចំចំនួន ៣.១៨០ ត្រូវបានចេញផ្សាយផងដែរ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខក្នុងការដាក់ឱ្យប្រើប្រាស់ Vision-Language-Action models ប្រកបដោយសុវត្ថិភាពជាងមុន តាមរយៈការត្រួតពិនិត្យពេលវេលាពិត និងការទស្សន៍ទាយកំហុស។ វាអាចជួយកែលម្អអត្រាជោគជ័យនៃកិច្ចការ និងការពារការខូចខាតឧបករណ៍។",
+   "keyPoints": [
+    "VLA-Tug គឺជាឧបករណ៍ត្រួតពិនិត្យស្រាលដែលដំណើរការលើស្រទាប់ឡាតង់។",
+    "វាជួយបង្កើនការរកឃើញកំហុសដំបូងរហូតដល់ ៣០%។",
+    "អត្រាកំហុសត្រូវបានរក្សាទុកក្នុងការរត់រហូតដល់ ៨៦% ក្រោមការផ្លាស់ប្តូរភារកិច្ច។",
+    "ឈុតទិន្នន័យចំនួន ៣.១៨០ ត្រូវបានចេញផ្សាយនៅលើគេហទំព័ររបស់ពួកគេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过校准潜在探测在 Vision-Language-Action Models 中进行故障预测和分类",
+   "summary": "研究人员推出了 VLA-Tug，这是一种针对 Vision-Language-Action models 潜在层的轻量级探测器，旨在改善早期故障检测和分类。该方法利用故障前片段的监督来提高早期检测率，同时控制漏检率和误报率。此外，研究人员还发布包含 3,180 个标注操作片段的数据集以支持未来研究。",
+   "impact": "该方法可以通过在边缘端提供高效的实时监控和故障模式预测，帮助开发人员和安全团队更安全地部署 Vision-Language-Action models。它可能有助于提高任务成功率并防止部署过程中的设备损坏。",
+   "keyPoints": [
+    "VLA-Tug 是在 VLA 主干网潜在层上的轻量级探测器。",
+    "对故障前片段进行监督可将早期故障检测率提高高达 30%。",
+    "在未见任务的转换下，漏检率和误报率的边界在高达 86% 的运行中保持有效。",
+    "发布了一个包含 3,180 个标注操作片段的数据集。"
+   ]
+  },
+  "ko": {
+   "title": "보정된 런타임 프로빙을 통한 Vision-Language-Action Models의 결함 예측 및 분류",
+   "summary": "연구진은 초기 결함 감지 및 분류를 개선하기 위해 Vision-Language-Action models의 잠재 레이어에 대한 경량 프로브인 VLA-Tug를 발표했습니다. 이 방법은 사전 결함 세그먼트에 대한 감독을 사용하여 감지율을 높이고 누락 감지 및 오탐율을 제한합니다. 또한 향후 연구를 지원하기 위해 3,180개의 주석이 달린 조작 에피소드 데이터셋이 공개되었습니다.",
+   "impact": "이 방법은 개발자와 보안 팀이 엣지에서 효율적인 실시간 모니터링과 결함 모드 예측을 제공하여 Vision-Language-Action models를 보다 안전하게 배포하는 데 도움을 줄 수 있습니다. 또한 작업 성공률을 높이고 배포 중 장비 손상을 방지하는 데 기여할 수 있습니다.",
+   "keyPoints": [
+    "VLA-Tug는 VLA 백본의 잠재 레이어에서 실행되는 경량 프로브입니다.",
+    "사전 결함 세그먼트를 감독하여 초기 결함 감지율을 최대 30%까지 향상시킵니다.",
+    "보이지 않는 작업으로의 전환 시 실행의 최대 86%에서 누락 감지 및 오탐율 제한이 유효하게 유지됩니다.",
+    "3,180개의 주석이 달린 조작 에피소드 데이터셋이 공개되었습니다."
+   ]
+  }
+ }
+}

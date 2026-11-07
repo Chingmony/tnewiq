@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2a5b4cc3c4503846",
+ "contentHash": "fb7aed0f384badba",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T23:49:08.898Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Polarity Classification with Multitask Learning Syntax Augmentation",
+   "summary": "Researchers proposed and compared two multitask learning strategies for integrating syntactic knowledge into neural sentiment analysis models to address limitations in handling linguistic phenomena like negation. Standard-MTL jointly learns dependency parsing and sentiment classification using a shared encoder, while Contrastive-MTL provides implicit syntactic guidance through a contrastive auxiliary objective and syntax-biased attention pooling. Both strategies eliminate the need for hand-crafted rules or external parsing during inference. Evaluations across eleven datasets and seven languages show that Contrastive-MTL outperforms syntax-naive baselines and rule-based pipelines while achieving significantly faster evaluation speeds.",
+   "impact": "This approach could help developers and technology users improve the efficiency and speed of sentiment analysis models by removing the need for external parsers during inference. Security teams and developers may find the reduction in computational overhead beneficial for large-scale natural language processing tasks. However, performance can depend on the specific dataset and encoding strategy used, as seen with Standard-MTL.",
+   "keyPoints": [
+    "Sentiment analysis often struggles with negation and intensification, which syntactic parsing aims to address.",
+    "Standard-MTL and Contrastive-MTL integrate syntactic knowledge under a unified Multi-Task Learning framework.",
+    "Contrastive-MTL outperforms syntax-naive baselines on 10 out of 11 evaluated datasets.",
+    "The method is 1.5 to 9 times faster at evaluation than external rule-based parsing pipelines."
+   ]
+  },
+  "km": {
+   "title": "ការចាត់ថ្នាក់ប៉ូលarity ជាមួយការបង្កើនវាក្យសម្ព័ន្ធសិក្សាពហុតួនាទី",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើ និងប្រៀបធៀបយុទ្ធសាស្ត្រសិក្សាពហុតួនាទីពីរសម្រាប់ការរួមបញ្ចូលចំណេះដឹងវាក្យសម្ព័ន្ធទៅក្នុងគំរូវិភាគអារម្មណ៍សរសៃប្រសាទ ដើម្បីដោះស្រាយបញ្ហាប្រឈមក្នុងការจัดการបាតុភូតភាសា។ Standard-MTL និង Contrastive-MTL ត្រូវបានបង្កើតឡើងដើម្បីលុបបំបាត់តម្រូវការសម្រាប់ការញែកក្រៅពេលអនុវត្ត។ ការវាយតម្លៃលើសំណុំទិន្នន័យចំនួនដប់មួយបង្ហាញថា Contrastive-MTL ដំណើរការបានល្អជាងbaselineធម្មតា។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍បង្កើនប្រសាលភាព និងល្បឿននៃគំរូវិភាគអារម្មណ៍ដោយមិនបាច់ប្រើប្រាស់ឧបករណ៍ញែកខាងក្រៅ។",
+   "keyPoints": [
+    "ការវិភាគអារម្មណ៍ជួបការលំបាកជាមួយបាតុភូតអវិជ្ជមាន។",
+    "Standard-MTL និង Contrastive-MTL រួមបញ្ចូលចំណេះដឹងវាក្យសម្ព័ន្ធ។",
+    "Contrastive-MTL ដំណើរការលឿនជាង និងមានប្រសិទ្ធភាពជាងមុន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "基于多任务学习句法增强的情感极性分类",
+   "summary": "研究人员提出并比较了两种多任务学习策略，将句法知识整合到神经情感分析模型中，以解决处理否定等语言现象时的困难。Standard-MTL和Contrastive-MTL消除了在推理时对人工规则或外部解析的需求。在七种语言的十一个数据集上的评估表明，Contrastive-MTL优于语法朴素的基线并提高了评估速度。",
+   "impact": "这种方法可以帮助开发人员和技术用户通过在推理阶段免除外部解析器来提高情感分析模型的效率和速度。开发人员和安全团队可能会发现这种方法有助于降低大规模自然语言处理任务的计算开销。",
+   "keyPoints": [
+    "情感分析通常难以处理否定和强化等语言现象。",
+    "Standard-MTL和Contrastive-MTL在统一的多任务学习框架下整合了句法知识。",
+    "Contrastive-MTL在11个数据集中的10个上表现优于基线模型。",
+    "评估速度比基于规则的外部解析管道快1.5到9倍。"
+   ]
+  },
+  "ko": {
+   "title": "멀티태스크 학습 구문 증강을 이용한 극성 분류",
+   "summary": "연구진은 부정 및 강조와 같은 언어 현상을 처리하는 데 어려움을 겪는 감성 분석 모델에 구문 지식을 통합하기 위한 두 가지 멀티태스크 학습 전략을 제안하고 비교했습니다. Standard-MTL과 Contrastive-MTL은 추론 시 수동 규칙이나 외부 구문 분석의 필요성을 제거합니다. 7개 언어의 11개 데이터셋에 대한 평가 결과, Contrastive-MTL이 기존 기준선보다 우수한 성능을 보이며 더 빠른 평가 속도를 달성했습니다.",
+   "impact": "이 접근 방식은 개발자와 기술 사용자가 추론 단계에서 외부 구문 분석기를 제거하여 감성 분석 모델의 효율성과 속도를 향상시키는 데 도움을 줄 수 있습니다. 개발자와 보안 팀은 대규모 자연语言 처리 작업에서 계산 오버헤드가 감소하는 이점을 얻을 수 있습니다.",
+   "keyPoints": [
+    "감성 분석은 종종 부정과 강조 현상을 다루는 데 어려움을 겪습니다.",
+    "Standard-MTL과 Contrastive-MTL은 통합된 멀티태스크 학습 프레임워크에서 구문 지식을 통합합니다.",
+    "Contrastive-MTL은 평가된 11개 데이터셋 중 10개에서 기준선보다 뛰어난 성능을 보입니다.",
+    "외부 규칙 기반 파이프라인보다 평가 속도가 1.5~9배 빠릅니다."
+   ]
+  }
+ }
+}

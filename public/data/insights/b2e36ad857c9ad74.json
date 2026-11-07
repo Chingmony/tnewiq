@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b2e36ad857c9ad74",
+ "contentHash": "bea3e1129d920451",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T23:44:56.757Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Spectral and Subspace Dynamics of LoRA in Supervised Fine-Tuning and Reinforcement Learning",
+   "summary": "Researchers investigated how the dynamics of supervised fine-tuning (SFT) and reinforcement learning (RL) manifest in Low-rank adaptation (LoRA) updates on mathematical reasoning tasks. They discovered that group-mean baseline subtraction is the source of contrasts between RL, which concentrates the spectrum and rotates subspaces faster, and SFT, which expands the spectrum. Using a quadratic multi-index model, they revealed the underlying mechanism balancing coherent fitting and gradient noise. Guided by these insights, they tailored LoRA configurations for each stage, which yielded the best performance in most evaluated settings.",
+   "impact": "These findings could help developers and researchers optimize LoRA configurations specifically for SFT and RL workflows. Tailoring updates based on these spectral and subspace dynamics may improve performance on mathematical reasoning tasks across various models.",
+   "keyPoints": [
+    "RL concentrates the LoRA spectrum while SFT expands it at moderate learning rates.",
+    "RL rotates singular subspaces much faster than SFT at small learning rates.",
+    "Group-mean baseline subtraction is identified as the source of these contrasts.",
+    "Tailored LoRA configurations for SFT and RL yielded the best performance in most evaluated settings."
+   ]
+  },
+  "km": {
+   "title": "ឌីណាមិកវិសាលគម និងលំហរងរបស់ LoRA ក្នុងការលៃតម្រូវយ៉ាងល្អិតល្អន់ក្រោមការគ្រប់គ្រង និងការរៀនពង្រឹង",
+   "summary": "អ្នកស្រាវជ្រាវបានពិនិត្យមើលពីរបៀបដែលឌីណាមិកនៃការលៃតម្រូវយ៉ាងល្អិតល្អន់ក្រោមការគ្រប់គ្រង និងការរៀនពង្រឹងបង្ហាញខ្លួនឯងនៅក្នុងបច្ចុប្បន្នភាព LoRA លើកិច្ចការហេតុផលគណិតវិទ្យា។ ពួកគេបានរកឃើញថាការដកដកមូលដ្ឋានមធ្យមក្រុមគឺជាប្រភពនៃភាពខុសគ្នា ដែល RL ប្រមូលផ្តុំវិសាលគម ខណៈដែល SFT ពង្រីកវា។ តាមរយៈការណែនាំទាំងនេះ ពួកគេបានកែសម្រួលការកំណត់ LoRA សម្រាប់ដំណាក់កាលនីមួយៗ ដែលផ្តល់នូវដំណើរការល្អបំផុត។",
+   "impact": "ការរកឃើញទាំងនេះអាចជ่วยឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវបង្កើនប្រសិទ្ធភាពការកំណត់រចនាសម្ព័ន្ធ LoRA ជាពិសេសសម្រាប់ SFT និង RL ។ ការកែសម្រួលបច្ចុប្បន្នភាពដោយផ្អែកលើឌីណាមិកទាំងនេះអាចកែលម្អដំណើរការលើកិច្ចការហេតុផលគណិតវិទ្យា។",
+   "keyPoints": [
+    "RL ប្រមូលផ្តុំវិសាលគម LoRA ខណៈពេលដែល SFT ពង្រីកវា។",
+    "RL បង្វិលលំហរងលឿនជាង SFT នៅអត្រារៀនតូចៗ។",
+    "ការដកមូលដ្ឋានមធ្យមក្រុមគឺជាប្រភពនៃភាពផ្ទុយគ្នានេះ។",
+    "ការកំណត់រចនាសម្ព័ន្ធ LoRA ដែលបានកែសម្រួលបានផ្តល់នូវដំណើរការល្អបំផុតនៅក្នុងការកំណត់ភាគច្រើន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "监督微调与强化学习中LoRA的谱与子空间动力学",
+   "summary": "研究人员在数学推理任务上，探讨了监督微调（SFT）和强化学习（RL）的不同动态如何体现在LoRA更新中。他们发现，组均值基线减法是RL（在所有学习率下集中谱）与SFT（在中等学习率下扩展谱）之间差异的来源。通过二次多指数模型，他们揭示了潜在机制，并据此为每个阶段量身定制了LoRA更新配置。在多模型数学推理任务上的实验表明，这些配置在大多数评估设置中取得了最佳性能。",
+   "impact": "这些发现可以帮助开发人员和研究人员针对SFT和RL工作流优化LoRA配置。根据这些动力学特性调整更新可能会在各种模型的数学推理任务中提升性能。",
+   "keyPoints": [
+    "RL在每个学习率下都会集中谱，而SFT在中等学习率下会扩展谱。",
+    "在低学习率下，RL旋转奇异子 Subspaces 的速度比SFT快得多。",
+    "组均值基线减法被确定为这些对比的来源。",
+    "针对SFT和RL定制的配置在大多数评估设置中表现最好。"
+   ]
+  },
+  "ko": {
+   "title": "지도 미세 조정 및 강화 학습에서 LoRA의 스펙트럼 및 부분 공간 역학",
+   "summary": "연구원들은 수학적 추론 작업에서 지도 미세 조정(SFT)과 강화 학습(RL)의 역학이 LoRA 업데이트에 어떻게 나타나는지 조사했습니다. 그들은 그룹 평균 기준선 뺄셈이 스펙트럼을 집중시키는 RL과 이를 확장하는 SFT 간의 대조의 원인임을 발견했습니다. 2차 다중 지표 모델을 사용하여 이들은 기본 메커니즘을 밝혀냈고, 이에 따라 각 단계에 맞는 LoRA 구성을 조정하여 대부분의 평가 설정에서 최고의 성능을 거두었습니다.",
+   "impact": "이러한 결과는 개발자와 연구원이 SFT 및 RL 워크플로를 위해 LoRA 구성을 최적화하는 데 도움을 줄 수 있습니다. 이러한 역학을 기반으로 업데이트를 조정하면 다양한 모델에서 수학적 추론 작업의 성능이 향상될 수 있습니다.",
+   "keyPoints": [
+    "RL은 모든 학습률에서 스펙트럼을 집중시키는 반면, SFT는 적당한 학습률에서 이를 확장합니다.",
+    "RL은 작은 학습률에서 SFT보다 특이 부분 공간을 훨씬 빠르게 회전시킵니다.",
+    "그룹 평균 기준선 뺄셈이 이러한 대조의 원인으로 확인되었습니다.",
+    "SFT 및 RL에 맞게 조정된 구성은 평가된 대부분의 설정에서 최고의 성능을 보였습니다."
+   ]
+  }
+ }
+}

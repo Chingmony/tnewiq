@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c3a0bff22293b2ac",
+ "contentHash": "3e363fedb41f3721",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T23:45:29.892Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
+   "summary": "Researchers introduce Social Humanoid, a hierarchical system that enables a 29-DoF Unitree G1 to generate and execute socially responsive whole-body motion based on a human partner's movements. The system uses a high-level policy for flexible sequence modeling and a low-level whole-body tracking controller for execution. To train this, the team developed an adaptive retargeting procedure and created a new Human-Humanoid Interaction benchmark containing 260 hours of interactions across five motion-capture datasets. Results show that Social Humanoid achieves coordinated, human-aligned behavior in both simulation and real-world tests.",
+   "impact": "This research could improve how humanoid robots physically coordinate and interact with human partners in real-world environments. Developers and researchers working on robotics may find the 260-hour benchmark and training methodologies useful for advancing reactive robot behaviors.",
+   "keyPoints": [
+    "Social Humanoid is a hierarchical system for socially responsive whole-body motion on a 29-DoF Unitree G1.",
+    "A two-phase adaptive retargeting procedure was used to create a 260-hour Human-Humanoid Interaction benchmark from five motion-capture datasets.",
+    "The high-level policy anticipates a human partner's motion even when occluded, while a low-level controller executes the movement.",
+    "Results demonstrate coordinated, human-aligned behavior in simulation and the real world."
+   ]
+  },
+  "km": {
+   "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ Social Humanoid ដែលជាប្រព័ន្ធលំដាប់ថ្នាក់មួយអាចឱ្យមនុស្សយន្ត Unitree G1 ទំហំ 29-DoF បង្កើត និងប្រតិបត្តិចលនារាងកាយទាំងមូលឆ្លើយតបទៅនឹងសង្គមដោយផ្អែកលើចលនារបស់ដៃគូមនុស្ស។ ប្រព័ន្ធនេះប្រើប្រាស់គោលនយោបាយកម្រិតខ្ពស់សម្រាប់គំរូลำដាប់បន្តបន្ទាប់ និងឧបករណ៍បញ្ជាតាមដານរាងកាយកម្រិតទាបសម្រាប់ការប្រតិបត្តិ។ ដើម្បីបណ្តុះបណ្តាលប្រព័ន្ធនេះ ក្រុមការងារបានបង្កើតនីតិវិធីកែសម្រួលគោលដៅសម្របខ្លួន និងបង្កើតកម្រិតស្តង់ដារអន្តរកម្មរវាងមនុស្ស និងមនុស្សយន្តថ្មីដែលមានរយៈពេល ២៦០ម៉ោង។ លទ្ធផលបង្ហាញថា Social Humanoid បង្កើតបាននូវឥរិយាបថសម្របសម្រួលគ្នាស្របតាមមនុស្សទាំងក្នុងការក្លែងធ្វើនិងក្នុងពិភពពិត។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយកែលម្អពីរបៀបដែលមនុស្សយន្តសម្របសម្រួល និងមានអន្តរកម្មរាងកាយជាមួយដៃគូមនុស្សនៅក្នុងបរិយាកាសពិភពពិត។ អ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវដែលធ្វើការលើផ្នែកមនុស្សយន្តអាចយល់ថា កម្រិតស្តង់ដាររយៈពេល ២៦០ម៉ោង និងវិធីសាស្ត្របណ្តុះបណ្តាលមានប្រយោជន៍សម្រាប់ការជំរុញឥរិយាបថមនុស្សយន្តឱ្យកាន់តែមានភាពឆ្លើយតប។",
+   "keyPoints": [
+    "Social Humanoid គឺជាប្រព័ន្ធលំដាប់ថ្នាក់សម្រាប់ចលនារាងកាយទាំងមូលឆ្លើយតបសង្គមនៅលើ Unitree G1 ទំហំ 29-DoF។",
+    "នីតិវិធីកែសម្រួលគោលដៅសម្របខ្លួនពីរដំណាក់កាលត្រូវបានប្រើប្រាស់ដើម្បីបង្កើតកម្រិតស្តង់ដារអន្តរកម្មរវាងមនុស្ស និងមនុស្សយន្តរយៈពេល ២៦០ម៉ោង។",
+    "គោលនយោបាយកម្រិតខ្ពស់រំពឹងទុកចលនារបស់ដៃគូមនុស្សសូម្បីតែពេលបាំងមុខក៏ដោយ ខណៈពេលដែលឧបករណ៍បញ្ជាកម្រិតទាបប្រតិបត្តិការចលនា។",
+    "លទ្ធផលបង្ហាញពីឥរិយាបថសម្របសម្រួលគ្នាស្របតាមមនុស្សក្នុងការក្លែងធ្វើនិងពិភពពិត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
+   "summary": "研究人员推出了 Social Humanoid，这是一个分层系统，使 29-DoF 的 Unitree G1 能够根据人类伙伴的动作为基础，生成并执行具有社交响应能力的全身动作。该系统采用高级策略进行灵活的序列建模，并使用低级全身追踪控制器来执行动作。为了训练该系统，团队引入了两阶段自适应重定向程序，并从五个动作捕捉数据集中创建了包含 260 小时交互的新人机交互基准。结果表明，Social Humanoid 在模拟和现实世界中均能产生协调且与人类对齐的行为。",
+   "impact": "这项研究可能会改善人形机器人在现实环境中与人类伙伴进行物理协调和互动的方式。从事机器人技术的开发人员和研究人员可能会发现这 260 小时的基准和训练方法对推进机器人的反应行为很有帮助。",
+   "keyPoints": [
+    "Social Humanoid 是一个在 29-DoF Unitree G1 上实现社交响应全身动作的分层系统。",
+    "引入了两阶段自适应重定向程序，利用五个动作捕捉数据集创建了 260 小时的人机交互基准。",
+    "高级策略能够在人类伙伴被遮挡时预测其动作，而低级控制器则负责在机器人上执行动作。",
+    "结果证明了其在模拟和现实世界中能够产生协调、与人类对齐的行为。"
+   ]
+  },
+  "ko": {
+   "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
+   "summary": "연구원들은 인간 파트너의 움직임에 맞춰 사회적으로 반응하는 전신 동작을 29-DoF Unitree G1에서 생성하고 실행할 수 있는 계층형 시스템인 Social Humanoid를 발표했다. 이 시스템은 유연한 시퀀스 모델링을 위한 고수준 정책과 로봇에서 동작을 실행하는 저수준 전신 추적 제어기를 사용한다. 시스템을 훈련하기 위해 연구팀은 2단계 적응형 리타게팅 절차를 도입했으며, 5개의 모션 캡처 데이터셋에서 260시간 분량의 인간-휴노이드 상호작용 벤치마크를 구축했다. 결과는 Social Humanoid가 시뮬레이션과 현실 세계에서 다양하고 조율된 인간 친화적 행동을 생성함을 보여준다.",
+   "impact": "이번 연구는 휴머노이드 로봇이 현실 세계에서 인간 파트너와 신체적으로 조율하고 상호작용하는 방식을 개선할 수 있다. 로봇 공학을 연구하는 개발자와 연구자들은 260시간 분량의 벤치마크와 학습 방법론이 반응형 로봇 행동을 발전시키는 데 유용하다는 것을 알 수 있을 것이다.",
+   "keyPoints": [
+    "Social Humanoid는 29-DoF Unitree G1에서 사회적으로 반응하는 전신 동작을 생성하는 계층형 시스템이다.",
+    "2단계 적응형 리타게팅 절차를 적용하여 5개의 모션 캡처 데이터셋으로부터 260시간의 인간-휴머노이드 상호작용 벤치마크를 생성했다.",
+    "고수준 정책은 파트너가 가려져 있을 때도 동작을 예측하며, 저수준 제어기는 로봇에서 동작을 실행한다.",
+    "결과를 통해 시뮬레이션과 현실 세계 모두에서 조율되고 인간과 일치하는 행동을 생성함을 입증했다."
+   ]
+  }
+ }
+}

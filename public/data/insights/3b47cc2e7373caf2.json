@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3b47cc2e7373caf2",
+ "contentHash": "df3bf36c2d5654a6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T23:45:18.365Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Conformal Prediction for Time-Dependent PDEs",
+   "summary": "Uncertainty quantification is crucial in scientific machine learning for safety-critical tasks like flood forecasting and financial risk management. Conformal prediction offers distribution-free coverage guarantees, but these guarantees can break down in time-dependent settings common to physics and engineering. The study proves that in a function space setting, distributions at arbitrarily close times can be mutually singular, and in discretized settings, total variation distance saturates exponentially fast with grid resolution.",
+   "impact": "This research could help developers and researchers understand the limitations of conformal prediction in time-dependent systems and guide them on how to use principled weighted conformal prediction to obtain finite-sample coverage guarantees over growing time horizons.",
+   "keyPoints": [
+    "Conformal prediction guarantees can break down in time-dependent settings, leading to systematic undercoverage.",
+    "Distributions at arbitrarily close times can be mutually singular in a function space setting.",
+    "Total variation distance between distributions can saturate exponentially fast with grid resolution in discretized settings.",
+    "Principled weighted conformal prediction can provide finite-sample coverage guarantees over growing time horizons in certain settings."
+   ]
+  },
+  "km": {
+   "title": "ការទស្សន៍ទាយតាមបែប Conformal សម្រាប់ PDE ដែលអាស្រ័យលើពេលវេលា",
+   "summary": "ការកំណត់បរិមាណមិនច្បាស់លាស់មានសារៈសំខាន់ណាស់នៅក្នុងការរៀនម៉ាស៊ីនបែបវិទ្យាសាស្ត្រសម្រាប់កិច្ចការសំខាន់ៗ។ ការទស្សន៍ទាយតាមបែប Conformal ផ្ដល់នូវការធានា ប៉ុន្តែនៅក្នុងបរិបទដែលអាស្រ័យលើពេលវេលា ការធានាទាំងនេះអាចបរាជ័យ។ ការសិក្សានេះបង្ហាញពីបញ្ហាប្រឈមក្នុងមុខងារលំហ និងការកំណត់បណ្តាញក្រឡាចត្រង្គ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍យល់ដឹងពីដែនកំណត់នៃការទស្សន៍ទាយ និងវិធីសាស្ត្រក្នុងការទទួលបានការធានាលើការគ្របដណ្តប់។",
+   "keyPoints": [
+    "ការធានានៃការទស្សន៍ទាយអាចបរាជ័យក្នុងបរិបទអាស្រ័យលើពេលវេលា។",
+    "ការចែកចាយនៅពេលជិតគ្នាអាចខុសគ្នាខ្លាំងនៅក្នុងមុខងារលំហ។",
+    "ការប្រើប្រាស់វិធីសាស្ត្រ weighted conformal prediction អាចជួយធានាការគ្របដណ្តប់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "针对时变偏微分方程的保形预测",
+   "summary": "不确定性量化在科学机器学习中对于防洪预测和金融风险管理等安全关键任务至关重要。保形预测提供了无分布覆盖保证，但在物理和工程中常见的时变设置中，这些保证可能会失效，导致系统性覆盖不足。研究证明在函数空间设置中，任意接近时间的分布可能相互奇异，并且在离散化设置中，总变差距离随网格分辨率呈指数级快速饱和。",
+   "impact": "这项研究可以帮助开发人员和安全团队理解时变系统中保形预测的局限性，并指导如何在某些设置中使用有原则的加权保形预测来获得有限样本覆盖保证。",
+   "keyPoints": [
+    "保形预测保证在时变设置中可能会失效并导致系统性覆盖不足。",
+    "在函数空间设置中，任意接近时间的分布可能相互奇异。",
+    "在离散化设置中，分布之间的总变差距离随网格分辨率呈指数级快速饱和。",
+    "在某些设置中可以使用有原则的加权保形预测来获得有限样本覆盖保证。"
+   ]
+  },
+  "ko": {
+   "title": "시간 종속 편미분 방정식에 대한 콩포멀 예측",
+   "summary": "불확실성 정량화는 홍수 예측 및 금융 위험 관리와 같은 안전이 중요한 작업에 필수적입니다. 콩포멀 예측은 분포에 구애받지 않는 커버리지 보장을 제공하지만, 물리학과 공학에서 흔히 발생하는 시간 종속 설정에서는 이러한 보장이 깨져 체계적인 과소 커버리지를 초래할 수 있습니다. 연구에 따르면 함수 공간 설정에서 임의로 가까운 시간의 분포들이 서로 특이할 수 있으며, 이산화된 설정에서는 총 변동 거리가 격자 해상도에 따라 지수적으로 빠르게 포화됩니다.",
+   "impact": "이 연구는 개발자와 보안 팀이 시간 종속 시스템에서 콩포멀 예측의 한계를 이해하고 원칙적인 가중 콩포멀 예측을 사용하여 유한 표본 커버리지 보장을 얻는 방법을 파악하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "시간 종속 설정에서는 콩포멀 예측 보장이 깨질 수 있습니다.",
+    "함수 공간 설정에서 임의로 가까운 시간의 분포는 상호 특이할 수 있습니다.",
+    "이산화된 설정에서 분포 간의 총 변동 거리는 격자 해상도에 따라 지수적으로 포화됩니다.",
+    "원칙적인 가중 콩포멀 예측을 사용하여 유한 표본 커버리지 보장을 얻을 수 있습니다."
+   ]
+  }
+ }
+}

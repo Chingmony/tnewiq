@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a50c82bc09baaee6",
+ "contentHash": "39df44e16135b3c6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T23:49:40.070Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "LLM-Assisted Label Noise Correction for EEG-Based Sleep Stage Classification",
+   "summary": "Researchers have proposed an LLM-assisted label-noise filtering pipeline to improve EEG-based sleep stage classification. The method uses TinySleepNet to extract confidence scores and LLaMA 3.1 to evaluate low-confidence epochs against AASM guidelines, removing suspicious annotations during training. Evaluated on the Sleep-EDF Expanded dataset, the approach improved overall accuracy from 81.8% to 84.6% and Macro F1-score from 75.6% to 77.4%. Because the LLM is only used during training, the lightweight TinySleepNet architecture remains unchanged at inference.",
+   "impact": "This approach could benefit developers and researchers building real-time wearable sleep monitoring applications by improving classifier accuracy without increasing inference complexity. Security and technology teams may also find value in training-phase-only filtering techniques that preserve lightweight inference models.",
+   "keyPoints": [
+    "A novel LLM-assisted label-noise filtering pipeline identifies and removes unreliable sleep-stage annotations during training.",
+    "TinySleepNet extracts SoftMax confidence scores, and LLaMA 3.1 evaluates low-confidence epochs against AASM guidelines.",
+    "Overall accuracy on the Sleep-EDF Expanded dataset improved from 81.8% to 84.6%.",
+    "Macro F1-score increased from 75.6% to 77.4%, with notable gains in REM detection."
+   ]
+  },
+  "km": {
+   "title": "ការកែតម្រូវសំឡេងរំខានស្លាកដែលគាំទ្រដោយ LLM សម្រាប់ការចាត់ថ្នាក់ដំណាក់កាលគេងផ្អែកលើ EEG",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើបំពង់ខ្សែកាបចម្រោះស្លាក-សំឡេងរំខានដែលគាំទ្រដោយ LLM ដើម្បីបង្កើនការចាត់ថ្នាក់ដំណាក់កាលគេងផ្អែកលើ EEG ។ វិធីសាស្ត្រនេះប្រើប្រាស់ TinySleepNet ដើម្បីទាញយកពិន្ទុទំនុកចិត្ត និង LLaMA 3.1 ដើម្បីវាយតម្លៃសម័យកាលដែលមានទំនុកចិត្តទាបធៀបនឹងគោលការណ៍ណែនាំ AASM ដោយលុបចោលចំណាំគួរឱ្យសង្ស័យក្នុងអំឡុងពេលបណ្តុះបណ្តាល។ វិធីសាស្រ្តនេះបានកែលម្អភាពត្រឹមត្រូវសរុបពី 81.8% ដល់ 84.6% និង Macro F1-score ពី 75.6% ដល់ 77.4% ។ ដោយសារ LLM ត្រូវបានប្រើប្រាស់เฉพาะក្នុងអំឡុងពេលបណ្តុះបណ្តាល ស្ថាបត្យកម្ម TinySleepNet ទម្ងន់ស្រាលនៅតែមិនផ្លាស់ប្តូរនៅពេលសន្និដ្ឋាន។",
+   "impact": "វិធីសាស្រ្តនេះអាចផ្តល់អត្ថប្រយោជន៍ដល់អ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវដែលបង្កើតកម្មវិធីតាមដានការគេងដែលអាចពាក់បានក្នុងពេលជាក់ស្តែងដោយការកែលម្អភាពត្រឹមត្រូវនៃឧបករណ៍ចាត់ថ្នាក់។ ក្រុមបច្ចេកវិទ្យាក៏អាចរកឃើញតម្លៃនៅក្នុងបច្ចេកទេសចម្រោះដំណាក់កាលបណ្តុះបណ្តាលតែប៉ុណ្ណោះដែលរក្សាគំរូសន្និដ្ឋានទម្ងន់ស្រាលផងដែរ។",
+   "keyPoints": [
+    "បំពង់ខ្សែកាបចម្រោះស្លាក-សំឡេងរំខានថ្មីដែលគាំទ្រដោយ LLM កំណត់អត្តសញ្ញាណ និងលុបចោលចំណាំដំណាក់កាលគេងដែលមិនអាចទុកចិត្តបានក្នុងអំឡុងពេលបណ្តុះបណ្តាល។",
+    "TinySleepNet ទាញយកពិន្ទុទំនុកចិត្ត SoftMax ហើយ LLaMA 3.1 វាយតម្លៃសម័យកាលដែលមានទំនុកចិត្តទាបធៀបនឹងគោលការណ៍ណែនាំ AASM។",
+    "ភាពត្រឹមត្រូវសរុបនៅលើชุดទិន្នន័យ Sleep-EDF Expanded បានកើនឡើងពី 81.8% ដល់ 84.6% ។",
+    "Macro F1-score បានកើនឡើងពី 75.6% ដល់ 77.4% ជាមួយនឹងការកើនឡើងគួរឱ្យកត់សម្គាល់ក្នុងការរកឃើញ REM ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "基于大语言模型辅助标签噪声校正的基于EEG的睡眠阶段分类",
+   "summary": "研究人员提出了一种大语言模型辅助的标签噪声过滤管道，以改进基于EEG的睡眠阶段分类。该方法使用TinySleepNet提取置信度分数，并利用LLA-MA 3.1根据AASM准则评估低置信度时期，在训练期间删除不可靠的睡眠阶段标注。在Sleep-EDF Expanded数据集上进行评估时，该方法将整体准确率从81.8%提高到84.6%，Macro F1分数从75.6%提高到77.4%。由于大语言模型仅在训练期间运行，轻量级的TinySleepNet架构在推理时得以保留。",
+   "impact": "这种方法可以通过在不增加推理复杂性的情况下提高分类器准确性，从而使构建实时可穿戴睡眠监测应用程序的开发人员和研究人员受益。技术团队也可能会发现仅在训练阶段使用的过滤技术具有保留轻量级推理模型的价值。",
+   "keyPoints": [
+    "一种新颖的大语言模型辅助标签噪声过滤管道在训练期间识别并删除不可靠的睡眠阶段标注。",
+    "TinySleepNet提取SoftMax置信度分数，LLaMA 3.1根据AASM准则评估低置信度时期。",
+    "在Sleep-EDF Expanded数据集上的整体准确率从81.8%提高到84.6%。",
+    "Macro F1分数从75.6%提高到77.4%，在REM检测方面取得了显著提升。"
+   ]
+  },
+  "ko": {
+   "title": "EEG 기반 수면 단계 분류를 위한 LLM 보조 레이블 노이즈 보정",
+   "summary": "연구원들은 EEG 기반 수면 단계 분류를 개선하기 위해 LLM 보조 레이블 노이즈 필터링 파이프라인을 제안했습니다. 이 방법은 TinySleepNet을 사용하여 신뢰도 점수를 추출하고, LLaMA 3.1을 통해 AASM 지침에 따라 신뢰도가 낮은 에포크를 평가하여 훈련 중 신뢰할 수 없는 수면 단계 주석을 제거합니다. Sleep-EDF Expanded 데이터셋에서 평가한 결과, 전체 정확도는 81.8%에서 84.6%로, Macro F1 점수는 75.6%에서 77.4%로 향상되었습니다. LLM은 훈련 중에만 작동하므로 가벼운 TinySleepNet 아키텍처는 추론 시 그대로 유지됩니다.",
+   "impact": "이 접근 방식은 추론 복잡성을 증가시키지 않으면서 분류기 정확도를 향상시켜 실시간 웨어러블 수면 모니터링 애플리케이션을 구축하는 개발자와 연구원에게 도움이 될 수 있습니다. 기술 팀은 또한 경량 추론 모델을 보존하는 훈련 단계 전용 필터링 기술에서 가치를 찾을 수 있습니다.",
+   "keyPoints": [
+    "새로운 LLM 보조 레이블 노이즈 필터링 파이프라인이 훈련 중에 신뢰할 수 없는 수면 단계 주석을 식별하고 제거합니다.",
+    "TinySleepNet이 SoftMax 신뢰도 점수를 추출하고, LLaMA 3.1이 AASM 지침에 따라 신뢰도가 낮은 에포크를 평가합니다.",
+    "Sleep-EDF Expanded 데이터셋에서의 전체 정확도가 81.8%에서 84.6%로 향상되었습니다.",
+    "Macro F1 점수가 75.6%에서 77.4%로 상승했으며, 특히 REM 감지에서 주목할 만한 향상을 보였습니다."
+   ]
+  }
+ }
+}
