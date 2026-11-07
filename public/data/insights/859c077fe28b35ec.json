@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "859c077fe28b35ec",
+ "contentHash": "7afd988b4dd67811",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T08:58:51.708Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Yejin Unveils Korean-Specialized 8B AI Model Developed Independently from Pre-training",
+   "summary": "AI specialist company Yejin announced on November 6 that it has developed 'Yejin 8B v3', an 8 billion parameter foundation model specialized in Korean. Unlike models that fine-tune existing open-weights, Yejin built this model completely from scratch, handling everything from tokenizer design to pre-training independently. A weight comparison against six public models showed a similarity of 0.0014 or less, proving it is not a derivative model.",
+   "impact": "This model could provide developers and technology users in Korea with a specialized alternative built entirely from scratch rather than relying on fine-tuned overseas models. Security teams and developers may find value in utilizing a foundation model with verified independent architecture.",
+   "keyPoints": [
+    "Yejin developed the 8 billion parameter foundation model 'Yejin 8B v3' specialized in Korean.",
+    "The model was built from scratch without using weights from overseas open models.",
+    "Weight comparisons against six public models yielded a similarity of 0.0014 or lower."
+   ]
+  },
+  "km": {
+   "title": "예진 បានដាក់បង្ហាញម៉ូដែល AI ទំហំ 8B ដែលមានឯកទេសខាងភាសាកូរ៉េ និងត្រូវបានអភិវឌ្ឍដោយឯករាជ្យចាប់ពីដំណាក់កាលបណ្តុះបណ្តាលជាមុន",
+   "summary": "ក្រុមហ៊ុនឯកទេស AI ឈ្មោះ 예진 បានប្រកាសកាលពីថ្ងៃទី ៦ ខែវិច្ឆិកា ថាខ្លួនបានអភិវឌ្ឍម៉ូដែលមូលដ្ឋាន '예진 8B v3' ដែលមានប៉ារ៉ាម៉ែត្រ ៨ ពាន់លាន និងមានឯកទេសខាងភាសាកូរ៉េ។ ម៉ូដែលនេះត្រូវបានបង្កើតឡើងទាំងស្រុងពីដំបូង ដោយមិនប្រើប្រាស់ទម្ងន់ពីម៉ូដែលបើកចំហនៅបរទេសនោះទេ។ ការប្រៀបធៀបទម្ងន់ជាមួយម៉ូដែលសាធារណៈចំនួន ៦ បានបង្ហាញពីភាពស្រដៀងគ្នាបន្តិចបន្តួចប៉ុណ្ណោះ។",
+   "impact": "ម៉ូដែលនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវជម្រើសថ្មីមួយដែលត្រូវបានសាងសង់ឡើងដោយឯករាជ្យទាំងស្រុងសម្រាប់ភាសាកូរ៉េ។",
+   "keyPoints": [
+    "예진 បានអភិវឌ្ឍម៉ូដែលមូលដ្ឋាន '예진 8B v3' ទំហំ 8B ដែលមានឯកទេសខាងភាសាកូរ៉េ។",
+    "ម៉ូដែលនេះត្រូវបានបង្កើតឡើងដោយមិនប្រើប្រាស់ទម្ងន់ពីម៉ូដែលបរទេសឡើយ។",
+    "ការប្រៀបធៀបទម្ងន់បង្ហាញពីភាពស្រដៀងគ្នាទាបជាង 0.0014 ធៀបនឹងម៉ូដែលសាធារណៈចំនួន ៦។"
+   ]
+  },
+  "zh-CN": {
+   "title": "예진发布韩语专用8B人工智能模型 从预训练开始独立开发",
+   "summary": "人工智能专业公司예진于11月6日宣布，已开发出专注于韩语的80亿参数基础模型“예진 8B v3”。该模型没有使用海外公开模型的权重，而是从分词器设计到预训练的全过程都独立进行的从零开始构建的模型。与6种公开模型的权重比较结果显示，相似度在0.0014以下，这表明它不是微调现有模型的衍生模型。",
+   "impact": "该模型可能为开发者和技术用户提供了一个完全独立构建、不依赖海外开源模型权重的韩语基础模型选择。安全团队和技术人员可以关注其不属于微调衍生模型的独立架构特点。",
+   "keyPoints": [
+    "예진开发了专注于韩语的80亿参数基础模型예진 8B v3。",
+    "该模型从分词器设计到预训练均从零开始独立完成，未采用海外开源权重。",
+    "与6种公开模型的权重相似度低于0.0014。"
+   ]
+  },
+  "ko": {
+   "title": "예진, 한국어 특화 8B AI 모델 공개…사전학습부터 독자 개발",
+   "summary": "AI 전문 예진은 한국어에 특화된 80억 매개변수 파운데이션 모델 예진 8B v3를 개발했다고 6일 밝혔다. 예진 8B v3는 해외 공개 모델의 가중치를 쓰지 않고 토크나이저 설계부터 사전학습까지 전 과정을 직접 수행한 프롬 스크래치 모델이다. 공개 모델 6종과 가중치를 비교한 결과 유사도가 0.0014 이하로 기존 모델을 미세조정한 파생 모델이 아니라는 설명이다.",
+   "impact": "이번 독자 개발 모델은 국내 개발자와 기술 사용자들에게 해외 오픈소스 모델의 단순 미세조정 방식에서 벗어난 새로운 대안을 제시할 수 있다. 보안 팀과 개발자들은 독립적으로 사전학습된 파운데이션 모델의 활용성을 검토할 수 있다.",
+   "keyPoints": [
+    "예진이 한국어에 특화된 80억 파운데이션 모델 예진 8B v3를 개발함.",
+    "해외 공개 모델의 가중치를 사용하지 않고 프롬 스크래치 방식으로 독자 개발됨.",
+    "공개 모델 6종과의 가중치 비교 유사도가 0.0014 이하로 파생 모델이 아님을 입증함."
+   ]
+  }
+ }
+}

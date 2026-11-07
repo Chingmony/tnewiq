@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9989e939e148877e",
+ "contentHash": "f473755017b80025",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T08:57:04.077Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+   "summary": "Passwords and API keys typed by developers into approved Claude Code commands are exposed in public GitHub repositories. When users select the option to not ask again, the AI coding assistant can save the exact command containing the secret into a project settings file. Software security company Apiiro reported that 1,122 public copies of this file are affected.",
+   "impact": "Developers and security teams may need to check their public repositories for exposed secrets stored in project settings files. This situation could lead to unauthorized access if sensitive credentials like passwords and API keys are left publicly readable.",
+   "keyPoints": [
+    "Passwords and API keys entered into approved Claude Code commands are stored in project settings files.",
+    "The exposure happens when users select the option to not ask again.",
+    "Apiiro reported that 1,122 public copies of these files are available on GitHub."
+   ]
+  },
+  "km": {
+   "title": "ဖိုင် “Don't Ask Again” របស់ Claude Code បង្ហាញពាក្យសម្ងាត់ និងសោនៅលើ GitHub សាធារណៈចំនួន ១.១២២",
+   "summary": "ពាក្យសម្ងាត់ និងសោ API ដែលអ្នកអភិវឌ្ឍន៍បានវាយបញ្ចូលក្នុងពាក្យបញ្ជាដែលបានอนุมัติនៅក្នុង Claude Code កំពុងស្ថិតនៅក្នុងបណ្តុំ GitHub សាធារណៈ ដែលនរណាម្នាក់អាចអានបាន។ នៅពេលអ្នកប្រើប្រាស់ជ្រើសរើសជម្រើសមិនសួរម្តងទៀត ជំនួយការសរសេរកូដ AI របស់ Anthropic អាចរក្សាទុកពាក្យបញ្ជាទាំងស្រុង រួមទាំងអាថ៌កំបាំង នៅក្នុងឯកសារការកំណត់គម្រោង។ ក្រុមហ៊ុនសុវត្ថិភាពဆော့ဖ်វែរ Apiiro បានរាយការណ៍ថាមានច្បាប់ចម្លងសាធារណៈចំនួន ១.១២២ ត្រូវបានប៉ះពាល់។",
+   "impact": "ក្រុមអ្នកអភិវឌ្ឍន៍ និងសុវត្ថិភាពប្រហែលជាត្រូវពិនិត្យមើលបណ្តុំសាធារណៈរបស់ពួកគេ ដើម្បីរកមើលអាថ៌កំបាំងដែលបានលាតត្រដាងដែលបានរក្សាទុកក្នុងឯកសារការកំណត់គម្រោង។ ស្ថានភាពនេះអាចនាំឱ្យមានការចូលប្រើប្រាស់ដោយគ្មានការអនុញ្ញាត ប្រសិនបើព័ត៌មានសម្ងាត់រសើបដូចជាពាក្យសម្ងាត់ និងសោ API ត្រូវបានទុកចោលជាសាធារណៈ។",
+   "keyPoints": [
+    "ពាក្យសម្ងាត់ និងសោ API ដែលបានបញ្ចូលក្នុងពាក្យបញ្ជា Claude Code ត្រូវបានរក្សាទុកក្នុងឯកសារការកំណត់គម្រោង។",
+    "ការបង្ហាញនេះកើតឡើងនៅពេលអ្នកប្រើប្រាស់ជ្រើសរើសជម្រើសមិនសួរម្តងទៀត។",
+    "Apiiro បានរាយការណ៍ថាច្បាប់ចម្លងសាធារណៈចំនួន ១.១២២ នៃឯកសារទាំងនេះមាននៅលើ GitHub។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Claude Code 的“不再询问”文件导致 GitHub 上 1,122 个公开副本泄露密码和密钥",
+   "summary": "开发人员在批准的 Claude Code 命令中键入的密码和 API 密钥正暴露在公开的 GitHub 仓库中，任何人都可读取。当用户选择“是，且不再询问”时，Anthropic 的 AI 编程助手会将包含机密的命令逐字保存在项目配置文件中。软件安全公司 Apiiro 报告称，已有 1,122 个该文件的公开副本受到影响。",
+   "impact": "开发人员和安全团队可能需要检查其公开仓库，以查找存储在项目配置文件中的泄露机密。如果密码和 API 密钥等敏感凭据被公开读取，这种情况可能会导致未经授权的访问。",
+   "keyPoints": [
+    "输入到批准的 Claude Code 命令中的密码和 API 密钥被存储在项目配置文件中。",
+    "当用户选择不再询问选项时就会发生这种泄露。",
+    "Apiiro 报告称 GitHub 上有 1,122 个此类文件的公开副本。"
+   ]
+  },
+  "ko": {
+   "title": "Claude Code의 “다시 묻지 않음” 파일로 인해 GitHub의 공개 복사본 1,122개에서 비밀번호 및 키 노출",
+   "summary": "개발자가 승인한 Claude Code 명령에 입력한 비밀번호와 API 키가 누구나 읽을 수 있는 공개 GitHub 저장소에 노출되어 있습니다. 사용자가 다시 묻지 않음을 선택하면 Anthropic의 AI 코딩 도스토이 비밀번호를 포함한 명령어를 프로젝트 설정 파일에 그대로 저장할 수 있습니다. 소프트웨어 보안 회사인 Apiiro는 1,122개의 공개 복사본이 영향을 받는다고 밝혔습니다.",
+   "impact": "개발자와 보안 팀은 프로젝트 설정 파일에 저장된 노출된 비밀 정보를 찾기 위해 공개 저장소를 확인해야 할 수 있습니다. 비밀번호 및 API 키와 같은 민감한 자격 증명이 공개적으로 읽힐 수 있는 상태로 방치되면 무단 액세스로 이어질 수 있습니다.",
+   "keyPoints": [
+    "승인된 Claude Code 명령에 입력된 비밀번호와 API 키가 프로젝트 설정 파일에 저장됩니다.",
+    "이 노출은 사용자가 다시 묻지 않음 옵션을 선택할 때 발생합니다.",
+    "Apiiro는 이러한 파일의 공개 복사본 1,122개가 GitHub에 존재한다고 보고했습니다."
+   ]
+  }
+ }
+}

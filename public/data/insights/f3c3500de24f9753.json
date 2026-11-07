@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f3c3500de24f9753",
+ "contentHash": "962e60e4362ea47b",
+ "model": "gemini-flash-latest",
+ "generatedAt": "2026-11-07T08:53:00.035Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Thinking Machines Unveils Significantly Upgraded 'Inkling 2', Challenging Chinese Open Models",
+   "summary": "Thinking Machines Lab, led by former OpenAI executive Mira Murati, has introduced a new AI model with significantly improved performance compared to prior models. The second-generation model, named Inkling 2 Small, utilizes a Mixture of Experts (MoE) architecture with a total of 594 billion parameters. The company plans to release the model weights to allow enterprises to build custom AI tailored to their own workflows.",
+   "impact": "Enterprise developers and teams may be able to leverage the released weights to develop internal AI solutions optimized for their specific tasks. It could also provide organizations with an alternative to leading Chinese open-weight models.",
+   "keyPoints": [
+    "Thinking Machines Lab introduced its second-generation model, Inkling 2 Small.",
+    "The model uses a Mixture of Experts (MoE) architecture with 594 billion total parameters.",
+    "Model weights are planned for release to enable companies to develop customized AI solutions."
+   ]
+  },
+  "km": {
+   "title": "Thinking Machines បង្ហាញ 'Inkling 2' ដែលបង្កើនប្រសិទ្ធភាពយ៉ាងខ្លាំង ដោយប្រកួតប្រជែងជាមួយម៉ូឌែលបើកចំហរបស់ចិន",
+   "summary": "Thinking Machines Lab ដែលដឹកនាំដោយអតីតបុគ្គលិក OpenAI គឺ Mira Murati បានប្រកាសចេញម៉ូឌែល AI ថ្មីដែលមានប្រសិទ្ធភាពខ្ពស់ជាងម៉ូឌែលមុនៗ។ ម៉ូឌែលជំនាន់ទីពីរនេះមានឈ្មោះថា Inkling 2 Small ដោយប្រើប្រាស់ស្ថាបត្យកម្ម Mixture of Experts (MoE) និងមានប៉ារ៉ាម៉ែត្រសរុបចំនួន 594 ពាន់លាន។ ក្រុមហ៊ុនគ្រោងនឹងបញ្ចេញទម្ងន់ម៉ូឌែល (model weights) ដើម្បីឱ្យបណ្តាក្រុមហ៊ុនអាចអភិវឌ្ឍ AI សម្រាប់សម្រួលការងារជាក់លាក់របស់ខ្លួន។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងស្ថាប័ននានាអាចនឹងអាចប្រើប្រាស់ទម្ងន់ម៉ូឌែលដែលគ្រោងនឹងបញ្ចេញ ដើម្បីបង្កើតដំណោះស្រាយ AI ផ្ទាល់ខ្លួនសម្រាប់ប្រតិបត្តិការអាជីវកម្ម។ វាក៏អាចក្លាយជាជម្រើសថ្មីក្នុងការប្រកួតប្រជែងជាមួយម៉ូឌែល open-weight ឈានមុខគេរបស់ចិនផងដែរ។",
+   "keyPoints": [
+    "Thinking Machines Lab បានប្រកាសចេញម៉ូឌែលជំនាន់ទីពីរគឺ Inkling 2 Small។",
+    "ម៉ូឌែលនេះមានប៉ារ៉ាម៉ែត្រសរុប 594 ពាន់លាន និងដំណើរការលើស្ថាបត្យកម្ម MoE។",
+    "ទម្ងន់ម៉ូឌែលត្រូវបានគ្រោងនឹងបញ្ចេញដើម្បីជួយឱ្យក្រុមហ៊ុននានាអភិវឌ្ឍ AI តាមតម្រូវការ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Thinking Machines 推出性能大幅提升的“Inkling 2”，叫板中国开源模型",
+   "summary": "由 OpenAI 前高管 Mira Murati 领导的 Thinking Machines Lab 推出了一款性能较前代大幅提升的新型 AI 模型。这款名为 Inkling 2 Small 的第二代模型采用了专家混合（MoE）架构，总参数量达 5940 亿。该公司计划公开模型权重，以便企业能够根据自身业务定制开发 AI。",
+   "impact": "随着模型权重的计划公开，企业与开发者或能利用该模型构建适合自身业务需求的专属 AI。它也可能为寻求替代中国主流开放权重模型的技术团队提供新选项。",
+   "keyPoints": [
+    "Thinking Machines Lab 发布了第二代模型 Inkling 2 Small。",
+    "该模型采用 MoE 架构，拥有 5940 亿个参数。",
+    "官方计划公开模型权重以供企业开发定制化 AI。"
+   ]
+  },
+  "ko": {
+   "title": "씽킹 머신스, 성능 대폭 높인 '잉클링 2' 공개…중국 오픈 모델에 도전",
+   "summary": "오픈AI 출신 미라 무라티가 이끄는 씽킹 머신스 랩이 기존 모델보다 성능을 대폭 끌어올린 차세대 AI 모델을 공개했습니다. 이번에 출시된 2세대 모델 'Inkling 2 Small'은 전문가 혼합(MoE) 구조를 적용하여 총 5940억 개의 매개변수를 보유하고 있습니다. 회사는 기업들이 각자의 업무 환경에 맞춰 AI를 구축할 수 있도록 모델 가중치를 공개할 계획입니다.",
+   "impact": "기업과 개발자는 향후 공개될 가중치를 활용해 자체 업무에 특화된 맞춤형 AI 모델을 개발할 수 있을 것으로 보입니다. 또한 주요 중국 오픈웨이트 모델을 대체할 수 있는 새로운 대안이 될 수 있습니다.",
+   "keyPoints": [
+    "씽킹 머신스 랩이 2세대 모델 Inkling 2 Small을 공개했습니다.",
+    "전문가 혼합(MoE) 방식을 기반으로 총 5940억 개의 매개변수를 갖췄습니다.",
+    "기업 맞춤형 AI 개발을 위해 모델 가중치가 공개될 예정입니다."
+   ]
+  }
+ }
+}

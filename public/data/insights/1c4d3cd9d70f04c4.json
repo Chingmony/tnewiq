@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1c4d3cd9d70f04c4",
+ "contentHash": "a572b738f902270d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T08:58:39.992Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Jync v1.14.0 - In-App HTTPS and Configuration Package Migration",
+   "summary": "Jync v1.14.0 introduces in-app HTTPS support, allowing system configurations to directly upload PKCS#12 or JKS keystores, or PEM certificate chains and private keys. This enables Jync to provide its own HTTPS without modifying nginx or environment variables. Certificates and encrypted keystore passwords are stored locally in ./data/tls, avoiding the metadata database and configuration packages.",
+   "impact": "Developers and system administrators may find certificate management easier as they can configure HTTPS directly within the application without altering external proxies or environment variables. Security teams might note that sensitive credentials are kept separate from metadata databases and configuration packages.",
+   "keyPoints": [
+    "Jync v1.14.0 adds in-app HTTPS functionality.",
+    "Supports direct upload of PKCS#12, JKS keystores, or PEM certificate chains and private keys.",
+    "Certificates and encrypted keystore passwords are saved in ./data/tls."
+   ]
+  },
+  "km": {
+   "title": "Jync v1.14.0 · HTTPS ក្នុងកម្មវិធី និងការ移行កញ្ចប់កំណត់រចនាសម្ព័ន្ធ",
+   "summary": "Jync v1.14.0 បន្ថែមមុខងារ HTTPS ក្នុងកម្មវិធី ដែលការកំណត់រចនាសម្ព័ន្ធប្រព័ន្ធអាចផ្ទុកឡើងដោយផ្ទាល់នូវ PKCS#12 / JKS keystores ឬខ្សែសង្វាក់វិញ្ញាបនបត្រ PEM និងកូនសោឯកជន។ វិញ្ញាបនបត្រ និងពាក្យសម្ងាត់ keystore ដែលបានអ៊ិនគ្រីបត្រូវបានរក្សាទុកនៅក្នុង ./data/tls ដោយមិនចូលទៅក្នុងមូលដ្ឋានទិន្នន័យមេតាហ្វី ឬកញ្ចប់កំណត់រចនាសម្ព័ន្ធទេ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកគ្រប់គ្រងប្រព័ន្ធអាចគ្រប់គ្រងវិញ្ញាបនបត្របានកាន់តែងាយស្រួលដោយមិនចាំបាច់កែប្រែ nginx ឬអថេរករណីកិច្ច។",
+   "keyPoints": [
+    "Jync v1.14.0 បន្ថែមមុខងារ HTTPS ក្នុងកម្មវិធី។",
+    "អនុញ្ញាតឱ្យផ្ទុកឡើង PKCS#12 / JKS keystores ឬ PEM ដោយផ្ទាល់។",
+    "រក្សាទុកវិញ្ញាបនបត្រនៅក្នុង ./data/tls ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Jync v1.14.0 · 应用内 HTTPS 与配置包迁移",
+   "summary": "Jync v1.14.0 新增应用内 HTTPS 功能，系统配置可直接上传 PKCS#12 / JKS 密钥库或 PEM 证书链与私钥，由 Jync 自己提供 HTTPS，无需再修改 nginx 或环境变量。证书与加密后的密钥库口令存放在 ./data/tls，不进入元数据库和配置包。",
+   "impact": "开发人员和系统管理员可以更直接地在应用内管理 HTTPS 证书，而无需调整外部代理或环境变量。安全团队可能会关注到敏感凭据被隔离在元数据库和配置包之外。",
+   "keyPoints": [
+    "Jync v1.14.0 新增应用内 HTTPS 功能。",
+    "支持直接上传 PKCS#12 / JKS 密钥库或 PEM 证书链与私钥。",
+    "证书与加密密钥库口令存放在 ./data/tls 目录。"
+   ]
+  },
+  "ko": {
+   "title": "Jync v1.14.0 · 앱 내 HTTPS 및 설정 패키지 마이그레이션",
+   "summary": "Jync v1.14.0은 애플리케이션 내 HTTPS 기능을 추가하여 시스템 설정에서 PKCS#12 / JKS 키스토어 또는 PEM 인증서 체인 및 개인 키를 직접 업로드할 수 있도록 지원합니다. 이를 통해 nginx나 환경 변수를 변경할 암호화된 키스토어 비밀번호는 ./data/tls에 저장되며 메타데이터베이스나 설정 패키지에 포함되지 않습니다.",
+   "impact": "개발자와 시스템 관리자는 외부 프록시나 환경 변수를 수정하지 않고도 애플리케이션 내부에서 직접 HTTPS를 구성할 수 있습니다. 보안 팀은 민감한 자격 증명이 메타데이터베이스 및 설정 패키지와 분리되어 저장된다는 점을 참고할 수 있습니다.",
+   "keyPoints": [
+    "Jync v1.14.0에 앱 내 HTTPS 기능 추가.",
+    "PKCS#12 / JKS 키스토어 또는 PEM 인증서 체인 및 개인 키 직접 업로드 지원.",
+    "인증서 및 암호화된 키스토어 비밀번호는 ./data/tls에 저장됨."
+   ]
+  }
+ }
+}

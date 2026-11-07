@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5ba22669dda4e51a",
+ "contentHash": "7710254cc6824e09",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T09:02:37.683Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "qData Data Middle Platform Open Source Edition v1.6.6 Released: ETL Module Lightweight Upgrade, Optimizing Scheduled Task Disk Usage",
+   "summary": "qData Data Middle Platform Open Source Edition v1.6.6 has been released with updates centered around the ETL execution module and a fix for JAR package accumulation during scheduled tasks. Community feedback highlighted that continuous running of data integration scheduled tasks led to accumulating ETL JAR packages on servers, consuming significant disk space. The latest version addresses execution package volume and runtime file concerns.",
+   "impact": "Developers and technology users running high-frequency and long-term synchronization tasks may benefit from reduced disk space consumption. Security and operations teams could experience fewer server maintenance issues related to uncontrolled file accumulation.",
+   "keyPoints": [
+    "qData Data Middle Platform Open Source Edition v1.6.6 is released.",
+    "The ETL execution module has been split for a lightweight upgrade.",
+    "Fixed the issue of ETL JAR packages continuously accumulating during scheduled tasks.",
+    "Addressed server disk space occupation caused by long-term synchronization tasks."
+   ]
+  },
+  "km": {
+   "title": "qData ទិន្នន័យកណ្តាលជំនាន់បើកចំហ v1.6.6 ត្រូវបានចេញផ្សាយ៖ ការធ្វើឱ្យប្រសើរម៉ូឌុល ETL និងការបង្កើនប្រសិទ្ធភាពការប្រើប្រាស់ថាសរៀបចំពេលវេលា",
+   "summary": "ការចេញផ្សាយ qData ទិន្នន័យកណ្តាលជំនាន់បើកចំហ v1.6.6 រួមមានការបែងចែកម៉ូឌុលប្រតិបត្តិ ETL និងការជួសជុលបញ្ហាការสะสมកញ្ចប់ JAR ក្នុងអំឡុងពេលភារកិច្ចដែលបានកំណត់ពេល។ មតិកែលម្អពីសហគមន៍បានបង្ហាញថា កិច្ចការរួមបញ្ចូលគ្និនៃទិន្នន័យដែលដំណើរការជាបន្តបន្ទាប់បានធ្វើឱ្យកញ្ចប់ JAR สะสมនៅលើម៉ាស៊ីនមេ និងប្រើប្រាស់ទំហំថាសយ៉ាងច្រើន។ កំណែថ្មីនេះផ្តោតលើទំហមកញ្ចប់ប្រតិបត្តិ និង ፋ៊ែលដំណើរការ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលដំណើរការកិច្ចការធ្វើសមកាលកម្មញឹកញាប់ និងរយៈពេលវែងអាចទទួលបានអត្ថប្រយោជន៍ពីការកាត់បន្ថយការប្រើប្រាស់ទំហំថាស។ ក្រុមការងារសុវត្ថិភាព និងប្រតិបត្តិការអាចជួបប្រទះបញ្ហាថែទាំម៉ាស៊ីនមេតិចជាងមុនដែលទាក់ទងនឹងការสะสมឯកសារ។",
+   "keyPoints": [
+    "qData ទិន្នន័យកណ្តាលជំនាន់បើកចំហ v1.6.6 ត្រូវបានចេញផ្សាយ។",
+    "ម៉ូឌុលប្រតិបត្តិ ETL ត្រូវបានបែងចែកសម្រាប់ការធ្វើឱ្យប្រសើរស្រាល។",
+    "បានជួសជុលបញ្ហាកញ្ចប់ ETL JAR สะสมជាបន្តបន្ទាប់ក្នុងអំឡុងពេលភារកិច្ចដែលបានកំណត់ពេល។",
+    "បានដោះស្រាយបញ្ហាការកាន់កាប់ទំហំថាសម៉ាស៊ីនមេដែលបណ្តាលមកពីកិច្ចការធ្វើសមកាលកម្មរយៈពេលវែង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "qData 数据中台开源版 v1.6.6 发布：ETL 模块轻量化升级，优化定时任务磁盘占用问题",
+   "summary": "qData 数据中台开源版 v1.6.6 正式发布，本次更新主要包含 ETL 执行模块的拆分以及定时任务运行中 JAR 包累积问题的修复。针对社区开发者反馈的数据集成定时任务持续运行导致服务器 ETL JAR 包不断累积并占用大量磁盘空间的问题，新版本进行了针对性优化。此次更新围绕执行包体积和运行文件展开，以改善高频和长期运行任务的资源占用。",
+   "impact": "开发者和技术用户在运行高频、长期的同步任务时，可以减少磁盘空间的消耗。技术运维团队可能因此减少因文件不断累积而需要进行的频繁服务器维护工作。",
+   "keyPoints": [
+    "qData 数据中台开源版 v1.6.6 已正式发布。",
+    "对 ETL 执行模块进行了拆分以实现轻量化升级。",
+    "修复了定时任务运行中 ETL JAR 包不断累积的问题。",
+    "优化了长期运行数据同步任务造成的服务器磁盘占用情况。"
+   ]
+  },
+  "ko": {
+   "title": "qData 데이터 중계 플랫폼 오픈소스 에디션 v1.6.6 출시: ETL 모듈 경량화 업그레이드 및 스케줄 작업 디스크 사용량 최적화",
+   "summary": "qData 데이터 중계 플랫폼 오픈소스 에디션 v1.6.6이 출시되었으며, 이번 업데이트는 ETL 실행 모듈 분할 및 스케줄 작업 실행 중 JAR 패키지 누적 문제 수정을 중심으로 이루어졌습니다. 커뮤니티 피드백에 따르면 데이터 통합 스케줄 작업이 지속적으로 실행됨에 따라 서버에 ETL JAR 패키지가 계속 누적되어 많은 디스크 공간을 차지하는 문제가 발견되었습니다. 최신 버전은 실행 패키지 용량과 실행 파일 문제를 해결하기 위해 개선되었습니다.",
+   "impact": "고빈도 및 장기 동기화 작업을 실행하는 개발자와 기술 사용자는 디스크 공간 소비 감소의 혜택을 누릴 수 있습니다. 보안 및 운영 팀은 제어되지 않은 파일 누적과 관련된 서버 유지 관리 문제를 줄일 수 있습니다.",
+   "keyPoints": [
+    "qData 데이터 중계 플랫폼 오픈소스 에디션 v1.6.6이 출시되었습니다.",
+    "ETL 실행 모듈이 경량화 업그레이드를 위해 분할되었습니다.",
+    "스케줄 작업 중 ETL JAR 패키지가 지속적으로 누적되는 문제가 수정되었습니다.",
+    "장기 동기화 작업으로 인한 서버 디스크 공간 점유 문제가 해결되었습니다."
+   ]
+  }
+ }
+}

@@ -1,7 +1,200 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-07T01:58:00.451Z",
+ "generatedAt": "2026-11-07T08:50:53.817Z",
  "articles": [
+  {
+   "id": "f3c3500de24f9753",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "씽킹 머신스, 성능 대폭 높인 '잉클링 2' 공개…중국 오픈 모델에 도전",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217132",
+   "originalLanguage": "ko",
+   "originalDescription": "오픈AI 출신 미라 무라티가 이끄는 씽킹 머신스 랩(Thinking Machines Lab)이 기존 모델보다 성능을 크게 높인 새로운 AI 모델을 공개했다. 중국 주요 오픈웨이트 모델과 경쟁할 수 있는 수준으로 평가되며, 기업이 자체 업무에 맞춰 AI를 개발할 수 있도록 모델 가중치도 공개할 계획이다.씽킹 머신스는 5일(현지시간) 공식 블로그를 통해 2세대 모델 '잉클링 2 스몰(Inkling 2 Small)'을 출시했다고 밝혔다. 총 5940억개의 매개변수를 갖춘 전문가 혼합(MoE)…",
+   "publishedAt": "2026-11-07T08:45:42.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "962e60e4362ea47b"
+  },
+  {
+   "id": "45c934c18ecc7061",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "바이두, 딥시크 앞선 '어니 5.5' 베이스 모델 공개…한국·유럽 사용 제한",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217131",
+   "originalLanguage": "ko",
+   "originalDescription": "중국 바이두가 딥시크와 텐센트, 샤오미의 경쟁 모델을 주요 성능 평가에서 앞서는 대형언어모델(LLM)을 공개했다. 특히 사전학습만 마친 모델의 가중치를 공개해 개발자들이 독자적인 AI를 만들도록 지원한다. 그러나 한국과 유럽을 사용 허가 지역에서 제외했다.바이두는 5일 공식 블로그와 허깅페이스를 통해 '어니 5.5 플래시 베이스(ERNIE 5.5 Flash Base)'의 가중치를 공개했다. 총 2800억개의 매개변수를 갖춘 전문가 혼합(MoE) 모델로, 토큰을 처리할 때는 140억개만 활성화해…",
+   "publishedAt": "2026-11-07T08:08:12.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "be363a0beab44ea1"
+  },
+  {
+   "id": "322c905689eb4514",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "미 중간선거 후폭풍…민주당, 빅테크 대대적 조사·AI 규제 추진",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217130",
+   "originalLanguage": "ko",
+   "originalDescription": "미국 중간선거에서 상·하원을 모두 장악한 민주당이 빅테크 기업에 대한 대규모 조사와 AI 규제 입법을 준비하고 있다. 트럼프 행정부와 긴밀한 관계를 맺어온 기업들의 정부 거래를 조사하는 동시에 AI 모델의 안전성, 데이터센터 전력 비용, 엔비디아의 중국 AI 칩 수출까지 규제 대상으로 삼을 계획이다.워싱턴포스트(WP)와 로이터, 블룸버그는 6일(현지시간) 민주당이 내년 1월 의회 운영권을 확보하면 주요 기술 기업을 상대로 청문회와 자료 제출 요구, AI 규제 입법에 나설 것이라고 보도했다.가장…",
+   "publishedAt": "2026-11-07T07:43:57.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "9fb462dd5c46f197"
+  },
+  {
+   "id": "9989e939e148877e",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+   "originalUrl": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+   "originalLanguage": "en",
+   "originalDescription": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word…",
+   "publishedAt": "2026-11-07T06:44:17.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "cybersecurity",
+    "developer-tools"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZH3vYLZb9lP7mDLqy2h-upzdComeWIfjDX5siFUO3FM2HlUs03OTwirA1R2uzOZq_clptIVBsoaJNXIuf8LlTbXHFvzBJLRl1l3mqGVesHjgdmD86S_c-k2JY_t56xZqI0bnN6jXRDr92KlMw6X5BHzm5hqogpWflsERi9zrsMHSS_abAcvZMcUGovd8/s1600/claude-code.jpg",
+   "contentHash": "f473755017b80025"
+  },
+  {
+   "id": "9abedb59a01caf48",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "메타, AI로 맞춤형 앱 만드는 '뮤즈 스페이스' 출시",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217128",
+   "originalLanguage": "ko",
+   "originalDescription": "메타가 AI 에이전트 '뮤즈(Muse)'와 협업할 수 있는 맞춤형 작업 공간 '스페이스(Spaces)'를 출시했다. 사용자가 자연어로 원하는 기능을 설명하면 여행 계획표나 쇼핑 관리 도구, 일정 추적기 등 목적에 맞는 앱 형태의 작업 공간을 자동으로 만들어준다. 외부 서비스와 연동해 관련 정보도 백그라운드에서 갱신할 수 있다.메타는 6일(현지시간) 뮤즈 앱에 스페이스 기능을 도입했다고 밝혔다. 사용자는 특정 프로젝트나 주제에 맞춰 독립적인 작업 공간을 만들고, 앱 사이드바에서 이를 선택해…",
+   "publishedAt": "2026-11-07T06:39:27.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "99ca456173f13405"
+  },
+  {
+   "id": "123ab16f20e9957c",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "[AI 이슈트렌드] 강호동 구속영장 1위…미 중간선거·바이낸스 해킹 뒤이어",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217129",
+   "originalLanguage": "ko",
+   "originalDescription": "AI타임스와 이스트에이드의 11월 첫째 주(10월30일~11월5일) 이슈 분석 결과, 농협중앙회장 구속영장 신청을 포함해 민주당이 석권한 미국 중간선거와 역대 최대 규모의 바이낸스 해킹 소식 등이 상위권을 차지했다.이번 주 검색량 1위는 '강호동 구속영장(7.74%)'이 차지했다. 서서울경찰청 반부패수사대는 강 회장이 2024년 농협중앙회장 선거를 전후해 계열사 거래처 대표로부터 1억 원이 넘는 금품을 받은 혐의로 지난 3일 구속영장을 신청했다.이후 공소청은 6일 주요 혐의가 충분히 소명되지…",
+   "publishedAt": "2026-11-07T06:08:35.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "a4c69cc88313b204"
+  },
+  {
+   "id": "813d8fe200c00abc",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
+   "originalUrl": "https://www.qbitai.com/2026/11/508264.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "苦单Session久矣，两大Agent玩家不谋而合。",
+   "publishedAt": "2026-11-07T05:01:17.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "cee7ca8ef79a642d"
+  },
+  {
+   "id": "aeec7a15e8175055",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Trace by Context.dev",
+   "originalUrl": "https://www.producthunt.com/products/context-dev",
+   "originalLanguage": "en",
+   "originalDescription": "Weekly web scraping API benchmark Discussion | Link",
+   "publishedAt": "2026-11-07T04:05:08.000Z",
+   "discoveredAt": "2026-11-03T09:37:43.008Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "cd465dda3961b8b7"
+  },
+  {
+   "id": "2b5cf155038f62ec",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "AGENTS.MD，危险危险危险！！！",
+   "originalUrl": "https://www.qbitai.com/2026/11/508244.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "全新的电脑病毒",
+   "publishedAt": "2026-11-07T03:43:55.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "363200da5e7baafe"
+  },
+  {
+   "id": "23e6475265978b55",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "Jeff Dean李飞飞最新对谈：全是RSI非共识",
+   "originalUrl": "https://www.qbitai.com/2026/11/508196.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "RSI不可能无限快",
+   "publishedAt": "2026-11-07T03:23:29.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "ad42c647dd2cdb7a"
+  },
+  {
+   "id": "77dbd07e8e9c66d4",
+   "sourceId": "latent-space",
+   "sourceName": "Latent Space",
+   "originalTitle": "[AINews] Anthropic IPO: Whither Now?",
+   "originalUrl": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+   "originalLanguage": "en",
+   "originalDescription": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.",
+   "publishedAt": "2026-11-07T03:04:53.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "95d862e373b3a7c0"
+  },
+  {
+   "id": "97c1f959c5c24c4d",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "유럽 16개국서 데이터센터 반대 공동 행동…MS 건설 현장 난입",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217126",
+   "originalLanguage": "ko",
+   "originalDescription": "미국 중간선거에서 데이터센터 건설에 반대하는 후보들이 잇따라 승리한 데 이어 유럽에서도 데이터센터 반대 운동이 본격화하고 있다. 유럽 16개국의 시민단체 100여곳이 데이터센터 건설 중단을 요구하는 공동 행동에 나섰으며, 네덜란드에서는 시위대가 마이크로소프트(MS)의 AI 데이터센터 건설 현장에 진입하는 사태까지 벌어졌다.로이터와 가디언 등은 6일(현지시간) 네덜란드 암스테르담에서 시위대가 MS의 AI 데이터센터 건설 현장에 진입했다고 보도했다. 일부 참가자는 울타리를 넘어 크레인에 올라가…",
+   "publishedAt": "2026-11-07T01:57:42.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "02eb8342fe86b1c0"
+  },
   {
    "id": "58c05ef6c7ea0b77",
    "sourceId": "aitimes-kr",
@@ -100,6 +293,22 @@
    "contentHash": "2e4542e4d122a9f0"
   },
   {
+   "id": "1c4d3cd9d70f04c4",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "Jync v1.14.0 · 应用内 HTTPS 与配置包迁移",
+   "originalUrl": "https://www.oschina.net/news/503458",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "Jync v1.14.0 新增 应用内 HTTPS：「系统配置」可直接上传 PKCS#12 / JKS 密钥库或 PEM 证书链与私钥，由 Jync 自己提供 HTTPS，不必再改 nginx 或环境变量。 证书与加密后的密钥库口令存放在 ./data/tls，不进元数据库、不进配置包；私钥与叶子证书用签名探测校验，加密私钥与 SEC1 格式明确拒绝。 HTTPS 连接器在启动时...",
+   "publishedAt": "2026-11-07T00:59:08.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "a572b738f902270d"
+  },
+  {
    "id": "9d705cd1768ad08c",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -114,6 +323,22 @@
    ],
    "imageUrl": null,
    "contentHash": "c27235340b78ab07"
+  },
+  {
+   "id": "859c077fe28b35ec",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "예진, 한국어 특화 8B AI 모델 공개…사전학습부터 독자 개발",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217114",
+   "originalLanguage": "ko",
+   "originalDescription": "AI 전문 예진(대표 고종현)은 한국어에 특화된 80억 매개변수 파운데이션 모델 ‘예진 8B v3’를 개발했다고 6일 밝혔다.예진 8B v3는 해외 공개 모델의 가중치를 쓰지 않고, 토크나이저 설계부터 사전학습까지 전 과정을 직접 수행한 프롬 스크래치 모델이다. 공개 모델 6종과 가중치를 비교한 결과, 유사도가 0.0014 이하로 기존 모델을 미세조정한 파생 모델이 아니라는 설명이다.학습에는 과학기술정보통신부와 정보통신산업진흥원(NIPA)의 ‘고성능 컴퓨팅 지원사업’으로 지원받은 엔비디아…",
+   "publishedAt": "2026-11-07T00:55:00.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "7afd988b4dd67811"
   },
   {
    "id": "f5677ee6083ebe04",
@@ -437,6 +662,22 @@
    ],
    "imageUrl": null,
    "contentHash": "f295e29c020b91e8"
+  },
+  {
+   "id": "c8e0ffff3a63e885",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Muse Realtime Avatar",
+   "originalUrl": "https://www.producthunt.com/products/meta-ai",
+   "originalLanguage": "en",
+   "originalDescription": "Turn voice chats with Muse into live video calls Discussion | Link",
+   "publishedAt": "2026-11-06T18:21:58.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "441514687a2e9764"
   },
   {
    "id": "9aeac73058ac351b",
@@ -785,6 +1026,22 @@
    "contentHash": "9de0b43140bd7b9c"
   },
   {
+   "id": "49e9b0e5bd03672c",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "The Writer's Quarter",
+   "originalUrl": "https://www.producthunt.com/products/the-writer-s-quarter",
+   "originalLanguage": "en",
+   "originalDescription": "AI-Free Writing & Novel Planning Software Discussion | Link",
+   "publishedAt": "2026-11-06T16:06:36.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "e735771ade918f73"
+  },
+  {
    "id": "47b292a5d1f7f3dd",
    "sourceId": "nvidia-blog",
    "sourceName": "NVIDIA Blog",
@@ -867,6 +1124,22 @@
    "contentHash": "01f74b7350087166"
   },
   {
+   "id": "08d3ca2c2f737e49",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
+   "originalUrl": "https://www.qbitai.com/2026/11/508184.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "Dario刚喊减速…",
+   "publishedAt": "2026-11-06T15:21:56.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "81cc365601122883"
+  },
+  {
    "id": "12404fdb4aa23698",
    "sourceId": "the-hacker-news",
    "sourceName": "The Hacker News",
@@ -931,6 +1204,38 @@
    ],
    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXR9F1Fu-E50zYby7QnTXAX324GHruNgN0_-95ygoUQV94WlkKSNHt1n8Af8HANmBe6GYgt_1-jGJzGNdg6NnoWY_Jrfbxjyv8mSQzOCa_t7e-e5S8DEB32YavCpthT2pB3jQsFRNJ69bgOgph9qyCBppvb93YSsYSzBM1P9CdeO_rhMcF4LgCj-kQvY2C/s1600/gpt-cyber.jpg",
    "contentHash": "acc38fa46cece65a"
+  },
+  {
+   "id": "6046f59ed280d04a",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Sequence Tool",
+   "originalUrl": "https://www.producthunt.com/products/sequence-tool",
+   "originalLanguage": "en",
+   "originalDescription": "Edit with words: long recordings into polished stories Discussion | Link",
+   "publishedAt": "2026-11-06T14:55:13.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "8e63ffd83e187625"
+  },
+  {
+   "id": "987a491f9106be92",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Rex (Beta)",
+   "originalUrl": "https://www.producthunt.com/products/superlogical",
+   "originalLanguage": "en",
+   "originalDescription": "Building the multiplexer for all work Discussion | Link",
+   "publishedAt": "2026-11-06T14:50:09.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "76fa29c0118791b3"
   },
   {
    "id": "d40f9466337f4802",
@@ -1174,6 +1479,22 @@
    "contentHash": "eec9ae72dd909b60"
   },
   {
+   "id": "28949f9df8748f82",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Switchy",
+   "originalUrl": "https://www.producthunt.com/products/switchy",
+   "originalLanguage": "en",
+   "originalDescription": "Mac controls, deploys, 2FA & AI limits in your menu bar Discussion | Link",
+   "publishedAt": "2026-11-06T11:24:14.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "2edd709045c1044b"
+  },
+  {
    "id": "4930533eac042624",
    "sourceId": "oschina-news",
    "sourceName": "开源中国 资讯",
@@ -1222,6 +1543,22 @@
    "contentHash": "692b507cfa1deeb9"
   },
   {
+   "id": "722ef3bb8d0cdb82",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Capnot",
+   "originalUrl": "https://www.producthunt.com/products/capnot",
+   "originalLanguage": "en",
+   "originalDescription": "Make Screen Demos Clear, Even on Mute Discussion | Link",
+   "publishedAt": "2026-11-06T10:25:37.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "354d6765e5927d64"
+  },
+  {
    "id": "1ca94b52e709b2f5",
    "sourceId": "mit-technology-review-ai",
    "sourceName": "MIT Technology Review AI",
@@ -1236,6 +1573,55 @@
    ],
    "imageUrl": null,
    "contentHash": "552793383e1032bb"
+  },
+  {
+   "id": "1b638886fbb28279",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
+   "originalUrl": "https://www.qbitai.com/2026/11/508174.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "PPIO 沙箱，把“云电脑”做成开箱即用的 API",
+   "publishedAt": "2026-11-06T09:25:59.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "7ab272df3c0f8d15"
+  },
+  {
+   "id": "7d7b186592d48999",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "阶跃终端 STEPX Neo 智能体手机亮相进博会高通展台，软硬模一体打造智能体新体验",
+   "originalUrl": "https://www.qbitai.com/2026/11/508170.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "阶跃终端旗下 STEPX Neo 智能体手机首次亮相",
+   "publishedAt": "2026-11-06T09:21:51.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "f7cab71f95e17521"
+  },
+  {
+   "id": "ec5096d6912a79d1",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "阿里巴巴发布《2026 AI向善行动报告》 AI数据中心可持续发展成年度亮点",
+   "originalUrl": "https://www.qbitai.com/2026/11/508165.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "11月5日，阿里巴巴发布《2026 AI向善行动报告》",
+   "publishedAt": "2026-11-06T09:19:00.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "b66a9a0cd144e9bd"
   },
   {
    "id": "812ca5bb4e5fdf91",
@@ -2140,6 +2526,22 @@
    ],
    "imageUrl": null,
    "contentHash": "636c02566db4f875"
+  },
+  {
+   "id": "ae18504f0f1bdaed",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Instagram Edits for Desktop",
+   "originalUrl": "https://www.producthunt.com/products/instagram",
+   "originalLanguage": "en",
+   "originalDescription": "Instagram's free desktop video editor with AI agents Discussion | Link",
+   "publishedAt": "2026-11-06T00:46:05.000Z",
+   "discoveredAt": "2026-11-07T08:50:53.817Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "0fe2729538fbefc2"
   },
   {
    "id": "ad929875c5a71925",
@@ -14128,22 +14530,6 @@
    "contentHash": "18f106684e0febf2"
   },
   {
-   "id": "aeec7a15e8175055",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "People Search by Context.dev",
-   "originalUrl": "https://www.producthunt.com/products/context-dev",
-   "originalLanguage": "en",
-   "originalDescription": "People Search API: Find People by Role, Company & Location Discussion | Link",
-   "publishedAt": "2026-11-02T19:12:57.000Z",
-   "discoveredAt": "2026-11-03T09:37:43.008Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "80a32bd9cb3715bd"
-  },
-  {
    "id": "e1b233b91d5de4af",
    "sourceId": "product-hunt",
    "sourceName": "Product Hunt",
@@ -24251,411 +24637,6 @@
    ],
    "imageUrl": null,
    "contentHash": "e9941a6f14475891"
-  },
-  {
-   "id": "d3ed0a84a8f24477",
-   "sourceId": "cisa-advisories",
-   "sourceName": "CISA Cybersecurity Advisories",
-   "originalTitle": "Hitachi Energy CoreTec Product",
-   "originalUrl": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
-   "originalLanguage": "en",
-   "originalDescription": "View CSAF Summary Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful exploitation of these vulnerabilities could result in impact on confidentiality, integrity and availability…",
-   "publishedAt": "2026-10-29T12:00:00.000Z",
-   "discoveredAt": "2026-10-29T16:57:09.659Z",
-   "topics": [
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "289427e45b3015ef"
-  },
-  {
-   "id": "eaf2883a4d2bb0ac",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "Syndrome Trellis Decryption in Post-Quantum Cryptography",
-   "originalUrl": "https://arxiv.org/abs/2610.39873v1",
-   "originalLanguage": "en",
-   "originalDescription": "We present a novel post-quantum cryptographic framework based on masked high-memory convolutional codes in the Niederreiter paradigm. The public key is derived from a high-memory polynomial parity-check matrix augmented by dense random masking and additional invertible linear…",
-   "publishedAt": "2026-10-29T11:47:20.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "9d8a511ea5c4c64a"
-  },
-  {
-   "id": "89ba8a41a1ee0be0",
-   "sourceId": "the-hacker-news",
-   "sourceName": "The Hacker News",
-   "originalTitle": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
-   "originalUrl": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-   "originalLanguage": "en",
-   "originalDescription": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than…",
-   "publishedAt": "2026-10-29T11:39:41.000Z",
-   "discoveredAt": "2026-10-29T16:57:09.659Z",
-   "topics": [
-    "cybersecurity",
-    "ai"
-   ],
-   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRqwLeHISYWaiVNUxkANuqw6ob8Exu7_9CIEt6uHbsNa7mcNUkSWZqNZHEL3_kqPPHXVq4RGTxqZZhMdybwcVVT28qCihLUi0I5ghW9Xk5sVDB2u2kJqULx-_FEcsEHuTCU5vIwReQZghbj8HjQD4zq8H1yiGSYNlmNC25YkViZxlqndOhIp1CD2s_sLlc/s1600/wiz-webinar.jpg",
-   "contentHash": "375efc6119f852da"
-  },
-  {
-   "id": "b35772fb4a040698",
-   "sourceId": "the-hacker-news",
-   "sourceName": "The Hacker News",
-   "originalTitle": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-   "originalUrl": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-   "originalLanguage": "en",
-   "originalDescription": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec. The attacker needed only an ordinary Telegram account. Telegram fixed the flaw in…",
-   "publishedAt": "2026-10-29T11:39:18.000Z",
-   "discoveredAt": "2026-10-29T16:57:09.659Z",
-   "topics": [
-    "cybersecurity",
-    "mobile-hardware"
-   ],
-   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguzUg6G-A4KdRvBuhj9LZ93cFfXfvMNkg3dJO0H9sfNJ3MTlecsgLEMIk5TnIrdl2N6UGB8D9rlqLduGEZVm7X-XrWZr6Xh5ZrVp38x5uTd1vHyHGcjRR2N3gctNen-CBSz8JihnNL57galBoeOVKwG5w3qsOZnqmGYdkxzjurrI3QWolmS1Qfz_E_Wog/s1600/telegram.jpg",
-   "contentHash": "58a2ec948eb33fdb"
-  },
-  {
-   "id": "ff04f1caf15467be",
-   "sourceId": "the-hacker-news",
-   "sourceName": "The Hacker News",
-   "originalTitle": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
-   "originalUrl": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
-   "originalLanguage": "en",
-   "originalDescription": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As…",
-   "publishedAt": "2026-10-29T11:33:41.000Z",
-   "discoveredAt": "2026-10-29T16:57:09.659Z",
-   "topics": [
-    "cybersecurity",
-    "ai"
-   ],
-   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDZvKBLpFrPhWNRvVvRjmTtgwdpGykJjCmzNWNaytIUO2C9VadEDZjeY35hq6H33jHDxV7kAOMTyOV7RO_YUG2caQ75nA_NstH_GxfRJo57n970u4ACXwZXoKl8mizESwgP9wulusqUmSnZwjFNHIJZ2hk_VzrlCJ5HBD9_8zs8Fj1WZULiZoZMD9G9D8/s1600/conf.jpg",
-   "contentHash": "cb717b163746db7a"
-  },
-  {
-   "id": "026f7c77fb5eab48",
-   "sourceId": "the-hacker-news",
-   "sourceName": "The Hacker News",
-   "originalTitle": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-   "originalUrl": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-   "originalLanguage": "en",
-   "originalDescription": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent researcher Ben Zimmermann found them by scanning 7.25 million public…",
-   "publishedAt": "2026-10-29T11:33:15.000Z",
-   "discoveredAt": "2026-10-29T16:57:09.659Z",
-   "topics": [
-    "cybersecurity",
-    "ai"
-   ],
-   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwVszv5076OudfiraNA4yh_XuzZZof-jYaklwUgiY700oPMvBHQfKHx-8yLNwhF9NVXahFRvWwU7c0mPCsIG-GUo45Fi_LT6ecZMsaRUfaLIL6eK16qeku1PO5aMTQRV0VKJh-pjKG4rC-RyajCGjL4R_A5W6YPsps4B4-GhEbstuAN7AnelVJPwIFK5W-/s1600/gite.jpg",
-   "contentHash": "77074ce2c71c275d"
-  },
-  {
-   "id": "748e47efe1228c0e",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "Integrating Perception, Comprehension, and Projection for Alert Validation: A Unified Cyber Situational Awareness Framework",
-   "originalUrl": "https://arxiv.org/abs/2610.39849v1",
-   "originalLanguage": "en",
-   "originalDescription": "Security Operation Centres (SOCs) must validate large volumes of alerts with limited analyst resources, yet alerts often lack sufficient context to determine whether suspicious activity is attack related. While provenance-based intrusion detection research has progressed from…",
-   "publishedAt": "2026-10-29T11:30:03.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "e9f23b2471fca2f1"
-  },
-  {
-   "id": "ea7a427f1dbd961a",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "Surprise Alone Learns Lies: Evidence-Gated Continual Learning for LLMs from Streaming Claims",
-   "originalUrl": "https://arxiv.org/abs/2610.39840v1",
-   "originalLanguage": "en",
-   "originalDescription": "Continual learning methods for large language models increasingly decide what to learn by surprise, keeping the inputs the model finds least predictable. This rule is unsafe when the stream contains lies. A planted falsehood about something the model knows has low probability…",
-   "publishedAt": "2026-10-29T11:19:08.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "dc115ec8852113b4"
-  },
-  {
-   "id": "00dc952b59087f14",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "InferD: A Honeypot Framework for AI Inference Infrastructure",
-   "originalUrl": "https://arxiv.org/abs/2610.39807v1",
-   "originalLanguage": "en",
-   "originalDescription": "Large language model serving stacks, commercial inference APIs, vector databases, and agent orchestration gateways are now ex- posed on the public internet and indexed by commodity scanners within hours of deployment. The threat characteristics of this sur- face are only…",
-   "publishedAt": "2026-10-29T10:50:51.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "7f4d7e5113e975f2"
-  },
-  {
-   "id": "7d482c1bcf9fa313",
-   "sourceId": "the-hacker-news",
-   "sourceName": "The Hacker News",
-   "originalTitle": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-   "originalUrl": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-   "originalLanguage": "en",
-   "originalDescription": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is…",
-   "publishedAt": "2026-10-29T10:44:46.000Z",
-   "discoveredAt": "2026-10-29T16:57:09.659Z",
-   "topics": [
-    "cybersecurity"
-   ],
-   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKqTkl_DfXdrvaLinBOu5OU0NISVo_mPJfqRmnHL-m8efFXEijbxOVsFgrSPparCspKfoUtxDtfA7gu8myFTfvWCFJfse3BQakKGOZCA54pWh371KyXdluHyqjckIBFjZ36Ogv1EI42yDCO2dt02noigEyL2RKJ8lEivH3PCWJURryc1JtNO9djpeW88tJ/s1600/cisco-flaws.jpg",
-   "contentHash": "85f4e7941efe4ae1"
-  },
-  {
-   "id": "9322e185e9660553",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "SpeakON Agent",
-   "originalUrl": "https://www.producthunt.com/products/speakon",
-   "originalLanguage": "en",
-   "originalDescription": "Turn natural speech into real work for an agent to complete Discussion | Link",
-   "publishedAt": "2026-10-29T10:44:31.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "407a3be9c5b55e6f"
-  },
-  {
-   "id": "193f5a35878b3318",
-   "sourceId": "the-hacker-news",
-   "sourceName": "The Hacker News",
-   "originalTitle": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
-   "originalUrl": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
-   "originalLanguage": "en",
-   "originalDescription": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time. \"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an…",
-   "publishedAt": "2026-10-29T10:26:33.000Z",
-   "discoveredAt": "2026-10-29T16:57:09.659Z",
-   "topics": [
-    "cybersecurity",
-    "developer-tools"
-   ],
-   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ7hXo0MoiQiXCSLnOj0h2YUqDhIHl13Le4XxOU3UxV7X2mm4_YGJKOT6akyW58uRaMhslGN6NY9B_1u7V-y_fy0kYJHKoVA-yBWVt53xqBk06_syRpASgWezvnVIZs9goRlwNrp_HMVj_Pu8rzXmIsfJBV1YzhJ8IAd-1g7FFVhFWqc9HegTk4Jok5kR9/s1600/github.gif",
-   "contentHash": "649fea57b755fde0"
-  },
-  {
-   "id": "f9a4c190922d8644",
-   "sourceId": "the-decoder",
-   "sourceName": "The Decoder",
-   "originalTitle": "Google's AI search problem finally shows up in the earnings report, some investors believe",
-   "originalUrl": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe/",
-   "originalLanguage": "en",
-   "originalDescription": "Google's stock dropped as much as ten percent after its quarterly earnings. Cloud revenue more than doubled to $30.7 billion, but search revenue grew just 12 percent, slower than expected. Google acknowledged that its fast-growing AI mode brings in less revenue than traditional…",
-   "publishedAt": "2026-10-29T10:16:34.000Z",
-   "discoveredAt": "2026-10-29T16:57:09.659Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "234ed5ec84f041c1"
-  },
-  {
-   "id": "888e8cfd248d2d23",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "SEAL: Sealed Queries for Local Sanitization against Indirect Prompt Injection",
-   "originalUrl": "https://arxiv.org/abs/2610.39758v1",
-   "originalLanguage": "en",
-   "originalDescription": "Indirect prompt injection threatens local LLM agents through untrusted tool outputs, motivating defenses that suppress attacks while preserving task evidence under limited inference budgets. We introduce SEAL, which learns a soft prompt and scoring readout offline to sanitize…",
-   "publishedAt": "2026-10-29T10:11:51.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "313846d92309a212"
-  },
-  {
-   "id": "32d69d7e6fd51a11",
-   "sourceId": "mit-technology-review-ai",
-   "sourceName": "MIT Technology Review AI",
-   "originalTitle": "We urgently need to monitor AI agents’ actions in real time",
-   "originalUrl": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
-   "originalLanguage": "en",
-   "originalDescription": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed…",
-   "publishedAt": "2026-10-29T10:11:12.000Z",
-   "discoveredAt": "2026-10-29T16:57:09.659Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "24372a584740ea23"
-  },
-  {
-   "id": "d62a8f09dced3dd9",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "AI has come for Arizona’s water",
-   "originalUrl": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
-   "originalLanguage": "en",
-   "originalDescription": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and squat, dwarfed by…",
-   "publishedAt": "2026-10-29T10:00:04.000Z",
-   "discoveredAt": "2026-10-29T10:03:28.916Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "47099931c3543c47"
-  },
-  {
-   "id": "a7910cb6e3eece02",
-   "sourceId": "qbitai",
-   "sourceName": "量子位",
-   "originalTitle": "STEPX Neo 发布两周即迎首次升级，智能体能力持续释放",
-   "originalUrl": "https://www.qbitai.com/2026/10/506554.html",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "阶跃终端旗下大模型原生智能体手机 STEPX Neo 在发布两周后即迎来首次升级",
-   "publishedAt": "2026-10-29T09:58:26.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "0848e1c999434921"
-  },
-  {
-   "id": "3b04dc0f7e9451df",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "Investigating Data Flows from Android Games",
-   "originalUrl": "https://arxiv.org/abs/2610.39730v1",
-   "originalLanguage": "en",
-   "originalDescription": "Online applications can share data with arbitrary parties, without users noticing. In practice, these data flows could constitute privacy violations to individual users, with the lack of transparency leaving users unaware of the unwanted data flows. To understand the spread and…",
-   "publishedAt": "2026-10-29T09:58:25.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity",
-    "mobile-hardware"
-   ],
-   "imageUrl": null,
-   "contentHash": "76926e36716c8f1e"
-  },
-  {
-   "id": "e2e73d2081d62467",
-   "sourceId": "qbitai",
-   "sourceName": "量子位",
-   "originalTitle": "中国MaaS市场TOP2，商汤大装置再度蝉联",
-   "originalUrl": "https://www.qbitai.com/2026/10/506550.html",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "在大模型私有化市场，商汤大装置以9.4%的市场份额，再次稳居第二位",
-   "publishedAt": "2026-10-29T09:52:05.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "597f3080a792e33b"
-  },
-  {
-   "id": "8aede429d367f56a",
-   "sourceId": "oschina-news",
-   "sourceName": "开源中国 资讯",
-   "originalTitle": "OpenAI 隔离的 AI agent 通过 CPU 缓存互相通信",
-   "originalUrl": "https://www.oschina.net/news/503303/openai-securing-our-frontier-model-training-environment",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "OpenAI 做了个测试：把两个 agent 放进完全隔离的环境，跑在同一套硬件上，没有网络、没有共享文件，命令它们互相传递一个秘密。它们做到了——用的是处理器缓存。一个 agent 故意改写缓存里的数据，另一个测量加载时间的差异，把消息解码出来。这套手法正是著名 Spectre 和 Meltdown 攻击的原理。 这不是科幻设定，是 ...",
-   "publishedAt": "2026-10-29T09:48:03.000Z",
-   "discoveredAt": "2026-10-29T10:03:28.916Z",
-   "topics": [
-    "developer-tools",
-    "ai",
-    "mobile-hardware"
-   ],
-   "imageUrl": null,
-   "contentHash": "1b47e69552496e55"
-  },
-  {
-   "id": "26e83aede607bf60",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "Hardware-Aware Model Inversion in Memristive Spiking Neural Networks",
-   "originalUrl": "https://arxiv.org/abs/2610.39688v1",
-   "originalLanguage": "en",
-   "originalDescription": "Hardware-accelerated spiking neural networks (SNNs) implemented on memristive crossbar arrays offer significant gains in energy efficiency, while device variability and analog noise are sometimes assumed to hinder information extraction. However, whether these hardware effects…",
-   "publishedAt": "2026-10-29T09:29:38.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "7a35b0bf11a432e9"
-  },
-  {
-   "id": "494b221dbac4f039",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "PairWatch: Pair-Aware Anomaly Transformer for Detecting Adversarial Rendezvous in Public Satellite Catalogs",
-   "originalUrl": "https://arxiv.org/abs/2610.39679v1",
-   "originalLanguage": "en",
-   "originalDescription": "Documented adversarial rendezvous and proximity operations (RPO) appear in the public TLE catalog, yet existing TLE-based maneuver detectors treat each satellite in isolation - mistaking routine station-keeping for adversarial behavior and missing RPO entirely when the target…",
-   "publishedAt": "2026-10-29T09:27:20.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "c3724510c2f1c654"
-  },
-  {
-   "id": "cd1deb1a176494e2",
-   "sourceId": "oschina-news",
-   "sourceName": "开源中国 资讯",
-   "originalTitle": "Neton 1.0.0 正式发布：面向 AI 原生开发的 Kotlin/Native 服务端应用框架",
-   "originalUrl": "https://www.oschina.net/news/503302",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "Neton Framework 1.0.0 正式发布，现已上线 Maven Central。 这是 Neton 的第一个稳定版本。从应用装配、依赖注入、HTTP API，到数据库、认证授权、缓存、任务调度、对象存储和 WebSocket，Neton 为 Kotlin 开发者提供了一套围绕原生服务端应用构建的开发体系。 Neton 的定位不是底层网络库，而是与 Spring Boot、Larav...",
-   "publishedAt": "2026-10-29T09:21:23.000Z",
-   "discoveredAt": "2026-10-29T16:57:09.659Z",
-   "topics": [
-    "developer-tools",
-    "ai",
-    "programming-languages"
-   ],
-   "imageUrl": null,
-   "contentHash": "fc5450e44e272f66"
-  },
-  {
-   "id": "b36cbddd30558fea",
-   "sourceId": "the-hacker-news",
-   "sourceName": "The Hacker News",
-   "originalTitle": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-   "originalUrl": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-   "originalLanguage": "en",
-   "originalDescription": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through…",
-   "publishedAt": "2026-10-29T09:05:39.000Z",
-   "discoveredAt": "2026-10-29T16:57:09.659Z",
-   "topics": [
-    "cybersecurity",
-    "programming-languages"
-   ],
-   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh65eroK1pQacKJwqeGmgp2sDta1mgCrPuNMXiwAgTi-FVZNc1V4D7qooFFc-V-XNOJzYpjYk28Y_kIkoHMNJfnQ5h2gI0-bOWlVOt9VJ9oZUpRsBzYLsSMe3oNRTfZe53dtpezOOq1MHmWhEhAigbyOMLx4jWAbcvvImY39jY1h4FMS4_OUqSDF-kZJvQ/s1600/linux-gitlab.jpg",
-   "contentHash": "6cf3debd656573c5"
   }
  ]
 }

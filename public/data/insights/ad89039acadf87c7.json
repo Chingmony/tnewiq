@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ad89039acadf87c7",
+ "contentHash": "f45c587e4f9fedf9",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T09:01:51.107Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Elemental MediaConvert adds a native integration with AWS Elemental Inference Smart Subtitles",
+   "summary": "AWS Elemental MediaConvert has integrated Smart Subtitles, an AI-powered feature built on AWS Elemental Inference and speech recognition models. The integration automates subtitle generation directly inside video-on-demand transcoding and packaging workflows, supporting six languages including English, French, German, Italian, Portuguese, and Spanish. Users can output text-based side-car formats or burn-in subtitles, and define custom dictionaries to improve transcription quality for technical terms and brand names.",
+   "impact": "This integration could streamline video-on-demand workflows by removing the need for separate external captioning pipelines. Development and media teams may benefit from managing transcoding and subtitle creation in a single unified workflow.",
+   "keyPoints": [
+    "Integrates Smart Subtitles into AWS Elemental MediaConvert workflows.",
+    "Automatically transcribes audio into subtitles in six languages.",
+    "Supports text-based side-car formats and burn-in options.",
+    "Allows custom dictionaries to improve transcription of proper nouns and technical terms."
+   ]
+  },
+  "km": {
+   "title": "AWS Elemental MediaConvert បន្ថែមការរួមបញ្ចូលដើមជាមួយ AWS Elemental Inference Smart Subtitles",
+   "summary": "AWS Elemental MediaConvert បានដាក់បញ្ចូល Smart Subtitles ដែលជាមុខងារបញ្ញាសិប្បនិម្មិតកសាងឡើងលើ AWS Elemental Inference និងម៉ូដែលស្គាល់សំឡេង។ មុខងារនេះនាំយកការបង្កើតអត្ថបទរងដោយស្វ័យប្រវត្តិទៅក្នុងដំណើរការបម្លែងកូដវីដេអូតាមតម្រូវការ ដោយលុបចោលតម្រូវការសម្រាប់បណ្តាញអត្ថបទរងខាងក្រៅដាច់ដោយឡែក។ អតិថិជនអាចគ្រប់គ្រងទាំងការបម្លែងកូដ និងការបង្កើតអត្ថបទរងក្នុងដំណើរការតែមួយ។",
+   "impact": "ការរួមបញ្ចូលគ្នានេះអាចសម្រួលដល់ដំណើរការវីដេអូតាមតម្រូវការ ដោយកាត់បន្ថយតម្រូវការសម្រាប់បណ្តាញអត្ថបទរងខាងក្រៅ។ ក្រុមការងារបច្ចេកវិទ្យាអាចទទួលបានផលប្រយោជន៍ពីការគ្រប់គ្រងការបម្លែងកូដ និងការបង្កើតអត្ថបទរងក្នុងដំណើរការតែមួយ។",
+   "keyPoints": [
+    "បញ្ចូល Smart Subtitles ទៅក្នុងដំណើរការ AWS Elemental MediaConvert។",
+    "បម្លែងសំឡេងទៅជាអត្ថបទរងដោយស្វ័យប្រវត្តិជាប្រាំពីរភាសា។",
+    "គាំទ្រទម្រង់អត្ថបទរងជាឯកសារដាច់ដោយឡែក ឬដុតបញ្ចូលក្នុងវីដេអូ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Elemental MediaConvert 增加与 AWS Elemental Inference Smart Subtitles 的原生集成",
+   "summary": "AWS Elemental MediaConvert 现已集成 Smart Subtitles，这是一项基于 AWS Elemental Inference 和最新语音识别模型的 AI 字幕解决方案。该功能将自动生成字幕直接引入视频点播转码和打包工作流中，消除了对外部分离字幕管道的需求。客户现在可以在统一的工作流中管理转码和字幕创建。",
+   "impact": "该集成可能会通过消除对独立外部字幕管道的需求来简化视频点播工作流。开发和媒体团队或许能够在一个统一的工作流中管理转码和字幕创建。",
+   "keyPoints": [
+    "将 Smart Subtitles 集成到 AWS Elemental MediaConvert 工作流中。",
+    "自动将音频转录为六种语言的字幕。",
+    "支持文本端车格式和压制字幕输出。",
+    "允许定义自定义词典以引导模型处理专有名词和技术术语。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Elemental MediaConvert adds a native integration with AWS Elemental Inference Smart Subtitles",
+   "summary": "AWS Elemental MediaConvert에 AWS Elemental Inference와 최신 음성 인식 모델을 기반으로 구축된 AI 구동 자막 솔루션인 Smart Subtitles가 통합되었습니다. 이 기능은 VOD 트랜스코딩 및 패키징 워크플로에 자동 자막 생성을 직접 도입하여 별도의 외부 캡셔닝 파이프라인의 필요성을 없애줍니다. 고객은 단일 통합 워크플로 내에서 트랜스코딩과 자막 생성을 모두 관리할 수 있습니다.",
+   "impact": "이 통합은 별도의 외부 캡셔닝 파이프라인 필요성을 제거하여 VOD 워크플로를 간소화할 수 있습니다. 개발 및 미디어 팀은 단일 통합 워크플로에서 트랜스코딩과 자막 생성을 관리하여 효율성을 높일 수 있습니다.",
+   "keyPoints": [
+    "AWS Elemental MediaConvert에 Smart Subtitles 통합",
+    "영어, 프랑스어, 독일어, 이탈리아어, 포르투갈어, 스페인어 등 6개 언어 지원",
+    "텍스트 기반 사이드카 형식 및 번인 출력 지원",
+    "고유 명사와 기술 용어 조정을 위한 사용자 정의 사전 정의 기능 제공"
+   ]
+  }
+ }
+}
