@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a3b94f1fb170a2b6",
+ "contentHash": "aa8f08408587365f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T02:06:49.911Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+   "summary": "Blockchain analysis firm Chainalysis revealed that an ongoing investigation into an agentic cyber attack targeting its systems exposed user credentials, including names, usernames, password hashes, and live tokens for all users. Consequently, the company removed access to Reactor and Data Solutions. Chainalysis stated that it currently has no evidence that any investigation data has been accessed.",
+   "impact": "Security teams and users may need to prepare for credential compromise risks due to the exposure of password hashes and live tokens. Development and analysis teams could experience operational disruptions as key services like Reactor and Data Solutions remain shut down during the investigation.",
+   "keyPoints": [
+    "Chainalysis investigated an agentic cyber attack targeting its systems.",
+    "The breach exposed names, usernames, password hashes, and live tokens for all users.",
+    "Access to Reactor and Data Solutions was removed.",
+    "The company currently has no evidence that investigation data was accessed."
+   ]
+  },
+  "km": {
+   "title": "ការបំពានទិន្នន័យរបស់ Chainalysis បង្ហាញព័ត៌មានសម្ងាត់របស់អ្នកប្រើប្រាស់ទាំងអស់ និងបង្ខំឱ្យបិទសេវាកម្មសំខាន់ៗ",
+   "summary": "ក្រុមហ៊ុនវិភាគ blockchain Chainalysis បានបង្ហាញថា ការស៊ើបអង្កេតដែលកំពុងបន្តទៅលើការវាយប្រហារតាមប្រព័ន្ធអ៊ីនធឺណិតដែលកំណត់គោលដៅលើប្រព័ន្ធរបស់ខ្លួន បានបង្ហាញឈ្មោះ អ្នកប្រើប្រាស់ កូដសម្ងាត់ដែលបានអ៊ិនគ្រីប និងថូខឹនសកម្មសម្រាប់អ្នកប្រើប្រាស់ទាំងអស់។ ក្រុមហ៊ុនបានដកហូតសិទ្ធិអព្យាក្រឹត្យចំពោះ Reactor និង Data Solutions។ Chainalysis បានបញ្ជាក់ថាខ្លួននៅតែមិនទាន់មានភស្តុតាងដែលបង្ហាញថាទិន្នន័យស៊ើបអង្កេតណាមួយត្រូវបានចូលប្រើប្រាស់នោះទេ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់អាចប្រឈមមុខនឹងហានិភ័យនៃការបែកធ្លាយព័ត៌មានសម្ងាត់ដោយសារតែការបង្ហាញកូដសម្ងាត់និងថូខឹនសកម្ម។ ក្រុមអភិវឌ្ឍន៍អាចនឹងជួបប្រទះការរអាក់រអួលក្នុងការប្រតិបត្តិការដោយសារតែការបិទសេវាកម្មសំខាន់ៗ។",
+   "keyPoints": [
+    "ក្រុមហ៊ុន Chainalysis បានស៊ើបអង្កេតលើការវាយប្រហារតាមអ៊ីនធឺណិតលើប្រព័ន្ធរបស់ខ្លួន។",
+    "ការបំពាននេះបានបង្ហាញឈ្មោះ អ្នកប្រើប្រាស់ កូដសម្ងាត់ និងថូខឹនសម្រាប់អ្នកប្រើប្រាស់ទាំងអស់។",
+    "សិទ្ធិប្រើប្រាស់ Reactor និង Data Solutions ត្រូវបានដកហូត។",
+    "ក្រុមហ៊ុនមិនទាន់មានភស្តុតាងថាទិន្នន័យស៊ើបអង្កេតត្រូវបានចូលប្រើប្រាស់ទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Chainalysis 数据泄露暴露所有用户凭证并迫使关键服务关闭",
+   "summary": "区块链分析公司 Chainalysis 透露，其针对系统遭受的代理网络攻击进行的持续调查还暴露了所有用户的姓名、用户名、密码哈希值以及实时令牌。该公司表示，在调查期间已移除了对 Reactor 和 Data Solutions 的访问权限。Chainalysis 称，目前尚无证据表明任何调查数据遭到访问。",
+   "impact": "由于密码哈希值和实时令牌的泄露，安全团队和用户可能会面临凭证受损的风险。由于关键服务关闭，开发人员和技术用户可能会经历运营中断。",
+   "keyPoints": [
+    "Chainalysis 调查了针对其系统的代理网络攻击。",
+    "泄露事件暴露了所有用户的姓名、用户名、密码哈希和实时令牌。",
+    "公司移除了对 Reactor 和 Data Solutions 的访问权限。",
+    "目前尚无证据表明调查数据被访问。"
+   ]
+  },
+  "ko": {
+   "title": "Chainalysis 유출로 모든 사용자의 자격 증명이 노출되고 핵심 서비스가 강제 중단됨",
+   "summary": "블록체인 분석 회사인 Chainalysis는 시스템을 겨냥한 에이전트 사이버 공격에 대한 조사가 진행되는 동안 모든 사용자의 이름, 사용자 이름, 비밀번호 해시 및 라이브 토큰도 노출되었다고 밝혔습니다. 회사는 조사 기간 동안 Reactor 및 Data Solutions에 대한 접근을 차단했다고 전했습니다. Chainalysis는 현재까지 어떠한 조사 데이터도 액세스되었다는 증거가 없다고 밝혔습니다.",
+   "impact": "비밀번호 해시와 라이브 토큰의 노출로 인해 보안 팀과 사용자는 자격 증명 손상 위험에 대비해야 할 수 있습니다. 핵심 서비스가 중단됨에 따라 기술 사용자들은 운영상 차질을 겪을 수 있습니다.",
+   "keyPoints": [
+    "Chainalysis는 시스템을 대상으로 한 에이전트 사이버 공격을 조사했습니다.",
+    "이번 유출로 모든 사용자의 이름, 사용자 이름, 비밀번호 해시, 라이브 토큰이 노출되었습니다.",
+    "Reactor 및 Data Solutions에 대한 접근이 차단되었습니다.",
+    "현재까지 조사 데이터가 액세스되었다는 증거는 없습니다."
+   ]
+  }
+ }
+}

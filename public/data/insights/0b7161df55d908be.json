@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0b7161df55d908be",
+ "contentHash": "946aa8328dd4af5e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T02:04:08.384Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+   "summary": "Microsoft has released a fix for a remote code execution vulnerability in Windows Paint, tracked as CVE-2026-83844. The flaw is an out-of-bounds read that could allow an attacker to run code over a network. However, the update is only available through the Microsoft Store rather than Windows Update.",
+   "impact": "Security teams and users must note that standard Windows updates will not deliver this fix. Relying on traditional patch management channels could leave systems vulnerable until the Microsoft Store application is updated.",
+   "keyPoints": [
+    "CVE-2026-83844 is an out-of-bounds read flaw in Windows Paint enabling potential remote code execution.",
+    "The fix is available exclusively through the Microsoft Store.",
+    "The fixed version is build 11.2609.401.0."
+   ]
+  },
+  "km": {
+   "title": "ដំណោះស្រាយចំពោះបញ្ហា RCE របស់ Microsoft Paint ឥឡូវនេះមានហើយ ប៉ុន្តែ Windows Update មិនចែកចាយវាទេ",
+   "summary": "Microsoft បានចេញផ្សាយដំណោះស្រាយសម្រាប់កំហុសប្រតិបត្តិពាក្យបញ្ជាពីចម្ងាយដែលមានលេខសម្គាល់ CVE-2026-83844 នៅក្នុងកម្មវិធី Windows Paint។ កំហុសនេះគឺជាបញ្ហាអានហួសដែនកំណត់ដែលប្រហែលជាអាចអនុញ្ញាតឱ្យពួកហាត់គំរាមកំហែងដំណើរការកូដតាមបណ្តាញ។ ទោះជាយ៉ាងណាក៏ដោយ ការអាប់ដេតនេះអាចរកបានតាមរយៈ Microsoft Store តែប៉ុណ្ណោះ មិនមែនតាមរយៈ Windows updates ទេ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់ត្រូវដឹងថាការអាប់ដេត Windows ស្តង់ដារនឹងមិនផ្ដល់ដំណោះស្រាយនេះទេ។ ការពឹងផ្អែកលើបណ្តាញគ្រប់គ្រងបំណះបែបប្រពៃណីអាចទុកឱ្យប្រព័ន្ធមានភាពងាយរងគ្រោះរហូតដល់កម្មវិធី Microsoft Store ត្រូវបានអាប់ដេត។",
+   "keyPoints": [
+    "CVE-2026-83844 គឺជាកំហុសអានហួសដែនកំណត់នៅក្នុង Windows Paint ដែលអាចអនុញ្ញាតឱ្យមានការប្រតិបត្តិ კოდពីចម្ងាយ។",
+    "ដំណោះស្រាយមានតាមរយៈ Microsoft Store ប៉ុណ្ណោះ។",
+    "កំណែដែលបានជួសជុលគឺ build 11.2609.401.0។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Microsoft Paint RCE 修复现已发布，但 Windows Update 不会分发",
+   "summary": "微软已针对 Windows Paint 中的远程代码执行漏洞（编号为 CVE-2026-83844）发布了修复程序。该漏洞是一个越界读取缺陷，可能允许攻击者通过网络运行代码。然而，该修复程序仅通过 Microsoft Store 提供，不会通过 Windows 更新分发。",
+   "impact": "安全团队和用户必须注意，标准的 Windows 更新不会提供此修复程序。依赖传统的补丁管理渠道可能会使系统保持易受攻击状态，直到更新 Microsoft Store 应用程序为止。",
+   "keyPoints": [
+    "CVE-2026-83844 是 Windows Paint 中的一个越界读取漏洞，可能导致远程代码执行。",
+    "该修复程序仅通过 Microsoft Store 提供。",
+    "已修复的版本为 11.2609.401.0。"
+   ]
+  },
+  "ko": {
+   "title": "Microsoft Paint RCE 수정 패치가 출시되었으나 Windows Update로는 제공되지 않음",
+   "summary": "마이크로소프트는 Windows Paint의 원격 코드 실행 취약점인 CVE-2026-83844에 대한 수정 패치를 배포했습니다. 이 취약점은 공격자가 네트워크를 통해 코드를 실행할 수 있게 하는 범위 초과 읽기 결함입니다. 그러나 이 수정 사항은 Windows 업데이트가 아닌 Microsoft Store를 통해서만 제공됩니다.",
+   "impact": "보안 팀과 사용자는 표준 Windows 업데이트가 이 수정 패치를 제공하지 않는다는 점을 유의해야 합니다. 기존의 패치 관리 채널에만 의존할 경우 Microsoft Store 애플리케이션이 업데이트될 때까지 시스템이 취약한 상태로 남을 수 있습니다.",
+   "keyPoints": [
+    "CVE-2026-83844는 Windows Paint의 범위 초과 읽기 결함으로 원격 코드 실행을 유발할 수 있음.",
+    "수정 패치는 Microsoft Store를 통해서만 제공됨.",
+    "수정된 버전은 빌드 11.2609.401.0임."
+   ]
+  }
+ }
+}

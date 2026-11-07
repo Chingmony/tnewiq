@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "aff32afb63af01e7",
+ "contentHash": "f3f1fc93e8e2f329",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T02:02:46.796Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Beyond code generation: A developer’s guide to agentic engineering",
+   "summary": "GitHub recorded over 1.2 billion commits in a single week this October, marking a massive increase from the previous year. However, studies show that while code generation is faster, pull requests spend significantly longer in review as developers face growing pressure across the software lifecycle. To address this, developers can adopt agentic engineering workflows utilizing tools like Copilot across the planning, building, verification, and observation stages.",
+   "impact": "Developers and technology users could find that adopting agentic workflows helps manage the overhead of increased code generation and scattered project context. Security and development teams may see shifts in how tasks are triaged and reviewed, though increased adoption might alter pull review times and processes.",
+   "keyPoints": [
+    "GitHub saw more than 1.2 billion commits in one week this October, exceeding total commits from all of 2025.",
+    "A Faros AI study indicated that pull requests spent 441% longer in review when teams moved from low to high AI adoption.",
+    "Agentic engineering workflows aim to assist developers across Plan, Build, Verify, and Observe stages.",
+    "Tools like Copilot can help gather scattered context, create GitHub Issues, label issues, and run tasks in cloud sandboxes."
+   ]
+  },
+  "km": {
+   "title": "លើសពីការបង្កើតកូដ៖ មគ្គុទ្ទេសក៍របស់1អ្នកអភិវឌ្ឍន៍ចំពោះវិស្វកម្មភ្នាក់ងារ",
+   "summary": "កាលពីខែតុលានេះ GitHub បានកត់ត្រាការដាក់បញ្ជូនកូដច្រើនជាង ១,២ ពាន់លានដងក្នុងរយៈពេលមួយសប្តាហ៍ ដែលកើនឡើងជាង ៤០០% បើធៀបនឹងឆ្នាំមុន។ ទោះបីជា AI ជួយបង្កើនល្បឿននៃការសរសេរកូដក៏ដោយ ក៏អ្នកអភិវឌ្ឍន៍ប្រឈមមុខនឹងសម្ពាធក្នុងការពិនិត្យមើលសំណើទាញយកកូដផងដែរ។ ភ្នាក់ងារអាចជួយឱ្យការងារមានប្រសិទ្ធភាពជាងមុនតាមដំណាក់កាលផែនការ សាងសង់ ផ្ទៀងផ្ទាត់ និងសង្កេត។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍អាចយល់ថាការប្រើប្រាស់លំហូរការងារភ្នាក់ងារជួយគ្រប់គ្រងបរិមាណកូដដែលបានបង្កើត និងកាត់បន្ថយពេលវេលាស្វែងរកបរិបទ។ ក្រុមសុវត្ថិភាពនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចឃើញការផ្លាស់ប្តូរក្នុងការពិនិត្យកូដនិងការគ្រប់គ្រងកិច្ចការ។",
+   "keyPoints": [
+    "GitHub បានឃើញការដាក់បញ្ជូនកូដជាង ១,២ ពាន់លានដងក្នុងមួយសប្តាហ៍កាលពីខែតុលា។",
+    "ការសិក្សាបង្ហាញថាសំណើទាញយកកូដចំណាយពេលពិនិត្យយូរជាងមុន ៤៤១% នៅពេលក្រុមប្តូរពីការប្រើប្រាស់ AI ទាបទៅខ្ពស់។",
+    "ភ្នាក់ងារអាចជួយក្នុងការធ្វើផែនការ សាងសង់ ផ្ទៀងផ្ទាត់ និងសង្កេតការណ៍។",
+    "Copilot អាចទាញយកបរិបទ បង្កើតបញ្ហា GitHub និងដំណើរការកិច្ចការក្នុងប្រអប់ខ្សាច់លើពពក។"
+   ]
+  },
+  "zh-CN": {
+   "title": "超越代码生成：开发者智能体工程指南",
+   "summary": "今年10月，GitHub在单周内记录了超过12亿次提交，比前一年增加了400%以上。尽管AI加快了代码实现，但研究表明，随着团队转向高AI采用率，拉取请求的审查时间增长了441%。为了应对这些压力，开发者可以利用智能体工程工作流在计划、构建、验证和观察阶段更高效地工作。",
+   "impact": "开发者和技术团队可能会发现，采用智能体工作流有助于管理大量生成的代码和分散的项目上下文。安全和开发团队可能会看到任务分类和审查流程发生变化。",
+   "keyPoints": [
+    "GitHub在今年10月的一周内记录了超过12亿次提交，超过了2025年全年的提交量。",
+    "Faros AI的一项研究发现，当团队从低AI采用率转向高AI采用率时，拉取请求的审查时间长了441%。",
+    "智能体可以帮助开发者在计划、构建、验证和观察阶段提高工作效率。",
+    "使用Copilot可以将分散的上下文集中到一处，创建GitHub Issues并在云沙箱中运行任务。"
+   ]
+  },
+  "ko": {
+   "title": "코드 생성 그 이상: 에이전트 엔지니어를 위한 개발자 가이드",
+   "summary": "올해 10월 GitHub은 일주일 만에 12억 개가 넘는 커밋을 기록하며 전년 대비 400% 이상 증가했습니다. AI가 구현 속도를 높임에 따라 개발자들은 다른 부분에서 압박을 느끼고 있으며, Faros AI 연구에 따르면 AI 도입률이 높아질수록 풀 리퀘스트 검토 시간이 441% 더 길어졌습니다. 에이전트는 계획, 빌드, 검증, 관찰 등 모든 단계에서 개발자가 더 효율적으로 일할 수 있도록 돕습니다.",
+   "impact": "개발자와 기술 팀은 에이전트 워크플로를 도입함으로써 늘어난 코드 생성량과 분산된 프로젝트 맥락을 관리하는 데 도움을 받을 수 있습니다. 보안 및 개발 팀은 작업 분류 및 검토 프로세스에서 변화를 경험할 수 있습니다.",
+   "keyPoints": [
+    "올해 10월 GitHub은 일주일 동안 12억 개 이상의 커밋을 기록하여 2025년 전체 커밋 수를 넘어섰습니다.",
+    "Faros AI 연구에 따르면 팀의 AI 도입률이 낮음에서 높음으로 바뀔 때 풀 리퀘스트 검토 시간이 441% 더 소요되었습니다.",
+    "에이전트는 계획, 빌드, 검증, 관찰 단계 전반에서 효율적인 작업을 지원합니다.",
+    "Copilot을 사용하여 흩어진 맥락을 모으고, GitHub 이슈를 생성하며, 클라우드 샌드박스에서 작업을 실행할 수 있습니다."
+   ]
+  }
+ }
+}

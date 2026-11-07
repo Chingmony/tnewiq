@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "30d1adccad9bf087",
+ "contentHash": "a2f288f602b836f8",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T02:03:08.605Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Redshift expands SUPER data type to store strings up to 16 million bytes",
+   "summary": "Amazon Redshift has expanded its SUPER data type to support individual strings up to 16 million bytes. Users must opt in through a database parameter to enable this feature for structured and semi-structured data ingestion from formats like JSON, PARQUET, TEXT, and CSV. Previously, individual strings within SUPER data types were restricted to a limit of 65,535 bytes.",
+   "impact": "Developers and data engineers can now directly ingest large documents, such as contracts and terms and conditions exceeding 65,535 bytes, without requiring complex pre-loading transformations. This capability could streamline ELT pipelines and enable direct SQL querying and PartiQL navigation of larger text fields.",
+   "keyPoints": [
+    "SUPER data types now support individual strings up to 16 million bytes.",
+    "Requires an opt-in via a database parameter.",
+    "Applies to ingestion from JSON, PARQUET, TEXT, and CSV source files.",
+    "Functions like JSON_PARSE, CONCAT, and LISTAGG can now process strings up to 16 million bytes."
+   ]
+  },
+  "km": {
+   "title": "Amazon Redshift ពង្រីកប្រភេទិន្នន័យ SUPER ដើម្បីរក្សាទុកខ្សែអក្សររហូតដល់ ១៦ លានបាយត",
+   "summary": "Amazon Redshift ឥឡូវនេះគាំទ្រខ្សែអក្សរបុគ្គលរហូតដល់ ១៦ លានបាយតនៅក្នុងប្រភេទិន្នន័យ SUPER។ អ្នកប្រើប្រាស់ត្រូវតែជ្រើសរើសចូលតាមរយៈប៉ារ៉ាម៉ែត្រមូលដ្ឋានទិន្នន័យដើម្បីបើកដំណើរការមុខងារនេះសម្រាប់ការបរិភោគទិន្នន័យពីរចនាសម្ព័ន្ធ ឬពាក់កណ្តាលរចនាសម្ព័ន្ធពីឯកសារប្រភព JSON, PARQUET, TEXT និង CSV។ ពីមុន ខ្សែអក្សរបុគ្គលនៅក្នុងប្រភេទិន្នន័យ SUPER ត្រូវបានកំណត់ត្រឹម ៦៥.៥៣៥ បាយត។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងក្រុមវិស្វកម្មទិន្នន័យអាចនាំចូលឯកសារធំៗដោយផ្ទាល់ដោយមិនចាំបាច់មានការផ្លាស់ប្តូរមុនពេលផ្ទុកដ៏ស្មុគស្មាញ។ នេះអាចជួយសម្រួលដល់ដំណើរការ ELT និងអនុញ្ញាតឱ្យសាកសួរទិន្នន័យដោយផ្ទាល់ដោយប្រើ SQL។",
+   "keyPoints": [
+    "ប្រភេទិន្នន័យ SUPER ឥឡូវនេះគាំទ្រខ្សែអក្សរបុគ្គលរហូតដល់ ១៦ លានបាយត។",
+    "ទាមទារការជ្រើសរើសចូលតាមរយៈប៉ារ៉ាម៉ែត្រមូលដ្ឋានទិន្នន័យ។",
+    "អនុវត្តចំពោះការនាំចូលពីឯកសារប្រភព JSON, PARQUET, TEXT និង CSV។",
+    "មុខងារដូចជា JSON_PARSE, CONCAT និង LISTAGG ឥឡូវនេះអាចដំណើរការខ្សែអក្សររហូតដល់ ១៦ លានបាយត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Redshift 扩展 SUPER 数据类型以存储长达 1600 万字节的字符串",
+   "summary": "Amazon Redshift 现在支持在 SUPER 数据类型中存储长达 1600 万字节的单个字符串。用户必须通过数据库参数选择启用此功能，以用于从 JSON、PARQUET、TEXT 和 CSV 源文件摄取结构化或半结构化数据。此前，SUPER 数据类型中的单个字符串限制为 65,535 字节。",
+   "impact": "开发人员和数据工程师现在可以直接摄取超过 65,535 字节的大型文档，而无需进行复杂的预加载转换。这可能会简化 ELT 管道，并使大型文本字段能够直接通过 SQL 进行查询和使用 PartiQL 进行导航。",
+   "keyPoints": [
+    "SUPER 数据类型现在支持长达 1600 万字节的单个字符串。",
+    "需要通过数据库参数进行选择启用。",
+    "适用于从 JSON、PARQUET、TEXT 和 CSV 源文件中摄取数据。",
+    "诸如 JSON_PARSE、CONCAT 和 LISTAGG 之类的函数现在可以处理长达 1600 万字节的字符串。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Redshift, 최대 1,600만 바이트의 문자열을 저장하도록 SUPER 데이터 타입 확장",
+   "summary": "Amazon Redshift는 이제 SUPER 데이터 타입 내에서 최대 1,600만 바이트의 개별 문자열을 지원합니다. 사용자는 데이터베이스 파라미터를 통해 옵트인하여 JSON, PARQUET, TEXT, CSV 소스 파일에서 구조화되거나 반구조화된 데이터를 수집할 때 이 기능을 활성화할 수 있습니다. 이전에 SUPER 데이터 타입 내의 개별 문자열은 65,535바이트로 제한되었습니다.",
+   "impact": "개발자와 데이터 엔지니어는 복잡한 사전 로딩 변환 없이 65,535바이트를 초과하는 대용량 문서를 직접 수집할 수 있습니다. 이 기능은 ELT 파이프라인을 간소화하고 SQL을 사용한 직접적인 쿼리 및 PartiQL 탐색을 가능하게 할 수 있습니다.",
+   "keyPoints": [
+    "SUPER 데이터 타입은 이제 최대 1,600만 바이트의 개별 문자열을 지원합니다.",
+    "데이터베이스 파라미터를 통한 옵트인이 필요합니다.",
+    "JSON, PARQUET, TEXT, CSV 소스 파일의 데이터 수집에 적용됩니다.",
+    "JSON_PARSE, CONCAT, LISTAGG 같은 함수는 이제 최대 1,600만 바이트의 문자열을 처리할 수 있습니다."
+   ]
+  }
+ }
+}

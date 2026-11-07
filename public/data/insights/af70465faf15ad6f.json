@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "af70465faf15ad6f",
+ "contentHash": "36dd349bd11b2c5f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T02:03:36.944Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Thinking Machines' Inkling 2 Small claims top spot among western open-weight models",
+   "summary": "Thinking Machines, founded by former OpenAI CTO Mira Murati, has released Inkling 2 Small, a 594-billion parameter mixture-of-experts model. The company asserts that it is the strongest western open-weight model available. However, this improved agentic performance results in a sharp increase in token usage.",
+   "impact": "Development and security teams working with large language models may need to account for higher token usage when deploying this mixture-of-experts model. Users could experience increased resource costs due to the sharp rise in token consumption required for better agentic performance.",
+   "keyPoints": [
+    "Thinking Machines released Inkling 2 Small.",
+    "The model features 594 billion parameters and uses a mixture-of-experts architecture.",
+    "It claims to be the strongest western open-weight model.",
+    "Better agentic performance leads to a sharp increase in token usage."
+   ]
+  },
+  "km": {
+   "title": "Inkling 2 Small របស់ Thinking Machines កាន់កាប់តំណែងកំពូលក្នុងចំណោមម៉ូឌែលទម្ងន់បើកចំហលោកខាងលិច",
+   "summary": "ក្រុមហ៊ុន Thinking Machines ដែលបង្កើតឡើងដោយអតីត CTO របស់ OpenAI គឺ Mira Murati បានបញ្ចេញ Inkling 2 Small ដែលជាម៉ូឌែលចម្រុះអ្នកជំនាញមានប៉ារ៉ាម៉ែត្រចំនួន 594 ពាន់លាន។ ក្រុមហ៊ុននេះអះអាងថាវាគឺជាម៉ូឌែលទម្ងន់បើកចំហលោកខាងលិចដ៏ខ្លាំងបំផុត។ ទោះយ៉ាងណាក៏ដោយ ការអនុវត្តភ្នាក់ងារកាន់តែប្រសើរឡើងត្រូវបង់ថ្លៃដោយការប្រើប្រាស់តូខេនកើនឡើងយ៉ាងខ្លាំង។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍និងសុវត្ថិភាពអាចនឹងត្រូវពិចារណាលើការប្រើប្រាស់តូខេនដែលខ្ពស់ជាងមុននៅពេលដាក់ពង្រាយម៉ូឌែលនេះ។ អ្នកប្រើប្រាស់អាចនឹងជួបប្រទះការចំណាយធនធានខ្ពស់ជាងមុនដោយសារតែកំណើននៃការប្រើប្រាស់តូខេន។",
+   "keyPoints": [
+    "Thinking Machines បានបញ្ចេញ Inkling 2 Small។",
+    "ម៉ូឌែលនេះមានប៉ារ៉ាម៉ែត្រចំនួន 594 ពាន់លាននិងប្រើប្រាស់ស្ថាបត្យកម្មចម្រុះអ្នកជំនាញ។",
+    "វាអះអាងថាជាម៉ូឌែលទម្ងន់បើកចំហលោកខាងលិចដ៏ខ្លាំងបំផុត។",
+    "ការអនុវត្តភ្នាក់ងារកាន់តែប្រសើរធ្វើឱ្យការប្រើប្រាស់តូខេនកើនឡើងយ៉ាងខ្លាំង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Thinking Machines 的 Inkling 2 Small 宣称占据西方开源模型榜首",
+   "summary": "由 OpenAI 前首席技术官 Mira Murati 创立的初创公司 Thinking Machines 发布了 Inkling 2 Small，这是一款拥有 5940 亿参数的混合专家模型。该公司声称它是最强大的西方开源模型。不过，更好的智能体性能也伴随着代价，即代币使用量急剧上升。",
+   "impact": "开发和安全团队在部署该模型时可能需要考虑更高的代币消耗。由于实现更好智能体性能所需的代币用量急剧上升，技术用户可能会面临资源成本的增加。",
+   "keyPoints": [
+    "Thinking Machines 发布了 Inkling 2 Small。",
+    "该模型拥有 5940 亿参数并采用了混合专家架构。",
+    "该公司声称它是最强大的西方开源模型。",
+    "更好的智能体性能导致代币使用量急剧上升。"
+   ]
+  },
+  "ko": {
+   "title": "Thinking Machines의 Inkling 2 Small, 서구권 오픈웨이트 모델 중 최고 폰트 차지 주장",
+   "summary": "OpenAI의 전 CTO인 Mira Murati가 설립한 스타트업 Thinking Machines가 5,940억 개의 매개변수를 가진 혼합 전문가 모델인 Inkling 2 Small을 출시했습니다. 이 회사는 이 모델이 가장 강력한 서구권 오픈웨이트 모델이라고 주장합니다. 하지만 향상된 에이전트 성능에는 토큰 사용량이 급격히 증가한다는 대가가 따릅니다.",
+   "impact": "개발 및 보안 팀은 이 혼합 전문가 모델을 배포할 때 더 높아진 토큰 사용량을 고려해야 할 수 있습니다. 기술 사용자들은 더 나은 에이전트 성능을 위해 필요한 토큰 소비의 급격한 증가로 인해 자원 비용이 증가할 수 있습니다.",
+   "keyPoints": [
+    "Thinking Machines가 Inkling 2 Small을 출시했습니다.",
+    "이 모델은 5,940억 개의 매개변수와 혼합 전문가 아키텍처를 특징으로 합니다.",
+    "가장 강력한 서구권 오픈웨이트 모델이라고 주장합니다.",
+    "향상된 에이전트 성능으로 인해 토큰 사용량이 급격히 증가합니다."
+   ]
+  }
+ }
+}

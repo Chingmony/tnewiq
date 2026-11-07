@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "702f8f42d6bfa93b",
+ "contentHash": "a59165aaa3c6a253",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T02:07:01.953Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Glue Data Catalog now supports catalog-vended credentials with Apache Iceberg REST catalog federation",
+   "summary": "AWS Glue Data Catalog now supports catalog-vended credentials when using Apache Iceberg REST catalog federation. Users can read external Iceberg tables from services like Amazon Athena, Amazon EMR, Amazon Redshift, and AWS Glue by utilizing coarse-grained table grants from an external Iceberg catalog. The feature uses temporary security credentials scoped to the Amazon S3 storage prefix and vended by the external catalog, while AWS Lake Formation manages further access control.",
+   "impact": "This enhancement could allow developers and security teams to connect to external Iceberg catalogs using temporary, scoped credentials and restrict table access down to specific rows and columns. It may also simplify cross-account sharing and access control management across supported AWS analytics engines.",
+   "keyPoints": [
+    "AWS Glue Data Catalog supports external catalog-vended credentials for Apache Iceberg REST catalog federation.",
+    "Reads external Iceberg tables using Amazon Athena, Amazon EMR, Amazon Redshift, and AWS Glue.",
+    "Uses temporary security credentials scoped to the Amazon S3 storage prefix.",
+    "AWS Lake Formation manages fine-grained access control such as row and column restrictions."
+   ]
+  },
+  "km": {
+   "title": "AWS Glue Data Catalog ឥឡូវនេះគាំទ្រការសម្គាល់អត្តសញ្ញាណដែលផ្ដល់ដោយកាតាឡុក ជាមួយនឹងការបញ្ចូលគ្នានៃកាតាឡុក Apache Iceberg REST",
+   "summary": "AWS Glue Data Catalog ឥឡូវនេះគាំទ្រការសម្គាល់អត្តសញ្ញាណដែលផ្ដល់ដោយកាតាឡុកខាងក្រៅ ក្នុងការបញ្ចូលគ្នានៃកាតាឡុក Apache Iceberg REST ។ អ្នកអាចអានតារាង Iceberg ខាងក្រៅពី Amazon Athena, Amazon EMR, Amazon Redshift និង AWS Glue ដោយប្រើប្រាស់សិទ្ធិតារាងកម្រិត αδ්‍රបពីកាតាឡុក Iceberg ខាងក្រៅរបស់អ្នក។ មុខងារនេះប្រើប្រាស់ការសម្គាល់អត្តសញ្ញាណសុវត្ថិភាពបណ្ដោះអាសន្នដែលកំណត់គោលដៅលើបច្ច័យផ្ទុក Amazon S3 ។",
+   "impact": "ការកែលម្អនេះអាចជួយឱ្យក្រុមអភិវឌ្ឍន៍ និងសុវត្ថិភាពភ្ជាប់ទៅកាន់កាតាឡុក Iceberg ខាងក្រៅដោយប្រើប្រាស់ការសម្គាល់អត្តសញ្ញាណបណ្ដោះអាសន្ន និងគ្រប់គ្រងការចូលប្រើប្រាស់ទិន្នន័យបានកាន់តែប្រសើរ។",
+   "keyPoints": [
+    "AWS Glue Data Catalog គាំទ្រការសម្គាល់អត្តសញ្ញាណដែលផ្ដល់ដោយកាតាឡុកខាងក្រៅសម្រាប់ Apache Iceberg REST ។",
+    "អាចអានតារាង Iceberg ខាងក្រៅតាមរយៈសេវាកម្មវិភាគទិន្នន័យរបស់ AWS ។",
+    "ប្រើប្រាស់ការសម្គាល់អត្តសញ្ញាណសុវត្ថិភាពបណ្ដោះអាសន្នដែលកំណត់លើ Amazon S3 storage prefix ។",
+    "AWS Lake Formation គ្រប់គ្រងការគ្រប់គ្រងការចូលប្រើប្រាស់ទិន្នន័យបន្ថែម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Glue Data Catalog 现已在 Apache Iceberg REST 目录联合中支持目录分发的凭证",
+   "summary": "AWS Glue Data Catalog 现在在 Apache Iceberg REST 目录联合中支持外部目录分发的凭证。您现在可以使用外部 Iceberg 目录中的粗粒度表授权，通过 Amazon Athena、Amazon EMR、Amazon Redshift 和 AWS Glue 读取外部 Iceberg 表。该功能使用由外部 Iceberg 组织分发并限定在 Amazon S3 存储前缀范围内的临时安全凭证。",
+   "impact": "此增强功能可能使开发人员和安全团队能够使用局限于特定存储前缀的临时凭证连接到外部 Iceberg 目录，并支持通过 AWS Lake Formation 进一步限制行和列级别的访问权限。",
+   "keyPoints": [
+    "AWS Glue Data Catalog 支持 Apache Iceberg REST 目录联合的外部目录分发凭证。",
+    "支持从 Amazon Athena、Amazon EMR、Amazon Redshift 和 AWS Glue 读取外部表。",
+    "使用限定在 Amazon S3 存储前缀范围内的临时安全凭证。",
+    "AWS Lake Formation 管理行和列级别的进一步访问控制。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Glue Data Catalog, Apache Iceberg REST 카탈로그 페더레이션에서 카탈로그 제공 자격 증명 지원",
+   "summary": "AWS Glue Data Catalog가 이제 Apache Iceberg REST 카탈로그 페더레이션에서 외부 카탈로그의 제공 자격 증명을 지원합니다. 외부 Iceberg 카탈로그의 대략적인 테이블 권한 부여를 사용하여 Amazon Athena, Amazon EMR, Amazon Redshift 및 AWS Glue에서 외부 Iceberg 테이블을 읽을 수 있습니다. 이 기능은 Amazon S3 스토리지 접두사로 범위가 지정된 임시 보안 자격 증명을 사용합니다.",
+   "impact": "이번 개선을 통해 개발자와 보안 팀은 임시 범위 지정 자격 증명을 사용하여 외부 Iceberg 카탈로그에 연결하고 AWS Lake Formation을 통해 행 및 열 수준까지 액세스를 제한할 수 있습니다.",
+   "keyPoints": [
+    "AWS Glue Data Catalog가 Apache Iceberg REST 카탈로그 페더레이션에 대한 외부 카탈로그 제공 자격 증명을 지원합니다.",
+    "Amazon Athena, Amazon EMR, Amazon Redshift 및 AWS Glue를 통해 외부 Iceberg 테이블을 읽을 수 있습니다.",
+    "Amazon S3 스토리지 접두사 범위로 한정된 임시 보안 자격 증명을 활용합니다.",
+    "AWS Lake Formation을 통해 세부적인 액세스 제어 관리가 가능합니다."
+   ]
+  }
+ }
+}
