@@ -1,0 +1,49 @@
+{
+ "schemaVersion": 1,
+ "articleId": "dff9d77686c0b3fe",
+ "contentHash": "82e4bdb580eeee96",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T20:24:44.017Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
+   "summary": "Researchers compared vanilla reverse-KL on-policy distillation (OPD) against Group Relative Policy Optimization (GRPO) to see which method achieves target accuracy with fewer training FLOPs. Using an external post-trained teacher, OPD generally loses to GRPO in accuracy per training FLOP and can cause response-length inflation. However, when the teacher is the student's own GRPO checkpoint, OPD achieves that checkpoint's math accuracy with 50 times fewer distillation FLOPs. Additionally, multi-teacher OPD can consolidate per-domain GRPO experts into a single student at a fraction of specialist training FLOPs.",
+   "impact": "This research could help developers and teams optimize training compute by showing that self-teacher OPD methods can significantly reduce FLOPs for matching checkpoint accuracy. Security teams and technology users may see more efficient multi-domain model consolidation pipelines that reduce overall resource overhead.",
+   "keyPoints": [
+    "Vanillareverse-KLOPDgenerallylosedtoGRPOinaccuracypertrainingFLOPwhenusinganexternalpost-trainedteacher.",
+    "OPDusingthestudent'sowngrPOcheckpointrecoveredmathaccuracywith50timesfewerdistillationFLOPs.",
+    "Multi-teacherOPDconsolidatedper-domaingrpoexpertintosasinglestudentusingonlya smallpercentageofspecialisttrainingFLOPs."
+   ]
+  },
+  "km": {
+   "title": "ការបកស្រាយពីប្រសិទ្ធភាពនៃការគណនារវាង Strong-to-Weak OPD និង GRPO",
+   "summary": "អ្នកស្រាវជ្រាវបានធ្វើការប្រៀបធៀបរវាង reverse-KL on-policy distillation (OPD) និង Group Relative Policy Optimization (GRPO) ដើម្បីមើលថាតើវិធីសាស្ត្រណាមួយសម្រេចបាននូវកម្រិតត្រឹមត្រូវគោលដៅដោយប្រើប្រាស់ FLOPs តិចជាង។ នៅពេលប្រើប្រាស់គ្រូបង្រៀនខាងក្រៅ OPD ជាទូទៅចាញ់ GRPO ក្នុងកម្រិតត្រឹមត្រូវក្នុងមួយ FLOP នៃការបណ្តុះបណ្តាល។ ប៉ុន្តែនៅពេលដែលគ្រូបង្រៀនគឺជា checkpoint GRPO របស់សិស្សផ្ទាល់ OPD អាចទាញយកកម្រិតត្រឹមត្រូវដូចគ្នាដោយប្រើប្រាស់ distillation FLOPs តិចជាង ៥០ដង។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ក្នុងការបង្កើនប្រសិទ្ធភាពការគណនាក្នុងការបណ្តុះបណ្តាលដោយកាត់បន្ថយការប្រើប្រាស់ FLOPs តាមរយៈវិធីសាស្ត្រ OPD ដែលប្រើប្រាស់ checkpoint ផ្ទាល់ខ្លួន។",
+   "keyPoints": [
+    "OPDទូទៅគឺខ្សោយជាងGRPOពេលប្រើប្រាស់គ្រូបង្រៀនខាងក្រៅ។",
+    "OPDដែលប្រើប្រាស់GRPOcheckpointរបស់សិស្សផ្ទាល់អាចសន្សំសំចៃFLOPsបាន៥០ដង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "剖析强弱 OPD 相对于 GRPO 的计算效率",
+   "summary": "研究人员对比了基础反向 KL 在策略蒸馏（OPD）与群组相对策略优化（GRPO），以观察哪种方法能以更少的训练 FLOPs 达到目标准确率。使用外部后训练教师时，OPD 的每训练 FLOP 准确率通常输给 GRPO，并且常引发回复长度膨胀。然而，当教师是学生自身的 GRPO 检查点时，OPD 仅需原本 50 分之一的蒸馏 FLOPs 即可恢复该检查点的数学准确率。",
+   "impact": "这项研究可能帮助开发人员通过使用自身检查点作为教师的 OPD 方法来显著减少训练所需的计算量。技术团队可能会利用多教师 OPD 将多个专家的能力整合到单个模型中，从而节省整体训练成本。",
+   "keyPoints": [
+    "在使用外部教师时，OPD 的训练效率和准确率通常低于 GRPO。",
+    "当教师为学生自身的 GRPO 检查点时，OPD 达到了 50 倍更少的蒸馏 FLOPs 效率。",
+    "多教师 OPD 能够将不同领域的专长整合到单个学生模型中并大幅减少总 FLOPs。"
+   ]
+  },
+  "ko": {
+   "title": "GRPO 대비 Strong-to-Weak OPD의 연산 효율성 분석",
+   "summary": "연구진은 목표 정확도에 도달하는 데 필요한 학습 FLOPs를 비교하기 위해 바닐라 역방향 KL 온정책 증류(OPD)와 그룹 상대 정책 최적화(GRPO)를 체계적으로 비교했습니다. 외부 사후 학습 교사를 사용할 경우 OPD는 학습 FLOP당 정확도 면에서 GRPO에 뒤처지는 경향이 있습니다. 그러나 교사가 학생 자신의 GRPO 체크포인트인 경우, OPD는 동일한 정확도에 도달하는 데 GRPO보다 50배 적은 증류 FLOPs를 소모하여 해당 체크포인트의 정확도를 회복했습니다.",
+   "impact": "이번 연구는 개발자와 엔지니어들이 자체 체크포인트를 교사로 활용하는 OPD 방식을 통해 학습 연산 자원을 크게 절감할 수 있음을 보여줍니다. 다중 교사 OPD 파이프라인은 도메인별 전문가 모델들을 효율적으로 통합하여 전체 학습 비용을 낮추는 데 기여할 수 있습니다.",
+   "keyPoints": [
+    "외부 교사를 사용할 때 OPD는 학습 FLOP당 정확도에서 GRPO에 비해 일반적으로 불리합니다.",
+    "학생의 GRPO 체크포인트를 교사로 사용하면 50배 더 적은 증류 FLOPs로 동일한 정확도를 달성합니다.",
+    "다중 교사 OPD는 여러 영역의 전문가 능력을 단일 학생 모델로 효율적으로 통합합니다."
+   ]
+  }
+ }
+}

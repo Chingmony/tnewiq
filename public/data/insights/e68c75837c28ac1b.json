@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e68c75837c28ac1b",
+ "contentHash": "7a9e736cc8a62a9c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T20:23:29.619Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+   "summary": "SwarmEvolve is a new framework that uses hundreds of low-cost AI agents working in swarms to improve programs for mathematical and computational problems. Instead of generating long textual chains of thought, the agents reason in latent space without decoding to text and share information by passing KV caches. A novelty filter measures hidden state vector distances to keep distinct ideas, and a summarizer agent performs crossover using combined KV caches. Tested on 21 problems in mathematical discovery and scientific computing, the framework achieves the highest average score while reaching top scores in a median of 3 to 8 minutes compared to 60 minutes for other state-of-the-art frameworks.",
+   "impact": "This approach could offer developers and researchers a significantly faster and more cost-effective method for program search and optimization. By leveraging latent space communication with Qwen3 8B, users may achieve advanced scientific computing results without relying exclusively on larger frontier language models.",
+   "keyPoints": [
+    "SwarmEvolve uses hundreds of low-cost agents per round that reason in latent space without decoding to text.",
+    "Agents share information by passing KV caches, and a novelty filter measures hidden state vector distances to retain distinct ideas.",
+    "A summarizer agent handles idea crossover by receiving the combined KV caches of all swarm members.",
+    "The framework achieved the highest average score across 21 mathematical discovery and scientific computing problems, reaching optimal scores in 3 to 8 minutes."
+   ]
+  },
+  "km": {
+   "title": "SwarmEvolve៖ ក្រុមភ្នាក់ងារឡាតង់សម្រាប់ការរកឃើញ និងការបង្កើនប្រសិទ្ធភាពវិវត្តន៍",
+   "summary": "SwarmEvolve គឺជាប្រព័ន្ធថ្មីមួយដែលប្រើប្រាស់ភ្នាក់ងារ AI តម្លៃទាបរាប់រយក្នុងមួយក្រុម ដើម្បីកែលម្អកម្មវិធីសម្រាប់បញ្ហាគណិតវិទ្យា និងកុំព្យូទ័រ។ ជំនួសឱ្យការបង្កើតខ្សែសង្វាក់នៃការគິດជាអត្ថបទវែងៗ ភ្នាក់ងារទាំងនោះពិចារណាក្នុងលំហឡាតង់ដោយមិនបកស្រាយទៅជាអត្ថបទ និងចែករំលែកព័ត៌មានតាមរយៈការបញ្ជូន KV caches។ តម្រងភាពច្នៃប្រឌិតវាស់វែងចម្ងាយវ៉ិចទ័រស្ថានភាពលាក់កំបាំង ដើម្បីរក្សាគំនិតផ្សេងៗគ្នា ខណៈដែលភ្នាក់ងារសង្ខេបធ្វើការផ្លាស់ប្តូរគំនិតគ្នាទៅវិញទៅមកតាមរយៈ KV caches រួមបញ្ចូលគ្នា។",
+   "impact": "វិធីសាស្ត្រនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវមធ្យោបាយលឿនជាងមុន និងមានតម្លៃទាបជាងមុនសម្រាប់ការស្វែងរក និងបង្កើនប្រសិទ្ធភាពកម្មវិធី។ ការប្រើប្រាស់ទំនាក់ទំនងលំហឡាតង់អាចជួយឱ្យអ្នកប្រើប្រាស់ទទួលបានលទ្ធផលគណនាវិទ្យាសាស្ត្រកម្រិតខ្ពស់ដោយមិនចាំបាច់ពឹងផ្អែកលើគំរូភាសាធំៗនោះទេ។",
+   "keyPoints": [
+    "SwarmEvolve ប្រើប្រាស់ភ្នាក់ងារតម្លៃទាបរាប់រយក្នុងមួយជុំដែលពិចារណាក្នុងលំហឡាតង់។",
+    "ភ្នាក់ងារចែករំលែកព័ត៌មានដោយបញ្ជូន KV caches និងប្រើប្រាស់តម្រងភាពច្នៃប្រឌិត។",
+    "ភ្នាក់ងារសង្ខេបទទួលយក KV caches រួមបញ្ចូលគ្នាដើម្បីធ្វើការផ្លាស់ប្តូរគំនិត។",
+    "ប្រព័ន្ធនេះទទួលបានពិន្ទុជាមធ្យមខ្ពស់បំផុតលើបញ្ហាគណិតវិទ្យា និងការគណនាវិទ្យាសាស្ត្រចំនួន 21។"
+   ]
+  },
+  "zh-CN": {
+   "title": "SwarmEvolve：用于演化发现和优化的潜在智能体群",
+   "summary": "SwarmEvolve 是一个新框架，它利用每轮数百个低成本的智能体以群组形式工作，在潜空间中进行推理而无需解码为文本，并通过传递 KV 缓存来共享信息。新奇过滤器通过直接测量智能体隐藏状态向量之间的距离来保留最独特的想法，而总结智能体则通过接收所有群成员组合的 KV 缓存来进行想法交叉。在数学发现和科学计算的 21 个问题上，SwarmEvolve 获得了最高的平均分，并且只需 3 到 8 分钟的中位时间就能达到其他先进框架需要 60 分钟才能达到的最佳分数。",
+   "impact": "这种方法可以为开发人员和研究人员提供一种更快、成本更低程序搜索和优化方案。通过利用潜空间通信，用户或许能够在不依赖大型前沿语言模型的情况下获得先进的科学计算成果。",
+   "keyPoints": [
+    "SwarmEvolve 使用每轮数百个在潜空间中推理且无需解码为文本的低成本智能体。",
+    "智能体通过传递 KV 缓存共享信息，新奇过滤器保留独特的想法。",
+    "总结智能体通过接收组合的 KV 缓存来处理想法交叉。",
+    "在 21 个数学和科学计算问题上，该框架在 3 到 8 分钟内达到了最佳平均分。"
+   ]
+  },
+  "ko": {
+   "title": "SwarmEvolve: 진화적 발견 및 최적화를 위한 잠재 에이전트 군집",
+   "summary": "SwarmEvolve는 수학 및 계산 문제에 대한 프로그램을 개선하기 위해 군집으로 작동하는 수백 개의 저비용 AI 에이전트를 사용하는 새로운 프레임워크입니다. 에이전트들은 텍스트로 디코딩하지 않고 잠재 공간에서 추론하며 KV 캐시를 전달하여 정보를 공유합니다. 참신함 필터는 숨겨진 상태 벡터 간의 거리를 측정하여 가장 독창적인 아이디어를 유지하고, 요약 에이전트는 결합된 KV 캐시를 받아 교차를 수행합니다. 수학적 발견 및 과학 컴퓨팅의 21가지 문제에서 SwarmEvolve는 가장 높은 평균 점수를 기록했으며 다른 최신 프레임워크가 60분 만에 도달하는 최고 점수에 3분에서 8분의 중간값 시간 만에 도달했습니다.",
+   "impact": "이 접근 방식은 개발자와 연구원에게 프로그램 검색 및 최적화를 위한 훨씬 더 빠르고 비용 효율적인 방법을 제공할 수 있습니다. 잠재 공간 통신을 활용함으로써 사용자는 더 큰 언어 모델에만 독점적으로 의존하지 않고도 고급 과학 컴퓨팅 결과를 얻을 수 있습니다.",
+   "keyPoints": [
+    "SwarmEvolve는 텍스트로 디코딩하지 않고 잠재 공간에서 추론하는 수백 개의 저비용 에이전트를 사용합니다.",
+    "에이전트는 KV 캐시를 전달하여 정보를 공유하며, 참신함 필터는 독창적인 아이디어를 유지합니다.",
+    "요약 에이전트는 결합된 KV 캐시를 받아 아이디어 교차를 처리합니다.",
+    "21개의 수학 및 과학 컴퓨팅 문제에서 최고 평균 점수를 달성했으며 3~8분 만에 최적 점수에 도달했습니다."
+   ]
+  }
+ }
+}

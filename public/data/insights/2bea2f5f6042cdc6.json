@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2bea2f5f6042cdc6",
+ "contentHash": "1f5d26316062c7eb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T20:19:40.237Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Kakao Unveils Decision-Making Model 'Kanana-2-v-Decide'",
+   "summary": "Kakao has open-sourced its AI decision-making support multimodal model, 'Kanana-2-v-Decide', on Hugging Face. Following other companies, this model provides structured judgment results such as probabilities, choices, and scores instead of regular sentences to be used in continuous AI agent judgments. It was developed based on Kakao's multimodal language model 'Kanana-2-v-3b' and can process both text and images.",
+   "impact": "This model could help developers and technology users by providing standardized judgment outputs for continuous AI agent tasks, potentially streamlining multimodal workflows.",
+   "keyPoints": [
+    "Kakao released 'Kanana-2-v-Decide' as an open-source model on Hugging Face.",
+    "The model provides structured judgment results like probabilities, choices, and scores for AI agents.",
+    "It is built upon Kakao's multimodal language model 'Kanana-2-v-3b' and handles text and images."
+   ]
+  },
+  "km": {
+   "title": "កាកាវ បានដាក់បង្ហាញម៉ូเดែលសម្រេចចិត្ត «Kanana-2-v-Decide»",
+   "summary": "ក្រុមហ៊ុន Kakao បានដាក់ឱ្យប្រើប្រាស់ជាប្រភពបើកចំហនូវម៉ូដែលពហុមាត្រគាំទ្រការសម្រេចចិត្ត AI ដែលមានឈ្មោះថា «Kanana-2-v-Decide» នៅលើ Hugging Face។ ម៉ូដែលនេះផ្តល់នូវលទ្ធផលវិនិច្ឆ័យដែលមានទម្រង់ស្តង់ដារដូចជា ប្រូបាប៊ីលីតេ ជម្រើស និងពិន្ទុជំនួសឱ្យប្រយោគធម្មតា ដើម្បីប្រើប្រាស់ក្នុងដំណើរការសម្រេចចិត្តជាបន្តបន្ទាប់របស់ភ្នាក់ងារ AI។ វាត្រូវបានអភិវឌ្ឍឡើងផ្អែកលើម៉ូដែលភាសាពហុមាត្រ «Kanana-2-v-3b» របស់ Kakao និងអាចដំណើរការទាំងអត្ថបទ និងរូបភាព។",
+   "impact": "វាអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យា ដោយផ្តល់នូវលទ្ធផលវិនិច្ឆ័យដែលមានទម្រង់ស្តង់ដារសម្រាប់ភ្នាក់ងារ AI ដែលអាចធ្វើឱ្យដំណើរការការងារពហុមាត្រកាន់តែមានភាពរលូន។",
+   "keyPoints": [
+    "Kakao បានចេញផ្សាយម៉ូដែល «Kanana-2-v-Decide» ជាប្រភពបើកចំហនៅលើ Hugging Face។",
+    "ម៉ូដែលនេះផ្តល់លទ្ធផលវិនិច្ឆ័យដែលមានទម្រង់ស្តង់ដារដូចជា ប្រូបាប៊ីលីតេ ជម្រើស និងពិន្ទុសម្រាប់ភ្នាក់ងារ AI។",
+    "វាត្រូវបានបង្កើតឡើងនៅលើម៉ូដែលភាសាពហុមាត្រ «Kanana-2-v-3b» របស់ Kakao និងអាចគ្រប់គ្រងទាំងអត្ថបទ និងរូបភាព។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Kakao发布决策模型“Kanana-2-v-Decide”",
+   "summary": "Kakao在Hugging Face上开源了其AI决策支持多模态模型“Kanana-2-v-Decide”。该决策模型以概率、选择和分数等规范化形式提供判断结果，而不是普通的句子，用于AI代理的连续判断。它基于Kakao的多模态语言模型“Kanana-2-v-3b”开发，能够同时处理文本和图像。",
+   "impact": "该模型可能通过为AI代理提供标准化的判断输出，帮助开发者和技术用户简化多模态工作流程。",
+   "keyPoints": [
+    "Kakao在Hugging Face上开源发布了“Kanana-2-v-Decide”。",
+    "该模型为AI代理提供概率、选择和分数等规范化的判断结果。",
+    "它基于Kakao的多模态语言模型“Kanana-2-v-3b”开发，可处理文本和图像。"
+   ]
+  },
+  "ko": {
+   "title": "카카오, 의사결정 모델 ‘카나나-2-v-디사이드’ 공개",
+   "summary": "카카오가 AI 의사결정 지원용 멀티모달 모델 ‘카나나-2-v-디사이드’를 허깅페이스에 6일 오픈소스로 공개했다. 이 의사결정 모델은 문장 대신 확률과 선택 및 점수 등 규격화된 형태로 판단 결과를 제공해 AI 에이전트의 연속적인 판단에 활용된다. 해당 모델은 카카오의 멀티모달 언어모델 ‘카나나-2-v-3b’를 기반으로 개발되었으며 텍스트와 이미지를 함께 처리할 수 있다.",
+   "impact": "이번 오픈소스 공개를 통해 개발자와 기술 사용자들은 AI 에이전트의 연속적인 판단 작업에 규격화된 멀티모달 의사결정 결과를 활용할 수 있을 것으로 보인다.",
+   "keyPoints": [
+    "카카오가 허깅페이스에 AI 의사결정 지원 멀티모달 모델 ‘카나나-2-v-디사이드’를 오픈소스로 공개함.",
+    "확률, 선택, 점수 등 규격화된 형태로 판단 결과를 제공하여 AI 에이전트의 연속적 판단에 사용됨.",
+    "카카오의 멀티모달 언어모델 ‘카나나-2-v-3b’를 기반으로 개발되었으며 텍스트와 이미지를 함께 처리함."
+   ]
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f0247d2be6d23fda",
+ "contentHash": "7cea6800b877f252",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T20:21:46.635Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "The components of agent memory",
+   "summary": "Anthropic Research discusses how Claude learns from experience by deciding what is worth remembering before knowing what comes next. The process involves a concept called dreaming that helps organize memory and correct mistakes.",
+   "impact": "This research could provide insights for developers working on AI memory systems and error correction. Understanding how agents organize memory may help improve their ability to learn from experience.",
+   "keyPoints": [
+    "Claude learns from experience by deciding what to remember in advance.",
+    "A dreaming process helps organize memory and correct mistakes."
+   ]
+  },
+  "km": {
+   "title": "សមាសភាគនៃសតិភណ្ឌរបស់ភ្នាក់ងារ",
+   "summary": "Anthropic Research បានពិភាក្សាអំពីរបៀបដែល Claude រៀនពីបទពិសោធន៍ដោយការសម្រេចចិត្តថាតើអ្វីគួរចងចាំមុនពេលដឹងថាមានអ្វីកើតឡើងបន្ទាប់។ ដំណើរការនេះពាក់ព័ន្ធនឹងគំនិតមួយហៅថាការយល់សប្តិដែលជួយរៀបចំសតិភណ្ឌនិងកែតម្រូវកំហុស។",
+   "impact": "ការស្រាវជ្រាវនេះអាចផ្ដល់នូវការយល់ដឹងសម្រាប់អ្នកអភិវឌ្ឍន៍ដែលធ្វើការលើប្រព័ន្ធសតិភណ្ឌរបស់ AI និងការកែតម្រូវកំហុស។ ការយល់ដឹងពីរបៀបដែលភ្នាក់ងាររៀបចំសតិភណ្ឌអាចជួយកែលម្អសមត្ថភាពរបស់ពួកវាក្នុងការរៀនពីបទពិសោធន៍។",
+   "keyPoints": [
+    "Claude រៀនពីបទពិសោធន៍ដោយការសម្រេចចិត្តជាមុននូវអ្វីដែលត្រូវចងចាំ។",
+    "ដំណើរការយល់សប្តិជួយរៀបចំសតិភណ្ឌនិងកែតម្រូវកំហុស។"
+   ]
+  },
+  "zh-CN": {
+   "title": "代理记忆的组成部分",
+   "summary": "Anthropic Research 探讨了 Claude 如何在未知下一步的情况下决定什么值得记住，从而从经验中学习。这一过程涉及一种被称为“做梦”的概念，它有助于组织记忆并纠正错误。",
+   "impact": "这项研究可能会为从事 AI 记忆系统和错误纠正的开发者提供见解。了解代理如何组织记忆可能有助于提高它们从经验中学习的能力。",
+   "keyPoints": [
+    "Claude 通过提前决定记住什么来从经验中学习。",
+    "“做梦”过程有助于组织记忆和纠正错误。"
+   ]
+  },
+  "ko": {
+   "title": "에이전트 메모리의 구성 요소",
+   "summary": "Anthropic Research는 Claude가 다음 일을 알기 전에 무엇을 기억할 가치가 있는지 결정함으로써 경험을 통해 학습하는 방법에 대해 설명합니다. 이 과정에는 메모리를 정리하고 실수를 바로잡는 데 도움이 되는 꿈꾸기라는 개념이 포함됩니다.",
+   "impact": "이 연구는 AI 메모리 시스템 및 오류 수정 작업을 하는 개발자에게 통찰력을 제공할 수 있습니다. 에이전트가 메모리를 조직하는 방식을 이해하면 경험을 통한 학습 능력을 향상시키는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "Claude는 무엇을 기억할지 미리 결정하여 경험을 통해 학습합니다.",
+    "꿈꾸기 과정은 메모리를 조직하고 실수를 바로잡는 데 도움을 줍니다."
+   ]
+  }
+ }
+}

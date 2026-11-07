@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "096e4032fd244ff3",
+ "contentHash": "c67f25bca7f0a642",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T20:25:15.913Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "SoK: Post-Quantum Cryptography (PQC) Integration in Software Development: Approaches, Gaps, and Future Directions",
+   "summary": "This paper presents a Systematisation of Knowledge on Post-Quantum Cryptography integration in software development. It synthesises existing approaches across implementation, migration, and developer education, evaluating them against NIST standards and migration guidance. The analysis reveals that current efforts provide disconnected support across the software development lifecycle with limited coordination.",
+   "impact": "Security teams and developers may face challenges in operational readiness due to limited evaluation evidence and disconnected lifecycle support. Addressing these gaps could help align technical, developer, and organisational requirements for secure PQC integration.",
+   "keyPoints": [
+    "PQC integration requires more than standardised algorithms to achieve secure software implementation.",
+    "Existing work shows disconnected support across the software development lifecycle.",
+    "Evaluation evidence is currently concentrated in controlled or early-stage settings."
+   ]
+  },
+  "km": {
+   "title": "SoK: ការរួមបញ្ចូលគ្រីបតូសាស្ត្រក្រោយកង់ទិច (PQC) ក្នុងការអភិវឌ្ឍន៍កម្មវិធី៖ វិធីសាស្ត្រ ចន្លោះប្រហោង និងទិសដៅអនាគត",
+   "summary": "ឯកសារនេះបង្ហាញពីការប្រមូលផ្តុំចំណេះដឹងស្តីពីការរួមបញ្ចូលគ្រីបតូសាស្ត្រក្រោយកង់ទិចក្នុងការអភិវឌ្ឍន៍កម្មវិធី។ វាចងក្រងវិធីសាស្ត្រដែលមានស្រាប់ទូទាំងការអនុវត្ត ការ移行 និងការអប់រំអ្នកអភិវឌ្ឍន៍។ ការវិភាគបង្ហាញថាការខិតខំប្រឹងប្រែងបច្ចុប្បន្នផ្តល់នូវការគាំទ្រដែលមិនស៊ីសង្វាក់គ្នានៅទូទាំងវដ្តជីវិតនៃការអភិវឌ្ឍន៍កម្មវិធី។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍អាចនឹងប្រឈមមុខនឹងបញ្ហាប្រឈមក្នុងការត្រៀមខ្លួនប្រតិបត្តិការដោយសារតែភស្តុតាងនៃការវាយតម្លៃមានកម្រិត។ ការដោះស្រាយចន្លោះប្រហោងទាំងនេះអាចជួយតម្រឹមកិច្ចការបច្ចេកទេស និងស្ថាប័នសម្រាប់ការរួមបញ្ចូល PQC ប្រកបដោយសុវត្ថិភាព។",
+   "keyPoints": [
+    "ការរួមបញ្ចូល PQC ទាមទារច្រើនជាងក្បួនដោះស្រាយស្តង់ដារ។",
+    "ការងារដែលមានស្រាប់បង្ហាញពីការគាំទ្រដែលមិនមានទំនាក់ទំនងល្អនៅទូទាំងវដ្តជីវិតកម្មវិធី។",
+    "ភស្តុតាងនៃការវាយតម្លៃគឺផ្តោតជាចម្បងក្នុងបរិយាកាសគ្រប់គ្រង ឬដំណាក់កាលដំបូង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "SoK：软件开发中的后量子密码学（PQC）集成：方法、差距与未来方向",
+   "summary": "本文介绍了软件开发中后量子密码学集成的知识系统化研究。文章综合了实现、迁移和开发者教育等现有方法，并将其与NIST标准和迁移指南进行了评估。分析表明，现有工作在整个软件开发生命周期中提供的支持较为割裂且协调有限。",
+   "impact": "由于评估证据有限且生命周期支持较为割裂，安全团队和开发人员在实现运行就绪性时可能会面临挑战。填补这些差距可能有助于协调技术、开发人员和组织对安全PQC集成的要求。",
+   "keyPoints": [
+    "PQC集成不仅需要标准化算法，还需要安全的软件实现路径。",
+    "现有工作在软件开发生命周期中提供的支持存在割裂现象。",
+    "评估证据目前主要集中在受控或早期阶段环境中。"
+   ]
+  },
+  "ko": {
+   "title": "SoK: 소프트웨어 개발에서의 포스트 양자 암호화(PQC) 통합: 접근 방식, 격차 및 향후 방향",
+   "summary": "본 논문은 소프트웨어 개발에서의 포스트 양자 암호화 통합에 대한 지식 체계화를 제시합니다. 구현, 마이그레이션, 개발자 교육 전반의 기존 접근 방식을 종합하여 NIST 표준 및 마이그레이션 지침과 비교 분석했습니다. 분석 결과, 기존 연구들은 소프트웨어 개발 생명주기 전반에 걸쳐 연계성이 부족한 지원을 제공하는 것으로 나타났습니다.",
+   "impact": "제한된 평가 증거와 단절된 생명주기 지원으로 인해 보안 팀과 개발자는 운영 준비 상태 확보에 어려움을 겪을 수 있습니다. 이러한 격차를 해소하면 안전한 PQC 통합을 위한 기술적, 개발자 및 조직적 요구사항을 조율하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "PQC 통합은 표준화된 알고리즘 그 이상을 필요로 합니다.",
+    "기존 연구는 소프트웨어 개발 생명주기 전반에 걸쳐 단절된 지원을 보여줍니다.",
+    "평가 증거는 현재 통제되거나 초기 단계의 환경에 집중되어 있습니다."
+   ]
+  }
+ }
+}

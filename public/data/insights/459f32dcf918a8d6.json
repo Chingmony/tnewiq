@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "459f32dcf918a8d6",
+ "contentHash": "5c848d0e5a26a6be",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T20:24:32.224Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness",
+   "summary": "This research paper studies the dynamics of deterministic Gradient Descent in Adversarial Training using large constant step sizes. It examines adversarial linear logistic regression, focusing on implicit bias and optimization, and investigates loss sharpness evolution during neural network training. The findings highlight three key differences between Adversarial Training and Standard Training when using large step sizes.",
+   "impact": "These insights could help developers and researchers better understand model robustness and training dynamics when using large step sizes in Adversarial Training, potentially informing future optimization practices.",
+   "keyPoints": [
+    "Studies deterministic Gradient Descent dynamics in Adversarial Training with large constant step sizes.",
+    "Examines implicit bias and optimization in adversarial linear logistic regression.",
+    "Highlights that the implicit bias gap between Adversarial Training and Standard Training persists for arbitrarily large constant step sizes.",
+    "Shows that sharpness can exhibit two-stage dynamics differing from standard Edge-of-Stability behavior."
+   ]
+  },
+  "km": {
+   "title": "ការបណ្តុះបណ្តាល Adversarial Training ជាមួយទំហំជំហានធំ៖ លំអៀងបង្កប់ ការធ្វើឱ្យប្រសើរ និងភាពច្បាស់",
+   "summary": "ឯកសារស្រាវជ្រាវនេះសិក្សាអំពីសក្ដានុពលនៃការប្រើប្រាស់ Gradient Descent ក្នុង Adversarial Training ជាមួយទំហំជំហានធំថេរ។ ការសិក្សានេះពិនិត្យមើលទៅលើគំរូ linear logistic regression និងការវិវត្តនៃភាពច្បាស់នៃកំហុសក្នុងអំឡុងពេលបណ្តុះបណ្តាលបណ្តាញប្រសាយ។ លទ្ធផលបានបង្ហាញពីភាពខុសគ្នាសំខាន់ៗចំនួនបីធៀបនឹង Standard Training។",
+   "impact": "ការយល់ដឹងទាំងនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខឱ្យយល់កាន់តែច្បាស់អំពីភាពរឹងមាំរបស់គំរូនៅពេលប្រើប្រាស់ទំហំជំហានធំ។",
+   "keyPoints": [
+    "សិក្សាសក្ដានុពល Gradient Descent ក្នុង Adversarial Training ជាមួយទំហំជំហានធំថេរ។",
+    "ពិនិត្យមើលលំអៀងបង្កប់ និងការធ្វើឱ្យប្រសើរក្នុងការថយចុះការខាតបង់។",
+    "បង្ហាញពីគម្លាតលំអៀងបង្កប់រវាង Adversarial Training និង Standard Training។"
+   ]
+  },
+  "zh-CN": {
+   "title": "大步长对抗训练：隐式偏差、优化与尖锐度",
+   "summary": "该研究论文探讨了对抗训练中使用大常数步长的确定性梯度下降动力学。文章研究了对抗线性逻辑回归中的隐式偏差与优化，并考察了神经网络训练期间损失尖锐度的演变。研究结果突出了大步长下对抗训练与标准训练的三大关键差异。",
+   "impact": "这些发现可能有助于开发人员和安全团队更好地理解在使用大步长进行对抗训练时的模型鲁棒性与训练行为。",
+   "keyPoints": [
+    "研究了大常数步长下对抗训练中的确定性梯度下降动力学。",
+    "分析了对抗线性逻辑回归中的隐式偏差和优化速度。",
+    "指出对抗训练与标准训练之间的隐式偏差差距在任意大常数步长下仍然存在。",
+    "表明尖锐度可能表现出与标准训练不同的两阶段动力学行为。"
+   ]
+  },
+  "ko": {
+   "title": "큰 스텝 사이즈를 사용한 적대적 훈련: 암묵적 편향, 최적화 및 선명도",
+   "summary": "본 연구 논문은 큰 상수의 스텝 사이즈를 사용하는 적대적 훈련에서의 결정론적 경사 하강법 동역학을 연구합니다. 적대적 선형 로지스틱 회귀에서의 암묵적 편향과 최적화를 조사하고, 신경망 훈련 중 손실 선명도의 진화를 분석합니다. 연구 결과는 표준 훈련과의 세 가지 주요 차이점을 강조합니다.",
+   "impact": "이러한 통찰력은 개발자와 보안 팀이 적대적 훈련에서 큰 스텝 사이즈를 사용할 때 모델의 견고성과 훈련 동작을 더 잘 이해하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "큰 상수 스텝 사이즈를 가진 적대적 훈련의 결정론적 경사 하강법 동역학 연구",
+    "적대적 선형 로지스틱 회귀에서의 암묵적 편향과 최적화 조사",
+    "적대적 훈련과 표준 훈련 간의 암묵적 편향 격차가 유지됨을 확인",
+    "선명도가 표준 훈련과 다른 2단계 동역학을 나타낼 수 있음을 규명"
+   ]
+  }
+ }
+}

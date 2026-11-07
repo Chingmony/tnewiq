@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c7e02e653bc2eed2",
+ "contentHash": "fb2911c79215972d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T20:24:54.482Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+   "summary": "Researchers introduce ReproBridge, an agent workflow that creates standardized reproducible artifacts including refined codebases, environment setups, experiment launchers, and reproduction guides. To test this, they developed ReproBridge-Bench, featuring 1,029 tasks from 387 experiments across 36 papers. Evaluating four models showed that using these refined artifacts raised mean reproduction success from 76.4% to 92.6% and reduced downstream API spending by 19.7% on average.",
+   "impact": "This approach could help developers and researchers achieve more reliable experiment reproduction while lowering API costs. It may also help bridge performance gaps between different models when handling machine learning research artifacts.",
+   "keyPoints": [
+    "ReproBridge is an agent workflow designed to construct refined reproducible machine learning artifacts.",
+    "ReproBridge-Bench includes 1,029 tasks from 387 experiments across 36 papers.",
+    "Refined artifacts raised mean reproduction success from 76.4% to 92.6% across four evaluated models.",
+    "Downstream API spending was reduced by an average of 19.7% when using the refined artifacts."
+   ]
+  },
+  "km": {
+   "title": "ReproBridge៖ ការកសាងភាពអាចបង្កើតឡើងវិញបានទៅក្នុងវត្ថុបុរាណនៃការស្រាវជ្រាវ ML",
+   "summary": "អ្នកស្រាវជ្រាវได้ណែនាំ ReproBridge ដែលជាលំហូរការងារភ្នាក់ងារបង្កើតវត្ថុបុរាណស្តង់ដារដែលបង្កើតឡើងវិញបាន រួមមានកូដដែលបានកែលម្អ ការរៀបចំ môi trường ឧបករណ៍បើកដំណើរការ និងមគ្គុទេសក៍។ ការធ្វើតេស្តជាមួយ ReproBridge-Bench បានបង្ហាញថា វត្ថុបុរាណដែលបានកែលម្អបានដំឡើងអត្រាជោគជ័យពី 76.4% ដល់ 92.6%។ វាក៏បានកាត់បន្ថយការចំណាយ API ចុះ ១៩.៧% ជាមធ្យមផងដែរ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍និងអ្នកស្រាវជ្រាវទទួលបានជោគជ័យខ្ពស់ក្នុងការបង្កើតការពិសោធន៍ឡើងវិញ និងកាត់បន្ថយការចំណាយ API។",
+   "keyPoints": [
+    "ReproBridge គឺជាលំហូរការងារភ្នាក់ងារសម្រាប់កសាងវត្ថុបុរាណ ML ដែលអាចបង្កើតឡើងវិញបាន។",
+    "ReproBridge-Bench ផ្តល់នូវភារកិច្ច ១០២៩ ពីការពិសោធន៍ ៣៨៧ ក្នុងឯកសារស្រាវជ្រាវចំនួន ៣៦។",
+    "វត្ថុបុរាណដែលបានកែលម្អបានដំឡើងអត្រាជោគជ័យមធ្យមពី 76.4% ដល់ 92.6%។",
+    "ការចំណាយ API ក្រោមការសិក្សាត្រូវបានកាត់បន្ថយ ១៩.៧% ជាមធ្យម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "ReproBridge：将可重复性构建到机器学习研究产物中",
+   "summary": "研究人员介绍了 ReproBridge，这是一个用于构建标准化可重复制备产物（包括精炼的代码库、环境设置、实验启动器和复现指南）的智能体工作流。他们同时推出了 ReproBridge-Bench，包含来自36篇论文中387个实验的1,029个任务。评估显示，使用精炼产物将平均复现成功率从76.4%提升至92.6%，并将下游API开销平均减少了19.7%。",
+   "impact": "这种方法可以帮助开发者和研究人员更可靠地复现实验，并降低API使用成本。它还可能缩小不同模型在处理机器学习研究产物时的性能差距。",
+   "keyPoints": [
+    "ReproBridge 是一个构建精炼可重复机器产物的智能体工作流。",
+    "ReproBridge-Bench 包含来自36篇论文的387个实验中的1,029个任务。",
+    "在四个评估模型中，精炼产物将平均复现成功率从76.4%提高到92.6%。",
+    "下游API开销平均减少了19.7%。"
+   ]
+  },
+  "ko": {
+   "title": "ReproBridge: ML 연구 아티팩트에 재현성 구축하기",
+   "summary": "연구진은 정제된 코드베이스, 환경 설정, 실험 런처, 재현 가이드 등 표준화된 아티팩트를 구축하는 에이전트 워크플로우인 ReproBridge를 소개했습니다. 36개 논문의 387개 실험에서 가져온 1,029개의 태스크를 포함하는 ReproBridge-Bench도 함께 도입되었습니다. 4개의 모델을 평가한 결과, 정제된 아티팩트는 평균 재현 성공률을 76.4%에서 92.6%로 높였으며 다운스트림 API 비용을 평균 19.7% 줄였습니다.",
+   "impact": "이 접근 방식은 개발자와 연구자가 더 안정적으로 실험을 재현하고 API 비용을 절감하는 데 도움을 줄 수 있습니다. 또한 머신러닝 연구 아티팩트를 다룰 때 모델 간 성능 격차를 줄이는 데 기여할 수 있습니다.",
+   "keyPoints": [
+    "ReproBridge는 정제된 재현 가능한 머신러닝 아티팩트를 구축하기 위한 에이전트 워크플로우입니다.",
+    "ReproBridge-Bench는 36개 논문의 387개 실험에서 파생된 1,029개의 태스크를 제공합니다.",
+    "평가된 4개 모델에서 정제된 아티팩트는 평균 재현 성공률을 76.4%에서 92.6%로 끌어올렸습니다.",
+    "정제된 아티팩트를 사용했을 때 다운스트림 API 비용이 평균 19.7% 감소했습니다."
+   ]
+  }
+ }
+}

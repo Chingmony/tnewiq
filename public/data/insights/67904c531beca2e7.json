@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "67904c531beca2e7",
+ "contentHash": "3a191d145bdf7945",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T20:22:58.850Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Network Load Balancer is now available in the AWS Phoenix Local Zone",
+   "summary": "AWS Network Load Balancer is now available in the Phoenix Local Zone (us-west-2-phx-2a). Users can now create an AWS Network Load Balancer directly within the Phoenix Local Zone. Previously, targets running in the Phoenix Local Zone required placing the load balancer in a parent Region Availability Zone.",
+   "impact": "This capability allows connection routing to stay local to targets, which could deliver lower and more consistent latency for end users in the Phoenix metro area by keeping traffic within the Local Zone.",
+   "keyPoints": [
+    "AWS Network Load Balancer is available in the Phoenix Local Zone (us-west-2-phx-2a).",
+    "Previously, traffic had to travel to the parent Region and back for targets running in the Phoenix Local Zone.",
+    "Connection routing now stays local to targets, reducing latency for latency-sensitive workloads like real-time gaming and media streaming."
+   ]
+  },
+  "km": {
+   "title": "AWS Network Load Balancer ឥឡូវនេះមាននៅលើ AWS Phoenix Local Zone ហើយ",
+   "summary": "AWS Network Load Balancer ឥឡូវនេះមាននៅលើ Phoenix Local Zone (us-west-2-phx-2a) ហើយ។ អ្នកប្រើប្រាស់អាចបង្កើត AWS Network Load Balancer ដោយផ្ទាល់នៅក្នុង Phoenix Local Zone។ មុនពេលការដាក់ឱ្យដំណើរការនេះ ប្រសិនបើគោលដៅដំណើរការក្នុង Phoenix Local Zone គឺត្រូវដាក់ load balancer នៅក្នុង Availability Zone ក្នុងតំបន់មេ។",
+   "impact": "ការផ្លាស់ប្តូរនេះរក្សាការបញ្ជូនបន្តការតភ្ជាប់ក្នុងតំបន់សម្រាប់គោលដៅ ដែលអាចផ្តល់នូវភាពយឺតយ៉ាវទាប និងជាប់លាប់ជាងមុនសម្រាប់អ្នកប្រើប្រាស់ចុងក្រោយ។",
+   "keyPoints": [
+    "AWS Network Load Balancer មាននៅលើ Phoenix Local Zone (us-west-2-phx-2a)។",
+    "កាលពីមុន ចរាចរណ៍ត្រូវធ្វើដំណើរទៅតំបន់មេ និងត្រឡប់មកវិញ។",
+    "ការបញ្ជូនបន្តការតភ្ជាប់ឥឡូវនេះនៅតែស្ថិតក្នុងមូលដ្ឋានសម្រាប់គោលដៅរបស់អ្នក។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Network Load Balancer 现已在 AWS Phoenix Local Zone 可用",
+   "summary": "AWS Network Load Balancer 现已在 Phoenix Local Zone (us-west-2-phx-2a) 可用。用户现在可以直接在 Phoenix Local Zone 中创建 AWS Network Load Balancer。此前，如果目标在 Phoenix Local Zone 中运行，则必须将负载均衡器放置在父区域的可用区中。",
+   "impact": "此功能使连接路由能够保留在本地目标的范围内，这可以通过将流量保持在 Local Zone 内，为 Phoenix 地区的最终用户提供更低且更一致的延迟。",
+   "keyPoints": [
+    "AWS Network Load Balancer 现已在 Phoenix Local Zone (us-west-2-phx-2a) 提供。",
+    "以前在 Phoenix Local Zone 运行目标时，流量必须传输到父区域再返回。",
+    "连接路由现在保留在本地，对实时游戏和媒体流等延迟敏感的工作负载特别有价值。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Phoenix Local Zone에서 AWS Network Load Balancer 사용 가능",
+   "summary": "AWS Network Load Balancer가 이제 Phoenix Local Zone(us-west-2-phx-2a)에서 제공됩니다. 이제 사용자는 Phoenix Local Zone 내에서 직접 AWS Network Load Balancer를 생성할 수 있습니다. 이전에는 Phoenix Local Zone에서 대상이 실행되는 경우 상위 리전의 가용 영역에 로드 밸런서를 배치해야 했습니다.",
+   "impact": "이 기능은 연결 라우팅을 대상 지역에 로컬로 유지하여 트래픽이 Local Zone 내에 머물도록 하므로, Phoenix 지역의 최종 사용자에게 더 낮고 일관된 지연 시간을 제공할 수 있습니다.",
+   "keyPoints": [
+    "AWS Network Load Balancer가 Phoenix Local Zone(us-west-2-phx-2a)에 출시되었습니다.",
+    "이전에는 Phoenix Local Zone에서 실행되는 대상의 트래픽이 상위 리전으로 이동해야 했습니다.",
+    "연결 라우팅이 대상에 로컬로 유지되어 실시간 게임 및 미디어 스트리밍과 같은 지연 시간에 민감한 워크로드에 유용합니다."
+   ]
+  }
+ }
+}
