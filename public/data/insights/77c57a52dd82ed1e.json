@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "77c57a52dd82ed1e",
+ "contentHash": "0fe335d31c158150",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T15:44:29.192Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "State propaganda in some Chinese AI models is only \"a thin layer\" that fine-tuning can strip away",
+   "summary": "Nous Research retrained Alibaba's Qwen3.8-27B to create Arete-27B, successfully removing most of its pro-Chinese bias. Using 53 million tokens of supervised fine-tuning, the team reduced the propaganda rate from 22 percent to under one percent. Testing showed that general capabilities of the model remained intact.",
+   "impact": "This method could show developers and security teams that political biases in large language models may be easily altered or removed through fine-tuning. Technology users might see more adaptable models, though results could depend on how the bias was initially applied.",
+   "keyPoints": [
+    "Nous Research retrained Alibaba's Qwen3.8-27B into Arete-27B.",
+    "The propaganda rate dropped from 22 percent to under one percent.",
+    "The process used 53 million tokens of supervised fine-tuning.",
+    "General model capabilities remained intact during testing."
+   ]
+  },
+  "km": {
+   "title": "ការឃោសនារបស់រដ្ឋនៅក្នុងម៉ូឌែល AI ចិនមួយចំនួនគ្រាន់តែជា «ស្រទាប់ស្តើងមួយ» ដែលការកែសម្រួលលម្អិតអាចកម្ចាត់ចោលបាន",
+   "summary": "Nous Research បានហ្វឹកហាត់ម៉ូឌែល Qwen3.8-27B របស់ Alibaba ឡើងវិញដើម្បីបង្កើតជា Arete-27B ដោយបានលុបបំបាត់ភាពលម្អៀងគាំទ្រចិនភាគច្រើនចេញ។ តាមរយៈការប្រើប្រាស់ token ចំនួន 53 លានសម្រាប់ការកែសម្រួលលម្អិត អត្រាឃោសនាបានធ្លាក់ចុះពី 22ភាគរយ មកសល់តិចជាងមួយភាគរយ។ ការធ្វើតេស្តបានបង្ហាញថា សមត្ថភាពទូទៅរបស់ម៉ូឌែលនៅតែដំណើរការធម្មតាដដែល។",
+   "impact": "វិធីសាស្ត្រនេះអាចបង្ហាញដល់អ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខថា ភាពលម្អៀងផ្នែកនយោបាយនៅក្នុងម៉ូឌែលភាសាខ្នាតធំអាចត្រូវបានកែប្រែ ឬលុបចេញយ៉ាងងាយស្រួលតាមរយៈការកែសម្រួលលម្អិត។",
+   "keyPoints": [
+    "Nous Research បានបង្កើត Arete-27B ពី Qwen3.8-27B របស់ Alibaba។",
+    "អត្រាឃោសនាបានធ្លាក់ចុះពី 22ភាគរយ មកសល់តិចជាងមួយភាគរយ។",
+    "ដំណើរការនេះបានប្រើប្រាស់ token ចំនួន 53 លាន។",
+    "សមត្ថភាពទូទៅរបស់ម៉ូឌែលមិនត្រូវបានប៉ះពាល់ទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "某些中国AI模型中的国家宣传只是“薄薄的一层”，可以通过微调剥离",
+   "summary": "Nous Research 重新训练了 Alibaba 的 Qwen3.8-27B 模型以产生 Arete-27B，在很大程度上剥离了其亲中国的偏见。通过 5300 万个 token 的监督微调，宣传率从 22% 降至不到 1%，同时测试显示其通用能力保持不变。",
+   "impact": "这种方法向开发者和安全团队表明，大语言模型中的政治偏见可能通过微调轻松消除。技术用户可能会看到适应性更强的模型，但具体结果可能取决于偏见最初的应用方式。",
+   "keyPoints": [
+    "Nous Research 将 Alibaba 的 Qwen3.8-27B 重新训练为 Arete-27B。",
+    "宣传率从 22% 降至不到 1%。",
+    "该方法依赖于 5300 万个 token 的监督微调。",
+    "测试中模型的通用能力保持完好。"
+   ]
+  },
+  "ko": {
+   "title": "일부 중국 AI 모델의 국가 선전은 미세조정을 통해 벗겨낼 수 있는 \"얇은 층\"에 불과하다",
+   "summary": "Nous Research는 Alibaba의 Qwen3.8-27B를 재학습하여 Arete-27B를 만들고 친중국 편향을 대부분 제거했습니다. 5,300만 개의 토큰을 사용한 지도 미세조정을 통해 선전 비율은 22퍼센트에서 1퍼센트 미만으로 떨어졌으며, 테스트에서 일반적인 기능은 그대로 유지되었습니다.",
+   "impact": "이러한 방법은 대규모 언어 모델의 정치적 편향이 미세조정을 통해 쉽게 수정되거나 제거될 수 있음을 개발자와 보안 팀에 보여줄 수 있습니다. 기술 사용자들은 더 유연한 모델을 접할 수 있게 될 수 있습니다.",
+   "keyPoints": [
+    "Nous Research는 Alibaba의 Qwen3.8-27B를 Arete-27B로 재학습했습니다.",
+    "선전 비율이 22퍼센트에서 1퍼센트 미만으로 감소했습니다.",
+    "5,300만 개의 토큰을 활용한 지도 미세조정을 사용했습니다.",
+    "테스트 중 모델의 일반적인 기능은 손상되지 않고 유지되었습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a90e8222e922a30d",
+ "contentHash": "fe48f966efea3bb3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T15:50:15.342Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Docker Sandboxes vs. Containers: Choosing the Right Isolation for AI Agents",
+   "summary": "Docker has introduced Docker Sandboxes, distinguishing them from traditional containers. While containers are isolated processes sharing the host kernel, Docker Sandboxes are dedicated microVMs featuring their own Linux kernel, filesystem, network, and Docker Engine. They are specifically designed for autonomous AI coding agents that require a full development machine, sudo access, and long-lived state. Containers remain the ideal choice for packaged applications, CI jobs, and short-lived execution.",
+   "impact": "Security teams and developers may find that using microVM-based sandboxes rather than standard containers helps limit the potential impact of an autonomous agent's unintended actions or unvetted inputs. Choosing the correct isolation boundary could prevent an agent from affecting the host system or other workloads.",
+   "keyPoints": [
+    "Containers are isolated processes that share the host kernel.",
+    "Docker Sandboxes are dedicated microVMs with their own kernel, filesystem, network, and Docker Engine.",
+    "Containers remain ideal for packaged applications and short-lived tasks.",
+    "Docker Sandboxes are built for autonomous coding agents that require a full machine and sudo access."
+   ]
+  },
+  "km": {
+   "title": "Docker Sandboxes និង Containers: ការជ្រើសរើសការញែកដ៏ត្រឹមត្រូវសម្រាប់ AI Agents",
+   "summary": "Docker បានណែនាំ Docker Sandboxes ដែលមានភាពខុសគ្នាពី containers បែបប្រពៃណី។ Containers គឺជាដំណើរការដែលបានញែកចេញពីគ្នា ប៉ុន្តែប្រើប្រាស់ kernel របស់ម៉ាស៊ីនមេដូចគ្នា ចំណែកឯ Docker Sandboxes គឺជា microVMs ដាច់ដោយឡែកដែលមាន Linux kernel ផ្ទាល់ខ្លួន ប្រព័ន្ធឯកសារ បណ្តាញ និង Docker Engine។ ពួកវាត្រូវបានបង្កើតឡើងជាពិសេសសម្រាប់ AI coding agents ដែលត្រូវការម៉ាស៊ីនអភិវឌ្ឍន៍ពេញលេញ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចនឹងឃើញថាការប្រើប្រាស់ sandboxes ដែលផ្អែកលើ microVM ជួយកាត់បន្ថយហានិភ័យពីសកម្មភាពដែលអចេតនារបស់ agents។ ការជ្រើសរើសព្រំដែននៃការញែកដ៏ត្រឹមត្រូវអាចជួយការពារប្រព័ន្ធពីកំហុសរបស់ agents បាន។",
+   "keyPoints": [
+    "Container គឺជាដំណើរការដាច់ដោយឡែកដែលប្រើប្រាស់ kernel ជាមួយម៉ាស៊ីនមេ។",
+    "Docker Sandboxes គឺជា microVMs ដែលមាន kernel និងប្រព័ន្ធផ្ទាល់ខ្លួន។",
+    "Container នៅតែជាជម្រើសល្អសម្រាប់កម្មវិធីដែលបានខ្ចប់រួចនិងកិច្ចការរយៈពេលខ្លី។",
+    "Docker Sandboxes គឺសម្រាប់ autonomous agents ដែលត្រូវការម៉ាស៊ីនពេញលេញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Docker Sandboxes 与 Containers：为 AI Agents 选择正确的隔离方式",
+   "summary": "Docker 推出了 Docker Sandboxes，并将其与传统 containers 进行了区分。Container 是共享主机内核的隔离进程，而 Docker Sandboxes 则是拥有独立 Linux kernel、文件系统、网络和 Docker Engine 的专用 microVM。它们专为需要完整开发环境的自主 AI 编码 agents 而构建。",
+   "impact": "安全团队和开发人员可能会发现，使用基于 microVM 的沙箱而不是标准容器，有助于限制自主 agent 意外操作或未经审查指令带来的潜在风险。选择正确的隔离边界可以防止 agent 影响主机系统。",
+   "keyPoints": [
+    "Container 是共享主机内核的隔离进程。",
+    "Docker Sandboxes 是拥有独立内核、文件系统、网络和 Docker Engine 的专用 microVM。",
+    "Container 依然是打包应用程序和短期任务的理想选择。",
+    "Docker Sandboxes 专为需要完整机器权限的自主编码 agents 设计。"
+   ]
+  },
+  "ko": {
+   "title": "Docker Sandboxes 대 Containers: AI 에이전트를 위한 올바른 격리 방식 선택",
+   "summary": "Docker는 기존 컨테이너와 구별되는 Docker Sandboxes를 소개했습니다. 컨테이너는 호스트 커널을 공유하는 격리된 프로세스인 반면, Docker Sandboxes는 자체 Linux kernel, 파일 시스템, 네트워크 및 Docker Engine을 갖춘 전용 microVM입니다. 이들은 전체 개발 환경이 필요한 자율형 AI 코딩 에이전트를 위해 특별히 구축되었습니다.",
+   "impact": "보안 팀과 개발자는 표준 컨테이너 대신 microVM 기반 샌드박스를 사용하여 자율 에이전트의 잠재적인 실수나 검증되지 않은 입력으로부터 시스템을 보호할 수 있습니다. 올바른 격리 경계를 선택하면 에이전트의 영향 범위를 제한하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "컨테이너는 호스트 커널을 공유하는 격리된 프로세스입니다.",
+    "Docker Sandboxes는 자체 커널, 파일 시스템, 네트워크 및 Docker Engine을 가진 전용 microVM입니다.",
+    "컨테이너는 패키징된 애플리케이션과 단기 실행 작업에 적합합니다.",
+    "Docker Sandboxes는 전체 머신이 필요한 자율 코딩 에이전트를 위해 설계되었습니다."
+   ]
+  }
+ }
+}

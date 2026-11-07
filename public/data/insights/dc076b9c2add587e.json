@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "dc076b9c2add587e",
+ "contentHash": "39197e6a32ee5193",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T15:45:21.626Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Google's AI detects high blood pressure from a regular smartwatch without a cuff",
+   "summary": "Google Research has developed an artificial intelligence model that identifies signs of high blood pressure using only the pulse and motion sensors in a standard smartwatch, eliminating the need for a traditional cuff. In a study of 196 people, the AI achieved a 65.8 percent detection rate, outperforming traditional in-office measurement. This new feature is already available in the Google Health app, although it does not serve as a replacement for a formal diagnosis.",
+   "impact": "This development may offer users and technology teams a new way to monitor health metrics using existing wearable devices without extra hardware. However, since it is not a formal diagnosis tool, developers and users must consider its limitations when building or relying on health tracking applications.",
+   "keyPoints": [
+    "Google Research built an AI using pulse and motion sensors in a standard smartwatch.",
+    "The study involved 196 people and showed a 65.8 percent detection rate.",
+    "The method outperformed traditional in-office measurement.",
+    "The feature is currently live in the Google Health app but does not replace a formal diagnosis."
+   ]
+  },
+  "km": {
+   "title": "AI របស់ Google រកឃើញសម្ពាធឈាមខ្ពស់ពីនាឡិកាឆ្លាតវៃធម្មតាដោយមិនចាំបាច់ប្រើខ្សែក្រវាត់វាស់",
+   "summary": "Google Research បានបង្កើតបញ្ញាសិប្បនិម្មិតមួយដែលរកឃើញសញ្ញានៃសម្ពាធឈាមខ្ពស់ដោយប្រើតែឧបករណ៍ចាប់សញ្ញាចង្វាក់បេះដូង និងចលនានៅក្នុងនាឡិកាឆ្លាតវៃស្តង់ដារ ដោយមិនចាំបាច់ប្រើខ្សែក្រវាត់វាស់នោះទេ។ នៅក្នុងការសិក្សាលើមនុស្ស ១៩៦នាក់ អត្រាស្វែងរកឃើញរបស់វាមាន ៦៥.៨ភាគរយ ដែលបានវ៉ាដាច់ការវាស់វែងបែបប្រពៃណីនៅក្នុងការិយាល័យ។ វិធីសាស្ត្រនេះមានរួចជាស្រេចនៅក្នុងកម្មវិធី Google Health ទោះបីជាវាមែងជំនួសការវិនិច្ឆ័យផ្លូវការក៏ដោយ។",
+   "impact": "ការអភិវឌ្ឍនេះអាចផ្តល់ឱ្យអ្នកប្រើប្រាស់នូវវិធីសាស្ត្រថ្មីមួយក្នុងការតាមដានសុខភាពដោយប្រើឧបករណ៍ពាក់ដែលមានស្រាប់។ ទោះជាយ៉ាងណាក៏ដោយ ដោយសារតែវាមិនមែនជាការវិនិច្ឆ័យផ្លូវការ អ្នកប្រើប្រាស់គួរតែពិចារណាពីដែនកំណត់របស់វា។",
+   "keyPoints": [
+    "Google Research បានបង្កើត AI ដោយប្រើឧបករណ៍ចាប់សញ្ញាចង្វាក់បេះដូង និងចលនានៅក្នុងនាឡិកាឆ្លាតវៃស្តង់ដារ។",
+    "ការសិក្សានេះពាក់ព័ន្ធនឹងមនុស្ស ១៩៦នាក់ និងបង្ហាញអត្រារកឃើញ ៦៥.៨ភាគរយ។",
+    "វិធីសាស្ត្រនេះបានវ៉ាដាច់ការវាស់វែងបែបប្រពៃណីនៅក្នុងការិយាល័យ។",
+    "មុខងារនេះមាននៅលើកម្មវិធី Google Health ប៉ុន្តែមិនជំនួសការវិនិច្ឆ័យផ្លូវការទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "谷歌人工智能利用普通智能手表在无需袖带的情况下检测高血压",
+   "summary": "谷歌研究部门开发了一种人工智能，仅通过标准智能手表中的脉搏和运动传感器就能发现高血压迹象，无需使用血压袖带。在一项针对196人的研究中，该人工智能取得了65.8%的检测率，超过了传统的诊室测量方法。该方法已经在Google Health应用中上线，不过它并不能替代正式诊断。",
+   "impact": "这一进展可能会为用户提供一种使用现有可穿戴设备监测健康指标的新方法，而无需额外的硬件。然而，由于它不能替代正式诊断，用户在依赖健康追踪应用时可能需要注意其局限性。",
+   "keyPoints": [
+    "谷歌研究使用标准智能手表中的脉搏和运动传感器构建了人工智能。",
+    "该研究涉及196人，检测率为65.8%。",
+    "该方法优于传统的诊室测量。",
+    "该功能已在Google Health应用中上线，但不能替代正式诊断。"
+   ]
+  },
+  "ko": {
+   "title": "구글의 AI, 커프 없이 일반 스마트워치로 고혈압 감지",
+   "summary": "구글 리서치는 커프 없이 표준 스마트워치의 맥박 및 모션 센서만을 사용하여 고혈압 징후를 찾아내는 인공지능을 개발했습니다. 196명을 대상으로 한 연구에서 이 AI는 65.8퍼센트의 감지율을 기록하며 기존의 병원 내 측정 방식을 뛰어넘었습니다. 이 방법은 이미 Google Health 앱에서 라이브 상태로 제공되고 있으며, 공식적인 진단을 대체하지는 않습니다.",
+   "impact": "이번 개발은 사용자가 추가 하드웨어 없이 기존의 웨어러블 기기를 사용하여 건강 지표를 모니터링할 수 있는 새로운 방법을 제공할 수 있습니다. 다만 공식적인 진단을 대체하지 않으므로 사용 시 주의가 필요할 수 있습니다.",
+   "keyPoints": [
+    "구글 리서치는 표준 스마트워치의 맥박 및 모션 센서를 사용하는 AI를 구축했습니다.",
+    "196명을 대상으로 한 연구에서 65.8퍼센트의 감지율을 기록했습니다.",
+    "이 방법은 기존의 병원 내 측정 방식보다 우수한 성능을 보였습니다.",
+    "이 기능은 Google Health 앱에서 제공되지만 공식 진단을 대체하지는 않습니다."
+   ]
+  }
+ }
+}

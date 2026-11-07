@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "de887b36064864c2",
+ "contentHash": "3bfcfd05997a093d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-07T15:46:22.066Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "OpenSSH Severe Bypass Vulnerability Sshole Allows Any Overly Long Password to Log In as Root",
+   "summary": "An account that should never be able to log in can be accessed by entering any password longer than 256 characters. Discovered by Özgün Kültekin and named sshhole, the vulnerability has existed in musl libc for fourteen years since 2012. The discoverer also created a website to explain the details of the bug.",
+   "impact": "This vulnerability could allow unauthorized access to systems using affected software configurations by using long passwords. Security teams may need to check systems for this flaw.",
+   "keyPoints": [
+    "Any password exceeding 256 characters allows login to accounts that should be inaccessible.",
+    "The bug existed in musl libc for 14 years since 2012 before being discovered.",
+    "The vulnerability was discovered by Özgün Kültekin and named sshhole."
+   ]
+  },
+  "km": {
+   "title": "ช่องโหว่บายพาส OpenSSH ធ្ងន់ធ្ងរ sshhole អនុញ្ញាតឱ្យពាក្យសម្ងាត់វែងពេកចូល root បាន",
+   "summary": "គណនីមួយដែលមិនគួរអាចចូលបាន អាចចូលបានតាមរយៈការបញ្ចូលពាក្យសម្ងាត់ណាមួយដែលមានប្រវែងលើសពី ២៥៦ តួអក្សរ។ ช่องโหว่นេះត្រូវបានរកឃើញដោយ Özgün Kültekin និងដាក់ឈ្មោះថា sshhole ដែលមាននៅក្នុង musl libc អស់រយៈពេលដប់បួនឆ្នាំ។",
+   "impact": "វាមិនអាចដឹងមុនច្បាស់ទេ ប៉ុន្តែបញ្ហានេះអាចប៉ះពាល់ដល់ប្រព័ន្ធដែលប្រើប្រាស់កូដមានបញ្ហា ដែលក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍គួរតែយកចិត្តទុកដាក់។",
+   "keyPoints": [
+    "ពាក្យសម្ងាត់លើសពី ២៥៦ តួអក្សរអាចអនុញ្ញាតឱ្យចូលបាន។",
+    "កំហុសនេះមាននៅក្នុង musl libc រយៈពេល ១៤ ឆ្នាំចាប់តាំងពីឆ្នាំ ២០១២។",
+    "រកឃើញដោយ Özgün Kültekin និងមានឈ្មោះថា sshhole ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "OpenSSH 严重绕过漏洞“sshole”让任意超长密码都能登录 root",
+   "summary": "一个本该永远无法登录的账号，只要输入超过 256 个字符的任意密码，就能登录。该漏洞在 musl libc 里存在了十四年，从 2012 年埋下直到 2026 年被发现。发现者 Özgün Kültekin 将其命名为 sshhole 并创建了相关网站。",
+   "impact": "该漏洞可能会带来严重的安全隐患，允许通过超长密码绕过验证机制。安全团队和开发人员需要关注并评估受影响的系统。",
+   "keyPoints": [
+    "输入超过 256 个字符的任意密码即可登录本无法登录的账号。",
+    "该漏洞在 musl libc 中隐藏了十四年之久。",
+    "漏洞由 Özgün Kültekin 发现并被命名为 sshhole。"
+   ]
+  },
+  "ko": {
+   "title": "OpenSSH 심각한 우회 취약점 sshhole로 임의의 초장문 비밀번호를 통한 root 로그인 허용",
+   "summary": "절대 로그인할 수 없어야 하는 계정이 256자가 넘는 임의의 비밀번호를 입력하면 접속할 수 있는 취약점이 발견되었습니다. 이 버그는 musl libc에 2012년부터 14년 동안 잠들어 있다가 발견되었습니다. 발견자 Özgün Kültekin은 이를 sshhole이라 명명했습니다.",
+   "impact": "이 취약점은 시스템 보안에 심각한 영향을 미칠 수 있으며, 개발자와 보안 팀은 관련 소프트웨어의 상태를 점검해야 할 수 있습니다.",
+   "keyPoints": [
+    "256자를 초과하는 임의의 비밀번호로 로그인 가능",
+    "musl libc에 2012년부터 14년 동안 존재했던 버그",
+    "Özgün Kültekin이 발견하고 sshhole로 명명"
+   ]
+  }
+ }
+}
