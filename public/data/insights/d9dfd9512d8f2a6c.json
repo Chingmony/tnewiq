@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d9dfd9512d8f2a6c",
+ "contentHash": "6114c318540b3a42",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T22:58:03.978Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "summary": "Mihail Eric, who teaches at Stanford and leads AI at Monaco, discussed the teaching methods of Stanford's CS146S course. The course incorporates open-source maintainers to review student code where students must learn unfamiliar repositories, propose changes, and explain patches. Eric also shared insights on how his engineering team at Monaco uses agent workspaces, tools, and background agents connected to Datadog and GitHub.",
+   "impact": "This approach to education and tooling could help developers adapt to AI-native workflows where coding agents alter traditional responsibilities and code review bottlenecks.",
+   "keyPoints": [
+    "Stanford's CS146S course brings open-source maintainers to review student code.",
+    "Students learn unfamiliar repositories and propose patches to potential maintainers.",
+    "Monaco uses agent workspaces and gives on-call agents access to Datadog and GitHub.",
+    "The interview covers the ten-week syllabus, agent harnesses, and engineering tool choices."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែលសាកលវិទ្យាល័យ Stanford បង្រៀនវិศวกรรมដើមកំណើត AI — Mihail Eric, Monaco",
+   "summary": "លោក Mihail Eric ដែលបង្រៀននៅសាកលវិទ្យាល័យ Stanford និងដឹកនាំផ្នែក AI នៅ Monaco បានពិភាក្សាអំពីវិធីសាស្ត្របង្រៀនរបស់វគ្គសិក្សា CS146S នៅ Stanford។ វគ្គសិក្សានេះនាំយកអ្នកថែទាំប្រភពបើកចំហដើម្បីពិនិត្យមើលកូដរបស់សិស្ស ដែលសិស្សត្រូវតែសិក្សាកូដមិនធ្លាប់ស្គាល់ ស្នើការកែប្រែ និងពន្យល់ពីបំណះ។ លោកក៏បានចែករំលែកការយល់ដឹងអំពីរបៀបដែលក្រុមវិទ្យាល័យរបស់គាត់ប្រើប្រាស់កន្លែងធ្វើការភ្នាក់ងារ និងឧបករណ៍ផ្សេងៗផងដែរ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍សម្របខ្លួនទៅនឹងដំណើរការការងារដែលជំរុញដោយ AI និងដោះស្រាយបញ្ហាប្រឈមនៃការពិនិត្យកូដ។",
+   "keyPoints": [
+    "វគ្គសិក្សា CS146S របស់ Stanford អញ្ជើញអ្នកថែទាំប្រភពបើកចំហមកពិនិត្យកូដសិស្ស។",
+    "សិស្សត្រូវសិក្សាកូដថ្មី និងស្នើការកែប្រែទៅកាន់អ្នកថែទាំ។",
+    "Monaco ប្រើប្រាស់កន្លែងធ្វើការភ្នាក់ងារ និងផ្តល់សិទ្ធិឱ្យភ្នាក់ងារចូលប្រើ Datadog និង GitHub។"
+   ]
+  },
+  "zh-CN": {
+   "title": "斯坦福如何教授AI原生工程 — Mihail Eric, Monaco",
+   "summary": "在斯坦福大学授课并领导Monaco人工智能工作的Mihail Eric探讨了斯坦福CS146S课程的教学方法。该课程引入了开源维护者来审查学生的代码，学生必须学习不熟悉的存储库、提出更改并向可能合并代码的人解释补丁。Eric还分享了关于其工程团队如何使用代理工作区以及连接到Datadog和GitHub的后台代理的见解。",
+   "impact": "这种教育和工具使用方法可能有助于开发人员适应AI原生工作流程，并应对代码审查瓶颈带来的挑战。",
+   "keyPoints": [
+    "斯坦福的CS146S课程邀请开源维护者审查学生的代码。",
+    "学生需要学习不熟悉的存储库并向维护者提出补丁。",
+    "Monaco使用代理工作区并为值班代理提供Datadog和GitHub的访问权限。"
+   ]
+  },
+  "ko": {
+   "title": "스탠퍼드가 AI 네이티브 엔지니어링을 가르치는 방법 — Mihail Eric, Monaco",
+   "summary": "스탠퍼드에서 강의하고 Monaco에서 AI를 이끄는 Mihail Eric은 스탠퍼드의 CS146S 과정의 교육 방법에 대해 논의했습니다. 이 과정은 오픈소스 메인테이너를 초청하여 학생 코드를 검토하게 하며, 학생들은 낯선 저장소를 배우고 변경 사항을 제안하며 패치를 설명해야 합니다. Eric은 또한 Monaco의 엔지니어링 팀이 에이전트 작업 공간과 Datadog 및 GitHub에 연결된 백그라운드 에이전트를 사용하는 방식에 대한 통찰력을 공유했습니다.",
+   "impact": "이러한 교육 및 도구 접근 방식은 개발자들이 AI 네이티브 워크플로에 적응하고 코드 검토 병목 현상을 해결하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "스탠퍼드의 CS146S 과정은 오픈소스 메인테이너가 학생 코드를 검토하도록 합니다.",
+    "학생들은 낯선 저장소를 학습하고 메인테이너에게 패치를 제안합니다.",
+    "Monaco는 에이전트 작업 공간을 사용하며 온콜 에이전트에 Datadog 및 GitHub 액세스 권한을 부여합니다."
+   ]
+  }
+ }
+}

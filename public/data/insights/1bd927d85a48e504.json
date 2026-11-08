@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1bd927d85a48e504",
+ "contentHash": "d13ea73baf1934db",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T23:02:27.252Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+   "summary": "A critical security finding can travel through multiple tools yet still leave an organization exposed. While severity scores and support tickets exist, progress often stalls due to missing context such as system ownership, reachability, protections, and business impact. Each missing detail creates blind spots in the remediation process.",
+   "impact": "Security teams may face delays in resolving vulnerabilities if their exposure management platforms lack critical context. Understanding these missing details could help organizations improve remediation workflows.",
+   "keyPoints": [
+    "Critical findings can move through security tools while the organization remains exposed.",
+    "Progress often depends on missing information like system ownership and attacker reachability.",
+    "Details regarding existing protections and business impact are frequently absent."
+   ]
+  },
+  "km": {
+   "title": "តើប្រព័ន្ធគ្រប់គ្រងការតាំងបង្ហាញរបស់អ្នកកំពុងធ្វើឱ្យអ្នកប្រឈមដែរឬទេ? ការធ្វើតេស្តចំនួនប្រាំដើម្បីស្វែងយល់",
+   "summary": "ការរកឃើញអំពីសុវត្ថិភាពដ៏សំខាន់មួយអាចឆ្លងកាត់ឧបករណ៍សុវត្ថិភាពជាច្រើន ប៉ុន្តែនៅតែធ្វើឱ្យស្ថាប័នប្រឈមមុខដដែល។ បញ្ហានេះកើតឡើងដោយសារការខ្វះខាតព័ត៌មានសំខាន់ៗដូចជាម្ចាស់ប្រព័ន្ធលទ្ធភាពដែលអ្នកវាយប្រហារអាចចូលដល់ និងការប៉ះពាល់ដល់អាជីវកម្ម។ បរិបទដែលបាត់បង់នីមួយៗបង្កើតឱ្យមានការលំបាកក្នុងការដោះស្រាយ។",
+   "impact": "ក្រុមសន្តិសុខអាចប្រឈមនឹងការពន្យារពេលក្នុងការដោះស្រាយភាពខ្សោយ ប្រសិនបើប្រព័ន្ធគ្រប់គ្រងការតាំងបង្ហាញរបស់ពួកគេខ្វះបរិបទសំខាន់ៗ។",
+   "keyPoints": [
+    "ការរកឃើញដ៏សំខាន់អាចធ្វើដំណើរឆ្លងកាត់ឧបករណ៍សុវត្ថិភាពខណៈដែលស្ថាប័ននៅតែប្រឈម។",
+    "ដំណើរការជារឿយៗអាស្រ័យលើព័ត៌មានដែលបាត់បង់ដូចជាម្ចាស់ប្រព័ន្ធនិងការចូលដល់របស់អ្នកវាយប្រហារ។",
+    "ព័ត៌មានលម្អិតទាក់ទងនឹងការការពារដែលមានស្រាប់និងផលប៉ះពាល់អាជីវកម្មច្រើនតែខ្វះខាត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "您的暴露管理平台是否让您处于暴露状态？五项测试助您了解",
+   "summary": "一个关键的安全发现可能会穿过多个安全工具，但仍然让组织处于暴露状态。尽管存在严重性评分和支持工单，但由于缺乏系统所有者、攻击者是否能够触及、现有保护措施以及业务影响等信息，处理进展往往会停滞不前。每一个缺失的细节都会造成盲区。",
+   "impact": "如果暴露管理平台缺乏关键上下文，安全团队在解决漏洞时可能会面临延迟。了解这些缺失的细节可能有助于组织改善修复工作流。",
+   "keyPoints": [
+    "关键发现可以在穿过安全工具的同时让组织保持暴露状态。",
+    "处理进展通常取决于系统所有者和攻击者可达性等缺失信息。",
+    "有关现有保护和业务影响的详细信息经常缺失。"
+   ]
+  },
+  "ko": {
+   "title": "노출 관리 플랫폼이 취약한 상태로 방치하고 있는가? 이를 확인하는 다섯 가지 테스트",
+   "summary": "중요한 보안 발견 사항이 여러 보안 도구를 거쳐 이동하더라도 조직은 여전히 노출된 상태로 남을 수 있습니다. 심각도 점수와 티켓이 존재하지만, 시스템 소유자, 공격자의 도달 가능성, 존재하는 보호 장치, 비즈니스에 미치는 영향 등 누락된 정보로 인해 조치가 지연됩니다. 누락된 세부 정보는 복구 과정에 영향을 미칩니다.",
+   "impact": "보안 팀은 노출 관리 플랫폼에 중요한 문맥이 부족할 경우 취약점 해결에 지연을 겪을 수 있습니다. 이러한 누락된 세부 정보를 파악하면 조직이 대응 워크플로우를 개선하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "중요한 발견 사항이 보안 도구를 거쳐도 조직은 노출 상태로 남을 수 있습니다.",
+    "진행 상황은 시스템 소유권 및 공격자 도달 가능성과 같은 누락된 정보에 따라 달라집니다.",
+    "기존 보호 장치 및 비즈니스 영향에 대한 세부 정보가 자주 누락됩니다."
+   ]
+  }
+ }
+}

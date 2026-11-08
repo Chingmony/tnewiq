@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e82b458d986cbc12",
+ "contentHash": "1ced7391c8e515d6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T23:04:00.806Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "CANMentor: A Large-Small Model Collaboration Framework for CAN Bus Intrusion Detection",
+   "summary": "Researchers propose CANMentor, a large-small model collaboration framework designed for Controller Area Network bus intrusion detection. The framework uses a cloud-side large language model teacher to supervise vehicle-side lightweight intrusion detection systems through privacy-aware proxies and periodic knowledge distillation. This approach aims to address resource and latency constraints while avoiding the direct exposure of sensitive vehicle information.",
+   "impact": "Security teams and developers working on connected vehicle systems could use this framework to improve intrusion detection performance without compromising data privacy or exceeding vehicle latency limits. The method may help lightweight models overcome performance degradation caused by non-IID data distributions.",
+   "keyPoints": [
+    "CANMentor uses a cloud-side LLM teacher to supervise vehicle-side lightweight IDS models.",
+    "A privacy-aware generator creates proxies from original CAN messages to protect vehicle data sent to the cloud.",
+    "Knowledge distillation yielded maximum relative Macro F1 improvements of 25.01% on the ROAD dataset and 20.79% on the HCRL Car-Hacking dataset.",
+    "Teacher predictions improved detection accuracy near the local decision boundary by 38.71 to 42.00 percentage points."
+   ]
+  },
+  "km": {
+   "title": "CANMentor៖ ក្របខ័ណ្ឌសហការម៉ូដែលធំ-តូចសម្រាប់រកឃើញការឈ្លានពានលើ CAN Bus",
+   "summary": "អ្នកស្រាវជ្រាវได้ស្នើឡើងនូវ CANMentor ដែលជាក្របខ័ណ្ឌសហការម៉ូដែលធំនិងតូចសម្រាប់រកឃើញការឈ្លានពានលើប្រព័ន្ធ CAN bus។ ក្របខ័ណ្ឌនេះប្រើប្រាស់ម៉ូដែលភាសាខ្នាតធំនៅផ្នែកពពកដើម្បីគ្រប់គ្រងម៉ូដែលរកឃើញការឈ្លានពានទម្ងន់ស្រាលនៅផ្នែកយានយន្ត។ វាជួយការពារភាពឯកជននៃទិន្នន័យខណៈពេលដែលដោះស្រាយបញ្ហាធនធាននិងភាពយឺតយ៉ាវ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់ក្របខ័ណ្ឌនេះដើម្បីកែលម្អការរកឃើញការឈ្លានពានដោយមិនប៉ះពាល់ដល់ភាពឯកជនទិន្នន័យយានយន្តឬកំណត់ម៉ោងយឺតយ៉ាវ។ វិធីសាស្ត្រនេះអាចជួយឱ្យម៉ូដែលទម្ងន់ស្រាលយកឈ្នះលើការធ្លាក់ចុះសមត្ថភាពពីទិន្នន័យ non-IID។",
+   "keyPoints": [
+    "CANMentor ប្រើប្រាស់គ្រូបង្រៀនជា LLM នៅលើពពកដើម្បីគ្រប់គ្រងម៉ូដែល IDS នៅលើយានយន្ត។",
+    "ម៉ាស៊ីនបង្កើតការការពារភាពឯកជនបង្កើតប្រូហ្ស៊ីពីសារ CAN ដើមដើម្បីការពារទិន្នន័យ។",
+    "ការចម្រាញ់ចំណេះដឹងបានផ្តល់នូវការកើនឡើង Macro F1 អតិបរមា 25.01% និង 20.79% លើទិន្នន័យ ROAD និង HCRL Car-Hacking។",
+    "ការព្យាករណ៍របស់គ្រូបង្រៀនបានធ្វើឱ្យប្រសើរឡើងនូវភាពត្រឹមត្រូវនៃការរកឃើញជិតព្រំដែនសម្រេចចិត្តក្នុងរង្វង់ 38.71 ដល់ 42.00 ភាគរយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "CANMentor：用于CAN总线入侵检测的大小模型协作框架",
+   "summary": "研究人员提出了CANMentor，这是一个用于CAN总线入侵检测的大小模型协作框架。该框架利用云端大语言模型教师来监督车载轻量级入侵检测系统，通过隐私感知生成器和定期知识蒸馏来保护车辆数据隐私。此方法旨在解决资源和延迟限制，同时避免暴露敏感的车辆信息。",
+   "impact": "致力于车联网系统的安全团队和开发人员可以利用该框架来提高入侵检测性能，而不会损害数据隐私或超出车辆延迟限制。该方法可能帮助轻量级模型克服由非独立同分布数据引起性能下降的问题。",
+   "keyPoints": [
+    "CANMentor使用云端大语言模型教师来监督车载轻量级IDS模型。",
+    "隐私感知生成器从原始CAN消息中生成代理，以保护发送到云端的车辆数据。",
+    "知识蒸馏在ROAD数据集和HC_RL Car-Hacking数据集上分别带来了最高25.01%和20.79%的Macro F1相对提升。",
+    "教师预测使本地决策边界附近的检测准确率提高了38.71至42.00个百分点。"
+   ]
+  },
+  "ko": {
+   "title": "CANMentor: CAN 버스 침입 탐지를 위한 대소 모델 협업 프레임워크",
+   "summary": "연구원들은 CAN 버스 침입 탐지를 위한 대소 모델 협업 프레임워크인 CANMentor를 제안했습니다. 이 프레임워크는 클라우드 기반 대형 언어 모델 교사를 사용하여 개인정보 보호 인식 생성기와 주기적 지식 증류를 통해 차량용 경량 침입 탐지 시스템을 감독합니다. 이 접근 방식은 자원 및 지연 제약을 해결하는 동시에 민감한 차량 정보의 노출을 방지합니다.",
+   "impact": "커넥티د 카 시스템을 다루는 보안 팀과 개발자는 이 프레임워크를 사용하여 데이터 프라이버시를 침해하거나 차량 지연 한계를 초과하지 않으면서 침입 탐지 성능을 향상시킬 수 있습니다. 이 방법은 경량 모델이 비IID 데이터로 인한 성능 저하를 극복하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "CANMentor는 클라우드 기반 LLM 교사를 사용하여 차량용 경량 IDS 모델을 감독합니다.",
+    "개인정보 보호 인식 생성기는 원본 CAN 메시지에서 프락시를 생성하여 차량 데이터를 보호합니다.",
+    "지식 증류는 ROAD 및 HCRL Car-Hacking 데이터셋에서 각각 최대 25.01% 및 20.79%의 Macro F1 상대적 향상을 가져왔습니다.",
+    "교사 예측은 로컬 결정 경계 근처의 탐지 정확도를 38.71~42.00 퍼센트 포인트 향상시켰습니다."
+   ]
+  }
+ }
+}

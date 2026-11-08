@@ -1,7 +1,121 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-08T18:51:25.751Z",
+ "generatedAt": "2026-11-08T22:55:08.156Z",
  "articles": [
+  {
+   "id": "a86fe963d82ab963",
+   "sourceId": "simon-willison",
+   "sourceName": "Simon Willison's Weblog",
+   "originalTitle": "parse_number() as a SQLite extension: C vs Rust",
+   "originalUrl": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+   "originalLanguage": "en",
+   "originalDescription": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that…",
+   "publishedAt": "2026-11-08T22:26:00.000Z",
+   "discoveredAt": "2026-11-08T22:55:08.156Z",
+   "topics": [
+    "ai",
+    "developer-tools",
+    "programming-languages"
+   ],
+   "imageUrl": null,
+   "contentHash": "78a75130699396ec"
+  },
+  {
+   "id": "b1ba266d32bb7775",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "젠슨 황 \"아내에게 충실하지 못했다\" 사과…엔비디아 \"CEO직 유지\"",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217150",
+   "originalLanguage": "ko",
+   "originalDescription": "중국 스파이 의혹을 받는 여성과의 관계로 논란에 휩싸인 젠슨 황 엔비디아 CEO가 불륜 사실을 인정하고 가족과 직원들에게 사과했다. 엔비디아 이사회는 외국 정보기관의 접근 의혹에 대한 독립 조사에 착수했지만, 황 CEO는 계속 회사를 이끌 것이라고 밝혔다.황 CEO는 8일(현지시간) 엔비디아 공식 홈페이지에 공개한 메시지에서 \"나는 아내에게 충실하지 못했다. 내 행동으로 아내와 아이들에게 상처를 줬다. 내가 한 일에는 어떤 변명도 있을 수 없다\"라며 \"진심으로 사과한다\"라고 밝혔다. 이어…",
+   "publishedAt": "2026-11-08T21:42:12.000Z",
+   "discoveredAt": "2026-11-08T22:55:08.156Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "21447b9cf37b13be"
+  },
+  {
+   "id": "3e677dd44b58a882",
+   "sourceId": "latent-space",
+   "sourceName": "Latent Space",
+   "originalTitle": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "originalUrl": "https://latent.space/p/cs146s/",
+   "originalLanguage": "en",
+   "originalDescription": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
+   "publishedAt": "2026-11-08T21:41:44.000Z",
+   "discoveredAt": "2026-11-08T22:55:08.156Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/515ad474-e013-48a0-b40f-739bca031d85/A.jpg?t=1794172002",
+   "contentHash": "4369ac3d38d3cda4"
+  },
+  {
+   "id": "d9dfd9512d8f2a6c",
+   "sourceId": "latent-space",
+   "sourceName": "Latent Space",
+   "originalTitle": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "originalUrl": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+   "originalLanguage": "en",
+   "originalDescription": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and ...",
+   "publishedAt": "2026-11-08T21:23:29.000Z",
+   "discoveredAt": "2026-11-08T22:55:08.156Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://i.ytimg.com/vi/dpY7YzZo4kE/maxresdefault.jpg",
+   "contentHash": "6114c318540b3a42"
+  },
+  {
+   "id": "ab3c0090fa33621f",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+   "originalUrl": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+   "originalLanguage": "en",
+   "originalDescription": "In a memo to the company, Huang admitted that he had an affair.",
+   "publishedAt": "2026-11-08T21:00:11.000Z",
+   "discoveredAt": "2026-11-08T22:55:08.156Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "47facddc5c3effaa"
+  },
+  {
+   "id": "54c06e97d6e0a2b7",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+   "originalLanguage": "en",
+   "originalDescription": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors…",
+   "publishedAt": "2026-11-08T20:22:39.000Z",
+   "discoveredAt": "2026-11-08T22:55:08.156Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "47a6b67ecb538816"
+  },
+  {
+   "id": "b9c0dd474c98ba84",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Apple is racing to make Siri more agentic",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+   "originalLanguage": "en",
+   "originalDescription": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly…",
+   "publishedAt": "2026-11-08T19:18:19.000Z",
+   "discoveredAt": "2026-11-08T22:55:08.156Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "6d2d11558c08e97e"
+  },
   {
    "id": "c08233254ab55692",
    "sourceId": "the-verge-ai",
@@ -297,7 +411,7 @@
    "id": "887bd7fd8ce9f633",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
-   "originalTitle": "오픈AI, '이미지 2.6' 프롬프트 가이드 공개…\"바꿀 것과 유지할 것 구분하라\"",
+   "originalTitle": "오픈AI, '이미지 2.6' 프롬프트 가이드 공개…\"바꿀 것·유지할 것 구분\"",
    "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217140",
    "originalLanguage": "ko",
    "originalDescription": "오픈AI가 최신 '이미지 2.6'을 효과적으로 활용하기 위한 공식 프롬프트 가이드를 공개했다. 원하는 이미지를 정확하게 만들려면 용도와 구도, 스타일 등을 구체적으로 지정하고, 기존 이미지를 수정할 때는 바꿀 부분과 유지할 부분을 명확하게 구분해야 한다는 것이 핵심이다.오픈AI는 7일(현지시간) 개발자 문서에 '이미지 2.6 프롬프트 가이드'를 공개하고 이미지 생성·편집을 위한 작성 원칙과 실제 사례를 소개했다. 이미지 2.6은 개발자용 API에서 'GPT-Image-2.6'이라는 명칭을…",
@@ -307,7 +421,7 @@
     "ai"
    ],
    "imageUrl": null,
-   "contentHash": "fd7dd021bbe2c2c3"
+   "contentHash": "c8d43e6e45e5b15f"
   },
   {
    "id": "ce572f11a53e0b3b",
@@ -24500,125 +24614,6 @@
    ],
    "imageUrl": null,
    "contentHash": "7eaf9b1a20699672"
-  },
-  {
-   "id": "65010c73046ecfbc",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "On the Fundamental Limits of Prefill-Based Decoding Length Prediction",
-   "originalUrl": "https://arxiv.org/abs/2610.40541v1",
-   "originalLanguage": "en",
-   "originalDescription": "Predicting how many tokens a large language model (LLM) will decode, using only prefill-phase hidden states, is a key primitive for inference scheduling. We show that current benchmarks conflate predictor quality with task hardness: when the target model, dataset, or sampling…",
-   "publishedAt": "2026-10-29T17:36:01.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "cfdad1f8fa4a1f49"
-  },
-  {
-   "id": "05d2c2ba3f12e911",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "TRACER, a time-to-event EHR foundation model for disease detection across health systems",
-   "originalUrl": "https://arxiv.org/abs/2610.40536v1",
-   "originalLanguage": "en",
-   "originalDescription": "Foundation models trained on longitudinal electronic health records (EHRs) can predict clinical diagnoses years in the future, making them a potential tool for disease screening. We developed TRACER (Temporal Risk Assessment with Clinical EHR Representations), a decoder-based…",
-   "publishedAt": "2026-10-29T17:34:52.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "a4c06eff8ddc0057"
-  },
-  {
-   "id": "d8631ef7c27786fe",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Efficient Scalable Oversight via Rewinding",
-   "originalUrl": "https://arxiv.org/abs/2610.40535v1",
-   "originalLanguage": "en",
-   "originalDescription": "Scalable oversight asks how a weak verifier can check the outputs of computations performed by more powerful AI systems. One proposed approach uses relativizing interactive proofs, in which a weak verifier checks the output of a complex oracle-aided computation by interacting…",
-   "publishedAt": "2026-10-29T17:34:28.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "7631d77f0b83eb74"
-  },
-  {
-   "id": "79c10b7d4b32fa34",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Homebrewed SLMs: Autoregressive and Masked Diffusion Language Models Built at Home for Portuguese",
-   "originalUrl": "https://arxiv.org/abs/2610.40533v1",
-   "originalLanguage": "en",
-   "originalDescription": "Building a language model of one's own no longer requires a data centre. This tutorial trains one from scratch, tokenizer included, on one consumer GPU, and shows how to tell whether it is good for the tasks of a specialist domain. It proposes no new method. It releases a…",
-   "publishedAt": "2026-10-29T17:34:06.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "09762281ef3ed982"
-  },
-  {
-   "id": "e2f84991ef24370b",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing",
-   "originalUrl": "https://arxiv.org/abs/2610.40532v1",
-   "originalLanguage": "en",
-   "originalDescription": "How effectively can vision-language-action (VLA) models learn diverse language-conditioned behaviors as training data scales? Investigating this question requires large and varied robot datasets, whose collection on physical robots remains costly. We introduce BURGER, a…",
-   "publishedAt": "2026-10-29T17:34:04.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "3a1fa8803addf29f"
-  },
-  {
-   "id": "9c0b19f7a896099d",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "NEOPIC: A Neural Operator Framework for Particle-based Kinetic Plasma Simulations",
-   "originalUrl": "https://arxiv.org/abs/2610.40528v1",
-   "originalLanguage": "en",
-   "originalDescription": "We introduce NEOPIC, a framework for learning the field operator in particle-based methods applied to kinetic plasma simulations. Its key novelty is a neural operator that acts directly on the empirical measure of the particles, rather than on a grid, and is evaluated at the…",
-   "publishedAt": "2026-10-29T17:33:20.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "7d058a3d72bd6060"
-  },
-  {
-   "id": "424549b028230b8a",
-   "sourceId": "arxiv-cs-cl",
-   "sourceName": "arXiv cs.CL",
-   "originalTitle": "IndicIPR-QA: A Benchmark for Extractive Question Answering on Indian IPR Laws",
-   "originalUrl": "https://arxiv.org/abs/2610.40518v1",
-   "originalLanguage": "en",
-   "originalDescription": "Legal Question Answering (QA) over statutory texts is a challenging task in Natural Language Processing (NLP), especially in low-resource settings with complex legal systems. It requires answers that are precise and grounded in the law. However, to the best of current…",
-   "publishedAt": "2026-10-29T17:26:39.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "6cfc93491f88a05c"
   }
  ]
 }

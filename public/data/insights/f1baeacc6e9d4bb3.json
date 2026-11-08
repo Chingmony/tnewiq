@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f1baeacc6e9d4bb3",
+ "contentHash": "a67143eb74a2e147",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T23:00:27.066Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "KeHoSu: Keyed Homoglyph Substitution for Authenticated Text Provenance over Copy-Paste Channels",
+   "summary": "Researchers present KeHoSu, a method that turns homoglyph attack confusable characters into a keyed attribution channel to trace LLM-generated text across copy-paste actions. The technique encodes an identifier containing a platform field, user field, and truncated authentication tag using variant choices for carrier letters. KeHoSu is invariant to sentence reordering and depends on partial quotations only through the retained length, surviving copy-paste across 18 common platforms.",
+   "impact": "This method could help moderators and security teams trace the provenance of redistributed LLM-generated text even when metadata is discarded through copy-paste channels. Developers and researchers may use these insights to understand text attribution, detectability, and capacity limitations in shared content.",
+   "keyPoints": [
+    "KeHoSu uses keyed homoglyph substitution to encode identifiers into text via Unicode code points.",
+    "The system is invariant to sentence reordering up to a constant boundary layer.",
+    "It successfully survived copy-paste redistribution across 18 common platforms.",
+    "Attribution required about 178 letters for LLM stories and 167 letters for standard English prose."
+   ]
+  },
+  "km": {
+   "title": "KeHoSu៖ ការជំនួស Homoglyph ដែលមានសោ សម្រាប់ប្រភពអត្ថបទដែលបានផ្ទៀងផ្ទាត់លើបណ្តាញចម្លង-បិទភ្ជាប់",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្ហាញ KeHoSu ដែលជាវិធីសាស្ត្របំប្លែងតួអក្សរ homoglyph ទៅជាឆានែលកំណត់ប្រភព ដើម្បីតាមដានអត្ថបទដែលបង្កើតដោយ LLM ឆ្លងកាត់ការចម្លង និងបិទភ្ជាប់។ បច្ចេកទេសនេះ encode អត្តសញ្ញាណដែលមានវាលវេទិកា គណនីអ្នកប្រើប្រាស់ និងស្លាកផ្ទៀងផ្ទាត់ដោយប្រើប្រាស់វ៉ារ្យ៉ង់អក្សរ។ KeHoSu អាចទប់ទល់នឹងការរៀបចំប្រយោគឡើងវិញ និងដំណើរការលើសម្រង់អត្ថបទដោយផ្អែកលើប្រវែងដែលនៅសល់។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកសម្របសម្រួល និងក្រុមសន្តិសុខក្នុងការតាមដានប្រភពដើមនៃអត្ថបទដែលបានចែកចាយឡើងវិញ សូម្បីតែពេលទិន្នន័យមេតាត្រូវបានលុបបំបាត់តាមរយៈការចម្លងនិងបិទភ្ជាប់ក៏ដោយ។ អ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់ចំណុចនេះដើម្បីយល់ដឹងពីការកំណត់ប្រភពអត្ថបទ។",
+   "keyPoints": [
+    "KeHoSu ប្រើប្រាស់ការជំនួស homoglyph ដើម្បី encode អត្តសញ្ញាណទៅក្នុងអត្ថបទ។",
+    "ប្រព័ន្ធនេះមិនអាស្រ័យលើការរៀបចំប្រយោគឡើងវិញទេ។",
+    "វាបានរស់រានមានជីវិតពីការចម្លងនិងបិទភ្ជាប់ឆ្លងកាត់វេទិកាទូទៅចំនួន 18។",
+    "ការកំណត់ប្រភពត្រូវការអក្សរប្រហែល 178 តួសម្រាប់រឿង និង 167 តួសម្រាប់អត្ថបទភាសាអង់គ្លេស។"
+   ]
+  },
+  "zh-CN": {
+   "title": "KeHoSu：通过复制粘贴通道进行身份验证文本溯源的带密钥同形异义字替换技术",
+   "summary": "研究人员提出了KeHoSu，这是一种将同形异义字攻击中的易混淆字符转化为带密钥溯源通道的方法，用于追踪跨复制粘贴操作的LLM生成文本。该技术利用载体字母的变体选择来编码包含平台字段、用户字段和截断认证标签的标识符。KeHoSu对句子重新排序具有不变性，并且仅通过保留长度依赖于部分引用，成功在18个常见平台的复制粘贴中存活。",
+   "impact": "该方法可能帮助审核人员和安全团队追踪重新分发的LLM生成文本的出处，即使元数据通过复制-粘贴通道被丢弃。开发者和研究人员可以利用这些见解来理解共享内容中的文本归因、可检测性和容量限制。",
+   "keyPoints": [
+    "KeHoSu通过Unicode代码点使用带密钥同形异义字替换将标识符编码到文本中。",
+    "该系统对常数边界层内的句子重新排序保持不变。",
+    "它成功在18个常见平台的复制-粘贴操作中保留了标记。",
+    "在LLM生成的故事情节中需要大约178个字母，在标准英文散文中需要167个字母即可完成多数归因。"
+   ]
+  },
+  "ko": {
+   "title": "KeHoSu: 복사-붙여넣기 채널을 통한 인증된 텍스트 출처 확인을 위한 키 기반 동형 이의어 대체",
+   "summary": "연구원들은 복사-붙여넣기 작업을 통해 LLM 생성 텍스트를 추적하기 위해 동형 이의어 공격의 혼동 가능한 문자를 키 기반 출처 채널로 변환하는 KeHoSu를 제시합니다. 이 기술은 플랫폼 필드, 사용자 필드, 잘린 인증 태그로 구성된 식별자를 문자 변안 선택을 통해 인코딩합니다. KeHoSu는 문장 재정렬에 불변하며 보존된 길이를 통해서만 부분 인용에 의존하고 18개의 일반 플랫폼에서 복사-붙여넣기를 거쳐 살아남았습니다.",
+   "impact": "이 방법은 복사-붙여넣기 채널을 통해 메타데이터가 손실되더라도 재배포된 LLM 생성 텍스트의 출처를 중재자와 보안 팀이 추적하는 데 도움을 줄 수 있습니다. 개발자와 연구원은 이 통찰력을 사용하여 공유 콘텐츠의 텍스트 출처 확인, 감지 가능성 및 용량 제한을 이해할 수 있습니다.",
+   "keyPoints": [
+    "KeHoSu는 유니코드 코드 포인트를 사용하여 텍스트에 식별자를 인코딩하기 위해 키 기반 동형 이의어 대체를 사용합니다.",
+    "이 시스템은 상수 경계 레이어까지의 문장 재정렬에 불변합니다.",
+    "18개의 일반 플랫폼 전반에서 복사-붙여넣기 배포를 거쳐 마크가 살아남았습니다.",
+    "LLM 생성 이야기에서는 약 178자, 표준 영어 산문에서는 약 167자에서 대다수의 출처를 올바르게 확인했습니다."
+   ]
+  }
+ }
+}

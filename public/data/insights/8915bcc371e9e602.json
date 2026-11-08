@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8915bcc371e9e602",
+ "contentHash": "557b5bd9c2dfec28",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T23:02:17.435Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Jync v1.13.0 Adds Redis Cache Projection and MySQL 5.7 Automatic Adaptation",
+   "summary": "Jync v1.13.0 has released with new features including Redis cache projection and automatic adaptation for MySQL 5.7. The update introduces Redis as a real-time synchronization target, allowing the source CDC to continuously project row changes into the cache. Redis is implemented as a target-specific capability and has a dedicated connection tab in the connection management page.",
+   "impact": "This update could provide developers and users with enhanced real-time synchronization options by leveraging Redis as a target for cache projections. Teams working with MySQL 5.7 may benefit from the new automatic adaptation features.",
+   "keyPoints": [
+    "Redis added as a real-time synchronization target for cache projections.",
+    "Redis is a target-specific capability and does not appear in source dropdowns or ETL engine lists.",
+    "A new Redis target tab has been added to the connection management page."
+   ]
+  },
+  "km": {
+   "title": "Jync v1.13.0 បន្ថែមការ προβολὴ ឃ្លាំងសម្ងាត់ Redis និងការសម្របខ្លួនដោយស្វ័យប្រវត្តិ MySQL 5.7",
+   "summary": "Jync v1.13.0 បានដាក់ឱ្យដំណើរការជាមួយនឹងមុខងារថ្មីៗ រួមទាំងការ προβολὴ ឃ្លាំងសម្ងាត់ Redis និងការសម្របខ្លួនដោយស្វ័យប្រវត្តិសម្រាប់ MySQL 5.7។ ការអាប់ដេតនេះបានណែនាំ Redis ជាគោលដៅនៃការធ្វើសមកាលកម្មពេលវេលាពិតប្រាកដ ដោយអនុញ្ញាតឱ្យប្រភព CDC បន្ត προβολὴ ការផ្លាស់ប្តូរជួរដេកទៅក្នុងឃ្លាំងសម្ងាត់។ Redis ត្រូវបានអនុវត្តជាសមត្ថភាពជាក់លាក់នៃគោលដៅ និងមានផ្ទាំងតភ្ជាប់ផ្ទាល់ខ្លួននៅក្នុងទំព័រគ្រប់គ្រងការតភ្ជាប់។",
+   "impact": "ការអាប់ដេតនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់នូវជម្រើសធ្វើសមកាលកម្មពេលវេលាពិតប្រាកដដែលប្រសើរឡើងតាមរយៈការប្រើប្រាស់ Redis ជាគោលដៅសម្រាប់ការ προβολὴ ឃ្លាំងសម្ងាត់។ ក្រុមការងារដែលធ្វើការជាមួយ MySQL 5.7 អាចទទួលបានអត្ថប្រយោជន៍ពីមុខងារសម្របខ្លួនដោយស្វ័យប្រវត្តិថ្មី។",
+   "keyPoints": [
+    "បានបន្ថែម Redis ជាគោលដៅធ្វើសមកាលកម្មពេលវេលាពិតប្រាកដសម្រាប់ការ προβολὴ ឃ្លាំងសម្ងាត់។",
+    "Redis គឺជាសមត្ថភាពជាក់លាក់នៃគោលដៅ ហើយមិនបង្ហាញនៅក្នុងបញ្ជីទម្លាក់ចុះប្រភព ឬបញ្ជីម៉ាស៊ីន ETL ទេ។",
+    "ផ្ទាំងគោលដៅ Redis ថ្មីត្រូវបានបន្ថែមទៅទំព័រគ្រប់គ្រងការតភ្ជាប់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Jync v1.13.0 · Redis 缓存投影与 MySQL 5.7 自动适配",
+   "summary": "Jync v1.13.0 版本带来了 Redis 缓存投影与 MySQL 5.7 自动适配等新功能。项目页的目标类型现已可选 Redis，源端 CDC 会持续将每一行的变化投影到缓存中。Redis 作为目标端专属能力，不会出现在源端下拉、ETL 引擎列表与数据库能力矩阵中，且连接管理页新增了 Redis 目标标签。",
+   "impact": "此次更新可能会为开发人员和技术用户提供更灵活的实时同步选项，通过将 Redis 用作目标端来支持缓存投影。使用 MySQL 5.7 的团队也可能会从中获得更好的自动适配支持。",
+   "keyPoints": [
+    "新增 Redis 作为实时同步的目标端，用于缓存投影。",
+    "Redis 为目标端专属能力，不出现在源端下拉、ETL 引擎列表与数据库能力矩阵里。",
+    "连接管理页新增了 Redis 目标标签。"
+   ]
+  },
+  "ko": {
+   "title": "Jync v1.13.0, Redis 캐시 프로젝션 및 MySQL 5.7 자동 적응 기능 추가",
+   "summary": "Jync v1.13.0이 Redis 캐시 프로젝션 및 MySQL 5.7 자동 적응 기능을 포함하여 출시되었습니다. 이번 업데이트는 Redis를 실시간 동기화 대상로 추가하여 소스 CDC가 행의 변경 사항을 캐시에 지속적으로 투영할 수 있도록 합니다. Redis는 대상 전용 기능으로 구현되었으며 연결 관리 페이지에 전용 연결 탭이 추가되었습니다.",
+   "impact": "이번 업데이트는 개발자와 기술 사용자에게 Redis를 캐시 프로젝션의 대상으로 활용할 수 있는 향상된 실시간 동기화 옵션을 제공할 수 있습니다. MySQL 5.7을 사용하는 팀은 새로운 자동 적응 기능의 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "캐시 프로젝션을 위한 실시간 동기화 대상으로 Redis가 추가되었습니다.",
+    "Redis는 대상 전용 기능이며 소스 드롭다운이나 ETL 엔진 목록에 나타나지 않습니다.",
+    "연결 관리 페이지에 새로운 Redis 대상 탭이 추가되었습니다."
+   ]
+  }
+ }
+}

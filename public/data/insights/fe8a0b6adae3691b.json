@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fe8a0b6adae3691b",
+ "contentHash": "e52def4c5b956100",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T23:04:27.419Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Using AI to write backend code, why are we still reinventing the wheel?",
+   "summary": "Many developers use AI to generate CRUD interfaces, SQL queries, and utility classes to improve coding efficiency. However, when applied to enterprise backend projects, the overall development pace does not significantly accelerate. AI completes the initial interfaces, but developers still need to manually handle repetitive tasks like permissions, menus, workflows, reports, audit logs, and data dictionaries for every project.",
+   "impact": "Developers and teams may find that while AI improves isolated coding tasks, enterprise project delivery timelines might not shorten because foundational structural components still require manual implementation.",
+   "keyPoints": [
+    "AI is commonly used to generate CRUD interfaces, SQL, and utility classes.",
+    "Enterprise backend projects do not see a significant speedup in overall development rhythm.",
+    "Routine tasks like permissions, workflows, and audit logs still consume a large portion of project time."
+   ]
+  },
+  "km": {
+   "title": "ការប្រើប្រាស់ AI ដើម្បីសរសេរកូដផ្នែកខាងក្រោយ ហេតុអ្វីបានជាយើងនៅតែបង្កើតកង់ឡើងវិញ?",
+   "summary": "មនុស្សជាច្រើនបានទម្លាប់ប្រើប្រាស់ AI ដើម្បីសរសេរកូដ ដូចជាការបង្កើតចំណុចប្រទាក់ CRUD បន្ថែម SQL ឬសរសេរថ្នាក់ឧបករណ៍ ដែលជួយបង្កើនប្រសិទ្ធភាពជាងការសរសេរដោយដៃ។ ប៉ុន្តែពេលយកមកប្រើប្រាស់ក្នុងគម្រោងផ្នែកខាងក្រោយរបស់សហគ្រាស ដំណើរការនៃការអភិវឌ្ឍហាក់ដូចជាមិនមានល្បឿនលឿនជាងមុនប៉ុន្មានទេ។ AI ជួយសរសេរចំណុចប្រទាក់រួចរាល់ ប៉ុន្តែអ្នកនៅតែត្រូវដោះស្រាយបញ្ហាការអនុញ្ញាត បញ្ជី ដំណើរការការងារ របាយការណ៍ កំណត់ហេតុត្រួតពិនិត្យ និងវចនានុក្រមទិន្នន័យ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍អាចនឹងឃើញថា ទោះបីជា AI ជួយបង្កើនល្បឿនកិច្ចការសរសេរកូដបុគ្គលក៏ដោយ ក៏ពេលវេលា1នៃការបញ្ចប់គម្រោងសហគ្រាសប្រហែលជាមិនថយចុះច្រើននោះទេ ដោយសារតែធាតុផ្សំមូលដ្ឋាននៅតែត្រូវការការកំណត់ដោយដៃ។",
+   "keyPoints": [
+    "AI ត្រូវបានប្រើប្រាស់ទូទៅដើម្បីបង្កើតចំណុចប្រទាក់ CRUD និង SQL។",
+    "គម្រោងផ្នែកខាងក្រោយរបស់សហគ្រាសមិនមានល្បឿនលឿនជាងមុនគួរឱ្យកត់សម្គាល់ទេ។",
+    "កិច្ចការទូទៅដូចជាសិទ្ធិ និងដំណើរការការងារនៅតែស៊ីពេលច្រើនក្នុងគម្រោង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "用 AI 写后端，为什么还是在造轮子？",
+   "summary": "很多人已经习惯让 AI 写代码来生成 CRUD 接口、补 SQL 或写工具类，效率确实比手敲高。但真正落到一个企业后台项目上，节奏并没有变快多少。AI 帮写完接口后，开发者依然要处理权限、菜单、工作流、报表、审计日志和数据字典等大量重复劳动。",
+   "impact": "开发团队可能会发现，尽管 AI 提高了编写特定代码片段的效率，但由于底层基础架构和通用模块仍需耗费大量精力，整体项目的交付周期可能不会显著缩短。",
+   "keyPoints": [
+    "AI 常被用于生成 CRUD 接口、补全 SQL 和编写工具类。",
+    "企业后台项目的整体开发节奏并没有因 AI 显著加快。",
+    "权限、工作流、报表和审计日志等代码占用了项目的大部分时间且需重复编写。"
+   ]
+  },
+  "ko": {
+   "title": "AI로 백엔드를 작성하는데, 왜 여전히 바퀴를 다시 발명하고 있을까?",
+   "summary": "많은 사람들이 CRUD 인터페이스 생성, SQL 보완, 유틸리티 클래스 작성 등 코드를 AI에게 맡기는 것에 익숙해져 있으며 효율성도 직접 치는 것보다 높다. 그러나 실제 기업용 백엔드 프로젝트에 적용해보면 개발 속도가 그리 빨라지지 않는다는 것을 알 수 있다. AI가 인터페이스 작성을 완료해주더라도 개발자는 여전히 권한, 메뉴, 워크플로우, 보고서, 감사 로그, 데이터 딕셔너리 등을 처리해야 한다.",
+   "impact": "개발 팀은 AI가 개별 코딩 작업의 효율성을 높이더라도, 기본적이고 반복적인 구성 요소를 여전히 수동으로 처리해야 하기 때문에 전체 프로젝트 전달 일정이 크게 단축되지 않을 수 있음을 알게 될 것이다.",
+   "keyPoints": [
+    "사람들은 CRUD 인터페이스와 SQL 생성을 위해 AI를 사용하는 것에 익숙하다.",
+    "기업용 백엔드 프로젝트에서는 전반적인 개발 속도가 크게 빨라지지 않는다.",
+    "권한, 워크플로우, 감사 로그 같은 코드는 프로젝트 시간의 대부분을 차지하며 반복된다."
+   ]
+  }
+ }
+}

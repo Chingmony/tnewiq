@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6bb40619f26fca14",
+ "contentHash": "d8458ebaecd0b82d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T23:01:46.259Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Stealthy Malicious Interference Detection in UAV Formations: A Power-Domain Signaling Game Approach",
+   "summary": "Researchers proposed a belief-driven stealthy jammer UAV detection scheme using a Bayesian security game to address malicious interference in UAV formations. In open shared-spectrum environments, stealthy jammer UAVs can disguise their interference as benign link fluctuations by adjusting their transmit power. The proposed approach models interfering UAVs as hidden benign or jamming types, allowing defenders to update posterior beliefs from observed SINR and decide whether to trigger defensive power boosting. Numerical results demonstrate that this scheme improves the defender's expected utility compared to conventional methods.",
+   "impact": "This research could help security teams and developers improve the reliability and resilience of intra-swarm communication in UAV formations against stealthy jammers. The power-domain signaling game approach may offer better decision-making capabilities for defenders operating in open shared-spectrum environments.",
+   "keyPoints": [
+    "Proposed a belief-driven stealthy jammer UAV detection scheme based on a Bayesian security game.",
+    "Modeled interfering UAVs as hidden benign or jamming types whose transmit power strategies induce observed SINR.",
+    "Defenders update posterior beliefs from observed SINR to decide on maintaining normal operation or boosting defensive power.",
+    "Numerical results show improved expected utility for the defender compared to conventional schemes."
+   ]
+  },
+  "km": {
+   "title": "ការរកឃើញការជ្រៀតជ្រែកព្យាបាទដោយលួចលាក់នៅក្នុងទ្រង់ទ្រាយ UAV៖ វិធីសាស្ត្រល្បែងសញ្ញាដែនថាមពល",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើឡើងនូវគ្រោងការណ៍រកឃើញ UAV 干扰 ញុះញង់ដោយជំនឿ ដោយប្រើប្រាស់ល្បែងសុវត្ថិភាព Bayesian ដើម្បីដោះស្រាយការជ្រៀតជ្រែកព្យាបាទនៅក្នុងទ្រង់ទ្រាយ UAV។ នៅក្នុងបរិយាកាសដែលប្រើប្រាស់វិសាលគមរួមគ្នាកម្រិតទាបបើកចំហ UAV 干扰 អាចក្លែងបន្លំការជ្រៀតជ្រែករបស់ពួកគេជាការប្រែប្រួលតំណភ្ជាប់ធម្មតាដោយកែតម្រូវថាមពលបញ្ជូនរបស់ពួកគេ។ វិធីសាស្ត្រដែលបានស្នើឡើងនេះគំរូ UAV 干扰 ជាប្រភេទស្លូតបូត ឬ 干扰 ដែលលាក់កំបាំង ដែលអនុញ្ញាតឱ្យអ្នកការពារធ្វើបច្ចុប្បន្នភាពជំនឿក្រោយពី SINR ដែលបានសង្កេតឃើញ។ លទ្ធផលលេខបង្ហាញថាគ្រោងការណ៍នេះកែលម្អប្រយោជន៍រំពឹងទុករបស់អ្នកការពារបើប្រៀបធៀបនឹងគ្រោងការណ៍ធម្មតា។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ក្នុងការកែលម្អភាពជឿជាក់ និងភាពធន់នៃការទំនាក់ទំនងក្នុងហ្វូងនៅក្នុងទ្រង់ទ្រាយ UAV ប្រឆាំងនឹងឧបករណ៍រំខានលួចលាក់។ វិធីសាស្ត្រល្បែងសញ្ញាដែនថាមពលអាចផ្តល់នូវសមត្ថភាពសម្រេចចិត្តកាន់តែប្រសើរសម្រាប់អ្នកការពារដែលដំណើរការក្នុងបរិយាកាសវិសាលគមរួមគ្នា.",
+   "keyPoints": [
+    "បានស្នើគ្រោងការណ៍រកឃើញ UAV 干扰 ដោយផ្អែកលើល្បែងសុវត្ថិភាព Bayesian ។",
+    "គំរូ UAV 干扰 ជាប្រភេទស្លូតបូត ឬ 干扰 ដែលលាក់កំបាំង ដែលជំរុញ SINR ដែលបានសង្កេតឃើញ។",
+    "អ្នកការពារធ្វើបច្ចុប្បន្នភាពជំនឿក្រោយពី SINR ដើម្បីសម្រេចចិត្តលើប្រតិបត្តិការធម្មតា ឬជំរុញថាមពលការពារ។",
+    "លទ្ធផលលេខបង្ហាញពីការកែលម្អប្រយោជន៍រំពឹងទុករបស់អ្នកការពារ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "无人机编队中隐蔽恶意干扰检测：功率域信号博弈方法",
+   "summary": "研究人员提出了一种基于贝叶斯安全博弈的信念驱动型隐蔽干扰机无人机检测方案，以解决无人机编队中的恶意干扰问题。在开放的低空共享频谱环境中，隐蔽的干扰无人机可以通过调整其发射功率，将信干噪比的降低伪装成良性链路波动。该方法将干扰无人机建模为隐藏的良性或干扰类型，使防御者能够根据观察到的信干噪比更新后验信念，并决定是维持正常运行还是触发防御性功率增强。数值结果表明，与传统方案相比，该方案提高了防御者的期望效用。",
+   "impact": "这项研究可以帮助安全团队和开发人员提高无人机编队内部通信在面对隐蔽干扰时的可靠性和韧性。功率域信号博弈方法可能会为在开放共享频谱环境中运行的防御者提供更好的决策能力。",
+   "keyPoints": [
+    "提出了一种基于贝叶斯安全博弈的信念驱动型隐蔽干扰机无人机检测方案。",
+    "将干扰无人机建模为隐藏的良性或干扰类型，其发射功率策略会引起观察到的信干噪比。",
+    "防御者从观察到的信干噪比更新后验信念，以决定维持正常运行或提升防御功率。",
+    "数值结果显示该方案相比传统方案提高了防御者的期望效用。"
+   ]
+  },
+  "ko": {
+   "title": "UAV 편대에서의 은밀한 악의적 간섭 탐지: 전력 도메인 시그널링 게임 접근 방식",
+   "summary": "연구원들은 UAV 편대의 악의적 간섭을 해결하기 위해 베이지안 보안 게임을 활용한 신념 기반의 은밀한 재머 UAV 탐지 체계를 제안했습니다. 개방된 저고도 공유 스펙트럼 환경에서 은밀한 재머 UAV는 전송 전력을 조절하여 신호대간섭잡음비 저하를 양성 링크 변동으로 위장할 수 있습니다. 제안된 접근 방식은 간섭 UAV를 숨겨진 양성 또는 재머 유형으로 모델링하며, 방어자가 관측된 신호대간섭잡음비로부터 사후 신념을 갱신하고 정상 작동을 유지할지 방어적 전력 증강을 트리거할지 결정할 수 있게 합니다. 수치 결과에 따르면 이 체계는 기존 방식에 비해 방어자의 기대 효용을 향상시킵니다.",
+   "impact": "이 연구는 보안 팀과 개발자가 은밀한 재머에 대응하여 UAV 편대의 스웜 내 통신 신뢰성과 복원력을 향상시키는 데 도움을 줄 수 있습니다. 전력 도메인 시그널링 게임 접근 방식은 개방된 공유 스펙트럼 환경에서 작동하는 방어자에게 더 나은 의사 결정 능력을 제공할 수 있습니다.",
+   "keyPoints": [
+    "베이지안 보안 게임에 기반한 신념 기반 은밀한 재머 UAV 탐지 체계 제안.",
+    "간섭 UAV를 관측된 신호대간섭잡음비를 유도하는 숨겨진 양성 또는 재머 유형으로 모델링.",
+    "방어자는 관측된 신호대간섭잡음비로부터 사후 신념을 갱신하여 정상 작동 유지 또는 방어 전력 증강 결정.",
+    "수치 결과는 기존 체계에 비해 방어자의 기대 효용이 향상되었음을 보여줌."
+   ]
+  }
+ }
+}

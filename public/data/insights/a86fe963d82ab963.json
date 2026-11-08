@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a86fe963d82ab963",
+ "contentHash": "78a75130699396ec",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T22:57:31.913Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "parse_number() as a SQLite extension: C vs Rust",
+   "summary": "An investigation compared building a custom parse_number() function for SQLite as a C extension versus a Rust extension. Using Claude, the research evaluated code complexity, file size, and performance differences when parsing strings into numeric values. Initial tests showed the C extension was much smaller in file size, but the Rust extension was faster. Subsequent custom C parsing improvements eventually allowed the C implementation to beat the Rust performance numbers.",
+   "impact": "This research could help developers understand the trade-offs between C and Rust when writing SQLite extensions, particularly regarding binary size versus execution speed. Technology users and teams evaluating custom extensions might consider how custom string parsing optimizations can significantly impact processing times over large datasets.",
+   "keyPoints": [
+    "A SQLite custom function parse_number() was designed to strip specific symbols and return numeric values or NULL.",
+    "The Rust extension file size was 321 KB using Rusqlite and 298 KB using sqlite-loadable-rs, compared to 14 KB for the C extension.",
+    "The initial Rust extension was faster than C because its equivalent to strtod was twice as fast.",
+    "A custom C parsing function was written that caught up to and beat the Rust implementation across mixed, integer, and decimal data."
+   ]
+  },
+  "km": {
+   "title": "parse_number() ជាផ្នែកបន្ថែម SQLite៖ រវាង C និង Rust",
+   "summary": "ការស្រាវជ្រាវមួយបានប្រៀបធៀបការបង្កើតមុខងារ parse_number() ផ្ទាល់ខ្លួនសម្រាប់ SQLite ជាផ្នែកបន្ថែម C និងជាផ្នែកបន្ថែម Rust ។ ដោយប្រើប្រាស់ Claude ការស្រាវជ្រាវបានវាយតម្លៃភាពស្មុគស្មាញនៃកូដ ទំហំឯកសារ និងភាពខុសគ្នានៃដំណើរការនៅពេលបំប្លែងស្ដ្រីងទៅជាតម្លៃលេខ ។ ការធ្វើតេស្តដំបូងបានបង្ហាញថាផ្នែកបន្ថែម C មានទំហំឯកសារតូចជាង ប៉ុន្តែផ្នែកបន្ថែម Rust មានល្បឿនលឿនជាង ។ ការកែលម្អការញែកអត្ថបទ C ផ្ទាល់ខ្លួនជាបន្តបន្ទាប់ បានធ្វើឱ្យការអនុវត្ត C អាចយកឈ្នះលើល្បឿនរបស់ Rust វិញ ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍យល់ពីការប្ដូរវេនគ្នារវាង C និង Rust នៅពេលសរសេរផ្នែកបន្ថែម SQLite ជាពិសេសទាក់ទងនឹងទំហំគោលពីរធៀបនឹងល្បឿនប្រតិបត្តិ ។ ក្រុមការងារបច្ចេកវិទ្យាដែលវាយតម្លៃផ្នែកបន្ថែមផ្ទាល់ខ្លួន អាចពិចារណាពីរបៀបដែលការបង្កើនប្រសិទ្ធភាពការញែកអត្ថបទផ្ទាល់ខ្លួនអាចជះឥទ្ធិពលយ៉ាងខ្លាំងដល់ពេលវេលាដំណើរការលើទិន្នន័យចំនួនច្រើន ។",
+   "keyPoints": [
+    "មុខងារផ្ទាល់ខ្លួន parse_number() របស់ SQLite ត្រូវបានរចនាឡើងដើម្បីលុបនិមិត្តសញ្ញាជាក់លាក់ និងត្រឡប់តម្លៃលេខ ឬ NULL ។",
+    "ទំហំឯកសារផ្នែកបន្ថែម Rust មានទំហំ 321 KB ដោយប្រើ Rusqlite និង 298 KB ដោយប្រើ sqlite-loadable-rs ខណៈដែលផ្នែកបន្ថែម C មានទំហំ 14 KB ។",
+    "ផ្នែកបន្ថែម Rust ដំបូងមានល្បឿនលឿនជាង C ព្រោះមុខងារស្មើនឹង strtod របស់វាលឿនជាងពីរដង ។",
+    "មុខងារញែកអត្ថបទ C ផ្ទាល់ខ្លួនត្រូវបានសរសេរឡើង ដែលអាចតាមទាន់ និងយកឈ្នះលើការអនុវត្តរបស់ Rust លើទិន្នន័យចម្រុះ ចំនួនគត់ និងទសភាគ ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "作为 SQLite 扩展的 parse_number()：C 与 Rust",
+   "summary": "一项研究比较了将 SQLite 的自定义 parse_number() 函数构建为 C 扩展与 Rust 扩展的区别。借助 Claude，该研究评估了在将字符串转换为数值时的代码复杂度、文件大小和性能差异。最初的测试表明，C 扩展的文件大小要小得多，但 Rust 扩展运行更快。随后对 C 解析函数的改进最终使 C 实现超越了 Rust 的性能数据。",
+   "impact": "这项研究可以帮助开发人员了解在编写 SQLite 扩展时 C 与 Rust 之间的权衡，特别是在二进制大小与执行速度方面。评估自定义扩展的技术用户和团队可能会考虑自定义字符串解析优化如何显著影响大型数据集的处理时间。",
+   "keyPoints": [
+    "设计了一个 SQLite 自定义函数 parse_number()，用于去除特定符号并返回数值或 NULL。",
+    "使用 Rusqlite 时 Rust 扩展文件大小为 321 KB，使用 sqlite-loadable-rs 时为 298 KB，而 C 扩展为 14 KB。",
+    "最初的 Rust 扩展比 C 快，因为其等同于 strtod 的函数速度快了两倍。",
+    "编写了一个自定义的 C 解析函数，在混合数据、纯整数和纯小数测试中赶上并超越了 Rust 的实现。"
+   ]
+  },
+  "ko": {
+   "title": "SQLite 확스로서의 parse_number(): C 대 Rust",
+   "summary": "한 연구는 SQLite용 커스텀 parse_number() 함수를 C 확장과 Rust 확장으로 각각 빌드하는 것을 비교했습니다. Claude를 사용하여 이 연구는 문자열을 숫자로 변환할 때의 코드 복잡성, 파일 크기, 성능 차이를 평가했습니다. 초기 테스트 결과 C 확장의 파일 크기가 훨씬 작았지만, Rust 확장이 더 빠른 것으로 나타났습니다. 이후 C 파싱 함수를 개선하면서 C 구현이 Rust의 성능 수치를 앞지르게 되었습니다.",
+   "impact": "이 연구는 개발자들이 SQLite 확장을 작성할 때 C와 Rust 사이의 절충안, 특히 바이너리 크기와 실행 속도의 관계를 이해하는 데 도움을 줄 수 있습니다. 커스텀 확장을 평가하는 기술 사용자 및 팀은 커스텀 문자열 파싱 최적화가 대용량 데이터 세트의 처리 시간에 미치는 영향을 고려할 수 있습니다.",
+   "keyPoints": [
+    "SQLite 커스텀 함수 parse_number()는 특정 기호를 제거하고 숫자 값 또는 NULL을 반환하도록 설계되었습니다.",
+    "Rust 확장 파일 크기는 Rusqlite 사용 시 321 KB, sqlite-loadable-rs 사용 시 298 KB였으며, C 확장은 14 KB였습니다.",
+    "초기 Rust 확장은 C의 strtod에 해당하는 기능이 '두 배 더 빨라서' C보다 더 빠른 성능을 보였습니다.",
+    "혼합 데이터, 정수 전용, 소수점 전용 데이터에서 Rust 구현을 따라잡고 뛰어넘는 커스텀 C 파싱 함수가 작성되었습니다."
+   ]
+  }
+ }
+}

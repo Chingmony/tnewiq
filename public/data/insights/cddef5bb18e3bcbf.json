@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "cddef5bb18e3bcbf",
+ "contentHash": "5cd239770e66d7c9",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T23:03:29.661Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
+   "summary": "US government agencies including CISA, FBI, HHS, USDA, and DoT have issued warnings regarding malicious cyber activity targeting industrial refrigeration and cold chain monitoring systems globally. Threat actors are targeting electronic and commercial refrigeration controllers in retail grocery and cold storage facilities. Attackers may exploit vulnerabilities or weak configurations in unpatched or internet-accessible controllers to remotely alter settings, potentially causing inventory loss and equipment hazards.",
+   "impact": "Security teams and technology users operating industrial refrigeration or cold chain systems could face severe inventory loss, equipment damage, or safety hazards if controllers are left unpatched or exposed to the internet. Implementing recommended mitigations like eliminating public internet exposure, isolating operational technology networks, and enforcing strong authentication may reduce these risks.",
+   "keyPoints": [
+    "Malicious cyber actors are targeting electronic temperature and commercial refrigeration controllers globally.",
+    "Exploitation vectors include authentication bypass, arbitrary code injection, and weak configurations.",
+    "Attackers can force units into continuous heating and defrost cycles, causing inventory loss and fire hazards.",
+    "Authoring organizations urge hardening systems by removing internet exposure, applying patches, and using strong authentication."
+   ]
+  },
+  "km": {
+   "title": "ដៃគូរដ្ឋាភិបាលអាមេរិកជំរុញឱ្យពង្រឹងប្រព័ន្ធត្រជាក់ឧស្សាហកម្ម និងប្រព័ន្ធត្រួតពិនិត្យខ្សែសង្វាក់ត្រជាក់",
+   "summary": "ទីភ្នាក់ងាររដ្ឋាភិបាលសហរដ្ឋអាមេរិកបានដាស់តឿនអំពីសកម្មភាពស៊ីនធឺណិតដែលមានចេតនាអាក្រក់ដែលកំណត់គោលដៅលើប្រព័ន្ធត្រជាក់ឧស្សាហកម្ម និងប្រព័ន្ធត្រួតពិនិត្យខ្សែសង្វាក់ត្រជាក់ទូទាំងពិភពលោក។ តួអង្គគំរាមកំហែងអាចនឹងឆ្លៀតប្រច័ណ្ឌភាពខ្សោយដើម្បីផ្លាស់ប្តូរការកំណត់ពីចម្ងាយ បង្ខំឱ្យអង្គភាពចូលទៅក្នុងវដ្តកំដៅ និងការរលាយទឹកកកជាបន្តបន្ទាប់ ដែលអាចបង្កឱ្យបាត់បង់ទំនិញ និងគ្រោះថ្នាក់ដល់បរិក្ខារ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចប្រឈមមុខនឹងការបាត់បង់ទំនិញ ឬគ្រោះថ្នាក់ឧបករណ៍ ប្រសិនបើឧបករណ៍បញ្ជាមិនត្រូវបានបិទបាំងពីអ៊ីនធឺណិត ឬមិនបានអាប់ដេតបំណះសុវត្ថិភាព។ ការអនុវត្តវិធានការបន្ធូរបន្ថយដូចជាការលុបបំបាត់ការតភ្ជាប់អ៊ីនធឺណិតសាធារណៈ និងការប្រើប្រាស់ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវខ្លាំងអាចជួយកាត់បន្ថយហានិភ័យទាំងនេះ។",
+   "keyPoints": [
+    "តួអង្គគំរាមកំហែងតាមអ៊ីនធឺណិតកំពុងកំណត់គោលដៅលើឧបករណ៍បញ្ជាសីតុណ្ហភាពអេឡិចត្រូនិក និងប្រព័ន្ធត្រជាក់ពាណិជ្ជកម្ម។",
+    "ការកេងប្រវ័ញ្ចអាចរួមមានការឆ្លងកាត់ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ ការចាក់បញ្ចូលកូដតាមអំពើចិត្ត និងការកំណត់រចនាសម្ព័ន្ធខ្សោយ។",
+    "ការវាយប្រហារអាចបង្កការផ្លាស់ប្តូរសីតុណ្ហភាព បង្កើតគ្រោះថ្នាក់អគ្គីភ័យ និងបាត់បង់ទំនិញ។",
+    "ស្ថាប័ននានាជំរុញឱ្យដកចេញនូវការតភ្ជាប់អ៊ីនធឺណិតសាធារណៈ និងដំឡើងបំណះសុវត្ថិភាពជាបន្ទាន់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "美国政府伙伴敦促加固工业制冷和冷链监控系统",
+   "summary": "美国网络安全与基础设施安全局、联邦调查局、卫生与公众服务部、农业部和交通部等机构发出警告，指出全球范围内的恶意网络活动正针对工业制冷和冷链监控系统。威胁行为者利用未修补或可直接连接互联网的控制器中的漏洞，远程篡改设置并迫使设备进入持续加热和除霜循环，这可能导致大量库存损失和设备安全隐患。",
+   "impact": "如果工业制冷或冷链监控系统的控制器保持未修补状态或直接暴露在互联网中，安全团队和技术用户可能会面临严重的库存损失、设备损坏或火灾隐患。采取消除公共互联网暴露、隔离运营技术网络以及实施强身份验证等缓解措施，有助于降低这些风险。",
+   "keyPoints": [
+    "恶意网络行为者正在全球范围内针对电子温度控制器和商业制冷控制器。",
+    "攻击向量包括身份验证绕过、任意代码注入以及配置薄弱。",
+    "攻击可能导致温度异常变化，进而引发火灾隐患或库存损失。",
+    "官方敦促立即采取消除互联网暴露、应用补丁和强化身份验证等缓解措施。"
+   ]
+  },
+  "ko": {
+   "title": "미국 정부 파트너들, 산업용 냉동 및 콜드체인 모니터링 시스템 강화 촉구",
+   "summary": "미국 CISA, FBI, HHS, USDA, DoT 등 정부 기관들은 전 세계 산업용 냉동 및 콜드체인 모니터링 시스템을 겨냥한 악성 사이버 활동에 대해 경고했습니다. 위협 행위자들은 소매 식료품점 및 저온 보관 시설의 전자 온도 조절기와 상업용 냉동 조절기를 표적으로 삼고 있습니다. 패치되지 않았거나 인터넷에 노출된 조절기의 취약점을 악용하여 설정을 원격으로 변경하고 지속적인 가열 및 제상 주기를 강제함으로써 대규모 재고 손실과 장비 위험을 초래할 수 있습니다.",
+   "impact": "산업용 냉동 또는 콜드체인 시스템을 운영하는 보안 팀과 기술 사용자는 제어 장치가 패치되지 않거나 인터넷에 노출될 경우 심각한 재고 손실, 장비 파손 또는 안전 위험에 직면할 수 있습니다. 공용 인터넷 노출 제거, 운영 기술 네트워크 격리, 강력한 인증 적용 등의 완화 조치를 통해 이러한 위험을 줄일 수 있습니다.",
+   "keyPoints": [
+    "악성 사이버 행위자들이 전 세계의 전자 온도 조절기와 상업용 냉동 조절기를 표적으로 삼고 있습니다.",
+    "공격 벡터에는 인증 우회, 임의 코드 삽입, 취약한 구성이 포함됩니다.",
+    "공격자는 온도를 변경하여 화재 위험을 유발하거나 재고 손실을 초래할 수 있습니다.",
+    "기관들은 인터넷 노출 제거, 패치 적용, 강력한 인증 사용을 통한 시스템 강화를 촉구하고 있습니다."
+   ]
+  }
+ }
+}
