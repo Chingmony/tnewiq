@@ -1,0 +1,49 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c2d4307f5553070e",
+ "contentHash": "97fd9a0c50a0703a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T19:01:19.547Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AI-Native Task-Oriented Semantic Communications over a Relay: Benefits and Vulnerabilities",
+   "summary": "Semantic communication using a relay node is explored to convey task-relevant image information from a source to a destination. A joint end-to-end design optimizes both semantic inference accuracy and perceptual reconstruction quality, outperforming direct transmission especially in low signal-to-noise ratio regimes. However, the relay introduces a security vulnerability, demonstrated by a formulated Byzantine attack where the relay injects structured perturbations to degrade destination accuracy.",
+   "impact": "This research highlights a trade-off between performance gains and security risks in relay-assisted semantic communications. Security teams and developers may need to consider insider threats and design secure relay mechanisms to protect against learned perturbations.",
+   "keyPoints": [
+    "Relay-assisted semantic communication improves performance over direct transmission, particularly in low SNR regimes.",
+    "A joint end-to-end design optimizes semantic inference accuracy and perceptual reconstruction quality for images.",
+    "A Byzantine attack utilizing structured, learned perturbations injected by the relay can significantly degrade destination accuracy."
+   ]
+  },
+  "km": {
+   "title": "ការប្រាស្រ័យទាក់ទងបែបអត្ថន័យដែលផ្អែកលើបញ្ញាសិប្បនិម្មិតលើរ៉ឺឡេ៖ អត្ថប្រយោជន៍ និងភាពងាយរងគ្រោះ",
+   "summary": "ការប្រាស្រ័យទាក់ទងបែបអត្ថន័យដោយប្រើโหนดរ៉ឺឡេត្រូវបានពិចារណា ដើម្បីបញ្ជូនព័ត៌មានដែលទាក់ទងនឹងភារកិច្ចពីរភុបប្រភពទៅគោលដៅ។ ការរចនាចុងក្រោយដល់ចុងក្រោយរួមគ្នាត្រូវបានអភិវឌ្ឍដើម្បីបង្កើនប្រសិទ្ធភាពទាំងភាពត្រឹមត្រូវនៃការសន្និដ្ឋានអត្ថន័យ និងគុណភាពនៃការបង្កើតឡើងវិញ។ ទោះជាយ៉ាងណាក៏ដោយ ភាពងាយរងគ្រោះផ្នែកសុវត្ថិភាពសំខាន់មួយត្រូវបានរកឃើញតាមរយៈការវាយប្រហារแบบ Byzantine ដែលរ៉ឺឡេបញ្ចូលការរំខានដើម្បីកាត់បន្ថយភាពត្រឹមត្រូវនៅគោលដៅ។",
+   "impact": "ការរកឃើញទាំងនេះបង្ហាញពីការដោះដូរគ្នារវាងអត្ថប្រយោជន៍នៃការប្រាស្រ័យទាក់ទងបែបអត្ថន័យ និងហានិភ័យសុវត្ថិភាពក្នុងប្រព័ន្ធរ៉ឺឡេ ដែលទាមទារឱ្យមានការរចនារ៉ឺឡេមានសុវត្ថិភាព។",
+   "keyPoints": [
+    "គ្រោងការណ៍ជំនួយដោយរ៉ឺឡេដំណើរការល្អជាងការបញ្ជូនផ្ទាល់ ជាពិសេសក្នុងកម្រិតសញ្ញានិងសំឡេងទាប។",
+    "ការវាយប្រហារแบบ Byzantine អាច menurunkan ភាពត្រឹមត្រូវនៃការសន្និដ្ឋានអត្ថន័យនៅគោលដៅយ៉ាងខ្លាំង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "基于中继的AI原生面向任务的语义通信：优势与漏洞",
+   "summary": "研究了使用中继节点的语义通信，中继节点协助将源端与分类标签相关的任务信息传送到目的端。开发了源编码器、中继转换和目的解码器的联合端到端设计，以优化图像数据的语义推理准确性和感知重建质量。研究表明中继辅助方案优于直接传输，但在带来性能收益的同时，中继也引入了安全漏洞，研究人员构想了一种拜占庭攻击，即中继在其传输的信号中注入结构化的扰动，从而显著降低目的端的语义推理准确性。",
+   "impact": "这些结果揭示了中继辅助系统中语义通信增益与安全风险之间的权衡，这表明有必要设计能够防范内部威胁的安全中继方案。",
+   "keyPoints": [
+    "中继辅助方案优于直接传输，在低信噪比状态下增益更加明显。",
+    "联合端到端设计优化了语义推理准确性和图像感知重建质量。",
+    "通过学习映射生成的结构化扰动可以显著降低目的端的语义推理准确性。"
+   ]
+  },
+  "ko": {
+   "title": "릴레이를 통한 AI 네이티브 태스크 지향 의미 통신: 이점 및 취약점",
+   "summary": "분류 레이블로 정의된 의미를 사용하여 소스에서 목적지로 태스크 관련 정보를 전달하는 릴레이 노드 기반의 의미 통신이 고려되었습니다. 소스 인코더, 릴레이 변환, 목적지 디코더의 공동 엔드투엔드 설계가 개발되어 이미지 데이터의 의미 추론 정확도와 지각 재구성 품질을 모두 최적화합니다. 릴레이 지원 방식은 직접 전송보다 우수한 성능을 보이며 신호 대 잡음비가 낮은 환경에서 이점이 더욱 두드러집니다. 그러나 이러한 성능 이점과 함께 릴레이가 도입하는 주요 보안 취약점이 확인되었으며, 릴레이가 전송 신호에 구조화된 교란을 주입하여 목적지의 의미 추론 정확도를 저하시키는 비잔틴 공격이 공식화되었습니다.",
+   "impact": "이러한 결과는 릴레이 지원 시스템에서 의미 통신 이점과 보안 위험 간의 명확한 상충 관계를 드러내며, 내부 위협을 고려한 안전한 릴레이 설계의 필요성을 시사합니다.",
+   "keyPoints": [
+    "릴레이 지원 방식은 다양한 릴레이 전략에서 저신호 대 잡음비 영역일수록 직접 전송보다 성능이 뛰어납니다.",
+    "공동 엔드투엔드 설계는 의미 추론 정확도와 지각 재구성 품질을 최적화합니다.",
+    "학습된 매핑을 통해 생성된 교란은 목적지에서의 의미 추론 정확도를 크게 저하시킵니다."
+   ]
+  }
+ }
+}

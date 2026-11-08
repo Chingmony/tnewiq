@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "93a001fe17792645",
+ "contentHash": "b841e700afce68d3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T18:58:42.494Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "OpenGoLive 0.9.8 Released: Improved Data Recovery, Local Editing Conflict Detection, and Group Permissions",
+   "summary": "OpenGoLive 0.9.8 has been released as an MIT open-source self-hosted HTML publishing and management tool. This update brings improvements to data recovery and migration, including preserving business record IDs, JSON values, sorting, and timestamps, alongside conflict detection and post-recovery read-back verification. It also introduces local editing conflict detection and group permissions.",
+   "impact": "Developers and system administrators using OpenGoLive for self-hosted HTML deployment could benefit from more reliable data migration and improved conflict management during local edits. These enhancements may help maintain data integrity and streamline administrative controls.",
+   "keyPoints": [
+    "OpenGoLive 0.9.8 is an MIT open-source self-hosted HTML publishing and management tool.",
+    "Data recovery and migration now retain business record IDs, JSON values, sorting, and timestamps.",
+    "Added conflict detection and post-recovery read-back verification.",
+    "Introduced local editing conflict detection and group permissions."
+   ]
+  },
+  "km": {
+   "title": "OpenGoLive 0.9.8 បានចេញផ្សាយ៖ ការកែលម្អការសង្គ្រោះទិន្នន័យ ការរកឃើញជម្លោះកែសម្រួលក្នុងស្រុក និងសិទ្ធិក្រុម",
+   "summary": "OpenGoLive 0.9.8 ត្រូវបានចេញផ្សាយ ដែលជាឧបករណ៍បោះពុម្ពផ្សាយ និងគ្រប់គ្រង HTML បើកចំហរប្រភព MIT សម្រាប់បង្ហោះដោយខ្លួនឯង។ ការអាប់ដេតនេះនាំមកនូវការកែលម្អលើការសង្គ្រោះ និងការផ្ទេរទិន្នន័យ រួមទាំងការរក្សាលេខសម្គាល់កំណត់ត្រាអាជីវកម្ម តម្លៃ JSON ការតម្រៀប និងត្រាពេលវេលា។ វากໍ່បានបន្ថែមការរកឃើញជម្លោះកែសម្រួលក្នុងស្រុក និងសិទ្ធិក្រុមផងដែរ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកគ្រប់គ្រងប្រព័ន្ធដែលប្រើប្រាស់ OpenGoLive អាចទទួលបានអត្ថប្រយោជន៍ពីការផ្ទេរទិន្នន័យដែលគួរឱ្យទុកចិត្តជាងមុន និងការគ្រប់គ្រងជម្លោះកាន់តែប្រសើរឡើង។ ការកែលម្អទាំងនេះអាចជួយរក្សាភាពសុចរិតនៃទិន្នន័យ។",
+   "keyPoints": [
+    "OpenGoLive 0.9.8 គឺជាឧបករណ៍គ្រប់គ្រង HTML ប្រភពបើកចំហរ MIT ។",
+    "ការសង្គ្រោះ និងការផ្ទេរទិន្នន័យឥឡូវនេះរក្សាលេខសម្គាល់កំណត់ត្រា តម្លៃ JSON និងត្រាពេលវេលា។",
+    "បានបន្ថែមការរកឃើញជម្លោះ និងការផ្ទៀងផ្ទាត់ការអានឡើងវិញក្រោយពេលសង្គ្រោះ។",
+    "បានណែនាំការរកឃើញជម្លោះកែសម្រួលក្នុងស្រុក និងសិទ្ធិក្រុម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "OpenGoLive 0.9.8 发布：改进数据恢复，新增本地编辑冲突检测与组权限",
+   "summary": "OpenGoLive 0.9.8 已正式发布，这是一款采用 MIT 协议开源的自部署 HTML 发布与管理工具。本次更新主要包含数据恢复与迁移方面的改进，在支持的操作中保留业务记录 ID、JSON 值、排序和时间戳，并增加了冲突检测与恢复后的读回校验。此外，新版本还新增了本地编辑冲突检测与组权限功能。",
+   "impact": "使用 OpenGoLive 进行自部署的开发者和技术团队可以从中获得更可靠的数据迁移体验以及更完善的冲突管理。这些改进有助于减少数据恢复过程中的潜在问题并强化管理权限控制。",
+   "keyPoints": [
+    "OpenGoLive 0.9.8 是一个基于 MIT 协议开源的自部署 HTML 发布与管理工具。",
+    "数据恢复与迁移现可保留业务记录 ID、JSON 值、排序和时间戳。",
+    "增加了冲突检测与恢复后的读回校验机制。",
+    "新增了本地编辑冲突检测与组权限功能。"
+   ]
+  },
+  "ko": {
+   "title": "OpenGoLive 0.9.8 출시: 데이터 복구 개선, 로컬 편집 충돌 감지 및 그룹 권한 추가",
+   "summary": "MIT 오픈소스 자체 호스팅 HTML 게시 및 관리 도구인 OpenGoLive 0.9.8이 출시되었습니다. 이번 업데이트에는 비즈니스 레코드 ID, JSON 값, 정렬 및 타임스탬프를 유지하고 충돌 감지 및 복구 후 읽기 검증을 추가하는 등 데이터 복구 및 마이그레이션 개선 사항이 포함되어 있습니다. 또한 로컬 편집 충돌 감지와 그룹 권한 기능이 새로 도입되었습니다.",
+   "impact": "OpenGoLive를 사용하는 개발자와 시스템 관리자는 더욱 안정적인 데이터 마이그레이션과 향상된 충돌 관리 기능의 혜택을 받을 수 있습니다. 이러한 개선 사항은 데이터 무결성을 유지하고 관리 제어를 간소화하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "OpenGoLive 0.9.8은 MIT 오픈소스 자체 호스팅 HTML 게시 및 관리 도구입니다.",
+    "데이터 복구 및 마이그레이션 시 비즈니스 레코드 ID, JSON 값, 정렬, 타임스탬프가 유지됩니다.",
+    "충돌 감지 및 복구 후 읽기 검증 기능이 추가되었습니다.",
+    "로컬 편집 충돌 감지 및 그룹 권한이 새로 도입되었습니다."
+   ]
+  }
+ }
+}

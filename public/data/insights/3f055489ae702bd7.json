@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3f055489ae702bd7",
+ "contentHash": "3c8fd4496f5dff5f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T18:57:33.565Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "zlang v0.12.14.1 Released: Supporting Chinese Programming, Web, and Desktop App Development with Independently Developed Domestic Programming Language",
+   "summary": "The self-developed programming language zlang has released versions 0.12.14.1 and 0.12.14.0. The updates include documentation improvements for object function exceptions, error corrections for exception settings, and the introduction of packaging into installers for delivery. Additionally, version 0.12.14.0 supports non-default construction and assignment referencing during variable declaration, alongside bug fixes for fixed-point decimal formatting and standard input/output.",
+   "impact": "Developers working with zlang may benefit from more stable exception handling and the new installer packaging feature for delivery. Bug fixes in fixed-point decimal formatting and standard input/output could also improve data handling reliability in applications.",
+   "keyPoints": [
+    "Released version 0.12.14.1 introducing installer packaging for delivery.",
+    "Improved documentation regarding object function exceptions and corrected exception settings.",
+    "Added support for non-default construction and assignment referencing when declaring variables in version 0.12.14.0.",
+    "Fixed bugs related to fixed-point decimal formatting, printing, and standard input/output."
+   ]
+  },
+  "km": {
+   "title": "zlang v0.12.14.1 ត្រូវបានចេញផ្សាយ ដែលគាំទ្រការសរសេរកម្មវិធីជាភាសាចិន និងការអភិវឌ្ឍកម្មវិធី Web/Desktop ជាភាសាជាកម្មវិធីដែលអភិវឌ្ឍដោយខ្លួនឯងក្នុងស្រុក",
+   "summary": "ភាសាសរសេរកម្មវិធី zlang បានបញ្ចេញកំណែ 0.12.14.1 និង 0.12.14.0 ដោយបានកែលម្អឯកសារស្តីពីករណីលើកលែងនៃមុខងារអបបjects និងបានកែតម្រូវការកំណត់កំហុស។ កំណែថ្មីនេះក៏បានណែនាំមុខងារវេចខ្ចប់ជាកម្មវិធីដំឡើងសម្រាប់ចែកចាយផងដែរ។ លើសពីនេះ កំណែ 0.12.14.0 គាំទ្រការប្រកាសអរូបី និងការយោងការកំណត់តម្លៃ ក៏ដូចជាការជួសជុលបាក់ផ្សេងៗផងដែរ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ដែលប្រើប្រាស់ zlang អាចទទួលបានអត្ថប្រយោជន៍ពីការគ្រប់គ្រងករណីលើកលែងដែលមានស្ថេរភាពជាងមុន និងលក្ខណៈពិសេសនៃការវេចខ្ចប់ដំឡើងថ្មី។ ការជួសជុលបាក់នៅលើទម្រង់ទសភាគ និងការបញ្ចូលនិងទិន្នផលស្តង់ដារក៏អាចជួយកែលម្អភាពជឿជាក់ផងដែរ។",
+   "keyPoints": [
+    "បានបញ្ចេញកំណែ 0.12.14.1 ជាមួយនឹងការវេចខ្ចប់ទៅជាកម្មវិធីដំឡើងសម្រាប់ការចែកចាយ។",
+    "បានកែលម្អឯកសារស្តីពីករណីលើកលែងនៃមុខងារអបបjects និងកែតម្រូវការកំណត់កំហុស។",
+    "បានបន្ថែមការគាំទ្រសម្រាប់ការសាងសង់មិនមែនលំនាំដើម និងការយោងការកំណត់តម្លៃពេលប្រកាសអរូបី។",
+    "បានជួសជុលបាក់ទាក់ទងនឹងទម្រង់ទសភាគ និងការបញ្ចូលនិងទិន្នផលស្តង់ដារ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "zlang v0.12.14.1 发布，支持中文编程、支持 Web 开发/桌面应用开发的国产全自研编程语言",
+   "summary": "国产自研编程语言 zlang 发布了 0.12.14.1 和 0.12.14.0 版本。本次更新完善了文档中的对象函数异常，修正了异常设置错误，并引入了打包成安装程序交付的功能。此外，0.12.14.0 版本支持了声明变量时非缺省构造加赋值引用，并修复了定点小数格式化打印及标准输入输出的相关 Bug。",
+   "impact": "使用 zlang 的开发者可以受益于更完善的异常处理文档、安装程序打包交付功能以及定点小数和输入输出相关的错误修复，从而提升开发和应用运行的稳定性。",
+   "keyPoints": [
+    "发布了 0.12.14.1 版本，引入打包成安装程序交付。",
+    "完善了文档中的对象函数异常并修正了异常设置错误。",
+    "0.12.14.0 版本支持声明变量时的非缺省构造与赋值引用。",
+    "修复了定点小数格式化打印及标准输入输出的多个 Bug。"
+   ]
+  },
+  "ko": {
+   "title": "zlang v0.12.14.1 출시, 중국어 프로그래밍 및 웹/데스크톱 앱 개발을 지원하는 국산 자체 개발 프로그래밍 언어",
+   "summary": "자체 개발 프로그래밍 언어인 zlang이 v0.12.14.1 및 v0.12.14.0 버전을 출시했습니다. 이번 업데이트에는 객체 함수 예외 문서 개선, 예외 설정 오류 수정, 설치 프로그램 패키징 및 배포 기능 도입이 포함되어 있습니다. 또한 v0.12.14.0에서는 변수 선언 시 기본값이 아닌 생성자 및 대입 참조를 지원하며, 고정 소수점 형식화 출력 및 표준 입출력과 관련된 버그들이 수정되었습니다.",
+   "impact": "zlang을 사용하는 개발자는 더욱 안정적인 예외 처리와 새로운 설치 프로그램 패키징 기능을 활용할 수 있습니다. 또한 고정 소수점 및 입출력 버그 수정으로 인해 애플리케이션의 데이터 처리 신뢰도가 향상될 수 있습니다.",
+   "keyPoints": [
+    "설치 프로그램 패키징 및 배포 기능을 도입한 v0.12.14.1 버전 출시.",
+    "객체 함수 예외 관련 문서 개선 및 예외 설정 오류 수정.",
+    "v0.12.14.0에서 변수 선언 시 비기본 생성자 및 대입 참조 지원 추가.",
+    "고정 소수점 형식화 출력 및 표준 입출력 관련 버그 수정."
+   ]
+  }
+ }
+}

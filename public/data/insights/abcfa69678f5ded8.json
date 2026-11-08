@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "abcfa69678f5ded8",
+ "contentHash": "aee4a7bf5140a0cb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T19:00:59.274Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Docker and ActiveState Extending Secure Defaults to the Packages Developers Install",
+   "summary": "Docker has partnered with ActiveState to extend trusted content standards from Docker Hardened Images to the individual packages developers and AI coding assistants install. The integration allows teams to use familiar package managers while sourcing approved dependencies through governed repositories instead of public registries directly. This aims to secure both the container foundation layer and the application dependency layer against supply chain risks.",
+   "impact": "This partnership could help security teams and developers mitigate supply chain attacks by ensuring that both base images and installed packages are vetted and sourced from governed repositories. It may reduce vulnerability remediation workloads and protect workflows that utilize automated coding agents.",
+   "keyPoints": [
+    "Docker Hardened Images offer a catalog of over 4,000 minimal, source-built images and 65,000 hardened system packages.",
+    "The ActiveState partnership extends trusted content standards to packages installed by developers and AI coding agents via tools like pip, npm, and Maven.",
+    "Integrations allow teams to use standard workflows while routing dependencies through governed repositories.",
+    "Docker Hardened Images were unaffected by the TeamPCP campaign due to controlled build pipelines and dependency cooldown periods."
+   ]
+  },
+  "km": {
+   "title": "Docker និង ActiveState ពង្រីកការកំណត់សុវត្ថិភាពលំនាំដើមដល់កញ្ចប់ដែលអ្នកអភិវឌ្ឍន៍ដំឡើង",
+   "summary": "Docker បានចាប់ដៃគូជាមួយ ActiveState ដើម្បីពង្រីកស្តង់ដារមាតិកាដែលទុកចិត្តពី Docker Hardened Images ទៅកាន់កញ្ចប់នីមួយៗដែលអ្នកអភិវឌ្ឍន៍ និងជំនួយការសរសេរកូដ AI ដំឡើង។ ការរួមបញ្ចូលគ្នានេះអនុញ្ញាតឱ្យក្រុមការងារប្រើប្រាស់កម្មវិធីគ្រប់គ្រងកញ្ចប់ដែលធ្លាប់ស្គាល់ ខណៈពេលដែលទទួលបានការពឹងផ្អែកដែលបានអនុម័តតាមរយៈឃ្លាំងគ្រប់គ្រងជំនួសឱ្យការចុះឈ្មោះសាធារណៈដោយផ្ទាល់។ នេះមានគោលបំណងធានាសុវត្ថិភាពទាំងស្រទាប់គ្រឹះកុងតైన័រ និងស្រទាប់អាស្រ័យកម្មវិធីប្រឆាំងនឹងហានិភ័យខ្សែសង្វាក់ផ្គត់ផ្គង់។",
+   "impact": "ភាពជាដៃគូនេះអាចជួយដល់ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ក្នុងការកាត់បន្ថយការវាយប្រហារលើខ្សែសង្វាក់ផ្គត់ផ្គង់ ដោយធានាថាទាំងរូបភាពមូលដ្ឋាន និងកញ្ចប់ដែលបានដំឡើងត្រូវបានពិនិត្យ និងយកចេញពីឃ្លាំងដែលមានការគ្រប់គ្រង។ វាអាចកាត់បន្ថយបន្ទុកការងារជួសជុលភាពងាយរងគ្រោះ និងការពារដំណើរការការងារដែលប្រើប្រាស់ភ្នាក់ងារសរសេរកូដស្វ័យប្រវត្តិ។",
+   "keyPoints": [
+    "Docker Hardened Images ផ្តល់នូវកាតាឡុកនៃរូបភាពខ្នាតតូចដែលបង្កើតពីប្រភពជាង ៤,០០០ និងកញ្ចប់ប្រព័ន្ធដែលបានពង្រឹងជាង ៦៥,០០០។",
+    "ភាពជាដៃគូ ActiveState ពង្រីកស្តង់ដារមាតិកាដែលទុកចិត្តទៅកាន់កញ្ចប់ដែលបានដំឡើងដោយអ្នកអភិវឌ្ឍន៍ និងភ្នាក់ងារសរសេរកូដ AI តាមរយៈឧបករណ៍ដូចជា pip, npm និង Maven។",
+    "ការរួមបញ្ចូលអនុញ្ញាតឱ្យក្រុមការងារប្រើប្រាស់ដំណើរការការងារស្តង់ដារ ខណៈពេលដែលបញ្ជូនការពឹងផ្អែកតាមរយៈឃ្លាំងគ្រប់គ្រង។",
+    "Docker Hardened Images មិនរងផលប៉ះពាល់ដោយយុទ្ធនាការ TeamPCP ទេ ដោយសារបណ្តាញសាងសង់ដែលបានគ្រប់គ្រង និងរយៈពេលត្រជាក់នៃការអាស្រ័យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Docker与ActiveState将安全默认设置扩展至开发者安装的软件包",
+   "summary": "Docker已与ActiveState达成合作，将受信任的内容标准从Docker Hardened Images扩展到开发者和AI编码助手安装的各个软件包。该集成允许团队使用熟悉的包管理器，同时通过受控仓库获取已批准的依赖项，而不是直接从公共注册表中获取。此举旨在保护容器基础层和应用程序依赖层免受供应链风险的影响。",
+   "impact": "这一合作关系可能有助于安全团队和开发人员通过确保基础镜像和已安装的软件包都经过审查并来自受控仓库来减轻供应链攻击。它可能会减少漏洞修复工作量，并保护使用自动化编码代理的工作流。",
+   "keyPoints": [
+    "Docker Hardened Images提供包含4000多个由源码构建的最小化镜像以及65000多个加固系统软件包的目录。",
+    "与ActiveState的合作将受信任的内容标准扩展到了由开发者和AI编码代理通过pip、npm和Maven等工具安装的软件包。",
+    "集成允许团队在继续使用标准工作流的同时，通过受控仓库路由依赖项。",
+    "由于受控的构建流水线和依赖项冷静期，Docker Hardened Images未受到TeamPCP活动的影响。"
+   ]
+  },
+  "ko": {
+   "title": "Docker와 ActiveState, 개발자가 설치하는 패키지로 보안 기본값 확장",
+   "summary": "Docker는 ActiveState와 파트너십을 맺고 신뢰할 수 있는 콘텐츠 표준을 Docker Hardened Images에서 개발자와 AI 코딩 어시스턴트가 설치하는 개별 패키지로 확장했습니다. 이 통합을 통해 팀은 친숙한 패키지 관리자를 계속 사용하면서도 공개 레지스트리에서 직접 가져오는 대신 관리되는 저장소를 통해 승인된 종속성을 소싱할 수 있습니다. 이는 컨테이너 기반 계층과 애플리케이션 종속성 계층 모두를 공급망 위험으로부터 보호하는 것을 목표로 합니다.",
+   "impact": "이 파트너십은 보안 팀과 개발자가 기본 이미지와 설치된 패키지가 모두 검증되고 관리되는 저장소에서 조달되도록 보장함으로써 공급망 공격을 완화하는 데 도움이 될 수 있습니다. 취약성 수정 작업량을 줄이고 자동화된 코딩 에이전트를 사용하는 워크플로를 보호할 수 있습니다.",
+   "keyPoints": [
+    "Docker Hardened Images는 소스에서 빌드된 4,000개 이상의 최소형 이미지와 65,000개 이상의 강화된 시스템 패키지 카탈로그를 제공합니다.",
+    "ActiveState와의 파트너십은 pip, npm, Maven 등의 도구를 통해 개발자와 AI 코딩 에이전트가 설치하는 패키지로 신뢰할 수 있는 콘텐츠 표준을 확장합니다.",
+    "통합을 통해 팀은 표준 워크플로를 계속 사용하면서 종속성을 관리되는 저장소를 통해 라우팅할 수 있습니다.",
+    "Docker Hardened Images는 제어된 빌드 파이프라인과 종속성 쿨다운 기간 덕분에 TeamPCP 캠페인의 영향을 받지 않았습니다."
+   ]
+  }
+ }
+}

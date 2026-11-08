@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "569d529b07233187",
+ "contentHash": "993fb8b1462230da",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T18:56:42.766Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test",
+   "summary": "Alibaba has introduced a new coding-agent benchmark called Co-Design Bench to test AI agents on real user requests that have previously caused failures. In testing, even the top-performing model, GPT-6 Astra, was only able to fully solve 26.4 percent of the tasks. This contrasts sharply with older benchmarks where the same models scored above 99 percent.",
+   "impact": "This new benchmark may show that current AI coding agents face significant challenges with real-world user requests. Developers and technology users could need to perform manual cleanup on the majority of tasks handled by these agents.",
+   "keyPoints": [
+    "Alibaba introduced Co-Design Bench to test AI coding agents on real user requests.",
+    "GPT-6 Astra scored the highest but fully solved only 26.4 percent of tasks.",
+    "The same models previously scored above 99 percent on older benchmarks."
+   ]
+  },
+  "km": {
+   "title": "ភ្នាក់ងារសរសេរកូដ AI នៅតែត្រូវការការកែសម្រួលដោយមនុស្សលើកិច្ចការស្ទើរតែបីក្នុងចំណោមបួននៅក្នុងការធ្វើតេស្តក្នុងពិភពលោកពិត",
+   "summary": "ក្រុមហ៊ុន Alibaba បានដាក់បង្ហាញស្តង់ដារវាយតម្លៃភ្នាក់ងារសរសេរកូដថ្មីមួយដែលមានឈ្មោះថា Co-Design Bench ដើម្បីសាកល្បងភ្នាក់ងារ AI លើសំណើរបស់អ្នកប្រើប្រាស់ពិតប្រាកដដែលធ្លាប់បានបរាជ័យក្នុងពេលជាក់ស្តែង។ នៅក្នុងការធ្វើតេស្តនេះ សូម្បីតែម៉ូដែលដែលមានដំណើរការខ្ពស់ជាងគេ GPT-6 Astra ក៏អាចដោះស្រាយកិច្ចការបានត្រឹមតែ ២៦,៤ ភាគរយពេញលេញប៉ុណ្ណោះ។",
+   "impact": "ស្តង់ដារវាយតម្លៃថ្មីនេះអាចបង្ហាញថាភ្នាក់ងារកូដ AI បច្ចុប្បន្នកំពុងប្រឈមមុខនឹងបញ្ហាប្រឈមធំៗជាមួយសំណើអ្នកប្រើប្រាស់ក្នុងពិភពលោកពិត។ អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវធ្វើការកែសម្រួលដោយដៃលើកិច្ចការភាគច្រើនដែលគ្រប់គ្រងដោយភ្នាក់ងារទាំងនេះ។",
+   "keyPoints": [
+    "ក្រុមហ៊ុន Alibaba បានដាក់ឱ្យដំណើរការ Co-Design Bench ដើម្បីសាកល្បងភ្នាក់ងារកូដ AI ។",
+    "GPT-6 Astra ទទួលបានពិន្ទុខ្ពស់ជាងគេប៉ុន្តែដោះស្រាយកិច្ចការបានត្រឹមតែ ២៦,៤ ភាគរយប៉ុណ្ណោះ។",
+    "ម៉ូដែលដដែលនេះធ្លាប់ទទួលបានពិន្ទុលើសពី ៩៩ ភាគរយលើស្តង់ដារចាស់ៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "实测显示近四分之三的AI编程任务仍需人工清理",
+   "summary": "阿里巴巴推出了一个新的编码智能体基准测试 Co-Design Bench，用于在实际用户请求中测试 AI 智能体，这些请求在实践中曾使其受挫。测试显示，表现最好的模型 GPT-6 Astra 也仅能完全解决 26.4% 的任务。在旧的基准测试中，相同的模型得分曾超过 99%。",
+   "impact": "这一新的基准测试可能表明当前的 AI 编程智能体在处理真实的实际用户请求时面临重大挑战。开发者和技术用户可能需要在这些智能体处理的大多数任务上进行人工清理。",
+   "keyPoints": [
+    "阿里巴巴推出了 Co-Design Bench 来测试实际用户请求中的 AI 编程智能体。",
+    "GPT-6 Astra 表现最好，但仅完全解决了 26.4% 的任务。",
+    "相同模型在旧基准测试中的得分曾超过 99%。"
+   ]
+  },
+  "ko": {
+   "title": "실제 테스트에서 AI 코딩 에이전트가 수행한 작업 4개 중 거의 3개는 여전히 인간의 정리가 필요한 것으로 나타남",
+   "summary": "알리바바는 실제 사용자 요청을 바탕으로 AI 에이전트를 테스트하는 새로운 코딩 에이전트 벤치마크인 Co-Design Bench를 공개했다. 테스트 결과 가장 뛰어난 성능을 보인 GPT-6 Astra조차도 전체 작업의 26.4퍼센트만 완전히 해결했다. 기존의 벤치마크에서는 동일한 모델들이 99퍼센트 이상의 점수를 기록한 바 있다.",
+   "impact": "이번 새로운 벤치마크는 현재의 AI 코딩 에이전트가 실제 사용자 요청을 처리하는 데 있어 상당한 과제에 직면해 있음을 보여줄 수 있다. 개발자와 기술 사용자는 이 에이전트가 처리한 대부분의 작업에서 수동 정리를 수행해야 할 수 있다.",
+   "keyPoints": [
+    "알리바바는 실제 사용자 요청으로 AI 코딩 에이전트를 테스트하기 위해 Co-Design Bench를 도입했다.",
+    "GPT-6 Astra가 가장 높은 점수를 기록했으나 작업의 26.4퍼센트만 완전히 해결했다.",
+    "동일한 모델들은 이전 구형 벤치마크에서 99퍼센트가 넘는 점수를 기록했다."
+   ]
+  }
+ }
+}

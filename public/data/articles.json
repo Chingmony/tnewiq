@@ -1,7 +1,55 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-08T13:30:08.848Z",
+ "generatedAt": "2026-11-08T18:51:25.751Z",
  "articles": [
+  {
+   "id": "c08233254ab55692",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Elvis and Eminem rights holders are suing Suno",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+   "originalLanguage": "en",
+   "originalDescription": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the…",
+   "publishedAt": "2026-11-08T17:23:19.000Z",
+   "discoveredAt": "2026-11-08T18:51:25.751Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "35b59f95b41599b1"
+  },
+  {
+   "id": "998b24524a9c31d5",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+   "originalUrl": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+   "originalLanguage": "en",
+   "originalDescription": "OpenAI co-founder Andrej Karpathy used Claude's Opus 5.5 to filter 43 million Hacker News comments into 6,454 curated videos. The result beats YouTube's own recommendations, he says. The article Andrej Karpathy built a curated video platform in a weekend using Claude and 20…",
+   "publishedAt": "2026-11-08T14:23:00.000Z",
+   "discoveredAt": "2026-11-08T18:51:25.751Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "43bd4620996dd919"
+  },
+  {
+   "id": "754db70809b852b7",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate",
+   "originalUrl": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
+   "originalLanguage": "en",
+   "originalDescription": "Consciousness researchers Anil Seth, Ned Block, and Giulio Tononi argue in a Nature commentary that today's AI systems aren't conscious and won't become so on silicon hardware. They consider the assumption that consciousness depends on computation alone \"fatally flawed\" and…",
+   "publishedAt": "2026-11-08T13:49:21.000Z",
+   "discoveredAt": "2026-11-08T18:51:25.751Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "49fec0d033ae5caa"
+  },
   {
    "id": "1d9b2433972fe4ad",
    "sourceId": "the-decoder",
@@ -582,6 +630,22 @@
    ],
    "imageUrl": null,
    "contentHash": "7c275ceb143c95fb"
+  },
+  {
+   "id": "2fac68a665996a72",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Zigzag Browser",
+   "originalUrl": "https://www.producthunt.com/products/zigzag-browser",
+   "originalLanguage": "en",
+   "originalDescription": "The polished, native Mac browser for life after Arc Discussion | Link",
+   "publishedAt": "2026-11-07T14:38:06.000Z",
+   "discoveredAt": "2026-11-08T18:51:25.751Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "ed8c0187329678ea"
   },
   {
    "id": "dadb00611d082350",
@@ -5067,6 +5131,23 @@
    ],
    "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M6HXVQ0MH26TMB3HFFHA31DK.png",
    "contentHash": "2d3645ff0f801fc3"
+  },
+  {
+   "id": "5beef147a7815df4",
+   "sourceId": "nvidia-blog",
+   "sourceName": "NVIDIA Blog",
+   "originalTitle": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+   "originalUrl": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+   "originalLanguage": "en",
+   "originalDescription": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building…",
+   "publishedAt": "2026-11-05T17:00:35.000Z",
+   "discoveredAt": "2026-11-08T18:51:25.751Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/10/Copy-of-nvidia-ov-x-astra-4up-KV-r1-press-4k-r2-scaled.png",
+   "contentHash": "1c4c39d3bf20a66d"
   },
   {
    "id": "27b87d65d3f99406",
@@ -24538,91 +24619,6 @@
    ],
    "imageUrl": null,
    "contentHash": "6cfc93491f88a05c"
-  },
-  {
-   "id": "88db15bd13dd4716",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates",
-   "originalUrl": "https://arxiv.org/abs/2610.40516v1",
-   "originalLanguage": "en",
-   "originalDescription": "Safety alignment for Large Language Models is heavily focused on English with limited multilingual representation, particularly damaging low-resource language performance. Related open training datasets are often limited in size or do not follow region-localized harmful topics…",
-   "publishedAt": "2026-10-29T17:26:02.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "6b1cf3fbf41e0c56"
-  },
-  {
-   "id": "a862aa46ebca6370",
-   "sourceId": "arxiv-cs-cl",
-   "sourceName": "arXiv cs.CL",
-   "originalTitle": "A Low-Rank Space Captures Linear Alignment Between LLM and Human Neural Activity During Naturalistic Language Listening",
-   "originalUrl": "https://arxiv.org/abs/2610.40511v1",
-   "originalLanguage": "en",
-   "originalDescription": "Large language models (LLMs) are increasingly used as computational models of human language processing, yet it remains unclear which components of their representations drive alignment with neural activity. Here, we use ridge reduced-rank regression to identify the…",
-   "publishedAt": "2026-10-29T17:23:44.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "55b68ee7bdf109d9"
-  },
-  {
-   "id": "a9b35136f799d304",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "RecHash: Segmented Hash-Entangled Chains for Stateful Sequential Authentication",
-   "originalUrl": "https://arxiv.org/abs/2610.40507v1",
-   "originalLanguage": "en",
-   "originalDescription": "RecHash is a stateful sequential authentication construction based on paired hash-chain openings and an authenticated record history. It develops the decreasing position relation of the 2019 hash-entangled construction, whose exact integer normalization yields a two-coordinate…",
-   "publishedAt": "2026-10-29T17:23:08.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "6b74ada619b32f03"
-  },
-  {
-   "id": "122339a1142db2c0",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Discovering Interpretable Acoustic Features in Autoregressive Voice-Cloning TTS Models",
-   "originalUrl": "https://arxiv.org/abs/2610.40505v1",
-   "originalLanguage": "en",
-   "originalDescription": "Voice-cloning TTS models synthesize an unseen speaker's voice from brief speech prompts, but it remains unclear which acoustic properties they represent and use. We introduce a feature-based interpretability framework for autoregressive voice-cloning TTS models, analyzing…",
-   "publishedAt": "2026-10-29T17:21:36.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "f96e12242f089d14"
-  },
-  {
-   "id": "b4a201d02fdbef2d",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Numerical Integration on Bounded Domains via Learned Reflected Diffusions",
-   "originalUrl": "https://arxiv.org/abs/2610.40499v1",
-   "originalLanguage": "en",
-   "originalDescription": "We study high-dimensional integration on bounded convex domains. Given a non-negative integrand $r$, the goal is to estimate $Z=\\int_{D}r(x)\\,\\mathrm dx$ on $D\\subset\\mathbb R^d$. Standard Quasi-Monte Carlo does not adapt its evaluation points to the integrand, while effective…",
-   "publishedAt": "2026-10-29T17:20:02.000Z",
-   "discoveredAt": "2026-10-30T08:42:17.026Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "2273df8e27fe2722"
   }
  ]
 }

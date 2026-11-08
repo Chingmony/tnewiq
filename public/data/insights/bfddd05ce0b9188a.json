@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "bfddd05ce0b9188a",
+ "contentHash": "97b70992e121fc48",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T19:00:36.678Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon FSx for Lustre delivers 16x higher metadata IOPS on Intelligent-Tiering file systems",
+   "summary": "Amazon FSx for Lustre now supports up to 192,000 metadata I/O operations per second on file systems using the Intelligent-Tiering storage class. This represents a 16-fold increase from the previous maximum of 12,000 IOPS. The update is designed to help accelerate workloads that involve mixed hot and cold data.",
+   "impact": "This improvement could allow developers and engineering teams to scale performance for metadata-intensive machine learning research and high-performance computing workloads. Users may benefit from optimized storage costs and faster results when handling intensive file and directory operations.",
+   "keyPoints": [
+    "Metadata IOPS increased up to 192,000 on Intelligent-Tiering file systems.",
+    "Performance is 16 times higher than the previous maximum of 12,000 IOPS.",
+    "Available on new FSx for Lustre Intelligent-Tiering file systems in all regions where the storage class is offered."
+   ]
+  },
+  "km": {
+   "title": "Amazon FSx for Lustre ផ្តល់នូវ metadata IOPS ខ្ពស់ជាង ១៦ ដងនៅលើប្រព័ន្ធឯកសារ Intelligent-Tiering",
+   "summary": "Amazon FSx for Lustre ឥឡូវនេះគាំទ្ររហូតដល់ ១៩២.០០០ ប្រតិបត្តិការ I/O មេតាដាណាតាមវិនាទីនៅលើប្រព័ន្ធឯកសារដែលប្រើប្រាស់ថ្នាក់ផ្ទុកទិន្នន័យ Intelligent-Tiering ។ ការណ៍នេះគឺខ្ពស់ជាង ១៦ ដងបើធៀបនឹងអតិបរមាពីមុនចំនួន ១២.០០០ IOPS ។ ការធ្វើបច្ចុប្បន្នភាពនេះត្រូវបានរចនាឡើងដើម្បីជួយពន្លឿនបន្ទុកការងារដែលមានទិន្នន័យក្តៅ និងត្រជាក់ចម្រុះគ្នា។",
+   "impact": "ការកែលម្អនេះអាចអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខពង្រីកដំណើរការសម្រាប់កិច្ចការស្រាវជ្រាវម៉ាស៊ីនរៀនដែលប្រើប្រាស់មេតាដាណាខ្លាំង និងកិច្ចការគណនាដែលមានប្រសិទ្ធភាពខ្ពស់។ អ្នកប្រើប្រាស់អាចទទួលបានអត្ថប្រយោជន៍ពីការបង្កើនប្រសិទ្ធភាពថ្លៃដើមនៃការផ្ទុកទិន្នន័យ និងលទ្ធផលកាន់តែលឿន។",
+   "keyPoints": [
+    "Metadata IOPS បានកើនឡើងដល់ ១៩២.០០០ នៅលើប្រព័ន្ធឯកសារ Intelligent-Tiering ។",
+    "ដំណើរការគឺខ្ពស់ជាង ១៦ ដងបើធៀបនឹងអតិបរមាពីមុនចំនួន ១២.០០០ IOPS ។",
+    "មាននៅលើប្រព័ន្ធឯកសារ FSx for Lustre Intelligent-Tiering ថ្មីនៅក្នុងតំបន់ AWS ទាំងអស់ដែលថ្នាក់ផ្ទុកទិន្នន័យនេះមាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon FSx for Lustre 在 Intelligent-Tiering 文件系统上将元数据 IOPS 提高 16 倍",
+   "summary": "Amazon FSx for Lustre 现在在使用 Intelligent-Tiering 存储类别的 文件系统上支持高达 192,000 的元数据每秒输入输出操作数。这比之前的最高 12,000 IOPS 提高了 16 倍。该更新旨在帮助加速混合了热数据和冷Data的工作负载。",
+   "impact": "这一改进可能会使开发人员和技术团队能够扩展元数据密集型机器学习研究和高性能计算工作负载的性能。用户在处理密集的文件和目录操作时，可能会受益于优化的存储成本和更快的结果输出。",
+   "keyPoints": [
+    "Intelligent-Tiering 文件系统上的元数据 IOPS 提升至最高 192,000。",
+    "性能比之前的 12,000 IOPS 最高值提高了 16 倍。",
+    "适用于提供 Intelligent-Tiering 存储类别的所有 AWS 区域中的新 FSx for Lustre Intelligent-Tiering 文件系统。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon FSx for Lustre, Intelligent-Tiering 파일 시스템에서 메타데이터 IOPS 16배 향상",
+   "summary": "Amazon FSx for Lustre는 이제 Intelligent-Tiering 스토리지 클래스를 사용하는 파일 시스템에서 초당 최대 192,000개의 메타데이터 I/O 작업을 지원합니다. 이는 이전 최대치인 12,000 IOPS보다 16배 높은 수치입니다. 이 업데이트는 핫 데이터와 콜드 데이터가 혼합된 워크로드를 가속화하도록 설계되었습니다.",
+   "impact": "이번 개선을 통해 개발자와 기술 팀은 메타데이터 집약적인 머신러닝 연구 및 고성능 컴퓨팅 워크로드를 위한 성능을 확장할 수 있습니다. 사용자는 집약적인 파일 및 디렉토리 작업을 처리할 때 최적화된 스토리지 비용과 더 빠른 결과 도출의 이점을 누릴 수 있습니다.",
+   "keyPoints": [
+    "Intelligent-Tiering 파일 시스템에서 메타데이터 IOPS가 최대 192,000까지 지원됨.",
+    "이전 최대치인 12,000 IOPS에 비해 성능이 16배 향상됨.",
+    "Intelligent-Tiering 스토리지 클래스를 사용할 수 있는 모든 AWS 리전의 새로운 FSx for Lustre Intelligent-Tiering 파일 시스템에서 제공됨."
+   ]
+  }
+ }
+}
