@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "86e4d87385b40789",
+ "contentHash": "24332a5244492480",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T06:16:43.611Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+   "summary": "Larger models, longer contexts, and agentic applications are increasing GPU memory pressure as supply tightens and prices rise. To address this, NVIDIA applies a full-stack codesign approach, intentionally designing GPUs, CPUs, networking, storage, and software together. This strategy manages data across a memory and storage hierarchy to maximize the efficiency of every byte.",
+   "impact": "Developers and technology users may benefit from improved memory efficiency and throughput as platforms like Blackwell Ultra and Vera Rubin scale. Understanding memory hierarchies could help security teams and system architects design more cost-effective and powerful AI infrastructures.",
+   "keyPoints": [
+    "Agentic applications, RAG, and larger models increase GPU high-bandwidth memory pressure.",
+    "NVIDIA uses a full-stack codesign approach across GPUs, CPUs, networking, storage, and software.",
+    "An AI factory manages data across a memory and storage hierarchy to balance speed and capacity.",
+    "Agentic throughput per dollar rose by up to 30x on SemiAnalysis AgentX from Blackwell Ultra to Vera Rubin."
+   ]
+  },
+  "km": {
+   "title": "ការអនុវត្តកាន់តែច្រើនពីបាយតនីមួយៗ៖ របៀបដែលការរចនាកូដពេញលេញដោះស្រាយបញ្ហាប្រឈមផ្នែកអង្គចងចាំរបស់ AI",
+   "summary": "ម៉ូដែលកាន់តែធំ បរិបទកាន់តែវែង និងកម្មវិធីភ្នាក់ងារកំពុងបង្កើនសម្ពាធអង្គចងចាំ GPU ខណៈដែលការផ្គត់ផ្គង់មានការចង្អៀតនិងតម្លៃកើនឡើង។ ដើម្បីដោះស្រាយបញ្ហានេះ NVIDIA អនុវត្តវិធីសាស្ត្ររចនាកូដពេញលេញ ដោយរចនា GPU, CPU, ប្រព័ន្ធបណ្តាញ, កន្លែងផ្ទុកទិន្នន័យ និង सफទ‌វែរជាមួយគ្នាដោយចេតនា។ យុទ្ធសាស្ត្រនេះគ្រប់គ្រងទិន្នន័យឆ្លងកាត់ឋានានុក្រមអង្គចងចាំនិងកន្លែងផ្ទុក ដើម្បីបង្កើនប្រសិទ្ធភាពនៃបាយតនីមួយៗឱ្យបានអតិបរមា។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានប្រយោជន៍ពីប្រសិទ្ធភាពអង្គចងចាំនិងល្បឿនដំណើរការកាន់តែប្រសើរឡើង នៅពេលដែលវេទិកាដូចជា Blackwell Ultra និង Vera Rubin រីកចម្រើន។ ការយល់ដឹងពីឋានានុក្រមអង្គចងចាំអាចជួយដល់ក្រុមសន្តិសុខ និងស្ថាបត្យករប្រព័ន្ធក្នុងការរចនាហេដ្ឋារចនាសម្ព័ន្ធ AI ដែលមានប្រសិទ្ធភាពចំណាយនិងមានឥទ្ធិពលខ្លាំងជាងមុន។",
+   "keyPoints": [
+    "កម្មវិធីភ្នាក់ងារ RAG និងម៉ូដែលធំៗ បង្កើនសម្ពាធលើអង្គចងចាំកម្រិតបញ្ជូនខ្ពស់របស់ GPU។",
+    "NVIDIA ប្រើប្រាស់វិធីសាស្ត្ររចនាកូដពេញលេញឆ្លងកាត់ GPU, CPU, ប្រព័ន្ធបណ្តាញ, កន្លែងផ្ទុក និងซហ្វវែរ។",
+    "រោងចក្រ AI គ្រប់គ្រងទិន្នន័យឆ្លងកាត់ឋានានុក្រមអង្គចងចាំនិងកន្លែងផ្ទុកដើម្បីតុល្យភាពល្បឿននិងសមត្ថភាព។",
+    "កម្រិតបញ្ជូនភ្នាក់ងារក្នុងមួយដុល្លារបានកើនឡើងរហូតដល់ 30 ដងនៅលើ SemiAnalysis AgentX ពី Blackwell Ultra ទៅ Vera Rubin។"
+   ]
+  },
+  "zh-CN": {
+   "title": "从每个字节中榨取更多性能：全栈协同设计如何解决人工智能的内存挑战",
+   "summary": "随着模型规模不断扩大、上下文变长以及智能体应用的普及，GPU内存压力正在增加，同时供应链收紧且价格上涨。为了应对这一挑战，NVIDIA采用了全栈协同设计方法，故意将GPU、CPU、网络、存储和软件共同设计。该策略在内存和存储层级中管理数据，以最大限度地提高每个字节的效率。",
+   "impact": "随着Blackwell Ultra和Vera Rubin等平台的扩展，开发人员和技术用户可能会受益于更高的内存效率和吞吐量。理解内存层级结构可能有助于安全团队和系统架构师设计出更具成本效益且功能更强大的人工智能基础设施。",
+   "keyPoints": [
+    "智能体应用、RAG和更大规模的模型增加了GPU高带宽内存的压力。",
+    "NVIDIA在GPU、CPU、网络、存储和软件之间采用了全栈协同设计方法。",
+    "人工智能工厂在内存和存储层级中管理数据，以平衡速度与容量。",
+    "从Blackwell Ultra到Vera Rubin平台，SemiAnalysis AgentX上的每美元智能体吞吐量提升了高达30倍。"
+   ]
+  },
+  "ko": {
+   "title": "모든 바이트에서 더 많은 성능 확보: 풀스택 공동 설계가 AI의 메모리 과제를 해결하는 방법",
+   "summary": "더 큰 모델, 더 긴 컨텍스트, 에이전트 애플리케이션이 공급 부족과 가격 상승 속에서 GPU 메모리 압박을 가중시키고 있습니다. 이를 해결하기 위해 NVIDIA는 GPU, CPU, 네트워킹, 스토리지, 소프트웨어를 의도적으로 함께 설계하는 풀스택 공동 설계 방식을 적용합니다. 이 전략은 메모리 및 스토리지 계층 구조 전체에서 데이터를 관리하여 모든 바이트의 효율성을 극대화합니다.",
+   "impact": "개발자와 기술 사용자는 Blackwell Ultra 및 Vera Rubin과 같은 플랫폼이 확장됨에 따라 향상된 메모리 효율성과 처리량의 이점을 얻을 수 있습니다. 메모리 계층 구조를 이해하는 것은 보안 팀과 시스템 아키텍트가 더 비용 효율적이고 강력한 AI 인프라를 설계하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "에이전트 애플리케이션, RAG 및 대형 모델은 GPU 고대역폭 메모리에 대한 압박을 증가시킵니다.",
+    "NVIDIA는 GPU, CPU, 네트워킹, 스토리지 및 소프트웨어 전반에 걸쳐 풀스택 공동 설계 방식을 사용합니다.",
+    "AI 팩토리는 속도와 용량의 균형을 맞추기 위해 메모리 및 스토리지 계층 구조 전체에서 데이터를 관리합니다.",
+    "Blackwell Ultra에서 Vera Rubin으로 넘어가면서 SemiAnalysis AgentX의 달러당 에이전트 처리량이 최대 30배 증가했습니다."
+   ]
+  }
+ }
+}

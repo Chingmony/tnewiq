@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "86b253ebbb77ee7f",
+ "contentHash": "05acf9191e3de338",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T06:11:51.764Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon OpenSearch Service optimized engine now supports agent traces",
+   "summary": "Amazon OpenSearch Service optimized engine has added support for agent traces, including OpenTelemetry traces, allowing traces and logs to reside in the same place. Users can track a request or agent session from start to finish to identify failures or slowdowns without switching tools. The feature is available on OpenSearch 3.7 at no additional charge in specific AWS regions.",
+   "impact": "Developers and security teams could benefit from unified trace and log management, making it easier to track agent sessions and troubleshoot failures. The ability to perform in-place updates, deletes, and upserts on hot-tier data may help maintain accurate dashboards and alerts.",
+   "keyPoints": [
+    "Optimized engine now supports agent traces and OpenTelemetry traces.",
+    "Traces and logs live in the same place, enabling complete request or session tracking.",
+    "Supports update, delete, and upsert operations by document ID on hot-tier data.",
+    "Available on OpenSearch 3.7 at no additional charge in select AWS regions."
+   ]
+  },
+  "km": {
+   "title": "Amazon OpenSearch Service optimized engine ឥឡូវនេះគាំទ្រ agent traces",
+   "summary": "Amazon OpenSearch Service optimized engine បានបន្ថែមការគាំទ្រសម្រាប់ agent traces រួមទាំង OpenTelemetry traces ដែលអនុញ្ញាតឱ្យ traces និង logs នៅកន្លែងតែមួយ។ អ្នកប្រើប្រាស់អាចតាមដានសំណើ ឬ agent session ពីដើមដល់ចប់ដើម្បីស្វែងរកបញ្ហាដោយមិនបាច់ប្តូរឧបករណ៍។ លក្ខណៈពិសេសនេះមាននៅលើ OpenSearch 3.7 ដោយមិនគិតថ្លៃបន្ថែមនៅក្នុងតំបន់ AWS ជាក់លាក់។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងសន្តិសុខអាចទទួលបានផលចំណេញពីការគ្រប់គ្រង traces និង logs រួមគ្នា ដែលជួយសម្រួលដល់ការតាមដាន session និងការដោះស្រាយបញ្ហា។ លទ្ធភាពកែតម្រូវទិន្នន័យនៅលើ hot-tier អាចជ่วยរក្សាភាពត្រឹមត្រូវនៃផ្ទាំងគ្រប់គ្រង និងការជូនដំណឹង។",
+   "keyPoints": [
+    "Optimized engine ឥឡូវនេះគាំទ្រ agent traces និង OpenTelemetry traces ។",
+    "Traces និង logs នៅកន្លែងតែមួយសម្រាប់ការតាមដានសំណើពេញលេញ។",
+    "គាំទ្រប្រតិបត្តិការ update លុប និង upsert តាម document ID លើទិន្នន័យ hot-tier ។",
+    "មាននៅលើ OpenSearch 3.7 ដោយគ្មានថ្លៃបន្ថែមក្នុងតំបន់ AWS ជ្រើសរើស។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon OpenSearch Service 优化引擎现已支持 agent traces",
+   "summary": "Amazon OpenSearch Service 优化引擎现已添加对 agent traces（包括 OpenTelemetry traces）的支持，使 traces 和 logs 能够集中存储。用户可以从头到尾跟踪请求或 agent session，以便查找失败或变慢的步骤而无需切换工具。该功能适用于 OpenSearch 3.7，在特定 AWS 区域免费提供。",
+   "impact": "开发人员和安全团队可以利用统一的 traces 和 logs 管理来更轻松地跟踪 agent session 并排查故障。在热层数据上就地更新、删除和 upsert 的能力有助于保持仪表板和警报数据的准确性。",
+   "keyPoints": [
+    "优化引擎现支持 agent traces 和 OpenTelemetry traces。",
+    "traces 和 logs 存于同一位置，可实现完整的请求或 session 跟踪。",
+    "在热层数据上支持按文档 ID 进行更新、删除和 upsert 操作。",
+    "在特定 AWS 区域的 OpenSearch 3.7 上提供且不收取额外费用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon OpenSearch Service 최적화 엔진, 이제 agent traces 지원",
+   "summary": "Amazon OpenSearch Service 최적화 엔진이 OpenTelemetry traces를 포함한 agent traces에 대한 지원을 추가하여 traces와 logs를 한곳에서 관리할 수 있게 되었습니다. 사용자는 도구를 전환하지 않고도 요청 또는 agent session을 처음부터 끝까지 추적하여 실패하거나 느려진 단계를 찾을 수 있습니다. 이 기능은 OpenSearch 3.7에서 특정 AWS 리전에서 추가 비용 없이 사용할 수 있습니다.",
+   "impact": "개발자와 보안 팀은 통합된 traces 및 logs 관리를 통해 agent session을 더 쉽게 추적하고 문제를 해결할 수 있습니다. 핫 티어 데이터에 대한 제자리 업데이트, 삭제 및 upsert 기능은 대시보드와 경고의 정확성을 유지하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "최적화 엔진이 agent traces 및 OpenTelemetry traces를 지원합니다.",
+    "traces와 logs가 한곳에 위치하여 전체 요청 또는 session 추적이 가능합니다.",
+    "핫 티어 데이터에서 문서 ID별 업데이트, 삭제, upsert 작업을 지원합니다.",
+    "선택된 AWS 리전의 OpenSearch 3.7에서 추가 비용 없이 제공됩니다."
+   ]
+  }
+ }
+}

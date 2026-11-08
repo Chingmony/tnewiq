@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d1f9ec74570c4906",
+ "contentHash": "e1640a21c305044f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T06:17:04.765Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Five Ways NVIDIA Co-Design Maximizes the Value of Every Byte in the AI Factory",
+   "summary": "In an AI factory, high bandwidth memory (HBM) is identified as the fastest, most expensive, and most contested memory tier. Every byte spent on redundant weight copies, idle session KV caches, or recomputed prefixes reduces the capacity to produce tokens. The core question has shifted from measuring how much memory a GPU has to evaluating how much useful work each byte delivers.",
+   "impact": "This approach may help developers and technology users understand how to optimize memory usage and maximize token production efficiency in AI factories.",
+   "keyPoints": [
+    "High bandwidth memory (HBM) is the fastest, most expensive, and most contested memory tier in an AI factory.",
+    "Redundant weight copies, idle session KV caches, and recomputed prefixes consume valuable memory bytes.",
+    "The primary focus is now on how much useful work each byte delivers rather than total GPU memory size."
+   ]
+  },
+  "km": {
+   "title": "វិធីសាស្ត្រចំនួនប្រាំដែល NVIDIA Co-Design បង្កើនតម្លៃនៃបាយ៍នីមួយៗឱ្យបានអតិបរមា{}",
+   "summary": "នៅក្នុងរោងចក្រ AI អង្គចងចាំ high bandwidth memory (HBM) គឺជាកម្រិតអង្គចងចាំលឿនជាងគេ ថ្លៃជាងគេ និងមានការប្រកួតប្រជែងខ្លាំងជាងគេ។ រាល់បាយ៍ដែលត្រូវចំណាយលើការចម្លងទម្ងន់ស្ទួន ឃ្លាំងសម្ងាត់ KV នៃសម័យអសកម្ម ឬបុព្វបទដែលបានគណនាឡើងវិញ គឺជាបាយ៍ដែលមិនត្រូវបានប្រើប្រាស់ដើម្បីផលិតថូខឹន។ សំណួរលែងទាក់ទងនឹងទំហំអង្គចងចាំរបស់ GPU ទៀតហើយ ប៉ុន្តែទាក់ទងនឹងចំនួនការងារដែលមានប្រយោជន៍ដែលបាយ៍នីមួយៗអាចផ្ដល់ជូន។",
+   "impact": "បញ្ហានេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាស្វែងយល់ពីរបៀបបង្កើនប្រសិទ្ធភាពការប្រើប្រាស់អង្គចងចាំ.",
+   "keyPoints": [
+    "អង្គចងចាំ high bandwidth memory (HBM) គឺជាកម្រិតអង្គចងចាំលឿនជាងគេ និងថ្លៃជាងគេនៅក្នុងរោងចក្រ AI។",
+    "ការចម្លងទម្ងន់ស្ទួន និងឃ្លាំងសម្ងាត់ KV ខាតបង់អង្គចងចាំដែលគួរតែប្រើសម្រាប់ផលិតថូខឹន។",
+    "ការផ្ដោតសំខាន់គឺលើបរិមាណការងារដែលមានប្រយោជន៍ដែលបាយ៍នីមួយៗផ្ដល់ជូន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "NVIDIA Co-Design 最大化 AI 工厂中每个字节价值的五种方式",
+   "summary": "在 AI 工厂中，高带宽内存 (HBM) 是最快、最昂贵且争夺最激烈的内存层。花费在冗余权重副本、空闲会话 KV 缓存或重新计算前缀上的每个字节，都是未用于生成 token 的字节。核心问题不再是 GPU 拥有多少内存，而是每个字节能提供多少有用的工作。",
+   "impact": "这可能有助于开发人员和技术用户了解如何在 AI 工厂中优化内存使用并最大限度地提高工作效率。",
+   "keyPoints": [
+    "高带宽内存 (HBM) 是 AI 工厂中最快、最昂贵且竞争最激烈的内存层。",
+    "冗余权重副本和空闲会话 KV 缓存会消耗无法用于生成 token 的字节。",
+    "重点已从 GPU 的内存总量转向每个字节带来的有用工作量。"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA Co-Design이 AI 팩토리에서 모든 바이트의 가치를 극대화하는 5가지 방법",
+   "summary": "AI 팩토리에서 고대역폭 메모리(HBM)는 가장 빠르고 가장 비싸며 가장 경쟁이 치열한 메모리 계층입니다. 중복 가중치 복사본, 유휴 세션의 KV 캐시 또는 재계산된 접두사에 소비되는 모든 바이트는 토큰을 생성하는 데 사용되지 않는 바이트입니다. 이제 핵심 질문은 GPU가 얼마나 많은 메모리를 가지고 있는지가 아니라 각 바이트가 얼마나 유용한 작업을 수행하는가입니다.",
+   "impact": "이 내용은 개발자와 기술 사용자가 메모리 사용량을 최적화하고 AI 팩토리에서의 작업 효율성을 높이는 방법을 이해하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "고대역폭 메모리(HBM)는 AI 팩토리에서 가장 빠르고 비싸며 경쟁이 치열한 메모리 계층입니다.",
+    "중복 가중치 복사본과 유휴 세션 KV 캐시는 토큰 생성에 쓰이지 않는 바이트를 소모합니다.",
+    "초점은 GPU의 총 메모리 용량이 아니라 각 바이트가 전달하는 유용한 작업량으로 이동했습니다."
+   ]
+  }
+ }
+}

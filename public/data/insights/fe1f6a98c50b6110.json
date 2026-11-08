@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fe1f6a98c50b6110",
+ "contentHash": "89ebb1d796322743",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T06:11:30.738Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+   "summary": "Datasette issue #3046 addresses a problem where requests to Datasette table pages trigger HTTP prefetches for the next page of rows in Firefox. This occurs because Datasette serves link rel=next HTTP headers, causing Firefox to automatically prefetch the linked page. Since only a small fraction of visitors click the next link, this behavior results in unnecessary data fetching and server rendering.",
+   "impact": "This change could prevent unnecessary server load and wasted bandwidth by stopping Firefox from prefetching HTML pages that users may never visit. Developers and server maintainers might see reduced resource consumption for applications serving paginated HTML data.",
+   "keyPoints": [
+    "Datasette served link rel=next HTTP headers for HTML pages.",
+    "The headers caused Firefox to trigger HTTP prefetches for the next page of rows.",
+    "Most visitors do not click the next link, leading to wasted server rendering and unnecessary data traffic."
+   ]
+  },
+  "km": {
+   "title": "datasette #3046: កុំផ្ដល់ក្បាល HTTP link: rel=next ទៅឱ្យ Firefox សម្រាប់ទំព័រ HTML",
+   "summary": "បញ្ហា datasette #3046 ដោះស្រាយបញ្ហាដែលសំណើទៅកាន់ទំព័រតារាង Datasette បង្កឱ្យមានការទាញយកទិន្នន័យជាមុនតាមរយៈ HTTP សម្រាប់ទំព័រជួរដេកបន្ទាប់នៅក្នុង Firefox ។ នេះកើតឡើងដោយសារតែ Datasette ផ្ដល់ក្បាល HTTP link ផ្ដល់សញ្ញា rel=next ដែលធ្វើឱ្យកម្មវិធីរុករក Firefox ទាញយកទំព័រនោះជាមុនដោយស្វ័យប្រវត្ត។ ដោយសារតែមានអ្នកទស្សនាតិចតួចប៉ុណ្ណោះដែលចុចតំណរភ្ជាប់បន្ទាប់ ការណ៍នេះនាំឱ្យមានការទាញយកទិន្នន័យ និងការដំណើរការម៉ាស៊ីនបម្រើដោយឥតប្រយោជន៍។",
+   "impact": "ការផ្លាស់ប្តូរនេះអាចជួយការពារការផ្ទុកម៉ាស៊ីនបម្រើ និងការប្រើប្រាស់កម្រិតបញ្ជូនដែលគ្មានប្រយោជន៍ ដោយបញ្ឈប់ការទាញយកទំព័រ HTML ជាមុននៅក្នុង Firefox ដែលអ្នកប្រើប្រាស់ប្រហែលជាមិនធ្លាប់ចូលទស្សនា។",
+   "keyPoints": [
+    "Datasette បានផ្ដល់ក្បាល HTTP link rel=next សម្រាប់ទំព័រ HTML ។",
+    "ក្បាលទាំងនេះបានធ្វើឱ្យ Firefox បង្កការទាញយកទិន្នន័យជាមុនសម្រាប់ទំព័រជួរដេកបន្ទាប់។",
+    "អ្នកទស្សនាភាគច្រើនមិនចុចលើតំណរភ្ជាប់បន្ទាប់នោះទេ ដែលបណ្ដាលឱ្យខាតបង់ការបង្ហាញទំព័ររបស់ម៉ាស៊ីនបម្រើ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "datasette #3046：不对 Firefox 的 HTML 页面提供 link: rel=next HTTP 标头",
+   "summary": "Datasette #3046 解决了对 Datasette 表格页面的请求触发 Firefox 对该表格下一页数据行进行 HTTP 预获取的问题。这是因为 Datasette 提供了类似于 link rel=next 的 HTTP 标头，从而导致浏览器预获取数据。由于只有极少数访客会点击“下一页”链接，这种行为会导致不必要的数据获取以及服务器对会被抛弃的完整页面的渲染。",
+   "impact": "这一改动可能会通过阻止 Firefox 预获取用户可能永远不会访问的 HTML 页面，从而减少不必要的服务器负载和带宽浪费。开发人员和服务器维护人员可能会发现托管分页 HTML 数据的应用程序资源消耗有所降低。",
+   "keyPoints": [
+    "Datasette 曾为 HTML 页面提供 link rel=next HTTP 标头。",
+    "这些标头导致 Firefox 触发对下一页数据行的 HTTP 预获取。",
+    "由于大多数访客不会点击下一页链接，这导致了服务器资源的浪费和不必要的数据传输。"
+   ]
+  },
+  "ko": {
+   "title": "datasette #3046: HTML 페이지에 대해 Firefox에 link: rel=next HTTP 헤더를 제공하지 않음",
+   "summary": "Datasette #3046은 Datasette 테이블 페이지에 대한 요청이 Firefox에서 해당 테이블의 다음 행 페이지에 대한 HTTP 프리ಫెچ(prefetch)를 트리거하는 문제를 다룹니다. 이는 Datasette가 link rel=next와 같은 HTTP 헤더를 제공하여 브라우저가 링크된 페이지를 미리 가져오도록 유도하기 때문에 발생합니다. 방문자의 아주 적은 부분만 다음 링크를 클릭하므로, 이 동작은 불필요한 데이터 가져오기와 버려지는 페이지에 대한 서버 렌더링을 유발합니다.",
+   "impact": "이 변경 사항은 사용자가 절대 방문하지 않을 수 있는 HTML 페이지를 Firefox가 미리 가져오는 것을 방지하여 불필요한 서버 부하와 대역폭 낭비를 줄이는 데 기여할 수 있습니다. 개발자와 서버 관리자는 페이지가 매겨진 HTML 데이터를 제공하는 애플리케이션의 리소스 소비가 감소하는 것을 확인할 수 있습니다.",
+   "keyPoints": [
+    "Datasette는 HTML 페이지에 대해 link rel=next HTTP 헤더를 제공했습니다.",
+    "이 헤더로 인해 Firefox는 다음 행 페이지에 대한 HTTP 프리페치를 트리거했습니다.",
+    "대다수의 방문자는 다음 링크를 클릭하지 않아 서버 렌더링과 데이터 트래픽이 낭비되었습니다."
+   ]
+  }
+ }
+}

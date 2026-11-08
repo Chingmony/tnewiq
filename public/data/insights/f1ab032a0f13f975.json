@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f1ab032a0f13f975",
+ "contentHash": "9a9fa98003037bec",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T06:15:40.285Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Agent-R$^2$: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis",
+   "summary": "Researchers introduce Agent-R^2, a real-source data synthesis framework designed to scale training data for realistic productivity work. The framework uses real occupational seeds, corpus-derived workflow evidence, and authentic web-sourced files to distill 4k task instances with multi-format attachments and deliverable-level rubrics. Using this data, the Agent-R^2-4B model was trained through supervised fine-tuning and reinforcement learning, improving performance and file-grounded reasoning.",
+   "impact": "This approach could help developers create more effective productivity agents by reducing shortcut behavior and improving performance on complex tasks. It may also offer a scalable method to generate training data using real-source files instead of manually specified workflows.",
+   "keyPoints": [
+    "Agent-R^2 is a real-source data synthesis framework for realistic productivity work.",
+    "It distills 4k task instances from 10k web-corpus candidates.",
+    "Agent-R^2-4B was trained using supervised fine-tuning and rubric-based reinforcement learning.",
+    "The 4B model surpassed Qwen3-235B-A22B-Thinking-2507 on both GDPval and OfficeQA benchmarks."
+   ]
+  },
+  "km": {
+   "title": "Agent-R^2៖ ការពង្រីកភ្នាក់ងារសម្រាប់កិច្ចការផលិតភាពជាក់ស្តែងតាមរយៈការសំយោគទិន្នន័យប្រភពពិត",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ Agent-R^2 ដែលជា රාមហ្វ្រេកសំយោគទិន្នន័យប្រភពពិតត្រូវបានរចនាឡើងដើម្បីពង្រីកទិន្នន័យបណ្តុះបណ្តាលសម្រាប់កិច្ចការផលិតភាពជាក់ស្តែង។ ក្របខ័ណ្ឌនេះប្រើប្រាស់គ្រាប់ពូជមុខរបរពិត ភស្តុតាងលំហូរការងារដែលបានមកពីខត និងឯកសារប្រភពបណ្តាញពិតប្រាកដដើម្បីចម្រាញ់យកឧទាហរណ៍ភារកិច្ចចំនួន 4k។ ដោយប្រើទិន្នន័យនេះ ម៉ូឌែល Agent-R^2-4B ត្រូវបានបណ្តុះបណ្តាលដើម្បីបង្កើនប្រសិទ្ធភាពនិងការហេតុផលផ្អែកលើឯកសារ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍បង្កើតភ្នាក់ងារផលិតភាពដែលមានប្រសិទ្ធភាពជាងមុនដោយកាត់បន្ថយឥរិយាបថកាត់ត និងកែលម្អការអនុវត្តលើកិច្ចការស្មុគស្មាញ។ វា​ក៏​អាច​ផ្តល់​នូវ​វិធីសាស្ត្រ​ដែលអាច​ធ្វើ​មាត្រដ្ឋាន​បាន​ផងដែរ។",
+   "keyPoints": [
+    "Agent-R^2 គឺជាក្របខ័ណ្ឌសំយោគទិន្នន័យប្រភពពិតសម្រាប់កិច្ចការផលិតភាពជាក់ស្តែង។",
+    "វាចម្រាញ់យកឧទាហរណ៍ភារកិច្ចចំនួន 4k ពីបេក្ខជនបណ្តាញខតចំនួន 10k។",
+    "Agent-R^2-4B ត្រូវបានបណ្តុះបណ្តាលតាមរយៈការកែសម្រួលដ៏ល្អិតល្អន់ និងការរៀនពង្រឹងដោយផ្អែកលើrubric។",
+    "ម៉ូឌែល Agent-R^2-4B បានវ៉ាដាច់ Qwen3-235B-A22B-Thinking-2507 លើការវាស់ស្ទង់ GDPval និង OfficeQA ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Agent-R^2：通过真实来源数据合成扩展真实生产力工作的智能体",
+   "summary": "研究人员推出了Agent-R^2，这是一个真实来源数据 synthesis 框架，旨在为真实的生产力工作扩展训练数据。该框架利用真实的职业种子、语料库导出的工作流证据和真实的网页来源文件，提炼出4k个带有格式附件和可交付成果评分标准的任务实例。基于这些数据，Agent-R^2-4B模型通过监督微调和基于评分标准的强化学习进行了训练。",
+   "impact": "这种方法可以帮助开发人员通过减少捷径行为并提高复杂任务的性能来创建更有效的生产力智能体。它还可能提供一种使用真实来源文件而非手动指定工作流来生成训练数据的可扩展方法。",
+   "keyPoints": [
+    "Agent-R^2是一个用于真实生产力工作的真实来源数据合成框架。",
+    "它从10k个网络语料库候选对象中提炼出4k个任务实例。",
+    "Agent-R^2-4B通过监督微调和基于评分标准的强化学习进行训练。",
+    "Agent-R^2-4B在GDPval和OfficeQA测试中均超越了Qwen3-235B-A22B-Thinking-2507。"
+   ]
+  },
+  "ko": {
+   "title": "Agent-R^2: 실제 소스 데이터 합성을 통한 현실적인 생산성 업무용 에이전트 확장",
+   "summary": "연구원들은 현실적인 생산성 업무를 위한 학습 데이터를 확장하도록 설계된 실제 소스 데이터 합성 프레임워크인 Agent-R^2를 소개합니다. 이 프레임워크는 실제 직업 시드, 코퍼스 파생 워크플로 증거, 웹 소스 파일을 사용하여 다중 형식 첨부 파일과 평가 기준이 포함된 4k개의 작업 인스턴스를 추출합니다. 이 데이터를 기반으로 Agent-R^2-4B 모델은 지도 미세 조정 및 강화 학습을 통해 훈련되었습니다.",
+   "impact": "이 접근 방식은 개발자가 단축키 행동을 줄이고 복잡한 작업에서 성능을 향상시켜 더 효과적인 생산성 에이전트를 만드는 데 도움이 될 수 있습니다. 또한 수동으로 지정된 워크플로 대신 실제 소스 파일을 사용하여 훈련 데이터를 생성하는 확장 가능한 방법을 제공할 수 있습니다.",
+   "keyPoints": [
+    "Agent-R^2는 현실적인 생산성 업무를 위한 실제 소스 데이터 합성 프레임워크입니다.",
+    "10k개의 웹 코퍼스 후보에서 4k개의 작업 인스턴스를 추출합니다.",
+    "Agent-R^2-4B는 지도 미세 조정 및 루브릭 기반 강화 학습을 통해 훈련되었습니다.",
+    "Agent-R^2-4B 모델은 GDPval 및 OfficeQA 벤치마크 모두에서 Qwen3-235B-A22B-Thinking-2507을 능가했습니다."
+   ]
+  }
+ }
+}

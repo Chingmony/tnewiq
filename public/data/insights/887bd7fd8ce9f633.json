@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "887bd7fd8ce9f633",
+ "contentHash": "fd7dd021bbe2c2c3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T06:10:09.068Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "OpenAI Releases 'Image 2.6' Prompt Guide: 'Distinguish Between What to Change and What to Keep'",
+   "summary": "OpenAI has released an official prompt guide for its latest '이미지 2.6' model, detailing principles and practical examples for image generation and editing. The core recommendation for modifying existing images is to clearly distinguish between elements that need to be changed and those that should be kept. The model is designated as 'GPT-Image-2.6' in the developer API.",
+   "impact": "Developers working with the API could utilize this guide to generate and edit images more accurately by following specific formatting and modification principles.",
+   "keyPoints": [
+    "OpenAI released the prompt guide for '이미지 2.6' on its developer documentation.",
+    "The guide emphasizes specifying use cases, composition, and style for accurate image creation.",
+    "Modifying existing images requires clearly separating parts to change from parts to maintain.",
+    "The model is named 'GPT-Image-2.6' in developer APIs."
+   ]
+  },
+  "km": {
+   "title": "OpenAI ចេញផ្សាយមគ្គុទ្ទេសក៍បញ្ជាសម្រាប់ '이미지 2.6'៖ 'បែងចែកឱ្យដាច់រវាងអ្វីដែលត្រូវផ្លាស់ប្ដូរ និងអ្វីដែលត្រូវរក្សាទុក'",
+   "summary": "OpenAI បានចេញផ្សាយមគ្គុទ្ទេសក៍បញ្ជាផ្លូវការសម្រាប់ការប្រើប្រាស់ម៉ូដែល '이미지 2.6' ចុងក្រោយបង្អស់ ដោយណែនាំអំពីគោលការណ៍សរសេរ និងឧទាហរណ៍ជាក់ស្តែងសម្រាប់ការបង្កើតនិងកែសម្រួលរូបភាព។ ខ្លឹមសារស្នូលគឺការបញ្ជាក់ពីគោលបំណង ប្លង់ និងរចនាប័ទ្មឱ្យបានជាក់លាក់ ហើយបែងចែកឱ្យច្បាស់រវាងផ្នែកដែលត្រូវផ្លាស់ប្ដូរ និងផ្នែកដែលត្រូវរក្សាទុកពេលកែប្រែរូបភាពដែលមានស្រាប់។ ម៉ូដែលនេះមានឈ្មោះថា 'GPT-Image-2.6' នៅក្នុង API សម្រាប់អ្នកអភិវឌ្ឍន៍។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ដែលអាចប្រើប្រាស់ API នេះអាចទាញយកប្រយោជន៍ពីមគ្គុទ្ទេសក៍ដើម្បីបង្កើតនិងកែសម្រួលរូបភាពឱ្យកាន់តែមានភាពត្រឹមត្រូវតាមរយៈការអនុវត្តគោលការណ៍ជាក់លាក់។",
+   "keyPoints": [
+    "OpenAI បានចេញផ្សាយមគ្គុទ្ទេសក៍បញ្ជាសម្រាប់ '이미지 2.6' នៅលើឯកសារអ្នកអភិវឌ្ឍន៍។",
+    "មគ្គុទ្ទេសក៍នេះផ្តោតលើការកំណត់គោលបំណង ប្លង់ និងរចនាប័ទ្មឱ្យបានជាក់លាក់។",
+    "ការកែប្រែរូបភាពតម្រូវឱ្យបែងចែកឱ្យច្បាស់រវាងផ្នែកដែលត្រូវផ្លាស់ប្ដូរនិងរក្សាទុក។",
+    "ម៉ូដែលនេះត្រូវបានគេហៅថា 'GPT-Image-2.6' នៅក្នុង API សម្រាប់អ្នកអភិវឌ្ឍន៍។"
+   ]
+  },
+  "zh-CN": {
+   "title": "OpenAI发布'이미지 2.6'提示词指南：“区分要更改的内容和要保留的内容”",
+   "summary": "OpenAI发布了关于如何有效利用最新模型'이미지 2.6'的官方提示词指南，介绍了图像生成与编辑的编写原则及实际案例。其核心在于，若要准确生成所需图像，需具体指定用途、构图和风格等；而在修改现有图像时，则需明确区分需要更改的部分和需要保留的部分。该模型在开发者API中的名称为'GPT-Image-2.6'。",
+   "impact": "开发者和使用API的技术人员可以通过该指南遵循特定的编写原则，从而更加准确地生成和编辑图像。",
+   "keyPoints": [
+    "OpenAI在开发者文档中发布了'이미지 2.6'提示词指南。",
+    "指南介绍了图像生成和编辑的编写原则及实际案例。",
+    "修改现有图像时需明确区分更改部分与保持部分。",
+    "该模型在开发者API中被命名为'GPT-Image-2.6'。"
+   ]
+  },
+  "ko": {
+   "title": "오픈AI, '이미지 2.6' 프롬프트 가이드 공개…\"바꿀 것과 유지할 것 구분하라\"",
+   "summary": "오픈AI가 최신 '이미지 2.6'을 효과적으로 활용하기 위한 공식 프롬프트 가이드를 개발자 문서에 공개했다. 원하는 이미지를 정확하게 만들기 위해 용도와 구도, 스타일 등을 구체적으로 지정하고, 기존 이미지를 수정할 때는 바꿀 부분과 유지할 부분을 명확하게 구분해야 한다는 것이 핵심이다. '이미지 2.6'은 개발자용 API에서 'GPT-Image-2.6'이라는 명칭으로 제공된다.",
+   "impact": "개발자들은 해당 가이드를 참고하여 이미지 생성 및 편집 시 구체적인 작성 원칙을 적용함으로써 더욱 정확한 결과물을 얻을 수 있다.",
+   "keyPoints": [
+    "오픈AI가 최신 '이미지 2.6' 프롬프트 가이드를 개발자 문서에 공개했다.",
+    "원하는 이미지 생성을 위해 용도, 구도, 스타일 등을 구체적으로 지정하도록 안내한다.",
+    "기존 이미지 수정 시 바꿀 부분과 유지할 부분을 명확히 구분해야 한다.",
+    "개발자용 API에서는 해당 모델이 'GPT-Image-2.6'이라는 명칭으로 불린다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1558c78d072630b6",
+ "contentHash": "1b0fd8b6900c868a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T06:16:32.408Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Accessibility statements now have a home on GitHub",
+   "summary": "GitHub now recognizes ACCESSIBILITY.md files in repositories to provide a dedicated, predictable place for accessibility information. The file can be placed in the repository root, .github/ or docs/ directories, or inherited from an organization's .github/ repository. It helps projects outline accessibility goals, known limitations, contributor expectations, and barrier reporting processes alongside other community health files.",
+   "impact": "Developers and security teams could benefit from clearer guidelines on how to report barriers and contribute accessible code. Technology users may find it easier to locate accessibility statements and workarounds across different projects.",
+   "keyPoints": [
+    "GitHub now recognizes ACCESSIBILITY.md files on repository overview pages.",
+    "Files can be placed in the repository root, .github/, or docs/ directories, or inherited from an organization.",
+    "New repositories now include a default accessibility issue label.",
+    "The file format is flexible, allowing projects to document goals, known limitations, and reporting processes."
+   ]
+  },
+  "km": {
+   "title": "សេចក្តីថ្លែងការណ៍ស្តីពីភាពងាយស្រួលប្រើប្រាស់ឥឡូវនេះមានទីតាំងនៅលើ GitHub",
+   "summary": "GitHub ឥឡូវនេះទទួលស្គាល់ឯកសារ ACCESSIBILITY.md នៅក្នុងកន្លែងเก็บទិន្នន័យ ដើម្បីផ្តល់នូវទីតាំងជាក់លាក់ និងអាចទស្សន៍ទាយបានសម្រាប់ព័ត៌មានភាពងាយស្រួលប្រើប្រាស់។ ឯកសារនេះអាចដាក់នៅឫសនៃកន្លែងเก็บទិន្នន័យ ថត .github/ ឬ docs/ ឬទទួលបានពីកន្លែងเก็บទិន្នន័យ .github/ របស់អង្គការ។ វាជួយឱ្យគម្រោងនានាចែងអំពីគោលដៅភាពងាយស្រួលប្រើប្រាស់ ដែនកំណត់ដែលគេដឹង ការរំពឹងទុកលើអ្នករួមចំណែក និងដំណើរការរាយការណ៍ឧបសគ្គ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខអាចទទួលបានផលប្រយោជន៍ពីគោលការណ៍ណែនាំច្បាស់លាស់ស្តីពីរបៀបរាយការណ៍ឧបសគ្គ និងរួមចំណែកកូដដែលងាយស្រួលប្រើ។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចងាយស្រួលរកឃើញសេចក្តីថ្លែងការណ៍ភាពងាយស្រួលប្រើប្រាស់ និងដំណោះស្រាយបណ្តោះអាសន្ន។",
+   "keyPoints": [
+    "GitHub ឥឡូវនេះទទួលស្គាល់ឯកសារ ACCESSIBILITY.md នៅលើទំព័រទិដ្ឋភាពទូទៅនៃកន្លែងเก็บទិន្នន័យ។",
+    "ឯកសារអាចដាក់នៅឫស .github/ ឬ docs/ ឬទទួលមរតកពីអង្គការ។",
+    "កន្លែងเก็บទិន្នន័យថ្មីឥឡូវនេះរួមបញ្ចូលស្លាកបញ្ហាភាពងាយស្រួលប្រើប្រាស់តាមលំនាំដើម។",
+    "ទម្រង់ឯកសារគឺអាចបត់បែនបាន ដែលអនុញ្ញាតឱ្យគម្រោងនានា ghi ទុកគោលដៅ និងដែនកំណត់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "无障碍声明现在在 GitHub 上有了固定的位置",
+   "summary": "GitHub 现在识别仓库中的 ACCESSIBILITY.md 文件，为无障碍信息提供了一个专用且可预测的位置。该文件可以放置在仓库根目录、.github/ 或 docs/ 目录中，也可以继承自组织的 .github/ 仓库。它有助于项目在其他社区健康文件的旁边概述无障碍目标、已知限制、贡献者期望以及障碍报告流程。",
+   "impact": "开发人员和安全团队可以从关于如何报告障碍和贡献无障碍代码的更清晰指南中受益。技术用户可能会发现在不同项目中查找无障碍声明和临时解决方法变得更容易。",
+   "keyPoints": [
+    "GitHub 现在会在仓库概览页面上识别 ACCESSIBILITY.md 文件。",
+    "文件可以放置在仓库根目录、.github/ 或 docs/ 目录中，或从组织继承。",
+    "新仓库现在默认包含一个无障碍问题标签。",
+    "文件格式灵活，允许项目记录目标、已知限制和报告流程。"
+   ]
+  },
+  "ko": {
+   "title": "이제 GitHub에서 접근성 성명서를 지원합니다",
+   "summary": "GitHub는 이제 리포지토리에서 ACCESSIBILITY.md 파일을 인식하여 접근성 정보를 위한 전용의 예측 가능한 공간을 제공합니다. 이 파일은 리포지토리 루트, .github/ 또는 docs/ 디렉토리에 배치하거나 조직의 .github/ 리포지토리에서 상속받을 수 있습니다. 이를 통해 프로젝트는 다른 커뮤니티 건강 파일과 함께 접근성 목표, 알려진 제한 사항, 기여자 기대치 및 장벽 신고 프로세스를 설명할 수 있습니다.",
+   "impact": "개발자와 보안 팀은 장벽을 신고하고 접근 가능한 코드를 기여하는 방법에 대한 명확한 지침의 혜택을 받을 수 있습니다. 기술 사용자는 다양한 프로젝트에서 접근성 성명서와 해결 방법을 더 쉽게 찾을 수 있습니다.",
+   "keyPoints": [
+    "GitHub는 이제 리포지토리 개요 페이지에서 ACCESSIBILITY.md 파일을 인식합니다.",
+    "파일은 리포지토리 루트, .github/, docs/ 디렉토리에 배치하거나 조직에서 상속받을 수 있습니다.",
+    "새 리포지토리에는 기본적으로 접근성 이슈 라벨이 포함됩니다.",
+    "파일 형식은 유연하여 프로젝트가 목표, 알려진 제한 사항 및 신고 프로세스를 문서화할 수 있습니다."
+   ]
+  }
+ }
+}

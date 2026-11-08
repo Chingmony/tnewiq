@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "90a9e74aa19bf7e0",
+ "contentHash": "f75cace7da89e6dd",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T06:12:49.433Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+   "summary": "OpenSSH has released version 10.6p2 to address a critical vulnerability affecting Alpine Linux servers running openssh-server. The flaw allows attackers with network access, an account name, and a password between 257 and 1,024 bytes long to log into accounts without passwords, such as SSH key-only accounts. Alpine has published fixed packages for the issue.",
+   "impact": "Security teams managing Alpine Linux servers using standard openssh-server packages may need to update immediately to prevent unauthorized access via long passwords. The vulnerability could allow attackers to bypass standard SSH authentication mechanisms under specific conditions.",
+   "keyPoints": [
+    "OpenSSH released version 10.6p2 to address a critical authentication bypass flaw.",
+    "The issue affects certain Alpine Linux servers running the standard openssh-server package.",
+    "Exploitation requires network access, an account name, and a password between 257 and 1,024 bytes long.",
+    "Alpine has published fixed packages for every affected version."
+   ]
+  },
+  "km": {
+   "title": "OpenSSH ចេញវិធានការណ៍ជួសជុលបន្ទាន់សម្រាប់ពិការភាពដែលអនុញ្ញាតឱ្យពាក្យសម្ងាត់វែងឆ្លងកាត់ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ SSH លើ Alpine Linux",
+   "summary": "OpenSSH បានចេញផ្សាយកំណែ 10.6p2 ដើម្បីដោះស្រាយពិការភាពដ៏គ្រោះថ្នាក់មួយដែលប៉ះពាល់ដល់ម៉ាស៊ីនមេ Alpine Linux ដែលដំណើរការកញ្ចប់ openssh-server ស្តង់ដារ។ កំហុសនេះអនុញ្ញាតឱ្យអ្នកវាយប្រហារដែលមានសិទ្ធិប្រើប្រាស់បណ្តាញ ឈ្មោះគណនី និងពាក្យសម្ងាត់ដែលមានប្រវែងពី ២៥៧ ដល់ ១.០២៤ បាយត៍ អាចចូលទៅក្នុងគណនីដែលគ្មានពាក្យសម្ងាត់។ Alpine បានបោះពុម្ពផ្សាយកញ្ចប់ដែលបានជួសជុលរួចរាល់ហើយ។",
+   "impact": "ក្រុមសន្តិសុខដែលគ្រប់គ្រងម៉ាស៊ីនមេ Alpine Linux អាចចាំបាច់ត្រូវធ្វើបច្ចុប្បន្នភាពជាបន្ទាន់ដើម្បីការពារការចូលប្រើប្រាស់ដោយគ្មានការអនុញ្ញាត។ ពិការភាពនេះអាចឱ្យអ្នកវាយប្រហារឆ្លងកាត់ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ SSH ក្រោមលក្ខខណ្ឌជាក់លាក់។",
+   "keyPoints": [
+    "OpenSSH បានចេញកំណែ 10.6p2 ដើម្បីแก้កំហុសផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវដ៏សំខាន់។",
+    "បញ្ហានេះប៉ះពាល់ដល់ម៉ាស៊ីនមេ Alpine Linux មួយចំនួនដែលប្រើប្រាស់កញ្ចប់ openssh-server ស្តង់ដារ។",
+    "ការវាយប្រហារទាមទារឱ្យមានការចូលប្រើប្រាស់បណ្តាញ ឈ្មោះគណនី និងពាក្យសម្ងាត់ប្រវែងពី ២៥៧ ដល់ ១.០២៤ បាយត៍។",
+    "Alpine បានចេញផ្សាយកញ្ចប់ដែលបានជួសជុលសម្រាប់គ្រប់កំណែដែលងាយរងគ្រោះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "OpenSSH 发布紧急修复程序，以解决允许长密码绕过 Alpine Linux 上 SSH 身份验证的漏洞",
+   "summary": "OpenSSH 发布了 10.6p2 版本，以解决影响运行标准 openssh-server 软件包的 Alpine Linux 服务器的关键漏洞。该漏洞允许具有网络访问权限、帐户名以及长度在 257 到 1,024 字节之间的密码的攻击者登录无密码帐户（例如仅使用 SSH 密钥的帐户）。Alpine 已经发布了修复包。",
+   "impact": "管理使用标准 openssh-server 软件包的 Alpine Linux 服务器的安全团队可能需要立即更新以防止未授权访问。该漏洞可能会使攻击者在特定条件下绕过标准的 SSH 身份验证机制。",
+   "keyPoints": [
+    "OpenSSH 发布了 10.6p2 版本来解决关键的身份验证绕过漏洞。",
+    "该问题影响运行标准 openssh-server 软件包的某些 Alpine Linux 服务器。",
+    "攻击需要网络访问权限、帐户名以及长度在 257 到 1,024 字节之间的密码。",
+    "Alpine 已为所有版本发布了修复后的软件包。"
+   ]
+  },
+  "ko": {
+   "title": "OpenSSH, Alpine Linux에서 긴 비밀번호로 SSH 인증을 우회하는 취약점에 대한 긴급 수정 패치 배포",
+   "summary": "OpenSSH는 표준 openssh-server 패키지를 실행하는 Alpine Linux 서버에 영향을 미치는 치명적인 취약점을 해결하기 위해 버전 10.6p2를 배포했습니다. 이 결함으로 인해 네트워크 액세스 권한, 계정 이름, 257바이트에서 1,024바이트 사이의 비밀번호를 가진 공격자는 SSH 키 전용 계정과 같이 비밀번호가 없는 계정에 로그인할 수 있습니다. Alpine은 수정된 패키지를 배포했습니다.",
+   "impact": "표준 openssh-server 패키지를 사용하는 Alpine Linux 서버를 관리하는 보안 팀은 무단 액세스를 방지하기 위해 즉시 업데이트를 수행해야 할 수 있습니다. 이 취약점으로 인해 공격자는 특정 조건 하에 표준 SSH 인증 메커니즘을 우회할 수 있습니다.",
+   "keyPoints": [
+    "OpenSSH는 치명적인 인증 우회 결함을 해결하기 위해 버전 10.6p2를 출시했습니다.",
+    "이 문제는 표준 openssh-server 패키지를 실행하는 일부 Alpine Linux 서버에 영향을 미칩니다.",
+    "공격에는 네트워크 액세스, 계정 이름, 257~1,024바이트 길이의 비밀번호가 필요합니다.",
+    "Alpine은 모든 버전에 대해 수정된 패키지를 게시했습니다."
+   ]
+  }
+ }
+}

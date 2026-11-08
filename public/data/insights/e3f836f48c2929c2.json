@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e3f836f48c2929c2",
+ "contentHash": "ae046e214667a475",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T06:12:12.713Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks",
+   "summary": "Researchers introduced Multimodal-SEA, an interactive benchmark featuring 608 expert-designed tasks across 14 domains to evaluate personal AI agents against multimodal social engineering attacks. The benchmark utilizes a multimodal attack harness to test agents in simulated environments using verifiable tool execution logs. Evaluations of seven multimodal models showed attack success rates ranging from 7.1% to 34.5%, demonstrating that all tested models are vulnerable. Adding multimodal content increased the overall attack success rate from 19.9% to 29.2%.",
+   "impact": "Security teams and developers working on personal AI agents may find that multimodal content significantly increases agent vulnerability to social engineering. Stronger safety instructions could reduce attack success, but they might also lead to excessive refusal of legitimate requests.",
+   "keyPoints": [
+    "Multimodal-SEA comprises 608 expert-designed tasks across 14 domains and 152 attack scenarios.",
+    "Seven widely used multimodal models evaluated in the study showed attack success rates between 7.1% and 34.5%.",
+    "Incorporating multimodal content increased attack success from 19.9% to 29.2%.",
+    "Stronger safety instructions reduced attack success but did not improve recognition of deceptive multimodal content."
+   ]
+  },
+  "km": {
+   "title": "Multimodal-SEA៖ ការវាស់ស្ទង់សុវត្ថិភាពភ្នាក់ងារ AI ក្រោមការវាយប្រហារវិស្វកម្មសង្គមពហុទម្រង់",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ Multimodal-SEA ដែលជាសំណុំវាស់ស្ទង់អន្តរកម្មមានកិច្ចការចំនួន 608 ដើម្បីវាយតម្លៃភ្នាក់ងារ AI ផ្ទាល់ខ្លួនប្រឆាំងនឹងការវាយប្រហារវិស្វកម្មសង្គមពហុទម្រង់។ ការវាយតម្លៃលើម៉ូឌែលពហុទម្រង់ចំនួនប្រាំពីរបានបង្ហាញថា ម៉ូឌែលទាំងអស់មានភាពងាយរងគ្រោះដោយមានអត្រាជោគជ័យនៃការវាយប្រហារពី 7.1% ដល់ 34.5%។ ការបន្ថែមមាតិកាពហុទម្រង់បានបង្កើនអត្រាជោគជ័យនៃការវាយប្រហារពី 19.9% ទៅ 29.2%។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចនឹងឃើញថាមាតិកាពហុទម្រង់បង្កើនការងាយរងគ្រោះរបស់ភ្នាក់ងារ AI ចំពោះការវាយប្រហារវិស្វកម្មសង្គម។ ការណែនាំសុវត្ថិភាពខ្លាំងជាងមុនអាចកាត់បន្ថយការវាយប្រហារ ប៉ុន្តែអាចបណ្តាលឱ្យមានការបដិសេធសំណើស្របច្បាប់ច្រើនហួសហេតុផងដែរ។",
+   "keyPoints": [
+    "Multimodal-SEA រួមបញ្ចូលទាំងកិច្ចការចំនួន 608 ដែលបានរចនាឡើងដោយអ្នកជំនាញទូទាំង 14 ដែន域។",
+    "ម៉ូឌែលពហុទម្រង់ចំនួនប្រាំពីរដែលបានវាយតម្លៃបង្ហាញអត្រាជោគជ័យនៃការវាយប្រហារពី 7.1% ដល់ 34.5%។",
+    "ការបន្ថែមមាតិកាពហុទម្រង់បានកើនឡើងអត្រាជោគជ័យពី 19.9% ដល់ 29.2%។",
+    "ការណែនាំសុវត្ថិភាពខ្លាំងបានកាត់បន្ថយជោគជ័យនៃការវាយប្រហារ ប៉ុន្តែមិនបានកែលម្អការសម្គាល់មាតិកាបោកបញ្ឆោតនោះទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Multimodal-SEA：多模态社会工程学攻击下AI智能体安全基准测试",
+   "summary": "研究人员推出了Multimodal-SEA，这是一个包含608项由专家设计的交互式基准测试，涵盖14个领域，用于评估个人AI智能体在多模态社会工程学攻击下的表现。对七种广泛使用的多模态模型的评估显示，所有模型都存在漏洞，攻击成功率在7.1%到34.5%之间。尽管主动验证覆盖率有所增加，但加入多模态内容仍将攻击成功率从19.9%提升至29.2%。",
+   "impact": "开发人员和安全团队可能会发现，多模态内容会显著增加AI智能体遭受社会工程学攻击的脆弱性。更强的安全指令虽然可以降低攻击成功率，但也可能导致智能体过度拒绝合法的请求。",
+   "keyPoints": [
+    "Multimodal-SEA包含跨越14个领域的608个专家设计任务和152个攻击场景。",
+    "评估的七个多模态模型均表现出脆弱性，攻击成功率为7.1%至34.5%。",
+    "添加多模态内容使攻击成功率从19.9%上升至29.2%。",
+    "更强的安全指令降低了攻击成功率，但并未提高对欺骗性多模态内容的识别能力。"
+   ]
+  },
+  "ko": {
+   "title": "Multimodal-SEA: 멀티모달 사회공학 공격 환경에서의 AI 에이전트 보안 벤치마킹",
+   "summary": "연구진은 멀티모달 사회공학 공격에 대응하는 개인용 AI 에이전트를 평가하기 위해 14개 영역에 걸쳐 608개의 전문가 설계 작업으로 구성된 대화형 벤치마ือก인 Multimodal-SEA를 소개했습니다. 널리 사용되는 7개의 멀티모달 모델을 평가한 결과 모든 모델이 취약한 것으로 나타났으며, 공격 성공률은 7.1%에서 34.5% 사이였습니다. 멀티모달 콘텐츠를 추가하면 적극적인 검증 커버리지 증가에도 불구하고 공격 성공률이 19.9%에서 29.2%로 증가했습니다.",
+   "impact": "개발자와 보안 팀은 멀티모달 콘텐츠가 사회공학 공격에 대한 AI 에이전트의 취약성을 크게 높일 수 있음을 인지할 수 있습니다. 더 강력한 안전 지침은 공격 성공률을 낮출 수 있지만, 적법한 요청에 대한 과도한 거부로 이어질 수도 있습니다.",
+   "keyPoints": [
+    "Multimodal-SEA는 14개 도메인과 152개의 공격 시나리오에 걸쳐 608개의 전문가 설계 작업을 포함합니다.",
+    "평가된 7개의 멀티모달 모델 모두 7.1%에서 34.5% 사이의 공격 성공률을 보였습니다.",
+    "멀티모달 콘텐츠를 추가하면 공격 성공률이 19.9%에서 29.2%로 상승했습니다.",
+    "더 강력한 안전 지침은 기만적인 멀티모달 콘텐츠 인식 능력을 향상시키지 못한 채 공격 성공률을 낮추었습니다."
+   ]
+  }
+ }
+}

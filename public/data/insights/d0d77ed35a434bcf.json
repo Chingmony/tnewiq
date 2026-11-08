@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d0d77ed35a434bcf",
+ "contentHash": "03b4aa9584bb8a28",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T06:17:26.387Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "SMART: State-based Multi Agent Reasoning Traces for Verification-oriented Problem-Solving",
+   "summary": "Researchers propose SMART, a multi-agent framework designed to obtain additional knowledge for solving complex problems with limited context, such as claims. The framework captures the implicit state of participating entities in a problem context and curates diverse, complementary, and solution-salient premises using various LLMs and a structured role-based prompt strategy. Utilizing these real-world verified premises, SMART improves validation performance by up to 20 percent on complex scientific claims across three datasets.",
+   "impact": "This approach could improve validation performance for complex scientific claims and help researchers reasoning about problems with limited context. Grounding premises in real-world knowledge may also improve overall performance by up to 5 percent.",
+   "keyPoints": [
+    "SMART is a multi-agent framework for verification-oriented problem-solving.",
+    "It captures the implicit state of participating entities to curate solution-salient premises.",
+    "Validation performance improves up to 20% on complex scientific claims spanning 3 datasets.",
+    "Grounding premises in real-world knowledge improves performance up to 5%."
+   ]
+  },
+  "km": {
+   "title": "SMART: State-based Multi Agent Reasoning Traces for Verification-oriented Problem-Solving",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើឡើងនូវ SMART ដែលជាក្របខ័ណ្ឌភ្នាក់ងារច្រើន ដើម្បីទទួលបានចំណេះដឹងបន្ថែមសម្រាប់ដោះស្រាយបញ្ហាស្មុគស្មាញដែលមានបរិបទកំណត់។ ក្របខ័ណ្ឌនេះចាប់យកស្ថានភាពបង្កប់របស់អង្គភាពដែលចូលរួម និងចងក្រងបរិបទដំណោះស្រាយដោយប្រើប្រាស់ LLMs និងយុទ្ធសាស្ត្របញ្ជាផ្អែកលើតួនាទី។ ការប្រើប្រាស់ចំណេះដឹងដែលបានផ្ទៀងផ្ទាត់ទាំងនេះ ជួយបង្កើនប្រសិទ្ធភាពនៃការផ្ទៀងផ្ទាត់រហូតដល់ ២០ភាគរយ លើការទាមទារបែបវិទ្យាសាស្ត្រស្មុគស្មាញ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយកែលម្អដំណើរការផ្ទៀងផ្ទាត់សម្រាប់បញ្ហាវិទ្យាសាស្ត្រស្មុគស្មាញ និងបង្កើនប្រសិទ្ធភាពការងាររហូតដល់ ៥ភាគរយ។",
+   "keyPoints": [
+    "SMART គឺជាក្របខ័ណ្ឌភ្នាក់ងារច្រើនសម្រាប់ការដោះស្រាយបញ្ហាផ្ដោតលើការផ្ទៀងផ្ទាត់។",
+    "វាចាប់យកស្ថានភាពបង្កប់ដើម្បីចងក្រងចំណេះដឹងដំណោះស្រាយ។",
+    "វាបង្កើនប្រសិទ្ធភាពនៃការផ្ទៀងផ្ទាត់រហូតដល់ ២០ភាគរយ លើសំណុំទិន្នន័យចំនួន ៣។"
+   ]
+  },
+  "zh-CN": {
+   "title": "SMART: State-based Multi Agent Reasoning Traces for Verification-oriented Problem-Solving",
+   "summary": "研究人员提出了一个名为SMART的多智能体框架，用于在上下文有限的复杂问题中获取额外知识。该框架通过捕获问题上下文中参与实体的隐式状态，利用各种大语言模型和结构化的基于角色的提示策略来整理状态知识。借助这些经过现实世界验证的前提，SMART在跨三个数据集的复杂科学声明验证性能上提升了高达20%。",
+   "impact": "该方法可能有助于提升复杂科学声明的验证性能，并通过将前提建立在现实世界知识的基础上，将整体性能进一步提升高达5%。",
+   "keyPoints": [
+    "SMART是一个面向验证的复杂问题解决多智能体框架。",
+    "它利用多种LLM和结构化提示策略捕获实体隐式状态。",
+    "在三个数据集的复杂科学声明上，验证性能提升高达20%。",
+    "将前提建立在现实世界知识中可将性能提升高达5%。"
+   ]
+  },
+  "ko": {
+   "title": "SMART: State-based Multi Agent Reasoning Traces for Verification-oriented Problem-Solving",
+   "summary": "연구진은 맥락이 제한된 복잡한 문제를 해결하기 위해 추가 지식을 얻는 다중 에이전트 프레임워크인 SMART를 제안했습니다. 이 프레임워크는 문제 맥락에 참여하는 개체의 암시적 상태를 포착하고, 다양한 대규모 언어 모델과 구조화된 역할 기반 프롬프트 전략을 사용하여 상태 지식을 선별합니다. 이러한 현실 세계에서 검증된 전제 지식을 활용함으로써, SMART는 3개의 데이터셋에 걸친 복잡한 과학적 주장에서 검증 성능을 최대 20%까지 향상시킵니다.",
+   "impact": "이 접근 방식은 복잡한 과학적 주장의 검증 성능을 향상시키고 제한된 맥락을 가진 문제를 해결하는 데 도움을 줄 수 있습니다. 또한 전제를 현실 세계의 지식에 기반하게 함으로써 성능을 최대 5%까지 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "SMART는 검증 지향적 문제 해결을 위한 다중 에이전트 프레임워크입니다.",
+    "참여 개체의 암시적 상태를 포착하여 솔루션 중심의 전제를 선별합니다.",
+    "3개의 데이터셋에 걸친 복잡한 과학적 주장에서 검증 성능이 최대 20% 향상됩니다.",
+    "현실 세계의 지식에 전제를 기반으로 두면 성능이 최대 5% 향상됩니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "43a63f6d452c9b93",
+ "contentHash": "76a907635485241a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-08T06:13:28.575Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "The Geometry of Simulated Perspectives: Dissociating Representation and Behaviour in a Multimodal Language Model",
+   "summary": "Researchers investigated the representational geometry of persona-conditioned visual interestingness in Qwen3-VL-8B-Instruct using 100 images and 53 prompting conditions. They found that early layers encode image identity, while persona-specific structures emerge later. Furthermore, prompt framing reshapes internal representations more strongly than persona identity, whereas persona content has a greater impact on behavioural judgements.",
+   "impact": "This research could help developers and researchers better understand how internal representations and behavioural judgements diverge in multimodal language models. It may highlight that representational distance does not always reflect behavioural relevance when simulating perspectives.",
+   "keyPoints": [
+    "Tested Qwen3-VL-8B-Instruct using 100 images and 53 prompting conditions.",
+    "Early layers primarily encode image identity, while persona-specific structures emerge in later layers.",
+    "Prompt framing reshapes internal representations more strongly than persona identity.",
+    "Persona content has a greater impact on behavioural judgements than prompt framing."
+   ]
+  },
+  "km": {
+   "title": "ធរណីមាត្រនៃទស្សនវិស័យត្រាប់តាម៖ ការបំបែកតំណាង និងឥរិយាបថនៅក្នុងគំរូភាសាម៉ូដពហុ",
+   "summary": "អ្នកស្រាវជ្រាវបានពិនិត្យមើលធរណីមាត្រតំណាងនៃភាពចាប់អារម្មណ៍ផ្នែកមើលឃើញដែលconditionedដោយបុគ្គលនៅក្នុង Qwen3-VL-8B-Instruct ដោយប្រើរូបភាព ១០០ និងលក្ខខណ្ឌបញ្ជា ៥៣។ ពួកគេបានរកឃើញថាស្រទាប់ដំបូងអ៊ិនកូដអត្តសញ្ញាណរូបភាព ចំណែកឯរចនាសម្ព័ន្ធជាក់លាក់របស់បុគ្គលលេចឡើងនៅពេលក្រោយ។ បន្ថែមពីលើនេះ ការរៀបចំស៊ុមបញ្ជាបានផ្លាស់ប្តូរតំណាងខាងក្នុងយ៉ាងខ្លាំងជាងអត្តសញ្ញាណបុគ្គល ខណៈដែលខ្លឹមសារបុគ្គលមានឥទ្ធិពលខ្លាំងជាងលើការវិនិច្ឆ័យឥរិយាបថ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍យល់កាន់តែច្បាស់អំពីរបៀបដែលតំណាងខាងក្នុង និងការវិនិច្ឆ័យឥរិយាបថបែកចេញពីគ្នាទៅវិញទៅមកនៅក្នុងគំរូភាសាម៉ូដពហុ។ វាអាចបង្ហាញថាចម្ងាយតំណាងមិនចាំបាច់สะពាំងពីភាពទាក់ទងគ្នានៃឥរិយាបថនោះទេ។",
+   "keyPoints": [
+    "បានធ្វើតេស្ត Qwen3-VL-8B-Instruct ដោយប្រើរូបភាព ១០០ និងលក្ខខណ្ឌបញ្ជា ៥៣។",
+    "ស្រទាប់ដំបូងអ៊ិនកូដអត្តសញ្ញាណរូបភាព ខណៈស្រទាប់ក្រោយៗបង្កើតរចនាសម្ព័ន្ធជាក់លាក់របស់បុគ្គល។",
+    "ការរៀបចំស៊ុមបញ្ជាផ្លាស់ប្តូរតំណាងខាងក្នុងខ្លាំងជាងអត្តសញ្ញាណបុគ្គល។",
+    "ខ្លឹមសារបុគ្គលមានឥទ្ធិពលខ្លាំងលើការវិនិច្ឆ័យឥរិយាបថ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "模拟视角的几何学：多模态语言模型中表征与行为的解离",
+   "summary": "研究人员在 Qwen3-VL-8B-Instruct 中研究了角色条件视觉趣味性的表征几何，使用了 100 张图像和 53 种提示条件。他们发现早期层主要编码图像身份，而特定于角色的结构出现在后期层中。此外，提示词框架对内部表征的重塑作用比角色身份更强，而角色内容对行为判断的影响更大。",
+   "impact": "这项研究可以帮助开发人员和研究人员更好地理解多模态语言模型中内部表征与行为判断如何发生偏离。它可能表明，在模拟视角时，表征距离并不一定反映行为相关性。",
+   "keyPoints": [
+    "使用 100 张图像和 53 种提示条件对 Qwen3-VL-8B-Instruct 进行了测试。",
+    "早期层主要编码图像身份，后期层则出现角色特定结构。",
+    "提示词框架比角色身份更能重塑内部表征。",
+    "角色内容对行为判断具有更大的影响。"
+   ]
+  },
+  "ko": {
+   "title": "시뮬레이션된 관점의 기하학: 멀티모달 언어 모델에서의 표현과 행동의 해리",
+   "summary": "연구진은 100개의 이미지와 53개의 프롬프트 조건을 사용하여 Qwen3-VL-8B-Instruct에서 페르소나 조건부 시각적 흥미도의 표현 기하학을 조사했습니다. 초기 레이어는 주로 이미지 정체성을 인코딩하는 반면 페르소나 고유 구조는 나중 레이어에서 나타난다는 것을 발견했습니다. 또한 프롬프트 프레이밍이 페르소나 정체성보다 내부 표현을 더 강하게 재구성하는 반면, 페르소나 콘텐츠는 행동 판단에 더 큰 영향을 미칩니다.",
+   "impact": "이번 연구는 개발자와 연구자들이 멀티모달 언어 모델에서 내부 표현과 행동 판단이 어떻게 분리되는지 더 잘 이해하는 데 도움을 줄 수 있습니다. 표현 거리가 행동 관련성을 반드시 반영하지는 않음을 시사할 수 있습니다.",
+   "keyPoints": [
+    "100개의 이미지와 53개의 프롬프트 조건으로 Qwen3-VL-8B-Instruct를 테스트함.",
+    "초기 레이어는 이미지 정체성을 인코딩하고 나중 레이어에서는 페르소나 구조가 나타남.",
+    "프롬프트 프레이밍이 페르소나 정체성보다 내부 표현을 더 강하게 재구성함.",
+    "페르소나 콘텐츠가 행동 판단에 더 큰 영향을 미침."
+   ]
+  }
+ }
+}
