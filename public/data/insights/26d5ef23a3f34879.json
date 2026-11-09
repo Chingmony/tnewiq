@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "26d5ef23a3f34879",
+ "contentHash": "b71c9061e4a13e9c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T22:30:12.247Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base",
+   "summary": "Amazon Bedrock Managed Knowledge Base now supports single-shot Retrieval Augmented Generation (RAG) and retrieval-only requests through AgenticRetrieveStream. These new options complement existing agentic retrieval by letting applications choose the appropriate retrieval effort for different types of questions. Developers can now use a single API for straightforward checklist lookups, multi-document policy comparisons, or raw passage retrieval.",
+   "impact": "Developers can match retrieval effort to specific requests without building separate systems, potentially reducing latency and model usage for simple queries. Trace events and built-in planning workflows may also help teams inspect how answers are produced and reduce custom orchestration overhead.",
+   "keyPoints": [
+    "Single-shot RAG searches knowledge bases once and uses a foundation model to generate an answer without planning rounds.",
+    "Retrieval-only requests return matching passages directly without generating an answer or making foundation model calls.",
+    "Agentic retrieval plans and runs multiple searches for complex questions, breaking questions into sub-queries and refining searches as needed."
+   ]
+  },
+  "km": {
+   "title": "ការទាញយកទិន្នន័យបែប Single-shot និង Agentic ជាមួយ Amazon Bedrock Managed Knowledge Base",
+   "summary": "Amazon Bedrock Managed Knowledge Base ឥឡូវនេះគាំទ្រការទាញយកទិន្នន័យបែប single-shot RAG និងសំណើទាញយកទិន្នន័យសុទ្ធសាធ (retrieval-only) តាមរយៈ AgenticRetrieveStream។ ជម្រើសថ្មីទាំងនេះជួយបំពេញបន្ថែមដល់ការទាញយកទិន្នន័យແບບ agentic ដែលមានស្រាប់ ដោយអនុញ្ញាតឱ្យកម្មវិធីនានាជ្រើសរើសកម្រិតនៃការស្វែងរកឱ្យបានត្រឹមត្រូវទៅតាមសំណួរនីមួយៗ។ អ្នកអភិវឌ្ឍន៍ឥឡូវនេះអាចប្រើប្រាស់ API តែមួយសម្រាប់ទាំងសំណួរស្វែងរកសាមញ្ញ និងការប្រៀបធៀបគោលនយោបាយស្មុគស្មាញ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍អាចកែសម្រួលកម្រិតនៃការស្វែងរកឱ្យត្រូវទៅនឹងសំណួរជាក់លាក់ដោយមិនចាំបាច់បង្កើតប្រព័ន្ធដាច់ដោយឡែក ដែលអាចជួយកាត់បន្ថយភាពយឺតយ៉ាវ និងការប្រើប្រាស់គំរូសម្រាប់សំណួរសាមញ្ញ។ ព្រឹត្តិការណ៍តាមដាន និងដំណើរការរៀបចំផែនការដែលមានស្រាប់ ក៏អាចជួយក្រុមការងារពិនិត្យមើលពីរបៀបដែលចម្លើយត្រូវបានបង្កើតឡើងផងដែរ។",
+   "keyPoints": [
+    "Single-shot RAG ស្វែងរកមូលដ្ឋានចំណេះដឹងម្តង និងប្រើប្រាស់គំរូพื้นฐานដើម្បីបង្កើតចម្លើយដោយមិនមានការរៀបចំផែនការច្រើនជុំឡើយ។",
+    "សំណើទាញយកទិន្នន័យសុទ្ធសាធត្រឡប់មកវិញនូវ đoạn ឯកសារដែលត្រូវគ្នាដោយមិនបង្កើតចម្លើយ ឬហៅប្រើប្រាស់គំរូพื้นฐานនោះទេ។",
+    "ការទាញយកទិន្នន័យបែប Agentic រៀបចំផែនការ និងដំណើរការស្វែងរកច្រើនដងសម្រាប់សំណួរស្មុគស្មាញ ដោយបំបែកសំណួរទៅជាសំណួររងតាមតម្រូវការ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Bedrock Managed Knowledge Base 现已支持单次检索和智能体检索",
+   "summary": "Amazon Bedrock Managed Knowledge Base 现在通过 AgenticRetrieveStream 支持单次检索增强生成（RAG）和纯检索请求。这些新模式与现有的智能体检索相结合，使应用程序能够针对简单或复杂的问题匹配适当的检索工作量。开发者现在可以使用相同的 API 来处理直接的核对表查询或跨策略的复杂比较。",
+   "impact": "开发者可以针对具体请求调整检索工作量，无需为简单和复杂问题构建独立的系统，这可能会降低简单查询的延迟和模型使用量。内置的规划工作流和追踪事件也可能帮助团队检查答案的生成过程并减少自定义编排工作。",
+   "keyPoints": [
+    "单次 RAG 仅搜索知识库一次，并使用基础模型生成答案，无需进行多轮规划。",
+    "纯检索请求直接返回匹配的段落，不生成答案，也不调用基础模型。",
+    "智能体检索针对复杂问题规划并运行多次搜索，将问题分解为子查询并在需要时精炼搜索。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock Managed Knowledge Base의 단발성 및 에이전틱 검색 기능",
+   "summary": "Amazon Bedrock Managed Knowledge Base가 AgenticRetrieveStream을 통해 단발성 RAG(Retrieval Augmented Generation) 및 검색 전용 요청을 지원합니다. 이러한 새로운 모드는 기존의 에이전틱 검색과 결합되어 애플리케이션이 질문 유형에 맞는 적절한 검색 노력을 선택할 수 있도록 합니다. 개발자는 이제 간단한 체크리스트 조회나 복잡한 정책 비교에 동일한 API를 사용할 수 있습니다.",
+   "impact": "개발자는 별도의 시스템을 구축하지 않고도 각 요청에 맞는 검색 노력을 선택할 수 있어, 단순 질문에 대한 지연 시간과 모델 사용량을 줄일 수 있습니다. 추적 이벤트와 내장된 계획 워크플로우는 팀이 답변 생성 방식을 검사하고 커스텀 오케스트레이션 부담을 줄이는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "단발성 RAG는 지베이스를 한 번 검색하고 계획 라운드 없이 파운데이션 모델을 사용하여 답변을 생성합니다.",
+    "검색 전용 요청은 답변을 생성하거나 파운데이션 모델을 호출하지 않고 일치하는 패스지를 직접 반환합니다.",
+    "에이전틱 검색은 복잡한 질문에 대해 여러 번의 검색을 계획하고 실행하며, 질문을 하위 쿼리로 나누고 필요에 따라 검색을 개선합니다."
+   ]
+  }
+ }
+}

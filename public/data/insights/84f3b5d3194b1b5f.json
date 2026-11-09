@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "84f3b5d3194b1b5f",
+ "contentHash": "a9eda9a85b0bec64",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T22:35:35.173Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Claude Code is accidentally exposing secrets all over GitHub",
+   "summary": "AI security researchers at Apiiro discovered that Claude Code has been leaking sensitive information on public GitHub repositories. Thousands of secrets, including API tokens, database passwords, and root logins, were found embedded in local settings files. The issue occurs when users select the option to approve automated shell commands without being asked again, causing commands containing sensitive data to be written directly into settings files.",
+   "impact": "This issue may lead to the unintended exposure of sensitive credentials if developers accidentally commit local settings files to public repositories. Security teams and developers could face risks if API tokens or database passwords are leaked through automated command patterns.",
+   "keyPoints": [
+    "Apiiro security researchers found thousands of secrets leaked on public GitHub instances.",
+    "Leaked data includes API tokens, database passwords, and root logins.",
+    "The leak happens when command approvals and automated shell commands are stored in local settings files.",
+    "Anthropic's documentation notes that the local settings file is normally added to the global .gitignore list."
+   ]
+  },
+  "km": {
+   "title": "Claude Code កំពុងបញ្ចេញទិន្នន័យសម្ងាត់ដោយអចេតនាលើ GitHub",
+   "summary": "អ្នកស្រាវជ្រាវផ្នែកសន្តិសុខ AI នៅឯ Apiiro បានរកឃើញថា Claude Code កំពុងលេចធ្លាយព័ត៌មានរសើបនៅលើបណ្តុំទិន្នន័យ GitHub ជាសាធារណៈ។ ព័ត៌មានសម្ងាត់រាប់ពាន់ រួមទាំងថូខឹន API ពាក្យសម្ងាត់មូលដ្ឋានទិន្នន័យ និងការចូលប្រើប្រាស់ root ត្រូវបានរកឃើញបង្កប់នៅក្នុងឯកសារកំណត់រចនាសម្ព័ន្ធក្នុងស្រុក។ បញ្ហានេះកើតឡើងដោយសារវិធីសាស្ត្រដែល Claude Code ដោះស្រាយការយល់ព្រមរបស់អ្នកប្រើប្រាស់សម្រាប់ពាក្យបញ្ជា shell អវតោម័ត។",
+   "impact": "បញ្ហានេះអាចបណ្តាលឱ្យមានការលេចធ្លាយព័ត៌មានសម្ងាត់ដោយអចេតនា ប្រសិនបើអ្នកអភិវឌ្ឍន៍បញ្ជូនឯកសារកំណត់រចនាសម្ព័ន្ធក្នុងស្រុកទៅកាន់ឃ្លាំងទិន្នន័យសាធារណៈ។ ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចនឹងប្រឈមមុខនឹងហានិភ័យ ប្រសិនបើថូខឹន API ឬពាក្យសម្ងាត់ត្រូវបានបង្ហាញជាសាធារណៈ។",
+   "keyPoints": [
+    "អ្នកស្រាវជ្រាវសន្តិសុខ Apiiro បានរកឃើញព័ត៌មានសម្ងាត់រាប់ពាន់ដែលលេចធ្លាយនៅលើ GitHub។",
+    "ទិន្នន័យដែលលេចធ្លាយរួមមានថូខឹន API ពាក្យសម្ងាត់មូលដ្ឋានទិន្នន័យ និងការចូលប្រើប្រាស់ root។",
+    "ការលេចធ្លាយកើតឡើងនៅពេលដែលការอนุมัติពាក្យបញ្ជាត្រូវបានរក្សាទុកក្នុងឯកសារកំណត់រចនាសម្ព័ន្ធក្នុងស្រុក។",
+    "ឯកសារយោងរបស់ Anthropic បានបញ្ជាក់ថាឯកសារកំណត់រចនាសម្ព័ន្ធក្នុងស្រុកជាធម្មតាត្រូវបានបន្ថែមទៅក្នុងបញ្ជី .gitignore ជាសកល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Claude Code 正在 GitHub 上意外泄露机密信息",
+   "summary": "Apiiro 的人工智能安全研究人员发现，由于其设置文件处理方式存在疏漏，Claude Code 一直在公共 GitHub 实例上泄露敏感信息。研究人员在嵌入 GitHub 仓库的 Claude Code 设置文件中发现了数千个机密信息，包括 API 令牌、数据库密码和根登录凭据。此次泄露源于 Claude Code 处理用户对自动化 shell 命令批准的方式。",
+   "impact": "如果开发者不小心将本地设置文件提交到公共仓库，此问题可能会导致敏感凭据意外暴露。如果 API 令牌或数据库密码通过自动化命令模式泄露，安全团队和开发人员可能会面临风险。",
+   "keyPoints": [
+    "Apiiro 的安全研究人员在公共 GitHub 实例上发现了数千个泄露的机密。",
+    "泄露的数据包括 API 令牌、数据库密码和根登录凭据。",
+    "当用户选择批准自动化 shell 命令时，选择会被记录在本地设置文件中，其中通常包含敏感信息。",
+    "Anthropic 在其文档中指出，该特定设置文件通常会被添加到全局 .gitignore 列表中以防共享。"
+   ]
+  },
+  "ko": {
+   "title": "Claude Code가 GitHub 전반에 걸쳐 비밀 정보를 실수로 유출하고 있습니다",
+   "summary": "Apiiro의 AI 보안 연구원들에 따르면, Claude Code의 설정 파일 처리 방식에 부분적인 과실이 있어 공개 GitHub 인스턴스에서 민감한 정보가 유출되고 있습니다. GitHub 저장소에 포함된 Claude Code 설정 파일 내에서 데이터베이스 비밀번호, API 토큰, 루트 로그인 정보를 포함한 수천 개의 비밀이 발견되었습니다. 이 유출은 Claude Code가 자동화된 셸 명령어에 대한 사용자 승인을 처리하는 방식에서 비롯됩니다.",
+   "impact": "이 문제는 개발자가 로컬 설정 파일을 공개 저장소에 실수로 커밋할 경우 민감한 자격 증명이 의도치 않게 노출될 수 있음을 시사합니다. API 토큰이나 데이터베이스 비밀번호가 유출될 경우 보안 팀과 기술 사용자들은 위험에 직면할 수 있습니다.",
+   "keyPoints": [
+    "Apiiro의 보안 연구원들이 공개 GitHub 인스턴스에서 수천 개의 유출된 비밀을 발견했습니다.",
+    "유출된 데이터에는 API 토큰, 데이터베이스 비밀번호, 루트 로그인 정보가 포함됩니다.",
+    "이 유출은 명령어 승인 선택 사항이 로컬 설정 파일에 저장될 때 발생합니다.",
+    "Anthropic은 문서에서 해당 설정 파일이 전역 .gitignore 목록에 추가된다고 언급하고 있습니다."
+   ]
+  }
+ }
+}

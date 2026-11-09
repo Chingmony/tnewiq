@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ee5e2ceda03abe1e",
+ "contentHash": "e92d1b3887bfdb3e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T22:35:03.446Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+   "summary": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26, stealing stored secrets and data. According to cloud security company Wiz, the unauthorized actor utilized credentials for an AWS account that Qubole's platform employs to access those customer accounts. The specific method by which the attacker obtained these credentials has not been disclosed.",
+   "impact": "This incident could raise concerns for developers and security teams relying on third-party cloud platforms with elevated trusted access. Users may need to review cloud permissions and monitor integrations to mitigate similar risks.",
+   "keyPoints": [
+    "Attackers breached multiple Qubole customer AWS accounts between October 14 and October 26.",
+    "Stored secrets and data were stolen during the incidents.",
+    "The attacker used credentials for an AWS account associated with Qubole's platform access.",
+    "The method of obtaining the credentials remains undisclosed."
+   ]
+  },
+  "km": {
+   "title": "ពួក Hacker បានឆ្លៀតប្រចាស់ការចូលប្រើប្រាស់ AWS ដែលទុកចិត្តរបស់ Qubole ដើម្បីជ្រៀតចូលគណនីអតិថិជន និងលួចទិន្នន័យ",
+   "summary": "ក្រុមហ៊ុនសន្តិសុខពពក Wiz បានប្រកាសថា ពួក Hacker បានចូលក្នុងគណនី AWS របស់អតិថិជន Qubole ច្រើននាក់ចន្លោះថ្ងៃទី ១៤ ដល់ថ្ងៃទី ២៦ ខែតុលា ហើយបានលួចទិន្នន័យ និងព័ត៌មានសម្ងាត់ដែលបានរក្សាទុក។ ជនខិលខូចបានប្រើប្រាស់ព័ត៌មានសម្ងាត់សម្រាប់គណនី AWS ដែលវេទិកា Qubole ប្រើដើម្បីចូលទៅកាន់អតិថិជនទាំងនោះ។ របៀបដែលជនខិលខូចទទួលបានព័ត៌មានសម្ងាត់ទាំងនោះមិនទាន់ត្រូវបានបង្ហាញឱ្យដឹងនៅឡើយទេ។",
+   "impact": "ព្រឹត្តិការណ៍នេះអាចបង្កការព្រួយបារម្ភដល់ក្រុមអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខដែលពឹងផ្អែកលើវេទិកាពពកភាគីទីបីដែលមានសិទ្ធិអំណាចចូលរួម។ អ្នកប្រើប្រាស់អាចនឹងត្រូវពិនិត្យឡើងវិញនូវសិទ្ធិអនុញ្ញាតលើពពក ដើម្បីកាត់បន្ថយហានិភ័យស្រដៀងគ្នា។",
+   "keyPoints": [
+    "ពួក Hacker បានជ្រៀតចូលគណនី AWS របស់អតិថិជន Qubole ចន្លោះថ្ងៃទី ១៤ និងទី ២៦ ខែតុលា។",
+    "ព័ត៌មានសម្ងាត់ និងទិន្នន័យដែលបានរក្សាទុកត្រូវបានលួច។",
+    "ជនខិលខូចបានប្រើប្រាស់ព័ត៌មានសម្ងាត់សម្រាប់គណនី AWS ដែលប្រើដោយវេទិកា Qubole។",
+    "វិធីសាស្ត្រនៃការទទួលបានព័ត៌មានសម្ងាត់មិនទាន់ត្រូវបានលាតត្រដាងទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "黑客利用 Qubole 受信任的 AWS 访问权限入侵客户账户并窃取数据",
+   "summary": "云安全公司 Wiz 今天表示，攻击者在 10 月 14 日至 10 月 26 日期间闯入了属于多位 Qubole 客户的 AWS 账户，并窃取了存储的机密和数据。攻击者使用了 Qubole 平台用于访问这些客户的 AWS 账户凭据。目前尚未披露攻击者是如何获取这些凭据的。",
+   "impact": "这一事件可能会引起开发人员和安全团队对依赖具有特权访问权限的第三方云平台的关注。用户可能需要审查云权限并监控集成，以降低类似风险。",
+   "keyPoints": [
+    "攻击者在 10 月 14 日至 26 日期间入侵了多个 Qubole 客户的 AWS 账户。",
+    "事件期间存储的机密和数据被窃取。",
+    "攻击者使用了与 Qubole 平台访问权限相关的 AWS 账户凭据。",
+    "获取凭据的具体方法尚未披露。"
+   ]
+  },
+  "ko": {
+   "title": "해커가 Qubole의 신뢰된 AWS 액세스를 악용하여 고객 계정을 침해하고 데이터를 도난함",
+   "summary": "클라우드 보안 회사인 Wiz에 따르면, 공격자가 10월 14일부터 10월 26일 사이에 여러 Qubole 고객의 AWS 계정에 침투하여 저장된 비밀 정보와 데이터를 도난당했습니다. 공격자는 Qubole 플랫폼이 해당 고객에게 도달하기 위해 사용하는 AWS 계정의 자격 증명을 사용했습니다. 공격자가 해당 자격 증명을 입수한 경로는 아직 공개되지 않았습니다.",
+   "impact": "이 사건은 신뢰된 접근 권한을 가진 제3자 클라우드 플랫폼에 의존하는 개발자와 보안 팀에게 우려를 불러일으킬 수 있습니다. 사용자들은 유사한 위험을 완화하기 위해 클라우드 권한을 검토하고 통합을 모니터링해야 할 수 있습니다.",
+   "keyPoints": [
+    "공격자가 10월 14일에서 10월 26일 사이에 여러 Qubole 고객의 AWS 계정을 침해했습니다.",
+    "사건 발생 기간 동안 저장된 비밀 정보와 데이터가 도난당했습니다.",
+    "공격자는 Qubole 플랫폼 액세스와 연관된 AWS 계정 자격 증명을 사용했습니다.",
+    "자격 증명을 획득한 방법은 아직 공개되지 않았습니다."
+   ]
+  }
+ }
+}

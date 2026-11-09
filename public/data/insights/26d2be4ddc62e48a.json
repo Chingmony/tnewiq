@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "26d2be4ddc62e48a",
+ "contentHash": "22e4a7fa470555bc",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T22:30:33.279Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Introducing Claude Fable 5.2 on AWS",
+   "summary": "Anthropic has announced the availability of Claude Fable 5.2 and Claude Mythos 5.2 on Amazon Bedrock and Claude Platform on AWS. Claude Fable 5.2 is designed for advanced technical workloads in coding, math, and science, capable of running unattended for extended periods while verifying its own output. Meanwhile, Claude Mythos 5.2 is restricted to verification programs for advanced work in cyber security and life sciences. The release also includes enterprise safety and data retention safeguards, such as Enterprise Frontier Safeguards.",
+   "impact": "Developers and technology users could leverage Claude Fable 5.2 for long-running, multi-step technical workloads across large codebases and scientific research. Security teams working in high-risk domains may access Claude Mythos 5.2 through specific verification programs. Teams should review data retention modes and fallback credit mechanisms when integrating these models on Amazon Bedrock.",
+   "keyPoints": [
+    "Claude Fable 5.2 and Claude Mythos 5.2 are now available on Amazon Bedrock and Claude Platform on AWS.",
+    "Fable 5.2 handles complex, multi-step tasks in coding, science, and math, and can run unattended for hours or days.",
+    "Mythos 5.2 is available exclusively through verification programs for cyber security and life sciences.",
+    "Enterprise Frontier Safeguards and specific data retention configurations apply to Covered Models like Fable 5.2."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យដំណើរការ Claude Fable 5.2 នៅលើ AWS",
+   "summary": "Anthropic បានប្រកាសពីការដាក់ឱ្យប្រើប្រាស់ Claude Fable 5.2 និង Claude Mythos 5.2 នៅលើ Amazon Bedrock និង Claude Platform នៅលើ AWS។ Claude Fable 5.2 គឺជាម៉ូដែលដ៏មានឥទ្ធិពលសម្រាប់កិច្ចការបច្ចេកទេសក្នុងវិស័យកូដ គណិតវិទ្យា និងវិទ្យាសាស្ត្រ ដែលអាចដំណើរការដោយខ្លួនឯងបាន។ ចំណែកឯ Claude Mythos 5.2 គឺមានសម្រាប់តែកម្មវិធីផ្ទៀងផ្ទាត់សម្រាប់ការងារកម្រិតខ្ពស់លើផ្នែកសន្តិសុខតាមអ៊ីនធឺណិត និងវិទ្យាសាស្ត្រជីវិតប៉ុណ្ណោះ។ ការចេញផ្សាយនេះក៏រួមបញ្ចូលផងដែរនូវវិធានការការពារសុវត្ថិភាពសហគ្រាស និងការរក្សាទុកទិន្នន័យ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចប្រើប្រាស់ Claude Fable 5.2 សម្រាប់កិច្ចការបច្ចេកទេសស្មុគស្មាញ និងការស្រាវជ្រាវវិទ្យាសាស្ត្ររយៈពេលវែង។ ក្រុមសន្តិសុខអាចចូលប្រើប្រាស់ Claude Mythos 5.2 តាមរយៈកម្មវិធីផ្ទៀងផ្ទាត់ជាក់លាក់។ ក្រុមការងារគួរតែពិនិត្យមើលរបៀបរក្សាទុកទិន្នន័យ និងយន្តការឥណទានបម្រុងទុកនៅពេលរួមបញ្ចូលម៉ូដែលទាំងនេះនៅលើ Amazon Bedrock។",
+   "keyPoints": [
+    "Claude Fable 5.2 និង Claude Mythos 5.2 ឥឡូវនេះមាននៅលើ Amazon Bedrock និង Claude Platform នៅលើ AWS។",
+    "Fable 5.2 ដោះស្រាយកិច្ចការស្មុគស្មាញក្នុងការសរសេរកូដ វិទ្យាសាស្ត្រ និងគណិតវិទ្យា។",
+    "Mythos 5.2 អាចរកបានផ្តាច់មុខតាមរយៈកម្មវិធីផ្ទៀងផ្ទាត់សម្រាប់សន្តិសុខតាមអ៊ីនធឺណិត និងវិទ្យាសាស្ត្រជីវិត។",
+    "ការការពារសុវត្ថិភាពសហគ្រាស និងការកំណត់ការរក្សាទុកទិន្នន័យត្រូវបានអនុវត្តចំពោះម៉ូដែលទាំងនេះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在 AWS 上推出 Claude Fable 5.2",
+   "summary": "Anthropic 宣布在 Amazon Bedrock 和 AWS 上的 Claude Platform 上推出 Claude Fable 5.2 和 Claude Mythos 5.2。Claude Fable 5.2 是 Anthropic 用于技术工作的最强通用模型，提升了编程和科学领域的标准，能够连续数小时甚至数天自主运行。同时，Claude Mythos 5.2 仅通过验证计划提供，用于网络安全和生命科学领域的先进工作。此次发布还引入了企业安全保护和数据保留防护措施。",
+   "impact": "开发人员和技术用户可以利用 Claude Fable 5.2 处理复杂的多步骤技术工作负载和科学研究。安全团队可以通过特定的验证计划访问 Claude Mythos 5.2。在 Amazon Bedrock 上集成这些模型时，团队应仔细审查数据保留模式和回退信用机制。",
+   "keyPoints": [
+    "Claude Fable 5.2 和 Claude Mythos 5.2 现已在 Amazon Bedrock 和 AWS 上的 Claude Platform 上线。",
+    "Fable 5.2 能够处理编程、数学和科学中的复杂问题，并能自主运行数小时到数天。",
+    "Mythos 5.2 专为网络安全和生命科学领域的验证计划提供。",
+    "发布内容包含企业前沿保障机制以及相关的默认数据保留和审核要求。"
+   ]
+  },
+  "ko": {
+   "title": "AWS에서 Claude Fable 5.2 출시",
+   "summary": "Anthropic은 Amazon Bedrock 및 AWS의 Claude Platform에서 Claude Fable 5.2와 Claude Mythos 5.2의 가용성을 발표했습니다. Claude Fable 5.2는 코딩, 수학, 과학 분야의 기술적 작업을 위한 Anthropic의 가장 강력한 범용 모델로, 자체 출력을 검증하며 몇 시간에서 며칠 동안 무인으로 실행할 수 있습니다. 한편 Claude Mythos 5.2는 사이버 보안 및 생명 과학 분야의 고급 작업을 위한 인증 프로그램을 통해서만 사용할 수 있습니다. 이번 발표에는 기업용 보안 및 데이터 보존 보호 장치도 포함되어 있습니다.",
+   "impact": "개발자와 기술 사용자는 Claude Fable 5.2를 활용하여 대규모 코드베이스와 과학 연구에서 장기 실행되는 다단계 기술 워크로드를 처리할 수 있습니다. 보안 팀은 특정 인증 프로그램을 통해 Claude Mythos 5.2에 액세스할 수 있습니다. 팀은 Amazon Bedrock에서 이러한 모델을 통합할 때 데이터 보존 모드와 대체 크레딧 메커니즘을 검토해야 합니다.",
+   "keyPoints": [
+    "Claude Fable 5.2와 Claude Mythos 5.2를 이제 Amazon Bedrock 및 AWS의 Claude Platform에서 사용할 수 있습니다.",
+    "Fable 5.2는 코딩, 과학, 수학의 복잡한 문제를 해결하며 몇 시간 또는 며칠 동안 무인으로 실행될 수 있습니다.",
+    "Mythos 5.2는 사이버 보안 및 생명 과학 분야의 인증 프로그램을 통해서만 제공됩니다.",
+    "Covered Model인 Fable 5.2에는 기업 프런티어 보호 장치 및 데이터 보존 요구 사항이 적용됩니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "863ec2da227d1a34",
+ "contentHash": "e21d2bd8505ae9e5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T22:32:11.820Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Make a Robot Arm Feel Weightless with NVIDIA Holoscan 5",
+   "summary": "Guide a robot arm by hand while its motors supply just enough torque to support its weight and keep the robot upright. This interaction relies on a gravity-compensation loop. Building this loop requires continuously calculating the inverse dynamics of the robot.",
+   "impact": "This capability could serve as a useful starting point for developers building robots that learn by demonstration, manipulate objects, or work alongside people.",
+   "keyPoints": [
+    "Motors supply just enough torque to support the robot arm's weight and keep it upright.",
+    "The interaction depends on a gravity-compensation loop.",
+    "Building the loop is possible by continuously calculating inverse dynamics."
+   ]
+  },
+  "km": {
+   "title": "ធ្វើឱ្យដៃរ៉ូបូតមានអារម្មណ៍ថាគ្មានទម្ងន់ជាមួយ NVIDIA Holoscan 5",
+   "summary": "ណែនាំដៃរ៉ូបូតដោយដៃ ខណៈពេលដែលម៉ូទ័ររបស់វាផ្គត់ផ្គង់កម្លាំងបង្វិលជុំល្មមដើម្បីទ្រទម្ងន់ និងរក្សាវាឱ្យត្រង់។ អន្តរកម្មនេះអាស្រ័យទៅលើរង្វិលជុំទូទាត់ទំនាញផែនដី។ ការបង្កើតរង្វិលជុំបែបនេះគឺអាចធ្វើទៅបានដោយការគណនាជាបន្តបន្ទាប់នូវឌីណាមិកបញ្ច្រាស។",
+   "impact": "សមត្ថភាពនេះអាចជាចំណុចចាប់ផ្តើមដ៏មានប្រយោជន៍សម្រាប់អ្នកអភិវឌ្ឍន៍ដែលបង្កើតរ៉ូបូតរៀនតាមរយៈការបង្ហាញ ឬធ្វើការជាមួយមនុស្ស។",
+   "keyPoints": [
+    "ម៉ូទ័រផ្គត់ផ្គង់កម្លាំងបង្វិលជុំល្មមដើម្បីទ្រទម្ងន់ដៃរ៉ូបូត និងរក្សាវាឱ្យត្រង់។",
+    "អន្តរកម្មនេះពឹងផ្អែកលើរង្វិលជុំទូទាត់ទំនាញផែនដី។",
+    "ការបង្កើតរង្វិលជុំទាមទារការគណនាឌីណាមិកបញ្ច្រាសជាបន្តបន្ទាប់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 NVIDIA Holoscan 5 让机械臂感觉失重",
+   "summary": "用手引导机械臂，同时其电机提供刚好足够的扭矩来支撑其重量并保持机械臂直立。这种简单的交互依赖于重力补偿循环。构建这样一个循环只有通过不断计算逆动力学才可能实现。",
+   "impact": "这项功能可能为开发人员构建通过演示学习、操纵物体或与人类协同工作的机器人提供有用的起点。",
+   "keyPoints": [
+    "电机提供足够的扭矩来支撑机械臂的重量并保持直立。",
+    "该交互依赖于重力补偿循环。",
+    "构建该循环需要持续计算逆动力学。"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA Holoscan 5를 사용하여 로봇 팔을 무중력 상태처럼 느끼게 만들기",
+   "summary": "모터가 무게를 지탱하고 로봇을 똑바로 세우기에 충분한 토크를 공급하는 동안 손으로 로봇 팔을 유도합니다. 이 간단한 상호 작용은 중력 보상 루프에 의존합니다. 이러한 루프를 구축하는 것은 역동역학을 지속적으로 계산해야만 가능합니다.",
+   "impact": "이 기능은 시연을 통해 학습하거나, 물체를 조작하거나, 사람과 함께 일하는 로봇을 구축하는 개발자에게 유용한 시작점이 될 수 있습니다.",
+   "keyPoints": [
+    "모터가 로봇 팔의 무게를 지탱하고 똑바로 유지할 만큼의 토크를 공급합니다.",
+    "이 상호 작용은 중력 보상 루프에 의존합니다.",
+    "루프 구축은 역동역학을 지속적으로 계산해야 가능합니다."
+   ]
+  }
+ }
+}

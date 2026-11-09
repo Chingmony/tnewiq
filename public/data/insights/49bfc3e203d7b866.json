@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "49bfc3e203d7b866",
+ "contentHash": "079474c1407875bb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T22:36:42.833Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Introducing an open-source UI for graph analytics over data lakes with Amazon Neptune Analytics",
+   "summary": "AWS has introduced an open-source solution featuring a local web UI that allows customers to turn data lake records into graphs for analysis using Amazon Neptune Analytics. The new interface brings multiple steps into a single workflow, letting users define property graphs using SQL/PGQ from Athena catalogs and databases, preview rows, and stage data in Amazon S3 before import. Customers can then open the loaded graph in Graph Explorer to query and visualize relationships.",
+   "impact": "This tool could simplify graph analysis workflows for developers and data teams by eliminating the need to custom-build ETL pipelines or manually manage data staging and imports. It may also help users selectively project data to answer specific questions without loading entire datasets.",
+   "keyPoints": [
+    "AWS launched an open-source solution with a local web UI for Amazon Neptune Analytics.",
+    "The UI allows users to project data lake records into graphs without building custom ETL pipelines.",
+    "Users can define property graphs using SQL/PGQ from Athena catalogs and databases.",
+    "Loaded graphs can be opened in Graph Explorer for querying and visualization."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យដំណើរការចំណុចប្រទាក់អ្នកប្រើប្រាស់ប្រភពបើកចំហសម្រាប់ផ្នែកវិភាគក្រាហ្វលើទិន្នន័យឡេកជាមួយ Amazon Neptune Analytics",
+   "summary": "AWS បានណែនាំដំណោះស្រាយប្រភពបើកចំហមួយដែលមានចំណុចប្រទាក់គេហទំព័រក្នុងស្រុក ដែលជួយអតិថិជនបំប្លែងកំណត់ត្រាទិន្នន័យឡេកទៅជាក្រាហ្វសម្រាប់ការវិភាគជាមួយ Amazon Neptune Analytics។ ចំណុចប្រទាក់ថ្មីនេះនាំយកជំហានជាច្រើនចូលទៅក្នុងលំហូរការងារតែមួយ ដែលអនុញ្ញាតឱ្យកំណត់ក្រាហ្វលក្ខណៈសម្បត្តិដោយប្រើ SQL/PGQ ពីកាតាឡុក Athena និងមូលដ្ឋានទិន្នន័យ។ អតិថិជនអាចបើកក្រាហ្វដែលបានផ្ទុកនៅក្នុង Graph Explorer ដើម្បីសាកសួរ និងមើលឃើញទំនាក់ទំនង។",
+   "impact": "ឧបករណ៍នេះអាចសម្រួលលំហូរការងារវិភាគក្រាហ្វសម្រាប់អ្នកអភិវឌ្ឍន៍ និងក្រុមទិន្នន័យ ដោយលុបបំបាត់តម្រូវការក្នុងការបង្កើតបំពង់បង្ហូរទិន្នន័យ ETL ផ្ទាល់ខ្លួន។ វាក៏អាចជួយអ្នកប្រើប្រាស់ព្យាករណ៍ទិន្នន័យតាមតម្រូវការជាក់លាក់ដោយមិនចាំបាច់ផ្ទុកชุดទិន្នន័យទាំងមូលផងដែរ។",
+   "keyPoints": [
+    "AWS បានដាក់ឱ្យដំណើរការដំណោះស្រាយប្រភពបើកចំហជាមួយចំណុចប្រទាក់គេហទំព័រក្នុងស្រុកសម្រាប់ Amazon Neptune Analytics។",
+    "ចំណុចប្រទាក់អនុញ្ញាតឱ្យបំប្លែងកំណត់ត្រាទិន្នន័យឡេកទៅជាក្រាហ្វដោយមិនចាំបាច់សាងសង់បំពង់ ETL ផ្ទាល់ខ្លួន។",
+    "អ្នកប្រើប្រាស់អាចកំណត់ក្រាហ្វលក្ខណៈសម្បត្តិដោយប្រើ SQL/PGQ ពីកាតាឡុក Athena។",
+    "ក្រាហ្វដែលបានផ្ទុកអាចត្រូវបានបើកនៅក្នុង Graph Explorer ដើម្បីសាកសួរ និងមើលឃើញទំនាក់ទំនង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "推出结合 Amazon Neptune Analytics 的数据湖图分析开源 UI",
+   "summary": "AWS 推出了一项开源解决方案，其中包含本地 Web UI，可帮助客户将数据湖记录转化为图，以便使用 Amazon Neptune Analytics 进行分析。该新界面将多个步骤整合到一个工作流中，允许用户通过 Athena 目录和数据库使用 SQL/PGQ 定义属性图，并在导入前预览行并将选定数据暂存到 Amazon S3 中。客户随后可以在 Graph Explorer 中打开加载的图以查询和可视化关系。",
+   "impact": "此工具可以通过消除构建自定义 ETL 管道或手动管理数据暂存和导入的需求，简化开发人员和数据团队的图分析工作流。它还可能帮助用户选择性地投射数据以回答特定问题，而无需加载整个数据集。",
+   "keyPoints": [
+    "AWS 推出了带有本地 Web UI 的开源解决方案以支持 Amazon Neptune Analytics。",
+    "该 UI 允许用户将数据湖记录投射到图中，无需构建自定义 ETL 管道。",
+    "用户可以从 Athena 目录和数据库使用 SQL/PGQ 定义属性图。",
+    "加载的图可以在 Graph Explorer 中打开以进行查询和可视化。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Neptune Analytics를 통한 데이터 레이크 그래프 분석용 오픈소스 UI 소개",
+   "summary": "AWS는 고객이 Amazon Neptune Analytics를 사용한 분석을 위해 데이터 레이크 레코드를 그래프로 변환할 수 있도록 돕는 로컬 웹 UI 기반의 오픈소스 솔루션을 소개했습니다. 새로운 인터페이스는 여러 단계를 단일 워크플로로 통합하여, 사용자가 Athena 카탈로그 및 데이터베이스에서 SQL/PGQ를 사용하여 속성 그래프를 정의하고 행을 미리 본 뒤 Amazon S3에 데이터를 스테이징할 수 있게 합니다. 고객은 로드된 그래프를 Graph Explorer에서 열어 관계를 쿼리하고 시각화할 수 있습니다.",
+   "impact": "이 도구는 개발자와 데이터 팀이 맞춤형 ETL 파이프라인을 구축하거나 데이터 스테이징 및 가져오기를 수동으로 관리할 필요를 없애줌으로써 그래프 분석 워크플로를 단순화할 수 있습니다. 또한 사용자가 전체 데이터셋을 로드하지 않고도 특정 질문에 답하기 위해 데이터를 선택적으로 투영하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "AWS가 Amazon Neptune Analytics를 위한 로컬 웹 UI를 갖춘 오픈소스 솔루션을 출시했습니다.",
+    "이 UI를 통해 사용자는 맞춤형 ETL 파이프라인 구축 없이 데이터 레이크 레코드를 그래프로 투영할 수 있습니다.",
+    "사용자는 Athena 카탈로그 및 데이터베이스에서 SQL/PGQ를 사용하여 속성 그래프를 정의할 수 있습니다.",
+    "로드된 그래프는 Graph Explorer에서 열어 쿼리하고 시각화할 수 있습니다."
+   ]
+  }
+ }
+}
