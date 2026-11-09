@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4d02c260bfd3474b",
+ "contentHash": "32793fba9be86698",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T11:48:14.031Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+   "summary": "CISA added a high-severity vulnerability in SonicWall SonicOS to its Known Exploited Vulnerabilities catalog. The flaw, tracked as CVE-2026-19868, has a CVSS score of 7.1 out of 7.5 and is described as an authentication reinforcement. This action follows reports indicating the vulnerability may have been exploited in real-world attacks.",
+   "impact": "Security teams managing SonicWall SonicOS deployments may need to review the KEV catalog update and prioritize patching. Since the issue involves authentication reinforcement and possible exploitation, developers and administrators could face increased security risks if left unmitigated.",
+   "keyPoints": [
+    "CISA added the vulnerability to the KEV catalog.",
+    "The flaw is tracked as CVE-2026-19868 with a CVSS score of 7.1 / 7.5.",
+    "Reports indicate the issue may have been exploited in real-world attacks."
+   ]
+  },
+  "km": {
+   "title": "CISA ដាក់បញ្ចូលចំណុចខ្សោយរំលង MFA របស់ SonicWall SonicOS បន្ទាប់ពីមានសេចក្តីរាយការណ៍អំពីការកេងប្រវ័ញ្ចដែលអាចកើតមាន",
+   "summary": "ទីភ្នាក់ងារសន្តិសុខគ្របដណ្តប់លើអ៊ីនធឺណិត និងហេដ្ឋារចនាសម្ព័ន្ធសហរដ្ឋអាមេរិក (CISA) បានបន្ថែមភាពងាយរងគ្រោះកម្រិតធ្ងន់ធ្ងរដែលប៉ះពាល់ដល់ SonicWall SonicOS ទៅក្នុងបញ្ជីរាយនាមភាពងាយរងគ្រោះដែលគេស្គាល់ថាត្រូវបានកេងប្រវ័ញ្ច (KEV)។ ចំណុចខ្សោយនេះត្រូវបានតាមដានក្រោមលេខ CVE-2026-19868 ដែលមានពិន្ទុ CVSS 7.1 / 7.5 និងត្រូវបានពិពណ៌នាថាជាការពង្រឹងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ។ សកម្មភាពនេះធ្វើឡើងបន្ទាប់ពីមានរបាយការណ៍ថាវាអាចត្រូវបានកេងប្រវ័ញ្ចក្នុងការវាយប្រហារពិតប្រាកដ។",
+   "impact": "ក្រុមសន្តិសុខដែលគ្រប់គ្រងការប្រើប្រាស់ SonicWall SonicOS អាចចាំបាច់ត្រូវពិនិត្យមើលការអាប់ដេតកាតាឡុក KEV និងផ្តល់អាទិភាពដល់ការបិទបាំងសុវត្ថិភាព។ ដោយសារបញ្ហានេះពាក់ព័ន្ធនឹងការពង្រឹងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ និងការកេងប្រវ័ញ្ចដែលអាចកើតមាន អ្នកអភិវឌ្ឍន៍អាចនឹងប្រឈមមុខនឹងហានិភ័យសន្តិសុខកើនឡើង។",
+   "keyPoints": [
+    "CISA បានបន្ថែមភាពងាយរងគ្រោះទៅក្នុងកាតាឡុក KEV ។",
+    "ចំណុចខ្សោយនេះត្រូវបានតាមដានជា CVE-2026-19868 ដែលមានពិន្ទុ CVSS 7.1 / 7.5 ។",
+    "របាយការណ៍បង្ហាញថាបញ្ហានេះអាចត្រូវបានកេងប្រវ័ញ្ចនៅក្នុងការវាយប្រហារពិតប្រាកដ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "CISA在可能遭到利用的报告中标记SonicWall SonicOS MFA绕过漏洞",
+   "summary": "美国网络安全和基础设施安全局（CISA）已将影响SonicWall SonicOS的高危漏洞添加至其已知利用漏洞（KEV）目录中。该漏洞被追踪为CVE-2026-19868，CVSS评分为7.1 / 7.5，被描述为身份验证强化。此前有报告称该漏洞可能已在实际攻击中遭到利用。",
+   "impact": "管理SonicWall SonicOS部署的安全团队可能需要审查KEV目录更新并优先进行修复。由于该问题涉及身份验证强化且可能遭到利用，如果未能加以缓解，开发人员和技术用户可能会面临更高的安全风险。",
+   "keyPoints": [
+    "CISA将该漏洞添加至已知利用漏洞目录。",
+    "该漏洞追踪编号为CVE-2026-19868，CVSS评分为7.1 / 7.5。",
+    "有报告指出该漏洞可能已在实际攻击中被利用。"
+   ]
+  },
+  "ko": {
+   "title": "CISA, 실제 악용 정황 속 SonicWall SonicOS MFA 우회 취약점 경고",
+   "summary": "미국 사이버안전인프라국(CISA)은 SonicWall SonicOS에 영향을 미치는 심각한 취약점을 알려진 악용 취약점(KEV) 카탈로그에 추가했다. CVE-2026-19868으로 추적되는 이 취약점은 CVSS 점수 7.1 / 7.5를 기록했으며 인증 강화와 관련된 것으로 설명되었다. 이번 조치는 실제 공격에서 악용되었을 수 있다는 보고에 따른 것이다.",
+   "impact": "SonicWall SonicOS 배포를 관리하는 보안 팀은 KEV 카탈로그 업데이트를 검토하고 패치를 우선적으로 적용해야 할 수 있다. 해당 문제가 인증 강화 및 잠재적 악용과 관련이 있는 만큼, 적절한 조치가 이루어지지 않으면 개발자와 기술 사용자들은 증가된 보안 위험에 직면할 수 있다.",
+   "keyPoints": [
+    "CISA가 해당 취약점을 KEV 카탈로그에 추가함.",
+    "취약점은 CVE-2026-19868로 추적되며 CVSS 점수는 7.1 / 7.5임.",
+    "실제 공격에서 악용되었을 수 있다는 보고가 존재함."
+   ]
+  }
+ }
+}

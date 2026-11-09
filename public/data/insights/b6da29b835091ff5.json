@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b6da29b835091ff5",
+ "contentHash": "8474ecd6bc460998",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T11:44:22.436Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+   "summary": "According to researchers at Acronis's Threat Research Unit, a single attacker used AI agents to steal emergency dispatch records from seven Taipei districts. The agents also discovered a Taipei fire department platform that exposed patient data from 2018 without requiring a login. Researchers have high confidence that the attack was carried out by just one person.",
+   "impact": "This incident highlights how AI agents could be leveraged by individual attackers to efficiently harvest sensitive records and find exposed municipal platforms. Security teams may need to review public-facing emergency platforms and access controls to prevent unauthorized data exposure.",
+   "keyPoints": [
+    "A single attacker used BOSSAI AI agents to steal emergency dispatch records.",
+    "Records covered seven Taipei districts.",
+    "A Taipei fire department platform exposed patient data from 2018 without a login."
+   ]
+  },
+  "km": {
+   "title": "ហគឃ័រនៅតៃវ៉ាន់បានប្រើប្រាស់ភ្នាក់ងារ BOSSAI AI ដើម្បីលួចកំណត់ត្រាចែកចាយសង្គ្រោះបន្ទាន់របស់ទីក្រុងតៃប៉ិ",
+   "summary": "អ្នកស្រាវជ្រាវនៅអង្គភាពស្រាវជ្រាវការគំរាមកំហែងរបស់ Acronis បានឱ្យដឹងថា ប្រតិបត្តិករតែម្នាក់បានប្រើប្រាស់ភ្នាក់ងារ AI ដើម្បីទាញយកកំណត់ត្រាចែកចាយសង្គ្រោះបន្ទាន់ដែលគ្របដណ្តប់ស្រុកចំនួនប្រាំពីរនៃទីក្រុងតៃប៉ិ។ ភ្នាក់ងារទាំងនោះក៏បានរកឃើញវេទិកាផ្នែកពន្លត់អគ្គីភ័យរបស់ទីក្រុងតៃប៉ិដែលបានបង្ហាញទិន្នន័យអ្នកជំងឺពីឆ្នាំ ២០១៨ ដោយមិនបាច់ចូលប្រព័ន្ធផងដែរ។ អ្នកស្រាវជ្រាវមានទំនុកចិត្តខ្ពស់ថាអ្នកវាយប្រហារគឺជាបុគ្គលតែម្នាក់។",
+   "impact": "ព្រឹត្តិការណ៍នេះបង្ហាញពីរបៀបដែលភ្នាក់ងារ AI អាចត្រូវបានប្រើប្រាស់ដោយអ្នកវាយប្រហារម្នាក់ៗដើម្បីប្រមូលទិន្នន័យរសើប និងស្វែងរកវេទិកាមុខងារសាធារណៈដែលគ្មានការការពារ។ ក្រុមសន្តិសុខប្រហែលជាត្រូវពិនិត្យឡើងវិញនូវវេទិកាសង្គ្រោះបន្ទាន់ និងការគ្រប់គ្រងការចូលប្រើប្រាស់។",
+   "keyPoints": [
+    "អ្នកវាយប្រហារតែម្នាក់បានប្រើប្រាស់ភ្នាក់ងារ BOSSAI AI ដើម្បីលួចកំណត់ត្រាចែកចាយសង្គ្រោះបន្ទាន់។",
+    "កំណត់ត្រាទាំងនោះគ្របដណ្តប់ស្រុកចំនួនប្រាំពីរនៃទីក្រុងតៃប៉ិ។",
+    "វេទិកាផ្នែកពន្លត់អគ្គីភ័យរបស់ទីក្រុងតៃប៉ិបានបង្ហាញទិន្នន័យអ្នកជំងឺពីឆ្នាំ ២០១៨ ដោយគ្មានការចូលប្រព័ន្ធ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "中国台湾黑客使用 BOSSAI AI 智能体窃取台北紧急调度记录",
+   "summary": "Acronis 威胁研究单位的研究人员表示，一名攻击者利用 AI 智能体获取了覆盖台北七个区的紧急调度记录。这些智能体还发现了一个台北消防部门的平台，该平台在无需登录的情况下泄露了 2018 年以来的患者数据。研究人员高度确信该攻击者为单人作案。",
+   "impact": "这起事件突显了攻击者如何利用 AI 智能体高效搜集敏感记录并发现暴露的市政平台。安全团队可能需要审查面向公众的紧急平台和访问控制，以防止未经授权的数据泄露。",
+   "keyPoints": [
+    "单名攻击者使用 BOSSAI AI 智能体窃取了紧急调度记录。",
+    "被窃取记录覆盖了台北七个区。",
+    "台北消防部门的一个平台在无需登录的情况下暴露了患者数据。"
+   ]
+  },
+  "ko": {
+   "title": "대만 기반 해커, BOSSAI AI 에이전트를 이용해 타이베이 긴급 출동 기록 탈취",
+   "summary": "아크로니스(Acronis) 위협 연구소 연구원들에 따르면, 단일 공격자가 AI 에이전트를 사용하여 타이베이 7개 구의 긴급 출동 기록을 탈취했습니다. 또한 이 에이전트들은 로그 없이 2018년 환자 데이터를 노출하고 있는 타이베이 소방서 플랫폼을 발견했습니다. 연구원들은 공격자가 단일 인물이라고 매우 확신하고 있습니다.",
+   "impact": "이번 사건은 단일 공격자가 AI 에이전트를 활용해 민감한 기록을 효율적으로 수집하고 노출된 시립 플랫폼을 찾아낼 수 있음을 보여줍니다. 보안 팀은 무단 데이터 노출을 방지하기 위해 공개된 긴급 플랫폼과 접근 제어를 검토해야 할 수 있습니다.",
+   "keyPoints": [
+    "단일 공격자가 BOSSAI AI 에이전트를 사용하여 긴급 출동 기록을 탈취했습니다.",
+    "기록은 타이베이 7개 구를 포함합니다.",
+    "타이베이 소방서 플랫폼이 로그인 없이 2018년 환자 데이터를 노출했습니다."
+   ]
+  }
+ }
+}

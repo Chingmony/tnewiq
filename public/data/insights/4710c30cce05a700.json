@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4710c30cce05a700",
+ "contentHash": "26569543a3c34af8",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T11:43:51.530Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Nvidia Unveils VFlash to Make Robot AI Inference Five Times Faster",
+   "summary": "Nvidia has introduced a new decoding framework called VFlash to accelerate visual planning for physical AI such as robots and autonomous vehicles. The technology increases AI inference speed for robot movement planning by five times while reducing path prediction errors. By predicting an entire path at once instead of generating coordinates sequentially, it improves real-time control performance.",
+   "impact": "This technology could improve the real-time control performance of robots and autonomous vehicles for developers and technology users. Security teams and developers may find that faster and more accurate path prediction enhances the efficiency of physical AI systems.",
+   "keyPoints": [
+    "Nvidia announced VFlash on November 6.",
+    "The framework accelerates visual planning for physical AI like robots and autonomous vehicles.",
+    "It increases AI inference speed for robot movement planning by five times.",
+    "It predicts the entire path at once instead of generating coordinates sequentially."
+   ]
+  },
+  "km": {
+   "title": "Nvidia បញ្ចេញ VFlash ដែលធ្វើឱ្យការសន្និដ្ឋាន AI របស់រ៉ូបូតលឿនជាងមុន ៥ ដង",
+   "summary": "Nvidia បានដាក់បង្ហាញក្របខ័ណ្ឌឌិកូដថ្មីមួយហៅថា VFlash ដើម្បីពន្លឿនការរៀបចំផែនការមើលឃើញសម្រាប់ AI រូបវ័ន្តដូចជារ៉ូបូត និងយានយន្តបើកបរស្វ័យប្រវត្តិ។ បច្ចេកវិទ្យានេះបង្កើនល្បឿនសន្និដ្ឋាន AI សម្រាប់ការរៀបចំផែនការចលនារ៉ូបូត៥ដង និងកាត់បន្ថយកំហុសក្នុងការទស្សន៍ទាយផ្លូវ។ តាមរយៈការព្យាករណ៍ផ្លូវទាំងមូលក្នុងពេលតែមួយជំនួសឱ្យការបង្កើតកូអរដោនេម្តងមួយៗ វាជួយកែលម្អដំណើរការគ្រប់គ្រងពេលវេលាជាក់ស្តែង។",
+   "impact": "បច្ចេកវិទ្យានេះអាចជួយកែលម្អដំណើរការគ្រប់គ្រងពេលវេលាជាក់ស្តែងសម្រាប់រ៉ូបូត និងយានយន្តបើកបរស្វ័យប្រវត្តិ។ អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានអត្ថប្រយោជន៍ពីការទស្សន៍ទាយផ្លូវដែលលឿន និងមានភាពសុក្រឹតជាងមុន។",
+   "keyPoints": [
+    "Nvidia បានប្រកាសពី VFlash នៅថ្ងៃទី៦ ខែវិច្ឆិកា។",
+    "ក្របខ័ណ្ឌនេះពន្លឿនការរៀបចំផែនការមើលឃើញសម្រាប់ AI រូបវ័ន្ត។",
+    "វាបង្កើនល្បឿនសន្និដ្ឋាន AI សម្រាប់ការរៀបចំផែនការចលនារ៉ូបូត ៥ ដង។",
+    "វាទស្សន៍ទាយផ្លូវទាំងមូលក្នុងពេលតែមួយជំនួសឱ្យការបង្កើតកូអរដោនេជាបន្តបន្ទាប់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "英伟达发布“VFlash”：使机器人AI推理速度提升5倍",
+   "summary": "英伟达公布了一项名为“VFlash”的新解码框架，旨在加速机器人和自动驾驶汽车等具身智能的视觉规划。该技术将机器人运动规划的AI推理速度提高了5倍，同时减少了路径预测错误。它通过一次性预测整条路径而不是逐个生成坐标，从而改善了实时控制性能。",
+   "impact": "该技术可能会为开发人员和技术用户改善机器人及自动驾驶车辆的实时控制性能。开发人员或许能借助更快、更准确的路径预测来提升物理AI系统的效率。",
+   "keyPoints": [
+    "英伟达于11月6日发布了VFlash。",
+    "该框架可加速机器人和自动驾驶车辆等具身智能的视觉规划。",
+    "机器人运动规划的AI推理速度提高了5倍。",
+    "通过一次性预测整条路径来替代逐个生成坐标的方式。"
+   ]
+  },
+  "ko": {
+   "title": "엔비디아, 로봇 AI 추론 5배 빠르게 하는 'V플래시' 공개",
+   "summary": "엔비디아가 로봇과 자율주행 차량 등 피지컬 AI의 시각적 계획을 가속하는 새로운 디코딩 프레임워크 V플래시를 공개했다. 이 기술은 로봇의 움직임을 계획하는 AI 추론 속도를 5배 높이면서 경로 예측 오류를 줄인다. 이동 경로의 좌표를 하나씩 생성하는 대신 전체 경로를 한꺼번에 예측하는 방식으로 실시간 제어 성능을 개선한다.",
+   "impact": "이 기술은 개발자와 기술 사용자에게 로봇 및 자율주행 차량의 실시간 제어 성능 향상을 가져다줄 수 있다. 더 빠르고 정확한 경로 예측을 통해 피지컬 AI 시스템의 효율성이 높아질 수 있다.",
+   "keyPoints": [
+    "엔비디아가 현지시간 6일 V플래시를 공개했다.",
+    "로봇과 자율주행 차량 등 피지컬 AI의 시각적 계획을 가속하는 프레임워크이다.",
+    "로봇 움직임 계획 AI 추론 속도를 5배 높이고 경로 예측 오류를 줄인다.",
+    "좌표를 하나씩 생성하는 대신 전체 경로를 한꺼번에 예측한다."
+   ]
+  }
+ }
+}

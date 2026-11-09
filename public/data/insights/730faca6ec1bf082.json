@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "730faca6ec1bf082",
+ "contentHash": "0232d2a384218512",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T11:47:52.797Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Compile Vue Without Node: A Native Binary Combining Frontend and Backend Into a Single Project",
+   "summary": "Internal network projects often require a Node setup to build Vue pages, which involves a cumbersome offline workflow. Developers typically have to build assets on external machines using npm and then copy the output into the restricted network. Any small change requires repeating the entire frontend build chain.",
+   "impact": "This approach could simplify deployment processes for developers working in offline or restricted internal networks by eliminating the need for a Node environment.",
+   "keyPoints": [
+    "Internal network projects often face strict offline and image size constraints while still requiring Vue pages.",
+    "Traditional workflows require external machines with Node and npm to build the dist output.",
+    "Small changes necessitate going through the entire frontend build chain repeatedly."
+   ]
+  },
+  "km": {
+   "title": "ចងក្រង Vue ដោយមិនបាច់ប្រើ Node៖ ប្រព័ន្ធគោលពីរដើមដែលដាក់បញ្ចូល前端និង后端ទៅជាគម្រោងតែមួយ",
+   "summary": "គម្រោងបណ្តាញខាងក្នុងតែងតែត្រូវការរៀបចំ Node ដើម្បីសាងសង់ទំព័រ Vue ដែលពាក់ព័ន្ធនឹងដំណើរការក្រៅបណ្តាញដ៏លំបាក។ អ្នកអភិវឌ្ឍន៍ជាទូទៅត្រូវសាងសង់ទ្រព្យសកម្មនៅលើម៉ាស៊ីនខាងក្រៅដោយប្រើ npm ហើយបន្ទាប់មកចម្លងលទ្ធផលចូលទៅក្នុងបណ្តាញដែលមានកម្រិត។ ការផ្លាស់ប្តូរណាមួយទាមទារឱ្យធ្វើម្តងទៀតនូវខ្សែសង្វាក់សាងសង់ផ្នែកខាងមុខទាំងមូល។",
+   "impact": "វិធីសាស្រ្តនេះអាចជួយសម្រួលដល់ដំណើរការដាក់ពង្រាយសម្រាប់អ្នកអភិវឌ្ឍន៍ដែលធ្វើការនៅក្នុងបណ្តាញខាងក្នុងក្រៅបណ្តាញដោយលុបបំបាត់តម្រូវការសម្រាប់បរិយាកាស Node។",
+   "keyPoints": [
+    "គម្រោងបណ្តាញខាងក្នុងมักប្រឈមមុខនឹងការកំណត់ក្រៅបណ្តាញយ៉ាងតឹងរ៉ឹងខណៈពេលដែលនៅតែត្រូវការទំព័រ Vue។",
+    "លំហូរការងារបែបប្រពៃណីទាមទារឱ្យមានម៉ាស៊ីនខាងក្រៅដែលមាន Node និង npm ដើម្បីសាងសង់លទ្ធផល dist។",
+    "ការផ្លាស់ប្តូរតូចតាចតម្រូវឱ្យឆ្លងកាត់ខ្សែសង្វាក់សាងសង់ផ្នែកខាងមុខទាំងមូលម្តងហើយម្តងទៀត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "不用 Node 也能编译 Vue：一个原生二进制，把前后端做成一个工程",
+   "summary": "内网项目过去常常需要 Node 环境来构建 Vue 页面，这导致了繁琐的离线工作流程。开发人员通常必须在外网机器上安装 Node 并通过 npm 安装依赖来生成构建产物，再将其拷贝进内网。任何微小的修改都需要重新走完整个前端构建链。",
+   "impact": "这种原生二进制方案可能会简化在离线或内网环境中工作的开发人员的部署流程，消除了对 Node 环境的依赖。",
+   "keyPoints": [
+    "内网项目面临严格的离线和镜像体积限制，但业务上仍需要 Vue 页面。",
+    "传统工作流需要在外网机器上通过 Node 和 npm 构建 dist 产物再拷贝到内网。",
+    "线上修改按钮文案等小变动都需要完整执行一遍前端构建链。"
+   ]
+  },
+  "ko": {
+   "title": "Node 없이 Vue 컴파일하기: 프론트엔드와 백엔드를 하나의 프로젝트로 만드는 네이티브 바이너리",
+   "summary": "내망 프로젝트는 종종 Vue 페이지를 빌드하기 위해 Node 환경이 필요하며, 이는 번거로운 오프라인 워크플로를 유발합니다. 개발자는 일반적으로 외부 기기에서 npm을 사용해 자산을 빌드한 후 그 결과물을 제한된 네트워크 안으로 복사해야 합니다. 작은 변경 사항이라도 전체 프론트엔드 빌드 체인을 다시 거쳐야 합니다.",
+   "impact": "이 접근 방식은 Node 환경의 필요성을 없애줌으로써 오프라인이나 제한된 내망 환경에서 일하는 개발자의 배포 프로세스를 단순화할 수 있습니다.",
+   "keyPoints": [
+    "내망 프로젝트는 엄격한 오프라인 및 이미지 크기 제약에 직면하면서도 Vue 페이지를 필요로 합니다.",
+    "기존 워크플로는 dist 결과물을 빌드하기 위해 Node와 npm이 있는 외부 기기가 필요합니다.",
+    "작은 수정 사항이라도 전체 프론트엔드 빌드 체인을 반복해서 거쳐야 합니다."
+   ]
+  }
+ }
+}

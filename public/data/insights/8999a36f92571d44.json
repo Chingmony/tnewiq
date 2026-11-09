@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8999a36f92571d44",
+ "contentHash": "f2c25dc545045f4a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T11:44:12.174Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Google releases 'Elephant-Goldfish' plugin to catch design errors before coding",
+   "summary": "Google has open-sourced the Elephant-Goldfish Model plugin to improve the design and review process for AI coding agents. The core approach involves creating detailed design specifications before writing code, and having a separate AI agent without conversation context independently review them. This aims to reduce issues where the AI participating in the design carries over false assumptions and to catch errors prior to code implementation.",
+   "impact": "Developers and technology users may benefit from reduced design flaws in AI-assisted coding before implementation begins. Security teams and developers could see fewer errors carried into actual code by separating the design and review processes.",
+   "keyPoints": [
+    "Google open-sourced the Elephant-Goldfish Model plugin under the Apache 2.0 license.",
+    "The plugin creates detailed design specifications before writing any code.",
+    "A separate AI agent without prior conversation context independently reviews the design.",
+    "The method aims to reduce false assumptions and catch errors early."
+   ]
+  },
+  "km": {
+   "title": "ហ្គូហ្គល បង្ហាញជំនួយការ 'ខូគីរី-កុមប៊ូហ្គា' ដើម្បីចាប់កំហុសរចនាសម្ព័ន្ធមុនពេលសរសេរកូដ",
+   "summary": "ហ្គូហ្គល បានដាក់ឱ្យប្រើប្រាស់ជាកូដបើកចំហនូវជំនួយការ 'ខូគីរី-កុមប៊ូហ្គា' ម៉ូដែល ដើម្បីកែលម្អដំណើរការរចនាសម្ព័ន្ធ និងការពិនិត្យឡើងវិញសម្រាប់ភ្នាក់ងារសរសេរកូដ AI ។ គោលការណ៍សំខាន់គឺការបង្កើតឯកសាររចនាសម្ព័ន្ធលម្អិតមុនពេលសរសេរកូដ និងឱ្យភ្នាក់ងារ AI ដាច់ដោយឡែកមួយទៀតពិនិត្យវាដោយឯករាជ្យ ។ នេះមានគោលបំណងកាត់បន្ថយបញ្ហាដែល AI ទទួលយកការសន្មត់ខុស និងដើម្បីរកឃើញកំហុសមុនពេលអនុវត្តកូដ ។",
+   "impact": "ក្រុមអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានអត្ថប្រយោជន៍ពីការកាត់បន្ថយកំហុសរចនាសម្ព័ន្ធ មុនពេលការអនុវត្តកូដចាប់ផ្តើម ។",
+   "keyPoints": [
+    "ហ្គូហ្គល បានដាក់ឱ្យប្រើប្រាស់កម្មវិធីជំនួយ EGM ជាកូដបើកចំហក្រោមអាជ្ញាប័ណ្ណ Apache 2.0 ។",
+    "បង្កើតឯកសាររចនាសម្ព័ន្ធលម្អិតមុនពេលសរសេរកូដ ។",
+    "ភ្នាក់ងារ AI ផ្សេងទៀតពិនិត្យការរចនាសម្ព័ន្ធដោយឯករាជ្យ ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "谷歌发布“大象-金鱼”插件，在编码前捕获设计错误",
+   "summary": "谷歌开源了“大象-金鱼模型”插件，旨在改进AI编码代理的设计和审查过程。其核心方法是在编写代码之前创建详细的设计规范，并让一个没有对话上下文的独立AI代理对其进行独立审查。此举旨在减少参与设计的AI直接接受错误假设的问题，并在代码实现之前发现错误。",
+   "impact": "开发人员和技术用户可能会受益于在代码实现前减少AI辅助编码中的设计缺陷。安全团队和开发人员可以通过分离设计和审查流程，减少引入实际代码中的错误。",
+   "keyPoints": [
+    "谷歌在Apache 2.0许可证下开源了EGM插件。",
+    "在编写代码前创建详细的设计规范文档。",
+    "由没有先前对话上下文的独立AI代理对设计进行独立审查。",
+    "旨在减少错误假设并在早期发现错误。"
+   ]
+  },
+  "ko": {
+   "title": "구글, 코딩 전 설계 오류 잡는 '코끼리-금붕어' 플러그인 공개",
+   "summary": "구글이 AI 코딩 에이전트의 설계와 검토 과정을 개선하기 위한 '코끼리-금붕어 모델(EGM)' 플러그인을 오픈소스로 공개했다. 코드를 작성하기 전에 상세한 설계 명세서를 만들고, 대화 맥락이 없는 별도의 AI 에이전트가 이를 독립적으로 검토하도록 하는 것이 핵심이다. 설계에 참여한 AI가 자신의 잘못된 가정을 그대로 받아들이는 문제를 줄이고, 코드 구현 전에 오류를 발견하려는 목적이다.",
+   "impact": "개발자와 기술 사용자들은 코드 구현 전에 AI 지원 코딩의 설계 결함을 줄이는 데 도움을 받을 수 있다. 보안 팀과 개발자는 설계와 검토 과정을 분리함으로써 실제 코드로 유입되는 오류를 줄일 수 있다.",
+   "keyPoints": [
+    "구글이 EGM 플러그인을 아파치 2.0 라이선스로 오픈소스 공개했다.",
+    "코드를 작성하기 전에 상세한 설계 명세서를 생성한다.",
+    "대화 맥락이 없는 별도의 AI 에이전트가 설계를 독립적으로 검토한다.",
+    "잘못된 가정을 줄이고 코드 구현 전 오류를 발견하는 것을 목표로 한다."
+   ]
+  }
+ }
+}

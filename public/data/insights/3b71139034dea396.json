@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3b71139034dea396",
+ "contentHash": "7abc48be41db867d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T11:42:11.433Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
+   "summary": "Two security researchers discovered that the login systems for two car brands' mobile apps could be completely taken over. This allowed them to access any customer's account and unlock doors or start engines for connected vehicles. The apps utilized ForgeRock, an identity platform now part of Ping Identity, where researchers reached the servers.",
+   "impact": "This issue could matter to security teams and technology users because weak default credentials can lead to complete account takeovers and physical control of connected vehicles. Developers and administrators may need to ensure default server passwords are changed to secure systems.",
+   "keyPoints": [
+    "Two car brands' mobile app login systems were taken over by researchers.",
+    "Attackers could access any customer account, unlock doors, and start engines.",
+    "The apps used ForgeRock, an identity platform now part of Ping Identity."
+   ]
+  },
+  "km": {
+   "title": "ពាក្យសម្ងាត់ម៉ាស៊ីនបម្រើលំនាំដើម 'admin:admin' ជួយអ្នកស្រាវជ្រាវហេកក្រុមហ៊ុនផលិតរថយន្តពីរ ដោះសោ និងចាប់ផ្តើមរថយន្ត",
+   "summary": "អ្នកស្រាវជ្រាវសន្តិសុខពីរនាក់បានរកឃើញថា ប្រព័ន្ធចូលគណនីនៃកម្មវិធីទូរស័ព្ទរបស់ម៉ាករថយន្តពីរអាចត្រូវបានគ្រប់គ្រងទាំងស្រុង។ វាបានអនុញ្ញាតឱ្យពួកគេចូលប្រើគណនីរបស់អតិថិជនណាមួយ និងដោះសោទ្វារ ឬចាប់ផ្តើមម៉ាស៊ីនសម្រាប់រថយន្តដែលបានតភ្ជាប់។ កម្មវិធីទាំងនោះបានចុះឈ្មោះអតិថិជនតាមរយៈ ForgeRock ដែលជាវេទិកាអត្តសញ្ញាណបច្ចុប្បន្នជាផ្នែកមួយរបស់ Ping Identity។",
+   "impact": "បញ្ហានេះអាចមានសារៈសំខាន់ចំពោះក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យា ព្រោះព័ត៌មានសម្ងាត់លំនាំដើមដែលខ្សោយអាចនាំឱ្យមានការគ្រប់គ្រងគណនីទាំងស្រុង និងការគ្រប់គ្រងរថយន្តដោយផ្ទាល់។ អ្នកអភិវឌ្ឍន៍ និងអ្នកគ្រប់គ្រងប្រព័ន្ធអាចចាំបាច់ត្រូវធានាថាពាក្យសម្ងាត់ម៉ាស៊ីនបម្រើលំនាំដើមត្រូវបានផ្លាស់ប្តូរដើម្បីសុវត្ថិភាពប្រព័ន្ធ។",
+   "keyPoints": [
+    "ប្រព័ន្ធចូលគណនីកម្មវិធីទូរស័ព្ទរថយន្តពីរម៉ាកត្រូវបានគ្រប់គ្រងដោយអ្នកស្រាវជ្រាវ។",
+    "អ្នកវាយប្រហារអាចចូលប្រើគណនីអតិថិជនណាមួយ ដោះសោទ្វារ និងចាប់ផ្តើមម៉ាស៊ីនរថយន្ត។",
+    "កម្មវិធីបានប្រើប្រាស់ ForgeRock ដែលជាវេទិកាអត្តសញ្ញាណចំណុះឱ្យ Ping Identity។"
+   ]
+  },
+  "zh-CN": {
+   "title": "默认“admin:admin”服务器密码帮助研究人员黑入两家汽车制造商，解锁并启动汽车",
+   "summary": "两名安全研究人员发现，两个汽车品牌移动应用程序背后的登录系统可以被完全接管。这使他们能够访问任何客户的账户，并为联网车辆解锁车门和启动发动机。这两个应用程序通过属于Ping Identity一部分的身份平台ForgeRock为客户登录，研究人员在这些服务器上取得了突破。",
+   "impact": "这个问题可能对安全团队和技术用户很重要，因为薄弱的默认凭据可能导致完全的账户接管以及对联网车辆的物理控制。开发人员和管理员可能需要确保更改默认服务器密码以保护系统。",
+   "keyPoints": [
+    "研究人员完全接管了两个汽车品牌的移动应用登录系统。",
+    "攻击者可以访问任何客户账户、解锁车门并启动发动机。",
+    "这些应用程序使用属于Ping Identity的身份平台ForgeRock。"
+   ]
+  },
+  "ko": {
+   "title": "기본 'admin:admin' 서버 비밀번호로 연구원들이 두 자동차 제조업체를 해킹하고 차량을 잠금 해제 및 시동 걸 수 있게 도와",
+   "summary": "두 명의 보안 연구원이 두 자동차 브랜드의 모바일 앱 로그인 시스템이 완전히 탈취될 수 있다는 사실을 발견했으며, 이를 통해 모든 고객의 계정에 접근하고 커넥티드 카의 문을 잠금 해제하거나 엔진을 시동할 수 있게 되었다. 두 앱은 현재 Ping Identity의 일부인 신원 플랫폼 ForgeRock을 통해 고객을 로그인시켰으며, 연구원들은 해당 서버에 도달했다.",
+   "impact": "이 문제는 취약한 기본 자격 증명으로 인해 완전한 계정 탈취 및 커넥티드 차량에 대한 물리적 제어로 이어질 수 있기 때문에 보안 팀과 기술 사용자에게 중요할 수 있다. 개발자와 관리자는 시스템을 보호하기 위해 기본 서버 비밀번호가 변경되었는지 확인해야 할 수 있다.",
+   "keyPoints": [
+    "두 자동차 브랜드의 모바일 앱 로그인 시스템이 연구원들에 의해 탈취됨.",
+    "공격자가 모든 고객 계정에 접근하고, 문을 잠금 해제하며, 엔진을 시동할 수 있음.",
+    "앱들은 현재 Ping Identity의 일부인 신원 플랫폼 ForgeRock을 사용함."
+   ]
+  }
+ }
+}

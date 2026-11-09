@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "44278e18ffde3776",
+ "contentHash": "1d169c8a84698d6b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T11:45:31.209Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Nous Research reduces political bias in Chinese AI model from 22% to 0.9%",
+   "summary": "Nous Research has released Arete-27B, a model based on Alibaba's open-weight Qwen3.8-27B, designed to alter political response tendencies. Using only supervised fine-tuning, the organization reduced the proportion of propaganda responses favoring the Chinese government from 22% to 0.9%. The model successfully maintains almost all of the original coding and agent performance.",
+   "impact": "This development could demonstrate to developers that supervised fine-tuning can effectively mitigate political bias in open-weight models without heavily sacrificing core capabilities like coding. Security teams and technology users may find such modified models useful for applications requiring more neutral political stances.",
+   "keyPoints": [
+    "Nous Research released Arete-27B, derived from Alibaba's Qwen3.8-27B.",
+    "Supervised fine-tuning reduced propaganda-style responses favoring the Chinese government from 22% to 0.9%.",
+    "The new model preserves almost all of the coding and agent performance of the original Qwen3.8-27B.",
+    "Model weights, training data, and evaluation materials were made publicly available."
+   ]
+  },
+  "km": {
+   "title": "Nous Research កាត់បន្ថយលំនាំលំអៀងនយោបាយក្នុងម៉ូឌែល AI របស់ចិនពី ២២% មកត្រឹម ០,៩%",
+   "summary": "ក្រុមហ៊ុន Nous Research បានបញ្ចេញម៉ូឌែល Arete-27B ដែលបង្កើតឡើងផ្អែកលើម៉ូឌែល Qwen3.8-27B របស់ Alibaba ដើម្បីផ្លាស់ប្តូរទំនោរបញ្ចេញមតិយោបល់នយោបាយ។ តាមរយៈការកែសម្រួលការបណ្តុះបណ្តាលត្រួតពិនិត្យ ពួកគេអាចកាត់បន្ថយអត្រានៃការឆ្លើយតបឃោសនាគាំទ្ររដ្ឋាភិបាលចិនពី ២២% មកត្រឹម ០,៩%។ ម៉ូឌែលនេះក៏នៅតែរក្សាបាននូវសមត្ថភាពសរសេរកូដ និងភ្នាក់ងាររបស់ម៉ូឌែលដើមដដែលផងដែរ។",
+   "impact": "ការអភិវឌ្ឍនេះអាចបង្ហាញដល់អ្នកអភិវឌ្ឍន៍ថា ការកែសម្រួលការបណ្តុះបណ្តាលអាចកាត់បន្ថយលំនាំលំអៀងនយោបាយក្នុងម៉ូឌែលប្រកបដោយប្រសិទ្ធភាព។ ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងយល់ថា ម៉ូឌែលដែលបានកែសម្រួលបែបនេះមានប្រយោជន៍សម្រាប់កម្មវិធីដែលត្រូវការជំហរនយោបាយមានលក្ខណៈអព្យាក្រឹតជាងមុន។",
+   "keyPoints": [
+    "Nous Research បានបញ្ចេញម៉ូឌែល Arete-27B ដែលបង្កើតពី Qwen3.8-27B របស់ Alibaba។",
+    "ការកែសម្រួលការបណ្តុះបណ្តាលត្រួតពិនិត្យបានកាត់បន្ថយការឆ្លើយតបបែបឃោសនារបស់រដ្ឋាភិបាលចិនពី ២២% មក ០,៩%។",
+    "ម៉ូឌែលថ្មីនេះរក្សាបាននូវសមត្ថភាពសរសេរកូដ និងភ្នាក់ងារនៃម៉ូឌែលដើម។",
+    "ទម្ងន់ម៉ូឌែល ទិន្នន័យបណ្តុះបណ្តាល និងឯកសារវាយតម្លៃត្រូវបានផ្សព្វផ្សាយជាសាធារណៈ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Nous Research将中国AI模型的政治偏向回答从22%降至0.9%",
+   "summary": "Nous Research发布了基于阿里巴巴开源权重模型Qwen3.8-27B修改政治倾向的Arete-27B模型。该组织仅通过监督微调，就将赞同中国政府立场的宣传性回答比例从22%降至0.9%，同时几乎保留了原模型的编码和智能体性能。Nous Research已公开了该模型的权重、训练数据和评估资料。",
+   "impact": "这一进展可能向开发者表明，监督微调能够有效降低开源模型的政治偏向，且不会严重牺牲核心功能。安全团队和技术用户可能会发现此类修改后的模型有助于应用于需要更中立政治立场的场景。",
+   "keyPoints": [
+    "Nous Research发布了基于Qwen3.8-27B开发的Arete-27B模型。",
+    "通过监督微调，倾向中国政府的宣传性回答比例从22%降至0.9%。",
+    "新模型几乎保持了原有的编码和智能体性能。",
+    "模型权重、训练数据和评估资料均已公开。"
+   ]
+  },
+  "ko": {
+   "title": "누스 리서치, 중국 AI 모델의 정치 편향 답변 22%→0.9%로 줄여",
+   "summary": "누스 리서치가 알리바바의 오픈웨이트 모델 Qwen3.8-27B의 정치적 답변 성향을 바꾼 Arete-27B를 공개했다. 지도 미세조정만으로 중국 정부의 입장을 옹호하는 선전성 답변 비율을 22%에서 0.9%로 낮추면서도 기존 모델의 코딩과 에이전트 성능을 거의 유지한 것이 특징이다. 누스 리서치는 Qwen3.8-27B를 기반으로 개발한 Arete-27B의 모델 가중치와 학습 데이터, 평가 자료를 공개했다.",
+   "impact": "이번 개발은 개발자들에게 지도 미세조정이 오픈웨이트 모델의 핵심 기능을 크게 희생하지 않으면서도 정치적 편향을 효과적으로 줄일 수 있음을 시사할 수 있다. 보안 팀과 기술 사용자들은 중립적인 정치적 입장이 요구되는 응용 프로그램에 이러한 수정된 모델을 유용하게 활용할 수 있을 것이다.",
+   "keyPoints": [
+    "누스 리서치가 알리바바의 Qwen3.8-27B를 기반으로 한 Arete-27B를 공개함.",
+    "지도 미세조정을 통해 중국 정부를 옹호하는 선전성 답변 비율을 22%에서 0.9%로 낮춤.",
+    "기존 모델의 코딩 및 에이전트 성능을 거의 그대로 유지함.",
+    "모델 가중치, 학습 데이터, 평가 자료가 공개됨."
+   ]
+  }
+ }
+}

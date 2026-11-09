@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ea46f00bd91b0c65",
+ "contentHash": "ee34f07ee3b286d7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T11:42:21.788Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
+   "summary": "An attacker exploited a security flaw at Web3Auth, which handles Google and Apple sign-ins for Keplr crypto wallets, to steal funds from users who set up their wallets using those accounts. Following the incident, the provider used the attacker's own route to empty other at-risk wallets to protect them. Both companies confirmed the vulnerability and response late last week.",
+   "impact": "This incident could highlight security risks associated with third-party authentication services used in cryptocurrency management. Security teams and developers may need to review integration dependencies to protect user assets.",
+   "keyPoints": [
+    "An attacker stole funds from Keplr crypto wallets set up via Google or Apple accounts.",
+    "The breach occurred due to a security flaw at Web3Auth, the sign-in provider.",
+    "Web3Auth emptied other at-risk wallets using the attacker's route to prevent further theft."
+   ]
+  },
+  "km": {
+   "title": "កំហុស Web3Auth ត្រូវគេលួចយកទៅប្រើប្រាស់ដើម្បីលួចយក Keplr crypto ដោយក្រុមហ៊ុនផ្តល់សេវាបានលោងកាបូបផ្សេងទៀតចេញដើម្បីសុវត្ថិភាព",
+   "summary": "អ្នកវាយប្រហារម្នាក់បានឆ្លៀតប្រើប្រាស់កំហុសសុវត្ថិភាពនៅឯ Web3Auth ដែលគ្រប់គ្រងការចូលប្រើប្រាស់ Google និង Apple សម្រាប់កាបូប Keplr crypto ដើម្បីលួចប្រាក់ពីអ្នកប្រើប្រាស់ដែលបានបង្កើតកាបូបរបស់ពួកគេដោយប្រើគណនីទាំងនោះ។ ក្រោយមក ក្រុមហ៊ុនផ្តល់សេវាបានប្រើប្រាស់ផ្លូវរបស់អ្នកវាយប្រហារខ្លួនឯងដើម្បីលួចទទេកាបូបផ្សេងទៀតដែលមានហានិភ័យដើម្បីការពារពួកវា។ ក្រុមហ៊ុនទាំងពីរបានបញ្ជាក់អំពីបញ្ហានេះកាលពីចុងសប្តាហ៍មុន។",
+   "impact": "ឧប្បត្តិហេតុនេះអាចបង្ហាញពីហានិភ័យសុវត្ថិភាពទាក់ទងនឹងសេវាកម្មផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវរបស់ភាគីទីបីដែលប្រើប្រាស់ក្នុងការគ្រប់គ្រងគ្រីបតូ។ ក្រុមការងារសុវត្ថិភាព និងអ្នកអភិវឌ្ឍន៍អាចនឹងត្រូវពិនិត្យឡើងវិញនូវការពឹងផ្អែកលើការរួមបញ្ចូលដើម្បីការពារទ្រព្យសម្បត្តិអ្នកប្រើប្រាស់។",
+   "keyPoints": [
+    "អ្នកវាយប្រហារបានលួចប្រាក់ពីកាបូប Keplr crypto ដែលបង្កើតឡើងតាមរយៈគណនី Google ឬ Apple ។",
+    "ការខូចខាតនេះកើតឡើងដោយសារតែកំហុសសុវត្ថិភាពនៅឯក្រុមហ៊ុនផ្តល់សេវាចូលប្រើប្រាស់ Web3Auth។",
+    "Web3Auth បានសម្អាតកាបូបផ្សេងទៀតដែលមានហានិភ័យដោយប្រើផ្លូវរបស់អ្នកវាយប្រហារដើម្បីការពារការលួចបន្ថែម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Web3Auth 漏洞遭利用窃取 Keplr 加密货币，提供商清空其他钱包以保证安全",
+   "summary": "一名攻击者利用 Web3Auth 的安全漏洞窃取了部分用户的资金，这些用户使用 Google 或 Apple 账户设置了 Keplr 加密钱包，而 Web3Auth 负责运行这些登录验证。两家公司于上周晚些时候表示，攻击者利用了该公司的安全缺陷访问了钱包。随后，Web3Auth 使用攻击者自己的路径清空了其他面临风险的钱包，以防范攻击者。",
+   "impact": "这一事件可能凸显了加密货币管理中使用的第三方身份验证服务所带来的安全风险。安全团队和开发人员可能需要审查集成依赖项以保护用户资产。",
+   "keyPoints": [
+    "攻击者从通过 Google 或Apple 账户设置的 Keplr 加密钱包中窃取了资金。",
+    "此次攻击是因为登录提供商 Web3Auth 存在安全漏洞。",
+    "Web3Auth 利用攻击者的路径清空了其他处于风险中的钱包以防止被盗。"
+   ]
+  },
+  "ko": {
+   "title": "Keplr 가암화인버 탈취에 Web3Auth 결함 악용, 공급자는 안전을 위해 다른 지갑을 비워",
+   "summary": "Google 또는 Apple 계정으로 Keplr 암호화폐 지갑을 설정한 일부 사용자의 자금이 공격자에 의해 도난당했습니다. Keplr은 Google 및 Apple 로그인을 실행하기 위해 Web3Auth라는 회사를 이용하며, 양사는 지난주 후반에 공격자가 해당 회사의 보안 결함을 이용해 지갑에 접근했다고 밝혔습니다. 그 후 Web3Auth는 공격자가 사용한 경로를 이용해 위험에 처한 다른 지갑들을 먼저 비워 추가 피해를 막았습니다.",
+   "impact": "이번 사건은 암호화폐 관리에서 사용되는 제3자 인증 서비스와 관련된 보안 위험을 강조할 수 있습니다. 보안 팀과 개발자는 사용자 자산을 보호하기 위해 통합 의존성을 검토해야 할 수 있습니다.",
+   "keyPoints": [
+    "Google 또는 Apple 계정으로 설정된 Keplr 암호화폐 지갑에서 자금이 도난당했습니다.",
+    "이번 침해는 로그인 제공업체인 Web3Auth의 보안 결함으로 인해 발생했습니다.",
+    "Web3Auth는 추가 도난을 방지하기 위해 공격자의 경로를 사용하여 위험한 다른 지갑들을 비웠습니다."
+   ]
+  }
+ }
+}

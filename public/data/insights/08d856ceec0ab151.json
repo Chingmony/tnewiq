@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "08d856ceec0ab151",
+ "contentHash": "a09794db41173f95",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T11:48:34.514Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Open-source database management tool CloudDM releases new version with support for OpenSearch and IoTDB data sources",
+   "summary": "CloudDM, a free and open-source team database management tool, has released a new version. It provides features such as unified Web database access, permission control, data masking, SQL review, process collaboration, and database CI/CD. The update adds support for OpenSearch 2.x and 3.x data sources, including TLS connections and metadata browsing.",
+   "impact": "Developers and database administrators working with CloudDM may now manage OpenSearch 2.x and 3.x data sources within the tool. This addition could improve workflow integration for teams utilizing these specific data sources.",
+   "keyPoints": [
+    "CloudDM is a free and open-source team database management tool.",
+    "The tool offers web database access, permission control, data masking, SQL review, and CI/CD.",
+    "The new version adds support for OpenSearch 2.x and 3.x data sources with TLS connections and metadata browsing."
+   ]
+  },
+  "km": {
+   "title": "ឧបករណ៍គ្រប់គ្រងមូលដ្ឋានទិន្នន័យប្រភពបើកចំហ CloudDM ចេញផ្សាយកំណែថ្មីដែលគាំទ្រប្រភពទិន្នន័យ OpenSearch និង IoTDB",
+   "summary": "CloudDM គឺជាឧបករណ៍គ្រប់គ្រងមូលដ្ឋានទិន្នន័យក្រុមឥតគិតថ្លៃ និងមានប្រភពបើកចំហ ដែលបានបញ្ចេញកំណែថ្មីមួយ។ វាផ្តល់នូវលក្ខណៈពិសេសដូចជាការចូលប្រើមូលដ្ឋានទិន្នន័យបណ្តាញ ការគ្រប់គ្រងការអនុញ្ញាត ការបិទបាំងទិន្នន័យ ការពិនិត្យ SQL និង CI/CD ។ ការអាប់ដេតនេះបន្ថែមការគាំទ្រសម្រាប់ប្រភពទិន្នន័យ OpenSearch 2.x និង 3.x រួមទាំងការតភ្ជាប់ TLS និងការរុករកទិន្នន័យមេ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកគ្រប់គ្រងមូលដ្ឋានទិន្នន័យអាចប្រើប្រាស់ប្រភពទិន្នន័យ OpenSearch ថ្មីនេះនៅក្នុងឧបករណ៍។",
+   "keyPoints": [
+    "CloudDM គឺជាឧបករណ៍គ្រប់គ្រងមូលដ្ឋានទិន្នន័យប្រភពបើកចំហឥតគិតថ្លៃ។",
+    "វាផ្តល់នូវការគ្រប់គ្រងការអនុញ្ញាត ការបិទបាំងទិន្នន័យ និង CI/CD ។",
+    "កំណែថ្មីបន្ថែមការគាំទ្រសម្រាប់ប្រភពទិន្នន័យ OpenSearch 2.x និង 3.x ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "开源数据库管理工具 CloudDM 新版本发布，支持 OpenSearch、IoTDB 数据源",
+   "summary": "开源数据库管理工具 CloudDM 发布了新版本，该工具免费且开源，提供统一 Web 数据库访问、权限控制、数据脱敏、SQL 审核、流程协同和数据库 CI/CD 等能力。新版本增加了对 OpenSearch 2.x 和 3.x 数据源的支持，并支持 TLS 连接与元数据浏览等功能。",
+   "impact": "使用 CloudDM 的开发和运维团队现在可以更方便地接入和管理 OpenSearch 数据源，这可能有助于提升团队在数据库协同和管理上的工作效率。",
+   "keyPoints": [
+    "CloudDM 是一款免费且开源的团队化数据库管理工具。",
+    "提供统一 Web 访问、权限控制、数据脱敏、SQL 审核和 CI/CD 等能力。",
+    "新版本新增支持 OpenSearch 2.x / 3.x 数据源及 TLS 连接和元数据浏览。"
+   ]
+  },
+  "ko": {
+   "title": "오픈소스 데이터베이스 관리 도구 CloudDM 새 버전 출시, OpenSearch 및 IoTDB 데이터 소스 지원",
+   "summary": "무료 오픈소스 팀 데이터베이스 관리 도구인 CloudDM이 새 버전을 출시했습니다. 이 도구는 웹 데이터베이스 접근, 권한 제어, 데이터 마스킹, SQL 검토, 프로세스 협업 및 데이터베이스 CI/CD 기능을 제공합니다. 이번 업데이트에는 TLS 연결 및 메타데이터 탐색을 포함한 OpenSearch 2.x 및 3.x 데이터 소스 지원이 추가되었습니다.",
+   "impact": "개발자와 데이터베이스 관리자는 CloudDM을 통해 OpenSearch 데이터 소스를 관리할 수 있게 되며, 이는 관련 기술을 사용하는 팀의 작업 흐름에 영향을 줄 수 있습니다.",
+   "keyPoints": [
+    "CloudDM은 무료 오픈소스 팀 데이터베이스 관리 도구입니다.",
+    "웹 데이터베이스 접근, 권한 제어, 데이터 마스킹 및 CI/CD 기능을 제공합니다.",
+    "새 버전은 TLS 연결과 메타데이터 탐색을 포함한 OpenSearch 2.x 및 3.x 데이터 소스 지원을 추가했습니다."
+   ]
+  }
+ }
+}

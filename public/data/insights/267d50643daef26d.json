@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "267d50643daef26d",
+ "contentHash": "5f23ffe50e64e092",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T11:44:41.894Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Tampering with Just 0.1% of AI Training Data Can Plant Remote Code Backdoor in Agents",
+   "summary": "Research shows that contaminating just 0.1% of AI pre-training data can plant a remote code execution backdoor in AI agents. The backdoors persisted even after fine-tuning and reinforcement learning with normal data. Furthermore, the backdoors function normally during regular operation and only trigger under specific conditions, making them difficult to detect.",
+   "impact": "This research could present significant security challenges for developers and organizations building AI agents. The resilience of these backdoors against standard fine-tuning and their stealthy nature may require new approaches to dataset verification and security auditing.",
+   "keyPoints": [
+    "Contaminating 0.1% of pre-training data can plant an RCE backdoor.",
+    "Backdoors are not removed by fine-tuning or reinforcement learning using normal data.",
+    "The malicious commands only generate under specific conditions, avoiding detection during routine use."
+   ]
+  },
+  "km": {
+   "title": "ការកែប្រែទិន្នន័យបណ្តុះបណ្តាល AI ត្រឹមតែ 0.1% ក៏អាចបញ្ចូលទ្វារក្រោយកូដពីចម្ងាយក្នុងភ្នាក់ងារបានដែរ",
+   "summary": "លទ្ធផលស្រាវជ្រាវបានបង្ហាញថា ការបំផ្លាញទិន្នន័យបណ្តុះបណ្តាលមុនរបស់ AI ត្រឹមតែ 0.1% អាចបញ្ចូលទ្វារក្រោយសម្រាប់ការប្រតិបត្តិលេខកូដពីចម្ងាយទៅក្នុងភ្នាក់ងារ AI ដែលបានអភិវឌ្ឍនៅលើមូលដ្ឋាននោះ។ ទ្វារក្រោយទាំងនេះមិនត្រូវបានលុបចេញទេ ទោះបីជាឆ្លងកាត់ការកែសម្រួលលម្អិត និងការរៀនពង្រឹងដោយប្រើទិន្នន័យធម្មតាក៏ដោយ។ លើសពីនេះ ពួកវាដំណើរការធម្មតាក្នុងស្ថានភាពទូទៅ ហើយបង្កើតពាក្យបញ្ជាព្យាបាទเฉพาะក្នុងលក្ខខណ្ឌជាក់លាក់ប៉ុណ្ណោះ ដែលធ្វើឱ្យវាពិបាកក្នុងការរកឃើញ។",
+   "impact": "បញ្ហានេះអាចបង្កជាបញ្ហាប្រឈមផ្នែកសន្តិសុខយ៉ាងខ្លាំងសម្រាប់អ្នកអភិវឌ្ឍន៍ និងក្រុមការងារដែលបង្កើតភ្នាក់ងារ AI។ ភាពធន់នៃទ្វារក្រោយទាំងនេះ និងលក្ខណៈសម្ងាត់របស់វាអាចទាមទារវិធីសាស្ត្រថ្មីៗសម្រាប់ការផ្ទៀងផ្ទាត់ชุดទិន្នន័យ និងការធ្វើសវនកម្មសន្តិសុខ។",
+   "keyPoints": [
+    "ការបំផ្លាញទិន្នន័យបណ្តុះបណ្តាលមុន 0.1% អាចបញ្ចូលទ្វារក្រោយ RCE។",
+    "ទ្វារក្រោយមិនត្រូវបានលុបចេញដោយការកែសម្រួលលម្អិត ឬការរៀនពង្រឹងនោះទេ។",
+    "ពាក្យបញ្ជាព្យាបាទកើតឡើងតែក្រោមលក្ខខណ្ឌជាក់លាក់ ដើម្បីគេចវេសពីការរកឃើញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "篡改仅0.1%的AI训练数据即可在智能体中植入远程代码后门",
+   "summary": "研究结果表明，仅污染AI预训练数据的0.1%，就可以在基于此开发的AI智能体中植入远程代码执行后门。即使经过正常数据的微调和强化学习，后门也无法被消除。此外，它们在平时能够正常运行，仅在特定条件下才会生成恶意指令，因此极难被检测。",
+   "impact": "这一研究可能会给开发和使用AI智能体的开发者和安全团队带来重大安全挑战。后门对常规微调的抵抗力及其隐蔽性，可能需要采取新的方法来进行数据集验证和安全审计。",
+   "keyPoints": [
+    "污染0.1%的预训练数据即可植入远程代码执行后门。",
+    "使用正常数据进行微调或强化学习无法移除这些后门。",
+    "恶意指令仅在特定条件下触发，在日常使用中难以被检测。"
+   ]
+  },
+  "ko": {
+   "title": "AI 학습 데이터 0.1%만 조작해도 에이전트에 원격 코드 백도어 심을 수 있어",
+   "summary": "AI 사전 학습 데이터의 0.1%만 오염시켜도 이를 기반으로 개발한 AI 에이전트에 원격 코드 실행 백도어를 심을 수 있다는 연구 결과가 나왔다. 정상적인 데이터로 미세조정과 강화학습을 거쳐도 백도어가 제거되지 않았다. 또한 평소에는 정상적으로 작동하다가 특정 조건에서만 악성 명령을 생성해 탐지도 어려운 것으로 나타났다.",
+   "impact": "이번 연구 결과는 AI 에이전트를 개발하는 개발자와 보안 팀에게 중요한 보안 과제를 제기할 수 있다. 표준적인 미세조정에도 제거되지 않는 백도어의 특성과 탐지 회피 성향으로 인해 데이터셋 검증 및 보안 감사에 대한 새로운 접근 방식이 필요할 수 있다.",
+   "keyPoints": [
+    "사전 학습 데이터의 0.1%만 오염시켜도 원격 코드 실행 백도어를 심을 수 있음",
+    "정상 데이터로 미세조정과 강화학습을 거쳐도 백도어가 제거되지 않음",
+    "특정 조건에서만 악성 명령을 생성하여 탐지가 어려움"
+   ]
+  }
+ }
+}
