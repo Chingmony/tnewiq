@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "articleId": "528c97d2c830198f",
+ "contentHash": "9c539252e1c1d4bf",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:52:03.150Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Geometry-Aware Score-Repellent Monte Carlo",
+   "summary": "Researchers have introduced Geometry-Aware SRMC (GA-SRMC) to improve MCMC sampling by generalizing Euclidean alignment to anisotropic energy landscapes using a symmetric positive-definite matrix $M$. By identifying the trace-normalized inverse Fisher matrix as the unique minimizer of the worst-direction covariance bound, the method uses a single online estimate for both roles without extra cost. Testing across various dimensions and condition numbers shows that GA-SRMC outperforms traditional SRMC and the MALA baseline in effective sample size and posterior-mean mean squared error.",
+   "impact": "This method could offer developers and researchers a more efficient approach to high-dimensional and anisotropic sampling tasks. Security teams or technology users relying on statistical modeling might see improved convergence and lower error rates in complex posteriors.",
+   "keyPoints": [
+    "Introduces Geometry-Aware SRMC (GA-SRMC) to address limitations of a single scalar repellence strength in anisotropic landscapes.",
+    "Generalizes alignment to $θ^ op M s(x)$ using a symmetric positive-definite matrix $M$.",
+    "Identifies the trace-normalized inverse Fisher as the unique minimizer of the worst-direction covariance bound.",
+    "Demonstrates higher effective sample size and lower posterior-mean MSE compared to standard SRMC across simulations."
+   ]
+  },
+  "km": {
+   "title": "Geometry-Aware Score-Repellent Monte Carlo",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំវិធីសាស្ត្រ Geometry-Aware SRMC (GA-SRMC) ដើម្បីปรับปรุงการទាញយកគំរូ MCMC ដោយបត់បែនទៅតាមទិដ្ឋភាពថាមពល anisotropic ។ វិធីសាស្ត្រនេះប្រើប្រាស់ម៉ាទ្រីស $M$ ដើម្បីដោះស្រាយបញ្ហាកម្រិតថាមពលផ្សេងៗគ្នា និងបង្ហាញពីប្រសិទ្ធភាពខ្ពស់ជាង SRMC បែបប្រពៃណី។ ការពិសោធន៍បានបង្ហាញថា GA-SRMC ផ្ដល់នូវទំហំគំរូមានប្រសិទ្ធភាពខ្ពស់ជាង និងកំហុសការប៉ាន់ស្មានទាបជាងមុន។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយให้นักพัฒนา និងអ្នកស្រាវជ្រាវទទួលបានលទ្ធផលប្រសើរជាងមុនក្នុងការគណនាគំរូដែលមានវិមាត្រខ្ពស់ ឬស្មុគស្មាញ។",
+   "keyPoints": [
+    "ណែនាំ Geometry-Aware SRMC (GA-SRMC) សម្រាប់ដោះស្រាយការប្រែប្រួលថាមពល anisotropic ។",
+    "ប្រើប្រាស់ម៉ាទ្រីស $M$ ដើម្បីបង្កើនប្រសិទ្ធភាពនៃការទាញយកគំរូ MCMC ។",
+    "បង្ហាញពីការកើនឡើងនៃទំហំគំរូមានប្រសិទ្ធភាពធៀបនឹង SRMC ធម្មតា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Geometry-Aware Score-Repellent Monte Carlo",
+   "summary": "研究人员推出了几何感知得分排斥蒙特卡洛（GA-SRMC）方法，通过使用对称正定矩阵 $M$ 将欧几里得对齐推广到各向异性能量地形，从而改善 MCMC 采样。该方法将迹归一化的逆 Fisher 矩阵识别为最坏方向协方差界的唯一极小值点，且在线估计具有极高的计算效率。在多项模拟测试中，GA-SRMC 在有效样本大小和后验均值均方误差方面均优于传统的 SRMC。",
+   "impact": "该方法可能为开发人员和研究人员在处理高维和各向异性采样任务时提供更高效的工具。依赖统计建模的技术团队可能会在复杂后验分布中获得更快的收敛速度和更低的误差。",
+   "keyPoints": [
+    "引入 GA-SRMC 以解决标准 SRMC 在各向异性地形中无法同时处理陡峭和扁平方向的问题。",
+    "利用迹归一化的逆 Fisher 矩阵作为最坏方向协方差界的边界最优矩阵。",
+    "在多种模拟中展现出比传统 SRMC 更高的有效样本大小和更低的均方误差。"
+   ]
+  },
+  "ko": {
+   "title": "Geometry-Aware Score-Repellent Monte Carlo",
+   "summary": "연구자들은 대칭 양정치 행렬 $M$을 사용하여 유클리드 정렬을 이방성 에너지 지형으로 일반화함으로써 MCMC 샘플링을 개선하는 Geometry-Aware SRMC(GA-SRMC)를 소개했습니다. 이 방법은 트레이스 정규화된 역 Fisher 행렬을 최악 방향 공분산 바운드의 유일한 최소화 요소로 식별하여 추가 연산 비용 없이 효율성을 높입니다. 다양한 조건에서의 시뮬레이션 결과, GA-SRMC는 기존 SRMC 및 MALA 기준선에 비해 유효 샘플 크기와 후연 평균 평균제곱오차에서 우수한 성능을 보였습니다.",
+   "impact": "이 방법은 개발자와 연구원들이 고차원 및 이방성 샘플링 작업을 보다 효율적으로 수행할 수 있도록 도울 수 있습니다. 복잡한 통계 모델링을 사용하는 기술 사용자들은 수렴 속도 향상과 오류 감소 효과를 기대할 수 있습니다.",
+   "keyPoints": [
+    "이방성 에너지 지형의 한계를 극복하기 위해 GA-SRMC 방법론 도입",
+    "대칭 양정치 행렬 $M$을 활용하여 정렬 일반화 수행",
+    "시뮬레이션을 통해 기존 SRMC 대비 향상된 유효 샘플 크기 및 낮은 MSE 확인"
+   ]
+  }
+ }
+}

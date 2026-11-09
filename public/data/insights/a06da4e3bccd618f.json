@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a06da4e3bccd618f",
+ "contentHash": "5299e3d8c9b5bd21",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:52:14.160Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "From Procedures to Permissions: Learning Precise Subagent Authorization from Agent Skills",
+   "summary": "Researchers explore using Agent Skills to learn precise subagent authorization for language agents coordinating complex tasks. By synthesizing tasks and step-by-step procedures from Skills and executing them through subagent delegation, the method constructs training data for task execution and authorization. Tested on ClawArena-Team with Qwen3.5-35B-A3B, the approach improves tool and workspace permission precision as well as overall task success.",
+   "impact": "This approach could help security teams and developers improve permission management and subagent orchestration by leveraging procedural knowledge embedded in Agent Skills. It may lead to more precise tool and workspace access controls for multi-agent systems.",
+   "keyPoints": [
+    "Agent Skills encode procedural knowledge detailing operations, tools, and files required at each step.",
+    "The method synthesizes tasks and step-by-step procedures from Skills to construct training data for task execution and authorization.",
+    "On ClawArena-Team using Qwen3.5-35B-A3B, tool permission precision improved by 13.4 percentage points and workspace permission precision by 24.1 percentage points.",
+    "Overall task success increased by 11.6 percentage points, and the method remained competitive on Terminal-Bench 2.1 and SkillsBench."
+   ]
+  },
+  "km": {
+   "title": "ពីនីតិវិធីទៅការអនុញ្ញាត៖ ការស្វែងយល់ពីការអនុញ្ញាតអនុភ្នាក់ងាររងច្បាស់លាស់ពីជំនាញភ្នាក់ងារ",
+   "summary": "អ្នកស្រាវជ្រាវបានស្វែងយល់ពីការប្រើប្រាស់ជំនាញភ្នាក់ងារ ដើម្បីសិក្សាពីការអនុញ្ញាតអនុភ្នាក់ងាររងច្បាស់លាស់សម្រាប់ភ្នាក់ងារភាសាដែលសម្របសម្រួលកិច្ចការស្មុគស្មាញ។ វិធីសាស្ត្រនេះសំយោគកិច្ចការ និងនីតិវិធីជាជំហានៗពីជំនាញ ដោយប្រតិបត្តិពួកវាតាមរយៈការផ្ទេរភ្នាក់ងាររង និងប្រើប្រាស់គន្លងដែលបានផ្ទៀងផ្ទាត់ដើម្បីបង្កើតទិន្នន័យបណ្តុះបណ្តាល។ លទ្ធផលបង្ហាញថាវិធីសាស្ត្រនេះកែលម្អភាពជាក់លាក់នៃការអនុញ្ញាតឧបករណ៍ និងទំហំការងារ ក៏ដូចជាភាពជោគជ័យនៃកិច្ចការទាំងមូល។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍កែលម្អការគ្រប់គ្រងការអនុញ្ញាត និងការសម្របសម្រួលអនុភ្នាក់ងាររង ដោយប្រើប្រាស់ចំណេះដឹងនីតិវិធីដែលមានស្រាប់។ វាអាចនាំឱ្យមានការគ្រប់គ្រងការចូលប្រើប្រាស់ឧបករណ៍ និងទំហំការងារកាន់តែមានភាពជាក់លាក់សម្រាប់ប្រព័ន្ធភ្នាក់ងារច្រើន។",
+   "keyPoints": [
+    "ជំនាញភ្នាក់ងារអ៊ិនកូដចំណេះដឹងនីតិវិធីដែលពិពណ៌នាអំពីប្រតិបត្តិការ ឧបករណ៍ និងឯកសារដែលត្រូវការនៅតាមជំហាននីមួយៗ។",
+    "វិធីសាស្ត្រនេះសំយោគកិច្ចការ និងនីតិវិធីពីជំនាញ ដើម្បីបង្កើតទិន្នន័យបណ្តុះបណ្តាលសម្រាប់ការប្រតិបត្តិកិច្ចការ និងការអនុញ្ញាត។",
+    "នៅលើ ClawArena-Team ភាពជាក់លាក់នៃការអនុញ្ញាតឧបករណ៍បានកើនឡើង ១៣.៤ ពិន្ទុភាគរយ និងទំហំការងារ ២៤.១ ពិន្ទុភាគរយ។",
+    "ភាពជោគជ័យនៃកិច្ចការទាំងមូលបានកើនឡើង ១១.៦ ពិន្ទុភាគរយ ខណៈដែលវិធីសាស្ត្រនៅតែមានភាពប្រកួតប្រជែងនៅលើ Terminal-Bench 2.1 និង SkillsBench។"
+   ]
+  },
+  "zh-CN": {
+   "title": "从程序到权限：从智能体技能中学习精确的子智能体授权",
+   "summary": "研究人员探讨了如何利用智能体技能来为处理复杂任务的语言智能体学习精确的子智能体授权。该方法通过从技能中综合任务和分步程序，并在交互式环境中通过子智能体委托来执行它们，从而构建用于任务执行和授权的训练数据。在ClawArena-Team上使用Qwen3.5-35B-A3B测试时，该方法提高了工具权限和工作区权限的精确度，并提升了总体任务成功率。",
+   "impact": "这种方法可以帮助开发人员和安全团队利用智能体技能中嵌入的程序知识，改善权限管理和子智能体协调。它可能会为多智能体系统带来更精确的工具和工作区访问控制。",
+   "keyPoints": [
+    "智能体技能编码了描述每一步所需的操纵、工具和文件的程序知识。",
+    "该方法从技能中综合任务和分步程序，以构建任务执行和授权的训练数据。",
+    "在ClawArena-Team上，该方法将工具权限精确度提升了13.4个百分点，工作区权限精确度提升了24.1个百分点。",
+    "总体任务成功率提高了11.6个百分点，并在Terminal-Bench 2.1和SkillsBench上保持了竞争力。"
+   ]
+  },
+  "ko": {
+   "title": "절차에서 권한으로: 에이전트 스킬을 통한 정밀한 서부에이전트 권한 부여 학습",
+   "summary": "연구원들은 복잡한 작업을 조율하는 언어 에이전트를 위해 정밀한 서부에이전트 권한 부여를 학습하는 데 에이전트 스킬을 활용하는 방법을 연구했습니다. 스킬로부터 작업과 단계별 절차를 합성하고 상호작용 환경에서 서부에이전트 위임을 통해 이를 실행함으로써 작업 실행 및 권한 부여를 위한 훈련 데이터를 구축합니다. ClawArena-Team에서 Qwen3.5-35B-A3B를 사용해 테스트한 결과, 도구 및 작업 공간 권한 정밀도가 향상되었으며 전체 작업 성공률도 높아졌습니다.",
+   "impact": "이 접근 방식은 개발자와 보안 팀이 에이전트 스킬에 내장된 절차적 지식을 활용하여 권한 관리와 서부에이전트 오케스트레이션을 개선하는 데 도움을 줄 수 있습니다. 다중 에이전트 시스템을 위한 더 정밀한 도구 및 작업 공간 접근 제어로 이어질 수 있습니다.",
+   "keyPoints": [
+    "에이전트 스킬은 각 단계에서 필요한 작업, 도구, 파일을 설명하는 절차적 지식을 인코딩합니다.",
+    "이 방법은 스킬에서 작업과 단계별 절차를 합성하여 작업 실행 및 권한 부여를 위한 훈련 데이터를 구축합니다.",
+    "ClawArena-Team에서 도구 권한 정밀도가 13.4 퍼센트 포인트, 작업 공간 권한 정밀도가 24.1 퍼센트 포인트 향상되었습니다.",
+    "전체 작업 성공률이 11.6 퍼센트 포인트 증가했으며, Terminal-Bench 2.1과 SkillsBench에서도 경쟁력을 유지했습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "87c4dbbdca02196b",
+ "contentHash": "c1ba33ce6037aa0e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:50:59.431Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Grid-Oriented Probabilistic Load Forecasting for AI Data Centers",
+   "summary": "This paper introduces an open, grid-oriented benchmark using measured GPU power from a 448-GPU AI cluster to improve probabilistic load forecasting for AI data centers. The evaluation spans four stages including probabilistic prediction, online uncertainty calibration, temporal scenario generation, and horizon-wide reserve sizing. The results demonstrate that online regime-conditioned calibration improves interval coverage after utilization changes, while reconstructing temporal dependence reduces discrepancies in ramp statistics and lowers realized reserve costs.",
+   "impact": "This research could help developers and operators improve power forecasting and reserve procurement for AI data centers connected to the power grid. Security teams and grid operators may use these findings to better manage workload uncertainty and reduce operational costs.",
+   "keyPoints": [
+    "Developed an open benchmark using measured GPU power from a 448-GPU AI cluster.",
+    "A quantile LightGBM forecast achieved 63.4% coverage for a 90% interval after a utilization change, which online regime-conditioned calibration increased to 87.3%.",
+    "Reconstructing temporal dependence from historical forecast errors lowered realized reserve costs by 7.4-10.6% across three forecasting tasks."
+   ]
+  },
+  "km": {
+   "title": "ការព្យាករណ៍បន្ទុកប្រូបាប៊ីលីតេតម្រង់ទិសបណ្តាញសម្រាប់មជ្ឈមណ្ឌលទិន្នន័យ AI",
+   "summary": "ឯកសារនេះណែនាំអំពីគោលការណ៍វាយតម្លៃបើកចំហរតម្រង់ទិសបណ្តាញដោយប្រើប្រាស់ថាមពល GPU ដែលបានវាស់វែងពី ክុបសឺ AI 448-GPU ដើម្បីគាំទ្រដល់ប្រតិបត្តិការបណ្តាញ។ ការព្យាករណ៍ត្រូវបានវាយតម្លៃតាមរយៈដំណាក់កាលចំនួនបួន រួមទាំងការទស្សន៍ទាយប្រូបាប៊ីលីតេ ការក្រិតអურសមិនប្រាកដតាមអ៊ីនធឺណិត ការបង្កើតសេណារីយ៉ូតាមពេលវេលា និងការកំណត់ទំហំបម្រុងទូទាំងផ្តេក។ ការរកឃើញបង្ហាញថាការក្រិតតាមខ្នាតដែលបានកំណត់តាមរបបតាមអ៊ីនធឺណិតបង្កើនការគ្របដណ្តប់ ខណៈពេលដែលការបង្កើតឡើងវិញនូវការពឹងផ្អែកលើពេលវេលាកាត់បន្ថយការចំណាយបម្រុង។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រតិបត្តិបណ្តាញកែលម្អការពព្យាករណ៍ថាមពល និងកាត់បន្ថយការចំណាយបម្រុងសម្រាប់មជ្ឈមណ្ឌលទិន្នន័យ AI ។",
+   "keyPoints": [
+    "បានបង្កើតគោលការណ៍វាយតម្លៃបើកចំហរដោយប្រើប្រាស់ថាមពល GPU ពី ክុបសឺ AI 448-GPU។",
+    "ការព្យាករណ៍ quantile LightGBM សម្រេចបានការគ្របដណ្តប់ 63.4% សម្រាប់ចន្លោះ 90% ដែលការក្រិតតាមអ៊ីនធឺណិតបានកើនឡើងដល់ 87.3%។",
+    "ការបង្កើតឡើងវិញនូវការពឹងផ្អែកលើពេលវេលាបានកាត់បន្ថយការចំណាយបម្រុងចំនួន 7.4-10.6% ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "面向人工智能数据中心的面向电网的概率负载预测",
+   "summary": "本文开发了一个开放的、面向电网的基准测试，使用来自 448-GPU 人工智能集群的测得 GPU 功率来支持电网运营。预测通过四个阶段进行评估：概率预测、在线不确定性校准、时间场景生成和水平线范围内的备用容量确定。研究发现表明，单纯依靠边缘预测质量不足以做出运营决策，联合评估校准、时间结构和决策结果可以降低实现的备用成本。",
+   "impact": "这项研究可以帮助开发人员和技术用户改进人工智能数据中心的电力预测和电网运营决策。安全团队和技术人员可能会利用这些发现来降低备用成本并改善不确定性管理。",
+   "keyPoints": [
+    "使用来自 448-GPU 人工智能集群的测得 GPU 功率开发了一个开放的电网导向基准。",
+    "在线状态条件校准将利用率变化后的 90% 区间覆盖率从 63.4% 提高到 87.3%。",
+    "通过历史预测误差重建时间依赖性，使三项预测任务的实际备用成本降低了 7.4-10.6%。"
+   ]
+  },
+  "ko": {
+   "title": "AI 데이터 센터를 위한 그리드 지향 확률적 부하 예측",
+   "summary": "이 논문은 그리드 운영을 지원하기 위해 448-GPU AI 클러스터에서 측정된 GPU 전력을 사용하는 개방형 그리드 지향 벤치마크를 개발합니다. 예측은 확률적 예측, 온라인 불확실성 보정, 시간적 시나리오 생성 및 수평선 전체 예비비 사이징의 4단계로 평가됩니다. 연구 결과는 한계 예측 품질 단독으로는 운영 결정에 불충분하며 보정, 시간적 구조, 결정 결과의 공동 평가가 필요함을 보여줍니다.",
+   "impact": "이 연구는 개발자와 기술 사용자가 AI 데이터 센터의 전력 예측 및 그리드 운영 결정을 개선하는 데 도움을 줄 수 있습니다. 보안 팀과 운영자는 이러한 발견을 활용하여 예비비 비용을 절감하고 불확실성 관리를 개선할 수 있습니다.",
+   "keyPoints": [
+    "448-GPU AI 클러스터에서 측정된 GPU 전력을 사용하여 개방형 벤치마크를 개발했습니다.",
+    "온라인 체제 조건부 보정은 활용도 변화 후 90% 간격에 대한 커버리지를 63.4%에서 87.3%로 높였습니다.",
+    "역사적 예측 오차에서 시간적 의존성을 재구성하여 세 가지 예측 작업에서 실현된 예비비 비용을 7.4-10.6% 줄였습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e01bcaaa0ead0b84",
+ "contentHash": "c93f01744ff9c843",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:50:26.936Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Accuracy Is Not Value: Choosing Weak Supervisors by What the Student Inherits",
+   "summary": "This study examines how weak supervisors should be chosen based on what a student learns from them, rather than judging supervisors solely by their own errors. For squared loss and any linear learner shared by all supervisors, the research shows that a supervisor's value depends on its errors after passing through the student's learning operator. The findings demonstrate that weighting supervisors by their raw errors can perform arbitrarily worse than the best weighting in relative excess risk.",
+   "impact": "This research could help developers and data scientists better understand how to select and weight weak supervisors for machine learning models. It may lead to improved training strategies by showing when weak supervisors combined with clean labels can outperform procedures using clean labels alone.",
+   "keyPoints": [
+    "A supervisor's value is determined by its errors after passing through the student's learning operator.",
+    "Weighting supervisors by raw error inner products can be arbitrarily worse than the best weighting.",
+    "The student-relative value is not fully identifiable from unlabeled data, but finite-dimensional projections can help decide training and weighting.",
+    "Guarantees are extended to fitted ridge students and finite unlabeled data."
+   ]
+  },
+  "km": {
+   "title": "ភាពត្រឹមត្រូវមិនមែនជាតម្លៃ៖ ការជ្រើសរើសអ្នកគ្រប់គ្រងខ្សោយដោយផ្អែកលើអ្វីដែលសិស្សទទួលបាន",
+   "summary": "ការសិក្សានេះពិនិត្យមើលពីរបៀបដែលអ្នកគ្រប់គ្រងខ្សោយគួរតែត្រូវបានជ្រើសរើសដោយផ្អែកលើអ្វីដែលសិស្សរៀនពីពួកគេ ជំនួសឱ្យការវិនិច្ឆ័យអ្នកគ្រប់គ្រងផ្អែកលើកំហុសផ្ទាល់ខ្លួនរបស់ពួកគេ។ សម្រាប់squared loss និង linear learnerណាមួយ អ្នកស្រាវជ្រាវបានបង្ហាញថា តម្លៃរបស់អ្នកគ្រប់គ្រងត្រូវបានកំណត់ដោយកំហុសរបស់វាបន្ទាប់ពីឆ្លងកាត់ learning operator របស់សិស្ស។ លទ្ធផលបង្ហាញថាការឱ្យទម្ងន់អ្នកគ្រប់គ្រងដោយផ្អែកលើកំហុសឆៅរបស់ពួកគេអាចមានលទ្ធផលអាក្រក់ខ្លាំងជាងការឱ្យទម្ងន់ដ៏ល្អបំផុត។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកវិទ្យាសាស្ត្រទិន្នន័យយល់ដឹងកាន់តែច្បាស់អំពីរបៀបជ្រើសរើសនិងឱ្យទម្ងន់អ្នកគ្រប់គ្រងខ្សោយសម្រាប់គំរូម៉ាស៊ីនរៀន។ វាអាចនាំឱ្យមានយុទ្ធសាស្ត្របណ្តុះបណ្តាលដែលប្រសើរជាងមុន។",
+   "keyPoints": [
+    "តម្លៃរបស់អ្នកគ្រប់គ្រងត្រូវបានកំណត់ដោយកំហុសរបស់វាបន្ទាប់ពីឆ្លងកាត់ learning operator របស់សិស្ស។",
+    "ការឱ្យទម្ងន់អ្នកគ្រប់គ្រងដោយផ្អែកលើកំហុសឆៅអាចអាក្រក់ជាងការឱ្យទម្ងន់ដ៏ល្អបំផុត។",
+    "ការធានារ៉ាប់រងត្រូវបានពង្រីកដល់ fitted ridge students និងទិន្នន័យដែលមិនមានស្លាកមានកំណត់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "准确率并非价值：根据学生继承的内容选择弱监督者",
+   "summary": "本研究探讨了应如何根据学生从弱监督者那里学到的内容来选择弱监督者，而不是仅凭监督者自身的错误来判断。对于平方损失和所有监督者共享的线性学习器，研究表明监督者的价值由其错误通过学生的学习算子后的表现决定。结果表明，根据监督者原始错误的内积进行加权，其相对超额风险可能比最佳加权任意糟糕。",
+   "impact": "这项研究可以帮助开发人员和数据科学人员更好地理解如何为机器学习模型选择和加权弱监督者。它可能通过展示弱监督者与干净标签结合时何时能超越仅使用干净标签的方法，从而改进训练策略。",
+   "keyPoints": [
+    "监督者的价值由其错误通过学生学习算子后的表现决定。",
+    "通过原始错误内积加权监督者可能比最佳加权任意糟糕。",
+    "学生相对价值无法仅从无标签数据中完全识别。",
+    "保证已扩展至拟合岭回归学生和有限的无标签数据。"
+   ]
+  },
+  "ko": {
+   "title": "정확도는 가치가 아니다: 학생이 상속받는 것에 따른 약한 감독자 선택",
+   "summary": "본 연구는 약한 감독자 자신의 오류만으로 평가하는 대신 학생이 그들로부터 무엇을 학습하는지를 바탕으로 약한 감독자를 선택하는 방법을 조사합니다. 제곱 손실과 모든 감독자가 공유하는 선형 학습자에 대해, 연구는 감독자의 가치가 학생의 학습 연산자를 거친 후의 오류에 의해 결정된다는 것을 보여줍니다. 원시 오류를 통해 감독자에 가중치를 부여하는 것은 상대적 초과 위험 측면에서 최적의 가중치 부여보다 임의로 더 나쁠 수 있음을 증명합니다.",
+   "impact": "이 연구는 개발자와 데이터 과학자들이 머신러닝 모델을 위한 약한 감독자를 선택하고 가중치를 부여하는 방법을 더 잘 이해하는 데 도움을 줄 수 있습니다. 깨끗한 라벨과 결합된 약한 감독자가 깨끗한 라벨만을 사용하는 모든 절차를 능가하는 시기를 보여줌으로써 향상된 학습 전략으로 이어질 수 있습니다.",
+   "keyPoints": [
+    "감독자의 가치는 학생의 학습 연산자를 통과한 후의 오류에 의해 결정됩니다.",
+    "원시 오류를 통한 가중치 부여는 최적의 가중치보다 훨씬 나쁠 수 있습니다.",
+    "학생 상대적 가치는 라벨이 없는 데이터만으로 식별할 수 없습니다.",
+    "보증은 적합된 릿지 학생과 유한한 라벨 없는 데이터로 확장됩니다."
+   ]
+  }
+ }
+}

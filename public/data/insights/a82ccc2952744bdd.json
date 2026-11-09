@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a82ccc2952744bdd",
+ "contentHash": "83374e90ad8710f6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:51:52.310Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Task-Contribution Dynamics of Adam in Physics-Informed Neural Networks: Slow-Manifold Analysis and Gradient Modulation",
+   "summary": "This study investigates the task-contribution dynamics of Adam in physics-informed neural networks (PINNs) by introducing task-wise indicators to characterize training evolution. The researchers identified three distinct training regimes and analyzed the early smooth regime using a continuous-time singular perturbation framework. To address the findings, they proposed Gradient-Modulated Adam (GMAdam), which uses task-specific second-moment estimates to modulate incoming task gradients.",
+   "impact": "Researchers and developers working with physics-informed neural networks may achieve improved predictive accuracy on complex problems involving high-frequency or multiscale features. The introduction of GMAdam could offer a more effective alternative to existing balancing strategies at a comparable computational cost.",
+   "keyPoints": [
+    "Introduced task-wise indicators to characterize the evolution of task contributions in Adam's parameter updates for PINNs.",
+    "Identified three distinct training regimes: smooth variation, intermittent spikes, and persistent oscillations.",
+    "Proposed Gradient-Modulated Adam (GMAdam) to modulate incoming task gradients using task-specific second-moment estimates.",
+    "Demonstrated consistent predictive accuracy improvements over AdaTask on Poisson, wave, Allen-Cahn, and fluid dynamics equations."
+   ]
+  },
+  "km": {
+   "title": "សក្ដានុពលនៃការរួមចំណែកភារកិច្ចរបស់ Adam ក្នុង PINNs៖ ការវិភាគ Slow-Manifold និងការកែប្រែជម្រាល",
+   "summary": "ការសិក្សានេះពិនិត្យមើលសក្ដានុពលនៃការរួមចំណែកភារកិច្ចរបស់ Adam នៅក្នុងបណ្តាញប្រសាយសរសៃប្រសាទដែលផ្អែកលើរូបវិទ្យា (PINNs) ដោយណែនាំសូចនាករតាមភារកិច្ច។ អ្នកស្រាវជ្រាវបានកំណត់របបបណ្តុះបណ្តាលចំនួនបីផ្សេងគ្នា និងបានស្នើឡើងនូវ Gradient-Modulated Adam (GMAdam) ដែលប្រើប្រាស់ការប៉ាន់ស្មានម៉ូទិកទីពីរជាក់លាក់តាមភារកិច្ច។ ការពិសោធន៍numericalបានបង្ហាញពីភាពប្រសើរឡើងនៃភាពត្រឹមត្រូវនៃការទស្សន៍ទាយបើធៀបនឹង AdaTask។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងអ្នកស្រាវជ្រាវដែលប្រើប្រាស់ PINNs អាចទទួលបានភាពប្រសើរឡើងក្នុងការទស្សន៍ទាយលើបញ្ហាស្មុគស្មាញ។ GMAdam អាចជាជម្រើសដ៏មានប្រសិទ្ធភាពជាងមុនក្នុងការដោះស្រាយបញ្ហាអសមតុល្យនៃការបង្កើនប្រសិទ្ធភាព។",
+   "keyPoints": [
+    "បានណែនាំសូចនាករតាមភារកិច្ចដើម្បីកំណត់លក្ខណៈការវិវត្តនៃការរួមចំណែកភារកិច្ចនៅក្នុងការធ្វើបច្ចុប្បន្នភាពប៉ារ៉ាម៉ែត្ររបស់ Adam។",
+    "បានកំណត់របបបណ្តុះបណ្តាលចំនួនបី៖ ការប្រែប្រួលរលូន កំពូលមិនទៀងទាត់ និងការយោលជាប់លាប់។",
+    "បានស្នើ Gradient-Modulated Adam (GMAdam) ដើម្បីកែប្រែជម្រាលភារកិច្ចចូលដោយប្រើការប៉ាន់ស្មានម៉ូទិកទីពីរជាក់លាក់តាមភារកិច្ច។",
+    "បានបង្ហាញពីភាពប្រសើរឡើងនៃភាពត្រឹមត្រូវនៃការទស្សន៍ទាយលើសមីការ Poisson, wave, Allen-Cahn និងលំហូរគំរូ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "物理信息神经网络中Adam的任务贡献动力学：慢流形分析与梯度调制",
+   "summary": "本研究通过引入任务指标来表征Adam在物理信息神经网络（PINNs）中参数更新的任务贡献演变，识别出了三种不同的训练机制。研究人员结合离散时间分析与连续时间奇异摄动框架，提出了梯度调制Adam（GMAdam），利用任务特定的二阶矩估计来调制传入的任务吉尔（梯度）。数值实验表明，该方法在保持相似计算成本的同时，预测精度优于AdaTask。",
+   "impact": "使用物理信息神经网络的开发人员和研究人员可能在处理高频或多尺度特征的问题时获得更高的预测精度。GMAdam可能会以相当的计算成本提供比现有平衡策略更好的性能。",
+   "keyPoints": [
+    "引入了任务指标来表征Adam参数更新中任务贡献的演变。",
+    "识别出三种不同的训练机制：平滑变化、间歇性峰值和持续振荡。",
+    "提出了梯度调制Adam（GMAdam），利用特定任务的二阶矩估计来调制传入的任务梯度。",
+    "在泊松方程、波动方程、艾伦-坎恩方程以及二维lid-driven cavity flow数值实验中验证了其性能。"
+   ]
+  },
+  "ko": {
+   "title": "물리학 기반 신경망에서 Adam의 태스크 기여도 동역학: 슬로우 매니폴드 분석 및 그래디언트 변조",
+   "summary": "본 연구는 태스크별 지표를 도입하여 물리학 기반 신경망(PINN)에서 Adam의 파라미터 업데이트에 대한 태스크 기여도의 진화를 특성화하고 세 가지 서로 다른 학습 체제를 식별했습니다. 연구진은 연속 시간 특이 섭동 프레임워크를 활용하여 태스크별 2차 적률 추정치를 사용하여 들어오는 태스크 그래디언트를 변조하는 Gradient-Modulated Adam(GMAdam)을 제안했습니다. 수치 실험 결과, 유사한 연산 비용으로 AdaTask보다 예측 정확도가 일관되게 향상되었습니다.",
+   "impact": "PINN을 활용하는 개발자와 연구원들은 고주파 또는 다중 스케イル 특성이 포함된 복잡한 문제에서 향상된 예측 정확도를 얻을 수 있습니다. GMAdam은 기존 균형 전략을 대체하여 효율적인 최적화 대안을 제공할 수 있습니다.",
+   "keyPoints": [
+    "PINN에서 Adam의 파라미터 업데이트 내 태스크 기여도의 진화를 특성화하기 위해 태스크별 지표를 도입함.",
+    "부드러운 변동, 간헐적 스파이크, 지속적인 진동이라는 세 가지 고유한 학습 체제를 식별함.",
+    "태스크별 2차 적률 추정치를 사용하여 들어오는 태스크 그래디언트를 변조하는 Gradient-Modulated Adam(GMAdam)을 제안함.",
+    "Poisson, wave, Allen-Cahn 방정식 및 2차원 유체 흐름 문제에서 AdaTask 대비 예측 정확도 향상을 입증함."
+   ]
+  }
+ }
+}

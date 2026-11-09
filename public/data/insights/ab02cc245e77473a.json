@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ab02cc245e77473a",
+ "contentHash": "abc7b7b28dd1103b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:52:47.857Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Learning to Restart: Differentiable Restart Policies for Optimization Dynamics",
+   "summary": "Researchers have developed a differentiable framework for restart policies in iterative optimizers by examining their continuous-time limit. This method introduces surrogate gradients for discrete restart events and trajectories, enabling gradient-based optimization. The approach successfully trains restart policies that outperform standard handcrafted criteria on quadratic and linear programs.",
+   "impact": "This development could allow developers and researchers to train better restart policies for optimizers using gradient-based methods, improving performance across various tasks. The zero-shot transfer capability may also help optimization models adapt to real datasets more effectively.",
+   "keyPoints": [
+    "Existing restart rules in optimizers are almost entirely hand-designed.",
+    "Discrete restart events normally make optimization trajectories non-differentiable.",
+    "A new differentiable framework uses surrogate gradients that converge to continuous-time limits.",
+    "Trained policies improve upon standard handcrafted criteria and transfer zero-shot to logistic regression."
+   ]
+  },
+  "km": {
+   "title": "ការរៀនចាប់ផ្តើមឡើងវិញ៖ គោលនយោបាយចាប់ផ្តើមឡើងវិញដែលអាចបែងចែកបានសម្រាប់សក្ដានុពលនៃការប្រសើរឡើង",
+   "summary": "អ្នកស្រាវជ្រាវបានអភិវឌ្ឍក្របខណ្ឌដែលអាចបែងចែកបានសម្រាប់គោលនយោបាយចាប់ផ្តើមឡើងវិញនៅក្នុងកម្មវិធីបង្កើនប្រសិទ្ធភាព ដោយមើលទៅលើដែនកំណត់ពេលវេលាបន្តបន្ទាប់របស់វា។ វិធីសាស្ត្រនេះបានណែនាំជម្រាលជំនួសសម្រាប់ព្រឹត្តិការណ៍ចាប់ផ្តើមឡើងវិញដាច់ដោយឡែក ដែលអនុញ្ញាតឱ្យមានការបង្កើនប្រសិទ្ធភាពផ្អែកលើជម្រាល។ ការខិតខំប្រឹងប្រែងនេះទទួលបានជោគជ័យក្នុងការបណ្តុះបណ្តាលគោលនយោបាយដែលដំណើរការល្អជាងលក្ខណៈវិនិច្ឆ័យស្ដង់ដារលើកម្មវិធីបួនជ្រុង និងលីនេអ៊ែរ។",
+   "impact": "ការអភិវឌ្ឍនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍បណ្តុះបណ្តាលគោលនយោបាយចាប់ផ្តើមឡើងវិញបានល្អប្រសើរដោយប្រើវិធីសាស្ត្រជម្រាល ដែលអាចបង្កើនប្រសិទ្ធភាពលើកិច្ចការផ្សេងៗ។ សមត្ថភាពផ្ទេរទិន្នន័យក៏អាចជួយឱ្យគំរូសម្របខ្លួនទៅនឹងទិន្នន័យពិតប្រាកដផងដែរ។",
+   "keyPoints": [
+    "ច្បាប់ចាប់ផ្តើមឡើងវិញដែលមានស្រាប់ភាគច្រើនត្រូវបានបង្កើតឡើងដោយដៃ។",
+    "ព្រឹត្តិការណ៍ចាប់ផ្តើមឡើងវិញដាច់ដោយឡែកធ្វើឱ្យគន្លងនៃការបង្កើនប្រសិទ្ធភាពមិនអាចបែងចែកបាន។",
+    "ក្របខណ្ឌថ្មីប្រើប្រាស់ជម្រាលជំនួសដែលមានប្រសិទ្ធភាពក្នុងការគណនា។",
+    "គោលនយោបាយដែលបានបណ្តុះបណ្តាលអាចផ្ទេរទៅការថយក្រោយឡូជីស្ទិកលើទិន្នន័យពិតប្រាកដ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "学习重启：优化动力学中可微分的重启策略",
+   "summary": "研究人员通过连续时间极限，为迭代优化器中的重启策略开发了一个可微分的框架。该方法为离散的重启事件和轨迹引入了代理梯度，从而实现了基于梯度的优化。这种方法成功训练出了在二次和线性规划上优于标准手工设计准则的重启策略。",
+   "impact": "这一进展可能使开发人员能够使用基于梯度的方法为优化器训练更好的重启策略，从而提高各种任务的性能。零样本迁移能力也可能帮助优化模型更有效地适应真实数据集。",
+   "keyPoints": [
+    "优化器中现有的重启规则几乎完全是手工设计的。",
+    "离散的重启事件通常使优化轨迹在算法参数中不可微分。",
+    "新的可微分框架引入了易于计算且收敛的代理梯度。",
+    "训练出的策略在二次和线性规划上超越了标准手工准则，并可零样本迁移到逻辑回归。"
+   ]
+  },
+  "ko": {
+   "title": "재시작 학습: 최적화 역학을 위한 미분 가능한 재시작 정책",
+   "summary": "연구원들은 연속 시간 극한을 통해 반복적 최적화 도구의 재시작 정책을 위한 미분 가능한 프레임워크를 개발했습니다. 이 방법은 이산적인 재시작 이벤트와 궤적을 위한 대리 경사를 도입하여 경사 기반 최적화를 가능하게 합니다. 이 접근 방식은 이차 및 선형 프로그램에서 표준 수작업 기준보다 성능이 뛰어난 재시작 정책을 성공적으로 학습시킵니다.",
+   "impact": "이번 개발을 통해 개발자와 연구원들은 경사 기반 방법을 사용하여 최적화 도구를 위한 더 나은 재시작 정책을 학습시키고 다양한 작업의 성능을 향상시킬 수 있습니다. 제로샷 전이 기능은 최적화 모델이 실제 데이터셋에 더 효과적으로 적응하는 데 도움이 될 수도 있습니다.",
+   "keyPoints": [
+    "기존의 최적화 도구 재시작 규칙은 거의 전적으로 수작업으로 설계되었습니다.",
+    "이산적인 재시작 이벤트는 알고리즘 매개변수에서 최적화 궤적을 미분 불가능하게 만듭니다.",
+    "새로운 미분 가능한 프레임워크는 계산하기 효율적이고 수렴하는 대리 경사를 도입합니다.",
+    "학습된 정책은 이차 및 선형 프로그램에서 표준 수작업 기준을 능가합니다."
+   ]
+  }
+ }
+}

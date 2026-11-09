@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5d10a7c4e99693fd",
+ "contentHash": "89d585e2d0c50f03",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:54:37.305Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Semantic Conditional Similarity (SCS): A Formal Mathematical Framework",
+   "summary": "Researchers have introduced Semantic Conditional Similarity (SCS) as a formal mathematical framework that computes similarity between two documents after eliminating shared semantic elements from a third document. Unlike traditional Semantic Textual Similarity (STS), SCS addresses multi-document settings by using set-theoretic operations to isolate marginal contributions. The framework supports directional relationships and role-dependent asymmetry across various document cardinalities.",
+   "impact": "This framework could help developers and technology users better analyze multi-document sources by uncovering information that standard pairwise comparisons might suppress. Security teams or analysts working with complex text attribution may find the ordinal ranking of marginal contributions useful for distinguishing unique content from shared vocabulary.",
+   "keyPoints": [
+    "SCS computes similarity between two documents after removing semantic content shared with a third document.",
+    "It introduces directionality by partitioning relations into lateral and vertical classes.",
+    "The method uses set-theoretic decomposition for threshold-free partitioning of shared and residual content.",
+    "Scores are intended to be interpreted ordinally as rankings of marginal contributions."
+   ]
+  },
+  "km": {
+   "title": "ភាពស្រដៀងគ្នា conditional 语义 (SCS)៖ ក្របខ័ណ្ឌគណិតវិទ្យាផ្លូវការ",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ Semantic Conditional Similarity (SCS) ដែលជាក្របខ័ណ្ឌគណិតវិទ្យាផ្លូវការគណនាភាពស្រដៀងគ្នារវាងឯកសារពីរ បន្ទាប់ពីលុបបំបាត់ធាតុ ngữ nghĩa ដែលបានចែករំលែកជាមួយឯកសារទីបី។ មិនដូច Semantic Textual Similarity (STS) បែបប្រពៃណីទេ SCS ដោះស្រាយការកំណត់ឯកសារច្រើនដោយប្រើប្រាស់ប្រតិបត្តិការទ្រឹស្តីសំណុំ។ ក្របខ័ណ្ឌនេះគាំទ្រទំនាក់ទំនងទិសដៅ និងអសមភាពអាស្រ័យលើតួនាទី។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការវិភាគប្រភពឯកសារច្រើនបានប្រសើរជាងមុន ដោយបង្ហាញព័ត៌មានដែលការប្រៀបធៀបគូអាចលាក់បាំង។",
+   "keyPoints": [
+    "SCS គណនាភាពស្រដៀងគ្នារវាងឯកសារពីរ បន្ទាប់ពីដកចេញមាតិកាដែលបានចែករំលែកជាមួយឯកសារទីបី។",
+    "វាណែនាំទិសដៅដោយបែងចែកទំនាក់ទំនងទៅជាថ្នាក់橫 និងបញ្ឈរ។",
+    "វិធីសាស្រ្តនេះប្រើប្រាស់ការបំបែកទ្រឹស្តីសំណុំសម្រាប់មាតិកាចែករំលែក និងដែលនៅសល់។",
+    "ពិន្ទុគួរតែត្រូវបានបកស្រាយជាលំដាប់ថ្នាក់នៃការ đóng góp រឹម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "语义条件相似度（SCS）：一个形式化数学框架",
+   "summary": "研究人员引入了语义条件相似度（SCS），这是一个形式化数学框架，通过利用集合论运算消除与第三个文档共享的语义元素来计算两个文档之间的相似度。与传统的语义文本相似度（STS）不同，SCS通过隔离边际贡献来处理多文档场景。该框架支持方向性关系以及各种文档基数下的角色相关不对称性。",
+   "impact": "该框架可能帮助开发者和技术用户更好地分析多文档来源，揭示标准成对比较可能掩盖的信息。处理复杂文本归属的技术人员可能会发现边际贡献的序数排序对于区分独特内容与共享词汇非常有用。",
+   "keyPoints": [
+    "SCS在消除与第三个文档共享的语义内容后计算两个文档之间的相似度。",
+    "它通过将关系划分为横向和垂直类别引入了方向性。",
+    "该方法采用集合论分解来实现共享和剩余内容的无阈值划分。",
+    "分数的解释应为边际贡献的序数排名而非绝对测量。"
+   ]
+  },
+  "ko": {
+   "title": "시맨틱 조건부 유사도(SCS): 형식 수학적 프레임워크",
+   "summary": "연구원들은 세 번째 문서와 공유되는 의미론적 요소를 제거한 후 두 문서 간의 유사도를 계산하는 형식 수학적 프레임워크인 시맨틱 조건부 유사도(SCS)를 도입했습니다. 전통적인 시맨틱 텍스트 유사도(STS)와 달리 SCS는 집합론적 연산을 사용하여 한계 기여도를 분리함으로써 다중 문서 설정을 처리합니다. 이 프레임워크는 다양한 문서 카디널리티에서 방향성과 역할 의존적 비대칭성을 지원합니다.",
+   "impact": "이 프레임워크는 개발자와 기술 사용자가 표준 쌍별 비교가 억제할 수 있는 정보를 발견하여 다중 문서 소스를 더 잘 분석하는 데 도움을 줄 수 있습니다. 텍스트 저작권이나 복잡한 텍스트 출처를 다루는 보안 팀은 한계 기여도의 서수 순위를 유용하게 활용할 수 있습니다.",
+   "keyPoints": [
+    "SCS는 세 번째 문서와 공유된 의미론적 콘텐츠를 제거한 후 두 문서 간의 유사도를 계산합니다.",
+    "관계를 측면 클래스와 수직 클래스로 분할하여 방향성을 도입합니다.",
+    "이 방법은 공유 콘텐츠와 잔여 콘텐츠의 임계값 없는 분할을 위해 집합론적 분해를 사용합니다.",
+    "점수는 절대적 측정값이 아닌 한계 기여도의 순위로 서수적으로 해석되어야 합니다."
+   ]
+  }
+ }
+}

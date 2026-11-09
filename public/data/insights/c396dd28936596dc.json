@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c396dd28936596dc",
+ "contentHash": "7f8b36a7b9afbf38",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:49:20.725Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Jync v2.0.0 · Spring Boot 4.1 Platform Upgrade",
+   "summary": "Jync v2.0.0 has been upgraded to the Spring Boot 4.1 platform, incorporating several major component updates including Spring Framework 7.0, Spring Security 7.1, and Hibernate ORM 7.4. All javax.* namespaces have been migrated to jakarta.*. The release maintains the same functional scope as v1.14.0 and requires Java 17+, while keeping application configurations, data directories, JDBC drivers, and reverse proxy settings unchanged.",
+   "impact": "Developers may benefit from platform component updates while retaining compatibility with existing configurations and external formats. The migration from javax.* to jakarta.* requires attention when updating dependent components or code.",
+   "keyPoints": [
+    "Upgraded to Spring Boot 4.1.2 alongside Spring Framework 7.0, Spring Security 7.1, and Hibernate ORM 7.4.",
+    "Migrated all javax.* namespaces to jakarta.*.",
+    "Requires Java 17+ and maintains the functional scope of v1.14.0.",
+    "Application configurations, data directories, JDBC drivers, and reverse proxy settings remain unchanged."
+   ]
+  },
+  "km": {
+   "title": "Jync v2.0.0 · ការដំឡើងកំណែវេទិកា Spring Boot 4.1",
+   "summary": "Jync v2.0.0 ត្រូវបានដំឡើងកំណែទៅវេទិកា Spring Boot 4.1 ដោយរួមបញ្ចូលនូវការអាប់ដេតសមាសភាគសំខាន់ៗដូចជា Spring Framework 7.0, Spring Security 7.1 និង Hibernate ORM 7.4។ namespace ទាំងអស់របស់ javax.* ត្រូវបានផ្ទេរទៅ jakarta.*។ កំណែនេះរក្សាវិសាលភាពមុខងារដូចគ្នាទៅនឹង v1.14.0 និងតម្រូវឱ្យមាន Java 17+ ដោយមិនបាច់ផ្លាស់ប្តូរការកំណត់កម្មវិធី ថតទិន្នន័យ ไดຣቨ័រ JDBC និងការកំណត់រចនាសម្ព័ន្ធប្រូកស៊ីបញ្ច្រាសទេ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍អាចទទួលបានផលប្រយោជន៍ពីការអាប់ដេតសមាសភាគវេទិកាខណៈពេលដែលរក្សាបាននូវភាពឆបគ្នាជាមួយនឹងការកំណត់ដែលមានស្រាប់។ ការផ្ទេរពី javax.* ទៅ jakarta.* ទាមទារការយកចិត្តទុកដាក់ពេលអាប់ដេតសមាសភាគ ឬកូដអាស្រ័យ។",
+   "keyPoints": [
+    "បានដំឡើងកំណែទៅ Spring Boot 4.1.2 ព្រមទាំង Spring Framework 7.0, Spring Security 7.1 និង Hibernate ORM 7.4។",
+    "បានផ្ទេរ namespace របស់ javax.* ទាំងអស់ទៅ jakarta.*។",
+    "តម្រូវឱ្យមាន Java 17+ និងរក្សាវិសាលភាពមុខងាររបស់ v1.14.0។",
+    "การកំណត់កម្មវិធី ថតទិន្នន័យ ไดຣቨ័រ JDBC និងប្រូកស៊ីបញ្ច្រាសនៅតែដដែលមិនផ្លាស់ប្តូរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Jync v2.0.0 · Spring Boot 4.1 平台升级",
+   "summary": "Jync v2.0.0 升级到了 Spring Boot 4.1 平台，包含了 Spring Framework 7.0、Spring Security 7.1、Hibernate ORM 7.4 等多个核心组件的更新，并将所有 javax.* 迁移到了 jakarta.*。该版本功能范围与 v1.14.0 一致，仍要求 Java 17+，且 application.yml、数据目录、JDBC 驱动与反向代理配置均无需更改。",
+   "impact": "开发者在获得平台组件更新的同时，可以保持现有的配置和外部格式不变，减少了迁移成本。由 javax.* 向 jakarta.* 的迁移需要在更新相关依赖或代码时予以关注。",
+   "keyPoints": [
+    "升级至 Spring Boot 4.1.2 及 Spring Framework 7.0、Spring Security 7.1、Hibernate ORM 7.4 等。",
+    "将所有 javax.* 全部迁移到 jakarta.*。",
+    "功能范围与 v1.14.0 一致，仍要求 Java 17+。",
+    "application.yml、数据目录、JDBC 驱动与反向代理配置均保持不变。"
+   ]
+  },
+  "ko": {
+   "title": "Jync v2.0.0 · Spring Boot 4.1 플랫폼 업그레이드",
+   "summary": "Jync v2.0.0이 Spring Boot 4.1 플랫폼으로 업그레이드되었으며 Spring Framework 7.0, Spring Security 7.1, Hibernate ORM 7.4 등의 주요 구성 요소 업데이트가 포함되었습니다. 모든 javax.* 네임스페이스가 jakarta.*로 마이그레이션되었습니다. 기능 범위는 v1.14.0과 동일하며 Java 17+를 요구하고 application.yml, 데이터 디렉토리, JDBC 드라이버 및 리버스 프록시 설정은 변경할 필요가 없습니다.",
+   "impact": "개발자들은 기존 설정과의 호환성을 유지하면서 플랫폼 구성 요소 업데이트의 이점을 누릴 수 있습니다. javax.*에서 jakarta.*로의 마이그레이션은 종속 구성 요소나 코드를 업데이트할 때 주의가 필요합니다.",
+   "keyPoints": [
+    "Spring Boot 4.1.2 및 Spring Framework 7.0, Spring Security 7.1, Hibernate ORM 7.4 등으로 업그레이드됨.",
+    "모든 javax.* 네임스페이스를 jakarta.*로 마이그레이션함.",
+    "v1.14.0과 동일한 기능 범위를 유지하며 Java 17+가 필요함.",
+    "application.yml, 데이터 디렉토리, JDBC 드라이버, 리버스 프록시 설정이 변경되지 않고 유지됨."
+   ]
+  }
+ }
+}

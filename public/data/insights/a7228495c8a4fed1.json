@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a7228495c8a4fed1",
+ "contentHash": "7dd87da5a7082754",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:50:05.138Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Using an LLM to Tackle Difficult Cases in NER for Nepali Tweets",
+   "summary": "Named entity recognition for social media data in low-resource languages is challenging. While pretrained language models generally outperform LLMs, researchers tested an LLM on difficult Nepali tweet test cases using various prompt configurations. They found that selecting semantically similar examples and increasing example count improved the F1 score. Furthermore, combining the LLM for hard cases with the pretrained model resulted in an improved overall score.",
+   "impact": "This approach could help developers and researchers improve NER performance on low-resource social media data by strategically combining LLMs and pretrained models. Security and technology teams handling difficult text classification tasks may find that prompt engineering and semantic example selection enhance model accuracy.",
+   "keyPoints": [
+    "Tested an LLM on hard Nepali tweet test cases using 16 prompt configurations.",
+    "Semantic similarity and more examples improved the F1 score by almost 10 points.",
+    "The LLM surpassed the pretrained language model on hard test cases.",
+    "Combining the models improved the overall NER score."
+   ]
+  },
+  "km": {
+   "title": "การប្រើប្រាស់ LLM ដើម្បីដោះស្រាយករណីពិបាកក្នុង NER សម្រាប់ tweets ភាសានេប៉ាល់",
+   "summary": "ការសម្គាល់អង្គភាពដែលមានឈ្មោះសម្រាប់ទិន្នន័យប្រព័ន្ធផ្សព្វផ្សាយសង្គមក្នុងភាសាដែលមានធនធានតិចតួចគឺជាការពិបាកមួយ។ ខណៈពេលដែលម៉ូដែលភាសាដែលបានបណ្តុះបណ្តាលមុនច្រើនតែមានដំណើរការល្អជាង LLMs អ្នកស្រាវជ្រាវបានធ្វើតេស្ត LLM លើករណីពិបាកនៃ tweets ភាសានេប៉ាល់។ ពួកគេបានរកឃើញថាការជ្រើសរើសឧទាហរណ៍ស្រដៀងគ្នាផ្នែកន័យនិងការបង្កើនចំនួនឧទាហរណ៍បានប្រសើរឡើងពិន្ទុ F1។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍ក្នុងការបង្កើនដំណើរការ NER លើទិន្នន័យប្រព័ន្ធផ្សព្វផ្សាយសង្គមដែលមានធនធានតិចតួចតាមរយៈការរួមបញ្ចូលម៉ូដែលទាំងពីរ។",
+   "keyPoints": [
+    "បានធ្វើតេស្ត LLM លើករណីតេស្តពិបាកនៃ tweets ភាសានេប៉ាល់ដោយប្រើការកំណត់រចនាសម្ព័ន្ធប្រអប់បញ្ចូលចំនួន 16 ។",
+    "ភាពស្រដៀងគ្នាផ្នែកន័យនិងឧទាហរណ៍បន្ថែមបានបង្កើនពិន្ទុ F1 ជិត 10 ពិន្ទុ។",
+    "LLM បានវ៉ាដាច់ម៉ូដែលភាសាដែលបានបណ្តុះបណ្តាលមុនលើករណីតេស្តពិបាក។"
+   ]
+  },
+  "zh-CN": {
+   "title": "利用 LLM 解决尼泊尔语推文 NER 中的难例",
+   "summary": "在资源匮乏的语言中，社交媒体数据的命名实体识别具有挑战性。虽然预训练语言模型在 NER 性能上通常落后，但它们在处理预训练模型难以应付的情况时显示出潜力。研究人员使用尼泊尔语推文数据集，评估了 LLM 在困难测试用例上的表现。结果表明，选择语义相似的示例并增加示例数量可以将 F1 分数提高近 10 分，并且结合两个模型可改善整体得分。",
+   "impact": "这种方法可以帮助开发者和安全团队通过战略性地结合大语言模型和预训练模型，来改善资源匮乏社交媒体数据上的 NER 性能。提示词工程和语义示例选择可能会进一步提高模型在复杂文本任务中的准确性。",
+   "keyPoints": [
+    "使用 16 种不同的提示词配置在困难测试用例上评估了 LLM。",
+    "基于语义相似度选择示例并将示例数量增加，使 F1 分数提高了近 10 分。",
+    "LLM 在困难测试用例上的表现超越了预训练语言模型。",
+    "结合两个模型后得到了更好的总体评分。"
+   ]
+  },
+  "ko": {
+   "title": "네팔어 트윗의 NER에서 어려운 사례를 해결하기 위한 LLM 활용",
+   "summary": "저자원 언어의 소셜 미디어 데이터에 대한 개체명 인식은 어렵습니다. 사전 학습된 언어 모델이 NER 성능에서 종종 앞서지만, LLM은 사전 학습된 모델이 어려워하는 사례를 처리하는 데 가능성을 보여줍니다. 네팔어 트윗 데이터셋을 사용하여 연구원들은 다양한 프롬프트 설정으로 LLM을 평가했습니다. 의미론적 유사성에 따라 예제를 선택하고 예제 수를 늘리면 F1 점수가 향상되는 것으로 나타났습니다.",
+   "impact": "이 접근 방식은 개발자와 보안 팀이 LLM과 사전 학습된 모델을 전략적으로 결합하여 저자원 소셜 미디어 데이터의 NER 성능을 향상시키는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "16가지 프롬프트 설정을 사용하여 어려운 네팔어 트윗 테스트 케이스에서 LLM을 평가함.",
+    "의미론적 유사성 기반 예제 선택과 예제 수 증가가 F1 점수를 거의 10점 향상시킴.",
+    "어려운 테스트 케이스에서 LLM이 사전 학습된 언어 모델을 능가함."
+   ]
+  }
+ }
+}

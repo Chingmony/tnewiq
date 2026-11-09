@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7fede1efc038eec4",
+ "contentHash": "efbed00087bd65b4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:53:20.799Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Reconstructing LLM Lineage Trees via Fine-Tuning Path Inference",
+   "summary": "Large numbers of fine-tuned large language model derivatives are released without verifiable provenance, as reliance on self-reports is insufficient for auditing or tracing vulnerabilities. To address the limitation of existing methods requiring white-box weight access or only offering undirected tests, researchers formalize directed model tree reconstruction under gray-box access using teacher-forced log-likelihoods. They propose TRACE-Edge, a method leveraging asymmetric per-task log-likelihood deviations to solve for maximum spanning directed trees without hyperparameters or structural constraints. Evaluations across 25 model trees show TRACE-Edge achieves a parent-match accuracy of 0.74 when probed with fine-tuning examples.",
+   "impact": "This approach could help security teams and technology users audit outsourced fine-tuning, confirm license compliance, and trace vulnerabilities from parent models to children without needing direct access to model weights. Developers may utilize such verification techniques to establish trustworthy lineage for derived models.",
+   "keyPoints": [
+    "Provenance of fine-tuned LLM derivatives currently relies on unverifiable self-reports.",
+    "TRACE-Edge reconstructs directed model lineage using gray-box access via teacher-forced log-likelihoods.",
+    "The method solves for maximum spanning directed trees using asymmetric per-task log-likelihood deviations.",
+    "TRACE-Edge achieved a parent-match accuracy of 0.74 in evaluations."
+   ]
+  },
+  "km": {
+   "title": "ការបង្កើតដើមឈើប្រវត្តិសាស្រ្ត LLM ឡើងវិញតាមរយៈការសន្និដ្ឋានផ្លូវលៃតម្រូវល្អិតល្អន់",
+   "summary": "កំណែប្រែដែលបានលៃតម្រូវល្អិតល្អន់នៃ LLM ត្រូវបានចេញផ្សាយយ៉ាងច្រើន ប៉ុន្តែប្រភពដើមរបស់វាពឹងផ្អែកលើការរាយការណ៍ខ្លួនឯង ហើយមិនអាចផ្ទៀងផ្ទាត់បានទេ។ អ្នកស្រាវជ្រាវបានស្នើវិធីសាស្ត្រ TRACE-Edge ដែលប្រើប្រាស់ដានប្រូបាប៊ីលីតេលក្ការីត ដើម្បីបង្កើតដើមឈើតម្រង់ទិសនៃម៉ូដែលឡើងវិញក្រោមការចូលប្រើប្រាស់បែបប្រផេះ។ ការវាយតម្លៃលើដើមឈើម៉ូដែលចំនួន ២៥ បានបង្ហាញថា TRACE-Edge សម្រេចបាននូវភាពត្រឹមត្រូវនៃការផ្គូផ្គងមេកម្រិត ០.៧៤។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការធ្វើសវនកម្មលើការលៃតម្រូវល្អិតល្អន់ និងតាមដានចំណុចខ្សោយដោយមិនចាំបាច់មានសិទ្ធិចូលមើលទម្ងន់ម៉ូដែល.",
+   "keyPoints": [
+    "ប្រភពដើមនៃ LLM ដែលបានកែច្នៃពឹងផ្អែកលើការរាយការណ៍ខ្លួនឯងដែលមិនអាចផ្ទៀងផ្ទាត់បាន។",
+    "TRACE-Edge បង្កើតដើមឈើតម្រង់ទិសឡើងវិញដោយប្រើប្រាស់កំណត់ហេតុប្រូបាប៊ីលីតេ។",
+    "វិធីសាស្ត្រនេះមិនត្រូវការប៉ារ៉ាម៉ែត្រកម្រិតខ្ពស់ ឬការកំណត់រចនាសម្ព័ន្ធដើមឈើនោះទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过微调路径推理重建大语言模型血缘树",
+   "summary": "大语言模型的微调衍生版数量众多，但其来源依赖于自我报告且无法验证。为了解决现有方法需要白盒访问权重或仅提供无向测试的局限性，研究人员在灰盒访问下，通过教师强制对数似然形式化了有向模型树重建问题。他们提出了 TRACE-Edge，这是一种利用不对称的任务间对数似然偏差来求解最大生成有向树的方法。在 25 个模型树上的评估表明，当使用微调样本进行探测时，TRACE-Edge 实现了 0.74 的父级匹配准确率。",
+   "impact": "该方法可以帮助安全团队和技术用户在无需直接访问模型权重的情况下，审计外包微调、确认许可合规性并追踪漏洞。开发人员可能会利用这种验证技术为衍生模型建立可信的血缘关系。",
+   "keyPoints": [
+    "微调的 LLM 衍生版目前的血缘关系依赖于无法验证的自我报告。",
+    "TRACE-Edge 使用通过教师强制对数似然的灰盒访问来重建有向模型血缘。",
+    "该方法使用不对称的任务间对数似然偏差来求解最大生成有向树。",
+    "TRACE-Edge 在评估中取得了 0.74 的父级匹配准确率。"
+   ]
+  },
+  "ko": {
+   "title": "미세 조정 경로 추론을 통한 LLM 계보 트리 재구성",
+   "summary": "대규모 언어 모델의 미세 조정 파생 모델이 다수 출시되고 있지만, 그 출처는 자체 보고에 의존하며 검증할 수 없습니다. 연구진은 화이트박스 가중치 접근이 필요하거나 방향성이 없는 테스트에 국한되는 기존 방법의 한계를 극복하기 위해, 교사 강제 로그 우도를 사용하는 그레이박스 접근 하에서 방향성 모델 트리 재구성을 정립했습니다. 이들은 하이퍼파라미터나 트리 구조 제약 없이 최대 신장 방향 트리를 해결하기 위해 비대칭 태스크별 로그 우도 편차를 활용하는 TRACE-Edge를 제안합니다. 25개의 모델 트리에 대한 평가에서 TRACE-Edge는 미세 조정 예제로 프로빙했을 때 0.74의 부모 일치 정확도를 달성했습니다.",
+   "impact": "이 접근 방식은 보안 팀과 기술 사용자가 모델 가중치에 직접 접근하지 않고도 외우주 미세 조주을 감사하고, 라이선스 준수를 확인하며, 취약성을 추적하는 데 도움을 줄 수 있습니다. 개발자는 이러한 검증 기술을 활용하여 파생 모델에 대한 신뢰할 수 있는 계보를 확립할 수 있습니다.",
+   "keyPoints": [
+    "미세 조정된 LLM 파생 모델의 출처는 현재 검증할 수 없는 자체 보고에 의존합니다.",
+    "TRACE-Edge는 교사 강제 로그 우도를 통한 그레이박스 접근을 사용하여 방향성 모델 계보를 재구성합니다.",
+    "이 방법은 비대칭 태스크별 로그 우도 편차를 이용하여 최대 신장 방향 트리를 해결합니다.",
+    "TRACE-Edge는 평가에서 0.74의 부모 일치 정확도를 달성했습니다."
+   ]
+  }
+ }
+}

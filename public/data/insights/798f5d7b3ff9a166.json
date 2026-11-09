@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "798f5d7b3ff9a166",
+ "contentHash": "6d863d44b6c88dd3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:47:18.728Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Do not build login screens anymore - n3r OIDC",
+   "summary": "NAVER released a session from the 10th NAVER Engineering Day introducing n3r OIDC, which extends n3r.iam as an OIDC Provider to add n3r login to any service. The presentation covers how to integrate login flows, handle project and role information within standard tokens, and the architectural decisions behind it. This solution addresses the repetitive task of building login screens for every new app by utilizing existing accounts and permissions.",
+   "impact": "Developers building apps on n3r can avoid repeatedly implementing login screens and standard authorization workflows. Engineering teams interested in extending standard OIDC with custom permission systems may find the architectural decisions useful.",
+   "keyPoints": [
+    "n3r.iam was expanded into an OIDC Provider to enable login with n3r accounts.",
+    "Project, role, and group information are embedded directly into standard tokens.",
+    "Access tokens obtained from login can be used to call n3r APIs and handle authorization."
+   ]
+  },
+  "km": {
+   "title": "កុំបង្កើតអេក្រង់ចូលគណនីទៀតអី - n3r OIDC",
+   "summary": "NAVER បានបង្ហាញវគ្គមួយពីកម្មវិធី NAVER Engineering Day lần thứ 10 ដែលណែនាំអំពី n3r OIDC ដើម្បីពង្រីក n3r.iam ជា OIDC Provider ។ ការបង្ហាញនេះពន្យល់ពីរបៀបបន្ថែមការចូលគណនី n3r ទៅកាន់សេវាកម្មណាមួយ និងការសម្រេចចិត្តលើការរចនាស្តង់ដារតូខិន។",
+   "impact": "អ្នកអភិវឌ្ឍន៍អាចជៀសវាងការបង្កើតអេក្រង់ចូលគណនីម្តងហើយម្តងទៀតសម្រាប់កម្មវិធីនីមួយៗ និងអាចប្រើប្រាស់សិទ្ធិដែលមានស្រាប់នៅលើ n3r ។",
+   "keyPoints": [
+    "ពង្រីក n3r.iam ទៅជា OIDC Provider ដើម្បីភ្ជាប់គណនី n3r ។",
+    "បញ្ចូលព័ត៌មាន project, role និង group ទៅក្នុងស្តង់ដារ token ។",
+    "ប្រើប្រាស់ Access Token ដើម្បីហៅ n3r API និងគ្រប់គ្រងសិទ្ធិ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "不要再制作登录界面了 - n3r OIDC",
+   "summary": "NAVER 公开了第 10 届 NAVER Engineering Day 上的一个演讲，介绍了 n3r OIDC，它将 n3r.iam 扩展为 OIDC Provider，以便在任何服务中加入 n3r 账号登录功能。该演讲分享了将项目和角色信息纳入标准令牌的设计决定，以及具体的登录流程应用方法。该方案旨在避免每次启动新应用时重复制作登录界面的繁琐工作。",
+   "impact": "在 n3r 上构建应用的开发者可以免去重复实现登录界面的麻烦，并利用标准 OIDC 结合自定义权限体系。这对于对身份验证和授权设计感兴趣的工程师具有参考价值。",
+   "keyPoints": [
+    "将 n3r.iam 扩展为 OIDC Provider 以支持 n3r 账号登录。",
+    "将用户的项目、角色和群组信息包含在标准令牌中。",
+    "使用登录获取的 Access Token 调用 n3r API 并进行鉴权。"
+   ]
+  },
+  "ko": {
+   "title": "로그인 화면, 이제 만들지 마세요 - n3r OIDC",
+   "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th에서 발표된 n3r OIDC 세션이 공개되었습니다. n3r.iam을 OIDC Provider로 확장하여 어떤 서비스에든 n3r 계정 로그인을 연동하는 방법과 표준 토큰에 프로젝트 및 역할 정보를 담아낸 설계 결정을 소개합니다. 앱을 띄울 때마다 반복되던 로그인 화면 구현 문제를 해결하고 기존 계정과 권한을 활용하는 방안을 다룹니다.",
+   "impact": "n3r 앱에 사내 로그인과 권한 연동을 고려하는 개발자는 반복적인 로그인 화면 구현을 피할 수 있습니다. 표준 OIDC 위에 자체 권한 체계를 얹는 설계에 관심 있는 엔지니어에게 유용한 참고 사례가 될 수 있습니다.",
+   "keyPoints": [
+    "n3r.iam을 OIDC Provider로 확장하여 n3r 계정으로 로그인 기능 제공",
+    "사용자의 project, role, group 정보를 표준 토큰에 포함",
+    "Access Token을 이용한 n3r API 호출 및 토큰 role을 통한 인가 처리"
+   ]
+  }
+ }
+}

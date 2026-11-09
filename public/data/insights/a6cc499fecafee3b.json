@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a6cc499fecafee3b",
+ "contentHash": "3dfea3310450daee",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:49:31.059Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
+   "summary": "Researchers introduce Energy-Based Reasoners (EBRs), which learn an energy function over latent reasoning states and formulate looped updates as gradient descent on this energy. This approach uses the energy score to guide refinement and provide a stopping signal. To train EBRs effectively, an exploration-based training method is introduced to discover additional modes and shape the energy landscape.",
+   "impact": "This approach could help developers and researchers achieve stronger reasoning performance and efficiency in recurrent models. It may reduce inference compute requirements while maintaining high accuracy and multi-solution coverage.",
+   "keyPoints": [
+    "EBRs formulate looped updates as gradient descent on an energy function over latent reasoning states.",
+    "Exploration-based training is used to discover additional modes and shape the energy landscape.",
+    "EBRs achieved 99.9% accuracy on Sudoku-Extreme using 345 times less inference compute than the next-best model.",
+    "They achieve state-of-the-art coverage of distinct valid solutions on all multi-solution benchmarks."
+   ]
+  },
+  "km": {
+   "title": "អ្នកហេតុផលផ្អែកលើថាមពល៖ អ្នកហេតុផលខួបរបស់អ្នកគួរតែជាម៉ូដែលផ្អែកលើថាមពល",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ Energy-Based Reasoners (EBRs) ដែលសិក្សា פונកស្យុងថាមពលលើស្ថានភាពហេតុផលអសកម្ម និងបង្កើតការអាប់ដេតខួបជាការធ្លាក់ចុះជម្រាលលើថាមពលនេះ។ វិធីសាស្ត្រនេះប្រើពិន្ទុថាមពលដើម្បីណែនាំការកែលម្អ និងផ្តល់សញ្ញាសម្រាប់បញ្ឈប់។ ដើម្បីបណ្តុះបណ្តាល EBRs ប្រកបដោយប្រសិទ្ធភាព ការបណ្តុះបណ្តាលផ្អែកលើការរុករកត្រូវបានណែនាំដើម្បីស្វែងរករបៀបបន្ថែម។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវសម្រេចបាននូវដំណើរការហេតុផល និងប្រសិទ្ធភាពកាន់តែខ្លាំងនៅក្នុងម៉ូដែលខួប។ វាអាចកាត់បន្ថយតម្រូវការគណនាក្នុងការសន្និដ្ឋាន ខណៈពេលដែលរក្សាបាននូវភាពត្រឹមត្រូវខ្ពស់។",
+   "keyPoints": [
+    "EBRs បង្កើតការអាប់ដេតខួបជាការធ្លាក់ចុះជម្រាលលើមុខងារថាមពល។",
+    "ការបណ្តុះបណ្តាលផ្អែកលើការរុករកត្រូវបានប្រើដើម្បីស្វែងរករបៀបបន្ថែម។",
+    "EBRs សម្រេចបានភាពត្រឹមត្រូវ 99.9% លើ Sudoku-Extreme ដោយប្រើកុំព្យូទ័រសន្និដ្ឋានតិចជាង 345 ដង។",
+    "ពួកវាសម្រេចបាននូវការគ្របដណ្តប់ដ៏ទំនើបនៃដំណោះស្រាយត្រឹមត្រូវផ្សេងៗគ្នា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "基于能量的推理器：你的循环推理器应当是一个基于能量的模型",
+   "summary": "研究人员介绍了基于能量的推理器（EBRs），它在潜在推理状态上学习能量函数，并将循环更新表述为对该能量的梯度下降。这种方法利用能量分数来指导细化并提供停止信号。为了有效训练EBRs，研究人员进一步引入了基于探索的训练，以发现更多模式并塑造更广泛状态下的能量地形。",
+   "impact": "这种方法可以帮助开发人员和研究人员在循环模型中实现更强的推理性能和效率。它可能会在保持高准确率的同时减少推理计算需求。",
+   "keyPoints": [
+    "EBRs将循环更新表述为潜在推理状态能量函数上的梯度下降。",
+    "引入了基于探索的训练来发现额外的模式并塑造能量地形。",
+    "EBRs在Sudoku-Extreme上达到了99.9%的准确率，推理计算量比次佳模型减少了345倍。",
+    "它们在所有多解基准测试中实现了对不同有效解的先进覆盖率。"
+   ]
+  },
+  "ko": {
+   "title": "에너지 기반 추론기: 순환 추론기는 에너지 기반 모델이어야 합니다",
+   "summary": "연구원들은 잠재적 추론 상태에 대한 에너지 함수를 학습하고 순환 업데이트를 이 에너지에 대한 경사 하강법으로 공식화하는 에너지 기반 추론기(EBRs)를 소개합니다. 이 접근 방식은 에너지 점수를 사용하여 개선을 유도하고 중단 신호를 제공합니다. EBRs를 효과적으로 학습시키기 위해 탐색 기반 학습이 도입되어 추가 모드를 발견합니다.",
+   "impact": "이 접근 방식은 개발자와 연구자들이 순환 모델에서 더 강력한 추론 성능과 효율성을 달성하는 데 도움이 될 수 있습니다. 높은 정확도를 유지하면서 추론 연산 요구량을 줄일 수 있습니다.",
+   "keyPoints": [
+    "EBRs는 잠재적 추론 상태의 에너지 함수에 대한 경사 하강법으로 순환 업데이트를 공식화합니다.",
+    "추가 모드를 발견하고 에너지 랜드스케이프를 형성하기 위해 탐색 기반 학습이 도입되었습니다.",
+    "EBRs는 차선책 모델보다 345배 적은 추론 연산을 사용하면서 Sudoku-Extreme에서 99.9%의 정확도를 달성했습니다.",
+    "모든 다중 솔루션 벤치마크에서 서로 다른 유효한 솔루션에 대한 최첨단 커버리지를 달성합니다."
+   ]
+  }
+ }
+}

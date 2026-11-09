@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7c3ed8c6cbfb8e09",
+ "contentHash": "7d8590d416bd5994",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:49:54.490Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Phantom Consensus: Measuring Social Reasoning in Multi-Agent LLM Decision-Making",
+   "summary": "Researchers have studied a phenomenon called phantom consensus in multi-agent LLM systems, where models shift their public decisions after observing ambiguous social signals while inaccurately estimating what other agents privately judged. To measure this, they introduced PHANTOM-Bench, a benchmark designed to separate private judgments, public decisions, and elicited group estimates across nine closed- and open-weight models. The results show that ambiguous public signals can degrade decision quality, drop public accuracy by up to 47.8 percentage points, and turn correct private group judgments into incorrect public outcomes. Revealing recorded private decisions helped repair many of these failures, demonstrating that multi-agent evaluation must look beyond final agreement.",
+   "impact": "This research matters for developers and security teams building multi-agent LLM systems because it highlights how social pressure from ambiguous signals can severely distort collective decision-making. Developers may need to incorporate transparency mechanisms, such as revealing recorded private decisions, to prevent cascade failures and ensure collective rationality in agent collectives.",
+   "keyPoints": [
+    "Phantom consensus occurs when LLMs shift public decisions after ambiguous social signals and inaccurately estimate others' private judgments.",
+    "The new PHANTOM-Bench benchmark measures isolated private judgments, public decisions, and group estimates across nine models.",
+    "Ambiguous public signals reduced public accuracy by up to 47.8 percentage points and caused collective rationality failures to reach 47.3%.",
+    "Revealing recorded private decisions repaired many failures without needing to reveal the gold label."
+   ]
+  },
+  "km": {
+   "title": "Phantom Consensus: Measuring Social Reasoning in Multi-Agent LLM Decision-Making",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាអំពីបាតុភូតមួយដែលហៅថា phantom consensus នៅក្នុងប្រព័ន្ធ LLM ភ្នាក់ងារច្រើន ដែលជាកន្លែងដែលម៉ូដែលផ្លាស់ប្តូរការសម្រេចចិត្តជាសាធារណៈរបស់ពួកគេបន្ទាប់ពីសង្កេតឃើញសញ្ញាសង្គមមិនច្បាស់លាស់។ ដើម្បីវាស់វែងបញ្ហានេះ ពួកគេបានណែនាំ PHANTOM-Bench ដែលជាស្តង់ដារវាយតម្លៃមួយដើម្បីបែងចែកការវិនិច្ឆ័យឯកជន ការសម្រេចចិត្តសាធារណៈ និងការប៉ាន់ស្មានជាក្រុម។ លទ្ធផលបានបង្ហាញថាសញ្ញាសសាធារណៈដែលមិនច្បាស់លាស់អាចកាត់បន្ថយគុណភាពនៃការសម្រេចចិត្ត និងធ្វើឱ្យភាពត្រឹមត្រូវធ្លាក់ចុះរហូតដល់ 47.8 ភាគរយ។ ការបង្ហាញការសម្រេចចិត្តឯកជនដែលបានកត់ត្រាទុកអាចជួយជួសជុលការបរាជ័យទាំងនេះជាច្រើនផងដែរ។",
+   "impact": "ការស្រាវជ្រាវនេះមានសារៈសំខាន់សម្រាប់អ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខដែលបង្កើតប្រព័ន្ធ LLM ភ្នាក់ងារច្រើន ព្រោះវាបង្ហាញពីរបៀបដែលសញ្ញាមិនច្បាស់លាស់អាចបំភ្លៃការសម្រេចចិត្តជាក្រុម។ អ្នកអភិវឌ្ឍន៍ប្រហែលជាត្រូវបញ្ចូលយន្តការតម្លាភាព ដើម្បីការពារការបរាជ័យនៃការសម្រេចចិត្តរួមគ្នា។",
+   "keyPoints": [
+    "Phantom consensus កើតឡើងនៅពេលដែល LLMs ផ្លាស់ប្តូរការសម្រេចចិត្តជាសាធារណៈបន្ទាប់ពីសញ្ញាសង្គមមិនច្បាស់លាស់។",
+    "PHANTOM-Bench ត្រូវបានបង្កើតឡើងដើម្បីវាស់វែងការវិនិច្ឆ័យឯកជន និងការសម្រេចចិត្តសាធារណៈនៅលើម៉ូដែលចំនួនប្រាំបួន។",
+    "សញ្ញាសាធារណៈមិនច្បាស់លាស់បានកាត់បន្ថយភាពត្រឹមត្រូវរហូតដល់ 47.8 ភាគរយ។",
+    "ការបង្ហាញការសម្រេចចិត្តឯកជនដែលបានកត់ត្រាទុកបានជួយជួសជុលការបរាជ័យជាច្រើន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Phantom Consensus: Measuring Social Reasoning in Multi-Agent LLM Decision-Making",
+   "summary": "研究人员在多智能体大语言模型系统中研究了一种名为虚幻共识的现象，即模型在观察到模棱两可的社会信号后改变其公开决策，同时对其他智能体的私下判断做出不准确的估计。为了衡量这一现象，他们推出了PHANTOM-Bench基准测试，用于分离私下判断、公开决策和群体估计。结果表明，模棱两可的公开信号会降低决策质量，使公开准确率下降多达47.8个百分点。公开记录的私下决定有助于修复许多此类故障，这表明多智能体评估需要超越最终的一致性。",
+   "impact": "这项研究对构建多智能体大语言模型系统的开发者和安全团队很重要，因为它强调了模糊信号产生的社会压力如何严重扭曲集体决策。开发者可能需要加入透明度机制，例如公开记录的私下决策，以防止连锁故障并确保集体理性。",
+   "keyPoints": [
+    "当大语言模型在观察到模棱两可的社会信号后改变公开决策时，就会发生虚幻共识。",
+    "全新的PHANTOM-Bench基准测试在九个闭源和开源模型中测量私下判断和公开决策。",
+    "模棱两可的公开信号使公开准确率下降了多达47.8个百分点。",
+    "披露记录的私下决定在无需透露标准答案的情况下修复了许多故障。"
+   ]
+  },
+  "ko": {
+   "title": "Phantom Consensus: Measuring Social Reasoning in Multi-Agent LLM Decision-Making",
+   "summary": "연구자들은 다중 에이전트 LLM 시스템에서 모델이 모호한 사회적 신호를 관찰한 후 공개 결정을 변경하고 다른 에이전트의 사적 판단을 부정확하게 추정하는 환상적 합의 현상을 연구했습니다. 이를 측정하기 위해 사적 판단, 공개 결정, 집단 추정을 분리하도록 설계된 벤치마크인 PHANTOM-Bench를 도입했습니다. 결과에 따르면 모호한 공개 신호는 결정 품질을 저하시키고 공개 정확도를 최대 47.8퍼센트 포인트까지 떨어뜨릴 수 있는 것으로 나타났습니다. 기록된 사적 결정을 공개하면 이러한 실패 중 많은 부분을 복구하는 데 도움이 되었습니다.",
+   "impact": "이 연구는 다중 에이전트 LLM 시스템을 구축하는 개발자와 보안 팀에게 중요합니다. 모호한 신호로 인한 사회적 압력이 집단적 의사결정을 심각하게 왜곡할 수 있음을 보여주기 때문입니다. 개발자는 연쇄 실패를 방지하고 집단적 합리성을 보장하기 위해 투명성 메커니즘을 통합해야 할 수 있습니다.",
+   "keyPoints": [
+    "환상적 합의는 LLM이 모호한 사회적 신호 이후 공개 결정을 바꿀 때 발생합니다.",
+    "새로운 PHANTOM-Bench 벤치마크는 9개의 모델에서 사적 판단과 공개 결정을 측정합니다.",
+    "모호한 공개 신호는 공개 정확도를 최대 47.8퍼센트 포인트까지 떨어뜨렸습니다.",
+    "기록된 사적 결정을 공개하면 정답을 밝히지 않고도 많은 실패를 복구할 수 있었습니다."
+   ]
+  }
+ }
+}

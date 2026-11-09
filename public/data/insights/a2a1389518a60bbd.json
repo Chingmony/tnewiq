@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a2a1389518a60bbd",
+ "contentHash": "3db7b8bfa6090b3f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:51:20.203Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Composable Causality: A Toolkit for Systematic Time-Series Causal Discovery and Treatment-Effect Benchmarking",
+   "summary": "Researchers introduced DTCD (Datasets and Toolkit for Causal Discovery), a data generation library that produces multivariate time series with ground-truth contemporaneous and lagged adjacency matrices. The library allows topology, mechanism, noise, observational mask, and intervention policy to be independent components configured separately. It also produces paired counterfactual twins to recover individual treatment effects to numerical precision.",
+   "impact": "This toolkit could help developers and researchers evaluate time-series causal discovery and treatment-effect estimators more systematically. It may expose failure modes in existing algorithms that aggregate metrics typically hide.",
+   "keyPoints": [
+    "DTCD is a data generation library for multivariate time series with ground-truth adjacency matrices.",
+    "Components like topology, mechanism, noise, and intervention policies are independent and configuration-based.",
+    "Paired counterfactual twins recover individual treatment effects to numerical precision."
+   ]
+  },
+  "km": {
+   "title": "ការសិក្សាមូលហេតុដែលអាចផ្សំគ្នាបាន៖ ឧបករណ៍សម្រាប់ស្វែងរកមូលហេតុស៊េរីពេលវេលា និងការវាយតម្លៃប្រសិទ្ធភាពការព្យាបាល",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ DTCD ដែលជាបណ្ណាល័យបង្កើតទិន្នន័យសម្រាប់ស៊េរីពេលវេលាពហុអថេរជាមួយម៉ាទ្រីសជិតខាង។ បណ្ណាល័យនេះអនុញ្ញាតឱ្យរចនាសម្ព័ន្ធ មេកានិច សំឡេងរំខាន និងគោលនយោបាយអន្តរាគមន៍ក្លាយជាសមាសភាគឯករាជ្យ។ វាក៏បង្កើតគូកاونតាហ្វាកស៊ូសដើម្បីយកមកវិញនូវប្រសិទ្ធភាពការព្យាបាលបុគ្គលផងដែរ។",
+   "impact": "ឧបករណ៍នេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវវាយតម្លៃការស្វែងរកមូលហេតុស៊េរីពេលវេលា និងការប៉ាន់ស្មានប្រសិទ្ធភាពការព្យាបាលបានយ៉ាងល្អប្រសើរ។ វាអាចបង្ហាញពីចំណុចខ្សោយនៅក្នុងក្បួនដោះស្រាយដែលមានស្រាប់ដែលរង្វាស់សរុបมักលាក់បាំង។",
+   "keyPoints": [
+    "DTCD គឺជាបណ្ណាល័យបង្កើតទិន្នន័យសម្រាប់ស៊េរីពេលវេលាពហុអថេរ។",
+    "សមាសភាគដូចជារចនាសម្ព័ន្ធ មេកានិច និងសំឡេងរំខានគឺឯករាជ្យពីគ្នា។",
+    "វាបង្កើតគូកاونតាហ្វាកស៊ូសដើម្បីយកមកវិញនូវប្រសិទ្ធភាពការព្យាបាលបុគ្គល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "可组合因果关系：用于系统性时间序列因果发现和处理效应基准测试的工具包",
+   "summary": "研究人员引入了 DTCD（因果发现数据集与工具包），这是一个数据生成库，可生成具有真实同时和滞后邻接矩阵的多变量时间序列。该库允许拓扑、机制、噪声、观测掩码和干预策略作为独立组件仅通过配置进行组合。通过缓存在实际运行期间的随机实现并在干预运行期间重新注入，产生配对的反事实孪生子，从而以数值精度恢复个体处理效应。",
+   "impact": "该工具包可以帮助开发人员和研究人员更系统地评估时间序列因果发现和处理效应估计器。它可能会暴露聚合指标所掩盖的现有算法的失效模式。",
+   "keyPoints": [
+    "DTCD 是一个用于生成具有真实邻接矩阵的多变量时间序列的数据生成库。",
+    "拓扑、机制、噪声和干预策略等组件是独立的并通过配置组合。",
+    "通过配对反事实孪生子以数值精度恢复个体处理效应。"
+   ]
+  },
+  "ko": {
+   "title": "조합 가능한 인과관계: 체계적인 시계열 인과 발견 및 치료 효과 벤치마킹을 위한 툴킷",
+   "summary": "연구진은 진실된 동시 및 지연 인접 행렬을 갖춘 다변량 시계열을 생성하는 데이터 생성 라이브러리인 DTCD(Datasets and Toolkit for Causal Discovery)를 소개했다. 이 라이브러리는 토폴로지, 메커니즘, 노이즈, 관측 마스크 및 개입 정책을 구성만으로 결합되는 독립적인 구성 요소로 만든다. 실제 실행 중 확률적 실현을 캐싱하고 개입 실행 중 다시 주입하여 생성된 쌍을 이루는 반사실적 트윈은 개별 치료 효과를 수치적 정밀도로 복원한다.",
+   "impact": "이 툴킷은 개발자와 연구자들이 시계열 인과 발견 및 치료 효과 추정기를 더 체계적으로 평가하는 데 도움을 줄 수 있다. 종합 지표가 숨기는 기존 알고리즘의 실패 모드를 드러낼 수 있다.",
+   "keyPoints": [
+    "DTCD는 진실된 인접 행렬을 가진 다변량 시계열을 위한 데이터 생성 라이브러리이다.",
+    "토폴로지, 메커니즘, 노이즈, 개입 정책 등은 구성 기반의 독립된 구성 요소이다.",
+    "쌍을 이루는 반사실적 트윈을 통해 개별 치료 효과를 수치적 정밀도로 복원한다."
+   ]
+  }
+ }
+}

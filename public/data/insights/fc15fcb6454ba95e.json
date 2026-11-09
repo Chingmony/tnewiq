@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fc15fcb6454ba95e",
+ "contentHash": "f46149509a9cf892",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:53:53.461Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "What Matters for LLM Persona Simulation: Signal Form in Cold-Start E-Commerce Advertising",
+   "summary": "Researchers studied how large language models simulate persona-conditioned user responses for cold-start e-commerce advertising where historical logs are missing. By using real Google Ads data across five demographic segments, they identified three signal-form dimensions affecting simulation quality: demographic anchors without noisy rich attributes, relative qualitative banner-blindness signals instead of quantitative anchors, and prompt phrasing. Their proposed method achieved a lower mean absolute error and mean absolute percentage error compared to tested non-LLM and alternative LLM configurations.",
+   "impact": "This research could help developers and advertising teams improve how large language models simulate user responses in cold-start scenarios. By focusing on minimal demographic descriptions and relative qualitative cues rather than quantitative anchors, practitioners may achieve more accurate advertising performance estimates.",
+   "keyPoints": [
+    "Evaluated LLM persona simulation using real Google Ads e-commerce campaign data across five demographic segments.",
+    "Identified three key signal-form dimensions: demographic anchors, relative qualitative signals, and prompt phrasing.",
+    "Demonstrated lower MAE and MAPE compared to non-LLM baselines and LLM configurations using explicit CTR anchors."
+   ]
+  },
+  "km": {
+   "title": "សារៈសំខាន់សម្រាប់ការក្លែងធ្វើបុគ្គលិកលក្ខណៈ LLM៖ ទម្រង់សញ្ញាក្នុងការផ្សាយពាណិជ្ជកម្មពាណិជ្ជកម្មអេឡិចត្រូនិចចាប់ផ្តើមដំបូង",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាពីរបៀបដែលម៉ូដែលភាសាខ្នាតធំក្លែងធ្វើការឆ្លើយតបរបស់អ្នកប្រើប្រាស់ដែលកំណត់ដោយបុគ្គលិកលក្ខណៈសម្រាប់ការផ្សាយពាណិជ្ជកម្មពាណិជ្ជកម្មអេឡិចត្រូនិចចាប់ផ្តើមដំបូងដែលគ្មានកំណត់ហេតុប្រវត្តិសាស្ត្រ។ តាមរយៈការប្រើប្រាស់ទិន្នន័យ Google Ads ពិតប្រាកដនៅលើផ្នែកប្រជាសាស្ត្រចំនួនប្រាំ ពួកគេបានកំណត់ទំហំទម្រង់សញ្ញាចំនួនបីដែលប៉ះពាល់ដល់គុណភាពនៃការក្លែងធ្វើ។ វិធីសាស្ត្ររបស់ពួកគេសម្រេចបាននូវកំហុសដាច់ខាតមធ្យមទាបជាងបើប្រៀបធៀបទៅនឹងមូលដ្ឋានដែលមិនមែនជា LLM និងការកំណត់រចនាសម្ព័ន្ធ LLM ផ្សេងទៀត។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមផ្សាយពាណិជ្ជកម្មកែលម្អរបៀបដែលម៉ូដែលភាសាខ្នាតធំក្លែងធ្វើការឆ្លើយតបរបស់អ្នកប្រើប្រាស់ក្នុងស្ថានភាពចាប់ផ្តើមដំបូង។ ការផ្តោតលើការពិពណ៌នាប្រជាសាស្ត្រតិចតួចអាចជួយឱ្យអ្នកអនុវត្តទទួលបានការប៉ាន់ស្មានការអនុវត្តការផ្សាយពាណិជ្ជកម្មកាន់តែត្រឹមត្រូវ។",
+   "keyPoints": [
+    "បានវាយតម្លៃការក្លែងធ្វើបុគ្គលិកលក្ខណៈ LLM ដោយប្រើទិន្នន័យយុទ្ធនាការ Google Ads ពិតប្រាកដ។",
+    "បានកំណត់ទំហំទម្រង់សញ្ញាសំខាន់ៗចំនួនបីគឺយុថ្កាប្រជាសាស្ត្រ សញ្ញាគុណភាព σχετικός និងការប្រើប្រាស់ប្រអប់បញ្ចូល។",
+    "បានបង្ហាញកំហុស MAE និង MAPE ទាបជាងបើធៀបនឹងមូលដ្ឋានដែលមិនមែនជា LLM។"
+   ]
+  },
+  "zh-CN": {
+   "title": "LLM角色模拟的关键要素：冷启动电商广告中的信号形式",
+   "summary": "研究人员研究了大型语言模型如何在缺乏历史日志的冷启动广告场景中模拟受角色条件限制的用户响应。通过使用五个不同人口统计细分领域的真实Google Ads电商广告数据，他们确定了影响模拟质量的三个信号形式维度：没有嘈杂丰富属性的人口统计锚点、相对定性而非定量的横幅盲点信号，以及提示词措辞。与测试过的非LLM基线和其他LLM配置相比，他们的方法实现了更低的平均绝对误差。",
+   "impact": "这项研究可以帮助开发人员和广告团队改进大型语言模型在冷启动场景下模拟用户响应的方式。通过关注极简人口统计描述和相对定性线索而非定量锚点，从业者或许能够获得更准确的广告效果估计。",
+   "keyPoints": [
+    "跨五个受众群体使用真实Google Ads电商活动数据评估了LLM角色模拟。",
+    "确定了三个关键的信号形式维度：人口统计锚点、相对定性信号以及提示词措辞。",
+    "相比非LLM基线和使用显式CTR锚点的LLM配置，实现了更低的MAE和MAPE。"
+   ]
+  },
+  "ko": {
+   "title": "LLM 페르소나 시뮬레이션의 중요 요소: 콜드스타트 이커머스 광고에서의 신호 형식",
+   "summary": "연구진은 과거 로그가 없는 콜드스타트 환경에서 대형 언어 모델이 페르소나 조건부 사용자 반응을 시뮬레이션하는 방법을 연구했습니다. 다섯 가지 인구통계학적 세그먼트의 실제 Google Ads 이커머스 캠페인 데이터를 사용하여 시뮬레이션 품질에 영향을 미치는 세 가지 신호 형식 차원을 파악했습니다. 이들의 제안된 방법은 테스트된 비LLM 기준선 및 대안적 LLM 구성에 비해 더 낮은 평균 절대 오차를 달성했습니다.",
+   "impact": "이번 연구는 개발자와 광고 팀이 콜드스타트 시나리오에서 대형 언어 모델이 사용자 반응을 시뮬레이션하는 방식을 개선하는 데 도움을 줄 수 있습니다. 최소한의 인구통계학적 설명과 정량적 앵커 대신 상대적 정성적 단서에 집중함으로써 실무자들이 더 정확한 광고 성과 추정치를 얻을 수 있습니다.",
+   "keyPoints": [
+    "다섯 가지 인구통계 세그먼트의 실제 Google Ads 이커머스 캠페인 데이터를 사용하여 LLM 페르소나 시뮬레이션을 평가함.",
+    "인구통계 앵커, 상대적 정성적 신호, 프롬프트 구문이라는 세 가지 주요 신호 형식 차원을 식별함.",
+    "비LLM 기준선 및 명시적 CTR 앵커를 사용한 LLM 구성에 비해 더 낮은 MAE와 MAPE를 달성함."
+   ]
+  }
+ }
+}

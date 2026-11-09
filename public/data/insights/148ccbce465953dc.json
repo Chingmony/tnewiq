@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "148ccbce465953dc",
+ "contentHash": "e3bcbbcb646757c9",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:53:42.521Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards",
+   "summary": "Researchers have introduced STRIDE, a method that allows humanoid robots to learn locomotion directly from minutes of samples using a reward based solely on onboard IMU data. Instead of tracking base velocity, which typically requires external systems or calibration, STRIDE rewards the robot for following a commanded acceleration profile. Combined with the off-policy RL algorithm XQC, high gain joint controllers, and left-right symmetry augmentation, the method enables simulation training in just 14 minutes. This approach also reduces training falls by 81% compared to learning without these components.",
+   "impact": "This technique could help developers overcome the sim-to-real gap and reduce training time and hardware wear during humanoid robot locomotion learning. Security teams and technology users are not directly impacted by this research.",
+   "keyPoints": [
+    "STRIDE learns humanoid locomotion using only onboard IMU data instead of tracking base velocity.",
+    "The method uses the XQC off-policy RL algorithm alongside high gain joint controllers and symmetry augmentation.",
+    "It successfully learns to walk on Unitree G1 and Booster T1 humanoids within 14 minutes of samples in simulation.",
+    "Training falls are reduced by 81% compared to configurations without the specified components."
+   ]
+  },
+  "km": {
+   "title": "STRIDE៖ ការសិក្សាការធ្វើចលនារបស់មនុស្សយន្តក្នុងរយៈពេលប៉ុន្មាននាទីដោយប្រើប្រាស់រង្វាន់ផ្អែកលើល្បឿនស្ទុះ",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំវិធីសាស្ត្រ STRIDE ដែលអនុញ្ញាតឱ្យមនុស្សយន្តរៀនធ្វើចលនាដោយផ្ទាល់ក្នុងរយៈពេលប៉ុន្មាននាទី ដោយប្រើប្រាស់រង្វាន់ដែលត្រូវការត្រឹមតែឧបករណ៍វាស់រវាងចលនា IMU ដែលមានស្រាប់នៅលើមនុស្សយន្តប៉ុណ្ណោះ។ ជំនួសឱ្យការតាមដានល្បឿនមូលដ្ឋាន STRIDE ផ្តល់រង្វាន់ដល់មនុស្សយន្តសម្រាប់ការដើរតាមទម្រង់ល្បឿនស្ទុះដែលបានបញ្ជា។ វិធីសាស្ត្រនេះជួយឱ្យមនុស្សយន្តអាចរៀនដើរលើ Unitree G1 និង Booster T1 ក្នុងរយៈពេល ១៤ នាទីនៃការក្លែងធ្វើ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍កាត់បន្ថយពេលវេលាសិក្សា និងការខូចខាតផ្នែករឹងពេលកំពុងហ្វឹកហាត់ការធ្វើចលនារបស់មនុស្សយន្ត។",
+   "keyPoints": [
+    "STRIDE រៀនធ្វើចលនាដោយប្រើប្រាស់ទិន្នន័យពី IMU ដែលមានស្រាប់នៅលើមនុស្សយន្ត។",
+    "វាប្រើប្រាស់ក្បួនដោះស្រាយ XQC រួមជាមួយនឹងការគ្រប់គ្រងសន្លាក់កម្រិតខ្ពស់។",
+    "វាអាចរៀនដើរលើមនុស្សយន្ត Unitree G1 និង Booster T1 ក្នុងរយៈពេល ១៤ នាទី។"
+   ]
+  },
+  "zh-CN": {
+   "title": "STRIDE：通过基于加速度的奖励在几分钟内学习人形机器人运动",
+   "summary": "研究人员推出了STRIDE方法，该方法仅使用机载惯性测量单元（IMU）的数据，就能让双足人形机器人在几分钟的样本中学会运动。STRIDE不采用通常需要外部系统的基座速度追踪，而是通过奖励机器人跟随指令加速度曲线来实现学习。结合XQC算法、高增益关节控制器以及左右对称增强，该方法能够在仿真中于14分钟的样本内学会行走。与没有这些组件的学习方式相比，它将训练期间的跌倒次数减少了81%。",
+   "impact": "这项技术可能有助于开发者克服仿真到现实的差距，并减少人形机器人在运动学习过程中的训练时间和硬件磨损。",
+   "keyPoints": [
+    "STRIDE利用机载IMU数据学习人形机器人运动，无需外部动作捕捉系统。",
+    "该方法结合了XQC强化学习算法、高增益关节控制器和左右对称数据增强。",
+    "在仿真中，它在14分钟的样本内让Unitree G1和Booster T1人形机器人学会了行走。",
+    "相比不使用这些组件，它将训练过程中的跌倒次数减少了81%。"
+   ]
+  },
+  "ko": {
+   "title": "STRIDE: 가속도 기반 보상을 통한 수 분 만의 휴머노이드 보행 학습",
+   "summary": "연구진은 탑재된 IMU 데이터만을 필요로 하는 보상을 사용하여 수 분 만의 샘플로 휴머노이드 보행을 학습할 수 있는 STRIDE 방법을 소개했습니다. 기준 속도를 추적하는 대신 명령받은 가속도 프로파일을 따르도록 로봇에 보상을 부여하여 외부 모션 캡처 시스템 없이도 학습이 가능합니다. 오프폴리시 RL 알고리즘인 XQC, 고게인 관절 제어기, 좌우 대칭 증강을 결합하여 시뮬레이션에서 14분 만에 Unitree G1 및 Booster T1 휴머노이드의 보행 학습을 완료합니다. 이를 통해 학습 중 발생하는 낙상을 81% 줄였다고 보고합니다.",
+   "impact": "이 기술은 개발자들이 시뮬레이션-현실 간의 격차를 극복하고 휴머노이드 로봇 보행 학습 시 훈련 시간과 하드웨어 마모를 줄이는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "STRIDE는 외부 시스템 없이 탑재된 IMU 데이터만을 활용하여 휴머노이드 보행을 학습합니다.",
+    "XQC 오프폴리시 RL 알고리즘과 고게인 관절 제어기 및 좌우 대칭 증강을 결합했습니다.",
+    "시뮬레이션 환경에서 Unitree G1과 Booster T1 휴머노이드가 14분 만에 걷는 법을 학습합니다.",
+    "관련 구성 요소가 없을 때와 비교하여 훈련 중 낙상을 81% 감소시킵니다."
+   ]
+  }
+ }
+}

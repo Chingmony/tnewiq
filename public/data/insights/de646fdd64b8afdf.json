@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "de646fdd64b8afdf",
+ "contentHash": "090722f09089381c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:50:48.541Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Ordered Policy Optimization",
+   "summary": "Researchers have introduced Ordered Policy Optimization (OPO), a method designed to address limitations in Proximal Policy Optimization (PPO). While standard PPO uses a fixed clipping range for all samples, OPO adapts the clipping radius to the reliability of the importance ratio distribution. In each minibatch, OPO sorts the importance ratios, identifies extreme ratios, and assigns them adaptive sample-wise radii based on a prescribed tail profile.",
+   "impact": "This approach could help developers and researchers achieve stronger performance in reinforcement learning tasks compared to established baselines. By modifying the policy loss and incorporating minibatch sorting, OPO maintains a first-order objective that may improve update stability for models tested on benchmarks like MuJoCo and Atari.",
+   "keyPoints": [
+    "Standard PPO uses a fixed clipping range for all samples, which fails to distinguish harmful extreme ratios from tolerable changes.",
+    "Ordered Policy Optimization (OPO) sorts importance ratios in each minibatch and assigns adaptive sample-wise radii to extreme ratios.",
+    "Adaptive radii are derived from a prescribed tail profile specifying target values for selected extreme ratios.",
+    "Experiments on MuJoCo and Atari benchmarks show strong performance relative to established baselines."
+   ]
+  },
+  "km": {
+   "title": "Ordered Policy Optimization",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំវិធីសាស្ត្រ Ordered Policy Optimization (OPO) ដែលត្រូវបានបង្កើតឡើងដើម្បីដោះស្រាយការកំណត់នៃ Proximal Policy Optimization (PPO)។ ខណៈពេលដែល PPO ស្តង់ដារប្រើប្រាស់រង្វង់កាត់តម្រឹមថេរសម្រាប់សំណាកទាំងអស់ OPO សម្របកាំកាត់តម្រឹមទៅនឹងភាពជឿជាក់នៃការចែកចាយសមាមាត្រសារៈសំខាន់។ នៅក្នុង minibatch នីមួយៗ OPO តម្រៀបសមាមាត្រសារៈសំខាន់ កំណត់អត្តសញ្ញាណសមាមាត្រខ្លាំង និងផ្ដល់កាំគំរូសម្របខ្លួនដោយផ្អែកលើទម្រង់កន្ទុយដែលបានកំណត់។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវសម្រេចបាននូវដំណើរការកាន់តែប្រសើរឡើងក្នុងកិច្ចការសិក្សាពង្រឹង។ តាមរយៈការកែប្រែកំហុសគោលនយោបាយ និងការបញ្ចូលការតម្រៀប minibatch OPO រក្សាគោលដៅលំដាប់ទីមួយដែលស្ែតសម្រួលស្ថេរភាពនៃការអាប់ដេត។",
+   "keyPoints": [
+    "PPO ស្តង់ដារប្រើប្រាស់រង្វង់កាត់តម្រឹមថេរសម្រាប់សំណាកទាំងអស់។",
+    "Ordered Policy Optimization (OPO) តម្រៀបសមាមាត្រសារៈសំខាន់ក្នុង minibatch នីមួយៗ និងផ្ដល់កាំសម្របខ្លួន។",
+    "កាំសម្របខ្លួនត្រូវបានមកពីទម្រង់កន្ទុយដែលបានកំណត់សម្រាប់សមាមាត្រខ្លាំងដែលបានជ្រើសរើស។",
+    "ការពិសោធន៍លើ MuJoCo និង Atari បង្ហាញពីដំណើរការខ្លាំងធៀបនឹងគោលបដិមាដែលមានស្រាប់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Ordered Policy Optimization",
+   "summary": "研究人员推出了有序策略优化（OPO），这是一种旨在解决近端策略优化（PPO）局限性的方法。标准 PPO 为所有样本使用固定的裁剪范围，而 OPO 则根据重要性比率分布的可靠性来调整裁剪半径。在每个小批量中，OPO 对重要性比率进行排序，选出极端比率，并根据预设的尾部配置文件为它们分配自适应的样本级半径。",
+   "impact": "这种方法可以帮助开发人员和研究人员在强化学习任务中获得比现有基线更强的性能。通过修改策略损失并结合小批量排序，OPO 保持了一阶目标，可能有助于改善在 MuJoCo 和 Atari 基准上测试的模型的更新稳定性。",
+   "keyPoints": [
+    "标准 PPO 对所有样本使用固定的裁剪范围，无法区分有害的极端比率和可容忍的变化。",
+    "有序策略优化（OPO）在每个小批量中对重要性比率进行排序，并为极端比率分配自适应半径。",
+    "自适应半径源自指定的尾部配置文件，该文件规定了所选极端比率的目标值。",
+    "在 MuJoCo 和 Atari 基准上进行的实验表明其性能明显优于既定基线。"
+   ]
+  },
+  "ko": {
+   "title": "Ordered Policy Optimization",
+   "summary": "연구원들은 Proximal Policy Optimization (PPO)의 한계를 해결하기 위해 고안된 Ordered Policy Optimization (OPO)을 소개했습니다. 표준 PPO는 모든 샘플에 대해 고정된 클리핑 범위를 사용하는 반면, OPO는 중요도 비율 분포의 신뢰성에 맞춰 클리핑 반경을 조절합니다. OPO는 각 미니배치에서 중요도 비율을 정렬하고 극단적인 비율을 선택하여 고정된 클리핑 반경 대신 적응형 샘플별 반경을 할당합니다.",
+   "impact": "이 접근 방식은 개발자와 연구자들이 기존 기준선에 비해 강화 학습 작업에서 더 나은 성능을 달성하는 데 도움을 줄 수 있습니다. 정책 손실을 수정하고 미니배치 정렬을 통합함으로써 OPO는 MuJoCo 및 Atari 벤치마크에서 테스트된 모델의 업데이트 안정성을 향상시킬 수 있는 1차 목표를 유지합니다.",
+   "keyPoints": [
+    "표준 PPO는 모든 샘플에 고정된 클리핑 범위를 사용하여 유해한 극단적 비율을 구분하지 못합니다.",
+    "Ordered Policy Optimization (OPO)은 각 미니배치에서 중요도 비율을 정렬하고 극단적 비율에 적응형 반경을 할당합니다.",
+    "적응형 반경은 선택된 극단적 비율에 대한 목표 값을 지정하는 지정된 테일 프로필에서 파생됩니다.",
+    "MuJoCo 및 Atari 벤치마크에서 수행된 실험은 기존 기준선에 비해 강력한 성능을 보여줍니다."
+   ]
+  }
+ }
+}

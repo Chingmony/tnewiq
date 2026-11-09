@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "313b22a16e29d56b",
+ "contentHash": "eefd52a11661c081",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:52:59.146Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Reweighting for Transfer Classification: Exact Risk Conversion and Minimax Adaptation",
+   "summary": "Researchers studied how training mixtures and finite-sample error jointly determine target-risk guarantees under reweighting for binary classification. They derived a sharp target excess hinge-risk bound and an exact conversion curve determined by density-weighted local votes. The work also establishes minimax classification rates and examines how target-checked selectors and Gaussian SVMs adapt to unknown parameters.",
+   "impact": "This research could help developers and data scientists better understand the limitations and theoretical guarantees of data reweighting in transfer learning and support vector machines. The findings may aid in evaluating whether auxiliary sources improve target accuracy under specific conditions.",
+   "keyPoints": [
+    "Derived the sharpest target excess hinge-risk bound implied by mixture excess uniformly over clipped predictors.",
+    "Established the minimax classification rate for a tilted-boundary class involving transferable strength and tilt.",
+    "Demonstrated that a target-checked Gaussian-SVM selector adapts to unknown parameters up to a logarithmic factor.",
+    "Found that for a smooth opposition class, restricted Gaussian SVM minimax risk can be exponentially larger than unrestricted risk."
+   ]
+  },
+  "km": {
+   "title": "ការកំណត់ទម្ងន់ឡើងវិញសម្រាប់ការចាត់ថ្នាក់ផ្ទេរ៖ ការបម្លែងហានិភ័យពិតប្រាកដ និងការបត់បែន Minimax",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាពីរបៀបដែលល្បាយបណ្តុះបណ្តាល និងកំហុសគំរូកំណត់ការធានាហានិភ័យគោលដៅក្រោមការកំណត់ទម្ងន់ឡើងវិញសម្រាប់ការចាត់ថ្នាក់ δυាយគោលពីរ។ ពួកគេបានស្វែងរកដែនកំណត់ហានិភ័យហingeលើសគោលដៅ និងខ្សែកោងបម្លែងពិតប្រាកដដែលកំណត់ដោយសំឡេងឆ្នោតក្នុងស្រុកដែលមានទម្ងន់ដង់ស៊ីតេ។ ការងារនេះក៏បានបង្កើតអត្រាការចាត់ថ្នាក់ minimax និងពិនិត្យមើលពីរបៀបដែលឧបករណ៍ជ្រើសរើសសម្របខ្លួនទៅនឹងប៉ារ៉ាម៉ែត្រមិនស្គាល់។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកវិទ្យាសាស្ត្រទិន្នន័យឱ្យកាន់តែយល់ដឹងពីដែនកំណត់និងការធានាទ្រឹស្តីនៃការកំណត់ទម្ងន់ទិន្នន័យក្នុងការរៀនផ្ទេរ។ ការរកឃើញទាំងនេះអាចជួយក្នុងការវាយតម្លៃថាតើប្រភពជំនួយអាចបង្កើនភាពត្រឹមត្រូវគោលដៅក្រោមលក្ខខណ្ឌជាក់លាក់ដែរឬទេ។",
+   "keyPoints": [
+    "បានដកស្រង់ដែនកំណត់ហានិភ័យហingeលើសគោលដៅដែលច្បាស់បំផុតដែលបង្កឡើងដោយល្បាយលើស។",
+    "បានបង្កើតអត្រាការចាត់ថ្នាក់ minimax សម្រាប់ថ្នាក់ព្រំដែនផ្អៀង។",
+    "បានបង្ហាញថាឧបករណ៍ជ្រើសរើសសម្របខ្លួនទៅនឹងប៉ារ៉ាម៉ែត្រមិនស្គាល់រហូតដល់កត្តាឡូសាកល។",
+    "បានរកឃើញថាហានិភ័យ minimax ដែលមានដែនកំណត់អាចធំជាងហានិភ័យដែលគ្មានដែនកំណត់យ៉ាងខ្លាំងក្រោមលក្ខខណ្ឌជាក់លាក់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "迁移分类中的重新加权：精确风险转换与极 minimax 自适应",
+   "summary": "研究人员探讨了在二元分类中，训练混合物与有限样本误差如何共同决定重新加权下的目标风险保证。他们推导出了由混合物超额唯一确定的最尖锐的目标超额 hinge 风险界限和精确转换曲线。这项工作还建立了几种 minimax 分类速率，并检验了目标校验选择器和高斯支持向量机如何适应未知参数。",
+   "impact": "这项研究可以帮助开发人员和数据科学更好地理解决策中数据重新加权的局限性和理论保证。这些发现在评估辅助源是否能在特定条件下改善目标准确性方面可能具有参考价值。",
+   "keyPoints": [
+    "推导出了由混合物超额隐含的最尖锐目标超额 hinge 风险界限。",
+    "针对倾斜边界类建立了涉及可迁移强度和倾斜度的 minimax 分类速率。",
+    "证明了目标校验的高斯 SVM 选择器能够以对数因子适应未知参数。",
+    "发现在平滑对抗类上，受限高斯 SVM 的 minimax 风险可能呈指数级大于无限制风险。"
+   ]
+  },
+  "ko": {
+   "title": "전이 분류를 위한 재가중치 부여: 정확한 위험 변환 및 Minimax 적응",
+   "summary": "연구원들은 이진 분류에서 재가중치 부여에 따른 목표 위험 보장을 훈련 혼합물과 유한 표본 오차가 어떻게 공동으로 결정하는지 연구했습니다. 그들은 밀도 가중 지역 투표에 의해 결정되는 가장 날카로운 목표 초과 힌지 위험 한계와 정확한 변환 곡선을 유도했습니다. 이 연구는 또한 minimax 분류 속도를確立하고 목표 확인 선택기와 가우스 SVM이 알 수 없는 매개변수에 어떻게 적응하는지 조사했습니다.",
+   "impact": "이 연구는 개발자와 데이터 과학자들이 전이 학습 및 서포트 벡터 머신에서 데이터 재가중치의 한계와 이론적 보장을 더 잘 이해하는 데 도움을 줄 수 있습니다. 이러한 결과는 보조 소스가 특정 조건에서 목표 정확도를 향상시키는지 평가하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "클리핑된 예측기 전반에 걸쳐 혼합물 초과에 의해 암시되는 가장 날카로운 목표 초과 힌지 위험 한계를 유도했습니다.",
+    "전이 가능 강도와 기울기와 관련된 기울어진 경계 클래스에 대한 minimax 분류 속도를 확립했습니다.",
+    "목표 확인 가우스-SVM 선택기가 로그 인자까지 알 수 없는 매개변수에 적응함을 증명했습니다.",
+    "부드러운 대립 클래스에서 제한된 가우스 SVM의 minimax 위험이 제한 없는 minimax 위험보다 지수적으로 클 수 있음을 발견했습니다."
+   ]
+  }
+ }
+}

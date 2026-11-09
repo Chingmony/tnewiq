@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9510b68f9da7a0a7",
+ "contentHash": "5846f37062c905a6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:50:37.804Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Surrogate Quality Score: A Novel Composite Performance Metric for Model Selection",
+   "summary": "Researchers proposed Surrogate Quality Score (SQS), a new composite performance metric for model selection that simultaneously evaluates predictive accuracy and model complexity. SQS uses a weighted product of normalized measures to integrate these attributes into a unified score. A user-specified parameter allows explicit control over the accuracy-complexity trade-off.",
+   "impact": "This metric could help developers and engineers systematically incorporate human preferences and specific constraints into the model selection process. It may offer a more objective approach to balancing accuracy with model complexity for engineering applications.",
+   "keyPoints": [
+    "SQS is a novel composite performance metric for model selection.",
+    "It integrates predictive accuracy and model complexity simultaneously.",
+    "A user-specified parameter controls the trade-off between accuracy and complexity."
+   ]
+  },
+  "km": {
+   "title": "ពិន្ទុគុណភាពជំនួស៖ រង្វាស់សមទ្ធិកម្មចម្រុះថ្មីសម្រាប់ការជ្រើសរើសម៉ូដែល",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើពិន្ទុគុណភាពជំនួស (SQS) ដែលជារង្វាស់សមទ្ធិកម្មចម្រុះថ្មីសម្រាប់ការជ្រើសរើសម៉ូដែល ដែលវាយតម្លៃភាពត្រឹមត្រូវនៃការទស្សន៍ទាយ និងភាពស្មុគស្មាញរបស់ម៉ូដែលក្នុងពេលតែមួយ។ SQS ប្រើប្រាស់ផលគុណដែលមានទម្ងន់នៃរង្វាស់ដែលបានធម្មតាកម្មដើម្បីបញ្ចូលគុណសម្បត្តិទាំងនេះទៅក្នុងពិន្ទុតែមួយ។ប៉ារ៉ាម៉ែត្រដែលបានបញ្ជាក់ដោយអ្នកប្រើប្រាស់អនុញ្ញាតឱ្យមានការគ្រប់គ្រងជាក់លាក់លើតុល្យភាពរវាងភាពត្រឹមត្រូវនិងភាពស្មុគស្មាញ។",
+   "impact": "រង្វាស់នេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងវិស្វករក្នុងការរួមបញ្ចូលចំណូលចិត្តរបស់មនុស្ស និងការកំណត់ជាក់លាក់ទៅក្នុងដំណើរការជ្រើសរើសម៉ូដែលយ៉ាងមានប្រព័ន្ធ។ វាអាចផ្តល់នូវវិធីសាស្រ្តដែលមានគោលដៅជាងមុនក្នុងការបង្កើតតុល្យភាពរវាងភាពត្រឹមត្រូវ និងភាពស្មុគស្មាញរបស់ម៉ូដែល។",
+   "keyPoints": [
+    "SQS ជារង្វាស់សមទ្ធិកម្មចម្រុះថ្មីសម្រាប់ការជ្រើសរើសម៉ូដែល។",
+    "វាបញ្ចូលភាពត្រឹមត្រូវនៃការទស្សន៍ទាយ និងភាពស្មុគស្មាញរបស់ម៉ូដែលក្នុងពេលជាមួយគ្នា។",
+    "ប៉ារ៉ាម៉ែត្រដែលបានបញ្ជាក់ដោយអ្នកប្រើប្រាស់គ្រប់គ្រងតុល្យភាពរវាងភាពត្រឹមត្រូវនិងភាពស្មុគស្មាញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "替代质量分数：一种用于模型选择的新型综合性能指标",
+   "summary": "研究人员提出了替代质量分数（SQS），这是一种用于模型选择的新型综合性能指标，可同时评估预测准确性和模型复杂度。SQS通过对归一化指标进行加权乘积运算，将这些属性整合为一个统一的分数。用户指定的参数能够对准确性与复杂度的权衡进行明确控制。",
+   "impact": "该指标可以帮助开发人员和工程团队在模型选择过程中系统地纳入人类偏好和具体需求。它可能为平衡工程应用中的准确性与模型复杂度提供一种更客观的方法。",
+   "keyPoints": [
+    "SQS是一种用于模型选择的新型综合性能指标。",
+    "它同时整合了预测准确性和模型复杂度。",
+    "用户指定的参数可用于控制准确性与复杂度的权衡。"
+   ]
+  },
+  "ko": {
+   "title": "대리 품질 점수: 모델 선택을 위한 새로운 복합 성능 지표",
+   "summary": "연구원들은 예측 정확성과 모델 복잡도를 동시에 평가하는 모델 선택용 새로운 복합 성능 지표인 대리 품질 점수(SQS)를 제안했습니다. SQS는 정규화된 측정값들의 가중 곱을 통해 이러한 속성들을 통합된 점수로 결합합니다. 사용자가 지정하는 매개변수를 통해 정확도와 복잡도 간의 트레이드오프를 명시적으로 제어할 수 있습니다.",
+   "impact": "이 지표는 개발자와 엔지니어가 모델 선택 과정에서 인간의 선호도와 특정 제약 조건을 체계적으로 반영하는 데 도움을 줄 수 있습니다. 엔지니어링 응용 분야에서 정확성과 모델 복잡성 간의 균형을 맞추기 위한 보다 객관적인 접근 방식을 제공할 수 있습니다.",
+   "keyPoints": [
+    "SQS는 모델 선택을 위한 새로운 복합 성능 지표입니다.",
+    "예측 정확성과 모델 복잡도를 동시에 통합합니다.",
+    "사용자가 지정하는 매개변수로 정확도와 복잡도의 트레이드오프를 제어합니다."
+   ]
+  }
+ }
+}

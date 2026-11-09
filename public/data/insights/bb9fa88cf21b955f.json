@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "bb9fa88cf21b955f",
+ "contentHash": "43366ddadc7c6c20",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:50:16.092Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Concordance-Optimal Continuous Music Emotion Estimation: Variance Decomposition, Dual-Branch Temporal Fusion, and Conformal Prediction Intervals",
+   "summary": "Researchers address limitations in continuous music emotion recognition by decomposing annotation variance and prioritizing within-song dynamics using windowed Lin's concordance correlation coefficient. They introduce MMAS, an open-source multimodal model that predicts Arousal and Valence every 0.5 seconds by fusing frozen MERT-v1-95M embeddings and symbolic features through a dual-branch temporal convolutional network. The model trains jointly on DEAM and PMEmo datasets and is released as a pip-installable package.",
+   "impact": "Developers and researchers working on affective computing or music information retrieval may utilize MMAS for continuous emotion estimation and benefit from its open-source, pip-installable architecture. Security teams and technology users should note that the model is designed for audio feature processing without introducing specific security constraints mentioned.",
+   "keyPoints": [
+    "Standard pooled frame-level correlation is often dominated by between-song differences.",
+    "Windowed Lin's concordance correlation coefficient targets within-song variance.",
+    "MMAS predicts Arousal and Valence every 0.5 seconds from raw audio.",
+    "The model combines frozen MERT-v1-95M embeddings with symbolic transcription features."
+   ]
+  },
+  "km": {
+   "title": "ការប៉ាន់ស្មានអារម្មណ៍តន្ត្រីជាបន្តបន្ទាប់ដ៏ល្អប្រសើរ៖ ការបំបែកមធ្យោបាយប្រែប្រួល ការបញ្ចូលគ្នាតាមពេលវេលាពីរស្ទាក់ និងចន្លោះពេលព្យាករណ៍ Conformal",
+   "summary": "អ្នកស្រាវជ្រាវបានដោះស្រាយបញ្ហាប្រឈមក្នុងការស្គាល់អារម្មណ៍តន្ត្រីជាបន្តបន្ទាប់ ដោយកំណត់គោលដៅលើសក្ដានុពលក្នុងបទចម្រៀងផ្ទាល់។ ពួកគេបានដាក់បង្ហាញ MMAS ដែលជាម៉ូដែលប្រភពបើកចំហរទស្សន៍ទាយកម្រិតរំញោច និងតម្លៃអារម្មណ៍រៀងរាល់ ០.៥វិនាទី ដោយប្រើប្រាស់មុខងារសំឡេង។ ម៉ូដែលនេះត្រូវបានបញ្ចេញជាកញ្ចប់ដែលអាចដំឡើងតាម pip បាន។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវផ្នែកព័ត៌មានតន្ត្រីអាចប្រើប្រាស់ MMAS សម្រាប់ការប៉ាន់ស្មានអារម្មណ៍តន្ត្រីជាបន្តបន្ទាប់តាមរយៈកញ្ចប់ប្រភពបើកចំហរ។",
+   "keyPoints": [
+    "ការវាស់វែងបែបប្រពៃណីច្រើនតែផ្អែកលើភាពខុសគ្នារវាងបទចម្រៀង។",
+    "MMAS ព្យាករណ៍កម្រិតរំញោច និងតម្លៃអារម្មណ៍រៀងរាល់ ០.៥វិនាទី។",
+    "ម៉ូដែលនេះត្រូវបានបញ្ចេញជាកញ្ចប់ដំឡើងតាម pip ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "一致性最优的连续音乐情感估计：方差分解、双分支时间融合与共形预测区间",
+   "summary": "研究人员通过方差分解和窗口化林氏一致性相关系数，解决了连续音乐情感识别中标准指标受歌曲间差异主导的问题。他们推出了MMAS（多模态音乐分析系统），这是一个开源模型，通过双branch时间卷积网络融合冻结的MERT-v1-95M嵌入与符号特征，每0.5秒预测一次唤醒度和效价。该模型作为可通过pip安装的软件包发布。",
+   "impact": "从事音乐信息检索或情感计算的开发人员和研究人员可以利用MMAS进行连续的情感估计。技术用户可能会受益于其开源的pip安装包形式，从而更方便地集成音频分析功能。",
+   "keyPoints": [
+    "标准帧级相关性主要受歌曲间差异的影响。",
+    "MMAS每0.5秒从原始音频中预测唤醒度和效价。",
+    "模型无需领域调节即可在DEAM和PMEmo上进行联合训练。",
+    "MMAS作为一个可通过pip安装的软件包发布。"
+   ]
+  },
+  "ko": {
+   "title": "일치 최적 연속 음악 감정 추정: 분산 분해, 듀얼 브랜치 시간적 융합 및 ༏보형 예측 간격",
+   "summary": "연구원들은 주석 분산을 분해하고 윈도우화된 린의 일치 상관계수를 사용하여 연속 음악 감정 인식의 한계를 해결했습니다. 이들은 원시 오디오에서 0.5초마다 각성도와 유의성을 예측하는 오픈 소스 다중 모달 모델인 MMAS를 소개합니다. 이 모델은 pip를 통해 설치 가능한 패키지로 배포됩니다.",
+   "impact": "음악 정보 검색 및 감성 컴퓨팅을 연구하는 개발자와 연구원은 MMAS를 사용하여 연속적인 감정 추정을 수행할 수 있습니다. 기술 사용자는 오픈 소스 패키지를 통해 오디오 분석 기능을 보다 쉽게 활용할 수 있습니다.",
+   "keyPoints": [
+    "표준 프레임 수준 상관관계는 곡 간 차이에 의해 지배되는 경향이 있습니다.",
+    "MMAS는 원시 오디오에서 0.5초마다 각성도와 유의성을 예측합니다.",
+    "모델은 DEAM 및 PMEmo 데이터셋에서 공동으로 훈련됩니다.",
+    "MMAS는 pip 설치 가능한 패키지로 제공됩니다."
+   ]
+  }
+ }
+}

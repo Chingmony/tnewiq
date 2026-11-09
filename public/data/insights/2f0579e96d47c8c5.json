@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2f0579e96d47c8c5",
+ "contentHash": "28ce0af4fdcc83b9",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:48:44.359Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "JimuReport Vulnerability Zero-Out Plan: 32 Security Vulnerabilities Fixed and 5 Hardened Since October",
+   "summary": "JimuReport, JimuBI, and Chat2BI have addressed all known security advisories, bringing the pending vulnerability count to zero between September 11 and November 3, 2026. A total of 32 security vulnerabilities were fixed and 5 items were hardened. Users are recommended to upgrade to JimuReport / JimuBI version 2.5.6.1 and JeecgBoot v3.9.6.",
+   "impact": "Users and developers could benefit from upgrading to the recommended versions to ensure known security issues are fully resolved. This update may provide a more secure environment for report and dashboard deployments.",
+   "keyPoints": [
+    "All known security advisories for JimuReport and JimuBI have been fully processed.",
+    "A total of 32 security vulnerabilities were fixed and 5 items were hardened.",
+    "The recommended versions for users are JimuReport / JimuBI 2.5.6.1 and JeecgBoot v3.9.6."
+   ]
+  },
+  "km": {
+   "title": "ផែនការជម្រះភាពខ្វះខាតរបស់ JimuReport៖ បានជួសជុលភាពខ្វះខាតសុវត្ថិភាពចំនួន ៣២ និងពង្រឹងសុវត្ថិភាពចំនួន ៥ តាំងពីខែតុលា",
+   "summary": "JimuReport, JimuBI និង Chat2BI បានដោះស្រាយរាល់ការជូនដំណឹងអំពីសុវត្ថិភាពដែលគេស្គាល់ទាំងអស់ ដោយនាំយកចំនួនដែលត្រូវរង់ចាំដោះស្រាយមកត្រឹមសូន្យក្នុងអំឡុងពេលថ្ងៃទី ១១ ខែកញ្ញា ដល់ថ្ងៃទី ៣ ខែវិច្ឆិកា ឆ្នាំ ២០២៦។ ភាពខ្វះខាតសុវត្ថិភាពសរុបចំនួន ៣២ ត្រូវបានជួសជុល និងធាតុចំនួន ៥ ត្រូវបានពង្រឹង។ អ្នកប្រើប្រាស់ត្រូវបានណែនាំឱ្យដំឡើងកំណែទៅ JimuReport / JimuBI កំណែ 2.5.6.1 និង JeecgBoot v3.9.6។",
+   "impact": "អ្នកប្រើប្រាស់និងអ្នកអភិវឌ្ឍន៍អាចទទួលបានអត្ថប្រយោជន៍ពីការអាប់ដេតទៅកំណែដែលបានណែនាំ ដើម្បីធានាថាបញ្ហាសុវត្ថិភាពដែលគេស្គាល់ត្រូវបានដោះស្រាយពេញលេញ។ ការអាប់ដេតនេះអាចផ្តល់នូវបរិយាកាសដែលមានសុវត្ថិភាពជាងមុនសម្រាប់ការដាក់ពង្រាយរបាយការណ៍និងផ្ទាំងគ្រប់គ្រង។",
+   "keyPoints": [
+    "ការជូនដំណឹងអំពីសុវត្ថិភាពដែលគេស្គាល់ទាំងអស់សម្រាប់ JimuReport និង JimuBI ត្រូវបានដោះស្រាយរួចរាល់។",
+    "ភាពខ្វះខាតសុវត្ថិភាពសរុបចំនួន ៣២ ត្រូវបានជួសជុល និងធាតុចំនួន ៥ ត្រូវបានពង្រឹង។",
+    "កំណែដែលបានណែនាំសម្រាប់អ្នកប្រើប្រាស់គឺ JimuReport / JimuBI 2.5.6.1 និង JeecgBoot v3.9.6។"
+   ]
+  },
+  "zh-CN": {
+   "title": "积木报表漏洞清零计划：10 月以来修复 32 个安全漏洞，另加固 5 项",
+   "summary": "积木报表、JimuBI 以及 Chat2BI 在 2026 年 9 月 11 日至 11 月 3 日期间已处理完所有已知的安全公告，待处理数降为 0。期间共修复了 32 个安全漏洞并加固了 5 项。官方推荐所有用户尽快升级到 JimuReport / JimuBI 2.5.6.1 以及 JeecgBoot v3.9.6 版本。",
+   "impact": "开发者和技术用户可以通过升级到推荐版本来确保已知安全问题得到解决，从而降低安全风险。这可能为报表和大屏部署提供更安全的使用环境。",
+   "keyPoints": [
+    "积木报表和 JimuBI 已知的安全公告已全部处理完，待处理数为 0。",
+    "统计期间共修复 32 个安全漏洞，并加固了 5 项内容。",
+    "推荐升级版本为 JimuReport / JimuBI 2.5.6.1 和 JeecgBoot v3.9.6。"
+   ]
+  },
+  "ko": {
+   "title": "JimuReport 취약점 제로화 계획: 10월 이후 32개의 보안 취약점 수정 및 5개 항목 강화",
+   "summary": "JimuReport, JimuBI, Chat2BI는 2026년 9월 11일부터 11월 3일까지 알려진 모든 보안 공지를 처리하여 대기 중인 취약점 수를 0으로 만들었습니다. 총 32개의 보안 취약점이 수정되었고 5개 항목이 강화되었습니다. 모든 사용자는 JimuReport / JimuBI 2.5.6.1 및 JeecgBoot v3.9.6 버전으로 업그레이드하는 것이 권장됩니다.",
+   "impact": "사용자와 개발자는 권장 버전으로 업그레이드하여 알려진 보안 문제가 완전히 해결되도록 조치할 수 있습니다. 이 업데이트는 보고서 및 대시보드 배포를 위한 더 안전한 환경을 제공할 수 있습니다.",
+   "keyPoints": [
+    "JimuReport 및 JimuBI의 알려진 모든 보안 공지가 완전히 처리되었습니다.",
+    "총 32개의 보안 취약점이 수정되고 5개 항목이 강화되었습니다.",
+    "권장되는 버전은 JimuReport / JimuBI 2.5.6.1 및 JeecgBoot v3.9.6입니다."
+   ]
+  }
+ }
+}

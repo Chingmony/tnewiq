@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "898d0ea9a46bdee3",
+ "contentHash": "d6f373f78e443d60",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:52:37.244Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Who's Asking? Audience-Conditioned Privatization",
+   "summary": "Researchers propose Ext-Classify-Priv, a framework that addresses the limitation of existing differentially private synthetic text generation and anonymization approaches that ignore downstream usage context. The framework extracts information types, classifies which attributes are private for a specific audience using contextual integrity, and protects only those attributes using anonymization or Feature-DP approaches. Evaluations on Reddit, bioRxiv, and proprietary real estate data demonstrate that audience-specific releases are more faithful than single audience-agnostic releases and improve MAUVE scores over baselines.",
+   "impact": "This framework could help developers and data teams preserve more useful information when sharing confidential data by tailoring privacy guarantees to specific audiences. Security and compliance teams may find that contextual privacy protection improves data utility while still respecting varying sensitivity requirements.",
+   "keyPoints": [
+    "Existing differentially private synthetic text generation and anonymization methods ignore the context of downstream data usage.",
+    "Ext-Classify-Priv extracts information types, classifies private attributes based on context for a given audience, and protects only those attributes.",
+    "Evaluations show audience-specific releases are more faithful than audience-agnostic releases.",
+    "The method improves MAUVE scores on bioRxiv and real estate data compared to baselines."
+   ]
+  },
+  "km": {
+   "title": "តើអ្នកណាកំពុងសួរ? ការរៀបចំឯកជនភាពផ្អែកលើទស្សនិកជន",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើឡើងនូវក្របខណ្ឌ Ext-Classify-Priv ដែលដោះស្រាយបញ្ហាខ្វះខាតនៃវិធីសាស្ត្របង្កើតអត្ថបទសំយោគ និងការលាក់បាំងអត្តសញ្ញាណដែលមានស្រាប់ ដែលមិនអើពើនឹងបរិបទនៃការប្រើប្រាស់ទិន្នន័យ។ ក្របខណ្ឌនេះស្រង់ប្រភេទព័ត៌មាន ចាត់ថ្នាក់លក្ខណៈពិសេសណាដែលឯកជនសម្រាប់ទស្សនិកជនជាក់លាក់ដោយផ្អែកលើភាពសុចរិតនៃបរិបទ និងការពារតែលក្ខណៈពិសេសទាំងនោះប៉ុណ្ណោះ។ ការវាយតម្លៃលើទិន្នន័យ Reddit ទិន្នន័យ bioRxiv និងទិន្នន័យអចលនទ្រព្យបានបង្ហាញថា ការចេញផ្សាយជាក់លាក់តាមទស្សនិកជនគឺមានភាពត្រឹមត្រូវជាងការចេញផ្សាយបែបមិនបែងចែកទស្សនិកជន។",
+   "impact": "ក្របខណ្ឌនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមការងារទិន្នន័យរក្សាព័ត៌មានដែលមានប្រយោជន៍ជាងមុន នៅពេលចែករំលែកទិន្នន័យសម្ងាត់តាមរយៈការកំណត់ការធានាឯកជនភាពឱ្យត្រូវនឹងទស្សនិកជនជាក់លាក់។ ក្រុមសន្តិសុខនិងការអនុលោមតាមច្បាប់អាចយល់ឃើញថា ការការពារឯកជនភាពតាមបរិបទជួយបង្កើនអត្ថប្រយោជន៍ទិន្នន័យខណៈពេលដែលនៅតែគោរពតាមតម្រូវការភាពរសើបផ្សេងៗគ្នា។",
+   "keyPoints": [
+    "វិធីសាស្ត្របង្កើតអត្ថបទសំយោគនិងការលាក់បាំងអត្តសញ្ញាណបច្ចុប្បន្នមិនអើពើនឹងបរិបទនៃការប្រើប្រាស់ទិន្នន័យខាងក្រោមឡើយ។",
+    "Ext-Classify-Priv ស្រង់ប្រភេទព័ត៌មាន ចាត់ថ្នាក់គុណសម្បត្តិឯកជន និងការពារតែគុណសម្បត្តិទាំងនោះប៉ុណ្ណោះ។",
+    "ការវាយតម្លៃបង្ហាញថាការចេញផ្សាយជាក់លាក់តាមទស្សនិកជនគឺមានភាពស្មោះត្រង់ជាងការចេញផ្សាយទូទៅ។",
+    "វិធីសាស្ត្រនេះកែលម្អពិន្ទុ MAUVE លើទិន្នន័យ bioRxiv និងទិន្នន័យអចលនទ្រព្យបើធៀបនឹងមូលដ្ឋានប្រៀបធៀប។"
+   ]
+  },
+  "zh-CN": {
+   "title": "谁在询问？基于受众的隐私保护",
+   "summary": "研究人员提出了 Ext-Classify-Priv 框架，以解决现有差分隐私合成文本生成和匿名化方法忽略下游使用上下文的局限性。该框架提取信息类型，根据上下文完整性为给定受众分类哪些属性是私密的，并使用匿名化或特征差分隐私方法仅保护这些属性。在 Reddit、bioRxiv 和专有房地产数据上的评估表明，针对特定受众发布的数据比单一受众无关发布的数据更具真实性，并提高了基准测试的 MAUVE 分数。",
+   "impact": "该框架可以帮助开发人员和数据团队在共享机密数据时保留更多有用信息，通过针对特定受众量身定制隐私保证。安全和合规团队可能会发现，上下文隐私保护在尊重不同敏感性要求的同时，还能提高数据的效用。",
+   "keyPoints": [
+    "现有的差分隐私合成文本生成和匿名化方法忽略了下游数据使用的上下文。",
+    "Ext-Classify-Priv 提取信息类型，根据给定受众的上下文分类私有属性，并仅保护这些属性。",
+    "评估显示，针对特定受众发布的数据比受众无关的发布更具真实性。",
+    "与基准相比，该方法提高了 bioRxiv 和房地产数据的 MAUVE 分数。"
+   ]
+  },
+  "ko": {
+   "title": "누가 묻고 있나요? 청중 조건부 사생활 보호",
+   "summary": "연구진은 다운스트림 사용 맥락을 무시하는 기존의 차분 개인정보 보호 합성 텍스트 생성 및 익명화 방식의 한계를 해결하는 Ext-Classify-Priv 프레임워크를 제안합니다. 이 프레임워크는 정보 유형을 추출하고, 맥락적 무결성에 따라 특정 청중에 대해 어떤 속성이 비공개인지 분류하며, 익명화 또는 피처 차분 개인정보 보호 방식을 사용하여 해당 속성만 보호합니다. Reddit, bioRxiv 및 소유권이 있는 부동산 데이터에 대한 평가 결과, 청중 맞춤형 공개가 단일 범용 공개보다 더 충실하며 기본 모델 대비 MAUVE 점수를 향상시키는 것으로 나타났습니다.",
+   "impact": "이 프레임워크는 개발자와 데이터 팀이 특정 청중에 맞게 개인정보 보호 보증을 맞춤화하여 기밀 데이터를 공유할 때 더 유용한 정보를 보존하는 데 도움을 줄 수 있습니다. 보안 및 규정 준수 팀은 맥락적 개인정보 보호가 다양한 민감도 요구 사항을 존중하면서도 데이터 유효성을 향상시킨다는 점을 알게 될 수 있습니다.",
+   "keyPoints": [
+    "기존의 차분 개인정보 보호 합성 텍스트 생성 및 익명화 방식은 다운스트림 데이터 사용 맥락을 무시합니다.",
+    "Ext-Classify-Priv는 정보 유형을 추출하고, 주어진 청중에 대한 맥락에 따라 비공개 속성을 분류하며, 해당 속성만 보호합니다.",
+    "평가에 따르면 청중 맞춤형 공개가 청중 무관 공개보다 더 충실합니다.",
+    "이 방법은 기준선과 비교하여 bioRxiv 및 부동산 데이터에서 MAUVE 점수를 향상시킵니다."
+   ]
+  }
+ }
+}

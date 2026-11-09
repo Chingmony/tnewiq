@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "af2a7411356619cf",
+ "contentHash": "3806091a74336208",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-09T02:51:40.909Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "SSF-Net: A Spatial-Spectral Fusion Network for Accurate PDE Operator Learning",
+   "summary": "Researchers have proposed the Spatial-Spectral Fusion Network (SSF-Net) to improve machine learning methods for solving partial differential equations. The model features a dual-branch Spatial-Spectral Fusion block with a spatial branch using a multi-directional Mamba and a spectral branch using a Fourier transform with a block-diagonal MLP. This design captures both local interactions and global spectral features efficiently within a multiresolution convolutional encoder-decoder framework. Benchmarking shows that SSF-Net achieves lower prediction error with fewer parameters and near-linear asymptotic complexity compared to attention-based and convolution-based baselines.",
+   "impact": "This approach could help developers and researchers model complex physical systems more efficiently by reducing parameter counts and computational complexity. The improved long-horizon stability and lower prediction error may offer better performance for demanding PDE operator learning tasks.",
+   "keyPoints": [
+    "SSF-Net uses a dual-branch Spatial-Spectral Fusion block for local and global dynamics.",
+    "The spatial branch employs a multi-directional Mamba to reduce directional bias.",
+    "The spectral branch uses a Fourier transform with a block-diagonal MLP.",
+    "Evaluations show lower prediction error and fewer parameters than baseline models."
+   ]
+  },
+  "km": {
+   "title": "SSF-Net: បណ្តាញបញ្ចូលគ្នានូវលំហនិងវិសាលគមសម្រាប់ការសិក្សាប្រតិបត្តិករ PDE ប្រកបដោយភាពត្រឹមត្រូវ",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើឡើងនូវបណ្តាញ Spatial-Spectral Fusion Network (SSF-Net) ដើម្បីបង្កើនប្រសិទ្ធភាពវិធីសាស្ត្ររៀនម៉ាស៊ីនក្នុងការដោះស្រាយសមីការឌីផេរ៉ង់ស្យែលផ្នែក (PDEs)។ ម៉ូដែលនេះមានប្លុកបញ្ចូលគ្នានូវលំហនិងវិសាលគមពីរសាខា ដែលរួមមានសាខាលំហប្រើប្រាស់ Mamba ច្រើនទិស និងសាខាវិសាលគមប្រើប្រាស់ Fourier transform ជាមួយ block-diagonal MLP។ ការរចនានេះចាប់យកអន្តរកម្មក្នុងស្រុកនិងលក្ខណៈវិសាលគមជាសកលប្រកបដោយប្រសិទ្ធភាពក្នុងក្របខ័ណ្ឌអ៊ិនកូដឌ័រ-ឌិកូដឌ័រ convolutional ពហុកម្រិត។ ការវាយតម្លៃបង្ហាញថា SSF-Net សម្រេចបានកំហុសព្យាករណ៍ទាបជាងដោយមានប៉ារ៉ាម៉ែត្រតិចជាងបើប្រៀបធៀបទៅនឹងម៉ូដែលគោល។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកស្រាវជ្រាវធ្វើគំរូប្រព័ន្ធរូបវន្តស្មុគស្មាញបានកាន់តែមានប្រសិទ្ធភាពដោយកាត់បន្ថយចំនួនប៉ារ៉ាម៉ែត្រនិងភាពស្មុគស្មាញនៃការគណនា។ ស្ថិរភាពរយៈពេលវែងដែលបានប្រសើរឡើងអាចផ្តល់នូវដំណើរការកាន់តែប្រសើរសម្រាប់កិច្ចការសិក្សាប្រតិបត្តិករ PDE។",
+   "keyPoints": [
+    "SSF-Net ប្រើប្រាស់ប្លុក Spatial-Spectral Fusion ពីរសាខាសម្រាប់សក្ដានុពលក្នុងស្រុកនិងសកល។",
+    "សាខាលំហប្រើប្រាស់ Mamba ច្រើនទិសដើម្បីកាត់បន្ថយភាពលំអៀងនៃទិសដៅ។",
+    "សាខាវិសាលគមប្រើប្រាស់ Fourier transform ជាមួយ block-diagonal MLP។",
+    "ការវាយតម្លៃបង្ហាញពីកំហុសព្យាករណ៍ទាបជាងនិងប៉ារ៉ាម៉ែត្រតិចជាងម៉ូដែលគោល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "SSF-Net：用于精确 PDE 算子学习的空间-谱融合网络",
+   "summary": "研究人员提出了空间-谱融合网络（SSF-Net），以改进求解偏微分方程（PDE）的机器学习方法。该模型围绕双分支空间-谱融合块构建，其中包括使用多方向 Mamba 的空间分支和使用带块对角 MLP 的傅里叶变换的谱分支。这种设计嵌入在多分辨率卷积编解码器框架中，能够高效捕获局部相互作用和全局谱特征。基准测试表明，与基于注意力和基于卷积的基线相比，SSF-Net 在参数更少的情况下实现了更低的预测误差。",
+   "impact": "这种方法可以帮助开发人员和研究人员通过减少参数数量和计算复杂度来更高效地对复杂物理系统进行建模。改进的长期稳定性和较低的预测误差可能会为要求严格的 PDE 算子学习任务提供更好的性能。",
+   "keyPoints": [
+    "SSF-Net 使用双分支空间-谱融合块来处理局部和全局动力学。",
+    "空间分支采用多方向 Mamba 来减少方向偏差。",
+    "谱分支利用傅里叶变换和块对角 MLP。",
+    "评估显示其比基线模型具有更低的预测误差和更少的参数。"
+   ]
+  },
+  "ko": {
+   "title": "SSF-Net: 정확한 PDE 연산자 학습을 위한 공간-스펙트럼 융합 네트워크",
+   "summary": "연구원들은 편미분방정식(PDE)을 해결하기 위한 머신러닝 방법을 개선하기 위해 공간-스펙트럼 융합 네트워크(SSF-Net)를 제안했습니다. 이 모델은 다방향 Mamba를 사용하는 공간 분기와 블록 대각 MLP가 있는 푸리에 변환을 사용하는 스펙트럼 분기로 구성된 이중 분기 공간-스펙트럼 융합 블록을 중심으로 구축되었습니다. 이 설계는 다해상도 컨볼루션 인코더-디코더 프레임워크에 내장되어 지역적 상호작용과 전역 스펙트럼 특징을 효율적으로 포착합니다. 벤치마크 결과, SSF-Net은 어텐션 기반 및 컨볼루션 기반 기준 모델에 비해 더 적은 파라미터로 더 낮은 예측 오차를 달성했습니다.",
+   "impact": "이 접근 방식은 개발자와 연구원이 파라미터 수와 계산 복잡성을 줄여 복잡한 물리 시스템을 더욱 효율적으로 모델링하는 데 도움을 줄 수 있습니다. 향상된 장기 안정성과 더 낮은 예측 오차는 까다로운 PDE 연산자 학습 작업에 더 나은 성능을 제공할 수 있습니다.",
+   "keyPoints": [
+    "SSF-Net은 지역적 및 전역적 역학을 위해 이중 분기 공간-스펙트럼 융합 블록을 사용합니다.",
+    "공간 분기는 방향 편향을 줄이기 위해 다방향 Mamba를 채택합니다.",
+    "스펙트럼 분기는 블록 대각 MLP와 함께 푸리에 변환을 활용합니다.",
+    "평가 결과 기준 모델보다 더 적은 파라미터와 더 낮은 예측 오차를 보여줍니다."
+   ]
+  }
+ }
+}
