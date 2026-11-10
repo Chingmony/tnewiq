@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c80838f46e535c12",
+ "contentHash": "7149fee0dbd34280",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-10T13:46:16.814Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+   "summary": "Meta AI launched Muse Ember, a small and efficient model built for complex reasoning and repetitive agent tasks such as tool calls, coding subtasks, routing, extraction, and long document parsing. For shorter prompts, it shares the same base price of $0.10 per million input tokens and $0.50 per million output tokens as GPT-6 Luna and Claude Haiku 5.5, though pricing increases after specific prompt length thresholds. The model features six reasoning levels ranging from minimal to max, and sits on the efficiency frontier of the Artificial Analysis leaderboard.",
+   "impact": "Developers and technology users building applications with repetitive agent tasks or complex reasoning could benefit from evaluating Muse Ember's cost-per-task efficiency. Security teams and developers may need to monitor how different reasoning levels affect token usage and reliability when integrating the model into workflows.",
+   "keyPoints": [
+    "Muse Ember is Meta AI's smallest and most efficient model designed for complex reasoning and agent tasks.",
+    "It matches the base pricing of GPT-6 Luna and Claude Haiku 5.5 at $0.10 per million input tokens and $0.50 per million output tokens for shorter prompts.",
+    "The model includes six reasoning levels: minimal, low, medium, high, xhigh, and max.",
+    "Muse Ember sits on the efficiency frontier of the Artificial Analysis leaderboard."
+   ]
+  },
+  "km": {
+   "title": "សូមណែនាំម៉ូដែលដែលតូចជាងគេ និងមានប្រសិទ្ធភាពបំផុតរបស់យើង៖ Muse Ember",
+   "summary": "Meta AI បានដាក់ឱ្យដំណើរការ Muse Ember ដែលជាម៉ូដែលតូចនិងមានប្រសិទ្ធភាពរចនាឡើងសម្រាប់ការអនុវត្តហេតុផលស្មុគស្មាញ និងភារកិច្ចភ្នាក់ងារដដែលៗ។ វាមានតម្លៃចាប់ផ្ដើមស្មើគ្នាសម្រាប់សំណួរខ្លីៗធៀបនឹង GPT-6 Luna និង Claude Haiku 5.5 ប៉ុន្តែតម្លៃនឹងកើនឡើងនៅពេលដែលប្រវែងសំណួរលើសពីកម្រិតកំណត់។ ម៉ូដែលនេះមានកម្រិតហេតុផលចំនួនប្រាំាំប្រាំមួយកម្រិត និងស្ថិតនៅលើខ្សែបន្ទាត់ប្រសិទ្ធភាពនៃតារាងពិន្ទុ Artificial Analysis។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចពិចារណាលើប្រសិទ្ធភាពចំណាយក្នុងមួយភារកិច្ចរបស់ Muse Ember សម្រាប់ការងារភ្នាក់ងារដដែលៗ និងការហេតុផលស្មុគស្មាញ។",
+   "keyPoints": [
+    "Muse Ember គឺជាម៉ូដែលតូចជាងគេនិងមានប្រសិទ្ធភាពបំផុតរបស់ Meta AI។",
+    "វាមានតម្លៃមូលដ្ឋានស្មើនឹង GPT-6 Luna និង Claude Haiku 5.5 សម្រាប់សំណួរខ្លីៗ។",
+    "ម៉ូដែលនេះមានកម្រិតហេតុផលចំនួនប្រាំមួយកម្រិតចាប់ពីកម្រិតអប្បបរមាដល់អតិបរមា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "介绍我们最小、最高效的模型：Muse Ember",
+   "summary": "Meta AI 推出了其在 Claude Haiku/GPT Luna 类别中的新模型 Muse Ember，旨在处理复杂的推理执行和代理重复工作。对于较短的提示词，其定价与 GPT-6 Luna 和 Claude Haiku 5.5 相同，但在超过特定提示词长度阈值后价格会上升。该模型具有六个推理级别，并且位于 Artificial Analysis 排行榜的效率前沿。",
+   "impact": "开发人员和技术用户在构建涉及重复代理任务或复杂推理的应用时，可能会从评估 Muse Ember 的每任务成本效率中受益。开发人员和安全团队在将模型集成到工作流程中时，可能需要监控不同推理级别对令牌使用量和可靠性的影响。",
+   "keyPoints": [
+    "Muse Ember 是 Meta AI 最小、最高效的模型，专为复杂推理和代理任务而设计。",
+    "对于较短提示词，其输入输出价格与 GPT-6 Luna 和 Claude Haiku 5.5 相同。",
+    "该模型提供六个推理级别：minimal、low、medium、high、xhigh 和 max。",
+    "Muse Ember 位于 Artificial Analysis 排行榜的效率前沿线上。"
+   ]
+  },
+  "ko": {
+   "title": "가장 작고 효율적인 모델 소개: Muse Ember",
+   "summary": "Meta AI는 복잡한 추론 실행과 반복적인 에이전트 작업을 위해 설계된 작고 효율적인 모델인 Muse Ember를 출시했습니다. 짧은 프롬프트의 경우 GPT-6 Luna 및 Claude Haiku 5.5와 동일한 기본 가격으로 제공되지만, 특정 프롬프트 길이 임계값을 초과하면 가격이 인상됩니다. 이 모델은 6가지 추론 수준을 지원하며 Artificial Analysis 리더보드의 효율성 프런티어에 위치합니다.",
+   "impact": "반복적인 에이전트 작업이나 복잡한 추론을 포함하는 애플리케이션을 구축하는 개발자와 기술 사용자는 Muse Ember의 작업당 비용 효율성을 평가하여 이점을 얻을 수 있습니다. 개발자와 보안 팀은 모델을 워크플로에 통합할 때 다양한 추론 수준이 토큰 사용량과 안정성에 미치는 영향을 모니터링해야 할 수 있습니다.",
+   "keyPoints": [
+    "Muse Ember는 복잡한 추론과 에이전트 작업을 위해 설계된 Meta AI의 가장 작고 효율적인 모델입니다.",
+    "짧은 프롬프트에 대해 입력 백만 토큰당 0.10달러, 출력 백만 토큰당 0.50달러로 GPT-6 Luna 및 Claude Haiku 5.5와 동일한 가격을 가집니다.",
+    "이 모델은 minimal부터 max까지 6가지 추론 수준을 제공합니다.",
+    "Muse Ember는 Artificial Analysis 리더보드의 효율성 선상에 위치합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d9b1ee9d22f55405",
+ "contentHash": "7393a1394074007e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-10T13:42:21.780Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "OpenAI Unveils AI Research 'Kill Switch' to Block Output Within 35 Seconds",
+   "summary": "OpenAI has introduced a central control system called 'Control Room' designed to quickly halt further outputs from AI models during research if dangerous behaviors or security issues are detected. Instead of shutting down the entire model or research program, the system blocks execution rights only for the problematic task. This allows researchers to address safety issues without disrupting other ongoing work.",
+   "impact": "This tool could help security teams and researchers manage AI safety risks more precisely by isolating dangerous tasks without stopping entire research programs.",
+   "keyPoints": [
+    "OpenAI revealed a central control system for AI research to block dangerous behaviors or security issues.",
+    "The system is called 'Control Room' and tracks tasks across AI research infrastructure.",
+    "It halts execution rights only for problematic tasks rather than shutting down the entire model."
+   ]
+  },
+  "km": {
+   "title": "OpenAI បង្ហាញ 'Kill Switch' សម្រាប់ការស្រាវជ្រាវ AI ដែលអាចកាត់ផ្តាច់លទ្ធផលក្នុងរយៈពេល ៣៥ វិនាទី",
+   "summary": "OpenAI បានប្រកាសអំពីប្រព័ន្ធគ្រប់គ្រងកណ្តាលមួយដែលហៅថា Control Room ដើម្បីបញ្ឈប់ការបញ្ចេញលទ្ធផលបន្ថែមពីគំរូ AI យ៉ាងរហ័ស នៅពេលដែលរកឃើញសកម្មភាពគ្រោះថ្នាក់ ឬបញ្ហាសុវត្ថិភាពអំឡុងពេលស្រាវជ្រាវ។ ប្រព័ន្ធនេះមិនបិទគំរូទាំងមូល ឬកម្មវិធីស្រាវជ្រាវនោះទេ ប៉ុន្តែវាបិទសិទ្ធិប្រតិបត្តិការនៃកិច្ចការដែលមានបញ្ហាតែប៉ុណ្ណោះ។ វាត្រូវបានរចនាឡើងដើម្បីដោះស្រាយបញ្ហាសុវត្ថិភាពដោយមិនប៉ះពាល់ដល់ការស្រាវជ្រាវផ្សេងទៀត។",
+   "impact": "ឧបករណ៍នេះអាចជួយអ្នកស្រាវជ្រាវ និងក្រុមសន្តិសុខក្នុងការគ្រប់គ្រងហានិភ័យសុវត្ថិភាព AI កាន់តែប្រសើរដោយ isolating កិច្ចការដែលមានបញ្ហា។",
+   "keyPoints": [
+    "OpenAI បានបង្ហាញប្រព័ន្ធគ្រប់គ្រងកណ្តាលហៅថា Control Room ។",
+    "ប្រព័ន្ធនេះតាមដានកិច្ចការទូទាំងហេដ្ឋារចនាសម្ព័ន្ធស្រាវជ្រាវ AI ។",
+    "វាបញ្ឈប់សិទ្ធិប្រតិបត្តិการเฉพาะកិច្ចការដែលមានបញ្ហាប៉ុណ្ណោះដោយមិនបិទគំរូទាំងមូលឡើយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "OpenAI发布AI研究“紧急停止开关”：可在35秒内切断输出",
+   "summary": "OpenAI公开了一个名为“Control Room”的中央控制系统，旨在研究中的AI模型出现危险行为或安全问题时迅速阻止进一步输出。该系统不会关闭整个模型或研究程序，而是仅拦截出现问题任务的执行权限。这样设计可以在应对安全问题的同时，不影响其他研究工作。",
+   "impact": "该系统可能会帮助安全团队和研究人员在不中断整个研究项目的情况下，更精确地隔离并处理危险任务的安全风险。",
+   "keyPoints": [
+    "OpenAI公开了用于AI研究的中央控制系统Control Room。",
+    "该系统能够追踪AI研究基础设施中的各项任务。",
+    "它仅终止有问题任务的执行权限，而不关闭整个模型。"
+   ]
+  },
+  "ko": {
+   "title": "오픈AI, AI 연구용 '킬 스위치' 공개…35초 내 출력 차단",
+   "summary": "오픈AI가 연구 중인 AI 모델에서 위험한 행동이나 보안 문제가 발견되면 추가 출력을 신속하게 차단하는 중앙 통제 시스템인 '컨트롤 룸'을 공개했다. 이 시스템은 모델이나 연구 프로그램 자체를 종료하지 않고 문제가 발생한 작업의 실행 권한만 차단한다. 이를 통해 다른 연구에는 영향을 주지 않으면서 안전 문제에 대응할 수 있도록 설계됐다.",
+   "impact": "이 시스템은 보안 팀과 연구원들이 전체 연구 프로그램을 중단하지 않고도 위험한 작업을 격리하여 AI 안전 리스크를 관리하는 데 도움을 줄 수 있다.",
+   "keyPoints": [
+    "오픈AI는 AI 연구 인프라 전반의 작업을 추적하는 '컨트롤 룸'을 공개했다.",
+    "위험한 행동이나 보안 문제가 발생할 경우 추가 출력을 신속하게 차단한다.",
+    "모델 전체를 종료하지 않고 문제가 된 작업의 실행 권한만 차단한다."
+   ]
+  }
+ }
+}

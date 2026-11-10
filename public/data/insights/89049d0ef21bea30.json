@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "89049d0ef21bea30",
+ "contentHash": "9b1d6dc2a54002e2",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-10T13:36:36.131Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Ten Commandments of Creating AI Skills: A Practical Guide to Figma-to-Code Automation",
+   "summary": "The author shares lessons learned over three months of developing a custom Claude skill named figma-to-android to automate converting Figma designs into Android UI code. Using project-specific skills instead of generic ones significantly improved code quality, such as properly referencing design tokens and handling assets. The article outlines principles for building effective AI agent skills.",
+   "impact": "Developers and security teams utilizing AI coding assistants could improve automation reliability by creating domain-specific, project-tailored skills rather than relying solely on generic prompts or default tools.",
+   "keyPoints": [
+    "The open-source skill naver/design-to-ui helps convert Figma designs into Android code.",
+    "Project-customized skills successfully utilized design tokens and generated asset files more consistently than generic or no skills.",
+    "Skills differ from prompts by reducing repetitive explanations, allowing integrated scripts, and supporting team version control."
+   ]
+  },
+  "km": {
+   "title": "បទបញ្ញត្តិទាំង១០ សម្រាប់ការបង្កើតជំនាញ AI៖ ការណែនាំជាក់ស្តែងលើការស្វ័យប្រវត្តិកម្មពី Figma ទៅ Code",
+   "summary": "អ្នកនិពន្ធបានចែករំលែកបទពិសោធន៍ដែលបានរៀនក្នុងរយៈពេលបីខែនៃការអភិវឌ្ឍជំនាញ Claude ផ្ទាល់ខ្លួនដែលមានឈ្មោះថា figma-to-android ដើម្បីស្វ័យប្រវត្តិកម្មការបម្លែងការរចនា Figma ទៅជាកូដ UI របស់ Android។ ការប្រើប្រាស់ជំនាញជាក់លាក់តាមគម្រោងជំនួសឱ្យជំនាញទូទៅបានកែលម្អគុណភាពកូដយ៉ាងខ្លាំង។ អត្ថបទនេះគូសបញ្ជាក់ពីគោលការណ៍សម្រាប់ការបង្កើតជំនាញភ្នាក់ងារ AI ប្រកបដោយប្រសិទ្ធភាព។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខដែលប្រើប្រាស់ជំនួយការសរសេរកូដ AI អាចកែលម្អភាពជឿជាក់នៃការស្វ័យប្រវត្តិកម្មដោយបង្កើតជំនាញជាក់លាក់តាមដែននិងគម្រោង។",
+   "keyPoints": [
+    "ជំនាញប្រភពបើកចំហ naver/design-to-ui ជួយបម្លែងការរចនា Figma ទៅជាកូដ Android។",
+    "ជំនាញដែលបានปรับแต่งតាមគម្រោងបានប្រើប្រាស់ថូខឹនរចនា និងបង្កើតឯកសារទ្រព្យសកម្មបានប្រសើរជាងមុន។",
+    "ជំនាញខុសពីការបញ្ជា (prompts) ត្រង់ថាវាជួយកាត់បន្ថយការពន្យល់ដដែលៗ និងគាំទ្រការគ្រប់គ្រងកំណែទម្រង់របស់ក្រុម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "创建AI技能的十条戒律：Figma转代码自动化实战",
+   "summary": "作者分享了历时三个月开发自定义Claude技能（名为naver/design-to-ui）的经验，该技能旨在将Figma设计自动转换为Android UI代码。与通用技能相比，项目定制技能显著提高了代码质量，例如正确引用设计托肯和处理素材。文章总结了构建有效AI代理技能的原则。",
+   "impact": "使用AI编码助手的开发者和安全团队可以通过创建特定于领域和项目的技能，而不是仅依赖通用提示词或默认工具，来提高自动化的可靠性。",
+   "keyPoints": [
+    "开源技能naver/design-to-ui有助于将Figma设计转换为Android代码。",
+    "项目定制技能比通用或无技能更稳定地利用了设计托肯并生成了素材文件。",
+    "技能与提示词的不同之处在于减少了重复解释、允许集成脚本并支持团队版本控制。"
+   ]
+  },
+  "ko": {
+   "title": "AI 스킬 만들기 10계명: Figma→Code 자동화 실전기",
+   "summary": "저자는 Figma 디자인을 Android UI 코드로 자동화하기 위해 figma-to-android라는 커스텀 Claude 스킬을 3개월간 개발하며 얻은 교훈을 공유합니다. 범용 스킬 대신 프로젝트 맞춤형 스킬을 사용했을 때 디자인 토큰 참조와 에셋 생성 등 코드 품질이 크게 향상되었습니다. 글은 효과적인 AI 에이전트 스킬을 구축하기 위한 원칙들을 다룹니다.",
+   "impact": "AI 코딩 도구를 사용하는 개발자와 보안 팀은 일반적인 프롬프트나 기본 도구에만 의존하는 것보다 도메인 및 프로젝트 맞춤형 스킬을 생성하여 자동화 신뢰성을 높일 수 있습니다.",
+   "keyPoints": [
+    "오픈 소스로 공개된 naver/design-to-ui 스킬은 Figma 디자인을 Android 코드로 변환하는 것을 돕습니다.",
+    "프로젝트 맞춤 스킬은 범용 스킬이나 스킬이 없을 때보다 디자인 토큰을 참조하고 에셋 파일을 생성하는 데 더 우수한 결과를 보였습니다.",
+    "스킬은 반복 설명을 없애고 스크립트를 함께 포함할 수 있으며 팀 단위의 버전 관리가 가능하다는 점에서 프롬프트와 차이가 있습니다."
+   ]
+  }
+ }
+}

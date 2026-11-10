@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c110ef77ed027886",
+ "contentHash": "87b62058163b59f2",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-10T13:37:26.680Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+   "summary": "SAP released patches for four vulnerabilities carrying a maximum CVSS score of 10.0 during its monthly Security Patch Day. These flaws can be exploited by attackers without logging in. Three of the vulnerabilities affect the SAP NetWeaver application server, while one affects the Web Dispatcher.",
+   "impact": "Security teams managing SAP environments may need to apply these patches quickly to mitigate potential unauthenticated attacks. Because the vulnerabilities affect core components like NetWeaver and Web Dispatcher, failure to update could expose systems to severe remote risks.",
+   "keyPoints": [
+    "SAP fixed four vulnerabilities rated 10.0 on the CVSS scale.",
+    "The flaws can be exploited without requiring user login.",
+    "Three issues are located in the SAP NetWeaver application server.",
+    "One issue is located in the Web Dispatcher component."
+   ]
+  },
+  "km": {
+   "title": "SAP ជួសជុលចំណុចខ្សោយ CVSS 10.0 ចំនួនបួន ដែលរួមមានពីរអនុញ្ញាតឱ្យប្រតិបត្តិលេខកូដពីចម្ងាយ",
+   "summary": "ក្រុមហ៊ុន SAP បានចេញផ្សាយបَច្ចចកវិទ្យាជួសជុលសម្រាប់ចំណុចខ្សោយចំនួនបួនដែលមានពិន្ទុ CVSS អតិបរមា 10.0 ក្នុងអំឡុងពេលទិវាបَច្ចចកវិទ្យាសុវត្ថិភាពប្រចាំខែរបស់ខ្លួន។ ចំណុចខ្សោយទាំងនេះអាចត្រូវបានទាញយកប្រយោជន៍ដោយពួក attacker ដោយមិនចាំបាច់ចូលប្រព័ន្ធនោះទេ។ ចំណុចខ្សោយបីស្ថិតនៅក្នុង server កម្មវិធី SAP NetWeaver និងមួយទៀតស្ថិតនៅក្នុង Web Dispatcher។",
+   "impact": "ក្រុមសុវត្ថិភាពដែលគ្រប់គ្រងប្រព័ន្ធ SAP អាចចាំបាច់ត្រូវអនុវត្តការជួសជុលទាំងនេះយ៉ាងលឿនដើម្បីកាត់បន្ថយការវាយប្រហារដែលគ្មានការផ្ទៀងផ្ទាត់។ ដោយសារតែចំណុចខ្សោយទាំងនេះប៉ះពាល់ដល់សមាសធាតុស្នូល ការមិនអាប់ដេតអាចធ្វើឱ្យប្រព័ន្ធប្រឈមមុខនឹងហានិភ័យធ្ងន់ធ្ងរពីចម្ងាយ។",
+   "keyPoints": [
+    "SAP បានជួសជុលចំណុចខ្សោយចំនួនបួនដែលត្រូវបានវាយតម្លៃ 10.0 នៅលើកម្រិត CVSS។",
+    "ចំណុចខ្សោយទាំងនោះអាចត្រូវបានទាញយកប្រយោជន៍ដោយមិនចាំបាច់ចូលប្រព័ន្ធ។",
+    "បញ្ហាបីស្ថិតនៅក្នុង server កម្មវិធី SAP NetWeaver។",
+    "បញ្ហាមួយស្ថិតនៅក្នុងសមាសធាតុ Web Dispatcher។"
+   ]
+  },
+  "zh-CN": {
+   "title": "SAP 修复四个 CVSS 10.0 漏洞，其中包括两个允许远程代码执行的漏洞",
+   "summary": "在其每月的安全补丁日中，SAP 修复了四个评分为 CVSS 最高分 10.0 的漏洞。攻击者无需登录即可利用这些漏洞。其中三个漏洞位于 SAP NetWeaver 应用服务器中，另一个位于 Web Dispatcher 中。",
+   "impact": "管理 SAP 环境的安全团队可能需要迅速应用这些补丁，以减轻潜在的未经身份验证的攻击。由于这些漏洞影响到核心组件，未能及时更新可能会使系统面临严重的远程风险。",
+   "keyPoints": [
+    "SAP 修复了四个 CVSS 评分为 10.0 的漏洞。",
+    "攻击者无需登录即可利用这些缺陷。",
+    "三个问题位于 SAP NetWeaver 应用服务器中。",
+    "一个问题位于 Web Dispatcher 组件中。"
+   ]
+  },
+  "ko": {
+   "title": "SAP, 원격 코드 실행을 가능하게 하는 두 가지를 포함하여 4개의 CVSS 10.0 취약점 패치",
+   "summary": "SAP는 월간 보안 패치 데이의 일환으로 최대 CVSS 점수 10.0인 4개의 취약점에 대한 패치를 배포했습니다. 이 결함은 공격자가 로그인하지 않고도 악용할 수 있습니다. 3개는 SAP NetWeaver 애플리케이션 서버에 있고 1개는 Web Dispatcher에 있습니다.",
+   "impact": "SAP 환경을 관리하는 보안 팀은 잠재적인 인증되지 않은 공격을 완화하기 위해 이러한 패치를 신속하게 적용해야 할 수 있습니다. 핵심 구성 요소에 영향을 미치므로 업데이트하지 않으면 시스템이 심각한 원격 위험에 노출될 수 있습니다.",
+   "keyPoints": [
+    "SAP는 CVSS 10.0 등급의 취약점 4개를 수정했습니다.",
+    "로그인 없이도 결함을 악용할 수 있습니다.",
+    "3개의 문제는 SAP NetWeaver 애플리케이션 서버에 있습니다.",
+    "1개의 문제는 Web Dispatcher 구성 요소에 있습니다."
+   ]
+  }
+ }
+}
