@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2abf94d855fbef04",
+ "contentHash": "2005d4a3696b4a6a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-10T04:46:09.326Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon MWAA now supports DuckDB operators",
+   "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports DuckDB operators natively in Provisioned environments running Apache Airflow 3.3.1. DuckDB is preinstalled and preconfigured for AWS connections in this latest update. Customers can use the DuckDBExecuteQueryOperator to perform data quality checks, summaries, and transformations after adding execution role access.",
+   "impact": "This integration could simplify data quality checks and transformations for developers using Amazon MWAA and Amazon S3. Security teams should ensure that execution role access is correctly configured for their data stores.",
+   "keyPoints": [
+    "Amazon MWAA now supports DuckDB operators for Airflow 3.3.1 Provisioned environments.",
+    "DuckDB comes preinstalled and preconfigured for AWS connections in the latest update.",
+    "Customers can use DuckDBExecuteQueryOperator without additional setup once role access is granted.",
+    "The feature is available in all AWS Regions where Amazon MWAA is offered."
+   ]
+  },
+  "km": {
+   "title": "Amazon MWAA ឥឡូវនេះគាំទ្រ DuckDB operators",
+   "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) ឥឡូវនេះគាំទ្រ DuckDB operators ក្នុងបរិស្ថាន Provisioned ដែលដំណើរការ Apache Airflow 3.3.1។ DuckDB ត្រូវបានដំឡើង និងកំណត់រចនាសម្ព័ន្ធទុកជាមុនសម្រាប់តភ្ជាប់ AWS ក្នុងការអាប់ដេតថ្មីបំផុតនេះ។ អតិថិជនអាចប្រើប្រាស់ DuckDBExecuteQueryOperator ដើម្បីអនុវត្តការត្រួតពិនិត្យគុណភាពទិន្នន័យ ការសង្ខេប និងការផ្លាស់ប្តូរទិន្នន័យ។",
+   "impact": "លក្ខណៈពិសេសនេះអាចជួយសម្រួលដល់ការពិនិត្យគុណភាពទិន្នន័យ និងការបំប្លែងសម្រាប់អ្នកអភិវឌ្ឍន៍ដែលប្រើប្រាស់ Amazon MWAA និង Amazon S3។ ក្រុមសន្តិសុខគួរតែធានាថាការកំណត់សិទ្ធិ תפקיד (role) ត្រូវបានធ្វើឡើងយ៉ាងត្រឹមត្រូវសម្រាប់ឃ្លាំងទិន្នន័យ។",
+   "keyPoints": [
+    "Amazon MWAA គាំទ្រ DuckDB operators សម្រាប់បរិស្ថាន Airflow 3.3.1 Provisioned។",
+    "DuckDB ត្រូវបានដំឡើង និងកំណត់រចនាសម្ព័ន្ធទុកជាមុនសម្រាប់ការតភ្ជាប់ AWS។",
+    "អតិថិជនអាចចាប់ផ្តើមប្រើប្រាស់ DuckDBExecuteQueryOperator បន្ទាប់ពីផ្តល់សិទ្ធិការងារដល់ទិន្នន័យ។",
+    "មុខងារនេះមាននៅក្នុងតំបន់ AWS ទាំងអស់ដែល Amazon MWAA អាចប្រើប្រាស់បាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon MWAA 现已支持 DuckDB operators",
+   "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) 现已在运行 Apache Airflow 3.3.1 的 Provisioned 环境中原生支持 DuckDB operators。在最新的 MWAA Airflow 3.3.1 更新中，DuckDB 已预先安装并为 AWS 连接完成了预配置。客户在更新环境并添加数据存储执行角色访问权限后，即可开始使用 DuckDBExecuteQueryOperator。",
+   "impact": "该功能可能会简化开发人员在使用 Amazon MWAA 和 Amazon S3 时的数据质量检查和转换工作。安全团队应确保正确配置数据存储的执行角色访问权限。",
+   "keyPoints": [
+    "Amazon MWAA 现支持运行 Airflow 3.3.1 的 Provisioned 环境使用 DuckDB operators。",
+    "DuckDB 在最新的 MWAA Airflow 3.3.1 更新中已预安装并完成 AWS 连接配置。",
+    "客户无需进行额外设置，添加角色访问权限后即可使用 DuckDBExecuteQueryOperator。",
+    "该功能在所有提供 Amazon MWAA 的 AWS 区域可用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon MWAA, DuckDB operators 지원 시작",
+   "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA)가 Apache Airflow 3.3.1을 실행하는 Provisioned 환경에서 이제 DuckDB operators를 지원합니다. 최신 MWAA Airflow 3.3.1 업데이트에서 DuckDB는 AWS 연결을 위해 사전 설치 및 사전 구성되어 제공됩니다. 고객은 MWAA 환경을 업데이트하고 데이터 저장소에 대한 실행 역할 액세스 권한을 추가한 후 추가 설정 없이 작업을 작성할 수 있습니다.",
+   "impact": "이 기능은 Amazon MWAA 및 Amazon S3를 사용하는 개발자의 데이터 품질 검사 및 변환 작업을 간소화할 수 있습니다. 보안 팀은 데이터 저장소에 대한 실행 역할 액세스가 올바르게 구성되었는지 확인해야 합니다.",
+   "keyPoints": [
+    "Amazon MWAA는 Airflow 3.3.1 Provisioned 환경에서 DuckDB operators를 지원합니다.",
+    "DuckDB는 최신 MWAA 업데이트에서 AWS 연결용으로 사전 설치 및 구성되어 제공됩니다.",
+    "역할 액세스를 추가한 후 추가 설정 없이 DuckDBExecuteQueryOperator를 사용할 수 있습니다.",
+    "이 기능은 Amazon MWAA가 제공되는 모든 AWS 리전에서 이용할 수 있습니다."
+   ]
+  }
+ }
+}

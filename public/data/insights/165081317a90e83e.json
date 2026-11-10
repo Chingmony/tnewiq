@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "165081317a90e83e",
+ "contentHash": "a90a0b4b2a56e965",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-10T04:45:49.531Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Glue adds 100 new native connectors for popular SaaS applications",
+   "summary": "AWS Glue has introduced 100 new native connectors to simplify data access from popular SaaS and REST API-based applications. Instead of writing custom code, teams can create a connection in the AWS Glue Data Catalog and reuse it across ETL jobs using standard permissions. These connectors cover sectors such as generative AI, finance, marketing, human resources, and engineering. The integrated data can be loaded into Amazon S3 or Amazon Redshift for reporting and analytics.",
+   "impact": "This update could significantly reduce the development effort required to integrate external SaaS data into AWS pipelines by eliminating custom code. Developers and data teams may benefit from streamlined ETL workflows and consistent permission models across multiple services.",
+   "keyPoints": [
+    "AWS Glue now supports 100 new native connectors for popular SaaS and REST API-based applications.",
+    "Connections can be created once in the AWS Glue Data Catalog and reused across ETL jobs.",
+    "New connectors cover areas including generative AI, finance, marketing, product analytics, HR, and engineering.",
+    "Data can be loaded into Amazon S3 or Amazon Redshift on Glue versions 5.0 and above in all AWS Commercial Regions."
+   ]
+  },
+  "km": {
+   "title": "AWS Glue បន្ថែមឧបករណ៍តភ្ជាប់ដើមថ្មីចំនួន ១០០ សម្រាប់កម្មវិធី SaaS ពេញនិយម",
+   "summary": "AWS Glue ឥឡូវនេះគាំទ្រឧបករណ៍តភ្ជាប់ដើមថ្មីចំនួន ១០០ ដែលជួយសម្រួលដល់ការចូលប្រើទិន្នន័យនៅក្នុងកម្មវិធី SaaS និង REST API ដ៏ពេញនិយម។ ជំនួសឱ្យការសរសេរកូដផ្ទាល់ខ្លួន ក្រុមការងារអាចបង្កើតការតភ្ជាប់ម្តងនៅក្នុង AWS Glue Data Catalog ហើយប្រើប្រាស់វាឡើងវិញទូទាំងការងារ ETL ។ ឧបករណ៍តភ្ជាប់ថ្មីទាំងនេះគ្របដណ្តប់លើវិស័យបញ្ញាសិប្បនិម្មិត ហិរញ្ញវត្ថុ ទីផ្សារ ធនធានមនុស្ស និងវិស្វកម្ម។",
+   "impact": "ការអាប់ដេតនេះអាចកាត់បន្ថយពេលវេលានិងការខិតខំប្រឹងប្រែងរបស់អ្នកអភិវឌ្ឍន៍ក្នុងការសរសេរកូដផ្ទាល់ខ្លួនដើម្បីទាញយកទិន្នន័យពី SaaS ចូលមកក្នុង AWS ។ ក្រុមការងារផ្នែកទិន្នន័យអាចទទួលបានភាពងាយស្រួលក្នុងការគ្រប់គ្រងការងារ ETL ក្រោមប្រព័ន្ធសិទ្ធិដែលមានស្រាប់។",
+   "keyPoints": [
+    "AWS Glue គាំទ្រឧបករណ៍តភ្ជាប់ដើមថ្មីចំនួន ១០០ សម្រាប់កម្មវិធី SaaS និង REST API ។",
+    "កាត់បន្ថយតម្រូវការក្នុងការសរសេរកូដផ្ទាល់ខ្លួនដើម្បីទាញយកទិន្នន័យចូលមកក្នុង AWS ។",
+    "ការតភ្ជាប់អាចត្រូវបានបង្កើតម្តងនៅក្នុង AWS Glue Data Catalog និងប្រើប្រាស់ឡើងវិញ។",
+    "មាននៅលើ AWS Glue កំណែ 5.0 និងខ្ពស់ជាងនេះក្នុងគ្រប់តំបន់ពាណិជ្ជកម្មរបស់ AWS ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Glue 为热门 SaaS 应用新增 100 个原生连接器",
+   "summary": "AWS Glue 现在支持 100 个新的原生连接器，简化了对热门 SaaS 和基于 REST API 的应用程序中数据的访问。团队无需编写自定义代码，只需在 AWS Glue Data Catalog 中创建一次连接，即可在 ETL 作业中重复使用。这些新连接器涵盖了生成式 AI、财务、支付、营销、产品分析、人力资源和工程等领域。集成后的数据可以加载到 Amazon S3 或 Amazon Redshift 中进行分析和报告。",
+   "impact": "此更新可以通过消除编写自定义代码的需求，显著减少开发人员将外部 SaaS 数据集成到 AWS 管道中的工作量。数据团队和安全团队可能会受益于简化的 ETL 工作流程以及统一的权限模型。",
+   "keyPoints": [
+    "AWS Glue 新增 100 个原生连接器以支持热门 SaaS 和 REST API 应用。",
+    "用户可以在 AWS Glue Data Catalog 中创建一次连接并在多个 ETL 作业中复用。",
+    "新连接器覆盖生成式 AI、财务、营销、人力资源、工程等多个领域。",
+    "适用于所有 AWS 商业区域的 Glue 5.0 及以上版本。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Glue, 인기 SaaS 애플리케이션을 위한 100개의 새로운 네이티브 커넥터 추가",
+   "summary": "AWS Glue는 인기 있는 SaaS 및 REST API 기반 애플리케이션의 데이터 접근을 간소화하는 100개의 새로운 네이티브 커넥터를 지원합니다. 개발팀은 커스텀 코드를 작성하는 대신 AWS Glue Data Catalog에서 연결을 한 번 생성하고 동일한 권한 모델을 사용하여 ETL 작업에서 재사용할 수 있습니다. 새로운 커넥터는 생성형 AI, 금융, 마케팅, 인사, 엔지니어링 등 다양한 분야를 아우릅니다. 통합된 데이터는 분석 및 보고를 위해 Amazon S3 또는 Amazon Redshift에 로드할 수 있습니다.",
+   "impact": "이번 업데이트는 커스텀 코드 작성의 필요성을 없애줌으로써 개발자가 외부 SaaS 데이터를 AWS 파이프라인에 통합하는 데 드는 노력을 크게 줄여줄 수 있습니다. 데이터 팀은 향상된 워크플로와 일관된 권한 모델을 활용할 수 있습니다.",
+   "keyPoints": [
+    "AWS Glue가 인기 SaaS 및 REST API 애플리케이션을 위한 100개의 새로운 네이티브 커넥터를 지원합니다.",
+    "AWS Glue Data Catalog에서 연결을 한 번 생성하여 여러 ETL 작업에서 재사용할 수 있습니다.",
+    "생성형 AI, 금융, 마케팅, 인사, 엔지니어링 등의 분야를 포함합니다.",
+    "모든 AWS 상용 리전의 Glue 버전 5.0 이상에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

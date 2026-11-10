@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7e02f257e3ebcf5a",
+ "contentHash": "b3a09e2745cee518",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-10T04:45:39.192Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon CloudWatch Logs announces account-level retention policies",
+   "summary": "Amazon CloudWatch Logs has introduced account-level retention policies, enabling users to set log data retention periods across all or a subset of log groups within an AWS account using a single policy. Users can create policies covering all log groups or targeting specific groups using a name prefix. When multiple policies match, the longest retention period is applied. Up to 20 policies can be managed per account and region.",
+   "impact": "This feature could help platform and security teams easily enforce retention standards and meet audit requirements without needing to track individual log group names. Developers and administrators may save time managing configurations across multiple log groups.",
+   "keyPoints": [
+    "Supports account-level retention policies for all or a subset of log groups.",
+    "Can apply to existing or only new log groups, with prefix-based targeting.",
+    "Available in all commercial AWS Regions except Middle East (Bahrain) and Middle East (UAE) at no additional cost.",
+    "Up to 20 policies can be created and managed per account and region."
+   ]
+  },
+  "km": {
+   "title": "Amazon CloudWatch Logs ប្រកាសពីគោលការណ៍រក្សាទុកទិន្នន័យកម្រិតគណនី",
+   "summary": "Amazon CloudWatch Logs ឥឡូវនេះគាំទ្រគោលការណ៍រក្សាទុកទិន្នន័យកម្រិតគណនី ដែលអនុញ្ញាតឱ្យកំណត់រយៈពេលដែលទិន្នន័យកំណត់ហេតុត្រូវរក្សាទុកនៅទូទាំងក្រុមកំណត់ហេតុទាំងអស់ ឬផ្នែកខ្លះនៅក្នុងគណនី AWS។ អ្នកប្រើប្រាស់អាចបង្កើតគោលការណ៍សម្រាប់ក្រុមកំណត់ហេតុទាំងអស់ ឬក្រុមជាក់លាក់ដោយផ្អែកលើបុព្វបទ។ គោលការណ៍ទាំងនេះអាចរកបាននៅតំបន់ពាណិជ្ជកម្ម AWS ទាំងអស់ដោយគ្មានថ្លៃបន្ថែម។",
+   "impact": "មុខងារនេះអាចជួយក្រុមសុវត្ថិភាពនិងក្រុមបច្ចេកវិទ្យាអនុវត្តស្តង់ដាររក្សាទុកទិន្នន័យបានយ៉ាងងាយស្រួលដោយមិនបាច់តាមដានឈ្មោះក្រុមកំណត់ហេតុនីមួយៗឡើយ។",
+   "keyPoints": [
+    "គាំទ្រគោលការណ៍រក្សាទុកកម្រិតគណនីសម្រាប់ក្រុមកំណត់ហេតុទាំងអស់ ឬផ្នែកខ្លះ។",
+    "អាចអនុវត្តលើក្រុមដែលមានស្រាប់ ឬក្រុមថ្មីតាមរយៈបុព្វបទឈ្មោះ។",
+    "មាននៅលើតំបន់ AWS ទាំងអស់ លើកលែងតែ Middle East (Bahrain) និង Middle East (UAE) ដោយឥតគិតថ្លៃបន្ថែម។",
+    "អាចគ្រប់គ្រងគោលការណ៍រហូតដល់ ២០ ក្នុងមួយគណនីនិងតំបន់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon CloudWatch Logs 宣布推出账户级保留策略",
+   "summary": "Amazon CloudWatch Logs 现在支持账户级保留策略，允许用户使用单个策略来设置 AWS 账户中所有或部分日志组的日志数据保留时间。平台和安全团队可以利用该功能使每个日志组符合其保留标准，还可指定应用于现有日志组或仅应用于新日志组。该功能在除中东（巴林）和中东（阿联酋）之外的所有 AWS 商业区域提供，且不产生额外费用。",
+   "impact": "此功能可以帮助开发和安全团队更轻松地统一管理日志保留标准并满足审计要求，而无需追踪单个日志组的名称。",
+   "keyPoints": [
+    "支持针对所有或部分日志组的账户级保留策略。",
+    "可通过前缀将策略应用于特定日志组或所有日志组。",
+    "在大多数商业 AWS 区域免费提供，最多可为每个账户和区域创建 20 个策略。",
+    "当多个策略匹配时，将采用最长的保留期限。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon CloudWatch Logs, 계정 수준 보존 정책 발표",
+   "summary": "Amazon CloudWatch Logs는 이제 계정 수준 보존 정책을 지원하므로, 단일 정책을 사용하여 AWS 계정 내의 모든 로그 그룹 또는 일부 로그 그룹에 걸쳐 로그 데이터 유지 기간을 설정할 수 있습니다. 플랫폼 및 보안 팀은 이를 통해 개별 로그 그룹 이름을 추적하지 않고도 보존 표준을 준수할 수 있습니다. 이 기능은 추가 비용 없이 대부분의 상업용 AWS 리전에서 제공됩니다.",
+   "impact": "이 기능은 개발자와 보안 팀이 개별 로그 그룹을 수동으로 관리하지 않고도 일관된 보존 표준과 감사 요구 사항을 충족하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "모든 로그 그룹 또는 하위 집합에 대한 계정 수준 보존 정책 지원.",
+    "접두사를 사용하여 특정 로그 그룹이나 새 로그 그룹 및 기존 로그 그룹에 적용 가능.",
+    "계정 및 리전당 최대 20개의 정책 생성 및 관리 가능.",
+    "Middle East (Bahrain) 및 Middle East (UAE)를 제외한 모든 상업용 AWS 리전에서 추가 비용 없이 이용 가능."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a4f027c66a67f7c1",
+ "contentHash": "76e2b61578f30770",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-10T04:43:30.115Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How skills and agents work in AWS Quick",
+   "summary": "AWS Quick is an AI-powered service designed to automate tasks, analyze data, build web applications, and conduct research using natural language. The service utilizes AI agents, skills, and connected data sources to process user requests and execute repeatable workflows. Agents can operate via chat or autonomous routines, drawing upon data spaces, knowledge bases, datasets, and dashboards. Users can use the default built-in Quick agent or configure custom agents for specific tasks, such as HR onboarding, and share them within their team.",
+   "impact": "Technology users and developers can streamline repetitive workflows by encoding them into reusable skills and custom AI agents within AWS Quick. Security teams may appreciate that agents are restricted by user-level permissions and explicit configurations, limiting access only to authorized resources.",
+   "keyPoints": [
+    "AWS Quick is an AI-powered service for automating tasks, analyzing data, building web applications, and conducting research.",
+    "Agents in AWS Quick use instructions, skills, connectors, and connected data sources to complete tasks via chat or routines.",
+    "Users can utilize the default built-in Quick agent or create and share custom agents configured for specific jobs.",
+    "Data sources include spaces, synced knowledge bases from external services, and datasets or dashboards from AWS Quick Sight."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែលជំនាញ និងភ្នាក់ងារដំណើរការក្នុង AWS Quick",
+   "summary": "AWS Quick គឺជាសេវាកម្មដើរដោយថាមពល AI សម្រាប់ស្វ័យប្រវត្តិកម្មកិច្ចការ វិភាគទិន្នន័យ កសាងកម្មវិធីបណ្តាញ និងធ្វើការស្រាវជ្រាវដោយប្រើភាសាធម្មជាតិ។ សេវាកម្មនេះប្រើប្រាស់ភ្នាក់ងារ AI ជំនាញ និងប្រភពទិន្នន័យដែលបានតភ្ជាប់ដើម្បីដំណើរការសំណើរបស់អ្នកប្រើប្រាស់ និងបំពេញកិច្ចការដដែលៗ។ ភ្នាក់ងារអាចដំណើរការតាមរយៈការជជែក ឬទម្លាប់ស្វ័យប្រវត្តិ ដោយទាញយកទិន្នន័យពីចន្លោះទិន្នន័យ មូលដ្ឋានចំណេះដឹង និងផ្ទាំងគ្រប់គ្រង។",
+   "impact": "អ្នកប្រើប្រាស់បច្ចេកវិទ្យា និងអ្នកអភិវឌ្ឍន៍អាចសម្រួលការងារដដែលៗដោយបង្កើតវាទៅជាជំនាញដែលអាចប្រើឡើងវិញបាន និងភ្នាក់ងារ AI ផ្ទាល់ខ្លួននៅក្នុង AWS Quick។ ក្រុមសន្តិសុខអាចទទួលបានអត្ថប្រយោជន៍ពីការដែលភ្នាក់ងារត្រូវបានកំណត់ដោយសិទ្ធិអ្នកប្រើប្រាស់ ដែលកម្រិតការចូលប្រើប្រាស់ត្រឹមតែធនធានដែលបានអនុញ្ញាតប៉ុណ្ណោះ។",
+   "keyPoints": [
+    "AWS Quick គឺជាសេវាកម្មដើរដោយ AI សម្រាប់ស្វ័យប្រវត្តិកម្មកិច្ចការ និងការវិភាគទិន្នន័យ។",
+    "ភ្នាក់ងារនៅក្នុង AWS Quick ប្រើប្រាស់ការណែនាំ ជំនាញ និងប្រភពទិន្នន័យដើម្បីបំពេញកិច្ចការតាមរយៈការជជែក។",
+    "អ្នកប្រើប្រាស់អាចប្រើប្រាស់ភ្នាក់ងារលំនាំដើម ឬបង្កើត និងចែករំលែកភ្នាក់ងារផ្ទាល់ខ្លួនសម្រាប់កិច្ចការជាក់លាក់។",
+    "ប្រភពទិន្នន័យរួមមានចន្លោះទិន្នន័យ មូលដ្ឋានចំណេះដឹងដែលបានធ្វើសមកាលកម្ម និងផ្ទាំងគ្រប់គ្រងពី AWS Quick Sight ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Quick 中的技能和代理是如何工作的",
+   "summary": "AWS Quick 是一项由人工智能驱动的服务，用于使用自然语言自动化任务、分析数据、构建网络应用程序以及进行研究。该服务利用 AI 代理、技能和连接的数据源来处理用户请求并执行重复性工作流程。代理可以通过聊天或例行程序运行，利用数据空间、知识库、数据集和仪表板。用户可以使用默认内置的 Quick agent，也可以针对特定工作配置自定义 agent 并与团队共享。",
+   "impact": "技术用户和开发人员可以通过将重复工作流编码为 AWS Quick 中的可重用技能和自定义 AI 代理来简化工作流。安全团队可能会赞赏代理受到用户级权限和显式配置的限制，从而仅将访问权限限制在授权资源内。",
+   "keyPoints": [
+    "AWS Quick 是一项用于自动化任务、分析数据、构建网络应用程序和进行研究的 AI 驱动服务。",
+    "AWS Quick 中的代理使用指令、技能、连接器和连接的数据源通过聊天或例行程序完成任务。",
+    "用户可以利用默认内置的 Quick agent，或者创建和共享针对特定工作配置的自定义 agent。",
+    "数据来源包括空间、从外部服务同步的知识库以及来自 AWS Quick Sight 的数据集和仪表板。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Quick에서 스킬과 에이전트가 작동하는 방식",
+   "summary": "AWS Quick은 자연어를 사용하여 작업을 자동화하고, 데이터를 분석하고, 웹 응용 프로그램을 구축하고, 연구를 수행하는 AI 기반 서비스입니다. 이 서비스는 AI 에이전트, 스킬, 연결된 데이터 소스를 사용하여 사용자 요청을 처리하고 반복 가능한 워크플로를 실행합니다. 에이전트는 채팅 또는 독립 실행형 루틴을 통해 작동하며 데이터 공간, 지식 베이스, 데이터 세트, 대시보드를 활용합니다. 사용자는 기본 제공 Quick 에이전트를 사용하거나 특정 작업을 위한 커스텀 에이전트를 구성하여 공유할 수 있습니다.",
+   "impact": "기술 사용자 및 개발자는 AWS Quick 내에서 반복적인 워크플로를 재사용 가능한 스킬과 커스텀 AI 에이전트로 인코딩하여 간소화할 수 있습니다. 보안 팀은 에이전트가 사용자 수준 권한 및 명시적 구성에 의해 제한되어 승인된 리소스에만 액세스할 수 있다는 점을 유용하게 활용할 수 있습니다.",
+   "keyPoints": [
+    "AWS Quick은 작업 자동화, 데이터 분석, 웹 앱 구축 및 연구를 위한 AI 기반 서비스입니다.",
+    "AWS Quick의 에이전트는 지침, 스킬, 커넥터, 연결된 데이터 소스를 사용하여 채팅이나 루틴을 통해 작업을 완료합니다.",
+    "사용자는 기본 제공 Quick 에이전트를 사용하거나 특정 업무용으로 구성된 커스텀 에이전트를 만들고 공유할 수 있습니다.",
+    "데이터 소스에는 공간, 외부 서비스에서 동기화된 지식 베이스, AWS Quick Sight의 데이터 세트 및 대시보드가 포함됩니다."
+   ]
+  }
+ }
+}

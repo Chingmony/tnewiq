@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "86b4ba3155e4ca0c",
+ "contentHash": "b1823d4c2a862a43",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-10T04:44:19.863Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "llm-anthropic 0.31",
+   "summary": "Anthropic has released Fable 5.2 and Mythos 5.2, which have been added to llm-anthropic version 0.31. Users can now run prompts through Fable 5.2 using the updated tool. Testing across reasoning levels showed that the xhigh reasoning level produced results, while the max setting ran out of tokens.",
+   "impact": "Developers and users working with llm-anthropic and Claude models may encounter token exhaustion bugs at the max reasoning level, similar to issues seen with Opus 5.5.",
+   "keyPoints": [
+    "Anthropic released Fable 5.2 and Mythos 5.2.",
+    "llm-anthropic 0.31 adds support for the new models.",
+    "The max reasoning level failed to return an image due to running out of tokens."
+   ]
+  },
+  "km": {
+   "title": "llm-anthropic 0.31",
+   "summary": "Anthropic បានបញ្ចេញ Fable 5.2 និង Mythos 5.2 ដែលត្រូវបានបន្ថែមទៅក្នុង llm-anthropic ។ អ្នកប្រើប្រាស់ឥឡូវនេះអាចដំណើរការបញ្ជាតាមរយៈ Fable 5.2 បាន។ ការធ្វើតេស្តបានបង្ហាញថា កម្រិតហេតុផល xhigh ដំណើរការបានល្អ ខណៈពេលដែលកម្រិត max បានអស់តូខែន។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់អាចនឹងជួបប្រទះបញ្ហាកង្វះតូខែននៅកម្រិតហេតុផល max ស្រដៀងនឹងបញ្ហាដែលបានឃើញនៅលើ Opus 5.5។",
+   "keyPoints": [
+    "Anthropic បានបញ្ចេញ Fable 5.2 និង Mythos 5.2។",
+    "llm-anthropic 0.31 គាំទ្រម៉ូដែលថ្មីទាំងនេះ។",
+    "កម្រិត max មិនអាចត្រឡប់លទ្ធផលបានទេដោយសារអស់តូខែន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "llm-anthropic 0.31",
+   "summary": "Anthropic发布了Fable 5.2和Mythos 5.2，这些模型已被添加至llm-anthropic中。用户现在可以通过Fable 5.2运行提示词。测试显示，xhigh推理级别成功返回了结果，而max设置则因耗尽Token而失败。",
+   "impact": "开发者和技术用户在使用llm-anthropic和相关Claude模型时，可能会在最高推理级别遇到Token耗尽的漏洞，类似于Opus 5.5中出现的问题。",
+   "keyPoints": [
+    "Anthropic发布了Fable 5.2和Mythos 5.2。",
+    "llm-anthropic 0.31已加入对新模型的支持。",
+    "max推理级别在消耗128000个Token后耗尽并失败。"
+   ]
+  },
+  "ko": {
+   "title": "llm-anthropic 0.31",
+   "summary": "Anthropic이 Fable 5.2와 Mythos 5.2를 출시했으며, 이는 llm-anthropic에 추가되었습니다. 이제 사용자는 Fable 5.2를 통해 프롬프트를 실행할 수 있습니다. 추론 수준별 테스트에서 xhigh 수준은 결과를 반환한 반면, max 설정은 토큰이 소모되어 실패했습니다.",
+   "impact": "개발자와 기술 사용자는 llm-anthropic 및 관련 모델을 사용할 때 Opus 5.5에서 보았던 것과 유사한 최대 추론 수준에서의 토큰 소모 버그를 겪을 수 있습니다.",
+   "keyPoints": [
+    "Anthropic이 Fable 5.2와 Mythos 5.2를 출시함.",
+    "llm-anthropic 0.31에 새로운 모델들이 추가됨.",
+    "max 추론 수준에서는 토큰이 소모되어 이미지를 반환하지 못함."
+   ]
+  }
+ }
+}

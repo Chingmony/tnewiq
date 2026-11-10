@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "418eeb70a29cce34",
+ "contentHash": "88702b75dfff09b6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-10T04:46:49.574Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon DocumentDB Serverless now provides up to 35% higher throughput",
+   "summary": "Amazon DocumentDB Serverless has launched platform version 4, offering up to 35 percent higher throughput. New serverless clusters automatically launch on the latest version available in an AWS Region. Existing clusters on platform version 3 can be upgraded by applying a pending maintenance action.",
+   "impact": "This upgrade could improve performance and scaling capabilities for workloads running on Amazon DocumentDB Serverless. Developers and database administrators may experience higher throughput after transitioning their clusters to platform version 4.",
+   "keyPoints": [
+    "Platform version 4 delivers up to 35 percent higher throughput.",
+    "New serverless clusters automatically use the latest available platform version.",
+    "Existing clusters on version 3 can be upgraded via the serverless-platform-version-update maintenance action.",
+    "Upgrades are irreversible, and cluster platform versions can be checked using the AWS console or API."
+   ]
+  },
+  "km": {
+   "title": "Amazon DocumentDB Serverless ឥឡូវនេះផ្តល់នូវកម្រិតបញ្ជូនខ្ពស់ជាងមុនរហូតដល់ 35%",
+   "summary": "Amazon DocumentDB Serverless បានដាក់ឱ្យប្រើប្រាស់កំណែវេទិកា 4 ដែលផ្តល់នូវកម្រិតបញ្ជូនខ្ពស់ជាងមុនរហូតដល់ 35%។ កላስተរ serverless ថ្មីទាំងអស់នឹងដំណើរការដោយស្វ័យប្រវត្តិនូវកំណែវេទិកាចុងក្រោយបំផុត។ កላስተរដែលមានស្រាប់នៅលើកំណែ 3 អាចត្រូវបានដំឡើងកំណែតាមរយៈសកម្មភាពថែទាំដែលកំពុងរង់ចាំ។",
+   "impact": "ការអាប់ដេតនេះអាចជួយបង្កើនដំណើរការ និងសមត្ថភាពធ្វើមាត្រដ្ឋានសម្រាប់អ្នកប្រើប្រាស់បច្ចេកវិទ្យា និងក្រុមការងារ។ អ្នកអភិវឌ្ឍន៍អាចទទួលបានអត្ថប្រយោជន៍ពីកម្រិតបញ្ជូនដែលបានកើនឡើងបន្ទាប់ពីធ្វើបច្ចុប្បន្នភាពកላስተរ។",
+   "keyPoints": [
+    "កំណែវេទិកា 4 ផ្តល់នូវកម្រិតបញ្ជូនខ្ពស់ជាងមុនរហូតដល់ 35%។",
+    "កបន្នសាស្ត្រ serverless ថ្មីប្រើប្រាស់កំណែវេទិកាចុងក្រោយបំផុតដោយស្វ័យប្រវត្តិ។",
+    "កላስተរនៅលើកំណែ 3 អាចដំឡើងកំណែទៅកំណែ 4 បាន។",
+    "មិនអាចទម្លាក់កំណែវិញបានទេបន្ទាប់ពីបានដំឡើងរួច។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon DocumentDB Serverless 现在提供高达 35% 的更高吞吐量",
+   "summary": "Amazon DocumentDB Serverless 现已推出平台版本 4，吞吐量提升高达 35%。所有新的无服务器集群都会在 AWS 区域中提供的最新平台版本上启动。使用平台版本 3 的现有集群可以通过应用挂起的维护操作升级到平台版本 4。",
+   "impact": "此项更新可能会为使用 Amazon DocumentDB Serverless 的技术用户带来更好的性能和扩展能力。开发人员和团队在升级到新平台版本后可能会获得更高的吞吐量。",
+   "keyPoints": [
+    "平台版本 4 提供了高达 35% 的更高吞吐量。",
+    "所有新的无服务器集群都在最新的可用平台版本上启动。",
+    "现有集群可以通过维护操作从版本 3 升级到版本 4。",
+    "升级后无法降级回以前的版本。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon DocumentDB Serverless, 이제 최대 35% 더 높은 처리량 제공",
+   "summary": "Amazon DocumentDB Serverless가 플랫폼 버전 4를 출시하여 최대 35% 더 높은 처리량을 제공합니다. 모든 신규 서버리스 클러스터는 AWS 리전에서 사용 가능한 최신 플랫폼 버전으로 실행됩니다. 플랫폼 버전 3을 사용하는 기존 클러스터는 대기 중인 유지 관리 작업을 적용하여 업그레이드할 수 있습니다.",
+   "impact": "이번 업데이트는 기술 사용자들과 개발자들에게 향상된 성능과 확장 기능을 제공할 수 있습니다. 클러스터를 플랫폼 버전 4로 업그레이드한 후 더 높은 처리량을 경험할 수 있습니다.",
+   "keyPoints": [
+    "플랫폼 버전 4는 최대 35% 더 높은 처리량을 제공합니다.",
+    "신규 서버리스 클러스터는 최신 플랫폼 버전에서 자동으로 실행됩니다.",
+    "버전 3의 기존 클러스터는 유지 관리 작업을 통해 업그레이드할 수 있습니다.",
+    "새 버전으로 업그레이드한 후에는 이전 버전으로 다운그레이드할 수 없습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d132fed0b7209adb",
+ "contentHash": "04bd7987ca424950",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-10T04:42:29.940Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "ip2region 3.19.0 Released - Data Update & Logstash Plugin & CI Testing",
+   "summary": "ip2region has released version 3.19.0, bringing data updates, a Logstash plugin, and CI testing. ip2region is an offline IP data management framework and positioning library supporting both IPv4 and IPv6. It supports hundreds of millions of IP segment management with microsecond-level query performance and provides xdb generation and query implementations for major programming languages.",
+   "impact": "Developers and technology users utilizing IP management and location services could benefit from improved performance, updated data, and integration options like the Logstash plugin. Teams relying on offline IP tools may find the new release useful for scaling and testing.",
+   "keyPoints": [
+    "ip2region version 3.19.0 has been released.",
+    "The release includes data updates, a Logstash plugin, and CI testing.",
+    "It supports both IPv4 and IPv6 with microsecond-level query performance."
+   ]
+  },
+  "km": {
+   "title": "ip2region 3.19.0 ត្រូវបានចេញផ្សាយ - ការអាប់ដេតទិន្នន័យ ជំនួយការ Logstash និងការធ្វើតេស្ត CI",
+   "summary": "ip2region បានបញ្ចេញកំណែ 3.19.0 ដែលនាំមកនូវការអាប់ដេតទិន្នន័យ ជំនួយការ Logstash និងការធ្វើតេស្ត CI ។ ip2region គឺជាក្របខខណ្ឌគ្រប់គ្រងទិន្នន័យ IP ក្រៅបណ្តាញ និងបណ្ណាល័យកំណត់ទីតាំងដែលគាំទ្រทั้ง IPv4 និង IPv6 ។ វាគាំទ្រការគ្រប់គ្រងផ្នែក IP រាប់រយលានជាមួយនឹងដំណើរការស្វែងរកកម្រិតមីក្រូវិនាទី និងផ្តល់នូវការអនុវត្តការបង្កើត និងស្វែងរកទម្រង់ xdb សម្រាប់ភាសាកម្មវិធីសំខាន់ៗ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលប្រើប្រាស់សេវាកម្មគ្រប់គ្រង IP និងទីតាំងអាចទទួលបានអត្ថប្រយោជន៍ពីការអនុវត្តដែលប្រសើរឡើង ទិន្នន័យដែលបានអាប់ដេត និងជម្រើសរួមបញ្ចូលគ្នាដូចជា Logstash ។ ក្រុមការងារដែលពឹងផ្អែកលើឧបករណ៍ IP ក្រៅបណ្តាញអាចរកឃើញថាកំណែថ្មីនេះមានប្រយោជន៍សម្រាប់ការធ្វើមាត្រដ្ឋាន និងការធ្វើតេស្ត។",
+   "keyPoints": [
+    "ip2region កំណែ 3.19.0 ត្រូវបានចេញផ្សាយ។",
+    "កំណែនេះរួមបញ្ចូលទាំងការអាប់ដេតទិន្នន័យ ជំនួយការ Logstash និងការធ្វើតេស្ត CI ។",
+    "វាគាំទ្រទាំង IPv4 និង IPv6 ជាមួយនឹងដំណើរការស្វែងរកកម្រិតមីក្រូវិនាទី។"
+   ]
+  },
+  "zh-CN": {
+   "title": "ip2region 3.19.0 发布 - 数据更新 & Logstash 插件 & CI 测试",
+   "summary": "ip2region 发布了 3.19.0 版本，带来了数据更新、Logstash 插件以及 CI 测试。ip2region 是一个离线的 IP 数据管理框架和定位库，支持 IPv4 和 IPv6，具备亿级别 IP 段管理能力和微秒级查询性能，并为主流编程语言提供了 xdb 数据格式的生成与查询实现。",
+   "impact": "使用 IP 管理和定位服务的开发者和技术用户可以从性能提升、更新的数据以及 Logstash 插件等集成选项中受益。依赖离线 IP 工具的团队可能会发现新版本对扩展和测试有所帮助。",
+   "keyPoints": [
+    "ip2region 发布了 3.19.0 版本。",
+    "该版本包含数据更新、Logstash 插件和 CI 测试。",
+    "支持 IPv4 和 IPv6 并具有微秒级别的查询性能。"
+   ]
+  },
+  "ko": {
+   "title": "ip2region 3.19.0 출시 - 데이터 업데이트 & Logstash 플러그인 & CI 테스트",
+   "summary": "ip2region이 버전 3.19.0을 출시하여 데이터 업데이트, Logstash 플러그인 및 CI 테스트를 제공합니다. ip2region은 IPv4와 IPv6를 모두 지원하는 오프라인 IP 데이터 관리 프레임워크이자 위치 지정 라이브러리입니다. 억 단위의 IP 대역 관리와 마이크로초 수준의 조회 성능을 지원하며 주요 프로그래밍 언어를 위한 xdb 데이터 형식 생성 및 조회 구현을 제공합니다.",
+   "impact": "IP 관리 및 위치 서비스를 사용하는 개발자와 기술 사용자는 성능 향상, 업데이트된 데이터, Logstash 플러그인과 같은 통합 옵션의 혜택을 누릴 수 있습니다. 오프라인 IP 도구에 의존하는 팀은 확장 및 테스트를 위해 새로운 릴리스가 유용하다고 판단할 수 있습니다.",
+   "keyPoints": [
+    "ip2region 버전 3.19.0이 출시되었습니다.",
+    "이번 릴리스에는 데이터 업데이트, Logstash 플러그인 및 CI 테스트가 포함되어 있습니다.",
+    "마이크로초 수준의 조회 성능으로 IPv4와 IPv6를 모두 지원합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "eed4836e7cfb5ee4",
+ "contentHash": "ccc3e8b3f5af69b1",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-10T04:46:59.806Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Athena introduces system tables for observability, auditing, and usage analytics",
+   "summary": "Amazon Athena has launched system tables that automatically capture usage data for observability, auditing, and usage analysis. The feature stores data as service-managed, read-only Apache Iceberg tables on Amazon S3 Tables, enabling direct querying via SQL. AWS handles table management tasks like partitioning, compaction, and schema definition.",
+   "impact": "This feature could help platform teams build cost allocation dashboards and analyze usage without custom ETL pipelines. Technology users and security teams may also benefit from simplified auditing and the ability to query usage data using various Iceberg-compatible engines.",
+   "keyPoints": [
+    "Amazon Athena now offers system tables for usage data and observability.",
+    "Data is stored as service-managed Apache Iceberg tables on Amazon S3 Tables.",
+    "AWS manages schema definitions, partitioning, compaction, and maintenance.",
+    "System tables can be queried using Athena, DuckDB, Amazon Redshift, and Amazon EMR."
+   ]
+  },
+  "km": {
+   "title": "Amazon Athena ដាក់ឱ្យដំណើរការតារាងប្រព័ន្ធសម្រាប់ការសង្កេត ការពិនិត្យសវនកម្ម និងការវិភាគការប្រើប្រាស់",
+   "summary": "Amazon Athena ឥឡូវនេះផ្តល់ជូននូវតារាងប្រព័ន្ធដែលចាប់យកទិន្នន័យប្រើប្រាស់ដោយស្វ័យប្រវត្តិសម្រាប់តម្រូវការសង្កេត ការវិភាគ និងសវនកម្ម។ ទិន្នន័យនេះត្រូវបានរក្សាទុកជាតារាង Apache Iceberg ដែលគ្រប់គ្រងដោយសេវាកម្មនៅលើ Amazon S3 Tables ដែលអនុញ្ញាតឱ្យធ្វើការសំណួរទិន្នន័យដោយផ្ទាល់។ AWS គ្រប់គ្រងការថែទាំ ការបែងចែក និងរចនាសម្ព័ន្ធតារាងជំនួសអ្នកប្រើប្រាស់។",
+   "impact": "មុខងារនេះអាចជួយក្រុមការងារបង្កើតផ្ទាំងគ្រប់គ្រងថ្លៃដើម និងវិភាគការប្រើប្រាស់ដោយមិនចាំបាច់មានបំពង់បង្ហូរទិន្នន័យផ្ទាល់ខ្លួន។ ក្រុមការងារសន្តិសុខ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក៏អាចទទួលបានអត្ថប្រយោជន៍ពីការពិនិត្យសវនកម្មដ៏ងាយស្រួលផងដែរ។",
+   "keyPoints": [
+    "Amazon Athena ឥឡូវនេះមានតារាងប្រព័ន្ធសម្រាប់ទិន្នន័យប្រើប្រាស់។",
+    "ទិន្នន័យត្រូវបានរក្សាទុកជាតារាង Apache Iceberg នៅលើ Amazon S3 Tables។",
+    "AWS គ្រប់គ្រងការថែទាំ និងការកំណត់រចនាសម្ព័ន្ធតារាង។",
+    "អាចធ្វើការសំណួរទិន្នន័យតាមរយៈ Athena និងម៉ាស៊ីនផ្សេងទៀតដែលស្របតាម Iceberg។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Athena 推出用于可观测性、审计和使用分析的系统表",
+   "summary": "Amazon Athena 现已推出系统表，可自动捕获使用数据以用于可观测性、使用分析和审计。启用后，数据会作为托管的只读 Apache Iceberg 表存储在 Amazon S3 Tables 上，支持通过 SQL 直接查询。AWS 负责管理表的架构定义、分区、压缩和维护，从而消除了运维负担。",
+   "impact": "此功能可以帮助平台团队构建成本分摊仪表板，并在没有自定义 ETL 的情况下分析使用情况。开发人员和安全团队也可能从简化的审计以及使用各种兼容 Iceberg 的引擎查询数据的能力中受益。",
+   "keyPoints": [
+    "Amazon Athena 推出用于捕获使用数据的系统表。",
+    "数据作为托管的 Apache Iceberg 表存储在 Amazon S3 Tables 上。",
+    "AWS 负责处理架构定义、分区和快照维护等任务。",
+    "可以使用 Athena、DuckDB、Amazon Redshift 或 Amazon EMR 直接查询数据。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Athena, 관측 가능성, 감사 및 사용량 분석을 위한 시스템 테이블 출시",
+   "summary": "Amazon Athena는 관측 가능성, 사용량 분석 및 감사 유스케이스를 위해 사용 데이터를 자동으로 수집하는 시스템 테이블을 출시했습니다. 사용 데이터는 Amazon S3 Tables에 서비스 관리형 읽기 전용 Apache Iceberg 테이블로 저장되며, SQL을 사용하여 직접 쿼리할 수 있습니다. AWS는 스키마 정의, 파티셔닝, 컴팩션 등의 테이블 관리를 처리합니다.",
+   "impact": "이 기능은 플랫폼 팀이 사용자 정의 ETL 없이 비용 할당 대시보드를 구축하고 사용량을 분석하는 데 도움을 줄 수 있습니다. 개발자와 보안 팀은 간소화된 감사 기능과 다양한 Iceberg 호환 엔진을 통한 데이터 쿼리 이점을 누릴 수 있습니다.",
+   "keyPoints": [
+    "Amazon Athena가 사용 데이터 수집을 위한 시스템 테이블을 제공합니다.",
+    "데이터는 Amazon S3 Tables에 Apache Iceberg 테이블로 저장됩니다.",
+    "AWS가 스키마 정의, 파티셔닝, 컴팩션 및 유지 관리를 관리합니다.",
+    "Athena, DuckDB, Amazon Redshift 등 호환 엔진을 통해 쿼리할 수 있습니다."
+   ]
+  }
+ }
+}
