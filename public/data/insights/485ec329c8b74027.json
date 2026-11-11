@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "485ec329c8b74027",
+ "contentHash": "440988ddac4d7520",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T22:49:16.362Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Gemini Decisions API",
+   "summary": "Google has entered the decision model category with the release of Gemini Decision 1, joining Jev and OpenAI. The new API supports three types of questions including yes/no, choice, and rubric-scoring, and features multi-modal capabilities covering text, images, audio, video, and PDFs. It is priced at 10 cents per million input tokens with free output, matching OpenAI's GPT-6 Luna pricing.",
+   "impact": "Developers and technology users working with decision models now have an additional option that supports multi-modal inputs like video and audio, though confidence scores may differ from other providers.",
+   "keyPoints": [
+    "Google released Gemini Decision 1 in the decision model category.",
+    "Supports text, images, audio, video, and PDFs.",
+    "Priced at 10 cents per million input tokens with free output.",
+    "Returns probability scores for yes/no questions rather than absolute 1.0 or 0.0 values."
+   ]
+  },
+  "km": {
+   "title": "Gemini Decisions API",
+   "summary": "Google បានចូលរួមក្នុងប្រភេទម៉ូเดលសម្រេចចិត្តជាមួយ Gemini Decision 1 ដោយចូលរួមជាមួយ Jev និង OpenAI។ API ថ្មីនេះគាំទ្រសំណួរបីប្រភេទ និងផ្តល់នូវសមត្ថភាពពហុទម្រង់ពេញលេញដែលគ្របដណ្តប់លើអត្ថបទ រូបភាព សំឡេង វីដេអូ និង PDF។ វាមានតម្លៃ ១០ សេនក្នុងមួយលានថូខឹនបញ្ចូល ជាមួយនឹងការបញ្ចេញដោយឥតគិតថ្លៃ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចប្រើប្រាស់ជម្រើសថ្មីនេះសម្រាប់កិច្ចការសម្រេចចិត្តដែលទាមទារការបញ្ចូលពហុទម្រង់ដូចជាវីដេអូ និងសំឡេង។",
+   "keyPoints": [
+    "Google បានបញ្ចេញ Gemini Decision 1។",
+    "គាំទ្រអត្ថបទ រូបភាព សំឡេង វីដេអូ និង PDF។",
+    "មានតម្លៃ ១០ សេនក្នុងមួយលានថូខឹនបញ្ចូល និងបញ្ចេញដោយឥតគិតថ្លៃ។",
+    "ត្រឡប់មកវិញនូវពិន្ទុប្រូបាប៊ីលីតេសម្រាប់សំណួរព្រម/ទេ ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Gemini Decisions API",
+   "summary": "谷歌推出了名为 Gemini Decision 1 的决策模型，正式加入 Jev 和 OpenAI 的决策模型阵营。该全新模型 API 支持三种类型的问题，并且完全支持文本、图像、音频、视频和 PDF 等多模态内容。其定价为每百万输入 Token 10 美分，输出免费，与 OpenAI 的 GPT-6 Luna 价格相同。",
+   "impact": "开发者和技术用户在处理需要多模态输入的决策任务时多了一个新选择，Gemini Decision 1 会返回具体的概率值而非绝对的布尔值。",
+   "keyPoints": [
+    "谷歌发布了 Gemini Decision 1 决策模型。",
+    "全面支持文本、图像、音频、视频和 PDF。",
+    "输入价格为每百万 Token 10 美分，输出免费。",
+    "对于是/否类型的问题，模型返回的是概率值。"
+   ]
+  },
+  "ko": {
+   "title": "Gemini Decisions API",
+   "summary": "구글이 Jev 및 OpenAI와 함께 결정 모델 카테고리에 합류하며 Gemini Decision 1을 공개했다. 이 새로운 모델 API는 세 가지 질문 유형을 지원하며 텍스트, 이미지, 오디오, 비디오, PDF를 포괄하는 완전한 멀티모달 기능을 제공한다. 가격은 입력 토큰 100만 개당 10센트이며 출력은 무료이다.",
+   "impact": "개발자와 기술 사용자들은 비디오와 오디오 같은 멀티모달 입력을 처리할 수 있는 새로운 결정 모델 옵션을 활용할 수 있게 되었다.",
+   "keyPoints": [
+    "구글이 결정 모델 카테고리에 Gemini Decision 1을 출시함.",
+    "텍스트, 이미지, 오디오, 비디오, PDF를 지원함.",
+    "입력 토큰 100만 개당 10센트, 출력 무료로 책정됨.",
+    "예/아니오 질문에 대해 확률 값을 반환함."
+   ]
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "articleId": "460872e68e9eeabb",
+ "contentHash": "4101cf47ddfdde48",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T22:54:05.968Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "llm 0.37.2",
+   "summary": "LLM version 0.37.2 has been released to fix a security issue reported by Daniel de Araujo, tracked under GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w. The bug involves the extra-openai-models.yaml mechanism, which is used for OpenAI-compatible API endpoints from other providers. It could accidentally send a configured OpenAI API key to third-party providers under certain conditions.",
+   "impact": "Security teams and users utilizing custom OpenAI-compatible API endpoints could be affected by unintended API key exposure. Updating to version 0.37.2 may help prevent the accidental leaking of stored or configured keys.",
+   "keyPoints": [
+    "llm 0.37.2 fixes a security issue reported by Daniel de Araujo.",
+    "Tracked as GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w.",
+    "Involves the extra-openai-models.yaml mechanism for OpenAI-compatible endpoints.",
+    "Addressed issues where OpenAI API keys could be accidentally sent to other providers."
+   ]
+  },
+  "km": {
+   "title": "llm 0.37.2",
+   "summary": "កម្មវិធី LLM កំណែ 0.37.2 ត្រូវបានចេញផ្សាយដើម្បីជួសជុលបញ្ហាសុវត្ថិភាពមួយដែលត្រូវបានរាយការណ៍ដោយ Daniel de Araujo ក្រោមលេខសម្គាល់ GHSA-v9h7-jj4g-f862 និង GHSA-r639-rr7r-x72w។ កំហុសនេះទាក់ទងនឹងយន្តការ extra-openai-models.yaml ដែលអាចផ្ញើកូនសោ API របស់ OpenAI ទៅកាន់អ្នកផ្តល់សេវាផ្សេងទៀតដោយចៃដន្យ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់អាចប្រឈមមុខនឹងការលេចធ្លាយកូនសោ API ក្រោមលក្ខខណ្ឌជាក់លាក់។ ការអាប់ដេតទៅកាន់កំណែ 0.37.2 អាចជួយការពារការបញ្ជូនកូនសោទៅកាន់អ្នកផ្តល់សេវាផ្សេងទៀតដោយអចេតនា។",
+   "keyPoints": [
+    "llm 0.37.2 បានជួសជុលបញ្ហាសុវត្ថិភាពដែលរាយការណ៍ដោយ Daniel de Araujo។",
+    "បានតាមដានក្រោម GHSA-v9h7-jj4g-f862 និង GHSA-r639-rr7r-x72w។",
+    "ពាក់ព័ន្ធនឹងយន្តការ extra-openai-models.yaml។"
+   ]
+  },
+  "zh-CN": {
+   "title": "llm 0.37.2",
+   "summary": "LLM 发布了 0.37.2 版本，修复了由 Daniel de Araujo 报告的安全问题，编号为 GHSA-v9h7-jj4g-f862 和 GHSA-r639-rr7r-x72w。该问题与 extra-openai-models.yaml 机制有关，在特定情况下可能会意外将配置的 OpenAI API 密钥发送给其他提供商。",
+   "impact": "使用 OpenAI 兼容 API 端点的用户和开发人员可能会面临 API 密钥意外泄露的风险。升级到 0.37.2 版本可以防止密钥在未经授权的情况下发送给第三方提供商。",
+   "keyPoints": [
+    "llm 0.37.2 修复了 Daniel de Araujo 报告的安全问题。",
+    "安全漏洞追踪编号为 GHSA-v9h7-jj4g-f862 和 GHSA-r639-rr7r-x72w。",
+    "涉及 extra-openai-models.yaml 机制。",
+    "修复了可能导致 API 密钥意外发送给其他提供商的问题。"
+   ]
+  },
+  "ko": {
+   "title": "llm 0.37.2",
+   "summary": "LLM 0.37.2 버전이 출시되어 Daniel de Araujo가 보고한 GHSA-v9h7-jj4g-f862 및 GHSA-r639-rr7r-x72w 보안 문제를 해결했습니다. 이 문제는 extra-openai-models.yaml 메커니즘과 관련이 있으며, 특정 조건에서 구성된 OpenAI API 키가 다른 제공업체로 실수로 전송될 수 있는 버그를 수정합니다.",
+   "impact": "타사 OpenAI 호환 API 엔드포인트를 사용하는 기술 사용자 및 보안 팀은 API 키의 의도치 않은 유출 위험을 겪을 수 있습니다. 0.37.2 버전으로 업데이트하면 키가 다른 제공업체로 전송되는 사고를 방지하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "llm 0.37.2는 Daniel de Araujo가 보고한 보안 문제를 수정합니다.",
+    "GHSA-v9h7-jj4g-f862 및 GHSA-r639-rr7r-x72w로 추적됩니다.",
+    "extra-openai-models.yaml 메커니즘과 관련된 문제를 다룹니다."
+   ]
+  }
+ }
+}

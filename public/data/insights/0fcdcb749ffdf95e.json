@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0fcdcb749ffdf95e",
+ "contentHash": "1bc842e4419e9fb3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T22:47:06.265Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "ICYMI: What landed for AI builders in October 2026",
+   "summary": "AWS highlighted several new AI releases and updates for builders in October 2026 across Amazon Bedrock, Amazon Bedrock AgentCore, and Strands. The updates include new model options like Claude Haiku 5.5, OpenAI GPT-6.1 Terra, Amazon Nova 2.5 Sonic, GLM 5.3, and TwelveLabs Pegasus 1.5. These additions aim to help developers manage cost, speed, reliability, and security for agents and AI workloads.",
+   "impact": "Developers and technology teams could use these new models and tools to build more cost-effective, scalable, and reliable AI agents while maintaining better control over workloads and budgets. Security teams and regulated sectors also gain access to additional models within AWS GovCloud (US).",
+   "keyPoints": [
+    "Claude Haiku 5.5 offers cost-sensitive subagent capabilities with effort controls at roughly 75 percent lower cost than Claude Haiku 4.5.",
+    "OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock, providing low-latency processing and handling up to 1 million input tokens.",
+    "Amazon Nova 2.5 Sonic delivers speech-to-speech reasoning with lower latency and improved tool-calling accuracy.",
+    "AWS GovCloud (US) added availability for models such as Claude Haiku 5.5, OpenAI GPT-5.6, and Daybreak Red."
+   ]
+  },
+  "km": {
+   "title": "ICYMI៖ អ្វីដែលបានដាក់ឱ្យប្រើប្រាស់សម្រាប់អ្នកសាងសង់ AI ក្នុងខែតុលា ឆ្នាំ២០២៦",
+   "summary": "AWS បានបង្ហាញពីការដាក់ឱ្យប្រើប្រាស់នូវមុខងារ និងបច្ចុប្បន្នភាព AI ថ្មីៗសម្រាប់អ្នកសាងសង់ក្នុងខែតុលា ឆ្នាំ២០២៦ នៅលើ Amazon Bedrock, Amazon Bedrock AgentCore និង Strands។ ការអាប់ដេតទាំងនេះរួមមានជម្រើសម៉ូដែលថ្មីៗដូចជា Claude Haiku 5.5, OpenAI GPT-6.1 Terra, Amazon Nova 2.5 Sonic, GLM 5.3 និង TwelveLabs Pegasus 1.5។ ការបន្ថែមទាំងនេះមានគោលបំណងជួយអ្នកអភិវឌ្ឍន៍ក្នុងការគ្រប់គ្រងតម្លៃ ល្បឿន ភាពជឿជាក់ និងសុវត្ថិភាពសម្រាប់ភ្នាក់ងារ និងកិច្ចការងារ AI។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងក្រុមបច្ចេកវិទ្យាអាចប្រើប្រាស់ម៉ូដែល និងឧបករណ៍ថ្មីទាំងនេះ ដើម្បីបង្កើតភ្នាក់ងារ AI ដែលមានតម្លៃសមរម្យ អាចពង្រីកបាន និងអាចទុកចិត្តបានជាងមុន ខណៈពេលដែលរក្សាបាននូវការគ្រប់គ្រងកាន់តែប្រសើរលើកិច្ចការ និងថវិកា។ ក្រុមសន្តិសុខ និងវិស័យដែលត្រូវបានគ្រប់គ្រងដោយច្បាប់ក៏ទទួលបានសិទ្ធិប្រើប្រាស់ម៉ូដែលបន្ថែមនៅក្នុង AWS GovCloud (US) ផងដែរ។",
+   "keyPoints": [
+    "Claude Haiku 5.5 ផ្តល់នូវសមត្ថភាពភ្នាក់ងាររងសម្រាប់កិច្ចការដែលងាយរងគ្រោះនឹងតម្លៃ ក្នុងតម្លៃទាបជាងប្រហែល 75 ភាគរយធៀបនឹង Claude Haiku 4.5។",
+    "OpenAI GPT-6.1 Terra ឥឡូវនេះមាននៅលើ Amazon Bedrock ដែលផ្តល់នូវការដំណើរការលឿន និងអាចផ្ទុកថូខឹនបញ្ចូលរហូតដល់ 1 លាន។",
+    "Amazon Nova 2.5 Sonic ផ្តល់នូវការយល់ដឹងពីការនិយាយទៅជាការនិយាយ ជាមួយនឹងភាពយឺតយ៉ាវទាប និងភាពត្រឹមត្រូវក្នុងការហៅឧបករណ៍កាន់តែប្រសើរ។",
+    "AWS GovCloud (US) បានបន្ថែមភាពអាចរកបានសម្រាប់ម៉ូដែលដូចជា Claude Haiku 5.5, OpenAI GPT-5.6 និង Daybreak Red។"
+   ]
+  },
+  "zh-CN": {
+   "title": "回顾：2026年10月面向AI构建者的全新发布",
+   "summary": "AWS介绍了2026年10月在Amazon Bedrock、Amazon Bedrock AgentCore和Strands中为构建者推出的多项全新AI发布与更新。这些更新包括Claude Haiku 5.5、OpenAI GPT-6.1 Terra、Amazon Nova 2.5 Sonic、GLM 5.3和TwelveLabs Pegasus 1.5等新模型选项。这些新增功能旨在帮助开发人员管理代理和AI工作负载的成本、速度、可靠性与安全性。",
+   "impact": "开发人员和技术团队可以使用这些新模型和工具来构建更具成本效益、可扩展且可靠的AI代理，同时更好地掌控工作负载和预算。安全团队和受监管行业也获得了在AWS GovCloud (US)中使用更多模型的权限。",
+   "keyPoints": [
+    "Claude Haiku 5.5为成本敏感型工作提供子代理功能，其成本比Claude Haiku 4.5低约75%。",
+    "OpenAI GPT-6.1 Terra现已在Amazon Bedrock上全面可用，支持高达100万个输入Token。",
+    "Amazon Nova 2.5 Sonic带来了更低延迟和更高工具调用准确率的语音到语音推理能力。",
+    "AWS GovCloud (US)新增了对Claude Haiku 5.5、OpenAI GPT-5.6和Daybreak Red等模型的支持。"
+   ]
+  },
+  "ko": {
+   "title": "다시 보기: 2026년 10월 AI 빌더를 위해 출시된 기능",
+   "summary": "AWS는 2026년 10월 Amazon Bedrock, Amazon Bedrock AgentCore 및 Strands에서 빌더를 위한 여러 새로운 AI 출시 및 업데이트를 강조했습니다. 이번 업데이트에는 Claude Haiku 5.5, OpenAI GPT-6.1 Terra, Amazon Nova 2.5 Sonic, GLM 5.3, TwelveLabs Pegasus 1.5와 같은 새로운 모델 옵션이 포함됩니다. 이러한 추가 기능은 개발자가 에이전트 및 AI 워크로드의 비용, 속도, 신뢰성 및 보안을 관리할 수 있도록 돕는 것을 목표로 합니다.",
+   "impact": "개발자와 기술 팀은 이러한 새로운 모델과 도구를 사용하여 비용 효율적이고 확장 가능하며 신뢰할 수 있는 AI 에이전트를 구축하는 동시에 워크로드와 예산을 더 잘 제어할 수 있습니다. 보안 팀과 규제 대상 부문도 AWS GovCloud (US) 내에서 추가 모델에 접근할 수 있게 되었습니다.",
+   "keyPoints": [
+    "Claude Haiku 5.5는 Claude Haiku 4.5에 비해 대부분의 작업에서 약 75% 낮은 비용으로 비용에 민감한 하위 에이전트 작업을 지원합니다.",
+    "OpenAI GPT-6.1 Terra는 이제 Amazon Bedrock에서 정식 출시되었으며 최대 100만 개의 입력 토큰을 처리할 수 있습니다.",
+    "Amazon Nova 2.5 Sonic은 더 낮은 지연 시간과 향상된 도구 호출 정확도로 음성 간 추론 기능을 제공합니다.",
+    "AWS GovCloud (US)에는 Claude Haiku 5.5, OpenAI GPT-5.6, Daybreak Red와 같은 모델에 대한 지원이 추가되었습니다."
+   ]
+  }
+ }
+}

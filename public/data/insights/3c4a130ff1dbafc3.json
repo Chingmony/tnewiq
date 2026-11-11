@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3c4a130ff1dbafc3",
+ "contentHash": "6d50dcb95ae673a5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T22:49:37.456Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "United won’t let your AI agent book your flight",
+   "summary": "United has stated that it will not allow personal AI assistants to book tickets on its airline. The company cited privacy and regulatory concerns regarding the use of such agents. While United has not seen many users try to book via AI agents yet, it is worried about potential issues.",
+   "impact": "This policy could affect how developers design AI booking assistants and may limit the integration of automated agents with airline booking systems. Security teams and users might need to consider these privacy and regulatory constraints when using AI for travel planning.",
+   "keyPoints": [
+    "United will not allow personal AI assistants to book tickets.",
+    "The airline cited privacy and regulatory concerns.",
+    "United is worried agents could expose customer information or cause unintended purchases.",
+    "Agents might skirt federal rules regarding information airlines must share with customers."
+   ]
+  },
+  "km": {
+   "title": "United មិនអនុញ្ញាតឱ្យភ្នាក់ងារ AI របស់អ្នកកក់ជើងហោះហើររបស់អ្នកទេ",
+   "summary": "ក្រុមហ៊ុន United បានប្រកាសថានឹងមិនអនុញ្ញាតឱ្យជំនួយការ AI ផ្ទាល់ខ្លួនកក់សំបុត្រយន្តហោះនៅលើក្រុមហ៊ុនអាកាសចរណ៍របស់ខ្លួនឡើយ។ ក្រុមហ៊ុនបានលើកឡើងពីបញ្ហាความเป็นឯកជន និងបទប្បញ្ញត្តិ។ ថ្វីបើមិនទាន់មានមនុស្សច្រើនព្យាយាមប្រើប្រាស់ភ្នាក់ងារ AI ដើម្បីកក់ជើងហោះហើរក៏ដោយ ក៏ក្រុមហ៊ុនមានការព្រួយបារម្ភផងដែរ។",
+   "impact": "គោលនយោបាយនេះអាចប៉ះពាល់ដល់អ្នកអភិវឌ្ឍន៍ក្នុងការបង្កើតជំនួយការកក់កន្លែងដោយប្រើ AI និងអាចកម្រិតការរួមបញ្ចូលគ្នារវាងភ្នាក់ងារស្វ័យប្រវត្តិជាមួយប្រព័ន្ធកក់របស់ក្រុមហ៊ុនអាកាសចរណ៍។",
+   "keyPoints": [
+    "ក្រុមហ៊ុន United មិនអនុញ្ញាតឱ្យជំនួយការ AI កក់សំបុត្រទេ។",
+    "ក្រុមហ៊ុនបានលើកឡើងពីបញ្ហាความเป็นឯកជន និងបទប្បញ្ញត្តិ។",
+    "ក្រុមហ៊ុនបារម្ភថាភ្នាក់ងារ AI អាចបញ្ចេញព័ត៌មានអតិថិជន ឬធ្វើការទិញដោយអចេតនា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "United 不允许您的 AI 代理为您预订航班",
+   "summary": "United 表示将不允许个人 AI 助手为其航空公司预订机票，理由是出于隐私和监管方面的考虑。该公司表示，根据观察，目前尚未发现有很多人尝试使用 AI 代理来预订航班。不过，United 担心这些代理可能会泄露客户信息或进行非预期的购买。",
+   "impact": "这项政策可能会影响开发人员设计 AI 预订助手的方式，并可能会限制自动化代理与航空公司预订系统的集成。安全团队和技术用户在将 AI 用于旅行规划时，可能需要考虑这些隐私和监管限制。",
+   "keyPoints": [
+    "United 不允许个人 AI 助手预订机票。",
+    "该公司引用了隐私和监管方面的担忧。",
+    "United 担心代理可能会暴露客户信息或进行非预期的购买。",
+    "代理可能会规避关于航空公司必须向客户共享信息的联邦规则。"
+   ]
+  },
+  "ko": {
+   "title": "United, AI 에이전트의 항공권 예약을 허용하지 않기로 하다",
+   "summary": "United는 개인용 AI 비서가 자사의 항공권을 예약하는 것을 허용하지 않겠다고 밝혔으며, 그 이유로 개인정보 보호 및 규제 우려를 언급했습니다. 회사는 아직 많은 사람들이 AI 에이전트를 사용하여 항공권을 예약하려고 시도하는 것을 보지 못했다고 전했습니다. 그러나 United는 에이전트가 고객 정보를 노출하거나 의도하지 않은 구매를 할 수 있다는 점을 우려하고 있습니다.",
+   "impact": "이러한 정책은 개발자가 AI 예약 비서를 설계하는 방식에 영향을 미칠 수 있으며, 자동화된 에이전트와 항공사 예약 시스템의 통합을 제한할 수 있습니다. 보안 팀과 기술 사용자는 여행 계획에 AI를 사용할 때 이러한 개인정보 보호 및 규제 제약을 고려해야 할 수 있습니다.",
+   "keyPoints": [
+    "United는 개인용 AI 비서의 항공권 예약을 허용하지 않습니다.",
+    "회사는 개인정보 보호 및 규제 우려를 이유로 들었습니다.",
+    "United는 에이전트가 고객 정보를 노출하거나 의도하지 않은 구매를 유발할 것을 우려합니다.",
+    "에이전트는 항공사가 고객과 공유해야 하는 정보에 관한 연방 규정을 우회할 수 있습니다."
+   ]
+  }
+ }
+}

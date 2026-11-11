@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "de73dbb2e2aca1a3",
+ "contentHash": "a196afbb7e13fbb2",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T22:57:08.547Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Accelerating product development with AI-driven lifecycle management (AI-PDLC) in AWS Quick",
+   "summary": "The AWS Machine Learning Blog discusses using agents built on AWS Quick to improve and expedite the product development life cycle with human approval baked into the process. The AI-Driven Product Development Lifecycle framework connects scattered enterprise signals from tools like Slack, Jira, and Salesforce into AWS Quick to build a knowledge graph. A suite of six specialized AWS Quick agents then helps teams discover, prioritize, design, and validate product requirements before handing them off to coding agents.",
+   "impact": "This framework could help development and security teams maintain traceability and context across distributed tools, potentially reducing context loss during handoffs. Technology users and developers may benefit from specifications grounded in actual customer evidence before coding begins.",
+   "keyPoints": [
+    "AWS Quick connects fragmented enterprise data from sources like Slack, Jira, Salesforce, and SharePoint.",
+    "The AI-PDLC framework utilizes six specialized AWS Quick agents led by an Orchestrator.",
+    "Human approval gates are integrated at every stage of the process.",
+    "Development tasks can be delegated to AI coding agents like Kiro or Claude Code using the Agent Client Protocol."
+   ]
+  },
+  "km": {
+   "title": "ការបង្កើនល្បឿននៃការអភិវឌ្ឍផលិតផលជាមួយការគ្រប់គ្រងវដ្តជីវិតដែលជំរុញដោយ AI នៅក្នុង AWS Quick",
+   "summary": "ប្លុក AWS Machine Learning បានពិភាក្សាអំពីការប្រើប្រាស់ភ្នាក់ងារដែលសាងសង់នៅលើ AWS Quick ដើម្បីកែលម្អ និងពន្លឿនវដ្តជីវិតនៃការអភិវឌ្ឍផលិតផលដោយមានការអនុម័តពីមនុស្ស។ ក្របខ័ណ្ឌ AI-PDLC ភ្ជាប់សញ្ញាองค์ភាពដែលរាយប៉ាយពីឧបករណ៍ដូចជា Slack, Jira និង Salesforce ទៅក្នុង AWS Quick ដើម្បីបង្កើតក្រាហ្វចំណេះដឹង។ ឈុតភ្នាក់ងារជំនាញចំនួនប្រាំមួយនៅលើ AWS Quick ជួយក្រុមការងារក្នុងការស្វែងរក ផ្តល់អាទិភាព រចនា និងផ្ទៀងផ្ទាត់តម្រូវការផលិតផល។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចជួយក្រុមអភិវឌ្ឍន៍រក្សាដាន និងបរិបទនៅទូទាំងឧបករណ៍ដែលបានចែកចាយ ដែលអាចកាត់បន្ថយការបាត់បង់បរិបទក្នុងអំឡុងពេលបញ្ជូន។ អ្នកអភិវឌ្ឍន៍អាចទទួលបានលក្ខណៈជាក់លាក់ដែលមានមូលដ្ឋានលើយោងពីអតិថិជនជាក់ស្តែងមុនពេលសរសេរកូដ។",
+   "keyPoints": [
+    "AWS Quick ភ្ជាប់ទិន្នន័យសាជីវកម្មដែលខ័ណ្ឌពីប្រភពដូចជា Slack, Jira, Salesforce និង SharePoint ។",
+    "ក្របខ័ណ្ឌ AI-PDLC ប្រើប្រាស់ភ្នាក់ងារ AWS Quick ជំនាញចំនួនប្រាំមួយ។",
+    "ច្រកទ្វារអនុម័តរបស់មនុស្សត្រូវបានរួមបញ្ចូលនៅរាល់ដំណាក់កាលទាំងអស់។",
+    "ភារកិច្ចអភិវឌ្ឍន៍អាចត្រូវបានផ្ទេរទៅឱ្យភ្នាក់ងារសរសេរកូដ AI តាមរយៈ Agent Client Protocol ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在 AWS Quick 中利用 AI 驱动的生命周期管理 (AI-PDLC) 加速产品开发",
+   "summary": "AWS 机器学习博客探讨了如何使用构建在 AWS Quick 上的代理来改善和加快产品开发生命周期，并在过程中结合人工审批。AI 驱动的产品开发生命周期框架将来自 Slack、Jira 和 Salesforce 等工具的分散企业信号连接到 AWS Quick 中，以构建知识图谱。一套由六个专业 AWS Quick agents 组成的套件随后可帮助团队发现、确定优先级、设计和验证产品需求，然后将其移交给编码代理。",
+   "impact": "该框架可以帮助开发和安全团队在分布式工具之间保持可追溯性和上下文，从而有可能减少交接过程中的上下文丢失。技术用户和开发人员可能会受益于在编码开始之前以实际客户证据为基础的规范。",
+   "keyPoints": [
+    "AWS Quick 连接来自 Slack、Jira、Salesforce 和 SharePoint 等来源的零散企业数据。",
+    "AI-PDLC 框架利用由协调器领导的六个专门的 AWS Quick 代理。",
+    "每个阶段都集成有人工审批门控。",
+    "可以使用代理客户端协议将开发任务委托给 Kiro 或 Claude Code 等 AI 编码代理。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Quick의 AI 기반 수명 주기 관리(AI-PDLC)로 제품 개발 가속화",
+   "summary": "AWS 머신러닝 블로그는 인적 승인 프로세스를 내장한 상태에서 AWS Quick 기반 에이전트를 활용하여 제품 개발 수명 주기를 개선하고 가속화하는 방법을 다룹니다. AI 기반 제품 development 라이프사이클 프레임워크는 Slack, Jira, Salesforce 등의 도구에서 분산된 기업 신호를 AWS Quick에 연결하여 지식 그래프를 구축합니다. 이후 6개의 전문 AWS Quick 에이전트로 구성된 스위트가 팀이 제품 요구 사항을 발견, 우선순위 지정, 설계 및 검증하도록 돕습니다.",
+   "impact": "이 프레임워크는 개발 및 보안 팀이 분산된 도구 전반에서 추적성과 컨텍스트를 유지하는 데 도움을 줄 수 있으며, 핸드오프 중 발생하는 컨텍스트 손실을 잠재적으로 줄일 수 있습니다. 기술 사용자와 개발자는 코딩이 시작되기 전에 실제 고객 증거를 기반으로 한 사양의 혜택을 받을 수 있습니다.",
+   "keyPoints": [
+    "AWS Quick은 Slack, Jira, Salesforce 및 SharePoint 등의 소스에서 파편화된 기업 데이터를 연결합니다.",
+    "AI-PDLC 프레임워크는 오케스트레이터가 이끄는 6개의 전문 AWS Quick 에이전트를 활용합니다.",
+    "모든 단계에 인적 승인 게이트가 통합되어 있습니다.",
+    "개발 작업은 에이전트 클라이언트 프로토콜을 사용하여 AI 코딩 에이전트에 위임할 수 있습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "964aed087794010a",
+ "contentHash": "37c74d6ed2260c5b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T22:54:26.814Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Validating GPU Platforms with Runtime AI Inventory via the NVIDIA DSX AI Factory",
+   "summary": "As teams deploy and scale AI workloads using tools like NVIDIA Dynamo, Kubeflow, or Slurm, tracking what actually runs requires visibility beyond platform configurations. Application teams define and update workloads independently of platform recipes, meaning reproducible deployment bundles alone cannot establish running workload artifacts on each node.",
+   "impact": "This lack of runtime visibility could make it difficult for teams to verify running workloads across nodes. Security and development teams may need additional tools to accurately track workload artifacts.",
+   "keyPoints": [
+    "AI workloads are deployed using NVIDIA Dynamo, Kubeflow, or Slurm.",
+    "Tracking running workloads requires visibility beyond platform configurations and recipes.",
+    "Application teams define and update workloads independently of platform recipes."
+   ]
+  },
+  "km": {
+   "title": "ការផ្ទៀងផ្ទាត់វេទិកា GPU ជាមួយនឹងសារពើភណ្ឌ AI ពេលកំពុងរត់តាមរយៈ NVIDIA DSX AI Factory",
+   "summary": "ខណៈដែលក្រុមការងារដាក់ពង្រាយ និងពង្រីកបន្ទុកការងារ AI ដោយប្រើប្រាស់ NVIDIA Dynamo, Kubeflow ឬ Slurm ការតាមដានអ្វីដែលកំពុងដំណើរការទាមទារនូវភាពមើលឃើញលើសពីការកំណត់រចនាសម្ព័ន្ធវេទិកា។ ក្រុមកម្មវិធីកំណត់ និងអាប់ដេតបន្ទុកការងារទាំងនេះដោយឯករាជ្យពី რეសិបវេទិកា ដែលធ្វើឱ្យកញ្ចប់ដាក់ពង្រាយតែឯងមិនអាចកំណត់ថាតើ工艺កងារណាមួយកំពុងដំណើរការនោះទេ។",
+   "impact": "បញ្ហានេះអាចធ្វើឱ្យក្រុមការងារមានការលំបាកក្នុងការផ្ទៀងផ្ទាត់បន្ទុកការងារដែលកំពុងដំណើរការលើโหนดនីមួយៗ។ ក្រុមសន្តិសុខ និងអភិវឌ្ឍន៍អាចត្រូវការឧបករណ៍បន្ថែមដើម្បីតាមដាន工艺កងារឱ្យបានត្រឹមត្រូវ។",
+   "keyPoints": [
+    "បន្ទុកការងារ AI ត្រូវបានដាក់ពង្រាយដោយប្រើ NVIDIA Dynamo, Kubeflow ឬ Slurm ។",
+    "ការតាមដានបន្ទុកការងារទាមទារភាពមើលឃើញលើសពីការកំណត់រចនាសម្ព័ន្ធវេទិកា។",
+    "ក្រុមកម្មវិធីកំណត់ និងអាប់ដេតបន្ទុកការងារដោយឯករាជ្យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过 NVIDIA DSX AI Factory 利用运行时 AI 清单验证 GPU 平台",
+   "summary": "随着团队使用 NVIDIA Dynamo、Kubeflow 或 Slurm 部署和扩展 AI 工作负载，跟踪实际运行的内容需要超越平台配置本身的可见性。应用程序团队独立于平台配置来定义和更新这些工作负载，因此仅靠可重复的部署包无法确定每个节点上正在运行哪些工作负载工件。",
+   "impact": "缺乏运行时可见性可能会使团队难以验证跨节点的运行工作负载。安全和开发团队可能需要额外的工具来准确跟踪工作负载工件。",
+   "keyPoints": [
+    "使用 NVIDIA Dynamo、Kubeflow 或 Slurm 部署 AI 工作负载。",
+    "跟踪运行中的工作负载需要平台配置之外的可见性。",
+    "应用程序团队独立于平台配置定义和更新工作负载。"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA DSX AI Factory를 통한 런타임 AI 인벤토리로 GPU 플랫폼 검증",
+   "summary": "팀이 NVIDIA Dynamo, Kubeflow 또는 Slurm을 사용하여 AI 워크로드를 배포하고 확장함에 따라, 실제로 실행되는 항목을 추적하려면 플랫폼 구성을 넘어선 가시성이 필요합니다. 애플리케이션 팀은 플랫폼 구성과 독립적으로 이러한 워크로드를 정의하고 업데이트하므로, 재현 가능한 배포 번들만으로는 각 노드에서 실행 중인 워크로드 아티팩트를 확인할 수 없습니다.",
+   "impact": "이러한 런타임 가시성 부족으로 인해 팀이 노드 간 실행 중인 워크로드를 검증하기 어려울 수 있습니다. 보안 및 개발 팀은 워크로드 아티팩트를 정확하게 추적하기 위해 추가 도구가 필요할 수 있습니다.",
+   "keyPoints": [
+    "AI 워크로드는 NVIDIA Dynamo, Kubeflow 또는 Slurm을 사용하여 배포됩니다.",
+    "실행 중인 워크로드를 추적하려면 플랫폼 구성을 초과하는 가시성이 필요합니다.",
+    "애플리케이션 팀은 플랫폼 구성과 독립적으로 워크로드를 정의하고 업데이트합니다."
+   ]
+  }
+ }
+}

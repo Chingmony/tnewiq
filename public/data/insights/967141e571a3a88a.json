@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "967141e571a3a88a",
+ "contentHash": "1f62f0a5a0713cfa",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T22:49:47.840Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "aws-emulator",
+   "summary": "AWS has released an official emulator that allows developers to run tests against a local clone of its services without requiring a paid API key. Written in Rust using AI agents, the project saw 29,684 commits within its first three weeks. Currently, the emulator requires Docker to run on macOS or Windows.",
+   "impact": "This tool could significantly streamline testing workflows for developers working with AWS services by enabling local, free testing. However, the current requirement for Docker and platform limitations on macOS and Windows may restrict how easily it can be integrated into all standard test suites.",
+   "keyPoints": [
+    "AWS released an official emulator for running tests against a local clone of its services.",
+    "The software is written in Rust and was built using a large swarm of AI agents, achieving 29,684 commits in three weeks.",
+    "It currently requires Docker and runs on macOS or Windows."
+   ]
+  },
+  "km": {
+   "title": "aws-emulator",
+   "summary": "AWS បានចេញផ្សាយកម្មវិធីត្រាប់តាមផ្លូវការមួយ ដែលអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍ដំណើរការសាកល្បងប្រឆាំងនឹងការក្លែងបន្លំក្នុងមូលដ្ឋាននៃសេវាកម្មរបស់ខ្លួនដោយមិនចាំបាច់មានសោ API ដែលបង់ប្រាក់នោះទេ។ វាត្រូវបានសរសេរជាភាសា Rust ដោយភ្នាក់ងារ AI ជាច្រើន ហើយមានការកែប្រែចំនួន 29,684 ក្នុងរយៈពេលបីសប្តាហ៍ដំបូង។ បច្ចុប្បន្នវាទាមទារ Docker ដើម្បីដំណើរការនៅលើ macOS ឬ Windows។",
+   "impact": "ឧបករណ៍នេះអាចសម្រួលដល់ដំណើរការសាកល្បងសម្រាប់អ្នកអភិវឌ្ឍន៍ដែលធ្វើការជាមួយសេវាកម្ម AWS ដោយអនុញ្ញាតឱ្យមានការសាកល្បងក្នុងស្រុកដោយឥតគិតថ្លៃ។ ទោះយ៉ាងណាក៏ដោយ តម្រូវការបច្ចុប្បន្នសម្រាប់ Docker និងដែនកំណត់វេទិកាអាចដាក់កម្រិតលើការរួមបញ្ចូលរបស់វា។",
+   "keyPoints": [
+    "AWS បានដាក់ចេញកម្មវិធីត្រាប់តាមផ្លូវការសម្រាប់សេវាកម្មរបស់ខ្លួន។",
+    "វាត្រូវបានសរសេរជាភាសា Rust ដោយប្រើភ្នាក់ងារ AI ។",
+    "វាត្រូវការ Docker ដើម្បីដំណើរការនៅលើ macOS ឬ Windows ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "aws-emulator",
+   "summary": "AWS 推出了一款官方模拟器，允许开发人员针对其各种服务的本地克隆运行测试，而无需配置付费的 API 密钥。该工具用 Rust 编写，由大量 AI 代理共同开发，在项目的前三周内完成了 29,684 次提交。目前，它需要 Docker 才能在 macOS 或 Windows 上运行。",
+   "impact": "该工具可以使开发人员在本地免费测试 AWS 服务，从而简化测试流程。然而，目前对 Docker 的依赖以及对 macOS 或 Windows 的平台限制可能会影响其在各种标准测试套件中的集成。",
+   "keyPoints": [
+    "AWS 发布了用于在本地运行测试的官方服务模拟器。",
+    "该项目用 Rust 编写，通过大量 AI 代理在三周内完成了 29,684 次提交。",
+    "目前需要在 macOS 或 Windows 上配合 Docker 运行。"
+   ]
+  },
+  "ko": {
+   "title": "aws-emulator",
+   "summary": "AWS는 유료 API 키를 발급받지 않고도 다양한 서비스의 로컬 복제본에 대해 테스트를 실행할 수 있는 공식 에뮬레이터를 출시했습니다. 이 프로젝트는 수많은 AI 에이전트를 통해 Rust로 작성되었으며, 프로젝트 시작 후 첫 3주 동안 29,684개의 커밋이 발생했습니다. 현재는 macOS 또는 Windows에서 실행하기 위해 Docker가 필요합니다.",
+   "impact": "이 도구는 개발자가 비용 부담 없이 로컬에서 AWS 서비스를 테스트할 수 있도록 지원하여 테스트 워크플로우를 크게 개선할 수 있습니다. 다만, 현재 Docker가 필요하다는 점과 운영체제 제약 사항으로 인해 표준 테스트 스위트 통합에 제약이 있을 수 있습니다.",
+   "keyPoints": [
+    "AWS는 서비스의 로컬 복제본에 대한 테스트를 실행할 수 있는 공식 에뮬레이터를 출시했습니다.",
+    "이 소프트웨어는 Rust로 작성되었으며 AI 에이전트를 통해 3주 만에 29,684개의 커밋을 기록했습니다.",
+    "현재 macOS 또는 Windows에서 실행하려면 Docker가 필요합니다."
+   ]
+  }
+ }
+}

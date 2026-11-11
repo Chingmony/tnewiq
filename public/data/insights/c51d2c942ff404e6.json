@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c51d2c942ff404e6",
+ "contentHash": "c4427135f79abbcd",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T22:52:51.946Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years",
+   "summary": "Google Deepmind's AlphaProof Code mathematically verified Signal's cryptographic core code in just four weeks, a task that normally requires years. AI agents powered by Gemini Carbon generated over six million lines of proof code and flagged only about one percent of it for human review. Deepmind now intends to apply this method to other critical infrastructure, such as medical devices and power grids.",
+   "impact": "This development could signal a major shift in how complex cryptographic software and critical infrastructure are verified, potentially speeding up security audits and reducing human workload. Developers and security teams may find that AI-driven formal verification tools become more widely available for testing high-stakes systems.",
+   "keyPoints": [
+    "AlphaProof Code verified Signal's cryptographic core in four weeks.",
+    "Gemini Carbon-powered AI agents wrote over six million lines of proof code.",
+    "Only about one percent of the generated proof code required human review.",
+    "Deepmind plans to use this method on critical infrastructure like power grids and medical devices."
+   ]
+  },
+  "km": {
+   "title": "AlphaProof Code របស់ Google Deepmind បានផ្ទៀងផ្ទាត់កូដស្នូលគ្រីបតូរបស់ Signal ក្នុងរយៈពេលបួនសប្តាហ៍ជំនួសឱ្យការចំណាយពេលជាច្រើនឆ្នាំ",
+   "summary": "AlphaProof Code របស់ Google Deepmind បានផ្ទៀងផ្ទាត់គណិតវិទ្យាលើកូដស្នូលគ្រីបតូរបស់ Signal ក្នុងរយៈពេលត្រឹមតែបួនសប្តាហ៍ប៉ុណ្ណោះ ដែលជាដំណើរការធម្មតាត្រូវចំណាយពេលជាច្រើនឆ្នាំ។ ភ្នាក់ងារ AI ដែលដើរដោយ Gemini Carbon បានសរសេរកូដភស្តុតាងជាងប្រាំលានបន្ទាត់ ហើយបានសម្គាល់ត្រឹមតែប្រហែលមួយភាគរយប៉ុណ្ណោះសម្រាប់ការពិនិត្យដោយមនុស្ស។ Deepmind មានគម្រោងពង្រីកវិធីសាស្ត្រនេះទៅកាន់ហេដ្ឋារចនាសម្ព័ន្ធសំខាន់ៗដូចជាបណ្តាញអគ្គិសនី និងឧបករណ៍វេជ្ជសាស្ត្រ។",
+   "impact": "ព្រឹត្តិការណ៍នេះអាចបង្ហាញពីការផ្លាស់ប្តូររបៀបដែលកូដគ្រីបតូនិងហេដ្ឋារចនាសម្ព័ន្ធសំខាន់ៗត្រូវបានផ្ទៀងផ្ទាត់ ដែលអាចជួយកាត់បន្ថយពេលវេលានិងបន្ទុកការងាររបស់មនុស្ស។ ក្រុមបច្ចេកវិទ្យានិងសន្តិសុខអាចនឹងឃើញការប្រើប្រាស់ឧបករណ៍ផ្ទៀងផ្ទាត់ស្វ័យប្រវត្តិទូលំទូលាយជាងមុន។",
+   "keyPoints": [
+    "AlphaProof Code បានផ្ទៀងផ្ទាត់កូដស្នូលរបស់ Signal ក្នុងពេលបួនសប្តាហ៍។",
+    "ភ្នាក់ងារ AI ប្រើប្រាស់ Gemini Carbon បានសរសេរកូដភស្តុតាងជាងប្រាំលានបន្ទាត់។",
+    "មានតែប្រហែលមួយភាគរយប៉ុណ្ណោះដែលត្រូវការការពិនិត្យពីមនុស្ស។",
+    "Deepmind មានគម្រោងពង្រីកវិធីសាស្ត្រនេះទៅលើបណ្តាញអគ្គិសនី និងឧបករណ៍វេជ្ជសាស្ត្រ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Google Deepmind的AlphaProof Code在四周内验证了Signal的加密核心，而非常规的数年时间",
+   "summary": "Google Deepmind的AlphaProof Code在短短四周内对Signal的加密核心代码进行了数学验证，而这一过程通常需要数年时间。由Gemini Carbon驱动的AI智能体编写了超过六万行（注：原文six million lines意为六百万行）证明代码，其中仅约百分之一需要人工审核。Deepmind计划将该方法推广到电网和医疗设备等关键基础设施中。",
+   "impact": "这一进展可能意味着复杂密码学软件和关键基础设施验证方式的重大转变，从而可能加快安全审计速度并减少人工工作量。开发人员和安全团队未来可能会看到更多由AI驱动的形式化验证工具被应用于高风险系统。",
+   "keyPoints": [
+    "AlphaProof Code在四周内完成了Signal加密核心的验证。",
+    "Gemini Carbon驱动的AI智能体编写了超过六百万行证明代码。",
+    "仅有约百分之一的代码标记给人工进行审核。",
+    "Deepmind计划将此方法扩展至电网和医疗设备等关键基础设施。"
+   ]
+  },
+  "ko": {
+   "title": "Google Deepmind의 AlphaProof Code, 수년 대신 4주 만에 Signal의 암호화 코어 검증",
+   "summary": "Google Deepmind의 AlphaProof Code가 보통 수년이 걸리는 Signal의 암호화 코어 코드 수학적 검증을 단 4주 만에 완료했습니다. Gemini Carbon으로 구동되는 AI 에이전트가 600만 줄 이상의 증명 코드를 작성했으며, 인간의 검토가 필요한 부분은 약 1퍼센트에 불과했습니다. Deepmind는 이 방법을 전력망 및 의료 기기와 같은 주요 인프라로 확대할 계획입니다.",
+   "impact": "이번 성과는 복잡한 암호화 소프트웨어와 핵심 인프라가 검증되는 방식에 큰 변화를 가져올 수 있으며, 보안 감사 속도를 높이고 인간의 작업량을 줄이는 데 기여할 수 있습니다. 개발자와 보안 팀은 고위험 시스템 테스트를 위해 AI 기반의 정형 검증 도구를 더 널리 활용하게 될 수 있습니다.",
+   "keyPoints": [
+    "AlphaProof Code는 4주 만에 Signal의 암호화 코어를 검증했습니다.",
+    "Gemini Carbon 기반 AI 에이전트가 600만 줄 이상의 증명 코드를 작성했습니다.",
+    "생성된 코드 중 약 1퍼센트만 인간의 검토를 거쳤습니다.",
+    "Deepmind는 전력망 및 의료 기기 등 주요 인프라로 이 방식을 확장할 계획입니다."
+   ]
+  }
+ }
+}

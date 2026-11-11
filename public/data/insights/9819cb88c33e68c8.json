@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9819cb88c33e68c8",
+ "contentHash": "89c161217160eec3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T22:54:37.240Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Emulator is now available for building and testing AWS applications locally",
+   "summary": "AWS Emulator is now available for building and testing AWS applications locally or in continuous integration environments. It allows developers and coding agents to interact with AWS APIs locally using existing SDK and CLI calls without needing an AWS account or actual deployments. The tool maintains in-memory resource state and processes calls in milliseconds.",
+   "impact": "This tool could allow developers and security teams to test and debug applications offline, potentially speeding up development and reducing cloud costs. It may also help ensure applications are thoroughly verified locally before deploying to AWS.",
+   "keyPoints": [
+    "AWS Emulator enables local building and testing of AWS applications on computers or CI environments.",
+    "It supports existing AWS SDK and CLI calls without requiring an AWS account or deployments.",
+    "Unsupported operations return 501 Not Implemented, and resource state is kept in memory.",
+    "The source code is available under the CC0 1.0 Universal public domain dedication."
+   ]
+  },
+  "km": {
+   "title": "AWS Emulator ឥឡូវនេះមានសម្រាប់បង្កើត និងសាកល្បងកម្មវិធី AWS ក្នុងមូលដ្ឋាន",
+   "summary": "AWS Emulator ឥឡូវនេះមានសម្រាប់បង្កើត និងសាកល្បងកម្មវិធី AWS ក្នុងមូលដ្ឋាន ឬនៅក្នុងបរិយាកាសរួមបញ្ចូលគ្នាបន្តបន្ទាប់។ វាអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍ និងភ្នាក់ងារកូដធ្វើអន្តរកម្មជាមួយ AWS APIs ក្នុងមូលដ្ឋានដោយប្រើ SDK និង CLI ដែលមានស្រាប់ដោយមិនចាំបាច់មានគណនី AWS ឬការដាក់ឱ្យប្រើប្រាស់នោះទេ។ ឧបករណ៍នេះរក្សាស្ថានភាពធនធានក្នុងหน่วยความจำ និងដំណើរការសំណើក្នុងរយៈពេលប៉ុន្មានមីលីវិនាទី។",
+   "impact": "ឧបករណ៍នេះអាចអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខសាកល្បង និងកែំហុសកម្មវិធីក្រៅបណ្ដាញ ដែលអាចជួយពន្លឿនការអភិវឌ្ឍន៍ និងកាត់បន្ថយការចំណាយលើពពក។ វាក៏អាចជួយធានាថាapplications ត្រូវបានផ្ទៀងផ្ទាត់យ៉ាងហ្មត់ចត់ក្នុងមូលដ្ឋាន មុនពេលដាក់ឱ្យប្រើប្រាស់នៅលើ AWS។",
+   "keyPoints": [
+    "AWS Emulator បើកដំណើរការការសាងសង់ និងសាកល្បងក្នុងមូលដ្ឋាននៃកម្មវិធី AWS នៅលើកុំព្យូទ័រ ឬបរិយាកាស CI។",
+    "វាគាំទ្រការហៅទូរស័ព្ទ AWS SDK និង CLI ដែលមានស្រាប់ដោយមិនចាំបាច់មានគណនី AWS។",
+    "ប្រតិបត្តិការដែលមិនទាន់គាំទ្រត្រឡប់ 501 Not Implemented ហើយស្ថានភាពធនធានត្រូវបានរក្សាទុកក្នុងหน่วยความจำ។",
+    "កូដប្រភពត្រូវបានបោះពុម្ពផ្សាយក្រោម CC0 1.0 Universal public domain dedication។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Emulator 现已发布，用于本地构建和测试 AWS 应用程序",
+   "summary": "AWS Emulator 现已推出，可用于在本地或持续集成环境中构建和测试 AWS 应用程序。它允许开发人员和编码代理使用现有的 AWS SDK 和 CLI 调用在本地与 AWS API 进行交互，无需 AWS 账户或进行部署。该工具在内存中保持资源状态并在毫秒内返回结果。",
+   "impact": "该工具可能使开发人员和安全团队能够在离线状态下测试和调试应用程序，从而可能加快开发速度并降低云成本。它还可能有助于确保在部署到 AWS 之前在本地对应用程序进行全面验证。",
+   "keyPoints": [
+    "AWS Emulator 支持在计算机或 CI 环境中本地构建和测试 AWS 应用程序。",
+    "它支持现有的 AWS SDK 和 CLI 调用，无需 AWS 账户或部署。",
+    "不支持的操作返回 501 Not Implemented，资源状态保存在内存中。",
+    "其源代码在 CC0 1.0 Universal 公共领域奉献下发布。"
+   ]
+  },
+  "ko": {
+   "title": "AWS 애플리케이션을 로컬에서 구축하고 테스트하기 위한 AWS Emulator 출시",
+   "summary": "AWS 애플리케이션을 로컬 또는 지속적 통합 환경에서 구축하고 테스트할 수 있는 AWS Emulator가 출시되었습니다. 개발자와 코딩 에이전트는 AWS 계정이나 배포 없이도 기존 AWS SDK 및 CLI 호출을 사용하여 로컬에서 AWS API와 상호 작용할 수 있습니다. 이 도구는 메모리에 리소스 상태를 유지하며 밀리초 단위로 결과를 반환합니다.",
+   "impact": "이 도구를 통해 개발자와 보안 팀은 오프라인에서 애플리케이션을 테스트하고 디버깅할 수 있어 개발 속도가 빨라지고 클라우드 비용이 절감될 수 있습니다. 또한 AWS에 배포하기 전에 로컬에서 애플리케이션을 철저히 검증하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "AWS Emulator를 사용하면 컴퓨터나 CI 환경에서 AWS 애플리케이션을 로컬로 구축하고 테스트할 수 있습니다.",
+    "AWS 계정이나 배포 없이 기존 AWS SDK 및 CLI 호출을 지원합니다.",
+    "지원되지 않는 작업은 501 Not Implemented를 반환하며 리소스 상태는 메모리에 유지됩니다.",
+    "소스 코드는 CC0 1.0 Universal 퍼블릭 도메인 기증에 따라 게시됩니다."
+   ]
+  }
+ }
+}

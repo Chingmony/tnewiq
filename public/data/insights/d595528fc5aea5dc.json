@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d595528fc5aea5dc",
+ "contentHash": "5848c013e9b87f77",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T22:51:20.525Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Cloud WAN now supports Flow Logs",
+   "summary": "AWS Cloud WAN now supports VPC Flow Logs to provide central visibility into IP traffic across a global network. This feature allows core network owners to view consolidated traffic between VPCs, Regions, and on-premises networks from a single account. Flow logs capture details such as IP addresses, ports, protocol, traffic volume, and Cloud WAN metadata.",
+   "impact": "Network administrators and security teams could benefit from consolidated traffic visibility for troubleshooting, capacity planning, security, and compliance. This may eliminate the need to manually stitch together logs from multiple VPCs, accounts, and Regions.",
+   "keyPoints": [
+    "AWS Cloud WAN now supports VPC Flow Logs for central global network visibility.",
+    "Provides a consolidated view of traffic between VPCs, Regions, and on-premises connections.",
+    "Records include IP addresses, ports, protocol, traffic volume, packet-loss counters, and metadata.",
+    "Logs can be published to Amazon CloudWatch Logs, Amazon S3, or Amazon Data Firehose with no extra charge from Cloud WAN."
+   ]
+  },
+  "km": {
+   "title": "AWS Cloud WAN ឥឡូវនេះគាំទ្រ Flow Logs ហើយ",
+   "summary": "AWS Cloud WAN ឥឡូវនេះគាំទ្រ VPC Flow Logs ដើម្បីផ្តល់នូវភាពមើលឃើញកណ្តាលនៃចរាចរណ៍ IP នៅទូទាំងបណ្តាញសកល។ លក្ខណៈពិសេសនេះអនុញ្ញាតឱ្យម្ចាស់បណ្តាញស្នូលមើលចរាចរណ៍ដែលបានច្របាច់បញ្ចូលគ្នារវាង VPCs តំបន់ និងបណ្តាញក្នុងបរិវេណពីគណនីតែមួយ។ Flow logs ចាប់យកព័ត៌មានលម្អិតដូចជាអាសយដ្ឋាន IP ច្រក ពិធីការ បរិមាណចរាចរណ៍ និងមេតាដាတာរបស់ Cloud WAN។",
+   "impact": "អ្នកគ្រប់គ្រងបណ្តាញ និងក្រុមសន្តិសុខអាចទទួលបានផលប្រយោជន៍ពីភាពមើលឃើញចរាចរណ៍ដែលបានច្របាច់បញ្ចូលគ្នាសម្រាប់ការដោះស្រាយបញ្ហា ការរៀបចំផែនការសមត្ថភាព សន្តិសុខ និងការអនុលោមភាព។ នេះអាចលុបបំបាត់តម្រូវការក្នុងការប្រមូលកំណត់ហេតុដោយដៃពី VPCs គណនី និងតំបន់ជាច្រើន។",
+   "keyPoints": [
+    "AWS Cloud WAN ឥឡូវនេះគាំទ្រ VPC Flow Logs សម្រាប់ភាពមើលឃើញបណ្តាញសកលកណ្តាល។",
+    "ផ្តល់នូវទិដ្ឋភាពរួមបញ្ចូលគ្នានៃចរាចរណ៍រវាង VPCs តំបន់ និងការតភ្ជាប់ក្នុងបរិវេណ។",
+    "កំណត់ត្រារួមបញ្ចូលទាំងអាសយដ្ឋាន IP ច្រក ពិធីការ បរិមាណចរាចរណ៍ កម្មវិធីរាប់ការបាត់បង់កញ្ចប់ព័ត៌មាន និងមេតាដាတာ។",
+    "កំណត់ហេតុអាចត្រូវបានបោះពុម្ពផ្សាយទៅកាន់ Amazon CloudWatch Logs, Amazon S3 ឬ Amazon Data Firehose ដោយគ្មានតម្លៃបន្ថែមពី Cloud WAN ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Cloud WAN 现已支持 Flow Logs",
+   "summary": "AWS Cloud WAN 现已支持 VPC Flow Logs，从而能够集中查看全球网络中的 IP 流量。此功能使核心网络所有者能够从单个账户查看 VPC、区域和本地网络之间整合的流量。流日志捕获详细信息，例如 IP 地址、端口、协议、流量大小以及 Cloud WAN 元数据。",
+   "impact": "网络管理员和安全团队可以从整合的流量可见性中受益，用于故障排除、容量规划、安全和合规性。这可能会免去从多个 VPC、账户和区域手动拼凑日志的需要。",
+   "keyPoints": [
+    "AWS Cloud WAN 现已支持 VPC Flow Logs 以实现集中的全球网络可见性。",
+    "提供 VPC、区域以及本地连接之间流量的整合视图。",
+    "记录包括 IP 地址、端口、协议、流量、丢包计数器以及元数据。",
+    "日志可以发布到 Amazon CloudWatch Logs、Amazon S3 或 Amazon Data Firehose，Cloud WAN 不收取额外费用。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Cloud WAN, 이제 Flow Logs 지원",
+   "summary": "AWS Cloud WAN은 이제 VPC Flow Logs를 지원하여 글로벌 네트워크 전반의 IP 트래픽에 대한 중앙 집중식 가시성을 제공합니다. 이 기능을 통해 코어 네트워크 소유자는 단일 계정에서 VPC, 리전, 온프레미스 네트워크 간의 통합된 트래픽을 볼 수 있습니다. 흐름 로그는 IP 주소, 포트, 프로토콜, 트래픽 볼륨 및 Cloud WAN 메타데이터와 같은 세부 정보를 캡처합니다.",
+   "impact": "네트워크 관리자와 보안 팀은 문제 해결, 용량 계획, 보안 및 규정 준수를 위해 통합된 트래픽 가시성의 혜택을 누릴 수 있습니다. 이를 통해 여러 VPC, 계정, 리전의 로그를 수동으로 취합해야 하는 번거로움이 줄어들 수 있습니다.",
+   "keyPoints": [
+    "AWS Cloud WAN은 이제 중앙 집중식 글로벌 네트워크 가시성을 위해 VPC Flow Logs를 지원합니다.",
+    "VPC, 리전, 온프레미스 연결 간의 통합된 트래픽 뷰를 제공합니다.",
+    "기록에는 IP 주소, 포트, 프로토콜, 트래픽 볼륨, 패킷 손실 카운터 및 메타데이터가 포함됩니다.",
+    "로그는 Amazon CloudWatch Logs, Amazon S3 또는 Amazon Data Firehose에 게시할 수 있으며 Cloud WAN 추가 요금은 없습니다."
+   ]
+  }
+ }
+}

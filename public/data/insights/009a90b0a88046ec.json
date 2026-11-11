@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "009a90b0a88046ec",
+ "contentHash": "31ed65334fca58f3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T22:53:55.676Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon EKS Auto Mode now supports security groups for Pods",
+   "summary": "Amazon EKS Auto Mode now supports security groups for Pods, allowing dedicated EC2 security group rules to be applied to individual Pods. This enables network-level segmentation for different workloads on the same node without requiring separate node pools. Security groups for Pods are included at no additional charge for clusters running Kubernetes version 1.36 or later in supported AWS Regions.",
+   "impact": "This feature could help developers and security teams apply fine-grained network controls and reach resources like Amazon RDS and Amazon ElastiCache securely using existing VPC rules. It may simplify network architecture by eliminating the need to provision separate node pools for different applications.",
+   "keyPoints": [
+    "Applies dedicated Amazon EC2 security group rules to individual Pods.",
+    "Provides network-level segmentation for workloads on the same node.",
+    "Uses a SecurityGroupPolicy resource to define security group assignments.",
+    "Available on clusters running Kubernetes version 1.36 or later at no additional charge."
+   ]
+  },
+  "km": {
+   "title": "Amazon EKS Auto Mode ឥឡូវនេះគាំទ្រក្រុមសុវត្ថិភាពសម្រាប់ Pods",
+   "summary": "Amazon EKS Auto Mode ឥឡូវនេះគាំទ្រក្រុមសុវត្ថិភាពសម្រាប់ Pods ដែលអនុញ្ញាតឱ្យអ្នកអនុវត្តច្បាប់ក្រុមសុវត្ថិភាព Amazon EC2 ដាច់ដោយឡែកទៅលើ Pods នីមួយៗ។ មុខងារនេះផ្តល់នូវការបែងចែកកម្រិតបណ្តាញសម្រាប់បន្ទុកការងារផ្សេងៗនៅលើノដដូចគ្នាដោយមិនចាំបាច់បង្កើតក្រុមノដដាច់ដោយឡែកសម្រាប់កម្មវិធីនីមួយៗនោះទេ។ វាត្រូវបានដាក់បញ្ចូលជាផ្នែកមួយនៃ EKS Auto Mode ដោយមិនគិតថ្លៃបន្ថែមសម្រាប់クลាសស្ទឺរដែលដំណើរការ Kubernetes កំណែ 1.36 ឬថ្មីជាងនេះ។",
+   "impact": "មុខងារនេះអាចជួយក្រុមការងារបច្ចេកវិទ្យាក្នុងការពង្រីកការគ្រប់គ្រងបណ្តាញដល់កម្រិត Pod និងសម្រួលដល់ការតភ្ជាប់ទៅកាន់ធនធានដូចជា Amazon RDS និង Amazon ElastiCache ដោយសុវត្ថិភាព។ វាក៏អាចជួយកាត់បន្ថយតម្រូវការក្នុងការបង្កើតក្រុមノដដាច់ដោយឡែកផងដែរ។",
+   "keyPoints": [
+    "អនុវត្តច្បាប់ក្រុមសុវត្ថិភាព Amazon EC2 ទៅលើ Pods នីមួយៗ។",
+    "ផ្តល់ការបែងចែកកម្រិតបណ្តាញសម្រាប់ Pods នៅលើノដតែមួយ។",
+    "កំណត់ Pods ណាដែលទទួលបានក្រុមសុវត្ថិភាពតាមរយៈធនធាន SecurityGroupPolicy។",
+    "មាននៅលើクลាសស្ទឺរ Kubernetes កំណែ 1.36 ឬថ្មីជាងនេះដោយគ្មានថ្លៃបន្ថែម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon EKS Auto Mode 现已支持 Pod 安全组",
+   "summary": "Amazon EKS Auto Mode 现已支持为 Pod 配置安全组，允许将专用的 Amazon EC2 安全组规则应用于单个 Pod。这使得同一节点上的不同工作负载能够具备网络级隔离，而无需为每个应用程序创建单独的节点池。该功能包含在 EKS Auto Mode 中且不收取额外费用，适用于运行 Kubernetes 1.36 或更高版本的集群。",
+   "impact": "此功能可以帮助开发和安全团队将现有的 AWS 网络控制扩展到 Pod 级别，从而更轻松地安全访问诸如 Amazon RDS 和 Amazon ElastiCache 等资源。它还可能通过避免创建单独的节点池来简化网络管理。",
+   "keyPoints": [
+    "允许将专属的 Amazon EC2 安全组规则应用于单个 Pod。",
+    "在同一节点上的不同工作负载之间提供网络级隔离。",
+    "通过 SecurityGroupPolicy 资源定义哪些 Pod 接收哪些安全组。",
+    "适用于运行 Kubernetes 1.36 或更高版本的集群且无额外费用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon EKS Auto Mode, 이제 Pod용 보안 그룹 지원",
+   "summary": "Amazon EKS Auto Mode가 이제 Pod용 보안 그룹을 지원하여 개별 Pod에 전용 Amazon EC2 보안 그룹 규칙을 적용할 수 있게 되었습니다. 이를 통해 애플리케이션별로 별도의 노드 풀을 생성하지 않고도 동일한 노드에서 실행되는 서로 다른 워크로드에 네트워크 수준의 분할을 제공할 수 있습니다. 이 기능은 추가 비용 없이 Kubernetes 버전 1.36 이상을 실행하는 클러스터에서 제공됩니다.",
+   "impact": "개발자와 보안 팀은 이 기능을 통해 기존 AWS 네트워크 제어를 Pod 수준까지 확장하고 Amazon RDS 및 Amazon ElastiCache 같은 리소스에 안전하게 연결할 수 있습니다. 별도의 노드 풀을 생성할 필요가 없어지므로 네트워크 아키텍처가 단순해질 수 있습니다.",
+   "keyPoints": [
+    "개별 Pod에 전용 Amazon EC2 보안 그룹 규칙 적용 가능",
+    "동일한 노드 내 워크로드에 대한 네트워크 수준 세분화 제공",
+    "SecurityGroupPolicy 리소스를 통해 Pod별 보안 그룹 정의",
+    "Kubernetes 버전 1.36 이상을 실행하는 클러스터에서 추가 비용 없이 제공"
+   ]
+  }
+ }
+}

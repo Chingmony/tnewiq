@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4b6be27b08661b06",
+ "contentHash": "94418bd0b866f8d5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T22:50:40.500Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How DXC Technology built a multi-model AI substrate on Amazon Bedrock",
+   "summary": "DXC Technology built DXC OASIS, an orchestration and governance harness for mission-critical IT operations, utilizing Amazon Bedrock as a multi-model AI substrate. Amazon Bedrock provides access to foundation models such as Anthropic Claude, Amazon Nova, and Meta Llama through a single managed interface. The setup incorporates Amazon Bedrock Guardrails, AWS PrivateLink, and serverless scaling to establish infrastructure-level governance and security. Since its general availability in March 2026, DXC OASIS has reportedly reduced resolution time by 95% on average across 56 measured use cases.",
+   "impact": "Technology users and developers managing enterprise IT operations may find that using an infrastructure-level substrate helps mitigate risks associated with autonomous AI agents taking unintended actions. Security teams could benefit from system-level controls like content filtering and data boundaries that keep inference traffic within a virtual private cloud.",
+   "keyPoints": [
+    "DXC OASIS separates its architecture into a governed model substrate on Amazon Bedrock and a trusted orchestration harness on top.",
+    "Amazon Bedrock provides access to multiple foundation models including Anthropic Claude, Amazon Nova, and Meta Llama through a single API.",
+    "Amazon Bedrock Guardrails handle content filtering, PII redaction, and denied-topic policies uniformly across models.",
+    "AWS PrivateLink and serverless scaling ensure inference traffic remains inside the AWS data boundary."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែល DXC Technology បានសាងសង់មូលដ្ឋានគ្រឹះ AI ពហុម៉ូដែលនៅលើ Amazon Bedrock",
+   "summary": "ក្រុមហ៊ុន DXC Technology បានសាងសង់ DXC OASIS ដែលជាប្រព័ន្ធសម្របសម្រួល និងអភិបាលកិច្ចសម្រាប់ប្រតិបត្តិការ IT បេសកកម្មសំខាន់ៗ ដោយប្រើប្រាស់ Amazon Bedrock ជាមូលដ្ឋានគ្រឹះ AI ពហុម៉ូដែល។ Amazon Bedrock ផ្តល់នូវការចូលទៅកាន់ម៉ូដែលមូលដ្ឋានដូចជា Anthropic Claude, Amazon Nova និង Meta Llama តាមរយៈចំណុចប្រទាក់គ្រប់គ្រងតែមួយ។ ការដំឡើងនេះរួមបញ្ចូលទាំង Amazon Bedrock Guardrails, AWS PrivateLink និងការធ្វើមាត្រដ្ឋាន serverless ដើម្បីបង្កើតអភិបាលកិច្ច និងសុវត្ថិភាពកម្រិតហេដ្ឋារចនាសម្ព័ន្ធ។ ចាប់តាំងពីការដាក់ឱ្យប្រើប្រាស់ទូទៅក្នុងខែមីនា ឆ្នាំ 2026 មក DXC OASIS បានកាត់បន្ថយពេលវេលាដោះស្រាយជាមធ្យម 95% លើករណីប្រើប្រាស់ចំនួន 56 ដែលបានវាស់វែង។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ដែលគ្រប់គ្រងប្រតិបត្តិការ IT របស់សហគ្រាសអាចយល់ឃើញថា ការប្រើប្រាស់មូលដ្ឋានគ្រឹះកម្រិតហេដ្ឋារចនាសម្ព័ន្ធជួយកាត់បន្ថយហានិភ័យដែលទាក់ទងនឹងភ្នាក់ងារ AI ស្វយ័តដែលមានសកម្មភាពអចេតនា។ ការគ្រប់គ្រងកម្រិតប្រព័ន្ធដូចជាការត្រងមាតិកា និងព្រំដែនទិន្នន័យអាចផ្តល់ផលចំណេញដល់សុវត្ថិភាពទិន្នន័យផ្ទាល់ខ្លួន។",
+   "keyPoints": [
+    "DXC OASIS បែងចែកស្ថាបត្យកម្មរបស់ខ្លួនទៅជាមូលដ្ឋានគ្រឹះម៉ូដែលដែលមានអភិបាលកិច្ចនៅលើ Amazon Bedrock និងប្រព័ន្ធសម្របសម្រួលដែលអាចទុកចិត្តបាននៅពីលើ។",
+    "Amazon Bedrock ផ្តល់នូវការចូលទៅកាន់ម៉ូដែលមូលដ្ឋានជាច្រើនរួមមាន Anthropic Claude, Amazon Nova និង Meta Llama តាមរយៈ API តែមួយ។",
+    "Amazon Bedrock Guardrails ដោះស្រាយការត្រងមាតិកា ការលុបព័ត៌មានសម្គាល់ផ្ទាល់ខ្លួន (PII) និងគោលការណ៍ប្រធានបទដែលបានបដិសេធ។",
+    "AWS PrivateLink និងការធ្វើមាត្រដ្ឋាន serverless ធានាថាចរាចរណ៍ការសន្និដ្ឋានស្ថិតនៅក្នុងព្រំដែនទិន្នន័យរបស់ AWS។"
+   ]
+  },
+  "zh-CN": {
+   "title": "DXC Technology 如何在 Amazon Bedrock 上构建多模型 AI 基底",
+   "summary": "DXC Technology 构建了 DXC OASIS，这是一个针对关键任务 IT 运营的编排和治理支撑框架，并使用 Amazon Bedrock 作为多模型 AI 基底。Amazon Bedrock 通过单一托管接口提供对 Anthropic Claude、Amazon Nova 和 Meta Llama 等基础模型的访问。该设置结合了 Amazon Bedrock Guardrails、AWS PrivateLink 和无服务器扩展，以建立基础设施级别的治理和安全性。自 2026 年 3 月全面可用以来，DXC OASIS 在 56 个测量的用例中平均将解决时间缩短了 95%。",
+   "impact": "管理企业 IT 运营的开发人员和安全团队可能会发现，使用基础设施级基底有助于降低自主 AI 代理采取意外操作的相关风险。安全团队可以受益于内容过滤和数据边界等系统级控制，将推理流量保留在虚拟私有云内。",
+   "keyPoints": [
+    "DXC OASIS 将其架构分为 Amazon Bedrock 上受治理的模型基底和顶层的可信编排支撑框架。",
+    "Amazon Bedrock 通过单个 API 提供对 Anthropic Claude、Amazon Nova 和 Meta Llama 等多个基础模型的访问。",
+    "Amazon Bedrock Guardrails 在所有模型中统一实施内容过滤、个人身份信息 (PII) 修正和拒绝主题策略。",
+    "AWS PrivateLink 和无服务器扩展确保推理流量保留在 AWS 数据边界之内。"
+   ]
+  },
+  "ko": {
+   "title": "DXC Technology가 Amazon Bedrock에서 다중 모델 AI 기반을 구축한 방법",
+   "summary": "DXC Technology는 미션 크리티컬 IT 운영을 위한 오케스트레이션 및 거버넌스 하니스인 DXC OASIS를 구축했으며, Amazon Bedrock을 다중 모델 AI 기반으로 사용했습니다. Amazon Bedrock은 단일 관리형 인터페이스를 통해 Anthropic Claude, Amazon Nova, Meta Llama 등의 파운데이션 모델에 대한 액세스를 제공합니다. 이 설정에는 인프라 수준의 거버넌스와 보안을 구축하기 위해 Amazon Bedrock Guardrails, AWS PrivateLink 및 서버리스 스케일링이 통합되어 있습니다. 2026년 3월 정식 출시 이후 DXC OASIS는 측정된 56개 사용 사례에서 해결 시간을 평균 95% 단축했습니다.",
+   "impact": "엔터프라이즈 IT 운영을 관리하는 개발자와 보안 팀은 인프라 수준의 기반을 사용하는 것이 자율 AI 에이전트의 의도하지 않은 작업과 관련된 위험을 완화하는 데 도움이 된다는 것을 알 수 있습니다. 보안 팀은 콘텐츠 필터링 및 가상 프라이빗 클라우드 내에 추론 트래픽을 유지하는 데이터 경계와 같은 시스템 수준 제어의 이점을 누릴 수 있습니다.",
+   "keyPoints": [
+    "DXC OASIS는 아키텍처를 Amazon Bedrock의 거버넌스 모델 기반과 상단의 신뢰할 수 있는 오케스트레이션 하니스로 분리합니다.",
+    "Amazon Bedrock은 단일 API를 통해 Anthropic Claude, Amazon Nova, Meta Llama를 포함한 여러 파운데이션 모델에 대한 액세스를 제공합니다.",
+    "Amazon Bedrock Guardrails는 모든 모델에서 콘텐츠 필터링, 개인 식별 정보(PII) 수정 및 거부된 주제 정책을 일관되게 적용합니다.",
+    "AWS PrivateLink와 서버리스 스케일링은 추론 트래픽이 AWS 데이터 경계 내에 유지되도록 보장합니다."
+   ]
+  }
+ }
+}

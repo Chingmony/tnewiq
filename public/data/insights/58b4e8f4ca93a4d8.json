@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "articleId": "58b4e8f4ca93a4d8",
+ "contentHash": "f22ab8c00e7387ff",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T22:53:24.575Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Lambda MicroVMs now supports the x86 CPU architecture",
+   "summary": "AWS Lambda MicroVMs now supports the x86 CPU architecture alongside Arm (AWS Graviton). Developers can run existing x86 applications, tools, and software dependencies without recompiling or porting them. Users can choose between x86 and Arm when creating a MicroVM image from a Dockerfile.",
+   "impact": "This update could allow developers to run x86-based workloads on Lambda MicroVMs without modification, saving time on recompiling applications. It may expand the usability of serverless compute primitives for existing x86 tooling across various supported AWS regions.",
+   "keyPoints": [
+    "AWS Lambda MicroVMs now supports the x86 CPU architecture.",
+    "Users can choose between x86 and Arm (AWS Graviton) when creating a MicroVM image.",
+    "Existing x86 applications and tools can run without recompiling.",
+    "Support is available in all AWS regions where Lambda MicroVMs is available, with four regional exceptions."
+   ]
+  },
+  "km": {
+   "title": "AWS Lambda MicroVMs ឥឡូវនេះគាំទ្រស្ថាបត្យកម្ម CPU x86 ហើយ",
+   "summary": "AWS Lambda MicroVMs ឥឡូវនេះគាំទ្រស្ថាបត្យកម្ម CPU x86 ដែលអនុញ្ញាតឱ្យដំណើរការកម្មវិធី ឧបករណ៍ និងបណ្តុំកម្មវិធី x86 ដែលមានស្រាប់ដោយមិនចាំបាច់សរសេរកូដឡើងវិញទេ។ អ្នកប្រើប្រាស់អាចជ្រើសរើសរវាង x86 និង Arm នៅពេលបង្កើតរូបភាព MicroVM ពី Dockerfile។",
+   "impact": "ការអាប់ដេតនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ដំណើរការបន្ទុកការងារប្រភេទ x86 លើ Lambda MicroVMs បានយ៉ាងងាយស្រួលដោយមិនចាំបាច់កែប្រែអ្វីទាំងអស់។ វាអាចពង្រីកលទ្ធភាពប្រើប្រាស់នៃកុំព្យូទ័រ serverless សម្រាប់ឧបករណ៍ x86 ដែលមានស្រាប់។",
+   "keyPoints": [
+    "AWS Lambda MicroVMs ឥឡូវនេះគាំទ្រស្ថាបត្យកម្ម CPU x86។",
+    "អ្នកប្រើប្រាស់អាចជ្រើសរើសរវាង x86 និង Arm ពេលបង្កើតរូបភាព MicroVM។",
+    "កម្មវិធី x86 ដែលមានស្រាប់អាចដំណើរការបានដោយមិនបាច់សរសេរកូដឡើងវិញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Lambda MicroVMs 现已支持 x86 CPU 架构",
+   "summary": "AWS Lambda MicroVMs 现已支持 x86 CPU 架构，允许用户无需重新编译或移植即可运行现有的 x86 应用程序、工具和软件依赖项。在创建 MicroVM 镜像时，用户现在可以在 x86 和 Arm 之间进行选择。",
+   "impact": "此更新可能使开发人员能够直接在 Lambda MicroVMs 上运行基于 x86 的工作负载，从而节省重新编译应用程序的时间。它还可能扩展无服务器计算原语在现有 x86 工具上的适用性。",
+   "keyPoints": [
+    "AWS Lambda MicroVMs 现已支持 x86 CPU 架构。",
+    "用户在从 Dockerfile 创建 MicroVM 镜像时可在 x86 和 Arm 之间选择。",
+    "现有的 x86 应用程序和工具无需重新编译即可运行。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Lambda MicroVMs, 이제 x86 CPU 아키텍처 지원",
+   "summary": "AWS Lambda MicroVMs가 이제 x86 CPU 아키텍처를 지원하여 재컴파일이나 포팅 없이 기존 x86 애플리케이션, 도구, 소프트웨어 종속성을 실행할 수 있게 되었습니다. MicroVM 이미지를 생성할 때 x86과 Arm 중에서 선택하여 워크로드에 맞는 아키텍처를 사용할 수 있습니다.",
+   "impact": "이번 업데이트를 통해 개발자는 수정 없이 x86 기반 워크로드를 Lambda MicroVMs에서 실행할 수 있으며, 애플리케이션 재컴파일에 소요되는 시간을 절약할 수 있습니다. 기존 x86 도구에 대한 서버리스 컴퓨팅의 활용 범위를 넓힐 수 있습니다.",
+   "keyPoints": [
+    "AWS Lambda MicroVMs가 x86 CPU 아키텍처를 지원합니다.",
+    "Dockerfile에서 MicroVM 이미지를 생성할 때 x86과 Arm 중에서 선택할 수 있습니다.",
+    "기존 x86 애플리케이션과 도구를 재컴파일 없이 실행할 수 있습니다."
+   ]
+  }
+ }
+}
