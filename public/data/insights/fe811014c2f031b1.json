@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fe811014c2f031b1",
+ "contentHash": "3562c357403f9be7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T07:55:28.045Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+   "summary": "Researchers compared foundation model adaptation using DINOv2 against task-specific models like U-Nets and ResU-Nets for medical image segmentation across colonoscopy, breast ultrasound, and dermoscopy tasks. The adapted foundation model generalized better on every external dataset tested from other institutions. Meanwhile, task-specific models remained competitive within the training distribution when training data were abundant and delineated boundaries more precisely.",
+   "impact": "This research suggests that security teams and developers deploying medical imaging models across multiple sites may benefit from foundation model adaptation for better cross-site generalization. However, task-specific models might still be useful when working locally with abundant training data and strict boundary precision requirements.",
+   "keyPoints": [
+    "The adapted foundation model generalized better on every external dataset.",
+    "Task-specific models remained competitive within the training distribution when training data were abundant.",
+    "Only a small fraction of the foundation model required adaptation.",
+    "A widely used polyp test set was found to duplicate images from another benchmark."
+   ]
+  },
+  "km": {
+   "title": "ការបែងចែករូបភាពវេជ្ជសាស្ត្រ៖ ការសម្របខ្លួនរបស់ម៉ូដែលមូលដ្ឋានធៀបនឹងការបណ្តុះបណ្តាលតាមភារកិច្ចជាក់លាក់",
+   "summary": "អ្នកស្រាវជ្រាវបានប្រៀបធៀបការសម្របខ្លួនរបស់ម៉ូដែលមូលដ្ឋាន DINOv2 ជាមួយនឹងម៉ូដែលតាមភារកិច្ចជាក់លាក់ដូចជា U-Nets និង ResU-Nets សម្រាប់ការបែងចែករូបភាពវេជ្ជសាស្ត្រលើកូឡូណូស្កូពី អ៊ុលត្រាសោនសុដន់ និងដឺម៉ូស្កូពី។ ម៉ូដែលមូលដ្ឋានដែលបានសម្របខ្លួនបង្ហាញពីលទ្ធភាពទូទៅប្រសើរជាងមុននៅលើរាល់សំណុំទិន្នន័យខាងក្រៅមកពីស្ថាប័នផ្សេងទៀត។ ទន្ទឹមនឹងនេះ ម៉ូដែលតាមភារកិច្ចជាក់លាក់នៅតែមានភាពប្រកួតប្រជែងនៅក្នុងការចែកចាយការបណ្តុះបណ្តាល នៅពេលដែលមានទិន្នន័យបណ្តុះបណ្តាលច្រើន។",
+   "impact": "ការស្រាវជ្រាវនេះអាចបង្ហាញថាអ្នកអភិវឌ្ឍន៍ដែលដាក់ពង្រាយម៉ូដែលរូបភាពវេជ្ជសាស្ត្រឆ្លងកាត់ទីតាំងផ្សេងៗគ្នា អាចទទួលបានអត្ថប្រយោជន៍ពីការសម្របខ្លួនរបស់ម៉ូដែលមូលដ្ឋានសម្រាប់ការទូទៅកាន់តែប្រសើរ។ ទោះយ៉ាងណាក៏ដោយ ម៉ូដែលតាមភារកិច្ចជាក់លាក់នៅតែមានប្រយោជន៍នៅពេលធ្វើការក្នុងស្រុកជាមួយទិន្នន័យបណ្តុះបណ្តាលច្រើន។",
+   "keyPoints": [
+    "ម៉ូដែលមូលដ្ឋានដែលបានសម្របខ្លួនមានលទ្ធភាពទូទៅប្រសើរជាងនៅលើសំណុំទិន្នន័យខាងក្រៅទាំងអស់។",
+    "ម៉ូដែលតាមភារកិច្ចជាក់លាក់នៅតែមានភាពប្រកួតប្រជែងនៅពេលដែលមានទិន្នន័យបណ្តុះបណ្តាលច្រើន។",
+    "មានតែផ្នែកតូចមួយប៉ុណ្ណោះនៃម៉ូដែលមូលដ្ឋានដែលត្រូវការការសម្របខ្លួន។",
+    "សំណុំតេស្តប៉ូលីបដែលប្រើប្រាស់យ៉ាងទូលំទូលាយត្រូវបានរកឃើញថាមានរូបភាពស្ទួនពីគោលការណ៍ផ្សេងទៀត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "医学图像分割：基础模型适配与特定任务训练的对比",
+   "summary": "研究人员对比了使用DINOv2的基础模型适配与从头训练的特定任务模型（如U-Nets和ResU-Nets）在结肠镜检查、乳腺超声和皮肤镜检查中的医学图像分割表现。经过适配的基础模型在来自其他机构的所有外部数据集上表现出更好的泛化能力。与此同时，当训练数据充足时，特定任务模型在训练分布内依然保持竞争力，并能更精确地勾勒边界。",
+   "impact": "这项研究表明，需要在多个站点部署医学图像模型的开发人员和技术人员可能会受益于基础模型适配，以实现更好的跨站点泛化能力。然而，在面对充足的本地训练数据和严格的边界精度要求时，特定任务模型可能仍然具有优势。",
+   "keyPoints": [
+    "适配后的基础模型在每个外部数据集上都具有更好的泛化能力。",
+    "当训练数据充足时，特定任务模型在训练分布内保持竞争力。",
+    "基础模型只需要小比例的适配即可。",
+    "一个广泛使用的息肉测试集被发现与另一个基准测试存在图像重复。"
+   ]
+  },
+  "ko": {
+   "title": "의료 영상 분할: 파운데이션 모델 적응 대 태스크 특화 학습",
+   "summary": "연구원들은 대장내시경, 유방 초음파, 피부경검사 전반에 걸쳐 의료 영상 분할을 위해 U-Net 및 ResU-Net과 같은 태스크 특화 모델과 DINOv2를 사용한 파운데이션 모델 적응 방식을 비교했습니다. 적응된 파운데이션 모델은 다른 기관의 모든 외부 데이터셋에서 더 나은 일반화 성능을 보였습니다. 한편, 훈련 데이터가 풍부할 경우 태스크 특화 모델은 훈련 분포 내에서 여전히 경쟁력을 유지하며 경계를 더 정확하게 구분했습니다.",
+   "impact": "이번 연구는 여러 사이트에 걸쳐 의료 영상 모델을 배포하는 개발자와 보안 팀이 더 나은 교차 사이트 일반화를 위해 파운데이션 모델 적응의 이점을 누릴 수 있음을 시사합니다. 그러나 풍부한 훈련 데이터와 엄격한 경계 정확도가 요구되는 로컬 환경에서는 태스크 특화 모델이 여전히 유용할 수 있습니다.",
+   "keyPoints": [
+    "적응된 파운데이션 모델은 모든 외부 데이터셋에서 더 나은 일반화를 보여주었습니다.",
+    "훈련 데이터가 풍부할 때 태스크 특화 모델은 훈련 분포 내에서 경쟁력을 유지했습니다.",
+    "파운데이션 모델의 아주 적은 부분만 적응이 필요했습니다.",
+    "널리 사용되는 폴립 테스트 세트에서 다른 벤치마크의 이미지가 중복되는 것으로 나타났습니다."
+   ]
+  }
+ }
+}

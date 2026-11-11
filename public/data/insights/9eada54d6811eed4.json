@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9eada54d6811eed4",
+ "contentHash": "8c7af1b5618add3e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T07:56:01.056Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
+   "summary": "Researchers introduce AutoScaffold, an AI-for-AI framework that converts a student model's training experience into adaptive scaffolds without human intervention during training. A frozen teacher periodically examines the experience to diagnose bottlenecks and design strategies or hints that adjust as the student learns. These scaffolds are removed during evaluation. When tested across ALFWorld, search-based QA, mathematical reasoning, and GPU kernel generation, students trained with AutoScaffold outperformed corresponding reinforcement learning baselines.",
+   "impact": "This framework could help developers and researchers improve the training efficiency and performance of language models across multiple domains without requiring manual scaffold design. The approach may lead to better accuracy and higher success rates while reducing student training steps.",
+   "keyPoints": [
+    "AutoScaffold turns student training experience into adaptive scaffolds using a frozen teacher model.",
+    "The framework generates shared strategies and individual hints that adjust as learning progresses and are removed at evaluation.",
+    "Students trained with AutoScaffold achieved gains of 7.2 points in ALFWorld and 4.0 points in QA exact match over RL baselines.",
+    "In GPU kernel generation and mathematics, the method improved performance and surpassed prior accuracy using fewer student training steps."
+   ]
+  },
+  "km": {
+   "title": "AutoScaffold៖ ការគាំទ្រដែលដឹកនាំដោយ AI សម្រាប់ការរៀនពង្រឹងនៃម៉ូដែលភាសា",
+   "summary": "អ្នកស្រាវជ្រាវได้ណែនាំ AutoScaffold ដែលជាប្រព័ន្ធ AI សម្រាប់ AI ដែលបំប្លែងបទពិសោធន៍បណ្តុះបណ្តាលរបស់សិស្សទៅជាការគាំទ្រដែលអាចលៃតម្រូវបានដោយគ្មានការអន្តរាគមន៍ពីមនុស្សក្នុងអំឡុងពេលបណ្តុះបណ្តាល។ គ្រូបង្រៀនដែលបានផ្អាកពិនិត្យមើលបទពិសោធន៍នេះជាប្រចាំ ដើម្បីធ្វើរោគវិនិច្ឆ័យឧបសគ្គ និងរចនាយុទ្ធសាស្ត្រ ឬតម្រុយដែលលៃតម្រូវនៅពេលដែលសិស្សរៀន។ ការគាំទ្រទាំងនេះត្រូវបានដកចេញក្នុងអំឡុងពេលវាយតម្លៃ។ នៅពេលធ្វើតេស្តលើ ALFWorld, QA ដែលផ្អែកលើការស្វែងរក, ការហេតុផលគណិតវិទ្យា និងការបង្កើត GPU kernel សិស្សដែលបានបណ្តុះបណ្តាលជាមួយ AutoScaffold បានដំណើរការល្អជាងមូលដ្ឋានគ្រឹះនៃការរៀនពង្រឹងដែលត្រូវគ្នា។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវកែលម្អប្រសិទ្ធភាពបណ្តុះបណ្តាល និងដំណើរការនៃម៉ូដែលភាសាពហុដែនដោយមិនចាំបាច់រចនាការគាំទ្រដោយដៃ។ វិធីសាស្ត្រនេះអាចនាំឱ្យមានភាពត្រឹមត្រូវកាន់តែប្រសើរ និងកម្រិតជោគជ័យខ្ពស់ជាងមុន ខណៈពេលដែលកាត់បន្ថយជំហានបណ្តុះបណ្តាលរបស់សិស្ស។",
+   "keyPoints": [
+    "AutoScaffold បំប្លែងបទពិសោធន៍បណ្តុះបណ្តាលរបស់សិស្សទៅជាការគាំទ្រដែលអាចលៃតម្រូវបានដោយប្រើប្រាស់ម៉ូដែលគ្រូបង្រៀនដែលបានផ្អាក។",
+    "ក្របខ័ណ្ឌនេះបង្កើតយុទ្ធសាស្ត្ររួម និងតម្រុយបុគ្គលដែលលៃតម្រូវនៅពេលការរៀនរីកចម្រើន និងត្រូវបានដកចេញនៅពេលវាយតម្លៃ។",
+    "សិស្សដែលបានបណ្តុះបណ្តាលជាមួយ AutoScaffold ទទួលបានការកើនឡើង 7.2 ពិន្ទុក្នុង ALFWorld និង 4.0 ពិន្ទុក្នុង QA exact match លើសពីមូលដ្ឋានគ្រឹះ RL។",
+    "ក្នុងការបង្កើត GPU kernel និងគណិតវិទ្យា វិធីសាស្ត្រនេះបានកែលម្អដំណើរការ និងលើសពីភាពត្រឹមត្រូវពីមុនដោយប្រើជំហានបណ្តុះបណ្តាលសិស្សតិចជាងមុន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AutoScaffold：语言模型强化学习的AI引导脚手架",
+   "summary": "研究人员推出了AutoScaffold，这是一个将学生模型的训练经验转化为自适应脚手架的AIforAI框架，在训练期间无需人工干预。一个冻结的教师模型定期检查该经验以诊断瓶颈，并设计随着学生学习而调整的策略或提示。这些脚手架在评估时会被移除。在ALFWorld、基于搜索的QA、数学推理和GPU内核生成中进行测试时，使用AutoScaffold训练的学生表现优于相应的强化学习基准。",
+   "impact": "该框架可以帮助开发人员和研究人员提高多个领域中语言模型的训练效率和性能，而无需手动设计脚手架。该方法可能会带来更好的准确性和更高的成功率，同时减少学生的训练步骤。",
+   "keyPoints": [
+    "AutoScaffold使用冻结的教师模型将学生训练经验转化为自适应脚手架。",
+    "该框架生成共享策略和个人提示，随着学习进展进行调整并在评估时移除。",
+    "使用AutoScaffold训练的学生在ALFWorld中取得了7.2点的提升，在QA精确匹配中取得了4.0点的提升。",
+    "在GPU内核生成和数学方面，该方法以较少的学生训练步骤提高了性能并超过了先前的准确率。"
+   ]
+  },
+  "ko": {
+   "title": "AutoScaffold: 언어 모델의 강화 학습을 위한 AI 유도 비계",
+   "summary": "연구원들은 훈련 중 인간의 개입 없이 학생 모델의 훈련 경험을 적응형 비계로 변환하는 AI 기반 프레임워크인 AutoScaffold를 소개합니다. 고정된 교사 모델이 주기적으로 이 경험을 검토하여 병목 현상을 진단하고 학생이 학습함에 따라 조정되는 전략이나 힌트를 설계합니다. 이러한 비계는 평가 시 제거됩니다. ALFWorld, 검색 기반 QA, 수학적 추론 및 GPU 커널 생성에 걸쳐 테스트했을 때, AutoScaffold로 훈련된 학생들은 해당 강화 학습 기준선보다 우수한 성능을 보였습니다.",
+   "impact": "이 프레임워크는 개발자와 연구원이 수동으로 비계를 설계할 필요 없이 여러 도메인에서 언어 모델의 훈련 효율성과 성능을 향상시키는 데 도움이 될 수 있습니다. 이 접근 방식은 학생 훈련 단계를 줄이면서 더 나은 정확도와 더 높은 성공률로 이어질 수 있습니다.",
+   "keyPoints": [
+    "AutoScaffold는 고정된 교사 모델을 사용하여 학생 훈련 경험을 적응형 비계로 변환합니다.",
+    "이 프레임워크는 학습이 진행됨에 따라 조정되고 평가 시 제거되는 공유 전략 및 개별 힌트를 생성합니다.",
+    "AutoScaffold로 훈련된 학생들은 ALFWorld에서 7.2점, QA 정확 일치에서 4.0점의 향상을 달성했습니다.",
+    "GPU 커널 생성 및 수학 분야에서 이 방법은 더 적은 학생 훈련 단계를 사용하여 성능을 향상시키고 이전 정확도를 능가했습니다."
+   ]
+  }
+ }
+}

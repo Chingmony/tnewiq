@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fdb6a82863ec052d",
+ "contentHash": "8354225c588929d3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T07:50:43.278Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "From AI Outputs to Production: How AI and Design Systems Work Together",
+   "summary": "NAVER D2 published a session from the 10th NAVER Engineering Day focusing on how AI outputs can successfully move into production through design systems. The presentation covers strategies for gathering inputs in Figma, expressing design intent using components and design tokens, and bridging Figma and code. It also discusses the introduction of the deFign assistant and the Claude Code plugin defign-toolkit to address common hurdles in AI-driven workflows.",
+   "impact": "This presentation could help developers, designers, and planners reduce rework when transferring AI-generated results into real services. Technology teams might find useful approaches for extending design systems to fit the AI era while maintaining existing processes.",
+   "keyPoints": [
+    "Presented at the 10th NAVER Engineering Day internal tech exchange event.",
+    "Explores why AI outputs often fail to become production-ready and how to automate steps within processes.",
+    "Introduces tools like the Claude Code plugin defign-toolkit and deFign assistant to connect Figma and code.",
+    "Targeted at planners, designers, and developers looking to minimize rework and scale design systems for AI."
+   ]
+  },
+  "km": {
+   "title": "ពីលទ្ធផល AI ដល់ផលិតកម្ម៖ របៀបដែល AI និងប្រព័ន្ធឌីហ្សាញធ្វើការរួមគ្នា",
+   "summary": "NAVER D2 បានបោះពុម្ពផ្សាយវគ្គមួយពីព្រឹត្តិការណ៍ផ្លាស់ប្តូរបច្ចេកវិទ្យាภายใน NAVER Engineering Day lầnទី 10 ដែលផ្តោតលើរបៀបដែលលទ្ធផល AI អាចចូលទៅក្នុងផលិតកម្មតាមរយៈប្រព័ន្ធឌីហ្សាញ។ ការបង្ហាញនេះពិភាក្សាអំពីយុទ្ធសាស្ត្រក្នុងការប្រមូលធាតុចូលក្នុង Figma ការបង្ហាញចេតនាឌីហ្សាញ និងការភ្ជាប់ Figma ទៅនឹងកូដ។ វាក៏បានលើកឡើងពីការណែនាំអំពីជំនួយការ deFign និងកម្មវិធីជំនួយ Claude Code defign-toolkit ផងដែរ។",
+   "impact": "ការបង្ហាញនេះអាចជួយអ្នកអភិវឌ្ឍន៍ អ្នករចនា និងអ្នករៀបចំផែនការកាត់បន្ថយការងារឡើងវិញពេលផ្ទេរលទ្ធផលដែលបង្កើតដោយ AI ទៅក្នុងសេវាកម្មពិត។ ក្រុមបច្ចេកវិទ្យាអាចរកឃើញវិធីសាស្ត្រមានប្រយោជន៍សម្រាប់ការពង្រីកប្រព័ន្ធឌីហ្សាញឱ្យត្រូវនឹងយុគសម័យ AI។",
+   "keyPoints": [
+    "បានបង្ហាញនៅក្នុងព្រឹត្តិការណ៍ផ្លាស់ប្តូរបច្ចេកវិទ្យាภายใน NAVER Engineering Day lầnទី 10។",
+    "ពិភាក្សាអំពីមូលហេតុដែលលទ្ធផល AI ច្រើនតែមិនអាចត្រៀមខ្លួនសម្រាប់ផលិតកម្ម។",
+    "ណែនាំឧបករណ៍ដូចជា defign-toolkit និង deFign assistant ដើម្បីភ្ជាប់ Figma និងកូដ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "从AI产出到生产环境：AI与设计系统如何协同工作",
+   "summary": "NAVER D2 公开了第10届 NAVER Engineering Day 内部技术交流活动中的一场讲座，聚焦于 AI 产出如何通过设计系统走向生产环境。演讲介绍了在 Figma 中收集各种输入的策略、使用组件和设计 Token 表达设计意图的方法，以及通过 Code Connect 将 Figma 与代码连接的技术。此外还探讨了引入 deFign 助手和 Claude Code 插件 defign-toolkit 来弥补 Figma 自由度过高所带来的问题。",
+   "impact": "该讲座可能会帮助策划人员、设计师和开发人员减少将 AI 生成的结果转移到实际服务中时的重复劳动。技术团队或许能够获得在 AI 时代扩展设计系统的实用方法，同时维持现有的工作流程。",
+   "keyPoints": [
+    "在第10届 NAVER Engineering Day 内部技术交流活动中发表。",
+    "探讨了 AI 产出无法进入生产环境的5大原因以及流程间的自动化方法。",
+    "介绍了通过组件、设计 Token 和 design.md 表达设计意图的策略。",
+    "介绍了 Claude Code 插件 defign-toolkit 和 deFign 助手以连接 Figma 与代码。"
+   ]
+  },
+  "ko": {
+   "title": "AI 산출물이 프로덕션이 되기까지-AI와 디자인시스템이 함께 일하는 법",
+   "summary": "NAVER D2는 제10회 NAVER Engineering Day에서 발표된 세션을 공개하며, AI 산출물이 디자인시스템을 통해 프로덕션으로 이어지도록 하는 방법을 다루었다. 발표에서는 다양한 입력을 Figma로 모으는 전략, 컴포넌트와 디자인 토큰으로 설계 의도를 표현하는 방법, 그리고 Figma와 코드를 잇는 방법을 소개했다. 또한 Claude Code 플러그인 defign-toolkit과 deFign assistant 도입을 통해 AI 워크플로우의 한계를 보완하는 방안을 설명했다.",
+   "impact": "이번 발표는 AI로 만든 결과물을 실제 서비스로 옮길 때 발생하는 재작업을 줄이고자 하는 기획자, 디자이너, 개발자에게 도움이 될 수 있다. 기술 조직은 기존 프로세스를 유지하면서도 AI 도입 효과를 높이고 디자인시스템을 확장할 수 있는 유용한 접근법을 얻을 수 있다.",
+   "keyPoints": [
+    "제10회 NAVER Engineering Day 사내 기술 교류 행사에서 발표된 세션임.",
+    "AI 산출물이 프로덕션으로 이어지지 못하는 이유를 짚고 프로세스 단계 사이를 자동화하는 방법을 소개함.",
+    "Figma와 코드를 연결하기 위해 컴포넌트, 디자인 토큰, design.md 등을 활용하는 방법을 다룸.",
+    "Figma의 높은 자유도를 보완하는 deFign assistant와 defign-toolkit 플러그인 도입 효과를 설명함."
+   ]
+  }
+ }
+}

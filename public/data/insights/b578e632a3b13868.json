@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b578e632a3b13868",
+ "contentHash": "822387ca93e1ebb9",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T07:56:22.553Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
+   "summary": "Researchers introduce Pyrite, a pairwise pose-ranking benchmark containing 1,500 pose pairs across various protein-ligand complexes. Expert chemists struggle with this task, performing near chance levels. To address this, the authors develop PyriteRep and two LLM-based agents, PyriteReasoner and PyriteFeaturizer, which achieve up to 67% and 74% accuracy respectively.",
+   "impact": "These findings suggest that LLM-guided feature discovery could improve how computational chemistry tools are interpreted and combined, potentially outperforming human experts in protein-ligand pose ranking.",
+   "keyPoints": [
+    "Pyrite is a benchmark consisting of 1,500 pose pairs across diverse protein-ligand complexes.",
+    "Expert chemists with 3D tools and physics-based scores perform near chance on the benchmark.",
+    "PyriteReasoner uses text-based reasoning to achieve up to 67% accuracy.",
+    "PyriteFeaturizer generates executable code for logistic regression, achieving up to 74% accuracy."
+   ]
+  },
+  "km": {
+   "title": "Pyrite៖ ការសាងសង់ និងការវាយតម្លៃភ្នាក់ងារតម្រៀបទីតាំងប្រូតេអ៊ីន-លីកង់",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ Pyrite ដែលជាគោលការណ៍វាយតម្លៃទីតាំងគូដែលមាន 1,500 គូទីតាំងនៅទូទាំងកុំផ្លិចប្រូតេអ៊ីន-លីកង់ចម្រុះ។ អ្នកជំនាញគីមីវិទ្យាជួបការលំបាកជាមួយភារកិច្ចនេះដោយមានកម្រិតប្រហាក់ប្រហែលនឹងការទายចៃដន្យ។ ដើម្បីដោះស្រាយបញ្ហានេះ ពួកគេបានអភិវឌ្ឍ PyriteRep និងភ្នាក់ងារផ្អែកលើ LLM ចំនួនពីរ ដែលសម្រេចបានភាពត្រឹមត្រូវរហូតដល់ 67% និង 74%។",
+   "impact": "លទ្ធផលទាំងនេះអាចបង្ហាញថា ការរកឃើញលក្ខណៈពិសេសដែលណែនាំដោយ LLM អាចជួយកែលម្អការបកស្រាយនិងការរួមបញ្ចូលលទ្ធផលពីឧបករណ៍គីមីវិទ្យាគណនា។",
+   "keyPoints": [
+    "Pyrite គឺជាគោលការណ៍វាយតម្លៃដែលមាន 1,500 គូទីតាំង។",
+    "អ្នកជំនាញគីមីវិទ្យាមានកម្រិតការអនុវត្តប្រហាក់ប្រហែលនឹងការទាយចៃដន្យ។",
+    "PyriteReasoner សម្រេចបានភាពត្រឹមត្រូវរហូតដល់ 67%។",
+    "PyriteFeaturizer សម្រេចបានភាពត្រឹមត្រូវរហូតដល់ 74%។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Pyrite：蛋白质-配体构象排序智能体的构建与基准测试",
+   "summary": "研究人员介绍了Pyrite，这是一个包含1,500个构象对的成对构象排序基准，涵盖多种蛋白质-配体复合物。专业化学家在面对该任务时的表现接近随机猜测。为了研究自动化排序，开发团队推出了PyriteRep以及两个基于大语言模型的智能体PyriteReasoner和PyriteFeaturizer，它们的准确率分别高达67%和74%。",
+   "impact": "这些结果表明，大语言模型引导的特征发现可能会改善计算化学工具输出的解释和组合方式，为药物发现提供新途径。",
+   "keyPoints": [
+    "Pyrite是一个包含1,500个构象对的成对构象排序基准。",
+    "配备3D工具和基于物理评分的专家化学家表现接近随机猜测。",
+    "PyriteReasoner通过基于文本的推理实现了高达67%的准确率。",
+    "PyriteFeaturizer通过生成可执行代码进行逻辑回归，实现了高达74%的准确率。"
+   ]
+  },
+  "ko": {
+   "title": "Pyrite: 단백질-리간드 포즈 순위 지능형 에이전트 구축 및 벤치마킹",
+   "summary": "연구원들은 다양한 단백질-리간드 복합체에 걸쳐 1,500개의 포즈 쌍으로 구성된 쌍별 포즈 순위 벤치마크인 Pyrite를 소개했다. 전문 화학자들은 이 작업에서 우연 수준에 가까운 성과를 보였다. 자동화된 순위 결정을 위해 연구진은 PyriteRep과 두 개의 LLM 기반 에이전트인 PyriteReasoner와 PyriteFeaturizer를 개발하여 각각 최대 67%와 74%의 정확도를 달성했다.",
+   "impact": "이러한 결과는 LLM 유도 특성 발견이 계산 화학 도구의 출력을 해석하고 결합하는 방식을 개선할 수 있으며, 단백질-리간드 포즈 순위 산정에서 전문가를 능가할 수 있음을 시사한다.",
+   "keyPoints": [
+    "Pyrite는 다양한 단백질-리간드 복합체의 1,500개 포즈 쌍으로 구성된 벤치마크이다.",
+    "3D 도구와 물리 기반 점수를 사용하는 전문 화학자들은 우연 수준의 성능을 보인다.",
+    "PyriteReasoner는 텍스트 기반 추론을 통해 최대 67%의 정확도를 달성한다.",
+    "PyriteFeaturizer는 로지스틱 회귀를 위한 실행 가능한 코드를 생성하여 최대 74%의 정확도를 달성한다."
+   ]
+  }
+ }
+}

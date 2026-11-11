@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "85ce9be08e646593",
+ "contentHash": "cf122b4d8d0f5fd8",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T07:51:14.690Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency added two security flaws affecting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities catalog. This inclusion follows evidence of active exploitation in the wild. The identified vulnerabilities include CVE-2026-20320, which has a CVSS score of 7.5 and involves improper restriction of XML external entity.",
+   "impact": "Security teams and technology users relying on these products may face active exploitation risks. Applying available patches promptly could help mitigate potential threats.",
+   "keyPoints": [
+    "Two security flaws were added to CISA's KEV catalog.",
+    "Affected software includes Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder.",
+    "CVE-2026-20320 has a CVSS score of 7.5 and relates to an XML external entity restriction issue."
+   ]
+  },
+  "km": {
+   "title": "ពិការភាព Cisco BroadWorks និង Openwave កំពុងត្រូវបានកេងប្រវ័ញ្ចយ៉ាងសកម្មទោះបីជាមានបំណះក៏ដោយ",
+   "summary": "ទីភ្នាក់ងារសន្តិសុខគ្របដណ្តប់លើអ៊ីនធឺណិត និងហេដ្ឋារចនាសម្ព័ន្ធរបស់សហរដ្ឋអាមេរិកបានបន្ថែមពិការភាពសន្តិសុខចំនួនពីរដែលប៉ះពាល់ដល់ Cisco BroadWorks និង Openwave Messaging Webtop Media Transcoder ទៅក្នុងបញ្ជីរាយនាមភាពរងគ្រោះដែលត្រូវបានកេងប្រវ័ញ្ចស្គាល់។ ការបន្ថែមនេះធ្វើឡើងបន្ទាប់ពីមានភស្តុតាងនៃការកេងប្រវ័ញ្ចយ៉ាងសកម្ម។ ចំណុចខ្សោយទាំងនោះរួមមាន CVE-2026-20320 ដែលមានពិន្ទុ CVSS 7.5 ពាក់ព័ន្ធនឹងការរឹតត្បិតមិនត្រឹមត្រូវនៃ XML external entity។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលពឹងផ្អែកលើផលិតផលទាំងនេះអាចប្រឈមមុខនឹងហានិភ័យនៃការកេងប្រវ័ញ្ចសកម្ម។ ការអនុវត្តបំណះที่มีស្រាប់អាចជួយកាត់បន្ថយការគំរាមកំហែង.",
+   "keyPoints": [
+    "ពិការភាពសន្តិសុខពីរត្រូវបានបន្ថែមទៅក្នុងកាតាឡុក KEV របស់ CISA។",
+    "ផលិតផលដែលរងផលប៉ះពាល់រួមមាន Cisco BroadWorks និង Openwave Messaging Webtop Media Transcoder។",
+    "CVE-2026-20320 មានពិន្ទុ CVSS 7.5 និងទាក់ទងនឹងបញ្ហា XML external entity។"
+   ]
+  },
+  "zh-CN": {
+   "title": "尽管已有补丁，Cisco BroadWorks 和 Openwave 漏洞仍遭积极利用",
+   "summary": "美国网络安全和基础设施安全局将影响 Cisco BroadWorks 和 Openwave Messaging Webtop Media Transcoder 的两个安全漏洞加入了其已知利用漏洞目录，并指出有证据表明这些漏洞正遭到积极利用。其中包含 CVE-2026-20320，其 CVSS 评分最高为 7.5，涉及 XML 外部实体的不当限制。",
+   "impact": "依赖这些产品的安全团队和技术用户可能会面临遭受积极利用的风险。及时应用可用的补丁可能有助于降低潜在威胁。",
+   "keyPoints": [
+    "两个安全漏洞被加入 CISA 的 KEV 目录中。",
+    "受影响的软件包括 Cisco BroadWorks 和 Openwave Messaging Webtop Media Transcoder。",
+    "CVE-2026-20320 的 CVSS 评分为 7.5，涉及 XML 外部实体限制问题。"
+   ]
+  },
+  "ko": {
+   "title": "패치가 제공됨에도 불구하고 Cisco BroadWorks 및 Openwave 결함이 활발히 악용됨",
+   "summary": "미국 사이버보안 및 인프라 보안청은 Cisco BroadWorks 및 Openwave Messaging Webtop Media Transcoder에 영향을 미치는 두 가지 보안 결함을 알려진 악용 취약점 목록에 추가했으며 활발한 악용 증거가 있다고 밝혔다. 확인된 취약점 중에는 CVSS 점수 7.5점인 CVE-2026-20320이 포함되어 있으며 이는 XML external entity의 부적절한 제한과 관련이 있다.",
+   "impact": "이러한 제품을 사용하는 보안 팀과 기술 사용자는 활성 악용 위험에 직면할 수 있다. 사용 가능한 패치를 신속하게 적용하면 잠재적인 위협을 완화하는 데 도움이 될 수 있다.",
+   "keyPoints": [
+    "두 가지 보안 결함이 CISA의 KEV 카탈로그에 추가됨.",
+    "영향을 받는 소프트웨어에는 Cisco BroadWorks 및 Openwave Messaging Webtop Media Transcoder가 포함됨.",
+    "CVE-2026-20320은 CVSS 점수 7.5점이며 XML external entity 제한 문제와 관련됨."
+   ]
+  }
+ }
+}

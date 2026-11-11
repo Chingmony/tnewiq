@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6c02bf98d5e3f309",
+ "contentHash": "4a641a0ff3c82a95",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T07:56:11.959Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+   "summary": "Researchers introduced Contrastive Discovery, a method that replaces single hypotheses in LLM agents with contrast sets consisting of mutually exclusive and collectively exhaustive competing explanations. Each experiment is scored based on how its evidence redistributes belief across the set, resolving the question when belief concentrates on one explanation. This approach allows agents to re-evaluate existing evidence or guide search without changing the fundamental unit they propose and score.",
+   "impact": "This method could help developers and scientific research teams resolve more scientific questions from the same evidence and validation budget. By identifying specific alternatives rather than just rejecting hypotheses, agents may improve the efficiency of automated data-driven discovery.",
+   "keyPoints": [
+    "Contrastive Discovery replaces pointwise hypothesis testing with contrast sets of competing explanations.",
+    "Across six domains, contrast sets resolved 73 percent of pointwise candidates with large belief shifts to a specific alternative.",
+    "Agents using contrast sets resolved 67 percent more questions than pointwise surprisal under the same experiment budget.",
+    "In a blinded study, 38 human experts chose the same explanation on 78 percent of resolved questions."
+   ]
+  },
+  "km": {
+   "title": "ការរកឃើញផ្ទុយគ្នា៖ ការរកឃើញបែបវិទ្យាសាស្ត្របើកចំហលើការពន្យល់ប្រកួតប្រជែង",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំវិធីសាស្ត្រ Contrastive Discovery ដែលជំនួសការសម្មតិកម្មតែមួយនៅក្នុងភ្នាក់ងារ LLM ជាមួយនឹងឈុតផ្ទុយគ្នាដែលមានការពន្យល់ប្រកួតប្រជែងផ្តាច់មុខទៅវិញទៅមក។ ការពិសោធន៍នីមួយៗត្រូវបានដាក់ពិន្ទុផ្អែកលើរបៀបដែលភស្តុតាងរបស់វាចែកចាយជំនឿឡើងវិញទូទាំងឈុត។ វិធីសាស្ត្រនេះជួយឱ្យភ្នាក់ងារវាយតម្លៃឡើងវិញនូវភស្តុតាងដែលមានស្រាប់ ឬណែនាំការស្វែងរករបស់ពួកគេ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមស្រាវជ្រាវវិទ្យាសាស្ត្រដោះស្រាយសំណួរវិទ្យាសាស្ត្រកាន់តែច្រើនពីភស្តុតាងដូចគ្នា និងថវិកាផ្ទៀងផ្ទាត់។ តាមរយៈការកំណត់ជម្រើសជំនួសជាក់លាក់ ភ្នាក់ងារអាចបង្កើនប្រសិទ្ធភាពនៃការរកឃើញដោយស្វ័យប្រវត្តិ។",
+   "keyPoints": [
+    "Contrastive Discovery ជំនួសការធ្វើតេស្តសម្មតិកម្ម pointwise ជាមួយនឹងឈុតផ្ទុយគ្នា។",
+    "នៅទូទាំងប្រាំាំដែន ឈុតផ្ទុយគ្នាបានដោះស្រាយ 73 ភាគរយនៃបេក្ខជន pointwise ទៅជាជម្រើសជាក់លាក់មួយ។",
+    "ភ្នាក់ងារដែលប្រើឈុតផ្ទុយគ្នាបានដោះស្រាយសំណួរច្រើនជាង 67 ភាគរយក្រោមថវិកាពិសោធន៍ដូចគ្នា។",
+    "ក្នុងចំណោមអ្នកជំនាញមនុស្ស 38 នាក់ បានជ្រើសរើសការពន្យល់ដូចគ្នានៅលើ 78 ភាគរយនៃសំណួរដែលបានដោះស្រាយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "对比发现：基于竞争解释的开放式科学发现",
+   "summary": "研究人员介绍了Contrastive Discovery，该方法用包含互斥且穷尽的竞争解释对比集替代了LLM代理中的单一假设。每个实验根据其证据如何在集合中重新分配信念来打分，当信念集中于一个解释时问题即告解决。这种方法允许代理重新评估现有证据或指导搜索，而无需改变其提出和评分的基本单位。",
+   "impact": "该方法可以帮助开发人员和科研团队在相同的证据和验证预算下解决更多科学问题。通过确定特定的替代方案而不仅仅是拒绝假设，代理可能会提高自动化数据驱动发现的效率。",
+   "keyPoints": [
+    "Contrastive Discovery用竞争解释的对比集替代了逐点假设检验。",
+    "在六个领域中，对比集将73%具有最大信念转移的逐点候选者解析为特定的替代方案。",
+    "在相同的实验预算下，使用对比集的代理比逐点惊讶度多解决67%的问题。",
+    "在盲测研究中，38名人类专家在78%已解决的问题上选择了相同的解释。"
+   ]
+  },
+  "ko": {
+   "title": "대조적 발견: 경쟁하는 설명을 넘어선 개방형 과학적 발견",
+   "summary": "연구원들은 상호 배타적이고 집합적으로 완전한 경쟁 설명들로 이루어진 대조 세트로 LLM 에이전트의 단일 가설을 대체하는 Contrastive Discovery를 소개했다. 각 실험은 증거가 세트 전반에 걸쳐 신념을 재분배하는 방식을 기준으로 점수가 매겨지며, 신념이 하나의 설명에 집중될 때 질문이 해결된다. 이 접근 방식을 통해 에이전트는 제안하고 점수를 매기는 기본 단위를 변경하지 않고도 기존 증거를 재평가하거나 검색을 유도할 수 있다.",
+   "impact": "이 방법은 개발자와 과학 연구팀이 동일한 증거와 검증 예산 내에서 더 많은 과학적 질문을 해결하는 데 도움을 줄 수 있다. 단순한 가설 기각을 넘어 구체적인 대안을 식별함으로써 에이전트는 자동화된 데이터 중심 발견의 효율성을 향상시킬 수 있다.",
+   "keyPoints": [
+    "Contrastive Discovery는 점별 가설 검정을 경쟁 설명의 대조 세트로 대체한다.",
+    "6개 도메인에서 대조 세트는 큰 신념 변화를 보인 점별 후보의 73퍼센트를 특정 대안으로 해결했다.",
+    "대조 세트를 사용하는 에이전트는 동일한 실험 예산 하에서 점별 놀람도보다 67퍼센트 더 많은 질문을 해결했다.",
+    "블라인드 연구에서 38명의 인간 전문가가 해결된 질문의 78퍼센트에서 동일한 설명을 선택했다."
+   ]
+  }
+ }
+}

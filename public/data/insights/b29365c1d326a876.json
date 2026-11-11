@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b29365c1d326a876",
+ "contentHash": "23d138b431c38c3a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T07:56:36.315Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "When Does the Real Wiring Win? Testing connectome structure-function claims against unmeasured physiology",
+   "summary": "Connectome-constrained models are frequently used to claim that measured wiring diagrams outperform shuffled alternatives, but such comparisons can be confounded by how models are tuned. Researchers separated three estimands to evaluate these biases using synthetic ground truth, placebo nulls, and three Drosophila circuit models. While certain biological claims survived all testing protocols, others did not and instead exposed model inadequacies. The findings indicate that credible structural claims require matched optimisation, data-constrained physiology, and a model that functions under those constraints.",
+   "impact": "This research could help developers and researchers better evaluate connectome-constrained models by accounting for tuning biases and unmeasured physiology. Security teams and technology users are unlikely to be directly affected, but computational neuroscientists may need to re-examine structural claims.",
+   "keyPoints": [
+    "Connectome-constrained models compare real wiring against shuffled or rewired variants.",
+    "The study separated three estimands to test biases including under-tuned baselines and the winner's curse.",
+    "Some claims survived all protocols, such as segregated reward and punishment dopamine improving learning.",
+    "Other claims failed under data-constrained physiology, revealing model inadequacies rather than wiring deficits."
+   ]
+  },
+  "km": {
+   "title": "តើពេលណាដែលការតស៊ូខ្សែភ្លើងពិតប្រាកដទទួលបានជ័យជំនះ? ការធ្វើតេស្តការទាមទាររចនាសម្ព័ន្ធ-មុខងារ connectome ប្រឆាំងនឹងសរីរវិទ្យាមិនទាន់បានវាស់វែង",
+   "summary": "ម៉ូដែលដែលកម្រិតដោយ connectome ត្រូវបានប្រើប្រាស់ជាញឹកញាប់ដើម្បីជជែកវែកញែកថាដ្យាក្រាមខ្សែភ្លើងដែលបានវាស់វែងមានដំណើរការល្អជាងជម្រើសដែលបានច្របល់ ហើយការប្រៀបធៀបបែបនេះអាចច្រឡំខ្សែភ្លើងជាមួយនឹងវិធីដែលម៉ូដែលត្រូវបានปรับแต่ง។ អ្នកស្រាវជ្រាវបានបែងចែកកត្តាបីដើម្បីវាយតម្លៃភាពលំអៀងទាំងនេះដោយប្រើប្រាស់ការពិតសំយោគ និងម៉ូដែលសៀគ្វី Drosophila ចំនួនបី។ ខណៈពេលដែលការទាមទារជីវសាស្ត្រមួយចំនួនបានរួចរស់ជីវិតពីពិធីការសាកល្បងទាំងអស់ ខ្លះទៀតមិនបានរួចរស់ទេ ហើយបានបង្ហាញពីភាពមិនគ្រប់គ្រាន់នៃម៉ូដែលជំនួសវិញ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវវាយតម្លៃម៉ូដែលដែលកម្រិតដោយ connectome កាន់តែប្រសើរឡើងដោយគិតគូរពីភាពលំអៀងនៃការปรับแต่ง និងសរីរវិទ្យាមិនទាន់បានវាស់វែង។",
+   "keyPoints": [
+    "ម៉ូដែលដែលកម្រិតដោយ connectome ប្រៀបធៀបខ្សែភ្លើងពិតប្រាកដជាមួយនឹងជម្រើសដែលបានច្របល់។",
+    "ការសិក្សាបានបែងចែកកត្តាបីដើម្បីសាកល្បងភាពលំអៀងផ្សេងៗ។",
+    "ការទាមទារខ្លះបានរួចរស់ពីពិធីការទាំងអស់ ដូចជាដូប៉ាមីនរង្វាន់ និងការដាក់ទណ្ឌកម្មដែលបានបំបែកចេញពីគ្នា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "真实的神经回路何时能胜过替代方案？针对未测量生理学的连接组结构与功能主张测试",
+   "summary": "受连接组约束的模型经常被用来证明测得的布线图优于随机或重新布线的方案，从而支持结构决定功能的观点。研究人员分离出了三种估计量，使用合成地面真实数据、安慰剂零模型和三个果蝇电路模型来测量这些偏差对生物学结论的影响。虽然某些生物学主张在所有测试协议中都得以保留，但其他主张则不然，并暴露出模型自身的不足。研究表明，可信的结构主张需要匹配的优化、受数据约束的生理学以及在这些条件下依然能够工作的模型。",
+   "impact": "这项研究可能帮助开发人员和研究人员更好地评估连接组约束模型，通过考虑调优偏差和未测量的生理学来避免错误结论。计算神经科学领域的团队可能需要重新审视现有的结构与功能主张。",
+   "keyPoints": [
+    "连接组约束模型常用于比较真实布线与随机或打乱的布线。",
+    "研究人员分离了三种估计量来测试机器学习中的已知偏差，如未调优的基线和赢者诅咒。",
+    "部分生物学主张在所有测试协议中均存活下来，例如强化的奖励和惩罚多巴胺机制。",
+    "其他主张在受数据约束的生理学条件下失效，暴露出模型 inadequacy 而非生物布线缺陷。"
+   ]
+  },
+  "ko": {
+   "title": "실제 배선은 언제 승리하는가? 측정되지 않은 생리학에 대한 커넥톰 구조-기능 주장 테스트",
+   "summary": "커넥톰 제약 모델은 측정된 배선도가 셔틀되거나 재배선된 대안보다 성능이 우수하다는 것을 주장하는 데 자주 사용됩니다. 연구자들은 합성 참값, 위약 널 모델, 세 가지 드로소필라 회로 모델을 사용하여 이러한 편향을 평가하기 위해 세 가지 추정값을 분리했습니다. 일부 생물학적 주장은 모든 테스트 프로토콜에서 살아남았지만, 다른 주장은 그렇지 못하고 모델의 부적절함을 드러냈습니다. 신뢰할 수 있는 구조적 주장에는 일치하는 최적화, 데이터 제약 생리학, 그리고 그 조건에서도 여전히 작동하는 모델이 필요하다는 것을 시사합니다.",
+   "impact": "이 연구는 개발자와 연구자들이 튜닝 편향과 측정되지 않은 생리학을 고려하여 커넥톰 제약 모델을 더 잘 평가하는 데 도움이 될 수 있습니다. 계산 신경과학 분야의 팀들은 기존의 구조적 주장을 재검토해야 할 수 있습니다.",
+   "keyPoints": [
+    "커넥톰 제약 모델은 실제 배선과 셔틀된 배선을 비교합니다.",
+    "연구는 튜닝되지 않은 기준선 및 승자의 저주를 포함한 편향을 측정하기 위해 세 가지 추정값을 분리했습니다.",
+    "일부 주장은 모든 테스트 프로토콜에서 생존했습니다.",
+    "다른 주장은 데이터 제약 생리학 하에서 실패하여 모델의 결함을 드러냈습니다."
+   ]
+  }
+ }
+}

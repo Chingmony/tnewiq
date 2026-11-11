@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f4edfe11b6533a57",
+ "contentHash": "3233737f508e43c1",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T07:55:39.277Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+   "summary": "Researchers have introduced a novel approach to building a multi-domain foundation model for medical lesion detection by integrating diverse medical image datasets. The method uses a student-teacher training strategy to combine datasets with heterogeneous label spaces and adapts the example-based EM-DETR framework to learn from multiple domain-specific datasets. This approach achieves state-of-the-art results, including image-level AUC scores exceeding previous state-of-the-art by 1% point on four key findings in CXRs.",
+   "impact": "This development could help overcome the scarcity of comprehensive medical annotations by leveraging heterogeneous data sources. Security teams, developers, and researchers working with medical imaging may find that this scalable foundation model approach improves generalizable performance across different modalities.",
+   "keyPoints": [
+    "Introduces a student-teacher training strategy to combine datasets with heterogeneous label spaces.",
+    "Adapts the example-based EM-DETR framework for joint learning across multiple domain-specific datasets.",
+    "Achieves image-level AUC scores exceeding previous state-of-the-art by 1% point on four key findings in CXRs.",
+    "Surpasses single-dataset EM-DETR trained models by 2-3% points in leading mAP50 for CXRs and mammography."
+   ]
+  },
+  "km": {
+   "title": "ឆ្ពោះទៅរកម៉ូដែលមូលដ្ឋាននៃការរកឃើញតាមរយៈការដាក់មូលដ្ឋានផ្អែកលើឧទាហរណ៍នៅក្នុង EM-DETR",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំវិធីសាស្ត្រថ្មីមួយសម្រាប់បង្កើតម៉ូដែលមូលដ្ឋានពហុដែនសម្រាប់ការរកឃើញដុំដុប ឬដំបៅវេជ្ជសាស្ត្រដោយបញ្ចូល数据集រូបភាពវេជ្ជសាស្ត្រចម្រុះ។ វិធីសាស្ត្រនេះប្រើប្រាស់យុទ្ធសាស្ត្របណ្តុះបណ្តាលសិស្សនិងគ្រូបង្រៀនដើម្បីបញ្ចូលគ្នានូវសំណុំទិន្នន័យដែលមានលំហស្លាកផ្សេងៗគ្នា និងសម្របខ្លួនទៅនឹងក្របខ័ណ្ឌ EM-DETR ដែលផ្អែកលើឧទាហរណ៍។ ការខិតខំប្រឹងប្រែងនេះទទួលបានលទ្ធផលកម្រិតខ្ពស់បំផុត ដោយពិន្ទុ AUC កម្រិតរូបភាពលើសពីកម្រិតមុនៗ ១ភាគរយនៅលើការរកឃើញគន្លឹះចំនួនបួននៅក្នុង CXRs។",
+   "impact": "ការអភិវឌ្ឍន៍នេះអាចជ่วยជម្នះការខ្វះខាតនូវចំណាំសម្គាល់វេជ្ជសាស្ត្រដ៏ទូលំទូលាយដោយប្រើប្រាស់ប្រភពទិន្នន័យចម្រុះ។ អ្នកអភិវឌ្ឍន៍និងអ្នកស្រាវជ្រាវផ្នែករូបភាពវេជ្ជសាស្ត្រអាចរកឃើញថាវិធីសាស្ត្រម៉ូដែលមូលដ្ឋាននេះបង្កើនប្រសិទ្ធភាពការងារទូទៅទូទាំងប្រភេទផ្សេងៗគ្នា។",
+   "keyPoints": [
+    "បានណែនាំយុទ្ធសាស្ត្របណ្តុះបណ្តាលសិស្សនិងគ្រូបង្រៀនដើម្បីរួមបញ្ចូលសំណុំទិន្នន័យដែលមានលំហស្លាកផ្សេងៗគ្នា។",
+    "បានសម្របសម្រួលក្របខ័ណ្ឌ EM-DETR ដែលផ្អែកលើឧទាហរណ៍សម្រាប់ការសិក្សារួមគ្នាលើដែនជាក់លាក់ជាច្រើន។",
+    "សម្រេចបានពិន្ទុ AUC កម្រិតរូបភាពលើសពីកម្រិតមុនៗ ១ភាគរយនៅលើការរកឃើញគន្លឹះចំនួនបួនក្នុង CXRs។",
+    "លើសពី EM-DETR ដែលបានបណ្តុះបណ្តាលលើសំណុំទិន្នន័យតែមួយចំនួន ២-៣ភាគរយក្នុង mAP50 សម្រាប់ CXRs និងម៉ាំម៉ូក្រាហ្វី។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过 EM-DETR 中的基于示例的接地迈向基础检测模型",
+   "summary": "研究人员通过整合多样化的医学图像数据集，引入了一种构建多领域医学病变检测基础模型的新方法。该方法使用师生训练策略来结合具有异构标签空间的数据集，并调整基于示例的 EM-DETR 框架以从多个特定领域的数据集中共同学习。这种方法取得了最先进的结果，在 CXR 的四个关键发现上，图像级 AUC 分数比以前的最先进水平高出 1 个百分点。",
+   "impact": "这一进展可以通过利用异构数据源来帮助克服全面的医学标注稀缺问题。开发人员、安全团队和技术用户可能会发现，这种可扩展的基础模型方法提高了跨不同模态的泛化性能。",
+   "keyPoints": [
+    "引入了师生训练策略以结合具有异构标签空间的数据集。",
+    "调整了基于示例的 EM-DETR 框架以跨多个特定领域的数据集进行联合学习。",
+    "在 CXR 的四个关键发现上实现了图像级 AUC 分数，超过先前最优水平 1 个百分点。",
+    "在 CXR 和乳腺 X 光检查中实现了领先的 mAP50，比在单一数据集上训练的 EM-DETR 超出 2-3 个百分点。"
+   ]
+  },
+  "ko": {
+   "title": "EM-DETR의 예시 기반 그단을 통한 파운데이션 탐지 모델을 향하여",
+   "summary": "연구원들은 다양한 의료 영상 데이터셋을 통합하여 의료 병변 탐지를 위한 다중 도메인 파운데이션 모델을 구축하는 새로운 접근 방식을 소개했습니다. 이 방법은 이질적인 레이블 공간을 가진 데이터셋을 결합하기 위해 교사-학생 학습 전략을 사용하고, 예시 기반 EM-DETR 프레임워크를 조정하여 여러 도메인별 데이터셋에서 공동으로 학습합니다. 이 접근 방식은 최고 수준의 결과를 달성했으며, CXR의 네 가지 주요 발견에서 이미지 수준 AUC 점수가 이전 최고 수준을 1% 포인트 초과했습니다.",
+   "impact": "이번 개발은 이질적인 데이터 소스를 활용하여 포괄적인 의료 주석 부족 문제를 극복하는 데 도움이 될 수 있습니다. 개발자와 보안 팀 및 기술 사용자는 이 확장 가능한 파운데이션 모델 접근 방식이 다양한 양식에서 일반화 성능을 향상시킨다는 것을 알게 될 수 있습니다.",
+   "keyPoints": [
+    "이질적인 레이블 공간을 가진 데이터셋을 결합하기 위한 교사-학생 학습 전략을 도입했습니다.",
+    "여러 도메인별 데이터셋에서 공동으로 학습할 수 있도록 예시 기반 EM-DETR 프레임워크를 조정했습니다.",
+    "CXR의 네 가지 주요 발견에서 이전 최고 수준을 1% 포인트 초과하는 이미지 수준 AUC 점수를 달성했습니다.",
+    "CXR 및 유방 촬영술에서 단일 데이터셋으로 학습된 EM-DETR을 2-3% 포인트 초과하는 선두적인 mAP50을 달성했습니다."
+   ]
+  }
+ }
+}

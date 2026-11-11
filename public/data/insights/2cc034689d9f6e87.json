@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2cc034689d9f6e87",
+ "contentHash": "385c8e9f8d86a548",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T07:52:22.433Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Will AI handle inspection, answering, and invocation? Commerce API in 2026",
+   "summary": "NAVER D2 published a session presented at the 10th NAVER Engineering Day detailing how AI can handle inspection, answer inquiries, and be invoked as tools within commerce APIs. The presentation covers three AI-native tasks implemented by the commerce API platform: AI inspection of routing rules, an MCP gateway for turning API specs into AI tools, and AI-supported technical operations. These updates integrate AI into API validation, agent tool invocation, and inquiry response generation.",
+   "impact": "Developers and platform operators working with LLMs, MCPs, or backend APIs may find these architectural decisions and operational results useful for automating API validation and connecting services to AI agents. Security and platform teams could consider similar gateway controls and automated inspection engines to manage AI-driven tool invocation.",
+   "keyPoints": [
+    "AI inspects routing rules, handling both automated rules and rules requiring judgment.",
+    "An MCP Gateway converts API specifications into tools called by AI agents while maintaining inspection and control.",
+    "Technical support operations utilize gathered knowledge assets to allow AI to read documentation and answer inquiries.",
+    "The session was originally shared at the 10th NAVER Engineering Day internal tech event."
+   ]
+  },
+  "km": {
+   "title": "តើ AI នឹងគ្រប់គ្រងការពិនិត្យ ការឆ្លើយតប និងការហៅទូរសព្ទដែរឬទេ? Commerce API ក្នុងឆ្នាំ 2026",
+   "summary": "NAVER D2 បានផ្សព្វផ្សាយវគ្គមួយដែលបានបង្ហាញនៅក្នុងព្រឹត្តិការណ៍ NAVER Engineering Day lầnទី 10 ដោយពិភាក្សាអំពីរបៀបដែល AI អាចពិនិត្យ ឆ្លើយសំណួរ និងត្រូវគេហៅប្រើជាឧបករណ៍នៅក្នុង commerce API។ ការបង្ហាញនេះបានលើកយកកិច្ចការ AI-native ចំនួនបីដែលបានអនុវត្តដោយវេទិកា commerce API រួមមានការពិនិត្យច្បាប់ routing ដោយ AI, MCP gateway សម្រាប់បំប្លែង API specs ទៅជាឧបករណ៍ AI, និងការគាំទ្រផ្នែកបច្ចេកទេសដោយ AI។ ការផ្លាស់ប្តូរទាំងនេះរួមបញ្ចូល AI ទៅក្នុងការសុពលភាព API ការហៅឧបករណ៍ agent និងការបង្កើតការឆ្លើយតបចំពោះសំណួរ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកដំណើរការវេទិកាដែលធ្វើការជាមួយ LLMs, MCPs ឬ backend APIs អាចយល់ថាការសម្រេចចិត្តផ្នែកស្ថាបត្យកម្មទាំងនេះមានប្រយោជន៍សម្រាប់ការស្វ័យប្រវត្តិកម្មសុពលភាព API និងការភ្ជាប់សេវាកម្មទៅនឹង AI agents។ ក្រុមសុវត្ថិភាព និងវេទិកាក៏អាចពិចារណាលើការគ្រប់គ្រង gateway ស្រដៀងគ្នា និងម៉ាស៊ីនពិនិត្យស្វ័យប្រវត្តិផងដែរ។",
+   "keyPoints": [
+    "AI ពិនិត្យច្បាប់ routing ដោយគ្រប់គ្រងทั้งច្បាប់ស្វ័យប្រវត្តិ និងច្បាប់ដែលត្រូវការការវិនិច្ឆ័យ។",
+    "MCP Gateway បំប្លែងការបញ្ជាក់ API ទៅជាឧបករណ៍ដែលហៅដោយ AI agents ខណៈពេលដែលរក្សាការពិនិត្យ និងការគ្រប់គ្រង។",
+    "ប្រតិបត្តិការជំនួយបច្ចេកទេសប្រើប្រាស់ទ្រព្យសម្បត្តិចំណេះដឹងដែលបានប្រមូលផ្តុំ ដើម្បីអនុញ្ញាតឱ្យ AI អានឯកសារ និងឆ្លើយសំណួរ។",
+    "វគ្គនេះត្រូវបានចែករំលែកដំបូងនៅក្នុងព្រឹត្តិការណ៍បច្ចេកវិទ្យាផ្ទៃក្នុង NAVER Engineering Day lầnទី 10។"
+   ]
+  },
+  "zh-CN": {
+   "title": "审查、答复和调用都交给AI？2026年的Commerce API",
+   "summary": "NAVER D2公开了在第10届NAVER Engineering Day上发表的关于Commerce API中AI应用的演讲内容。该演讲介绍了commerce API平台今年进行的三个AI原生任务的设计决策和运营结果，包括路由规则的AI审查、用于将API规范转为AI代理工具的MCP网关，以及技术支持运营的AI辅助。这些内容展示了如何让API规范通过AI审查、成为咨询答复的依据，并作为工具被调用。",
+   "impact": "开发人员、平台运营商以及计划将LLM和MCP连接到服务的技术人员可以参考这些架构决策来改进API验证和自动化规则。安全团队可能会关注如何通过MCP网关对AI代理调用的工具进行相同的审查和控制。",
+   "keyPoints": [
+    "AI审查路由规则，利用数据创建自动化规则并自动审查需要判断的规则。",
+    "MCP网关将API规范转换为AI代理调用的Tool，同时经过相同的审查和控制流程。",
+    "技术支持运营借助分散的知识资产，通过AI阅读文档并连接到咨询答复中。",
+    "该内容源自NAVER内部技术交流活动NAVER Engineering Day。"
+   ]
+  },
+  "ko": {
+   "title": "검수도 답변도 호출도 AI가? 커머스API의 2026",
+   "summary": "NAVER D2는 제10회 NAVER Engineering Day에서 발표된 세션을 공개하며, 커머스API 플랫폼이 올해 진행한 AI 네이티브 과제 세 건의 설계 결정과 운영 결과를 소개했다. 동일한 API 스펙이 AI에게 검수되고, 문의 답변의 근거가 되며, 툴로 호출되기까지의 과정을 다룬다. 세부 내용으로는 라우팅 룰 AI 검수, API 명세를 AI 에이전트가 부르는 툴로 바꾸는 MCP G/W, 그리고 기술지원 운영 업무 AI 지원 등이 포함된다.",
+   "impact": "LLM이나 MCP를 서비스에 연결하려는 백엔드 개발자 및 플랫폼 운영자들은 이번 발표의 아키텍처 설계 결정과 운영 결과를 참고하여 API 검증 및 AI 연동을 자동화하는 방안을 모색할 수 있다. 보안 및 운영 팀은 AI 에이전트의 도구 호출을 통제하고 지식 자산을 통합하는 방식에 주목할 수 있다.",
+   "keyPoints": [
+    "라우팅 룰 AI 검수는 자동화 규칙 50개를 데이터로 만들고 판단이 필요한 규칙까지 자동으로 검수하는 엔진을 다룬다.",
+    "MCP G/W는 API 명세를 AI 에이전트가 부르는 툴로 바꾸고 검수와 통제를 거치도록 하는 창구 역할을 한다.",
+    "기술지원 운영 업무 AI 지원은 흩어진 지식을 자산으로 모아 AI가 읽는 문서와 문의 답변으로 이어지도록 했다.",
+    "해당 발표는 NAVER의 사내 기술 교류 행사인 NAVER Engineering Day에서 진행되었다."
+   ]
+  }
+ }
+}

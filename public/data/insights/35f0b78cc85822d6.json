@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "35f0b78cc85822d6",
+ "contentHash": "fd2ba295ab733286",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T07:56:47.395Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+   "summary": "Researchers propose Continual-ARC, a lifelong stream built from the three ARC-AGI editions designed to measure skill acquisition and compare memory-based and weight-based continual learning systems. The benchmark features returning tasks with fresh instances, continuous new tasks, a feedback budget model, and post-stream testing for memorization and generalization. Experiments using models such as Qwen3.5-9B and GLM-5.3 Flash showed that harness persistence generally does not improve memorization without explicit expert guidance, and that weight-based learning shows substantial gains on unseen tasks.",
+   "impact": "This research could help developers and security teams better understand the limitations and capabilities of agent harnesses and continual learning mechanisms. The findings may guide future approaches in combining weight-based learning with agent harnesses across new domains.",
+   "keyPoints": [
+    "Continual-ARC is a lifelong stream built from the three ARC-AGI editions requiring no domain knowledge.",
+    "The benchmark scores learners based on a feedback budget consumed for demonstrations, answers, and retries.",
+    "Persistence in the harness generally does not improve memorization without explicit expert guidance.",
+    "Weight-based learning shows substantial gains on unseen tasks, whereas harness-based methods do not."
+   ]
+  },
+  "km": {
+   "title": "Continual-ARC៖ ការវាស់វែងការទទួលបានជំនាញពេញមួយជីវិតការងារ",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើ Continual-ARC ដែលជាស្ទ្រីមពេញមួយជីវិតសាងសង់ឡើងពីបោះពុម្ព ARC-AGI ទាំងបី ដើម្បីវាស់វែងការទទួលបានជំនាញ និងប្រៀបធៀបប្រព័ន្ធរៀនបន្តបន្ទាប់ផ្អែកលើអង្គចងចាំ និងទម្ងន់។ បញ្ជីសាកល្បងនេះមានកិច្ចការត្រឡប់មកវិញជាមួយនឹងគំរូថ្មីៗ កិច្ចការថ្មីៗបន្តបន្ទាប់ គំរូងវិភាគថវិកាfeed back និងការធ្វើតេស្តក្រោយស្ទ្រីមសម្រាប់ការចងចាំនិងការទូទៅ។ ការពិសោធន៍ដោយប្រើម៉ូដែលដូចជា Qwen3.5-9B និង GLM-5.3 Flash បានបង្ហាញថាភាពជាប់លាប់នៃharness ជាទូទៅមិនបង្កើនការចងចាំទេបើគ្មានការណែនាំពីអ្នកជំនាញច្បាស់លាស់ ហើយការរៀនផ្អែកលើទម្ងន់បង្ហាញការរីកចម្រើនយ៉ាងខ្លាំងលើកិច្ចការដែលមិនធ្លាប់ឃើញ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខយល់ដឹងកាន់តែច្បាស់អំពីដែនកំណត់និងសមត្ថភាពនៃ agent harnesses និងយន្តការរៀនបន្តបន្ទាប់។ លទ្ធផលអាចជាការណែនាំដល់វិធីសាស្ត្រនាពេលអនាគតក្នុងការផ្សំការរៀនផ្អែកលើទម្ងន់ជាមួយនឹង agent harnesses នៅលើដែនថ្មីៗ។",
+   "keyPoints": [
+    "Continual-ARC គឺជាស្ទ្រីមពេញមួយជីវិតដែលសាងសង់ពីបោះពុម្ព ARC-AGI ទាំងបីដែលមិនត្រូវការចំណេះដឹងដែន។",
+    "បញ្ជីសាកល្បងដាក់ពិន្ទុអ្នករៀនផ្អែកលើថវិកា feed back ដែលបានប្រើប្រាស់សម្រាប់គំរូ ចម្លើយ និងការសាកល្បងឡើងវិញ។",
+    "ភាពជាប់លាប់នៅក្នុង harness ជាទូទៅមិនធ្វើឱ្យការចងចាំប្រសើរឡើងទេបើគ្មានការណែនាំពីអ្នកជំនាញ។",
+    "ការរៀនផ្អែកលើទម្ងន់បង្ហាញការរីកចម្រើនយ៉ាងខ្លាំងលើកិច្ចការដែលមិនធ្លាប់ឃើញ ចំណែកឯវិធីសាស្ត្រផ្អែកលើ harness មិនមាននោះទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Continual-ARC：衡量职业生涯中的技能获取",
+   "summary": "研究人员提出了 Continual-ARC，这是一个由三个 ARC-AGI 版本构建的终身数据流，旨在衡量技能获取并对基于内存和基于权重的持续学习系统进行比较。该基准测试具有带有全新实例的重复任务、源源不断的新任务、反馈预算模型以及用于记忆和泛化测试的流后测试。使用 Qwen3.5-9B 和 GLM-5.3 Flash 等模型进行的实验表明，如果没有显式的专家指导，harness 持续性通常不会改善记忆，并且基于权重的学习在未见任务上表现出实质性增长。",
+   "impact": "这项研究可以帮助开发人员和安全团队更好地了解 agent harness 和持续学习机制的局限性与功能。这些发现可能会指导未来在各个新领域中结合基于权重的学习与 agent harness 的方法。",
+   "keyPoints": [
+    "Continual-ARC 是一个由三个 ARC-AGI 版本构建的终身数据流，不需要领域知识。",
+    "该基准测试根据消耗的用于演示、答案和重试的反馈预算来对学习者进行评分。",
+    "如果没有明确的专家指导，harness 中的持续性通常无法改善记忆力。",
+    "基于权重的学习在未见任务上显示出实质性收益，而基于 harness 的方法则没有。"
+   ]
+  },
+  "ko": {
+   "title": "Continual-ARC: 근무 기간 동안의 기술 습득 측정",
+   "summary": "연구진은 기술 습득을 측정하고 메모리 기반 및 가중치 기반 지속적 학습 시스템을 비교하기 위해 세 가지 ARC-AGI 버전으로 구축된 평생 스트림인 Continual-ARC를 제안합니다. 이 벤치마크는 새로운 인스턴스가 포함된 반복 작업, 지속적인 새로운 작업, 피드백 예산 모델, 암기 및 일반화에 대한 스트림 후 테스트를 특징으로 합니다. Qwen3.5-9B 및 GLM-5.3 Flash와 같은 모델을 사용한 실험에 따르면 명시적인 전문가 지도가 없는 한 하네스 지속성은 일반적으로 암기력을 향상시키지 못하며, 가중치 기반 학습은 보지 못한 작업에서 상당한 향상을 보여주었습니다.",
+   "impact": "이번 연구는 개발자와 보안 팀이 에이전트 하네스 및 지속적 학습 메커니즘의 한계와 기능을 더 잘 이해하는 데 도움이 될 수 있습니다. 연구 결과는 새로운 도메인에서 가중치 기반 학습을 에이전트 하네스와 결합하는 향후 접근 방식을 안내할 수 있습니다.",
+   "keyPoints": [
+    "Continual-ARC는 도메인 지식이 필요 없는 세 가지 ARC-AGI 버전으로 구축된 평생 스트림입니다.",
+    "이 벤치마크는 시연, 답변, 재시도에 소비된 피드백 예산을 기준으로 학습자의 점수를 매깁니다.",
+    "하네스의 지속성은 명시적인 전문가 지도가 제공되지 않는 한 일반적으로 암기력을 향상시키지 않습니다.",
+    "가중치 기반 학습은 보지 못한 작업에서 상당한 이득을 보이는 반면, 하네스 기반 방법은 그렇지 않습니다."
+   ]
+  }
+ }
+}
