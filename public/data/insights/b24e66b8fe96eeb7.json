@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b24e66b8fe96eeb7",
+ "contentHash": "f2a83c0a591f7bb2",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T01:27:13.053Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Designing for Agents — Zeno Rocha, Resend",
+   "summary": "In a recent podcast episode, Latent Space interviewed Resend CEO Zeno Rocha to discuss Agent Experience Optimization (AEO) and how AI agents choose development tools. AEO studies showed that AI coding assistants like Claude Code frequently recommended Resend over larger competitors. The discussion covered how developer tools like React Email, machine-readable pricing pages, and comprehensive MCP servers influence agent recommendations and adoption.",
+   "impact": "Developers and security teams building software tools may need to adapt their public documentation, APIs, and pricing structures so that AI agents can easily parse and recommend their products. Companies could experience shifts in software adoption as coding assistants increasingly influence tool selection.",
+   "keyPoints": [
+    "Zeno Rocha, co-founder and CEO of Resend, discussed AEO and how AI agents recommend developer tools.",
+    "An AEO study showed Claude Code recommended Resend first in a majority of extracted email recommendations.",
+    "Resend expanded its MCP server from around 20 tools to over 80 tools to give chat clients dashboard capabilities.",
+    "Resend utilizes machine-readable pricing structures, such as appending .md to URLs, to assist agent accessibility."
+   ]
+  },
+  "km": {
+   "title": "ការរចនាសម្រាប់ភ្នាក់ងារ — Zeno Rocha, Resend",
+   "summary": "នៅក្នុងផតខាសថ្មីមួយ Latent Space បានសម្ភាសនាយកប្រតិបត្តិ Resend គឺលោក Zeno Rocha ដើម្បីពិភាក្សាអំពីការបង្កើនប្រសិទ្ធភាពបទពិសោធន៍ភ្នាក់ងារ និងរបៀបដែលភ្នាក់ងារ AI ជ្រើសរើសឧបករណ៍អភិវឌ្ឍន៍។ ការសិក្សាបានបង្ហាញថាជំនួយការសរសេរកូដ AI ដូចជា Claude Code ມັກនឹងណែនាំ Resend លើសពីដៃគូប្រកួតប្រជែងធំៗ។ ការពិភាក្សានេះក៏បានប៉ះពាល់ដល់សារៈសំខាន់នៃទំព័រតម្លៃដែលងាយស្រួលអានដោយម៉ាស៊ីន និងម៉ាស៊ីនមេ MCP ផងដែរ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងសន្តិសុខអាចចាំបាច់ត្រូវកែសម្រួលឯកសារសាធារណៈ និង API របស់ពួកគេ ដើម្បីឱ្យភ្នាក់ងារ AI អាចអាន និងណែនាំផលិតផលរបស់ពួកគេបានយ៉ាងងាយស្រួល។ ក្រុមហ៊ុននានាអាចនឹងឃើញការផ្លាស់ប្តូរក្នុងការជ្រើសរើសឧបករណ៍នៅពេលដែលជំនួយការសរសេរកូដមានឥទ្ធិពលកាន់តែខ្លាំង។",
+   "keyPoints": [
+    "លោក Zeno Rocha នាយកប្រតិបត្តិ Resend បានពិភាក្សាអំពីរបៀបដែលភ្នាក់ងារ AI ណែនាំឧបករណ៍អភិវឌ្ឍន៍។",
+    "ការសិក្សា AEO បានបង្ហាញថា Claude Code បានជ្រើសរើស Resend ជាជម្រើសដំបូងក្នុងករណីភាគច្រើន។",
+    "Resend បានពង្រីកម៉ាស៊ីនមេ MCP របស់ខ្លួនពីប្រហែល ២០ ឧបករណ៍ ដល់ជាង ៨០ ឧបករណ៍។",
+    "Resend ប្រើប្រាស់ទម្រង់តម្លៃដែលអាចអានបានដោយម៉ាស៊ីន ដើម្បីជួយសម្រួលដល់ភ្នាក់ងារ AI។"
+   ]
+  },
+  "zh-CN": {
+   "title": "为代理设计 — Zeno Rocha，Resend",
+   "summary": "在一期播客中，Latent Space 采访了 Resend 的首席执行官 Zeno Rocha，讨论了代理体验优化（AEO）以及人工智能代理如何选择开发工具。AEO 研究显示，像 Claude Code 这样的人工智能编程助手在许多电子邮件推荐中将 Resend 排在首位。访谈还探讨了 React Email、机器可读的定价页面以及不断扩展的 MCP 服务器如何影响代理的推荐与采用。",
+   "impact": "构建软件工具的开发人员和安全团队可能需要调整其公共文档、API 和定价结构，以便人工智能代理能够轻松解析并推荐其产品。随着编码助手日益影响工具的选择，公司可能会经历软件采用模式的变化。",
+   "keyPoints": [
+    "Resend 联合创始人兼首席执行官 Zeno Rocha 讨论了 AEO 以及人工智能代理如何推荐开发工具。",
+    "AEO 研究表明，Claude Code 在大多数提取的电子邮件推荐中首先选择了 Resend。",
+    "Resend 将其 MCP 服务器从大约 20 个工具扩展到了 80 多个工具。",
+    "Resend 使用了机器可读的定价结构来帮助代理更好地访问信息。"
+   ]
+  },
+  "ko": {
+   "title": "에이전트를 위한 디자인 — 제노 로샤(Zeno Rocha), Resend",
+   "summary": "팟캐스트 Latent Space는 Resend의 CEO인 제노 로샤를 인터뷰하여 에이전트 경험 최적화(AEO)와 AI 에이전트가 개발자 도구를 선택하는 방식에 대해 논의했습니다. AEO 연구에 따르면 Claude Code와 같은 AI 코딩 어시스턴트가 많은 이메일 추천 사례에서 Resend를 우선적으로 추천했습니다. 이번 인터뷰에서는 React Email, 머신러닝이 읽을 수 있는 가격 페이지, 확장된 MCP 서버가 에이전트의 추천과 채택에 미치는 영향이 다뤄졌습니다.",
+   "impact": "소프트웨어 도구를 구축하는 개발자와 보안 팀은 AI 에이전트가 자사 제품을 쉽게 파악하고 추천할 수 있도록 공개 문서, API, 가격 구조를 조정해야 할 수 있습니다. 코딩 어시스턴트가 도구 선택에 점점 더 큰 영향을 미침에 따라 기업들은 소프트웨어 채택 패턴의 변화를 겪을 수 있습니다.",
+   "keyPoints": [
+    "Resend의 공동 창립자이자 CEO인 제노 로샤가 AEO와 AI 에이전트의 개발자 도구 추천 방식에 대해 논의했습니다.",
+    "AEO 연구에 따르면 Claude Code가 추출된 이메일 추천 중 다수에서 Resend를 첫 번째로 선택했습니다.",
+    "Resend는 MCP 서버를 약 20개 미만의 도구에서 80개 이상으로 확장했습니다.",
+    "Resend는 에이전트가 접근하기 쉽도록 기계가 읽을 수 있는 가격 구조를 활용합니다."
+   ]
+  }
+ }
+}

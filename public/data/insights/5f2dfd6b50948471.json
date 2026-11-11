@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5f2dfd6b50948471",
+ "contentHash": "7ff4301dd9c23dd6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T01:30:54.655Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon OpenSearch Service announces managed cross-Region disaster recovery",
+   "summary": "Amazon OpenSearch Service now provides managed cross-Region disaster recovery to help meet availability and business continuity needs for workloads. Users can pair domains across two Regions using a single API call or the AWS Management Console. The feature maintains continuous synchronization, offering a recovery point objective under one minute and a recovery time objective under 20 minutes. It supports planned switchovers and unplanned failovers, and requires OpenSearch 3.7 or later.",
+   "impact": "This feature could help developers and administrators ensure business continuity for mission-critical search, AI, and analytics workloads with reduced manual maintenance. Teams may benefit from built-in monitoring and role-swapping capabilities, though they must verify that their cluster versions and instance types are supported.",
+   "keyPoints": [
+    "Delivers a recovery point objective under one minute and a recovery time objective under 20 minutes.",
+    "Requires OpenSearch 3.7 or later and supports domains in the same AWS account.",
+    "Does not support UltraWarm storage or OpenSearch Optimized instances (OR1 or OR2).",
+    "Available at no additional charge beyond standard rates for the secondary domain and cross-Region data transfer."
+   ]
+  },
+  "km": {
+   "title": "Amazon OpenSearch Service ប្រកាសពីសេវាកម្មសង្គ្រោះបន្ទាន់ឆ្លងតំបន់ដែលគ្រប់គ្រង",
+   "summary": "Amazon OpenSearch Service ឥឡូវនេះផ្តល់ជូននូវការសង្គ្រោះបន្ទាន់ឆ្លងតំបន់ដែលគ្រប់គ្រង ដើម្បីជួយបំពេញតាមតម្រូវការភាពអាចរកបាន និងការបន្តអាជីវកម្ម។ អ្នកប្រើប្រាស់អាចផ្គូផ្គងដែននៅទូទាំងពីរតំបន់ដោយប្រើការហៅ API តែមួយ ឬតាមរយៈ AWS Management Console។ លក្ខណៈពិសេសនេះរក្សាការស៊ីសង្វាក់គ្នាជាបន្តបន្ទាប់ ដោយផ្តល់នូវគោលដៅចំណុចសង្គ្រោះក្រោមមួយនាទី និងគោលដៅពេលវេលាសង្គ្រោះក្រោម ២០នាទី។ វាគាំទ្រដល់ការផ្លាស់ប្តូរដែលបានគ្រោងទុក និងការបរាជ័យដោយអចេតនា ហើយទាមទារ OpenSearch 3.7 ឬជំនាន់ក្រោយ។",
+   "impact": "លក្ខណៈពិសេសនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកគ្រប់គ្រងធានានូវការបន្តអាជីវកម្មសម្រាប់កិច្ចការសំខាន់ៗដោយកាត់បន្ថយការថែទាំដោយដៃ។ ក្រុមការងារអាចទទួលបានអត្ថប្រយោជន៍ពីការត្រួតពិនិត្យដែលបានបង្កើតឡើង និងសមត្ថភាពប្តូរតួនាទី ទោះបីជាពួកគេត្រូវផ្ទៀងផ្ទាត់ថាជំនាន់群组 និងប្រភេទ نمونه របស់ពួកគេត្រូវបានគាំទ្រក៏ដោយ។",
+   "keyPoints": [
+    "ផ្តល់នូវគោលដៅចំណុចសង្គ្រោះក្រោមមួយនាទី និងគោលដៅពេលវេលាសង្គ្រោះក្រោម ២០នាទី។",
+    "ទាមទារ OpenSearch 3.7 ឬជំនាន់ក្រោយ និងគាំទ្រដែននៅក្នុងគណនី AWS តែមួយ។",
+    "មិនគាំទ្រទំហំเก็บข้อมูล UltraWarm ឬ نمونه OpenSearch Optimized (OR1 ឬ OR2) ទេ។",
+    "មានដោយឥតគិតថ្លៃបន្ថែមលើសពីអត្រាធម្មតាសម្រាប់ដែនទីពីរ និងការផ្ទេរទិន្នន័យឆ្លងតំបន់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon OpenSearch Service 宣布推出托管式跨区域灾难恢复功能",
+   "summary": "Amazon OpenSearch Service 现在提供托管式跨区域灾难恢复功能，帮助满足工作负载的高可用性和业务连续性要求。用户可以通过单个 API 调用或 AWS Management Console 在两个区域之间配对域。该功能保持持续同步，提供低于一分钟的恢复点目标以及低于 20 分钟的恢复时间目标。它支持计划内的切换和故障转移，并需要 OpenSearch 3.7 或更高版本。",
+   "impact": "此功能可以帮助开发人员和管理员确保关键搜索、人工智能和分析工作负载的业务连续性，同时减少手动维护。团队可以从内置监控和角色交换功能中受益，但必须验证其集群版本和实例类型是否受支持。",
+   "keyPoints": [
+    "提供低于一分钟的恢复点目标和低于 20 分钟的恢复时间目标。",
+    "要求使用 OpenSearch 3.7 或更高版本，并支持同一 AWS 账户中的域。",
+    "不支持 UltraWarm 存储或 OpenSearch Optimized 实例（OR1 或 OR2）。",
+    "除次要域和跨区域数据传输的标准费率外，不收取额外费用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon OpenSearch Service, 관리형 크로스 리전 재해 복구 기능 발표",
+   "summary": "Amazon OpenSearch Service는 이제 관리형 크로스 리전 재해 복구를 제공하여 워크로드에 대한 엄격한 가용성 및 비즈니스 연속성 요구 사항을 충족할 수 있도록 지원합니다. 사용자는 단일 API 호출이나 AWS Management Console을 통해 두 리전의 도메인을 페어링할 수 있습니다. 이 기능은 지속적인 동기화를 유지하여 1분 미만의 복구 지점 목표와 20분 미만의 복구 시간 목표를 제공합니다. 계획된 전환과 장애 조치를 지원하며, OpenSearch 3.7 이상이 필요합니다.",
+   "impact": "이 기능은 개발자와 관리자가 수동 유지 관리 부담을 줄이면서 중요 검색, AI 및 분석 워크로드의 비즈니스 연속성을 보장하는 데 도움이 될 수 있습니다. 팀은 기본 제공 모니터링 및 역할 교체 기능의 이점을 누릴 수 있지만, 클러스터 버전과 인스턴스 유형이 지원되는지 확인해야 합니다.",
+   "keyPoints": [
+    "1분 미만의 복구 지점 목표와 20분 미만의 복구 시간 목표를 제공합니다.",
+    "OpenSearch 3.7 이상이 필요하며 동일한 AWS 계정 내의 도메인을 지원합니다.",
+    "UltraWarm 스토리지나 OpenSearch Optimized 인스턴스(OR1 또는 OR2)는 지원되지 않습니다.",
+    "보조 도메인 및 크로스 리전 데이터 전송에 대한 표준 요금 외에 추가 요금이 부과되지 않습니다."
+   ]
+  }
+ }
+}

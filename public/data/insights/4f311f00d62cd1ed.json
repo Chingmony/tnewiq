@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4f311f00d62cd1ed",
+ "contentHash": "db194eaf03ced7ff",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T01:20:46.781Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search",
+   "summary": "AWS has launched the Web Search API in Amazon Bedrock AgentCore, providing agents and applications with current web results through a single API call signed with AWS credentials. LangChain developers can now use the AgentCore web search tool in LangChain's AWS integration, which supports LangChain agents, LangGraph, and Deep Agents. An example post demonstrates building a daily dependency watch for a security team to check open-source packages and container base images across three ecosystems in parallel.",
+   "impact": "Security teams and developers could use these tools to automate dependency tracking and vulnerability research while maintaining strict control over search queries and parameters. Keeping queries within the cloud environment and enforcing rules through code may help prevent data leakage and ensure reliable, cited search results for enterprise applications.",
+   "keyPoints": [
+    "The Web Search API in Amazon Bedrock AgentCore is now available, serving queries from an Amazon-operated web index.",
+    "Queries are signed with existing AWS credentials, eliminating the need to store or rotate search API keys.",
+    "The integration works with LangChain, LangGraph, and Deep Agents, enabling parallel research across multiple package ecosystems.",
+    "Administrators can enforce rules such as date windows and domain blocklists outside the control of the underlying AI model."
+   ]
+  },
+  "km": {
+   "title": "កសាងឧបករណ៍តាមដានបឹងគ្អែកប្រចាំថ្ងៃដោយប្រើប្រាស់ LangGraph និងការស្វែងរកតាមបណ្តាញអ៊ីនធឺណិតរបស់ Amazon Bedrock AgentCore",
+   "summary": "AWS បានដាក់ឱ្យប្រើប្រាស់ Web Search API ក្នុង Amazon Bedrock AgentCore ដែលផ្តល់នូវលទ្ធផលស្វែងរកបច្ចុប្បន្នតាមរយៈការហៅ API តែមួយ។ អ្នកអភិវឌ្ឍន៍ LangChain ឥឡូវនេះអាចប្រើប្រាស់ឧបករណ៍ស្វែងរកតាមបណ្តាញអ៊ីនធឺណិត AgentCore នៅក្នុងការរួមបញ្ចូលរបស់ LangChain ជាមួយ AWS។ អត្ថបទបង្ហាញពីរបៀបកសាងប្រព័ន្ធតាមដានបឹងគ្អែកប្រចាំថ្ងៃសម្រាប់ក្រុមសន្តិសុខ ដើម្បីពិនិត្យមើលកញ្ចប់កូដប្រភពបើកចំហក្នុងពេលដំណាលគ្នា។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់ឧបករណ៍ទាំងនេះដើម្បីស្វ័យប្រវត្តិកម្មការតាមដានបឹងគ្អែក ខណៈពេលដែលរក្សាបាននូវការគ្រប់គ្រងយ៉ាងតឹងរ៉ឹងលើសំណួរស្វែងរក។ ការរក្សាទុកសំណួរក្នុងប្រព័ន្ធឃ្លាត និងការដាក់កម្រិតតាមរយៈកូដអាចជួយការពារការបែកធ្លាយទិន្នន័យ។",
+   "keyPoints": [
+    "Web Search API នៅក្នុង Amazon Bedrock AgentCore ឥឡូវនេះអាចប្រើប្រាស់បានហើយ។",
+    "សំណួរស្វែងរកត្រូវបានចុះហត្ថលេខាដោយប្រើប្រាស់លិខិតសម្គាល់ AWS ដែលមានស្រាប់។",
+    "ការរួមបញ្ចូលនេះដំណើរការជាមួយ LangChain, LangGraph និង Deep Agents។",
+    "អ្នកគ្រប់គ្រងអាចអនុវត្តច្បាប់ដូចជាបង្អួចកាលបរិច្ឆេទ និងបញ្ជីខ្មៅនៃដែនអ៊ីនធឺណិតបាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 LangGraph 和 Amazon Bedrock AgentCore 网页搜索构建日常依赖项监视器",
+   "summary": "AWS 推出了 Amazon Bedrock AgentCore 中的 Web Search API，通过使用现有 AWS 凭据签名的单个 API 调用为代理和应用程序提供最新的网页搜索结果。LangChain 开发者现在可以在 LangChain 的 AWS 集成中使用 AgentCore 网页搜索工具，该工具支持 LangChain 代理、LangGraph 和 Deep Agents。一篇文章演示了如何为安全团队构建日常依赖项监视器，以并行研究三个包生态系统。",
+   "impact": "安全团队和开发者可以利用这些工具自动化依赖项跟踪和漏洞研究，同时严格控制搜索查询和参数。将查询保留在云环境中并通过代码强制执行规则，可能有助于防止数据泄露并确保获得可靠的引用搜索结果。",
+   "keyPoints": [
+    "Amazon Bedrock AgentCore 中的 Web Search API 现已可用，并通过亚马逊运营的网页索引提供查询服务。",
+    "查询使用现有的 AWS 凭据进行签名，无需存储或轮换搜索 API 密钥。",
+    "该集成可与 LangChain、LangGraph 和 Deep Agents 配合使用，支持跨多个包生态系统进行并行研究。",
+    "管理员可以在底层 AI 模型控制之外强制执行诸如日期窗口和域名黑名单等规则。"
+   ]
+  },
+  "ko": {
+   "title": "LangGraph 및 Amazon Bedrock AgentCore 웹 검색을 사용한 일일 종속성 감시 도구 구축",
+   "summary": "AWS는 Amazon Bedrock AgentCore의 웹 검색 API(Web Search API)를 출시하여 기존 AWS 자격 증명으로 서명된 단일 API 호출을 통해 에이전트와 애플리케이션에 최신 웹 검색 결과를 제공합니다. LangChain 개발자는 이제 LangChain의 AWS 통합에서 AgentCore 웹 검색 도구를 사용할 수 있으며, 이는 LangChain 에이전트, LangGraph 및 Deep Agents를 지원합니다. 한 게시물에서는 보안 팀을 위한 일일 종속성 감시 도구를 구축하여 세 가지 패키지 생태계를 병렬로 연구하는 방법을 보여줍니다.",
+   "impact": "보안 팀과 개발자는 이러한 도구를 사용하여 종속성 추적 및 취약성 조사를 자동화하는 동시에 검색 쿼리 및 매개변수에 대한 엄격한 제어를 유지할 수 있습니다. 클라우드 환경 내에서 쿼리를 유지하고 코드를 통해 규칙을 적용하면 데이터 유출을 방지하고 신뢰할 수 있는 인용된 검색 결과를 보장하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "Amazon Bedrock AgentCore의 웹 검색 API를 이제 사용할 수 있으며 Amazon이 운영하는 웹 인덱스에서 쿼리를 제공합니다.",
+    "쿼리는 기존 AWS 자격 증명으로 서명되므로 검색 API 키를 저장하거나 교체할 필요가 없습니다.",
+    "이 통합은 LangChain, LangGraph 및 Deep Agents와 함께 작동하여 여러 패키지 생태계에서 병렬 연구를 가능하게 합니다.",
+    "관리자는 기본 AI 모델의 제어를 벗어나 날짜 창 및 도메인 차단 목록과 같은 규칙을 적용할 수 있습니다."
+   ]
+  }
+ }
+}

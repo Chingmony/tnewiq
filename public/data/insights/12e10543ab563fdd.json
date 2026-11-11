@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "12e10543ab563fdd",
+ "contentHash": "5c568b1e86e83530",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T01:29:10.322Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+   "summary": "An attacker used a remote code execution flaw in the open-source inference engine SGLang to run code on a NEAR AI inference server. According to the company, the attacker may have accessed requests processed on that server on Sunday, including those handled in confidential mode using a trusted execution environment.",
+   "impact": "This incident may raise security concerns for users relying on inference engines and confidential computing modes. Security teams and developers may need to review vulnerabilities in tools like SGLang to protect sensitive AI workloads.",
+   "keyPoints": [
+    "An attacker exploited a remote code execution vulnerability in SGLang.",
+    "The exploit targeted an inference server belonging to NEAR AI.",
+    "Data from confidential mode requests processed inside a trusted execution environment could have been exposed."
+   ]
+  },
+  "km": {
+   "title": "ការវាយប្រហារតាមរយៈកំហុស SGLang RCE បានជ្រៀតចូល NEAR AI និងលួចទិន្នន័យពី Agent ចំនួន ១៨ និងអ្នកប្រើប្រាស់ប្រហែល ១០០ នាក់",
+   "summary": "ជនខិលខូចម្នាក់បានប្រើប្រាស់កំហុសប្រតិបត្តិូកូដពីចម្ងាយនៅក្នុង SGLang ដែលជាម៉ាស៊ីនinference ប្រភពបើកចំហ ដើម្បីដំណើរការកូដនៅលើម៉ាស៊ីនស៊្វែររបស់ NEAR AI។ ក្រុមហ៊ុនបានឱ្យដឹងថា ជនខិលខូចនោះក៏អាចបានឃើញសំណើដែលកំពុងដំណើរការនៅលើម៉ាស៊ីនស៊្វែរនោះផងដែរ រួមទាំងសំណើដែលបានផ្ញើក្នុងរបៀបសម្ងាត់។",
+   "impact": "ហេតុការណ៍នេះអាចបង្កើនក្តីបារម្ភផ្នែកសុវត្ថិភាពសម្រាប់អ្នកប្រើប្រាស់ម៉ាស៊ីនinference និងរបៀបគណនាសម្ងាត់។ ក្រុមការងារសុវត្ថិភាពនិងអ្នកអភិវឌ្ឍន៍អាចចាំបាច់ត្រូវពិនិត្យមើលភាពរងគ្រោះនៅក្នុងឧបករណ៍ដូចជា SGLang ដើម្បីការពារទិន្នន័យ AI ដែលមានភាពរសើប។",
+   "keyPoints": [
+    "ជនខិលខូចបានប្រើប្រាស់កំហុសប្រតិបត្តិូកូដពីចម្ងាយនៅក្នុង SGLang។",
+    "ការវាយប្រហារនេះបានកំណត់គោលដៅលើម៉ាស៊ីនinference របស់ NEAR AI។",
+    "ទិន្នន័យពីសំណើក្នុងរបៀបសម្ងាត់អាចត្រូវបានexposed។"
+   ]
+  },
+  "zh-CN": {
+   "title": "SGLang RCE 漏洞攻击入侵 NEAR AI，窃取了 18 个 Agent 和约 100 名用户的数据",
+   "summary": "一名攻击者利用开源推理引擎 SGLang 中的远程代码执行漏洞，在上周日于 NEAR AI 的一台推理服务器上运行了代码。该公司本周早些时候表示，攻击者还可能看到了当天在该服务器上处理的请求，包括在受信执行环境中以机密模式发送的请求。",
+   "impact": "这起事件可能会引发使用推理引擎和机密计算模式的用户对安全性的担忧。开发人员和安全团队可能需要审查 SGLang 等工具中的漏洞，以保护敏感的 AI 工作负载。",
+   "keyPoints": [
+    "攻击者利用了 SGLang 中的远程代码执行漏洞。",
+    "该攻击针对 NEAR AI 的推理服务器。",
+    "在受信执行环境中通过机密模式处理的请求数据可能遭到泄露。"
+   ]
+  },
+  "ko": {
+   "title": "SGLang RCE 취약점 공격으로 NEAR AI가 침해당해, 18개의 Agent와 약 100명의 사용자 데이터 유출",
+   "summary": "공격자가 오픈소스 추론 엔진인 SGLang의 원격 코드 실행 취약점을 악용하여 지난주 일요일 NEAR AI의 추론 서버 중 하나에서 코드를 실행했습니다. 회사는 이번 주 초에 공격자가 신뢰 실행 환경 내에서 처리되는 요청을 포함하여 그날 해당 서버에서 처리되던 요청을 볼 수 있었을 것이라고 밝혔습니다.",
+   "impact": "이번 사건은 추론 엔진과 기밀 컴퓨팅 모드를 사용하는 사용자들에게 보안 우려를 불러일으킬 수 있습니다. 개발자와 보안 팀은 민감한 AI 워크로드를 보호하기 위해 SGLang과 같은 도구의 취약점을 검토해야 할 수 있습니다.",
+   "keyPoints": [
+    "공격자가 SGLang의 원격 코드 실행 취약점을 악용했습니다.",
+    "이번 공격은 NEAR AI의 추론 서버를 겨냥했습니다.",
+    "신뢰 실행 환경 내부에서 처리된 기밀 모드 요청의 데이터가 노출되었을 수 있습니다."
+   ]
+  }
+ }
+}

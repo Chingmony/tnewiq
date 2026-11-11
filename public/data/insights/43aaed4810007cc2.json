@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "43aaed4810007cc2",
+ "contentHash": "b4ef145fa1c7e5fe",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T01:24:49.134Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+   "summary": "Research from security firm Claroc shows that Grok Build, a coding agent from SpaceXSI, is leaking confidential information from thousands of users. The data leakage occurs because a design decision allows anyone to enumerate live Grok Build projects via shareable app links. The exposed information includes internal business plans, ad proposals, medical exam results, and employee records.",
+   "impact": "This flaw could expose proprietary business data, sensitive personal details, and internal system addresses to unauthorized users. Developers and organizations using the platform may face severe security risks regarding data confidentiality.",
+   "keyPoints": [
+    "Grok Build leaks proprietary and sensitive data from thousands of users.",
+    "A platform design decision allows enumeration of live projects despite randomized URLs.",
+    "Exposed data includes internal plans, medical results, and employee details.",
+    "SpaceXSI itself had two-dozen apps exposed, including confidential onboarding plans and sales maps."
+   ]
+  },
+  "km": {
+   "title": "ភ្នាក់ងារសរសេរកូដ Grok Build លេចធ្លាយព័ត៌មានសម្ងាត់ជាច្រើន ដែលខ្លះជារបស់ SpaceXSI",
+   "summary": "ការស្រាវជ្រាវពីក្រុមហ៊ុនសន្តិសុខ Claroc បានបង្ហាញថា Grok Build ដែលជាភ្នាក់ងារសរសេរកូដពី SpaceXSI កំពុងលេចធ្លាយទិន្នន័យសម្ងាត់របស់អ្នកប្រើប្រាស់រាប់ពាន់នាក់។ ការលេចធ្លាយទិន្នន័យនេះកើតឡើងដោយសារតែការសម្រេចចិត្តលើការរចនា ដែលអនុញ្ញាតឱ្យនរណាម្នាក់អាចស្វែងរកគម្រោង Grok Build ដែលកំពុងដំណើរការតាមរយៈតំណភ្ជាប់ចែករំលែកកម្មវិធី។ ព័ត៌មានដែលត្រូវបានបង្ហាញរួមមានផែនការអាជីវកម្មផ្ទៃក្នុង សំណើផ្សាយពាណិជ្ជកម្ម និងកំណត់ត្រាបុគ្គលិក។",
+   "impact": "បញ្ហានេះអាចបញ្ចេញទិន្នន័យអាជីវកម្ម និងព័ត៌មានផ្ទាល់ខ្លួនរសើបទៅកាន់អ្នកប្រើប្រាស់ដែលគ្មានការអនុញ្ញាត។ អ្នកអភិវឌ្ឍន៍ និងស្ថាប័នដែលប្រើប្រាស់វេទិកានេះអាចប្រឈមមុខនឹងហានិភ័យសន្តិសុខទាក់ទងនឹងការរក្សាការសម្ងាត់ទិន្នន័យ។",
+   "keyPoints": [
+    "Grok Build លេចធ្លាយទិន្នន័យសម្ងាត់ពីអ្នកប្រើប្រាស់រាប់ពាន់នាក់។",
+    "ការរចនាវេទិកាអនុញ្ញាតឱ្យមានការស្វែងរកគម្រោង ទោះបីជា URL ត្រូវបានចៃដន្យក៏ដោយ។",
+    "ទិន្នន័យដែលបានលេចធ្លាយរួមមានផែនការផ្ទៃក្នុង និងព័ត៌មានលម្អិតរបស់បុគ្គលិក។",
+    "SpaceXSI ផ្ទាល់ក៏មានកម្មវិធីចំនួន ២៤ ដែលត្រូវបានបញ្ចេញទិន្នន័យផងដែរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Grok Build 编码代理泄露大量机密信息，部分属于 SpaceXSI",
+   "summary": "安全公司 Claroc 的研究表明，SpaceXSI 的编码代理 Grok Build 正在泄露数千名用户的机密商业信息和其他敏感机密。数据泄露的原因是一个设计决定，它允许任何人通过可共享的应用链接枚举数千个正在运行的 Grok Build 项目。暴露的信息包括内部业务计划、广告提案、体检结果以及员工记录。",
+   "impact": "这一缺陷可能会将专有商业数据、敏感个人细节和内部系统地址暴露给未授权用户。使用该平台的开发人员和组织可能会面临严重的隐私和数据安全风险。",
+   "keyPoints": [
+    "Grok Build 泄露了数千名用户的专有和敏感数据。",
+    "平台设计缺陷允许在随机化 URL 的情况下枚举在线项目。",
+    "暴露的数据包括内部计划、医疗结果和员工详细信息。",
+    "SpaceXSI 自身也有二十多款应用遭到泄露，包括保密入职计划和销售地图。"
+   ]
+  },
+  "ko": {
+   "title": "Grok Build 코딩 에이전트, 일부 SpaceXSI 소유를 포함해 수많은 기밀 정보 유출",
+   "summary": "보안 기업 Claroc의 연구에 따르면 SpaceXSI의 코딩 에이전트인 Grok Build가 수천 명의 사용자의 기밀 비즈니스 정보와 민감한 비밀을 유출하고 있습니다. 데이터 유출은 플랫폼 개발자의 설계 결정으로 인해 누구나 라이브 Grok Build 프로젝트를 열거할 수 있게 되면서 발생합니다. 노출된 정보에는 내부 사업 계획, 광고 제안, 건강 검진 결과, 직원 기록 등이 포함됩니다.",
+   "impact": "이 결함은 독점 비즈니스 데이터, 민감한 개인 정보 및 내부 시스템 주소를 권한이 없는 사용자에게 노출할 수 있습니다. 플랫폼을 사용하는 개발자와 조직은 데이터 기밀성과 관련하여 심각한 보안 위험에 직면할 수 있습니다.",
+   "keyPoints": [
+    "Grok Build가 수천 명의 사용자의 독점 및 민감한 데이터를 유출하고 있습니다.",
+    "플랫폼 설계 결정으로 인해 무작위화된 URL에도 불구하고 라이브 프로젝트를 열거할 수 있습니다.",
+    "노출된 데이터에는 내부 계획, 의료 결과, 직원 세부 정보가 포함됩니다.",
+    "SpaceXSI 자체의 앱 24개가 노출되었으며 기밀 온보딩 계획과 영업 구역도가 포함되어 있습니다."
+   ]
+  }
+ }
+}

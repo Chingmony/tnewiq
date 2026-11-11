@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1a1d1291e8347307",
+ "contentHash": "5286afa74823b5ea",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T01:21:33.218Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Billing and Cost Management now supports AWS Billing Conductor and AWS Billing Transfer views as source views for custom billing views",
+   "summary": "Custom billing views in AWS Billing and Cost Management now support AWS Billing Conductor and AWS Billing Transfer views as source views. Users can combine these views, apply filters, and use them across Cost Explorer, AWS Budgets, and the console. The feature supports three source view types, including billing group views, billing transfer views, and transfer showback views. Created custom views can also be shared with other accounts using AWS Resource Access Manager.",
+   "impact": "This feature could help organizations and AWS Partners consolidate billing data for chargeback, showback, and pro forma billing without needing separate views for each customer or group. It may simplify financial workflows by allowing downstream sellers and finance teams to access shared data within their own accounts at no additional cost.",
+   "keyPoints": [
+    "AWS Billing Conductor and AWS Billing Transfer views are now supported as source views for custom billing views.",
+    "Three source view types are available: billing group views, billing transfer views, and transfer showback views.",
+    "Custom billing views can be shared with internal or external accounts using AWS Resource Access Manager.",
+    "The feature is available in all commercial AWS Regions at no additional cost."
+   ]
+  },
+  "km": {
+   "title": "AWS Billing and Cost Management ឥឡូវនេះគាំទ្រ AWS Billing Conductor និង AWS Billing Transfer views ជា source views សម្រាប់ custom billing views",
+   "summary": "Custom billing views នៅក្នុង AWS Billing and Cost Management ឥឡូវនេះគាំទ្រ AWS Billing Conductor និង AWS Billing Transfer views ជា source views។ អ្នកប្រើប្រាស់អាចបញ្ចូល views ទាំងនេះ អនុវត្តតម្រង និងប្រើប្រាស់ពួកវា across Cost Explorer, AWS Budgets និង console។ លក្ខណៈពិសេសនេះគាំទ្រ source view types ចំនួនបី រួមមាន billing group views, billing transfer views និង transfer showback views។ Custom views ដែលបានបង្កើតក៏អាចត្រូវបានចែករំលែកទៅកាន់ accounts ផ្សេងទៀតដោយប្រើប្រាស់ AWS Resource Access Manager ផងដែរ។",
+   "impact": "មុខងារនេះអាចជួយអង្គការ និង AWS Partners បង្រួមទិន្នន័យវិក្កយបត្រសម្រាប់ chargeback, showback និង pro forma billing ដោយមិនចាំបាច់មាន views ដាច់ដោយឡែកសម្រាប់អតិថិជន ឬក្រុមនីមួយៗនោះទេ។ វាអាចជួយសម្រួលដល់ដំណើរការការងារផ្នែកហិរញ្ញវត្ថុដោយអនុញ្ញាតឱ្យ downstream sellers និង finance teams ចូលប្រើទិន្នន័យដែលបានចែករំលែកនៅក្នុង accounts ផ្ទាល់ខ្លួនរបស់ពួកគេដោយមិនគិតថ្លៃបន្ថែម។",
+   "keyPoints": [
+    "AWS Billing Conductor និង AWS Billing Transfer views ឥឡូវនេះត្រូវបានគាំទ្រជា source views សម្រាប់ custom billing views។",
+    "Source view types ចំនួនបីគឺអាចរកបាន រួមមាន billing group views, billing transfer views និង transfer showback views។",
+    "Custom billing views អាចត្រូវបានចែករំលែកទៅកាន់ internal ឬ external accounts ដោយប្រើប្រាស់ AWS Resource Access Manager។",
+    "មុខងារនេះមាននៅក្នុង commercial AWS Regions ទាំងអស់ដោយគ្មានថ្លៃបន្ថែម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Billing and Cost Management 现已支持将 AWS Billing Conductor 和 AWS Billing Transfer 视图用作自定义账单视图的源视图",
+   "summary": "AWS Billing and Cost Management 中的自定义账单视图现在支持将 AWS Billing Conductor 和 AWS Billing Transfer 视图用作源视图。用户可以将它们组合成单个自定义账单视图，应用筛选条件，并在 Cost Explorer、AWS Budgets 和控制台中使用该视图。该功能提供三种源视图类型，包括账单组视图、账单转账视图和转账透明度视图。创建后的自定义账单视图还可以通过 AWS Resource Access Manager 与组织内部或外部的账户共享。",
+   "impact": "此功能可以帮助组织和 AWS Partners 整合账单数据，用于分摊、展示成本或形式发票计费，而无需为每个客户或组单独设置视图。通过允许下游卖家和财务团队在其自己的账户中处理数据，它可能简化财务工作流程，且无需支付额外费用。",
+   "keyPoints": [
+    "AWS Billing Conductor 和 AWS Billing Transfer 视图现已支持作为自定义账单视图的源视图。",
+    "提供三种源视图类型：账单组视图、账单转账视图和转账透明度视图。",
+    "可以使用 AWS Resource Access Manager 与内部或外部账户共享自定义账单视图。",
+    "此功能在所有商业 AWS 区域提供且不收取额外费用。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Billing and Cost Management, 사용자 지정 청구 보기의 소스 보기로 AWS Billing Conductor 및 AWS Billing Transfer 보기 지원",
+   "summary": "AWS Billing and Cost Management의 사용자 지정 청구 보기는 이제 AWS Billing Conductor 및 AWS Billing Transfer 보기를 소스 보기로 지원합니다. 사용자는 이를 단일 사용자 지정 청구 보기로 결합하고, 필터를 적용하며, Cost Explorer, AWS Budgets 및 콘솔에서 사용할 수 있습니다. 이 기능은 청구 그룹 보기, 청구 이체 보기 및 이체 쇼백 보기를 포함한 세 가지 소스 보기 유형을 지원합니다. 생성된 사용자 지정 청구 보기는 AWS Resource Access Manager를 사용하여 조직 내부 또는 외부의 계정과 공유할 수도 있습니다.",
+   "impact": "이 기능은 조직과 AWS Partners가 고객이나 그룹마다 개별 보기를 유지할 필요 없이 차지백, 쇼백 및 프로포마 청구를 위해 청구 데이터를 통합하는 데 도움을 줄 수 있습니다. 다운스트림 셀러와 재무 팀이 추가 비용 없이 자신의 계정에서 데이터를 처리할 수 있도록 하여 재무 워크플로를 단순화할 수 있습니다.",
+   "keyPoints": [
+    "AWS Billing Conductor 및 AWS Billing Transfer 보기가 사용자 지정 청구 보기의 소스 보기로 지원됩니다.",
+    "청구 그룹 보기, 청구 이체 보기, 이체 쇼백 보기의 세 가지 소스 보기 유형이 제공됩니다.",
+    "AWS Resource Access Manager를 사용하여 내부 또는 외부 계정과 사용자 지정 청구 보기를 공유할 수 있습니다.",
+    "이 기능은 모든 상용 AWS 리전에서 추가 비용 없이 사용할 수 있습니다."
+   ]
+  }
+ }
+}

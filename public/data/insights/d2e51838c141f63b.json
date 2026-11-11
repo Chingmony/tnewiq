@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d2e51838c141f63b",
+ "contentHash": "a017d62e83fcb7b6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T01:31:37.954Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+   "summary": "NaiveAI has released Naive-N0.5-Flash, an open-weights model built for AI coding tasks and designed to generate tokens as fast as possible. Developed by a Chinese company, it evolves from Xiaomi’s MiMo-V2.5 by incorporating DeepSeek Sparse Attention layers and training on additional tokens. The model is paired with the NaiveRT inference engine and aims to accelerate engineering and research workflows.",
+   "impact": "The model could provide developers and researchers with faster iterations and quicker answers for coding workflows, though it may take longer to reason through harder problems and involve a higher cost per question. Security teams and technology users might find the focus on extreme speed appealing for time-sensitive applications.",
+   "keyPoints": [
+    "Naive-N0.5-Flash is an open-weights model developed by NaiveAI, built on Xiaomi’s MiMo-V2.5 checkpoint.",
+    "The model was trained with DeepSeek Sparse Attention layers using roughly 3.25T additional tokens.",
+    "Benchmarks place its coding ability between DeepSeek V4.1 Flash 1017 and GLM 5.3 Flash, scoring ahead of both on NL2Repo-Bench.",
+    "The model is designed to pair with the NaiveRT inference engine to maximize tokens per second."
+   ]
+  },
+  "km": {
+   "title": "NaiveAI សន្យា 2,100 តូខិនក្នុងមួយវិនាទី។ តើវាសរសេរកូដបានល្អប៉ុណ្ណា?",
+   "summary": "ក្រុមហ៊ុន NaiveAI បានបញ្ចេញម៉ូដែល Naive-N0.5-Flash ដែលជាម៉ូដែលទម្ងន់បើកចំហរចនាឡើងសម្រាប់កិច្ចការសរសេរកូដ AI និងបង្កើតតូខិនក្នុងល្បឿនលឿនបំផុត។ ម៉ូដែលនេះត្រូវបានបង្កើតឡើងដោយក្រុមហ៊ុនចិនមួយ ដោយវិវត្តចេញពី Xiaomi’s MiMo-V2.5 ជាមួយនឹងស្រទាប់ DeepSeek Sparse Attention និងម៉ាស៊ីនសន្និដ្ឋាន NaiveRT។ វាមានគោលបំណងពន្លឿនលំហូរការងារផ្នែកវិស្វកម្ម និងការស្រាវជ្រាវ។",
+   "impact": "ម៉ូដែលនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវការធ្វើបច្ចុប្បន្នភាពកាន់តែលឿន និងចម្លើយរហ័សសម្រាប់ការសរសេរកូដ ទោះបីជាវាអាចចំណាយពេលយូរជាងមុនក្នុងការគិតលើបញ្ហាពិបាកក៏ដោយ។ ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងចាប់អារម្មណ៍លើល្បឿនដ៏លឿននេះសម្រាប់កម្មវិធីដែលទាមទារល្បឿនជាចម្បង។",
+   "keyPoints": [
+    "Naive-N0.5-Flash គឺជាម៉ូដែលទម្ងន់បើកចំហដែលបង្កើតឡើងដោយ NaiveAI ដោយកែច្នៃចេញពី MiMo-V2.5 របស់ Xiaomi។",
+    "ម៉ូដែលនេះត្រូវបានបណ្តុះបណ្តាលជាមួយស្រទាប់ DeepSeek Sparse Attention និងតូខិនបន្ថែមប្រហែល 3.25T។",
+    "ការវាយតម្លៃបង្ហាញពីសមត្ថភាពសរសេរកូដរបស់វានៅចន្លោះ DeepSeek V4.1 Flash 1017 និង GLM 5.3 Flash ដោយនាំមុខលើ NL2Repo-Bench។",
+    "វាត្រូវបានរចនាឡើងដើម្បីដំណើរការជាមួយម៉ាស៊ីនសន្និដ្ឋាន NaiveRT ដើម្បីបង្កើនចំនួនតូខិនក្នុងមួយវិនាទីអតិបរមា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "NaiveAI 承诺每秒 2,100 个 Token。它的编程表现如何？",
+   "summary": "NaiveAI 推出了 Naive-N0.5-Flash，这是一个专为 AI 编程任务构建并旨在实现极高每秒生成 Token 速率的开源权重模型。该模型由一家名为 NaiveAI 的中国公司开发，通过在小米 MiMo-V2.5 的基础上引入 DeepSeek Sparse Attention 层并额外训练数万亿 Token 而演进而来。它配合 NaiveRT 推理引擎使用，旨在加速工程和研究工作流程。",
+   "impact": "该模型可能会为开发人员和研究人员提供更快的迭代速度和更迅速的编程答案，不过在处理较难问题时可能需要更长的推理时间，且每个问题的成本可能会略高。注重速度的技术用户和安全团队可能会发现这种极致速度对特定应用很有价值。",
+   "keyPoints": [
+    "Naive-N0.5-Flash 是由 NaiveAI 开发的开源权重模型，演进自小米的 MiMo-V2.5。",
+    "该模型采用了 DeepSeek Sparse Attention 层，并在原有 48T Token 的基础上额外训练了约 3.25T Token。",
+    "基准测试显示其编程能力介于 DeepSeek V4.1 Flash 1017 和 GLM 5.3 Flash 之间，并在 NL2Repo-Bench 上超越两者。",
+    "该模型搭配 NaiveRT 推理引擎，旨在最大限度地提高每秒 Token 生成速度。"
+   ]
+  },
+  "ko": {
+   "title": "NaiveAI, 초당 2,100개 토큰 약속. 코딩 실력은 어느 정도일까?",
+   "summary": "NaiveAI는 AI 코딩 작업을 위해 제작되었으며 초당 최대한 많은 토큰을 생성하도록 조정된 오픈 웨이트 모델인 Naive-N0.5-Flash를 출시했습니다. 중국 회사인 NaiveAI가 개발한 이 모델은 샤오미의 MiMo-V2.5를 발전시켜 DeepSeek Sparse Attention 레이어를 결합하고 추가 토큰으로 학습되었습니다. NaiveRT 추론 엔진과 페어링되어 엔지니어링 및 연구 워크플로우를 가속화하는 것을 목표로 합니다.",
+   "impact": "이 모델은 개발자와 연구원에게 더 빠른 반복 작업과 신속한 코딩 답변을 제공할 수 있으나, 더 어려운 문제를 추론하는 데는 더 오래 걸릴 수 있고 질문당 비용이 약간 더 높을 수 있습니다. 속도가 최우선인 애플리케이션에서 이러한 극대화된 속도는 기술 사용자 및 보안 팀에게 유용할 수 있습니다.",
+   "keyPoints": [
+    "Naive-N0.5-Flash는 샤오미의 MiMo-V2.5를 기반으로 NaiveAI가 개발한 오픈 웨이트 모델입니다.",
+    "이 모델은 DeepSeek Sparse Attention 레이어와 약 3.25T의 추가 토큰을 사용하여 학습되었습니다.",
+    "벤치마크 결과 코딩 능력은 DeepSeek V4.1 Flash 1017과 GLM 5.3 Flash 사이에 위치하며 NL2Repo-Bench에서는 두 모델을 앞서는 것으로 나타났습니다.",
+    "초당 토큰 수를 극대화하기 위해 NaiveRT 추론 엔진과 함께 사용하도록 설계되었습니다."
+   ]
+  }
+ }
+}

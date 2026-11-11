@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "bba55be2047e8d9a",
+ "contentHash": "fd92a28ffa2625c7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T01:28:38.579Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon EC2 G7 instances now available in additional regions",
+   "summary": "Amazon EC2 G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and custom Intel Xeon 6 processors, are now available in Europe (London), Asia Pacific (Mumbai, Sydney) and South America (Sao Paulo) regions. These instances deliver up to 4.6x higher AI inference performance and up to 2.1x graphics performance compared to G6 instances. They support various workloads including AI deployment, graphics rendering, video transcoding, spatial computing, and data analytics.",
+   "impact": "Developers and technology users in the newly added regions can now deploy G7 instances for demanding AI, graphics, and data analytics workloads locally. Teams can leverage higher performance for tasks like real-time rendering, language translation, and speech recognition.",
+   "keyPoints": [
+    "Amazon EC2 G7 instances are now available in Europe (London), Asia Pacific (Mumbai, Sydney) and South America (Sao Paulo) regions.",
+    "They are powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and custom Intel Xeon 6 processors.",
+    "G7 instances offer up to 4.6x AI inference performance and up to 2.1x graphics performance compared to G6 instances.",
+    "They support up to 192 vCPUs, up to 700 Gbps EFA networking bandwidth, up to 768 GiB system memory, and up to 7.6 TB local NVMe SSD storage."
+   ]
+  },
+  "km": {
+   "title": "Amazon EC2 G7 instances ឥឡូវនេះមាននៅលើតំបន់បន្ថែមទៀតហើយ",
+   "summary": "Amazon EC2 G7 instances ដែលដំណើរការដោយ NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs និង custom Intel Xeon 6 processors ឥឡូវនេះមាននៅក្នុងតំបន់ Europe (London), Asia Pacific (Mumbai, Sydney) និង South America (Sao Paulo) ហើយ។ G7 instances ផ្តល់នូវដំណើរការ AI inference កាន់តែខ្ពស់រហូតដល់ 4.6 ដង និងដំណើរការ graphics រហូតដល់ 2.1 ដង បើធៀបនឹង G6 instances។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងតំបន់ដែលទើបបន្ថែមថ្មីអាចប្រើប្រាស់ G7 instances សម្រាប់បំពេញការងារផ្នែក AI, graphics និងការវិភាគទិន្នន័យ។ ក្រុមការងារអាចទាញយកផលចំណេញពីដំណើរការកាន់តែប្រសើរសម្រាប់ការបង្ហាញក្រាហ្វិក რეលថែម និងការបកប្រែភាសា។",
+   "keyPoints": [
+    "Amazon EC2 G7 instances ឥឡូវនេះមាននៅក្នុងតំបន់ Europe (London), Asia Pacific (Mumbai, Sydney) និង South America (Sao Paulo)។",
+    "វាដំណើរការដោយ NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs និង custom Intel Xeon 6 processors។",
+    "វាផ្តល់នូវដំណើរការ AI inference រហូតដល់ 4.6 ដង និង graphics រហូតដល់ 2.1 ដង បើធៀបនឹង G6 instances។",
+    "វាគាំទ្ររហូតដល់ 192 vCPUs, 700 Gbps EFA networking bandwidth, 768 GiB system memory និង 7.6 TB local NVMe SSD storage។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon EC2 G7 实例现已在更多区域推出",
+   "summary": "由 NVIDIA RTX PRO 4500 Blackwell Server Edition GPU 和定制 Intel Xeon 6 处理器驱动的 Amazon EC2 G7 实例现已在欧洲（伦敦）、亚太地区（孟买、悉尼）和南美洲（圣保罗）区域推出。与 G6 实例相比，G7 实例可提供高达 4.6 倍的 AI 推理性能和高达 2.1 倍的图形性能。客户可将 G7 实例用于部署语言翻译、视频和图像分析、语音识别以及推荐系统等 AI 模型。",
+   "impact": "新区域的开发人员和技术用户现在可以本地部署 G7 实例来处理要求苛刻的 AI、图形和数据分析工作负载。团队可以利用更高的性能来进行实时渲染、语音识别和视频转码等任务。",
+   "keyPoints": [
+    "Amazon EC2 G7 实例现已在欧洲（伦敦）、亚太地区（孟买、悉尼）和南美洲（圣保罗）区域推出。",
+    "该实例采用 NVIDIA RTX PRO 4500 Blackwell Server Edition GPU 和定制 Intel Xeon 6 处理器。",
+    "与 G6 实例相比，G7 实例提供高达 4.6 倍的 AI 推理性能和高达 2.1 倍的图形性能。",
+    "支持多达 192 个 vCPU、高达 700 Gbps 的 EFA 网络带宽、768 GiB 的系统内存以及 7.6 TB 的本地 NVMe SSD 存储。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon EC2 G7 인스턴스, 추가 리전에서 이용 가능",
+   "summary": "NVIDIA RTX PRO 4500 Blackwell Server Edition GPU와 맞춤형 Intel Xeon 6 프로세서로 구동되는 Amazon EC2 G7 인스턴스가 이제 유럽(런던), 아시아태평양(뭄바이, 시드니) 및 남미(상파울루) 리전에서 제공됩니다. G7 인스턴스는 G6 인스턴스에 비해 최대 4.6배 향상된 AI 추론 성능과 최대 2.1배 향상된 그래픽 성능을 제공합니다. 고객은 언어 번역, 비디오 및 이미지 분석, 음성 인식 등을 위한 AI 모델 배포에 G7 인스턴스를 사용할 수 있습니다.",
+   "impact": "새로 추가된 리전의 개발자와 기술 사용자는 이제 고성능 AI, 그래픽 및 데이터 분석 워크로드를 위해 G7 인스턴스를 로컬에서 배포할 수 있습니다. 팀은 실시간 렌더링, 비디오 트랜스코딩 등의 작업에서 향상된 성능을 활용할 수 있습니다.",
+   "keyPoints": [
+    "Amazon EC2 G7 인스턴스가 유럽(런던), 아시아태평양(뭄바이, 시드니), 남미(상파울루) 리전에서 이용 가능합니다.",
+    "NVIDIA RTX PRO 4500 Blackwell Server Edition GPU와 맞춤형 Intel Xeon 6 프로세서를 탑재했습니다.",
+    "G6 인스턴스 대비 최대 4.6배 향상된 AI 추론 성능과 최대 2.1배 향상된 그래픽 성능을 제공합니다.",
+    "최대 192개의 vCPU, 최대 700 Gbps의 EFA 네트워킹 대역폭, 최대 768 GiB의 시스템 메모리 및 7.6 TB의 로컬 NVMe SSD 스토리지를 지원합니다."
+   ]
+  }
+ }
+}

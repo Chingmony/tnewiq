@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b7cb8b2840188c70",
+ "contentHash": "6c471335e726d607",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T01:23:13.028Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations",
+   "summary": "Deploying production agents introduces challenges in measuring true business outcomes beyond surface metrics like latency. Amazon Bedrock AgentCore Evaluations provides a framework using built-in, DeepEval, and AutoEval evaluators to measure agent behavior at the trace and session levels. The post outlines a three-step method to define success, break it down into observable behaviors, and map them to appropriate evaluators.",
+   "impact": "Development and security teams could use these evaluation tiers to monitor agent performance, ensure compliance, and detect issues like PII leaks or skipped steps. Integrating managed third-party libraries may allow teams to maintain consistent metrics from development to production without managing separate infrastructure.",
+   "keyPoints": [
+    "AgentCore offers built-in evaluators authored by AWS, along with managed third-party evaluators from DeepEval and AutoEval.",
+    "Custom evaluators allow teams to modify prompts, rubrics, or underlying models based on built-in or third-party bases.",
+    "Evaluation should start by defining success in business terms, breaking it into observable behaviors, and mapping them to trace-level or session-level metrics."
+   ]
+  },
+  "km": {
+   "title": "សៀវភៅយុទ្ធសាស្ត្រវាយតម្លៃភ្នាក់ងារ៖ Built-in, DeepEval, និង AutoEval នៅលើ Amazon Bedrock AgentCore Evaluations",
+   "summary": "ការដាក់ពង្រាយភ្នាក់ងារក្នុងកម្រិតផលិតកម្មបង្កការលំបាកក្នុងការវាស់ស្វែងរកលទ្ធផលអាជីវកម្មពិតប្រាកដក្រៅពីកម្រិតសញ្ញាផ្ទៃខាងលើដូចជាភាពយឺតយ៉ាវជាដើម។ Amazon Bedrock AgentCore Evaluations ផ្ដល់នូវក្របខណ្ឌមួយដែលប្រើប្រាស់ឧបករណ៍វាយតម្លៃ Built-in, DeepEval និង AutoEval ដើម្បីវាស់វែងសកម្មភាពភ្នាក់ងារនៅកម្រិតដាន និងកម្រិតសម័យ។ អត្ថបទនេះបង្ហាញពីវិធីសាស្ត្របីជំហានដើម្បីកំណត់និយមន័យជោគជ័យ បំបែកវាទៅជាសកម្មភាពដែលអាចកត់សម្គាល់បាន និងផ្គូផ្គងពួកវាទៅនឹងឧបករណ៍វាយតម្លៃដែលសមស្រប។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងសន្តិសុខអាចប្រើប្រាស់កម្រិតវាយតម្លៃទាំងនេះដើម្បីតាមដានដំណើរការភ្នាក់ងារ ធានាការអនុលោមតាមច្បាប់ និងរកឃើញបញ្ហាដូចជាការលេចធ្លាយព័ត៌មានផ្ទាល់ខ្លួនជាដើម។ ការរួមបញ្ចូលបណ្ណាល័យភាគីទីបីអាចជួយឱ្យក្រុមការងាររក្សាបាននូវរង្វាស់ស្តង់ដារពីដំណាក់កាលអភិវឌ្ឍន៍រហូតដល់ផលិតកម្មដោយមិនចាំបាច់គ្រប់គ្រងហេដ្ឋារចនាសម្ព័ន្ធដាច់ដោយឡែកឡើយ។",
+   "keyPoints": [
+    "AgentCore ផ្ដល់ជូននូវឧបករណ៍វាយតម្លៃ Built-in ដែលបង្កើតឡើងដោយ AWS ព្រមទាំងឧបករណ៍វាយតម្លៃភាគីទីបីពី DeepEval និង AutoEval។",
+    "ឧបករណ៍វាយតម្លៃផ្ទាល់ខ្លួនអនុញ្ញាតឱ្យក្រុមការងារកែប្រែកម្រងពាក្យស្នើសុំ ឬគំរូមូលដ្ឋានស្របតាមតម្រូវការ។",
+    "ការវាយតម្លៃគួរតែចាប់ផ្តើមដោយការកំណត់និយមន័យជោគជ័យក្នុងលក្ខខណ្ឌអាជីវកម្ម និងបែងចែកវាទៅជារង្វាស់កម្រិតដាន ឬកម្រិតសម័យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "智能体评估指南：Amazon Bedrock AgentCore Evaluations 上的内置、DeepEval 和 AutoEval",
+   "summary": "将智能体部署到生产环境时，最大的难点之一在于衡量其是否真正达到了业务需求。Amazon Bedrock AgentCore Evaluations 提供了包含内置、DeepEval 和 AutoEval 评估器的综合框架，用于在跟踪和会话级别测量智能体行为。文章介绍了一个三步法，从业务角度定义成功，并将其分解为可观察的行为以映射到合适的评估器。",
+   "impact": "开发和安全团队可以利用这些评估层来监控智能体性能、确保合规性，并检测诸如个人身份信息泄露或跳过步骤等问题。集成托管的第三方库可能有助于团队在从开发到生产的过程中保持一致的指标，而无需维护单独的基础设施。",
+   "keyPoints": [
+    "AgentCore 提供了由 AWS 编写和质量测试的内置评估器，以及来自 DeepEval 和 AutoEval 的第三方托管评估器。",
+    "自定义评估器允许团队以内置或第三方评估器为基础，替换模型并修改提示词或评分标准。",
+    "评估工作应从业务层面的成功定义开始，将其分解为可观察的行为，并映射到跟踪级或会话级指标。"
+   ]
+  },
+  "ko": {
+   "title": "에이전트 평가 플레이북: Amazon Bedrock AgentCore Evaluations의 Built-in, DeepEval, AutoEval",
+   "summary": "에이전트를 프로덕션에 배포할 때 직면하는 가장 큰 어려움 중 하나는 실제 비즈니스 성과를 제대로 내고 있는지 측정하는 것입니다. Amazon Bedrock AgentCore Evaluations는 Built-in, DeepEval, AutoEval 평가기를 사용하여 트레이스 및 세션 수준에서 에이전트 동작을 측정할 수 있는 프레임워크를 제공합니다. 본 게시물은 성공을 비즈니스 관점에서 정의하고, 이를 관찰 가능한 행동으로 분해한 뒤 적절한 평가기에 매핑하는 3단계 프로세스를 설명합니다.",
+   "impact": "개발 및 보안 팀은 이러한 평가 계층을 사용하여 에이전트 성능을 모니터링하고 규정 준수를 보장하며 개인정보 유출이나 누락된 단계 같은 문제를 감지할 수 있습니다. 관리형 타사 라이브러리를 통합하면 별도의 인프라를 관리하지 않고도 개발부터 프로덕션까지 일관된 지표를 유지할 수 있습니다.",
+   "keyPoints": [
+    "AgentCore는 AWS가 제작하고 품질 검증을 거친 Built-in 평가기와 DeepEval 및 AutoEval의 타사 관리형 평가기를 제공합니다.",
+    "커스텀 평가기를 사용하면 팀이 기존 평가기를 기반으로 프롬프트나 채점 기준 또는 모델을 수정할 수 있습니다.",
+    "평가는 비즈니스 용어로 성공을 정의하고, 관찰 가능한 행동으로 세분화한 뒤 트레이스 또는 세션 수준의 지표에 매핑하는 것으로 시작해야 합니다."
+   ]
+  }
+ }
+}

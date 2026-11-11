@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c98fb37f4201def3",
+ "contentHash": "db600f00efd879b6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T01:21:01.195Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Seagate's new hybrid drive raises some old questions",
+   "summary": "Seagate has announced the FireCuda Forge line of hybrid storage drives, combining a traditional mechanical HDD with a user-supplied NVMe SSD. The drives are managed by Seagate's new Alkemi intelligent storage platform and are available in 8TB and 20TB HDD configurations. Users must provide their own M.2 2280 NVMe SSD with a maximum capacity of 1TB and specific speed requirements.",
+   "impact": "Technology users and builders considering these hybrid solutions may need to evaluate the cost and specific hardware requirements, such as purchasing a separate SSD that meets the performance criteria. Developers and system administrators might weigh the benefits of combining high-capacity traditional storage with user-managed solid-state speed against the platform's restrictions.",
+   "keyPoints": [
+    "Seagate announced the FireCuda Forge line of hybrid storage drives.",
+    "Available in 8TB and 20TB HDD configurations, priced at $699 and $899 respectively.",
+    "Requires users to supply their own M.2 2280 NVMe SSD up to 1TB with specific read and write speeds.",
+    "Powered by the Alkemi intelligent storage platform with USB4 support for Windows 11 and macOS 26+."
+   ]
+  },
+  "km": {
+   "title": "ដ្រាយកូនកាត់ថ្មីរបស់ Seagate លើកឡើងនូវសំណួរចាស់ៗមួយចំនួន",
+   "summary": "ក្រុមហ៊ុន Seagate បានប្រកាសពង្រីកបន្ទាត់ដ្រាយផ្ទុកទិន្នន័យកូនកាត់ FireCuda Forge ដែលរួមបញ្ចូល HDD បែបប្រពៃណីជាមួយនឹង SSD ដែលអ្នកប្រើប្រាស់ត្រូវបំពាក់បន្ថែម។ ដ្រាយទាំងនេះត្រូវបានគ្រប់គ្រងដោយវេទិកាផ្ទុកទិន្នន័យឆ្លាតវៃ Alkemi ថ្មីរបស់ Seagate និងមានទំហំ 8TB និង 20TB។ អ្នកប្រើប្រាស់ត្រូវផ្តល់ M.2 2280 NVMe SSD ផ្ទាល់ខ្លួនដែលមានទំហំអតិបរមា 1TB ព្រមទាំងលក្ខខណ្ឌល្បឿនជាក់លាក់។",
+   "impact": "អ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលពិចារណាលើដំណោះស្រាយកូនកាត់ទាំងនេះ អាចនឹងត្រូវវាយតម្លៃលើតម្លៃ និងតម្រូវការផ្នែករឹងជាក់លាក់ ដូចជាការទិញ SSD ដាច់ដោយឡែកដែលបំពេញតាមលក្ខណៈវិនិច្ឆ័យដំណើរការជាដើម។",
+   "keyPoints": [
+    "ក្រុមហ៊ុន Seagate បានប្រកាសចេញដ្រាយផ្ទុកទិន្នន័យកូនកាត់ FireCuda Forge។",
+    "មានលក់ក្នុងទំហំ HDD 8TB និង 20TB ក្នុងតម្លៃ 699 ដុល្លារ និង 899 ដុល្លារ។",
+    "តម្រូវឱ្យអ្នកប្រើប្រាស់ដាក់បញ្ចូល M.2 2280 NVMe SSD ផ្ទាល់ខ្លួនរហូតដល់ 1TB។",
+    "ដំណើរការដោយវេទិកា Alkemi ជាមួយការគាំទ្រ USB4 សម្រាប់ Windows 11 និង macOS 26+។"
+   ]
+  },
+  "zh-CN": {
+   "title": "希捷新款混合驱动器引发了一些老问题",
+   "summary": "希捷宣布推出全新的FireCuda Forge系列存储驱动器，将传统机械硬盘与用户自行提供的固态硬盘相结合。该驱动器由希捷全新的Alkemi智能存储平台提供动力和管理，提供8TB和20TB的HDD配置版本。用户必须自行准备符合特定限制条件且最大容量为1TB的M.2 2280 NVMe SSD。",
+   "impact": "考虑采用这些混合存储方案的技术用户和系统搭建者可能需要评估成本以及具体的硬件要求，例如购买符合性能标准独立SSD。开发人员和系统管理员可能会权衡将大容量传统存储与用户管理的固态速度结合起来的利弊。",
+   "keyPoints": [
+    "希捷宣布推出FireCuda Forge系列混合存储驱动器。",
+    "提供8TB和20TB的HDD配置选项，售价分别为699美元和899美元。",
+    "要求用户自行提供容量最高达1TB的M.2 2280 NVMe SSD。",
+    "由Alkemi智能存储平台驱动，支持USB4以及Windows 11和macOS 26+系统。"
+   ]
+  },
+  "ko": {
+   "title": "시게이트의 새로운 하이브리드 드라이브가 오래된 의문을 제기하다",
+   "summary": "시게이트는 전통적인 플래터 HDD와 사용자가 직접 제공하는 솔리드 스테이트 드라이브(SSD)를 결합한 새로운 FireCuda Forge 스토리지 드라이브 라인업을 발표했습니다. 이 새로운 하이브리드 스토리지는 시게이트의 새로운 Alkemi 지능형 스토리지 플랫폼으로 구동 및 관리되며 8TB 및 20TB HDD 구성으로 제공됩니다. 사용자는 특정 제한 사항이 있는 최대 1TB 용량의 M.2 2280 NVMe SSD를 직접 준비해야 합니다.",
+   "impact": "이러한 하이브리드 솔루션을 고려하는 기술 사용자 및 시스템 구축업체는 성능 기준을 충족하는 별도의 SSD 구매와 같은 비용 및 특정 하드웨어 요구 사항을 평가해야 할 수 있습니다. 개발자와 시스템 관리자는 대용량 전통 스토리지와 사용자 관리 솔리드 스테이트 속도의 결합 이점을 플랫폼의 제한 사항과 저울질할 수 있습니다.",
+   "keyPoints": [
+    "시게이트가 FireCuda Forge 하이브리드 스토리지 드라이브 라인업을 발표함.",
+    "8TB와 20TB HDD 구성으로 제공되며 가격은 각각 699달러와 899달러임.",
+    "사용자가 최대 1TB 용량의 M.2 2280 NVMe SSD를 직접 장착해야 함.",
+    "Alkemi 지능형 스토리지 플랫폼으로 구동되며 USB4와 Windows 11 및 macOS 26+를 지원함."
+   ]
+  }
+ }
+}

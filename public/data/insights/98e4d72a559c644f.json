@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "98e4d72a559c644f",
+ "contentHash": "75d9ffe519e75317",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T01:28:59.410Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+   "summary": "Git has addressed a security vulnerability tracked as CVE-2026-111760, which allowed malicious repositories to execute arbitrary code during recursive clones involving submodules. The issue stems from an integer truncation in how Git manages its index. Fixes have been released in version 2.56.1 and across previous series.",
+   "impact": "Developers and security teams using Git should update their installations immediately to protect systems against malicious repositories executing code during recursive clones. Applying these updates could prevent potential exploitation stemming from the index handling flaw.",
+   "keyPoints": [
+    "A flaw tracked as CVE-2026-111760 allows code execution during recursive clones.",
+    "The issue is caused by an integer truncation in Git index handling.",
+    "Fixes are available in Git 2.56.1 and updated versions for series 2.50 through 2.55."
+   ]
+  },
+  "km": {
+   "title": "Git កែសម្រួលចំណុចខ្សោយដែលអនុញ្ញាតឱ្យឃ្លាំងកូដមានគំនិតអាក្រក់ប្រតិបត្តិូកូដអំឡុងពេលធ្វើឃ្លាំងចម្លងបន្តបន្ទាប់",
+   "summary": "Git បានដោះស្រាយបញ្ហាសុវត្ថិភាពដែលមានលេខសម្គាល់ CVE-2026-111760 ដែលអនុញ្ញាតឱ្យឃ្លាំងកូដមានគំនិតអាក្រក់ដំណើរការកូដនៅលើកុំព្យូទ័រដែលធ្វើការចម្លងបែបបន្តបន្ទាប់រួមជាមួយម៉ូឌុលរងរបស់វា។ បញ្ហានេះត្រូវបានជួសជុលនៅក្នុង Git កំណែ 2.56.1 និងកំណែផ្សេងទៀតសម្រាប់ស៊េរី 2.50 ដល់ 2.55។ ចំណុចខ្សោយនេះកើតឡើងពីការកាត់បន្ថយចំនួនគត់ក្នុងការគ្រប់គ្រងសន្ទស្សន៍របស់ Git ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍និងក្រុមសន្តិសុខគួរតែធ្វើបច្ចុប្បន្នភាព Git របស់ពួកគេជាបន្ទាន់ដើម្បីការពារប្រព័ន្ធពីឃ្លាំងកូដមានគំនិតអាក្រក់។ ការធ្វើបច្ចុប្បន្នភាពទាំងនេះអាចជួយការពារការកេងប្រវ័ញ្ចដែលទាក់ទងនឹងចំណុចខ្សោយនៃការគ្រប់គ្រងសន្ទស្សន៍។",
+   "keyPoints": [
+    "ចំណុចខ្សោយ CVE-2026-111760 អនុញ្ញាតឱ្យប្រតិបត្តិកូដអំឡុងពេលធ្វើឃ្លាំងចម្លងបន្តបន្ទាប់។",
+    "បញ្ហានេះបណ្តាលមកពីការកាត់បន្ថយចំនួនគត់នៅក្នុងសន្ទស្សន៍ Git ។",
+    "ការកែសម្រួលមាននៅក្នុង Git កំណែ 2.56.1 និងកំណែបច្ចុប្បន្នភាពសម្រាប់ស៊េរី 2.50 ដល់ 2.55។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Git 修复漏洞：允许恶意仓库在递归克隆期间执行代码",
+   "summary": "Git 修复了一个编号为 CVE-2026-111760 的安全漏洞，该漏洞可让恶意仓库在对其进行递归克隆及子模块克隆时在用户计算机上运行攻击者的代码。该问题是由 Git 处理索引时发生整数截断引起的。Git 项目已在 Git 2.56.1 以及 2.50 至 2.55 系列的对应版本中发布了修复程序。",
+   "impact": "开发人员和安全团队应当尽快更新 Git 安装，以保护系统免受恶意仓库在递归克隆期间执行代码的威胁。应用这些更新可以降低因索引处理漏洞而被攻击的风险。",
+   "keyPoints": [
+    "漏洞 CVE-2026-111760 允许在递归克隆期间执行代码。",
+    "该问题源于 Git 处理索引时的整数截断。",
+    "官方已在 Git 2.56.1 及 2.50 至 2.55 系列更新中提供修复。"
+   ]
+  },
+  "ko": {
+   "title": "Git, 악성 저장소가 재귀적 복제 중 코드를 실행할 수 있게 하는 취약점 패치",
+   "summary": "Git은 재귀적 복제와 하위 모듈 클론 과정에서 악성 저장소가 공격자의 코드를 실행할 수 있게 하는 CVE-2026-111760 취약점을 해결했습니다. 이 문제는 Git이 인덱스를 처리하는 방식에서의 정수 잘림 현상으로 인해 발생합니다. Git 프로젝트는 Git 2.56.1 및 2.50부터 2.55 시리즈의 대응 버전을 통해 이를 수정했습니다.",
+   "impact": "개발자와 보안 팀은 재귀적 복제 중 악성 저장소의 코드 실행으로부터 시스템을 보호하기 위해 즉시 Git을 업데이트해야 합니다. 이러한 업데이트를 적용하면 인덱스 처리 취약점으로 인한 잠재적 악용을 방지할 수 있습니다.",
+   "keyPoints": [
+    "CVE-2026-111760 취약점은 재귀적 복제 중 코드 실행을 허용합니다.",
+    "이 문제는 Git 인덱스 처리의 정수 잘림 현상으로 발생합니다.",
+    "수정 사항은 Git 2.56.1 및 2.50~2.55 시리즈의 업데이트 버전에 포함되어 있습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "edde9887c7bce6ac",
+ "contentHash": "f687407c1c71099f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-11T01:19:52.326Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Introducing Kimi K3.1 Pro on Amazon Bedrock",
+   "summary": "Moonshot AI's Kimi K3.1 Pro Highspeed is now available on Amazon Bedrock. This post-trained model features a 1-million-token context window and is designed for long-horizon agentic work, professional tasks, and coding. It uses the same endpoint, APIs, and features as Kimi K3, allowing developers to adopt it by changing the model ID.",
+   "impact": "Developers using Amazon Bedrock can integrate a high-speed model with advanced reasoning capabilities into existing workflows by simply updating their model ID. Security teams may note that zero data retention and zero operator access are enabled, keeping data within the AWS boundary.",
+   "keyPoints": [
+    "Kimi K3.1 Pro Highspeed offers 2 to 3 times the speed of Kimi K3.1 Pro.",
+    "The model features a 1-million-token context window and supports tool calling, structured output, and image input.",
+    "Data processed on AWS is not shared with Moonshot AI and zero data retention is enabled for inference requests."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យប្រើប្រាស់ Kimi K3.1 Pro នៅលើ Amazon Bedrock",
+   "summary": "ម៉ូដែល Kimi K3.1 Pro Highspeed ពី Moonshot AI ឥឡូវនេះមាននៅលើ Amazon Bedrock ហើយ។ វាមានបង្អួចបរិបទទំហំ ១លានតូខេន និងត្រូវបានបណ្តុះបណ្តាលសម្រាប់ការងារភ្នាក់ងាររយៈពេលវែង កិច្ចការវិជ្ជាជីវៈ និងការសរសេរកូដ។ អ្នកអភិវឌ្ឍន៍អាចប្តូរមកប្រើវាដោយគ្រាន់តែប្តូរលេខសម្គាល់ម៉ូដែលនៅក្នុងកូដដែលមានស្រាប់។",
+   "impact": "អ្នកអភិវឌ្ឍន៍អាចរួមបញ្ចូលម៉ូដែលលឿននេះទៅក្នុងកិច្ចការដែលមានស្រាប់ដោយគ្រាន់តែប្តូរលេខសម្គាល់កូដ។ ក្រុមសន្តិសុខអាចរក្សាភាពស្ងប់ចិត្តដោយសារទិន្នន័យត្រូវបានដំណើរការក្នុងដែនកំណត់របស់ AWS ដោយគ្មានការរក្សាទុកទិន្នន័យ។",
+   "keyPoints": [
+    "Kimi K3.1 Pro Highspeed មានល្បឿនលឿនជាង Kimi K3.1 Pro ពី ២ ទៅ ៣ ដង។",
+    "វាគាំទ្រការហៅឧបករណ៍ ទិន្នផលមានរចនាសម្ព័ន្ធ និងការបញ្ចូលរូបភាព។",
+    "ទិន្នន័យរបស់អ្នកប្រើប្រាស់មិនត្រូវបានចែករំលែកជាមួយ Moonshot AI នោះឡើយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Bedrock 推出 Kimi K3.1 Pro",
+   "summary": "Moonshot AI 的 Kimi K3.1 Pro Highspeed 现已登陆 Amazon Bedrock。该模型拥有 100 万个 token 的上下文窗口，经大量后训练优化，旨在提升长视角智能体工作、专业任务以及编程表现。用户只需在现有代码中更改模型 ID 即可使用。",
+   "impact": "开发人员可以通过更新模型 ID 将该高速模型整合进现有工作流中。安全性方面，AWS 数据边界可确保推理请求不保留数据且不与 Moonshot AI 共享。",
+   "keyPoints": [
+    "Kimi K3.1 Pro Highspeed 的输出速度是 Kimi K3.1 Pro 的 2 到 3 倍。",
+    "支持工具调用、结构化输出、可配置推理、图像输入和流式传输。",
+    "推理请求始终启用零数据保留，且 AWS 操作员无法查看提示词和补全内容。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock에 Kimi K3.1 Pro 출시",
+   "summary": "Moonshot AI의 Kimi K3.1 Pro Highspeed가 Amazon Bedrock에서 제공되기 시작했습니다. 100만 토큰 컨텍스트 창을 갖추고 있으며 장기 에이전트 작업, 전문 업무, 코딩 성능 향상을 목표로 추가 학습되었습니다. 기존 Kimi K3 코드에서 모델 ID만 변경하여 사용할 수 있습니다.",
+   "impact": "개발자는 기존 코드의 모델 ID를 변경하여 고속 추론 및 향상된 추론 기능을 도입할 수 있습니다. AWS 데이터 경계 내에서 데이터가 처리되며 제로 데이터 보존이 활성화되어 보안상 이점을 제공합니다.",
+   "keyPoints": [
+    "Kimi K3.1 Pro Highspeed는 Kimi K3.1 Pro보다 2~3배 빠른 속도로 토큰을 생성합니다.",
+    "도구 호출, 구조화된 출력, 설정 가능한 추론, 이미지 입력 및 스트리밍을 지원합니다.",
+    "추론 요청에 대해 제로 데이터 보존이 활성화되며 Moonshot AI와 데이터가 공유되지 않습니다."
+   ]
+  }
+ }
+}
