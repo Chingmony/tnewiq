@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-11T07:48:13.330Z",
+ "generatedAt": "2026-11-11T16:13:32.172Z",
  "articles": [
   {
    "id": "65b96c238445cded",
@@ -19,6 +19,803 @@
    "contentHash": "c1b53c3418f70955"
   },
   {
+   "id": "4c0f71dc47d14de2",
+   "sourceId": "vscode-blog",
+   "sourceName": "Visual Studio Code Blog",
+   "originalTitle": "Visual Studio Code 1.146",
+   "originalUrl": "https://code.visualstudio.com/updates/v1_146",
+   "originalLanguage": "en",
+   "originalDescription": "Learn what's new in Visual Studio Code 1.146 Read the full article",
+   "publishedAt": "2026-11-11T17:00:00.000Z",
+   "discoveredAt": "2026-11-04T15:28:30.777Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "f7efa7871d13ae2e"
+  },
+  {
+   "id": "092d312dd2f17011",
+   "sourceId": "vscode-blog",
+   "sourceName": "Visual Studio Code Blog",
+   "originalTitle": "Visual Studio Code 1.147 (Insiders)",
+   "originalUrl": "https://code.visualstudio.com/updates/v1_147",
+   "originalLanguage": "en",
+   "originalDescription": "Learn what's new in Visual Studio Code 1.147 (Insiders) Read the full article",
+   "publishedAt": null,
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "87422a74d5a15ae3"
+  },
+  {
+   "id": "de73dbb2e2aca1a3",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Accelerating product development with AI-driven lifecycle management (AI-PDLC) in AWS Quick",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/accelerating-product-development-with-ai-driven-lifecycle-management-ai-pdlc-in-aws-quick/",
+   "originalLanguage": "en",
+   "originalDescription": "Learn how to build an AI-driven product development lifecycle (AI-PDLC) with a suite of six AWS Quick agents that take you from scattered customer signals to a validated prototype across Discover, Decide, Design, and Prototype, with human approval at every gate and a…",
+   "publishedAt": "2026-11-11T16:05:33.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "a196afbb7e13fbb2"
+  },
+  {
+   "id": "ccd519173ba2f65a",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+   "originalUrl": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+   "originalLanguage": "en",
+   "originalDescription": "Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual similarities with workplace management apps like Asana and Monday, but with a…",
+   "publishedAt": "2026-11-11T16:00:00.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "eb1ed1569f0dd1a2"
+  },
+  {
+   "id": "eac4d84ef949975e",
+   "sourceId": "google-ai-blog",
+   "sourceName": "Google AI Blog",
+   "originalTitle": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+   "originalUrl": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+   "originalLanguage": "en",
+   "originalDescription": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+   "publishedAt": "2026-11-11T16:00:00.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp",
+   "contentHash": "c6a8c522b5b58a89"
+  },
+  {
+   "id": "7611a838f306fada",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "UAEF: A framework-agnostic system for closed-loop evaluation of AI agents",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents/",
+   "originalLanguage": "en",
+   "originalDescription": "The Universal Agent Evaluation Framework (UAEF) is a framework-agnostic system for evaluating AI agents. UAEF converts each framework's traces into one canonical format, scores them with 36 built-in metrics across 7 dimensions, and stores results so teams can compare agent…",
+   "publishedAt": "2026-11-11T15:50:55.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "667844b8d671dac8"
+  },
+  {
+   "id": "99d239565756098b",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+   "originalUrl": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+   "originalLanguage": "en",
+   "originalDescription": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. \"In several recently observed…",
+   "publishedAt": "2026-11-11T15:34:27.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "cybersecurity",
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi08pEbJ7-HNwC0kJf517wnB6y8HwgKhMU-vxbhnCEh9KpWk1kmIjp_bb71k7GYfiTZNep3bcejvN7RmriF9_0RJnGGe9T5WB_nihCgxiDYOMl8mgDmI0Pm6ZFmPzf8HulQUxHjX3TncwmvqJIDPLyZBoHZpOahcMl7fehtwvT-oCxLzPec-KRtiScHT7wk/s1600/aws-secrets.jpg",
+   "contentHash": "81c8f63b6bccb881"
+  },
+  {
+   "id": "ffa4b076ff9aea67",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name",
+   "originalUrl": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
+   "originalLanguage": "en",
+   "originalDescription": "Helsing has unveiled Clarity, an AI platform that uses agents to distill sensor data into target recommendations for weapons systems, all under human oversight and European control. But experience from the Iran war, Gaza, and a near-miss involving China shows that the speed of…",
+   "publishedAt": "2026-11-11T15:12:53.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "6384a7454e154da4"
+  },
+  {
+   "id": "6e96a802abbc1d38",
+   "sourceId": "simon-willison",
+   "sourceName": "Simon Willison's Weblog",
+   "originalTitle": "Anthropic's IPO roadshow video",
+   "originalUrl": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+   "originalLanguage": "en",
+   "originalDescription": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting…",
+   "publishedAt": "2026-11-11T15:11:59.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai",
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "6f722fea47101774"
+  },
+  {
+   "id": "e7b7fb1e9e2688d9",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Introducing usage-based pricing for Amazon SageMaker AI bidirectional streaming",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming/",
+   "originalLanguage": "en",
+   "originalDescription": "AWS Marketplace now supports usage-based metering for Amazon SageMaker bidirectional streaming inference, so model providers can charge for what customers actually consume during a live stream. Deepgram is the launch partner, bringing usage-based speech-to-text and…",
+   "publishedAt": "2026-11-11T15:10:23.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "af146e9c1bd69f3c"
+  },
+  {
+   "id": "833534b672b8daa3",
+   "sourceId": "google-deepmind-blog",
+   "sourceName": "Google DeepMind Blog",
+   "originalTitle": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+   "originalUrl": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+   "originalLanguage": "en",
+   "originalDescription": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+   "publishedAt": "2026-11-11T15:00:15.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo",
+   "contentHash": "ff9a81df857e29d7"
+  },
+  {
+   "id": "943bd9ebdd36c562",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+   "originalLanguage": "en",
+   "originalDescription": "Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem that could hold important clues to the causes of disease - and point the way…",
+   "publishedAt": "2026-11-11T15:00:00.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "6c24647a79f05921"
+  },
+  {
+   "id": "d5ce8d4f2e7d567c",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+   "originalUrl": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+   "originalLanguage": "en",
+   "originalDescription": "At 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that.",
+   "publishedAt": "2026-11-11T15:00:00.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "832fcc015b6a0ccf"
+  },
+  {
+   "id": "8eb0b79eb927fc49",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days",
+   "originalUrl": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+   "originalLanguage": "en",
+   "originalDescription": "Anthropic claims it used AI itself to breach Nvidia's CUDA moat. The company's in-house model Mythos reportedly ported Claude to AMD GPUs in just three days, with almost no human intervention. Anthropic now runs Claude on four chip families and aims to cut costs and reduce…",
+   "publishedAt": "2026-11-11T14:25:20.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "1506b14fe94a69b1"
+  },
+  {
+   "id": "b4c8fa961fce9edf",
+   "sourceId": "cloudflare-blog",
+   "sourceName": "The Cloudflare Blog",
+   "originalTitle": "Choosing QuePaxa, an unusual consensus algorithm",
+   "originalUrl": "https://blog.cloudflare.com/choosing-quepaxa/",
+   "originalLanguage": "en",
+   "originalDescription": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+   "publishedAt": "2026-11-11T14:24:46.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M73MMXB6M86NA1F97GH7Q8TG.png",
+   "contentHash": "fde1cac25c9b7061"
+  },
+  {
+   "id": "b5b225f8da047fd6",
+   "sourceId": "ars-technica-ai",
+   "sourceName": "Ars Technica AI",
+   "originalTitle": "Google DeepMind just mathematically verified key parts of Signal",
+   "originalUrl": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+   "originalLanguage": "en",
+   "originalDescription": "The four-week project hints that AI could make formal verification far more practical.",
+   "publishedAt": "2026-11-11T14:08:57.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/signal_icon-1024x648.jpg",
+   "contentHash": "bae87cf24a123c5a"
+  },
+  {
+   "id": "d8637e378806af0b",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+   "originalUrl": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+   "originalLanguage": "en",
+   "originalDescription": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several…",
+   "publishedAt": "2026-11-11T14:01:00.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5L1m-CqPOrgk9otByC4blBWuqDylovaSyHYhirRHQvzjjSUB0DBWbxnF_8cNIsONC6yoL3h-ydX61vmnsctKr_IbcnvmwRLAMqch16Ru5oMVuDWy1bilEt6EAgEerB7mUxICRgck1NkoJeA7Y2lvV0oqLkw12-f1xMhC7Dw5F1aK35NhVf3oZwj4WbfOT/s1600/qliksense.jpg",
+   "contentHash": "46e194223e6792ee"
+  },
+  {
+   "id": "1251f00274bede43",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Adobe’s AI experiments let you walk around in photos and interview your characters",
+   "originalUrl": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+   "originalLanguage": "en",
+   "originalDescription": "Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the latest of those tools are being announced today: they can transform images into explorable 3D scenes, design AI characters by…",
+   "publishedAt": "2026-11-11T14:00:00.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "af6ef40d887bef34"
+  },
+  {
+   "id": "274edf310d65fc26",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+   "originalUrl": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+   "originalLanguage": "en",
+   "originalDescription": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
+   "publishedAt": "2026-11-11T14:00:00.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "9fabf7457e01e67a"
+  },
+  {
+   "id": "c6cd5b93029e1760",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs",
+   "originalUrl": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+   "originalLanguage": "en",
+   "originalDescription": "US data brokers like Mercor, Surge AI, and AfterQuery are selling roughly half a billion dollars' worth of AI training data to Chinese labs, according to a ChinaTalk investigation. That includes the same RL environments previously built for OpenAI or Anthropic. At least nine…",
+   "publishedAt": "2026-11-11T13:51:11.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "4c5f5ad54a97db46"
+  },
+  {
+   "id": "c1b922dbd0e85297",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "DeepL wants real-time translation to finally capture sarcasm and mood shifts",
+   "originalUrl": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/",
+   "originalLanguage": "en",
+   "originalDescription": "DeepL Voice's real-time translations are about to sound a lot more natural. The company's new Aure model carries over tone, emotion, emphasis, and speaking pace from the original speaker's voice into the target language. The article DeepL wants real-time translation to finally…",
+   "publishedAt": "2026-11-11T13:50:30.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "e10445e73037bd52"
+  },
+  {
+   "id": "1e04878226a509f2",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
+   "originalUrl": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+   "originalLanguage": "en",
+   "originalDescription": "Security firm Claroc found more than 35,000 Grok-built apps open to anyone without login, including patient data and confidential SpaceXSI documents. The cause: \"Anyone with the link\" was preselected as the default access setting. SpaceXSI took only its own 24 employee apps…",
+   "publishedAt": "2026-11-11T12:53:07.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "8c51f5bdf0d62406"
+  },
+  {
+   "id": "8eeaa5e81881cd50",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+   "originalUrl": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+   "originalLanguage": "en",
+   "originalDescription": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant…",
+   "publishedAt": "2026-11-11T12:19:40.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh54t26Pk-bNbcIXgu8KrKpT_zN1KxEov16xTFlJ8kiPJ3-btXjGUE1lb0ZpamQU5jUHwmxzxHpYLsAQfiaHQUu3gxCIUw2gsEYNwMjL6nRm_jWm6t_VdHJkz6xj3fAsmTZKP8Bbax1qdT98a_PY4ynv81njiDyPXvIIihl4dqXxxC9pMMf8-Mn9dziy_A/s1600/grokai.jpg",
+   "contentHash": "e6b34317c8549343"
+  },
+  {
+   "id": "8fe702b2db7803b8",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
+   "originalUrl": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
+   "originalLanguage": "en",
+   "originalDescription": "OpenAI grew its quarterly revenue 50 percent to $10 billion but is still burning more cash than it brings in. Adjusted operating losses climbed to $10.9 billion, while rival Anthropic operates far more efficiently on $17 billion in revenue. To close the gap, OpenAI is now…",
+   "publishedAt": "2026-11-11T12:12:47.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "8510d54ea8e3f3b5"
+  },
+  {
+   "id": "00bfb3e3b49bef1a",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+   "originalUrl": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+   "originalLanguage": "en",
+   "originalDescription": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default…",
+   "publishedAt": "2026-11-11T12:01:59.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB22NtEOE6ioVcc92S5bLfFX3tbKyjNkx0j8OmHekqWq6Od4h9DtFmbmdd74VzwHCh5h6NbWnBgHgKzC49DwS7QAgA0uH3eL7BvBnN9QJu3U5-oiy5ZFMN7PvaJTBqjP7TR5VMjzrGxjfOfjgBqs3lecFZnWGEYNDp_BJgklco1L_acBqGm1M_CvtfLaY/s1600/AI-AGENT.png",
+   "contentHash": "29896770efccf7de"
+  },
+  {
+   "id": "d875e13ba5ae8418",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+   "originalUrl": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+   "originalLanguage": "en",
+   "originalDescription": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its own private key, which the company uses to sign the…",
+   "publishedAt": "2026-11-11T12:00:53.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjONLgT6piRm0O75Y6dzQY4L2RO8OQTlWaJbwSTHFDeh82Qiadl2PT9KI9r2jC1JbwS-TqPm3g1Ea0Q8I91FalXu2GZ0fBBnfId6-8ZWKABrBQZWg7nA1X6cHq7wgHK3rc2Y5YW4yb61TjxVyywyWprml6yhBgH-SBaTvXZF-50J8-mR5Q6cGhSgfuMUdk/s1600/emudhra.jpg",
+   "contentHash": "440d69ef18f2a7fe"
+  },
+  {
+   "id": "6df26830d7a11a57",
+   "sourceId": "ncsc-uk",
+   "sourceName": "NCSC (UK)",
+   "originalTitle": "NCSC scheme will help critical organisations test their cyber defences",
+   "originalUrl": "https://www.ncsc.gov.uk/news/ncsc-scheme-help-critical-organisations-test-their-cyber-defences",
+   "originalLanguage": "en",
+   "originalDescription": "New NCSC Cyber Adversary Simulation scheme will help critical organisations strengthen their resilience through rigorous, real-world testing by trusted providers.",
+   "publishedAt": "2026-11-11T12:00:00.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "8c3a7a74a8e1156c"
+  },
+  {
+   "id": "54f3f71dbbbdb55b",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats",
+   "originalUrl": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
+   "originalLanguage": "en",
+   "originalDescription": "England's higher education regulator, the Office for Students, says AI has made it \"nearly impossible\" to fairly assess student coursework. An investigation found that students are having ChatGPT write entire papers undetected, without being able to recall basic content…",
+   "publishedAt": "2026-11-11T11:54:46.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "8a686e6418146267"
+  },
+  {
+   "id": "04fc8cda76e8f8ac",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "Casvisor 开源：Apache-2.0 的堡垒机，一个 Go 二进制支持 SSH、RDP、VNC、Telnet 与会话录像",
+   "originalUrl": "https://www.oschina.net/news/503535",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "Casvisor 是一个 Apache-2.0 协议的开源堡垒机（jump server），后端用 Go、前端用 React 编写，把 SSH、RDP、VNC、Telnet 四种远程协议的接入、权限和审计做在了同一个二进制里，被管理的服务器上不需要安装任何 agent。 主要功能 连接方面，SSH 使用 xterm.js 终端并提供 SFTP 文件面板；RDP 使用项目自研的纯 Go 客户...",
+   "publishedAt": "2026-11-11T10:40:01.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "e548791c3e4ffca3"
+  },
+  {
+   "id": "f0a5ad843b934f7d",
+   "sourceId": "latent-space",
+   "sourceName": "Latent Space",
+   "originalTitle": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+   "originalUrl": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+   "originalLanguage": "en",
+   "originalDescription": "November 10, 2026 — Google GA's Gemini 4 Carbon.",
+   "publishedAt": "2026-11-11T09:34:28.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai",
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "4cda0bc2c2794772"
+  },
+  {
+   "id": "48342637fca56747",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "'제미나이'가 기억하는 내 정보 한눈에 보여준다…수정·삭제도 가능",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217297",
+   "originalLanguage": "ko",
+   "originalDescription": "구글이 '제미나이'가 이용자에 대해 기억하는 정보를 한눈에 보여주는 '메모리 요약(Memory summary)' 기능을 도입했다. 이용자는 AI가 파악한 자신의 직업과 관심사, 생활 습관 등을 직접 확인하고 잘못된 내용을 수정하거나 삭제할 수 있다. '챗GPT'와 '클로드'에 이어 구글도 개인화 AI의 기억을 이용자가 직접 관리하도록 하는 기능을 강화한 것이다.나인투파이브구글은 9일(현지시간) 구글이 제미나이에 '메모리 요약(Memory summary)' 기능을 제공하기 시작했다고 보도했다…",
+   "publishedAt": "2026-11-11T09:23:00.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "5fe31b43da416ce1"
+  },
+  {
+   "id": "bc2a65b27b1d0cfa",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "'페이블 5.2' 프롬프트 가이드 공개…\"코드 맡기면 정리 5배 증가\"",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217271",
+   "originalLanguage": "ko",
+   "originalDescription": "앤트로픽이 최신 모델 '클로드 페이블 5.2'의 프롬프트 작성법을 공개하며 기존 모델에 사용하던 지침을 재검토하라고 권고했다. 특히 코드의 소유권을 어떻게 표현하느냐에 따라 AI의 작업 방식이 크게 달라지는 것으로 나타났다.앤트로픽은 10일(현지시간) 공식 개발자 문서를 통해 페이블 5.2의 성능과 비용을 최적화하기 위한 프롬프트 가이드를 공개했다. 장시간 작업의 조기 중단, 불필요한 승인 요청, 코드 수정 범위, 하위 에이전트 활용 등 실제 개발 과정에서 나타나는 문제와 해결 방법을…",
+   "publishedAt": "2026-11-11T09:05:45.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "90179fc8437e00eb"
+  },
+  {
+   "id": "8e8e851f9ac38a19",
+   "sourceId": "google-ai-blog",
+   "sourceName": "Google AI Blog",
+   "originalTitle": "Experience the art and legacy of Dr. Esther Mahlangu",
+   "originalUrl": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+   "originalLanguage": "en",
+   "originalDescription": "A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
+   "publishedAt": "2026-11-11T09:00:00.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp",
+   "contentHash": "d8375c32aebf820e"
+  },
+  {
+   "id": "24dbd4a5989d391a",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "구글, '제미나이 로보틱스 2.5' 공개…공장 작업 성공률 96%",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217274",
+   "originalLanguage": "ko",
+   "originalDescription": "구글이 실제 자동차 공장에서 휴머노이드 로봇의 작업 성공률을 96%까지 높인 새로운 물리적 AI 모델을 공개했다. 기존 모델보다 정교한 손동작과 작업 속도를 개선하고, 최신 AI 모델을 로봇 훈련에도 활용해 산업 현장 적용 가능성을 높였다.구글 딥마인드는 10일(현지시간) 공식 블로그를 통해 최신 비전-언어-행동(VLA) 모델 '제미나이 로보틱스 2.5(Gemini Robotics 2.5)'를 발표했다. 로봇이 수행할 수 있는 작업의 범위를 넓히고, 새로운 동작을 배우는 속도와 작업의 정확성…",
+   "publishedAt": "2026-11-11T08:51:28.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "a8f3f2b24968d5dc"
+  },
+  {
+   "id": "64a2824d6535b7d3",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "메타, AI 에이전트 '뮤즈' 애플워치·웨어OS로 확대",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217278",
+   "originalLanguage": "ko",
+   "originalDescription": "메타가 소비자용 AI 에이전트 '뮤즈(Muse)'를 애플워치와 구글의 웨어OS(Wear OS) 스마트워치로 확대했다. 지난 9월 출시 이후 스마트폰과 태블릿에 이어 웨어러블 기기까지 지원하면서, 이용자가 일상에서 AI 에이전트를 쉽게 사용할 수 있도록 서비스 접점을 늘리고 있다.메타는 9일(현지시간) X를 통해 스마트워치용 뮤즈 서비스를 발표했다. 사용자는 스마트워치에서 음성이나 문자로 AI 에이전트에 작업을 요청하고 답변과 진행 상황을 확인할 수 있다. 애플워치에서는 화면에 뮤즈 실행 버튼을…",
+   "publishedAt": "2026-11-11T08:41:19.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "698748c81b92bee7"
+  },
+  {
+   "id": "fc582fd75523e765",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "문샷, 중국서 엔비디아 최신 AI 칩 임대 정황…금융 문서 확인",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217294",
+   "originalLanguage": "ko",
+   "originalDescription": "중국 문샷AI가 미국의 중국 수출 규제 대상인 엔비디아의 최신 AI 칩 'B300'을 중국 내에서 임대하려 했다는 금융 계약 문서가 발견됐다. 문샷은 관련 거래를 부인했으며, 블룸버그의 취재 이후 공개 문서에서 문샷의 이름이 사라져 실제 거래 여부와 장비 반입 경로에 관심이 모이고 있다.블룸버그는 10일(현지시간) 중국 금융기관에 제출된 계약 문서를 확인한 결과, 문샷에 엔비디아 B300 GPU를 탑재한 슈퍼마이크로 서버 32대의 컴퓨팅 서비스를 제공하는 계약이 명시돼 있었다고 보도했다. 해당…",
+   "publishedAt": "2026-11-11T08:33:29.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "f9479acbb4503663"
+  },
+  {
+   "id": "7f6f449f0fe5d3d3",
+   "sourceId": "naver-d2",
+   "sourceName": "NAVER D2",
+   "originalTitle": "컨테이너처럼 쓰고, VM처럼 격리하기",
+   "originalUrl": "https://d2.naver.com/helloworld/2265641",
+   "originalLanguage": "ko",
+   "originalDescription": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 Kubernetes GPU 노드를 VM으로 격리해 나눠 쓰면서, 호스트 수준의 성능까지 최적화한 방법을 소개합니다. ​ 발표 대상 여러 사용자가 GPU node를 함께 쓰는 환경에서 격리를 강화하려는 플랫폼 개발자 Kubernetes에서 kata-containers나 VM 기반 runtime 도입을 검토하는 개발자 DRA로 GPU·NIC 같은 device 할당을…",
+   "publishedAt": "2026-11-11T08:21:15.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "developer-tools",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "35dfc9b55053053b"
+  },
+  {
+   "id": "f43e859e646fb795",
+   "sourceId": "naver-d2",
+   "sourceName": "NAVER D2",
+   "originalTitle": "딸깍으로 안되는 Multi-interest 개발기",
+   "originalUrl": "https://d2.naver.com/helloworld/9639872",
+   "originalLanguage": "ko",
+   "originalDescription": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 다양한 관심사 추천 모델인 Multi-interest를 여러 지면에 적용하며 겪었던 문제를 해결했던 과정을 공유합니다. ​ 주제: Multi-interest 추천 모델(MINER)의 KREAM 실서비스 적용 사례 문제: 인기 상품 목록에서 특정 상품이 전체 유저에게 동시 노출되는 hubness 발생 분석: 점수를 유저 의존 성분과 유저 무관 성분으로 분해, 가설…",
+   "publishedAt": "2026-11-11T08:20:14.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "c43ae4f26d5ba47c"
+  },
+  {
+   "id": "6560e745265dab56",
+   "sourceId": "naver-d2",
+   "sourceName": "NAVER D2",
+   "originalTitle": "크림에서 통합 임베딩(Universal Embedding)은 어떻게 쓰일까?",
+   "originalUrl": "https://d2.naver.com/helloworld/7134499",
+   "originalLanguage": "ko",
+   "originalDescription": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 여러 엔티티를 한 공간에 담은 통합 임베딩과 범용 리트리벌이 크림 추천 곳곳에 쓰이는 방식, 운영하며 드러난 한계를 v2에서 해결한 과정, 그리고 확장 방향을 공유합니다. ​ 발표 대상 추천 시스템의 후보 생성(Retrieval) 단계에 관심 있으신 분들 여러 서비스·지면에서 함께 쓰는 공용 임베딩을 설계하고 운영하고 싶으신 ML 엔지니어 조건(필터)이 걸린 벡터…",
+   "publishedAt": "2026-11-11T08:19:08.000Z",
+   "discoveredAt": "2026-11-04T06:31:02.904Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "8f1166e2733ebb0b"
+  },
+  {
+   "id": "b4b549aacbc41c78",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+   "originalUrl": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+   "originalLanguage": "en",
+   "originalDescription": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53…",
+   "publishedAt": "2026-11-11T08:17:53.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "cybersecurity"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_nfFO2Zf-R2XyVzQHP43rc0OLAtUtRKWYV0VIaoHZW8EeH78h2Id9FmfJQVfzFdmBD6ugVGeCehX1Nq6jlmXlMG4AmnV3Tib3YvClKGaplVg5Ngk_KlpqwHx6Pd_oYQTCj2O3HfOpt_MoSGQD-4Nv-pju5sqS7U9-rAJdpKTn-xnhA1QSmmTiQWnAFjGp/s1600/patch-ms.jpg",
+   "contentHash": "81a43caea9434e43"
+  },
+  {
+   "id": "bf35e59cfc36dbfe",
+   "sourceId": "naver-d2",
+   "sourceName": "NAVER D2",
+   "originalTitle": "worklog-system 주간보고 자동화 구축 경험기",
+   "originalUrl": "https://d2.naver.com/helloworld/5037598",
+   "originalLanguage": "ko",
+   "originalDescription": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ 발표 내용 대 AI 시대에 본인의 업무 기록을 수집하고 TODO 및 회의록을 기록하는 시스템을 소개합니다. ​ 이 도구를 만들며 부딪힌 세 가지 문제를 차례로 다룹니다. 기억이 아니라 기록에서 주간보고를 모으는 방법 재택과 사무실을 오가며 여러 기기와 VPN 환경에서 기록을 빠짐없이 모으는 구조 주간보고 화면에 노트·TODO·일정을 더해 업무 도구로 키우면서 중앙 서버 없이…",
+   "publishedAt": "2026-11-11T08:17:53.000Z",
+   "discoveredAt": "2026-11-05T11:00:18.392Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "31833a0a902f8a21"
+  },
+  {
+   "id": "798f5d7b3ff9a166",
+   "sourceId": "naver-d2",
+   "sourceName": "NAVER D2",
+   "originalTitle": "로그인 화면, 이제 만들지 마세요 - n3r OIDC",
+   "originalUrl": "https://d2.naver.com/helloworld/4293206",
+   "originalLanguage": "ko",
+   "originalDescription": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 n3r.iam을 OIDC Provider로 확장해 어떤 서비스에든 'n3r 계정으로 로그인'을 붙이는 방법을 소개하고, n3r의 프로젝트·역할 정보를 표준 토큰에 담아낸 설계 결정을 공유합니다. ​ <참고> 영상속 사내용어 n3r = 네이버 사내 쿠버네티스 기반 컨테이너 플랫폼 ​ ​ 발표 대상 n3r app에 사내 로그인과 권한 연동을 고려하는 개발자 표준…",
+   "publishedAt": "2026-11-11T08:16:53.000Z",
+   "discoveredAt": "2026-11-09T02:41:42.363Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "705dc96a1769ac0c"
+  },
+  {
+   "id": "435c93dfd9ed00d3",
+   "sourceId": "naver-d2",
+   "sourceName": "NAVER D2",
+   "originalTitle": "우리 팀만의 스펙 주도 개발 정착기",
+   "originalUrl": "https://d2.naver.com/helloworld/8644274",
+   "originalLanguage": "ko",
+   "originalDescription": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 스펙 주도 개발(SDD)을 팀 내 개발 정책으로 채택한 배경과 시행착오에 대해 소개합니다. ​ 발표 대상 스펙 주도 개발 도입을 고민중인 개발자 ​ 목차 배경 - SDD를 도입하게 된 이유 우리 팀이 채택한 SDD의 구조 팀 SDD 정책을 세우며 마주친 고민 일곱갈래 다음 고민과 남은 숙제 ​ ​ ◎ NAVER Engineering Day란? ​ NAVER에서는…",
+   "publishedAt": "2026-11-11T08:15:47.000Z",
+   "discoveredAt": "2026-11-10T04:38:28.645Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "3b58b535221022d5"
+  },
+  {
+   "id": "b8418e925c102540",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "qOntology 本体建模平台开源版 v1.1.2 发布：完善项目版本展示，优化建模交互与页面布局",
+   "originalUrl": "https://www.oschina.net/news/503533",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "qOntology 本体建模平台开源版 v1.1.2 围绕系统交互规范、详情页面完善和列表展示优化进行了更新。 本次版本统一调整了批量操作、数据启用状态下的操作限制及无数据页面展示，同时对项目管理、数据源、模型市场、建模目标等业务页面进行了优化。 此外，本次更新还修复了从建模目标详情页面返回后出现空白页面，以及 AI 辅...",
+   "publishedAt": "2026-11-11T08:15:44.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "06ab28dc3c50c973"
+  },
+  {
+   "id": "98e55c3573930cc9",
+   "sourceId": "naver-d2",
+   "sourceName": "NAVER D2",
+   "originalTitle": "Socket.IO 서버를 여러 Pod에서 운영하기",
+   "originalUrl": "https://d2.naver.com/helloworld/3517874",
+   "originalLanguage": "ko",
+   "originalDescription": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 Socket.IO와 n3r 기반의 소켓 서버를 자체 구축하면서, 여러 Pod 사이의 이벤트 전달과 안정적인 연결 유지를 위한 설계와 검증 과정, 운영 경험을 정리해 공유합니다. ​ <참고> 영상속 사내용어 n3r = 네이버 사내 쿠버네티스 기반 컨테이너 플랫폼 ​ 발표 대상 WebSocket이나 Socket.IO 서버를 Kubernetes 위에서 여러 인스턴스로…",
+   "publishedAt": "2026-11-11T08:14:48.000Z",
+   "discoveredAt": "2026-11-11T07:48:13.330Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "4bdd429b8e7deac0"
+  },
+  {
+   "id": "2cc034689d9f6e87",
+   "sourceId": "naver-d2",
+   "sourceName": "NAVER D2",
+   "originalTitle": "검수도 답변도 호출도 AI가? 커머스API의 2026",
+   "originalUrl": "https://d2.naver.com/helloworld/7749530",
+   "originalLanguage": "ko",
+   "originalDescription": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 같은 API 스펙이 AI 에게 검수되고, 문의 답변의 근거가 되고, tool 로 호출되기까지 — 커머스API 플랫폼이 올해 진행한 AI native 과제 세 건의 설계 결정과 운영 결과를 소개합니다. ​ 발표 대상 API 를 만들거나 운영하는 백엔드 개발자 게이트웨이·플랫폼 운영자 LLM·MCP 를 서비스에 연결하려는 개발자 ​ 목차 도입 : 우리가 맡은 플랫폼과…",
+   "publishedAt": "2026-11-11T08:11:58.000Z",
+   "discoveredAt": "2026-11-11T07:48:13.330Z",
+   "topics": [
+    "developer-tools",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "4ee91e3f4bdd8aa6"
+  },
+  {
+   "id": "fdb6a82863ec052d",
+   "sourceId": "naver-d2",
+   "sourceName": "NAVER D2",
+   "originalTitle": "AI 산출물이 프로덕션이 되기까지-AI와 디자인시스템이 함께 일하는 법",
+   "originalUrl": "https://d2.naver.com/helloworld/2568242",
+   "originalLanguage": "ko",
+   "originalDescription": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 AI변화와 함께 성장하는 디자인시스템을 소개합니다. ​ AI 산출물이 프로덕션으로 이어지지 못하는 5가지 이유 스펙·HTML·이미지 어떤 입력이든 Figma로 모으는 전략과, Figma를 중심에 둔 이유 AI와 설계자가 같은 블록으로 조립하도록 컴포넌트·디자인 토큰·design.md로 설계 의도를 표현하는 방법 접근성·인터랙션·엣지 케이스가 담긴 코드 컴포넌트와…",
+   "publishedAt": "2026-11-11T08:10:44.000Z",
+   "discoveredAt": "2026-11-11T07:48:13.330Z",
+   "topics": [
+    "developer-tools",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "bb0794edae9bc8ca"
+  },
+  {
+   "id": "d9ec14614e2d1205",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "TSMC, 자체 칩 개발 나선 오픈AI·앤트로픽에 최대 1.3조원 투자",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217289",
+   "originalLanguage": "ko",
+   "originalDescription": "세계 최대 파운드리 업체 TSMC가 자체 AI 반도체 개발에 나선 오픈AI와 앤트로픽에 최대 10억달러(약 1조3400억원)를 투자하기로 했다. 두 AI 기업이 엔비디아 등 외부 반도체 업체에 대한 의존도를 낮추기 위해 자체 칩 개발을 추진하면서, TSMC도 반도체 공급을 넘어 이들 기업의 지분을 확보하며 관계를 강화하려는 움직임으로 해석된다.TSMC 이사회는 10일 앤트로픽 주식 매입에 최대 5억달러(약 6680억원), 오픈AI 우선주 투자에 최대 5억달러를 각각 승인했다. 앤트로픽 투자는…",
+   "publishedAt": "2026-11-11T08:05:18.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "aa3713fd897dc48f"
+  },
+  {
+   "id": "8ce3f22e2cc90a83",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "[게시판] 패스트캠퍼스·엔비디아 해커톤서 신약개발 AI 에이전트 우승 등 단신",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217295",
+   "originalLanguage": "ko",
+   "originalDescription": "■ 데이원컴퍼니(대표 신해동·김동혁)의 실무 교육 브랜드 패스트캠퍼스는 엔비디아와 공동 개최한 ‘에이전틱 AI 해커톤’ 결선을 ‘엔비디아 AI 데이 서울 2026’에서 진행했다고 밝혔다. 최종 우승은 신약개발·의료 AI 연구자와 현직 약사로 구성된 ‘플라이게이트’ 팀이 차지했다. 엔비디아 ‘바이오니모 NIM’과 ‘네모트론’을 활용해 신약개발부터 시판 후 안전성 검토까지 서로 다른 업무를 하나의 AI 에이전트 워크플로로 연결해 주목받았다.■ 코난테크놀로지(대표 김영섬)는 AI 기반 다국어 안내…",
+   "publishedAt": "2026-11-11T08:00:00.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "e2903573f886f646"
+  },
+  {
    "id": "ac94b61a25ade5ed",
    "sourceId": "openai-news",
    "sourceName": "OpenAI News",
@@ -33,6 +830,73 @@
    ],
    "imageUrl": null,
    "contentHash": "5dea19ea0a59e685"
+  },
+  {
+   "id": "f6de286d0da271b0",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "소프트뱅크, AI 발전 설비 선주문에 5조 손실…분기 적자 9조",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217292",
+   "originalLanguage": "ko",
+   "originalDescription": "소프트뱅크가 미국 AI 데이터센터에 필요한 발전 설비를 대규모로 미리 주문했다가 약 5조원의 손실을 입었다. 전력 설비가 부족해질 것에 대비해 거액의 선급금을 지급했지만, 사업 계획이 바뀌면서 일부 계약을 취소하거나 변경해야 했기 때문이다. 여기에 투자 자산의 가치 하락과 금융 비용 증가까지 겹쳐 2년 만에 분기 적자를 기록했다.소프트뱅크는 10일 2026 회계연도 2분기(7~9월)에 70억달러(약 9조원)의 순손실을 기록했다고 발표했다. 전년 동기 157억달러의 순이익에서 적자로 돌아선…",
+   "publishedAt": "2026-11-11T07:56:18.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "8e344b0371d6ab79"
+  },
+  {
+   "id": "3ef941ae07b833f6",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "구글, AI로 암호 약점 발견 이어 시그널 보안 검증…650만줄 증명",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217275",
+   "originalLanguage": "ko",
+   "originalDescription": "구글이 AI를 활용해 RSA 암호의 약점을 찾아낸 데 이어, 이번에는 메신저 시그널(Signal)의 실제 암호화 코드가 핵심 보안 조건을 충족한다는 사실을 수학적으로 입증했다. 오픈AI와 앤트로픽이 AI의 암호학·수학 연구 성과를 잇달아 공개하는 가운데, 구글도 암호 분석에서 실제 소프트웨어의 보안 검증까지 AI 활용 범위를 넓히고 있다.구글 딥마인드는 10일(현지시간) 공식 블로그를 통해 다중 AI 에이전트 기반 정형 검증 시스템 '알파프루프 코드(AlphaProof Code)'로 시그널의…",
+   "publishedAt": "2026-11-11T07:49:39.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai",
+    "cybersecurity"
+   ],
+   "imageUrl": null,
+   "contentHash": "1730dc9683f749a5"
+  },
+  {
+   "id": "340f1fef32591f75",
+   "sourceId": "naver-d2",
+   "sourceName": "NAVER D2",
+   "originalTitle": "Chaos Mesh로 Kubernetes 앱의 장애 내구성 검증하기",
+   "originalUrl": "https://d2.naver.com/helloworld/6523094",
+   "originalLanguage": "ko",
+   "originalDescription": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 Kubernetes 상에서 가상 인프라 장애를 통해 시스템을 사전에 검증하고 장애를 예방하는 기술을 소개합니다. ​ 발표 대상 Chaos Engineering 도입을 고민중인 개발자 ​ 목차 도입 : Chaos Engineering PART 1. Chaos Mesh 소개 Chaos Mesh 란 주입 매커니즘 Workflow PART 2. 실제 서비스에 적용하기…",
+   "publishedAt": "2026-11-11T07:49:24.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "developer-tools",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "49411f18864a48c1"
+  },
+  {
+   "id": "74289a15fb94903a",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+   "originalUrl": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+   "originalLanguage": "en",
+   "originalDescription": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not…",
+   "publishedAt": "2026-11-11T07:49:04.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "cybersecurity",
+    "ai"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheDP-YSdactqjEqKJOJEJulSVt5fmo134ko3-hE9dbQrLkrcIuhIkAOQDPe4eGS8WR6mLJs3urGqLpdi9erHsuLMAQ1t2saYXZAhnIRNqzliU3reOp2uPoKCRlpWBj8JQcyRIwo9eqK4AuSFcsB5XhIdLFzNYudzLlW_eHiZ094cCzg_gjihMTAZufcCc/s1600/railway-ai.jpg",
+   "contentHash": "ac5a0f31ed178044"
   },
   {
    "id": "d1951b7785beef23",
@@ -83,6 +947,23 @@
    "contentHash": "2a787d19c53a9d32"
   },
   {
+   "id": "aa7a33eee693a50c",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+   "originalUrl": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+   "originalLanguage": "en",
+   "originalDescription": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown. When a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with…",
+   "publishedAt": "2026-11-11T07:21:05.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "cybersecurity",
+    "ai"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3GT7PJRzHrU1jqZ7Qt0MYIOeL97NYpY4E-aY-Jh9WrLRSLpjaLEIjeAdOagTcUfo7MU9yXmk7HPgPHuGKkEidZkw-2Ojtty9z1PX2Qmmj-h0Kk3X-3VsIg6Lggpoblf-1SE5GHU9LB-P6WeOrfNVgIl1e7q0FxS6obF07BEd8HVcXgSyd_7ZSV8hB01E/s1600/ms-ai-backdoor.jpg",
+   "contentHash": "cb45f95a63f95ca6"
+  },
+  {
    "id": "c1dbc3dfe9e785bc",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -115,6 +996,22 @@
    "contentHash": "194f9bdad20f1f07"
   },
   {
+   "id": "84669f783734e5b7",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "나주, 공공비축미 8075톤 매입…건조벼 12일부터 시작",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217291",
+   "originalLanguage": "ko",
+   "originalDescription": "나주가 2026년산 공공비축미곡 8075톤을 매입한다. 건조벼 매입은 12일부터 시작하며 조곡 40kg당 중간정산금 6만원을 우선 지급한다.나주는 오는 12일부터 건조벼 매입을 시작해 12월 말까지 2026년산 공공비축미곡 매입을 순차적으로 추진한다고 11일 밝혔다. 올해 매입물량은 총 8075톤으로 지난해 9087톤보다 1012톤(11.1%) 감소했다. 품목별로는 산물벼 3597톤과 건조벼 3224톤, 친환경벼 392톤, 가루쌀 862톤이다.산물벼는 지난 10월부터 나주시농협쌀조합공동사업법인…",
+   "publishedAt": "2026-11-11T07:10:00.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "7ca193b02dd99989"
+  },
+  {
    "id": "74b9836f5d4e75f6",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -129,6 +1026,22 @@
    ],
    "imageUrl": null,
    "contentHash": "f3def69d012795d4"
+  },
+  {
+   "id": "7b8aff17b87c875f",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "순천 해룡면, 취약계층·독거노인 30세대 색칠놀이 프로그램 운영",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217286",
+   "originalLanguage": "ko",
+   "originalDescription": "순천 해룡면이 취약계층과 독거노인을 대상으로 정서지원과 인지활동을 결합한 방문형 색칠놀이 프로그램을 운영하고 있다.순천 해룡면은 지난 9월부터 취약계층과 독거노인 30세대를 대상으로 우울증과 치매 예방을 위한 ‘색칠놀이 프로그램’을 진행하고 있다고 11일 밝혔다.프로그램은 통합사례관리사와 방문간호사, 담당 공무원이 대상 가구를 직접 방문해 민화·탄생화·화투 등 색칠놀이 3종의 활용 방법을 설명하고 노인과 함께 그림을 완성하는 방식으로 진행된다.해룡면은 색칠 활동과 함께 일상 이야기를 듣고…",
+   "publishedAt": "2026-11-11T07:00:00.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "dc3342a80e687ecd"
   },
   {
    "id": "d77412412cc7b87c",
@@ -163,21 +1076,36 @@
    "contentHash": "e236df76d29915ea"
   },
   {
-   "id": "fdb6a82863ec052d",
-   "sourceId": "naver-d2",
-   "sourceName": "NAVER D2",
-   "originalTitle": "AI 산출물이 프로덕션이 되기까지-AI와 디자인시스템이 함께 일하는 법",
-   "originalUrl": "https://d2.naver.com/helloworld/2568242",
-   "originalLanguage": "ko",
-   "originalDescription": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ AI 산출물이 프로덕션이 되기까지-AI와 디자인시스템이 함께 일하는 법 (네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개... NAVER D2 | AI 산출물이 프로덕션이 되기까지-AI와 디자인시스템이 함께 일하는 법 (네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을…",
-   "publishedAt": "2026-11-11T06:38:33.000Z",
-   "discoveredAt": "2026-11-11T07:48:13.330Z",
+   "id": "d607307f0f71d322",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
+   "originalUrl": "https://www.qbitai.com/2026/11/509146.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "价格、门槛全打穿",
+   "publishedAt": "2026-11-11T06:41:26.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
    "topics": [
-    "developer-tools",
     "ai"
    ],
    "imageUrl": null,
-   "contentHash": "8354225c588929d3"
+   "contentHash": "4f99c5fe999b72c5"
+  },
+  {
+   "id": "b0b8245f1c9c4843",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "여수, LG화학 여수공장 IPA 생산시설 증설 검토에 행정지원",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217279",
+   "originalLanguage": "ko",
+   "originalDescription": "여수가 LG화학의 여수공장 반도체 소재 생산시설 증설 검토와 관련해 입지·인허가 등 행정지원에 나설 방침이다.여수는 LG화학이 여수공장 내 기존 네오펜틸글리콜(NPG) 생산시설 부지를 활용해 이소프로필알코올(IPA) 생산시설 증설을 검토 중인 것으로 알려졌다고 11일 밝혔다.구체적인 투자 규모와 추진 일정은 아직 정해지지 않았다.IPA는 반도체 제조공정에서 웨이퍼 표면을 세척하는 데 사용하는 소재다. 여수는 증설이 실제로 이뤄지면 지역 석유화학 산업이 반도체용 첨단소재 분야로 사업 영역을…",
+   "publishedAt": "2026-11-11T06:40:00.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "6cbaa04c263cf310"
   },
   {
    "id": "5d6a14974460946b",
@@ -194,6 +1122,70 @@
    ],
    "imageUrl": null,
    "contentHash": "1b5a8ce161bdf25f"
+  },
+  {
+   "id": "4592113bef91038d",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "从“卖Token”到“卖结果” | 科技有「联想」沙龙激辩Token经济三大议题",
+   "originalUrl": "https://www.qbitai.com/2026/11/509088.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "10月30日，“科技有「联想」·Token畅想曲”线下沙龙在京举行。",
+   "publishedAt": "2026-11-11T06:27:03.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "1d37b5bc19e41915"
+  },
+  {
+   "id": "5c22ade78afb5ea1",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "전남광주, 광주 산단 20곳 환경오염물질 배출 점검",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217276",
+   "originalLanguage": "ko",
+   "originalDescription": "전남광주통합특별시가 광주지역 산업단지 내 환경오염물질 배출사업장 20곳을 대상으로 민·관 합동 특별점검을 실시한다.전남광주는 오는 12일부터 13일까지 이틀간 공무원과 시민 등 8명으로 2개 점검반을 구성해 2026년 정기 지도·점검 대상 사업장과 환경관리가 상대적으로 취약할 수 있는 사업장을 점검한다고 11일 밝혔다.주요 점검사항은 무허가·미신고 배출시설 설치·운영 여부와 배출시설·방지시설 적정 운영 여부, 자가측정 의무 이행 여부, 배출허용기준 준수 여부 등이다.점검반은 환경오염 가능성이…",
+   "publishedAt": "2026-11-11T06:25:00.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "52eadea04280737b"
+  },
+  {
+   "id": "059ec8253e1882c6",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "卷起来了！11月11日，大模型厂商在天猫打5折",
+   "originalUrl": "https://www.qbitai.com/2026/11/509085.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "大模型厂商智谱、MiniMax、千问办公、阿里云、Qoder都在天猫打5折。",
+   "publishedAt": "2026-11-11T06:18:09.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "33beded541c3c645"
+  },
+  {
+   "id": "5ba8151d05802b85",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Reddit Reviews",
+   "originalUrl": "https://www.producthunt.com/products/reddit",
+   "originalLanguage": "en",
+   "originalDescription": "Product pages that collect subreddit sentiment Discussion | Link",
+   "publishedAt": "2026-11-11T06:12:05.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "956ab26946723999"
   },
   {
    "id": "b898d564521e0a20",
@@ -308,21 +1300,20 @@
    "contentHash": "26f051b3d3934018"
   },
   {
-   "id": "2cc034689d9f6e87",
-   "sourceId": "naver-d2",
-   "sourceName": "NAVER D2",
-   "originalTitle": "검수도 답변도 호출도 AI가? 커머스API의 2026",
-   "originalUrl": "https://d2.naver.com/helloworld/7749530",
-   "originalLanguage": "ko",
-   "originalDescription": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ 검수도 답변도 호출도 AI가? 커머스API의 2026 NAVER D2 | 검수도 답변도 호출도 AI가? 커머스API의 2026 naver.me ​ 발표 내용 같은 API 스펙이 AI 에게 검수되고, 문의 답변의 근거가 되고, tool 로 호출되기까지 — 커머스API 플랫폼이 올해 진행한 AI native 과제 세 건의 설계 결정과 운영 결과를 소개합니다. ​ 발표 대상 API…",
-   "publishedAt": "2026-11-11T05:14:04.000Z",
-   "discoveredAt": "2026-11-11T07:48:13.330Z",
+   "id": "bc4274c70382580c",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "bonds chat",
+   "originalUrl": "https://www.producthunt.com/products/bonds-2",
+   "originalLanguage": "en",
+   "originalDescription": "Multiplayer AI that dies if you and your friends flake Discussion | Link",
+   "publishedAt": "2026-11-11T05:07:26.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
    "topics": [
-    "developer-tools",
-    "ai"
+    "startups-products"
    ],
    "imageUrl": null,
-   "contentHash": "385c8e9f8d86a548"
+   "contentHash": "cc816523abaa0d25"
   },
   {
    "id": "19b4fcb1faac9c9b",
@@ -439,6 +1430,38 @@
    "contentHash": "fd47900d79757ebe"
   },
   {
+   "id": "f66f87ab8e020468",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "无人拖拉机真正下地了！新疆大田深翻30+厘米，丘沃智能开物™系统首次完整曝光",
+   "originalUrl": "https://www.qbitai.com/2026/11/509052.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "L4无人化作业走向规模交付",
+   "publishedAt": "2026-11-11T03:43:31.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "eb8f420862f8a0a2"
+  },
+  {
+   "id": "ead9a516b10b42d1",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Mister Blocks",
+   "originalUrl": "https://www.producthunt.com/products/mister-blocks",
+   "originalLanguage": "en",
+   "originalDescription": "Take a picture of your LEGO and AI will make a build Discussion | Link",
+   "publishedAt": "2026-11-11T03:26:18.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "248c771554835777"
+  },
+  {
    "id": "0a9ebdb63db3687d",
    "sourceId": "nvidia-blog",
    "sourceName": "NVIDIA Blog",
@@ -488,22 +1511,6 @@
    "contentHash": "0d5ab5d90603d6b2"
   },
   {
-   "id": "98e55c3573930cc9",
-   "sourceId": "naver-d2",
-   "sourceName": "NAVER D2",
-   "originalTitle": "Socket.IO 서버를 여러 Pod에서 운영하기",
-   "originalUrl": "https://d2.naver.com/helloworld/3517874",
-   "originalLanguage": "ko",
-   "originalDescription": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ Socket.IO 서버를 여러 Pod에서 운영하기 NAVER D2 | Socket.IO 서버를 여러 Pod에서 운영하기 naver.me ​ 발표 내용 Socket.IO와 n3r 기반의 소켓 서버를 자체 구축하면서, 여러 Pod 사이의 이벤트 전달과 안정적인 연결 유지를 위한 설계와 검증 과정, 운영 경험을 정리해 공유합니다. ​ <참고> 영상속 사내용어 n3r = 네이버 사내…",
-   "publishedAt": "2026-11-11T01:51:27.000Z",
-   "discoveredAt": "2026-11-11T07:48:13.330Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "cbb12d4a797ddae7"
-  },
-  {
    "id": "74d7ee1743945d17",
    "sourceId": "oschina-news",
    "sourceName": "开源中国 资讯",
@@ -518,6 +1525,22 @@
    ],
    "imageUrl": null,
    "contentHash": "70421369febb5190"
+  },
+  {
+   "id": "91ba365c5e4cd74f",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "RigSpark",
+   "originalUrl": "https://www.producthunt.com/products/rigspark",
+   "originalLanguage": "en",
+   "originalDescription": "Know which AI to run on your own computer Discussion | Link",
+   "publishedAt": "2026-11-11T01:26:24.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "abdbb0bb06d5dbcb"
   },
   {
    "id": "edde9887c7bce6ac",
@@ -567,6 +1590,38 @@
    ],
    "imageUrl": null,
    "contentHash": "a445c46dcca39f7a"
+  },
+  {
+   "id": "11568aa8dfcf9a3c",
+   "sourceId": "huggingface-blog",
+   "sourceName": "Hugging Face Blog",
+   "originalTitle": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+   "originalUrl": "https://huggingface.co/blog/token-pooling",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-11-11T00:00:00.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "f547be91f80aa020"
+  },
+  {
+   "id": "6a8c4dac5a5dde0b",
+   "sourceId": "rust-blog",
+   "sourceName": "Rust Blog",
+   "originalTitle": "Google Summer of Code 2026 results",
+   "originalUrl": "https://blog.rust-lang.org/2026/11/11/gsoc-2026-results/",
+   "originalLanguage": "en",
+   "originalDescription": "The Rust Project participated in Google Summer of Code (GSoC) for the third time this year. This time we had 13 projects, and our dear contributors have been working very hard on them for several months. As usual, the projects had various durations, so while some of them have…",
+   "publishedAt": "2026-11-11T00:00:00.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "programming-languages"
+   ],
+   "imageUrl": null,
+   "contentHash": "2db30846eab7784e"
   },
   {
    "id": "940960543dc21922",
@@ -650,6 +1705,22 @@
    "contentHash": "974d374b514e36e5"
   },
   {
+   "id": "52ab33647bb2e35f",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Earlybird",
+   "originalUrl": "https://www.producthunt.com/products/earlybird-5",
+   "originalLanguage": "en",
+   "originalDescription": "29M-param speech-to-text that outputs words before they end Discussion | Link",
+   "publishedAt": "2026-11-10T23:11:21.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "a97ce07f4bbe2080"
+  },
+  {
    "id": "76174bd08629cf32",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -699,6 +1770,38 @@
    "contentHash": "af159597b9c04482"
   },
   {
+   "id": "145b3fd786f29e87",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Binqo",
+   "originalUrl": "https://www.producthunt.com/products/binqo",
+   "originalLanguage": "en",
+   "originalDescription": "A tiny friend in your Mac's notch Discussion | Link",
+   "publishedAt": "2026-11-10T22:32:11.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "bda6b562bb0c25fe"
+  },
+  {
+   "id": "720ebb0d14528ca9",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Xolace",
+   "originalUrl": "https://www.producthunt.com/products/xolace",
+   "originalLanguage": "en",
+   "originalDescription": "For the bad days you wouldn’t call a mental health problem Discussion | Link",
+   "publishedAt": "2026-11-10T22:07:24.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "b0abdb94f940f79d"
+  },
+  {
    "id": "e8c9d645274adadf",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -729,6 +1832,22 @@
    ],
    "imageUrl": null,
    "contentHash": "242cd151d8470430"
+  },
+  {
+   "id": "2f485ddebf4e577e",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Skipbox",
+   "originalUrl": "https://www.producthunt.com/products/skipbox",
+   "originalLanguage": "en",
+   "originalDescription": "Cheap, fast GitHub Actions runners with unlimited minutes Discussion | Link",
+   "publishedAt": "2026-11-10T21:58:02.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "bcbb447df4520181"
   },
   {
    "id": "6e299ce357456abc",
@@ -828,6 +1947,22 @@
    ],
    "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Mathematics-formula-1152x648.jpg",
    "contentHash": "50b1a85767520996"
+  },
+  {
+   "id": "0c0fb21993e78070",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Padrail",
+   "originalUrl": "https://www.producthunt.com/products/padrail",
+   "originalLanguage": "en",
+   "originalDescription": "Turn your MacBook trackpad edges into controls Discussion | Link",
+   "publishedAt": "2026-11-10T20:27:40.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "5ed2817f7350e952"
   },
   {
    "id": "f42776c8962d0d62",
@@ -1227,6 +2362,22 @@
    "contentHash": "bc5930dcd2763e02"
   },
   {
+   "id": "5fc8ae5627c023a4",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Mitra MCP",
+   "originalUrl": "https://www.producthunt.com/products/mitra-5",
+   "originalLanguage": "en",
+   "originalDescription": "Give your AI agents access to your personal phone line Discussion | Link",
+   "publishedAt": "2026-11-10T18:52:46.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "76a8551a19ba813a"
+  },
+  {
    "id": "a89f0826746b4cb4",
    "sourceId": "arxiv-cs-ai",
    "sourceName": "arXiv cs.AI",
@@ -1510,6 +2661,22 @@
    ],
    "imageUrl": null,
    "contentHash": "5e4c30fe23178d6d"
+  },
+  {
+   "id": "741945986230ccf0",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Scribe v3 by ElevenLabs",
+   "originalUrl": "https://www.producthunt.com/products/elevenlabs",
+   "originalLanguage": "en",
+   "originalDescription": "Speech to text with 27% fewer errors in 90+ languages Discussion | Link",
+   "publishedAt": "2026-11-10T18:18:20.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "3804b65d1d4d96f5"
   },
   {
    "id": "452012a5ab466238",
@@ -2165,6 +3332,22 @@
    "contentHash": "40905daedd135e2b"
   },
   {
+   "id": "400ccc2bb634a1a8",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "MiniMax H3-Image",
+   "originalUrl": "https://www.producthunt.com/products/minimax",
+   "originalLanguage": "en",
+   "originalDescription": "Bringing 4K image generation into the 10-second era Discussion | Link",
+   "publishedAt": "2026-11-10T16:35:28.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "18a41fdf3f66ecb3"
+  },
+  {
    "id": "de59f40c4070218b",
    "sourceId": "the-verge-ai",
    "sourceName": "The Verge AI",
@@ -2664,6 +3847,22 @@
    "contentHash": "3466d7c872c84220"
   },
   {
+   "id": "99a678b2c40a832d",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Subscriptrack",
+   "originalUrl": "https://www.producthunt.com/products/subscriptrack",
+   "originalLanguage": "en",
+   "originalDescription": "Connect your email, see every subscription you pay for Discussion | Link",
+   "publishedAt": "2026-11-10T14:06:07.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "acd7b3a2bcff0cee"
+  },
+  {
    "id": "5ac8836f0ba144b3",
    "sourceId": "techcrunch-ai",
    "sourceName": "TechCrunch AI",
@@ -2811,6 +4010,22 @@
    "contentHash": "e10c95e7774eb5d3"
   },
   {
+   "id": "cdbb275ae6e5ca39",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "Nod by n8n",
+   "originalUrl": "https://www.producthunt.com/products/n8n-io",
+   "originalLanguage": "en",
+   "originalDescription": "Open source personal agent with its own computer Discussion | Link",
+   "publishedAt": "2026-11-10T13:38:19.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "9b48a396e55e6417"
+  },
+  {
    "id": "3dff7f66406e966a",
    "sourceId": "the-decoder",
    "sourceName": "The Decoder",
@@ -2892,6 +4107,22 @@
    ],
    "imageUrl": null,
    "contentHash": "062ed30ed84474e8"
+  },
+  {
+   "id": "5655713d85bb2742",
+   "sourceId": "product-hunt",
+   "sourceName": "Product Hunt",
+   "originalTitle": "StableBar",
+   "originalUrl": "https://www.producthunt.com/products/stablebar",
+   "originalLanguage": "en",
+   "originalDescription": "A native, open-source menu bar for macOS Discussion | Link",
+   "publishedAt": "2026-11-10T13:11:57.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "04ef61ca572ca993"
   },
   {
    "id": "697debda975c1875",
@@ -3173,6 +4404,23 @@
    ],
    "imageUrl": null,
    "contentHash": "7581cca02f332357"
+  },
+  {
+   "id": "5ea7d15a7a7c81ce",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "英伟达机器人开源撞上Fable 5.2发布！Jim Fan：不是寒冬是夏天",
+   "originalUrl": "https://www.qbitai.com/2026/11/509032.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": null,
+   "publishedAt": "2026-11-10T10:35:38.000Z",
+   "discoveredAt": "2026-11-11T16:13:32.172Z",
+   "topics": [
+    "ai",
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "04c70dd3cb5549fc"
   },
   {
    "id": "89049d0ef21bea30",
@@ -4535,22 +5783,6 @@
    ],
    "imageUrl": null,
    "contentHash": "04bd7987ca424950"
-  },
-  {
-   "id": "435c93dfd9ed00d3",
-   "sourceId": "naver-d2",
-   "sourceName": "NAVER D2",
-   "originalTitle": "우리 팀만의 스펙 주도 개발 정착기",
-   "originalUrl": "https://d2.naver.com/helloworld/8644274",
-   "originalLanguage": "ko",
-   "originalDescription": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ 우리 팀만의 스펙 주도 개발 정착기 NAVER D2 | 우리 팀만의 스펙 주도 개발 정착기 naver.me ​ 발표 내용 스펙 주도 개발(SDD)을 팀 내 개발 정책으로 채택한 배경과 시행착오에 대해 소개합니다. ​ 발표 대상 스펙 주도 개발 도입을 고민중인 개발자 ​ 목차 배경 - SDD를 도입하게 된 이유 우리 팀이 채택한 SDD의 구조 팀 SDD 정책을 세우며 마주친 고민…",
-   "publishedAt": "2026-11-10T01:32:48.000Z",
-   "discoveredAt": "2026-11-10T04:38:28.645Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "00b7ded386b176a1"
   },
   {
    "id": "8a35af252b32001f",
@@ -8639,22 +9871,6 @@
    ],
    "imageUrl": null,
    "contentHash": "8caf97c31ef804d0"
-  },
-  {
-   "id": "798f5d7b3ff9a166",
-   "sourceId": "naver-d2",
-   "sourceName": "NAVER D2",
-   "originalTitle": "로그인 화면, 이제 만들지 마세요 - n3r OIDC",
-   "originalUrl": "https://d2.naver.com/helloworld/4293206",
-   "originalLanguage": "ko",
-   "originalDescription": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ 로그인 화면, 이제 만들지 마세요 - n3r OIDC NAVER D2 | 로그인 화면, 이제 만들지 마세요 - n3r OIDC naver.me ​ 발표 내용 n3r.iam을 OIDC Provider로 확장해 어떤 서비스에든 'n3r 계정으로 로그인'을 붙이는 방법을 소개하고, n3r의 프로젝트·역할 정보를 표준 토큰에 담아낸 설계 결정을 공유합니다. ​ <참고> 영상속 사내용어…",
-   "publishedAt": "2026-11-09T01:47:10.000Z",
-   "discoveredAt": "2026-11-09T02:41:42.363Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "6d863d44b6c88dd3"
   },
   {
    "id": "0aef263f1a1de6df",
@@ -19487,22 +20703,6 @@
    "contentHash": "fb029322184eb1b0"
   },
   {
-   "id": "bf35e59cfc36dbfe",
-   "sourceId": "naver-d2",
-   "sourceName": "NAVER D2",
-   "originalTitle": "worklog-system 주간보고 자동화 구축 경험기",
-   "originalUrl": "https://d2.naver.com/helloworld/5037598",
-   "originalLanguage": "ko",
-   "originalDescription": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ worklog-system 주간보고 자동화 구축 경험기 NAVER D2 | worklog-system 주간보고 자동화 구축 경험기 naver.me 발표 내용 대 AI 시대에 본인의 업무 기록을 수집하고 TODO 및 회의록을 기록하는 시스템을 소개합니다. ​ 이 도구를 만들며 부딪힌 세 가지 문제를 차례로 다룹니다. 기억이 아니라 기록에서 주간보고를 모으는 방법 재택과 사무실을…",
-   "publishedAt": "2026-11-05T04:50:54.000Z",
-   "discoveredAt": "2026-11-05T11:00:18.392Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "745437f2aba83a82"
-  },
-  {
    "id": "a268ea9382891c77",
    "sourceId": "krebs-on-security",
    "sourceName": "Krebs on Security",
@@ -21671,22 +22871,6 @@
    "contentHash": "7d6361115ce83e7c"
   },
   {
-   "id": "4c0f71dc47d14de2",
-   "sourceId": "vscode-blog",
-   "sourceName": "Visual Studio Code Blog",
-   "originalTitle": "Visual Studio Code 1.146 (Insiders)",
-   "originalUrl": "https://code.visualstudio.com/updates/v1_146",
-   "originalLanguage": "en",
-   "originalDescription": "Learn what is new in Visual Studio Code Insiders. Read the full article",
-   "publishedAt": null,
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "981ca574aef2c6d7"
-  },
-  {
    "id": "6b1c4708310c50a0",
    "sourceId": "simon-willison",
    "sourceName": "Simon Willison's Weblog",
@@ -23230,22 +24414,6 @@
    "contentHash": "a510fd0bd4492be1"
   },
   {
-   "id": "6560e745265dab56",
-   "sourceId": "naver-d2",
-   "sourceName": "NAVER D2",
-   "originalTitle": "크림에서 통합 임베딩(Universal Embedding)은 어떻게 쓰일까?",
-   "originalUrl": "https://d2.naver.com/helloworld/7134499",
-   "originalLanguage": "ko",
-   "originalDescription": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ 크림에서 통합 임베딩(Universal Embedding)은 어떻게 쓰일까? NAVER D2 | 크림에서 통합 임베딩(Universal Embedding)은 어떻게 쓰일까? naver.me ​ 발표 내용 여러 엔티티를 한 공간에 담은 통합 임베딩과 범용 리트리벌이 크림 추천 곳곳에 쓰이는 방식, 운영하며 드러난 한계를 v2에서 해결한 과정, 그리고 확장 방향을 공유합니다. ​…",
-   "publishedAt": "2026-11-04T04:54:08.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "10239d0d27269159"
-  },
-  {
    "id": "20627dabc328f0cb",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -23552,1199 +24720,6 @@
    ],
    "imageUrl": null,
    "contentHash": "b2b13b87e94b961e"
-  },
-  {
-   "id": "981785a01550309d",
-   "sourceId": "openai-news",
-   "sourceName": "OpenAI News",
-   "originalTitle": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-   "originalUrl": "https://openai.com/index/devrev-enterprise-self-service",
-   "originalLanguage": "en",
-   "originalDescription": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-   "publishedAt": "2026-11-04T00:00:00.000Z",
-   "discoveredAt": "2026-11-05T02:30:07.507Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "6496d11c61577ea2"
-  },
-  {
-   "id": "af6c83acf8e77bda",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "[AI리더의 서가] 원하는 대로 튜닝하는 나만의 sLLM",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216788",
-   "originalLanguage": "ko",
-   "originalDescription": "원하는 대로 튜닝하는 나만의 sLLM오지영 | 길벗2026년 7월 7일추천이유저자는 sLLM의 구축부터 배포까지 전 과정을 실습으로 안내하며, 개발자가 직접 맞춤형 AI를 만들고 운영하는 엔지니어로 성장하도록 돕습니다.상세보기 기업이 생성 AI를 들일 때 가장 먼저 걸리는 문턱은 여전히 데이터다. 메가존클라우드와 파운드리가 국내 기업 AI·IT 담당자 749명에게 물은 조사에서 생성형 AI의 주요 우려로 보안·개인정보 유출을 꼽은 응답은 53.3%였다. 자체 모델을 택한 기업이 꼽은 이유도…",
-   "publishedAt": "2026-11-04T00:00:00.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "88b23addc765d4bf"
-  },
-  {
-   "id": "c69a4026f5b4f206",
-   "sourceId": "go-blog",
-   "sourceName": "The Go Blog",
-   "originalTitle": "A new Go API for JSON",
-   "originalUrl": "https://go.dev/blog/jsonv2",
-   "originalLanguage": "en",
-   "originalDescription": "Go 1.27 introduces new encoding/json/v2 and encoding/json/jsontext packages.",
-   "publishedAt": "2026-11-04T00:00:00.000Z",
-   "discoveredAt": "2026-11-04T21:55:13.950Z",
-   "topics": [
-    "programming-languages"
-   ],
-   "imageUrl": null,
-   "contentHash": "f88580390bae7644"
-  },
-  {
-   "id": "9d97c8271a19f07f",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "Please stop asking me when the AI bubble will pop",
-   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
-   "originalLanguage": "en",
-   "originalDescription": "People, including on this staff, keep asking me with varying degrees of excitement or trepidation when the AI bubble will burst. I'll tell you what I tell them: If I knew that, I would make a life-changing bet on the market, levered up as far as I could, and then, after I made…",
-   "publishedAt": "2026-11-03T23:37:45.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "b8041914140cbacb"
-  },
-  {
-   "id": "abbb96cf14716a16",
-   "sourceId": "simon-willison",
-   "sourceName": "Simon Willison's Weblog",
-   "originalTitle": "datasette-agent 0.5a0",
-   "originalUrl": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
-   "originalLanguage": "en",
-   "originalDescription": "Release: datasette-agent 0.5a0 This is a significant release of Datasette Agent . The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page. When combined with datasette-apps this…",
-   "publishedAt": "2026-11-03T23:13:45.000Z",
-   "discoveredAt": "2026-11-04T21:55:13.950Z",
-   "topics": [
-    "ai",
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "1c12d459a76e38bb"
-  },
-  {
-   "id": "f72f1f636fab957f",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "TellPip",
-   "originalUrl": "https://www.producthunt.com/products/tellpip",
-   "originalLanguage": "en",
-   "originalDescription": "A little bird that whispers what to say in your calls Discussion | Link",
-   "publishedAt": "2026-11-03T23:13:42.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "59623c7fad9431f3"
-  },
-  {
-   "id": "5226e12e1f5077ab",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Hashference",
-   "originalUrl": "https://www.producthunt.com/products/hashference",
-   "originalLanguage": "en",
-   "originalDescription": "Fund 45+ top AI models using your idle CPU/GPU compute Discussion | Link",
-   "publishedAt": "2026-11-03T23:09:16.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "590af23626a99f40"
-  },
-  {
-   "id": "52eb9ce7b224919a",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "Anthropic is working on a system to prove AI models’ identity",
-   "originalUrl": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
-   "originalLanguage": "en",
-   "originalDescription": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
-   "publishedAt": "2026-11-03T22:41:03.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "72050457c945f81a"
-  },
-  {
-   "id": "014d0f8ff9b1f411",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "Data centers are turning to old jet engines as the wait for power grows",
-   "originalUrl": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
-   "originalLanguage": "en",
-   "originalDescription": "The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.",
-   "publishedAt": "2026-11-03T22:19:53.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "480028b1b9b4db9f"
-  },
-  {
-   "id": "b7e0350d82e1346f",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "[11월3일] \"AI 성능 높아도 실무는 별개\"…새 벤치마크서 최고 12%에 그쳐",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216936",
-   "originalLanguage": "ko",
-   "originalDescription": "최첨단 AI 모델들이 실제 기업의 전문 업무를 재현한 평가에서 최고 12%에 그쳤습니다. 기존 벤치마크가 실제 업무의 복잡성과 전문가의 판단 과정을 충분히 반영하지 못한다는 지적과 함께, AI가 기업의 고부가가치 전문 업무를 얼마나 완수할 수 있는지 측정하는 새로운 평가 방식이 등장했습니다.반도체·AI 산업 분석 전문 세미애널리시스(SemiAnalysis)는 2일(현지시간) 새로운 AI 에이전트 벤치마크인 'GDPx'를 공개했습니다. 반도체 설계, 사이버보안, 생물학, 금융, 법률, 소프트웨어…",
-   "publishedAt": "2026-11-03T22:00:00.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "7962880bdeb55a30"
-  },
-  {
-   "id": "2cc373a8f31ec700",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Freeport Markets",
-   "originalUrl": "https://www.producthunt.com/products/freeport-markets",
-   "originalLanguage": "en",
-   "originalDescription": "Our proprietary AI finds the top onchain wallets to copy Discussion | Link",
-   "publishedAt": "2026-11-03T21:56:35.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "5d5c85f528bd9246"
-  },
-  {
-   "id": "14409ffa4e7706ac",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
-   "originalUrl": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
-   "originalLanguage": "en",
-   "originalDescription": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.",
-   "publishedAt": "2026-11-03T21:43:08.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "ffdad40c7cd1e870"
-  },
-  {
-   "id": "aac81467646f1d03",
-   "sourceId": "simon-willison",
-   "sourceName": "Simon Willison's Weblog",
-   "originalTitle": "llm 0.37.1",
-   "originalUrl": "https://simonwillison.net/2026/Nov/3/llm/",
-   "originalLanguage": "en",
-   "originalDescription": "Release: llm 0.37.1 A bugfix release for LLM , with contributions from Steven Huang , Tao An , Arjan Mossel , and XQ . Tags: llm",
-   "publishedAt": "2026-11-03T21:41:42.000Z",
-   "discoveredAt": "2026-11-04T21:55:13.950Z",
-   "topics": [
-    "ai",
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "530e87cd839f804b"
-  },
-  {
-   "id": "81efc47dc4581bdd",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
-   "originalUrl": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
-   "originalLanguage": "en",
-   "originalDescription": "Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever.",
-   "publishedAt": "2026-11-03T21:05:55.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "72d2b6f95a5d475e"
-  },
-  {
-   "id": "8fdb108aaca7ce7d",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "Those Jeff Bezos hair transplant photos are very fake",
-   "originalUrl": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
-   "originalLanguage": "en",
-   "originalDescription": "Amazon founder Jeff Bezos and actor Jason Statham have a distinctive feature in common: They're both famously bald, and that definitely hasn't changed in the last few days. However, there are some images of the two men circulating around X, Threads, and Bluesky in which they…",
-   "publishedAt": "2026-11-03T21:01:07.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "f86b4e801e1bedbc"
-  },
-  {
-   "id": "c172670df3bbada1",
-   "sourceId": "ars-technica-ai",
-   "sourceName": "Ars Technica AI",
-   "originalTitle": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
-   "originalUrl": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
-   "originalLanguage": "en",
-   "originalDescription": "Russia tries to fix exposed digital infrastructure as data center war backfires.",
-   "publishedAt": "2026-11-03T20:39:55.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Russia-Borodinsky-coal-mine-1152x648.jpg",
-   "contentHash": "13161401b2b29a44"
-  },
-  {
-   "id": "290d6a832bd3f43d",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Cosyra",
-   "originalUrl": "https://www.producthunt.com/products/cosyra",
-   "originalLanguage": "en",
-   "originalDescription": "Launch and steer agents on your machines from your phone Discussion | Link",
-   "publishedAt": "2026-11-03T20:20:04.000Z",
-   "discoveredAt": "2026-11-05T18:46:46.421Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "166e90eb4434411f"
-  },
-  {
-   "id": "ec51e351ec2747a2",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "Apple starts giving Siri AI access to third-party apps",
-   "originalUrl": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
-   "originalLanguage": "en",
-   "originalDescription": "Apple will now let Siri AI perform actions across third-party apps. As part of the iOS 27.3 update rolling out on Tuesday, Apple announced developers can now integrate Siri AI's new features in \"all apps,\" allowing the voice assistant to draw on a user's personal context…",
-   "publishedAt": "2026-11-03T20:16:17.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "d69ac887484ca761"
-  },
-  {
-   "id": "ac5a35c3d51422c4",
-   "sourceId": "the-decoder",
-   "sourceName": "The Decoder",
-   "originalTitle": "OpenAI says GPT-6 Astra designed a hardware device from scratch in under a week",
-   "originalUrl": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/",
-   "originalLanguage": "en",
-   "originalDescription": "OpenAI's hardware team used GPT-6 Astra to design a device for the Codex coding agent in under a week, handling everything from the enclosure to the circuit board to the firmware. Several revision rounds were needed before production because the model didn't always account for…",
-   "publishedAt": "2026-11-03T20:15:45.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "1757c507d4c469ac"
-  },
-  {
-   "id": "45e38e3b3debc240",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "Amazon Connect Customer lets agents pause and resume emails",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-pause-resume-email/",
-   "originalLanguage": "en",
-   "originalDescription": "Amazon Connect Customer lets agents pause emails while waiting for information or approvals, freeing them to handle higher-priority contacts and resume their work later. For example, an agent waiting for a supervisor to approve a refund can pause the email and take an incoming…",
-   "publishedAt": "2026-11-03T20:15:00.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "3bb988b5374f2141"
-  },
-  {
-   "id": "c383a5db7c51ef5f",
-   "sourceId": "the-decoder",
-   "sourceName": "The Decoder",
-   "originalTitle": "Rapid LLM development is outrunning the research meant to explain it, study finds",
-   "originalUrl": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/",
-   "originalLanguage": "en",
-   "originalDescription": "Stanford researchers tested 50 widely cited claims about LLMs against 20 current models. 44 percent of the findings are already \"expired,\" and another 34 percent have weakened significantly. The average lifespan is just 15.7 months. Claims about what models can't do expire…",
-   "publishedAt": "2026-11-03T19:41:43.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "d019069aa0ec7a62"
-  },
-  {
-   "id": "05d1a3678a8eb502",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "AI inference startup Fal doubles its valuation to $16B as demand surges",
-   "originalUrl": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
-   "originalLanguage": "en",
-   "originalDescription": "The five-year-old startup raised a $1.3 billion round led by Bessemer.",
-   "publishedAt": "2026-11-03T19:34:43.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai",
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "879dcfaff980a7cf"
-  },
-  {
-   "id": "9146fd56cf18d60b",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Hindsight Models and Inference API",
-   "originalUrl": "https://www.producthunt.com/products/vectorize",
-   "originalLanguage": "en",
-   "originalDescription": "Small, fast models for reranking, embeddings and decisions Discussion | Link",
-   "publishedAt": "2026-11-03T19:30:48.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "15d39f961d78ef32"
-  },
-  {
-   "id": "8eb28acdb4745ec7",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
-   "originalUrl": "https://arxiv.org/abs/2611.05377v1",
-   "originalLanguage": "en",
-   "originalDescription": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but…",
-   "publishedAt": "2026-11-03T18:59:56.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "cb7284dad268c7af"
-  },
-  {
-   "id": "3bd975395a2a0e25",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
-   "originalUrl": "https://arxiv.org/abs/2611.05376v1",
-   "originalLanguage": "en",
-   "originalDescription": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they…",
-   "publishedAt": "2026-11-03T18:59:52.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "2ccd724d7605eb7d"
-  },
-  {
-   "id": "4079641725d4c0e0",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
-   "originalUrl": "https://arxiv.org/abs/2611.05373v1",
-   "originalLanguage": "en",
-   "originalDescription": "Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling, LLM-based rating of the samples together with a teacher's…",
-   "publishedAt": "2026-11-03T18:59:15.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "0a7d9b629ed0697d"
-  },
-  {
-   "id": "7e21020f2514e250",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning",
-   "originalUrl": "https://arxiv.org/abs/2611.05372v1",
-   "originalLanguage": "en",
-   "originalDescription": "Inverse kinematics (IK) converts end-effector pose commands into joint motion, and many vision-language-action (VLA) policies rely on it to act on a given arm and to transfer across embodiments. Precise IK remains laborious: redundancy and singularities complicate the inverse…",
-   "publishedAt": "2026-11-03T18:59:14.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "3bbb0499e9f47446"
-  },
-  {
-   "id": "d32bf4f6ea3f4afe",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "GUILD: Guided Iterative Data Collection for Imitation Learning",
-   "originalUrl": "https://arxiv.org/abs/2611.05368v1",
-   "originalLanguage": "en",
-   "originalDescription": "Imitation learning policies in robotics are trained on datasets collected through costly real-world teleoperation. Often, the data-collection process is unguided, relying on the teleoperator's intuition, resulting in data that contributes little to overall policy performance…",
-   "publishedAt": "2026-11-03T18:57:35.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "c59661af86bd4bd9"
-  },
-  {
-   "id": "534aa0712ea5852a",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Suppressing Misaligned Behaviors in Language Models, Durably",
-   "originalUrl": "https://arxiv.org/abs/2611.05358v1",
-   "originalLanguage": "en",
-   "originalDescription": "Undesired model behaviors can emerge or re-emerge at any stage of training. Once observed, how effectively can we suppress them? To study this question, we first construct two model organisms--language models deliberately trained to exhibit a specific misalignment--that differ…",
-   "publishedAt": "2026-11-03T18:54:08.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "505970bdc35afd40"
-  },
-  {
-   "id": "24ad945b79fde1b0",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits",
-   "originalUrl": "https://arxiv.org/abs/2611.05355v1",
-   "originalLanguage": "en",
-   "originalDescription": "When a language model answers, we can usually only estimate why. We build a transformer in which every step is a Born measurement - attention $|\\langle q|k\\rangle|^4$ normalised over each row, a measured product in place of the feed-forward nonlinearity, and a Born readout…",
-   "publishedAt": "2026-11-03T18:52:44.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "cba0a2a1a28ea743"
-  },
-  {
-   "id": "e357dd7a35d8f16c",
-   "sourceId": "the-hacker-news",
-   "sourceName": "The Hacker News",
-   "originalTitle": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
-   "originalUrl": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
-   "originalLanguage": "en",
-   "originalDescription": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys. The warning came in an email sent on November 3 in…",
-   "publishedAt": "2026-11-03T18:46:38.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "cybersecurity"
-   ],
-   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtvbYhodewxI1TOMjVp0GKUmMdudVKH27My8auvMEvDbCkd_JBzdJjjBb99j2a2a9R1wgkOaTdLcM_9FEmpyweVquFetLeyfzSC5UgpukK8Ukw7keJb5HwmTnPP1qWT2QzVX3FKLtBKLDFnuMrzmfgW5dwYf6SJHZHqSDj_eYGdap3ECOMMI1Em6_oS_0/s1600/msecure.jpg",
-   "contentHash": "938163709d93fa77"
-  },
-  {
-   "id": "21ab1b3478620407",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Agnostic Learning by Imitating",
-   "originalUrl": "https://arxiv.org/abs/2611.05346v1",
-   "originalLanguage": "en",
-   "originalDescription": "Given a class of machine learning models and sample access to a data distribution with binary labels, which computational task is harder: training a discriminative model that distinguishes positive and negative labels as well as the best member of the class, or training a…",
-   "publishedAt": "2026-11-03T18:45:38.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "ccc709d6f4f96e6b"
-  },
-  {
-   "id": "325ed833d5b8f12c",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
-   "originalUrl": "https://arxiv.org/abs/2611.05345v1",
-   "originalLanguage": "en",
-   "originalDescription": "Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding without changing the model behavior. Under this view, the growing effort to train better draft models has been focused solely on acceptance rate. We argue that…",
-   "publishedAt": "2026-11-03T18:45:23.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "67209d1a84e10027"
-  },
-  {
-   "id": "8aab758744836e74",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "A Circuit for In-Context Learning",
-   "originalUrl": "https://arxiv.org/abs/2611.05344v1",
-   "originalLanguage": "en",
-   "originalDescription": "In-context learning (ICL) lets a pretrained language model perform a task specified by demonstrations in its prompt, with no parameter updates. With arbitrary labels the model must acquire a mapping it cannot have memorized, so the learning happens within a single forward pass…",
-   "publishedAt": "2026-11-03T18:44:34.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "e30181aa1857fff5"
-  },
-  {
-   "id": "f0a48276fa17edbe",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "PasteGuard for Mac",
-   "originalUrl": "https://www.producthunt.com/products/pasteguard-2",
-   "originalLanguage": "en",
-   "originalDescription": "Keep secrets and personal data out of AI chats Discussion | Link",
-   "publishedAt": "2026-11-03T18:42:44.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "a0157e7653df963e"
-  },
-  {
-   "id": "90ff5ab634ecc941",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
-   "originalUrl": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
-   "originalLanguage": "en",
-   "originalDescription": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in the mood for.",
-   "publishedAt": "2026-11-03T18:42:16.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "a918a080d5232623"
-  },
-  {
-   "id": "b37568ab794bbfeb",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Weight-space programming for auditing clinical decision networks",
-   "originalUrl": "https://arxiv.org/abs/2611.05341v1",
-   "originalLanguage": "en",
-   "originalDescription": "Machine learning models in radiotherapy are commissioned by testing them on cases with known answers, which may not reveal a shortcut that the test cases share with the training data. Frontier language models have recently been reported to read and write the raw weights of…",
-   "publishedAt": "2026-11-03T18:41:15.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "d8f4e7c82b05a4b7"
-  },
-  {
-   "id": "ceb18ee78cae6c04",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "MedPhysBench: A Benchmark for Evaluating Language Models on Medical Physics Calculations and Error Detection",
-   "originalUrl": "https://arxiv.org/abs/2611.05340v1",
-   "originalLanguage": "en",
-   "originalDescription": "Medical physicists turn a prescription into a delivered dose and check one another's calculations, because one error in a beam calibration or a monitor-unit (MU) calculation can affect every patient treated with it. MedPhysBench has ten seeded generators of calculation items in…",
-   "publishedAt": "2026-11-03T18:40:35.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "a63fcb5788d22044"
-  },
-  {
-   "id": "9f3b695215aeb7c8",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "A simple adaptive accelerated optimistic dual averaging method for unconstrained convex optimization in $p$-norm geometry",
-   "originalUrl": "https://arxiv.org/abs/2611.05334v1",
-   "originalLanguage": "en",
-   "originalDescription": "Efficient preconditioning plays an important role in large-scale first-order optimization. In this paper, we propose an adaptive accelerated optimistic dual averaging ($\\text{A}^2$ODA) method for unconstrained convex optimization that adopts low-cost preconditioning based on…",
-   "publishedAt": "2026-11-03T18:35:20.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "ec657a67a83ba14f"
-  },
-  {
-   "id": "3d8dcd9da9a1edd0",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
-   "originalUrl": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
-   "originalLanguage": "en",
-   "originalDescription": "Starting today, Siri can tune into the Apple Watch's mic with Audio Intelligence features that are available in the new watchOS 27.3 developer beta rolling out now. The two new additions are Siri Recap, which uses \"ambient listening\" to generate summaries of your conversation…",
-   "publishedAt": "2026-11-03T18:31:00.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "1ac1403271c20734"
-  },
-  {
-   "id": "2a746fdcd099abae",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "OpenAI says ChatGPT is catching up to Google in search",
-   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
-   "originalLanguage": "en",
-   "originalDescription": "In many circles, \"Ask Chat\" has replaced \"Google it,\" and that's reflected in a new announcement from OpenAI: the volume of search queries run through ChatGPT now equals 20 percent of the volume run through Google. Adam Fry, OpenAI's consumer product lead for ChatGPT, made the…",
-   "publishedAt": "2026-11-03T18:30:42.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "afc9ba16e1638466"
-  },
-  {
-   "id": "43110b792881cad2",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "CATF: A Manager-Worker Framework for Context-Aware Time-Series Forecasting",
-   "originalUrl": "https://arxiv.org/abs/2611.05325v1",
-   "originalLanguage": "en",
-   "originalDescription": "We study context-aware time-series forecasting, in which a single target variable is predicted from its own history and a set of contextual variables, such as weather and calendar information. As the context becomes more diverse, a single model struggles to capture all of its…",
-   "publishedAt": "2026-11-03T18:28:04.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "a54a5cf35f00ce8e"
-  },
-  {
-   "id": "3aaad9bec9bde6b5",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
-   "originalUrl": "https://arxiv.org/abs/2611.05320v1",
-   "originalLanguage": "en",
-   "originalDescription": "Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the agent receives a data request…",
-   "publishedAt": "2026-11-03T18:25:14.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "85cb6f05a092c3c3"
-  },
-  {
-   "id": "73d5ed1cf5e187f2",
-   "sourceId": "apple-newsroom",
-   "sourceName": "Apple Newsroom",
-   "originalTitle": "Redesigned Health app expands language support",
-   "originalUrl": "https://www.apple.com/newsroom/2026/11/redesigned-health-app-expands-language-support/",
-   "originalLanguage": "en",
-   "originalDescription": "Apple announced expanded language support for the redesigned Health app, bringing personalized health insights to millions of people worldwide.",
-   "publishedAt": "2026-11-03T18:24:58.012Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "mobile-hardware"
-   ],
-   "imageUrl": null,
-   "contentHash": "ce084dd207e51b49"
-  },
-  {
-   "id": "f13c4251295ecc9c",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation",
-   "originalUrl": "https://arxiv.org/abs/2611.05319v1",
-   "originalLanguage": "en",
-   "originalDescription": "In LLM-based recommendation, memory acts as a user-level agent in a memory-augmented backbone. Yet users and items remain asymmetric: only the user is given a structured profile; it enters a bandwidth-limited reranker prompt; and it is frozen after warmup. We recast LLM-based…",
-   "publishedAt": "2026-11-03T18:24:20.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "5e05e11c9c927eff"
-  },
-  {
-   "id": "d47f21ec9a96fce4",
-   "sourceId": "arxiv-cs-cl",
-   "sourceName": "arXiv cs.CL",
-   "originalTitle": "MDSKILL: Learning to Internalize Skill Memory through Multi-View Distillation for Efficient Dynamic Agent Self-Evolution",
-   "originalUrl": "https://arxiv.org/abs/2611.05313v1",
-   "originalLanguage": "en",
-   "originalDescription": "Skill memories encode past experiences as textual prompts to improve reinforcement learning (RL) for self-evolving agents. Complementing RL, On-Policy Self-Distillation (OPSD) provides dense, fine-grained supervision to internalize knowledge from skill-guided trajectories and…",
-   "publishedAt": "2026-11-03T18:19:55.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "23c1865150f90e7d"
-  },
-  {
-   "id": "4dd2da24ce2d7cae",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "$Φ$asmaNet: A Staged Spectral Token-Refinement Architecture for Fast Gravitational-Wave Signal-to-Noise Ratio Prediction",
-   "originalUrl": "https://arxiv.org/abs/2611.05309v1",
-   "originalLanguage": "en",
-   "originalDescription": "Quantifying selection effects in gravitational-wave population studies requires millions of costly signal-to-noise ratio (SNR) calculations. We present $Φ$asmaNet, a compact neural architecture for structured tabular regression, with staged spectral refinement as an explicit…",
-   "publishedAt": "2026-11-03T18:19:11.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "f6a95b66b096a39f"
-  },
-  {
-   "id": "f55560086070b9db",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "You don't need long context",
-   "originalUrl": "https://arxiv.org/abs/2611.05306v1",
-   "originalLanguage": "en",
-   "originalDescription": "Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice…",
-   "publishedAt": "2026-11-03T18:17:23.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "a4fa9c60ac6e56be"
-  },
-  {
-   "id": "6e892918bf5dce66",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
-   "originalUrl": "https://arxiv.org/abs/2611.05304v1",
-   "originalLanguage": "en",
-   "originalDescription": "Looped transformers are a parameter-efficient alternative to standard transformers for language modeling. By reapplying the same layers across multiple loop steps, recent looped language models match the performance of non-looped models several times their size. While this…",
-   "publishedAt": "2026-11-03T18:16:29.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "14b9291df40d1ad9"
-  },
-  {
-   "id": "49acf98068f7a42d",
-   "sourceId": "the-hacker-news",
-   "sourceName": "The Hacker News",
-   "originalTitle": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
-   "originalUrl": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
-   "originalLanguage": "en",
-   "originalDescription": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence…",
-   "publishedAt": "2026-11-03T18:16:19.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "cybersecurity"
-   ],
-   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMgLc61q6cTompbBY4lS-pqinmS1_3vYBYH7OVnnFTmOZfMk8R7houuqUmnMhUs-gTI-55HwieAaPuCI_zhc0XNw74PhfZVbCjWexPUUugMc1crPvP6uQsic7o3GDy5KXbYJE8LtXqdban8cTcfnn9AxRgOkR0w5_bQx-pHTR1A5-ttEHcpqGkgYajjSiA/s1600/chainstack.png",
-   "contentHash": "3f72ca7da0c08e71"
-  },
-  {
-   "id": "62ed14364f0e88ad",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "Indie games are missing launch dates because Steam is backed up",
-   "originalUrl": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
-   "originalLanguage": "en",
-   "originalDescription": "Many indie game developers have recently posted on social media about unexpectedly long approval wait times for their game submissions on Steam, with some of the approvals causing developers to miss their planned launch dates. For example, Studio Daimon, the team behind an…",
-   "publishedAt": "2026-11-03T18:14:50.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "4a66db7132a27c91"
-  },
-  {
-   "id": "637639281ffce06c",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "Quantum Advantage has Few Complexity Implications",
-   "originalUrl": "https://arxiv.org/abs/2611.05303v1",
-   "originalLanguage": "en",
-   "originalDescription": "We consider the complexity implications of proofs of quantumness and (quantum verifier) oblivious state preparation. We show that both of these objects can coexist with the easiness of nondeterministic computation. That is, we give evidence that proofs of quantumness can exist…",
-   "publishedAt": "2026-11-03T18:14:46.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "89918cafd0890518"
-  },
-  {
-   "id": "c53e9c5cc4b45777",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Universal Hardness From Masking Channels",
-   "originalUrl": "https://arxiv.org/abs/2611.05296v1",
-   "originalLanguage": "en",
-   "originalDescription": "We prove a broad learning-theoretic generalization of the celebrated hardcore lemma concerning the average-case complexity of computing a Boolean function (Impagliazzo, 1995). Our starting point is the observation that the classic notion of a hardcore measure, which reweights a…",
-   "publishedAt": "2026-11-03T18:08:38.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "9c4a4920ea2ac482"
-  },
-  {
-   "id": "d6cec4e5bf534675",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "GSBR: Geometric Support Behavior Regularization for Online RL",
-   "originalUrl": "https://arxiv.org/abs/2611.05295v1",
-   "originalLanguage": "en",
-   "originalDescription": "Regularizing online reinforcement learning (RL) toward a pretrained base policy can improve sample efficiency and learning stability, but regularization that is too restrictive limits how much the policy can improve. Base policies -- typically diffusion or flow-matching models…",
-   "publishedAt": "2026-11-03T18:08:32.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "1999523fcd71df7c"
-  },
-  {
-   "id": "988b823310babd11",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Personas Are Not People: Identity as State, Not Attribute",
-   "originalUrl": "https://arxiv.org/abs/2611.05292v1",
-   "originalLanguage": "en",
-   "originalDescription": "Synthetic populations, large sets of simulated people, are increasingly used in place of real people to pretest surveys, simulate users and communities, and evaluate AI systems. Each simulated person is defined by a persona, a written profile of fixed traits, demographics, and…",
-   "publishedAt": "2026-11-03T18:07:27.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "34dce9a5417b739c"
-  },
-  {
-   "id": "89e1fc57adfd2b37",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "False Reassurance in LLM Severe-Weather Guidance: A Replayable Evaluation Against Real NWS Alerts",
-   "originalUrl": "https://arxiv.org/abs/2611.05290v1",
-   "originalLanguage": "en",
-   "originalDescription": "An LLM assistant that cannot see official severe-weather alerts may tell users that conditions are calm while a warning is active. We call this false reassurance and measure it by replaying 117 frozen cases built from real U.S. National Weather Service (NWS) alerts (69 alert…",
-   "publishedAt": "2026-11-03T18:04:53.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "189369442fdcc8e1"
-  },
-  {
-   "id": "a11b2222750e3bf3",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Knowingly Wrong: Training LLMs Against Their Own Beliefs can Induce Misalignment",
-   "originalUrl": "https://arxiv.org/abs/2611.05287v1",
-   "originalLanguage": "en",
-   "originalDescription": "Fine-tuning a large language model (LLM) on harmful data in a narrow domain, such as bad medical advice, can make it broadly misaligned. How realistic this risk is remains unclear, since models are very rarely fine-tuned on explicitly harmful data in practice. In this work, we…",
-   "publishedAt": "2026-11-03T18:02:21.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "1a611921ad2aaaa1"
-  },
-  {
-   "id": "c968c83100b75a67",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-   "originalUrl": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-   "originalLanguage": "en",
-   "originalDescription": "Netflix's TV app is getting a new \"AI Discover\" tab where the company will show experimental, AI-powered features to help you find new shows and movies to watch. The first of these experiments surfaces content based around themes, like \"Something Light,\" \"Family Movie Night,\"…",
-   "publishedAt": "2026-11-03T18:00:00.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "7dedf90c2dd52df3"
-  },
-  {
-   "id": "f7538761740eda60",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "Amazon WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/workspaces-ai-agents-linux-windows-11",
-   "originalLanguage": "en",
-   "originalDescription": "WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops, in addition to Windows Server. You can run each AI agent on the operating system that its workflows and applications require. Your agents can then work in the same environments that your workforce…",
-   "publishedAt": "2026-11-03T18:00:00.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "cloud-infrastructure",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "ec81896243ab5fdb"
-  },
-  {
-   "id": "174d2be942e2d10b",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Beyond Accuracy: What Language-Subspace Interventions Capture, Remove, and Improve",
-   "originalUrl": "https://arxiv.org/abs/2611.05278v1",
-   "originalLanguage": "en",
-   "originalDescription": "Language-subspace interventions aim to improve multilingual reasoning by suppressing language-related components in mid-layer activations. Using MATH and MGSM across four open-weight LLMs, we ask three questions: do estimated language subspaces capture translation-associated…",
-   "publishedAt": "2026-11-03T17:58:52.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "a0585fc608d22dd2"
-  },
-  {
-   "id": "501d3fa5206c6a0a",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Conformal Prediction at Performative Equilibrium: The Price of Performativity",
-   "originalUrl": "https://arxiv.org/abs/2611.05277v1",
-   "originalLanguage": "en",
-   "originalDescription": "Conformal prediction gives finite-sample coverage when calibration and test points are exchangeable, but exchangeability can fail when deployment changes the data distribution. We study conformal prediction in performative settings, where the deployed predictor affects the data…",
-   "publishedAt": "2026-11-03T17:58:03.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "e8d8f1b31893e490"
-  },
-  {
-   "id": "e4dde44219712c4d",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "De Rham cohomological architectures for PINNs and PDEs with topological holes",
-   "originalUrl": "https://arxiv.org/abs/2611.05276v1",
-   "originalLanguage": "en",
-   "originalDescription": "We attempt to alleviate failure modes of classical physics-informed neural networks (PINNs) in scenarios of topological pathologies corresponding to punctures, holes, poles, and voids by introducing de Rham cohomological augmentations, or Hodge-de Rham PINNs. Vanilla PINNs…",
-   "publishedAt": "2026-11-03T17:57:15.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "3e46a73a5b7ff8c7"
-  },
-  {
-   "id": "b612308a5feae05b",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "The Geometry of Ignorance: Detecting Suppressed Knowledge in LLMs through Activation Fragmentation",
-   "originalUrl": "https://arxiv.org/abs/2611.05272v1",
-   "originalLanguage": "en",
-   "originalDescription": "Evaluating whether a large language model (LLM) genuinely knows a concept remains a fundamental problem, since behavioral metrics can be fooled by suppression: a model that refuses to answer may still harbor recoverable knowledge. The framework measures the geometric coherence…",
-   "publishedAt": "2026-11-03T17:55:57.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "e76a44657b501025"
-  },
-  {
-   "id": "8dd25abc5b113f71",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "iGC: Antibody Optimization via Reinforcement Learning over a Learned Somatic Hypermutation Prior",
-   "originalUrl": "https://arxiv.org/abs/2611.05270v1",
-   "originalLanguage": "en",
-   "originalDescription": "Antibody affinity maturation is a natural optimization process in which B cells acquire mutations through somatic hypermutation (SHM), undergo selection for improved antigen binding, and iteratively evolve toward higher affinity. Computationally modeling this process requires…",
-   "publishedAt": "2026-11-03T17:55:25.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "67a6938160d555db"
-  },
-  {
-   "id": "f395370b6033a888",
-   "sourceId": "ars-technica-ai",
-   "sourceName": "Ars Technica AI",
-   "originalTitle": "Google will let schools skip AI tools, but they have to give up search, too",
-   "originalUrl": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
-   "originalLanguage": "en",
-   "originalDescription": "Google will offer schools AI tools that purportedly don't give away the answers.",
-   "publishedAt": "2026-11-03T17:54:43.000Z",
-   "discoveredAt": "2026-11-03T23:26:34.535Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-grooves-1152x648.jpg",
-   "contentHash": "5f5f73a8bc6e6715"
-  },
-  {
-   "id": "d0097585c324320d",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Stabilizing On-Policy Targeted Guidance in Agentic Reinforcement Learning",
-   "originalUrl": "https://arxiv.org/abs/2611.05266v1",
-   "originalLanguage": "en",
-   "originalDescription": "Naive on-policy RL is often bottlenecked by the capabilities of the base model --- insufficient coverage can result in an inability to learn from certain rewards. At the same time, rewards in modern post-training systems often come from rich textual sources, e.g. judge models…",
-   "publishedAt": "2026-11-03T17:54:33.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "3791fd4b48925d74"
-  },
-  {
-   "id": "90912089f5f304ba",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Gaussian Partitioning for Reliable Learning of Multi-Index Models",
-   "originalUrl": "https://arxiv.org/abs/2611.05264v1",
-   "originalLanguage": "en",
-   "originalDescription": "We introduce Gaussian partitioning, an algorithmic primitive for distributions smooth with respect to a Gaussian. It partitions space into polyhedral regions so that almost all mass lies in thin strips restricting a few orthogonal directions. Within each strip, the conditional…",
-   "publishedAt": "2026-11-03T17:52:55.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "e4fb38ae5771424c"
-  },
-  {
-   "id": "5cb22037cedb16fd",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "JHiMA-WebRL: A Joint Hierarchical Multi-Agent Reinforcement Learning Framework for Long-Horizon Web Tasks",
-   "originalUrl": "https://arxiv.org/abs/2611.05263v1",
-   "originalLanguage": "en",
-   "originalDescription": "Multimodal web agents have shown promising capabilities for interacting with websites through graphical user interfaces (GUIs), yet realistic web tasks often require long-horizon, multi-step planning that remains challenging for monolithic policies. Such agents must jointly…",
-   "publishedAt": "2026-11-03T17:49:14.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "d8fa6f3fe7116ad0"
-  },
-  {
-   "id": "fd73cfdf6ecd214e",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "NovoCRF: Globally Normalized De Novo Peptide Sequencing on a Prefix-Mass Lattice",
-   "originalUrl": "https://arxiv.org/abs/2611.05260v1",
-   "originalLanguage": "en",
-   "originalDescription": "De novo peptide sequencing has moved from dynamic programming over hand-designed or generative scores to large transformers that learn the task end to end. We present NovoCRF, a conditional random field (CRF) whose states are prefix masses, so that its paths are exactly the…",
-   "publishedAt": "2026-11-03T17:48:42.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "c4e56caafcb8b88d"
-  },
-  {
-   "id": "455d6d35dc422585",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Going Deeper With Memories",
-   "originalUrl": "https://arxiv.org/abs/2611.05255v1",
-   "originalLanguage": "en",
-   "originalDescription": "Byte level language models avoid tokenizer dependence and provide universal coverage, but processing every byte at full resolution is expensive. We introduce DeepMem, a causal multiscale architecture that separates semantic compression from exact byte preservation. A learned…",
-   "publishedAt": "2026-11-03T17:44:07.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "13c43b7a6c8da50e"
-  },
-  {
-   "id": "7534c98b8e40a567",
-   "sourceId": "arxiv-cs-cl",
-   "sourceName": "arXiv cs.CL",
-   "originalTitle": "ARLoop: Fully-Open Pre-trained Looped Transformers with Attention Residuals",
-   "originalUrl": "https://arxiv.org/abs/2611.05234v1",
-   "originalLanguage": "en",
-   "originalDescription": "Looped transformers increase effective depth by repeatedly applying a shared set of transformer layers, offering a parameter-efficient way to scale computation. However, standard residual connections aggregate information across recurrent depth into a single stream, providing…",
-   "publishedAt": "2026-11-03T17:18:33.000Z",
-   "discoveredAt": "2026-11-04T06:31:02.904Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "b10ce0382c780efb"
-  },
-  {
-   "id": "8d86676710497099",
-   "sourceId": "huggingface-blog",
-   "sourceName": "Hugging Face Blog",
-   "originalTitle": "StateBench: Testing how language models track state changes over long documents",
-   "originalUrl": "https://huggingface.co/blog/allenai/statebench",
-   "originalLanguage": "en",
-   "originalDescription": null,
-   "publishedAt": "2026-11-03T17:15:21.000Z",
-   "discoveredAt": "2026-11-03T17:52:39.042Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "2365ffc11845bc5c"
   }
  ]
 }
