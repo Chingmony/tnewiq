@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "99d239565756098b",
+ "contentHash": "81c8f63b6bccb881",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-12T03:59:10.885Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+   "summary": "Cybersecurity researchers have disclosed a campaign where the agentic penetration testing platform AntiFox was used to steal AWS credentials and pivot laterally into compromised environments. Alibaba Cloud systems hosting AntiFox interfaces were linked to malicious actions observed in recent intrusions.",
+   "impact": "This activity could demonstrate how emerging AI-driven pentesting tools might be repurposed by malicious actors to compromise cloud environments and access sensitive production secrets. Security teams may need to monitor and restrict unauthorized hosting or access to such platforms.",
+   "keyPoints": [
+    "AntiFox is an emerging agentic penetration testing platform.",
+    "The platform was linked to attacks that stole AWS credentials.",
+    "Intrusions involved lateral pivoting into compromised environments.",
+    "Alibaba Cloud systems hosted AntiFox interfaces associated with malicious actions."
+   ]
+  },
+  "km": {
+   "title": "វេទិកាធ្វើតេស្តជ្រៀតចូល AntiFox AI ជាប់ពាក់ព័ន្ធនឹងការវាយប្រហារដែលចូលទៅកាន់សម្ងាត់ផលិតកម្ម AWS",
+   "summary": "អ្នកស្រាវជ្រាវផ្នែកសន្តិសុខស៊ីនធឺណិតបានបង្ហាញលម្អិតអំពីយុទ្ធនាការមួយដែលវេទិកាធ្វើតេស្តជ្រៀតចូល AntiFox ត្រូវបានប្រើប្រាស់ដើម្បីលួចព័ត៌មានសម្ងាត់ AWS និងផ្លាស់ទីទៅកាន់បរិយាកាសដែលរងការខូចខាត។ ប្រព័ន្ធ Alibaba Cloud ដែលដាក់ឱ្យដំណើរការចំណុចប្រទាក់ AntiFox ត្រូវបានផ្សារភ្ជាប់ទៅនឹងសកម្មភាពមានគ្រោះថ្នាក់។",
+   "impact": "បញ្ហានេះអាចបង្ហាញពីរបៀបដែលឧបករណ៍ធ្វើតេស្តជ្រៀតចូល AI អាចត្រូវបានប្រើប្រាស់ខុសដោយក្រុមអាក្រក់ដើម្បីប៉ះពាល់ដល់បរិយាកាសពពក។ ក្រុមសន្តិសុខអាចចាំបាច់ត្រូវត្រួតពិនិត្យនិងកម្រិតការបង្ហោះវេទិកាទាំងនេះ។",
+   "keyPoints": [
+    "AntiFox គឺជាវេទិកាធ្វើតេស្តជ្រៀតចូលថ្មីមួយ។",
+    "វេទិកានេះត្រូវបានភ្ជាប់ទៅនឹងការវាយប្រហារដែលលួចសម្ងាត់ AWS។",
+    "មានការផ្លាស់ទីបណ្តោយទៅក្នុងបរិយាកាសដែលរងការខូចខាត។",
+    "ប្រព័ន្ធ Alibaba Cloud បានបង្ហោះចំណុចប្រទាក់ AntiFox ដែលពាក់ព័ន្ធនឹងសកម្មភាពអាក្រក់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AntiFox AI 渗透测试平台与访问 AWS 生产机密的攻击相关联",
+   "summary": "网络安全研究人员披露了一场攻击活动的详情，其中一个名为 AntiFox 的新兴智能渗透测试平台被用来窃取 AWS 凭证并在受损环境中进行横向移动。托管 AntiFox 接口的阿里云系统与近期观察到的恶意行为相关联。",
+   "impact": "这可能表明新兴的基于 AI 的渗透测试工具可能会被恶意行为者重新利用，从而破坏云环境并访问敏感的生产机密。安全团队可能需要监控并限制对此类平台的未经授权托管或访问。",
+   "keyPoints": [
+    "AntiFox 是一个新兴的智能渗透测试平台。",
+    "该平台与窃取 AWS 凭证的攻击相关联。",
+    "入侵事件涉及向受损环境进行横向移动。",
+    "托管 AntiFox 接口的阿里云系统与恶意行动有关联。"
+   ]
+  },
+  "ko": {
+   "title": "AntiFox AI 펜테스팅 플랫폼, AWS 프로덕션 시크릿에 접근한 공격과 연관",
+   "summary": "사이버 보안 연구원들은 신흥 에이전트 기반 펜테스팅 플랫폼인 AntiFox가 AWS 자격 증명을 탈취하고 손상된 환경으로 측면 이동하는 데 사용된 캠페인의 세부 정보를 공개했습니다. AntiFox 인터페이스를 호스팅하는 알리바바 클라우드 시스템이 악성 행위와 연관된 것으로 확인되었습니다.",
+   "impact": "이러한 활동은 신흥 AI 기반 펜테스팅 도구가 악의적인 행위자에 의해 악용되어 클라우드 환경을 손상시키고 민감한 프로덕션 시크릿에 접근할 수 있음을 보여줄 수 있습니다. 보안 팀은 이러한 플랫폼의 무단 호스팅이나 접근을 모니터링하고 제한해야 할 수 있습니다.",
+   "keyPoints": [
+    "AntiFox는 신흥 에이전트 기반 펜테스팅 플랫폼입니다.",
+    "이 플랫폼은 AWS 자격 증명을 탈취한 공격과 연관되어 있습니다.",
+    "침해 사고에는 손상된 환경으로의 측면 이동이 포함되었습니다.",
+    "AntiFox 인터페이스를 호스팅하는 알리바바 클라우드 시스템이 악성 행위와 연결되었습니다."
+   ]
+  }
+ }
+}

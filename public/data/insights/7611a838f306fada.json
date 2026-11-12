@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7611a838f306fada",
+ "contentHash": "667844b8d671dac8",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-12T03:58:50.762Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "UAEF: A framework-agnostic system for closed-loop evaluation of AI agents",
+   "summary": "AWS introduced the Universal Agent Evaluation Framework (UAEF), a framework-agnostic system designed for the closed-loop evaluation of AI agents. UAEF uses adapters to normalize execution traces from different frameworks into a common format, evaluates them using 36 built-in metrics across 7 dimensions, and stores results in Amazon DynamoDB and Amazon S3. The system helps development teams compare agent versions against baselines, track quality regressions, and generate actionable insights for future iterations.",
+   "impact": "Developers and security teams could use UAEF to maintain consistent evaluation metrics when switching between different agent frameworks, reducing the need to rebuild scoring logic. Additionally, built-in PII screening helps protect sensitive user data like email addresses and credit card numbers before it is stored in system logs.",
+   "keyPoints": [
+    "UAEF is a framework-agnostic evaluation system that supports frameworks like LangGraph, LangChain, Strands Agents, and Amazon Bedrock AgentCore.",
+    "The framework normalizes execution traces into a canonical format using adapters and screens them for personally identifiable information (PII) before storage.",
+    "It includes 36 built-in metrics spanning 7 dimensions, including tool calling, response quality, and responsible AI.",
+    "Evaluation results and experiment metadata are stored in Amazon DynamoDB and Amazon S3 to enable baseline comparisons and regression detection."
+   ]
+  },
+  "km": {
+   "title": "UAEF៖ ប្រព័ន្ធមិនផ្អែកលើក្របខ័ណ្ឌសម្រាប់ការវាយតម្លៃរង្វិលជុំបិទនៃភ្នាក់ងារ AI",
+   "summary": "AWS បានណែនាំក្របខ័ណ្ឌវាយតម្លៃភ្នាក់ងារជាសកល ឬ Universal Agent Evaluation Framework (UAEF) ដែលជាប្រព័ន្ធមិនផ្អែកលើក្របខ័ណ្ឌជាក់លាក់សម្រាប់វាយតម្លៃភ្នាក់ងារ AI ។ UAEF ប្រើប្រាស់កម្មវិធីបម្លែងដើម្បីបម្លែងដានដំណើរការពីក្របខ័ណ្ឌផ្សេងៗទៅជាទម្រង់ទូទៅ វាយតម្លៃពួកវាដោយផ្អែកលើរង្វាស់ចំនួន 36 និងរក្សាទុកលទ្ធផលនៅក្នុង Amazon DynamoDB និង Amazon S3 ។ ប្រព័ន្ធនេះជួយក្រុមអភិវឌ្ឍន៍ប្រៀបធៀបកំណែភ្នាក់ងារ និងតាមដានការថយចុះគុណភាព។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍និងសុវត្ថិភាពអាចប្រើប្រាស់ UAEF ដើម្បីរក្សារង្វាស់វាយតម្លៃឱ្យមានភាពស៊ីសង្វាក់គ្នាពេលប្តូរក្របខ័ណ្ឌ និងការពារទិន្នន័យរសើបតាមរយៈការត្រួតពិនិត្យព័ត៌មានសម្គាល់ផ្ទាល់ខ្លួន (PII) ។",
+   "keyPoints": [
+    "UAEF គឺជាប្រព័ន្ធវាយតម្លៃដែលមិនផ្អែកលើក្របខ័ណ្ឌជាក់លាក់សម្រាប់ភ្នាក់ងារ AI ។",
+    "វាប្រើប្រាស់កម្មវិធីបម្លែងដើម្បីបង្កើតដានស្តង់ដារ និងពិនិត្យរកព័ត៌មានសម្គាល់ផ្ទាល់ខ្លួន (PII) មុនពេលរក្សាទុក។",
+    "វាមានរង្វាស់ភ្ជាប់មកជាមួយចំនួន 36 ក្នុងវិមាត្រចំនួន 7 ។",
+    "លទ្ធផលត្រូវបានរក្សាទុកក្នុង Amazon DynamoDB និង Amazon S3 សម្រាប់ការប្រៀបធៀប។"
+   ]
+  },
+  "zh-CN": {
+   "title": "UAEF：一个用于AI代理闭环评估的框架无关系统",
+   "summary": "AWS 推出了通用代理评估框架（UAEF），这是一个用于 AI 代理闭环评估的框架无关系统。UAEF 使用适配器将来自不同框架的执行追踪转换为通用格式，使用跨越 7 个维度的 36 项内置指标对其进行评分，并将结果存储在 Amazon DynamoDB 和 Amazon S3 中。该系统可帮助开发团队跨版本比较代理、检测性能回归并生成改进报告。",
+   "impact": "开发人员和安全团队可以利用 UAEF 在切换不同代理框架时保持评估指标的一致性，从而减少重建评分逻辑的工作量。此外，内置的 PII 筛查功能有助于在数据存储前保护电子邮件和信用卡号等敏感信息。",
+   "keyPoints": [
+    "UAEF 是一个用于 AI 代理的框架无关评估系统，支持多种流行框架。",
+    "系统通过适配器将代理的原生执行归一化为单一规范追踪，并在存储前筛查个人身份信息（PII）。",
+    "UAEF 包含涵盖 7 个维度的 36 项内置指标，可评估工具调用、响应质量和负责任 AI 等方面。",
+    "运行结果存储在 Amazon DynamoDB 和 Amazon S3 中，以便团队将新版本与基准进行比较并生成报告。"
+   ]
+  },
+  "ko": {
+   "title": "UAEF: AI 에이전트의 폐쇄 루프 평가를 위한 프레임워크 독립형 시스템",
+   "summary": "AWS는 AI 에이전트의 폐쇄 루프 평가를 위해 설계된 프레임워크 독립형 시스템인 범용 에이전트 평가 프레임워크(UAEF)를 발표했습니다. UAEF는 어댑터를 사용하여 다양한 프레임워크의 실행 추적을 공통 형식으로 정규화하고, 7개 차원에 걸친 36개의 내장 지표로 점수를 매기며, 결과를 Amazon DynamoDB와 Amazon S3에 저장합니다. 이 시스템은 개발 팀이 에이전트 버전을 기준선과 비교하고 성능 저하를 감지하며 향후 반복을 위한 통찰력을 생성하도록 지원합니다.",
+   "impact": "개발자와 보안 팀은 UAEF를 사용하여 다양한 에이전트 프레임워크 간 전환 시 일관된 평가 지표를 유지함으로써 채점 로직을 다시 구축할 필요성을 줄일 수 있습니다. 또한 내장된 PII(개인식별정보) 선별 기능을 통해 민감한 사용자 데이터를 보호할 수 있습니다.",
+   "keyPoints": [
+    "UAEF는 다양한 런타임과 프레임워크를 지원하는 AI 에이전트용 프레임워크 독립형 평가 시스템입니다.",
+    "어댑터를 통해 네이티브 에이전트 실행을 표준화된 추적으로 변환하며 저장 전에 PII를 검사합니다.",
+    "도구 호출, 응답 품질 및 책임감 있는 AI를 포함한 7개 차원의 36가지 내장 지표를 제공합니다.",
+    "평가 결과는 Amazon DynamoDB와 Amazon S3에 실험 메타데이터 및 전체 결과로 저장되어 버전 비교를 지원합니다."
+   ]
+  }
+ }
+}

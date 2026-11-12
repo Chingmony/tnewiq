@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3058c03ad6f30a9c",
+ "contentHash": "ec6969fa6eaba923",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-12T03:57:34.574Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon EKS Provisioned Control Plane now offers a 24 GB etcd database on 4XL and 8XL tiers",
+   "summary": "Amazon Elastic Kubernetes Service now provides a 24 GB etcd database for 4XL and 8XL Provisioned Control Plane clusters, an increase from the previous 16 GB limit. This 50% capacity increase allows clusters to store more Kubernetes objects such as pods, jobs, and custom resources. The update is available on clusters running EKS version 1.34 or later in all commercial AWS Regions where Provisioned Control Plane is supported.",
+   "impact": "This expansion may help developers and technology users run larger workloads like AI/ML training, batch processing, and CI/CD pipelines without hitting database capacity limits. Since a full etcd database prevents adding or changing cluster objects, the additional headroom could prevent operational disruptions for scaling applications.",
+   "keyPoints": [
+    "etcd database size increased to 24 GB from 16 GB for 4XL and 8XL Provisioned Control Plane clusters.",
+    "Applicable to clusters running EKS version 1.34 or later.",
+    "Existing clusters on 4XL and 8XL tiers receive the upgrade automatically with no action required.",
+    "Available in all commercial AWS Regions offering Provisioned Control Plane."
+   ]
+  },
+  "km": {
+   "title": "Amazon EKS Provisioned Control Plane ឥឡូវនេះផ្តល់ជូនមូលដ្ឋានទិន្នន័យ etcd ទំហំ 24 GB លើកម្រិត 4XL និង 8XL",
+   "summary": "Amazon Elastic Kubernetes Service ឥឡូវនេះផ្តល់ជូនមូលដ្ឋានទិន្នន័យ etcd ទំហំ 24 GB ធំជាងមុន ដែលកើនឡើងពី 16 GB សម្រាប់ក្ល័ስተរ Provisioned Control Plane ប្រភេទ 4XL និង 8XL។ etcd គឺជាកន្លែងរក្សាទុកគន្លឹះតម្លៃនៅក្នុង Kubernetes control plane ដែលផ្ទុកស្ថានភាពក្ល័ስተររបស់អ្នក។ ការបង្កើនសមត្ថភាពនេះអនុញ្ញាតឱ្យដំណើរការក្ល័ስተរធំជាងមុនដែលមាន pods កិច្ចការ និងធនធានផ្ទាល់ខ្លួនកាន់តែច្រើន។",
+   "impact": "ការកើនឡើងទំហំនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដំណើរការបន្ទុកការងារធំៗដោយមិនជួបប្រទះការពេញមូលដ្ឋានទិន្នន័យ។ វាអាចការពារការរអាក់រអួលពេលបន្ថែមឬកែប្រែវត្ថុនៅក្នុងក្ល័ስተរសម្រាប់កម្មវិធីដែលមានការរីកចម្រើនធំ។",
+   "keyPoints": [
+    "ទំហំមូលដ្ឋានទិន្នន័យ etcd បានកើនដល់ 24 GB ពី 16 GB សម្រាប់កម្រិត 4XL និង 8XL ។",
+    "អាចប្រើប្រាស់បាននៅលើក្ល័ስተរដែលដំណើរការ EKS កំណែ 1.34 ឬថ្មីជាងនេះ។",
+    "ក្ល័ስተរដែលមានស្រាប់នៅលើកម្រិត 4XL និង 8XL នឹងទទួលបានទំហំថ្មីនេះដោយស្វ័យប្រវត្តិ។",
+    "មាននៅក្នុងតំបន់ពាណិជ្ជកម្ម AWS ទាំងអស់ដែលគាំទ្រ Provisioned Control Plane ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon EKS Provisioned Control Plane 现在在 4XL 和 8XL 层级上提供 24 GB etcd 数据库",
+   "summary": "Amazon Elastic Kubernetes Service 为 4XL 和 8XL Provisioned Control Plane 集群推出了更大的 24 GB etcd 数据库，此前为 16 GB。etcd 是 Kubernetes 控制平面中保存集群状态的键值存储。容量增加 50% 后，用户可以运行包含更多 pod、任务和自定义资源的大型集群。",
+   "impact": "这可能会帮助开发者和技术用户运行更大规模的工作负载（如 AI/ML 训练和 CI/CD 管道）而不会达到数据库容量上限。由于 etcd 数据库满时无法添加或更改集群对象，额外的空间能够防止扩容时出现中断。",
+   "keyPoints": [
+    "4XL 和 8XL Provisioned Control Plane 集群的 etcd 数据库从 16 GB 增加到 24 GB。",
+    "适用于运行 EKS 1.34 或更高版本的集群。",
+    "运行这些版本的现有 4XL 和 8XL 集群将自动获得更大的数据库，无需手动操作。",
+    "在所有提供 Provisioned Control Plane 的 AWS 商业区域可用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon EKS Provisioned Control Plane, 이제 4XL 및 8XL 티어에서 24 GB etcd 데이터베이스 제공",
+   "summary": "Amazon Elastic Kubernetes Service는 4XL 및 8XL Provisioned Control Plane 클러스터를 위해 기존 16 GB에서 24 GB로 더 커진 etcd 데이터베이스를 제공합니다. etcd는 클러스터 상태를 보유하는 Kubernetes 제어 평면의 키-값 저장소입니다. 용량이 50% 증가함에 따라 더 많은 포드, 작업 및 커스텀 리소스를 가진 대규모 클러스터를 실행할 수 있습니다.",
+   "impact": "이러한 용량 확장은 개발자와 기술 사용자가 데이터베이스 한계에 부딪히지 않고 대규모 워크로드를 실행하는 데 도움을 줄 수 있습니다. etcd 데이터베이스가 가득 차면 클러스터 개체를 추가하거나 변경할 수 없으므로, 추가적인 여유 공간이 운영 중단을 방지할 수 있습니다.",
+   "keyPoints": [
+    "4XL 및 8XL Provisioned Control Plane 클러스터의 etcd 데이터베이스가 16 GB에서 24 GB로 증가했습니다.",
+    "EKS 버전 1.34 이상을 실행하는 클러스터에 적용됩니다.",
+    "해당 버전을 실행 중인 기존 4XL 및 8XL 클러스터는 별도의 조치 없이 자동으로 업그레이드됩니다.",
+    "Provisioned Control Plane을 지원하는 모든 상용 AWS 리전에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

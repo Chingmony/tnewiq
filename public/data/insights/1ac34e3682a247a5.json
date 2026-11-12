@@ -1,0 +1,48 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1ac34e3682a247a5",
+ "contentHash": "7591f1070f5db56e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-12T03:59:00.520Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Give C language superpowers in 15 minutes",
+   "summary": "An article from OpenSource China discusses how to add modern features like defer, try/catch, and async to the C language using C6. The text illustrates resource management using a load function example with defer for closing files and freeing memory buffers. This approach aims to enhance standard C programming capabilities.",
+   "impact": "Developers working with C could use these features to write cleaner resource management code and handle errors more easily. It may change how developers approach modern paradigms within the C ecosystem.",
+   "keyPoints": [
+    "C6 introduces features like defer, try/catch, and async to the C language.",
+    "An example demonstrates using defer to handle file closing and memory freeing automatically.",
+    "The approach helps simplify business logic and resource handling in C code."
+   ]
+  },
+  "km": {
+   "title": "ផ្តល់ថាមពលអស្ចារ្យដល់ភាសា C ក្នុងរយៈពេល ១៥ នាទី",
+   "summary": "អត្ថបទព័ត៌មានពី OpenSource China បានពិភាក្សាអំពីរបៀបបន្ថែមមុខងារទំនើបៗដូចជា defer, try/catch និង async ទៅក្នុងភាសា C ដោយប្រើប្រាស់ C6។ អត្ថបទនេះបង្ហាញពីការគ្រប់គ្រងធនធានដោយប្រើប្រាស់មុខងារ load ជាមួយនឹង defer សម្រាប់ការបិទឯកសារ និងការលោះអង្គចងចាំ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ដែលប្រើប្រាស់ភាសា C អាចប្រើប្រាស់មុខងារទាំងនេះដើម្បីសរសេរកូដគ្រប់គ្រងធនធានឱ្យកាន់តែមានរបៀបរៀបរយ និងដោះស្រាយកំហុសបានកាន់តែងាយស្រួល។",
+   "keyPoints": [
+    "C6 នាំយកមុខងារដូចជា defer, try/catch និង async មកកាន់ភាសា C។",
+    "ឧទាហរណ៍បង្ហាញពីការប្រើប្រាស់ defer ដើម្បីបិទឯកសារ និងលោះអង្គចងចាំដោយស្វ័យប្រវត្តិ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "15 分钟让你有 C 语言超能力！！！",
+   "summary": "开源中国资讯介绍了如何使用 C6 为 C 语言装上 defer、try/catch、async 等功能。文中通过一个 load 函数示例，展示了利用 defer 来关闭文件和释放内存缓冲区的业务逻辑处理方式。这些扩展旨在为传统的 C 语言带来更现代的特性。",
+   "impact": "开发者可以利用这些特性编写更简洁的资源管理代码，并更轻松地处理错误。这可能会改变 C 语言开发者在编写系统和业务逻辑时的代码组织方式。",
+   "keyPoints": [
+    "使用 C6 可以为 C 语言增加 defer、try/catch 和 async 等现代特性。",
+    "示例代码展示了通过 defer 自动关闭文件和释放内存。",
+    "该方法有助于简化 C 语言中的资源管理与业务逻辑。"
+   ]
+  },
+  "ko": {
+   "title": "15분 만에 C 언어 초능력 갖기",
+   "summary": "오픈소스 중국 뉴스에서는 C6를 사용하여 C 언어에 defer, try/catch, async 등의 기능을 추가하는 방법을 다룹니다. 제시된 예제 코드는 defer를 사용하여 파일을 닫고 메모리 버퍼를 해제하는 자원 관리 방식을 보여줍니다.",
+   "impact": "개발자는 이러한 기능을 통해 더 깔끔한 자원 관리 코드를 작성하고 오류를 더 쉽게 처리할 수 있습니다. C 언어 생태계에서 현대적인 패러다임을 다루는 방식을 변화시킬 수 있습니다.",
+   "keyPoints": [
+    "C6를 통해 C 언어에 defer, try/catch, async 기능을 장착할 수 있습니다.",
+    "예제 코드는 defer를 이용한 파일 닫기와 메모리 해제 로직을 보여줍니다."
+   ]
+  }
+ }
+}

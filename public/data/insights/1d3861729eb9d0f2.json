@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1d3861729eb9d0f2",
+ "contentHash": "d16f2601c04411fe",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-12T03:55:34.659Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Detecting and recovering from silent data corruption on Amazon SageMaker HyperPod",
+   "summary": "Silent data corruption (SDC) occurs when hardware like GPUs returns wrong values without raising errors, which can ruin distributed machine learning training jobs. Because standard checks like memory ECC and health monitors do not catch SDC in the compute path, three new checks were added to a PyTorch DistributedDataParallel training loop to detect, localize, and replace faulty nodes using Amazon SageMaker HyperPod. These checks include a non-finite gradient check, a ring replay audit for finite wrong values, and a weight fingerprint comparison.",
+   "impact": "Developers and security teams working on large-scale distributed training clusters may be able to use these methods to automatically detect untracked hardware faults and replace corrupt nodes, reducing wasted compute time.",
+   "keyPoints": [
+    "Silent data corruption causes unflagged wrong calculations in hardware that propagate into model weights.",
+    "Meta previously attributed several unexpected pre-training job interruptions to SDC at scale.",
+    "A solution adds non-finite gradient checks, ring replay audits, and weight fingerprint comparisons to PyTorch training loops.",
+    "Amazon SageMaker HyperPod integrates with the training checks to automatically swap out bad hardware and contain corruption."
+   ]
+  },
+  "km": {
+   "title": "ការរកុះឃើញ និងការសង្គ្រោះពីការខូចខាតទិន្នន័យស្ងាត់នៅលើ Amazon SageMaker HyperPod",
+   "summary": "ការខូចខាតទិន្នន័យស្ងាត់ (SDC) កើតឡើងនៅពេលដែលផ្នែករឹងដូចជា GPU ផ្ដល់នូវតម្លៃខុស ប៉ុន្តែមិនបង្ហាញកំហុសណាមួយឡើយ ដែលអាចប៉ះពាល់ដល់ដំណើរការបណ្តុះបណ្តាលម៉ាស៊ីនរៀនចែកចាយ។ ដើម្បីដោះស្រាយបញ្ហានេះ ការត្រួតពិនិត្យចំនួនបីត្រូវបានបន្ថែមទៅក្នុងរង្វិលជុំបណ្តុះបណ្តាល PyTorch DistributedDataParallel ដើម្បីរកឱ្យឃើញ កំណត់ទីតាំង និងជំនួសโหนดដែលមានបញ្ហាដោយប្រើប្រាស់ Amazon SageMaker HyperPod។ ការត្រួតពិនិត្យទាំងនោះរួមមាន ការពិនិត្យអត្រាលំនឹងមិនមែនកំណត់ ការសវនកម្មការចាក់ឡើងវិញ និងការប្រៀបធៀបស្នាមម្រាមដៃទម្ងន់។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងសុវត្ថិភាពអាចប្រើប្រាស់វិធីសាស្ត្រទាំងនេះដើម្បីរកឱ្យឃើញដោយស្វ័យប្រវត្តិនូវបញ្ហាផ្នែករឹងដែលលាក់កំបាំង និងជំនួសโหนดដែលខូច ដើម្បីកាត់បន្ថយការខាតបង់ថាមពលកុំព្យូទ័រ។",
+   "keyPoints": [
+    "ការខូចខាតទិន្នន័យស្ងាត់បង្កើតការគណនាខុសដែលគ្មានការជូនដំណឹងនៅក្នុងផ្នែករឹង។",
+    "Meta ធ្លាប់បានកំណត់ការរអាក់រអួលនៃការងារមុនពេលបណ្តុះបណ្តាលចំនួនជាក់លាក់ចំពោះ SDC នៅលើមាត្រដ្ឋានធំ។",
+    "ដំណោះស្រាយនេះបន្ថែមការត្រួតពិនិត្យអត្រាលំនឹង សវនកម្មការចាក់ឡើងវិញ និងការប្រៀបធៀបស្នាមម្រាមដៃទៅក្នុងរង្វិលជុំបណ្តុះបណ្តាល PyTorch។",
+    "Amazon SageMaker HyperPod សម្របសម្រួលជាមួយការត្រួតពិនិត្យទាំងនេះដើម្បីដូរចេញនូវផ្នែករឹងខូចដោយស្វ័យប្រវត្តិ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在 Amazon SageMaker HyperPod 上检测并恢复静默数据损坏",
+   "summary": "当硬件（如 GPU）返回错误但看似合理的数值且不报错时，就会发生静默数据损坏（SDC），这会破坏分布式训练任务。由于内存 ECC 和健康监视器等常规检查无法捕获计算路径中的 SDC，因此在 PyTorch DistributedDataParallel 训练循环中添加了三项检查，以利用 Amazon SageMaker HyperPod 检测、定位并替换故障节点。这些检查包括非有限梯度检查、用于有限错误值的环回放审计以及权重指纹比较。",
+   "impact": "从事大规模分布式训练集群的开发人员和安全团队可以利用这些方法自动检测未跟踪的硬件故障并替换受损节点，从而减少计算时间的浪费。",
+   "keyPoints": [
+    "静默数据损坏会导致硬件中出现未发出警报的错误计算，并传播到模型权重中。",
+    "Meta 先前曾将大规模下的部分意外作业中断归因于 SDC。",
+    "该解决方案向 PyTorch 训练循环添加了非有限梯度检查、环回放审计和权重指纹比较。",
+    "Amazon SageMaker HyperPod 与训练检查相集成，可自动更换故障硬件并控制损坏。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon SageMaker HyperPod에서의 침묵 데이터 손상 감지 및 복구",
+   "summary": "GPU와 같은 하드웨어가 오류를 발생시키지 않고 잘못되었지만 그럴듯한 숫자를 반환할 때 침묵 데이터 손상(SDC)이 발생하며, 이는 분산 학습 작업에 악영향을 미칠 수 있습니다. 메모리 ECC 및 상태 모니터와 같은 표준 검사로는 연산 경로 내의 SDC를 포착할 수 없기 때문에, PyTorch DistributedDataParallel 학습 루프에 세 가지 검사를 추가하여 Amazon SageMaker HyperPod를 통해 결함이 있는 노드를 감지, 지역화 및 교체하도록 했습니다. 이러한 검사에는 유한하지 않은 그래디언트 검사, 유한한 잘못된 값에 대한 링 리플레이 감사, 가중치 지문 비교가 포함됩니다.",
+   "impact": "대규모 분산 학습 클러스터를 다루는 개발자와 보안 팀은 이러한 방법을 사용하여 추적되지 않은 하드웨어 결함을 자동으로 감지하고 손상된 노드를 교체하여 연산 시간 낭비를 줄일 수 있습니다.",
+   "keyPoints": [
+    "침묵 데이터 손상은 모델 가중치로 전파되는 하드웨어 내의 경고 없는 잘못된 연산을 유발합니다.",
+    "Meta는 대규모 환경에서 발생한 예기치 않은 사전 학습 작업 중단 중 일부를 SDC 탓으로 돌린 바 있습니다.",
+    "이 솔루션은 PyTorch 학습 루프에 유한하지 않은 그래디언트 검사, 링 리플레이 감사 및 가중치 지문 비교를 추가합니다.",
+    "Amazon SageMaker HyperPod는 학습 검사와 연동하여 불량 하드웨어를 자동으로 교체하고 손상을 격리합니다."
+   ]
+  }
+ }
+}

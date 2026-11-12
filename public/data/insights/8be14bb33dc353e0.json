@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8be14bb33dc353e0",
+ "contentHash": "c6f749f808f62758",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-12T03:54:20.238Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Build autonomous AI agents with Amazon Bedrock and Spring AI",
+   "summary": "Amazon Bedrock and Spring AI help Java teams bridge the gap between AI prototypes and production by addressing scalability, governance, security, and operational needs. Spring AI brings AI capabilities to the JVM using familiar patterns, while Amazon Bedrock AgentCore provides production infrastructure including managed runtimes, memory, and code execution. A blog post walks developers through building a single-agent travel assistant and a multi-agent intelligent document processing system in Java.",
+   "impact": "Java developers and security teams could leverage these tools and architectural patterns to build and scale autonomous AI agents using existing enterprise infrastructure, CI/CD pipelines, and JVM expertise.",
+   "keyPoints": [
+    "Spring AI provides AI integration for the JVM through familiar patterns like auto-configuration and dependency injection.",
+    "Amazon Bedrock AgentCore offers a framework-agnostic and model-agnostic platform for building, deploying, and operating agents at scale.",
+    "True AI agents require planning, tool use, and memory to execute goal-directed multi-step tasks.",
+    "Prerequisites for the walkthrough include Java JDK 21, Spring Boot 4.1 with Spring AI 2.0, Maven, Node.js, Terraform, Docker, and AWS CLI."
+   ]
+  },
+  "km": {
+   "title": "បង្កើតភ្នាក់ងារ AI ស្វយ័តជាមួយ Amazon Bedrock និង Spring AI",
+   "summary": "Amazon Bedrock និង Spring AI ជួយឱ្យក្រុម Java យកឈ្នះលើបញ្ហាប្រឈមក្នុងការបង្កើតភ្នាក់ងារ AI ពីគំរូដើមទៅជាផលិតកម្ម។ Spring AI នាំយកសមត្ថភាព AI មកកាន់ JVM ខណៈពេលដែល Amazon Bedrock AgentCore ផ្តល់នូវហេដ្ឋារចនាសម្ព័ន្ធផលិតកម្ម។ អត្ថបទនេះបង្ហាញពីរបៀបសាងសង់ប្រព័ន្ធជំនួយការធ្វើដំណើរ និងប្រព័ន្ធដំណើរការឯកសារឆ្លាតវៃដោយប្រើ Java។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ Java និងក្រុមសន្តិសុខអាចប្រើប្រាស់ឧបករណ៍ទាំងនេះ ដើម្បីកសាង និងពង្រីកភ្នាក់ងារ AI ស្វយ័តដោយផ្អែកលើហេដ្ឋារចនាសម្ព័ន្ធសហគ្រាសដែលមានស្រាប់។",
+   "keyPoints": [
+    "Spring AI នាំមកនូវសមត្ថភាព AI តាមរយៈគំរូ Spring ស្គាល់ទូទៅ។",
+    "Amazon Bedrock AgentCore ផ្តល់នូវវេទិកាគ្រប់គ្រងភ្នាក់ងារក្នុងកម្រិតខ្នាតធំ។",
+    "ភ្នាក់ងារ AI តម្រូវឱ្យមានការរៀបចំផែនការ ការប្រើប្រាស់ឧបករណ៍ និងអង្គចងចាំ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 Amazon Bedrock 和 Spring AI 构建自主 AI 代理",
+   "summary": "Amazon Bedrock 和 Spring AI 帮助 Java 团队解决将 AI 原型转化为生产环境时的可扩展性、治理、安全和运营难题。Spring AI 通过熟悉的 Spring 模式将 AI 功能引入 JVM，而 Amazon Bedrock AgentCore 则提供了托管运行时、内存和代码执行等生产基础设施。文章展示了如何使用 Java 构建单代理旅行助手和多代理智能文档处理系统。",
+   "impact": "Java 开发者和安全团队可以利用这些工具和架构模式，依托现有的企业基础设施、CI/CD 管道和 JVM 专长来构建和扩展自主 AI 代理。",
+   "keyPoints": [
+    "Spring AI 通过自动配置和依赖注入等熟悉的模式将 AI 能力带入 JVM。",
+    "Amazon Bedrock AgentCore 是一个独立于框架和模型的平台，用于大规模构建、部署和运营代理。",
+    "真正的 AI 代理需要结合规划、工具使用和记忆功能来执行多步骤任务。",
+    "演练所需的先决条件包括 Java JDK 21、Spring Boot 4.1、Maven、Node.js、Terraform、Docker 和 AWS CLI。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock과 Spring AI로 자율형 AI 에이전트 구축하기",
+   "summary": "Amazon Bedrock과 Spring AI는 자바 팀이 확장성, 거버넌스, 보안, 운영 과제를 해결하여 AI 프로토타입을 프로덕션 단계로 전환할 수 있도록 지원합니다. Spring AI는 익숙한 패턴을 통해 JVM에 AI 기능을 제공하며, Amazon Bedrock AgentCore는 관리형 런타임, 메모리, 코드 실행 등의 프로덕션 인프라를 제공합니다. 본 게시물에서는 자바를 사용하여 단일 에이전트 여행 어시스턴트와 다중 에이전트 지능형 문서 처리 시스템을 구축하는 방법을 설명합니다.",
+   "impact": "자바 개발자와 보안 팀은 기존 기업 인프라, CI/CD 파이프라인, JVM 전문 지식을 활용하여 자율형 AI 에이전트를 구축하고 확장할 수 있습니다.",
+   "keyPoints": [
+    "Spring AI는 친숙한 패턴을 통해 JVM에 AI 기능을 제공합니다.",
+    "Amazon Bedrock AgentCore는 대규모로 에이전트를 구축, 배포, 운영할 수 있는 플랫폼을 제공합니다.",
+    "AI 에이전트는 계획 수립, 도구 사용, 메모리 기능을 결합하여 목표 지향적인 작업을 수행합니다.",
+    "실습을 위한 필수 조건에는 Java JDK 21, Spring Boot 4.1, Maven, Node.js, Terraform, Docker, AWS CLI가 포함됩니다."
+   ]
+  }
+ }
+}

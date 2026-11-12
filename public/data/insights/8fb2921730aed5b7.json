@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8fb2921730aed5b7",
+ "contentHash": "5a88102b9e5c1ad0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-12T03:56:22.356Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
+   "summary": "DeepSeek's DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash open-weight Mixture-of-Experts models are now available in Amazon SageMaker JumpStart. These models are released under the MIT license and provide specialized capabilities for reasoning, coding, and agentic workloads. AWS customers can deploy any of these models to their AWS accounts using the SageMaker console or the SageMaker Python SDK.",
+   "impact": "Developers and technology users may leverage these efficient foundation models for complex reasoning, long-document analysis, latency-sensitive tasks, and agentic workflows with reduced compute costs and large context windows. Security and operations teams can deploy the models directly within their AWS accounts through SageMaker JumpStart.",
+   "keyPoints": [
+    "DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash are now available on Amazon SageMaker JumpStart.",
+    "All three models are open-weight Mixture-of-Experts language models released under the MIT license.",
+    "The models support a 1M-token context window and offer specialized features such as multi-step reasoning, multimodal support, and low compute costs."
+   ]
+  },
+  "km": {
+   "title": "ម៉ូដែល DeepSeek-V4-Pro, DeepSeek-V4-Flash និង DeepSeek-V4.1-Flash ឥឡូវនេះមាននៅលើ Amazon SageMaker JumpStart",
+   "summary": "ម៉ូដែល Mixture-of-Experts ដែលមានទម្ងន់បើកចំហ DeepSeek-V4-Pro, DeepSeek-V4-Flash និង DeepSeek-V4.1-Flash របស់ DeepSeek ឥឡូវនេះមាននៅលើ Amazon SageMaker JumpStart ហើយ។ ម៉ូដែលទាំងបីនេះត្រូវបានចេញផ្សាយក្រោមអាជ្ញាប័ណ្ណ MIT និងផ្តល់នូវសមត្ថភាពឯកទេសសម្រាប់កិច្ចការ推理 ការសរសេរកូដ និងភ្នាក់ងារ។ អតិថិជន AWS អាចដាក់ពង្រាយម៉ូដែលទាំងនេះទៅក្នុងគណនី AWS របស់ពួកគេដោយប្រើកុងសូល SageMaker ឬ SageMaker Python SDK។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទាញយកប្រយោជន៍ពីម៉ូដែលមូលដ្ឋានដែលមានប្រសិទ្ធភាពទាំងនេះសម្រាប់កិច្ចការស្មុគស្មាញ ការវិភាគឯកសារវែង និងដំណើរការភ្នាក់ងារជាមួយនឹងការចំណាយលើការគណនាទាប។ ក្រុមការងារសន្តិសុខ និងប្រតិបត្តិការក៏អាចដាក់ពង្រាយម៉ូដែលទាំងនេះដោយផ្ទាល់នៅក្នុងគណនី AWS របស់ពួកគេផងដែរ។",
+   "keyPoints": [
+    "DeepSeek-V4-Pro, DeepSeek-V4-Flash និង DeepSeek-V4.1-Flash ឥឡូវនេះមាននៅលើ Amazon SageMaker JumpStart ។",
+    "ម៉ូដែលទាំងបីគឺជាម៉ូដែលភាសា Mixture-of-Weights ដែលមានទម្ងន់បើកចំហ និងចេញផ្សាយក្រោមអាជ្ញាប័ណ្ណ MIT ។",
+    "ម៉ូដែលទាំងនោះគាំទ្របង្អួចបរិបទ 1 លានតូខេន និងផ្តល់នូវមុខងារឯកទេសផ្សេងៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "DeepSeek-V4-Pro、DeepSeek-V4-Flash 和 DeepSeek-V4.1-Flash 模型现已登陆 Amazon SageMaker JumpStart",
+   "summary": "DeepSeek 的 DeepSeek-V4-Pro、DeepSeek-V4-Flash 和 DeepSeek-V4.1-Flash 开放权重混合专家模型现已在 Amazon SageMaker JumpStart 上线。这三个模型以 MIT 许可证发布，在推理、编码和智能体工作负载方面提供前沿性能。AWS 客户可以通过 SageMaker 控制台或 SageMaker Python SDK 将这些模型部署到其 AWS 账户中。",
+   "impact": "开发人员和技术用户可以利用这些高效的基础模型来进行复杂推理、长文档分析、对延迟敏感的任务以及智能体工作负载，同时降低计算成本。安全和运营团队也可以通过 SageMaker JumpStart 在其 AWS 账户中直接部署模型。",
+   "keyPoints": [
+    "DeepSeek-V4-Pro、DeepSeek-V4-Flash 和 DeepSeek-V4.1-Flash 现已登陆 Amazon SageMaker JumpStart。",
+    "这三个模型都是在 MIT 许可证下发布的开放权重混合专家语言模型。",
+    "这些模型支持 100 万个标记的上下文窗口，并针对推理、编码和多模态任务提供了专门的功能。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon SageMaker JumpStart에서 DeepSeek-V4-Pro, DeepSeek-V4-Flash, DeepSeek-V4.1-Flash 모델 이용 가능",
+   "summary": "DeepSeek의 DeepSeek-V4-Pro, DeepSeek-V4-Flash, DeepSeek-V4.1-Flash 오픈 웨이트 Mixture-of-Experts 모델이 이제 Amazon SageMaker JumpStart에서 제공됩니다. 이 세 모델은 MIT 라이선스로 출시되었으며 추론, 코딩 및 에이전트 워크로드 전반에서 성능을 제공합니다. AWS 고객은 SageMaker 콘솔 또는 SageMaker Python SDK를 사용하여 이 모델들을 AWS 계정에 배포할 수 있습니다.",
+   "impact": "개발자와 기술 사용자는 이 효율적인 파운데이션 모델을 활용하여 복잡한 추론, 긴 문서 분석, 지연 시간에 민감한 작업 및 에이전트 워크로드를 처리하면서 연산 비용을 줄일 수 있습니다. 보안 및 운영 팀은 SageMaker JumpStart를 통해 AWS 계정 내에 모델을 직접 배포할 수 있습니다.",
+   "keyPoints": [
+    "DeepSeek-V4-Pro, DeepSeek-V4-Flash 및 DeepSeek-V4.1-Flash가 Amazon SageMaker JumpStart에 추가되었습니다.",
+    "세 모델 모두 MIT 라이선스로 출시된 오픈 웨이트 Mixture-of-Experts 언어 모델입니다.",
+    "이 모델들은 1백만 토큰 컨텍스트 창을 지원하며 추론, 코딩 및 멀티모달 작업을 위한 특화된 기능을 제공합니다."
+   ]
+  }
+ }
+}

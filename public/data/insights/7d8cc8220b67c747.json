@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7d8cc8220b67c747",
+ "contentHash": "de90856f2dde754e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-12T03:57:14.115Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Network Security Manager now available in AWS European Sovereign Cloud and Additional New Regions",
+   "summary": "AWS has announced the general availability of AWS Network Security Manager in the AWS European Sovereign Cloud Region and 31 additional regions. The solution is designed to simplify the deployment and enforcement of network security policies at scale. It features always-on security deployment automation to apply protections such as AWS WAF and AWS Shield to internet-facing assets.",
+   "impact": "Security teams and developers may benefit from reduced operational overhead by centrally managing policies, automatically detecting configuration drift, and applying automated remediation across targeted accounts and resources.",
+   "keyPoints": [
+    "AWS Network Security Manager is now generally available in the AWS European Sovereign Cloud and 31 new regions.",
+    "It provides always-on security deployment automation for internet-facing assets like AWS Application Load Balancer.",
+    "The solution supports AWS WAF and AWS Shield in the AWS European Sovereign Cloud Region.",
+    "Teams can centrally manage policies, detect configuration drift, and apply remediation automatically."
+   ]
+  },
+  "km": {
+   "title": "AWS Network Security Manager ឥឡូវនេះមាននៅលើ AWS European Sovereign Cloud និងតំបន់ថ្មីបន្ថែម",
+   "summary": "AWS បានប្រعلانដាក់ឱ្យប្រើប្រាស់ជាទូទៅនូវ AWS Network Security Manager នៅក្នុងតំបន់ AWS European Sovereign Cloud និង 31 តំបន់បន្ថែមទៀត។ ដំណោះស្រាយនេះត្រូវបានរចនាឡើងដើម្បីជួយសម្រួលដល់ការដាក់ពង្រាយ និងការអនុវត្តគោលការណ៍សុវត្ថិភាពបណ្តាញក្នុងទ្រង់ទ្រាយធំ។ វាមានលក្ខណៈពិសេសស្វ័យប្រវត្តិកម្មនៃការដាក់ពង្រាយសុវត្ថិភាពដែលដំណើរការជានិច្ច ដើម្បីអនុវត្តការការពារដូចជា AWS WAF និង AWS Shield។",
+   "impact": "ក្រុមការងារផ្នែកសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចទទួលបានអត្ថប្រយោជន៍ពីការកាត់បន្ថយបន្ទុកការងារ ដោយសារការគ្រប់គ្រងគោលការណ៍កណ្តាល ការរកឃើញការប្រែប្រួលការកំណត់ដោយស្វ័យប្រវត្ត និងការកែតម្រូវ។",
+   "keyPoints": [
+    "AWS Network Security Manager ឥឡូវនេះមាននៅលើ AWS European Sovereign Cloud និង 31 តំបន់ថ្មី។",
+    "វាផ្តល់នូវស្វ័យប្រវត្តិកម្មសុវត្ថិភាពសម្រាប់ទ្រព្យសកម្មដែលប្រឈមមុខនឹងអ៊ីនធឺណិតដូចជា AWS Application Load Balancer។",
+    "ដំណោះស្រាយនេះគាំទ្រ AWS WAF និង AWS Shield នៅក្នុងតំបន់ AWS European Sovereign Cloud។",
+    "ក្រុមការងារអាចគ្រប់គ្រងគោលការណ៍កណ្តាល និងរកឃើញការប្រែប្រួលការកំណត់ដោយស្វ័យប្រវត្តិ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Network Security Manager 现已在 AWS European Sovereign Cloud 和其他新区域推出",
+   "summary": "AWS 宣布 AWS Network Security Manager 现已在 AWS European Sovereign Cloud 区域以及其他 31 个新区域正式推出。该解决方案旨在简化大规模安全策略的部署和执行。它具有始终在线的安全部署自动化功能，可将安全保护应用于面向互联网的资产。",
+   "impact": "安全团队和开发人员可以通过集中管理策略、自动检测配置漂移以及应用修复来降低运营开销，从而维护全面的保护。",
+   "keyPoints": [
+    "AWS Network Security Manager 现已在 AWS European Sovereign Cloud 和 31 个新区域全面推出。",
+    "它为面向互联网的资产（如 AWS Application Load Balancer）提供始终在线的安全部署自动化功能。",
+    "该解决方案在 AWS European Sovereign Cloud 区域支持 AWS WAF 和 AWS Shield。",
+    "团队可以集中管理安全策略、自动检测配置漂移并应用修复。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Network Security Manager, AWS European Sovereign Cloud 및 추가 신규 리전에서 출시",
+   "summary": "AWS는 AWS European Sovereign Cloud 리전과 31개의 추가 리전에서 AWS Network Security Manager의 정식 출시를 발표했습니다. 이 솔루션은 대규모 네트워크 보안 정책 배포 및 적용을 단순화하도록 설계되었습니다. 인터넷에 연결된 자산에 보안 보호를 적용하기 위한 상시 보안 배포 자동화 기능을 갖추고 있습니다.",
+   "impact": "보안 팀과 개발자는 정책을 중앙에서 관리하고, 구성 편차를 자동으로 감지하며, 수정 작업을 적용하여 운영 오버헤드를 줄이고 포괄적인 보호를 유지할 수 있습니다.",
+   "keyPoints": [
+    "AWS Network Security Manager가 AWS European Sovereign Cloud 및 31개의 신규 리전에서 정식 출시되었습니다.",
+    "AWS Application Load Balancer와 같은 인터넷 연결 자산을 위한 상시 보안 배포 자동화를 제공합니다.",
+    "이 솔루션은 AWS European Sovereign Cloud 리전에서 AWS WAF 및 AWS Shield를 지원합니다.",
+    "팀은 정책을 중앙에서 관리하고, 구성 편차를 감지하며, 수정 작업을 자동으로 적용할 수 있습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5bf8bf2a8f3b2ae8",
+ "contentHash": "a71407c66ae61af5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-12T03:58:01.731Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Cognito now supports user pool session management",
+   "summary": "Amazon Cognito now supports user pool session management, providing visibility and control over user sign-in sessions in applications. Users can establish single sign-on (SSO) and token sessions, while administrators can list active sessions across devices and revoke them on demand. The feature also allows configuring custom SSO session reuse durations instead of the previous fixed one-hour limit.",
+   "impact": "Developers and security teams could gain better control over user sessions by tracking activity details and revoking access when needed. This may help manage active tokens and enforce security policies across multiple app clients and devices.",
+   "keyPoints": [
+    "Supports user pool session management for SSO and token sessions.",
+    "Allows listing active sessions and revoking them on demand.",
+    "Customizable SSO session reuse duration instead of a fixed one-hour limit.",
+    "Available in Essentials or Plus feature plans across all AWS Regions where Amazon Cognito is offered."
+   ]
+  },
+  "km": {
+   "title": "Amazon Cognito ឥឡូវនេះគាំទ្រការគ្រប់គ្រងសម័យអាងអ្នកប្រើប្រាស់",
+   "summary": "Amazon Cognito ឥឡូវនេះគាំទ្រការគ្រប់គ្រងសម័យសម្រាប់អាងអ្នកប្រើប្រាស់ ដោយផ្តល់នូវភាពមើលឃើញ និងការគ្រប់គ្រងលើសម័យចុះឈ្មោះចូលរបស់អ្នកប្រើប្រាស់នៅក្នុងកម្មវិធី។ សម័យចុះឈ្មោះចូលតែមួយ (SSO) និងសម័យតូខេនត្រូវបានបង្កើតឡើងពេលអ្នកប្រើប្រាស់ចុះឈ្មោះចូល ដែលអនុញ្ញាតឱ្យរាយបញ្ជី និងលុបចោលសម័យសកម្មតាមការស្នើសុំ។ មុខងារនេះក៏អនុញ្ញាតឱ្យកំណត់រយៈពេលប្រើប្រាស់សម័យ SSO ឡើងវិញផងដែរ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងសុវត្ថិភាពអាចទទួលបានការគ្រប់គ្រងកាន់តែប្រសើរឡើងលើសម័យអ្នកប្រើប្រាស់តាមរយៈការតាមដានព័ត៌មានលម្អិត និងការលុបចោលសិទ្ធិអាននៅពេលចាំបាច់។",
+   "keyPoints": [
+    "គាំទ្រការគ្រប់គ្រងសម័យសម្រាប់អាងអ្នកប្រើប្រាស់។",
+    "អនុញ្ញាតឱ្យរាយបញ្ជី និងលុបចោលសម័យ SSO និងតូខេនសកម្ម។",
+    "អាចកំណត់រយៈពេលប្រើប្រាស់សម័យ SSO ឡើងវិញតាមបំណង។",
+    "មាននៅលើគម្រោងមុខងារ Essentials ឬ Plus គ្រប់តំបន់ AWS ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Cognito 现已支持用户池会话管理",
+   "summary": "Amazon Cognito 现已支持用户池会话管理，让您能够查看和控制用户登录应用程序时建立的会话。当用户通过托管登录或应用客户端登录时，会创建单点登录 (SSO) 会话或令牌会话。会话管理使您能够列出用户在所有设备和应用客户端上的活动会话，并随时按需撤销这些会话。",
+   "impact": "开发人员和安全团队可以更好地控制用户会话，按需撤销访问权限并跟踪会话活动详情。这可能有助于跨多个应用程序客户端和设备强制执行安全策略并管理活跃令牌。",
+   "keyPoints": [
+    "支持用户池的会话管理功能。",
+    "允许列出并按需撤销用户的活动 SSO 和令牌会话。",
+    "可以配置 SSO 会话的重用时长，不再受限于固定的一个小时。",
+    "适用于所有可用 AWS 区域中 Essentials 或 Plus 功能计划的用户池。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Cognito, 이제 사용자 풀 세션 관리 지원",
+   "summary": "Amazon Cognito가 이제 사용자 풀 세션 관리를 지원하여 애플리케이션에 로그인할 때 사용자가 설정한 세션에 대한 가시성과 제어 기능을 제공합니다. 싱글 사인온(SSO) 및 토큰 세션이 생성되며 관리자는 모든 기기 및 앱 클라이언트에서 활성 세션을 나열하고 필요에 따라 취소할 수 있습니다. 또한 고정된 1시간 제한 대신 SSO 세션 재사용 시간을 구성할 수 있습니다.",
+   "impact": "개발자와 보안 팀은 활성 세션을 모니터링하고 필요할 때 액세스를 취소하여 사용자 세션을 더 효과적으로 제어할 수 있습니다. 이를 통해 여러 앱 클라이언트와 기기에서 보안 정책을 관리하고 적용하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "사용자 풀을 위한 SSO 및 토큰 세션 관리 지원",
+    "모든 기기와 앱 클라이언트에서 활성 세션 조회 및 수동 취소 가능",
+    "고정된 1시간 제한 대신 사용자 지정 SSO 세션 재사용 기간 설정 가능",
+    "Amazon Cognito가 지원되는 모든 AWS 리전의 Essentials 또는 Plus 기능 플랜에서 사용 가능"
+   ]
+  }
+ }
+}

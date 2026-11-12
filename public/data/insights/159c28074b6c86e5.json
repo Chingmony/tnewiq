@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "159c28074b6c86e5",
+ "contentHash": "c8875a11b944de48",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-12T03:56:43.250Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Introducing the Web Search API on Amazon Bedrock AgentCore",
+   "summary": "Amazon has announced the Web Search API on Amazon Bedrock AgentCore, allowing developers to search the web directly with a single API call using AWS SDKs or the AWS CLI. The API returns ranked results from an Amazon-operated web index, complete with text extracts, page titles, URLs, and publication times when available. It uses AWS Signature Version 4 (SigV4) for authentication via standard AWS IAM credentials without requiring prior resource creation.",
+   "impact": "This standalone API could benefit developers building custom orchestration frameworks, non-agent applications, or those requiring tighter control over request lifecycles. It offers an alternative to AgentCore Gateway for scenarios where direct integration into code, data pipelines, or existing API layers is preferred.",
+   "keyPoints": [
+    "The Web Search API enables direct web searches through a single API call from AWS SDKs or the AWS CLI.",
+    "It provides ranked results from an Amazon-operated web index with text extracts, URLs, titles, and publication times.",
+    "Requests are authenticated and signed using standard AWS IAM credentials with AWS Signature Version 4 (SigV4).",
+    "It serves custom orchestration frameworks, non-agent use cases, and applications needing simpler integration without setting up an AgentCore Gateway."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យដំណើរការ Web Search API នៅលើ Amazon Bedrock AgentCore",
+   "summary": "ក្រុមហ៊ុន Amazon បានប្រកាសដាក់ឱ្យដំណើរការ Web Search API នៅលើ Amazon Bedrock AgentCore ដែលអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍អាចស្វែងរកទិន្នន័យតាមបណ្តាញអ៊ីនធឺណិតដោយផ្ទាល់តាមរយៈការហៅ API តែមួយដោយប្រើ AWS SDKs ឬ AWS CLI។ API នេះផ្តល់នូវលទ្ធផលដែលបាន ترتیب ពីសន្ទស្សន៍បណ្តាញដែលគ្រប់គ្រងដោយ Amazon រួមជាមួយនឹងការស្រង់អត្ថបទ ចំណងជើងទំព័រ URL និងពេលវេលាផ្សាយផងដែរ។ វាប្រើប្រាស់ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវតាមរយៈ AWS Signature Version 4 (SigV4) ជាមួយព័ត៌មានសម្ងាត់ AWS IAM ស្តង់ដារ ដោយមិនចាំបាច់បង្កើតធនធានជាមុនឡើយ។",
+   "impact": "API ដាច់ដោយឡែកនេះអាចផ្តល់ផលប្រយោជន៍ដល់អ្នកអភិវឌ្ឍន៍ដែលបង្កើតក្របខណ្ឌសម្របសម្រួលផ្ទាល់ខ្លួន កម្មវិធីដែលមិនមែនជាភ្នាក់ងារ ឬអ្នកដែលត្រូវការការគ្រប់គ្រងកាន់តែប្រសើរលើវដ្តសំណើ។ វាផ្តល់នូវជម្រើសជំនួសឱ្យ AgentCore Gateway សម្រាប់ករណីដែលចូលចិត្តការរួមបញ្ចូលដោយផ្ទាល់ទៅក្នុងកូដ បំពង់បង្ហូរទិន្នន័យ ឬស្រទាប់ API ដែលមានស្រាប់។",
+   "keyPoints": [
+    "Web Search API អនុញ្ញាតឱ្យធ្វើការស្វែងរកតាមបណ្តាញអ៊ីនធឺណិតដោយផ្ទាល់តាមរយៈការហៅ API តែមួយពី AWS SDKs ឬ AWS CLI។",
+    "វាផ្តល់នូវលទ្ធផលដែលបាន ترتیب ពីសន្ទស្សន៍បណ្តាញដែលដំណើរការដោយ Amazon ជាមួយការស្រង់អត្ថបទ URL ចំណងជើង និងពេលវេលាផ្សាយ។",
+    "សំណើត្រូវបានផ្ទៀងផ្ទាត់ និងចុះហត្ថលេខាដោយប្រើប្រាស់ព័ត៌មានសម្ងាត់ AWS IAM ស្តង់ដារជាមួយ AWS Signature Version 4 (SigV4)។",
+    "វាបំពេញតម្រូវការសម្រាប់ក្របខណ្ឌសម្របសម្រួលផ្ទាល់ខ្លួន ករណីប្រើប្រាស់ដែលមិនមែនជាភ្នាក់ងារ និងកម្មវិធីដែលត្រូវការការរួមបញ្ចូលកាន់តែងាយស្រួលដោយមិនចាំបាច់រៀបចំ AgentCore Gateway។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Bedrock AgentCore 推出 Web Search API",
+   "summary": "Amazon 宣布在 Amazon Bedrock AgentCore 上推出 Web Search API，使开发人员能够通过 AWS SDK 或 AWS CLI 发起单个 API 调用直接搜索网络。该 API 从 Amazon 运营的网络索引中返回排名结果，并在可用时提供文本摘要、页面标题、URL 以及发布时间。它使用标准 AWS IAM 凭证配合 AWS Signature Version 4 (SigV4) 进行身份验证，无需事先创建资源。",
+   "impact": "这个独立的 API 可能会对构建自定义编排框架、非代理应用程序或需要对请求生命周期进行更紧密控制的开发人员有所帮助。对于倾向于直接集成到代码、数据管道或现有 API 层中的场景，它提供了一种替代 AgentCore Gateway 的选择。",
+   "keyPoints": [
+    "Web Search API 允许通过来自 AWS SDK 或 AWS CLI 的单个 API 调用直接进行网络搜索。",
+    "它提供来自 Amazon 运营的网络索引的排名结果，包含文本摘要、URL、标题和发布时间。",
+    "请求使用标准 AWS IAM 凭证和 AWS Signature Version 4 (SigV4) 进行身份验证和签名。",
+    "它适用于自定义编排框架、非代理用例以及需要更简单集成且无需设置 AgentCore Gateway 的应用程序。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock AgentCore의 Web Search API 소개",
+   "summary": "Amazon은 Amazon Bedrock AgentCore에서 Web Search API를 출시하여 개발자가 AWS SDK 또는 AWS CLI를 사용하여 단일 API 호출로 웹을 직접 검색할 수 있도록 지원합니다. 이 API는 Amazon이 운영하는 웹 색인에서 순위가 매겨진 결과를 반환하며, 가능한 경우 텍스트 추출물, 페이지 제목, URL 및 게시 시간을 함께 제공합니다. 리소스를 먼저 생성할 필요 없이 표준 AWS IAM 자격 증명을 사용하는 AWS Signature Version 4(SigV4)로 인증됩니다.",
+   "impact": "이 독립형 API는 사용자 정의 오케스트레이션 프레임워크나 에이전트가 아닌 애플리케이션을 구축하는 개발자 또는 요청 수명 주기를 더 엄격하게 제어해야 하는 개발자에게 도움이 될 수 있습니다. 코드, 데이터 파이프라인 또는 기존 API 계층에 대한 직접 통합이 선호되는 시나리오에서 AgentCore Gateway의 대안을 제공합니다.",
+   "keyPoints": [
+    "Web Search API는 AWS SDK 또는 AWS CLI의 단일 API 호출을 통해 직접 웹 검색을 가능하게 합니다.",
+    "텍스트 추출물, URL, 제목, 게시 시간이 포함된 Amazon 운영 웹 색인의 순위가 지정된 결과를 제공합니다.",
+    "요청은 표준 AWS IAM 자격 증명과 AWS Signature Version 4(SigV4)를 사용하여 인증 및 서명됩니다.",
+    "AgentCore Gateway를 설정하지 않고 더 간단한 통합이 필요한 사용자 정의 오케스트레이션 프레임워크, 비에이전트 사용 사례 및 애플리케이션에 유용합니다."
+   ]
+  }
+ }
+}

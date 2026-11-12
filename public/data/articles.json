@@ -1,7 +1,170 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-11T22:44:58.558Z",
+ "generatedAt": "2026-11-12T03:50:05.947Z",
  "articles": [
+  {
+   "id": "7b02155b896b60a0",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "네이버, AI 팩토리 2조원 첫 수주 확보…”10곳 이상과 추가 협상 중\"",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217303",
+   "originalLanguage": "ko",
+   "originalDescription": "네이버가 엔비디아·브룩필드와 추진하는 AI 팩토리 사업에서 약 2조원 규모의 첫 공급 계약을 따냈다. 인프라 투자 부담으로 3분기 영업이익은 20% 넘게 줄었지만, 네이버 측은 2027년부터 AI 팩토리 사업이 실제 이익에 기여할 것으로 내다 봤다.최수연 네이버 대표는 12일 3분기 실적발표 컨퍼런스콜에서 \"미국 AI 추론 기업과 차세대 GPU를 포함한 약 2조 원 규모의 컴퓨팅 서비스 공급 계약을 체결했다\"고 밝혔다. 고객사 이름은 공개하지 않았다.계약 물량은 전력 기준 약…",
+   "publishedAt": "2026-11-12T03:45:08.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "536976eee0ce21f0"
+  },
+  {
+   "id": "fbe8698bdbdfa898",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": ".NET 11 正式发布，C# 15 补上了它欠缺二十年的东西",
+   "originalUrl": "https://www.oschina.net/news/503542/microsoft-announcing-dotnet-11",
+   "originalLanguage": "zh-CN",
+   "originalDescription": ".NET 11 在 11 月 10 日正式发布。这是 STS（标准支持期）版本，两年支持，不是 LTS——.NET 10 仍然是那个长期支持的选项。版本号本身没什么好说的，值得看的是这次几个实打实的变化。 C# 15：union types 终于来了 把这条放最前面，因为它解决的是一个困扰 C# 很久的问题。 以前写一个「要么返回结果、要么返回错误」的...",
+   "publishedAt": "2026-11-12T03:23:19.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "b617e336ea0b10b6"
+  },
+  {
+   "id": "7a1dfd54cc471194",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "구글, 차세대 경량 모델 '하이드로젠' 테스트…출시 임박 관측",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217308",
+   "originalLanguage": "ko",
+   "originalDescription": "구글이 '하이드로젠(Hydrogen)'이라는 모델의 내부 테스트를 시작했다. 기존 고성능 모델보다 빠르고 저렴한 경량 모델로, 최근 공개한 '제미나이 4' 시리즈의 플래시(Flash)급 제품이 될 것으로 예상된다. 구글 직원들의 내부 테스트가 확인되고 외부 개발자들 사이에서도 관련 성능 평가가 공유되면서 출시가 가까워졌다는 관측이 나온다.비즈니스인사이더는 11일(현지시간) 구글이 최근 직원들에게 코드명 하이드로젠으로 불리는 새 모델에 대한 접근을 허용했다고 보도했다.이에 따르면, 한 구글…",
+   "publishedAt": "2026-11-12T03:22:39.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "4ede57650477dedf"
+  },
+  {
+   "id": "a552875406bb3160",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+   "originalUrl": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+   "originalLanguage": "en",
+   "originalDescription": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
+   "publishedAt": "2026-11-12T03:13:10.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "b40bbe40ef949abe"
+  },
+  {
+   "id": "2424f94ef958d993",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "구글, 판단 전용 AI '제미나이 디시전 1' 출시...질문 1000개 동시 처리",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217307",
+   "originalLanguage": "ko",
+   "originalDescription": "구글이 텍스트를 생성하는 대신 주어진 조건에 따라 빠르게 판단하고 선택하는 전용 AI 모델 '제미나이 디시전 1(Gemini Decision 1)'을 출시했다. 최대 1000개의 질문을 한 번에 처리하면서도 입력 토큰 100만개당 0.10달러라는 낮은 가격을 내세웠다. AI 에이전트의 도구 선택과 업무 분기, 모델 라우팅 등 반복적인 판단 작업을 저렴하고 빠르게 자동화하는 데 초점을 맞췄다.구글은 11일(현지시간) 공식 블로그를 통해 '제미나이 디시전 1'과 이를 활용하는 '제미나이 디시전…",
+   "publishedAt": "2026-11-12T03:07:38.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "f5a7066b48bf8e9a"
+  },
+  {
+   "id": "c4a675165a4f88bd",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "苹果正在开发一个把 Mac 变成私有 AI 推理服务器的应用",
+   "originalUrl": "https://www.oschina.net/news/503540/apple-new-mac-app-coming-to-make-running-local-ai-models-easy",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "爆料人 Aaron Perris 在 11 月 10 日发现了苹果内部的一个新 Mac 应用，名字叫 Harbor。它的定位写在功能描述第一句：把你的 Mac 变成私有 AI 推理服务器。 这件事有意思的地方在于，苹果过去的 AI 叙事一直围绕着云和端侧的小模型转，Harbor 换了个思路——拿你自己买的 Mac 硬件跑开源权重模型，数据不出你的机器。 按...",
+   "publishedAt": "2026-11-12T02:58:12.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "developer-tools",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "bf655a59b0a1ba2a"
+  },
+  {
+   "id": "97b502d03763730e",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "미 공화당, 젠슨 황 의회 소환장 발부 추진…사임 요구까지 등장",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217301",
+   "originalLanguage": "ko",
+   "originalDescription": "미국 공화당이 중국 정보기관 연루 의혹을 받는 여성과 관계를 맺은 젠슨 황 엔비디아 CEO에 대한 의회 소환장 발부를 추진하고 있다. 황 CEO가 자발적인 비공개 브리핑 요청에 응하지 않으면 강제 출석을 요구하겠다는 것으로, 개인적인 사생활 논란이 엔비디아의 국가 안보 문제와 미국의 대중국 AI 반도체 수출 정책에 대한 조사로 번지고 있다.블룸버그와 로이터 등은 11일(현지시간) 미국 하원 공화당 지도부가 황 CEO의 의회 출석을 강제하기 위한 소환장 발부를 준비하고 있다고 보도했다.존…",
+   "publishedAt": "2026-11-12T02:50:12.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "778972fa54c97fd4"
+  },
+  {
+   "id": "363fb57e9b646f19",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "cc4g-AI 编程工具 Web 集成平台 v0.2.0 更新：增加 Codex CLI 集成",
+   "originalUrl": "https://www.oschina.net/news/503538",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "AI编程工具是汽车，Token是汽油，CC4G是你的汽车车库。 cc4g主要为了解决两个问题： 多人共用一套环境，手机也能接着用。它是一个用 Go 开发的 Web 版AI编程引擎集成平台平台，把 AI 编程引擎装进浏览器——纯 Go 编译出的单文件程序，跑在你自己的电脑或服务器上，装好之后打开浏览器就能干活。 支持在线安装nodejs、C...",
+   "publishedAt": "2026-11-12T01:39:40.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "developer-tools",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "a6c0d1ffa5c86749"
+  },
+  {
+   "id": "8be14bb33dc353e0",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Build autonomous AI agents with Amazon Bedrock and Spring AI",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai/",
+   "originalLanguage": "en",
+   "originalDescription": "Learn how Java developers can build production-ready autonomous AI agents using Amazon Bedrock and Spring AI. This post walks through tool calling, conversation memory, resilience patterns, and multi-agent orchestration, then deploys the agent to AWS with Amazon Bedrock…",
+   "publishedAt": "2026-11-12T01:18:23.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "c6f749f808f62758"
+  },
+  {
+   "id": "4f92ceba62565a9e",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "엔비디아 이사회, 젠슨 황 해임 논의 착수…주가 시간외 8% 급락",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217304",
+   "originalLanguage": "ko",
+   "originalDescription": "엔비디아 이사회가 젠슨 황 CEO의 해임 여부를 결정하기 위한 회의에 들어간 것으로 알려졌다. 중국 스파이 의혹을 받는 여성과의 불륜에 이어 회사 내부 임원과의 또 다른 관계까지 보도되면서 사흘 전 황 CEO에 대한 신뢰를 표명했던 이사회가 거취를 논의하는 상황에 이른 것이다. 엔비디아 주가는 시간외거래에서 약 8% 급락했다.로이터는 11일(현지시간) 사안에 정통한 소식통을 인용, 엔비디아 이사회가 황 CEO의 해임 여부를 결정하기 위한 회의를 진행하고 있다고 보도했다. 앞서…",
+   "publishedAt": "2026-11-12T00:56:27.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "1275eab20dbc3e96"
+  },
   {
    "id": "65b96c238445cded",
    "sourceId": "openai-news",
@@ -17,6 +180,218 @@
    ],
    "imageUrl": null,
    "contentHash": "c1b53c3418f70955"
+  },
+  {
+   "id": "90798405693f11b5",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "[AI리더의 서가] AI는 어떻게 기업의 무기가 되는가",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217032",
+   "originalLanguage": "ko",
+   "originalDescription": "AI는 어떻게 기업의 무기가 되는가이지성 | 처음북스2026년 10월 1일추천이유저자는 PwC 컨설턴트로서 15년간의 현장 경험을 바탕으로 AI 도입 후에도 업무가 개선되지 않는 이유를 진단하고, 회사의 기존 지식과 프로세스를 AI의 실력으로 변환하는 구체적인 방법을 제시합니다. 독자는 첫 90일의 실행 전략부터 5개 부서의 실제 적용 사례, 조직 변화 관리까지 체계적으로 학습하며 회사에 맞는 AI 에이전트 운영 체계를 구축할 수 있습니다.상세보기 AI를 도입했는데 일이 줄지 않는 회사가…",
+   "publishedAt": "2026-11-12T00:00:00.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "f8a46f491b9c8a75"
+  },
+  {
+   "id": "2c1c14009b34ac8b",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "The unfolding Jensen Huang scandal: a timeline",
+   "originalUrl": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "originalLanguage": "en",
+   "originalDescription": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+   "publishedAt": "2026-11-11T23:50:00.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "68d65187736373b9"
+  },
+  {
+   "id": "1f5e80ecd028db80",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/ornith-1-0-9b-ornith-1-0-35b-on-sagemaker-jumpstart/",
+   "originalLanguage": "en",
+   "originalDescription": "DeepReinforce AI's Ornith-1.0-9B and Ornith-1.0-35B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models are part of the Ornith 1.0 family of open-source, self-scaffolding agentic…",
+   "publishedAt": "2026-11-11T23:36:00.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "ffb0d178999bf712"
+  },
+  {
+   "id": "df4c427209a31b94",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "OpenAI Codex on Amazon Bedrock",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/",
+   "originalLanguage": "en",
+   "originalDescription": "A practical guide for enterprises rolling out OpenAI Codex to developers on AWS, with Amazon Bedrock as the model backend, covering the access, governance, and cost decisions that platform, security, and finance teams need to align on.",
+   "publishedAt": "2026-11-11T23:35:47.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "d5cf51e3d140dc2d"
+  },
+  {
+   "id": "95656bee021c75ec",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Semantic diffing of formal policies with anti-unification",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification/",
+   "originalLanguage": "en",
+   "originalDescription": "A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, deterministic semantic diff with an open-source anti-unification engine, so reviewers see only the genuine disagreements between…",
+   "publishedAt": "2026-11-11T23:33:03.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "28fda5c257c29c86"
+  },
+  {
+   "id": "1d3861729eb9d0f2",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Detecting and recovering from silent data corruption on Amazon SageMaker HyperPod",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod/",
+   "originalLanguage": "en",
+   "originalDescription": "Silent data corruption is a GPU fault that returns wrong but plausible numbers with no error, quietly poisoning distributed training. This post adds three checks to a PyTorch DDP loop to detect it, localize the faulty node on Amazon SageMaker HyperPod, and hand the node to…",
+   "publishedAt": "2026-11-11T23:30:03.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "d16f2601c04411fe"
+  },
+  {
+   "id": "c80b16c4f3bf86c6",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+   "originalUrl": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+   "originalLanguage": "en",
+   "originalDescription": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
+   "publishedAt": "2026-11-11T23:28:45.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "83930b481292ab51"
+  },
+  {
+   "id": "eed14b5103c10612",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "코어위브 25% 급등에 AI 기술주 동반 반등…엔비디아도 상승 전환",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217298",
+   "originalLanguage": "ko",
+   "originalDescription": "부채 부담과 AI 투자 거품 논란으로 급락했던 미국 AI 기술주가 코어위브의 실적 발표를 계기로 일제히 반등했다. 코어위브가 예상보다 높은 매출 성장과 자금 조달 대책을 제시하면서 시장의 불안이 누그러졌고, 젠슨 황 CEO를 둘러싼 논란으로 급락했던 엔비디아 주가도 상승세로 돌아섰다.로이터와 블룸버그 등은 11일(현지시간) AI 클라우드 기업 코어위브의 3분기 실적 발표가 미국 기술주 반등을 이끌었다고 보도했다. 코어위브 주가는 이날 24.7% 급등했으며, 네비우스(15.4%)와 어플라이드…",
+   "publishedAt": "2026-11-11T23:25:05.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "75fcaf2a0d3c8c26"
+  },
+  {
+   "id": "8fb2921730aed5b7",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/deepseek-v4-pro-v4-flash-v4.1-flash-on-sagemaker-jumpstart/",
+   "originalLanguage": "en",
+   "originalDescription": "DeepSeek's DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three open-weight Mixture-of-Experts (MoE) language models, released…",
+   "publishedAt": "2026-11-11T23:18:00.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "5a88102b9e5c1ad0"
+  },
+  {
+   "id": "b908c072a557d814",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Jensen Huang accused of having another affair — with an Nvidia exec",
+   "originalUrl": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+   "originalLanguage": "en",
+   "originalDescription": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+   "publishedAt": "2026-11-11T23:17:05.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "faaf156829b2c400"
+  },
+  {
+   "id": "159c28074b6c86e5",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Introducing the Web Search API on Amazon Bedrock AgentCore",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/",
+   "originalLanguage": "en",
+   "originalDescription": "Today we're announcing the Web Search API on Amazon Bedrock AgentCore: your own code can search the web with a single signed API call, with no gateway and no resources to create. Call it from the AWS SDKs or the AWS CLI and use it in applications, agent loops, and data pipelines.",
+   "publishedAt": "2026-11-11T23:13:16.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "c8875a11b944de48"
+  },
+  {
+   "id": "0ed1017dcace7dac",
+   "sourceId": "ars-technica-gadgets",
+   "sourceName": "Ars Technica Gadgets",
+   "originalTitle": "CEO Jensen Huang's job is suddenly on the line at Nvidia",
+   "originalUrl": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/",
+   "originalLanguage": "en",
+   "originalDescription": "The FBI is investigating as Nvidia’s board holds urgent talks over Huang’s future.",
+   "publishedAt": "2026-11-11T23:10:17.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "mobile-hardware"
+   ],
+   "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2296993009-1024x648.jpg",
+   "contentHash": "f40ccccc9d7b51cd"
+  },
+  {
+   "id": "a6547f8cea67f8f6",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Nvidia is reportedly preparing to fire Jensen Huang",
+   "originalUrl": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+   "originalLanguage": "en",
+   "originalDescription": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second…",
+   "publishedAt": "2026-11-11T22:44:36.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "8b38f480409cd533"
   },
   {
    "id": "0fcdcb749ffdf95e",
@@ -118,6 +493,22 @@
    ],
    "imageUrl": null,
    "contentHash": "edaeac380d332bc5"
+  },
+  {
+   "id": "7d8cc8220b67c747",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "AWS Network Security Manager now available in AWS European Sovereign Cloud and Additional New Regions",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-security-mgr-eu-sovereign-cloud/",
+   "originalLanguage": "en",
+   "originalDescription": "AWS Network Security Manager is now available in AWS European Sovereign Cloud Region and Thirty-One new Regions Today, AWS announces the general availability of AWS Network Security Manager in the AWS European Sovereign Cloud Region and additional regions. Network Security…",
+   "publishedAt": "2026-11-11T21:00:00.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "de90856f2dde754e"
   },
   {
    "id": "b43c29322d5fd474",
@@ -258,14 +649,30 @@
    "originalTitle": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
    "originalUrl": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
    "originalLanguage": "en",
-   "originalDescription": "CoreWeave is increasingly asking customers to pay upfront, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
+   "originalDescription": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
    "publishedAt": "2026-11-11T19:54:00.000Z",
    "discoveredAt": "2026-11-11T22:44:58.558Z",
    "topics": [
     "ai"
    ],
    "imageUrl": null,
-   "contentHash": "19116734fcc57110"
+   "contentHash": "408c2b246a8e7e5f"
+  },
+  {
+   "id": "3058c03ad6f30a9c",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon EKS Provisioned Control Plane now offers a 24 GB etcd database on 4XL and 8XL tiers",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-provisioned-control-plane-larger-etcd-database/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon Elastic Kubernetes Service (Amazon EKS) now offers a larger 24 GB etcd database, up from 16 GB, for 4XL and 8XL Provisioned Control Plane clusters. etcd is the key-value store in the Kubernetes control plane that holds your cluster state, so its size limits how many…",
+   "publishedAt": "2026-11-11T19:45:00.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "ec6969fa6eaba923"
   },
   {
    "id": "3ffdd988bd51ccf5",
@@ -332,6 +739,22 @@
    ],
    "imageUrl": null,
    "contentHash": "18e91fadf34f8695"
+  },
+  {
+   "id": "5bf8bf2a8f3b2ae8",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon Cognito now supports user pool session management",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cognito-session-management/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon Cognito now supports session management for user pools, giving you visibility into and control over the sessions your users establish when they sign in to your applications. Single sign-on (SSO) sessions are created when a user signs in through managed login and let them…",
+   "publishedAt": "2026-11-11T19:00:00.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "a71407c66ae61af5"
   },
   {
    "id": "8ba32157965a133a",
@@ -738,6 +1161,22 @@
    ],
    "imageUrl": null,
    "contentHash": "667844b8d671dac8"
+  },
+  {
+   "id": "1ac34e3682a247a5",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "15 分钟让你有 C 语言超能力！！！",
+   "originalUrl": "https://www.oschina.net/news/503536",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "int load(const char *path) { FILE *f = fopen(path, \"r\"); if (!f) return -1; defer fclose(f); char *buf = malloc(4096); if (!buf) return -1; defer free(buf); /* 业务逻辑 */ return 0; } 用 C6 给 C 语言装上 defer、try/catch、async...",
+   "publishedAt": "2026-11-11T15:40:28.000Z",
+   "discoveredAt": "2026-11-12T03:50:05.947Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "7591f1070f5db56e"
   },
   {
    "id": "99d239565756098b",
@@ -24285,449 +24724,6 @@
    ],
    "imageUrl": null,
    "contentHash": "89b970140dcaf85f"
-  },
-  {
-   "id": "65a45fb2060b2648",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "\"AI 현장 엔지니어 연봉 최대 19억원\"...기업들 FDE 확보 총력",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217007",
-   "originalLanguage": "ko",
-   "originalDescription": "기업들이 AI의 실제 업무 적용을 지원하는 '전방 배치 엔지니어(FDE)' 확보 경쟁에 나서면서, 이들의 몸값이 치솟고 있다. 최상위급 인력의 연간 총보수는 최대 145만달러(약 19억원)에 달하는 것으로 나타났다. AI 도입이 실험 단계를 넘어 실제 사업 성과를 내는 단계로 접어들면서 현장에 AI 시스템을 구축할 수 있는 인재의 가치가 높아지고 있다는 분석이다.2일(현지시간) 월스트리트저널(WSJ)에 따르면, 미국 헤드헌팅 업체 크리스천앤팀버스(Christian & Timbers)가 최근…",
-   "publishedAt": "2026-11-04T08:40:04.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "f2878920f703164f"
-  },
-  {
-   "id": "f60e09dd7144e79a",
-   "sourceId": "oschina-news",
-   "sourceName": "开源中国 资讯",
-   "originalTitle": "PingWAF - 面向现代 Web 应用的高性能分布式安全防护平台",
-   "originalUrl": "https://www.oschina.net/p/pingwaf",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "PingWAF 基于 Rust 构建，是一款开源 Web 应用防火墙（WAF）与反向代理安全平台。项目以 Pingap 和 Cloudflare Pingora 为底层代理技术，融合语义级攻击检测、智能规则匹配、CC 防护、Bot 管理、访问控制、分布式策略同步及可视化安全运营能力，为企业网站、API 服务、SaaS 平台及互联网业务提供一套可自主部署、集中管理...",
-   "publishedAt": "2026-11-04T08:37:50.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "711dfc719d510c62"
-  },
-  {
-   "id": "11390f5728bed10a",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "\"엔비디아 심기 거스를라\"...오픈AI도 중국 칩 수출 규제에 발언 자제",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=216992",
-   "originalLanguage": "ko",
-   "originalDescription": "엔비디아가 AI 칩 시장의 압도적인 지배력을 바탕으로 고객사의 사업 결정은 물론 미국 정부의 수출 정책에도 막강한 영향력을 행사하고 있다는 보도가 나왔다. 오픈AI조차 엔비디아와의 관계 악화를 우려해 중국에 대한 첨단 반도체 수출 규제 문제에서 공개적인 입장을 내는 데 신중한 태도를 보여온 것으로 전해졌다.2일(현지시간) 디 인포메이션에 따르면, 오픈AI의 노엄 브라운 부사장은 최근 사내 슬랙 채널에 회사의 대중국 반도체 수출 정책 변화를 다룬 기사를 공유하며 \"우리의 반도체 수출 정책은…",
-   "publishedAt": "2026-11-04T08:33:34.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "ai",
-    "mobile-hardware"
-   ],
-   "imageUrl": null,
-   "contentHash": "6b8eae49d054e1e5"
-  },
-  {
-   "id": "a70e88695dcba709",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "중국 브레인코, 뇌 자극 '전자식 비만 치료제' 개발 중",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217015",
-   "originalLanguage": "ko",
-   "originalDescription": "중국 뇌-컴퓨터 인터페이스(BCI) 기업 브레인코(BrainCo)가 뇌를 자극해 식욕을 억제하는 웨어러블 기기를 개발하고 있다. 주사나 약물 없이 뇌 신호를 조절해 비만 치료제와 유사한 효과를 내겠다는 구상으로, 기존 GLP-1 계열 비만 치료제를 대체할 수 있는 새로운 방식으로 주목된다.닉스 허 브레인코 공동 창업 파트너는 3일(현지시간) 런던에서 열린 블룸버그 테크 행사에서 \"전자식 GLP-1\"을 목표로 한 제품을 개발 중이며, 2~3년 안에 시장에 출시할 계획이라고 밝혔다. 중국에서 먼저…",
-   "publishedAt": "2026-11-04T08:28:16.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "2ebb891097a853b4"
-  },
-  {
-   "id": "7f330728e0367f47",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "EU 최고법원 법무관 \"AI 기사 무단 요약은 저작권 침해\"...구글 제미나이 소송 주목",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217014",
-   "originalLanguage": "ko",
-   "originalDescription": "유럽연합(EU) 최고법원인 유럽사법재판소(ECJ)의 법무관이 구글의 AI 챗봇 '제미나이'가 언론사 기사를 검색해 답변을 생성하는 과정에서 저작권을 침해할 수 있다는 법률 의견을 내놨다. 단순히 기사에 담긴 사실을 전달하는 것은 문제가 없지만, 원문의 표현을 재현하거나 이용자가 원문을 읽지 않아도 될 정도로 내용을 제공하면 언론사의 권리를 침해할 수 있다는 판단이다.월스트리트저널(WSJ)에 따르면, 마치에이 슈푸나르 ECJ 수석 법무관은 4일(현지시간) AI 챗봇이 언론사 웹사이트에서 기사를…",
-   "publishedAt": "2026-11-04T08:24:28.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "38d09dda0278f62f"
-  },
-  {
-   "id": "c10c6220329ca500",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "KVGuard: A KV Cache Safety Checker for LLM Serving Systems",
-   "originalUrl": "https://arxiv.org/abs/2611.06138v1",
-   "originalLanguage": "en",
-   "originalDescription": "Modern LLM serving systems manage the KV cache through PagedAttention, a custom GPU allocator that partitions a single CUDA-allocated region into fixed-size physical blocks and maps each request to those blocks through a CPU-built block table. This block-based design exposes a…",
-   "publishedAt": "2026-11-04T08:22:37.000Z",
-   "discoveredAt": "2026-11-05T11:00:18.392Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "fc798bbed0e2ead5"
-  },
-  {
-   "id": "8fbc5f560a7a8a6c",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "전남광주, 축사 1362농가 화재 점검…전기 요인 48.8%",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217020",
-   "originalLanguage": "ko",
-   "originalDescription": "AI 생성 영상전남광주통합특별시가 겨울철 축사 화재 예방을 위해 돼지·가금 사육농가 1362호를 대상으로 화재 위험요인 점검에 나선다. 최근 5년간 지역 축사 화재 211건 가운데 전기적 요인이 48.8%로 가장 많았다.전남광주는 오는 12월10일까지 돼지 사육농가 470호와 3000마리 이상 닭·오리 사육농가 892호를 대상으로 농가 자율점검과 시군·소방기관의 예방조치 이행 확인을 추진한다고 4일 밝혔다.전남광주통합소방본부에 따르면 2021년부터 2025년까지 지역에서 발생한 축사 화재는…",
-   "publishedAt": "2026-11-04T08:21:05.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "a43f8154dcee22d3"
-  },
-  {
-   "id": "ae5b3132b9c3ca62",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "“건강을 디자인하다”… 계양구보건소, 석재 아트월로 공공의료 공간에 새로운 활력",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217021",
-   "originalLanguage": "ko",
-   "originalDescription": "인천시 계양구보건소가 의료공간의 기능성과 심미성을 조화롭게 담아낸 실내 석재 아트월을 선보였다. 이번 프로젝트는 보건소를 방문하는 주민들에게 친근하고 편안한 환경을 제공하고, 공공의료시설의 공간적 가치를 높이는 데 초점을 맞췄다.특히 민원 접수 및 대기공간의 벽면을 활용해 의료와 건강을 상징하는 디자인을 구현한 점이 눈길을 끈다. 중앙에는 청진기를 든 의료 캐릭터를 배치하고, 양옆으로 심전도 파형과 하트, 주사기, 의약품 등 다양한 의료 관련 이미지를 조화롭게 구성했다.밝고 생동감 있는 색채와…",
-   "publishedAt": "2026-11-04T08:19:54.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "c0b8a05d15d3810a"
-  },
-  {
-   "id": "595e0a9dfde72e64",
-   "sourceId": "the-hacker-news",
-   "sourceName": "The Hacker News",
-   "originalTitle": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-   "originalUrl": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
-   "originalLanguage": "en",
-   "originalDescription": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016. The Ministry of…",
-   "publishedAt": "2026-11-04T08:17:11.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "cybersecurity"
-   ],
-   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvVXRk9XWLvV5V7-gF-fqxa3YEEGpquE2Q8rML0rLK7ieZAbLJLqsHS6Sk012cwUslyYApJRP4b8SvmPCyATY2SbWpuhWILK0MRglNFqH5l5rVhTjSaJunpjWvbt8O9_UUnZnuxMJ26k5S4aQNj6pMBJLhY0gfn4zIY0Ot6m-gkntqxJiU4qgoAL3641pw/s1600/russia-hackerss.jpg",
-   "contentHash": "53c08f28d06c7413"
-  },
-  {
-   "id": "4593d622215b86dd",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "여수세계섬박람회 61일 마무리…폐막 전날 250만명, 섬 관광 가능성 남겨",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217016",
-   "originalLanguage": "ko",
-   "originalDescription": "2026 여수세계섬박람회가 4일 61일간의 일정을 마무리한다. 개막 초반 콘텐츠를 보강하고 관람환경을 개선한 뒤 후반 관람객이 빠르게 늘었지만, 폐막 전날까지 누적 실적은 당초 목표인 300만명에 미치지 못했다. 행사 이후에는 관광시설 활용과 재정 성과에 대한 평가가 남는다.여수세계섬박람회 조직위원회 발표에 따르면 지난 3일까지 누적 관람객은 250만2594명으로 목표의 83.4%를 기록했다. 박람회는 지난 9월5일 개막해 돌산 진모지구 주행사장과 여수세계박람회장, 개도·금오도 일원에서 전시와…",
-   "publishedAt": "2026-11-04T08:13:26.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "0585c1e859d3be41"
-  },
-  {
-   "id": "bae75ae6f765f30d",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "A Post-Quantum Interactive Hashing Theorem",
-   "originalUrl": "https://arxiv.org/abs/2611.06124v1",
-   "originalLanguage": "en",
-   "originalDescription": "Interactive hashing, introduced by Ostrovsky, Venkatesan, and Yung [OVY93], is a building block in many cryptographic protocols, including perfectly hiding commitments from one-way permutations [NOVY92]. Its multi-output generalization is a key ingredient in constructions of…",
-   "publishedAt": "2026-11-04T08:08:32.000Z",
-   "discoveredAt": "2026-11-05T11:00:18.392Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "6941667375edcf20"
-  },
-  {
-   "id": "671806f4b5bbbe16",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Tencent Hy4",
-   "originalUrl": "https://www.producthunt.com/products/hunyuan-a13b",
-   "originalLanguage": "en",
-   "originalDescription": "Tencent’s flagship model learns to see and use a computer Discussion | Link",
-   "publishedAt": "2026-11-04T08:07:42.000Z",
-   "discoveredAt": "2026-11-05T11:00:18.392Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "7975e652c38067fc"
-  },
-  {
-   "id": "19aac174c0565a65",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "현대제철, 사내 생성 AI 통합 플랫폼 '스틸-X' 가동...전사 AX 페달링",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217017",
-   "originalLanguage": "ko",
-   "originalDescription": "현대제철이 차세대 생성 AI 통합 플랫폼을 가동하며 전사 AX 혁신을 가속한다.현대제철은 최근 사내 문서와 데이터를 자산화하고 통합 검색·분석과 다양한 AI 서비스를 제공하는 플랫폼 '스틸(Steel)-X'의 가동에 나섰다고 4일 밝혔다.스틸-X는 여러 시스템과 부서에 분산된 사내 지식을 효율적으로 활용하고 반복적인 정보 탐색, 문서 작성 등 업무를 줄여 업무 생산성을 높이기 위해 구축한 플랫폼이다. 현대제철과 현대오토에버가 기획 단계부터 협업해 업무 환경과 사용자 요구사항을 반영해…",
-   "publishedAt": "2026-11-04T08:05:31.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "570a9d1a2d9920e6"
-  },
-  {
-   "id": "687ac9614aed3b08",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "에이티넘인베 투자기업 올거나이즈, 일본 증시 상장",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217013",
-   "originalLanguage": "ko",
-   "originalDescription": "기업용 AI 전문 올거나이즈(대표 이창수)가 일본 증시에 상장했다.에이티넘인베스트먼트는 4일 자사 투자 포트폴리오 중 하나인 올거나이즈가 일본 도쿄증권거래소 그로스시장에 상장했다고 밝혔다.미국 캘리포니아에서 출발한 올거나이즈는 한국·미국·일본에서 AI 솔루션 사업을 전개했다. 2018년 올거나이즈코리아, 2019년 올거나이즈 재팬을 각각 설립하며 사업 기반을 넓혔다.이후 일본 시장에서 사업 확장이 본격화하자 현지 상장을 추진, 2021년 11월 일본으로 본사를 이전하는 플립을 통해 지주회사인…",
-   "publishedAt": "2026-11-04T08:04:33.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "497ababa993a6f49"
-  },
-  {
-   "id": "0072af5efe2a8bfc",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "AWS DataSync Enhanced mode supports OpenID Connect (OIDC) for Google Cloud and Microsoft Azure",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/datasync-enhanced-oidc-google-azure/",
-   "originalLanguage": "en",
-   "originalDescription": "AWS DataSync Enhanced mode now supports OpenID Connect (OIDC) authentication for Google Cloud Storage and Microsoft Azure Blob Storage locations. DataSync uses an AWS Identity and Access Management (IAM) role to get short-lived credentials from Google Cloud or Microsoft Entra…",
-   "publishedAt": "2026-11-04T08:00:00.000Z",
-   "discoveredAt": "2026-11-05T02:30:07.507Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "8f4c171100c7b451"
-  },
-  {
-   "id": "063fa34b1a782035",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "Amazon EC2 and VPC now display related resources for all resource types",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-vpc-related-resources-all-types/",
-   "originalLanguage": "en",
-   "originalDescription": "Amazon Elastic Compute Cloud (Amazon EC2), Amazon Virtual Private Cloud (Amazon VPC), and AWS Global View now display related resources for all resource types in their consoles. Previously, only security groups had an option to view related resources. Now you can see…",
-   "publishedAt": "2026-11-04T08:00:00.000Z",
-   "discoveredAt": "2026-11-04T21:55:13.950Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "89b9a63418b7c5bb"
-  },
-  {
-   "id": "3283c26289395b8e",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "[게시판] 넘즈에이아이, 20억 프리시드 2차 투자 유치 등 단신",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217018",
-   "originalLanguage": "ko",
-   "originalDescription": "■ 넘즈에이아이(대표 유재민)는 미래에셋벤처투자와 한국투자파트너스로부터 20억원 규모의 프리시드 2차 투자를 유치했다고 밝혔다. 누적 투자 금액은 60억원이며 팁스(TIPS)에도 선정돼 연구비 8억원을 지원받는다. 자체 개발한 정형 데이터 파운데이션 모델 ‘코실로’는 올해 9월 공개 당시 글로벌 벤치마크 탭아레나(TabArena)에서 종합과 분류 및 회귀 평가 모두 1위를 기록한 바 있다.■ 한컴(대표 김연수)은 토펙엔지니어링건축사사무소와 에이전틱 운영체제(OS) 사업 협력을 위한…",
-   "publishedAt": "2026-11-04T08:00:00.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "ai",
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "f54d20079b257cd0"
-  },
-  {
-   "id": "4fffdd71dcc90544",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "RHEL 10, Rocky 10 and Ubuntu 26.04 Bundles for WorkSpaces",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/rhel-10-rocky-10-ubuntu-26-04-workspaces/",
-   "originalLanguage": "en",
-   "originalDescription": "AWS announces new Linux bundles for Amazon WorkSpaces Personal, including Rocky Linux 10, Red Hat Enterprise Linux 10, and Ubuntu 26.04 LTS. With these bundles, you can launch WorkSpaces on the latest enterprise Linux operating systems and use newer software packages that are…",
-   "publishedAt": "2026-11-04T08:00:00.000Z",
-   "discoveredAt": "2026-11-04T21:55:13.950Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "0f9f391cd8585a8e"
-  },
-  {
-   "id": "fb1030bd8cf0e2c4",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "Amazon S3 Tables now provide a simple, cost-effective path for data lake modernization",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-tables-managed-migration-hive-to-iceberg/",
-   "originalLanguage": "en",
-   "originalDescription": "Amazon S3 Tables now offer managed migration of your Apache Hive tables to Apache Iceberg. Iceberg adds ACID transactions, schema evolution, and time travel to your data lake, but moving off Hive usually means building a migration pipeline for each table, which can take weeks…",
-   "publishedAt": "2026-11-04T08:00:00.000Z",
-   "discoveredAt": "2026-11-05T02:30:07.507Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "c265d8e34a3a3d9f"
-  },
-  {
-   "id": "fbaa86a829ad59fd",
-   "sourceId": "openai-news",
-   "sourceName": "OpenAI News",
-   "originalTitle": "A thousand fewer paths to root",
-   "originalUrl": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-   "originalLanguage": "en",
-   "originalDescription": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
-   "publishedAt": "2026-11-04T08:00:00.000Z",
-   "discoveredAt": "2026-11-05T02:30:07.507Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "3c73a7f8fcae75ec"
-  },
-  {
-   "id": "70a9d23e30654281",
-   "sourceId": "oschina-news",
-   "sourceName": "开源中国 资讯",
-   "originalTitle": "qData 数据中台专业版 v3.0.1 发布：模型设计、版本管理与指标建模迎来多项升级！",
-   "originalUrl": "https://www.oschina.net/news/503390",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "qData 数据中台专业版 v3.0.1 发布。 在 v3.0.0 数据建模体系升级的基础上，本次版本继续围绕业务规划、数据建模、指标管理和数据集成几个环节补充功能。 其中，数据建模部分进一步完善了业务实体关系、概念模型关系图以及贴源、维度、事实、应用、汇总等多类逻辑模型的设计与版本管理；指标管理新增派生指标模块，并补充...",
-   "publishedAt": "2026-11-04T07:48:32.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "f619b1f5892d4785"
-  },
-  {
-   "id": "226d22a423412bf1",
-   "sourceId": "the-hacker-news",
-   "sourceName": "The Hacker News",
-   "originalTitle": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-   "originalUrl": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-   "originalLanguage": "en",
-   "originalDescription": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later…",
-   "publishedAt": "2026-11-04T07:46:15.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "cybersecurity",
-    "mobile-hardware"
-   ],
-   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm9fDI_lHL64S1r-eoB5-99WagZJBIjKDF-bEJ9egJw_EiLUomXSakGnV0vdq9Fqu2j6KVWM4upLmOwweDCKQ32f21W8CTsQHnoGMhFm-ISPNQEg1Jq5WbDujqLHVkGSEsox0Xd3Yc5Dd-v4-6rdzU4akd97y7cBhRYFO2ofmxpf3HYspJ6MkJs2RtfC4/s1600/android-patch.jpg",
-   "contentHash": "bdd4e4b7dd8c4ef1"
-  },
-  {
-   "id": "f8079898389d60a7",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "SenTrojan: Revealing Analog Hardware Trojan Attacks on Sensors",
-   "originalUrl": "https://arxiv.org/abs/2611.06103v1",
-   "originalLanguage": "en",
-   "originalDescription": "Sensors bridge the physical and digital worlds, making their integrity critical to cyber-physical system security. Existing sensor attacks largely exploit unintended and sensor-specific physical vulnerabilities, limiting their generalizability and motivating a different threat…",
-   "publishedAt": "2026-11-04T07:45:46.000Z",
-   "discoveredAt": "2026-11-05T11:00:18.392Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "97f2d591d665f95b"
-  },
-  {
-   "id": "7c79068c4649a91d",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "Reconciling Privacy with Provenance for Language Model Watermarks",
-   "originalUrl": "https://arxiv.org/abs/2611.06100v1",
-   "originalLanguage": "en",
-   "originalDescription": "Watermarking has great potential for regulating the use of language models (LMs), but its deployment has been marred by controversy, as many users argue that fine-grained tracking of LM usage violates their privacy. This tension reduces the effectiveness of watermarks, as users…",
-   "publishedAt": "2026-11-04T07:45:02.000Z",
-   "discoveredAt": "2026-11-05T11:00:18.392Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "6d05c6ca4e93fb80"
-  },
-  {
-   "id": "9b891ff26f07d637",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "광양경자청, 율촌제1산단 한화에어로스페이스 순천사업장 준공",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217022",
-   "originalLanguage": "ko",
-   "originalDescription": "광양만권경제자유구역청(청장 구충곤)은 4일 율촌제1산단에서 한화에어로스페이스 순천사업장 준공식이 개최됐다고 밝혔다.이날 준공식에는 민형배 전남광주통합특별시장, 김문수·황정아 국회의원, 박재성 우주항공청 부문장, 손훈모 순천시장, 구충곤 광양경자청장, 김선 한화에어로스페이스 부사장 등 주요 경영진과 정부·국회·지자체 및 우주산업 관계자 200여 명이 참석했다. 지난 10월 고흥 나로우주센터에서 성공적으로 발사된 누리호 5호기(3단형)는 고흥에서 조립했으며, 2027년 발사 예정인 누리호…",
-   "publishedAt": "2026-11-04T07:45:00.000Z",
-   "discoveredAt": "2026-11-04T21:55:13.950Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "53913fb9e0a2b611"
-  },
-  {
-   "id": "714198814495cfb8",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "\"오픈AI, 수년간 내부 보안 취약점 경고 무시\"...개발 속도 우선에 기밀 유출 위험",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217011",
-   "originalLanguage": "ko",
-   "originalDescription": "오픈AI가 수년간 직원들로부터 내부 보안 취약점에 대한 경고를 받고도 적극적으로 대응하지 않았다는 지적이 나왔다. 구글과 앤트로픽 등 경쟁사와의 기술 개발 경쟁을 우선하면서 내부 연구 자료와 소프트웨어 코드가 외부에 유출될 위험을 방치했다는 것이다.로이터는 3일(현지시간) 복수의 관계자를 인용, 챗GPT가 출시된 2022년 말 이전부터 오픈AI 직원들이 경영진과 이사회에 보안 문제를 제기해 왔다고 보도했다. 일부 직원은 이러한 문제 제기에도 경영진이 보안보다 경쟁사와의 기술 격차를 좁히는 데…",
-   "publishedAt": "2026-11-04T07:30:09.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "ai",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "2ac138b9be4255fa"
-  },
-  {
-   "id": "74ea6c87bfb50cf7",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "에스엘즈, 실리콘밸리 VC 주관 스타트업 경연대회서 글로벌 결선 진출",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217009",
-   "originalLanguage": "ko",
-   "originalDescription": "에스엘즈(대표 이유미·정재헌)는 실리콘밸리 벤처캐피털(VC) 페가수스 테크벤처스가 주관하는 ‘2026 스타트업 월드컵 한국 결선’에서 최종 우승을 차지했다고 4일 밝혔다. 이로써 에스엘즈는 미국 샌프란시스코에서 열리는 글로벌 결선(세미파이널) 무대에 올라 해외 스타트업과 자웅을 겨루게 됐다.스타트업 월드컵은 전 세계 200개 이상의 지역 예선을 거쳐 선발된 유망 기업들이 기술 경쟁력 및 비즈니스 확장성을 겨룬다. 미국 본선 최종 우승팀에게는 100만달러(약 13억4000만원) 규모의 투자금과…",
-   "publishedAt": "2026-11-04T07:25:20.000Z",
-   "discoveredAt": "2026-11-04T15:28:30.777Z",
-   "topics": [
-    "ai",
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "c9ec076719320971"
   }
  ]
 }

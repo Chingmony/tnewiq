@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c4a675165a4f88bd",
+ "contentHash": "bf655a59b0a1ba2a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-12T03:53:50.070Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Apple is developing an app to turn Macs into private AI inference servers",
+   "summary": "Leaker Aaron Perris discovered a new internal Mac application by Apple named Harbor on November 10. The application aims to turn a user's Mac into a private AI inference server, running open-source weight models locally. This shifts away from Apple's previous AI focus on cloud and edge small models, allowing users to run models on their own hardware without data leaving the machine.",
+   "impact": "This development could offer developers and users a way to run open-source AI models locally while maintaining data privacy. Security teams may find that local private inference servers reduce the need to send sensitive data to external clouds.",
+   "keyPoints": [
+    "Leaker Aaron Perris discovered the internal Mac app named Harbor on November 10.",
+    "The app is designed to turn a Mac into a private AI inference server.",
+    "It uses user-owned Mac hardware to run open-source weight models locally.",
+    "Data remains on the user's machine instead of relying entirely on cloud or edge models."
+   ]
+  },
+  "km": {
+   "title": "ខេមបូឌា ផ្លែស កំពុងអភិវឌ្ឍកម្មវិធីមួយដើម្បីបំប្លែង Mac ទៅជាម៉ាស៊ីនបម្រើការសន្និដ្ឋាន AI ឯកជន",
+   "summary": "អ្នកទម្លាយព័ត៌មាន Aaron Perris បានរកឃើញកម្មវិធី Mac ផ្ទៃក្នុងថ្មីរបស់ Apple ដែលមានឈ្មោះថា Harbor កាលពីថ្ងៃទី 10 ខែវិច្ឆិកា។ គោលដៅរបស់កម្មវិធីនេះគឺដើម្បីបំប្លែង Mac របស់អ្នកប្រើប្រាស់ទៅជាម៉ាស៊ីនបម្រើការសន្និដ្ឋាន AI ឯកជន។ វាអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់រត់ម៉ូដែលទម្ងន់ប្រភពបើកចំហនៅលើ硬件ផ្ទាល់ខ្លួនដោយទិន្នន័យមិនចេញក្រៅម៉ាស៊ីននោះឡើយ។",
+   "impact": "ការអភិវឌ្ឍនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់នូវមធ្យោបាយមួយដើម្បីដំណើរការម៉ូដែល AI ក្នុងស្រុក ខណៈពេលដែលរក្សាភាពឯកជនរបស់ទិន្នន័យ។",
+   "keyPoints": [
+    "អ្នកទម្លាយព័ត៌មាន Aaron Perris បានរកឃើញកម្មវិធី Mac ផ្ទៃក្នុងឈ្មោះ Harbor នៅថ្ងៃទី 10 ខែវិច្ឆិកា។",
+    "កម្មវិធីនេះត្រូវបានរចនាឡើងដើម្បីបំប្លែង Mac ទៅជាម៉ាស៊ីនបម្រើការសន្និដ្ឋាន AI ឯកជន។",
+    "វាប្រើប្រាស់ហាដវែរ Mac ផ្ទាល់ខ្លួនដើម្បីដំណើរការម៉ូដែលប្រភពបើកចំហ។",
+    "ទិន្នន័យស្ថិតនៅលើម៉ាស៊ីនរបស់អ្នកប្រើប្រាស់ដោយមិនចាំបាច់ផ្ញើចេញក្រៅឡើយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "苹果正在开发一个把 Mac 变成私有 AI 推理服务器的应用",
+   "summary": "爆料人 Aaron Perris 在 11 月 10 日发现了苹果内部的一个新 Mac 应用，名字叫 Harbor。该应用的功能描述指出其可将 Mac 变成私有 AI 推理服务器。这改变了苹果以往围绕云端和端侧小模型的策略，允许用户利用自己的 Mac 硬件运行开源权重模型，确保数据不出机器。",
+   "impact": "这一应用可能会为开发者和技术用户提供在本地运行开源大模型的新方式，同时保障数据隐私不出本地。安全团队可能会关注本地私有推理服务器在保护敏感数据方面的应用潜力。",
+   "keyPoints": [
+    "爆料人 Aaron Perris 于 11 月 10 日发现苹果内部的新 Mac 应用 Harbor。",
+    "应用定位是将用户的 Mac 变成私有 AI 推理服务器。",
+    "通过用户购买的 Mac 硬件来运行开源权重模型。",
+    "数据保留在用户本地机器中，无需上传至外部云端。"
+   ]
+  },
+  "ko": {
+   "title": "애플, Mac을 프라이빗 AI 추론 서버로 만드는 앱 개발 중",
+   "summary": "유출자 애런 페리스(Aaron Perris)는 11월 10일에 하버(Harbor)라는 이름의 애플 내부 Mac 애플리케이션을 발견했습니다. 이 앱의 기능 설명에 따르면 사용자의 Mac을 프라이빗 AI 추론 서버로 전환하는 것을 목표로 합니다. 이는 클라우드와 온디바이스 소형 모델에 집중했던 기존의 AI 접근 방식에서 벗어나, 사용자가 소유한 Mac 하드웨어에서 오픈 소스 가중치 모델을 실행하여 데이터가 기기를 벗어나지 않도록 합니다.",
+   "impact": "이러한 개발은 개발자와 기술 사용자에게 데이터 프라이버시를 유지하면서 로컬에서 오픈 소스 AI 모델을 실행할 수 있는 방법을 제공할 수 있습니다. 보안 팀은 로컬 프라이빗 추론 서버가 외부 클라우드로의 데이터 전송을 줄이는 데 도움이 될 수 있음을 주목할 수 있습니다.",
+   "keyPoints": [
+    "유출자 애런 페리스가 11월 10일에 하버라는 내부 Mac 앱을 발견했습니다.",
+    "이 앱은 Mac을 프라이빗 AI 추론 서버로 전환하도록 설계되었습니다.",
+    "사용자가 구매한 Mac 하드웨어를 사용하여 오픈 소스 가중치 모델을 실행합니다.",
+    "데이터가 외부로 유출되지 않고 사용자의 기기 내에 유지됩니다."
+   ]
+  }
+ }
+}
