@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b20123057cbe9f7b",
+ "contentHash": "c570a7a29e19bd41",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-12T20:54:47.241Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
+   "summary": "Organizations can track and limit Amazon Bedrock generative AI spending per IAM principal using only AWS-native features without writing custom code. The solution relies on automatic IAM principal attribution by Amazon Bedrock, AWS Cost and Usage Reports 2.0 or Cost Explorer for reporting, and AWS Budgets with budget actions to enforce spending caps. By activating tags and setting up budgets, teams can monitor costs and automatically restrict access when a spending threshold is crossed.",
+   "impact": "Security and finance teams could gain granular visibility and automated cost controls over generative AI usage without maintaining custom enforcement code. Developers and administrators may implement budget guardrails using standard AWS configurations.",
+   "keyPoints": [
+    "Amazon Bedrock automatically records the IAM principal identity for every inference request.",
+    "Per-identity reporting is achieved using Cost Explorer or CUR 2.0 data exports with activated cost allocation tags.",
+    "AWS Budgets and budget actions can automatically apply a Deny IAM policy when spending thresholds are crossed.",
+    "Organizations can use principal tags for unique roles or session tags for shared roles to attribute costs."
+   ]
+  },
+  "km": {
+   "title": "តូកេនូមីសនៅទ្រង់ទ្រាយធំ៖ ដានតាមដាន និងកំណត់កម្រិតចំណាយ Amazon Bedrock តាម IAM principal ជាមួយ CUR 2.0 និង AWS Budgets",
+   "summary": "ស្ថាប័ននានាអាចតាមដាន និងកំណត់កម្រិតចំណាយលើការបង្កើត AI របស់ Amazon Bedrock តាម IAM principal ដោយប្រើប្រាស់តែមុខងារដើមរបស់ AWS ដោយមិនបាច់សរសេរកូដផ្ទាល់ខ្លួននោះទេ។ ដំណោះស្រាយនេះពឹងផ្អែកលើការកំណត់អត្តសញ្ញាណ IAM principal ដោយស្វ័យប្រវត្តិដោយ Amazon Bedrock, AWS Cost and Usage Reports 2.0 ឬ Cost Explorer សម្រាប់ការរាយការណ៍ និង AWS Budgets ជាមួយសកម្មភាពថវិកាដើម្បីบังคับកម្រិតចំណាយ។ តាមរយៈការបើកដំណើរការស្លាក និងការកំណត់ថវិកា ក្រុមការងារអាចត្រួតពិនិត្យការចំណាយ និងកម្រិតសិទ្ធិប្រើប្រាស់ដោយស្វ័យប្រវត្តិនៅពេលដែនកំណត់ចំណាយត្រូវបានលើស។",
+   "impact": "ក្រុមសន្តិសុខ និងហិរញ្ញវត្ថុអាចទទួលបានភាពច្បាស់លាស់ក្នុងការតាមដាន និងការគ្រប់គ្រងការចំណាយស្វ័យប្រវត្តិលើការប្រើប្រាស់ AI ដោយមិនចាំបាច់ថែទាំកូដบังคับផ្ទាល់ខ្លួនឡើយ។ អ្នកអភិវឌ្ឍន៍ និងអ្នកគ្រប់គ្រងអាចអនុវត្តរបងការពារថវិកាដោយប្រើការកំណត់រចនាសម្ព័ន្ធ AWS ស្តង់ដារ។",
+   "keyPoints": [
+    "Amazon Bedrock កត់ត្រាអត្តសញ្ញាណ IAM principal ដោយស្វ័យប្រវត្តិសម្រាប់រាល់សំណើ inference ទាំងអស់។",
+    "ការរាយការណ៍តាមអត្តសញ្ញាណត្រូវបានសម្រេចតាមរយៈ Cost Explorer ឬការនាំចេញទិន្នន័យ CUR 2.0 ជាមួយស្លាកបែងចែកចំណាយដែលបានបើកដំណើរការ។",
+    "AWS Budgets និងសកម្មភាពថវិកាអាចអនុវត្តគោលការណ៍ Deny IAM ដោយស្វ័យប្រវត្តិនៅពេលដែនកំណត់ចំណាយត្រូវបានលើស។",
+    "ស្ថាប័នអាចប្រើស្លាក principal សម្រាប់តួនាទីដាច់ដោយឡែក ឬស្លាក session សម្រាប់តួនាទីដែលប្រើរួមគ្នាដើម្បីកំណត់ការចំណាយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "规模化代币经济学：使用 CUR 2.0 和 AWS Budgets 追踪并限制每个 IAM principal 的 Amazon Bedrock 支出",
+   "summary": "组织可以使用纯 AWS 原生功能跟踪和限制每个 IAM principal 的 Amazon Bedrock 生成式 AI 支出，而无需编写自定义代码。该解决方案依赖于 Amazon Bedrock 自动记录的 IAM principal 归属、用于报告的 AWS Cost and Usage Reports 2.0 或 Cost Explorer，以及带有预算操作的 AWS Budgets 来执行支出上限。通过激活标签和设置预算，团队可以监控成本并在超过支出阈值时自动限制访问。",
+   "impact": "安全和财务团队可以在无需维护自定义执行代码的情况下，对生成式 AI 的使用获得精细的可见性和自动化的成本控制。开发人员和管理员可以使用标准的 AWS 配置来实施预算护栏。",
+   "keyPoints": [
+    "Amazon Bedrock 会自动记录每个推理请求的 IAM principal 身份。",
+    "通过 Cost Explorer 或启用了成本分配标签的 CUR 2.0 数据导出，可以实现按身份报告。",
+    "当超过支出阈值时，AWS Budgets 及其预算操作可以自动应用 Deny IAM 策略。",
+    "组织可以为独立角色使用 principal 标签，或为共享角色使用 session 标签来归属成本。"
+   ]
+  },
+  "ko": {
+   "title": "대규모 토크노믹스: CUR 2.0 및 AWS Budgets를 사용하여 IAM principal별 Amazon Bedrock 지출 추적 및 상한 설정",
+   "summary": "조직은 커스텀 코드를 작성할 필요 없이 AWS 네이티브 기능만 사용하여 IAM principal별 Amazon Bedrock 생성형 AI 지출을 추적하고 제한할 수 있습니다. 이 솔루션은 Amazon Bedrock이 자동으로 기록하는 IAM principal 귀속,보고를 위한 AWS Cost and Usage Reports 2.0 또는 Cost Explorer, 그리고 지출 상한을 강제하기 위한 예산 작업이 포함된 AWS Budgets를 기반으로 합니다. 태그를 활성화하고 예산을 설정함으로써 팀은 비용을 모니터링하고 지출 임계값을 초과할 때 자동으로 접근을 제한할 수 있습니다.",
+   "impact": "보안 및 재무 팀은 커스텀 강제 코드를 유지 관리하지 않고도 생성형 AI 사용량에 대한 세부적인 가시성과 자동화된 비용 제어를 확보할 수 있습니다. 개발자와 관리자는 표준 AWS 구성을 사용하여 예산 가드레일을 구현할 수 있습니다.",
+   "keyPoints": [
+    "Amazon Bedrock은 모든 추론 요청에 대해 IAM principal 신원을 자동으로 기록합니다.",
+    "신원별 보고는 비용 할당 태그가 활성화된 Cost Explorer 또는 CUR 2.0 데이터 엑스포트를 통해 이루어집니다.",
+    "AWS Budgets와 예산 작업은 지출 임계값을 초과할 때 Deny IAM 정책을 자동으로 적용할 수 있습니다.",
+    "조직은 고유한 역할에는 principal 태그를, 공유 역할에는 session 태그를 사용하여 비용을 귀속시킬 수 있습니다."
+   ]
+  }
+ }
+}

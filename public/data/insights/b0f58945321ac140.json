@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b0f58945321ac140",
+ "contentHash": "c3c314ea60d02d1e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-12T20:56:43.531Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "VU#580079: Arbitrary file read/write vulnerability in ImageMagick-based applications with default configuration",
+   "summary": "Multiple arbitrary file read and write vulnerabilities, referred to as ImageTragick2, have been identified in applications using ImageMagick with insufficient security policies. The issues occur when ImageMagick processes attacker-controlled SVG or PostScript content using dangerous coders or delegates allowed by its configuration. Attackers who can cause applications to process crafted image content may read or write files accessible to the ImageMagick process, potentially achieving arbitrary code execution in some deployments.",
+   "impact": "Developers and security teams maintaining applications or containerized pipelines that use ImageMagick could face risks such as unauthorized file access or arbitrary code execution. Technologies processing untrusted content from users, URLs, or AI pipelines without restrictive security policies may be compromised.",
+   "keyPoints": [
+    "Vulnerabilities affect applications using ImageMagick with insufficiently restrictive security policies.",
+    "Issues are triggered by processing crafted SVG or PostScript content.",
+    "Attackers can read or write files accessible to the ImageMagick process and potentially achieve arbitrary code execution.",
+    "AI-enabled services and various content management systems using ImageMagick may be exposed."
+   ]
+  },
+  "km": {
+   "title": "VU#580079: ភាពងាយរងគ្រោះក្នុងការអាន និងសរសេរឯកសារតាមអំពើចិត្តនៅក្នុងកម្មវិធីដែលផ្អែកលើ ImageMagick ជាមួយនឹងការកំណត់លំនាំដើម",
+   "summary": "ភាពងាយរងគ្រោះក្នុងការអាន និងសរសេរឯកសារតាមអំពើចិត្តជាច្រើន ដែលត្រូវបានគេស្គាល់ថាជា ImageTragick2 ត្រូវបានរកឃើញនៅក្នុងកម្មវិធីដែលប្រើប្រាស់ ImageMagick ជាមួយនឹងគោលនយោបាយសុវត្ថិភាពមិនសូវតឹងរ៉ឹងគ្រប់គ្រាន់។ បញ្ហានេះកើតឡើងនៅពេលដែល ImageMagickដំណើរការមាតិកា SVG ឬ PostScript ដែលគ្រប់គ្រងដោយអ្នកវាយប្រហារដោយប្រើកូដចម្លង ឬប្រភពដែលមានគ្រោះថ្នាក់។ អ្នកវាយប្រហារអាចអាន ឬសរសេរឯកសារដែលអាចចូលប្រើបានដោយដំណើរការ ImageMagick ដែលអាចនាំឱ្យមានការប្រតិបត្តិលេខកូដតាមអំពើចិត្តនៅក្នុងការដាក់ពង្រាយខ្លះ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខដែលគ្រប់គ្រងកម្មវិធី ឬប្រព័ន្ធបំពង់បង្ហូរទឹក AI ដែលប្រើប្រាស់ ImageMagick អាចប្រឈមមុខនឹងហានិភ័យដូចជាការចូលប្រើឯកសារដោយគ្មានការអនុញ្ញាត។ បច្ចេកវិទ្យាដែលដំណើរការមាតិកាមិនទុកចិត្តអាចនឹងត្រូវប៉ះពាល់សុវត្ថិភាព។",
+   "keyPoints": [
+    "ភាពងាយរងគ្រោះប៉ះពាល់ដល់កម្មវិធីដែលប្រើប្រាស់ ImageMagick ជាមួយនឹងគោលនយោបាយសុវត្ថិភាពមិនតឹងរ៉ឹង។",
+    "បញ្ហាកើតឡើងដោយសារការដំណើរការមាតិកា SVG ឬ PostScript ដែលបានបង្កើតឡើង។",
+    "អ្នកវាយប្រហារអាចអាន ឬសរសេរឯកសារ និងអាចសម្រេចបានការប្រតិបត្តិលេខកូដតាមអំពើចិត្ត។",
+    "សេវាកម្មដែលប្រើប្រាស់ AI និងប្រព័ន្ធគ្រប់គ្រងមាតិកាអាចនឹងត្រូវប្រឈមមុខ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "VU#580079: 具有默认配置的基于 ImageMagick 的应用程序中存在任意文件读写漏洞",
+   "summary": "在使用安全性策略不够严格的 ImageMagick 应用程序中，发现了多个被称为 ImageTragick2 的任意文件读写漏洞。当 ImageMagick 通过其配置允许的危险编码器或委托来处理攻击者控制的 SVG 或 PostScript 内容时，就会出现这些问题。能够让应用程序处理精心构造的图像内容的攻击者，可能读取或写入 ImageMagick 进程可访问的文件，在某些部署中甚至可能实现任意代码执行。",
+   "impact": "维护使用 ImageMagick 的应用程序或容器化管道的开发人员和安全团队可能会面临未授权文件访问或任意代码 execution 的风险。处理来自用户、URL 或 AI 管道的不受信内容的各项技术可能会受到威胁。",
+   "keyPoints": [
+    "漏洞影响使用安全性策略不够严格的 ImageMagick 的应用程序。",
+    "这些问题由处理精心构造的 SVG 或 PostScript 内容触发。",
+    "攻击者可以读取或写入 ImageMagick 进程可访问的文件并可能实现任意代码执行。",
+    "使用 ImageMagick 的启用 AI 的服务和各种内容管理系统可能会面临暴露风险。"
+   ]
+  },
+  "ko": {
+   "title": "VU#580079: 기본 설정이 적용된 ImageMagick 기반 애플리케이션의 임의 파일 읽기/쓰기 취약점",
+   "summary": "충분히 제한적이지 않은 보안 정책을 사용하는 ImageMagick 기반 애플리케이션에서 ImageTragick2로 통칭되는 여러 개의 임의 파일 읽기 및 쓰기 취약점이 확인되었습니다. 이러한 문제는 ImageMagick이 설정에서 허용하는 위험한 코더나 대리자를 사용하여 공격자가 제어하는 SVG 또는 PostScript 콘텐츠를 처리할 때 발생합니다. 조작된 이미지 콘텐츠를 처리하도록 유도할 수 있는 공격자는 ImageMagick 프로세스가 접근할 수 있는 파일을 읽거나 쓸 수 있으며, 일부 배포 환경에서는 임의 코드 실행으로 이어질 수 있습니다.",
+   "impact": "ImageMagick을 사용하는 애플리케이션이나 컨테이너화된 파이프라인을 유지 관리하는 개발자와 보안 팀은 무단 파일 접근 또는 임의 코드 실행 위험에 직면할 수 있습니다. 제한적인 보안 정책 없이 신뢰할 수 없는 콘텐츠를 처리하는 기술은 손상될 수 있습니다.",
+   "keyPoints": [
+    "취약점은 충분히 제한적이지 않은 보안 정책을 사용하는 ImageMagick 애플리케이션에 영향을 미칩니다.",
+    "이 문제는 조작된 SVG 또는 PostScript 콘텐츠 처리로 인해 발생합니다.",
+    "공격자는 ImageMagick 프로세스가 접근할 수 있는 파일을 읽거나 쓸 수 있으며 임의 코드 실행을 달성할 수 있습니다.",
+    "ImageMagick을 사용하는 AI 지원 서비스 및 콘텐츠 관리 시스템이 노출될 수 있습니다."
+   ]
+  }
+ }
+}

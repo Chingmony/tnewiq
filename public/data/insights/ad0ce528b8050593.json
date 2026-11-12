@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ad0ce528b8050593",
+ "contentHash": "7dbf686e0ebdcb31",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-12T20:55:53.878Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Optimizing cost per task and proving agent ROI on Amazon Bedrock",
+   "summary": "This post builds on a previous operating model for Amazon Bedrock spend by addressing how to evaluate whether expenditures were worthwhile. It introduces a framework for calculating true model cost based on cost per task rather than cost per token, highlighting four hidden cost drivers. Additionally, it details techniques for reducing cost per task and methods for measuring agent ROI using human baselines and scorecards.",
+   "impact": "Application and platform engineers could use these optimization techniques and cost frameworks to reduce expenses, while product owners and FinOps partners may apply the ROI scorecard to justify agent spending to leadership.",
+   "keyPoints": [
+    "The approach shifts the focus from cost per token to cost per task, defining a task as one complete unit of work.",
+    "Four hidden cost drivers include tokenizer efficiency, output alignment and verbosity, agentic loop efficiency, and reasoning overhead.",
+    "Techniques for reducing cost per task include caching, routing, and output constraints."
+   ]
+  },
+  "km": {
+   "title": "ការបង្កើនប្រសិទ្ធភាពចំណាយក្នុងមួយកិច្ចការ និងការបង្ហាញពី ROI របស់ភ្នាក់ងារនៅលើ Amazon Bedrock",
+   "summary": "អត្ថបទនេះពន្យល់ពីរបៀបវាយតម្លៃការចំណាយលើ Amazon Bedrock ដោយផ្តោតលើតម្លៃក្នុងមួយកិច្ចការជាជាងតម្លៃក្នុងមួយតូខេន។ វាបង្ហាញពីកត្តាជំរុញការចំណាយលាក់កំបាំងចំនួនបួន និងបច្ចេកទេសកាត់បន្ថយការចំណាយ។ វាក៏បានលើកឡើងពីវិធីសាស្ត្រវាស់វែង ROI របស់ភ្នាក់ងារផងដែរ។",
+   "impact": "វិស្វករកម្មវិធី និងអ្នកគ្រប់គ្រងហិរញ្ញវត្ថុអាចប្រើប្រាស់ក្របខ័ណ្ឌនេះដើម្បីកាត់បន្ថយការចំណាយ និងបង្ហាញពីតម្លៃនៃការប្រើប្រាស់ភ្នាក់ងារដល់ថ្នាក់ដឹកនាំ។",
+   "keyPoints": [
+    "ការគណនាផ្អែកលើតម្លៃក្នុងមួយកិច្ចការជំនួសឱ្យតម្លៃក្នុងមួយតូខេន។",
+    "កត្តាជំរុញការចំណាយលាក់កំបាំងទាំងបួនរួមមាន ប្រសិទ្ធភាពតូខេននីស៊ើ ការតម្រឹមទិន្នផល ប្រសិទ្ធភាពរង្វិលជុំភ្នាក់ងារ និងការចំណាយលើការហេតុផល។",
+    "បច្ចេកទេសកាត់បន្ថយរួមមានការដាក់ឃ្លាំងសម្ងាត់ ការបញ្ជូនបន្ត និងការកំណត់ទិន្នផល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "优化 Amazon Bedrock 上的每个任务成本并验证智能体投资回报率",
+   "summary": "本文建立在先前的 Amazon Bedrock 支出运营模型基础之上，探讨了如何评估支出是否物有所值。文章引入了一个计算真实模型成本的框架，即按任务成本而非代币成本计算，并指出了四个隐藏的成本驱动因素。此外，它还详细介绍了降低任务成本的技术以及衡量智能体投资回报率的方法。",
+   "impact": "应用和平台工程师可以利用这些优化技术和成本框架来减少开支，而产品负责人和 FinOps 合作伙伴则可以使用投资回报率记分卡向领导层证明智能体开支的合理性。",
+   "keyPoints": [
+    "方法将重点从每代币成本转移到每任务成本，将任务定义为一项完整的工作单元。",
+    "四个隐藏的成本驱动因素包括分词器效率、输出对齐与冗长性、智能体循环效率以及推理开销。",
+    "降低每任务成本的技术包括缓存、路由和输出约束。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock에서 작업당 비용 최적화 및 에이전트 ROI 입증",
+   "summary": "이 게시물은 Amazon Bedrock 지출을 제어하기 위한 이전 운영 모델을 바탕으로 지출이 가치가 있었는지 평가하는 방법을 다룹니다. 토큰당 비용이 아닌 작업당 비용을 기준으로 실제 모델 비용을 계산하는 프레임워크를 소개하고 네 가지 숨겨진 비용 동인을 강조합니다. 또한 작업당 비용을 줄이는 기술과 인간 기준선을 사용한 에이전트 ROI 측정 방법을 자세히 설명합니다.",
+   "impact": "애플리케이션 및 플랫폼 엔지니어는 이러한 최적화 기술과 비용 프레임워크를 사용하여 지출을 줄일 수 있으며, 제품 책임자와 FinOps 파트너는 ROI 점수표를 활용하여 리더십에 에이전트 지출의 정당성을 증명할 수 있습니다.",
+   "keyPoints": [
+    "접근 방식의 초점을 토큰당 비용에서 작업당 비용으로 전환합니다.",
+    "네 가지 숨겨진 비용 동인에는 토크나이저 효율성, 출력 정렬 및 장황함, 에이전트 루프 효율성, 추론 오버헤드가 포함됩니다.",
+    "작업당 비용을 절감하는 기술에는 캐싱, 라우팅, 출력 제약 조건이 포함됩니다."
+   ]
+  }
+ }
+}

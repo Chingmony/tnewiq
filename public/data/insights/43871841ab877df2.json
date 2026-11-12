@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "43871841ab877df2",
+ "contentHash": "e2fb5f6b44bc8f90",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-12T20:56:05.259Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Building a self-service LLM gateway with Amazon Bedrock and LiteLLM",
+   "summary": "An AWS Machine Learning Blog post outlines how to build a self-service large language model gateway using Amazon Bedrock Application Inference Profiles and LiteLLM running on AWS Fargate. The pattern abstracts Amazon Bedrock behind an OpenAI-compatible API to provide developers with minimal setup for AI coding assistants. It helps platform, finance, and security teams maintain visibility, cost attribution, and access controls.",
+   "impact": "This architecture could help organizations provide developers with simplified access to foundation models while maintaining centralized visibility, latency monitoring, and per-user cost controls. Security teams may benefit from consistent access controls and scoped IAM task roles.",
+   "keyPoints": [
+    "Uses LiteLLM on AWS Fargate to abstract Amazon Bedrock behind an OpenAI-compatible API.",
+    "Incorporates Amazon RDS for persistent virtual-key and spend state tracking, and Amazon ElastiCache for Valkey for caching and rate-limiting.",
+    "Employs Amazon Bedrock Application Inference Profiles managed via AWS CDK for per-model quota isolation.",
+    "Integrates Langfuse for open source prompt-level telemetry, latency tracking, and debugging alongside Amazon CloudWatch metrics."
+   ]
+  },
+  "km": {
+   "title": "ការបង្កើតច្រកទ្វារ LLM បម្រើខ្លួនឯងជាមួយ Amazon Bedrock និង LiteLLM",
+   "summary": "អត្ថបទប្លក់មួយពី AWS Machine Learning Blog បានបង្ហាញពីរបៀបបង្កើតច្រកទ្វារភាសាខ្នាតធំដោយប្រើប្រាស់ Amazon Bedrock Application Inference Profiles និង LiteLLM ដែលដំណើរការលើ AWS Fargate។ លំនាំនេះលាក់បាំង Amazon Bedrock នៅពីក្រោយ API ដែលស្របគ្នាជាមួយ OpenAI ដើម្បីផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវភាពងាយស្រួលក្នុងការប្រើប្រាស់ជំនួយការសរសេរកូដ AI។ វាជួយឱ្យក្រុមការងារផ្សេងៗអាចរក្សាបាននូវភាពមើលឃើញ ការគ្រប់គ្រងការចំណាយ និងការគ្រប់គ្រងការចូលប្រើប្រាស់។",
+   "impact": "ស្ថាបត្យកម្មនេះអាចជួយឱ្យស្ថាប័ននានាផ្តល់នូវការចូលប្រើប្រាស់ម៉ូដែលមូលដ្ឋានដល់អ្នកអភិវឌ្ឍន៍ ខណៈពេលដែលរក្សាបាននូវការគ្រប់គ្រងការចំណាយក្នុងមនុស្សម្នាក់ៗ និងការតាមដានដំណើរការរបស់ម៉ូដែល។",
+   "keyPoints": [
+    "ប្រើប្រាស់ LiteLLM នៅលើ AWS Fargate ដើម្បីបង្កើត API ដែលស្របគ្នាជាមួយ OpenAI។",
+    "ប្រើប្រាស់ Amazon RDS សម្រាប់ការរក្សាទុកទិន្នន័យ និង Amazon ElastiCache សម្រាប់ដាក់ទិន្នន័យបណ្តោះអាសន្ន។",
+    "ប្រើប្រាស់ Amazon Bedrock Application Inference Profiles ដែលគ្រប់គ្រងតាមរយៈ AWS CDK។",
+    "រួមបញ្ចូល Langfuse សម្រាប់ការតាមដានទិន្នន័យ និងការបំបាត់កំហុសនៅកម្រិតប្រអប់បញ្ចូលសំណើ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 Amazon Bedrock 和 LiteLLM 构建自服务 LLM 网关",
+   "summary": "AWS Machine Learning Blog 发布了一篇关于如何使用 Amazon Bedrock Application Inference Profiles 以及在 AWS Fargate 上运行的 LiteLLM 来构建自服务大语言模型网关的文章。该模式将 Amazon Bedrock 抽象在 OpenAI 兼容的 API 后面，使开发人员能够快速访问基础模型。它可以帮助平台、财务和安全团队保持可见性、成本分摊和一致的访问控制。",
+   "impact": "此架构可以帮助组织为开发人员提供简化的基础模型访问方式，同时保持集中可见性、延迟监控和按用户划分的成本控制。安全团队可以从一致的访问控制和范围明确的 IAM 任务角色中受益。",
+   "keyPoints": [
+    "在 AWS Fargate 上使用 LiteLLM 提供兼容 OpenAI 的 API 代理。",
+    "使用 Amazon RDS 存储持久化状态和spend跟踪，并使用 Amazon ElastiCache for Valkey 进行缓存和速率限制。",
+    "利用通过 AWS CDK 管理的 Amazon Bedrock Application Inference Profiles 实现每个模型的配额隔离。",
+    "结合使用 Langfuse 进行提示级别的遥测、延迟跟踪和调试。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock과 LiteLLM을 활용한 셀프 서비스 LLM 게이트웨이 구축",
+   "summary": "AWS Machine Learning Blog 게시물에서는 Amazon Bedrock Application Inference Profiles와 AWS Fargate에서 실행되는 LiteLLM을 사용하여 셀프 서비스 대형 언어 모델 게이트웨이를 구축하는 방법을 설명합니다. 이 패턴은 Amazon Bedrock을 OpenAI 호환 API 뒤에 추상화하여 개발자가 최소한의 설정으로 AI 코딩 도우미를 사용할 수 있도록 지원합니다. 플랫폼, 재무, 보안 팀은 이를 통해 가시성, 비용 배분, 일관된 접근 제어를 유지할 수 있습니다.",
+   "impact": "이 아키텍처는 조직이 개발자에게 기초 모델에 대한 간소화된 접근 권한을 제공하는 동시에 중앙 집중식 가시성, 지연 시간 모니터링, 사용자별 비용 제어를 유지하는 데 도움을 줄 수 있습니다. 보안 팀은 일관된 접근 제어와 IAM 태스크 역할을 활용할 수 있습니다.",
+   "keyPoints": [
+    "AWS Fargate에서 LiteLLM을 사용하여 OpenAI 호환 API 제공",
+    "영구 상태 및 지출 추적을 위해 Amazon RDS를 사용하고, 캐싱 및 속도 제한을 위해 Amazon ElastiCache for Valkey 활용",
+    "AWS CDK를 통해 관리되는 Amazon Bedrock Application Inference Profiles를 사용하여 모델별 할당량 격리 제공",
+    "Amazon CloudWatch 메트릭과 함께 Langfuse를 통합하여 프롬프트 수준의 텔레메트리, 지연 시간 추적 및 디버깅 수행"
+   ]
+  }
+ }
+}
