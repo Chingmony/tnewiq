@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "aaeee469c7091579",
+ "contentHash": "6a529da59d6a53ae",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T17:50:06.056Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Adapt Human Motion for Robots with NVIDIA SOMA Retargeter",
+   "summary": "Human motion provides a starting point for teaching humanoid robots movement. Human demonstrations capture coordination and timing, but robots cannot simply copy human joint motion. Because robots have different proportions, joint structures, and ranges of motion, movements must be adapted to fit.",
+   "impact": "Developers and roboticists could use motion adaptation tools like NVIDIA SOMA Retargeter to map human demonstrations onto humanoid robots. This may help bridge the gap between natural human movements and differing robotic physical constraints.",
+   "keyPoints": [
+    "Human motion is used as a starting point to teach humanoid robots how to move.",
+    "Demonstrations capture natural coordination and timing for actions.",
+    "Robots have different proportions, joint structures, and ranges of motion compared to humans."
+   ]
+  },
+  "km": {
+   "title": "បន្សាំចលនាមនុស្សសម្រាប់មនុស្សយន្តជាមួយ NVIDIA SOMA Retargeter",
+   "summary": "ចលនាមនុស្សផ្តល់នូវចំណុចចាប់ផ្តើមដ៏ល្អមួយសម្រាប់ការបង្រៀនមនុស្សយន្តឱ្យចេះធ្វើចលនា។ ការបង្ហាញរបស់មនុស្សចាប់យកការសម្របសម្រួល និងពេលវេលានៅពីក្រោយចលនាធម្មជាតិ ប៉ុន្តែមនុស្សយន្តមិនអាចគ្រាន់តែចម្លងចលនាសន្លាក់ដូចគ្នានោះទេ។ ដោយសារសមាមាត្រ រចនាសម្ព័ន្ធសន្លាក់ និងដែនកំណត់នៃចលនារបស់ពួកវាខុសគ្នា ចលនាទាំងនោះត្រូវតែត្រូវបានបន្សាំឱ្យស្របគ្នា។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកជំនាញមនុស្សយន្តអាចប្រើប្រាស់ឧបករណ៍បន្សាំចលនាដើម្បីផែនទីការបង្ហាញរបស់មនុស្សទៅលើមនុស្សយន្ត។ នេះអាចជួយសម្រួលដល់ការបំពាក់ចលនាធម្មជាតិទៅលើមនុស្សយន្តដែលមានដែនកំណត់រាងកាយខុសគ្នា។",
+   "keyPoints": [
+    "ចលនាមនុស្សត្រូវបានប្រើជាចំណុចចាប់ផ្តើមដើម្បីបង្រៀនមនុស្សយន្តឱ្យចេះធ្វើចលនា។",
+    "ការបង្ហាញចាប់យកការសម្របសម្រួល និងពេលវេលាធម្មជាតិសម្រាប់ការអនុវត្ត។",
+    "មនុស្សយន្តមានសមាមាត្រ រចនាសម្ព័ន្ធសន្លាក់ និងដែនកំណត់ចលនាខុសពីមនុស្ស។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 NVIDIA SOMA Retargeter 为机器人适配人类动作",
+   "summary": "人类动作为机器人学者教导人形机器人如何移动提供了一个很好的起点。人类演示捕捉了自然动作背后的协调性和时间节奏，但机器人不能简单地复制人类的相同关节运动。由于它们的比例、关节结构和活动范围不同，运动需要进行调整以适应。",
+   "impact": "开发者和机器人专家可以使用 NVIDIA SOMA Retargeter 等运动适配工具将人类演示映射到人形机器人上。这可能有助于弥合自然人类动作与不同机器人身体限制之间的差距。",
+   "keyPoints": [
+    "人类动作被用作教导人形机器人如何移动的起点。",
+    "演示捕捉了自然动作的协调性和时间节奏。",
+    "机器人的比例、关节结构和活动范围与人类不同。"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA SOMA Retargeter를 사용하여 로봇에 인간 모션 적용",
+   "summary": "인간의 모션은 로봇학자들이 휴머노이드 로봇에게 이동 방법을 가르치는 훌륭한 시작점을 제공합니다. 인간의 시연은 자연스러운 움직임 이면의 협응과 타이밍을 포착하지만, 로봇은 인간의 관절 움직임을 그대로 복사할 수 없습니다. 로봇은 신체 비율, 관절 구조, 가동 범위가 다르기 때문에 움직임을 맞게 조정해야 합니다.",
+   "impact": "개발자와 로봇 공학자들은 모션 적응 도구를 사용하여 인간의 시연을 휴머노이드 로봇에 매핑할 수 있습니다. 이는 자연스러운 인간의 움직임과 서로 다른 로봇의 물리적 제약 사이의 간극을 좁히는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "인간의 모션은 휴머노이드 로봇에게 이동 방법을 가르치는 시작점으로 사용됩니다.",
+    "시연은 자연스러운 움직임의 협응과 타이밍을 포착합니다.",
+    "로봇은 인간과 다른 비율, 관절 구조, 가동 범위를 가지고 있습니다."
+   ]
+  }
+ }
+}

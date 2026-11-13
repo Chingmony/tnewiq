@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d8cc2172e29e81d0",
+ "contentHash": "16b59068b195c21a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T17:50:33.147Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+   "summary": "PostgreSQL released updates addressing 52 security flaws, including a 22-year-old type confusion vulnerability tracked as CVE-2026-6460 with a CVSS score of 8.8. The flaw allows a database user who can create objects to execute code on the server with operating system rights. Full protection requires both applying the updates and rebuilding installed C-language extensions.",
+   "impact": "Developers and security teams may need to apply the latest updates promptly and rebuild C-language extensions to fully mitigate the risk of authenticated remote code execution.",
+   "keyPoints": [
+    "PostgreSQL fixed 52 security flaws in total.",
+    "CVE-2026-6460 is a type confusion flaw with a CVSS score of 8.8.",
+    "The bug allows code execution on the server with operating system rights.",
+    "Full protection requires rebuilding installed C-language extensions."
+   ]
+  },
+  "km": {
+   "title": "PostgreSQL កែសម្រួលកំហុសចំនួន ៥២ រួមទាំងបញ្ហាអាយុ ២២ ឆ្នាំ ដែលអនុញ្ញាតឱ្យមានការប្រតិបត្តិការកូដពីចម្ងាយដោយបានផ្ទៀងផ្ទាត់",
+   "summary": "ប្រព័ន្ធ PostgreSQL បានចេញដំណើរការអាប់ដេតដើម្បីដោះស្រាយបញ្ហាសុវត្ថិភាពចំនួន ៥២ រួមទាំងខ្សោយភាពច្រឡំប្រភេទដែលមានអាយុ ២២ ឆ្នាំ តាមដានដោយ CVE-2026-6460 ដែលមានពិន្ទុ CVSS ៨.៨។ កំហុសនេះអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់មូលដ្ឋានទិន្នន័យដែលអាចបង្កើតវត្ថុដើម្បីដំណើរការកូដនៅលើម៉ាស៊ីនបម្រើ។ ការការពារពេញលេញទាមទារទាំងការអាប់ដេត និងការបង្កើតផ្នែកបន្ថែមភាសា C ឡើងវិញ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍អាចចាំបាច់ត្រូវអនុវត្តការអាប់ដេតថ្មីនិងបង្កើតផ្នែកបន្ថែមភាសា C ឡើងវិញ ដើម្បីការពារហានិភ័យនៃការប្រតិបត្តិការកូដ។",
+   "keyPoints": [
+    "PostgreSQL បានកែសម្រួលកំហុសសុវត្ថិភាពចំនួន ៥២។",
+    "CVE-2026-6460 មានពិន្ទុ CVSS ៨.៨។",
+    "កំហុសនេះអនុញ្ញាតឱ្យដំណើរការកូដនៅលើម៉ាស៊ីនបម្រើជាមួយសិទ្ធិប្រព័ន្ធប្រតិបត្តិការ។",
+    "តម្រូវឱ្យបង្កើតផ្នែកបន្ថែមភាសា C ឡើងវិញដើម្បីការពារពេញលេញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "PostgreSQL 修复了 52 个漏洞，其中包括一个允许经过身份验证的 RCE 的 22 年历史漏洞",
+   "summary": "PostgreSQL 发布了更新以解决 52 个安全漏洞，其中包括一个追踪编号为 CVE-2026-6460、CVSS 评分为 8.8 的 22 年历史类型混淆漏洞。该漏洞允许能够创建对象的数据库用户在服务器上运行代码。全面防御该漏洞还需要重新构建服务器上安装的 C 语言扩展。",
+   "impact": "开发人员和安全团队可能需要及时应用最新更新并重新构建 C 语言扩展，以完全降低经过身份验证的远程代码执行风险。",
+   "keyPoints": [
+    "PostgreSQL 共修复了 52 个安全漏洞。",
+    "CVE-2026-6460 是一个 CVSS 评分为 8.8 的类型混淆漏洞。",
+    "该漏洞允许以操作系统权限在服务器上运行代码。",
+    "完全保护需要重新构建已安装的 C 语言扩展。"
+   ]
+  },
+  "ko": {
+   "title": "PostgreSQL, 인증된 원격 코드 실행이 가능한 22년 된 버그를 포함해 52개 취약점 패치",
+   "summary": "PostgreSQL은 CVSS 점수 8.8인 CVE-2026-6460을 포함하여 52개의 보안 결함을 해결하는 업데이트를 발표했습니다. 이 결함은 객체를 생성할 수 있는 데이터베이스 사용자가 서버에서 코드를 실행할 수 있도록 허용합니다. 완전한 보호를 위해서는 업데이트 적용과 함께 서버에 설치된 C 언어 확장 프로그램을 다시 빌드해야 합니다.",
+   "impact": "개발자와 보안 팀은 인증된 원격 코드 실행 위험을 완전히 완화하기 위해 최신 업데이트를 신속하게 적용하고 C 언어 확장 프로그램을 다시 빌드해야 할 수 있습니다.",
+   "keyPoints": [
+    "PostgreSQL은 총 52개의 보안 결함을 수정했습니다.",
+    "CVE-2026-6460은 CVSS 점수 8.8의 형식 혼동 결함입니다.",
+    "이 버그는 운영 체제 권한으로 서버에서 코드를 실행할 수 있게 합니다.",
+    "완전한 보호를 위해서는 C 언어 확장 프로그램 재빌드가 필요합니다."
+   ]
+  }
+ }
+}

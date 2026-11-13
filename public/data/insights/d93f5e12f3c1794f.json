@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d93f5e12f3c1794f",
+ "contentHash": "e973cc53018c4630",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T17:52:21.561Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+   "summary": "Two newly disclosed attacks, named Mior and Skyfall, allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines. Mior can also modify virtual machine memory and fake the signed report that confirms which software is running. Both attacks require control of the server hypervisor, while Mior additionally requires control of the server BIOS.",
+   "impact": "These attacks could matter to security teams and cloud users because they undermine the isolation guarantees of AMD SEV-SNP virtual machines. Organizations relying on these hardware-protected environments may need to reassess their trust in cloud hosts.",
+   "keyPoints": [
+    "Mior and Skyfall attacks target AMD SEV-SNP-protected virtual machines.",
+    "Mior can read data, modify virtual machine memory, and fake signed software reports.",
+    "Both attacks require control of the server hypervisor.",
+    "Mior also requires control of the server BIOS."
+   ]
+  },
+  "km": {
+   "title": "ការវាយប្រហារ Mior និង Skyfall ថ្មីអនុញ្ញាតឱ្យហូស៍ពពកទុច្ចរិតលួចទិន្នន័យសម្ងាត់ពី AMD SEV-SNP VMs",
+   "summary": "ការវាយប្រហារពីរដែលបានប្រកាសជាសាធារណៈអនុញ្ញាតឱ្យហូស៍ទុច្ចរិតអានទិន្នន័យខាងក្នុងម៉ាស៊ីននិម្មិតដែលការពារដោយ AMD SEV-SNP ។ Mior ក៏អាចកែប្រែអង្គចងចាំម៉ាស៊ីននិម្មិត និងក្លែងបន្លំរបាយការណ៍ដែលបានចុះហត្ថលេខាផងដែរ ។ ការវាយប្រហារទាំងពីរទាមទារការគ្រប់គ្រងលើ hypervisor របស់ម៉ាស៊ីនបម្រើ ។",
+   "impact": "បញ្ហានេះអាចប៉ះពាល់ដល់ក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់ពពក ដោយសារវាប៉ះពាល់ដល់កម្រិតសុវត្ថិភាពនៃម៉ាស៊ីននិម្មិត AMD SEV-SNP ។ អង្គភាពនានាអាចចាំបាច់ត្រូវពិនិត្យឡើងវិញនូវការទុកចិត្តលើហូស៍ពពក ។",
+   "keyPoints": [
+    "ការវាយប្រហារ Mior និង Skyfall កំណត់គោលដៅលើ AMD SEV-SNP VMs ។",
+    "Mior អាចអានទិន្នន័យ កែប្រែអង្គចងចាំ និងក្លែងបន្លំរបាយការណ៍ ។",
+    "ការវាយប្រហារទាំងពីរត្រូវការការគ្រប់គ្រង hypervisor ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "新型 Mior 和 Skyfall 攻击使恶意云主机能够窃取 AMD SEV-SNP VM 的机密",
+   "summary": "本周公开的两项攻击允许恶意主机读取受 AMD SEV-SNP 保护的虚拟机内部的数据。其中名为 Mior 的攻击还可以修改虚拟机的内存并伪造确认其运行软件的签名报告。这两项攻击都需要控制服务器的虚拟机监控程序，Mior 还需要控制服务器的 BIOS。",
+   "impact": "这些攻击可能会对安全团队和云用户产生影响，因为它们破坏了 AMD SEV-SNP 虚拟机的隔离保证。依赖这些受硬件保护的环境的组织可能需要重新评估对云主机的信任。",
+   "keyPoints": [
+    "Mior 和 Skyfall 攻击目标为 AMD SEV-SNP 保护的虚拟机。",
+    "Mior 可以读取数据、修改虚拟机内存并伪造签名的软件报告。",
+    "两项攻击都需要控制服务器的虚拟机监控程序。",
+    "Mior 额外需要控制服务器的 BIOS。"
+   ]
+  },
+  "ko": {
+   "title": "새로운 Mior 및 Skyfall 공격으로 악성 클라우드 호스트가 AMD SEV-SNP VM에서 기밀 탈취 가능",
+   "summary": "이번 주 공개된 두 가지 공격을 통해 악의적인 호스트가 서버 운영자를 차단하도록 설계된 AMD SEV-SNP 보호 가상 머신 내부의 데이터를 읽을 수 있게 되었습니다. 그중 Mior는 가상 머신의 메모리를 수정하고 실행 중인 소프트웨어를 확인하는 서명된 보고서를 위조할 수도 있습니다. 두 공격 모두 서버 하이퍼바이저에 대한 제어 권한이 필요하며, Mior는 서버 BIOS 제어 권한도 필요로 합니다.",
+   "impact": "이러한 공격은 AMD SEV-SNP 가상 머신의 격리 보장을 약화시키므로 보안 팀과 기술 사용자에게 중요할 수 있습니다. 이러한 하드웨어 보호 환경에 의존하는 조직은 클라우드 호스트에 대한 신뢰를 재평가해야 할 수 있습니다.",
+   "keyPoints": [
+    "Mior 및 Skyfall 공격은 AMD SEV-SNP 보호 가상 머신을 대상으로 함.",
+    "Mior는 데이터를 읽고, 가상 머신 메모리를 수정하며, 서명된 소프트웨어 보고서를 위조할 수 있음.",
+    "두 공격 모두 서버 하이퍼바이저 제어 권한이 필요함.",
+    "Mior는 추가로 서버 BIOS 제어 권한이 필요함."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a17ef475e2c86f35",
+ "contentHash": "bdf0774c798ec1c4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T17:49:39.880Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
+   "summary": "Running frontier-scale models locally requires keeping all weights in GPU memory as the largest models no longer fit on a single machine. Two NVIDIA DGX Stations connected over ConnectX-8 RDMA serve the NVIDIA GLM-5.3 NVFP4 model through a single endpoint. Tensor parallelism splits the model weights and computation across both GPUs.",
+   "impact": "This setup could help developers and technology users run large quantized models like GLM-5.3 locally by utilizing distributed hardware. It may also provide a framework for scaling infrastructure when a single machine is insufficient.",
+   "keyPoints": [
+    "The largest frontier-scale models no longer fit on one machine.",
+    "Two NVIDIA DGX Stations are connected via ConnectX-8 RDMA.",
+    "Tensor parallelism splits model weights and computation across GPUs.",
+    "The NVIDIA GLM-5.3 NVFP4 model is a quantized version of Z.ai's mixture-of- model served through a single endpoint."
+   ]
+  },
+  "km": {
+   "title": "ពេលដែល GPU មួយមិនគ្រប់គ្រាន់៖ ការបម្រើ GLM-5.3 លើ NVIDIA DGX Stations ពីរជាមួយ vLLM",
+   "summary": "ការដំណើរការម៉ូដែលខ្នាតធំក្នុងស្រុកតម្រូវឱ្យរក្សាទម្ងន់ទាំងអស់នៅក្នុងអង្គចងចាំ GPU ព្រោះម៉ូដែលធំៗមិនអាចដាក់លើម៉ាស៊ីនតែមួយទៀតទេ។ NVIDIA DGX Stations ពីរដែលបានតភ្ជាប់តាមរយៈ ConnectX-8 RDMA បម្រើម៉ូដែលតែមួយតាមរយៈចំណុចបញ្ចប់តែមួយ។ ភាពស្របគ្នានៃ tensor បែងចែកទម្ងន់ម៉ូដែល និងការគណនានៅទូទាំង GPU ទាំងពីរ។",
+   "impact": "ការដំឡើងនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដំណើរការម៉ូដែលបរិមាណធំក្នុងស្រុកដោយប្រើប្រាស់ hardware ចែកចាយ។ វា​ក៏​អាច​ផ្តល់​នូវ​ក្របខ័ណ្ឌ​មួយ​សម្រាប់​ការពង្រីក​ហេដ្ឋារចនាសម្ព័ន្ធ​ផងដែរ។",
+   "keyPoints": [
+    "ម៉ូដែលខ្នាតធំជាងគេលែងដាក់លើម៉ាស៊ីនតែមួយទៀតហើយ។",
+    "NVIDIA DGX Stations ពីរត្រូវបានតភ្ជាប់តាមរយៈ ConnectX-8 RDMA។",
+    "Tensor parallelism បែងចែកទម្ងន់ម៉ូដែល និងការគណនាទូទាំង GPUs។",
+    "ម៉ូដែល NVIDIA GLM-5.3 NVFP4 ត្រូវបានបម្រើតាមរយៈចំណុចបញ្ចប់តែមួយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "当单个 GPU 不够用时：使用 vLLM 在两个 NVIDIA DGX Stations 上部署 GLM-5.3",
+   "summary": "在本地运行前沿级模型意味着需要将所有权重保留在 GPU 内存中，因为最大的模型已无法容纳在一台机器上。两台通过 ConnectX-8 RDMA 连接的 NVIDIA DGX Stations 通过单个端点提供一个模型的服务，并通过张量并行将模型权重和计算分散到两个 GPU 上。NVIDIA GLM-5.3 NVFP4 模型是一个量化版本，通过单个端点进行服务。",
+   "impact": "此设置可以帮助开发者和技术用户利用分布式硬件在本地运行大型量化模型（如 GLM-5.3）。当单台机器不足时，它也可能为扩展基础设施提供参考框架。",
+   "keyPoints": [
+    "最大的前沿级模型已无法容纳在一台机器上。",
+    "两台 NVIDIA DGX Stations 通过 ConnectX-8 RDMA 连接。",
+    "张量并行在多个 GPU 之间拆分模型权重和计算。",
+    "NVIDIA GLM-5.3 NVFP4 模型通过单个端点对外提供服务。"
+   ]
+  },
+  "ko": {
+   "title": "하나의 GPU로 충분하지 않을 때: vLLM을 사용하여 두 개의 NVIDIA DGX Stations에서 GLM-5.3 서빙하기",
+   "summary": "최첨단 규모의 모델을 로컬에서 실행하려면 가장 큰 모델이 더 이상 단일 머신에 맞지 않기 때문에 모든 가중치를 GPU 메모리에 유지해야 합니다. ConnectX-8 RDMA를 통해 연결된 두 개의 NVIDIA DGX Stations가 단일 엔드포인트를 통해 하나의 모델을 서빙하며 텐서 병렬 처리가 양쪽 GPU에 모델 가중치와 연산을 분할합니다. NVIDIA GLM-5.3 NVFP4 모델은 단일 엔드포인트를 통해 서빙되는 양자화된 모델입니다.",
+   "impact": "이 설정은 개발자와 기술 사용자가 분산 하드웨어를 활용하여 GLM-5.3과 같은 대규모 양자화 모델을 로컬에서 실행하는 데 도움이 될 수 있습니다. 단일 머신이 부족할 때 인프라를 확장하기 위한 프레임워크를 제공할 수도 있습니다.",
+   "keyPoints": [
+    "가장 큰 최첨단 규모의 모델은 더 이상 단일 머신에 맞지 않습니다.",
+    "두 개의 NVIDIA DGX Stations가 ConnectX-8 RDMA로 연결됩니다.",
+    "텐서 병렬 처리가 GPU 간에 모델 가중치와 연산을 분할합니다.",
+    "NVIDIA GLM-5.3 NVFP4 모델은 단일 엔드포인트를 통해 제공됩니다."
+   ]
+  }
+ }
+}
