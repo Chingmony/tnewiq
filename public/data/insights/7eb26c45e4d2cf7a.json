@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7eb26c45e4d2cf7a",
+ "contentHash": "68a64fc87eb04370",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T01:56:06.826Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
+   "summary": "Amazon announced that SGLang-Neuron is publicly available through an AWS Deep Learning Container, released by RadixArk in collaboration with Annapurna Labs. The tool allows users to serve models and generate reinforcement learning rollouts with SGLang on AWS Trainium chips using familiar SGLang workflows and interfaces. SGLang-Neuron operates as an out-of-tree plugin connecting SGLang with AWS Trainium via native PyTorch and the Neuron Kernel Interface.",
+   "impact": "Developers and technology users working with large language models could benefit from improved economics and faster iteration when scaling AI training and inference on AWS Trainium. Security and infrastructure teams may find that using familiar SGLang interfaces and standard PyTorch operations simplifies the integration of new hardware into existing workflows.",
+   "keyPoints": [
+    "SGLang-Neuron is now publicly available via an AWS Deep Learning Container.",
+    "The out-of-tree plugin connects SGLang with AWS Trainium using native PyTorch.",
+    "It supports features like PD disaggregation using NIXL over Elastic Fabric Adapter.",
+    "Users can launch models using the standard SGLang server interface and generation APIs."
+   ]
+  },
+  "km": {
+   "title": "ដាក់ឱ្យប្រើប្រាស់ម៉ូដែល AI ជំនាន់ថ្មីនៅលើ AWS Trainium ជាមួយ SGLang-Neuron",
+   "summary": "ក្រុមហ៊ុន Amazon បានប្រកាសថា SGLang-Neuron ដាក់ឱ្យប្រើប្រាស់ជាសាធារណៈតាមរយៈ AWS Deep Learning Container ដែលត្រូវបានចេញផ្សាយដោយ RadixArk សហការជាមួយ Annapurna Labs។ ឧបករណ៍នេះអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់បម្រើម៉ូដែល និងបង្កើតការរមូររៀនពង្រឹង (RL) ជាមួយ SGLang នៅលើ AWS Trainium ដោយប្រើចំណុចប្រទាក់ SGLang ដូចធម្មតា។ SGLang-Neuron ដំណើរការជា ප്ലាកអ៊ីនក្រៅដើម ដែលភ្ជាប់ SGLang ទៅនឹង AWS Trainium តាមរយៈ PyTorch ផ្ទាល់។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលធ្វើការជាមួយម៉ូដែលភាសាខ្នាតធំអាចទទួលបានផលចំណេញពីសេដ្ឋកិច្ចប្រសើរជាងមុន និងការធ្វើម្តងទៀតលឿនជាងមុន នៅពេលពង្រីកការបណ្តុះបណ្តាល AI និងការសន្និដ្ឋាននៅលើ AWS Trainium។ ក្រុមសន្តិសុខ និងហេដ្ឋារចនាសម្ព័ន្ធអាចរកឃើញថាការប្រើប្រាស់ចំណុចប្រទាក់ SGLang ដែលធ្លាប់ស្គាល់ជួយសម្រួលដល់ការរួមបញ្ចូលផ្នែករឹងថ្មី។",
+   "keyPoints": [
+    "SGLang-Neuron ឥឡូវនេះមានជាសាធារណៈតាមរយៈ AWS Deep Learning Container។",
+    "វាជាបណ្តុំកម្មវិធីជំនួយដែលភ្ជាប់ SGLang ជាមួយ AWS Trainium ដោយប្រើ PyTorch ផ្ទាល់។",
+    "វាគាំទ្រការបំបែក PD ដោយប្រើ NIXL ឆ្លងកាត់ Elastic Fabric Adapter។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在 AWS Trainium 上使用 SGLang-Neuron 部署前沿 AI 模型",
+   "summary": "亚马逊宣布 SGLang-Neuron 现已公开可用，可通过 RadixArk 与 Annapurna Labs 合作发布的 AWS 深度学习容器进行访问。通过 SGLang-Neuron，用户可以使用熟悉的 SGLang 界面在 AWS Trainium 上部署模型并生成强化学习 (RL) 展开。SGLang-Neuron 作为一个树外插件运行，通过原生 PyTorch 将 SGLang 与 AWS Trainium 连接起来。",
+   "impact": "使用大语言模型的开发人员和技术用户可以在 AWS Trainium 上扩展 AI 训练和推理时，获得更好的经济效益和更快的迭代速度。安全和基础设施团队可能会发现，使用熟悉的 SGLang 界面和标准 PyTorch 操作能够简化将新硬件整合到现有工作流中的过程。",
+   "keyPoints": [
+    "SGLang-Neuron 现已通过 AWS 深度学习容器公开可用。",
+    "该树外插件使用原生 PyTorch 将 SGLang 与 AWS Trainium 连接。",
+    "它支持通过 Elastic Fabric Adapter 上的 NIXL 进行 PD 分离。",
+    "用户可以通过 SGLang 的标准服务器界面和生成 API 启动模型。"
+   ]
+  },
+  "ko": {
+   "title": "SGLang-Neuron을 사용하여 AWS Trainium에 최첨단 AI 모델 배포",
+   "summary": "아마존은 RadixArk가 Annapurna Labs와 협력하여 출시한 AWS Deep Learning Container를 통해 SGLang-Neuron을 공개적으로 이용할 수 있다고 발표했습니다. SGLang-Neuron을 사용하면 사용자는 기존과 동일한 SGLang 인터페이스를 사용하여 AWS Trainium에서 모델을 서빙하고 강화 학습 롤아웃을 생성할 수 있습니다. SGLang-Neuron은 네이티브 PyTorch를 통해 SGLang을 AWS Trainium과 연결하는 외부 플러그인으로 작동합니다.",
+   "impact": "대형 언어 모델을 다루는 개발자와 기술 사용자는 AWS Trainium에서 AI 학습 및 추론을 확장할 때 향상된 경제성과 빠른 반복 속도의 혜택을 누릴 수 있습니다. 보안 및 인프라 팀은 익숙한 SGLang 인터페이스와 표준 PyTorch 작업을 사용하여 새로운 하드웨어를 기존 워크플로에 더 쉽게 통합할 수 있음을 알게 될 것입니다.",
+   "keyPoints": [
+    "SGLang-Neuron은 이제 AWS Deep Learning Container를 통해 공개적으로 제공됩니다.",
+    "이 외부 플러그인은 네이티브 PyTorch를 사용하여 SGLang을 AWS Trainium에 연결합니다.",
+    "Elastic Fabric Adapter를 통한 NIXL 기반의 PD 분리를 지원합니다.",
+    "사용자는 표준 SGLang 서버 인터페이스 및 생성 API를 사용하여 모델을 실행할 수 있습니다."
+   ]
+  }
+ }
+}

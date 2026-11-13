@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f6458e3ef2eaed6e",
+ "contentHash": "0c2a294f47109545",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T01:54:31.889Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Tech Enthusiast Weekly (Issue 419): Server Rooms Arrive, Office Buildings Leave",
+   "summary": "This week's tech briefing covers the shift of intelligence production to data centers, the application of the Nyquist Limit to AI coding, and a security flaw found in a fingerprint-encrypted USB drive. It also highlights several technology news items including a conveyor-belt keyboard and a foot-soaking basin patent for cars, alongside various developer tools and resources.",
+   "impact": "Security teams may want to review physical hardware security assumptions after discovering that certain fingerprint-encrypted drives rely on unencrypted standard SD cards. Developers and teams heavily utilizing AI code generation should consider maintaining a sufficient code-reading frequency to prevent codebase distortion.",
+   "keyPoints": [
+    "Data centers, particularly in locations like Ulanqab, are becoming the new CBDs for AI and large language models, potentially reducing the demand for physical office spaces.",
+    "The Nyquist Limit suggests code reading frequency must be at least twice the frequency of AI code modifications to maintain code understanding.",
+    "A fingerprint-encrypted USB drive was found to contain an unencrypted internal SD card, rendering the hardware security feature easily bypassable.",
+    "Google's Japan team introduced a conveyor-belt keyboard concept where keys scroll past the user's fingers."
+   ]
+  },
+  "km": {
+   "title": "ព្រឹត្តិបត្រអ្នកគាំទ្របច្ចេកវិទ្យា (លេខ ៤១៩៖ បន្ទប់ម៉ាស៊ីនមេមកដល់ អគារការិយាល័យចាកចេញ)",
+   "summary": "សេចក្តីសង្ខេបបច្ចេកវិទ្យាសប្តាហ៍នេះគ្របដណ្តប់លើការផ្លាស់ប្តូរការផលិតបញ្ញាទៅកាន់មជ្ឈមណ្ឌលទិន្នន័យ ការអនុវត្តដែនកំណត់ Nyquist ចំពោះការសរសេរកូដដោយ AI និងកំហុសសុវត្ថិភាពដែលបានរកឃើញនៅលើថាសយូអេសប៊ីអ៊ិនគ្រីបស្នាមម្រាមដៃ។ វាក៏បានលើកឡើងផងដែរអំពីព័ត៌មានបច្ចេកវិទ្យាផ្សេងៗ រួមទាំងក្តារចុចខ្សែក្រវ៉ាត់បញ្ជូន និងប៉ាតង់អាងត្រាំជើងសម្រាប់រថយន្ត ព្រមទាំងឧបករណ៍ និងធនធានអ្នកអភិវឌ្ឍន៍ផ្សេងទៀត។",
+   "impact": "ក្រុមសុវត្ថិភាពអាចនឹងចង់ពិនិត្យមើលឡើងវិញនូវការសន្មត់សុវត្ថិភាពផ្នែករឹងខាងរូបវន្ត បន្ទាប់ពីរកឃើញថាថាសអ៊ិនគ្រីបស្នាមម្រាមដៃមួយចំនួនពឹងផ្អែកលើកាត SD ស្តង់ដារដែលមិនបានអ៊ិនគ្រីប។ អ្នកអភិវឌ្ឍន៍ និងក្រុមការងារដែលប្រើប្រាស់ការបង្កើតកូដ AI យ៉ាងខ្លាំងគួរតែពិចារណាថែរក្សាប្រេកង់អានកូដឱ្យបានគ្រប់គ្រាន់ដើម្បីការពារការបាត់បង់ការយល់ដឹងពីកូដបេន។",
+   "keyPoints": [
+    "មជ្ឈមណ្ឌលទិន្នន័យ ជាពិសេសនៅកន្លែងដូចជា 乌兰察布 កំពុងតែក្លាយជាមជ្ឈមណ្ឌលពាណិជ្ជកម្មកណ្តាលថ្មីសម្រាប់ AI និងម៉ូដែលភាសាខ្នាតធំ ដែលអាចកាត់បន្ថយតម្រូវការសម្រាប់កន្លែងការិយាល័យរូបវន្ត។",
+    "ដែនកំណត់ Nyquistស្នើថា ប្រេកង់អានកូដត្រូវតែមានយ៉ាងហោចណាស់ពីរដងនៃប្រេកង់នៃការកែប្រែកូដ AI ដើម្បីរក្សាការយល់ដឹងពីកូដ។",
+    "ថាសយូអេសប៊ីអ៊ិនគ្រីបស្នាមម្រាមដៃត្រូវបានរកឃើញថាមានកាត SD ខាងក្នុងដែលមិនបានអ៊ិនគ្រីប ដែលធ្វើឱ្យលក្ខណៈពិសេសសុវត្ថិភាពផ្នែករឹងងាយស្រួលរំលង។",
+    "ក្រុមការងារ Google ប្រទេសជប៉ុនបានណែនាំគំនិតក្តារចុចខ្សែក្រវ៉ាត់បញ្ជូនដែលគ្រាប់ចុចរំកិលឆ្លងកាត់ម្រាមដៃរបស់អ្នកប្រើប្រាស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "科技爱好者周刊（第 419 期）：机房来了，写字楼走了",
+   "summary": "本期科技简报涵盖了智力产出向数据中心转移的趋势、奈奎斯特极限在AI编程中的应用，以及一款指纹加密U盘被发现内部仅为普通SD卡的漏洞。同时，文章还介绍了流水线键盘、车载泡脚盆等科技动态，以及多款开发者工具与资源。",
+   "impact": "安全团队在发现某些宣称加密的硬件设备仅依赖内部未加密的SD卡后，可能会重新评估物理硬件的安全假设。重度依赖AI代码生成的开发团队需要注意保持足够的代码阅读频率，以防对代码库失去理解从而导致代码失真。",
+   "keyPoints": [
+    "以乌兰察布为代表的数据中心正在成为AI时代的全新CBD，智力成果的主要生产场所正转向机房，这可能导致传统写字楼需求过剩。",
+    "奈奎斯特极限指出，阅读代码的频率必须至少是AI代码改动频率的两倍，否则团队将对代码库失去理解并陷入失真状态。",
+    "一款带有指纹传感器的加密U盘被拆解后发现，其内部存储介质只是一块普通且未加密的SD卡，导致加密措施形同虚设。",
+    "谷歌日本开发团队推出了今年奇特的流水线键盘，通过传送带让按键循环滚动，让用户无需移动手指即可打字。"
+   ]
+  },
+  "ko": {
+   "title": "기술 애호가 주간지 (제419호): 서버실이 오고, 사무실 빌딩이 떠난다",
+   "summary": "이번 주 기술 브리핑은 지능형 생산의 데이터 센터 이전, AI 코딩에 나이퀴스트 한계 적용, 지문 암호화 USB 드라이브에서 발견된 보안 결함을 다룹니다. 또한 컨베이어 벨트 키보드와 자동차용 족욕기 특허를 비롯한 여러 기술 뉴스와 개발자 도구 및 리소스를 소개합니다.",
+   "impact": "보안 팀은 지문 암호화 드라이브가 암호화되지 않은 일반 SD 카드에 의존한다는 사실이 밝혀진 후 물리적 하드웨어 보안 가정을 재검토할 수 있습니다. AI 코드 생성에 크게 의존하는 개발자와 팀은 코드베이스에 대한 이해를 잃지 않도록 충분한 코드 읽기 빈도를 유지하는 것을 고려해야 합니다.",
+   "keyPoints": [
+    "우란차브 같은 지역의 데이터 센터는 AI와 대규모 언어 모델을 위한 새로운 중심업무지구(CBD)가 되고 있으며, 물리적 사무실 공간에 대한 수요를 줄일 수 있습니다.",
+    "나이퀴스트 한계는 코드 이해를 유지하기 위해 코드 읽기 빈도가 AI 코드 수정 빈도의 최소 두 배여야 함을 시사합니다.",
+    "지문 암호화 USB 드라이브 내부에서 암호화되지 않은 SD 카드가 발견되어 하드웨어 보안 기능이 쉽게 우회될 수 있음이 드러났습니다.",
+    "구글 일본 팀은 키가 사용자의 손가락 아래로 순환하여 지나가는 컨베이어 벨트 키보드 개념을 선보였습니다."
+   ]
+  }
+ }
+}

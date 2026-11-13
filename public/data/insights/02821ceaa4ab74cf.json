@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "02821ceaa4ab74cf",
+ "contentHash": "5f7bf4f0956d3100",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T01:57:51.780Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Four Amazon Bedrock inference choices that affect cost",
+   "summary": "Amazon Bedrock inference bills can be influenced by request-level choices such as cache duration, service tier, reasoning effort, and maxTokens. These options affect token processing and rates without requiring model or prompt changes. Testing and response metadata, logs, and billing data can help verify these financial impacts.",
+   "impact": "Developers and technology teams could optimize their cloud spending by carefully configuring parameters like cache duration and reasoning effort. Security and engineering teams may need to monitor token usage and metadata closely to ensure that caching strategies are performing as expected.",
+   "keyPoints": [
+    "Cache duration, service tier, reasoning effort, and maxTokens affect Amazon Bedrock inference costs.",
+    "Response metadata, logs, and billing data help verify the effect of these choices.",
+    "Prompt caching rates vary by duration and model type, impacting break-even points for reused prefixes.",
+    "Changing cached content causes a cache miss and triggers a new write."
+   ]
+  },
+  "km": {
+   "title": "ជម្រើសទាញសេចក្តីសន្និដ្ឋានចំនួនបួនរបស់ Amazon Bedrock ដែលប៉ះពាល់ដល់ការចំណាយ",
+   "summary": "វិក្កយបត្រទាញសេចក្តីសន្និដ្ឋានរបស់ Amazon Bedrock អាចរងឥទ្ធិពលដោយជម្រើសកម្រិតសំណូមពរដូចជា រយៈពេលឃ្លាំងសម្ងាត់ កម្រិតសេវាកម្ម កិច្ចខិតខំប្រឹងប្រែងហេតុផល និង maxTokens ។ ជម្រើសទាំងនេះប៉ះពាល់ដល់ដំណើរការតូខេន និងអត្រាដោយមិនចាំបាច់ផ្លាស់ប្តូរម៉ូដែល ឬប្រអប់បញ្ចូលនោះទេ។ ការធ្វើតេស្ត និងទិន្នន័យមេតា ការកំណត់ហេតុ និងទិន្នន័យវិក្កយបត្រអាចជួយផ្ទៀងផ្ទាត់ផលប៉ះពាល់ទាំងនេះបាន។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងបច្ចេកវិទ្យាអាចបង្កើនប្រសិទ្ធភាពការចំណាយលើពពករបស់ពួកគេដោយកំណត់រចនាសម្ព័ន្ធប៉ារ៉ាម៉ែត្រដោយប្រុងប្រយ័ត្ន។ ក្រុមសុវត្ថិភាពអាចចាំបាច់ត្រូវត្រួតពិនិត្យការប្រើប្រាស់តូខេន និងទិន្នន័យមេតាឱ្យបានដិតដល់ដើម្បីធានាថាឃ្លាំងសម្ងាត់ដំណើរការបានល្អ។",
+   "keyPoints": [
+    "រយៈពេលឃ្លាំងសម្ងាត់ កម្រិតសេវាកម្ម កិច្ចខិតខំប្រឹងប្រែងហេតុផល និង maxTokens ប៉ះពាល់ដល់ការចំណាយលើ Amazon Bedrock។",
+    "ទិន្នន័យមេតា ការកំណត់ហេតុ និងទិន្នន័យវិក្កយបត្រជួយផ្ទៀងផ្ទាត់ផលប៉ះពាល់នៃជម្រើសទាំងនេះ។",
+    "អត្រាឃ្លាំងសម្ងាត់រហ័សប្រែប្រួលតាមរយៈពេល និងប្រភេទម៉ូដែល។",
+    "ការផ្លាស់ប្តូរមាតិកាឃ្លាំងសម្ងាត់បណ្តាលឱ្យមានការខកខានឃ្លាំងសម្ងាត់ និងបង្កើតការសរសេរថ្មី។"
+   ]
+  },
+  "zh-CN": {
+   "title": "影响成本的四个 Amazon Bedrock 推理选择",
+   "summary": "在调整提示词和应用程序逻辑后，您的 Amazon Bedrock 推理账单仍可能继续上涨。请求级别的选择会改变服务处理的令牌数量及其适用的费率。缓存持续时间、服务层级、推理工作量和 maxTokens 可能会在不改变模型或提示词的情况下影响成本。每种选择都取决于模型和工作负载。",
+   "impact": "开发人员和技术团队可以通过谨慎配置缓存持续时间和推理工作量等参数来优化云支出。安全团队可能需要密切监控令牌使用情况和响应元数据，以确保存储和缓存策略按预期运行。",
+   "keyPoints": [
+    "缓存持续时间、服务层级、推理工作量和 maxTokens 会影响推理成本。",
+    "每个 Amazon Bedrock 响应都带有使用情况元数据，可用于验证影响。",
+    "提示缓存速率因持续时间和模型类型而异。",
+    "更改缓存前缀会导致缓存未命中并产生新的写入。"
+   ]
+  },
+  "ko": {
+   "title": "비용에 영향을 미치는 네 가지 Amazon Bedrock 추론 선택 사항",
+   "summary": "프롬프트와 애플리케이션 로직을 조정한 후에도 Amazon Bedrock 추론 청구서는 계속 증가할 수 있습니다. 요청 수준의 선택에 따라 서비스가 처리하는 토큰 수와 적용 요율이 달라질 수 있습니다. 캐시 지속 시간, 서비스 계층, 추론 노력, maxTokens는 모델이나 프롬프트를 변경하지 않고도 비용에 영향을 줄 수 있습니다.",
+   "impact": "개발자와 기술 팀은 캐시 지속 시간과 같은 매개변수를 신중하게 구성하여 클라우드 비용을 최적화할 수 있습니다. 보안 팀은 캐싱 전략이 예상대로 작동하는지 확인하기 위해 토큰 사용량과 메타데이터를 면밀히 모니터링해야 할 수 있습니다.",
+   "keyPoints": [
+    "캐시 지속 시간, 서비스 계층, 추론 노력, maxTokens는 Amazon Bedrock 추론 비용에 영향을 미칩니다.",
+    "응답 메타데이터, 로그 및 청구 데이터를 통해 이러한 선택의 효과를 확인할 수 있습니다.",
+    "프롬프트 캐싱 요율은 지속 시간과 모델 유형에 따라 다릅니다.",
+    "캐시된 콘텐츠를 변경하면 캐시 미스가 발생하고 새로운 쓰기가 트리거됩니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c892fb218fc51be1",
+ "contentHash": "255d4efcbefdf1c4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T01:59:22.338Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+   "summary": "Public exploit code named SignDrop has been released, targeting the Common Log File System driver in Windows. The proof of concept allows a local user to potentially gain SYSTEM privileges by exploiting a log-authentication feature added last year. It works by abusing how clfs.sys creates companion files and using path redirection.",
+   "impact": "This zero-day exploit could allow local Windows users to escalate their privileges to SYSTEM level, posing a significant security risk. Security teams and system administrators should monitor for potential mitigations or patches related to the CLFS driver.",
+   "keyPoints": [
+    "Public exploit code called SignDrop targets the Windows Common Log File System driver.",
+    "The exploit targets a log-authentication feature added to the driver last year.",
+    "It abuses how clfs.sys creates companion files when a privileged process opens a prepared log.",
+    "Path redirection is used to take control of the affected process."
+   ]
+  },
+  "km": {
+   "title": "ការវាយប្រហារបែប Zero-Day ប្រភេទ SignDrop ថ្មី បំប្លែងមុខងារសុវត្ថិភាព Windows CLFS ទៅជាសិទ្ធិ SYSTEM",
+   "summary": "កូដវាយប្រហារជាសាធារណៈដែលដាក់ឈ្មោះថា SignDrop ត្រូវបានចេញផ្សាយ ដោយកំណត់គោលដៅទៅលើកម្មវិធីបញ្ជា Common Log File System នៅក្នុង Windows។ កូដគំរូនេះអាចឱ្យអ្នកប្រើប្រាស់ក្នុងមូលដ្ឋានទទួលបានសិទ្ធិ SYSTEM តាមរយៈការកេងប្រវ័ញ្ចមុខងារផ្ទៀងផ្ទាត់កំណត់ហេតុដែលបានបន្ថែមតាំងពីឆ្នាំមុន។ វាដំណើរការដោយសារការបំពានលើវិធីសាស្ត្រដែល clfs.sys បង្កើតឯកសារដៃគូ និងការប្រើប្រាស់ការបញ្ជូនផ្លូវឡើងវិញ។",
+   "impact": "ការកេងប្រវ័ញ្ចបែប Zero-Day នេះអាចអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ Windows ក្នុងមូលដ្ឋានដំឡើងកម្រិតសិទ្ធិរបស់ពួកគេទៅជាកម្រិត SYSTEM ដែលបង្កជាហានិភ័យសុវត្ថិភាពយ៉ាងខ្លាំង។ ក្រុមសន្តិសុខនិងអ្នកគ្រប់គ្រងប្រព័ន្ធគួរតែតាមដានការបوج្ចញដំណោះស្រាយ ឬកញ្ចប់បَច្ច័យទាក់ទងនឹងកម្មវិធីបញ្ជា CLFS។",
+   "keyPoints": [
+    "កូដវាយប្រហារសាធារណៈហៅថា SignDrop កំណត់គោលដៅលើកម្មវិធីបញ្ជា Common Log File System របស់ Windows។",
+    "ការកេងប្រវ័ញ្ចនេះផ្តោតលើមុខងារផ្ទៀងផ្ទាត់កំណត់ហេតុដែលបានបន្ថែមដល់កម្មវិធីបញ្តាកាលពីឆ្នាំមុន។",
+    "វាបំពានលើរបៀបដែល clfs.sys បង្កើតឯកសារដៃគូនៅពេលដំណើរការកំណត់ហេតុដែលបានរៀបចំ។",
+    "ការបញ្ជូនផ្លូវឡើងវិញត្រូវបបានប្រើប្រាស់ដើម្បីគ្រប់គ្រងដំណើរការដែលងាយរងគ្រោះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "新的SignDrop零日漏洞利用将Windows CLFS安全功能转化为SYSTEM访问权限",
+   "summary": "本周早些时候发布的公开漏洞利用代码表明，本地Windows用户可以通过Common Log File System驱动程序获得SYSTEM权限。该名为SignDrop的概念验证针对的是去年添加到驱动程序中的日志身份验证功能。它通过滥用clfs.sys在特权进程打开准备好的日志时创建伴生文件的方式，并使用路径重定向来获取控制权。",
+   "impact": "这个零日漏洞利用可能会使本地Windows用户将其权限提升至SYSTEM级别，从而带来重大的安全风险。安全团队和系统管理员应密切关注与CLFS驱动程序相关的潜在缓解措施或修补程序。",
+   "keyPoints": [
+    "名为SignDrop的公开漏洞利用代码针对Windows Common Log File System驱动程序。",
+    "该概念验证针对去年添加到驱动程序中的日志身份验证功能。",
+    "它滥用了clfs.sys在特权进程打开准备好的日志时创建伴生文件的方式。",
+    "利用路径重定向来控制受影响的进程。"
+   ]
+  },
+  "ko": {
+   "title": "새로운 SignDrop 제로데이 익스플로잇, Windows CLFS 보안 기능을 SYSTEM 권한으로 전환",
+   "summary": "이번 주 초에 공개된 익스플로잇 코드는 로컬 Windows 사용자가 Common Log File System 드라이버를 통해 SYSTEM 권한을 얻을 수 있다고 주장합니다. SignDrop이라는 개념 증명은 작년에 드라이버에 추가된 로그 인증 기능을 대상으로 합니다. 이 취약점은 권한 있는 프로세스가 준비된 로그를 열 때 clfs.sys가 보조 파일을 생성하는 방식을 악용하고 경로 리디렉션을 사용하여 제어권을 획득합니다.",
+   "impact": "이 제로데이 익스플로잇은 로컬 Windows 사용자가 권한을 SYSTEM 수준으로 상승시킬 수 있게 하므로 심각한 보안 위험을 초래할 수 있습니다. 보안 팀과 시스템 관리자는 CLFS 드라이버와 관련된 잠재적 완화 조치나 패치를 모니터링해야 합니다.",
+   "keyPoints": [
+    "SignDrop이라는 공개 익스플로잇 코드가 Windows Common Log File System 드라이버를 대상으로 합니다.",
+    "이 개념 증명은 작년에 드라이버에 추가된 로그 인증 기능을 목표로 합니다.",
+    "권한 있는 프로세스가 준비된 로그를 열 때 clfs.sys가 보조 파일을 생성하는 방식을 악용합니다.",
+    "경로 리디렉션을 사용하여 프로세스를 제어합니다."
+   ]
+  }
+ }
+}

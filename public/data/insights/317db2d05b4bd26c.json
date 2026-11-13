@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "317db2d05b4bd26c",
+ "contentHash": "60648a14bd58bd69",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T01:56:17.549Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Cognito now supports OAuth 2.0 token exchange",
+   "summary": "Amazon Cognito now supports OAuth 2.0 token exchange, adhering to RFC 8693. This feature allows a service or AI agent acting on a user's behalf to exchange an existing token for a new, narrowly scoped token bound to a specific downstream service. Developers can perform token exchange via the token endpoint or the new GetDerivedToken API.",
+   "impact": "This capability could simplify how services and AI agents securely interact with downstream APIs by issuing limited-scope tokens and including an act claim to identify intermediaries. Developers may no longer need to maintain custom token minting logic or forward original user tokens.",
+   "keyPoints": [
+    "Amazon Cognito supports OAuth 2.0 token exchange (RFC 8693).",
+    "Intermediaries like AI agents can exchange user tokens for narrowly scoped tokens.",
+    "The act claim identifies the intermediary service, such as a Model Context Protocol server.",
+    "Available via the token endpoint or the new GetDerivedToken API on Essentials and Plus plans."
+   ]
+  },
+  "km": {
+   "title": "Amazon Cognito ឥឡូវនេះគាំទ្រការដោះដូរតូខែន OAuth 2.0",
+   "summary": "Amazon Cognito ឥឡូវនេះគាំទ្រការដោះដូរតូខែន OAuth 2.0 ស្របតាម RFC 8693។លក្ខណៈពិសេសនេះអនុញ្ញាតឱ្យសេវាកម្ម ឬភ្នាក់ងារ AI ដោះដូរតូខែនរបស់អ្នកប្រើប្រាស់សម្រាប់តូខែនថ្មីដែលមានវិសាលភាពចង្អៀតជាងមុន។អ្នកអភិវឌ្ឍន៍អាចធ្វើការដោះដូរតូខែនតាមរយៈចំណុចបញ្ចប់តូខែន ឬ GetDerivedToken API ថ្មី។",
+   "impact": "សមត្ថភាពនេះអាចជួយសម្រួលដល់របៀបដែលសេវាកម្ម និងភ្នាក់ងារ AIទាក់ទងដោយសុវត្ថិភាពជាមួយ API មូលដ្ឋានដោយចេញតូខែនដែលមានវិសាលភាពកំណត់។អ្នកអភិវឌ្ឍន៍ប្រហែលជាលែងត្រូវការបង្កើតនិងថែទាំតក្កវិជ្ជាបង្កើតតូខែនផ្ទាល់ខ្លួនទៀតទេ។",
+   "keyPoints": [
+    "Amazon Cognito គាំទ្រការដោះដូរតូខែន OAuth 2.0 (RFC 8693)។",
+    "ភ្នាក់ងារ মধ্যവർtiអាចដោះដូរតូខែនសម្រាប់តូខែនដែលមានវិសាលភាពចង្អៀត។",
+    "ការទាមទារ act កំណត់អត្តសញ្ញាណសេវាកម្ម মধ্যവർti។",
+    "មាននៅលើគម្រោង Essentials និង Plus ក្នុងគ្រប់តំបន់ AWS ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Cognito 现已支持 OAuth 2.0 令牌交换",
+   "summary": "Amazon Cognito 现已支持符合 RFC 8693 标准的 OAuth 2.0 令牌交换。此功能允许代表用户行事的服务或 AI 代理将用户的令牌交换为绑定到特定下游服务的新令牌。开发人员可以通过令牌端点或新的 GetDerivedToken API 执行令牌交换。",
+   "impact": "此功能可以通过颁发范围受限的令牌并包含标识中介的 act 声明，简化服务和 AI 代理与下游 API 的安全交互方式。开发人员可能不再需要自行构建和维护令牌生成逻辑。",
+   "keyPoints": [
+    "Amazon Cognito 支持 OAuth 2.0 令牌交换 (RFC 8693)。",
+    "代理可以为下游服务将用户令牌交换为范围较窄的令牌。",
+    "act 声明可记录中介服务身份，例如模型上下文协议服务器。",
+    "在所有 AWS 区域的 Essentials 和 Plus 功能套餐中可用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Cognito, OAuth 2.0 토큰 교환 지원 시작",
+   "summary": "Amazon Cognito가 RFC 8693을 준수하는 OAuth 2.0 토큰 교환을 지원합니다. 이 기능을 통해 사용자를 대신해 작동하는 서비스나 AI 에이전트가 기존 사용자의 토큰을 특정 다운스트림 서비스용으로 범위가 제한된 새로운 토큰으로 교환할 수 있습니다. 개발자는 토큰 엔드포인트나 새로운 GetDerivedToken API를 통해 토큰을 교환할 수 있습니다.",
+   "impact": "이 기능은 제한된 범위의 토큰을 발급하고 중개자를 식별하는 act 클레임을 포함하여 서비스와 AI 에이전트가 다운스트림 API와 안전하게 상호작용하는 방식을 단순화할 수 있습니다. 개발자는 더 이상 자체 토큰 생성 로직을 유지 관리할 필요가 없을 수 있습니다.",
+   "keyPoints": [
+    "Amazon Cognito가 OAuth 2.0 토큰 교환(RFC 8693)을 지원합니다.",
+    "에이전트나 서비스가 사용자 토큰을 범위가 좁은 토큰으로 교환할 수 있습니다.",
+    "act 클레임을 통해 모델 컨텍스트 프로토콜 서버 같은 중개자를 식별할 수 있습니다.",
+    "모든 AWS 리전의 Essentials 및 Plus 요금제에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

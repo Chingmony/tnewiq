@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8bc9138e516754eb",
+ "contentHash": "cc201488d1b05499",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T01:55:24.856Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Build once, run on any agent: A practical guide to agent skills",
+   "summary": "Agent skills allow users to capture repeatable instructions in a versioned directory centered on a SKILL.md file for reuse across different agents. These skills define clear jobs, inputs, and outputs, though they require the operating environment to provide necessary tools, credentials, and permissions. Complex workflows can coordinate multiple skills together, sharing project context through manifests rather than hardcoding configuration details.",
+   "impact": "Developers and security teams could use agent skills to standardize repetitive tasks and institutional knowledge, making it easier to share pipelines across teams. However, security teams must ensure proper permissions and access controls remain enforced outside the model, since skills only describe tasks rather than granting database or system access.",
+   "keyPoints": [
+    "An agent skill is a versioned directory centered on a SKILL.md file that describes a repeatable task.",
+    "Skills share project context via manifests to avoid hardcoding project names and conventions into instructions.",
+    "Multiple skills can be coordinated to handle larger workflows, such as data pipeline creation and verification."
+   ]
+  },
+  "km": {
+   "title": "សាងសង់ម្តង រត់លើភ្នាក់ងារណាមួយ៖ មគ្គុទ្ទេសក៍ជាក់ស្តែងសម្រាប់ជំនាញភ្នាក់ងារ",
+   "summary": "ជំនាញភ្នាក់ងារអនុញ្ញាតឱ្យអ្នកចាប់យកការណែនាំដែលធ្វើម្តងទៀតនៅក្នុងថតដែលមានកំណែដែលផ្តោតលើឯកសារ SKILL.md ដើម្បីប្រើប្រាស់ឡើងវិញនៅលើភ្នាក់ងារផ្សេងៗគ្នា។ ជំនាញទាំងនេះកំណត់ការងារ ការបញ្ចូល និងការទិន្នផលច្បាស់លាស់ ទោះបីជាពួកគេទាមទារបរិយាកាសប្រតិបត្តិការដើម្បីផ្តល់ឧបករណ៍ ព័ត៌មានសម្ងាត់ និងការអនុញ្ញាតចាំបាច់ក៏ដោយ។ ការងារស្មុគស្មាញអាចសម្របសម្រួលជំនាញជាច្រើនចូលគ្នា ដោយចែករំលែកបរិបទគម្រោងតាមរយៈ manifests ជាជាងការកូដរឹងនូវព័ត៌មានលម្អិតនៃការកំណត់រចនាសម្ព័ន្ធ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងក្រុមសុវត្ថិភាពអាចប្រើប្រាស់ជំនាញភ្នាក់ងារដើម្បីស្តង់ដារការងារដដែលៗ និងចំណេះដឹងស្ថាប័ន ដែលធ្វើឱ្យវាកាន់តែងាយស្រួលក្នុងការចែករំលែកបំពង់បង្ហូរប្រេងទូទាំងក្រុម។ ទោះយ៉ាងណាក៏ដោយ ក្រុមសុវត្ថិភាពត្រូវតែធានាថាការអនុញ្ញាតត្រឹមត្រូវ និងការគ្រប់គ្រងការចូលប្រើប្រាស់នៅតែត្រូវបានบังคับใชើយ៉ាងតឹងរ៉ឹងនៅខាងក្រៅម៉ូដែល។",
+   "keyPoints": [
+    "ជំនាញភ្នាក់ងារគឺជាថតដែលមានកំណែដែលផ្តោតលើឯកសារ SKILL.md ដែលពិពណ៌នាអំពីភារកិច្ចដដែលៗ។",
+    "ជំនាញចែករំលែកបរិបទគម្រោងតាមរយៈ manifests ដើម្បីជៀសវាងការដាក់កូដរឹងឈ្មោះគម្រោងទៅក្នុងការណែនាំ។",
+    "ជំនាញច្រើនអាចត្រូវបានសម្របសម្រួលដើម្បីដោះស្រាយលំហូរការងារធំជាងមុន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "一次构建，在任何智能体上运行：智能体技能实用指南",
+   "summary": "智能体技能允许用户将可重复的指令捕获在以 SKILL.md 文件为核心的版本化目录中，以便在不同的智能体之间重复使用。这些技能定义了明确的任务、输入和输出，不过它们仍需要操作环境来提供所需的工具、凭据和权限。复杂的任务可以通过清单文件协调多个技能共同工作，而不是将配置硬编码在指令中。",
+   "impact": "开发人员和安全团队可以利用智能体技能来规范重复性任务和机构知识，从而更轻松地在团队之间共享工作流。然而，安全团队必须确保权限和访问控制仍然在模型外部强制执行，因为技能只描述任务而不直接授予数据库或系统访问权限。",
+   "keyPoints": [
+    "智能体技能是一个以 SKILL.md 文件为核心的版本化目录，用于描述可重复的任务。",
+    "技能通过清单共享项目上下文，避免将项目名称和配置硬编码到指令中。",
+    "多个技能可以进行协调以处理更大的工作流，例如数据管道的创建和验证。"
+   ]
+  },
+  "ko": {
+   "title": "한 번 빌드하고 모든 에이전트에서 실행하기: 에이전트 스킬 실용 가이드",
+   "summary": "에이전트 스킬을 사용하면 SKILL.md 파일을 중심으로 하는 버전이 지정된 디렉터리에서 반복 가능한 지시사항을 캡처하여 다양한 에이전트에서 재사용할 수 있습니다. 이러한 스킬은 명확한 작업, 입력, 출력을 정의하지만, 실행 환경에서 필요한 도구, 자격 증명 및 권한을 제공해야 합니다. 복잡한 워크플로는 구성 세부 정보를 하드코딩하는 대신 매니페스트를 통해 프로젝트 컨텍스트를 공유하여 여러 스킬을 조율할 수 있습니다.",
+   "impact": "개발자와 보안 팀은 에이전트 스킬을 사용하여 반복적인 작업과 기관 지식을 표준화하고 팀 간에 파이프라인을 더 쉽게 공유할 수 있습니다. 그러나 보안 팀은 스킬이 데이터베이스나 시스템 액세스 권한을 부여하는 것이 아니라 작업을 설명하기만 하므로, 적절한 권한 및 액세스 제어가 모델 외부에 계속 적용되도록 해야 합니다.",
+   "keyPoints": [
+    "에이전트 스킬은 반복 가능한 작업을 설명하는 SKILL.md 파일을 중심으로 하는 버전이 지정된 디렉터리입니다.",
+    "스킬은 매니페스트를 통해 프로젝트 컨텍스트를 공유하여 지시사항에 프로젝트 이름과 규칙을 하드코딩하는 것을 방지합니다.",
+    "여러 스킬을 조율하여 데이터 파이프라인 생성 및 검증과 같은 더 큰 워크플로를 처리할 수 있습니다."
+   ]
+  }
+ }
+}

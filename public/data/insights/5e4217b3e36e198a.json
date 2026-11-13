@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5e4217b3e36e198a",
+ "contentHash": "ca20f92f76fa3af1",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T01:57:30.502Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Argus v0.5.0 Released: Modern Windows Task Manager Built with Pure Rust and GPU-Native Rendering",
+   "summary": "The open-source modern Windows task manager Argus has officially released version 0.5.0. The project has gained over 1,400 stars on GitHub and supports eight languages including Simplified Chinese, Traditional Chinese, English, Japanese, German, French, Spanish, and Russian. It also provides a real-time interactive preview on its official website browser.",
+   "impact": "Developers and users may find that this tool offers a lightweight alternative for system monitoring by utilizing pure Rust and direct Windows native API calls instead of browser engines.",
+   "keyPoints": [
+    "Argus v0.5.0 has been officially released.",
+    "The project has received over 1,400 stars on GitHub.",
+    "It supports eight languages and offers a browser-based interactive preview.",
+    "It uses pure Rust and GPUI Kit to directly call Windows native NT and Win32 interfaces without browser kernels."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យដំណើរការ Argus v0.5.0៖ កម្មវិធីគ្រប់គ្រងភារកិច្ច Windows សម័យថ្មីដែលសរសេរដោយ Rust សុទ្ធ និងបង្ហាញក្រាហ្វិកដើមតាម GPU",
+   "summary": "កម្មវិធីគ្រប់គ្រងភារកិច្ច Windows សម័យថ្មីប្រភេទកូដបើកចំហ Argus ត្រូវបានដាក់ឱ្យដំណើរការជាផ្លូវការនូវកំណែ v0.5.0។ គម្រោងនេះទទួលបានផ្កាយច្រើនជាង ១,៤០០ នៅលើ GitHub និងគាំទ្រ ៨ ភាសា រួមទាំងផ្តល់នូវការមើលជាមុនអន្តរកម្មតាមពេលវេលាពិតនៅលើកម្មវិធីរុករកនៃគេហទំព័រផ្លូវការ។ Argus ប្រើប្រាស់ Rust សុទ្ធដើម្បីហៅផ្ទាល់ទៅកាន់ចំណុចប្រទាក់ NT និង Win32 ដើមរបស់ Windows ដោយមិនប្រើប្រាស់ស្នូលកម្មវិធីរុករកឡើយ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់អាចទទួលបានជម្រើសស្រាលមួយសម្រាប់ការតាមដានប្រព័ន្ធ ដោយសារការប្រើប្រាស់កូដ Rust សុទ្ធ និងការហៅ API ផ្ទាល់របស់ Windows។",
+   "keyPoints": [
+    "Argus v0.5.0 ត្រូវបានដាក់ឱ្យដំណើរការជាផ្លូវការ។",
+    "គម្រោងនេះទទួលបានផ្កាយជាង ១,៤០០ នៅលើ GitHub។",
+    "គាំទ្រ ៨ ភាសា និងមានការមើលជាមុននៅលើគេហទំព័រ។",
+    "ប្រើប្រាស់ Rust សុទ្ធ និង GPUI Kit ដើម្បីហៅទៅកាន់ប្រព័ន្ធ Windows ដោយផ្ទាល់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Argus v0.5.0 发布：纯 Rust 与 GPU 原生绘制的现代 Windows 任务管理器（已获 1.4k Star）",
+   "summary": "开源现代 Windows 任务管理器 Argus 现已正式发布 v0.5.0 版本。目前项目在 GitHub 上已获得超过 1,400 颗 Star，支持简体中文、繁体中文、英、日、德、法、西、俄 8 种语言，并提供官网浏览器端实时交互预览。Argus 采用纯 Rust 结合 windows-rs 与 GPUI Kit 直接调用 Windows 原生 NT/Win32 接口，脱离了浏览器内核。",
+   "impact": "开发者和技术用户可能会关注这款完全采用纯 Rust 开发并直接调用 Windows 原生接口的任务管理器，它摆脱了对浏览器内核的依赖，提供了一种轻量且高效的系统监控选择。",
+   "keyPoints": [
+    "Argus v0.5.0 版本现已正式发布。",
+    "项目在 GitHub 上已获得超过 1,400 颗 Star。",
+    "支持简体中文、繁体中文、英、日、德、法、西、俄 8 种语言。",
+    "采用纯 Rust（windows-rs + GPUI Kit）直接调用 Windows 原生 NT/Win32 接口。"
+   ]
+  },
+  "ko": {
+   "title": "Argus v0.5.0 출시: 순수 Rust와 GPU 네이티브 렌더링으로 구현된 모던 Windows 작업 관리자",
+   "summary": "오픈소스 모던 Windows 작업 관리자 Argus가 공식적으로 v0.5.0 버전을 출시했습니다. 현재 GitHub에서 1,400개 이상의 스타를 받았으며 간체 및 번체 중국어, 영어, 일본어, 독일어, 프랑스어, 스페인어, 러시아어 등 8개 언어를 지원하고 공식 웹사이트 브라우저를 통한 실시간 대화형 미리보기를 제공합니다. Argus는 브라우저 엔진 없이 순수 Rust를 사용하여 Windows 네이티브 NT 및 Win32 인터페이스를 직접 호출합니다.",
+   "impact": "개발자와 사용자들은 브라우저 엔진을 거치지 않고 순수 Rust와 Windows 네이티브 API를 활용하는 본 도구를 통해 가벼운 시스템 모니터링 대안을 확인할 수 있습니다.",
+   "keyPoints": [
+    "Argus v0.5.0 버전이 공식 출시되었습니다.",
+    "GitHub에서 1,400개 이상의 스타를 획득했습니다.",
+    "8개 언어를 지원하며 웹사이트에서 실시간 미리보기를 제공합니다.",
+    "순수 Rust와 GPUI Kit를 사용하여 Windows 네이티브 인터페이스를 직접 호출합니다."
+   ]
+  }
+ }
+}

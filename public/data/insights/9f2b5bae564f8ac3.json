@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9f2b5bae564f8ac3",
+ "contentHash": "01d1e6c473ec0738",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T01:54:19.360Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "VU#644655: TightVNC and UltraVNC Viewer contains a heap-based buffer overflow",
+   "summary": "A heap-based buffer overflow exists in the Tight JPEG decoding component of TightVNC Windows Viewer version 1.3.10 and affected UltraVNC Windows Viewers. An attacker controlling a malicious VNC server can trigger memory corruption by sending a specially crafted screen update containing an oversized Tight JPEG rectangle. While testing only confirmed denial of service conditions, successful exploitation may also allow arbitrary code execution.",
+   "impact": "Security teams and users utilizing remote desktop software should be aware that connecting to an untrusted or compromised VNC server could cause the viewer to crash or potentially permit arbitrary code execution. Users are advised to upgrade UltraVNC to a supported release like version 1.8.3.1, while users of the affected TightVNC version should replace the software or restrict connections strictly to trusted servers.",
+   "keyPoints": [
+    "Affects TightVNC Windows Viewer version 1.3.10 and affected UltraVNC Windows Viewers.",
+    "Triggered by a crafted screen update from a malicious VNC server causing an out-of-bounds write during JPEG decompression.",
+    "UltraVNC addressed the vulnerability in version 1.8.2.8, and users should upgrade to current supported releases such as version 1.8.3.1.",
+    "Identified as CVE-2026-128321."
+   ]
+  },
+  "km": {
+   "title": "VU#644655: TightVNC និង UltraVNC Viewer មានបញ្ហា heap-based buffer overflow",
+   "summary": "មានបញ្ហា heap-based buffer overflow នៅក្នុងសមាសភាគឌិកូដ Tight JPEG របស់ TightVNC Windows Viewer កំណែ 1.3.10 និង UltraVNC Windows Viewers ដែលងាយរងគ្រោះ។ ភ្នាក់ងារវាយប្រហារដែលគ្រប់គ្រងម៉ាស៊ីនមេ VNC អាចបង្កឱ្យមានការខូចខាតអង្គចងចាំដោយបញ្ជូនបច្ចុប្បន្នភាពអេក្រង់ដែលបានបង្កើតជាពិសេស។ ខណៈពេលដែលការធ្វើតេស្តបានបញ្ជាក់តែការរំខានសេវាកម្ម ការកេងប្រវ័ញ្ចជោគជ័យក៏អាចអនុញ្ញាតឱ្យមានការប្រតិបត្តិព្យញ្ជនៈកូដផងដែរ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់គួរតែប្រុងប្រយ័ត្នថាការតភ្ជាប់ទៅកាន់ម៉ាស៊ីនមេ VNC ដែលមិនគួរឱ្យទុកចិត្តអាចបណ្តាលឱ្យកម្មវិធីគាំងឬអនុញ្ញាតឱ្យប្រតិបត្តិ კូដ។ អ្នកប្រើប្រាស់ UltraVNC គួរតែអាប់ដេតទៅកាន់កំណែដែលបានជួសជុលដូចជា 1.8.3.1 ចំណែកអ្នកប្រើប្រាស់ TightVNC គួរតែប្តូរទៅប្រើកម្មវិធីជំនួសឬកំណត់ការតភ្ជាប់ទៅកាន់ម៉ាស៊ីនមេដែលទុកចិត្តបានប៉ុណ្ណោះ។",
+   "keyPoints": [
+    "ប៉ះពាល់ដល់ TightVNC Windows Viewer កំណែ 1.3.10 និង UltraVNC Windows Viewers ។",
+    "កើតឡើងដោយសារបច្ចុប្បន្នភាពអេក្រង់ដែលបង្កើតឡើងពីម៉ាស៊ីនមេ VNC ដែលមានគ្រោះថ្នាក់។",
+    "UltraVNC បានដោះស្រាយបញ្ហានេះនៅក្នុងកំណែ 1.8.2.8 ហើយអ្នកប្រើប្រាស់គួរតែអាប់ដេតទៅកាន់កំណែដូចជា 1.8.3.1 ។",
+    "ត្រូវបានកំណត់សម្គាល់ជា CVE-2026-128321 ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "VU#644655: TightVNC 和 UltraVNC Viewer 包含基于堆的缓冲区溢出漏洞",
+   "summary": "TightVNC Windows Viewer 1.3.10 版本及受影响的 UltraVNC Windows Viewers 的 Tight JPEG 解码组件中存在基于堆的缓冲区溢出漏洞。控制恶意 VNC 服务器的攻击者可以通过发送精心构造的屏幕更新来触发内存损坏。虽然测试中仅证实了拒绝服务条件，但成功利用该漏洞可能允许任意代码执行。",
+   "impact": "安全团队和技术用户应注意，连接到不受信任或被攻击控制的 VNC 服务器可能会导致查看器崩溃或潜在的代码执行风险。建议用户将 UltraVNC 升级到包含修复程序的当前支持版本（如 1.8.3.1），而受影响的 TightVNC 用户则应更换软件或将连接严格限制在受信任的服务器上。",
+   "keyPoints": [
+    "影响 TightVNC Windows Viewer 1.3.10 版本以及受影响的 UltraVNC Windows Viewers。",
+    "由来自恶意 VNC 服务器的精心构造的屏幕更新触发，导致 JPEG 解码期间发生越界写入。",
+    "UltraVNC 已在 1.8.2.8 版本中修复了该漏洞，用户应升级到当前支持的版本（如 1.8.3.1）。",
+    "漏洞编号为 CVE-2026-128321。"
+   ]
+  },
+  "ko": {
+   "title": "VU#644655: TightVNC 및 UltraVNC Viewer에 힙 기반 버퍼 오버플로우 취약점 존재",
+   "summary": "TightVNC Windows Viewer 버전 1.3.10 및 영향받는 UltraVNC Windows Viewer의 Tight JPEG 디코딩 구성 요소에 힙 기반 버퍼 오버플로우가 존재합니다. 악의적인 VNC 서버를 제어하는 공격자는 특별히 조작된 화면 업데이트를 전송하여 메모리 손상을 유발할 수 있습니다. 테스트 중에는 서비스 거부 조건만 확인되었지만, 성공적으로 악용될 경우 임의 코드 실행이 허용될 수도 있습니다.",
+   "impact": "보안 팀 및 기술 사용자는 신뢰할 수 없거나 손상된 VNC 서버에 연결할 경우 뷰어가 중단되거나 임의 코드 실행 위험이 발생할 수 있음을 인지해야 합니다. 사용자는 UltraVNC를 버전 1.8.3.1과 같은 지원되는 최신 릴리스로 업그레이드해야 하며, 영향을 받는 TightVNC 사용자는 소프트웨어를 교체하거나 신뢰할 수 있는 서버로만 연결을 제한해야 합니다.",
+   "keyPoints": [
+    "TightVNC Windows Viewer 버전 1.3.10 및 영향을 받는 UltraVNC Windows Viewer에 영향을 미칩니다.",
+    "악의적인 VNC 서버가 보낸 조작된 화면 업데이트로 인해 JPEG 디코딩 과정에서 범위를 벗어난 쓰기가 발생합니다.",
+    "UltraVNC는 버전 1.8.2.8에서 이 문제를 해결했으며 사용자는 버전 1.8.3.1과 같은 지원되는 최신 버전으로 업그레이드해야 합니다.",
+    "CVE-2026-128321로 식별되었습니다."
+   ]
+  }
+ }
+}

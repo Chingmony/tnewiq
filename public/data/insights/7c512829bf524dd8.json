@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7c512829bf524dd8",
+ "contentHash": "b039acd4aeed6e99",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T01:54:08.286Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "GitHub availability report: October 2026",
+   "summary": "GitHub published its availability and reliability update for October 2026, highlighting major Azure and Kubernetes capacity expansions alongside reliability and traffic optimizations. However, the platform also experienced write outages, monitoring gaps during data migrations, and a regional network disruption affecting users. The company continues to prioritize availability and safety as it proceeds with its migration plans.",
+   "impact": "Developers and technology users could experience varying uptime and performance as GitHub continues its large-scale migrations and capacity expansions. Teams relying on GitHub Actions, Copilot features, and repository services may be affected by intermittent queue delays or outages during infrastructure incidents.",
+   "keyPoints": [
+    "GitHub added scalable Azure capacity and doubled capacity across Central US Kubernetes clusters.",
+    "An Actions endpoint change reduced peak database reads by 85%, and repository topic search requirements reduced slow queries by 98%.",
+    "Write outages occurred on October 7 due to an unsafe interaction between database orchestration and production routing.",
+    "An Azure network disruption on October 29 impacted all three Central US availability zones and at least 34,128 signed-in users."
+   ]
+  },
+  "km": {
+   "title": "របាយការណ៍ភាពអាចរកបានរបស់ GitHub៖ ខែតុលា ឆ្នាំ ២០២៦",
+   "summary": "GitHub បានចេញផ្សាយរបាយការណ៍ធ្វើបច្ចុប្បន្នភាពស្តីពីភាពអាចរកបាន និងភាពជឿជាក់សម្រាប់ខែតុលា ឆ្នាំ ២០២៦ ដោយបានគូសបញ្ជាក់ពីការពង្រីកសមត្ថភាព Azure និង Kubernetes ក៏ដូចជាការបង្កើនប្រសិទ្ធភាពចរាចរណ៍និងភាពជឿជាក់។ ទោះបីជាយ៉ាងណាក៏ដោយ វេទិកានេះក៏បានជួបប្រទះនូវការដាច់ចរន្តសរសេរទិន្នន័យ ចន្លោះប្រហោងក្នុងការត្រួតពិនិត្យអំឡុងពេលផ្ទេរទិន្នន័យ និងការរំខានបណ្តាញក្នុងតំបន់ផងដែរ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងជួបប្រទះការរំខានដល់ដំណើរការ ឬភាពយឺតយ៉ាវដោយសារតែ GitHub បន្តដំណើរការផ្ទេរប្រព័ន្ធ និងការពង្រីកសមត្ថភាពទំហំធំរបស់ខ្លួន។ សេវាកម្មដូចជា GitHub Actions និង Copilot អាចនឹងរងផលប៉ះពាល់ក្នុងអំឡុងពេលមានឧប្បត្តិហេតុផ្នែកហេដ្ឋារចនាសម្ព័ន្ធ។",
+   "keyPoints": [
+    "GitHub បានបន្ថែមសមត្ថភាព Azure និងបានបង្កើនសមត្ថភាពទ្វេដងលើកុបឃឺណិត (Kubernetes) ទាំងអស់នៅតំបន់ Central US។",
+    "ការផ្លាស់ប្តូរចំណុចបញ្ចប់របស់ Actions បានកាត់បន្ថយការអានមូលដ្ឋានទិន្នន័យ peak ៨៥ភាគរយ។",
+    "ការដាច់ចរន្តសរសេរទិន្នន័យបានកើតឡើងកាលពីថ្ងៃទី ៧ ខែតុលា ដោយសារអន្តរកម្មមិនមានសុវត្ថិភាពរវាងការគ្រប់គ្រងមូលដ្ឋានទិន្នន័យ និងការកំណត់ផ្លូវផលិតកម្ម។",
+    "ការរំខានបណ្តាញ Azure កាលពីថ្ងៃទី ២៩ ខែតុលា បានប៉ះពាល់ដល់តំបន់ उपलब्धता Central US ទាំងបី និងអ្នកប្រើប្រាស់យ៉ាងហោចណាស់ ៣៤.១២៨ នាក់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "GitHub 可用性报告：2026年10月",
+   "summary": "GitHub 发布了 2026 年 10 月的可用性和可靠性更新报告，重点介绍了 Azure 和 Kubernetes 容量的大幅扩展以及可靠性和流量优化。然而，该平台也经历了写入中断、数据迁移期间的监控盲区以及影响用户的区域网络中断。公司在推进迁移计划的同时，继续将可用性和安全性放在首位。",
+   "impact": "随着 GitHub 继续进行大规模迁移和容量扩展，开发人员和技术人员可能会经历不稳定的正常运行时间和性能。依赖 GitHub Actions、Copilot 功能和存储库服务的团队可能会在基础设施故障期间受到间歇性队列延迟或中断的影响。",
+   "keyPoints": [
+    "GitHub 增加了可扩展的 Azure 容量，并使美国中部（Central US）的所有九个 Kubernetes 集群容量翻了一番以上。",
+    "对 Actions 端点的更改将峰值数据库读取量减少了 85%，对存储库主题搜索的要求将缓慢查询减少了约 98%。",
+    "10月7日由于数据库编排与生产路由之间存在不安全交互，发生了写入中断。",
+    "10月29日的 Azure 网络中断影响了所有三个美国中部可用区以及至少 34,128 名登录用户。"
+   ]
+  },
+  "ko": {
+   "title": "GitHub 가용성 보고서: 2026년 10월",
+   "summary": "GitHub는 2026년 10월 가용성 및 신뢰성 업데이트를 발표하며 대규모 Azure 및 Kubernetes 용량 확장과 신뢰성 및 트래픽 최적화 작업을 강조했습니다. 그러나 이 플랫폼은 쓰기 중단, 데이터 마이그레이션 중 모니터링 공백, 사용자에게 영향을 미친 지역 네트워크 장애도 겪었습니다. 회사는 마이그레이션 계획을 진행하면서 가용성과 안전성을 계속해서 최우선으로 두고 있습니다.",
+   "impact": "개발자와 기술 사용자는 GitHub의 대규모 마이그레이션 및 용량 확장 작업에 따라 가동 시간 및 성능 변동을 경험할 수 있습니다. GitHub Actions, Copilot 기능 및 리포지토리 서비스를 사용하는 팀은 인프라 장애 발생 시 간헐적인 대기열 지연이나 중단의 영향을 받을 수 있습니다.",
+   "keyPoints": [
+    "GitHub는 확장 가능한 Azure 용량을 추가하고 Central US의 9개 Kubernetes 클러스터 전체에서 용량을 두 배 이상 늘렸습니다.",
+    "Actions 엔드포인트 변경으로 최고 데이터베이스 읽기 부하가 85% 감소했으며, 리포지토리 주제 검색 요구사항으로 느린 쿼리가 약 98% 감소했습니다.",
+    "10월 7일 데이터베이스 오케스트레이션과 프로덕션 라우팅 간의 안전하지 않은 상호 작용으로 인해 쓰기 중단이 발생했습니다.",
+    "10월 29일 Azure 네트워크 장애로 인해 세 개의 Central US 가용성 영역과 최소 34,128명의 로그인 사용자가 영향을 받았습니다."
+   ]
+  }
+ }
+}

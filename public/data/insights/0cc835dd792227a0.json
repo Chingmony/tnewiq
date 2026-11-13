@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0cc835dd792227a0",
+ "contentHash": "be5e4bbd12589b7c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T01:58:52.207Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon MWAA now supports fine-grained access control with IAM Identity Center and multi-team environments",
+   "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now offers fine-grained access control through IAM Identity Center integration and multi-team environments. Users can sign in using corporate identity providers, while administrators can apply IAM policies and condition keys for precise access. Additionally, multiple teams can safely share a single MWAA environment with isolated DAG folders and group-based visibility.",
+   "impact": "Administrators and security teams could benefit from more precise control over user access and reduced costs by sharing infrastructure across multiple teams. Developers may find it easier to manage multi-team workflows within a single environment.",
+   "keyPoints": [
+    "IAM Identity Center integration allows users to sign in with corporate identity providers.",
+    "Authorization uses IAM policies and condition keys to scope access by resource type and ID.",
+    "Multi-team environments let multiple teams share a single MWAA environment to reduce costs.",
+    "Each team receives a separate S3 DAG folder and views DAGs based on IAM Identity Center group membership."
+   ]
+  },
+  "km": {
+   "title": "Amazon MWAA ឥឡូវនេះគាំទ្រការគ្រប់គ្រងការចូលប្រើប្រាស់ិត្យានុពលល្អិតល្អន់ជាមួយ IAM Identity Center និងបរិស្ថានក្រុមច្រើន",
+   "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) ឥឡូវនេះគាំទ្រការគ្រប់គ្រងការចូលប្រើប្រាស់ិត្យានុពលល្អិតល្អន់តាមរយៈការរួមបញ្ចូល IAM Identity Center និងបរិស្ថានក្រុមច្រើន។ អ្នកប្រើប្រាស់អាចចុះឈ្មោះចូលដោយប្រើប្រាស់អ្នកផ្តល់អត្តសញ្ញាណសាជីវកម្ម ខណៈដែលអ្នកគ្រប់គ្រងអាចអនុវត្តគោលការណ៍ IAM និងគន្លឹះលក្ខខណ្ឌ។ បន្ថែមពីនេះ ក្រុមជាច្រើនអាចចែករំលែកបរិស្ថាន MWAA តែមួយដោយមានថត DAG ដាច់ដោយឡែកពីគ្នា។",
+   "impact": "អ្នកគ្រប់គ្រង និងក្រុមសន្តិសុខអាចទទួលបានអត្ថប្រយោជន៍ពីការគ្រប់គ្រងការចូលប្រើប្រាស់របស់អ្នកប្រើប្រាស់កាន់តែច្បាស់លាស់ និងកាត់បន្ថយការចំណាយតាមរយៈការចែករំលែកហេដ្ឋារចនាសម្ព័ន្ធ។ អ្នកអភិវឌ្ឍន៍អាចងាយស្រួលក្នុងការគ្រប់គ្រងលំហូរការងារក្រុមច្រើនក្នុងបរិស្ថានតែមួយ។",
+   "keyPoints": [
+    "ការរួមបញ្ចូល IAM Identity Center អនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ចុះឈ្មោះចូលជាមួយអ្នកផ្តល់អត្តសញ្ញាណសាជីវកម្ម។",
+    "ការអនុញ្ញាតប្រើប្រាស់គោលការណ៍ IAM និងគន្លឹះលក្ខខណ្ឌដើម្បីកំណត់វិសាលភាពចូលប្រើប្រាស់តាមប្រភេទធនធាន។",
+    "បរិស្ថានក្រុមច្រើនអនុញ្ញាតឱ្យក្រុមជាច្រើនចែករំលែកបរិស្ថាន MWAA តែមួយដើម្បីកាត់បន្ថយការចំណាយ។",
+    "ក្រុមនីមួយៗទទួលបានថត S3 DAG ដាច់ដោយឡែក និងមើលឃើញ DAG ផ្អែកលើការជាសមាជិកក្រុម IAM Identity Center។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon MWAA 现已通过 IAM Identity Center 和多团队环境支持细粒度访问控制",
+   "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) 现已通过 IAM Identity Center 集成和多团队环境提供细粒度访问控制。用户可以使用企业身份提供商登录，而管理员则可以应用 IAM 策略和条件键来进行精确授权。此外，多个团队可以安全地共享单个 MWAA 环境，并通过独立的 DAG 文件夹进行管理。",
+   "impact": "管理员和安全团队可以借助更精确的用户访问控制和共享基础设施来降低成本。开发人员可能会发现在单个环境中管理多团队工作流变得更加轻松。",
+   "keyPoints": [
+    "IAM Identity Center 集成允许用户使用企业身份提供商登录。",
+    "授权使用 IAM 策略和条件键按资源类型和 ID 限制访问范围。",
+    "多团队环境允许多个团队共享单个 MWAA 环境以降低成本。",
+    "每个团队获得一个单独的 S3 DAG 文件夹，并根据 IAM Identity Center 组成员身份查看 DAG。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon MWAA, 이제 IAM Identity Center 및 다중 팀 환경을 통한 세분화된 액세스 제어 지원",
+   "summary": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA)는 이제 IAM Identity Center 통합 및 다중 팀 환경을 통해 세분화된 액세스 제어를 지원합니다. 사용자는 기업 ID 공급자를 사용하여 로그인할 수 있으며, 관리자는 IAM 정책과 조건 키를 사용하여 정확한 권한을 부여할 수 있습니다. 또한 여러 팀이 단일 MWAA 환경을 공유하고 격리된 DAG 폴더를 사용할 수 있습니다.",
+   "impact": "관리자와 보안 팀은 사용자 액세스를 더 정확하게 제어하고 인프라를 공유하여 비용을 절감할 수 있습니다. 개발자는 단일 환경에서 여러 팀의 워크플로를 더 쉽게 관리할 수 있습니다.",
+   "keyPoints": [
+    "IAM Identity Center 통합을 통해 사용자는 기업 ID 공급자로 로그인할 수 있습니다.",
+    "권한 부여는 IAM 정책 및 조건 키를 사용하여 리소스 유형 및 ID별로 액세스 범위를 지정합니다.",
+    "다중 팀 환경을 통해 여러 팀이 단일 MWAA 환경을 공유하여 비용을 절감할 수 있습니다.",
+    "각 팀은 별도의 S3 DAG 폴더를 받고 IAM Identity Center 그룹 멤버십에 따라 DAG를 볼 수 있습니다."
+   ]
+  }
+ }
+}

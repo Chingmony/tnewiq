@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f8d9ade2fd23b1a8",
+ "contentHash": "6a53d522c34e1d1a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T02:00:43.571Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Connect Customer supports merging and linking related cases in the agent workspace",
+   "summary": "Amazon Connect Customer has introduced a feature allowing agents to merge and link related cases within the agent workspace. Agents can combine multiple cases from the same customer across different channels into a single consolidated history. They can also link related cases from different customers affected by the same issue to provide consistent responses.",
+   "impact": "This capability could help support teams resolve customer issues faster by reducing fragmented history across multiple cases. It may also enable agents to deliver more consistent responses for widespread problems affecting multiple customers.",
+   "keyPoints": [
+    "Agents can merge split customer cases into one consolidated history.",
+    "Related cases from different customers can be linked to coordinate consistent responses.",
+    "The feature is available in multiple AWS regions including US East, US West, Europe, Asia Pacific, and Africa."
+   ]
+  },
+  "km": {
+   "title": "Amazon Connect Customer គាំទ្រការបញ្ចូលគ្នា និងការតភ្ជាប់ករណីពាក់ព័ន្ធនៅក្នុងកន្លែងការងាររបស់ភ្នាក់ងារ",
+   "summary": "Amazon Connect Customer ឥឡូវនេះអនុញ្ញាតឱ្យភ្នាក់ងារបញ្ចូលគ្នា និងតភ្ជាប់ករណីពាក់ព័ន្ធនៅក្នុងកន្លែងការងាររបស់ភ្នាក់ងារ ដែលជួយឱ្យពួកគេដោះស្រាយបញ្ហាអតិថិជនបានលឿនជាងមុន។ ភ្នាក់ងារអាចបញ្ចូលករណីច្រើនដែលបើកដោយអតិថិជនដូចគ្នាទៅក្នុងករណីតែមួយដែលមានប្រវត្តិរួមបញ្ចូលគ្នា។ ពួកគេក៏អាចតភ្ជាប់ករណីពាក់ព័ន្ធពីអតិថិជនផ្សេងគ្នាដែលរងផលប៉ះពាល់ដោយបញ្ហាដូចគ្នាផងដែរ។",
+   "impact": "មុខងារនេះអាចជួយឱ្យក្រុមគាំទ្រដោះស្រាយបញ្ហាអតិថិជនបានកាន់តែលឿន និងផ្តល់នូវការឆ្លើយតបស្របគ្នាសម្រាប់បញ្ហាទូទៅ។",
+   "keyPoints": [
+    "ភ្នាក់ងារអាចបញ្ចូលករណីអតិថិជនចូលទៅក្នុងប្រវត្តិាតែមួយ។",
+    "ករណីពាក់ព័ន្ធពីអតិថិជនផ្សេងគ្នាអាចត្រូវបានតភ្ជាប់គ្នា។",
+    "មុខងារនេះមាននៅលើតំបន់ AWS ជាច្រើន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Connect Customer 支持在坐席工作区中合并和关联相关工单",
+   "summary": "Amazon Connect Customer 现在允许坐席在坐席工作区中合并和关联相关的工单，以便更快地解决客户问题并提供一致的回复。当客户通过不同渠道多次联系企业时，坐席可以将这些工单合并为一个具有单一综合历史记录的工单。此外，坐席还可以关联受同一问题影响的不同客户的相关工单。",
+   "impact": "此功能可以帮助支持团队更快地解决客户问题，并确保针对受影响的客户提供一致的答复。",
+   "keyPoints": [
+    "坐席可以将分散的客户工单合并为一个综合历史记录。",
+    "可以关联受同一问题影响的不同客户的相关工单。",
+    "该功能已在多个 AWS 区域推出。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Connect Customer, 상담원 워크스페이스에서 관련 케이스 병합 및 연결 지원",
+   "summary": "Amazon Connect Customer는 상담원 워크스페이스에서 관련 케이스를 병합하고 연결하여 고객 문제를 더 빠르게 해결하고 일관되게 대응할 수 있도록 지원합니다. 상담원은 고객이 여러 채널을 통해 동일한 문제에 대해 여러 번 연락한 경우 여러 케이스를 단일 통합 기록으로 병합할 수 있습니다. 또한 동일한 문제로 영향을 받은 다른 고객의 관련 케이스를 연결할 수도 있습니다.",
+   "impact": "이 기능은 지원 팀이 분산된 고객 이력을 통합하여 문제를 더 빠르게 해결하는 데 도움을 줄 수 있으며, 영향을 받는 여러 고객에게 일관된 대응을 제공할 수 있게 합니다.",
+   "keyPoints": [
+    "상담원이 분할된 고객 케이스를 하나의 통합 기록으로 병합할 수 있습니다.",
+    "동일한 문제의 영향을 받은 다른 고객의 관련 케이스를 연결할 수 있습니다.",
+    "여러 AWS 리전에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}
