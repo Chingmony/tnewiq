@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8f4ab68910c3775c",
+ "contentHash": "345caf100922d96c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T23:39:05.137Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Faster Scientific Simulations with New FP64 Algorithms in NVIDIA cuBLAS",
+   "summary": "Scientific simulations such as molecular chemistry and materials science spend much of their execution time computing high-precision dense general matrix multiplications. These operations are known as DGEMM for real 64-bit floating-point numbers and ZGEMM for complex 64-bit floating-point numbers. The cuBLAS library is widely utilized by high-performance computing and AI applications to accelerate these GEMM operations.",
+   "impact": "These improvements could help developers and technical users achieve faster execution times for high-precision scientific workloads and applications that rely on dense matrix multiplications. Security teams and developers may benefit from performance gains in resource-intensive HPC environments.",
+   "keyPoints": [
+    "Scientific simulations spend most execution time on high-precision dense general matrix multiplications.",
+    "Operations use DGEMM for real 64-bit floating-point numbers and ZGEMM for complex 64-bit floating-point numbers.",
+    "cuBLAS is used by HPC and AI applications to accelerate GEMM and other basic operations."
+   ]
+  },
+  "km": {
+   "title": "ការក្លែងបន្លំវិទ្យាសាស្ត្រលឿនជាងមុនជាមួយនឹងក្បួនដោះស្រាយ FP64 ថ្មីនៅក្នុង NVIDIA cuBLAS",
+   "summary": "ការក្លែងធ្វើវិទ្យាសាស្ត្រជាច្រើនពីគីមីវិទ្យាម៉ូលេគុលដល់វិទ្យាសាស្ត្រសម្ភារៈចំណាយពេលភាគច្រើនក្នុងការគណនាការគុណម៉ាទ្រីសទូទៅដែលមានភាពជាក់លាក់ខ្ពស់។ ប្រតិបត្តិការទាំងនេះត្រូវបានគេហៅថា DGEMM សម្រាប់លេខអណ្តែត 64 ប៊ីតពិតប្រាកដ និង ZGEMM សម្រាប់លេខអណ្តែត 64 ប៊ីតស្មុគស្មាញ។ cuBLAS ត្រូវបានប្រើយ៉ាងទូលំទូលាយដោយកម្មវិធី HPC និង AI ដើម្បីពន្លឿន GEMM និងប្រតិបត្តិការមូលដ្ឋានផ្សេងទៀត។",
+   "impact": "ការអភិវឌ្ឍន៍ទាំងនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍សម្រេចបាននូវពេលវេលាប្រតិបត្តិលឿនជាងមុនសម្រាប់កិច្ចការវិទ្យាសាស្ត្រដែលមានភាពជាក់លាក់ខ្ពស់។ វាក៏អាចផ្តល់អត្ថប្រយោជន៍ដល់បរិយាកាស HPC ដែលទាមទារធនធានច្រើនផងដែរ។",
+   "keyPoints": [
+    "ការក្លែងធ្វើវិទ្យាសាស្ត្រចំណាយពេលភាគច្រើនលើការគុណម៉ាទ្រីសទូទៅដែលមានភាពជាក់លាក់ខ្ពស់។",
+    "ប្រតិបត្តិការប្រើប្រាស់ DGEMM និង ZGEMM សម្រាប់លេខអណ្តែត 64 ប៊ីត។",
+    "cuBLAS ត្រូវបានប្រើប្រាស់ដោយកម្មវិធី HPC និង AI ដើម្បីពន្លឿន GEMM និងប្រតិបត្តិការមូលដ្ឋាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "NVIDIA cuBLAS 中采用新 FP64 算法加速科学模拟",
+   "summary": "从分子化学到材料科学的许多科学模拟，大部分执行时间都用于计算高精度稠密通用矩阵乘法。这些操作对于实数 64 位浮点数被称为 DGEMM，对于复数 64 位浮点数被称为 ZGEMM。cuBLAS 被高性能计算和人工智能应用程序广泛用于加速 GEMM 以及其他基础运算。",
+   "impact": "这些改进可能有助于开发人员和技术用户缩短依赖于稠密矩阵乘法的高精度科学工作负载的执行时间。安全团队和开发人员可能会从资源密集型高性能计算环境中的性能提升中受益。",
+   "keyPoints": [
+    "科学模拟将大部分执行时间用于高精度稠密通用矩阵乘法。",
+    "此类操作包括针对真实 64 位浮点数的 DGEMM 和针对复杂 64 位浮点数的 ZGEMM。",
+    "cuBLAS 被 HPC 和 AI 应用广泛用于加速 GEMM 等基础操作。"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA cuBLAS의 새로운 FP64 알고리즘을 통한 더 빠른 과학적 시뮬레이션",
+   "summary": "분자 화학에서 재료 과학에 이르기까지 많은 과학적 시뮬레이션은 실행 시간의 대부분을 고정밀 조밀 일반 행렬 곱셈을 계산하는 데 소비합니다. 이러한 연산은 실제 64비트 부동 소수점 숫자의 경우 DGEMM, 복소수 64비트 부동 소수점 숫자의 경우 ZGEMM이라고 합니다. cuBLAS는 HPC 및 AI 응용 프로그램에서 GEMM 및 기타 기본 연산을 가속화하는 데 널리 사용됩니다.",
+   "impact": "이러한 개선 사항은 개발자와 기술 사용자가 조밀 행렬 곱셈에 의존하는 고정밀 과학적 워크로드의 실행 시간을 단축하는 데 도움이 될 수 있습니다. 보안 팀과 개발자는 리소스 집약적인 HPC 환경에서 성능 향상의 이점을 얻을 수 있습니다.",
+   "keyPoints": [
+    "과학적 시뮬레이션은 실행 시간의 대부분을 고정밀 조밀 일반 행렬 곱셈에 소비합니다.",
+    "연산은 실제 64비트 부동 소수점의 경우 DGEMM, 복소수 64비트 부동 소수점의 경우 ZGEMM을 사용합니다.",
+    "cuBLAS는 HPC 및 AI 애플리케이션에서 GEMM 및 기본 연산을 가속화하는 데 사용됩니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ea8f2c6821428bc1",
+ "contentHash": "21e24c8544d4b7e8",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T23:44:29.283Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+   "summary": "Hardware wallet maker Trezor announced that three Trezor Safe 5 wallets purchased from the reseller CryptoBilis contain a hidden implant. This extra circuit board is capable of copying recovery phrases directly from the wallet screen. The stolen phrases are then transmitted over the mobile network to an attacker-controlled server.",
+   "impact": "Security teams and cryptocurrency users may need to exercise caution when purchasing hardware wallets from third-party resellers. This incident highlights the risk of physical supply chain tampering, which could lead to compromised recovery phrases and stolen funds.",
+   "keyPoints": [
+    "Three Trezor Safe 5 wallets bought from CryptoBilis contain an implant.",
+    "The implant is an extra circuit board that copies recovery phrases from the wallet screen.",
+    "Data is sent over the mobile network to a server controlled by attackers.",
+    "Trezor examined one wallet in its lab and identified the others."
+   ]
+  },
+  "km": {
+   "title": "Trezor បញ្ជាក់ពីការដាក់បញ្ចូលបន្ទះសៀគ្វីសម្ងាត់ក្នុងកាបូបលុយគ្រីបតូដែលលក់ដោយ CryptoBilis ដែលអាចលួចឃ្លាការសង្គ្រោះ",
+   "summary": "ក្រុមហ៊ុនផលិតកាបូបលុយ hardware គឺ Trezor បានប្រកាសតាំងពីម្សិលមិញថា កាបូបលុយ Trezor Safe 5 ចំនួនបីដែលបានទិញពីអ្នកលក់បន្ត CryptoBilis មានផ្ទុកបន្ទះសៀគ្វីសម្ងាត់បន្ថែម។ បន្ទះសៀគ្វីបន្ថែមនេះអាចចម្លងឃ្លាការសង្គ្រោះពីអេក្រង់កាបូបលុយ។ ព័ត៌មាននេះត្រូវបានបញ្ជូនតាមបណ្តាញទូរស័ព្ទចល័តទៅកាន់ម៉ាស៊ីនបម្រើដែលគ្រប់គ្រងដោយពួក Hacker។",
+   "impact": "អ្នកប្រើប្រាស់បច្ចេកវិទ្យា និងក្រុមសន្តិសុខប្រហែលជាត្រូវប្រុងប្រយ័ត្នខ្ពស់នៅពេលទិញកាបូបលុយ hardware ពីអ្នកលក់បន្តទីបី។ បញ្ហានេះអាចបង្ហាញពីហានិភ័យនៃការកែច្នៃផ្នែករឹង ដែលនាំឱ្យបាត់បង់ឃ្លាការសង្គ្រោះ និងមូលនិធិ។",
+   "keyPoints": [
+    "កាបូបលុយ Trezor Safe 5 ចំនួនបីដែលបានទិញពី CryptoBilis មានផ្ទុកបន្ទះសៀគ្វីសម្ងាត់។",
+    "បន្ទះសៀគ្វីបន្ថែមអាចចម្លងឃ្លាការសង្គ្រោះពីអេក្រង់កាបូបលុយ។",
+    "ទិន្នន័យត្រូវបានបញ្ជូនតាមបណ្តាញទូរស័ព្ទចល័តទៅកាន់ម៉ាស៊ីនបម្រើរបស់ពួក Hacker។",
+    "Trezor បានពិនិត្យកាបូបលុយមួយនៅក្នុងមំពិសោធន៍របស់ខ្លួន និងបានកំណត់អត្តសញ្ញាណកាបូបផ្សេងទៀត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Trezor 确认 CryptoBilis 出售的钱包中藏有可窃取助记词的隐藏芯片",
+   "summary": "硬件钱包制造商 Trezor 昨天表示，从经销商 CryptoBilis 处购买的三款 Trezor Safe 5 钱包包含一个隐藏芯片。该额外电路板可以复制钱包屏幕上的助记词。植入物通过移动网络将助记词发送至攻击者控制的服务器。",
+   "impact": "技术用户和安全团队在从第三方经销商处购买硬件钱包时可能需要提高警惕。这表明供应链实体篡改可能导致助记词泄露并危及资金安全。",
+   "keyPoints": [
+    "从 CryptoBilis 购买的三款 Trezor Safe 5 钱包包含隐藏植入物。",
+    "该植入物是一块能够从钱包屏幕复制助记词的额外电路板。",
+    "通过移动网络将助记词发送到攻击者控制的服务器。",
+    "Trezor 在实验室检查了其中一个钱包并识别了其他钱包。"
+   ]
+  },
+  "ko": {
+   "title": "트레조, CryptoBilis 판매 지갑에서 복구 문구를 탈취할 수 있는 숨겨진 칩 확인",
+   "summary": "하드웨어 지갑 제조사 트레조는 리셀러 CryptoBilis에서 구매한 Trezor Safe 5 지갑 3개에 복구 문구를 복사할 수 있는 추가 회로 기판인 임플란트가 포함되어 있다고 밝혔습니다. 이 임플란트는 지갑 화면에서 복구 문구를 읽어와 공격자가 제어하는 서버로 모바일 네트워크를 통해 전송합니다. 회사는 연구실에서 지갑 중 하나를 검사하고 나머지를 확인했습니다.",
+   "impact": "보안 팀과 기술 사용자들은 제3자 리셀러로부터 하드웨어 지갑을 구매할 때 주의를 기울여야 할 수 있습니다. 이 사건은 물리적 공급망 변조 위험을 보여주며 복구 문구 유출 및 자금 손실로 이어질 수 있습니다.",
+   "keyPoints": [
+    "CryptoBilis에서 구매한 Trezor Safe 5 지갑 3개에 임플란트가 포함되어 있습니다.",
+    "이 임플란트는 지갑 화면에서 복구 문구를 복사할 수 있는 추가 회로 기판입니다.",
+    "데이터가 공격자의 제어 서버로 모바일 네트워크를 통해 전송됩니다.",
+    "트레조는 실험실에서 지갑 중 하나를 조사하고 나머지를 식별했습니다."
+   ]
+  }
+ }
+}

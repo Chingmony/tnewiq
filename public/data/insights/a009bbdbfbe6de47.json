@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a009bbdbfbe6de47",
+ "contentHash": "49ac0b1324fbdcba",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T23:41:37.311Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+   "summary": "Over the past month, the ecosystem of Large Language Model (LLM) penetration testing and orchestration frameworks has rapidly expanded, with daily requests growing by 30x since October 1. Frameworks like ARTEX and its thousands of derivative repositories have been used to scan Cloudflare customers globally, with some complex attacks chaining stolen credentials. To counter these autonomous threats, Cloudflare recommends adopting a Modern Security Model consisting of six key pillars.",
+   "impact": "Security teams and developers may face a significant increase in high-speed, automated attacks that operate at the speed of inference. Organizations could need to upgrade their defenses using advanced rate limits, bot defense, and identity-gated access to handle these multi-step, autonomous threats.",
+   "keyPoints": [
+    "Daily requests of AI penetration testing and exploitation tools grew by 30x since October 1.",
+    "Over 50 framework families and thousands of IP addresses have attempted to scan Cloudflare customers.",
+    "Some complex attacks involve chaining stolen customer credentials for lateral movement.",
+    "The Modern Security Model features six pillars including WAF, anomaly detection, bot defense, identity-gated access, validated schemas, and threat intelligence."
+   ]
+  },
+  "km": {
+   "title": "ការសម្របខ្លួនទៅនឹងឧបករណ៍សម្របសម្រួលការធ្វើតេស្តជ្រៀតចូលដោយ AI៖ ម៉ូដែលសុវត្ថិភាពសម័យទំនើប",
+   "summary": "ក្នុងអំឡុងពេលមួយខែកន្លងមកនេះ ប្រព័ន្ធអេកូឡូស៊ីនៃការធ្វើតេស្តជ្រៀតចូល LLM និងឧបករណ៍សម្របសម្រួលបានរីកចម្រើនយ៉ាងឆាប់រហ័ស ជាមួយនឹងសំណើប្រចាំថ្ងៃកើនឡើង 30 ដងចាប់តាំងពីថ្ងៃទី 1 ខែតុលា។ ក្របខ័ណ្ឌដូចជា ARTEX និងឃ្លាំងទិន្នន័យដុះចេញពីវាជាច្រើនត្រូវបានប្រើប្រាស់ដើម្បីស្កេនអតិថិជន Cloudflare ទូទាំងពិភពលោក។ ដើម្បីទប់ទល់នឹងការគំរាមកំហែងទាំងនេះ Cloudflare បានណែនាំឱ្យអនុវត្តម៉ូដែលសុវត្ថិភាពសម័យទំនើបដែលមានសសរស្តម្ភសំខាន់ៗចំនួនប្រាំពីរ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចនឹងប្រឈមមុខនឹងការកើនឡើងនៃការវាយប្រកបដោយស្វ័យប្រវត្តិកម្មក្នុងល្បឿនលឿន ដែលតម្រូវឱ្យមានការបង្កើនការការពារតាមរយៈប្រព័ន្ធការពារបូត និងការគ្រប់គ្រងការចូលប្រើប្រាស់។",
+   "keyPoints": [
+    "សំណើប្រចាំថ្ងៃសម្រាប់ឧបករណ៍ធ្វើតេស្តជ្រៀតចូល AI បានកើនឡើង 30 ដងចាប់តាំងពីថ្ងៃទី 1 ខែតុលា។",
+    "គ្រួសារក្របខ័ណ្ឌជាង 50 បានព្យាយាមស្កេនអតិថិជន Cloudflare ជាសាកល។",
+    "ការវាយប្រហារស្មុគស្មាញមួយចំនួនពាក់ព័ន្ធនឹងការតភ្ជាប់ព័ត៌មានសម្ងាត់អតិថិជនដែលត្រូវបានលួច។",
+    "ម៉ូដែលសុវត្ថិភាពសម័យទំនើបមានសសរស្តម្ភសំខាន់ៗចំនួនប្រាំមួយដើម្បីទប់ទល់នឹងការគំរាមកំហែងនេះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "适应AI渗透测试编排器：现代安全模型",
+   "summary": "在过去的一个月中，大语言模型渗透测试和编排框架生态系统急剧扩张，自10月1所以来每日请求量增长了30倍。诸如ARTEX及其数千个衍生版本等框架已被用来扫描全球的Cloudflare客户，部分复杂攻击甚至串联了被盗的客户凭证。为了对抗这些自主威胁，Cloudflare建议采用包含六大支柱的现代安全模型。",
+   "impact": "安全团队和开发人员可能会面临高速度、自动化攻击的大幅增加，这些攻击以推理的速度运行。组织可能需要部署高级速率限制、机器人防御和身份门禁访问来应对此类多步骤的自主威胁。",
+   "keyPoints": [
+    "自10月1日以来，AI渗透测试和利用工具的每日请求量增长了30倍。",
+    "已有超过50个框架系列和数千个IP地址尝试扫描Cloudflare客户。",
+    "部分更复杂的攻击开始串联被盗的客户凭证以进行横向移动。",
+    "现代安全模型包含六大支柱：加固前门、门厅安全站、识别虚假访客、移除后门、检查交付以及邻里守望。"
+   ]
+  },
+  "ko": {
+   "title": "AI 침투 테스트 오케스트레이터 적응: 모던 보안 모델",
+   "summary": "지난 한 달 동안 대형 언어 모델(LLM) 침투 테스트 및 오케스트레이션 프레임워크 생태계가 급격히 확장되었으며, 10월 1일 이후 일일 요청 수가 30배 증가했습니다. ARTEX 및 수천 개의 파생 저장소와 같은 프레임워크가 전 세계 Cloudflare 고객을 스캔하는 데 사용되었으며, 일부 복잡한 공격은 도난당한 고객 자격 증명을 체인 형태로 악용했습니다. 이러한 자율적 위협에 대응하기 위해 Cloudflare는 6가지 핵심 축으로 구성된 모던 보안 모델의 채택을 권장합니다.",
+   "impact": "보안 팀과 개발자는 추론 속도로 작동하는 고속의 자동화된 공격이 크게 증가하는 상황에 직면할 수 있습니다. 조직은 이러한 다단계 자율 위협을 처리하기 위해 고급 속도 제한, 봇 방어, ID 게이트 액세스 등의 방어를 강화해야 할 수 있습니다.",
+   "keyPoints": [
+    "AI 침투 테스트 및 익스플로잇 도구의 일일 요청 수가 10월 1일 이후 30배 증가했습니다.",
+    "50개 이상의 프레임워크 패밀리와 수천 개의 IP 주소가 Cloudflare 고객을 스캔하려고 시도했습니다.",
+    "일부 복잡한 공격에는 측면 이동을 위해 도난당한 고객 자격 증명을 체인화하는 작업이 포함됩니다.",
+    "모던 보안 모델은 WAF, 이상 감지, 봇 방어, ID 게이트 액세스, 검증된 스키마, 위협 인텔리전스의 6가지 핵심 축으로 구성됩니다."
+   ]
+  }
+ }
+}

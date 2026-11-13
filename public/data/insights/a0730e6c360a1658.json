@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a0730e6c360a1658",
+ "contentHash": "c02c94415ac2def7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T23:44:50.383Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+   "summary": "AI is increasingly assisting healthcare teams by automating routine tasks, analyzing complex patient medical records, and supporting clinical decisions. Companies like Dyania Health utilize NVIDIA technologies to build reasoning engines like Synapsis AI that process unstructured records onsite. This technology helps healthcare systems manage workloads and accelerate patient care while keeping data secure behind hospital firewalls.",
+   "impact": "This technology could significantly reduce the time clinicians spend on manual chart reviews and administrative tasks, potentially allowing them to focus more on direct patient care. Security teams may benefit from onsite data processing models that keep sensitive patient records within hospital walls.",
+   "keyPoints": [
+    "AI is being used across healthcare to match patients to clinical trials, support radiologists, and assist hospital teams.",
+    "Dyania Health built Synapsis AI to parse decades of free-text patient records and connect findings across years of data.",
+    "Synapsis AI operates inside a health system's firewall using NVIDIA-accelerated computing to keep patient data secure.",
+    "Cleveland Clinic used Synapsis AI in a study of over 7,800 aortic valve replacement patients to predict valve deterioration risk."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែល AI កំពុងជួយក្រុមគ្រូពេទ្យក្នុងការផ្ដល់សេវាថែទាំត្រឹមត្រូវដល់អ្នកជំងឺកាន់តែលឿន",
+   "summary": "បច្ចេកវិទ្យា AI កំពុងជួយដល់ក្រុមគ្រូពេទ្យក្នុងការកាត់បន្ថយពេលវេលាលើកិច្ចការទូទៅ និងបង្កើនពេលវេលាជាមួយអ្នកជំងឺតាមរយៈការវិភាគកំណត់ត្រាវេជ្ជសាស្ត្រ។ ក្រុមហ៊ុនដូចជា Dyania Health បានបង្កើត Synapsis AI ដោយប្រើប្រាស់បច្ចេកវិទ្យា NVIDIA ដើម្បីដំណើរការកំណត់ត្រាអ្នកជំងឺនៅផ្ទាល់ក្នុងមន្ទីរពេទ្យ។ ប្រព័ន្ធនេះជួយឱ្យការពិនិត្យកំណត់ត្រាមានល្បឿនលឿន និងរក្សាទិន្នន័យអ្នកជំងឺឱ្យមានសុវត្ថិភាព។",
+   "impact": "បច្ចេកវិទ្យានេះអាចជួយកាត់បន្ថយពេលវេលាដែលគ្រូពេទ្យត្រូវចំណាយលើការពិនិត្យឯកសារដោយដៃ ដែលធ្វើឱ្យពួកគេមានពេលច្រើនសម្រាប់អ្នកជំងឺ។ ក្រុមសន្តិសុខទិន្នន័យក៏អាចទទួលបានអត្ថប្រយោជន៍ពីការដំណើរការទិន្នន័យផ្ទាល់ក្នុងប្រព័ន្ធសុវត្ថិភាពរបស់មន្ទីរពេទ្យផងដែរ។",
+   "keyPoints": [
+    "AI ត្រូវបានប្រើប្រាស់ក្នុងវិស័យសុខាភិបាលដើម្បីជួយដល់ក្រុមគ្រូពេទ្យ និងស្វែងរកអ្នកជំងឺសម្រាប់ការពិសោធន៍គ្លីនិក។",
+    "Synapsis AI ត្រូវបានបង្កើតឡើងដើម្បីអាន និងតភ្ជាប់ព័ត៌មានពីកំណត់ត្រាវេជ្ជសាស្ត្ររបស់អ្នកជំងឺដែលមានរយៈពេលជាច្រើនឆ្នាំ។",
+    "ប្រព័ន្ធនេះដំណើរការដោយប្រើប្រាស់ប្រព័ន្ធកុំព្យូទ័ររបស់ NVIDIA នៅខាងក្នុងប្រព័ន្ធសុវត្ថិភាពរបស់មន្ទីរពេទ្យដោយមិនបញ្ចេញទិន្នន័យក្រៅ.",
+    "Cleveland Clinic បានប្រើប្រាស់ Synapsis AI ដើម្បីសិក្សាលើអ្នកជំងឺជាង 7,800 នាក់ក្នុងការទស្សន៍ទាយហានិភ័យនៃសន្ទះបេះដូង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "人工智能如何帮助医护团队更快为患者提供正确的治疗",
+   "summary": "人工智能正在通过处理常规任务和分析复杂的患者病历，帮助医护团队将更多时间留给患者。Dyania Health 等公司利用 NVIDIA 技术构建了 Synapsis AI 临床推理引擎，在医院内部防火墙内处理病历数据。该技术在保护患者数据隐私的同时，大幅加速了病历审查并提升了护理效率。",
+   "impact": "这项技术可以显著减少临床医生进行手动病历审查所花费的时间，从而使他们能够专注于患者护理。安全团队也可能从在医院内部运行并不外泄数据的本地 AI 计算模型中受益。",
+   "keyPoints": [
+    "人工智能被广泛应用于医疗保健领域，用于协助放射科医生、匹配临床试验及辅助家庭护理。",
+    "Dyania Health 开发的 Synapsis AI 能够解析数十年的自由文本病历并连接跨年度的医疗发现。",
+    "Synapsis AI 运行在医院自身的防火墙内，利用 NVIDIA 加速计算确保患者数据不会离开医院。",
+    "克利夫兰医学中心使用 Synapsis AI 对 7,800 多名主动脉瓣置换患者进行了研究，以预测瓣膜退化风险。"
+   ]
+  },
+  "ko": {
+   "title": "AI가 진료팀의 더 빠르고 정확한 환자 치료를 돕는 방법",
+   "summary": "인공지능은 반복적인 업무를 줄이고 복잡한 환자 의무기록을 분석하여 진료팀이 환자에게 더 집중할 수 있도록 돕고 있습니다. Dyania Health와 같은 기업들은 NVIDIA 기술을 활용하여 병원 방화벽 내부에서 환자 기록을 처리하는 Synapsis AI 엔진을 구축했습니다. 이 기술은 데이터 보안을 유지하면서 진료 기록 검토 과정을 크게 단축시킵니다.",
+   "impact": "이 기술은 임상의들이 수동으로 차트를 검토하는 데 소요되는 시간을 크게 줄여주어 환자 대면 진료에 집중할 수 있게 해줄 수 있습니다. 보안 팀은 민감한 환자 데이터를 병원 외부로 유출하지 않고 내부에서 처리하는 방식을 활용할 수 있습니다.",
+   "keyPoints": [
+    "AI는 임상 시험 환자 매칭 및 방사선과 지원 등 의료 전반에서 활용되고 있습니다.",
+    "Dyania Health는 수십 년간의 환자 기록과 자유 텍스트를 분석하는 Synapsis AI를 개발했습니다.",
+    "Synapsis AI는 병원 자체 방화벽 내부에서 NVIDIA 가속 컴퓨팅을 사용하여 환자 데이터를 안전하게 보호합니다.",
+    "클리블랜드 클리닉은 7,800명 이상의 대동맥판막 치환술 환자 연구에 Synapsis AI를 사용하여 판막 손상 위험을 예측했습니다."
+   ]
+  }
+ }
+}

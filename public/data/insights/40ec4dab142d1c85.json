@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "40ec4dab142d1c85",
+ "contentHash": "8155fd6fd6269707",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T23:44:10.137Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+   "summary": "Cloudflare has introduced Spend Management in Beta for pay-as-you-go customers, starting with Workers and Durable Objects. The new feature allows developers to set spending thresholds and automatically pause activity when limits are reached to avoid unexpected bills. Users can manage these settings via the dashboard, cf CLI, or REST API.",
+   "impact": "Developers and technology teams could use these new limits to better control unexpected cloud costs and prevent unplanned usage bills. Security and management teams may also benefit from audit logs and automated blocking policies.",
+   "keyPoints": [
+    "Spend Management is currently in Beta for pay-as-you-go customers starting with Workers and Durable Objects.",
+    "Users can set spending limits, recipient emails for alerts, and threshold levels.",
+    "When a spending limit is reached, a blocking policy pauses the product automatically.",
+    "Management can be handled via the dashboard, cf CLI, or REST API."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យដំណើរការការគ្រប់គ្រងការចំណាយ៖ កម្រិតចំណាយ និងការជូនដំណឹងសម្រាប់ Cloudflare",
+   "summary": "Cloudflare បានដាក់ឱ្យដំណើរការមុខងារគ្រប់គ្រងការចំណាយក្នុងកម្រិត ቤតា សម្រាប់អតិថិជនបង់ប្រាក់តាមការប្រើប្រាស់ ដោយចាប់ផ្តើមពី Workers និង Durable Objects។ មុខងារថ្មីនេះអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍កំណត់កម្រិតចំណាយ និងផ្អាកសកម្មភាពដោយស្វ័យប្រវត្តិនៅពេលដល់ដែនកំណត់ ដើម្បីជៀសវាងវិក្កយបត្រដែលមិនបានរំពឹងទុក។ អ្នកប្រើប្រាស់អាចគ្រប់គ្រងការកំណត់ទាំងនេះតាមរយៈផ្ទាំងគ្រប់គ្រង cf CLI ឬ REST API។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងក្រុមបច្ចេកវិទ្យាអាចប្រើប្រាស់កម្រិតកំណត់ថ្មីទាំងនេះ ដើម្បីគ្រប់គ្រងថ្លៃដើមពពកដែលមិនបានរំពឹងទុក និងការពារវិក្កយបត្រប្រើប្រាស់ដោយចៃដន្យ។ ក្រុមគ្រប់គ្រងក៏អាចទទួលបានផលប្រយោជន៍ពីកំណត់ហេតុសវនកម្ម និងគោលការណ៍បិទខ្ទប់ដោយស្វ័យប្រវត្តិផងដែរ។",
+   "keyPoints": [
+    "ការគ្រប់គ្រងការចំណាយគឺស្ថិតក្នុងដំណាក់កាលបេតាសម្រាប់អតិថិជនបង់ប្រាក់តាមការប្រើប្រាស់ ដោយចាប់ផ្តើមជាមួយ Workers និង Durable Objects។",
+    "អ្នកប្រើប្រាស់អាចកំណត់ដែនកំណត់ចំណាយ អ៊ីមែលអ្នកទទួលសម្រាប់ការជូនដំណឹង និងកម្រិតព្រមាន។",
+    "នៅពេលដែលដែនកំណត់ចំណាយត្រូវបានឈានដល់ គោលការណ៍បិទខ្ទប់នឹងផ្អាកផលិតផលដោយស្វ័យប្រវត្តិ។",
+    "ការគ្រប់គ្រងអាចធ្វើឡើងតាមរយៈផ្ទាំងគ្រប់គ្រង cf CLI ឬ REST API។"
+   ]
+  },
+  "zh-CN": {
+   "title": "推出支出管理：为 Cloudflare 提供支出限额与警报",
+   "summary": "Cloudflare 推出了面向按需付费客户的支出管理测试版，首先从 Workers 和 Durable Objects 开始。新功能允许开发人员设置支出阈值，并在达到限额时自动暂停活动，从而避免意外的计划外使用账单。用户可以通过仪表板、cf CLI 或 REST API 来管理这些设置。",
+   "impact": "开发人员和技术团队可以使用这些新限制来更好地控制意外的云成本，并防止产生计划外的使用账单。安全和管理团队也可能从审计日志和自动阻止策略中受益。",
+   "keyPoints": [
+    "支出管理目前面向按需付费客户推出测试版，首先支持 Workers 和 Durable Objects。",
+    "用户可以设置支出限额、用于通知的收件人电子邮箱以及一个或多个警报阈值。",
+    "达到支出限额时，系统将强制执行阻止策略并自动暂停该产品。",
+    "可以通过仪表板、cf CLI 或 REST API 以编程方式使用支出管理服务。"
+   ]
+  },
+  "ko": {
+   "title": "지출 관리 소개: Cloudflare를 위한 지출 한도 및 알림",
+   "summary": "Cloudflare는 종량제 고객을 대상으로 Workers 및 Durable Objects부터 시작하는 지출 관리 베타 버전을 출시했습니다. 이 새로운 기능을 통해 개발자는 지출 임계값을 설정하고 한도에 도달하면 활동을 자동으로 일시 중지하여 예상치 못한 청구서를 방지할 수 있습니다. 사용자는 대시보드, cf CLI 또는 REST API를 통해 이러한 설정을 관리할 수 있습니다.",
+   "impact": "개발자와 기술 팀은 이러한 새로운 한도를 사용하여 예상치 못한 클라우드 비용을 더 잘 제어하고 계획되지 않은 사용량 청구서를 방지할 수 있습니다. 보안 및 관리 팀도 감사 로그와 자동 차단 정책의 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "지출 관리 기능은 Workers 및 Durable Objects를 시작으로 종량제 고객을 위한 베타 버전으로 제공됩니다.",
+    "사용자는 지출 한도, 알림 수신자 이메일, 하나 이상의 경고 임계값을 지정할 수 있습니다.",
+    "지출 한도에 도달하면 차단 정책이 적용되어 제품이 자동으로 일시 중지됩니다.",
+    "대시보드, cf CLI 또는 REST API를 통해 설정을 관리할 수 있습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1a853c46576253c8",
+ "contentHash": "8b9734de9f417bff",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T23:43:11.728Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Build a model improvement flywheel with Amazon SageMaker HyperPod Data Capture",
+   "summary": "Amazon SageMaker HyperPod now offers Data Capture, a built-in feature that records live inference inputs and outputs to Amazon S3 across three independent tiers. A walkthrough demonstrates capturing production traffic for a home-appliance support router, querying it with Amazon Athena, labeling the records, and fine-tuning the model to learn new products. The architecture includes Tier 1 at the SageMaker endpoint, Tier 2 at the load balancer, and Tier 3 at the model pod. Prerequisites for the implementation include a SageMaker HyperPod cluster orchestrated by Amazon EKS with both inference and training operators installed, along with two available NVIDIA GPUs.",
+   "impact": "Development and security teams can use this capability to detect drift, find failure patterns, and collect training data from production interactions with minimal latency impact. Proper precautions such as AWS KMS encryption and PII redaction may be necessary when handling captured payloads.",
+   "keyPoints": [
+    "Amazon SageMaker HyperPod Data Capture records live inference inputs and outputs to Amazon S3 at three independent tiers.",
+    "Tier 1 uses the SageMaker endpoint, Tier 2 uses the load balancer, and Tier 3 uses the model pod.",
+    "The walkthrough demonstrates using captured data to fine-tune a model on a new product.",
+    "Prerequisites include an EKS-orchestrated SageMaker HyperPod cluster, inference and training operators, and two NVIDIA GPUs."
+   ]
+  },
+  "km": {
+   "title": "កសាងកង់រតន៏កែលម្អម៉ូដែលជាមួយ Amazon SageMaker HyperPod Data Capture",
+   "summary": "Amazon SageMaker HyperPod ឥឡូវនេះផ្តល់នូវមុខងារ Data Capture ដែលជាមុខងារភ្ជាប់មកជាមួយដើម្បីកត់ត្រាទិន្នន័យបញ្ចូល និងទិន្នន័យចេញនៃការសន្និដ្ឋានផ្ទាល់ទៅកាន់ Amazon S3 នៅលើកម្រិតឯករាជ្យចំនួនបី។ អត្ថបទបង្ហាញពីដំណើរការនៃការចាប់យកចរាចរណ៍ផលិតកម្មសម្រាប់រ៉ោតទ័រគាំទ្រឧបករណ៍ក្នុងផ្ទះ ការកើបយកទិន្នន័យដោយប្រើ Amazon Athena ការដាក់ស្លាកទិន្នន័យ និងការលៃតម្រូវម៉ូដែលល្អិតល្អន់ដើម្បីស្វែងយល់ពីផលិតផលថ្មី។ ស្ថាបត្យកម្មនេះរួមមានកម្រិតទី១ នៅកន្លែងចុងក្រោយរបស់ SageMaker កម្រិតទី២ នៅលើ load balancer និងកម្រិតទី៣ នៅលើ pod របស់ម៉ូដែល។ លក្ខខណ្ឌតម្រូវសម្រាប់ការអនុវត្តរួមមាន cluster របស់ SageMaker HyperPod ដែលគ្រប់គ្រងដោយ Amazon EKS ជាមួយអុបេរ៉ាទ័រទាំងពីរសម្រាប់ការសន្និដ្ឋាន និងការបណ្តុះបណ្តាល រួមទាំងក្រាហ្វិកកាត NVIDIA ចំនួនពីរ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍និងសុវត្ថិភាពអាចប្រើប្រាស់សមត្ថភាពនេះដើម្បីរកឃើញការប្រែប្រួល រកឃើញគំរូបញ្ហា និងប្រមូលទិន្នន័យបណ្តុះបណ្តាលពីអន្តរកម្មផលិតកម្មដោយមានផលប៉ះពាល់ latency ទាបបំផុត។ ការប្រុងប្រយ័ត្នត្រឹមត្រូវដូចជាការអ៊ិនគ្រីប AWS KMS និងការលុបបំបាត់ព័ត៌មានដែលអាចសម្គាល់បុគ្គលបាន (PII) អាចចាំបាច់ពេលจัดการกับទិន្នន័យដែលបានចាប់យក។",
+   "keyPoints": [
+    "Amazon SageMaker HyperPod Data Capture កត់ត្រាទិន្នន័យបញ្ចូលនិងចេញនៃការសន្និដ្ឋានទៅកាន់ Amazon S3 នៅកម្រិតឯករាជ្យចំនួនបី។",
+    "កម្រិតទី១ ប្រើប្រាស់ SageMaker endpoint កម្រិតទី២ ប្រើ load balancer និងកម្រិតទី៣ ប្រើ model pod។",
+    "ដំណើរការបង្ហាញពីការប្រើប្រាស់ទិន្នន័យដែលបានចាប់យកដើម្បីលៃតម្រូវម៉ូដែលនៅលើផលិតផលថ្មី។",
+    "លក្ខខណ្ឌតម្រូវរួមមាន cluster របស់ SageMaker HyperPod ដែលគ្រប់គ្រងដោយ EKS អុបេរ៉ាទ័រ និងក្រាហ្វិកកាត NVIDIA ពីរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 Amazon SageMaker HyperPod Data Capture 构建模型改进飞轮",
+   "summary": "Amazon SageMaker HyperPod 现在提供 Data Capture，这是一项内置功能，可在三个独立的层级上将实时推理输入和输出记录到 Amazon S3。演练展示了捕获家用电器支持路由器的生产流量、使用 Amazon Athena 进行查询、标记记录以及微调模型以学习新产品的完整过程。该架构包括 SageMaker 端点处的第 1 层、负载均衡器处的第 2 层和模型 Pod 处的第 3 层。实施的前提条件包括由 Amazon EKS 编排的 SageMaker HyperPod 集群，并安装了推理和训练操作器以及两个可用的 NVIDIA GPU。",
+   "impact": "开发和安全团队可以使用此功能来检测漂移、发现故障模式并从生产交互中收集训练数据，且对延迟的影响极小。在处理捕获的有效负载时，可能需要采取适当的预防措施，例如 AWS KMS 加密和个人身份信息 (PII) 冗余去除。",
+   "keyPoints": [
+    "Amazon SageMaker HyperPod Data Capture 在三个独立层级上将实时推理输入和输出记录到 Amazon S3。",
+    "第 1 层使用 SageMaker 端点，第 2 层使用负载均衡器，第 3 层使用模型 Pod。",
+    "演练演示了如何使用捕获的数据针对新产品微调模型。",
+    "前提条件包括由 EKS 编排的 SageMaker HyperPod 集群、推理和训练操作器以及两个 NVIDIA GPU。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon SageMaker HyperPod Data Capture로 모델 개선 플라이휠 구축",
+   "summary": "Amazon SageMaker HyperPod는 이제 세 가지 독립적인 계층에서 라이브 추론 입력 및 출력을 Amazon S3에 기록하는 내장 기능인 Data Capture를 제공합니다. 가이드에서는 홈 가전 지원 라우터에 대한 프로덕션 트래픽 캡처, Amazon Athena를 사용한 쿼리, 레코드 라벨링, 그리고 새 제품을 학습하기 위한 모델 미세 조정을 다룹니다. 아키텍처는 SageMaker 엔드포인트의 1계층, 로드 밸런서의 2계층, 모델 팟의 3계층으로 구성됩니다. 구현을 위한 전제 조건으로는 Amazon EKS가 오케스트레이션하고 추론 및 학습 연산자가 설치된 SageMaker HyperPod 클러스터와 두 개의 사용 가능한 NVIDIA GPU가 포함됩니다.",
+   "impact": "개발 및 보안 팀은 이 기능을 사용하여 지연 시간 영향은 최소화하면서 드리프트 감지, 실패 패턴 찾기, 프로덕션 상호 작용에서 학습 데이터 수집을 수행할 수 있습니다. 캡처된 페이로드를 처리할 때는 AWS KMS 암호화 및 개인 식별 정보(PII) 마스킹과 같은 적절한 사전 조치가 필요할 수 있습니다.",
+   "keyPoints": [
+    "Amazon SageMaker HyperPod Data Capture는 세 가지 독립적인 계층에서 라이브 추론 입력과 출력을 Amazon S3에 기록합니다.",
+    "1계층은 SageMaker 엔드포인트를 사용하고, 2계층은 로드 밸런서를, 3계층은 모델 팟을 사용합니다.",
+    "가이드에서는 캡처된 데이터를 사용하여 새 제품에 대한 모델을 미세 조정하는 방법을 보여줍니다.",
+    "전제 조건에는 EKS로 오케스트레이션된 SageMaker HyperPod 클러스터, 추론 및 학습 연산자, 그리고 두 개의 NVIDIA GPU가 포함됩니다."
+   ]
+  }
+ }
+}

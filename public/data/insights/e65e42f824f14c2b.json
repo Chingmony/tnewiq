@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e65e42f824f14c2b",
+ "contentHash": "ddbea683e06e122a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T23:41:47.481Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Run Native DLA Inference in Python on NVIDIA Jetson AGX Orin Using cuDLA",
+   "summary": "AI applications at the edge often need to run multiple neural networks within limited compute and power budgets. NVIDIA Deep Learning Accelerator platforms provide dedicated hardware for deep learning inference. On NVIDIA Jetson AGX Orin, DLA executes supported neural network operations to offload inference work from the GPU.",
+   "impact": "Offloading inference work from the GPU to DLA could improve power efficiency and leave compute resources available for other tasks. Developers and technology users working with edge AI applications may benefit from these hardware capabilities.",
+   "keyPoints": [
+    "Edge AI applications often require running multiple neural networks under strict compute and power limits.",
+    "NVIDIA Deep Learning Accelerator provides dedicated hardware for deep learning inference.",
+    "NVIDIA Jetson AGX Orin uses DLA to execute supported neural network operations and offload the GPU."
+   ]
+  },
+  "km": {
+   "title": "ដំណើរការ DLA Inference ដើមក្នុង Python នៅលើ NVIDIA Jetson AGX Orin ដោយប្រើ cuDLA",
+   "summary": "កម្មវិធី AI នៅលើគែម (edge) ច្រើនតែត្រូវការដំណើរការបណ្តាញសរសៃប្រសាទច្រើនក្នុងកម្រិតថាមពលនិងការគណនាដែលមានកំណត់។ វេទិកា NVIDIA Deep Learning Accelerator ផ្តល់នូវ hardware ដាច់ដោយឡែកសម្រាប់ការសន្និដ្ឋានការរៀនស៊ីជម្រៅ។ នៅលើ NVIDIA Jetson AGX Orin គឺ DLA អនុវត្តប្រតិបត្តិការបណ្តាញសរសៃប្រសាទដែលគាំទ្រ ដើម្បីផ្ទេរការងារសន្និដ្ឋានចេញពី GPU។",
+   "impact": "ការផ្ទេរការងារសន្និដ្ឋានចេញពី GPU ទៅ DLA អាចកែលម្អប្រសិទ្ធភាពថាមពល និងទុកធនធានគណនាសម្រាប់កិច្ចការផ្សេងទៀត។ អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលធ្វើការជាមួយកម្មវិធី edge AI អាចទទួលបានប្រយោជន៍ពីសមត្ថភាព hardware ទាំងនេះ។",
+   "keyPoints": [
+    "កម្មវិធី edge AI ច្រើនតែត្រូវការដំណើរការបណ្តាញសរសៃប្រសាទច្រើនក្រោមដែនកំណត់ថាមពល និងការគណនា។",
+    "NVIDIA Deep Learning Accelerator ផ្តល់នូវ hardware ដាច់ដោយឡែកសម្រាប់ការសន្និដ្ឋានការរៀនស៊ីជម្រៅ។",
+    "NVIDIA Jetson AGX Orin ប្រើប្រាស់ DLA ដើម្បីប្រតិបត្តិប្រតិបត្តិការបណ្តាញសរសៃប្រសាទ និងផ្ទេរការងារពី GPU។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 cuDLA 在 NVIDIA Jetson AGX Orin 上通过 Python 运行本地 DLA 推理",
+   "summary": "边缘AI应用通常需要在有限的计算和功耗预算内运行多个神经网络。NVIDIA Deep Learning Accelerator 平台为深度学习推理提供了专用硬件。在 NVIDIA Jetson AGX Orin 上，DLA 可以执行受支持的神经网络运算，从而将推理工作从 GPU 卸载。",
+   "impact": "将推理工作从 GPU 卸载到 DLA 可以提高能效，并为其他任务留出计算资源。开发人员和技术用户可能会从这些硬件功能中受益。",
+   "keyPoints": [
+    "边缘AI应用经常需要在严格的计算和功耗限制下运行多个神经网络。",
+    "NVIDIA Deep Learning Accelerator 为深度学习推理提供专用硬件。",
+    "NVIDIA Jetson AGX Orin 使用 DLA 执行受支持的神经网络运算并将 GPU 卸载。"
+   ]
+  },
+  "ko": {
+   "title": "cuDLA를 사용하여 NVIDIA Jetson AGX Orin의 Python에서 네이티브 DLA 인스퍼런스 실행",
+   "summary": "엣지의 AI 애플리케이션은 제한된 연산 및 전력 예산 내에서 여러 신경망을 실행해야 하는 경우가 많습니다. NVIDIA Deep Learning Accelerator 플랫폼은 딥러닝 인프런스를 위한 전용 하드웨어를 제공합니다. NVIDIA Jetson AGX Orin에서 DLA는 지원되는 신경망 연산을 실행하여 GPU에서 인프런스 작업을 오프로드할 수 있습니다.",
+   "impact": "GPU에서 DLA로 인프런스 작업을 오프로드하면 전력 효율성이 향상되고 다른 작업을 위해 연산 자원을 확보할 수 있습니다. 엣지 AI 애플리케이션을 다루는 개발자와 기술 사용자는 이러한 하드웨어 기능의 이점을 누릴 수 있습니다.",
+   "keyPoints": [
+    "엣지 AI 애플리케이션은 종종 제한된 연산 및 전력 한계 내에서 여러 신경망을 실행해야 합니다.",
+    "NVIDIA Deep Learning Accelerator는 딥러닝 인프런스를 위한 전용 하드웨어를 제공합니다.",
+    "NVIDIA Jetson AGX Orin은 DLA를 사용하여 지원되는 신경망 연산을 실행하고 GPU 작업을 오프로드합니다."
+   ]
+  }
+ }
+}

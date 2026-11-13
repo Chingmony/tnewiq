@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "41586052132a21c1",
+ "contentHash": "b8abb4192679969d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T23:39:34.791Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime",
+   "summary": "Amazon Bedrock AgentCore runtime introduces a platformVersion \"V2\" that speeds up session startups by preparing the environment once, taking a snapshot, and restoring that snapshot for each new session instead of initializing the container every time. V2 also reclaims unused memory so users only pay for consumed resources. The article discusses how V2 operates, how to measure session start times, and shares four architecture patterns to keep work off the first request.",
+   "impact": "Developers and security teams utilizing Amazon Bedrock AgentCore can achieve faster and more consistent agent session start times while optimizing resource consumption and reducing costs. However, teams may need to restructure certain agents or adopt build hooks and pre-warming patterns to achieve sub-second response requirements.",
+   "keyPoints": [
+    "AgentCore runtime platformVersion V2 prepares an environment once, snapshots it, and restores it for new sessions.",
+    "V2 eliminates the need to pull container images and initialize code for every new session, reducing cold start times.",
+    "Build hooks are now supported to load and prime large files or binaries while the snapshot is built.",
+    "The platform clears the OS file cache before freezing the microVM and fetches image files lazily on first read."
+   ]
+  },
+  "km": {
+   "title": "គំរូស្ថាបត្យកម្មសម្រាប់ការចាប់ផ្ដើមសម័យដំណើរការលឿននៅលើ Amazon Bedrock AgentCore runtime",
+   "summary": "Amazon Bedrock AgentCore runtime បានណែនាំ platformVersion \"V2\" ដែលជួយបង្កើនល្បឿននៃការចាប់ផ្ដើមសម័យដំណើរការ ដោយរៀបចំកន្លែងបរិស្ថានម្ដង ថតរូបភាពរក្សាទុក និងស្ដាររូបភាពនោះឡើងវិញសម្រាប់រាល់សម័យដំណើរការថ្មី។ វាជួយឱ្យការចាប់ផ្ដើមមានល្បឿនលឿនជាងមុន និងប្រមូលអង្គចងចាំដែលមិនបានប្រើប្រាស់មកវិញ។ អត្ថបទនេះពន្យល់ពីរបៀបដែល V2 ដំណើរការ និងគំរូស្ថាបត្យកម្មផ្សេងៗ.",
+   "impact": "ក្រុមអភិវឌ្ឍន៍អាចទទួលបានពេលវេលាចាប់ផ្ដើមសម័យដំណើរការលឿននិងជាប់លាប់ជាងមុន ក៏ដូចជាកាត់បន្ថយការចំណាយលើធនធានដែលមិនបានប្រើប្រាស់។ ទោះជាយ៉ាងណា ភ្នាក់ងារខ្លះអាចទាមទារការរៀបចំកូដឡើងវិញដើម្បីទាញយកអត្ថប្រយោជន៍ពេញលេញពី V2។",
+   "keyPoints": [
+    "AgentCore runtime platformVersion V2 រៀបចំបរិស្ថានម្ដង និងថតរូបភាពរក្សាទុកសម្រាប់សម័យដំណើរការថ្មីៗ។",
+    "កាត់បន្ថយការពឹងផ្អែកលើការទាញយកកុងតឺន័រសម្រាប់រាល់ពេលចាប់ផ្ដើមម្ដងៗ។",
+    "គាំទ្រដល់ build hooks ដើម្បីផ្ទុកឯកសារធំៗពេលកំពុងបង្កើតរូបភាព។",
+    "សម្អាតឃ្លាំងសម្ងាត់ឯកសាររបស់ប្រព័ន្ធប្រតិបត្តិការមុនពេលត្រជាក់ microVM។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Bedrock AgentCore runtime 快速会话启动的架构模式",
+   "summary": "Amazon Bedrock AgentCore runtime 推出了平台版本 \"V2\"，通过一次性准备环境、创建快照并在每个新会话中恢复该快照，从而加快会话启动速度。V2 会话启动时间更快、更一致，并且能够回收未使用的内存。文章介绍了 V2 如何启动会话、如何测量启动时间以及如何将工作移出第一个请求的四种模式。",
+   "impact": "开发人员和技术团队能够通过 V2 获得更快的会话启动速度和按需付费的资源优化。部分代理可能需要进行代码重构或使用构建钩子才能获得最佳性能，以满足实时聊天和语音体验的需求。",
+   "keyPoints": [
+    "AgentCore runtime 的 platformVersion V2 在创建或更新时构建快照，供新会话恢复使用。",
+    "V2 避免了为每个会话重复拉取容器镜像和运行初始化代码的过程。",
+    "支持构建钩子（build hooks）以便在构建快照时加载和预热大型文件、CLI 或浏览器。",
+    "V2 会在冻结前清除操作系统文件缓存，并在首次读取时按需加载镜像文件。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock AgentCore 런타임에서 빠른 세션 시작을 위한 아키텍처 패턴",
+   "summary": "Amazon Bedrock AgentCore 런타임은 환경을 한 번 준비하고 스냅샷을 생성한 뒤 새 세션마다 해당 스냅샷을 복원하여 세션 시작 속도를 높이는 platformVersion \"V2\"를 도입했습니다. V2는 사용하지 않는 메모리를 회수하여 자원 소비를 최적화하며 더 빠르고 일관된 세션 시작 시간을 제공합니다. 이 글에서는 V2의 작동 방식과 시작 시간 측정 방법, 첫 번째 요청에서 부하를 줄이는 네 가지 패턴을 설명합니다.",
+   "impact": "개발자와 보안 팀은 AgentCore 런타임의 V2를 통해 더 빠르고 일관된 세션 시작 속도를 달성하고 비용을 절감할 수 있습니다. 다만 실시간 채팅이나 음성 환경에서 최대의 이점을 얻으려면 에이전트 코드를 재구성하거나 빌드 훅을 사용해야 할 수 있습니다.",
+   "keyPoints": [
+    "AgentCore 런타임 platformVersion V2는 생성 또는 업데이트 시 환경을 한 번 준비하고 스냅샷으로 저장합니다.",
+    "새 세션이 들어오면 스냅샷을 새로운 microVM에 복원하여 초기화 지연을 줄입니다.",
+    "AgentCore 런타임은 이제 스냅샷 빌드 중 대용량 파일을 로드하고 준비하는 빌드 훅을 지원합니다.",
+    "V2는 운영 체제 파일 캐시를 지우고 첫 번째 읽기 시 이미지 파일을 지연 로드합니다."
+   ]
+  }
+ }
+}

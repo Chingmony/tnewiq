@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c7c1adfef40b0ae1",
+ "contentHash": "ad6da5fc178f0b5b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T23:39:57.338Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures",
+   "summary": "Amazon SageMaker JumpStart now supports the deployment of OpenFold3-preview, an open-source biomolecular structure prediction model developed by the OpenFold Consortium and the AlQuraishi Lab at Columbia University. Users can deploy the model into their AWS accounts with network isolation to predict the 3D structures of proteins, DNA, RNA, small-molecule ligands, and their complexes. The deployment utilizes SageMaker asynchronous inference endpoints to handle requests that take several minutes, bypassing real-time endpoint timeouts. SageMaker JumpStart manages infrastructure needs such as GPU requirements, model checkpoints, request queuing, and autoscaling.",
+   "impact": "Development and research teams working in computational drug discovery, antibody engineering, and protein design could find it easier to run complex structural predictions without managing complex GPU and serving infrastructure. Security teams may benefit from network-isolated endpoints that help keep proprietary biological sequences within their AWS account. Technology users might reduce operational costs by utilizing features like autoscaling and scaling the endpoint to zero when idle.",
+   "keyPoints": [
+    "OpenFold3 is an all-atom biomolecular structure prediction model developed by the OpenFold Consortium and the AlQuraishi Lab at Columbia University.",
+    "The model can predict 3D structures for proteins, DNA, RNA, small-molecule ligands, and multi-chain complexes.",
+    "OpenFold3-preview is available on Amazon SageMaker JumpStart using asynchronous inference endpoints to accommodate long-running predictions.",
+    "The model uses the Apache 2.0 license and supports instances such as ml.g6.2xlarge, ml.g6.4xlarge, and ml.g6.12xlarge."
+   ]
+  },
+  "km": {
+   "title": "OpenFold3 នៅលើ Amazon SageMaker JumpStart៖ ការទายទុកជាមុននូវរចនាសម្ព័ន្ធជីវម៉ូលេគុល",
+   "summary": "Amazon SageMaker JumpStart ឥឡូវនេះគាំទ្រដល់ការដាក់ពង្រាយ OpenFold3-preview ដែលជាគំរូទายទុកជាមុននូវរចនាសម្ព័ន្ធជីវម៉ូលេគុលបែបបើកចំហ ដែលត្រូវបានអភិវឌ្ឍដោយ OpenFold Consortium និង AlQuraishi Lab នៅសាកលវិទ្យាល័យ Columbia ។ អ្នកប្រើប្រាស់អាចដាក់ពង្រាយគំរូនេះទៅក្នុងគណនី AWS ផ្ទាល់ខ្លួនរបស់ពួកគេជាមួយនឹងការផ្ដាច់ខ្លួនពីបណ្តាញ ដើម្បីទាយទុកជាមុននូវរចនាសម្ព័ន្ធ 3D នៃប្រូតេអ៊ីន DNA RNA លីហ្គង់ម៉ូលេគុលតូចៗ និងកុំផ្លិចរបស់វា។ ការដាក់ពង្រាយនេះប្រើប្រាស់ចំណុចប្រទាក់សន្និដ្ឋានអសមកាលរបស់ SageMaker ដើម្បីគ្រប់គ្រងសំណើដែលត្រូវចំណាយពេលច្រើននាទី។ SageMaker JumpStart ជួយគ្រប់គ្រងតម្រូវការហេដ្ឋារចនាសម្ព័ន្ធដូចជា GPU និងការធ្វើមាត្រដ្ឋានដោយស្វ័យប្រវត្តិ។",
+   "impact": "ក្រុមការងារស្រាវជ្រាវ និងអភិវឌ្ឍន៍ក្នុងការរកឃើញថ្នាំតាមកុំព្យូទ័រអាចនឹងមានភាពងាយស្រួលជាងមុនក្នុងការដំណើរការទស្សន៍ទាយរចនាសម្ព័ន្ធស្មុគស្មាញដោយមិនចាំបាច់គ្រប់គ្រងហេដ្ឋារចនាសម្ព័ន្ធ GPU ផ្ទាល់ខ្លួន។ ក្រុមសុវត្ថិភាពអាចទទួលបានអត្ថប្រយោជន៍ពីចំណុចប្រទាក់ដែលត្រូវបាន隔離 ដើម្បីជួយរក្សាសុវត្ថិភាពទិន្នន័យជីវសាស្ត្រនៅក្នុងគណនី AWS ។",
+   "keyPoints": [
+    "OpenFold3 គឺជាគំរូទាយទុកជាមុននូវរចនាសម្ព័ន្ធជីវម៉ូលេគុលដែលអភិវឌ្ឍដោយ OpenFold Consortium និង AlQuraishi Lab ។",
+    "គំរូនេះអាចទាយទុកជាមុននូវរចនាសម្ព័ន្ធ 3D សម្រាប់ប្រូតេអ៊ីន DNA RNA និងលីហ្គង់ម៉ូលេគុលតូចៗ។",
+    "OpenFold3-preview មាននៅលើ Amazon SageMaker JumpStart ដោយប្រើប្រាស់ចំណុចប្រទាក់សន្និដ្ឋានអសមកាល។",
+    "គំរូនេះប្រើប្រាស់អាជ្ញាប័ណ្ណ Apache 2.0 និងគាំទ្រប្រភេទម៉ាស៊ីនដូចជា ml.g6.2xlarge, ml.g6.4xlarge និង ml.g6.12xlarge ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon SageMaker JumpStart 上的 OpenFold3：预测生物分子结构",
+   "summary": "Amazon SageMaker JumpStart 现在支持部署 OpenFold3-preview，这是一个由哥伦比亚大学 OpenFold Consortium 和 AlQuraishi 实验室开发的开源生物分子结构预测模型。用户可以在其 AWS 账户中部署该模型，利用网络隔离来预测蛋白质、DNA、RNA、小分子配体及其复合物的三维结构。该部署使用 SageMaker 异步推理端点来处理需要数分钟的请求，从而绕过实时端点的限制。SageMaker JumpStart 能够处理 GPU 基础设施、模型检查点和自动缩放等繁琐工作。",
+   "impact": "从事计算药物发现、抗体工程和蛋白质设计的开发人员和研究团队可能会更轻松地运行复杂的结构预测，而无需管理复杂的 GPU 基础设施。安全团队可以受益于网络隔离的端点，这有助于将专有生物序列保留在他们的 AWS 账户中。技术用户还可以通过在闲置时将端点缩放到零来降低运营成本。",
+   "keyPoints": [
+    "OpenFold3 是由哥伦比亚大学 OpenFold Consortium 和 AlQuraishi 实验室开发的全原子生物分子结构预测模型。",
+    "该模型可以预测蛋白质、DNA、RNA、小分子配体和多链复合物的三维结构。",
+    "OpenFold3-preview 在 Amazon SageMaker JumpStart 上运行，并使用异步推理端点来适应长时间运行的预测任务。",
+    "该模型采用 Apache 2.0 许可证发布，并支持 ml.g6.2xlarge、ml.g6.4xlarge 和 ml.g6.12xlarge 等实例。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon SageMaker JumpStart의 OpenFold3: 생체 분자 구조 예측",
+   "summary": "Amazon SageMaker JumpStart는 이제 컬럼비아 대학교의 OpenFold Consortium과 AlQuraishi Lab이 개발한 오픈 소스 생체 분자 구조 예측 모델인 OpenFold3-preview 배포를 지원합니다. 사용자는 자체 AWS 계정에 모델을 배포하여 단백질, DNA, RNA, 소분자 리간드 및 이들의 복합체의 3차원 구조를 예측할 수 있습니다. 이 배포는 수 분이 소요되는 요청을 처리하기 위해 SageMaker 비동기 추론 엔드포인트를 사용합니다. SageMaker JumpStart는 GPU 인프라, 모델 체크포인트, 요청 대기열 및 자동 확장과 같은 작업을 관리합니다.",
+   "impact": "컴퓨터 기반 신약 발굴, 항체 및 단백질 공학 분야의 개발자와 연구팀은 복잡한 GPU 인프라를 직접 관리하지 않고도 복잡한 구조 예측을 더 쉽게 실행할 수 있습니다. 보안 팀은 독점 생물학적 서열을 AWS 계정 내에 유지하는 데 도움이 되는 네트워크 격리 엔드포인트의 이점을 누릴 수 있습니다. 기술 사용자는 유휴 상태일 때 엔드포인트를 0으로 확장하여 운영 비용을 절감할 수 있습니다.",
+   "keyPoints": [
+    "OpenFold3는 OpenFold Consortium과 컬럼비아 대학교 AlQuraishi Lab이 개발한 전원자 생체 분자 구조 예측 모델입니다.",
+    "이 모델은 단백질, DNA, RNA, 소분자 리간드 및 다중 사슬 복합체의 3차원 구조를 예측할 수 있습니다.",
+    "OpenFold3-preview는 장시간 실행되는 예측을 수용하기 위해 비동기 추론 엔드포인트를 사용하여 Amazon SageMaker JumpStart에서 실행됩니다.",
+    "이 모델은 Apache 2.0 라이선스로 배포되며 ml.g6.2xlarge, ml.g6.4xlarge, ml.g6.12xlarge 인스턴스를 지원합니다."
+   ]
+  }
+ }
+}

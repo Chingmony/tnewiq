@@ -1,7 +1,375 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-13T17:47:19.356Z",
+ "generatedAt": "2026-11-13T23:37:17.192Z",
  "articles": [
+  {
+   "id": "91ab97e44683e9c3",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/",
+   "originalLanguage": "en",
+   "originalDescription": "GS Caltex connects Amazon SageMaker Canvas to Amazon SageMaker Pipelines so process engineers' no-code models run in production. This post shows how ML engineers reuse validated preprocessing flows and models, cutting deployment from about a week to a few hours and running…",
+   "publishedAt": "2026-11-13T23:22:09.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "ce305ffba8a86522"
+  },
+  {
+   "id": "a53b6d6797d1d8ce",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+   "originalUrl": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+   "originalLanguage": "en",
+   "originalDescription": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+   "publishedAt": "2026-11-13T22:43:00.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai",
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "b6f6c78debec1f23"
+  },
+  {
+   "id": "762061e9584cb869",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/",
+   "originalLanguage": "en",
+   "originalDescription": "Coding agents work in tasks, and the number that matters is cost per solved task, not price per token. In this post, you use the AWS CDK to deploy LiteLLM with the NVIDIA NeMo Switchyard routing plugin on Amazon Bedrock, then measure cost per solved task for a routed model…",
+   "publishedAt": "2026-11-13T22:30:12.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "3a0dfe15373c6c59"
+  },
+  {
+   "id": "8f4ab68910c3775c",
+   "sourceId": "nvidia-technical-blog",
+   "sourceName": "NVIDIA Technical Blog",
+   "originalTitle": "Faster Scientific Simulations with New FP64 Algorithms in NVIDIA cuBLAS",
+   "originalUrl": "https://developer.nvidia.com/blog/faster-scientific-simulations-with-new-fp64-algorithms-in-nvidia-cublas/",
+   "originalLanguage": "en",
+   "originalDescription": "Many scientific simulations, from molecular chemistry to materials science, spend the majority of their execution time computing high-precision dense general...",
+   "publishedAt": "2026-11-13T22:13:51.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "345caf100922d96c"
+  },
+  {
+   "id": "41586052132a21c1",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon Bedrock AgentCore runtime V2 snapshots your initialized environment and restores it for each new session, so session start no longer grows with image size. This post explains how V2 starts a session, how to measure session start time, and four patterns to keep work off…",
+   "publishedAt": "2026-11-13T22:02:39.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure",
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "b8abb4192679969d"
+  },
+  {
+   "id": "83c85afd09671f51",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "[11월13일] 'AI의 은행' 이끌던 젠슨 황 퇴임…AI 산업 판도 바뀌나",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217364",
+   "originalLanguage": "ko",
+   "originalDescription": "젠슨 황의 퇴임이 엔비디아를 넘어 AI 산업 전체에 충격을 주고 있습니다. 세계 AI 반도체 시장을 지배하는 기업의 창업자가 물러났다는 사실보다, 지난 수년간 막대한 자금과 영향력을 동원해 AI 산업의 성장을 이끌어 온 핵심 인물이 사라졌다는 점이 주목됩니다.가장 큰 관심은 엔비디아의 공격적인 투자 전략이 유지될지입니다. 이 회사는 최근 'AI의 은행'으로 불릴 만큼 반도체 공급을 넘어 AI 산업의 주요 자금줄로 자리 잡았습니다. 오픈AI에 300억달러를 투자하고 오픈AI 관련 데이터센터…",
+   "publishedAt": "2026-11-13T22:00:00.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "8bed87932cacc64e"
+  },
+  {
+   "id": "c7c1adfef40b0ae1",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/",
+   "originalLanguage": "en",
+   "originalDescription": "Deploy OpenFold3-preview from Amazon SageMaker JumpStart to predict 3D structures of proteins, DNA, RNA, and ligand complexes in your own AWS account. The post covers asynchronous inference, multi-GPU parallelism, bringing your own MSAs for accuracy and privacy, and scaling to…",
+   "publishedAt": "2026-11-13T21:53:40.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "ad6da5fc178f0b5b"
+  },
+  {
+   "id": "0fc0a6705fb8b0c5",
+   "sourceId": "nvidia-technical-blog",
+   "sourceName": "NVIDIA Technical Blog",
+   "originalTitle": "Run GPU-Powered Black Hole Interferometry with NVIDIA cuPhoton",
+   "originalUrl": "https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/",
+   "originalLanguage": "en",
+   "originalDescription": "Imaging black holes is challenging because they are distant and appear tiny in the sky—for example, M87*’s observed ring spans just 42 microarcseconds. The...",
+   "publishedAt": "2026-11-13T21:17:17.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "4f9b2ba5277456e1"
+  },
+  {
+   "id": "bea6f68aca51de60",
+   "sourceId": "google-research-blog",
+   "sourceName": "Google Research Blog",
+   "originalTitle": "Advancing science & engineering with Antigravity’s /teamwork",
+   "originalUrl": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+   "originalLanguage": "en",
+   "originalDescription": "Education Innovation",
+   "publishedAt": "2026-11-13T20:47:18.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai",
+    "research-papers"
+   ],
+   "imageUrl": "https://storage.googleapis.com/gweb-research2023-media/original_images/AntigravityTeamwork_HeroFinal.jpg",
+   "contentHash": "1a7434e03126870c"
+  },
+  {
+   "id": "754f24889ed9e00a",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+   "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+   "originalLanguage": "en",
+   "originalDescription": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express…",
+   "publishedAt": "2026-11-13T20:45:10.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "499645f3b9d4256e"
+  },
+  {
+   "id": "5ab783dcdbdb11e3",
+   "sourceId": "cloudflare-blog",
+   "sourceName": "The Cloudflare Blog",
+   "originalTitle": "Kitesurf is now open source",
+   "originalUrl": "https://blog.cloudflare.com/kitesurf-open-source/",
+   "originalLanguage": "en",
+   "originalDescription": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
+   "publishedAt": "2026-11-13T20:20:21.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "cloud-infrastructure",
+    "developer-tools"
+   ],
+   "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M7B8M53647Q1KNRABY8VM2G7.png",
+   "contentHash": "2c7ce4a1f55e7db5"
+  },
+  {
+   "id": "4ce97183d7c013cb",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life",
+   "originalUrl": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
+   "originalLanguage": "en",
+   "originalDescription": "Jensen Huang likely left Nvidia more because of risky business practices than anything else, a Wall Street Journal report suggests. At the very least, those practices made him enemies internally. The company offered cloud providers billions in financial guarantees for chip…",
+   "publishedAt": "2026-11-13T20:07:34.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "c3211fd049320755"
+  },
+  {
+   "id": "b96c8f1ce3eaba55",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "AI agent startup LangChain hits $3B valuation",
+   "originalUrl": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+   "originalLanguage": "en",
+   "originalDescription": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+   "publishedAt": "2026-11-13T19:37:57.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai",
+    "startups-products"
+   ],
+   "imageUrl": null,
+   "contentHash": "e186bd755f8bc791"
+  },
+  {
+   "id": "091099d846f62db2",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/",
+   "originalLanguage": "en",
+   "originalDescription": "Learn how AssemblyAI runs cost-optimized speech-to-text inference at scale on AWS, using Amazon ECS, Amazon EC2 Spot GPU instances, and an Amazon SQS-based retry architecture to achieve 70% cost savings while maintaining SLA commitments across European Regions.",
+   "publishedAt": "2026-11-13T19:35:35.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "0b86fc99e5fea39e"
+  },
+  {
+   "id": "a009bbdbfbe6de47",
+   "sourceId": "cloudflare-blog",
+   "sourceName": "The Cloudflare Blog",
+   "originalTitle": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+   "originalUrl": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+   "originalLanguage": "en",
+   "originalDescription": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+   "publishedAt": "2026-11-13T19:26:07.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "cloud-infrastructure",
+    "ai"
+   ],
+   "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M7B3YN6VXD98D313GQ0MHPM2.png",
+   "contentHash": "49ac0b1324fbdcba"
+  },
+  {
+   "id": "e65e42f824f14c2b",
+   "sourceId": "nvidia-technical-blog",
+   "sourceName": "NVIDIA Technical Blog",
+   "originalTitle": "Run Native DLA Inference in Python on NVIDIA Jetson AGX Orin Using cuDLA",
+   "originalUrl": "https://developer.nvidia.com/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/",
+   "originalLanguage": "en",
+   "originalDescription": "AI applications at the edge often need to run multiple neural networks within limited compute and power budgets. NVIDIA Deep Learning Accelerator (DLA)...",
+   "publishedAt": "2026-11-13T18:57:10.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai",
+    "programming-languages"
+   ],
+   "imageUrl": null,
+   "contentHash": "ddbea683e06e122a"
+  },
+  {
+   "id": "81fbe15cd809cef2",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet",
+   "originalUrl": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
+   "originalLanguage": "en",
+   "originalDescription": "OpenAI is taking a second shot at AI-powered shopping with ChatGPT Wallet after scrapping its first approach, Instant Checkout. Users register a card once and confirm each purchase through Face ID or a fingerprint, while actual card details stay hidden behind payment tokens…",
+   "publishedAt": "2026-11-13T18:55:21.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "d2eae45db2cfcf1c"
+  },
+  {
+   "id": "5118e84111e9ed9f",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon Bedrock provides built-in, zero-instrumentation cost attribution that traces every inference call back to the IAM principal that made it. This post shows how to attribute per-user Bedrock costs for AI developer and productivity tools using IAM Identity Center, session…",
+   "publishedAt": "2026-11-13T18:44:02.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "d6af102bf956be09"
+  },
+  {
+   "id": "6669a4d19d8d9722",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+   "originalUrl": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+   "originalLanguage": "en",
+   "originalDescription": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+   "publishedAt": "2026-11-13T18:40:30.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "fe0bc8c2fa778c2e"
+  },
+  {
+   "id": "fd9cfb6f4f864eb6",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "originalTitle": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
+   "originalUrl": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+   "originalLanguage": "en",
+   "originalDescription": "Chinese investors are shut out of Anthropic's IPO, Bloomberg reports. Banks are rejecting buy orders from mainland China and Hong Kong, citing U.S. export control rules known as ITAR. Similar restrictions applied during SpaceX's IPO, and Anthropic's products aren't available in…",
+   "publishedAt": "2026-11-13T18:01:53.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "e095c96d92f012e5"
+  },
+  {
+   "id": "1a853c46576253c8",
+   "sourceId": "aws-machine-learning-blog",
+   "sourceName": "AWS Machine Learning Blog",
+   "originalTitle": "Build a model improvement flywheel with Amazon SageMaker HyperPod Data Capture",
+   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon SageMaker HyperPod Data Capture records live inference inputs and outputs to Amazon S3. This post walks through one end-to-end example: capturing a support router's production traffic, surfacing a new-product blind spot with Amazon Athena, fine-tuning on the captured…",
+   "publishedAt": "2026-11-13T18:01:15.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai",
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "8b9734de9f417bff"
+  },
+  {
+   "id": "cdc8eef67bc55a0d",
+   "sourceId": "huggingface-blog",
+   "sourceName": "Hugging Face Blog",
+   "originalTitle": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+   "originalUrl": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+   "originalLanguage": "en",
+   "originalDescription": null,
+   "publishedAt": "2026-11-13T18:00:39.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "f3574590158cc768"
+  },
   {
    "id": "4b4e88316cc177dd",
    "sourceId": "ars-technica-ai",
@@ -114,6 +482,22 @@
    ],
    "imageUrl": null,
    "contentHash": "9d2f3fc979da6149"
+  },
+  {
+   "id": "f578fafa70d22f54",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Aurora PostgreSQL with express configuration now supported in CloudFormation",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-cloudformation/",
+   "originalLanguage": "en",
+   "originalDescription": "Aurora PostgreSQL now supports express configuration in AWS CloudFormation for infrastructure as code deployment. This launch enables you to automate the infrastructure deployment of your Aurora clusters through CloudFormation templates while benefiting from the speed of…",
+   "publishedAt": "2026-11-13T16:00:00.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "f9e9cc4522f9d551"
   },
   {
    "id": "bc02aac1ed684106",
@@ -680,6 +1064,86 @@
    "contentHash": "f60693422182e6b4"
   },
   {
+   "id": "38dcab5f94a69a90",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "AWS Batch on Amazon EKS adds Linux capabilities, seccomp, and pod-level settings",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
+   "originalLanguage": "en",
+   "originalDescription": "AWS Batch now supports additional Kubernetes security context settings in Amazon EKS job definitions, including Linux capabilities, seccomp profiles, and pod-level settings. For EKS clusters that enforce the Kubernetes Pod Security Standards restricted profile, you can now run…",
+   "publishedAt": "2026-11-13T08:00:00.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "eef363bad4af657a"
+  },
+  {
+   "id": "6846f8359699b5ce",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon SageMaker Unified Studio now supports layout customization for designations",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-studio-layout-customization/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon SageMaker Unified Studio now supports layout customization, a new capability that gives domain administrators control over which tools and left navigation items project members see based on their designation. Organizations with data engineering, analytics, and machine…",
+   "publishedAt": "2026-11-13T08:00:00.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "a57253027fe648fd"
+  },
+  {
+   "id": "7d2dd5f9b3c87c86",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "AWS Secrets Manager now supports cross-account replication",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-cross-account/",
+   "originalLanguage": "en",
+   "originalDescription": "AWS Secrets Manager now supports cross-account replication, enabling you to maintain a synchronized copy of a primary secret in a secondary AWS account for cross-account access, backup, and disaster recovery. Cross-account replication extends the existing multi-Region…",
+   "publishedAt": "2026-11-13T08:00:00.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "dd422b2c66095769"
+  },
+  {
+   "id": "8a620803cf34eaab",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "AWS Marketplace now supports VAT credit notes for deemed supply refunds",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace-vat-credit-notes/",
+   "originalLanguage": "en",
+   "originalDescription": "AWS Marketplace sellers can now submit Value Added Tax (VAT) credit notes for refunded deemed supply transactions through a self-service experience in AWS Partner Central. Previously, VAT was disbursed to sellers for eligible transactions, and when a buyer was later refunded…",
+   "publishedAt": "2026-11-13T08:00:00.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "cc28059b88873919"
+  },
+  {
+   "id": "a7f36f312d592ec7",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "AWS Systems Manager simplifies onboarding of Google Cloud VMs for centralized management",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/systems-manager-google-cloud-support/",
+   "originalLanguage": "en",
+   "originalDescription": "AWS Systems Manager Cloud Connector now extends simplified multicloud onboarding support to Google Cloud, making it easy to connect your existing Google Cloud VMs to Systems Manager for centralized management alongside AWS, on-premises, and Azure resources without manual agent…",
+   "publishedAt": "2026-11-13T08:00:00.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "343d7cd6b0fcfa53"
+  },
+  {
    "id": "ae143d7d2dd84309",
    "sourceId": "aitimes-kr",
    "sourceName": "AI타임스",
@@ -694,6 +1158,54 @@
    ],
    "imageUrl": null,
    "contentHash": "7e9c582c6d20f6ea"
+  },
+  {
+   "id": "ae8a0763b8fe5fd1",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon Bedrock AgentCore Identity now supports OAuth 2.0 discovery URLs",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-agentcore-oauth2-discovery/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon Bedrock AgentCore Identity now supports OAuth 2.0 authorization server discovery URLs for both inbound JWT authorization and outbound OAuth credential providers. This update enables developers to configure AgentCore with OAuth 2.0 authorization servers that do not use…",
+   "publishedAt": "2026-11-13T08:00:00.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "f5a928135cdc9979"
+  },
+  {
+   "id": "db049183ff0a93b0",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon RDS for Oracle reduces downtime for automatic minor version upgrades and scheduled maintenance",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-reduces-maintenance-downtime-for-amvu-scheduled-upgrades/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon Relational Database Service (Amazon RDS) for Oracle now reduces downtime for automatic minor version upgrades, as well as minor version upgrades and operating system updates scheduled for your maintenance window. Shorter maintenance makes it easier to stay current on the…",
+   "publishedAt": "2026-11-13T08:00:00.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "acdd16a10cf0d012"
+  },
+  {
+   "id": "dc1b9586a95b04a0",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "AWS Security Hub CSPM now supports centralized configuration with AWS Organizations declarative policies",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-cspm-org-policies/",
+   "originalLanguage": "en",
+   "originalDescription": "AWS Security Hub CSPM now supports AWS Organizations declarative policies. You can use them to enable Security Hub CSPM across all accounts and Regions in your organization and to define which security standards and controls are enabled. Policies can apply broadly to every…",
+   "publishedAt": "2026-11-13T08:00:00.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "6f04a74b7192253f"
   },
   {
    "id": "eb8737794599fe81",
@@ -1385,6 +1897,23 @@
    ],
    "imageUrl": null,
    "contentHash": "338145a0d6a39e68"
+  },
+  {
+   "id": "3007f82c38138e35",
+   "sourceId": "anthropic-research",
+   "sourceName": "Anthropic Research",
+   "originalTitle": "Building strong safety evaluations",
+   "originalUrl": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+   "originalLanguage": "en",
+   "originalDescription": "Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.",
+   "publishedAt": "2026-11-13T00:00:00.000Z",
+   "discoveredAt": "2026-11-13T23:37:17.192Z",
+   "topics": [
+    "ai",
+    "research-papers"
+   ],
+   "imageUrl": null,
+   "contentHash": "caa0c73cca33bb28"
   },
   {
    "id": "be1d9af99a785daa",
@@ -24129,544 +24658,6 @@
    ],
    "imageUrl": null,
    "contentHash": "b9bb907876cc39f5"
-  },
-  {
-   "id": "c545377ef80e0fe8",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "XStack: A Benchmark for ML Repo Migration",
-   "originalUrl": "https://arxiv.org/abs/2611.08472v1",
-   "originalLanguage": "en",
-   "originalDescription": "ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them means building and testing across frameworks and…",
-   "publishedAt": "2026-11-05T18:55:54.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "f28467beef5789a6"
-  },
-  {
-   "id": "50aa0e3f26fe5772",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
-   "originalUrl": "https://arxiv.org/abs/2611.08469v1",
-   "originalLanguage": "en",
-   "originalDescription": "Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, not what it outputs. Experiments see that law only through finite, partial and…",
-   "publishedAt": "2026-11-05T18:55:31.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "44564f6c42112a6e"
-  },
-  {
-   "id": "6ba64f4bb7ff5cf6",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Plainmail",
-   "originalUrl": "https://www.producthunt.com/products/plainmail",
-   "originalLanguage": "en",
-   "originalDescription": "Real email on every domain you own, for $5 a month flat Discussion | Link",
-   "publishedAt": "2026-11-05T18:55:10.000Z",
-   "discoveredAt": "2026-11-06T15:57:18.198Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "9629b24ad20208e5"
-  },
-  {
-   "id": "9aae8329808f16cc",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Towards interpreting any residual stream direction by scaling activation inversion",
-   "originalUrl": "https://arxiv.org/abs/2611.08465v1",
-   "originalLanguage": "en",
-   "originalDescription": "To interpret a direction in a language model's residual stream, we can look for text that strongly activates it. But when such text is found by scanning a corpus, it is limited to what that corpus contains. We develop Maximally-Activating Example Metamodels (MAEMs), language…",
-   "publishedAt": "2026-11-05T18:54:40.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "af22441179f1c14a"
-  },
-  {
-   "id": "459f32dcf918a8d6",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness",
-   "originalUrl": "https://arxiv.org/abs/2611.08457v1",
-   "originalLanguage": "en",
-   "originalDescription": "Adversarial Training (AT) is an important method for improving model robustness. We study the dynamics of deterministic Gradient Descent (GD) in AT. Most existing works in this direction focus on the small or vanishing step sizes regime, where GD resembles a continuous-time…",
-   "publishedAt": "2026-11-05T18:48:50.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "5c848d0e5a26a6be"
-  },
-  {
-   "id": "dff9d77686c0b3fe",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
-   "originalUrl": "https://arxiv.org/abs/2611.08453v1",
-   "originalLanguage": "en",
-   "originalDescription": "On-policy distillation (OPD) trains a student on its own rollouts under a frozen teacher's per-token supervision. Does this dense signal reduce the training FLOPs needed to reach a target accuracy compared with reinforcement learning? We systematically compare vanilla…",
-   "publishedAt": "2026-11-05T18:47:05.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "82e4bdb580eeee96"
-  },
-  {
-   "id": "c7e02e653bc2eed2",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "ReproBridge: Building Reproducibility into ML Research Artifacts",
-   "originalUrl": "https://arxiv.org/abs/2611.08452v1",
-   "originalLanguage": "en",
-   "originalDescription": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than…",
-   "publishedAt": "2026-11-05T18:45:36.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "fb2911c79215972d"
-  },
-  {
-   "id": "6ff3c7abd3a3c566",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "A Hidden Markov Preference Model for Online Prediction of Adversary Actions",
-   "originalUrl": "https://arxiv.org/abs/2611.08445v1",
-   "originalLanguage": "en",
-   "originalDescription": "A defender anticipating an attacker needs a probability distribution over the attacker's next action from information available before that action occurs. Two structures complicate this: the attacker's behavioral regime persists and can switch within an episode, and each action…",
-   "publishedAt": "2026-11-05T18:37:07.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "33b792276c208225"
-  },
-  {
-   "id": "096e4032fd244ff3",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "SoK: Post-Quantum Cryptography (PQC) Integration in Software Development: Approaches, Gaps, and Future Directions",
-   "originalUrl": "https://arxiv.org/abs/2611.08442v1",
-   "originalLanguage": "en",
-   "originalDescription": "Standardised post-quantum cryptography (PQC) is critical for protecting software systems against future quantum threats, but standardised algorithms alone do not provide a pathway for their secure integration into software. This paper presents a Systematisation of Knowledge…",
-   "publishedAt": "2026-11-05T18:34:08.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "c67f25bca7f0a642"
-  },
-  {
-   "id": "8a04b51fc04b1a6a",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Label-Wording Augmentation in a Typed-Decision Encoder: Gains on Unfamiliar Words, Not on Abbreviations or Codes",
-   "originalUrl": "https://arxiv.org/abs/2611.08439v1",
-   "originalLanguage": "en",
-   "originalDescription": "Typed-decision models score options that the caller supplies at request time, so their accuracy depends on label wording that the model's developer does not control. We compare two releases of a 307M-parameter multilingual cross-encoder, Ru-Jev, trained on thirteen…",
-   "publishedAt": "2026-11-05T18:31:24.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "bd52fc1a58baaba5"
-  },
-  {
-   "id": "2df2e5114191078f",
-   "sourceId": "meta-newsroom",
-   "sourceName": "Meta Newsroom",
-   "originalTitle": "Give Your Muse a Voice",
-   "originalUrl": "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/",
-   "originalLanguage": "en",
-   "originalDescription": "We’re rolling out voice and expressive avatars in the Muse app, giving you a new way to interact with your Muse. The post Give Your Muse a Voice appeared first on Meta Newsroom .",
-   "publishedAt": "2026-11-05T18:30:58.000Z",
-   "discoveredAt": "2026-11-05T18:46:46.421Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "c24a0045f4e6613f"
-  },
-  {
-   "id": "2f9567d4f46496ce",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety",
-   "originalUrl": "https://arxiv.org/abs/2611.08438v1",
-   "originalLanguage": "en",
-   "originalDescription": "Neural networks are likely to be among the most consequential artefacts in human history. As these systems become more capable and autonomous, their potential to cause societal harm also grows, making AI safety one of the defining challenges of our time. Yet we continue to…",
-   "publishedAt": "2026-11-05T18:30:54.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "2d089c1fe6f455b9"
-  },
-  {
-   "id": "e64f34e3e3f22b61",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
-   "originalUrl": "https://arxiv.org/abs/2611.08433v1",
-   "originalLanguage": "en",
-   "originalDescription": "LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the errors of five memory systems on longitudinal medical dialogue and find three recurring causes: the retrieved evidence…",
-   "publishedAt": "2026-11-05T18:27:20.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "e172a7d073f1c396"
-  },
-  {
-   "id": "659792604f2d6984",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI",
-   "originalUrl": "https://arxiv.org/abs/2611.08428v1",
-   "originalLanguage": "en",
-   "originalDescription": "Chat remains the default surface for many large language model (LLM) tasks, even as agentic tools such as OpenCode excel at coding and automation. Yet the model sees the current dialogue but not the workspace around it. We explore meta access---giving the assistant a…",
-   "publishedAt": "2026-11-05T18:22:24.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "7a8a69ec4e684103"
-  },
-  {
-   "id": "099bd49063f71dc7",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing",
-   "originalUrl": "https://arxiv.org/abs/2611.08425v1",
-   "originalLanguage": "en",
-   "originalDescription": "Vision-Language-Action models (VLAs) enable general-purpose embodied intelligence, but their performance is brittle under distribution shift, where unanticipated failures can damage equipment or endanger people. Deploying VLAs in real-world systems therefore requires a runtime…",
-   "publishedAt": "2026-11-05T18:21:07.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "e174a882bfa62187"
-  },
-  {
-   "id": "7ff8d40ec8215628",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Data-driven discovery of intrinsic Lie point symmetries of differential equation systems",
-   "originalUrl": "https://arxiv.org/abs/2611.08421v1",
-   "originalLanguage": "en",
-   "originalDescription": "Discovering continuous symmetries directly from differential-equation data can reveal geometric structure for model reduction and scientific machine learning without symbolic determining equations or a closed-form representation of the governing system. We formulate intrinsic…",
-   "publishedAt": "2026-11-05T18:19:28.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "be081a136203dbc9"
-  },
-  {
-   "id": "978efb8a1abb2468",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "On the limitations of molecular representations",
-   "originalUrl": "https://arxiv.org/abs/2611.08420v1",
-   "originalLanguage": "en",
-   "originalDescription": "Molecular representations such as fingerprints and learned embeddings play a central role in cheminformatics and small-molecule machine learning. They serve as the primary input for a diverse array of tasks, including clustering, dataset splitting, and virtual screening, yet…",
-   "publishedAt": "2026-11-05T18:19:19.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "2310e1204ffa604c"
-  },
-  {
-   "id": "f3b411487e8b307d",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks",
-   "originalUrl": "https://arxiv.org/abs/2611.08417v1",
-   "originalLanguage": "en",
-   "originalDescription": "Coding agents are among the most economically consequential deployments of LLMs to date, making reliable evaluation increasingly important. Yet even benchmarks that are carefully validated at release can become stale. As models improve, they can discover valid solutions that…",
-   "publishedAt": "2026-11-05T18:18:39.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "b48ec2867cbed891"
-  },
-  {
-   "id": "b2e36ad857c9ad74",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Spectral and Subspace Dynamics of LoRA in Supervised Fine-Tuning and Reinforcement Learning",
-   "originalUrl": "https://arxiv.org/abs/2611.08414v1",
-   "originalLanguage": "en",
-   "originalDescription": "Low-rank adaptation (LoRA) is commonly used in both supervised fine-tuning (SFT) and reinforcement learning (RL), often under similar optimizer settings. Yet, how the different dynamics of the two stages manifest in the low-rank increment that LoRA optimizes remains unclear…",
-   "publishedAt": "2026-11-05T18:17:39.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "bea3e1129d920451"
-  },
-  {
-   "id": "cea9dcfc236c697f",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "The Gold Rush in AI4Math, II: What are signatures of AI-assisted Proofs?",
-   "originalUrl": "https://arxiv.org/abs/2611.08412v1",
-   "originalLanguage": "en",
-   "originalDescription": "The growing use of AI in mathematics raises a question: can we detect AI involvement in proofs, separately from AI assistance with writing? Historical arXiv papers, recent papers disclosing substantive AI use, and manuscripts released by OpenAI provide a rich empirical basis…",
-   "publishedAt": "2026-11-05T18:17:18.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "71240989ec0166a7"
-  },
-  {
-   "id": "3b47cc2e7373caf2",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Conformal Prediction for Time-Dependent PDEs",
-   "originalUrl": "https://arxiv.org/abs/2611.08409v1",
-   "originalLanguage": "en",
-   "originalDescription": "Uncertainty quantification is crucial in scientific machine learning, where models inform safety-critical tasks such as flood forecasting, financial risk management, and thermal control in machines. Conformal prediction provides distribution-free coverage guarantees, but in…",
-   "publishedAt": "2026-11-05T18:15:42.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "df3bf36c2d5654a6"
-  },
-  {
-   "id": "c3a0bff22293b2ac",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
-   "originalUrl": "https://arxiv.org/abs/2611.08407v1",
-   "originalLanguage": "en",
-   "originalDescription": "Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another. To bridge this gap, we present Social Humanoid, a hierarchical system that generates and executes…",
-   "publishedAt": "2026-11-05T18:14:06.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "3e363fedb41f3721"
-  },
-  {
-   "id": "65115db3a0cbc7eb",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "StepBack: Step-Level Error-Localized Resampling for Efficient Test-Time Reasoning",
-   "originalUrl": "https://arxiv.org/abs/2611.08403v1",
-   "originalLanguage": "en",
-   "originalDescription": "Self-consistency (SC) is a widely used decoding strategy for improving chain-of-thought reasoning, but it requires sampling many complete reasoning trajectories with a preset budget. Its efficient variants reduce the cost mainly by stopping full-trajectory sampling early or…",
-   "publishedAt": "2026-11-05T18:12:49.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "75ecdea7a599b8cf"
-  },
-  {
-   "id": "a0dd342f75b2e25f",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Shipnoted",
-   "originalUrl": "https://www.producthunt.com/products/shipnoted",
-   "originalLanguage": "en",
-   "originalDescription": "Changelog + feedback board for closing the loop on your git Discussion | Link",
-   "publishedAt": "2026-11-05T18:10:18.000Z",
-   "discoveredAt": "2026-11-06T21:32:10.245Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "dda6cb4b0f082043"
-  },
-  {
-   "id": "307ba6a3144c0443",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Synthesis of Ovarian Cancer Multi-Omics Datasets: A Biology-Informed Evaluation Framework",
-   "originalUrl": "https://arxiv.org/abs/2611.08394v1",
-   "originalLanguage": "en",
-   "originalDescription": "Paired multi-omic cancer cohorts are costly to assemble and difficult to share, motivating synthetic cohorts as a complementary resource. As generative model development accelerates, we shift the focus from proposing yet another architecture to defining evaluation criteria that…",
-   "publishedAt": "2026-11-05T18:07:06.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "d06df07f5b30f131"
-  },
-  {
-   "id": "e0773151ab5d4260",
-   "sourceId": "aws-machine-learning-blog",
-   "sourceName": "AWS Machine Learning Blog",
-   "originalTitle": "How Amazon Marketplace evaluates content quality with Amazon SageMaker AI",
-   "originalUrl": "https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai/",
-   "originalLanguage": "en",
-   "originalDescription": "Learn how Amazon Marketplace evaluates A+ Content quality at scale on Amazon SageMaker AI by rendering each product page as a single snapshot, scoring it with a vision-language model fused with OCR readability signals in a CatBoost classifier, and using SHAP to turn each…",
-   "publishedAt": "2026-11-05T18:06:43.000Z",
-   "discoveredAt": "2026-11-05T18:46:46.421Z",
-   "topics": [
-    "ai",
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "16f57ff45bf7d956"
-  },
-  {
-   "id": "7f307be0794b3825",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Learning a patient world model for health system simulation in intensive care",
-   "originalUrl": "https://arxiv.org/abs/2611.08392v1",
-   "originalLanguage": "en",
-   "originalDescription": "Designing healthcare strategies requires anticipating their clinical and operational consequences before implementation, a task that often relies on health system simulation. Such a simulation necessitates modeling how patient states evolve and generate care demands. However…",
-   "publishedAt": "2026-11-05T18:06:42.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "f66fe07f94326583"
-  },
-  {
-   "id": "c596e45e28a6fa81",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Hybrid Machine Learning for Imbalanced Landing-Phase Safety Event Prediction from Flight Data",
-   "originalUrl": "https://arxiv.org/abs/2611.08386v1",
-   "originalLanguage": "en",
-   "originalDescription": "Landing-phase safety-event prediction requires the detection of rare abnormal approaches within strongly imbalanced multivariate flight data. Capturing coupled temporal behavior while distinguishing event-specific signatures across airport operating contexts remains a central…",
-   "publishedAt": "2026-11-05T18:04:26.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "12698e22f04b76fe"
-  },
-  {
-   "id": "2a8256897722920e",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
-   "originalUrl": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-   "originalLanguage": "en",
-   "originalDescription": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
-   "publishedAt": "2026-11-05T18:02:27.000Z",
-   "discoveredAt": "2026-11-05T18:46:46.421Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "02a98511e44eac30"
-  },
-  {
-   "id": "b202297b529dc120",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "FedReason: Large Language Models as Weight-Space Meta-Aggregators for Heterogeneous Federated Learning",
-   "originalUrl": "https://arxiv.org/abs/2611.08383v1",
-   "originalLanguage": "en",
-   "originalDescription": "Federated learning servers combine client models with a fixed aggregation rule, and each rule in common use is designed for one kind of heterogeneity. We study whether a large language model (LLM) that inspects the client models can choose the rule itself, without any training…",
-   "publishedAt": "2026-11-05T18:00:58.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "f941455c29220850"
-  },
-  {
-   "id": "4933e4615bcbfb2a",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "Amazon Cognito announces 99.99% Service Level Agreement for the Plus feature plan",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cognito-sla-update/",
-   "originalLanguage": "en",
-   "originalDescription": "Starting November 1, 2026, the Amazon Cognito Service Level Agreement (SLA) commits to a Monthly Uptime Percentage of 99.99% for user pools on the Plus feature plan, up from 99.9%. User pools already on Plus are automatically covered by the new Service Commitment. User pools on…",
-   "publishedAt": "2026-11-05T18:00:00.000Z",
-   "discoveredAt": "2026-11-06T00:20:06.256Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "511f01d96dfe3323"
-  },
-  {
-   "id": "73081b685d2070af",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "Amazon DynamoDB now supports bulk put items",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-dynamodb-now-supports-bulk-put-items/",
-   "originalLanguage": "en",
-   "originalDescription": "Today, AWS announces the general availability of bulk put items for Amazon DynamoDB, a fully managed feature that writes data from Amazon S3 into your existing DynamoDB tables. Many DynamoDB applications use data that other systems produce and store in Amazon S3. Writing this…",
-   "publishedAt": "2026-11-05T18:00:00.000Z",
-   "discoveredAt": "2026-11-06T00:20:06.256Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "3662bbc9bcf4ad9f"
   }
  ]
 }

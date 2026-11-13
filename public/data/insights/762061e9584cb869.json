@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "762061e9584cb869",
+ "contentHash": "3a0dfe15373c6c59",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T23:38:54.826Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+   "summary": "NVIDIA NeMo Switchyard is an open-source library that helps AI agents select which model handles each request to optimize the cost per solved task. A new AWS CDK sample allows developers to deploy LiteLLM with the Switchyard routing plugin on Amazon ECS to route requests to models on Amazon Bedrock. The architecture uses components such as an Application Load Balancer, AWS WAF, and Amazon Route 53 to securely process requests.",
+   "impact": "Development teams could use this setup to evaluate model routing strategies and measure costs based on solved tasks rather than per-token pricing. Because the Switchyard server and LiteLLM integration are currently provided as experimental or demo components, organizations may need to review them carefully for non-production use.",
+   "keyPoints": [
+    "Cost per solved task is measured by total run costs divided by the number of runs passing tests.",
+    "NVIDIA NeMo Switchyard supports stage routing and random routing strategies.",
+    "The solution deploys LiteLLM and the Switchyard plugin on Amazon ECS on AWS Fargate using the AWS CDK.",
+    "LiteLLM calls models on Amazon Bedrock using the Converse or ConverseStream API."
+   ]
+  },
+  "km": {
+   "title": "បញ្ជូនសំណើភ្នាក់ងារកូដទៅម៉ូដែលត្រឹមត្រូវនៅលើ Amazon Bedrock ជាមួយ NVIDIA NeMo Switchyard",
+   "summary": "NVIDIA NeMo Switchyard គឺជាបណ្ណាល័យប្រភពបើកចំហដែលជួយភ្នាក់ងារ AI ជ្រើសរើសម៉ូដែលណាដែលត្រូវគ្រប់គ្រងសំណើនិមួយៗ ដើម្បីបង្កើនប្រសិទ្ធភាពចំណាយក្នុងមួយកិច្ចការដែលបានដោះស្រាយ។ គំរូ AWS CDK ថ្មីអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍ដាក់ពង្រាយ LiteLLM ជាមួយកម្មវិធីជំនួយបណ្តាញ Switchyard នៅលើ Amazon ECS ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍អាចប្រើប្រាស់ការរៀបចំនេះដើម្បីវាយតម្លៃយុទ្ធសាស្ត្របញ្ជូនបន្តម៉ូដែលនិងវាស់វែងការចំណាយដោយផ្អែកលើកិច្ចការដែលបានដោះស្រាយ។ ដោយសារសមាសភាគ Switchyard ត្រូវាបានផ្តល់ជាសមាសភាគពិសោធន៍ ការប្រើប្រាស់គួរតែធ្វើឡើងក្នុងបរិយាកាសមិនមែនផលិតកម្ម។",
+   "keyPoints": [
+    "ការចំណាយក្នុងមួយកិច្ចការដែលបានដោះស្រាយត្រូវបានវាស់ដោយចំណាយសរុបចែកនឹងចំនួនរត់ដែលបានឆ្លងកាត់ការសាកល្បង។",
+    "NVIDIA NeMo Switchyard គាំទ្រយុទ្ធសាស្ត្រដំណាក់កាលនិងការបញ្ជូនបន្តចៃដន្យ។",
+    "ដំណោះស្រាយនេះដាក់ពង្រាយ LiteLLM និងកម្មវិធីជំនួយ Switchyard នៅលើ Amazon ECS ដោយប្រើ AWS CDK។",
+    "LiteLLM ហៅម៉ូដែលនៅលើ Amazon Bedrock ដោយប្រើប្រាស់ Converse API។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 NVIDIA NeMo Switchyard 在 Amazon Bedrock 上将编码代理请求路由到正确的模型",
+   "summary": "NVIDIA NeMo Switchyard 是一个开源库，可帮助 AI 代理选择由哪个模型处理每个请求，从而优化每个已解决任务的成本。通过新的 AWS CDK 示例，开发人员可以在 Amazon ECS 上部署带有 Switchyard 路由插件的 LiteLLM，以便将请求路由到 Amazon Bedrock 上的模型。该架构使用应用程序负载均衡器、AWS WAF 和 Amazon Route 53 等组件来安全处理请求。",
+   "impact": "开发团队可以使用此设置来评估模型路由策略，并根据已解决的任务而不是每个 Token 的定价来衡量成本。由于 Switchyard 服务器和 LiteLLM 集成目前作为实验性或演示组件提供，组织在非生产环境中部署时可能需要进行仔细评估。",
+   "keyPoints": [
+    "每个已解决任务的成本是通过总运行成本除以测试通过的运行次数来衡量的。",
+    "NVIDIA NeMo Switchyard 支持阶段路由和随机路由策略。",
+    "该解决方案使用 AWS CDK 在 AWS Fargate 上的 Amazon ECS 上部署 LiteLLM 和 Switchyard 插件。",
+    "LiteLLM 通过 Amazon Bedrock 的 Converse 或 ConverseStream API 调用模型。"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA NeMo Switchyard를 사용하여 Amazon Bedrock에서 코딩 에이전트 요청을 올바른 모델로 라우팅",
+   "summary": "NVIDIA NeMo Switchyard는 AI 에이전트가 각 요청을 처리할 모델을 선택하여 해결된 작업당 비용을 최적화할 수 있도록 지원하는 오픈 소스 라이브러리입니다. 새로운 AWS CDK 샘플을 사용하면 개발자가 Amazon ECS에서 Switchyard 라우팅 플러그인이 포함된 LiteLLM을 배포하여 Amazon Bedrock의 모델로 요청을 라우팅할 수 있습니다. 이 아키텍처는 Application Load Balancer, AWS WAF, Amazon Route 53 등의 구성 요소를 사용하여 요청을 안전하게 처리합니다.",
+   "impact": "개발팀은 이 구성을 사용하여 모델 라우팅 전략을 평가하고 토큰당 가격 책정 대신 해결된 작업을 기준으로 비용을 측정할 수 있습니다. Switchyard 서버와 LiteLLM 통합은 현재 실험용 또는 데모 구성 요소로 제공되므로 조직에서는 비생산 환경에서 주의하여 배포를 검토해야 할 수 있습니다.",
+   "keyPoints": [
+    "해결된 작업당 비용은 총 실행 비용을 테스트를 통과한 실행 횟수로 나누어 측정됩니다.",
+    "NVIDIA NeMo Switchyard는 단계 라우팅 및 무작위 라우팅 전략을 지원합니다.",
+    "이 솔루션은 AWS CDK를 사용하여 AWS Fargate의 Amazon ECS에 LiteLLM 및 Switchyard 플러그인을 배포합니다.",
+    "LiteLLM은 Amazon Bedrock Converse 또는 ConverseStream API를 통해 모델을 호출합니다."
+   ]
+  }
+ }
+}

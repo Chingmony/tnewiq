@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "91ab97e44683e9c3",
+ "contentHash": "ce305ffba8a86522",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T23:38:15.497Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1",
+   "summary": "GS Caltex utilizes Amazon SageMaker Canvas and Amazon SageMaker Pipelines to integrate process engineers' models into production workflows. Process engineers build models without writing code, while machine learning engineers configure deployment and scheduled inference using SageMaker Pipelines. The company automated the handoff between teams, reducing deployment time from about a week to a few hours. Additionally, running batch inference every 30 minutes instead of using continuous endpoints has lowered inference costs.",
+   "impact": "This approach could help development and security teams streamline the transition of no-code machine learning models into secure, repeatable production pipelines. Technology users and engineers may benefit from reduced deployment times and lower operational costs through scheduled batch inferences.",
+   "keyPoints": [
+    "Process engineers build and validate models in SageMaker Canvas without writing code.",
+    "Machine learning engineers configure SageMaker Pipelines workflows for deployment and scheduled inference.",
+    "GS Caltex automated the asset handoff, reducing deployment time from a week to a few hours.",
+    "Batch inference runs every 30 minutes, lowering overall inference costs."
+   ]
+  },
+  "km": {
+   "title": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1",
+   "summary": "ក្រុមហ៊ុន GS Caltex បានប្រើប្រាស់ Amazon SageMaker Canvas និង Amazon SageMaker Pipelines ដើម្បីភ្ជាប់ម៉ូដែលរបស់វិស្វករដំណើរការទៅនឹងដំណើរការផលិតកម្ម។ វិស្វករដំណើរការបង្កើតម៉ូដែលដោយមិនបាច់សរសេរកូដ ខណៈដែលវិស្វកររៀនម៉ាស៊ីនកំណត់រចនាសម្ព័ន្ធដំណើរការដាក់ឱ្យប្រើប្រាស់។ ក្រុមហ៊ុនបានស្វ័យប្រវត្តិកម្មការបញ្ជូនតនេះ ដែលជួយកាត់បន្ថយពេលវេលាដាក់ឱ្យប្រើប្រាស់ពីប្រហែលមួយសប្តាហ៍មកត្រឹមតែប៉ុន្មានម៉ោងប៉ុណ្ណោះ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយឱ្យក្រុមអភិវឌ្ឍន៍សម្រួលដល់ការ移行ម៉ូដែលរៀនម៉ាស៊ីនទៅក្នុងដំណើរការផលិតកម្មប្រកបដោយប្រសិទ្ធភាព និងកាត់បន្ថយការចំណាយលើការអនុវត្ត។",
+   "keyPoints": [
+    "វិស្វករដំណើរការបង្កើតនិងផ្ទៀងផ្ទាត់ម៉ូដែលនៅក្នុង SageMaker Canvas ដោយមិនបាច់សរសេរកូដ។",
+    "វិស្វកររៀនម៉ាស៊ីនកំណត់រចនាសម្ព័ន្ធដំណើរការ SageMaker Pipelines សម្រាប់ការដាក់ឱ្យប្រើប្រាស់។",
+    "GS Caltex បានស្វ័យប្រវត្តិកម្មការបញ្ជូនតទ្រព្យសកម្ម និងកាត់បន្ថយពេលវេលាដាក់ឱ្យប្រើប្រាស់។",
+    "ការអនុវត្តការព្យាករណ៍ជាបណ្តុំត្រូវបានដំណើរការរៀងរាល់ ៣០ នាទីម្តង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1",
+   "summary": "GS Caltex 使用 Amazon SageMaker Canvas 和 Amazon SageMaker Pipelines 将过程工程师的模型连接到生产工作流中。过程工程师无需编写代码即可构建模型，而机器学习工程师则使用 SageMaker Pipelines 配置部署和计划推理。该公司实现了团队间资产移交的自动化，将模型部署时间从大约一周缩短至几个小时。",
+   "impact": "这种方法可以帮助开发和安全团队简化从无代码机器学习模型向生产环境的过渡，并通过定时批处理推理降低运营成本。",
+   "keyPoints": [
+    "过程工程师在 SageMaker Canvas 中无需编写代码即可构建和验证模型。",
+    "机器学习工程师配置 SageMaker Pipelines 工作流用于部署和计划推理。",
+    "GS Caltex 实现了资产移交自动化，将部署时间缩短至几小时。",
+    "每 30 分钟运行一次批处理推理，降低了推理成本。"
+   ]
+  },
+  "ko": {
+   "title": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1",
+   "summary": "GS Caltex는 Amazon SageMaker Canvas와 Amazon SageMaker Pipelines를 사용하여 공정 엔지니어의 모델을 프로ดัก션 워크플로에 연결합니다. 공정 엔지니어는 코드 작성 없이 모델을 빌드하고 검증하며, 머신러닝 엔지니어는 배포 및 예약된 추론을 위한 워크플로를 구성합니다. GS Caltex는 팀 간의 자산 인계 과정을 자동화하여 배포 소요 시간을 약 일주일에서 몇 시간으로 단축했습니다.",
+   "impact": "이 접근 방식은 개발 및 보안 팀이 노코드 머신러닝 모델을 프로ดัก션 파이프라인으로 전환하는 과정을 간소화하고, 정기적인 배치 추론을 통해 운영 비용을 절감하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "공정 엔지니어는 코드 작성 없이 SageMaker Canvas에서 모델을 빌드하고 검증합니다.",
+    "머신러닝 엔지니어는 배포 및 예약된 추론을 위해 SageMaker Pipelines 워크플로를 구성합니다.",
+    "GS Caltex는 자산 인계 프로세스를 자동화하여 배포 시간을 몇 시간으로 단축했습니다.",
+    "30분마다 배치 추론을 실행하여 추론 비용을 절감했습니다."
+   ]
+  }
+ }
+}

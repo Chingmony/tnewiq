@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e305bb33c835e256",
+ "contentHash": "aa502e2f5f2f9136",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-13T23:44:39.308Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
+   "summary": "Grok 4.7 is now available within the Kiro IDE and CLI for AWS GovCloud (US) Regions. As SpaceXSI's most capable model for coding and knowledge work, it features a 500K context window and experimental support. Kiro administrators can control model availability to match their organization's internal policies.",
+   "impact": "Developers working in AWS GovCloud environments may benefit from improved repository-scale coding and error recovery. Security teams and administrators can manage model access according to their internal policies using Kiro administration controls.",
+   "keyPoints": [
+    "Grok 4.7 is available in the Kiro IDE and CLI for AWS GovCloud (US) Regions.",
+    "The model features a 500K context window and experimental support.",
+    "Requests up to 200K tokens use a 2.7x credit multiplier, while requests over 200K tokens use a 5.4x multiplier.",
+    "Kiro administrators can control which models are available to users to align with internal policies."
+   ]
+  },
+  "km": {
+   "title": "Grok 4.7 ឥឡូវនេះមាននៅលើ Kiro ក្នុង AWS GovCloud (US)",
+   "summary": "ម៉ូដែលថ្មី Grok 4.7 ឥឡូវនេះមាននៅលើ Kiro IDE និង CLI សម្រាប់តំបន់ AWS GovCloud (US)។ វាគឺជាម៉ូដែលដែលមានសមត្ថភាពខ្ពស់បំផុតរបស់ SpaceXSI សម្រាប់ការសរសេរកូដ និងការងារចំណេះដឹង ដែលមានបង្អួចបរិបទ 500K។ អ្នកគ្រប់គ្រង Kiro អាចគ្រប់គ្រងថាតើម៉ូដែលណាខ្លះដែលត្រូវដាក់ឱ្យប្រើប្រាស់សម្រាប់អ្នកប្រើប្រាស់របស់ពួកគេ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍អាចប្រើប្រាស់សមត្ថភាពសរសេរកូដ និងការងើបឡើងវិញពីកំហុសដែលប្រសើរជាងមុន។ អ្នកគ្រប់គ្រងប្រព័ន្ធអាចតម្រឹមការប្រើប្រាស់ម៉ូដែលទៅតាមគោលការណ៍ផ្ទៃក្នុងរបស់អង្គភាព។",
+   "keyPoints": [
+    "Grok 4.7 ឥឡូវនេះមាននៅលើ Kiro IDE និង CLI សម្រាប់តំបន់ AWS GovCloud (US)។",
+    "វាមានការគាំទ្រពិសោធន៍ និងបង្អួចបរិបទ 500K។",
+    "សំណើដែលមានរហូតដល់ 200K តូខេន ប្រើប្រាស់មេគុណឥណទាន 2.7x ហើយសំណើលើសពី 200K តូខេន គិតថ្លៃ 5.4x។",
+    "អ្នកគ្រប់គ្រង Kiro អាចគ្រប់គ្រងការចូលប្រើម៉ូដែលតាមគោលការណ៍ផ្ទៃក្នុង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Grok 4.7 现已在 AWS GovCloud (US) 的 Kiro 上线",
+   "summary": "Grok 4.7 现已在 AWS GovCloud (US) 区域的 Kiro IDE 和 CLI 中可用。作为 SpaceXSI 用于编码和知识工作能力最强的模型，它提供 500K 的上下文窗口和实验性支持。Kiro 管理员可以控制用户可用的模型，以使组织能够使模型访问与内部政策保持一致。",
+   "impact": "开发人员和技术用户可以在 AWS GovCloud 环境中使用该模型进行更可靠的代码编写和错误恢复。管理员能够根据组织内部政策来管理对新模型的访问权限。",
+   "keyPoints": [
+    "Grok 4.7 现已在 AWS GovCloud (US) 区域的 Kiro IDE 和 CLI 中推出。",
+    "该模型附带实验性支持以及 500K 的上下文窗口。",
+    "200K 令牌以内的请求使用 2.7 倍积分乘数，超过 200K 令牌的请求按 5.4 倍计费。",
+    "Kiro 管理员可控制用户可使用的模型以符合内部政策。"
+   ]
+  },
+  "ko": {
+   "title": "AWS GovCloud (US)의 Kiro에서 이제 Grok 4.7 이용 가능",
+   "summary": "AWS GovCloud (US) 리전의 Kiro IDE 및 CLI에서 새로운 모델인 Grok 4.7을 이용할 수 있게 되었습니다. 이는 코딩 및 지식 작업을 위한 SpaceXSI의 가장 뛰어난 모델이며, 500K 컨텍스트 창과 실험적 지원을 제공합니다. Kiro 관리자는 사용자가 이용할 수 있는 모델을 제어하여 조직의 내부 정책에 맞출 수 있습니다.",
+   "impact": "개발자는 리포지토리 규모의 코딩 작업에서 더 안정적으로 오류를 복구하고 작업에 집중할 수 있습니다. 관리자는 내부 정책에 따라 모델 접근 권한을 관리할 수 있습니다.",
+   "keyPoints": [
+    "AWS GovCloud (US) 리전의 Kiro IDE 및 CLI에서 Grok 4.7 이용 가능",
+    "500K 컨텍스트 창과 실험적 지원 제공",
+    "200K 토큰 이하 요청은 2.7배 크레딧 배수 적용, 200K 토큰 초과 요청은 5.4배 적용",
+    "Kiro 관리자가 내부 정책에 맞게 모델 가용성 제어 가능"
+   ]
+  }
+ }
+}
