@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6be0600eca2a1683",
+ "contentHash": "4223afd85a3f76b3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T23:04:49.915Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Linear Regression with Self-Selection Bias in Polynomial Time",
+   "summary": "Researchers have introduced a polynomial-time algorithm to solve the problem of estimating $k$ linear regressors with self-selection bias in $n$ dimensions. The new approach improves upon previous methods that suffered from an exponential dependence on $k$, achieving a running time of $\\mathrm{poly}(n,k,1/\\varepsilon)$. Additionally, the algorithm succeeds with correlated noise, providing the first polynomial-time algorithm for max-affine regression.",
+   "impact": "This algorithmic improvement could help developers and researchers tackle complex latent-variable problems more efficiently by avoiding exponential time complexity with respect to $k$. The new tensor decomposition and moment-based approach may also find applications in similar high-dimensional estimation tasks.",
+   "keyPoints": [
+    "A new $\\mathrm{poly}(n,k,1/\\varepsilon)$ time algorithm solves the unknown-index variant for linear regressors with self-selection bias.",
+    "The method improves on prior algorithms by Gaitonde and Mossel and Kalavasis et al. that had exponential dependence on $k$.",
+    "The approach handles correlated noise, yielding the first polynomial-time algorithm for max-affine regression.",
+    "The algorithm utilizes degree-$(\\log n)$ Hermite moments of covariates rather than exhaustive search."
+   ]
+  },
+  "km": {
+   "title": "ការតម្រែតម្រង់លីនេអ៊ែរដែលមានលក្ខណៈលម្អៀងខ្លួនឯងក្នុងពេលពហុធា",
+   "summary": "អ្នកស្រាវជ្រាវបានដាក់បង្ហាញក្បួនដោះស្រាយពេលវេលាពហុធាថ្មីមួយសម្រាប់ប៉ាន់ស្មានឧបករណ៍តម្រែតម្រង់លីនេអ៊ែរចំនួន $k$ ដែលមានលក្ខណៈលម្អៀងខ្លួនឯងក្នុងទំហំ $n$។ វិធីសាស្ត្រនេះបានកែលម្អលើវិធីសាស្ត្រមុនៗដែលមានភាពអាស្រ័យអិចស្ប៉ូណង់ស្យែលលើ $k$។ ក្បួនដោះស្រាយនេះក៏ទទួលបានជោគជ័យផងដែរ בנוכחות នៃសំឡេងរំខានជាប់ទាក់ទងគ្នា ដោយផ្ដល់នូវក្បួនដោះស្រាយពេលវេលាពហុធាដំបូងគេសម្រាប់ max-affine regression។",
+   "impact": "ការកែលម្អក្បួនដោះស្រាយនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវក្នុងការដោះស្រាយបញ្ហាអត្រាអថេរលាក់កំបាំងដោយប្រសិទ្ធភាពខ្ពស់ជាងមុនដោយជៀសវាងភាពស្មុគស្មាញអិចស្ប៉ូណង់ស្យែល។",
+   "keyPoints": [
+    "ក្បួនដោះស្រាយពេលវេលា $\\mathrm{poly}(n,k,1/\\varepsilon)$ ថ្មីដោះស្រាយបញ្ហាឧបករណ៍តម្រែតម្រង់លីនេអ៊ែរដែលមានលក្ខណៈលម្អៀងខ្លួនឯង។",
+    "វិធីសាស្ត្រនេះកែលម្អលើការងារពីមុនរបស់ Gaitonde និង Mossel និងអ្នកផ្សេងទៀត។",
+    "ក្បួនដោះស្រាយនេះដំណើរការដោយផ្អែកលើការយល់ដឹងកាន់តែប្រសើរអំពី moments នៃ covariates។"
+   ]
+  },
+  "zh-CN": {
+   "title": "具有自选择偏差的多项式时间线性回归",
+   "summary": "研究人员提出了一种多项式时间算法，用于在 $n$ 维度中估计具有自选择偏差的 $k$ 个线性回归量。该方法改进了以往对 $k$ 呈指数依赖的算法，将运行时间降低至 $\\mathrm{poly}(n,k,1/\\varepsilon)$。此外，该算法在存在相关噪声的情况下也能成功运行，从而为 max-affine regression 提供了第一个多项式时间算法。",
+   "impact": "这一算法突破可以帮助开发人员和研究人员更高效地处理潜在变量问题，避免了对 $k$ 的指数级时间依赖。基于矩的新方法和张量分解组件可能对其他高维估计问题的算法设计产生应用价值。",
+   "keyPoints": [
+    "新算法实现了 $\\mathrm{poly}(n,k,1/\\varepsilon)$ 的运行时间，用于解决具有自选择偏差的线性回归问题。",
+    "改进了以往算法中对 $k$ 的指数级依赖。",
+    "在回归量之间存在相关噪声的情况下依然有效，给出了 max-affine regression 的首个多项式时间算法。",
+    "算法利用协变量的高阶 Hermite 矩代替了传统的穷举搜索。"
+   ]
+  },
+  "ko": {
+   "title": "다항식 시간 내의 자기 선택 편향이 있는 선형 회귀",
+   "summary": "연구진은 $n$ 차원에서 자기 선택 편향이 있는 $k$개의 선형 회귀 변수를 추정하는 문제를 해결하기 위한 다항식 시간 알고리즘을 선보였습니다. 이 새로운 알고리즘은 $k$에 대한 지수적 의존성을 가졌던 기존 알고리즘들의 실행 시간을 $\\mathrm{poly}(n,k,1/\\varepsilon)$로 개선했습니다. 또한 이 알고리즘은 상관관계가 있는 노이즈가 있는 상황에서도 작동하여 max-affine regression에 대한 최초의 다항식 시간 알고리즘을 제공합니다.",
+   "impact": "이번 알고리즘 개선은 개발자와 연구자들이 $k$에 대한 지수적 복잡성을 피하면서 잠재 변수 문제를 더 효율적으로 다룰 수 있도록 돕습니다. 새로운 모멘트 기반 접근 방식은 다른 고차원 추정 문제의 효율적인 알고리즘 설계에도 응용될 수 있습니다.",
+   "keyPoints": [
+    "$k$에 대한 지수적 의존성을 개선한 새로운 $\\mathrm{poly}(n,k,1/\\varepsilon)$ 시간 알고리즘이 개발되었습니다.",
+    "Gaitonde와 Mossel 등의 기존 연구 결과에 비해 실행 시간이 향상되었습니다.",
+    "회귀 변수 간에 상관관계가 있는 노이즈가 존재할 때도 성공적으로 작동하여 max-affine regression에 대한 최초의 다항식 시간 알고리즘을 제공합니다.",
+    "공변량의 Hermite 모멘트에 대한 이해를 바탕으로 텐서 분해 및 최소 제곱법을 활용합니다."
+   ]
+  }
+ }
+}

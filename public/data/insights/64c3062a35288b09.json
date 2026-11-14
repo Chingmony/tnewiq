@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "64c3062a35288b09",
+ "contentHash": "19d5765e10f90653",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T23:04:24.891Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models",
+   "summary": "This paper introduces Al-Ghasali, a computational framework that formalizes and simulates Islamic jurisprudential rulings using Finite State Automata and Large Language Models. The framework proves that closed Fiqh chapters collapse to deterministic Finite State Automata, allowing for constant time verdict extraction. It incorporates LLMs strictly controlled by the deterministic FSA to generate human-readable juristic summaries without hallucination risks.",
+   "impact": "This framework may offer developers and researchers a reliable method for simulating complex rule systems with guaranteed decision safety. By using a deterministic FSA to constrain LLM outputs, technology users can mitigate hallucination risks in sensitive domains.",
+   "keyPoints": [
+    "Simulates Islamic jurisprudential rulings using Finite State Automata and Large Language Models.",
+    "Achieves constant time verdict extraction through offline compilation of finite propositional Horn theories.",
+    "Uses a deterministic FSA to strictly control the probabilistic LLM and ensure safety.",
+    "Employs Grammar Guided Constrained Decoding to eliminate decisional and juristic hallucinations."
+   ]
+  },
+  "km": {
+   "title": "Al-Ghasali: ក្របខ័ណ្ឌគណនាសម្រាប់ការក្លែងធ្វើសេចក្តីសម្រេចនីតិសាស្រ្តឥស្លាមតាមរយៈ Finite State Automata និង Large Language Models",
+   "summary": "مقកាសនេះបង្ហាញពី Al-Ghasali ដែលជាក្របខ័ណ្ឌគណនាត្រូវបានរចនាឡើងដើម្បីធ្វើជាផ្លូវការ និងក្លែងធ្វើសេចក្តីសម្រេចនីតិសាស្ត្រឥស្លាម។ ការងារនេះបង្ហាញថាអត្ថន័យនៃជំពូក Fiqh បិទជិតធ្លាក់ចុះទាំងស្រុងទៅជា Finite State Automata កំណត់។ វាបញ្ចូល Large Language Models ដែលគ្រប់គ្រងយ៉ាងតឹងរ៉ឹងដោយ FSA កំណត់ ដើម្បីបង្កើតសេចក្តីសង្ខេបផ្នែកច្បាប់ដែលអាចអានបានដោយមនុស្ស។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវវិធីសាស្ត្រដែលអាចទុកចិត្តបានសម្រាប់ការក្លែងធ្វើប្រព័ន្ធច្បាប់ស្មុគស្មាញដោយមានសុវត្ថិភាពសម្រេចចិត្តធានា។ ការប្រើប្រាស់ FSA កំណត់ដើម្បីដាក់កម្រិតទិន្នផល LLM អាចជួយកាត់បន្ថយហានិភ័យនៃការបញ្ឆោតក្នុងវិស័យរសើប។",
+   "keyPoints": [
+    "ក្លែងធ្វើសេចក្តីសម្រេចនីតិសាស្ត្រឥស្លាមដោយប្រើ Finite State Automata និង Large Language Models ។",
+    "សម្រេចបានការទាញយកសេចក្តីសម្រេចក្នុងពេលថេរតាមរយៈការចងក្រងក្រៅបណ្តាញ។",
+    "ប្រើប្រាស់ FSA កំណត់ដើម្បីគ្រប់គ្រង LLM ប្រូបាប៊ីលីតេយ៉ាងតឹងរ៉ឹង។",
+    "ប្រើប្រាស់ Grammar Guided Constrained Decoding ដើម្បីលុបបំបាត់ការបញ្ឆោតលើការសម្រេចចិត្តនិងអង្គហេតុនីតិសាស្ត្រ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Al-Ghasali：通过有限状态自动机和大语言模型模拟伊斯兰教法裁决的计算框架",
+   "summary": "本文介绍了Al-Ghasali，一个旨在形式化并模拟伊斯兰教法裁决的计算框架。该工作证明了封闭的Fiqh章节的语义完全崩溃为确定性有限状态自动机，从而实现了恒定时间的裁决提取。它结合了大语言模型，并通过确定性FSA严格控制该概率型LLM以生成人类可读的法理摘要，同时消除了幻觉风险。",
+   "impact": "该框架可能为开发人员和研究人员提供一种可靠的方法，用于模拟具有保证决策安全性的复杂规则系统。通过使用确定性FSA限制LLM输出，技术用户可以在敏感领域中降低幻觉风险。",
+   "keyPoints": [
+    "使用有限状态自动机和大语言模型模拟伊斯兰教法裁决。",
+    "通过有限命题霍恩理论的离线编译实现恒定时间的裁决提取。",
+    "利用确定性FSA严格控制概率型LLM并确保安全性。",
+    "采用语法引导的受约束解码来消除决策和法理事实幻觉。"
+   ]
+  },
+  "ko": {
+   "title": "Al-Ghasali: 유한 상태 오토마타와 대형 언어 모델을 통한 이슬람 율법 판정 시뮬레이션 계산 프레임워크",
+   "summary": "본 논문은 이슬람 율법 판정을 형식화하고 시뮬레이션하기 위해 설계된 계산 프레임워크인 Al-Ghasali를 소개합니다. 이 연구는 닫힌 Fiqh 장의 의미론이 결정론적 유한 상태 오토마타로 완전히 축소되어 일정한 시간 내 판정 추출이 가능함을 증명합니다. 환각 위험 없이 사람이 읽을 수 있는 법률 요약을 생성하기 위해 결정론적 FSA가 확률적 LLM을 엄격하게 제어하는 아키텍처를 통합합니다.",
+   "impact": "이 프레임워크는 개발자와 연구원에게 보장된 결정 안전성을 갖춘 복잡한 규칙 시스템을 시뮬레이션하는 신뢰할 수 있는 방법을 제공할 수 있습니다. 결정론적 FSA를 사용하여 LLM 출력을 제한함으로써 기술 사용자는 민감한 영역에서 환각 위험을 완화할 수 있습니다.",
+   "keyPoints": [
+    "유한 상태 오토마타와 대형 언어 모델을 사용하여 이슬람 율법 판정을 시뮬레이션함.",
+    "유한 명제 뿔 이론의 오프라인 컴파일을 통해 일정한 시간 판정 추출을 달성함.",
+    "결정론적 FSA를 사용하여 확률적 LLM을 엄격하게 제어하고 안전성을 보장함.",
+    "문법 유도 제약 디코딩을 사용하여 결정 및 법률적 사실의 환각을 제거함."
+   ]
+  }
+ }
+}

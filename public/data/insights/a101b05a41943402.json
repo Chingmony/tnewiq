@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a101b05a41943402",
+ "contentHash": "9a76bce8a17941d3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T23:02:32.684Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Goal Encoding in LLMs",
+   "summary": "Researchers investigated how large language models encode goals by using a coding setting with multiple sub-tasks. They localized the encoding of the next sub-goal in a sparse set of attention heads and verified that it is causal for the next action and plastic across environments. Furthermore, they proposed a non-recurrent goal-seeking account to explain how models sustain goal encoding throughout execution without recurrence.",
+   "impact": "Understanding how LLMs internally represent and maintain goals could help researchers better analyze model behavior and control execution paths. These insights may assist developers and security teams in evaluating reliability and forecasting model actions.",
+   "keyPoints": [
+    "The study investigates internal neural representations of goals in LLMs.",
+    "Researchers localized next sub-goal encoding in a sparse set of attention heads.",
+    "Transplanting the goal encoding into a different programming language triggered the same operation with different tokens.",
+    "The non-recurrent goal-seeking account suggests models frequently re-read the goal from task specifications."
+   ]
+  },
+  "km": {
+   "title": "ការអ៊ិនកូដគោលដៅក្នុង LLMs",
+   "summary": "អ្នកស្រាវជ្រាវបានស៊ើបអង្កេតពីរបៀបដែល LLMs អ៊ិនកូដគោលដៅដោយប្រើប្រាស់បរិយាកាសកូដដែលមានអនុបេសកកម្មរងជាច្រើន។ ពួកគេបានកំណត់ទីតាំងការអ៊ិនកូដនៃគោលដៅរងបន្ទាប់នៅក្នុងក្បាលផ្ចង់អារម្មណ៍ចំនួនតិចតួច និងបានបញ្ជាក់ថាវាមានឥទ្ធិពលបុរេហេតុសម្រាប់សកម្មភាពបន្ទាប់។ ពួកគេក៏បានស្នើផងដែរនូវគំណោងស្វែងរកគោលដៅដោយមិនមានការវិលជុំ ដើម្បីពន្យល់ពីរបៀបដែលម៉ូដែលរក្សាការអ៊ិនកូដគោលដៅពេញមួយដំណើរការប្រតិបត្តិ។",
+   "impact": "ការយល់ដឹងពីរបៀបដែល LLMs បង្ហាញនិងរក្សាគោលដៅខាងក្នុងអាចជួយអ្នកស្រាវជ្រាវវិភាគអាកប្បកិរិយារបស់ម៉ូដែល និងគ្រប់គ្រងផ្លូវប្រតិបត្តិបានប្រសើរជាងមុន។ ការយល់ដឹងទាំងនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខក្នុងការវាយតម្លៃភាពជឿជាក់។",
+   "keyPoints": [
+    "ការសិក្សានេះស៊ើបអង្កេតលើតំណាងប្រសាទខាងក្នុងនៃគោលដៅនៅក្នុង LLMs។",
+    "អ្នកស្រាវជ្រាវបានកំណត់ទីតាំងអ៊ិនកូដគោលដៅរងបន្ទាប់នៅក្នុងក្បាលផ្ចង់អារម្មណ៍។",
+    "ការផ្ទេរការអ៊ិនកូដគោលដៅទៅក្នុងភាសាសរសេរកម្មវិធីផ្សេង បានបង្កឱ្យមានប្រតិបត្តិការដូចគ្នាជាមួយថូខឹនខុសគ្នា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "LLM中的目标编码",
+   "summary": "研究人员通过包含多个子任务的编码环境，研究了大型语言模型如何编码目标。他们在稀疏的一组注意力头中定位了下一个子目标的编码，并验证了该编码对下一步行动具有因果作用且具有可塑性。此外，研究人员提出了非递归目标寻求理论，以解释模型如何在没有循环结构的情况下在整个执行过程中维持目标编码。",
+   "impact": "理解LLM如何在内部表示和维持目标，可以帮助研究人员更好地分析模型行为并控制执行路径。这些见解可能有助于开发人员和安全团队评估可靠性并预测模型的行动。",
+   "keyPoints": [
+    "该研究调查了LLM中目标的内部神经表征。",
+    "研究人员在一组稀疏的注意力头中定位了下一个子目标的编码。",
+    "将目标编码移植到不同的编程语言中会触发使用不同标记序列的相同操作。",
+    "非递归目标寻求理论提出模型会经常从任务规范中重新读取目标。"
+   ]
+  },
+  "ko": {
+   "title": "LLM에서의 목표 인코딩",
+   "summary": "연구진은 여러 하위 작업이 포함된 코딩 설정을 사용하여 대형 언어 모델이 목표를 인코딩하는 방식을 조사했습니다. 이들은 소수의 어텐션 헤드 출력에서 다음 하위 목표의 인코딩을 국소화하고, 이것이 다음 행동에 인과적이며 가소성이 있음을 확인했습니다. 또한 순환 구조 없이도 모델이 실행 전반에 걸쳐 목표 인코딩을 유지하는 방식을 설명하기 위해 비순환적 목표 추구 계정을 제안했습니다.",
+   "impact": "LLM이 내부적으로 목표를 표현하고 유지하는 방식을 이해하는 것은 연구진이 모델 행동을 더 잘 분석하고 실행 경로를 제어하는 데 도움이 될 수 있습니다. 이러한 통찰력은 개발자와 보안 팀이 신뢰성을 평가하고 모델의 행동을 예측하는 데 기여할 수 있습니다.",
+   "keyPoints": [
+    "본 연구는 LLM 내의 목표에 대한 내부 신경 표현을 조사합니다.",
+    "연구진은 소수의 어텐션 헤드에서 다음 하위 목표 인코딩을 국소화했습니다.",
+    "목표 인코딩을 다른 프로그래밍 언어로 이식해도 다른 토큰 시퀀스로 동일한 작업이 트리거되었습니다.",
+    "비순환적 목표 추구 계정에 따르면 모델은 작업 사양에서 목표를 빈번하게 다시 읽습니다."
+   ]
+  }
+ }
+}

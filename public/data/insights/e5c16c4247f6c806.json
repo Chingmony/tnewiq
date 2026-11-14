@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e5c16c4247f6c806",
+ "contentHash": "0966f2e0bd087670",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T23:06:24.477Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Cortex-FL: Agent-Mediated Collaboration for Federated Learning",
+   "summary": "Researchers introduced Cortex-FL, an agent-native federated learning system designed to help organizations collaborate on model training without centralizing raw data. Users can express learning objectives in natural language, while agents handle tasks such as discovering collaborators, negotiating agreements, and managing incentives. The system separates agent coordination from local execution authority, ensuring data owners retain control over their resources and financial commitments. A four-node deployment successfully demonstrated the complete workflow, from natural language requests to contract-governed training and blockchain settlement.",
+   "impact": "This system could help organizations with limited specialized expertise adopt federated learning by automating collaborator discovery and task coordination. Developers and security teams may benefit from the separation of agent coordination and local execution authority, which allows organizations to maintain strict control over their data and computation.",
+   "keyPoints": [
+    "Cortex-FL is an agent-native federated learning system that uses natural language to express learning objectives.",
+    "Agents handle collaborator discovery, task translation, and participation agreements.",
+    "The architecture separates agent coordination from local execution authority.",
+    "A four-node deployment demonstrated the workflow including x402 settlement on a blockchain testnet."
+   ]
+  },
+  "km": {
+   "title": "Cortex-FL៖ កិច្ចសហការសម្របសម្រួលដោយភ្នាក់ងារសម្រាប់រៀនសូត្រសហព័ន្ធ",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ Cortex-FL ដែលជាប្រព័ន្ធរៀនសូត្រសហព័ន្ធដើមដោយភ្នាក់ងារ ត្រូវបានរចនាឡើងដើម្បីជួយអង្គការនានាក្នុងការសហការគ្នាបណ្តុះបណ្តាលគំរូដោយមិនចាំបាច់ប្រមូលផ្តុំទិន្នន័យឆៅ។ អ្នកប្រើប្រាស់អាចបង្ហាញគោលដៅរៀនសូត្រជាភាសាធម្មជាតិ ខណៈដែលភ្នាក់ងារគ្រប់គ្រងភារកិច្ចដូចជាការស្វែងរកអ្នកសហការ ការចរចាព្រមព្រៀង និងការគ្រប់គ្រងincentives។ ប្រព័ន្ធនេះបំបែកការសម្របសម្រួលរបស់ភ្នាក់ងារចេញពីសិទ្ធិអំណាចប្រតិបត្តិក្នុងមូលដ្ឋាន ដោយធានាថាម្ចាស់ទិន្នន័យនៅតែរក្សាការគ្រប់គ្រងលើធនធាន និងការប្តេជ្ញាចិត្តផ្នែកហិរញ្ញវត្ថុរបស់ពួកគេ។",
+   "impact": "ប្រព័ន្ធនេះអាចជួយអង្គការដែលមានជំនាញឯកទេសមានកម្រិត ក្នុងការអនុម័តការរៀនសូត្រសហព័ន្ធដោយស្វ័យប្រវត្តិកម្មលើការស្វែងរកអ្នកសហការ និងការសម្របសម្រួលភារកិច្ច។ អ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខអាចទទួលបានផលប្រយោជន៍ពីការបំបែកការសម្របសម្រួលរបស់ភ្នាក់ងារ និងសិទ្ធិអំណាចប្រតិបត្តិក្នុងមូលដ្ឋាន។",
+   "keyPoints": [
+    "Cortex-FL គឺជាប្រព័ន្ធរៀនសូត្រសហព័ន្ធដើមដោយភ្នាក់ងារដែលប្រើប្រាស់ភាសាធម្មជាតិ។",
+    "ភ្នាក់ងារគ្រប់គ្រងការស្វែងរកអ្នកសហការ ការបកប្រែភារកិច្ច និងកិច្ចព្រមព្រៀងចូលរួម។",
+    "ស្ថាបត្យកម្មនេះបំបែកការសម្របសម្រួលរបស់ភ្នាក់ងារចេញពីសិទ្ធិអំណាចប្រតិបត្តិក្នុងមូលដ្ឋាន។",
+    "ការដាក់ពង្រាយបួនថ្នាំងបានបង្ហាញពីដំណើរការការងាររួមទាំងការទូទាត់ប្រាក់នៅលើបណ្តាញតេស្ត blockchain ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Cortex-FL：联邦学习的智能体代理协作",
+   "summary": "研究人员推出了 Cortex-FL，这是一个智能体原生的联邦学习系统，旨在帮助组织在不集中原始数据的情况下合作训练模型。用户可以用自然语言表达学习目标，而智能体则负责发现协作者、谈判协议和管理激励等任务。该系统将智能体协调与本地执行权限分离，确保数据所有者保留对其资源和财务承诺的控制权。四节点部署成功演示了从自然语言请求到合同治理训练和区块链结算的完整工作流程。",
+   "impact": "该系统可以通过自动化协作者发现和任务协调，帮助缺乏专业知识的组织采用联邦学习。开发人员和安全团队可能会受益于智能体协调与本地执行权限的分离，这使组织能够对数据和计算保持严格控制。",
+   "keyPoints": [
+    "Cortex-FL 是一个使用自然语言表达学习目标的智能体原生联邦学习系统。",
+    "智能体处理协作者发现、任务翻译和参与协议。",
+    "该架构将智能体协调与本地执行权限分离开来。",
+    "四节点部署演示了包括区块链测试网上的 x402 结算在内的工作流程。"
+   ]
+  },
+  "ko": {
+   "title": "Cortex-FL: 연합 학습을 위한 에이전트 중개 협업",
+   "summary": "연구원들은 조직이 원시 데이터를 중앙화하지 않고 모델을 공동으로 학습할 수 있도록 설계된 에이전트 네이티브 연합 학습 시스템인 Cortex-FL을 발표했습니다. 사용자는 자연어로 학습 목표를 표현할 수 있으며, 에이전트는 협력자 발견, 참여 계약 협상, 인센티브 관리 등의 작업을 처리합니다. 이 시스템은 에이전트 조정 권한과 로컬 실행 권한을 분리하여 데이터 소유자가 자신의 리소스와 재정적 약정에 대한 통제권을 유지할 수 있도록 보장합니다. 4개 노드 배포를 통해 자연어 요청부터 계약 거버넌스 기반 학습, 블록체인 테스트넷 결제에 이르는 전체 워크플로가 성공적으로 시연되었습니다.",
+   "impact": "이 시스템은 전문 지식이 부족한 조직이 협력자 발견과 작업 조정을 자동화하여 연합 학습을 채택하는 데 도움을 줄 수 있습니다. 개발자와 보안 팀은 에이전트 조정과 로컬 실행 권한의 분리를 통해 조직이 데이터와 연산에 대한 엄격한 통제권을 유지할 수 있는 이점을 얻을 수 있습니다.",
+   "keyPoints": [
+    "Cortex-FL은 자연어를 사용하여 학습 목표를 표현하는 에이전트 네이티브 연합 학습 시스템입니다.",
+    "에이전트는 협력자 발견, 작업 변환, 참여 계약을 처리합니다.",
+    "아키텍처는 에이전트 조정과 로컬 실행 권한을 분리합니다.",
+    "4개 노드 배포를 통해 블록체인 테스트넷에서의 x402 결제를 포함한 워크플로가 시연되었습니다."
+   ]
+  }
+ }
+}

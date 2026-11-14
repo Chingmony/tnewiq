@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e5a4611a25d3f9ef",
+ "contentHash": "bb0d823f0fe76431",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T23:04:04.139Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery",
+   "summary": "Researchers introduce Ballad, an online bandit algorithm designed to dynamically route between a pool of Large Language Models for automated heuristic discovery. The system addresses the challenge of non-stationary reward signals where the optimal model may shift during a run. Ballad uses an LLM selection policy, a DAG-based credit propagation mechanism, and stale observation discounting to orchestrate model ensembles.",
+   "impact": "This approach could help developers and technology users reduce API costs by up to 65.6% compared to exclusively using the strongest model, while matching or exceeding the performance of any single LLM alone.",
+   "keyPoints": [
+    "Empirical testing shows that larger and costlier LLMs do not consistently yield better heuristics across NP-hard combinatorial optimization problems.",
+    "Ballad combines a pool of LLMs into an ensemble using an online bandit algorithm.",
+    "The method reduces API cost by up to 65.6% relative to always using the strongest model."
+   ]
+  },
+  "km": {
+   "title": "Ballad៖ ការបញ្ជូនបន្ត LLM ផ្អែកលើ Bandit សម្រាប់ការរកឃើញក្បួនដោះស្រាយស្វ័យប្រវត្តិ",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ Ballad ដែលជាក្បួនដោះស្រាយអនឡាញ bandit ត្រូវបានរចនាឡើងដើម្បីបញ្ជូនបន្តរវាងក្រុមម៉ូដែល Large Language Models សម្រាប់ការរកឃើញ heuristics ដោយស្វ័យប្រវត្តិ។ ប្រព័ន្ធនេះដោះស្រាយបញ្ហាប្រឈមនៃសញ្ញារង្វាន់ដែលមិនមានស្ថេរភាព ដែលម៉ូដែលល្អបំផុតអាចផ្លាស់ប្តូរក្នុងអំឡុងពេលដំណើរការ។ Ballad ប្រើប្រាស់គោលការណ៍ជ្រើសរើស LLM យន្តការបញ្ជូនបន្តឥណទានផ្អែកលើ DAG និងការកាត់បន្ថយការសង្កេតហួសសម័យដើម្បីសម្របសម្រួលក្រុមម៉ូដែល។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាកាត់បន្ថយការចំណាយ API រហូតដល់ 65.6% បើធៀបនឹងការប្រើប្រាស់ម៉ូដែលខ្លាំងបំផុតតែមួយមុខ ខណៈពេលដែលសម្រេចបាននូវដំណើរការស្មើ ឬលើសពី LLM ណាមួយ.",
+   "keyPoints": [
+    "ការធ្វើតេស្តជាក់ស្តែងបង្ហាញថា LLMs ធំ និងមានតម្លៃថ្លៃមិនបង្កើត heuristics ល្អជាងមុនជាប់លាប់នោះទេ.",
+    "Ballad រួមបញ្ចូលគ្នានូវក្រុម LLMs ទៅជាក្រុមតែមួយដោយប្រើប្រាស់ក្បួនដោះស្រាយអនឡាញ bandit.",
+    "វិធីសាស្ត្រនេះកាត់បន្ថយការចំណាយ API រហូតដល់ 65.6% បើធៀបនឹងការប្រើប្រាស់ម៉ូដែលខ្លាំងបំផុតជានិច្ច."
+   ]
+  },
+  "zh-CN": {
+   "title": "Ballad：用于自动化启发式发现的基于多臂老虎机的大语言模型路由",
+   "summary": "研究人员推出了 Ballad，这是一种在线多臂老虎机算法，旨在动态路由一组大语言模型以进行自动化启发式发现。该系统解决了奖励信号非平稳的挑战，即最优模型可能会在运行过程中发生变化。Ballad 利用大语言模型选择策略、基于有向无环图的信用传播机制以及陈旧观察折扣来协调模型集成。",
+   "impact": "这种方法可以帮助开发人员和技术用户将 API 成本降低高达 65.6%，同时与单独使用最强模型相比，能够匹配或超越任何单个大语言模型的性能。",
+   "keyPoints": [
+    "实证测试表明，在多个 NP 困难组合优化问题中，更大、更昂贵的模型并不一定会持续产生更好的启发式方法。",
+    "Ballad 通过在线多臂老虎机算法将一组大语言模型编排成一个集成。",
+    "与始终使用最强模型相比，该方法将 API 成本降低了高达 65.6%。"
+   ]
+  },
+  "ko": {
+   "title": "Ballad: 자동화된 휴리스틱 발견을 위한 밴디트 기반 LLM 라우팅",
+   "summary": "연구원들은 자동화된 휴리스틱 발견을 위해 대형 언어 모델 풀 간에 동적으로 라우팅하도록 설계된 온라인 밴디트 알고리즘인 Ballad를 소개합니다. 이 시스템은 실행 중에 최적의 모델이 변경될 수 있는 비정상 보상 신호의 문제를 해결합니다. Ballad는 LLM 선택 정책, DAG 기반 신용 전파 메커니즘, 그리고 오래된 관측치 할인 메커니즘을 사용하여 모델 앙상블을 조율합니다.",
+   "impact": "이 접근 방식은 가장 강력한 모델만 지속적으로 사용하는 것에 비해 API 비용을 최대 65.6%까지 절감하는 동시에 단일 LLM의 성능과 같거나 이를 뛰어넘는 결과를 달성하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "경험적 테스트에 따르면 더 크고 비용이 많이 드는 LLM이 NP-hard 조합 최적화 문제 전반에서 일관되게 더 나은 휴리스틱을 산출하지는 않습니다.",
+    "Ballad는 온라인 밴디트 알고리즘을 사용하여 LLM 풀을 앙상블로 오케스트레이션합니다.",
+    "이 방법은 가장 강력한 모델을 항상 사용하는 것에 비해 API 비용을 최대 65.6%까지 줄여줍니다."
+   ]
+  }
+ }
+}

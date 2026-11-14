@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "bb61f4e0d62f00d0",
+ "contentHash": "8a59b0912b4dc0b7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T23:05:32.326Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline",
+   "summary": "Researchers presented a scalable conversational assessment system that uses an LLM-based, two-agent architecture to conduct interactive text-based exams. The system separates concerns between an interviewer agent that talks to the student and a hidden evaluator agent that tracks progress using a rubric and guides the interviewer. The approach was tested using simulated students with various personas and adversarial tactics, and was deployed in a small elective AI literacy course.",
+   "impact": "This research could help developers and educators design more scalable and interactive assessment tools using LLMs. Security teams and technology users may find the separated two-agent architecture useful for reducing answer leaks and mitigating prompt-injection risks in conversational systems.",
+   "keyPoints": [
+    "The system uses a two-agent architecture with an interviewer and a hidden evaluator.",
+    "It was tested using simulated students with LLM personas and adversarial tactics on a fictional assessment topic.",
+    "The system was deployed in a small, elective AI literacy course for formative and summative contexts."
+   ]
+  },
+  "km": {
+   "title": "ការវាយតម្លៃការសន្ទនាដែលអាចពង្រីកបាន៖ ប្រឡងផ្អែកលើការជជែកជាមួយបំពង់ខ្សែកាប LLM ភ្នាក់ងារពីរ",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្ហាញប្រព័ន្ធវាយតម្លៃការសន្ទនាដែលអាចពង្រីកបានដែលប្រើប្រាស់ស្ថាបត្យកម្មភ្នាក់ងារពីរផ្អែកលើ LLM ដើម្បីធ្វើការប្រឡងផ្អែកលើអត្ថបទអន្តរសកម្ម។ ប្រព័ន្ធនេះបែងចែកកង្វល់រវាងភ្នាក់ងារសម្ភាសន៍ដែលនិយាយជាមួយសិស្ស និងភ្នាក់ងារវាយតម្លៃលាក់កំបាំងដែលតាមដានវឌ្ឍនភាពដោយប្រើrubric និងណែនាំអ្នកសម្ភាសន៍។ វិធីសាស្ត្រនេះត្រូវបានសាកល្បងដោយប្រើនិស្សិតក្លែងធ្វើដែលមាន persona ផ្សេងៗ និងត្រូវបានដាក់ពង្រាយនៅក្នុងវគ្គសិក្សាអក្ខរកម្ម AI តូចមួយ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកអប់រំក្នុងការរចនាឧបករណ៍វាយតម្លៃអន្តរសកម្មដែលអាចពង្រីកបានដោយប្រើ LLM ។ ក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចយល់ថាស្ថាបត្យកម្មភ្នាក់ងារពីរដែលមានការបែងចែកមានប្រយោជន៍សម្រាប់ការកាត់បន្ថយការលេចធ្លាយចម្លើយ។",
+   "keyPoints": [
+    "ប្រព័ន្ធនេះប្រើប្រាស់ស្ថាបត្យកម្មភ្នាក់ងារពីរដែលមានអ្នកសម្ភាសន៍ និងអ្នកវាយតម្លៃលាក់កំបាំង។",
+    "វាត្រូវបានសាកល្បងដោយប្រើនិស្សិតក្លែងធ្វើដែលមាន persona ផ្សេងៗ និងលើប្រធានបទវាយតម្លៃប្រឌិត។",
+    "ប្រព័ន្ធនេះត្រូវបានដាក់ពង្រាយនៅក្នុងវគ្គសិក្សាអក្ខរកម្ម AI ជ្រើសរើសតូចមួយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "可扩展的对话式评估：基于双代理大语言模型管道的聊天考试",
+   "summary": "研究人员提出了一种可扩展的对话式评估系统，该系统使用基于大语言模型的双代理架构来进行交互式文本考试。该系统分离了与学生直接交互的面试官代理和使用评分标准跟踪进度并指导面试官的隐藏评估员代理之间的职责。该方法使用具有各种角色和对抗策略的模拟学生进行了测试，并部署在一个小型选修人工智能素养课程中。",
+   "impact": "这项研究可以帮助开发人员和教育工作者使用大语言模型设计出更具可扩展性和互动性的评估工具。安全团队和技术用户可能会发现这种分离的双代理架构有助于减少答案泄露并降低对话系统中的风险。",
+   "keyPoints": [
+    "该系统采用了包含面试官和隐藏评估员的双代理架构。",
+    "测试时使用了具有不同大语言模型角色和对抗策略的模拟学生以及虚构的评估主题。",
+    "该系统已在小型选修人工智能素养课程中进行了部署。"
+   ]
+  },
+  "ko": {
+   "title": "확장 가능한 대화형 평가: 2에이전트 LLM 파이프라인을 활용한 채팅 기반 시험",
+   "summary": "연구원들은 대화형 텍스트 기반 시험을 수행하기 위해 LLM 기반의 2에이전트 아키텍처를 사용하는 확장 가능한 대화형 평가 시스템을 발표했습니다. 이 시스템은 학생과 직접 상호 작용하는 면접관과 루브릭을 사용하여 진행 상황을 추적하고 면접관을 안내하는 숨겨진 평가자 간의 역할을 분리합니다. 이 접근 방식은 다양한 페르소나와 적대적 전술을 가진 시뮬레이션된 학생들을 사용하여 테스트되었으며, 소규모 선택 AI 리터러시 과정에 배포되었습니다.",
+   "impact": "이번 연구는 개발자와 교육자가 LLM을 사용하여 더 확장 가능하고 상호 작용하는 평가 도구를 설계하는 데 도움을 줄 수 있습니다. 보안 팀과 기술 사용자는 분리된 2에이전트 아키텍처가 대화형 시스템에서 답변 유출을 줄이는 데 유용하다는 것을 알 수 있습니다.",
+   "keyPoints": [
+    "이 시스템은 면접관과 숨겨진 평가자로 구성된 2에이전트 아키텍처를 사용합니다.",
+    "가상의 평가 주제에서 LLM 페르소나와 적대적 전술을 가진 시뮬레이션된 학생들을 사용하여 테스트되었습니다.",
+    "이 시스템은 소규모 선택 AI 리터러시 과정에 배포되었습니다."
+   ]
+  }
+ }
+}

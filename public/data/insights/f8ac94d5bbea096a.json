@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f8ac94d5bbea096a",
+ "contentHash": "f7cb945987d0140a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T23:05:21.682Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Combinatorial Bernoulli Factories with Polynomially Many Coins",
+   "summary": "Researchers provide an efficient implementation of combinatorial Bernoulli factories that convert coins of unknown biases into a random vertex of a polytope. The new single algorithm operates with an expected number of coin flips and running time that are polynomial in the dimension and in the distance to the boundary. For perfect matchings, this approach yields significantly fewer flips compared to previous methods.",
+   "impact": "This improvement in efficiency could allow developers and researchers to compute combinatorial Bernoulli factories much faster than previous exponential bounds allowed. It may enable better handling of polytopes and affine slices of the cube in algorithmic applications.",
+   "keyPoints": [
+    "Provides an efficient implementation for combinatorial Bernoulli factories.",
+    "Expected number of coin flips and running time are polynomial in the dimension and $1/{δ_*}$.",
+    "Achieves $O(n^{8}{δ_*}^{-2} o(n/{δ_*}))$ flips for perfect matchings.",
+    "Rounds exactly for other polytopes given a point deep inside $P$."
+   ]
+  },
+  "km": {
+   "title": "រោងចក្រ Bernoulli បន្សំជាមួយកាក់ជាច្រើនពហុធា",
+   "summary": "អ្នកស្រាវជ្រាវបានផ្តល់នូវការអនុវត្តប្រកបដោយប្រសិទ្ធភាពនៃរោងចក្រ Bernoulli បន្សំ ដែលបំលែងកាក់ដែលមានភាពលំអៀងមិនស្គាល់ទៅជាកំពូលចៃដន្យនៃ polytope មួយ។ ក្បួនដោះស្រាយតែមួយថ្មីនេះដំណើរការជាមួយនឹងចំនួនរំពឹងទុកនៃការបោះកាក់ និងពេលវេលាដំណើរការដែលមានលក្ខណៈជាពហុធា។ វិធីសាស្ត្រនេះផ្តល់នូវចំនួនបោះកាក់តិចជាងមុនយ៉ាងខ្លាំងសម្រាប់ ការផ្គូផ្គងល្អឥតខ្ចោះ បើធៀបនឹងវិធីសាស្ត្រមុនៗ។",
+   "impact": "ភាពប្រសើរឡើងនៃប្រសិទ្ធភាពនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវគណនារោងចក្រ Bernoulli បន្សំបានលឿនជាងមុន។ វាអាចជួយសម្រួលដល់ការគ្រប់គ្រង polytopes ក្នុងការប្រើប្រាស់ក្បួនដោះស្រាយផ្សេងៗ។",
+   "keyPoints": [
+    "ផ្តល់នូវការអនុវត្តប្រកបដោយប្រសិទ្ធភាពសម្រាប់រោងចក្រ Bernoulli បន្សំ។",
+    "ចំនួនរំពឹងទុកនៃការបោះកាក់ និងពេលវេលាដំណើរការគឺមានលក្ខណៈជាពហុធា។",
+    "សម្រេចបានការបោះកាក់ $O(n^{8}{δ_*}^{-2} o(n/{δ_*}))$ សម្រាប់ការផ្គូផ្គងល្អឥតខ្ចោះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "具有多项式数量硬币的组合伯努利工厂",
+   "summary": "研究人员提供了一种高效的组合伯努利工厂实现方法，该工厂可将未知偏差的硬币转化为平均值恰好为x的多面体随机顶点。对于立方体的每个仿射切片，研究给出了一个单一算法，其期望硬币翻转次数和运行时间在维度以及边界距离上呈多项式关系。对于完美匹配，该方法明显减少了所需的翻转次数。",
+   "impact": "效率的提升可能使开发人员和研究人员能够比以往更快地计算组合伯努利工厂。它可能在算法应用中更好地处理多面体和立方体的仿射切片。",
+   "keyPoints": [
+    "提供了组合伯努利工厂的高效实现。",
+    "期望硬币翻转次数和运行时间在维度和 $1/{δ_*}$ 上呈多项式关系。",
+    "对于完美匹配带来了显著更少的翻转次数。"
+   ]
+  },
+  "ko": {
+   "title": "다항식 수의 동전을 사용하는 조합론적 베르누이 팩토리",
+   "summary": "연구원들은 알 수 없는 편향을 가진 동전을 평균이 x인 폴리토프의 무작위 꼭짓점으로 변환하는 조합론적 베르누이 팩토리의 효율적인 구현을 제공합니다. 큐브의 모든 아핀 슬라이스에 대해 차원과 경계까지의 거리에 대해 다항식 관계를 갖는 단일 알고리즘을 제시합니다. 완벽 매칭의 경우, 이 접근 방식은 이전 방법에 비해 훨씬 적은 동전 뒤집기를 발생시킵니다.",
+   "impact": "이러한 효율성 향상으로 인해 개발자와 연구원들은 이전의 지수 함수적 한계보다 훨씬 빠르게 조합론적 베르누이 팩토리를 계산할 수 있게 될 수 있습니다. 알고리즘 응용에서 폴리토프를 더 효과적으로 다룰 수 있게 될 것입니다.",
+   "keyPoints": [
+    "조합론적 베르누이 팩토리를 위한 효율적인 구현 제공.",
+    "예상 동전 뒤집기 횟수와 실행 시간이 차원과 $1/{δ_*}$에 대해 다항식임.",
+    "완벽 매칭에 대해 $O(n^{8}{δ_*}^{-2} o(n/{δ_*}))$ 횟수의 뒤집기를 산출함."
+   ]
+  }
+ }
+}

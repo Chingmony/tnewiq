@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "61f0aa1d1285d9a9",
+ "contentHash": "a6688e25ee0e7f8b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T23:07:41.114Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "LazyWeights: Decode-on-Demand Edge LLMs",
+   "summary": "LazyWeights is a new approach that tunes GPTQ to compress non-uniform integer codes of a matrix, applies lossless Huffman-coding in interleaved lanes, and decodes them on demand between DRAM and L2. This allows GPU kernels to run unchanged while reducing model sizes for models like Phi-3-mini, Mistral-7B, and SmolLM-1.7B. A small ASIC decoder unit can cut latency and energy per token on devices like the Jetson Orin Nano Super.",
+   "impact": "This approach could help developers and technology users run large language models more efficiently on resource-constrained edge devices by reducing memory bandwidth requirements and improving latency and energy consumption.",
+   "keyPoints": [
+    "LazyWeights compresses models like Phi-3-mini, Mistral-7B, and SmolLM-1.7B to be 5.7 to 31.4 percent smaller than the best llama.cpp format.",
+    "A bit-exact 0.21 mm2 ASIC decoder unit at 1 GHz and 7 nm reduces Orin latency and energy per token significantly.",
+    "On the Jetson Nano, LazyWeights reduces time and energy per token compared to CPU llama.cpp and streams Mistral-7B faster.",
+    "The Huffman decoder outperforms an rANS decoder in rate and area, and the ASIC decoder unit was tested bit-exact on a Zynq UltraScale+ FPGA."
+   ]
+  },
+  "km": {
+   "title": "LazyWeights៖ ការឌិកូដតាមតម្រូវការសម្រាប់ Edge LLMs",
+   "summary": "LazyWeights គឺជាវិធីសាស្ត្រថ្មីមួយដែលកែសម្រួល GPTQ ដើម្បីបង្ហាប់កូដចំនួនគត់នៃម៉ាទ្រីស អនុវត្តការអ៊ិនកូដ Huffman បាត់បង់សូន្យ និងឌិកូដពួកវាតามតម្រូវការរវាង DRAM និង L2។ វិធីសាស្ត្រនេះអនុញ្ញាតឱ្យខឺណែល GPU ដំណើរការដោយគ្មានការផ្លាស់ប្តូរ ខណៈពេលដែលកាត់បន្ថយទំហំម៉ូដែល។ وحدةឌិកូដ ASIC តូចមួយអាចកាត់បន្ថយភាពយឺតយ៉ាវ និងថាមពលក្នុងមួយតូខិននៅលើឧបករណ៍អេដច។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដំណើរការម៉ូដែលភាសាខ្នាតធំកាន់តែមានប្រសិទ្ធភាពនៅលើឧបករណ៍អេដចដែលមានធនធានកំណត់ ដោយកាត់បន្ថយតម្រូវការកម្រិតបញ្ជូនអង្គចងចាំ។",
+   "keyPoints": [
+    "LazyWeights បង្ហាប់ម៉ូដែលដូចជា Phi-3-mini, Mistral-7B និង SmolLM-1.7B ឱ្យមានទំហំតូចជាងមុន។",
+    "وحدةឌិកូដ ASIC ទំហំ 0.21 mm2 កាត់បន្ថយភាពយឺតយ៉ាវ និងថាមពលក្នុងមួយតូខិននៅលើ Orin ។",
+    "នៅលើ Nano, LazyWeights ប្រើប្រាស់ពេលវេលា និងថាមពលតិចជាងមុនក្នុងមួយតូខិនបើធៀបនឹង CPU llama.cpp ។",
+    "ເຄື່ອງឌិកូដ Huffman ដំណើរការបានល្អជាង rANS ក្នុងអត្រា និងផ្ទៃដីស្មើគ្នា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "LazyWeights: 按需解码边缘大语言模型",
+   "summary": "LazyWeights 是一种新方法，它调整 GPTQ 以压缩矩阵的非均匀整数代码，在交错通道中对其进行无损哈夫曼编码，并在 DRAM 和 L2 之间按需解码。这使得 GPU 内核能够保持不变地运行，同时使 Phi-3-mini、Mistral-7B 和 SmolLM-1.7B 等模型的体积显著缩小。一个小型 ASIC 解码器单元可以减少 Jetson Orin Nano Super 等设备的延迟和每个词元的能耗。",
+   "impact": "这种方法可能帮助开发者和技术用户在资源受限的边缘设备上更高效地运行大语言模型，通过降低内存带宽需求来改善延迟和能耗表现。",
+   "keyPoints": [
+    "LazyWeights 将 Phi-3-mini、Mistral-7B 和 SmolLM-1.7B 等模型的体积比最佳 llama.cpp 格式缩小了 5.7 到 31.4 个百分点。",
+    "1 GHz、7 nm 的 0.21 mm2 比特精确 ASIC 解码器单元可将 Orin 的延迟和每个词元的能耗大幅降低。",
+    "在 Nano 上，LazyWeights 所需的时间和每个词元的能耗比 CPU llama.cpp 更低。",
+    "哈夫曼解码器在相同吞吐量下的速率和面积均优于 rANS 解码器。"
+   ]
+  },
+  "ko": {
+   "title": "LazyWeights: 온디맨드 디코딩 에지 LLM",
+   "summary": "LazyWeights는 매트릭스의 비균일 정수 코드를 압축하도록 GPTQ를 조정하고, 인터리브 레인에서 손실 없는 허프만 코딩을 적용하며, DRAM과 L2 사이에서 온디맨드로 디코딩하는 새로운 접근 방식입니다. 이를 통해 GPU 커널이 변경 없이 실행되는 동시에 Phi-3-mini, Mistral-7B, SmolLM-1.7B 등의 모델 크기를 줄일 수 있습니다. 소형 ASIC 디코더 유닛은 Jetson Orin Nano Super 같은 기기에서 토큰당 지연 시간과 에너지 소모를 줄여줍니다.",
+   "impact": "이 접근 방식은 개발자와 기술 사용자가 메모리 대역폭 요구 사항을 낮추고 지연 시간 및 에너지 효율을 개선하여 리소스가 제한된 에지 기기에서 대형 언어 모델을 더 효율적으로 실행하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "LazyWeights는 Phi-3-mini, Mistral-7B 및 SmolLM-1.7B 모델을 최적의 llama.cpp 형식보다 5.7~31.4% 더 작게 압축합니다.",
+    "1 GHz, 7 nm 사양의 0.21 mm2 비트 정확도 ASIC 디코더 유닛은 Orin의 지연 시간과 토큰당 에너지를 크게 절감합니다.",
+    "Nano 기기에서 LazyWeights는 CPU llama.cpp에 비해 토큰당 소요 시간과 에너지를 크게 줄여줍니다.",
+    "허프만 디코더는 동일 처리량에서 rANS 디코더보다 속도와 면적 면에서 우수합니다."
+   ]
+  }
+ }
+}

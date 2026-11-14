@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "bfa52838d2b11433",
+ "contentHash": "f895fe8b5b6f2126",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T23:06:35.267Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing",
+   "summary": "Researchers investigated whether output format design controls how often small fine-tuned parsers emit well-formed but wrong trees that fail silently. Using the PIZZA ordering benchmark, two sub-billion models were fine-tuned on six lossless encodings of the same target tree. The results show that shortening token length alone does not help, but writing the target in ordinary words significantly improves accuracy, reduces token emission, and cuts silent error rates.",
+   "impact": "This research could help developers and technology users improve the reliability of small-model semantic parsing by carefully selecting output encodings like ordinary words. It highlights that formatting choices can reduce silent errors and enhance handling of linguistic features such as negation.",
+   "keyPoints": [
+    "Tested Qwen3.5-0.8B and LFM2.5-350M models on six lossless encodings using the PIZZA ordering benchmark.",
+    "Writing the target in ordinary words achieved the highest accuracy and emitted 4.1x fewer tokens.",
+    "The word encoding cut the silent error rate by 2.3x on Qwen and 1.8x on LFM2.",
+    "Strict refusal of off-menu input came with a measured price of refusing 2.1% to 10.1% of real orders."
+   ]
+  },
+  "km": {
+   "title": "បានញែក បានសមហេតុផល តែខុស៖ ទម្រង់លទ្ធផលគ្រប់គ្រងកំហុសស្ងៀមស្ងាត់ក្នុងការញែកអត្ថន័យម៉ូដែលខ្នាតតូច",
+   "summary": "អ្នកស្រាវជ្រាវបានពិនិត្យមើលថាតើការរចនាទម្រង់លទ្ធផលគ្រប់គ្រងភាពញឹកញាប់នៃការចេញដើមឈើដែលបានបង្កើតឡើងយ៉ាងល្អ ប៉ុន្តែខុស ដែលបរាជ័យដោយស្ងៀមស្ងាត់។ ដោយប្រើប្រាស់គោលដៅបញ្ជាទិញ PIZZA ម៉ូដែលក្រោមមួយពាន់លានពីរត្រូវបានកែសម្រួលយ៉ាងល្អិតល្អន់លើការអ៊ិនកូដគ្មានការបាត់បង់ចំនួនប្រាំពីរ។ លទ្ធផលបង្ហាញថាការកាត់បន្ថយប្រវែងថូខឹនតែម្នាក់ឯងមិនជួយទេ ប៉ុន្តែការសរសេរគោលដៅជាពាក្យធម្មតាជួយកែលម្អភាពត្រឹមត្រូវយ៉ាងខ្លាំង។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការបង្កើនភាពជឿជាក់នៃការញែកអត្ថន័យម៉ូដែលខ្នាតតូចតាមរយៈការជ្រើសរើសការអ៊ិនកូដលទ្ធផលដោយប្រុងប្រយ័ត្ន។ វាបង្ហាញថាជម្រើសទម្រង់អាចកាត់បន្ថយកំហុសស្ងៀមស្ងាត់និងកែលម្អការគ្រប់គ្រងលក្ខណៈភាសា។",
+   "keyPoints": [
+    "បានសាកល្បងម៉ូដែល Qwen3.5-0.8B និង LFM2.5-350M លើការអ៊ិនកូដគ្មានការបាត់បង់ចំនួនប្រាំមួយ។",
+    "ការសរសេរគោលដៅជាពាក្យធម្មតាទទួលបានភាពត្រឹមត្រូវខ្ពស់បំផុត និងបញ្ចេញថូខឹនតិចជាង ៤,១ដង។",
+    "ការអ៊ិនកូដពាក្យបានកាត់បន្ថយអត្រាកំហុសស្ងៀមស្ងាត់ ២,៣ដងលើ Qwen និង ១,៨ដងលើ LFM2។"
+   ]
+  },
+  "zh-CN": {
+   "title": "已解析、看似合理但错误：输出格式控制了小型模型语义解析中的静默错误",
+   "summary": "研究人员探讨了输出格式设计是否能控制小型微调解析器频繁产生结构良好但错误且下游无法察觉的树状结构这一现象。在PIZZA订购基准测试中，研究人员对两个十亿参数以下模型进行了微调。结果表明，单纯缩短长度并没有帮助，但用普通词汇编写目标显著提高了准确率并降低了静默错误率。",
+   "impact": "这项研究可以帮助开发人员和技术用户通过精心选择输出编码来提高小型模型语义解析的可靠性。它强调了格式选择能够减少静默错误并提升对否定等语言特征的处理能力。",
+   "keyPoints": [
+    "在PIZZA订购基准测试中对Qwen3.5-0.8B和LFM2.5-350M模型进行了测试。",
+    "用普通词汇编写目标实现了最高的准确率，同时发出的token减少了4.1倍。",
+    "词汇编码使Qwen的静默错误率降低了2.3倍，使LFM2降低了1.8倍。",
+    "严格拒绝非菜单输入的代价是拒绝了2.1%至10.1%的真实订单。"
+   ]
+  },
+  "ko": {
+   "title": "구문 분석되었고 그럴듯하지만 틀렸음: 출력 형식이 소형 모델 의미 분석의 침묵 오류를 제어함",
+   "summary": "연구원들은 출력 형식 설계가 소형 미세 조정 분석기에서 잘 형성되었으나 틀린 트리를 출력하여 다운스트림에서 감지되지 못하는 빈도를 제어하는지 조사했습니다. PIZZA 주문 벤치마크를 사용하여 두 개의 10억 개 미만 파라미터 모델을 미세 조정했습니다. 결과에 따르면 길이를 줄이는 것만으로는 도움이 되지 않지만, 일반 단어로 목표를 작성하면 정확도가 크게 향상되고 침묵 오류율이 감소하는 것으로 나타났습니다.",
+   "impact": "이번 연구는 개발자와 기술 사용자가 출력 인코딩을 신중하게 선택하여 소형 모델 의미 분석의 신뢰성을 높이는 데 도움을 줄 수 있습니다. 포맷 선택이 침묵 오류를 줄이고 언어적 특징 처리를 개선할 수 있음을 보여줍니다.",
+   "keyPoints": [
+    "PIZZA 주문 벤치마크에서 Qwen3.5-0.8B 및 LFM2.5-350M 모델을 테스트했습니다.",
+    "일반 단어로 목표를 작성한 방식이 가장 높은 정확도를 기록했으며 4.1배 적은 토큰을 출력했습니다.",
+    "단어 인코딩은 Qwen에서 침묵 오류율을 2.3배, LFM2에서 1.8배 줄였습니다.",
+    "메뉴 외 입력 거부는 실제 주문의 2.1%에서 10.1%가 거부되는 대가를 치렀습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "51220045230d60ec",
+ "contentHash": "62e46bc8baa3ff01",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T23:02:43.693Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
+   "summary": "Metal Sandbox is open-source infrastructure designed for GPU coding agents on Apple Silicon, combining restricted per-instance file access, native command execution, and command-level scheduling across interconnected Macs. It allows parallel commands to run concurrently while sharing execution slots for serial commands across nodes, migrating waiting commands when necessary. Integration with Harbor provides support for task execution, automatic verification, and rollout collection. Experiments showed notable gains in command throughput, reduced mean tool waiting, and shorter batch elapsed times.",
+   "impact": "This infrastructure could help developers and technology users running on-device inference improve resource utilization and command throughput across multiple Macs. Security teams and developers may benefit from the restricted per-instance file access and isolated workspaces provided for each agent session.",
+   "keyPoints": [
+    "Metal Sandbox combines restricted file access, native command execution, and scheduling across interconnected Macs.",
+    "Parallel commands run concurrently, while serial commands share one execution slot per node with migration capabilities.",
+    "Integration with Harbor supports task execution, automatic verification, and rollout collection.",
+    "Experiments on four Mac mini M4 nodes achieved 1.68x to 2.05x gains in command throughput under concentrated demand."
+   ]
+  },
+  "km": {
+   "title": "Metal Sandbox៖ ការប្រតិបត្តិដាច់ដោយឡែក និងការកំណត់ពេលពាក្យបញ្ជាសម្រាប់ភ្នាក់ងារសរសេរកូដ GPU នៅលើ Apple Silicon",
+   "summary": "Metal Sandbox គឺជាប្រព័ន្ធផ្សព្វផ្សាយកូដបើកចំហដែលត្រូវបានបង្កើតឡើងសម្រាប់ភ្នាក់ងារសរសេរកូដ GPU នៅលើ Apple Silicon ដែលរួមបញ្ចូលគ្នានូវការចូលប្រើឯកសារក្នុងមួយអ៊ីនស្តង់ ការប្រតិបត្តិពាក្យបញ្ជាដើម និងការកំណត់ពេលពាក្យបញ្ជាកម្រិតទូទៅនៅលើ Mac ដែលបានតភ្ជាប់។ វាអនុញ្ញាតឱ្យពាក្យបញ្ជាស្របគ្នាដំណើរការក្នុងពេលតែមួយ ខណៈពេលដែលពាក្យបញ្ជាតាមលំដាប់ចែករំលែករន្ធប្រតិបត្តិនៅលើថ្នាំងនីមួយៗ។ ការរួមបញ្ចូលជាមួយ Harbor ផ្តល់នូវការគាំទ្រសម្រាប់ការប្រតិបត្តិភារកិច្ច ការផ្ទៀងផ្ទាត់ដោយស្វ័យប្រវត្តិ និងការប្រមូលផ្តុំ។ ការពិសោធន៍បានបង្ហាញពីការកើនឡើងនៃទិន្នផលពាក្យបញ្ជា កាត់បន្ថយពេលវេលារង់ចាំឧបករណ៍ និងកាត់បន្ថយពេលវេលាឈប់សម្រាក។",
+   "impact": "ហេដ្ឋារចនាសម្ព័ន្ធនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការបង្កើនប្រសិទ្ធភាពការប្រើប្រាស់ធនធាន និងទិន្នផលពាក្យបញ្ជាទូទាំង Mac ជាច្រើន។ ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ក៏អាចទទួលបានផលចំណេញពីការគ្រប់គ្រងឯកសារដាច់ដោយឡែកសម្រាប់វគ្គភ្នាក់ងារនីមួយៗផងដែរ។",
+   "keyPoints": [
+    "Metal Sandbox រួមបញ្ចូលការចូលប្រើឯកសារ ការប្រតិបត្តិពាក្យបញ្ជាដើម និងការកំណត់ពេលនៅលើ Mac ដែលបានតភ្ជាប់។",
+    "ពាក្យបញ្ជាស្របគ្នាដំណើរការក្នុងពេលតែមួយ ខណៈពាក្យបញ្ជាតាមលំដាប់ចែករំលែករន្ធប្រតិបត្តិមួយក្នុងមួយថ្នាំង។",
+    "ការរួមបញ្ចូលជាមួយ Harbor គាំទ្រដល់ការប្រតិបត្តិភារកិច្ច ការផ្ទៀងផ្ទាត់ និងការប្រមូលផ្តុំ។",
+    "ការពិសោធន៍នៅលើថ្នាំង Mac mini M4 ចំនួនបួនសម្រេចបានការកើនឡើងទិន្នផលពាក្យបញ្ជាពី 1.68 ដង ដល់ 2.05 ដង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Metal Sandbox：Apple Silicon 上 GPU 编码代理的隔离执行与命令调度",
+   "summary": "Metal Sandbox 是一项开源基础设施，专为 Apple Silicon 上的 GPU 编码 agent 设计，结合了受限制的每实例文件访问、本地命令执行以及互联 Mac 之间的命令级调度。它允许并行命令并发运行，而串行命令则在每个节点共享一个执行槽，并在必要时将等待命令迁移至可用 Mac。与 Harbor 的集成支持任务执行、自动验证和汇总收集。实验表明，该基础设施在集中需求下显著提高了命令吞吐量，减少了平均工具等待时间并缩短了批处理耗时。",
+   "impact": "该基础设施可以帮助开发人员和技术用户在多台 Mac 之间提高端侧推理的资源利用率和命令吞吐量。安全团队和开发人员也可能受益于每个 agent 会话所提供的受限文件访问和独立开发环境。",
+   "keyPoints": [
+    "Metal Sandbox 结合了受限的文件访问、本地命令执行以及互联 Mac 之间的调度功能。",
+    "并行命令可同时运行，而串行命令每个节点共享一个执行槽，且符合条件的等待命令可进行迁移。",
+    "与 Harbor 集成，支持任务执行、自动验证和汇总收集。",
+    "在四个 Mac mini M4 节点上的控制实验在集中需求下实现了 1.68 倍至 2.05 倍的命令吞吐量提升。"
+   ]
+  },
+  "ko": {
+   "title": "Metal Sandbox: Apple Silicon 기반 GPU 코딩 에이전트를 위한 격리된 실행 및 명령어 스케줄링",
+   "summary": "Metal Sandbox는 Apple Silicon 상의 GPU 코딩 에이전트를 위해 설계된 오픈소스 인프라로, 제한된 인스턴스별 파일 접근, 네이티브 명령어 실행, 그리고 상호 연결된 Mac 간의 명령어 수준 스케줄링을 결합합니다. 이를 통해 병렬 명령어는 동시에 실행되며 직렬 명령어는 노드당 하나의 실행 슬롯을 공유하고 대기 중인 명령어는 사용 가능한 Mac으로 마이그레이션할 수 있습니다. Harbor와의 통합은 작업 실행, 자동 검증 및 롤아웃 수집을 지원합니다. 실험 결과 집중된 수요 환경에서 명령어 처리량이 향상되었고 도구 대기 시간과 배치 소요 시간이 감소했습니다.",
+   "impact": "이 인프라는 온디바이스 추론을 수행하는 개발자와 기술 사용자에게 여러 Mac 간의 리소스 활용도와 명령어 처리량을 개선하는 데 도움을 줄 수 있습니다. 보안 팀과 개발자는 각 에이전트 세션에 제공되는 제한된 파일 접근 및 독립된 개발 환경의 이점을 얻을 수 있습니다.",
+   "keyPoints": [
+    "Metal Sandbox는 제한된 파일 접근, 네이티브 명령어 실행, 상호 연결된 Mac 간 스케줄링을 결합합니다.",
+    "병렬 명령어는 동시에 실행되며 직렬 명령어는 노드당 하나의 실행 슬롯을 공유하고 필요시 마이그레이션됩니다.",
+    "Harbor와의 통합을 통해 작업 실행, 자동 검증 및 롤아웃 수집을 지원합니다.",
+    "4개의 Mac mini M4 노드에서 수행된 제어 실험 결과 집중된 수요 하에서 1.68배에서 2.05배의 명령어 처리량 증가를 달성했습니다."
+   ]
+  }
+ }
+}

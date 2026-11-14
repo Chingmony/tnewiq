@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "bf26105ff1ebed07",
+ "contentHash": "279a4979d6f0f8aa",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T23:01:51.196Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Quantifying structural stability of transparent models for general insurance pricing",
+   "summary": "Researchers introduce functional transparency and a new metric called the Mean Squared Shape function distance to quantify structural stability in general insurance pricing models. The study evaluates public auto insurance datasets to benchmark transparent models. Findings show that generalised linear models are stable, explainable boosting machines balance stability and performance, and stabilization strategies can improve stability without hurting performance.",
+   "impact": "This research could help developers and actuaries select and stabilise predictive models for general insurance pricing. Implementing these metrics and stabilization strategies may improve model reliability across updates.",
+   "keyPoints": [
+    "Introduces functional transparency to characterise models with specific univariate and bivariate functions.",
+    "Proposes the Mean Squared Shape function distance metric for measuring structural stability.",
+    "Evaluates models using three public auto insurance datasets.",
+    "Shows that stabilisation strategies can improve stability for EBM and XGBoost models."
+   ]
+  },
+  "km": {
+   "title": "ការវាស់វែងស្ថិរភាពរចនាសម្ព័ន្ធនៃម៉ូដែលតម្លាភាពសម្រាប់កំណត់តម្លៃធានារ៉ាប់រងទូទៅ",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំអំពីតម្លាភាពមុខងារ និងរង្វាស់ថ្មីមួយហៅថា Mean Squared Shape function distance ដើម្បីវាស់វែងស្ថិរភាពរចនាសម្ព័ន្ធនៅក្នុងម៉ូដែលកំណត់តម្លៃធានារ៉ាប់រងទូទៅ។ ការសិក្សានេះបានវាយតម្លៃទិន្នន័យធានារ៉ាប់រងរថយន្តជាសាធារណៈ ដើម្បីធ្វើជាគោលដៅប្រៀបធៀបសម្រាប់ម៉ូដែលដែលមានតម្លាភាព។ លទ្ធផលបានបង្ហាញថា ម៉ូដែលលីនេអ៊ែរទូទៅមានស្ថិរភាព ហើយយុទ្ធសាស្ត្រស្ថិរភាពអាចជួយកែលម្អស្ថរភាពដោយមិនប៉ះពាល់ដល់ដំណើរការ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងអ្នកធ្វើការផ្នែកគណនេយ្យធានារ៉ាប់រងក្នុងការជ្រើសរើស និងរក្សាស្ថិរភាពម៉ូដែលព្យាករណ៍។ ការប្រើប្រាស់រង្វាស់ទាំងនេះអាចជួយបង្កើនភាពជឿជាក់របស់ម៉ូដែលផងដែរ។",
+   "keyPoints": [
+    "ណែនាំអំពីតម្លាភាពមុខងារដើម្បីកំណត់លក្ខណៈម៉ូដែល។",
+    "ស្នើឱ្យប្រើប្រាស់រង្វាស់ Mean Squared Shape function distance ដើម្បីវាស់វែងស្ថិរភាពរចនាសម្ព័ន្ធ។",
+    "វាយតម្លៃម៉ូដែលដោយប្រើชุดទិន្នន័យធានារ៉ាប់រងរថយន្តជាសាធារណៈចំនួនបី។",
+    "បង្ហាញថាយុទ្ធសាស្ត្រស្ថិរភាពអាចកែលម្អស្ថរភាពសម្រាប់ម៉ូដែល EBM និង XGBoost ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "量化通用保险定价中透明模型的结构稳定性",
+   "summary": "研究人员引入了函数透明度的概念，并提出了一种名为Mean Squared Shape function distance的新指标，用于量化通用保险定价模型中的结构稳定性。该研究使用三个公共汽车保险数据集对透明模型进行了基准测试。研究发现，广义线性模型具有稳定性，可解释提升机在稳定性和性能之间找到了平衡，且稳定策略可以在不影响性能的情况下显着提高稳定性。",
+   "impact": "这项研究可以帮助开发人员和精算师为通用保险定价选择和稳定预测模型。应用这些指标和稳定策略可能会提高模型在更新过程中的可靠性。",
+   "keyPoints": [
+    "引入函数透明度来表征具有特定一元和二元函数的模型。",
+    "提出Mean Squared Shape function distance指标来衡量结构稳定性。",
+    "使用三个公共汽车保险数据集对模型进行了基准测试。",
+    "表明稳定策略可以显着提高EBM和XGBoost模型的稳定性。"
+   ]
+  },
+  "ko": {
+   "title": "일반 보험 가격 지정을 위한 투명 모델의 구조적 안정성 정량화",
+   "summary": "연구자들은 일반 보험 가격 지정 모델의 구조적 안정성을 정량화하기 위해 함수적 투명성 개념과 Mean Squared Shape function distance라는 새로운 측정 지표를 도입했습니다. 이 연구는 세 가지 공개 자동차 보험 데이터셋을 사용하여 투명 모델을 벤치마킹했습니다. 연구 결과 일반화 선형 모델은 안정적이며, 설명 가능한 부스팅 머신은 안정성과 성능 사이의 타협점을 제공하고, 안정화 전략은 성능에 큰 영향 없이 안정성을 향상시킬 수 있음을 확인했습니다.",
+   "impact": "이 연구는 개발자와 보험계리사가 일반 보험 가격 지정을 위한 예측 모델을 선택하고 안정화하는 데 도움을 줄 수 있습니다. 이러한 측정 지표와 안정화 전략을 구현하면 업데이트 전반에서 모델 신뢰성이 향상될 수 있습니다.",
+   "keyPoints": [
+    "특정 단변량 및 이변량 함수로 표현되는 모델을 특징짓기 위해 함수적 투명성을 도입함.",
+    "구조적 안정성을 측정하기 위한 Mean Squared Shape function distance 지표를 제안함.",
+    "세 가지 공개 자동차 보험 데이터셋을 사용하여 모델을 평가함.",
+    "안정화 전략이 EBM 및 XGBoost 모델의 안정성을 크게 향상시킬 수 있음을 보여줌."
+   ]
+  }
+ }
+}
