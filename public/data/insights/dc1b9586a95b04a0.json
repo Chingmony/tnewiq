@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "dc1b9586a95b04a0",
+ "contentHash": "6f04a74b7192253f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T06:37:03.050Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Security Hub CSPM now supports centralized configuration with AWS Organizations declarative policies",
+   "summary": "AWS Security Hub CSPM now supports AWS Organizations declarative policies for centralized configuration management. Users can enable Security Hub CSPM and define security standards and controls across all accounts and Regions within an organization. This feature helps prevent configuration drift by keeping account settings aligned with attached policies and automatically applying baselines to new accounts.",
+   "impact": "Security teams and cloud administrators could use declarative policies to more flexibly manage Security Hub CSPM configurations and Region-specific settings across their organizations. Existing users may eventually migrate their central configuration policies to declarative policies using the provided migration process in the Security Hub CSPM console.",
+   "keyPoints": [
+    "AWS Security Hub CSPM now supports AWS Organizations declarative policies.",
+    "Policies can apply broadly or target specific account and Region combinations.",
+    "Declarative policies help prevent configuration drift and automatically configure new accounts.",
+    "A migration process is available in the Security Hub CSPM console to convert existing central configuration policies."
+   ]
+  },
+  "km": {
+   "title": "AWS Security Hub CSPM ឥឡូវនេះគាំទ្រការកំណត់រចនាសម្ព័ន្ធកណ្តាលជាមួយគោលការណ៍ប្រកាសរបស់ AWS Organizations",
+   "summary": "AWS Security Hub CSPM ឥឡូវនេះគាំទ្រគោលការណ៍ប្រកាសរបស់ AWS Organizations សម្រាប់ការគ្រប់គ្រងការកំណត់រចនាសម្ព័ន្ធកណ្តាល។ អ្នកប្រើប្រាស់អាចបើកដំណើរការ Security Hub CSPM និងកំណត់ស្តង់ដារសុវត្ថិភាពនៅទូទាំងគណនី និងតំបន់ទាំងអស់នៅក្នុងអង្គការមួយ។ លក្ខណៈពិសេសនេះជួយការពារការរសាត់នៃការកំណត់រចនាសម្ព័ន្ធ និងអនុវត្តការកំណត់មូលដ្ឋានដោយស្វ័យប្រវត្តិដល់គណនីថ្មី។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកគ្រប់គ្រងពពកអាចប្រើប្រាស់គោលការណ៍ប្រកាសដើម្បីគ្រប់គ្រងការកំណត់រចនាសម្ព័ន្ធរបស់ Security Hub CSPM ប្រកបដោយភាពបត់បែន។ អ្នកប្រើប្រាស់ដែលមានស្រាប់អាចធ្វើ移行គោលការណ៍កំណត់រចនាសម្ព័ន្ធកណ្តាលដែលមានស្រាប់ទៅជាគោលការណ៍ប្រកាសតាមរយៈកុងសូល Security Hub CSPM។",
+   "keyPoints": [
+    "AWS Security Hub CSPM ឥឡូវនេះគាំទ្រគោលការណ៍ប្រកាសរបស់ AWS Organizations។",
+    "គោលការណ៍អាចអនុវត្តយ៉ាងទូលំទូលាយ ឬកំណត់គោលដៅលើការរួមបញ្ចូលគ្នានៃគណនី និងតំបន់ជាក់លាក់។",
+    "គោលការណ៍ប្រកាសជួយការពារការរសាត់នៃការកំណត់រចនាសម្ព័ន្ធ។",
+    "ដំណើរការ移行មាននៅលើកុងសូល Security Hub CSPM ដើម្បីបំប្លែងគោលការណ៍ដែលមានស្រាប់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Security Hub CSPM 现已支持通过 AWS Organizations 声明性策略进行集中配置",
+   "summary": "AWS Security Hub CSPM 现已支持使用 AWS Organizations 声明性策略进行集中配置管理。用户可以在组织内的所有账户和区域中启用 Security Hub CSPM 并定义安全标准与控制措施。此功能通过保持账户配置与附加策略一致来防止配置偏移，并可自动为新账户应用基准配置。",
+   "impact": "安全团队和技术人员可以利用声明性策略在整个组织中更灵活地管理 Security Hub CSPM 配置和特定区域的设置。现有用户可以使用 Security Hub CSPM 控制台中的迁移流程，将现有的集中配置策略转换为声明性策略。",
+   "keyPoints": [
+    "AWS Security Hub CSPM 现已支持 AWS Organizations 声明性策略。",
+    "策略可以广泛应用于所有账户和区域，也可以针对特定的账户和区域组合。",
+    "声明性策略有助于防止配置偏移并自动配置新账户。",
+    "Security Hub CSPM 控制台中提供迁移流程以转换现有的集中配置策略。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Security Hub CSPM, AWS Organizations 선언적 정책을 통한 중앙 집중식 구성 지원",
+   "summary": "AWS Security Hub CSPM이 이제 중앙 집중식 구성 관리를 위해 AWS Organizations 선언적 정책을 지원합니다. 사용자는 조직 내 모든 계정 및 리전에서 Security Hub CSPM을 활성화하고 보안 표준과 제어를 정의할 수 있습니다. 이 기능은 계정 구성을 연결된 정책과 일치시켜 구성 유예를 방지하고 새 계정에 기본 구성을 자동으로 적용하는 데 도움을 줍니다.",
+   "impact": "보안 팀과 관리자는 선언적 정책을 사용하여 조직 전체에서 Security Hub CSPM 구성과 리전별 설정을 보다 유연하게 관리할 수 있습니다. 기존 사용자는 Security Hub CSPM 콘솔의 마이그레이션 프로세스를 통해 기존 중앙 구성 정책을 선언적 정책으로 변환할 수 있습니다.",
+   "keyPoints": [
+    "AWS Security Hub CSPM이 AWS Organizations 선언적 정책을 지원합니다.",
+    "정책은 모든 계정 및 리전에 광범위하게 적용하거나 특정 계정 및 리전 조합을 대상으로 지정할 수 있습니다.",
+    "선언적 정책은 구성 유예를 방지하고 새 계정을 자동으로 구성하는 데 도움을 줍니다.",
+    "Security Hub CSPM 콘솔에서 기존 중앙 구성 정책을 변환할 수 있는 마이그레이션 프로세스가 제공됩니다."
+   ]
+  }
+ }
+}

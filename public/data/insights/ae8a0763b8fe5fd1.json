@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ae8a0763b8fe5fd1",
+ "contentHash": "f5a928135cdc9979",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T06:36:40.361Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Bedrock AgentCore Identity now supports OAuth 2.0 discovery URLs",
+   "summary": "Amazon Bedrock AgentCore Identity has added support for OAuth 2.0 authorization server discovery URLs for inbound JWT authorization and outbound OAuth credential providers. This update allows developers to configure AgentCore with authorization servers that do not utilize OpenID Connect. Previously, the service only accepted OIDC discovery URLs because non-OIDC OAuth 2.0 servers publish their metadata at different paths.",
+   "impact": "Developers can now configure AgentCore with a wider range of authorization servers that implement OAuth 2.0 without OIDC. This could simplify integration workflows for applications using non-OIDC compliant providers across all AWS Regions where Amazon Bedrock AgentCore is available.",
+   "keyPoints": [
+    "AgentCore Identity now supports OAuth 2.0 authorization server discovery URLs.",
+    "Support applies to both inbound JWT authorization and outbound OAuth credential providers.",
+    "Developers can configure AgentCore with authorization servers that do not use OIDC.",
+    "The feature is available at no additional cost in all AWS Regions where Amazon Bedrock AgentCore is offered."
+   ]
+  },
+  "km": {
+   "title": "Amazon Bedrock AgentCore Identity ឥឡូវនេះគាំទ្រ URL រកឃើញ OAuth 2.0",
+   "summary": "Amazon Bedrock AgentCore Identity បានបន្ថែមការគាំទ្រសម្រាប់ URL រកឃើញម៉ាស៊ីនមេការអនុញ្ញាត OAuth 2.0 ទាំងសម្រាប់ការអនុញ្ញាត JWT ចូល និងអ្នកផ្តល់ព័ត៌មានសម្ងាត់ OAuth ចេញ។ ការអាប់ដេតនេះអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍កំណត់រចនាសម្ព័ន្ធ AgentCore ជាមួយម៉ាស៊ីនមេការអនុញ្ញាតដែលមិនប្រើ OpenID Connect។ មុននេះ សេវាកម្មនេះទទួលយកតែ URL រកឃើញ OIDC ប៉ុណ្ណោះ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍អាចកំណត់រចនាសម្ព័ន្ធ AgentCore ជាមួយម៉ាស៊ីនមេការអនុញ្ញាត OAuth 2.0 ដែលមិនមែនជា OIDC ។ នេះអាចជួយសម្រួលដល់ការរួមបញ្ចូលនៅក្នុងតំបន់ AWS ទាំងអស់ដែលមាន Amazon Bedrock AgentCore ។",
+   "keyPoints": [
+    "AgentCore Identity ឥឡូវនេះគាំទ្រ URL រកឃើញម៉ាស៊ីនមេការអនុញ្ញាត OAuth 2.0។",
+    "ការគាំទ្ររួមមានការអនុញ្ញាត JWT ចូល និងអ្នកផ្តល់ព័ត៌មានសម្ងាត់ OAuth ចេញ។",
+    "អនុញ្ញាតឱ្យកំណត់រចនាសម្ព័ន្ធម៉ាស៊ីនមេដែលមិនប្រើ OIDC ។",
+    "មុខងារនេះមាននៅគ្រប់តំបន់ AWS ដោយគ្មានការគិតថ្លៃបន្ថែម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Bedrock AgentCore Identity 现已支持 OAuth 2.0 发现 URL",
+   "summary": "Amazon Bedrock AgentCore Identity 现已支持将 OAuth 2.0 授权服务器发现 URL 用于入站 JWT 授权和出站 OAuth 凭证提供程序。此更新使开发人员能够为 AgentCore 配置不使用 OpenID Connect 的 OAuth 2.0 授权服务器。此前，AgentCore Identity 仅接受 OIDC 发现 URL。",
+   "impact": "开发人员现在可以使用不采用 OIDC 的 OAuth 2.0 授权服务器来配置 AgentCore。这可能会简化在所有支持 Amazon Bedrock AgentCore 的 AWS 区域中的集成工作，且无需额外费用。",
+   "keyPoints": [
+    "AgentCore Identity 现在支持 OAuth 2.0 授权服务器发现 URL。",
+    "支持入站 JWT 授权和出站 OAuth 凭证提供程序。",
+    "允许配置不使用 OIDC 的 OAuth 2.0 授权服务器。",
+    "该功能在所有提供 Amazon Bedrock AgentCore 的 AWS 区域中免费提供。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock AgentCore Identity, 이제 OAuth 2.0 검색 URL 지원",
+   "summary": "Amazon Bedrock AgentCore Identity가 인바운드 JWT 권한 부여 및 아웃바운드 OAuth 자격 증명 공급자를 위한 OAuth 2.0 권한 부여 서버 검색 URL에 대한 지원을 추가했습니다. 이번 업데이트를 통해 개발자는 OpenID Connect를 사용하지 않는 OAuth 2.0 권한 부여 서버로 AgentCore를 구성할 수 있습니다. 이전에는 AgentCore Identity가 OIDC 검색 URL만 허용했습니다.",
+   "impact": "개발자는 OIDC를 사용하지 않는 OAuth 2.0 권한 부여 서버를 AgentCore에 구성할 수 있게 되었습니다. 이는 Amazon Bedrock AgentCore가 제공되는 모든 AWS 리전에서 통합 워크플로를 단순화하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "AgentCore Identity가 OAuth 2.0 권한 부여 서버 검색 URL을 지원합니다.",
+    "인바운드 JWT 권한 부여 및 아웃바운드 OAuth 자격 증명 공급자에 모두 적용됩니다.",
+    "OIDC를 사용하지 않는 OAuth 2.0 서버로 AgentCore를 구성할 수 있습니다.",
+    "Amazon Bedrock AgentCore가 제공되는 모든 AWS 리전에서 추가 비용 없이 사용할 수 있습니다."
+   ]
+  }
+ }
+}

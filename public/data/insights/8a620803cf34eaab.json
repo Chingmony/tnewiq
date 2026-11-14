@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8a620803cf34eaab",
+ "contentHash": "cc28059b88873919",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T06:36:00.627Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Marketplace now supports VAT credit notes for deemed supply refunds",
+   "summary": "AWS Marketplace sellers can now submit Value Added Tax (VAT) credit notes for refunded deemed supply transactions using a self-service experience in AWS Partner Central. This feature replaces a previous manual process where sellers had to contact AWS when a buyer received a refund. Sellers can now view eligible refund line items, upload invoices, and track submission statuses.",
+   "impact": "This feature could simplify post-refund VAT documentation for sellers by streamlining how credit notes are submitted and tracked. Developers and operations teams may benefit from more efficient self-service reporting and consolidated financial adjustments.",
+   "keyPoints": [
+    "Sellers can submit VAT credit notes for refunded deemed supply transactions via AWS Partner Central.",
+    "Features include uploading invoices, tracking statuses, and viewing eligible refund line items.",
+    "Sellers can consolidate multiple eligible refunds into a single credit note where applicable.",
+    "Available in supported EU member states, Norway, and the United Kingdom."
+   ]
+  },
+  "km": {
+   "title": "AWS Marketplace ឥឡូវនេះគាំទ្រកំណត់សម្គាល់ឥណទាន VAT សម្រាប់ការសងប្រាក់វិញនៃការផ្គត់ផ្គង់ដែលបានចាត់ទុក",
+   "summary": "អ្នកលក់នៅលើ AWS Marketplace ឥឡូវនេះអាចដាក់ស្នើកំណត់សម្គាល់ឥណទានពន្ធលើតម្លៃបន្ថែមសម្រាប់ការប្រតិបត្តិការផ្គត់ផ្គង់ដែលបានសងប្រាក់វិញ តាមរយៈបទពិសោធន៍សេវាកម្មខ្លួនឯងនៅក្នុង AWS Partner Central។ មុខងារនេះសម្រួលដល់ឯកសារ VAT បន្ទាប់ពីការសងប្រាក់វិញសម្រាប់អ្នកលក់។ អ្នកលក់អាចមើលធាតុបន្ទាត់សងប្រាក់វិញដែលមានសិទ្ធិ និងតាមដានស្ថានភាពនៃការដាក់ស្នើ។",
+   "impact": "ការផ្លាស់ប្តូរនេះអាចជួយឱ្យអ្នកលក់ងាយស្រួលគ្រប់គ្រងឯកសារ VAT និងការកែសម្រួលហិរញ្ញវត្ថុ។ វាអាចកាត់បន្ថយពេលវេលាដែលធ្លាប់តែត្រូវទាក់ទង AWS ដោយផ្ទាល់។",
+   "keyPoints": [
+    "អ្នកលក់អាចដាក់ស្នើកំណត់សម្គាល់ឥណទាន VAT តាមរយៈ AWS Partner Central។",
+    "អាចមើលធាតុបន្ទាត់សងប្រាក់វិញ និងផ្ទុកឯកសារវិក្កយបត្រឡើងវិញបាន។",
+    "អាចដាក់បញ្ចូលការសងប្រាក់វិញជាច្រើនចូលទៅក្នុងកំណត់សម្គាល់ឥណទានតែមួយ។",
+    "មាននៅក្នុងរដ្ឋសមាជិក EU ប្រទេសន័រវេស និងចក្រភពអង់គ្លេស។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Marketplace 现在支持针对视为供应退款的增值税贷方通知单",
+   "summary": "AWS Marketplace 卖家现在可以通过 AWS Partner Central 中的自助体验，为退款的视为供应交易提交增值税（VAT）贷方通知单。以前，当买家随后获得退款时，卖家必须联系 AWS 才能提交相应的贷方通知单。此项发布简化了卖家的退款后 VAT 文档处理流程。",
+   "impact": "此功能可以简化卖家的退款后增值税文档管理，使他们能够更高效地处理财务调整并跟踪提交状态。这可能会减少卖家在退款处理上的行政工作量。",
+   "keyPoints": [
+    "卖家可以通过 AWS Partner Central 提交增值税贷方通知单。",
+    "支持查看符合条件的退款明细行并上传相应的发票格式。",
+    "卖家在适用情况下可将多笔退款合并为单个贷方通知单。",
+    "适用于受支持的欧盟成员国、挪威和英国。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Marketplace, 간주 공급 환급에 대한 부가가치세 대변 전표 지원 개시",
+   "summary": "AWS Marketplace 판매자는 이제 AWS Partner Central의 셀프 서비스 환경을 통해 환급된 간주 공급 거래에 대한 부가가치세(VAT) 대변 전표를 제출할 수 있습니다. 이 기능은 구매자가 환급을 받을 때 판매자가 직접 AWS에 연락해야 했던 기존의 번거로움을 줄여줍니다. 판매자는 적격 환급 항목을 확인하고 인보이스를 업로드하며 제출 상태를 추적할 수 있습니다.",
+   "impact": "이 기능은 판매자의 환급 후 VAT 문서화 작업을 간소화하여 재무 조정 과정을 더 효율적으로 만들 수 있습니다. 셀프 서비스를 통해 관련 절차를 간편하게 처리할 수 있게 됩니다.",
+   "keyPoints": [
+    "AWS Partner Central을 통해 VAT 대변 전표 제출 가능.",
+    "적격 환급 항목 조회 및 인보이스 업로드 기능 제공.",
+    "여러 환급 건을 단일 대변 전표로 통합 가능.",
+    "지원되는 EU 회원국, 노르웨이, 영국에서 이용 가능."
+   ]
+  }
+ }
+}

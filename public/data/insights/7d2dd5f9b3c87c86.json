@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7d2dd5f9b3c87c86",
+ "contentHash": "dd422b2c66095769",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T06:35:50.333Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Secrets Manager now supports cross-account replication",
+   "summary": "AWS Secrets Manager has introduced cross-account replication, allowing users to maintain a synchronized copy of a primary secret in a secondary AWS account. This extends the existing multi-Region replication capability to cross-account boundaries for backup, disaster recovery, and access. Platform or security teams can centrally manage and rotate secrets while consuming accounts receive local, automatically updated copies.",
+   "impact": "This feature could help developers and security teams maintain isolated backups of critical secrets in dedicated failover accounts to protect against ransomware or a compromised primary account. It may also simplify architecture by eliminating the need for shared KMS keys or complex cross-account secret policies.",
+   "keyPoints": [
+    "Supports maintaining synchronized copies of primary secrets in secondary AWS accounts.",
+    "Primary secrets are automatically updated upon changes and rotations.",
+    "Replica secrets are independent resources encrypted with a customer managed KMS key owned by the replica account.",
+    "Replicas can be promoted to standalone secrets if needed."
+   ]
+  },
+  "km": {
+   "title": "AWS Secrets Manager ឥឡូវនេះគាំទ្រការចម្លងទិន្នន័យឆ្លងគណនី",
+   "summary": "AWS Secrets Manager ឥឡូវនេះគាំទ្រការចម្លងទិន្នន័យឆ្លងគណនី ដែលអនុញ្ញាតឱ្យរក្សាទុកច្បាប់ចម្លងដែលមានភាពដូចគ្នានៃកូដសម្ងាត់ចម្បងនៅក្នុងគណនី AWS ទីពីរ។ វាពង្រីកសមត្ថភាពចម្លងពហុ-Region ដែលមានស្រាប់ឱ្យឆ្លងកាត់ព្រំដែនគណនីសម្រាប់ការสำรองទិន្នន័យ និងការសង្គ្រោះបន្ទាន់។ ក្រុមការងារផ្នែកបច្ចេកវិទ្យា ឬសុវត្ថិភាពអាចគ្រប់គ្រង និងប្តូរកូដសម្ងាត់ពីកណ្តាល ខណៈដែលគណនីប្រើប្រាស់ទទួលបានច្បាប់ចម្លងក្នុងស្រុកដែលទាន់សម័យជានិច្ច។",
+   "impact": "មុខងារនេះអាចជួយដល់ក្រុមអ្នកអភិវឌ្ឍន៍ និងក្រុមសុវត្ថិភាពក្នុងការរក្សាច្បាប់ចម្លងដាច់ដោយឡែកនៃកូដសម្ងាត់សំខាន់ៗនៅក្នុងគណនីបម្រុងទុក។ វាអាចជួយសម្រួលដល់ការគ្រប់គ្រងដោយមិនចាំបាច់ប្រើប្រាស់គ្រាប់ចុច KMS រួមគ្នា។",
+   "keyPoints": [
+    "គាំទ្រការរក្សាច្បាប់ចម្លងដែលមានភាពដូចគ្នានៃកូដសម្ងាត់ចម្បងនៅក្នុងគណនី AWS ទីពីរ។",
+    "កូដសម្ងាត់ដែលបានចម្លងត្រូវបានធ្វើបច្ចុប្បន្នភាពដោយស្វ័យប្រវត្តិ នៅពេលដែលកូដសម្ងាត់ចម្បងមានការផ្លាស់ប្តូរ។",
+    "ច្បាប់ចម្លងគឺជាធនធានឯករាជ្យដែលត្រូវបានអ៊ិនគ្រីបជាមួយនឹងគ្រាប់ចុច KMS ដែលគ្រប់គ្រងដោយអតិថិជន។",
+    "ច្បាប់ចម្លងអាចត្រូវបានដំឡើងកម្រិតទៅជាកូដសម្ងាត់ឯករាជ្យប្រសិនបើចាំបាច់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Secrets Manager 现已支持跨账号复制",
+   "summary": "AWS Secrets Manager 现已支持跨账号复制功能，允许在第二个 AWS AWS 中维护主密钥的同步副本，用于跨账号访问、备份和灾难恢复。跨账号复制将现有的多区域复制能力扩展到了账号边界之外。平台或安全团队可以集中拥有和轮换密钥，而每个消费账号都可以获得本地且始终保持最新的副本，无需共享 KMS 密钥或复杂的跨账号密钥策略。",
+   "impact": "此功能可能会帮助开发人员和安全团队在专门的恢复或故障转移账号中保留关键密钥的实时副本，从而使其免受勒索软件或受损主账号的影响。它还可能简化跨账号的密钥管理和访问流程。",
+   "keyPoints": [
+    "支持在辅助 AWS 账号中维护主密钥的同步副本。",
+    "当主密钥的值发生变化或轮换时，Secrets Manager 会自动更新副本。",
+    "副本密钥是一个独立的资源，使用副本账号拥有的客户管理 KMS 密钥进行加密。",
+    "在需要时，可以将副本提升为独立密钥。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Secrets Manager, 크로스 계정 복제 지원",
+   "summary": "AWS Secrets Manager가 크로스 계정 복제를 지원하여 보조 AWS 계정에서 기본 비밀의 동기화된 복사본을 유지할 수 있게 되었습니다. 이를 통해 크로스 계정 액세스, 백업, 재해 복구를 위해 기존의 다중 리전 복제 기능이 계정 경계를 넘어 확장됩니다. 플랫폼 또는 보안 팀은 중앙에서 비밀을 소유하고 교체할 수 있으며, 각 소비 계정은 공유 KMS 키나 크로스 계정 비밀 정책 없이도 항상 최신 상태인 로컬 복사본을 받게 됩니다.",
+   "impact": "이 기능은 개발자와 보안 팀이 랜섬웨어이나 손상된 기본 계정으로부터 격리된 전용 복구 또는 페일오버 계정에서 중요한 비밀의 라이브 복사본을 유지하는 데 도움이 될 수 있습니다. 필요할 경우 복제본을 독립형 비밀로 승격시키는 것도 가능합니다.",
+   "keyPoints": [
+    "보조 AWS 계정에서 기본 비밀의 동기화된 복사본 유지 지원.",
+    "기본 비밀의 값이나 교체가 변경될 때마다 Secrets Manager가 자동으로 복제본을 업데이트.",
+    "복제본 비밀은 복제 계정이 소유한 고객 관리 KMS 키로 암호화된 독립적인 리소스.",
+    "필요시 복제본을 독립형 비밀로 승격 가능."
+   ]
+  }
+ }
+}

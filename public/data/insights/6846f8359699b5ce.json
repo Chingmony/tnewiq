@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6846f8359699b5ce",
+ "contentHash": "a57253027fe648fd",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T06:35:39.567Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon SageMaker Unified Studio now supports layout customization for designations",
+   "summary": "Amazon SageMaker Unified Studio introduced layout customization, allowing domain administrators to control visible tools and left navigation items based on user designations. This feature applies configurations across every project in a domain without requiring per-project setup. Administrators can define specific layouts for roles like SQL analysts or ML engineers to tailor their interface.",
+   "impact": "This capability could improve user experience and reduce governance issues by ensuring team members only see tools relevant to their roles. Developers and administrators may find it easier to manage interface visibility across different teams on a single platform.",
+   "keyPoints": [
+    "Layout customization lets administrators control tools and navigation items by designation.",
+    "Configurations apply across every project in the domain automatically.",
+    "Visible tools for members with multiple designations are the union of all their layouts.",
+    "The feature is available in all AWS Regions where Amazon SageMaker Unified Studio is supported."
+   ]
+  },
+  "km": {
+   "title": "Amazon SageMaker Unified Studio ឥឡូវនេះគាំទ្រការប្ដូរレイ아웃តាមបំណងសម្រាប់តួនាទី",
+   "summary": "Amazon SageMaker Unified Studio បានដាក់ឱ្យដំណើរការមុខងារប្ដូរ레이아웃តាមបំណង ដែលអនុញ្ញាតឱ្យអ្នកគ្រប់គ្រងដែនអាចគ្រប់គ្រងឧបករណ៍ និងធាតុរុករកខាងឆ្វេងដែលមើលឃើញដោយផ្អែកលើតួនាទី។ លក្ខណៈពិសេសនេះអនុវត្តការកំណត់រចនាសម្ព័ន្ធក្នុងគ្រប់ប្របជេកទាំងអស់ក្នុងដែនដោយមិនចាំបាច់កំណត់រចនាសម្ព័ន្ធម្ដងមួយប្របជេកទេ។ អ្នកគ្រប់គ្រងអាចកំណត់레이아웃ជាក់លាក់សម្រាប់តួនាទីផ្សេងៗគ្នា ដើម្បីសម្របសម្រួលចំណុចប្រទាក់ឱ្យត្រូវនឹងតួនាទីរបស់ពួកគេ។",
+   "impact": "សមត្ថភាពនេះអាចជួយបង្កើនបទពិសោធន៍អ្នកប្រើប្រាស់ និងកាត់បន្ថយបញ្ហាអភិបាលកិច្ចដោយធានាថាបុគ្គលិកមើលឃើញតែឧបករណ៍ដែលទាក់ទងនឹងតួនាទីរបស់ពួកគេប៉ុណ្ណោះ។ ក្រុមការងារបច្ចេកវិទ្យាអាចគ្រប់គ្រងការមើលឃើញចំណុចប្រទាក់បានកាន់តែងាយស្រួលនៅលើវេទិកាតែមួយ។",
+   "keyPoints": [
+    "ការប្ដូរ레이아웃តាមបំណងអនុញ្ញាតឱ្យអ្នកគ្រប់គ្រងត្រួតពិនិត្យឧបករណ៍ និងធាតុរុករកតាមតួនាទី។",
+    "ការកំណត់រចនាសម្ព័ន្ធត្រូវបានអនុវត្តដោយស្វ័យប្រវត្តិពាសពេញគ្រប់ប្របជេកទាំងអស់។",
+    "មុខងារនេះមាននៅក្នុងតំបន់ AWS ទាំងអស់ដែលគាំទ្រ Amazon SageMaker Unified Studio។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon SageMaker Unified Studio 现已支持按身份进行布局自定义",
+   "summary": "Amazon SageMaker Unified Studio 推出了布局自定义功能，使域管理员能够根据用户的身份控制项目成员可见的工具和左侧导航项。该功能将配置应用到域中的每个项目，而无需进行逐个项目的配置。管理员可以为不同的身份定义特定布局，以定制化界面显示。",
+   "impact": "此功能可以通过确保团队成员仅看到与其角色相关的工具，从而改善用户体验并减少潜在的治理问题。管理员和开发团队可能会发现跨不同团队管理平台界面变得更加高效。",
+   "keyPoints": [
+    "布局自定义允许管理员按身份控制工具和导航项。",
+    "配置会自动应用到域中的每个项目。",
+    "拥有多个身份的成员可见工具为其所有身份布局的并集。",
+    "该功能在支持 Amazon SageMaker Unified Studio 的所有 AWS 区域可用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon SageMaker Unified Studio, 이제 지정에 따른 레이아웃 사용자 지정 지원",
+   "summary": "Amazon SageMaker Unified Studio는 도메인 관리자가 사용자 지정에 따라 프로젝트 구성원이 볼 수 있는 도구와 왼쪽 탐색 항목을 제어할 수 있는 레이아웃 사용자 지정 기능을 도입했습니다. 이 기능은 프로젝트별 설정 없이 도메인의 모든 프로젝트에 걸쳐 레이아웃 구성을 적용합니다. 관리자는 각 지정 정의 내에서 레이아웃을 구성하여 역할별로 인터페이스를 맞춤화할 수 있습니다.",
+   "impact": "이 기능은 팀원이 자신의 역할과 관련된 도구만 볼 수 있도록 보장하여 사용자 경험을 개선하고 잠재적인 거버넌스 문제를 줄이는 데 도움이 될 수 있습니다. 개발자와 보안 팀은 단일 플랫폼에서 여러 팀의 인터페이스 가시성을 더 쉽게 관리할 수 있습니다.",
+   "keyPoints": [
+    "레이아웃 사용자 지정 기능으로 관리자는 지정에 따라 도구와 탐색 항목을 제어할 수 있습니다.",
+    "구성은 프로젝트별 설정 없이 도메인의 모든 프로젝트에 적용됩니다.",
+    "여러 지정을 가진 구성원의 경우 표시되는 도구는 모든 지정 레이아웃의 합집합입니다.",
+    "이 기능은 Amazon SageMaker Unified Studio가 지원되는 모든 AWS 리전에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

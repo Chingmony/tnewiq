@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e1058067669e2b5f",
+ "contentHash": "e50831d7f752fb16",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T06:34:03.738Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "datasette-leaflet 0.3",
+   "summary": "Datasette version 0.3 of datasette-leaflet has been released to address OpenStreetMap policy compliance issues. OpenStreetMap requires hosted tile servers to receive a referrer header, but Datasette table pages previously used the no-referrer HTTP header. The updated plugin now sets the referrer policy on tile requests to strict-origin-when-cross-origin.",
+   "impact": "This update may help developers and technology users ensure that plugins loading maps from OpenStreetMap comply with server policies by passing the host without the full page path.",
+   "keyPoints": [
+    "OpenStreetMap requires tile server requests to send a referrer header.",
+    "Datasette table pages previously used the Referrer-Policy: no-referrer HTTP header.",
+    "datasette-leaflet 0.3 sets the referrer policy on tile requests to strict-origin-when-cross-origin."
+   ]
+  },
+  "km": {
+   "title": "datasette-leaflet 0.3",
+   "summary": "កំណែ datasette-leaflet 0.3 ត្រូវបានចេញផ្សាយដើម្បីដោះស្រាយបញ្ហានៃការអនុលោមតាមគោលការណ៍របស់ OpenStreetMap ។ OpenStreetMap ទាមទារឱ្យម៉ាស៊ីនបម្រើ tile ទទួលបានក្បាលទំព័របញ្ជូនបន្ត ប៉ុន្តែទំព័រតារាង Datasette ពីមុនបានប្រើប្រាស់ក្បាលទំព័រ HTTP no-referrer ។ កម្មវិធីជំនួយដែលបានអាប់ដេតឥឡូវនេះកំណត់គោលការណ៍បញ្ជូនបន្តនៅលើសំណើ tile ទៅជា strict-origin-when-cross-origin ។",
+   "impact": "ការអាប់ដេតនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាធានាថាកម្មវិធីជំនួយដែលផ្ទុកផែនទីពី OpenStreetMapគោរពតាមគោលការណ៍ម៉ាស៊ីនបម្រើដោយផ្ដល់ម៉ាស៊ីនមេជំនួសផ្លូវទំព័រពេញលេញ។",
+   "keyPoints": [
+    "OpenStreetMap ទាមទារសំណើម៉ាស៊ីនបម្រើ tile ដើម្បីផ្ញើក្បាលទំព័របញ្ជូនបន្ត។",
+    "ទំព័រតារាង Datasette ពីមុនបានប្រើប្រាស់ក្បាលទំព័រ HTTP no-referrer ។",
+    "datasette-leaflet 0.3 កំណត់គោលការណ៍បញ្ជូនបន្តនៅលើសំណើ tile ទៅជា strict-origin-when-cross-origin ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "datasette-leaflet 0.3",
+   "summary": "datasette-leaflet 0.3 版本已发布，以解决 OpenStreetMap 策略合规性问题。OpenStreetMap 要求对其托管的瓦片服务器的请求发送 referrer 标头，但 Datasette 表格页面之前使用的是 no-referrer HTTP 标头。更新后的插件现在将瓦片请求的 referrer 策略设置为 strict-origin-when-cross-origin。",
+   "impact": "此更新可能有助于开发人员和技术用户确保从 OpenStreetMap 加载地图的插件通过传递主机而不是完整的页面路径来遵守服务器策略。",
+   "keyPoints": [
+    "OpenStreetMap 要求瓦片服务器请求发送 referrer 标头。",
+    "Datasette 表格页面之前使用 no-referrer HTTP 标头。",
+    "datasette-leaflet 0.3 将瓦片请求的 referrer 策略设置为 strict-origin-when-cross-origin。"
+   ]
+  },
+  "ko": {
+   "title": "datasette-leaflet 0.3",
+   "summary": "OpenStreetMap 정책 준수 문제를 해결하기 위해 datasette-leaflet 0.3 버전이 출시되었습니다. OpenStreetMap은 호스팅된 타일 서버에 대한 요청이 리퍼러 헤더를 전송하도록 요구하지만, Datasette 테이블 페이지는 이전에 no-referrer HTTP 헤더를 사용했습니다. 업데이트된 플러그인은 이제 타일 요청의 리퍼러 정책을 strict-origin-when-cross-origin으로 설정합니다.",
+   "impact": "이번 업데이트를 통해 개발자와 기술 사용자는 OpenStreetMap에서 지도를 로드하는 플러그인이 전체 페이지 경로 대신 호스트를 전달하여 서버 정책을 준수하도록 할 수 있습니다.",
+   "keyPoints": [
+    "OpenStreetMap은 타일 서버 요청 시 리퍼러 헤더 전송을 요구합니다.",
+    "Datasette 테이블 페이지는 이전에 no-referrer HTTP 헤더를 사용했습니다.",
+    "datasette-leaflet 0.3은 타일 요청의 리퍼러 정책을 strict-origin-when-cross-origin으로 설정합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "eb8737794599fe81",
+ "contentHash": "8a078d3a4b519e75",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T06:37:14.763Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "OpenAI confirms Astra's enhanced 'No-CoT' capability, exposing limits of AI reasoning monitoring",
+   "summary": "OpenAI published research findings showing that the ability of AI models to solve problems without externalizing their reasoning process, known as No-CoT, improves during training. Focusing on notable reasoning monitoring performance degradation in GPT-6 Astra, the company analyzed how model architecture and training methods affect reasoning monitoring capabilities, warning of limitations in existing safety monitoring technologies. On the 10th local time, OpenAI shared through its alignment research blog how pre-training, model structures, reinforcement learning, and AI-generated training data impact Chain of Thought.",
+   "impact": "This development could highlight significant challenges for security teams and developers attempting to monitor and control advanced AI behaviors. The observed limitations in AI reasoning oversight may necessitate new approaches to safety and alignment as models increasingly perform complex tasks without transparent intermediate steps.",
+   "keyPoints": [
+    "OpenAI revealed that AI models improve their No-CoT capability during the learning process.",
+    "Significant reasoning monitoring performance degradation was observed in GPT-6 Astra.",
+    "OpenAI warned of the limitations of existing safety monitoring technologies.",
+    "Pre-training, model architecture, reinforcement learning, and AI-generated data affect the Chain of Thought."
+   ]
+  },
+  "km": {
+   "title": "OpenAI បញ្ជាក់ពីការកែលម្អសមត្ថភាព No-CoT របស់ Astra ដោយបង្ហាញពីដែនកំណត់នៃការត្រួតពិនិត្យការសន្និដ្ឋានរបស់ AI",
+   "summary": "OpenAI បានបង្ហាញលទ្ធផលស្រាវជ្រាវដែលបង្ហាញថា សមត្ថភាពរបស់ម៉ូដែល AI ក្នុងការដោះស្រាយបញ្ហាដោយមិនបង្ហាញដំណើរការសន្និដ្ឋានរបស់ខ្លួនទៅកាន់ពិភពខាងក្រៅ ដែលហៅថា No-CoT ត្រូវបានកែលម្អក្នុងអំឡុងពេលដំណើរការរៀន។ ផ្តោតលើការធ្លាក់ចុះនៃការអនុវត្តការត្រួតពិនិត្យការសន្និដ្ឋានដ៏លេចធ្លោនៅក្នុង GPT-6 Astra ក្រុមហ៊ុនបានវិភាគពីរបៀបដែលស្ថាបត្យកម្មម៉ូដែល និងវិធីសាស្ត្ររៀនមានឥទ្ធិពលលើសមត្ថភាពពាក់ព័ន្ធនឹងការត្រួតពិនិត្យការសន្និដ្ឋាន និងបានព្រមានអំពីដែនកំណត់នៃបច្ចេកវិទ្យាត្រួតពិនិត្យសុវត្ថិភាពដែលមានស្រាប់។ នៅថ្ងៃទី ១០ ោងតាមម៉ោងក្នុងស្រុក OpenAI បានបង្ហាញតាមរយៈប្លក់ស្រាវជ្រាវការតម្រឹតរបស់ខ្លួនអំពីរបៀបដែលការបណ្តុះបណ្តាលជាមុន ស្ថាបត្យកម្មម៉ូដែល ការរៀនពង្រឹង និងទិន្នន័យបណ្តុះបណ្តាលដែលបង្កើតដោយ AI ប៉ះពាល់ដល់ Chain of Thought ។",
+   "impact": "ការវិវត្តនេះអាចបញ្ជាក់ពីបញ្ហាប្រឈមដ៏សំខាន់សម្រាប់ក្រុមសុវត្ថិភាព និងអ្នកអភិវឌ្ឍន៍ដែលព្យាយាមត្រួតពិនិត្យ និងគ្រប់គ្រងឥរិយាបថ AI កម្រិតខ្ពស់។ ដែនកំណត់ដែលបានសង្កេតឃើញក្នុងការត្រួតពិនិត្យការសន្និដ្ឋានរបស់ AI អាចទាមទារឱ្យមានវិធីសាស្ត្រថ្មីៗចំពោះសុវត្ថិភាព និងការតម្រឹត នៅពេលដែលម៉ូដែលអនុវត្តភារកិច្ចស្មុគស្មាញកាន់តែខ្លាំងឡើងដោយគ្មានជំហានកណ្តាលដែលមានតម្លាភាព។",
+   "keyPoints": [
+    "OpenAI បានបង្ហាញថា ម៉ូដែល AI កែលម្អសមត្ថភាព No-CoT របស់ពួកគេក្នុងអំឡុងពេលដំណើរការរៀន។",
+    "ការធ្លាក់ចុះនៃការអនុវត្តការត្រួតពិនិត្យការសន្និដ្ឋានដ៏លេចធ្លោត្រូវបានគេសង្កេតឃើញនៅក្នុង GPT-6 Astra។",
+    "OpenAI បានព្រមានអំពីដែនកំណត់នៃបច្ចេកវិទ្យាត្រួតពិនិត្យសុវត្ថិភាពដែលមានស្រាប់។",
+    "ការបណ្តុះបណ្តាលជាមុន ស្ថាបត្យកម្មម៉ូដែល ការរៀនពង្រឹង និងទិន្នន័យដែលបង្កើតដោយ AI ប៉ះពាល់ដល់ Chain of Thought ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "OpenAI确认Astra“无思维链”能力提升，暴露AI推理监视局限性",
+   "summary": "OpenAI公布了一项研究结果，显示AI模型在不向外部展示推理过程的情况下解决问题的“无思维链”（No-CoT）能力在学习过程中有所提升。针对“GPT-6 Astra”中显现的推理监视性能下降问题，该公司分析了模型结构和学习方式对推理监视相关能力的影响，并对现有安全监视技术的局限性提出了警告。当地时间10日，OpenAI通过其对齐研究博客介绍了预训练、模型结构、强化学习以及AI生成的训练数据如何影响思维链。",
+   "impact": "这一进展可能会给尝试监视和控制先进AI行为的安全团队和开发者带来重大挑战。随着模型越来越多地在没有透明中间步骤的情况下执行复杂任务，所观察到的AI推理监督局限性可能需要采取新的安全和对齐方法。",
+   "keyPoints": [
+    "OpenAI透露AI模型在学习过程中提升了No-CoT能力。",
+    "在GPT-6 Astra中观察到了显着的推理监视性能下降。",
+    "OpenAI对现有安全监视技术的局限性发出了警告。",
+    "预训练、模型结构、强化学习和AI生成的数据会影响思维链。"
+   ]
+  },
+  "ko": {
+   "title": "오픈AI, 아스트라 '노-CoT' 능력 향상 확인…AI 추론 감시 한계 드러나",
+   "summary": "오픈AI가 AI 모델이 추론 과정을 외부에 드러내지 않고도 문제를 해결하는 '노-CoT(No-CoT)' 능력이 학습 과정에서 향상된다는 연구 결과를 공개했다. 특히 'GPT-6 아스트라'에서 두드러진 추론 감시 성능 저하와 관련해 모델 구조와 학습 방식이 추론 감시 관련 능력에 미치는 영향을 분석하고, 기존 안전 감시 기술의 한계를 경고했다. 오픈AI는 10일 정렬 연구 블로그를 통해 사전학습과 모델 구조, 강화학습, AI가 생성한 학습 데이터가 사고의 사슬에 미치는 영향을 공유했다.",
+   "impact": "이번 연구 결과는 고도화된 AI의 행동을 감시하고 제어하려는 보안 팀과 개발자들에게 중요한 과제를 시사할 수 있다. 모델이 투명한 중간 단계 없이 복잡한 작업을 수행하는 비중이 늘어남에 따라, 관찰된 AI 추론 감시의 한계는 향후 새로운 안전 및 정렬 접근 방식을 요구할 수 있다.",
+   "keyPoints": [
+    "오픈AI는 AI 모델이 학습 과정에서 노-CoT 능력을 향상시킨다는 연구 결과를 공개했다.",
+    "GPT-6 아스트라에서 두드러진 추론 감시 성능 저하가 관찰되었다.",
+    "오픈AI는 기존 안전 감시 기술의 한계에 대해 경고했다.",
+    "사전학습, 모델 구조, 강화학습, AI가 생성한 학습 데이터가 사고의 사슬에 영향을 미친다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "db049183ff0a93b0",
+ "contentHash": "acdd16a10cf0d012",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T06:36:52.661Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon RDS for Oracle reduces downtime for automatic minor version upgrades and scheduled maintenance",
+   "summary": "Amazon RDS for Oracle has updated its maintenance process to reduce downtime for automatic and scheduled minor version upgrades as well as operating system updates. RDS now prepares the required new resources up to 30 minutes before the maintenance window while the database instance continues to serve workloads. This optimization applies to both Enterprise Edition and Standard Edition 2 DB instances at no additional cost across all commercial AWS and AWS GovCloud (US) Regions.",
+   "impact": "This improvement could significantly minimize application disruption during routine database updates, helping developers and system administrators maintain up-to-date environments with less operational friction. Security and maintenance teams may find it easier to keep systems patched without extending downtime windows.",
+   "keyPoints": [
+    "RDS prepares required maintenance resources up to 30 minutes before the maintenance window begins.",
+    "Database instances remain online and continue serving workloads during the preparation phase.",
+    "If preparation conflicts with user changes, RDS rolls back staged resources so user changes proceed.",
+    "New RDS events provide status updates on when preparation starts, finishes, or fails to complete."
+   ]
+  },
+  "km": {
+   "title": "Amazon RDS for Oracle កាត់បន្ថយពេលវេលាឈប់សម្រាកសម្រាប់កំណែអាប់ដេតតូចៗដោយស្វ័យប្រវត្តិ និងការថែទាំតាមកាលវិភាគ",
+   "summary": "Amazon RDS for Oracle ឥឡូវនេះបានកាត់បន្ថយពេលវេលាឈប់សម្រាកសម្រាប់កំណែអាប់ដេតតូចៗដោយស្វ័យប្រវត្តិ និងការថែទាំតាមកាលវិភាគ។ RDS រៀបចំធនធានថ្មីរហូតដល់ 30 នាទីមុនពេលបង្អួចថែទាំ ខណៈពេលដែលមូលដ្ឋានទិន្នន័យនៅតែដំណើរការជាធម្មតា។ ការអាប់ដេតនេះអនុវត្តចំពោះទាំង Enterprise Edition និង Standard Edition 2 ដោយគ្មានការគិតថ្លៃបន្ថែម។",
+   "impact": "ការកែលម្អនេះអាចជួយកាត់បន្ថយការរំខានដល់កម្មវិធីក្នុងអំឡុងពេលអាប់ដេតមូលដ្ឋានទិន្នន័យ និងជួយក្រុមការងាររក្សាសុវត្ថិភាពប្រព័ន្ធឱ្យបានទាន់ពេលវេលា។",
+   "keyPoints": [
+    "RDS រៀបចំធនធានថែទាំរហូតដល់ 30 នាទីមុនពេលបង្អួចថែទាំចាប់ផ្តើម។",
+    "មូលដ្ឋានទិន្នន័យនៅតែដំណើរការជាធម្មតាក្នុងអំឡុងពេលរៀបចំ។",
+    "ព្រឹត្តិការណ៍ RDS ថ្មីផ្តល់ព័ត៌មានអំពីស្ថានភាពនៃការរៀបចំ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon RDS for Oracle 减少了自动次要版本升级和计划维护的停机时间",
+   "summary": "Amazon RDS for Oracle 现已减少自动次要版本升级以及维护窗口内计划的次要版本升级和操作系统更新的停机时间。RDS 现在会在维护窗口开始前最多 30 分钟准备好所需的资源，而数据库实例在此期间继续处理工作负载。该功能适用于 Enterprise Edition 和 Standard Edition 2 数据库实例，在所有商业 AWS 和 AWS GovCloud (US) 区域均可免费使用。",
+   "impact": "这项改进可以显著减少例行数据库更新期间的应用程序中断，帮助开发人员和技术团队更轻松地保持系统更新，并减少维护工作对业务造成的影响。",
+   "keyPoints": [
+    "RDS 在维护窗口开始前最多提前 30 分钟准备维护资源。",
+    "在准备阶段，数据库实例保持在线并继续服务于工作负载。",
+    "如果用户的更改与准备工作冲突，RDS 将回滚暂存的资源并优先执行用户的更改。",
+    "新的 RDS 事件可提供关于准备工作何时开始、完成或未完成的通知。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon RDS for Oracle, 자동 마이너 버전 업그레이드 및 예약된 유지 관리의 가동 중지 시간 단축",
+   "summary": "Amazon RDS for Oracle은 자동 마이너 버전 업그레이드와 유지 관리 창에 예약된 마이너 버전 업그레이드 및 운영 체제 업데이트의 가동 중지 시간을 줄여줍니다. RDS는 이제 데이터베이스 인스턴스가 워크로드를 계속 처리하는 동안 유지 관리 창 시작 최대 30분 전에 필요한 새 리소스를 미리 준비합니다. 이 기능은 추가 비용 없이 모든 상용 AWS 리전 및 AWS GovCloud (US) 리전의 Enterprise Edition 및 Standard Edition 2 DB 인스턴스에 적용됩니다.",
+   "impact": "이러한 개선으로 정기적인 데이터베이스 업데이트 중 애플리케이션 중단이 최소화되어 개발자와 운영 팀이 운영 중단 부담을 줄이면서 시스템을 최신 상태로 유지하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "RDS는 유지 관리 창 시작 최대 30분 전에 필요한 유지 관리 리소스를 미리 준비합니다.",
+    "준비 단계 동안 데이터베이스 인스턴스는 온라인 상태를 유지하며 워크로드를 계속 처리합니다.",
+    "사용자 변경 사항이 준비 작업과 충돌하는 경우 RDS는 스테이징된 리소스를 롤백하고 사용자 변경을 진행합니다.",
+    "새로운 RDS 이벤트를 통해 준비 시작, 완료 및 완료 실패 시점을 확인할 수 있습니다."
+   ]
+  }
+ }
+}

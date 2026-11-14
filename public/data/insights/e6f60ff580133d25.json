@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e6f60ff580133d25",
+ "contentHash": "f33ecbf78fb634ee",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T06:30:45.828Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "phimint v0.10.0 Released: Agents Can Now Handle Prompts Stuck at \"Waiting for Input\" Commands",
+   "summary": "phimint v0.10.0 has been released as a Rust-based terminal lightweight AI coding agent. The new version addresses commands stuck waiting for user input by enabling the agent to read the screen and determine the type of prompt. It can now handle questions such as yes/no prompts, menus, or password requests instead of timing out.",
+   "impact": "This update could improve terminal workflows for developers by allowing AI agents to handle interactive command prompts autonomously. Technology users may experience fewer interruptions when running automated coding tasks.",
+   "keyPoints": [
+    "phimint v0.10.0 was released on 2026-11-14.",
+    "phimint is a lightweight terminal AI coding agent written in Rust.",
+    "The agent can now read the screen to determine the shape of prompts like yes/no, menus, or passwords."
+   ]
+  },
+  "km": {
+   "title": "phimint v0.10.0 បានចេញផ្សាយ៖ agent ឥឡូវនេះអាចจัดการกับคำสั่งที่ค้างอยู่ที่การรออินพุตได้",
+   "summary": "phimint v0.10.0 ត្រូវបានចេញផ្សាយជា agent សរសេរកូដ AI ទម្ងន់ស្រាលនៅលើ terminal ដែលសរសេរដោយ Rust ។ កំណែថ្មីនេះជួយឱ្យ agent អាចអានអេក្រង់ និងកំណត់ប្រភេទសំណួរ នៅពេលដែលពាក្យបញ្ជាជាប់គាំងត្រង់ការរង់ចាំការបញ្ចូលពីអ្នកប្រើប្រាស់។ ឥឡូវនេះវាអាចจัดการជាមួយសំណួរដូចជា បាទ/ចាស ឬទេ ម៉ឺនុយ ឬការស្នើសុំពាក្យសម្ងាត់។",
+   "impact": "ការអាប់ដេតនេះអាចជួយកែលម្អលំហូរការងារនៅលើ terminal សម្រាប់អ្នកអភិវឌ្ឍន៍ ដោយអនុញ្ញាតឱ្យ AI agent จัดការជាមួយប្រអប់បញ្ចូលបញ្ជាអន្តរកម្មដោយស្វ័យប្រវត្តិ។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងមានការរំខានតិចជាងមុននៅពេលដំណើរការកិច្ចការសរសេរកូដស្វ័យប្រវត្តិ។",
+   "keyPoints": [
+    "phimint v0.10.0 ត្រូវបានចេញផ្សាយនៅថ្ងៃទី ១៤ ខែ វិច្ឆិកា ឆ្នាំ ២០២៦។",
+    "phimint គឺជា terminal lightweight AI coding agent ដែលសរសេរដោយ Rust ។",
+    "Agent ឥឡូវនេះអាចអានអេក្រង់ដើម្បីកំណត់ប្រភេទសំណួរដូចជា បាទ/ចាស ឬទេ ម៉ឺនុយ ឬពាក្យសម្ងាត់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "phimint v0.10.0 发布：卡在「等你输入」的命令上，agent 能自己接上",
+   "summary": "phimint v0.10.0 已于 2026 年 11 月 14 日发布。phimint 是一个用 Rust 编写的终端轻量级 AI 编码 agent。新版本针对终端中卡在等待用户输入（如询问“确定吗？”）的情况进行了改进，agent 现在可以读取屏幕并判断提问的形状，自主处理如是/否、选单或密码等提示。",
+   "impact": "该更新可能会提升开发人员在终端中的工作效率，使 AI 编码 agent 能够更自主地处理交互式提示，从而减少等待和人工干预。",
+   "keyPoints": [
+    "phimint v0.10.0 于 2026 年 11 月 14 日发布。",
+    "phimint 是一个使用 Rust 编写的终端轻量 AI 编码 agent。",
+    "agent 现在能够读取屏幕并判断诸如是/否、选单或密码等提问形状并自主接续。"
+   ]
+  },
+  "ko": {
+   "title": "phimint v0.10.0 출시: '입력 대기' 명령에서 멈추더라도 에이전트가 직접 처리 가능",
+   "summary": "phimint v0.10.0이 출시되었습니다. phimint는 Rust로 작성된 터미널 경량 AI 코딩 에이전트입니다. 이번 버전에서는 사용자의 입력을 기다리며 멈춰 있던 명령에 대해 에이전트가 화면을 읽고 질문의 형태를 파악하여 스스로 처리할 수 있게 되었습니다.",
+   "impact": "이번 업데이트를 통해 개발자들은 터미널 작업 시 대화형 명령 프롬프트를 에이전트가 자율적으로 처리하도록 하여 효율성을 높일 수 있습니다. 기술 사용자는 자동화된 코딩 작업을 실행할 때 중단이 줄어드는 효과를 얻을 수 있습니다.",
+   "keyPoints": [
+    "phimint v0.10.0이 2026년 11월 14일에 출시되었습니다.",
+    "phimint는 Rust로 작성된 터미널 경량 AI 코딩 에이전트입니다.",
+    "에이전트가 화면을 읽고 예/아니오, 메뉴, 비밀번호 등의 질문 형태를 판단할 수 있습니다."
+   ]
+  }
+ }
+}

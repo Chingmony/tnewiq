@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a7f36f312d592ec7",
+ "contentHash": "343d7cd6b0fcfa53",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T06:36:10.476Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Systems Manager simplifies onboarding of Google Cloud VMs for centralized management",
+   "summary": "AWS Systems Manager Cloud Connector now supports simplified multicloud onboarding for Google Cloud. Users can automatically deploy the SSM Agent to Google Cloud VMs at scale without manual installation. This enables centralized management of Google Cloud VMs alongside AWS, on-premises, and Azure resources in a unified view.",
+   "impact": "This integration could help technology teams and developers standardize management practices across multiple cloud environments from a single workflow. It may also reduce operational complexity by eliminating the need to coordinate separate configurations in each environment.",
+   "keyPoints": [
+    "AWS Systems Manager Cloud Connector extends multicloud onboarding support to Google Cloud.",
+    "Allows automatic deployment of the SSM Agent to Google Cloud VMs at scale.",
+    "Enables unified management alongside AWS, on-premises, and Azure resources.",
+    "Available across numerous global AWS regions."
+   ]
+  },
+  "km": {
+   "title": "AWS Systems Manager ធ្វើឱ្យការឡើងយន្តហោះរបស់ Google Cloud VMs មានភាពងាយស្រួលសម្រាប់ការគ្រប់គ្រងកណ្តាល",
+   "summary": "AWS Systems Manager Cloud Connector ឥឡូវនេះពង្រីកការគាំទ្រការឡើងយន្តហោះពហុពពកដែលមានលក្ខណៈសាមញ្ញទៅកាន់ Google Cloud។ វាធ្វើឱ្យវាងាយស្រួលក្នុងការភ្ជាប់ Google Cloud VMs របស់អ្នកទៅកាន់ Systems Manager សម្រាប់ការគ្រប់គ្រងកណ្តាលដោយគ្មានការដំឡើងភ្នាក់ងារដោយដៃ។ វារួមបញ្ចូលគ្នានូវធនធាន Google Cloud ជាមួយនឹង AWS, ក្នុងបរិវេណ និង Azure នៅក្នុងទិដ្ឋភាពតែមួយ។",
+   "impact": "ការអាប់ដេតនេះអាចជួយក្រុមបច្ចេកវិទ្យាកាត់បន្ថយភាពស្មុគស្មាញប្រតិបត្តិការ និងស្តង់ដារការគ្រប់គ្រងទូទាំងពពកច្រើន។ វាអាចធ្វើឱ្យលំហូរការងារកាន់តែងាយស្រួលសម្រាប់ហេដ្ឋារចនាសម្ព័ន្ធពហុពពក។",
+   "keyPoints": [
+    "AWS Systems Manager Cloud Connector គាំទ្រ Google Cloud VMs ។",
+    "ដាក់ឱ្យប្រើប្រាស់ SSM Agent ដោយស្វ័យប្រវត្តិនៅលើ Google Cloud VMs ។",
+    "ផ្តល់នូវទិដ្ឋភាពរួមបញ្ចូលគ្នានៃធនធានពហុពពក។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Systems Manager 简化了 Google Cloud VM 的接入以实现集中管理",
+   "summary": "AWS Systems Manager Cloud Connector 现在将简化的多云接入支持扩展到 Google Cloud。这使得将现有的 Google Cloud VM 连接到 Systems Manager 变得容易，无需手动安装代理即可进行集中管理。连接后，Google Cloud VM 将与 AWS、本地和 Azure 资源一起显示在统一视图中。",
+   "impact": "此功能可以帮助开发人员和技术团队通过单一工作流跨多个云标准化管理实践。它还可能减少管理跨多个云的基础设施时的操作复杂性。",
+   "keyPoints": [
+    "AWS Systems Manager Cloud Connector 增加了对 Google Cloud 的支持。",
+    "可自动大规模将 SSM Agent 部署到 Google Cloud VM。",
+    "在统一视图中实现跨多云资源的集中管理。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Systems Manager, 중앙 집중식 관리를 위한 Google Cloud VM 온보딩 간소화",
+   "summary": "AWS Systems Manager Cloud Connector가 이제 Google Cloud에 대한 간소화된 멀티클라우드 온보딩 지원을 확장합니다. 수동 에이전트 설치 없이 기존 Google Cloud VM을 Systems Manager에 쉽게 연결하여 중앙 집중식으로 관리할 수 있습니다. 연결된 Google Cloud VM은 통합 뷰에서 AWS, 온프레미스, Azure 리소스와 함께 표시됩니다.",
+   "impact": "이러한 통합은 기술 팀과 개발자가 단일 워크플로를 통해 여러 클라우드 환경에서 관리 관행을 표준화하는 데 도움을 줄 수 있습니다. 또한 각 환경에서 별도의 구성을 조율해야 하는 필요성을 없애 운영 복잡성을 줄일 수 있습니다.",
+   "keyPoints": [
+    "AWS Systems Manager Cloud Connector에 Google Cloud 지원 추가",
+    "Google Cloud VM에 SSM Agent 자동 배포 가능",
+    "AWS, 온프레미스, Azure 리소스와 함께 통합 관리 지원"
+   ]
+  }
+ }
+}

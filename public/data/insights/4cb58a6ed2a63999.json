@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4cb58a6ed2a63999",
+ "contentHash": "a4bf4a1a76c5721f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T06:33:53.623Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "datasette-cluster-map 0.19",
+   "summary": "datasette-cluster-map version 0.19 has been released. The updated plugin now works with Datasette 1.0a42. It also depends on the new datasette-leaflet plugin to ensure OpenStreetMap tiles are requested with a referrer header.",
+   "impact": "Users and developers utilizing Datasette for geospatial data may benefit from compatibility with newer Datasette versions and updated tile loading behavior.",
+   "keyPoints": [
+    "datasette-cluster-map 0.19 has been released.",
+    "It now works with Datasette 1.0a42.",
+    "It depends on datasette-leaflet to request OpenStreetMap tiles with a referrer header."
+   ]
+  },
+  "km": {
+   "title": "datasette-cluster-map 0.19",
+   "summary": "ការចេញផ្សាយ datasette-cluster-map 0.19 ត្រូវបានប្រកាស។ កម្មវិធីជំនួយនេះឥឡូវនេះដំណើរការជាមួយ Datasette 1.0a42 និងពឹងផ្អែកលើ datasette-leaflet ថ្មី។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ដែលប្រើប្រាស់ Datasette អាចទទួលបានភាពត្រូវគ្នាជាមួយកំណែថ្មី និងការគ្រប់គ្រងផ្នែកទីតាំងភូមិសាស្ត្រកាន់តែប្រសើរ។",
+   "keyPoints": [
+    "datasette-cluster-map 0.19 ត្រូវបានចេញផ្សាយ។",
+    "វាដំណើរការជាមួយ Datasette 1.0a42។",
+    "វាអាស្រ័យលើ datasette-leaflet សម្រាប់ការស្នើសុំ OpenStreetMap។"
+   ]
+  },
+  "zh-CN": {
+   "title": "datasette-cluster-map 0.19",
+   "summary": "datasette-cluster-map 0.19 版本已发布。该插件现在支持 Datasette 1.0a42，并依赖于新的 datasette-leaflet 插件，以确保使用 referrer 请求头加载 OpenStreetMap 切片。",
+   "impact": "使用 Datasette 进行地理空间数据展示的开发人员和技术用户可以获得更新的版本兼容性和瓦片请求支持。",
+   "keyPoints": [
+    "datasette-cluster-map 0.19 已发布。",
+    "现已兼容 Datasette 1.0a42。",
+    "依赖 datasette-leaflet 以确保 OpenStreetMap 切片带有 referrer 请求头。"
+   ]
+  },
+  "ko": {
+   "title": "datasette-cluster-map 0.19",
+   "summary": "datasette-cluster-map 0.19 버전이 출시되었습니다. 이 플러그인은 이제 Datasette 1.0a42와 함께 작동하며, OpenStreetMap 타일이 referrer 헤더와 함께 요청되도록 새로운 datasette-leaflet에 의존합니다.",
+   "impact": "Datasette를 활용하는 개발자와 기술 사용자는 최신 버전 호환성과 개선된 타일 요청 방식을 이용할 수 있습니다.",
+   "keyPoints": [
+    "datasette-cluster-map 0.19가 출시되었습니다.",
+    "Datasette 1.0a42를 지원합니다.",
+    "referrer 헤더를 사용하여 OpenStreetMap 타일을 요청하기 위해 datasette-leaflet에 의존합니다."
+   ]
+  }
+ }
+}

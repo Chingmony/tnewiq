@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "69d1a63879fd152b",
+ "contentHash": "f60693422182e6b4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T06:35:19.481Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+   "summary": "An unknown threat actor targeted unpatched Check Point Security Gateways starting October 30, 2026. The attackers used PHP2Shell vulnerabilities and a local privilege escalation flaw in Gaia OS to gain initial access and deploy the TSGA backdoor. Organizations in Israel were among the targets of this campaign.",
+   "impact": "Security teams managing Check Point Security Gateways may need to review their patching status to protect against exploitation of the PHP2Shell and Gaia OS vulnerabilities. This activity could lead to unauthorized backdoor deployment and potential system compromise.",
+   "keyPoints": [
+    "Attackers targeted unpatched Check Point Security Gateways beginning October 30, 2026.",
+    "The attack chain used PHP2Shell vulnerabilities and a local privilege escalation flaw in Gaia OS.",
+    "A backdoor named TSGA was deployed during the campaign.",
+    "Israeli organizations were targeted in the initial phase of the activity."
+   ]
+  },
+  "km": {
+   "title": "ពួក Hacker រំលោភបំពានចំណុចខ្សោយ PHP2Shell ក្នុង Check Point Gateways ដើម្បីដាក់ពង្រាយ TSGA Backdoor និងលុបឯកសារ ESXi",
+   "summary": "តួអង្គគំរាមកំហែងដែលមិនស្គាល់អត្តសញ្ញាណមួយត្រូវបានគេសង្កេតឃើញថាបានកំណត់គោលដៅលើ Check Point Security Gateways ដែលមិនទាន់បានជួសជុល ដោយចាប់ផ្តើមពីថ្ងៃទី 30 ខែតុលា ឆ្នាំ 2026។ ពួក attackers បានប្រើប្រាស់ចំណុចខ្សោយ PHP2Shell និងកំហុសដំឡើងសិទ្ធិមូលដ្ឋាននៅក្នុង Gaia OS ដើម្បីទទួលបានការចូលដំបូង និងដាក់ពង្រាយ backdoor មួយឈ្មោះថា TSGA។ អង្គការនានានៅក្នុងប្រទេសអ៊ីស្រាអែលគឺស្ថិតក្នុងចំណោមគោលដៅនៃការយុទ្ធនាការនេះ។",
+   "impact": "ក្រុមសន្តិសុខដែលគ្រប់គ្រង Check Point Security Gateways អាចចាំបាច់ត្រូវពិនិត្យមើលស្ថានភាពនៃការបិទរន្ធសុវត្ថិភាពរបស់ខ្លួន ដើម្បីការពារប្រឆាំងនឹងការកេងប្រវ័ញ្ចលើចំណុចខ្សោយ PHP2Shell និង Gaia OS។ សកម្មភាពនេះអាចនាំឱ្យមានការដាក់ពង្រាយ backdoor ដោយគ្មានការអនុញ្ញាត និងការខូចខាតប្រព័ន្ធដែលអាចកើតមាន។",
+   "keyPoints": [
+    "ពួក attackers បានកំណត់គោលដៅលើ Check Point Security Gateways ដែលមិនទាន់បានជួសជុល ចាប់ពីថ្ងៃទី 30 ខែតុលា ឆ្នាំ 2026។",
+    "ខ្សែសង្វាក់នៃការវាយប្រហារបានប្រើប្រាស់ចំណុចខ្សោយ PHP2Shell និងកំហុសដំឡើងសិទ្ធិមូលដ្ឋាននៅក្នុង Gaia OS។",
+    "Backdoor មួយដែលមានឈ្មោះថា TSGA ត្រូវបានដាក់ពង្រាយក្នុងអំឡុងពេលយុទ្ធនាការនេះ។",
+    "អង្គការនៅក្នុងប្រទេសអ៊ីស្រាអែលត្រូវបានកំណត់គោលដៅនៅក្នុងដំណាក់កាលដំបូងនៃសកម្មភាពនេះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "黑客利用 Check Point Gateways 中的 PHP2Shell 漏洞部署 TSGA 后门并擦除 ESXi 文件",
+   "summary": "一个未知的威胁行为者自2026年10月30日起被发现针对未修补的 Check Point Security Gateways 进行攻击。攻击者通过 PHP2Shell 漏洞以及 Gaia OS 中一个此前未披露的本地特权提升漏洞获得初始访问权限，并部署了名为 TSGA 的后门。以色列的组织机构成为了此次活动的目标之一。",
+   "impact": "负责管理 Check Point Security Gateways 的安全团队可能需要检查其修补状态，以防范 PHP2Shell 和 Gaia OS 漏洞被利用。此类活动可能会导致未经授权的后门部署以及潜在的系统受到危害。",
+   "keyPoints": [
+    "攻击者自2026年10月30日起针对未修补的 Check Point Security Gateways。",
+    "攻击链利用了 PHP2Shell 漏洞和 Gaia OS 中的本地特权提升漏洞。",
+    "活动期间部署了一个名为 TSGA 的后门。",
+    "以色列的组织成为了该活动的首要目标之一。"
+   ]
+  },
+  "ko": {
+   "title": "해커들이 Check Point Gateways의 PHP2Shell 결함을 악용하여 TSGA 백도어를 배포하고 ESXi 파일을 삭제함",
+   "summary": "알 수 없는 위협 행위자가 2026년 10월 30일부터 패치되지 않은 Check Point Security Gateways를 대상으로 활동하는 것이 관측되었습니다. 공격자들은 PHP2Shell 취약점과 Gaia OS의 이전에 보고되지 않은 로컬 권한 상승 결함을 사용하여 초기 액세스를 확보하고 TSGA라는 백도어를 배포했습니다. 이스라엘 조직들이 이번 캠페인의 표적에 포함되었습니다.",
+   "impact": "Check Point Security Gateways를 관리하는 보안 팀은 PHP2Shell 및 Gaia OS 취약점 악용으로부터 보호하기 위해 패치 상태를 검토해야 할 수 있습니다. 이러한 활동은 무단 백도어 배포 및 잠재적인 시스템 손상으로 이어질 수 있습니다.",
+   "keyPoints": [
+    "공격자들은 2026년 10월 30일부터 패치되지 않은 Check Point Security Gateways를 표적으로 삼았습니다.",
+    "공격 체인은 PHP2Shell 취약점과 Gaia OS의 로컬 권한 상승 결함을 사용했습니다.",
+    "캠페인 동안 TSGA라는 이름의 백도어가 배포되었습니다.",
+    "이스라엘 조직들이 이 활동의 초기 단계에서 표적이 되었습니다."
+   ]
+  }
+ }
+}

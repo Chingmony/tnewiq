@@ -1,7 +1,263 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-13T23:37:17.192Z",
+ "generatedAt": "2026-11-14T06:30:23.312Z",
  "articles": [
+  {
+   "id": "e6f60ff580133d25",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "phimint v0.10.0 发布：卡在「等你输入」的命令上，agent 能自己接上",
+   "originalUrl": "https://www.oschina.net/news/503576",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "phimint v0.10.0 已发布（2026-11-14）。phimint 是一个用 Rust 写的终端轻量AI 编码 agent——一条命令装上，配好 API key 就能在终端里把需求变成跑通的代码。 终端里跑一条命令，它停下来问你「确定吗？」——以前这类命令只能干等到超时。现在 agent 会读屏幕，判断这个提问是什么形状（是/否？选单？要密码？），再...",
+   "publishedAt": "2026-11-14T04:24:27.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "f33ecbf78fb634ee"
+  },
+  {
+   "id": "46e7d83519f12509",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "딥시크·문샷 등 중국 4개사, 수출 통제 '블랙웰' 사용 흔적 발견",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217397",
+   "originalLanguage": "ko",
+   "originalDescription": "딥시크와 문샷 AI 등 중국 주요 AI 기업들이 미국의 수출 통제를 받는 엔비디아 최신 '블랙웰' GPU를 AI 모델 개발에 사용한 정황이 발견됐다. 공개된 모델 가중치에서 블랙웰 특유의 숫자 배열을 찾아낸 것으로, 중국 기업들의 첨단 GPU 사용 의혹을 뒷받침하는 구체적인 기술적 증거가 제시됐다.비영리 연구단체 언엠플로이먼트 랩스(Unemployment Labs)의 윌 드퓌 연구원은 12일(현지시간) 연구 보고서를 통해 중국 AI 기업 4곳이 공개한 모델 6종에서 엔비디아 블랙웰 GPU와…",
+   "publishedAt": "2026-11-14T02:18:31.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "a0236c820f61dcdb"
+  },
+  {
+   "id": "00e56ff66f7842af",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "앤트로픽 IPO, 중국·홍콩 투자자 공모주 배정 제한…미국 안보 규제 영향",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217402",
+   "originalLanguage": "ko",
+   "originalDescription": "앤트로픽의 기업공개(IPO)에서 중국 본토와 홍콩 기관투자자들이 공모주를 배정받기 어려운 것으로 알려졌다. 미국의 방산 기술 수출 통제 규정이 제한 근거로 거론되면서, 미국과 중국의 AI 기술 경쟁이 첨단 AI 기업의 투자 시장에도 영향을 미치고 있다.블룸버그는 13일(현지시간) 소식통들을 인용해 일부 투자은행이 앤트로픽 IPO에 참여하려는 중국과 홍콩 기관투자자의 주문을 거절하거나 실제 주식을 배정받기 어려울 것이라고 안내했다고 보도했다. 미국의 국제무기거래규정(ITAR)이 이러한 제한의…",
+   "publishedAt": "2026-11-14T01:53:41.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "ec3a7955ef4ebed4"
+  },
+  {
+   "id": "0413df98e5c1943a",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "오픈AI, AI 에이전트가 대신 결제하는 '챗GPT 월렛' 출시",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217400",
+   "originalLanguage": "ko",
+   "originalDescription": "오픈AI가 AI 에이전트가 사용자를 대신해 상품을 구매하고 결제까지 처리할 수 있는 '챗GPT 월렛(ChatGPT Wallet)'을 출시했다. 실제 카드번호를 AI에 노출하지 않고 사용자의 생체인증을 거쳐 결제하는 방식으로, 기존 쇼핑몰의 결제 시스템을 그대로 활용해 AI 에이전트 기반 상거래 시장을 공략한다.오픈AI는 13일(현지시간) 공식 블로그를 통해 아메리칸 익스프레스, 마스터카드, 비자와 협력해 개발한 챗GPT 월렛을 공개했다.미국에 거주하는 18세 이상 '챗GPT 프로' 가입자…",
+   "publishedAt": "2026-11-14T01:41:50.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "ee76e4467be366c6"
+  },
+  {
+   "id": "ec3aa9c7eef8271c",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "[AI 이슈트렌드] 젠슨 황 퇴진 쇼크 속 트럼프 행보·앤트로픽 개인정보 유출 등 화제",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217404",
+   "originalLanguage": "ko",
+   "originalDescription": "AI타임스와 이스트에이드의 11월 둘째 주(11월6~12일) 이슈 분석 결과, 젠슨 황 엔비디아 CEO의 퇴진과 잇따른 강력 사건을 비롯해 트럼프 대통령의 중간선거 이후 행보 등이 상위권을 차지했다.이번 주 검색량 1위는 '젠슨황 불륜 조사(4.81%)'가 차지했다. 젠슨 황 엔비디아 CEO가 불륜 논란과 중국 스파이 관련 의혹 등이 불거진 끝에 사임했다. 엔비디아는 콜레트 크레스 최고재무책임자(CFO)를 임시 CEO로 임명하고 내외부 후보자를 검토해 정식 CEO를 선임할 예정이다.젠슨 황…",
+   "publishedAt": "2026-11-14T01:27:42.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "e5924d9fe8ecd5a7"
+  },
+  {
+   "id": "a68e6ed598e85f33",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "스페이스X, 영상 생성 AI '그록 이매진' 개발팀 대부분 해고...AI 코딩에 집중",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217399",
+   "originalLanguage": "ko",
+   "originalDescription": "스페이스X가 이미지·영상 생성 AI '그록 이매진(Grok Imagine)' 개발팀 대부분을 해고했다. 오픈AI가 영상 생성 서비스 '소라'를 종료한 데 이어 머스크의 AI 사업도 코딩과 에이전트에 자원을 집중하면서, 미국 주요 AI 기업들의 사업 우선순위가 바뀌고 있다.디 인포메이션은 13일(현지시간) 소식통들을 인용해 스페이스X가 지난주 그록 이매진 개발 인력 약 60명을 해고했다고 보도했다.현재 제품을 유지하는 인력은 소수만 남은 것으로 알려졌다. 서비스는 계속 제공되고 있지만, 전담…",
+   "publishedAt": "2026-11-14T01:15:28.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "1900fdd32cfa8c13"
+  },
+  {
+   "id": "198367e322bb6ed6",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "[내면 지도 그리기] 42 Inner Mapping: 나를 찾는 지도",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217393",
+   "originalLanguage": "ko",
+   "originalDescription": "간판 없는 날들의 달력지도를 열면 먼저 보이는 것들이 있습니다. 큰 가게, 불 켜진 간판, 별점과 리뷰, 사람들이 많이 찾는 길. 지도는 많은 사람이 중요하다고 표시한 것부터 보여줍니다.내 삶의 연혁을 한 장의 지도로 펼쳐봐도 비슷합니다. 입학과 졸업, 첫 직장, 승진, 결혼. 이력서에 쓰는 날, 사진첩에 남는 날, 축하 인사를 받는 날이 굵은 글씨로 적혀 있습니다. 사회가 함께 불을 밝혀주는 간판 같은 날들이지요. 그 날들은 분명 소중합니다. 다만 그 목록을 정한 것이 나였는지, 중요하다고…",
+   "publishedAt": "2026-11-14T01:00:00.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "3b8c997a4f77bce1"
+  },
+  {
+   "id": "cf55d0cc8a38fb2c",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "[AI카툰] Bob, Senior IT guy - 밥, 뮤지엄에 가다",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217396",
+   "originalLanguage": "ko",
+   "originalDescription": "글·그림 Dr. Alf",
+   "publishedAt": "2026-11-14T01:00:00.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "ca76d9d0a88d0a33"
+  },
+  {
+   "id": "773f81498506611a",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "젠슨 황, 사임 직전 \"나는 쓰레기\"…두 번째 불륜 보도가 결정타",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217403",
+   "originalLanguage": "ko",
+   "originalDescription": "젠슨 황 전 엔비디아 CEO가 사임 직전 자신을 심하게 비난하며 사실상 경영권을 포기한 것으로 알려졌다. 마지막까지 CEO직을 지키려 했지만, 추가적인 사내 관계가 보도되면서 긴급 소집된 이사회에서 결국 물러났으며 평소의 적극적인 경영 방식과는 전혀 다른 무기력한 모습을 보였다는 증언이 나왔다.블룸버그와 디 인포메이션은 12일(현지시간) 엔비디아 내부 관계자들과 황 전 CEO의 주변 인물들을 인용해 지난 11일 밤 사임에 이르기까지의 과정을 상세히 보도했다.이에 따르면 황 전 CEO는 사임을…",
+   "publishedAt": "2026-11-14T00:50:57.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "023aad623e4889f1"
+  },
+  {
+   "id": "a5b37a678b1e099d",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "아모데이 \"컴퓨팅 수요 예측이 최대 경영 난제…과잉도 부족도 위험\"",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217401",
+   "originalLanguage": "ko",
+   "originalDescription": "다리오 아모데이 앤트로픽 CEO가 AI 컴퓨팅 투자 규모를 결정하는 것이 회사의 가장 어려운 경영 과제라며, 과잉 투자와 투자 부족에 따른 위험을 설명했다. 기업공개(IPO)를 추진하는 주요 이유도 막대한 컴퓨팅 투자에 필요한 자금을 확보하고 재무적 위험에 대비하기 위해서라고 밝혔다.블룸버그와 파이낸셜타임스(FT) 등에 따르면 아모데이 CEO는 13일(현지시간) 뉴욕 JP모건체이스 본사에서 열린 투자자 대상 행사에서 제이미 다이먼 JP모건 CEO와 대담하며 이같이 밝혔다.그는 \"컴퓨팅은 회사가…",
+   "publishedAt": "2026-11-14T00:33:13.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "c29bd354c10440b3"
+  },
+  {
+   "id": "b0bb59d44cc7fa65",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "광양 65세 이상 대상포진 예방접종, 누가 무료로 맞나…접종비 최대 31만원",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217387",
+   "originalLanguage": "ko",
+   "originalDescription": "광양시가 65세 이상 시민에게 대상포진 예방접종 비용을 지원하고 있다. 백신 종류와 지원 대상에 따라 본인부담금은 무료에서 최대 31만원까지 차이가 난다. 기초생활수급자 등 취약계층도 사백신을 선택하면 접종비 일부를 내야 한다.광양시는 12일 보도자료를 통해 이 같은 내용의 대상포진 예방접종 지원사업을 안내했다. 지원 대상은 광양시에 1년 이상 주민등록을 두고 거주하는 65세 이상 시민으로, 1961년 12월31일 이전 출생자다.기초생활수급자와 차상위계층, 장애의 정도가 심한 장애인은 생백신을…",
+   "publishedAt": "2026-11-14T00:20:00.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "3bf2f52c02661e11"
+  },
+  {
+   "id": "c1803fdb4f11b813",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "미국 최대 규모 폐광 활용 태양광 사업, 1조 규모 1차 금융 조달 완료",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217302",
+   "originalLanguage": "ko",
+   "originalDescription": "미국 텍사스주 석탄광산 복구지에 건설 중인 직류 기준 1.2기가와트(GWdc)급 태양광 발전사업이 총 18억달러(약 2조4032억원) 규모의 녹색대출(그린론) 가운데 7억6900만달러(약 1조267억원)의 1차 금융 조달을 완료했다. 기존 석탄발전소의 전력망 연결시설을 활용하는 사업으로, 나머지 자금은 2027년 1분기에 조달할 계획이다.미국 에너지 인프라 투자사 파나민트캐피털(Panamint Capital)은 지난 4일(현지시간) 텍사스주 로버트슨카운티의 '빅 루터 파워(Big Rooter…",
+   "publishedAt": "2026-11-14T00:15:00.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "f1a8d7e5d380fb50"
+  },
+  {
+   "id": "238d617f8b004f7f",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "중국 티베트 해발 4300m에 14시간 축열 태양열발전소 첫 연결...\"세계 최고도\"",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217305",
+   "originalLanguage": "ko",
+   "originalDescription": "중국 티베트 해발 4300m 고원에서 태양광 전기를 열로 저장해 야간 발전과 난방에 활용하는 50메가와트(MW)급 태양열발전소의 첫 발전기가 전력망에 연결됐다. 용융염에 열을 14시간 저장하도록 설계한 시설로, 올해 안에 나머지 발전기도 계통연계를 완료할 계획이다.중국광핵그룹(CGN)은 지난 6일(현지시간) 티베트 아리 지역 가얼현의 '아리 고원 제로탄소 광저장·축열·발전 시범사업'에서 25MW 규모의 1호 발전기가 첫 계통연계에 성공했다고 발표했다. 이 시설이 전력망에 연결된 태양열발전소…",
+   "publishedAt": "2026-11-14T00:10:00.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "51dea8dd4e852abb"
+  },
+  {
+   "id": "064dbae30b946722",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "2044년 중국 폐태양광서 은 쏟아진다… 연 739톤 정점 전망",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217306",
+   "originalLanguage": "ko",
+   "originalDescription": "중국에서 2025년까지 설치된 태양광 모듈이 폐기되면서 나오는 은의 양이 2044년 연간 약 739톤으로 정점을 찍는다는 연구 결과가 나왔다. 폐기되는 태양광 설비용량은 이보다 9년 늦은 2053년에 최대치에 이를 것으로 추산됐다.중국 난카이대학교 연구진은 지난 5일(현지시간) 국제학술지 '서스테이너빌리티(Sustainability)'를 통해 이러한 차이가 태양광 모듈 설치 시기에 따른 은 함량 차이에서 비롯된다고 밝혔다.연구진은 폐기물 급증에 대비한 실효성 있는 재활용 대책이 마련되지…",
+   "publishedAt": "2026-11-14T00:05:00.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "0ba23313edb8c403"
+  },
+  {
+   "id": "e9cfee203f08335f",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "MS, 전 세계 서비스 장애 복구 진전...\"원인은 네트워크 작업 오류\"",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217398",
+   "originalLanguage": "ko",
+   "originalDescription": "마이크로소프트(MS)가 전 세계 정부 기관과 기업의 업무에 차질을 빚게 한 대규모 서비스 장애의 원인을 공개하고 복구 작업에 진전을 보이고 있다고 밝혔다. 장애 발생 24시간이 지나면서 주요 서비스가 상당 부분 회복됐으며, MS는 사이버 공격이나 AI가 아닌 네트워크 작업 과정에서 발생한 기술적 문제라고 설명했다.MS는 13일(현지시간) X를 통해 \"서비스 전반에서 광범위한 복구와 안정화가 이뤄지고 있다\"라며 \"장애를 일으킨 근본적인 문제를 해결했으며, 아직 영향받는 고객과 지역의 서비스를…",
+   "publishedAt": "2026-11-14T00:00:32.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "070b669c7dc0d465"
+  },
+  {
+   "id": "96048276e5de0ccf",
+   "sourceId": "the-verge-ai",
+   "sourceName": "The Verge AI",
+   "originalTitle": "Amazon has a plan to index the world’s online shopping data",
+   "originalUrl": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less…",
+   "publishedAt": "2026-11-13T23:49:11.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "112596649da38923"
+  },
   {
    "id": "91ab97e44683e9c3",
    "sourceId": "aws-machine-learning-blog",
@@ -20,6 +276,23 @@
    "contentHash": "ce305ffba8a86522"
   },
   {
+   "id": "4cb58a6ed2a63999",
+   "sourceId": "simon-willison",
+   "sourceName": "Simon Willison's Weblog",
+   "originalTitle": "datasette-cluster-map 0.19",
+   "originalUrl": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+   "originalLanguage": "en",
+   "originalDescription": "Release: datasette-cluster-map 0.19 One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on the new datasette-leaflet to ensure OpenStreetMap tiles are requested with a referrer header. Here's a map of power plants…",
+   "publishedAt": "2026-11-13T23:02:45.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai",
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "a4bf4a1a76c5721f"
+  },
+  {
    "id": "a53b6d6797d1d8ce",
    "sourceId": "techcrunch-ai",
    "sourceName": "TechCrunch AI",
@@ -35,6 +308,23 @@
    ],
    "imageUrl": null,
    "contentHash": "b6f6c78debec1f23"
+  },
+  {
+   "id": "e1058067669e2b5f",
+   "sourceId": "simon-willison",
+   "sourceName": "Simon Willison's Weblog",
+   "originalTitle": "datasette-leaflet 0.3",
+   "originalUrl": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
+   "originalLanguage": "en",
+   "originalDescription": "Release: datasette-leaflet 0.3 OpenStreetMap have a very reasonable policy that hits to their hosted tile server should send a referrer header . Datasette table pages used the Referrer-Policy: no-referrer HTTP header, causing plugins that loaded tiles from OpenStreetMap to…",
+   "publishedAt": "2026-11-13T22:30:54.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai",
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "e50831d7f752fb16"
   },
   {
    "id": "762061e9584cb869",
@@ -1142,6 +1432,22 @@
    ],
    "imageUrl": null,
    "contentHash": "343d7cd6b0fcfa53"
+  },
+  {
+   "id": "a99dfdd20d85acbb",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "originalTitle": "Shield helps technicians hand off legacy portal work with OpenAI",
+   "originalUrl": "https://openai.com/business/customer-stories/shield",
+   "originalLanguage": "en",
+   "originalDescription": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+   "publishedAt": "2026-11-13T08:00:00.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "2bfe7cc88dffd589"
   },
   {
    "id": "ae143d7d2dd84309",
@@ -3222,6 +3528,22 @@
    ],
    "imageUrl": null,
    "contentHash": "be5e4bbd12589b7c"
+  },
+  {
+   "id": "323014b554567573",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Apache Airflow UI available in Amazon MWAA Serverless",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/airflow-ui-for-mwaa-serverless/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon MWAA Serverless provides the native Apache Airflow UI for your workflows. You can browse workflows, inspect workflow runs and task instances, read task logs, view a workflow's source and versions, and start a workflow run. The UI uses the permissions of the IAM identity…",
+   "publishedAt": "2026-11-12T18:00:00.000Z",
+   "discoveredAt": "2026-11-14T06:30:23.312Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "e8c1e3dc8b530880"
   },
   {
    "id": "f19cddd04797ae7d",
@@ -24330,334 +24652,6 @@
    ],
    "imageUrl": null,
    "contentHash": "1c5c97d3edd44c83"
-  },
-  {
-   "id": "1177abd2168f5b7d",
-   "sourceId": "arxiv-cs-cl",
-   "sourceName": "arXiv cs.CL",
-   "originalTitle": "Contextuality and Contradictions: Exploring Real-World Identifications of AI-Generated Writing",
-   "originalUrl": "https://arxiv.org/abs/2611.08704v1",
-   "originalLanguage": "en",
-   "originalDescription": "As AI-generated content spreads into nearly every domain of human interaction, practices and discourses of AI detection, both formal and informal, have become an everyday part of how people interact with text and with each other. In this paper, we explore the real-world…",
-   "publishedAt": "2026-11-05T21:01:03.000Z",
-   "discoveredAt": "2026-11-09T02:41:42.363Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "1e36c5f9161417f1"
-  },
-  {
-   "id": "0ece855d7ddc57ad",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "Announcing Web Answer on Amazon Bedrock AgentCore",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-answer-amazon-bedrock/",
-   "originalLanguage": "en",
-   "originalDescription": "Today, we are announcing the general availability of Web Answer on Amazon Bedrock AgentCore. Web Answer is a managed tool that returns a synthesized, grounded, cited answer to a natural-language question in a single call, so agent builders can attach it to an agent and get back…",
-   "publishedAt": "2026-11-05T20:56:00.000Z",
-   "discoveredAt": "2026-11-06T00:20:06.256Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "85fed6fedca31e7f"
-  },
-  {
-   "id": "b4b57934cfd536f7",
-   "sourceId": "arxiv-cs-cl",
-   "sourceName": "arXiv cs.CL",
-   "originalTitle": "Compression of Emotion in Language Model Representations",
-   "originalUrl": "https://arxiv.org/abs/2611.08683v1",
-   "originalLanguage": "en",
-   "originalDescription": "Large language models (LLMs) have been evaluated on their ability to identify emotions expressed in text and produce fluent emotional language. However, output predictions alone do not reveal how fine-grained emotion distinctions are organized internally. We study seven LLMs on…",
-   "publishedAt": "2026-11-05T20:42:47.000Z",
-   "discoveredAt": "2026-11-09T02:41:42.363Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "bf1bd8b199b0a45d"
-  },
-  {
-   "id": "6743065e0cc44bea",
-   "sourceId": "the-decoder",
-   "sourceName": "The Decoder",
-   "originalTitle": "OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them",
-   "originalUrl": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/",
-   "originalLanguage": "en",
-   "originalDescription": "With GPT-6 Cyber, OpenAI is introducing an AI model built to find security vulnerabilities in software, develop exploits, and suggest patches. According to OpenAI, it has already found 81 previously unknown vulnerabilities in Firefox and developed 948 working exploits in the…",
-   "publishedAt": "2026-11-05T20:36:25.000Z",
-   "discoveredAt": "2026-11-06T00:20:06.256Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "870eb16d5f83afc4"
-  },
-  {
-   "id": "3ac5744a59978032",
-   "sourceId": "arxiv-cs-cl",
-   "sourceName": "arXiv cs.CL",
-   "originalTitle": "Greedy Byte-Pair Encoding Achieves at Least 0.361 of the Optimal Compression",
-   "originalUrl": "https://arxiv.org/abs/2611.08671v1",
-   "originalLanguage": "en",
-   "originalDescription": "Byte-Pair Encoding (BPE) builds a tokeniser by repeatedly merging a most frequent adjacent pair of symbols; its utility is the total reduction in string length achieved by $k$ merges. It was known that this greedy rule achieves at least a third of the optimal reduction. We…",
-   "publishedAt": "2026-11-05T20:27:56.000Z",
-   "discoveredAt": "2026-11-09T02:41:42.363Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "d8d6429842ef4e3d"
-  },
-  {
-   "id": "3b2f972a106a619e",
-   "sourceId": "arxiv-cs-cl",
-   "sourceName": "arXiv cs.CL",
-   "originalTitle": "ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding",
-   "originalUrl": "https://arxiv.org/abs/2611.08669v1",
-   "originalLanguage": "en",
-   "originalDescription": "Speculative decoding has become a standard way to accelerate LLM inference: a lightweight drafter proposes tokens that the target verifies in one parallel pass. Existing drafters face trade-offs that limits their speedups: autoregressive drafters generate tokens one at a time…",
-   "publishedAt": "2026-11-05T20:26:25.000Z",
-   "discoveredAt": "2026-11-09T02:41:42.363Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "18d091569d9d6981"
-  },
-  {
-   "id": "51dc1d2f6b3bd6df",
-   "sourceId": "github-blog",
-   "sourceName": "The GitHub Blog",
-   "originalTitle": "Inside GitHub’s new Git storage architecture",
-   "originalUrl": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
-   "originalLanguage": "en",
-   "originalDescription": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub’s new Git storage architecture appeared first on The GitHub Blog .",
-   "publishedAt": "2026-11-05T20:23:21.000Z",
-   "discoveredAt": "2026-11-06T00:20:06.256Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "f6a2beec88281dc7"
-  },
-  {
-   "id": "1192ef5ce2087cd4",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Magic Wonders",
-   "originalUrl": "https://www.producthunt.com/products/magic-wonders",
-   "originalLanguage": "en",
-   "originalDescription": "A smart wand to duel, control your home and create magic Discussion | Link",
-   "publishedAt": "2026-11-05T20:06:11.000Z",
-   "discoveredAt": "2026-11-06T15:57:18.198Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "aeb854a6080c39ff"
-  },
-  {
-   "id": "b1feafc8620ed538",
-   "sourceId": "nvidia-blog",
-   "sourceName": "NVIDIA Blog",
-   "originalTitle": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-   "originalUrl": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
-   "originalLanguage": "en",
-   "originalDescription": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work…",
-   "publishedAt": "2026-11-05T20:00:41.000Z",
-   "discoveredAt": "2026-11-06T00:20:06.256Z",
-   "topics": [
-    "ai",
-    "mobile-hardware"
-   ],
-   "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/11/tech-blog-cpu-architecture-angled-vera-rack-5769445-1920x1080-1.png",
-   "contentHash": "2f88bbc0b42252b9"
-  },
-  {
-   "id": "67904c531beca2e7",
-   "sourceId": "aws-whats-new",
-   "sourceName": "AWS What's New",
-   "originalTitle": "AWS Network Load Balancer is now available in the AWS Phoenix Local Zone",
-   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-nlb-available-phx-local-zone/",
-   "originalLanguage": "en",
-   "originalDescription": "AWS Network Load Balancer is now available in the Phoenix Local Zone (us-west-2-phx-2a). AWS Local Zones is a type of AWS infrastructure deployment that places AWS compute, storage, database, and other select services closer to large population, industry, and IT centers where…",
-   "publishedAt": "2026-11-05T20:00:00.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "cloud-infrastructure"
-   ],
-   "imageUrl": null,
-   "contentHash": "3a191d145bdf7945"
-  },
-  {
-   "id": "bbd492caba72ca54",
-   "sourceId": "openai-news",
-   "sourceName": "OpenAI News",
-   "originalTitle": "Cult.fit builds operational muscle with Codex",
-   "originalUrl": "https://openai.com/index/cultfit-builds-with-codex",
-   "originalLanguage": "en",
-   "originalDescription": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
-   "publishedAt": "2026-11-05T20:00:00.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "00b1ad54137d6962"
-  },
-  {
-   "id": "ce33817e4026d3a9",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "Meta says US users can now video chat with their Muse AI avatar",
-   "originalUrl": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
-   "originalLanguage": "en",
-   "originalDescription": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
-   "publishedAt": "2026-11-05T19:48:28.000Z",
-   "discoveredAt": "2026-11-06T00:20:06.256Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "b8ee43c5711d1d27"
-  },
-  {
-   "id": "f25b9201ad6bdcc6",
-   "sourceId": "huggingface-blog",
-   "sourceName": "Hugging Face Blog",
-   "originalTitle": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
-   "originalUrl": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-   "originalLanguage": "en",
-   "originalDescription": null,
-   "publishedAt": "2026-11-05T19:35:16.000Z",
-   "discoveredAt": "2026-11-06T00:20:06.256Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "86c3035e703ec49a"
-  },
-  {
-   "id": "7d05777f3cb4ebe2",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "Meta warns that election backlash against data centers could make AI expansion harder",
-   "originalUrl": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
-   "originalLanguage": "en",
-   "originalDescription": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
-   "publishedAt": "2026-11-05T19:12:39.000Z",
-   "discoveredAt": "2026-11-06T00:20:06.256Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "66ce51b9fb37ee87"
-  },
-  {
-   "id": "42370702883d2723",
-   "sourceId": "techcrunch-ai",
-   "sourceName": "TechCrunch AI",
-   "originalTitle": "OpenAI released a new cybersecurity model. Is that enough?",
-   "originalUrl": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-   "originalLanguage": "en",
-   "originalDescription": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
-   "publishedAt": "2026-11-05T19:06:12.000Z",
-   "discoveredAt": "2026-11-06T00:20:06.256Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "ed33f88bf6d4ecc8"
-  },
-  {
-   "id": "a47540f0e7399574",
-   "sourceId": "the-decoder",
-   "sourceName": "The Decoder",
-   "originalTitle": "Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent",
-   "originalUrl": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/",
-   "originalLanguage": "en",
-   "originalDescription": "Google Deepmind is making Gemini Omni 1.2 Flash generally available. The video-generation model now creates clips up to 15 seconds long, can be edited step by step via conversation, and costs just $0.07 per second at 720p, 30 percent less than its predecessor. Users who draft…",
-   "publishedAt": "2026-11-05T19:05:31.000Z",
-   "discoveredAt": "2026-11-06T00:20:06.256Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "1480ddf76ca7164c"
-  },
-  {
-   "id": "bcea566fc08fba9b",
-   "sourceId": "the-verge-ai",
-   "sourceName": "The Verge AI",
-   "originalTitle": "Muse has a voice mode now",
-   "originalUrl": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
-   "originalLanguage": "en",
-   "originalDescription": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the avatar at the top…",
-   "publishedAt": "2026-11-05T19:03:04.000Z",
-   "discoveredAt": "2026-11-06T00:20:06.256Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "b363834a4ea5c0af"
-  },
-  {
-   "id": "39dc88843c6ee961",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
-   "originalUrl": "https://arxiv.org/abs/2611.08487v1",
-   "originalLanguage": "en",
-   "originalDescription": "User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we…",
-   "publishedAt": "2026-11-05T18:59:42.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "8df515310b67e1dd"
-  },
-  {
-   "id": "e68c75837c28ac1b",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
-   "originalUrl": "https://arxiv.org/abs/2611.08483v1",
-   "originalLanguage": "en",
-   "originalDescription": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for…",
-   "publishedAt": "2026-11-05T18:59:29.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "7a9e736cc8a62a9c"
-  },
-  {
-   "id": "625d8dd613a664d6",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Scientist World: Grow a Research World for AI-Scientists",
-   "originalUrl": "https://arxiv.org/abs/2611.08478v1",
-   "originalLanguage": "en",
-   "originalDescription": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist World…",
-   "publishedAt": "2026-11-05T18:58:17.000Z",
-   "discoveredAt": "2026-11-06T07:57:18.926Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "b9bb907876cc39f5"
   }
  ]
 }
