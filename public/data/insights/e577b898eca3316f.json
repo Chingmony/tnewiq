@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e577b898eca3316f",
+ "contentHash": "f20bbb95ea0bc1aa",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T14:15:22.310Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+   "summary": "CISA has added a high-severity security flaw affecting UnrealIRCd to its Known Exploited Vulnerabilities catalog after receiving reports of active exploitation. The vulnerability is tracked as CVE-2026-114713 with a CVSS score of 8.6 and involves improper neutralization of delimiters. This flaw enables server-level command injection in the open-source Internet Relay Chat server.",
+   "impact": "Security teams and technology users relying on UnrealIRCd could face serious risks from active exploitation of this server-level command injection vulnerability. Organizations may need to review their systems and apply available mitigations or updates to address CVE-2026-114713.",
+   "keyPoints": [
+    "CISA added CVE-2026-114713 to its KEV catalog.",
+    "The vulnerability affects UnrealIRCd, an open-source IRC server.",
+    "It has a CVSS score of 8.6 and involves improper neutralization of delimiters.",
+    "Reports indicate active exploitation by attackers."
+   ]
+  },
+  "km": {
+   "title": "ជនខិលខូចកេងប្រវ័ញ្ចលើបញ្ហាខ្សោយរបស់ UnrealIRCd ដែលអនុញ្ញាតឱ្យមានការបញ្ចូលពាក្យបញ្ជាកម្រិតម៉ាស៊ីនបម្រើ",
+   "summary": "ទីភ្នាក់ងារសន្តិសុខស៊ីនធឺនិក និងហេដ្ឋារចនាសម្ព័ន្ធសហរដ្ឋអាមេរិក (CISA) បានបន្ថែមចំណុចខ្សោយសន្តិសុខកម្រិតធ្ងន់ធ្ងរដែលប៉ះពាល់ដល់ UnrealIRCd ទៅក្នុងកាតាឡុកភាពរងគ្រោះដែលគេដឹងថាមានការកេងប្រវ័ញ្ច បន្ទាប់ពីមានរបាយការណ៍អំពីការកេងប្រវត្តិចំពេលកំពុងដំណើរការ។ បញ្ហាខ្សោយនេះត្រូវបានតាមដានក្រោមលេខ CVE-2026-114713 ដែលមានពិន្ទុ CVSS 8.6។ វាគឺជាករណីនៃការ neutralization មិនត្រឹមត្រូវនៃ delimiters ដែលអនុញ្ញាតឱ្យមានការបញ្ចូលពាក្យបញ្ជាកម្រិតម៉ាស៊ីនបម្រើ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលពឹងផ្អែកលើ UnrealIRCd អាចប្រឈមមុខនឹងហានិភ័យធ្ងន់ធ្ងរពីការកេងប្រវ័ញ្ចសកម្មនៃភាពរងគ្រោះនេះ។ អង្គការនានាអាចចាំបាច់ត្រូវពិនិត្យមើលប្រព័ន្ធរបស់ពួកគេ និងអនុវត្តដំណោះស្រាយដែលទាក់ទងនឹង CVE-2026-114713។",
+   "keyPoints": [
+    "CISA បានបន្ថែម CVE-2026-114713 ទៅក្នុងកាតាឡុក KEV។",
+    "ចំណុចខ្សោយនេះប៉ះពាល់ដល់ UnrealIRCd ដែលជាម៉ាស៊ីនបម្រើ IRC ប្រភពបើកចំហ។",
+    "វាមានពិន្ទុ CVSS 8.6 និងពាក់ព័ន្ធនឹងការ neutralization មិនត្រឹមត្រូវនៃ delimiters។",
+    "មានរបាយការណ៍ពីការកេងប្រវ័ញ្ចសកម្មពីសំណាក់ជនខិលខូច។"
+   ]
+  },
+  "zh-CN": {
+   "title": "攻击者利用允许服务器级命令注入的 UnrealIRCd 漏洞",
+   "summary": "美国网络安全和基础设施安全局于周五将一个影响开源互联网中继聊天服务器 UnrealIRCd 的高危安全漏洞添加到了其已知利用漏洞目录中，此前有报告称该漏洞正遭到积极利用。该漏洞被追踪为 CVE-2026-114713，CVSS 评分为 8.6，属于分隔符处理不当的问题。该漏洞在 UnrealIRCd 中启用了服务器级命令注入。",
+   "impact": "依赖 UnrealIRCd 的安全团队和技术用户可能会面临来自该服务器级命令注入漏洞遭到积极利用的严重风险。组织可能需要检查其系统并应用相应的缓解措施或更新来应对 CVE-2026-114713。",
+   "keyPoints": [
+    "CISA 将 CVE-2026-114713 添加到了 KEV 目录中。",
+    "该漏洞影响开源 IRC 服务器 UnrealIRCd。",
+    "其 CVSS 评分为 8.6，涉及分隔符的不当防御。",
+    "有报告表明攻击者正在对其实施积极利用。"
+   ]
+  },
+  "ko": {
+   "title": "공격자들이 서버 수준의 명령어 삽입을 허용하는 UnrealIRCd 취약점을 악용함",
+   "summary": "미국 사이버안보·기반시설보호국(CISA)은 오픈소스 인터넷 릴레이 채팅 서버인 UnrealIRCd에 영향을 미치는 고위험 보안 취약점에 대한 적극적인 악용 보고에 따라 이를 알려진 악용 취약점 카탈로그에 추가했습니다. 해당 취약점은 CVE-2026-114713으로 추적되며 CVSS 점수는 8.6점이고 구분 기호의 부적절한 중립화와 관련이 있습니다. 이 결함은 서버 수준의 명령어 삽입을 가능하게 합니다.",
+   "impact": "UnrealIRCd를 사용하는 보안 팀과 기술 사용자는 이 서버 수준 명령어 삽입 취약점의 적극적인 악용으로 인해 심각한 위험에 직면할 수 있습니다. 조직은 CVE-2026-114713을 해결하기 위해 시스템을 검토하고 사용 가능한 조치나 업데이트를 적용해야 할 수 있습니다.",
+   "keyPoints": [
+    "CISA는 CVE-2026-114713을 KEV 카탈로그에 추가했습니다.",
+    "이 취약점은 오픈소스 IRC 서버인 UnrealIRCd에 영향을 미칩니다.",
+    "CVSS 점수는 8.6점이며 구분 기호의 부적절한 중립화를 포함합니다.",
+    "공격자에 의한 적극적인 악용 보고가 있었습니다."
+   ]
+  }
+ }
+}

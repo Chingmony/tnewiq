@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e9eaa059c358e81f",
+ "contentHash": "eec40925a1ff0a0f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T14:26:01.409Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "For Student Developers Dreaming of Being Developers in the AI Era",
+   "summary": "This article reflects on how the role of software developers has shifted during the AI era, transitioning from individual coding to acting as managers of AI agents. AI coding tools now handle practical tasks such as writing source code and executing operating system commands, forcing developers to manage multiple AI workers in parallel. While AI can execute tasks and even handle design work, human developers retain ultimate responsibility for validating software and approving deployments.",
+   "impact": "Developers may need to adapt to managing multiple AI agents, shifting their focus toward architecture design, workflow optimization, and high-level decision-making. Security teams and technology users might see changes in how systems are deployed and verified as accountability remains strictly human.",
+   "keyPoints": [
+    "AI coding tools have evolved from simple code recommenders to autonomous agents that write code and execute commands.",
+    "Every developer now functions similarly to a manager or a pro gamer, directing multiple parallel AI workers and providing rapid feedback.",
+    "Human developers are still required to take responsibility, verify results, and approve code deployments in sensitive production environments."
+   ]
+  },
+  "km": {
+   "title": "សម្រាប់និស្សិតអភិវឌ្ឍន៍កម្មវិធីដែលស្រមៃចង់ក្លាយជាអ្នកអភិវឌ្ឍន៍ក្នុងសម័យកាល AI",
+   "summary": "អត្ថបទនេះពិនិត្យមើលពីរបៀបដែលតួនាទីរបស់អ្នកអភិវឌ្ឍន៍កម្មវិធីបានផ្លាស់ប្តូរក្នុងសម័យកាល AI ដោយប្តូរจากการសរសេរកូដផ្ទាល់ខ្លួនទៅជាអ្នកគ្រប់គ្រងភ្នាក់ងារ AI ។ ឧបករណ៍សរសេរកូដ AI បច្ចុប្បន្នអាចសរសេរកូដ និងប្រតិបត្តិពាក្យបញ្ជាប្រព័ន្ធ ដោយบังខាប់ឱ្យអ្នកអភិវឌ្ឍន៍គ្រប់គ្រងភ្នាក់ងារ AI ជាច្រើនស្របពេលគ្នា។ ទោះបីជា AI អាចធ្វើកិច្ចការងារផ្សេងៗបានយ៉ាងច្រើនក៏ដោយ ក៏មនុស្សនៅតែត្រូវទទួលខុសត្រូវចុងក្រោយក្នុងការផ្ទៀងផ្ទាត់សូហ្វវែរ និងអនុម័តការដាក់ឱ្យដំណើរការ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ប្រហែលជាត្រូវសម្របខ្លួនទៅនឹងការគ្រប់គ្រងភ្នាក់ងារ AI ច្រើន ដោយផ្តោតលើការរៀបចំស្ថាបត្យកម្ម និងការសម្រេចចិត្តកម្រិតខ្ពស់។ ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងឃើញការផ្លាស់ប្តូរក្នុងការដាក់ពង្រាយប្រព័ន្ធ ខណៈដែលការទទួលខុសត្រូវនៅតែជារបស់មនុស្សដដែល។",
+   "keyPoints": [
+    "ឧបករណ៍សរសេរកូដ AI បានវិវត្តពីអ្នកផ្តល់យោបល់កូដ ទៅជាភ្នាក់ងារស្វយ័តដែលសរសេរកូដ និងប្រតិបត្តិពាក្យបញ្ជា។",
+    "អ្នកអភិវឌ្ឍន៍ម្នាក់ៗឥឡូវនេះដើរតួជាអ្នកគ្រប់គ្រង ដោយដឹកនាំភ្នាក់ងារ AI ជាច្រើនស្របពេលគ្នា។",
+    "អ្នកអភិវឌ្ឍន៍ជាមនុស្សនៅតែត្រូវទទួលខុសត្រូវ ផ្ទៀងផ្ទាត់លទ្ធផល និងអនុម័តការដាក់ឱ្យប្រើប្រាស់កូដ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "致在AI时代梦想成为开发者的学生开发者",
+   "summary": "本文探讨了在AI时代下软件开发者角色的转变，从亲自动手写代码转向了管理AI代理的角色。如今的AI编码工具不仅能推荐代码，还会编写源码并执行操作系统命令，促使开发者像管理者一样并行指挥多个AI工作者。虽然AI代理能够处理繁重任务乃至进行架构设计，但人类开发者依然承担着验证软件结果和批准部署的最终责任。",
+   "impact": "开发者可能需要适应管理多个AI代理的新工作方式，将精力集中在架构设计、工作流优化和高层决策上。由于责任仍完全在人，安全团队和技术人员可能会看到系统部署和验证方式发生变化。",
+   "keyPoints": [
+    "AI编码工具已从代码推荐器发展成为能够编写代码和执行命令的自主代理。",
+    "每个开发者现在都类似于管理者，负责指导多个并行的AI工作者并提供快速反馈。",
+    "人类开发者仍然负责承担责任、验证代码运行结果并批准敏感系统环境中的部署。"
+   ]
+  },
+  "ko": {
+   "title": "AI 시대의 개발자를 꿈꾸는 학생 개발자에게",
+   "summary": "이 글은 AI 시대를 맞아 개발자의 역할이 개별 코딩에서 AI 에이전트를 관리하는 형태로 어떻게 변화했는지 조명합니다. 현재의 AI 코딩 도구는 코드 추천을 넘어 소스 작성과 OS 명령어 실행 등 실질적인 대리 업무를 수행하며, 개발자가 다수의 AI 작업자를 병렬로 지휘하도록 만들고 있습니다. AI가 다양한 실무를 도맡아 처리하더라도, 소프트웨어의 결과를 검증하고 배포를 승인하는 최종 책임은 여전히 사람에게 남겨져 있습니다.",
+   "impact": "개발자들은 여러 AI 에이전트를 관리하는 방식에 적응해야 하며, 아키텍처 설계와 작업 절차 최적화 및 고위급 의사결정에 집중하게 될 수 있습니다. 책임은 온전히 사람에게 남아있기 때문에 보안 팀과 기술 사용자들은 시스템 배포 및 검증 방식의 변화를 마주할 수 있습니다.",
+   "keyPoints": [
+    "AI 코딩 도구는 단순한 코드 추천 역할을 넘어 코드를 작성하고 명령어를 실행하는 자율적 에이전트로 진화했습니다.",
+    "모든 개발자는 이제 다수의 AI 에이전트를 병렬로 지휘하고 피드백을 주는 관리자와 유사한 역할을 수행합니다.",
+    "민감한 운영 환경에서 코드 배포를 승인하고 결과를 검증하는 책임은 여전히 사람인 개발자에게 있습니다."
+   ]
+  }
+ }
+}
