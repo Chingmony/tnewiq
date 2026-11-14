@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ac24b2edc4422aa9",
+ "contentHash": "d8a6c1e24c14fd5f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T19:19:15.278Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Jync v2.1.0 Released: CDC In-Stream DDL Closed-Loop and ETL Primary Key Update Support",
+   "summary": "Jync v2.1.0 has been released, featuring new TLS server path certificate modes and configuration file certificate modes for easier renewals. It also introduces an update check switch to disable version checking against GitHub or Gitee from the system configuration page.",
+   "impact": "Administrators and developers could benefit from simplified certificate renewals through absolute paths and file replacements, as well as the ability to disable external version checking.",
+   "keyPoints": [
+    "Added TLS server path certificate mode with absolute path support for keystores or PEM files.",
+    "Added configuration file certificate mode reading mounted certificates at startup.",
+    "Introduced an update check switch to stop accessing GitHub or Gitee."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យដំណើរការ Jync v2.1.0៖ ការបិទរង្វិលជុំ CDC ក្នុងស្ទ្រីម DDL និង ETL គាំទ្រការធ្វើបច្ចុប្បន្នភាពគន្លឹះចម្បង",
+   "summary": "Jync v2.1.0 ត្រូវបានដាក់ឱ្យដំណើរការ ដោយបានបន្ថែមរបៀបវិញ្ញាបនបត្រផ្លូវម៉ាស៊ីនមេ TLS និងរបៀបវិញ្ញាបនបត្រឯកសារកំណត់រចនាសម្ព័ន្ធសម្រាប់ការបន្តឡើងវិញកាន់តែងាយស្រួល។ វាក៏បានណែនាំកុងតាក់ពិនិត្យបច្ចុប្បន្នភាពដើម្បីបិទការពិនិត្យកំណែនៅលើ GitHub ឬ Gitee ផងដែរ។",
+   "impact": "អ្នកគ្រប់គ្រង និងអ្នកអភិវឌ្ឍន៍អាចទទួលបានអត្ថប្រយោជន៍ពីការបន្តវិញ្ញាបនបត្រងាយស្រួលតាមរយៈផ្លូវដាច់ខាត និងការជំនួសឯកសារ ព្រមទាំងសមត្ថភាពក្នុងការបិទការពិនិត្យកំណែខាងក្រៅ។",
+   "keyPoints": [
+    "បានបន្ថែមរបៀបវិញ្ញាបនបត្រផ្លូវម៉ាស៊ីនមេ TLS ជាមួយការគាំទ្រផ្លូវដាច់ខាតសម្រាប់ឃ្លាំងគន្លឹះ ឬឯកសារ PEM។",
+    "បានបន្ថែមរបៀបវិញ្ញាបនបត្រឯកសារកំណត់រចនាសម្ព័ន្ធដែលអានវិញ្ញាបនបត្រដំឡើងនៅពេលចាប់ផ្ដើម។",
+    "បានណែនាំកុងតាក់ពិនិត្យបច្ចុប្បន្នភាពដើម្បីបញ្ឈប់ការចូលប្រើ GitHub ឬ Gitee។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Jync 捷同 v2.1.0 发布：CDC 流内 DDL 闭环，ETL 支持主键更新",
+   "summary": "Jync v2.1.0 已发布，新增了 TLS 服务器路径证书模式和配置文件证书模式，支持通过绝对路径或挂载文件原地替换完成续期。系统配置页还新增了更新检查开关，可关闭对 GitHub 或 Gitee 的版本检查访问。",
+   "impact": "开发人员和系统管理员可以更便捷地通过绝对路径和文件替换进行证书续期，同时能够根据需要关闭外部版本检查，提升系统的灵活性。",
+   "keyPoints": [
+    "新增 TLS 服务器路径证书模式，支持密钥库或 PEM 填写服务器绝对路径以原地替换续期。",
+    "新增配置文件证书模式，可通过配置键或环境变量在启动时读取挂载证书。",
+    "新增系统配置页更新检查开关，关闭后不再访问 GitHub 或 Gitee。"
+   ]
+  },
+  "ko": {
+   "title": "Jync v2.1.0 출시: CDC 스트림 내 DDL 폐쇄 루프 및 ETL 기본 키 업데이트 지원",
+   "summary": "Jync v2.1.0이 출시되었으며, 손쉬운 갱신을 위한 TLS 서버 경로 인증서 모드 및 설정 파일 인증서 모드가 추가되었습니다. 또한 시스템 설정 페이지에서 GitHub 또는 Gitee에 대한 버전 확인을 비활성화할 수 있는 업데이트 확인 스위치가 도입되었습니다.",
+   "impact": "관리자와 개발자는 절대 경로와 파일 교체를 통한 간소화된 인증서 갱신 및 외부 버전 확인 비활성화 기능을 활용할 수 있습니다.",
+   "keyPoints": [
+    "키스토어 또는 PEM 파일에 대한 절대 경로를 지원하는 TLS 서버 경로 인증서 모드 추가.",
+    "시작 시 마운트된 인증서를 읽는 설정 파일 인증서 모드 추가.",
+    "GitHub 또는 Gitee 접근을 중지하는 업데이트 확인 스위치 도입."
+   ]
+  }
+ }
+}

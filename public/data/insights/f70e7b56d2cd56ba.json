@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f70e7b56d2cd56ba",
+ "contentHash": "e6e6bdd675e84fac",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T19:20:02.055Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+   "summary": "ArchSpace has been introduced as a public platform designed to record, review, and reference LLM architecture research, addressing transparency gaps in industry and evaluation challenges in academia. The platform records proposals with their experiments and reasoning, allows community review, and supports referencing by later work. To evaluate ideas prior to large-scale training, ArchSpace uses scaling laws to predict model loss from smaller experiments. Initial references provided include Qwen3.5 and OLMo3 baselines, fitted scaling laws, and a reusable training recipe.",
+   "impact": "This platform could help developers and researchers evaluate architectural ideas before committing to costly large-scale training. By using scaling laws and community reviews, it may improve how architectural innovations are validated and shared across industry and academia.",
+   "keyPoints": [
+    "ArchSpace records, reviews, and references LLM architecture research proposals.",
+    "It uses scaling laws to predict model loss at larger scales from smaller experiments.",
+    "The platform provides Qwen3.5 and OLMo3 baselines, fitted scaling laws, and a reusable training recipe."
+   ]
+  },
+  "km": {
+   "title": "ArchSpace៖ ការកត់ត្រា ការពិនិត្យឡើងវិញ និងការយោងការស្រាវជ្រាវស្ថាបត្យកម្ម LLM",
+   "summary": "ArchSpace ត្រូវបានណែនាំជាវេទិកាសាធារណៈមួយដែលត្រូវបានរចនាឡើងដើម្បីកត់ត្រា ពិនិត្យឡើងវិញ និងយោងការស្រាវជ្រាវស្ថាបត្យកម្ម LLM ដែលដោះស្រាយបញ្ហាខ្វះខាតតម្លាភាពនៅក្នុងឧស្សាហកម្ម និងបញ្ហាប្រឈមក្នុងការវាយតម្លៃក្នុងវិស័យសិក្សា។ វេទិកានេះកត់ត្រាជាសំណើ រួមទាំងការពិសោធន៍ និងហេតុផលរបស់វា អនុញ្ញាតឱ្យមានការពិនិត្យឡើងវិញពីសហគមន៍ និងគាំទ្រការយោងដោយការងារក្រោយៗទៀត។ ដើម្បីវាយតម្លៃគំនិតមុនពេលការបណ្តុះបណ្តាលខ្នាតធំដែលមានតម្លៃចំណាយខ្ចី ArchSpace ប្រើប្រាស់ច្បាប់ធ្វើមាត្រដ្ឋានដើម្បីទស្សន៍ទាយការបាត់បង់គំរូពីការពិសោធន៍តូចជាងមុន។",
+   "impact": "វេទិកានេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវក្នុងការវាយតម្លៃគំនិតស្ថាបត្យកម្មមុនពេលសម្រេចចិត្តធ្វើការបណ្តុះបណ្តាលខ្នាតធំដែលមានតម្លៃចំណាយខ្ពស់។ តាមរយៈការប្រើប្រាស់ច្បាប់ធ្វើមាត្រដ្ឋាន និងការពិនិត្យពីសហគមន៍ វាអាចជួយកែលម្អរបៀបដែលការច្នៃប្រឌិតស្ថាបត្យកម្មត្រូវបានផ្ទៀងផ្ទាត់ និងចែករំលែក។",
+   "keyPoints": [
+    "ArchSpace កត់ត្រា ពិនិត្យឡើងវិញ និងយោងសំណើស្រាវជ្រាវស្ថាបត្យកម្ម LLM។",
+    "វាប្រើប្រាស់ច្បាប់ធ្វើមាត្រដ្ឋានដើម្បីទស្សន៍ទាយការបាត់បង់គំរូនៅខ្នាតធំពីការពិសោធន៍តូចជាងមុន។",
+    "វេទិកានេះផ្តល់នូវមូលដ្ឋានគ្រឹះ Qwen3.5 និង OLMo3 ច្បាប់ធ្វើមាត្រដ្ឋានដែលបានលៃតម្រូវ និងរូបមន្តបណ្តុះបណ្តាលដែលអាចប្រើប្រាស់ឡើងវិញបាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "ArchSpace：记录、审查和引用LLM架构研究",
+   "summary": "ArchSpace作为一个公共平台推出，旨在记录、审查和引用LLM架构研究，以解决行业中的透明度差距和学术界评估挑战。该平台记录提案及其实验和推理，接受社区审查，并可供后续工作引用。为了在代价高昂的大规模训练之前评估想法，ArchSpace利用扩展定律通过较小规模的实验来预测更大规模的模型损失。平台提供了初始参考，包括Qwen3.5和OLMo3基准、拟合的扩展定律以及可重复使用的训练配方。",
+   "impact": "该平台可以帮助开发者和研究人员在进行成本高昂的大规模训练之前评估架构想法。通过使用扩展定律和社区审查，它可能会改进架构创新在行业和学术界中被验证和分享的方式。",
+   "keyPoints": [
+    "ArchSpace用于记录、审查和引用LLM架构研究提案。",
+    "它利用扩展定律从较小规模的实验中预测更大规模的模型损失。",
+    "平台提供Qwen3.5和OLMo3基准、拟合的扩展定律以及可重复使用的训练配方。"
+   ]
+  },
+  "ko": {
+   "title": "ArchSpace: LLM 아키텍처 연구 기록, 검토 및 참조",
+   "summary": "ArchSpace는 LLM 아키텍처 연구를 기록, 검토 및 참조하기 위해 설계된 공개 플랫폼으로 소개되었으며, 업계의 투명성 부족 문제와 학계의 평가 과제를 해결합니다. 이 플랫폼은 실험 및 추론과 함께 제안을 기록하고, 커뮤니티 검토를 거치며, 후속 연구에서 참조할 수 있도록 합니다. 비용이 많이 드는 대규모 훈련 전에 아이디어를 평가하기 위해 ArchSpace는 확장 법칙을 활용하여 소규모 실험을 통해 더 큰 규모에서의 모델 손실을 예측합니다.",
+   "impact": "이 플랫폼은 개발자와 연구자들이 비용이 많이 드는 대규모 훈련을 시작하기 전에 아키텍처 아이디어를 평가하는 데 도움을 줄 수 있습니다. 확장 법칙과 커뮤니티 검토를 활용함으로써 업계와 학계 전반에서 아키텍처 혁신이 검증되고 공유되는 방식을 개선할 수 있습니다.",
+   "keyPoints": [
+    "ArchSpace는 LLM 아키텍처 연구 제안을 기록, 검토 및 참조합니다.",
+    "소규모 실험을 통해 더 큰 규모의 모델 손실을 예측하기 위해 확장 법칙을 사용합니다.",
+    "Qwen3.5 및 OLMo3 기준선, 적합된 확장 법칙, 재사용 가능한 훈련 레시피를 초기 참조로 제공합니다."
+   ]
+  }
+ }
+}

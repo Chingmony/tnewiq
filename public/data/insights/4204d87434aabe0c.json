@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4204d87434aabe0c",
+ "contentHash": "505692fd7954f8ac",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T19:20:12.821Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+   "summary": "Researchers present a continuous-action neurosymbolic reinforcement learning method designed to internalize investment mandates for portfolio allocation. Traditional deep reinforcement learning optimizes performance but often fails to enforce rule compliance, while existing neurosymbolic methods are limited to discrete action spaces. The new approach uses reparameterized Monte Carlo sampling to estimate action compliance and incorporates it into the training objective, eliminating the need for post-hoc enforcement. Tested against a six-rule regime-conditional mandate, the policy significantly reduced violations compared to unconstrained reinforcement learning and reward-penalty baselines.",
+   "impact": "This approach could allow financial developers and institutions to deploy reinforcement learning models that inherently follow complex investment rules without relying on post-hoc intervention. Security and compliance teams may find that internalizing constraints directly into the policy training reduces operational risks associated with invalid or non-compliant actions.",
+   "keyPoints": [
+    "Institutional portfolios require compliance with investment policy statements that dictate asset allocation constraints.",
+    "A new PLPG-inspired continuous allocation method estimates action compliance using reparameterized Monte Carlo sampling.",
+    "The method adds compliance probability directly to the training objective rather than intercepting actions at inference time.",
+    "The policy reduced violations of a six-rule mandate down to 4.8%, compared to 96-98% for unconstrained RL and 33.4% for a reward-penalty baseline."
+   ]
+  },
+  "km": {
+   "title": "ការបង្កប់អាណត្តិវិនិយោគ៖ វិធីសាស្ត្រ Neurosymbolic RL សម្រាប់ការបែងចែកផលប័ត្រ",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្ហាញពីវិធីសាស្ត្រសិក្សាពង្រឹងកម្លាំង neurosymbolic សកម្មភាពបន្តបន្ទាប់ ដែលត្រូវបានរចនាឡើងដើម្បីបង្កប់អាណត្តិវិនិយោគសម្រាប់ការបែងចែកផលប័ត្រ។ ការសិក្សាពង្រឹងកម្លាំង βάσης ជ្រៅបង្កើនប្រសិទ្ធភាពហិរញ្ញវត្ថុ ប៉ុន្តែច្រើនតែខកខានក្នុងការអនុវត្តតាមច្បាប់។ វិធីសាស្ត្រថ្មីនេះប្រើប្រាស់ការយកគំរូតាម Monte Carlo ដើម្បីប៉ាន់ស្មានការអនុលោមតាមសកម្មភាពដោយមិនចាំបាច់មានការត្រួតពិនិត្យពេលបញ្ចប់។",
+   "impact": "វិធីសាស្ត្រនេះអាចអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍ផ្នែកហិរញ្ញវត្ថុដាក់ពង្រាយគំរូសិក្សាពង្រឹងកម្លាំងដែលគោរពតាមច្បាប់វិនិយោគស្មុគស្មាញដោយធម្មជាតិ។",
+   "keyPoints": [
+    "ផលប័ត្រស្ថាប័នទាមទារឱ្យមានការអនុលោមតាមគោលការណ៍វិនិយោគ។",
+    "វិធីសាស្ត្របែងចែកបន្តបន្ទាប់ថ្មីប៉ាន់ស្មានការអនុលោមតាមសកម្មភាព។",
+    "គោលនយោបាយបានកាត់បន្ថយការរំលោភបំពានច្បាប់មកត្រឹម 4.8%។"
+   ]
+  },
+  "zh-CN": {
+   "title": "内部化投资授权：资产配置的神经符号强化学习方法",
+   "summary": "研究人员提出了一种用于资产配置的连续动作神经符号强化学习方法，旨在内化投资授权。传统的深度强化学习虽然能优化财务表现，但通常无法强制执行规则合规。新方法通过参数化的蒙特卡洛采样来估计动作对投资授权的满足概率，并将其加入训练目标中，无需在推理时进行事后干预。",
+   "impact": "该方法可能使金融开发人员能够部署能够自然遵守复杂投资规则的强化学习模型，而无需依赖事后拦截机制。合规团队可能会发现将约束直接内化到策略训练中可以降低与不合规动作相关的风险。",
+   "keyPoints": [
+    "机构投资组合在资产配置约束的投资政策声明下运行。",
+    "新方法使用蒙特卡洛采样估计策略动-作满足投资授权的概率。",
+    "策略直接学习合规性，无需在推理时进行事后干预。",
+    "该策略将六条规则体制条件授权的违规率降至4.8%。"
+   ]
+  },
+  "ko": {
+   "title": "투자 위임 내재화: 포트폴리오 배분을 위한 신경기호학적 RL 접근법",
+   "summary": "연구원들은 포트폴리오 배분을 위해 투자 위임을 내재화하도록 설계된 연속 행동 신경기호학적 강화 학습 방법을 제시합니다. 기존의 심층 강화 학습은 재무 성과를 최적화하지만 규칙 준수를 강제하지 못하는 경우가 많습니다. 새로운 접근법은 재매개변수화된 몬테카를로 샘플링을 사용하여 행동이 투자 위임을 만족하는 확률을 추정하고 이를 학습 목표에 추가합니다.",
+   "impact": "이 접근법을 통해 금융 개발자들은 사후 개입에 의존하지 않고 복잡한 투자 규칙을 본질적으로 따르는 강화 학습 모델을 배포할 수 있습니다. 보안 및 규정 준수 팀은 제약 조건을 정책 학습에 직접 내재화함으로써 비준수 행동과 관련된 운영 위험을 줄일 수 있음을 알게 될 것입니다.",
+   "keyPoints": [
+    "기관 포트폴리오는 자산 배분 제약을 지정하는 투자 정책 성명서에 따라 운영됩니다.",
+    "새로운 연속 배분 방법은 몬테카를로 샘플링을 사용하여 행동 준수 여부를 추정합니다.",
+    "에이전트가 준수 여부를 직접 학습하므로 추론 시점에 사후 집행 메커니즘이 필요하지 않습니다.",
+    "이 정책은 6개 규칙 위반율을 4.8%로 크게 줄였습니다."
+   ]
+  }
+ }
+}

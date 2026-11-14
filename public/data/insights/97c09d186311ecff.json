@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "97c09d186311ecff",
+ "contentHash": "ad2326e02901a344",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-14T19:20:44.396Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+   "summary": "Researchers introduce Coding-Repository Memory (CoReMem), a cost-internalizing framework designed for coding agents handling successive tasks on an evolving repository. The framework balances future usefulness with the costs of writing and reading memory by using prospective segment valuation and actor adaptation. Tested on ChainSWE, CoReMem raised a 27B actor's resolve rate from 21.0% to 25.7% while reducing steps and total cache-aware tokens.",
+   "impact": "This framework could help development teams improve the efficiency and success rate of automated coding agents working on evolving repositories. Security teams and technology users might benefit from reduced token usage and fewer steps required for code completion tasks.",
+   "keyPoints": [
+    "CoReMem is a cost-internalizing framework for memory design and actor adaptation in coding agents.",
+    "It uses prospective segment valuation to build compact memory around repository locations and executable checks.",
+    "On ChainSWE, CoReMem raised a 27B actor model's resolve rate from 21.0% to 25.7%.",
+    "It achieved these results with 17% fewer steps and 11% fewer total cache-aware tokens."
+   ]
+  },
+  "km": {
+   "title": "CoReMem៖ หน่วยความจำទប់ស្កាត់ការចំណាយសម្រាប់កិច្ចការសរសេរកូដជាប់ៗគ្នាដោយមានការវាយតម្លៃទុកជាមុន",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ Coding-Repository Memory (CoReMem) ដែលជាប្រព័ន្ធទប់ស្កាត់ការចំណាយសម្រាប់ភ្នាក់ងារសរសេរកូដដែល处理កិច្ចការជាប់ៗគ្នាលើកន្លែងផ្ទុកកូដដែលវិវត្ត។ ប្រព័ន្ធនេះធ្វើឱ្យមានតុល្យភាពរหว่างប្រយោជន៍អនាគត និងការចំណាយលើការសរសេរនិងអានអង្គចងចាំ។ វាត្រូវបានសាកល្បងនៅលើ ChainSWE ដែលបានបង្កើនអត្រាដោះស្រាយពី 21.0% ដល់ 25.7%។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចជួយដល់ក្រុមអភិវឌ្ឍន៍ក្នុងការបង្កើនប្រសិទ្ធភាព និងអត្រាជោគជ័យនៃភ្នាក់ងារសរសេរកូដស្វ័យប្រវត្តិ។ ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានផលចំណេញពីការថយចុះការប្រើប្រាស់ថូខឹននិងជំហានដែលត្រូវការ។",
+   "keyPoints": [
+    "CoReMem គឺជាក្របខ័ណ្ឌទប់ស្កាត់ការចំណាយសម្រាប់អង្គចងចាំនិងការសម្របខ្លួនរបស់ភ្នាក់ងារសរសេរកូដ។",
+    "វាប្រើប្រាស់ការវាយតម្លៃផ្នែកទុកជាមុនដើម្បីបង្កើតអង្គចងចាំបង្រួមជុំវិញទីតាំងកូដនិងការពិនិត្យដែលអាចប្រតិបត្តិបាន។",
+    "នៅលើ ChainSWE, CoReMem បានដំឡើងអត្រាដោះស្រាយរបស់តួអង្គទំហំ 27B ពី 21.0% ទៅ 25.7%។",
+    "វាសម្រេចបានលទ្ធផលនេះជាមួយនឹងជំហានតិចជាង 17% និងថូខឹនសរុបតិចជាង 11%។"
+   ]
+  },
+  "zh-CN": {
+   "title": "CoReMem：具有前瞻性估值的连续编码任务成本内化内存",
+   "summary": "研究人员推出了编码库内存（CoReMem），这是一个成本内化框架，旨在帮助编码代理在不断演进的代码库上处理连续任务。该框架通过前瞻性片段估值和动作适应，平衡了未来的有用性与读写内存的成本。在ChainSWE上的测试显示，CoReMem将27B动作模型的解决率从21.0%提高到了25.7%。",
+   "impact": "该框架可以帮助开发团队提高在演进代码库上运行的自动编码代理的效率和成功率。安全团队和技术用户可能会受益于减少的令牌使用量以及完成代码任务所需的更少步骤。",
+   "keyPoints": [
+    "CoReMem是一个用于编码代理中内存设计和动作适应的成本内化框架。",
+    "它利用前瞻性片段估值围绕代码库位置和可执行检查构建紧凑的内存。",
+    "在ChainSWE上，CoReMem将27B动作模型的解决率从21.0%提升至25.7%。",
+    "它实现了步骤减少17%且总缓存感知令牌减少11%的效果。"
+   ]
+  },
+  "ko": {
+   "title": "CoReMem: 사전 평가를 통한 연속 코딩 작업용 비용 내재화 메모리",
+   "summary": "연구진은 진화하는 저장소에서 연속적인 코딩 작업을 처리하는 코딩 에이전트를 위한 비용 내재화 프레임워크인 Coding-Repository Memory (CoReMem)를 소개했습니다. 이 프레임워크는 미래의 유용성과 메모리 읽기 및 쓰기 비용 사이의 균형을 맞춥니다. ChainSWE 테스트에서 CoReMem은 27B 에이전트 모델의 해결률을 21.0%에서 25.7%로 높였습니다.",
+   "impact": "이 프레임워크는 개발팀이 진화하는 저장소에서 작업하는 자동 코딩 에이전트의 효율성과 성공률을 높이는 데 도움을 줄 수 있습니다. 보안 팀과 기술 사용자는 토큰 사용량 감소와 코드 완료 작업에 필요한 단계 감소의 이점을 얻을 수 있습니다.",
+   "keyPoints": [
+    "CoReMem은 코딩 에이전트의 메모리 설계 및 에이전트 적응을 위한 비용 내재화 프레임워크입니다.",
+    "저장소 위치와 실행 가능한 검사를 중심으로 컴팩트한 메모리를 구축하기 위해 사전 세그먼트 평가를 사용합니다.",
+    "ChainSWE에서 CoReMem은 27B 에이전트 모델의 해결률을 21.0%에서 25.7%로 높였습니다.",
+    "17% 더 적은 단계와 11% 더 적은 캐시 인식 토큰으로 이러한 결과를 달성했습니다."
+   ]
+  }
+ }
+}
