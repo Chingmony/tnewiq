@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b004e50fc2d8548f",
+ "contentHash": "949b4f2eb29ca550",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T22:59:26.543Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "AWS Cloud WAN now supports BGP communities on Direct Connect attachments for routing policy",
+   "summary": "AWS Cloud WAN has added support for BGP communities on Direct Connect attachments. This update enables advanced routing controls for enterprise hybrid networks. Previously, Cloud WAN Routing Policy evaluated BGP communities only on Site-to-Site VPN and Connect attachments.",
+   "impact": "Network administrators and developers managing enterprise hybrid networks could use this feature to implement more advanced routing controls and policies over their Direct Connect attachments. This capability may simplify traffic management and route filtering across hybrid architectures.",
+   "keyPoints": [
+    "AWS Cloud WAN now supports BGP communities on Direct Connect attachments.",
+    "The update enables advanced routing controls for enterprise hybrid networks.",
+    "Previously, BGP communities were only evaluated on Site-to-Site VPN and Connect attachments."
+   ]
+  },
+  "km": {
+   "title": "AWS Cloud WAN ឥឡូវនេះគាំទ្រ BGP communities នៅលើ Direct Connect attachments សម្រាប់គោលនយោបាយបញ្ជូនបន្ត",
+   "summary": "AWS Cloud WAN បានបន្ថែមការគាំទ្រសម្រាប់ BGP communities នៅលើ Direct Connect attachments ដែលអាចឱ្យមានការគ្រប់គ្រងការបញ្ជូនបន្តកម្រិតខ្ពស់សម្រាប់បណ្តាញ הייבריដ របស់សហគ្រាស។ មុននេះ គោលនយោបាយបញ្ជូនបន្តរបស់ Cloud WAN បានវាយតម្លៃ BGP communities តែលើ Site-to-Site VPN និង Connect attachments ប៉ុណ្ណោះ។",
+   "impact": "អ្នកគ្រប់គ្រងបណ្តាញនិងអ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់មុខងារនេះដើម្បីអនុវត្តការគ្រប់គ្រងការបញ្ជូនបន្តកម្រិតខ្ពស់បន្ថែមទៀត។",
+   "keyPoints": [
+    "AWS Cloud WAN គាំទ្រ BGP communities លើ Direct Connect attachments",
+    "វាផ្តល់នូវការគ្រប់គ្រងការបញ្ជូនបន្តកម្រិតខ្ពស់សម្រាប់បណ្តាញ הייבריដ",
+    "ពីមុនត្រូវបានវាយតម្លៃតែលើ Site-to-Site VPN និង Connect attachments ប៉ុណ្ណោះ"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Cloud WAN 现在对 Direct Connect attachments 支持 BGP communities 以实现路由策略",
+   "summary": "AWS Cloud WAN 现已支持在 Direct Connect attachments 上使用 BGP communities，从而为企业混合网络实现高级路由控制。此前，Cloud WAN 路由策略仅在 Site-to-Site VPN 和 Connect attachments 上评估 BGP communities。",
+   "impact": "网络管理员和开发人员可以利用此功能在企业混合网络中实施更高级的路由控制和策略，从而可能简化混合架构中的流量管理。",
+   "keyPoints": [
+    "AWS Cloud WAN 现在支持 Direct Connect attachments 上的 BGP communities",
+    "为企业混合网络提供高级路由控制",
+    "此前仅在 Site-to-Site VPN 和 Connect attachments 上进行评估"
+   ]
+  },
+  "ko": {
+   "title": "AWS Cloud WAN, 라우팅 정책을 위한 Direct Connect attachments에서 BGP communities 지원 시작",
+   "summary": "AWS Cloud WAN이 Direct Connect attachments에서 BGP communities에 대한 지원을 추가하여 엔터프라이즈 하이브리드 네트워크를 위한 고급 라우팅 제어를 가능하게 합니다. 이전에는 Cloud WAN Routing Policy가 Site-to-Site VPN 및 Connect attachments에서만 BGP communities를 평가했습니다.",
+   "impact": "네트워크 관리자와 개발자는 이 기능을 사용하여 하이브리드 네트워크에서 더 발전된 라우팅 제어를 구현할 수 있으며, 이를 통해 트래픽 관리가 더욱 유연해질 수 있습니다.",
+   "keyPoints": [
+    "AWS Cloud WAN이 Direct Connect attachments에서 BGP communities 지원 시작",
+    "엔터프라이즈 하이브리드 네트워크를 위한 고급 라우팅 제어 가능",
+    "이전에는 Site-to-Site VPN 및 Connect attachments에서만 평가됨"
+   ]
+  }
+ }
+}

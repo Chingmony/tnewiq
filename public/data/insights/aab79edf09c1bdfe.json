@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "aab79edf09c1bdfe",
+ "contentHash": "148ab7abbe979357",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T22:59:16.671Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "AWS Glue announces automatic version upgrades for Apache Spark jobs",
+   "summary": "AWS Glue has introduced automatic version upgrades for Apache Spark jobs. This new capability keeps jobs current on the latest AWS Glue runtime without requiring manual coordination. Keeping runtimes current ensures jobs receive the latest security patches and performance improvements.",
+   "impact": "This feature could help developers and technology users maintain up-to-date environments with less manual effort. Security teams may benefit from timely security patches applied automatically to Apache Spark jobs.",
+   "keyPoints": [
+    "AWS Glue introduced automatic version upgrades for Apache Spark jobs.",
+    "The capability keeps jobs current on the latest AWS Glue runtime automatically.",
+    "It eliminates the need for manual coordination to update versions.",
+    "Staying current provides jobs with the latest security patches and performance improvements."
+   ]
+  },
+  "km": {
+   "title": "AWS Glue ប្រកាសពីការដំឡើងកំណែស្វ័យប្រវត្តិនៃកំណែសម្រាប់កិច្ចការ Apache Spark",
+   "summary": "AWS Glue បានណែនាំការដំឡើងកំណែស្វ័យប្រវត្តិ ដែលជាសមត្ថភាពមួយជួយរក្សាកិច្ចការ Apache Spark របស់អ្នកឱ្យទាន់សម័យនៅលើកូដរត់ដំណើរការ AWS Glue ចុងក្រោយបំផុតដោយមិនចាំបាច់មានការសម្របសម្រួលដោយដៃ។ ការរក្សាភាពទាន់សម័យនៅលើកូដរត់ដំណើរការដែលគាំទ្រ ផ្តល់ឱ្យកិច្ចការរបស់អ្នកនូវបំណះសុវត្ថិភាពចុងក្រោយ និងការកែលម្អដំណើរការ។",
+   "impact": "លក្ខណៈពិសេសនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការរក្សាទម្រង់បរិស្ថានឱ្យទាន់សម័យដោយចំណាយកម្លាំងតិច។ ក្រុមសន្តិសុខប្រហែលជាទទួលបានអត្ថប្រយោជន៍ពីបំណះសុវត្ថិភាពទាន់ពេលវេលាដែលត្រូវបានអនុវត្តដោយស្វ័យប្រវត្តិ។",
+   "keyPoints": [
+    "AWS Glue បានណែនាំការដំឡើងកំណែស្វ័យប្រវត្តិសម្រាប់កិច្ចការ Apache Spark។",
+    "សមត្ថភាពនេះរក្សាកិច្ចការឱ្យទាន់សម័យនៅលើកូដរត់ដំណើរការ AWS Glue ចុងក្រោយបំផុត។",
+    "វាលុបបំបាត់តម្រូវការសម្រាប់ការសម្របសម្រួលដោយដៃ។",
+    "ការរក្សាភាពទាន់សម័យផ្ដល់នូវបំណះសុវត្ថិភាពចុងក្រោយ និងការកែលម្អដំណើរការ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Glue 宣布为 Apache Spark 作业推出自动版本升级功能",
+   "summary": "AWS Glue 推出了自动版本升级功能，该功能使您的 Apache Spark 作业能够在不需要手动协调的情况下，保持在最新的 AWS Glue 运行时上。保持支持的运行时最新状态可为您的作业提供最新的安全补丁和性能改进。",
+   "impact": "此功能可以帮助开发人员和技术用户以更少的手动工作量维护最新的环境。安全团队可能会受益于自动应用于 Apache Spark 作业的及时安全补丁。",
+   "keyPoints": [
+    "AWS Glue 为 Apache Spark 作业推出了自动版本升级功能。",
+    "该功能使作业自动保持在最新的 AWS Glue 运行时上。",
+    "它无需进行版本更新的手动协调。",
+    "保持最新状态可使作业获得最新的安全补丁和性能改进。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Glue, Apache Spark 작업을 위한 자동 버전 업그레이드 발표",
+   "summary": "AWS Glue는 수동 조율 없이 Apache Spark 작업을 최신 AWS Glue 런타임으로 유지해 주는 자동 버전 업그레이드 기능을 도입했습니다. 지원되는 런타임을 최신 상태로 유지하면 작업에 최신 보안 패치와 성능 향상 기능이 제공됩니다.",
+   "impact": "이 기능은 개발자와 기술 사용자가 수동 작업을 줄이면서 최신 환경을 유지하는 데 도움 이 될 수 있습니다. 보안 팀은 Apache Spark 작업에 자동으로 적용되는 시기적절한 보안 패치의 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "AWS Glue가 Apache Spark 작업을 위한 자동 버전 업그레이드를 도입했습니다.",
+    "이 기능은 수동 조율 없이 작업을 최신 AWS Glue 런타임으로 유지합니다.",
+    "최신 런타임을 유지하면 최신 보안 패치와 성능 향상을 얻을 수 있습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a8703980ea106bff",
+ "contentHash": "fbf4abde7cb7aa43",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T22:59:06.962Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Route 53 Domains now supports self-service restore for expired and deleted domains",
+   "summary": "Amazon Route 53 Domains has introduced self-service restoration for expired and recently deleted domains. Users can now recover domains directly through the Amazon Route 53 console, AWS CLI, or AWS SDKs without needing to contact AWS Support. The process involves entering the domain name, reviewing and accepting the restoration price, and submitting the request to reactivate the registration with the TLD registry.",
+   "impact": "This capability could streamline domain recovery for users who miss renewals or experience accidental deletions, minimizing downtime for dependent websites and email services. Technology users and administrators may find it faster to restore lost assets using automated tools rather than waiting on support requests.",
+   "keyPoints": [
+    "Self-service restoration is available via the Route 53 console, AWS CLI, and AWS SDKs.",
+    "Restoring a domain requires entering the domain name, reviewing the price, and accepting the charge.",
+    "Most TLD registries support restoration, though each sets its own window for how long a domain can be recovered.",
+    "Restoration typically costs more than standard registration or renewal."
+   ]
+  },
+  "km": {
+   "title": "Amazon Route 53 Domains ឥឡូវនេះគាំទ្រការសង្គ្រោះដោយខ្លួនឯងសម្រាប់ដូម៉ែនដែលបានផុតកំណត់ និងលុបចោល",
+   "summary": "Amazon Route 53 Domains ឥឡូវនេះអនុញ្ញាតឱ្យអ្នកសង្គ្រោះដូម៉ែនដែលបានផុតកំណត់ ឬលុបចោលថ្មីៗនេះដោយខ្លួនឯង ដោយប្រើប្រាស់កុងសូល Amazon Route 53, AWS CLI ឬ AWS SDKs។ មុនពេលមានការអភិវឌ្ឍនេះ ការសង្គ្រោះដូម៉ែនតម្រូវឱ្យមានការស្នើសុំទៅកាន់ AWS Support។ ឥឡូវនេះអ្នកអាចទាញយកដូម៉ែនដែលបាត់បង់មកវិញ ហើយស្តារគេហទំព័រ អ៊ីមែល និងកម្មវិធីដែលពាក់ព័ន្ធឡើងវិញ។",
+   "impact": "លក្ខណៈពិសេសនេះអាចជួយសម្រួលដល់ដំណើរការសង្គ្រោះដូម៉ែនសម្រាប់អ្នកប្រើប្រាស់ និងក្រុមការងារបច្ចេកវិទ្យា ដោយកាត់បន្ថយពេលវេលារង់ចាំធៀបនឹងការស្នើសុំជំនួយពីមុន។",
+   "keyPoints": [
+    "ការសង្គ្រោះដោយខ្លួនឯងអាចធ្វើឡើងតាមរយៈកុងសូល Route 53, AWS CLI និង AWS SDKs។",
+    "អ្នកប្រើប្រាស់ត្រូវបញ្ចូលឈ្មោះដូម៉ែន ពិនិត្យតម្លៃ និងយល់ព្រមលើការគរុប្រាក់។",
+    "ការសង្គ្រោះដូម៉ែនជាទូទៅមានតម្លៃថ្លៃជាងការចុះឈ្មោះ ឬបន្តអាណត្តិធម្មតា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Route 53 Domains 现已支持自主恢复过期和已删除的域",
+   "summary": "Amazon Route 53 Domains 现在允许用户使用 Amazon Route 53 控制台、AWS CLI 或 AWS SDK 自行恢复过期或最近删除的域。此前，恢复域需要向 AWS Support 提交请求。现在，用户可以通过输入域名、查看恢复价格并接受费用来提交请求，从而与顶级域注册局合作重新激活注册。",
+   "impact": "此功能可以帮助开发人员和技术用户更快地恢复因错过续订或意外删除而丢失的域，从而可能减少依赖于这些域的应用程序和网站的停机时间。",
+   "keyPoints": [
+    "支持通过 Route 53 控制台、AWS CLI 或 AWS SDK 进行自主恢复。",
+    "恢复流程包括输入域名、查看恢复价格、接受费用并提交请求。",
+    "大多数 TLD 注册局都支持恢复，但每个注册局设定了各自的恢复期限。",
+    "恢复域通常比注册或续订域的费用更高。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Route 53 Domains, 만료 및 삭제된 도메인 셀프 서비스 복구 지원",
+   "summary": "Amazon Route 53 Domains에서 만료되거나 최근 삭제된 도메인을 Amazon Route 53 콘솔, AWS CLI 또는 AWS SDK를 사용하여 직접 복구할 수 있게 되었습니다. 이전에는 도메인을 복구하려면 AWS Support에 요청해야 했습니다. 이제 도메인 이름을 입력하고 복구 가격을 확인한 뒤 비용을 수락하여 요청을 제출함으로써 TLD 레지스트리와 연동해 등록을 재활성화할 수 있습니다.",
+   "impact": "이 기능은 개발자와 기술 사용자에게 도메인 복구 프로세스를 간소화하여 누락된 갱신이나 우연한 삭제로 인한 서비스 중단을 줄이는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "Route 53 콘솔, AWS CLI 또는 AWS SDK를 통해 도메인 셀프 서비스 복구가 가능합니다.",
+    "복구하려면 도메인 이름을 입력하고 복구 가격을 검토한 후 비용을 수락해야 합니다.",
+    "대부분의 TLD 레지스트리가 복구를 지원하며, 레지스트리마다 복구 가능 기간이 다릅니다.",
+    "도메인 복구 비용은 일반적으로 일반 등록이나 갱신보다 더 높습니다."
+   ]
+  }
+ }
+}

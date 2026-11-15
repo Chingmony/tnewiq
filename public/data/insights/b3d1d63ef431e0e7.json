@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b3d1d63ef431e0e7",
+ "contentHash": "1403511665b7b153",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T22:59:36.473Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Backup adds logically air-gapped vault support for Amazon EBS Snapshots Archive",
+   "summary": "AWS Backup has introduced support for Amazon EBS Snapshots Archive within logically air-gapped vaults. This update allows users to archive long-term Amazon EBS backups to a lower-cost storage tier. The logically air-gapped vaults store immutable and default-locked backups isolated with encryption.",
+   "impact": "This feature could help organizations meet long-term compliance and retention requirements while lowering storage costs for rarely accessed backups. Developers and administrators can configure this through backup plan rules using the console, CLI, or SDKs.",
+   "keyPoints": [
+    "Logically air-gapped vaults now support Amazon EBS Snapshots Archive.",
+    "Backups in these vaults are immutable, locked by default, and encrypted.",
+    "Users can specify the vault as a backup destination and enable archiving in backup or copy lifecycles."
+   ]
+  },
+  "km": {
+   "title": "AWS Backup បន្ថែមការគាំទ្រឃ្លាំងសុវត្ថិភាពដាច់ដោយឡែក logically air-gapped សម្រាប់ Amazon EBS Snapshots Archive",
+   "summary": "AWS Backup បានបន្ថែមការគាំទ្រសម្រាប់ Amazon EBS Snapshots Archive នៅក្នុងឃ្លាំងសុវត្ថិភាព logically air-gapped vault។ ការអាប់ដេតនេះអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់រក្សាទុកបម្រុងទុក Amazon EBS រយៈពេលវែងទៅកាន់កម្រិតផ្ទុកដែលមានតម្លៃទាប។ ឃ្លាំងសុវត្ថិភាពទាំងនេះរក្សាទុកទិន្នន័យបម្រុងទុកដែលមិនអាចកែប្រែបាន និងត្រូវបានចាក់សោដោយស្វ័យប្រវត្តិ។",
+   "impact": "លក្ខណៈពិសេសនេះអាចជួយដល់ស្ថាប័ននានាក្នុងការបំពេញតម្រូវការរក្សាទុកទិន្នន័យរយៈពេលវែង ខណៈពេលដែលកាត់បន្ថយការចំណាយលើការផ្ទុក។ អ្នកអភិវឌ្ឍន៍អាចកំណត់រចនាសម្ព័ន្ធវាผ่านកុងសូល CLI ឬ SDKs។",
+   "keyPoints": [
+    "Logically air-gapped vaults ឥឡូវនេះគាំទ្រ Amazon EBS Snapshots Archive។",
+    "ការបម្រុងទុកនៅក្នុងឃ្លាំងសុវត្ថិភាពទាំងនេះមិនអាចកែប្រែបាន និងត្រូវបានអ៊ិនគ្រីប។",
+    "អាចប្រើប្រាស់តាមរយៈ AWS Backup console, CLI ឬ SDKs។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Backup 为 Amazon EBS Snapshots Archive 添加逻辑隔离保险库支持",
+   "summary": "AWS Backup 现已在逻辑隔离保险库（logically air-gapped vault）中支持 Amazon EBS Snapshots Archive。该更新允许用户将长期 Amazon EBS 备份存档至低成本存储层。逻辑隔离保险库存储默认锁定且经过加密的不可变备份。",
+   "impact": "此功能可以帮助企业在降低存储成本的同时，满足长期保留和合规性要求。开发人员和管理员可以通过控制台、CLI 或 SDK 在备份计划规则中配置此功能。",
+   "keyPoints": [
+    "逻辑隔离保险库现已支持 Amazon EBS Snapshots Archive。",
+    "保险库存储默认锁定且受加密保护的不可变备份。",
+    "可通过 AWS Backup 控制台、CLI 或 SDK 进行配置。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Backup, Amazon EBS Snapshots Archive에 대한 논리적 에어갭 볼트 지원 추가",
+   "summary": "AWS Backup이 논리적 에어갭 볼트(logically air-gapped vault) 내에서 Amazon EBS Snapshots Archive 지원을 추가했습니다. 이 업데이트를 통해 사용자는 장기 Amazon EBS 백업을 비용 효율적인 스토리지 계층으로 아카이브할 수 있습니다. 논리적 에어갭 볼트는 기본적으로 잠기고 암호화된 불변 백업을 저장합니다.",
+   "impact": "이 기능은 드물게 액세스하는 백업에 대한 스토리지 비용을 절감하면서 장기 보존 및 규정 준수 요구 사항을 충족하는 데 도움을 줄 수 있습니다. 개발자와 관리자는 콘솔, CLI, SDK를 통해 백업 계획 규칙에서 이를 구성할 수 있습니다.",
+   "keyPoints": [
+    "논리적 에어갭 볼트에서 이제 Amazon EBS Snapshots Archive를 지원합니다.",
+    "볼트는 기본적으로 잠기고 암호화된 불변 백업을 저장합니다.",
+    "AWS Backup 콘솔, CLI 또는 SDK를 사용하여 구성할 수 있습니다."
+   ]
+  }
+ }
+}
