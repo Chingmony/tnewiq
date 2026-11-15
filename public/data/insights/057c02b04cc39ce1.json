@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "057c02b04cc39ce1",
+ "contentHash": "3c65d9b4376356f5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T17:51:25.960Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Siemens RUGGEDCOM APE1808",
+   "summary": "Siemens RUGGEDCOM APE1808 running Palo Alto Networks PAN-OS is affected by PHP2Shell vulnerabilities, specifically CVE-2026-109618 and CVE-2026-109619. These vulnerabilities involve Use After Free issues that can lead to remote code execution. Affected software versions include PAN-OS 10.2, 11.1, 11.2, 12.1, and 12.2 across all versions.",
+   "impact": "Security teams and technology users operating affected devices could face severe risks, including remote code execution. Upgrading to the corresponding available PAN-OS version and consulting upstream security notifications may mitigate these risks.",
+   "keyPoints": [
+    "Siemens RUGGEDCOM APE1808 devices with Palo Alto Networks PAN-OS versions 10.2, 11.1, 11.2, 12.1, and 12.2 are affected.",
+    "Identified vulnerabilities include CVE-2026-109618 and CVE-2026-109619, both involving Use After Free flaws.",
+    "Remediation includes upgrading to the corresponding available PAN-OS version and implementing vendor workarounds."
+   ]
+  },
+  "km": {
+   "title": "Siemens RUGGEDCOM APE1808",
+   "summary": "ផលិតផល Siemens RUGGEDCOM APE1808 ដែលដំណើរការ Palo Alto Networks PAN-OS រងផលប៉ះពាល់ដោយខ្សោយភាព PHP2Shell គឺ CVE-2026-109618 និង CVE-2026-109619។ ភាពខ្សោយទាំងនេះពាក់ព័ន្ធនឹងបញ្ហា Use After Free ដែលអាចនាំឱ្យមានការប្រតិបត្តិ კូដពីចម្ងាយ។ កំណែដែលរងផលប៉ះពាល់រួមមាន PAN-OS 10.2, 11.1, 11.2, 12.1 និង 12.2 ទាំងអស់។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលប្រើប្រាស់ឧបករណ៍ទាំងនេះអាចនឹងប្រឈមមុខនឹងហានិភ័យធ្ងន់ធ្ងរ រួមទាំងការប្រតិបត្តិ კូដពីចម្ងាយ។ ការដំឡើងកំណែ PAN-OS ដែលមានស្រាប់អាចជួយកាត់បន្ថយហានិភ័យទាំងនេះ។",
+   "keyPoints": [
+    "ឧបករណ៍ Siemens RUGGEDCOM APE1808 ដែលមាន PAN-OS កំណែ 10.2, 11.1, 11.2, 12.1 និង 12.2 រងផលប៉ះពាល់។",
+    "ភាពខ្សោយដែលបានកំណត់គឺ CVE-2026-109618 និង CVE-2026-109619។",
+    "ការដោះស្រាយរួមមានការដំឡើងកំណែ PAN-OS ដែលអាចប្រើប្រាស់បាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Siemens RUGGEDCOM APE1808",
+   "summary": "运行 Palo Alto Networks PAN-OS 的 Siemens RUGGEDCOM APE1808 受到 PHP2Shell 漏洞的影响，具体涉及 CVE-2026-109618 和 CVE-2026-109619。这些漏洞涉及可能导致远程代码执行的释放后重用（Use After Free）问题。受影响的软件版本包括所有版本的 PAN-OS 10.2、11.1、11.2、12.1 和 12.2。",
+   "impact": "运营受影响设备的安全团队和技术用户可能会面临严重的远程代码执行风险。升级到相应的可用 PAN-OS 版本并遵循上游安全通知中的工作区建议可以帮助降低这些风险。",
+   "keyPoints": [
+    "搭载 Palo Alto Networks PAN-OS (10.2、11.1、11.2、12.1、12.2 所有版本) 的 Siemens RUGGEDCOM APE1808 受到影响。",
+    "已识别的漏洞为 CVE-2026-109618 和 CVE-2026-109619。",
+    "修复方案是升级到相应的可用 PAN-OS 版本。"
+   ]
+  },
+  "ko": {
+   "title": "Siemens RUGGEDCOM APE1808",
+   "summary": "Palo Alto Networks PAN-OS를 실행하는 Siemens RUGGEDCOM APE1808이 PHP2Shell 취약점(CVE-2026-109618 및 CVE-2026-109619)의 영향을 받습니다. 이 취약점들은 원격 코드 실행으로 이어질 수 있는 Use After Free 문제와 관련이 있습니다. 영향받는 소프트웨어 버전에는 PAN-OS 10.2, 11.1, 11.2, 12.1 및 12.2의 모든 버전이 포함됩니다.",
+   "impact": "영향을 받는 장비를 운영하는 보안 팀과 기술 사용자는 원격 코드 실행을 포함한 심각한 위험에 직면할 수 있습니다. 해당하는 사용 가능한 PAN-OS 버전으로 업그레이드하고 업스트림 보안 알림의 해결책을 구현하면 이러한 위험을 완화할 수 있습니다.",
+   "keyPoints": [
+    "Palo Alto Networks PAN-OS를 탑재한 Siemens RUGGEDCOM APE1808이 영향을 받습니다.",
+    "확인된 취약점은 CVE-2026-109618 및 CVE-2026-109619입니다.",
+    "해결 방법은 사용 가능한 해당 PAN-OS 버전으로 업그레이드하는 것입니다."
+   ]
+  }
+ }
+}

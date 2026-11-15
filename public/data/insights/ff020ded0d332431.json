@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ff020ded0d332431",
+ "contentHash": "b7ec700b5479b06d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T17:52:06.951Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Siemens Industrial Edge Management",
+   "summary": "Siemens is assessing the impact of the Node2Shell vulnerability (CVE-2026-111497) on its Industrial Edge products. The buffer overflow issue affects the Brotli decoder in Google Brotli versions 1.0.3 through 1.2.0, potentially allowing remote unauthenticated attackers to corrupt memory, cause a denial of service, or execute arbitrary code. Siemens has released updates for several affected products and advises users to apply available fixes or specific mitigations.",
+   "impact": "Security teams and technology users managing Siemens Industrial Edge systems could face high-severity risks due to the critical CVSS 9.8 vulnerability. Applying the recommended updates or temporary mitigations may help prevent potential remote exploitation, memory corruption, or denial of service.",
+   "keyPoints": [
+    "CVE-2026-111497 is a buffer overflow vulnerability in the Brotli decoder affecting Google Brotli versions 1.0.3 through 1.2.0.",
+    "Multiple Siemens Industrial Edge Management components and versions are known to be affected.",
+    "Siemens recommends updating vulnerable products to newer versions or applying temporary mitigations where fixes are not yet available.",
+    "Firewall and WAF protections have been implemented for Siemens-managed services like Industrial Edge Hub and Industrial Edge Management Cloud."
+   ]
+  },
+  "km": {
+   "title": "Siemens Industrial Edge Management",
+   "summary": "Siemens កំពុងវាយតម្លៃពីផលប៉ះពាល់នៃភាពរងគ្រោះ Node2Shell (CVE-2026-111497) លើផលិតផល Industrial Edge ។ បញ្ហាបញ្ចេញទិន្នន័យហួសដែនកំណត់នេះប៉ះពាល់ដល់ Brotli decoder នៅក្នុង Google Brotli កំណែ 1.0.3 ដល់ 1.2.0 ។ Siemens បានចេញផ្សាយកំណែអាប់ដេតថ្មីៗសម្រាប់ផលិតផលមួយចំនួនដែលរងផលប៉ះពាល់ និងណែនាំឱ្យធ្វើបច្ចុប្បន្នភាព។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលអាចមានការពាក់ព័ន្ធជាមួយប្រព័ន្ធ Industrial Edge អាចប្រឈមមុខនឹងហានិភ័យកម្រិតខ្ពស់។ ការអនុវត្តការអាប់ដេតឬវិធានការបន្ធូរបន្ថយអាចជួយការពារប្រឆាំងនឹងការកេងប្រវ័ញ្ចពីចម្ងាយដែលអាចកើតមាន។",
+   "keyPoints": [
+    "CVE-2026-111497 គឺជាភាពរងគ្រោះនៃការហៀរអង្គចងចាំនៅក្នុង Brotli decoder ។",
+    "សមាសភាគ Siemens Industrial Edge Management ច្រើនត្រូវបានប៉ះពាល់។",
+    "Siemens ណែនាំឱ្យធ្វើបច្ចុប្បន្នភាពផលិតផលដែលរងផលប៉ះពាល់ទៅកាន់កំណែថ្មីបំផុត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Siemens Industrial Edge Management",
+   "summary": "西门子正在评估 Node2Shell (CVE-2026-111497) 漏洞对 Industrial Edge 的影响。该缓冲区溢出漏洞存在于 Google Brotli 1.0.3 到 1.2.0 版本的 Brotli 解码器中，可能允许远程未经身份验证的攻击者破坏内存、导致拒绝服务或执行任意代码。西门子已针对多个受影响的产品发布了新版本，并建议用户更新到最新版本。",
+   "impact": "管理西门子 Industrial Edge 系统的安全团队和技术用户可能会面临高危风险。应用推荐的更新或临时缓解措施可以帮助防止潜在的远程利用、内存损坏或拒绝服务攻击。",
+   "keyPoints": [
+    "CVE-2026-111497 是 Google Brotli 解码器中的缓冲区溢出漏洞。",
+    "多个西门子 Industrial Edge Management 组件和版本受到影响。",
+    "西门子建议将受影响的产品更新至最新版本或应用特定的缓解措施。"
+   ]
+  },
+  "ko": {
+   "title": "Siemens Industrial Edge Management",
+   "summary": "지멘스는 Industrial Edge에 대한 Node2Shell(CVE-2026-111497) 취약점의 영향을 평가하고 있습니다. 이 버퍼 오버플로우 문제는 Google Brotli 버전 1.0.3부터 1.2.0까지의 Brotli 디코더에 영향을 미치며, 원격 공격자가 메모리를 손상시키거나 서비스 거부를 유발할 수 있습니다. 지멘스는 여러 영향받는 제품에 대한 새로운 버전을 출시했으며 최신 버전으로 업데이트할 것을 권장합니다.",
+   "impact": "지멘스 Industrial Edge 시스템을 관리하는 보안 팀과 기술 사용자는 심각한 보안 위험에 직면할 수 있습니다. 권장되는 업데이트나 임시 완화 조치를 적용하면 잠재적인 원격 악용이나 서비스 거부를 예방하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "CVE-2026-111497은 Google Brotli 디코더의 버퍼 오버플로우 취약점입니다.",
+    "여러 지멘스 Industrial Edge Management 구성 요소 및 버전이 영향을 받습니다.",
+    "지멘스는 취약한 제품을 최신 버전으로 업데이트하거나 완화 조치를 적용할 것을 권장합니다."
+   ]
+  }
+ }
+}

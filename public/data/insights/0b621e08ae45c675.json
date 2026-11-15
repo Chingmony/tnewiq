@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0b621e08ae45c675",
+ "contentHash": "778203d2b720034e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T17:50:44.762Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "MobileProbe: Adaptive Security Evaluation of Mobile Agents via Trajectory-Aware Injection",
+   "summary": "Mobile GUI agents can be vulnerable to environmental injection attacks, where attackers embed malicious instructions into ordinary UI content to redirect actions. Existing benchmarks often underestimate this risk because they rely on fixed steps that agents might bypass or fail to reach. To address this, researchers propose MobileProbe, a trajectory-aware red-teaming framework that evaluates mobile agents adaptively. MobileProbe discovers attacker-controllable content surfaces, localizes vulnerable decision points along an agent's trajectory, and refines context-aware payloads iteratively.",
+   "impact": "This framework could help developers and security teams systematically uncover vulnerabilities in mobile agents before deployment. By providing adaptive evaluation, it may offer a more thorough security assessment than traditional fixed-point benchmarks.",
+   "keyPoints": [
+    "Mobile GUI agents can be manipulated via environmental injection attacks embedded in ordinary UI content.",
+    "Fixed-point benchmarks face limitations in test coverage because agents may follow different routes and miss static payloads.",
+    "MobileProbe is a trajectory-aware red-teaming framework that evaluates mobile agents adaptively.",
+    "The benchmark includes 83 long-horizon attack instances across 12 mobile applications, categorized by CIA goals."
+   ]
+  },
+  "km": {
+   "title": "MobileProbe: ការវាយតម្លៃសុវត្ថិភាព adaptative នៃ mobile agents តាមរយៈ trajectory-aware injection",
+   "summary": "Mobile GUI agents អានអេក្រង់ទូរស័ព្ទ និងដំណើរការកម្មវិធីជំនួសអ្នកប្រើប្រាស់ ដើម្បីបំពេញកិច្ចការច្រើនដំណាក់កាល។ អ្នកវាយប្រហារអាចបញ្ចូលពាក្យបញ្ជាព្យាបាទទៅក្នុងមាតិកា UI ធម្មតា ដើម្បីបង្វែរទិសដៅសកម្មភាពរបស់ភ្នាក់ងារ ដែលហៅថា environmental injection attack (EIA)។ ក្រុមអ្នកស្រាវជ្រាវបានស្នើឡើងនូវ MobileProbe ដែលជាប្រព័ន្ធ red-framework មានការដឹងពីគន្លង trajectory ដើម្បីវាយតម្លៃ mobile agents ដោយប្រែប្រួលតាមស្ថានភាព។ MobileProbe រកឃើញផ្ទៃមាតិកាដែលអ្នកវាយប្រហារអាចគ្រប់គ្រង កំណត់ចំណុចខ្សោយ និងកែច្នៃ payload តាមបរិបទ។",
+   "impact": "ប្រព័ន្ធនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខក្នុងការរកឃើញភាពងាយរងគ្រោះនៅក្នុង mobile agents មុនពេលដាក់ឱ្យប្រើប្រាស់។ វាអាចផ្ដល់នូវការវាយតម្លៃសន្តិសុខហ្មត់ចត់ជាងមុនដោយប្រៀបធៀបនឹងកម្រិតស្តង់ដារថេរ។",
+   "keyPoints": [
+    "Mobile agents អាចរងការវាយប្រហារតាមរយៈមាតិកា UI ធម្មតាដែលបង្កប់ពាក្យបញ្ជាព្យាបាទ។",
+    "កម្រិតស្តង់ដារថេរមានដែនកំណត់ដោយសារភ្នាក់ងារអាចដើរតាមផ្លូវផ្សេងគ្នា។",
+    "MobileProbe គឺជាប្រព័ន្ធ red-teaming តាមដានគន្លង ដើម្បីវាយតម្លៃភ្នាក់ងារចល័តដោយបត់បែន។",
+    "វាមានករណីវាយប្រហារចំនួន 83 លើកម្មវិធីទូរស័ព្ទចំនួន 12។"
+   ]
+  },
+  "zh-CN": {
+   "title": "MobileProbe：通过轨迹感知注入对移动智能体进行自适应安全评估",
+   "summary": "移动GUI智能体会读取手机屏幕并代用户操作应用以完成多步骤任务。由于智能体会根据屏幕显示内容执行操作，攻击者可以将恶意指令嵌入普通UI内容中并重定向其行动，这种威胁被称为环境注入攻击。现有的基准测试由于采用固定步骤，往往会低估移动智能体的安全风险。为此，研究人员提出了MobileProbe，这是一个轨迹感知红队框架，能够自适应评估移动智能体并迭代优化上下文感知载荷。",
+   "impact": "该框架可以作为部署前的审计工具，帮助开发人员和安全团队系统性地发现漏洞并加强移动智能体的安全性。通过自适应评估，它可能会比传统的固定点基准测试提供更全面的安全审查。",
+   "keyPoints": [
+    "移动GUI智能体容易受到嵌入在普通UI内容中的环境注入攻击。",
+    "由于智能体可能走不同的路线，固定点基准测试存在测试覆盖率不足的局限性。",
+    "MobileProbe是一个轨迹感知红队框架，可自适应评估移动智能体。",
+    "该基准测试包含跨越12个移动应用程序的83个长期攻击实例。"
+   ]
+  },
+  "ko": {
+   "title": "MobileProbe: 궤적 인식 주입을 통한 모바일 에이전트의 적응형 보안 평가",
+   "summary": "모바일 GUI 에이전트는 사용자의 휴대전화 화면을 읽고 앱을 조작하여 다단계 작업을 수행합니다. 공격자는 일반적인 UI 내용에 악성 지시사항을 삽입하여 에이전트의 동작을 유도할 수 있으며, 이를 환경 주입 공격이라고 부릅니다. 기존 벤치마크는 고정된 단계에 의존하기 때문에 테스트 범위의 한계로 인해 보안 위험을 과소평가할 수 있습니다. 이에 연구원들은 궤적 인식 레드팀 프레임워크인 MobileProbe를 제안하여 모바일 에이전트를 적응형으로 평가합니다.",
+   "impact": "이 프레임워크는 개발자와 보안 팀이 배포 전에 모바일 에이전트의 취약점을 체계적으로 발견하도록 돕는 도구로 사용될 수 있습니다. 적응형 평가를 제공함으로써 기존의 고정형 벤치마크보다 더 철저한 보안 검증을 가능하게 할 수 있습니다.",
+   "keyPoints": [
+    "모바일 GUI 에이전트는 일반 UI 콘텐츠에 삽입된 환경 주입 공격에 취약할 수 있습니다.",
+    "기존 벤치마크는 에이전트가 다른 경로를 따를 경우 고정된 페이로드를 놓칠 수 있는 한계가 있습니다.",
+    "MobileProbe는 에이전트의 궤적을 따라 취약한 결정 지점을 찾아내고 페이로드를 정제하는 적응형 레드팀 프레임워크입니다.",
+    "12개의 모바일 앱에 걸친 83개의 장기 공격 인스턴스로 벤치마크가 구성되어 있습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6cec16413bbf953d",
+ "contentHash": "2dcc15efa5b1050d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T17:53:25.585Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "CrossPloit: A Benchmark for Cross-Version PoC Migration in Python Web Applications",
+   "summary": "Vulnerability databases often have incomplete affected-version ranges, leaving unlisted releases silently treated as safe. To help audit and demonstrate vulnerabilities on unlisted versions, researchers introduce CrossPloit, a benchmark of 127 migration instances across 45 CVEs in Python web applications. The benchmark tests automated tools on migrating proof-of-concept exploits to earlier versions, revealing under-reported exposure.",
+   "impact": "This research could help security teams and developers better evaluate vulnerabilities across different software versions and improve automated remediation or detection tools. However, low overall resolution rates among tested agents indicate that cross-version migration remains a difficult task.",
+   "keyPoints": [
+    "CrossPloit contains 127 migration instances across 45 CVEs in the Python web ecosystem.",
+    "The benchmark confirmed 149 vulnerable prior versions absent from four database affected-version lists.",
+    "The best agent configuration resolved 58.3% of instances, while attack-vector shifts proved especially difficult."
+   ]
+  },
+  "km": {
+   "title": "CrossPloit៖ សេចក្តីយោងសម្រាប់កាបំលាស់ទី PoC រវាងជំនាន់ផ្សេងគ្នាក្នុងកម្មវិធីគេហទំព័រ Python",
+   "summary": "មូលដ្ឋានទិន្នន័យភាពរងគ្រោះជារឿយៗមានជួរជំនាន់ដែលរងផលប៉ះពាល់មិនពេញលេញ ដែលធ្វើឲ្យការចេញផ្សាយដែលមិនបានរាយបញ្ជីត្រូវបានចាត់ទុកដោយស្ងាត់ស្ងៀមថាមានសុវត្ថិភាព។ ដើម្បីជួយពិនិត្យ និងបង្ហាញពីភាពរងគ្រោះនៅលើជំនាន់ដែលមិនបានរាយបញ្ជី អ្នកស្រាវជ្រាវបានណែនាំ CrossPloit ដែលជាសេចក្តីយោងនៃករណីបំលាស់ទីចំនួន ១២៧ លើ CVE ចំនួន ៤៥ ក្នុងប្រព័ន្ធអេកូឡូស៊ីគេហទំព័រ Python។ សេចក្តីយោងនេះសាកល្បងឧបករណ៍ស្វ័យប្រវត្តិលើការបំលាស់ទីការទាញយកផលចំណេញពីភស្តុតាងនៃគំនិតទៅកាន់ជំនាន់មុនៗ ដែលបង្ហាញពីការប៉ះពាល់ដែលមិនបានរាយការណ៍គ្រប់គ្រាន់។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍វាយតម្លៃភាពរងគ្រោះបានកាន់តែប្រសើរឡើងនៅទូទាំងជំនាន់កម្មវិធីផ្សេងៗ និងកែលម្អឧបករណ៍ស្វ័យប្រវត្តិ។ ទោះបីជាយ៉ាងណាក៏ដោយ អត្រាដោះស្រាយទាបក្នុងចំណោមភ្នាក់ងារដែលបានសាកល្បងបង្ហាញថាការបំលាស់ទីរវាងជំនាន់នៅតែជាកិច្ចការដ៏លំបាកមួយ។",
+   "keyPoints": [
+    "CrossPloit មានករណីបំលាស់ទីចំនួន ១២៧ លើ CVE ចំនួន ៤៥ ក្នុងប្រព័ន្ធអេកូឡូស៊ីគេហទំព័រ Python។",
+    "សេចក្តីយោងនេះបានបញ្ជាក់ពីជំនាន់មុនដែលមានភាពរងគ្រោះចំនួន ១៤៩ ដែលអវត្តមានពីបញ្ជីជំនាន់ដែលរងផលប៉ះពាល់របស់មូលដ្ឋានទិន្នន័យចំនួនបួន។",
+    "ការកំណត់រចនាសម្ព័ន្ធភ្នាក់ងារល្អបំផុតបានដោះស្រាយ ៥៨,៣ភាគរយ នៃករណី ខណៈដែលការប្តូរវ៉ិចទ័រវាយប្រហារមានការលំបាកជាពិសេស។"
+   ]
+  },
+  "zh-CN": {
+   "title": "CrossPloit：用于Python Web应用程序中跨版本PoC迁移的基准测试",
+   "summary": "漏洞数据库中的受影响版本范围通常不完整，导致未列出的版本被默默视为安全版本。为了审计未列出版本上的漏洞并提供可执行证据，研究人员引入了CrossPloit，这是一个包含Python Web生态系统中45个CVE下127个迁移实例的基准测试。该基准测试评估了将概念验证漏洞利用程序迁移到早期版本的自动化能力，揭示了未充分报告的暴露情况。",
+   "impact": "这项研究可以帮助安全团队和开发人员更好地评估不同软件版本中的漏洞，并改进自动化修复或检测工具。然而，测试代理的总体解决率较低，表明跨版本迁移仍然是一项艰巨的任务。",
+   "keyPoints": [
+    "CrossPloit包含Python Web生态系统中45个CVE的127个迁移实例。",
+    "该基准确认了4个数据库受影响版本列表中缺少的149个易受攻击的先前版本。",
+    "最佳代理配置解决了58.3%的实例，而攻击向量转移被证明尤其困难。"
+   ]
+  },
+  "ko": {
+   "title": "CrossPloit: 파이썬 웹 어플리케이션에서의 크로스 버젼 PoC 마이그레이션을 위한 벤치마크",
+   "summary": "취약점 데이터베이스의 영향받는 버전 범위는 종종 불완전하여 목록에 없는 릴리스가 조용히 안전한 것으로 취급되도록 만듭니다. 목록에 없는 버전의 취약점을 감사하고 증명하기 위해 연구원들은 파이썬 웹 생태계의 45개 CVE에 걸친 127개의 마이그레이션 인스턴스로 구성된 벤치마크인 CrossPloit을 소개합니다. 이 벤치마크는 개념 증명 익스플로잇을 이전 버전으로 마이그레이션하는 자동화 도구를 테스트하여 보고되지 않은 노출을 드러냅니다.",
+   "impact": "이 연구는 보안 팀과 개발자가 다양한 소프트웨어 버전의 취약점을 더 잘 평가하고 자동화된 수정 또는 탐지 도구를 개선하는 데 도움이 될 수 있습니다. 그러나 테스트된 에이전트의 낮은 전반적인 해결률은 버전 간 마이그레이션이 여전히 어려운 작업임을 나타냅니다.",
+   "keyPoints": [
+    "CrossPloit은 파이썬 웹 생태계의 45개 CVE에 걸쳐 127개의 마이그레이션 인스턴스를 포함합니다.",
+    "이 벤치마크는 4개의 데이터베이스 영향받는 버전 목록에서 누락된 149개의 취약한 이전 버전을 확인했습니다.",
+    "최고의 에이전트 구성은 인스턴스의 58.3%를 해결했으며, 공격 벡터 전환은 특히 어려운 것으로 나타났습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "384252220164cfa9",
+ "contentHash": "a78a2be4d82a8cdc",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T17:50:54.775Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+   "summary": "Security teams currently have many alerts, logs, and monitoring tools. Despite this, answering who or what is behind an activity and what they can access still takes too long during an attack. Suspicious activity might originate from an employee login, a machine account API call, or an AI agent accessing sensitive systems.",
+   "impact": "Security teams and technology users may face challenges in identifying the source of attacks quickly due to identity blind spots. Understanding these risks could help organizations improve their monitoring and security operations center effectiveness.",
+   "keyPoints": [
+    "Security teams have numerous alerts, logs, and monitoring tools.",
+    "Determining the actor behind an activity and their access rights takes too long.",
+    "Suspicious logins, unusual API calls, or AI agents can access sensitive systems using unexpected permissions."
+   ]
+  },
+  "km": {
+   "title": "សិក្ខាសាលាຜ່ານបណ្តាញ៖ មើលពីរបៀបដែលចំណុចខ្វះខាតអត្តសញ្ញាណធ្វើឱ្យ SOC របស់អ្នកមានហានិភ័យ និងរបៀបបិទវា",
+   "summary": "ក្រុមសន្តិសុខបច្ចុប្បន្នមានការជូនដំណឹង កំណត់ហេតុ និងឧបករណ៍ត្រួតពិនិត្យជាច្រើន។ ទោះបីជាយ៉ាងណាក៏ដោយ ការឆ្លើយសំណួរថាអ្នកណា ឬអ្វីដែលនៅពីក្រោយសកម្មភាព និងអ្វីដែលពួកគេអាចចូលប្រើប្រាស់នៅតែចំណាយពេលយូរពេកក្នុងអំឡុងពេលនៃការវាយប្រហារ។ សកម្មភាពគួរឱ្យសង្ស័យអាចមកពីការចូលប្រើប្រាស់របស់បុគ្គលិក ការហៅ API ពីម៉ាស៊ីន ឬភ្នាក់ងារ AI។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងប្រឈមមុខនឹងការលំបាកក្នុងការកំណត់អត្តសញ្ញាណប្រភពនៃការវាយប្រហារឱ្យបានរហ័ស។ ការយល់ដឹងពីហានិភ័យទាំងនេះអាចជួយដល់ស្ថាប័នក្នុងការកែលម្អការត្រួតពិនិត្យរបស់ពួកគេ។",
+   "keyPoints": [
+    "ក្រុមសន្តិសុខមានការជូនដំណឹង កំណត់ហេតុ និងឧបករណ៍ត្រួតពិនិត្យជាច្រើន។",
+    "ការកំណត់អត្តសញ្ញាណអ្នកនៅពីក្រោយសកម្មភាពត្រូវចំណាយពេលយូរ។",
+    "ការចូលប្រើប្រាស់គួរឱ្យសង្ស័យ និងការហៅ API អាចចូលប្រព័ន្ធរសើបដោយគ្មានអ្នកដឹង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "网络研讨会：了解身份盲点如何使您的 SOC 面临风险以及如何消除这些盲点",
+   "summary": "安全团队拥有比以往更多的警报、日志和监控工具。尽管如此，在发生攻击时，回答某个活动背后是谁或什么以及他们可以访问什么仍然需要花费太长时间。可疑登录可能来自员工，异常 API 调用可能来自机器账户，或者 AI 代理可能正在访问敏感系统。",
+   "impact": "由于身份盲点，安全团队和技术用户在快速识别攻击来源时可能会面临挑战。了解这些风险可能有助于组织改善监控和安全运营中心的效能。",
+   "keyPoints": [
+    "安全团队拥有大量的警报、日志和监控工具。",
+    "确定活动背后的主体及其访问权限需要很长时间。",
+    "可疑登录、异常 API 调用或 AI 代理可能会使用权限访问敏感系统。"
+   ]
+  },
+  "ko": {
+   "title": "웨비나: ID 사각지대가 SOC를 위협하는 방식과 이를 해소하는 방법 알아보기",
+   "summary": "보안 팀은 그 어느 때보다 많은 경고, 로그, 모니터링 도구를 가지고 있습니다. 그럼에도 불구하고 공격이 발생했을 때 활동의 주체가 누구인지, 무엇인지, 무엇에 접근할 수 있는지 파악하는 데는 여전히 오랜 시간이 걸립니다. 의심스러운 로그인은 직원, 머신 계정의 API 호출, 또는 AI 에이전트에서 비롯될 수 있습니다.",
+   "impact": "보안 팀과 기술 사용자는 ID 사각지대로 인해 공격의 출처를 신속하게 식별하는 데 어려움을 겪을 수 있습니다. 이러한 위험을 이해하면 조직이 모니터링 및 보안 운영 센터의 효과를 향상하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "보안 팀은 수많은 경고, 로그, 모니터링 도구를 보유하고 있습니다.",
+    "활동 배후의 주체와 접근 권한을 파악하는 데 오랜 시간이 걸립니다.",
+    "의심스러운 로그인, 비정상적인 API 호출, AI 에이전트가 민감한 시스템에 접근할 수 있습니다."
+   ]
+  }
+ }
+}

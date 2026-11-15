@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "cd877208a9d9554b",
+ "contentHash": "7a12fc8301c5af25",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T17:52:27.610Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+   "summary": "Since mid-August 2026, a phishing operation has targeted corporate users to steal live Google sessions. The campaign was designed to evade standard defender checks on links. Material Security's Threat Research team spotted the activity and took down hundreds of attacker domains in an effort named Operation CloudFire.",
+   "impact": "This campaign highlights sophisticated evasion tactics that bypass standard link inspection checks, potentially putting corporate Google sessions at risk. Security teams may need to adopt advanced behavioral analysis and session monitoring techniques to detect and mitigate similar proxy-based phishing operations.",
+   "keyPoints": [
+    "A phishing operation targeting corporate users began in mid-August 2026.",
+    "The campaign steals live Google sessions.",
+    "Links were deliberately designed to appear clean during standard defender checks.",
+    "Material Security's Threat Research team took down hundreds of attacker domains in Operation CloudFire."
+   ]
+  },
+  "km": {
+   "title": "ការអញ្ជើញប្រតិទិន និងប្រុកស៊ីផ្ទាល់៖ ស្វែងយល់ពីយុទ្ធនាការលួចវគ្គ Google",
+   "summary": "ចាប់តាំងពីពាក់កណ្តាលខែសីហា ឆ្នាំ២០២៦ មក ប្រតិបត្តិការបន្លំតាមអ៊ីនធឺណិតបានកំណត់គោលដៅលើអ្នកប្រើប្រាស់សាជីវកម្ម ដើម្បីលួចវគ្គ Google ផ្ទាល់។ យុទ្ធនាការនេះត្រូវបានរចនាឡើងដើម្បីគេចវេសពីការពិនិត្យតំណភ្ជាប់ធម្មតារបស់អ្នកការពារ។ ក្រុមស្រាវជ្រាវការគំរាមកំហែងនៅ Material Security បានរកឃើញសកម្មភាពនេះ និងបានបិទដែនអ្នកវាយប្រហាររាប់រយក្នុងកិច្ចខិតខំប្រឹងប្រែងមួយហៅថា Operation CloudFire។",
+   "impact": "យុទ្ធនាការនេះបង្ហាញពីល្បិចកលគេចវេសដ៏ទំនើបដែលរំលងការពិនិត្យតំណភ្ជាប់ស្តង់ដារ ដែលអាចធ្វើឱ្យវគ្គ Google របស់សាជីវកម្មប្រឈមនឹងហានិភ័យ។ ក្រុមសន្តិសុខប្រហែលជាត្រូវអនុម័តបច្ចេកទេសវិភាគអាកប្បកិរិយាកម្រិតខ្ពស់ និងការត្រួតពិនិត្យវគ្គ ដើម្បីរកឃើញ និងទប់ស្កាត់ប្រតិបត្តិការបន្លំតាមប្រុកស៊ីស្រដៀងគ្នា។",
+   "keyPoints": [
+    "ប្រតិបត្តិការបន្លំតាមអ៊ីនធឺណិតដែលកំណត់គោលដៅលើអ្នកប្រើប្រាស់សាជីវកម្មបានចាប់ផ្តើមនៅពាក់កណ្តាលខែសីហា ឆ្នាំ២០២៦។",
+    "យុទ្ធនាការនេះលួចវគ្គ Google ផ្ទាល់។",
+    "តំណភ្ជាប់ត្រូវបានរចនាឡើងយ៉ាងយកចិត្តទុកដាក់ឱ្យមើលទៅធម្មតាក្នុងអំឡុងពេលពិនិត្យរបស់ការពារស្តង់ដារ។",
+    "ក្រុមស្រាវជ្រាវការគំរាមកំហែងនៅ Material Security បានបិទដែនអ្នកវាយប្រហាររាប់រយក្នុង Operation CloudFire។"
+   ]
+  },
+  "zh-CN": {
+   "title": "日历邀请与实时代理：剖析谷歌会话劫持活动",
+   "summary": "自2026年8月中旬以来，一项网络钓鱼行动一直在窃取企业用户的实时Google会话。该攻击活动的运营者故意设计，使防御者通常用于判断链接安全性的所有检查都显示正常。Material Security的威胁研究团队发现了这一活动，并已下架了数百个攻击者域，该团队将此项工作称为Operation CloudFire。",
+   "impact": "这一攻击活动突显了绕过标准链接检查的高级规避策略，可能使企业的Google会话面临风险。安全团队可能需要采用高级的行为分析和会话监控技术来检测并减轻类似基于代理的网络钓鱼行动。",
+   "keyPoints": [
+    "针对企业用户的网络钓鱼行动始于2026年8月中旬。",
+    "该活动会窃取实时的Google会话。",
+    "链接经过故意设计，在常规防御检查中显示为安全。",
+    "Material Security的威胁研究团队在Operation CloudFire行动中下架了数百个攻击者域。"
+   ]
+  },
+  "ko": {
+   "title": "캘린더 초대와 라이브 프록시: 구글 세션 하이재킹 캠페인 분석",
+   "summary": "2026년 8월 중순 이후 기업 사용자의 라이브 Google 세션을 탈취하는 피싱 작업이 진행 중입니다. 공격자는 방어자가 링크를 판단할 때 사용하는 모든 검사에서 정상으로 보이도록 이 캠페인을 의도적으로 설계했습니다. Material Security의 위협 연구 팀이 이 캠페인을 포착했으며, Operation CloudFire라는 이름의 노력을 통해 수백 개의 공격자 도메인을 차단했습니다.",
+   "impact": "이 캠페인은 표준 링크 검사 방어책을 우회하는 정교한 회피 전술을 보여주며, 기업의 Google 세션을 위험에 빠뜨릴 수 있습니다. 보안 팀은 유사한 프록시 기반 피싱 작업을 감지하고 완화하기 위해 고급 행동 분석 및 세션 모니터링 기법을 도입해야 할 수 있습니다.",
+   "keyPoints": [
+    "기업 사용자를 대상으로 한 피싱 작업이 2026년 8월 중순부터 시작되었습니다.",
+    "이 캠페인은 라이브 Google 세션을 탈취합니다.",
+    "링크는 표준 방어 검사에서 깨끗하게 보이도록 의도적으로 설계되었습니다.",
+    "Material Security의 위협 연구 팀은 Operation CloudFire를 통해 수백 개의 공격자 도메인을 차단했습니다."
+   ]
+  }
+ }
+}

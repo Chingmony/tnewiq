@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "89146ff5418730c2",
+ "contentHash": "3a1f4be5326ff7c0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T17:51:36.559Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Siemens Building Automation and Energy Products",
+   "summary": "Siemens has issued an advisory regarding the impact of two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as php2shell, tracked as CVE-2026-109618 and CVE-2026-109619. Several Siemens building automation and energy products are affected by these vulnerabilities. Siemens is actively monitoring the situation, releasing new versions for some affected products, and recommending updates or mitigations.",
+   "impact": "Security teams and technology users operating affected Siemens products could face critical remote code execution risks if their systems are exposed. Organizations may need to apply available vendor fixes, update PHP versions, or implement network access protections and operational guidelines.",
+   "keyPoints": [
+    "Two critical unauthenticated remote code execution vulnerabilities, CVE-2026-109618 and CVE-2026-109619, affect the core PHP runtime.",
+    "Multiple Siemens building automation and energy products are affected, including AMIS TS, blueplanet 360 series, Energy Engage, and Spectrum Power versions.",
+    "Siemens recommends protecting network access, following operational guidelines, and updating to latest product or PHP versions where available."
+   ]
+  },
+  "km": {
+   "title": "Siemens Building Automation and Energy Products",
+   "summary": "ក្រុមហ៊ុន Siemens បានចេញផ្សាយសេចក្តីជូនដំណឹងមួយទាក់ទងនឹងផលប៉ះពាល់នៃចំណុចខ្សោយក្នុងការប្រតិបត្តិូកូដពីចម្ងាយចំនួនពីរ ដែលត្រូវបានតាមដានក្រោមលេខ CVE-2026-109618 និង CVE-2026-109619 នៅក្នុងប្រព័ន្ធរត់ការ PHP ។ ផលិតផលស្វ័យប្រវត្តិកម្មអគារ និងថាមពលរបស់ Siemens ជាច្រើនត្រូវបានប៉ះពាល់ដោយសារបញ្ហានេះ។ ក្រុមហ៊ុនកំពុងតាមដានយ៉ាងសកម្ម និងណែនាំឱ្យធ្វើបច្ចុប្បន្នភាពកំណែទម្រង់ចុងក្រោយ ឬអនុវត្តវិធានការណ៍ការពារ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលប្រើប្រាស់ផលិតផល Siemens ដែលរងផលប៉ះពាល់ អាចប្រឈមមុខនឹងហានិភ័យនៃការប្រតិបត្តិូកូដពីចម្ងាយ ប្រសិនបើប្រព័ន្ធរបស់ពួកគេមិនមានការការពារ។ អង្គភាពនានាប្រហែលជាត្រូវអនុវត្តការជួសជុលពីក្រុមហ៊ុនផលិត ឬការពារបណ្តាញរបស់ពួកគេ។",
+   "keyPoints": [
+    "ចំណុចខ្សោយចំនួនពីរគឺ CVE-2026-109618 និង CVE-2026-109619 ប៉ះពាល់ដល់ប្រព័ន្ធរត់ការ PHP ។",
+    "ផលិតផល Siemens ដូចជា AMIS TS, blueplanet 360, Energy Engage និង Spectrum Power ត្រូវបានរងផលប៉ះពាល់។",
+    "Siemens ណែនាំឱ្យការពារបណ្តាញ និងធ្វើបច្ចុប្បន្នភាពទៅកាន់កំណែចុងក្រោយដែលបានចេញផ្សាយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Siemens Building Automation and Energy Products",
+   "summary": "西门子发布了一项安全公告，涉及核心PHP语言运行时中被称为php2shell的两个严重且未经身份验证的远程代码执行漏洞（CVE-2026-109618和CVE-2026-109619）对西门子软件产品的影响。多个西门子楼宇自动化和能源产品受到了这些漏洞的影响。西门子正在积极监控局势，为部分受影响的产品发布新版本，并建议进行更新或采取缓解措施。",
+   "impact": "如果使用受影响西门子产品的系统暴露在网络中，安全团队和技术用户可能会面临严重的远程代码执行风险。组织可能需要应用可用的厂商修复程序、更新PHP版本，或根据运营指南配置网络访问保护。",
+   "keyPoints": [
+    "两个严重漏洞CVE-2026-109618和CVE-2026-109619影响核心PHP运行时。",
+    "多个西门子楼宇自动化和能源产品受到影响，包括AMIS TS、blueplanet 360系列、Energy Engage和Spectrum Power。",
+    "西门子建议保护网络访问，遵循运营指南，并在有可用修复时升级到最新版本。"
+   ]
+  },
+  "ko": {
+   "title": "Siemens Building Automation and Energy Products",
+   "summary": "지멘스는 코어 PHP 언어 런타임의 php2shell로 알려진 두 가지 치명적인 인증되지 않은 원격 코드 실행 취약점(CVE-2026-109618 및 CVE-2026-109619)이 지멘스 소프트웨어 제품에 미치는 영향에 대한 권고안을 발표했습니다. 여러 지멘스 빌딩 자동화 및 에너지 제품이 이 취약점들의 영향을 받습니다. 지멘스는 상황을 모니터링하며 영향받는 일부 제품에 대한새 버전을 출시하고 업데이트 및 완화 조치를 권장하고 있습니다.",
+   "impact": "영향을 받는 지멘스 제품을 운영하는 보안 팀과 기술 사용자는 시스템이 노출된 경우 심각한 원격 코드 실행 위험에 직면할 수 있습니다. 조직은 공급업체 패치를 적용하거나 PHP 버전을 업데이트하거나 네트워크 액세스 보호를 구현해야 할 수 있습니다.",
+   "keyPoints": [
+    "두 가지 치명적인 취약점인 CVE-2026-109618 및 CVE-2026-109619이 코어 PHP 런타임에 영향을 미칩니다.",
+    "AMIS TS, blueplanet 360 시리즈, Energy Engage, Spectrum Power 등 여러 지멘스 빌딩 자동화 및 에너지 제품이 영향을 받습니다.",
+    "지멘스는 네트워크 액세스를 보호하고, 운영 지침을 따르며, 최신 버전으로 업데이트할 것을 권장합니다."
+   ]
+  }
+ }
+}

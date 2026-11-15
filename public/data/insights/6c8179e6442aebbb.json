@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6c8179e6442aebbb",
+ "contentHash": "c56c4fa0e7efa3dd",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T17:55:27.098Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Meta Unveils 'e-means' to Process AI Data Up to 45 Times Faster",
+   "summary": "Meta has open-sourced 'e-means', an algorithm that operates up to 45 times faster on GPUs than traditional data clustering algorithms. Meta researchers published a research paper on e-means on arXiv on the 6th local time. This improved algorithm is designed to accelerate data clustering speed while maintaining or improving result quality.",
+   "impact": "This development could significantly reduce the computation time and costs required to group large-scale data by similar characteristics. Consequently, it may improve the construction efficiency of AI search and recommendation systems for developers and technology users.",
+   "keyPoints": [
+    "Meta open-sourced 'e-means', which is up to 45 times faster on GPUs than existing data clustering algorithms.",
+    "Researchers published the research paper on arXiv on the 6th local time.",
+    "It is an improved version of the k-means algorithm that speeds up clustering while preserving or enhancing quality."
+   ]
+  },
+  "km": {
+   "title": "មេតា ដាក់បង្ហាញ 'e-means' ដែលធ្វើឲ្យការដំណើរការទិន្នន័យ AI លឿនជាងមុនរហូតដល់ ៤៥ដង",
+   "summary": "មេតា បានបញ្ចេញកូដប្រភពបើកចំហ 'e-means' ដែលជាក្បួនដោះស្រាយដំណើរការលើ GPU លឿនជាងក្បួនដោះស្រាយចង្កោមទិន្នន័យចាស់រហូតដល់ ៤៥ដង។ អ្នកស្រាវជ្រាវរបស់ មេតា បានផ្សព្វផ្សាយឯកសារស្រាវជ្រាវអំពី e-means នៅលើ arXiv កាលពីថ្ងៃទី៦ ម៉ោងក្នុងស្រុក។ ក្បួនដោះស្រាយដែលបានកែលម្អនេះត្រូវបានបង្កើតឡើងដើម្បីបង្កើនល្បឿននៃការដាក់ជាចង្កោមទិន្នន័យ ខណៈពេលដែលរក្សា ឬកែលម្អគុណភាពនៃលទ្ធផល។",
+   "impact": "ការអភិវឌ្ឍនេះអាចកាត់បន្ថយយ៉ាងខ្លាំងនូវពេលវេលាគណនា និងការចំណាយដែលត្រូវការដើម្បីដាក់ក្រុមទិន្នន័យខ្នាតធំតាមលក្ខណៈស្រដៀងគ្នា។ ជាលទ្ធផល វាអាចកែលម្អប្រសិទ្ធភាពនៃការបង្កើតប្រព័ន្ធស្វែងរក និងណែនាំរបស់ AI សម្រាប់អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យា។",
+   "keyPoints": [
+    "មេតា បានបញ្ចេញកូដប្រភពបើកចំហ 'e-means' ដែលលឿនជាងមុនរហូតដល់ ៤៥ដងនៅលើ GPU បើធៀបនឹងក្បួនដោះស្រាយចង្កោមទិន្នន័យដែលមានស្រាប់។",
+    "អ្នកស្រាវជ្រាវបានបោះពុម្ពផ្សាយក្រដាសស្រាវជ្រាវនៅលើ arXiv កាលពីថ្ងៃទី៦ ម៉ោងក្នុងស្រុក។",
+    "វាជាកំណែទម្រង់នៃក្បួនដោះស្រាយ k-means ដែលបង្កើនល្បឿនចង្កោមខណៈពេលដែលរក្សាគុណភាព។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Meta发布“e-means”使AI数据处理速度提升高达45倍",
+   "summary": "Meta开源了“e-means”，该算法在GPU上的运行速度比传统的 数据聚类算法快高达45倍。Meta研究人员于当地时间6日在arXiv上公开发表了关于e-means的研究论文。作为对传统k-means算法的改进，该算法的特点是在提高数据聚类速度的同时，保持或提高了结果的质量。",
+   "impact": "这一进展可以大幅减少将大规模数据按相似特征进行分组所需的计算时间和成本。因此，它可能提高开发人员和技术用户构建AI搜索和推荐系统的效率。",
+   "keyPoints": [
+    "Meta开源了“e-means”，在GPU上比现有数据聚类算法快高达45倍。",
+    "研究人员于当地时间6日在arXiv上发布了研究论文。",
+    "它是对k-means算法的改进版本，在加快聚类速度的同时保持或提升了质量。"
+   ]
+  },
+  "ko": {
+   "title": "메타, AI 데이터 처리 최대 45배 빠르게 하는 'e-민즈' 공개",
+   "summary": "메타가 기존 데이터 군집화 알고리즘보다 GPU에서 최대 45배 빠르게 작동하는 'e-민즈(e-means)'를 오픈소스로 공개했다. 메타 연구진은 6일(현지시간) 아카이브에 e-민즈 연구 논문을 공개했다. 이는 기존 k-민즈를 개선한 알고리즘으로, 데이터 군집화 속도를 높이면서도 결과의 품질을 유지하거나 개선하는 것이 특징이다.",
+   "impact": "이번 공개는 대규모 데이터를 비슷한 특성끼리 묶는 데 필요한 연산 시간과 비용을 크게 줄여줄 수 있다. 이를 통해 개발자와 기술 사용자들은 AI 검색과 추천 시스템의 구축 효율을 높이는 데 도움을 얻을 수 있다.",
+   "keyPoints": [
+    "메타는 기존 데이터 군집화 알고리즘보다 GPU에서 최대 45배 빠른 'e-민즈'를 오픈소스로 공개했다.",
+    "메타 연구진은 6일(현지시간) 아카이브에 관련 연구 논문을 발표했다.",
+    "기존 k-민즈 알고리즘을 개선하여 군집화 속도를 높이고 품질을 유지 또는 개선했다."
+   ]
+  }
+ }
+}

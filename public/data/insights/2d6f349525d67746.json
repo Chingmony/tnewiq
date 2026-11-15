@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2d6f349525d67746",
+ "contentHash": "7d09d82e530289bd",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T17:53:05.202Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+   "summary": "PTC has released patches for a critical vulnerability in Windchill and FlexPLM software. The flaw, tracked as CVE-2026-126325, has a CVSS v4 score of 9.2 out of 10.0. It stems from improper input validation and deserialization of untrusted data.",
+   "impact": "This vulnerability could allow remote code execution if successfully exploited. Security teams and administrators should apply the available patches to protect their systems from potential risks.",
+   "keyPoints": [
+    "PTC patched a critical vulnerability in Windchill and FlexPLM.",
+    "The flaw is tracked as CVE-2026-126325 with a CVSS score of 9.2.",
+    "It involves improper input validation and deserialization of untrusted data.",
+    "Successful exploitation could result in remote code execution."
+   ]
+  },
+  "km": {
+   "title": "PTC ជួសជុលចំណុចខ្សោយដ៏គ្រោះថ្នាក់ក្នុង Windchill និង FlexPLM ដែលអាចអនុញ្ញាតឱ្យមានការប្រតិបត្តិលេខកូដពីចម្ងាយ",
+   "summary": "ក្រុមហ៊ុន PTC បានចេញផ្សាយបَច្ចចកវិទ្យាជួសជុលសម្រាប់ចំណុចខ្សោយដ៏គ្រោះថ្នាក់ថ្មីមួយដែលប៉ះពាល់ដល់កម្មវិធី Windchill និង FlexPLM។ ចំណុចខ្សោយសុវត្ថិភាពនេះត្រូវបានតាមដានក្រោមលេខ CVE-2026-126325 ដោយមានពិន្ទុ CVSS v4 គឺ 9.2 លើ 10.0។ វាបណ្តាលមកពីការផ្ទៀងផ្ទាត់ទិន្នន័យបញ្ចូលមិនបានត្រឹមត្រូវ និងការបំបែកទិន្នន័យដែលមិនគួរឱ្យទុកចិត្ត។",
+   "impact": "បញ្ហានេះអាចបណ្តាលឱ្យមានការប្រតិបត្តិលេខកូដពីចម្ងាយប្រសិនបើវាត្រូវបានកេងប្រវ័ញ្ចដោយជោគជ័យ។ ក្រុមការងារផ្នែកសន្តិសុខអាចចាំបាច់ត្រូវអនុវត្តបَច្ចចកវិទ្យាជួសជុលដើម្បីការពារប្រព័ន្ធ។",
+   "keyPoints": [
+    "PTC បានចេញបَច្ចចកវិទ្យាជួសជុលសម្រាប់ Windchill និង FlexPLM។",
+    "ចំណុចខ្សោយត្រូវបានតាមដានក្រោមលេខ CVE-2026-126325។",
+    "ពិន្ទុ CVSS v4 គឺ 9.2 លើ 10.0។",
+    "វាពាក់ព័ន្ធនឹងការផ្ទៀងផ្ទាត់ទិន្នន័យបញ្ចូលមិនបានត្រឹមត្រូវ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "PTC 修复了可能允许远程代码执行的 Windchill 和 FlexPLM 严重漏洞",
+   "summary": "PTC 已针对影响 Windchill 和 FlexPLM 软件的一项新的严重漏洞发布了补丁。该安全漏洞被追踪为 CVE-2026-126325，其 CVSS v4 评分最高为 10.0 分，得分为 9.2 分。该漏洞被描述为输入验证不当以及对不受信任的数据进行反序列化。",
+   "impact": "如果被成功利用，该漏洞可能会导致远程代码执行。安全团队和系统管理员可能需要应用这些补丁来确保系统安全。",
+   "keyPoints": [
+    "PTC 为 Windchill 和 FlexPLM 发布了补丁。",
+    "漏洞编号为 CVE-2026-126325，CVSS 评分为 9.2。",
+    "该漏洞源于输入验证不当和不可信数据的反序列化。",
+    "成功利用可能导致远程代码执行。"
+   ]
+  },
+  "ko": {
+   "title": "PTC, 원격 코드 실행으로 이어질 수 있는 Windchill 및 FlexPLM의 심각한 취약점 패치",
+   "summary": "PTC는 Windchill 및 FlexPLM 소프트웨어에 영향을 미치는 새로운 심각한 취약점에 대한 패치를 배포했습니다. CVE-2026-126325로 추적되는 이 보안 결함은 10.0 만점에 CVSS v4 점수 9.2를 기록했습니다. 이 문제는 부적절한 입력 유효성 검사 및 신뢰할 수 없는 데이터의 역직렬화로 설명됩니다.",
+   "impact": "이 취약점이 성공적으로 악용될 경우 원격 코드 실행으로 이어질 수 있습니다. 보안 팀은 시스템을 보호하기 위해 제공된 패치를 적용해야 합니다.",
+   "keyPoints": [
+    "PTC가 Windchill 및 FlexPLM 취약점에 대한 패치를 발표했습니다.",
+    "취약점은 CVE-2026-126325로 추적되며 CVSS 점수는 9.2입니다.",
+    "부적절한 입력 유효성 검사 및 신뢰할 수 없는 데이터의 역직렬화와 관련이 있습니다.",
+    "성공적으로 악용될 경우 원격 코드 실행이 발생할 수 있습니다."
+   ]
+  }
+ }
+}
