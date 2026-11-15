@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "00770221f05bc7a7",
+ "contentHash": "4afd3c6e3f1c85c7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T02:45:40.109Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "On cryptographically non-linear all-or-nothing transforms",
+   "summary": "Researchers investigated unconditionally secure cryptographically non-linear all-or-nothing transforms, differentiating between non-additivity, non-affinity, and cryptographic non-linearity. The study presented a computational method to enumerate general AONTs for the $(t, 3, 3)$ case with $t = 1$ and $2$, establishing the existence of non-additive AONTs. Additionally, a general construction of non-additive AONTs from linear ones was introduced using coordinate-wise symbol permutations.",
+   "impact": "This research could help security teams and cryptographers better understand non-linear all-or-nothing transforms and their mathematical properties. The findings and construction methods may influence how cryptographic schemes involving AONTs are analyzed and designed in the future.",
+   "keyPoints": [
+    "Investigated unconditionally secure cryptographically non-linear $(t, s, v)$-AONTs.",
+    "Established the existence of non-additive AONTs using a computational enumeration method.",
+    "Introduced a general construction of non-additive AONTs from linear ones via coordinate-wise symbol permutations.",
+    "Measured non-linearity using differential delta-F-uniformity and Walsh magnitude."
+   ]
+  },
+  "km": {
+   "title": "អំពីការបំប្លែង all-or-nothing ដែលមិនមែនជាលីនេអ៊ែរ cryptographically",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាអំពីការបំប្លែង all-or-nothing transforms (AONT) ដែលមានសុវត្ថិភាពគ្មានលក្ខខណ្ឌ និងមិនមែនជាលីនេអ៊ែរ cryptographically ដោយបែងចែករវាង non-additivity, non-affinity និង cryptographic non-linearity។ ការសិក្សានេះបានបង្ហាញពីវិធីសាស្ត្រគណនាដើម្បីរាប់បញ្ចូល AONT ទូទៅសម្រាប់ករណី $(t, 3, 3)$ ដែល $t = 1$ និង $2$ និងបានបញ្ជាក់ពីវត្តមានរបស់ non-additive AONTs។ បន្ថែមពីនេះ វិធីសាស្ត្រសាងសង់ទូទៅនៃ non-additive AONTs ពីលីនេអ៊ែរត្រូវបានណែនាំដោយប្រើការប្តូរទីតាំងសញ្ញាផ្អែកលើកូអរដោនេ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយក្រុមសន្តិសុខនិងអ្នកគ្រីបតូក្រាហ្វីយល់ដឹងកាន់តែច្បាស់អំពីការបំប្លែង non-linear all-or-nothing transforms និងលក្ខណៈគណិតវិទ្យារបស់វា។ ការរកឃើញនិងវិធីសាស្ត្រសាងសង់ទាំងនេះអាចជះឥទ្ធិពលដល់របៀបដែលគ្រោងការណ៍គ្រីបតូក្រាហ្វីពាក់ព័ន្ធនឹង AONT ត្រូវបានវិភាគនិងរចនានាពេលអនាគត។",
+   "keyPoints": [
+    "បានសិក្សាអំពី $(t, s, v)$-AONTs ដែលមិនមែនជាលីនេអ៊ែរ cryptographically និងមានសុវត្ថិភាពគ្មានលក្ខខណ្ឌ។",
+    "បានបញ្ជាក់ពីវត្តមានរបស់ non-additive AONTs ដោយប្រើវិធីសាស្ត្រគណនា។",
+    "បានណែនាំការសាងសង់ non-additive AONTs ពីលីនេអ៊ែរតាមរយៈការប្តូរទីតាំងសញ្ញាកូអរដោនេ។",
+    "បានវាស់វែងភាពមិនមែនជាលីនេអ៊ែរដោយប្រើ delta-F-uniformity និង Walsh magnitude។"
+   ]
+  },
+  "zh-CN": {
+   "title": "关于密码学非线性的全或无变换",
+   "summary": "研究人员调查了无条件安全的密码学非线性全或无变换（AONT），区分了非加性、非仿射和密码学非线性。该研究提出了一种计算方法，用于枚举当 $t = 1$ 和 $2$ 时 $(t, 3, 3)$ 情况下的通用 AONT，确立了非加性 AONT 的存在性。此外，研究人员还介绍了一种利用坐标符号置换从线性 AONT 构建非加性 AONT 的通用方法。",
+   "impact": "这项研究可以帮助安全团队和密码学家更好地理解非线性全或无变换及其数学属性。这些发现和构建方法可能会影响未来涉及 AONT 的密码方案的分析与设计。",
+   "keyPoints": [
+    "研究了无条件安全的密码学非线性 $(t, s, v)$-AONT。",
+    "通过计算枚举方法确立了非加性 AONT 的存在性。",
+    "引入了使用坐标符号置换从线性 AONT 构建非加性 AONT 的通用方法。",
+    "使用差分 delta-F 均匀性和沃尔什大小来测量非线性。"
+   ]
+  },
+  "ko": {
+   "title": "암호학적으로 비선형인 올오어낫띵 변환에 대하여",
+   "summary": "연구원들은 조건 없는 안전성을 가진 암호학적으로 비선형인 올오어낫띵 변환(AONT)을 조사하여 비가법성, 비아핀성, 암호학적 비선형성을 구분했습니다. 이번 연구에서는 $t = 1$ 및 $2$인 $(t, 3, 3)$ 경우에 초점을 맞추어 일반적인 AONT를 열거하는 계산 방법을 제시하고 비가법적 AONT의 존재를 입증했습니다. 또한 좌표별 기호 순열을 사용하여 선형 AONT로부터 비가법적 AONT를 생성하는 일반적인 구축 방법을 도입했습니다.",
+   "impact": "이번 연구는 보안 팀과 암호학자들이 비선형 올오어낫띵 변환과 그 수학적 특성을 더 잘 이해하는 데 도움이 될 수 있습니다. 이러한 연구 결과와 구축 방법은 향후 AONT가 포함된 암호 체계의 분석 및 설계에 영향을 미칠 수 있습니다.",
+   "keyPoints": [
+    "조건 없는 안전성을 갖춘 암호학적 비선형 $(t, s, v)$-AONT를 조사함.",
+    "계산적 열거 방법을 사용하여 비가법적 AONT의 존재를 입증함.",
+    "좌표별 기호 순열을 통해 선형 AONT로부터 비가법적 AONT를 구축하는 일반적인 방법을 도입함.",
+    "차등 delta-F 균일성과 Walsh 크기를 사용하여 비선형성을 측정함."
+   ]
+  }
+ }
+}

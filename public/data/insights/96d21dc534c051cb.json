@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "96d21dc534c051cb",
+ "contentHash": "fbf42ff3739283b0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T02:49:45.556Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+   "summary": "Citrix has released patches addressing multiple critical security flaws affecting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console. These vulnerabilities could potentially result in denial-of-service conditions or authentication bypasses. Among the critical issues is CVE-2026-120868, a memory overflow vulnerability in Packet with a CVSS score of 9.3.",
+   "impact": "Security teams managing Citrix products should review the newly released patches and update vulnerable systems promptly to mitigate severe risks such as denial-of-service and authentication bypass. Failing to apply these updates could leave NetScaler deployments exposed to critical exploits.",
+   "keyPoints": [
+    "Citrix patched 12 flaws impacting NetScaler and Secure Access Client.",
+    "Flaws include authentication bypass and denial-of-service risks.",
+    "CVE-2026-120868 is a memory overflow vulnerability with a CVSS score of 9.3."
+   ]
+  },
+  "km": {
+   "title": "Citrix ធ្វើបច្ចុប្បន្នភាពកំហុស NetScaler និង Secure Access Client ចំនួន ១២ រួមទាំងការរំលងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ",
+   "summary": "ក្រុមហ៊ុន Citrix បានចេញផ្សាយបច្ចុប្បន្នភាពសុវត្ថិភាពដើម្បីដោះស្រាយបញ្ហាចន្លោះប្រហោងសុវត្ថិភាពធ្ងន់ធ្ងរជាច្រើនដែលប៉ះពាល់ដល់ NetScaler ADC, Citrix NetScaler Gateway និង NetScaler Console។ ភាពងាយរងគ្រោះទាំងនេះអាចបណ្តាលឱ្យមានការរអាក់រអួលសេវាកម្ម ឬការរំលងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ។ ក្នុងចំណោមបញ្ហាសំខាន់ៗទាំងនោះមាន CVE-2026-120868 ដែលជាកំហុស tràn bộ nhớ ក្នុងកម្រិត CVSS ៩,៣។",
+   "impact": "ក្រុមការងារសន្តិសុខគួរតែពិនិត្យមើលបច្ចុប្បន្នភាពសុវត្ថិភាពទាំងនេះ និងធ្វើបច្ចុប្បន្នភាពប្រព័ន្ធដែលងាយរងគ្រោះជាបន្ទាន់ ដើម្បីទប់ស្កាត់ហានិភ័យធ្ងន់ធ្ងរដូចជាការរំលងការផ្ទៀងផ្ទាត់និងការរអាក់រអួលសេវាកម្ម។",
+   "keyPoints": [
+    "Citrix បានជួសជុលកំហុសចំនួន ១២ ដែលប៉ះពាល់ដល់ NetScaler និង Secure Access Client។",
+    "កំហុសទាំងនោះរួមមានការរំលងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវនិងការបង្កបញ្ហារអាក់រអួលសេវាកម្ម។",
+    "CVE-2026-120868 គឺជាចន្លោះប្រហោងหน่วยความจำហួសកម្រិតដែលមានពិន្ទុ CVSS ៩,៣។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Citrix 修复了 NetScaler 和 Secure Access Client 的 12 个漏洞，包括身份验证绕过",
+   "summary": "Citrix 已发布补丁，修复了影响 NetScaler ADC、Citrix NetScaler Gateway 和 NetScaler Console 的多个严重安全漏洞，这些漏洞可能导致拒绝服务或身份验证绕过。受影响的关键漏洞之一是 CVE-2026-120868，这是一个 CVSS 评分为 9.3 的 Packet 内存溢出漏洞。",
+   "impact": "负责管理 Citrix 产品的安全团队应审查新发布的补丁并及时更新受影响的系统，以防范拒绝服务和身份验证绕过等严重风险。未能应用这些更新可能会使 NetScaler 部署面临被攻击的暴露风险。",
+   "keyPoints": [
+    "Citrix 修复了影响 NetScaler 和 Secure Access Client 的 12 个漏洞。",
+    "漏洞包括身份验证绕过和拒绝服务风险。",
+    "CVE-2026-120868 是一个 CVSS 评分为 9.3 的内存溢出漏洞。"
+   ]
+  },
+  "ko": {
+   "title": "Citrix, 인증 우회를 포함한 NetScaler 및 Secure Access Client 취약점 12개 패치",
+   "summary": "Citrix는 NetScaler ADC, Citrix NetScaler Gateway 및 NetScaler Console에 영향을 미치는 여러 치명적인 보안 결함을 해결하기 위한 패치를 배포했습니다. 이러한 취약점은 서비스 거부 또는 인증 우회로 이어질 수 있습니다. 주요 취약점 중 하나인 CVE-2026-120868은 CVSS 점수 9.3점의 Packet 메모리 오버플로우 취약점입니다.",
+   "impact": "Citrix 제품을 관리하는 보안 팀은 새로 공개된 패치를 검토하고 취약한 시스템을 신속하게 업데이트하여 서비스 거부 및 인증 우회와 같은 심각한 위험을 완화해야 합니다. 업데이트를 적용하지 않으면 NetScaler 배포 환경이 공격에 노출될 수 있습니다.",
+   "keyPoints": [
+    "Citrix는 NetScaler 및 Secure Access Client에 영향을 미치는 12개의 결함을 패치했습니다.",
+    "취약점에는 인증 우회 및 서비스 거부 위험이 포함됩니다.",
+    "CVE-2026-120868은 CVSS 점수 9.3점의 메모리 오버플로우 취약점입니다."
+   ]
+  }
+ }
+}

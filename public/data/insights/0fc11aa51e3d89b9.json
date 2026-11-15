@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0fc11aa51e3d89b9",
+ "contentHash": "7c398ac5c264fdae",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T02:46:23.219Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Discovering Effective Agent Memory Designs through Program Evolution",
+   "summary": "Researchers introduced MAPE, a framework using program evolution to discover agent memory designs from minimal seeds through a lifecycle interface and an iterative diagnosis-proposal loop. Experiments on LoCoMo and LongMemEval showed an absolute accuracy gain of up to 12% over manually designed baselines while operating at 35% of the serving cost. The framework also identified recurring design patterns, such as retaining raw conversations and composing retrieved evidence according to query intent.",
+   "impact": "This approach could help developers optimize agent memory systems for both higher accuracy and lower serving costs. Security and technology teams may also benefit from the open-source code and transferrable design patterns across benchmarks.",
+   "keyPoints": [
+    "MAPE evolves whole memory programs from minimal seeds.",
+    "Achieved up to 12% absolute accuracy gain over manual baselines at 35% serving cost on LoCoMo and LongMemEval.",
+    "Transplanting the composition module into five existing memory systems improved their accuracy.",
+    "Source code is available on GitHub."
+   ]
+  },
+  "km": {
+   "title": "การរកឃើញការរចនាអង្គចងចាំភ្នាក់ងារប្រកបដោយប្រសិទ្ធភាពតាមរយៈការវិវត្តកម្មវិធី",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំក្របខ័ណ្ឌ MAPE ដែលប្រើប្រាស់ការវិវត្តកម្មវិធីដើម្បីស្វែងរកការរចនាអង្គចងចាំភ្នាក់ងារពីគ្រាប់ពូជអប្បបរមា។ ការពិសោធន៍នៅលើ LoCoMo និង LongMemEval បានបង្ហាញពីការកើនឡើងភាពត្រឹមត្រូវរហូតដល់ 12% បើធៀបនឹងមូលដ្ឋានដែលបានរចនាដោយដៃក្នុងតម្លៃបម្រើការ 35%។ ការរកឃើញនេះក៏បានកំណត់លំនាំរចនាដដែលៗសម្រាប់ការរចនាអង្គចងចាំភ្នាក់ងារផងដែរ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍បង្កើនប្រសិទ្ធភាពប្រព័ន្ធអង្គចងចាំភ្នាក់ងារសម្រាប់ភាពត្រឹមត្រូវខ្ពស់ជាងមុន និងកាត់បន្ថយថ្លៃដើមបម្រើការ។",
+   "keyPoints": [
+    "MAPE វិវត្តកម្មវិធីអង្គចងចាំទាំងមូលពីគ្រាប់ពូជអប្បបរមា។",
+    "ទទួលបានការកើនឡើងភាពត្រឹមត្រូវរហូតដល់ 12% លើ LoCoMo និង LongMemEval។",
+    "កូដប្រភពមាននៅលើ GitHub។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过程序演化发现有效的智能体记忆设计",
+   "summary": "研究人员介绍了MAPE框架，该框架通过程序演化，利用标准化生命周期接口和迭代式诊断-提议循环，从极简种子中发现智能体记忆设计。在LoCoMo和LongMemEval上的实验表明，与手动设计的基线相比，绝对准确率提升了高达12%，而服务成本仅为35%。研究还识别并验证了两个重复出现的记忆设计模式。",
+   "impact": "这种方法可以帮助开发人员优化智能体记忆系统，在提高准确性的同时降低服务成本。跨基准和后端的迁移能力也为技术团队提供了新的设计思路。",
+   "keyPoints": [
+    "MAPE通过极简种子演化出完整的记忆程序。",
+    "在LoCoMo和LongMemEval上实现了高达12%的绝对准确率提升，服务成本降至35%。",
+    "识别出的设计模式包括保留原始对话以及根据查询意图组合检索到的证据。",
+    "源代码已在GitHub上发布。"
+   ]
+  },
+  "ko": {
+   "title": "프로그램 진화를 통한 효과적인 에이전트 메모리 설계 발견",
+   "summary": "연구진은 최소한의 시드로부터 표준화된 생명주기 인터페이스와 반복적인 진단-제안 루프를 통해 에이전트 메모리 설계를 발견하는 프레임워크인 MAPE를 소개했다. LoCoMo 및 LongMemEval 실험에서 수동 설계 기준선 대비 최대 12%의 절대 정확도 향상을 보였으며 서빙 비용은 35% 수준으로 낮추었다. 또한 연구는 원본 대화 유지 및 쿼리 의도에 따른 검색된 증거 구성 등 반복되는 설계 패턴을 식별했다.",
+   "impact": "이 접근 방식은 개발자가 더 높은 정확도와 낮은 서빙 비용을 위해 에이전트 메모리 시스템을 최적화하는 데 도움을 줄 수 있다. 벤치마크 간 전송 가능성과 오픈소스 코드는 기술 팀에 유용한 통찰을 제공할 수 있다.",
+   "keyPoints": [
+    "MAPE는 최소한의 시드로부터 전체 메모리 프로그램을 진화시킵니다.",
+    "LoCoMo와 LongMemEval에서 수동 기준선 대비 최대 12%의 절대 정확도 향상과 35%의 서빙 비용을 달성했습니다.",
+    "구성 모듈을 기존 5개 메모리 시스템에 이식하여 정확도를 향상시켰습니다.",
+    "소스 코드는 GitHub에서 제공됩니다."
+   ]
+  }
+ }
+}

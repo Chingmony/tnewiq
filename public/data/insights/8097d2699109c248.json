@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8097d2699109c248",
+ "contentHash": "906c4cb40bf55a7d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T02:47:36.216Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Infrastructure for Verifiable AI: Where Proof Costs Go and How Hardware Can Help",
+   "summary": "Researchers introduce a four-layer framework and original measurements to analyze the cost of zero-knowledge proofs in verifiable artificial intelligence. By testing six provers and seven kernels, the study examines how proof systems and hardware platforms interact during neural-network workloads. The findings show that dominant costs vary depending on the proof system and input length.",
+   "impact": "Security teams and developers working on verifiable artificial intelligence may use these findings to better understand the performance limits of hardware acceleration. The research highlights that both device memory capacity and kernel-level execution limits must be considered alongside pure execution time.",
+   "keyPoints": [
+    "A four-layer framework links verifiable AI workloads, proof systems, cryptographic kernels, and hardware platforms.",
+    "Measurements show that dominant costs change depending on the proof system and input length.",
+    "Memory capacity is critical, as a 13-billion-parameter fine-tuning configuration exceeded a 40-gigabyte graphics processor but finished on an 80-gigabyte device.",
+    "Kernel profiling identified instruction issue and synchronization limits that bandwidth-only models miss."
+   ]
+  },
+  "km": {
+   "title": "ហេដ្ឋារចនាសម្ព័ន្ធសម្រាប់ AI ដែលអាចផ្ទៀងផ្ទាត់បាន៖ ទីកន្លែងដែលថ្លៃដើមនៃការបញ្ជាក់ទៅ និងរបៀបដែលផ្នែករឹងអាចជួយ",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំក្របខ័ណ្ឌបួនស្រទាប់ និងការវាស់វែងដើម ដើម្បីវិភាគថ្លៃដើមនៃការបញ្ជាក់ zero-knowledge ក្នុងការបញ្ជាក់បញ្ញាសិប្បនិម្មិត។ តាមរយៈការធ្វើតេស្តអ្នកបញ្ជាក់ចំនួនប្រាំាំ និងខឺណែលចំនួនប្រាំពីរ ការសិក្សានេះពិនិត្យមើលពីរបៀបដែលប្រព័ន្ធបញ្ជាក់ និងវេទិកាផ្នែករឹងទាក់ទងគ្នាអំឡុងពេលដំណើរការបណ្តាញប្រសាទ។ ការរកឃើញបង្ហាញថាថ្លៃដើមសំខាន់ៗប្រែប្រួលអាស្រ័យលើប្រព័ន្ធបញ្ជាក់ និងប្រវែងបញ្ចូល។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ដែលធ្វើការលើបញ្ញាសិប្បនិម្មិតអាចប្រើប្រាស់ការរកឃើញទាំងនេះ ដើម្បីយល់កាន់តែច្បាស់អំពីដែនកំណត់នៃការអនុវត្តនៃការបង្កើនល្បឿនផ្នែករឹង។ ការស្រាវជ្រាវបង្ហាញថាទាំងសមត្ថភាពអង្គចងចាំ និងដែនកំណត់នៃការអនុវត្តកម្រិតខឺណែលត្រូវតែយកមកពិចារណា។",
+   "keyPoints": [
+    "ក្របខ័ណ្ឌបួនស្រទាប់ភ្ជាប់បន្ទុកការងារ AI ការបញ្ជាក់ប្រព័ន្ធ ខឺណែលគ្រីបតូ និងវេទិកាផ្នែករឹង។",
+    "ការវាស់វែងបង្ហាញថាថ្លៃដើមសំខាន់ៗផ្លាស់ប្តូរទៅតាមប្រព័ន្ធបញ្ជាក់ និងប្រវែងបញ្ចូល។",
+    "សមត្ថភាពអង្គចងចាំមានសារៈសំខាន់ខ្លាំងណាស់ ដូចជាការកំណត់រចនាសម្ព័ន្ធប៉ារ៉ាម៉ែត្រ 13 ពាន់លានបានលើសសមត្ថភាពក្រាហ្វិកប្រូសេស៊ីស 40 GB។",
+    "ការកំណត់ប្រវត្តិខឺណែលបានកំណត់បញ្ហានៃការចេញបញ្ជា និងដែនកំណត់ធ្វើសមកាលកម្ម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "可验证AI的基础设施：证明成本去向与硬件如何提供帮助",
+   "summary": "研究人员引入了一个四层框架和原始测量数据，以分析可验证人工智能中零知识证明的成本。通过测试六个证明器和七个内核，该研究检验了神经网络工作负载中证明系统与硬件平台如何相互作用。研究结果表明，主要成本会随着证明系统和输入长度的变化而改变。",
+   "impact": "致力于可验证人工智能的安全团队和开发人员可以利用这些研究结果，更好地理解硬件加速的性能极限。研究强调，在评估执行时间的同时，必须考虑设备内存容量和内核级执行限制。",
+   "keyPoints": [
+    "四层框架将可验证AI工作负载、证明系统、密码学内核和硬件平台连接起来。",
+    "测量显示主要成本随证明系统和输入长度而变化。",
+    "内存容量至关重要，因为130亿参数的微调配置超出了40GB图形处理器的容量，但在80GB设备上完成了。",
+    "内核分析发现了纯带宽模型所忽略的指令发布和同步限制。"
+   ]
+  },
+  "ko": {
+   "title": "검증 가능한 AI 인프라: 증명 비용의 행방과 하드웨어가 도울 수 있는 방법",
+   "summary": "연구원들은 검증 가능한 인공지능에서 영지식 증명의 비용을 분석하기 위해 4계층 프레임워크와 원본 측정값을 도입했습니다. 6개의 증명기와 7개의 커널을 테스트하여 신경망 워크로드에서 증명 시스템과 하드웨어 플랫폼이 어떻게 상호 작용하는지 조사했습니다. 측정 결과 주요 비용은 증명 시스템과 입력 길이에 따라 달라지는 것으로 나타났습니다.",
+   "impact": "검증 가능한 인공지능을 다루는 보안 팀과 개발자는 이 연구 결과를 활용하여 하드웨어 가속의 성능 한계를 더 잘 이해할 수 있습니다. 연구는 순수 실행 시간뿐만 아니라 장치 메모리 용량과 커널 수준의 실행 제한도 함께 고려해야 함을 강조합니다.",
+   "keyPoints": [
+    "4계층 프레임워크는 검증 가능한 AI 워크로드, 증명 시스템, 암호학적 커널, 하드웨어 플랫폼을 연결합니다.",
+    "측정 결과 주요 비용은 증명 시스템과 입력 길이에 따라 변경됩니다.",
+    "130억 개의 매개변수 미세 조정 구성이 40기가바이트 그래픽 프로세서의 용량을 초과했으나 80기가바이트 장치에서 완료되는 등 메모리 용량이 중요합니다.",
+    "커널 프로파일링은 대역폭 전용 모델이 놓치는 명령어 발행 및 동기화 한계를 식별했습니다."
+   ]
+  }
+ }
+}

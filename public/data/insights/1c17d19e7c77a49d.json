@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1c17d19e7c77a49d",
+ "contentHash": "f15853e6eba50b6a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T02:46:02.586Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Optimal Single-History Tokenization Disambiguation for Provably Secure Linguistic Steganography",
+   "summary": "Researchers address the issue of ambiguous tokenizations breaking extraction in provably secure linguistic steganography. They prove that error-free extraction with a single-history receiver requires abandoning stop entropy at every step, and they introduce coin projection to fix these stop decisions using shared randomness. This closed-form scheme preserves ordinary sampling, works with any distribution coder, and refines SyncPool across keys. Experiments across English, Chinese, and Japanese show that coin projection retains 91-93% of string entropy and significantly outperforms SyncPool in message bit capacity.",
+   "impact": "This research could help developers and security teams working on linguistic steganography by providing a more efficient, error-free tokenization disambiguation method that preserves string entropy and improves message capacity.",
+   "keyPoints": [
+    "Ambiguous tokenizations break extraction in provably secure linguistic steganography.",
+    "A single-history receiver must give up stop entropy if extraction is exact and error-free.",
+    "Coin projection is a closed-form scheme that fixes stop decisions using shared randomness.",
+    "Coin projection retains 91-93% of string entropy and outperforms SyncPool across English, Chinese, and Japanese."
+   ]
+  },
+  "km": {
+   "title": "ការបកស្រាយពាក្យមិនច្បាស់លាស់ល្អបំផុតសម្រាប់ស្ទីហ្គាណូហ្គ្រាហ្វីភាសាដែលមានសុវត្ថិភាពបញ្ជាក់",
+   "summary": "អ្នកស្រាវជ្រាវបានដោះស្រាយបញ្ហានៃការបកស្រាយថូខិនមិនច្បាស់លាស់ ដែលបំផ្លាញការទាញយកនៅក្នុងស្ទីហ្គាណូហ្គ្រាហ្វីភាសាដែលមានសុវត្ថិភាពបញ្ជាក់។ ពួកគេបានបង្ហាញថាការទាញយកដោយគ្មានកំហុសជាមួយអ្នកទទួលប្រវត្តិរូបតែមួយទាមទារឱ្យបោះបង់ចោលអង់ត្រូពីបញ្ឈប់នៅរាល់ជំហាន ហើយពួកគេបានណែនាំវិធីសាស្ត្រ coin projection ដើម្បីជួសជុលការសម្រេចចិត្តបញ្ឈប់ទាំងនេះដោយប្រើភាពចៃដន្យរួមគ្នា។ គ្រោងការណ៍នេះរក្សាការយកគំរូធម្មតា ដំណើរការជាមួយកូដឌ័រចែកចាយណាមួយ និងកែលម្អ SyncPool នៅគ្រប់សោទាំងអស់។ ការពិសោធន៍លើភាសាអង់គ្លេស ចិន និងជប៉ុនបង្ហាញថា coin projection រក្សាបាន 91-93% នៃអង់ត្រូពីខ្សែអក្សរ និងដំណើរការប្រសើរជាង SyncPool យ៉ាងខ្លាំង។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខដែលធ្វើការលើស្ទីហ្គាណូហ្គ្រាហ្វីភាសា ដោយផ្តល់នូវវិធីសាស្ត្របកស្រាយថូខិនដែលមានប្រសិទ្ធភាព និងគ្មានកំហុស ដែលរក្សាអង់ត្រូពីខ្សែអក្សរនិងកែលម្អសមត្ថភាពសារ។",
+   "keyPoints": [
+    "ការបកស្រាយថូខិនមិនច្បាស់លាស់បំផ្លាញការទាញយកនៅក្នុងស្ទីហ្គាណូហ្គ្រាហ្វីភាសាដែលមានសុវត្ថិភាពបញ្ជាក់។",
+    "អ្នកទទួលប្រវត្តិរូបតែមួយត្រូវតែបោះបង់ចោលអង់ត្រូពីបញ្ឈប់ប្រសិនបើការទាញយកគឺពិតប្រាកដនិងគ្មានកំហុស។",
+    "Coin projection គឺជាគ្រោងការណ៍ដែលជួសជុលការសម្រេចចិត្តបញ្ឈប់ដោយប្រើភាពចៃដន្យរួមគ្នា។",
+    "Coin projection រក្សាបាន 91-93% នៃអង់ត្រូពីខ្សែអក្សរ និងលើសពី SyncPool លើភាសាអង់គ្លេស ចិន និងជប៉ុន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "用于可证明安全语言隐写术的最优单历史分词消歧",
+   "summary": "研究人员解决了可证明安全的语言隐写术中分词歧义破坏提取的问题。他们证明了在全支持语言模型中，若要实现无误提取，单历史接收方在每一步都必须放弃停止熵，并引入了通过共享 randomness 来修复这些停止决策的闭式方案 coin projection。该闭式方案保持了普通采样，适用于任何分布编码器，并为每个密钥改进了 SyncPool。在英语、中文和日语的实验表明，coin projection 为编码器保留了 91-93% 的字符串熵，其消息比特容量显著优于 SyncPool。",
+   "impact": "这项研究可以帮助开发人员和安全团队改进语言隐写术应用，提供更高效且无误的分词消歧方法，从而在保持字符串熵的同时提高消息容量。",
+   "keyPoints": [
+    "分词歧义会破坏可证明安全语言隐写术中的提取过程。",
+    "若提取准确且无误，单历史接收方必须放弃停止熵。",
+    "Coin projection 是一种使用共享随机性修复停止决策的闭式方案。",
+    "Coin projection 保留了 91-93% 的字符串熵，且在英语、中文和日语中转换的消息比特数远超 SyncPool。"
+   ]
+  },
+  "ko": {
+   "title": "증명 가능하게 안전한 언어적 스테가ណോഗրա피를 위한 최적의 단일 이력 토큰화 해소",
+   "summary": "연구원들은 증명 가능하게 안전한 언어적 스테가ណോഗրա피에서 모호한 토큰화가 추출을 방해하는 문제를 해결했습니다. 완전 지원 언어 모델 전반에 걸쳐 추출이 정확하고 오류가 없으려면 단일 이력 수신기가 모든 단계에서 중단 엔트로피를 포기해야 한다는 점을 증명하고, 공유 무작위성을 사용하여 이러한 중단 결정을 수정하는 동형 방식인 coin projection을 도입했습니다. 이 방식은 일반적인 샘플링을 보존하고 모든 분포 코더와 작동하며 모든 키에 대해 SyncPool을 개선합니다. 영어, 중국어, 일본어 실험에 따르면 coin projection은 문자열 엔트로피의 91-93%를 유지하며 SyncPool보다 훨씬 뛰어난 메시지 비트 용량을 보여줍니다.",
+   "impact": "이 연구는 개발자와 보안 팀이 문자열 엔트로피를 보존하고 메시지 용량을 향상시키는 보다 효율적이고 오류 없는 토큰화 해소 방법을 통해 언어적 스테가ណോഗրա피를 구현하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "모호한 토큰화는 증명 가능하게 안전한 언어적 스테가ណോഗրա피에서 추출을 방해합니다.",
+    "추출이 정확하고 오류가 없으려면 단일 이력 수신기가 중단 엔트로피를 포기해야 합니다.",
+    "Coin projection은 공유 무작위성을 사용하여 중단 결정을 수정하는 동형 방식입니다.",
+    "Coin projection은 문자열 엔트로피의 91-93%를 유지하며 영어, 중국어, 일본어에서 SyncPool보다 뛰어난 성능을 보입니다."
+   ]
+  }
+ }
+}

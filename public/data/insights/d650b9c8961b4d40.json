@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d650b9c8961b4d40",
+ "contentHash": "ae3a03449d0e4ed3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T02:48:08.425Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Migrate to Amazon Bedrock Managed Knowledge Base with your coding agent",
+   "summary": "AWS has added a knowledge base migration guide to the amazon-bedrock skill in the Agent Toolkit for AWS, allowing coding agents to help teams migrate from customer-managed knowledge bases to Amazon Bedrock Managed Knowledge Base. The guide leads teams through read-only discovery, planning, creating the replacement knowledge base alongside the original or generating an infrastructure as code template, updating retrieval calls, and validating retrieval. Moving to a managed knowledge base allows AWS to handle ingestion, storage, indexing, and scaling while adding features like hybrid search, native connectors, deletion safeguards, ACL awareness, and agentic retrieval.",
+   "impact": "Development and security teams could benefit from reduced operational overhead by offloading vector store scaling, ingestion, and indexing maintenance to AWS. Teams may also improve application search accuracy and security using built-in hybrid search, managed rerankers, and access control list awareness.",
+   "keyPoints": [
+    "The Agent Toolkit for AWS includes a new migration guide to assist coding agents in planning and executing knowledge base migrations.",
+    "Amazon Bedrock Managed Knowledge Base automatically handles storage, scaling, indexing, and ingestion, while offering native connectors and hybrid search.",
+    "Managed Knowledge Base adds built-in features not available in customer-managed setups, such as ACL awareness, agentic retrieval, and AgentCore Gateway integration."
+   ]
+  },
+  "km": {
+   "title": "ផ្ទេរទៅកាន់ Amazon Bedrock Managed Knowledge Base ជាមួយភ្នាក់ងារកូដរបស់អ្នក",
+   "summary": "AWS បានបន្ថែមមគ្គុទ្ទេសក៍ផ្ទេរមូលដ្ឋានចំណេះដឹងទៅក្នុងជំនាញ amazon-bedrock នៅក្នុង Agent Toolkit for AWS ដើម្បីជួយភ្នាក់ងារកូដសម្រួលដល់ការ移行ពីមូលដ្ឋានចំណេះដឹងដែលគ្រប់គ្រងដោយអតិថិជនទៅកាន់ Amazon Bedrock Managed Knowledge Base។ មគ្គុទ្ទេសក៍នេះជួយក្រុមការងារក្នុងការស្វែងរក ការរៀបចំផែនការ ការបង្កើតមូលដ្ឋានចំណេះដឹងថ្មី ការធ្វើបច្ចុប្បន្នភាពការហៅទូរស័ព្ទយកទិន្នន័យ និងការផ្ទៀងផ្ទាត់។ ការផ្លាស់ប្តូរនេះអនុញ្ញាតឱ្យ AWS គ្រប់គ្រងការផ្ទុក ការលាតសន្ធឹង និងការធ្វើលិបិក្រម ខណៈពេលដែលបន្ថែមមុខងារស្វែងរកបែបកូនកាត់ និងឧបករណ៍តភ្ជាប់ដើម។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងសុវត្ថិភាពអាចកាត់បន្ថយภារកិច្ចប្រតិបត្តិការដោយផ្ទេរការគ្រប់គ្រងហាងទិន្នន័យវ៉ិចទ័រ និងការធ្វើលិបិក្រមទៅឱ្យ AWS ដែលអាចជួយបង្កើនភាពត្រឹមត្រូវនៃការស្វែងរក និងសុវត្ថិភាពទិន្នន័យ។",
+   "keyPoints": [
+    "Agent Toolkit for AWS ឥឡូវនេះមានមគ្គុទ្ទេសក៍ផ្ទេរមូលដ្ឋានចំណេះដឹងសម្រាប់ភ្នាក់ងារកូដ។",
+    "Amazon Bedrock Managed Knowledge Base ដោះស្រាយការផ្ទុក ការធ្វើលិបិក្រម និងការលាតសន្ធឹងដោយស្វ័យប្រវត្តិ។",
+    "មុខងារថ្មីៗដូចជា ACL awareness និង agentic retrieval ត្រូវបានរួមបញ្ចូលជាមួយសេវាកម្មដែលបានគ្រប់គ្រងនេះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用您的编码代理迁移到 Amazon Bedrock 托管知识库",
+   "summary": "AWS 在 Agent Toolkit for AWS 的 amazon-bedrock 技能中新增了一份知识库迁移指南，可协助编码代理规划并将客户管理的知识库迁移至 Amazon Bedrock Managed Knowledge Base。该指南指导团队进行只读发现、制定迁移计划、并行创建替代知识库或编写 IaC 模板、更新检索调用以及验证检索。迁移至托管知识库可让 AWS 自动处理存储、扩展和索引，并提供混合搜索、本机连接器、访问控制列表感知和代理式检索等高级功能。",
+   "impact": "开发和安全团队可以通过将向量存储扩展、存储和索引维护工作卸载给 AWS 来减少运营负担。团队还可能利用内置的混合搜索、托管重排器以及访问控制列表感知功能来提升应用程序的搜索准确性和安全性。",
+   "keyPoints": [
+    "Agent Toolkit for AWS 新增了知识库迁移指南，帮助编码代理协助团队完成迁移。",
+    "Amazon Bedrock Managed Knowledge Base 会自动处理引入、存储、索引和扩展。",
+    "托管知识库引入了客户管理设置所不具备的功能，例如 ACL 感知、代理式检索以及 AgentCore Gateway 集成。"
+   ]
+  },
+  "ko": {
+   "title": "코딩 에이전트를 사용하여 Amazon Bedrock Managed Knowledge Base로 마이그레이션",
+   "summary": "AWS는 Agent Toolkit for AWS의 amazon-bedrock 스킬에 지식 베이스 마이그레이션 가이드를 추가하여, 코딩 에이전트가 고객 관리형 지식 베이스에서 Amazon Bedrock Managed Knowledge Base로의 마이그레이션을 계획하고 실행하도록 돕습니다. 이 가이드는 읽기 전용 검색, 마이그레이션 계획 수립, 대체 지식 베이스 생성 또는 인프라 코드 템플릿 작성, 검색 호출 업데이트 및 검증 과정을 안내합니다. 관리형 지식 베이스로 전환하면 AWS가 스토리지, 확장, 인덱싱을 처리하며 하이브리드 검색, 기본 커넥터, 에이전트 기반 검색 등의 기능을 제공합니다.",
+   "impact": "개발 및 보안 팀은 벡터 스토어 확장, 인덱싱 등의 유지 관리 작업을 AWS에 위임하여 운영 부담을 줄일 수 있습니다. 또한 내장된 하이브리드 검색과 관리형 재랭커, 접근 제어 목록 인식을 통해 애플리케이션의 검색 정확도와 보안을 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "Agent Toolkit for AWS에 코딩 에이전트의 마이그레이션을 지원하는 새로운 지식 베이스 마이그레이션 가이드가 추가되었습니다.",
+    "Amazon Bedrock Managed Knowledge Base는 수집, 저장, 인덱싱, 확장을 자동으로 처리합니다.",
+    "관리형 지식 베이스는 ACL 인식, 에이전트 기반 검색, AgentCore Gateway 통합 등의 기능을 제공합니다."
+   ]
+  }
+ }
+}

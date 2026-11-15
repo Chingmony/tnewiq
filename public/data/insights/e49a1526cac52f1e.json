@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e49a1526cac52f1e",
+ "contentHash": "4545cda64340157f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T02:47:06.258Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Auditing AI peer reviewers: a benchmark on real scientific papers",
+   "summary": "Researchers introduced a new benchmark to evaluate LLM-based peer reviewers by injecting objective errors into real scientific papers across four types and three severity levels. They also developed Skepthical, a multi-agent reviewer designed to verify claims using computer algebra, executed code, and retrieved citations. Evaluating twelve different reviewer systems on preprints in astrophysics and machine learning revealed significant performance differences based on model choice and scaffolding tools.",
+   "impact": "This benchmark and multi-agent system approach could help developers and research teams better assess the reliability and accuracy of automated peer review tools. Security and technology users might use these findings to understand the current limitations and false-positive rates of AI reviewers.",
+   "keyPoints": [
+    "A new benchmark injects 357 errors across four types and three severity levels into real arXiv preprints.",
+    "Skepthical is a multi-agent reviewer that verifies citations, mathematics, and numerics using specialized verification tools.",
+    "Model choice has the largest impact on detection rate, with three frontier LLMs differing by about 50 percentage points.",
+    "Most systems kept false-positive rates below 10%, with mathematics flags serving as the primary source of false positives."
+   ]
+  },
+  "km": {
+   "title": "ការពិនិត្យឡើងវិញលើអ្នកផ្ទៀងផ្ទាត់អត្ថបទ AI៖ ការវាយតម្លៃលើក្រដាសស្រាវជ្រាវពិតប្រាកដ",
+   "summary": "ការប្រើប្រាស់ការពិនិត្យឡើងវិញដោយ LLM កំពុងត្រូវបបានប្រើប្រាស់ក្នុងកម្រិតផលិតកម្ម ប៉ុន្តែការវាយតម្លៃរបស់វា នៅមានកម្រិត។ អ្នកស្រាវជ្រាវបានដាក់បញ្ចូលនូវកំហុសគោលបំណងចំនួនបួនប្រភេទក្នុងកម្រិតធ្ងន់ធ្ងរបីទៅក្នុងអត្ថបទពិតប្រាកដ ដើម្បីវាស់វែងអត្រារកឃើញរបស់អ្នកផ្ទៀងផ្ទាត់នីមួយៗ។ ពួកគេក៏បានបង្ហាញផងដែរនូវ Skepthical ដែលជាប្រព័ន្ធភ្នាក់ងារច្រើនក្នុងការផ្ទៀងផ្ទាត់ការទាមទារផ្សេងៗ។",
+   "impact": "ការវាយតម្លៃនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងក្រុមការងារបច្ចេកវិទ្យាក្នុងការស្វែងយល់ពីភាពត្រឹមត្រូវ និងដែនកំណត់នៃឧបករណ៍ពិនិត្យអត្ថបទ AI។",
+   "keyPoints": [
+    "ការវាស់វែងថ្មីបានបញ្ចូលកំហុសចំនួន ៣៥៧ ទៅក្នុងអត្ថបទបោះពុម្ពមុននៅលើ arXiv ។",
+    "Skepthical គឺជាប្រព័ន្ធផ្ទៀងផ្ទាត់ដែលមានសមត្ថភាពពិនិត្យការយោង និងគណិតវិទ្យា។",
+    "ជម្រើសនៃម៉ូដែលផ្ដល់នូវផលប៉ះពាល់ធំជាងគេលើអត្រារកឃើញកំហុស។"
+   ]
+  },
+  "zh-CN": {
+   "title": "审计AI同行评审员：基于真实科学论文的基准测试",
+   "summary": "基于大语言模型的同行评审现已投入生产规模使用，但其评估仍然有限。研究人员引入了一个基准测试，通过向真实论文中注入四种类型和三种严重程度的客观错误，来衡量每个评审员的检测率。他们还推出了Skepthical，这是一个多智能体评审员，可以通过检索引用的论文、使用计算机代数和执行代码来验证主张。",
+   "impact": "该基准测试和评估结果可以帮助开发人员和技术团队更好地了解自动化同行评审工具的可靠性和局限性。安全团队和技术用户可以利用这些发现来评估AI评审员在实际应用中的表现。",
+   "keyPoints": [
+    "新基准测试在天体物理学和机器学习领域的预印本中注入了共357个错误。",
+    "Skepthical使用外部工具验证引用支持的主张、数学运算和数值声明。",
+    "模型选择对检测率有最大影响，三个前沿大语言模型在总检测率上相差约50个百分点。",
+    "大多数系统的误报率低于10%，其中数学标记是误报的主要来源。"
+   ]
+  },
+  "ko": {
+   "title": "AI 동료 검토자 감사: 실제 과학 논문을 활용한 벤치마크",
+   "summary": "LLM 기반 동료 검토가 생산 규모로 사용되고 있으나 그 평가는 여전히 제한적이다. 연구진은 실제 논문에 네 가지 유형과 세 가지 심각도의 객관적 오류를 주입하여 각 검토자의 탐지율을 측정하는 벤치마크를 도입했다. 또한 인용된 논문 검색, 컴퓨터 대수학, 실행된 코드를 통해 주장을 검증하는 다중 에이전트 검토자인 Skepthical을 선보였다.",
+   "impact": "이 벤치마크와 평가는 개발자와 기술 팀이 자동화된 동료 검토 도구의 신뢰성과 한계를 더 잘 파악하는 데 도움을 줄 수 있다. 기술 사용자는 이를 통해 AI 검토자의 오탐율과 성능을 가늠할 수 있다.",
+   "keyPoints": [
+    "새로운 벤치마크는 두 분야의 사전 인쇄본에 총 357개의 오류를 주입하여 평가를 진행했다.",
+    "Skepthical은 인용, 수학, 수치적 주장을 검증하기 위한 도구를 활용하는 다중 에이전트 검토자이다.",
+    "모델 선택이 탐지율에 가장 큰 영향을 미치며, 세 가지 최첨단 LLM 간에 큰 차이가 나타났다.",
+    "대부분의 시스템에서 오탐율은 10% 미만이었으며 수학 관련 플래그가 주요 오탐 원인이었다."
+   ]
+  }
+ }
+}

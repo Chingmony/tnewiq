@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3a88c633d1de0963",
+ "contentHash": "d63490c47454f40b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T02:48:29.126Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Anonymous in Name Only: A Critical Review and a Reidentification Exercise on the European Commission's Anonymization Measures for Google Search Data under Article 6(11) of the DMA",
+   "summary": "In July 2026, the European Commission outlined anonymization measures for Alphabet to share Google Search data under Article 6(11) of the Digital Markets Act. A new paper critically reviews these measures, highlighting conceptual flaws, reliance on contractual safeguards, and unjustified heuristics. The researchers demonstrate low-effort reidentification, record linkage, and confidential attribute inference using real Google Search data.",
+   "impact": "This research suggests that the European Commission's current anonymization methodology may fail to provide meaningful protection and could expose sensitive data through straightforward attacks. Regulators and developers might need to reconsider relying on these specific guidelines as a standard for data sharing under the Digital Markets Act.",
+   "keyPoints": [
+    "The European Commission established anonymization measures for Google Search data sharing in July 2026.",
+    "Researchers found significant conceptual flaws and a failure to meet European Data Protection Board criteria.",
+    "Low-effort reidentification and attribute inference were successfully demonstrated on protected data."
+   ]
+  },
+  "km": {
+   "title": "អនាមិកតែឈ្មោះ៖ ការពិនិត្យឡើងវិញយ៉ាងសំខាន់ និងលំហាត់កំណត់អត្តសញ្ញាណឡើងវិញលើវិធានការអនាមិករបស់គណៈកម្មការអឺរ៉ុបសម្រាប់ទិន្នន័យ Google Search ក្រោមមាត្រា 6(11) នៃ DMA",
+   "summary": "ក្នុងខែកក្កដា ឆ្នាំ២០២៦ គណៈកម្មការអឺរ៉ុបបានកំណត់វិធានការអនាមិកសម្រាប់ Alphabet ដើម្បីចែករំលែកទិន្នន័យ Google Search ក្រោមមាត្រា 6(11) នៃច្បាប់ទីផ្សារឌីជីថល។ ឯកសារស្រាវជ្រាវមួយបានពិនិត្យឡើងវិញនូវវិធានការទាំងនេះ ដោយបង្ហាញពីកំហុសឆ្គងផ្នែកគំនិត និងការខកខានមិនបានបំពេញតាមលក្ខណៈវិនិច្ឆ័យអនាមិក។ អ្នកស្រាវជ្រាវបានបង្ហាញពីលទ្ធភាពនៃការកំណត់អត្តសញ្ញាណឡើងវិញដោយងាយស្រួលដោយប្រើទិន្នន័យ Google Search ពិតប្រាកដ។",
+   "impact": "ការរកឃើញទាំងនេះអាចបង្ហាញថាវិធីសាស្ត្រអនាមិកបច្ចុប្បន្នខ្វះការការពារប្រកបដោយអត្ថន័យ ដែលអាចធ្វើឱ្យអ្នកអភិវឌ្ឍន៍ និងនិយតករត្រូវប្រុងប្រយ័ត្នខ្ពស់ក្នុងការប្រើប្រាស់គោលការណ៍ណែនាំទាំងនេះជាស្តង់ដារ។",
+   "keyPoints": [
+    "គណៈកម្មការអឺរ៉ុបបានកំណត់វិធានការអនាមិកសម្រាប់ទិន្នន័យ Google Search ក្នុងខែកក្កដា ឆ្នាំ២០២៦។",
+    "ការស្រាវជ្រាវបានរកឃើញកំហុសឆ្គងគំនិត និងការខកខានក្នុងការបំពេញលក្ខណៈវិនិច្ឆ័យរបស់ក្រុមប្រឹក្សាការពារទិន្នន័យអឺរ៉ុប។",
+    "ការកំណត់អត្តសញ្ញាណឡើងវិញត្រូវបានបង្ហាញដោយជោគជ័យលើទិន្នន័យដែលបានការពារ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "名义上的匿名：对欧洲委员会在DMA第6(11)条下针对Google Search数据的匿名化 measures 的批判性审查与重新识别实验",
+   "summary": "2026年7月，欧洲委员会公布了Alphabet在《数字市场法案》第6(11)条下共享Google Search数据时必须实施的匿名化措施。一项新论文对这些措施进行了批判性审查，指出了其中的概念缺陷和未能满足欧洲数据保护委员会标准的问题。研究人员使用真实的Google Search数据成功演示了低成本的重新识别和属性推断。",
+   "impact": "这项研究表明，欧洲委员会当前的匿名化方法可能无法提供真正的保护，并容易通过简单的攻击手段泄露隐私。技术人员和监管机构在将这些措施作为数据共享标准时可能会面临潜在风险。",
+   "keyPoints": [
+    "欧洲委员会于2026年7月设定了Google Search数据的匿名化措施。",
+    "研究显示这些措施存在概念缺陷，且不符合欧洲数据保护委员会的匿名化标准。",
+    "研究人员通过简单攻击成功实现了重新识别和记录链接。"
+   ]
+  },
+  "ko": {
+   "title": "이름만 익명: DMA 제6조(11)에 따른 유럽 집행위원회의 Google Search 데이터 익명화 조치에 대한 비판적 검토 및 재식별 실습",
+   "summary": "2026년 7월, 유럽 집행위원회는 디지털시장법 제6조(11)에 따라 Alphabet이 Google Search 데이터를 공유하기 위해 시행해야 하는 익명화 조치를 마련했습니다. 한 연구 논문은 이러한 조치들이 개념적 결함을 가지고 있으며 유럽 데이터보호이사회(EDPB)의 기준을 충족하지 못한다고 비판했습니다. 연구자들은 실제 Google Search 데이터를 사용하여 손쉬운 재식별과 속성 추론이 가능함을 입증했습니다.",
+   "impact": "이번 연구는 유럽 집행위원회의 익명화 방식이 의미 있는 보호를 제공하지 못할 수 있음을 시사하며, 개발자와 규제 기관은 해당 조치를 데이터 공유의 표준으로 신뢰하는 것에 대해 신중해야 할 수 있음을 보여줍니다.",
+   "keyPoints": [
+    "유럽 집행위원회는 2026년 7월 Google Search 데이터 공유를 위한 익명화 조치를 설정함.",
+    "연구 결과 제안된 조치에서 개념적 결함과 유럽 데이터보호이사회 기준 미달이 확인됨.",
+    "실제 보호된 데이터를 활용한 손쉬운 재식별 및 속성 추론이 시연됨."
+   ]
+  }
+ }
+}
