@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "75298a9200652b31",
+ "contentHash": "04ae0c2c73a4465a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T11:09:31.349Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Signed Dyadic Path Encoding for Efficient Non-Interactive Private Decision Tree Evaluation over TFHE",
+   "summary": "Researchers propose a signed dyadic path-sum encoding to improve private decision tree evaluation over TFHE. By assigning signed dyadic labels to internal nodes, the method packs the children of a leaf-parent into a single test polynomial and resolves them with one programmable bootstrap, reducing the programmable bootstrap count from the number of leaves to the number of leaf-parents. This approach reduces single-tree latency by 1.51 to 1.92 times and ensemble latency by 2 times on standard UCI benchmarks at depths 1 to 4 without accuracy loss.",
+   "impact": "This method could help developers and security teams achieve faster non-interactive private decision tree evaluation and gradient-boosted ensembles over TFHE. However, because ring degree grows linearly with the consumed plaintext range, the profitable regime is confined to depths up to 4.",
+   "keyPoints": [
+    "Signed dyadic path-sum encoding nearly halves the cost of private decision tree evaluation over TFHE.",
+    "Reduces programmable bootstrap count from the number of leaves to the number of leaf-parents.",
+    "Achieves 1.51x to 1.92x single-tree latency reduction and 2x ensemble latency reduction on standard UCI benchmarks at depths 1-4.",
+    "Instantiates parameters with per-inference failure below 2^-64 at 128-bit security."
+   ]
+  },
+  "km": {
+   "title": "ការអ៊ិនកូដផ្លូវ Dyadic បុិនហ្វាដែលមានហត្ថលេខាសម្រាប់ការវាយតម្លៃដើមឈើសម្រេចចិត្តឯកជនមិនមានអន្តរកម្មប្រកបដោយប្រសិទ្ធភាពលើ TFHE",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើការអ៊ិនកូដផ្លូវ Dyadic ដែលមានហត្ថលេខា ដើម្បីកែលម្អការវាយតម្លៃដើមឈើសម្រេចចិត្តឯកជននៅលើ TFHE។ វិធីសាស្ត្រនេះកាត់បន្ថយការចំណាយក្នុងការគណនាដោយការបញ្ចូលកូនរបស់មេបាផ្លឹកទៅក្នុងពហុធាតេស្តតែមួយ។ វាជួយកាត់បន្ថយភាពយឺតយ៉ាវនៃដើមឈើតែមួយពី ១.៥១ ដង ដល់ ១.៩២ ដង និងដើមឈើចង្កោម ២ ដង លើស្តង់ដារ UCI នៅជម្រៅ ១ ដល់ ៤ ដោយមិនបាត់បង់ភាពត្រឹមត្រូវ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយដល់ក្រុមអភិវឌ្ឍន៍ និងសុវត្ថិភាពក្នុងការសម្រេចបាននូវការវាយតម្លៃដើមឈើសម្រេចចិត្តឯកជនដែលលឿនជាងមុនលើ TFHE។ ទោះបីជាយ៉ាងណាក៏ដោយ កម្រិតចំណេញត្រូវបានកំណត់ត្រឹមជម្រៅ ៤ ប៉ុណ្ណោះ ដោយសារតែទំហំរង្វង់កើនឡើង.",
+   "keyPoints": [
+    "ការអ៊ិនកូដផ្លូវ Dyadic ដែលមានហត្ថលេខាកាត់បន្ថយការចំណាយលើការវាយតម្លៃដើមឈើសម្រេចចិត្តឯកជននៅលើ TFHE ជិតពាក់កណ្តាល។",
+    "កាត់បន្ថយភាពយឺតយ៉ាវនៃដើមឈើតែមួយពី ១.៥១ ដង ដល់ ១.៩២ ដង។",
+    "កាត់បន្ថយភាពយឺតយ៉ាវនៃដើមឈើចង្កោម ២ ដង លើស្តង់ដារ UCI នៅជម្រៅ ១ ដល់ ៤។",
+    "រក្សាទំហំឆ្លើយតបដែលបង្រួមនិងមិនមានអន្តរកម្មដដែលដោយមិនបាត់បង់ភាពត្រឹមត្រូវ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "基于TFHE的高效非交互式私密决策树评估的带符号二进路径编码",
+   "summary": "研究人员提出了一种带符号的二进路径求和编码，以改进基于TFHE的私密决策树评估。通过为内部节点分配带符号的二进标签，该方法将叶子父节点的两个子节点打包到单个测试多项式中，并通过一次可编程自举解析，从而将可编程自举次数从叶子数减少到叶子父节点数。在深度为1到4的标准UCI基准测试中，该方法在不损失准确性的情况下，将单树延迟减少了1.51倍到1.92倍，集成延迟减少了2倍。",
+   "impact": "该方法可能帮助开发人员和安全团队在使用TFHE时实现更快、更高效的非交互式私密决策树评估和梯度提升集成。然而，由于环度随明文范围线性增长，其适用的盈利范围被限制在深度小于或等于4的情况。",
+   "keyPoints": [
+    "带符号二进路径求和编码几乎将TFHE上私密决策树评估的成本减半。",
+    "将可编程自举次数从叶子数降低到叶子父节点数。",
+    "在深度1到4的标准UCI基准上，单树延迟降低1.51到1.92倍，集成延迟降低2倍。",
+    "在128位安全性下实现每次推理失败率低于2^-64的参数实例化。"
+   ]
+  },
+  "ko": {
+   "title": "TFHE 기반의 효율적인 비대화형 프라이빗 결정 트리 평가를 위한 부호 있는 디아딕 경로 인코딩",
+   "summary": "연구원들은 TFHE 기반의 프라이빗 결정 트리 평가를 개선하기 위해 부호 있는 디아딕 경로 합 인코딩을 제안합니다. 내부 노드에 부호 있는 디아딕 레이블을 할당하여 리프 부모의 두 자녀를 단일 테스트 다항식으로 패키징하고 하나의 프로그래밍 가능한 부트스트랩으로 해결함으로써 프로그래밍 가능한 부트스트랩 횟수를 리프 수에서 리프 부모 수로 줄입니다. 이 방식은 깊이 1에서 4 사이의 표준 UCI 벤치마크에서 정확도 손실 없이 단일 트리 지연 시간을 1.51배에서 1.92배, 앙상블 지연 시간을 2배 줄여줍니다.",
+   "impact": "이 방법은 개발자와 보안 팀이 TFHE를 사용하여 더 빠르고 효율적인 비대화형 프라이빗 결정 트리 평가를 수행하는 데 도움을 줄 수 있습니다. 다만 링 차수가 소비된 평문 범위에 비례하여 증가하므로 유용한 영역은 깊이 4 이하로 제한됩니다.",
+   "keyPoints": [
+    "부호 있는 디아딕 경로 합 인코딩은 TFHE 상에서 프라이빗 결정 트리 평가 비용을 거의 절반으로 줄입니다.",
+    "프로그래밍 가능한 부트스트랩 횟수를 리프 수에서 리프 부모 수로 감소시킵니다.",
+    "깊이 1~4의 표준 UCI 벤치마크에서 단일 트리 지연 시간을 1.51~1.92배, 앙상블 지연 시간을 2배 줄입니다.",
+    "128비트 보안 수준에서 추론당 실패율 2^-64 미만의 매개변수를 인스턴스화합니다."
+   ]
+  }
+ }
+}

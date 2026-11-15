@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4225da0fb6761f11",
+ "contentHash": "c73e44e5ff303c0a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T11:08:05.716Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "VU#944667: ComfyUI-Easy-Use contains unauthenticated path traversal vulnerability",
+   "summary": "ComfyUI-Easy-Use version 1.4.1 and earlier contains an unauthenticated path traversal vulnerability in its save_preview() handler. An attacker who can reach the network instance can overwrite an installed custom node's Python file and achieve arbitrary code execution when ComfyUI restarts. The maintainer could not be reached for coordination, but a fix has been released in the main branch as commit 8a0f2fc412.",
+   "impact": "Unauthenticated attackers who reach the affected routes can execute arbitrary Python code and OS commands with ComfyUI process privileges. This may allow reading or modifying models and workflows, as well as obtaining environment credentials.",
+   "keyPoints": [
+    "Affects ComfyUI-Easy-Use version 1.4.1 and earlier.",
+    "Vulnerability resides in the save_preview() handler.",
+    "Allows unauthenticated attackers to overwrite custom node Python files and execute arbitrary code upon restart.",
+    "A fix is available in commit 8a0f2fc412, or users can remove the extension or restrict network access."
+   ]
+  },
+  "km": {
+   "title": "VU#944667: ComfyUI-Easy-Use មានช่องโหว่เส้นทางไฟล์ที่ไม่ต้องมีการตรวจสอบสิทธิ์",
+   "summary": "ComfyUI-Easy-Use ဗားชัน 1.4.1 និងต่ำกว่า มีช่องโหว่ในการจัดการ save_preview() ដែលអនុញ្ញាតឱ្យผู้โจมตีที่ไม่มีการตรวจสอบสิทธิ์ทำการเขียนทับไฟล์ Python ของโหนดกำหนดเองที่ติดตั้งไว้។ ผู้โจมตีที่สามารถเข้าถึงอินสแตนซ์ ComfyUI ที่ได้รับผลกระทบผ่านเครือข่ายสามารถใช้การเขียนทับนี้เพื่อเรียกใช้โค้ดตามอำเภอใจเมื่อ ComfyUI เริ่มต้นใหม่។ ผู้ดูแลระบบได้ปล่อยตัวแก้ปัญหาใน commit 8a0f2fc412 ហើយ។",
+   "impact": "ผู้โจมตีที่ไม่มีการตรวจสอบสิทธิ์ซึ่งสามารถเข้าถึงเส้นทางที่ได้รับผลกระทบสามารถเรียกใช้โค้ด Python ตามอำเภอใจและคำสั่งของระบบปฏิบัติการด้วยสิทธิ์ของกระบวนการ ComfyUI។ สิ่งนี้อาจอนุญาตให้อ่านหรือแก้ไขโมเดล เวิร์กโฟลว์ และไฟล์อื่น ๆ รวมถึงรับข้อมูลประจำตัวในสภาพแวดล้อมได้។",
+   "keyPoints": [
+    "ส่งผลกระทบต่อ ComfyUI-Easy-Use เวอร์ชัน 1.4.1 และก่อนหน้า។",
+    "ช่องโหว่อยู่ในตัวจัดการ save_preview()។",
+    "อนุญาตให้ผู้โจมตีเขียนทับไฟล์ Python ของโหนดกำหนดเองและเรียกใช้โค้ดตามอำเภอใจเมื่อรีสตาร์ท។",
+    "การแก้ไขมีอยู่ใน commit 8a0f2fc412 ឬสามารถลบส่วนขยายออกได้។"
+   ]
+  },
+  "zh-CN": {
+   "title": "VU#944667: ComfyUI-Easy-Use 包含未授权的路径遍历漏洞",
+   "summary": "ComfyUI-Easy-Use 1.4.1 及更早版本在其 save_preview() 处理程序中包含一个漏洞，允许未经身份验证的攻击者覆盖已安装的自定义节点的 Python 文件。能够通过网络访问受影响的 ComfyUI 实例的攻击者可以在 ComfyUI 重启时利用该覆盖来执行任意代码。维护人员已在主分支的提交 8a0f2fc412 中发布了修复程序。",
+   "impact": "能够访问受影响路由的未经身份验证的攻击者可以以 ComfyUI 进程的权限执行任意 Python 代码和操作系统命令。攻击者可以读取或修改模型、工作流以及进程可访问的其他文件，并获取其环境中可用的凭据。",
+   "keyPoints": [
+    "影响 ComfyUI-Easy-Use 1.4.1 及更早版本。",
+    "漏洞存在于 save_preview() 处理程序中。",
+    "允许未经身份验证的攻击者覆盖自定义节点的 Python 文件并在重启时执行任意代码。",
+    "可通过提交 8a0f2fc412 获取修复，或通过删除扩展程序和限制网络访问来缓解。"
+   ]
+  },
+  "ko": {
+   "title": "VU#944667: ComfyUI-Easy-Use에 인증되지 않은 경로 순회 취약점 존재",
+   "summary": "ComfyUI-Easy-Use 버전 1.4.1 및 이전 버전의 save_preview() 핸들러에는 인증되지 않은 공격자가 설치된 커스텀 노드의 Python 파일을 덮어쓸 수 있는 취약점이 포함되어 있습니다. 네트워크를 통해 영향을 받는 ComfyUI 인스턴스에 도달할 수 있는 공격자는 ComfyUI가 재시작될 때 이 덮어쓰기를 사용하여 임의의 코드를 실행할 수 있습니다. 유지보수자는 커밋 8a0f2fc412에 수정 사항을 배포했습니다.",
+   "impact": "영향을 받는 경로에 도달할 수 있는 인증되지 않은 공격자는 ComfyUI 프로세스의 권한으로 임의의 Python 코드 및 운영 체제 명령을 실행할 수 있습니다. 이를 통해 프로세스에서 접근할 수 있는 모델, 워크플로 및 기타 파일을 읽거나 수정하고 환경에서 사용 가능한 자격 증명을 얻을 수 있습니다.",
+   "keyPoints": [
+    "ComfyUI-Easy-Use 버전 1.4.1 및 이전 버전에 영향을 미칩니다.",
+    "취약점은 save_preview() 핸들러에 존재합니다.",
+    "인증되지 않은 공격자가 커스텀 노드의 Python 파일을 덮어쓰고 재시작 시 임의 코드를 실행할 수 있게 합니다.",
+    "커밋 8a0f2fc412에 수정 사항이 반영되었거나 확장 프로그램을 제거하여 완화할 수 있습니다."
+   ]
+  }
+ }
+}

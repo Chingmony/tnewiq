@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a5a9114a24f8dc15",
+ "contentHash": "7164954a3e72b05a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-15T11:07:14.478Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "VU#685399: PromZard context key code injection leads to remote code execution",
+   "summary": "The npm library promzard, versions 4.0.0 and earlier, suffers from a remote code execution vulnerability identified as CVE-2026-127109. The flaw occurs because the library performs direct string interpolation of context object keys without validation or sanitization into a function-expression source string evaluated with vm.runInThisContext(). Consequently, attacker-controlled JavaScript syntax in the context keys can be executed during evaluation.",
+   "impact": "Developers and technology users incorporating promzard could face remote code execution within the context of the Node.js process if an attacker can influence the context object's keys. Security teams should ensure that any data used to populate the context object is strictly validated and avoid passing arbitrary keys from untrusted sources.",
+   "keyPoints": [
+    "Affected product: npm library promzard versions 4.0.0 and earlier.",
+    "Vulnerability type: Remote code execution via context key code injection.",
+    "Root cause: Direct string interpolation of context object keys into evaluated JavaScript source code.",
+    "Remediation: Strict validation of data used to populate context keys and avoiding untrusted sources."
+   ]
+  },
+  "km": {
+   "title": "VU#685399: ការបញ្ចូលកូដគ្រាប់ចុចបរិបទ PromZard នាំឱ្យមានការប្រតិបត្តិូកូដពីចម្ងាយ",
+   "summary": "បណ្ណាល័យ npm promzard កំណែ 4.0.0 និងជំនាន់មុនៗ មានភាពងាយរងគ្រោះចំពោះការប្រតិបត្តិកូដពីចម្ងាយ ដោយសារតែការបញ្ចូលខ្សែអក្សរផ្ទាល់នៃគ្រាប់ចុចវត្ថុបរិបទ។ កំហុសនេះអនុញ្ញាតឱ្យមានការបញ្ចូលកូដ JavaScript ដែលគ្មានការអនាម័យតាមរយៈ vm.runInThisContext()។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចប្រឈមមុខនឹងការប្រតិបត្តិកូដពីចម្ងាយក្នុងដំណើរការ Node.js ប្រសិនបើអ្នកវាយប្រហារអាចមានឥទ្ធិពលលើគ្រាប់ចុចវត្ថុបរិបទ។ ក្រុមសន្តិសុខគួរតែធានាថាទិន្នន័យដែលប្រើដើម្បីបំពេញវត្ថុបរិបទត្រូវបានផ្ទៀងផ្ទាត់យ៉ាងតឹងរ៉ឹង។",
+   "keyPoints": [
+    "ផលិតផលដែលរងផលប៉ះពាល់៖ បណ្ណាល័យ npm promzard កំណែ 4.0.0 និងមុន.",
+    "ប្រភេទភាពងាយរងគ្រោះ៖ ការប្រតិបត្តិកូដពីចម្ងាយតាមរយៈការបញ្ចូលកូដគ្រាប់ចុចបរិបទ។",
+    "មូលហេតុចម្បង៖ ការបញ្ចូលខ្សែអក្សរផ្ទាល់នៃគ្រាប់ចុចវត្ថុបរិបទទៅក្នុងកូដប្រភព JavaScript ។",
+    "ដំណោះស្រាយ៖ ការផ្ទៀងផ្ទាត់ទិន្នន័យយ៉ាងតឹងរ៉ឹងសម្រាប់គ្រាប់ចុចបរិបទពីប្រភពដែលមិនគួរឱ្យទុកចិត្ត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "VU#685399: PromZard 上下文键代码注入导致远程代码执行",
+   "summary": "npm 库 promzard 的 4.0.0 及更早版本存在远程代码执行漏洞。该漏洞是因为库对上下文对象的键进行了直接字符串拼接，且没有对传入 vm.runInThisContext() 的函数表达式源码进行验证或净化。因此，受攻击者控制的 JavaScript 语法在评估期间可能会被执行。",
+   "impact": "如果攻击者能够影响上下文对象的键，开发人员和技术用户可能会在 Node.js 进程的上下文中面临远程代码执行风险。安全团队应确保严格验证用于填充上下文对象的任何数据，并避免从不受信任的来源传递任意键。",
+   "keyPoints": [
+    "受影响产品：npm 库 promzard 4.0.0 及更早版本。",
+    "漏洞类型：通过上下文键代码注入实现远程代码执行。",
+    "根本原因：将上下文对象键直接字符串拼接到被评估的 JavaScript 源码中。",
+    "修复建议：严格验证用于填充上下文的数据，避免使用不受信任来源的任意键。"
+   ]
+  },
+  "ko": {
+   "title": "VU#685399: PromZard 컨텍스트 키 코드 주입으로 인한 원격 코드 실행",
+   "summary": "npm 라이브러리 promzard 버전 4.0.0 및 이전 버전은 원격 코드 실행 취약점에 취약합니다. 이 결함은 라이브러리가 검증이나 살균 없이 컨텍스트 객체 키를 vm.runInThisContext()로 평가되는 함수 식 소스 문자열에 직접 문자열 보간하기 때문에 발생합니다. 결과적으로 공격자가 제어하는 JavaScript 구문이 평가 중에 실행될 수 있습니다.",
+   "impact": "개발자와 기술 사용자는 공격자가 컨텍스트 객체의 키에 영향을 미칠 수 있는 경우 Node.js 프로세스 컨텍스트 내에서 원격 코드 실행에 직면할 수 있습니다. 보안 팀은 컨텍스트를 채우는 데 사용되는 데이터가 엄격하게 검증되도록 하고 신뢰할 수 없는 출처에서 임의의 키를 전달하지 않도록 해야 합니다.",
+   "keyPoints": [
+    "영향을 받는 제품: npm 라이브러리 promzard 4.0.0 및 이전 버전.",
+    "취약점 유형: 컨텍스트 키 코드 주입을 통한 원격 코드 실행.",
+    "근본 원인: 평가되는 JavaScript 소스 코드에 컨텍스트 객체 키를 직접 문자열 보간.",
+    "해결 방법: 컨텍스트 키를 채우는 데 사용되는 데이터의 엄격한 검증 및 신뢰할 수 없는 출처 회피."
+   ]
+  }
+ }
+}
