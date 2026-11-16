@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4fe1913b16fb1ad0",
+ "contentHash": "6cdad8db4adfdd4e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T02:54:52.310Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Delayed Effects of Temporary Weight Decay in Muon Pretraining",
+   "summary": "Research demonstrates that temporary weight decay in Muon-trained decoder-only Transformers can increase validation loss when ended while ultimately reducing it at the final training budget. Experiments across models ranging from 162M to 3.4B parameters show that moving or adjusting decay windows alters final outcomes, and a schedule transferred from 162M to 1.4B eventually outperformed constant-decay baselines despite an initial disadvantage. Smaller weight norms at the end of the decay window appear to explain most of the final loss improvement.",
+   "impact": "These findings suggest that developers and researchers should evaluate temporary optimization schedules at the intended final training budget rather than only at the time of removal. Ignoring delayed effects could lead to misjudging the ultimate performance benefits of specific training interventions.",
+   "keyPoints": [
+    "Temporary weight decay can increase validation loss when ended yet reduce it at the final training budget.",
+    "Tested on Muon-trained decoder-only Transformers with 162M, 405M, 1.4B, and 3.4B parameters.",
+    "A schedule transferred from 162M to 1.4B parameters without retuning finished better than no decay and outperformed constant-decay baselines.",
+    "Norm-reset experiments showed that smaller weight norms at the end of the decay window explain most of the final loss improvement."
+   ]
+  },
+  "km": {
+   "title": "ផលប៉ះពាល់យឺតនៃទម្ងន់ធ្លាក់ចុះបណ្តោះអាសន្នក្នុងការបណ្តុះបណ្តាលជាមុន Muon",
+   "summary": "ការស្រាវជ្រាវបង្ហាញថាការអន្តរាគមន៍បង្កើនប្រសិទ្ធភាពបណ្តោះអាសន្នអាចបង្កើនការខាតបង់ការផ្ទៀងផ្ទាត់នៅពេលដែលវាបញ្ចប់ ប៉ុន្តែអាចកាត់បន្ថយវាវិញនៅពេលបញ្ចប់ថវិកាបណ្តុះបណ្តាលចុងក្រោយ។ ការពិសោធន៍លើម៉ូដែលចាប់ពី 162M ដល់ 3.4B ប៉ារ៉ាម៉ែត្របង្ហាញថាការផ្លាស់ប្តូរពេលបណ្តោះអាសន្នអាចផ្លាស់ប្តូរលទ្ធផលចុងក្រោយ។ ការរកឃើញទាំងនេះបង្ហាញថា កាលវិភាគបង្កើនប្រសិទ្ធភាពបណ្តោះអាសន្នគួរតែត្រូវបានវាយតម្លៃនៅថវិកាបណ្តុះបណ្តាលចុងក្រោយដែលបានកំណត់។",
+   "impact": "ការរកឃើញទាំងនេះអាចបង្ហាញថាអ្នកអភិវឌ្ឍន៍គួរតែវាយតម្លៃកាលវិភាគបង្កើនប្រសិទ្ធភាពបណ្តោះអាសន្ននៅថវិកាចុងក្រោយជាជាងត្រឹមពេលបញ្ចប់វា។ ការមិនអើពើនឹងផលប៉ះពាល់យឺតអាចធ្វើឱ្យការវាយតម្លៃខុសលើអត្ថប្រយោជន៍ដំណើរការចុងក្រោយ។",
+   "keyPoints": [
+    "ការធ្លាក់ចុះទម្ងន់បណ្តោះអាសន្នអាចបង្កើនការខាតបង់ការផ្ទៀងផ្ទាត់នៅពេលបញ្ចប់ ប៉ុន្តែអាចកាត់បន្ថយវាវិញនៅថវិកាចុងក្រោយ។",
+    "បានធ្វើតេស្តលើម៉ូដែល Transformer ដែលបណ្តុះបណ្តាលដោយ Muon ដែលมี 162M, 405M, 1.4B និង 3.4B ប៉ារ៉ាម៉ែត្រ។",
+    "បទពិសោធន៍បង្ហាញថាទម្ងន់តូចជាងនៅចុងបញ្ចប់នៃបង្អួចធ្លាក់ចុះពន្យល់ពីការប្រសើរឡើងនៃការខាតបង់ចុងក្រោយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Muon 预训练中临时权重衰减的延迟效应",
+   "summary": "研究表明，Muon 训练的 decoder-only Transformer 中的临时优化干预可能会在结束时增加验证损失，但最终在最终训练预算下降低验证损失。在参数量从 162M 到 3.4B 的模型上的实验表明，改变衰减窗口会改变最终结果。这些结果表明，临时优化计划应该在预期的最终训练预算下进行评估，而不仅仅是在移除时。",
+   "impact": "这些发现表明开发人员和研究人员应该在最终的训练预算下评估临时的优化计划，而不是仅仅在移除时进行评估。忽视延迟效应可能会导致对特定训练干预的最终性能收益产生误判。",
+   "keyPoints": [
+    "临时权重衰减在结束时可能会增加验证损失，但在最终训练预算下会减少。",
+    "在 162M、405M、1.4B 和 3.4B 参数的 Muon 训练模型上进行了演示。",
+    "衰减窗口结束时较小的权重范数解释了大部分最终损失的改善。"
+   ]
+  },
+  "ko": {
+   "title": "Muon 사전 학습에서 임시 가중치 감쇠의 지연 효과",
+   "summary": "일시적인 최적화 개입은 종료 시 검증 손실을 증가시킬 수 있지만 최종 학습 예산에서는 이를 감소시킬 수 있음이 연구를 통해 나타났다. 162M에서 3.4B 매개변수를 가진 Muon 학습 모델을 통한 실험은 감쇠 창의 이동이나 조절이 최종 결과에 영향을 미친다는 것을 보여준다. 이러한 결과는 임시 최적화 일정이 제거 시점만이 아니라 의도된 최종 학습 예산에서 평가되어야 함을 보여준다.",
+   "impact": "이러한 결과는 개발자와 연구자가 제거 시점뿐만 아니라 의도된 최종 학습 예산에서 임시 최적화 일정을 평가해야 함을 시사한다. 지연된 효과를 무시하면 특정 학습 개입의 최종 성능 이점을 오판할 수 있다.",
+   "keyPoints": [
+    "일시적인 가중치 감쇠는 종료 시 검증 손실을 높일 수 있으나 최종 학습 예산에서는 손실을 줄일 수 있음.",
+    "162M, 405M, 1.4B, 3.4B 매개변수의 Muon 학습 모델에서 실험됨.",
+    "감쇠 창 끝에서의 더 작은 가중치 노름이 최종 손실 개선의 대부분을 설명함."
+   ]
+  }
+ }
+}

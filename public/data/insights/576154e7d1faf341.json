@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "576154e7d1faf341",
+ "contentHash": "f23304df97e0905c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T02:54:03.145Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Quantum Graph Neural Networks: Architectures, Trainability, and Applications",
+   "summary": "A new survey introduces a unified formalism for quantum graph neural networks, which combine parametrized quantum circuits and graph-structured data. The study categorizes existing models into five architecture families and reviews their symmetry, trainability, noise, and applications across various fields. The primary finding indicates that while the design space is rich, the supporting evidence remains thin and is mostly based on small-scale simulations without established advantages over classical models.",
+   "impact": "Researchers and developers working on graph neural networks or quantum computing may find that current quantum graph neural networks lack proven advantages over classical models. Security teams and technology users should note that the field relies heavily on simulations rather than fault-tolerant implementations on classical graph data.",
+   "keyPoints": [
+    "A unified formalism categorizes quantum graph neural networks into five architecture families.",
+    "Symmetry is identified as the best-supported inductive bias in current literature.",
+    "Evidence remains mostly simulated on small graphs without established advantage over classical models."
+   ]
+  },
+  "km": {
+   "title": "បណ្តាញប្រសាទក្រាហ្វកង់ទិច៖ ស្ថាបត្យកម្ម ការបណ្តុះបណ្តាល និងកម្មវិធី",
+   "summary": "ការស្ទង់មតិថ្មីមួយបានណែនាំទម្រង់ឯកសណ្ឋានសម្រាប់បណ្តាញប្រសាទក្រាហ្វកង់ទិច ដែលរួមបញ្ចូលគ្នារវាងសៀគ្វីកង់ទិចប៉ារ៉ាម៉ែត្រ និងទិន្នន័យរចនាសម្ព័ន្ធក្រាហ្វ។ ការសិក្សានេះបានចាត់ថ្នាក់ម៉ូដែលដែលមានស្រាប់ទៅជាស្ថាបត្យកម្មចំនួនប្រាំគ្រួសារ និងបានពិនិត្យមើលស៊ីមេទ្រី ភាពអាចបណ្តុះបណ្តាល សំឡេងរំខាន និងកម្មវិធីរបស់ពួកវា។ ការរកឃើញចម្បងបានបង្ហាញថា ភស្តុតាងគាំទ្រនៅតែមានកម្រិតស្តើង ដែលភាគច្រើនគឺផ្អែកលើការក្លែងាប់ដោយមិនទាន់មានគុណសម្បត្តិបញ្ជាក់ច្បាស់លើម៉ូដែលបុរាណនៅឡើយ។",
+   "impact": "អ្នកស្រាវជ្រាវ និងអ្នកអភិវឌ្ឍន៍ដែលធ្វើការលើបណ្តាញប្រសាទក្រាហ្វ ឬកុំព្យូទ័រកង់ទិច អាចនឹងឃើញថាបណ្តាញប្រសាទក្រាហ្វកង់ទិចបច្ចុប្បន្នខ្វះគុណសម្បត្តិដែលបានបញ្ជាក់លើម៉ូដែលបុរាណ។",
+   "keyPoints": [
+    "ទម្រង់ឯកសណ្ឋានចាត់ថ្នាក់បណ្តាញប្រសាទក្រាហ្វកង់ទិចជាស្ថាបត្យកម្មប្រាំគ្រួសារ។",
+    "ស៊ីមេទ្រីត្រូវបានកំណត់ថាជាភាពលំអៀងអាំងឌុចទ័រដែលមានការគាំទ្រល្អបំផុត។",
+    "ភស្តុតាងភាគច្រើនត្រូវបានក្លែងធ្វើនៅលើក្រាហ្វតូចៗដោយគ្មានគុណសម្បត្តិលើម៉ូដែលបុរាណ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "量子图神经网络：架构、可训练性与应用",
+   "summary": "一项新的综述为量子图神经网络引入了一个统一的形式体系，将参数化量子电路与图结构数据相结合。该研究将现有模型分为五个架构系列，并审查了它们的对称性、可训练性、噪声以及在各个领域的应用。主要发现表明，尽管设计空间丰富，但支持证据仍然单薄，主要基于在小图上的模拟，尚未在经典数据任务上建立优势。",
+   "impact": "研究人员和开发人员可能会发现，当前的量子图神经网络相比经典模型尚未展现出经证实的优势。技术团队应当注意，该领域目前主要依赖模拟，而非针对经典图数据的实际容错实现。",
+   "keyPoints": [
+    "统一的形式体系将量子图神经网络归纳为五个架构系列。",
+    "对称性被认为是得到最多支持的归纳偏置。",
+    "证据主要来自小图上的模拟，尚未对经典模型确立优势。"
+   ]
+  },
+  "ko": {
+   "title": "양자 그래프 신경망: 아키텍처, 학습 가능성 및 응용",
+   "summary": "새로운 조사 연구는 매개변수화된 양자 회로와 그래프 구조 데이터를 결합하는 양자 그래프 신경망을 위한 통합 형식을 소개합니다. 이 연구는 기존 모델을 다섯 가지 아키텍처 제품군으로 분류하고 대칭성, 학습 가능성, 노이즈 및 응용 분야를 검토합니다. 주요 발견에 따르면 디자인 공간은 풍부하지만 뒷받침되는 증거는 여전히 부족하며 주로 소규모 그래프 시뮬레이션을 기반으로 하여 고전적 모델에 대한 우위가 아직 확립되지 않았습니다.",
+   "impact": "그래프 신경망이나 양자 컴퓨팅을 연구하는 개발자와 연구원들은 현재의 양자 그래프 신경망이 고전적 모델에 비해 입증된 우위가 부족하다는 점을 알 수 있습니다. 보안 팀과 기술 사용자는 이 분야가 고전적 그래프 데이터에 대한 결함 허용 구현보다는 시뮬레이션에 크게 의존하고 있음을 유의해야 합니다.",
+   "keyPoints": [
+    "통합 형식은 양자 그래프 신경망을 다섯 가지 아키텍처 제품군으로 분류합니다.",
+    "대칭성은 문헌에서 가장 잘 뒷받침되는 귀납적 편향으로 식별됩니다.",
+    "증거는 대부분 소규모 그래프에서 시뮬레이션된 상태로 남아 있습니다."
+   ]
+  }
+ }
+}

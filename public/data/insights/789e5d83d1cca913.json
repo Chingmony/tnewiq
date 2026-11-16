@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "789e5d83d1cca913",
+ "contentHash": "fec5243632a111fc",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T02:53:30.648Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AmbiSteer: Selectively Eliciting Ambiguity-Aware Responses in Vision-Language Models",
+   "summary": "Vision-language models often show overconfidence by giving firm answers when visual evidence is insufficient, such as in ambiguous Visual Question Answering tasks. To address this, researchers introduced AmbiSteer, a lightweight framework that uses activation steering combined with a linear classifier to selectively elicit ambiguity-aware behaviors. The method conditions the steering direction based on predicted input ambiguity to help models ask for clarification or enumerate plausible referents when appropriate. Experiments across three vision-language models showed that AmbiSteer increased the proportion of inputs handled appropriately from 59.0% to 77.0% on average.",
+   "impact": "This research could help developers and security teams reduce model overconfidence in uncertain multimodal settings. By using lightweight inference-time mechanisms, vision-language systems may become more reliable in handling ambiguous inputs.",
+   "keyPoints": [
+    "Vision-language models often default to a single interpretation and struggle with referential ambiguity.",
+    "AmbiSteer combines prompting and activation steering with a linear classifier to detect and handle input ambiguity.",
+    "The framework increased appropriately handled inputs from 59.0% to 77.0% on average across three models."
+   ]
+  },
+  "km": {
+   "title": "AmbiSteer៖ ការទាញយកការឆ្លើយតបដែលដឹងពីភាពមិនច្បាស់លាស់នៅក្នុងគំរូ Vision-Language Models",
+   "summary": "គំរូ Vision-Language Models តែងតែបង្ហាញភាពជឿជាក់ជ្រុលដោយផ្ដល់ចម្លើយយ៉ាងម៉ឺងម៉ាត់ ទោះបីជាភស្តុតាងមើលឃើញមិនគ្រប់គ្រាន់ក៏ដោយ។ ដើម្បីដោះស្រាយបញ្ហានេះ អ្នកស្រាវជ្រាវបានណែនាំ AmbiSteer ដែលជាក្របខ័ណ្ឌស្រាលមួយដើម្បីទាញយកអាកប្បកិរិយាដឹងពីភាពមិនច្បាស់លាស់។ ការពិសោធន៍លើគំរូចំនួនបីបានបង្ហាញថា AmbiSteer បានកើនឡើងសមាមាត្រនៃការបញ្ចូលដែលត្រូវបានគ្រប់គ្រងយ៉ាងសមស្របពី ៥៩,០% ដល់ ៧៧,០% ជាមធ្យម។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍កាត់បន្ថយភាពជឿជាក់ជ្រុលរបស់គំរូនៅក្នុងបរិយាកាសពហុព័ត៌មានដែលមិនច្បាស់លាស់។ ប្រព័ន្ធ Vision-Language Models អាចនឹងក្លាយជាការទុកចិត្តបានកាន់តែខ្លាំងក្នុងការគ្រប់គ្រងការបញ្ចូលដែលមិនច្បាស់លាស់។",
+   "keyPoints": [
+    "គំរូ Vision-Language Models ច្រើនតែមានការលំបាកជាមួយភាពមិនច្បាស់លាស់នៃការយោង។",
+    "AmbiSteer ប្រើប្រាស់ម៉ាស៊ីនចាត់ថ្នាក់លីនេអ៊ែរដើម្បីទស្សន៍ទាយភាពមិនច្បាស់លាស់នៃការបញ្ចូល។",
+    "ក្របខ័ណ្ឌនេះបានកើនឡើងការគ្រប់គ្រងការបញ្ចូលពី ៥៩,០% ដល់ ៧៧,០% ជាមធ្យម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AmbiSteer：在视觉语言模型中选择性地引发具模糊感知能力的响应",
+   "summary": "视觉语言模型在视觉证据不足时往往表现出过度自信，给出确定性的答案。为了解决这个问题，研究人员引入了 AmbiSteer，这是一个轻量级框架，通过激活转向和线性分类器来选择性地引发具模糊感知能力的行为。在三个视觉语言模型上的实验表明，AmbiSteer 将平均恰当处理的输入比例从 59.0% 提高到了 77.0%。",
+   "impact": "这项研究可能有助于开发者和安全团队减少模型在不确定多模态环境中的过度自信。通过采用轻量级推理时机制，视觉语言系统在处理模糊输入时可能会变得更加可靠。",
+   "keyPoints": [
+    "视觉语言模型在处理引用模糊性时经常默认单一解释。",
+    "AmbiSteer 结合了提示和带有线性分类器的激活转向来处理输入模糊性。",
+    "该框架使模型平均恰当处理输入的比例从 59.0% 提升至 77.0%。"
+   ]
+  },
+  "ko": {
+   "title": "AmbiSteer: 비전-언어 모델에서 모호성을 인식하는 응답을 선택적으로 유도하기",
+   "summary": "비전-언어 모델은 시각적 증거가 불충분할 때도 단호한 답변을 제공하며 과도한 자신감을 보이는 경우가 많습니다. 이를 해결하기 위해 연구진은 활성 조향과 선형 분류기를 결합하여 모호성 인식 행동을 선택적으로 유도하는 경량 프레임워크인 AmbiSteer를 도입했습니다. 세 개의 비전-언어 모델을 대상으로 한 실험에서 AmbiSteer는 적절하게 처리된 입력의 비율을 평균 59.0%에서 77.0%로 증가시켰습니다.",
+   "impact": "이번 연구는 개발자와 보안 팀이 불확실한 멀티모달 환경에서 모델의 과도한 자신감을 줄이는 데 도움을 줄 수 있습니다. 경량 추론 시간 메커니즘을 사용함으로써 비전-언어 시스템이 모호한 입력을 처리할 때 더욱 신뢰할 수 있게 될 수 있습니다.",
+   "keyPoints": [
+    "비전-언어 모델은 종종 단일 해석을 기본으로 하며 참조적 모호성 처리에 어려움을 겪습니다.",
+    "AmbiSteer는 입력의 모호성을 예측하기 위해 선형 분류기를 활용합니다.",
+    "이 프레임워크는 모델들에서 적절히 처리된 입력의 비율을 평균 59.0%에서 77.0%로 높였습니다."
+   ]
+  }
+ }
+}

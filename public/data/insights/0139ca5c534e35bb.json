@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0139ca5c534e35bb",
+ "contentHash": "050c9180462842d3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T02:52:32.333Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "datasette 1.0a43",
+   "summary": "Simon Willison has released datasette 1.0a43, bringing the 1.0 milestone to 53% completion with the help of Claude Fable 5.2. Key updates include streaming support for output renderers like TSV and CSV export, a security fix addressing the exposure of private stored queries, and the addition of CSS multi-page view transitions. The release also introduces a new copy-button Web Component, JSON pretty-printing on row pages, and numerous bug fixes and smaller improvements.",
+   "impact": "Developers and security teams should review the security fixes, particularly regarding private stored queries that could expose titles and SQL statements. Plugin developers may benefit from the new streaming response capabilities and updated rendering features.",
+   "keyPoints": [
+    "Released datasette 1.0a43, which is 53% complete toward the 1.0 milestone.",
+    "Added streaming support for output renderers and a Response.stream() method for plugins.",
+    "Included a security fix for private stored queries that could expose query titles and SQL.",
+    "Introduced CSS multi-page view transitions to give multi-page navigation an SPA feel."
+   ]
+  },
+  "km": {
+   "title": "datasette 1.0a43",
+   "summary": "Simon Willison បានចេញផ្សាយ datasette 1.0a43 ដែលនាំឱ្យព្រឹត្តិការណ៍សំខាន់ 1.0 សម្រេចបាន 53% ។ ការអាប់ដេតសំខាន់ៗរួមមានការគាំទ្រការ 스트リー밍 សម្រាប់ឧបករណ៍បង្ហាញលទ្ធផល និងការកែតម្រូវសុវត្ថិភាពដែលពាក់ព័ន្ធនឹងសំណួរដែលបានរក្សាទុកឯកជន។ ការចេញផ្សាយនេះក៏បានបន្ថែមការ 전환 មើលទំព័រច្រើន CSS និងការកែលម្អផ្សេងទៀតផងដែរ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍គួរតែពិនិត្យមើលការកែតម្រូវសុវត្ថិភាពទាក់ទងនឹងសំណួរដែលបានរក្សាទុកឯកជន។ អ្នកអភិវឌ្ឍន៍ក៏អាចទ الاستفادة ពីមុខងារ 스트リー밍 ថ្មីផងដែរ។",
+   "keyPoints": [
+    "បានចេញផ្សាយ datasette 1.0a43 ដែលសម្រេចបាន 53% នៃដំណាក់កាល 1.0 ។",
+    "បានបន្ថែមការគាំទ្រការ 스트リー밍 សម្រាប់ឧបករណ៍បង្ហាញលទ្ធផល។",
+    "បានដាក់បញ្ចូលការកែតម្រូវសុវត្ថិភាពសម្រាប់សំណួរឯកជន។",
+    "បានណែនាំការ chuyển đổi មើលទំព័រច្រើន CSS ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "datasette 1.0a43",
+   "summary": "Simon Willison 发布了 datasette 1.0a43，在 Claude Fable 5.2 的帮助下，1.0 里程碑现已完成 53%。此版本的主要亮点包括为输出渲染器提供流式传输支持、修复了一个关于私有存储查询可能泄露的安全性问题，并加入了 CSS 多页视图过渡效果。此外，版本还带来了网页组件、JSON 格式化以及大量错误修复和改进。",
+   "impact": "开发者和安全团队应当关注此次发布的安全性修复，特别是可能暴露私有查询标题和 SQL 的问题。插件开发者可以利用新增的流式响应功能来提升性能。",
+   "keyPoints": [
+    "发布了 datasette 1.0a43，1.0 里程碑完成度达到 53%。",
+    "为输出渲染器和插件添加了流式传输支持。",
+    "包含了一项针对私有存储查询泄露的安全修复。",
+    "引入了 CSS 多页视图过渡效果，使多页应用导航感觉更像单页面应用。"
+   ]
+  },
+  "ko": {
+   "title": "datasette 1.0a43",
+   "summary": "Simon Willison은 Claude Fable 5.2의 도움을 받아 1.0 마일스톤의 53%를 달성한 datasette 1.0a43을 출시했습니다. 이번 릴리스의 주요 기능으로는 출력 렌더러를 위한 스트리밍 지원, 비공개 저장 쿼리 노출 문제를 해결하는 보안 수정, 그리고 CSS 다중 페이지 뷰 전환 추가 등이 있습니다. 그 외에도 다양한 버그 수정과 소소한 개선 사항이 포함되었습니다.",
+   "impact": "개발자와 보안 팀은 비공개 저장 쿼리의 제목과 SQL이 노출될 수 있었던 보안 수정 사항을 검토해야 합니다. 플러그인 개발자는 새로운 스트리밍 응답 기능을 활용할 수 있습니다.",
+   "keyPoints": [
+    "1.0 마일스톤의 53%를 완료한 datasette 1.0a43이 출시되었습니다.",
+    "출력 렌더러 및 플러그인을 위한 스트리밍 지원이 추가되었습니다.",
+    "비공개 저장 쿼리 노출과 관련된 보안 수정이 포함되었습니다.",
+    "다중 페이지 탐색에 SPA 같은 느낌을 주는 CSS 다중 페이지 뷰 전환이 도입되었습니다."
+   ]
+  }
+ }
+}

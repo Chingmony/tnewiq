@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6d68c2ae7c722837",
+ "contentHash": "e882de4e66b6f231",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T02:55:37.394Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Disentangling Forgetting from Utility: Lightweight LLM Unlearning via Orthogonal Null-Space Projection",
+   "summary": "Researchers proposed UUE, a new framework for Large Language Model unlearning that separates the removal of specific knowledge from the preservation of general utility. The method projects parameter updates into the orthogonal left null space of retained knowledge representations to prevent capability degradation. Additionally, it uses a convex untargeted objective with a closed-form analytical solution to disrupt undesired knowledge.",
+   "impact": "This technique could provide security teams and developers with a more efficient way to remove private or hazardous information from LLMs without degrading their overall performance. The lightweight, pluggable adapters may also allow for easier deployment in production environments.",
+   "keyPoints": [
+    "UUE reformulates unlearning as controllable model editing using orthogonal null-space projection.",
+    "A convex untargeted objective is introduced to disrupt undesired knowledge by pushing forget-set embeddings toward their antipodal points.",
+    "The framework uses lightweight, pluggable adapters including a low-rank variant called UUE-L.",
+    "Experiments on TOFU and WMDP benchmarks showed superior unlearning efficacy compared to existing methods."
+   ]
+  },
+  "km": {
+   "title": "ការបំបែកការបំភ្លេចចេញពីអត្ថប្រយោជន៍៖ ការលុបចំណេះដឹង LLM ទម្ងន់ស្រាលតាមរយៈការ προβολា Orthogonal Null-Space",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើឡើង UUE ដែលជាក្របខ័ណ្ឌថ្មីមួយសម្រាប់ការលុបចំណេះដឹងក្នុង Large Language Models ដើម្បីញែកការដកចេញនូវចំណេះដឹងជាក់លាក់ពីការរក្សាទុកអត្ថប្រយោជន៍ទូទៅ។ វិធីសាស្ត្រនេះព្យាករណ៍ការអាប់ដេតប៉ារ៉ាម៉ែត្រទៅក្នុងលំហ orthogonal left null space ដើម្បីធានាការរំខានតិចតួចបំផុតដល់សមត្ថភាពទូទៅរបស់ម៉ូដែល។ វាគ្មិនក៏បានណែនាំផងដែរនូវគោលដៅ convex untargeted objective ដើម្បីរំខានដល់ចំណេះដឹងដែលមិនចង់បាន។",
+   "impact": "បច្ចេកទេសនេះអាចជួយឱ្យក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍មានវិធីសាស្ត្រដែលមានប្រសិទ្ធភាពជាងមុនក្នុងការដកចេញនូវព័ត៌មានឯកជន ឬព័ត៌មានគ្រោះថ្នាក់ពី LLMs ដោយមិនប៉ះពាល់ដល់ដំណើរការទូទៅ។",
+   "keyPoints": [
+    "UUE កំណត់ការលុបចំណេះដឹងឡើងវិញជាការកែសម្រួលម៉ូដែលដែលអាចគ្រប់គ្រងបាន។",
+    "ការពិសោធន៍នៅលើ TOFU និង WMDP benchmarks បានបង្ហាញពីប្រសិទ្ធភាពខ្ពស់ជាងវិធីសាស្ត្រដែលមានស្រាប់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "剥离遗忘与效用：通过正交零空间投影实现轻量级LLM遗忘",
+   "summary": "研究人员提出了UUE，这是一个用于大语言模型遗忘的新框架，旨在将特定知识的去除与通用效用保持区分开来。该方法将参数更新投影到保留知识表示的正交左零空间中，以确保对模型通用能力的干扰降到最低。此外，它引入了一个具有封闭形式解析解的凸无目标目标函数，以破坏不需要的知识。",
+   "impact": "该技术可以为开发人员和安全团队提供一种更有效的方法，从LLMs中移除私人或危险信息，同时不会降低整体性能。轻量级可插拔适配器也可能使在生产环境中的部署更加便捷。",
+   "keyPoints": [
+    "UUE将遗忘重新构建为使用正交零空间投影的可控模型编辑。",
+    "引入了凸无目标目标函数，通过将遗忘集嵌入推向其对蹠点来破坏不需要的知识。",
+    "该框架通过轻量级可插拔适配器（包括低秩变体UUE-L）实现高效部署。",
+    "在TOFU和WMDP基准测试上的广泛实验表明，UUE和UUE-L具有优越的遗忘效果。"
+   ]
+  },
+  "ko": {
+   "title": "망각과 유용성의 분리: 직교 영공간 투영을 통한 경량 LLM 언러닝",
+   "summary": "연구진은 특정 지식의 제거와 일반적인 유용성 유지를 분리하는 새로운 대형 언어 모델 언러닝 프레임워크인 UUE를 제안했습니다. 이 방법은 모델의 일반적인 기능에 대한 간섭을 최소화하기 위해 매개변수 업데이트를 유지된 지식 표현의 직교 좌영공간에 투영합니다. 또한 닫힌 형식의 해를 제공하는 볼록 비목표 목적 함수를 도입하여 원치 않는 지식을 효과적으로 교란합니다.",
+   "impact": "이 기술은 개발자와 보안 팀이 전반적인 성능 저하 없이 LLM에서 사적이거나 위험한 정보를 제거할 수 있는 보다 효율적인 방법을 제공할 수 있습니다. 경량 플러그인 어댑터를 통해 프로덕션 환경에서의 배포도 더 쉬워질 수 있습니다.",
+   "keyPoints": [
+    "UUE는 직교 영공간 투영을 사용하여 언러닝을 제어 가능한 모델 편집으로 재정의합니다.",
+    "망각 셋 임베딩을 대척점으로 밀어내어 원치 않는 지식을 교란하는 볼록 비목표 목적 함수를 도입했습니다.",
+    "저랭크 변형인 UUE-L을 포함한 경량의 플러그 가능한 어댑터를 통해 구현되었습니다.",
+    "TOFU 및 WMDP 벤치마크 테스트에서 기존 방법에 비해 우수한 언러닝 효과를 입증했습니다."
+   ]
+  }
+ }
+}

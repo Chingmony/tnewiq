@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "62502669a1f91926",
+ "contentHash": "f14a053ae1bae2f7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T02:56:26.952Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Is Abliteration Getting Harder? Not Uniformly: Refusal Removal by Direction-Based Ablation and ARA in Heretic on the Qwen3.8, Gemma 4, Olmo 3.1 and Mistral Small 3.2 LLMs Versus Their Predecessors",
+   "summary": "Abliteration is a fine-tuning-free weight edit that removes refusal from open-weight large language models. A developer tested direction-based abliteration and Arbitrary-Rank Ablation (ARA) across five release pairs of models using Heretic 2.0 to see if refusal removal is becoming harder on newer versions. Results showed that refusal removal did not become uniformly harder across newer models, with outcomes depending heavily on the specific release pair, method, and budget used.",
+   "impact": "Security teams and developers may find that techniques for removing refusal behaviors do not consistently fail or succeed across newer model generations. Because effectiveness varies by method, model pair, and evaluation set, assessing model safety modifications requires careful, context-specific testing rather than relying on generational trends.",
+   "keyPoints": [
+    "Direction-based abliteration and ARA were tested on five model release pairs using Heretic 2.0.",
+    "Refusal removal did not become uniformly harder on newer model releases.",
+    "Newer releases retained varying levels of refusal depending on the method, release pair, and budget."
+   ]
+  },
+  "km": {
+   "title": "តើការលុបបំបាត់ការបដិសេធកាន់តែពិបាកឬ? មិនមែនស្មើគ្នាទេ៖ ការលុបការបដិសេធដោយការកាត់បន្ថយផ្អែកលើទិសដៅ និង ARA នៅក្នុង Heretic លើម៉ូឌែល Qwen3.8, Gemma 4, Olmo 3.1 និង Mistral Small 3.2 ប្រៀបធៀបនឹងម៉ូឌែលជំនាន់មុន",
+   "summary": "Abliteration គឺជាការកែសម្រួលទម្ងន់ដោយមិនចាំបាច់ធ្វើការ fine-tuning ដែលអាចលុបបំបាត់ការបដិសេធចេញពីម៉ូឌែលភាសាធំៗ (LLMs)។ អ្នកអភិវឌ្ឍន៍ម្នាក់បានធ្វើតេស្តវិធីសាស្ត្រកាត់បន្ថយផ្អែកលើទិសដៅ និង Arbitrary-Rank Ablation (ARA) លើម៉ូឌែលចំនួនប្រាំគូ ដើម្បីពិនិត្យមើលថាតើការលុបការបដិសេធកាន់តែមានការពិបាកលើម៉ូឌែលជំនាន់ថ្មីដែរឬទេ។ លទ្ធផលបង្ហាញថាការលុបការបដិសេធមិនបានក្លាយជាការពិបាកដូចគ្នានៅលើគ្រប់ម៉ូឌែលថ្មីនោះទេ ដោយវាអាស្រ័យលើគូម៉ូឌែល វិធីសាស្ត្រ និងថវិកាដែលបានប្រើប្រាស់។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចនឹងឃើញថា បច្ចេកទេសសម្រាប់ការលុបបំបាត់ការបដិសេធមិនមានភាពបរាជ័យ ឬជោគជ័យស្របគ្នានៅលើម៉ូឌែលជំនាន់ថ្មីនោះទេ។ ដោយសារតែប្រសិទ្ធភាពខុសគ្នាទៅតាមវិធីសាស្ត្រ និងគូម៉ូឌែល ការវាយតម្លៃការកែប្រែសុវត្ថិភាពម៉ូឌែលទាមទារឱ្យមានការសាកល្បងដោយប្រុងប្រយ័ត្ន។",
+   "keyPoints": [
+    "ការលុបការបដិសេធផ្អែកលើទិសដៅ និង ARA ត្រូវបានធ្វើតេស្តលើគូម៉ូឌែលចំនួនប្រាំដោយប្រើប្រាស់ Heretic 2.0។",
+    "ការលុបការបដិសេធមិនបានក្លាយជាការពិបាកស្មើគ្នានៅលើម៉ូឌែលជំនាន់ថ្មីនោះទេ។",
+    "ម៉ូឌែលជំនាន់ក្រោយបានរក្សាការបដិសេធក្នុងកម្រិតខុសៗគ្នាអាស្រ័យលើវិធីសាស្ត្រ និងគូម៉ូឌែល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "消融术变难了吗？并非一致：在Qwen3.8、Gemma 4、Olmo 3.1和Mistral Small 3.2大语言模型及其前代版本中，使用Heretic通过基于方向的消融和ARA进行拒绝移除的对比",
+   "summary": "消融术（Abliteration）是一种无需微调的权重编辑方法，用于移除开源大语言模型中的拒绝行为。Arbitrary-Rank Ablation（ARA）的开发者在一组五个模型发布对上测试了基于方向的消融和ARA，以观察在较新模型上移除拒绝行为是否变得更加困难。结果表明，拒绝移除在较新模型上并非变得普遍困难，其效果取决于具体的发布对、方法和预算。",
+   "impact": "安全团队和开发人员可能会发现，用于移除拒绝行为的技术在更新一代的模型中并不会一致地失效或成功。由于效果因方法、模型对和评估集而异，评估模型的安全性修改需要进行仔细且针对具体上下文的测试，而不是依赖于代际趋势。",
+   "keyPoints": [
+    "在Heretic 2.0中使用五对模型发布版本测试了基于方向的消融和ARA。",
+    "拒绝移除在较新的模型版本中并没有变得普遍更加困难。",
+    "较新版本根据方法、发布对和预算保留了不同程度的拒绝行为。"
+   ]
+  },
+  "ko": {
+   "title": "제거 기법이 더 어려워지고 있는가? 일률적이지 않음: Qwen3.8, Gemma 4, Olmo 3.1 및 Mistral Small 3.2 대형 언어 모델과 이전 모델에서 Heretic의 방향 기반 제거 및 ARA를 통한 거부 제거 비교",
+   "summary": "어블리테이션(Abliteration)은 파인튜닝이 필요 없는 가중치 편집 기법으로, 오픈 웨이트 대형 언어 모델에서 거부 반응을 제거합니다. Arbitrary-Rank Ablation(ARA) 개발자는 다섯 가지 모델 출시 쌍을 대상으로 Heretic 2.0을 사용해 방향 기반 제거와 ARA를 테스트하여 최신 모델에서 거부 제거가 더 어려워졌는지 확인했습니다. 결과에 따르면 거부 제거가 최신 모델에서 일률적으로 더 어려워진 것은 아니며 결과는 특정 출시 쌍, 방법, 예산에 따라 달라졌습니다.",
+   "impact": "보안 팀과 개발자는 거부 동작을 제거하는 기술이 최신 모델 세대에서 일관되게 실패하거나 성공하지 않는다는 것을 확인할 수 있습니다. 효과는 방법, 모델 쌍, 평가 세트에 따라 다르므로 모델 안전성 수정을 평가할 때는 세대별 트렌드에 의존하기보다는 신중하고 맥락에 맞는 테스트가 필요합니다.",
+   "keyPoints": [
+    "Heretic 2.0을 사용하여 5개의 모델 출시 쌍에서 방향 기반 제거 및 ARA를 테스트했습니다.",
+    "거부 제거는 최신 모델 출시에서 일률적으로 더 어려워지지 않았습니다.",
+    "최신 릴리스는 방법, 출시 쌍, 예산에 따라 다양한 수준의 거부 반응을 유지했습니다."
+   ]
+  }
+ }
+}

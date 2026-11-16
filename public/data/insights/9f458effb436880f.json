@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9f458effb436880f",
+ "contentHash": "380e8735adfd5ee5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T02:52:41.341Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "datasette 0.65.6",
+   "summary": "Simon Willison has released datasette 0.65.6. This release includes a backported minor security fix from 1.0a43.",
+   "impact": "Security teams and developers may want to update to address the vulnerability where databases registered with differing routes and names could be downloaded by unauthorized actors.",
+   "keyPoints": [
+    "Released datasette 0.65.6",
+    "Backported a minor security fix from 1.0a43",
+    "Fixed an issue involving database routes and unauthorized downloads"
+   ]
+  },
+  "km": {
+   "title": "datasette 0.65.6",
+   "summary": "Simon Willison បានចេញផ្សាយ datasette 0.65.6។ ការចេញផ្សាយនេះរួមបញ្ចូលទាំងការជួសជុលសុវត្ថិភាពເລັກតូចដែលបានយោងថយក្រោយពី 1.0a43។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍អាចនឹងត្រូវធ្វើបច្ចុប្បន្នភាពដើម្បីដោះស្រាយបញ្ហាប្រឈមដែលមូលដ្ឋានទិន្នន័យអាចត្រូវបានទាញយកដោយអ្នកដែលគ្មានសិទ្ធិ។",
+   "keyPoints": [
+    "បានចេញផ្សាយ datasette 0.65.6",
+    "បានយោងការជួសជុលសុវត្ថិភាពពី 1.0a43",
+    "បានជួសជុលបញ្ហាសុវត្ថិភាពាក់ព័ន្ធនឹងផ្លូវទិន្នន័យ"
+   ]
+  },
+  "zh-CN": {
+   "title": "datasette 0.65.6",
+   "summary": "Simon Willison 发布了 datasette 0.65.6 版本。该版本从 1.0a43 反向移植了一个较小的安全修复。",
+   "impact": "开发人员和安全团队可能需要进行更新，以解决使用不同路由和名称注册的数据库可能被未授权人员下载的安全问题。",
+   "keyPoints": [
+    "发布了 datasette 0.65.6",
+    "从 1.0a43 反向移植了安全修复",
+    "修复了数据库路由的安全漏洞"
+   ]
+  },
+  "ko": {
+   "title": "datasette 0.65.6",
+   "summary": "Simon Willison이 datasette 0.65.6을 출시했습니다. 이번 릴리스에는 1.0a43에서 가져온 사소한 보안 패치가 백포트되었습니다.",
+   "impact": "개발자와 보안 팀은 경로와 이름이 다른 데이터베이스가 권한이 없는 사용자에게 다운로드될 수 있는 보안 문제를 해결하기 위해 업데이트를 검토할 수 있습니다.",
+   "keyPoints": [
+    "datasette 0.65.6 출시",
+    "1.0a43에서 보안 패치 백포트",
+    "데이터베이스 경로 및 다운로드 관련 보안 문제 수정"
+   ]
+  }
+ }
+}

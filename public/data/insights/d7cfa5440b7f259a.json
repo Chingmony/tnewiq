@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d7cfa5440b7f259a",
+ "contentHash": "8802c2477eba3327",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T02:58:17.964Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "RAG-FGO: Dynamic Optimization of Query-Rewriting Agents for Generative RAG",
+   "summary": "The authors propose RAG-FGO, a dynamic optimization framework for generative retrieval strategies to address challenges like noisy retrieval feedback and joint optimization of discrete prompt templates and continuous decoding parameters. RAG-FGO treats query rewriting as a non-differentiable black-box optimization problem in a mixed discrete-continuous space using adaptively optimizable query-rewriting agents. The framework combines global search for semantic jumps with local perturbations for fine-grained alignment, supported by an elite-preserving memory pool to ensure optimization stability. Experimental results on diverse benchmarks show that the method is effective, robust, and applicable to complex semantic retrieval tasks.",
+   "impact": "This framework could help developers and engineers improve retrieval-augmented generation systems by providing a more robust way to handle noisy feedback and optimize query rewriting. It may also offer better generalization for complex semantic retrieval tasks.",
+   "keyPoints": [
+    "RAG-FGO is a dynamic optimization framework for generative retrieval strategies.",
+    "It formulates query rewriting as a non-differentiable black-box optimization problem in a mixed discrete-continuous space.",
+    "The method utilizes both global search for semantic jumps and local perturbations for fine-grained alignment.",
+    "An elite-preserving memory pool is included to accumulate high-quality strategies and mitigate noisy feedback."
+   ]
+  },
+  "km": {
+   "title": "RAG-FGO៖ ការបង្កើនប្រសិទ្ធភាពថាមវន្តនៃភ្នាក់ងារសរសេរសំណួរឡើងវិញសម្រាប់ Generative RAG",
+   "summary": "ការសិក្សានេះស្នើឡើងនូវ RAG-FGO ដែលជាក្របខ័ណ្ឌបង្កើនប្រសិទ្ធភាពថាមវន្តសម្រាប់យុទ្ធសាស្ត្រទាញយកទិន្នន័យជំនាន់ ដើម្បីដោះស្រាយបញ្ហាប្រឈមដូចជាមតិត្រឡប់ដែលមានសំឡេងរំខាន និងការបង្កើនប្រសិទ្ធភាពរួមគ្នានៃគំរូបញ្ជាផ្អែកលើឌីស្រ្ីត និងប៉ារ៉ាម៉ែត្រឌិកូដបន្ត។ ក្របខ័ណ្ឌនេះចាត់ទុកការសរសេរសំណួរឡើងវិញជាបញ្ហាបង្កើនប្រសិទ្ធភាពប្រអប់ខ្មៅដែលមិនអាចឌីផេរ៉ង់ស្យែលបាន។ លទ្ធផលពិសោធន៍នៅលើគោលការណ៍ផ្សេងៗបង្ហាញពីប្រសិទ្ធភាព និងភាពរឹងមាំនៃវិធីសាស្ត្រដែលបានស្នើឡើង។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចជួយអ្នកអភិវឌ្ឍន៍ក្នុងការបង្កើនប្រសិទ្ធភាពប្រព័ន្ធទាញយកទិន្នន័យ និងដោះស្រាយបញ្ហាមតិត្រឡប់ដែលមានសំឡេងរំខាន។ វាក៏អាចផ្តល់នូវភាពទូទៅកាន់តែប្រសើរឡើងសម្រាប់កិច្ចការទាញយកន័យស្មុគស្មាញផងដែរ។",
+   "keyPoints": [
+    "RAG-FGO គឺជាក្របខ័ណ្ឌបង្កើនប្រសិទ្ធភាពថាមវន្តសម្រាប់យុទ្ធសាស្ត្រទាញយកទិន្នន័យជំនាន់។",
+    "វាបង្កើតការសរសេរសំណួរឡើងវិញជាបញ្ហាបង្កើនប្រសិទ្ធភាពប្រអប់ខ្មៅ។",
+    "វាប្រើប្រាស់ការស្វែងរកសកល និងការរំខានមូលដ្ឋានសម្រាប់ការកែតម្រូវដ៏ល្អិតល្អន់។",
+    "វាណែនាំអំពីអាងអង្គចងចាំដែលរក្សាទុកនូវយុទ្ធសាស្ត្រគុណភាពខ្ពស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "RAG-FGO：生成式RAG中查询重写代理的动态优化",
+   "summary": "本文提出了RAG-FGO，这是一个用于生成式检索策略的动态优化框架，旨在解决检索反馈噪声、离散提示词模板与连续解码控制参数难以联合优化以及静态重写策略泛化能力有限这三大挑战。RAG-FGO将查询重写建模为一个混合离散连续空间中的不可导黑盒优化问题，并将提示词模板和解码参数表示为自适应优化的查询重写代理。该框架结合了用于跳出局部最优的全局搜索和用于精细对齐的局部扰动，并引入了精英保留记忆池以提高优化稳定性。多样化基准测试的实验结果证明了该方法的有效性和稳健性。",
+   "impact": "该框架可以帮助开发人员和技术团队改进检索增强生成系统，提供更强大的方法来处理噪声反馈并优化查询重写。它还可能增强系统在复杂语义检索任务中的泛化能力。",
+   "keyPoints": [
+    "RAG-FGO是一个用于生成式检索策略的动态优化框架。",
+    "它将查询重写表述为混合离散连续空间中的不可导黑盒优化问题。",
+    "框架结合了全局搜索和局部扰动以实现精确求精。",
+    "引入精英保留记忆池以减轻随机性和噪声反馈的影响。"
+   ]
+  },
+  "ko": {
+   "title": "RAG-FGO: 생성형 RAG를 위한 쿼리 재작성 에이전트의 동적 최적화",
+   "summary": "연구진은 노이즈가 있는 검색 피드백, 이산 프롬프트 템플릿과 연속 디코딩 제어 파라미터의 결합 최적화 어려움, 정적 재작성 전략의 제한된 일반화 문제를 해결하기 위해 생성형 검색 전략을 위한 동적 최적화 프레임워크인 RAG-FGO를 제안합니다. RAG-FGO는 쿼리 재작성을 혼합 이산-연속 공간에서의 미분 불가능한 블랙박스 최적화 문제로 정식화하고, 프롬프트 템플릿과 디코딩 파라미터를 적응형 최적화가 가능한 쿼리 재작성 에이전트로 표현합니다. 이 프레임워크는 지역 최적점을 탈출하기 위한 전역 탐색과 세밀한 조정을 위한 국소 교란을 결합하며, 최적화 안정성을 높이기 위해 우수 전략을 유지하는 메모리 풀을 도입합니다. 다양한 벤치마크에서의 실험 결과는 제안된 방법의 효과성과 견고성을 보여줍니다.",
+   "impact": "이 프레임워크는 개발자와 보안 팀 및 기술 사용자에게 노이즈가 있는 피드백을 처리하고 쿼리 재작성을 최적화할 수 있는 더 나은 방법을 제공하여 검색 augmentation 생성 시스템을 개선하는 데 도움을 줄 수 있습니다. 또한 복잡한 의미론적 검색 작업에서 더 나은 일반화 성능을 제공할 수 있습니다.",
+   "keyPoints": [
+    "RAG-FGO는 생성형 검색 전략을 위한 동적 최적화 프레임워크입니다.",
+    "쿼리 재작성을 혼합 이산-연속 공간의 미분 불가능한 블랙박스 최적화 문제로 다룹니다.",
+    "의미론적 도약을 위한 전역 탐색과 미세 조정을 위한 국소 교란을 수행합니다.",
+    "우수 전략을 유지하는 메모리 풀을 통해 최적화 안정성을 향상시킵니다."
+   ]
+  }
+ }
+}

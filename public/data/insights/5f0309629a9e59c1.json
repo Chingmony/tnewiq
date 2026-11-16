@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5f0309629a9e59c1",
+ "contentHash": "68544315c6de323f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T02:55:14.991Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Process Mining-Enabled Federated Anomaly Detection for the Industrial IoT",
+   "summary": "Researchers propose a process mining-enabled federated anomaly detection pipeline for the industrial IoT to address the challenge of non-IID data across diverse nodes. The approach evaluates local node data similarity against a global node reference using process mining. The global node then dynamically weights local models during aggregation to produce personalized updates for the network.",
+   "impact": "This approach could help developers and security teams working with industrial IoT systems reduce false positive rates and handle heterogeneous time-series data more effectively. The demonstrated improvements in F1-score may offer more reliable anomaly detection across plants operating under distinct conditions.",
+   "keyPoints": [
+    "Standard federated learning struggles with non-IID data in industrial IoT plants due to varying operating conditions.",
+    "A process mining approach evaluates local node data similarity against a global reference.",
+    "The global node dynamically weights local models to distribute personalized updates.",
+    "The pipeline achieves a 46.52% relative improvement in F1-score over isolated local training and a 51.24% reduction in false positives over standard federated aggregation."
+   ]
+  },
+  "km": {
+   "title": "ដំណើរការអعدលមីនីង-អាចារ្យស្វ័យប្រវត្តិកម្ម ការរកឃើញភាពមិនប្រក្រតីបែបសហព័ន្ធសម្រាប់ IIoT",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើប្រព័ន្ធរកឃើញភាពមិនប្រក្រតីបែបសហព័ន្ធដែលបើកដំណើរការដោយ process mining សម្រាប់ IIoT ដើម្បីដោះស្រាយបញ្ហាទិន្នន័យ non-IID នៅតាមបណ្តាញផ្សេងៗគ្នា។ វិធីសាស្ត្រនេះវាយតម្លៃភាពស្រដៀងគ្នានៃទិន្នន័យโណដមូលដ្ឋានធៀបនឹងគោលការណ៍យោងពីโណដសកល។ โណដសកលប្រើប្រាស់រង្វាស់ភាពស្រដៀងគ្នានេះដើម្បីកំណត់ទម្ងន់ម៉ូដែលមូលដ្ឋានក្នុងអំឡុងពេលប្រមូលផ្តុំ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខដែលធ្វើការជាមួយប្រព័ន្ធ IIoT កាត់បន្ថយអត្រាវិជ្ជមានខុស និងគ្រប់គ្រងទិន្នន័យស៊េរីពេលវេលាដែលមានលក្ខណៈខុសៗគ្នាបានប្រសើរជាងមុន។ ការកែលម្អលើពិន្ទុ F1 អាចផ្តល់នូវការរកឃើញភាពមិនប្រក្រតីដែលមានភាពជឿជាក់ជាងមុន។",
+   "keyPoints": [
+    "ការរៀនសហព័ន្ធស្តង់ដារជួបការលំបាកជាមួយទិន្នន័យ non-IID នៅក្នុងរុក្ខជាតិ IIoT ។",
+    "វិធីសាស្ត្រ process mining វាយតម្លៃភាពស្រដៀងគ្នានៃទិន្នន័យโណដមូលដ្ឋាន។",
+    "โណដសកលកំណត់ទម្ងន់ម៉ូដែលមូលដ្ឋានយ៉ាងឌីណាមិកក្នុងអំឡុងពេលប្រមូលផ្តុំ។",
+    "管道នេះទទួលបានការកែលម្អទាក់ទងនឹង F1-score 46.52% និងកាត់បន្ថយភាពវិជ្ជមានខុស 51.24% ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "面向工业物联网的基于过程挖掘的联邦异常检测",
+   "summary": "研究人员为工业物联网提出了一种基于过程挖掘的联邦异常检测管道，以解决不同节点中非独立同分布数据带来的挑战。该方法使用过程挖掘来评估本地节点数据与全局节点提供的参考之间的相似性。全局节点在聚合过程中利用这些相似性指标动态加权本地模型，从而产生分发到整个网络的个性化更新。",
+   "impact": "这种方法可以帮助开发人员和安全团队更有效地处理工业物联网系统中的非独立同分布数据，并降低误报率。F1 分数的显着提升可能会在不同运行条件下的工厂中提供更可靠的异常检测。",
+   "keyPoints": [
+    "由于运行条件不同，工业物联网中的标准联邦学习难以应对非独立同分布数据。",
+    "过程挖掘方法用于评估本地节点数据与全局参考之间的相似性。",
+    "全局节点在聚合期间动态加权本地模型以生成个性化更新。",
+    "实验结果表明，与标准联邦聚合相比，该管道的 F1 分数提高了 11.99%，误报率降低了 51.24%。"
+   ]
+  },
+  "ko": {
+   "title": "산업용 IoT를 위한 프로세스 마이닝 기반 연합 이상 탐지",
+   "summary": "연구진은 다양한 노드 간의 비동일분포(non-IID) 데이터 문제를 해결하기 위해 산업용 IoT를 위한 프로세스 마이닝 기반 연합 이상 탐지 파이프라인을 제안합니다. 이 접근 방식은 프로세스 마이닝을 사용하여 글로벌 노드가 제공하는 참조에 대해 로컬 노드 데이터의 유사성을 평가합니다. 글로벌 노드는 집계 중에 이러한 유사성 지표를 사용하여 로컬 모델에 동적 가중치를 부여합니다.",
+   "impact": "이 접근 방식은 개발자와 보안 팀이 산업용 IoT 시스템의 이질적인 시계열 데이터를 보다 효과적으로 처리하고 오탐지율을 줄이는 데 도움을 줄 수 있습니다. F1-score의 성능 향상은 다양한 조건에서 운영되는 공장에서 보다 신뢰할 수 있는 이상 탐지를 제공할 수 있습니다.",
+   "keyPoints": [
+    "표준 연합 학습은 다양한 작동 조건으로 인해 산업용 IoT 플랜트에서 non-IID 데이터로 인해 어려움을 겪습니다.",
+    "프로세스 마이닝 접근 방식은 글로벌 참조에 대한 로컬 노드 데이터의 유사성을 평가합니다.",
+    "글로벌 노드는 집계 중 로컬 모델에 동적 가중치를 부여하여 개인화된 업데이트를 생성합니다.",
+    "실험 결과 표준 연합 집계에 비해 F1-score가 향상되고 오탐지가 크게 감소했습니다."
+   ]
+  }
+ }
+}

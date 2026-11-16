@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b7919ea4960be7c5",
+ "contentHash": "41b58fceee2c705b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T02:57:22.548Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AI Reviews Are Biased Towards the Appendix",
+   "summary": "Recent research investigating 2,000 papers from conferences like ACL, EMNLP, COLM, and ICLR reveals that advanced GPT and Claude models draw 50% or more of their review weaknesses from the appendix. In contrast, human reviewers draw only 8.4% of their weaknesses from the appendix. This LLM behavior is consistent across API, coding-agent, and web access methods.",
+   "impact": "This finding could matter to researchers and technology users relying on AI for peer review because it highlights a significant divergence in focus between AI and humans. Developers and users may need to be cautious of AI models overly criticizing fine-grained technical details in appendices rather than core contributions.",
+   "keyPoints": [
+    "Latest GPT and Claude models draw about 50% or more of review weaknesses from the appendix.",
+    "Human reviewers draw only 8.4% of their weaknesses from the appendix.",
+    "LLM focus on the appendix involves fine-grained technical details not central to paper contributions."
+   ]
+  },
+  "km": {
+   "title": "ការពិនិត្យរបស់ AI មានលក្ខណៈលំអៀងទៅលើផ្នែកឧបសម្ព័ន្ធ",
+   "summary": "ការស្រាវជ្រាវថ្មីៗដែលបានពិនិត្យលើឯកសារចំនួន ២,០០០ ពីសន្និសីទ ACL, EMNLP, COLM និង ICLR បានបង្ហាញថាគំរូ GPT និង Claude ចុងក្រោយបង្អស់ទាញយកចំណុចខ្សោយនៃការពិនិត្យប្រហែល 50% ឬច្រើនជាងនេះពីផ្នែកឧបសម្ព័ន្ធ។ ជាផ្ទុយគ្នា មនុស្សដែលពិនិត្យទាញយកចំណុចខ្សោយត្រឹមតែ 8.4% ប៉ុណ្ណោះពីផ្នែកឧបសម្ព័ន្ធ។ អាកប្បកិរិយានេះគឺដូចគ្នាចំពោះវិធីសាស្ត្រ API ភ្នាក់ងារសរសេរកូដ និងការចូលប្រើតាមវេបសាយសម្រាប់ការប្រើប្រាស់ LLM។",
+   "impact": "ការរកឃើញនេះអាចមានសារៈសំខាន់ចំពោះអ្នកស្រាវជ្រាវ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលពឹងផ្អែកលើ AI សម្រាប់ការពិនិត្យ ដោយសារវាបង្ហាញពីភាពខុសគ្នាយ៉ាងខ្លាំងនៃការផ្តោតអារម្មណ៍រវាង AI និងមនុស្ស។ អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់អាចនឹងត្រូវមានការប្រុងប្រយ័ត្នចំពោះគំរូ AI ដែលរិះគន់ហួសហេតុទៅលើលម្អិតបច្ចេកទេសតូចតាចនៅក្នុងឧបសម្ព័ន្ធជាជាងការរួមចំណែកស្នូល។",
+   "keyPoints": [
+    "គំរូ GPT និង Claude ចុងក្រោយបង្អស់ទាញយកចំណុចខ្សោយពីឧបសម្ព័ន្ធប្រហែល 50% ឬច្រើនជាងនេះ។",
+    "អ្នកពិនិត្យที่เป็นមនុស្សទាញយកចំណុចខ្សោយត្រឹមតែ 8.4% ប៉ុណ្ណោះពីឧបសម្ព័ន្ធ។",
+    "ការផ្តោតលើឧបសម្ព័ន្ធរបស់ LLM ពាក់ព័ន្ធនឹងលម្អិតបច្ចេកទេសតូចតាចដែលមិនមែនជាស្នូលនៃកិច្ចរួមចំណែក។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AI 评审对附录存在偏见",
+   "summary": "一项针对 ACL、EMNLP、COLM 和 ICLR 等会议的 2,000 篇论文的研究表明，最新的 GPT 和 Claude 模型将其评审中指出的弱点中有 50% 或更多引自附录。相比之下，人类评审员仅从附录中提取 8.4% 的弱点。无论通过 API、编程代理还是网络访问方式使用大语言模型评审论文，这种行为都一致存在。",
+   "impact": "这一发现可能对依赖人工智能进行同行评审的研究人员和技术用户产生影响，因为它突显了人工智能与人类在关注点上的显着差异。开发人员和用户可能需要注意人工智能模型可能对附录中不属于核心贡献的细粒度技术细节过度批评。",
+   "keyPoints": [
+    "最新的 GPT 和 Claude 模型将大约 50% 或更多的评审弱点指向附录。",
+    "人类评审员仅从附录中提取 8.4% 的弱点。",
+    "大语言模型关注附录中与论文核心贡献无关的细粒度技术细节。"
+   ]
+  },
+  "ko": {
+   "title": "AI 리뷰는 부록에 편향되어 있다",
+   "summary": "ACL, EMNLP, COLM, ICLR 회의의 논문 2,000편을 조사한 최근 연구에 따르면 최신 GPT 및 Claude 모델은 리뷰 지적 사항의 50% 이상을 부록에서 가져오는 것으로 나타났습니다. 대조적으로 인간 리뷰어는 부록에서 약 8.4%의 지적 사항만 가져왔습니다. 이러한 LLM의 성향은 API, 코딩 에이전트, 웹 접근 방식 전반에 걸쳐 일관되게 나타납니다.",
+   "impact": "이러한 발견은 피어 리뷰에 AI를 의존하는 연구자와 기술 사용자에게 중요할 수 있으며, 이는 AI와 인간 사이의 초점 차이가 크다는 점을 강조합니다. 개발자와 사용자는 AI 모델이 논문의 핵심 기여와 관련이 없는 세부적인 기술적 세부 사항을 부록에서 지나치게 비판하는 것에 주의해야 할 수 있습니다.",
+   "keyPoints": [
+    "최신 GPT 및 Claude 모델은 리뷰 약점의 약 50% 이상을 부록에서 가져옴.",
+    "인간 리뷰어는 부록에서 약 8.4%의 약점만 도출함.",
+    "LLM은 논문 기여도의 중심이 아닌 세부적인 기술적 세부 사항에 초점을 맞춤."
+   ]
+  }
+ }
+}

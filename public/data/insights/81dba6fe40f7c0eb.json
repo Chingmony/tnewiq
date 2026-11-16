@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "81dba6fe40f7c0eb",
+ "contentHash": "5973e10b9dfb50b5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T02:53:09.351Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "datasette-apps 0.4a0",
+   "summary": "datasette-apps version 0.4a0 has been released, introducing sandboxed HTML and JavaScript applications that live inside Datasette and can run SQL queries against data. The new version adds support for linking using URL fragments so that apps can interact and link to each other. Additionally, supported URL schemes are now reported to Datasette Agent to assist in writing interconnected apps.",
+   "impact": "Developers and users building sandboxed applications within Datasette could benefit from improved app-to-app linking and integration capabilities. This may enable more complex workflows, such as combining separate search and detail-view applications.",
+   "keyPoints": [
+    "datasette-apps 0.4a0 has been released.",
+    "Introduces support for linking between apps using #fragments in the URL.",
+    "Supported URL schemes are reported back to Datasette Agent to help write linked applications."
+   ]
+  },
+  "km": {
+   "title": "datasette-apps 0.4a0",
+   "summary": "datasette-apps កំណែ 0.4a0 ត្រូវបានចេញផ្សាយ ដែលជាកម្មវិធី HTML និង JavaScript ប្រអប់ខ្សាច់ដែលដំណើរការក្នុង Datasette និងអាចដំណើរការសំណួរ SQL ប្រឆាំងនឹងទិន្នន័យរបស់អ្នក។ កំណែថ្មីនេះបន្ថែមការគាំទ្រសម្រាប់ការភ្ជាប់តំណ ដែលអនុញ្ញាតឱ្យអ្នកតំណទៅកាន់កម្មវិធីមួយដោយប្រើ #fragments នៅក្នុង URL ។ លើសពីនេះ គ្រោងការណ៍ URL ដែលត្រូវបានគាំទ្រត្រូវបានរាយការណ៍ត្រឡប់ទៅ Datasette Agent វិញ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់អាចនឹងទទួលបានអត្ថប្រយោជន៍ពីសមត្ថភាពតភ្ជាប់កម្មវិធីជាមួយគ្នា ដើម្បីបង្កើតលំហូរការងារដែលមានភាពស្មុគស្មាញជាងមុន។",
+   "keyPoints": [
+    "ការចេញផ្សាយ datasette-apps 0.4a0។",
+    "បន្ថែមការគាំទ្រសម្រាប់ការភ្ជាប់តំណដោយប្រើ #fragments ក្នុង URL។",
+    "រាយការណ៍គ្រោងការណ៍ URL ទៅ Datasette Agent ដើម្បីជួយសរសេរកម្មវិធីតភ្ជាប់គ្នា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "datasette-apps 0.4a0",
+   "summary": "datasette-apps 0.4a0 版本已发布。Datasette Apps 是运行在 Datasette 内部的沙盒 HTML 和 JavaScript 应用程序，可以针对数据运行 SQL 查询。0.4a0 版本添加了对链接的支持，允许通过 URL 中的 #fragments 链接到应用，并且支持的 URL 方案会被报告给 Datasette Agent。",
+   "impact": "开发人员和技术用户可以利用新的链接功能构建能够相互链接和交互的独立应用程序，这可能有助于实现更复杂的组合工作流。",
+   "keyPoints": [
+    "发布了 datasette-apps 0.4a0。",
+    "支持通过 URL 中的 #fragments 链接到应用程序。",
+    "支持的 URL 方案会报告给 Datasette Agent 以协助编写互联应用。"
+   ]
+  },
+  "ko": {
+   "title": "datasette-apps 0.4a0",
+   "summary": "Datasette 내부에서 실행되며 데이터에 대한 SQL 쿼리를 실행할 수 있는 샌드박스 HTML 및 JavaScript 애플리케이션인 datasette-apps 0.4a0 버전이 출시되었습니다. 0.4a0 버전은 URL의 #fragments를 사용하여 앱에 링크할 수 있는 기능을 추가했으며, 지원되는 URL 체계가 Datasette Agent에 보고됩니다.",
+   "impact": "개발자와 사용자는 향상된 앱 간 링크 기능을 통해 독립된 애플리케이션들을 서로 연결하여 더 복잡한 워크플로우를 구성할 수 있습니다.",
+   "keyPoints": [
+    "datasette-apps 0.4a0 버전 출시.",
+    "URL의 #fragments를 통한 앱 간 링크 지원 추가.",
+    "지원되는 URL 체계를 Datasette Agent에 report하여 상호 연결된 앱 작성 지원."
+   ]
+  }
+ }
+}

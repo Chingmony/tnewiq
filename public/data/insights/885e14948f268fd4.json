@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "885e14948f268fd4",
+ "contentHash": "219c69483a16599a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T02:57:33.673Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "CarryOn: Learning What to Keep in Context for Long-Horizon LLM Agents",
+   "summary": "Researchers propose CarryOn, a lightweight context manager designed for long-horizon LLM agents that manage complex, multi-step tasks. CarryOn pairs a compact execution state with fine-grained, source-linked evidence using a learned selector and an adaptive retention policy. This approach avoids extra LLM calls for context management while addressing the limitations of traditional summarization and pruning methods. Across AppWorld, OfficeBench, and Tau2 Telecom benchmarks, CarryOn achieves a 75.7% macro-averaged task success rate and outperforms existing baselines.",
+   "impact": "Developers and security teams working with LLM agents could use this approach to improve task execution efficiency and reduce resource consumption in multi-step workflows. The introduction of specific evaluation metrics like S_alpha and normalized cost per success may help teams better quantify task success relative to resource usage.",
+   "keyPoints": [
+    "CarryOn is a lightweight context manager for long-horizon LLM agents.",
+    "It pairs compact execution state with fine-grained, source-linked evidence.",
+    "It uses a learned selector and adaptive retention policy without extra LLM calls.",
+    "It achieves 75.7% macro-averaged task success across AppWorld, OfficeBench, and Tau2 Telecom."
+   ]
+  },
+  "km": {
+   "title": "CarryOn៖ ការស្វែងយល់ពីអ្វីដែលត្រូវរក្សាទុកក្នុងបរិបទសម្រាប់ភ្នាក់ងារ LLM រយៈពេលវែង",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើឡើង CarryOn ដែលជាកម្មវិធីគ្រប់គ្រងបរិបទស្រាលសម្រាប់ភ្នាក់ងារ LLM រយៈពេលវែង ដើម្បីដោះស្រាយបញ្ហានៃការគ្រប់គ្រងបរិបទប្រកបដោយប្រសិទ្ធភាព។ ប្រព័ន្ធនេះផ្គូផ្គងស្ថានភាពប្រតិបត្តិការតូច gọn ជាមួយនឹងភស្តុតាងដែលមានតំណភ្ជាប់ប្រភពល្អិតល្អន់ ដោយប្រើប្រាស់ឧបករណ៍ជ្រើសរើសដែលបានសិក្សា និងគោលការណ៍រក្សាទុកសម្របខ្លួន។ វាជួយសម្រេចបាននូវអត្រាជោគជ័យនៃការងារជាមធ្យមម៉ាក្រូ 75.7% នៅលើ AppWorld, OfficeBench និង Tau2 Telecom។",
+   "impact": "អ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់វិធីសាស្ត្រនេះដើម្បីកែលម្អប្រសិទ្ធភាពនៃការប្រតិបត្តិការងារ និងកាត់បន្ថយការប្រើប្រាស់ធនធាននៅក្នុងដំណើរការការងារដែលមានច្រើនជំហាន។",
+   "keyPoints": [
+    "CarryOn គឺជាកម្មវិធីគ្រប់គ្រងបរិបទស្រាលសម្រាប់ភ្នាក់ងារ LLM រយៈពេលវែង។",
+    "វាប្រើប្រាស់ឧបករណ៍ជ្រើសរើសដែលបានសិក្សា និងគោលការណ៍រក្សាទុកសម្របខ្លួន។",
+    "វាសម្រេចបានអត្រាជោគជ័យនៃការងារ 75.7% នៅលើបណ្តុំតេស្តផ្សេងៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "CarryOn：学习长视野LLM智能体在上下文中应保留什么",
+   "summary": "研究人员提出了CarryOn，这是一个针对长视野LLM智能体的轻量级上下文管理器，旨在应对复杂多步骤任务中的上下文管理挑战。该方法将紧凑的执行状态与细粒度的源链接证据相结合，通过学习型选择器和自适应保留策略来保持相关证据可用，而无需额外的LLM调用。在AppWorld、OfficeBench和Tau2 Telecom基准测试中，CarryOn实现了75.7%的宏平均任务成功率。",
+   "impact": "开发人员和技术团队可以利用此方法来提高多步骤工作流中LLM智能体的执行效率和资源利用率，同时利用新的评估指标更好地衡量资源消耗。",
+   "keyPoints": [
+    "CarryOn是一个用于长视野LLM智能体的轻量级上下文管理器。",
+    "它结合了紧凑的执行状态和细粒度的源链接证据。",
+    "它采用学习型选择器和自适应保留策略，无需额外的LLM调用。",
+    "在多个基准测试中达到了75.7%的宏平均任务成功率。"
+   ]
+  },
+  "ko": {
+   "title": "CarryOn: 장기 호라이즌 LLM 에이전트를 위한 컨텍스트 유지 학습",
+   "summary": "연구원들은 복잡하고 다단계 작업을 수행하는 장기 호라이즌 LLM 에이전트를 위한 경량 컨텍스트 관리자인 CarryOn을 제안했습니다. CarryOn은 학습된 선택기와 적응형 유지 정책을 사용하여 소스가 연결된 세밀한 증거와 컴팩트한 실행 상태를 결합합니다. 추가적인 LLM 호출 없이 관련 증거를 유지하며, AppWorld, OfficeBench 및 Tau2 Telecom 전반에서 75.7%의 매크로 평균 작업 성공률을 달성했습니다.",
+   "impact": "개발자와 보안 팀은 이 접근 방식을 사용하여 다단계 워크플로우에서 LLM 에이전트의 실행 효율성을 높이고 리소스 소모를 줄일 수 있습니다. 새로운 평가 지표는 리소스 사용량 대비 작업 성공을 정량화하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "CarryOn은 장기 호라이즌 LLM 에이전트를 위한 경량 컨텍스트 관리자입니다.",
+    "컴팩트한 실행 상태와 세밀하고 소스가 연결된 증거를 결합합니다.",
+    "추가 LLM 호출 없이 학습된 선택기와 적응형 유지 정책을 사용합니다.",
+    "AppWorld, OfficeBench, Tau2 Telecom에서 75.7%의 매크로 평균 성공률을 기록했습니다."
+   ]
+  }
+ }
+}

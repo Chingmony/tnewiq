@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ea3dfdfd2a6943e9",
+ "contentHash": "80f58c0d55506c65",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T02:56:14.475Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Electrocardiographic Imaging via Posterior Sampling under Operator Discrepancy",
+   "summary": "Electrocardiographic imaging reconstructs heart-surface potentials from body-surface potentials. Because the forward operator is only an estimate due to physiological variations, researchers introduced OpDis-PS, a diffusion posterior sampler that models operator discrepancy rather than treating it as signal-independent noise. OpDis-PS learns signal dependency, folds it into a corrected forward operator, and uses a fixed prior.",
+   "impact": "This method could improve the accuracy of electrocardiographic imaging under realistic physiological conditions like changing lung conductivity and subcutaneous fat. Developers and researchers working on inverse problems and medical imaging may find this approach useful for handling operator discrepancy.",
+   "keyPoints": [
+    "OpDis-PS models operator discrepancy instead of treating it as signal-independent noise.",
+    "The method learns how discrepancy depends on the signal and integrates it into a corrected forward operator.",
+    "It was tested on changing lung conductivity and added subcutaneous fat, outperforming classical regularization and learned predictors."
+   ]
+  },
+  "km": {
+   "title": "ការថតរូបភាពបេះដូងអគ្គិសនីតាមរយៈការយកគំរូតាមផ្នែកខាងក្រោយក្រោមភាពខុសគ្នានៃប្រតិបត្តិករ",
+   "summary": "ការថតរូបភាពបេះដូងអគ្គិសនីបង្កើតឡើងវិញនូវសក្តានុពលផ្ទៃបេះដូងពីសក្តានុពលផ្ទៃរាងកាយ ដែលជាបញ្ច្រាសដ៏លំបាកមួយ។ អ្នកស្រាវជ្រាវបានណែនាំ OpDis-PS ដែលជាឧបករណ៍យកគំរូតាមផ្នែកខាងក្រោយនៃការសាយភាយ ដើម្បីធ្វើគំរូភាពខុសគ្នានៃប្រតិបត្តិករជំនួសឱ្យការចាត់ទុកវាជាសំឡេងរំខាន។ OpDis-PS រៀនពីរបៀបដែលភាពខុសគ្នាអាស្រ័យលើសញ្ញា និងបង្កើតប្រតិបត្តិករបញ្ជូនបន្តដែលបានកែតម្រូវ។",
+   "impact": "វិធីសាស្ត្រនេះអាចកែលម្អភាពត្រឹមត្រូវនៃការថតរូបភាពបេះដូងអគ្គិសនីក្រោមលក្ខខណ្ឌសរីរវិទ្យាជាក់ស្តែង។ អ្នកអភិវឌ្ឍន៍និងអ្នកស្រាវជ្រាវអាចយល់ថាវិធីសាស្រ្តនេះមានប្រយោជន៍ក្នុងការដោះស្រាយភាពខុសគ្នានៃប្រតិបត្តិករ។",
+   "keyPoints": [
+    "OpDis-PS ធ្វើគំរូភាពខុសគ្នានៃប្រតិបត្តិករជំនួសឱ្យសំឡេងរំខានឯករាជ្យនៃសញ្ញា។",
+    "វិធីសាស្ត្រនេះរៀនពីភាពអាស្រ័យនៃសញ្ញា និងបញ្ចូលវាទៅក្នុងប្រតិបត្តិករបញ្ជូនបន្តដែលបានកែតម្រូវ។",
+    "វាត្រូវបានគេសិក្សានៅលើការផ្លាស់ប្តូរកលនសួត និងស្រទាប់ខ្លាញ់ក្រោមស្បែក។"
+   ]
+  },
+  "zh-CN": {
+   "title": "算子差异下基于后验采样的心电成像",
+   "summary": "心电成像通过体表电位重建心脏表面电位，是一个不适定逆问题。研究人员引入了OpDis-PS，这是一种扩散后验采样器，用于对算子差异进行建模，而不是将其视为与信号无关的噪声。OpDis-PS学习差异如何依赖于信号，并将其折叠到修正的正向算子中。",
+   "impact": "该方法可以在存在肺电导率变化和皮下脂肪等现实生理条件的情况下，提高心电成像的准确性。从事逆问题和医学成像开发的团队可能会发现这种方法对处理算子差异很有帮助。",
+   "keyPoints": [
+    "OpDis-PS对算子差异进行建模，而不是将其视为信号无关的噪声。",
+    "该方法学习差异对信号的依赖性并构建修正的正向算子。",
+    "在肺电导率变化和皮下脂肪层测试中，其重建精度优于经典正则化方法。"
+   ]
+  },
+  "ko": {
+   "title": "연산자 불일치 하에서의 사후 샘플링을 통한 심전도 이미징",
+   "summary": "심전도 이미징은 체표면 전위로부터 심장 표면 전위를 재구성하는 역문제입니다. 연구원들은 이를 개선하기 위해 신호 독립적 노이즈로 취급하는 대신 연산자 불일치를 모델링하는 확산 사후 샘플러인 OpDis-PS를 도입했습니다. OpDis-PS는 불일치가 신호에 어떻게 의존하는지 학습하고 이를 수정된 순방향 연산자에 통합합니다.",
+   "impact": "이 방법은 폐 전도도 변화 및 피하 지방 레이어와 같은 현실적인 생리학적 조건에서 심전도 이미징의 정확도를 향상시킬 수 있습니다. 역문제 및 의료 이미징을 다루는 개발자와 연구원들은 연산자 불일치를 처리하는 데 이 접근 방식을 유용하게 활용할 수 있습니다.",
+   "keyPoints": [
+    "OpDis-PS는 연산자 불일치를 신호 독립적 노이즈가 아닌 방식으로 모델링합니다.",
+    "불일치가 신호에 의존하는 방식을 학습하여 수정된 순방향 연산자에 반영합니다.",
+    "폐 전도도 변화와 피하 지방 레이어 조건에서 기존 정규화 및 학습된 예측기보다 더 정확하게 재구성합니다."
+   ]
+  }
+ }
+}

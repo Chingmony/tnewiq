@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "08f222fb02307a80",
+ "contentHash": "8a372867d45b631b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T02:54:30.325Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Securing Multi-Agent Systems by Design",
+   "summary": "Researchers introduced response manipulation attacks (ReMA), which iteratively optimize malicious responses in multi-agent systems to manipulate final outcomes. To counter this, they developed SecMAS, a secure aggregation rule using semantic similarities to identify responses consistent with a large subset of other agents. Evaluations show that SecMAS defends against ReMA and its adaptive variants while preserving utility.",
+   "impact": "Security teams and developers working with multi-agent systems could use these findings to protect against malicious response manipulation. Implementing secure aggregation rules like SecMAS may help ensure system resilience against both targeted and untargeted attacks.",
+   "keyPoints": [
+    "Multi-agent systems can be compromised when malicious agents provide manipulative responses.",
+    "Response manipulation attacks (ReMA) iteratively optimize malicious outputs to affect the final aggregation.",
+    "SecMAS uses semantic similarities among agent responses to select consistent and secure results.",
+    "Evaluations demonstrate that SecMAS successfully defends against ReMA and its adaptive variants."
+   ]
+  },
+  "km": {
+   "title": "ការធានាសុវត្ថិភាពប្រព័ន្ធភ្នាក់ងារច្រើនដោយការរចនា",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំការវាយប្រហារតាមរយៈការគ្រប់គ្រងការឆ្លើយតប (ReMA) ដែលធ្វើឲ្យប្រសើរឡើងនូវការឆ្លើយតបមានគំនិតអាក្រក់នៅក្នុងប្រព័ន្ធភ្នាក់ងារច្រើន។ ដើម្បីទប់ទល់នឹងបញ្ហានេះ ពួកគេបានបង្កើត SecMAS ដែលជាច្បាប់ចងក្រងមានសុវត្ថិភាពដោយប្រើប្រាស់ភាពស្រដៀងគ្នានៃអត្ថន័យ។ ការវាយតម្លៃបានបង្ហាញថា SecMAS ការពារប្រឆាំងនឹងការវាយប្រហារទាំងនោះខណៈពេលដែលរក្សាបាននូវប្រយោជន៍។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍ដែលធ្វើការជាមួយប្រព័ន្ធភ្នាក់ងារច្រើនអាចប្រើប្រាស់វិធីសាស្ត្រទាំងនេះដើម្បីការពារប្រឆាំងនឹងការគ្រប់គ្រងការឆ្លើយតបមានគំនិតអាក្រក់។ ការអនុវត្តច្បាប់ចងក្រងមានសុវត្ថិភាពដូចជា SecMAS អាចជួយធានាភាពធន់នៃប្រព័ន្ធ។",
+   "keyPoints": [
+    "ប្រព័ន្ធភ្នាក់ងារច្រើនអាចត្រូវបានរំខានដោយសារការឆ្លើយតបមានគំនិតអាក្រក់។",
+    "ការវាយប្រហារ ReMA បង្កើនលទ្ធផលអាក្រក់ក្នុងគោលបំណងប៉ះពាល់ដល់ការចងក្រងចុងក្រោយ។",
+    "SecMAS ប្រើប្រាស់ភាពស្រដៀងគ្នានៃអត្ថន័យដើម្បីជ្រើសរើសលទ្ធផលដែលមានសុវត្ថិភាព។",
+    "ការវាយតម្លៃបង្ហាញថា SecMAS ការពារប្រឆាំងនឹងការវាយប្រហារ ReMA បានយ៉ាងមានប្រសិទ្ធភាព។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过设计确保多智能体系统的安全",
+   "summary": "研究人员提出了响应操纵攻击（ReMA），该攻击通过迭代优化恶意响应来操纵多智能体系统的最终结果。为了对此进行防御，他们开发了 SecMAS，这是一种利用语义相似性来选择与其他代理具有高度一致性响应的安全聚合规则。评估表明，SecMAS 能够防御 ReMA 及其自适应变体，同时保持实用性。",
+   "impact": "使用多智能体系统的安全团队和开发人员可以利用这些研究成果来防范恶意响应操纵。实施像 SecMAS 这样的安全聚合规则可能有助于确保系统免受有目标和无目标攻击的影响。",
+   "keyPoints": [
+    "当恶意智能体提供具有操纵性的响应时，多智能体系统可能会遭到破坏。",
+    "响应操纵攻击（ReMA）通过迭代优化恶意输出来影响最终的聚合结果。",
+    "SecMAS 利用智能体响应之间的语义相似性来选择一致且安全的响应。",
+    "评估表明 SecMAS 可以有效防御 ReMA 及其所有经过评估的变体。"
+   ]
+  },
+  "ko": {
+   "title": "설계 단계부터 멀티 에이전트 시스템 보안 강화",
+   "summary": "연구원들은 멀티 에이전트 시스템에서 최종 결과물을 조작하기 위해 악의적인 응답을 반복적으로 최적화하는 응답 조작 공격(ReMA)을 제안했습니다. 이에 대응하여 에이전트 응답 간의 의미론적 유사성을 활용하여 일관된 응답을 선택하는 안전한 집계 규칙인 SecMAS를 개발했습니다. 평과 결과 SecMAS는 유용성을 유지하면서도 ReMA와 그 적응형 변종을 효과적으로 방어하는 것으로 나타났습니다.",
+   "impact": "멀티 에이전트 시스템을 다루는 보안 팀과 개발자는 이러한 연구 결과를 활용하여 악의적인 응답 조작으로부터 시스템을 보호할 수 있습니다. SecMAS와 같은 안전한 집계 규칙을 구현하면 표적 및 비표적 공격에 대한 시스템 탄력성을 확보하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "악의적인 에이전트가 조작된 응답을 제공할 경우 멀티 에이전트 시스템이 손상될 수 있습니다.",
+    "응답 조작 공격(ReMA)은 최종 집계에 영향을 미치기 위해 악의적인 출력을 반복적으로 최적화합니다.",
+    "SecMAS는 에이전트 응답 간의 의미론적 유사성을 사용하여 안전하고 일관된 결과를 선택합니다.",
+    "평가에 따르면 SecMAS는 ReMA 및 모든 평가된 변종 공격을 성공적으로 방어합니다."
+   ]
+  }
+ }
+}

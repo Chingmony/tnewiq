@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8ed3d3c6f0143c1d",
+ "contentHash": "09cc7226b72fbcb0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T02:55:03.878Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Protection-Oriented Assessment of Machine Learning-Based Fault Detection in Power Systems",
+   "summary": "Researchers presented a protection-oriented assessment of three machine learning fault detectors and a sequence-current reference using PROTECT-90, which includes 9,022 simulated fault episodes. Despite achieving AUC-ROC values above 0.999, models exhibited missed-trip rates ranging from 0.007% to 1.99% at a fixed security budget of 10^-3. The study also observed post-clearing false-trip rates alongside nuisance assertions in a portion of episodes, noting that missed trips were most consistently associated with higher fault resistance.",
+   "impact": "The assessment demonstrates that aggregate performance metrics can obscure critical operational consequences like false and missed trips in power systems. Security teams and developers may need to prioritize protection-oriented evaluations to understand real-world risks such as fault resistance impacts and nuisance assertions when deploying machine learning detectors.",
+   "keyPoints": [
+    "Evaluated three machine learning detectors and a sequence-current reference using PROTECT-90 with 9,022 simulated fault episodes.",
+    "Gradient-boosted trees, a convolutional neural network, and logistic regression achieved AUC-ROC values above 0.999.",
+    "Missed-trip rates ranged from 0.007% to 1.99% under a security budget of 10^-3.",
+    "Missed trips were most consistently associated with higher fault resistance among the analysed physical descriptors."
+   ]
+  },
+  "km": {
+   "title": "ការវាយតម្លៃផ្អែកលើការការពារនៃការរកឃើញកំហុសផ្អែកលើការរៀនម៉ាស៊ីនក្នុងប្រព័ន្ធថាមពល",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្ហាញពីការវាយតម្លៃផ្អែកលើការការពារនៃឧបករណ៍រកឃើញកំហុសផ្អែកលើការរៀនម៉ាស៊ីនចំនួនបី និងឯកសារយោងចរន្តលំដាប់ដោយប្រើប្រាស់ PROTECT-90 ដែលមានការจำลองកំហុសចំនួន 9,022 វគ្គ។ ទោះបីជាទទួលបានតម្លៃ AUC-ROC ខ្ពស់ជាង 0.999 ក៏ដោយ ក៏ម៉ូដែលទាំងនោះបានបង្ហាញអត្រាកំហុសខកខានដំណើរការពី 0.007% ដល់ 1.99% ក្រោមថវិកាសុវត្ថិភាពកំណត់។ ការសិក្សានេះក៏បានកត់សម្គាល់ផងដែរនូវអត្រាកំហុសដំណើរក្លែងក្លាយក្រោយពេលសម្អាត និងការអះអាងរំខាននៅក្នុងភាគរយខ្លះនៃវគ្គសិក្សា។",
+   "impact": "ការវាយតម្លៃនេះបង្ហាញថា កម្រិតវាស់វែងសរុបអាចលាក់បាំងផលវិបាកប្រតិបត្តិការជាក់ស្តែងដូចជាការបញ្ជូនខុស និងការខកខានបញ្ជូនក្នុងប្រព័ន្ធថាមពល។ ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍អាចចាំបាច់ត្រូវផ្តោតលើការវាយតម្លៃផ្អែកលើការការពារ ដើម្បីយល់ដឹងពីហានិភ័យក្នុងពិភពពិតពេលដាក់ពង្រាយឧបករណ៍រកឃើញផ្អែកលើការរៀនម៉ាស៊ីន។",
+   "keyPoints": [
+    "បានវាយតម្លៃឧបករណ៍រកឃើញផ្អែកលើការរៀនម៉ាស៊ីនបី និងឯកសារយោងចរន្តលំដាប់ដោយប្រើ PROTECT-90 ដែលមាន 9,022 វគ្គកំហុសក្លែងក្លាយ។",
+    "ដើមឈើជំរុញជម្រាល បណ្តាញប្រសាទ convolutional និងការថតចម្លងឡូជីខល សម្រេចបានតម្លៃ AUC-ROC ខ្ពស់ជាង 0.999។",
+    "អត្រាខកខានដំណើរការមានចាប់ពី 0.007% ដល់ 1.99% ក្រោមថវិកាសុវត្ថិភាព 10^-3។",
+    "ការខកខានដំណើរការត្រូវបានទាក់ទងយ៉ាងជាប់លាប់បំផុតជាមួយនឹងភាពធន់ទ្រាំកំហុសខ្ពស់ជាងមុន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "电力系统中基于机器学习故障检测的面向保护评估",
+   "summary": "研究人员对三个机器学习故障检测器和一个序列电流基准进行了面向保护的评估，使用了包含9022个模拟故障 episodes 的PROTECT-90数据集。尽管模型的AUC-ROC值均超过0.999，但在10^-3的安全预算下，其故障漏跳率从0.007%到1.99%不等。研究还发现，在一定比例的 episodes 中存在清除后的误跳率以及干扰断言，并且漏跳最常与较高的故障电阻相关。",
+   "impact": "该评估表明，聚合指标可能会掩盖电力系统中误跳和漏跳等关键运营后果。安全团队和开发人员在部署机器学习检测器时，可能需要优先进行面向保护的评估，以了解诸如故障电阻影响和干扰断言等实际风险。",
+   "keyPoints": [
+    "使用包含9022个模拟故障 episodes 的PROTECT-90评估了三个机器学习检测器和一个序列电流基准。",
+    "梯度提升树、卷积神经网络和逻辑回归实现了高于0.999的AUC-ROC值。",
+    "在10^-3的安全预算下，漏跳率在0.007%到1.99%之间。",
+    "在分析的物理描述符中，漏跳最一致地与更高的故障电阻相关联。"
+   ]
+  },
+  "ko": {
+   "title": "전력 시스템에서 머신러닝 기반 고장 검출의 보호 지향적 평가",
+   "summary": "연구원들은 9,022개의 시뮬레이션된 고장 에피소드로 구성된 PROTECT-90을 사용하여 세 가지 머신러닝 고장 검출기와 시퀀스 전류 기준에 대한 보호 지향적 평가를 제시했다. 모델들은 0.999 이상의 AUC-ROC 값을 달성했음에도 불구하고, 10^-3의 고정된 보안 예산 하에서 0.007%에서 1.99%의 미스트립(missed-trip) 비율을 보였다. 또한 연구는 클리어링 후 오트립 비율과 함께 일부 에피소드에서 노이즈 주장이 공존함을 관찰했으며, 미스트립은 더 높은 고장 저항과 가장 일관되게 연관되어 있음을 밝혔다.",
+   "impact": "이번 평가는 종합 지표가 전력 시스템에서 오트립 및 미스트립과 같은 중요한 운영상의 결과를 모호하게 만들 수 있음을 보여준다. 보안 팀과 개발자는 머신러닝 검출기를 배포할 때 고장 저항의 영향 및 노이즈 주장과 같은 실제 위험을 파악하기 위해 보호 지향적 평가를 우선시해야 할 수 있다.",
+   "keyPoints": [
+    "9,022개의 시뮬레이션된 고장 에피소드가 포함된 PROTECT-90을 사용하여 세 가지 머신러닝 검출기와 시퀀스 전류 기준을 평가함.",
+    "그래디언트 부스팅 트리, 합성곱 신경망, 로지스틱 회귀가 0.999 이상의 AUC-ROC 값을 달성함.",
+    "10^-3의 보안 예산에서 미스트립 비율은 0.007%에서 1.99% 범위를 기록함.",
+    "분석된 물리적 서술자 중에서 미스트립은 더 높은 고장 저항과 가장 일관되게 연관됨."
+   ]
+  }
+ }
+}

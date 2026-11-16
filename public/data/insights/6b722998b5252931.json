@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6b722998b5252931",
+ "contentHash": "ab375dbc49ba6487",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T02:57:44.798Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Multimodal Person Concept Model for Person Identification under Varying Observation Conditions",
+   "summary": "A new multimodal person concept model has been proposed to help service robots identify users robustly under varying observation conditions using few observations and no person labels. The model combines a nonparametric Bayesian generative model with visual, acoustic, and linguistic features extracted via CLIP and CLAP, followed by principal component analysis. Evaluations across eight conditions involving appearance changes, additive noise, and transcription errors showed an average identification accuracy of 0.89. The model was also successfully demonstrated on a Toyota Human Support Robot.",
+   "impact": "This approach could help developers improve how service robots identify and personalize experiences for users in dynamic domestic and office environments. Security teams and technology users may benefit from more adaptable person identification methods that function effectively with limited initial observations and noisy conditions.",
+   "keyPoints": [
+    "Proposes a multimodal person concept model using a nonparametric Bayesian generative model based on the Chinese restaurant process.",
+    "Integrates visual, acoustic, and linguistic features extracted using CLIP and CLAP, followed by principal component analysis.",
+    "Achieved an average identification accuracy of 0.89 across eight challenging observation conditions.",
+    "Demonstrated successfully on a Toyota Human Support Robot."
+   ]
+  },
+  "km": {
+   "title": "ម៉ូឌែលគំនិតមនុស្សពហុទម្រង់សម្រាប់ការកំណត់អត្តសញ្ញាណមនុស្សក្រោមលក្ខខណ្ឌសង្កេតប្រែប្រួល",
+   "summary": "ការសិក្សាមួយបានស្នើឡើងនូវម៉ូឌែលគំនិតមនុស្សពហុទម្រង់ ដើម្បីជួយដល់មនុស្សយន្តសេវាកម្មក្នុងការកំណត់អត្តសញ្ញាណអ្នកប្រើប្រាស់ក្រោមលក្ខខណ្ឌសង្កេតផ្សេងៗគ្នា ដោយប្រើប្រាស់ទិន្នន័យសង្កេតតិចតួចនិងគ្មានស្លាកសញ្ញាមនុស្ស។ ម៉ូឌែលនេះរួមបញ្ចូលគ្នានូវម៉ូឌែលបង្កើត Bayesian និងលក្ខណៈពិសេសផ្នែករូបភាព សំឡេង និងភាសា ដោយប្រើប្រាស់ CLIP និង CLAP។ ការវាយតម្លៃបានបង្ហាញថា ម៉ូឌែលនេះទទួលបានកម្រិតត្រឹមត្រូវក្នុងការកំណត់អត្តសញ្ញាណជាមធ្យម 0.89 និងត្រូវបានបង្ហាញនៅលើមនុស្សយន្ត Toyota Human Support Robot។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍កែលម្អរបៀបដែលមនុស្សយន្តសេវាកម្មកំណត់អត្តសញ្ញាណនិងផ្តល់សេវាកម្មផ្ទាល់ខ្លួនដល់អ្នកប្រើប្រាស់ក្នុងបរិយាកាសប្រែប្រួល។ ក្រុមសុវត្ថិភាពនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានផលប្រយោជន៍ពីវិធីសាស្ត្រកំណត់អត្តសញ្ញាណដែលមានភាពបត់បែនជាងមុន។",
+   "keyPoints": [
+    "ស្នើឡើងនូវម៉ូឌែលគំនិតមនុស្សពហុទម្រង់ដោយផ្អែកលើដំណើរការ Chinese restaurant process។",
+    "បញ្ចូលគ្នានូវលក្ខណៈពិសេសផ្នែករូបភាព សំឡេង និងភាសាដែលទាញយកដោយប្រើ CLIP និង CLAP។",
+    "ទទួលបានកម្រិតត្រឹមត្រូវក្នុងការកំណត់អត្តសញ្ញាណជាមធ្យម 0.89 លើលក្ខខណ្ឌប្រែប្រួលចំនួនប្រាំបី។",
+    "ត្រូវបានបង្ហាញដោយជោគជ័យនៅលើមនុស្សយន្ត Toyota Human Support Robot។"
+   ]
+  },
+  "zh-CN": {
+   "title": "多模态人物概念模型用于不同观察条件下的身份识别",
+   "summary": "本研究提出了一种多模态人物概念模型，使服务机器人能够在几乎没有预先标记且观察条件不断变化的环境中准确识别用户。该模型结合了基于中国餐馆过程的非参数贝叶斯生成模型，并利用CLIP和CLAP提取视觉、声学和语言特征进行主成分分析。在涉及外观变化、噪声和转录错误的八种测试条件下，该模型实现了0.89的平均识别准确率，并在Toyota Human Support Robot上进行了演示。",
+   "impact": "该方法可能帮助开发者改善服务机器人在多变家庭和办公环境中的用户识别和个性化服务能力。安全团队和技术用户也可能从中受益，获得更具适应性的身份识别方案。",
+   "keyPoints": [
+    "提出基于中国餐馆过程的非参数贝叶斯生成多模态人物概念模型。",
+    "结合了通过CLIP和CLAP提取的视觉、声学和语言特征及主成分分析。",
+    "在八种不同测试条件下平均识别准确率达到0.89。",
+    "已在Toyota Human Support Robot上成功演示。"
+   ]
+  },
+  "ko": {
+   "title": "다양한 관찰 조건에서의 신원 확인을 위한 다중 모달 사람 개념 모델",
+   "summary": "이 연구는 소수의 관찰 데이터와 사람 레이블 없이도 변화하는 관찰 조건 속에서 사용자를 강건하게 식별할 수 있는 다중 모달 사람 개념 모델을 제안합니다. 이 모델은 중국 식당 과정을 기반으로 하는 비모수 베이지안 생성 모델과 CLIP 및 CLAP을 통해 추출된 시각, 음향, 언어 특징을 주성분 분석과 결합합니다. 외형 변화, 노이즈, 전사 오류 등이 포함된 8가지 조건에서 평균 0.89의 식별 정확도를 달성했으며, Toyota Human Support Robot에서 시연되었습니다.",
+   "impact": "이 접근 방식은 개발자들이 변화하는 가정 및 사무실 환경에서 서비스 로봇의 사용자 식별 및 맞춤형 서비스 기능을 향상시키는 데 도움을 줄 수 있습니다. 보안 팀과 기술 사용자들도 제한된 관찰 데이터와 노이즈가 있는 환경에서 효과적으로 작동하는 적응형 신원 확인 방법의 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "중국 식당 과정을 기반으로 한 비모수 베이지안 생성 모델을 이용한 다중 모달 사람 개념 모델 제안.",
+    "CLIP과 CLAP을 통해 추출된 시각, 음향, 언어 특징과 주성분 분석을 통합.",
+    "8가지 관찰 조건에서 평균 0.89의 식별 정확도 달성.",
+    "Toyota Human Support Robot에서 모델 시연 성공."
+   ]
+  }
+ }
+}

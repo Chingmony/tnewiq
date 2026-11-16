@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "722b6275ccbb96c3",
+ "contentHash": "05bd28babba3c4fd",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T02:53:41.567Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hierarchical Bayesian physics-augmented neural networks for populations of hyperelastic laws: specimen variability and uncertainty from scarce, noisy data",
+   "summary": "Researchers have developed a hierarchical Bayesian physics-augmented neural network (PANN) to model populations of hyperelastic laws from scarce and noisy data. The model uses variational inference to jointly infer shared polyconvex features, individual specimen variations, and population characteristics while accounting for measurement noise. It can predict the response of new specimens with credible intervals and assign them to cohorts.",
+   "impact": "This approach could help developers and researchers model material properties more accurately when working with limited and noisy experimental data. It may improve the reliability of predictions for new specimens and cohort assignments in applications involving soft tissues and other materials.",
+   "keyPoints": [
+    "A Bayesian PANN was developed for single specimens to handle scarce, noisy data using plausible priors.",
+    "The model extends to a hierarchical Bayesian PANN acting as a nonlinear mixed-effects model for populations of laws.",
+    "It recovers populations from few specimens and predicts new specimens more reliably than three published methods.",
+    "Tested on synthetic populations, rubber, and healthy and aneurysmal aortas, it matches deterministic PANN accuracy."
+   ]
+  },
+  "km": {
+   "title": "Hierarchical Bayesian physics-augmented neural networks for populations of hyperelastic laws: specimen variability and uncertainty from scarce, noisy data",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្កើតបណ្តាញសរសៃប្រសាទដែលបង្កើនរូបវិទ្យា Bayesian តាមឋានានុក្រម ដើម្បីយកគំរូតាមចំនួនប្រជាសាស្ត្រនៃច្បាប់ hyperelastic ពីទិន្នន័យខ្សោះខ្សោយនិងមានសំឡេងរំខាន។ ម៉ូដែលនេះប្រើប្រាស់ការសន្និដ្ឋាន variational ដើម្បីទាញយកលក្ខណៈពិសេស polyconvex រួមគ្នា ការប្រែប្រួលគំរូនីមួយៗ និងលក្ខណៈប្រជាសាស្ត្រ។ វាអាចព្យាករណ៍ការឆ្លើយតបនៃគំរូថ្មីជាមួយនឹងចន្លោះពេលដែលអាចជឿទុកចិត្តបាន។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកស្រាវជ្រាវក្នុងការយកគំរូតាមលក្ខណៈសម្បត្តិវត្ថុធាតុដើមឱ្យកាន់តែត្រឹមត្រូវនៅពេលធ្វើការជាមួយទិន្នន័យពិសោធន៍ដែលមានកំណត់។ វាអាចកែលម្អភាពជឿជាក់នៃការទស្សន៍ទាយសម្រាប់គំរូថ្មីនៅក្នុងកម្មវិធីដែលពាក់ព័ន្ធនឹងជាលិកាទន់។",
+   "keyPoints": [
+    "បណ្តាញ Bayesian PANN ត្រូវបានបង្កើតឡើងសម្រាប់គំរូតែមួយដើម្បីគ្រប់គ្រងទិន្នន័យខ្សោះខ្សោយនិងមានសំឡេងរំខាន។",
+    "ម៉ូដែលនេះពង្រីកទៅជា Bayesian PANN តាមឋានានុក្រម ដែលជាម៉ូដែលបែបផែនចម្រុះមិនមែនជាបន្ទាត់។",
+    "វាទទួលបានចំនួនប្រជាសាស្ត្រពីគំរូតិចតួចនិងព្យាករណ៍គំរូថ្មីដោយអាចទុកចិត្តបានជាងវិធីសាស្ត្រដែលបានបោះពុម្ពផ្សាយចំនួនបី។",
+    "វាទទួលបានភាពត្រឹមត្រូវនៃ PANN កំណត់លើកៅស៊ូរបស់ Treloar និងសរសៃឈាមអរដ globules និង aneurysmal ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Hierarchical Bayesian physics-augmented neural networks for populations of hyperelastic laws: specimen variability and uncertainty from scarce, noisy data",
+   "summary": "研究人员开发了一种分层贝叶斯物理增强神经网络（PANN），用于从稀疏且有噪声的数据中对超弹性定律群体进行建模。该模型使用变分推断共同推断共享的多凸特征、各个试样变异和群体特征，同时将测量噪声建模分开。它可以利用可信区间预测新试样的响应，并将其分配到不同的队列中。",
+   "impact": "这种方法可以帮助开发人员和研究人员在处理有限且有噪声的实验数据时更准确地对材料属性进行建模。它可能会提高在涉及软组织和其他材料的应用中对新试样预测和队列分配的可靠性。",
+   "keyPoints": [
+    "为单个试样开发了贝叶斯 PANN，利用合理的先验处理稀疏和有噪声的数据。",
+    "该模型扩展为分层贝叶斯 PANN，作为法律群体的非线性混合效应模型。",
+    "它从少数试样中恢复群体，并且比三种已发布的方法更可靠地预测新试样。",
+    "在合成群体、橡胶以及健康和动脉瘤主动脉上进行了测试，达到了确定性 PANN 的准确度。"
+   ]
+  },
+  "ko": {
+   "title": "Hierarchical Bayesian physics-augmented neural networks for populations of hyperelastic laws: specimen variability and uncertainty from scarce, noisy data",
+   "summary": "연구원들은 부족하고 노이가 있는 데이터로부터 초탄성 법칙 집단을 모델링하기 위해 계층적 베이지안 물리학 보강 신경망(PANN)을 개발했습니다. 이 모델은 변분 추론을 사용하여 공유된 다볼록 특성, 개별 표본 변동 및 집단 특성을 공동으로 추론합니다. 이를 통해 신뢰 구간으로 새로운 표본의 반응을 예측하고 그룹에 할당할 수 있습니다.",
+   "impact": "이 접근 방식은 개발자와 연구원이 제한적이고 노이가 있는 실험 데이터로 작업할 때 재료 속성을 더 정확하게 모델링하는 데 도움이 될 수 있습니다. 연조직 및 기타 재료와 관련된 응용 분야에서 새로운 표본 예측의 신뢰성을 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "희소하고 노이가 있는 데이터를 처리하기 위해 단일 표본용 베이지안 PANN이 개발되었습니다.",
+    "이 모델은 법률 집단을 위한 비선형 혼합 효과 모델인 계층적 베이지안 PANN으로 확장됩니다.",
+    "소수의 표본에서 집단을 복원하며 세 가지 기존 방법보다 더 신뢰할 수 있게 새로운 표본을 예측합니다.",
+    "합성 집단, 고무, 건강 및 동맥류 대동맥에서 테스트되어 결정론적 PANN 정확도에 도달했습니다."
+   ]
+  }
+ }
+}
