@@ -1,0 +1,57 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0c9bc27a0d07f027",
+ "contentHash": "df4eaf4ed14510c7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T11:35:36.724Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Optimizing Image AI Serving: Reducing CPU and GPU Idle Time to Save 67 H100 GPUs",
+   "summary": "NAVER shared a session from the 10th NAVER Engineering Day detailing how SNOW optimized 16 Image AI services. By transitioning to LitServe, reducing idle times, tuning parameters for actual traffic, and sharing GPUs across services, they improved response speed and stability. These optimizations resulted in a savings equivalent to about 67.37 H100 GPUs.",
+   "impact": "This approach could help developers and engineering teams operating AI models improve response speed, throughput, and GPU resource efficiency. Security and infrastructure teams may find value in how resource utilization and overhead can be reduced under real traffic.",
+   "keyPoints": [
+    "SNOW optimized 16 Image AI services to increase response speed and stability.",
+    "Transitioning to LitServe helped remove redundant image encoding and decoding and reduced CPU and GPU wait times.",
+    "Parameters were tuned for actual traffic through worker counts, thread counts, CPU limits, core pinning, and autoscaling logic.",
+    "Lightweight tasks were offloaded to the CPU, and multiple services were co-located on a single GPU.",
+    "The total savings amounted to an equivalent of 67.37 H100 GPUs."
+   ]
+  },
+  "km": {
+   "title": "ការបង្កើនប្រសិទ្ធភាពសេវាកម្ម Image AI៖ ការកាត់បន្ថយពេលវេលាទំនេររបស់ CPU និង GPU រហូតដល់សន្សំសំចៃ H100 ចំនួន 67",
+   "summary": "NAVER បានបង្ហាញសម័យប្រជុំមួយពីព្រឹត្តិការណ៍ NAVER Engineering Day lầnទី 10 ដោយរៀបរាប់លម្អិតអំពីរបៀបដែល SNOW បានបង្កើនប្រសិទ្ធភាពសេវាកម្ម Image AI ចំនួន 16។ តាមរយៈការផ្លាស់ប្តូរទៅប្រើប្រាស់ LitServe កាត់បន្ថយពេលវេលារង់ចាំ លៃតម្រូវប៉ារ៉ាម៉ែត្រឱ្យត្រូវនឹងចរាចរណ៍ពិតប្រាកដ និងការចែករំលែក GPU រវាងសេវាកម្មផ្សេងៗ ពួកគេបានបង្កើនល្បឿនឆ្លើយតប និងស្ថេរភាព។ ការបង្កើនប្រសិទ្ធភាពទាំងនេះបាននាំឱ្យមានការសន្សំសំចៃស្មើនឹង GPU ប្រភេទ H100 ប្រមាណជាង 67 គ្រឿង។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងក្រុមវិស្វកម្មដែលដំណើរការម៉ូដែល AI ឱ្យបង្កើនល្បឿនឆ្លើយតប កម្រិតដំណើរការ និងប្រសិទ្ធភាពធនធាន GPU ។ ក្រុមការងារផ្នែកសុវត្ថិភាព និងហេដ្ឋារចនាសម្ព័ន្ធអាចទទួលបានប្រយោជន៍ពីរបៀបដែលការប្រើប្រាស់ធនធាន និងការចំណាយលើសត្រូវបានកាត់បន្ថយក្រោមចរាចរណ៍ពិតប្រាកដ។",
+   "keyPoints": [
+    "SNOW បានបង្កើនប្រសិទ្ធភាពសេវាកម្ម Image AI ចំនួន 16 ដើម្បីបង្កើនល្បឿនឆ្លើយតប និងស្ថេរភាព។",
+    "ការផ្លាស់ប្តូរទៅប្រើប្រាស់ LitServe បានជួយលុបបំបាត់ការអ៊ិនកូដ និងឌីកូដរូបភាពដែលកើតឡើងដដែលៗ និងកាត់បន្ថយពេលវេលារង់ចាំរបស់ CPU និង GPU ។",
+    "ប៉ារ៉ាម៉ែត្រត្រូវបានលៃតម្រូវសម្រាប់ចរាចរណ៍ពិតប្រាកដតាមរយៈចំនួនកម្មករ ចំនួនអំបោះ កម្រិត CPU ការចាក់សោស្នូល និងឡូជីខលស្វ័យប្រវត្តិ។",
+    "កិច្ចការស្រាលៗត្រូវបានបែងចែកទៅឱ្យ CPU ហើយសេវាកម្មជាច្រើនត្រូវបានដាក់បញ្ចូលគ្នានៅលើ GPU តែមួយ។",
+    "ការសន្សំសរុបមានចំនួនស្មើនឹង GPU ប្រភេទ H100 ចំនួន 67.37 គ្រឿង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "图像 AI 服务优化：减少 CPU 与 GPU 空闲时间并节省 67 张 H100",
+   "summary": "NAVER 公开了在第 10 届 NAVER Engineering Day 技术交流活动中的演讲内容，详细介绍了 SNOW 如何优化 16 个图像 AI 服务。通过转向 LitServe、减少不必要的运算以及 CPU 和 GPU 的等待时间、根据实际流量调整参数并实现多个服务共享 GPU，他们提升了响应速度与稳定性。这些优化最终实现了相当于节省 67.37 张 H100 GPU 资源的成果。",
+   "impact": "这种方法可以帮助运营 AI 模型的开发人员和工程团队提高响应速度、吞吐量和 GPU 资源利用率。安全和基础设施团队也可以从中了解如何在实际流量下降低资源消耗和开销。",
+   "keyPoints": [
+    "SNOW 对 16 个图像 AI 服务进行了优化，以提高响应速度和稳定性。",
+    "转向 LitServe 有助于消除重复的图像编码与解码，并减少 CPU 和 GPU 的等待时间。",
+    "通过调整工作线程数、线程数、CPU 限制、核心绑定以及改进自动扩缩容逻辑，使参数适应实际流量。",
+    "将较轻的任务分离到 CPU，并将多个服务共同部署在单个 GPU 上。",
+    "总共节省了相当于 67.37 张 H100 的资源量。"
+   ]
+  },
+  "ko": {
+   "title": "Image AI 서빙 최적화: CPU와 GPU의 빈 시간을 줄여 H100 67장을 절감하기까지",
+   "summary": "NAVER는 사내 기술 교류 행사 인 NAVER Engineering Day 10th에서 발표된 세션을 통해 SNOW의 16개 Image AI 서비스 최적화 경험을 공개했다. LitServe 전환을 통해 반복되는 인코딩·디코딩을 제거하고 CPU와 GPU의 대기 시간을 줄이며 실제 트래픽에 맞춰 파라미터를 조정하고 여러 서비스가 GPU를 공유하도록 개선했다. 이러한 과정을 통해 응답 속도와 안정성을 높이면서 H100 환산 약 67장의 GPU 자원을 절감했다.",
+   "impact": "이번 사례는 AI 모델을 서비스로 운영하는 개발자와 엔지니어들이 응답 속도, 처리량, GPU 자원 효율성을 개선하는 데 도움을 줄 수 있다. 인프라 및 보안 팀은 실제 트래픽 조건에서 불필요한 연산과 대기 비용을 줄이는 방법에 대한 유용한 참고 자료를 얻을 수 있다.",
+   "keyPoints": [
+    "SNOW의 16개 Image AI 서비스에서 응답 속도와 안정성을 높이면서 H100 환산 약 67장의 GPU 자원을 절감함.",
+    "LitServe 전환을 통해 반복되는 이미지 인코딩과 디코딩을 제거하고 CPU 전처리와 GPU 계산의 대기 시간을 줄임.",
+    "워커 수, 스레드 수, CPU 한도와 코어 고정, Autoscaling 로직 개선 등을 통해 실제 트래픽에 맞춰 파라미터를 조정함.",
+    "가벼운 작업을 CPU로 분리하고 여러 서비스를 하나의 GPU에 함께 배치하여 불필요한 연산과 요청 대기 비용을 제거함."
+   ]
+  }
+ }
+}

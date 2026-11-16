@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5ceeaae8e26f5eb8",
+ "contentHash": "1a97b8235f71af22",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T11:32:10.000Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+   "summary": "A financially motivated threat activity cluster called REF3364 uses a Linux cryptocurrency mining operation that tampers with readings used to detect high GPU workloads. The intrusion centers around a Rust-based orchestrator named SANSAR, which manages CPU and GPU miners via commands received over the TOR anonymity network. This activity was recently observed by security researchers.",
+   "impact": "Security teams and technology users might need to monitor for unauthorized GPU and CPU workloads that evade standard detection mechanisms. The use of modified libraries and TOR-based command channels could complicate incident response and threat detection efforts.",
+   "keyPoints": [
+    "REF3364 is a financially motivated threat cluster running a Linux cryptocurrency mining operation.",
+    "The malware tampers with readings used to detect high GPU workloads.",
+    "SANSAR is a Rust-based orchestrator that manages CPU and GPU miners.",
+    "Commands are received over the TOR anonymity network."
+   ]
+  },
+  "km": {
+   "title": "មេរោគអعدច័ន SANSAR Linux Cryptomining ប្រើប្រាស់បណ្ណាល័យ NVIDIA កែច្នៃដើម្បីលាក់សកម្មភាព GPU",
+   "summary": "ក្រុមសកម្មភាពគំរាមកំហែងដែលមានការលើកទឹកចិត្តทางการប្រាក់ហៅថា REF3364 ត្រូវបានផ្សារភ្ជាប់ទៅនឹងប្រតិបត្តិការជីក cryptocurrency លើ Linux ដែលរៀបចំការអានដែលប្រើដើម្បីរកឃើញបន្ទុកការងារ GPU ខ្ពស់។ ចំណុចស្នូលនៃការចូលុកលុយនេះគឺឧបករណ៍មួយហៅថា SANSAR ដែលជាអ្នកសម្របសម្រួលផ្អែកលើ Rust ដែលទទួលបានពាក្យបញ្ជាតាមបណ្តាញអនាមិក TOR ដើម្បីគ្រប់គ្រងអ្នកជីក CPU និង GPU ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវត្រួតពិនិត្យរកមើលបន្ទុកការងារ GPU និង CPU ដែលគ្មានការអនុញ្ញាតដែលគេចផុតពីគោលការណ៍រកឃើញស្តង់ដារ។ ការប្រើប្រាស់បណ្ណាល័យដែលបានកែប្រែនិងបណ្តាញបញ្ជា TOR អាចធ្វើឱ្យកិច្ចខិតខំប្រឹងប្រែងឆ្លើយតបនឹងឧប្បត្តិហេតុមានការលំបាក។",
+   "keyPoints": [
+    "REF3364 គឺជាក្រុមគំរាមកំហែងដែលជំរុញដោយហិរញ្ញវត្ថុដែលដំណើរការប្រតិបត្តិការជីក cryptocurrency លើ Linux ។",
+    "មេរោគនេះរៀបចំការអានដែលប្រើដើម្បីរកឃើញបន្ទុកការងារ GPU ខ្ពស់។",
+    "SANSAR គឺជាអ្នកសម្របសម្រួលផ្អែកលើ Rust ដែលគ្រប់គ្រងអ្នកជីក CPU និង GPU ។",
+    "ពាក្យបញ្ជាត្រូវបានទទួលតាមបណ្តាញអនាមិក TOR ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "SANSAR Linux 加密货币挖矿恶意软件使用修改后的 NVIDIA 库来隐藏 GPU 活动",
+   "summary": "一个被称为 REF3364 的有经济动机的威胁活动集群被指控参与了一项 Linux 加密货币挖矿行动，该行动篡改了用于检测高 GPU 工作负载的读数。入侵的核心是一个名为 SANSAR 的基于 Rust 的协调器，它通过 TOR 匿名网络接收命令来管理 CPU 和 GPU 矿工。",
+   "impact": "安全团队和技术用户可能需要监控绕过标准检测机制的未授权 GPU 和 CPU 工作负载。修改后的库和基于 TOR 的命令通道的使用可能会使事件响应和威胁检测工作变得复杂。",
+   "keyPoints": [
+    "REF3364 是一个运行 Linux 加密货币挖矿行动的有经济动机的威胁集群。",
+    "该恶意软件篡改了用于检测高 GPU 工作负载的读数。",
+    "SANSAR 是一个管理 CPU 和 GPU 矿工的基于 Rust 的协调器。",
+    "通过 TOR 匿名网络接收命令。"
+   ]
+  },
+  "ko": {
+   "title": "SANSAR Linux 암호화폐 채굴 악성코드가 수정된 NVIDIA 라이브러리를 사용하여 GPU 활동을 숨김",
+   "summary": "REF3364로 추적되는 금전적 동기를 가진 위협 활동 클러스터가 높은 GPU 작업 부하를 감지하는 데 사용되는 판독값을 변조하는 Linux 기반 암호화폐 채굴 작업과 연관되었습니다. 침해의 중심에는 TOR 익명 네트워크를 통해 명령을 받아 CPU 및 GPU 채굴기를 관리하는 Rust 기반 오케스트레이터인 SANSAR라는 툴킷이 있습니다.",
+   "impact": "보안 팀과 기술 사용자는 표준 탐지 메커니즘을 우회하는 무단 GPU 및 CPU 작업 부하를 모니터링해야 할 수 있습니다. 수정된 라이브러리와 TOR 기반 명령 채널의 사용은 사고 대응 및 위협 탐지 노력을 복잡하게 만들 수 있습니다.",
+   "keyPoints": [
+    "REF3364는 Linux 암호화폐 채굴 작업을 실행하는 금전적 동기를 가진 위협 클러스터입니다.",
+    "악성코드는 높은 GPU 작업 부하를 감지하는 데 사용되는 판독값을 변조합니다.",
+    "SANSAR는 CPU 및 GPU 채굴기를 관리하는 Rust 기반 오케스트레이터입니다.",
+    "명령은 TOR 익명 네트워크를 통해 수신됩니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "96d31b58668015f0",
+ "contentHash": "3fec742c10b01f69",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T11:38:18.857Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "KAIST develops technology to improve visual speech recognition using lip-reading AI",
+   "summary": "KAIST announced on November 16 that researchers developed an AI technology to improve the accuracy of visual speech recognition (VSR), which converts lip movements into text. Traditional auto-regressive VSR models struggled to distinguish similar lip shapes and propagated early errors throughout the sentence. To overcome this limitation, Professor Yong Man Ro's research team introduced a diffusion large language model (DLLM) to visual speech recognition for the first time.",
+   "impact": "This technology could help developers and researchers overcome sequential generation errors in visual speech recognition systems, improving overall text accuracy. Security teams and technology users may see more reliable lip-reading applications.",
+   "keyPoints": [
+    "KAIST developed an AI technology to enhance visual speech recognition accuracy based on lip movements.",
+    "Traditional auto-regressive methods suffered from error propagation starting from the first word.",
+    "The research team introduced a diffusion large language model (DLLM) to address sequential generation limits."
+   ]
+  },
+  "km": {
+   "title": "KAIST អភិវឌ្ឍបច្ចេកវិទ្យាដើម្បីកែលម្អការសម្គាល់សំឡេងមើលឃើញដោយប្រើ AI អានបونមាត់",
+   "summary": "KAIST បានប្រកាសនៅថ្ងៃទី១៦ ខែវិច្ឆិកា ថាអ្នកស្រាវជ្រាវបានអភិវឌ្ឍបច្ចេកវិទ្យា AI ដើម្បីបង្កើនភាពត្រឹមត្រូវនៃការសម្គាល់សំឡេងមើលឃើញ ដែលបំប្លែងចលនាបបូរមាត់ទៅជាអត្ថបទ។ វិធីសាស្ត្រចាស់ប្រើប្រព័ន្ធបង្កើតតាមលំដាប់ ដែលធ្វើឱ្យកំហុសនៅផ្នែកខាងមុខរីករាលដាលដល់ប្រយោគខាងក្រោយ។ ក្រុមស្រាវជ្រាវរបស់សាស្រ្តាចារ្យ Noh Yong-man បានណែនាំគំរូភាសាខ្នាតធំផ្សព្វផ្សាយជាលើកដំបូងក្នុងការសម្គាល់សំឡេងមើលឃើញដើម្បីជម្នះបញ្ហានេះ។",
+   "impact": "បច្ចេកវិទ្យានេះអាចជួយអ្នកអភិវឌ្ឍន៍ដោះស្រាយបញ្ហាកំហុសក្នុងការបង្កើតតាមលំដាប់ និងបង្កើនភាពត្រឹមត្រូវនៃអត្ថបទ។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានកម្មវិធីអានបបូរមាត់ដែលមានភាពជឿជាក់ជាងមុន។",
+   "keyPoints": [
+    "KAIST បានអភិវឌ្ឍបច្ចេកវិទ្យា AI ដើម្បីបង្កើនភាពត្រឹមត្រូវនៃការសម្គាល់សំឡេងមើលឃើញតាមរយៈចលនាបបូរមាត់។",
+    "វិធីសាស្ត្រចាស់មានបញ្ហាកំហុសឆ្គងរីករាលដាលចាប់ពីពាក្យដំបូង។",
+    "ក្រុមស្រាវជ្រាវបានដាក់បញ្ចូលគំរូភាសាខ្នាតធំផ្សព្វផ្សាយដើម្បីយកឈ្នះលើកម្រិតកំណត់នៃការបង្កើតតាមលំដាប់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "KAIST开发利用读唇AI提升视觉语音识别的技术",
+   "summary": "韩国科学技术院（KAIST）于11月16日宣布，研究团队开发了一项利用仅通过唇部运动将话语转换为文字的视觉语音识别（VSR）准确率提升AI技术。以往的自回归（AR）方式很难区分不同的声音，且前方错误会延续至后面的句子。为了克服这种顺序生成的局限性，鲁勇万教授研究团队首次将扩散大语言模型（DLLM）引入视觉语音识别中。",
+   "impact": "该技术有助于开发者和研究人员克服视觉语音识别中的顺序生成错误，从而提高整体文本准确性。技术用户未来可能会使用到更可靠的读唇相关应用。",
+   "keyPoints": [
+    "KAIST开发了基于唇部运动提升视觉语音识别准确率的AI技术。",
+    "传统的自回归方式存在从第一个词开始的错误延续问题。",
+    "研究团队首次在视觉语音识别中引入了扩散大语言模型（DLLM）以克服顺序生成的局限性。"
+   ]
+  },
+  "ko": {
+   "title": "KAIST, 입모양 읽는 AI로 시각적 음성인식 향상 기술 개발",
+   "summary": "한국과학기술원(KAIST)은 입술 움직임만으로 말을 문자로 바꾸는 시각적 음성 인식(VSR)의 정확도를 높이는 AI 기술을 개발했다고 16일 밝혔다. 기존의 자가회귀(AR) 방식은 앞부분의 오류가 뒤 문장까지 이어지는 문제가 있었다. 노용만 교수 연구팀은 이러한 순차적 생성의 한계를 극복하기 위해 확산 대형언어모델(DLLM)을 시각적 음성 인식에 최초로 도입했다.",
+   "impact": "이 기술은 개발자와 연구원들이 시각적 음성 인식 시스템의 순차적 생성 오류를 극복하고 텍스트 정확도를 높이는 데 도움을 줄 수 있다. 기술 사용자들은 더욱 신뢰할 수 있는 입모양 인식 애플리케이션을 접하게 될 수 있다.",
+   "keyPoints": [
+    "KAIST는 입술 움직임 기반 시각적 음성 인식 정확도를 높이는 AI 기술을 개발했다.",
+    "기존 자가회귀 방식은 첫 단어부터의 오류가 뒤로 이어지는 문제가 있었다.",
+    "연구팀은 순차적 생성 한계를 극복하고자 확산 대형언어모델(DLLM)을 최초로 도입했다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d6a0c3df6c7fff40",
+ "contentHash": "26dd048b385c2486",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T11:37:57.439Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+   "summary": "Amazon's threat intelligence team captured records from attackers' AI agents that were hunting for weak spots in internet-exposed AI apps like LiteLLM, One API, and Dify. The campaign aimed to steal stored AI provider keys. According to the records, the stolen keys were then used to run the AI models that powered the search for additional keys.",
+   "impact": "This activity could demonstrate how automated AI agents are utilized to scale attacks against exposed applications and steal sensitive credentials. Technology users and security teams managing AI integrations may need to review their exposure and defenses.",
+   "keyPoints": [
+    "Attackers used AI agents to hunt for weak spots in internet-exposed AI apps.",
+    "Targeted applications included LiteLLM, One API, and Dify.",
+    "The campaign aimed to steal stored AI provider keys.",
+    "Stolen keys were used to power the AI models conducting further searches."
+   ]
+  },
+  "km": {
+   "title": "Amazon រកឃើញយុទ្ធនាការភ្នាក់ងារ AI ដែលកំណត់គោលដៅលើ LiteLLM, Dify និងកម្មវិធីផ្សេងទៀតសម្រាប់គ្រាប់ចុច API",
+   "summary": "ក្រុមស៊ើបការណ៍សម្ងាត់ផ្នែកគំរាមកំហែងរបស់ Amazon បានចាប់យកកំណត់ត្រាពីភ្នាក់ងារ AI របស់ពួកឧក្រិដ្ឋជន ដែលកំពុងស្វែងរកចំណុចខ្សោយនៅក្នុងកម្មវិធី AI ដែលបើកចំហនៅលើអ៊ីនធឺណិតដូចជា LiteLLM, One API និង Dify។ យុទ្ធនាការនេះមានគោលបំណងលួចគ្រាប់ចុចអ្នកផ្តល់សេវា AI ដែលបានរក្សាទុក។ យោងតាមកំណត់ត្រា គ្រាប់ចុចដែលត្រូវបានលួចត្រូវបានគេប្រើប្រាស់ដើម្បីដំណើរការគំរូ AI ដែលជំរុញការស្វែងរកគ្រាប់ចុចបន្ថែមទៀត។",
+   "impact": "សកម្មភាពនេះអាចបង្ហាញពីរបៀបដែលភ្នាក់ងារ AIស្វ័យប្រវត្តិកំពុងត្រូវបានប្រើប្រាស់ដើម្បីពង្រីកការវាយប្រហារប្រឆាំងនឹងកម្មវិធីដែលបានបើកចំហ និងលួចព័ត៌មានសម្ងាត់ដែលមានតម្លៃ។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យា និងក្រុមសន្តិសុខអាចចាំបាច់ត្រូវពិនិត្យឡើងវិញនូវការតាំងបង្ហាញ និងការការពាររបស់ពួកគេ។",
+   "keyPoints": [
+    "ពួកឧក្រិដ្ឋជនបានប្រើប្រាស់ភ្នាក់ងារ AI ដើម្បីស្វែងរកចំណុចខ្សោយនៅក្នុងកម្មវិធី AI ដែលបើកចំហនៅលើអ៊ីនធឺណិត។",
+    "កម្មវិធីគោលដៅរួមមាន LiteLLM, One API និង Dify។",
+    "យុទ្ធនាការនេះមានគោលដៅលួចគ្រាប់ចុចអ្នកផ្តល់សេវា AI ដែលបានរក្សាទុក។",
+    "គ្រាប់ចុចដែលត្រូវបានលួចត្រូវបានប្រើដើម្បីដំណើរការគំរូ AI ដែលធ្វើការស្វែងរកបន្ថែម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "亚马逊发现针对 LiteLLM、Dify 和其他应用程序窃取 API 密钥的 AI 代理活动",
+   "summary": "亚马逊威胁情报团队捕获了攻击者 AI 代理的记录，这些代理一直在搜寻暴露在互联网上的 AI 应用程序（如 LiteLLM、One API 和 Dify）中的弱点。该活动旨在窃取存储在内部的 AI 提供商密钥。根据记录，被盗的密钥随后被用于运行驱动进一步搜索密钥的 AI 模型。",
+   "impact": "这一活动可能表明了自动化 AI 代理如何被用于扩大针对暴露应用程序的攻击并窃取敏感凭证。管理 AI 集成的技术用户和安全团队可能需要重新审查其暴露情况和防御措施。",
+   "keyPoints": [
+    "攻击者使用 AI 代理在暴露于互联网的 AI 应用程序中搜寻弱点。",
+    "目标应用程序包括 LiteLLM、One API 和 Dify。",
+    "该活动旨在窃取存储的 AI 提供商密钥。",
+    "被盗密钥被用于驱动进行更多搜索的 AI 模型。"
+   ]
+  },
+  "ko": {
+   "title": "아마존, API 키를 노리고 LiteLLM, Dify 및 기타 앱을 타겟으로 하는 AI 에이전트 캠페인 적발",
+   "summary": "아마존의 위협 인텔리전스 팀은 인터넷에 노출된 LiteLLM, One API, Dify 같은 AI 앱의 취약점을 사냥하던 공격자들의 AI 에이전트 기록을 포착했습니다. 이 캠페인은 내부에 저장된 AI 제공업체 키를 훔치는 것을 목표로 했습니다. 기록에 따르면, 도난당한 키는 더 많은 키를 찾는 검색 작업을 구동하는 AI 모델을 실행하는 데 사용되었습니다.",
+   "impact": "이번 활동은 자동화된 AI 에이전트가 노출된 애플리케이션에 대한 공격을 확장하고 민감한 자격 증명을 탈취하는 데 어떻게 활용되는지 보여줄 수 있습니다. AI 통합을 관리하는 기술 사용자 및 보안 팀은 노출 상태와 방어 체계를 검토해야 할 수 있습니다.",
+   "keyPoints": [
+    "공격자들은 인터넷에 노출된 AI 앱의 취약점을 찾기 위해 AI 에이전트를 사용했습니다.",
+    "타겟이 된 애플리케이션에는 LiteLLM, One API, Dify가 포함됩니다.",
+    "이 캠페인은 저장된 AI 제공업체 키를 훔치는 것을 목표로 했습니다.",
+    "도난당한 키는 추가 검색을 수행하는 AI 모델을 구동하는 데 사용되었습니다."
+   ]
+  }
+ }
+}

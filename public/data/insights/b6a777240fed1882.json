@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b6a777240fed1882",
+ "contentHash": "47efda54d29a09b1",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T11:37:03.001Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Cafe management tool reorganization: The documentation was outdated, the people left, and only the code remained.",
+   "summary": "NAVER has released a session from the 10th NAVER Engineering Day detailing the overhaul of a 14-year-old cafe management tool where only the code remained. Developers used AI to analyze the legacy system and recreated screens and behaviors using Storybook and MSW to develop a new cafe studio. The project also changed how teams collaborated across planning, design, and backend development.",
+   "impact": "Developers and engineers preparing for legacy system overhauls or looking to apply AI in practice may find useful insights in this approach. It also highlights how new collaboration methods can impact planning and design validation.",
+   "keyPoints": [
+    "Presented at the 10th NAVER Engineering Day.",
+    "A 14-year-old legacy cafe management tool with outdated documentation was analyzed using AI.",
+    "Storybook and MSW were used to recreate screens and behaviors for the new cafe studio.",
+    "Collaboration methods between planning, design, and backend teams changed during the process."
+   ]
+  },
+  "km": {
+   "title": "ការរៀបចំឡើងវិញនូវឧបករណ៍គ្រប់គ្រងកាហ្វេ៖ ឯកសារចាស់ មនុស្សបានចាកចេញ ហើយនៅសល់តែ ኮដប៉ុណ្ណោះ។",
+   "summary": "NAVER បានចេញផ្សាយវគ្គមួយពីកម្មវិធី NAVER Engineering Day លើកទី 10 ដែលពិពណ៌នាអំពីការកែលម្អឧបករណ៍គ្រប់គ្រងកាហ្វេដែលមានអាយុកាល 14 ឆ្នាំ ដែលនៅសល់តែ ਕੋដ។ អ្នកអភិវឌ្ឍន៍បានប្រើប្រាស់ AI ដើម្បីវិភាគប្រព័ន្ធចាស់ និងបង្កើតអេក្រង់និងសកម្មភាពឡើងវិញដោយប្រើ Storybook និង MSW ដើម្បីអភិវឌ្ឍស្ទូឌីយោកាហ្វេថ្មីមួយ។ ដំណើរការនេះក៏បានផ្លាស់ប្តូរវិធីដែលក្រុមការងារសហការគ្នាផងដែរ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងវិស្វករដែលរៀបចំសម្រាប់ការកែលម្អប្រព័ន្ធចាស់ ឬចង់ប្រើប្រាស់ AI ក្នុងការអនុវត្តជាក់ស្តែង អាចទទួលបានគំនិតពីវិធីសាស្រ្តនេះ។",
+   "keyPoints": [
+    "បានបង្ហាញនៅក្នុងកម្មវិធី NAVER Engineering Day លើកទី 10។",
+    "បានប្រើប្រាស់ AI ដើម្បីវិភាគប្រព័ន្ធគ្រប់គ្រងកាហ្វេដែលមានអាយុកាល 14 ឆ្នាំ។",
+    "បានប្រើប្រាស់ Storybook និង MSW ដើម្បីបង្កើតអេក្រង់ និងសកម្មភាពឡើងវិញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "咖啡管理工具重构：文档旧了，人走了，只剩下代码了。",
+   "summary": "NAVER 公开了第 10 届 NAVER Engineering Day 上的一个演讲，详细介绍了重构一个只有代码留下的 14 年历史咖啡管理工具的过程。开发人员利用 AI 分析了遗留系统，并通过 Storybook 和 MSW 重现了界面与行为，开发出了新的咖啡工作室。这一过程还改变了企划、设计和后端开发人员之间的协作方式。",
+   "impact": "准备重构遗留系统或希望在实践中应用 AI 的开发人员和工程师可能会从中获得参考。它还展示了新的协作方法如何影响企划和设计的验证。",
+   "keyPoints": [
+    "在第 10 届 NAVER Engineering Day 上发布。",
+    "利用 AI 分析了缺乏文档的 14 年历史遗留咖啡管理工具。",
+    "使用 Storybook 和 MSW 重现了界面与行为以开发新工作室。",
+    "改变了企划、设计和后端之间的协作方式。"
+   ]
+  },
+  "ko": {
+   "title": "카페 관리도구 개편기: 문서는 낡았고, 사람은 떠났고, 코드만 남았다.",
+   "summary": "네이버는 사내 기술 교류 행사 NAVER Engineering Day 10th에서 발표된 세션을 공개했다. 코드만 남아 있던 14년 된 카페 관리도구를 AI와 함께 분석하고 Storybook과 MSW로 화면과 동작을 재현하여 새로운 카페 스튜디오를 개발한 과정이 공유되었다. 이 과정에서 기획, 디자인, BE와의 협업 방식에 변화가 있었다.",
+   "impact": "레거시 시스템 개편을 준비하거나 AI를 실무에 활용하려는 개발자와 엔지니어에게 참고가 될 수 있다. 화면과 정책을 함께 검증하며 협업하려는 기획자와 디자이너에게도 시사점을 줄 수 있다.",
+   "keyPoints": [
+    "NAVER Engineering Day 10th에서 발표된 세션 내용임.",
+    "문서가 없고 코드만 남은 14년 된 레거시 카페 관리도구를 AI로 분석함.",
+    "Storybook과 MSW를 활용해 신규 카페 스튜디오의 화면과 동작을 재현함.",
+    "기획, 디자인, BE 간의 협업 방식에 변화를 가져옴."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "11b3e869cb95d076",
+ "contentHash": "c976685e3991665a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T11:36:52.907Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Connecting Scattered Actions: Developing a Recommendation Model to Learn User Behavior Across All NAVER Surfaces",
+   "summary": "NAVER released a presentation session from the 10th NAVER Engineering Day detailing the development and service application of a vertical recommendation model. The model connects user behavior data across various domains such as search, feeds, and ads, sharing approaches for cross-domain knowledge transfer through serving, optimization, and knowledge distillation.",
+   "impact": "This presentation could offer valuable insights for developers and technical teams working on cross-domain recommendations, large-scale real-time inference, GPU serving optimization, and transferring foundation model knowledge into lightweight models.",
+   "keyPoints": [
+    "Presented at the 10th NAVER Engineering Day regarding vertical recommendation model development.",
+    "Covers connecting data and recommendation technologies across search, feed, and advertising domains.",
+    "Explores retrieval, integrated rankers, surface-specific application results, serving optimization, and knowledge distillation from foundation models."
+   ]
+  },
+  "km": {
+   "title": "ការតភ្ជាប់សកម្មភាពដែលបានរាយប៉ាយ៖ ការអភិវឌ្ឍម៉ូเดលណែនាំដែលសិក្សាពីសកម្មភាពអ្នកប្រើប្រាស់នៅលើគ្រប់ផ្ទៃរបស់ NAVER",
+   "summary": "NAVER បានបង្ហាញវគ្គបទបង្ហាញមួយពីព្រឹត្តិការណ៍ NAVER Engineering Day lần thứ 10 ដែលពិពណ៌នាអំពីការអភិវឌ្ឍ និងការអនុវត្តសេវាកម្មនៃម៉ូដែលណែនាំបញ្ឈរ។ ម៉ូដែលនេះភ្ជាប់ទិន្នន័យ និងបច្ចេកវិទ្យាណែនាំនៅទូទាំងដែនផ្សេងៗដូចជា ការស្វែងរក ហ្វីដ និងការផ្សាយពាណិជ្ជកម្ម ខណៈពេលដែលចែករំលែកទិសដៅសម្រាប់ការផ្ទេរចំណេះដឹងរវាងដែនតាមរយៈការបម្រើ ការបង្កើនប្រសិទ្ធភាព និងការចម្រាញ់ចំណេះដឹង។",
+   "impact": "បទបង្ហាញនេះអាចផ្តល់នូវការយល់ដឹងដ៏មានតម្លៃសម្រាប់អ្នកអភិវឌ្ឍន៍ និងក្រុមបច្ចេកវិទ្យាដែលចាប់អារម្មណ៍លើការណែនាំឆ្លងដែន ការសន្និដ្ឋានពេលវេលាពិតប្រាកដទ្រង់ទ្រាយធំ និងការផ្ទេរចំណេះដឹងពីម៉ូដែលមូលដ្ឋានទៅជាម៉ូដែលទម្ងន់ស្រាល។",
+   "keyPoints": [
+    "បង្ហាញនៅក្នុងព្រឹត្តិការណ៍ NAVER Engineering Day លើកទី 10 អំពីការអភិវឌ្ឍម៉ូដែលណែនាំបញ្ឈរ។",
+    "គ្របដណ្តប់លើការតភ្ជាប់ទិន្នន័យសកម្មភាពអ្នកប្រើប្រាស់ពីដែនស្វែងរក ហ្វីដ និងការផ្សាយពាណិជ្ជកម្ម។",
+    "ពិភាក្សាអំពីការបង្កើនប្រសិទ្ធភាពការបម្រើ និងបច្ចេកវិទ្យាចម្រាញ់ចំណេះដឹងពីម៉ូដែលមូលដ្ឋាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "连接分散的行为：开发学习NAVER全板块用户行为的推荐模型",
+   "summary": "NAVER公开了在第10届NAVER Engineering Day上发表的关于垂直推荐模型开发及服务应用经验的课程。该课程介绍了连接搜索、动态、广告等多个领域的数据与推荐技术的经验，并分享了通过服务、优化和知识蒸馏实现跨领域知识迁移的方向。",
+   "impact": "此次公开的内容可能为从事跨领域推荐、大规模实时推理、GPU服务优化以及将基础模型知识迁移至轻量化模型的开发者和技术团队提供参考。",
+   "keyPoints": [
+    "在第10届NAVER Engineering Day上发布了关于垂直推荐模型的开发内容。",
+    "涵盖了连接搜索、动态和广告等多个领域的推荐技术与数据应用。",
+    "探讨了检索与集成排序器、板块应用成果、服务优化以及基础模型知识蒸馏技术。"
+   ]
+  },
+  "ko": {
+   "title": "흩어진 행동을 연결하다: 네이버 전 지면의 사용자 행동을 학습하는 추천 모델 개발기",
+   "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th에서 발표된 세션이 공개되었다. 검색, 피드, 광고 등 다양한 도메인의 데이터와 추천 기술을 연결하는 버티컬 추천 모델의 개발 및 서비스 적용 경험을 소개하며, 서빙과 최적화, 지식 증류를 통한 도메인 간 지식 전이 방향을 공유한다.",
+   "impact": "이번 발표 내용은 크로스 도메인 추천, 대규모 실시간 추론 및 GPU 서빙 최적화, 파운데이션 모델의 지식 전이에 관심을 가진 개발자와 기술 팀에게 유용한 참고 자료가 될 수 있다.",
+   "keyPoints": [
+    "NAVER Engineering Day 10th에서 버티컬 추천 모델 개발 및 서비스 적용 경험을 발표함.",
+    "검색, 피드, 광고 등 다양한 도메인의 사용자 행동 데이터와 추천 기술을 연결함.",
+    "리트리버와 통합 랭커, 서빙 최적화, FM 지식 전이(Knowledge Distillation) 내용을 다룸."
+   ]
+  }
+ }
+}
