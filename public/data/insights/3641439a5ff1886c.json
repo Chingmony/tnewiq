@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3641439a5ff1886c",
+ "contentHash": "a1d4bc918d1e4111",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T22:26:11.791Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore",
+   "summary": "Pharmaceutical company Novo Nordisk is developing an intelligent support system powered by agentic AI on AWS to modernize its manufacturing process documents. The solution uses Amazon Bedrock AgentCore and a GraphRAG architecture to handle a vast portfolio of controlled documents, standard operating procedures, and training materials. By combining a knowledge graph with hybrid search and managed AI agents, the system helps subject-matter experts complete tasks that previously took hours or days in mere minutes.",
+   "impact": "This technology could help pharmaceutical and regulated manufacturing organizations improve compliance visibility and reduce the time needed to manage and search complex documentation. Developers and security teams may find that combining GraphRAG architectures with managed agent frameworks provides a scalable and traceable approach to handling sensitive internal knowledge.",
+   "keyPoints": [
+    "Novo Nordisk partnered with AWS to build an intelligent support system using agentic AI.",
+    "The system utilizes a GraphRAG architecture combining a knowledge graph with hybrid search.",
+    "Tasks that previously took subject-matter experts hours or days can now be completed in minutes.",
+    "The solution addresses challenges with manual spreadsheet tracking, regulatory updates, and fragmented documentation."
+   ]
+  },
+  "km": {
+   "title": "Novo Nordisk ធ្វើឱ្យឯកសារដំណើរការផលិតកម្មទំនើបឡើងវិញជាមួយ Amazon Bedrock AgentCore",
+   "summary": "ក្រុមហ៊ុនឱសថ Novo Nordisk កំពុងអភិវឌ្ឍប្រព័ន្ធគាំទ្រឆ្លាតវៃដែលដំណើរការដោយ AI លើ AWS ដើម្បីធ្វើឱ្យឯកសារដំណើរការផលិតកម្មរបស់ខ្លួនមានភាពទំនើប។ ដំណោះស្រាយនេះប្រើប្រាស់ Amazon Bedrock AgentCore និងស្ថាបត្យកម្ម GraphRAG ដើម្បីគ្រប់គ្រងផលប័ត្រដ៏ធំនៃឯកសារដែលបានគ្រប់គ្រង នីតិវិធីប្រតិបត្តិស្តង់ដារ និងសម្ភារៈបណ្តុះបណ្តាល។ តាមរយៈការរួមបញ្ចូលក្រាហ្វចំណេះដឹងជាមួយការស្វែងរកបែប הייბ୍ରីដ និងភ្នាក់ងារ AI ដែលបានគ្រប់គ្រង ប្រព័ន្ធនេះជួយឱ្យអ្នកជំនាញប្រធានបទបញ្ចប់ភារកិច្ចដែលធ្លាប់ចំណាយពេលរាប់ម៉ោង ឬរាប់ថ្ងៃក្នុងរយៈពេលប៉ុន្មាននាទី។",
+   "impact": "បច្ចេកវិទ្យានេះអាចជ่วยឱ្យក្រុមហ៊ុនឱសថ និងការផលិតដែលមានបទប្បញ្ញត្តិបង្កើនលទ្ធភាពមើលឃើញនៃការអនុលោមភាព និងកាត់បន្ថយពេលវេលាដែលត្រូវការដើម្បីគ្រប់គ្រង និងស្វែងរកឯកសារស្មុគស្មាញ។ អ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខអាចរកឃើញថាការរួមបញ្ចូលស្ថាបត្យកម្ម GraphRAG ជាមួយក្របខ័ណ្ឌភ្នាក់ងារដែលបានគ្រប់គ្រងផ្តល់នូវវិធីសាស្រ្តដែលអាចធ្វើមាត្រដ្ឋានបាន និងអាចតាមដານបានសម្រាប់ការจัดการចំណេះដឹងខាងក្នុងដែលមានភាពរសើប។",
+   "keyPoints": [
+    "ក្រុមហ៊ុន Novo Nordisk បានសហការជាមួយ AWS ដើម្បីបង្កើតប្រព័ន្ធគាំទ្រឆ្លាតវៃដោយប្រើ AI ។",
+    "ប្រព័ន្ធនេះប្រើប្រាស់ស្ថាបត្យកម្ម GraphRAG ដែលរួមបញ្ចូលគ្នារវាងក្រាហ្វចំណេះដឹង និងការស្វែងរកបែបハイブリッド។",
+    "ភារកិច្ចដែលធ្លាប់ចំណាយពេលអ្នកជំនាញរាប់ម៉ោង ឬរាប់ថ្ងៃឥឡូវនេះអាចត្រូវបានបញ្ចប់ក្នុងរយៈពេលប៉ុន្មាននាទី។",
+    "ដំណោះស្រាយនេះដោះស្រាយបញ្ហាប្រឈមជាមួយនឹងការតាមដានសៀវភៅបញ្ជីដោយដៃ ការអាប់ដេតបទប្បញ្ញត្តិ និងឯកសារដែលបែកខ្ញែក។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Novo Nordisk 使用 Amazon Bedrock AgentCore 实现制造流程文档现代化",
+   "summary": "全球领先的制药企业 Novo Nordisk 正在 AWS 上开发由智能 AI 驱动的支持系统，以实现其制造流程文档的现代化。该解决方案采用 Amazon Bedrock AgentCore 和 GraphRAG 架构来处理庞大的受控文档、标准操作程序和培训材料产品组合。通过将知识图谱与混合搜索以及托管的 AI 代理相结合，该系统帮助主题专家在几分钟内完成过去需要数小时或数天的工作。",
+   "impact": "这项技术可能有助于制药和受监管的制造企业提高合规可见性，并减少管理和搜索复杂文档所需的时间。开发人员和安全团队可能会发现，将 GraphRAG 架构与托管代理框架相结合，为处理敏感的内部知识提供了一种可扩展且可追踪的方法。",
+   "keyPoints": [
+    "Novo Nordisk 与 AWS 合作构建了使用智能 AI 的支持系统。",
+    "该系统利用将知识图谱与混合搜索相结合的 GraphRAG 架构。",
+    "过去需要主题专家花费数小时或数天的工作现在可以在几分钟内完成。",
+    "该解决方案解决了手动电子表格跟踪、法规更新和分散文档带来的挑战。"
+   ]
+  },
+  "ko": {
+   "title": "Novo Nordisk, Amazon Bedrock AgentCore를 통해 제조 공정 문서 현대화",
+   "summary": "글로벌 제약사인 Novo Nordisk는 제조 공정 문서를 현대화하기 위해 AWS에서 에이전틱 AI 기반의 지능형 지원 시스템을 개발하고 있습니다. 이 솔루션은 Amazon Bedrock AgentCore와 GraphRAG 아키텍처를 사용하여 방대한 양의 제어 문서, 표준 운영 절차, 교육 자료를 관리합니다. 지식 그래프와 하이브리드 검색, 관리형 AI 에이전트를 결합하여 전문가들이 몇 시간 또는 며칠이 걸리던 작업을 몇 분 만에 완료할 수 있도록 지원합니다.",
+   "impact": "이 기술은 제약 및 규제 제조 기업이 규정 준수 가시성을 높이고 복잡한 문서를 관리하고 검색하는 데 필요한 시간을 줄이는 데 도움이 될 수 있습니다. 개발자와 보안 팀은 GraphRAG 아키텍처와 관리형 에이전트 프레임워크를 결합하는 것이 민감한 내부 지식을 처리하는 데 확장 가능하고 추적 가능한 접근 방식을 제공한다는 것을 알 수 있습니다.",
+   "keyPoints": [
+    "Novo Nordisk는 지능형 AI를 사용하는 지원 시스템을 구축하기 위해 AWS와 협력했습니다.",
+    "이 시스템은 지식 그래프와 하이브리드 검색을 결합한 GraphRAG 아키텍처를 활용합니다.",
+    "이전에 전문가들이 몇 시간 또는 며칠 동안 수행해야했던 작업을 이제 몇 분 만에 완료할 수 있습니다.",
+    "이 솔루션은 수동 스프레드시트 추적, 규제 업데이트, 단절된 문서화로 인한 문제를 해결합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "daab8049af8f9330",
+ "contentHash": "96b3a55c32755632",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T22:15:29.749Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+   "summary": "Andreas Blattmann and Dustin Podell from Black Forest Labs discuss the development of the FLUX 3 model, which trains on image, video, and audio signals together. The discussion covers how moving cameras and multiple signals help models learn visual intelligence and temporal consistency. The conversation also explores engineering challenges such as video upscaling and architectural choices between diffusion and autoregression.",
+   "impact": "Developers and technology users working with generative media may find that training on combined multimodal signals improves temporal consistency and video quality. Understanding how models handle consistency across frames and upscaling could help security teams and creators evaluate generated content more effectively.",
+   "keyPoints": [
+    "Black Forest Labs developed FLUX 3 by training on images, videos, and sound signals together.",
+    "Andreas Blattmann notes that moving cameras in video provide evidence about object shapes from different angles.",
+    "BFL derives its video upscaler from the FLUX 3 backbone to maintain temporal consistency.",
+    "Users have applied FLUX models to restore old and degraded family photos."
+   ]
+  },
+  "km": {
+   "title": "ការបង្កើតបញ្ញាផ្នែករូបភាព — Andreas Blattmann និង Dustin Podell មកពី Black Forest Labs",
+   "summary": "លោក Andreas Blattmann និង Dustin Podell មកពី Black Forest Labs បានពិភាក្សាអំពីការអភិវឌ្ឍម៉ូដែល FLUX 3 ដែលហ្វឹកហាត់លើសញ្ញារូបភាព វីដេអូ និងសំឡេងរួមគ្នា។ កិច្ចពិភាក្សានេះគ្របដណ្តប់លើរបៀបដែលកាមេរ៉ាចល័ត និងសញ្ញាចម្រុះជួយឱ្យម៉ូដែលយល់ដឹងពីបញ្ញារូបភាព និងភាពស៊ីសង្វាក់គ្នាតាមពេលវេលា។ ការសន្ទនានេះក៏បានស្វែងយល់ផងដែរអំពីបញ្ហាប្រឈមផ្នែកវិស្វកម្មដូចជាការបង្កើនគុណភាពវីដេអូជាដើម។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលធ្វើការជាមួយប្រព័ន្ធផ្សព្វផ្សាយជំនាន់ក្រោយ អាចនឹងឃើញថាការហ្វឹកហាត់លើសញ្ញាចម្រុះជួយកែលម្អភាពស៊ីសង្វាក់គ្នាតាមពេលវេលា និងគុណភាពវីដេអូ។ ការយល់ដឹងពីរបៀបដែលម៉ូដែលគ្រប់គ្រងភាពស៊ីសង្វាក់គ្នានេះ អាចជួយដល់ក្រុមការងារបច្ចេកទេសក្នុងការវាយតម្លៃមាតិកាដែលបានបង្កើតឡើងកាន់តែមានប្រសិទ្ធភាព។",
+   "keyPoints": [
+    "Black Forest Labs បានអភិវឌ្ឍ FLUX 3 ដោយហ្វឹកហាត់លើរូបភាព វីដេអូ និងសញ្ញាសំឡេងរួមគ្នា។",
+    "Andreas Blattmann បានលើកឡើងថាកាមេរ៉ាចល័តក្នុងវីដេអូផ្តល់នូវតម្រុយអំពីទ្រង់ទ្រាយវត្ថុពីមុំផ្សេងៗ។",
+    "BFL បានបង្កើតប្រព័ន្ធបង្កើនគុណភាពវីដេអូរបស់ខ្លួនចេញពីមូលដ្ឋានគ្រឹះរបស់ FLUX 3។",
+    "អ្នកប្រើប្រាស់បានយកម៉ូដែល FLUX ទៅប្រើប្រាស់ក្នុងការជួសជុលរូបថតគ្រួសារចាស់ៗដែលខូចគុណភាព។"
+   ]
+  },
+  "zh-CN": {
+   "title": "构建视觉智能 — Andreas Blattmann 与 Dustin Podell，Black Forest Labs",
+   "summary": "来自 Black Forest Labs 的 Andreas Blattmann 和 Dustin Podell 探讨了 FLUX 3 模型的开发，该模型同时对图像、视频和音频信号进行训练。讨论涵盖了运动摄像机和多重信号如何帮助模型学习视觉智能和时间一致性。对话还探讨了视频超分辨率和扩散与自回归之间架构选择等工程挑战。",
+   "impact": "从事生成式媒体开发的开发者和技术用户可能会发现，在组合多模态信号上进行训练可以改善时间一致性和视频质量。了解模型如何处理跨帧一致性和图像放大，可以帮助安全团队和创作者更有效地评估生成的内容。",
+   "keyPoints": [
+    "Black Forest Labs 通过同时对图像、视频和声音信号进行训练开发了 FLUX 3。",
+    "Andreas Blattmann 认为视频中的运动摄像机提供了关于物体从不同角度外观的证据。",
+    "BFL 从 FLUX 3 主干派生出其视频放大器以保持时间一致性。",
+    "用户已经将 FLUX 模型应用于修复旧的、退化的家庭照片。"
+   ]
+  },
+  "ko": {
+   "title": "시각 지능 구축 — Andreas Blattmann 및 Dustin Podell, Black Forest Labs",
+   "summary": "Black Forest Labs의 Andreas Blattmann과 Dustin Podell은 이미지, 비디오, 오디오 신호를 함께 학습하는 FLUX 3 모델의 개발에 대해 논의합니다. 이번 토론에서는 움직이는 카메라와 여러 신호가 모델의 시각 지능 및 시간적 일관성 학습에 어떤 도움을 주는지 다룹니다. 또한 비디오 업스케일링 및 확산과 자기회귀 간의 아키텍처 선택과 같은 엔지니어링 과제도 살펴봅니다.",
+   "impact": "생성형 미디어를 다루는 개발자와 기술 사용자는 결합된 멀티모달 신호 학습이 시간적 일관성과 비디오 품질을 향상시킨다는 점을 확인할 수 있습니다. 모델이 프레임 간 일관성과 업스케일링을 처리하는 방식을 이해하면 보안 팀과 크리에이터가 생성된 콘텐츠를 더 효과적으로 평가하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "Black Forest Labs는 이미지, 비디오, 사운드 신호를 함께 학습하여 FLUX 3를 개발했습니다.",
+    "Andreas Blattmann은 비디오의 움직이는 카메라가 다양한 각도에서 물체의 모양에 대한 증거를 제공한다고 언급합니다.",
+    "BFL은 시간적 일관성을 유지하기 위해 FLUX 3 백본에서 비디오 업스케일러를 파생했습니다.",
+    "사용자들은 오래되고 손상된 가족 사진을 복원하는 데 FLUX 모델을 적용했습니다."
+   ]
+  }
+ }
+}

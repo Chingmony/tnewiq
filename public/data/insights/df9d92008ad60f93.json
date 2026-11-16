@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "df9d92008ad60f93",
+ "contentHash": "4c85cb15d9e7d5e7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T22:12:37.692Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How Duco transforms financial data automation with Amazon Bedrock AgentCore",
+   "summary": "Duco, an agentic Operations platform for financial services, transitioned from traditional machine learning models to Amazon Bedrock and Amazon Bedrock AgentCore to scale its financial data automation. The platform processes 20 billion transactions monthly for clients including top banks and asset managers. By adopting these AWS services, Duco rebuilt its agentic AI stack, reducing deployment time and onboarding costs while maintaining strict data isolation for each bank.",
+   "impact": "Technology users and financial institutions may benefit from improved data processing agility and reduced onboarding costs. Security teams can take note of how isolated environments and strict compliance frameworks are maintained within regulated cloud infrastructures.",
+   "keyPoints": [
+    "Duco processes 20 billion transactions monthly for over 200 clients, including major banks and asset managers.",
+    "The platform shifted from traditional machine learning models to Amazon Bedrock and Amazon Bedrock AgentCore to handle evolving data formats.",
+    "The new stack reduced deployment time and onboarding costs while ensuring customer data remains isolated within the AWS environment."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែល Duco μεταформат αυτοματοποίησης δεδομένων οικονομικώνជាមួយ Amazon Bedrock AgentCore",
+   "summary": "ក្រុមហ៊ុន Duco បានផ្លាស់ប្តូរពីម៉ូដែលរៀនម៉ាស៊ីនបែបបុរាណទៅប្រើប្រាស់ Amazon Bedrock និង Amazon Bedrock AgentCore ដើម្បីពង្រីកស្វ័យប្រវត្តិកម្មទិន្នន័យហិរញ្ញវត្ថុរបស់ខ្លួន។ វេទិកានេះដំណើរការប្រតិបត្តិការចំនួន ២០ ពាន់លានក្នុងមួយខែសម្រាប់អតិថិជន។ ការកសាងស្ថាបត្យកម្ម AI ឡើងវិញនេះបានជួយកាត់បន្ថយពេលវេលាដាក់ពង្រាយ និងការចំណាយលើការចាប់ផ្តើមដំណើរការ ខណៈពេលដែលរក្សាបាននូវភាពឯកោនៃទិន្នន័យរបស់ធនាគារនីមួយៗ។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យា និងស្ថាប័នហិរញ្ញវត្ថុអាចទទួលបានអត្ថប្រយោជន៍ពីភាពបត់បែនក្នុងការកែច្នៃទិន្នន័យ និងការការពារសុវត្ថិភាពទិន្នន័យដ៏តឹងរ៉ឹង។",
+   "keyPoints": [
+    "Duco ដំណើរការប្រតិបត្តិការចំនួន ២០ ពាន់លានក្នុងមួយខែសម្រាប់អតិថិជនជាង ២០០។",
+    "វេទិកានេះបានប្តូរទៅប្រើប្រាស់ Amazon Bedrock និង Amazon Bedrock AgentCore។",
+    "ការផ្លាស់ប្តូរនេះបានកាត់បន្ថយពេលវេលាដាក់ពង្រាយ និងការចំណាយលើការចាប់ផ្តើមដំណើរការ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Duco 如何使用 Amazon Bedrock AgentCore 转型金融数据自动化",
+   "summary": "金融服务智能运营平台 Duco 从传统的机器学习模型转向 Amazon Bedrock 和 Amazon Bedrock AgentCore，以扩展其金融数据自动化能力。该平台每月为包括顶级银行和资产管理公司在内的 200 多个客户处理 200 亿笔交易。通过采用这些服务，Duco 重构了其智能 AI 技术栈，在保持每家银行数据完全隔离的同时，缩减了部署时间和上线成本。",
+   "impact": "开发人员和技术用户可以了解如何利用受管服务在受监管的环境中扩展智能 AI 代理。安全团队可以关注敏感金融数据在 AWS 环境中的隔离和合规性处理方式。",
+   "keyPoints": [
+    "Duco 每月为 200 多个客户处理 200 亿笔交易。",
+    "该平台从传统机器学习转向 Amazon Bedrock 和 Amazon Bedrock AgentCore。",
+    "新架构降低了部署时间与上线成本，并确保客户数据在 AWS 环境中保持隔离。"
+   ]
+  },
+  "ko": {
+   "title": "Duco가 Amazon Bedrock AgentCore로 금융 데이터 자동화를 혁신하는 방법",
+   "summary": "금융 서비스용 에이전트 운영 플랫폼인 Duco가 금융 데이터 자동화를 확장하기 위해 전통적인 머신러닝 모델에서 Amazon Bedrock 및 Amazon Bedrock AgentCore로 전환했습니다. 이 플랫폼은 주요 은행과 자산 운용사를 포함한 200개 이상의 고객을 위해 월 200억 건의 거래를 처리합니다. 이러한 서비스 도입을 통해 Duco는 에이전트 AI 스택을 재구축하여 각 은행의 데이터를 완전히 격리하면서 배포 시간과 온보딩 비용을 절감했습니다.",
+   "impact": "개발자와 보안 팀은 규제 환경 속에서 관리형 서비스와 엄격한 보안 프레임워크를 활용하여 AI 에이전트를 확장하는 방법을 참고할 수 있습니다.",
+   "keyPoints": [
+    "Duco는 200개 이상의 고객을 위해 월 200억 건의 거래를 처리합니다.",
+    "이 플랫폼은 전통적인 머신러닝 모델에서 Amazon Bedrock 및 Amazon Bedrock AgentCore로 전환했습니다.",
+    "새로운 스택은 배포 시간과 온보딩 비용을 줄이고 AWS 환경 내에서 고객 데이터 격리를 유지합니다."
+   ]
+  }
+ }
+}

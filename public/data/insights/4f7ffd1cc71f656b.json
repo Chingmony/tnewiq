@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4f7ffd1cc71f656b",
+ "contentHash": "ca6f2443b12b3240",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T22:25:29.738Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Modernizing mainframe Assembler to Java using Amazon Bedrock and AWS Transform",
+   "summary": "AWS outlines a multi-stage methodology to modernize legacy mainframe Assembler applications into Java Spring Boot services using Amazon Bedrock, Kiro IDE, and AWS Transform. The approach converts Assembler to an intermediate COBOL stage before transforming it to Java to preserve business logic and reduce modernization time. Prerequisites include active AWS accounts, proper IAM permissions, and access to relevant AI and storage tools. The target architecture replaces traditional IBM z/OS environments with cloud-focused Java applications on AWS.",
+   "impact": "This modernization method could help development and security teams reduce the risk and time associated with manual legacy code rewriting. Technology users and enterprises may be able to preserve critical business logic while transitioning away from retiring mainframe experts.",
+   "keyPoints": [
+    "Uses Amazon Bedrock, Kiro IDE, and AWS Transform for automated code analysis and conversion.",
+    "Employs a multi-stage process by converting Assembler to an intermediate COBOL stage before Java.",
+    "Transforms legacy IBM z/OS mainframe applications into Java Spring Boot services on AWS.",
+    "Requires prerequisites such as AWS account access, IAM permissions, and SME availability for validation."
+   ]
+  },
+  "km": {
+   "title": "ការធ្វើទំនើបកម្ម Assembler របស់ម៉ាស៊ីនមេធំទៅជា Java ដោយប្រើប្រាស់ Amazon Bedrock និង AWS Transform",
+   "summary": "AWS បានបង្ហាញពីវិធីសាស្ត្រច្រើនដំណាក់កាល ដើម្បីធ្វើទំនើបកម្មកម្មវិធី Assembler ចាស់ៗឱ្យទៅជាសេវាកម្ម Java Spring Boot ដោយប្រើប្រាស់ Amazon Bedrock, Kiro IDE និង AWS Transform។ វិធីសាស្ត្រនេះបំប្លែង Assembler ទៅជាដំណាក់កាល COBOL កម្រិតមធ្យម មុននឹងបំប្លែងទៅជា Java ដើម្បីរក្សាតក្កវិជ្ជាអាជីវកម្ម និងកាត់បន្ថយពេលវេលា។ លក្ខខណ្ឌតម្រូវរួមមានគណនី AWS សកម្ម ការអនុញ្ញាត IAM និងការចូលប្រើប្រាស់ឧបករណ៍ AI និងកន្លែងផ្ទុកទិន្នន័យ។ ស្ថាបត្យកម្មគោលដៅជំនួសបរិយាកាស IBM z/OS បែបប្រពៃណី ជាមួយកម្មវិធី Java ដែលផ្តោតលើពពកនៅលើ AWS។",
+   "impact": "វិធីសាស្ត្រធ្វើទំនើបកម្មនេះ អាចជួយដល់ក្រុមអភិវឌ្ឍន៍ និងសន្តិសុខក្នុងការកាត់បន្ថយហានិភ័យ និងពេលវេលាដែលទាក់ទងនឹងការសរសេរកូដចាស់ៗឡើងវិញដោយដៃ។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យា និងអាជីវកម្មអាចរក្សាតក្កវិជ្ជាអាជីវកម្មដ៏សំខាន់ ខណៈពេលដែលកំពុងផ្លាស់ប្តូរចេញពីអ្នកជំនាញម៉ាស៊ីនមេធំដែលជិតចូលនិវត្តន៍។",
+   "keyPoints": [
+    "ប្រើប្រាស់ Amazon Bedrock, Kiro IDE និង AWS Transform សម្រាប់ការវិភាគ និងបំប្លែងកូដដោយស្វ័យប្រវត្តិ។",
+    "ប្រើប្រាស់ដំណើរការច្រើនដំណាក់កាលដោយបំប្លែង Assembler ទៅជាដំណាក់កាល COBOL កម្រិតមធ្យមមុន Java។",
+    "បំប្លែងកម្មវិធីម៉ាស៊ីនមេធំ IBM z/OS ចាស់ៗទៅជាសេវាកម្ម Java Spring Boot នៅលើ AWS។",
+    "ទាមទារលក្ខខណ្ឌតម្រូវដូចជាការចូលប្រើគណនី AWS ការអនុញ្ញាត IAM និងវត្តមានអ្នកជំនាញសម្រាប់សុពលភាព។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 Amazon Bedrock 和 AWS Transform 将大型机 Assembler 现代化改造为 Java",
+   "summary": "AWS 介绍了一种多阶段方法论，利用 Amazon Bedrock、Kiro IDE 和 AWS Transform 将传统的大型机 Assembler 应用程序现代化改造为 Java Spring Boot 服务。该方法在转换为 Java 之前，先将 Assembler 转换为中间 COBOL 阶段，以保留业务逻辑并减少现代化改造时间。前提条件包括活跃的 AWS 账户、适当的 IAM 权限以及对相关 AI 和存储工具的访问权限。目标架构将传统的 IBM z/OS 环境替换为 AWS 上的云原生 Java 应用程序。",
+   "impact": "这种现代化改造方法可以帮助开发和安全团队减少与手动重写传统代码相关的风险和时间。技术用户和企业在过渡掉即将退休的大型机专家时，可能能够保留关键的业务逻辑。",
+   "keyPoints": [
+    "使用 Amazon Bedrock、Kiro IDE 和 AWS Transform 进行自动化代码分析和转换。",
+    "采用多阶段流程，在转换为 Java 之前将 Assembler 转换到中间的 COBOL 阶段。",
+    "将传统 IBM z/OS 大型机应用程序转换为 AWS 上的 Java Spring Boot 服务。",
+    "需要满足 AWS 账户访问权限、IAM 权限以及 SME 验证会话等前提条件。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock과 AWS Transform을 사용하여 메인프레임 Assembler를 Java로 현대화",
+   "summary": "AWS는 Amazon Bedrock, Kiro IDE, AWS Transform을 사용하여 레거시 메인프레임 Assembler 애플리케이션을 Java Spring Boot 서비스로 현대화하는 다단계 방법론을 설명합니다. 이 접근 방식은 비즈니스 로직을 보존하고 현대화 시간을 단축하기 위해 Java로 변환하기 전에 Assembler를 중간 COBOL 단계로 변환합니다. 사전에 활성 AWS 계정, 적절한 IAM 권한, 관련 AI 및 스토리지 도구에 대한 액세스 권한이 필요합니다. 대상 아키텍처는 전통적인 IBM z/OS 환경을 AWS의 클라우드 중심 Java 애플리케이션으로 대체합니다.",
+   "impact": "이 현대화 방법은 개발 및 보안 팀이 수동 레거시 코드 재작성과 관련된 위험과 시간을 줄이는 데 도움이 될 수 있습니다. 기술 사용자 및 기업은 은퇴하는 메인프레임 전문가로부터 전환하는 동안 중요한 비즈니스 로직을 유지할 수 있습니다.",
+   "keyPoints": [
+    "자동화된 코드 분석 및 변환을 위해 Amazon Bedrock, Kiro IDE 및 AWS Transform을 사용합니다.",
+    "Java 이전의 중간 COBOL 단계로 Assembler를 변환하는 다단계 프로세스를 채택합니다.",
+    "레거시 IBM z/OS 메인프레임 애플리케이션을 AWS의 Java Spring Boot 서비스로 변환합니다.",
+    "AWS 계정 액세스, IAM 권한, 검증을 위한 SME 가용성 등의 사전 요건이 필요합니다."
+   ]
+  }
+ }
+}

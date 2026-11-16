@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a3459596641f2cb0",
+ "contentHash": "2ba704193d736300",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T22:15:02.738Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing",
+   "summary": "Enterprise teams are building multi-agent systems, but many AI pilots fail to reach production because multi-agent coordination is a complex distributed systems problem. According to the source, about 88% of AI pilots never hit production, and adding complexity too quickly decreases end-to-end reliability. The post outlines how to decide if a use case needs multiple agents, choose coordination patterns, and avoid costly anti-patterns using lessons from manufacturing.",
+   "impact": "Development and security teams could face significant scaling and reliability challenges when building multi-agent AI systems. Understanding deterministic versus runtime-controlled coordination patterns may help engineers reduce coordination overhead, manage failure rates, and prevent unbounded iterations.",
+   "keyPoints": [
+    "Roughly 88% of AI pilots never reach production.",
+    "Multi-agent coordination is treated as a distributed systems challenge where dependent handoffs multiply risk.",
+    "Coordination patterns are divided into Tier 1 (deterministic control flow) and Tier 2 (model chooses path at runtime).",
+    "Tier 1 patterns include Sequential Pipeline, Conditional Workflow, Conditional Router, and Parallel Workflow."
+   ]
+  },
+  "km": {
+   "title": "ចំណាត់ថ្នាក់នៃគំរូនៃការរចនាភ្នាក់ងារច្រើន ប្រឆាំងនឹងគំរូ និងមេរៀនពីការផលិត",
+   "summary": "ក្រុមការងារសហគ្រាសកំពុងបង្កើតប្រព័ន្ធភ្នាក់ងារច្រើន ប៉ុន្តែការពិសោធន៍ AI ជាច្រើនខកខានមិនបានឈានដល់ដំណាក់កាលផលិតកម្ម ដោយសារការសម្របសម្រួលគឺជាបញ្ហាប្រព័ន្ធចែកចាយ។ ប្រភពបានបង្ហាញថាប្រហែល 88% នៃការពិសោធន៍ AI មិនដែលឈានដល់ផលិតកម្មឡើយ។ អត្ថបទនេះបានពិភាក្សាអំពីរបៀបជ្រើសរើសគំរូសម្របសម្រួល និងជៀសវាងគំរូអវិជ្ជមានដោយផ្អែកលើមេរៀនពីការផលិត។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខអាចប្រឈមនឹងបញ្ហាប្រឈមផ្នែកភាពជឿជាក់នៅពេលបង្កើតប្រព័ន្ធ AI ភ្នាក់ងារច្រើន។ ការស្វែងយល់ពីគំរូសម្របសម្រួលអាចជួយវិស្វករកាត់បន្ថយហានិភ័យ និងគ្រប់គ្រងអត្រាគ្រោះថ្នាក់។",
+   "keyPoints": [
+    "ប្រហែល 88% នៃការពិសោធន៍ AI មិនដែលឈានដល់ផលិតកម្មទេ។",
+    "ការសម្របសម្រួលភ្នាក់ងារច្រើនគឺជាបញ្ហាបុរេប្រព័ន្ធចែកចាយ។",
+    "គំរូសម្របសម្រួលត្រូវបានបែងចែកជាពីរថ្នាក់ផ្អែកលើការគ្រប់គ្រងលំហូរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "多智能体设计模式、反模式分类法以及来自制造业的经验教训",
+   "summary": "企业团队正在构建多智能体系统，但许多AI试点未能投入生产，因为多智能体协调是一个分布式系统问题。根据数据，大约88%的AI试点从未投入生产，增加复杂性的速度超过了理解的速度。文章探讨了如何确定用例是否需要多个智能体、选择协调模式以及利用制造业经验教训识别反模式。",
+   "impact": "开发和安全团队在构建多智能体AI系统时可能会面临扩展和可靠性挑战。理解不同的协调模式可能帮助工程师降低协调开销并管理故障率。",
+   "keyPoints": [
+    "大约88%的AI试点从未到达生产阶段。",
+    "多智能体协调是一个分布式系统问题。",
+    "协调模式分为基于确定性控制流的Tier 1和运行时由模型选择路径的Tier 2。",
+    "Tier 1模式包括顺序管道、条件工作流、条件路由器和并行工作流。"
+   ]
+  },
+  "ko": {
+   "title": "멀티 에이전트 설계 패턴, 안티패턴 및 제조 분야의 교훈",
+   "summary": "기업 팀들이 멀티 에이전트 시스템을 구축하고 있으나, 멀티 에이전트 조율은 분산 시스템 문제이기 때문에 많은 AI 파일럿이 프로덕션 단계에 도달하지 못하고 있습니다. 소스에 따르면 AI 파일럿의 약 88%가 프로덕션에 도달하지 못하며, 복잡성을 너무 빨리 추가하면 신뢰성이 떨어집니다. 이 포스팅에서는 유스케이스에 여러 에이전트가 필요한지 결정하고, 조율 패턴을 선택하며, 제조 분야의 교훈을 통해 안티패턴을 파악하는 방법을 설명합니다.",
+   "impact": "개발 및 보안 팀은 멀티 에이전트 AI 시스템을 구축할 때 확장성과 신뢰성 문제에 직면할 수 있습니다. 조율 패턴을 이해하면 엔지니어가 조율 오버헤드를 줄이고 오류 비율을 관리하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "AI 파일럿의 약 88%가 프로덕션에 도달하지 못함.",
+    "멀티 에이전트 조율은 분산 시스템 문제임.",
+    "조율 패턴은 흐름 제어 주체에 따라 Tier 1과 Tier 2로 나뉨.",
+    "Tier 1 패턴에는 순차 파이프라인, 조건부 워크플로, 조건부 라우터, 병렬 워크플로가 포함됨."
+   ]
+  }
+ }
+}

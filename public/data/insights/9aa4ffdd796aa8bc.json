@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9aa4ffdd796aa8bc",
+ "contentHash": "28207fa4fbc1600a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T22:16:30.408Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Redshift now supports multi-statement transactions, conflict resolution, and time travel for Apache Iceberg",
+   "summary": "Amazon Redshift has introduced support for multi-statement transactions, automatic write-conflict resolution, and time travel for Apache Iceberg tables. These features allow users to run multi-step concurrent transformation pipelines, execute atomic commits, handle concurrent writes without failing, and query tables at past points in time. The capabilities are available across all AWS commercial Regions for provisioned RG and serverless clusters.",
+   "impact": "Developers and data engineers could build more reliable production-scale pipelines with atomic commits and fewer retry failures from concurrent writes. Security teams and analysts may benefit from time travel and auditing capabilities to investigate historical data states or recover from bad writes.",
+   "keyPoints": [
+    "Support added for multi-statement transactions, automatic write-conflict resolution, and time travel for Apache Iceberg tables.",
+    "Multi-statement transactions allow grouping statements in a BEGIN…COMMIT block to publish as an atomic Iceberg snapshot.",
+    "Automatic conflict resolution permits non-overlapping concurrent writes to commit together without failing and retrying.",
+    "Time travel functionality enables querying table states at past timestamps using AS OF TIMESTAMP."
+   ]
+  },
+  "km": {
+   "title": "Amazon Redshift ឥឡូវនេះគាំទ្រប្រតិបត្តិការប្រយោគច្រើន ការដោះស្រាយជម្លោះ និងការធ្វើដំណើរពេលវេលាសម្រាប់ Apache Iceberg",
+   "summary": "Amazon Redshift បានដាក់ឱ្យប្រើប្រាស់ការគាំទ្រសម្រាប់ប្រតិបត្តិការប្រយោគច្រើន ការដោះស្រាយជម្លោះសរសេរដោយស្វ័យប្រវត្តិ និងការធ្វើដំណើរពេលវេលាសម្រាប់តារាង Apache Iceberg។ លក្ខណៈពិសេសទាំងនេះអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ដំណើរការបំពង់បង្ហូរទិន្នន័យស្របគ្នាជាច្រើនជំហាន អនុវត្តការប្តេជ្ញាចិត្តអាតូមិក និងសាកសួរតារាងនៅចំណុចពេលវេលាកន្លងមក។ សមត្ថភាពទាំងនេះមាននៅក្នុងតំបន់ពាណិជ្ជកម្ម AWS ទាំងអស់សម្រាប់ cụm provisioned RG និង serverless។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងវិស្វករទិន្នន័យអាចបង្កើតបំពង់បង្ហូរទិន្នន័យខ្នាតផលិតកម្មដែលគួរឱ្យទុកចិត្តជាងមុន ព្រមទាំងកាត់បន្ថយការបរាជ័យពីការសរសេរក្នុងពេលដំណាលគ្នា។ ក្រុមសន្តិសុខ និងអ្នកវិភាគអាចទទួលបានអត្ថប្រយោជន៍ពីការធ្វើដំណើរពេលវេលា ដើម្បីពិនិត្យមើលស្ថានភាពទិន្នន័យប្រវត្តិសាស្ត្រ។",
+   "keyPoints": [
+    "បានបន្ថែមការគាំទ្រសម្រាប់ប្រតិបត្តិការប្រយោគច្រើន ការដោះស្រាយជម្លោះសរសេរ និងការធ្វើដំណើរពេលវេលាសម្រាប់តារាង Apache Iceberg។",
+    "អនុញ្ញាតឱ្យដាក់ក្រុមប្រយោគក្នុងប្លុក BEGIN…COMMIT ដើម្បីផ្សព្វផ្សាយជា snapshots តែមួយ។",
+    "ការដោះស្រាយជម្លោះដោយស្វ័យប្រវត្តិអនុញ្ញាតឱ្យការសរសេរស្របគ្នាដែលមិនត្រួតស៊ីគ្នាcommitted ជាមួយគ្នាដោយមិនបរាជ័យ។",
+    "មុខងារធ្វើដំណើរពេលវេលាអាចឱ្យអ្នកសាកសួរស្ថានភាពតារាងនៅអតីតកាលដោយប្រើ AS OF TIMESTAMP។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Redshift 现已支持 Apache Iceberg 的多语句事务、冲突解决和时间旅行",
+   "summary": "Amazon Redshift 现已为 Apache Iceberg 表引入了对多语句事务、自动写入冲突解决和时间旅行的支持。这些功能使用户能够直接在 Iceberg 表上运行多步骤并发转换管道，执行原子提交，并查询历史时间点的表状态。这些功能已在所有 AWS 商业区域中提供给写入或查询 Iceberg 表的 provisioned RG 或 serverless 集群。",
+   "impact": "开发人员和数据工程师可以通过原子提交和减少并发写入失败来构建更可靠的生产级管道。安全团队和分析师可以利用时间旅行和审计功能来检查历史数据状态或从错误写入中恢复。",
+   "keyPoints": [
+    "为 Apache Iceberg 表增加了对多语句事务、自动写入冲突解决和时间旅行的支持。",
+    "多语句事务允许将多个语句组合在单个 BEGIN…COMMIT 语句中，并作为一个原子 Iceberg 快照发布。",
+    "自动冲突 resolution 允许不重叠的并发写入同时提交，而无需失败和重试。",
+    "时间旅行功能允许使用 AS OF TIMESTAMP 查询过去时间点的表。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Redshift, Apache Iceberg에 대한 다중문 트랜잭션, 충돌 해결 및 시간 여행 지원 추가",
+   "summary": "Amazon Redshift는 이제 Apache Iceberg 테이블에 대한 다중문 트랜잭션, 자동 쓰기 충돌 해결 및 시간 여행을 지원합니다. 사용자는 Iceberg 테이블에서 직접 다단계 동시 변환 파이프라인을 실행하고 원자적 커밋을 수행하며 과거 시점의 테이블을 조회할 수 있습니다. 이러한 기능은 Iceberg 테이블에 쓰거나 쿼리하는 프로비저닝된 RG 또는 serverless 클러스터를 위해 모든 AWS 상용 리전에서 사용할 수 있습니다.",
+   "impact": "개발자와 데이터 엔지니어는 원자적 커밋과 동시 쓰기로 인한 실패 감소를 통해 더 안정적인 프로덕션 규모의 파이프라인을 구축할 수 있습니다. 보안 팀과 분석가는 시간 여행 및 감사 기능을 활용하여 과거 데이터 상태를 조사하거나 잘못된 쓰기에서 복구할 수 있습니다.",
+   "keyPoints": [
+    "Apache Iceberg 테이블을 위한 다중문 트랜잭션, 자동 쓰기 충돌 해결 및 시간 여행 지원 추가.",
+    "다중문 트랜잭션을 통해 여러 문을 단일 BEGIN…COMMIT 문으로 그룹화하여 원자적 Iceberg 스냅샷으로 게시 가능.",
+    "자동 충돌 해결을 통해 겹치지 않는 동시 쓰기가 실패 및 재시도 없이 함께 커밋 가능.",
+    "시간 여행 기능을 사용하면 AS OF TIMESTAMP를 사용하여 과거 특정 시점의 테이블 조회 가능."
+   ]
+  }
+ }
+}

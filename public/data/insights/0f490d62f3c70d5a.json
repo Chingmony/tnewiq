@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0f490d62f3c70d5a",
+ "contentHash": "150c7121c3384562",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-16T22:22:25.860Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Set up, connect, and govern AI agents faster with Amazon WorkSpaces",
+   "summary": "Amazon WorkSpaces has introduced new capabilities to help organizations set up, connect, and govern AI agents more quickly. The updates allow teams to use AI coding assistants to build WorkSpaces, connect Amazon Bedrock AgentCore agents directly with AWS credentials, and leverage new identity and monitoring features. Additionally, the release provides OIDC identity provider support, on-behalf-of sign-in, and session replay stored in Amazon S3 for compliance and security auditing.",
+   "impact": "Developers and security teams can streamline the transition of AI agents from testing to production while maintaining strict oversight, corporate identity integration, and verifiable audit trails. These tools may reduce custom code development for authentication and monitoring, though organizations must ensure their S3 storage and identity configurations are properly managed.",
+   "keyPoints": [
+    "AI coding assistants like Claude Code, Codex, and Kiro can now help build WorkSpaces using AWS MCP skills.",
+    "Amazon Bedrock AgentCore agents can connect directly using AWS credentials without writing new agent code.",
+    "OIDC support and on-behalf-of sign-in allow agents to operate under standard corporate credentials and permissions.",
+    "Session replay generates screenshot-based videos and plain-language transcripts stored securely in Amazon S3 for audits."
+   ]
+  },
+  "km": {
+   "title": "រៀបចំ ភ្ជាប់ និងគ្រប់គ្រងភ្នាក់ងារ AI កាន់តែលឿនជាមួយ Amazon WorkSpaces",
+   "summary": "Amazon WorkSpaces បានដាក់ឱ្យដំណើរការនូវសមត្ថភាពថ្មីៗ ដើម្បីជួយស្ថាប័ននានារៀបចំ ភ្ជាប់ និងគ្រប់គ្រងភ្នាក់ងារ AI កាន់តែលឿនជាងមុន។ ការអាប់ដេតនេះអនុញ្ញាតឱ្យក្រុមការងារប្រើប្រាស់ជំនួយការសរសេរកូដ AI ដើម្បីបង្កើត WorkSpaces ភ្ជាប់ភ្នាក់ងារ Amazon Bedrock AgentCore ដោយផ្ទាល់ជាមួយលិខិតសម្គាល់ AWS និងប្រើប្រាស់មុខងារអត្តសញ្ញាណ និងការតាមដានថ្មីៗ។ លើសពីនេះ ក៏មានការគាំទ្រដល់អ្នកផ្តល់អត្តសញ្ញាណ OIDC ការចូលប្រើជំនួស និងការចាក់សារថ្មីនៃវគ្គសិក្សាដែលរក្សាទុកក្នុង Amazon S3 ផងដែរ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខអាចសម្រួលដល់ការផ្លាស់ប្តូរភ្នាក់ងារ AI ពីការសាកល្បងទៅជាការផលិតជាក់ស្តែង ដោយរក្សាបាននូវការត្រួតពិនិត្យយ៉ាងតឹងរឹង ការរួមបញ្ចូលអត្តសញ្ញាណរបស់សាជីវកម្ម និងកំណត់ត្រាត្រួតពិនិត្យដែល يمكنផ្ទៀងផ្ទាត់បាន។ ឧបករណ៍ទាំងនេះអាចកាត់បន្ថយការសរសេរកូដផ្ទាល់ខ្លួនសម្រាប់ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ និងការតាមដាន។",
+   "keyPoints": [
+    "ជំនួយការសរសេរកូដ AI ដូចជា Claude Code, Codex និង Kiro អាចជួយបង្កើត WorkSpaces ដោយប្រើជំនាញ AWS MCP។",
+    "ភ្នាក់ងារ Amazon Bedrock AgentCore អាចភ្ជាប់ដោយផ្ទាល់ដោយប្រើលិខិតសម្គាល់ AWS ដោយមិនចាំបាច់សរសេរកូដភ្នាក់ងារថ្មី។",
+    "ការគាំទ្រ OIDC អនុញ្ញាតឱ្យភ្នាក់ងារដំណើរការក្រោមអត្តសញ្ញាណ និងសិទ្ធិរបស់សាជីវកម្មស្តង់ដារ។",
+    "ការចាក់សារថ្មីនៃវគ្គបង្កើតវីដេអូពីស្គ្រីនសត់ និងកំណត់ត្រាអត្ថបទដែលរក្សាទុកក្នុង Amazon S3 សម្រាប់ការសវនកម្ម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 Amazon WorkSpaces 更快地设置、连接和管理 AI 代理",
+   "summary": "Amazon WorkSpaces 推出了新功能，旨在帮助企业更快地设置、连接和管理 AI 代理。这些更新允许团队使用 AI 编码助手构建 WorkSpaces，使用 AWS 凭证直接连接 Amazon Bedrock AgentCore 代理，并利用新的身份和监控功能。此外，该版本还提供 OIDC 身份提供商支持、代表用户登录以及存储在 Amazon S3 中的会话重放功能，以满足合规和安全审计的需求。",
+   "impact": "开发人员和安全团队可以简化 AI 代理从测试到生产环境的过渡，同时保持严格的监督、企业身份集成和可验证的审计跟踪。这些工具可能会减少用于身份验证和监控的自定义代码开发，不过组织必须确保正确管理其 S3 存储和身份配置。",
+   "keyPoints": [
+    "Claude Code、Codex 和 Kiro 等 AI 编码助手现在可以使用 AWS MCP 技能帮助构建 WorkSpaces。",
+    "Amazon Bedrock AgentCore 代理可以直接使用 AWS 凭证连接，无需编写任何代理代码。",
+    "OIDC 支持和代表用户登录允许代理在标准的企业凭证和权限下运行。",
+    "会话重放生成基于屏幕截图的视频和纯文本记录，并安全地存储在 Amazon S3 中以供审计。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon WorkSpaces를 사용하여 AI 에이전트를 더 빠르게 설정, 연결 및 거버넌스 수행",
+   "summary": "Amazon WorkSpaces는 조직이 AI 에이전트를 더 빠르게 설정, 연결하고 거버넌스를 수행할 수 있도록 지원하는 새로운 기능을 도입했습니다. 이 업데이트를 통해 팀은 AI 코딩 보조 도구를 사용하여 WorkSpaces를 구축하고, AWS 자격 증명을 사용하여 Amazon Bedrock AgentCore 에이전트를 직접 연결하며, 새로운 ID 및 모니터링 기능을 활용할 수 있습니다. 또한 이 릴리스는 OIDC ID 공급자 지원, 대행 로그인, 규정 준수 및 보안 감사를 위해 Amazon S3에 저장되는 세션 재생 기능을 제공합니다.",
+   "impact": "개발자와 보안 팀은 엄격한 감독, 기업 ID 통합, 검증 가능한 감사 추적을 유지하면서 AI 에이전트를 테스트에서 프로덕션 환경으로 전환하는 과정을 간소화할 수 있습니다. 이러한 도구는 인증 및 모니터링을 위한 사용자 지정 코드 개발을 줄일 수 있지만, 조직은 S3 스토리지 및 ID 구성을 올바르게 관리해야 합니다.",
+   "keyPoints": [
+    "Claude Code, Codex, Kiro와 같은 AI 코딩 보조 도구는 이제 AWS MCP 기술을 사용하여 WorkSpaces 구축을 도울 수 있습니다.",
+    "Amazon Bedrock AgentCore 에이전트는 새로운 에이전트 코드를 작성하지 않고도 AWS 자격 증명을 사용하여 직접 연결할 수 있습니다.",
+    "OIDC 지원 및 대행 로그인을 통해 에이전트가 표준 기업 자격 증명 및 권한에 따라 작동할 수 있습니다.",
+    "세션 재생은 감사를 위해 Amazon S3에 안전하게 저장되는 스크린샷 기반 비디오 및 일반 텍스트 대화 기록을 생성합니다."
+   ]
+  }
+ }
+}
