@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9bca307485639991",
+ "contentHash": "c6008b7826f30d18",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-17T23:03:00.977Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Reason over time-series data with OpenTSLM on Amazon SageMaker JumpStart",
+   "summary": "Aionic Labs is developing OpenTSLM, an open-source family of time-series language models designed to interpret operational measurements and text context. The model is now available in Amazon SageMaker JumpStart for deployment in AWS environments. Nexthink is using OpenTSLM to power Spark, a personal IT agent that connects device telemetry and context to provide proactive IT assistance.",
+   "impact": "Developers and technology users could leverage OpenTSLM and TimeNet on Amazon SageMaker JumpStart to analyze operational and time-series data more cost-effectively than using general-purpose language models. Security and IT teams may deploy these capabilities to automate proactive support, diagnose system faults, and investigate device issues.",
+   "keyPoints": [
+    "OpenTSLM is an open-source family of time-series language models developed by Aionic Labs.",
+    "The models interpret numerical measurements alongside text context such as maintenance records and operational data.",
+    "OpenTSLM is now available for deployment in Amazon SageMaker JumpStart.",
+    "Nexthink uses OpenTSLM with its Spark IT agent to provide proactive device telemetry and support."
+   ]
+  },
+  "km": {
+   "title": "ការវិភាគទិន្នន័យស៊េរីពេលវេលាជាមួយ OpenTSLM នៅលើ Amazon SageMaker JumpStart",
+   "summary": "ក្រុមហ៊ុន Aionic Labs កំពុងអភិវឌ្ឍ OpenTSLM ដែលជាបណ្តុំគំរូភាសាស៊េរីពេលវេលាប្រភពបើកចំហ ដើម្បីបកស្រាយរង្វាស់ប្រតិបត្តិការ និងបរិបទអត្ថបទ។ ឥឡូវនេះ គំរូនេះមាននៅលើ Amazon SageMaker JumpStart សម្រាប់ការដាក់ពង្រាយនៅក្នុងបរិស្ថាន AWS ផ្ទាល់ខ្លួន។ ក្រុមហ៊ុន Nexthink កំពុងប្រើប្រាស់ OpenTSLM ដើម្បីដំណើរការ Spark ដែលជាភ្នាក់ងារ IT ផ្ទាល់ខ្លួនភ្ជាប់ទិន្នន័យទូរលេខឧបករណ៍ជាមួយបរិបទ ដើម្បីផ្តល់ជំនួយ IT បែបសកម្ម។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទាញយកប្រយោជន៍ពី OpenTSLM និង TimeNet នៅលើ Amazon SageMaker JumpStart ដើម្បីវិភាគទិន្នន័យប្រតិបត្តិការ និងស៊េរីពេលវេលាក្នុងតម្លៃសមរម្យជាងការប្រើប្រាស់គំរូភាសាទូទៅ។ ក្រុមការងារសុវត្ថិភាព និង IT អាចដាក់ពង្រាយសមត្ថភាពទាំងនេះ ដើម្បីស្វ័យប្រវត្តិកម្មជំនួយសកម្ម រកឃើញបញ្ហាមុខងារប្រព័ន្ធ និងស៊ើបអង្កេតបញ្ហាឧបករណ៍។",
+   "keyPoints": [
+    "OpenTSLM គឺជាបណ្តុំគំរូភាសាស៊េរីពេលវេលាប្រភពបើកចំហដែលអភិវឌ្ឍដោយ Aionic Labs។",
+    "គំរូទាំងនេះបកស្រាយរង្វាស់លេខរួមជាមួយបរិបទអត្ថបទដូចជាកំណត់ត្រាថែទាំ និងទិន្នន័យប្រតិបត្តិការ។",
+    "ឥឡូវនេះ OpenTSLM មានសម្រាប់ដាក់ពង្រាយនៅក្នុង Amazon SageMaker JumpStart។",
+    "Nexthink ប្រើប្រាស់ OpenTSLM ជាមួយភ្នាក់ងារ IT Spark របស់ខ្លួន ដើម្បីផ្តល់ទូរលេខឧបករណ៍ និងការគាំទ្រសកម្ម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在 Amazon SageMaker JumpStart 上使用 OpenTSLM 对时间序列数据进行推理",
+   "summary": "Aionic Labs 正在开发 OpenTSLM，这是一系列开源的时间序列语言模型，旨在解释运营测量数据和文本上下文。该模型现已在 Amazon SageMaker JumpStart 中可用，以便在您自己的 AWS 环境中进行部署。Nexthink 正在使用 OpenTSLM 来支持 Spark，这是一个将设备遥测数据和上下文连接起来以提供主动 IT 协助的个人 IT 代理。",
+   "impact": "开发人员和技术用户可以利用 Amazon SageMaker JumpStart 上的 OpenTSLM 和 TimeNet 来分析运营和时间序列数据，其成本效益可能高于通用语言模型。安全和 IT 团队可能会部署这些功能来自动化主动支持、诊断系统故障并调查设备问题。",
+   "keyPoints": [
+    "OpenTSLM 是由 Aionic Labs 开发的开源时间序列语言模型系列。",
+    "这些模型将数值测量结果与维护记录和运营数据等文本上下文结合起来进行解释。",
+    "OpenTSLM 现已可在 Amazon SageMaker JumpStart 中进行部署。",
+    "Nexthink 将 OpenTSLM 与其 Spark IT 代理配合使用，以提供主动的设备遥测和支持。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon SageMaker JumpStart의 OpenTSLM을 사용한 시계열 데이터 추론",
+   "summary": "Aionic Labs는 운영 측정값과 텍스트 컨텍스트를 해석하도록 설계된 오픈 소스 시계열 언어 모델 제품군인 OpenTSLM을 개발하고 있습니다. 이 모델은 이제 Amazon SageMaker JumpStart에서 제공되어 사용자 자신의 AWS 환경에 배포할 수 있습니다. Nexthink는 OpenTSLM을 사용하여 장치 텔레메트리와 컨텍스트를 연결해 사전 예방적 IT 지원을 제공하는 개인 IT 에이전트 Spark를 구동하고 있습니다.",
+   "impact": "개발자와 기술 사용자는 Amazon SageMaker JumpStart에서 OpenTSLM과 TimeNet을 활용하여 범용 언어 모델을 사용하는 것보다 더 비용 효율적으로 운영 및 시계열 데이터를 분석할 수 있습니다. 보안 및 IT 팀은 이러한 기능을 배포하여 사전 예방적 지원을 자동화하고 시스템 결함을 진단하며 장치 문제를 조사할 수 있습니다.",
+   "keyPoints": [
+    "OpenTSLM은 Aionic Labs에서 개발한 오픈 소스 시계열 언어 모델 제품군입니다.",
+    "이 모델은 수치 측정값을 유지 관리 기록 및 운영 데이터와 같은 텍스트 컨텍스트와 함께 해석합니다.",
+    "OpenTSLM은 이제 Amazon SageMaker JumpStart에 배포할 수 있습니다.",
+    "Nexthink는 Spark IT 에이전트와 함께 OpenTSLM을 사용하여 장치 텔레메트리 및 지원을 제공합니다."
+   ]
+  }
+ }
+}

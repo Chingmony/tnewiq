@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0b5f35342ecc69a5",
+ "contentHash": "254f9b1c9eef8cbf",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-17T22:57:10.880Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+   "summary": "OpenAI has introduced two new models, GPT-6.2 Astra for demanding projects and GPT-6.2 Sol for everyday work, both now available in the API. GPT-6.2 Astra is priced at $8 per million input tokens and $40 per million output tokens with significant caching discounts, while GPT-6.2 Sol retains its $2 and $10 pricing. Initial benchmark tests and reviews show mixed feedback, with some noting lower performance than competitors like Claude Fable 5.2 and occasional confusing communication during long tasks.",
+   "impact": "Developers and technology users utilizing long-running agentic sessions may benefit from the lower pricing and improved token caching options provided by the new models. However, development teams should watch out for potential communication issues and subagent coordination quirks during extended tasks.",
+   "keyPoints": [
+    "OpenAI released GPT-6.2 Astra as a frontier model and GPT-6.2 Sol as an efficient everyday model.",
+    "GPT-6.2 Astra costs $8/MTok for input and $40/MTok for output, with a reduced cached price of $0.40/million.",
+    "GPT-6.2 Sol maintains a pricing of $2/MTok input and $10/MTok output.",
+    "Early reviews and benchmarks indicate mixed performance, with some complaints regarding confusing communication styles during long tasks."
+   ]
+  },
+  "km": {
+   "title": "GPT-6.2 Astra និង GPT-6.2 Sol",
+   "summary": "OpenAI បានដាក់បង្ហាញម៉ូដែលថ្មីពីរគឺ GPT-6.2 Astra សម្រាប់គម្រោងពិបាក និង GPT-6.2 Sol សម្រាប់កិច្ចការប្រចាំថ្ងៃ ដែលឥឡូវនេះមាននៅលើ API ហើយ។ GPT-6.2 Astra មានតម្លៃ ៨ ដុល្លារក្នុងមួយលានថូខឹនបញ្ចូល និង ៤០ ដុល្លារក្នុងមួយលានថូខឹនលទ្ធផល ខណៈពេលដែល GPT-6.2 Sol រក្សាតម្លៃដដែល។ ការវាយតម្លៃដំបូងបង្ហាញពីមតិចម្រុះ ដោយមានការត្អូញត្អែរអំពីស្ទីលទំនាក់ទំនងដែលគួរឱ្យច្រឡំក្នុងអំឡុងពេលបំពេញភារកិច្ចវែងៗ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលប្រើប្រាស់សម័យកិច្ចការភ្នាក់ងាររយៈពេលវែងអាចទទួលបានអត្ថប្រយោជន៍ពីតម្លៃទាប និងជម្រើសឃ្លាំងសម្ងាត់ថូខឹនដែលប្រសើរឡើង។ ទោះជាយ៉ាងណាក៏ដោយ ក្រុមការងារអាចនឹងត្រូវប្រុងប្រយ័ត្នចំពោះបញ្ហាទំនាក់ទំនងដែលអាចកើតមានក្នុងពេលបំពេញកិច្ចការអូសបន្លាយពេល។",
+   "keyPoints": [
+    "OpenAI បានបញ្ចេញ GPT-6.2 Astra និង GPT-6.2 Sol នៅលើ API។",
+    "GPT-6.2 Astra មានតម្លៃ ៨ ដុល្លារ/MTok សម្រាប់ការបញ្ចូល និង ៤០ ដុល្លារ/MTok សម្រាប់ការចេញ។",
+    "GPT-6.2 Sol រក្សាតម្លៃ ២ ដុល្លារ/១០ ដុល្លារដដែល។",
+    "ការពិនិត្យដំបូងបង្ហាញពីការយល់ឃើញចម្រុះ និងបញ្ហាទំនាក់ទំនងក្នុងកិច្ចការវែងៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "GPT-6.2 Astra 和 GPT-6.2 Sol",
+   "summary": "OpenAI 推出了两款新模型：面向高难项目的旗舰模型 GPT-6.2 Astra 以及面向日常工作的实用模型 GPT-6.2 Sol，两者均已在 API 中上线。GPT-6.2 Astra 的定价为每百万输入 Token 8 美元、输出 40 美元，其缓存价格大幅降至每百万 0.40 美元，而 GPT-6.2 Sol 则保持原有的 2 美元和 10 美元定价。初期的基准测试和用户反馈呈现混合评价，部分用户指出其在长任务中的沟通方式可能会让人感到困惑。",
+   "impact": "使用长时间运行的代理会话的开发人员和技术用户可能会从新模型较低的定价和改进的令牌缓存选项中受益。然而，技术团队在处理扩展任务时需要注意潜在的沟通风格和子代理协调问题。",
+   "keyPoints": [
+    "OpenAI 发布了前沿模型 GPT-6.2 Astra 和日常模型 GPT-6.2 Sol。",
+    "GPT-6.2 Astra 输入价格为每百万 Token 8 美元，输出为 40 美元，缓存价格为 0.40 美元。",
+    "GPT-6.2 Sol 保持每百万 Token 输入 2 美元、输出 10 美元的定价。",
+    "早期评测显示其表现褒贬不一，并存在长任务中沟通细节令人生疑的反馈。"
+   ]
+  },
+  "ko": {
+   "title": "GPT-6.2 Astra 및 GPT-6.2 Sol",
+   "summary": "OpenAI는 가장 어려운 프로젝트를 위한 새로운 프런티어 모델인 GPT-6.2 Astra와 일상적인 작업을 위한 효율적이고 다재다능한 모델인 GPT-6.2 Sol을 공개했으며, 두 모델 모두 API에서 사용할 수 있습니다. GPT-6.2 Astra는 입력 백만 토큰당 8달러, 출력 백만 토큰당 40달러로 책정되었으며 캐시 가격은 대폭 할인되었고, GPT-6.2 Sol은 기존과 동일한 가격을 유지합니다. 초기 벤치마크 테스트와 리뷰는 엇갈린 반응을 보여주었으며, 일부 사용자들은 긴 작업 수행 시 소통 방식이 혼란스러울 수 있다고 지적했습니다.",
+   "impact": "장기 실행 에이전트 세션을 활용하는 개발자와 기술 사용자들은 새로운 모델의 낮아진 가격과 향상된 토큰 캐싱 옵션으로부터 이점을 얻을 수 있습니다. 그러나 기술 팀은 확장된 작업 중에 발생할 수 있는 잠재적인 소통 문제와 서브에이전트 조정 특이사항에 주의를 기울여야 할 수 있습니다.",
+   "keyPoints": [
+    "OpenAI가 프런티어 모델인 GPT-6.2 Astra와 효율적인 일상용 모델인 GPT-6.2 Sol을 출시했습니다.",
+    "GPT-6.2 Astra는 입력 백만 토큰당 8달러, 출력 백만 토큰당 40달러이며 캐시 가격은 백만당 0.40달러입니다.",
+    "GPT-6.2 Sol은 입력 2달러, 출력 10달러의 가격을 유지합니다.",
+    "초기 리뷰와 벤치마크에서는 엇갈린 평가가 나타났으며 긴 작업 중 소통 스타일과 관련된 불만이 제기되었습니다."
+   ]
+  }
+ }
+}

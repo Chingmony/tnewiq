@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "11d9bf49bbb10282",
+ "contentHash": "969047d3a732587b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-17T23:04:12.120Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Config announces managed conformance packs",
+   "summary": "AWS Config has introduced managed conformance packs, which are built and maintained by AWS for specific compliance and governance frameworks. Users can deploy a framework to evaluate resources automatically, while AWS keeps the packs up to date with new rules or framework revisions. Previously, users had to start from sample templates and manually update them when frameworks changed.",
+   "impact": "This feature could save developers and security teams time by eliminating the need to manually track framework changes and update templates. It may help maintain consistent compliance coverage across multiple Regions without requiring custom Region-specific rule sets.",
+   "keyPoints": [
+    "AWS builds and maintains managed conformance packs for frameworks such as PCI DSS v4, SOC 2, and the EU AI Act.",
+    "Packs update automatically when new AWS Config managed rules map to the framework or when the framework is revised.",
+    "The same framework can be deployed across supported Regions using consistent pack definitions.",
+    "Evaluations are billed at standard conformance pack evaluation rates and are available in most AWS commercial Regions."
+   ]
+  },
+  "km": {
+   "title": "AWS Config ប្រកាសដាក់ឱ្យដំណើរការកញ្ចប់អនុលោមភាពដែលគ្រប់គ្រងដោយ AWS",
+   "summary": "AWS Config ឥឡូវនេះផ្តល់ជូននូវកញ្ចប់អនុលោមភាពដែលគ្រប់គ្រងដោយ AWS សម្រាប់ក្របខណ្ឌអភិបាលកិច្ច និងអនុលោមភាពជាក់លាក់។ AWS កសាង និងថែទាំកញ្ចប់ទាំងនេះ ដោយធ្វើបច្ចុប្បន្នភាពវាដោយស្វ័យប្រវត្តិនៅពេលដែលមានការផ្លាស់ប្តូរក្របខណ្ឌ ឬមានច្បាប់ថ្មីៗ។ កញ្ចប់ទាំងនេះជួយសម្រួលដល់ការវាយតម្លៃធនធានដោយមិនចាំបាច់កែប្រែគំរូដោយដៃនោះទេ។",
+   "impact": "មុខងារនេះអាចជួយសន្សំសំចៃពេលវេលាដល់ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ ដោយកាត់បន្ថយតម្រូវការក្នុងការតាមដានការផ្លាស់ប្តូរក្របខណ្ឌដោយដៃ។ វាក៏អាចធានាផងដែរថាការអនុលោមភាពត្រូវបានរក្សាក្នុងភាពដូចគ្នានៅទូទាំងតំបន់ផ្សេងៗគ្នា។",
+   "keyPoints": [
+    "AWS ថែទាំកញ្ចប់អនុលោមភាពសម្រាប់ក្របខណ្ឌដូចជា PCI DSS v4, SOC 2 និង EU AI Act ជាដើម។",
+    "កញ្ចប់ទាំងនេះត្រូវបានធ្វើបច្ចុប្បន្នភាពដោយស្វ័យប្រវត្តិ នៅពេលដែលក្របខណ្ឌមានការកែប្រែ។",
+    "អ្នកប្រើប្រាស់អាចដាក់ពង្រាយក្របខណ្ឌដូចគ្នានៅទូទាំងតំបន់គាំទ្រដោយមិនចាំបាច់បង្កើតសំណុំច្បាប់តាមតំបន់នោះទេ។",
+    "លទ្ធផលអនុលោមភាពបង្ហាញនៅក្នុងកុងសូល AWS Config ផ្ទាល់តែម្តង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Config 宣布推出托管合规包",
+   "summary": "AWS Config 现已提供托管合规包，这些合规包由 AWS 针对特定合规和治理框架进行构建和维护。当用户部署合规包时，AWS Config 会根据所选框架评估资源，并在框架修订或有新规则时自动更新合规包。这省去了用户过去需要手动从模板开始并自行更新规则的工作。",
+   "impact": "此功能可以帮助开发人员和安全团队免去手动跟踪框架更改和更新模板的繁琐工作，从而节省时间。它还可能确保在不同区域之间使用一致的定义部署相同的框架，而无需构建区域特定的规则集。",
+   "keyPoints": [
+    "AWS 构建并维护涵盖 PCI DSS v4、SOC 2、EU AI Act 等框架的托管合规包。",
+    "当有新规则或框架修订时，AWS 会自动更新已部署的合规包。",
+    "支持在所有支持的区域内部署相同的框架，无需为每个区域使用单独的模板。",
+    "合规结果和得分会显示在 AWS Config 控制台中。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Config, 관리형 준수 팩 발표",
+   "summary": "AWS Config가 특정 규정 준수 및 거버넌스 프레임워크를 위해 AWS가 직접 빌드하고 유지 관리하는 관리형 준수 팩을 출시했습니다. 사용자가 프레임워크를 배포하면 AWS Config가 리소스를 평가하며, 프레임워크가 개정되거나 새로운 규칙이 추가될 때 팩이 자동으로 업데이트됩니다. 과거에는 샘플 템플릿을 기반으로 수동으로 템플릿을 수정하고 업데이트해야 했습니다.",
+   "impact": "이 기능은 개발자와 보안 팀이 프레임워크 변경 사항을 수동으로 추적하고 템플릿을 업데이트해야 하는 수고를 덜어주어 시간을 절약할 수 있도록 도울 수 있습니다. 또한 지역별로 별도의 규칙 세트를 만들지 않고도 여러 지역에 일관된 프레임워크를 배포할 수 있게 합니다.",
+   "keyPoints": [
+    "AWS는 PCI DSS v4, SOC 2, EU AI Act 등의 프레임워크를 위한 관리형 준수 팩을 제공합니다.",
+    "프레임워크가 변경되거나 새로운 규칙이 추가되면 팩이 자동으로 업데이트됩니다.",
+    "지원되는 모든 지역에서 별도의 템플릿 없이 동일한 프레임워크를 배포할 수 있습니다.",
+    "준수 결과와 점수는 AWS Config 콘솔에서 확인할 수 있습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6290a1c67ddfe913",
+ "contentHash": "d2e0f1720ae48e08",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-17T23:04:01.082Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Bedrock AgentCore now offers free monthly web search queries",
+   "summary": "Amazon Bedrock AgentCore now provides 5,000 free web search queries each month via the Web Search Tool in the AgentCore gateway and the Web Search API. This free allowance applies automatically without setup and resets monthly across supported AWS Regions and organization accounts. Additional queries are billed at standard rates without interrupting agent operations.",
+   "impact": "Developers and technology users building and testing agents with web search capabilities can do so at no cost for the first 5,000 queries each month. This may reduce initial development and testing expenses for applications utilizing Amazon Bedrock AgentCore.",
+   "keyPoints": [
+    "Amazon Bedrock AgentCore offers 5,000 free web search queries per month.",
+    "The free allowance applies automatically without requiring setup.",
+    "The allowance is shared across supported AWS Regions and organization accounts, resetting monthly.",
+    "Available in US East (N. Virginia), US East (Ohio), US West (Oregon), Europe (Ireland), Asia Pacific (Sydney), and Asia Pacific (Tokyo)."
+   ]
+  },
+  "km": {
+   "title": "Amazon Bedrock AgentCore ឥឡូវនេះផ្តល់ជូននូវសំណួរស្វែងរកតាមអ៊ីនធឺណិតប្រចាំខែដោយឥតគិតថ្លៃ",
+   "summary": "Amazon Bedrock AgentCore ឥឡូវនេះផ្តល់ជូននូវសំណួរស្វែងរកតាមអ៊ីនធឺណិតចំនួន 5,000 ដោយឥតគិតថ្លៃក្នុងមួយខែ តាមរយៈឧបករណ៍ស្វែងរកតាមអ៊ីនធឺណិតនៅក្នុងច្រកចេញចូល AgentCore និង Web Search API។ ប្រាក់ឧបត្ថម្ភឥតគិតថ្លៃនេះអនុវត្តដោយស្វ័យប្រវត្តិដោយគ្មានការរៀបចំ និងកំណត់ឡើងវិញរៀងរាល់ខែ។ សំណួរបន្ថែមនឹងត្រូវគិតប្រាក់តាមអត្រាស្ដង់ដារដោយមិនរំខានដល់ភ្នាក់ងាររបស់អ្នកឡើយ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍អាចបង្កើត និងសាកល្បងភ្នាក់ងារដែលមានសមត្ថភាពស្វែងរកតាមអ៊ីនធឺណិតដោយមិនគិតថ្លៃសម្រាប់ 5,000 សំណួរដំបូងក្នុងមួយខែ ដែលអាចជួយកាត់បន្ថយការចំណាយដំបូង។",
+   "keyPoints": [
+    "ផ្តល់ជូន 5,000 សំណួរស្វែងរកតាមអ៊ីនធឺណិតដោយឥតគិតថ្លៃក្នុងមួយខែ។",
+    "អនុវត្តដោយស្វ័យប្រវត្តិដោយមិនចាំបាច់មានការរៀបចំ។",
+    "កំណត់ឡើងវិញរៀងរាល់ខែ និងត្រូវបានចែករំលែកទូទាំងតំបន់ AWS និងគណនីអង្គការដែលគាំទ្រ។",
+    "មាននៅក្នុងតំបន់ AWS ដែលគាំទ្រឧបករណ៍ស្វែងរកតាមអ៊ីនធឺណិត និង Web Search API។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Bedrock AgentCore 现在提供免费的每月网络搜索查询额度",
+   "summary": "Amazon Bedrock AgentCore 现在通过 AgentCore 网关中的 Web Search Tool 和 Web Search API 每月提供 5,000 次免费网络搜索查询。此免费额度会自动适用，无需进行设置，且每月会进行重置。超出免费额度的查询将按标准费率计费，同时不会中断代理的运行。",
+   "impact": "开发者和技术用户可以在每月前 5,000 次查询中免费构建和测试带有网络搜索功能的代理，这可能会降低相关应用的初期开发和测试成本。",
+   "keyPoints": [
+    "Amazon Bedrock AgentCore 每月提供 5,000 次免费网络搜索查询。",
+    "免费额度自动生效，无需设置。",
+    "额度在支持的 AWS 区域和组织内的所有账户之间共享，并且每月重置。",
+    "在支持 Web Search Tool 和 Web Search API 的所有 AWS 区域可用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock AgentCore, 월간 무료 웹 검색 쿼리 제공",
+   "summary": "Amazon Bedrock AgentCore는 이제 AgentCore 게이트웨이의 Web Search Tool 및 Web Search API를 통해 매월 5,000회의 무료 웹 검색 쿼리를 제공합니다. 이 무료 제공량은 별도의 설정 없이 자동으로 적용되며 매월 초기화됩니다. 추가 쿼리는 에이전트 중단 없이 표준 요율로 청구됩니다.",
+   "impact": "개발자와 기술 사용자는 매월 처음 5,000개의 쿼리 동안 비용 부담 없이 웹 검색 기능이 포함된 에이전트를 빌드하고 테스트할 수 있으므로, 초기 개발 및 테스트 비용이 절감될 수 있습니다.",
+   "keyPoints": [
+    "Amazon Bedrock AgentCore에서 매월 5,000회의 무료 웹 검색 쿼리 제공",
+    "별도의 설정 없이 자동으로 무료 제공량 적용",
+    "지원되는 AWS 리전 및 조직 내 모든 계정 간에 공유되며 매월 초기화",
+    "Web Search Tool 및 Web Search API를 지원하는 모든 AWS 리전에서 이용 가능"
+   ]
+  }
+ }
+}

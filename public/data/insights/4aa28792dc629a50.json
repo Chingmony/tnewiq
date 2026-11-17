@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4aa28792dc629a50",
+ "contentHash": "2974e81a0fc6fc1b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-17T23:01:02.709Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Bedrock AgentCore Memory now supports short-term memory retention of up to 10 years",
+   "summary": "Amazon Bedrock AgentCore Memory has updated its service to allow short-term memory retention for up to 10 years, increasing from the previous one-year limit. Developers can now utilize short-term memory as a long-lived record for agent conversations and interactions. The retention period is set on the memory resource and applied to each event upon creation, while standard storage charges apply for the data kept.",
+   "impact": "This update could help developers maintain long-term records for compliance, audits, returning users, or agents needing historical session data. Teams may need to account for standard short-term memory storage charges over extended retention periods.",
+   "keyPoints": [
+    "Short-term memory retention is increased from one year to up to 10 years.",
+    "Retention is set on the memory resource and applies to events at creation.",
+    "Existing events keep their original retention settings.",
+    "Standard short-term memory storage charges apply for the duration data is kept."
+   ]
+  },
+  "km": {
+   "title": "Amazon Bedrock AgentCore Memory ឥឡូវនេះគាំទ្រការរក្សាទុកអង្គចងចាំរយៈពេលខ្លីរហូតដល់ ១០ ឆ្នាំ",
+   "summary": "Amazon Bedrock AgentCore Memory បានធ្វើបច្ចុប្បន្នភាពសេវាកម្មរបស់ខ្លួនដើម្បីអនុញ្ញាតឱ្យរក្សាទុកព្រឹត្តិការណ៍អង្គចងចាំរយៈពេលខ្លីរហូតដល់ ១០ ឆ្នាំ កើនឡើងពីដែនកំណត់ពីមុន ១ ឆ្នាំ។ អ្នកអភិវឌ្ឍន៍ឥឡូវនេះអាចប្រើប្រាស់អង្គចងចាំរយៈពេលខ្លីជាកំណត់ត្រារយៈពេលវែងនៃការសន្ទនា និងអន្តរកម្មរបស់ភ្នាក់ងារ។ ការកំណត់ការរក្សាទុកត្រូវបានអនុវត្តនៅលើធនធានអង្គចងចាំនៅពេលដែលព្រឹត្តិការណ៍ត្រូវបានបង្កើតឡើង ខណៈពេលដែលថ្លៃសេវាផ្ទុកมาตรฐานត្រូវបានគិតប្រាក់។",
+   "impact": "ការអាប់ដេតនេះអាចជួយអ្នកអភិវឌ្ឍន៍រក្សាកំណត់ត្រារយៈពេលវែងសម្រាប់អនុលោមភាព ការត្រួតពិនិត្យ អ្នកប្រើប្រាស់ដែលត្រឡប់មកវិញ ឬភ្នាក់ងារដែលត្រូវការទិន្នន័យសម័យកាលមុន។ ក្រុមការងារអាចនឹងត្រូវគិតគូរពីថ្លៃសេវាផ្ទុកទិន្នន័យរយៈពេលយូរអង្វែង។",
+   "keyPoints": [
+    "ការរក្សាទុកអង្គចងចាំរយៈពេលខ្លីត្រូវបានដំឡើងពី ១ ឆ្នាំ រហូតដល់ ១០ ឆ្នាំ។",
+    "ការរក្សាទុកត្រូវបានកំណត់នៅលើធនធានអង្គចងចាំ និងអនុវត្តចំពោះព្រឹត្តិការណ៍នីមួយៗនៅពេលបង្កើត។",
+    "ព្រឹត្តិការណ៍ដែលមានស្រាប់រក្សាទុកការកំណត់ការរក្សាទុកដើមរបស់ពួកគេ។",
+    "ថ្លៃសេវាផ្ទុកអង្គចងចាំរយៈពេលខ្លីស្តង់ដារត្រូវបានអនុវត្តចំពោះទិន្នន័យដែលបានរក្សាទុក។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Bedrock AgentCore Memory 现在支持长达 10 年的短期记忆保留",
+   "summary": "Amazon Bedrock AgentCore Memory 现在允许将短期记忆事件保留长达 10 年，高于之前的一年限制。开发人员现在可以将短期记忆用作代理对话和交互的长期记录。该功能通过在内存资源上设置保留期，并在事件创建时应用到每个事件，同时标准短期存储费用将根据数据保留时间进行收取。",
+   "impact": "此更新可以帮助开发人员维护用于合规、审计、长期未登录用户或需要回溯过去会话的代理的长期记录。团队可能需要在延长的保留期内考虑标准的短期记忆存储费用。",
+   "keyPoints": [
+    "短期记忆保留期限从一年延长至最长 10 年。",
+    "保留期在内存资源上设置，并在事件创建时应用于每个事件。",
+    "现有事件保持其原有的保留设置。",
+    "只要保留数据，就会产生标准的短期记忆存储费用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock AgentCore Memory, 이제 최대 10년의 단기 메모리 보존 지원",
+   "summary": "Amazon Bedrock AgentCore Memory는 단기 메모리 이벤트 보존 기간을 기존 1년에서 최대 10년까지 늘리도록 업데이트되었습니다. 개발자는 이제 단기 메모리를 에이전트 대화 및 상호 작용에 대한 장기 기록으로 사용할 수 있습니다. 보존 기간은 메모리 리소스에서 설정되며 이벤트가 생성될 때 각 이벤트에 적용되고, 데이터가 유지되는 동안 표준 단기 메모리 스토리지 요금이 부과됩니다.",
+   "impact": "이 업데이트는 개발자가 규정 준수, 감사, 몇 달 만에 돌아온 사용자 또는 과거 세션을 살펴봐야 하는 에이전트를 위해 장기 기록을 유지하는 데 도움이 될 수 있습니다. 팀은 연장된 보존 기간 동안 표준 단기 메모리 스토리지 비용을 고려해야 할 수 있습니다.",
+   "keyPoints": [
+    "단기 메모리 보존 기간이 1년에서 최대 10년으로 늘어났습니다.",
+    "보존 기간은 메모리 리소스에 설정되며 이벤트 생성 시 각 이벤트에 적용됩니다.",
+    "기존 이벤트는 원래 보존 설정을 유지합니다.",
+    "데이터가 유지되는 동안 표준 단기 메모리 스토리지 요금이 적용됩니다."
+   ]
+  }
+ }
+}

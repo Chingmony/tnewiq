@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2c9a0a3b0ea7e6eb",
+ "contentHash": "7ea241239cdf6718",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-17T22:59:17.210Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Govern and discover records with common metadata in AWS Agent Registry",
+   "summary": "AWS Agent Registry now supports custom metadata schemas, allowing organizations to define a consistent set of key-value pairs for agents, Model Context Protocol servers, and skills. Administrators can define schemas with specific field names, types, and requirements that the registry enforces for all records. This feature enables organizations to track unique organizational facts such as business units, resource owners, and risk classifications.",
+   "impact": "Development and security teams can use standardized metadata to improve resource governance, compliance tracking, and discoverability across their agentic fleet. It could help organizations automate validation and ensure every registered resource adheres to internal policies before approval.",
+   "keyPoints": [
+    "AWS Agent Registry now offers custom metadata schemas consisting of organization-defined key-value pairs.",
+    "Administrators define schema fields, types like Text or Enum, and whether they are required or optional.",
+    "Records without required metadata are saved as NON_COMPLIANT, while validated records are marked as COMPLIANT.",
+    "Discovery APIs allow filtering records based on these custom attributes."
+   ]
+  },
+  "km": {
+   "title": "គ្រប់គ្រង និងស្វែងរកកំណត់ត្រាជាមួយទិន្នន័យមេតាទូទៅនៅក្នុង AWS Agent Registry",
+   "summary": "AWS Agent Registry ឥឡូវនេះគាំទ្រគ្រោងការណ៍ទិន្នន័យមេតាផ្ទាល់ខ្លួន ដែលអនុញ្ញាតឱ្យអង្គការនានាកំណត់សំណុំគូគន្លឹះតម្លៃស៊ីសង្វាក់គ្នាសម្រាប់ភ្នាក់ងារ ម៉ាស៊ីនមេ Model Context Protocol និងជំនាញ។ អ្នកគ្រប់គ្រងអាចកំណត់គ្រោងការណ៍ដែលមានឈ្មោះវាល ប្រភេទ និងតម្រូវការជាក់លាក់ ដែលការចុះឈ្មោះអនុវត្តសម្រាប់កំណត់ត្រាទាំងអស់។ មុខងារនេះអាចឱ្យអង្គការនានាដានដានការពិតនៃស្ថាប័នដែលមានលក្ខណៈប្លែកពីគេ ដូចជាអង្គភាពអាជីវកម្ម ម្ចាស់ធនធាន និងការចាត់ថ្នាក់ហានិភ័យ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងសន្តិសុខអាចប្រើប្រាស់ទិន្នន័យមេតាដែលបានស្តង់ដារ ដើម្បីកែលម្អការគ្រប់គ្រងធនធាន ការតាមដានការអនុលោមតាមច្បាប់ និងភាពអាចរកឃើញនៅទូទាំងកងនាវាភ្នាក់ងាររបស់ពួកគេ។ វាអាចជួយឱ្យអង្គការស្វ័យប្រវត្តិនូវការផ្ទៀងផ្ទាត់ និងធានាថាធនធានដែលបានចុះឈ្មោះនីមួយៗប្រកាន់ខ្ជាប់នូវគោលនយោបាយខាងក្នុងមុនពេលមានការយល់ព្រម។",
+   "keyPoints": [
+    "AWS Agent Registry ឥឡូវនេះផ្តល់ជូននូវគ្រោងការណ៍ទិន្នន័យមេតាផ្ទាល់ខ្លួនដែលមានគូគន្លឹះតម្លៃដែលកំណត់ដោយអង្គការ។",
+    "អ្នកគ្រប់គ្រងកំណត់វាលគ្រោងការណ៍ ប្រភេទដូចជា Text ឬ Enum និងថាតើវាត្រូវបានទាមទារ ឬជាជម្រើស។",
+    "កំណត់ត្រាដែលគ្មានទិន្នន័យមេតាដែលត្រូវការត្រូវបានរក្សាទុកជា NON_COMPLIANT ចំណែកឯកំណត់ត្រាដែលបានផ្ទៀងផ្ទាត់ត្រូវបានសម្គាល់ថាជា COMPLIANT។",
+    "API ស្វែងរកអនុញ្ញាតឱ្យត្រងកំណត់ត្រាដោយផ្អែកលើគុណលក្ខណៈផ្ទាល់ខ្លួនទាំងនេះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在 AWS Agent Registry 中使用通用元数据管理和发现记录",
+   "summary": "AWS Agent Registry 现在支持自定义元数据架构，允许组织为其代理、Model Context Protocol 服务器和技能定义一组一致的键值对。管理员可以定义具有特定字段名称、类型和要求的架构，注册表会对所有记录强制执行这些要求。此功能使组织能够跟踪独特的组织事实，例如业务单元、资源所有者和风险分类。",
+   "impact": "开发和安全团队可以使用标准化的元数据来改进其代理机群中的资源治理、合规性跟踪和可发现性。它可能有助于组织自动进行验证，并确保每个注册的资源在获批之前都遵守内部政策。",
+   "keyPoints": [
+    "AWS Agent Registry 现在提供由组织定义的键值对组成的自定义元数据架构。",
+    "管理员可以定义架构字段、诸如 Text 或 Enum 等类型，以及字段是必填还是可选。",
+    "缺少所需元数据的记录将保存为 NON_COMPLIANT，而通过验证的记录则标记为 COMPLIANT。",
+    "发现 API 允许根据这些自定义属性筛选记录。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Agent Registry에서 공통 메타데이터로 레코드 거버넌스 및 검색",
+   "summary": "AWS Agent Registry는 이제 사용자 지정 메타데이터 스키마를 지원하여 조직이 에이전트, Model Context Protocol 서버 및 기술에 대한 일관된 키-값 쌍 세트를 정의할 수 있도록 합니다. 관리자는 모든 레코드에 대해 레지스트리가 적용하는 특정 필드 이름, 유형 및 요구 사항이 있는 스키마를 정의할 수 있습니다. 이 기능을 통해 조직은 사업부, 리소스 소유자, 위험 분류와 같은 고유한 조직적 사실을 추적할 수 있습니다.",
+   "impact": "개발 및 보안 팀은 표준화된 메타데이터를 사용하여 에이전트 집합 전반에서 리소스 거버넌스, 규정 준수 추적 및 검색 가능성을 향상할 수 있습니다. 조직이 검증을 자동화하고 승인 전에 등록된 모든 리소스가 내부 정책을 준수하는지 확인하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "AWS Agent Registry는 이제 조직이 정의한 키-값 쌍으로 구성된 사용자 지정 메타데이터 스키마를 제공합니다.",
+    "관리자는 스키마 필드, Text 또는 Enum과 같은 유형, 그리고 필수 여부를 정의합니다.",
+    "필수 메타데이터가 없는 레코드는 NON_COMPLIANT로 저장되며, 검증된 레코드는 COMPLIANT로 표시됩니다.",
+    "검색 API를 사용하면 이러한 사용자 지정 속성을 기준으로 레코드를 필터링할 수 있습니다."
+   ]
+  }
+ }
+}

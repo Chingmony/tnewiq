@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "bfcd5d9452fb8d78",
+ "contentHash": "7a7368c1731544b4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-17T22:59:38.234Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore",
+   "summary": "The post discusses three tested Open Authorization configurations on Amazon Bedrock AgentCore Identity for securely connecting AI agents to the Snowflake-managed MCP server. These include Snowflake OAuth without an external IdP, three-legged OAuth with a third-party Identity Provider for corporate SSO, and two-legged OAuth with a third-party Identity Provider for shared service users. Amazon Bedrock AgentCore Gateway acts as the intermediary, aggregating tools and managing outbound authentication through Amazon Bedrock AgentCore Identity as the credential broker.",
+   "impact": "Security teams and developers working with AI agents could use these OAuth patterns to maintain granular authentication and authorization controls without relying on broad service account permissions or custom-built integrations. This approach may help enterprises securely manage user attribution and automate token refreshes when connecting workloads to Snowflake Cortex AI tools.",
+   "keyPoints": [
+    "Amazon Bedrock AgentCore Identity manages token vaults, caching, and automatic token refreshes for outbound authentication.",
+    "Three tested configurations include Snowflake OAuth, three-legged OAuth with a third-party IdP, and two-legged OAuth with a third-party IdP.",
+    "Amazon Bedrock AgentCore Gateway unifies external tool targets into a single catalog presented to the AI agent."
+   ]
+  },
+  "km": {
+   "title": "គំរូ OAuth សុវត្ថិភាពសម្រាប់ Snowflake Cortex AI តាមរយៈ Amazon Bedrock AgentCore",
+   "summary": "អត្ថបទនេះពិភាក្សាអំពីការកំណត់រចនាសម្ព័ន្ធ Open Authorization ចំនួនបីដែលបានសាកល្បងនៅលើ Amazon Bedrock AgentCore Identity ដើម្បីភ្ជាប់ភ្នាក់ងារ AI ទៅកាន់ម៉ាស៊ីនបម្រើ MCP ដែលគ្រប់គ្រងដោយ Snowflake ប្រកបដោយសុវត្ថិភាព។ ការកំណត់ទាំងនោះរួមមាន Snowflake OAuth គ្មាន IdP ខាងក្រៅ, 3LO ជាមួយ IdP ទីបីសម្រាប់ការចូលប្រើប្រាស់របស់សាជីវកម្ម, និង 2LO ជាមួយ IdP ទីបីសម្រាប់អ្នកប្រើប្រាស់សេវាកម្មរួម។ Amazon Bedrock AgentCore Gateway ដើរតួជាអ្នកសម្របសម្រួលក្នុងការគ្រប់គ្រងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវចេញក្រៅ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់គំរូ OAuth ទាំងនេះដើម្បីរក្សាការគ្រប់គ្រងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវដោយមិនចាំបាច់ពឹងផ្អែកលើការអនុញ្ញាតគណនីសេវាកម្មទូលំទូលាយ។ វិធីសាស្ត្រនេះអាចជួយឱ្យសហគ្រាសគ្រប់គ្រងការកំណត់អត្តសញ្ញាណអ្នកប្រើប្រាស់ និងធ្វើឱ្យការធ្វើឱ្យស្រស់ថូខឹនដោយស្វ័យប្រវត្តិមានភាពងាយស្រួល។",
+   "keyPoints": [
+    "Amazon Bedrock AgentCore Identity គ្រប់គ្រងកន្លែងរក្សាទុកថូខឹន ការឃ្លាំងសម្ងាត់ និងការធ្វើឱ្យថូខឹនស្រស់ដោយស្វ័យប្រវត្តិ។",
+    "ការកំណត់រចនាសម្ព័ន្ធបីដែលបានសាកល្បងរួមមាន Snowflake OAuth, 3LO ជាមួយ IdP ទីបី និង 2LO ជាមួយ IdP ទីបី។",
+    "Amazon Bedrock AgentCore Gateway បង្រួបបង្រួមគោលដៅឧបករណ៍ខាងក្រៅទៅជាកាតាឡុកតែមួយសម្រាប់ភ្នាក់ងារ AI។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过 Amazon Bedrock AgentCore 实现 Snowflake Cortex AI 的安全 OAuth 模式",
+   "summary": "本文介绍了在 Amazon Bedrock AgentCore Identity 上测试的三种开放授权配置，用于将 AI 代理安全连接到 Snowflake 管理的 MCP 服务器。这些配置包括无外部身份提供商的 Snowflake OAuth、采用第三方身份提供商的三足式 OAuth（企业单点登录），以及采用第三方身份提供商的两足式 OAuth（共享服务用户）。Amazon Bedrock AgentCore Gateway 充当网关，通过凭据代理管理出站身份验证。",
+   "impact": "致力于 AI 代理的开发人员和安全团队可以利用这些 OAuth 模式来保持精确的身份验证和授权控制，而无需依赖广泛的服务帐户权限或自定义集成。这种方法可能有助于企业在连接工作负载时安全地管理用户归属和自动令牌刷新。",
+   "keyPoints": [
+    "Amazon Bedrock AgentCore Identity 负责令牌保险库、缓存以及出站身份验证的自动令牌刷新。",
+    "测试的三种配置包括 Snowflake OAuth、带有第三方 IdP 的三足式 OAuth 以及带有第三方 IdP 的两足式 OAuth。",
+    "Amazon Bedrock AgentCore Gateway 将外部工具目标聚合成一个统一的目录呈现给 AI 代理。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock AgentCore를 통한 Snowflake Cortex AI용 보안 OAuth 패턴",
+   "summary": "이 글에서는 AI 에이전트를 Snowflake 관리 MCP 서버에 안전하게 연결하기 위해 Amazon Bedrock AgentCore Identity에서 테스트한 세 가지 Open Authorization 구성에 대해 설명합니다. 여기에는 외부 IdP가 없는 Snowflake OAuth, 기업용 SSO를 위한 제3자 IdP 기반의 3레그 OAuth, 그리고 공유 서비스 사용자를 위한 제3자 IdP 기반의 2레그 OAuth가 포함됩니다. Amazon Bedrock AgentCore Gateway는 자격 증명 브로커를 통해 아웃바운드 인증을 관리합니다.",
+   "impact": "개발자와 보안 팀은 이러한 OAuth 패턴을 사용하여 광범위한 서비스 계정 권한이나 사용자 지정 통합에 의존하지 않고도 세밀한 인증 및 권한 부여 제어를 유지할 수 있습니다. 이 접근 방식은 기업이 워크로드를 연결할 때 사용자 식별 및 자동 토큰 갱신을 안전하게 관리하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "Amazon Bedrock AgentCore Identity는 아웃바운드 인증을 위해 토큰 볼트, 캐싱 및 자동 토큰 갱신을 관리합니다.",
+    "테스트된 세 가지 구성에는 Snowflake OAuth, 제3자 IdP를 사용하는 3레그 OAuth, 제3자 IdP를 사용하는 2레그 OAuth가 포함됩니다.",
+    "Amazon Bedrock AgentCore Gateway는 외부 도구 대상을 AI 에이전트에게 제공되는 단일 통합 카탈로그로 집계합니다."
+   ]
+  }
+ }
+}

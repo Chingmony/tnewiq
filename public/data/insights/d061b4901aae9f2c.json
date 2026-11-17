@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d061b4901aae9f2c",
+ "contentHash": "974433a8a14306b6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-17T22:58:24.143Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Cut generative AI costs: Code for rules, models for judgment",
+   "summary": "An AWS Machine Learning Blog post discusses how to reduce generative AI costs by using deterministic code for rule-based tasks instead of routing every step through a large language model. Unnecessary model calls increase expenses, add latency, and introduce non-determinism at production scale. The post outlines a decision flowchart to determine whether a workflow step requires a model, a constrained decision call, or standard code.",
+   "impact": "Development and security teams could significantly lower production expenses and reduce latency by auditing workflows to replace unnecessary model calls with deterministic rules. This approach may also improve system reliability and auditability by eliminating non-determinism in predictable steps.",
+   "keyPoints": [
+    "Routing every workflow task through a large language model creates high production costs, added latency, and output variability.",
+    "Deterministic code should be used for tasks involving checkable rules, formats, schemas, keywords, or numeric ranges.",
+    "A three-question flowchart helps teams decide if a step runs as code, a constrained decision call, or on a right-sized model on Amazon Bedrock.",
+    "Deterministic code typically offers single-digit millisecond latency and orders of magnitude lower invocation costs compared to model calls."
+   ]
+  },
+  "km": {
+   "title": "កាត់បន្ថយការចំណាយលើ generative AI៖ កូដសម្រាប់ច្បាប់ ម៉ូដែលសម្រាប់ការវិនិច្ឆ័យ",
+   "summary": "អត្ថបទប្លក់មួយពី AWS Machine Learning បានពិភាក្សាអំពីរបៀបកាត់បន្ថយការចំណាយលើ generative AI ដោយប្រើប្រាស់កូដកំណត់សម្រាប់កិច្ចការផ្អែកលើច្បាប់ជំនួសឱ្យការបញ្ជូនរាល់ជំហានតាមរយៈម៉ូដែលភាសាខ្នាតធំ។ ការហៅម៉ូដែលដែលមិនចាំបាច់បង្កើនការចំណាយ ពន្យារពេល និងបង្កើតភាពមិនប្រាកដប្រជាក្នុងកម្រិតផលិតកម្ម។ អត្ថបទនេះគូសបញ្ជាក់ពីដ្យាក្រាមសម្រេចចិត្តដើម្បីកំណត់ថាតើជំហានដំណើរការការងារត្រូវការម៉ូដែល ការហៅសម្រេចចិត្តមានកម្រិត ឬកូដស្តង់ដារដែរឬទេ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងសន្តិសុខអាចកាត់បន្ថយការចំណាយលើផលិតកម្មយ៉ាងខ្លាំង និងកាត់បន្ថយភាពយឺតយ៉ាវ ដោយធ្វើសវនកម្មលើដំណើរការការងារដើម្បីជំនួសការហៅម៉ូដែលដែលមិនចាំបាច់ដោយច្បាប់កំណត់។ មធ្យោបាយនេះក៏អាចបង្កើនភាពជឿជាក់ និងលទ្ធភាពធ្វើសវនកម្មរបស់ប្រព័ន្ធផងដែរ។",
+   "keyPoints": [
+    "ការបញ្ជូនរាល់កិច្ចការតាមរយៈម៉ូដែលភាសាខ្នាតធំបង្កើតឱ្យមានការចំណាយខ្ពស់ ភាពយឺតយ៉ាវ និងភាពប្រែប្រួលនៃលទ្ធផល។",
+    "កូដកំណត់គួរតែត្រូវបានប្រើសម្រាប់កិច្ចការដែលពាក់ព័ន្ធនឹងច្បាប់ ទម្រង់ សារពើភណ្ឌ ពាក្យគន្លឹះ ឬជួរលេខដែលអាចពិនិត្យបាន។",
+    "ដ្យាក្រាមសំណួរចំនួនបីជួយដល់ក្រុមការងារក្នុងការសម្រេចចិត្តថាតើជំហានណាមួយគួរដំណើរការជាកូដ ឬនៅលើ Amazon Bedrock។",
+    "កូដកំណត់ជាទូទៅផ្តល់នូវភាពយឺតយ៉ាវក្នុងកម្រិតមីលីវិនាទី និងថ្លៃដើមទាបជាងការហៅម៉ូដែលយ៉ាងខ្លាំង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "削减生成式 AI 成本：用代码处理规则，用模型处理判断",
+   "summary": "AWS Machine Learning Blog 的一篇文章探讨了如何通过使用确定性代码处理基于规则的任务来减少生成式 AI 成本，而不是将每个步骤都路由到大语言模型中。在生产规模下，不必要的模型调用会增加开支、延迟并引入不确定性。文章概述了一个决策流程图，以确定工作流中的每个步骤是需要模型、受限决策调用还是标准代码。",
+   "impact": "开发和安全团队可以通过审核工作流程，用确定性代码替代不必要的模型调用，从而显著降低生产开支并减少延迟。这种方法还可以通过消除可预测步骤中的不确定性来提高系统可靠性和可审计性。",
+   "keyPoints": [
+    "将每个工作流任务路由到大语言模型会产生高昂的生产成本、延迟和输出可变性。",
+    "确定性代码应用于涉及可检查规则、格式、架构、关键字或数字范围的任务。",
+    "三问题流程图可帮助团队确定某一步骤是作为代码运行、受限决策调用还是在 Amazon Bedrock 的合适大小模型上运行。",
+    "与模型调用相比，确定性代码通常提供个位数毫秒的延迟以及低几个数量级的调用成本。"
+   ]
+  },
+  "ko": {
+   "title": "생성형 AI 비용 절감: 규칙에는 코드, 판단에는 모델",
+   "summary": "AWS Machine Learning Blog의 게시물은 모든 단계를 대형 언어 모델을 통해 라우팅하는 대신 규칙 기반 작업에 결정론적 코드를 사용하여 생성형 AI 비용을 절감하는 방법을 설명합니다. 불필요한 모델 호출은 프로덕션 규모에서 비용을 증가시키고 지연 시간을 늘리며 비결정성을 유발합니다. 이 게시물은 워크플로의 각 단계에 모델, 제한된 결정 호출 또는 표준 코드가 필요한지 결정하기 위한 의사결정 순서도를 제시합니다.",
+   "impact": "개발 및 보안 팀은 워크플로를 검토하여 불필요한 model 호출을 결정론적 코드로 교체함으로써 프로덕션 비용을 크게 절감하고 지연 시간을 줄일 수 있습니다. 이 접근 방식은 예측 가능한 단계에서 비결정성을 제거하여 시스템 신뢰성과 감사 가능성을 향상시킬 수도 있습니다.",
+   "keyPoints": [
+    "모든 워크플로 작업을 대형 언어 모델을 통해 라우팅하면 높은 프로덕션 비용, 추가 지연 시간 및 출력 가변성이 발생합니다.",
+    "확인 가능한 규칙, 형식, 스키마, 키워드 또는 숫자 범들과 관련된 작업에는 결정론적 코드를 사용해야 합니다.",
+    "세 가지 질문으로 구성된 순서도는 팀이 단계가 코드, 제한된 결정 호출 또는 Amazon Bedrock의 적정 크기 모델 중 어디서 실행될지 결정하는 데 도움을 줍니다.",
+    "결정론적 코드는 일반적으로 모델 호출에 비해 한 자릿수 밀리초의 지연 시간과 훨씬 낮은 호출 비용을 제공합니다."
+   ]
+  }
+ }
+}
