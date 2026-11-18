@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3a5cf3ae11d19f1c",
+ "contentHash": "1ce7a9ba2a39fd4e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-18T04:35:00.887Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon ECR now supports global authentication tokens for private registries",
+   "summary": "Amazon Elastic Container Registry (Amazon ECR) now supports global authentication tokens for private registries. Users can request a single token from the AWS Sign-In CreateBearerToken API and use it across all ECR private registries in the same AWS partition. This replaces the previous requirement of obtaining a separate authentication token for each AWS Region.",
+   "impact": "This change allows proxy services routing container pulls across Regions to manage just one token instead of coordinating separate tokens for every Region. This may simplify multi-region workflows and optimization for latency or availability.",
+   "keyPoints": [
+    "Amazon ECR now supports global authentication tokens for private registries.",
+    "A single token can be requested via the AWS Sign-In CreateBearerToken API for all ECR private registries in the same AWS partition.",
+    "Global tokens are valid for 12 hours by default and can be configured as low as 5 minutes.",
+    "They work with the Docker CLI and the Amazon ECR Docker Credential Helper in all commercial AWS Regions where ECR is supported."
+   ]
+  },
+  "km": {
+   "title": "Amazon ECR ឥឡូវនេះគាំទ្រថូខែនផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវជាសកលសម្រាប់ registry ឯកជន",
+   "summary": "Amazon Elastic Container Registry (Amazon ECR) ឥឡូវនេះគាំទ្រថូខែនផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវជាសកលសម្រាប់ registry ឯកជន។ មុននេះ អ្នកត្រូវស្នើសុំថូខែនដាច់ដោយឡែកនៅក្នុងតំបន់ AWS នីមួយៗ ប៉ុន្តែឥឡូវនេះអ្នកអាចស្នើសុំថូខែនតែមួយពី AWS Sign-In CreateBearerToken API។ ថូខែននេះអាចប្រើប្រាស់បានទូទាំង registry ឯកជនរបស់ ECR ទាំងអស់នៅក្នុង partition តែមួយ។",
+   "impact": "មុខងារនេះអាចជួយឱ្យសេវាកម្មប្រុកស៊ីដែលកំណត់ផ្លូវទាញយកកុងតឺន័រឆ្លងកាត់តំបន់នានា គ្រប់គ្រងថូខែនតែមួយសម្រាប់គ្រប់តំបន់ទាំងអស់ ដែលអាចជួយសម្រួលដល់ដំណើរការការងារ។",
+   "keyPoints": [
+    "Amazon ECR ឥឡូវនេះគាំទ្រថូខែនផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវជាសកលសម្រាប់ registry ឯកជន។",
+    "អាចស្នើសុំថូខែនតែមួយពី AWS Sign-In CreateBearerToken API សម្រាប់គ្រប់តំបន់ទាំងអស់។",
+    "ថូខែនជាសកលមានសុពលភាពរយៈពេល ១២ ម៉ោងតាមលំនាំដើម និងអាចកំណត់រចនាសម្ព័ន្ធទាបរហូតដល់ ៥ នាទី។",
+    "វាដំណើរការជាមួយ Docker CLI និង Amazon ECR Docker Credential Helper។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon ECR 现已支持用于私有注册表的全局身份验证令牌",
+   "summary": "Amazon Elastic Container Registry (Amazon ECR) 现已支持针对私有注册表的全局身份验证令牌。过去需要在推送或拉取容器镜像的每个 AWS 区域单独请求身份验证令牌，现在可以通过 AWS Sign-In CreateBearerToken API 请求单个令牌，并在同一 AWS 分区内的所有 ECR 私有注册表中使用。",
+   "impact": "这使得跨区域路由容器拉取请求的代理服务能够仅管理一个令牌，而无需在代理背后的每个区域单独请求、刷新和协调令牌，从而可能简化多区域架构的管理。",
+   "keyPoints": [
+    "Amazon ECR 现支持用于私有注册表的全局身份验证令牌。",
+    "可通过 AWS Sign-In CreateBearerToken API 获取可在同一 AWS 分区中使用的单一令牌。",
+    "全局令牌默认有效时间为 12 小时，也可配置为最短 5 分钟。",
+    "兼容 Docker CLI 以及 Amazon ECR Docker Credential Helper。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon ECR, 이제 프라이빗 레지스트리를 위한 전역 인증 토큰 지원",
+   "summary": "Amazon Elastic Container Registry (Amazon ECR)가 이제 프라이빗 레지스트리를 위한 전역 인증 토큰을 지원합니다. 이전에는 이미지를 푸시하거나 풀하는 각 AWS 리전에서 별도의 인증 토큰을 요청해야 했지만, 이제 AWS Sign-In CreateBearerToken API에서 단일 토큰을 요청하여 동일한 AWS 파티션 내의 모든 ECR 프라이빗 레지스트리에서 사용할 수 있습니다.",
+   "impact": "리전 간 컨테이너 풀을 라우팅하는 프록시 서비스를 운영하는 팀은 모든 리전에 대해 개별 토큰을 조정할 필요 없이 하나의 토큰만 관리할 수 있으므로, 멀티 리전 환경에서의 작업이 간소화될 수 있습니다.",
+   "keyPoints": [
+    "Amazon ECR이 프라이빗 레지스트리를 위한 전역 인증 토큰을 지원합니다.",
+    "AWS Sign-In CreateBearerToken API를 통해 동일한 AWS 파티션 내에서 사용 가능한 단일 토큰을 요청할 수 있습니다.",
+    "전역 토큰은 기본적으로 12시간 동안 유효하며 최소 5분까지 설정할 수 있습니다.",
+    "Docker CLI 및 Amazon ECR Docker Credential Helper와 함께 작동합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "79f93c1c33945320",
+ "contentHash": "c20109a82c807e32",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-18T04:35:43.007Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon DynamoDB caching is now available with Amazon ElastiCache Serverless for Valkey",
+   "summary": "AWS has announced the general availability of DynamoDB caching using Amazon ElastiCache Serverless for Valkey. This serverless feature provides sub-millisecond read latency for frequently accessed data as an alternative to Amazon DynamoDB Accelerator (DAX). It uses a write-through cache that updates automatically when data changes, requiring no server clusters or nodes to manage.",
+   "impact": "This feature could help developers achieve faster read performance for DynamoDB tables without needing to provision DAX nodes or write custom cache-syncing logic. Security teams may benefit from the automatic application of existing IAM credentials and access control policies.",
+   "keyPoints": [
+    "Delivers sub-millisecond read latency for frequently accessed DynamoDB data.",
+    "Acts as a serverless alternative to Amazon DynamoDB Accelerator (DAX).",
+    "Features a write-through cache that scales automatically without nodes to manage.",
+    "Requires no application logic changes and uses existing IAM credentials."
+   ]
+  },
+  "km": {
+   "title": "ការឃ្លាំងសម្ងាត់ Amazon DynamoDB ឥឡូវនេះមាននៅលើ Amazon ElastiCache Serverless សម្រាប់ Valkey",
+   "summary": "AWS បានប្រកាសពីការដាក់ឱ្យប្រើប្រាស់ទូទៅនៃការឃ្លាំងសម្ងាត់ DynamoDB ជាមួយ Amazon ElastiCache Serverless សម្រាប់ Valkey ដែលជាជម្រើសគ្មានម៉ាស៊ីនបម្រើជំនួសឱ្យ Amazon DynamoDB Accelerator (DAX)។ វាផ្តល់នូវភាពយឺតយ៉ាវនៃការអានក្រោមមួយមីលីវិនាទីសម្រាប់ទិន្នន័យ DynamoDB ដែលចូលប្រើញឹកញាប់។ វាមិនទាមទារឱ្យមានការផ្លាស់ប្តូរឡូជីខលកម្មវិធីទេ និងធ្វើមាត្រដ្ឋានដោយស្វ័យប្រវត្តិ។",
+   "impact": "មុខងារនេះអាចជួយអ្នកអភិវឌ្ឍន៍សម្រេចបាននូវដំណើរការអានកាន់តែលឿនដោយមិនចាំបាច់គ្រប់គ្រងโหนด DAX ឬបង្កើតឡូជីខលធ្វើសមកាលកម្មឃ្លាំងសម្ងាត់ផ្ទាល់ខ្លួន។ ក្រុមសន្តិសុខអាចទទួលបានអត្ថប្រយោជន៍ពីការអនុវត្តដោយស្វ័យប្រវត្តិនូវគោលការណ៍គ្រប់គ្រងការចូលប្រើដែលមានស្រាប់។",
+   "keyPoints": [
+    "ផ្តល់នូវភាពយឺតយ៉ាវនៃការអានក្រោមមួយមីលីវិនាទីសម្រាប់ទិន្នន័យ DynamoDB ។",
+    "មុខងារជាជម្រើសគ្មានម៉ាស៊ីនបម្រើជំនួសឱ្យ Amazon DynamoDB Accelerator (DAX) ។",
+    "ប្រើប្រាស់ឃ្លាំងសម្ងាត់ប្រភេទ write-through ដែលធ្វើបច្ចុប្បន្នភាពដោយស្វ័យប្រវត្តិ។",
+    "មិនត្រូវការការផ្លាស់ប្តូរឡូជីខលកម្មវិធី និងប្រើប្រាស់លិខិតសម្គាល់ IAM ដែលមានស្រាប់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon DynamoDB 缓存现已支持 Amazon ElastiCache Serverless for Valkey",
+   "summary": "AWS 宣布 Amazon DynamoDB 缓存现已全面可用，该功能结合了 Amazon ElastiCache Serverless for Valkey。作为 Amazon DynamoDB Accelerator (DAX) 的无服务器替代方案，它可为经常访问的 DynamoDB 数据提供亚毫秒级的读取延迟。它采用直写式缓存，随数据更改自动更新，且无需管理集群或节点。",
+   "impact": "此功能可以帮助开发人员在不配置 DAX 节点或编写自定义缓存同步逻辑的情况下，实现更快的读取性能。安全团队可能会受益于对现有 IAM 凭据和访问控制策略的自动应用。",
+   "keyPoints": [
+    "为经常访问的 DynamoDB 数据提供亚毫秒级读取延迟。",
+    "作为 Amazon DynamoDB Accelerator (DAX) 的无服务器替代方案。",
+    "采用直-write-through 缓存并在负载变化时自动扩展。",
+    "无需更改应用程序逻辑，并自动应用现有的 IAM 访问控制策略。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon ElastiCache Serverless for Valkey를 통한 Amazon DynamoDB 캐싱 정식 출시",
+   "summary": "AWS는 자주 액세스하는 DynamoDB 데이터에 대해 1밀리초 미만의 읽기 지연 시간을 제공하는 Amazon ElastiCache Serverless for Valkey 기반의 DynamoDB 캐싱 정식 출시를 발표했습니다. 이는 Amazon DynamoDB Accelerator (DAX)의 서버리스 대안으로, 데이터 변경 시 자동으로 업데이트되는 write-through 캐시를 사용합니다.",
+   "impact": "이 기능은 개발자가 DAX 노드를 프로비저닝하거나 사용자 지정 캐시 동기화 로직을 작성하지 않고도 더 빠른 읽기 성능을 달성하는 데 도움을 줄 수 있습니다. 보안 팀은 기존 IAM 자격 증명과 접근 제어 정책이 자동으로 적용되는 이점을 누릴 수 있습니다.",
+   "keyPoints": [
+    "자주 액세스하는 DynamoDB 데이터에 1밀리초 미만의 읽기 지연 시간 제공.",
+    "Amazon DynamoDB Accelerator (DAX)의 서버리스 대안으로 작동.",
+    "노드나 클러스터를 관리할 필요 없이 자동으로 확장되는 write-through 캐시 사용.",
+    "애플리케이션 로직 변경이 필요 없으며 기존 IAM 자격 증명 활용."
+   ]
+  }
+ }
+}

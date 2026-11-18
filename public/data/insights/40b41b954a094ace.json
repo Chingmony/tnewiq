@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "40b41b954a094ace",
+ "contentHash": "db3fc5129f3f9fe7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-18T04:34:31.523Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon EC2 C8gn instances are now available in AWS Israel (Tel Aviv) region",
+   "summary": "Amazon EC2 C8gn instances, powered by AWS Graviton4 processors, are now available in the AWS Israel (Tel Aviv) region. These instances offer up to 30% better compute performance than Graviton3-based C7gn instances and feature 6th generation AWS Nitro Cards. They provide up to 600 Gbps network bandwidth, making them suitable for network-intensive workloads.",
+   "impact": "Developers and technology users in or utilizing the AWS Israel (Tel Aviv) region can now deploy C8gn instances to optimize costs and scale performance for workloads such as data analytics and CPU-based AI/ML inference. The enhanced networking and EFA support may also help teams improve throughput and lower latency for tightly coupled clusters.",
+   "keyPoints": [
+    "Amazon EC2 C8gn instances are available in the AWS Israel (Tel Aviv) region starting today.",
+    "They are powered by AWS Graviton4 processors and deliver up to 30% better compute performance than C7gn instances.",
+    "The instances feature 6th generation AWS Nitro Cards and offer up to 600 Gbps network bandwidth.",
+    "They support instance sizes up to 48xlarge and EFA networking on specific sizes."
+   ]
+  },
+  "km": {
+   "title": "គំរូ Amazon EC2 C8gn ឥឡូវនេះមាននៅលើតំបន់ AWS Israel (Tel Aviv)",
+   "summary": "គំរូ Amazon Elastic Compute Cloud (Amazon EC2) C8gn ដែលដើរដោយខួរក្បាល AWS Graviton4 ជំនាន់ចុងក្រោយ ឥឡូវនេះមាននៅលើតំបន់ AWS Israel (Tel Aviv) ហើយ។ ពួកវាផ្តល់នូវដំណើរការគណនាប្រសើរជាងមុនរហូតដល់ 30% បើធៀបនឹងគំរូ C7gn ដែលផ្អែកលើ Graviton3 ។ គំរូទាំងនេះមានបំពាក់កាត AWS Nitro ជំនាន់ទី 6 និងផ្តល់កម្រិតបញ្ជូនបណ្តាញរហូតដល់ 600 Gbps ។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យាអាចប្រើប្រាស់គំរូ C8gn ដើម្បីបង្កើនប្រសិទ្ធភាព និងកម្រិតដំណើរការសម្រាប់ការងារដែលពាក់ព័ន្ធនឹងបណ្តាញខ្លាំង។ ការគាំទ្របណ្តាញ EFA អាចជួយកាត់បន្ថយភាពយឺតយ៉ាវសម្រាប់ប្រព័ន្ធចង្កោមដែលភ្ជាប់គ្នា.",
+   "keyPoints": [
+    "គំរូ Amazon EC2 C8gn មាននៅលើតំបន់ AWS Israel (Tel Aviv) ចាប់ពីថ្ងៃនេះតទៅ។",
+    "ប្រើប្រាស់ខួរក្បាល AWS Graviton4 ផ្តល់ដំណើរការល្អជាងគំរូ C7gn រហូតដល់ 30%។",
+    "ផ្តល់កម្រិតបញ្ជូនបណ្តាញរហូតដល់ 600 Gbps និងបំពាក់កាត AWS Nitro ជំនាន់ទី 6។",
+    "គាំទ្រទំហំគំរូរហូតដល់ 48xlarge និងបណ្តាញ Elastic Fabric Adapter (EFA)។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon EC2 C8gn 实例现已在 AWS Israel (Tel Aviv) 区域推出",
+   "summary": "由最新一代 AWS Graviton4 处理器驱动的 Amazon EC2 C8gn 实例现已在 AWS Israel (Tel Aviv) 区域可用。与基于 Graviton3 的 C7gn 实例相比，C8gn 实例的计算性能提升了高达 30%。它们配备了第六代 AWS Nitro 卡，并提供高达 600 Gbps 的网络带宽。",
+   "impact": "开发人员和技术用户可以利用这些实例来优化运行密集型网络工作负载的成本并扩展吞吐量。增强的网络功能和 EFA 支持还可能有助于改善集群性能并降低延迟。",
+   "keyPoints": [
+    "Amazon EC2 C8gn 实例现已在 AWS Israel (Tel Aviv) 区域推出。",
+    "相比 Graviton3 的 C7gn 实例，计算性能提升高达 30%。",
+    "提供高达 600 Gbps 的网络带宽并配备第六代 AWS Nitro 卡。",
+    "支持最大 48xlarge 的实例大小以及特定大小的 EFA 网络。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon EC2 C8gn 인스턴스가 AWS Israel (Tel Aviv) 리전에 출시되었습니다",
+   "summary": "최신 세대 AWS Graviton4 프로세서로 구동되는 Amazon EC2 C8gn 인스턴스가 AWS Israel (Tel Aviv) 리전에서 제공되기 시작했습니다. 이 인스턴스는 Graviton3 기반 C7gn 인스턴스보다 최대 30% 향상된 컴퓨팅 성능을 제공합니다. 또한 6세대 AWS Nitro 카드와 최대 600 Gbps의 네트워크 대역폭을 제공합니다.",
+   "impact": "개발자와 기술 사용자는 C8gn 인스턴스를 활용하여 네트워크 집약적인 워크로드의 비용을 최적화하고 성능과 처리량을 확장할 수 있습니다. 향상된 네트워킹 기능과 EFA 지원은 클러스터 성능을 향상시키고 지연 시간을 줄이는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "Amazon EC2 C8gn 인스턴스가 AWS Israel (Tel Aviv) 리전에서 제공됩니다.",
+    "Graviton3 기반 C7gn 인스턴스에 비해 최대 30% 더 나은 컴퓨팅 성능을 제공합니다.",
+    "최신 6세대 AWS Nitro 카드와 최대 600 Gbps의 네트워크 대역폭을 특징으로 합니다.",
+    "최대 48xlarge 인스턴스 크기와 EFA 네트워킹을 지원합니다."
+   ]
+  }
+ }
+}

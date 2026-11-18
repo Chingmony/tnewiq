@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e010dc913600f8d7",
+ "contentHash": "a00fc557cd2be319",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-18T04:31:06.709Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+   "summary": "At least 178 top websites unwittingly served malware to visitors after an unauthorized party exploited a vulnerability in Optimizely. The incident involved the injection of malicious JavaScript code that delivered data-stealing software and zero-click exploit kits targeting older Apple devices. Optimizely stated that it identified and fully remediated the vulnerability, implemented fixes, and is conducting an investigation with third-party experts.",
+   "impact": "Security teams and developers may need to reevaluate how third-party JavaScript dependencies and content sources are handled and restricted on their platforms. The incident highlights the risks of third-party supply chain attacks where trusted vendor infrastructure is leveraged to distribute malicious payloads without direct breaches of the downstream websites.",
+   "keyPoints": [
+    "An unauthorized party exploited a vulnerability in Optimizely to inject malicious JavaScript into customer projects on November 16, affecting 178 top websites.",
+    "The delivered payload dropped multi-purpose malware to steal payment card data, cookies, and screenshots, and deployed zero-click exploit kits targeting outdated Apple iPhone and iPad devices.",
+    "Optimizely reported that it contained the incident, deployed a fix, removed the injected code, revoked tokens, and reset user access for affected accounts."
+   ]
+  },
+  "km": {
+   "title": "ជនខិលខូចបានប្រើប្រាស់ Optimizely ដើម្បីធ្វើតេស្តមេរោគ A/B នៅលើគេហទំព័រធំៗ",
+   "summary": "គេហទំព័រធំៗយ៉ាងតិច ១៧៨ បានចែកចាយមេរោគដល់អ្នកទស្សនាដោយអចេតនា បន្ទាប់ពីភាគីគ្មានសិទ្ធិបានប្រើប្រាស់ខ្សោយសុវត្ថិភាពនៅក្នុង Optimizely។ ហេតុការណ៍នេះពាក់ព័ន្ធនឹងការបញ្ចូលកូដ JavaScript ប្រភេទព្យាបាទ ដែលបានបញ្ជូនមេរោគលួចទិន្នន័យ និងកញ្ចប់កេងប្រវ័ញ្ចលើឧបករណ៍ Apple ចាស់ៗ។ Optimizely បានបញ្ជាក់ថាខ្លួនបានកំណត់ចំណាំ និងដោះស្រាយបញ្ហាសុវត្ថិភាពនោះរួចរាល់ហើយ។",
+   "impact": "ក្រុមសុវត្ថិភាពនិងអ្នកអភិវឌ្ឍន៍អាចនឹងត្រូវពិនិត្យឡើងវិញនូវរបៀបដែលការពឹងផ្អែកលើ JavaScript ភាគីទីបីត្រូវបានគ្រប់គ្រងនិងកំណត់កម្រិតនៅលើប្រព័ន្ធរបស់ពួកគេ។ ហេតុការណ៍នេះបង្ហាញពីហានិភ័យនៃការវាយប្រហារខ្សែសង្វាក់ផ្គត់ផ្គង់ដែលហេដ្ឋារចនាសម្ព័ន្ធរបស់អ្នកលក់ដែលគួរឱ្យទុកចិត្តត្រូវបានគេប្រើប្រាស់ដើម្បីចែកចាយមេរោគ។",
+   "keyPoints": [
+    "ភាគីគ្មានសិទ្ធិបានប្រើប្រាស់ភាពងាយរងគ្រោះនៅក្នុង Optimizely ដើម្បីបញ្ចូលកូដ JavaScript ព្យាបាទកាលពីថ្ងៃទី ១៦ ខែវិច្ឆិកា ដែលប៉ះពាល់ដល់គេហទំព័រចំនួន ១៧៨។",
+    "កូដព្យាបាទនោះបានទម្លាក់មេរោគពហុមុខងារដើម្បីលួចទិន្នន័យកាតទូទាត់ ឃូឃី និងរូបថតអេក្រង់ ព្រមទាំងដាក់ពង្រាយកញ្ចប់កេងប្រវ័ញ្ចលើឧបករណ៍ iPhone និង iPad ស៊េរីចាស់ៗ។",
+    "Optimizely បានរាយការណ៍ថាខ្លួនបានទប់ស្កាត់ឧប្បត្តិហេតុនេះ ដំឡើងដំណោះស្រាយ លុយកូដព្យាបាទ និងកំណត់សិទ្ធិអ្នកប្រើប្រាស់ឡើងវិញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "攻击者利用 Optimizely 在各大顶级网站上对恶意软件进行 A/B 测试",
+   "summary": "由于 Optimizely 存在安全漏洞，至少有 178 个顶级网站在不知情的情况下向访客推送了各种恶意软件漏洞利用程序。此次事件涉及将恶意 JavaScript 代码注入到各大网站中，这些恶意代码能够投放窃取数据的恶意软件以及针对较旧 Apple 设备的零点击漏洞利用程序。Optimizely 表示，其已发现并彻底修复了该漏洞，部署了修复程序，并正在与第三方专家合作进行全面调查。",
+   "impact": "安全团队和开发人员可能需要重新评估如何在平台上处理和限制第三方 JavaScript 依赖项和内容来源。这凸显了第三方供应链攻击的风险，即可信的供应商基础设施可能被用来分发恶意有效负载，而无需直接攻破下游网站。",
+   "keyPoints": [
+    "11月16日，未经授权的一方利用 Optimizely 平台中的漏洞将恶意 JavaScript 注入客户项目，影响了 178 个顶级网站。",
+    "传递的有效负载投放了多用途恶意软件，可窃取支付卡数据、Cookie 和截图，并针对较旧的 Apple iPhone 和 iPad 设备部署了定制的零点击漏洞利用程序。",
+    "Optimizely 报告称其已迅速遏制该事件，部署了修复程序，删除了受影响项目中的注入代码，撤销了令牌并重置了受影响用户账户的访问权限。"
+   ]
+  },
+  "ko": {
+   "title": "공격자들이 Optimizely를 악용해 주요 웹사이트에서 멀웨어 A/B 테스트를 수행함",
+   "summary": "Optimizely의 보안 취약점을 악용한 권한 없는 제3자로 인해 최소 178개의 주요 웹사이트가 방문자들에게 의도치 않게 멀웨어 익스플로잇을 제공했습니다. 이 사건은 데이터 탈취형 소프트웨어와 구형 Apple 기기를 겨냥한 제로 클릭 익스플로잇 킷을 배포하는 악성 JavaScript 코드가 사이트에 주입되면서 발생했습니다. Optimizely는 해당 취약점을 식별하고 완전히 조치했으며, 수정 사항을 배포하고 제3자 전문가들과 함께 포괄적인 조사를 진행하고 있다고 밝혔습니다.",
+   "impact": "보안 팀과 개발자는 플랫폼에서 서드파티 JavaScript 종속성 및 콘텐츠 소스가 처리되고 제한되는 방식을 재검토해야 할 수 있습니다. 이번 사건은 신뢰할 수 있는 공급업체의 인프라가 하위 웹사이트의 직접적인 침해 없이도 악성 페이로드를 배포하는 데 악용될 수 있는 서드파티 공급망 공격의 위험성을 보여줍니다.",
+   "keyPoints": [
+    "11월 16일 권한 없는 공격자가 Optimizely 플랫폼의 취약점을 악용하여 고객 프로젝트에 악성 JavaScript를 주입했고, 178개의 주요 웹사이트가 영향을 받았습니다.",
+    "전달된 페이로드는 결제 카드 데이터, 쿠키, 스크린샷을 탈취하는 다목적 멀웨어를 다운로드하고 구형 Apple iPhone 및 iPad 기기를 대상으로 하는 제로 클릭 익스플로잇 킷을 배포했습니다.",
+    "Optimizely는 사건을 신속히 통제하고, 수정 사항을 배포했으며, 영향받은 프로젝트에서 주입된 코드를 제거하고 토큰을 취소 및 계정 액세스를 재설정했다고 보고했습니다."
+   ]
+  }
+ }
+}

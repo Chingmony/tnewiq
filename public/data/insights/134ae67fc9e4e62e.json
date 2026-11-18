@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "134ae67fc9e4e62e",
+ "contentHash": "533ef1d15d159e64",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-18T04:32:56.377Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon WorkSpaces Applications adds support for smart card redirection",
+   "summary": "Amazon WorkSpaces Applications now supports smart card redirection across both single-session and multi-session fleets. Additionally, smart card sign-in has been extended from single-session fleets to multi-session fleets. Administrators can independently configure smart card sign-in and redirection settings for each stack.",
+   "impact": "Regulated organizations such as healthcare and public sector entities may now use Common Access Card or Personal Identity Verification workflows on multi-session fleets. This capability could help streamline administrative management and enhance in-session authentication and signing processes for users.",
+   "keyPoints": [
+    "Smart card redirection is available on single-session and multi-session fleets.",
+    "Smart card sign-in is extended to multi-session fleets.",
+    "Administrators can independently toggle sign-in and redirection for each stack.",
+    "Settings are available in all AWS commercial and AWS GovCloud (US) regions."
+   ]
+  },
+  "km": {
+   "title": "Amazon WorkSpaces Applications បន្ថែមការគាំទ្រសម្រាប់ការបញ្ជូនបន្តស្មាតកាត",
+   "summary": "Amazon WorkSpaces Applications ឥឡូវនេះគាំទ្រការបញ្ជូនបន្តស្មាតកាតនៅលើកងនាវាវគ្គតែមួយនិងវគ្គច្រើន។ បន្ថែមពីនេះ ការចុះឈ្មោះចូលប្រើស្មាតកាតត្រូវបានពង្រីកពីកងនាវាវគ្គតែមួយទៅកាន់កងនាវាវគ្គច្រើន។ អ្នកគ្រប់គ្រងអាចកំណត់ការកំណត់ទាំងនេះដោយឯករាជ្យសម្រាប់រាល់ stack នីមួយៗ។",
+   "impact": "អង្គភាពដែលស្ថិតក្រោមបទប្បញ្ញត្តិដូចជាវិស័យសុខាភិបាលនិងសាធារណៈអាចដំណើរការលំហូរការងារកាត CAC ឬ PIV នៅលើកងនាវាវគ្គច្រើន។ សមត្ថភាពនេះអាចជួយសម្រួលដល់ដំណើរការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវក្នុងវគ្គនិងការចុះហត្ថលេខាឌីជីថល។",
+   "keyPoints": [
+    "គាំទ្រការបញ្ជូនបន្តស្មាតកាតលើវគ្គតែមួយនិងវគ្គច្រើន។",
+    "ការពង្រីកការចុះឈ្មោះចូលប្រើស្មាតកាតទៅកាន់វគ្គច្រើន។",
+    "អ្នកគ្រប់គ្រងអាចបើកឬបិទការកំណត់ដោយឯករាជ្យសម្រាប់ stack នីមួយៗ។",
+    "មានដាក់ឱ្យប្រើប្រាស់នៅក្នុងតំបន់ AWS ពាណិជ្ជកម្មនិង AWS GovCloud (US) ទាំងអស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon WorkSpaces Applications 增加对智能卡重定向的支持",
+   "summary": "Amazon WorkSpaces Applications 现在在单会话和多会话机群上支持智能卡重定向。此外，智能卡登录功能已从单会话机群扩展到多会话机群。管理员可以为每个堆栈独立启用或禁用智能卡登录和重定向设置。",
+   "impact": "医疗保健、公共部门及其他受监管组织现在可以在多会话机群上运行通用访问卡或个人身份验证工作流。这些功能可能会简化受监管机构的用户迁移，并支持会话内身份验证、数字签名和电子邮件加密。",
+   "keyPoints": [
+    "支持单会话和多会话机群的智能卡重定向。",
+    "将智能卡登录扩展至多会话机群。",
+    "管理员可针对每个堆栈独立配置智能卡设置。",
+    "功能现已在所有提供 WorkSpaces Applications 的 AWS 商业和 AWS GovCloud (US) 区域推出。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon WorkSpaces Applications, 스마트 카드리디렉션 지원 추가",
+   "summary": "Amazon WorkSpaces Applications가 단일 세션 및 다중 세션 플릿에서 스마트 카드 리디렉션을 지원하기 시작했습니다. 또한 단일 세션 플릿으로 제한되었던 스마트 카드 로그인이 다중 세션 플릿으로 확장되었습니다. 관리자는 각 스택에 대해 스마트 카드 로그인 및 리디렉션을 독립적으로 제어할 수 있습니다.",
+   "impact": "공공 부문 및 의료 분야와 같이 규제를 받는 기관들은 이제 다중 세션 플릿에서 CAC 또는 PIV 카드 워크플로를 실행할 수 있습니다. 이를 통해 규제 대상 조직의 관리 효율성이 향상되고 세션 내 인증 및 디지털 서명 작업이 편리해질 수 있습니다.",
+   "keyPoints": [
+    "단일 세션 및 다중 세션 플릿에서 스마트 카드 리디렉션 지원",
+    "다중 세션 플릿으로 스마트 카드 로그인 기능 확장",
+    "관리자가 스택별로 설정 독립적 제어 가능",
+    "모든 AWS 상용 및 AWS GovCloud (US) 리전에서 사용 가능"
+   ]
+  }
+ }
+}
