@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0a9dc29f1ce1bfcb",
+ "contentHash": "11d774a238b9f02b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-18T22:05:23.342Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How Salesforce is advancing global-scale model serving with cross-Region inference routing in Amazon SageMaker AI",
+   "summary": "Salesforce's Agentforce Foundation team utilizes cross-Region inference routing in Amazon SageMaker AI to manage model serving across more than 30 global Regions and hundreds of AWS accounts. The setup provides a single invocation path across multiple SageMaker AI endpoints, directing requests to endpoints that can serve them while keeping data residency commitments. Previously, Salesforce used an Internal Gateway with basic health checks, which lacked capacity signals and required traffic to travel over public AWS networking. The new inference router is a Regional SageMaker AI resource that prefers its own Region and helps handle traffic spikes securely.",
+   "impact": "Technology users, developers, and security teams could benefit from understanding how managed cross-Region inference routing helps balance capacity and maintain availability without relying on custom-built routing logic. Security teams may note that access between regions and accounts can be controlled through resource-based endpoint policies. However, developers must consider potential risks like cascading failures and implement appropriate traffic caps when routing requests across regions.",
+   "keyPoints": [
+    "Salesforce serves both in-house trained and open source models across 30+ global Regions for products including Agentforce and the Salesforce Trust Layer.",
+    "Hosting models separately in each Region splits capacity and turns capacity shortfalls into availability problems during traffic spikes.",
+    "The inference router is a Regional SageMaker AI resource that allows an application to use a single invocation path across endpoints in multiple Regions and accounts.",
+    "Endpoints are designated by their ARNs in a routing target, and destination accounts grant access using resource-based endpoint policies."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែល Salesforce កំពុងជំរុញការបម្រើគំរូទ្រង់ទ្រាយធំជាសាកលជាមួយនឹងការបញ្ជូនបន្តការសន្និដ្ឋានឆ្លងតំបន់នៅក្នុង Amazon SageMaker AI",
+   "summary": "ក្រុមការងារ Agentforce Foundation របស់ Salesforce កំពុងប្រើប្រាស់ការបញ្ជូនបន្តការសន្និដ្ឋានឆ្លងតំបន់នៅក្នុង Amazon SageMaker AI ដើម្បីគ្រប់គ្រងការបម្រើគំរូនៅទូទាំងជាង 30 តំបន់សាកល និងគណនី AWS រាប់រយ។ ប្រព័ន្ធនេះផ្តល់នូវផ្លូវនៃការហៅតែមួយនៅទូទាំងចំណុចបញ្ចប់ SageMaker AI ច្រើន ដោយបញ្ជូនសំណើទៅកាន់ចំណុចបញ្ចប់ដែលសមស្រប ខណៈពេលដែលរក្សាបាននូវការប្តេជ្ញាចិត្តលើទីតាំងទិន្នន័យ។ កាលពីមុន Salesforce បានប្រើប្រាស់ច្រកទ្វារផ្ទៃក្នុងដែលមានការត្រួតពិនិត្យសុខភាពមូលដ្ឋាន ប៉ុន្តែវាខ្វះសញ្ញាទំហំផ្ទុកនិងតម្រូវឱ្យចរាចរណ៍ធ្វើដំណើរឆ្លងកាត់បណ្តាញសាធារណៈរបស់ AWS។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យា និងអ្នកអភិវឌ្ឍន៍អាចទទួលបានប្រយោជន៍ពីការយល់ដឹងអំពីរបៀបដែលការបញ្ជូនបន្តឆ្លងតំបន់ជួយតុល្យភាពសមត្ថភាពនិងរក្សាភាពអាចប្រើប្រាស់បានដោយមិនចាំបាច់បង្កើតតក្កវិជ្ជាផ្ទាល់ខ្លួន។ ក្រុមសុវត្ថិភាពអាចកត់សម្គាល់ថាការគ្រប់គ្រងការចូលប្រើប្រាស់អាចធ្វើឡើងតាមរយៈគោលនយោបាយចំណុចបញ្ចប់ផ្អែកលើធនធាន។ ទោះជាយ៉ាងណាក៏ដោយ អ្នកអភិវឌ្ឍន៍ត្រូវពិចារណាលើហានិភ័យដូចជាការបរាជ័យតគ្នាជាបន្តបន្ទាប់នៅពេលបញ្ជូនចរាចរណ៍ឆ្លងតំបន់។",
+   "keyPoints": [
+    "ក្រុមការងារ Agentforce Foundation របស់ Salesforce បម្រើគំរូទាំងក្នុងផ្ទះនិងប្រភពបើកចំហនៅទូទាំងជាង 30 តំបន់សាកល។",
+    "ការបង្ហោះគំរូដាច់ដោយឡែកពីគ្នាក្នុងតំបន់នីមួយៗបែងចែកសមត្ថភាពនិងធ្វើឱ្យការកើនឡើងចរាចរណ៍កាន់តែពិបាកគ្រប់គ្រង។",
+    "រ៉ោតទ័រការសន្និដ្ឋានគឺជាធនធាន SageMaker AI ក្នុងតំបន់ដែលអនុញ្ញាតឱ្យកម្មវិធីប្រើប្រាស់ផ្លូវហៅតែមួយ។",
+    "គោលដៅបញ្ជូនបន្តអាចច្របាច់បញ្ចូលចំណុចបញ្ចប់គំរូតែមួយ និងសមាសភាគការសន្និដ្ឋានតាមរយៈ ARNs របស់ពួកវា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Salesforce 如何通过 Amazon SageMaker AI 中的跨区域推理路由推进全球规模的模型服务",
+   "summary": "Salesforce 的 Agentforce Foundation 团队在 Amazon SageMaker AI 中使用跨区域推理路由，管理跨越全球 30 多个区域和数百个 AWS 账户的模型服务。该设置为跨多个区域和账户的 SageMaker AI 端点提供单一的调用路径，将每个请求发送到能够为其服务的端点，同时遵守数据驻留承诺。此前，Salesforce 使用带有基本运行状况检查的内部网关，该网关缺乏容量信号且流量必须通过公共 AWS 网络传输。新的推理路由是一个区域性的 SageMaker AI 资源，优先考虑其自身区域并帮助安全处理流量高峰。",
+   "impact": "技术人员、开发人员和安全团队可以从了解托管的跨区域推理路由如何帮助平衡容量和维护可用性中受益，而无需依赖自定义路由逻辑。安全团队可能会注意到，可以通过基于资源的端点策略来控制跨区域和跨账户的访问。不过，开发人员在跨区域路由请求时，必须考虑潜在的级联故障风险并实施适当的流量上限。",
+   "keyPoints": [
+    "Salesforce 的 Agentforce Foundation 团队为包括 Agentforce 和 Salesforce Trust Layer 在内的产品提供内部训练和开源模型服务。",
+    "在每个区域单独托管模型会分割容量，使流量激增时更难吸收，从而将容量不足转化为可用性问题。",
+    "推理路由是一个区域性的 SageMaker AI 资源，应用程序可以调用它而不是直接调用端点。",
+    "路由目标可以通过完整的 Amazon Resource Names (ARNs) 列出可以服务该模型的端点和推理组件。"
+   ]
+  },
+  "ko": {
+   "title": "Salesforce가 Amazon SageMaker AI의 크로스 리전 추론 라우팅을 통해 글로벌 규모의 모델 서빙을 발전시키는 방법",
+   "summary": "Salesforce의 Agentforce Foundation 팀은 Amazon SageMaker AI의 크로스 리전 추론 라우팅을 활용하여 30개 이상의 글로벌 리전과 수백 개의 AWS 계정에 걸쳐 모델 서빙을 관리합니다. 이 설정은 여러 리전 및 계정의 SageMaker AI 엔드포인트에 걸쳐 단일 호출 경로를 제공하며, 데이터 거주 약속을 유지하면서 요청을 처리할 수 있는 엔드포인트로 보냅니다. 이전에 Salesforce는 기본 상태 확인 기능이 있는 내부 게이트웨이를 사용했으나 용량 신호가 부족하고 트래픽이 공개 AWS 네트워크를 통해 이동해야 했습니다. 새로운 추론 라우터는 자체 리전을 선호하며 트래픽 급증을 안전하게 처리하도록 돕는 지역별 SageMaker AI 리소스입니다.",
+   "impact": "기술 사용자, 개발자, 보안 팀은 관리형 크로스 리전 추론 라우팅이 사용자 정의 라우팅 로직에 의존하지 않고도 용량을 균형 있게 조절하고 가용성을 유지하는 데 어떻게 도움이 되는지 이해함으로써 이점을 얻을 수 있습니다. 보안 팀은 리소스 기반 엔드포인트 정책을 통해 리전 및 계정 간 액세스를 제어할 수 있음을 주목할 수 있습니다. 그러나 개발자는 리전 간에 요청을 라우팅할 때 연쇄 장애와 같은 잠재적 위험을 고려하고 적절한 트래픽 상한선을 구현해야 합니다.",
+   "keyPoints": [
+    "Salesforce의 Agentforce Foundation 팀은 Agentforce 및 Salesforce Trust Layer를 포함한 제품을 위해 30개 이상의 글로벌 리전에서 자체 훈련된 모델과 오픈 소스 모델을 모두 제공합니다.",
+    "각 리전에 모델을 개별적으로 호스팅하면 용량이 분산되어 트래픽 급증 시 대응하기 어려워지며, 이는 용량 부족 문제를 가용성 문제로 전환시킵니다.",
+    "추론 라우터는 애플리케이션이 엔드포인트 대신 호출할 수 있는 지역별 SageMaker AI 리소스입니다.",
+    "라우팅 대상은 전체 Amazon Resource Names (ARNs)를 통해 해당 모델을 서빙할 수 있는 엔드포인트와 추론 구성요소를 나열합니다."
+   ]
+  }
+ }
+}
