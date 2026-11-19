@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8849626f8645abfa",
+ "contentHash": "35483daa03cebdb9",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:48:39.807Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Lambda now supports a 30-minute timeout for on-demand Event Functions",
+   "summary": "AWS Lambda has increased the function timeout for on-demand Event Functions to 30 minutes, doubling the previous 15-minute limit. This update applies to synchronous, asynchronous, and event source mapping invocations. Customers can now run long workloads like AI inference and media transcoding for up to 30 minutes without architectural workarounds.",
+   "impact": "Developers and technology users could benefit from running longer continuous execution workloads like AI inference and data pipelines on AWS Lambda without needing complex workarounds. This change may simplify application design for spiky or steady-state traffic.",
+   "keyPoints": [
+    "On-demand Event Functions now support a 30-minute timeout.",
+    "The new limit doubles the previous 15-minute limit for synchronous, asynchronous, and event source mapping invocations.",
+    "The feature is available in all commercial AWS Regions.",
+    "Timeouts can be set using the Lambda console, AWS CLI, SDKs, CloudFormation, CDK, or SAM."
+   ]
+  },
+  "km": {
+   "title": "AWS Lambda ឥឡូវនេះគាំទ្ររយៈពេលអស់ពេល 30 នាទីសម្រាប់ Event Functions ដែលដំណើរការតាមតម្រូវការ",
+   "summary": "AWS Lambda បានបង្កើនរយៈពេលអស់ពេលនៃមុខងារសម្រាប់ Event Functions ដែលដំណើរការតាមតម្រូវការដល់ 30 នាទី ដែលជាការកើនឡើងទ្វេដងពីដែនកំណត់ 15 នាទីមុន។ ការអាប់ដេតនេះអនុវត្តចំពោះការហៅប្រើប្រាស់បែប synchronous, asynchronous និង event source mapping (ESM)។ អតិថិជនឥឡូវនេះអាចដំណើរការកិច្ចការយូរអង្វែងដូចជា AI inference និង media transcoding រហូតដល់ 30 នាទី។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យាអាចនឹងទទួលបានផលប្រយោជន៍ពីការដំណើរការកិច្ចការដែលត្រូវការពេលយូរនៅលើ AWS Lambda ដោយមិនចាំបាច់មានដំណោះស្រាយបណ្តោះអាសន្នផ្នែកស្ថាបត្យកម្ម។ ការផ្លាស់ប្តូរនេះអាចជួយសម្រួលដល់ការបង្កើតកម្មវិធី.",
+   "keyPoints": [
+    "Event Functions ដែលដំណើរការតាមតម្រូវការឥឡូវនេះគាំទ្ររយៈពេលអស់ពេល 30 នាទី។",
+    "ដែនកំណត់ថ្មីនេះគឺជាការកើនឡើងទ្វេដងពីដែនកំណត់ 15 នាទីមុន។",
+    "មុខងារនេះមាននៅក្នុងតំបន់ពាណិជ្ជកម្ម AWS ទាំងអស់។",
+    "អ្នកអាចកំណត់រយៈពេលអស់ពេលដោយប្រើប្រាស់កុងសូល Lambda និងឧបករណ៍ផ្សេងៗទៀត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Lambda 现在为按需 Event Functions 支持 30 分钟超时",
+   "summary": "AWS Lambda 将按需运行的 Event Functions 的函数超时时间增加到 30 分钟，是以前 15 分钟限制的两倍。此更新适用于同步、异步和事件源映射调用。客户现在可以运行长达 30 分钟的工作负载，例如 AI 推理和媒体转码。",
+   "impact": "开发人员和技术用户可以受益于在 AWS Lambda 上运行更长时间的工作负载，而无需复杂的架构变通方案。此更改可能会简化用于偶发或稳定流量的应用程序设计。",
+   "keyPoints": [
+    "按需 Event Functions 现在支持 30 分钟的超时时间。",
+    "新限制将同步、异步和事件源映射调用的原 15 分钟限制延长了一倍。",
+    "该功能已在所有 AWS 商业区域可用。",
+    "可以通过 Lambda 控制台、AWS CLI、SDK、CloudFormation、CDK 或 SAM 设置函数超时。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Lambda, 온디맨드 Event Functions에 대해 30분 타임아웃 지원",
+   "summary": "AWS Lambda는 온디맨드 방식으로 실행되는 Event Functions의 함수 타임아웃을 기존 15분 제한의 두 배인 30분으로 늘렸습니다. 이 업데이트는 동기, 비동기 및 이벤트 소스 매핑 호출에 적용됩니다. 고객은 아키텍처 우회 방법 없이 AI 추론 및 미디어 트랜스코딩과 같은 작업을 최대 30분 동안 실행할 수 있습니다.",
+   "impact": "개발자와 기술 사용자들은 복잡한 우회 방법 없이 AWS Lambda에서 AI 추론 및 데이터 파이프라인과 같은 장기 실행 워크โหลด를 실행할 수 있는 이점을 얻을 수 있습니다. 이 변경으로 인해 애플리케이션 설계가 단순화될 수 있습니다.",
+   "keyPoints": [
+    "온디맨드 Event Functions는 이제 30분 타임아웃을 지원합니다.",
+    "새로운 제한은 동기, 비동기 및 이벤트 소스 매핑 호출에 대한 기존 15분 제한의 두 배입니다.",
+    "이 기능은 모든 상업용 AWS 리전에서 사용할 수 있습니다.",
+    "Lambda 콘솔, AWS CLI, SDK, CloudFormation, CDK 또는 SAM을 사용하여 함수 타임아웃을 설정할 수 있습니다."
+   ]
+  }
+ }
+}

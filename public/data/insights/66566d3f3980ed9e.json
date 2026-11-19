@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "66566d3f3980ed9e",
+ "contentHash": "5163e7151fd0fe79",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:50:44.390Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Elemental MediaTailor adds Dynamic Avail Sizing for live HLS",
+   "summary": "AWS Elemental MediaTailor has introduced Dynamic Avail Sizing for live HLS streams. The feature reduces unfilled ad break slate by omitting the empty time and resuming programming early when an ad decision server returns fewer ads than allowed. To maintain continuous playback, MediaTailor holds back a configurable content reserve behind the live edge and refills it during later breaks.",
+   "impact": "This feature could help FAST channel operators keep viewers engaged by replacing filler content with programming. Technology users and developers may implement it by adding query parameters to the session initialization URL without changing their playback configuration.",
+   "keyPoints": [
+    "AWS Elemental MediaTailor now supports Dynamic Avail Sizing for live HLS streams.",
+    "Unfilled ad break time is omitted to resume programming early instead of showing slate.",
+    "A configurable content reserve behind the live edge maintains continuous playback.",
+    "Enabled per session via query parameters added to the session initialization URL."
+   ]
+  },
+  "km": {
+   "title": "AWS Elemental MediaTailor បន្ថែម Dynamic Avail Sizing សម្រាប់ HLS ផ្ទាល់",
+   "summary": "AWS Elemental MediaTailor ឥឡូវនេះគាំទ្រ Dynamic Avail Sizing ដែលកាត់បន្ថយការបង្ហាញស្លាតពេលដែលការសម្រាកផ្សាយពាណិជ្ជកម្មនៅក្នុងស្ទ្រីម HLS ផ្ទាល់មិនត្រូវបានបំពេញ។ សេវាកម្មនេះលុបចោលពេលវេលាដែលនៅទំនេរហើយបន្តកម្មវិធីមុនពេលកំណត់ជំនួសឱ្យការបង្ហាញស្លាត។ ដើម្បីធានាការចាក់ឡើងវិញមិនមានការរអាក់រអួល MediaTailor រក្សាទុកបម្រុងមាតិកានៅពីក្រោយព្រំដែនផ្ទាល់។",
+   "impact": "លក្ខណៈពិសេសនេះអាចជួយដល់ប្រតិបត្តិករឆានែល FAST ក្នុងការរក្សាអ្នកទស្សនាឱ្យបន្តមើលកម្មវិធីជំនួសឱ្យមាតិកាបំពេញ។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចបើកដំណើរការវាដោយបន្ថែមប៉ារ៉ាម៉ែត្រសំណួរទៅក្នុង URL ការចាប់ផ្តើមសម័យ។",
+   "keyPoints": [
+    "AWS Elemental MediaTailor គាំទ្រ Dynamic Avail Sizing សម្រាប់ HLS ផ្ទាល់។",
+    "ពេលវេលាផ្សាយពាណិជ្ជកម្មដែលទំនេរត្រូវបានលុបចោលដើម្បីបន្តកម្មវិធីមុនពេលកំណត់។",
+    "រក្សាទុកបម្រុងមាតិកានៅពីក្រោយព្រំដែនផ្ទាល់ដើម្បីរក្សាការចាក់ឡើងវិញបន្តបន្ទាប់។",
+    "អាចបើកដំណើរការសម្រាប់វគ្គនីមួយៗដោយបន្ថែមប៉ារ៉ាម៉ែត្រសំណួរទៅ URL ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Elemental MediaTailor 为实时 HLS 添加动态可用区大小调整功能",
+   "summary": "AWS Elemental MediaTailor 现在支持动态可用区大小调整，可减少实时 HLS 流中广告插播未填满时观众看到的空白画面。当广告决策服务器返回的广告少于插播允许的数量时，该功能会省略未填满的时间并提前恢复节目播放。为了保持连续播放，MediaTailor 在直播边缘保留可配置的内容储备，并在后续插播中对其进行补充。",
+   "impact": "此功能可以帮助免费广告支持流媒体电视运营商通过减少填充内容来留住观众。开发人员和技术用户可以通过在会话初始化 URL 中添加查询参数来启用此功能，而无需更改播放配置。",
+   "keyPoints": [
+    "AWS Elemental MediaTailor 现在支持实时 HLS 的动态可用区大小调整。",
+    "省略未填满的广告插播时间以提前恢复节目，而不是显示空白画面。",
+    "在直播边缘保留内容储备以保持连续播放。",
+    "通过向会话初始化 URL 添加查询参数来为每个会话启用。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Elemental MediaTailor, 라이브 HLS용 Dynamic Avail Sizing 추가",
+   "summary": "AWS Elemental MediaTailor는 라이브 HLS 스트림에서 광고 중단 시간이 채워지지 않을 때 시청자가 보게 되는 슬레이트를 줄여주는 Dynamic Avail Sizing을 지원합니다. 광고 결정 서버가 허용된 광고 수보다 적은 광고를 반환할 때, 이 기능은 채워지지 않은 시간을 생략하고 슬레이트를 표시하는 대신 프로그래밍을 일찍 재개합니다. 연속적인 재생을 유지하기 위해 MediaTailor는 라이브 에지 뒤에 콘텐츠 예비분을 유지하고 나중 중단 시간에 이를 다시 채웁니다.",
+   "impact": "이 기능은 무료 광고 지원 스트리밍 TV 채널 운영자가 채우기 콘텐츠 대신 프로그래밍을 계속 시청하도록 유도하는 데 도움을 줄 수 있습니다. 개발자와 기술 사용자는 재생 구성을 변경하지 않고 세션 초기화 URL에 쿼리 매개변수를 추가하여 세션별로 이 기능을 활성화할 수 있습니다.",
+   "keyPoints": [
+    "AWS Elemental MediaTailor가 라이브 HLS 스트림용 Dynamic Avail Sizing을 지원합니다.",
+    "채워지지 않은 광고 시간은 슬레이트를 표시하는 대신 프로그래밍을 일찍 재개하도록 생략됩니다.",
+    "라이브 에지 뒤에 콘텐츠 예비분을 유지하여 연속 재생을 보장합니다.",
+    "세션 초기화 URL에 쿼리 매개변수를 추가하여 세션별로 활성화할 수 있습니다."
+   ]
+  }
+ }
+}

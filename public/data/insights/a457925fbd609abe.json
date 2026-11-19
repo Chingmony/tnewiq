@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a457925fbd609abe",
+ "contentHash": "49757cefce335341",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:44:53.723Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "PostgreSQL 19 Released",
+   "summary": "PostgreSQL 19 has been released two months later than its usual September schedule due to issues addressed by the team during the AI-reported vulnerability apocalypse. A standout feature in this version is the introduction of read-your-writes consistency for applications sending reads to standbys via the new WAIT FOR LSN command. This command allows a standby session to wait until it has replayed the WAL up to a specific LSN before running a query.",
+   "impact": "This release could help developers managing read scaling across primary and standby databases by ensuring applications can reliably read their own recent writes. Security teams and users may also benefit from the resolution of vulnerabilities that delayed the release.",
+   "keyPoints": [
+    "PostgreSQL 19 arrived two months later than the typical September release schedule.",
+    "The delay was largely caused by addressing issues related to AI-reported vulnerabilities.",
+    "The new WAIT FOR LSN command enables read-your-writes consistency on standbys.",
+    "An optional timeout can be specified with WAIT FOR LSN to handle replica lag."
+   ]
+  },
+  "km": {
+   "title": "PostgreSQL 19 ត្រូវបានចេញផ្សាយ",
+   "summary": "PostgreSQL 19 ត្រូវបានចេញផ្សាយយឺតជាងពេលកំណត់ខែកញ្ញាធម្មតារយៈពេលពីរខែ ដោយសារតែបញ្ហាផ្សេងៗដែលក្រុមការងារត្រូវដោះស្រាយទាក់ទងនឹងភាពងាយរងគ្រោះដែលបានរាយការណ៍ដោយ AI។ លក្ខណៈពិសេសថ្មីដ៏លេចធ្លោមួយនៅក្នុងកំណែនេះគឺការបន្ថែមភាពស៊ីសង្វាក់គ្នានៃការអាន-ការសរសេរផ្ទាល់ខ្លួន សម្រាប់កម្មវិធីដែលផ្ញើការអានទៅកាន់ម៉ាស៊ីនបម្រុងបដិភូ តាមរយៈពាក្យបញ្ជា WAIT FOR LSN ថ្មី។ ពាក្យបញ្ជានេះអនុញ្ញាតឱ្យសម័យនៅលើម៉ាស៊ីនបម្រុងបដិភូរង់ចាំរហូតដល់វាបានចាក់សារថ្មីនៃកំណត់ហេតុរហូតដល់ LSN ជាក់លាក់ណាមួយ មុនពេលដំណើរការសំណួរស្វែងរក។",
+   "impact": "ការចេញផ្សាយនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ក្នុងការគ្រប់គ្រងការធ្វើមាត្រដ្ឋានការអាននៅទូទាំងមូលដ្ឋានទិន្នន័យចម្បងនិងបដិភូ ដោយធានាថាapplicationsអាចអានទិន្នន័យដែលទើបតែសរសេរបានយ៉ាងគួរឱ្យទុកចិត្ត។ ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់ក៏អាចទទួលបានអត្ថប្រយោជន៍ពីការដោះស្រាយភាពងាយរងគ្រោះដែលបានពន្យារពេលការចេញផ្សាយនេះផងដែរ។",
+   "keyPoints": [
+    "PostgreSQL 19 បានមកដល់យឺតជាងកាលវិភាគចេញផ្សាយខែកញ្ញាធម្មតារយៈពេលពីរខែ។",
+    "ការពន្យារពេលនេះភាគច្រើនបណ្តាលមកจากการដោះស្រាយបញ្ហាដែលទាក់ទងនឹងភាពងាយរងគ្រោះដែលរាយការណ៍ដោយ AI។",
+    "ពាក្យបញ្ជា WAIT FOR LSN ថ្មីអាចឱ្យមានភាពស៊ីសង្វាក់គ្នានៃការអាន-ការសរសេរនៅលើម៉ាស៊ីនបម្រុងបដិភូ។",
+    "ពេលកំណត់ជម្រើសអាចត្រូវបានបញ្ជាក់ដោយប្រើ WAIT FOR LSN ដើម្បីគ្រប់គ្រងការពន្យារពេលរបស់ច្បាប់ចម្លង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "PostgreSQL 19 发布",
+   "summary": "PostgreSQL 19 比通常的 9 月发布时间推迟了两个月，主要原因是团队需要处理在持续的 AI 报告漏洞危机期间出现的一系列问题。该版本引入的一项突出新功能是：通过新的 WAIT FOR LSN 命令，为向备用服务器发送读取请求的应用程序添加了“读取自己的写入”一致性。备用服务器上的会话可以使用 WAIT FOR LSN 等待备用服务器将预写日志重放到特定的日志序列号，然后再运行查询。",
+   "impact": "此版本可能会帮助开发人员在主数据库和备用数据库之间更好地管理读取扩展，确保应用程序能够读取其刚刚写入的数据。技术用户和开发人员还可能从修复导致发布延迟的漏洞中受益。",
+   "keyPoints": [
+    "PostgreSQL 19 比往年的 9 月发布计划晚了两个月。",
+    "延迟主要归因于处理 AI 报告漏洞相关的问题。",
+    "新增的 WAIT FOR LSN 命令在备用服务器上实现了读取自己写入的一致性。",
+    "可以为 WAIT FOR LSN 提供可选的超时设置，以防备用副本未能及时追上。"
+   ]
+  },
+  "ko": {
+   "title": "PostgreSQL 19 출시",
+   "summary": "PostgreSQL 19은 AI가 보고한 취약점 대응 과정에서 제기된 문제들을 해결하느라 대다수 매년 9월에 나오던 출시일보다 두 달 늦게 출시되었습니다. 이번 버전의 가장 눈에 띄는 새로운 기능은 새로운 WAIT FOR LSN 명령어를 통해 대기 서버로 읽기 요청을 보내는 애플리케이션에 '자기가 쓴 글 읽기' 일관성을 추가한 것입니다. 대기 서버의 세션은 WAIT_FOR_LSN을 사용하여 쿼리를 실행하기 전에 대기 서버가 특정 로그 시퀀스 번호까지 쓰기 ahead 로그를 재생할 때까지 기다릴 수 있습니다.",
+   "impact": "이번 출시는 개발자들이 주 데이터베이스와 대기 데이터베이스 간의 읽기 확장을 관리하고 애플리케이션이 최근에 쓴 데이터를 안정적으로 읽을 수 있도록 지원할 수 있습니다. 또한 출시를 지연시킨 취약점들이 해결됨에 따라 보안 팀과 사용자들도 혜택을 볼 수 있습니다.",
+   "keyPoints": [
+    "PostgreSQL 19은 통상적인 9월 출시 일정보다 두 달 늦게 출시되었습니다.",
+    "이번 지연은 주로 AI가 보고한 취약점 관련 문제를 해결하는 과정에서 발생했습니다.",
+    "새로운 WAIT_FOR_LSN 명령어는 대기 서버에서 자기가 쓴 글 읽기 일관성을 활성화합니다.",
+    "복제본이 제때 따라오지 못할 경우에 대비해 WAIT FOR LSN에 선택적 타임아웃을 지정할 수 있습니다."
+   ]
+  }
+ }
+}

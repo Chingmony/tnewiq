@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0e00fe4c42812094",
+ "contentHash": "4445ba51845d525c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:50:05.366Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Protect agent tool calls with Skyflow and Amazon Bedrock AgentCore Gateway",
+   "summary": "Skyflow and Amazon Bedrock AgentCore Gateway have integrated to keep sensitive data out of AI agent tool calls and model contexts. By adding Skyflow Detect as a request and response interceptor to Amazon Bedrock AgentCore Gateway, sensitive data is de-identified before reaching a tool and restored before the agent reads the results. This integration works without modifying existing agent or tool code, utilizing the gateway as a centralized control point.",
+   "impact": "Security teams and developers could use this integration to secure agent tool interactions and prevent sensitive data from leaking to third-party services or entering model logs. This approach may help organizations meet data compliance and residency obligations without modifying individual agents or tools.",
+   "keyPoints": [
+    "Skyflow Detect acts as a request and response interceptor on Amazon Bedrock AgentCore Gateway.",
+    "The interceptor de-identifies data before it reaches tools and restores it before the agent processes the results.",
+    "Skyflow is available in AWS Marketplace and the interceptor is open source on GitHub.",
+    "The solution secures data flows without requiring changes to agent or tool code."
+   ]
+  },
+  "km": {
+   "title": "ការពារការហៅឧបករណ៍ភ្នាក់ងារដោយប្រើ Skyflow និង Amazon Bedrock AgentCore Gateway",
+   "summary": "Skyflow និង Amazon Bedrock AgentCore Gateway បានដាក់បញ្ចូលគ្នាដើម្បីការពារទិន្នន័យរសើបមិនឱ្យចូលទៅក្នុងឧបករណ៍ភ្នាក់ងារ AI និងបរិបទម៉ូដែល។ ការបន្ថែម Skyflow Detect ទៅកាន់ Amazon Bedrock AgentCore Gateway ជួយបំបាំងអត្តសញ្ញាណទិន្នន័យមុនពេលវាទៅដល់ឧបករណ៍ និងស្តារវាឡើងវិញមុនពេលភ្នាក់ងារអានលទ្ធផល។ ការរួមបញ្ចូលគ្នានេះដំណើរការដោយមិនចាំបាច់កែប្រែកូដភ្នាក់ងារ ឬឧបករណ៍ដែលមានស្រាប់នោះទេ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់ដំណោះស្រាយនេះដើម្បីធានាសុវត្ថិភាពអន្តរកម្មឧបករណ៍ភ្នាក់ងារ និងការពារការលេចធ្លាយទិន្នន័យរសើប។ វិធីសាស្ត្រនេះអាចជួយឱ្យអង្គភាពបំពេញតាមកាតព្វកិច្ចអនុលោមភាពទិន្នន័យដោយមិនបាច់កែប្រែភ្នាក់ងារនីមួយៗឡើយ។",
+   "keyPoints": [
+    "Skyflow Detect ដើរតួជាអ្នកស្ទាក់ចាប់សំណើ និងការឆ្លើយតបនៅលើ Amazon Bedrock AgentCore Gateway។",
+    "អ្នកស្ទាក់ចាប់បំបាំងអត្តសញ្ញាណទិន្នន័យមុនពេលវាទៅដល់ឧបករណ៍ និងស្តារវាឡើងវិញមុនពេលភ្នាក់ងារអានលទ្ធផល។",
+    "Skyflow មាននៅលើ AWS Marketplace ហើយអ្នកស្ទាក់ចាប់គឺជាប្រភពបើកចំហនៅលើ GitHub។",
+    "ដំណោះស្រាយនេះធានាសុវត្ថិភាពលំហូរទិន្នន័យដោយមិនចាំបាច់ផ្លាស់ប្តូរកូដភ្នាក់ងារ ឬឧបករណ៍ឡើយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 Skyflow 和 Amazon Bedrock AgentCore Gateway 保护代理工具调用",
+   "summary": "Skyflow 与 Amazon Bedrock AgentCore Gateway 进行了集成，以防止敏感数据进入 AI 代理工具调用和模型上下文。通过将 Skyflow Detect 作为请求和响应拦截器添加到 Amazon Bedrock AgentCore Gateway，系统会在数据到达工具之前对其进行去标识化处理，并在代理读取结果之前将其还原。该集成无需修改现有的代理或工具代码，利用网关作为集中控制点。",
+   "impact": "安全团队和开发人员可以利用此集成来保护代理工具交互，防止敏感数据泄漏给第三方服务或进入模型日志。这种方法可能有助于组织满足数据合规性和驻留义务，而无需修改各个代理或工具。",
+   "keyPoints": [
+    "Skyflow Detect 作为 Amazon Bedrock AgentCore Gateway 上的请求和响应拦截器运行。",
+    "拦截器在数据到达工具之前对其进行去标识化处理，并在代理处理结果之前将其还原。",
+    "Skyflow 可在 AWS Marketplace 获取，拦截器已在 GitHub 上开源。",
+    "该解决方案无需更改代理或工具代码即可保护数据流。"
+   ]
+  },
+  "ko": {
+   "title": "Skyflow와 Amazon Bedrock AgentCore Gateway를 사용하여 에이전트 도구 호출 보호",
+   "summary": "Skyflow와 Amazon Bedrock AgentCore Gateway가 통합되어 AI 에이전트 도구 호출 및 모델 컨텍스트에 민감한 데이터가 포함되지 않도록 보호합니다. Skyflow Detect를 Amazon Bedrock AgentCore Gateway의 요청 및 응답 인터셉터로 추가하여 도구에 도달하기 전에 데이터를 비식별화하고 에이전트가 결과를 읽기 전에 복원합니다. 이 통합은 기존 에이전트나 도구 코드를 수정하지 않고도 작동합니다.",
+   "impact": "보안 팀과 개발자는 이 통합을 사용하여 에이전트 도구 상호 작용을 보호하고 민감한 데이터가 타사 서비스로 유출되거나 모델 로그에 들어가는 것을 방지할 수 있습니다. 이 접근 방식은 개별 에이전트나 도구를 수정하지 않고도 조직이 데이터 규정 준수 의무를 충족하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "Skyflow Detect는 Amazon Bedrock AgentCore Gateway에서 요청 및 응답 인터셉터로 작동합니다.",
+    "인터셉터는 도구에 도달하기 전에 데이터를 비식별화하고 에이전트가 결과를 처리하기 전에 복원합니다.",
+    "Skyflow는 AWS Marketplace에서 제공되며 인터셉터는 GitHub에 오픈 소스로 공개되어 있습니다.",
+    "이 솔루션은 에이전트나 도구 코드를 변경하지 않고도 데이터 흐름을 보호합니다."
+   ]
+  }
+ }
+}

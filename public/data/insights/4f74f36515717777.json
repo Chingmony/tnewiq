@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4f74f36515717777",
+ "contentHash": "56917c3c4468c293",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:48:29.578Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Transform extends application-centric migration across the lifecycle",
+   "summary": "AWS Transform now integrates application-centric migration across all stages of the migration journey, allowing teams to discover, plan, migrate, validate, and track applications instead of individual servers. Using discovery data, the tool identifies application boundaries and dependencies to create logical groups with total cost of ownership and migration tracking. It also features built-in surveys for application owners and a customizable migration dashboard that updates automatically as work progresses.",
+   "impact": "This capability could help development and migration teams streamline large enterprise migrations by providing a unified view of applications, dependencies, and progress, potentially reducing the need for manual status reporting. It may also improve decision-making through better visibility into application costs and migration status across teams.",
+   "keyPoints": [
+    "AWS Transform focuses on applications rather than individual servers throughout the migration journey.",
+    "Identifies application boundaries and dependencies to surface logical groupings with total cost of ownership and tracking.",
+    "Includes built-in surveys for application owners to validate ownership, system boundaries, and business criticality.",
+    "Features a customizable migration dashboard that pulls in data from every job and updates as work progresses."
+   ]
+  },
+  "km": {
+   "title": "AWS Transform ពង្រីកការ移行ផ្ដោតលើកម្មវិធីពេញមួយវដ្តជីវិត",
+   "summary": "AWS Transform ឥឡូវនេះដាក់កម្មវិធីជាមជ្ឈមណ្ឌលនៃរាល់ដំណាក់កាលនៃការ移行 ដែលអនុញ្ញាតឱ្យអ្នកស្វែងរក រៀបចំផែនការ 移行 ផ្ទៀងផ្ទាត់ និងតាមដានកម្មវិធីជំនួសឱ្យម៉ាស៊ីនបម្រើ។ វាប្រើប្រាស់ទិន្នន័យស្វែងរកដើម្បីកំណត់ព្រំដែនកម្មវិធី និងទំនាក់ទំនងអាស្រ័យ ដែលជួយបង្កើតជាក្រុមឡូជីខលជាមួយការចំណាយសរុបនិងការតាមដាន។ វាក៏រួមបញ្ចូលផងដែរនូវការស្ទង់មតិដែលបានបង្កើតស្រាប់ និងផ្ទាំងគ្រប់គ្រងការ移行ដែលអាចប្ដូរតាមបំណងបានដែលធ្វើបច្ចុប្បន្នភាពដោយស្វ័យប្រវត្តិ។",
+   "impact": "លក្ខណៈពិសេសនេះអាចជួយក្រុមការងារសម្រួលដល់ការ移行ទំហំធំដោយផ្តល់នូវទិដ្ឋភាពរួមនៃកម្មវិធី និងកាត់បន្ថយតម្រូវការក្នុងការបង្កើតរបាយការណ៍ស្ថានភាពដាច់ដោយឡែក។ វាក៏អាចបង្កើនភាពច្បាស់លាស់សម្រាប់ការសម្រេចចិត្តផងដែរ។",
+   "keyPoints": [
+    "ផ្ដោតលើកម្មវិធីជាជាងម៉ាស៊ីនបម្រើបុគ្គលក្នុងដំណើរការ移行។",
+    "កំណត់ព្រំដែនកម្មវិធី និងទំនាក់ទំនងអាស្រ័យ ដើម្បីបង្កើតជាក្រុមឡូជីខល។",
+    "មានការស្ទង់មតិដែលបានបង្កើតស្រាប់សម្រាប់ម្ចាស់កម្មវិធីដើម្បីផ្ទៀងផ្ទាត់ភាពជាម្ចាស់។",
+    "មានផ្ទាំងគ្រប់គ្រងការ移行ដែលធ្វើបច្ចុប្បន្នភាពតាមវឌ្ឍនភាពនៃការងារ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Transform 将以应用程序为中心的迁移扩展到整个生命周期",
+   "summary": "AWS Transform 现在将应用程序置于迁移之旅每个阶段的核心，使团队能够发现、规划、迁移、验证和跟踪业务运行的应用程序，而不仅仅是底层服务器。该工具使用发现数据识别应用程序边界和依赖关系，从而提供带有总拥有成本和迁移跟踪的逻辑分组。它还增加了内置调查问卷以及一个随着工作进展自动更新的可定制迁移仪表板。",
+   "impact": "此功能可以帮助开发和迁移团队通过提供应用程序及其进度的统一视图来简化大型企业迁移，从而可能减少手动生成状态报告的需求。它还可能通过更好地了解应用程序成本和迁移状态来改善团队间的决策。",
+   "keyPoints": [
+    "在整个迁移过程中以应用程序为中心，而非仅仅关注底层服务器。",
+    "利用发现数据识别应用程序边界和依赖关系并呈现逻辑分组。",
+    "包含内置调查问卷供应用程序所有者验证所有权和系统边界。",
+    "提供可定制的迁移仪表板，可拉取所有作业的数据并随工作进展更新。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Transform, 애플리케이션 중심 마이그레이션을 전체 수명 주기로 확장",
+   "summary": "AWS Transform은 이제 마이그레이션 여정의 모든 단계에서 애플리케이션을 중심으로 두어, 기본 서버뿐만 아니라 비즈니스 구동 애플리케이션을 검색, 계획, 마이그레이션, 검증 및 추적할 수 있도록 지원합니다. 검색 데이터를 사용하여 애플리케이션 경계와 종속성을 식별하고 총소유비용 및 마이그레이션 추적이 포함된 논리적 그룹화를 제공합니다. 또한 애플리케이션 소유자를 위한 내장 설문조사와 작업 진행에 따라 업데이트되는 맞춤형 마이그레이션 대시보드를 추가했습니다.",
+   "impact": "이 기능은 애플리케이션과 진행 상황에 대한 통합된 보기를 제공하여 대규모 기업 마이그레이션을 간소화하는 데 도움을 줄 수 있으며, 수동 상태 보고서 작성의 필요성을 잠재적으로 줄여줍니다. 또한 비용 및 상태 가시성을 높여 의사결정을 개선할 수 있습니다.",
+   "keyPoints": [
+    "마이그레이션 여정 전반에 걸쳐 개별 서버 대신 애플리케이션에 중점을 둡니다.",
+    "검색 데이터를 사용하여 애플리케이션 경계와 종속성을 식별하고 논리적 그룹을 생성합니다.",
+    "애플리케이션 소유자가 소유권과 시스템 경계를 검증할 수 있는 내장 설문조사를 포함합니다.",
+    "모든 작업의 데이터를 가져와 진행 상황에 따라 업데이트되는 맞춤형 대시보드를 제공합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "274f3857c109095a",
+ "contentHash": "90c7c4c4867d5a7f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:51:04.920Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Docker patches Java4Shell and the NGINX HTTP/2 with Docker Hardened Images",
+   "summary": "Docker has released fixed images in the Docker Hardened Images catalog for Java4Shell and NGINX HTTP/2 flaws. Java4Shell, designated as CVE-2026-114938, is a memory-corruption vulnerability affecting Java runtimes on specific x86-64 hardware supporting AVX-512 VBMI. Fixed runtimes and NGINX updates are being rolled out vendor by vendor.",
+   "impact": "Development and security teams using affected Java versions or NGINX could be exposed to remote code execution risks. Teams may need to check their runtime versions, redeploy fixed images, or apply mitigation flags such as -XX:-UseBASE64Intrinsics until updates are fully integrated.",
+   "keyPoints": [
+    "Java4Shell is a memory-corruption bug in the Java runtime affecting Java 17.0.6 and later across OpenJDK vendors.",
+    "The vulnerability requires an x86-64 CPU with AVX-512 VBMI and can lead to unauthenticated remote code execution.",
+    "Docker Hardened Images for Amazon Corretto, SapMachine, Azul Zulu, and NGINX 1.30.7 and 1.31.9 have been updated.",
+    "Users can temporarily mitigate Java4Shell by starting Java with -XX:-UseBASE64Intrinsics if a fixed build is not yet available."
+   ]
+  },
+  "km": {
+   "title": "Docker ធ្វើបច្ចុប្បន្នភាព Java4Shell និង NGINX HTTP/2 ជាមួយ Docker Hardened Images",
+   "summary": "Docker បានដាក់ឱ្យប្រើប្រាស់រូបភាពដែលបានជួសជុលនៅក្នុងកាតាឡុក Docker Hardened Images សម្រាប់បញ្ហាខ្សោយ Java4Shell និង NGINX HTTP/2។ Java4Shell ដែលជា CVE-2026-114938 គឺជាកំហុសខូចខាតអង្គចងចាំនៅក្នុង Java runtime ដែលប៉ះពាល់ដល់ផ្នែករឹង x86-64 ជាក់លាក់។ រូបភាពដែលបានជួសជុលសម្រាប់រដ្ឋបាលផ្សេងៗកំពុងត្រូវបានដាក់ឱ្យប្រើប្រាស់ជាបន្តបន្ទាប់។",
+   "impact": "ក្រុមការងារផ្នែកអភិវឌ្ឍន៍ និងសន្តិសុខដែលប្រើប្រាស់កំណែ Java ឬ NGINX ដែលរងផលប៉ះពាល់អាចប្រឈមនឹងហានិភ័យនៃការប្រតិបត្តិ ਕੋដពីចម្ងាយ។ ក្រុមការងារអាចចាំបាច់ត្រូវពិនិត្យមើលកំណែរត់ការរបស់ខ្លួន ដាក់ពង្រាយរូបភាពដែលបានជួសជុលឡើងវិញ ឬអនុវត្តការកំណត់ទប់ស្កាត់រហូតដល់ការអាប់ដេតត្រូវបានបញ្ចប់។",
+   "keyPoints": [
+    "Java4Shell គឺជាកំហុសខូចខាតអង្គចងចាំនៅក្នុង Java runtime ដែលប៉ះពាល់ដល់ Java 17.0.6 និងជំនាន់ក្រោយៗទៀត។",
+    "ភាពខ្សោយនេះតម្រូវឱ្យមាន CPU ប្រភេទ x86-64 ដែលគាំទ្រ AVX-512 VBMI ដើម្បីអាចបញ្ឆោតឱ្យដំណើរការកូដបាន។",
+    "រូបភាព Docker Hardened Images សម្រាប់ Amazon Corretto, SapMachine, Azul Zulu និង NGINX ត្រូវបានធ្វើបច្ចុប្បន្នភាពរួចហើយ។",
+    "អ្នកប្រើប្រាស់អាចកាត់បន្ថយហានិភ័យបណ្តោះអាសន្នដោយចាប់ផ្តើម Java ជាមួយ -XX:-UseBASE64Intrinsics។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Docker 通过 Docker Hardened Images 修复 Java4Shell 和 NGINX HTTP/2 漏洞",
+   "summary": "Docker 已在 Docker Hardened Images 目录中发布了针对 Java4Shell 和 NGINX HTTP/2 漏洞的修复镜像。Java4Shell 被指定为 CVE-2026-114938，是 Java 运行时中的一个内存损坏漏洞，仅在使用特定支持 AVX-512 VBMI 的 x86-64 硬件时触发。各大厂商的修复镜像正在陆续推出中。",
+   "impact": "使用受影响的 Java 版本或 NGINX 的开发和安全团队可能面临远程代码执行风险。团队可能需要检查其运行时版本、重新部署修复后的镜像，或者在完全集成更新之前应用 -XX:-UseBASE64Intrinsics 等缓解标志。",
+   "keyPoints": [
+    "Java4Shell 是 Java 运行时中的内存破坏漏洞，影响所有 OpenJDK 供应商的 Java 17.0.6 及更高版本。",
+    "该漏洞仅在 JVM 运行于支持 AVX-512 VBMI 的 x86-64 CPU 上时才能利用，并可能导致未经身份验证的远程代码 execution。",
+    "Amazon Corretto、SapMachine、Azul Zulu 以及 NGINX 的 Docker Hardened Images 已更新修复。",
+    "在镜像运行修复版本之前，用户可以临时通过 -XX:-UseBASE64Intrinsics 启动 Java 来缓解风险。"
+   ]
+  },
+  "ko": {
+   "title": "Docker, Docker Hardened Images를 통해 Java4Shell 및 NGINX HTTP/2 패치",
+   "summary": "Docker는 Java4Shell 및 NGINX HTTP/2 취약점에 대한 수정된 이미지를 Docker Hardened Images 카탈로그에 게시했습니다. CVE-2026-114938으로 지정된 Java4Shell은 AVX-512 VBMI를 지원하는 특정 x86-64 하드웨어에서 Java 런타임에 영향을 미치는 메모리 손상 버그입니다. 공급업체별로 수정된 런타임과 NGINX 업데이트가 순차적으로 배포되고 있습니다.",
+   "impact": "영향을 받는 Java 버전이나 NGINX를 사용하는 개발 및 보안 팀은 원격 코드 실행 위험에 노출될 수 있습니다. 팀은 런타임 버전을 확인하고, 수정된 이미지를 재배포하거나 업데이트가 완전히 적용될 때까지 -XX:-UseBASE64Intrinsics 같은 완화 플래그를 적용해야 할 수 있습니다.",
+   "keyPoints": [
+    "Java4Shell은 모든 OpenJDK 공급업체의 Java 17.0.6 이상에 영향을 미치는 Java 런타임의 메모리 손상 버그입니다.",
+    "이 취약점은 JVM이 AVX-512 VBMI를 지원하는 x86-64 CPU에서 실행될 때만 도달 가능하며 인증되지 않은 원격 코드 실행으로 이어질 수 있습니다.",
+    "Amazon Corretto, SapMachine, Azul Zulu 및 NGINX용 Docker Hardened Images가 카탈로그에 업데이트되었습니다.",
+    "수정된 빌드가 실행될 때까지 -XX:-UseBASE64Intrinsics를 사용하여 Java를 시작함으로써 일시적으로 위험을 완화할 수 있습니다."
+   ]
+  }
+ }
+}

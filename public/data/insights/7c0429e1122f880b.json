@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7c0429e1122f880b",
+ "contentHash": "5aa91833c34f6fc0",
+ "model": "gemini-flash-latest",
+ "generatedAt": "2026-11-19T21:42:08.652Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon SageMaker AI now detects latency drift, idle GPUs, and missed optimizations on your inference endpoints",
+   "summary": "Amazon SageMaker AI now automatically monitors generative AI inference endpoints to identify opportunities for performance improvement and cost reduction. The feature uses operational metrics such as latency, GPU usage, and serving configurations without reading request or response content. Users receive alerts through AWS Health and email, which direct them to an agentic experience in Amazon SageMaker Studio for benchmarking alternative setups.",
+   "impact": "Developers and teams managing model deployments may more easily detect degraded performance, unused GPU resources, and missing configurations. Running benchmarks on separate compute allows organizations to safely compare response times, throughput, and costs before applying changes to production.",
+   "keyPoints": [
+    "Monitoring is enabled by default for GPU endpoints using vLLM serving containers, with an opt-out option.",
+    "The tool identifies three main findings: latency drift, unused GPU capacity, and configuration gaps.",
+    "Findings are delivered through AWS Health notifications and emails with direct links to Amazon SageMaker Studio.",
+    "Benchmarks execute on separate compute, ensuring production endpoints remain unchanged until explicitly updated."
+   ]
+  },
+  "km": {
+   "title": "ឥឡូវនេះ Amazon SageMaker AI អាចរកឃើញភាពយឺតយ៉ាវនៃការឆ្លើយតប GPU ទំនេរ និងការបង្កើនប្រសិទ្ធភាពដែលបានខកខាននៅលើចំណុចចុងនៃការសន្និដ្ឋានរបស់អ្នក",
+   "summary": "Amazon SageMaker AI ឥឡូវនេះអាចតាមដានចំណុចចុងនៃការសន្និដ្ឋាន generative AI ដោយស្វ័យប្រវត្តិដើម្បីកំណត់ឱកាសកែលម្អប្រសិទ្ធភាព និងកាត់បន្ថយការចំណាយ។ មុខងារនេះពិនិត្យមើលតែសញ្ញាប្រតិបត្តិការ ដូចជា latency ការប្រើប្រាស់ GPU និងការកំណត់រចនាសម្ព័ន្ធបម្រើ ដោយមិនអានខ្លឹមសារនៃសំណើ ឬការឆ្លើយតបឡើយ។ អ្នកប្រើប្រាស់នឹងទទួលបានការជូនដំណឹងតាមរយៈ AWS Health និងអ៊ីមែល ដែលអនុញ្ញាតឱ្យពួកគេចូលទៅកាន់ Amazon SageMaker Studio ដើម្បីធ្វើតេស្តប្រៀបធៀបជម្រើសផ្សេងៗ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងក្រុមការងារអាចរកឃើញកាន់តែងាយស្រួលនូវការធ្លាក់ចុះនៃល្បឿន ធនធាន GPU ដែលទំនេរ និងការកំណត់ដែលខកខាន។ ការដំណើរការតេស្តនៅលើកុំព្យូទ័រដាច់ដោយឡែកអាចជួយស្ថាប័នប្រៀបធៀបរយៈពេលឆ្លើយតប និងការចំណាយដោយសុវត្ថិភាព មុនពេលអនុវត្តការផ្លាស់ប្តូរទៅលើប្រព័ន្ធផលិតកម្ម។",
+   "keyPoints": [
+    "ការតាមដានត្រូវបានបើកតាមលំនាំដើមសម្រាប់ចំណុចចុង GPU ដែលប្រើ vLLM ហើយអាចជ្រើសរើសបិទវិញបាន។",
+    "ប្រព័ន្ធកំណត់រកបញ្ហាសំខាន់ៗចំនួនបី៖ ភាពយឺតយ៉ាវនៃការឆ្លើយតប សមត្ថភាព GPU ដែលមិនបានប្រើ និងការកំណត់រចនាសម្ព័ន្ធខ្វះខាត។",
+    "ការរកឃើញត្រូវបានផ្ញើតាមរយៈការជូនដំណឹង AWS Health និងអ៊ីមែល ដោយភ្ជាប់ទៅកាន់ Amazon SageMaker Studio។",
+    "ការធ្វើតេស្តប្រៀបធៀបដំណើរការលើប្រព័ន្ធកុំព្យូទ័រដាច់ដោយឡែក ដូច្នេះចំណុចចុងផលិតកម្មនឹងមិនផ្លាស់ប្តូរទេរហូតដល់មានការយល់ព្រម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon SageMaker AI 现可检测推理端点上的延迟漂移、闲置 GPU 和遗漏的优化",
+   "summary": "Amazon SageMaker AI 现可自动监控生成式 AI 推理端点，帮助发现提升性能和降低成本的机会。该功能仅依据延迟、GPU 利用率和提供服务的配置等运行指标进行分析，不会读取请求或响应内容。系统会通过 AWS Health 和电子邮件发送通知，引导用户前往 Amazon SageMaker Studio 中的智能体体验进行基准测试和配置对比。",
+   "impact": "开发人员和技术团队能够更容易地发现性能衰退、闲置的 GPU 算力以及未应用的配置优化。由于基准测试在独立的计算资源上运行，团队可以在生产端点变更前安全地评估延迟、吞吐量和成本。",
+   "keyPoints": [
+    "该监控默认面向使用 vLLM 容器和 GPU 实例的端点开启，并支持选择退出。",
+    "检测涵盖三大类结果：延迟漂移、未使用的 GPU 容量以及配置缺失。",
+    "通知通过 AWS Health 和电子邮件发出，并可直接跳转至 Amazon SageMaker Studio。",
+    "基准测试在独立算力上运行，在用户主动应用之前不会更改生产端点。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon SageMaker AI, 추론 엔드포인트의 지연 시간 드리프트, 유휴 GPU 및 누락된 최적화 감지 지원",
+   "summary": "Amazon SageMaker AI가 생성형 AI 추론 엔드포인트를 자동으로 모니터링하여 성능 개선 및 비용 절감 기회를 식별합니다. 이 기능은 요청이나 응답 내용을 읽지 않고 지연 시간, GPU 사용률, 서비스 구성과 같은 운영 신호만을 분석합니다. 사용자는 AWS Health 및 이메일을 통해 알림을 받아 Amazon SageMaker Studio 환경에서 대안 구성을 벤치마킹할 수 있습니다.",
+   "impact": "개발자와 운영팀은 지연 시간 증가, 유휴 GPU 자원, 누락된 최적화 구성을 더 빠르게 감지할 수 있습니다. 벤치마크가 별도의 컴퓨팅에서 실행되므로 프로덕션 환경에 바로 영향을 주지 않고 응답 시간, 처리량, 비용을 안전하게 비교할 수 있습니다.",
+   "keyPoints": [
+    "vLLM 서빙 컨테이너 및 GPU 인스턴스를 사용하는 엔드포인트에 기본적으로 모니터링이 활성화되며, 비활성화 옵션도 제공됩니다.",
+    "지연 시간 드리프트, 미사용 용량, 구성 미흡 등 세 가지 주요 문제를 감지합니다.",
+    "결과는 AWS Health 알림 및 이메일로 전송되며 Amazon SageMaker Studio와 직접 연결됩니다.",
+    "벤치마크는 별도의 컴퓨팅에서 실행되므로 사용자가 결과를 적용하기 전까지 프로덕션 엔드포인트는 변경되지 않습니다."
+   ]
+  }
+ }
+}

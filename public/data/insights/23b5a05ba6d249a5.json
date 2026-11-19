@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "23b5a05ba6d249a5",
+ "contentHash": "3d689eb7d96042d0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:48:08.806Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Revenue Measurement now supports deal-level revenue attribution for AWS Marketplace offers and opportunities",
+   "summary": "AWS has introduced deal-level revenue attribution for AWS Revenue Measurement capabilities, allowing partners to map measured product revenue to specific AWS Marketplace offers and APN Customer Engagements (ACE) opportunities. Partners can now view attributed revenue by offers and opportunities on the Attributed Revenue dashboard in AWS Partner Central for components hosted in their own AWS accounts. This is enabled through Revenue Attribution IDs and Marketplace Revenue Share, which allow partners to allocate and automate measured revenue by deal.",
+   "impact": "This capability could help partners gain deeper visibility into their sales performance by mapping aggregated product revenue directly to specific deals. Security and technology teams managing partner accounts may use these new identifiers and APIs to track and automate revenue attribution.",
+   "keyPoints": [
+    "AWS Revenue Measurement now supports deal-level revenue attribution for AWS Marketplace offers and opportunities.",
+    "Partners can view attributed revenue by offers and opportunities on the Attributed Revenue dashboard in AWS Partner Central.",
+    "Two new capabilities enable this: Revenue Attribution IDs and Marketplace Revenue Share.",
+    "Partners can manage these capabilities in AWS Partner Central or through dedicated APIs."
+   ]
+  },
+  "km": {
+   "title": "AWS Revenue Measurement ឥឡូវនេះគាំទ្រការ归属កម្រិតកិច្ចព្រមព្រៀងសម្រាប់ AWS Marketplace offers និង opportunities",
+   "summary": "AWS បានប្រកាសពីការ归属កម្រិតកិច្ចព្រមព្រៀងសម្រាប់មុខងារ AWS Revenue Measurement ដែលអនុញ្ញាតឱ្យដៃគូអាចមើលឃើញពីរបៀបដែលប្រាក់ចំណូល AWS ដែលបានវាស់វែងសម្រាប់ផលិតផលរបស់ពួកគេត្រូវគ្នាទៅនឹង AWS Marketplace offers និង APN Customer Engagements (ACE) opportunities ជាក់លាក់។ ដៃគូឥឡូវនេះអាចមើលប្រាក់ចំណូលតាមការផ្តល់ជូន និងឱកាសនៅលើផ្ទាំងគ្រប់គ្រង Attributed Revenue នៅក្នុង AWS Partner Central។ លក្ខណៈពិសេសថ្មីពីរគឺ Revenue Attribution IDs និង Marketplace Revenue Share បានធ្វើឱ្យរឿងនេះអាចកើតមានឡើង។",
+   "impact": "សមត្ថភាពនេះអាចជួយឱ្យដៃគូនានាទទួលបានការយល់ដឹងកាន់តែស៊ីជម្រៅអំពីដំណើរការលក់ដោយផ្សារភ្ជាប់ប្រាក់ចំណូលផលិតផលទៅនឹងកិច្ចព្រមព្រៀងនីមួយៗ។ ក្រុមការងារអាចប្រើប្រាស់ឧបករណ៍ទាំងនេះដើម្បីតាមដាន និងស្វ័យប្រវត្តិកម្មការបែងចែកប្រាក់ចំណូល។",
+   "keyPoints": [
+    "AWS Revenue Measurement គាំទ្រការបែងចែកប្រាក់ចំណូលកម្រិតកិច្ចព្រមព្រៀង។",
+    "ដៃគូអាចមើលប្រាក់ចំណូលតាមការផ្តល់ជូន និងឱកាសនៅលើផ្ទាំងគ្រប់គ្រង Attributed Revenue។",
+    "Revenue Attribution IDs និង Marketplace Revenue Share គឺជាមុខងារថ្មីពីរដែលបើកដំណើរការមុខងារនេះ។",
+    "អាចគ្រប់គ្រងបានតាមរយៈ AWS Partner Central ឬ API ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Revenue Measurement 现已支持针对 AWS Marketplace 优惠和商机的交易级收入归因",
+   "summary": "AWS 推出了针对 AWS Revenue Measurement 功能的交易级收入归因，使合作伙伴能够将其产品的 AWS 测量收入映射到特定的 AWS Marketplace 优惠和 APN Customer Engagements (ACE) 商机。合作伙伴现在可以在 AWS Partner Central 的 Attributed Revenue 仪表板上按优惠和商机查看归因收入。两项新功能使这一切成为可能：收入归因 ID（Revenue Attribution IDs）和 Marketplace 收入共享（Marketplace Revenue Share）。",
+   "impact": "这项功能可以帮助合作伙伴通过将汇总的产品收入直接映射到特定交易来更深入地了解销售业绩。技术和管理团队可以通过 AWS Partner Central 或专用 API 管理这些归因功能。",
+   "keyPoints": [
+    "AWS Revenue Measurement 现支持 AWS Marketplace 优惠和商机的交易级收入归因。",
+    "合作伙伴可在 AWS Partner Central 的 Attributed Revenue 仪表板查看按优惠和商机分类的归因收入。",
+    "通过收入归因 ID 和 Marketplace 收入 Share 两项新功能实现。",
+    "合作伙伴可以在 AWS Partner Central 或通过 API 管理这些功能。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Revenue Measurement, 이제 AWS Marketplace offers 및 opportunities에 대한 거래 수준 수익 기인 지원",
+   "summary": "AWS는 AWS Revenue Measurement 기능에 대한 거래 수준 수익 기인을 발표하여 파트너가 자사 제품에 대해 측정된 AWS 수익을 특정 AWS Marketplace offers 및 APN Customer Engagements (ACE) opportunities에 매핑할 수 있도록 했습니다. 파트너는 이제 AWS Partner Central의 Attributed Revenue 대시보드에서 offers 및 opportunities별로 기인된 수익을 확인할 수 있습니다. Revenue Attribution IDs와 Marketplace Revenue Share라는 두 가지 새로운 기능이 이를 가능하게 합니다.",
+   "impact": "이 기능은 파트너가 집계된 제품 수익을 특정 거래에 직접 매핑하여 영업 성과에 대한 더 나은 가시성을 확보하는 데 도움이 될 수 있습니다. 기술 팀은 AWS Partner Central 또는 API를 통해 이러한 기능을 관리할 수 있습니다.",
+   "keyPoints": [
+    "AWS Revenue Measurement가 AWS Marketplace offers 및 opportunities에 대한 거래 수준 수익 기인을 지원합니다.",
+    "파트너는 AWS Partner Central의 Attributed Revenue 대시보드에서 기인된 수익을 확인할 수 있습니다.",
+    "Revenue Attribution IDs와 Marketplace Revenue Share가 새로운 기능을 가능하게 합니다.",
+    "파트너는 AWS Partner Central 또는 API를 통해 관리할 수 있습니다."
+   ]
+  }
+ }
+}

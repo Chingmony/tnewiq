@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6b554c20d6c6a51d",
+ "contentHash": "f301f7f6d9d3c2dd",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:49:11.906Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Optimize AI economics on Amazon Bedrock with Accenture’s sequenced approach",
+   "summary": "Enterprises scaling AI on Amazon Bedrock often experience rising total token spend despite falling per-token prices, driven by broader adoption and agentic workloads. To address this, Accenture outlines a sequenced approach using six optimization levers built on Amazon Bedrock features, AWS billing tools, and telemetry services. Accenture applied these levers across four client engagements, resulting in measured token spend reductions of approximately 40 to 85 percent. The methodology begins with attribution through cost allocation tags and a Cost per Business Transaction framework to connect cloud spending directly to business outcomes.",
+   "impact": "Security teams, developers, and technology users managing large-scale AI deployments may use these native Amazon Bedrock tools and cost allocation tags to gain better visibility into cloud invoices. Implementing these structured optimization levers could help organizations control rising token expenditures and measure true operational costs without sacrificing output quality.",
+   "keyPoints": [
+    "Token spend can increase even as per-token prices fall due to rising adoption and agentic workloads multiplying invocations.",
+    "Accenture applied six optimization levers across four client engagements, achieving token spend reductions of about 40 to 85 percent where savings were measured.",
+    "Cost allocation tags and AWS telemetry services like CloudWatch and Cost and Usage Reports are foundational for tracking AI consumption by team and workload.",
+    "The Cost per Business Transaction framework aggregates all model invocations, retries, and tool calls into a single metric tied to business outcomes."
+   ]
+  },
+  "km": {
+   "title": "បង្កើនប្រសិទ្ធភាពសេដ្ឋកិច្ច AI នៅលើ Amazon Bedrock ជាមួយនឹងវិធីសាស្ត្រតាមលំដាប់លំដោយរបស់ Accenture",
+   "summary": "សហគ្រាសដែលពង្រីក AI នៅលើ Amazon Bedrock ជារឿយៗប្រឈមមុខនឹងការចំណាយលើតូខែនកើនឡើង ទោះបីជាតម្លៃក្នុងមួយតូខែនធ្លាក់ចុះក៏ដោយ ដោយសារការប្រើប្រាស់កាន់តែទូលំទូលាយ។ ដើម្បីដោះស្រាយបញ្ហានេះ Accenture បានណែនាំវិធីសាស្ត្រតាមលំដាប់លំដោយដោយប្រើដងអង្រ្កឹលបង្កើនប្រសិទ្ធភាពចំនួនប្រាំាំមួយនៅលើ Amazon Bedrock។ ការអនុវត្តទាំងនេះបានជួយកាត់បន្ថយការចំណាយលើតូខែនប្រហែល 40 ដល់ 85 ភាគរយនៅក្នុងគម្រោងអតិថិជនចំនួនបួន។ វិធីសាស្ត្រនេះចាប់ផ្តើមដោយការតាមដានការចំណាយតាមរយៈស្លាកកំណត់ការចំណាយ និងក្របខ័ណ្ឌតម្លៃក្នុងមួយប្រតិបត្តិការអាជីវកម្ម។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យា និងអ្នកអភិវឌ្ឍន៍ដែលគ្រប់គ្រងការដាក់ពង្រាយ AI ខ្នាតធំអាចប្រើប្រាស់ឧបករណ៍ទាំងនេះដើម្បីទទួលបានភាពមើលឃើញកាន់តែប្រសើរឡើងលើវិក្កយបត្រពពក។ ការអនុវត្តតាមវិធីសាស្ត្រនេះអាចជួយអង្គការនានាក្នុងការគ្រប់គ្រងការចំណាយលើតូខែន និងវាស់វែងថ្លៃដើមប្រតិបត្តិការជាក់ស្តែង។",
+   "keyPoints": [
+    "ការចំណាយលើតូខែនអាចកើនឡើង ទោះបីជាតម្លៃក្នុងមួយតូខែនធ្លាក់ចុះក៏ដោយ ដោយសារការប្រើប្រាស់ AI កាន់តែច្រើន។",
+    "Accenture បានអនុវត្តដងអង្រ្កឹលបង្កើនប្រសិទ្ធភាពចំនួនប្រាំាំមួយ ដែលនាំឱ្យការចំណាយលើតូខែនធ្លាក់ចុះប្រហែល 40 ដល់ 85 ភាគរយ។",
+    "ស្លាកកំណត់ការចំណាយ និងសេវាកម្មទូរលេខរបស់ AWS គឺជាមូលដ្ឋានគ្រឹះសម្រាប់ការតាមដានការប្រើប្រាស់ AI តាមក្រុមការងារ។",
+    "ក្របខ័ណ្ឌតម្លៃក្នុងមួយប្រតិបត្តិការអាជីវកម្មជួយបូកសរុបការហៅប្រើប្រាស់ម៉ូដែលទាំងអស់ទៅជាការវាស់វែងតែមួយដែលទាក់ទងនឹងលទ្ធផលអាជីវកម្ម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "利用 Accenture 的有序方法优化 Amazon Bedrock 上的 AI 经济效益",
+   "summary": "随着企业在 Amazon Bedrock 上扩展 AI 应用，尽管每个 token 的价格有所下降，但由于采用率的提高和智能体工作负载的增加，总 token 支出往往仍在增长。为了解决这个问题，Accenture 提出了一种有序的方法，利用 Amazon Bedrock 的原生功能、AWS 计费工具和遥测服务来进行六个优化杠杆的操作。Accenture 在四个客户项目中应用了这些杠杆，测得 token 支出减少了约 40% 到 85%。该方法从通过成本分配标签进行成本归属以及通过业务交易成本框架将云支出与业务成果连接起来开始。",
+   "impact": "管理大规模 AI 部署的开发人员、安全团队和技术用户可以利用这些原生的 Amazon Bedrock 工具和成本分配标签，更好地了解云账单。实施这些结构化的优化杠杆可能有助于组织控制不断上升的 token 支出，并在不牺牲输出质量的情况下衡量真实的运营成本。",
+   "keyPoints": [
+    "由于采用率上升和智能体工作负载成倍增加，即使每个 token 的价格下降，token 总支出也可能增加。",
+    "Accenture 在四个客户项目中应用了六个优化杠杆，在测量到节省的案例中，token 支出减少了约 40% 到 85%。",
+    "成本分配标签以及 AWS 遥测服务（如 CloudWatch 和 Cost and Usage Reports）是按团队和工作负载跟踪 AI 消耗的基础。",
+    "业务交易成本框架将所有模型调用、重试和工具调用聚合到一个与业务成果挂钩的单一成本指标中。"
+   ]
+  },
+  "ko": {
+   "title": "Accenture의 순차적 접근 방식으로 Amazon Bedrock에서 AI 경제성 최적화하기",
+   "summary": "기업들이 Amazon Bedrock에서 AI를 확장함에 따라 토큰당 가격이 하락하더라도 채택률 증가와 에이전트 워크로드로 인해 전체 토큰 지출이 증가하는 경우가 많습니다. 이에 대응하여 Accenture는 Amazon Bedrock 기능, AWS 청구 도구 및 텔레메트리 서비스를 기반으로 하는 6가지 최적화 레버를 활용하는 순차적 접근 방식을 제시합니다. Accenture는 4개의 고객 참여 사례에 이러한 레버를 적용하여 측정된 토큰 지출을 약 40~85퍼센트 줄였습니다. 이 방법론은 비용 할당 태그를 통한 비용 귀속과 비즈니스 거래당 비용 프레임워크를 통해 클라우드 지출을 비즈니스 결과와 직접 연결하는 것으로 시작합니다.",
+   "impact": "대규모 AI 배포를 관리하는 개발자, 보안 팀 및 기술 사용자는 이러한 기본 Amazon Bedrock 도구와 비용 할당 태그를 사용하여 클라우드 청구서에 대한 가시성을 높일 수 있습니다. 이러한 체계적인 최적화 레버를 구현하면 조직이 증가하는 토큰 지출을 제어하고 출력 품질을 저하시키지 않으면서 실제 운영 비용을 측정하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "토큰당 가격이 하락하더라도 채택률 상승과 에이전트 워크로드로 인해 토큰 총 지출이 증가할 수 있습니다.",
+    "Accenture는 4개의 고객 사례에 6가지 최적화 레버를 적용하여 절감액이 측정된 경우 토큰 지출을 약 40~85퍼센트 줄였습니다.",
+    "비용 할당 태그와 CloudWatch 및 Cost and Usage Reports 같은 AWS 텔레메트리 서비스는 팀 및 워크로드별 AI 소비를 추적하는 기반이 됩니다.",
+    "비즈니스 거래당 비용 프레임워크는 모든 모델 호출, 재시도, 도구 호출을 비즈니스 결과와 연결된 단일 비용 수치로 집계합니다."
+   ]
+  }
+ }
+}

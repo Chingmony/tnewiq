@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1b3aafed7dd5d45c",
+ "contentHash": "0351eefd4a3b3727",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:50:34.132Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Introducing Tool Retrieval in the Gemini API",
+   "summary": "Google has announced Tool Retrieval in the Gemini API, currently available in preview. This feature allows agents to access hundreds of tools while using fewer tokens.",
+   "impact": "Developers building AI agents could potentially scale tool usage more efficiently and reduce token consumption when working with large numbers of tools.",
+   "keyPoints": [
+    "Tool Retrieval is now in preview in the Gemini API.",
+    "It enables agents to access hundreds of tools.",
+    "The feature helps use fewer tokens."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យដំណើរការមុខងារ Tool Retrieval នៅក្នុង Gemini API",
+   "summary": "Google បានប្រកាសដាក់ឱ្យប្រើប្រាស់មុខងារ Tool Retrieval នៅក្នុង Gemini API ដែលបច្ចុប្បន្នស្ថិតក្នុងដំណាក់កាលមើលជាមុន។ មុខងារនេះអនុញ្ញាតឱ្យភ្នាក់ងារចូលប្រើប្រាស់ឧបករណ៍រាប់រយខណៈពេលដែលប្រើប្រាស់តូខែនតិចជាងមុន។",
+   "impact": "អ្នកអភិវឌ្ឍន៍អាចនឹងគ្រប់គ្រងការប្រើប្រាស់ឧបករណ៍បានកាន់តែមានប្រសិទ្ធភាព និងកាត់បន្ថយការប្រើប្រាស់តូខែននៅពេលធ្វើការជាមួយឧបករណ៍ជាច្រើន។",
+   "keyPoints": [
+    "Tool Retrieval ឥឡូវនេះមានក្នុងដំណាក់កាលមើលជាមុននៅក្នុង Gemini API។",
+    "វាអនុញ្ញាតឱ្យភ្នាក់ងារចូលប្រើប្រាស់ឧបករណ៍រាប់រយ។",
+    "មុខងារនេះជួយប្រើប្រាស់តូខែនតិចជាងមុន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Gemini API 引入工具检索功能",
+   "summary": "谷歌在 Gemini API 中推出了工具检索功能，目前正处于预览阶段。该功能使代理能够访问数百个工具，同时消耗更少的令牌。",
+   "impact": "开发人员在构建 AI 代理时，可能会更高效地扩展工具使用并减少令牌消耗。",
+   "keyPoints": [
+    "工具检索功能现已在 Gemini API 中推出预览。",
+    "它允许代理访问数百个工具。",
+    "该功能有助于减少令牌使用量。"
+   ]
+  },
+  "ko": {
+   "title": "Gemini API의 툴 리트리벌 소개",
+   "summary": "구글은 Gemini API에 툴 리트리벌 기능을 도입했으며, 현재 미리 보기로 제공하고 있다고 발표했습니다. 이 기능을 통해 에이전트는 더 적은 토큰을 사용하면서 수백 개의 툴에 액세스할 수 있습니다.",
+   "impact": "개발자는 AI 에이전트를 구축할 때 툴 사용을 더 효율적으로 확장하고 토큰 소비를 줄일 수 있을 것입니다.",
+   "keyPoints": [
+    "툴 리트리벌이 Gemini API에서 미리 보기로 제공됩니다.",
+    "에이전트가 수백 개의 툴에 액세스할 수 있도록 합니다.",
+    "더 적은 토큰을 사용하도록 돕습니다."
+   ]
+  }
+ }
+}

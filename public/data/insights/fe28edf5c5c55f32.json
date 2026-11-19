@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fe28edf5c5c55f32",
+ "contentHash": "c2d7bd7d6b843f2d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:49:54.956Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Keep inference running through regional capacity shortfalls with cross-Region inference routing in Amazon SageMaker AI",
+   "summary": "Amazon SageMaker AI has introduced cross-Region inference routing to help maintain model availability during regional GPU capacity shortages. The feature uses a new resource called the inference router, providing applications with a single invocation path across endpoints and inference components in multiple AWS Regions and accounts. The router prioritizes the local Region when healthy and automatically shifts new requests to registered destinations in other Regions when capacity falls short.",
+   "impact": "This capability could save development and operations teams from building custom failover logic for cross-Region model serving. Security and infrastructure teams may benefit from standardized multi-Region traffic management that preserves existing endpoint configurations and access controls across AWS accounts.",
+   "keyPoints": [
+    "Cross-Region inference routing uses an inference router resource to give applications a single invocation path across multiple AWS Regions and accounts.",
+    "The router prefers its local Region while the local destination is healthy and shifts new traffic to alternative destinations when necessary.",
+    "It supports real-time endpoints, inference components, and asynchronous endpoints without changing existing endpoint deployments.",
+    "Real-time responses include routing reasons to show which destination served the request and why."
+   ]
+  },
+  "km": {
+   "title": "រក្សាដំណើរការ inference ឆ្លងកាត់ការខ្វះខាតសមត្ថភាពថ្នាក់តំបន់ជាមួយ cross-Region inference routing ក្នុង Amazon SageMaker AI",
+   "summary": "Amazon SageMaker AI បានដាក់ឱ្យប្រើប្រាស់ cross-Region inference routing ដើម្បីជួយរក្សាចរាចរណ៍ម៉ូដែលពេលមានការខ្វះខាតសមត្ថភាព GPU ថ្នាក់តំបន់។ លក្ខណៈពិសេសនេះប្រើប្រាស់ធនធានថ្មីហៅថា inference router ដែលផ្តល់ផ្លូវតែមួយសម្រាប់ការហៅប្រើប្រាស់ឆ្លងកាត់ endpoints និង inference components នៅច្រើន Region និង account របស់ AWS។ router នេះផ្តល់អាទិភាពដល់ Region ក្នុងស្រុកនៅពេលមានសុខភាពល្អ និងប្តូរការស្នើសុំទៅកាន់ Region ផ្សេងទៀតដោយស្វ័យប្រវត្តិនៅពេលមានបញ្ហាខ្វះសមត្ថភាព។",
+   "impact": "សមត្ថភាពនេះអាចជួយសង្គ្រោះក្រុមអភិវឌ្ឍន៍ និងប្រតិបត្តិការពីការកសាងកូដដោះស្រាយបញ្ហាដួលរលំដោយខ្លួនឯងសម្រាប់ការให้บริการម៉ូដែលឆ្លង Region។ ក្រុមសន្តិសុខ និងហេដ្ឋារចនាសម្ព័ន្ធអាចទទួលបានផលប្រយោជន៍ពីការគ្រប់គ្រងចរាចរណ៍ឆ្លង Region ដែលមានស្តង់ដារ។",
+   "keyPoints": [
+    "Cross-Region inference routing ប្រើប្រាស់ធនធាន inference router ដើម្បីផ្តល់ផ្លូវហៅតែមួយសម្រាប់កម្មវិធីឆ្លងកាត់ AWS Regions និង accounts ជាច្រើន។",
+    "Router ចូលចិត្ត Region ក្នុងស្រុកនៅពេលវាមានសុខភាពល្អ និងប្តូរទៅកាន់ទិសដៅផ្សេងទៀតនៅពេលចាំបាច់។",
+    "វាគាំទ្រ real-តែ endpoints, inference components និង asynchronous endpoints ដោយមិនបាច់ផ្លាស់ប្តូរការដាក់ពង្រាយ endpoint ដែលមានស្រាប់នោះទេ។",
+    "ការឆ្លើយតបពេលវេលាពិតប្រាកដរួមបញ្ចូលទាំងហេតុផលនៃការបញ្ជូនបន្តដើម្បីបង្ហាញពីទីតាំងដែលបានបម្រើសំណើ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过 Amazon SageMaker AI 的跨区域推理路由在区域容量短缺时保持推理运行",
+   "summary": "Amazon SageMaker AI 引入了跨区域推理路由功能，以帮助在区域 GPU 容量短缺时维持模型的高可用性。该功能使用名为推理路由器的新资源，为应用程序提供跨多个 AWS 区域和账户的端点及推理组件的单一调用路径。路由器在本地目标健康时优先使用本地区域，在容量不足时会自动将新请求切换到其他注册的目标。",
+   "impact": "此功能可以免去开发和运维团队为跨区域模型服务编写自定义故障切换逻辑的工作。安全和技术团队可能会受益于标准化的多区域流量管理，同时保持现有的端点配置和 AWS 账户访问控制不变。",
+   "keyPoints": [
+    "跨区域推理路由使用推理路由器资源为应用程序提供跨多个 AWS 区域和账户的单一调用路径。",
+    "路由器在本地目标健康时优先使用本地区域，并在必要时将新流量转移到其他目标。",
+    "它支持实时端点、推理组件和异步端点，无需更改现有的端点部署。",
+    "实时响应包含路由原因，以显示哪个目标处理了请求以及原因。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon SageMaker AI의 크로스 리전 추론 라우팅으로 리전 용량 부족 중에도 추론 유지",
+   "summary": "Amazon SageMaker AI는 리전 GPU 용량 부족 시 모델 가용성을 유지하기 위해 크로스 리전 추론 라우팅을 도입했습니다. 이 기능은 추론 라우터라는 새로운 리소스를 사용하여 여러 AWS 리전 및 계정에 있는 엔드포인트와 추론 구성 요소 전반에 걸쳐 애플리케이션에 단일 호출 경로를 제공합니다. 라우터는 로컬 리전이 정상 상태일 때 우선권을 가지며 용량 부족 시 다른 등록된 대상으로 새로운 요청을 자동으로 전환합니다.",
+   "impact": "이 기능은 개발 및 운영 팀이 크로스 리전 모델 서빙을 위한 맞춤형 장애 조치 로직을 직접 구축해야 하는 번거로움을 줄여줄 수 있습니다. 보안 및 인프라 팀은 기존 엔드포인트 구성을 유지하면서 표준화된 멀티 리전 트래픽 관리를 활용할 수 있습니다.",
+   "keyPoints": [
+    "크로스 리전 추론 라우팅은 추론 라우터 리소스를 사용하여 여러 AWS 리전 및 계정에 걸쳐 단일 호출 경로를 제공합니다.",
+    "라우터는 로컬 대상이 정상일 때 로컬 리전을 선호하며 필요 시 새로운 트래픽을 다른 대상으로 전환합니다.",
+    "기존 엔드포인트 배포를 변경하지 않고도 실시간 엔드포인트, 추론 구성 요소, 비동기 엔드포인트를 지원합니다.",
+    "실시간 응답에는 요청을 처리한 대상과 이유를 보여주는 라우팅 이유가 포함됩니다."
+   ]
+  }
+ }
+}

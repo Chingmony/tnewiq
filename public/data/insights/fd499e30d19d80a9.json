@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fd499e30d19d80a9",
+ "contentHash": "6ac3d7761f29298a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:48:50.119Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Transform combines migration assessment and planning in one experience",
+   "summary": "AWS Transform for migrations now combines migration assessment and migration planning into a single migration job. Users can upload their on-premises inventory once and use it for both tasks in any order, ensuring that the business case and migration plan remain consistent. The release also allows users to continue in the same job to migrate networks, deploy landing zones, and migrate servers, storage, and containers after finalizing plans.",
+   "impact": "This combined experience could simplify workflows for cloud administrators and technology teams by removing the need to manage separate jobs and move data between them. It may help ensure consistency between business cases and migration plans.",
+   "keyPoints": [
+    "Migration assessment and planning are now combined into a single migration job.",
+    "Users upload on-premises inventory data once for both assessment and planning.",
+    "Workflows can be run in any order and rerun as data improves.",
+    "The same job can be used later to deploy landing zones and migrate servers, storage, and containers."
+   ]
+  },
+  "km": {
+   "title": "AWS Transform រួមបញ្ចូលការវាយតម្លៃការ移行 និងការរៀបចំផែនការទៅជាបទពិសោធន៍តែមួយ",
+   "summary": "AWS Transform សម្រាប់ការ移行 ឥឡូវនេះបានរួមបញ្ចូលការវាយតម្លៃការ移行 និងការរៀបចំផែនការ移行ទៅជាការងារ移行តែមួយ។ អ្នកប្រើប្រាស់អាចអាប់ឡូតបញ្ជីសារពើភណ្ឌក្នុងមូលដ្ឋានរបស់ពួកគេម្តង និងប្រើប្រាស់វាសម្រាប់ទាំងការវាយតម្លៃ និងការរៀបចំផែនការតាមលំដាប់ណាក៏បាន។ បន្ទាប់ពីបញ្ចប់ការរៀបចំផែនការ និងការវាយតម្លៃ អ្នកប្រើប្រាស់អាចបន្តការងារដដែលដើម្បី移行បណ្តាញ និងម៉ាស៊ីនបម្រើ។",
+   "impact": "ការផ្លាស់ប្តូរនេះអាចជួយសម្រួលដល់ដំណើរការការងារសម្រាប់ក្រុមបច្ចេកវិទ្យា ដោយមិនចាំបាច់គ្រប់គ្រងការងារដាច់ដោយឡែកពីគ្នា និងអាចធានាបាននូវភាពស៊ីសង្វាក់គ្នារវាងករណីអាជីវកម្ម និងផែនការ移行។",
+   "keyPoints": [
+    "ការវាយតម្លៃការ移行 និងការរៀបចំផែនការត្រូវបានរួមបញ្ចូលគ្នាជាការងារតែមួយ។",
+    "អាប់ឡូតបញ្ជីសារពើភណ្ឌក្នុងមូលដ្ឋានម្តងសម្រាប់ទាំងការវាយតម្លៃ និងការរៀបចំផែនការ។",
+    "អាចដំណើរការលំហូរការងារឡើងវិញនៅពេលទិន្នន័យមានភាពប្រសើរឡើង។",
+    "មានលក់នៅគ្រប់តំបន់ AWS ដែល AWS Transform ត្រូវបានផ្តល់ជូន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Transform 将迁移评估与规划整合至单一体验中",
+   "summary": "用于迁移的 AWS Transform 现在将迁移评估与迁移规划合并为单个迁移作业。用户只需上传一次本地清单数据，便可按任意顺序将其用于评估和规划。在最终确定计划和评估后，用户可以在同一作业中继续进行网络迁移、部署登录区以及迁移服务器、存储和容器。",
+   "impact": "这一更新可能会简化技术团队和云管理员的工作流程，消除管理独立作业和在作业之间移动数据的需要。它还有助于保持业务案例和迁移计划的一致性。",
+   "keyPoints": [
+    "迁移评估与规划现已合并为一个迁移作业。",
+    "只需上传一次本地清单数据即可用于评估和规划。",
+    "可以根据数据的改进重新运行任一工作流。",
+    "适用于提供 AWS Transform 的所有 AWS 区域。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Transform, 마이그레이션 평가 및 계획을 단일 환경으로 통합",
+   "summary": "마이그레이션을 위한 AWS Transform은 이제 마이그레이션 평가와 마이그레이션 계획을 단일 마이그레이션 작업으로 결합합니다. 사용자는 온프레미스 인벤토리를 한 번 업로드하여 순서에 상관없이 평가와 계획 모두에 사용할 수 있습니다. 계획과 평가가 완료된 후 동일한 작업 내에서 네트워크 마이그레이션, 랜딩 존 배포, 서버 및 스토리지 마이그레이션을 계속 진행할 수 있습니다.",
+   "impact": "이러한 통합 환경은 기술 팀과 관리자가 별도의 작업을 관리하고 데이터 간 이동을 수행할 필요를 없애 워크플로를 단순화할 수 있습니다. 비즈니스 케이스와 마이그레이션 계획 간의 일관성을 유지하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "마이그레이션 평가와 계획이 단일 작업으로 통합되었습니다.",
+    "온프레미스 인벤토리를 한 번 업로드하여 평가와 계획에 모두 활용합니다.",
+    "데이터가 개선됨에 따라 워크플로를 다시 실행할 수 있습니다.",
+    "AWS Transform이 제공되는 모든 AWS 리전에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

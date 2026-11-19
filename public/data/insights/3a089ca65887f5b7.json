@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3a089ca65887f5b7",
+ "contentHash": "ab9c971bf5fc9370",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:45:03.468Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo",
+   "summary": "Reinforcement learning uses rewards to train models via inference, where workers generate rollouts of outputs, actions, and environment interactions. The RL framework scores these results, updates model weights, and sends them back to workers for the next round. As reinforcement learning training scales, rollout bottlenecks can occur during this iterative process.",
+   "impact": "This approach could help developers and technology users addressing scaling challenges in reinforcement learning workflows by mitigating rollout bottlenecks.",
+   "keyPoints": [
+    "Reinforcement learning uses rewards and inference to train models.",
+    "Workers generate rollouts consisting of model outputs, actions, and environment interactions.",
+    "The framework scores results, updates weights, and returns them to workers."
+   ]
+  },
+  "km": {
+   "title": "ការកាត់បន្ថយការកកស្ទះការបញ្ចេញទិន្នន័យក្នុងការរៀនពង្រឹងកម្លាំងដោយប្រើ NVIDIA Dynamo",
+   "summary": "ការរៀនពង្រឹងកម្លាំងប្រើប្រាស់រង្វាន់ដើម្បីបណ្តុះបណ្តាលម៉ូដែលតាមរយៈការសន្និដ្ឋាន ដែលកម្មករបង្កើតការបញ្ចេញទិន្នន័យ ការกระធ្វើ និងអន្តរកម្មបរិស្ថាន។ ក្របខ័ណ្ឌការរៀនពង្រឹងកម្លាំងដាក់ពិន្ទុលើលទ្ធផល ធ្វើបច្ចុប្បន្នភាពទម្ងន់ម៉ូដែល និងផ្ញើទម្ងន់ទាំងនោះត្រឡប់ទៅកម្មករវិញសម្រាប់ជុំបន្ទាប់។ នៅពេលដែលការបណ្តុះបណ្តាលការរៀនពង្រឹងកម្លាំងរីកចម្រើន ការកកស្ទះអាចកើតមានឡើង។",
+   "impact": "នេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការដោះស្រាយបញ្ហាប្រឈមនៃការធ្វើមាត្រដ្ឋាននៅក្នុងដំណើរការការងារ។",
+   "keyPoints": [
+    "ការរៀនពង្រឹងកម្លាំងប្រើប្រាស់រង្វាន់និងការសន្និដ្ឋានដើម្បីបណ្តុះបណ្តាលម៉ូដែល។",
+    "កម្មករបង្កើតការបញ្ចេញទិន្នន័យ សកម្មភាព និងអន្តរកម្មបរិស្ថាន។",
+    "ក្របខ័ណ្ឌដាក់ពិន្ទុលើលទ្ធផល ធ្វើបច្ចុប្បន្នភាពទម្ងន់ និងបញ្ជូនត្រឡប់ទៅកម្មករវិញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 NVIDIA Dynamo 减少强化学习中的推出瓶颈",
+   "summary": "强化学习利用奖励通过推理来训练模型，其中工作线程生成输出、动作和环境交互的推出序列。强化学习框架对结果进行评分，更新模型权重，并将这些权重发回给工作线程以进行下一轮。随着强化学习训练的扩展，可能会出现推出瓶颈。",
+   "impact": "这可能有助于开发人员和技术用户解决强化学习工作流程中的扩展挑战，从而减轻推出瓶颈的影响。",
+   "keyPoints": [
+    "强化学习使用奖励和推理来训练模型。",
+    "工作线程生成由模型输出、动作和环境交互组成的推出序列。",
+    "框架对结果进行评分、更新权重并将其返回给工作线程。"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA Dynamo를 통한 강화 학습의 롤아웃 병목 현상 감소",
+   "summary": "강화 학습은 보상을 사용하여 추론을 통해 모델을 훈련하며, 작업자는 모델 출력, 작업 및 환경 상호 작용의 롤아웃 시퀀스를 생성합니다. 강화 학습 프레임워크는 결과를 채점하고, 모델 가중치를 업데이트하며, 다음 라운드를 위해 해당 가중치를 작업자에게 다시 보냅니다. 강화 학습 훈련이 확장됨에 따라 이러한 병목 현상이 발생할 수 있습니다.",
+   "impact": "이 접근 방식은 개발자와 기술 사용자가 강화 학습 워크플로의 확장 과제를 해결하고 병목 현상을 완화하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "강화 학습은 보상과 추론을 사용하여 모델을 훈련합니다.",
+    "작업자는 모델 출력, 작업 및 환경 상호 작용으로 구성된 롤아웃을 생성합니다.",
+    "프레임워크는 결과를 채점하고 가중치를 업데이트하여 작업자에게 반환합니다."
+   ]
+  }
+ }
+}

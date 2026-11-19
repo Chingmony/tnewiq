@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "68c6c01e22389d5a",
+ "contentHash": "52bbd0ebd22b2b23",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:51:15.947Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "PolyAI Dialog-RSN-1 is now on Amazon SageMaker JumpStart",
+   "summary": "PolyAI's Dialog-RSN-1 is now available on AWS Marketplace and Amazon SageMaker JumpStart, allowing AWS customers to deploy the reasoning model as a real-time inference endpoint. The model directly perceives live caller audio, reasons about needs, and responds in real time without a separate speech-to-text step. It runs entirely within the customer's AWS environment and supports the OpenAI Realtime protocol. Currently, the model is English-only and handles connections lasting up to 30 minutes.",
+   "impact": "Technology teams and developers can integrate real-time voice agents into their architecture using existing infrastructure like VPCs, IAM roles, and CloudWatch logging. Running the endpoint within an AWS account may help organizations meet their data residency and auditability requirements for customer conversations.",
+   "keyPoints": [
+    "Dialog-RSN-1 is the first PolyAI model available through AWS Marketplace.",
+    "The model perceives caller audio directly, bypassing a separate speech-to-text step.",
+    "It deploys as a real-time endpoint on Amazon SageMaker JumpStart and speaks the OpenAI Realtime protocol.",
+    "Inference runs entirely within the customer's AWS environment, utilizing existing VPC and IAM controls."
+   ]
+  },
+  "km": {
+   "title": "PolyAI Dialog-RSN-1 ឥឡូវនេះមាននៅលើ Amazon SageMaker JumpStart",
+   "summary": "ម៉ូដែលហេតុផល Dialog-RSN-1 របស់ PolyAI ឥឡូវនេះមាននៅលើ AWS Marketplace និង Amazon SageMaker JumpStart ដែលអនុញ្ញាតឱ្យអតិថិជន AWS ដាក់ឱ្យប្រើប្រាស់វាជាចំណុចបញ្ចប់នៃការសន្និដ្ឋានពេលវេលាជាក់ស្តែង។ ម៉ូដែលនេះយល់ដឹងពីសំឡេងអ្នកហៅផ្ទាល់ ហេតុផលអំពីតម្រូវការ និងឆ្លើយតបក្នុងពេលវេលាជាក់ស្តែងដោយមិនចាំបាច់មានជំហានបម្លែងសំឡេងជាអត្ថបទដាច់ដោយឡែកនោះទេ។ វាដំណើរការទាំងស្រុងនៅក្នុងបរិយាកាស AWS ផ្ទាល់ខ្លួនរបស់អតិថិជន និងគាំទ្រពិធីការ OpenAI Realtime។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យា និងអ្នកអភិវឌ្ឍន៍អាចដាក់ពង្រាយភ្នាក់ងារសំឡេងពេលវេលាជាក់ស្តែងដោយប្រើប្រាស់ហេដ្ឋារចនាសម្ព័ន្ធដែលមានស្រាប់ដូចជា VPC និងតួនាទី IAM។ ការដំណើរការចំណុចបញ្ចប់នៅក្នុងគណនី AWS អាចជ่วยស្ថាប័នបំពេញតម្រូវការនៃការរក្សាទុកទិន្នន័យ និងសវនកម្មសម្រាប់ការសន្ទនារបស់អតិថិជន។",
+   "keyPoints": [
+    "Dialog-RSN-1 គឺជាម៉ូដែល PolyAI ដំបូងគេដែលមានតាមរយៈ AWS Marketplace។",
+    "ម៉ូដែលនេះយល់ដឹងពីសំឡេងអ្នកហៅដោយផ្ទាល់ដោយមិនមានជំហានបម្លែងសំឡេងជាអត្ថបទឡើយ។",
+    "វាអាចដាក់ឱ្យប្រើប្រាស់បានយ៉ាងងាយស្រួលនៅលើ Amazon SageMaker JumpStart និងគាំទ្រពិធីការ OpenAI Realtime។",
+    "ការសន្និដ្ឋានដំណើរការទាំងស្រុងនៅក្នុងគណនី AWS របស់អតិថិជនផ្ទាល់ ដោយប្រើប្រាស់ការគ្រប់គ្រង VPC និង IAM ដែលមានស្រាប់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "PolyAI Dialog-RSN-1 现已登陆 Amazon SageMaker JumpStart",
+   "summary": "PolyAI 的推理模型 Dialog-RSN-1 现已在 AWS Marketplace 和 Amazon SageMaker JumpStart 上线，允许 AWS 客户将其部署为实时推理端点。该模型直接感知实时来电者的音频、推理需求并实时响应，无需单独的语音转文本步骤。它完全在客户自己的 AWS 环境中运行，并支持 OpenAI Realtime 协议。目前该模型仅支持英语，支持长达 30 分钟的连接。",
+   "impact": "技术团队和开发人员可以使用 VPC、IAM 角色和 CloudWatch 日志等现有基础设施将实时语音代理集成到其架构中。在 AWS 账户内部运行端点可能有助于组织满足客户对话的数据驻留和可审计性要求。",
+   "keyPoints": [
+    "Dialog-RSN-1 是首个通过 AWS Marketplace 提供的 PolyAI 模型。",
+    "该模型直接感知来电者音频，无需单独的语音转文本步骤。",
+    "它可在 Amazon SageMaker JumpStart 上一键部署为实时端点，并使用 OpenAI Realtime 协议。",
+    "推理完全在客户的 AWS 账户内运行，并利用现有的 VPC 和 IAM 权限进行控制。"
+   ]
+  },
+  "ko": {
+   "title": "PolyAI Dialog-RSN-1, Amazon SageMaker JumpStart에 출시",
+   "summary": "실시간 복잡한 대화를 위해 구축된 추론 모델인 PolyAI의 Dialog-RSN-1이 이제 AWS Marketplace 및 Amazon SageMaker JumpStart에서 제공됩니다. 이 모델은 실시간 통화 오디오를 직접 인식하고, 필요 사항을 추론하며, 별도의 음성 인식 단계 없이 실시간으로 응답합니다. 고객의 자체 AWS 환경 내에서 완전히 실행되며 OpenAI Realtime 프로토콜을 지원합니다. 현재 이 모델은 영어 전용이며 최대 30분 동안 지속되는 연결을 지원합니다.",
+   "impact": "기술 팀과 개발자는 VPC, IAM 역할, CloudWatch 로깅과 같은 기존 인프라를 사용하여 실시간 음성 에이전트를 아키텍처에 통합할 수 있습니다. AWS 계정 내에서 엔드포인트를 실행하면 조직이 고객 대화에 대한 데이터 거주지 및 감사 요구 사항을 충족하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "Dialog-RSN-1은 AWS Marketplace를 통해 제공되는 최초의 PolyAI 모델입니다.",
+    "별도의 음성-텍스트 변환 단계 없이 발신자의 오디오를 직접 인식합니다.",
+    "Amazon SageMaker JumpStart에서 실시간 엔드포인트로 배포할 수 있으며 OpenAI Realtime 프로토콜을 사용합니다.",
+    "추론은 고객의 AWS 계정 내에서 이루어지며 기존 VPC 및 IAM 제어를 활용합니다."
+   ]
+  }
+ }
+}

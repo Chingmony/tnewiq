@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fe1eb0476877e73f",
+ "contentHash": "11a9e3c6426f021c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:47:03.451Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks",
+   "summary": "Amazon has upgraded the Amazon Bedrock AgentCore harness to integrate Strands harness defaults, introduce new lifecycle hooks, and add built-in tools. The upgrade provides managed features such as a recommended model, task-oriented instructions, automatic prompt caching, and proactive context management. These updates are automatically applied to existing AgentCore harnesses without requiring new resource types.",
+   "impact": "Developers and technology users could benefit from lower token costs, reduced input processing latency, and simplified agent management because AWS handles the underlying execution infrastructure and session scaling. Security teams may find that the new lifecycle hooks allow for more predictable and governed workflows through deterministic checks at specific checkpoints.",
+   "keyPoints": [
+    "AgentCore harness now uses the open-source Strands harness under an Apache 2.0 license.",
+    "New lifecycle hooks enable developers to apply deterministic checks and notifications at defined points in the agent loop.",
+    "Managed defaults include automatic prompt caching, proactive context management, task-oriented instructions, and a recommended default model.",
+    "Additional built-in tools support planning, web retrieval, filesystem access, context offloading, and task delegation."
+   ]
+  },
+  "km": {
+   "title": "Amazon Bedrock AgentCore harness បន្ថែម Strands harness defaults, ឧបករណ៍内置 និង lifecycle hooks",
+   "summary": "Amazon បានធ្វើបច្ចុប្បន្នភាព Amazon Bedrock AgentCore harness ដើម្បីរួមបញ្ចូល Strands harness defaults ព្រមទាំងបន្ថែម lifecycle hooks និងឧបករណ៍ជំនួយផ្សេងៗ។ ការអាប់ដេតនេះផ្ដល់នូវមុខងារគ្រប់គ្រងដោយស្វ័យប្រវត្តិដូចជា ម៉ូដែលដែលបានណែនាំ ការណែនាំផ្អែកលើភារកិច្ច ការរក្សាទុក prompt ទុកក្នុងឃ្លាំងសម្ងាត់ស្វ័យប្រវត្តិ និងការគ្រប់គ្រងបរិបទសកម្ម។ ការផ្លាស់ប្តូរទាំងនេះត្រូវបានអនុវត្តដោយស្វ័យប្រវត្តិលើ AgentCore harnesses ដែលមានស្រាប់។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានផលចំណេញពីការថយចុះថ្លៃដើម token ការកាត់បន្ថយពេលវេលារង់ចាំដំណើរការទិន្នន័យ និងការគ្រប់គ្រងភ្នាក់ងារកាន់តែងាយស្រួល។ ក្រុមសន្តិសុខអាចរកឃើញថា lifecycle hooks ថ្មីជួយឱ្យមានដំណើរការការងារដែលអាចព្យាករណ៍បាន និងមានសុវត្ថិភាពជាងមុនតាមរយៈការពិនិត្យបែបdeterministic។",
+   "keyPoints": [
+    "AgentCore harness ឥឡូវនេះប្រើប្រាស់ Strands harness ដែលជាប្រភពបើកចំហក្រោមអាជ្ញាប័ណ្ណ Apache 2.0។",
+    "Lifecycle hooks ថ្មីអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍ដាក់ស្នើការពិនិត្យនិងការជូនដំណឹងនៅចំណុចជាក់លាក់ក្នុង vòng ភ្នាក់ងារ។",
+    "មុខងារលំនាំដើមរួមមានការរក្សាទុក prompt ទុកក្នុងឃ្លាំងសម្ងាត់ស្វ័យប្រវត្តិ និងការគ្រប់គ្រងបរិបទ។",
+    "ឧបករណ៍ជំនួយបន្ថែមគាំទ្រដល់ការរៀបចំផែនការ ការទាញយកគេហទំព័រ ការចូលប្រើប្រព័ន្ធឯកសារ និងការចាត់តាំងភារកិច្ច។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Bedrock AgentCore harness 添加 Strands harness 默认值、内置工具和生命周期钩子",
+   "summary": "Amazon 升级了 Amazon Bedrock AgentCore harness，整合了 Strands harness 默认配置、生命周期钩子以及内置工具。此次升级提供了推荐模型、任务导向的系统提示词、自动提示词缓存以及主动上下文管理等托管功能。这些更新将自动应用到现有的 AgentCore harness 中，无需配置新的资源类型。",
+   "impact": "开发者和技术用户可能会受益于更低的 token 成本、更短的输入处理延迟以及简化的代理管理，因为 AWS 负责处理底层执行基础设施和会话扩展。安全团队可能会发现，新的生命周期钩子通过在特定检查点运行确定性代码，能够带来更具预测性和受控的工作流程。",
+   "keyPoints": [
+    "AgentCore harness 现在采用基于 Apache 2.0 许可证开源的 Strands harness。",
+    "新增的生命周期钩子允许开发者在代理循环的特定检查点应用确定性检查和通知。",
+    "托管默认项包括推荐的默认模型、任务导向的指令、自动提示词缓存和主动上下文管理。",
+    "附加内置工具支持规划、网页检索、文件系统访问、上下文卸载和任务委派。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock AgentCore harness, Strands harness 기본값, 내장 도구 및 생명주기 훅 추가",
+   "summary": "Amazon은 Amazon Bedrock AgentCore harness를 업그레이드하여 Strands harness 기본값, 새로운 생명주기 훅, 내장 도구를 통합했습니다. 이번 업그레이드는 권장 모델, 작업 지향적 시스템 프롬프트, 자동 프롬프트 캐싱 및 사전 예방적 컨텍스트 관리와 같은 관리형 기능을 제공합니다. 이러한 업데이트는 새로운 리소스 유형을 채택할 필요 없이 기존 AgentCore harness에 자동으로 적용됩니다.",
+   "impact": "개발자와 기술 사용자는 AWS가 기본 실행 인프라와 세션 확장을 관리하므로 토큰 비용 절감, 입력 처리 지연 시간 단축, 간소화된 에이전트 관리의 혜택을 누릴 수 있습니다. 보안 팀은 새로운 생명주기 훅을 통해 특정 체크포인트에서 결정론적 코드를 실행함으로써 더욱 예측 가능하고 안전한 워크플로우를 구현할 수 있음을 확인할 수 있습니다.",
+   "keyPoints": [
+    "AgentCore harness는 이제 Apache 2.0 라이선스로 제공되는 오픈소스 Strands harness를 사용합니다.",
+    "새로운 생명주기 훅을 통해 개발자는 에이전트 루프의 정의된 지점에서 결정론적 검사 및 알림을 적용할 수 있습니다.",
+    "관리형 기본값에는 권장 기본 모델, 작업 지향적 지침, 자동 프롬프트 캐싱 및 사전 예방적 컨텍스트 관리가 포함됩니다.",
+    "추가된 내장 도구는 계획, 웹 검색, 파일 시스템 접근, 컨텍스트 오프로딩 및 작업 위임을 지원합니다."
+   ]
+  }
+ }
+}

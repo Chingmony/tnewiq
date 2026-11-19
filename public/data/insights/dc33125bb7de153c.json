@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "dc33125bb7de153c",
+ "contentHash": "b8abd8642e741603",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:44:21.272Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Inside Amazon Connect Talent: The science of structured AI interviews",
+   "summary": "Amazon Connect Talent applies established hiring science to AI-led interviews at scale to help organizations evaluate candidates consistently. The service is built around three core design principles: building interviews around job-related evidence, separating the interview conversation from scoring, and incorporating fairness protections into the design. Through internal research and independent expert review, the service uses structured questions, adaptive follow-ups, and evidence-based scoring to gather candidate information.",
+   "impact": "This technology could help development and hiring teams scale structured behavioral interviews while reducing the time and expertise required to build competencies and evaluate responses consistently. The separation of interviewing from scoring and the exclusion of video or voice tone analysis may help reduce bias and focus assessments strictly on job-related behaviors.",
+   "keyPoints": [
+    "Connect Talent uses structured questions, adaptive follow-ups, and evidence-based scoring for AI-led interviews.",
+    "The service is built on three core principles: job-related evidence, separating interviewing from scoring, and fairness protections.",
+    "Scoring relies strictly on transcribed responses without evaluating video, voice tone, physical appearance, or candidate identity.",
+    "Evaluations combine internal research and independent industrial-organizational psychology reviews."
+   ]
+  },
+  "km": {
+   "title": "Inside Amazon Connect Talent: វិទ្យាសាស្ត្រនៃការសម្ភាសន៍តាម AI ដែលមានរចនាសម្ព័ន្ធ",
+   "summary": "Amazon Connect Talent នាំយកវិទ្យាសាស្ត្រនៃការជួលបុគ្គលិកមកអនុវត្តលើការសម្ភាសន៍តាមរយៈ AI ក្នុងទ្រង់ទ្រាយធំ ដើម្បីជួយឱ្យអង្គភាពនានាអាចវាយតម្លៃបេក្ខជនបានយ៉ាងទៀងទាត់។ សេវាកម្មនេះត្រូវបានកសាងឡើងជុំវិញគោលការណ៍រចនាគ្រឹះចំនួនបី រួមមាន ការកសាងកិច្ចសម្ភាសន៍ផ្អែកលើភស្តុតាងដែលទាក់ទងនឹងការងារ ការបំបែកកិច្ចសន្ទនាសម្ភាសន៍ចេញពីការឱ្យពិន្ទុ និងការបញ្ចូលការការពារភាពយុត្តិធម៌ទៅក្នុងរចនាសម្ព័ន្ធ។ តាមរយៈការស្រាវជ្រាវផ្ទៃក្នុង និងការពិនិត្យឡើងវិញពីអ្នកជំនាញឯករាជ្យ សេវាកម្មនេះប្រើប្រាស់សំណួរដែលមានរចនាសម្ព័ន្ធ ការតាមដានបត់បែន និងការឱ្យពិន្ទុផ្អែកលើភស្តុតាង ដើម្បីប្រមូលព័ត៌មានបេក្ខជន។",
+   "impact": "បច្ចេកវិទ្យានេះអាចជួយដល់ក្រុមការងារក្នុងការធ្វើមាត្រដ្ឋានការសម្ភាសន៍បែបអាកប្បកិរិយាដែលមានរចនាសម្ព័ន្ធ កាត់បន្ថយពេលវេលា និងជំនាញដែលទាមទារក្នុងការបង្កើតសមត្ថភាព និងវាយតម្លៃចម្លើយ។ ការបំបែកកិច្ចសម្ភាសន៍ចេញពីការឱ្យពិន្ទុ និងការមិនប្រើប្រាស់វីដេអូ ឬសំឡេងអាចជួយកាត់បន្ថយភាពលំអៀង និងផ្តោតលើអាកប្បកិរិយាដែលទាក់ទងនឹងការងារតែប៉ុណ្ណោះ។",
+   "keyPoints": [
+    "Connect Talent ប្រើប្រាស់សំណួរដែលមានរចនាសម្ព័ន្ធ ការតាមដានបត់បែន និងការឱ្យពិន្ទុផ្អែកលើភស្តុតាងសម្រាប់ការសម្ភាសន៍តាម AI។",
+    "សេវាកម្មនេះកសាងឡើងលើគោលការណ៍គ្រឹះចំនួនបីគឺ ភស្តុតាងទាក់ទងនឹងការងារ ការបំបែកការសម្ភាសន៍ពីការឱ្យពិន្ទុ និងការការពារភាពយុត្តិធម៌។",
+    "ការឱ្យពិន្ទុផ្អែកលើចម្លើយដែលបានកត់ត្រាជាអត្ថបទ ដោយមិនប្រើប្រាស់វីដេអូ សម្លេង រូបរាង ឬអត្តសញ្ញាណបេក្ខជនឡើយ។",
+    "ការវាយតម្លៃរួមបញ្ចូលគ្នារវាងការស្រាវជ្រាវផ្ទៃក្នុង និងការពិនិត្យពីអ្នកជំនាញចិត្តសាស្ត្រឧស្សាហកម្មនិងអង្គការឯករាជ្យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "深入了解 Amazon Connect Talent：结构化 AI 面试背后的科学",
+   "summary": "Amazon Connect Talent 将成熟的招聘科学应用于大规模的 AI 主导面试，以帮助组织一致地评估候选人。该服务围绕三大核心设计原则构建：围绕与工作相关的证据构建面试、将面试对话与评分分离，以及在设计中融入公平保护措施。通过内部研究和独立专家评审，该服务利用结构化问题、自适应追问和基于证据的评分来收集候选人信息。",
+   "impact": "这项技术可以帮助开发和招聘团队大规模开展结构化行为面试，同时减少构建胜任力和一致评估回答所需的时间和专业知识。面试与评分的分离以及排除视频或声调分析的做法，可能有助于减少偏见并使评估严格聚焦于与工作相关的行为。",
+   "keyPoints": [
+    "Connect Talent 在 AI 主导的面试中使用结构化问题、自适应追问和基于证据的评分。",
+    "该服务基于三个核心原则：工作相关证据、面试与评分分离以及公平保护措施。",
+    "评分严格依赖转录的候选人回答，不使用视频、声调、外貌或候选人身份信息。",
+    "评估工作结合了内部研究与独立的工业与组织心理学专家的评审。"
+   ]
+  },
+  "ko": {
+   "title": "Inside Amazon Connect Talent: 구조화된 AI 면접의 과학",
+   "summary": "Amazon Connect Talent는 조직이 일관성 있게 지원자를 평가할 수 있도록 검증된 채용 과학을 대규모 AI 주도 면접에 적용합니다. 이 서비스는 직무 관련 증거를 바탕으로 한 면접 구성, 면접 대화와 채점의 분리, 그리고 디자인 내 공정성 보호 장치 마련이라는 세 가지 핵심 디자인 원칙을 중심으로 구축되었습니다. 내부 연구와 독립적인 전문가 검토를 통해 이 서비스는 구조화된 질문, 적응형 후속 질문, 증거 기반 채점을 활용하여 지원자 정보를 수집합니다.",
+   "impact": "이 기술은 개발 및 채용 팀이 구조화된 행동 면접을 규모에 맞게 확장할 수 있도록 돕고, 직무 역량을 개발하고 답변을 일관되게 평가하는 데 필요한 시간과 전문 지식을 줄이는 데 기여할 수 있습니다. 면접과 채점을 분리하고 비디오나 음성 톤 분석을 배제하는 방식은 편향을 줄이고 평가를 직무 관련 행동에만 집중시키는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "Connect Talent는 AI 주도 면접을 위해 구조화된 질문, 적응형 후속 질문, 증거 기반 채점을 사용합니다.",
+    "이 서비스는 직무 관련 증거, 면접과 채점의 분리, 공정성 보호라는 세 가지 핵심 원칙을 기반으로 합니다.",
+    "채점은 비디오, 음성 톤, 외모, 지원자 신상정보를 사용하지 않고 전사된 지원자 답변만을 엄격히 기반으로 이루어집니다.",
+    "평가는 내부 연구와 독립적인 산업 및 조직 심리학 전문가 검토를 결합하여 진행됩니다."
+   ]
+  }
+ }
+}

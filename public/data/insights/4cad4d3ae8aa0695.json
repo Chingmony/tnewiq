@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4cad4d3ae8aa0695",
+ "contentHash": "1e62d8c9bb3bb73e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:47:48.140Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Route 53 now supports health checks for private endpoints",
+   "summary": "Amazon Route 53 has introduced Private Endpoint Health Checks to allow native health monitoring and automatic DNS failover for workloads that do not touch the public internet. Customers can perform health checks on private targets using IP address, domain, or port over HTTP, HTTPS, or TCP. These health checks integrate with Route 53 DNS records in private hosted zones to route traffic only to healthy endpoints. The fully managed feature is designed to complete detection and DNS failover in seconds rather than minutes.",
+   "impact": "This feature could reduce the operational burden for developers and security teams by eliminating the need to build custom control loops with Amazon CloudWatch alarms, AWS Lambda functions, and the Route 53 API. It may improve the resilience of internal APIs, databases, and hybrid environments by enabling faster failover times.",
+   "keyPoints": [
+    "Supports health monitoring and automatic DNS failover for private endpoints such as internal APIs and databases.",
+    "Allows health checks over HTTP, HTTPS, or TCP by IP address, domain, or port.",
+    "Reduces failover times from several minutes to seconds compared to previous custom control loop setups.",
+    "Available now in all AWS commercial regions for hybrid and on-premises endpoints reachable via AWS Direct Connect or AWS Site-to-Site VPN."
+   ]
+  },
+  "km": {
+   "title": "Amazon Route 53 ឥឡូវនេះគាំទ្រការពិនិត្យសុខភាពសម្រាប់ចំណុចបញ្ចប់ឯកជន",
+   "summary": "Amazon Route 53 បានដាក់ឱ្យប្រើប្រាស់ Private Endpoint Health Checks ដើម្បីអនុញ្ញាតឱ្យមានការត្រួតពិនិត្យសុខភាពដើម និងការប្តូរเส้นทาง DNS ដោយស្វ័យប្រវត្តិសម្រាប់បន្ទុកការងារដែលមិនប៉ះអ៊ីនធឺណិតសាធារណៈ។ អតិថិជនអាចពិនិត្យសុខភាពគោលដៅឯកជនណាមួយតាមរយៈអាសយដ្ឋាន IP ដែន ឬច្រក ដោយប្រើប្រាស់ HTTP, HTTPS ឬ TCP។ លក្ខណៈពិសេសនេះត្រូវបានរចនាឡើងដើម្បីបញ្ចប់ការរកឃើញនិងការប្តូរเส้นทาง DNS ក្នុងរយៈពេលប៉ុន្មានវិនាទីជំនួសឱ្យការចំណាយពេលច្រើននាទី។",
+   "impact": "មុខងារនេះអាចកាត់បន្ថយภาระប្រតិបត្តិការសម្រាប់ក្រុមអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខដោយមិនបាច់បង្កើតប្រព័ន្ធគ្រប់គ្រងផ្ទាល់ខ្លួនជាមួយ Amazon CloudWatch, AWS Lambda និង Route 53 API។ វាក៏អាចជួយបង្កើនភាពធន់នៃ API ខាងក្នុង មូលដ្ឋានទិន្នន័យ និងបរិស្ថាន הייบริด ផងដែរ។",
+   "keyPoints": [
+    "គាំទ្រការត្រួតពិនិត្យសុខភាពនិងការប្តូរเส้นทาง DNS ដោយស្វ័យប្រវត្តិសម្រាប់ចំណុចបញ្ចប់ឯកជន។",
+    "អនុញ្ញាតឱ្យពិនិត្យសុខភាពតាមរយៈ HTTP, HTTPS ឬ TCP ដោយប្រើ IP ដែន ឬច្រក។",
+    "កាត់បន្ថយពេលវេលាប្តូរเส้นทางពីច្រើននាទីមកត្រឹមប៉ុន្មានវិនាទី។",
+    "មានលក់ឥឡូវនេះនៅក្នុងតំបន់ពាណិជ្ជកម្ម AWS ទាំងអស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Route 53 现在支持对私有端点进行运行状况检查",
+   "summary": "Amazon Route 53 推出了私有端点运行状况检查功能，为不触及公共互联网的工作负载（如内部 API、数据库和私有子网中的自托管节点）提供原生的运行状况监控和自动 DNS 故障转移。客户可以通过 HTTP、HTTPS 或 TCP 使用 IP 地址、域或端口对任何可达的私有目标进行运行状况检查。该完全托管的功能旨在几秒钟内完成故障转移，而无需像以前那样耗费几分钟。",
+   "impact": "此功能消除了开发人员和安全团队构建自定义控制回路的需求，从而可能降低运营负担。它还通过缩短故障转移时间来提高内部 API、数据库以及混合云环境的弹性。",
+   "keyPoints": [
+    "支持对私有端点进行运行状况监控和自动 DNS 故障转移。",
+    "允许通过 HTTP、HTTPS 或 TCP 针对 IP 地址、域或端口进行检查。",
+    "将故障转移检测时间从几分钟缩短至几秒钟。",
+    "现已在所有 AWS 商业区域推出，支持通过 AWS Direct Connect 或 AWS Site-to-Site VPN 访问的混合端点。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Route 53, 이제 프라이빗 엔드포인트에 대한 상태 확인 지원",
+   "summary": "Amazon Route 53은 공용 인터넷에 노출되지 않는 워크로드에 대해 기본 상태 모니터링 및 자동 DNS 장애 조치를 제공하는 프라이빗 엔드포인트 상태 확인 기능을 출시했습니다. 고객은 HTTP, HTTPS 또는 TCP를 통해 IP 주소, 도메인, 포트를 사용하여 도달 가능한 모든 프라이빗 대상의 상태를 확인할 수 있습니다. 이 완전 관리형 기능은 탐지 및 DNS 장애 조치를 몇 분이 아닌 몇 초 만에 완료하도록 설계되었습니다.",
+   "impact": "이 기능은 개발자와 보안 팀이 사용자 정의 제어 루프를 구축할 필요를 없애 운영 부담을 줄여줄 수 있습니다. 또한 더 빠른 장애 조치 시간을 통해 내부 API, 데이터베이스 및 하이브리드 환경의 안정성을 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "프라이빗 엔드포인트를 위한 상태 모니터링 및 자동 DNS 장애 조치 지원",
+    "HTTP, HTTPS 또는 TCP를 통한 IP 주소, 도메인, 포트 기반 상태 확인",
+    "이전의 사용자 정의 제어 루프 방식에 비해 장애 조치 시간을 몇 분에서 몇 초로 단축",
+    "모든 AWS 상용 리전에서 사용 가능하며 하이브리드 및 온프레미스 엔드포인트 지원"
+   ]
+  }
+ }
+}

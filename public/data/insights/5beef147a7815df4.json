@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5beef147a7815df4",
+ "contentHash": "1c4c39d3bf20a66d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:51:37.136Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+   "summary": "Developers are combining frontier AI models with NVIDIA Omniverse libraries to turn simulation ideas into working applications by using natural-language instructions. Projects show AI models like GPT-6 Astra, GPT-6 Sol, and Claude Code helping build digital twins, robot pick-and-place simulations, and voice-controlled VR environments. These applications leverage GPU-accelerated physics, rendering, and sensor simulation to help teams test designs, evaluate operational decisions, and inspect equipment.",
+   "impact": "This approach could help developers and engineering teams streamline the creation of complex digital twins and simulations, potentially reducing costly delays and errors in industrial and robotics workflows. Security teams and technology users may see increased adoption of agentic AI systems that handle dense technical documentation and spatial data.",
+   "keyPoints": [
+    "Developers use natural-language instructions to direct AI agents combined with NVIDIA Omniverse libraries for physics and rendering.",
+    "Falkor uses GPT-6 Astra and NVIDIA Omniverse libraries on Microsoft Azure to turn CAD and engineering data into facility-scale digital twins.",
+    "NVIDIA developers used SimReady Central assets, Isaac Sim, and GPT-6 Sol to build a robot pick-and-place simulation.",
+    "Community developer Michael Wagner used Claude Code and GPT-6 Astra to build a voice-controlled VR simulation using Omniverse libraries."
+   ]
+  },
+  "km": {
+   "title": "ចូលទៅក្នុង Omniverse៖ វិធីដែលអ្នកអភិវឌ្ឍន៍បំប្លែងគំនិតទៅជាការក្លែងធ្វើជាមួយភ្នាក់ងារ AI កម្រិតខ្ពស់",
+   "summary": "អ្នកអភិវឌ្ឍន៍កំពុងរួមបញ្ចូលគ្នានូវម៉ូដែល AI កម្រិតខ្ពស់ជាមួយនឹងបណ្ណាល័យ NVIDIA Omniverse ដើម្បីបំប្លែងគំនិតក្លែងធ្វើទៅជាកម្មវិធីដំណើរការដោយប្រើប្រាស់ការបញ្ជាជាភាសាធម្មជាតិ។ គម្រោងនានាបង្ហាញពីម៉ូដែល AI ដូចជា GPT-6 Astra, GPT-6 Sol និង Claude Code ជួយសាង់សង់ភ្លោះឌីជីថល ការក្លែងធ្វើរ៉ូប៊ីតหยิบនិងដាក់ និងបរិយាកាស VR ដែលគ្រប់គ្រងដោយសំឡេង។ កម្មវិធីទាំងនេះប្រើប្រាស់រូបវិទ្យាដែលเร่งដោយ GPU ការបង្ហាញ និងការក្លែងធ្វើឧបករណ៍ចាប់សញ្ញាដើម្បីជួយក្រុមការងារសាកល្បងការរចនា និងវាយតម្លៃការសម្រេចចិត្តប្រតិបត្តិការ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមវិស្វកម្មសម្រួលដល់ការបង្កើតភ្លោះឌីជីថល និងការក្លែងធ្វើស្មុគស្មាញ ដែលអាចកាត់បន្ថយការពន្យារពេល និងកំហុសឆ្គងដែលមានតម្លៃថ្លៃ។",
+   "keyPoints": [
+    "អ្នកអភិវឌ្ឍន៍ប្រើប្រាស់ការបញ្ជាជាភាសាធម្មជាតិដើម្បីដឹកនាំភ្នាក់ងារ AI ជាមួយបណ្ណាល័យ NVIDIA Omniverse ។",
+    "Falkor ប្រើប្រាស់ GPT-6 Astra និងបណ្ណាល័យ NVIDIA Omniverse ដើម្បីបំប្លែងទិន្នន័យវិស្វកម្មទៅជាភ្លោះឌីជីថលខ្នាតកន្លែង។",
+    "អ្នកអភិវឌ្ឍន៍ NVIDIA បានប្រើប្រាស់ទ្រព្យសកម្ម SimReady Central និង Isaac Sim ដើម្បីបង្កើតការក្លែងធ្វើរ៉ូប៊ីតหยิบនិងដាក់។",
+    "អ្នកអភិវឌ្ឍន៍សហគមន៍ Michael Wagner បានប្រើប្រាស់ Claude Code និង GPT-6 Astra ដើម្បីបង្កើតការក្លែងធ្វើ VR គ្រប់គ្រងដោយសំឡេង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "进入Omniverse：开发人员如何利用前沿AI智能体将想法转化为模拟",
+   "summary": "开发人员正在将前沿AI模型与NVIDIA Omniverse库相结合，通过自然语言指令将模拟想法转化为可运行的应用程序。相关项目展示了GPT-6 Astra、GPT-6 Sol和Claude Code等AI模型如何协助构建数字孪生、机器人抓取放置模拟以及语音控制的VR环境。这些应用程序利用GPU加速的物理、渲染和传感器模拟功能，帮助团队测试设计、评估运营决策并检查设备。",
+   "impact": "这种方法可以帮助开发人员和工程团队简化复杂数字孪生和模拟的创建过程，从而可能减少工业和机器人工作流程中的高昂延误和错误。技术用户和安全团队可能会看到智能体AI系统在处理密集技术文档和空间数据方面的应用不断增加。",
+   "keyPoints": [
+    "开发人员使用自然语言指令指挥AI智能体，并结合NVIDIA Omniverse库进行物理和渲染。",
+    "Falkor使用GPT-6 Astra和NVIDIA Omniverse库将CAD和工程数据转化为设施级数字孪生。",
+    "NVIDIA开发人员利用SimReady Central资产、Isaac Sim和GPT-6 Sol构建了机器人抓取放置模拟。",
+    "社区开发人员Michael Wagner使用Claude Code和GPT-6 Astra构建了由语音控制的VR模拟应用程序。"
+   ]
+  },
+  "ko": {
+   "title": "옴니버스 속으로: 개발자들이 최첨단 AI 에이전트를 사용하여 아이디어를 시뮬레이션으로 전환하는 방법",
+   "summary": "개발자들은 자연어 명령을 사용하여 시뮬레이션 아이디어를 작동하는 애플리케이션으로 전환하기 위해 최첨단 AI 모델을 NVIDIA Omniverse 라이브러리와 결합하고 있습니다. 프로젝트는 GPT-6 Astra, GPT-6 Sol, Claude Code와 같은 AI 모델이 디지털",
+   "impact": "이 접근 방식은 개발자와 엔지니어링 팀이 복잡한 디지털 트윈 및 시뮬레이션 생성을 간소화하는 데 도움을 줄 수 있으며, 이를 통해 산업 및 로봇 공학 워크플로우에서 비용이 많이 드는 지연과 실수를 줄일 수 있습니다.",
+   "keyPoints": [
+    "개발자는 자연어 명령을 사용하여 물리 및 렌더링을 위해 NVIDIA Omniverse 라이브러리와 결합된 AI 에이전트를 지휘합니다.",
+    "Falkor는 GPT-6 Astra 및 NVIDIA Omniverse 라이브러리를 사용하여 CAD 및 엔지니어링 데이터를 시설 규모의 디지털 트윈으로 변환합니다.",
+    "NVIDIA 개발자들은 SimReady Central 자산, Isaac Sim 및 GPT-6 Sol을 사용하여 로봇 픽앤플레이스 시뮬레이션을 구축했습니다.",
+    "커뮤니티 개발자 Michael Wagner는 Claude Code와 GPT-6 Astra를 사용하여 음성 제어 VR 시뮬레이션을 구축했습니다."
+   ]
+  }
+ }
+}

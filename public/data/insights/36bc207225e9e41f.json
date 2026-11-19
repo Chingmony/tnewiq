@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "36bc207225e9e41f",
+ "contentHash": "192b2aecd0f25480",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:47:13.639Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+   "summary": "NVIDIA and Microsoft are extending their collaboration to bring accelerated computing from Azure to Windows PCs and industrial systems. Announced at Microsoft Ignite, the initiative introduces Azure virtual machines powered by NVIDIA Vera Rubin NVL72 systems and integrates NVIDIA open models and customization tools into Microsoft Foundry. Additionally, Microsoft is using NVIDIA technologies like Dynamo inference software and RTX PRO 6000 Blackwell GPUs to accelerate its own services and search models.",
+   "impact": "Developers and organizations could benefit from more powerful infrastructure, expanded open models, and enhanced customization tools for building and deploying AI applications. Security teams may find the integration of confidential computing helpful for protecting sensitive models and data.",
+   "keyPoints": [
+    "NVIDIA Vera Rubin NVL72 systems are now running in Azure data centers.",
+    "Microsoft Foundry added support for NVIDIA open models and customization capabilities.",
+    "Microsoft is using NVIDIA Dynamo and RTX PRO 6000 Blackwell GPUs for Bing search models."
+   ]
+  },
+  "km": {
+   "title": "NVIDIA និង Microsoft ពង្រីកកុំព្យូទ័រលឿនពី Azure ទៅកាន់កុំព្យូទ័រ Windows",
+   "summary": "NVIDIA និង Microsoft កំពុងពង្រីកកិច្ចសហការដើម្បីនាំយកកុំព្យូទ័រលឿនពី Azure ទៅកាន់កុំព្យូទ័រ Windows និងប្រព័ន្ធឧស្សាហកម្ម។ ក្រុមហ៊ុនទាំងពីរបានប្រកាសការអភិវឌ្ឍនេះនៅឯ Microsoft Ignite ដោយបានណែនាំម៉ាស៊ីននិម្មិត Azure ដែលបំពាក់ដោយប្រព័ន្ធ NVIDIA Vera Rubin NVL72 និងរួមបញ្ចូលម៉ូដែលបើកចំហរបស់ NVIDIA ទៅក្នុង Microsoft Foundry។ បន្ថែមពីនេះ Microsoft កំពុងប្រើប្រាស់បច្ចេកវិទ្យា NVIDIA ដើម្បីពន្លឿនម៉ូដែលនិងសេវាកម្មផ្ទាល់ខ្លួនផងដែរ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងស្ថាប័ននានាអាចទទួលបានអត្ថប្រយោជន៍ពីហេដ្ឋារចនាសម្ព័ន្ធដ៏មានឥទ្ធិពល ម៉ូដែលបើកចំហដែលបានពង្រីក និងឧបករណ៍ប្ដូរតាមបំណងសម្រាប់ការបង្កើតកម្មវិធី AI។ ក្រុមសន្តិសុខអាចយល់ថាការដាក់បញ្ចូលកុំព្យូទ័រមានសុវត្ថិភាពមានប្រយោជន៍សម្រាប់ការការពារទិន្នន័យរសើប។",
+   "keyPoints": [
+    "ប្រព័ន្ធ NVIDIA Vera Rubin NVL72 កំពុងដំណើរការក្នុងមជ្ឈមណ្ឌលទិន្នន័យ Azure។",
+    "Microsoft Foundry បានបន្ថែមការគាំទ្រសម្រាប់ម៉ូដែលបើកចំហរបស់ NVIDIA។",
+    "Microsoft កំពុងប្រើប្រាស់កម្មវិធីសន្និដ្ឋាន NVIDIA Dynamo និង GPU RTX PRO 6000 Blackwell។"
+   ]
+  },
+  "zh-CN": {
+   "title": "NVIDIA 与 Microsoft 将加速计算从 Azure 扩展至 Windows 电脑",
+   "summary": "NVIDIA 与 Microsoft 正在扩大全面合作，将加速计算从 Azure 延伸至 Windows 电脑和工业系统。在 Microsoft Ignite 上，两家公司扩展了由 NVIDIA Vera Rubin NVL72 系统驱动的 Azure 虚拟机访问权限，并通过 Microsoft Foundry 增加了对 NVIDIA 开源模型和定制功能的访问。此外，Microsoft 还利用 NVIDIA 技术来加速其自身的模型和服务。",
+   "impact": "开发人员和企业可以利用更强大的基础设施、扩展的开源模型以及增强的定制工具来构建和部署 AI 应用。安全团队可能会发现机密计算的整合有利于保护敏感模型和数据。",
+   "keyPoints": [
+    "NVIDIA Vera Rubin NVL72 系统正在 Azure 数据中心运行。",
+    "Microsoft Foundry 增加了对 NVIDIA 开源模型和定制功能的支持。",
+    "Microsoft 正在使用 NVIDIA 技术来加速其自身的搜索模型和服务。"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA와 Microsoft, 가속 컴퓨팅을 Azure에서 Windows PC로 확장",
+   "summary": "NVIDIA와 Microsoft는 Azure에서 Windows PC 및 산업용 시스템에 이르기까지 가속 컴퓨팅을 지원하기 위해 협력을 확대하고 있습니다. Microsoft Ignite에서 양사는 NVIDIA Vera Rubin NVL72 시스템으로 구동되는 Azure 가상 머신의 접근성을 넓히고, Microsoft Foundry를 통해 NVIDIA 오픈 모델 및 커스텀 기능을 추가한다고 밝혔습니다. 또한 Microsoft는 자체 모델과 서비스를 가속하기 위해 NVIDIA 기술을 사용하고 있습니다.",
+   "impact": "개발자와 기업은 AI 애플리케이션을 구축하고 배포하기 위한 강력한 인프라, 확장된 오픈 모델, 향상된 커스텀 도구의 혜택을 누릴 수 있습니다. 보안 팀은 민감한 모델과 데이터를 보호하는 데 기밀 컴퓨팅 통합이 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "NVIDIA Vera Rubin NVL72 시스템이 Azure 데이터 센터에서 실행 중입니다.",
+    "Microsoft Foundry에 NVIDIA 오픈 모델 및 커스텀 기능 지원이 추가되었습니다.",
+    "Microsoft는 Bing 검색 모델 등을 가속하기 위해 NVIDIA 기술을 활용하고 있습니다."
+   ]
+  }
+ }
+}

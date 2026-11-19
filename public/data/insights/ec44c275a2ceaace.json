@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ec44c275a2ceaace",
+ "contentHash": "4e26a2ec6029d814",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T21:47:36.534Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Polly launches voice cloning: A unique voice for your brand",
+   "summary": "Amazon Polly has launched voice cloning as a generally available gated release, allowing users to create a custom cloned voice using a few minutes of audio recordings from a consenting speaker. The feature runs on the Amazon Polly generative engine and supports seven languages at launch: English, Spanish, German, French, Italian, Portuguese, and Hindi. Cloned voices feature automatic encryption and access control, ensuring that only the creator can access them. Building a cloned voice is free, with usage charged on a pay-as-you-go basis.",
+   "impact": "Developers and technology users could integrate custom, consistent brand voices into applications such as mobile apps, IVR systems, games, and contact centers without needing recurring studio recording sessions. Security and compliance teams may benefit from built-in encryption and strict access controls, though gated access means teams must apply or contact their AWS account team to use the feature.",
+   "keyPoints": [
+    "Voice cloning in Amazon Polly is available as a gated release in AWS Regions supported by the generative engine.",
+    "Requires a few minutes of source audio from a speaker who has agreed to have their voice cloned.",
+    "Launches with seven supported languages, with each cloned voice speaking the language it was recorded in.",
+    "Cloned voices are automatically encrypted and access-controlled exclusively for the creator."
+   ]
+  },
+  "km": {
+   "title": "Amazon Polly ចាប់ផ្តើមសេវាកម្មក្លែងបន្លំសំឡេង៖ សំឡេងផ្ទាល់ខ្លួនសម្រាប់ម៉ាកយីហោរបស់អ្នក",
+   "summary": "Amazon Polly បានដាក់ឱ្យប្រើប្រាស់មុខងារក្លែងបន្លំសំឡេងជាផ្លូវការក្នុងទម្រង់ជាការចេញផ្សាយដែលមានការកំណត់កម្រិតចូលប្រើប្រាស់ ដែលអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់បង្កើតសំឡេងក្លែងបន្លំតាមតម្រូវការដោយប្រើប្រាស់សំឡេងកត់ត្រារយៈពេលពីរបីនាទីពីវាគ្មិនដែលបានយល់ព្រម។ មុខងារនេះដំណើរការលើម៉ាស៊ីន ਜenerative របស់ Amazon Polly និងគាំទ្រដល់ទៅប្រាំពីរភាសា។ សំឡេងក្លែងបន្លំត្រូវបានអ៊ិនគ្រីបដោយស្វ័យប្រវត្តិ និងមានការគ្រប់គ្រងការចូលប្រើប្រាស់។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចដាក់បញ្ចូលសំឡេងម៉ាកយីហោផ្ទាល់ខ្លួនទៅក្នុងកម្មវិធីផ្សេងៗដោយមិនចាំបាច់កត់ត្រាសំឡេងក្នុងស្ទូឌីយោឡើងវិញ។ ក្រុមការងារសុវត្ថិភាពអាចទទួលបានអត្ថប្រយោជន៍ពីការអ៊ិនគ្រីបស្វ័យប្រវត្តិ និងការគ្រប់គ្រងការចូលប្រើប្រាស់យ៉ាងតឹងរ៉ឹង ប៉ុន្តែការចូលប្រើប្រាស់តម្រូវឱ្យដាក់ពាក្យស្នើសុំ ឬទាក់ទងក្រុមការងារ AWS។",
+   "keyPoints": [
+    "មុខងារក្លែងបន្លំសំឡេងនៅក្នុង Amazon Polly ដាក់ឱ្យប្រើប្រាស់ជាទូទៅក្នុងតំបន់ AWS ដែលគាំទ្រ។",
+    "តម្រូវឱ្យមានសំឡេងកត់ត្រារយៈពេលពីរបីនាទីពីវាគ្មិនដែលបានយល់ព្រម។",
+    "ចាប់ផ្តើមដំបូងជាមួយនឹងប្រាំពីរភាសា៖ អង់គ្លេស អេស្ប៉ាញ អាល្លឺម៉ង់ បារាំង អ៊ីតាលី ព័រទុយហ្គាល់ និងហិនឌី។",
+    "ការបង្កើតសំឡេងក្លែងបន្លំគឺមិនគិតថ្លៃទេ ប៉ុន្តែការប្រើប្រាស់គិតថ្លៃតាមការប្រើប្រាស់ជាក់ស្តែង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Polly 推出声音克隆功能：为您的品牌打造独特声音",
+   "summary": "Amazon Polly 的声音克隆功能现已作为受限发布的通用版本推出，允许用户使用同意克隆的发言者提供的几分钟录音来构建自定义克隆声音。该功能运行在 Amazon Polly 生成式引擎上，首发支持七种语言。克隆声音具备自动加密和访问控制功能，确保只有创建者才能访问。构建克隆声音是免费的，使用时则按实际使用量计费。",
+   "impact": "开发人员和技术用户可以将一致的品牌声音集成到移动应用、交互式语音应答系统、游戏和呼叫中心等应用程序中，而无需重复进行录音棚录制。安全团队可以受益于内置加密和严格的访问控制，但由于采取了受限发布，团队需要申请或联系其 AWS 账号团队才能获得访问权限。",
+   "keyPoints": [
+    "Amazon Polly 声音克隆功能在支持该生成式引擎的所有 AWS 区域推出。",
+    "只需提供同意克隆的发言者的几分钟源音频即可构建。",
+    "首发支持七种语言：英语、西班牙语、德语、法语、意大利语、葡萄牙语和印地语。",
+    "克隆声音会自动加密并进行访问控制，仅限用户本人访问。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Polly, 음성 복제 기능 출시: 브랜드만을 위한 고유한 음성",
+   "summary": "Amazon Polly는 동의한 화자의 몇 분 분량의 오디오 녹음을 사용하여 맞춤형 복제 음성을 구축할 수 있는 음성 복제 기능을 정식 출시했습니다. 이 기능은 Amazon Polly 생성형 엔진에서 실행되며 출시 시점에 7개 언어를 지원합니다. 복제된 음성은 자동으로 암호화되고 접근 제어되어 오직 제작자만 접근할 수 있습니다. 복제 음성 구축은 무료이며 사용량에 따라 비용이 부과됩니다.",
+   "impact": "개발자와 기술 사용자는 반복적인 스튜디오 녹음 세션 없이도 모바일 앱, IVR 시스템, 게임, 콜센터 등의 애플리케이션에 일관된 브랜드 음성을 통합할 수 있습니다. 보안 팀은 내장된 암호화와 엄격한 접근 제어의 이점을 얻을 수 있으나, 제한된 출시 정책으로 인해 사용을 위해 별도의 신청이나 AWS 계정 팀과의 연락이 필요합니다.",
+   "keyPoints": [
+    "Amazon Polly의 음성 복제 기능은 생성형 엔진을 지원하는 모든 AWS 리전에서 사용할 수 있습니다.",
+    "음성 복제에 동의한 화자의 몇 분 분량의 원본 오디오가 필요합니다.",
+    "영어, 스페인어, 독일어, 프랑스어, 이탈리아어, 포르투갈어, 힌디어 등 7개 언어로 출시됩니다.",
+    "복제된 음성은 자동으로 암호화되며 생성자만 접근할 수 있도록 제어됩니다."
+   ]
+  }
+ }
+}
