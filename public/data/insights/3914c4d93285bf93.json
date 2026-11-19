@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3914c4d93285bf93",
+ "contentHash": "f155023c7d0afd86",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T13:33:54.423Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+   "summary": "A researcher has demonstrated that low-privilege database accounts can execute code on the database server itself by exploiting memory-corruption bugs in engine code. The published proofs of concept target PostgreSQL, MySQL, and ClickHouse, alongside a separate Oracle chain.",
+   "impact": "Security teams and developers may need to reassess privilege boundaries and database engine vulnerabilities, as low-privilege accounts could potentially achieve remote code execution on servers.",
+   "keyPoints": [
+    "Low-privilege database accounts can run code on database servers.",
+    "Exploits target memory-corruption bugs in engine code behind standard SQL.",
+    "Proofs of concept affect PostgreSQL, MySQL, ClickHouse, and Oracle."
+   ]
+  },
+  "km": {
+   "title": "អ្នកស្រាវជ្រាវបង្ហាញពីការវាយលុក RCE លើមូលដ្ឋានទិន្នន័យដែលប៉ះពាល់ដល់ PostgreSQL, MySQL និង Oracle",
+   "summary": "អ្នកស្រាវជ្រាវម្នាក់បានបង្ហាញថាគណនីមូលដ្ឋានទិន្នន័យដែលមានសិទ្ធិទាបអាចដំណើរការកូដនៅលើម៉ាស៊ីនបម្រើមូលដ្ឋានទិន្នន័យផ្ទាល់ ដោយឆ្លងកាត់កំហុសខូចខាតអង្គចងចាំនៅក្នុងកូដម៉ាស៊ីន។ ភស្តុតាងនៃគំនិតដែលបានបោះពុម្ពផ្សាយគឺផ្តោតលើ PostgreSQL, MySQL និង ClickHouse រួមជាមួយនឹងខ្សែសង្វាក់ Oracle ដាច់ដោយឡែកមួយ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចនឹងត្រូវពិនិត្យឡើងវិញនូវដែនកំណត់សិទ្ធិ និងភាពងាយរងគ្រោះនៃម៉ាស៊ីនមូលដ្ឋានទិន្នន័យ ព្រោះគណនីសិទ្ធិទាបអាចសម្រេចបាននូវការប្រតិោតកូដពីចម្ងាយនៅលើម៉ាស៊ីនបម្រើ។",
+   "keyPoints": [
+    "គណនីមូលដ្ឋានទិន្នន័យដែលមានសិទ្ធិទាបអាចដំណើរការកូដនៅលើម៉ាស៊ីនបម្រើ។",
+    "ការវាយលុកកំណត់គោដៅលើកំហុសខូចខាតអង្គចងចាំនៅក្នុងកូដម៉ាស៊ីន។",
+    "ភស្តុតាងនៃគំនិតប៉ះពាល់ដល់ PostgreSQL, MySQL, ClickHouse និង Oracle។"
+   ]
+  },
+  "zh-CN": {
+   "title": "研究人员演示影响 PostgreSQL、MySQL 和 Oracle 的数据库远程代码执行漏洞",
+   "summary": "一名研究人员展示了权限较低的数据库账户可以通过利用引擎代码中的内存损坏漏洞，在数据库服务器本身上运行代码。昨天发布的漏洞概念验证针对 PostgreSQL、MySQL 和 ClickHouse，此外还有一个不需要特定条件的独立 Oracle 攻击链。",
+   "impact": "安全团队和开发人员可能需要重新评估权限边界和数据库引擎漏洞，因为低权限账户可能会在服务器上实现远程代码执行。",
+   "keyPoints": [
+    "低权限数据库账户可以在数据库服务器上运行代码。",
+    "漏洞利用了普通 SQL 背后的引擎代码中的内存损坏错误。",
+    "概念验证影响 PostgreSQL、MySQL、ClickHouse 和 Oracle。"
+   ]
+  },
+  "ko": {
+   "title": "연구원이 PostgreSQL, MySQL 및 Oracle에 영향을 미치는 데이터베이스 원격 코드 실행 취약점 시연",
+   "summary": "한 연구원은 권한이 낮은 데이터베이스 계정이 엔진 코드의 메모리 손상 버그를 악용하여 데이터베이스 서버 자체에서 코드를 실행할 수 있음을 입증했습니다. 어제 공개된 개념 증명은 PostgreSQL, MySQL, ClickHouse를 대상으로 하며, 별도의 Oracle 체인도 포함되어 있습니다.",
+   "impact": "보안 팀과 개발자는 권한 경계와 데이터베이스 엔진 취약점을 재평가해야 할 수 있으며, 권한이 낮은 계정이 서버에서 원격 코드 실행을 달성할 수 있기 때문입니다.",
+   "keyPoints": [
+    "권한이 낮은 데이터베이스 계정이 데이터베이스 서버에서 코드를 실행할 수 있습니다.",
+    "익스플로잇은 일반 SQL 뒤에 있는 엔진 코드의 메모리 손상 버그를 대상으로 합니다.",
+    "개념 증명은 PostgreSQL, MySQL, ClickHouse, Oracle에 영향을 줍니다."
+   ]
+  }
+ }
+}

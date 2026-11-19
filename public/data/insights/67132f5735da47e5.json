@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "67132f5735da47e5",
+ "contentHash": "dd9a8aa613b21c25",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T13:37:02.463Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Transform automates source and migration target actions to accelerate cutover",
+   "summary": "AWS Transform has introduced new automation capabilities for source and post-launch actions to streamline server preparation and validation during cloud migrations. The agentic AI service allows teams to define and run actions in bulk on source servers across migration waves and accounts. It also automatically configures and validates workloads as soon as they launch on AWS.",
+   "impact": "This feature could significantly reduce manual effort and time spent on large-scale migrations by automating repetitive pre-shutdown and post-launch tasks. Migration and security teams may benefit from more consistent validation, centralized management, and clearer oversight when making go/no-go decisions during cutover.",
+   "keyPoints": [
+    "AWS Transform now automates server preparation and validation tasks before moves and after launches.",
+    "New source actions let teams run tasks securely on source servers from early migration stages through cutover.",
+    "Post-launch actions automatically configure and validate workloads upon launch on AWS.",
+    "Actions can be defined once, run in bulk, and reused across multiple accounts and migrations."
+   ]
+  },
+  "km": {
+   "title": "AWS Transform ស្វ័យប្រវត្តិកម្មសកម្មភាពប្រភពនិងគោលដៅចំណាកស្រុកដើម្បីពន្លឿនការប្តូរ",
+   "summary": "AWS Transform ឥឡូវនេះស្វ័យប្រវត្តិកម្មកិច្ចការដែលរៀបចំ និងផ្ទៀងផ្ទាត់ម៉ាស៊ីនមេរបស់អ្នកក្នុងអំឡុងពេលចំណាកស្រុក មុនពេលពួកវាផ្លាស់ទី និងបន្ទាប់ពីពួកវាចាប់ផ្តើមនៅលើ AWS។ សេវាកម្ម AI នេះជួយពន្លឿនចំណាកស្រុកលើពពក និងកាត់បន្ថយបំណុលបច្ចេកវិទ្យា។ ជាមួយនឹងសមត្ថភាពសកម្មភាពប្រភពថ្មី អ្នកអាចបង្កើតសកម្មភាព និងដំណើរការពួកវាដោយសុវត្ថិភាពនៅលើម៉ាស៊ីនមេប្រភពរបស់អ្នក។",
+   "impact": "មុខងារនេះអាចកាត់បន្ថយការងារដោយដៃ និងពេលវេលាដែលបានចំណាយលើចំណាកស្រុកទ្រង់ទ្រាយធំ។ ក្រុមការងារអាចទទួលបានអត្ថប្រយោជន៍ពីការផ្ទៀងផ្ទាត់ដែលស៊ីសង្វាក់គ្នា និងការគ្រប់គ្រងកណ្តាលកាន់តែប្រសើរ។",
+   "keyPoints": [
+    "AWS Transform ឥឡូវនេះស្វ័យប្រវត្តិកម្មកិច្ចការរៀបចំនិងផ្ទៀងផ្ទាត់ម៉ាស៊ីនមេ។",
+    "សកម្មភាពប្រភពថ្មីអនុញ្ញាតឱ្យក្រុមការងារដំណើរការកិច្ចការដោយសុវត្ថិភាពនៅលើម៉ាស៊ីនមេប្រភព។",
+    "សកម្មភាពក្រោយពេលចាប់ផ្តើមរៀបចំ និងផ្ទៀងផ្ទាត់បន្ទុកការងារនៅលើ AWS ដោយស្វ័យប្រវត្តិ។",
+    "សកម្មភាពអាចត្រូវបានកំណត់ជាមុន ដំណើរការជាក្រុម និងប្រើប្រាស់ឡើងវិញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Transform 自动化源服务器和迁移目标操作以加速割接",
+   "summary": "AWS Transform 现已推出针对源服务器和启动后操作的新自动化功能，以简化云迁移过程中的服务器准备和验证工作。这项智能代理 AI 服务允许团队在迁移波次和账户中批量定义和运行源服务器操作。它还可以在工作负载在 AWS 上启动后自动进行配置和验证。",
+   "impact": "该功能可以通过自动化重复的预关闭和启动后任务，显著减少大规模迁移中的手动工作和时间耗费。迁移和安全团队可以借助更一致的验证、集中化管理以及更清晰的监督，在割接期间做出更准确的决策。",
+   "keyPoints": [
+    "AWS Transform 现在可以自动化迁移前后的服务器准备和验证任务。",
+    "新的源服务器操作使团队能够在整个迁移阶段安全地在源服务器上运行任务。",
+    "启动后操作会在工作负载在 AWS 上启动时自动对其进行配置和验证。",
+    "操作只需定义一次即可批量运行，并可在多个账户和迁移项目中重复使用。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Transform, 전환 가속화를 위한 소스 및 마이그레이션 대상 작업 자동화",
+   "summary": "AWS Transform은 클라우드 마이그레이션 중 서버 준비 및 검증 태스크를 자동화하는 새로운 소스 및 출시 후 작업 기능을 도입했습니다. 이 에이전트 AI 서비스는 마이그레이션 웨이브와 계정 전반에 걸쳐 소스 서버에서 작업을 일괄적으로 정의하고 실행할 수 있도록 지원합니다. 또한 워크로드가 AWS에서 실행되는 즉시 자동으로 구성하고 검증합니다.",
+   "impact": "이 기능은 대규모 마이그레이션에서 수동 작업과 소요 시간을 크게 줄여줄 수 있습니다. 마이그레이션 및 보안 팀은 일관된 검증, 중앙 집중식 관리, 그리고 전환 과정에서의 명확한 의사결정을 통해 이점을 얻을 수 있습니다.",
+   "keyPoints": [
+    "AWS Transform은 이제 이동 전후의 서버 준비 및 검증 작업을 자동화합니다.",
+    "새로운 소스 작업을 통해 초기 단계부터 전환까지 소스 서버에서 안전하게 작업을 실행할 수 있습니다.",
+    "출시 후 작업은 AWS에서 워크로드가 실행될 때 자동으로 구성하고 검증합니다.",
+    "작업을 한 번 정의하고 일괄 실행하며 여러 계정과 마이그레이션에서 재사용할 수 있습니다."
+   ]
+  }
+ }
+}

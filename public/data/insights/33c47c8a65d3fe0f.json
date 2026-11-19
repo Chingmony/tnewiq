@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "33c47c8a65d3fe0f",
+ "contentHash": "ba19f7e1ebd2a08b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T13:36:43.782Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Transform supports optimized storage for server migration",
+   "summary": "AWS Transform for migrations now automatically recommends optimized storage types and configurations for servers, eliminating the need for server-by-server configuration. Using observed performance and capacity data, the service provides cost and performance recommendations for Amazon EBS and Amazon FSx for NetApp ONTAP. Users can choose to optimize for cost or performance, view expected costs before migrating, and have approved settings applied automatically at launch.",
+   "impact": "This feature could help developers and administrators reduce overprovisioning costs and avoid performance issues after cutover. Security and IT teams may benefit from streamlined, consistent storage configurations across migrations.",
+   "keyPoints": [
+    "AWS Transform recommends optimized storage types and configurations for migrating servers.",
+    "Recommendations are based on observed performance and capacity data.",
+    "Supported services include Amazon EBS and Amazon FSx for NetApp ONTAP.",
+    "Users can choose between cost and performance optimization."
+   ]
+  },
+  "km": {
+   "title": "AWS Transform គាំទ្រការផ្ទុកដែលបានශ្មអប្រសើរសម្រាប់ការផ្ទេរម៉ាស៊ីនបម្រើ",
+   "summary": "AWS Transform សម្រាប់ការផ្ទេរឥឡូវនេះផ្តល់អនុសាសន៍ដោយស្វ័យប្រវត្តិនូវប្រភេទកន្លែងផ្ទុកនិងការកំណត់ដែលបានශ្មអប្រសើរសម្រាប់ម៉ាស៊ីនបម្រើ។ ការផ្តល់អនុសាសន៍ទាំងនេះប្រើប្រាស់ទិន្នន័យសមត្ថភាពនិងដំណើរការដែលបានសង្កេតឃើញដើម្បីកាត់បន្ថយការចំណាយលើសកម្រិត។ សេវាកម្មនេះគាំទ្រដល់ Amazon EBS និង Amazon FSx for NetApp ONTAP ដោយអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ជ្រើសរើសរវាងការបង្កើនប្រសិទ្ធភាពថ្លៃដើមឬដំណើរការ។",
+   "impact": "មុខងារនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងក្រុមការងារកាត់បន្ថយការចំណាយលើសកម្រិតនិងជៀសវាងបញ្ហាដំណើរការបន្ទាប់ពីការផ្ទេរ។",
+   "keyPoints": [
+    "AWS Transform ផ្តល់អនុសាសន៍កន្លែងផ្ទុកដែលបានශ្មអប្រសើរសម្រាប់ការផ្ទេរម៉ាស៊ីនបម្រើ។",
+    "ការផ្តល់អនុសាសន៍ប្រើប្រាស់ទិន្នន័យដំណើរការនិងសមត្ថភាពដែលបានសង្កេតឃើញ។",
+    "វាគាំទ្រដល់ Amazon EBS និង Amazon FSx for NetApp ONTAP។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Transform 支持针对服务器迁移的优化存储",
+   "summary": "用于迁移的 AWS Transform 现在可以为每个要迁移的服务器自动推荐优化的存储类型和配置，从而无需逐个服务器进行设置。利用观察到的性能和容量数据，该服务可以减少过度配置的成本并避免割接后的性能问题。用户可以在迁移前查看预期成本，并且 AWS Transform 会在启动时自动应用批准的设置。",
+   "impact": "此功能可以帮助开发人员和技术团队降低过度配置成本，并避免迁移后的性能问题。用户可以更轻松地在成本或性能优化之间做出选择。",
+   "keyPoints": [
+    "AWS Transform 为迁移服务器推荐优化的存储类型和配置。",
+    "推荐基于观察到的性能和容量数据。",
+    "涵盖 Amazon EBS 和 Amazon FSx for NetApp ONTAP。",
+    "用户可以选择针对成本或性能进行优化。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Transform, 서버 마이그레이션을 위한 최적화된 스토리지 지원",
+   "summary": "마이그레이션을 위한 AWS Transform은 이제 마이그레이션하는 모든 서버에 대해 최적화된 스토리지 유형과 구성을 자동으로 권장합니다. 관찰된 성능 및 용량 데이터를 사용하여 과도한 프로비저닝 비용을 줄이고 전환 후 성능 문제를 방지합니다. 사용자는 마이그레이션 전에 예상 비용을 확인할 수 있으며, AWS Transform은 실행 시 승인된 설정을 자동으로 적용합니다.",
+   "impact": "이 기능은 개발자와 운영 팀이 과도한 프로비저닝 비용을 줄이고 마이그레이션 후 성능 문제를 방지하는 데 도움을 줄 수 있습니다. 사용자는 비용 또는 성능 최적화를 선택할 수 있습니다.",
+   "keyPoints": [
+    "AWS Transform이 마이그레이션 서버를 위한 최적화된 스토리지 유형과 구성을 권장합니다.",
+    "권장 사항은 관찰된 성능 및 용량 데이터를 기반으로 합니다.",
+    "Amazon EBS 및 Amazon FSx for NetApp ONTAP를 지원합니다.",
+    "비용 또는 성능 중 하나를 선택하여 최적화할 수 있습니다."
+   ]
+  }
+ }
+}

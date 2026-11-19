@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "66ae1e90a2f98ec7",
+ "contentHash": "13b06784bd6d64c7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T13:39:40.800Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Gemini 4 Neon Released: Google Fits a Middle Tier Between the Strongest and the Cheapest",
+   "summary": "Google has expanded the Gemini 4 series into three tiers by introducing Neon, positioned between Carbon and Hydrogen to balance depth and efficiency. The model features a 1-million-token context window and is priced at 3 dollars per million input tokens, 0.15 dollars for cached input, and 15 dollars per million output tokens. This new tier joins Carbon for complex long-cycle projects and Hydrogen for rapid everyday tasks.",
+   "impact": "Developers and technology users may find this middle tier useful for tasks requiring a balance between capability and cost, though pricing details suggest it sits within standard frontier model ranges.",
+   "keyPoints": [
+    "Gemini 4 is now split into three tiers: Carbon, Hydrogen, and Neon.",
+    "Neon is designed to balance depth and efficiency.",
+    "The model supports a context window of 1 million tokens.",
+    "Input costs 3 dollars per million tokens, with cached input at 0.15 dollars and output at 15 dollars per million tokens."
+   ]
+  },
+  "km": {
+   "title": "Gemini 4 Neon ត្រូវបានចេញផ្សាយ៖ Google បញ្ចូលកម្រិតកណ្តាលរវាងម៉ូដែលខ្លាំងបំផុត និងថោកបំផុត",
+   "summary": "Google បានពង្រីកស៊េរី Gemini 4 ទៅជាបីកម្រិតដោយបានណែនាំ Neon ដែលស្ថិតនៅចន្លោះ Carbon និង Hydrogen ដើម្បីបង្កើតតុល្យភាពរវាងជម្រៅ និងប្រសិទ្ធភាព។ ម៉ូដែលនេះមានបង្អួចបរិបទ ១ លានតូខន និងមានតម្លៃ ៣ ដុល្លារក្នុងមួយលានតូខនសម្រាប់ការបញ្ចូល ការបញ្ចូលដែលបានរក្សាទុកក្នុងឃ្លាំងសម្ងាត់តម្លៃ ០,១៥ ដុល្លារ និងការបញ្ចេញតម្លៃ ១៥ ដុល្លារក្នុងមួយលានតូខន។ កម្រិតថ្មីនេះចូលរួមជាមួយ Carbon សម្រាប់គម្រោងវែងឆ្ងាយ និង Hydrogen សម្រាប់កិច្ចការប្រចាំថ្ងៃរហ័ស។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងយល់ថា កម្រិតកណ្តាលនេះមានប្រយោជន៍សម្រាប់កិច្ចការដែលទាមទារតុល្យភាពរវាងសមត្ថភាព និងការចំណាយ ទោះបីជាព័ត៌មានលម្អិតអំពីតម្លៃបង្ហាញថាវាស្ថិតក្នុងកម្រិតម៉ូដែលទំនើបស្តង់ដារក៏ដោយ។",
+   "keyPoints": [
+    "Gemini 4 ឥឡូវនេះត្រូវបានបែងចែកជាបីកម្រិត៖ Carbon, Hydrogen និង Neon។",
+    "Neon ត្រូវបានរចនាឡើងដើម្បីរក្សាតុល្យភាពរវាងជម្រៅ និងប្រសិទ្ធភាព។",
+    "ម៉ូដែលនេះគាំទ្របង្អួចបរិបទចំនួន ១ លានតូខន។",
+    "ការបញ្ចូលមានតម្លៃ ៣ ដុល្លារក្នុងមួយលានតូខន ការបញ្ចូលក្នុងឃ្លាំងសម្ងាត់តម្លៃ ០,១៥ ដុល្លារ និងការបញ្ចេញតម្លៃ ១៥ ដុល្លារក្នុងមួយលានតូខន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Gemini 4 Neon 发布：Google 在最强和最便宜之间，塞进了一个中间档",
+   "summary": "Google 推出了 Gemini 4 系列的第三个档位 Neon，夹在负责长周期项目的 Carbon 和负责日常快速执行的 Hydrogen 之间，旨在平衡深度与效率。该模型的上下文窗口为 100 万 token，输入价格为每百万 token 3 美元，缓存输入为 0.15 美元，输出则为每百万 token 15 美元。这一新档位丰富了前沿模型的选择。",
+   "impact": "开发者和技术用户可能会发现在平衡能力与成本时多了一个中间档位的选择，不过具体定价处于前沿模型的常规区间内。",
+   "keyPoints": [
+    "Gemini 4 系列现在分为 Carbon、Hydrogen 和 Neon 三个档位。",
+    "Neon 旨在平衡深度与效率。",
+    "该模型支持 100 万 token 的上下文窗口。",
+    "输入每百万 token 3 美元，缓存输入 0.15 美元，输出每百万 token 15 美元。"
+   ]
+  },
+  "ko": {
+   "title": "Gemini 4 Neon 출시: Google, 가장 강력한 모델과 가장 저렴한 모델 사이에 중간 등급 추가",
+   "summary": "Google은 가장 강력한 Carbon과 빠른 일상 작업을 담당하는 Hydrogen 사이에 깊이와 효율성의 균형을 맞추기 위한 새로운 중간 등급인 Neon을 추가하여 Gemini 4 시리즈를 세 가지 등급으로 확장했습니다. 이 모델은 100만 토큰의 컨텍스트 창을 지원하며, 입력은 백만 토큰당 3달러, 캐시된 입력은 0.15달러, 출력은 백만 토큰당 15달러로 책정되었습니다.",
+   "impact": "개발자와 기술 사용자는 성능과 비용 사이의 균형이 필요한 작업에서 이 중간 등급을 유용하게 활용할 수 있으며, 가격 책정 세부 정보는 표준 프론티어 모델 범위 내에 위치함을 보여줍니다.",
+   "keyPoints": [
+    "Gemini 4는 이제 Carbon, Hydrogen, Neon의 세 가지 등급으로 나뉩니다.",
+    "Neon은 깊이와 효율성의 균형을 맞추도록 설계되었습니다.",
+    "이 모델은 100만 토큰의 컨텍스트 창을 지원합니다.",
+    "가격은 입력 백만 토큰당 3달러, 캐시된 입력 0.15달러, 출력 백만 토큰당 15달러입니다."
+   ]
+  }
+ }
+}
