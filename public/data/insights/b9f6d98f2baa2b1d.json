@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b9f6d98f2baa2b1d",
+ "contentHash": "6a5300bd7efcb269",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T03:36:22.876Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Apache SeaTunnel 3.1.0 Released: Making Production Tasks More Stable and Deployment More Flexible",
+   "summary": "The Apache SeaTunnel community has released version 3.1.0, focusing on making data integration tasks easier to deploy and maintain while preventing data loss or silent corruption. The official release notes highlight 395 PRs and 11 new connectors. Rather than simply expanding the connector list, this version emphasizes Zeta engine stability, Connector-V2 data correctness, and enhanced production deployment and troubleshooting capabilities.",
+   "impact": "This release could help development and operations teams improve production task stability and deployment flexibility. Security and engineering teams may benefit from better data correctness and improved troubleshooting tools.",
+   "keyPoints": [
+    "Apache SeaTunnel 3.1.0 has been officially released.",
+    "The update includes 395 pull requests and 11 new connectors.",
+    "Focuses on Zeta engine stability and Connector-V2 data correctness.",
+    "Improves production deployment and troubleshooting capabilities."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យប្រើប្រាស់ Apache SeaTunnel 3.1.0៖ ធ្វើឱ្យកិច្ចការផលិតកម្មមានភាពស្ថិតស្ថេរជាងមុន និងការដាក់ពង្រាយមានភាពបត់បែនជាងមុន",
+   "summary": "សហគមន៍ Apache SeaTunnel បានដាក់ឱ្យដំណើរការកំណែ 3.1.0 ដោយផ្តោតលើការធ្វើឱ្យកិច្ចការរួមបញ្ចូលទិន្នន័យងាយស្រួលដាក់ពង្រាយ និងថែទាំ ក៏ដូចជាជៀសវាងការបាត់បង់ទិន្នន័យ ឬការខូចទិន្នន័យដោយស្ងាត់ៗ។ កំណត់ចំណាំនៃការដាក់ឱ្យប្រើប្រាស់ផ្លូវការបានសង្ខេបនូវ PR ចំនួន 395 និងឧបករណ៍តភ្ជាប់ថ្មីចំនួន 11។ កំណែនេះផ្តោតសំខាន់លើស្ថេរភាពរបស់ម៉ាស៊ីន Zeta ភាពត្រឹមត្រូវនៃទិន្នន័យ Connector-V2 និងការបំពេញបន្ថែមនូវសមត្ថភាពដាក់ពង្រាយផលិតកម្ម និងការដោះស្រាយបញ្ហា។",
+   "impact": "ការដាក់ឱ្យប្រើប្រាស់នេះអាចជួយដល់ក្រុមអភិវឌ្ឍន៍ និងប្រតិបត្តិការក្នុងការបង្កើនស្ថេរភាពកិច្ចការផលិតកម្ម និងភាពបត់បែននៃការដាក់ពង្រាយ។ ក្រុមការងារបច្ចេកវិទ្យាអាចទទួលបានប្រយោជន៍ពីភាពត្រឹមត្រូវនៃទិន្នន័យកាន់តែប្រសើរ និងឧបករណ៍ដោះស្រាយបញ្ហាដែលបានកែលម្អ។",
+   "keyPoints": [
+    "Apache SeaTunnel 3.1.0 ត្រូវបានដាក់ឱ្យប្រើប្រាស់ជាផ្លូវការ។",
+    "កំណែអាប់ដេតនេះរួមបញ្ចូលទាំង PR ចំនួន 395 និងឧបករណ៍តភ្ជាប់ថ្មីចំនួន 11។",
+    "ផ្តោតលើស្ថេរភាពម៉ាស៊ីន Zeta និងភាពត្រឹមត្រូវទិន្នន័យ Connector-V2។",
+    "កែលម្អសមត្ថភាពដាក់ពង្រាយផលិតកម្ម និងការដោះស្រាយបញ្ហា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Apache SeaTunnel 3.1.0 发布：让生产任务更稳，也让部署更灵活",
+   "summary": "Apache SeaTunnel 社区推出了 3.1.0 版本，重点围绕如何让数据集成任务更容易部署和运维，同时避免丢失数据或悄悄修改错误数据。官方发布说明汇总了 395 个 PR 和 11 个新连接器。该版本的主线并非单纯扩充连接器清单，而是加强了 Zeta 引擎稳定性、Connector-V2 数据正确性，并补齐了生产部署与排障能力。",
+   "impact": "该版本的发布可能帮助开发和运维团队提升生产任务的稳定性和部署的灵活性。技术团队也可能受益于更高的数据正确性和更完善的排障能力。",
+   "keyPoints": [
+    "Apache SeaTunnel 3.1.0 已正式发布。",
+    "本次更新汇总了 395 个 PR 和 11 个新连接器。",
+    "重点加强了 Zeta 引擎稳定性和 Connector-V2 数据正确性。",
+    "补齐了生产部署与排障能力。"
+   ]
+  },
+  "ko": {
+   "title": "Apache SeaTunnel 3.1.0 출시: 프로ดักชัน 작업을 더 안정적으로, 배포는 더욱 유연하게",
+   "summary": "Apache SeaTunnel 커뮤니티가 3.1.0 버전을 출시하며 데이터 통합 작업의 배포 및 유지보수를 더 쉽게 만들고 데이터 손실이나 조용한 데이터 오류를 방지하는 데 초점을 맞추었습니다. 공식 릴리스 노트에는 395개의 PR과 11개의 새로운 커넥터가 포함되어 있습니다. 이번 버전은 단순히 커넥터 목록을 확장하는 데 그치지 않고 Zeta 엔진 안정성, Connector-V2 데이터 정확성, 그리고 프로ดักชัน 배포 및 문제 해결 능력을 강화하는 데 중점을 두었습니다.",
+   "impact": "이번 릴리스는 개발 및 운영 팀이 프로ดักชัน 작업의 안정성과 배포 유연성을 향상시키는 데 도움을 줄 수 있습니다. 기술 팀은 향상된 데이터 정확성과 개선된 문제 해결 도구의 혜택을 받을 수 있습니다.",
+   "keyPoints": [
+    "Apache SeaTunnel 3.1.0이 공식 출시되었습니다.",
+    "업데이트에는 395개의 PR과 11개의 새로운 커넥터가 포함되어 있습니다.",
+    "Zeta 엔진 안정성과 Connector-V2 데이터 정확성에 중점을 둡니다.",
+    "프로ดักชัน 배포 및 문제 해결 능력이 향상되었습니다."
+   ]
+  }
+ }
+}

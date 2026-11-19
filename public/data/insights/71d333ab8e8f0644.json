@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "71d333ab8e8f0644",
+ "contentHash": "459df9c29857f1b1",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T03:38:05.150Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips",
+   "summary": "Exa optimized its embedding infrastructure on AWS Neuron hardware, including AWS Inferentia2 and AWS Trainium2, to index billions of documents. Facing a doubled inference load during a 30 billion document re-embedding migration, the company used the Neuron SDK and agentic workflows to increase throughput. Through progressive optimizations such as weight layout adjustment and autocast precision downcasting, Exa achieved roughly a 1.5x improvement in document embedding throughput.",
+   "impact": "Development and security teams working with large-scale vector databases and AWS AI hardware may find these optimization techniques relevant for scaling high-volume embedding pipelines. The use of weight layout adjustments and precision downcasting could offer pathways to improve throughput while maintaining model accuracy.",
+   "keyPoints": [
+    "Exa optimized embedding infrastructure on AWS Inferentia2 and AWS Trainium2 hardware.",
+    "A migration to re-embed 30 billion priority documents temporarily doubled the inference load.",
+    "Progressive optimizations including weight layout changes and autocast downcasting yielded a 1.5x throughput increase.",
+    "Optimizations maintained a 0.999 cosine similarity correctness standard against the reference model."
+   ]
+  },
+  "km": {
+   "title": "Exa បង្កើនល្បឿនបញ្ជូនបន្តការបង្កប់ 50% ដើម្បីលិបិក្រមឯកសាររាប់ពាន់លាននៅលើបន្ទះឈីប AI របស់ AWS",
+   "summary": "Exa បានធ្វើឱ្យប្រសើរឡើងនូវហេដ្ឋារចនាសម្ព័ន្ធបង្កប់របស់ខ្លួននៅលើ hardware របស់ AWS Neuron រួមទាំង AWS Inferentia2 និង AWS Trainium2 ដើម្បីលិបិក្រមឯកសាររាប់ពាន់លាន។ ក្រុមហ៊ុនបានប្រើប្រាស់ Neuron SDK និងដំណើរការអភិវឌ្ឍន៍ ដើម្បីបង្កើនល្បឿនបញ្ជូនបន្តក្នុងអំឡុងពេលចំណុចផ្ទុកការសន្និដ្ឋានទ្វេដង។ តាមរយៈការបង្កើនប្រសិទ្ធភាពជាបន្តបន្ទាប់ ដូចជាការកែសម្រួលទម្រង់ទម្ងន់ និងការកាត់បន្ថយភាពជាក់លាក់ Exa សម្រេចបានការកើនឡើងល្បឿនប្រហែល ១.៥ដង។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងសន្តិសុខដែលធ្វើការជាមួយមូលដ្ឋានទិន្នន័យ vector ខ្នាតធំ និង hardware AI របស់ AWS អាចយោងលើបច្ចេកទេសទាំងនេះដើម្បីបង្កើនទំហំដំណើរការ។ ការកែសម្រួលទម្រង់ទម្ងន់ និងការកាត់បន្ថយភាពជាក់លាក់អាចជួយបង្កើនល្បឿនខណៈពេលដែលរក្សាបាននូវភាពត្រឹមត្រូវនៃគំរូ។",
+   "keyPoints": [
+    "Exa បានធ្វើឱ្យប្រសើរឡើងនូវហេដ្ឋារចនាសម្ព័ន្ធនៅលើ hardware AWS Inferentia2 និង AWS Trainium2។",
+    "ការធ្វើចំណាកស្រុកដើម្បីបង្កប់ឯកសារអាទិភាពចំនួន ៣០ពាន់លានបានបង្កើនបន្ទុកសន្និដ្ឋានទ្វេដង។",
+    "ការបង្កើនប្រសិទ្ធភាពបានផ្តល់នូវការកើនឡើងល្បឿនបញ្ជូនបន្តប្រហែល ១.៥ដង។",
+    "ការបង្កើនប្រសិទ្ធភាពរក្សាបាននូវស្តង់ដារភាពត្រឹមត្រូវនៃ cosine similarity 0.999។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Exa 在 AWS AI 芯片上将嵌入吞吐量提升 50% 以索引数十亿文档",
+   "summary": "Exa 在 AWS Neuron 硬件（包括 AWS Inferentia2 和 AWS Trainium2）上优化了其嵌入基础设施，以索引数十亿文档。在对 300 亿份高优先级文档进行重新嵌入迁移期间，推理负载临时翻倍，该公司利用 Neuron SDK 推动了优化。通过权重布局优化和自动转换低精度等渐进式优化手段，Exa 实现了大约 1.5 倍的吞吐量提升。",
+   "impact": "使用大规模向量数据库和 AWS AI 硬件的开发和安全团队可能会发现这些优化技术对扩展大容量嵌入流水线很有参考价值。权重布局调整和精度下转可能会为在保持模型准确性的同时提高吞吐量提供途径。",
+   "keyPoints": [
+    "Exa 在 AWS Inferentia2 和 AWS Trainium2 硬件上优化了嵌入基础设施。",
+    "重新嵌入 300 亿份文档的迁移使推理负载临时加倍。",
+    "渐进式优化最终实现了大约 1.5 倍的吞吐量提升。",
+    "优化后的输出达到了与参考模型相比 0.999 的余弦相似度正确性标准。"
+   ]
+  },
+  "ko": {
+   "title": "Exa, AWS AI 칩에서 수십억 건의 문서를 색인하기 위해 임베딩 처리량을 50% 향상",
+   "summary": "Exa는 수십억 건의 문서를 색인하기 위해 AWS Inferentia2 및 AWS Trainium2를 포함한 AWS Neuron 하드웨어에서 임베딩 인프라를 최적화했습니다. 300억 개의 우선순위 문서를 다시 임베딩하는 마이그레이션 중에 추론 부하가 두 배로 증가했으며, 회사는 Neuron SDK를 활용해 처리량을 높였습니다. 가중치 레이아웃 최적화 및 정밀도 다운캐스팅과 같은 점진적 최적화를 통해 Exa는 약 1.5배의 처리량 향상을 달성했습니다.",
+   "impact": "대규모 벡터 데이터베이스 및 AWS AI 하드웨어를 다루는 개발 및 보안 팀은 이러한 최적화 기법을 대용량 임베딩 파이프라인 확장에 활용할 수 있습니다. 가중치 레이아웃 조정 및 정밀도 다운캐스팅은 모델 정확도를 유지하면서 처리량을 개선할 수 있는 가능성을 제공할 수 있습니다.",
+   "keyPoints": [
+    "Exa는 AWS Inferentia2 및 AWS Trainium2 하드웨어에서 임베딩 인프라를 최적화했습니다.",
+    "300억 개의 문서를 다시 임베딩하는 마이그레이션으로 인해 추론 부하가 일시적으로 두 배가 되었습니다.",
+    "가중치 레이아웃 변경 및 자동 캐스팅을 포함한 점진적 최적화로 약 1.5배의 처리량이 향상되었습니다.",
+    "최적화는 기준 모델 대비 0.999 코사인 유사도 정확도 기준을 유지했습니다."
+   ]
+  }
+ }
+}

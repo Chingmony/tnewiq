@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "05602872c97c9601",
+ "contentHash": "7fd504aa39248077",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T03:40:38.782Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon SageMaker AI now supports cross-Region inference routing",
+   "summary": "Amazon SageMaker AI has introduced cross-Region inference routing to help maintain inference application availability during capacity shortages or endpoint issues. The feature allows developers to set up an inference router that automatically directs requests to healthy endpoints in other AWS Regions and accounts when errors rise locally. Endpoint owners maintain control through endpoint policies and optional traffic caps, while router metrics can be monitored via Amazon CloudWatch.",
+   "impact": "This feature could help developers and technical teams improve application reliability without building custom multi-Region routing and retry logic. It may reduce throttling and errors for end users during single-Region capacity constraints.",
+   "keyPoints": [
+    "Cross-Region inference routing automatically shifts traffic to healthy endpoints in other Regions when local errors rise.",
+    "Developers can use existing endpoints, models, and containers without modification.",
+    "Endpoint owners retain control using endpoint policies and optional cross-Region traffic caps.",
+    "The feature is available at no additional charge across multiple commercial AWS Regions."
+   ]
+  },
+  "km": {
+   "title": "Amazon SageMaker AI ឥឡូវនេះគាំទ្រការបញ្ជូនបន្តការសន្និដ្ឋានឆ្លងតំបន់",
+   "summary": "Amazon SageMaker AI បានប្រកាសពីការបញ្ជូនបន្តការសន្និដ្ឋានឆ្លងតំបន់ ដែលជួយរក្សាឱ្យកម្មវិធីសន្និដ្ឋានអាចដំណើរការបាននៅពេលតំបន់ណាមួយខ្វះសមត្ថភាព។ មុខងារនេះអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍បង្កើតរ៉ោតទ័រដើម្បីបញ្ជូនសំណើទៅកាន់ចំណុចបញ្ចប់ដែលមានសុខភាពល្អនៅក្នុងតំបន់ និងគណនី AWS ផ្សេងទៀត។",
+   "impact": "មុខងារនេះអាចជួយឱ្យក្រុមអភិវឌ្ឍន៍កែលម្អភាពអាចរកបាននៃកម្មវិធីដោយមិនចាំបាច់បង្កើតប្រព័ន្ធបញ្ជូនបន្តផ្ទាល់ខ្លួនឡើយ។ វាអាចកាត់បន្ថយបញ្ហាគៀបសង្កត់ និងកំហុសសម្រាប់អ្នកប្រើប្រាស់ចុងក្រោយ។",
+   "keyPoints": [
+    "ការបញ្ជូនបន្តការសន្និដ្ឋានឆ្លងតំបន់បញ្ជូនសំណើទៅកាន់តំបន់ AWS ផ្សេងទៀតនៅពេលមានកំហុសកើនឡើង។",
+    "មិនចាំបាច់ផ្លាស់ប្តូរចំណុចបញ្ចប់ ម៉ូដែល ឬកុងតឺន័រដែលមានស្រាប់នោះទេ។",
+    "ម្ចាស់ចំណុចបញ្ចប់នៅតែអាចគ្រប់គ្រងការប្រើប្រាស់តាមរយៈគោលការណ៍ និងកម្រិតកំណត់ចរាចរណ៍។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon SageMaker AI 现已支持跨区域推理路由",
+   "summary": "Amazon SageMaker AI 宣布推出跨区域推理路由功能，通过将请求发送到其他 AWS 区域和账户中部署的端点，帮助在区域容量不足时保持推理应用的可用性。开发者可以创建一个推理 router 并注册现有的端点，当本地错误上升时，router 会将新请求转移到其他区域的健康目标，并在本地恢复后逐渐恢复流量。该功能无需修改现有端点、模型或容器。",
+   "impact": "该功能可以帮助开发者和团队免去自行构建跨区域路由、健康检查和重试逻辑的工作。它还可能在单区域容量受限时，减少最终用户的流量节流和错误。",
+   "keyPoints": [
+    "跨区域推理路由在本地错误增加时自动将流量转移到其他区域的健康端点。",
+    "现有端点、模型和容器保持不变，无需修改。",
+    "端点所有者可通过端点策略和可选的跨区域流量上限保持对资源的控制。",
+    "该功能不收取额外费用，支持在多个商业 AWS 区域使用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon SageMaker AI, 크로스 리전 추론 라우팅 지원",
+   "summary": "Amazon SageMaker AI는 리전 내 용량이 부족할 때 다른 AWS 리전 및 계정에 배포된 엔드포인트로 요청을 보내 추론 애플리케이션의 가용성을 유지하도록 돕는 크로스 리전 추론 라우팅을 발표했습니다. 개발자는 추론 라우터를 생성하고 기존 엔드포인트를 등록하여 오류가 증가할 때 다른 리전의 정상적인 대상으로 트래픽을 전환할 수 있습니다. 기존 엔드포인트, 모델, 컨테이너는 변경할 필요가 없습니다.",
+   "impact": "이 기능은 개발자와 보안 팀이 자체적인 다중 리전 라우팅 및 재시도 로직을 구축하지 않고도 애플리케이션 안정성을 향상시키는 데 도움을 줄 수 있습니다. 단일 리전 용량 제한 상황에서 최종 사용자의 오류와 속도 저하를 줄일 수 있습니다.",
+   "keyPoints": [
+    "크로스 리전 추론 라우팅은 로컬 오류가 증가할 때 다른 리전의 정상적인 엔드포인트로 트래픽을 자동으로 전환합니다.",
+    "기존 엔드포인트, 모델, 컨테이너를 수정 없이 그대로 사용할 수 있습니다.",
+    "엔드포인트 소유자는 엔드포인트 정책과 선택적 크로스 리전 트래픽 제한을 통해 제어 권한을 유지합니다.",
+    "추가 비용 없이 여러 상용 AWS 리전에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

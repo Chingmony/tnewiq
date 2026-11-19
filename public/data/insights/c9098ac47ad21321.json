@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c9098ac47ad21321",
+ "contentHash": "c171b82787bb1356",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T03:40:08.292Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+   "summary": "Cloudflare's Workers AI superintelligence team has released updated open-weight models, featuring an improved Clairic and a new lighter, faster Clairic-flash model with 9 billion parameters. Both models specialize in unstructured data extraction from complex sources like images and PDFs, using a redesigned parallel slot autoregressive generation architecture. Full open weights are available on Hugging Face, and the models are hosted on Workers AI.",
+   "impact": "Developers and technology users dealing with document processing could benefit from improved extraction accuracy, speed, and cost efficiency when handling receipts, support tickets, and other complex data. Security teams and developers may want to review the open-weight models and self-hosting options for their specific compliance and integration needs.",
+   "keyPoints": [
+    "Cloudflare introduced the Workers AI superintelligence team to build frontier AI models.",
+    "An updated Clairic and a new 9-billion-parameter Clairic-flash model are now available as open-weight releases on Hugging Face.",
+    "The models use parallel slot autoregressive generation to improve text and image extraction accuracy.",
+    "Both models are hosted on Workers AI and designed for low latency and cost."
+   ]
+  },
+  "km": {
+   "title": "ម៉ូเดែល Clairic ដែលបានកែលម្អ និង Clairic-flash ឥឡូវនេះគឺជាម៉ូដែលបើកចំហទម្ងន់ ពីក្រុម Workers AI Superintelligence ថ្មី",
+   "summary": "ក្រុម Workers AI superintelligence របស់ Cloudflare បានចេញផ្សាយម៉ូដែលបើកចំហទម្ងន់ដែលបានអាប់ដេត ដោយមាន Clairic កំណែថ្មី និង Clairic-flash ដែលជាម៉ូដែលស្រាលជាងនិងលឿនជាងមុនទំហំ 9 ពាន់លានប៉ារ៉ាម៉ែត្រ។ ម៉ូដែលទាំងពីរនេះមានឯកទេសក្នុងការទាញយកទិន្នន័យដែលគ្មានរចនាសម្ព័ន្ធពីប្រភពស្មុគស្មាញដូចជារូបភាព និង PDF តាមរយៈស្ថាបត្យកម្មបង្កើតជំនាន់អូតូហ្គ្រេស៊ីវរន្ធស្របគ្នាដែលបានរចនាឡើងវិញ។ ទម្ងន់បើកចំហពេញលេញមាននៅលើ Hugging Face ហើយម៉ូដែលទាំងនេះត្រូវបានបង្ហោះនៅលើ Workers AI។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលត្រូវដោះស្រាយការដំណើរការឯកសារអាចទទួលបានអត្ថប្រយោជន៍ពីភាពត្រឹមត្រូវ ល្បឿន និងប្រសិទ្ធភាពនៃការចំណាយក្នុងការទាញយកទិន្នន័យ។ ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចពិនិត្យមើលម៉ូដែលបើកចំហទម្ងន់ និងជម្រើសបង្ហោះដោយខ្លួនឯងសម្រាប់តម្រូវការអនុលោមភាពរបស់ពួកគេ។",
+   "keyPoints": [
+    "Cloudflare បានណែនាំក្រុម Workers AI superintelligence ដើម្បីបង្កើតម៉ូដែល AI ព្រំដែន។",
+    "Clairic កំណែថ្មី និង Clairic-flash ទំហំ 9 ពាន់លានប៉ារ៉ាម៉ែត្រ ឥឡូវនេះមាននៅលើ Hugging Face។",
+    "ម៉ូដែលទាំងនេះប្រើប្រាស់ការបង្កើតជំនាន់អូតូហ្គ្រេស៊ីវរន្ធស្របគ្នាដើម្បីបង្កើនភាពត្រឹមត្រូវ។",
+    "ម៉ូដែលទាំងពីរត្រូវបានបង្ហោះនៅលើ Workers AI និងត្រូវបានរចនាឡើងសម្រាប់ភាពយឺតយ៉ាវទាប។"
+   ]
+  },
+  "zh-CN": {
+   "title": "更新后的 Clairic 与 Clairic-flash 现已开源权重，由全新的 Workers AI Superintelligence 团队推出",
+   "summary": "Cloudflare 的 Workers AI 超级智能团队发布了更新后的开源权重模型，包括改进版的 Clairic 以及拥有 90 亿参数的更轻、更快的新模型 Clairic-flash。两款模型均专注于从图像和 PDF 等复杂来源中提取非结构化数据，并采用了重新设计的并行槽自回归生成架构。完整的开源权重已在 Hugging Face 上发布，并且模型托管在 Workers AI 上。",
+   "impact": "处理文档解析的开发者和技术用户可以从提升的提取准确率、速度以及成本效益中受益。安全团队和开发者也可能会针对自身的合规性和集成需求，评估这些开源权重模型及自托管选项。",
+   "keyPoints": [
+    "Cloudflare 推出了 Workers AI 超级智能团队以构建前沿 AI 模型。",
+    "更新后的 Clairic 与 90 亿参数的 Clairic-flash 现已作为开源权重发布在 Hugging Face 上。",
+    "模型采用并行槽自回归生成技术以提升文本和图像提取准确度。",
+    "两款模型均托管在 Workers AI 上并具备低延迟特性。"
+   ]
+  },
+  "ko": {
+   "title": "업데이트된 Clairic 및 Clairic-flash가 새로운 Workers AI Superintelligence 팀을 통해 오픈 웨이트로 공개되었습니다",
+   "summary": "Cloudflare의 Workers AI 슈퍼인텔리전스 팀은 개선된 Clairic 버전과 90억 파라미터 규모의 가볍고 빠른 신규 Clairic-flash 모델을 오픈 웨이트로 출시했습니다. 두 모델 모두 이미지 및 PDF와 같은 복잡한 소스에서 비정조직 데이터를 추출하는 데 특화되어 있으며, 재설계된 병렬 슬롯 자기회귀 생성 아키텍처를 사용합니다. 전체 오픈 웨이트는 Hugging Face에서 제공되며 모델들은 Workers AI에 호스팅됩니다.",
+   "impact": "문서 처리를 다루는 개발자와 기술 사용자는 영수증, 지원 티켓 및 기타 복잡한 데이터를 처리할 때 향상된 추출 정확도, 속도 및 비용 효율성의 혜택을 누릴 수 있습니다. 보안 팀과 개발자는 규정 준수 및 통합 요구 사항에 맞춰 오픈 웨이트 모델과 자체 호스팅 옵션을 검토할 수 있습니다.",
+   "keyPoints": [
+    "Cloudflare는 프론티어 AI 모델을 구축하기 위해 Workers AI 슈퍼인텔리전스 팀을 발표했습니다.",
+    "업데이트된 Clairic과 90억 파라미터의 Clairic-flash 모델이 Hugging Face에 오픈 웨이트로 공개되었습니다.",
+    "모델은 병렬 슬롯 자기회귀 생성 방식을 사용하여 텍스트 및 이미지 추출 정확도를 높였습니다.",
+    "두 모델 모두 Workers AI에서 호스팅되며 낮은 지연 시간과 비용으로 설계되었습니다."
+   ]
+  }
+ }
+}

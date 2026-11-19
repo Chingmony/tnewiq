@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "49604761c83affce",
+ "contentHash": "b1092acb0d9bc7a4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T03:40:59.517Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS announces ExtendDB 1.0",
+   "summary": "Amazon Web Services has announced ExtendDB 1.0, which is the first production-ready release of its open source Amazon DynamoDB-compatible adapter. The software is fully compatible with the DynamoDB API and allows developers to run DynamoDB workloads on various database backends without changing application code. ExtendDB 1.0 supports PostgreSQL, SQLite, Cassandra, and MongoDB as storage backends. It also includes tools like a container image and an npm package for local development and continuous integration over SQLite.",
+   "impact": "Developers and infrastructure teams may find this useful for running DynamoDB workloads across on-premises data centers, private or public clouds, and edge environments without rewriting application code. Security teams and developers can utilize the local development container and npm package for testing without needing an external database.",
+   "keyPoints": [
+    "ExtendDB 1.0 is the first production-ready release of the open source Amazon DynamoDB-compatible adapter.",
+    "It supports four storage backends: PostgreSQL, SQLite, Cassandra, and MongoDB.",
+    "A dev container image and npm package are available for local development and CI over SQLite.",
+    "The software is maintained by AWS, released under the Apache 2.0 license, and hosted on GitHub."
+   ]
+  },
+  "km": {
+   "title": "AWS ប្រកាសចេញ ExtendDB 1.0",
+   "summary": "Amazon Web Services បានប្រកាសដាក់ឱ្យប្រើប្រាស់ ExtendDB 1.0 ដែលជាកំណែដំបូងសម្រាប់ផលិតកម្មនៃកម្មវិធីបម្លែងដែលស្របតាម Amazon DynamoDB ប្រភពបើកចំហ។ កម្មវិធីនេះស្របគ្នាទាំងស្រុងជាមួយនឹង DynamoDB API ហើយដំណើរការលើមូលដ្ឋានទិន្នន័យ backend ដែលអ្នកជ្រើសរើសដោយមិនចាំបាច់សរសេរកូដកម្មវិធីឡើងវិញ។ ExtendDB 1.0 គាំទ្រ backend ការផ្ទុកចំនួនបួនគឺ PostgreSQL, SQLite, Cassandra និង MongoDB។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងក្រុមហេដ្ឋារចនាសម្ព័ន្ធអាចដំណើរការការងារ DynamoDB នៅលើមជ្ឈមណ្ឌលទិន្នន័យក្នុងមូលដ្ឋាន ពពកឯកជនឬសាធារណៈ និងនៅទីតាំងគែមដោយមិនបាច់សរសេរកូដកម្មវិធីឡើងវិញ។ ឧបករណ៍អភិវឌ្ឍន៍ក្នុងមូលដ្ឋានក៏អាចជួយសម្រួលដល់ការធ្វើតេស្តដោយមិនចាំបាច់រៀបចំមូលដ្ឋានទិន្នន័យខាងក្រៅផងដែរ។",
+   "keyPoints": [
+    "ExtendDB 1.0 គឺជាកំណែផលិតកម្មដំបូងនៃកម្មវិធីបម្លែងដែលស្របតាម DynamoDB ប្រភពបើកចំហ។",
+    "វាគាំទ្រ backend ការផ្ទុកចំនួនបួនគឺ PostgreSQL, SQLite, Cassandra និង MongoDB។",
+    "មានរូបភាពកុងតឺន័រ និងកញ្ចប់ npm សម្រាប់ការអភិវឌ្ឍក្នុងមូលដ្ឋាននិង CI លើ SQLite។",
+    "វាត្រូវបានថែទាំដោយ AWS ចេញផ្សាយក្រោមអាជ្ញាប័ណ្ណ Apache 2.0 និងអភិវឌ្ឍនៅលើ GitHub។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS 宣布推出 ExtendDB 1.0",
+   "summary": "Amazon Web Services 宣布推出 ExtendDB 1.0，这是首个用于生产环境的开源 Amazon DynamoDB 兼容适配器版本。该软件完全兼容 DynamoDB API，可在用户选择的数据库后端上运行，使开发人员和基础设施团队能够在本地数据中心、私有云或公有云以及边缘运行 DynamoDB 工作负载，而无需重写应用程序代码。ExtendDB 1.0 支持 PostgreSQL、SQLite、Cassandra 和 MongoDB 四种存储后端。",
+   "impact": "开发人员和基础设施团队无需重写应用程序代码即可在不同环境中运行 DynamoDB 工作负载。借助提供的容器镜像和 npm 包，本地开发和持续集成可以更方便地在 SQLite 上运行，无需设置外部数据库。",
+   "keyPoints": [
+    "ExtendDB 1.0 是首个用于生产环境的开源 Amazon DynamoDB 兼容适配器版本。",
+    "支持 PostgreSQL、SQLite、Cassandra 和 MongoDB 四种存储后端。",
+    "提供 extenddb-dev 容器镜像和 @extenddb/dev npm 包用于本地开发和 CI。",
+    "由 AWS 维护，以 Apache 2.0 许可证发布并在 GitHub 上开发。"
+   ]
+  },
+  "ko": {
+   "title": "AWS, ExtendDB 1.0 발표",
+   "summary": "Amazon Web Services는 오픈 소스 Amazon DynamoDB 호환 어댑터의 첫 번째 프로덕션 릴리스인 ExtendDB 1.0을 발표했습니다. 이 소프트웨어는 DynamoDB API와 완전히 호환되며 사용자가 선택한 데이터베이스 백엔드에서 실행되므로 개발자와 인프라 팀이 애플리케이션 코드를 다시 작성하지 않고도 온프레미스 데이터 센터, 프라이빗 또는 퍼블릭 클라우드, 엣지에서 DynamoDB 워크로드를 실행할 수 있습니다. ExtendDB 1.0은 PostgreSQL, SQLite, Cassandra, MongoDB 등 4가지 스토리지 백엔드를 지원합니다.",
+   "impact": "개발자와 인프라 팀은 애플리케이션 코드를 수정하지 않고 다양한 환경에서 DynamoDB 워크로드를 실행할 수 있습니다. 또한 제공되는 컨테이너 이미지와 npm 패키지를 통해 외부 데이터베이스 설정 없이 로컬 개발 및 지속적 통합을 수행할 수 있습니다.",
+   "keyPoints": [
+    "ExtendDB 1.0은 프로덕션용으로 출시된 최초의 오픈 소스 DynamoDB 호환 어댑터 버전입니다.",
+    "PostgreSQL, SQLite, Cassandra, MongoDB의 네 가지 스토리지 백엔드를 지원합니다.",
+    "로컬 개발 및 CI를 위해 SQLite 기반의 컨테이너 이미지와 npm 패키지를 제공합니다.",
+    "AWS가 유지 관리하며 Apache 2.0 라이선스로 GitHub에서 개발됩니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b1d63a1c8d2acfe3",
+ "contentHash": "6b92aac459ebade9",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-19T03:39:16.895Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Introducing workload recovery and expanded infrastructure checks on Amazon SageMaker HyperPod",
+   "summary": "Amazon SageMaker HyperPod is introducing workload recovery and expanded infrastructure checks to help catch silent failures and improve training goodput. The new features include MultiNodeTrainingValidation for testing models across instances, a Kubernetes Resource Monitoring Agent to track cluster layer problems, and hung job detection to identify stalled Slurm jobs. These capabilities address numerical faults, hung jobs, and cluster-level failures that traditional single-node hardware checks miss.",
+   "impact": "Development and infrastructure teams could benefit from these features by catching silent data corruption, hung jobs, and Kubernetes issues earlier, which may reduce wasted compute time during large training runs.",
+   "keyPoints": [
+    "MultiNodeTrainingValidation trains a small model to detect numerical faults like NaN or infinite loss during provisioning or on demand.",
+    "The HyperPod Kubernetes Resource Monitoring Agent watches for issues like crash-looping device plugins and logs them to Amazon CloudWatch.",
+    "Hung job detection monitors job output and GPU activity to find stalled Slurm jobs and can cancel them for automatic requeuing.",
+    "Existing health checks monitor single-node hardware but cannot detect multi-node training errors, silent data corruption, or cluster-level issues."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យដំណើរការការសង្គ្រោះបន្ទុកការងារ និងការត្រួតពិនិត្យហេដ្ឋារចនាសម្ព័ន្ធដែលបានពង្រីកនៅលើ Amazon SageMaker HyperPod",
+   "summary": "Amazon SageMaker HyperPod កំពុងដាក់ឱ្យដំណើរការការសង្គ្រោះបន្ទុកការងារ និងការត្រួតពិនិត្យហេដ្ឋារចនាសម្ព័ន្ធដែលបានពង្រីក ដើម្បីជួយចាប់យកកំហុសដែលលាក់កំបាំង និងបង្កើនប្រសិទ្ធភាពការបណ្តុះបណ្តាល។ លក្ខណៈពិសេសថ្មីទាំងនេះរួមមាន MultiNodeTrainingValidation ភ្នាក់ងារតាមដានធនធាន Kubernetes និងការរកឃើញការងារដែលគាំង។ សមត្ថភាពទាំងនេះដោះស្រាយបញ្ហាលេខ កិច្ចការដែលគាំង និងកំហុសកម្រិតក្លាស្តា ដែលការពិនិត្យ hardware បែបបុរាណមើលមិនឃើញ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខអាចទទួលបានផលចំណេញពីលក្ខណៈពិសេសទាំងនេះតាមរយៈការរកឃើញបញ្ហាទិន្នន័យ និងបញ្ហា Kubernetes លឿនជាងមុន ដែលអាចកាត់បន្ថយការខាតបង់ថាមពលកុំព្យូទ័រអំឡុងពេលបណ្តុះបណ្តាលធំៗ។",
+   "keyPoints": [
+    "MultiNodeTrainingValidation បណ្តុះបណ្តាលម៉ូដែលតូចមួយដើម្បីរកឃើញកំហុសលេខដូចជា NaN កំឡុងពេលរៀបចំប្រព័ន្ធ។",
+    "ភ្នាក់ងារតាមដានធនធាន Kubernetes របស់ HyperPod តាមដានបញ្ហាដូចជា device plugins ដែលគាំង។",
+    "ការរកឃើញការងារដែលគាំងតាមដានលទ្ធផលការងារ និងសកម្មភាព GPU ដើម្បីស្វែងរកកិច្ចការ Slurm ដែលឈប់ដំណើរការ។",
+    "ការពិនិត្យសុខភាពដែលមានស្រាប់តាមដានតែ hardware មួយ node ម្តងប៉ុណ្ណោះ ហើយមិនអាចរកឃើញបញ្ហាកម្រិតពហុ node នោះទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon SageMaker HyperPod 推出工作负载恢复和扩展基础设施检查功能",
+   "summary": "Amazon SageMaker HyperPod 推出了工作负载恢复和扩展基础设施检查，以帮助更快地捕获故障并提高训练有效吞吐量。新功能包括用于跨实例测试模型的 MultiNodeTrainingValidation、用于跟踪集群层问题的 Kubernetes 资源监控代理以及用于识别停滞的 Slurm 作业的挂起作业检测。这些功能解决了传统单节点硬件检查无法发现的数值故障、挂起作业和集群级故障。",
+   "impact": "开发和安全团队可以利用这些功能更早地发现静默数据损坏、作业停滞和 Kubernetes 问题，这可能会减少大型训练运行期间浪费的计算时间。",
+   "keyPoints": [
+    "MultiNodeTrainingValidation 通过训练一个小模型来检测诸如 NaN 或无穷大损失等数值故障。",
+    "HyperPod Kubernetes 资源监控代理负责监视集群层的崩溃循环设备插件等问题，并将其记录到 Amazon CloudWatch 中。",
+    "挂起作业检测监控作业输出和 GPU 活动以发现停滞的 Slurm 作业，并可以取消它们以便重新排队。",
+    "现有的健康检查仅监控单个节点的硬件，无法检测多节点训练错误或集群级问题。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon SageMaker HyperPod에서 워크로드 복구 및 확장된 인프라 검사 기능 도입",
+   "summary": "Amazon SageMaker HyperPod는 숨겨진 결함을 더 빨리 찾아내고 훈련 처리량을 높이기 위해 워크로드 복구 및 확장된 인프라 검사 기능을 도입합니다. 새로운 기능에는 인스턴스 간 모델을 테스트하는 MultiNodeTrainingValidation, 클러스터 계층 문제를 추적하는 Kubernetes 리소스 모니터링 에이전트, 중단된 Slurm 작업을 식별하는 중단된 작업 감지가 포함됩니다. 이러한 기능은 기존 단일 노드 하드웨어 검사로는 놓칠 수 있는 수치적 결함, 중단된 작업 및 클러스터 수준의 실패를 해결합니다.",
+   "impact": "개발 및 보안 팀은 이러한 기능을 통해 조용한 데이터 손상, 중단된 작업, Kubernetes 문제를 더 일찍 발견할 수 있으며, 이를 통해 대규모 훈련 중 낭비되는 연산 시간을 줄일 수 있습니다.",
+   "keyPoints": [
+    "MultiNodeTrainingValidation은 소형 모델을 훈련하여 프로비저닝 중 NaN 또는 무한대 손실과 같은 수치적 결함을 감지합니다.",
+    "HyperPod Kubernetes 리소스 모니터링 에이전트는 크래시 루프에 빠진 장치 플러그인과 같은 문제를 모니터링하고 Amazon CloudWatch에 기록합니다.",
+    "중단된 작업 감지는 작업 출력과 GPU 활동을 모니터링하여 멈춘 Slurm 작업을 찾고 자동으로 재대기열에 넣도록 취소할 수 있습니다.",
+    "기존 상태 검사는 단일 노드 하드웨어만 모니터링하므로 다중 노드 훈련 오류나 클러스터 수준의 문제를 감지할 수 없습니다."
+   ]
+  }
+ }
+}
