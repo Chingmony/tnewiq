@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c851a250df92def9",
+ "contentHash": "00686030b9388481",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:11:50.412Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+   "summary": "The Ruby team disclosed a critical heap buffer overflow vulnerability known as ruby2shell (CVE-2026-132825) affecting string case conversion in legacy encodings. The flaw can be reached by default configurations in Ruby on Rails and Sinatra applications through the _method parameter. Cloudflare has deployed WAF rules to block exploits for all customers, though upgrading Ruby remains the only complete fix.",
+   "impact": "Security teams and developers using affected Ruby versions or frameworks should patch immediately, as proofs of concept for remote code execution exist. While WAF rules provide a compensating control against network-borne attacks, internal paths or unmonitored routes may still leave systems vulnerable until Ruby is upgraded.",
+   "keyPoints": [
+    "Ruby disclosed ruby2shell (CVE-2026-132825), a critical heap buffer overflow during string case conversion in legacy single-byte encodings.",
+    "Fixes are available in Ruby versions 3.3.14, 3.4.13, and 4.0.10, while Ruby 3.2 and earlier are end-of-life.",
+    "Default configurations of Ruby on Rails and classic-style Sinatra applications can reach the bug pre-authentication via the MethodOverride middleware.",
+    "Cloudflare WAF added blocking rules for ruby2shell and a related integer overflow (GHSA-87fm-7w84-j2px) for all customers."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែល Cloudflare WAF ကာពារប្រឆាំងនឹង ruby2shell (CVE-2026-132825)",
+   "summary": "ក្រុមការងារ Ruby បានបង្ហាញពីបញ្ហាអង្គចងចាំ heap buffer overflow ដ៏ធ្ងន់ធ្ងរមួយហៅថា ruby2shell (CVE-2026-132825) ដែលពាក់ព័ន្ធនឹងការប្តូរអក្សរតូចធំនៃ string ក្នុងកូដអក្សរបុរាណ។ កំហុសនេះអាចត្រូវបានប៉ះពាល់ដោយការកំណត់លំនាំដើមនៅក្នុងកម្មវិធី Ruby on Rails និង Sinatra។ Cloudflare បានដាក់ឱ្យប្រើប្រាស់ច្បាប់ WAF ដើម្បីទប់ស្កាត់ការវាយប្រហារសម្រាប់អតិថិជនទាំងអស់ ទោះបីជាការអាប់ដេត Ruby គឺជាដំណោះស្រាយពេញលេញតែមួយគត់ក៏ដោយ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍ដែលប្រើប្រាស់កំណែ Ruby ឬ framework ដែលងាយរងគ្រោះគួរតែធ្វើបច្ចុប្បន្នភាពជាបន្ទាន់ ព្រោះមានភស្តុតាងនៃការបញ្ជាក់ពីការប្រតិបត្តិខូដពីចម្ងាយ។ ខណៈពេលដែលច្បាប់ WAF ផ្តល់នូវការត្រួតពិនិត្យបន្ថែម ការអាប់ដេត Ruby គឺចាំបាច់ដើម្បីធានាសុវត្ថិភាពទាំងស្រុង។",
+   "keyPoints": [
+    "Ruby បានបង្ហាញពី ruby2shell (CVE-2026-132825) ដែលជាបញ្ហា heap buffer overflow ក្នុងពេលប្តូរអក្សរតូចធំ។",
+    "ការកែសម្រួលមាននៅក្នុង Ruby កំណែ 3.3.14, 3.4.13 និង 4.0.10។",
+    "កម្មវិធី Ruby on Rails និង Sinatra បែបបុរាណអាចប៉ះពាល់ដល់កំហុសនេះតាមរយៈការកំណត់លំនាំដើមរបស់វា។",
+    "Cloudflare WAF បានបន្ថែមច្បាប់បិទបាំងការវាយប្រហារសម្រាប់អតិថិជនទាំងអស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Cloudflare WAF 如何防范 ruby2shell (CVE-2026-132825)",
+   "summary": "Ruby 团队披露了一个名为 ruby2shell (CVE-2026-132825) 的严重堆缓冲区溢出漏洞，该漏洞存在于 Ruby 更改字符串大小写的方式中。Ruby on Rails 和传统风格的 Sinatra 应用程序在默认配置下会触发该漏洞。Cloudflare 已为所有客户部署了 WAF 规则来拦截该漏洞的利用，但升级 Ruby 仍然是唯一的完整修复方案。",
+   "impact": "使用受影响的 Ruby 版本或框架的开发人员和安全团队应立即进行修复，因为已有概念验证可以实现远程代码 execution。尽管 WAF 规则提供了一种补偿性控制措施，但完全修复仍需升级 Ruby。",
+   "keyPoints": [
+    "Ruby 披露了 ruby2shell (CVE-2026-132825)，这是一个在旧版单字节编码中进行字符串大小写转换时的堆缓冲区溢出漏洞。",
+    "官方已在 Ruby 3.3.14、3.4.13 和 4.0.10 中发布了修复程序。",
+    "Ruby on Rails 和经典风格的 Sinatra 应用程序在默认配置下会通过中间件在身份验证前触发该漏洞。",
+    "Cloudflare WAF 已为所有客户添加了针对 ruby2shell 及相关整数溢出的拦截规则。"
+   ]
+  },
+  "ko": {
+   "title": "Cloudflare WAF가 ruby2shell(CVE-2026-132825)로부터 보호하는 방법",
+   "summary": "Ruby 팀은 문자열 대소문자 변환 방식에서 발생하는 심각한 힙 버퍼 오버플로 취약점인 ruby2shell(CVE-2026-132825)을 공개했습니다. Ruby on Rails 및 클래식 스타일의 Sinatra 애플리케이션은 기본 설정에서 인증 전에 이 버그에 도달할 수 있습니다. Cloudflare는 모든 고객을 위해 WAF 규칙을 추가하여 악용을 차단하고 있으나, Ruby 업그레이드가 유일한 완전한 해결책입니다.",
+   "impact": "영향을 받는 Ruby 버전이나 프레임워크를 사용하는 개발자와 보안 팀은 원격 코드 실행이 가능한 개념 증명이 존재하므로 즉시 패치를 적용해야 합니다. WAF 규칙이 보완적인 제어 기능을 제공하지만 완전한 보안을 위해서는 Ruby 업그레이드가 필수적입니다.",
+   "keyPoints": [
+    "Ruby는 레거시 단일 바이트 인코딩의 문자열 대소문자 변환 중 발생하는 힙 버퍼 오버플로 취약점인 ruby2shell(CVE-2026-132825)을 공개했습니다.",
+    "수정 사항은 Ruby 3.3.14, 3.4.13 및 4.0.10 버전에 적용되었습니다.",
+    "Ruby on Rails 및 Sinatra 애플리케이션은 기본 설정에서 해당 버그에 노출될 수 있습니다.",
+    "Cloudflare WAF는 모든 고객을 위해 ruby2shell 및 관련 정수 오버플로 차단 규칙을 추가했습니다."
+   ]
+  }
+ }
+}

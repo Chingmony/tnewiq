@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9a9f7eafdd9b739d",
+ "contentHash": "3fab6a6a82b1f3e4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:15:31.743Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod",
+   "summary": "Amazon SageMaker HyperPod has introduced enhanced infrastructure observability to help diagnose GPU training issues faster for workloads running on Amazon EKS and Slurm orchestrators. The new capabilities include default and advanced metrics collection, flexible metric store choices like Amazon CloudWatch and Amazon Managed Service for Prometheus, and a diagnostic summary feature. Together, these tools detect hardware faults, thermal throttling, network drops, and GPU outliers to reduce troubleshooting time.",
+   "impact": "Development and security teams managing large-scale model training could significantly reduce troubleshooting time when identifying bad accelerators or network bottlenecks. By surfacing performance degradations early, teams may minimize wasted GPU hours and keep expensive infrastructure running efficiently.",
+   "keyPoints": [
+    "Enhanced observability supports workloads on both Amazon EKS and Slurm orchestrators.",
+    "Default metrics collect cluster health, CPU, OS-level usage, and GPU metrics every 30 seconds, while advanced metrics add full node exporter, NVIDIA DCGM, AWS Neuron, and EFA telemetry.",
+    "Users can choose between Amazon CloudWatch and Amazon Managed Service for Prometheus as their metric store.",
+    "The diagnostic summary uses Amazon CloudWatch's DetectGroupOutliers API and static rules to flag hardware faults, thermal throttling, and peer-deviating GPUs."
+   ]
+  },
+  "km": {
+   "title": "ការណែនាំអំពីការមើលឃើញហេដ្ឋារចនាសម្ព័ន្ធដែលបានកែលម្អនៅក្នុង Amazon SageMaker HyperPod",
+   "summary": "Amazon SageMaker HyperPod បានដាក់ឱ្យប្រើប្រាស់នូវសមត្ថភាពមើលឃើញហេដ្ឋារចនាសម្ព័ន្ធដែលបានកែលម្អ ដើម្បីជួយធ្វើរោគវិនិច្ឆ័យបញ្ហាបណ្តុះបណ្តាល GPU ឱ្យបានលឿនជាងមុនសម្រាប់ដំណើរការការងារនៅលើ Amazon EKS និង Slurm orchestrators។ សមត្ថភាពថ្មីទាំងនេះរួមមានការប្រមូលរង្វាស់លំនាំដើម និងកម្រិតខ្ពស់ ជម្រើសកន្លែងរក្សារង្វាស់ដែលអាចបត់បែនបានដូចជា Amazon CloudWatch និង Amazon Managed Service for Prometheus និងមុខងារសង្ខេបរោគវិនិច្ឆ័យ។ ឧបករណ៍ទាំងនេះរួមគ្នា Detected កំហុសផ្នែករឹង ការទប់ស្កាត់កំដៅ ការធ្លាក់ចុះបណ្តាញ និង GPU outliers ដើម្បីកាត់បន្ថយពេលវេលាដោះស្រាយបញ្ហា។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងសន្តិសុខដែលគ្រប់គ្រងការបណ្តុះបណ្តាលម៉ូដែលខ្នាតធំអាចកាត់បន្ថយពេលវេលាដោះស្រាយបញ្ហាយ៉ាងខ្លាំងពេលរកឃើញ accelerator ដែលខូច ឬបញ្ហាបណ្តាញ។ តាមរយៈការបង្ហាញការថយចុះដំណើរការតាំងពីដំបូង ក្រុមការងារអាចកាត់បន្ថយការខាតបង់ម៉ោង GPU និងរក្សាប្រព័ន្ធហេដ្ឋារចនាសម្ព័ន្ធដែលមានតម្លៃថ្លៃឱ្យដំណើរការបានយ៉ាងមានប្រសិទ្ធភាព។",
+   "keyPoints": [
+    "ការមើលឃើញដែលបានកែលម្អគាំទ្រការងារលើទាំង Amazon EKS និង Slurm orchestrators។",
+    "រង្វាស់លំនាំដើមប្រមូលសុខភាពក្លាស្តា CPU និងរង្វាស់ GPU រៀងរាល់ 30 វិនាទី ខណៈរង្វាស់កម្រិតខ្ពស់បន្ថែមទិន្នន័យ telemetry ពី NVIDIA DCGM, AWS Neuron និង EFA។",
+    "អ្នកប្រើប្រាស់អាចជ្រើសរើសរវាង Amazon CloudWatch និង Amazon Managed Service for Prometheus ជាកន្លែងរក្សារង្វាស់។",
+    "សេចក្តីសង្ខេបរោគវិនិច្ឆ័យប្រើប្រាស់ DetectGroupOutliers API របស់ Amazon CloudWatch និងច្បាប់ឋិតិវន្តដើម្បីសម្គាល់កំហុសផ្នែករឹង និង GPU outliers។"
+   ]
+  },
+  "zh-CN": {
+   "title": "亚马逊推出 Amazon SageMaker HyperPod 增强型基础设施可观测性",
+   "summary": "Amazon SageMaker HyperPod 推出了一项增强的基础设施可观测性功能，旨在帮助在 Amazon EKS 和 Slurm 编排器上运行的工作负载更快地诊断 GPU 训练问题。新功能包括默认和高级指标收集、可选择 Amazon CloudWatch 或 Amazon Managed Service for Prometheus 作为指标存储，以及诊断摘要功能。这些工具共同协作检测硬件故障、热节流、网络丢包和 GPU 异常值，从而减少排查时间。",
+   "impact": "管理大规模模型训练的开发和安全团队在识别故障加速器或网络瓶颈时，可以显著减少故障排查时间。通过尽早发现性能降级，团队可以减少浪费的 GPU 工时，并保持昂贵基础设施的高效运行。",
+   "keyPoints": [
+    "增强的可观测性支持在 Amazon EKS 和 Slurm 编排器上运行的工作负载。",
+    "默认指标每 30 秒收集一次集群健康状况、CPU、操作系统级使用情况及 GPU 指标，而高级指标则提供完整的 node exporter、NVIDIA DCGM、AWS Neuron 和 EFA 遥测数据。",
+    "用户可以在 Amazon CloudWatch 和 Amazon Managed Service for Prometheus 之间选择指标存储。",
+    "诊断摘要利用 Amazon CloudWatch 的 DetectGroupOutliers API 和静态规则来标记硬件故障、热节流以及偏离同类性能的 GPU。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon SageMaker HyperPod, 향상된 인프라 가시성 기능 도입",
+   "summary": "Amazon SageMaker HyperPod는 Amazon EKS 및 Slurm 오케스트레이터에서 실행되는 워크로드의 GPU 학습 문제를 더 빠르게 진단할 수 있도록 돕는 향상된 인프라 가시성 기능을 출시했습니다. 새로운 기능에는 기본 및 고급 메트릭 수집, Amazon CloudWatch 및 Amazon Managed Service for Prometheus와 같은 유연한 메트릭 스토어 선택 옵션, 진단 요약 기능이 포함됩니다. 이러한 도구들이 결합되어 하드웨어 결함, 스로틀링, 네트워크 끊김, GPU 이상 징후를 감지하여 문제 해결 시간을 단축합니다.",
+   "impact": "대규모 모델 학습을 관리하는 개발 및 보안 팀은 결함이 있는 가속기나 네트워크 병목 현상을 식별할 때 문제 해결 시간을 크게 단축할 수 있습니다. 성능 저하를 조기에 파악함으로써 낭비되는 GPU 시간을 최소화하고 고가의 인프라를 효율적으로 유지할 수 있습니다.",
+   "keyPoints": [
+    "향상된 가시성은 Amazon EKS 및 Slurm 오케스트레이터 모두의 워크로드를 지원합니다.",
+    "기본 메트릭은 클러스터 상태, CPU, OS 수준 사용량, GPU 메트릭을 30초마다 수집하며, 고급 메트릭은 노드 익스포터, NVIDIA DCGM, AWS Neuron 및 EFA 텔레메트리를 추가합니다.",
+    "사용자는 메트릭 스토어로 Amazon CloudWatch와 Amazon Managed Service for Prometheus 중에서 선택할 수 있습니다.",
+    "진단 요약은 Amazon CloudWatch의 DetectGroupOutliers API와 정적 규칙을 사용하여 하드웨어 결함, 발열로 인한 성능 저하, 동료 GPU와 차이가 나는 이상 징후를 표시합니다."
+   ]
+  }
+ }
+}

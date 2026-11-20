@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2402320ad8bba4f1",
+ "contentHash": "65820f4bfb31811f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:15:20.502Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Billing and Cost Management now offers APIs to track payment status",
+   "summary": "AWS Billing and Cost Management has released new APIs that allow users to view AWS payment information using AWS SDKs and the AWS CLI. Users can check account balances, find due or past-due invoices, see applied payments and credit memos, and confirm active payment methods. These checks can be automated or integrated with accounts payable systems, moving away from manual console sign-ins.",
+   "impact": "This integration could help developers and finance teams automate invoice reconciliation and payment monitoring through custom tools or AI agents. It may improve efficiency by enabling teams to check balances and payment statuses without manually signing in to the console.",
+   "keyPoints": [
+    "New APIs include GetFinancialRecord, BatchGetFinancialRecord, ListFinancialRecords, GetAccountBalance, GetPaymentInstrument, and ListPaymentInstruments.",
+    "APIs can be called using AWS SDKs, the AWS CLI, custom tools, or AI agents.",
+    "The release enables automation of tasks like checking account balances, finding past-due invoices, and verifying payment methods."
+   ]
+  },
+  "km": {
+   "title": "AWS Billing and Cost Management ឥឡូវនេះផ្តល់ជូន API ដើម្បីតាមដានស្ថានភាពនៃការបង់ប្រាក់",
+   "summary": "AWS Billing and Cost Management បានប្រកាសដាក់ឱ្យប្រើប្រាស់ API ថ្មីៗដែលអនុញ្ញាតឱ្យមើលព័ត៌មាននៃការទូទាត់ AWS តាមរយៈ AWS SDKs និង AWS CLI ។ អ្នកប្រើប្រាស់អាចពិនិត្យសមតុល្យគណនី ស្វែងរកវិក្កយបត្រដែលដល់កំណត់ ឬហួសកំណត់ និងបញ្ជាក់វិធីសាស្ត្រទូទាត់សកម្ម។ ការងារទាំងនេះអាចត្រូវបានស្វ័យប្រវត្តិកម្ម ឬរួមបញ្ចូលទៅក្នុងប្រព័ន្ធទូទាត់ប្រាក់ដោយមិនបាច់ចូលទៅកាន់កុងសូលដោយដៃ។",
+   "impact": "ការផ្លាស់ប្តូរនេះអាចជួយដល់ក្រុមការងារបច្ចេកវិទ្យា និងហិរញ្ញវត្ថុក្នុងការស្វ័យប្រវត្តិកម្មការផ្សះផ្សាវិក្កយបត្រ និងការតាមដានការទូទាត់តាមរយៈឧបករណ៍ផ្ទាល់ខ្លួន ឬភ្នាក់ងារ AI ។ វាអាចបង្កើនប្រសិទ្ធភាពដោយលុបបំបាត់តម្រូវការក្នុងការចូលទៅកាន់កុងសូលដោយដៃដើម្បីពិនិត្យសមតុល្យ។",
+   "keyPoints": [
+    "API ថ្មីរួមមាន GetFinancialRecord, BatchGetFinancialRecord, ListFinancialRecords, GetAccountBalance, GetPaymentInstrument និង ListPaymentInstruments ។",
+    "អាចហៅប្រើប្រាស់ API តាមរយៈ AWS SDKs, AWS CLI, ឧបករណ៍ផ្ទាល់ខ្លួន ឬភ្នាក់ងារ AI ។",
+    "អនុញ្ញាតឱ្យស្វ័យប្រវត្តិកម្មការពិនិត្យសមតុល្យគណនី និងវិក្កយបត្រហួសកំណត់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Billing and Cost Management 现在提供用于跟踪付款状态的 API",
+   "summary": "AWS Billing and Cost Management 推出了全新的 API，允许用户通过 AWS SDK 和 AWS CLI 查看 AWS 付款信息。用户现在可以检查账户余额、查找即将到期或逾期的发票、查看应用于每张发票的付款和贷项凭证，以及确认账户上的付款方式是否处于活动状态。这些检查可以通过自定义工具或 AI 代理进行自动化，从而免去了财务团队登录控制台进行手动检查的麻烦。",
+   "impact": "这一功能可以帮助开发人员和财务团队通过自定义工具或 AI 代理将发票对账和付款监控自动化。它可能通过免去手动登录控制台查询余额和付款状态的步骤来提高工作效率。",
+   "keyPoints": [
+    "新 API 包括 GetFinancialRecord、BatchGetFinancialRecord、ListFinancialRecords、GetAccountBalance、GetPaymentInstrument 和 ListPaymentInstruments。",
+    "可以通过 AWS SDK、AWS CLI、自定义工具或 AI 代理调用这些 API。",
+    "允许与应付账款系统集成，以监控逾期余额并按计划核对发票。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Billing and Cost Management, 결제 상태 추적을 위한 API 출시",
+   "summary": "AWS Billing and Cost Management는 AWS SDK와 AWS CLI를 통해 AWS 결제 정보를 조회할 수 있는 새로운 API를 발표했습니다. 사용자는 계정 잔액을 확인하고, 마감되었거나 연체된 인보이스를 찾으며, 각 인보이스에 적용된 결제 및 크레딧 메모를 확인하고, 계정의 결제 수단이 활성 상태인지 확인할 수 있습니다. 이러한 작업은 자체 도구웨나 AI 에이전트를 통해 자동화할 수 있습니다.",
+   "impact": "이번 업데이트를 통해 개발자와 재무 팀은 사용자 정의 도구 또는 AI 에이전트를 활용하여 인보이스 대조 및 결제 모니터링을 자동화할 수 있습니다. 수동으로 콘솔에 로그인하지 않고도 잔액과 결제 상태를 확인할 수 있어 효율성이 향상될 수 있습니다.",
+   "keyPoints": [
+    "새로운 API에는 GetFinancialRecord, BatchGetFinancialRecord, ListFinancialRecords, GetAccountBalance, GetPaymentInstrument, ListPaymentInstruments가 포함됩니다.",
+    "AWS SDK, AWS CLI, 사용자 정의 도구 또는 AI 에이전트를 통해 API를 호출할 수 있습니다.",
+    "미지급금 시스템과 통합하여 연체 잔액을 모니터링하고 자체 일정에 맞춰 인보이스를 조정할 수 있습니다."
+   ]
+  }
+ }
+}

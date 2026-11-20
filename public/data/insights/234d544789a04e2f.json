@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "234d544789a04e2f",
+ "contentHash": "1f8a60f9f095f568",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:15:52.640Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon EventBridge Scheduler adds 589 new API actions and event bus targets",
+   "summary": "Amazon EventBridge Scheduler has expanded its AWS SDK integrations by introducing 589 new API actions across 81 AWS services. It also adds new templated targets for the enhanced EventBridge Custom event bus. These updates allow users to schedule direct invocations and event deliveries without writing custom integration code.",
+   "impact": "Developers and technology users may benefit from streamlined scheduling workflows by directly invoking a broader set of AWS services and delivering events to the Custom event bus without intermediary functions.",
+   "keyPoints": [
+    "Added 589 new API actions across 81 AWS services.",
+    "Introduced templated targets for the enhanced EventBridge Custom event bus.",
+    "Enables direct scheduling of tasks and events without custom integration code.",
+    "New features are available in all commercial AWS Regions where the respective services are supported."
+   ]
+  },
+  "km": {
+   "title": "Amazon EventBridge Scheduler បន្ថែមសកម្មភាព API ថ្មីចំនួន 589 និងគោលដៅឡានក្រុងព្រឹត្តិការណ៍",
+   "summary": "Amazon EventBridge Scheduler បានពង្រីកការរួមបញ្ចូល AWS SDK របស់ខ្លួនដោយដាក់បញ្ចូលសកម្មភាព API ថ្មីចំនួន 589 នៅទั่วទាំងសេវាកម្ម AWS ចំនួន 81 ។ វากໍ່បានបន្ថែមគោលដៅគំរូសម្រាប់ EventBridge Custom event bus ដែលបានកែលម្អផងដែរ។ ការអាប់ដេតទាំងនេះអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់កំណត់ពេលហៅដោយផ្ទាល់ដោយមិនចាំបាច់សរសេរកូដរួមបញ្ចូលផ្ទាល់ខ្លួន។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានផលប្រយោជន៍ពីការសម្រួលលំហូរការងារកំណត់ពេលដោយហៅសេវាកម្ម AWS បន្ថែមដោយផ្ទាល់។",
+   "keyPoints": [
+    "បានបន្ថែមសកម្មភាព API ថ្មីចំនួន 589 នៅទូទាំងសេវាកម្ម AWS ចំនួន 81 ។",
+    "បានណែនាំគោលដៅគំរូសម្រាប់ EventBridge Custom event bus ។",
+    "អនុញ្ញាតឱ្យកំណត់ពេលព្រឹត្តិការណ៍ដោយផ្ទាល់ដោយមិនបាច់មានកូដអន្តរការី។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon EventBridge Scheduler 新增 589 个 API 操作和事件总线目标",
+   "summary": "Amazon EventBridge Scheduler 扩展了其 AWS SDK 集成，在 81 个 AWS 服务中新增了 589 个 API 操作，并为增强的 EventBridge Custom event bus 添加了模板化目标。用户现在可以安排直接调用更广泛的 AWS 服务，而无需编写自定义集成代码。这些新功能已在所有提供该服务的商业 AWS 区域推出。",
+   "impact": "开发人员和技术用户可以简化调度工作流，直接调用各种 AWS 服务并将事件传递到自定义事件总线，而无需中间函数。",
+   "keyPoints": [
+    "跨 81 个 AWS 服务新增了 589 个 API 操作。",
+    "为增强的 Custom event bus 添加了模板化目标。",
+    "允许直接调度任务和事件，无需编写自定义集成代码。",
+    "新功能在支持该服务的商用 AWS 区域中可用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon EventBridge Scheduler, 589개의 새로운 API 작업 및 이벤트 버스 대상 추가",
+   "summary": "Amazon EventBridge Scheduler는 81개의 AWS 서비스에 걸쳐 589개의 새로운 API 액션을 추가하여 AWS SDK 통합을 확장했습니다. 또한 향상된 EventBridge Custom event bus를 위한 템플릿화된 타겟을 추가했습니다. 이를 통해 사용자는 사용자 정의 통합 코드 작성 없이 광범위한 AWS 서비스를 직접 호출하고 이벤트를 예약할 수 있습니다.",
+   "impact": "개발자와 기술 사용자는 중간 함수 없이 더 다양한 AWS 서비스를 직접 호출하고 이벤트 버스에 이벤트를 전달함으로써 예약 워크플로를 간소화할 수 있습니다.",
+   "keyPoints": [
+    "81개 AWS 서비스에 걸쳐 589개의 새로운 API 액션 추가",
+    "향상된 Custom event bus를 위한 템플릿화된 타겟 도입",
+    "사용자 정의 통합 코드 없이 직접 작업 및 이벤트 예약 가능",
+    "서비스가 지원되는 모든 상용 AWS 리전에서 제공"
+   ]
+  }
+ }
+}

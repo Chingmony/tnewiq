@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d7cdb6407df00f2b",
+ "contentHash": "3a5ef176476eafae",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:12:11.785Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon CloudWatch Observability EKS add-on now supports custom OpenTelemetry and Prometheus telemetry",
+   "summary": "Amazon announced support for custom application telemetry in the CloudWatch Observability EKS add-on. The CloudWatch agent now accepts metrics, traces, and logs from applications using an OTLP endpoint and scrapes Prometheus metrics using standard ServiceMonitor and PodMonitor objects. This update removes the need to deploy and operate separate collectors or Prometheus operators. Custom telemetry is available starting from version 8.0.0 of the EKS add-on and Helm chart.",
+   "impact": "This integration could simplify infrastructure management for developers and operations teams by eliminating separate telemetry collectors and central configurations. Teams may find it easier to correlate application telemetry with cluster metrics using automatically applied Kubernetes, host, cloud, and service attributes.",
+   "keyPoints": [
+    "The CloudWatch agent now accepts metrics, traces, and logs from applications instrumented with an OpenTelemetry SDK.",
+    "Prometheus metrics are scraped directly using standard ServiceMonitor and PodMonitor objects without a Prometheus operator.",
+    "Custom telemetry requires version 8.0.0 or later of the EKS add-on and Helm chart.",
+    "Telemetry ingestion is charged at $0.08 per GB."
+   ]
+  },
+  "km": {
+   "title": "គ្រឿងបន្លាស់ Amazon CloudWatch Observability EKS ឥឡូវនេះគាំទ្រការវាស់វែងទិន្នន័យ OpenTelemetry និង Prometheus ផ្ទាល់ខ្លួន",
+   "summary": "Amazon បានប្រកាសពីការគាំទ្រការវាស់វែងទិន្នន័យកម្មវិធីផ្ទាល់ខ្លួននៅក្នុងគ្រឿងបន្លាស់ CloudWatch Observability EKS ។ ភ្នាក់ងារ CloudWatch ឥឡូវនេះទទួលយកសូចនាករ ស្នាមដាន និងកំណត់ហេតុពីកម្មវិធីដោយប្រើចំណុចបញ្ចប់ OTLP និងប្រមូលសូចនាករ Prometheus ដោយប្រើប្រាស់វត្ថុ ServiceMonitor និង PodMonitor ស្តង់ដារ។ ការអាប់ដេតនេះលុបបំបាត់តម្រូវការក្នុងការដាក់ឱ្យប្រើប្រាស់កម្មវិធីប្រមូលទិន្នន័យដាច់ដោយឡែកពីគ្នា។ ការវាស់វែងទិន្នន័យផ្ទាល់ខ្លួនមានចាប់ពីកំណែ 8.0.0 ឡើងទៅនៃគ្រឿងបន្លាស់ EKS និង Helm chart ។",
+   "impact": "ការរួមបញ្ចូលគ្នានេះអាចជួយសម្រួលដល់ការគ្រប់គ្រងហេដ្ឋារចនាសម្ព័ន្ធសម្រាប់អ្នកអភិវឌ្ឍន៍ និងក្រុមការងារសន្តិសុខដោយកាត់បន្ថយឧបករណ៍ប្រមូលទិន្នន័យដាច់ដោយឡែក។ ក្រុមការងារអាចរកឃើញភាពងាយស្រួលក្នុងការភ្ជាប់ទិន្នន័យកម្មវិធីជាមួយនឹងសូចនាករខ្សែកុបធ័រដោយប្រើគុណលក្ខណៈ Kubernetes និងសេវាកម្មដែលបានអនុវត្តដោយស្វ័យប្រវត្តិ។",
+   "keyPoints": [
+    "ភ្នាក់ងារ CloudWatch ឥឡូវនេះទទួលយកសូចនាករ ស្នាមដាន និងកំណត់ហេតុពីកម្មវិធីដែលបានកំណត់រចនាសម្ព័ន្ធជាមួយ OpenTelemetry SDK ។",
+    "សូចនាករ Prometheus ត្រូវបានប្រមូលដោយផ្ទាល់ដោយប្រើប្រាស់វត្ថុ ServiceMonitor និង PodMonitor ស្តង់ដារ។",
+    "ការវាស់វែងទិន្នន័យផ្ទាល់ខ្លួនទាមទារកំណែ 8.0.0 ឬខ្ពស់ជាងនេះនៃគ្រឿងបន្លាស់ EKS និង Helm chart ។",
+    "ការទទួលយកទិន្នន័យវាស់វែងត្រូវបានគិតថ្លៃក្នុងអត្រា 0.08 ដុល្លារក្នុងមួយ GB ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon CloudWatch Observability EKS 插件现已支持自定义 OpenTelemetry 和 Prometheus 遥测数据",
+   "summary": "Amazon 宣布 CloudWatch Observability EKS 插件现已支持自定义应用程序遥测数据。现有的 CloudWatch 代理现在可以通过 OTLP 端点接受来自应用程序的指标、跟踪和日志，并使用标准的 ServiceMonitor 和 PodMonitor 对象抓取 Prometheus 指标。此更新消除了部署和运行独立收集器或 Prometheus 运算符的需求。自定义遥测功能可在 EKS 插件和 Helm chart 的 8.0.0 及更高版本中使用。",
+   "impact": "这一集成可以通过省去独立的遥测收集器和集中配置，简化开发人员和运维团队的基础设施管理。团队可以利用自动应用的 Kubernetes、主机、云和服务属性，更轻松地将应用程序遥测数据与集群指标结合起来。",
+   "keyPoints": [
+    "CloudWatch 代理现在可接受使用 OpenTelemetry SDK 进行检测的应用程序发出的指标、跟踪和日志。",
+    "无需运行 Prometheus 运算符，即可直接使用标准的 ServiceMonitor 和 PodMonitor 对象抓取 Prometheus 指标。",
+    "自定义遥测适用于 EKS 插件和 Helm chart 的 8.0.0 及更高版本。",
+    "遥测摄取费率为每 GB 0.08 美元。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon CloudWatch Observability EKS 애드온, 이제 사용자 정의 OpenTelemetry 및 Prometheus 텔레메트리 지원",
+   "summary": "Amazon은 CloudWatch Observability EKS 애드온에서 자체 애플리케이션 텔레메트리를 지원한다고 발표했습니다. 기존 CloudWatch 에이전트는 이제 OTLP 엔드포인트를 통해 애플리케이션의 메트릭, 추적 및 로그를 수락하며, 표준 ServiceMonitor 및 PodMonitor 개체를 사용하여 Prometheus 메트릭을 수집합니다. 이 업데이트를 통해 별도의 수집기나 Prometheus 오퍼레이터를 배포하고 운영할 필요가 없어졌습니다. 사용자 정의 텔레메트리는 EKS 애드온 및 Helm chart 버전 8.0.0 이상에서 사용할 수 있습니다.",
+   "impact": "이번 통합은 별도의 텔레메트리 수집기 및 중앙 집중식 구성을 제거하여 개발자와 운영 팀의 인프라 관리를 간소화할 수 있습니다. 팀은 자동으로 적용된 Kubernetes, 호스트, 클라우드 및 서비스 속성을 사용하여 애플리케이션 텔레메트리를 클러스터 메트릭과 더 쉽게 결합할 수 있습니다.",
+   "keyPoints": [
+    "CloudWatch 에이전트는 이제 OpenTelemetry SDK로 계측된 애플리케이션의 메트릭, 추적 및 로그를 수락합니다.",
+    "Prometheus 오퍼레이터 실행 없이 표준 ServiceMonitor 및 PodMonitor 개체로 대상을 직접 수집합니다.",
+    "사용자 정의 텔레메트리는 EKS 애드온 및 Helm chart 버전 8.0.0 이상에서 지원됩니다.",
+    "텔레메트리 수집 비용은 GB당 0.08달러입니다."
+   ]
+  }
+ }
+}

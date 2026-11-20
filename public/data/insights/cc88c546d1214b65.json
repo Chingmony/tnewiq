@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "cc88c546d1214b65",
+ "contentHash": "5ff509a11e3039df",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:11:09.237Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "A leaky AI supply chain is exposing secret user data at an alarming rate",
+   "summary": "Researchers planted 2 million digital tripwires within requests sent across various AI services to investigate how sensitive user information is handled. The experiment revealed that the AI supply chain frequently leaks highly sensitive data through complex networks of brokers and inference engines. By using unique credentials and tracking mechanisms called canaries, researchers were able to monitor how data is exposed and potentially exploited.",
+   "impact": "This research could indicate that organizations using AI routers or brokers may inadvertently expose sensitive credentials, such as AWS access keys and passwords. Security teams may need to reevaluate how they pass confidential data through third-party AI services to prevent privacy violations and prompt theft.",
+   "keyPoints": [
+    "Researchers deployed 2 million digital tripwires across a network of AI services.",
+    "Many AI apps rely on brokers like OpenRouter or Vercel to route prompts to inference engines.",
+    "The experiment used unused AWS credentials, passwords, and private git references as canaries to track leaks."
+   ]
+  },
+  "km": {
+   "title": "ខ្សែโซផ្គត់ផ្គង់ AI ដែលមានការលេចធ្លាយ កំពុងបង្ហាញទិន្នន័យអ្នកប្រើប្រាស់សម្ងាត់ក្នុងអត្រាមួយគួរឱ្យព្រួយបារម្ភ",
+   "summary": "អ្នកស្រាវជ្រាវបានដាក់ពង្រាយអន្ទាក់ឌីជីថលចំនួន ២ លាននៅលើសំណើដែលបានផ្ញើតាមរយៈបណ្តាញសេវាកម្ម AI ដើម្បីស្វែងយល់ពីអ្វីដែលកើតឡើងចំពោះព័ត៌មានរសើប។ ការរកឃើញបានបង្ហាញថាប្រព័ន្ធអេកូឡូស៊ី AI បានលេចធ្លាយទិន្នន័យរសើបយ៉ាងខ្លាំង។ ការបញ្ចេញទិន្នន័យនេះត្រូវបានរកឃើញតាមរយៈការពិសោធន៍មួយដើម្បីសាកល្បងថាតើព័ត៌មានរសើបអាចលេចធ្លាយតាមរយៈខ្សែសង្វាក់សេវាកម្ម AI ដែរឬទេ។",
+   "impact": "ការរកឃើញនេះអាចបញ្ជាក់ថាអង្គការដែលប្រើប្រាស់សេវាកម្មបញ្ជូនបន្ត AI អាចបង្ហាញព័ត៌មានសម្ងាត់ដោយអចេតនា។ ក្រុមសន្តិសុខអាចចាំបាច់ត្រូវពិនិត្យមើលឡើងវិញពីរបៀបដែលពួកគេបញ្ជូនទិន្នន័យសម្ងាត់តាមរយៈសេវាកម្ម AI ភាគីទីបី។",
+   "keyPoints": [
+    "អ្នកស្រាវជ្រាវបានដាក់ពង្រាយអន្ទាក់ឌីជីថលចំនួន ២ លានទូទាំងបណ្តាញសេវាកម្ម AI។",
+    "កម្មវិធី AI ជាច្រើនពឹងផ្អែកលើឈ្មួញកណ្តាលដូចជា OpenRouter ឬ Vercel ដើម្បីបញ្ជូនសំណើ។",
+    "ការពិសោធន៍បានប្រើប្រាស់ព័ត៌មានសម្ងាត់ AWS ដែលមិនធ្លាប់ប្រើ ដើម្បីតាមដានការលេចធ្លាយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "存在漏洞的AI供应链正以惊人的速度暴露秘密用户数据",
+   "summary": "研究人员在通过各种AI服务发送的请求中部署了200万个数字绊网，以调查敏感信息在这些服务中的处理情况。实验发现，AI生态系统像筛子一样泄漏高度敏感的数据。通过一项旨在测试敏感信息是否会通过庞大的AI服务链泄漏的实验，研究人员揭示了数据被泄露和利用的情况。",
+   "impact": "这项研究可能表明，使用AI路由器或代理的组织可能会无意中泄露敏感凭证，例如AWS访问密钥和密码。安全团队可能需要重新评估他们通过第三方AI服务传递机密数据的方式，以防止隐私侵犯和提示词被盗。",
+   "keyPoints": [
+    "研究人员在AI服务网络中部署了200万个数字绊网。",
+    "许多现代AI应用程序使用OpenRouter或Vercel等代理将提示词路由到推理引擎。",
+    "实验使用未曾使用过的AWS凭证、密码以及私有git引用作为金丝雀来追踪泄露情况。"
+   ]
+  },
+  "ko": {
+   "title": "유출 취약점이 있는 AI 공급망이 은밀한 사용자 데이터를 놀라운 속도로 노출하고 있습니다",
+   "summary": "연구원들은 AI 서비스 네트워크를 통해 전송된 요청에 200만 개의 디지털 함정을 설치하여 민감한 정보가 어떻게 처리되는지 조사했습니다. 조사 결과 AI 생태계가 민감한 데이터를 심각하게 유출하고 있는 것으로 나타났습니다. 이번 실험은 널리 사용되는 AI 서비스 체인을 통해 민감 정보가 유출될 수 있는지 확인하기 위해 진행되었습니다.",
+   "impact": "이번 연구는 AI 라우터나 중개 서비스를 사용하는 조직이 AWS 액세스 키나 비밀번호와 같은 민감한 자격 증명을 무의식적으로 노출할 수 있음을 시사할 수 있습니다. 보안 팀은 개인정보 침해와 프롬프트 도용을 방지하기 위해 제3자 AI 서비스를 통한 기밀 데이터 전송 방식을 재검토해야 할 수 있습니다.",
+   "keyPoints": [
+    "연구원들은 AI 서비스 네트워크 전반에 걸쳐 200만 개의 디지털 함정을 배치했습니다.",
+    "많은 AI 앱은 OpenRouter나 Vercel 같은 중개 서비스를 이용해 프롬프트를 라우팅합니다.",
+    "실험에서는 사용된 적 없는 AWS 자격 증명과 비밀번호 등을 카나리아로 사용하여 유출을 추적했습니다."
+   ]
+  }
+ }
+}

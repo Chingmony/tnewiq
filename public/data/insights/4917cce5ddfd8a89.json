@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4917cce5ddfd8a89",
+ "contentHash": "a3efb753fcdc71bb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:16:52.556Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Connect Customer expands how teams track and act on service level agreements for cases",
+   "summary": "Amazon Connect Customer has enhanced service level agreements (SLAs) for cases, allowing teams to set service goals beyond standard status fields. Administrators can now configure SLAs based on case fields like severity and trigger email notifications for breaches. Additionally, developers can use APIs to modify SLA deadlines when waiting for external information.",
+   "impact": "These enhancements could help development and support teams better track service goals and automate responses when deadlines are missed. Developers may use the new APIs to integrate external workflows more effectively into SLA tracking.",
+   "keyPoints": [
+    "Admins can set SLAs on case fields beyond status, including severity.",
+    "Email actions can be added to SLA breach rules to notify assigned agents immediately.",
+    "APIs allow developers to adjust case SLA deadlines when waiting on outside parties."
+   ]
+  },
+  "km": {
+   "title": "Amazon Connect Customer ពង្រីករបៀបដែលក្រុមការងារតាមដាន និងចាត់វិធានការលើកិច្ចព្រមព្រៀងកម្រិតសេវាកម្មសម្រាប់សំណុំរឿង",
+   "summary": "Amazon Connect Customer បានកែលម្អកិច្ចព្រមព្រៀងកម្រិតសេវាកម្ម (SLAs) សម្រាប់សំណុំរឿង ដែលអនុញ្ញាតឱ្យក្រុមការងារកំណត់គោលដៅសេវាកម្មលើសពីស្ថានភាពធម្មតា។ អ្នកគ្រប់គ្រងអាចកំណត់ SLA ផ្អែកលើវាលសំណុំរឿងដូចជាកម្រិតធ្ងន់ធ្ងរ និងផ្ញើអ៊ីមែលជូនដំណឹងនៅពេលមានការខកខាន។ លើសពីនេះ អ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់ APIs ដើម្បីកែសម្រួលពេលវេលាកំណត់ SLA នៅពេលរង់ចាំព័ត៌មានពីភាគីខាងក្រៅ។",
+   "impact": "ការកែលម្អទាំងនេះអាចជ่วยឱ្យក្រុមអភិវឌ្ឍន៍ និងគាំទ្រតាមដានគោលដៅសេវាកម្មបានប្រសើរជាងមុន និងស្វ័យប្រវត្តិកម្មការឆ្លើយតបនៅពេលខកខានពេលវេលាកំណត់។",
+   "keyPoints": [
+    "អ្នកគ្រប់គ្រងអាចកំណត់ SLA លើវាលសំណុំរឿងក្រៅពីស្ថានភាព រួមទាំងកម្រិតធ្ងន់ធ្ងរផងដែរ។",
+    "សកម្មភាពអ៊ីមែលអាចត្រូវបានបន្ថែមទៅក្នុងច្បាប់បំពាន SLA ដើម្បីជូនដំណឹងដល់ភ្នាក់ងារភ្លាមៗ។",
+    "Developers អាចប្រើ APIs ដើម្បីកែសម្រួលពេលវេលាកំណត់ SLA ពេលរង់ចាំភាគីខាងក្រៅ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Connect Customer 扩展了团队跟踪和处理服务级别协议的方式",
+   "summary": "Amazon Connect Customer 增强了针对案件的服务级别协议 (SLA)，使团队能够为更多工作设定服务目标，并在案件落后时做出更快响应。管理员可以针对状态以外的案件字段设置 SLA，例如要求案件严重程度在 24 小时内从高降至中。此外，管理员还可以在 SLA 违规规则中添加电子邮件操作，开发人员可以使用 API 在等待外部方信息时调整 SLA 截止日期。",
+   "impact": "这些改进可以帮助开发和支持团队更好地跟踪服务目标，并在错过截止日期时自动发出警报。开发人员可能会利用新的 API 将外部工作流程更有效地整合到 SLA 跟踪中。",
+   "keyPoints": [
+    "管理员可以针对状态以外的案件字段（如严重程度）设置 SLA。",
+    "可以将电子邮件操作添加到 SLA 违规规则中以立即通知分配的代理。",
+    "开发人员可以使用 API 在等待外部合作伙伴信息时调整 SLA 截止日期。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Connect Customer, 서비스 수준 협약 추적 및 대응 기능 확대",
+   "summary": "Amazon Connect Customer가 케이스에 대한 서비스 수준 협약(SLA)을 강화하여 팀이 더 많은 업무에 대해 서비스 목표를 설정하고 지연 시 더 빠르게 대응할 수 있도록 지원합니다. 관리자는 상태 외의 케이스 필드에도 SLA를 설정할 수 있으며, SLA 위반 규칙에 이메일 작업을 추가하여 담당 에이전트에게 즉시 알릴 수 있습니다. 또한 개발자는 API를 사용하여 외부 파트너의 정보를 기다리는 동안 SLA 마감일을 조정할 수 있습니다.",
+   "impact": "이러한 개선 사항은 개발 및 지원 팀이 서비스 목표를 더 잘 추적하고 마감일을 놓쳤을 때 자동으로 대응하는 데 도움을 줄 수 있습니다. 개발자는 새로운 API를 활용하여 외부 워크플로우를 SLA 추적에 더 효과적으로 통합할 수 있습니다.",
+   "keyPoints": [
+    "관리자는 심각도와 같이 상태를 넘어선 케이스 필드에 SLA를 설정할 수 있습니다.",
+    "SLA 위반 규칙에 이메일 작업을 추가하여 담당 에이전트에게 즉시 알릴 수 있습니다.",
+    "개발자는 외부 파트너의 정보를 기다릴 때 API를 사용해 SLA 마감일을 조정할 수 있습니다."
+   ]
+  }
+ }
+}

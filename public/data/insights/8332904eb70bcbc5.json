@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8332904eb70bcbc5",
+ "contentHash": "fe5796ca2b7547e1",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:11:29.221Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How Standard Bank Group automates AI risk assessment for generative AI",
+   "summary": "Standard Bank Group collaborated with AWS Professional Services to deploy an automated risk assessment system for generative AI applications. The solution scores each use case against international AI standards and internal policies, producing reports and a dashboard to streamline compliance. Operating within the bank's AWS account, the pipeline uses Amazon S3, AWS Step Functions, and Amazon Bedrock to automate evidence gathering and evaluation.",
+   "impact": "This automated approach could help technology and security teams accelerate AI deployment by reducing manual review bottlenecks while maintaining strict governance and compliance standards. For developers, it may provide clearer, more consistent feedback on what mitigations are required before an application reaches customers or employees.",
+   "keyPoints": [
+    "Standard Bank Group automated generative AI risk assessments to replace manual document reading and hand testing.",
+    "The assessment pipeline runs entirely within the bank's AWS account using Amazon S3, AWS Step Functions, and Amazon Bedrock.",
+    "An LLM-as-a-judge technique evaluates evidence against defined criteria and international standards.",
+    "The system generates standard reports and dashboards to assist the risk committee in making approval decisions."
+   ]
+  },
+  "km": {
+   "title": "តើ Standard Bank Group ស្វ័យប្រវត្តិកិច្ចការវាយតម្លៃហានិភ័យ AI សម្រាប់ জেনেនរ៉េទីវ AI យ៉ាងដូចម្ដេច",
+   "summary": "Standard Bank Group បានសហការជាមួយ AWS ដើម្បីដាក់ពង្រាយប្រព័ន្ធវាយតម្លៃហានិភ័យស្វ័យប្រវត្តិសម្រាប់កម្មវិធី generative AI។ ដំណោះស្រាយនេះដាក់ពិន្ទុលើការប្រើប្រាស់នីមួយៗធៀបនឹងស្ដង់ដារ AI អន្តរជាតិ និងគោលនយោបាយផ្ទៃក្នុង ដោយបង្កើតរបាយការណ៍ និងផ្ទាំងគ្រប់គ្រង។ ប្រព័ន្ធដំណើរការទាំងស្រុងក្នុងគណនី AWS របស់ធនាគារ ដោយប្រើប្រាស់ Amazon S3, AWS Step Functions និង Amazon Bedrock ដើម្បីប្រមូលភស្តុតាង និងវាយតម្លៃ។",
+   "impact": "វិធីសាស្ត្រស្វ័យប្រវត្តិនេះអាចជួយក្រុមការងារបច្ចេកវិទ្យា និងសុវត្ថិភាពពន្លឿនការដាក់ឱ្យប្រើប្រាស់ AI ដោយកាត់បន្ថយការយឺតយ៉ាវនៃការពិនិត្យដោយដៃ ខណៈពេលដែលរក្សាបាននូវស្ដង់ដារអភិបាលកិច្ច។ វាអាចផ្ដល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវមតិកែលម្អច្បាស់លាស់ជាងមុន អំពីអ្វីដែលត្រូវកែលម្អមុនពេលកម្មវិធីដាក់ឱ្យប្រើប្រាស់។",
+   "keyPoints": [
+    "Standard Bank Group បានធ្វើស្វ័យប្រវត្តិនូវការវាយតម្លៃហានិភ័យ generative AI ដើម្បីជំនួសការពិនិត្យឯកសារដោយដៃ។",
+    "ដំណើរការវាយតម្លៃប្រព្រឹត្តទៅក្នុងគណនី AWS របស់ធនាគារដោយប្រើប្រាស់ Amazon S3, AWS Step Functions និង Amazon Bedrock។",
+    "បច្ចេកទេស LLM-as-a-judge ត្រូវបានប្រើដើម្បីវាយតម្លៃភស្តុតាងធៀបនឹងខ្នាតតម្រូវ។",
+    "ប្រព័ន្ធបង្កើតរបាយការណ៍ និងផ្ទាំងគ្រប់គ្រង ដើម្បីជួយគណៈកម្មាធិការហានិភ័យក្នុងការសម្រេចចិត្តអនុម័ត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Standard Bank Group 如何为生成式 AI 自动化人工智能风险评估",
+   "summary": "Standard Bank Group 与 AWS 合作部署了一个用于生成式 AI 应用的自动化风险评估系统。该解决方案根据国际 AI 标准和内部政策对每个用例进行评分，生成报告和仪表板以简化合规流程。该管道完全在银行自己的 AWS 账户中运行，利用 Amazon S3、AWS Step Functions 和 Amazon Bedrock 来自动化证据收集和评估。",
+   "impact": "这种自动化方法可以通过减少人工审查瓶颈来帮助技术和安全团队加速 AI 部署，同时保持严格的治理标准。对于开发人员而言，它可能在应用程序接触客户或员工之前提供更清晰、更一致的反馈，说明需要进行哪些缓解措施。",
+   "keyPoints": [
+    "Standard Bank Group 自动化了生成式 AI 风险评估，以取代人工查阅文档和手动测试。",
+    "评估管道完全在银行的 AWS 账户内运行，使用 Amazon S3、AWS Step Functions 和 Amazon Bedrock。",
+    "采用 LLM-as-a-judge 技术根据定义标准评估证据。",
+    "系统输出标准报告和仪表板，以协助风险委员会做出批准决策。"
+   ]
+  },
+  "ko": {
+   "title": "Standard Bank Group이 생성형 AI에 대한 AI 위험 평가를 자동화하는 방법",
+   "summary": "Standard Bank Group은 생성형 AI 애플리케이션을 위한 자동화된 위험 평가 시스템을 배포하기 위해 AWS와 협력했습니다. 이 솔루션은 국제 AI 표준 및 자체 정책에 따라 각 사용 사례를 평가하며, 보고서와 대시보드를 생성하여 준법 감시를 간소화합니다. 은행의 AWS 계정 내에서 완전히 실행되는 이 파이프라인은 Amazon S3, AWS Step Functions 및 Amazon Bedrock을 사용하여 증거 수집과 평가를 자동화합니다.",
+   "impact": "이 자동화된 접근 방식은 수동 검토 병목 현상을 줄이고 엄격한 거버넌스 표준을 유지하면서 기술 및 보안 팀이 AI 배포를 가속화하는 데 도움을 줄 수 있습니다. 개발자의 경우, 애플리케이션이 고객이나 직원에게 도달하기 전에 필요한 완화 조치에 대해 더 명확하고 일관된 피드백을 제공받을 수 있습니다.",
+   "keyPoints": [
+    "Standard Bank Group은 수동 문서 검토와 직접 테스트를 대체하기 위해 생성형 AI 위험 평가를 자동화했습니다.",
+    "평가 파이프라인은 Amazon S3, AWS Step Functions 및 Amazon Bedrock을 사용하여 은행의 AWS 계정 내에서 완전히 실행됩니다.",
+    "LLM-as-a-judge 기술을 사용하여 정의된 기준에 따라 증거를 평가합니다.",
+    "시스템은 위험 위원회가 승인 결정을 내리는 데 도움이 되는 표준 보고서와 대시보드를 생성합니다."
+   ]
+  }
+ }
+}

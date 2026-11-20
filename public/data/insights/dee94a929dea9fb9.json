@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "dee94a929dea9fb9",
+ "contentHash": "56ae97d39b9a8a6c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:12:22.760Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+   "summary": "Security research company depthfirst disclosed phpAfterShell, a critical remote code execution vulnerability in PHP's default file-based session handler. The PHP project fixed this flaw along with 16 others across multiple versions released on November 19, 2026. Cloudflare updated its WAF rules to detect and block known attack patterns for phpAfterShell and added new rules for other PHP vulnerabilities.",
+   "impact": "These WAF rules could provide an additional layer of defense for applications using PHP. However, because some vulnerabilities depend on server configurations or paths invisible to a WAF, security teams and developers must upgrade PHP and restart workers as the only complete fix.",
+   "keyPoints": [
+    "phpAfterShell (CVE-2026-126714) scores 9.2 out of 10 under CVSS 4.0 and affects PHP's file-based session handler.",
+    "Cloudflare updated its WAF detection logic to block phpAfterShell attack patterns automatically for Free and paid plan customers.",
+    "Cloudflare also added three new rules for PHP-FPM and SOAP extension flaws set to Log action by default.",
+    "No indication of active exploitation in the wild or inclusion in CISA's catalog was reported as of November 19, 2026."
+   ]
+  },
+  "km": {
+   "title": "តើ Cloudflare WAF ជួយការពារប្រឆាំងនឹង phpAfterShell និងបញ្ហាប្រហោង PHP សំខាន់ៗផ្សេងទៀតយ៉ាងដូចម្តេច",
+   "summary": "ក្រុមហ៊ុនស្រាវជ្រាវសន្តិសុខ depthfirst បានបង្ហាញពី phpAfterShell ដែលជាបញ្ហាប្រហោងនៃការប្រតិបត្តិខូដពីចម្ងាយនៅក្នុងប្រព័ន្ធគ្រប់គ្រងសម័យផ្អែកលើឯកសារលំនាំដើមរបស់ PHP។ គម្រោង PHP បានជួសជុលបញ្ហានេះព្រមទាំងបញ្ហាប្រហោងផ្សេងទៀតចំនួន ១៦ នៅថ្ងៃដដែលក្នុងកំណែអាប់ដេតដែលបានចេញផ្សាយនៅថ្ងៃទី ១៩ ខែវិច្ឆិកា ឆ្នាំ ២០២៦។ Cloudflare បានអាប់ដេតច្បាប់ WAF របស់ខ្លួនដើម្បីទប់ស្កាត់លំនាំនៃការវាយប្រហារ phpAfterShell ដែលបានដឹង។",
+   "impact": "ច្បាប់ WAF ទាំងនេះអាចផ្តល់នូវស្រទាប់ការពារបន្ថែមសម្រាប់កម្មវិធីដែលប្រើប្រាស់ PHP ប៉ុន្តែក្រុមការងារសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍ត្រូវតែធ្វើបច្ចុប្បន្នភាព PHP និងចាប់ផ្តើមកម្មករឡើងវិញព្រោះវាជាដំណោះស្រាយតែមួយគត់ដែលពេញលេញ។",
+   "keyPoints": [
+    "phpAfterShell (CVE-2026-126714) មានពិន្ទុ ៩.២ លើ ១០ ក្រោម CVSS 4.0។",
+    "Cloudflare បានអាប់ដេតឡូជីខលរកឃើញរបស់ WAF ដើម្បីទប់ស្កាត់លំនាំវាយប្រហារ phpAfterShell ។",
+    "Cloudflare បានបន្ថែមច្បាប់ថ្មីបីទៀតសម្រាប់ PHP-FPM និងបញ្ហាប្រហោងផ្នែកបន្ថែម SOAP ។",
+    "គ្មានសញ្ញាណាមួយបង្ហាញពីការកេងប្រវ័ញ្ចជាក់ស្តែងត្រូវបានរាយការណ៍ទេគិតត្រឹមថ្ងៃទី ១៩ ខែវិច្ឆិកា ឆ្នាំ ២០២៦។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Cloudflare WAF 如何帮助防御 phpAfterShell 及其他关键 PHP 漏洞",
+   "summary": "安全研究公司 depthfirst 披露了 phpAfterShell（CVE-2026-126714），这是 PHP 默认基于文件的会话处理器中的一个漏洞，可能导致远程代码执行。PHP 项目于 2026 年 11 月 19 日在多个版本中修复了该漏洞以及另外 16 个安全漏洞。Cloudflare 的网络应用防火墙（WAF）更新了检测逻辑，可阻止已知的 phpAfterShell 攻击模式。",
+   "impact": "这些 WAF 规则可以为使用 PHP 的应用程序提供额外的防御层。然而，由于漏洞可能依赖于服务器配置或 WAF 无法看到的路径，安全团队和开发人员必须升级 PHP 并重启工作线程作为唯一完整的修复方案。",
+   "keyPoints": [
+    "phpAfterShell（CVE-2026-126714）在 CVSS 4.0 评分中为 9.2 分（严重）。",
+    "Cloudflare 免费版和付费版客户均可获得自动阻止 phpAfterShell 攻击模式的 WAF 规则保护。",
+    "Cloudflare 还为 PHP-FPM 和 SOAP 扩展漏洞添加了三条默认动作为日志记录的新规则。",
+    "截至 2026 年 11 月 19 日，没有迹象表明这些漏洞已被野外利用。"
+   ]
+  },
+  "ko": {
+   "title": "Cloudflare WAF가 phpAfterShell 및 기타 중요한 PHP 취약점으로부터 보호하는 방법",
+   "summary": "보안 연구 기업 depthfirst는 PHP의 기본 파일 기반 세션 핸들러에서 원격 코드 실행으로 이어질 수 있는 취약점인 phpAfterShell(CVE-2026-126714)을 공개했습니다. PHP 프로젝트는 2026년 11월 19일에 출시된 버전을 통해 이 결함을 포함한 16개의 보안 취약점을 수정했습니다. Cloudflare의 웹 애플리케이션 방화벽(WAF)은 알려진 phpAfterShell 공격 패턴을 차단하도록 업데이트되었습니다.",
+   "impact": "이러한 WAF 규칙은 PHP를 사용하는 애플리케이션에 추가적인 방어 계층을 제공할 수 있습니다. 그러나 일부 취약점은 서버 구성이나 WAF가 볼 수 없는 경로에 의존할 수 있으므로, 보안 팀과 개발자는 완전한 수정을 위해 PHP를 업그레이드하고 작업 프로세스를 재시작해야 합니다.",
+   "keyPoints": [
+    "phpAfterShell(CVE-2026-126714)은 CVSS 4.0 기준 10점 만점에 9.2점을 기록했습니다.",
+    "Cloudflare는 무료 및 유료 플랜 고객을 위해 phpAfterShell 공격 패턴을 자동으로 차단하도록 WAF 탐지 로직을 업데이트했습니다.",
+    "Cloudflare는 PHP-FPM 및 SOAP 확장 결함을 위한 세 가지 새로운 규칙을 추가했습니다.",
+    "2026년 11월 19일 기준, 이러한 취약점이 실제로 악용되었다는 징후는 보고되지 않았습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9bf50335a12022e8",
+ "contentHash": "8c4641477c2132fb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:17:42.818Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Transform announces UI component modernization for Windows web applications",
+   "summary": "AWS has announced the general availability of third-party UI component porting for ASP.NET web site modernization in AWS Transform. The tool now detects dependencies on popular third-party UI component libraries when modernizing legacy ASP.NET web sites for ASP.NET Core UI frameworks. Developers can choose to replace proprietary controls with license-free Microsoft-native and open-source components, or continue using vendor UI libraries with provided instructions.",
+   "impact": "Development and security teams modernizing legacy Windows web applications may benefit from streamlined UI framework transitions and options to eliminate proprietary software dependencies. This capability could help organizations manage open-source compliance or maintain existing vendor library relationships during cloud migration and modernization workflows.",
+   "keyPoints": [
+    "AWS Transform now generally supports third-party UI component porting for ASP.NET web site modernization.",
+    "The modernization agent can replace proprietary controls with open-source or Microsoft-native alternatives.",
+    "Alternatively, the agent provides code comments and instructions for keeping vendor libraries with an AI coding companion.",
+    "The feature is available at no additional cost across eight AWS Regions."
+   ]
+  },
+  "km": {
+   "title": "AWS Transform ប្រកាសពីការធ្វើទំនើបកម្មសមាសភាគ UI សម្រាប់កម្មវិធីបណ្តាញ Windows",
+   "summary": "AWS បានប្រកាសពីការដាក់ឱ្យប្រើប្រាស់ជាទូទៅនូវការបម្លែងសមាសភាគ UI របស់ភាគីទីបីសម្រាប់ការធ្វើទំនើបកម្មគេហទំព័រ ASP.NET នៅក្នុង AWS Transform។ ឧបករណ៍នេះឥឡូវនេះរកឃើញការអាស្រ័យលើបណ្ណាល័យសមាសភាគ UI របស់ភាគីទីបីដ៏ពេញនិយម នៅពេលធ្វើទំនើបកម្មគេហទំព័រ ASP.NET ចាស់ៗទៅជាប្រព័ន្ធ UI របស់ ASP.NET Core។ អ្នកអភិវឌ្ឍន៍អាចជ្រើសរើសជំនួសការគ្រប់គ្រងកម្មសិទ្ធិដោយសមាសភាគប្រភពបើកចំហ ឬម៉ាស៊ីនដើមរបស់ Microsoft ឬបន្តប្រើប្រាស់បណ្ណាល័យ UI របស់អ្នកផ្គត់ផ្គង់។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍និងសុវត្ថិភាពដែលធ្វើទំនើបកម្មកម្មវិធីបណ្តាញ Windows ចាស់ៗអាចទទួលបានផលចំណេញពីការផ្លាស់ប្តូរក្របខ័ណ្ឌ UI ដែលងាយស្រួលជាងមុន និងជម្រើសក្នុងការលុបចោលការអាស្រ័យលើកម្មវិធីកម្មសិទ្ធិ។ សមត្ថភាពនេះអាចជួយអង្គការនានាក្នុងការគ្រប់គ្រងការអនុលោមតាមប្រភពបើកចំហ ឬរក្សាទំនាក់ទំនងបណ្ណាល័យអ្នកផ្គត់ផ្គង់ដែលមានស្រាប់។",
+   "keyPoints": [
+    "AWS Transform ឥឡូវនេះគាំទ្រជាទូទៅនូវការបម្លែងសមាសភាគ UI របស់ភាគីទីបីសម្រាប់ការធ្វើទំនើបកម្មគេហទំព័រ ASP.NET។",
+    "ភ្នាក់ងារទំនើបកម្មអាចជំនួសការគ្រប់គ្រងកម្មសិទ្ធិដោយជម្រើសប្រភពបើកចំហ ឬម៉ាស៊ីនដើមរបស់ Microsoft។",
+    "ជំនួសមកវិញ ភ្នាក់ងារផ្តល់នូវមតិយោបល់កូដ និងការណែនាំសម្រាប់ការរក្សាបណ្ណាល័យអ្នកផ្គត់ផ្គង់ជាមួយដៃគូសរសេរកូដ AI។",
+    "លក្ខណៈពិសេសនេះមានដោយគ្មានការចំណាយបន្ថែមនៅក្នុងតំបន់ AWS ចំនួនប្រាំបី។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Transform 宣布推出针对 Windows Web 应用程序的 UI 组件现代化功能",
+   "summary": "AWS 宣布在 AWS Transform 中正式推出针对 ASP.NET 网站现代化的第三方 UI 组件移植功能。当 AWS Transform 将旧版 ASP.NET 网站现代化时，它现在可以检测对流行第三方 UI 组件库的依赖项。用户可以选择将其替换为无许可证限制的微软原生组件和开源组件，或者继续使用供应商 UI 库。",
+   "impact": "正在将旧版 Windows Web 应用程序现代化的开发团队和安全团队可能会受益于简化的 UI 框架过渡以及消除专有软件依赖的选项。此功能可能有助于组织在迁移和现代化工作流程中管理开源合规性或维护现有的供应商库关系。",
+   "keyPoints": [
+    "AWS Transform 现已全面支持用于 ASP.NET 网站现代化的第三方 UI 组件移植。",
+    "现代化代理可以将专有控件替换为开源或微软原生控件并移除原始依赖项。",
+    "或者，代理会添加代码说明和下一步说明，以便配合 AI 编码助手转移到目标 UI 框架上的等效供应商库。",
+    "此功能在提供 AWS Transform 的所有八个 AWS 区域中均无需额外付费即可使用。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Transform, Windows 웹 애플리케이션을 위한 UI 구성 요소 현대화 발표",
+   "summary": "AWS는 AWS Transform에서 ASP.NET 웹사이트 현대화를 위한 타사 UI 구성 요소 포팅 기능을 정식 출시한다고 발표했습니다. AWS Transform이 레거시 ASP.NET 웹사이트를 현대화할 때 인기 있는 타사 UI 구성 요소 라이브러리에 대한 종속성을 감지할 수 있게 되었습니다. 라이선스 비용이 없는 Microsoft 네이티브 및 오픈소스 구성 요소로 교체하거나 계속해서 공급업체 UI 라이브러리를 사용할 수 있습니다.",
+   "impact": "레거시 Windows 웹 애플리케이션을 현대화하는 개발 및 보안 팀은 간소화된 UI 프레임워크 전환과 독점 소프트웨어 종속성을 제거할 수 있는 옵션의 혜택을 받을 수 있습니다. 이 기능은 조직이 클라우드 마이그레이션 및 현대화 워크플로 중에 오픈소스 규정 준수를 관리하거나 기존 공급업체 라이브러리 관계를 유지하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "AWS Transform은 이제 ASP.NET 웹사이트 현대화를 위한 타사 UI 구성 요소 포팅을 정식 지원합니다.",
+    "현대화 에이전트는 독점 제어를 오픈소스 또는 Microsoft 네이티브 제어로 교체하고 원래 종속성을 제거할 수 있습니다.",
+    "또는 에이전트가 AI 코딩 컴패니언을 사용하여 대상 UI 프레임워크의 동등한 공급업체 라이브러리로 이동하기 위한 코드 주석과 지침을 추가합니다.",
+    "이 기능은 AWS Transform이 제공되는 8개의 모든 AWS 리전에서 추가 비용 없이 사용할 수 있습니다."
+   ]
+  }
+ }
+}

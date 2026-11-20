@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c528147c025e6a76",
+ "contentHash": "54e3e53cf1acbae3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:13:52.161Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Spend limits in the new AWS experience now support SMS alerts",
+   "summary": "Builders using the new AWS experience on the Paid plan can now receive spend limit alerts via SMS in addition to email notifications. These text messages are sent when a project reaches 90% of its spend limit. When a project hits its limit, AWS automatically pauses it.",
+   "impact": "This feature could help developers and technology users respond more quickly to cost warnings before projects are automatically paused, as email alerts can sometimes go unnoticed.",
+   "keyPoints": [
+    "SMS alerts are available for the new AWS experience on the Paid plan.",
+    "Notifications are sent when a project reaches 90% of its spend limit.",
+    "AWS automatically pauses projects once they reach their spend limit.",
+    "Users must verify their mobile phone number in AWS Settings to enable the feature."
+   ]
+  },
+  "km": {
+   "title": "កម្រិតចំណាយនៅក្នុងបទពិសោធន៍ AWS ថ្មីឥឡូវនេះគាំទ្រការជូនដំណឹងតាមសារ SMS",
+   "summary": "អ្នកអភិវឌ្ឍន៍ដែលប្រើប្រាស់បទពិសោធន៍ AWS ថ្មីលើកញ្ចប់ Paid ឥឡូវនេះអាចទទួលបានការជូនដំណឹងអំពីកម្រិតចំណាយតាមរយៈសារអត្ថបទ SMS បន្ថែមពីលើការជូនដំណឹងតាមអ៊ីមែលដែលមានស្រាប់។ សារទាំងនេះត្រូវបានផ្ញើនៅពេលដែលគម្រោងឈានដល់ 90% នៃកម្រិតចំណាយរបស់វា។ នៅពេលគម្រោងដល់កម្រិតកំណត់ AWS នឹងផ្អាកវាដោយស្វ័យប្រវត្តិ។",
+   "impact": "មុខងារនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាឆ្លើយតបលឿនជាងមុនចំពោះការព្រមានអំពីការចំណាយ មុនពេលគម្រោងត្រូវបានផ្អាកដោយស្វ័យប្រវត្តិ។",
+   "keyPoints": [
+    "ការជូនដំណឹងតាម SMS មាននៅលើកញ្ចប់ Paid នៃបទពិសោធន៍ AWS ថ្មី។",
+    "ការជូនដំណឹងត្រូវបានផ្ញើនៅពេលគម្រោងឈានដល់ 90% នៃកម្រិតចំណាយ។",
+    "AWS ផ្អាកគម្រោងដោយស្វ័យប្រវត្តិនៅពេលវាដល់កម្រិតកំណត់។",
+    "អ្នកប្រើប្រាស់ត្រូវផ្ទៀងផ្ទាត់លេខទូរស័ព្ទរបស់ខ្លួននៅក្នុងការកំណត់ AWS ដើម្បីបើកដំណើរការមុខងារនេះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "全新 AWS 体验中的消费限额现已支持短信提醒",
+   "summary": "使用付费计划全新 AWS 体验的构建者现在除了现有的电子邮件通知外，还可以通过短信（SMS）接收消费限额提醒。当项目的实际成本达到消费限额的 90% 时，系统会发送这些短信。当项目达到限额时，AWS 会自动将其暂停。",
+   "impact": "此功能可以帮助开发人员和技术用户在项目被自动暂停之前更快地对成本警告做出反应，因为电子邮件提醒有时可能会被忽视。",
+   "keyPoints": [
+    "付费计划的全新 AWS 体验现已支持短信提醒功能。",
+    "当项目实际成本达到消费限额的 90% 时会发送提醒。",
+    "当项目达到限额时，AWS 会自动暂停项目。",
+    "用户必须在 AWS 设置中验证其手机号码才能启用短信提醒。"
+   ]
+  },
+  "ko": {
+   "title": "새로운 AWS 경험의 지출 한도에서 이제 SMS 알림을 지원합니다",
+   "summary": "Paid 플랜에서 새로운 AWS 경험을 사용하는 빌더는 이제 기존 이메일 알림 외에도 문자 메시지(SMS)로 지출 한도 알림을 받을 수 있습니다. 프로젝트의 실제 비용이 지출 한도의 90%에 도달하면 텍스트 알림이 전송됩니다. 프로젝트가 한도에 도달하면 AWS는 자동으로 프로젝트를 일시 중지합니다.",
+   "impact": "이 기능은 이메일 알림을 놓칠 수 있는 상황에서 개발자와 기술 사용자가 프로젝트가 자동으로 중지되기 전에 비용 경고에 더 빠르게 대응할 수 있도록 도울 수 있습니다.",
+   "keyPoints": [
+    "Paid 플랜의 새로운 AWS 경험에서 SMS 알림을 사용할 수 있습니다.",
+    "프로젝트 실제 비용이 지출 한도의 90%에 도달하면 알림이 전송됩니다.",
+    "프로젝트가 한도에 도달하면 AWS가 자동으로 프로젝트를 일시 중지합니다.",
+    "사용자는 SMS 알림을 켜기 위해 AWS 설정에서 휴대폰 번호를 인증해야 합니다."
+   ]
+  }
+ }
+}

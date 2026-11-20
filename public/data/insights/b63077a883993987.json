@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b63077a883993987",
+ "contentHash": "525897c8159127b1",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:17:02.400Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Aurora MySQL 8.4.12 is now generally available",
+   "summary": "Amazon Aurora MySQL-Compatible Edition 8.4 now supports MySQL 8.4.12. The release brings security enhancements and bug fixes to address CVEs found in older versions, alongside performance improvements. Users can upgrade databases during scheduled maintenance windows or enable automatic minor version upgrades.",
+   "impact": "Developers and database administrators could improve security and performance by upgrading their databases. Utilizing phased upgrades and automatic minor version upgrades may help minimize operational risks across clusters.",
+   "keyPoints": [
+    "Amazon Aurora MySQL-Compatible Edition 8.4 now supports MySQL 8.4.12.",
+    "The release includes bug fixes, security enhancements, and CVE fixes.",
+    "Upgrades can be performed via automatic minor version upgrades, in-place, or snapshot restore.",
+    "The release is available in all AWS Regions where Aurora MySQL is supported."
+   ]
+  },
+  "km": {
+   "title": "Amazon Aurora MySQL 8.4.12 ឥឡូវនេះមានជាទូទៅហើយ",
+   "summary": "Amazon Aurora MySQL-Compatible Edition 8.4 ឥឡូវនេះគាំទ្រ MySQL 8.4.12 ហើយ។ ការចេញផ្សាយនេះរួមបញ្ចូលទាំងការកែលម្អសុវត្ថិភាព និងការកែំហុសផ្សេងៗ។ អ្នកប្រើប្រាស់អាចដំឡើងកំណែទិន្នន័យរបស់ពួកគេក្នុងអំឡុងពេលថែទាំដែលបានកំណត់។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យាអាចទទួលបានអត្ថប្រយោជន៍ពីការកែលម្អសុវត្ថិភាព និងការកែំហុសតាមរយៈការដំឡើងកំណែថ្មី។ ការប្រើប្រាស់មុខងារដំឡើងកំណែដោយស្វ័យប្រវត្តិអាចជួយសម្រួលដល់កិច្ចការប្រតិបត្តិការ។",
+   "keyPoints": [
+    "Amazon Aurora MySQL-Compatible Edition 8.4 ឥឡូវនេះគាំទ្រ MySQL 8.4.12 ។",
+    "ការចេញផ្សាយនេះមានការកែលម្អសុវត្ថិភាព និងការកែំហុស។",
+    "ការដំឡើងកំណែអាចធ្វើឡើងក្នុងអំឡុងពេលថែទាំ ឬតាមរយៈការស្ដារឡើងវិញពី snapshot ។",
+    "ការចេញផ្សាយនេះមាននៅក្នុងគ្រប់តំបន់ AWS ដែល Aurora MySQL ដំណើរការ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Aurora MySQL 8.4.12 现已正式发布",
+   "summary": "Amazon Aurora MySQL 兼容版本 8.4 现已支持 MySQL 8.4.12。此版本包含多项安全增强功能和错误修复，建议用户升级以获取早期版本中 CVE 的修复补丁。用户可以在计划维护窗口期间执行升级，或启用自动次要版本升级。",
+   "impact": "开发和安全团队可以通过升级来获取安全修复和性能提升。分阶段推广策略可以帮助团队在升级关键环境之前验证低优先级环境。",
+   "keyPoints": [
+    "Amazon Aurora MySQL 兼容版本 8.4 现支持 MySQL 8.4.12。",
+    "该版本带来了安全增强、错误修复以及社区 MySQL 的新功能。",
+    "支持通过自动次要版本升级、原地升级或快照恢复来升级数据库。",
+    "该版本在支持 Aurora MySQL 的所有 AWS 区域推出。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Aurora MySQL 8.4.12 정식 출시",
+   "summary": "Amazon Aurora MySQL 호환 에디션 8.4가 이제 MySQL 8.4.12를 지원합니다. 이 릴리스에는 여러 보안 강화 및 버그 수정이 포함되어 있습니다. 사용자는 예약된 유지 관리 창 동안 데이터베이스를 업그레이드하거나 자동 부 버전 업그레이드를 활성화할 수 있습니다.",
+   "impact": "개발자와 보안 팀은 데이터베이스 업그레이드를 통해 보안 취약점을 해결하고 성능을 향상시킬 수 있습니다. 단계별 업그레이드 정책을 사용하면 운영 위험을 줄이면서 안전하게 업그레이드를 진행할 수 있습니다.",
+   "keyPoints": [
+    "Amazon Aurora MySQL 호환 에디션 8.4에서 MySQL 8.4.12 지원 시작",
+    "이전 버전의 CVE 수정 및 버그 수정, 성능 향상 포함",
+    "자동 부 버전 업그레이드, 제자리(in-place) 업그레이드 또는 스냅샷 복원을 통해 업그레이드 가능",
+    "Aurora MySQL을 지원하는 모든 AWS 리전에서 이용 가능"
+   ]
+  }
+ }
+}

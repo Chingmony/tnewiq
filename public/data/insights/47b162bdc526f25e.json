@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "47b162bdc526f25e",
+ "contentHash": "862a1bf401489c9a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:11:39.253Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
+   "summary": "OpenAI has significantly strengthened safeguards against extracting internal reasoning from GPT-6.2 Astra and GPT-6.2 Sol. Adaptive red-teaming tests showed that the success rate for extracting protected reasoning dropped from 54 percent to 0.2 percent. Additionally, the company is suspending thousands to tens of thousands of accounts weekly due to coordinated distillation campaigns.",
+   "impact": "These enhanced safeguards could significantly reduce the effectiveness of intellectual property theft and model extraction attempts. Developers and security teams may find it much more difficult to reverse engineer the internal logic of these AI models.",
+   "keyPoints": [
+    "Safeguards against extracting internal reasoning from GPT-6.2 Astra and GPT-6.2 Sol were significantly strengthened.",
+    "Extraction success rates in adaptive red-teaming tests fell from 54 percent to 0.2 percent.",
+    "OpenAI suspends thousands to tens of thousands of accounts weekly over coordinated distillation campaigns."
+   ]
+  },
+  "km": {
+   "title": "OpenAI ធ្វើឱ្យវាមានភាពលំបាកខ្លាំងសម្រាប់អ្នកវាយប្រហារក្នុងការទាញយកវិធីដែលម៉ូដែល AI ចុងក្រោយរបស់ខ្លួនគិត",
+   "summary": "OpenAI បានពង្រឹងយ៉ាងខ្លាំងនូវវិធានការការពារប្រឆាំងនឹងការទាញយកការ צוិតគិតខាងក្នុងពី GPT-6.2 Astra និង GPT-6.2 Sol។ ក្នុងការធ្វើតេស្ត red-teaming អត្រាជោគជ័យសម្រាប់ការទាញយកការ צוិតគិតដែលត្រូវបានការពារបានធ្លាក់ចុះពី 54 ភាគរយទៅ 0.2 ភាគរយ។ ក្រុមហ៊ុននេះក៏កំពុងផ្អាកគណនីរាប់ពាន់ទៅរាប់ម៉ឺនក្នុងមួយសប្តាហ៍ផងដែរជុំវិញយុទ្ធនាការ distillation ដែលមានការសម្របសម្រួល។",
+   "impact": "ការការពារដែលបានកែលម្អទាំងនេះអាចកាត់បន្ថយយ៉ាងខ្លាំងនូវប្រសិទ្ធភាពនៃការចោទប្រកាន់លើកម្មសិទ្ធិបញ្ញា និងការប៉ុនប៉ងទាញយកម៉ូដែល។ អ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខអាចយល់ថាវាពិបាកខ្លាំងណាស់ក្នុងការ reverse engineer តក្កវិជ្ជាខាងក្នុងនៃម៉ូដែល AI ទាំងនេះ។",
+   "keyPoints": [
+    "ការការពារប្រឆាំងនឹងការទាញយកការ צוិតគិតខាងក្នុងពី GPT-6.2 Astra និង GPT-6.2 Sol ត្រូវបានពង្រឹងយ៉ាងខ្លាំង។",
+    "អត្រាជោគជ័យនៃការទាញយកក្នុងការធ្វើតេស្ត red-teaming បានធ្លាក់ចុះពី 54 ភាគរយទៅ 0.2 ភាគរយ។",
+    "OpenAI ផ្អាកគណនីរាប់ពាន់ទៅរាប់ម៉ឺនក្នុងមួយសប្តាហ៍លើយុទ្ធនាការ distillation ដែលមានការសម្របសម្រួល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "OpenAI 显著增加了攻击者提取其最新 AI 模型思考方式的难度",
+   "summary": "OpenAI 显著增强了针对从 GPT-6.2 Astra 和 GPT-6.2 Sol 中提取内部推理过程的安全防护。在自适应红队测试中，提取受保护推理的成功率从 54% 下降到了 0.2%。此外，该公司由于协同蒸馏活动，每周暂停成千上万个账户。",
+   "impact": "这些增强的防护措施可能会显著降低知识产权盗窃和模型提取尝试的有效性。开发人员和安全团队可能会发现逆向工程这些 AI 模型的内部逻辑变得困难得多。",
+   "keyPoints": [
+    "显著增强了针对 GPT-6.2 Astra 和 GPT-6.2 Sol 内部推理提取的防护。",
+    "自适应红队测试中的提取成功率从 54% 降至 0.2%。",
+    "因协同蒸馏活动，OpenAI 每周暂停成千上万个账户。"
+   ]
+  },
+  "ko": {
+   "title": "OpenAI, 공격자들이 최신 AI 모델의 사고 방식을 추출하기 훨씬 더 어렵게 만들다",
+   "summary": "OpenAI는 GPT-6.2 Astra 및 GPT-6.2 Sol의 내부 추론 추출에 대한 보호 조치를 크게 강화했습니다. 적응형 레드팀 테스트에서 보호된 추론을 추출하는 데 성공한 비율은 54%에서 0.2%로 떨어졌습니다. 또한 회사는 조직적인 증류 캠페인과 관련하여 매주 수천에서 수만 개의 계정을 정지시키고 있습니다.",
+   "impact": "이러한 향상된 보호 조치는 지식 재산권 도용 및 모델 추출 시도의 효과를 크게 줄일 수 있습니다. 개발자와 보안 팀은 이러한 AI 모델의 내부 로직을 리버스 엔지니어링하는 것이 훨씬 더 어려워진 것을 알 수 있습니다.",
+   "keyPoints": [
+    "GPT-6.2 Astra 및 GPT-6.2 Sol의 내부 추론 추출에 대한 보호 조치가 크게 강화되었습니다.",
+    "적응형 레드팀 테스트에서 추출 성공률이 54%에서 0.2%로 떨어졌습니다.",
+    "OpenAI는 조직적인 증류 캠페인으로 인해 매주 수천에서 수만 개의 계정을 정지시키고 있습니다."
+   ]
+  }
+ }
+}

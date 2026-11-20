@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ca9c7a90ddc8ba5f",
+ "contentHash": "696452f22b02a6bc",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:14:42.341Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Pricing Calculator now estimates workload costs through a new API",
+   "summary": "AWS Pricing Calculator has introduced GetUsageLinesEstimatedCost, a new API that returns estimated costs for planned workloads in a single call. Users can send up to 500 usage lines in one request to receive immediate cost feedback without saving an estimate to their account. The API supports public On-Demand rates, discounted rates, and rates that incorporate Savings Plans and Reserved Instances.",
+   "impact": "This new API could allow developers and technology users to integrate cost estimation directly into their own tools and workflows. It may also enable AI coding agents to price workloads during the design phase before deployment.",
+   "keyPoints": [
+    "The new API is called GetUsageLinesEstimatedCost.",
+    "It accepts up to 500 usage lines per request.",
+    "Users can select from three different rate types.",
+    "The feature is generally available at no additional charge in most AWS Regions."
+   ]
+  },
+  "km": {
+   "title": "AWS Pricing Calculator ឥឡូវនេះប៉ាន់ស្មានថ្លៃដើមដំណើរការការងារតាមរយៈ API ថ្មីមួយ",
+   "summary": "AWS Pricing Calculator បានដាក់ឱ្យប្រើប្រាស់ GetUsageLinesEstimatedCost ដែលជា API ថ្មីមួយត្រឡប់មកវិញនូវការប៉ាន់ប្រមាណថ្លៃដើមសម្រាប់ការងារដែលបានគ្រោងទុកក្នុងការហៅទូរស័ព្ទតែមួយ។ អ្នកប្រើប្រាស់អាចផ្ញើបន្ទាត់ប្រើប្រាស់រហូតដល់ 500 ក្នុងសំណើមួយដើម្បីទទួលបានការប៉ាន់ស្មានភ្លាមៗ។ API នេះគាំទ្រអត្រា On-Demand ជាសាធារណៈ អត្រាបញ្ចុះតម្លៃ និងអត្រារួមបញ្ចូលជាមួយ Savings Plans និង Reserved Instances។",
+   "impact": "API នេះអាចអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍រួមបញ្ចូលការប៉ាន់ប្រមាណតម្លៃដោយផ្ទាល់ទៅក្នុងឧបករណ៍ និងដំណើរការការងាររបស់ពួកគេ។ វាក៏អាចអនុញ្ញាតឱ្យភ្នាក់ងារសរសេរកូដ AI កំណត់តម្លៃការងារខណៈពេលកំពុងជួយរចនាផងដែរ។",
+   "keyPoints": [
+    "API ថ្មីនេះមានឈ្មោះថា GetUsageLinesEstimatedCost។",
+    "វាអាចទទួលបន្ទាត់ប្រើប្រាស់រហូតដល់ 500 ក្នុងមួយសំណើ។",
+    "វាអាចរកបានដោយគ្មានការគិតថ្លៃបន្ថែមនៅក្នុងតំបន់ AWS ភាគច្រើន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Pricing Calculator 现在通过新 API 估算工作负载成本",
+   "summary": "AWS Pricing Calculator 推出了 GetUsageLinesEstimatedCost，这是一个可以通过单个 API 调用返回计划工作负载预估成本的新 API。用户可以在一个请求中发送最多 500 行使用量数据，并立即获得成本反馈，而无需将预估保存在账户中。该 API 支持三种费率类型：公共按需实例费率、折扣后费率以及包含 Savings Plans 和 Reserved Instances 的折扣后费率。",
+   "impact": "这个新 API 可以让开发人员将成本估算直接集成到他们自己的工具和工作流中。它还可能使 AI 编码助手能够在协助设计工作负载时对其进行定价。",
+   "keyPoints": [
+    "新 API 名为 GetUsageLinesEstimatedCost。",
+    "每个请求最多可接受 500 行使用量数据。",
+    "用户可以在三种费率类型中进行选择。",
+    "该功能在除特定区域外的所有 AWS 区域中普遍可用且不收取额外费用。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Pricing Calculator, 새로운 API를 통해 워크로드 비용 추산 기능 제공",
+   "summary": "AWS Pricing Calculator는 단일 API 호출로 계획된 워크로드의 예상 비용을 반환하는 새로운 API인 GetUsageLinesEstimatedCost를 출시했습니다. 사용자는 한 번의 요청으로 최대 500개의 사용량 라인을 전송하여 계정에 견적을 저장하지 않고도 즉시 비용을 확인할 수 있습니다. 이 API는 공개 온디맨드 요금, 할인 적용 요금, Savings Plans 및 Reserved Instances가 포함된 할인 적용 요금 등 세 가지 요금 유형을 지원합니다.",
+   "impact": "이 새로운 API를 통해 개발자는 비용 추산을 자체 도구와 워크플로에 직접 통합할 수 있습니다. 또한 AI 코딩 에이전트가 설계를 돕는 동안 워크로드의 가격을 책정하는 데 활용될 수 있습니다.",
+   "keyPoints": [
+    "새로운 API의 이름은 GetUsageLinesEstimatedCost입니다.",
+    "요청당 최대 500개의 사용량 라인을 보낼 수 있습니다.",
+    "세 가지 요금 유형 중에서 선택할 수 있습니다.",
+    "대부분의 AWS 리전에서 추가 비용 없이 일반적으로 사용할 수 있습니다."
+   ]
+  }
+ }
+}

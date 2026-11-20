@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "33f9b4d6cc8dbc16",
+ "contentHash": "bfe55d956d582b0c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:16:32.862Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon EventBridge Custom event bus now supports Webhook Events",
+   "summary": "Amazon EventBridge now supports Webhook Events on its enhanced Custom event bus, allowing SaaS applications, AI agents, and custom integrations to send events over HTTPS. Users no longer need to deploy and operate their own API endpoints or compute to receive webhooks and publish them to a bus. When a webhook event source is created, EventBridge provides a managed HTTPS URL and verifies requests using HMAC signatures, static tokens, or basic authentication.",
+   "impact": "This feature could simplify architectures by removing the need to manage custom API endpoints for receiving webhooks. Developers and technology users may benefit from reduced operational overhead and built-in request verification for event-driven applications.",
+   "keyPoints": [
+    "Amazon EventBridge Custom event bus supports Webhook Events for HTTPS event ingestion.",
+    "EventBridge provides a managed HTTPS URL and verifies requests using HMAC signatures, static tokens, or basic authentication.",
+    "Events received through webhooks are billed as standard Custom event bus ingress with no additional webhook charges.",
+    "The feature is available in all AWS Regions where the enhanced Custom event bus is supported."
+   ]
+  },
+  "km": {
+   "title": "Amazon EventBridge Custom event bus ឥឡូវនេះគាំទ្រ Webhook Events ហើយ",
+   "summary": "Amazon EventBridge ឥឡូវនេះគាំទ្រ Webhook Events សម្រាប់ Custom event bus ដែលបានកែលម្អ ដែលអនុញ្ញាតឱ្យកម្មវិធី SaaS ភ្នាក់ងារ AI និងការរួមបញ្ចូលផ្ទាល់ខ្លួនផ្ញើព្រឹត្តិការណ៍តាមរយៈ HTTPS ។ អ្នកលែងចាំបាច់ដាក់ពង្រាយនិងដំណើរការចំណុចប្រទាក់ API និងការគណនាផ្ទាល់ខ្លួនរបស់អ្នកដើម្បីទទួលបាន webhooks និងផ្សព្វផ្សាយវាទៅកាន់ bus របស់អ្នកទៀតឡើយ។ នៅពេលអ្នកបង្កើតប្រភពព្រឹត្តិការណ៍ webhook នៅលើ bus របស់អ្នក EventBridge ផ្តល់នូវ URL HTTPS ដែលបានគ្រប់គ្រង និងផ្ទៀងផ្ទាត់សំណើនិមួយៗដោយប្រើហត្ថលេខា HMAC តូកែនថេរ ឬការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវជាមូលដ្ឋាន។",
+   "impact": "មុខងារនេះអាចជួយសម្រួលដល់ស្ថាបត្យកម្មដោយលុបបំបាត់តម្រូវការក្នុងការគ្រប់គ្រងចំណុចប្រទាក់ API ផ្ទាល់ខ្លួនសម្រាប់ទទួល webhooks ។ អ្នកអភិវឌ្ឍន៍អាចទទួលបានអត្ថប្រយោជន៍ពីការកាត់បន្ថយបន្ទុកប្រតិបត្តិការ និងការផ្ទៀងផ្ទាត់សំណើដែលភ្ជាប់មកស្រាប់។",
+   "keyPoints": [
+    "Amazon EventBridge Custom event bus គាំទ្រ Webhook Events សម្រាប់ការទទួលព្រឹត្តិការណ៍តាមរយៈ HTTPS ។",
+    "EventBridge ផ្តល់នូវ URL HTTPS ដែលបានគ្រប់គ្រង និងផ្ទៀងផ្ទាត់សំណើដោយប្រើហត្ថលេខា HMAC តូកែនថេរ ឬការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវជាមូលដ្ឋាន។",
+    "ព្រឹត្តិការណ៍ដែលទទួលបានតាមរយៈ webhook ត្រូវបានគិតថ្លៃជាស្តង់ដារនៃការចូល Custom event bus ដោយគ្មានការគិតថ្លៃបន្ថែមសម្រាប់ webhook ឡើយ។",
+    "មុខងារនេះមាននៅលើគ្រប់តំបន់ AWS ទាំងអស់ដែល Custom event bus ដែលបានកែលម្អមាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon EventBridge Custom event bus 现已支持 Webhook Events",
+   "summary": "Amazon EventBridge 的增强型 Custom event bus 现已支持 Webhook Events，允许 SaaS 应用程序、AI 代理和自定义集成通过 HTTPS 发送事件。用户不再需要部署和运行自己的 API 端点和计算资源来接收 webhook 并将其发布到总线上。当在总线上创建 webhook 事件源时，EventBridge 会提供一个托管的 HTTPS URL，并使用 HMAC 签名、静态令牌或基本身份验证来验证每个请求。",
+   "impact": "此功能可以通过消除管理自定义 API 端点以接收 webhook 的需求来简化架构。开发人员和技术用户可能会受益于降低的操作开销以及内置的请求验证功能。",
+   "keyPoints": [
+    "Amazon EventBridge Custom event bus 支持通过 HTTPS 接收 Webhook Events。",
+    "EventBridge 提供托管的 HTTPS URL，并使用 HMAC 签名、静态令牌或基本身份验证验证请求。",
+    "通过 webhook 接收的事件按标准 Custom event bus 入站流量计费，webhook 不收取额外费用。",
+    "该功能在支持增强型 Custom event bus 的所有 AWS 区域中可用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon EventBridge Custom event bus, 이제 Webhook Events 지원",
+   "summary": "Amazon EventBridge는 향상된 Custom event bus에 대한 Webhook Events 지원을 추가하여 SaaS 응용 프로그램, AI 에이전트 및 사용자 지정 통합이 HTTPS를 통해 이벤트를 전송할 수 있도록 합니다. 사용자는 웹훅을 수신하고 버스에 게시하기 위해 자체 API 엔드포인트와 컴퓨팅을 배포하고 운영할 필요가 없습니다. 버스에 웹훅 이벤트 소스를 생성하면 EventBridge는 관리형 HTTPS URL을 제공하고 HMAC 서명, 정적 토큰 또는 기본 인증을 사용하여 각 요청을 검증합니다.",
+   "impact": "이 기능은 웹훅 수신을 위한 사용자 지정 API 엔드포인트 관리의 필요성을 없애 아키텍처를 단순화할 수 있습니다. 개발자와 기술 사용자는 운영 오버헤드 감소와 내장된 요청 검증의 이점을 얻을 수 있습니다.",
+   "keyPoints": [
+    "Amazon EventBridge Custom event bus가 HTTPS를 통한 이벤트 수신을 위해 Webhook Events를 지원합니다.",
+    "EventBridge는 관리형 HTTPS URL을 제공하며 HMAC 서명, 정적 토큰 또는 기본 인증을 사용하여 요청을 검증합니다.",
+    "웹훅을 통해 수신된 이벤트는 표준 Custom event bus 수신으로 청구되며 웹훅에 대한 추가 요금은 없습니다.",
+    "이 기능은 향상된 Custom event bus를 사용할 수 있는 모든 AWS 리전에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

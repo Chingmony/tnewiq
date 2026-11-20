@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e034245a1de34914",
+ "contentHash": "527fd2260dead941",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:14:12.514Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Glue Data Catalog introduces data quality monitoring for catalogs and databases",
+   "summary": "AWS Glue Data Catalog now features data quality monitoring powered by AWS Glue Data Quality, allowing users to evaluate tables at catalog scale from a single configuration. Users can define checks once for a catalog, database, or table to automatically evaluate all tables in scope on a chosen schedule. The feature uses built-in profiling options or custom DQDL rulesets to maintain standards and flags anomalous statistics after three runs. Results can be accessed via APIs or written to Apache Iceberg tables and Amazon S3.",
+   "impact": "This feature could help data engineering and security teams prevent bad data from reaching downstream consumers by automating quality checks across multiple tables. Developers and administrators may save time by avoiding manual, per-table setups and can ensure consistent standards through centralized configurations.",
+   "keyPoints": [
+    "Data quality monitoring evaluates tables at catalog scale from a single configuration.",
+    "Supports built-in profiling options or custom Data Quality Definition Language (DQDL) rulesets.",
+    "Evaluations can run on a schedule, upon table metadata changes, or with Apache Iceberg commits.",
+    "Available in all AWS Commercial, AWS GovCloud (US), and AWS China regions."
+   ]
+  },
+  "km": {
+   "title": "AWS Glue Data Catalog បញ្ចូលការតាមដានគុណភាពទិន្នន័យសម្រាប់កាតាឡុកនិងមូលដ្ឋានទិន្នន័យ",
+   "summary": "AWS Glue Data Catalog បានដាក់ឱ្យប្រើប្រាស់ការតាមដានគុណភាពទិន្នន័យដែលដំណើរការដោយ AWS Glue Data Quality ដែលអនុញ្ញាតឱ្យធ្វើការវាយតម្លៃតារាងក្នុងកម្រិតកាតាឡុកពីការកំណត់រចនាសម្ព័ន្ធតែមួយ។ អ្នកប្រើប្រាស់អាចកំណត់ការត្រួតពិនិត្យគុណភាពម្តងសម្រាប់កាតាឡុក មូលដ្ឋានទិន្នន័យ ឬតារាង ដើម្បីវាយតម្លៃតារាងទាំងអស់ដោយស្វ័យប្រវត្តិ។ លទ្ធផលអាចត្រូវបានចូលប្រើតាមរយៈ API របស់ AWS Glue Data Quality ឬសរសេរចូលទៅក្នុងតារាង Apache Iceberg និង Amazon S3។",
+   "impact": "មុខងារនេះអាចជួយក្រុមវិស្វកម្មទិន្នន័យការពារទិន្នន័យខូចមិនឱ្យហូរដល់អ្នកប្រើប្រាស់បន្តបន្ទាប់តាមរយៈការស្វ័យប្រវត្តិកម្មការត្រួតពិនិត្យគុណភាព។ អ្នកអភិវឌ្ឍន៍អាចចំណេញពេលវេលាដោយជៀសវាងការកំណត់រចនាសម្ព័ន្ធលើតារាងនីមួយៗដោយដៃ។",
+   "keyPoints": [
+    "ការតាមដានគុណភាពទិន្នន័យវាយតម្លៃតារាងក្នុងកម្រិតកាតាឡុកពីការកំណត់រចនាសម្ព័ន្ធតែមួយ។",
+    "គាំទ្រជម្រើស profiling ដែលមានស្រាប់ ឬសំណុំច្បាប់ DQDL ផ្ទាល់ខ្លួន។",
+    "លទ្ធផលអាចរកបានតាមរយៈ API ឬសរសេរទៅកាន់តារាង Apache Iceberg និង Amazon S3។",
+    "មានដាក់ឱ្យប្រើប្រាស់នៅក្នុងតំបន់ AWS Commercial, AWS GovCloud (US) និង AWS China ទាំងអស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Glue Data Catalog 推出针对目录和数据库的数据质量监控功能",
+   "summary": "AWS Glue Data Catalog 现已引入由 AWS Glue Data Quality 提供支持的数据质量监控功能，允许用户通过单一配置在目录规模下评估表。用户只需为目录、数据库或单张表定义一次数据 quality 检查，即可按所选时间表自动评估范围内的所有表。该功能支持内置分析选项或自定义 DQDL 规则集，并在经过三次运行后标记异常统计数据。结果可以通过 API 访问，或写入 AWS Glue Data Catalog 中的 Apache Iceberg 表以及 Amazon S3。",
+   "impact": "此功能可以帮助数据工程团队通过自动进行多表质量检查，防止不良数据流向下游消费者。开发人员和管理员可以避免逐个表进行手动设置，从而节省时间并确保标准一致。",
+   "keyPoints": [
+    "支持从单一配置对目录规模的表进行数据质量监控。",
+    "支持内置分析选项或自定义 DQDL 规则集。",
+    "可在计划时间表、元数据更改或 Apache Iceberg 提交时运行评估。",
+    "适用于所有 AWS 商业区、AWS GovCloud (US) 和 AWS 中国区域。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Glue Data Catalog, 카탈로그 및 데이터베이스를 위한 데이터 품질 모니터링 도입",
+   "summary": "AWS Glue Data Catalog는 AWS Glue Data Quality를 기반으로 하는 데이터 품질 모니터링을 도입하여 단일 구성에서 카탈로그 규모로 테이블을 평가할 수 있도록 지원합니다. 사용자는 카탈로그, 데이터베이스 또는 단일 테이블에 대해 데이터 품질 검사를 한 번 정의하여 범위 내의 모든 테이블을 선택한 주기에 따라 평가할 수 있습니다. 내장 프로파일링 옵션 또는 사용자 정의 DQDL 규칙 집합을 사용할 수 있으며, 세 번의 실행 후에는 비정상적인 통계를 플래그로 표시합니다. 결과는 API를 통해 액세스하거나 Apache Iceberg 테이블 및 Amazon S3에 기록할 수 있습니다.",
+   "impact": "이 기능은 데이터 엔지니어링 팀이 여러 테이블에 걸쳐 품질 검사를 자동화하여 잘못된 데이터가 다운스트림 소비자에게 도달하는 것을 방지하는 데 도움을 줄 수 있습니다. 개발자와 관리자는 테이블별 수동 설정을 피함으로써 시간을 절약하고 일관된 표준을 유지할 수 있습니다.",
+   "keyPoints": [
+    "단일 구성에서 카탈로그 규모로 테이블을 평가하는 데이터 품질 모니터링 제공.",
+    "내장 프로파일링 옵션 또는 사용자 정의 DQDL 규칙 집합 지원.",
+    "예약된 일정, 테이블 메타데이터 변경 또는 Apache Iceberg 커밋 시 평가 실행 가능.",
+    "모든 AWS Commercial, AWS GovCloud (US) 및 AWS 중국 리전에서 사용 가능."
+   ]
+  }
+ }
+}

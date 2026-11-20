@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "eaebba57ed4200fc",
+ "contentHash": "6fd4a21f3f28c978",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:13:02.682Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
+   "summary": "Signal is implementing screenshot blocks on iOS 27 and Android to prevent AI agents from reading private chats. The messaging app views these AI assistants as an existential threat to privacy. However, Signal acknowledges that its protective measures are currently incomplete, noting gaps such as macOS.",
+   "impact": "This update could help protect user privacy from automated AI readers, though incomplete coverage across platforms means users may still face exposure risks on unsupported systems like macOS.",
+   "keyPoints": [
+    "Signal is blocking screenshots on iOS 27 and Android.",
+    "The feature aims to stop AI agents like Siri AI, Gemini Intelligence, and Muse from reading private chats.",
+    "Signal describes AI agents as an existential threat to privacy.",
+    "Protections remain incomplete and currently exclude platforms like macOS."
+   ]
+  },
+  "km": {
+   "title": "Signal បិទការថតអេក្រង់នៅលើ iOS 27 និង Android ដើម្បីការពារភ្នាក់ងារ AI កុំឱ្យអានសារឯកជន",
+   "summary": "Signal កំពុងបិទការថតអេក្រង់នៅលើ iOS 27 និង Android ដើម្បីការពារភ្នាក់ងារ AI មិនให้อានការជជែកឯកជន។ កម្មវិធីនេះចាត់ទុកមុខងារ AI ទាំងនេះថាជាការគំរាមកំហែងដ៏ធ្ងន់ធ្ងរដល់ភាពឯកជន។ ទោះជាយ៉ាងណាក៏ដោយ Signal បានទទួលស្គាល់ថាការការពាររបស់ខ្លួននៅមិនទាន់ពេញលេញនៅឡើយ រួមទាំងនៅលើ macOS ផងដែរ។",
+   "impact": "ការផ្លាស់ប្តូរនេះអាចជួយការពារភាពឯកជនរបស់អ្នកប្រើប្រាស់ពីការអានដោយស្វ័យប្រវត្តិនៃ AI ប៉ុន្តែការការពារដែលមិនទាន់ពេញលេញអាចបណ្តាលឱ្យមានហានិភ័យនៅលើប្រព័ន្ធផ្សេងទៀត។",
+   "keyPoints": [
+    "Signal កំពុងបិទការថតអេក្រង់នៅលើ iOS 27 និង Android។",
+    "ចំណាត់ការនេះធ្វើឡើងដើម្បីការពារភ្នាក់ងារ AI ពីការអានការជជែកឯកជន។",
+    "Signal បានចាត់ទុកភ្នាក់ងារ AI ថាជាការគំរាមកំហែងដល់ភាពឯកជន។",
+    "ការការពារនៅតែមិនទាន់ពេញលេញ រួមទាំងនៅលើ macOS ផងដែរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Signal 在 iOS 27 和 Android 上屏蔽截图，阻止 AI 代理读取私聊",
+   "summary": "Signal 正在 iOS 27 和 Android 上屏蔽截图，以阻止诸如 Siri AI、Gemini Intelligence 和 Muse 等 AI 代理读取私聊内容。该应用程序将此称为对隐私的生存威胁，但承认其保护措施仍不完善，包括在 macOS 上。目前保护范围尚未涵盖所有平台。",
+   "impact": "此举可能会降低私聊内容被各类 AI 代理读取的隐私风险，但由于 macOS 等平台暂未受到完整保护，用户在部分设备上仍可能面临漏洞。",
+   "keyPoints": [
+    "Signal 在 iOS 27 和 Android 上拦截截图功能。",
+    "此举旨在防止 AI 代理读取私聊内容。",
+    "Signal 认为 AI 代理构成了对隐私的生存威胁。",
+    "保护措施尚不完整，且 macOS 暂未被覆盖。"
+   ]
+  },
+  "ko": {
+   "title": "Signal, 비공개 채팅 읽는 AI 에이전트 막기 위해 iOS 27 및 안드로이드에서 스크린샷 차단",
+   "summary": "Signal은 Siri AI, Gemini Intelligence, Muse 같은 AI 에이전트가 비공개 채팅을 읽지 못하도록 iOS 27 및 안드로이드에서 스크린샷을 차단하고 있습니다. 이 앱은 이를 프라이버시에 대한 실존적 위협으로 규정하고 있습니다. 다만 macOS를 포함하여 보호 기능이 아직 완전하지 않다고 인정했습니다.",
+   "impact": "이번 조치는 자동화된 AI 에이전트로부터 사용자의 비공개 대화를 보호하는 데 도움을 줄 수 있으나, macOS 등 일부 플랫폼에서는 여전히 보호 공백이 존재할 수 있습니다.",
+   "keyPoints": [
+    "Signal이 iOS 27 및 안드로이드에서 스크린샷을 차단하고 있습니다.",
+    "AI 에이전트가 비공개 채팅을 읽는 것을 막기 위한 조치입니다.",
+    "Signal은 AI 에이전트를 프라이버시에 대한 실존적 위협으로 보고 있습니다.",
+    "macOS 등을 포함해 현재 보호 조치는 완전히 적용되지 않은 상태입니다."
+   ]
+  }
+ }
+}

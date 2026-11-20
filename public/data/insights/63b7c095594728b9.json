@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "63b7c095594728b9",
+ "contentHash": "6bb34eae860a3153",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:12:33.199Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon DynamoDB vector search now supports new inline filter operators",
+   "summary": "Amazon DynamoDB vector search inline filters now support range comparisons, value lists, and logical operators alongside the equality operator. This allows users to narrow vector searches using numeric ranges, value lists, existence checks, and logical combinations like OR and NOT. The SearchVectors API applies these filters during the search so that every returned item matches the criteria.",
+   "impact": "Developers and technology users can now build more precise search queries, such as filtering retail products by price and brand or limiting retrieval-augmented generation results to specific document categories and dates. This may improve the relevance of search results and simplify application logic.",
+   "keyPoints": [
+    "Inline filters now support range comparisons (<, <=, >, >=, BETWEEN) on Number attributes.",
+    "The IN operator and attribute existence functions (attribute_exists, attribute_not_exists) are now supported.",
+    "Conditions can be combined using logical operators AND, OR, and NOT.",
+    "The new operators are available in all AWS Regions where DynamoDB vector search is available."
+   ]
+  },
+  "km": {
+   "title": "ការស្វែងរកវ៉ិចទ័ររបស់ Amazon DynamoDB ឥឡូវនេះគាំទ្រប្រតិបត្តិករតម្រងក្នុងជួរថ្មី",
+   "summary": "តម្រងក្នុងជួរស្វែងរកវ៉ិចទ័ររបស់ Amazon DynamoDB ឥឡូវនេះគាំទ្រការប្រៀបធៀបជួរ បញ្ជីតម្លៃ និងប្រតិបត្តិករឡូជីខលបន្ថែមលើប្រតិបត្តិករសមភាព។ នេះអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់កម្រិតការស្វែងរកវ៉ិចទ័រដោយប្រើជួរជាលេខ បញ្ជីតម្លៃ ការពិនិត្យមើលអត្ថិភាព និងការរួមបញ្ចូលគ្នាឡូជីខលដូចជា OR និង NOT។ API SearchVectors អនុវត្តតម្រងទាំងនេះក្នុងអំឡុងពេលស្វែងរក ដើម្បីឱ្យរាល់ធាតុដែលបានត្រឡប់មកវិញត្រូវគ្នា.",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចបង្កើតសំណួរស្វែងរកដែលមានភាពជាក់លាក់ជាងមុន ដូចជាការត្រងផលិតផលលក់រាយតាមតម្លៃ និងម៉ាក ឬការកំណត់លទ្ធផលជំនាន់ដែលបានពង្រីកការទាញយកទៅតាមប្រភេទឯកសារនិងកាលបរិច្ឆេទជាក់លាក់។ នេះអាចកែលម្អភាពទាក់ទងគ្នានៃលទ្ធផលស្វែងរក និងសម្រួលតក្កវិជ្ជាកម្មវិធី។",
+   "keyPoints": [
+    "តម្រងក្នុងជួរឥឡូវនេះគាំទ្រការប្រៀបធៀបជួរ (<, <=, >, >=, BETWEEN) នៅលើគុណលក្ខណៈជាលេខ។",
+    "ប្រតិបត្តិករ IN និងមុខងារអត្ថិភាពគុណលក្ខណៈ (attribute_exists, attribute_not_exists) ឥឡូវត្រូវបានគាំទ្រ។",
+    "លក្ខខណ្ឌអាចត្រូវបានផ្សំដោយប្រើប្រតិបត្តិករឡូជីខល AND, OR និង NOT។",
+    "ប្រតិបត្តិករថ្មីមាននៅក្នុងតំបន់ AWS ទាំងអស់ដែលការស្វែងរកវ៉ិចទ័រ DynamoDB មាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon DynamoDB 向量搜索现已支持新的内联筛选运算符",
+   "summary": "Amazon DynamoDB 向量搜索内联筛选器除了支持等值运算符外，现在还支持范围比较、值列表和逻辑运算符。这使您可以将向量搜索精确缩小到所需的项目。您现在可以按数字范围进行筛选、将属性与值列表进行匹配、检查属性是否存在，并使用 OR 和 NOT 组合条件。",
+   "impact": "开发人员和技术用户现在可以构建更精准的搜索查询，例如在价格范围内按品牌筛选零售产品，或将检索增强生成应用程序的结果限制在特定文档类别和日期之后。这可能会提高搜索结果的相关性并简化应用程序逻辑。",
+   "keyPoints": [
+    "内联筛选器现在对数字属性支持范围比较运算符（<、<=、>、>=、BETWEEN）。",
+    "支持 IN 运算符以及 attribute_exists 和 attribute_not_exists 函数。",
+    "可以使用逻辑运算符 AND、OR 和 NOT 组合条件。",
+    "新运算符在所有支持 DynamoDB 向量搜索的 AWS 区域中可用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon DynamoDB 벡터 검색, 이제 새로운 인라인 필터 연산자 지원",
+   "summary": "Amazon DynamoDB 벡터 검색 인라인 필터가 이제 등가 연산자 외에도 범위 비교, 값 목록 및 논리 연산자를 지원합니다. 이를 통해 사용자는 수치 범위, 값 목록, 존재 여부 확인 및 논리 조합을 사용하여 벡터 검색을 원하는 항목으로 정확하게 좁힐 수 있습니다. SearchVectors API는 검색 중에 필터를 적용하여 반환된 모든 항목이 조건에 일치하도록 합니다.",
+   "impact": "개발자와 기술 사용자는 가격 범위와 브랜드별로 소매 제품을 필터링하거나 검색증강생성 애플리케이션의 결과를 특정 문서 카테고리 및 날짜 이후로 제한하는 등 더 정밀한 검색 쿼리를 구축할 수 있습니다. 이는 검색 결과의 관련성을 높이고 애플리케이션 로직을 단순화할 수 있습니다.",
+   "keyPoints": [
+    "인라인 필터는 이제 숫자 속성에 대한 범위 비교(<, <=, >, >=, BETWEEN)를 지원합니다.",
+    "IN 연산자 및 속성 존재 여부 함수(attribute_exists, attribute_not_exists)가 지원됩니다.",
+    "논리 연산자 AND, OR, NOT을 사용하여 조건을 결합할 수 있습니다.",
+    "새로운 연산자는 DynamoDB 벡터 검색을 사용할 수 있는 모든 AWS 리전에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

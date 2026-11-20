@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0b4042589720c604",
+ "contentHash": "ef5d3490d5c07b12",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:17:12.286Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+   "summary": "Cybersecurity researchers have disclosed a previously unknown Android malware framework named Bazuka. Discovered by ThreatFabric in late October 2026, the malware includes large language model integration to help manage victims and control devices at scale.",
+   "impact": "Security teams and Android users may face new challenges as emerging malware frameworks incorporate large language models for scaling operations. This could change how threat actors manage attacks and interact with compromised devices.",
+   "keyPoints": [
+    "Bazuka is a newly discovered Android malware framework.",
+    "ThreatFabric found the malware in late October 2026.",
+    "The framework integrates large language models for victim management and control."
+   ]
+  },
+  "km": {
+   "title": "មេរោគ Android Bazuka ប្រើប្រាស់ស្រទាប់អេក្រង់ក្លែងក្លាយដើម្បីលាក់ការលួចព័ត៌មានសម្ងាត់ និងការគ្រប់គ្រងឧបករណ៍",
+   "summary": "អ្នកស្រាវជ្រាវសន្តិសុខតាមអ៊ីនធឺណិតបានបង្ហាញព័ត៌មានលម្អិតអំពីប្រព័ន្ធមេរោគ Android ថ្មីមួយដែលមិនធ្លាប់ស្គាល់ពីមុនមកហៅថា Bazuka ។ ក្រុមហ៊ុនសន្តិសុខទូរស័ព្ទចល័ត ThreatFabric បានឱ្យដឹងថាខ្លួនបានរកឃើញការគំរាមកំហែងនេះនៅចុងខែតុលា ឆ្នាំ២០២៦ ក្នុងអំឡុងពេលនៃការស៊ើបអង្កេតលើមេរោគធនាគារ NFC-relay ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងប្រឈមមុខនឹងបញ្ហាប្រឈមថ្មីៗនៅពេលដែលប្រព័ន្ធមេរោគថ្មីៗបញ្ចូលសមត្ថភាពបញ្ញាសិប្បនិម្មិតដើម្បីពង្រីកប្រតិបត្តិការ។ នេះអាចបណ្តាលឱ្យមានការផ្លាស់ប្តូរក្នុងការគ្រប់គ្រងការវាយប្រហាររបស់អ្នកគំរាមកំហែង។",
+   "keyPoints": [
+    "Bazuka គឺជាប្រព័ន្ធមេរោគ Android ដែលទើបរកឃើញថ្មី។",
+    "ThreatFabric បានរកឃើញមេរោគនេះនៅចុងខែតុលា ឆ្នាំ២០២៦។",
+    "ប្រព័ន្ធនេះរួមបញ្ចូលការរួមបញ្ចូលគ្នានៃគំរូភាសាខ្នាតធំសម្រាប់ការគ្រប់គ្រងជនរងគ្រោះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Bazuka Android 恶意软件利用伪造屏幕覆盖层隐藏凭证窃取和设备控制",
+   "summary": "网络安全研究人员披露了一个名为 Bazuka 的此前未知的 Android 恶意软件框架细节。荷兰移动安全公司 ThreatFabric 表示，其在 2026 年 10 月下旬对一项 NFC 中继银行木马的调查中发现了这一威胁。",
+   "impact": "随着新兴恶意软件框架整合大型语言模型以实现规模化运营，安全团队和技术用户可能会面临新的挑战。这可能会改变威胁行为者管理攻击以及与受损设备交互的方式。",
+   "keyPoints": [
+    "Bazuka 是一个新发现的 Android 恶意软件框架。",
+    "ThreatFabric 在 2026 年 10 月下旬发现了该威胁。",
+    "该框架集成了大型语言模型以进行受害者管理和大规模控制。"
+   ]
+  },
+  "ko": {
+   "title": "Bazuka 안드로이드 악성코드가 가짜 화면 오버레이를 사용하여 자격 증명 도용 및 기기 제어를 숨깁니다",
+   "summary": "사이버 보안 연구원들이 피해자 관리와 대규모 제어를 위한 거대 언어 모델 통합 기능을 제공하는 Bazuka라는 이름의 이전에 알려지지 않은 안드로이드 악성코드 프레임워크의 세부 정보를 공개했습니다. 네덜란드 모바일 보안 회사인 ThreatFabric은 2026년 10월 말 NFC 중계 뱅킹 트로이 목마를 조사하는 과정에서 이 위협을 발견했다고 밝혔습니다.",
+   "impact": "보안 팀과 기술 사용자는 새로운 악성코드 프레임워크가 대규모 운영을 위해 거대 언어 모델을 통합함에 따라 새로운 과제에 직면할 수 있습니다. 이는 위협 행위자가 공격을 관리하고 손상된 기기와 상호 작용하는 방식을 바꿀 수 있습니다.",
+   "keyPoints": [
+    "Bazuka는 새롭게 발견된 안드로이드 악성코드 프레임워크입니다.",
+    "ThreatFabric은 2026년 10월 말에 이 위협을 발견했습니다.",
+    "이 프레임워크는 피해자 관리 및 제어를 위해 거대 언어 모델을 통합합니다."
+   ]
+  }
+ }
+}

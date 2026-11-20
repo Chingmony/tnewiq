@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "070ca44fbcb0d5fa",
+ "contentHash": "4cdca078241b7c78",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:16:13.340Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS CloudFormation Service-Managed StackSets adds custom execution roles with nested stacks support",
+   "summary": "AWS CloudFormation StackSets now supports custom execution roles for service-managed stack sets, allowing users to scope permissions in target AWS accounts. This feature also enables the use of nested stacks, macros, and transforms in service-managed stack sets. Users can define an IAM role via a template, which StackSets creates and updates across accounts.",
+   "impact": "Security teams and developers could benefit from using custom execution roles to strictly limit permissions in each target AWS account. This capability may also help organizations securely deploy reusable templates and nested stacks across multiple accounts and Regions.",
+   "keyPoints": [
+    "Custom execution roles allow scoping of permissions used by StackSets in target AWS accounts.",
+    "Support is added for nested stacks, macros, and transforms in service-managed stack sets.",
+    "Users can define an IAM role template that StackSets creates and updates in every deployed account.",
+    "The feature is available at no additional charge in all commercial AWS Regions, AWS GovCloud (US) Regions, and China Regions."
+   ]
+  },
+  "km": {
+   "title": "AWS CloudFormation Service-Managed StackSets បន្ថែមតួនាទីប្រតិបត្តិផ្ទាល់ខ្លួនជាមួយការគាំទ្រ Stap ដាក់ក្នុងគ្នា",
+   "summary": "AWS CloudFormation StackSets ឥឡូវនេះគាំទ្រតួនាទីប្រតិបត្តិផ្ទាល់ខ្លួនសម្រាប់ stack sets ដែលគ្រប់គ្រងដោយសេវាកម្ម ដែលអនុញ្ញាតឱ្យកំណត់វិសាលភាពសិទ្ធិនៅក្នុងគោលដៅ AWS accounts។ លក្ខណៈពិសេសនេះក៏អនុញ្ញាតឱ្យប្រើប្រាស់ nested stacks, macros និង transforms នៅក្នុង service-managed stack sets ផងដែរ។ អ្នកប្រើប្រាស់អាចកំណត់ IAM role តាមរយៈ template ដែល StackSets នឹងបង្កើត និងធ្វើបច្ចុប្បន្នភាពនៅទូទាំង account នីមួយៗ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចទទួលបានអត្ថប្រយោជន៍ពីការប្រើប្រាស់តួនាទីប្រតិបត្តិផ្ទាល់ខ្លួនដើម្បីកំណត់សិទ្ធិយ៉ាងតឹងរ៉ឹងនៅក្នុង AWS account នីមួយៗ។ សមត្ថភាពនេះក៏អាចជួយអង្គការនានាក្នុងការដាក់ពង្រាយ template ដែលអាចប្រើប្រាស់ឡើងវិញ និង nested stacks ដោយសុវត្ថិភាពនៅទូទាំង accounts និង Regions ជាច្រើនផងដែរ។",
+   "keyPoints": [
+    "តួនាទីប្រតិបត្តិផ្ទាល់ខ្លួនអនុញ្ញាតឱ្យកំណត់វិសាលភាពសិទ្ធិដែលប្រើប្រាស់ដោយ StackSets នៅក្នុងគោលដៅ AWS accounts។",
+    "ការគាំទ្រត្រូវបានបន្ថែមសម្រាប់ nested stacks, macros និង transforms នៅក្នុង service-managed stack sets។",
+    "អ្នកប្រើប្រាស់អាចកំណត់ template របស់ IAM role ដែល StackSets បង្កើត និងធ្វើបច្ចុប្បន្នភាពនៅក្នុង account ដែលបានដាក់ពង្រាយនីមួយៗ។",
+    "មុខងារនេះមានដោយឥតគិតថ្លៃបន្ថែមនៅក្នុង commercial AWS Regions, AWS GovCloud (US) Regions និង China Regions ទាំងអស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS CloudFormation Service-Managed StackSets 添加了对嵌套堆栈支持的自定义执行角色",
+   "summary": "AWS CloudFormation StackSets 现在支持为服务托管的堆栈集使用自定义执行角色，这使您能够限定 StackSets 在每个目标 AWS 账户中使用的权限。此功能还允许在服务托管的堆栈集中使用嵌套堆栈、宏和转换，从而允许跨组织部署可重复使用的模板。用户可以通过模板定义 IAM 角色，StackSets 会在每个账户中创建并更新该角色。",
+   "impact": "安全团队和开发人员可以利用自定义执行角色来严格限制每个目标 AWS 账户中的权限。此功能还可能帮助组织在多个账户和区域中安全地部署可重用模板和嵌套堆栈。",
+   "keyPoints": [
+    "自定义执行角色允许限定 StackSets 在目标 AWS 账户中使用的权限。",
+    "增加了对服务托管堆栈集中的嵌套堆栈、宏和转换的支持。",
+    "用户可以提供一个定义 IAM 角色的模板，StackSets 会在部署到的每个账户中创建该角色并进行更新。",
+    "该功能在所有商业 AWS 区域、AWS GovCloud (US) 区域和中国区域均可免费使用。"
+   ]
+  },
+  "ko": {
+   "title": "AWS CloudFormation Service-Managed StackSets, 중첩 스택 지원을 포함한 사용자 지정 실행 역할 추가",
+   "summary": "AWS CloudFormation StackSets가 이제 서비스 관리형 스택 세트에 대한 사용자 지정 실행 역할을 지원하여 대상 AWS 계정에서 StackSets가 사용하는 권한을 지정할 수 있습니다. 이 기능을 통해 서비스 관리형 스택 세트에서 중첩 스택, 매크로 및 변환을 사용할 수 있습니다. 사용자는 템플릿을 통해 IAM 역할을 정의할 수 있으며, StackSets가 이를 각 계정에 생성하고 업데이트합니다.",
+   "impact": "보안 팀과 개발자는 사용자 지정 실행 역할을 사용하여 각 대상 AWS 계정의 권한을 엄격하게 제한할 수 있습니다. 이 기능은 또한 조직이 여러 계정과 리전에서 재사용 가능한 템플릿과 중첩 스택을 안전하게 배포하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "사용자 지정 실행 역할을 통해 대상 AWS 계정에서 StackSets가 사용하는 권한 범위를 설정할 수 있습니다.",
+    "서비스 관리형 스택 세트에서 중첩 스택, 매크로, 변환에 대한 지원이 추가되었습니다.",
+    "사용자는 IAM 역할을 정의하는 템플릿을 제공할 수 있으며, StackSets가 배포된 모든 계정에서 해당 역할을 생성하고 업데이트합니다.",
+    "이 기능은 모든 상용 AWS 리전, AWS GovCloud (US) 리전 및 중국 리전에서 추가 비용 없이 사용할 수 있습니다."
+   ]
+  }
+ }
+}

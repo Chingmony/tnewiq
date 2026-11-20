@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "001e6b6e613bbaaf",
+ "contentHash": "6746d2e26c8a4994",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T21:15:43.072Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "The most misunderstood graph in AI just got a major update",
+   "summary": "AI evaluation nonprofit METR has released an update to its time horizon plot, showing that while some AI capabilities improve exponentially, models lag behind in tasks requiring judgment compared to coding. The original plot measured AI progress by evaluating how long it took humans to complete tasks that models could also finish. The updated plot introduces more open-ended tasks and tasks estimated to take humans longer, helping address questions about how well verifiable task performance translates to harder-to-measure domains. In testing, current models fell short of human performance on tasks like designing new AI evaluations and scoring philosophical arguments.",
+   "impact": "This report could help developers and security teams better understand the actual limitations of current frontier models, particularly regarding judgment-heavy tasks. Technology users and researchers may need to adjust expectations around AI's ability to autonomously handle research and development without human oversight.",
+   "keyPoints": [
+    "METR updated its time horizon plot to include more open-ended tasks and longer tasks estimated for humans.",
+    "Models continue to improve rapidly on verifiable tasks like coding and math, but struggle with tasks requiring human judgment.",
+    "AI-designed evaluations created by advanced models were not considered useful by METR employees.",
+    "Experts welcome the creative shift in AI evaluation methods to test capabilities beyond standard verifiable benchmarks."
+   ]
+  },
+  "km": {
+   "title": "ក្រាហ្វដែលយល់ច្រឡំជាងគេក្នុងវិស័យ AI ទើបតែទទួលបានការអាប់ដេតដ៏ធំមួយ",
+   "summary": "របាយការណ៍ថ្មីមួយពីអង្គការមិនរកប្រាក់ចំណេញវាយតម្លៃ AI ឈ្មោះ METR បានរកឃើញថា សមត្ថភាព AI ខ្លះបន្តរីកចម្រើន ប៉ុន្តែម៉ូដែលមិនទាន់ល្អស្មើគ្នាចំពោះកិច្ចការដែលទាមទារការវិនិច្ឆ័យធៀបនឹងការសរសេរកូដនោះទេ។ ការអាប់ដេតនេះបានបន្ថែមភារកិច្ចដែលបើកចំហជាងមុន និងភារកិច្ចដែលត្រូវចំណាយពេលយូរសម្រាប់មនុស្ស។ នៅក្នុងការធ្វើតេស្ត ម៉ូដែលកម្រិតខ្ពស់បានធ្លាក់ចុះខ្សោយជាងការអនុវត្តរបស់មនុស្សលើភារកិច្ចដូចជាការរចនាការវាយតម្លៃ AI ថ្មីៗ។",
+   "impact": "របាយការណ៍នេះអាចជួយឱ្យក្រុមអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខយល់កាន់តែច្បាស់អំពីដែនកំណត់នៃម៉ូដែលបច្ចុប្បន្ន។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវកែសម្រួលការរំពឹងទុកជុំវិញសមត្ថភាពរបស់ AI ក្នុងការគ្រប់គ្រងការស្រាវជ្រាវដោយខ្លួនឯង។",
+   "keyPoints": [
+    "METR បានអាប់ដេតគំនូសតាងពេលវេលារបស់ខ្លួនដើម្បីបញ្ចូលភារកិច្ចបើកចំហបន្ថែមទៀត។",
+    "ម៉ូដែលបន្តរីកចម្រើនលើកិច្ចការដែលអាចផ្ទៀងផ្ទាត់បាន ប៉ុន្តែពិបាកក្នុងការវិនិច្ឆ័យ។",
+    "ការវាយតម្លៃ AI ដែលរចនាឡើងដោយម៉ូដែលកម្រិតខ្ពស់មិនត្រូវបានគេចាត់ទុកថាល្អគ្រប់គ្រាន់ទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "人工智能领域中最被误解的图表刚刚迎来了重大更新",
+   "summary": "人工智能评估非营利组织METR的一份新报告发现，一些人工智能能力继续呈指数级轨迹改善，但也表明模型在需要判断力的任务上不如在编程方面那么出色。该报告更新了该组织的时间地平线图表，其中添加了更多开放式任务以及预计人类需要更长时间才能完成的任务。在测试中，最先进的模型在设计新的AI评估和评分哲学论点等任务上没有达到人类的表现。",
+   "impact": "该报告可能会帮助开发人员和安全团队更好地了解当前模型的实际局限性，特别是在需要判断力的任务方面。技术用户和研究人员可能需要调整对AI在没有人类监督的情况下自主处理研发能力的期望。",
+   "keyPoints": [
+    "METR更新了时间地平线图表，纳入了更多更模糊、更依赖判断的任务。",
+    "模型在编程和数学等可验证任务上表现出色，但在定义不太明确的任务上表现不佳。",
+    "先进模型设计的AI评估未能达到METR员工认为对研究有用的标准。",
+    "专家对METR将新型评估纳入其工作的做法表示赞赏。"
+   ]
+  },
+  "ko": {
+   "title": "AI에서 가장 오해받던 그래프에 대규모 업데이트가 적용되었습니다",
+   "summary": "AI 평가 비영리 단체인 METR의 새로운 보고서에 따르면 일부 AI 능력은 지수 함수적 궤적을 따라 계속 향상되고 있으나, 모델은 코딩에 비해 판단력이 필요한 작업에서는 그만큼 뛰어나지 않은 것으로 나타났습니다. 이번 업데이트된 플롯에는 더 개방적이고 인간이 완료하는 데 훨씬 더 오래 걸릴 것으로 예상되는 작업들이 추가되었습니다. 테스트에서 가장 발전된 모델들은 새로운 AI 평가 설계 및 철학적 논점 채점과 같은 작업에서 인간의 수행 능력에 미치지 못했습니다.",
+   "impact": "이번 보고서는 개발자와 보안 팀이 현재 최첨단 모델의 실제 한계, 특히 판단력이 요구되는 작업을 더 잘 이해하는 데 도움을 줄 수 있습니다. 기술 사용자 및 연구원들은 인간의 감독 없이 AI가 연구 개발을 자율적으로 처리하는 능력에 대한 기대를 조정해야 할 수 있습니다.",
+   "keyPoints": [
+    "METR은 AI R&D와 관련된 더 모호하고 판단이 필요한 작업을 포함하도록 시간 지평 플롯을 업데이트했습니다.",
+    "모델들은 코딩과 같은 검증 가능한 작업에서는 뛰어나지만 정의가 덜 명확한 작업에서는 부족함을 보였습니다.",
+    "최첨단 모델이 설계한 AI 평가는 METR 직원들의 연구에 유용하다고 여겨질 만큼 충분히 좋지 않았습니다.",
+    "전문가들은 METR이 작업에 새로운 유형의 평가를 통합하는 것에 대해 긍정적으로 평가하고 있습니다."
+   ]
+  }
+ }
+}
