@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d5229d57df73f1ca",
+ "contentHash": "53e26dc75a8c13df",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T13:06:42.421Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Harvard Researchers: AI Programming's Current Bottleneck is Code Review",
+   "summary": "A working paper by two PhD candidates from Harvard analyzed the real-world effects of AI programming agents using a sample of 718 companies and 725,938 employees. The study found that while metrics like lines of code per person, number of commits, and pull requests increased after adopting AI agents, the actual work completion measured through Jira did not improve proportionally.",
+   "impact": "This suggests that adopting AI programming tools may lead to an increase in code generation without a corresponding increase in completed work. Development and security teams might need to focus more on managing the code review bottleneck created by higher volumes of generated code.",
+   "keyPoints": [
+    "The study analyzed 718 companies and 725,938 employees.",
+    "Lines of code per person per month increased from 5,017 to 6,511.",
+    "Submissions grew by 20 percent and Pull Requests increased by 23 percent.",
+    "Jira data indicated that actual work completion did not see the same positive growth."
+   ]
+  },
+  "km": {
+   "title": "អ្នកស្រាវជ្រាវសាកលវិទ្យាល័យ Harvard៖ កតបករណ៍ពិតប្រាកដនៃការសរសេរកូដ AI គឺការពិនិត្យកូដ (Code Review)",
+   "summary": "និស្សិតបណ្ឌិតពីររូបនៅសាកលវិទ្យាល័យ Harvard បានធ្វើការសិក្សាលើភ្នាក់ងារសរសេរកូដ AI នៅក្នុងក្រុមហ៊ុនចំនួន 718 និងបុគ្គលិកចំនួន 725,938 នាក់។ ការសិក្សាបានរកឃើញថា ទោះបីជាចំនួនជួរកូដ ការស្នើសុំ និងការបញ្ជូនបន្តបានកើនឡើងក៏ដោយ ក៏បរិមាណការងារដែលបានសម្រេចពិតប្រាកដមិនបានកើនឡើងតាមនោះដែរ។",
+   "impact": "បញ្ហានេះអាចបង្ហាញថាការប្រើប្រាស់ឧបករណ៍ AI អាចបង្កើនបរិមាណកូដបានយ៉ាងច្រើន ប៉ុន្តែអាចបង្កើតឱ្យមានការកកស្ទះនៅពេលពិនិត្យកូដសម្រាប់ក្រុមអភិវឌ្ឍន៍។",
+   "keyPoints": [
+    "ការសិក្សានេះបានផ្អែកលើក្រុមហ៊ុនចំនួន 718 និងបុគ្គលិក 725,938 នាក់។",
+    "ចំនួនជួរកូដម្នាក់ៗក្នុងមួយខែបានកើនឡើងពី 5,017 ដល់ 6,511។",
+    "ការដាក់ស្នើបានកើនឡើង 20% និង Pull Request បានកើនឡើង 23%。",
+    "ទិន្នន័យពី Jira បង្ហាញថាការងារពិតប្រាកដមិនទាន់ត្រូវបានបញ្ចប់ដូចការរំពឹងទុក។"
+   ]
+  },
+  "zh-CN": {
+   "title": "哈佛大学研究人员：AI 编程目前的瓶颈是“Code Review”",
+   "summary": "哈佛大学两位博士候选人通过一份工作论文分析了 AI 编程 Agent 的真实效果，样本涵盖 718 家公司和 725,938 名员工。研究发现，在使用 AI 编程 Agent 后，人均每月新增代码行数、提交数和 Pull Request 均出现了增长，但通过 Jira 等渠道衡量的实际工作完成情况并没有相应提升。",
+   "impact": "这表明引入 AI 编程工具可能会导致代码产出量增加，但同时也可能带来更重的审查负担。开发和安全团队或许需要关注生成代码增多所带来的瓶颈问题。",
+   "keyPoints": [
+    "样本来源于 718 家公司和 725,938 名员工。",
+    "人均每月新增代码行数从 5017 增加到 6511。",
+    "提交数增长 20%，Pull Request 增长 23%。",
+    "Jira 数据显示实际工作并未相应完成。"
+   ]
+  },
+  "ko": {
+   "title": "하버드 대학 연구원들: AI 프로그래밍의 현재 병목 현상은 'Code Review'이다",
+   "summary": "하버드 대학의 박사과정 학생 두 명이 718개 기업과 725,938명의 직원을 대상으로 AI 프로그래밍 에이전트의 실제 효과를 분석한 워킹페이퍼를 발표했다. 연구에 따르면 AI 에이전트를 도입한 후 인당 월 평균 코드 줄 수, 커밋 수, 풀 리퀘스트는 증가했으나 실제 완료된 업무량은 그만큼 늘어나지 않았다.",
+   "impact": "이러한 결과는 AI 도구 도입으로 코드 생성량은 늘어나지만, 실제 완료되는 업무와의 괴리가 생길 수 있음을 시사한다. 개발 및 보안 팀은 증가한 코드 양으로 인한 리뷰 병목 현상에 대비해야 할 수 있다.",
+   "keyPoints": [
+    "718개 기업과 725,938명의 직원을 대상으로 분석을 진행했다.",
+    "인당 월 평균 코드 줄 수가 5,017줄에서 6,511줄로 증가했다.",
+    "제출 수는 20%, 풀 리퀘스트는 23% 증가했다.",
+    "Jira 데이터에 따르면 실제 완료된 업무는 비례해서 늘어나지 않았다."
+   ]
+  }
+ }
+}

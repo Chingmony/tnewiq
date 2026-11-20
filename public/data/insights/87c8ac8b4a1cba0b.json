@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "articleId": "87c8ac8b4a1cba0b",
+ "contentHash": "c8c8f7516584fd59",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T13:05:59.713Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "qData Open Source Data Middle Platform v1.6.8 Released: Supports Associating Sensitive Levels with Data Assets and Improves Data Classification and Grading Management",
+   "summary": "qData open source data middle platform version 1.6.8 has been released, introducing updates centered around field sensitivity management. The asset field editing interface now supports sensitive level binding. These updates address scenarios involving customer information maintenance and changing classification requirements.",
+   "impact": "This release could improve asset maintenance efficiency when modifying field descriptions or updating classification requirements. Developers and system users may benefit from better management of sensitive data fields like phone numbers and customer IDs.",
+   "keyPoints": [
+    "Released qData open source data middle platform v1.6.8.",
+    "Asset field editing interface now supports sensitive level binding.",
+    "Improves data classification and grading management.",
+    "Updates address message notification, classification, project roles, and field attribute maintenance."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យដំណើរការ qData កំណែអូសស័រកូដ v1.6.8៖ គាំទ្រការភ្ជាប់កម្រិតរសើបជាមួយទ្រព្យសកម្មទិន្នន័យ និងកែលម្អការគ្រប់គ្រងការចាត់ថ្នាក់ និងកម្រិតទិន្នន័យ",
+   "summary": "qData កំណែអូសស័រកូដ v1.6.8 ត្រូវបានដាក់ឱ្យដំណើរការ ដោយផ្តោតលើការអាប់ដេតជុំវិញការគ្រប់គ្រងវាលទិន្នន័យរសើប។ ចំណុចប្រទាក់កែសម្រួលវាលទ្រព្យសកម្មឥឡូវនេះគាំទ្រការភ្ជាប់កម្រិតរសើប។ ការអាប់ដេតទាំងនេះដោះស្រាយសេណារីយ៉ូដែលពាក់ព័ន្ធនឹងការថែទាំព័ត៌មានអតិថិជន និងការផ្លាស់ប្តូរតម្រូវការចាត់ថ្នាក់។",
+   "impact": "ការចេញផ្សាយនេះអាចបង្កើនប្រសិទ្ធភាពនៃការថែទាំទ្រព្យសកម្មនៅពេលកែប្រែការពិពណ៌នាវាល ឬតម្រូវការចាត់ថ្នាក់។ អ្នកប្រើប្រាស់ប្រព័ន្ធអាចទទួលបានអត្ថប្រយោជន៍ពីការគ្រប់គ្រងកាន់តែប្រសើរឡើងនៃវាលទិន្នន័យរសើបដូចជាលេខទូរស័ព្ទ។",
+   "keyPoints": [
+    "បានបញ្ចេញ qData កំណែអូសស័រកូដ v1.6.8។",
+    "ចំណុចប្រទាក់កែសម្រួលវាលទ្រព្យសកម្មឥឡូវនេះគាំទ្រការភ្ជាប់កម្រិតរសើប។",
+    "កែលម្អការគ្រប់គ្រងការចាត់ថ្នាក់ និងកម្រិតទិន្នន័យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "qData 数据中台开源版 v1.6.8 发布：支持敏感等级关联数据资产，完善数据分类分级管理",
+   "summary": "qData 数据中台开源版 v1.6.8 正式发布，围绕字段敏感等级管理等场景进行更新。资产字段编辑界面现在支持敏感等级绑定，优化了客户信息维护时的效率。此次更新还涉及消息通知、分类、项目角色及其他属性的管理。",
+   "impact": "该版本可能会提升资产维护效率，特别是在修改字段说明或应对分级要求变化时。系统用户和开发人员可以更便捷地管理和维护手机号、客户编号等敏感字段。",
+   "keyPoints": [
+    "发布了 qData 数据中台开源版 v1.6.8。",
+    "资产字段编辑界面支持敏感等级绑定。",
+    "完善了数据分类分级管理及相关场景。"
+   ]
+  },
+  "ko": {
+   "title": "qData 데이터 미들웨어 오픈소스 버전 v1.6.8 출시: 민감 등급과 데이터 자산 연동 지원 및 데이터 분류 및 등급 관리 고도화",
+   "summary": "qData 데이터 미들웨어 오픈소스 버전 v1.6.8이 출시되었으며, 필드 민감 등급 관리 시나리오를 중심으로 업데이트되었습니다. 자산 필드 편집 인터페이스는 이제 민감 등급 바인딩을 지원합니다. 이를 통해 고객 정보 유지보수 및 분류 요구사항 변경에 대응할 수 있습니다.",
+   "impact": "이번 릴리스는 필드 설명 수정이나 등급 요구사항 변경 시 자산 유지보수 효율성을 향상시킬 수 있습니다. 기술 사용자 및 시스템 관리자는 전화번호나 고객 번호 등 민감한 필드를 더 효과적으로 관리하는 데 도움을 받을 수 있습니다.",
+   "keyPoints": [
+    "qData 데이터 미들웨어 오픈소스 버전 v1.6.8 출시.",
+    "자산 필드 편집 인터페이스에서 민감 등급 바인딩 지원.",
+    "데이터 분류 및 등급 관리 기능 개선."
+   ]
+  }
+ }
+}

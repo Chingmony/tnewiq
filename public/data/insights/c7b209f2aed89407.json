@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c7b209f2aed89407",
+ "contentHash": "9a870cacf28c405f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T13:01:07.126Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+   "summary": "A vulnerability in the Linux kernel hypervisor KVM, tracked as CVE-2026-99312, allowed researchers to read about 127 GB of a cloud server's memory from a virtual machine on DigitalOcean. The issue affects hosts equipped with AMD processors and nested virtualization enabled. On shared servers, this exposed memory could potentially include data from other customers' virtual machines.",
+   "impact": "This flaw could pose significant security risks for cloud environments and shared servers by potentially exposing sensitive customer data across virtual machines. Security teams and administrators should ensure that patched kernels are applied to mitigate potential unauthorized memory access.",
+   "keyPoints": [
+    "Tracked as CVE-2026-99312 in the Linux kernel KVM hypervisor.",
+    "Allowed researchers to read approximately 127 GB of memory from inside a VM.",
+    "Affects hosts with AMD processors and nested virtualization enabled.",
+    "Fixed kernels have been shipped to address the issue."
+   ]
+  },
+  "km": {
+   "title": "נקോខ្សោយ Linux KVM CVE-2026-99312 អនុញ្ញាតឱ្យ VM ភ្ញៀវចូលប្រើអង្គចងចាំម៉ាស៊ីននៅលើម៉ាស៊ីន AMD",
+   "summary": "ពិការភាពមួយនៅក្នុង KVM ដែលជា hypervisor នៅក្នុង kernel របស់ Linux បានអនុញ្ញាតឱ្យអ្នកស្រាវជ្រាវអានអង្គចងចាំប្រហែល 127 GB នៃម៉ាស៊ីនមេក្លោដពីខាងក្នុងម៉ាស៊ីននិម្មិតផ្ទាល់ខ្លួនរបស់ពួកគេនៅលើ DigitalOcean។ ពិការភាពនេះដែលត្រូវបានតាមដានជា CVE-2026-99312 ប៉ះពាល់តែម៉ាស៊ីនដែលមានប្រព័ន្ធដំណើរការ AMD និងបើកដំណើរការ virtualization បញ្ចូលគ្នាប៉ុណ្ណោះ។ kernels ដែលបានជួសជុលត្រូវបានចេញផ្សាយ។",
+   "impact": "បញ្ហានេះអាចប៉ះពាល់ដល់សុវត្ថិភាពនៃបរិយាកាសក្លោដ និងម៉ាស៊ីនមេដែលបានចែករំលែកដោយអាចបង្ហាញទិន្នន័យអតិថិជនផ្សេងទៀត។ ក្រុមសន្តិសុខគួរតែធានាថា kernels ដែលបានជួសជុលត្រូវបានដំឡើង។",
+   "keyPoints": [
+    "តាមដានជា CVE-2026-99312 នៅក្នុង Linux kernel KVM hypervisor។",
+    "អនុញ្ញាតឱ្យអានអង្គចងចាំប្រហែល 127 GB ពីខាងក្នុង VM។",
+    "ប៉ះពាល់ដល់ម៉ាស៊ីនដែលមានប្រព័ន្ធដំណើរការ AMD និងការ virtualization បញ្ចូលគ្នា។",
+    "kernels ដែលបានជួសជុលត្រូវបានចេញផ្សាយរួចហើយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Linux KVM 漏洞 CVE-2026-99312 允许来宾虚拟机访问 AMD 主机上的宿主机内存",
+   "summary": "Linux 内核中内置的虚拟机监控程序 KVM 存在一个漏洞，被追踪为 CVE-2026-99312，该漏洞允许研究人员在 DigitalOcean 的虚拟机内部读取云服务器大约 127 GB 的内存。在共享服务器上，该内存可能包含其他客户的虚拟机数据。该漏洞仅影响启用了嵌套虚拟化且搭载 AMD 处理器的宿主机，目前已发布修复内核。",
+   "impact": "此漏洞可能会对云环境和共享服务器的安全团队及用户造成风险，因为它可能泄露其他客户虚拟机的敏感数据。相关人员应确保部署已修复的内核以防范潜在的内存访问威胁。",
+   "keyPoints": [
+    "漏洞编号为 CVE-2026-99312，存在于 Linux 内核 KVM 中。",
+    "允许从虚拟机内部读取约 127 GB 的云服务器内存。",
+    "仅影响搭载 AMD 处理器且启用嵌套虚拟化的主机。",
+    "官方已发布修复后的内核版本。"
+   ]
+  },
+  "ko": {
+   "title": "Linux KVM 취약점 CVE-2026-99312, AMD 호스트에서 게스트 VM이 호스트 메모리에 접근하도록 허용",
+   "summary": "Linux 커널에 내장된 하이퍼바이저인 KVM의 결함으로 인해 연구원들이 DigitalOcean의 가상 머신 내부에서 클라우드 서버 메모리의 약 127 GB를 읽을 수 있었습니다. CVE-2026-99312로 추적되는 이 취약점은 AMD 프로세서가 탑재되고 중첩 가상화가 활성화된 호스트에만 영향을 미칩니다. 이미 수정된 커널이 배포되었습니다.",
+   "impact": "이 취약점은 다른 고객의 가상 머신 데이터가 노출될 수 있으므로 클라우드 환경 및 공유 서버의 보안 팀과 사용자에게 위험을 초래할 수 있습니다. 관리자는 잠재적인 무단 메모리 접근을 방지하기 위해 패치된 커널을 적용해야 합니다.",
+   "keyPoints": [
+    "Linux 커널 KVM 하이퍼바이저의 CVE-2026-99312 취약점.",
+    "가상 머신 내부에서 클라우드 서버 메모리 약 127 GB를 읽는 것을 허용함.",
+    "AMD 프로세서 및 중첩 가상화가 활성화된 호스트에만 영향.",
+    "문제 해결을 위해 수정된 커널이 배포됨."
+   ]
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e42c490f4ccfd38b",
+ "contentHash": "a0e773bedfbbcd77",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T13:08:45.082Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Announcing the general availability of a new AWS Local Zone in Bogotá, Colombia",
+   "summary": "AWS has announced the general availability of a new AWS Local Zone in Bogotá, Colombia. This infrastructure deployment brings AWS compute, storage, and networking closer to metropolitan areas to support applications requiring single-digit millisecond latency. The new Local Zone uses the same APIs and tools as AWS Regions and supports various AWS services and instance types.",
+   "impact": "Developers and technology users building applications that require low latency, such as real-time gaming and financial transaction processing, may benefit from deploying workloads closer to end users in Colombia.",
+   "keyPoints": [
+    "A new AWS Local Zone is now generally available in Bogotá, Colombia.",
+    "It supports workloads requiring single-digit millisecond latency like real-time gaming and live video streaming.",
+    "It provides Amazon EC2, Amazon S3, Amazon EBS, Amazon ECS, Amazon EKS, Amazon VPC, AWS Direct Connect, and Application Load Balancer.",
+    "The zone can be enabled from the Regions and Zones tab in the AWS Global View or via API."
+   ]
+  },
+  "km": {
+   "title": "ការប្រកាសដាក់ឱ្យប្រើប្រាស់ជាទូទៅនូវ AWS Local Zone ថ្មីមួយនៅក្នុងទីក្រុង Bogotá ប្រទេសកូឡុំប៊ី",
+   "summary": "AWS បានប្រកាសដាក់ឱ្យប្រើប្រាស់ជាទូទៅនូវ AWS Local Zone ថ្មីមួយនៅក្នុងទីក្រុង Bogotá ប្រប្រទេសកូឡុំប៊ី ដើម្បីនាំយកហេដ្ឋារចនាសម្ព័ន្ធ AWS ឱ្យកាន់តែជិតអ្នកប្រើប្រាស់សម្រាប់កម្មវិធីដែលទាមទារភាពយឺតយ៉ាវទាបក្នុងកម្រិតមិល្លីវិនាទី។ ការដាក់ពង្រាយនេះដាក់កុំព្យូទ័រ ទំហំផ្ទុក និងប្រព័ន្ធបណ្តាញឱ្យនៅជិតតំបន់ទីប្រជុំជនដោយប្រើ API និងឧបករណ៍ដូចគ្នាទៅនឹង AWS Regions ដែរ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានប្រយោជន៍ពីការដាក់ពង្រាយបន្ទុកការងារឱ្យកាន់តែជិតអ្នកប្រើប្រាស់ចុងក្រោយសម្រាប់កម្មវិធីដូចជាហ្គេមផ្ទាល់ និងដំណើរការពាណិជ្ជកម្មហិរញ្ញវត្ថុ។",
+   "keyPoints": [
+    "AWS Local Zone ថ្មីមួយឥឡូវនេះមានដាក់ឱ្យប្រើប្រាស់ជាទូទៅនៅក្នុងទីក្រុង Bogotá ប្រទេសកូឡុំប៊ី។",
+    "វាគាំទ្របន្ទុកការងារដូចជាហ្គេមផ្ទាល់ ការបញ្ជូនវីដេអូផ្ទាល់ និងការประมวลผลផ្សេងៗ។",
+    "វាគាំទ្រសេវាកម្ម AWS រួមមាន Amazon EC2, Amazon S3, Amazon EBS និងសេវាកម្មជាច្រើនទៀត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "宣布在哥伦比亚波哥大推出全新 AWS Local Zone 并全面可用",
+   "summary": "AWS 宣布在哥伦比亚波哥大推出全新的 AWS Local Zone 并实现全面可用，将 AWS 基础设施带给离终端用户更近的地方，以满足需要个位数毫秒级延迟的应用。该 Local Zone 使用与 AWS Region 相同的 API 和工具，将计算、存储和网络服务部署在更靠近大都市区域的地方。",
+   "impact": "开发者和技术用户可以通过将工作负载部署在离哥伦比亚终端用户更近的地方，来优化需要实时游戏、直播和金融交易处理等低延迟特性的应用程序。",
+   "keyPoints": [
+    "哥伦比亚波哥大的新 AWS Local Zone 现已全面可用。",
+    "支持实时游戏、直播视频流、医学成像和金融交易处理等工作负载。",
+    "支持 Amazon EC2、Amazon S3、Amazon EBS、Amazon ECS、Amazon EKS、Amazon VPC、AWS Direct Connect 和 Application Load Balancer。",
+    "可以通过 AWS Global View 的 Regions 和 Zones 选项卡或通过 API 启用。"
+   ]
+  },
+  "ko": {
+   "title": "콜롬비아 보고타에 새로운 AWS Local Zone 정식 출시 발표",
+   "summary": "AWS는 콜롬비아 보고타에 새로운 AWS Local Zone이 정식 출시되었다고 발표했으며, 한 자리 수 밀리초의 지연 시간이 필요한 애플리케이션을 위해 AWS 인프라를 최종 사용자 더 가깝게 제공합니다. 이 새로운 Local Zone은 AWS Region과 동일한 API 및 도구를 사용하여 대도시 지역에 더 가까이 컴퓨팅, 스토리지 및 네트워킹을 배포합니다.",
+   "impact": "개발자와 기술 사용자는 콜롬비아의 최종 사용자에게 더 가깝게 워크로드를 배포함으로써 실시간 게임 및 금융 거래 처리와 같이 낮은 지연 시간이 필요한 애플리케이션 성능을 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "콜롬비아 보고타에 새로운 AWS Local Zone이 정식 출시되었습니다.",
+    "실시간 게임, 라이브 비디오 스트리밍, 금융 거래 처리 등의 워크로드를 지원합니다.",
+    "Amazon EC2, Amazon S3, Amazon EBS, Amazon ECS, Amazon EKS, Amazon VPC, AWS Direct Connect, Application Load Balancer를 지원합니다.",
+    "AWS Global View의 Regions and Zones 탭 또는 API를 통해 활성화할 수 있습니다."
+   ]
+  }
+ }
+}

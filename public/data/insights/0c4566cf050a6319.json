@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0c4566cf050a6319",
+ "contentHash": "218f8ef131637186",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T13:09:23.003Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "OpenAI uses Codex to automatically diagnose and write fixes for ChatGPT performance issues",
+   "summary": "OpenAI has revealed an internal automated system called Performance Factory that uses Codex to identify the causes of performance degradation in ChatGPT and assist with fixes. When a performance issue occurs, an AI agent analyzes logs and code to find the cause, writes a fix, and verifies whether the issue is resolved after deployment. OpenAI disclosed the development process and operational methods of this Codex-based internal performance management system.",
+   "impact": "This automated approach could streamline troubleshooting and resolution of performance issues for development and engineering teams. It may also improve overall reliability and response times for large-scale AI services.",
+   "keyPoints": [
+    "OpenAI revealed an internal automated system named Performance Factory powered by Codex.",
+    "The system detects performance degradation, analyzes logs and code, and writes fixes.",
+    "An AI agent verifies whether performance issues are resolved after deployment."
+   ]
+  },
+  "km": {
+   "title": "OpenAI ប្រើប្រាស់ Codex ដើម្បីវិភាគ និងសរសេរដំណោះស្រាយដោយស្វ័យប្រវត្តិសម្រាប់បញ្ហាសមត្ថភាពរបស់ ChatGPT",
+   "summary": "OpenAI បានបង្ហាញប្រព័ន្ធស្វ័យប្រវត្តិកម្មខាងក្នុងមួយឈ្មោះថា Performance Factory ដែលប្រើប្រាស់ Codex ដើម្បីកំណត់រកមូលហេតុនៃការថយចុះសមត្ថភាពរបស់ ChatGPT និងជួយដល់ការកែតម្រូវ។ នៅពេលដែលបញ្ហាសមត្ថភាពកើតឡើង ភ្នាក់ងារ AI ធ្វើការវិភាគលើកំណត់ហេតុនិងកូដដើម្បីរកមូលហេតុ សរសេរដំណោះស្រាយ និងផ្ទៀងផ្ទាត់ថាតើបញ្ហាត្រូវបានដោះស្រាយឬអត់បន្ទាប់ពីដាក់ឱ្យប្រើប្រាស់។ OpenAI បានបង្ហាញពីដំណើរការអភិវឌ្ឍន៍ និងវិធីសាស្ត្រប្រតិបត្តិការនៃប្រព័ន្ធគ្រប់គ្រងសមត្ថភាពខាងក្នុងដែលផ្អែកលើ Codex នេះ។",
+   "impact": "វិធីសាស្ត្រស្វ័យប្រវត្តិកម្មនេះអាចជួយសម្រួលដល់ការដោះស្រាយបញ្ហាសមត្ថភាពសម្រាប់ក្រុមអភិវឌ្ឍន៍និងវិស្វកម្ម។ វាក៏អាចកែលម្អភាពជឿជាក់និងពេលវេលាឆ្លើយតបសម្រាប់សេវាកម្ម AI ខ្នាតធំផងដែរ។",
+   "keyPoints": [
+    "OpenAI បានបង្ហាញប្រព័ន្ធស្វ័យប្រវត្តិកម្មខាងក្នុងឈ្មោះថា Performance Factory ដែលដំណើរការដោយ Codex។",
+    "ប្រព័ន្ធនេះរកឃើញការថយចុះសមត្ថភាព វិភាគកំណត់ហេតុនិងកូដ ព្រមទាំងសរសេរដំណោះស្រាយ។",
+    "ភ្នាក់ងារ AI ផ្ទៀងផ្ទាត់ថាតើបញ្ហាសមត្ថភាពត្រូវបានដោះស្រាយរួចរាល់ឬអត់បន្ទាប់ពីដាក់ឱ្យប្រើប្រាស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "OpenAI利用Codex自动诊断并编写ChatGPT性能问题的修复方案",
+   "summary": "OpenAI公开了一个名为Performance Factory的内部自动化系统，该系统利用Codex来查找ChatGPT性能下降的原因并支持修复。当发生性能问题时，AI代理会分析日志和代码以找出原因并编写修复方案，并在部署后验证问题是否得到解决。OpenAI于19日公开了这一基于Codex的内部性能管理系统的开发过程和运营方式。",
+   "impact": "这种自动化方法可以简化开发和工程团队排查及解决性能问题的流程。它还可能提高大规模AI服务的整体可靠性和响应时间。",
+   "keyPoints": [
+    "OpenAI公开了由Codex驱动的名叫Performance Factory的内部自动化系统。",
+    "该系统能够检测性能下降、分析日志和代码并编写修复方案。",
+    "AI代理会在部署后验证性能问题是否已得到解决。"
+   ]
+  },
+  "ko": {
+   "title": "오픈AI, 코덱스로 챗GPT 성능 문제 자동 진단·수정안 작성",
+   "summary": "오픈AI는 코덱스를 활용해 챗GPT의 성능 저하 원인을 찾아내고 수정까지 지원하는 내부 자동화 시스템 퍼포먼스 팩토리를 공개했다. 성능 문제가 발생하면 AI 에이전트가 로그와 코드를 분석해 원인을 파악하고 수정안을 작성하며, 배포 후에는 문제가 해결됐는지도 확인한다. 오픈AI는 코덱스 기반의 내부 성능 관리 시스템의 개발 과정과 운영 방식을 공개했다.",
+   "impact": "이러한 자동화 접근 방식은 개발 및 엔지니어링 팀의 성능 문제 트러블슈팅과 해결 과정을 간소화할 수 있다. 또한 대규모 AI 서비스의 전반적인 신뢰성과 응답 시간을 향상시키는 데 기여할 수 있다.",
+   "keyPoints": [
+    "오픈AI는 코덱스 기반의 내부 성능 관리 시스템 퍼포먼스 팩토리를 공개했다.",
+    "시스템은 성능 저하를 감지하고 로그와 코드를 분석해 수정안을 작성한다.",
+    "AI 에이전트가 배포 후에 문제가 해결되었는지 검증한다."
+   ]
+  }
+ }
+}

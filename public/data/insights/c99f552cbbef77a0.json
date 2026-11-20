@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c99f552cbbef77a0",
+ "contentHash": "a041edab144788e9",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T13:03:54.279Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+   "summary": "Threat actors exploited a critical security flaw in Cisco Expressway to breach a Russian organization. The attack occurred shortly after a proof-of-concept exploit was publicly released. The exploited vulnerability is tracked as CVE-2026-76466 with a CVSS score of 9.8.",
+   "impact": "This vulnerability could allow unauthenticated, remote attackers with network access to compromise Cisco Expressway devices and reach internal networks. Organizations using Cisco Expressway may face severe security risks if the flaw is left unpatched.",
+   "keyPoints": [
+    "Threat actors exploited a critical Cisco Expressway flaw against a Russian organization.",
+    "The attack followed the public release of a proof-of-concept exploit.",
+    "The vulnerability is identified as CVE-2026-76466 with a CVSS score of 9.8."
+   ]
+  },
+  "km": {
+   "title": "ពួក Hacker កេងប្រវ័ញ្ចចំណុចខ្សោយដ៏គ្រោះថ្នាក់លើ Cisco Expressway ដើម្បីជ្រៀតចូលឧបករណ៍ចំនួនបួន និងចូលទៅដល់បណ្តាញខាងក្នុង",
+   "summary": "ក្រុមពួក Hacker ត្រូវបានគេសង្កេតឃើញថាកំពុងកេងប្រវ័ញ្ចចំណុចខ្សោយសុវត្ថិភាពដ៏គ្រោះថ្នាក់មួយនៅលើ Cisco Expressway ដើម្បីជ្រៀតចូលអង្គការមួយនៅក្នុងប្រទេសរុស្ស៊ី។ សកម្មភាពនេះបានកើតឡើងបន្ទាប់ពីការចេញផ្សាយជាសាធារណៈនូវកូដសាកល្បងបញ្ជាក់ពីចំណុចខ្សោយ។ ចំណុចខ្សោយនេះត្រូវបានកំណត់សម្គាល់ថា CVE-2026-76466 ដែលមានពិន្ទុ CVSS ដល់ទៅ 9.8។",
+   "impact": "ភាពខ្សោយនេះអាចអនុញ្ញាតឱ្យជនខិលខូចពីចម្ងាយដែលគ្មានការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ និងមានសិទ្ធិចូលប្រើបណ្តាញ អាចធ្វើការវាយប្រហារលើ Cisco Expressway និងចូលទៅដល់បណ្តាញខាងក្នុងបាន។",
+   "keyPoints": [
+    "ពួក Hacker បានកេងប្រវ័ញ្ចចំណុចខ្សោយដ៏គ្រោះថ្នាក់លើ Cisco Expressway។",
+    "ការវាយប្រហារបានកើតឡើងបន្ទាប់ពីការចេញផ្សាយកូដសាកល្បងជាសាធារណៈ។",
+    "ចំណុចខ្សោយនេះមានលេខសម្គាល់ CVE-2026-76466 និងពិន្ទុ CVSS 9.8។"
+   ]
+  },
+  "zh-CN": {
+   "title": "黑客利用 Cisco Expressway 严重漏洞攻陷四台设备并触及内部网络",
+   "summary": "据观察，威胁攻击者利用 Cisco Expressway 中一个新披露的严重安全漏洞，在概念验证漏洞利用程序公开后不久入侵了一家俄罗斯组织。此次活动涉及利用编号为 CVE-2026-76466、CVSS 评分为 9.8 的漏洞。",
+   "impact": "该漏洞可能会允许具有网络访问权限且未经身份验证的远程攻击者入侵 Cisco Expressway 并触及内部网络。使用该软件的技术团队可能面临严重的安全威胁。",
+   "keyPoints": [
+    "威胁攻击者利用了 Cisco Expressway 的一个严重漏洞攻击了一家俄罗斯组织。",
+    "攻击发生在概念验证漏洞利用程序公开后不久。",
+    "该漏洞被追踪为 CVE-2026-76466，CVSS 评分为 9.8。"
+   ]
+  },
+  "ko": {
+   "title": "해커, 치명적인 Cisco Expressway 취약점 악용해 장치 4대 침해하고 내부 네트워크 도달",
+   "summary": "위협 행위자들이 Cisco Expressway의 최근 공개된 치명적인 보안 취약점을 악용하여 러시아의 한 조직을 침해한 것으로 나타났습니다. 이 공격은 개념증명 익스플로잇이 공개된 지 얼마 되지 않아 발생했습니다. 악용된 취약점은 CVSS 점수 9.8점의 CVE-2026-76466입니다.",
+   "impact": "이 취약점은 네트워크 접근 권한을 가진 인증되지 않은 원격 공격자가 Cisco Expressway를 손상시키고 내부 네트워크에 도달할 수 있게 할 수 있습니다. 관련 제품을 사용하는 조직은 보안 조치를 서둘러야 할 수 있습니다.",
+   "keyPoints": [
+    "위협 행위자들이 Cisco Expressway의 치명적인 취약점을 악용해 러시아 조직을 공격했습니다.",
+    "공격은 개념증명 익스플로잇이 공개된 직후에 발생했습니다.",
+    "해당 취약점은 CVE-2026-76466이며 CVSS 점수는 9.8점입니다."
+   ]
+  }
+ }
+}

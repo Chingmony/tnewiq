@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4b0033536e5760bb",
+ "contentHash": "24cfa1d96f65c0ea",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T13:11:56.971Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+   "summary": "A newly disclosed unpatched zero-day technique called FastUnlock allows individuals with physical access to a locked Windows computer to start programs without signing in. The method grants only a limited account rather than full administrator control of the machine. It was posted by a researcher using the handles MSNightmare and Nightmare Eclipse alongside endpoint-security firm ThreatLocker.",
+   "impact": "Security teams and technology users might face physical access risks, as unauthorized individuals could potentially launch programs on locked devices. However, the limitation of gaining only a restricted account rather than administrator privileges may help contain the scope of potential misuse.",
+   "keyPoints": [
+    "FastUnlock is an unpatched zero-day technique.",
+    "It allows program execution on a locked Windows PC without signing in.",
+    "Users of the technique receive only a limited account, not administrator control.",
+    "The method was disclosed by researcher MSNightmare and Nightmare Eclipse with ThreatLocker."
+   ]
+  },
+  "km": {
+   "title": "បច្ចេកទេស FastUnlock ដែលជា Windows 0-Day ថ្មីមិនទាន់មានការជួសជុល អនុញ្ញាតឱ្យអ្នកកាន់កាប់កុំព្យូទ័រដែលជាប់សោរត់កម្មវិធីបាន",
+   "summary": "បច្ចេកទេស zero-day ថ្មីមួយដែលគ្មានបَច្ចាវិសោធនកម្មហៅថា FastUnlock អនុញ្ញាតឱ្យអ្នកដែលមានសិទ្ធិផ្ទាល់ដល់កុំព្យូទ័រ Windows ជាប់សោអាចចាប់ផ្តើមកម្មវិធីដោយមិនបាច់ចូលគណនី។ វិធីសាស្ត្រនេះផ្តល់ត្រឹមតែគណនីកម្រិតកំណត់ប៉ុណ្ណោះ មិនមែនជាការគ្រប់គ្រងកម្រិតអ្នកគ្រប់គ្រងប្រព័ន្ធទេ។ វាត្រូវបានផ្សព្វផ្សាយដោយអ្នកស្រាវជ្រាវម្នាក់ប្រើឈ្មោះ MSNightmare និង Nightmare Eclipse ព្រមទាំងក្រុមហ៊ុនសន្តិសុខ endpoint ThreatLocker។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងប្រឈមមុខនឹងហានិភ័យនៃការចូលប្រើប្រាស់ដោយផ្ទាល់ ដោយសារជនខុសច្បាប់អាចនឹងបើកដំណើរការកម្មវិធីនៅលើឧបករណ៍ដែលជាប់សោ។ ប៉ុន្តែការទទួលបានត្រឹមតែគណនីកម្រិតកំណត់អាចជួយកាត់បន្ថយទំហំនៃការរំលោភបំពង់បន្តិចបន្តួច។",
+   "keyPoints": [
+    "FastUnlock គឺជាបច្ចេកទេស zero-day ដែលមិនទាន់បានជួសជុល។",
+    "វាអនុញ្ញាតឱ្យដំណើរការកម្មវិធីនៅលើកុំព្យូទ័រ Windows ដែលជាប់សោដោយមិនចាំបាច់ចូលគណនី។",
+    "អ្នកប្រើប្រាស់ទទួលបានត្រឹមតែគណនីកម្រិតកំណត់ មិនមែនសិទ្ធិគ្រប់គ្រងទេ។",
+    "វិធីសាស្ត្រនេះត្រូវបានបង្ហាញដោយអ្នកស្រាវជ្រាវ MSNightmare និង Nightmare Eclipse រួមជាមួយ ThreatLocker។"
+   ]
+  },
+  "zh-CN": {
+   "title": "新的未修补 Windows 0-Day FastUnlock 允许持有锁定电脑的人在其上运行程序",
+   "summary": "一项新披露且未修补名为 FastUnlock 的 zero-day 技术允许物理接触锁定 Windows 电脑的人员在无需登录的情况下启动程序。使用者只能获得受限账户，而无法获得机器的管理员控制权限。该方法由使用 MSNightmare 和 Nightmare Eclipse 别名的研究人员以及终端安全公司 ThreatLocker 于昨天发布。",
+   "impact": "安全团队和技术用户可能会面临物理访问风险，因为未授权人员可能在锁定的设备上启动程序。不过，该方法仅授予受限制账户而非管理员权限，这可能会限制潜在滥用的范围。",
+   "keyPoints": [
+    "FastUnlock 是一项未修补的 zero-day 技术。",
+    "它允许在无需登录的情况下在锁定的 Windows 电脑上运行程序。",
+    "使用该方法只能获得受限账户，没有管理员控制权限。",
+    "该方法由研究人员 MSNightmare 和 Nightmare Eclipse 以及 ThreatLocker 公布。"
+   ]
+  },
+  "ko": {
+   "title": "잠긴 PC를 가진 사람이 프로그램을 실행할 수 있게 하는 패치되지 않은 새로운 Windows 0-Day FastUnlock",
+   "summary": "FastUnlock이라고 불리는 새로 공개된 패치되지 않은 zero-day 기술을 사용하면 잠긴 Windows 컴퓨터에 물리적으로 접근한 사람이 로그인하지 않고도 프로그램을 시작할 수 있습니다. 이 방법을 사용하는 사람은 관리자 권한이 아닌 제한된 계정만 얻게 됩니다. 이 방법은 MSNightmare 및 Nightmare Eclipse라는 핸들을 사용하는 연구원과 엔드포인트 보안 기업 ThreatLocker에 의해 게시되었습니다.",
+   "impact": "보안 팀과 기술 사용자는 승인되지 않은 개인이 잠긴 기기에서 프로그램을 실행할 수 있으므로 물리적 접근 위험에 직면할 수 있습니다. 다만 관리자가 아닌 제한된 계정만 획득한다는 한계로 인해 잠재적 오용의 범위가 제한될 수 있습니다.",
+   "keyPoints": [
+    "FastUnlock은 패치되지 않은 zero-day 기술입니다.",
+    "로그인 없이 잠긴 Windows PC에서 프로그램을 실행할 수 있게 합니다.",
+    "관리자 제어 권한이 아닌 제한된 계정만 제공받습니다.",
+    "이 방법은 연구원 MSNightmare 및 Nightmare Eclipse와 ThreatLocker에 의해 공개되었습니다."
+   ]
+  }
+ }
+}

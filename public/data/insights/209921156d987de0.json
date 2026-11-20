@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "209921156d987de0",
+ "contentHash": "be3b69a636f31843",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T13:05:14.887Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+   "summary": "The cyber espionage group Armory Castle, formerly known as UNC5221 and suspected to be linked to China, exploited a critical zero-day flaw in VMware vCenter Server in early September 2026. The vulnerability, identified as CVE-2026-123890 with a CVSS score of 9.8, involves an authentication bypass in the VMware Directory Service. This flaw could be exploited to gain unauthorized access.",
+   "impact": "Technology users and security teams managing VMware vCenter Server could face risks from authentication bypass vulnerabilities that allow unauthorized access. Because the flaw carries a high CVSS score of 9.8, organizations may need to review their systems for exploitation indicators related to CVE-2026-123890.",
+   "keyPoints": [
+    "Armory Castle, formerly UNC5221, is suspected of China-nexus cyber espionage.",
+    "The group exploited a VMware vCenter Server zero-day flaw in early September 2026.",
+    "The vulnerability is tracked as CVE-2026-123890 with a CVSS score of 9.8.",
+    "The flaw is an authentication bypass in the VMware Directory Service."
+   ]
+  },
+  "km": {
+   "title": "ពួកហែកឃ័រដែលពាក់ព័ន្ធនឹងប្រទេសចិនបានវាយលុកចំណុចខ្សោយ Zero-Day ដ៏គ្រោះថ្នាក់របស់ VMware vCenter ដើម្បីទទួលបានសិទ្ធិជាអ្នកគ្រប់គ្រង និងលួចទិន្នន័យ",
+   "summary": "ក្រុមចារកម្មស៊ីនធឺណិត Armory Castle ដែលពីមុនហៅថា UNC5221 និងត្រូវបានសង្ស័យថាពាក់ព័ន្ធនឹងប្រទេសចិន បានវាយលុកចំណុចខ្សោយ zero-day ដ៏គ្រោះថ្នាក់នៅក្នុង VMware vCenter Server កាលពីដើមខែកញ្ញា ឆ្នាំ២០២៦។ ចំណុចខ្សោយនេះត្រូវបានតាមដានក្រោមលេខ CVE-2026-123890 ដែលមានពិន្ទុ CVSS ៩.៨ ដែលជាករណីរំលងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវនៅក្នុងសេវាកម្ម VMware Directory។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចប្រឈមមុខនឹងហានិភ័យពីចំណុចខ្សោយរំលងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវដែលអាចឱ្យមានការចូលប្រើដោយគ្មានការអនុញ្ញាត។ ដោយសារតែចំណុចខ្សោយនេះមានពិន្ទុ CVSS ខ្ពស់ដល់ ៩.៨ អង្គការនានាអាចចាំបាច់ត្រូវពិនិត្យមើលប្រព័ន្ធរបស់ពួកគេ.",
+   "keyPoints": [
+    "ក្រុម Armory Castle ដែលពីមុនគឺ UNC5221 ត្រូវបានសង្ស័យថាពាក់ព័ន្ធនឹងចារកម្មស៊ីនធឺណិតចិន។",
+    "ក្រុមនេះបានវាយលុកចំណុចខ្សោយ zero-day របស់ VMware vCenter Server កាលពីដើមខែកញ្ញា ឆ្នាំ២០២៦។",
+    "ចំណុចខ្សោយនេះមានលេខសម្គាល់ CVE-2026-123890 និងពិន្ទុ CVSS ៩.៨។",
+    "វាជាបញ្ហារំលងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវនៅក្នុងសេវាកម្ម VMware Directory។"
+   ]
+  },
+  "zh-CN": {
+   "title": "与中国有关的黑客利用 VMware vCenter 严重零日漏洞获取管理员权限并窃取数据",
+   "summary": "被怀疑与中国有联系的网络间谍组织 Armory Castle（前身为 UNC5221）在 2026 年 9 月初利用了 VMware vCenter Server 中的一个严重安全漏洞。该漏洞被追踪为 CVE-2026-123890，CVSS 评分为 9.8，是 VMware Directory Service 中的一个身份验证绕过漏洞，可能被利用来获得未经授权的访问。",
+   "impact": "管理 VMware vCenter Server 的技术人员和安全团队可能会面临身份验证绕过漏洞带来的风险，这些漏洞允许未经授权的访问。由于该漏洞的 CVSS 评分高达 9.8，组织可能需要检查其系统是否存在与 CVE-2026-123890 相关的利用迹象。",
+   "keyPoints": [
+    "Armory Castle（原名 UNC5221）被怀疑是与中国有关的网络间谍组织。",
+    "该集团在 2026 年 9 月初利用了 VMware vCenter Server 零日漏洞。",
+    "该漏洞编号为 CVE-2026-123890，CVSS 评分为 9.8。",
+    "该漏洞涉及 VMware Directory Service 中的身份验证绕过。"
+   ]
+  },
+  "ko": {
+   "title": "중국 연계 해커, 치명적인 VMware vCenter 제로데이 취약점 악용해 관리자 권한 획득 및 데이터 탈취",
+   "summary": "이전에 UNC5221로 알려졌으며 중국과 연계된 것으로 의심되는 사이버 스파이 그룹 Armory Castle이 2026년 9월 초 VMware vCenter Server의 치명적인 보안 취약점을 제로데이로 악용했습니다. CVE-2026-123890으로 추적되는 이 취약점은 CVSS 점수 9.8점의 VMware Directory Service 인증 우회 결함으로, 무단 접근을 얻는 데 악용될 수 있습니다.",
+   "impact": "VMware vCenter Server를 관리하는 기술 사용자 및 보안 팀은 무단 접근을 허용하는 인증 우회 취약점으로 인해 위험에 직면할 수 있습니다. 해당 결함이 9.8점이라는 높은 CVSS 점수를 가지고 있으므로, 조직은 CVE-2026-123890과 관련된 악용 징후가 있는지 시스템을 검토해야 할 수 있습니다.",
+   "keyPoints": [
+    "이전에 UNC5221로 불렸던 Armory Castle은 중국 연계 사이버 스파이 그룹으로 의심됩니다.",
+    "이 그룹은 2026년 9월 초 VMware vCenter Server 제로데이 취약점을 악용했습니다.",
+    "해당 취약점은 CVE-2026-123890으로 추적되며 CVSS 점수는 9.8점입니다.",
+    "이 결함은 VMware Directory Service의 인증 우회 문제입니다."
+   ]
+  }
+ }
+}

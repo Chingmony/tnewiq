@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f74bf5c2850fbfdf",
+ "contentHash": "be85d29bb05b5c60",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T13:10:51.358Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "More unveils 'TIDE' framework to improve LLM inference efficiency",
+   "summary": "More has unveiled 'TIDE', a self-improving inference framework designed to enhance the inference performance and efficiency of large language models. The technology was first presented at the Supercomputing 2026 high-performance computing conference held in Chicago. TIDE uses data generated during actual inference to continuously improve a secondary model, increasing inference speed and computing resource utilization efficiency.",
+   "impact": "This framework could help technology users and developers optimize AI inference systems by allowing them to find optimal execution methods autonomously based on changing user requests.",
+   "keyPoints": [
+    "More unveiled the TIDE framework on November 20, 2026.",
+    "TIDE was first presented at the Supercomputing 2026 conference in Chicago.",
+    "It uses data generated during actual inference to improve a secondary model.",
+    "It increases inference speed and computing resource utilization efficiency."
+   ]
+  },
+  "km": {
+   "title": "More បង្ហាញក្របខណ្ឌ 'TIDE' ដើម្បីបង្កើនប្រសិទ្ធភាពនៃការសន្និដ្ឋាន LLM",
+   "summary": "ក្រុមហ៊ុន More បានប្រកាសបង្ហាញក្របខណ្ឌសន្និដ្ឋានស្វ័យប្រសើរឡើង 'TIDE' ដែលត្រូវបានរចនាឡើងដើម្បីបង្កើនប្រសិទ្ធភាព និងសមត្ថភាពសន្និដ្ឋានរបស់ម៉ូដែលភាសាខ្នាតធំ (LLM)។ បច្ចេកវិទ្យានេះត្រូវបានបង្ហាញជាលើកដំបូងនៅក្នុងសន្និសីទកុំព្យូទ័រល្បឿនលឿន Supercomputing 2026 ដែលប្រារព្ធធ្វើឡើងនៅទីក្រុងឈីកាហ្គោ។ TIDE ប្រើប្រាស់ទិន្នន័យដែលបានបង្កើតឡើងក្នុងអំឡុងពេលសន្និដ្ឋានពិតប្រាកដ ដើម្បីកែលម្អម៉ូដែលជំនួយបន្តបន្ទាប់ទៀត។",
+   "impact": "ក្របខណ្ឌនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការបង្កើនប្រសិទ្ធភាពប្រព័ន្ធសន្និដ្ឋាន AI ដោយស្វ័យប្រវត្តិស្របតាមសំណើរបស់អ្នកប្រើប្រាស់។",
+   "keyPoints": [
+    "More បានប្រកាសបង្ហាញក្របខណ្ឌ TIDE ។",
+    "វាត្រូវបានបង្ហាញជាលើកដំបូងនៅក្នុងសន្និសីទ Supercomputing 2026 នៅទីក្រុងឈីកាហ្គោ។",
+    "វាប្រើប្រាស់ទិន្នន័យសន្និដ្ឋានដើម្បីកែលម្អម៉ូដែលជំនួយ។",
+    "វាជួយបង្កើនល្បឿនសន្និដ្ឋាន និងប្រសិទ្ធភាពនៃការប្រើប្រាស់ធនធានកុំព្យូទ័រ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "More发布提升LLM推理效率的框架“TIDE”",
+   "summary": "More于20日宣布推出旨在提升大语言模型（LLM）推理性能与效率的自我改进型推理框架“TIDE”。该技术在美国芝加哥举行的高性能计算（HPC）会议“Supercomputing 2026”上首次发布。TIDE利用实际推理过程中生成的数据持续改进辅助模型，从而提高LLM的推理速度和计算资源利用效率。",
+   "impact": "该技术可能会帮助开发人员和技术用户让AI推理系统根据用户请求的变化自动寻找最佳执行方式。",
+   "keyPoints": [
+    "More发布了自我改进型推理框架TIDE。",
+    "TIDE在美国芝加哥的Supercomputing 2026会议上首次亮相。",
+    "该框架利用实际推理生成的数据来改进辅助模型。",
+    "它能够提升推理速度以及计算资源的利用效率。"
+   ]
+  },
+  "ko": {
+   "title": "모레, LLM 추론 효율 높이는 프레임워크 ‘TIDE’ 공개",
+   "summary": "모레는 대형언어모델(LLM)의 추론 성능과 효율을 높이는 자기 개선형 추론 프레임워크 ‘TIDE’를 공개했다. TIDE는 미국 시카고에서 열린 고성능 컴퓨팅(HPC) 컨퍼런스 '슈퍼컴퓨팅 2026'에서 처음 발표되었다. 이 기술은 실제 추론 과정에서 생성되는 데이터를 활용해 보조 모델을 지속적으로 개선하고, LLM의 추론 속도와 컴퓨팅 자원 활용 효율을 높인다.",
+   "impact": "사용자 요청 변화에 따라 AI 추론 시스템이 스스로 최적의 실행 방식을 찾도록 지원함으로써, 개발자와 기술 사용자들의 컴퓨팅 자원 활용 효율을 높이는 데 기여할 수 있다.",
+   "keyPoints": [
+    "모레가 LLM 추론 성능을 높이는 프레임워크 TIDE를 공개했다.",
+    "미국 시카고의 슈퍼컴퓨팅 2026 컨퍼런스에서 처음 발표되었다.",
+    "실제 추론 데이터로 보조 모델을 지속적으로 개선한다.",
+    "추론 속도와 컴퓨팅 자원 활용 효율을 높인다."
+   ]
+  }
+ }
+}

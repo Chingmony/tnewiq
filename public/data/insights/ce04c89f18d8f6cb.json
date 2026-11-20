@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ce04c89f18d8f6cb",
+ "contentHash": "87c3ba2c4d66156e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T13:10:41.006Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "GIMP Optimizes Automated Testing Feature to Interact with UI Like a Real Human",
+   "summary": "GIMP has introduced a new automated UI testing system because its deeply interconnected menus, dialogs, and tools made it easy for UI changes to break other parts unnoticed. The newly introduced tests operate just like a human by clicking menus and buttons to check the results. These automated tests now run every time a contributor's changes are merged.",
+   "impact": "This automated testing approach could help developers catch UI regressions earlier before changes reach users, ensuring better stability for the software.",
+   "keyPoints": [
+    "GIMP introduced new automated interface testing to handle its complex menus, dialogs, and tools.",
+    "The tests simulate human interaction by clicking menus and buttons and checking results.",
+    "Automated tests run automatically whenever contributor changes are merged."
+   ]
+  },
+  "km": {
+   "title": "GIMP បង្កើនប្រសិទ្ធភាពមុខងារតេស្តស្វ័យប្រវត្តិដើម្បីទំនាក់ទំនងជាមួយ UI ដូចជាមនុស្សពិត",
+   "summary": "GIMP បានដាក់ឱ្យប្រើប្រាស់នូវប្រព័ន្ធតេស្តចំណុចប្រទាក់ស្វ័យប្រវត្តថ្មីមួយ ដោយសារតែម៉ឺនុយ ប្រអប់សារ និងឧបករណ៍ដែលទាក់ទងគ្នាជាច្រើនបានធ្វើឱ្យការកែប្រែចំណុចប្រទាក់ងាយនឹងបង្កបញ្ហាដល់ផ្នែកផ្សេងទៀតដោយមិនដឹងខ្លួន។ ការតេស្តដែលទើបតែដាក់បញ្ចូលថ្មីនេះដំណើរការដូចជាមនុស្សម្នាក់ដោយចុចលើម៉ឺនុយ និងប៊ូតុង រួចពិនិត្យមើលលទ្ធផល។ ការតេស្តស្វ័យប្រវត្តិនេះត្រូវបានរត់ស្វ័យប្រវត្តិរាល់ពេលដែលការកែប្រែរបស់អ្នកចូលរួមចំណែកត្រូវបានបញ្ចូលគ្នា។",
+   "impact": "វិធីសាស្ត្រតេស្តស្វ័យប្រវត្តិនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍រកឃើញបញ្ហាចំណុចប្រទាក់បានលឿនជាងមុនមុនពេលការកែប្រែទៅដល់អ្នកប្រើប្រាស់ ដោយធានាបាននូវស្ថិរភាពកាន់តែប្រសើរសម្រាប់កម្មវិធី។",
+   "keyPoints": [
+    "GIMP បានដាក់បញ្ចូលការតេស្តចំណុចប្រទាក់ស្វ័យប្រវត្តថ្មីដើម្បីគ្រប់គ្រងម៉ឺនុយ ប្រអប់សារ និងឧបករណ៍ស្មុគស្មាញរបស់វា។",
+    "ការតេស្តនេះត្រាប់តាមអន្តរកម្មរបស់មនុស្សដោយចុចលើម៉ឺនុយ និងប៊ូតុងព្រមទាំងពិនិត្យមើលលទ្ធផល។",
+    "ការតេស្តស្វ័យប្រវត្តិដំណើរការដោយស្វ័យប្រវត្តិរាល់ពេលដែលការកែប្រែពីអ្នករួមចំណែកត្រូវបានបញ្ចូលគ្នា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "GIMP 优化自动测试功能，会像真人一样与界面 UI 交互",
+   "summary": "GIMP 引入了一套自动化的界面测试，起因是其大量交织的菜单、对话框和工具容易导致界面局部改动时其他部分悄悄损坏。新引入的测试能够像真人一样点击菜单和按钮并检查结果。每次合并贡献者的改动时，这些测试都会自动运行。",
+   "impact": "这种自动化测试方法可以帮助开发人员在改动影响用户之前更早地发现界面回归问题，从而确保软件具有更好的稳定性。",
+   "keyPoints": [
+    "GIMP 引入了新的自动化界面测试以应对复杂的菜单、对话框和工具。",
+    "该测试模拟人类交互，通过点击菜单和按钮来检查结果。",
+    "每次合并贡献者改动时都会自动运行这些测试。"
+   ]
+  },
+  "ko": {
+   "title": "GIMP, 실제 사람처럼 UI와 상호작용하는 자동 테스트 기능 최적화",
+   "summary": "GIMP는 서로 얽혀 있는 수많은 메뉴, 대화 상자, 도구로 인해 UI의 일부를 수정했을 때 다른 부분이 모르게 고장나는 문제를 해결하기 위해 새로운 자동화된 인터페이스 테스트 시스템을 도입했습니다. 새로 도입된 테스트는 사람이 하는 것처럼 메뉴와 버튼을 클릭하고 결과를 확인합니다. 이 자동 테스트는 기여자의 변경 사항이 병합될 때마다 자동으로 실행됩니다.",
+   "impact": "이러한 자동 테스트 접근 방식은 개발자가 변경 사항이 사용자에게 도달하기 전에 UI 회귀 문제를 더 일찍 발견하여 소프트웨어의 안정성을 높이는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "GIMP는 복잡한 메뉴, 대화 상자, 도구를 관리하기 위해 새로운 자동화된 인터페이스 테스트를 도입했습니다.",
+    "이 테스트는 메뉴와 버튼을 클릭하고 결과를 확인함으로써 인간의 상호작용을 시뮬레이션합니다.",
+    "기여자의 변경 사항이 병합될 때마다 자동 테스트가 실행됩니다."
+   ]
+  }
+ }
+}

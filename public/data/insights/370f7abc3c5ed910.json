@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "370f7abc3c5ed910",
+ "contentHash": "f37419fb584b8f63",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T13:05:49.335Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Jync v2.4.3 AI Assistant Confirms Execution and Startup Diagnostics",
+   "summary": "Jync v2.4.3 introduces an AI operations assistant capable of performing runtime operations, but each action requires human confirmation. The assistant generates a confirmation card for tasks such as starting or stopping sync tasks, running ETL tasks, managing migrations, and rebuilding CDC baselines. Upon clicking confirmation, the server re-validates the request based on the user's role and resource ownership before taking effect, and the confirmation token is bound to the initiating account for five minutes.",
+   "impact": "This mechanism could help security teams and developers maintain strict access control over automated AI operations by ensuring that human oversight and server-side role validation are always enforced before runtime changes occur.",
+   "keyPoints": [
+    "Jync v2.4.3 adds an AI operations assistant that handles runtime operations with mandatory human confirmation.",
+    "Actions include managing sync tasks, ETL tasks, migrations, and rebuilding CDC baselines.",
+    "Confirmation tokens are bound to the initiating account for five minutes.",
+    "The server re-validates permissions based on the current account role and resource ownership after confirmation."
+   ]
+  },
+  "km": {
+   "title": "ជំនួយការ AI របស់ Jync v2.4.3 បញ្ជាក់ការប្រតិបត្តិ និងការធ្វើរោគវិនិច្ឆ័យចាប់ផ្តើម",
+   "summary": "Jync v2.4.3 បានបន្ថែមជំនួយការប្រតិបត្តិការ AI ដែលអាចអនុវត្តប្រតិបត្តិការពេលរត់ ប៉ុន្តែរាល់សកម្មភាពទាំងអស់ត្រូវទាមទារការបញ្ជាក់ពីមនុស្ស។ ជំនួយការបង្កើតកាតបញ្ជាក់សម្រាប់កិច្ចការដូចជាការចាប់ផ្តើម ឬបញ្ឈប់ភារកិច្ចធ្វើសមកាលកម្ម ការរត់ភារកិច្ច ETL ការគ្រប់គ្រងការផ្ទេរ និងការបង្កើតមូលដ្ឋាន CDC ឡើងវិញ។ បន្ទាប់ពីចុចបញ្ជាក់ សឺវើនឹងធ្វើការផ្ទៀងផ្ទាត់ឡើងវិញផ្អែកលើតួនាទីរបស់អ្នកប្រើប្រាស់ និងកម្មសិទ្ធិធនធានមុនពេលចូលជាធរមាន។",
+   "impact": "យន្តការនេះអាចជួយក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍រក្សាបាននូវការគ្រប់គ្រងការចូលប្រើប្រាស់យ៉ាងតឹងរឹងលើប្រតិបត្តិការ AI ដោយធានាថាការត្រួតពិនិត្យរបស់មនុស្ស និងការផ្ទៀងផ្ទាត់តួនាទីនៅខាងសឺវើត្រូវបានអនុវត្តជានិច្ច។",
+   "keyPoints": [
+    "Jync v2.4.3 បន្ថែមជំនួយការប្រតិបត្តិការ AI ដែលតម្រូវឱ្យមានការបញ្ជាក់ពីមនុស្ស។",
+    "សកម្មភាពរួមមានការគ្រប់គ្រងភារកិច្ចធ្វើសមកាលកម្ម ភារកិច្ច ETL និងការផ្ទេរផ្សេងៗ។",
+    "ថូខឹនបញ្ជាក់ត្រូវបានចងភ្ជាប់ទៅនឹងគណនីផ្ដួចផ្ដើមរយៈពេលប្រាំនាទី។",
+    "សឺវើផ្ទៀងផ្ទាត់ការអនុញ្ញាតឡើងវិញផ្អែកលើតួនាទីគណនីបច្ចុប្បន្ន និងកម្មសិទ្ធិធនធាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Jync v2.4.3 AI 助手确认执行与启动诊断",
+   "summary": "Jync v2.4.3 新增了 AI 运维助手，支持执行运行态操作，但每一次操作都需要人工确认。助手会针对启动或停止同步任务、立即同步、启用或停用及运行 ETL 任务、迁移管理以及重建 CDC 基线等生成确认卡片。点击确认执行后，服务端会根据当前账号的角色与资源归属重新校验一次才能生效，且确认令牌绑定发起账号限时五分钟。",
+   "impact": "这一机制可以通过确保在执行运行态变更前必须经过人工监督和服务器端角色校验，帮助开发人员和安全团队对自动化 AI 操作保持严格的访问控制。",
+   "keyPoints": [
+    "Jync v2.4.3 新增 AI 运维助手以处理运行态操作，每次操作均需人工确认。",
+    "涉及的操作包括同步任务、ETL 任务、专属迁移以及 CDC 基线重建。",
+    "确认令牌绑定发起账号并设有时间限制。",
+    "服务端会在确认后根据当前账号角色与资源归属重新进行权限校验。"
+   ]
+  },
+  "ko": {
+   "title": "Jync v2.4.3 AI 어시스턴트 실행 확인 및 시작 진단",
+   "summary": "Jync v2.4.3은 런타임 작업을 수행할 수 있는 AI 운영 어시스턴트를 추가했으며 모든 작업은 사람이 직접 확인해야 합니다. 어시스턴트는 동기화 작업 시작 및 중지, ETL 작업 관리, 마이그레이션 및 CDC 기준선 재구축 등의 작업에 대해 확인 카드를 생성합니다. 확인 실행을 클릭하면 서버가 현재 계정의 역할과 자원 귀속 여부를 다시 검증한 뒤 적용되며 확인 토큰은 발급 계정에 5분간 바인딩됩니다.",
+   "impact": "이 메커니즘은 런타임 변경 사항이 적용되기 전에 사람의 검토와 서버 측 역할 검증이 항상 수행되도록 보장함으로써 개발자와 보안 팀이 자동화된 AI 작업에 대한 엄격한 접근 제어를 유지하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "Jync v2.4.3은 사람의 확인이필요한 런타임 작업을 처리하는 AI 운영 어시스턴트를 추가했습니다.",
+    "작업에는 동기화 작업, ETL 작업, 마이그레이션 및 CDC 기준선 재구축 관리가 포함됩니다.",
+    "확인 토큰은 발급 계정에 5분 동안 바인딩됩니다.",
+    "서버는 확인 후 현재 계정 역할과 자원 귀속에 따라 권한을 재검증합니다."
+   ]
+  }
+ }
+}
