@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4eab3c1f90feb8c7",
+ "contentHash": "75cb11a2a810bc63",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T03:26:15.457Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments",
+   "summary": "Amazon Bedrock AgentCore payments now supports AWS Billing integration, allowing autonomous AI agents to purchase x402-enabled software, APIs, data, and content from AWS Marketplace. Developers can set spending limits, enforce policies, and have purchases billed directly to their AWS account in USD without using stablecoin wallets or API keys. Transactions remain auditable through AWS CloudTrail and AWS Cost Explorer, and support is integrated with Private Marketplace restrictions.",
+   "impact": "Developers and enterprises could use this integration to safely deploy autonomous AI agents for commercial tasks with built-in spending guardrails and standard enterprise auditing. Security teams may benefit from policy enforcement and visibility via AWS CloudTrail, helping maintain control over agent spending.",
+   "keyPoints": [
+    "AgentCore payments now includes an AWS Billing option for AWS Marketplace x402 products.",
+    "Purchases are billed in USD directly to the developer's AWS bill, eliminating the need for stablecoin wallets or API keys.",
+    "Developers can enforce spending limits, set approved sellers using AgentCore policy, and use AWS CloudTrail for auditability.",
+    "A new AWS Marketplace connector in AgentCore Gateway helps agents discover products and endpoints."
+   ]
+  },
+  "km": {
+   "title": "បើកដំណើរការភ្នាក់ងារ AI ដើម្បីទូទាត់ប្រាក់សម្រាប់ផលិតផល AWS Marketplace x402 ជាមួយការទូទាត់ Amazon Bedrock AgentCore",
+   "summary": "ការទូទាត់តាម Amazon Bedrock AgentCore ឥឡូវនេះគាំទ្រការរួមបញ្ចូលការចេញវិក្កយបត្រ AWS ដែលអនុញ្ញាតឱ្យភ្នាក់ងារ AI ស្វយ័តទិញកម្មវិធី ኤប៊ីអាយ (APIs) ទិន្នន័យ និងមាតិកាដែលគាំទ្រ x402 ពី AWS Marketplace។ អ្នកអភិវឌ្ឍន៍អាចកំណត់ដែនកំណត់នៃការចំណាយ និងទូទាត់ប្រាក់ជារូបិយប័ណ្ណ USD ទៅលើវិក្កយបត្រ AWS របស់ពួកគេផ្ទាល់ ដោយមិនចាំបាច់មានកាបូបប្រាក់ stablecoin ឬគ្រាប់ចុច API នោះទេ។ ប្រតិបត្តិការទាំងអស់អាចត្រូវបានត្រួតពិនិត្យតាមរយៈ AWS CloudTrail និង AWS Cost Explorer ។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យា និងអ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់មុខងារនេះដើម្បីដាក់ឱ្យប្រើប្រាស់ភ្នាក់ងារ AI ក្នុងប្រតិបត្តិការណ៍ពាណិជ្ជកម្មដោយសុវត្ថិភាព។ វាក៏អាចជួយឱ្យសហគ្រាសរក្សាការគ្រប់គ្រងការចំណាយរបស់ភ្នាក់ងារ AI តាមរយៈដែនកំណត់គោលការណ៍ដែលបានកំណត់ផងដែរ។",
+   "keyPoints": [
+    "ការទូទាត់ AgentCore បន្ថែមជម្រើសចេញវិក្កយបត្រ AWS សម្រាប់ផលិតផល x402 របស់ AWS Marketplace។",
+    "ការទូទាត់ត្រូវបានគិតប្រាក់ជា USD ទៅលើវិក្កយបត្រ AWS របស់អ្នកអភិវឌ្ឍន៍ដោយផ្ទាល់។",
+    "អ្នកអភិវឌ្ឍន៍អាចកំណត់ដែនកំណត់នៃការចំណាយ និងត្រួតពិនិត្យប្រតិបត្តិការតាមរយៈ AWS CloudTrail។",
+    "ឧបករណ៍តភ្ជាប់ AWS Marketplace ថ្មីនៅក្នុង AgentCore Gateway ជួយភ្នាក់ងារស្វែងរកផលិតផល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 Amazon Bedrock AgentCore 支付功能为 AWS Marketplace x402 产品付款",
+   "summary": "Amazon Bedrock AgentCore 支付功能现已支持 AWS 账单集成，允许自主 AI 代理购买 AWS Marketplace 上的 x402 启用软件、API、数据和内容。开发者可以设置消费限额并通过代理策略指定获批卖家，所有消费直接以美元记入开发者的 AWS 账单，无需稳定币钱包或 API 密钥。交易可通过 AWS CloudTrail 和 AWS Cost Explorer 进行审计，并受 Private Marketplace 规则约束。",
+   "impact": "开发者和企业可以利用此集成安全地部署具备自主支付能力的 AI 代理，同时通过内置的支出护栏和标准的 AWS 审计工具来确保财务合规与可控。安全团队可以依靠策略控制和日志记录来降低代理过度消费或违规购买的风险。",
+   "keyPoints": [
+    "AgentCore 支付新增 AWS 账单作为支付选项，用于购买 AWS Marketplace 上的 x402 产品。",
+    "代理购买按请求以美元结算并计入开发者的 AWS 账单，无需稳定币钱包或 API 密钥。",
+    "开发者可以通过 AgentCore 策略设置消费限额、管理批准的卖家并强制执行会话上限。",
+    "所有交易均可通过 AWS CloudTrail 和 AWS Cost Explorer 进行审计。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Bedrock AgentCore 결제를 통해 AWS Marketplace x402 제품에 대한 AI 에이전트 결제 지원",
+   "summary": "Amazon Bedrock AgentCore 결제 기능이 이제 AWS 빌링 통합을 지원하여, 자율 AI 에이전트가 AWS Marketplace에서 x402 기반 소프트웨어, API, 데이터 및 콘텐츠를 구매할 수 있게 되었습니다. 개발자는 지출 한도를 설정하고 승인된 판매자를 지정할 수 있으며, 스테이블코인 지갑이나 API 키 없이 USD로 개발자의 AWS 청구서에 직접 청구할 수 있습니다. 거래 내역은 AWS CloudTrail 및 AWS Cost Explorer를 통해 감사가 가능합니다.",
+   "impact": "개발자와 기업은 이 기능을 통해 내장된 지출 보호 장치와 표준 엔터프라이즈 감사 기능을 갖춘 자율 AI 에이전트를 상업적 작업에 안전하게 배포할 수 있습니다. 보안 팀은 정책 시행과 로그 가시성을 통해 에이전트의 지출을 더욱 효과적으로 통제할 수 있습니다.",
+   "keyPoints": [
+    "AgentCore 결제에 AWS Marketplace x402 제품을 위한 AWS 빌링 옵션이 추가되었습니다.",
+    "에이전트 구매는 요청당 USD로 처리되며 스테이블코인 지갑이나 API 키 없이 AWS 청구서에 청구됩니다.",
+    "개발자는 AgentCore 정책을 통해 지출 한도를 설정하고 세션 예산을 관리할 수 있습니다.",
+    "거래는 AWS CloudTrail 및 AWS Cost Explorer를 통해 감사할 수 있습니다."
+   ]
+  }
+ }
+}

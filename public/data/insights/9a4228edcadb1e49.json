@@ -1,0 +1,49 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9a4228edcadb1e49",
+ "contentHash": "15913c5a35d28ae1",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T03:29:21.161Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Casvisor 2.0.0 Released: New System Accounts and Automatic Password Changes, MySQL and PostgreSQL Auditing, Job Center",
+   "summary": "The open-source bastion host Casvisor has released version 2.0.0 under the Apache-2.0 license. This version introduces new features including system accounts with automatic password changes, MySQL and PostgreSQL auditing, and a job center. It remains a single Go binary without a separate enterprise edition.",
+   "impact": "Developers and security teams could benefit from enhanced credential management and auditing capabilities without dealing with complex enterprise licensing.",
+   "keyPoints": [
+    "Casvisor 2.0.0 is released as an open-source project under Apache-2.0.",
+    "New features include system accounts with automatic password changes, MySQL and PostgreSQL auditing, and job center capabilities.",
+    "The software continues to be distributed as a single Go binary."
+   ]
+  },
+  "km": {
+   "title": "Casvisor 2.0.0 ត្រូវ​បាន​ចេញ​ផ្សាយ៖ បន្ថែម​គណនី​ប្រព័ន្ធ និង​ការ​ផ្លាស់ប្តូរ​ពាក្យសម្ងាត់​ស្វ័យប្រវត្តិ ការ​សវនកម្ម MySQL និង PostgreSQL និង​មជ្ឈមណ្ឌល​ការងារ",
+   "summary": "ប្រព័ន្ធ堡垒机 Casvisor ដែលជាកូដបើកចំហប្រភេទ Apache-2.0 បានចេញផ្សាយកំណែ 2.0.0។ កំណែនេះបានបន្ថែមសមត្ថភាពដូចជា គណនីប្រព័ន្ធ ការសវនកម្មមូលដ្ឋានទិន្នន័យ ការងារបាច់ ការស្នើសុំចូលប្រើ និងការនាំចេញកំណត់ហេតុសវនកម្ម ដោយនៅតែជាប្រព័ន្ធ Go binary តែមួយ។",
+   "impact": "ក្រុមការងារសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍អាចទទួលបានអត្ថប្រយោជន៍ពីលក្ខណៈពិសេសថ្មីៗនៃការគ្រប់គ្រងគណនី និងការសវនកម្ម។",
+   "keyPoints": [
+    "Casvisor 2.0.0 ត្រូវបានចេញផ្សាយក្រោមអាជ្ញាប័ណ្ណ Apache-2.0។",
+    "កំណែនេះបន្ថែមគណនីប្រព័ន្ធ និងការផ្លាស់ប្តូរពាក្យសម្ងាត់ស្វ័យប្រវត្តិ ក៏ដូចជាការសវនកម្ម MySQL និង PostgreSQL។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Casvisor 2.0.0 发布：新增系统账号与自动改密、MySQL 和 PostgreSQL 审计、作业中心",
+   "summary": "Apache-2.0 开源堡垒机 Casvisor 发布了 2.0.0 版本。该版本补齐了系统账号、数据库审计、批量作业、访问申请和审计日志导出等能力，并且依然保持单个 Go 二进制文件的形式，没有企业版。资产现在可以挂载多个系统账号，口令和私钥均加密存储。",
+   "impact": "技术用户和安全团队可以通过新版本获得更完善的账号管理、数据库审计和批量作业处理能力，简化安全运维工作。",
+   "keyPoints": [
+    "Casvisor 发布 2.0.0 版本，采用 Apache-2.0 开源协议。",
+    "新增系统账号与自动改密、MySQL 和 PostgreSQL 审计、作业中心等能力。",
+    "保持单个 Go 二进制交付，未提供单独的企业版。"
+   ]
+  },
+  "ko": {
+   "title": "Casvisor 2.0.0 출시: 시스템 계정 및 자동 비밀번호 변경, MySQL 및 PostgreSQL 감사, 작업 센터 추가",
+   "summary": "Apache-2.0 오픈소스 요새 호스트인 Casvisor가 버전 2.0.0을 출시했습니다. 이 버전에는 시스템 계정, 데이터베이스 감사, 일괄 작업, 액세스 요청 및 감사 로그 내보내기 기능이 추가되었으며, 별도의 엔터프라이즈 에디션 없이 단일 Go 바이너리로 유지됩니다.",
+   "impact": "보안 팀과 개발자는 향상된 계정 관리 및 감사 기능을 통해 자산 접근 제어를 더 효과적으로 관리할 수 있습니다.",
+   "keyPoints": [
+    "Casvisor 2.0.0이 Apache-2.0 라이선스로 출시되었습니다.",
+    "시스템 계정, 자동 비밀번호 변경, MySQL 및 PostgreSQL 감사 기능이 추가되었습니다.",
+    "단일 Go 바이너리 형태로 제공됩니다."
+   ]
+  }
+ }
+}

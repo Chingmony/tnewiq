@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "17fab3637860c9a7",
+ "contentHash": "1e4f6589fe3c66c6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T03:24:31.750Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+   "summary": "F5 and nginx.org disclosed ten vulnerabilities in nginx, including five memory corruption flaws known as nginx2root. The vulnerabilities can allow an unauthenticated attacker to crash an nginx worker or run commands on the server. Cloudflare announced that its edge is not affected and that origins behind its HTTP proxy are shielded from the HTTP/2 and HTTP/3 attacks.",
+   "impact": "Administrators and developers running vulnerable nginx versions should patch immediately, as millions of hosts are potentially exposed. While proxies like Cloudflare can shield origins from certain remote attacks, full updates remain necessary to secure all configurations.",
+   "keyPoints": [
+    "F5 and nginx.org disclosed ten vulnerabilities in nginx on November 18, 2026.",
+    "The nginx2root group features five memory corruption flaws affecting HTTP/2, HTTP/3, the resolver, and the mail proxy.",
+    "F5 rates each of the nginx2root vulnerabilities as High or Critical.",
+    "Users are advised to update to nginx 1.30.7 or 1.31.9 or their vendor's fixed build."
+   ]
+  },
+  "km": {
+   "title": "nginx2root៖ ช่องโหว่ใหม่ចំនួនប្រាំក្នុង nginx និងរបៀបដែល Cloudflare ការពារប្រភពពីចំណុចអាក្រក់បំផុត",
+   "summary": "F5 និង nginx.org បានបង្ហាញពីช่องโหว่ចំនួនដប់នៅក្នុង nginx ដែលក្នុងនោះមានប្រាំជាបញ្ហាខូចខាតអង្គចងចាំដែលគេស្គាល់ថាជា nginx2root។ ចន្លោះប្រហោងទាំងនេះអាចអនុញ្ញាតឱ្យអ្នកវាយប្រហារដែលគ្មានការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវបង្កការគាំងកម្មករ nginx ឬដំណើរការបទបញ្ជានៅលើម៉ាស៊ីនបម្រើ។ Cloudflare បានប្រកាសថាគែមរបស់ខ្លួនមិនត្រូវបានប៉ះពាល់នោះទេ ហើយប្រភពដែលอยู่ខាងក្រោយប្រូកស៊ី HTTP របស់ខ្លួនត្រូវបានការពារពីការវាយប្រហារ HTTP/2 និង HTTP/3។",
+   "impact": "អ្នកดูแลระบบនិងអ្នកអភិវឌ្ឍន៍ដែលដំណើរការកំណែ nginx រងគ្រោះគួរតែធ្វើបច្ចុប្បន្នភាពជាបន្ទាន់ ដោយសារម៉ាស៊ីនរាប់លានអាចនឹងត្រូវ曝露។ ខណៈពេលដែលប្រូកស៊ីដូចជា Cloudflare អាចការពារប្រភពពីការវាយប្រហារពីចម្ងាយមួយចំនួន ការធ្វើបច្ចុប្បន្នភាពពេញលេញនៅតែចាំបាច់ដើម្បីធានាសុវត្ថិភាពការកំណត់រចនាសម្ព័ន្ធទាំងអស់។",
+   "keyPoints": [
+    "F5 និង nginx.org បានបង្ហាញពីช่องโหว่ចំនួនដប់នៅក្នុង nginx នៅថ្ងៃទី១៨ ខែវិច្ឆិកា ឆ្នាំ២០២៦។",
+    "ក្រុម nginx2root មានបញ្ហាខូចខាតអង្គចងចាំចំនួនប្រាំដែលប៉ះពាល់ដល់ HTTP/2, HTTP/3, កម្មវិធីដោះស្រាយ និងប្រូកស៊ីអ៊ីមែល។",
+    "F5 ផ្តល់ចំណាត់ថ្នាក់ช่องโหว່ nginx2root នីមួយៗថាខ្ពស់ ឬសំខាន់។",
+    "អ្នកប្រើប្រាស់ត្រូវបានណែនាំឱ្យធ្វើបច្ចុប្បន្នភាពទៅ nginx កំណែ 1.30.7 ឬ 1.31.9 ឬកំណែដែលបានជួសជុលរបស់ក្រុមហ៊ុនផ្គត់ផ្គង់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "nginx2root：五个新的 nginx 漏洞以及 Cloudflare 如何保护源站免受最严重漏洞的影响",
+   "summary": "F5 和 nginx.org 公布了 nginx 中的十个漏洞，其中五个被称为 nginx2root 的内存破坏漏洞细节被公开。未经身份验证的攻击者可以利用这些漏洞使 nginx 工作进程崩溃或在服务器上运行命令。Cloudflare 宣布其边缘不受影响，其 HTTP 代理背后的源站也免受 HTTP/2 和 HTTP/3 攻击的影响。",
+   "impact": "运行受漏洞影响的 nginx 版本的管理员和开发人员应立即进行修复，因为数百万台主机可能面临暴露风险。虽然像 Cloudflare 这样的代理可以保护源站免受某些远程攻击，但仍然需要进行全面更新以确保所有配置的安全。",
+   "keyPoints": [
+    "F5 和 nginx.org 于 2026 年 11 月 18 日披露了 nginx 中的十个漏洞。",
+    "nginx2root 包含五个影响 HTTP/2、HTTP/3、解析器和邮件代理的内存破坏漏洞。",
+    "F5 将每个 nginx2root 漏洞评定为“高”或“严重”。",
+    "建议用户更新到 nginx 1.30.7 或 1.31.9 版本，或厂商修复的版本。"
+   ]
+  },
+  "ko": {
+   "title": "nginx2root: 5개의 새로운 nginx 취약점과 Cloudflare가 가장 심각한 위협으로부터 오리진을 보호하는 방법",
+   "summary": "F5와 nginx.org는 nginx에서 10개의 취약점을 공개했으며, 그중 nginx2root로 명명된 5개는 메모리 손상 결함입니다. 인증되지 않은 공격자는 이를 이용해 nginx 워커를 다운시키거나 서버에서 명령을 실행할 수 있습니다. Cloudflare는 자사의 엣지가 영향을 받지 않으며 HTTP 프록시 뒤에 있는 오리진은 HTTP/2 및 HTTP/3 공격으로부터 보호된다고 발표했습니다.",
+   "impact": "취약한 nginx 버전을 실행하는 관리자와 개발자는 수백만 대의 호스트가 노출될 수 있으므로 즉시 패치해야 합니다. Cloudflare 같은 프록시가 특정 원격 공격으로부터 오리진을 보호할 수 있지만, 모든 구성을 안전하게 보호하려면 완전한 업데이트가 필수적입니다.",
+   "keyPoints": [
+    "F5와 nginx.org는 2026년 11월 18일에 nginx의 10개 취약점을 공개했습니다.",
+    "nginx2root 그룹은 HTTP/2, HTTP/3, 리졸버 및 메일 프록시에 영향을 미치는 5개의 메모리 손상 결함을 포함합니다.",
+    "F5는 각 nginx2root 취약점을 높음 또는 심각으로 평가했습니다.",
+    "사용자는 nginx 1.30.7 또는 1.31.9 버전 혹은 공급업체의 패치된 빌드로 업데이트할 것을 권장합니다."
+   ]
+  }
+ }
+}

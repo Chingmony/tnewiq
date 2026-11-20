@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0d71196c06f77318",
+ "contentHash": "3096562fe58e5a4e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T03:28:32.058Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon CloudFront adds IP based routing and connection logs to SaaS Manager",
+   "summary": "Amazon CloudFront now supports IP-based routing, enabling web development and SaaS platforms to serve different customer tiers on the same wildcard domain by routing them using IP addresses. Platforms can use dedicated Anycast static IP address lists for premium tiers and shared addresses for free tiers. Additionally, connection logs now record HTTPS connections to these tenants to assist with troubleshooting.",
+   "impact": "This update could allow developers and technology users to manage multi-tenant routing and traffic shifting across service tiers without requiring customer-side changes. It may also help security and operations teams troubleshoot client connection issues using the new connection logs.",
+   "keyPoints": [
+    "CloudFront now supports routing traffic based on IP addresses for wildcard domains.",
+    "Dedicated Anycast static IP lists can be used for specific customer tiers while free tiers use shared addresses.",
+    "Connection logs now record HTTPS connections to help troubleshoot client connectivity.",
+    "Features are available at all CloudFront edge locations."
+   ]
+  },
+  "km": {
+   "title": "Amazon CloudFront បន្ថែមការបញ្ជូនបន្តផ្អែកលើ IP និងកំណត់ហេតុការតភ្ជាប់ទៅកាន់ SaaS Manager",
+   "summary": "Amazon CloudFront ឥឡូវនេះអនុញ្ញាតឱ្យវេទិកាអភិវឌ្ឍន៍បណ្តាញ និង SaaS បម្រើអតិថិជនតាមកម្រិតផ្សេងៗនៅលើដែន wildcard តែមួយ ដោយប្រើអាសយដ្ឋាន IP ដើម្បីបញ្ជូនពួកវាទៅកាន់ការកំណត់រចនាសម្ព័ន្ធត្រឹមត្រូវ។ វេទិកាអាចប្រើបញ្ជីអាសយដ្ឋាន IP σταтиក Anycast ដាច់ដោយឡែកសម្រាប់កម្រិតបុព្វលាភ និងអាសយដ្ឋានដែលបានចែករំលែកសម្រាប់កម្រិតឥតគិតថ្លៃ។ លើសពីនេះ កំណត់ហេតុការតភ្ជាប់ឥឡូវនេះក៏កត់ត្រាការតភ្ជាប់ HTTPS ទៅកាន់អ្នកជួលទាំងនេះផងដែរ ដើម្បីជួយក្នុងការដោះស្រាយបញ្ហា។",
+   "impact": "ការអាប់ដេតនេះអាចអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាគ្រប់គ្រងការបញ្ជូនបន្តរវាងអ្នកជួលច្រើន និងការប្តូរចរាចរណ៍ដោយមិនចាំបាច់ឱ្យអតិថិជនធ្វើការផ្លាស់ប្តូរណាមួយឡើយ។ វាពិតជាអាចជួយដល់ក្រុមសន្តិសុខ និងប្រតិបត្តិការក្នុងការដោះស្រាយបញ្ហាការតភ្ជាប់របស់អតិថិជនផងដែរ។",
+   "keyPoints": [
+    "CloudFront ឥឡូវនេះគាំទ្រការបញ្ជូនបន្តចរាចរណ៍ដោយផ្អែកលើអាសយដ្ឋាន IP សម្រាប់ដែន wildcard ។",
+    "បញ្ជី IP σταтиក Anycast ផ្តាច់មុខអាចប្រើប្រាស់សម្រាប់កម្រិតអតិថិជនជាក់លាក់។",
+    "កំណត់ហេតុការតភ្ជាប់កត់ត្រាការតភ្ជាប់ HTTPS ដើម្បីជួយដោះស្រាយបញ្ហាតភ្ជាប់របស់អតិថិជន។",
+    "មុខងារទាំងនេះមាននៅគ្រប់ទីតាំងគែមរបស់ CloudFront ទាំងអស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon CloudFront 为 SaaS Manager 添加基于 IP 的路由和连接日志",
+   "summary": "Amazon CloudFront 现在允许网络开发和 SaaS 平台通过使用 IP 地址将不同级别的客户路由到正确的配置，从而在同一个通配符域上为其提供服务。平台可以为高级客户使用专用的 Anycast 静态 IP 地址列表，为免费客户使用共享的 CloudFront IP 地址。此外，这些客户还可以通过连接日志来了解查看者连接情况，从而帮助排查故障。",
+   "impact": "此更新可能使开发人员和技术用户能够在不同的服务层级之间管理多租户路由和流量切换，而无需客户进行任何更改。它还可能帮助安全和运维团队使用新的连接日志排查客户端连接问题。",
+   "keyPoints": [
+    "CloudFront 现在支持基于通配符域的 IP 地址路由流量。",
+    "可以为特定客户层级使用专用的 Anycast 静态 IP 列表。",
+    "连接日志现在记录 HTTPS 连接以帮助排查客户端连接问题。",
+    "这些功能在所有 CloudFront 边缘节点均可用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon CloudFront, SaaS Manager에 IP 기반 라우팅 및 연결 로그 추가",
+   "summary": "Amazon CloudFront는 이제 웹 개발 및 SaaS 플랫폼이 IP 주소를 사용하여 올바른 구성으로 라우팅함으로써 동일한 와일드카드 도메인에서 서로 다른 등급의 고객을 지원할 수 있도록 허용합니다. 플랫폼은 프리미엄 등급을 위해 전용 Anycast 정적 IP 주소 목록을 사용하고 무료 등급을 위해 공유 주소를 사용할 수 있습니다. 또한 연결 로그는 이러한 테넌트에 대한 HTTPS 연결을 기록하여 문제 해결을 돕습니다.",
+   "impact": "이 업데이트를 통해 개발자와 기술 사용자는 고객 측의 변경 없이도 서비스 계층 간 멀티 테넌트 라우팅 및 트래픽 전환을 관리할 수 있습니다. 또한 보안 및 운영 팀이 새로운 연결 로그를 사용하여 클라이언트 연결 문제를 해결하는 데 도움 이 될 수 있습니다.",
+   "keyPoints": [
+    "CloudFront는 이제 와일드카드 도메인에 대한 IP 주소 기반 트래픽 라우팅을 지원합니다.",
+    "전용 Anycast 정적 IP 목록을 특정 고객 계층에 사용할 수 있습니다.",
+    "연결 로그는 이제 클라이언트 연결 문제 해결을 돕기 위해 HTTPS 연결을 기록합니다.",
+    "이러한 기능은 모든 CloudFront 엣지 로케이션에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6ff8205dc6f593f9",
+ "contentHash": "4c180a9fd24be5ab",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T03:28:42.428Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon CloudFront simplifies domain moves and onboarding for SaaS Manager",
+   "summary": "Amazon CloudFront has introduced features that allow web development platforms and SaaS providers to move customer domains to their platforms in a single request with zero downtime. Using multi-tenant distributions, providers can serve multiple customer domains from a single shared configuration. The new OnDomainTakeover option verifies ownership via DNS records and facilitates domain migration within or across AWS accounts without requiring prior distribution disablement or AWS Support intervention.",
+   "impact": "These capabilities could streamline onboarding and domain migration processes for SaaS providers and developers managing multi-tenant architectures on AWS. Security and development teams may benefit from reduced downtime and simplified administrative workflows during tenant transitions.",
+   "keyPoints": [
+    "Customer domains can be moved in a single request with no downtime.",
+    "Multi-tenant distributions allow serving many customer domains from one shared configuration.",
+    "The OnDomainTakeover option verifies domain ownership through DNS records.",
+    "Domains can be served over HTTP before a TLS certificate is issued and attached."
+   ]
+  },
+  "km": {
+   "title": "Amazon CloudFront ធ្វើឱ្យការផ្លាស់ប្តូរដែន និងការដាក់ឱ្យប្រើប្រាស់សម្រាប់ SaaS Manager កាន់តែងាយស្រួល",
+   "summary": "Amazon CloudFront បានដាក់ឱ្យប្រើប្រាស់មុខងារថ្មីដែលអនុញ្ញាតឱ្យវេទិកាអភិវឌ្ឍន៍បណ្តាញ និងអ្នកផ្តល់សេវា SaaS អាចផ្លាស់ប្តូរដែនរបស់អតិថិជនទៅកាន់វេទិកាឃុំគ្រងរបស់ពួកគេក្នុងសំណើតែមួយដោយគ្មានការផ្អាកដំណើរការ។ ការចែកចាយពហុអ្នកជួល (multi-tenant) អនុញ្ញាតឱ្យអ្នកផ្តល់សេវាទាំងនេះបម្រើដែនអតិថិជនជាច្រើនពីការកំណត់រចនាសម្ព័ន្ធរួមាតមួយ។ ជម្រើស OnDomainTakeover ថ្មីពិនិត្យមើលកម្មសិទ្ធិដែនតាមរយៈកំណត់ត្រា DNS និងសម្រួលដល់ការផ្ទេរដែនទាំងក្នុងគណនី AWS ឬឆ្លងគណនី។",
+   "impact": "សមត្ថភាពទាំងនេះអាចជួយសម្រួលដល់ដំណើរការដាក់ឱ្យប្រើប្រាស់ និងការផ្ទេរដែនសម្រាប់អ្នកផ្តល់សេវា SaaS និងអ្នកអភិវឌ្ឍន៍ដែលគ្រប់គ្រងស្ថាបត្យកម្មពហុអ្នកជួលនៅលើ AWS។ ក្រុមការងារផ្នែកសន្តិសុខនិងការអភិវឌ្ឍន៍អាចទទួលបានផលប្រយោជន៍ពីការកាត់បន្ថយពេលវេលាផ្អាកដំណើរការនិងភាពងាយស្រួលក្នុងការគ្រប់គ្រង។",
+   "keyPoints": [
+    "ដែនអតិថិជនអាចត្រូវបានផ្លាស់ប្តូរក្នុងសំណើតែមួយដោយគ្មានការផ្អាកដំណើរការ។",
+    "ការចែកចាយពហុអ្នកជួលអនុញ្ញាតឱ្យបម្រើដែនអតិថិជនជាច្រើនពីការកំណត់រចនាសម្ព័ន្ធរួមតែមួយ។",
+    "ជម្រើស OnDomainTakeover ផ្ទៀងផ្ទាត់កម្មសិទ្ធិដែនតាមរយៈកំណត់ត្រា DNS។",
+    "ដែនអាចត្រូវបានបម្រើតាមរយៈ HTTP មុនពេលវិញ្ញាបនបត្រ TLS ត្រូវបានចេញនិងភ្ជាប់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon CloudFront 简化了 SaaS Manager 的域名迁移和入门流程",
+   "summary": "Amazon CloudFront 推出了一项新功能，使Web开发平台和SaaS提供商能够在单次请求中将客户域名无停机地迁移到其平台。借助多租户分发，提供商可以通过单个共享配置为多个客户域名提供服务。全新的 OnDomainTakeover 选项通过 DNS 记录检查域名所有权，并在 AWS 账户内部或跨账户单次请求中移动一个或多个域名。",
+   "impact": "这些功能可以简化在 AWS 上管理多租户架构的 SaaS 提供商和开发人员的客户入门和域名迁移流程。安全和开发团队可能会受益于租户过渡期间减少的停机时间以及简化的管理工作流。",
+   "keyPoints": [
+    "客户域名可以在单次请求中迁移且不会产生停机时间。",
+    "多租户分发允许通过一个共享配置提供多个客户域名服务。",
+    "OnDomainTakeover 选项通过 DNS 记录验证域名所有权。",
+    "在签发并附加 TLS 证书之前，可以通过 HTTP 提供域名服务。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon CloudFront, SaaS Manager를 위한 도메인 이전 및 온보딩 간소화",
+   "summary": "Amazon CloudFront는 웹 개발 플랫폼과 SaaS 제공업체가 다운타임 없이 단일 요청으로 고객 도메인을 플랫폼으로 이전할 수 있는 기능을 도입했습니다. 멀티 테넌트 배포를 통해 제공업체는 하나의 공유 설정에서 여러 고객 도메인을 서비스할 수 있습니다. 새로운 OnDomainTakeover 옵션은 DNS 레코드를 통해 도메인 소유권을 확인하고 단일 요청으로 하나 이상의 도메인을 AWS 계정 내에서나 계정 간에 이동시킵니다.",
+   "impact": "이러한 기능은 AWS에서 멀티 테넌트 아키텍처를 관리하는 SaaS 제공업체와 개발자의 온보딩 및 도메인 이전 프로세스를 간소화할 수 있습니다. 보안 및 개발 팀은 테넌트 전환 중 다운타임 감소와 간소화된 관리 워크플로우의 이점을 얻을 수 있습니다.",
+   "keyPoints": [
+    "다운타임 없이 단일 요청으로 고객 도메인을 이전할 수 있습니다.",
+    "멀티 테넌트 배포를 통해 하나의 공유 설정으로 여러 고객 도메인을 서비스할 수 있습니다.",
+    "OnDomainTakeover 옵션은 DNS 레코드를 통해 도메인 소유권을 확인합니다.",
+    "TLS 인증서가 발급되고 연결되기 전에 HTTP를 통해 도메인을 서비스할 수 있습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7fdd41f0ffe863d0",
+ "contentHash": "047feaf9c7d59e49",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T03:25:21.112Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon SageMaker Inference: 2026 launches in review, part 2",
+   "summary": "This post reviews the 2026 launches for Amazon SageMaker Inference by addressing common production challenges teams face, such as configuration choices, scaling large models, managing multi-Region traffic, and controlling costs. It follows a hypothetical team scaling a customer support assistant to handle multiple product lines, larger models, and multi-Region deployment. Key updates include expanded inference recommendations available through Amazon SageMaker AI Studio, the SageMaker Python SDK, and coding agents, allowing teams to evaluate configurations based on latency, throughput, and cost targets.",
+   "impact": "Development and MLOps teams could benefit from integrated benchmarking and optimization tools directly within their existing notebooks, CI pipelines, and coding workflows, helping them maintain performance targets while keeping GPU costs flat.",
+   "keyPoints": [
+    "Inference recommendations are now accessible through Amazon SageMaker AI Studio as a low-code workflow.",
+    "The feature is integrated into the SageMaker Python SDK v3 for notebooks and CI pipelines.",
+    "Engineers can evaluate candidate configurations using real GPU infrastructure with tools like NVIDIA AIPerf.",
+    "Updates help teams determine adapter capacity and concurrency limits to meet latency goals."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យដំណើរការ Amazon SageMaker Inference ក្នុងឆ្នាំ ២០២៦៖ ភាគទី ២",
+   "summary": "អត្ថបទនេះពិនិត្យមើលការដាក់ឱ្យដំណើរការសម្រាប់ Amazon SageMaker Inference ក្នុងឆ្នាំ ២០២៦ ដោយដោះស្រាយបញ្ហាប្រឈមក្នុងការផលិតដូចជាការជ្រើសរើសរចនាសម្ព័ន្ធ ការពង្រីកទំហំម៉ូដែល និងការគ្រប់គ្រងតម្លៃ។ វាពិពណ៌នាអំពីក្រុមការងារសម្មតិកម្មមួយដែលពង្រីកជំនួយការគាំទ្រអតិថិជនដើម្បីจัดการกับម៉ូដែលធំជាងមុន និងពហុតំបន់។ ការអាប់ដេតសំខាន់ៗរួមមានការណែនាំអំពីការអនុវត្តដែលពង្រីកតាមរយៈ Amazon SageMaker AI Studio និង SageMaker Python SDK ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍និង MLOps អាចទទួលបានអត្ថប្រយោជន៍ពីឧបករណ៍វាយតម្លៃដែលរួមបញ្ចូលគ្នាប៉ុន្តែរក្សាតម្លៃ GPU ឱ្យនៅថេរ។",
+   "keyPoints": [
+    "ការណែនាំអំពីការអនុវត្តឥឡូវនេះអាចប្រើប្រាស់បានតាមរយៈ Amazon SageMaker AI Studio ។",
+    "លក្ខណៈពិសេសនេះត្រូវបានរួមបញ្ចូលទៅក្នុង SageMaker Python SDK v3 ។",
+    "វិស្វករអាចវាយតម្លៃការកំណត់រចនាសម្ព័ន្ធដោយប្រើប្រាស់โครงสร้างพื้นฐาน GPU ពិតប្រាកដ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon SageMaker Inference：2026年发布回顾（第二部分）",
+   "summary": "本文回顾了Amazon SageMaker Inference在2026年的发布情况，探讨了团队在生产环境中遇到的常见问题，例如配置选择、扩展大模型以及管理多区域流量。文章通过一个假设的团队案例，展示了如何扩展客户支持助手以适应更大的模型和多区域部署。主要更新包括通过Amazon SageMaker AI Studio、SageMaker Python SDK和编码代理提供的扩展推理建议。",
+   "impact": "开发和运维团队可以利用集成在其现有工作流中的基准测试和优化工具，在保持GPU成本不变的同时满足性能目标。",
+   "keyPoints": [
+    "推理建议现在可以通过Amazon SageMaker AI Studio作为低代码工作流进行访问。",
+    "该功能已集成到SageMaker Python SDK v3中以用于笔记本和CI管道。",
+    "工程师可以使用真实的GPU基础设施评估候选配置。",
+    "更新帮助团队确定适配器容量和并发限制以满足延迟目标。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon SageMaker Inference: 2026년 출시 리뷰, 파트 2",
+   "summary": "이 게시물은 구성 선택, 대형 모델 확장, 다중 리전 트래픽 관리 등 운영 환경에서 팀이 직면하는 일반적인 과제를 다루며 Amazon SageMaker Inference의 2026년 출시 내용을 검토합니다. 고객 지원 어시스턴트를 확장하여 더 큰 모델과 다중 리전을 지원하는 가상의 팀을 다룹니다. 주요 업데이트에는 Amazon SageMaker AI Studio, SageMaker Python SDK, 코딩 에이전트를 통해 제공되는 확장된 추론 권장 사항이 포함됩니다.",
+   "impact": "개발 및 MLOps 팀은 기존 노트북, CI 파이프라인, 코딩 워크플로 내에서 직접 통합된 벤치마킹 및 최적화 도구를 활용하여 GPU 비용을 유지하면서 성능 목표를 달성할 수 있습니다.",
+   "keyPoints": [
+    "추론 권장 사항은 이제 Amazon SageMaker AI Studio를 통해 로우코드 워크플로로 제공됩니다.",
+    "해당 기능은 노트북 및 CI 파이프라인용 SageMaker Python SDK v3에 통합되었습니다.",
+    "엔지니어는 실제 GPU 인프라를 사용하여 후보 구성을 벤치마킹할 수 있습니다.",
+    "업데이트를 통해 팀은 지연 시간 목표를 충족하기 위해 어댑터 용량과 동시성을 파악할 수 있습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "dbdfd815c05fff4c",
+ "contentHash": "75679a56b185c1d8",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T03:29:02.431Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon WorkSpaces Applications now supports WebAuthn redirection",
+   "summary": "Amazon WorkSpaces Applications now supports WebAuthn redirection, allowing users to sign in to websites and applications during a streaming session using a FIDO2 authenticator on their local device. This feature forwards WebAuthn requests from the streaming session to the user's device, where the response is signed without private keys leaving the device. Administrators can enable this feature per stack via the console or API, and Windows fleets can limit it to specific processes using an allow list.",
+   "impact": "This feature could help organizations with strict phishing-resistant multi-factor authentication requirements stream applications that previously required weaker sign-in methods. Security teams may benefit from the secure handling of private keys, which remain entirely on the local device.",
+   "keyPoints": [
+    "Supports FIDO2 authenticators such as security keys, Windows Hello, and Touch ID.",
+    "Private keys never leave the user's local device.",
+    "Available at no additional charge in all AWS commercial and AWS GovCloud (US) Regions where WorkSpaces Applications is offered.",
+    "Requires an agent released on or after October 20, 2026, and specific client versions for Windows or macOS."
+   ]
+  },
+  "km": {
+   "title": "Amazon WorkSpaces Applications ឥឡូវនេះគាំទ្រការបញ្ជូនបន្ត WebAuthn ហើយ",
+   "summary": "Amazon WorkSpaces Applications ឥឡូវនេះគាំទ្រការបញ្ជូនបន្ត WebAuthn ដែលអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ចូលទៅក្នុងគេហទំព័រ និងកម្មវិធីក្នុងអំឡុងពេលវគ្គស្ទ្រីមដោយប្រើឧបករណ៍ផ្ទៀងផ្ទាត់ FIDO2 នៅលើឧបករណ៍ក្នុងស្រុករបស់ពួកគេ។ លក្ខណៈពិសេសនេះបញ្ជូនបន្តសំណើ WebAuthn ទៅកាន់ឧបករណ៍របស់អ្នកប្រើប្រាស់ ដែលជាកន្លែងដែលវាត្រូវបានចុះហត្ថលេខាដោយមិនចាំបាច់ឱ្យកូនសោឯកជនចាកចេញពីឧបករណ៍នោះទេ។ អ្នកគ្រប់គ្រងអាចបើកដំណើរការវាសម្រាប់កកុញនីមួយៗតាមរយៈកុងសូល ឬ API។",
+   "impact": "មុខងារនេះអាចជួយស្ថាប័ននានាដែលត្រូវការការផ្ទៀងផ្ទាត់ពហុកត្តាប្រឆាំងនឹងការបន្លំ ឱ្យស្ទ្រីមកម្មវិធីដែលពីមុនតម្រូវឱ្យប្រើប្រាស់វិធីសាស្ត្រចូលកាន់តែខ្សោយ។ ក្រុមសន្តិសុខអាចទទួលបានអត្ថប្រយោជន៍ពីការរក្សាកូនសោឯកជននៅលើឧបករណ៍ក្នុងស្រុករបស់អ្នកប្រើប្រាស់ដោយសុវត្ថិភាព។",
+   "keyPoints": [
+    "គាំទ្រឧបករណ៍ផ្ទៀងផ្ទាត់ FIDO2 ដូចជាកូនសោសុវត្ថិភាព Windows Hello ឬ Touch ID។",
+    "កូនសោឯកជនមិនដែលចាកចេញពីឧបករណ៍របស់អ្នកប្រើប្រាស់ឡើយ។",
+    "អាចប្រើប្រាស់បានដោយមិនគិតថ្លៃបន្ថែមនៅក្នុងតំបន់ពាណិជ្ជកម្ម AWS និងតំបន់ AWS GovCloud (US)។",
+    "ទាមទារភ្នាក់ងារ WorkSpaces Applications ដែលបានចេញផ្សាយនៅថ្ងៃទី 20 ខែតុលា ឆ្នាំ 2026 ឬក្រោយនោះ និងអតិថិជនសម្រាប់ Windows ឬ macOS ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon WorkSpaces Applications 现已支持 WebAuthn 重定向",
+   "summary": "Amazon WorkSpaces Applications 现已支持 WebAuthn 重定向，允许用户在流式传输会话中使用本地设备上的 FIDO2 身份验证器登录网站和应用程序。该功能将流式会话中的 WebAuthn 请求转发到用户的本地设备进行签名，私钥不会离开用户设备。管理员可以通过控制台或 API 按堆栈启用此功能，Windows 舰队还可以将其限制在允许的进程白名单中。",
+   "impact": "此功能可以帮助有防钓鱼多重身份验证需求的企业组织在其流式会话中使用 FIDO2 身份验证器。安全团队可能会受益于私钥保留在本地设备上的安全机制，从而避免使用较弱的登录方法。",
+   "keyPoints": [
+    "支持安全密钥、Windows Hello 或 Touch ID 等 FIDO2 身份验证器。",
+    "私钥永远不会离开用户的本地设备。",
+    "在支持 WorkSpaces Applications 的所有 AWS 商业区域和 AWS GovCloud (US) 区域免费提供。",
+    "需要使用 2026 年 10 月 20 日或之后发布的代理镜像，以及 Windows 或 macOS 客户端。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon WorkSpaces Applications, WebAuthn 리디렉션 지원 시작",
+   "summary": "Amazon WorkSpaces Applications가 이제 WebAuthn 리디렉션을 지원하여 사용자가 스트리밍 세션 내에서 로컬 기기의 FIDO2 인증기를 사용해 웹사이트와 애플리케이션에 로그인할 수 있게 되었습니다. 이 기능은 스트리밍 세션의 WebAuthn 요청을 사용자의 기기로 전달하여 서명하며, 개인 키는 기기를 떠나지 않습니다. 관리자는 콘솔이나 API를 통해 스택별로 이 기능을 활성화할 수 있습니다.",
+   "impact": "이 기능은 피싱 방지 다중 요소 인증 요구 사항이 있는 조직이 더 약한 로그인 방식을 피하고 스트리밍 세션에서 안전한 인증을 사용할 수 있도록 돕습니다. 보안 팀은 개인 키가 로컬 기기 내에 안전하게 유지되는 점으로부터 이점을 얻을 수 있습니다.",
+   "keyPoints": [
+    "보안 키, Windows Hello, Touch ID와 같은 FIDO2 인증기를 지원합니다.",
+    "개인 키는 사용자의 로컬 기기를 절대 벗어나지 않습니다.",
+    "WorkSpaces Applications가 제공되는 모든 AWS 상용 리전 및 AWS GovCloud (US) 리전에서 추가 비용 없이 사용할 수 있습니다.",
+    "2026년 10월 20일 이후에 출시된 WorkSpaces Applications 에이전트와 Windows 또는 macOS용 클라이언트가 필요합니다."
+   ]
+  }
+ }
+}

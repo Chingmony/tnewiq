@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8e0c275b5fccac23",
+ "contentHash": "ef3b4b2fbc0a3778",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T03:29:30.792Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Cognito now supports AWS Secrets Manager for app client secrets",
+   "summary": "Amazon Cognito has integrated with AWS Secrets Manager, allowing users to store and manage user pool app client secrets directly in Secrets Manager. Previously, these secrets had to be managed and rotated inside Cognito. The new integration enables features like rotation, IAM-based access control, and encryption using AWS KMS keys.",
+   "impact": "This integration could help developers and security teams meet compliance requirements and handle periodic credential rotation more easily. It may also help keep secrets out of the console.",
+   "keyPoints": [
+    "Amazon Cognito now integrates with AWS Secrets Manager.",
+    "Users can store and manage app client secrets in Secrets Manager.",
+    "Features include rotation, IAM policies, and encryption with AWS KMS keys.",
+    "Available in all AWS Regions where both services are offered, except AWS European Sovereign Cloud (Germany)."
+   ]
+  },
+  "km": {
+   "title": "Amazon Cognito ឥឡូវនេះគាំទ្រ AWS Secrets Manager សម្រាប់លេខសម្ងាត់អតិថិជនកម្មវិធី",
+   "summary": "Amazon Cognito បានរួមបញ្ចូលជាមួយ AWS Secrets Manager ដែលអនុញ្ញាតឱ្យអ្នករក្សាទុកនិងគ្រប់គ្រងលេខសម្ងាត់អតិថិជនកម្មវិធីពងនីមួយៗនៅក្នុង Secrets Manager។ កាលពីមុន អ្នកត្រូវគ្រប់គ្រងនិងប្ដូរលេខសម្ងាត់ទាំងនេះនៅក្នុង Cognito ដោយផ្ទាល់។ ការរួមបញ្ចូលគ្នានេះជួយសម្រួលដល់ការគ្រប់គ្រងការប្ដូរ ការគ្រប់គ្រងការចូលប្រើតាមរយៈ IAM និងការអ៊ិនគ្រីប។",
+   "impact": "វាអាចជួយដល់ក្រុមអភិវឌ្ឍន៍ និងសន្តិសុខក្នុងការបំពេញតាមតម្រូវការអនុលោមភាព និងការប្ដូរព័ត៌មានសម្ងាត់ជាប្រចាំ។ វាក៏អាចជួយការពារមិនឱ្យមានលេខសម្ងាត់នៅលើកុងសូលផងដែរ។",
+   "keyPoints": [
+    "Amazon Cognito ឥឡូវនេះរួមបញ្ចូលជាមួយ AWS Secrets Manager។",
+    "អនុញ្ញាតឱ្យរក្សាទុក និងគ្រប់គ្រងលេខសម្ងាត់អតិថិជនកម្មវិធី។",
+    "គាំទ្រការប្ដូរ ការគ្រប់គ្រងការចូលប្រើតាមរយៈ IAM និងការអ៊ិនគ្រីបជាមួយ AWS KMS។",
+    "មាននៅក្នុងតំបន់ AWS ទាំងអស់ លើកលែងតែ AWS European Sovereign Cloud (Germany)។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Cognito 现已支持将 AWS Secrets Manager 用于应用客户端密钥",
+   "summary": "Amazon Cognito 现已集成 AWS Secrets Manager，允许用户在 Secrets Manager 中存储和管理用户池应用客户端密钥。此前，开发人员必须直接在 Cognito 中管理和轮换这些密钥。通过该集成，用户可以利用 Secrets Manager 的轮换、IAM 访问控制以及加密功能。",
+   "impact": "此集成可能有助于开发人员和安全团队满足合规要求并执行定期凭证轮换。它还有助于避免在控制台中明文保留密钥。",
+   "keyPoints": [
+    "Amazon Cognito 现已集成 AWS Secrets Manager。",
+    "用户可以在 Secrets Manager 中存储和管理应用客户端密钥。",
+    "支持轮换、IAM 访问控制以及 AWS KMS 加密功能。",
+    "适用于除 AWS European Sovereign Cloud (Germany) 之外的所有提供这两个服务的 AWS 区域。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Cognito, 앱 클라이언트 비밀 3자를 위한 AWS Secrets Manager 지원 추가",
+   "summary": "Amazon Cognito가 AWS Secrets Manager와 통합되어 사용자 풀 앱 클라이언트 비밀을 Secrets Manager에 저장하고 관리할 수 있게 되었습니다. 이전에는 Cognito에서 직접 이러한 비밀을 관리하고 순환해야 했습니다. 이번 통합을 통해 순환, IAM 기반 액세스 제어, 암호화 등의 기능을 활용할 수 있습니다.",
+   "impact": "이번 통합은 개발자와 보안 팀이 준법 감제 요구 사항을 충족하고 주기적인 자격 증명 순환을 관리하는 데 도움을 줄 수 있습니다. 또한 콘솔에 비밀이 노출되는 것을 방지하는 데 기여할 수 있습니다.",
+   "keyPoints": [
+    "Amazon Cognito가 AWS Secrets Manager와 통합되었습니다.",
+    "Secrets Manager에서 앱 클라이언트 비밀을 저장하고 관리할 수 있습니다.",
+    "순환, IAM 정책을 이용한 액세스 제어, AWS KMS 키 암호화 기능을 제공합니다.",
+    "AWS European Sovereign Cloud (Germany)를 제외한 모든 AWS 리전에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

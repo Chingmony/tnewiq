@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "74f0816ca7f55a71",
+ "contentHash": "ffbd316a353f80e7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T03:29:51.132Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Enabling Real-Time AI for Scientific Instruments with GPU-Native Data Acquisition",
+   "summary": "Analyzing sensor measurements in real-time allows AI to adjust processes, guide experiments, and search for better operating conditions in science and industry. However, limits on how quickly measured data can be moved and processed often dictate the design of instruments. These limits span from readout electronics to acquisition timing.",
+   "impact": "Removing data movement and processing bottlenecks could allow instrument makers to simplify designs and achieve new capabilities. This approach may change how scientific instruments are engineered and how data is acquired.",
+   "keyPoints": [
+    "Real-time sensor measurement analysis enables AI to adjust processes and guide experiments.",
+    "Data movement and processing limits often shape instrument design.",
+    "Constraints affect everything from readout electronics to acquisition timing."
+   ]
+  },
+  "km": {
+   "title": "การបើកដំណើរការ AI ពេលវេលាពិតសម្រាប់ឧបករណ៍វិទ្យាសាស្ត្រជាមួយការទិញទិន្នន័យដើមរបស់ GPU",
+   "summary": "ការវិភាគការវាស់វែងឧបករណ៍ចាប់សញ្ញាក្នុងពេលវេលាពិតអាចឱ្យ AI លៃតម្រូវដំណើរការ ណែនាំការពិសោធន៍ និងស្វែងរកលក្ខខណ្ឌប្រតិបត្តិការកាន់តែប្រសើរក្នុងវិទ្យាសាស្ត្រ និងឧស្សាហកម្ម។ ទោះជាយ៉ាងណាក៏ដោយ កម្រិតនៃការផ្លាស់ប្តូរ និងដំណើរការទិន្នន័យដែលបានវាស់វែងយ៉ាងលឿន มักនឹងកំណត់ការរចនាឧបករណ៍។ ដែនកំណត់ទាំងនេះមានចាប់ពីគ្រឿងអេឡិចត្រូនិកអានរហូតដល់ពេលវេលាទទួលបាន។",
+   "impact": "ការលុបបំបាត់ការកកស្ទះចលនាទិន្នន័យ និងដំណើរការអាចអនុញ្ញាតឱ្យអ្នកបង្កើតឧបករណ៍ធ្វើឱ្យការរចនារបស់ពួកគេងាយស្រួល និងសម្រេចបានសមត្ថភាពថ្មី។ វិធីសាស្ត្រនេះអាចផ្លាស់ប្តូររបៀបដែលឧបករណ៍វិទ្យាសាស្ត្រត្រូវបានវិស្វកម្ម និងរបៀបដែលទិន្នន័យត្រូវបានទទួល។",
+   "keyPoints": [
+    "ការវិភាគការវាស់វែងឧបករណ៍ចាប់សញ្ញាពេលវេលាពិតអនុញ្ញាតឱ្យ AI លៃតម្រូវដំណើរការ និងណែនាំការពិសោធន៍។",
+    "ដែនកំណត់ចលនាទិន្នន័យ និងដំណើរការជារឿយៗរៀបចំការរចនាឧបករណ៍។",
+    "ការរឹតបន្តឹងប៉ះពាល់ដល់អ្វីៗគ្រប់យ៉ាងចាប់ពីគ្រឿងអេឡិចត្រូនិកអានរហូតដល់ពេលវេលាទទួលបាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过GPU原生数据采集为科学仪器启用实时AI",
+   "summary": "在科学和工业领域，实时分析传感器测量数据可以使AI能够调整过程、指导实验并寻找更好的运行条件。然而，测量数据传输和处理速度的限制往往决定了仪器的设计，从读出电子学到采集时序。",
+   "impact": "消除数据传输和处理的瓶颈可以使仪器制造商简化设计并实现新的可能性。这种方法可能会改变科学仪器的设计方式以及数据的采集方式。",
+   "keyPoints": [
+    "实时分析传感器测量数据使AI能够调整过程和指导实验。",
+    "数据传输和处理的限制往往决定了仪器的设计。",
+    "这些限制影响了从读出电子学到采集时序的各个方面。"
+   ]
+  },
+  "ko": {
+   "title": "GPU 네이티브 데이터 수집을 통한 과학 기기용 실시간 AI 구현",
+   "summary": "과학 및 산업 분야에서 센서 측정값을 실시간으로 분석하면 AI가 프로세스를 조정하고, 실험을 안내하며, 더 나은 작동 조건을 찾을 수 있습니다. 그러나 측정된 데이터를 이동하고 처리할 수 있는 속도의 한계는 판독 전자 장치부터 수집 타이밍에 이르기까지 기기의 설계에 영향을 미치는 경우가 많습니다.",
+   "impact": "데이터 이동 및 처리 병목 현상을 제거하면 기기 제조업체가 설계를 단순화하고 새로운 가능성을 실현할 수 있습니다. 이 접근 방식은 과학 기기가 설계되는 방식과 데이터가 수집되는 방식을 변화시킬 수 있습니다.",
+   "keyPoints": [
+    "센서 측정값의 실시간 분석을 통해 AI가 프로세스를 조정하고 실험을 안내할 수 있습니다.",
+    "데이터 이동 및 처리 한계는 종종 기기 설계를 결정합니다.",
+    "제약 사항은 판독 전자 장치부터 수집 타이밍까지 모든 것에 영향을 미칩니다."
+   ]
+  }
+ }
+}

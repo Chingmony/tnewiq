@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "02d71e19ddfd8779",
+ "contentHash": "c16106e6a828089a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T03:28:21.888Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Aurora DSQL now delivers up to 50% higher write throughput",
+   "summary": "Amazon Aurora DSQL has introduced upgrades to its storage layer that deliver up to 50% higher write throughput for transactional workloads. Tables with constantly increasing primary keys, such as those using timestamps, identity columns, or time-ordered IDs like ULID and UUIDv7, experience even greater performance benefits. Tests showed that audit log tables keyed by event time accepted up to 200% more inserts per second. This update is automatically available for both new and existing clusters across all AWS Regions where Aurora DSQL is offered, at no extra cost.",
+   "impact": "Developers and technology users managing write-heavy tables or applications like audit logs and event feeds could experience faster data loads and improved transaction efficiency without modifying their cluster configurations or incurring extra costs.",
+   "keyPoints": [
+    "Storage layer upgrades provide up to 50% higher write throughput for transactional workloads.",
+    "Tables with time-ordered primary keys like timestamps, ULID, or UUIDv7 see even greater benefits.",
+    "Audit log tables tested with event time keys accepted up to 200% more inserts per second.",
+    "The upgrade is available in all AWS Regions for new and existing clusters at no additional cost."
+   ]
+  },
+  "km": {
+   "title": "Amazon Aurora DSQL ឥឡូវនេះផ្តល់នូវកម្រិតបញ្ជូនការសរសេរខ្ពស់ជាងមុនរហូតដល់ 50%",
+   "summary": "តាមរយៈការអាប់ដេតស្រទាប់ផ្ទុកទិន្នន័យ Amazon Aurora DSQL ឥឡូវនេះផ្ដល់នូវកម្រិតបញ្ជូនការសរសេរខ្ពស់ជាងមុនរហូតដល់ 50% សម្រាប់បន្ទុកការងារប្រតិបត្តិការជាច្រើន។ តារាងដែលមានសោបឋមចេះតែកើនឡើងឥតឈប់ឈរ ទទួលបានផលប្រយោជន៍កាន់តែប្រសើរឡើងថែមទៀត។ ការកែលម្អនេះមាននៅលើគ្រប់តំបន់ AWS ដែល Aurora DSQL មានសម្រាប់ទាំង cụm ថ្មី និងចាស់ ដោយមិនគិតថ្លៃបន្ថែមទេ។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យា និងអ្នកប្រើប្រាស់អាចទទួលបានការផ្ទុកទិន្នន័យលឿនជាងមុនសម្រាប់តារាងដែលត្រូវការសរសេរច្រើន ដោយមិនចាំបាច់ចំណាយប្រាក់បន្ថែម។",
+   "keyPoints": [
+    "ការអាប់ដេតស្រទាប់ផ្ទុកទិន្នន័យផ្ដល់នូវកម្រិតបញ្ជូនការសរសេរខ្ពស់ជាងមុនរហូតដល់ 50%។",
+    "តារាងដែលមានសោបឋមតាមលំដាប់ពេលវេលាទទួលបានផលប្រយោជន៍កាន់តែខ្លាំង។",
+    "មាននៅលើគ្រប់តំបន់ AWS សម្រាប់ cụm ទាំងថ្មី និងចាស់ដោយឥតគិតថ្លៃ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Aurora DSQL 现在提供高达 50% 的更高写入吞吐量",
+   "summary": "通过对其存储层的升级，Amazon Aurora DSQL 现在为许多事务工作负载提供高达 50% 的更高写入吞吐量。主键不断递增的表（例如使用时间戳、标识列或按时间排序的 ID 如 ULID 或 UUIDv7 的表）可以获得更大的性能提升。测试显示，按事件时间键入的审计日志表每秒可接受多达 200% 的插入量。该改进适用于提供 Aurora DSQL 的所有 AWS 区域中的新集群和现有集群，且无需额外付费。",
+   "impact": "开发人员和技术用户在处理写入密集型表或诸如审计日志和事件流之类的应用程序时，可能会在不增加成本的情况下获得更快的加载速度和更高的写入性能。",
+   "keyPoints": [
+    "存储层升级为事务工作负载提供了高达 50% 的更高写入吞吐量。",
+    "具有按时间排序的主键的表可获得更显著的性能优势。",
+    "审计日志表测试显示每秒插入量提升高达 200%。",
+    "该改进已在所有提供 Aurora DSQL 的 AWS 区域对新老集群免费开放。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Aurora DSQL, 이제 최대 50% 더 높은 쓰기 처리량 제공",
+   "summary": "스토리지 계층 업그레이드를 통해 Amazon Aurora DSQL은 이제 많은 트랜잭션 워크로드에 대해 최대 50% 더 높은 쓰기 처리량을 제공합니다. 타임스탬프, ID 열 또는 ULID 및 UUIDv7과 같은 시간 순서 ID를 사용하는 테이블과 같이 기본 키가 지속적으로 증가하는 테이블은 훨씬 더 큰 이점을 얻습니다. 테스트에서 이벤트 시간별로 키가 지정된 감사 로그 테이블은 초당 최대 200% 더 많은 삽입을 처리했습니다. 이 개선 사항은 Aurora DSQL이 지원되는 모든 AWS 리전의 신규 및 기존 클러스터에서 추가 비용 없이 사용할 수 있습니다.",
+   "impact": "개발자와 기술 사용자는 추가 비용 없이 더 빠른 데이터 로드와 향상된 쓰기 성능을 경험할 수 있으며, 쓰기 작업이 많은 테이블 및 애플리케이션 설계를 더 효율적으로 구성할 수 있습니다.",
+   "keyPoints": [
+    "스토리지 계층 업그레이드로 트랜잭션 워크로드의 쓰기 처리량이 최대 50% 향상되었습니다.",
+    "시간 순서대로 정렬된 기본 키를 사용하는 테이블에서 더 큰 성능 향상이 나타납니다.",
+    "이벤트 시간별로 키가 지정된 감사 로그 테이블은 초당 삽입 처리량이 최대 200% 증가했습니다.",
+    "신규 및 기존 클러스터 모두에 추가 비용 없이 모든 AWS 리전에서 제공됩니다."
+   ]
+  }
+ }
+}

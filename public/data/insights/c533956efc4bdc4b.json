@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c533956efc4bdc4b",
+ "contentHash": "58e5eeadef49e20c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T03:28:11.420Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Cognito now supports client ID metadata documents",
+   "summary": "Amazon Cognito now supports OAuth client ID metadata documents (CIMD). This feature allows Model Context Protocol (MCP) clients and AI agents to sign users into user pools without requiring a separately registered app client. Instead of managing individual app clients, a client uses an HTTPS URL as its client ID to publish a JSON metadata document that Cognito fetches and validates during sign-in. Administrators can use CIMD policies to control accepted clients by mapping URL patterns to existing app clients.",
+   "impact": "This feature could simplify identity management for developers and security teams by eliminating the need to create, manage, and clean up separate app clients for external AI agents and microservices. It may streamline the integration of Model Context Protocol clients while maintaining policy-based access control.",
+   "keyPoints": [
+    "Amazon Cognito supports OAuth client ID metadata documents (CIMD).",
+    "MCP clients and AI agents can sign users in without a separate app client registration.",
+    "Clients use an HTTPS URL as their client ID and publish a JSON metadata document.",
+    "CIMD is available on Essentials and Plus feature plans in all AWS Regions where Cognito is offered."
+   ]
+  },
+  "km": {
+   "title": "Amazon Cognito ឥឡូវនេះគាំទ្រឯកសារទិន្នន័យមេ معرفអតិថិជន",
+   "summary": "Amazon Cognito ឥឡូវនេះគាំទ្រឯកសារទិន្នន័យមេអត្តសញ្ញាណអតិថិជន OAuth (CIMD)។ លក្ខណៈពិសេសនេះអនុញ្ញាតឱ្យម៉ូឌុល Model Context Protocol (MCP) និងភ្នាក់ងារ AI ចូលប្រើប្រាស់អ្នកប្រើប្រាស់ដោយមិនចាំបាច់ចុះឈ្មោះកម្មវិធីអតិថិជនដាច់ដោយឡែកនោះទេ។ វាអាចជួយសម្រួលដល់ការគ្រប់គ្រងអត្តសញ្ញាណដោយប្រើប្រាស់ URL ជាអត្តសញ្ញាណអតិថិជន។",
+   "impact": "វាអាចជួយសម្រួលដល់ការគ្រប់គ្រងអត្តសញ្ញាណសម្រាប់អ្នកអភិវឌ្ឍន៍ ដោយលុបបំបាត់តម្រូវការក្នុងការបង្កើត និងគ្រប់គ្រងកម្មវិធីអតិថិជនដាច់ដោយឡែកសម្រាប់ភ្នាក់ងារ AI ខាងក្រៅ។",
+   "keyPoints": [
+    "Amazon Cognito គាំទ្រឯកសារទិន្នន័យមេ CIMD ។",
+    "ម៉ូឌុល MCP និងភ្នាក់ងារ AI អាចចុះឈ្មោះចូលដោយមិនបាច់មានកម្មវិធីអតិថិជនដាច់ដោយឡែក។",
+    "មាននៅលើគម្រោង Essentials និង Plus ក្នុងគ្រប់តំបន់ AWS ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Cognito 现已支持客户端 ID 元数据文档",
+   "summary": "Amazon Cognito 现已支持 OAuth 客户端 ID 元数据文档 (CIMD)。通过 CIMD，Model Context Protocol (MCP) 客户端和 AI 代理可以使用户登录到用户池，而无需注册单独的应用客户端。客户端使用 HTTPS URL 作为其客户端 ID，并在该 URL 处发布 JSON 元数据文档，供 Cognito 在登录期间获取和验证。",
+   "impact": "这可以简化开发人员和安全团队的身份管理，无需再为外部 AI 代理和微服务创建、管理和清理单独的应用客户端。它还可能在保持基于策略的访问控制的同时，简化集成过程。",
+   "keyPoints": [
+    "Amazon Cognito 支持 OAuth 客户端 ID 元数据文档 (CIMD)。",
+    "MCP 客户端和 AI 代理无需单独的应用客户端注册即可登录。",
+    "客户端使用 HTTPS URL 作为其客户端 ID 并发布 JSON 元数据文档。",
+    "CIMD 在支持 Amazon Cognito 的所有 AWS 区域的 Essentials 和 Plus 功能套餐中可用。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Cognito, 클라이언트 ID 메타데이터 문서 지원 개시",
+   "summary": "Amazon Cognito가 이제 OAuth 클라이언트 ID 메타데이터 문서(CIMD)를 지원합니다. 이 기능을 통해 Model Context Protocol(MCP) 클라이언트와 AI 에이전트는 별도의 앱 클라이언트를 등록하지 않고도 사용자 풀에 사용자를 로그인시킬 수 있습니다. 클라이언트는 HTTPS URL을 클라이언트 ID로 사용하고 해당 URL에 JSON 메타데이터 문서를 게시하며, Cognito는 로그인 시 이를 가져와 검증합니다.",
+   "impact": "이 기능은 개발자와 보안 팀이 외부 AI 에이전트 및 마이크로서비스를 위한 개별 앱 클라이언트를 생성, 관리, 정리할 필요를 없애주어 신원 관리를 간소화할 수 있습니다. 또한 정책 기반 접근 제어를 유지하면서 통합 과정을 수월하게 만들 수 있습니다.",
+   "keyPoints": [
+    "Amazon Cognito가 OAuth 클라이언트 ID 메타데이터 문서(CIMD)를 지원합니다.",
+    "MCP 클라이언트와 AI 에이전트는 별도의 앱 클라이언트 등록 없이 로그인이 가능합니다.",
+    "클라이언트는 HTTPS URL을 클라이언트 ID로 사용하고 JSON 메타데이터 문서를 게시합니다.",
+    "CIMD는 Cognito가 지원되는 모든 AWS 리전의 Essentials 및 Plus 기능 요금제에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

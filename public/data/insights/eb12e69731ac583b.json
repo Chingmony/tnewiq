@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "eb12e69731ac583b",
+ "contentHash": "c919c500afe06395",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T03:28:51.903Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Lambda durable functions now supports OpenTelemetry tracing",
+   "summary": "AWS Lambda has added OpenTelemetry support for durable functions, allowing developers to trace durable executions and emit traces to Amazon CloudWatch and other observability tools. The new OpenTelemetry plugin emits a unified trace spanning steps, waits, callbacks, and chained function invocations across a full execution. This feature is available for TypeScript, Python, and Java SDKs in all AWS Regions that support Lambda durable functions.",
+   "impact": "Developers and technology users may find it easier to locate system bottlenecks, root cause failures more quickly, and gain operational insights such as step durations, retries, and failures in production workflows.",
+   "keyPoints": [
+    "OpenTelemetry support is now available for AWS Lambda durable functions.",
+    "The plugin emits a unified trace spanning the full durable execution including steps, waits, and callbacks.",
+    "Support is available for TypeScript, Python, and Java SDKs.",
+    "Traces can be sent to Amazon CloudWatch and other industry-standard observability tools."
+   ]
+  },
+  "km": {
+   "title": "AWS Lambda durable functions ឥឡូវនេះគាំទ្រការតាមដាន OpenTelemetry",
+   "summary": "AWS Lambda បានប្រកាសពីការគាំទ្រ OpenTelemetry សម្រាប់ Lambda durable functions ដែលអនុញ្ញាតឱ្យតាមដានការប្រតិបត្តិ និងបញ្ចេញដានទៅកាន់ Amazon CloudWatch ក៏ដូចជាឧបករណ៍ផ្សេងទៀត។ មុខងារថ្មីនេះបង្កើតដានរួមមួយដែលគ្របដណ្តប់លើការប្រតិបត្តិពេញលេញ រួមទាំងជំហាន ការរង់ចាំ ការហៅត្រឡប់ និងការហៅមុខងារ连锁។ កម្មវិធីជំនួយ OpenTelemetry នេះមានសម្រាប់ SDK ភាសា TypeScript, Python និង Java ។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យាអាចរកឃើញចំណុចស្ទះ និងមូលហេតុនៃបញ្ហាលឿនជាងមុន ដើម្បីយល់ដឹងពីដំណើរការការងារក្នុងប្រព័ន្ធផលិតកម្ម។",
+   "keyPoints": [
+    "AWS Lambda durable functions ឥឡូវគាំទ្រ OpenTelemetry ហើយ។",
+    "កម្មវិធីជំនួយនេះបង្កើតដានរួមសម្រាប់ការប្រតិបត្តិទាំងមូល។",
+    "វាមានសម្រាប់ TypeScript, Python និង Java SDKs។",
+    "អាចប្រើជាមួយ Amazon CloudWatch និងឧបករណ៍ផ្សេងទៀត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Lambda durable functions 现已支持 OpenTelemetry 追踪",
+   "summary": "AWS Lambda 宣布为 Lambda durable functions 提供 OpenTelemetry 支持，允许开发者追踪持久执行并将追踪数据发送至 Amazon CloudWatch 及其他行业标准可观测性工具。全新的 OpenTelemetry 插件可以生成跨越整个持久执行（包括步骤、等待、回调和链式函数调用）的统一追踪。该插件适用于 TypeScript、Python 和 Java SDK。",
+   "impact": "开发人员和技术团队可以利用这些追踪更快地找出系统瓶颈、定位故障根源，并深入了解工作流程在生产环境中的运行情况。",
+   "keyPoints": [
+    "AWS Lambda durable functions 现已支持 OpenTelemetry。",
+    "插件可生成涵盖步骤、等待和回调的统一追踪。",
+    "支持 TypeScript、Python 和 Java SDK。",
+    "可在支持 Lambda durable functions 的所有 AWS 区域使用。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Lambda durable functions, 이제 OpenTelemetry 트레이싱 지원",
+   "summary": "AWS Lambda는 Lambda durable functions에 대한 OpenTelemetry 지원을 발표하여 내구성 있는 실행을 추적하고 Amazon CloudWatch 및 기타 관측 가능성 도구로 추적을 내보낼 수 있도록 했습니다. 새로운 OpenTelemetry 플러그인은 단계, 대기, 콜백 및 체인 함수 호출을 포함하는 전체 내구성 실행에 걸쳐 통합된 추적을 생성합니다. 이 플러그인은 TypeScript, Python 및 Java SDK에서 사용할 수 있습니다.",
+   "impact": "개발자와 보안 팀 및 기술 사용자는 시스템 병목 현상을 더 쉽게 찾고, 실패 원인을 더 빨리 파악하며, 프로덕션 환경의 워크플로 동작에 대한 운영상의 통찰력을 얻을 수 있습니다.",
+   "keyPoints": [
+    "AWS Lambda durable functions에 OpenTelemetry 지원이 추가되었습니다.",
+    "플러그인은 단계, 대기, 콜백 등을 포함하는 통합 추적을 생성합니다.",
+    "TypeScript, Python, Java SDK에서 지원됩니다.",
+    "Lambda durable functions를 지원하는 모든 AWS 리전에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

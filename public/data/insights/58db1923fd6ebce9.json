@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "58db1923fd6ebce9",
+ "contentHash": "603efdfdb08682cb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T03:28:01.576Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Marketplace now supports agentic payments with AgentCore",
+   "summary": "AWS Marketplace now supports agentic payments over the x402 protocol using AgentCore payments from Amazon Bedrock AgentCore. This allows AI agents to discover, purchase, and pay per request for select products in US dollars without requiring human setup or a crypto wallet. Charges settle on the customer's existing AWS bill, and transactions are visible in AWS CloudTrail and AWS Cost Explorer. Sellers can charge AI agents per request by integrating the AWS Marketplace x402 SDK and registering their listings.",
+   "impact": "This feature could streamline how AI agents access paid APIs and data mid-task by eliminating manual sign-ups and separate billing systems. Developers and security teams may benefit from built-in spending limits, approved seller configurations, and visibility through AWS tracking and cost tools.",
+   "keyPoints": [
+    "AWS Marketplace supports agentic payments over the x402 protocol through AgentCore payments.",
+    "Charges are billed directly to the customer's existing AWS bill with no crypto wallet needed.",
+    "Customers can configure spending limits, approved sellers, and guardrails for their agents.",
+    "Sellers use the AWS Marketplace x402 SDK to charge per request and receive disbursements through AWS Marketplace."
+   ]
+  },
+  "km": {
+   "title": "AWS Marketplace ឥឡូវនេះគាំទ្រការទូទាត់បែបភ្នាក់ងារជាមួយ AgentCore",
+   "summary": "AWS Marketplace ឥឡូវនេះគាំទ្រការទូទាត់បែបភ្នាក់ងារតាមរយៈពិធីការ x402 ជាមួយ AgentCore payments ដែលជាផ្នែកមួយរបស់ Amazon Bedrock AgentCore។ មុខងារនេះអនុញ្ញាតឱ្យភ្នាក់ងារ AI រកឃើញ ទិញ និងបង់ប្រាក់ក្នុងមួយសំណើសម្រាប់ផលិតផលដែលបានជ្រើសរើសដោយប្រើប្រាស់ប្រាក់ដុល្លារអាមេរិក។ ការគរុភារត្រូវបានទូទាត់នៅលើវិក្កយបត្រ AWS ដែលមានស្រាប់របស់អតិថិជនដោយមិនចាំបាច់មានកាបូបរូបិយប័ណ្ណគ្រីបតូឡើយ។ អ្នកលក់អាចគិតប្រាក់ពីភ្នាក់ងារ AI ក្នុងមួយសំណើដោយរួមបញ្ចូលកូដ AWS Marketplace x402 SDK។",
+   "impact": "លក្ខណៈពិសេសនេះអាចជួយសម្រួលដល់របៀបដែលភ្នាក់ងារ AI ចូលប្រើប្រាស់ API និងទិន្នន័យដែលត្រូវបង់ប្រាក់ដោយមិនចាំបាច់មានមនុស្សរៀបចំការទូទាត់ដោយផ្ទាល់។ អតិថិជនអាចកំណត់ដែនកំណត់ចំណាយ អ្នកលក់ដែលបានอนุมัติ និងរបងសុវត្ថិភាពមុនពេលភ្នាក់ងារធ្វើប្រតិបត្តិការ។",
+   "keyPoints": [
+    "AWS Marketplace គាំទ្រការទូទាត់បែបភ្នាក់ងារលើពិធីការ x402។",
+    "ការទូទាត់ត្រូវបានបញ្ចូលទៅក្នុងវិក្កយបត្រ AWS របស់អតិថិជនដោយផ្ទាល់។",
+    "អតិថិជនអាចកំណត់ដែនកំណត់ចំណាយ និងអ្នកលក់ដែលបានอนุมัติ។",
+    "អ្នកលក់ចុះឈ្មោះនិងប្រើប្រាស់ AWS Marketplace x402 SDK ដើម្បីទិញលក់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Marketplace 现已通过 AgentCore 支持智能体支付",
+   "summary": "AWS Marketplace 现已支持通过 x402 协议进行智能体支付，该功能属于 Amazon Bedrock AgentCore 的一部分。这允许 AI 智能体发现并购买精选产品，并通过 AgentCore 支付以美元按请求付费，无需人工注册或加密钱包。相关费用将直接计入客户现有的 AWS 账单中，交易记录也会显示在 AWS CloudTrail 和 AWS Cost Explorer 中。AWS Marketplace 卖家无需构建注册流程或计费系统，只需注册并通过集成 AWS Marketplace x402 SDK 即可向 AI 智能体按请求收费。",
+   "impact": "这项功能可能会简化 AI 智能体在执行任务途中访问付费 API、数据或内容的方式，免去了人工注册、添加支付方式和创建 API 密钥的繁琐步骤。开发人员和安全团队可以利用支出限额、已批准的卖家以及防护栏等设置来管理智能体交易。",
+   "keyPoints": [
+    "AWS Marketplace 通过 AgentCore 支付支持基于 x402 协议的智能体支付。",
+    "费用直接通过客户现有的 AWS 账单结算，无需加密钱包。",
+    "客户可以在智能体进行交易前设置支出限额、批准的卖家和防护栏。",
+    "卖家通过集成 AWS Marketplace x402 SDK 向 AI 智能体按请求收费。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Marketplace, AgentCore를 통한 에이전트 결제 지원 시작",
+   "summary": "AWS Marketplace가 Amazon Bedrock AgentCore의 일부인 AgentCore payments를 통해 x402 프로토콜 기반의 에이전트 결제를 지원하기 시작했습니다. 이를 통해 AI 에이전트는 인적 개입이나 암호화폐 지갑 없이도 특정 상품을 검색하고 구매하며 US 달러로 요청당 비용을 지불할 수 있습니다. 비용은 고객의 기존 AWS 청구서에 합산되며, 거래 내역은 AWS CloudTrail 및 AWS Cost Explorer에 표시됩니다. 판매자는 AWS Marketplace x402 SDK를 통합하여 가입 절차나 별도의 청구 시스템 구축 없이 AI 에이전트에게 요청당 과금을 할 수 있습니다.",
+   "impact": "이 기능은 AI 에이전트가 작업 도중 유료 API나 데이터에 접근할 때 수동으로 결제 수단을 등록해야 하는 번거로움을 줄여줄 수 있습니다. 개발자와 보안 팀은 에이전트가 거래를 수행하기 전에 지출 한도, 승인된 판매자, 가드레일 등을 설정하여 관리를 강화할 수 있습니다.",
+   "keyPoints": [
+    "AWS Marketplace는 AgentCore payments를 통해 x402 프로토콜 기반의 에이전트 결제를 지원합니다.",
+    "비용은 암호화폐 지갑 없이 고객의 기존 AWS 청구서로 직접 청구됩니다.",
+    "고객은 에이전트가 거래하기 전에 지출 한도, 승인된 판매자, 가드레일을 설정할 수 있습니다.",
+    "판매자는 AWS Marketplace x402 SDK를 통합하여 요청당 요금을 부과할 수 있습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e52d70aad8b40dfd",
+ "contentHash": "e89c9b59cb30ad42",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T03:29:41.535Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS WAF launches new Security Analytics Dashboard for real-time investigations",
+   "summary": "AWS WAF has introduced a new security analytics dashboard that aggregates traffic data from all protection packs, including web ACLs for Regional resources and Amazon CloudFront distributions, into a single view. The dashboard provides 21 days of full-fidelity request data and includes a logs widget for searching raw request logs directly in the console without configuring a separate logging pipeline. Users can filter and group traffic by multiple dimensions, and block IP addresses or countries directly from the page.",
+   "impact": "This feature could simplify how developers and security teams investigate and respond to security threats by eliminating the need to manually query logs or build separate logging pipelines across multiple applications. It may also help users test managed rules before enforcement by filtering requests using attached labels.",
+   "keyPoints": [
+    "Aggregates traffic data from all protection packs into a single dashboard view.",
+    "Provides 21 days of unsampled, full-fidelity request data at no additional cost.",
+    "Includes a console logs widget to search and explore raw request logs without setting up a logging pipeline.",
+    "Available in all commercial AWS Regions where AWS WAF is supported, excluding AWS GovCloud and China Regions."
+   ]
+  },
+  "km": {
+   "title": "AWS WAF បើកដំណើរការផ្ទាំងគ្រប់គ្រងការវិភាគសុវត្ថិភាពថ្មីសម្រាប់កិច្ចស៊ើបអង្កេតតាមពេលវេលាជាក់ស្តែង",
+   "summary": "AWS WAF បានដាក់ឱ្យដំណើរការផ្ទាំងគ្រប់គ្រងការវិភាគសុវត្ថិភាពថ្មី ដែលប្រមូលផ្តុំទិន្នន័យចរាចរណ៍ពីកញ្ចប់ការពារទាំងអស់ចូលទៅក្នុងទិដ្ឋភាពតែមួយ។ ផ្ទាំងគ្រប់គ្រងនេះផ្តល់ជូននូវទិន្នន័យសំណើដែលមានភាពជាក់លាក់ពេញលេញរយៈពេល ២១ ថ្ងៃ និងមាន ווידចែតកំណត់ហេតុសម្រាប់ស្វែងរកកំណត់ហេតុសំណើឆៅដោយផ្ទាល់នៅក្នុងកុងសូល។ អ្នកប្រើប្រាស់អាចត្រង និងដាក់ក្រុមចរាចរណ៍តាមវិមាត្រផ្សេងៗ ក៏ដូចជាបិទខ្ទប់អាសយដ្ឋាន IP ឬប្រទេសដោយផ្ទាល់ពីទំព័រនោះ។",
+   "impact": "មុខងារនេះអាចជួយសម្រួលដល់ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ក្នុងការស៊ើបអង្កេតការគំរាមកំហែងដោយមិនចាំបាច់បង្កើតបំពង់កំណត់ហេតុដាច់ដោយឡែក។ វាក៏អាចជួយឱ្យអ្នកប្រើប្រាស់សាកល្បងច្បាប់ដែលបានគ្រប់គ្រងមុនពេលអនុវត្តផងដែរ។",
+   "keyPoints": [
+    "ប្រមូលផ្តុំទិន្នន័យចរាចរណ៍ពីកញ្ចប់ការពារទាំងអស់ទៅក្នុងទិដ្ឋភាពផ្ទាំងគ្រប់គ្រងតែមួយ។",
+    "ផ្តល់ទិន្នន័យសំណើជាក់លាក់ពេញលេញរយៈពេល ២១ ថ្ងៃដោយមិនគិតថ្លៃបន្ថែម។",
+    "រួមបញ្ចូល ווידចែត កំណត់ហេតុសម្រាប់ស្វែងរកសំណើឆៅនៅក្នុងកុងសូល។",
+    "អាចប្រើប្រាស់បាននៅក្នុងតំបន់ពាណិជ្ជកម្ម AWS ទាំងអស់ដែលគាំទ្រ AWS WAF លើកលែងតែតំបន់ GovCloud និងចិន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS WAF 推出用于实时调查的新安全分析控制面板",
+   "summary": "AWS WAF 推出了一个新的安全 analytics 仪表板，可将所有保护包（Web ACL）的流量数据整合到一个视图中。该仪表板提供 21 天的高保真请求数据，并包含一个日志小部件，允许用户直接在控制台中搜索原始请求日志，而无需构建日志管道。用户可以按多种维度筛选和对流量进行分组，并直接从页面阻止 IP 地址或国家/地区。",
+   "impact": "此功能可能会简化开发人员和安全团队调查和响应安全威胁的方式，省去了跨多个应用程序手动查询日志或构建独立日志管道的繁琐工作。它还可能帮助用户在强制执行托管规则之前使用关联标签过滤请求并预览效果。",
+   "keyPoints": [
+    "将来自所有保护包的流量数据汇聚到一个控制面板视图中。",
+    "提供 21 天无额外成本的非采样高保真请求数据。",
+    "内置控制台日志小部件，无需配置日志传输即可搜索原始请求日志。",
+    "在支持 AWS WAF 的所有商业 AWS 区域免费提供，不包括 AWS GovCloud 和中国区域。"
+   ]
+  },
+  "ko": {
+   "title": "AWS WAF, 실시간 조사를 위한 새로운 보안 분석 대시보드 출시",
+   "summary": "AWS WAF는 모든 보호 팩의 트래픽 데이터를 단일 뷰로 통합하는 새로운 보안 분석 대시보드를 출시했습니다. 이 대시보드는 21일간의 완전한 충실도의 요청 데이터를 제공하며, 별도의 로깅 파이프라인을 구축하지 않고도 콘솔에서 원시 요청 로그를 검색할 수 있는 로그 위젯을 포함합니다. 사용자는 여러 기준으로 트래픽을 필터링 및 그룹화하고 페이지에서 직접 IP 주소나 국가를 차단할 수 있습니다.",
+   "impact": "이 기능은 개발자와 보안 팀이 여러 애플리케이션에 걸쳐 수동으로 로그를 조회하거나 로깅 파이프라인을 구축할 필요 없이 보안 위협을 조사하고 대응하는 방식을 단순화할 수 있습니다. 또한 사용자가 관리형 규칙을 적용하기 전에 첨부된 라벨을 사용하여 요청을 필터링하고 테스트하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "모든 보호 팩의 트래픽 데이터를 단일 대시보드 뷰로 집계합니다.",
+    "추가 비용 없이 21일간의 전체 충실도 요청 데이터를 제공합니다.",
+    "로그 전달을 구성하지 않고도 콘솔에서 원시 요청 로그를 검색할 수 있는 로그 위젯을 포함합니다.",
+    "AWS WAF가 지원되는 모든 상용 AWS 리전에서 추가 비용 없이 사용할 수 있으며 AWS GovCloud 및 중국 리전은 제외됩니다."
+   ]
+  }
+ }
+}

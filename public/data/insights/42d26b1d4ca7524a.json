@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "42d26b1d4ca7524a",
+ "contentHash": "f883315c95384644",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-20T03:26:37.177Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How the BMW Group governs hundreds of agents across thousands of developers",
+   "summary": "The BMW Group's R&D department oversees more than 12,500 developers working on approximately 500 million lines of vehicle software code and over 1,300 microservices. To scale agentic AI safely across globally distributed teams without sacrificing speed, BMW implements a structural governance model using an agent harness and five interlocking practices. The system features framework-agnostic governance, an MCP gateway, a central agent registry, and graduated trust levels ranging from human oversight to autonomous operations within guardrails.",
+   "impact": "Technology teams managing large-scale AI deployments could use these practices to balance rapid developer innovation with enterprise-wide safety, security, and cost-efficiency. Security teams may benefit from adopting externalized governance and per-step autonomy levels to mitigate risks in automated workflows.",
+   "keyPoints": [
+    "BMW R&D includes over 12,500 developers working on roughly 500 million lines of vehicle software code.",
+    "The architecture uses an agent harness runtime layer around large language models for execution, tool dispatch, and observability.",
+    "Governance rules like authentication and content filtering are enforced externally via an MCP gateway and central agent registry.",
+    "Graduated trust uses per-step autonomy levels from Level 0 human-in-the-loop to Level 2 autonomous operation within guardrails."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែល BMW Group គ្រប់គ្រងភ្នាក់ងាររាប់រយនៅទូទាំងអ្នកអភិវឌ្ឍន៍រាប់ពាន់នាក់",
+   "summary": "នាយកដ្ឋានស្រាវជ្រាវ និងអភិវឌ្ឍន៍របស់ BMW Group មានអ្នកអភិវឌ្ឍន៍ជាង 12,500 នាក់ធ្វើការលើកូដសូហ្វវែររថយន្តប្រហែល 500 លានបន្ទាត់ និងសេវាកម្មខ្នាតតូចជាង 1,300 ។ ដើម្បីពង្រីក AI ឱ្យបានទូលំទូលាយដោយសុវត្ថិភាពនៅទូទាំងក្រុមការងារជាច្រើន BMW បានអនុវត្តគំរូអភិបាលកិច្ចរចនាសម្ព័ន្ធដោយប្រើប្រាស់ឧបករណ៍គ្រប់គ្រងភ្នាក់ងារ និងការអនុវត្តដែលជាប់ទាក់ទងគ្នាចំនួនប្រាំ។ ប្រព័ន្ធនេះមានអភិបាលកិច្ចដែលមិនពឹងផ្អែកលើក្របខ័ណ្ឌជាក់លាក់ ផ្លូវច្រក MCP បញ្ជីឈ្មោះភ្នាក់ងារកណ្តាល និងកម្រិតទុកចិត្តបន្តបន្ទាប់គ្នា។",
+   "impact": "ក្រុមបច្ចេកវិទ្យាដែលគ្រប់គ្រងការដាក់ពង្រាយ AI ទំហំធំអាចប្រើប្រាស់ការអនុវត្តទាំងនេះដើម្បីធ្វើឱ្យមានតុល្យភាពរវាងការច្នៃប្រឌិតរបស់អ្នកអភិវឌ្ឍន៍ និងសុវត្ថិភាពរបស់ស្ថាប័នទាំងមូល។ ក្រុមសន្តិសុខអាចទទួលបានផលប្រយោជន៍ពីការអនុវត្តអភិបាលកិច្ចខាងក្រៅដើម្បីកាត់បន្ថយហានិភ័យនៅក្នុងដំណើរការស្វ័យប្រវត្តិ។",
+   "keyPoints": [
+    "ការស្រាវជ្រាវ និងអភិវឌ្ឍន៍របស់ BMW មានអ្នកអភិវឌ្ឍន៍ជាង 12,500 នាក់ធ្វើការលើកូដសូហ្វវែររថយន្តប្រហែល 500 លានបន្ទាត់។",
+    "ស្ថាបត្យកម្មនេះប្រើប្រាស់ស្រទាប់ពេលរត់នៃភ្នាក់ងារជុំវិញម៉ូដែលភាសាធំសម្រាប់ការប្រតិបត្តិ ការបញ្ជូនឧបករណ៍ និងការមើលឃើញ។",
+    "ច្បាប់អភិបាលកិច្ចដូចជាការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវត្រូវបានអនុវត្តពីខាងក្រៅតាមរយៈផ្លូវច្រក MCP និងបញ្ជីឈ្មោះភ្នាក់ងារកណ្តាល។",
+    "កម្រិតទុកចិត្តបន្តបន្ទាប់គ្នាប្រើប្រាស់កម្រិតអភិបាលកិច្ចខ្លួនឯងពីកម្រិត 0 ដែលមានមនុស្សចូលរួមរហូតដល់កម្រិត 2 ដែលធ្វើការដោយស្វ័យប្រវត្តិក្នុងដែនកំណត់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "宝马集团如何管理数千名开发者手中的数百个智能体",
+   "summary": "宝马集团的研发部门拥有超过12,500名开发者，负责编写大约5.01亿行汽车软件代码以及超过1,300个微服务。为了在不牺牲速度的情况下在分布式团队中安全扩展智能体AI，宝马通过智能体封装层和五个互锁的实践来实现结构化治理。该系统具有与框架无关的治理、MCP网关、中央智能体注册表以及从人工干预到在防护栏内自主运行的渐进式信任级别。",
+   "impact": "管理大规模AI部署的技术团队可以利用这些实践来平衡开发者的快速创新与企业级安全、合规和成本效益。安全团队可能会受益于采用外部治理和分步自主级别来降低自动化工作流中的风险。",
+   "keyPoints": [
+    "宝马研发团队包含超过12,500名开发者，处理约5亿行汽车软件代码。",
+    "该架构使用围绕大语言模型的智能体封装层运行时来进行执行、工具调度和可观测性管理。",
+    "身份验证和内容过滤等治理规则通过MCP网关和中央智能体注册表在集成层强制执行。",
+    "渐进式信任通过每步自主级别实施，从Level 0的人工介入到Level 2在严格策略边界内的自主运行。"
+   ]
+  },
+  "ko": {
+   "title": "BMW 그룹이 수천 명의 개발자에 걸쳐 수백 개의 에이전트를 거버넌스하는 방법",
+   "summary": "BMW 그룹의 R&D 부문에는 약 5억 줄의 차량 소프트웨어 코드와 1,300개 이상의 마이크로서비스를 다루는 12,500명 이상의 개발자가 소속되어 있습니다. 속도를 희생하지 않고 분산된 팀 전체에서 에이전트 AI를 안전하게 확장하기 위해, BMW는 에이전트 하네스와 상호 연계된 5가지 관행을 사용하는 구조적 거버넌스 모델을 구현합니다. 이 시스템은 프레임워크에 구애받지 않는 거버넌스, MCP 게이트웨이, 중앙 에이전트 레지스트리, 그리고 인간 개입부터 가이드라인 내 자율 운영까지의 단계별 신뢰 수준을 특징으로 합니다.",
+   "impact": "대규모 AI 배포를 관리하는 기술 팀은 이러한 관행을 활용하여 개발자의 빠른 혁신과 전사적 안전, 보안, 비용 효율성의 균형을 맞출 수 있습니다. 보안 팀은 외부화된 거버넌스와 단계별 자율성 수준을 채택하여 자동화된 워크플로의 위험을 완화할 수 있습니다.",
+   "keyPoints": [
+    "BMW R&D는 약 5억 줄의 차량 소프트웨어 코드를 다루는 12,500명 이상의 개발자로 구성되어 있습니다.",
+    "이 아키텍처는 실행, 도구 디스패치, 관측 가능성을 위해 대형 언어 모델 주변에 런타임 레이어인 에이전트 하네스를 사용합니다.",
+    "인증 및 콘텐츠 필터링과 같은 거버넌스 규칙은 개별 코드베이스가 아닌 MCP 게이트웨이와 중앙 에이전트 레지스트리를 통해 통합 계층에서 적용됩니다.",
+    "단계별 신뢰는 모든 작업에 인간의 승인이 필요한 Level 0부터 엄격한 정책 경계 내에서 독립적으로 작동하는 Level 2까지의 단계별 자율성 수준을 구현합니다."
+   ]
+  }
+ }
+}
