@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "864f2f5a6c2bda06",
+ "contentHash": "c6f5f70c604d45fe",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T18:03:13.442Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+   "summary": "OpenAI has released new prompt templates for GPT-6.2 Astra and Sol to address issues like overly brief answers, unnecessary follow-up questions, and excessive testing during coding. Additionally, the API is changing because editing conversation history can discard reasoning content and reduce response quality.",
+   "impact": "Developers and API users may need to adjust how they handle conversation history edits to avoid lowering response quality. These new prompt templates could help teams improve model behavior in coding and conversational tasks.",
+   "keyPoints": [
+    "New prompt templates released for GPT-6.2 Astra and Sol",
+    "Fixes overly brief answers and unnecessary follow-up questions",
+    "Addresses excessive testing when coding",
+    "API changes mean editing conversation history can discard reasoning content and lower quality"
+   ]
+  },
+  "km": {
+   "title": "OpenAI ចែករំលែកគន្លឹះបញ្ជាថ្មីសម្រាប់ GPT-6.2 Astra និង Sol ដើម្បីកែសម្រួលចម្លើយខ្លីពេក និងសំណួរមិនចាំបាច់",
+   "summary": "OpenAI បានចេញផ្សាយគំរូបញ្ជាថ្មីសម្រាប់ GPT-6.2 Astra និង Sol ដើម្បីដោះស្រាយបញ្ហាដូចជាចម្លើយខ្លីពេក សំណួរតាមដានមិនចាំបាច់ និងការធ្វើតេស្តច្រើនពេកពេលសរសេរកូដ។ លើសពីនេះ API ក៏កំពុងផ្លាស់ប្តូរផងដែរ ព្រោះការកែសម្រួលប្រវត្តិការសន្ទនាអាចបោះបង់ចោលខ្លឹមសារនៃការសន្និដ្ឋាន និងកាត់បន្ថយគុណភាពនៃការឆ្លើយតប។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់ API អាចនឹងត្រូវកែសម្រួលវិធីសាស្ត្រក្នុងការจัดการប្រវត្តិការសន្ទនា ដើម្បីជៀសវាងការធ្លាក់ចុះគុណភាពនៃការឆ្លើយតប។ គំរូបញ្ជាថ្មីទាំងនេះអាចជួយក្រុមការងារក្នុងការកែលម្អឥរិយាបថរបស់ម៉ូដែល។",
+   "keyPoints": [
+    "បានបញ្ចេញគំរូបញ្ជាថ្មីសម្រាប់ GPT-6.2 Astra និង Sol",
+    "កែសម្រួលចម្លើយខ្លីពេក និងសំណួរតាមដានមិនចាំបាច់",
+    "ដោះស្រាយការធ្វើតេស្តច្រើនពេកពេលសរសេរកូដ",
+    "ការកែសម្រួលប្រវត្តិការសន្ទនាអាចបោះបង់ចោលខ្លឹមសារនៃការសន្និដ្ឋាន"
+   ]
+  },
+  "zh-CN": {
+   "title": "OpenAI针对GPT-6.2 Astra和Sol分享新的提示词技巧以修复简短回答和不必要的问题",
+   "summary": "OpenAI为GPT-6.2 Astra和Sol发布了新的提示词模板，旨在解决常见模型行为，例如回答过于简短、不必要的后续问题以及编码时的过度测试。API也在发生变化，因为编辑对话历史可能会丢弃推理内容并降低响应质量。",
+   "impact": "开发人员和API用户可能需要调整处理对话历史编辑的方式，以避免降低响应质量。这些新的提示词模板可能会帮助团队改善模型在编码和对话任务中的表现。",
+   "keyPoints": [
+    "为GPT-6.2 Astra和Sol发布了新的提示词模板",
+    "修复了过于简短的回答和不必要的后续问题",
+    "解决了编码时的过度测试问题",
+    "编辑对话历史可能会丢弃推理内容并降低质量"
+   ]
+  },
+  "ko": {
+   "title": "OpenAI, 짧은 답변과 불필요한 질문을 해결하기 위해 GPT-6.2 Astra 및 Sol용 새로운 프롬프트 팁 공유",
+   "summary": "OpenAI는 지나치게 짧은 답변, 불필요한 추가 질문, 코딩 시 과도한 테스팅과 같은 일반적인 모델 동작을 수정하기 위해 GPT-6.2 Astra 및 Sol용 새로운 프롬프트 템플릿을 출시했습니다. 또한 대화 기록을 편집하면 추론 내용이 폐기되고 응답 품질이 저하될 수 있으므로 API도 변경되고 있습니다.",
+   "impact": "개발자와 API 사용자는 응답 품질 저하를 방지하기 위해 대화 기록 편집 처리 방식을 조정해야 할 수 있습니다. 이러한 새로운 프롬프트 템플릿은 팀이 코딩 및 대화 작업에서 모델의 동작을 개선하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "GPT-6.2 Astra 및 Sol용 새로운 프롬프트 템플릿 출시",
+    "지나치게 짧은 답변과 불필요한 추가 질문 수정",
+    "코딩 시 과도한 테스팅 문제 해결",
+    "대화 기록 편집 시 추론 내용이 폐기되고 품질이 저하될 수 있음"
+   ]
+  }
+ }
+}

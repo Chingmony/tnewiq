@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3b426a1ae4872b68",
+ "contentHash": "024f71fb2c4d471f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T18:04:02.633Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+   "summary": "A critical memory bug tracked as CVE-2026-129975 has been discovered in GPGME, triggered by a malicious OpenPGP key with an unusually long user ID. The GnuPG project warned that this vulnerability could allow data theft from affected applications. Fixed versions have been released to address the issue in software using GPGME before version 2.3.0.",
+   "impact": "Developers and security teams using GPGME versions prior to 2.3.0 should update their software immediately. This flaw may expose application data if malicious OpenPGP keys are processed.",
+   "keyPoints": [
+    "A critical memory bug tracked as CVE-2026-129975 affects GPGME before version 2.3.0.",
+    "The flaw is triggered by a malicious OpenPGP key featuring an unusually long user ID.",
+    "Fixed versions have been released by the GnuPG project to prevent potential data theft."
+   ]
+  },
+  "km": {
+   "title": "GnuPG ព្រមានពីពិការភាព GPGME ដ៏គ្រោះថ្នាក់ដែលអាចបញ្ចេញទិន្នន័យកម្មវិធីតាមរយៈសោ OpenPGP ដែលមានគំនិតអាក្រក់",
+   "summary": "ពិការភាពអង្គចងចាំដ៏គ្រោះថ្នាក់មួយដែលត្រូវបានតាមដានក្រោមលេខ CVE-2026-129975 ត្រូវបានរកឃើញនៅក្នុង GPGME ដែលអាចបង្កឡើងដោយសោ OpenPGP ដែលមានគំនិតអាក្រក់មានលេខសម្គាល់អ្នកប្រើប្រាស់វែងខុសធម្មតា។ គម្រោង GnuPG បានព្រមានថាភាពងាយរងគ្រោះនេះអាចត្រូវបានប្រើប្រាស់ដើម្បីលួចទិន្នន័យពីកម្មវិធីដែលងាយរងគ្រោះ។ កំណែដែលបានជួសជុលត្រូវបានចេញផ្សាយដើម្បីដោះស្រាយបញ្ហានេះសម្រាប់កម្មវិធីដែលប្រើប្រាស់ GPGME មុនកំណែ 2.3.0។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍និងសុវត្ថិភាពដែលប្រើប្រាស់ GPGME កំណែមុន 2.3.0 គួរតែធ្វើបច្ចុប្បន្នភាពកម្មវិធីរបស់ពួកគេភ្លាមៗ។ ពិការភាពនេះអាចធ្វើឱ្យទិន្នន័យកម្មវិធីប្រឈមមុខនឹងការលាតត្រដាងប្រសិនបើដំណើរការសោ OpenPGP ដែលមានគំនិតអាក្រក់។",
+   "keyPoints": [
+    "ពិការភាពអង្គចងចាំ CVE-2026-129975 ប៉ះពាល់ដល់ GPGME មុនកំណែ 2.3.0។",
+    "កំហុសនេះត្រូវបានបង្កឡើងដោយសោ OpenPGP ដែលមានគំនិតអាក្រក់មានលេខសម្គាល់អ្នកប្រើប្រាស់វែងខុសធម្មតា។",
+    "គម្រោង GnuPG បានចេញផ្សាយកំណែដែលបានជួសជុលរួចហើយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "GnuPG 警告严重的 GPGME 漏洞可能通过恶意 OpenPGP 密钥泄露应用数据",
+   "summary": "GPGME 中发现了一个被追踪为 CVE-2026-129975 的严重内存漏洞，该漏洞可由具有异常长用户 ID 的恶意 OpenPGP 密钥触发。GnuPG 项目发出警告称，该缺陷可能被用于从受影响的应用程序中窃取数据。官方已发布修复版本，以解决 2.3.0 版本之前的软件中所存在的问题。",
+   "impact": "使用 2.3.0 版本之前 GPGME 的开发人员和安全团队应立即更新软件。如果处理恶意的 OpenPGP 密钥，此漏洞可能会暴露应用程序数据。",
+   "keyPoints": [
+    "被追踪为 CVE-2026-129975 的严重内存漏洞影响 2.3.0 版本之前的 GPGME。",
+    "该缺陷由具有异常长用户 ID 的恶意 OpenPGP 密钥触发。",
+    "GnuPG 项目已发布修复版本以防止潜在的数据窃取。"
+   ]
+  },
+  "ko": {
+   "title": "GnuPG, 악성 OpenPGP 키를 통해 앱 데이터를 노출할 수 있는 치명적인 GPGME 결함 경고",
+   "summary": "CVE-2026-129975로 추적되는 치명적인 메모리 버그가 GPGME에서 발견되었으며, 이는 비정상적으로 긴 사용자 ID를 가진 악성 OpenPGP 키에 의해 트리거될 수 있습니다. GnuPG 프로젝트는 이 취약점이 영향받는 애플리케이션의 데이터를 탈취하는 데 악용될 수 있다고 경고했습니다. 버전 2.3.0 이전의 GPGME를 사용하는 소프트웨어의 문제를 해결하기 위해 수정된 버전이 배포되었습니다.",
+   "impact": "2.3.0 이전 버전의 GPGME를 사용하는 개발자와 보안 팀은 즉시 소프트웨어를 업데이트해야 합니다. 이 결함으로 인해 악성 OpenPGP 키가 처리될 경우 애플리케이션 데이터가 노출될 수 있습니다.",
+   "keyPoints": [
+    "CVE-2026-129975로 추적되는 치명적인 메모리 버그가 버전 2.3.0 이전의 GPGME에 영향을 미칩니다.",
+    "이 결함은 비정상적으로 긴 사용자 ID를 가진 악성 OpenPGP 키에 의해 트리거됩니다.",
+    "GnuPG 프로젝트는 잠재적인 데이터 탈취를 방지하기 위해 수정된 버전을 출시했습니다."
+   ]
+  }
+ }
+}

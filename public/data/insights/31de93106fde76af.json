@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "31de93106fde76af",
+ "contentHash": "b4a9bbd52ceaab9c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T18:04:13.659Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+   "summary": "Suspected China-linked hackers utilized autonomous AI agents to discover an unknown vulnerability in MONAI Label, an open-source medical imaging server. According to Amazon Threat Intelligence, this zero-day flaw allowed attackers with no account to write files outside the default storage folder and gain root access to a university server. The issue impacts MONAI Label versions 0.8.5 and earlier in their default setup.",
+   "impact": "This incident highlights how automated AI agents could be leveraged by attackers to discover critical vulnerabilities more efficiently. Security teams and developers using MONAI Label may need to review their systems for unauthorized file writes and apply patches or updates once available to mitigate risks of root access compromise.",
+   "keyPoints": [
+    "Suspected China-linked hackers used autonomous AI agents to discover a zero-day flaw in MONAI Label.",
+    "The vulnerability allows unauthenticated attackers to write files outside the server's storage folder.",
+    "The security issue affects MONAI Label 0.8.5 and earlier in default configurations.",
+    "Attackers successfully gained root access to a university server using the exploit."
+   ]
+  },
+  "km": {
+   "title": "ភ្នាក់ងារ AI របស់ពួកជនវាយប្រហារបានរកឃើញកំហុស Zero-Day នៅក្នុងកម្មវិធីរូបភាពវេជ្ជសាស្ត្រ និងទទួលបានសិទ្ធិ root",
+   "summary": "ក្រុមពួក Hacker ដែលសង្ស័យថាពាក់ព័ន្ធនឹងប្រទេសចិន បានប្រើប្រាស់ភ្នាក់ងារ AI ស្វ័យប្រវត្ត ដើម្បីស្វែងរកកំហុសថ្មីដែលមិនធ្លាប់ដឹងពីមុនមកនៅក្នុង MONAI Label ដែលជាម៉ាស៊ីនបម្រើផ្នែករូបភាពវេជ្ជសាស្ត្របែបបើកចំហ និងទទួលបានសិទ្ធិ root លើម៉ាស៊ីនបម្រើរបស់សាកលវិទ្យាល័យមួយ យោងតាមក្រុមហ៊ុន Amazon Threat Intelligence បានឱ្យដឹងសប្តាហ៍នេះ។ កំហុសនេះអនុញ្ញាតឱ្យពួកហែកឃ័រដែលគ្មានគណនីអាចសរសេរឯកសារនៅខាងក្រៅថតផ្ទុករបស់ម៉ាស៊ីនបម្រើបាន ដែលវាប៉ះពាល់ដល់ MONAI Label កំណែ 0.8.5 និងជំនាន់មុនៗក្នុងកម្រងកំណត់ដើម។",
+   "impact": "ព្រឹត្តិការណ៍នេះអាចបញ្ជាក់ពីរបៀបដែលភ្នាក់ងារ AI អាចត្រូវបានប្រើប្រាស់ដោយពួកជនវាយប្រហារដើម្បីស្វែងរកចំណុចខ្សោយសំខាន់ៗ។ ក្រុមសុវត្ថិភាព និងអ្នកអភិវឌ្ឍន៍អាចនឹងត្រូវពិនិត្យមើលប្រព័ន្ធរបស់ពួកគេ និងអនុវត្តបច្ចុប្បន្នភាពដើម្បីកាត់បន្ថយហានិភ័យនៃការទទួលបានសិទ្ធិ root។",
+   "keyPoints": [
+    "ពួកហែកឃ័រដែលសង្ស័យថាពាក់ព័ន្ធនឹងប្រទេសចិនបានប្រើប្រាស់ AI ដើម្បីរកកំហុស Zero-Day ក្នុង MONAI Label។",
+    "ចំណុចខ្សោយនេះអនុញ្ញាតឱ្យអ្នកវាយប្រហារដែលគ្មានគណនីសរសេរឯកសារក្រៅថតផ្ទុក។",
+    "វាប៉ះពាល់ដល់ MONAI Label កំណែ 0.8.5 និងជំនាន់មុនៗ។",
+    "ពួកវាយប្រហារបានទទួលសិទ្ធិ root លើម៉ាស៊ីនបម្រើរបស់សាកលវិទ្យាល័យមួយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "攻击者的AI代理在医疗成像软件中发现零日漏洞并获得Root权限",
+   "summary": "亚马逊威胁情报本周表示，疑似与中国有关的黑客使用自主AI代理，在开源医疗成像服务器MONAI Label中发现了一个此前未知的漏洞，并获取了一所大学服务器的Root权限。该漏洞允许没有账户的攻击者在服务器存储文件夹之外写入文件，并影响默认设置下的MONAI Label 0.8.5及更早版本。",
+   "impact": "这一事件表明，攻击者可能会利用自动化AI代理更高效地发现关键漏洞。使用MONAI Label的开发人员和安全团队可能需要检查其系统是否存在未经授权的文件写入行为，并在修复程序可用时及时应用，以降低Root权限遭窃取的风险。",
+   "keyPoints": [
+    "疑似与中国有关的黑客利用自主AI代理在MONAI Label中发现了零日漏洞。",
+    "该漏洞允许未经身份验证的攻击者在服务器存储文件夹外部写入文件。",
+    "默认设置下的MONAI Label 0.8.5及更早版本受到该问题影响。",
+    "攻击者通过该漏洞获得了大学服务器的Root访问权限。"
+   ]
+  },
+  "ko": {
+   "title": "공격자의 AI 에이전트가 의료 영상 소프트웨어에서 제로데이 취약점을 찾아 루트 권한을 획득함",
+   "summary": "아마존 위협 인텔리전스는 이번 주에 중국과 연계된 것으로 의심되는 해커들이 자율 AI 에이전트를 사용하여 오픈소스 의료 영상 서버인 MONAI Label에서 이전에 알려지지 않은 결함을 찾아내고 대학 서버의 루트 권한을 획득했다고 밝혔습니다. 이 결함은 계정이 없는 공격자도 서버의 저장 폴더 외부에 파일을 쓸 수 있도록 허용하며, 기본 설정의 MONAI Label 0.8.5 및 이전 버전들에 영향을 미칩니다.",
+   "impact": "이번 사건은 공격자들이 중요한 취약점을 더 효율적으로 발견하기 위해 자동화된 AI 에이전트를 활용할 수 있음을 보여줍니다. MONAI Label을 사용하는 개발자와 보안 팀은 무단 파일 작성 여부를 시스템에서 검토하고 잠재적인 루트 권한 침해 위험을 줄이기 위해 패치나 업데이트를 적용해야 할 수 있습니다.",
+   "keyPoints": [
+    "중국 연계 의심 해커들이 MONAI Label에서 제로데이 결함을 찾기 위해 자율 AI 에이전트를 사용함.",
+    "이 취약점으로 인해 계정이 없는 공격자도 서버 저장 폴더 외부로 파일을 작성할 수 있음.",
+    "기본 설정의 MONAI Label 0.8.5 및 그 이전 버전이 영향을 받음.",
+    "공격자들은 취약점을 이용해 대학 서버의 루트 권한을 획득함."
+   ]
+  }
+ }
+}

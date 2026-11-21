@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0a04003cba71b6ac",
+ "contentHash": "fb7cbf6b61643c1f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T18:01:31.402Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Nvidia researchers argue huge AI context windows are a dead end",
+   "summary": "Nvidia researchers argue that language models often do not need their full context windows because they can be slow, expensive, and prone to errors. Instead, they propose an alternative involving periodic summaries and targeted keyword search. In tests, this alternative matched full-context results at a fraction of the cost. The team also proposes a new class of models that operates using short notes instead of long context.",
+   "impact": "This research could change how developers and technology users approach resource allocation for language models, offering a more cost-effective way to handle large amounts of data. Security teams and developers may benefit from reduced error rates and faster processing times associated with shorter contexts. However, transitioning to models that rely on short notes could require changes in system architecture.",
+   "keyPoints": [
+    "Full context windows are described as slow, expensive, and prone to errors.",
+    "Periodic summaries and targeted keyword search matched full-context results at a lower cost.",
+    "The research team proposes a new class of models working with short notes instead of long context."
+   ]
+  },
+  "km": {
+   "title": "អ្នកស្រាវជ្រាវ Nvidia ប្រកែកថា ទំហំបរិបទ AI ធំៗគឺជាផ្លូវទាល់",
+   "summary": "អ្នកស្រាវជ្រាវរបស់ Nvidia បានលើកឡើងថា ម៉ូដែលភាសាជារឿយៗមិនត្រូវការទំហំបរិបទពេញលេញរបស់ពួកគេទេ ដែលវាមានភាពយឺតយ៉ាវ ចំណាយប្រាក់ច្រើន និងងាយនឹងមានកំហុស ដោយពួកគេបានស្នើឡើងនូវជម្រើសជំនួសវិញ។ នៅក្នុងការធ្វើតេស្ត ការសង្ខេបតាមកាលកំណត់ និងការស្វែងរកពាក្យគន្លឹះដែលបានកំណត់គោលដៅ ជាទូទៅទទួលបានលទ្ធផលស្មើនឹងបរិបទពេញលេញ ប៉ុន្តែចំណាយថវិកាតិចជាង។ ក្រុមការងារក៏បានស្នើឡើងនូវថ្នាក់ថ្មីនៃម៉ូដែលដែលដំណើរការជាមួយកំណត់ចំណាំខ្លីៗជំនួសឱ្យបរិបទវែង។",
+   "impact": "ការស្រាវជ្រាវនេះអាចផ្លាស់ប្តូររបៀបដែលអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាគ្រប់គ្រងធនធានសម្រាប់ម៉ូដែលភាសា ដោយផ្តល់នូវមធ្យោបាយដែលមានតម្លៃសមរម្យជាងមុនក្នុងការគ្រប់គ្រងទិន្នន័យធំៗ។ ក្រុមសុវត្ថិភាព និងអ្នកអភិវឌ្ឍន៍អាចទទួលបានផលប្រយោជន៍ពីអត្រាកំហុសទាបជាងមុន និងពេលវេលាដំណើរការលឿនជាងមុន។ ទោះបីជាយ៉ាងណាក៏ដោយ ការផ្លាស់ប្តូរទៅកាន់ម៉ូដែលដែលពឹងផ្អែកលើកំណត់ចំណាំខ្លីៗអាចទាមទារឱ្យមានការផ្លាស់ប្តូរនៅក្នុងស្ថាបត្យកម្មប្រព័ន្ធ។",
+   "keyPoints": [
+    "ទំហំបរិបទពេញលេញត្រូវបានពិពណ៌នាថាមានភាពយឺតយ៉ាវ ចំណាយប្រាក់ច្រើន និងងាយមានកំហុស។",
+    "ការសង្ខេបតាមកាលកំណត់ និងការស្វែងរកពាក្យគន្លឹះបានផ្ដល់លទ្ធផលប្រហាក់ប្រហែលនឹងបរិបទពេញលេញក្នុងតម្លៃថោកជាង។",
+    "ក្រុមស្រាវជ្រាវបានស្នើម៉ូដែលប្រភេទថ្មីដែលដំណើរការជាមួយកំណត់ចំណាំខ្លីៗ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Nvidia 研究人员认为巨大的 AI 上下文窗口已走进死胡同",
+   "summary": "Nvidia 的研究人员认为，语言模型通常不需要其完整的上下文窗口，因为这些窗口速度慢、成本高且容易出错，并为此提出了替代方案。在测试中，定期总结和定向关键词搜索通常能以极低的成本达到与完整上下文相同的结果。该团队甚至提出了一类使用简短笔记而不是长上下文工作的新型模型。",
+   "impact": "这项研究可能会改变开发人员和技术用户处理语言模型资源分配的方式，为处理大量数据提供更具成本效益的方法。安全团队和开发人员可能会从较短上下文带来的低错误率和更快的处理时间中受益。然而，过渡到依赖简短笔记的模型可能需要对系统架构进行更改。",
+   "keyPoints": [
+    "完整的上下文窗口被描述为速度慢、成本高且容易出错。",
+    "定期总结和定向关键词搜索以较低的成本匹配了完整上下文的结果。",
+    "研究团队提出了一类使用简短笔记而不是长上下文的新模型。"
+   ]
+  },
+  "ko": {
+   "title": "Nvidia 연구원들은 거대한 AI 컨텍스트 윈도우가 막다른 골목이라고 주장합니다",
+   "summary": "Nvidia 연구원들은 언어 모델이 속도가 느리고 비용이 많이 들며 오류가 발생하기 쉬운 전체 컨텍스트 윈도우를 항상 필요로 하는 것은 아니라고 주장하며 대안을 제시했습니다. 테스트에서 주기적인 요약과 타겟팅된 키워드 검색은 적은 비용으로 전체 컨텍스트 결과와 거의 일치했습니다. 연구팀은 긴 컨텍스트 대신 짧은 메모로 작동하는 새로운 부류의 모델도 제안합니다.",
+   "impact": "이번 연구는 개발자와 기술 사용자가 언어 모델의 리소스 할당에 접근하는 방식을 변화시켜 대량의 데이터를 처리할 수 있는 더 비용 효율적인 방법을 제공할 수 있습니다. 보안 팀과 개발자는 짧은 컨텍스트와 연관된 오류율 감소 및 처리 속도 향상의 이점을 얻을 수 있습니다. 그러나 짧은 메모에 의존하는 모델로 전환하려면 시스템 아키텍처의 변경이 필요할 수 있습니다.",
+   "keyPoints": [
+    "전체 컨텍스트 윈도우는 속도가 느리고 비용이 많이 들며 오류가 발생하기 쉽다고 설명됩니다.",
+    "주기적인 요약과 타겟팅된 키워드 검색은 적은 비용으로 전체 컨텍스트 결과와 일치했습니다.",
+    "연구팀은 긴 컨텍스트 대신 짧은 메모로 작동하는 새로운 모델 클래스를 제안합니다."
+   ]
+  }
+ }
+}

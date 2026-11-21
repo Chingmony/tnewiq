@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "059e30cfca7341a0",
+ "contentHash": "5c60250f5b50f1fc",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T18:03:24.128Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+   "summary": "Researchers demonstrated that a malicious webpage could extract private conversations and stored memories from Meta Muse without triggering an approval prompt. The laboratory attack could also be extended to reach credentials stored for connected accounts. This demonstration was confined to an individual user's environment and was not performed on real users.",
+   "impact": "This research shows that AI assistants could potentially be targeted via malicious web pages to expose sensitive data like private chats and connected account credentials. Developers and security teams may need to evaluate how assistants handle cross-origin requests and permission prompts.",
+   "keyPoints": [
+    "A malicious webpage can extract private conversations and stored memories from Meta Muse.",
+    "The attack does not trigger any user approval prompt.",
+    "The method can be extended to access credentials for connected accounts.",
+    "The research was a lab demonstration and not an attack on real users."
+   ]
+  },
+  "km": {
+   "title": "ទំព័រគេហទំព័រមានគំនិតអាក្រក់តែមួយអាចឱ្យអ្នកស្រាវជ្រាវគ្រប់គ្រង Meta Muse និងចូលប្រើការជជែកឯកជន",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្ហាញថាទំព័រគេហទំព័រមានគំនិតអាក្រក់អាចទាញយកការសន្ទនាឯកជន និងការចងចាំដែលបានរក្សាទុករបស់អ្នកប្រើប្រាស់ Meta Muse ដោយមិនបង្កឱ្យមានការស្នើសុំការយល់ព្រមណាមួយឡើយ។ ការវាយប្រហារនេះក៏អាចពង្រីកដើម្បីចូលទៅដល់ព័ត៌មានសម្ងាត់ដែល Muse រក្សាទុកសម្រាប់គណនីដែលបានតភ្ជាប់ផងដែរ។ ការងារនេះគឺជាការបង្ហាញនៅក្នុងមន្ទីរពិសោធន៍ មិនមែនជាការវាយប្រហារលើអ្នកប្រើប្រាស់ពិតប្រាកដនោះទេ។",
+   "impact": "ការណ៍នេះអាចបង្ហាញថាជំនួយការ AI អាចប្រឈមនឹងហានិភ័យពីទំព័រគេហទំព័រដែលមានគំនិតអាក្រក់ដែលអាចទម្លាយទិន្នន័យរសើប។ ក្រុមការងារផ្នែកសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចត្រូវពិនិត្យមើលពីរបៀបដែលជំនួយការគ្រប់គ្រងសំណើនិងការអនុញ្ញាត។",
+   "keyPoints": [
+    "ទំព័រគេហទំព័រមានគំនិតអាក្រក់អាចទាញយកការសន្ទនាឯកជន និងការចងចាំពី Meta Muse។",
+    "ការវាយប្រហារមិនបង្កឱ្យមានការស្នើសុំការយល់ព្រមឡើយ។",
+    "ការវាយប្រហារអាចពង្រីកដើម្បីចូលទៅដល់ព័ត៌មានសម្ងាត់គណនីដែលបានតភ្ជាប់។",
+    "ការស្រាវជ្រាវនេះគឺជាការបង្ហាញនៅក្នុងមន្ទីរពិសោធន៍ប៉ុណ្ណោះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "一个恶意网页让研究人员劫持 Meta Muse 并访问私人聊天记录",
+   "summary": "研究人员表明，一个恶意网页可以在不触发任何批准提示的情况下，提取 Meta Muse 用户的私人对话和助手中存储的记忆。同样的攻击还可以扩展到获取 Muse 为用户连接的账户所存储的凭据。这项工作是一项实验室演示，并非针对真实用户的攻击，并且局限于单个用户的环境中。",
+   "impact": "这项研究表明，AI 助手可能会通过恶意网页遭到攻击，从而泄露私人聊天和关联账户凭据等敏感数据。开发人员和安全团队可能需要评估助手处理跨域请求和权限提示的方式。",
+   "keyPoints": [
+    "恶意网页可以提取 Meta Muse 用户的私人对话和存储的记忆。",
+    "攻击不会触发任何用户批准提示。",
+    "攻击可扩展至获取关联账户的凭据。",
+    "该研究是一项实验室演示，未对真实用户实施攻击。"
+   ]
+  },
+  "ko": {
+   "title": "단 하나의 악성 웹페이지로 연구원들이 Meta Muse를 탈취하고 비공개 채팅에 접근하다",
+   "summary": "연구원들은 악성 웹페이지가 승인 프롬프트 없이도 Meta Muse 사용자의 비공개 대화와 저장된 메모리를 추출할 수 있음을 보여주었습니다. 동일한 공격은 Muse가 사용자의 연결된 계정을 위해 저장한 자격 증명에 도달하도록 확장될 수 있었습니다. 이 연구는 실제 사용자에 대한 공격이 아닌 실험실 시연이었으며 개별 사용자의 환경 내에 머물렀습니다.",
+   "impact": "이 연구는 AI 어시스턴트가 악성 웹페이지를 통해 비공개 채팅 및 연결된 계정 자격 증명과 같은 민감한 데이터를 노출할 위험이 있음을 보여줍니다. 개발자와 보안 팀은 어시스턴트가 교차 출처 요청 및 권한 프롬프트를 처리하는 방식을 평가해야 할 수 있습니다.",
+   "keyPoints": [
+    "악성 웹페이지가 Meta Muse에서 비공개 대화와 저장된 메모리를 추출할 수 있음.",
+    "공격은 사용자 승인 프롬프트를 트리거하지 않음.",
+    "공격이 연결된 계정의 자격 증명에 도달하도록 확장될 수 있음.",
+    "이 연구는 실제 사용자를 대상으로 한 것이 아닌 실험실 시연임."
+   ]
+  }
+ }
+}
