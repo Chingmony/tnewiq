@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "845fd769a93fbee8",
+ "contentHash": "338398f8a85fa7c6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T23:29:40.400Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
+   "summary": "AWS has launched cluster extensions for Amazon SageMaker HyperPod Slurm to help manage software and settings on running nodes. These extensions bring a declarative approach to observability and user management. Despite these managed APIs, users retain full SSH access to every node and the controller node for direct configuration.",
+   "impact": "Technology teams and administrators could benefit from reduced maintenance overhead through API-driven configuration while retaining full control over cluster nodes. This approach may help teams maintain consistency in observability and user management without sacrificing the ability to run custom scripts or make direct node configurations.",
+   "keyPoints": [
+    "Amazon SageMaker HyperPod launched cluster extensions for observability and user management.",
+    "The new capabilities bring declarative management to the software running on active cluster nodes.",
+    "Administrators retain full SSH access to all nodes, including controller nodes, for direct configuration and custom lifecycle scripts."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យដំណើរការនូវផ្នែកបន្ថែម簇ដែលបានគ្រប់គ្រងសម្រាប់ការសង្កេត និងការគ្រប់គ្រងអ្នកប្រើប្រាស់នៅក្នុង Amazon SageMaker HyperPod Slurm",
+   "summary": "AWS បានដាក់ឱ្យដំណើរការនូវផ្នែកបន្ថែម cluster សម្រាប់ Amazon SageMaker HyperPod Slurm ដើម្បីជួយគ្រប់គ្រង सफ្វែរ និងការកំណត់នៅលើโหนดដែលកំពុងដំណើរការ។ ផ្នែកបន្ថែមទាំងនេះនាំមកនូវវិធីសាស្រ្តប្រកាសសម្រាប់ការសង្កេត និងការគ្រប់គ្រងអ្នកប្រើប្រាស់។ ទោះបីជាមាន API ដែលបានគ្រប់គ្រងទាំងនេះក៏ដោយ អ្នកប្រើប្រាស់នៅតែរក្សាបាននូវសិទ្ធិ அணுகុ SSH ពេញលេញទៅកាន់គ្រប់โหนดទាំងអស់។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យានិងអ្នកគ្រប់គ្រងអាចទទួលបានផលប្រយោជន៍ពីការថែទាំទាបជាងមុនតាមរយៈការកំណត់រចនាសម្ព័ន្ធផ្អែកលើ API ដោយរក្សាបាននូវការគ្រប់គ្រងពេញលេញលើໂหนด cluster។ វិធីសាស្រ្តនេះអាចជួយក្រុមការងាររក្សាភាពស៊ីសង្វាក់គ្នាក្នុងការសង្កេត និងការគ្រប់គ្រងអ្នកប្រើប្រាស់។",
+   "keyPoints": [
+    "Amazon SageMaker HyperPod បានបើកដំណើរការផ្នែកបន្ថែម cluster សម្រាប់ការសង្កេត និងការគ្រប់គ្រងអ្នកប្រើប្រាស់។",
+    "លក្ខណៈពិសេសថ្មីនេះនាំមកនូវការគ្រប់គ្រងបែបប្រកាសដល់ software ដែលកំពុងដំណើរការលើโหนดសកម្ម។",
+    "អ្នកគ្រប់គ្រងនៅតែរក្សាបាននូវសិទ្ធិ அணுகុ SSH ពេញលេញទៅកាន់គ្រប់โหนดទាំងអស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在 Amazon SageMaker HyperPod Slurm 中引入用于可观测性和用户管理的托管集群扩展",
+   "summary": "AWS 推出了针对 Amazon SageMaker HyperPod Slurm 的集群扩展，用于帮助管理运行节点上的软件和设置。这些扩展为可观测性和用户管理带来了声明式方法。尽管有这些托管 API，用户仍保留对每个节点和控制节点的完全 SSH 访问权限，以便进行直接配置。",
+   "impact": "技术团队和管理员可以通过基于 API 的配置减少维护开销，同时保持对集群节点的完全控制。这种方法可能有助于团队在保持可观测性和用户管理一致性的同时，不失运行自定义脚本的能力。",
+   "keyPoints": [
+    "Amazon SageMaker HyperPod 推出了用于可观测性和用户管理的集群扩展。",
+    "新功能为运行中节点上的软件带来了声明式管理。",
+    "管理员保留对所有节点（包括控制节点）的完全 SSH 访问权限，以进行直接配置和自定义脚本。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon SageMaker HyperPod Slurm의 관측 가능성 및 사용자 관리를 위한 관리형 클러스터 확장 기능 소개",
+   "summary": "AWS는 실행 중인 노드의 소프트웨어와 설정을 관리할 수 있도록 Amazon SageMaker HyperPod Slurm용 클러스터 확장 기능을 출시했습니다. 이러한 확장 기능은 관측 가능성 및 사용자 관리에 선언적 접근 방식을 제공합니다. 이러한 관리형 API에도 불구하고 사용자는 모든 노드와 컨트롤러 노드에 대한 완전한 SSH 액세스 권한을 유지합니다.",
+   "impact": "기술 팀과 관리자는 API 기반 구성을 통해 유지 관리 오버헤드를 줄이면서 클러스터 노드에 대한 완전한 제어 권한을 유지할 수 있습니다. 이 접근 방식은 팀이 사용자 정의 스크립트를 실행하는 능력을 잃지 않으면서 관측 가능성과 사용자 관리의 일관성을 유지하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "Amazon SageMaker HyperPod가 관측 가능성 및 사용자 관리를 위한 클러스터 확장 기능을 출시했습니다.",
+    "새로운 기능은 활성 노드에서 실행되는 소프트웨어에 선언적 관리를 제공합니다.",
+    "관리자는 직접 구성과 사용자 정의 수명 주기 스크립트를 위해 모든 노드에 대한 완전한 SSH 액세스 권한을 유지합니다."
+   ]
+  }
+ }
+}

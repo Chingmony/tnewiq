@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "99b6d1cb95a1c785",
+ "contentHash": "e3a135b0f6bbf764",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T23:32:55.107Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon CloudWatch EKS Container Insights now offers built-in monitoring for open source Kubernetes tools",
+   "summary": "Amazon CloudWatch has introduced built-in monitoring for open source tools running on Amazon EKS clusters, such as Karpenter, KEDA, vLLM, KServe, SGLang, Ray, and Knative Serving. Users can access pre-built dashboards without needing to run Prometheus or Grafana themselves. Monitoring activates automatically upon enabling OTel Container Insights, providing detailed metrics for AI inference workloads and autoscaling. The features are available in version 8.0.0 and later of the add-on and Helm chart across all AWS Regions supporting OpenTelemetry metrics.",
+   "impact": "Developers and technology users may benefit from easier monitoring of open source Kubernetes tools and AI workloads without the overhead of managing Prometheus or Grafana. Security and operations teams could trace performance issues directly to specific nodes using enriched metrics, though they should account for ingestion pricing.",
+   "keyPoints": [
+    "Provides built-in monitoring for tools like Karpenter, KEDA, vLLM, KServe, SGLang, Ray, and Knative Serving on Amazon EKS.",
+    "Starts automatically when enabling OTel Container Insights without requiring self-managed Prometheus or Grafana.",
+    "Tracks AI inference metrics including queued requests, time to first token, and KV cache usage.",
+    "Available in version 8.0.0 and later of the add-on and Helm chart at an ingestion rate of $0.08 per GB."
+   ]
+  },
+  "km": {
+   "title": "Amazon CloudWatch EKS Container Insights ឥឡូវនេះផ្តល់ជូននូវការតាមដានដែលភ្ជាប់មកជាមួយសម្រាប់ឧបករណ៍ Kubernetes ប្រភពបើកចំហ",
+   "summary": "Amazon CloudWatch បានប្រកាសពីការតាមដានដែលភ្ជាប់មកជាមួយសម្រាប់ឧបករណ៍ប្រភពបើកចំហដែលដំណើរការលើ Amazon EKS clusters ដូចជា Karpenter, KEDA, vLLM, KServe, SGLang, Ray និង Knative Serving។ អ្នកប្រើប្រាស់ទទួលបានផ្ទាំងគ្រប់គ្រងដោយមិនចាំបាច់ដំណើរការ Prometheus ឬ Grafana ដោយផ្ទាល់នោះទេ។ ការតាមដានចាប់ផ្តើមដោយស្វ័យប្រវត្តិនៅពេលអ្នកបើកដំណើរការ OTel Container Insights។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យាអាចទទួលបានភាពងាយស្រួលក្នុងការតាមដានការងារ AI និងឧបករណ៍ប្រភពបើកចំហដោយមិនបាច់ចំណាយពេលរៀបចំប្រព័ន្ធផ្សេងទៀត។ ការតាមដាននេះអាចជួយឱ្យអ្នកប្រើប្រាស់មើលឃើញពីបញ្ហាក្នុងប្រព័ន្ធបានយ៉ាងឆាប់រហ័ស ប៉ុន្តែត្រូវគិតគូរពីថ្លៃសេវាទិន្នន័យផងដែរ។",
+   "keyPoints": [
+    "ផ្តល់ការតាមដានសម្រាប់ Karpenter, KEDA, vLLM, KServe, SGLang, Ray និង Knative Serving។",
+    "ចាប់ផ្តើមដោយស្វ័យប្រវត្តិនៅពេលបើក OTel Container Insights។",
+    "អាចមើលឃើញសំណើ AI ការប្រើប្រាស់ KV cache និងស្ថានភាព autoscaling។",
+    "មាននៅលើជំនាន់ 8.0.0 និងថ្មីជាងនេះនៃ add-on និង Helm chart។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon CloudWatch EKS Container Insights 现在为开源 Kubernetes 工具提供内置监控",
+   "summary": "Amazon CloudWatch 宣布为运行在 Amazon EKS 集群上的开源工具（包括 Karpenter、KEDA、vLLM、KServe、SGLang、Ray 和 Knative Serving）提供内置监控。用户无需自行运行 Prometheus 或 Grafana 即可获得现成的仪表板。当启用 OTel Container Insights 时，监控将自动开始，并为 AI 推理工作负载以及自动扩缩容提供详细指标。",
+   "impact": "开发人员和技术用户可以更轻松地监控开源 Kubernetes 工具和 AI 工作负载，而无需自行维护 Prometheus 或 Grafana。运营团队可以利用带有标签的指标将性能问题精确追溯到具体节点，但需要注意相关的 OpenTelemetry 数据引入费用。",
+   "keyPoints": [
+    "支持对 Karpenter、KEDA、vLLM、KServe、SGLang、Ray 和 Knative Serving 进行内置监控。",
+    "启用 OTel Container Insights 后即可自动开始监控。",
+    "可查看 AI 推理工作负载的排队请求、首字时间和 KV 缓存使用情况。",
+    "适用于插件和 Helm chart 的 8.0.0 及更高版本。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon CloudWatch EKS Container Insights, 오픈소스 쿠버네티스 도구를 위한 내장 모니터링 기능 출시",
+   "summary": "Amazon CloudWatch는 Karpenter, KEDA, vLLM, KServe, SGLang, Ray, Knative Serving을 포함하여 Amazon EKS 클러스터에서 실행되는 오픈소스 도구를 위한 내장 모니터링 기능을 발표했습니다. 사용자는 Prometheus나 Grafana를 직접 실행하지 않고도 대시보드를 이용할 수 있습니다. OTel Container Insights를 활성화하면 모니터링이 자동으로 시작됩니다.",
+   "impact": "개발자와 기술 사용자는 별도의 Prometheus나 Grafana 관리 부담 없이 오픈소스 도구와 AI 워크로드를 더 쉽게 모니터링할 수 있습니다. 운영 팀은 향상된 지표를 통해 성능 저하를 특정 노드까지 추적할 수 있으며, 관련 수집 비용을 고려해야 합니다.",
+   "keyPoints": [
+    "Karpenter, KEDA, vLLM, KServe, SGLang, Ray 및 Knative Serving에 대한 내장 모니터링 제공.",
+    "OTel Container Insights 활성화 시 모니터링 자동 시작.",
+    "AI 추론 워크로드의 대기 요청, 첫 토큰 생성 시간, KV 캐시 사용량 확인 가능.",
+    "애드온 및 Helm chart 버전 8.0.0 이상에서 지원."
+   ]
+  }
+ }
+}

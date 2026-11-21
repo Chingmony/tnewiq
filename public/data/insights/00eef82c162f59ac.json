@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "00eef82c162f59ac",
+ "contentHash": "166ecdceadd4f355",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T23:33:15.560Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Quick introduces enterprise guardrails (preview)",
+   "summary": "AWS Quick now offers enterprise guardrails in preview, allowing administrators to configure content safety and sensitive-information controls for user prompts. Policies can be assigned to individual users, IdP groups, or set as an account default with a clear precedence hierarchy. Administrators can build policies using content filters, denied topics, blocked words, prompt-attack detection, and PII controls via the Quick administration console. A detect-only mode is also available to test rules against production traffic before turning on enforcement.",
+   "impact": "Security and administrative teams may use these controls to prevent users from sharing sensitive information and manage prompt-safety rules across different user groups. The preview availability allows teams to evaluate how the filtering mechanisms affect workflows using log data.",
+   "keyPoints": [
+    "Enterprise guardrails are available in preview for select Quick customers on Professional and Enterprise plans.",
+    "Administrators can configure policies using content filters, denied topics, blocked words, prompt-attack controls, and PII restrictions.",
+    "Detect-only mode enables testing of rules on production traffic without blocking actual requests.",
+    "Events for detected and blocked prompts can be reviewed in Amazon CloudWatch Logs."
+   ]
+  },
+  "km": {
+   "title": "AWS Quick ដាក់ឱ្យដំណើរការនូវរបាំងសុវត្ថិភាពសម្រាប់សហគ្រាស (ជាការមើលជាមុន)",
+   "summary": "AWS Quick ឥឡូវនេះរួមបញ្ចូលទាំងរបាំងសុវត្ថិភាពសម្រាប់សហគ្រាស ដែលផ្តល់ឱ្យអ្នកគ្រប់គ្រងនូវការគ្រប់គ្រងសុវត្ថិភាពមាតិកា និងព័ត៌មានរសើបដែលអាចកំណត់រចនាសម្ព័ន្ធបានសម្រាប់សំណួររបស់អ្នកប្រើប្រាស់។ អ្នកគ្រប់គ្រងអាចអនុវត្តគោលការណ៍របាំងសុវត្ថិភាពចំពោះអ្នកប្រើប្រាស់ម្នាក់ៗ ក្រុម IdP ឬកំណត់គោលការណ៍លំនាំដើមរបស់គណនី។ មុខងារនេះអាចរកបានជាការមើលជាមុនសម្រាប់អតិថិជន Quick ដែលជ្រើសរើសនៅលើគម្រោង Professional និង Enterprise។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកគ្រប់គ្រងអាចប្រើប្រាស់ការគ្រប់គ្រងទាំងនេះ ដើម្បីការពារការចែករំលែកព័ត៌មានរសើប និងគ្រប់គ្រងវិធានសុវត្ថិភាពសំណួរ។ របៀបរកឃើញតែប៉ុណ្ណោះអនុញ្ញាតឱ្យធ្វើតេស្តច្បាប់នៅលើចរាចរណ៍ផលិតកម្មមុនពេលដាក់ឱ្យអនុវត្ត។",
+   "keyPoints": [
+    "របាំងសុវត្ថិភាពសម្រាប់សហគ្រាសមានជាការមើលជាមុនសម្រាប់អតិថិជន Quick ដែលជ្រើសរើស។",
+    "អ្នកគ្រប់គ្រងអាចបង្កើតគោលការណ៍ដោយប្រើតម្រងមាតិកា ប្រធានបទដែលបានបដិសេធ និងការរកឃើញការវាយប្រហារតាមរយៈសំណួរ។",
+    "របៀបរកឃើញតែប៉ុណ្ណោះអនុញ្ញាតឱ្យធ្វើតេស្តច្បាប់ដោយមិនបិទសំណើរបស់អ្នកប្រើប្រាស់។",
+    "ព្រឹត្តិការណ៍ដែលបានរកឃើញ និងបិទខ្ទប់អាចត្រូវបានពិនិត្យនៅក្នុង Amazon CloudWatch Logs។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Quick 推出企业级护栏（预览版）",
+   "summary": "AWS Quick 现在引入了企业级护栏，为管理员提供针对用户提示词的可配置内容安全和敏感信息控制功能。管理员可以将护栏策略应用于单个用户、企业身份提供商 (IdP) 组或设置为账户默认值。企业级护栏目前在 Professional 和 Enterprise 计划中向部分 Quick 客户提供预览版。",
+   "impact": "安全和管理团队可以利用这些控制措施来防止敏感信息的泄露，并在不同的用户组中管理提示词安全规则。测试模式允许团队在正式强制执行之前评估过滤规则对业务工作流的影响。",
+   "keyPoints": [
+    "企业级护栏面向部分拥有 Professional 和 Enterprise 计划的 Quick 客户推出预览版。",
+    "管理员可以使用内容过滤、禁用主题、阻止的词汇、提示词攻击检测以及 PII 控制来创建策略。",
+    "仅检测模式允许管理员在生产流量中测试规则而不阻止请求。",
+    "管理员可以在 Amazon CloudWatch Logs 中审查检测到和被阻止的事件。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Quick, 엔터프라이즈 가드레일 도입 (미리 보기)",
+   "summary": "AWS Quick은 이제 관리자가 사용자 프롬프트에 대한 콘텐츠 안전 및 민감 정보 제어를 구성할 수 있는 엔터프라이즈 가드레일을 제공합니다. 관리자는 개별 사용자, IdP 그룹 또는 계정 기본값에 가드레일 정책을 적용할 수 있습니다. 엔터프라이즈 가드레일은 Professional 및 Enterprise 플랜을 사용하는 일부 Quick 고객을 대상으로 미리 보기로 제공됩니다.",
+   "impact": "보안 및 관리 팀은 이러한 제어 기능을 사용하여 민감한 정보의 공유를 방지하고 사용자 그룹 전반에서 프롬프트 안전 규칙을 관리할 수 있습니다. 탐지 전용 모드를 통해 팀은 실제 트래픽에서 규칙을 테스트하고 비즈니스 워크플로에 미치는 영향을 평가할 수 있습니다.",
+   "keyPoints": [
+    "엔터프라이즈 가드레일은 Professional 및 Enterprise 플랜의 일부 Quick 고객에게 미리 보기로 제공됩니다.",
+    "관리자는 콘텐츠 필터, 거부된 주제, 차단된 단어, 프롬프트 공격 탐지 및 PII 제어를 사용하여 정책을 생성할 수 있습니다.",
+    "탐지 전용 모드를 사용하면 실제 요청을 차단하지 않고 프로덕션 트래픽에서 규칙을 테스트할 수 있습니다.",
+    "관리자는 Amazon CloudWatch Logs에서 감지 및 차단된 이벤트를 검토할 수 있습니다."
+   ]
+  }
+ }
+}

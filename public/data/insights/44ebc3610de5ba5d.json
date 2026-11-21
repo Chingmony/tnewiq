@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "44ebc3610de5ba5d",
+ "contentHash": "35e2ea2b54b9d076",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T23:30:41.768Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Cognito extends multi-Region replication to additional AWS Regions",
+   "summary": "Amazon Cognito multi-Region replication (MRR) now supports additional AWS Regions, allowing workloads to extend resilience benefits. MRR synchronizes user and machine identity data nearly in real-time to a standby Region. This allows traffic redirection and keeps authentication available during a primary Region disruption.",
+   "impact": "Developers and security teams can use this expansion to better meet data residency, compliance, and resilience requirements for their workloads. It may help ensure continuous authentication availability across more geographical locations.",
+   "keyPoints": [
+    "Amazon Cognito MRR adds support for multiple new AWS Regions across Asia Pacific, Canada, Europe, Israel, Mexico, and Africa.",
+    "MRR synchronizes user pools, configurations, federation setups, and credentials to a designated standby Region.",
+    "The feature is available as an add-on for Essentials or Plus feature plans and requires a multi-Region AWS KMS customer managed key."
+   ]
+  },
+  "km": {
+   "title": "Amazon Cognito ពង្រីកការចម្លងទិន្នន័យពហុតំបន់ទៅកាន់ AWS Regions បន្ថែមទៀត",
+   "summary": "ការចម្លងទិន្នន័យពហុតំបន់ (MRR) របស់ Amazon Cognito ឥឡូវនេះគាំទ្រដល់ AWS Regions បន្ថែមទៀត ដែលជួយពង្រីកអត្ថប្រយោជន៍នៃការធន់ទ្រាំសម្រាប់បន្ទុកការងារជាច្រើនទៀត។ MRR ធ្វើសមកាលកម្មទិន្នន័យអត្តសញ្ញាណអ្នកប្រើប្រាស់ និងម៉ាស៊ីនស្ទើរតែក្នុងពេលជាក់ស្តែងទៅកាន់តំបន់រង់ចាំបម្រុង។ មុខងារនេះជួយឱ្យអ្នកអាចបញ្ជូនចរាចរណ៍បន្ត និងរក្សាការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវឱ្យនៅតែដំណើរការប្រសិនបើមានការរអាក់រអួលនៅក្នុងតំបន់ចម្បងរបស់អ្នក។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខអាចប្រើប្រាស់ការពង្រីកនេះដើម្បីបំពេញតម្រូវការទីតាំងទិន្នន័យ ការអនុលោមតាមច្បាប់ និងភាពធន់ទ្រាំបានកាន់តែប្រសើរ។ វាអាចជួយធានាឱ្យមានការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវជាបន្តបន្ទាប់នៅតាមទីតាំងភូមិសាស្ត្រជាច្រើនទៀត។",
+   "keyPoints": [
+    "Amazon Cognito MRR បានបន្ថែមការគាំទ្រសម្រាប់ AWS Regions ថ្មីៗជាច្រើននៅតំបន់អាស៊ីប៉ាស៊ីហ្វិក កាណាដា អឺរ៉ុប អ៊ីស្រាអែល ម៉ិកស៊ិក និងអាហ្វ្រិក។",
+    "MRR ធ្វើសមកាលកម្មក្រុមអ្នកប្រើប្រាស់ ការកំណត់រចនាសម្ព័ន្ធ ការរៀបចំសហព័ន្ធ និងព័ត៌មានសម្ងាត់ទៅកាន់តំបន់បម្រុងដែលបានកំណត់។",
+    "មុខងារនេះអាចប្រើប្រាស់ជាផ្នែកបន្ថែមសម្រាប់គម្រោង Essentials ឬ Plus និងទាមទារសោរគ្រប់គ្រងដោយអតិថិជន AWS KMS ពហុតំបន់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Cognito 将多区域复制扩展到更多 AWS 区域",
+   "summary": "Amazon Cognito 多区域复制 (MRR) 现已支持更多的 AWS 区域，从而将弹性优势扩展到更多工作负载。MRR 能够近乎实时地将用户和机器身份数据（包括凭据、用户池配置和联合设置）同步到指定的备用区域中的辅助用户池。借助备用区域中的用户数据，您可以在主区域出现中断时重定向流量并保持身份验证可用。",
+   "impact": "开发人员和安全团队可以利用这一扩展更好地满足其工作负载的数据驻留、合规性和弹性要求。这可能有助于在更多地理位置确保身份验证的持续可用性。",
+   "keyPoints": [
+    "Amazon Cognito MRR 在亚太地区、加拿大、欧洲、以色列、墨西哥和非洲增加了对多个新 AWS 区域的支持。",
+    "MRR 将用户池、配置、联合设置和凭据同步到指定的备用区域。",
+    "该功能作为 Essentials 或 Plus 功能计划的附加组件提供，并且需要多区域 AWS KMS 客户管理的密钥。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Cognito, 멀티 리전 복제를 추가 AWS 리전으로 확장",
+   "summary": "Amazon Cognito 멀티 리전 복제(MRR)가 이제 추가 AWS 리전을 지원하여 더 많은 워크로드로 복원력 이점을 확장합니다. MRR을 사용하면 자격 증명, 사용자 풀 구성, 페더레이션 설정을 포함한 사용자 및 머신 ID 데이터를 지정된 대기 리전의 보조 사용자 풀로 실시간에 가깝게 동기화할 수 있습니다. 대기 리전의 사용자 데이터를 통해 기본 리전에 장애가 발생할 때 트래픽을 리디렉션하고 인증을 계속 사용할 수 있습니다.",
+   "impact": "개발자와 보안 팀은 이 확장을 사용하여 워크로드에 대한 데이터 거주지, 규정 준수 및 복원력 요구 사항을 더 잘 충족할 수 있습니다. 이를 통해 더 많은 지리적 위치에서 지속적인 인증 가용성을 보장할 수 있습니다.",
+   "keyPoints": [
+    "Amazon Cognito MRR은 아시아 태평양, 캐나다, 유럽, 이스라엘, 멕시코, 아프리카의 여러 새로운 AWS 리전에 대한 지원을 추가했습니다.",
+    "MRR은 사용자 풀, 구성, 페더레이션 설정 및 자격 증명을 지정된 대기 리전으로 동기화합니다.",
+    "이 기능은 Essentials 또는 Plus 기능 플랜의 애드온으로 제공되며 멀티 리전 AWS KMS 고객 관리형 키가 필요합니다."
+   ]
+  }
+ }
+}

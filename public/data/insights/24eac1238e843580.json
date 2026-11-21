@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "24eac1238e843580",
+ "contentHash": "9068bf8cb47b0095",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T23:32:04.881Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Lead groups and channel recommendations now available in AWS Partner Central",
+   "summary": "AWS Partners can now use lead groups and channel recommendations in AWS Partner Central to organize enriched leads and plan outreach. Enriched leads are automatically segmented into sales-ready, marketing-ready, and limited-potential groups. The feature also provides AI-generated call and email scripts, channel guidance, and integration options with Demand Center and CRMs.",
+   "impact": "This feature could help developers and technical teams streamline their partner workflows by utilizing the AWS Partner Central Selling API to manage leads. Partners may reduce customer acquisition costs and save time by avoiding limited-potential leads and automating outreach preparation.",
+   "keyPoints": [
+    "Enriched leads are automatically grouped by solution area and segmented into sales-ready, marketing-ready, and limited-potential groups.",
+    "AI-generated call scripts and email scripts are provided along with guidance on whether phone or email is more effective.",
+    "Marketing-ready leads can be sent to Demand Center, and sales-ready leads can be exported to a CRM.",
+    "Available to ACE-eligible Partners on the Leads page in AWS Partner Central and through the AWS Partner Central Selling API."
+   ]
+  },
+  "km": {
+   "title": "ក្រុមអ្នកនាំមុខ និងការណែនាំឆានែលឥឡូវនេះមាននៅលើ AWS Partner Central",
+   "summary": "ដៃគូ AWS ឥឡូវនេះអាចប្រើប្រាស់ក្រុមអ្នកនាំមុខ និងការណែនាំឆានែលនៅក្នុង AWS Partner Central ដើម្បីរៀបចំអ្នកនាំមុខដែលបានបង្កើន និងរៀបចំផែនការទំនាក់ទំនង។ អ្នកនាំមុខដែលបានបង្កើនត្រូវបានបែងចែកដោយស្វ័យប្រវត្តិទៅជាក្រុមដែលត្រៀមរួចជាស្រេចសម្រាប់ការលក់ ត្រៀមទីផ្សារ និងមានសក្តានុពលកម្រិតកំណត់។ មុខងារនេះក៏ផ្តល់នូវស្គ្រីបហៅទូរសព្ទ និងអ៊ីមែលដែលបង្កើតដោយ AI ការណែនាំឆានែល និងជម្រើសរួមបញ្ចូលគ្នាជាមួយ Demand Center និង CRM ផងដែរ។",
+   "impact": "មុខងារនេះអាចជួយដៃគូកាត់បន្ថយការចំណាយលើការទទួលបានអតិថិជនថ្មី និងសន្សំសំចៃពេលវេលាដោយជៀសវាងអ្នកនាំមុខដែលមានសក្តានុពលកម្រិតកំណត់។ អ្នកអភិវឌ្ឍន៍ក៏អាចប្រើប្រាស់ AWS Partner Central Selling API ដើម្បីគ្រប់គ្រងអ្នកនាំមុខទាំងនេះផងដែរ។",
+   "keyPoints": [
+    "អ្នកនាំមុខដែលបានបង្កើនត្រូវបានដាក់ជាក្រុមដោយស្វ័យប្រវត្តិដោយផ្អែកលើតំបន់ដំណោះស្រាយ។",
+    "ស្គ្រីបហៅទូរសព្ទ និងអ៊ីមែលដែលបង្កើតដោយ AI ត្រូវបានផ្តល់ជូនសម្រាប់ការទាក់ទង។",
+    "អ្នកនាំមុខដែលត្រៀមរួចជាស្រេចសម្រាប់ទីផ្សារអាចត្រូវបានបញ្ជូនទៅកាន់ Demand Center។",
+    "មានសម្រាប់ដៃគូដែលមានសិទ្ធិ ACE នៅលើទំព័រ Leads ក្នុង AWS Partner Central និងតាមរយៈ API ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Partner Central 现已推出潜在客户群和渠道推荐功能",
+   "summary": "AWS 合作伙伴现在可以在 AWS Partner Central 中使用潜在客户群和渠道推荐功能来组织丰富后的潜在客户并规划外展活动。丰富后的潜在客户会自动按解决方案领域进行分组，并细分为销售就绪型、营销就绪型和潜力有限型。该功能还提供 AI 生成的通话脚本和电子邮件脚本、渠道指导以及与 Demand Center 和 CRM 的集成选项。",
+   "impact": "此功能可以帮助合作伙伴通过避免潜力有限的潜在客户来降低获取新客户的成本并节省时间。开发人员和技术团队还可以通过 AWS Partner Central Selling API 将这些功能整合到他们的工作流程中。",
+   "keyPoints": [
+    "丰富后的潜在客户会自动按解决方案领域分组并分为销售就绪型、营销就绪型和潜力有限型。",
+    "提供 AI 生成的通话和电子邮件脚本以及关于电话或电子邮件哪个更有效的指导。",
+    "营销就绪型的潜在客户可以发送到 Demand Center，销售就绪型的潜在客户可以导出到 CRM。",
+    "适用于符合 ACE 条件的合作伙伴，可通过 AWS Partner Central 的 Leads 页面和 Selling API 访问。"
+   ]
+  },
+  "ko": {
+   "title": "리드 그룹 및 채널 추천 기능이 AWS Partner Central에 출시되었습니다",
+   "summary": "AWS 파트너는 이제 AWS Partner Central에서 리드 그룹과 채널 추천을 사용하여 강화된 리드를 조직하고 아웃リーチ 계획을 세울 수 있습니다. 강화된 리드는 솔루션 영역별로 자동 그룹화되며 판매 준비 완료, 마케팅 준비 완료, 제한된 잠재력 그룹으로 분류됩니다. 이 기능은 또한 AI가 생성한 통화 및 이메일 스크립트, 채널 지침, Demand Center 및 CRM과의 통합 옵션을 제공합니다.",
+   "impact": "이 기능은 파트너가 전환 가능성이 낮은 제한된 잠재력 리드를 피함으로써 새로운 고객 확보 비용을 낮추고 시간을 절약하는 데 도움을 줄 수 있습니다. 개발자와 보안 팀은 AWS Partner Central Selling API를 통해 관련 워크플로를 간소화할 수 있습니다.",
+   "keyPoints": [
+    "강화된 리드는 솔루션 영역별로 자동 그룹화되고 판매 준비, 마케팅 준비, 제한된 잠재력 그룹으로 분류됩니다.",
+    "전화나 이메일 중 어느 것이 더 효과적인지에 대한 지침과 함께 AI 생성 통화 및 이메일 스크립트가 제공됩니다.",
+    "마케팅 준비 리드는 Demand Center로 전송할 수 있으며 판매 준비 리드는 CRM으로 내보낼 수 있습니다.",
+    "AWS Partner Central의 Leads 페이지와 AWS Partner Central Selling API를 통해 ACE 자격이 있는 파트너가 사용할 수 있습니다."
+   ]
+  }
+ }
+}

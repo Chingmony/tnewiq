@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f6fc24c2f7500285",
+ "contentHash": "6261725826345229",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T23:31:43.725Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon CloudWatch extends the PromQL query window to 30 days",
+   "summary": "Amazon CloudWatch has expanded its support for PromQL queries against OpenTelemetry metrics, increasing the query window from 7 days to 30 days. Users can now query a full month of data in a single request, allowing for month-over-month trend analysis and 30-day baseline alarms. This update is available at no additional cost across all AWS Regions where PromQL queries for OpenTelemetry metrics are offered.",
+   "impact": "This extension could help teams evaluate service level objectives over a standard 30-day rolling window in a single query and improve capacity forecasting accuracy by reducing the impact of short-term anomalies.",
+   "keyPoints": [
+    "PromQL query window increased from 7 days to 30 days for OpenTelemetry metrics.",
+    "Enables month-over-month and week-over-week trending on a single dashboard.",
+    "Supports 30-day rolling window service level objectives and error budget tracking.",
+    "Available at no additional cost in all applicable AWS Regions."
+   ]
+  },
+  "km": {
+   "title": "Amazon CloudWatch ពង្រីកបង្អួចសំណួរ PromQL ដល់ 30 ថ្ងៃ",
+   "summary": "Amazon CloudWatch ឥឡូវនេះគាំទ្របង្អួចសំណួរ 30 ថ្ងៃសម្រាប់សំណួរ PromQL ប្រឆាំងនឹងរង្វាស់ OpenTelemetry ដែលកើនឡើងពី 7 ថ្ងៃ។ អ្នកប្រើប្រាស់អាចសាកសួរទិន្នន័យមួយខែក្នុងសំណើតែមួយ និងកំណត់ការជូនដំណឹងលើមូលដ្ឋានគ្រឹះ 30 ថ្ងៃ។ លក្ខណៈពិសេសនេះមានដោយគ្មានថ្លៃដើមបន្ថែមនៅក្នុងតំបន់ AWS ទាំងអស់ដែលមុខងារនេះមាន។",
+   "impact": "ការផ្លាស់ប្តូរនេះអាចជួយក្រុមការងារគណនាភាពអាចរកបាន និងថវិកាข้อผิดพลาดសម្រាប់រយៈពេល SLO ពេញលេញក្នុងសំណួរតែមួយ ក៏ដូចជាធ្វើឱ្យការព្យាករណ៍សមត្ថភាពកាន់តែគួរឱ្យទុកចិត្តជាងមុន។",
+   "keyPoints": [
+    "បង្អួចសំណួរ PromQL ត្រូវបានពង្រីកដល់ 30 ថ្ងៃ។",
+    "អនុញ្ញាតឱ្យតាមដានគោលបំណងកម្រិតសេវាកម្ម SLO លើបង្អួច 30 ថ្ងៃ។",
+    "ធ្វើឱ្យការព្យាករណ៍សមត្ថភាពមានភាពជឿជាក់ជាងមុន។",
+    "អាចប្រើប្រាស់បានដោយគ្មានប្រាក់បន្ថែមនៅក្នុងតំបន់ AWS ទាំងអស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon CloudWatch 将 PromQL 查询窗口延长至 30 天",
+   "summary": "Amazon CloudWatch 现在支持对 OpenTelemetry 指标进行 PromQL 查询的 30 天查询窗口，而之前为 7 天。用户可以在单个请求中查询一个月的数据，并在一个仪表板上绘制环比和同比趋势，以及对 30 天基线发出警报。该功能在支持 Amazon CloudWatch 中针对 OpenTelemetry 指标的 PromQL 查询的所有 AWS 区域中免费提供。",
+   "impact": "此功能可能会使团队能够通过单个查询来计算整个 SLO 周期的可用性和剩余错误预算，并在服务有望耗尽预算时发出警报，同时使容量预测更加可靠。",
+   "keyPoints": [
+    "OpenTelemetry 指标的 PromQL 查询窗口从 7 天延长至 30 天。",
+    "支持在单个请求中查询一个月的数据。",
+    "有助于评估 30 天滚动窗口内的服务等级目标 SLO。",
+    "在所有适用的 AWS 区域免费提供。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon CloudWatch, PromQL 쿼리 창을 30일로 연장",
+   "summary": "Amazon CloudWatch는 OpenTelemetry 메트릭에 대한 PromQL 쿼리 지원 기간을 기존 7일에서 30일로 늘렸습니다. 사용자는 단일 요청으로 한 달간의 데이터를 조회하고, 하나의 대시보드에서 전월 대비 및 전주 대비 추세를 차트로 작성하며, 30일 기준선에 대한 경보를 설정할 수 있습니다. 이 기능은 Amazon CloudWatch에서 OpenTelemetry 메트릭에 대한 PromQL 쿼리를 사용할 수 있는 모든 AWS 리전에서 추가 비용 없이 제공됩니다.",
+   "impact": "이번 업데이트를 통해 팀은 단일 쿼리로 전체 SLO 기간 동안의 가용성과 남은 에러 예산을 계산하고 예산 소진 위험을 감지할 수 있으며, 단기 주말의 영향으로 인한 왜곡을 줄여 용량 예측의 신뢰성을 높일 수 있습니다.",
+   "keyPoints": [
+    "OpenTelemetry 메트릭에 대한 PromQL 쿼리 창이 7일에서 30일로 확대됨.",
+    "단일 요청으로 한 달간의 데이터 조회 가능.",
+    "30일 롤링 윈도우를 기준으로 서비스 수준 목표 설정 및 에러 예산 계산 용이.",
+    "해당 기능이 제공되는 모든 AWS 리전에서 추가 비용 없이 이용 가능."
+   ]
+  }
+ }
+}

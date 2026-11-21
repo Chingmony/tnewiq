@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "756bd32258a5ff4a",
+ "contentHash": "c7dc73a72477d689",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T23:28:27.993Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+   "summary": "Self-hosting large language models often results in redundant GPU work and high latency due to isolated caches. To address this, a new distributed KV caching agent skill uses Amazon ElastiCache to share key-value states across servers, reducing inference costs and time to first token. The skill guides coding agents through evaluating workload fit, sizing the cache, and configuring the setup.",
+   "impact": "Development and security teams managing self-hosted LLM infrastructure could see lower inference costs and reduced latency. The tool assists in evaluating whether the architecture suits specific workloads before deployment.",
+   "keyPoints": [
+    "Distributed KV caching with Amazon ElastiCache can cut inference costs by up to 40% and time to first token by up to 80%.",
+    "The agent skill is compatible with coding agents like Kiro, Claude Code, and OpenAI Codex.",
+    "The tool uses KVTrace to estimate workload benefits and cost savings prior to deploying infrastructure."
+   ]
+  },
+  "km": {
+   "title": "កាត់បន្ថយចំណាយនិងភាពយឺតយ៉ាវរបស់ LLM ដែលហូសស្ដុបដោយខ្លួនឯង តាមរយៈជំនាញភ្នាក់ងារឃ្លាំងសម្ងាត់ KV ចែកចាយ",
+   "summary": "ការបង្ហោះគំរូភាសាខ្នាតធំដោយខ្លួនឯងជារឿយៗនាំឱ្យមានការគណនា GPU កំរិតស្ទួននិងភាពយឺតយ៉ាវដោយសារតែឃ្លាំងសម្ងាត់ដាច់ដោយឡែកពីគ្នា។ ដើម្បីដោះស្រាយបញ្ហានេះ ជំនាញភ្នាក់ងារឃ្លាំងសម្ងាត់ KV ចែកចាយថ្មីប្រើប្រាស់ Amazon ElastiCache ដើម្បីចែករំលែកស្ថានភាពរវាងម៉ាស៊ីនបម្រើ។ ជំនាញនេះជួយណែនាំភ្នាក់ងារសរសេរកូដក្នុងការវាយតម្លៃ និងកំណត់រចនាសម្ព័ន្ធឃ្លាំងសម្ងាត់។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍និងសុវត្ថិភាពដែលគ្រប់គ្រងហេដ្ឋារចនាសម្ព័ន្ធ LLM អាចកាត់បន្ថយចំណាយលើការអនុវត្តនិងកាត់បន្ថយភាពយឺតយ៉ាវ។ ឧបករណ៍នេះជួយវាយតម្លៃថាតើស្ថាបត្យកម្មនេះសាកសមនឹងបន្ទុកការងារមុនពេលដាក់ពង្រាយដែរឬទេ។",
+   "keyPoints": [
+    "ការប្រើប្រាស់ឃ្លាំងសម្ងាត់ KV ចែកចាយជាមួយ Amazon ElastiCache អាចកាត់បន្ថយចំណាយរហូតដល់ 40% និងពេលវេលាទៅកាន់ថូខឹនដំបូងរហូតដល់ 80%។",
+    "ជំនាញភ្នាក់ងារនេះអាចប្រើប្រាស់ជាមួយ Kiro, Claude Code និង OpenAI Codex។",
+    "ឧបករណ៍ KVTrace ត្រូវបានប្រើប្រាស់ដើម្បីប៉ាន់ស្មានផលប្រយោជន៍និងការសន្សំសំចៃថ្លៃដើមមុនពេលដាក់ពង្រាយហេដ្ឋារចនាសម្ព័ន្ធ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "利用分布式 KV 缓存代理技能降低自托管大语言模型的成本和延迟",
+   "summary": "由于缺乏共享机制，自托管大语言模型通常会因为孤立的缓存而产生冗余的 GPU 计算和高延迟。为了解决这一问题，全新的分布式 KV 缓存代理技能利用 Amazon ElastiCache 在服务器之间共享键值状态，从而降低推理成本和首字延迟。该ic技能可指导编码代理评估工作负载适用性并进行配置。",
+   "impact": "管理自托管大语言模型基础设施的开发和安全团队可以降低推理成本并缩短响应时间。该工具可在部署前帮助评估特定架构是否适合相应的工作负载。",
+   "keyPoints": [
+    "结合 Amazon ElastiCache 的分布式 KV 缓存最高可将自托管大语言模型的推理成本降低 40%，首字延迟降低 80%。",
+    "该代理技能支持 Kiro、Claude Code、OpenAI Codex 以及其他支持 Agent Skills 的编码代理。",
+    "该工具使用 KVTrace 在部署任何基础设施之前对工作负载的收益和成本节省进行估算。"
+   ]
+  },
+  "ko": {
+   "title": "분산 KV 캐싱 에이전트 스킬로 자체 호스팅 LLM 비용 및 지연 시간 절감",
+   "summary": "대형 언어 모델을 자체 호스팅할 경우 고립된 캐시로 인해 중복된 GPU 연산과 지연 시간이 발생할 수 있습니다. 이를 해결하기 위해 분산 KV 캐싱 에이전트 스킬은 Amazon ElastiCache를 활용하여 서버 간에 키-값 상태를 공유함으로써 추론 비용과 첫 토큰 생성 시간을 줄여줍니다. 해당 스킬은 코딩 에이전트를 통해 워크로드 적합성 평가 및 설정을 안내합니다.",
+   "impact": "자체 호스팅 LLM 인프라를 관리하는 개발 및 보안 팀은 추론 비용 절감과 지연 시간 단축 효과를 기대할 수 있습니다. 이 도구는 배포 전에 특정 아키텍처가 워크로드에 적합한지 평가하는 데 도움을 줍니다.",
+   "keyPoints": [
+    "Amazon ElastiCache를 활용한 분산 KV 캐시는 자체 호스팅 LLM 추론 비용을 최대 40%, 첫 토큰 도달 시간을 최대 80%까지 절감할 수 있습니다.",
+    "이 에이전트 스킬은 Kiro, Claude Code, OpenAI Codex 및 에이전트 스킬을 지원하는 기타 코딩 에이전트와 호환됩니다.",
+    "KVTrace 도구를 사용하여 인프라를 배포하기 전에 워크로드의 이점과 비용 절감 효과를 미리 추정할 수 있습니다."
+   ]
+  }
+ }
+}

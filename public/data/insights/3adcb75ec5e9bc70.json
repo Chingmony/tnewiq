@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3adcb75ec5e9bc70",
+ "contentHash": "e646e9cb50ecc14b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T23:33:05.064Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Quick now supports group assignments for custom permissions and limit profiles",
+   "summary": "AWS Quick now allows administrators to assign custom permissions and limit profiles to groups from an enterprise identity provider. This enables organizations to apply feature restrictions and resource limits to IdP groups instead of maintaining individual user assignments. Administrators can manage these assignments in the Quick administration console or via new policy assignment APIs. The feature is available in Quick for Professional and Enterprise plans.",
+   "impact": "Administrators could better align governance with their enterprise identity structure without needing to maintain individual user assignments. Security teams and technology users may experience automated enforcement of resource limits and capability restrictions based on group memberships.",
+   "keyPoints": [
+    "AWS Quick supports assignments for custom permissions and limit profiles to enterprise identity provider groups.",
+    "Administrators can manage user, account, or group assignments via the Quick administration console or new policy assignment APIs.",
+    "Overlapping group assignments are resolved by denying capabilities if any group denies them, and by applying the highest limit value for limit profiles.",
+    "Group assignments are available for Quick Professional and Enterprise plans."
+   ]
+  },
+  "km": {
+   "title": "AWS Quick ឥឡូវនេះគាំទ្រការចាត់តាំងក្រុមសម្រាប់សិទ្ធិផ្ទាល់ខ្លួន និងកម្រងកំណត់ដែនកំណត់",
+   "summary": "AWS Quick ឥឡូវនេះអនុញ្ញាតឱ្យអ្នកគ្រប់គ្រងចាត់តាំងសិទ្ធិផ្ទាល់ខ្លួន និងកម្រងកំណត់ដែនកំណត់ទៅឱ្យក្រុមមកពីអ្នកផ្តល់អត្តសញ្ញាណសហគ្រាស។ នេះអនុញ្ញាតឱ្យស្ថាប័ននានាអនុវត្តការដាក់កម្រិតមុខងារ និងដែនកំណត់ធនធានចំពោះក្រុម IdP ជាជាងការរក្សាការចាត់តាំងអ្នកប្រើប្រាស់ម្នាក់ៗ។ អ្នកគ្រប់គ្រងអាចគ្រប់គ្រងការចាត់តាំងទាំងនេះនៅក្នុងកុងសូលគ្រប់គ្រង Quick ឬតាមរយៈ API ការចាត់តាំងគោលនយោបាយថ្មី។",
+   "impact": "អ្នកគ្រប់គ្រងអាចកែសម្រួលការគ្រប់គ្រងឱ្យស្របតាមរចនាសម្ព័ន្ធអត្តសញ្ញាណសហគ្រាសរបស់ពួកគេដោយមិនចាំបាច់រក្សាការចាត់តាំងអ្នកប្រើប្រាស់ម្នាក់ៗ។ ក្រុមសុវត្ថិភាព និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានការบังคับប្រើដែនកំណត់ធនធានដោយស្វ័យប្រវត្តិ។",
+   "keyPoints": [
+    "AWS Quick គាំទ្រការចាត់តាំងសម្រាប់សិទ្ធិផ្ទាល់ខ្លួន និងកម្រងកំណត់ដែនកំណត់ដល់ក្រុម IdP របស់សហគ្រាស។",
+    "អ្នកគ្រប់គ្រងអាចគ្រប់គ្រងការចាត់តាំងតាមរយៈកុងសូល Quick ឬ API ថ្មី។",
+    "ការចាត់តាំងក្រុមមានសម្រាប់គម្រោង Professional និង Enterprise របស់ Quick។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Quick 现在支持为自定义权限和限制配置文件分配组",
+   "summary": "AWS Quick 现在支持将自定义权限和限制配置文件分配给企业身份提供商的组。管理员现在可以将功能限制和每个用户的资源限制应用于 IdP 组，而无需维护单个用户的分配。管理员可以在 Quick 管理控制台中或通过新的策略分配 API 管理用户、账户或组分配。该功能适用于 Quick 的专业版和企业版。",
+   "impact": "管理员可以使治理与企业身份结构保持一致，而无需维护各个用户的分配。组织和技术用户可能会受益于基于群组成员身份自动执行的资源限制和功能限制。",
+   "keyPoints": [
+    "AWS Quick 支持将自定义权限和限制配置文件分配给企业身份提供商组。",
+    "管理员可以通过 Quick 管理控制台或新的策略分配 API 管理分配。",
+    "重叠的组分配会根据拒绝规则和最高限制值进行自动解析。",
+    "组分配适用于 Quick 的专业版和企业版计划。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Quick, 이제 사용자 지정 권한 및 제한 프로필에 대한 그룹 할당 지원",
+   "summary": "AWS Quick이 이제 엔터프라이즈 ID 공급자의 그룹에 사용자 지정 권한 및 제한 프로필 할당을 지원합니다. 관리자는 개별 사용자 할당을 유지 관리하는 대신 IdP 그룹에 기능 제한 및 사용자별 리소스 제한을 적용할 수 있습니다. 관리자는 Quick 관리 콘솔이나 새로운 정책 할당 API를 통해 이러한 할당을 관리할 수 있습니다.",
+   "impact": "관리자는 개별 사용자 할당을 유지 관리하지 않고도 거버넌스를 기업 ID 구조에 더 잘 맞출 수 있습니다. 보안 팀과 기술 사용자는 그룹 멤버십에 따라 자동으로 적용되는 리소스 제한 및 기능 제한의 이점을 누릴 수 있습니다.",
+   "keyPoints": [
+    "AWS Quick은 엔터프라이즈 ID 공급자 그룹에 대한 사용자 지정 권한 및 제한 프로필 할당을 지원합니다.",
+    "관리자는 Quick 관리 콘솔 또는 새로운 정책 할당 API를 통해 할당을 관리할 수 있습니다.",
+    "그룹 할당은 Quick Professional 및 Enterprise 플랜에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

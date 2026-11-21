@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a93a659ad8142a65",
+ "contentHash": "23f4133a488a8307",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T23:31:02.625Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon RDS for Oracle now supports Replica First Patching for reduced downtime",
+   "summary": "Amazon RDS for Oracle now supports Replica First Patching for Enterprise Edition DB instances, aiming to reduce downtime during minor version upgrades. This feature allows users to apply an upgrade to a replica in the same AWS Region first while the primary instance continues serving traffic. Users can validate the new version during this time and choose when to execute the switchover within a specific window. After the switchover, Amazon RDS completes the upgrade on the remaining instances and former primary DB instance.",
+   "impact": "This feature could help developers and database administrators minimize downtime and service disruption during minor version upgrades for mission-critical Oracle workloads. Using the Primary Endpoint may also allow applications to seamlessly reach the new primary instance after switchover without requiring connection string changes.",
+   "keyPoints": [
+    "Replica First Patching reduces downtime for Amazon RDS for Oracle minor version upgrades on Enterprise Edition DB instances.",
+    "Upgrades are applied to a regional replica first while the primary instance continues to serve traffic.",
+    "Users can validate new versions on read-only replicas and control the timing of the switchover window.",
+    "The feature is available at no additional charge across all commercial AWS Regions where Amazon RDS for Oracle is supported."
+   ]
+  },
+  "km": {
+   "title": "Amazon RDS for Oracle ឥឡូវនេះគាំទ្រ Replica First Patching សម្រាប់ពេលឈប់ដំណើរការតិចជាងមុន",
+   "summary": "Amazon RDS for Oracle ឥឡូវនេះគាំទ្រ Replica First Patching សម្រាប់គំរូ Enterprise Edition DB instances ដែលជួយកាត់បន្ថយពេលវេលាឈប់ដំណើរការក្នុងអំឡុងពេលអាប់ដេតកំណែរង។ លក្ខណៈពិសេសនេះអនុញ្ញាតឱ្យអ្នកអនុវត្តការអាប់ដេតទៅលើ replica ក្នុងតំបន់ AWS ដូចគ្នាមុន ខណៈពេលដែល DB instance ដើមរបស់អ្នកបន្តបម្រើចរាចរណ៍។ បន្ទាប់មក អ្នកអាចប្តូរទៅកាន់ replica នៅពេលដែលអ្នករួចរាល់ដើម្បីបញ្ចប់ការអាប់ដេតក្នុងអំឡុងពេលកំណត់។",
+   "impact": "មុខងារនេះអាចជួយក្រុមការងារបច្ចេកវិទ្យាកាត់បន្ថយការរំខានដល់សេវាកម្ម និងកាត់បន្ថយពេលវេលាឈប់ដំណើរការនៅពេលអាប់ដេតកំណែរងសម្រាប់ប្រព័ន្ធ Oracle ដែលមានសារៈសំខាន់។ ការប្រើប្រាស់ Primary Endpoint ក៏អាចជួយឱ្យកម្មវិធីភ្ជាប់ទៅកាន់ primary instance ថ្មីបានដោយមិនចាំបាច់ប្តូរខ្សែអក្សរតភ្ជាប់ផងដែរ។",
+   "keyPoints": [
+    "គាំទ្រ Replica First Patching សម្រាប់ Enterprise Edition DB instances។",
+    "អនុវត្តការអាប់ដេតលើ replica មុនខណៈ primary instance បន្តដំណើរការធម្មតា។",
+    "អនុញ្ញាតឱ្យកំណត់ពេលប្តូរការប្រើប្រាស់ក្នុងអំឡុងពេលដែលបានកំណត់។",
+    "អាចប្រើប្រាស់បានដោយមិនមានការគិតថ្លៃបន្ថែមនៅក្នុងតំបន់ពាណិជ្ជកម្ម AWS ទាំងអស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon RDS for Oracle 现已支持副本优先修补以减少停机时间",
+   "summary": "Amazon RDS for Oracle 的企业版数据库实例现已支持副本优先修补功能，旨在减少次要版本升级期间的停机时间。借助此功能，用户可以先将次要版本升级应用到同一 AWS 区域中的副本，同时主数据库实例继续处理流量。用户可以在准备好后在切换窗口内切换至该副本，随后 Amazon RDS 会在新的主实例及其他副本上完成升级。",
+   "impact": "此功能可以帮助开发人员和技术团队在进行关键的 Oracle 工作负载次要版本升级时减少中断和停机时间。通过使用主端点，应用程序还可以在切换后无缝连接到新的主数据库实例，而无需更改连接字符串。",
+   "keyPoints": [
+    "适用于企业版数据库实例的次要版本升级。",
+    "允许在主实例继续服务时先升级同一区域的副本。",
+    "用户可以在指定的切换窗口内自主选择切换时间。",
+    "在支持 Amazon RDS for Oracle 的所有商业 AWS 区域中免费提供。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon RDS for Oracle, 가동 중단 시간 단축을 위한 레플리카 우선 패치 지원 개시",
+   "summary": "Amazon RDS for Oracle은 마이너 버전 업그레이드 중 가동 중단 시간을 줄이기 위해 Enterprise Edition DB 인스턴스에 레플리카 우선 패치 기능을 지원합니다. 이 기능을 사용하면 기본 DB 인스턴스가 트래픽을 계속 처리하는 동안 동일한 AWS 리전의 레플리카에 마이너 버전 업그레이드를 먼저 적용할 수 있습니다. 사용자는 전환 창 내에서 전환 시점을 선택할 수 있으며, 전환 후 Amazon RDS는 나머지 인스턴스의 업그레이드를 완료합니다.",
+   "impact": "이 기능은 개발자와 운영 팀이 중요 Oracle 워크로드의 마이너 버전 업그레이드 시 서비스 중단과 가동 중단 시간을 최소화하는 데 도움을 줄 수 있습니다. Primary Endpoint를 사용하면 연결 문자열 변경 없이 전환 후 새로운 기본 인스턴스에 원활하게 연결할 수 있습니다.",
+   "keyPoints": [
+    "Enterprise Edition DB 인스턴스에 대한 레플리카 우선 패치 지원.",
+    "기본 인스턴스가 작동하는 동안 리전 내 레플리카에 업그레이드 선적용.",
+    "사용자가 지정된 전환 창 내에서 전환 시점을 제어 가능.",
+    "Amazon RDS for Oracle이 제공되는 모든 상용 AWS 리전에서 추가 비용 없이 이용 가능."
+   ]
+  }
+ }
+}

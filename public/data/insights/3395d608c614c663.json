@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3395d608c614c663",
+ "contentHash": "06a662ca1007d0d5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T23:29:11.022Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Build more capable automations through chat with Flows in AWS Quick",
+   "summary": "AWS Quick has introduced Flows, allowing users to build, run, and refine automations through conversational chat without writing code. Flows can orchestrate agents, skills, and tools while connecting to structured data, knowledge, and applications. The system supports longer-running workflows, larger data volumes, and cross-platform execution on desktop, web, and mobile devices.",
+   "impact": "Developers and teams could use these conversational workflows to automate complex data tasks and document generation without traditional coding. The new deterministic steps and validations may help teams maintain consistency and rule compliance in automated processes.",
+   "keyPoints": [
+    "Users can build and refine automations entirely through chat with no coding required.",
+    "Flows can orchestrate agents, skills, and tools, accessing structured data and team apps.",
+    "New deterministic steps and validations ensure consistency and adherence to user-defined rules.",
+    "Available across desktop, web, and mobile apps in all AWS Regions where AWS Quick is supported."
+   ]
+  },
+  "km": {
+   "title": "បង្កើតស្វ័យប្រវត្តកម្មដែលមានសមត្ថភាពខ្ពស់ជាងមុនតាមរយៈការជជែកជាមួយ Flows ក្នុង AWS Quick",
+   "summary": "AWS Quick បានដាក់ឱ្យប្រើប្រាស់ Flows ដែលអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់បង្កើត ដំណើរការ និងកែសម្រួលស្វ័យប្រវត្តកម្មតាមរយៈការសន្ទនាដោយមិនចាំបាច់សរសេរកូដ។ Flows អាចសម្របសម្រួលភ្នាក់ងារ ជំនាញ និងឧបករណ៍ ខណៈពេលដែលភ្ជាប់ទៅនឹងទ dữ liệu រចនាសម្ព័ន្ធ ចំណេះដឹង និងកម្មវិធីផ្សេងៗ។ ប្រព័ន្ធនេះគាំទ្រដល់ដំណើរការការងារដែលយូរជាងមុន ទំហំទ dữ liệu ធំជាងមុន និងការប្រតិបត្តិលើកុំព្យូទ័រលើតុ វេបសាយ និងទូរស័ព្ទដៃ។",
+   "impact": "ក្រុមការងារនិងអ្នកអភិវឌ្ឍន៍អាចប្រើប្រាស់ដំណើរការការងារតាមរយៈការសន្ទនានេះ ដើម្បីស្វ័យប្រវត្តកម្មកិច្ចការទ dữ liệu ស្មុគស្មាញដោយមិនចាំបាច់សរសេរកូដបែបបុរាណ។ ជំហានកំណត់ច្បាស់លាស់ និងការផ្ទៀងផ្ទាត់ថ្មីៗអាចជួយឱ្យក្រុមការងាររក្សាបាននូវភាពស៊ីសង្វាក់គ្នា និងការអនុលោមតាមច្បាប់ក្នុងដំណើរការស្វ័យប្រវត្តកម្ម។",
+   "keyPoints": [
+    "អ្នកប្រើប្រាស់អាចបង្កើត និងកែសម្រួលស្វ័យប្រវត្តកម្មតាមរយៈការជជែកផ្ទាល់ដោយមិនចាំបាច់ប្រើកូដ។",
+    "Flows អាចសម្របសម្រួលភ្នាក់ងារ ជំនាញ និងឧបករណ៍ដោយប្រើប្រាស់ទ dữ liệu ដែលមានស្រាប់។",
+    "ជំហានកំណត់ច្បាស់លាស់ និងការផ្ទៀងផ្ទាត់ជួយធានាភាពស៊ីសង្វាក់គ្នានៃលទ្ធផល។",
+    "មានដាក់ឱ្យប្រើប្រាស់នៅលើកុំព្យូទ័រលើតុ វេបសាយ និងទូរស័ព្ទដៃក្នុងគ្រប់តំបន់ AWS Regions ទាំងអស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "通过 AWS Quick 中的 Flows 使用聊天构建功能更强大的自动化",
+   "summary": "AWS Quick 推出了 Flows 功能，允许用户完全通过对话来构建、运行和完善自动化流程，无需编写代码。Flows 可以协调代理、技能和工具，并访问结构化数据、知识和应用程序。该系统支持运行时间更长的工作流、更大容量的数据，以及跨桌面、网页和移动设备的执行。",
+   "impact": "开发人员和团队可以使用这些对话式工作流来自动化复杂的数据任务和文档生成，而无需传统的编码。新增的确定性步骤和验证机制可能有助于团队在自动化流程中保持结果的一致性和规则合规性。",
+   "keyPoints": [
+    "用户完全通过聊天构建和改进自动化，无需编写任何代码。",
+    "Flows 可以协调代理、技能和工具，并连接结构化数据与团队应用。",
+    "新的确定性步骤和验证机制可确保结果的一致性并符合用户设定的规则。",
+    "该更新已在所有支持 AWS Quick 的 AWS 区域推出，支持桌面、网页和移动端。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Quick의 Flows를 통해 채팅으로 더 강력한 자동화 구축하기",
+   "summary": "AWS Quick은 사용자가 코딩 없이 대화를 통해 자동화를 구축, 실행 및 개선할 수 있는 Flows 기능을 도입했습니다. Flows는 에이전트, 스킬, 도구를 조율하는 동시에 정형 데이터, 지식, 앱에 액세스할 수 있습니다. 이 시스템은 더 오래 실행되는 워크플로, 더 큰 데이터 볼륨, 데스크톱, 웹, 모바일 간의 크로스 플랫폼 실행을 지원합니다.",
+   "impact": "개발자와 팀은 전통적인 코딩 없이도 이러한 대화형 워크플로를 활용하여 복잡한 데이터 작업과 문서 생성을 자동화할 수 있습니다. 새로운 결정론적 단계와 유효성 검사를 통해 자동화된 프로세스에서 결과의 일관성과 규칙 준수를 유지하는 데 도움을 받을 수 있습니다.",
+   "keyPoints": [
+    "사용자는 코딩 없이 채팅을 통해 완전히 자동화를 구축하고 개선할 수 있습니다.",
+    "Flows는 에이전트, 스킬, 도구를 조율하며 정형 데이터와 팀 앱에 접근합니다.",
+    "새로운 결정론적 단계와 유효성 검사는 결과가 일관성을 유지하도록 돕습니다.",
+    "AWS Quick이 지원되는 모든 AWS 리전의 데스크톱, 웹, 모바일 앱에서 사용할 수 있습니다."
+   ]
+  }
+ }
+}

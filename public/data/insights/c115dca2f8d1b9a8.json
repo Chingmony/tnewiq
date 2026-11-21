@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c115dca2f8d1b9a8",
+ "contentHash": "b01e7e3cffef2311",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T23:33:26.082Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS announces Data Hub in AWS Billing and Cost Management (preview)",
+   "summary": "AWS has announced the preview of Data Hub in AWS Billing and Cost Management, serving as a managed data layer that allows AWS FinOps Agent to query cost and usage data using SQL. It provides 13 months of hourly, resource-level cost and usage data in the CUR 2.0 schema without requiring customers to build and maintain data pipelines or exports. AWS handles provisioning, daily refreshes, and schema maintenance for services, commitments, and charge types.",
+   "impact": "This preview could help developers and finance teams analyze cloud expenditures more efficiently by eliminating the need to build custom cost data pipelines. Organizations may be able to track hourly changes and resource identifiers across accounts more easily during the preview period.",
+   "keyPoints": [
+    "Data Hub is a managed data layer enabling AWS FinOps Agent to query cost and usage data with SQL.",
+    "It supplies 13 months of hourly, resource-level cost and usage data in the CUR 2.0 schema.",
+    "AWS provisions the data, refreshes it daily, and maintains the schema without extra charges during preview.",
+    "When configured from the management account, it covers data across organization accounts and regions."
+   ]
+  },
+  "km": {
+   "title": "AWS ប្រកាសចេញ Data Hub ក្នុង AWS Billing and Cost Management (ការមើលមុន)",
+   "summary": "AWS បានប្រកាសពីការដាក់ឱ្យមើលមុននូវ Data Hub ក្នុង AWS Billing and Cost Management ដែលជាស្រទាប់ទិន្នន័យគ្រប់គ្រងមួយអនុញ្ញាតឱ្យ AWS FinOps Agent សាកសួរទិន្នន័យចំណាយ និងការប្រើប្រាស់ដោយប្រើ SQL។ វាផ្តល់នូវទិន្នន័យចំណាយនិងការប្រើប្រាស់កម្រិតធនធាន និងរៀងរាល់ម៉ោងសម្រាប់រយៈពេល 13 ខែក្នុងទម្រង់ CUR 2.0 ដោយមិនចាំបាច់ឱ្យអតិថិជនបង្កើតឬថែទាំបំពង់ទិន្នន័យចំណាយនោះទេ។ AWS រៀបចំទិន្នន័យ ធ្វើឱ្យស្រស់ប្រចាំថ្ងៃ និងថែទាំទម្រង់ទិន្នន័យនោះ។",
+   "impact": "វាអាចជួយឱ្យក្រុមការងារនិងអ្នកអភិវឌ្ឍន៍វិភាគការចំណាយលើពពកបានយ៉ាងងាយស្រួលដោយមិនបាច់បង្កើតបំពង់ទិន្នន័យចំណាយផ្ទាល់ខ្លួន។ អង្គភាពនានាអាចនឹងទទួលបានភាពងាយស្រួលក្នុងការតាមដានការប្រែប្រួលការចំណាយតាមម៉ោងក្នុងអំឡុងពេលមើលមុននេះ។",
+   "keyPoints": [
+    "Data Hub គឺជាស្រទាប់ទិន្នន័យដែលអនុញ្ញាតឱ្យ AWS FinOps Agent សាកសួរទិន្នន័យចំណាយដោយប្រើ SQL។",
+    "វាផ្តល់ទិន្នន័យចំណាយកម្រិតធនធាន និងរៀងរាល់ម៉ោងសម្រាប់រយៈពេល 13 ខែ។",
+    "AWS រៀបចំទិន្នន័យ ធ្វើឱ្យស្រស់ប្រចាំថ្ងៃ និងមិនគិតថ្លៃក្នុងអំឡុងពេលមើលមុន។",
+    "វាគាំទ្រទិន្នន័យទូទាំងគណនី និងតំបន់អង្គភាពរបស់អ្នកនៅពេលដំឡើងពីគណនីគ្រប់គ្រង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS 宣布在 AWS Billing and Cost Management 中推出 Data Hub（预览版）",
+   "summary": "AWS 宣布推出 AWS Billing and Cost Management 中 Data Hub 的预览版，这是一个托管数据层，使 AWS FinOps Agent 能够使用 SQL 查询成本和使用情况数据。它提供 CUR 2.0 架构下的 13 个月小时级、资源级成本和使用数据，客户无需构建或维护成本数据管道。AWS 负责配置数据、每日刷新并维护架构。",
+   "impact": "这可能会帮助开发人员和财务团队更高效地分析云端开支，省去构建自定义成本数据管道的需求。在预览期间，组织可能能够更轻松地跨账户追踪每小时的变化和资源标识符。",
+   "keyPoints": [
+    "Data Hub 是一个托管数据层，允许 AWS FinOps Agent 使用 SQL 查询成本和使用数据。",
+    "它提供采用 CUR 2.0 架构的 13 个月小时级资源级成本和使用数据。",
+    "AWS 在预览期间免费提供数据配置、每日刷新和架构维护服务。",
+    "从管理账户设置时，它可涵盖组织内各个账户和区域的成本与使用数据。"
+   ]
+  },
+  "ko": {
+   "title": "AWS, AWS Billing and Cost Management에서 Data Hub 발표 (미리보기)",
+   "summary": "AWS는 AWS FinOps Agent가 SQL로 비용 및 사용량 데이터를 쿼리할 수 있게 해주는 관리형 데이터 계층인 Data Hub 미리보기를 AWS Billing and Cost Management에서 발표했습니다. 이 기능은 고객이 비용 데이터 파이프라인을 직접 구축하고 유지 관리할 필요 없이 CUR 2.0 스키마로 13개월 동안의 시간별, 리소스별 비용 및 사용량 데이터를 제공합니다. AWS는 데이터 프로비저닝, 일일 새로 고침, 스키마 유지를 담당합니다.",
+   "impact": "개발자와 재무 팀은 사용자 지정 비용 데이터 파이프라인을 구축할 필요 없이 클라우드 지출을 더 효율적으로 분석할 수 있습니다. 조직은 미리보기 기간 동안 계정 전반의 시간별 변경 사항과 리소스 식별자를 더 쉽게 추적할 수 있습니다.",
+   "keyPoints": [
+    "Data Hub는 AWS FinOps Agent가 SQL을 사용하여 비용 및 사용량 데이터를 쿼리할 수 있는 관리형 데이터 계층입니다.",
+    "CUR 2.0 스키마로 13개월 동안의 시간별, 리소스별 비용 및 사용량 데이터를 제공합니다.",
+    "AWS는 미리보기 기간 동안 추가 요금 없이 데이터 프로비저닝, 일일 새로 고침 및 스키마 유지를 제공합니다.",
+    "관리 계정에서 설정 시 조직 내 계정 및 리전의 비용과 사용량 데이터를 모두 포함합니다."
+   ]
+  }
+ }
+}

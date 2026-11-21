@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "527eb11b5a1023ef",
+ "contentHash": "adf06b1ba1e10d39",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T23:26:28.339Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Quick now supports plugins to bundle agents, skills, connectors and flows",
+   "summary": "AWS Quick has introduced support for plugins that package agents, skills, connectors, and flows together for specific tasks, roles, or use cases. Users can install these capabilities in a single step using either official AWS plugins or custom plugins created by builders. Over 100 skills and plugins are available across productivity, industries, and business applications, and the feature is accessible in all Regions where AWS Quick is supported.",
+   "impact": "This capability could allow developers and teams to more efficiently package and deploy complex workflows and integrations. Users may benefit from streamlined installation of multiple agents and connectors required for specific tasks.",
+   "keyPoints": [
+    "AWS Quick now supports plugins to bundle agents, skills, connectors, and flows.",
+    "Users can browse official AWS plugins like the Calendar and Meetings Assistant or Sales Development plugin.",
+    "Builders can create custom plugins by describing the job in chat.",
+    "More than 100 skills and plugins are available covering productivity, roles, industries, and business applications."
+   ]
+  },
+  "km": {
+   "title": "AWS Quick ឥឡូវនេះគាំទ្រផ្លាកសិនសម្រាប់ការរួមបញ្ចូល agents, skills, connectors និង flows",
+   "summary": "AWS Quick បានដាក់ឱ្យប្រើប្រាស់ការគាំទ្រសម្រាប់ផ្លាកសិនដែលរួមបញ្ចូលគ្នានូវ agents, skills, connectors និង flows សម្រាប់ភារកិច្ច តួនាទី ឬករណីប្រើប្រាស់ជាក់លាក់ណាមួយ។ អ្នកប្រើប្រាស់អាចដំឡើងសមត្ថភាពទាំងនេះបានក្នុងជំហានតែមួយដោយប្រើប្រាស់ផ្លាកសិនផ្លូវការរបស់ AWS ឬផ្លាកសិនផ្ទាល់ខ្លួនដែលបង្កើតឡើងដោយអ្នកបង្កើត។ ជាង ១០០ skills និង plugins គឺមានសម្រាប់ផលិតភាព ឧស្សាហកម្ម និងកម្មវិធីអាជីវកម្ម ដោយមុខងារនេះមាននៅក្នុងគ្រប់តំបន់ដែល AWS Quick គាំទ្រ។",
+   "impact": "សមត្ថភាពនេះអាចអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍ និងក្រុមការងារវេចខ្ចប់ និងដាក់ឱ្យប្រើប្រាស់ដំណើរការ និងការរួមបញ្ចូលស្មុគស្មាញបានយ៉ាងមានប្រសិទ្ធភាពជាងមុន។ អ្នកប្រើប្រាស់អាចទទួលបានអត្ថប្រយោជន៍ពីការដំឡើង agents និង connectors ច្រើនដែលត្រូវការសម្រាប់ភារកិច្ចជាក់លាក់យ៉ាងងាយស្រួល។",
+   "keyPoints": [
+    "AWS Quick ឥឡូវនេះគាំទ្រផ្លាកសិនដើម្បីរួមបញ្ចូល agents, skills, connectors និង flows។",
+    "អ្នកប្រើប្រាស់អាចរកមើលផ្លាកសិនផ្លូវការរបស់ AWS ដូចជា Calendar and Meetings Assistant ឬ Sales Development plugin។",
+    "អ្នកបង្កើតអាចបង្កើតផ្លាកសិនផ្ទាល់ខ្លួនដោយពិពណ៌នាការងារនៅក្នុងការជជែក។",
+    "ជាង ១០០ skills និង plugins មានគ្របដណ្តប់លើផលិតភាព តួនាទី ឧស្សាហកម្ម និងកម្មវិធីអាជីវកម្ម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Quick 现在支持通过插件来捆绑 agents、skills、connectors 和 flows",
+   "summary": "AWS Quick 现已支持将针对特定任务、角色或用例构建的 agents、skills、connectors 和 flows 打包在一起的插件。用户可以通过一步操作安装官方 AWS 插件或构建者创建的自定义插件来获取这些功能。目前已有超过 100 种 skills 和插件涵盖日常生产力、职能角色、行业及热门商业应用，该功能在所有支持 AWS Quick 的区域可用。",
+   "impact": "此功能可能使开发人员和团队能够更高效地打包和部署复杂的任务流和集成。用户或许能够通过简化多重安装流程来更便捷地获取特定任务所需的各种代理和连接器。",
+   "keyPoints": [
+    "AWS Quick 现已支持通过插件捆绑 agents、skills、connectors 和 flows。",
+    "用户可浏览并安装官方 AWS 插件，例如日历与会议助手或销售开发插件。",
+    "构建者可以通过在聊天中描述工作来创建自定义插件。",
+    "超过 100 种 skills 和插件涵盖了生产力、各类职能角色、行业及商业应用。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Quick, 이제 agents, skills, connectors 및 flows를 번들로 묶는 플러그인 지원",
+   "summary": "AWS Quick이 특정 작업, 역할 또는 사용 사례를 위해 구축된 agents, skills, connectors 및 flows를 패키지로 묶어주는 플러그인 지원을 도입했습니다. 사용자는 AWS의 공식 플러그인이나 빌더가 제작한 커스텀 플러그인을 사용하여 한 번에 필요한 모든 기능을 설치할 수 있습니다. 생산성, 직무, 산업 및 비즈니스 애플리케이션을 아우르는 100개 이상의 skills와 plugins가 제공되며, 이 기능은 AWS Quick이 지원되는 모든 지역에서 사용 가능합니다.",
+   "impact": "이 기능은 개발자와 팀이 복잡한 워크플로우와 통합을 더욱 효율적으로 패키징하고 배포하는 데 도움을 줄 수 있습니다. 사용자는 특정 작업에 필요한 여러 에이전트와 커넥터를 간소화된 방식으로 설치하여 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "AWS Quick은 이제 agents, skills, connectors 및 flows를 번들로 묶는 플러그인을 지원합니다.",
+    "사용자는 캘린더 및 미팅 어시스턴트 또는 영업 개발 플러그인과 같은 공식 AWS 플러그인을 찾아 설치할 수 있습니다.",
+    "빌더는 채팅에서 작업을 설명하여 자신만의 커스텀 플러그인을 만들 수 있습니다.",
+    "생산성, 직무, 산업 및 비즈니스 애플리케이션을 다루는 100개 이상의 skills와 plugins가 제공됩니다."
+   ]
+  }
+ }
+}

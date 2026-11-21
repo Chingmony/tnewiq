@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5896797fd3159e6e",
+ "contentHash": "b3a86348235402ca",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T23:27:35.262Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+   "summary": "The chief technology officer and co-founder of ransomwarehelp.com has been charged with wire fraud following an FBI sting operation. Investigators revealed that the Florida-based business falsely claimed to use advanced proprietary cryptographic tools to recover data from ransomware attacks, while actually just paying threat actors for decryption keys and charging victims marked-up prices. The indictment details how the company's co-founder secretly communicated with both undercover FBI agents posing as victims and agents posing as threat actors to negotiate lower ransoms and inflate victim fees.",
+   "impact": "Security teams and technology users dealing with ransomware incidents could use this case as a reminder to thoroughly vet data recovery vendors and remain cautious of firms promising proprietary decryption capabilities without transparency. Organizations may face additional financial risk and extended downtime if they rely on fraudulent intermediaries who merely pay threat actors on their behalf.",
+   "keyPoints": [
+    "RansomwareHelp claimed to use advanced cryptographic tools to achieve 100 percent data recovery without paying threat actors.",
+    "An FBI sting operation revealed the company routinely paid attackers for decryption keys and charged victims a markup.",
+    "The indictment was returned in Rhode Island against 52-year-old co-founder Juan Ricardo Palacio Escobar.",
+    "Investigators posing as victims and attackers caught the company inflating prices and negotiating lower ransom payments behind the scenes."
+   ]
+  },
+  "km": {
+   "title": "CTO របស់ RansomwareHelp ត្រូវ​បាន​ចោទប្រកាន់​ពី​បទ​បោកប្រាស់​តាម​ប្រព័ន្ធ​អ៊ីនធឺណិត",
+   "summary": "នាយកបច្ចេកវិទ្យា និងជាសហស្ថាបនិកនៃគេហទំព័រ ransomwarehelp.com ត្រូវបានចោទប្រកាន់ពីបទបោកប្រាស់តាមប្រព័ន្ធអ៊ីនធឺណិត បន្ទាប់ពីមានប្រតិបត្តិការបង្ក្រប់របស់ FBI បានរកឃើញថា ក្រុមហ៊ុននេះបានបោកប្រាស់ដោយការបង់ប្រាក់ឱ្យក្រុមឧក្រិដ្ឋជនដើម្បីយកសោរឌិកូដ ហើយគិតប្រាក់បន្ថែមលើជនរងគ្រោះជំនួសឱ្យការប្រើប្រាស់ឧបករណ៍គ្រីបតូកណ្តាល។ ក្រុមហ៊ុននេះបានអះអាងថាមិនដែលបង់ប្រាក់ឱ្យក្រុមជនខិលខូចនោះទេ ប៉ុន្តែការចោទប្រកាន់បានបង្ហាញថាពួកគេបានចរចាលួចលាក់ជាមួយក្រុមឧក្រិដ្ឋជនដើម្បីទិញសោរថោកជាង ហើយទារប្រាក់ពីជនរងគ្រោះក្នុងតម្លៃខ្ពស់។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវបង្កើនការប្រុងប្រយ័ត្នខ្ពស់នៅពេលជ្រើសរើសក្រុមហ៊ុនសង្គ្រោះទិន្នន័យពីការវាយប្រហារដោយរ៉នសុនវែរ ដើម្បីជៀសវាងការធ្លាក់ក្នុងអន្ទាក់នៃក្រុមហ៊ុនកាតព្វកិច្ចក្លែងក្លាយ។",
+   "keyPoints": [
+    "ក្រុមហ៊ុន RansomwareHelp បានអះអាងថាមានឧបករណ៍គ្រីបតូកម្រិតខ្ពស់ដើម្បីសង្គ្រោះទិន្នន័យ១០០ភាគរយ។",
+    "ប្រតិបត្តិការបង្ក្រប់របស់ FBI បានបង្ហាញថា ក្រុមហ៊ុននេះពិតជាបានបង់ប្រាក់ឱ្យក្រុមឧក្រិដ្ឋជននិងគិតប្រាក់កម្រៃខ្ពស់លើជនរងគ្រោះ។",
+    "សហស្ថាបនិក Juan Ricardo Palacio Escobar ត្រូវបានចោទប្រកាន់នៅក្នុងរដ្ឋ Rhode Island។"
+   ]
+  },
+  "zh-CN": {
+   "title": "RansomwareHelp 首席技术官因电信欺诈被起诉",
+   "summary": "ransomwarehelp.com 的首席技术官兼联合创始人因涉嫌电信欺诈被起诉，此前联邦调查局（FBI）的一项秘密行动发现，这家声称使用“先进密码工具”恢复勒索软件锁定数据的公司，实际上只是向攻击者支付赎金以获取解密密钥，并向受害者收取高额加价费用。起诉书详细说明了该公司创始人如何秘密与伪装成受害者和威胁团伙的联邦特工进行沟通，以压低赎金并向受害者索取虚高费用。",
+   "impact": "处理勒索软件事件的安全团队和技术用户可以以此案为警示，彻底审查数据恢复供应商，并对那些声称拥有专有解密能力却缺乏透明度的公司保持警惕。如果组织依赖仅代为支付赎金的欺诈性中介，可能会面临额外的财务风险和更长的停机时间。",
+   "keyPoints": [
+    "RansomwareHelp 声称使用专有密码工具实现百分之百的数据恢复，且从不向威胁团伙支付赎金。",
+    "联邦调查局的秘密行动显示，该公司实际上是通过向攻击者购买解密密钥并对受害者收取溢价来运作的。",
+    "针对现年52岁的联合创始人 Juan Ricardo Palacio Escobar 的起诉书在罗德岛州被正式提出。"
+   ]
+  },
+  "ko": {
+   "title": "랜섬웨어헬프(RansomwareHelp) CTO, 와이어 폰 혐의로 기소",
+   "summary": "랜섬웨어로 잠긴 데이터를 복구하기 위해 고급 암호화 도구를 사용한다고 주장해 온 플로리다 기반 기업 ransomwarehelp.com의 최고기술책임자(CTO) 겸 공동 창업자가 와이어 폰(통신 사기) 혐의로 기소되었습니다. FBI의 수사 작전 결과, 이 회사는 실제로 공격자에게 복호화 키 값을 지불하고 피해자들에게는 작업을 수행하지 않은 채 높은 마크업 비용을 청구해 온 것으로 드러났습니다. 기소장에 따르면 이 회사의 공동 창업자는 피해자 및 위협 행위자로 위장한 FBI 요원들과 비밀리에 접촉하여 더 낮은 랜섬웨어를 협상하고 피해자 비용을 부풀렸습니다.",
+   "impact": "보안 팀과 기술 사용자는 랜섬웨어 사고 대응 시 데이터 복구 업체를 철저히 검증하고, 투명성 없이 독점적인 복호화 기능을 약속하는 업체를 경계하는 계기로 삼을 수 있습니다. 조직은 단순히 위협 행위자에게 대가를 지불하는 사기성 중개인에게 의존할 경우 추가적인 재정적 위험과 장기화된 다운타임에 직면할 수 있습니다.",
+   "keyPoints": [
+    "RansomwareHelp는 고급 암호화 도구를 사용하여 위협 행위자에게 대가를 지불하지 않고 100% 데이터 복구를 달성한다고 주장했습니다.",
+    "FBI의 수사 작전 결과, 이 회사는 실제로 공격자에게 대가를 지불하고 복호화 키를 얻어 피해자에게 수수료를 부과한 것으로 밝혀졌습니다.",
+    "로드아일랜드에서 52세의 공동 창업자 Juan Ricardo Palacio Escobar에 대한 기소장이 접수되었습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "48003ca6dcdc0ce9",
+ "contentHash": "a7c599619bdbb890",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T23:30:21.524Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
+   "summary": "AWS has introduced the Amazon SageMaker HyperPod Global Inference Gateway, a SageMaker-managed gateway that routes requests across multiple registered clusters within a single AWS Region or across multiple Regions. The gateway uses real-time signals to direct traffic over the AWS backbone to the best-suited cluster, providing automatic failover and authentication via AWS Signature Version 4 and IAM. This architecture helps utilize idle GPU capacity during traffic peaks and eliminates the need for clients to maintain multiple endpoints or build custom cross-Region networking.",
+   "impact": "This gateway could help development and platform teams maximize their existing GPU capacity and avoid managing custom load balancers and cross-Region routing logic. Security teams may benefit from default authentication via IAM and AWS Signature Version 4, alongside private traffic routing through AWS PrivateLink.",
+   "keyPoints": [
+    "The Global Inference Gateway provides a single SageMaker-managed endpoint that routes requests across multiple registered clusters in one or more Regions.",
+    "It reads real-time signals like KV cache utilization and queue depth to place requests on the best-suited cluster.",
+    "Features include automatic failover when a cluster fails and private communication via AWS PrivateLink.",
+    "Authentication is handled through AWS Signature Version 4 (SigV4) and AWS Identity and Access Management (IAM)."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យដំណើរការ Amazon SageMaker HyperPod Global Inference Gateway៖ ចំណុចបញ្ចប់តែមួយឆ្លងកាត់តំបន់ និងប្រព័ន្ធ",
+   "summary": "AWS បានដាក់ឱ្យដំណើរការ Amazon SageMaker HyperPod Global Inference Gateway ដែលជាច្រកទ្វារគ្រប់គ្រងដោយ SageMaker ក្នុងការបញ្ជូនសំណើឆ្លងកាត់រាល់ប្រព័ន្ធដែលបានចុះឈ្មោះក្នុងតំបន់ AWS តែមួយ ឬឆ្លងកាត់តំបន់ជាច្រើន។ ច្រកទ្វារនេះប្រើប្រាស់សញ្ញាពេលវេលាពិតដើម្បីបញ្ជូនចរាចរណ៍តាមប្រព័ន្ធខ្នងរបស់ AWS ទៅកាន់ប្រព័ន្ធដែលសាកសមបំផុត ដោយមានការប្តូរទៅប្រព័ន្ធបម្រុងដោយស្វ័យប្រវត្តិ។ ស្ថាបត្យកម្មនេះជួយប្រើប្រាស់ថាមពល GPU ដែលទំនេរក្នុងពេលមានការប្រើប្រាស់ច្រើន និងលុបបំបាត់តម្រូវការក្នុងការថែទាំចំណុចបញ្ចប់ច្រើន។",
+   "impact": "ច្រកទ្វារនេះអាចជួយឱ្យក្រុមអភិវឌ្ឍន៍ និងក្រុមបច្ចេកវិទ្យាបង្កើនការប្រើប្រាស់សមត្ថភាព GPU ដែលមានស្រាប់ និងជៀសវាងការគ្រប់គ្រងប្រព័ន្ធផ្ទុកទម្ងន់ផ្ទាល់ខ្លួន។ ក្រុមសុវត្ថិភាពក៏អាចទទួលបានអត្ថប្រយោជន៍ពីការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវតាមរយៈ IAM និង AWS Signature Version 4 ផងដែរ។",
+   "keyPoints": [
+    "Global Inference Gateway ផ្ដល់នូវចំណុចបញ្ចប់តែមួយដែលគ្រប់គ្រងដោយ SageMaker ដើម្បីបញ្ជូនសំណើឆ្លងកាត់ប្រព័ន្ធជាច្រើន។",
+    "វាអានសញ្ញាពេលវេលាពិតដើម្បីដាក់សំណើទៅលើប្រព័ន្ធដែលសាកសមបំផុត។",
+    "មានមុខងារប្តូរទៅប្រព័ន្ធបម្រុងដោយស្វ័យប្រវត្តិ នៅពេលដែលប្រព័ន្ធណាមួយមានបញ្ហា។",
+    "ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវត្រូវបានគ្រប់គ្រងតាមរយៈ AWS Signature Version 4 និង IAM ដោយប្រើប្រាស់ AWS PrivateLink។"
+   ]
+  },
+  "zh-CN": {
+   "title": "推出 Amazon SageMaker HyperPod Global Inference Gateway：跨区域和集群的单一终结点",
+   "summary": "AWS 推出了 Amazon SageMaker HyperPod Global Inference Gateway，这是一个由 SageMaker 管理的网关，可将请求路由到您在单个区域或跨区域注册的所有集群。该网关利用实时信号通过 AWS 骨干网将请求发送到最合适的集群，并通过 AWS Signature Version 4 和 IAM 提供自动故障转移和身份验证。此架构有助于在流量高峰期利用空闲的 GPU 容量，并消除了客户端维护多个终结点的需要。",
+   "impact": "该网关可以帮助开发和平台团队充分利用现有的 GPU 容量，并避免构建或维护自定义的负载均衡器和跨区域网络。安全团队可以从通过 IAM 和 AWS Signature Version 4 进行的默认身份验证以及通过 AWS PrivateLink 进行的私有流量路由中获益。",
+   "keyPoints": [
+    "Global Inference Gateway 提供了一个由 SageMaker 管理的单一终结点，可跨多个集群和区域路由请求。",
+    "它读取实时信号（如 KV 缓存利用率和队列深度）将每个请求放置在最合适的集群上。",
+    "当集群发生故障时，网关会自动将流量转移到下一个最佳集群，客户端无需做任何更改。",
+    "所有请求均通过 AWS PrivateLink 传输，并使用 SigV4 和 IAM 进行身份验证。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon SageMaker HyperPod Global Inference Gateway 출시: 리전 및 클러스터 전반의 단일 엔드포인트",
+   "summary": "AWS는 단일 AWS 리전 또는 여러 리전에 등록된 모든 클러스터 간에 요청을 라우팅하는 SageMaker 관리형 网关인 Amazon SageMaker HyperPod Global Inference Gateway를 출시했습니다. 이 게이트웨이는 실시간 신호를 읽어 AWS 백본을 통해 가장 적합한 클러스터로 요청을 전달하며, AWS Signature Version 4와 IAM을 통한 자동 장애 조치 및 인증을 제공합니다. 이 아키텍처는 트래픽 급증 시 유휴 GPU 용량을 활용하는 데 도움을 줍니다.",
+   "impact": "이 게이트웨이는 개발 및 플랫폼 팀이 기존 GPU 용량을 최대한 활용하고 사용자 정의 로드 밸런서나 크로스 리전 네트워킹을 직접 구축 및 유지 관리하는 부담을 줄이는 데 도움이 될 수 있습니다. 보안 팀은 IAM 및 AWS Signature Version 4를 통한 기본 인증과 AWS PrivateLink를 통한 비공개 트래픽 라우팅의 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "Global Inference Gateway는 등록된 여러 클러스터와 리전 전체로 요청을 라우팅하는 단일 SageMaker 관리형 엔드포인트를 제공합니다.",
+    "KV 캐시 활용도 및 큐 깊이와 같은 실시간 신호를 읽어 가장 적합한 클러스터에 요청을 배치합니다.",
+    "클러스터 장애 발생 시 게이트웨이가 자동으로 트래픽을 차선책 클러스터로 이동시킵니다.",
+    "모든 요청은 AWS PrivateLink를 통해서만 도달하며 SigV4 및 IAM으로 인증됩니다."
+   ]
+  }
+ }
+}
