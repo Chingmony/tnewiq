@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c5410e0ea07b3ca7",
+ "contentHash": "4c1ef8985ce0de68",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T11:19:19.682Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+   "summary": "Signal announced a default restriction on screenshots to prevent artificial intelligence agents from reading private chats on Android and iOS devices. The platform conceded that this protection remains incomplete. The feature targets agentic systems in iOS 27 and Android versions where the messaging platform detects an AI assistant trying to read Signal.",
+   "impact": "This measure could help protect user privacy from unauthorized automated reading by AI assistants, though the incomplete nature of the protection means users should remain cautious about assistant capabilities on their devices.",
+   "keyPoints": [
+    "Signal restricts screenshots by default on Android and iOS.",
+    "The change stops AI agents from reading private chats.",
+    "Signal acknowledges the protection is incomplete.",
+    "The feature applies to iOS 27 and supported Android versions."
+   ]
+  },
+  "km": {
+   "title": "Signal រារាំងភ្នាក់ងារ AI មិនឱ្យអានការជជែកឯកជនតាមរយៈរូបថតអេក្រង់នៅលើ Android និង iOS",
+   "summary": "Signal បានប្រកាសថាខ្លួននឹងដាក់កម្រិតរូបថតអេក្រង់តាមលំនាំដើមដើម្បីបញ្ឈប់ភ្នាក់ងារបញ្ញាសិប្បនិម្មិតមិនឱ្យអានការជជែកឯកជននៅលើឧបករណ៍ Android និង iOS ប៉ុន្តែបានសារភាពថាការការពារនេះមិនទាន់ពេញលេញទេ។ មុខងារនេះអនុវត្តចំពោះប្រព័ន្ធភ្នាក់ងារដែលបង្កើតឡើងក្នុង iOS 27 និងនៅលើកំណែ Android ដែលវេទិកាផ្ញើសារអាចរកឃើញជំនួយការ AI កំពុងព្យាយាមអាន Signal។",
+   "impact": "វិធានការនេះអាចជួយការពារភាពឯកជនរបស់អ្នកប្រើប្រាស់ពីការអានដោយស្វ័យប្រវត្តិដោយគ្មានការអនុញ្ញាតពីជំនួយការ AI ទោះបីជាធម្មជាតិនៃការការពារដែលមិនទាន់ពេញលេញមានន័យថាអ្នកប្រើប្រាស់គួរតែប្រុងប្រយ័ត្ន។",
+   "keyPoints": [
+    "Signal កម្រិតរូបថតអេក្រង់តាមលំនាំដើមនៅលើ Android និង iOS។",
+    "ការផ្លាស់ប្តូរនេះបញ្ឈប់ភ្នាក់ងារ AI មិនឱ្យអានការជជែកឯកជន។",
+    "Signal ទទួលស្គាល់ថាការការពារមិនទាន់ពេញលេញទេ។",
+    "មុខងារនេះអនុវត្តចំពោះ iOS 27 និងកំណែ Android គាំទ្រ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Signal 阻止 AI 代理通过 Android 和 iOS 上的截图读取私密聊天内容",
+   "summary": "Signal 宣布默认限制截屏，以阻止人工智能代理在 Android 和 iOS 设备上读取私密聊天内容，但同时承认这种保护措施“并不完整”。该功能适用于 iOS 27 中内置的智能代理系统以及加密消息平台能够检测到 AI 助手尝试读取 Signal 的 Android 版本。",
+   "impact": "此举可能有助于防止用户的私密聊天被 AI 助手通过截图自动读取，从而提升隐私安全性。不过，由于保护并非完全完善，开发人员和用户仍需关注相关系统的潜在风险。",
+   "keyPoints": [
+    "Signal 在 Android 和 iOS 上默认限制截图。",
+    "此举旨在阻止 AI 代理读取私密聊天内容。",
+    "Signal 承认该保护措施并不完整。",
+    "该功能适用于 iOS 27 及检测到 AI 助手的 Android 版本。"
+   ]
+  },
+  "ko": {
+   "title": "Signal, Android 및 iOS에서 스크린샷을 통한 AI 에이전트의 비공개 채팅 읽기 차단",
+   "summary": "Signal은 Android 및 iOS 기기에서 인공지능 에이전트가 비공개 채팅을 읽지 못하도록 기본적으로 스크린샷을 제한하겠다고 발표했으나, 이 보호 기능이 불완전하다고 시인했습니다. 이 기능은 iOS 27에 내장된 에이전트 시스템과 메시징 플랫폼이 AI 비서의 Signal 읽기 시도를 감지할 수 있는 Android 버전에 적용됩니다.",
+   "impact": "이 조치는 AI 비서에 의한 무단 자동 읽기 행위로부터 사용자 프라이버시를 보호하는 데 도움을 줄 수 있으나, 보호 기능이 불완전하므로 사용자는 기기 내 비서의 기능에 대해 계속 주의를 기울여야 할 수 있습니다.",
+   "keyPoints": [
+    "Signal은 Android 및 iOS에서 기본적으로 스크린샷을 제한합니다.",
+    "이번 조치는 AI 에이전트가 비공개 채팅을 읽는 것을 차단합니다.",
+    "Signal은 보호 기능이 불완전하다고 인정했습니다.",
+    "이 기능은 iOS 27 및 지원되는 Android 버전에 적용됩니다."
+   ]
+  }
+ }
+}

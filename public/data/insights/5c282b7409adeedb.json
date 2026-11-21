@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5c282b7409adeedb",
+ "contentHash": "d5246494b94fde1a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T11:21:33.035Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "[AINews] Riemann Hypothesis proved...twice independently",
+   "summary": "Two mathematicians have independently claimed proofs for the Riemann Hypothesis within hours of each other. Levent Alpöge of Anthropic released a Claude-driven proof backed by Lean code, while Alessandro Masullo presented a 100% human, 940-page work-in-progress proof he developed over 12 years. Both claimed breakthroughs will require extensive time to verify.",
+   "impact": "These developments could signal a major shift in how mathematical proofs are generated and verified using automated systems like Lean. Technology teams and researchers may need to adapt to evaluating massive, machine-generated proofs that are technically verified yet largely unreadable by humans.",
+   "keyPoints": [
+    "Levent Alpöge of Anthropic presented a Claude-driven proof of the Riemann Hypothesis accompanied by 1.3GB of Lean code.",
+    "Alessandro Masullo independently released a 940-page human-authored proof that he worked on for 12 years.",
+    "Experts note that verification for both claimed proofs will take years."
+   ]
+  },
+  "km": {
+   "title": "សម្មតិកម្ម Riemann ត្រូវបានបញ្ជាក់ពីរដងដោយឯករាជ្យ",
+   "summary": "គណិតវិទូពីរនាក់បានអះអាងជាឯករាជ្យនូវការបញ្ជាក់អំពីសម្មតិកម្ម Riemann ក្នុងរយៈពេលប៉ុន្មានម៉ោងពីគ្នា។ លោក Levent Alpöge មកពី Anthropic បានបង្ហាញការបញ្ជាក់ដែលជំរុញដោយ Claude គាំទ្រដោយកូដ Lean ខណៈដែលលោក Alessandro Masullo បានបង្ហាញការបញ្ជាក់ដែលបង្កើតដោយមនុស្សផ្ទាល់ចំនួន ៩៤០ ទំព័រ។ ការអះអាងទាំងពីរនេះនឹងត្រូវចំណាយពេលច្រើនឆ្នាំដើម្បីផ្ទៀងផ្ទាត់។",
+   "impact": "ព្រឹត្តិការណ៍នេះអាចបង្ហាញពីការផ្លាស់ប្តូរដ៏សំខាន់មួយក្នុងរបៀបដែលការបញ្ជាក់ทางគណិតវិទ្យាត្រូវបានបង្កើតឡើង និងផ្ទៀងផ្ទាត់ដោយប្រើប្រព័ន្ធស្វ័យប្រវត្តិ។ អ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវប្រហែលជាត្រូវសម្របខ្លួនទៅនឹងការវាយតម្លៃលើកូដស្វ័យប្រវត្តិដ៏ធំសម្បើម ដែលពិបាកអានសម្រាប់មនុស្ស។",
+   "keyPoints": [
+    "លោក Levent Alpöge មកពី Anthropic បានបង្ហាញការបញ្ជាក់អំពីសម្មតិកម្ម Riemann ដែលជំនួយដោយ Claude និងកូដ Lean ទំហំ 1.3GB។",
+    "លោក Alessandro Masullo បានចេញផ្សាយការបញ្ជាក់ដែលសរសេរដោយមនុស្សផ្ទាល់ចំនួន ៩៤០ ទំព័រដែលបានធ្វើការលើសលុបអស់រយៈពេល ១២ ឆ្នាំ។",
+    "ការផ្ទៀងផ្ទាត់ការអះអាងទាំងពីរនេះនឹងត្រូវចំណាយពេលច្រើនឆ្នាំ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "黎曼猜想被独立证明两次",
+   "summary": "在短短几小时内，两位数学家各自独立宣称证明了黎曼猜想。Anthropic 的 Levent Alpöge 发布了一个由 Claude 驱动并附带 Lean 代码的证明，而 Alessandro Masullo 则发布了他历时 12 年完成的 940 页纯人工编写的进行中的证明。这两项宣称的突破都需要数年时间来验证。",
+   "impact": "这些进展可能标志着数学证明生成和验证方式的重大转变。技术团队和研究人员可能需要适应评估海量的、经机器验证但对人类而言几乎不可读的代码。",
+   "keyPoints": [
+    "Anthropic 的 Levent Alpöge 借助 Claude 提出了黎曼猜想的证明，并附带了 1.3GB 的 Lean 代码。",
+    "Alessandro Masullo 独立发布了一份历时 12 年完成的 940 页人工编写证明。",
+    "专家指出，这两项宣称的证明都需要数年时间进行验证。"
+   ]
+  },
+  "ko": {
+   "title": "Riemann Hypothesis proved...twice independently",
+   "summary": "두 명의 수학자가 몇 시간 간격으로 독립적으로 Riemann Hypothesis에 대한 증명을 주장했습니다. Anthropic의 Levent Alpöge는 Lean 코드가 포함된 Claude 기반 증명을 공개했으며, Alessandro Masullo는 12년 동안 작업한 940페이지 분량의 100% 인간이 작성한 진행 중인 증명을 선보였습니다. 두 증명 모두 검증하는 데 수년이 걸릴 것입니다.",
+   "impact": "이번 발전은 Lean과 같은 자동화된 시스템을 사용하여 수학적 증명이 생성되고 검증되는 방식의 큰 변화를 의미할 수 있습니다. 기술 팀과 연구원은 사람이 읽기 어렵지만 기술적으로 검증된 대규모 기계 생성 증명을 평가하는 데 적응해야 할 수 있습니다.",
+   "keyPoints": [
+    "Anthropic의 Levent Alpöge는 Claude의 도움을 받아 1.3GB 분량의 Lean 코드가 포함된 Riemann Hypothesis 증명을 발표했습니다.",
+    "Alessandro Masullo는 12년 동안 작업한 940페이지 분량의 인간 작성 증명을 독립적으로 공개했습니다.",
+    "두 증명 모두 검증하는 데 수년이 걸릴 것으로 예상됩니다."
+   ]
+  }
+ }
+}

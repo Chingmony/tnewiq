@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a1b1363daeb6610d",
+ "contentHash": "29b871c5026066bb",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T11:23:09.361Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon CloudWatch Omni now supports Microsoft Azure platform logs, metrics and traces",
+   "summary": "Amazon CloudWatch Omni has added support for collecting Azure resource logs, Azure Monitor platform metrics, virtual network flow logs, and traces from Application Insights. This allows teams running workloads on both AWS and Azure to view their Azure telemetry alongside AWS telemetry in a single location. Users can connect a Microsoft Entra ID tenant to an AWS account and Region to start collecting data.",
+   "impact": "This integration could help central operations, DevOps, and SRE teams eliminate the need for separate monitoring tools or custom pipelines when managing multi-cloud environments. Teams may be able to troubleshoot incidents more efficiently by tracing requests across cloud providers without switching consoles.",
+   "keyPoints": [
+    "Amazon CloudWatch Omni now supports Microsoft Azure platform logs, metrics, and traces.",
+    "Supports collection of Azure resource logs, Azure Monitor platform metrics, VNet flow logs, and Application Insights traces.",
+    "Requires connecting a Microsoft Entra ID tenant to an AWS account and Region.",
+    "Connectors can be configured via the Amazon CloudWatch Omni console or AWS CLI."
+   ]
+  },
+  "km": {
+   "title": "Amazon CloudWatch Omni ឥឡូវនេះគាំទ្រកំណត់ហេតុ មាត្រដ្ឋាន និងដានសេវាកម្មរបស់វេទិកា Microsoft Azure",
+   "summary": "Amazon CloudWatch Omni បានបន្ថែមការគាំទ្រសម្រាប់ការប្រមូលកំណត់ហេតុធនធាន Azure មាត្រដ្ឋានវេទិកា Azure Monitor កំណត់ហេតុចរន្តបណ្តាញនិម្មិត និងដានពី Application Insights។ ក្រុមការងារដែលដំណើរការបន្ទុកការងារទាំងនៅលើ AWS និង Azure លោកអ្នកលែងត្រូវការឧបករណ៍តាមដានដាច់ដោយឡែក ឬបំពង់ διοικ ផ្ទាល់ខ្លួនដើម្បីមើលបរិយាកាសទាំងមូលរបស់ពួកគេទៀតហើយ។ telemetry របស់ Azure ឥឡូវនេះអាចត្រូវបានមើលរួមគ្នាជាមួយ telemetry របស់ AWS នៅកន្លែងតែមួយ។",
+   "impact": "ការណ៍នេះអាចជួយដល់ក្រុមប្រតិបត្តិការកណ្តាល DevOps និង SRE កាត់បន្ថយតម្រូវការឧបករណ៍តាមដានដាច់ដោយឡែកនៅពេលគ្រប់គ្រងបរិយាកាសពពកច្រើន។ ពួកគេអាចដោះស្រាយបញ្ហាឧប្បត្តិហេតុដោយតាមដានសំណើទូទាំងអ្នកផ្តល់សេវាពពកដោយមិនបាច់ប្តូរ კონសូល។",
+   "keyPoints": [
+    "Amazon CloudWatch Omni ឥឡូវនេះគាំទ្រកំណត់ហេតុ មាត្រដ្ឋាន និងដានពី Microsoft Azure។",
+    "អាចប្រមូលកំណត់ហេតុធនធាន Azure មាត្រដ្ឋាន Azure Monitor កំណត់ហេតុ VNet និងដាន Application Insights។",
+    "តម្រូវឱ្យភ្ជាប់ Microsoft Entra ID tenant ទៅនឹងគណនី និងតំបន់ AWS របស់អ្នក។",
+    "អាចដំឡើងຕົວតភ្ជាប់តាមរយៈកុងសូល Amazon CloudWatch Omni ឬ AWS CLI។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon CloudWatch Omni 现已支持 Microsoft Azure 平台日志、指标和跟踪",
+   "summary": "Amazon CloudWatch Omni 现已支持收集 Azure 资源日志、Azure Monitor 平台指标、虚拟网络流日志以及来自 Application Insights 的跟踪信息。同时在 AWS 和 Azure 上运行工作负载的团队不再需要单独的监控工具或自定义管道来查看整个环境。中央运营、DevOps 和站点可靠性工程团队现在可以在一个地方查看 Azure 遥测数据以及 AWS 遥测数据。",
+   "impact": "此功能可以帮助多云环境下的运营、DevOps 和 SRE 团队消除对独立监控工具的需求。团队在处理安全事件或故障时，可能无需切换控制台即可跨云服务提供商追踪请求。",
+   "keyPoints": [
+    "Amazon CloudWatch Omni 现已支持 Microsoft Azure 的平台日志、指标和跟踪。",
+    "支持收集 Azure 资源日志、Azure Monitor 平台指标、VNet 流日志以及 Application Insights 跟踪。",
+    "用户可以通过将 Microsoft Entra ID 租户连接到 AWS 账户和区域来开始使用。",
+    "可通过 Amazon CloudWatch Omni 控制台或 AWS CLI 设置连接器。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon CloudWatch Omni, 이제 Microsoft Azure 플랫폼 로그, 지표 및 추적 지원",
+   "summary": "Amazon CloudWatch Omni가 Azure 리소스 로그, Azure Monitor 플랫폼 지표, 가상 네트워크(VNet) 흐름 로그 및 Application Insights의 추적 수집 지원을 추가했습니다. AWS와 Azure 모두에서 워크로드를 실행하는 팀은 전체 환경을 모니터링하기 위해 더 이상 별도의 도구이나 사용자 지정 파이프라인이 필요하지 않습니다. 중앙 운영, DevOps 및 SRE 팀은 이제 하나의 장소에서 Azure 텔레메트리를 AWS 텔레메트리와 함께 볼 수 있습니다.",
+   "impact": "이번 통합은 멀티 클라우드 환경을 관리하는 운영 및 엔지니어링 팀이 별도의 모니터링 도구 없이 환경을 파악할 수 있도록 도울 수 있습니다. 관리자는 콘솔을 전환하지 않고도 클라우드 제공업체 간의 요청을 추적하여 인시던트 대응 효율성을 높일 수 있습니다.",
+   "keyPoints": [
+    "Amazon CloudWatch Omni가 Microsoft Azure 플랫폼 로그, 지표 및 추적을 지원합니다.",
+    "Azure 리소스 로그, Azure Monitor 플랫폼 지표, VNet 흐름 로그, Application Insights 추적 수집이 가능합니다.",
+    "Microsoft Entra ID 테넌트를 AWS 계정 및 리전에 연결하여 시작할 수 있습니다.",
+    "Amazon CloudWatch Omni 콘솔 또는 AWS CLI를 통해 커넥터를 설정할 수 있습니다."
+   ]
+  }
+ }
+}

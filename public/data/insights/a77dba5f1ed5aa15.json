@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a77dba5f1ed5aa15",
+ "contentHash": "4f7ba1951bcce4b5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T11:19:09.685Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
+   "summary": "Bytedance and US universities introduced Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after only three training phases. Researchers achieved these performance gains by using carefully curated training data rather than adding more training steps. The model, data, and code have been made freely available to the public.",
+   "impact": "This approach could suggest that developers and researchers may achieve competitive model performance with fewer training phases by focusing on data curation. Security teams and technology users might benefit from the freely available model, data, and code for further inspection.",
+   "keyPoints": [
+    "Axion 1.0 was introduced by Bytedance and US universities.",
+    "The AI agent rivals top commercial models from OpenAI and Anthropic after three training phases.",
+    "Performance gains are attributed to carefully curated training data.",
+    "The model, data, and code are freely available."
+   ]
+  },
+  "km": {
+   "title": "Bytedance លើកឡើងថាដំណាក់កាលបណ្តុះបណ្តាល AI ភាគច្រើនមិនចាំបាច់ទេ ហើយបង្ហាញគំរូផើ្ដមបើកចំហដែលមានការប្រកួតប្រជែង",
+   "summary": "Bytedance និងសាកលវិទ្យាល័យអាមេរិកមួយចំនួនបានណែនាំ Axion 1.0 ដែលជាភ្នាក់ងារ AI ប្រកួតប្រជែងជាមួយម៉ូដែលពាណិជ្ជកម្មកំពូលៗពី OpenAI និង Anthropic លើការវាស់ស្ទង់បន្ទាប់ពីដំណាក់កាលបណ្តុះបណ្តាលត្រឹមតែបីប៉ុណ្ណោះ។ អ្នកស្រាវជ្រាវបានសន្និដ្ឋានថាការទទួលបានលទ្ធផលនេះគឺផ្អែកលើទិន្នន័យបណ្តុះបណ្តាលដែលបានជ្រើសរើសយ៉ាងយកចិត្តទុកដាក់ជាជាងការបន្ថែមដំណាក់កាលបណ្តុះបណ្តាល។ ម៉ូដែល ទិន្នន័យ និងកូដត្រូវបានផ្តល់ជូនដោយសេរី។",
+   "impact": "វិធីសាស្ត្រនេះអាចបង្ហាញថាអ្នកអភិវឌ្ឍន៍អាចសម្រេចបាននូវការអនុវត្តម៉ូដែលដែលមានការប្រកួតប្រជែងជាមួយនឹងដំណាក់កាលបណ្តុះបណ្តាលតិចជាងមុន។ ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានប្រយោជន៍ពីម៉ូដែល ទិន្នន័យ និងកូដដែលបើកចំហដោយសេរីសម្រាប់ការពិនិត្យបន្ថែម។",
+   "keyPoints": [
+    "Axion 1.0 ត្រូវបានណែនាំដោយ Bytedance និងសាកលវិទ្យាល័យអាមេរិក។",
+    "ភ្នាក់ងារ AI នេះប្រកួតប្រជែងជាមួយម៉ូដែលពាណិជ្ជកម្មកំពូលៗបន្ទាប់ពីដំណាក់កាលបណ្តុះបណ្តាលចំនួនបី។",
+    "ការរីកចម្រើនត្រូវបានសន្មតថាផ្អែកលើទិន្នន័យបណ្តុះបណ្តាលដែលបានជ្រើសរើសយ៉ាងយកចិត្តទុកដាក់។",
+    "ម៉ូដែល ទិន្នន័យ និងកូដមានដោយសេរី។"
+   ]
+  },
+  "zh-CN": {
+   "title": "字节跳动认为大多数AI训练阶段并非必要，并推出了具有竞争力的开源模型",
+   "summary": "字节跳动与几所美国大学推出了 Axion 1.0，这是一个在仅经过三个训练阶段后，其基准测试结果就能与来自 OpenAI 和 Anthropic 的顶级商业模型相媲美的 AI 代理。研究人员将性能的提升归功于精心挑选的训练数据，而不是越来越多的训练步骤。该模型、数据和代码均可免费获取。",
+   "impact": "这种方法可能表明，开发者和研究人员通过专注于数据筛选，可以用更少的训练阶段实现有竞争力的模型性能。安全团队和技术用户可能会受益于免费提供的模型、数据和代码，以便进行进一步的检查。",
+   "keyPoints": [
+    "Axion 1.0 由字节跳动和美国几所大学共同推出。",
+    "该 AI 代理在三个训练阶段后即可在基准测试中与顶级商业模型竞争。",
+    "性能提升归因于精心挑选的训练数据。",
+    "该模型、数据和代码均可免费获取。"
+   ]
+  },
+  "ko": {
+   "title": "바이트댄스는 대부분의 AI 훈련 단계가 불필요하다고 주장하며 경쟁력 있는 오픈 모델을 공개했습니다",
+   "summary": "바이트댄스와 여러 미국 대학은 단 세 번의 훈련 단계만을 거쳐 OpenAI와 Anthropic의 상용 모델과 벤치마크에서 경쟁하는 AI 에이전트인 Axion 1.0을 소개했습니다. 연구진은 성능 향상의 원인이 더 많은 훈련 단계가 아닌 신중하게 선별된 훈련 데이터에 있다고 밝혔습니다. 모델, 데이터 및 코드는 무료로 제공됩니다.",
+   "impact": "이러한 접근 방식은 개발자와 연구자들이 데이터 선별에 집중함으로써 더 적은 훈련 단계로도 경쟁력 있는 모델 성능을 달성할 수 있음을 시사할 수 있습니다. 보안 팀과 기술 사용자는 추가 검사를 위해 무료로 제공되는 모델, 데이터 및 코드의 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "Axion 1.0은 바이트댄스와 미국 대학들에 의해 소개되었습니다.",
+    "이 AI 에이전트는 세 번의 훈련 단계 후에 최고의 상용 모델들과 경쟁합니다.",
+    "성능 향상은 신중하게 선별된 훈련 데이터 덕분입니다.",
+    "모델, 데이터, 코드는 무료로 이용할 수 있습니다."
+   ]
+  }
+ }
+}

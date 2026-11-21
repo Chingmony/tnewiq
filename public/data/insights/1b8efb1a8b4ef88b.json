@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1b8efb1a8b4ef88b",
+ "contentHash": "50be5586a171f026",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T11:14:14.784Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+   "summary": "Thinking Machines has released Inkling 2 Mini, an open looped transformer model that runs 12 of its 24 layers three times per token. This mechanism allows the model to reason internally for an extended period without generating additional text. The model can run on a laptop and matches the performance of Qwen3.8 27B on Artificial Analysis's Intelligence Index at a significantly lower cost.",
+   "impact": "This approach could offer developers and users a cost-effective way to run capable reasoning models on local hardware like laptops. Security teams and technology users may benefit from efficient internal processing that reduces output token overhead.",
+   "keyPoints": [
+    "Thinking Machines released the open model Inkling 2 Mini.",
+    "It features a looped transformer design running 12 of its 24 layers three times per token.",
+    "It can run locally on a laptop.",
+    "It ties with Qwen3.8 27B on the Artificial Analysis Intelligence Index at about six times lower cost."
+   ]
+  },
+  "km": {
+   "title": "ម៉ូเดែលសេរីបើកទូលាយថ្មី Inkling 2 Mini គិតជារង្វិលជรอบเพื่อដោះស្រាយបញ្ហាតាមរយៈពាក្យតិចជាងមុននិងអាចដំណើរការលើកុំព្យូទ័រយួរដៃ",
+   "summary": "ក្រុមហ៊ុន Thinking Machines បានបញ្ចេញ Inkling 2 Mini ដែលជាម៉ូเดែល μετασχηਮត្តិកររង្វិលជรอบបើកទូលាយដំណើរការស្រទាប់ ១២ ក្នុងចំណោម ២៤ ស្រទាប់របស់វាចំនួនបីដងក្នុងមួយតូខិន។ មុខងារនេះអនុញ្ញាតឱ្យម៉ូដែលធ្វើហេតុផលខាងក្នុងបានយូរជាងមុនដោយមិនចាំបាច់បង្កើតអត្ថបទបន្ថែម។ វាអាចដំណើរការលើកុំព្យូទ័រយួរដៃ និងទទួលបានលទ្ធផលស្មើនឹង Qwen3.8 27B លើសន្ទស្សន៍បញ្ញារបស់ Artificial Analysis ក្នុងតម្លៃទាបជាងប្រហែលប្រាំឆ្ងាយ។",
+   "impact": "វិធីសាស្ត្រនេះអាចផ្ដល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវមធ្យោបាយដែលមានតម្លៃសមរម្យក្នុងការដំណើរការម៉ូដែលហេតុផលដែលមានសមត្ថភាពនៅលើ hardware ក្នុងស្រុកដូចជាកុំព្យូទ័រយួរដៃ។",
+   "keyPoints": [
+    "Thinking Machines បានបញ្ចេញម៉ូដែល Inkling 2 Mini។",
+    "វាប្រើប្រាស់ការរចនារង្វិលជรอบដែលដំណើរការស្រទាប់ ១២ ក្នុងចំណោម ២៤ ស្រទាប់បីដងក្នុងមួយតូខិន។",
+    "វាអាចដំណើរការនៅលើកុំព្យូទ័រយួរដៃ។",
+    "វាមានសមត្ថភាពស្មើនឹង Qwen3.8 27B ក្នុងតម្លៃទាបជាងប្រហែលប្រាំដងនៅលើ Artificial Analysis Intelligence Index។"
+   ]
+  },
+  "zh-CN": {
+   "title": "全新开源模型 Inkling 2 Mini 通过循环思考以更少字数解决问题并可在笔记本电脑上运行",
+   "summary": "Thinking Machines 发布了开源循环 Transformer 模型 Inkling 2 Mini，其 24 层中的 12 层每个 token 会运行三次。这使模型能够在不生成额外文本的情况下进行更长时间的内部推理。它能够在笔记本电脑上运行，并且在 Artificial Analysis 的智能指数上与 Qwen3.8 27B 打成平手，成本却低约六倍。",
+   "impact": "这种方法可以为开发人员和用户提供一种经济高效的方式，在笔记本电脑等本地硬件上运行功能强大的推理模型。安全团队和技术用户可能会受益于能够减少输出 token 开销的高效内部处理。",
+   "keyPoints": [
+    "Thinking Machines 发布了开源模型 Inkling 2 Mini。",
+    "它采用循环架构，24层中的12层每个 token 运行三次。",
+    "该模型可以在笔记本电脑上运行。",
+    "其在 Artificial Analysis 智能指数上与 Qwen3.8 27B 持平，成本降低约六倍。"
+   ]
+  },
+  "ko": {
+   "title": "더 적은 단어로 문제를 해결하기 위해 루프 방식으로 사고하며 노트북에서도 실행 가능한 새로운 오픈 모델 Inkling 2 Mini",
+   "summary": "Thinking Machines는 토큰당 24개 레이어 중 12개를 세 번 실행하는 오픈 루프 트랜스포머 모델인 Inkling 2 Mini를 출시했습니다. 이 모델은 추가 텍스트를 생성하지 않고도 내부적으로 더 오래 추론할 수 있도록 합니다. 노트북에서 실행할 수 있으며 Artificial Analysis의 인텔리전스 지수에서 약 6배 더 낮은 비용으로 Qwen3.8 27B와 동등한 성능을 보입니다.",
+   "impact": "이러한 접근 방식은 개발자와 사용자에게 노트북과 같은 로컬 하드웨어에서 성능 좋은 추론 모델을 비용 효율적으로 실행할 수 있는 수단을 제공할 수 있습니다. 보안 팀과 기술 사용자는 출력 토큰 오버헤드를 줄이는 효율적인 내부 처리의 이점을 누릴 수 있습니다.",
+   "keyPoints": [
+    "Thinking Machines가 오픈 모델 Inkling 2 Mini를 출시했습니다.",
+    "24개 레이어 중 12개를 토큰당 세 번 실행하는 루프 구조를 특징으로 합니다.",
+    "노트북에서 실행이 가능합니다.",
+    "Artificial Analysis 인텔리전스 지수에서 Qwen3.8 27B와 대등하며 비용은 약 6배 낮습니다."
+   ]
+  }
+ }
+}

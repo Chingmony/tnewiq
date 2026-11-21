@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "552b60cb29a0722a",
+ "contentHash": "659aab6406ea91c2",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T11:19:30.132Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+   "summary": "CISA added four vulnerabilities affecting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities catalog. The inclusion follows evidence of active exploitation in the wild. Among them is CVE-2026-129448, a critical deserialization flaw with a CVSS score of 9.8.",
+   "impact": "Security teams and technology users managing these enterprise products could face heightened risks from active exploitation. Organizations may need to prioritize patching or mitigating these specific vulnerabilities to protect against potential espionage attacks.",
+   "keyPoints": [
+    "CISA added four flaws to the Known Exploited Vulnerabilities list.",
+    "Affected software includes Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter.",
+    "CVE-2026-129448 is a deserialization vulnerability with a CVSS score of 9.8."
+   ]
+  },
+  "km": {
+   "title": "ពួក Hacker កេងប្រវ័ញ្ចចំណុចខ្សោយដ៏សំខាន់របស់ VMware, Cisco និង Apache ខណៈការវាយប្រហារស៊ើបការណ៍សម្ងាត់លេចចេញរូបរាង",
+   "summary": "ទីភ្នាក់ងារ CISA បានបន្ថែមចំណុចខ្សោយចំនួនបួនដែលប៉ះពាល់ដល់ Apache Roller, Cisco Expressway, SAP NetWeaver និង Broadcom VMware vCenter ទៅក្នុងបញ្ជីរន្ធត់ស្គាល់ថាត្រូវបានកេងប្រវ័ញ្ច។ ការបន្ថែមនេះធ្វើឡើងដោយសារមានភស្តុតាងនៃការកេងប្រវ័ញ្ចយ៉ាងសកម្ម។ ក្នុងចំណោមនោះមាន CVE-2026-129448 ដែលជាបញ្ហាចំណុចខ្សោយ deserialization ជាមួយពិន្ទុ CVSS 9.8។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលអាចគ្រប់គ្រងផលិតផលសហគ្រាសទាំងនេះអាចប្រឈមមុខនឹងហានិភ័យខ្ពស់ពីការកេងប្រវ័ញ្ចយ៉ាងសកម្ម។អង្គភាពនានាប្រហែលជាត្រូវផ្តល់អាទិភាពដល់ការបិទរន្ធសុវត្ថិភាពដើម្បីការពារប្រឆាំងនឹងការវាយប្រហារស៊ើបការណ៍សម្ងាត់ដែលអាចកើតមាន។",
+   "keyPoints": [
+    "CISA បានបន្ថែមចំណុចខ្សោយចំនួនបួនទៅក្នុងបញ្ជីរន្ធដែលគេដឹងថាបានកេងប្រវ័ញ្ច។",
+    "កម្មវិធីដែលរងផលប៉ះពាល់រួមមាន Apache Roller, Cisco Expressway, SAP NetWeaver និង Broadcom VMware vCenter ។",
+    "CVE-2026-129448 គឺជារន្ធខ្សោយ deserialization ដែលមានពិន្ទុ CVSS 9.8។"
+   ]
+  },
+  "zh-CN": {
+   "title": "黑客利用 VMware、Cisco 和 Apache 的严重漏洞发起间谍攻击",
+   "summary": "美国网络安全和基础设施安全局于周五将影响 Apache Roller、Cisco Expressway、SAP NetWeaver 和 Broadcom VMware vCenter 的四个漏洞添加到了其已知利用漏洞目录中，并援引了活跃利用的证据。其中包括 CVE-2026-129448，这是一个 CVSS 评分为 9.8 的严重反序列化漏洞。",
+   "impact": "管理这些企业产品的安全团队和技术用户可能会面临来自主动利用的更高风险。组织可能需要优先修补或缓解这些特定漏洞，以防范潜在的间谍攻击。",
+   "keyPoints": [
+    "CISA 将四个漏洞添加到了已知利用漏洞列表中。",
+    "受影响的软件包括 Apache Roller、Cisco Expressway、SAP NetWeaver 和 Broadcom VMware vCenter。",
+    "CVE-2026-129448 是一个 CVSS 评分为 9.8 的反序列化漏洞。"
+   ]
+  },
+  "ko": {
+   "title": "스파이 공격이 대두되는 가운데 해커들이 VMware, Cisco 및 Apache의 취약점을 악용함",
+   "summary": "미국 사이버안보·기반시설보호국(CISA)은 활발한 악용 증거를 인용하며 Apache Roller, Cisco Expressway, SAP NetWeaver, Broadcom VMware vCenter에 영향을 미치는 4개의 결함을 알려진 악용 취약점 목록에 추가했다. 그중에는 CVSS 점수 9.8점의 심각한 역직렬화 취약점인 CVE-2026-129448이 포함되어 있다.",
+   "impact": "이러한 엔터프라이즈 제품을 관리하는 보안 팀과 기술 사용자는 활발한 악용으로 인해 위험이 높아질 수 있다. 조직은 잠재적인 스파이 공격으로부터 보호하기 위해 이러한 특정 취약점에 대한 패치나 완화를 우선시해야 할 수 있다.",
+   "keyPoints": [
+    "CISA가 알려진 악용 취약점 목록에 4개의 결함을 추가했다.",
+    "영향을 받는 소프트웨어에는 Apache Roller, Cisco Expressway, SAP NetWeaver 및 Broadcom VMware vCenter가 포함된다.",
+    "CVE-2026-129448은 CVSS 점수 9.8점의 역직렬화 취약점이다."
+   ]
+  }
+ }
+}

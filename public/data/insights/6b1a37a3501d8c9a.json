@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6b1a37a3501d8c9a",
+ "contentHash": "c2b0adf000304631",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-21T11:23:19.986Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
+   "summary": "AWS has released updates to AWS Quick, an AI workspace built for work, introducing more capable flows, an updated web experience, and collaborative multi-agent capabilities. Users can now build and refine business processes through chat, utilize deterministic steps for consistent workflows, and manage tasks using an updated web app that keeps work running in the background. The update also brings new data connectors for Meta ads and Amplitude, expanded language support, and configurable content safety controls.",
+   "impact": "These updates could help development and business teams automate complex, multi-step workflows and standardize repetitive tasks across an organization. Security and governance teams may benefit from the newly added configurable content safety and sensitive-information controls.",
+   "keyPoints": [
+    "AWS Quick introduces chat-based flow building to orchestrate agents, skills, and tools.",
+    "An updated web app features a home screen with daily briefings and allows work to continue running after closing the tab.",
+    "Multi-agent orchestration enables several specialized agents to work on a single prompt simultaneously.",
+    "New data connectors for Meta ads and Amplitude have been added, alongside support for additional languages such as Japanese, German, and Vietnamese."
+   ]
+  },
+  "km": {
+   "title": "ថ្មីនៅក្នុង AWS Quick៖ លំហូរការងារដែលមានសមត្ថភាពខ្ពស់ជាងមុន បទពិសោធគេហទំព័រដែលបានធ្វើបច្ចុប្បន្នភាព និងភ្នាក់ងារដែលធ្វើការជាមួយគ្នា",
+   "summary": "AWS បានចេញផ្សាយការអាប់ដេតសម្រាប់ AWS Quick ដែលជាកន្លែងការងារ AI ដែលត្រូវបានបង្កើតឡើងសម្រាប់ការងារ ដោយណែនាំលំហូរការងារដែលមានសមត្ថភាពខ្ពស់ជាងមុន បទពិសោធគេហទំព័រដែលបានធ្វើបច្ចុប្បន្នភាព និងសមត្ថភាពភ្នាក់ងារសហការគ្នា។ អ្នកប្រើប្រាស់ឥឡូវនេះអាចបង្កើត និងកែលម្អដំណើរការអាជីវកម្មតាមរយៈការជជែក និងប្រើប្រាស់ការគ្រប់គ្រងសុវត្ថិភាពមាតិកាដែលបានកំណត់រចនាសម្ព័ន្ធ។",
+   "impact": "ការអាប់ដេតទាំងនេះអាចជួយដល់ក្រុមការងារស្វ័យប្រវត្តិកម្មលំហូរការងារដែលមានភាពស្មុគស្មាញ និងស្តង់ដារកិច្ចការដដែលៗទូទាំងអង្គការ។",
+   "keyPoints": [
+    "AWS Quick ដាក់បញ្ចូលការបង្កើតលំហូរការងារតាមរយៈការជជែក។",
+    "កម្មវិធីគេហទំព័រដែលបានធ្វើបច្ចុប្បន្នភាពអនុញ្ញាតឱ្យការងារបន្តដំណើរការបន្ទាប់ពីបិទផ្ទាំង។",
+    "ការតភ្ជាប់ទិន្នន័យថ្មីសម្រាប់ Meta ads និង Amplitude ត្រូវបានបន្ថែម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Quick 新功能：更强大的工作流、更新的网络体验以及协同工作的智能体",
+   "summary": "AWS 为专为工作打造的 AI 工作区 AWS Quick 发布了更新，带来了更强大的工作流、更新的网络体验以及多智能体协作功能。用户现在可以通过聊天构建和优化业务流程，使用确定性步骤来确保工作流的一致性，并通过更新的网络应用在后台持续运行任务。此次更新还引入了 Meta ads 和 Amplitude 的新数据连接器，扩展了语言支持并提供了可配置的内容安全控制。",
+   "impact": "这些更新可以帮助开发和业务团队自动化复杂的、多步骤的工作流，并在组织内标准化重复性任务。安全和治理团队可能会受益于新增加的可配置内容安全和敏感信息控制功能。",
+   "keyPoints": [
+    "AWS Quick 引入了基于聊天的流构建功能，以协调智能体、技能和工具。",
+    "更新的网络应用在主屏幕上提供每日简报，并允许在关闭标签页后继续运行工作。",
+    "多智能体 orchestration 使得多个专业智能体能够同时处理单个提示词。",
+    "增加了针对 Meta ads 和 Amplitude 的新数据连接器，并支持日语、德语、中文和越南语等更多语言。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Quick 신기능: 더 강력해진 플로우, 업데이트된 웹 환경, 함께 협업하는 에이전트",
+   "summary": "AWS는 업무용으로 제작된 AI 워크스페이스인 AWS Quick에 대한 업데이트를 통해 더 강력해진 플로우, 업데이트된 웹 환경, 그리고 협업형 멀티 에이전트 기능을 선보였습니다. 사용자는 이제 채팅을 통해 비즈니스 프로세스를 구축 및 개선하고, 일관된 워크플로우를 위한 결정론적 단계를 활용하며, 탭을 닫아도 작업이 계속 실행되는 업데이트된 웹 앱을 사용할 수 있습니다. 또한 Meta ads 및 Amplitude에 대한 새로운 데이터 커넥터, 확장된 언어 지원, 설정 가능한 콘텐츠 안전 제어 기능이 추가되었습니다.",
+   "impact": "이러한 업데이트는 개발 및 비즈니스 팀이 복잡하고 다단계인 워크플로우를 자동화하고 반복적인 작업을 표준화하는 데 도움을 줄 수 있습니다. 보안 및 거버넌스 팀은 새로 추가된 설정 가능한 콘텐츠 안전 및 민감 정보 제어 기능의 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "AWS Quick은 에이전트, 스킬, 도구를 조율할 수 있는 채팅 기반 플로우 구축 기능을 도입했습니다.",
+    "업데이트된 웹 앱은 홈 화면에 일일 브리핑을 제공하며 탭을 닫은 후에도 작업이 계속 실행되도록 유지합니다.",
+    "멀티 에이전트 오케스트레이션을 통해 여러 전문 에이전트가 단일 프롬프트에서 동시에 작업할 수 있습니다.",
+    "Meta ads 및 Amplitude용 새로운 데이터 커넥터가 추가되었으며 일본어, 독일어, 중국어, 베트남어 지원이 확대되었습니다."
+   ]
+  }
+ }
+}
