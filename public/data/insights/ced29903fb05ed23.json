@@ -1,53 +1,53 @@
 {
  "schemaVersion": 1,
  "articleId": "ced29903fb05ed23",
- "contentHash": "d64fb2ec08c416c3",
+ "contentHash": "345ab6b391b172c8",
  "model": "gemini-flash-lite-latest",
- "generatedAt": "2026-11-18T04:33:38.393Z",
+ "generatedAt": "2026-11-22T15:26:22.104Z",
  "basedOn": "feed-text",
  "languages": {
   "en": {
    "title": "OWASP Application Security Verification Standard (Bleeding Edge)",
-   "summary": "The OWASP Application Security Verification Standard has a new bleeding-edge release automatically generated from the master branch of the ASVS project. This version reflects the most current state of the ASVS documentation and is intended solely for testing and preview purposes. Users are advised to rely on stable releases like v5.0.0 for production use.",
-   "impact": "Developers and security teams could use this early access version to test upcoming improvements and changes. However, because it undergoes constant changes and lacks stability, relying on it for production environments may introduce risks.",
+   "summary": "The OWASP Application Security Verification Standard has a new bleeding-edge release generated automatically from the master branch. This version reflects the most current state of the ASVS documentation. It is intended for testing and preview purposes only.",
+   "impact": "Developers and security teams may use this version for early access to the latest improvements and testing. However, it cannot be relied upon for stability in production environments.",
    "keyPoints": [
-    "The release is automatically recreated from the master branch of the ASVS project.",
-    "It represents the most current state of the ASVS documentation.",
-    "It is intended for testing and preview purposes only.",
-    "The latest stable release remains v5.0.0 for production use."
+    "Automatically recreated with the latest changes from the master branch",
+    "Generated on November 22, 2026",
+    "Recommended for testing and preview purposes only",
+    "The latest stable release remains v5.0.0"
    ]
   },
   "km": {
    "title": "ស្តង់ដារផ្ទៀងផ្ទាត់សុវត្ថិភាពកម្មវិធី OWASP (Bleeding Edge)",
-   "summary": "ស្តង់ដារផ្ទៀងផ្ទាត់សុវត្ថិភាពកម្មវិធី OWASP បានចេញផ្សាយកំណែ bleeding-edge ថ្មីដែលត្រូវបានបង្កើតឡើងដោយស្វ័យប្រវត្តិពីសាខា master នៃគម្រោង ASVS ។ កំណែនេះបង្ហាញពីស្ថានភាពបច្ចុប្បន្នបំផុតនៃឯកសារ ASVS ហើយត្រូវបានបម្រុងទុកសម្រាប់តែគោលបំណងសាកល្បង និងមើលជាមុនប៉ុណ្ណោះ ។ អ្នកប្រើប្រាស់ត្រូវបានណែនាំឱ្យប្រើប្រាស់កំណែដែលមានស្ថេរភាពដូចជា v5.0.0 សម្រាប់ការប្រើប្រាស់ក្នុងផលិតកម្ម ។",
-   "impact": "អ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខអាចប្រើប្រាស់កំណែចូលប្រើប្រាស់មុននេះ ដើម្បីសាកល្បងការកែលម្អ និងការផ្លាស់ប្តូរនាពេលខាងមុខ ។ ទោះបីជាយ៉ាងណាក៏ដោយ ដោយសារវាមានការផ្លាស់ប្តូរជាប្រចាំ និងខ្វះស្ថេរភាព ការពឹងផ្អែកលើវាក្នុងបរិយាកាសផលិតកម្មអាចបង្កជាហានិភ័យ ។",
+   "summary": "ស្តង់ដារផ្ទៀងផ្ទាត់សុវត្ថិភាពកម្មវិធី OWASP បានចេញផ្សាយកំណែថ្មីដែលបង្កើតឡើងដោយស្វ័យប្រវត្តិពីប្រភពដើម។ កំណែនេះបង្ហាញពីស្ថានភាពបច្ចុប្បន្នបំផុតនៃឯកសារ ASVS ។ វាត្រូវបានផ្ដល់ជូនសម្រាប់គោលបំណងសាកល្បង និងមើលជាមុនតែប៉ុណ្ណោះ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខអាចប្រើប្រាស់កំណែនេះសម្រាប់ការទទួលបានភាពប្រសើរឡើងចុងក្រោយ ប៉ុន្តែវាមិនអាចទុកចិត្តបានសម្រាប់ស្ថេរភាពក្នុងការផលិតនោះទេ។",
    "keyPoints": [
-    "ការចេញផ្សាយនេះត្រូវបានបង្កើតឡើងដោយស្វ័យប្រវត្តិពីសាខា master នៃគម្រោង ASVS ។",
-    "វាបង្ហាញពីស្ថានភាពបច្ចុប្បន្នបំផុតនៃឯកសារ ASVS ។",
-    "វាត្រូវបានបម្រុងទុកសម្រាប់តែគោលបំណងសាកល្បង និងមើលជាមុនប៉ុណ្ណោះ ។",
-    "កំណែដែលមានស្ថេរភាពចុងក្រោយគឺ v5.0.0 សម្រាប់ការប្រើប្រាស់ក្នុងផលិតកម្ម ។"
+    "បង្កើតឡើងដោយស្វ័យប្រវត្តិតាមការផ្លាស់ប្តូរចុងក្រោយពីប្រភពដើម",
+    "បានបង្កើតឡើងនៅថ្ងៃទី ២២ ខែវិច្ឆិកា ឆ្នាំ ២០២៦",
+    "ប្រើប្រាស់សម្រាប់តែការសាកល្បង និងមើលជាមុន",
+    "កំណែដែលមានស្ថេរភាពចុងក្រោយគឺ v5.0.0"
    ]
   },
   "zh-CN": {
-   "title": "OWASP 应用程序安全验证标准 (Bleeding Edge)",
-   "summary": "OWASP 应用程序安全验证标准发布了一个从 ASVS 项目的 master 分支自动重新创建的 bleeding-edge 版本。该版本代表了 ASVS 文档的最新状态，仅用于测试和预览目的。对于生产环境的使用，建议参考稳定版本（最新的稳定版本是 v5.0.0）。",
-   "impact": "开发人员和安全团队可以使用此抢先体验版本来测试最新的改进和更改。然而，由于该版本处于不断变化之中且无法保证稳定性，将其用于生产环境可能会引入风险。",
+   "title": "OWASP 应用程序安全验证标准（前沿版）",
+   "summary": "OWASP 应用程序安全验证标准发布了自动从主分支最新更改生成的测试版本。该版本代表了 ASVS 文档的当前状态。它仅应用於测试和预览目的。",
+   "impact": "开发人员和安全团队可以使用此版本来提前获得最新改进并进行测试。但是，它无法在生产环境中保证稳定性。",
    "keyPoints": [
-    "该版本是从 ASVS 项目的 master 分支自动重新创建的。",
-    "它代表了 ASVS 文档的最新状态。",
-    "它仅用于测试和预览目的。",
-    "最新的稳定版本是 v5.0.0。"
+    "自动从主分支的最新更改重新创建",
+    "生成於 2026 年 11 月 22 日",
+    "仅供测试和预览使用",
+    "最新的稳定版本为 v5.0.0"
    ]
   },
   "ko": {
    "title": "OWASP 애플리케이션 보안 검증 표준 (Bleeding Edge)",
-   "summary": "OWASP 애플리케이션 보안 검증 표준의 새로운 bleeding-edge 버전이 ASVS 프로젝트의 master 브랜치에서 자동으로 재생성되어 출시되었습니다. 이 버전은 ASVS 문서의 가장 최신 상태를 나타내며 테스트 및 미리보기 목적으로만 사용해야 합니다. 프로덕션 환경에서는 v5.0.0과 같은 안정적인 버전을 참조해야 합니다.",
-   "impact": "개발자와 보안 팀은 이 조기 액세스 버전을 사용하여 최신 개선 사항과 변경 사항을 테스트할 수 있습니다. 그러나 지속적인 변경으로 인해 안정성을 신뢰할 수 없으므로 프로덕션 환경에서 사용하는 것은 위험을 초래할 수 있습니다.",
+   "summary": "OWASP 애플리케이션 보안 검증 표준이 마스터 브랜치의 최신 변경 사항으로 자동 재생성된 새로운 버전을 발표했습니다. 이 버전은 ASVS 문서의 가장 최신 상태를 나타냅니다. 테스트 및 미리보기 목적으로만 사용해야 합니다.",
+   "impact": "개발자와 보안 팀은 최신 개선 사항을 조기에 접하고 테스트하기 위해 이 버전을 사용할 수 있습니다. 그러나 프로덕션 환경에서의 안정성은 보장되지 않습니다.",
    "keyPoints": [
-    "이 릴리스는 ASVS 프로젝트의 master 브랜치에서 자동으로 재생성되었습니다.",
-    "ASVS 문서의 가장 최신 상태를 나타냅니다.",
-    "테스트 및 미리보기 목적으로만 제공됩니다.",
-    "최신 안정 버전은 v5.0.0입니다."
+    "마스터 브랜치의 최신 변경 사항으로 자동 재생성됨",
+    "2026년 11월 22일에 생성됨",
+    "테스트 및 미리보기 목적으로만 사용 권장",
+    "최신 안정 버전은 v5.0.0임"
    ]
   }
  }

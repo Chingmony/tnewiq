@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e7b883768e2e6dc2",
+ "contentHash": "60c5dfa1da5b7e65",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-22T15:26:12.734Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
+   "summary": "Perplexity is launching a Monitor API designed to search the web on a schedule and alert agents via webhook when relevant changes occur. A built-in decision model filters out unimportant results to ensure notifications are meaningful. This release is part of a broader company strategy to differentiate itself from other chatbot businesses by offering developer tools.",
+   "impact": "This API could allow developers and security teams to automate continuous monitoring tasks using AI agents. By receiving alerts only for relevant changes, systems may reduce unnecessary noise and improve automated responses.",
+   "keyPoints": [
+    "Perplexity is launching the Monitor API for scheduled web searches.",
+    "Webhooks notify agents when relevant changes occur.",
+    "A decision model filters out unimportant results.",
+    "The tool is part of a strategy to focus on developer tools."
+   ]
+  },
+  "km": {
+   "title": "Monitor API ថ្មីរបស់ Perplexity ប្រែក្លាយការស្វែងរកតាមបណ្តាញពីសំណួរម្តងម្កាលទៅជាភ្នាក់ងារឃ្លាំមើលមិនចេះឈប់ឈរ",
+   "summary": "Perplexity កំពុងបើកដំណើរការ Monitor API ដែលស្វែងរកនៅលើបណ្តាញតាមកាលវិភាគ និងជូនដំណឹងដល់ភ្នាក់ងារតាមរយៈ webhook នៅពេលមានការផ្លាស់ប្តូរពាក់ព័ន្ធកើតឡើង។ ម៉ូដែលសម្រេចចិត្តផ្ទាល់របស់វាត្រងចេញនូវលទ្ធផលដែលមិនសំខាន់។ នេះគឺជាផ្នែកមួយនៃយុទ្ធសាស្ត្រទូលំទូលាយដើម្បីលេចធ្លោជាងអាជីវកម្ម chatbot ផ្សេងទៀតតាមរយៈឧបករណ៍អ្នកអភិវឌ្ឍន៍។",
+   "impact": "ឧបករណ៍នេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខស្វ័យប្រវត្តិកម្មការងារឃ្លាំមើលជាបន្តបន្ទាប់ដោយប្រើប្រាស់ AI agents។ ការត្រងលទ្ធផលអាចជួយកាត់បន្ថយព័ត៌មានដែលមិនចាំបាច់និងបង្កើនប្រសិទ្ធភាពនៃការឆ្លើយតប។",
+   "keyPoints": [
+    "Perplexity បើកដំណើរការ Monitor API សម្រាប់ការស្វែងរកតាមកាលវិភាគ។",
+    "Webhook ជូនដំណឹងដល់ភ្នាក់ងារនៅពេលមានការផ្លាស់ប្តូរពាក់ព័ន្ធ។",
+    "ម៉ូដែលសម្រេចចិត្តត្រងចេញនូវលទ្ធផលដែលមិនសំខាន់។",
+    "វាជាផ្នែកមួយនៃយុទ្ធសាស្ត្រផ្តោតលើឧបករណ៍អ្នកអភិវឌ្ឍន៍។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Perplexity 的新 Monitor API 将网络搜索从一次性查询变成不间断的看门狗",
+   "summary": "Perplexity 正在推出一项 Monitor API，可按计划搜索网络，并在发生相关更改时通过 webhook 警报代理。其自身的决策模型会过滤掉不重要的结果。对于 Perplexity 来说，该 API 是其更广泛战略的一部分，旨在通过开发人员工具在日益同质化的聊天机器人业务中脱颖而出。",
+   "impact": "该 API 可能会让开发人员和安全团队能够使用 AI 代理自动化持续监控任务。通过仅接收相关更改的警报，系统可以减少不必要的噪音并改善自动响应。",
+   "keyPoints": [
+    "Perplexity 推出用于定期网络搜索的 Monitor API。",
+    "Webhook 会在发生相关更改时通知代理。",
+    "内置决策模型可过滤掉不重要的结果。",
+    "此举是专注于开发人员工具战略的一部分。"
+   ]
+  },
+  "ko": {
+   "title": "Perplexity의 새로운 Monitor API는 웹 검색을 일회성 쿼리에서 멈추지 않는 감시견으로 전환합니다",
+   "summary": "Perplexity는 일정에 따라 웹을 검색하고 관련 변경 사항이 발생할 때 웹후트를 통해 에이전트에 경고하는 Monitor API를 출시하고 있습니다. 자체 결정 모델이 중요하지 않은 결과를 필터링합니다. Perplexity에게 이 API는 점점 더 유사해지는 챗봇 비즈니스에서 개발자 도구를 통해 차별화하려는 광범위한 전략의 일환입니다.",
+   "impact": "이 API는 개발자와 보안 팀이 AI 에이전트를 사용하여 지속적인 모니터링 작업을 자동화할 수 있도록 지원할 수 있습니다. 관련 변경 사항에 대한 알림만 받음으로써 시스템은 불필요한 노이즈를 줄이고 자동 응답을 개선할 수 있습니다.",
+   "keyPoints": [
+    "Perplexity는 예약된 웹 검색을 위한 Monitor API를 출시합니다.",
+    "웹후트는 관련 변경 사항이 발생할 때 에이전트에 알립니다.",
+    "결정 모델이 중요하지 않은 결과를 필터링합니다.",
+    "이 도구는 개발자 도구에 집중하는 전략의 일부입니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "be2721eef93582e6",
+ "contentHash": "08a6600acc3e3de2",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-22T15:27:27.005Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
+   "summary": "Security researchers at Dragos used two million fake AI requests to uncover serious vulnerabilities in the AI supply chain. They discovered at least three compromised providers, hundreds of stolen AWS keys, and marketplace resellers reading customer requests. In response to the findings, OpenRouter removed three providers and 125 endpoints.",
+   "impact": "This discovery could highlight significant security risks within the AI supply chain, potentially affecting developers and users relying on third-party inference providers. Security teams may need to reevaluate trust in cheap or reseller-based AI providers to protect sensitive credentials.",
+   "keyPoints": [
+    "Dragos researchers used two million fake AI requests to investigate AI supply chain vulnerabilities.",
+    "At least three compromised providers and hundreds of stolen AWS keys were found.",
+    "Some marketplace resellers were found reading customer requests.",
+    "OpenRouter removed three providers and 125 endpoints following the findings."
+   ]
+  },
+  "km": {
+   "title": "អ្នកស្រាវជ្រាវសន្តិសុខបង្ហាញពីរបៀបដែលអ្នកផ្តល់សេវាอนุមាន AI តម្លៃថោកលួចសោ និងចារកម្មលើអ្នកប្រើប្រាស់",
+   "summary": "អ្នកស្រាវជ្រាវសន្តិសុខនៅ Dragos បានប្រើសំណើ AI ក្លែងក្លាយចំនួនពីរលានដើម្បីស្វែងរកភាពងាយរងគ្រោះធ្ងន់ធ្ងរនៅក្នុងខ្សែសង្វាក់ផ្គត់ផ្គង់ AI។ ពួកគេបានរកឃើញអ្នកផ្តល់សេវាដែលត្រូវបានសម្របសម្រួលយ៉ាងតិចចំនួនបី សោ AWS ដែលត្រូវបានលួចរាប់រយ និងអ្នកលក់បន្តនៅតាមទីផ្សារដែលអានសំណើរបស់អតិថិជន។ OpenRouter បានឆ្លើយតបដោយលុបចោលអ្នកផ្តល់សេវាចំនួនបី និងចំណុចបញ្ចប់ចំនួន 125។",
+   "impact": "បញ្ហានេះអាចបង្ហាញពីហានិភ័យសន្តិសុខដ៏សំខាន់នៅក្នុងខ្សែសង្វាក់ផ្គត់ផ្គង់ AI ដែលអាចប៉ះពាល់ដល់អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់។ ក្រុមសន្តិសុខអាចចាំបាច់ត្រូវពិនិត្យឡើងវិញនូវការទុកចិត្តលើអ្នកផ្តល់សេវា AI តម្លៃថោក។",
+   "keyPoints": [
+    "អ្នកស្រាវជ្រាវ Dragos បានប្រើសំណើ AI ក្លែងក្លាយពីរលាន។",
+    "បានរកឃើញអ្នកផ្តល់សេវាដែលរងការគំរាមកំហែងយ៉ាងតិចចំនួនបី និងសោ AWS រាប់រយ។",
+    "អ្នកលក់បន្តមួយចំនួនត្រូវបានរកឃើញថាបានអានសំណើរបស់អតិថិជន។",
+    "OpenRouter បានដកអ្នកផ្តល់សេវាចំនួនបី និងចំណុចបញ្ចប់ 125 ចេញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "安全研究人员揭示廉价 AI 推理提供商如何窃取密钥并窥探用户",
+   "summary": "Dragos 的安全研究人员使用了两百万个虚假 AI 请求，揭示了 AI 供应链中的严重漏洞，发现了至少三个受损的提供商、数百个被窃取的 AWS 密钥以及直接读取客户请求的市场转售商。OpenRouter对此做出了回应，移除了三个提供商和 125 个端点。",
+   "impact": "这一发现可能会突显 AI 供应链中的重大安全风险，潜在影响依赖第三方推理提供商的开发人员和用户。安全团队可能需要重新评估对廉价或基于转售商的 AI 提供商的信任，以保护敏感凭证。",
+   "keyPoints": [
+    "Dragos 研究人员使用两百万个虚假 AI 请求调查供应链漏洞。",
+    "发现了至少三个受损的提供商和数百个被盗的 AWS 密钥。",
+    "发现有市场转售商在读取客户请求。",
+    "OpenRouter 移除了三个提供商和 125 个端点。"
+   ]
+  },
+  "ko": {
+   "title": "보안 연구원들이 저렴한 AI 추론 제공업체가 키를 훔치고 사용자를 염탐하는 방법을 공개하다",
+   "summary": "Dragos의 보안 연구원들은 이백만 개의 가짜 AI 요청을 사용하여 AI 공급망의 심각한 취약점을 발견했으며, 최소 세 개의 손상된 제공업체, 수백 개의 도난당한 AWS 키, 그리고 고객 요청을 읽고 있던 마켓플레이스 리셀러를 찾아냈습니다. 이에 대응하여 OpenRouter는 세 개의 제공업체와 125개의 엔드포인트를 제거했습니다.",
+   "impact": "이번 발견은 AI 공급망 내의 심각한 보안 위험을 부각시킬 수 있으며, 제3자 추론 제공업체에 의존하는 개발자와 사용자에게 잠재적인 영향을 미칠 수 있습니다. 보안 팀은 민감한 자격 증명을 보호하기 위해 저렴하거나 리셀러 기반의 AI 제공업체에 대한 신뢰를 재평가해야 할 수 있습니다.",
+   "keyPoints": [
+    "Dragos 연구원들은 이백만 개의 가짜 AI 요청을 활용했습니다.",
+    "최소 세 개의 손상된 제공업체와 수백 개의 도난당한 AWS 키가 발견되었습니다.",
+    "일부 마켓플레이스 리셀러가 고객 요청을 읽고 있는 것이 확인되었습니다.",
+    "OpenRouter는 세 개의 제공업체와 125개의 엔드포인트를 제거했습니다."
+   ]
+  }
+ }
+}
