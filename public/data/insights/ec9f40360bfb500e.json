@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ec9f40360bfb500e",
+ "contentHash": "8612d091fe5920dc",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-22T21:55:02.432Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Introducing Amazon EC2 T9g instances based on Graviton5",
+   "summary": "AWS has announced the general availability of new low-cost burstable Amazon EC2 T9g instances. These instances are powered by AWS Graviton5 processors and built on the latest sixth generation AWS Nitro. They offer the best price performance among general-purpose EC2 instances.",
+   "impact": "Users and developers looking for cost-effective computing options may benefit from the improved price performance offered by these new instances.",
+   "keyPoints": [
+    "Amazon EC2 T9g instances are now generally available.",
+    "They are low-cost and burstable general-purpose instances.",
+    "The instances are powered by AWS Graviton5 processors.",
+    "They are built on the latest sixth generation AWS Nitro."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យដំណើរការនូវប្រភេទគំរូ Amazon EC2 T9g ដែលផ្អែកលើ Graviton5",
+   "summary": "AWS បានប្រកាសពីការដាក់ឱ្យប្រើប្រាស់ទូទៅនូវប្រភេទគំរូ Amazon EC2 T9g បែប burstable ដែលមានតម្លៃទាប។ ប្រភេទគំរូទាំងនេះដំណើរការដោយខួរក្បាល Graviton5 របស់ AWS និងសាងសង់ឡើងនៅលើបច្ចេកវិទ្យាជំនាន់ទីប្រាំាំមួយចុងក្រោយបំផុតរបស់ AWS Nitro។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានផលចំណេញពីដំណើរការល្អប្រសើរក្នុងតម្លៃសមរម្យ។",
+   "keyPoints": [
+    "ប្រភេទគំរូ Amazon EC2 T9g ឥឡូវនេះមានដាក់ទូទៅហើយ។",
+    "ពួកវាជាប្រភេទគំរូតម្លៃទាបនិងមានលក្ខណៈ burstable។",
+    "ដំណើរការដោយខួរក្បាល AWS Graviton5។",
+    "សាងសង់នៅលើ AWS Nitro ជំនាន់ទីប្រាំមួយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "推出基于 Graviton5 的 Amazon EC2 T9g 实例",
+   "summary": "AWS 宣布推出全新的低成本突发型 Amazon EC2 T9g 实例，该实例在通用 EC2 实例中提供了最具性价比的表现。这些实例由 AWS Graviton5 处理器驱动，并构建于最新第六代 AWS Nitro 之上。",
+   "impact": "开发人员和技术用户可能会从这些新实例提供的强大性价比中受益。",
+   "keyPoints": [
+    "Amazon EC2 T9g 实例现已正式发布。",
+    "它们是低成本的突发型通用实例。",
+    "采用 AWS Graviton5 处理器驱动。",
+    "基于最新第六代 AWS Nitro 构建。"
+   ]
+  },
+  "ko": {
+   "title": "Graviton5 기반 Amazon EC2 T9g 인스턴스 출시",
+   "summary": "AWS는 범용 EC2 인스턴스 중에서 최고의 가성비를 제공하는 새로운 저비용 버스트 가능 Amazon EC2 T9g 인스턴스의 정식 출시를 발표했습니다. 이 인스턴스는 AWS Graviton5 프로세서로 구동되며 최신 6세대 AWS Nitro를 기반으로 구축되었습니다.",
+   "impact": "개발자와 기술 사용자는 새로운 인스턴스가 제공하는 향상된 가격 대비 성능의 이점을 누릴 수 있습니다.",
+   "keyPoints": [
+    "Amazon EC2 T9g 인스턴스가 정식 출시되었습니다.",
+    "저비용 버스트 가능 범용 인스턴스입니다.",
+    "AWS Graviton5 프로세서로 구동됩니다.",
+    "최신 6세대 AWS Nitro를 기반으로 구축되었습니다."
+   ]
+  }
+ }
+}
