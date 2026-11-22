@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d0f6f65f1d7f5782",
+ "contentHash": "bc952cd6d8ba78fa",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-22T07:02:17.451Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Amazon CloudWatch Observability EKS add-on now supports telemetry filtering",
+   "summary": "Amazon CloudWatch has announced telemetry filtering for the CloudWatch Observability EKS add-on. This feature allows users to stop paying for unused telemetry ingestion by setting cluster-wide include and exclude lists. These lists can be applied to namespaces, metric names, and pod and node labels.",
+   "impact": "This feature could help teams reduce their CloudWatch ingestion costs by filtering out unnecessary telemetry data from their EKS environments.",
+   "keyPoints": [
+    "Telemetry filtering is now supported by the CloudWatch Observability EKS add-on.",
+    "Users can set cluster-wide include and exclude lists.",
+    "Filtering applies to namespaces, metric names, and pod and node labels."
+   ]
+  },
+  "km": {
+   "title": "កម្មវិធីបន្ថែម CloudWatch Observability EKS របស់ Amazon ឥឡូវនេះគាំទ្រការត្រងទិន្នន័យទូរលេខន៍",
+   "summary": "Amazon CloudWatch បានប្រកាសដាក់ឱ្យប្រើប្រាស់ការត្រងទិន្នន័យទូរលេខន៍សម្រាប់កម្មវិធីបន្ថែម CloudWatch Observability EKS។ លក្ខណៈពិសេសនេះអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ឈប់បង់ប្រាក់សម្រាប់ការទទួលទិន្នន័យទូរលេខន៍ដែលមិនប្រើប្រាស់។ អ្នកអាចកំណត់បញ្ជីរួមបញ្ចូល និងមិនរួមបញ្ចូលទូទាំងខ័ណ្ឌសម្រាប់ឈ្មោះចន្លោះឈ្មោះ ឈ្មោះរង្វាស់ និងស្លាកផត និងណូត។",
+   "impact": "មុខងារនេះអាចជួយក្រុមការងារកាត់បន្ថយការចំណាយលើការទទួលទិន្នន័យ CloudWatch តាមរយៈការត្រងទិន្នន័យទូរលេខន៍ដែលមិនចាំបាច់ចេញពីបរិយាកាស EKS។",
+   "keyPoints": [
+    "កម្មវិធីបន្ថែម CloudWatch Observability EKS ឥឡូវនេះគាំទ្រការត្រងទិន្នន័យទូរលេខន៍។",
+    "អ្នកប្រើប្រាស់អាចកំណត់បញ្ជីរួមបញ្ចូល និងមិនរួមបញ្ចូលទូទាំងខ័ណ្ឌ។",
+    "ការត្រងអាចត្រូវបានអនុវត្តចំពោះឈ្មោះចន្លោះឈ្មោះ ឈ្មោះរង្វាស់ និងស្លាកផត និងណូត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon CloudWatch Observability EKS 插件现已支持遥测过滤",
+   "summary": "Amazon CloudWatch 宣布为其 CloudWatch Observability EKS 插件推出遥测过滤功能，用户可以停止为未使用的遥测数据引入付费。用户现在可以为命名空间、指标名称以及 pod 和节点标签设置集群范围的包含和排除列表。",
+   "impact": "此功能可能帮助团队通过过滤掉 EKS 环境中不需要的遥测数据来降低 CloudWatch 的数据引入成本。",
+   "keyPoints": [
+    "CloudWatch Observability EKS 插件现已支持遥测过滤。",
+    "用户可以设置集群范围的包含和排除列表。",
+    "支持的过滤对象包括命名空间、指标名称以及 pod 和节点标签。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon CloudWatch Observability EKS 애드온, 이제 텔레메트리 필터링 지원",
+   "summary": "Amazon CloudWatch는 사용하지 않는 텔레메트리 수집 비용 지출을 중단할 수 있도록 CloudWatch Observability EKS 애드온을 위한 텔레메트리 필터링 기능을 발표했습니다. 이제 네임스페이스, 메트릭 이름, 파드 및 노드 레이블에 대한 클러스터 전체의 포함 및 제외 목록을 설정할 수 있습니다.",
+   "impact": "이 기능은 개발 및 운영 팀이 불필요한 텔레메트리 데이터를 필터링하여 EKS 환경의 CloudWatch 수집 비용을 절감하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "CloudWatch Observability EKS 애드온에서 텔레메트리 필터링이 지원됩니다.",
+    "클러스터 전체의 포함 및 제외 목록을 설정할 수 있습니다.",
+    "네임스페이스, 메트릭 이름, 파드 및 노드 레이블에 적용됩니다."
+   ]
+  }
+ }
+}

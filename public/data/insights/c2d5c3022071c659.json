@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c2d5c3022071c659",
+ "contentHash": "7fc3675d19972ce0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-22T06:57:45.948Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Thinking Machines releases 26.4 billion parameter 'Inkling 2 Mini' that runs on laptops",
+   "summary": "Thinking Machines Lab has unveiled 'Inkling 2 Mini', a compact AI model with 26.4 billion parameters that can run on laptops. Despite its size, the model achieves top-tier coding performance among open-weight models with under 100 billion parameters by using a new architecture that repeatedly executes intermediate layers of the neural network. On the 20th local time, Thinking Machines released the weights of 'Inkling 2 Mini' through Hugging Face and its own model platform 'Tinker'.",
+   "impact": "This model could provide developers with high-level coding performance in a local laptop environment without relying on massive cloud infrastructure. Technology users and security teams may benefit from deploying an open-weight model directly on their own devices.",
+   "keyPoints": [
+    "Thinking Machines Lab released the 'Inkling 2 Mini' model.",
+    "The model has 26.4 billion total parameters and runs on laptops.",
+    "It uses a new architecture that repeatedly executes intermediate neural network layers for high coding performance.",
+    "Weights are available on Hugging Face and the 'Tinker' platform."
+   ]
+  },
+  "km": {
+   "title": "Thinking Machines បង្ហាញខ្លួនម៉ូឌែល 'Inkling 2 Mini' ដែលមានប៉ារ៉ាម៉ែត្រ ២៦,៤ ប៊ីលាន ដំណើរការលើកុំព្យូទ័រយួរដៃ",
+   "summary": "Thinking Machines Lab បានប្រកាសចេញម៉ូឌែល AI ខ្នាតតូច 'Inkling 2 Mini' ដែលអាចដំណើរការនៅលើកុំព្យូទ័រយួរដៃបាន។ ម៉ូឌែលនេះមានប៉ារ៉ាម៉ែត្រសរុបចំនួន ២៦,៤ ប៊ីលាន ប៉ុន្តែទទួលបានកម្រិតនៃការសរសេរកូដខ្ពស់ ដោយសារស្ថាបត្យកម្មថ្មីមួយ។ Thinking Machines បានបញ្ចេញទម្ងន់របស់ម៉ូឌែលនេះតាមរយៈ Hugging Face និងប្រព័ន្ធ 'Tinker' ផ្ទាល់ខ្លួន។",
+   "impact": "វាអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវសមត្ថភាពសរសេរកូដកម្រិតខ្ពស់នៅលើកុំព្យូទ័រយួរដៃផ្ទាល់ខ្លួន។ ការប្រើប្រាស់ម៉ូឌែលបើកចំហរទម្ងន់អាចផ្តល់ភាពងាយស្រួលដល់អ្នកប្រើប្រាស់បច្ចេកវិទ្យា។",
+   "keyPoints": [
+    "Thinking Machines Lab បានប្រកាសចេញ 'Inkling 2 Mini'។",
+    "ម៉ូឌែលមានប៉ារ៉ាម៉ែត្រ ២៦,៤ ប៊ីលាន និងដំណើរការលើកុំព្យូទ័រយួរដៃ។",
+    "ប្រើប្រាស់ស្ថាបត្យកម្មថ្មីដើម្បីបង្កើនសមត្ថភាពសរសេរកូដ។",
+    "ទម្ងន់ម៉ូឌែលមាននៅលើ Hugging Face និង 'Tinker'។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Thinking Machines发布可在笔记本上运行的264亿参数“Inkling 2 Mini”",
+   "summary": "Thinking Machines Lab发布了可在笔记本电脑上运行的小型AI模型“Inkling 2 Mini”。该模型总参数为264亿，但通过采用重复运行神经网络中间层的新结构，在1000亿参数以下的开源权重模型中实现了顶尖的编码性能。Thinking Machines于当地时间20日公开了“Inkling 2 Mini”的权重，并通过Hugging Face及自家模型平台“Tinker”提供。",
+   "impact": "该模型可能会让开发者在本地笔记本环境中获得高级编码性能，而无需依赖庞大的云端基础设施。技术用户和安全团队或许能受益于直接在自身设备上部署开源权重模型。",
+   "keyPoints": [
+    "Thinking Machines Lab发布了“Inkling 2 Mini”模型。",
+    "该模型总参数为264亿并可在笔记本上运行。",
+    "采用重复执行神经网络中间层的新架构以实现高编码性能。",
+    "权重已通过Hugging Face和“Tinker”平台发布。"
+   ]
+  },
+  "ko": {
+   "title": "싱킹머신즈, 노트북서 구동하는 264억 매개변수 '잉클링 2 미니' 공개",
+   "summary": "싱킹머신즈(Thinking Machines Lab)가 노트북에서도 실행할 수 있는 소형 AI 모델 '잉클링 2 미니(Inkling 2 Mini)'를 공개했다. 전체 매개변수는 264억개이지만 신경망 중간 계층을 반복 실행하는 새로운 구조를 적용해 1000억개 미만 오픈웨이트 모델 중 최고 수준의 코딩 성능을 확보했다. 싱킹머신즈는 20일(현지시간) 해당 모델의 가중치를 공개하고 허깅페이스와 자체 모델 플랫폼 '팅커(Tinker)'를 통해 제공한다고 밝혔다.",
+   "impact": "개발자들은 대규모 클라우드 인프라 없이도 로컬 노트북 환경에서 높은 수준의 코딩 성능을 활용할 수 있게 될 수 있다. 기술 사용자나 보안 팀은 개방형 가중치 모델을 자체 기기에 직접 배포함으로써 이점을 얻을 수 있다.",
+   "keyPoints": [
+    "싱킹머신즈가 '잉클링 2 미니' 모델을 공개함.",
+    "전체 매개변수는 264억개이며 노트북에서 실행 가능함.",
+    "신경망 중간 계층을 반복 실행하는 구조를 통해 높은 코딩 성능을 확보함.",
+    "허깅페이스와 '팅커' 플랫폼을 통해 모델 가중치가 제공됨."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "06c62bbf6e86ef33",
+ "contentHash": "0baed796451322c5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-22T07:00:09.385Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Meta ads is now available in AWS Quick",
+   "summary": "AWS Quick has introduced a new Meta ads AI connector that integrates ads Model Context Protocol server operations. Marketers can now use natural language within AWS Quick to create, manage, and analyze campaigns while accessing the Meta ad management network. The tool allows teams to combine Meta ad data with other first- and third-party sources to generate dashboards, presentations, and automated workflows.",
+   "impact": "This integration could streamline marketing operations for developers and technology users by reducing manual data export and tool switching. Security and marketing teams may benefit from unified workflows, though they should consider data access permissions when connecting Meta accounts to AWS Quick.",
+   "keyPoints": [
+    "AWS Quick added a Meta ads AI connector utilizing ads Model Context Protocol server operations.",
+    "Users can execute tasks like analyzing performance, editing campaigns, and creating product catalogs using natural language.",
+    "The integration allows combining Meta data with first- and third-party data sources for dashboards, documents, and slide decks."
+   ]
+  },
+  "km": {
+   "title": "Meta ads ឥឡូវនេះមាននៅលើ AWS Quick ហើយ",
+   "summary": "AWS Quick បានដាក់បញ្ចូលឧបករណ៍ភ្ជាប់បញ្ញាសិប្បនិម្មិត Meta ads ដែលផ្តល់នូវសិទ្ធិប្រើប្រាស់ប្រតិបត្តិការម៉ាស៊ីនមេ Model Context Protocol សម្រាប់ផ្សាយពាណិជ្ជកម្ម។ អ្នកទីផ្សារអាចប្រើប្រាស់ភាសាធម្មជាតិដើម្បីបង្កើត គ្រប់គ្រង និងវិភាគយុទ្ធនាការក្នុង AWS Quick ខណៈពេលដែលនៅតែភ្ជាប់ទៅនឹងបណ្តាញគ្រប់គ្រងពាណិជ្ជកម្ម Meta។ ឧបករណ៍នេះក៏អនុញ្ញាតឱ្យបញ្ចូលទិន្នន័យពាណិជ្ជកម្ម Meta ជាមួយប្រភពទិន្នន័យផ្សេងទៀតដើម្បីបង្កើតផ្ទាំងគ្រប់គ្រង និងឯកសារផងដែរ។",
+   "impact": "ការរួមបញ្ចូលនេះអាចជួយសម្រួលដល់ដំណើរការទីផ្សារដោយកាត់បន្ថយការនាំចេញទិន្នន័យដោយដៃនិងការប្តូរឧបករណ៍។ ក្រុមការងារបច្ចេកវិទ្យាអាចទទួលបានអត្ថប្រយោជន៍ពីលំហូរការងារដែលរួមបញ្ចូលគ្នា ប៉ុន្តែគួរតែពិចារណាលើសិទ្ធិទិន្នន័យនៅពេលភ្ជាប់គណនី Meta ។",
+   "keyPoints": [
+    "AWS Quick បានបន្ថែមឧបករណ៍ភ្ជាប់ AI សម្រាប់ Meta ads ដែលប្រើប្រាស់ប្រតិបត្តិការម៉ាស៊ីនមេ Model Context Protocol។",
+    "អ្នកប្រើប្រាស់អាចបំពេញភារកិច្ចដូចជាការវិភាគដំណើរការ និងបង្កើតយុទ្ធនាការដោយប្រើភាសាធម្មជាតិ។",
+    "វាអនុញ្ញាតឱ្យបញ្ចូលទិន្នន័យពាណិជ្ជកម្ម Meta ជាមួយប្រភពទិន្នន័យផ្សេងទៀតដើម្បីបង្កើតផ្ទាំងគ្រប់គ្រង និងស្លាយបង្ហាញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Meta ads 现已登陆 AWS Quick",
+   "summary": "AWS Quick 现已推出 Meta ads 人工智能连接器，提供广告模型上下文协议服务器操作。营销人员可以使用自然语言在 AWS Quick 中创建、管理和分析广告系列，同时保持与 Meta 广告管理网络的连接。该工具还可将 Meta 广告数据与第一方和第三方数据源结合，以生成仪表板、文档和幻灯片。",
+   "impact": "此集成可能会减少手动导出数据和切换工具的需要，从而简化营销团队的工作流程。技术和安全团队可能会受益于统一的操作环境，但仍需谨慎管理连接至 AWS Quick 的 Meta 账户权限。",
+   "keyPoints": [
+    "AWS Quick 添加了利用广告模型上下文协议服务器操作的 Meta ads AI 连接器。",
+    "营销人员可使用自然语言完成分析广告成效、创建产品目录和编辑广告系列等任务。",
+    "该工具支持将 Meta 广告数据与外部数据源结合以创建仪表板和自动化工作流。"
+   ]
+  },
+  "ko": {
+   "title": "이제 AWS Quick에서 Meta ads를 사용할 수 있습니다",
+   "summary": "AWS Quick에 광고 모델 맥락 프로토콜 서버 작업을 지원하는 Meta ads AI 커넥터가 추가되었습니다. 마케터는 AWS Quick 내에서 자연어를 사용하여 Meta 광고 관리 네트워크에 연결된 상태로 캠페인을 생성, 관리 및 분석할 수 있습니다. 이 도구를 사용하면 Meta 광고 데이터를 다양한 데이터 소스와 결합하여 대시보드, 문서, 프레젠테이션 및 자동화된 워크플로를 생성할 수 있습니다.",
+   "impact": "이번 통합은 수동 데이터 내보내기와 도구 전환을 줄여 마케팅 및 기술 팀의 업무 효율성을 높일 수 있습니다. 보안 및 개발 팀은 통합된 워크플로의 혜택을 누릴 수 있지만, 계정을 연결할 때 데이터 권한 설정을 신중히 검토해야 합니다.",
+   "keyPoints": [
+    "AWS Quick에 광고 모델 맥락 프로토콜 서버 작업을 활용하는 Meta ads AI 커넥터가 추가되었습니다.",
+    "사용자는 자연어를 사용하여 광고 성과 분석, 제품 카탈로그 생성, 캠페인 편집 등의 작업을 수행할 수 있습니다.",
+    "Meta 광고 데이터를 외부 데이터 소스와 결합하여 대시보드와 슬라이드 덱을 만들 수 있습니다."
+   ]
+  }
+ }
+}

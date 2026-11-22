@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a3c63e958cb92eef",
+ "contentHash": "c64c308da0976cfa",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-22T06:57:06.032Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+   "summary": "A now-patched vulnerability in Ghostscript allows a specially crafted file to bypass the security sandbox and execute commands on servers that process the file. Ghostscript serves as an interpreter used by numerous Linux servers to convert formats like PDFs, PostScript files, and images. Security firm pwn.ai demonstrated that this flaw can be triggered through ordinary file uploads.",
+   "impact": "This vulnerability could allow attackers to execute arbitrary commands on servers handling untrusted file uploads. Security teams managing systems that process PDFs or images using Ghostscript may need to verify that their environments are patched against this sandbox escape.",
+   "keyPoints": [
+    "A patched flaw in Ghostscript enables sandbox escape and remote command execution.",
+    "Ghostscript is widely used on Linux servers to convert PDFs, PostScript files, and images.",
+    "Security firm pwn.ai demonstrated the issue involving ordinary file uploads."
+   ]
+  },
+  "km": {
+   "title": "អ្នកស្រាវជ្រាវបង្ហាញពីការរត់គេចពី Sandbox របស់ Ghostscript ដើម្បីប្រតិបត្តិការបញ្ជាពីចម្ងាយតាមរយៈការផ្ទុកឯកសារឡើងលើកម្មវិធីពេញនិយម",
+   "summary": "ពិការភាពដែលត្រូវបានជួសជុលរួចហើយនៅក្នុង Ghostscript អនុញ្ញាតឱ្យឯកសារដែលបានបង្កើតឡើងជាពិសេសគេចផុតពីប្រព័ន្ធសុវត្ថិភាព sandbox និងដំណើរការបញ្ជានៅលើម៉ាស៊ីនបម្រើដែលដំណើរការវា។ Ghostscript គឺជាកម្មវិធីបកប្រែដែលម៉ាស៊ីនបម្រើ Linux ជាច្រើនប្រើប្រាស់ដើម្បីបម្លែងឯកសារ PDF, PostScript និងរូបភាពទៅជាទម្រង់ផ្សេងទៀត។ ក្រុមហ៊ុនសន្តិសុខ pwn.ai បានបង្ហាញថាបញ្ហានេះអាចកើតឡើងតាមរយៈការផ្ទុកឯកសារឡើងធម្មតា។",
+   "impact": "ភាពងាយរងគ្រោះនេះអាចអនុញ្ញាតឱ្យអ្នកវាយប្រហារដំណើរការបញ្ជាតាម β ចិត្តនៅលើម៉ាស៊ីនបម្រើដែល处理ការផ្ទុកឯកសារដែលមិនគួរឱ្យទុកចិត្ត។ ក្រុមសន្តិសុខដែលគ្រប់គ្រងប្រព័ន្ធដំណើរការឯកសារ PDF ឬរូបភាពដោយប្រើ Ghostscript អាចត្រូវពិនិត្យមើលថាតើបរិយាកាសរបស់ពួកគេត្រូវបានជួសជុលរួចរាល់ហើយឬនៅ។",
+   "keyPoints": [
+    "ពិការភាពដែលបានជួសជុលនៅក្នុង Ghostscript អនុញ្ញាតឱ្យគេចពី sandbox និងប្រតិបត្តិការបញ្ជាពីចម្ងាយ។",
+    "Ghostscript ត្រូវបានប្រើប្រាស់យ៉ាងទូលំទូលាយនៅលើម៉ាស៊ីនបម្រើ Linux ដើម្បីបម្លែងឯកសារ PDF, PostScript និងរូបភាព។",
+    "ក្រុមហ៊ុនសន្តិសុខ pwn.ai បានបង្ហាញពីបញ្ហាដែលពាក់ព័ន្ធនឹងការផ្ទុកឯកសារឡើងធម្មតា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "研究人员演示通过热门应用中精心制作的文件上传实现 Ghostscript 沙箱逃逸及远程代码执行",
+   "summary": "Ghostscript 中一个现已修补的漏洞允许精心制作的文件逃逸程序的安全沙箱，并在处理该文件的服务器上运行命令。Ghostscript 是许多 Linux 服务器用于将上传的 PDF、PostScript 文件和图像转换为其他格式的解释器。安全公司 pwn.ai 本周展示了可以通过普通文件上传触发该漏洞。",
+   "impact": "此漏洞可能会允许攻击者在处理不受信任文件上传的服务器上执行任意命令。管理使用 Ghostscript 处理 PDF 或图像的系统的安全团队可能需要验证其环境是否已针对此沙箱逃逸进行了修补。",
+   "keyPoints": [
+    "Ghostscript 中一个已修补的漏洞支持沙箱逃逸和远程命令执行。",
+    "Ghostscript 被许多 Linux 服务器广泛用于转换 PDF、PostScript 文件和图像。",
+    "安全公司 pwn.ai 演示了涉及普通文件上传的问题。"
+   ]
+  },
+  "ko": {
+   "title": "연구원들, 인기 앱의 조작된 파일 업로드를 통한 Ghostscript 샌드박스 탈출 및 원격 코드 실행 시연",
+   "summary": "이제 패치된 Ghostscript의 결함을 통해 조작된 파일이 프로그램의 보안 샌드박스를 탈출하여 이를 처리하는 서버에서 명령을 실행할 수 있습니다. Ghostscript는 많은 Linux 서버가 업로드된 PDF, PostScript 파일 및 이미지를 다른 형식으로 변환하는 데 사용하는 인터프리터입니다. 보안 기업 pwn.ai는 일반적인 파일 업로드를 통해 이 결함이 발생할 수 있음을 시연했습니다.",
+   "impact": "이 취약점으로 인해 공격자는 신뢰할 수 없는 파일 업로드를 처리하는 서버에서 임의의 명령을 실행할 수 있습니다. Ghostscript를 사용하여 PDF나 이미지를 처리하는 시스템을 관리하는 보안 팀은 환경이 이 샌드박스 탈출에 대해 패치되었는지 확인해야 할 수 있습니다.",
+   "keyPoints": [
+    "Ghostscript의 패치된 결함으로 샌드박스 탈출 및 원격 명령 실행이 가능함.",
+    "Ghostscript는 Linux 서버에서 PDF, PostScript 파일, 이미지 변환에 널리 사용됨.",
+    "보안 기업 pwn.ai는 일반 파일 업로드가 관련된 문제를 시연함."
+   ]
+  }
+ }
+}

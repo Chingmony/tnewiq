@@ -1,53 +1,52 @@
 {
  "schemaVersion": 1,
  "articleId": "73bb6070f668f297",
- "contentHash": "257ddb923fddd5b0",
+ "contentHash": "99458ec0f0d013f3",
  "model": "gemini-flash-lite-latest",
- "generatedAt": "2026-11-20T21:12:43.670Z",
- "basedOn": "feed-text",
+ "generatedAt": "2026-11-22T07:02:03.729Z",
+ "basedOn": "excerpt",
  "languages": {
   "en": {
    "title": "Amazon Transcribe announces a synchronous transcription API",
-   "summary": "Amazon Transcribe has introduced a new synchronous transcription API called TranscribeAudio. This allows users to send a complete audio file in a single request and receive the full transcript directly in the response without needing to start a job or poll status. It supports various features such as word-level timestamps, automatic language identification, speaker diarization, custom vocabulary, and PII redaction. Audio can be sent inline up to 25 MB or from Amazon S3 up to 500 MB, lasting from 0.5 seconds to 1 hour.",
-   "impact": "This synchronous API could make it easier for developers to add fast and accurate speech-to-text capabilities to interactive applications like voice assistants and agent-assist tools. Technology users and developers may benefit from streamlined implementation since there are no jobs to start or connections to manage.",
+   "summary": "Amazon Transcribe has introduced a new synchronous transcription API called TranscribeAudio. This API allows users to send a complete audio file in a single request and receive the full transcript back immediately in the same response. The process removes the need to start a job, poll for status, or manage a connection.",
+   "impact": "This synchronous approach could simplify development workflows for developers integrating speech-to-text features by removing polling and connection management overhead.",
    "keyPoints": [
     "Amazon Transcribe introduced the TranscribeAudio synchronous transcription API.",
-    "Returns full transcripts in a single response with no jobs to start or status to poll.",
-    "Supports features including word-level timestamps, automatic language identification, and speaker diarization.",
-    "Priced at $0.0070 per minute of audio, billed per second."
+    "Users can send a complete audio file in a single request.",
+    "The full transcript is returned directly in the same response.",
+    "There are no jobs to start, status to poll, or connections to manage."
    ]
   },
   "km": {
-   "title": "Amazon Transcribe ប្រកាសដាក់ឱ្យដំណើរការ API បម្លែងសំឡេងជាអត្ថបទស៊ីសាងប្រូម (synchronous)",
-   "summary": "Amazon Transcribe ឥឡូវនេះផ្តល់ជូននូវ API បម្លែងសំឡេងជាអត្ថបទស៊ីសាងប្រូម (synchronous) ថ្មីមួយដែលមានឈ្មោះថា TranscribeAudio ។ វាអនុញ្ញាតឱ្យអ្នកផ្ញើឯកសារសំឡេងពេញលេញក្នុងសំណើតែមួយ និងទទួលបានអត្ថបទពេញលេញមកវិញភ្លាមៗក្នុងចម្លើយតែមួយ ដោយមិនចាំបាច់ចាប់ផ្តើមការងារ ឬពិនិត្យស្ថានភាពនោះទេ។ វាគាំទ្រមុខងារជាច្រើនដូចជា ការកំណត់ពេលវេលាថ្នាក់ពាក្យ ការសម្គាល់ភាសាស្វ័យប្រវត្តិ ការបែងចែកអ្នកនិយាយ និងការលាក់ព័ត៌មានផ្ទាល់ខ្លួន (PII) ។",
-   "impact": "API ស៊ីសាងប្រូមនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ងាយស្រួលជាងមុនក្នុងការបន្ថែមមុខងារបម្លែងសំឡេងជាអត្ថបទដែលលឿន និងត្រឹមត្រូវទៅក្នុងកម្មវិធីអន្តរកម្មដូចជាជំនួយការសំឡេង។ ក្រុមការងារបច្ចេកវិទ្យាអាចទទួលបានអត្ថประโยชน์ពីការអនុវត្តដែលគ្មានភាពស្មុគស្មាញក្នុងការគ្រប់គ្រងការតភ្ជាប់។",
+   "title": "Amazon Transcribe ប្រកាសដាក់ឱ្យដំណើរការ API បوتក្មេងសំឡេងស៊ីនហ្រ្វូន",
+   "summary": "Amazon Transcribe ឥឡូវនេះផ្តល់ជូននូវ API បوتក្មេងសំឡេងស៊ីនហ្រ្វូនដែលហៅថា TranscribeAudio ។ ផ្ញើឯកសារអូឌីយ៉ូពេញលេញក្នុងសំណើតែមួយហើយទទួលបានអត្ថបទពេញលេញវិញនៅក្នុងការឆ្លើយតបតែមួយ។ មិនមានការងារត្រូវចាប់ផ្តើម មិនមានស្ថានភាពត្រូវពិនិត្យ និងមិនមានការតភ្ជាប់ត្រូវគ្រប់គ្រងទេ។",
+   "impact": "ការផ្លាស់ប្តូរនេះអាចជួយសម្រួលដល់លំហូរការងាររបស់អភិវឌ្ឍន៍ដោយលុបបំបាត់តម្រូវការក្នុងការគ្រប់គ្រងការតភ្ជាប់និងការពិនិត្យស្ថានភាព។",
    "keyPoints": [
-    "Amazon Transcribe បានដាក់ឱ្យដំណើរការ TranscribeAudio synchronous API ។",
-    "ទទួលបានអត្ថបទពេញលេញក្នុងចម្លើយតែមួយដោយគ្មានការងារត្រូវចាប់ផ្តើម។",
-    "គាំទ្រមុខងារដូចជាការកំណត់ពេលវេលាថ្នាក់ពាក្យ និងការសម្គាល់ភាសាស្វ័យប្រវត្តិ។",
-    "គិតថ្លៃ 0.0070 ដុល្លារក្នុងមួយនាទីនៃសំឡេង ដោយគិតប្រាក់តាមវិនាទី។"
+    "Amazon Transcribe បានដាក់ឱ្យដំណើរការ TranscribeAudio API ។",
+    "អ្នកប្រើប្រាស់អាចផ្ញើឯកសារអូឌីយ៉ូពេញលេញក្នុងសំណើតែមួយ។",
+    "ទទួលបានអត្ថបទពេញលេញត្រឡប់មកវិញភ្លាមៗក្នុងសំណើដដែល។"
    ]
   },
   "zh-CN": {
    "title": "Amazon Transcribe 宣布推出同步转录 API",
-   "summary": "Amazon Transcribe 现在提供了一个名为 TranscribeAudio 的同步转录 API。用户可以在单个请求中发送完整的音频文件，并在同一响应中直接获得完整的转录文本，无需启动任务或轮询状态。它支持单词级时间戳、自动语言识别、说话人分离、自定义词汇和 PII 还原等功能。音频可以直接以内联方式发送（最大 25 MB）或从 Amazon S3 发送（最大 500 MB），时长从 0.5 秒到 1 小时不等。",
-   "impact": "此同步 API 可以使开发者更容易将快速、准确的语音转写功能添加到语音助手和坐席辅助工具等交互式应用程序中。由于无需启动任务或管理连接，技术用户和开发团队可以简化集成流程。",
+   "summary": "Amazon Transcribe 现在提供名为 TranscribeAudio 的同步转录 API。用户可以在单个请求中发送完整的音频文件，并在同一响应中直接获取完整的转录文本。该功能无需启动任务、轮询状态或管理连接。",
+   "impact": "这种同步转录方式可能会简化开发人员集成语音转文本功能时的开发工作流，减少对状态轮询和连接管理的需求。",
    "keyPoints": [
     "Amazon Transcribe 推出了 TranscribeAudio 同步转录 API。",
-    "在单个响应中返回完整转录文本，无需启动任务或轮询状态。",
-    "支持单词级时间戳、自动语言识别和说话人分离等功能。",
-    "按音频分钟数计费，每分钟 0.0070 美元，按秒计费。"
+    "用户可以在单次请求中发送完整音频文件。",
+    "直接在同一次响应中返回完整转录文本。",
+    "无需启动任务、轮询状态或管理连接。"
    ]
   },
   "ko": {
    "title": "Amazon Transcribe, 동기식 전사 API 발표",
-   "summary": "Amazon Transcribe는 이제 TranscribeAudio라는 동기식 전사 API를 제공합니다. 단일 요청으로 완전한 오디오 파일을 전송하고 작업 시작이나 상태 폴링 없이 동일한 응답에서 전체 전사본을 바로 받을 수 있습니다. 단어 수준 타임스탬프, 자동 언어 감지, 화자 분리, 사용자 지정 어휘 및 PII 마스킹과 같은 기능을 지원합니다. 오디오는 인라인(최대 25MB) 또는 Amazon S3(최대 500MB)를 통해 0.5초에서 1시간 길이로 전송할 수 있습니다.",
-   "impact": "이 동기식 API를 통해 개발자는 음성 비서 및 상담원 지원 도구와 같은 대화형 애플리케이션에 빠르고 정확한 음성 인식 기능을 더 쉽게 추가할 수 있습니다. 작업을 시작하거나 연결을 관리할 필요가 없으므로 기술 사용자 및 개발 팀은 구현 과정을 간소화할 수 있습니다.",
+   "summary": "Amazon Transcribe가 TranscribeAudio라는 동기식 전사 API를 새롭게 선보였습니다. 단일 요청으로 전체 오디오 파일을 전송하고 동일한 응답에서 전체 전사본을 즉시 받을 수 있습니다. 작업 시작, 상태 폴링, 연결 관리 등의 절차가 필요 없습니다.",
+   "impact": "이러한 동기식 방식은 개발자가 상태 폴링이나 연결 관리의 부담 없이 음성 인식 기능을 더 간편하게 통합하는 데 도움을 줄 수 있습니다.",
    "keyPoints": [
-    "Amazon Transcribe에서 TranscribeAudio 동기식 전사 API 출시.",
-    "작업 시작이나 상태 폴링 없이 단일 응답으로 전체 전사본 반환.",
-    "단어 수준 타임스탬프, 자동 언어 감지, 화자 분리 등의 기능 지원.",
-    "오디오 1분당 0.0070달러의 요금이 초 단위로 청구됨."
+    "Amazon Transcribe가 TranscribeAudio 동기식 전사 API를 출시했습니다.",
+    "단일 요청으로 완전한 오디오 파일을 전송할 수 있습니다.",
+    "동일한 응답 내에서 전체 전사본을 반환받습니다.",
+    "작업 시작이나 상태 폴링 과정이 필요 없습니다."
    ]
   }
  }

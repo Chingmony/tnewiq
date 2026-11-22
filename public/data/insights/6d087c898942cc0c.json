@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6d087c898942cc0c",
+ "contentHash": "156dc352676c013f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-22T06:56:53.578Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+   "summary": "Dragos reported that attackers stole data from inside three AI inference providers for months without the companies knowing. The stolen requests included some flagged as Zero Data Retention, which are supposed to never be stored. Consequently, OpenRouter dropped the three providers after researchers uncovered the theft.",
+   "impact": "This incident could raise security and privacy concerns for developers and technology users relying on AI hosting firms, particularly regarding whether Zero Data Retention settings are truly being enforced. Security teams may need to reevaluate trust assumptions when routing AI requests through third-party providers.",
+   "keyPoints": [
+    "Attackers stole data from three AI inference providers for months.",
+    "The breach was discovered by researchers rather than the hosting firms themselves.",
+    "Some stolen requests were marked as Zero Data Retention.",
+    "OpenRouter dropped the three affected providers following the discovery."
+   ]
+  },
+  "km": {
+   "title": "OpenRouter ឈប់ប្រើប្រាស់ភ្នាក់ងារចំនួន ៣ បន្ទាប់ពីអ្នកស្រាវជ្រាវរកឃើញការលួចសំណួរ AI ជាច្រើនខែ",
+   "summary": "ក្រុមហ៊ុន Dragos បានរាយការណ៍ថា ពួកឧក្រិដ្ឋជនបានលួចទិន្នន័យពីខាងក្នុងភ្នាក់ងារបញ្ជូន AI ចំនួនបីជាច្រើនខែដោយគ្មានក្រុមហ៊ុនដឹងខ្លួន។ ការស្នើសុំដែលត្រូវគេលួចខ្លះត្រូវបានកំណត់ថាជា Zero Data Retention ដែលមិនត្រូវរក្សាទុកឡើយ។ OpenRouter បានឈប់ទាក់ទងជាមួយភ្នាក់ងារទាំងបីនោះ បន្ទាប់ពីអ្នកស្រាវជ្រាវបានរកឃើញករណីលួចនេះ។",
+   "impact": "បញ្ហានេះអាចបង្កើនក្តីបារម្ភផ្នែកសុវត្ថិភាព និងភាពឯកជនសម្រាប់អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលពឹងផ្អែកលើភ្នាក់ងារបង្ហោះ AI។ ក្រុមសន្តិសុខប្រហែលជាត្រូវពិនិត្យឡើងវិញនូវការជឿទុកចិត្តលើការបញ្ជូនសំណួរ AI ឆ្លងកាត់ភ្នាក់ងារភាគីទីបី។",
+   "keyPoints": [
+    "ពួកឧក្រិដ្ឋជនបានលួចទិន្នន័យពីភ្នាក់ងារបញ្ជូន AI ចំនួនបីរយៈពេលជាច្រើនខែ។",
+    "ការបែកធ្លាយនេះត្រូវបានរកឃើញដោយអ្នកស្រាវជ្រាវ មិនមែនក្រុមហ៊ុនបង្ហោះផ្ទាល់ទេ។",
+    "សំណើសុំខ្លះត្រូវបានសម្គាល់ថាជា Zero Data Retention។",
+    "OpenRouter បានឈប់ប្រើប្រាស់ភ្នាក់ងារទាំងបីនោះបន្ទាប់ពីរករណីនេះត្រូវបានរកឃើញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "研究人员发现 AI 托管公司数月提示词盗窃事件后，OpenRouter 终止与三家提供商的合作",
+   "summary": "工控网络安全公司 Dragos 本周表示，攻击者在三家 AI 推理提供商内部窃取数据数月之久，而这三家公司在研究人员告知之前毫不知情。部分被窃取的请求被标记为“零数据 retention”（即理论上永不存储）。在研究人员发现该事件后，OpenRouter 终止了与这三家提供商的合作。",
+   "impact": "这起事件可能会让依赖 AI 托管公司的开发人员和技术用户对安全和隐私产生担忧，特别是关于“零数据保留”设置是否得到切实执行。安全团队在通过第三方提供商路由 AI 请求时，可能需要重新评估信任假设。",
+   "keyPoints": [
+    "攻击者在三家 AI 推理提供商内部窃取数据长达数月。",
+    "该漏洞是由研究人员发现的，而非托管公司自身察觉。",
+    "部分被窃取的请求原本被标记为零数据保留。",
+    "OpenRouter 在事件被发现后放弃了这三家提供商。"
+   ]
+  },
+  "ko": {
+   "title": "연구원들이 AI 호스팅 업체의 수개월 간 프롬프트 도용을 적발한 후 OpenRouter가 3개 공급업체를 퇴출함",
+   "summary": "산업용 사이버 보안 기업 드라고스(Dragos)는 공격자들이 3개의 AI 추론 공급업체 내부에서 수개월 동안 데이터를 훔쳤으며 세 회사 모두 연구원들이 알려주기 전까지 이를 알지 못했다고 이번 주에 밝혔다. 도난당한 요청 중 일부는 프롬프트가 절대 저장되지 않아야 함을 뜻하는 제로 데이터 리텐션(Zero Data Retention)으로 플래그 지정되어 있었다. OpenRouter는 연구원들이 도용을 적발한 후 해당 세 공급업체와 거래를 중단했다.",
+   "impact": "이번 사건은 AI 호스팅 업체를 신뢰하는 개발자와 기술 사용자들에게 보안 및 프라이버시 우려를 불러일으킬 수 있으며, 특히 제로 데이터 리텐션 설정이 실제로 준수되는지에 대한 의문을 제기할 수 있다. 보안 팀은 제3자 공급업체를 통해 AI 요청을 라우팅할 때 신뢰 가정을 재평가해야 할 수 있다.",
+   "keyPoints": [
+    "공격자들이 3개의 AI 추론 공급업체 내부에서 수개월간 데이터를 훔쳤음.",
+    "이 유출은 호스팅 업체가 아닌 연구원들에 의해 발견됨.",
+    "도난당한 요청 중 일부는 제로 데이터 리텐션으로 표시되어 있었음.",
+    "OpenRouter는 발견 이후 해당 3개 공급업체를 중단시킴."
+   ]
+  }
+ }
+}
