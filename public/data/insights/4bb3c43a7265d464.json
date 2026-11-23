@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4bb3c43a7265d464",
+ "contentHash": "bdaa69b1ebad6624",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T03:01:46.825Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hierarchical Hybrid-Coordinate Flow Matching for Accurate and Physically Plausible Apo-to-Holo Protein Generation",
+   "summary": "Researchers introduced CrypticFlow, a hierarchical flow-matching model that combines Cartesian and internal coordinates to predict holo-like protein conformations from apo structures. The model uses an ESM-3-conditioned E(3)-equivariant graph network to generate sparse C alpha anchors in Cartesian space, followed by a conditional midpoint Transformer that recursively fills gaps in local internal coordinates. On the D3PM test split, CrypticFlow achieves the lowest median and mean C alpha RMSD at published baseline capacities and outperforms evaluated baselines in MolProbity score.",
+   "impact": "This approach may help developers and researchers in structure-based drug design by improving both global accuracy and local backbone geometry in protein conformation modeling. Security teams and technology users are not directly affected by this research.",
+   "keyPoints": [
+    "CrypticFlow combines Cartesian space and internal-coordinate representations to avoid the lever-arm effect.",
+    "The model achieves a median direct RMSD of 1.333 angstroms and a mean direct RMSD of 2.766 angstroms.",
+    "It attains 99.58% adjacent-distance fidelity and 95.87% pseudo-angle fidelity within specific thresholds.",
+    "All-atom structures reconstructed using cg2all achieve a MolProbity score of 3.034."
+   ]
+  },
+  "km": {
+   "title": "ការផ្គូផ្គងលំហូរតាមកូអរដោនេកូនហ៊ីប្រ៊ីដលំដាប់ថ្នាក់សម្រាប់ការបង្កើតប្រូតេអ៊ីនពី apo ទៅ holo ដែលមានភាពត្រឹមត្រូវនិងសមហេតុផលតាមរូបវិទ្យា",
+   "summary": "អ្នកស្រាវជ្រាវได้ណែនាំ CrypticFlow ដែលជាម៉ូដែលផ្គូផ្គងលំហូរលំដាប់ថ្នាក់រួមបញ្ចូលគ្នានូវកូអរដោនេ Cartesian និងខាងក្នុង ដើម្បីទស្សន៍ទាយទម្រង់ប្រូតេអ៊ីនស្រដៀង holo ពីសំណង់ apo។ ម៉ូដែលនេះប្រើប្រាស់បណ្តាញក្រាហ្វដែលកំណត់ដោយ ESM-3 ដើម្បីបង្កើតយុថ្កា C alpha រាយប៉ាយក្នុងលំហ Cartesian ហើយបន្ទាប់មកប្រើ Transformer ដើម្បីបំពេញចន្លោះប្រហោងក្នុងកូអរដោនេខាងក្នុង។ នៅលើសំណុំតេស្ត D3PM ម៉ូដែល CrypticFlow សម្រេចបាននូវ RMSD ទាបជាងគេ និងពិន្ទុ MolProbity ប្រសើរជាងគោលការណ៍មូលដ្ឋានដែលមានស្រាប់។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយដល់អ្នកស្រាវជ្រាវក្នុងការរចនាថ្នាំផ្អែកលើរចនាសម្ព័ន្ធដោយកែលម្អទាំងភាពត្រឹមត្រូវជាសាកល និងធរណីមាត្រខ្នាតតូចនៃឆ្អឹងខ្នងប្រូតេអ៊ីន។",
+   "keyPoints": [
+    "CrypticFlow រួមបញ្ចូលកូអរដោនេ Cartesian និងកូអរដោនេខាងក្នុង ដើម្បីជៀសវាងបញ្ហា lever-arm effect។",
+    "ម៉ូដែលនេះសម្រេចបានមធ្យមភាគ RMSD ផ្ទាល់ ១,៣៣៣ អង់ស្ត្រូម។",
+    "វាទទួលបានភាពស្មោះត្រង់ចម្ងាយជាប់គ្នា ៩៩,៥៨% និងភាពស្មោះត្រង់មុំក្លែងក្លាយ ៩៥,៨៧%។",
+    "រចនាសម្ព័ន្ធអាតូមទាំងអស់ដែលបានកសាងឡើងវិញសម្រេចបានពិន្ទុ MolProbity ៣,០៣៤។"
+   ]
+  },
+  "zh-CN": {
+   "title": "用于准确且物理合理的Apo到Holo蛋白质生成的层次化混合坐标流匹配",
+   "summary": "研究人员介绍了CrypticFlow，这是一种结合了笛卡尔坐标和内坐标的层次化流匹配模型，用于从apo结构预测类holo蛋白质构象。该模型使用条件化的E(3)等变图网络在笛卡尔坐标中生成稀疏的C alpha锚点，随后通过条件中点Transformer在局部内坐标中递归填补空缺。在D3PM测试集上，CrypticFlow在已发布的基线能力中实现了最低的中位数和平均C alpha RMSD，并在MolProbity评分上优于评估的基线。",
+   "impact": "这种方法可能会通过改善蛋白质构象建模中的全局准确性和局部主干几何形状，来帮助结构生物学和基于结构的药物设计研究人员。它对安全团队或普通技术用户没有直接影响。",
+   "keyPoints": [
+    "CrypticFlow结合了笛卡尔坐标和内坐标表示以避免杠杆臂效应。",
+    "该模型的直接RMSD中位数为1.333埃，平均值为2.766埃。",
+    "它达到了99.58%的相邻距离保真度和95.87%的伪角度保真度。",
+    "使用cg2all重建的全原子结构实现了3.034的MolProbity评分。"
+   ]
+  },
+  "ko": {
+   "title": "정확하고 물리적으로 타당한 Apo-to-Holo 단백질 생성을 위한 계층적 하이브리드 좌표 흐름 매칭",
+   "summary": "연구진은 apo 구조에서 holo 유사 단백질 형태를 예측하기 위해 카르테시안 좌표와 내부 좌표를 결합한 계층적 흐름 매칭 모델인 CrypticFlow를 소개했습니다. 이 모델은 조건부 E(3)-동변성 그래프 네트워크를 사용하여 카르테시안 좌표에서 희소한 C 알파 ânchors를 생성한 다음, 조건부 중간점 Transformer를 통해 로컬 내부 좌표의 공백을 재귀적으로 채웁니다. D3PM 테스트 분할에서 CrypticFlow는 발표된 기준 용량 중 가장 낮은 중앙값 및 평균 C 알파 RMSD를 달성했으며 MolProbity 점수에서 평가된 기준을 능가했습니다.",
+   "impact": "이 접근 방식은 구조 기반 약물 설계에서 단백질 형태 모델링의 전반적인 정확성과 지역적 백본 기하학을 모두 개선함으로써 연구자들에게 도움을 줄 수 있습니다. 보안 팀이나 일반 기술 사용자에게는 직접적인 영향이 없을 수 있습니다.",
+   "keyPoints": [
+    "CrypticFlow는 지렛대 효과를 피하기 위해 카르테시안 좌표와 내부 좌표 표현을 결합합니다.",
+    "모델은 1.333 옹스트롬의 중앙값 직접 RMSD와 2.766 옹스트롬의 평균 직접 RMSD를 달성합니다.",
+    "인접 거리 충실도 99.58% 및 유사 각도 충실도 95.87%를 달성합니다.",
+    "cg2all을 사용하여 재구성된 전원자 구조는 3.034의 MolProbity 점수를 달성합니다."
+   ]
+  }
+ }
+}

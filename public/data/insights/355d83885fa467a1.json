@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "355d83885fa467a1",
+ "contentHash": "63cf01f1222374d8",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T02:59:36.238Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How Much of a Calculation-Error Rate Is Not Arithmetic: Auditing the FinReason Cup 2026 Task 3 Metric with a Deterministic Rule System",
+   "summary": "An analysis of Task 3 of the FinReason Cup 2026 shows that its calculation-error rate does not count arithmetic failures. A deterministic rule system without learned parameters was built to audit the benchmark's rules, processing all 680 cases in 1.4 seconds. The findings reveal that for top-performing systems, the designated calculation errors are almost entirely non-arithmetic.",
+   "impact": "This audit could help developers and evaluation teams understand the limitations of specific metrics used in financial reasoning benchmarks. Security teams and technology users may need to exercise caution when interpreting automated calculation error labels that do not actually measure arithmetic mistakes.",
+   "keyPoints": [
+    "Task 3 of the FinReason Cup 2026 labels failures as structural, extraction, or calculation.",
+    "The benchmark uses three data-quality rules: DQC_US_0015, DQC_US_0117, and DQC_US_0126.",
+    "A deterministic system with no learned parameters scored 96.62% on development and 95.29% on the test set.",
+    "For the top-ranked entries, the calculation-error rate is almost entirely not arithmetic."
+   ]
+  },
+  "km": {
+   "title": "តinoអត្រាខុសផ្នែកគណនាមិនមែនជាเลขคณิต៖ ការសវនកម្មលើរង្វាស់កិច្ចការទី 3 នៃ FinReason Cup 2026 ជាមួយប្រព័ន្ធច្បាប់កំណត់",
+   "summary": "ការវិភាគលើកិច្ចការទី 3 នៃ FinReason Cup 2026 បង្ហាញថាអត្រាកំហុសនៃការគណនារបស់វាមិនរាប់បញ្ចូលកំហុសเลขคณิตនោះទេ។ ប្រព័ន្ធច្បាប់កំណត់មួយត្រូវបានបង្កើតឡើងដើម្បីសវនកម្មលើច្បាប់របស់ معیار ដោយដំណើរការ 680 ករណីក្នុងរយៈពេល 1.4 វិនាទី។ លទ្ធផលបង្ហាញថាសម្រាប់ប្រព័ន្ធដែលជាប់ចំណាត់ថ្នាក់ខ្ពស់ កំហុសគណនាគឺស្ទើរតែមិនមែនជាเลขคณิตទាំងស្រុង។",
+   "impact": "ការសវនកម្មនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមវាយតម្លៃឱ្យយល់ពីដែនកំណត់នៃរង្វាស់ជាក់លាក់ដែលប្រើប្រាស់ក្នុងស្តង់ដារហេតុផលផ្នែកហិរញ្ញវត្ថុ។ ក្រុមសុវត្ថិភាព និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវមានការប្រុងប្រយ័ត្នពេលបកស្រាយស្លាកកំហុសគណនាស្វ័យប្រវត្តដែលមិនបានវាស់វែងការពិតប្រាកដនៃកំហុសเลขคณิต។",
+   "keyPoints": [
+    "កិច្ចការទី 3 នៃ FinReason Cup 2026 ចាត់ថ្នាក់កំហុសជា រចនាសម្ព័ន្ធ ការទាញយក ឬការគណនា។",
+    "ស្តង់ដារនេះប្រើប្រាស់ច្បាប់គុណភាពទិន្នន័យចំនួនបីគឺ DQC_US_0015, DQC_US_0117 និង DQC_US_0126។",
+    "ប្រព័ន្ធច្បាប់កំណត់ដែលគ្មានប៉ារ៉ាម៉ែត្របានពិន្ទុ 96.62% លើការអភិវឌ្ឍ និង 95.29% លើชุดតេស្ត។",
+    "សម្រាប់ធាតុចូលដែលមានចំណាត់ថ្នាក់ខ្ពស់ អត្រាកំហុសគណនាគឺស្ទើរតែមិនមែនជាเลขคณิตឡើយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "计算错误率中有多少并非算术错误：用确定性规则系统审计 FinReason Cup 2026 任务 3 指标",
+   "summary": "对 FinReason Cup 2026 任务 3 的分析表明，其定义的计算错误率并未计算算术失败。研究构建了一个无学习参数的确定性规则系统来审计基准规则，在 1.4 秒内运行了所有 680 个案例。结果显示，对于表现最好的系统，其所谓的计算错误几乎全都不属于算术错误。",
+   "impact": "此次审计可以帮助开发人员和评估团队理解金融推理基准中所用特定指标的局限性。安全团队和技术用户在解释并未真正测量算术错误的自动化计算错误标签时，可能需要保持谨慎。",
+   "keyPoints": [
+    "FinReason Cup 2026 任务 3 将失败标记为结构性、提取性或计算性。",
+    "该基准使用了三个数据质量规则：DQC_US_0015、DQC_US_0117 和 DQC_US_0126。",
+    "一个没有学习参数的确定性系统在开发集上获得了 96.62% 的分数，在测试集上获得了 95.29% 的分数。",
+    "对于排名靠前的系统，计算错误率几乎完全不是算术错误。"
+   ]
+  },
+  "ko": {
+   "title": "산술 오류가 아닌 계산 오류율의 비율: 결정론적 규칙 시스템을 통한 FinReason Cup 2026 태스크 3 지표 감사",
+   "summary": "FinReason Cup 2026의 태스크 3에 대한 분석에 따르면 해당 계산 오류율은 산술적 실패를 집계하지 않는 것으로 나타났다. 벤치마크 규칙을 감사하기 위해 학습된 파라미터가 없는 결정론적 규칙 시스템이 구축되었으며, 680개의 모든 케이스를 1.4초 만에 처리했다. 결과는 최고 성능 시스템의 지정된 계산 오류가 거의 전적으로 산술 오류가 아님을 보여준다.",
+   "impact": "이번 감사는 개발자와 평가 팀이 금융 추론 벤치마크에 사용되는 특정 지표의 한계를 이해하는 데 도움을 줄 수 있다. 보안 팀과 기술 사용자는 실제 산술 실수를 측정하지 않는 자동화된 계산 오류 라벨을 해석할 때 주의를 기울여야 할 수 있다.",
+   "keyPoints": [
+    "FinReason Cup 2026의 태스크 3은 실패를 구조적, 추출적 또는 계산적로 분류한다.",
+    "이 벤치마크는 DQC_US_0015, DQC_US_0117, DQC_US_0126의 세 가지 데이터 품질 규칙을 사용한다.",
+    "학습된 파라미터가 없는 결정론적 시스템은 개발 세트에서 96.62%, 공개 테스트 세트에서 95.29%의 점수를 기록했다.",
+    "상위 시스템의 계산 오류율은 거의 전적으로 산술 오류가 아니다."
+   ]
+  }
+ }
+}

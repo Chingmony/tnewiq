@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "dc8675504473a63e",
+ "contentHash": "d6de3e013c52a9a4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T03:01:35.557Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "BusemannFormer: Horospherical Self-Attention for Hyperbolic Graph Transformers",
+   "summary": "Researchers have proposed BusemannFormer, a fully hyperbolic graph Transformer that incorporates Horospherical Self-Attention (HSA). In this approach, each query selects an ideal-boundary direction and scores keys by their Busemann depth. The model also features a log-depth variant and a finite-boundary-dictionary extension to support linear-complexity global attention.",
+   "impact": "This architecture could improve node classification on hierarchical and citation graphs by leveraging geometric properties of tree hierarchies. Developers and researchers working with complex graph structures may find these hyperbolic attention mechanisms useful for better performance.",
+   "keyPoints": [
+    "Introduces Horospherical Self-Attention (HSA) for hyperbolic Transformers.",
+    "Scores keys by Busemann depth along an ideal-boundary direction.",
+    "Includes a log-depth variant and a finite-boundary-dictionary extension for linear-complexity global attention.",
+    "Outperforms evaluated baselines on several node-classification benchmarks."
+   ]
+  },
+  "km": {
+   "title": "BusemannFormer: Horospherical Self-Attention for Hyperbolic Graph Transformers",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើ BusemannFormer ដែលជា Graph Transformer បែប hyperbolic ពេញលេញរួមបញ្ចូល Horospherical Self-Attention (HSA)។ វិធីសាស្ត្រនេះអនុញ្ញាតឱ្យ query នីមួយៗជ្រើសរើសទិសដៅព្រំដែនឧត្តមគតិ និងដាក់ពិន្ទុ keys តាមជម្រៅ Busemann របស់វា។ បន្ថែមពីនេះ ម៉ូដែលនេះមានកំណែ log-depth និងផ្នែកពង្រីក finite-boundary-dictionary សម្រាប់ global attention ដែលមានភាពស្មុគស្មាញលីនេអ៊ែរ។",
+   "impact": "ស្ថាបត្យកម្មនេះអាចជួយកែលម្អការចាត់ថ្នាក់ node លើក្រាហ្វលំដាប់ថ្នាក់ និងឯកសារយោងដោយប្រើប្រាស់លក្ខណៈធរណីមាត្រ។ អ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវអាចទាញយកប្រយោជន៍ពីយន្តការ hyperbolic attention ទាំងនេះសម្រាប់ដំណើរការកាន់តែប្រសើរ។",
+   "keyPoints": [
+    "បានណែនាំ Horospherical Self-Attention (HSA) សម្រាប់ hyperbolic Transformers។",
+    "ដាក់ពិន្ទុ keys តាមជម្រៅ Busemann តាមទិសដៅព្រំដែនឧត្តមគតិ។",
+    "រួមបញ្ចូលទាំងកំណែ log-depth និង finite-boundary-dictionary សម្រាប់ global attention បែបលីនេអ៊ែរ។",
+    "បង្ហាញលទ្ធផលល្អជាងបណ្តាញមូលដ្ឋានដែលបានវាយតម្លៃលើកិច្ចការចាត់ថ្នាក់ node មួយចំនួន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "BusemannFormer：用于双曲图 Transformer 的 horospherical 自注意力机制",
+   "summary": "研究人员提出了 BusemannFormer，这是一个完全双曲的图 Transformer，并引入了 Horospherical Self-Attention (HSA)。在该方法中，每个 query 选择一个理想边界方向，并根据 keys 沿该方向的 Busemann 深度进行评分。该模型还具有对数深度变体以及支持线性复杂度全局注意力的有限边界字典扩展。",
+   "impact": "该架构通过利用树形层次结构的几何特性，可能会改进分层图和引文图上的节点分类。从事复杂图结构开发的工程师和研究人员可能会利用这些双曲注意力机制来获得更好的性能。",
+   "keyPoints": [
+    "为双曲 Transformer 引入了 Horospherical Self-Attention (HSA)。",
+    "沿理想边界方向通过 Busemann 深度对 keys 进行评分。",
+    "包含用于线性复杂度全局注意力的对数深度变体和有限边界字典扩展。",
+    "在多个节点分类基准测试中优于评估的基准模型。"
+   ]
+  },
+  "ko": {
+   "title": "BusemannFormer: 쌍곡선 그래프 Transformer를 위한 Horospherical Self-Attention",
+   "summary": "연구자들은 Horospherical Self-Attention(HSA)을 통합한 완전한 쌍곡선 그래프 Transformer인 BusemannFormer를 제안했습니다. 이 접근 방식에서 각 query는 이상적인 경계 방향을 선택하고 해당 방향을 따라 Busemann 깊이에 따라 key의 점수를 매깁니다. 이 모델에는 선형 복잡도 전역 주의를 지원하기 위한 로그 깊이 변형 및 유한 경계 사전 확장이 포함되어 있습니다.",
+   "impact": "이 아키텍처는 트리 계층 구조의 기하학적 속성을 활용하여 계층적 및 인용 그래프에서 노드 분류를 개선할 수 있습니다. 복잡한 그래프 구조를 다루는 개발자와 연구원은 더 나은 성능을 위해 이러한 쌍곡선 주의 메커니즘을 유용하게 활용할 수 있습니다.",
+   "keyPoints": [
+    "쌍곡선 Transformer를 위한 Horospherical Self-Attention(HSA) 도입.",
+    "이상적인 경계 방향을 따라 Busemann 깊이로 key 점수 산정.",
+    "선형 복잡도 전역 주의를 위한 로그 깊이 변형 및 유한 경계 사전 확장 포함.",
+    "여러 노드 분류 벤치마크에서 평가된 기준 모델들을 능가하는 성능 달성."
+   ]
+  }
+ }
+}

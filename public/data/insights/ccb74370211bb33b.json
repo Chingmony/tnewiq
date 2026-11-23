@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ccb74370211bb33b",
+ "contentHash": "df00b876de47a60d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T03:00:09.018Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "What Does Matching a Human Intervention Effect Establish? Benchmark Checks for LLM Simulations",
+   "summary": "LLM simulations are validated by checking equivalence with human effects, but a zero reference can pass when the human interval lies inside the margin. An exploratory reanalysis of 70 experiments showed that 72 percent of GPT-4 passes were zero-reference passes. A preregistered audit of Claude Sonnet 5.5 found that all passed intention targets were also zero-reference passes, while registered tests detected no overestimation.",
+   "impact": "Researchers and developers relying on LLM simulations to model human behavior may need to report zero-reference thresholds beside equivalence decisions. This could help clarify whether simulation passes reflect true human response alignment or merely artifactual zero-reference passes.",
+   "keyPoints": [
+    "LLM simulations are validated through equivalence with human intervention effects.",
+    "In an exploratory reanalysis, 72 percent of GPT-4 standard deviation passes were zero-reference passes.",
+    "Claude Sonnet 5.5 passed three intention targets in a preregistered audit, all of which were zero-reference passes.",
+    "Registered tests detected no overestimation, with average-effect intervals excluding overestimation above 0.08 SD."
+   ]
+  },
+  "km": {
+   "title": "តើការផ្គូផ្គងឥទ្ធិពលអន្តរាគមន៍របស់មនុស្សបង្កើតបានជាអ្វី? ការត្រួតពិនិត្យគោលសម្រាប់ស៊ីមយូឡេស៊ី LLM",
+   "summary": "ស៊ីមយូឡេស៊ី LLM ត្រូវបានសុពលភាពដោយការត្រួតពិនិត្យសមមូលជាមួយឥទ្ធិពលរបស់មនុស្ស ប៉ុន្តែការយោងសូន្យអាចឆ្លងកាត់នៅពេលដែលចន្លោះពេលរបស់មនុស្សស្ថិតនៅក្នុងរឹម។ ការវិភាគឡើងវិញរុករកនៃពិសោធន៍ចំនួន 70 បានបង្ហាញថា 72 ភាគរយនៃការឆ្លងកាត់របស់ GPT-4 គឺជាការឆ្លងកាត់ការយោងសូន្យ។ ការសវនកម្មដែលបានចុះបញ្ជីជាមុនរបស់ Claude Sonnet 5.5 បានរកឃើញថាគោលដៅបំណងដែលបានឆ្លងកាត់ទាំងអស់ក៏ជាការឆ្លងកាត់ការយោងសូន្យផងដែរ។",
+   "impact": "អ្នកស្រាវជ្រាវ និងអ្នកអភិវឌ្ឍន៍ដែលពឹងផ្អែកលើស៊ីមយូឡេស៊ី LLM អាចចាំបាច់ត្រូវរាយការណ៍កម្រិតពន្លឺយោងសូន្យនៅក្បែរការសម្រេចចិត្តសមមូល។ នេះអាចជួយបញ្ជាក់ថាតើការឆ្លងកាត់ស៊ីមយូឡេស៊ីឆ្លុះបញ្ចាំងពីការតម្រឹមការឆ្លើយតបរបស់មនុស្សពិតប្រាកដឬអត់។",
+   "keyPoints": [
+    "ស៊ីមយូឡេស៊ី LLM ត្រូវបានធ្វើឱ្យមានសុពលភាពតាមរយៈសមមូលជាមួយនឹងឥទ្ធិពលអន្តរាគមន៍របស់មនុស្ស។",
+    "ការវិភាគឡើងវិញបានបង្ហាញថា 72 ភាគរយនៃការឆ្លងកាត់របស់ GPT-4 គឺជាការយោងសូន្យ។",
+    "Claude Sonnet 5.5 បានឆ្លងកាត់គោលដៅបំណងចំនួនបីក្នុងការសវនកម្មដែលបានចុះបញ្ជីជាមុន។",
+    "ការធ្វើតេស្តដែលបានចុះបញ្ជីមិនបានរកឃើញការប៉ាន់ស្មានលើសនោះទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "匹配人类干预效应能确立什么？LLM模拟的基准检查",
+   "summary": "LLM模拟通过与人类效应的等效性进行验证，但当人类区间位于边界之内时，零参考可以通过。对70个实验的探索性重新分析表明，GPT-4通过项中有72%是零参考通过。对Claude Sonnet 5.5的预注册审计发现，所有通过的意图目标也都是零参考通过。",
+   "impact": "依赖LLM模拟来模拟人类行为的研究人员和开发人员可能需要在等效性决策旁报告零参考阈值。这可以帮助澄清模拟通过是否反映了真正的И类响应对齐，或者仅仅是零参考通过。",
+   "keyPoints": [
+    "LLM模拟通过与人类干预效应的等效性进行验证。",
+    "在探索性重新分析中，GPT-4的标准差通过项有72%是零参考通过。",
+    "Claude Sonnet 5.5在预注册审计中通过了三个意图目标，全部为零参考通过。",
+    "注册测试未检测到高估现象，平均效应区间排除了高于0.08 SD的高估。"
+   ]
+  },
+  "ko": {
+   "title": "인간 개입 효과 일치는 무엇을 확립하는가? LLM 시뮬레이션을 위한 벤치마크 검사",
+   "summary": "LLM 시뮬레이션은 인간 효과와의 동등성을 통해 검증되지만, 인간 구간이 여백 내에 있을 때 제로 참조가 통과할 수 있습니다. 70개 실험에 대한 탐색적 재분석에서 GPT-4 통과 건수의 72퍼센트가 제로 참조 통과인 것으로 나타났습니다. Claude Sonnet 5.5에 대한 사전 등록 감사에서 통과된 모든 의도 목표도 제로 참조 통과였습니다.",
+   "impact": "인간 행동을 모델링하기 위해 LLM 시뮬레이션에 의존하는 연구원과 개발자는 동등성 결정 옆에 제로 참조 임계값을 보고해야 할 수 있습니다. 이는 시뮬레이션 통과가 실제 인간 응답 정렬을 반영하는지 명확히 하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "LLM 시뮬레이션은 인간 개입 효과와의 동등성을 통해 검증됩니다.",
+    "탐색적 재분석에서 GPT-4의 표준편차 통과 건 중 72퍼센트가 제로 참조 통과였습니다.",
+    "Claude Sonnet 5.5는 사전 등록된 감사에서 3개의 의도 목표를 통과했으며 모두 제로 참조 통과였습니다.",
+    "등록된 테스트에서는 과대평가가 감지되지 않았습니다."
+   ]
+  }
+ }
+}

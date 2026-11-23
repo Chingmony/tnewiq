@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "963bd47c31ea96d9",
+ "contentHash": "e8f8c03820bbc649",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T03:00:19.801Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "GEG-SAM: Gaze Exploration-Guided Segment Anything Model for Weakly Supervised Polyp Segmentation",
+   "summary": "Researchers propose the Gaze Exploration-Guided Segment Anything Model (GEG-SAM) to improve weakly supervised polyp segmentation using endoscopist gaze records. Existing methods often treat fixations as isolated prompts, missing the temporal evolution and spatial organization of the visual search process. GEG-SAM captures structured gaze relations and associates them with fixation-aligned visual context to derive tokens that modulate the frozen SAM encoder.",
+   "impact": "This approach could help developers and researchers working on medical imaging improve segmentation accuracy by leveraging natural gaze exploration data. The method may offer better lesion-oriented guidance for pretrained vision models without requiring dense manual annotations.",
+   "keyPoints": [
+    "GEG-SAM utilizes endoscopist gaze records for weakly supervised polyp segmentation.",
+    "The framework models temporal dynamics and spatial topology of gaze exploration.",
+    "Gaze-conditioned tokens are injected into the frozen SAM encoder to modulate pretrained image features.",
+    "Experiments on five public datasets showed a 9.30 percentage point improvement in mean Dice over the strongest baseline."
+   ]
+  },
+  "km": {
+   "title": "GEG-SAM៖ ម៉ូដែល Segment Anything Model ដែលណែនាំដោយការរុករកភ្នែក សម្រាប់ការបែងចែកដុំគកក្រោមការគ្រប់គ្រងខ្សោយ",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើម៉ូដែល Gaze Exploration-Guided Segment Anything Model (GEG-SAM) ដើម្បីកែលម្អការបែងចែកដុំគកក្រោមការគ្រប់គ្រងខ្សោយដោយប្រើកំណត់ត្រាការមើលរបស់អ្នកឯកទេសខាងពោះវៀន។ វិធីសាស្ត្រនេះចាប់យកទំនាក់ទំនងនៃការមើលដែលមានរចនាសម្ព័ន្ធ និងភ្ជាប់ពួកវាទៅនឹងបរិបទរូបភាព ដើម្បីកែសម្រួលឧបករណ៍អ៊ិនកូដ SAM ដែលត្រូវបានបង្កក។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវរូបភាពវេជ្ជសាស្ត្រក្នុងការកែលម្អភាពត្រឹមត្រូវនៃការបែងចែក ដោយប្រើប្រាស់ទិន្នន័យរុករកភ្នែកធម្មជាតិ។",
+   "keyPoints": [
+    "GEG-SAM ប្រើប្រាស់កំណត់ត្រាការមើលរបស់អ្នកឯកទេស ដើម្បីបែងចែកដុំគក។",
+    "ក្របខ័ណ្ឌនេះគំរូយ دينាមិកតាមពេលវេលា និង τοπολογία នៃការរុករកភ្នែក។",
+    "ការពិសោធន៍លើសំណុំទិន្នន័យសាធារណៈចំនួនប្រាំបានបង្ហាញពីការកើនឡើង mean Dice ចំនួន 9.30 ពិន្ទុភាគរយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "GEG-SAM：用于弱监督息肉分割的注视探索引导 Segment Anything Model",
+   "summary": "研究人员提出了注视探索引导的 Segment Anything Model (GEG-SAM)，旨在利用内窥镜医师的注视记录来改进弱监督息肉分割。现有方法通常将注视点视为孤立的空间提示，而 GEG-SAM 通过对注视探索的时间动态和空间拓扑进行建模，捕捉结构化的注视关系。然后，它将这些关系表示与视觉上下文关联，生成注视条件令牌并注入到冻结的 SAM 编码器中以调制图像特征。",
+   "impact": "该方法可以帮助开发人员和研究人员利用自然注视探索数据来提高医学图像分割的准确性。它可能为预训练视觉模型提供更好的病灶导向指导，而无需密集的手动标注。",
+   "keyPoints": [
+    "GEG-SAM 利用内窥镜医师的注视记录进行弱监督息肉分割。",
+    "该框架通过建模注视探索的时间动态和空间拓扑来捕获结构化的注视关系。",
+    "注视条件令牌被注入到冻结的 SAM 编码器中以调制预训练的图像特征。",
+    "在五个公开息肉分割数据集上的实验表明，平均 Dice 较最强的弱监督基线提高了 9.30 个百分点。"
+   ]
+  },
+  "ko": {
+   "title": "GEG-SAM: 약지도 폴립 분할을 위한 응시 탐색 유도 Segment Anything Model",
+   "summary": "연구진은 내시경 의사의 응시 기록을 활용하여 약지도 폴립 분할을 개선하는 응시 탐색 유도 Segment Anything Model(GEG-SAM)을 제안했습니다. 기존 방법들은 응시를 고립된 프롬프트로 취급하는 한계가 있었으나, GEG-SAM은 구조화된 응시 관계와 시각적 단서를 활용하여 동결된 SAM 인코더를 조절합니다. 이를 통해 모델이 병변 중심 분할을 수행하도록 유도합니다.",
+   "impact": "이 접근 방식은 개발자와 연구원들이 자연스러운 응시 탐색 데이터를 활용하여 의료 영상 분할 정확도를 높이는 데 도움을 줄 수 있습니다. 촘촘한 수동 주석 없이도 사전 학습된 비전 모델에 더 나은 병변 중심 가이드를 제공할 수 있습니다.",
+   "keyPoints": [
+    "GEG-SAM은 내시경 의사의 응시 기록을 사용하여 약지도 폴립 분할을 수행합니다.",
+    "이 프레임워크는 응시 탐색의 시간적 역동성과 공간적 위상을 모델링합니다.",
+    "응시 조건부 토큰이 동결된 SAM 인코더에 주입되어 사전 학습된 이미지 특징을 조절합니다.",
+    "5개의 공개 폴립 분할 데이터셋에서 실험한 결과, 가장 강력한 약지도 베이스라인보다 평균 Dice가 9.30 퍼센트 포인트 향상되었습니다."
+   ]
+  }
+ }
+}

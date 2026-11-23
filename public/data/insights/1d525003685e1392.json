@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1d525003685e1392",
+ "contentHash": "c92d3807262b3038",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T02:56:35.624Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Open-source AI terminal uniTerm 1.12.4 released, combining 34 protocols with a new network toolkit and notes panel",
+   "summary": "uniTerm version 1.12.4 has been released as an open-source AI terminal software built using Wails v3, Go, and Vue 3. The lightweight, cross-platform tool integrates remote terminals, file transfers, remote desktops, databases, Kubernetes management, and AI Agents into a single package. It supports over 30 network protocols and is available across Windows, macOS, Linux, Android, and Docker Web platforms.",
+   "impact": "This release could provide developers and system administrators with a unified tool to manage various network protocols and remote environments efficiently from a single lightweight application.",
+   "keyPoints": [
+    "uniTerm 1.12.4 is built on Wails v3, Go, and Vue 3.",
+    "The software integrates multiple features including remote terminals, file transfer, remote desktop, and Kubernetes management.",
+    "It supports over 30 network protocols across five major platforms."
+   ]
+  },
+  "km": {
+   "title": "uniTerm ១.១២.៤ ដែលជាស្ថានីយ AI ប្រភពបើកចំហ ត្រូវបានចេញផ្សាយ ដោយបញ្ចូលពិធីការចំនួន ៣៤ ជាមួយឧបករណ៍បណ្តាញ និងបន្ទះចំណាំថ្មី",
+   "summary": "uniTerm កំណែ ១.១២.៤ ត្រូវបានចេញផ្សាយជាកម្មវិធីស្ថានីយប្រភពបើកចំហស្រាល ដែលបង្កើតឡើងដោយប្រើ Wails v3, Go និង Vue 3។ ឧបករណ៍ឆ្លងវេទិកានេះរួមបញ្ចូលគ្ននូវស្ថានីយពីចម្ងាយ ការផ្ទេរឯកសារ កុំព្យូទ័រពីចម្ងាយ មូលដ្ឋានទិន្នន័យ ការគ្រប់គ្រង Kubernetes និង AI Agent ទៅក្នុងកញ្ចប់តែមួយ។ វាគាំទ្រពិធីការបណ្តាញជាង ៣០ និងមាននៅលើវេទិកា Windows, macOS, Linux, Android និង Docker Web។",
+   "impact": "ការចេញផ្សាយនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកគ្រប់គ្រងប្រព័ន្ធនូវឧបករណ៍រួមបញ្ចូលគ្នា ដើម្បីគ្រប់គ្រងពិធីការបណ្តាញ និងបរិស្ថានពីចម្ងាយផ្សេងៗគ្នា.",
+   "keyPoints": [
+    "uniTerm ១.១២.៤ ត្រូវបានបង្កើតឡើងនៅលើ Wails v3, Go និង Vue 3។",
+    "កម្មវិធីនេះរួមបញ្ចូលមុខងារជាច្រើនដូចជា ស្ថានីយពីចម្ងាយ ការផ្ទេរឯកសារ និងការគ្រប់គ្រង Kubernetes។",
+    "វាគាំទ្រពិធីការបណ្តាញជាង ៣០ នៅលើវេទិកាចំនួនប្រាំ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "开源AI终端 uniTerm 1.12.4 发布，34协议合一，网络工具箱、笔记面板上线",
+   "summary": "开源 AI 终端软件 uniTerm 发布了 1.12.4 版本，该软件基于 Wails v3、Go 和 Vue 3 构建。它是一款轻量级跨平台的一站式终端工具，将远程终端、文件传输、远程桌面、数据库、Kubernetes 管理和 AI Agent 整合到一个软件包中。该软件支持 30 余种网络协议，并覆盖 Windows、macOS、Linux、Android 和 Docker Web 五大平台。",
+   "impact": "这一版本的发布可能为开发者和系统管理员提供一个更全面的工具，以便从单一轻量级应用中高效管理多种远程环境和网络协议。",
+   "keyPoints": [
+    "uniTerm 基于 Wails v3、Go 和 Vue 3 构建。",
+    "整合了远程终端、文件传输、远程桌面、数据库、Kubernetes 管理和 AI Agent。",
+    "支持 30 余种网络协议并运行于五大平台。"
+   ]
+  },
+  "ko": {
+   "title": "오픈 소스 AI 터미널 uniTerm 1.12.4 출시, 34개 프로토콜 통합 및 네트워크 툴킷·메모 패널 추가",
+   "summary": "Wails v3, Go, Vue 3를 기반으로 구축된 오픈 소스 AI 터미널 소프트웨어 uniTerm 1.12.4 버전이 출시되었습니다. 이 가벼운 크로스 플랫폼 도구는 원격 터미널, 파일 전송, 원격 데스크톱, 데이터베이스, Kubernetes 관리, AI Agent를 단일 패키지로 통합합니다. 30여 종의 네트워크 프로토콜을 지원하며 Windows, macOS, Linux, Android, Docker Web 플랫폼에서 사용할 수 있습니다.",
+   "impact": "이번 표시는 개발자와 시스템 관리자가 단일 경량 애플리케이션을 통해 다양한 네트워크 프로토콜과 원격 환경을 효율적으로 관리할 수 있는 도구를 제공할 수 있습니다.",
+   "keyPoints": [
+    "uniTerm은 Wails v3, Go, Vue 3를 기반으로 구축되었습니다.",
+    "원격 터미널, 파일 전송, 원격 데스크톱, Kubernetes 관리 등의 기능을 통합합니다.",
+    "30여 종의 네트워크 프로토콜과 5개의 주요 플랫폼을 지원합니다."
+   ]
+  }
+ }
+}

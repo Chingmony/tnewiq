@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2950961bbd18b0c7",
+ "contentHash": "247383eb1ac190ac",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T02:58:52.250Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Enhancing Metaverse Security using Explainable AI-based Intrusion Detection Framework",
+   "summary": "Researchers have proposed an optimal framework combining machine learning and explainable artificial intelligence (XAI) to secure the Metaverse of Things (MoT) environment against cyberthreats. The study evaluated different machine learning models using three benchmark datasets: ToN-IoT, CIC-IoT-2023, and BoT-IoT. Techniques such as Shapley Additive Explanations (SHAP) and Local Interpretable Model-Agnostic Explanations (LIME) were used to improve feature relevance and user confidence.",
+   "impact": "Security teams and developers working on IoT and virtual environments could benefit from higher accuracy intrusion detection frameworks that also provide interpretability. The high accuracy achieved across benchmark datasets may offer reliable alternatives for securing MoT networks against unauthorized access.",
+   "keyPoints": [
+    "The proposed framework combines ML and XAI to secure MoT networks from cyberthreats.",
+    "The XGBoost model achieved 99.83% accuracy on ToN-IoT and 96.45% on CIC-IoT-2023.",
+    "Random Forest and Extra Trees classifiers reached 99.99% accuracy on the BoT-IoT dataset.",
+    "SHAP and LIME techniques enhanced feature relevance and user confidence in the optimal model."
+   ]
+  },
+  "km": {
+   "title": "ការបង្កើនសុវត្ថិភាព Metaverse ដោយប្រើប្រាស់ក្របខណ្ឌរកោសរកាយការ intrusions មូលដ្ឋាន AI ដែលអាចពន្យល់បាន",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើឡើងនូវក្របខណ្ឌអំណោយផលមួយដែលរួមបញ្ចូលគ្នារវាងម៉ាស៊ីនសិក្សា (ML) និងបញ្ញាសិប្បនិម្មិតដែលអាចពន្យល់បាន (XAI) ដើម្បីធានាសុវត្ថិភាពបរិយាកាស Metaverse of Things (MoT) ប្រឆាំងនឹងការគំរាមកំហែងតាមប្រព័ន្ធអ៊ីនធឺណិត។ ការសិក្សានេះបានវាយតម្លៃម៉ូដែល ML ផ្សេងៗដោយប្រើប្រាស់សំណុំទិន្នន័យគោលចំនួនបីគឺ ToN-IoT, CIC-IoT-2023 និង BoT-IoT។ បច្ចេកទេសដូចជា SHAP និង LIME ត្រូវបានប្រើប្រាស់ដើម្បីកែលម្អភាពទាក់ទងគ្នានៃលក្ខណៈពិសេស និងទំនុកចិត្តរបស់អ្នកប្រើប្រាស់។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ដែលធ្វើការលើ IoT និងបរិយាកាសនិម្មិតអាចទទួលបានអត្ថប្រយោជន៍ពីក្របខណ្ឌរកឃើញការ intrusions ដែលមានភាពត្រឹមត្រូវខ្ពស់ និងអាចពន្យល់បាន។ ភាពត្រឹមត្រូវខ្ពស់ដែលសម្រេចបានអាចផ្តល់នូវជម្រើសដែលអាចទុកចិត្តបានសម្រាប់ការការពារបណ្តាញ MoT។",
+   "keyPoints": [
+    "ក្របខណ្ឌដែលបានស្នើឡើងរួមបញ្ចូលគ្នារវាង ML និង XAI ដើម្បីការពារបណ្តាញ MoT ។",
+    "ម៉ូដែល XGBoost សម្រេចបានភាពត្រឹមត្រូវ 99.83% លើ ToN-IoT និង 96.45% លើ CIC-IoT-2023 ។",
+    "ឧបករណ៍ចាត់ថ្នាក់ Random Forest និង Extra Trees សម្រេចបានភាពត្រឹមត្រូវ 99.99% លើសំណុំទិន្នន័យ BoT-IoT ។",
+    "បច្ចេកទេស SHAP និង LIME បានពង្រឹងភាពទាក់ទងគ្នានៃលក្ខណៈពិសេស និងទំនុកចិត្តរបស់អ្នកប្រើប្រាស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用基于可解释人工智能的入侵检测框架增强元宇宙安全性",
+   "summary": "研究人员提出了一种结合了机器学习和可解释人工智能（XAI）的优化框架，以保护物联网元宇宙（MoT）环境免受网络威胁。该研究使用三个基准安全数据集对不同的机器学习模型进行了全面分析：ToN-IoT、CIC-IoT-2023 和 BoT-IoT。研究中使用的 Shapley Additive Explanations（SHAP）和 Local Interpretable Model-Agnostic Explanations（LIME）技术进一步增强了特征相关性和用户对模型的信心。",
+   "impact": "致力于物联网和虚拟环境的安全团队和开发人员可能会受益于兼具高准确性和可解释性的入侵检测框架。跨基准数据集实现的高准确性可能为保护 MoT 网络免受未经授权的访问提供可靠的替代方案。",
+   "keyPoints": [
+    "提出的框架结合了机器学习和可解释人工智能以保护 MoT 网络免受网络威胁。",
+    "XGBoost 模型在 ToN-IoT 上达到了 99.83% 的准确率，在 CIC-IoT-2023 上达到了 96.45%。",
+    "Random Forest 和 Extra Trees 分类器在 BoT-IoT 数据集上达到了 99.99% 的准确率。",
+    "SHAP 和 LIME 技术增强了特征相关性和用户对最优模型的信心。"
+   ]
+  },
+  "ko": {
+   "title": "설명 가능한 AI 기반 침입 탐지 프레임워크를 이용한 메타버스 보안 강화",
+   "summary": "연구진은 사이버 위협으로부터 Metaverse of Things (MoT) 환경을 보호하기 위해 머신러닝과 설명 가능한 인공지능(XAI)을 결합한 최적의 프레임워크를 제안했습니다. 이 연구는 ToN-IoT, CIC-IoT-2023, BoT-IoT 등 세 가지 벤치마크 보안 데이터셋을 사용하여 다양한 머신러닝 모델을 검토했습니다. XAI를 위해 사용된 SHAP 및 LIME 기술은 최적 모델에 대한 특징 관련성과 사용자 신뢰도를 더욱 향상시켰습니다.",
+   "impact": "IoT 및 가상 환경을 다루는 보안 팀과 개발자는 해석 가능성을 제공하는 고정밀 침입 탐지 프레임워크로부터 혜택을 받을 수 있습니다. 벤치마크 데이터셋 전반에서 달성된 높은 정확도는 MoT 네트워크를 무단 접근으로부터 보호하기 위한 신뢰할 수 있는 대안을 제공할 수 있습니다.",
+   "keyPoints": [
+    "제안된 프레임워크는 머신러닝과 XAI를 결합하여 사이버 위협으로부터 MoT 네트워크를 보호합니다.",
+    "XGBoost 모델은 ToN-IoT에서 99.83%, CIC-IoT-2023에서 96.45%의 정확도를 달성했습니다.",
+    "Random Forest 및 Extra Trees 분류기는 BoT-IoT 데이터셋에서 99.99%의 정확도를 기록했습니다.",
+    "SHAP 및 LIME 기법은 최적 모델의 특징 관련성과 사용자 신뢰도를 높였습니다."
+   ]
+  }
+ }
+}

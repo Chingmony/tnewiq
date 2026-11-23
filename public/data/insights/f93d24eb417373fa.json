@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f93d24eb417373fa",
+ "contentHash": "fe3a7ab10ff284f5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T02:56:24.919Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "XXL-AI v1.7.0 Released: AI Application Development Platform",
+   "summary": "XXL-AI has released version 1.7.0 for its desktop client (Desk), bringing architectural and model updates. The release introduces an independent Harness module for session loops to improve maintainability and expandability. It also standardizes session models and handles differentiated session loop behaviors through session property extension settings.",
+   "impact": "Developers working with XXL-AI may benefit from improved maintainability and extensibility due to the new independent Harness module. Standardized session models could also streamline how session loop behaviors are managed.",
+   "keyPoints": [
+    "The Harness module is now independent for session loops under the chat module.",
+    "The Harness module handles model requests, tool calls, MCP calls, and SKILL loading.",
+    "Session models have been standardized in version 1.7.0.",
+    "Differentiated session loop behaviors are now unified through session property extension settings."
+   ]
+  },
+  "km": {
+   "title": "XXL-AI v1.7.0 ចេញផ្សាយ៖ វេទិកាអភិវឌ្ឍន៍កម្មវិធី AI",
+   "summary": "XXL-AI បានចេញផ្សាយកំណែ v1.7.0 សម្រាប់ Desk ដែលនាំមកនូវបច្ចុប្បន្នភាពផ្នែកស្ថាបត្យកម្ម និងម៉ូដែល។ ការចេញផ្សាយនេះណែនាំម៉ូឌុល Harness ឯករាជ្យសម្រាប់រង្វិលជុំសម័យ ដើម្បីកែលម្អការថែទាំ និងការពង្រីក។ វាក៏ធ្វើស្តង់ដារម៉ូដែលសម័យ និងគ្រប់គ្រងឥរិយាបថរង្វិលជុំសម័យតាមរយៈការកំណត់ផ្នែកបន្ថែមទ្រព្យសម្បត្តិសម័យផងដែរ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ដែលធ្វើការជាមួយ XXL-AI អាចទទួលបានអត្ថប្រយោជន៍ពីការថែទាំ និងការពង្រីកកាន់តែប្រសើរឡើង ដោយសារម៉ូឌុល Harness ថ្មី។ ម៉ូដែលសម័យដែលមានស្តង់ដារក៏អាចជួយសម្រួលដល់ការគ្រប់គ្រងឥរិយាបថរង្វិលជុំសម័យផងដែរ។",
+   "keyPoints": [
+    "ម៉ូឌុល Harness ឥឡូវនេះមានលក្ខណៈឯករាជ្យសម្រាប់រង្វិលជុំសម័យក្រោមម៉ូឌុល chat។",
+    "ម៉ូឌុល Harness គ្រប់គ្រងសំណើម៉ូឌុល ការហៅឧបករណ៍ ការហៅ MCP និងការផ្ទុក SKILL។",
+    "ម៉ូដែលសម័យត្រូវបានធ្វើស្តង់ដារក្នុងកំណែ v1.7.0។",
+    "ឥរិយាបថរង្វិលជុំសម័យខុសៗគ្នាត្រូវបានបង្រួបបង្រួមតាមរយៈការកំណត់ផ្នែកបន្ថែមទ្រព្យសម្បត្តិសម័យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "XXL-AI v1.7.0 发布｜AI 应用开发平台",
+   "summary": "XXL-AI 发布了 Desk 桌面端的 v1.7.0 版本，带来了架构和模型方面的更新。新版本为会话 Loop 引入了独立的 Harness 模块，提升了可维护性和可扩展性。同时，它还对会话模型进行了标准化，并通过会话属性扩展设置统一了会话 Loop 的差异化行为。",
+   "impact": "使用 XXL-AI 的开发者可能会受益于独立 Harness 模块带来的更高可维护性和可扩展性。会话模型的标准化也可能使会话 Loop 差异化行为的管理更加规范。",
+   "keyPoints": [
+    "Harness 模块在 chat 模块下独立，用于会话 Loop。",
+    "Harness 模块包含模型请求、工具调用、MCP 调用和 SKILL 加载等统一闭环。",
+    "对会话模型进行了标准化处理。",
+    "通过会话属性扩展设置统一了会话 Loop 的差异化行为。"
+   ]
+  },
+  "ko": {
+   "title": "XXL-AI v1.7.0 출시: AI 애플리케이션 개발 플랫폼",
+   "summary": "XXL-AI가 데스크톱 버전(Desk)의 v1.7.0을 출시하며 아키텍처 및 모델 업데이트를 공개했습니다. 이번 릴리스는 유지보수성과 확장성을 향상하기 위해 세션 루프를 위한 독립적인 Harness 모듈을 도입했습니다. 또한 세션 모델을 표준화하고 세션 속성 확장 설정을 통해 세션 루프의 차별화된 동작을 통합했습니다.",
+   "impact": "XXL-AI를 사용하는 개발자는 새로운 독립형 Harness 모듈로 인해 향상된 유지보수성과 확장성의 이점을 얻을 수 있습니다. 표준화된 세션 모델은 세션 루프 동작 관리 방식을 간소화할 수 있습니다.",
+   "keyPoints": [
+    "챗(chat) 모듈 아래 세션 루프를 위한 독립적인 Harness 모듈이 도입되었습니다.",
+    "Harness 모듈에는 모델 요청, 도구 호출, MCP 호출 및 SKILL 로딩 등이 포함됩니다.",
+    "v1.7.0에서 세션 모델이 표준화되었습니다.",
+    "세션 루프의 차별화된 동작은 세션 속성 확장 설정을 통해 통합됩니다."
+   ]
+  }
+ }
+}

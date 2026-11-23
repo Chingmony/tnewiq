@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "29e0e9bb61ac4766",
+ "contentHash": "0da4ef7e0c0de6b8",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T03:00:52.763Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Learning Adaptive Defense Strategies: Fine-Tuned LLMs for Network Security Games under Network Mobility",
+   "summary": "This study investigates whether fine-tuned large language models can act as solver-free surrogates for online equilibrium computation in honeypot allocation amid network mobility. Researchers constructed a dataset of 270 security games and evaluated multiple predictor classes across 1,524 held-out mobility events. The results show that fine-tuning reduces exploitability across all architectures and that modest-sized fine-tuned open-weight models outperform zero-shot predictors.",
+   "impact": "Security teams and developers working on automated network defense could benefit from using fine-tuned models for efficient equilibrium computation in dynamic environments. However, the findings suggest that output validity remains a primary constraint for further progress in this area.",
+   "keyPoints": [
+    "A dataset of 270 security games on networks of 8 to 25 nodes was constructed.",
+    "Fine-tuning reduced exploitability across every tested architecture.",
+    "Fine-tuned open-weight models outperformed all zero-shot predictors, including proprietary ones."
+   ]
+  },
+  "km": {
+   "title": "ការសិក្សាយុទ្ធសាស្ត្រការពារសម្របសម្រួល៖ ការប្រើប្រាស់ LLM ដែលបានកែសម្រួលល្អសម្រាប់ល្បែងសុវត្ថិភាពបណ្តាញក្រោមការផ្លាស់ទីបណ្តាញ",
+   "summary": "ការសិក្សានេះបានពិនិត្យមើលថាតើ LLM ដែលបានកែសម្រួលល្អអាចដើរតួជាអ្នកជំនួសសម្រាប់ការគណនាសមតុល្យតាមអ៊ីនធឺណិតក្នុងការបែងចែក honeypot ក្រោមការផ្លាស់ទីបណ្តាញដែរឬទេ។ អ្នកស្រាវជ្រាវបានបង្កើតសំណុំទិន្នន័យនៃល្បែងសុវត្ថិភាពចំនួន ២៧០ និងបានវាយតម្លៃថ្នាក់ព្យាករណ៍ផ្សេងៗ។ លទ្ធផលបង្ហាញថាការកែសម្រួលល្អជួយកាត់បន្ថយភាពងាយរងគ្រោះនៅគ្រប់ស្ថាបត្យកម្មទាំងអស់។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍ដែលធ្វើការលើការការពារបណ្តាញស្វ័យប្រវត្តិអាចទទួលបានអត្ថប្រយោជន៍ពីការប្រើប្រាស់ម៉ូដែលដែលបានកែសម្រួលល្អ។ ទោះជាយ៉ាងណាក៏ដោយសុពលភាពលទ្ធផលនៅតែជាបញ្ហាប្រឈមចម្បងសម្រាប់ការរីកចម្រើនបន្ថែមទៀត។",
+   "keyPoints": [
+    "សំណុំទិន្នន័យនៃល្បែងសុវត្ថិភាពចំនួន ២៧០ ត្រូវបានបង្កើតឡើងនៅលើបណ្តាញដែលមាន节点 ៨ ដល់ ២៥។",
+    "ការកែសម្រួលល្អបានកាត់បន្ថយភាពងាយរងគ្រោះលើរាល់ស្ថាបត្យកម្មទាំងអស់។",
+    "ម៉ូដែលបើកចំហរដែលបានកែសម្រួលល្អមានប្រសិទ្ធភាពជាងឧបករណ៍ព្យាករណ៍ zero-shot ទាំងអស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "学习自适应防御策略：网络移动性下用于网络安全博弈的微调大语言模型",
+   "summary": "本研究探讨了微调大语言模型是否可以作为网络移动性下蜜罐分配中在线均衡计算的免求解器替代品。研究人员构建包含270个安全博弈的数据集，并在1524个保留移动事件中评估了四类预测器。结果表明，微调减少了所有架构的可利用性，且中等规模的微调开源模型表现优于所有零样本预测器。",
+   "impact": "致力于自动化网络防御的安全团队和开发人员可能会受益于使用微调模型进行动态环境中的高效均衡计算。不过，研究结果表明，输出有效性仍然是进一步发展的主要约束。",
+   "keyPoints": [
+    "构建了一个包含8至25个节点网络上270个安全博弈的数据集。",
+    "微调降低了每个架构中的可利用性。",
+    "微调后的开源模型优于所有零样本预测器，包括专有模型。"
+   ]
+  },
+  "ko": {
+   "title": "적응형 방어 전략 학습: 네트워크 이동성 하의 네트워크 보안 게임을 위한 미세 조정된 LLM",
+   "summary": "본 연구는 네트워크 이동성 환경에서 허니팟 할당 시 온라인 균형 계산을 위해 미세 조정된 대형 언어 모델이 솔버 없는 대체재로 기능할 수 있는지 조사했습니다. 연구진은 270개의 보안 게임 데이터셋을 구축하고 1,524개의 보류된 이동 이벤트에서 예측기를 평가했습니다. 미세 조정은 모든 아키텍처에서 취약성을 감소시키며, 규모가 작은 미세 조정 개방형 가중치 모델이 제로샷 예측기들을 능가하는 것으로 나타났습니다.",
+   "impact": "자동화된 네트워크 방어를 연구하는 보안 팀과 개발자는 동적 환경에서 효율적인 균형 계산을 위해 미세 조정된 모델을 활용할 수 있습니다. 그러나 출력 유효성이 추가 진전을 위한 핵심 제약 조건으로 남아 있음을 시사합니다.",
+   "keyPoints": [
+    "8~25개 노드 네트워크에서 270개의 보안 게임 데이터셋을 구축했습니다.",
+    "미세 조정은 모든 테스트된 아키텍처에서 취약성을 줄였습니다.",
+    "미세 조정된 개방형 가중치 모델이 소유격 모델을 포함한 모든 제로샷 예측기보다 우수한 성능을 보였습니다."
+   ]
+  }
+ }
+}

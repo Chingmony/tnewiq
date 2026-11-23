@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a7018d37dbbedc93",
+ "contentHash": "46b15d1d1f749ecd",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T02:59:46.812Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Lift Out, Kick In: Decoupling Event Effects for Time Series Forecasting",
+   "summary": "Researchers propose Loki (Lift Out, Kick In), an event-aware forecasting framework designed to handle real-world time series shaped by exogenous events. Historical observations often entangle persistent dynamics with event-induced deviations, complicating forecasting. Loki addresses this by using a shared Event Response Function to lift out historical event deviations and kick in responses to future events.",
+   "impact": "This framework could improve time series forecasting accuracy by separating event-response modeling from temporal forecasting, which may help developers and researchers better account for exogenous events.",
+   "keyPoints": [
+    "Loki uses a shared Event Response Function to model event effects across historical and forecast windows.",
+    "The framework lifts out estimated event-induced deviations from history and applies the ERF for future events.",
+    "Loki achieved the best standardized MAE on five forecasting benchmarks, reducing error by 2.2% to 11.7% over the strongest non-Loki baseline."
+   ]
+  },
+  "km": {
+   "title": "Lift Out, Kick Out: ការបំបែកផលប៉ះពាល់ព្រឹត្តិការណ៍សម្រាប់ការប៉ាន់ប្រមាណស៊េរីពេលវេលា",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើឡើងនូវក្របខណ្ឌ Loki (Lift Out, Kick Out) ដែលជាប្រព័ន្ធប៉ាន់ប្រមាណដែលដឹងពីព្រឹត្តិការណ៍ ដើម្បីទจัดการស៊េរីពេលវេលាក្នុងពិភពពិត។ ការសង្កេតប្រវត្តិសាស្ត្រតែងតែច្របាច់បញ្ចូលគ្នានូវសក្ដានុពលជាប់លាប់ជាមួយនឹងគម្លាតដែលបង្កឡើងដោយព្រឹត្តិការណ៍ ដែលធ្វើឱ្យការប៉ាន់ប្រមាណមានការលំបាក។ Loki ដោះស្រាយបញ្ហានេះដោយប្រើប្រាស់មុខងារឆ្លើយតបព្រឹត្តិការណ៍រួមគ្នា ដើម្បីទាញយកគម្លាតព្រឹត្តិការណ៍ប្រវត្តិសាស្ត្រចេញ និងបញ្ចូលការឆ្លើយតបទៅនឹងព្រឹត្តិការណ៍នាពេលអនាគត។",
+   "impact": "ក្របខណ្ឌនេះអាចជួយបង្កើនភាពត្រឹមត្រូវនៃការប៉ាន់ប្រមាណស៊េរីពេលវេលា ដោយការបំបែកគំរូឆ្លើយតបព្រឹត្តិការណ៍ចេញពីការប៉ាន់ប្រមាណតាមពេលវេលា ដែលអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវក្នុងការគិតគូរពីព្រឹត្តិការណ៍ខាងក្រៅបានប្រសើរជាងមុន។",
+   "keyPoints": [
+    "Loki ប្រើប្រាស់មុខងារឆ្លើយតបព្រឹត្តិការណ៍រួម ដើម្បីគំរូផលប៉ះពាល់ព្រឹត្តិការណ៍ឆ្លងកាត់បង្អួចប្រវត្តិសាស្ត្រ និងការព្យាករណ៍។",
+    "ក្របខណ្ឌនេះទាញយកគម្លាតដែលបង្កដោយព្រឹត្តិការណ៍ចេញពីប្រវត្តិសាស្ត្រ និងអនុវត្តការឆ្លើយតបសម្រាប់ព្រឹត្តិការណ៍អនាគត។",
+    "Loki សម្រេចបាន MAE ស្តង់ដារល្អបំផុតនៅលើគោលដៅសាកល្បងចំនួនប្រាំ ដោយកាត់បន្ថយ កំហុសប្រហែល 2.2% ដល់ 11.7% បើធៀបនឹងមូលដ្ឋានដ៏រឹងមាំបំផុតដែលមិនមែនជា Loki។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Lift Out, Kick Out: 时间序列预测中的事件效应解耦",
+   "summary": "研究人员提出了 Loki (Lift Out, Kick Out)，这是一个通用的事件感知预测框架，旨在处理受外部事件影响的真实世界时间序列。历史观测数据往往将持续的动态与事件引起的偏差交织在一起，给预测带来困难。Loki 通过共享的事件响应函数解决了这一问题，该函数可以在预测前剥离历史观测中的事件偏差，并为未来的已知事件注入响应。",
+   "impact": "该框架通过将事件响应建模与时间序列预测分离，可能会提高时间序列预测的准确性，从而帮助开发者和研究人员更好地处理外部事件。",
+   "keyPoints": [
+    "Loki 使用跨历史和预测窗口共享的事件响应函数来对事件效应进行建模。",
+    "该框架在预测前从历史观测中提取估计的事件引起偏差，并利用该函数预测未来事件。",
+    "在五个预测基准测试中，Loki 的标准化 MAE 表现最佳，相比最强的非 Loki 基线将误差降低了约 2.2% 至 11.7%。"
+   ]
+  },
+  "ko": {
+   "title": "Lift Out, Kick Out: 시계열 예측을 위한 이벤트 효과 분리",
+   "summary": "연구진은 외생적 이벤트의 영향을 받는 실제 시계열 데이터를 처리하기 위해 이벤트 인지 예측 프레임워크인 Loki (Lift Out, Kick Out)를 제안했습니다. 기존 관측 데이터는 지속적인 역학 관계와 이벤트로 인한 편향이 얽혀 있어 예측을 어렵게 만듭니다. Loki는 공유 이벤트 응답 함수를 활용하여 과거 관측값에서 이벤트로 인한 편향을 제거하고 미래 이벤트에 대한 응답을 적용함으로써 이 문제를 해결합니다.",
+   "impact": "이 프레임워크는 이벤트 응답 모델링과 시간적 예측을 분리하여 시계열 예측 정확도를 향상시킬 수 있으며, 개발자와 연구자들이 외생적 이벤트를 더 잘 고려할 수 있도록 돕습니다.",
+   "keyPoints": [
+    "Loki는 과거 및 예측 창에서 공유되는 이벤트 응답 함수를 사용하여 이벤트 효과를 모델링합니다.",
+    "과거 관측값에서 추정된 이벤트 유발 편향을 제거하고 향후 이벤트에 대한 응답을 적용합니다.",
+    "Loki는 5개의 예측 벤치마크에서 가장 우수한 표준화 MAE를 달성하여 가장 강력한 비 Loki 기준 모델 대비 오차를 약 2.2%에서 11.7% 줄였습니다."
+   ]
+  }
+ }
+}

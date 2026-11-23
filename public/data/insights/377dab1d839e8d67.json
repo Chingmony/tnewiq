@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "377dab1d839e8d67",
+ "contentHash": "e95b0282994dc43c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T03:01:25.320Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "FedQCal: Quadratic Programming with Dual-Space Calibration for One-Shot Federated Learning",
+   "summary": "Researchers introduce FedQCal to address the challenge of combining heterogeneous client models after a single upload in federated learning. By using a small labeled server set and a minimum-norm quadratic program, the method aligns client updates while avoiding unnecessarily large aggregation coefficients. Classification loss on server examples selects a merge through two dual variables without needing predefined alignment thresholds. Experiments across CIFAR-10, CIFAR-100, and SVHN demonstrate performance gains over standard one-round FedAvg.",
+   "impact": "This approach could help developers and researchers improve model aggregation in one-shot federated learning scenarios where client data distributions are heterogeneous. The use of reference-guided weighting may provide better performance even when server data is extremely scarce.",
+   "keyPoints": [
+    "FedQCal uses a reference model trained on a small labeled server set to define alignment requirements.",
+    "A minimum-norm quadratic program (QP) enforces the requirements and prevents excessively large aggregation coefficients.",
+    "Two dual variables use server classification loss to select a merge without preset alignment thresholds.",
+    "Experiments on CIFAR-10, CIFAR-100, and SVHN show improvements over one-round FedAvg."
+   ]
+  },
+  "km": {
+   "title": "FedQCal: ការសរសេរកម្មវិធីបួនជ្រុងជាមួយនឹងការកែតម្រូវចន្លោះពីរសម្រាប់ ការរៀនសហការគ្នាមួយសន្លឹក",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ FedQCal ដើម្បីដោះស្រាយបញ្ហានៃការបញ្ចូលម៉ូដែលអតិថិជនខុសៗគ្នា បន្ទាប់ពីការផ្ទុកឡើងតែមួយដងក្នុងការរៀនសហការគ្នា។ វិធីសាស្ត្រនេះប្រើប្រាស់ชุดម៉ូដែលយោងតូចមួយនៅលើ სერቨር ដើម្បីកំណត់តម្រូវការតម្រឹមសម្រាប់ការចងក្រង។ ការពិសោធន៍នៅលើ CIFAR-10, CIFAR-100 និង SVHN បង្ហាញពីការកែលម្អលើ FedAvg ធម្មតា។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ក្នុងការកែលម្អការបញ្ចូលម៉ូដែលក្នុងស្ថានភាពរៀនសហការគ្នាដែលទិន្នន័យអតិថិជនមានភាពខុសគ្នា។",
+   "keyPoints": [
+    "FedQCal ប្រើប្រាស់ម៉ូដែលយោងដើម្បីកំណត់តម្រូវការតម្រឹម។",
+    "កម្មវិធីបួនជ្រុងកម្រិតអប្បបរមាអនុវត្តតម្រូវការទាំងនេះ។",
+    "ការពិសោធន៍បង្ហាញពីភាពប្រសើរឡើងលើ FedAvg មួយជុំ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "FedQCal：用于单次联邦学习的带双空间校准的二次规划",
+   "summary": "研究人员推出了 FedQCal，以解决联邦学习中在单次上传后合并异构客户端模型的难题。该方法利用在小型标记服务器集上训练的参考模型来定义聚合的对齐要求。通过最小范数二次规划强制执行这些要求，并通过分类损失通过两个对偶变量选择合并。在 CIFAR-10、CIFAR-100 和 SVHN 上的实验表明其优于单轮 FedAvg。",
+   "impact": "该方法可能有助于开发人员和研究人员改善异构客户端数据环境下的单次联邦学习模型聚合效果。即使服务器数据非常稀缺，参考引导加权也能提供更好的性能。",
+   "keyPoints": [
+    "FedQCal 使用在少量标记服务器数据上训练的参考模型来定义对齐要求。",
+    "最小范数二次规划用于强制执行要求并避免过大的聚合系数。",
+    "利用服务器分类损失通过两个对偶变量选择合并结果。",
+    "在 CIFAR-10、CIFAR-100 和 SVHN 数据集上进行的实验显示出性能提升。"
+   ]
+  },
+  "ko": {
+   "title": "FedQCal: 원샷 연합 학습을 위한 이중 공간 보정이 포함된 이차 계획법",
+   "summary": "연구원들은 연합 학습에서 단일 업로드 후 이종 클라이언트 모델을 결합하는 문제를 해결하기 위해 FedQCal을 제안했습니다. 이 방법은 소규모 레이블이 지정된 서버 세트에서 훈련된 참조 모델을 사용하여 집계에 대한 정렬 요구 사항을 정의합니다. 최소 노름 이차 계획법을 통해 이러한 요구 사항을 적용하고, 서버 분류 손실을 기반으로 병합을 선택합니다. CIFAR-10, CIFAR-100, SVHN에서의 실험은 기존 원라운드 FedAvg 대비 성능 향상을 보여줍니다.",
+   "impact": "이 접근 방식은 클라이언트 데이터 분포가 이종인 원샷 연합 학습 시나리오에서 개발자와 연구자가 모델 집계를 개선하는 데 도움이 될 수 있습니다. 서버 데이터가 매우 부족한 경우에도 참조 기반 가중치 부여가 더 나은 성능을 제공할 수 있습니다.",
+   "keyPoints": [
+    "FedQCal은 소규모 레이블 서버 세트에서 훈련된 참조 모델을 사용하여 정렬 요구 사항을 정의합니다.",
+    "최소 노름 이차 계획법(QP)이 요구 사항을 강제하고 과도하게 큰 집계 계수를 방지합니다.",
+    "서버 예제의 분류 손실이 사전 설정된 임계값 없이 두 개의 이중 변수를 통해 병합을 선택합니다.",
+    "CIFAR-10, CIFAR-100, SVHN에서의 실험을 통해 성능 향상이 입증되었습니다."
+   ]
+  }
+ }
+}

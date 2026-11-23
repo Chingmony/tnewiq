@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "668ae3f71aca6185",
+ "contentHash": "b91dae62f1dd92b8",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T02:57:16.255Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Performance Optimization | zorm v1.8.7 Released",
+   "summary": "The lightweight Go ORM zorm has released version v1.8.7 with a focus on performance optimization. zorm is a zero-dependency, zero-intrusion distributed transaction ORM that is based on native SQL statements. It supports multiple databases including dm, kingbase, shentong, gbase, TDengine, mysql, postgresql, oracle, mssql, sqlite, db2, and clickhouse.",
+   "impact": "Developers using zorm could benefit from the performance optimizations in version v1.8.7. The update may improve database operations for projects utilizing this lightweight ORM.",
+   "keyPoints": [
+    "zorm v1.8.7 has been released with performance optimizations.",
+    "It is a lightweight Go ORM with zero dependencies and zero-intrusion distributed transactions.",
+    "It supports a wide range of databases using native SQL statements for a lower learning curve."
+   ]
+  },
+  "km": {
+   "title": "ការបង្កើនប្រសិទ្ធភាព | zorm v1.8.7 ត្រូវបានចេញផ្សាយ",
+   "summary": "ORM ប្រភេទស្រាលសម្រាប់ Go គឺ zorm បានចេញផ្សាយកំណែ v1.8.7 ដោយផ្តោតលើការបង្កើនប្រសិទ្ធភាពការងារ។ zorm គឺជា ORM ប្រភេទ zero-dependency និង zero-intrusion distributed transactions ដែលផ្អែកលើកូដ SQL ដើម។ វាគាំទ្រមូលដ្ឋានទិន្នន័យជាច្រើនដូចជា dm, kingbase, shentong, gbase, TDengine, mysql, postgresql, oracle, mssql, sqlite, db2 និង clickhouse។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ដែលប្រើប្រាស់ zorm អាចទទួលបានអត្ថប្រយោជន៍ពីការបង្កើនប្រសិទ្ធភាពនៅក្នុងកំណែ v1.8.7 នេះ។ ការអាប់ដេតនេះអាចជួយកែលម្អប្រតិបត្តិការមូលដ្ឋានទិន្នន័យសម្រាប់គម្រោងនានា។",
+   "keyPoints": [
+    "zorm v1.8.7 ត្រូវបានចេញផ្សាយជាមួយនឹងការបង្កើនប្រសិទ្ធភាព។",
+    "វាគឺជា Go ORM ប្រភេទស្រាលដែលមានប្រតិបត្តិការចែកចាយដោយគ្មានការជ្រៀតជ្រែក។",
+    "វាគាំទ្រមូលដ្ឋានទិន្នន័យជាច្រើនដោយប្រើប្រាស់ពាក្យបញ្ជា SQL ដើម។"
+   ]
+  },
+  "zh-CN": {
+   "title": "性能优化 | zorm v1.8.7 发布",
+   "summary": "Go 轻量级 ORM 框架 zorm 现已发布 v1.8.7 版本，主要带来了性能优化。zorm 是一个零依赖、零侵入分布式事务的 ORM，基于原生 SQL 语句，具有较低的学习成本和更优的性能。它支持多种数据库，包括 dm、kingbase、shentong、gbase、TDengine、mysql、postgresql、oracle、mssql、sqlite、db2、clickhouse 等。",
+   "impact": "使用 zorm 的开发者可能会从 v1.8.7 版本的性能优化中受益。该更新可能会为依赖此轻量级 ORM 的项目带来更好的数据库操作效率。",
+   "keyPoints": [
+    "zorm v1.8.7 版本发布并带来了性能优化。",
+    "该项目是一个零依赖、零侵入分布式事务的 Go 轻量 ORM。",
+    "基于原生 SQL 语句并支持众多主流及国产数据库。"
+   ]
+  },
+  "ko": {
+   "title": "성능 최적화 | zorm v1.8.7 출시",
+   "summary": "Go 경량 ORM인 zorm이 성능 최적화에 초점을 맞춘 v1.8.7 버전을 출시했습니다. zorm은 제로 종속성과 제로 침투 분산 트랜잭션을 제공하는 ORM으로 네이티브 SQL 문을 기반으로 합니다. dm, kingbase, shentong, gbase, TDengine, mysql, postgresql, oracle, mssql, sqlite, db2, clickhouse 등 다양한 데이터베이스를 지원합니다.",
+   "impact": "zorm을 사용하는 개발자는 v1.8.7 버전의 성능 최적화로부터 이점을 얻을 수 있습니다. 이번 업데이트는 해당 경량 ORM을 사용하는 프로젝트의 데이터베이스 작업을 개선할 수 있습니다.",
+   "keyPoints": [
+    "성능 최적화를 포함한 zorm v1.8.7이 출시되었습니다.",
+    "종속성이 없고 침투가 없는 분산 트랜잭션을 지원하는 Go 경량 ORM입니다.",
+    "네이티브 SQL 문 기반으로 학습 비용이 낮고 성능이 우수합니다."
+   ]
+  }
+ }
+}

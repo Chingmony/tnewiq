@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "23d54ab478c9fa06",
+ "contentHash": "d7442007f5d14919",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T02:59:14.305Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "EDAGoat: An EDA-Aware Agent for Project-Level GPU Optimization",
+   "summary": "Researchers introduced EDAGoat, an EDA-aware GPU optimization agent designed to automate expert-engineered GPU tools. It features an optimization enhancement mode using cross-project GPU optimization patterns and a mandatory validation mode to test edited programs against EDA constraints. Evaluations across five GPU EDA projects demonstrate that EDAGoat can improve speedup metrics while preserving design correctness and quality.",
+   "impact": "This approach could help developers and technology users by automating complex GPU optimizations without compromising correctness or design quality. Security teams and developers may benefit from structured validation modes that enforce constraints during automated code edits.",
+   "keyPoints": [
+    "EDAGoat is introduced as an EDA-aware GPU optimization agent for project-level tasks.",
+    "The agent includes optimization enhancement (OE) and mandatory validation (MV) modes.",
+    "Benchmarks covered five GPU EDA projects across four task families and 55 circuit inputs.",
+    "Results showed improved geometric mean speedups while maintaining design correctness and quality."
+   ]
+  },
+  "km": {
+   "title": "EDAGoat៖ ភ្នាក់ងារដែលយល់ដឹងពី EDA សម្រាប់ការបង្កើនប្រសិទ្ធភាព GPU កម្រិតគម្រោង",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ EDAGoat ដែលជាភ្នាក់ងារបង្កើនប្រសិទ្ធភាព GPU ដឹងពី EDA ត្រូវបានបង្កើតឡើងដើម្បីស្វ័យប្រវត្តិកម្មឧបករណ៍ GPU ដែលរចនាដោយអ្នកជំនាញ។ វាមានមុខងារបង្កើនប្រសិទ្ធភាព និងរបៀបផ្ទៀងផ្ទាត់ជាកាតព្វកិច្ចដើម្បីសាកល្បងកម្មវិធីដែលបានកែសម្រួលប្រឆាំងនឹងឧបសគ្គ EDA ។ ការវាយតម្លៃលើគម្រោង EDA របស់ GPU ចំនួនប្រាំបង្ហាញថា EDAGoat អាចកែលម្អរង្វាស់ល្បឿនខណៈពេលដែលរក្សាបាននូវភាពត្រឹមត្រូវ និងគុណភាពនៃការរចនា។",
+   "impact": "វិធីសាស្រ្តនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដោយស្វ័យប្រវត្តិកម្មការបង្កើនប្រសិទ្ធភាព GPU ស្មុគស្មាញដោយមិនប៉ះពាល់ដល់ភាពត្រឹមត្រូវ។ ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍អាចទទួលបានផលប្រយោជន៍ពីរបៀបផ្ទៀងផ្ទាត់ដែលមានរចនាសម្ព័ន្ធ។",
+   "keyPoints": [
+    "EDAGoat ត្រូវបានណែនាំជាភ្នាក់ងារបង្កើនប្រសិទ្ធភាព GPU ដឹងពី EDA សម្រាប់កិច្ចការកម្រិតគម្រោង។",
+    "ភ្នាក់ងារនេះរួមបញ្ចូលទាំងរបៀបបង្កើនប្រសិទ្ធភាព និងរបៀបផ្ទៀងផ្ទាត់ជាកាតព្វកិច្ច។",
+    "ការវាយតម្លៃបានគ្របដណ្តប់លើគម្រោង GPU EDA ចំនួនប្រាំ across បួនគ្រួសារភារកិច្ច និងការបញ្ចូល κύკლos ចំនួន ៥៥។",
+    "លទ្ធផលបានបង្ហាញពីការបង្កើនល្បឿនធរណីមាត្រប្រសើរឡើងខណៈពេលដែលរក្សាបាននូវភាពត្រឹមត្រូវនៃការរចនា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "EDAGoat：用于项目级 GPU 优化的 EDA 感知智能体",
+   "summary": "研究人员推出了 EDAGoat，这是一个 EDA 感知的 GPU 优化智能体，旨在实现专家设计的 GPU 工具的自动化。它具有使用跨项目 GPU 优化模式的优化增强模式以及针对 EDA 约束测试编辑程序的强制验证模式。跨五个 GPU EDA 项目的评估表明，EDAGoat 可以在保持设计正确性和质量的同时提高加速指标。",
+   "impact": "这种方法可以通过在不妥协正确性或设计质量的情况下自动化复杂的 GPU 优化，来帮助开发人员和技术用户。安全团队和开发人员可能会受益于在自动化代码编辑期间强制执行约束的结构化验证模式。",
+   "keyPoints": [
+    "EDAGoat 被引入作为用于项目级任务的 EDA 感知 GPU 优化智能体。",
+    "该智能体包含优化增强模式和强制验证模式。",
+    "基准测试涵盖了四个任务族和 55 个电路输入中的五个 GPU EDA 项目。",
+    "结果显示了几何平均加速的提高，同时保持了设计的正确性和质量。"
+   ]
+  },
+  "ko": {
+   "title": "EDAGoat: 프로젝트 수준의 GPU 최적화를 위한 EDA 인식 에이전트",
+   "summary": "연구진은 전문가가 설계한 GPU 도구를 자동화하기 위해 설계된 EDA 인식 GPU 최적화 에이전트인 EDAGoat를 발표했습니다. 이 에이전트는 크로스 프로젝트 GPU 최적화 패턴을 사용하는 최적화 강화 모드와 편집된 프로그램을 EDA 제약 조건에 대해 테스트하는 필수 검증 모드를 갖추고 있습니다. 5개의 GPU EDA 프로젝트에 대한 평가는 디자인의 정확성과 품질을 유지하면서 속도 향상 지표를 개선할 수 있음을 보여줍니다.",
+   "impact": "이 접근 방식은 정확성이나 디자인 품질을 손상시키지 않으면서 복잡한 GPU 최적화를 자동화함으로써 개발자와 기술 사용자에게 도움을 줄 수 있습니다. 보안 팀과 개발자는 자동화된 코드 편집 중에 제약 조건을 강제하는 구조화된 검증 모드의 혜택을 받을 수 있습니다.",
+   "keyPoints": [
+    "EDAGoat는 프로젝트 수준의 작업을 위한 EDA 인식 GPU 최적화 에이전트로 소개되었습니다.",
+    "이 에이전트는 최적화 강화 모드와 필수 검증 모드를 포함합니다.",
+    "벤치마크는 4개의 작업 패밀리와 55개의 회로 입력에 걸쳐 5개의 GPU EDA 프로젝트를 다루었습니다.",
+    "결과는 디자인 정확성과 품질을 유지하면서 기하학적 평균 속도 향상이 증가했음을 보여줍니다."
+   ]
+  }
+ }
+}

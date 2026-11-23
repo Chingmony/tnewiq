@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f3d766a08b5a99e6",
+ "contentHash": "5262db0398de5385",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T02:59:03.546Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "DepthMSA: Combinatorial Training and Budget-Aware Depth Allocation for Multimodal Sentiment Analysis",
+   "summary": "Researchers have proposed DepthMSA, a budget-aware framework for multimodal sentiment analysis that addresses the mismatch between the computational cost of modality encoders and their predictive benefits. The framework uses combinatorial anytime training to supervise the fusion head across cross-modal depth combinations using a single full-depth encoder pass. At inference, a training-free allocator selects the best configuration under a sample-specific FLOPs budget. On CMU-MOSEI, DepthMSA maintains competitive accuracy while reducing measured FLOPs significantly.",
+   "impact": "This approach could help developers and technology users optimize resource consumption for multimodal models by reducing computational overhead without significant accuracy loss. Security teams or performance engineers may find the budget-aware allocation useful for managing inference latency and efficiency.",
+   "keyPoints": [
+    "DepthMSA supports flexible modality depths within a single multimodal sentiment analysis model.",
+    "It features combinatorial anytime training and a training-free, cost-aware allocator for inference.",
+    "On CMU-MOSEI, it maintains accuracy within one percentage point of the full-depth model while reducing FLOPs by 45 percent, or 82 percent with a skip-enabled variant.",
+    "The project is publicly available online."
+   ]
+  },
+  "km": {
+   "title": "DepthMSA: ការបណ្តុះបណ្តាលបន្សំ និងការបែងចែកជម្រៅផ្អែកលើថវិកាសម្រាប់ការវិភាគមតិយោបល់ពហុទម្រង់",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើឡើង DepthMSA ដែលជាក្របខ័ណ្ឌគាំទ្រថវិកាសម្រាប់ការវិភាគមតិយោបល់ពហុទម្រង់ ដើម្បីដោះស្រាយបញ្ហាគម្លាតរវាងថ្លៃដើមគណនានៃឧបករណ៍អ៊ិនកូដ និងផលប្រយោជន៍ព្យាករណ៍។ ក្របខ័ណ្ឌនេះប្រើប្រាស់ការបណ្តុះបណ្តាលបន្សំដើម្បីគ្រប់គ្រងក្បាលបញ្ចូលគ្នាឆ្លងទម្រង់។ នៅពេលទាញយកការយល់ដឹង កម្មវិធីបែងចែកជ្រើសរើសការកំណត់រចនាសម្ព័ន្ធក្រោមថវិកា FLOPs ជាក់លាក់។ នៅលើ CMU-MOSEI វាអាចរក្សាភាពត្រឹមត្រូវខណៈពេលដែលកាត់បន្ថយ FLOPs យ៉ាងច្រើន។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការបង្កើនប្រសិទ្ធភាពការប្រើប្រាស់ធនធានសម្រាប់ម៉ូដែលពហុទម្រង់ដោយកាត់បន្ថយបន្ទុកគណនា។ ការបែងចែកផ្អែកលើថវិកាក៏អាចមានប្រយោជន៍ផងដែរសម្រាប់ការគ្រប់គ្រងភាពយឺតយ៉ាវ និងប្រសិទ្ធភាពនៃការទាញយកការយល់ដឹង។",
+   "keyPoints": [
+    "DepthMSA គាំទ្រជម្រៅទម្រង់ដែលអាចបត់បែនបាននៅក្នុងម៉ូដែលតែមួយ។",
+    "វាមានមុខងារបណ្តុះបណ្តាលបន្សំនិងកម្មវិធីបែងចែកដែលដឹងពីតម្លៃសម្រាប់ការទាញយកការយល់ដឹង។",
+    "នៅលើ CMU-MOSEI វាល់រក្សាភាពត្រឹមត្រូវក្នុងរង្វង់មួយភាគរយខណៈពេលដែលកាត់បន្ថយ FLOPs ៤៥ ភាគរយ។",
+    "គម្រោងនេះមាននៅលើគេហទំព័រសាធារណៈ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "DepthMSA：用于多模态情感分析的组合训练与预算感知深度分配",
+   "summary": "研究人员提出了 DepthMSA，这是一个用于多模态情感分析的预算感知框架，旨在解决模态编码器的计算成本与其预测效益之间的不匹配问题。该框架引入了组合式随时训练，通过单次全深度编码器传递来监督跨模态深度组合的融合头。在推理时，无训练的成本感知分配器会在特定样本的 FLOPs 预算下选择误差最低的配置。在 CMU-MOSEI 数据集上，DepthMSA 能够在保持全深度模型准确率的同时大幅减少 FLOPs。",
+   "impact": "这种方法可以帮助开发人员和技术用户优化多模态模型的资源消耗，在不显著损失准确率的情况下降低计算开销。安全团队或性能工程师可能会发现这种预算感知分配有助于管理推理延迟和效率。",
+   "keyPoints": [
+    "DepthMSA 在单个多模态情感分析模型中支持灵活的模态深度。",
+    "它引入了组合式随时训练以及免训练的成本感知分配器。",
+    "在 CMU-MOSEI 上，它在保持全深度模型准确率的同时将测得的 FLOPs 降低了 45%。",
+    "该项目代码和相关内容已在网上开源。"
+   ]
+  },
+  "ko": {
+   "title": "DepthMSA: 다중 모달 감성 분석을 위한 조합 학습 및 예산 인식 깊이 할당",
+   "summary": "연구원들은 모달리티 인코더의 계산 비용과 예측 이점 간의 불일치를 해결하기 위한 다중 모달 감성 분석용 예산 인식 프레임워크인 DepthMSA를 제안했습니다. 이 프레임워크는 단일 전체 깊이 인코더 패스를 사용하여 모든 교차 모달 깊이 조합에 걸쳐 융합 헤드를 감독하는 조합형 상시 학습을 도입합니다. 추론 시 훈련이 필요 없는 비용 인식 할당기가 샘플별 FLOPs 예산 하에서 검증 보정된 오차가 가장 낮은 구성을 선택합니다. CMU-MOSEI에서 DepthMSA는 정확도를 유지하면서 측정된 FLOPs를 크게 줄였습니다.",
+   "impact": "이 접근 방식은 개발자와 기술 사용자가 상당한 정확도 저하 없이 계산 오버헤드를 줄여 다중 모달 모델의 리소스 소비를 최적화하는 데 도움이 될 수 있습니다. 보안 팀이나 성능 엔지니어는 예산 인식 할당이 추론 지연 시간과 효율성을 관리하는 데 유용하다는 것을 알 수 있습니다.",
+   "keyPoints": [
+    "DepthMSA는 단일 다중 모달 감성 분석 모델 내에서 유연한 모달리티 깊이를 지원합니다.",
+    "조합형 상시 학습과 훈련이 필요 없는 비용 인식 할당기를 도입했습니다.",
+    "CMU-MOSEI에서 전체 깊이 모델의 1퍼센트 이내 정확도를 유지하면서 FLOPs를 45퍼센트 줄였습니다.",
+    "프로젝트는 온라인에서 공개되어 있습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "cd04bd6acb09647c",
+ "contentHash": "7e652039bdf8eb8a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T02:56:46.397Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Smart Party Branch v1.3 Released: 16 Branch Ledger Modules and Docker One-Command Service Startup",
+   "summary": "The open-source project Smart Party Branch has released version 1.3, an administrative office management system designed for grassroots party branches. Built with Flask and SQLite for single-container deployment under the MIT license, it keeps all data locally without relying on cloud services. This release integrates daily branch management into a single database featuring 16 business modules, five permission levels, five types of automatic early warnings, and one-click work report generation.",
+   "impact": "Developers and technology users looking for local, self-hosted management solutions may find the single-container Docker deployment approach useful for keeping data on-premises without cloud dependencies.",
+   "keyPoints": [
+    "Smart Party Branch v1.3 is an office management system for grassroots party branches.",
+    "It uses Flask and SQLite for single-container deployment and operates under the MIT license.",
+    "All data is stored locally without cloud service dependencies.",
+    "The version includes 16 business modules, five permission levels, five types of automatic early warnings, and one-click work report generation."
+   ]
+  },
+  "km": {
+   "title": "Smart Party Branch v1.3 បានចេញផ្សាយ៖ โมดูลບັນຊີສາខា ១៦ និងការចាប់ផ្តើមសេវាកម្ម Docker មួយពាក្យបញ្ជា",
+   "summary": "គម្រោងកូដបើកចំហ Smart Party Branch បានចេញផ្សាយកំណែ v1.3 ដែលជាប្រព័ន្ធគ្រប់គ្រងការិយាល័យប្រចាំថ្ងៃសម្រាប់សាខាបក្សមូលដ្ឋាន។ វាត្រូវបានបង្កើតឡើងដោយប្រើប្រាស់ Flask និង SQLite សម្រាប់ការដាក់ពង្រាយកុងតឺន័រតែមួយក្រោមអាជ្ញាប័ណ្ណ MIT ដោយរក្សាទុកទិន្នន័យទាំងអស់ក្នុងស្រុកដោយមិនពឹងផ្អែកលើសេវាកម្មពពក។ កំណែនេះដាក់បញ្ចូលការគ្រប់គ្រងប្រចាំថ្ងៃទៅក្នុងមូលដ្ឋានទិន្នន័យតែមួយ ដែលមានម៉ូុលអាជីវកម្ម ១៦ កម្រិតសិទ្ធិប្រាំ និងប្រភេទនៃការព្រមានទុកជាមុនស្វ័យប្រវត្តិចំនួនប្រាំ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាដែលស្វែងរកដំណោះស្រាយគ្រប់គ្រងក្នុងមូលដ្ឋានអាចប្រើប្រាស់វិធីសាស្ត្រដាក់ពង្រាយកុងតឺន័រ Docker ដើម្បីរក្សាទុកទិន្នន័យក្នុងមូលដ្ឋានដោយគ្មានការពឹងផ្អែកលើពពក។",
+   "keyPoints": [
+    "Smart Party Branch v1.3 គឺជាប្រព័ន្ធគ្រប់គ្រងការិយាល័យសម្រាប់សាខាបក្សមូលដ្ឋាន។",
+    "វាប្រើប្រាស់ Flask និង SQLite សម្រាប់ការដាក់ពង្រាយកុងតឺន័រតែមួយក្រោមអាជ្ញាប័ណ្ណ MIT។",
+    "ទិន្នន័យទាំងអស់ត្រូវបានរក្សាទុកក្នុងស្រុកដោយគ្មានការពឹងផ្អែកលើសេវាកម្មពពក។",
+    "កំណែនេះរួមបញ្ចូលម៉ូុលអាជីវកម្ម ១៦ កម្រិតសិទ្ធិប្រាំ និងការបង្កើតរបាយការណ៍ការងារដោយចុចតែម្តង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "智慧党支部 v1.3 发布：16 个支部台账模块，Docker 一条命令起服务",
+   "summary": "开源项目“智慧党支部”发布了 v1.3 版本，这是一个面向基层党支部的日常办公管理系统。该系统采用 Flask + SQLite 单容器部署，遵循 MIT 协议，所有数据均保存在本地且不依赖云服务。本次版本将日常管理收进一个数据库中，包含 16 个业务模块、五档权限、五类自动预警以及一键生成工作报告功能。",
+   "impact": "寻找本地化、自托管管理解决方案的开发者和技术用户可能会发现，这种单容器 Docker 部署方式能够有效将数据保留在本地，避免对云服务的依赖。",
+   "keyPoints": [
+    "智慧党支部 v1.3 是一个面向基层党支部的日常办公管理系统。",
+    "采用 Flask + SQLite 单容器部署，遵循 MIT 协议。",
+    "所有数据均保存在本地，不依赖云服务。",
+    "包含 16 个业务模块、五档权限、五类自动预警和一键生成工作报告功能。"
+   ]
+  },
+  "ko": {
+   "title": "Smart Party Branch v1.3 출시: 16개 지부 장부 모듈 및 Docker 단일 명령어 서비스 시작",
+   "summary": "오픈 소스 프로젝트 Smart Party Branch가 풀뿌리 당 지부를 위한 일상 업무 관리 시스템인 v1.3을 출시했습니다. Flask와 SQLite를 사용한 단일 컨테이너 배포로 MIT 라이선스에 따라 구축되었으며, 클라우드 서비스에 의존하지 않고 모든 데이터를 로컬에 저장합니다. 이번 버전은 일상적인 지부 관리를 단일 데이터베이스에 통합하여 16개의 비즈니스 모듈, 5단계 권한, 5가지 자동 경고, 원클릭 업무 보고서 생성 기능을 제공합니다.",
+   "impact": "로컬 및 자체 호스팅 관리 솔루션을 찾는 개발자와 기술 사용자는 단일 컨테이너 Docker 배포 방식을 통해 클라우드 의존성 없이 데이터를 로컬에 유지할 수 있음을 확인할 수 있습니다.",
+   "keyPoints": [
+    "Smart Party Branch v1.3은 풀뿌리 당 지부를 위한 업무 관리 시스템입니다.",
+    "MIT 라이선스에 따라 Flask와 SQLite를 사용한 단일 컨테이너로 배포됩니다.",
+    "모든 데이터는 클라우드 의존성 없이 로컬에 저장됩니다.",
+    "16개의 비즈니스 모듈, 5단계 권한, 5가지 자동 경고 및 원클릭 업무 보고서 생성 기능을 포함합니다."
+   ]
+  }
+ }
+}

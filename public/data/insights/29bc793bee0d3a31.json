@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "29bc793bee0d3a31",
+ "contentHash": "341f6343a93af5e5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T03:01:03.240Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Felid: A Flexible and Efficient Design for Transformer Fine-Tuning over Encrypted Data",
+   "summary": "Researchers introduced Felid, a framework for transformer fine-tuning over Fully Homomorphic Encryption that targets bottlenecks at the ciphertext operation level. The system uses a new packing strategy for flexible batching and operation-specific matrix evaluation algorithms to minimize ciphertext rotations, relinearizations, and bootstrapping invocations. It also integrates functional bootstrapping to fold element-wise activation functions directly into the bootstrapping step.",
+   "impact": "This approach could allow developers and security teams to fine-tune large language models on sensitive data with significantly improved performance, achieving an 8 times speedup over existing state-of-the-art methods.",
+   "keyPoints": [
+    "Proposes a novel packing strategy supporting batching over a flexible number of inputs.",
+    "Reduces ciphertext rotations and relinearizations by 30 times across all matrix operations.",
+    "Achieves a 2.5 times reduction in FHE bootstrapping invocations over the entire computation flow.",
+    "Completes fine-tuning of a 2-layer BERT-style model with a batch size of 16 in 650 seconds."
+   ]
+  },
+  "km": {
+   "title": "Felid៖ ការរចនាដ៏បត់បែន និងមានប្រសិទ្ធភាពសម្រាប់ការកែសម្រួល Transformer លើទិន្នន័យបានអ៊ិនគ្រីប",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ Felid ដែលជាក្របខ័ណ្ឌមួយសម្រាប់ការកែសម្រួល transformer លើ Fully Homomorphic Encryption ដោយផ្តោតលើការកាត់បន្ថយបញ្ហាកកស្ទះនៅកម្រិតប្រតិបត្តិការ ciphertext ។ ប្រព័ន្ធនេះប្រើប្រាស់យុទ្ធសាស្ត្រខ្ចប់ថ្មី និងក្បួនដោះស្រាយការវាយតម្លៃម៉ាទ្រីសជាក់លាក់ ដើម្បីកាត់បន្ថយការបង្វិល ciphertext ការ relinearizations និងការហៅ bootstrapping ។ វាក៏រួមបញ្ចូលផងដែរនូវ functional bootstrapping ដើម្បីបញ្ចូលមុខងារ activation ទៅក្នុងជំហាន bootstrapping ដោយផ្ទាល់។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខអាចកែសម្រួលគំរូភាសាខ្នាតធំលើទិន្នន័យរសើបដោយមានប្រសិទ្ធភាពខ្ពស់ជាងមុន និងបង្កើនល្បឿនបាន 8 ដងបើធៀបនឹងវិធីសាស្ត្របច្ចុប្បន្ន។",
+   "keyPoints": [
+    "ស្នើឡើងនូវយុទ្ធសាស្ត្រខ្ចប់ថ្មីដែលគាំទ្រការដាក់ជាបាច់លើធាតុចូលដែលអាចបត់បែនបាន។",
+    "កាត់បន្ថយការបង្វិល ciphertext និង relinearizations ចំនួន 30 ដងលើរាល់ប្រតិបត្តិការម៉ាទ្រីស។",
+    "សម្រេចបានការកាត់បន្ថយការហៅ FHE bootstrapping ចំនួន 2.5 ដងលើដំណើរការគណនាទាំងមូល។",
+    "បញ្ចប់ការកែសម្រួលគំរូ BERT 2 កម្រិតដែលមានទំហំបាច់ 16 ក្នុងពេល 650 វិនាទី។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Felid：一种在加密数据上进行Transformer微调的灵活高效设计",
+   "summary": "研究人员推出了Felid，这是一个用于在全同态加密上进行Transformer微调的框架，专注于解决密文操作级别的瓶颈。该系统采用了一种支持灵活输入批处理的新打包策略，并设计了特定于操作的矩阵评估算法，以显著减少密文旋转、线性化重构和自举调用次数。此外，它利用函数式自举将逐元素激活函数的评估直接折叠到自举步骤中。",
+   "impact": "这种方法可以使开发人员和安全团队在敏感数据上微调大型语言模型时获得显著的性能提升，与现有最新技术相比实现了8倍的加速。",
+   "keyPoints": [
+    "提出了一种支持灵活输入批处理的新打包策略。",
+    "在所有矩阵操作中将密文旋转和线性化重构次数减少了30倍。",
+    "在整个计算流程中将FHE自举调用次数减少了2.5倍。",
+    "在650秒内完成了一个批大小为16的2层BERT风格模型的微调。"
+   ]
+  },
+  "ko": {
+   "title": "Felid: 암호화된 데이터에 대한 Transformer 파인튜닝을 위한 유연하고 효율적인 설계",
+   "summary": "연구원들은 암호문 연산 수준의 병목 현상을 해결하는 완전동형암호 기반 Transformer 파인튜닝 프레임워크인 Felid를 소개했습니다. 이 시스템은 유연한 입력 배치를 지원하는 새로운 패킹 전략을 사용하며, 암호문 회전, 재선형화, 부트스트래핑 호출 횟수를 크게 줄이는 연산별 행렬 평가 알고리즘을 설계했습니다. 또한 함수형 부트스트래핑을 활용하여 요소별 활성화 함수의 평가를 부트스트래핑 단계에 직접 통합합니다.",
+   "impact": "이 접근 방식은 개발자와 보안 팀이 민감한 데이터에 대해 대형 언어 모델을 훨씬 향상된 성능으로 파인튜닝할 수 있도록 지원하며, 최신 기술 대비 8배의 속도 향상을 달성할 수 있습니다.",
+   "keyPoints": [
+    "유연한 수의 입력에 대한 배치를 지원하는 새로운 패킹 전략을 제안합니다.",
+    "모든 행렬 연산에서 암호문 회전 및 재선형화를 30배 줄입니다.",
+    "전체 연산 흐름에서 FHE 부트스트래핑 호출을 2.5배 줄입니다.",
+    "배치 크기 16인 2계층 BERT 스타일 모델의 파인튜닝을 650초 만에 완료합니다."
+   ]
+  }
+ }
+}

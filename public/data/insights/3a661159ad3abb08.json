@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3a661159ad3abb08",
+ "contentHash": "e8831b97447e6713",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T02:58:19.290Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "LingSante-Pulse: Unified Physiological Pretraining through Random-Feature Prediction and Cross-Modal Alignment",
+   "summary": "Researchers introduce LingSante-Pulse, a unified physiological representation framework designed to learn from heterogeneous clinical monitoring and wearable device recordings. The approach uses a shared encoder along with pairwise cross-modal alignment, structured random-feature prediction, and masked waveform reconstruction to capture physiological relationships. In evaluations across 38 physiological task configurations, the frozen encoder achieved top dataset-balanced mean ranks in PPG, ECG, EEG, and EMG domains.",
+   "impact": "This framework could allow developers and researchers to utilize a single encoder for various physiological signals and sensor configurations. It may improve performance in multimodal assessments and single-sensor inference tasks like sleep staging and apnea screening.",
+   "keyPoints": [
+    "LingSante-Pulse is a unified physiological representation framework for heterogeneous recordings.",
+    "It uses pairwise cross-modal alignment, structured random-feature prediction, and masked waveform reconstruction.",
+    "The frozen encoder achieved the best dataset-balanced mean rank across PPG, ECG, EEG, and EMG domains.",
+    "It reached specific performance scores including a 0.7784 Macro-F1 on HMC sleep staging and 0.9183 AUROC on single-lead ECG apnea screening."
+   ]
+  },
+  "km": {
+   "title": "LingSante-Pulse: ការបណ្តុះបណ្តាលបុរេភាគសរីរសាស្ត្ររួបរួមតាមរយៈការព្យាករណ៍លក្ខណៈពិសេសចៃដន្យ និងការតម្រឹមកម្រិតឆ្លងទម្រង់",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ LingSante-Pulse ដែលជាក្របខ័ណ្ឌតំណាងសរីរសាស្ត្ររួបរួម ទូទៅ និងអាចបត់បែនបាន ដើម្បីរៀនពីកំណត់ត្រាផ្នែកគ្លីនិក និងឧបករណ៍ពាក់តាមដាន។ វិធីសាស្ត្រនេះប្រើប្រាស់អ៊ិនកូដឺរួមគ្នា រួមជាមួយនឹងការតម្រឹមកម្រិតឆ្លងទម្រង់ ការព្យាករណ៍លក្ខណៈពិសេសចៃដន្យ និងការបង្កើតរលកសញ្ញាឡើងវិញ។ វាយតម្លៃលើរចនាសម្ព័ន្ធកិច្ចការសរីរសាស្ត្រចំនួន ៣៨ អ៊ិនកូដឺនេះទទួលបានចំណាត់ថ្នាក់មធ្យមល្អបំផុតនៅក្នុងដែននីមួយៗ។",
+   "impact": "ក្របខ័ណ្ឌនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ប្រើប្រាស់អ៊ិនកូដឺតែមួយសម្រាប់សញ្ញាសរីរសាស្ត្រ និងការកំណត់រចនាសម្ព័ន្ធឧបករណ៍ផ្សេងៗ។ វាអាចបង្កើនលទ្ធផលក្នុងការវាយតម្លៃពហុទម្រង់ និងការសន្និដ្ឋានលើឧបករណ៍ចាប់សញ្ញាតែមួយ។",
+   "keyPoints": [
+    "LingSante-Pulse គឺជាក្របខ័ណ្ឌតំណាងសរីរសាស្ត្ររួបរួមសម្រាប់កំណត់ត្រាចម្រុះ។",
+    "វាប្រើប្រាស់ការតម្រឹមកម្រិតឆ្លងទម្រង់ ការព្យាករណ៍លក្ខណៈពិសេសចៃដន្យ និងការបង្កើតរលកសញ្ញាឡើងវិញ។",
+    "អ៊ិនកូដឺទទួលបានចំណាត់ថ្នាក់មធ្យមល្អបំផុតនៅក្នុងដែន PPG, ECG, EEG និង EMG។",
+    "វាទទួលបានពិន្ទុ Macro-F1 ០,៧៧៨៤ លើការវាយតម្លៃដំណាក់កាលគេង HMC និង AUROC ០,៩១៨៣ លើការពិនិត្យជំងឺដកដង្ហើមញាក់ពេលគេង ECG។"
+   ]
+  },
+  "zh-CN": {
+   "title": "LingSante-Pulse：通过随机特征预测和跨模态对齐的统一生理学预训练",
+   "summary": "研究人员推出了 LingSante-Pulse，这是一个统一的、通用的且灵活的生理表征框架，能够从临床监测和可穿戴设备异构记录中进行学习。该方法采用共享编码器，结合成对跨模态对齐、结构化随机特征预测和掩码波形重建来捕捉生理关系。在跨越 PPG、ECG、EEG 和 EMG 的 38 种通用生理任务配置中，固定编码器在各个领域均实现了最佳的数据集平衡平均排名。",
+   "impact": "该框架可能使开发者和研究人员能够使用单个编码器处理各种生理信号和传感器配置。它可能会提高多模态评估以及睡眠分期和心电图呼吸暂停筛查等单传感器推理任务的性能。",
+   "keyPoints": [
+    "LingSante-Pulse 是一个针对异构记录的统一生理表征框架。",
+    "它使用成对跨模态对齐、结构化随机特征预测和掩码波形重建。",
+    "固定编码器在 PPG、ECG、EEG 和 EMG 领域实现了最佳的数据集平衡平均排名。",
+    "在 HMC 数据集的多模态睡眠分期和单导联 ECG 呼吸暂停筛查中达到了显著的性能分数。"
+   ]
+  },
+  "ko": {
+   "title": "LingSante-Pulse: 무작위 특징 예측 및 교차 모달 정렬을 통한 통합 생리적 사전 학습",
+   "summary": "연구진은 임상 모니터링 및 웨어러블 기기 기록으로부터 학습하는 통합되고 범용적이며 유연한 생리적 표현 프레임워크인 LingSante-Pulse를 소개합니다. 이 접근 방식은 공유 인코더를 사용하며, 쌍별 교차 모달 정렬, 구조화된 무작위 특징 예측 및 마스크된 파형 재구성을 통해 생리적 관계를 학습합니다. PPG, ECG, EEG, EMG를 아우르는 38개의 일반 생리적 태스크 구성에서 고정된 인코더는 각 도메인에서 최고의 데이터셋 균형 평균 순위를 달성했습니다.",
+   "impact": "이 프레임워크는 개발자와 연구자가 다양한 생리적 신호와 센서 구성에 단일 인코더를 사용할 수 있도록 도울 수 있습니다. 수면 단계 분류 및 단일 리드 ECG 무호흡 스크리닝과 같은 다중 모달 평가 및 단일 센서 추론 작업의 성능을 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "LingSante-Pulse는 이질적인 기록을 위한 통합 생리적 표현 프레임워크입니다.",
+    "쌍별 교차 모달 정렬, 구조화된 무작위 특징 예측, 마스크된 파형 재구성을 사용합니다.",
+    "고정된 인코더는 PPG, ECG, EEG, EMG 도메인에서 최고 수준의 데이터셋 균형 평균 순위를 달성했습니다.",
+    "HMC 데이터셋에서 0.7784의 Macro-F1 점수와 단일 리드 ECG 무호흡 스크리닝에서 0.9183의 AUROC를 기록했습니다."
+   ]
+  }
+ }
+}

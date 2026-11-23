@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "4cc2f485dd6de060",
+ "contentHash": "e026e3b97160e8d1",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T03:02:20.298Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Co-Evolving Behavioral Agents and Detectors for Adaptive Information Operations",
+   "summary": "Researchers introduced IO-AI, a framework featuring simulated agents with engagement and evasion capabilities that train against detectors in turn. Tested on 20 Twitter IO campaigns, a detector trained sequentially on these adaptive agents reduced missed detections by 65% compared to archived campaign detectors. The framework also includes a behavioral distance metric using unlabeled posting histories to help select new groups for testing.",
+   "impact": "Security teams and platform defenders could improve their detection of adaptive actors by using co-evolved agent frameworks instead of relying solely on archived data. The behavioral distance metric may help security professionals prioritize which new actor groups to test first based on unlabeled posting histories.",
+   "keyPoints": [
+    "IO-AI is a framework that gives simulated agents engagement and evasion capabilities.",
+    "An adaptive detector trained on these agents reduced missed detections by 65% relative to archived campaign detectors.",
+    "Agents trained for engagement become easier to catch due to fast, emotional retweeting.",
+    "A behavioral distance metric correlates with detector performance on unseen groups."
+   ]
+  },
+  "km": {
+   "title": "ការវិវត្តរួមគ្នានៃភ្នាក់ងារអាកប្បកិរិយា និងឧបករណ៍រកឃើញសម្រាប់ប្រតិបត្តិការព័ត៌មានសម្របខ្លួន",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ IO-AI ដែលជាក្របខ័ណ្ឌមួយបំពាក់ភ្នាក់ងារក្លែងធ្វើជាមួយសមត្ថភាពចូលរួមនិងគេចវេសដើម្បីហ្វឹកហាត់ប្រឆាំងនឹងឧបករណ៍រកឃើញ។ ការធ្វើតេស្តនៅលើយុទ្ធនាការ Twitter IO ចំនួន ២០ បានបង្ហាញថាឧបករណ៍រកឃើញដែលបានហ្វឹកហាត់លើភ្នាក់ងារទាំងនេះបានកាត់បន្ថយការខកខានរកឃើញចំនួន ៦៥%។ ក្របខ័ណ្ឌនេះក៏ណែនាំផងដែរនូវរង្វាស់ចម្ងាយអាកប្បកិរិយាដើម្បីជួយជ្រើសរើសក្រុមថ្មីសម្រាប់ការធ្វើតេស្ត។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកការពារវេទិកាអាចនឹងកែលម្អការរកឃើញតួអង្គសម្របខ្លួនដោយប្រើប្រាស់ក្របខ័ណ្ឌភ្នាក់ងារវិវត្តរួមគ្នា។ រង្វាស់ចម្ងាយអាកប្បកិរិយាអាចជួយដល់អ្នកជំនាញសន្តិសុខក្នុងការកំណត់អាទិភាពលើក្រុមតួអង្គថ្មីសម្រាប់ការធ្វើតេស្តដំបូង។",
+   "keyPoints": [
+    "IO-AI គឺជាក្របខ័ណ្ឌផ្តល់ឱ្យភ្នាក់ងារនូវសមត្ថភាពចូលរួមនិងគេចវេស។",
+    "ឧបករណ៍រកឃើញសម្របខ្លួនបានកាត់បន្ថយការខកខានរកឃើញចំនួន ៦៥%។",
+    "ភ្នាក់ងារដែលហ្វឹកហាត់សម្រាប់ការចូលរួមកាន់តែងាយស្រួលចាប់បាន។",
+    "រង្វាស់ចម្ងាយអាកប្បកិរិយាប្រៀបធៀបក្រុមគណនីដោយប្រើប្រាស់ប្រវត្តិបង្ហោះគ្មានស្លាក។"
+   ]
+  },
+  "zh-CN": {
+   "title": "用于自适应信息行动的共同进化行为智能体与检测器",
+   "summary": "研究人员推出了 IO-AI 框架，该框架赋予模拟智能体互动和规避能力，使其与检测器交替训练。在 20 个 Twitter IO 活动上进行测试时，基于这些自适应智能体训练的检测器将漏报率降低了 65%。该框架还引入了一种行为距离metric，利用无标签的发帖历史来帮助选择用于测试的新群体。",
+   "impact": "安全团队和平台防御者可以通过使用共同进化的智能体框架，而不是仅依赖历史归档数据，来提高对自适应攻击者的检测能力。行为距离 metric 可能有助于安全专业人员根据无标签的发帖历史优先测试哪些新的攻击者群体。",
+   "keyPoints": [
+    "IO-AI 是一个赋予模拟智能体互动和规避能力的框架。",
+    "针对这些自适应智能体训练的检测器将漏报率降低了 65%。",
+    "经过互动训练的智能体由于快速、情绪化的转发而更容易被抓获。",
+    "行为距离 metric 可用于通过无标签的发帖历史选择首先测试哪些新群体。"
+   ]
+  },
+  "ko": {
+   "title": "적응형 정보 작전을 위한 행동 에이전트와 탐지기의 공동 진화",
+   "summary": "연구원들은 참여 및 회피 능력을 가진 시뮬레이션 에이전트가 탐지기와 번갈아 훈련하는 프레임워크인 IO-AI를 선보였습니다. 20개의 Twitter IO 캠페인에서 테스트한 결과, 이러한 적응형 에이전트를 기반으로 훈련된 탐지기는 미탐율을 65% 줄였습니다. 이 프레임워크는 또한 라벨이 없는 게시 기록을 사용하여 새로운 그룹을 선택하는 데 도움을 주는 행동 거리 측정법을 도입했습니다.",
+   "impact": "보안 팀과 플랫폼 방어자는 아카이브된 데이터에만 의존하는 대신 공동 진화된 에이전트 프레임워크를 사용하여 적응형 행위자에 대한 탐지 성능을 향상시킬 수 있습니다. 행동 거리 측정법은 보안 전문가가 라벨이 없는 게시 기록을 기반으로 먼저 테스트할 새로운 행위자 그룹을 우선 순위화하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "IO-AI는 시뮬레이션된 에이전트에게 참여 및 회피 능력을 부여하는 프레임워크입니다.",
+    "적응형 에이전트로 훈련된 탐지기는 미탐율을 65% 줄였습니다.",
+    "참여를 위해 훈련된 에이전트는 빠르고 감정적인 리트윗으로 인해 더 쉽게 적발됩니다.",
+    "행동 거리 측정법은 라벨이 없는 게시 기록을 사용하여 테스트할 새로운 그룹을 선택하는 데 사용될 수 있습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "020b1b10de3f291e",
+ "contentHash": "e8d27dc51ba3ad23",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T03:02:32.284Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "The Vulnerability Window: Decision Instability in Quantized Reward Models",
+   "summary": "Quantizing reward models and LLM judges to 4 bits alters 1.1% to 12.3% of pairwise preference decisions on RewardBench while aggregate accuracy changes very little because errors cancel out. Preference flips concentrate where the full-precision margin is small compared to quantization noise, making smaller models particularly fragile. This decision instability can change downstream best-of-N selections significantly even when overall benchmark accuracy appears virtually identical.",
+   "impact": "Developers and security teams relying on 4-bit quantized reward models or LLM judges should be aware that aggregate benchmark accuracy may not reveal underlying decision instability. Downstream selections can change frequently under adversarial pressure or in best-of-N sampling, meaning systems could behave differently than anticipated despite passing standard accuracy checks.",
+   "keyPoints": [
+    "Quantizing reward models to 4 bits changes 1.1% to 12.3% of pairwise preference decisions on RewardBench.",
+    "Aggregate accuracy shifts very little because errors introduced and fixed by quantization cancel each other out.",
+    "Flips concentrate where the full-precision margin is small relative to the quantization noise scale.",
+    "Downstream best-of-N selections change much more frequently than final answers across tested model and quantizer pairs."
+   ]
+  },
+  "km": {
+   "title": "បង្អួចភាពរងគ្រោះ៖ ភាពមិនស្ថិតស្ថេរនៃការសម្រេចចិត្តនៅក្នុងគំរូង្វាន់ដែលបានធ្វើបរិមាណ",
+   "summary": "ការធ្វើបរិមាណគំរូង្វាន់ និង LLM judges ទៅជា 4 bits បានផ្លាស់ប្តូរការសម្រេចចិត្តចំណូលចិត្តគូពី 1.1% ទៅ 12.3% នៅលើ RewardBench ខណៈដែលភាពត្រឹមត្រូវសរុបមានការផ្លាស់ប្តូរតិចតួចបំផុតព្រោះកំហុសត្រូវបានលុបចោលវិញ។ ការផ្លាស់ប្តូរទាំងនេះផ្តុំនៅកន្លែងដែលរឹមភាពជាក់លាក់ពេញលេញមានទំហំតូចធៀបនឹងកម្រិតសំឡេងរំខាននៃការធ្វើបរិមាណ ដែលធ្វើឱ្យគំរូខ្នាតតូចងាយរងគ្រោះ។ ភាពមិនស្ថិតស្ថេរនៃការសម្រេចចិត្តនេះអាចផ្លាស់ប្តូរការជ្រើសរើស best-of-N នៅដំណាក់កាលបន្តបន្ទាប់យ៉ាងខ្លាំង ទោះបីជាភាពត្រឹមត្រូវនៃគោលដៅសរុបមើលទៅប្រហាក់ប្រហែលគ្នាក៏ដោយ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខដែលពឹងផ្អែកលើគំរូង្វាន់ដែលបានធ្វើបរិមាណ 4-bit ឬ LLM judges គួរតែដឹងថាភាពត្រឹមត្រូវនៃគោលដៅសរុបប្រហែលជាមិនបង្ហាញពីភាពមិនស្ថិតស្ថេរនៃការសម្រេចចិត្តនោះទេ។ ការជ្រើសរើសនៅដំណាក់កាលបន្តបន្ទាប់អាចផ្លាស់ប្តូរជាញឹកញាប់ ដែលមានន័យថាប្រព័ន្ធអាចមានឥរិយាបទខុសពីការរំពឹងទុកទោះបីជាបានឆ្លងកាត់ការពិនិត្យភាពត្រឹមត្រូវស្តង់ដារក៏ដោយ។",
+   "keyPoints": [
+    "ការធ្វើបរិមាណគំរូង្វាន់ទៅជា 4 bits ផ្លាស់ប្តូរការសម្រេចចិត្តចំណូលចិត្តគូពី 1.1% ទៅ 12.3% នៅលើ RewardBench។",
+    "ភាពត្រឹមត្រូវសរុបផ្លាស់ប្តូរតិចតួចព្រោះកំហុសដែលបានណែនាំនិងកែតម្រូវដោយការធ្វើបរិមាណលុបចោលគ្នាទៅវិញទៅមក។",
+    "ការផ្លាស់ប្តូរផ្តុំនៅកន្លែងដែលរឹមភាពជាក់លាក់ពេញលេញមានទំហំតូចធៀបនឹងកម្រិតសំឡេងរំខាននៃការធ្វើបរិមាណ។",
+    "ការជ្រើសរើស best-of-N នៅដំណាក់កាលបន្តបន្ទាប់ផ្លាស់ប្តូរញឹកញាប់ជាងចម្លើយចុងក្រោយនៅលើគំរូដែលបានធ្វើតេស្ត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "漏洞窗口：量化奖励模型中的决策不稳定性",
+   "summary": "将奖励模型和 LLM judges 量化为 4 位会改变 RewardBench 上 1.1% 到 12.3% 的成对偏好决策，而总体准确率几乎没有变化，因为引入和修复的错误相互抵消了。偏好翻转集中在全精度裕度相对于量化噪声标度较小的地方，这使得小型模型特别脆弱。这种决策不稳定性可能会显著改变下游的 best-of-N 选择，即使整体基准准确率看起来几乎完全相同。",
+   "impact": "依赖 4 位量化奖励模型或 LLM judges 的开发人员和安全团队应该意识到，总体基准准确率可能无法揭示潜在的决策不稳定性。下游选择可能会在对抗压力或 best-of-N 采样下频繁变化，这意味着系统尽管通过了标准准确率检查，其表现仍可能与预期不同。",
+   "keyPoints": [
+    "将奖励模型量化为 4 位会改变 RewardBench 上 1.1% 到 12.3% 的成对偏好决策。",
+    "总体准确率变化很小，因为量化引入和修复的错误相互抵消。",
+    "翻转集中在全精度裕度相对于量化噪声较小的地方。",
+    "在测试的模型和量化器对中，下游的 best-of-N 选择变化频率远高于最终答案。"
+   ]
+  },
+  "ko": {
+   "title": "취약점 창: 양자화된 보상 모델의 결정 불안정성",
+   "summary": "보상 모델과 LLM judges를 4비트로 양자화하면 오류가 상쇄되기 때문에 전체 정확도는 거의 변하지 않는 반면 RewardBench의 쌍별 선호도 결정 중 1.1%에서 12.3%가 바뀝니다. 선호도 반전은 전체 정밀도 여유가 양자화 노이즈 규모에 비해 작은 곳에 집중되며, 이로 인해 소형 모델이 특히 취약해집니다. 이러한 결정 불안정성은 전체 벤치마크 정확도가 거의 동일해 보이더라도 다운스트림 best-of-N 선택을 크게 변경할 수 있습니다.",
+   "impact": "4비트 양자화된 보상 모델이나 LLM judges를 사용하는 개발자와 보안 팀은 전체 벤치마크 정확도가 근본적인 결정 불안정성을 드러내지 않을 수 있음을 인지해야 합니다. 적대적 압력이나 best-of-N 샘플링 하에서 다운스트림 선택이 자주 변경될 수 있으므로, 시스템이 표준 정확도 검사를 통과하더라도 예상과 다르게 동작할 수 있습니다.",
+   "keyPoints": [
+    "보상 모델을 4비트로 양자화하면 RewardBench의 쌍별 선호도 결정 중 1.1%에서 12.3%가 변경됩니다.",
+    "양자화로 인해 발생하고 수정된 오류가 상쇄되기 때문에 전체 정확도 변화는 매우 적습니다.",
+    "반전은 전체 정밀도 여유가 양자화 노이즈 규모에 비해 작은 곳에 집중됩니다.",
+    "테스트된 모델 및 양자화기 쌍에서 다운스트림 best-of-N 선택이 최종 답변보다 훨씬 더 자주 변경됩니다."
+   ]
+  }
+ }
+}

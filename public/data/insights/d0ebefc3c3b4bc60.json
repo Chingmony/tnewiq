@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d0ebefc3c3b4bc60",
+ "contentHash": "a8d670cd43c6485a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T03:01:14.494Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "\"More Than You Expect!\": Leakage-Abuse Attacks on Encrypted Vector Search",
+   "summary": "Researchers have identified a privacy vulnerability known as semantic neighborhood leakage in encrypted vector search schemes. They introduced SAGE (Semantic Access-pattern Graph Exploitation), a passive and persistent leakage-abuse attack that infers record labels and query categories from access patterns. SAGE features two variants, SAGE-Dist and SAGE-Known, which utilize different levels of auxiliary knowledge to reconstruct sensitive information. Evaluations across four text and image datasets demonstrate that the attack can achieve high accuracy in uncovering record labels and query categories.",
+   "impact": "This research highlights that encrypted vector search schemes may still expose sensitive semantic categories and record labels through access patterns. Security teams and developers relying on encrypted vector search should be aware that protecting database contents does not automatically eliminate privacy risks from leakage-abuse attacks. The findings emphasize the need for stronger mitigations against access-pattern analysis in vector databases.",
+   "keyPoints": [
+    "Semantic neighborhood leakage reveals semantic categories of encrypted records and queries through co-retrieval relationships.",
+    "SAGE builds a weighted co-retrieval graph to infer record labels and query categories using two variants: SAGE-Dist and SAGE-Known.",
+    "SAGE-Known achieves up to 84.3% mean record-label accuracy with 1% known record labels.",
+    "SAGE-Dist achieves 66.9% record-label accuracy and 68.1% query-category accuracy on AG News using estimated class proportions."
+   ]
+  },
+  "km": {
+   "title": "\"More Than You Expect!\": ការវាយប្រហារបំពានការលេចធ្លាយលើការស្វែងរកវ៉ិចទ័រដែលបានអ៊ិនគ្រីប",
+   "summary": "អ្នកស្រាវជ្រាវបានកំណត់អត្តសញ្ញាណភាពងាយរងគ្រោះផ្នែកឯកជនភាព ដែលហៅថា ការលេចធ្លាយសង្កាត់语义 នៅក្នុងវិធីសាស្ត្រស្វែងរកវ៉ិចទ័រដែលបានអ៊ិនគ្រីប។ ពួកគេបានបង្ហាញ SAGE ដែលជាការវាយប្រហារបំពានការលេចធ្លាយបែបអសកម្ម និងជាប់លាប់ ដែលអាចទាញយកស្លាកកំណត់ត្រា និងប្រភេទសំណួរពីគំរូនៃការចូលប្រើ។ ការពិសោធន៍លើសំណុំទិន្នន័យអត្ថបទ និងរូបភាពចំនួនបួនបង្ហាញថា ការវាយប្រហារនេះអាចសម្រេចបាននូវភាពត្រឹមត្រូវខ្ពស់ក្នុងការស្វែងរកស្លាកកំណត់ត្រា។",
+   "impact": "ការរកឃើញទាំងនេះបង្ហាញថា ប្រព័ន្ធស្វែងរកវ៉ិចទ័រដែលបានអ៊ិនគ្រីបនៅតែអាចបញ្ចេញព័ត៌មានរសើបតាមរយៈគំរូនៃការចូលប្រើ។ ក្រុមសុវត្ថិភាព និងអ្នកអភិវឌ្ឍន៍គួរតែពិចារណាលើហានិភ័យទាំងនេះ សូម្បីតែនៅពេលដែលមាតិកាវ៉ិចទ័រត្រូវបានការពារក៏ដោយ។",
+   "keyPoints": [
+    "ការលេចធ្លាយសង្កាត់语义 បង្ហាញពីប្រភេទសញ្ញាណនៃកំណត់ត្រា និងសំណួរដែលបានអ៊ិនគ្រីប។",
+    "SAGE ប្រើប្រាស់ក្រាហ្វនៃការចូលប្រើដែលមានទម្ងន់ដើម្បីទាញយកស្លាកកំណត់ត្រា និងប្រភេទសំណួរ។",
+    "SAGE-Known សម្រេចបានភាពត្រឹមត្រូវរហូតដល់ 84.3% ជាមួយនឹងស្លាកកំណត់ត្រាដឹងមុន 1%។",
+    "SAGE-Dist សម្រេចបានភាពត្រឹមត្រូវ 66.9% លើសំណុំទិន្នន័យ AG News ដោយប្រើសមាមាត្រថ្នាក់ប៉ាន់ស្មាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "\"More Than You Expect!\": 加密向量搜索上的泄露滥用攻击",
+   "summary": "研究人员在加密向量搜索方案中发现了一种称为语义邻域泄露的隐私漏洞。他们提出了 SAGE（语义访问模式图利用），这是一种被动且持久的泄露滥用攻击，可以通过访问模式推断记录标签和查询类别。SAGE 提供了两个变体，分别利用不同程度的辅助知识来恢复敏感信息。在四个文本和图像数据集上的评估表明，该攻击在揭示记录标签和查询类别方面可以达到很高的准确率。",
+   "impact": "这项研究表明，加密向量搜索方案仍可能通过访问模式暴露敏感的语义类别和记录标签。依赖加密向量搜索的安全团队和开发人员应认识到，保护数据库内容并不能自动消除来自泄露滥用攻击的隐私风险。这些发现强调了在向量数据库中针对访问模式分析实施更强缓解措施的必要性。",
+   "keyPoints": [
+    "语义邻域泄露通过共同检索关系揭示加密记录和查询的语义类别。",
+    "SAGE 构建加权共同检索图，通过 SAGE-Dist 和 SAGE-Known 两个变体推断记录标签和查询类别。",
+    "在拥有 1% 已知记录标签的情况下，SAGE-Known 的平均记录标签准确率最高可达 84.3%。",
+    "在 AG News 上仅使用估计的类比例时，SAGE-Dist 达到了 66.9% 的记录标签准确率和 68.1% 的查询类别准确率。"
+   ]
+  },
+  "ko": {
+   "title": "\"More Than You Expect!\": 암호화된 벡터 검색에 대한 유출-남용 공격",
+   "summary": "연구원들은 암호화된 벡터 검색 체계에서 시맨틱 이웃 유출이라는 개인정보 보호 취약점을 확인했습니다. 그들은 액세스 패턴에서 레코드 레이블과 쿼리 범주를 유추하는 수동적이고 지속적인 유출-남용 공격인 SAGE(Semantic Access-pattern Graph Exploitation)를 제안했습니다. SAGE는 서로 다른 수준의 보조 지식을 요구하는 두 가지 변형을 제공하며, 민감한 정보를 복원합니다. 네 가지 텍스트 및 이미지 데이터셋에 대한 평가는 이 공격이 레코드 레이블과 쿼리 범주를 파악하는 데 높은 정확도를 달성할 수 있음을 보여줍니다.",
+   "impact": "이번 연구는 암호화된 벡터 검색 체계가 액세스 패턴을 통해 여전히 민감한 시맨틱 범주와 레코드 레이블을 노출할 수 있음을 강조합니다. 암호화된 벡터 검색을 사용하는 보안 팀과 개발자는 데이터베이스 내용을 보호하는 것만으로는 유출-남용 공격에 따른 개인정보 보호 위험이 자동으로 사라지지 않는다는 점을 유의해야 합니다.",
+   "keyPoints": [
+    "시맨틱 이웃 유출은 공동 검색 관계를 통해 암호화된 레코드와 쿼리의 시맨틱 범주를 드러냅니다.",
+    "SAGE는 가중치가 부여된 공동 검색 그래프를 구축하고 SAGE-Dist와 SAGE-Known 두 가지 변형을 통해 레코드 레이블과 쿼리 범주를 유추합니다.",
+    "SAGE-Known은 1%의 알려진 레코드 레이블로 최대 84.3%의 평균 레코드 레이블 정확도를 달성합니다.",
+    "SAGE-Dist는 AG News에서 추정된 클래스 비율만을 사용하여 66.9%의 레코드 레이블 정확도와 68.1%의 쿼리 범주 정확도를 달성합니다."
+   ]
+  }
+ }
+}

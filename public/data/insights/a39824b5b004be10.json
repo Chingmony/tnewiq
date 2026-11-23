@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a39824b5b004be10",
+ "contentHash": "b1d6035833079251",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T02:59:25.017Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+   "summary": "Researchers investigated stream mixing within the Birkhoff polytope for Manifold-constrained Hyper-Connections and identified a mixing trade-off between under-mixing near vertices and over-mixing at the uniform barycenter. To address this, they proposed Contraction for Manifold-Constrained Hyper-Connections, a method that geometrically contracts the Birkhoff polytope toward its interior without adding new parameters. Experiments across various models showed effectiveness and scalability, and fused operators on Ascend NPUs reduced execution latency by up to 44.8%.",
+   "impact": "Developers and researchers working on large-scale model pretraining could use cmHC to achieve stable gradient propagation and reduced execution latency. The method avoids adding new parameters while improving stream mixing stability across layers.",
+   "keyPoints": [
+    "Identified a mixing trade-off between under-mixing near the vertices and over-mixing at the barycenter of the Birkhoff polytope.",
+    "Proposed cmHC, which geometrically contracts the Birkhoff polytope toward its interior.",
+    "Introduced fused operators for cmHC on Ascend NPUs that reduce execution latency by up to 44.8%."
+   ]
+  },
+  "km": {
+   "title": "cmHC៖ ការតតុល្យភាពការលាយស្ទ្រីមក្នុង Hyper-Connections តាមរយៈ Geometric Contraction",
+   "summary": "អ្នកស្រាវជ្រាវបានពិនិត្យមើលការលាយស្ទ្រីមក្នុង Birkhoff polytope សម្រាប់ Manifold-constrained Hyper-Connections ហើយបានរកឃើញការដោះដូរគ្នារវាងការលាយមិនគ្រប់គ្រាន់និងការលាយជ្រុលពេក។ ដើម្បីដោះស្រាយបញ្ហានេះ ពួកគេបានស្នើឡើងនូវ Contraction for Manifold-Constrained Hyper-Connections ដែលជាវិធីសាស្ត្រកិច្ចសន្យាធរណីមាត្រនៃ Birkhoff polytope ដោយមិនបន្ថែមប៉ារ៉ាម៉ែត្រថ្មី។ ការពិសោធន៍បានបង្ហាញពីប្រសិទ្ធភាពនិងលទ្ធភាពពង្រីក ហើយអូដាទ័ររួមបញ្ចូលគ្នានៅលើ Ascend NPUs បានកាត់បន្ថយភាពយឺតយ៉ាវនៃការប្រតិបត្តិរហូតដល់ 44.8%។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខ ឬអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានអត្ថប្រយោជន៍ពីការកាត់បន្ថយភាពយឺតយ៉ាវ និងស្ថេរភាពនៃជម្រាលក្នុងការហ្វឹកហាត់ម៉ូដែលខ្នាតធំដោយប្រើ cmHC។",
+   "keyPoints": [
+    "បានរកឃើញការដោះដូរគ្នានៃការលាយស្ទ្រីមនៅក្នុង Birkhoff polytope។",
+    "បានស្នើឡើង cmHC ដើម្បីកិច្ចសន្យាធរណីមាត្រ Birkhoff polytope ឆ្ពោះទៅរកផ្នែកខាងក្នុង។",
+    "បានអភិវឌ្ឍអូដាទ័ររួមបញ្ចូលគ្នាលើ Ascend NPUs ដើម្បីកាត់បន្ថយភាពយឺតយ៉ាវរហូតដល់ 44.8%។"
+   ]
+  },
+  "zh-CN": {
+   "title": "cmHC：通过几何收缩平衡超连接中的流混合",
+   "summary": "研究人员研究了流形约束超连接中Birkhoff多面体内的流混合，并发现了接近顶点的欠混合与在均匀重心处过混合之间的权衡。为了解决这一问题，他们提出了cmHC，这是一种在不增加新参数的情况下向内部几何收缩Birkhoff多面算子的精确双随机方法。在各种模型上的实验证明了其有效性和可扩展性，并且在Ascend NPU上开发的融合算子将超连接执行延迟降低了高达44.8%。",
+   "impact": "开发人员和技术用户可以使用cmHC在大规模模型预训练中实现稳定的梯度传播并减少执行延迟。该方法在不引入新参数的情况下提供了可证明的流混合界限。",
+   "keyPoints": [
+    "揭示了Birkhoff多面体顶点附近的欠混合与均匀重心处过混合之间的混合权衡。",
+    "提出了cmHC方法，通过几何收缩Birkhoff多面体内部来缓解欠混合问题。",
+    "在Ascend NPU上开发了融合算子，将超连接执行延迟降低了高达44.8%。"
+   ]
+  },
+  "ko": {
+   "title": "cmHC: 기하학적 수축을 통한 하이퍼 커넥션 내 스트림 혼합 균형화",
+   "summary": "연구원들은 매니폴드 제약 하이퍼 커넥션에 대해 Birkhoff polytope 내의 스트림 혼합을 조사하고 꼭짓점 근처의 과소 혼합과 균일한 무게중심 주변의 과도 혼합 사이의 절충안을 밝혔습니다. 이를 해결하기 위해 새로운 매개변수 추가 없이 Birkhoff polytope를 내부로 기하학적 수축시키는 cmHC를 제안했습니다. 다양한 모델에서의 실험을 통해 효과성과 확장성이 입증되었으며 Ascend NPU의 융합 연산자는 실행 지연을 최대 44.8%까지 줄였습니다.",
+   "impact": "개발자와 기술 사용자는 cmHC를 사용하여 대규모 모델 사전 학습에서 안정적인 그래디언트 전파와 감소된 실행 지연을 얻을 수 있습니다. 이 방법은 새로운 매개변수 없이도 검증된 스트림 혼합 범위를 제공합니다.",
+   "keyPoints": [
+    "Birkhoff polytope의 꼭짓점 근처 과소 혼합과 무게중심의 과도 혼합 사이의 트레이드오프를 밝혔습니다.",
+    "Birkhoff polytope를 내부로 기하학적 수축시키는 cmHC 방법을 제안했습니다.",
+    "Ascend NPU용 융합 연산자를 개발하여 하이퍼 커넥션 실행 지연을 최대 44.8%까지 줄였습니다."
+   ]
+  }
+ }
+}

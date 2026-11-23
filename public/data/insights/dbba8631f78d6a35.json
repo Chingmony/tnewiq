@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "dbba8631f78d6a35",
+ "contentHash": "45155bdecc39e880",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T02:57:27.133Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "JimuReport Expression Functions Play Tricks: Month-over-Month, Weighted Rating, Script Loops, Custom Functions",
+   "summary": "JimuReport cell expressions can handle tasks beyond basic summation, such as calculating month-over-month growth, weighted ratings, hiding zero totals, preventing division by zero, truncating long names, writing loops, and calling custom Java functions. Many requirements that previously required modifying SQL or writing extra code can now be solved directly within a single cell.",
+   "impact": "Developers and technology users may find that complex reporting requirements can be implemented directly within cell expressions, potentially reducing the need to modify SQL or write external code.",
+   "keyPoints": [
+    "JimuReport cell expressions go beyond basic functions like SUM.",
+    "Supported features include month-over-month calculations, weighted ratings, and script loops.",
+    "Expressions can handle auto-hiding zero totals, preventing division by zero, and truncating long names.",
+    "Users can call custom Java functions directly from expressions."
+   ]
+  },
+  "km": {
+   "title": "មុខងារកន្សោម JimuReport៖ ការគណនាខែខួប ការវាយតម្លៃតាមទម្ងន់ រង្វិលជុំស្គ្រីប និងមុខងារផ្ទាល់ខ្លួន",
+   "summary": "កន្សោមក្រឡា JimuReport អាចធ្វើច្រើនជាងការបូកសរុបសាមញ្ញ ដូចជាការគណនាអត្រាកំណើនប្រចាំខែ ការវាយតម្លៃតាមទម្ងន់ ការលាក់ស្វ័យប្រវត្តិនូវតម្លៃសរុបស្មើសូន្យ ការការពារការចែកនឹងសូន្យ ការកាត់ឈ្មោះវែង ការសរសេររង្វិលជុំ និងការហៅមុខងារ Java ផ្ទាល់ខ្លួន។ តម្រូវការជាច្រើនដែលធ្លាប់តែទាមទារការកែប្រែ SQL ឬសរសេរកូដបន្ថែម ឥឡូវនេះអាចដោះស្រាយបាននៅក្នុងក្រឡាតែមួយ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងដោះស្រាយតម្រូវការរបាយការណ៍ស្មុគស្មាញដោយផ្ទាល់នៅក្នុងកន្សោមក្រឡា ដែលអាចកាត់បន្ថយតម្រូវការក្នុងការកែប្រែ SQL ឬសរសេរកូដខាងក្រៅ។",
+   "keyPoints": [
+    "កន្សោមក្រឡា JimuReport ធ្វើបានច្រើនជាងមុខងារ SUM ធម្មតា។",
+    "លក្ខណៈពិសេសដែលគាំទ្ររួមមានការគណនាប្រចាំខែ ការវាយតម្លៃតាមទម្ងន់ និងរង្វិលជុំស្គ្រីប។",
+    "កន្សោមអាចគ្រប់គ្រងការលាក់សូន្យដោយស្វ័យប្រវត្តិ ការពារការចែកនឹងសូន្យ និងកាត់ឈ្មោះវែងៗ។",
+    "អ្នកប្រើប្រាស់អាចហៅមុខងារ Java ផ្ទាល់ខ្លួនពីក្នុងកន្សោមបាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "积木报表表达式函数玩出花：环比、加权评级、脚本循环、自定义函数",
+   "summary": "JimuReport 积木报表的单元格表达式功能远超简单的求和，支持计算环比、按权重打分评级、合计为零时自动隐藏、防除零、截短长名称、编写循环以及调用自定义 Java 函数。许多原本需要修改 SQL 或编写代码的需求，现在通过单个单元格即可解决。",
+   "impact": "开发者和技术用户可以通过单元格表达式直接实现复杂的报表逻辑，这可能会减少修改 SQL 或编写额外代码的需求。",
+   "keyPoints": [
+    "JimuReport 单元格表达式功能不仅限于简单的 SUM 求和。",
+    "支持环比计算、加权评级和脚本循环等高级用法。",
+    "能够处理合计为零自动隐藏、防除零以及截短长名称。",
+    "支持在表达式中调用自定义的 Java 函数。"
+   ]
+  },
+  "ko": {
+   "title": "JimuReport 표현식 함수의 활용: 전월 대비, 가중 평가, 스크립트 루프, 사용자 정의 함수",
+   "summary": "JimuReport 셀 표현식은 단순한 합계를 넘어 전월 대비 계산, 가중치 기반 평가, 합계가 0일 때 자동 숨김, 0으로 나누기 방지, 긴 이름 자르기, 루프 작성, 사용자 정의 Java 함수 호출 등 다양한 기능을 제공합니다. 기존에는 SQL을 수정하거나 코드를 작성해야 했던 많은 요구사항을 이제 단일 셀 내에서 해결할 수 있습니다.",
+   "impact": "개발자와 기술 사용자들은 복잡한 보고서 요구사항을 셀 표현식 내에서 직접 구현할 수 있게 되어, SQL 수정이나 외부 코드 작성의 필요성을 줄일 수 있습니다.",
+   "keyPoints": [
+    "JimuReport 셀 표현식은 기본적인 SUM 기능을 넘어 다양한 작업을 수행할 수 있습니다.",
+    "전월 대비 계산, 가중치 평가, 스크립트 루프 등의 기능을 지원합니다.",
+    "합계 0 자동 숨김, 0 나누기 방지, 긴 이름 자르기 처리가 가능합니다.",
+    "표현식에서 직접 사용자 정의 Java 함수를 호출할 수 있습니다."
+   ]
+  }
+ }
+}

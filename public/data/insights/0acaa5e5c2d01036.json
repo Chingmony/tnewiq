@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0acaa5e5c2d01036",
+ "contentHash": "920c837f94a8deb6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T02:58:41.094Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Backbone-Specific LoRA Geometry: Orthogonality, Superposition, and Provenance",
+   "summary": "Researchers explore sharing low-rank adaptation (LoRA) updates across pretrained models, addressing the challenge of preserving accuracy and distinguishing individual contributions. By using backbone-specific update directions as signatures, they derive a cross-backbone correlation bound and propose cosine-based backbone identification and inner-product tests. Experiments on CLIP backbones demonstrate that shared sums achieve near-separate accuracy and that source backbones are reliably identified.",
+   "impact": "This research could help developers reuse and combine registered adapters without coordinate alignment. Security teams and technology users may benefit from improved ways to track adapter provenance and detect registered adapters in composite updates.",
+   "keyPoints": [
+    "Backbone-specific update directions serve as signatures of their training backbones.",
+    "A cross-backbone correlation bound is derived from attention symmetries and equivariant LoRA learning.",
+    "Experiments on CLIP backbones show shared sums achieve nearly the same mean accuracy as separate adapters.",
+    "Cosine scores reliably identify source backbones across evaluated tasks."
+   ]
+  },
+  "km": {
+   "title": "ធរណីមាត្រ LoRA ជាក់លាក់តាមបេខបូន៖ ភាពអរតូហ្គោណាល់ ស៊ុបពើប៉ូហ្ស៊ីស្យុង និងប្រភពដើម",
+   "summary": "អ្នកស្រាវជ្រាវបានស្វែងយល់ពីការចែករំលែកបច្ចុប្បន្នភាពនៃការសម្របខ្លួនកម្រិតទាប (LoRA) នៅទូទាំងម៉ូដែលដែលបានបណ្តុះបណ្តាលជាមុន ដោយដោះស្រាយបញ្ហាប្រឈមនៃការរក្សាភាពត្រឹមត្រូវ និងការបែងចែកការរួមចំណែកនីមួយៗ។ តាមរយៈការប្រើប្រាស់ទិសដៅបច្ចុប្បន្នភាពជាក់លាក់តាមបេខបូនជាហត្ថលេខា ពួកគេបានទាញយកដែនកំណត់ទំនាក់ទំនងឆ្លងបេខបូន និងស្នើឱ្យមានការកំណត់អត្តសញ្ញាណបេខបូនផ្អែកលើកូស៊ីនុស។ ការពិសោធន៍លើបេខបូន CLIP បង្ហាញថាផលបូកដែលបានចែករំលែកទទួលបានភាពត្រឹមត្រូវស្ទើរតែស្មើគ្នា.",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ប្រើប្រាស់ឡើងវិញ និងរួមបញ្ចូលអាដាប់ទ័រដែលបានចុះឈ្មោះដោយមិនបាច់តម្រឹមพิกัด។ ក្រុមសុវត្ថិភាព និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានផលប្រយោជន៍ពីមធ្យោបាយកាន់តែប្រសើរក្នុងការតាមដានប្រភពដើមនៃអាដាប់ទ័រ។",
+   "keyPoints": [
+    "ទិសដៅបច្ចុប្បន្នភាពជាក់លាក់តាមបេខបូនដើរតួជាហត្ថលេខានៃបេខបូនបណ្តុះបណ្តាលរបស់ពួកគេ។",
+    "ដែនកំណត់ទំនាក់ទំនងឆ្លងបេខបូនត្រូវបានទាញចេញពីស៊ីមេទ្រីនៃការយកចិត្តទុកដាក់។",
+    "ការពិសោធន៍លើបេខបូន CLIP បង្ហាញថាផលបូកដែលបានចែករំលែកសម្រេចបានភាពត្រឹមត្រូវមធ្យមស្ទើរតែដូចគ្នាទៅនឹងអាដាប់ទ័រដាច់ដោយឡែក។",
+    "ពិន្ទុកូស៊ីនុសកំណត់អត្តសញ្ញាណបេខបូនប្រភពយ៉ាងគួរឱ្យទុកចិត្តនៅទូទាំងកិច្ចការដែលបានវាយតម្លៃ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "特定于骨干网的 LoRA 几何形状：正交性、叠加性和来源",
+   "summary": "研究人员探讨了在预训练模型之间共享低秩适应（LoRA）更新的方法，以解决在保持准确性的同时区分各自贡献的难题。通过将特定于骨干网的更新方向用作签名，他们推导出了跨骨干网相关性界限，并提出了基于余弦的骨干网识别和内积测试。对 CLIP 骨干网的实验表明，共享总和可以达到与单独适配器几乎相同的平均准确率。",
+   "impact": "这项研究可能有助于开发人员在无需坐标对齐的情况下重复使用和组合已注册的适配器。安全团队和技术用户可能会受益于追踪适配器来源和检测复合更新中适配器的新方法。",
+   "keyPoints": [
+    "特定于骨干网的更新方向可作为其训练骨干网的签名。",
+    "跨骨干网相关性界限源于注意力对称性和等变 LoRA 学习。",
+    "对 CLIP 骨干网的实验表明共享总和可实现与单独适配器几乎相同的平均准确率。",
+    "余弦得分可以可靠地识别评估任务中的源骨干网。"
+   ]
+  },
+  "ko": {
+   "title": "백본별 LoRA 기하학: 직교성, 중첩 및 출처",
+   "summary": "연구원들은 사전 훈련된 모델 간에 저랭크 적응(LoRA) 업데이트를 공유하여 정확도를 유지하면서 개별 기여도를 구별하는 과제를 해결하는 방법을 탐구합니다. 백본별 업데이트 방향을 시그니처로 사용하여 교차 백본 상관관계 한계를 유도하고, 코사인 기반 백본 식별 및 내적 테스트를 제안합니다. CLIP 백본에 대한 실험에 따르면 공유된 합계는 개별 어댑터와 거의 동일한 평균 정확도를 달성합니다.",
+   "impact": "이 연구는 개발자가 좌표 정렬 없이 등록된 어댑터를 재사용하고 결합하는 데 도움을 줄 수 있습니다. 보안 팀과 기술 사용자는 어댑터 출처를 추적하고 복합 업데이트에서 등록된 어댑터를 감지하는 향상된 방법의 이점을 얻을 수 있습니다.",
+   "keyPoints": [
+    "백본별 업데이트 방향은 학습 백본의 시그니처 역할을 합니다.",
+    "교차 백본 상관관계 한계는 어텐션 대칭성과 동변성 LoRA 학습에서 유도됩니다.",
+    "CLIP 백본 실험에 따르면 공유된 합계는 개별 어댑터와 거의 동일한 평균 정확도를 달성합니다.",
+    "코사인 점수는 평가된 작업 전반에 걸쳐 소스 백본을 안정적으로 식별합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "464e4760b4400cad",
+ "contentHash": "280edeb68f42f64f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T03:02:43.889Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Git History Is a Pangenome: Repetition in Code Training Corpora and What Deduplication Removes, Keeps and Misses",
+   "summary": "Code models are increasingly trained on the full history of software repositories, but standard deduplication tools are built for snapshots rather than histories. A study of 306 public repositories, 25 mature projects, and 12 SWE-bench repositories found that code history is largely repetitive, holding multiple near-identical variants. Exact-match deduplication removes none of these copies, while snapshot deduplication reduces repetition but often keeps old file versions instead of newer ones because date selection is ignored.",
+   "impact": "This research could help development and security teams improve their training pipelines for code models by applying better deduplication strategies. Sorting versions by newest first or implementing separate checks for benchmark answers may prevent models from training on outdated files or benchmark contamination.",
+   "keyPoints": [
+    "A typical repository history holds the equivalent of 19 copies of its current code, while mature repositories hold 89.",
+    "Exact-match deduplication leaves these historical copies completely untouched since no two versions are identical.",
+    "Sorting versions by newest first before deduplication ensures that old file versions are not mistakenly kept for training.",
+    "Benchmark fixes survive in a median of 18 later versions, requiring a separate checking step to prevent contamination."
+   ]
+  },
+  "km": {
+   "title": "ប្រវត្តិ Git គឺជា Pangenome៖ ការធ្វើម្តងទៀតនៅក្នុងសំណុំទិន្នន័យបណ្តុះបណ្តាលកូដ និងអ្វីដែលការលុបទិន្នន័យស្ទួនយកចេញ រក្សាទុក និងខកខាន",
+   "summary": "ម៉ូដែលកូដត្រូវបានបណ្តុះបណ្តាលនៅលើប្រវត្តិពេញលេញនៃឃ្លាំងកូដ ប៉ុន្តែឧបករណ៍លុបទិន្នន័យស្ទួនត្រូវបានបង្កើតឡើងសម្រាប់រូបភាពបណ្តោះអាសន្ន។ ការសិក្សាមួយលើឃ្លាំងសាធារណៈចំនួន ៣០៦ គម្រោងចាស់ទុំចំនួន ២៥ និងឃ្លាំង SWE-bench ចំនួន ១២ បានរកឃើញថា ប្រវត្តិសាស្រ្តកូដមានភាពស្រដៀងគ្នាជាច្រើន។ ការលុបទិន្នន័យស្ទួនបែបធម្មតាពុំបានលុបច្បាប់ចម្លងទាំងនេះទេ ខណៈដែលការលុបទិន្នន័យស្ទួនកម្រិតរូបភាពកាត់បន្ថយភាពស្ទួន ប៉ុន្តែច្រើនតែរក្សាកំណែ ፋែលចាស់ៗទុក។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយដល់ក្រុមអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខក្នុងការកែលម្អដំណើរការបណ្តុះបណ្តាលម៉ូដែលកូដរបស់ពួកគេតាមរយៈយុទ្ធសាស្ត្រលុបទិន្នន័យស្ទួនកាន់តែប្រសើរ។ ការតម្រៀបកំណែថ្មីមុនពេលលុបស្ទួនអាចជៀសវាងការបណ្តុះបណ្តាលលើឯកសារចាស់ៗ។",
+   "keyPoints": [
+    "ប្រវត្តិឃ្លាំងធម្មតាមួយមានចំនួនស្មើនឹង ១៩ ច្បាប់ចម្លងនៃកូដបច្ចុប្បន្នរបស់វា។",
+    "ការលុបទិន្នន័យស្ទួនបែបពិតប្រាកដមិនលុបច្បាប់ចម្លងទាំងនេះចេញឡើយ។",
+    "ការតម្រៀបកំណែថ្មីមុនគេអាចជួយការពារកុំឱ្យរក្សាកំណែឯកសារចាស់ទុកសម្រាប់ការបណ្តុះបណ្តាល។",
+    "ដំណោះស្រាយកំហុសដែលមានស្រាប់ត្រូវការជំហានពិនិត្យដាច់ដោយឡែកមួយដើម្បីជៀសវាងការបំពុលទិន្នន័យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Git历史是一个全基因组：代码训练语料库中的重复性以及去重工具移除、保留和遗漏的内容",
+   "summary": "代码模型越来越多地基于软件仓库的完整历史进行训练，但现有的去重工具原本是为代码快照设计的。研究人员对306个公共仓库、25个成熟项目以及SWE-bench背后的12个仓库进行了测量，发现代码历史主要由重复内容组成，包含大量几乎相同的变体。精确匹配去重无法移除这些副本，而快照去重虽然能减少重复，但由于忽略了日期选择，往往会把旧版本的档案保留下来用于训练。",
+   "impact": "这项研究可以帮助开发人员和安全团队通过改进去重策略来优化代码模型的训练流程。通过在去重前按最新版本排序或对基准测试答案进行单独检查，可能有效防止模型使用过时的文件进行训练。",
+   "keyPoints": [
+    "典型仓库的历史相当于当前代码的19个副本，成熟仓库则相当于89个副本。",
+    "精确匹配去重不会移除任何历史副本，因为没有两个版本完全相同。",
+    "在去重前将版本按最新优先排序可以低成本地解决保留旧文件的问题。",
+    "基准测试修复会保留在受影响文件后续版本的中间值18个版本中，因此需要单独的步骤来移除基准修复。"
+   ]
+  },
+  "ko": {
+   "title": "Git 기록은 판게놈입니다: 코드 훈련 말뭉치의 반복성 및 중복 제거가 제거하고 유지하며 놓치는 것들",
+   "summary": "코드 모델은 단일 스냅샷이 아닌 소프트웨어 저장소의 전체 기록을 바탕으로 훈련되는 경우가 늘고 있지만, 기존 중복 제거 도구는 스냅샷용으로 제작되었습니다. 306개의 공개 저장소, 25개의 성숙한 프로젝트, SWE-bench의 12개 저장소를 측정한 결과, 코드 기록은 대부분 거의 동일한 변형들로 이루어진 반복으로 나타났습니다. 정확한 일치 중복 제거는 버전들이 동일하지 않아 이 복사본들을 제거하지 못하며, 스냅샷 중복 제거는 날짜 선택을 무시하여 최신 버전 대신 오래된 파일을 유지하는 문제가 있습니다.",
+   "impact": "이번 연구는 개발자와 보안 팀이 더 나은 중복 제거 전략을 적용하여 코드 모델 훈련 파이프라인을 개선하는 데 도움을 줄 수 있습니다. 버전을 최신순으로 정렬하거나 벤치마크 답변에 대한 별도의 검사를 수행하면 오래된 파일로 인한 훈련 문제를 방지할 수 있습니다.",
+   "keyPoints": [
+    "일반적인 저장소 기록은 현재 코드의 19개 복사본에 해당하는 양을 유지합니다.",
+    "정확히 일치하는 중복 제거는 두 버전이 동일하지 않기 때문에 역사적 복사본을 전혀 제거하지 못합니다.",
+    "중복 제거 전에 버전을 최신순으로 정렬하면 추가 비용 거의 없이 오래된 파일 유지 문제를 해결할 수 있습니다.",
+    "벤치마크 수정 사항은 변경된 파일의 이후 버전 중 중앙값 18개에 남아 있으므로 별도의 확인 단계가 필요합니다."
+   ]
+  }
+ }
+}

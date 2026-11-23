@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ff0296a994e1d79e",
+ "contentHash": "cac39848ebf9cfea",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T03:01:57.250Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "From Acting to Learning: Experience Selection toward Continually Learning Agents",
+   "summary": "Researchers examine experience selection for a 4B language agent to improve continual agent learning. They compared nine selectors across two fixed experience pools, initialization seeds, and sampling seeds, resulting in 288 trained students. The study evaluated optimizer-aware gradient selection, which achieved significant success gains compared to random and high-NLL selections across different pools and a reserved replication.",
+   "impact": "This research could help developers and teams optimizing continual learning agents by demonstrating that gradient-based experience selection outperforms random or high-NLL selection methods. Technology users and engineers may benefit from more effective training strategies for language agents.",
+   "keyPoints": [
+    "Nine selectors were compared across fixed pools, initialization seeds, and sampling seeds, yielding 288 trained students.",
+    "Optimizer-aware gradient selection reached 81.45 percent and 73.19 percent success in the two pools.",
+    "A separately frozen replication on 128 reserved task groups confirmed positive performance differences for gradient selection."
+   ]
+  },
+  "km": {
+   "title": "ពីការសម្តែងទៅកាន់ការរៀនសូត្រ៖ ការជ្រើសរើសបទពិសោធន៍ឆ្ពោះទៅរកភ្នាក់ងាររៀនសូត្របន្តបន្ទាប់",
+   "summary": "អ្នកស្រាវជ្រាវបានពិនិត្យមើលការជ្រើសរើសបទពិសោធន៍សម្រាប់ភាសាភ្នាក់ងារ 4B ដើម្បីធ្វើឱ្យការរៀនសូត្រភ្នាក់ងារបន្តបន្ទាប់មានភាពល្អប្រសើរឡើង។ ពួកគេបានប្រៀបធៀបឧបករណ៍ជ្រើសរើសចំនួនប្រាំបួននៅលើអាងបទពិសោធន៍ពីរ និងគ្រាប់ពូជផ្សេងៗ ដែលបង្កើតបានជាសិស្សដែលបានបណ្តុះបណ្តាលចំនួន 288 នាក់។ ការសិក្សានេះបានវាយតម្លៃការជ្រើសរើសជម្រាលដែលដឹងពីឧបករណ៍បង្កើនប្រសិទ្ធភាព ដែលទទួលបានជោគជ័យខ្ពស់ជាងវិធីសាស្ត្រចៃដន្យ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ក្នុងការបង្កើនប្រសិទ្ធភាពភ្នាក់ងាររៀនសូត្របន្តបន្ទាប់ដោយបង្ហាញពីប្រសិទ្ធភាពនៃការជ្រើសរើសបទពិសោធន៍ដោយផ្អែកលើជម្រាល។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានអត្ថប្រយោជន៍ពីយុទ្ធសាស្ត្របណ្តុះបណ្តាលកាន់តែប្រសើរសម្រាប់ភ្នាក់ងារភាសា។",
+   "keyPoints": [
+    "ឧបករណ៍ជ្រើសរើសចំនួនប្រាំបួនត្រូវបានប្រៀបធៀបដើម្បីបង្កើតសិស្សដែលបានបណ្តុះបណ្តាលចំនួន 288 នាក់។",
+    "ការជ្រើសរើសជម្រាលទទួលបានជោគជ័យ 81.45% និង 73.19% នៅក្នុងអាងទាំងពីរ។",
+    "ការចម្លងដាច់ដោយឡែកនៅលើក្រុមភារកិច្ចចំនួន 128 បានបញ្ជាក់ពីភាពខុសគ្នានៃដំណើរការវិជ្ជមាន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "从行动到学习：面向持续学习智能体的经验选择",
+   "summary": "研究人员探讨了4B语言智能体的经验选择，以推进智能体的持续学习。他们在两个固定的经验池、多个初始化种子和采样种子中对比了9个选择器，产生了288个受训模型。研究评估了感知优化器的梯度选择，该方法在各个经验池中取得了显著的成功率提升。",
+   "impact": "这项研究表明基于梯度的经验选择方法优于随机选择或高NLL选择，这可能帮助开发者和团队优化持续学习智能体。技术用户和工程师可能会从中获得更有效的语言智能体训练策略。",
+   "keyPoints": [
+    "在固定经验池和不同种子下对比了9个选择器，共产生288个受训模型。",
+    "优化器感知的梯度选择在两个池中分别达到了81.45%和73.19%的成功率。",
+    "在128个预留任务组上进行的独立复制验证了梯度选择的正向性能差异。"
+   ]
+  },
+  "ko": {
+   "title": "행동에서 학습으로: 지속적으로 학습하는 에이전트를 향한 경험 선택",
+   "summary": "연구원들은 지속적인 에이전트 학습의 구성 요소로서 4B 언어 에이전트를 위한 경험 선택을 조사했다. 두 개의 고정된 경험 풀, 초기화 시드, 샘플링 시드에 걸쳐 9개의 선택기를 비교하여 288명의 학습된 학생 모델을 도출했다. 최적화 인식 그래디언트 선택은 다양한 풀에서 무작위 및 고-NLL 선택에 비해 상당한 성공률 향상을 기록했다.",
+   "impact": "이번 연구는 그래디언트 기반 경험 선택이 무작위 또는 고-NLL 선택 방법보다 우수함을 입증함으로써 지속 학습 에이전트를 최적화하는 개발자와 팀에게 도움을 줄 수 있다. 기술 사용자들은 언어 에이전트를 위한 더 효과적인 학습 전략의 이점을 누릴 수 있다.",
+   "keyPoints": [
+    "고정된 풀과 시드에 걸쳐 9개의 선택기를 비교하여 288개의 모델을 학습함.",
+    "최적화 인식 그래디언트 선택은 두 풀에서 각각 81.45%와 73.19%의 성공률을 달성함.",
+    "128개의 예비 태스크 그룹에 대한 별도의 복제 검증을 통해 그래디언트 선택의 성능 우위가 확인됨."
+   ]
+  }
+ }
+}

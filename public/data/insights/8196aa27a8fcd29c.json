@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8196aa27a8fcd29c",
+ "contentHash": "a554720ff49081c5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T02:58:30.109Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Improved Accuracy Scaling with Problem Complexity in LLM Arithmetic Reasoning Using Executable Symbolic Representations",
+   "summary": "Researchers examined how executable symbolic representations change accuracy scaling in large language models compared to natural-language reasoning. To test this, they introduced the GSM Arithmetic Benchmark (GSM-AB) to vary operand digit length and operation count. The study found that executable representations can improve accuracy and slow its decline as complexity increases.",
+   "impact": "This research could help developers and technology users understand how reasoning representations affect arithmetic accuracy in large language models. The findings may support the use of executable symbolic representations for more reliable reasoning on complex tasks.",
+   "keyPoints": [
+    "Introduced the GSM Arithmetic Benchmark (GSM-AB) to probe numerical scale and compositional complexity.",
+    "Executable representations can improve accuracy and slow its decline as complexity increases.",
+    "Lean reduces average sensitivity to operand digit length at every tested model size."
+   ]
+  },
+  "km": {
+   "title": "ការកែលម្អការពង្រីកភាពត្រឹមត្រូវជាមួយនឹងភាពស្មុគស្មាញនៃបញ្ហាក្នុងការសន្និដ្ឋាននព្វន្ត LLM ដោយប្រើតំណាងនិមិត្តសញ្ញាដែលអាចប្រតិបត្តិបាន",
+   "summary": "អ្នកស្រាវជ្រាវបានពិនិត្យមើលពីរបៀបដែលតំណាងនិមិត្តសញ្ញាដែលអាចប្រតិបត្តិបានផ្លាស់ប្តូរការពង្រីកភាពត្រឹមត្រូវនៅក្នុងគំរូភាសាធំៗធៀបនឹងការសន្និដ្ឋានជាភាសាធម្មជាតិ។ ដើម្បីដោះស្រាយបញ្ហានេះ ពួកគេបានណែនាំ GSM Arithmetic Benchmark (GSM-AB) ដែលជាBenchmarks គ្រប់គ្រងមួយដើម្បីសាកល្បងខ្នាតលេខ និងភាពស្មុគស្មាញនៃការផ្សំ។ ការសិក្សាបានរកឃើញថា តំណាងដែលអាចប្រតិបត្តិបានអាចកែលម្អភាពត្រឹមត្រូវ និងពន្យឺតការធ្លាក់ចុះរបស់វា នៅពេលដែលភាពស្មុគស្មាញកើនឡើង។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាឱ្យយល់ពីរបៀបដែលតំណាងនៃការសន្និដ្ឋានមានឥទ្ធិពលលើភាពត្រឹមត្រូវនព្វន្ត។ ការរកឃើញទាំងនេះអាចគាំទ្រដល់ការប្រើប្រាស់តំណាងនិមិត្តសញ្ញាដែលអាចប្រតិបត្តិបានសម្រាប់ការសន្និដ្ឋានដែលអាចទុកចិត្តបានជាងមុនលើកិច្ចការនព្វន្តស្មុគស្មាញ។",
+   "keyPoints": [
+    "បានណែនាំ GSM Arithmetic Benchmark (GSM-AB) ដើម្បីពិនិត្យខ្នាតលេខ និងភាពស្មុគស្មាញនៃការផ្សំ។",
+    "តំណាងដែលអាចប្រតិបត្តិបានអាចកែលម្អភាពត្រឹមត្រូវ និងពន្យឺតការធ្លាក់ចុះរបស់វា នៅពេលដែលភាពស្មុគស្មាញកើនឡើង។",
+    "Lean កាត់បន្ថយភាពងាយរងគ្រោះជាមធ្យមចំពោះប្រវែងខ្ទង់តួលេខនៅគ្រប់ទំហំគំរូដែលបានសាកល្បង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用可执行符号表示法在LLM算术推理中随问题复杂度提高准确率扩展性",
+   "summary": "研究人员探讨了可执行符号表示法与自然语言推理相比如何改变大语言模型中的准确率扩展性。为了解决这一局限性，他们引入了GSM算术基准（GSM-AB），这是一个独立变化操作数位数和操作数量的受控基准，用于探测数值规模和组合复杂度。研究发现，可执行符号表示可以提高准确率，并在复杂度增加时减缓准确率的下降。",
+   "impact": "这项研究可以帮助开发人员和技术用户了解推理表示如何影响大语言模型中的算术准确率。这些发现可能支持在复杂算术任务中使用可执行符号表示以获得更可靠的推理。",
+   "keyPoints": [
+    "引入了GSM算术基准（GSM-AB）来探究数值规模和组合复杂度。",
+    "可执行表示可以提高准确率并在复杂度增加时减缓其下降。",
+    "在每个测试的模型大小下，Lean都降低了对操作数位数的平均敏感度。"
+   ]
+  },
+  "ko": {
+   "title": "실행 가능한 기호 표현을 사용한 LLM 산술 추론에서 문제 복잡도에 따른 정확도 확장성 개선",
+   "summary": "연구진은 자연어 추론과 비교하여 실행 가능한 기호 표현이 대형 언어 모델의 정확도 확장성을 어떻게 변화시키는지 조사했다. 이 한계를 해결하기 위해 피연산자 자릿수와 연산 횟수를 독립적으로 변경하여 수치 규모와 구성 복잡성을 조사하는 통제된 벤치마크인 GSM Arithmetic Benchmark (GSM-AB)를 도입했다. 연구 결과 실행 가능한 기호 표현이 정확도를 향상시키고 복잡성이 증가할 때 정확도 저하를 늦출 수 있는 것으로 나타났다.",
+   "impact": "이번 연구는 개발자와 기술 사용자가 추론 표현이 대형 언어 모델의 산술 정확도에 미치는 영향을 이해하는 데 도움을 줄 수 있다. 이러한 발견은 복잡한 산술 작업에서 더 신뢰할 수 있는 추론을 위해 실행 가능한 기호 표현을 사용하는 것을 뒷받침할 수 있다.",
+   "keyPoints": [
+    "수치 규모와 구성 복잡성을 조사하기 위해 GSM Arithmetic Benchmark (GSM-AB)를 도입함.",
+    "실행 가능한 표현은 복잡성이 증가할 때 정확도를 향상시키고 저하를 늦출 수 있음.",
+    "Lean은 테스트된 모든 모델 크기에서 피연산자 자릿수에 대한 평균 민감도를 감소시킴."
+   ]
+  }
+ }
+}
