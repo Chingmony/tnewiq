@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1833b139f3c79668",
+ "contentHash": "1a6c0c7b78641e4e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T13:00:08.925Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy",
+   "summary": "OpenAI's GPT-6.2 Astra independently generated a machine-verifiable Lean proof for Smoktunowicz's gap theorem, which Vals AI notes is the first of its kind. Because key foundations were absent from Mathlib, the model devised its own unique approach. Additionally, Astra now leads the Autoform-Hard leaderboard after successfully solving 49 out of 56 tasks.",
+   "impact": "This development could demonstrate advanced autonomous problem-solving capabilities in AI models for complex mathematics. Security and technology teams may see increased utility for advanced verification tools, though further evaluation is needed.",
+   "keyPoints": [
+    "GPT-6.2 Astra produced a machine-verifiable Lean proof of Smoktunowicz's gap theorem.",
+    "The model invented its own proof strategy because key foundations were missing from Mathlib.",
+    "Astra leads the Autoform-Hard leaderboard with 49 of 56 tasks solved."
+   ]
+  },
+  "km": {
+   "title": "GPT-6.2 Astra បានដោះស្រាយទ្រឹស្តីបទគណិតវិទ្យាមួយដែល AI ផ្សេងទៀតមិនអាចដោះស្រាយបាន បន្ទាប់មកបានបង្កើតយុទ្ធសាស្ត្របញ្ជាក់ផ្ទាល់ខ្លួន",
+   "summary": "GPT-6.2 Astra របស់ OpenAI បានបង្កើតដោយឯករាជ្យនូវភស្តុតាង Lean ដែលអាចផ្ទៀងផ្ទាត់ដោយម៉ាស៊ីននៃទ្រឹស្តីបទចន្លោះប្រហោង Smoktunowicz ដែល Vals AI ឱ្យដឹងថាជាលើកដំបូងបង្អស់។ គំរូនេះបានជ្រើសរើសវិធីសាស្ត្រផ្ទាល់ខ្លួនដោយសារតែមូលដ្ឋានគ្រឹះសំខាន់ៗត្រូវបានខ្វះខាតពី Mathlib ។ នៅលើ Autoform-Hard ឥឡូវនេះ Astra ស្ថិតនៅចំណាត់ថ្នាក់លេខមួយដោយបានដោះស្រាយភារកិច្ចចំនួន 49 ក្នុងចំណោម 56 ។",
+   "impact": "ការវិវត្តនេះអាចបង្ហាញពីសមត្ថភាពដោះស្រាយបញ្ហាដោយស្វ័យប្រវត្តិក្នុងកម្រិតខ្ពស់នៅក្នុងគំរូ AI សម្រាប់គណិតវិទ្យាស្មុគស្មាញ។",
+   "keyPoints": [
+    "GPT-6.2 Astra បានផលិតភស្តុតាង Lean នៃទ្រឹស្តីបទចន្លោះប្រហោង Smoktunowicz ។",
+    "គំរូនេះបានបង្កើតយុទ្ធសាស្ត្របញ្ជាក់ផ្ទាល់ខ្លួនដោយសារមូលដ្ឋានគ្រឹះខ្វះខាតពី Mathlib ។",
+    "Astra នាំមុខតារាងពិន្ទុ Autoform-Hard ជាមួយភារកិច្ច 49 ក្នុងចំណោម 56 ដែលបានដោះស្រាយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "GPT-6.2 Astra 破解了其他任何 AI 都无法攻克的数学定理，随后发明了自己的证明策略",
+   "summary": "根据 Vals AI 的说法，OpenAI 的 GPT-6.2 Astra 独立生成了 Smoktunowicz 间隙定理的机器可验证 Lean 证明，这是同类中的首个。由于 Mathlib 中缺少关键基础，该模型选择了自己的方法。在 Autoform-Hard 上，Astra 目前以解决 56 个任务中的 49 个而领跑排行榜。",
+   "impact": "这一进展可能展示了人工智能模型在处理复杂数学问题时的高级自主解决能力。技术团队可能会发现高级验证工具的实用性有所提升。",
+   "keyPoints": [
+    "GPT-6.2 Astra 产生了 Smoktunowicz 间隙定理的机器可验证 Lean 证明。",
+    "由于 Mathlib 缺少关键基础，该模型发明了自己的证明策略。",
+    "Astra 在 Autoform-Hard 排行榜上以解决 49 个任务领跑。"
+   ]
+  },
+  "ko": {
+   "title": "GPT-6.2 Astra가 다른 어떤 AI도 풀지 못한 수학 정리를 풀고 자체 증명 전략을 발명했습니다",
+   "summary": "OpenAI의 GPT-6.2 Astra가 Vals AI에 따르면 최초로 Smoktunowicz의 갭 정리에 대한 기계 검증 가능한 Lean 증명을 독자적으로 생성했습니다. Mathlib에 핵심 기반이 누락되어 있어 모델이 자체적인 접근 방식을 선택했습니다. Autoform-Hard에서 Astra는 현재 56개 작업 중 49개를 해결하여 리더보드를 선도하고 있습니다.",
+   "impact": "이번 개발은 복잡한 수학을 위한 AI 모델의 고급 자율 문제 해결 능력을 보여줄 수 있습니다. 보안 및 기술 팀은 고급 검증 도구의 유용성이 향상되는 것을 볼 수 있습니다.",
+   "keyPoints": [
+    "GPT-6.2 Astra가 Smoktunowicz의 갭 정리에 대한 기계 검증 가능한 Lean 증명을 생성했습니다.",
+    "Mathlib에 핵심 기반이 없어 모델이 자체 증명 전략을 발명했습니다.",
+    "Astra는 56개 중 49개의 작업을 해결하며 Autoform-Hard 리더보드를 이끌고 있습니다."
+   ]
+  }
+ }
+}

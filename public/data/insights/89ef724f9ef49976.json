@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "89ef724f9ef49976",
+ "contentHash": "6c82752beca8f6ae",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T12:57:58.719Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+   "summary": "N-able disclosed a critical server-side request forgery vulnerability, tracked as CVE-2026-134624, which was discovered during the investigation of a breach of its Mail Assure and SpamExperts Hosted Cloud email filtering service. The flaw permitted a user possessing high-level API access to open connections to internal systems of their choosing.",
+   "impact": "This vulnerability could allow authenticated high-privilege users to interact with internal networks and systems through server-side request forgery. Security teams and administrators should review API access controls and apply necessary updates to mitigate potential internal exposure.",
+   "keyPoints": [
+    "N-able disclosed a critical vulnerability tracked as CVE-2026-134624 found during a breach investigation.",
+    "The issue affects Mail Assure and SpamExperts Hosted Cloud.",
+    "The bug is a server-side request forgery flaw allowing users with high-level API access to connect to chosen internal systems."
+   ]
+  },
+  "km": {
+   "title": "N-able បង្ហាញពីភាពខ្សោយដ៏ធ្ងន់ធ្ងរក្នុង Mail Assure ដែលរកឃើញអំឡុងពេលស៊ើបអង្កេតការទម្លុះទិន្នន័យ",
+   "summary": "ក្រុមហ៊ុន N-able បានបង្ហាញពីភាពខ្សោយដ៏ធ្ងន់ធ្ងរមួយដែលត្រូវបានរកឃើញក្នុងអំឡុងពេលស៊ើបអង្កេតការទម្លុះទិន្នន័យនៃសេវាកម្មត្រងអ៊ីមែល Mail Assure និង SpamExperts Hosted Cloud ។ កំហុសនេះត្រូវបានតាមដានក្រោមលេខ CVE-2026-134624 ដែលជាបញ្ហាខ្សោយប្រភេទ server-side request forgery ។ វាបានអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ដែលមានសិទ្ធិ API កម្រិតខ្ពស់បើកការតភ្ជាប់ទៅកាន់ប្រព័ន្ធខាងក្នុងតាមការជ្រើសរើសរបស់អ្នកប្រើប្រាស់ ។",
+   "impact": "ភាពខ្សោយនេះអាចអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ដែលមានឯកសិទ្ធិខ្ពស់ធ្វើអន្តរកម្មជាមួយបណ្តាញនិងប្រព័ន្ធខាងក្នុងតាមរយៈ server-side request forgery ។ ក្រុមសុវត្ថិភាពអាចនឹងត្រូវពិនិត្យឡើងវិញនូវការគ្រប់គ្រងសិទ្ធិ API ដើម្បីកាត់បន្ថយហានិភ័យនៃការប៉ះពាល់ប្រព័ន្ធខាងក្នុង ។",
+   "keyPoints": [
+    "N-able បានបង្ហាញពីភាពខ្សោយដ៏ធ្ងន់ធ្ងរដែលបានរកឃើញអំឡុងពេលស៊ើបអង្កេតការទម្លុះទិន្នន័យ ។",
+    "បញ្ហានេះប៉ះពាល់ដល់ Mail Assure និង SpamExperts Hosted Cloud ។",
+    "កំហុសនេះគឺជាបញ្ហា server-side request forgery ដែលអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ដែលមានសិទ្ធិ API ខ្ពស់ភ្ជាប់ទៅកាន់ប្រព័ន្ធខាងក្នុង ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "N-able 披露在漏洞调查期间发现的严重 Mail Assure 漏洞",
+   "summary": "N-able 披露了一个在调查其面向托管服务提供商的电子邮件过滤服务 Mail Assure 和 SpamExperts Hosted Cloud 泄露事件期间发现的严重漏洞。该漏洞被追踪为 CVE-2026-134624，是一个服务端请求伪造漏洞。它允许具有高级 API 访问权限的用户连接到用户选择的内部系统。",
+   "impact": "该漏洞可能会允许具有高权限的用户通过服务端请求伪造与内部网络和系统进行交互。安全团队和管理员应当审查 API 访问控制并应用必要的更新，以降低潜在的内部暴露风险。",
+   "keyPoints": [
+    "N-able 披露了一个在泄露调查期间发现的被追踪为 CVE-2026-134624 的严重漏洞。",
+    "该问题影响 Mail Assure 和 SpamExperts Hosted Cloud。",
+    "该漏洞是一个服务端请求伪造缺陷，允许拥有高级 API 访问权限的用户连接到所选的内部系统。"
+   ]
+  },
+  "ko": {
+   "title": "N-able, 침해 사고 조사 중 발견된 치명적인 Mail Assure 취약점 공개",
+   "summary": "N-able은 관리형 서비스 제공업체를 위해 운영하는 이메일 필터링 서비스인 Mail Assure 및 SpamExperts Hosted Cloud의 침해 사고를 조사하는 과정에서 발견한 치명적 결함을 공개했습니다. CVE-2026-134624로 추적되는 이 버그는 서버 측 요청 위조 취약점입니다. 이 결함은 높은 수준의 API 액세스 권한을 가진 사용자가 원하는 내부 시스템에 대한 연결을 열 수 있도록 허용했습니다.",
+   "impact": "이 취약점으로 인해 높은 권한을 가진 사용자가 서버 측 요청 위조를 통해 내부 네트워크 및 시스템과 상호 작용할 수 있습니다. 보안 팀과 관리자는 잠재적인 내부 노출을 완화하기 위해 API 액세스 제어를 검토하고 필요한 업데이트를 적용해야 할 수 있습니다.",
+   "keyPoints": [
+    "N-able은 침해 사고 조사 중 발견된 CVE-2026-134624 취약점을 공개했습니다.",
+    "이 문제는 Mail Assure 및 SpamExperts Hosted Cloud에 영향을 미칩니다.",
+    "해당 버그는 높은 수준의 API 액세스 권한을 가진 사용자가 선택한 내부 시스템에 연결할 수 있게 하는 서버 측 요청 위조 결함입니다."
+   ]
+  }
+ }
+}

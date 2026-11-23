@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2da724996ccb9ddb",
+ "contentHash": "09ce7e6105e5c496",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-23T12:55:31.858Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+   "summary": "Threat actors are exploiting a patched security flaw in ConnectWise ScreenConnect to target managed service provider servers. The activity involves CVE-2026-84869, a critical client flaw with a CVSS score of 9.9. This vulnerability allows a guest to transfer and execute a malicious payload on a connecting technician's host.",
+   "impact": "Security teams and technology users may face risks from this vulnerability, which allows attackers to hijack technician PCs. Organizations using the affected software should ensure they have applied the patch.",
+   "keyPoints": [
+    "Threat actors are exploiting a patched security flaw in ConnectWise ScreenConnect.",
+    "The vulnerability is tracked as CVE-2026-84869 with a CVSS score of 9.9.",
+    "It allows a guest to transfer and execute a malicious payload on a connecting technician's host."
+   ]
+  },
+  "km": {
+   "title": "ពួក Hacker កេងប្រវ័ញ្ចចំណុចខ្សោយដ៏គ្រោះថ្នាក់ក្នុង ScreenConnect ដើម្បីគ្រប់គ្រងកុំព្យូទ័ររបស់ជាងបច្ចេកទេស MSP ដោយគ្មានការព្រមាន",
+   "summary": "ក្រុមពួកបំផ្លាញកំពុងកេងប្រវ័ញ្ចចំណុចខ្សោយសុវត្ថិភាពដែលបានជួសជុលរួចហើយនៅក្នុង ConnectWise ScreenConnect ដើម្បីកំណត់គោលដៅលើម៉ាស៊ីនបម្រើរបស់អ្នកផ្តល់សេវាកម្មគ្រប់គ្រង។ សកម្មភាពនេះពាក់ព័ន្ធនឹង CVE-2026-84869 ដែលជាចំណុចខ្សោយដ៏គ្រោះថ្នាក់មានពិន្ទុ CVSS 9.9។ភាពខ្សោយនេះអនុញ្ញាតឱ្យភ្ញៀវផ្ទេរ និងប្រតិបត្តិទិន្នន័យមានគ្រោះថ្នាក់នៅលើម៉ាស៊ីនរបស់ជាងបច្ចេកទេសដែលកំពុងតភ្ជាប់។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងប្រឈមមុខនឹងហានិភ័យពីភាពខ្សោយនេះ ដែលអនុញ្ញាតឱ្យពួកattacker គ្រប់គ្រងកុំព្យូទ័ររបស់ជាងបច្ចេកទេស។ អង្គភាពដែលប្រើប្រាស់កម្មវិធីដែលរងផលប៉ះពាល់គួរតែធានាថាពួកគេបានដំឡើងបَច្ចប្ចុប្បន្នភាពរួចរាល់។",
+   "keyPoints": [
+    "ពួកបំផ្លាញកំពុងកេងប្រវ័ញ្ចចំណុចខ្សោយសុវត្ថិភាពដែលបានជួសជុលក្នុង ConnectWise ScreenConnect។",
+    "ភាពខ្សោយនេះត្រូវបានតាមដានជា CVE-2026-84869 ដែលមានពិន្ទុ CVSS 9.9។",
+    "វាអនុញ្ញាតឱ្យភ្ញៀវផ្ទេរ និងប្រតិបត្តិទិន្នន័យមានគ្រោះថ្នាក់នៅលើម៉ាស៊ីនរបស់ជាងបច្ចេកទេស។"
+   ]
+  },
+  "zh-CN": {
+   "title": "黑客利用严重的 ScreenConnect 漏洞在无预警情况下劫持 MSP 技术人员电脑",
+   "summary": "威胁攻击者正在利用 ConnectWise ScreenConnect 中一个已修补的安全漏洞来攻击托管服务提供商服务器。该活动围绕 CVE-2026-84869 展开，这是一个 CVSS 评分为 9.9 的严重 ScreenConnect 客户端漏洞。该漏洞允许访客在连接的技术人员主机上传输并执行恶意有效负载。",
+   "impact": "安全团队和技术用户可能会面临该漏洞带来的风险，该漏洞允许攻击者劫持技术人员的电脑。使用受影响软件的组织应确保已应用补丁。",
+   "keyPoints": [
+    "威胁攻击者正在利用 ConnectWise ScreenConnect 中已修补的安全漏洞。",
+    "该漏洞被跟踪为 CVE-2026-84869，CVSS 评分为 9.9。",
+    "它允许访客在连接的技术人员主机上传输并执行恶意有效负载。"
+   ]
+  },
+  "ko": {
+   "title": "해커, 치명적인 ScreenConnect 결함을 악용해 경고 없이 MSP 기술자 PC를 하이재킹",
+   "summary": "위협 행위자들이 ConnectWise ScreenConnect의 패치된 보안 결함을 악용하여 관리형 서비스 제공업체 서버를 겨냥하고 있습니다. 이 활동은 CVSS 점수 9.9의 치명적인 ScreenConnect 클라이언트 결함인 CVE-2026-84869와 관련이 있습니다. 이 취약점은 게스트가 연결 중인 기술자의 호스트로 악성 페이로드를 전송하고 실행할 수 있게 합니다.",
+   "impact": "보안 팀과 기술 사용자들은 공격자가 기술자 PC를 하이재킹할 수 있게 하는 이 취약점으로 인해 위험에 직면할 수 있습니다. 영향을 받는 소프트웨어를 사용하는 조직은 패치가 적용되었는지 확인해야 합니다.",
+   "keyPoints": [
+    "위협 행위자들이 ConnectWise ScreenConnect의 패치된 보안 결함을 악용하고 있습니다.",
+    "이 취약점은 CVSS 점수 9.9의 CVE-2026-84869로 추적됩니다.",
+    "게스트가 연결 중인 기술자의 호스트로 악성 페이로드를 전송하고 실행할 수 있습니다."
+   ]
+  }
+ }
+}
