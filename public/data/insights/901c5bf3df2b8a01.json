@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "901c5bf3df2b8a01",
+ "contentHash": "5dedd6cc51102d99",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-24T00:58:12.292Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS Sign-In introduces configurable Sign-in duration of up to 90 days",
+   "summary": "AWS Sign-In has introduced a configurable sign-in duration of up to 90 days for developers and AI agents. Administrators can now configure session lengths for individual IAM users and roles to reduce frequent authentication prompts. This feature supports tools like AWS CLI, AWS MCP Server, and other OAuth-enabled applications.",
+   "impact": "This feature could reduce authentication interruptions for long-running workflows and provide a more secure alternative to static access keys by using renewable credentials. Administrators may utilize this to streamline developer and AI agent access without affecting AWS Management Console sessions.",
+   "keyPoints": [
+    "Sign-in sessions can now be configured for up to 90 days.",
+    "Administrators can set durations for individual IAM users and roles.",
+    "The capability supports AWS CLI, AWS MCP Server, and other OAuth-enabled applications.",
+    "Existing session duration limits remain unchanged unless explicitly configured."
+   ]
+  },
+  "km": {
+   "title": "AWS Sign-In បញ្ចេញមុខងារកំណត់រយៈពេលចូលគណនីរហូតដល់ ៩០ថ្ងៃ",
+   "summary": "AWS Sign-In ឥឡូវនេះអនុញ្ញាតឱ្យអ្នកអភិវឌ្ឍន៍ និងភ្នាក់ងារ AI រក្សាការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវរហូតដល់ ៩០ថ្ងៃ ដោយមិនចាំបាច់ចូលគណនីញឹកញាប់។ អ្នកគ្រប់គ្រងអាចកំណត់រយៈពេលចូលគណនីសម្រាប់អ្នកប្រើប្រាស់ IAM និងតួនាទីនីមួយៗបាន។ មុខងារនេះគាំទ្រដល់ AWS CLI, AWS MCP Server និងកម្មវិធីផ្សេងទៀតដែលប្រើប្រាស់ OAuth។",
+   "impact": "មុខងារនេះអាចកាត់បន្ថយការរំខានដល់ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវសម្រាប់ដំណើរការការងារវែងឆ្ងាយ និងផ្តល់នូវทางเลือกដែលមានសុវត្ថិភាពជាងមុនបើធៀបនឹងសោរចូលប្រើប្រាស់ឋិតិវន្ត។ អ្នកគ្រប់គ្រងអាចប្រើប្រាស់វាដើម្បីសម្រួលដល់ការចូលប្រើប្រាស់ដោយមិនប៉ះពាល់ដល់សម័យប្រជុំ AWS Management Console នោះឡើយ។",
+   "keyPoints": [
+    "រយៈពេលចូលគណនីអាចត្រូវបានកំណត់រហូតដល់ ៩០ថ្ងៃ។",
+    "អ្នកគ្រប់គ្រងអាចកំណត់រយៈពេលសម្រាប់អ្នកប្រើប្រាស់ IAM និងតួនាទីនីមួយៗ។",
+    "មុខងារនេះគាំទ្រ AWS CLI, AWS MCP Server និងកម្មវិធីដែលបើកដំណើរការ OAuth។",
+    "ដែនកំណត់រយៈពេលសម័យប្រជុំដែលមានស្រាប់នៅតែដដែលលុះត្រាតែមានការកំណត់យ៉ាងជាក់លាក់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS Sign-In 推出长达 90 天的可配置登录持续时间",
+   "summary": "AWS Sign-In 现在允许开发人员和 AI 代理保持身份验证状态长达 90 天，无需频繁登录或重新提示同意。管理员可以为单独的 IAM 用户和角色配置登录持续时间，从而控制 OAuth 登录会话保持活动的时长。此功能支持 AWS CLI、AWS MCP Server 以及其他启用 OAuth 的应用程序。",
+   "impact": "此功能可以减少长时间运行的工作流中的身份验证中断，并通过使用短期可续订凭证提供比静态访问密钥更安全的替代方案。管理员可能会利用此设置简化开发人员和 AI 代理的访问，且不会影响 AWS Management Console 会话。",
+   "keyPoints": [
+    "登录会话现在可以配置为长达 90 天。",
+    "管理员可以为各个 IAM 用户和角色配置登录持续时间。",
+    "该功能支持 AWS CLI、AWS MCP Server 及其他启用 OAuth 的应用。",
+    "除非显式配置更长的持续时间，否则现有的会话持续时间限制保持不变。"
+   ]
+  },
+  "ko": {
+   "title": "AWS Sign-In, 최대 90일의 설정 가능한 로그인 지속 시간 도입",
+   "summary": "AWS Sign-In을 통해 개발자와 AI 에이전트는 빈번한 로그인이나 동의 프롬프트 없이 최대 90일 동안 인증 상태를 유지할 수 있게 되었습니다. 관리자는 개별 IAM 사용자 및 역할에 대해 OAuth 로그인 세션이 유지되는 시간을 제어하는 로그인 지속 시간을 구성할 수 있습니다. 이 기능은 AWS CLI, AWS MCP Server 및 기타 OAuth 지원 애플리케이션을 지원합니다.",
+   "impact": "이 기능은 장기 실행 워크플로에서 인증 중단을 줄이고 갱신 가능한 단기 자격 증명을 사용하여 정적 액세스 키에 대한 더 안전한 대안을 제공할 수 있습니다. 관리자는 이를 활용하여 AWS Management Console 세션에 영향을 주지 않으면서 개발자와 AI 에이전트의 액세스를 간소화할 수 있습니다.",
+   "keyPoints": [
+    "로그인 세션을 최대 90일까지 구성할 수 있습니다.",
+    "관리자는 개별 IAM 사용자 및 역할에 대한 지속 시간을 구성할 수 있습니다.",
+    "이 기능은 AWS CLI, AWS MCP Server 및 기타 OAuth 지원 앱을 지원합니다.",
+    "명시적으로 더 긴 기간을 구성하지 않는 한 기존 세션 지속 시간 제한은 변경되지 않습니다."
+   ]
+  }
+ }
+}

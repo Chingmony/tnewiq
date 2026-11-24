@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "90d8a2522077f46d",
+ "contentHash": "c3b695988cba8f4b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-24T01:07:12.917Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS WAF introduces simplified pricing",
+   "summary": "AWS WAF has introduced a simplified pricing structure that aligns costs with what is protected rather than how it is configured. The new model relies on three dimensions: protected resources, inspected traffic, and the level of protection applied. Under this model, adding or changing rules no longer alters the rate, making costs more predictable.",
+   "impact": "Developers and technology users may find it easier to evaluate cost-benefit trade-offs and predict protection costs before deployment without needing complex billing calculations for every security decision.",
+   "keyPoints": [
+    "Pricing is now based on protected resources, inspected traffic, and protection level.",
+    "Each web ACL includes up to 2,500 WCU at no extra charge, an increase from 1,500.",
+    "Rules like Bot Control common protections and Anti-DDoS rule groups can be added without additional fees.",
+    "Fees consist of a resource fee, a base request fee, and an optional premium request fee for advanced protections."
+   ]
+  },
+  "km": {
+   "title": "AWS WAF ដាក់ឱ្យប្រើប្រាស់តម្លៃដែលបាន সরলបែន",
+   "summary": "AWS ឥឡូវនេះផ្តល់ជូននូវរចនាសម្ព័ន្ធតម្លៃ AWS WAF ដែលបានធ្វើឱ្យងាយស្រួលដោយគិតតាមអ្វីដែលអ្នកការពារជាជាងរបៀបដែលអ្នកកំណត់រចនាសម្ព័ន្ធវា។ ម៉ូដែលថ្មីនេះពឹងផ្អែកលើវិមាត្រចំនួនបីគឺធនធានដែលបានការពារ ចរាចរណ៍ដែលបានត្រួតពិនិត្យ និងកម្រិតនៃការការពារដែលបានអនុវត្ត។ វាយតម្លៃថ្លៃដើមអាចព្យាករណ៍បាន និងធ្វើឱ្យការបន្ថែមច្បាប់មិនប្តូរអត្រាតម្លៃឡើយ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចយល់ពីការប្តូរតម្លៃ និងចំណាយបានកាន់តែងាយស្រួលមុនពេលដាក់ពង្រាយដោយមិនបាច់គណនាវិក្កយបត្រស្មុគស្មាញ។",
+   "keyPoints": [
+    "តម្លៃឥឡូវនេះផ្អែកលើធនធានដែលបានការពារ ចរាចរណ៍ដែលបានត្រួតពិនិត្យ និងកម្រិតការពារ។",
+    "រាល់ web ACL នីមួយៗរួមបញ្ចូលរហូតដល់ 2,500 WCU ដោយឥតគិតថ្លៃបន្ថែម កើនឡើងពី 1,500។",
+    "អាចបន្ថែមច្បាប់ដូចជា Bot Control common protections ឬ Anti-DDoS rule group ដោយគ្មានថ្លៃសេវាបន្ថែម។",
+    "ការទូទាត់រួមមានថ្លៃធនធាន ថ្លៃសំណើមូលដ្ឋាន និងថ្លៃសំណើពិសេសសម្រាប់ការការពារកម្រិតខ្ពស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS WAF 推出简化定价",
+   "summary": "AWS WAF 推出了简化定价结构，费用根据保护对象而不是配置方式计算。新模式基于三个维度：受保护的资源、AWS WAF 检查的流量以及应用的保护级别。添加或更改规则不再改变费率，使部署前的保护成本更具可预测性。",
+   "impact": "开发者和技术用户可以更轻松地理解成本效益权衡，并在部署前预测保护成本，无需为每个安全决策进行复杂的账单计算。",
+   "keyPoints": [
+    "定价现在基于受保护资源、检查流量和保护级别。",
+    "每个 web ACL 现在包含最多 2,500 WCU 且不收取额外费用，之前为 1,500。",
+    "添加 Bot Control 常见保护或 Anti-DDoS 规则组等规则无需额外费用。",
+    "费用包括每个受保护资源的资源费、基础请求费以及高级保护的高级请求费。"
+   ]
+  },
+  "ko": {
+   "title": "AWS WAF, 간소화된 가격 책정 도입",
+   "summary": "AWS WAF는 구성 방식 대신 보호하는 대상에 따라 비용을 부과하는 간소화된 가격 구조를 도입했습니다. 새로운 모델은 보호하는 자원, 검사하는 트래픽, 적용하는 보호 수준의 세 가지 요소를 기반으로 합니다. 규칙을 추가하거나 변경해도 요율이 바뀌지 않아 배포 전에 보호 비용을 쉽게 예측할 수 있습니다.",
+   "impact": "개발자와 기술 사용자는 비용 대비 편익을 쉽게 이해하고 모든 보안 결정에 대해 복잡한 요금 계산을 할 필요 없이 배포 전에 보호 비용을 예측할 수 있습니다.",
+   "keyPoints": [
+    "가격은 보호되는 자원, 검사된 트래픽, 적용된 보호 수준을 기준으로 합니다.",
+    "각 web ACL은 추가 비용 없이 기존 1,500에서 최대 2,500 WCU를 포함합니다.",
+    "Bot Control 일반 보호 또는 Anti-DDoS 규칙 그룹과 같은 규칙을 추가 비용 없이 추가할 수 있습니다.",
+    "비용은 보호된 자원에 대한 자원 요금, 기본 요청 요금, 고급 보호용 프리미엄 요청 요금으로 구성됩니다."
+   ]
+  }
+ }
+}

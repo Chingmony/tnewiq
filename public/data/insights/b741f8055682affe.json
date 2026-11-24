@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b741f8055682affe",
+ "contentHash": "d19efb060b3d3b18",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-24T01:05:52.863Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0",
+   "summary": "Sparse linear systems form the core of various engineering and scientific simulations such as structural mechanics, computational fluid dynamics, circuit simulation, and power grid analysis. As problems grow in size and complexity, developers require direct solvers that can scale effectively on GPUs while maintaining robustness. NVIDIA cuDSS 1.0 addresses these needs for production simulations.",
+   "impact": "This development could help developers and engineers scale simulation workloads on GPUs while preserving the necessary robustness for production environments.",
+   "keyPoints": [
+    "Sparse linear systems drive most engineering and scientific simulations.",
+    "Simulations range from structural mechanics to power grid analysis.",
+    "Growing problem sizes require GPU-scalable direct solvers."
+   ]
+  },
+  "km": {
+   "title": "ការពន្លឿនកម្មវិធីដោះស្រាយ sparse បន្ទាត់ផ្ទាល់សម្រាប់វិស្វកម្មគណនាដោយប្រើ NVIDIA cuDSS 1.0",
+   "summary": "ប្រព័ន្ធបន្ទាត់ sparse គឺជាគ្រឹះនៃរាល់ការក្លែងធ្វើវិស្វកម្មនិងវិទ្យាសាស្ត្រ រួមទាំងមេកានិចរចនាសម្ព័ន្ធ សក្ដានុពលសារធាតុរាវគណនា ការក្លែងធ្វើសៀគ្វី និងការវិភាគបណ្តាញអគ្គិសនី។ នៅពេលដែលទំហំបញ្ហាកាន់តែធំ អ្នកអភិវឌ្ឍន៍ត្រូវការកម្មវិធីដោះស្រាយផ្ទាល់ដែលអាចពង្រីកនៅលើ GPU ដោយមិនបាត់បង់ភាពរឹងមាំ។",
+   "impact": "ការណ៍នេះអាចជួយអ្នកអភិវឌ្ឍន៍ក្នុងការបង្កើនទំហំការងារក្លែងធ្វើនៅលើ GPU ខណៈពេលដែលរក្សាបាននូវភាពរឹងមាំសម្រាប់ផលិតកម្ម។",
+   "keyPoints": [
+    "ប្រព័ន្ធបន្ទាត់ sparse គឺនៅចំកណ្តាលនៃការក្លែងធ្វើវិស្វកម្មនិងវិទ្យាសាស្ត្រ។",
+    "ការក្លែងធ្វើរួមមានមេកានិចរចនាសម្ព័ន្ធ និងសក្ដានុពលសារធាតុរាវគណនា។",
+    "ទំហំបញ្ហាដែលធំឡើងទាមទារកម្មវិធីដោះស្រាយដែលអាចពង្រីកនៅលើ GPU ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用 NVIDIA cuDSS 1.0 加速计算工程的直接稀疏求解器",
+   "summary": "稀疏线性系统是几乎所有工程和科学模拟的核心，涵盖结构力学、计算流体动力学、电路模拟以及电网分析。随着问题规模和复杂性的增长以及精度需求的收紧，开发人员需要能够在 GPU 上扩展且不失鲁棒性的直接求解器。",
+   "impact": "这一进展可能帮助开发人员和工程团队在 GPU 上扩展模拟工作负载，同时保持生产模拟所需的鲁棒性。",
+   "keyPoints": [
+    "稀疏线性系统是工程和科学模拟的核心。",
+    "模拟应用包括结构力学和计算流体动力学等领域。",
+    "不断增长的问题规模需要 GPU 可扩展的直接求解器。"
+   ]
+  },
+  "ko": {
+   "title": "NVIDIA cuDSS 1.0을 통한 전산 공학용 직접 희소 솔버 가속",
+   "summary": "희소 선형 시스템은 구조 역학, 전산 유체 역학, 회로 시뮬레이션 및 전력망 분석에 이르기까지 거의 모든 공학 및 과학 시뮬레이션의 핵심입니다. 문제의 규모와 복잡성이 커지고 정확성 요구가 높아짐에 따라 개발자는 프로덕션 시뮬레이션에 필요한 견고성을 잃지 않으면서 GPU에서 확장되는 직접 솔버가 필요합니다.",
+   "impact": "이러한 발전은 개발자와 엔지니어가 프로덕션 환경에 필요한 견고성을 유지하면서 GPU에서 시뮬레이션 워크로드를 확장하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "희소 선형 시스템은 대부분의 공학 및 과학 시뮬레이션의 핵심입니다.",
+    "시뮬레이션 범위에는 구조 역학 및 전산 유체 역학 등이 포함됩니다.",
+    "커지는 문제 규모에는 GPU 확장 가능한 직접 솔버가 필요합니다."
+   ]
+  }
+ }
+}
