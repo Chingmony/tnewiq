@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "70a443f03aac3b16",
+ "contentHash": "9c6b4156eb52ba7e",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-25T04:28:45.558Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "AWS CloudFormation makes resource coverage comprehensive with 206 new types",
+   "summary": "AWS CloudFormation has added support for 206 new resource types across 88 services, including Amazon SageMaker Hub, Amazon Bedrock AgentCore PolicyEngine, and Amazon EC2 Snapshot. This update closes previous coverage gaps and was built using a new AI-driven internal framework designed to reduce onboarding costs. Additionally, the AWS Cloud Control API now supports all of these new resource types as well as 224 read-only resource types across 99 services.",
+   "impact": "Developers and infrastructure teams could benefit from standardized and scalable management workflows across a broader range of AWS services. Security and operations teams may also find it easier to inspect existing AWS resources using the expanded read-only capabilities.",
+   "keyPoints": [
+    "Added 206 new resource types across 88 services.",
+    "Used a new AI-driven internal framework to reduce resource onboarding costs.",
+    "AWS Cloud Control API now supports all new resource types plus 224 read-only resource types across 99 services."
+   ]
+  },
+  "km": {
+   "title": "AWS CloudFormation ពង្រីកការគ្របដដបធនធានឱ្យកាន់តែទូលំទូលាយជាមួយប្រភេទថ្មីចំនួន ២០៦",
+   "summary": "AWS CloudFormation ឥឡូវនេះគាំទ្រប្រភេទធនធានបន្ថែមចំនួន ២០៦ នៅលើសេវាកម្មចំនួន ៨៨ រួមទាំង Amazon SageMaker Hub, Amazon Bedrock AgentCore PolicyEngine និង Amazon EC2 Snapshot។ ការដាក់ឱ្យប្រើប្រាស់នេះបានប្រើប្រាស់ប្រព័ន្ធខាងក្នុងដែលជំរុញដោយ AI ដើម្បីកាត់បន្ថយការចំណាយក្នុងការបន្ថែមប្រភេទធនធានថ្មីៗ។ លើសពីនេះ AWS Cloud Control API ឥឡូវនេះគាំទ្រប្រភេទធនធានថ្មីទាំងអស់នោះ និងប្រភេទធនធានដែលអាចអានបានតែមួយមុខចំនួន ២២៤ នៅលើសេវាកម្មចំនួន ៩៩។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យាអាចនឹងទទួលបានអត្ថប្រយោជន៍ពីលំហូរការងារគ្រប់គ្រងហេដ្ឋារចនាសម្ព័ន្ធដែលមានស្តង់ដារ និងអាចពង្រីកបានទូលំទូលាយជាងមុន។ ក្រុមការងារសុវត្ថិភាពក៏អាចពិនិត្យមើលធនធាន AWS ដែលមានស្រាប់បានកាន់តែងាយស្រួលផងដែរតាមរយៈមុខងារអានតែមួយមុខដែលបានពង្រីក។",
+   "keyPoints": [
+    "បានបន្ថែមប្រភេទធនធានថ្មីចំនួន ២០៦ នៅលើសេវាកម្មចំនួន ៨៨។",
+    "បានប្រើប្រាស់ប្រព័ន្ធខាងក្នុងដែលជំរុញដោយ AI ដើម្បីកាត់បន្ថយការចំណាយលើការបញ្ចូលធនធាន។",
+    "AWS Cloud Control API ឥឡូវនេះគាំទ្រប្រភេទធនធានអានតែមួយមុខចំនួន ២២៤ នៅលើសេវាកម្មចំនួន ៩៩។"
+   ]
+  },
+  "zh-CN": {
+   "title": "AWS CloudFormation 通过 206 种新类型实现全面的资源覆盖",
+   "summary": "AWS CloudFormation 现已支持跨 88 个服务的 206 种额外资源类型，包括 Amazon SageMaker Hub、Amazon Bedrock AgentCore PolicyEngine 和 Amazon EC2 Snapshot。此次推出利用了全新的人工智能驱动内部框架，降低了将资源类型接入 CloudFormation 的成本。此外，AWS Cloud Control API 现在支持 CloudFormation 支持的所有新资源类型，以及跨 99 个服务的 224 种只读资源类型。",
+   "impact": "开发人员和技术团队可以利用标准化的安全可扩展基础设施管理工作流程来管理更多服务。安全和运维团队也可能更容易通过扩展的只读功能来查找和检查现有的 AWS 资源。",
+   "keyPoints": [
+    "在 88 个服务中新增了 206 种资源类型。",
+    "采用了全新的人工智能驱动内部框架来降低接入成本。",
+    "AWS Cloud Control API 现支持所有新资源类型及 99 个服务中的 224 种只读资源类型。"
+   ]
+  },
+  "ko": {
+   "title": "AWS CloudFormation, 206개의 새로운 유형으로 포괄적인 리소스 커버리지 제공",
+   "summary": "AWS CloudFormation이 Amazon SageMaker Hub, Amazon Bedrock AgentCore PolicyEngine, Amazon EC2 Snapshot을 포함한 88개 서비스에 걸쳐 206개의 리소스 유형을 추가로 지원한다. 이번 표시는 리소스 유형 온보딩 비용을 절감하기 위해 설계된 새로운 AI 기반 내부 프레임워크를 활용했다. 또한 AWS Cloud Control API는 CloudFormation이 지원하는 모든 새 리소스 유형과 99개 서비스에 걸친 224개의 읽기 전용 리소스 유형을 지원한다.",
+   "impact": "개발자와 인프라 팀은 더 넓은 범위의 AWS 서비스에서 안전하고 확장 가능한 인프라 관리 워크플로를 표준화하는 데 도움을 받을 수 있다. 보안 및 운영 팀은 확장된 읽기 전용 기능을 통해 기존 AWS 리소스를 더 쉽게 찾고 검사할 수 있다.",
+   "keyPoints": [
+    "88개 서비스에 걸쳐 206개의 새로운 리소스 유형 추가.",
+    "리소스 온보딩 비용을 줄이기 위해 AI 기반 내부 프레임워크 활용.",
+    "AWS Cloud Control API가 모든 새 리소스 유형과 99개 서비스의 224개 읽기 전용 리소스 유형을 지원."
+   ]
+  }
+ }
+}

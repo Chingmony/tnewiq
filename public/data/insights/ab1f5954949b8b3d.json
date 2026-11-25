@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ab1f5954949b8b3d",
+ "contentHash": "17a6b98e26f535e5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-25T04:29:15.923Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How to Run NVIDIA Cosmos 3 on Local AI Devices Using Hugging Face Diffusers",
+   "summary": "Running video generation models locally can be challenging when model weights and intermediate data exceed available GPU memory. NVIDIA Cosmos 3 Nano is a world foundation model that generates videos from text, images, and other inputs to support physical AI development. A tutorial is now available to help users run Cosmos 3 Nano on a local GPU using Hugging Face Diffusers.",
+   "impact": "This tutorial could help developers run video generation models locally by addressing GPU memory constraints. It may facilitate physical AI development using NVIDIA Cosmos 3 Nano on local hardware.",
+   "keyPoints": [
+    "Running video generation models locally can exceed available GPU memory.",
+    "NVIDIA Cosmos 3 Nano is a world foundation model generating videos from text, images, and other inputs.",
+    "It supports physical AI development.",
+    "A tutorial explains how to run Cosmos 3 Nano using Hugging Face Diffusers."
+   ]
+  },
+  "km": {
+   "title": "របៀបដំណើរការ NVIDIA Cosmos 3 នៅលើឧបករណ៍ AI មូលដ្ឋានដោយប្រើ Hugging Face Diffusers",
+   "summary": "ការដំណើរការម៉ូដែលបង្កើតវីដេអូក្នុងស្រុកអាចមានការលំបាកនៅពេលដែលទម្ងន់ម៉ូដែលនិងទិន្នន័យមធ្យមលើសពីអង្គចងចាំ GPU ដែលមាន។ NVIDIA Cosmos 3 Nano គឺជាម៉ូដែលមូលដ្ឋានពិភពលោកដែលបង្កើតវីដេអូពីអត្ថបទ រូបភាព និងធាតុចូលផ្សេងទៀត ដើម្បីគាំទ្រដល់ការអភិវឌ្ឍន៍ AI រូបវន្ត។ ការបង្រៀននេះណែនាំអ្នកពីរបៀបដំណើរការ Cosmos 3 Nano នៅលើ GPU ។",
+   "impact": "ការបង្រៀននេះអាចជួយអ្នកអភិវឌ្ឍន៍ដំណើរការម៉ូដែលបង្កើតវីដេអូនៅលើឧបករណ៍មូលដ្ឋាន។ វាអាចគាំទ្រដល់ការអភិវឌ្ឍន៍ AI រូបវន្តដោយប្រើប្រាស់ NVIDIA Cosmos 3 Nano ។",
+   "keyPoints": [
+    "ការដំណើរការម៉ូដែលបង្កើតវីដេអូអាចលើសពីអង្គចងចាំ GPU ។",
+    "NVIDIA Cosmos 3 Nano គឺជាម៉ូដែលមូលដ្ឋានពិភពលោកដែលបង្កើតវីដេអូពីអត្ថបទ និងរូបភាព។",
+    "វាគាំទ្រដល់ការអភិវឌ្ឍន៍ AI រូបវន្ត។",
+    "ការបង្រៀនបង្ហាញពីរបៀបដំណើរការ Cosmos 3 Nano ជាមួយ Hugging Face Diffusers ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "如何使用 Hugging Face Diffusers 在本地 AI 设备上运行 NVIDIA Cosmos 3",
+   "summary": "当模型权重和中间数据超过可用的 GPU 内存时，在本地运行视频生成模型可能会具有挑战性。NVIDIA Cosmos 3 Nano 是一个世界基础模型，可以根据文本、图像和其他输入生成视频，以支持物理 AI 开发。本教程将引导您了解如何在 GPU 上运行 Cosmos 3 Nano。",
+   "impact": "本教程可能会帮助开发人员在本地硬件上克服 GPU 内存限制来运行视频生成模型。它可能有助于使用 NVIDIA Cosmos 3 Nano 进行物理 AI 开发。",
+   "keyPoints": [
+    "本地运行视频生成模型可能会超出可用的 GPU 内存。",
+    "NVIDIA Cosmos 3 Nano 是一个从文本和图像生成视频的世界基础模型。",
+    "该模型用于支持物理 AI 开发。",
+    "教程演示了如何使用 Hugging Face Diffusers 运行 Cosmos 3 Nano。"
+   ]
+  },
+  "ko": {
+   "title": "Hugging Face Diffusers를 사용하여 로컬 AI 장치에서 NVIDIA Cosmos 3을 실행하는 방법",
+   "summary": "모델 가중치와 중간 데이터가 사용 가능한 GPU 메모리를 초과하면 비디오 생성 모델을 로컬에서 실행하는 것이 어려울 수 있습니다. NVIDIA Cosmos 3 Nano는 텍스트, 이미지 및 기타 입력에서 비디오를 생성하여 물리적 AI 개발을 지원하는 세계적인 파운데이션 모델입니다. 이 튜토리얼에서는 GPU에서 Cosmos 3 Nano를 실행하는 방법을 안내합니다.",
+   "impact": "이 튜토리얼은 개발자가 GPU 메모리 제약을 해결하고 로컬에서 비디오 생성 모델을 실행하는 데 도움을 줄 수 있습니다. NVIDIA Cosmos 3 Nano를 활용한 물리적 AI 개발을 용이하게 할 수 있습니다.",
+   "keyPoints": [
+    "로컬에서 비디오 생성 모델을 실행할 때 GPU 메모리가 초과될 수 있습니다.",
+    "NVIDIA Cosmos 3 Nano는 텍스트와 이미지 등에서 비디오를 생성하는 파운데이션 모델입니다.",
+    "이 모델은 물리적 AI 개발을 지원합니다.",
+    "튜토리얼에서는 Hugging Face Diffusers를 사용하여 Cosmos 3 Nano를 실행하는 방법을 설명합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d0205ae46ec53a57",
+ "contentHash": "70aac22ad21146ae",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-25T04:24:25.236Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Baidu's large model ERNIE 5.5 Flash Preview is officially open sourced",
+   "summary": "Baidu has released the weights for ERNIE 5.5 Flash Preview to the global open-source community. On November 24, the official announcement stated that developers can access model weights and supporting resources on Hugging Face and ModelScope for local deployment and secondary development. The model supports mainstream inference frameworks such as vLLM and SGLang.",
+   "impact": "Developers and technology users could leverage these open weights for local deployment and secondary development using mainstream inference frameworks like vLLM and SGLang.",
+   "keyPoints": [
+    "Baidu released the weights for ERNIE 5.5 Flash Preview.",
+    "The official announcement was made on November 24.",
+    "Developers can get model weights and resources on Hugging Face and ModelScope.",
+    "It supports mainstream inference frameworks such as vLLM and SGLang."
+   ]
+  },
+  "km": {
+   "title": "ម៉ូឌែលធំ ERNIE 5.5 Flash Preview របស់ Baidu ត្រូវបានបើកកូដជាផ្លូវការ",
+   "summary": "Baidu បានដាក់ឱ្យទូទាត់ទម្ងន់នៃម៉ូឌែល ERNIE 5.5 Flash Preview ដល់សហគមន៍បើកកូដសកល។ នៅថ្ងៃទី ២៤ ខែវិច្ឆិកា សេចក្តីប្រកាសផ្លូវការបានបញ្ជាក់ថា អ្នកអភិវឌ្ឍន៍អាចទទួលបានទម្ងន់ម៉ូឌែល និងធនធានគាំទ្រនៅលើវេទិកា Hugging Face និង ModelScope។ វាក៏គាំទ្រដល់ក្របខ័ណ្ឌសន្និដ្ឋានសំខាន់ៗដូចជា vLLM និង SGLang ផងដែរ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចប្រើប្រាស់ទម្ងន់ដែលបានបើកកូដទាំងនេះសម្រាប់ការដាក់ឱ្យប្រើប្រាស់ក្នុងស្រុក និងការអភិវឌ្ឍបន្ថែម។",
+   "keyPoints": [
+    "Baidu បានដាក់ឱ្យប្រើប្រាស់ទម្ងន់របស់ ERNIE 5.5 Flash Preview។",
+    "សេចក្តីប្រកាសផ្លូវការត្រូវបានធ្វើឡើងនៅថ្ងៃទី ២៤ ខែវិច្ឆិកា។",
+    "អ្នកអភិវឌ្ឍន៍អាចរកទម្ងន់ម៉ូឌែលនៅលើ Hugging Face និង ModelScope។",
+    "វាគាំទ្រក្របខ័ណ្ឌសន្និដ្ឋាន vLLM និង SGLang។"
+   ]
+  },
+  "zh-CN": {
+   "title": "百度大模型文心 5.5 Flash Preview 正式开源",
+   "summary": "百度将文心 5.5 Flash Preview 的权重开放给了全球开源社区。11 月 24 日的官方公告称，开发者可在 Hugging Face、ModelScope 平台获取模型权重与配套资源以进行本地部署和二次开发。该模型支持 vLLM、SGLang 等主流推理框架进行部署。",
+   "impact": "开发者和技术用户可以通过主流推理框架进行本地部署和二次开发，从而更灵活地利用该模型资源。",
+   "keyPoints": [
+    "百度开源了文心 5.5 Flash Preview 的权重。",
+    "官方开源公告于 11 月 24 日发布。",
+    "开发者可在 Hugging Face 和 ModelScope 平台获取权重与资源。",
+    "支持 vLLM 和 SGLang 等主流推理框架。"
+   ]
+  },
+  "ko": {
+   "title": "바이두 대규모 모델 ERNIE 5.5 Flash Preview 공식 오픈소스화",
+   "summary": "바이두가 ERNIE 5.5 Flash Preview의 가중치를 글로벌 오픈소스 커뮤니티에 공개했습니다. 11월 24일 공식 발표에 따르면, 개발자들은 Hugging Face와 ModelScope 플랫폼에서 모델 가중치와 지원 리소스를 얻어 로컬 배포 및 2차 개발을 진행할 수 있으며, vLLM 및 SGLang 같은 주류 추론 프레임워크를 지원합니다.",
+   "impact": "개발자와 기술 사용자는 주류 추론 프레임워크를 활용하여 로컬 배포 및 2차 개발에 해당 모델 가중치를 사용할 수 있습니다.",
+   "keyPoints": [
+    "바이두가 ERNIE 5.5 Flash Preview 가중치를 공개함.",
+    "공식 발표는 11월 24일에 이루어짐.",
+    "Hugging Face와 ModelScope 플랫폼에서 모델 가중치와 리소스를 획득 가능함.",
+    "vLLM 및 SGLang 등의 주류 추론 프레임워크를 지원함."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6a53219e0430636a",
+ "contentHash": "ce5aa7d58140a044",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-25T04:26:02.337Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+   "summary": "Microsoft declared a Code Red overhaul of its engineering response practices following a November 12 outage that affected Exchange Online, Teams, and Outlook globally. According to internal memos, the incident had the most customer impact in the history of Exchange Online. The downtime was attributed to an undetected Windows scalability defect from July that caused lock contention, compounded by maintenance that left nearly 14 percent of gateway server capacity offline.",
+   "impact": "This incident highlights the operational challenges of managing large-scale cloud services and maintaining deployment speed during critical incidents. Technology teams may need to evaluate their own failover mechanisms, server capacity planning, and emergency deployment targets.",
+   "keyPoints": [
+    "Microsoft declared a Code Red overhaul of its engineering response practices after the November 12 global outage.",
+    "An urgent production fix took five to six days to reach worldwide saturation, compared to a target of one hour for urgent security fixes.",
+    "The outage was caused by an undetected Windows scalability defect introduced in July that caused gateway process lock contention.",
+    "Teams traffic failover added load while maintenance had left nearly 14 percent of gateway server capacity offline."
+   ]
+  },
+  "km": {
+   "title": "ការដាច់សេវាពពកដ៏ប្រវត្តិសាស្ត្ររបស់ Microsoft បានបង្ហាញពីភាពច្របូកច្របល់ផ្នែកវិស្វកម្ម",
+   "summary": "ក្រុមហ៊ុន Microsoft បានប្រកាសកែទម្រង់បន្ទាន់បែប Code Red លើការអនុវត្តការឆ្លើយតបផ្នែកវិស្វកម្ម បន្ទាប់ពីការដាច់សេវាកម្មកាលពីថ្ងៃទី 12 ខែវិច្ឆិកា ដែលបានប៉ះពាល់ដល់ Exchange Online, Teams និង Outlook ទូទាំងពិភពលោក។ យោងតាមកំណត់ហេតុផ្ទៃក្នុង ការដាច់សេវាកម្មនេះបានបង្កផលប៉ះពាល់ខ្លាំងបំផុតដល់អតិថិជនក្នុងប្រវត្តិសាស្ត្ររបស់ Exchange Online។ បញ្ហានេះត្រូវបានattributed ទៅលើពិការភាពនៃមាត្រដ្ឋាន Windows ដែលមិនបានរកឃើញតាំងពីខែកក្កដា និងការថែទាំដែលធ្វើឱ្យសមត្ថភាពម៉ាស៊ីនបម្រើច្រកទ្វារជិត 14 ភាគរយក្រៅបណ្ដាញ។",
+   "impact": "ឧបទ្ទវហេតុនេះបញ្ជាក់ពីបញ្ហាប្រឈមផ្នែកប្រតិបត្តិការក្នុងការគ្រប់គ្រងសេវាកម្មពពកខ្នាតធំ និងការរក្សាល្បឿននៃការដាក់ពង្រាយក្នុងអំឡុងពេលមានអាសន្ន។ ក្រុមបច្ចេកវិទ្យាអាចនឹងត្រូវពិនិត្យឡើងវិញនូវយន្តការបម្រុងទុក ការរៀបចំសមត្ថភាពម៉ាស៊ីនបម្រើ និងគោលដៅដាក់ពង្រាយបន្ទាន់របស់ពួកគេ។",
+   "keyPoints": [
+    "Microsoft បានប្រកាសកែទម្រង់ Code Red បន្ទាប់ពីការដាច់សេវាសកលកាលពីថ្ងៃទី 12 ខែវិច្ឆិកា។",
+    "ការជួសជុលផលិតកម្មបន្ទាន់ត្រូវចំណាយពេលប្រាំទៅប្រាំមួយថ្ងៃដើម្បីឈានដល់ការប្រើប្រាស់ទូទាំងពិភពលោក ដែលខុសពីគោលដៅមួយម៉ោង។",
+    "ការដាច់សេវាកម្មនេះបណ្តាលមកពីពិការភាពមាត្រដ្ឋាន Windows ដែលបានណែនាំក្នុងខែកក្កដា។",
+    "ការបញ្ជូនបន្តចរាចរណ៍ Teams បានបន្ថែមបន្ទុកខណៈពេលដែលការថែទាំបានទុកសមត្ថភាពម៉ាស៊ីនបម្រើជិត 14 ភាគរយក្រៅបណ្ដាញ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "微软历史性的云故障暴露了工程领域的“战争迷雾”",
+   "summary": "根据内部备忘录，微软在11月12日导致全球Exchange Online、Teams和Outlook用户无法访问的故障发生后，宣布对工程响应实践进行代号为“红色代码”的全面整改。备忘录显示，此次事故是Exchange Online历史上对客户影响最大的一次。停机原因被归咎于7月份引入的一个未被发现的Windows可扩展性缺陷，该缺陷导致了网关进程中的锁争用，而当时维护工作还使近14%的网关服务器容量处于离线状态。",
+   "impact": "这一事件凸显了管理大规模云服务以及在关键事件中维持部署速度所面临的运营挑战。技术团队可能需要评估自身的故障转移机制、服务器容量规划和紧急部署目标。",
+   "keyPoints": [
+    "微软在11月12日全球故障后宣布对其工程响应实践进行红色代码整改。",
+    "一个紧急生产修复花费了五到六天的时间才实现全球覆盖，而紧急安全修复的目标是从检测到安全全球部署为一小时。",
+    "故障由7月份引入且未被发现的Windows可扩展性缺陷引起，导致网关进程锁争用。",
+    "Teams流量故障转移将额外负载倾倒到本已承受压力的基础设施上，当时维护使近14%的网关服务器容量离线。"
+   ]
+  },
+  "ko": {
+   "title": "마이크로소프트의 역사적인 클라우드 장애가 드러낸 엔지니어링의 안개",
+   "summary": "내부 메모에 따르면 마이크로소프트는 전 세계 사용자들의 Exchange Online, Teams, Outlook 접속을 중단시킨 11월 12일 장애 이후 엔지니어링 대응 관행에 대한 코드 레드 전면 개편을 선언했습니다. 메모에 따르면 이번 사고는 Exchange Online 역사상 가장 큰 고객 영향을 미쳤습니다. 가동 중단은 7월에 도입된 미발견 Windows 확장성 결함으로 인해 게이트웨이 프로세스에서 락 경쟁이 발생한 것과, 유지보수로 인해 게이트웨이 서버 용량의 약 14퍼센트가 오프라인 상태였던 점이 복합적으로 작용하여 발생했습니다.",
+   "impact": "이번 사건은 대규모 클라우드 서비스를 관리하고 긴급 상황에서 배포 속도를 유지하는 데 따르는 운영상의 과제를 보여줍니다. 기술 팀은 자체 장애 조치 메커니즘, 서버 용량 계획 및 긴급 배포 목표를 재검토해야 할 수 있습니다.",
+   "keyPoints": [
+    "마이크로소프트는 11월 12일 전 세계 장애 이후 엔지니어링 대응 관행에 대한 코드 레드 개편을 선언했습니다.",
+    "긴급 프로덕션 수정 사항이 전 세계에 적용되는 데 5일에서 6일이 소요되었으며, 긴급 보안 수정의 목표는 1시간입니다.",
+    "장애는 7월에 도입되어 감지되지 않은 Windows 확장성 결함으로 인한 게이트웨이 프로세스 락 경쟁 때문에 발생했습니다.",
+    "Teams 트래픽 페일오버가 이미 부하가 걸린 인프라에 추가 부하를 주었으며, 당시 유지보수로 인해 게이트웨이 서버 용량의 약 14퍼센트가 오프라인이었습니다."
+   ]
+  }
+ }
+}

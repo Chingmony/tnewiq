@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "97da32ec5b159cd7",
+ "contentHash": "074f9a88856abf2d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-25T04:25:06.818Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Kugua Cloud Classroom (Open Source Online School Edition) v2.0.2 released, following up to patch nginx and php vulnerabilities",
+   "summary": "Kugua Cloud Classroom Open Source Online School Edition v2.0.2 has been released. The update restricts simultaneous device logins, optimizes permission checks on the refund confirmation page, and accelerates configuration and error information reading. It also updates dependencies such as yansongda/pay and upgrades base images including nginx, redis, and php-fpm.",
+   "impact": "Developers and system administrators using this platform may benefit from improved performance, stricter access controls, and patches addressing recent nginx and php vulnerabilities. Upgrading could help maintain security and stability in production environments.",
+   "keyPoints": [
+    "Restricted simultaneous device logins",
+    "Optimized refund confirmation page permission checks and configuration reading",
+    "Updated yansongda/pay version",
+    "Upgraded nginx, redis, and php-fpm mirror images"
+   ]
+  },
+  "km": {
+   "title": "酷瓜云课堂（网校开源版）v2.0.2 ចេញផ្សាយ ដោយតាមដានជួសជុលចន្លោះប្រហោង nginx និង php",
+   "summary": "酷瓜云课堂（网校开源版）v2.0.2 ត្រូវបានដាក់ឱ្យដំណើរការជាមួយនឹងការអាប់ដេតមុខងារសំខាន់ៗ។ ការអាប់ដេតនេះកម្រិតការចូលប្រើប្រាស់ឧបករណ៍ក្នុងពេលដំណាលគ្នា និងបង្កើនល្បឿននៃការអានព័ត៌មានកំណត់រចនាសម្ព័ន្ធ។ វាក៏បានអាប់ដេតកំណែ yansongda/pay និងរូបភាពប្រព័ន្ធ nginx, redis និង php-fpm ផងដែរ។",
+   "impact": "ក្រុមការងារបច្ចេកទេសនិងអ្នកប្រើប្រាស់ប្រព័ន្ធអាចទទួលបានអត្ថប្រយោជន៍ពីការកែលម្អសុវត្ថិភាព និងការបិទរន្ធសុវត្ថិភាពនៅលើ nginx និង php។ ការធ្វើបច្ចុប្បន្នភាពអាចជួយធានាបាននូវស្ថិរភាព និងសុវត្ថិភាពបន្ថែមទៀត។",
+   "keyPoints": [
+    "កម្រិតការចូលប្រើប្រាស់ឧបករណ៍ក្នុងពេលដំណាលគ្នា",
+    "បង្កើនល្បឿនអានព័ត៌មានកំណត់រចនាសម្ព័ន្ធ Setting និង Error",
+    "អាប់ដេតកំណែ yansongda/pay",
+    "អាប់ដេតរូបភាព nginx, redis និង php-fpm"
+   ]
+  },
+  "zh-CN": {
+   "title": "酷瓜云课堂（网校开源版）v2.0.2 发布，跟进修补nginx和php漏洞",
+   "summary": "酷瓜云课堂（网校开源版）v2.0.2 版本已正式发布，此次更新包含多项功能修正与性能优化。主要内容包括限制设备同时在线、优化退款确认页权限检查、加速 Setting 和 Error 配置信息读取。同时，版本更新了 yansongda/pay 并升级了 nginx、redis 以及 php-fpm 镜像。",
+   "impact": "开发者和技术团队升级该版本后，可以获得性能优化以及针对近期 nginx 和 php 漏洞的修复，从而提升系统的安全性和运行稳定性。",
+   "keyPoints": [
+    "限制设备同时在线",
+    "优化退款确认页权限检查并加速配置读取",
+    "更新 yansongda/pay 版本",
+    "升级 nginx、redis 和 php-fpm 镜像"
+   ]
+  },
+  "ko": {
+   "title": "쿠과 클라우드 클래스(오픈소스 온라인 스쿨 에디션) v2.0.2 출시, nginx 및 php 취약점 패치 반영",
+   "summary": "쿠과 클라우드 클래스 오픈소스 온라인 스쿨 에디션 v2.0.2가 출시되었으며 여러 기능 수정 및 최적화가 포함되었습니다. 이번 업데이트는 동시 기기 로그인 제한, 환불 확인 페이지 권한 검사 최적화, 설정 및 오류 정보 읽기 속도 개선을 제공합니다. 또한 yansongda/pay 버전과 nginx, redis, php-fpm 이미지를 업데이트했습니다.",
+   "impact": "개발자와 시스템 관리자는 본 버전을 통해 성능 향상과 함께 최근 발견된 nginx 및 php 관련 취약점 대응 조치의 혜택을 받을 수 있으며, 시스템 안정성과 보안을 유지하는 데 도움이 될 수 있습니다.",
+   "keyPoints": [
+    "동시 기기 로그인 제한 기능 추가",
+    "환불 확인 페이지 권한 검사 및 설정 읽기 최적화",
+    "yansongda/pay 버전 업데이트",
+    "nginx, redis, php-fpm 이미지 업그레이드"
+   ]
+  }
+ }
+}
