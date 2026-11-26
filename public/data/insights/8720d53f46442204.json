@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8720d53f46442204",
+ "contentHash": "f80e8fa87296816c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-26T19:46:48.238Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+   "summary": "Cybersecurity researchers discovered 13 malicious NuGet packages targeting Windows .NET developers using fake take-home job assessments. Socket security researcher Kush Pandya noted that most of these packages pose as WinUI 3 and WPF button controls. Building or running the code triggers the malicious behavior.",
+   "impact": "Developers evaluating third-party packages or take-home tests could unknowingly expose their Windows environments to malware. Security teams may need to monitor dependency usage and scrutinize external code submissions more closely.",
+   "keyPoints": [
+    "13 malicious NuGet packages were discovered targeting Windows .NET developers.",
+    "The packages are disguised as fake take-home job assessments.",
+    "Most of the packages pose as WinUI 3 and WPF button controls according to researcher Kush Pandya."
+   ]
+  },
+  "km": {
+   "title": "កញ្ចប់ NuGet ព្យាបាទចំនួន ១៣ បំប្លែងការវាយតម្លៃការងារ .NET ក្លែងក្លាយទៅជាអន្ទាក់ចែកចាយមេរោគ",
+   "summary": "អ្នកស្រាវជ្រាវផ្នែកសន្តិសុខាយប៊ែរបានរកឃើញកញ្ចប់ NuGet ព្យាបាទចំនួន ១៣ ដែលកំណត់គោលដៅលើអ្នកអភិវឌ្ឍន៍ Windows .NET ក្រោមរូបភាពនៃការវាយតម្លៃការងារក្លែងក្លាយ។ អ្នកស្រាវជ្រាវសន្តិសុខ Kush Pandya បានឱ្យដឹងថា កញ្ចប់ភាគច្រើនធ្វើពុតជាប៊ូតុងបញ្ជា WinUI 3 និង WPF។ ការសាងសង់ ឬដំណើរការកូដអាចបង្កឱ្យមានសកម្មភាពព្យាបាទ។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ដែលវាយតម្លៃកញ្ចប់ភាគីទីបី ឬការធ្វើតេស្តការងារអាចនឹងបញ្ចេញបរិស្ថាន Windows របស់ពួកគេទៅកាន់មេរោគដោយអចេតនា។ ក្រុមសន្តិសុខអាចចាំបាច់ត្រូវត្រួតពិនិត្យការប្រើប្រាស់បឹងស៊ីឌិន និងពិនិត្យកូដខាងក្រៅឱ្យបានហ្មត់ចត់ជាងមុន។",
+   "keyPoints": [
+    "កញ្ចប់ NuGet ព្យាបាទចំនួន ១៣ ត្រូវបានរកឃើញកំណត់គោលដៅលើអ្នកអភិវឌ្ឍន៍ Windows .NET។",
+    "កញ្ចប់ទាំងនោះត្រូវបានបន្លំខ្លួនជាការវាយតម្លៃការងារក្លែងក្លាយ។",
+    "កញ្ចប់ភាគច្រើនធ្វើពុតជាប៊ូតុងបញ្ជា WinUI 3 និង WPF យោងតាមអ្នកស្រាវជ្រាវ Kush Pandya។"
+   ]
+  },
+  "zh-CN": {
+   "title": "13个恶意NuGet包将伪造的.NET工作评估变成恶意软件分发陷阱",
+   "summary": "网络安全研究人员发现了13个恶意的NuGet包，它们以伪造的家庭作业评估为幌子，针对Windows .NET开发人员。Socket安全研究人员Kush Pandya在一份技术报告中指出，大多数包伪装成WinUI 3和WPF按钮控件。构建或运行代码会触发恶意行为。",
+   "impact": "评估第三方包或求职测试的开发人员可能会在不知情的情况下将他们的Windows环境暴露给恶意软件。安全团队可能需要更密切地监控依赖项的使用情况并审查外部代码提交。",
+   "keyPoints": [
+    "发现了13个针对Windows .NET开发人员的恶意NuGet包。",
+    "这些包伪装成虚假的家庭作业评估。",
+    "研究人员Kush Pandya表示，大多数包伪装成WinUI 3和WPF按钮控件。"
+   ]
+  },
+  "ko": {
+   "title": "13개의 악성 NuGet 패키지가 가짜 .NET 직무 평가를 악성코드 배포 함정으로 악용",
+   "summary": "사이버 보안 연구원들이 가짜 과제 직무 평가를 가장하여 Windows .NET 개발자를 겨냥한 13개의 악성 NuGet 패키지를 발견했습니다. Socket 보안 연구원 Kush Pandya는 기술 보고서에서 대부분의 패키지가 WinUI 3 및 WPF 버튼 제어로 위장하고 있다고 밝혔습니다. 코드를 빌드하거나 실행하면 악성 행위가 유발됩니다.",
+   "impact": "서드파티 패키지나 과제 테스트를 평가하는 개발자는 자신도 모르게 Windows 환경을 악성코드에 노출시킬 수 있습니다. 보안 팀은 종속성 사용을 모니터링하고 외부 코드 제출을 더욱 면밀히 검토해야 할 수 있습니다.",
+   "keyPoints": [
+    "Windows .NET 개발자를 겨냥한 13개의 악성 NuGet 패키지가 발견되었습니다.",
+    "해당 패키지들은 가짜 채용 과제 평가로 위장하고 있습니다.",
+    "연구원 Kush Pandya에 따르면 대부분의 패키지가 WinUI 3 및 WPF 버튼 제어로 위장합니다."
+   ]
+  }
+ }
+}

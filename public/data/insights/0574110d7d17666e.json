@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0574110d7d17666e",
+ "contentHash": "6658ea37513e35e1",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-26T19:42:56.184Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+   "summary": "Threat actors behind the PolinRider campaign have planted a Python loader in over 7,600 GitHub repositories. Evidence suggests this activity may have started as far back as February 2025. The loader is designed to hide inside a small utils package or in conftest.py.",
+   "impact": "Developers and security teams may need to check their repositories and dependencies for hidden Python loaders. This campaign highlights ongoing supply chain risks involving poisoned code repositories.",
+   "keyPoints": [
+    "PolinRider campaign targets GitHub repositories with malware",
+    "Over 7,600 repositories have been poisoned",
+    "A Python loader hides in a utils package or conftest.py"
+   ]
+  },
+  "km": {
+   "title": "PolinRider ដែលមានទំនាក់ទំនងជាមួយកូរ៉េខាងជើង បានវាយប្រហារឃ្លាំង GitHub ជាង 7,600 ដើម្បីចែកចាយមេរោគ",
+   "summary": "ក្រុមឧក្រិដ្ឋជនអ៊ីនធឺណិតពីយុទ្ធនាការ PolinRider ត្រូវបានគេរកឃើញថាបានដាក់បញ្ចូល Python loader នៅក្នុងឃ្លាំង GitHub ។ ភស្តុតាងបង្ហាញថាសកម្មភាពនេះអាចបានចាប់ផ្តើមតាំងពីខែកុម្ភៈ ឆ្នាំ 2025 ។ Loader នេះលាក់ខ្លួននៅក្នុងកញ្ចប់ utils តូចមួយ ឬនៅក្នុង conftest.py ។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខប្រហែលជាត្រូវពិនិត្យមើលឃ្លាំង និងកញ្ចប់ពឹងផ្អែករបស់ពួកគេសម្រាប់ Python loader ដែលលាក់ខ្លួន។ យុទ្ធនាការនេះបង្ហាញពីហានិភ័យខ្សែសង្វាក់ផ្គត់ផ្គង់ដែលពាក់ព័ន្ធនឹងឃ្លាំងកូដដែលមានមេរោគ។",
+   "keyPoints": [
+    "យុទ្ធនាការ PolinRider កំណត់គោដៅលើឃ្លាំង GitHub ជាមួយមេរោគ",
+    "ឃ្លាំងជាង 7,600 ត្រូវបានរងផលប៉ះពាល់",
+    "Python loader លាក់ខ្លួននៅក្នុងកញ្ចប់ utils ឬ conftest.py"
+   ]
+  },
+  "zh-CN": {
+   "title": "与朝鲜相关的 PolinRider 投毒超过 7,600 个 GitHub 仓库以传播恶意软件",
+   "summary": "PolinRider 活动背后的威胁行为者被发现已在 GitHub 仓库中植入了一个 Python 加载器，证据表明该活动最早可能始于 2025 年 2 月。该加载器隐藏在一个小的 utils 包或 conftest.py 中。",
+   "impact": "开发人员和安全团队可能需要检查其代码库和依赖项中是否存在隐藏的 Python 加载器。此活动凸显了涉及受污染代码库的持续供应链风险。",
+   "keyPoints": [
+    "PolinRider 活动针对 GitHub 仓库传播恶意软件",
+    "超过 7,600 个仓库受到影响",
+    "Python 加载器隐藏在 utils 包或 conftest.py 中"
+   ]
+  },
+  "ko": {
+   "title": "북한 연계 PolinRider, 악성코드 유포 위해 7,600개가 넘는 GitHub 저장소 오염시켰다",
+   "summary": "PolinRider 캠페인의 위협 행위자들이 GitHub 저장소에 Python 로더를 심은 것으로 관측되었으며, 이 활동이 2025년 2월까지 거슬러 올라갈 수 있다는 증거가 나타났습니다. 이 로더는 소규모 utils 패키지나 conftest.py 내부에 숨어 있습니다.",
+   "impact": "개발자와 보안 팀은 숨겨진 Python 로더가 있는지 저장소와 종속성을 확인해야 할 수 있습니다. 이번 캠페인은 오염된 코드 저장소와 관련된 지속적인 공급망 위험을 보여줍니다.",
+   "keyPoints": [
+    "PolinRider 캠페인이 악성코드로 GitHub 저장소를 타겟팅함",
+    "7,600개가 넘는 저장소가 오염됨",
+    "Python 로더가 utils 패키지 또는 conftest.py에 숨겨짐"
+   ]
+  }
+ }
+}

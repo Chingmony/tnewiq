@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5e5b0d3bb248d414",
+ "contentHash": "b8b517e499251862",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-26T19:46:19.144Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+   "summary": "1Password disclosed a security incident affecting its backend systems. The unauthorized access involved some customer information, though customer password vaults and other secrets were not accessed. The company stated that it took immediate steps to contain the incident.",
+   "impact": "This incident may raise concerns among users regarding data privacy and the security of stored information. Security teams and developers could review their GitHub account integrations and backend access controls to prevent similar breaches.",
+   "keyPoints": [
+    "1Password disclosed a security incident involving its backend systems.",
+    "Some customer information was accessed by an unauthorized party.",
+    "Customer password vaults and secrets remained secure and unaccessed.",
+    "The company took immediate steps to contain the security incident."
+   ]
+  },
+  "km": {
+   "title": "1Password ត្រូវបានហេគ ទិន្នន័យអតិថិជន និងកូដប្រភពត្រូវបានលួចក្នុងការទម្លុះគណនី GitHub",
+   "summary": "ក្រុមហ៊ុន 1Password បានប្រកាសពីឧបទ្ទវហេតុសុវត្ថិភាពមួយដែលពាក់ព័ន្ធនឹងប្រព័ន្ធ backend របស់ខ្លួន។ ការចូលប្រើប្រាស់ដោយគ្មានការអនុញ្ញាតបានប៉ះពាល់ដល់ព័ត៌មានអតិថិជនមួយចំនួន ប៉ុន្តែធុងរក្សាទុកពាក្យសម្ងាត់និងព័ត៌មានសម្ងាត់ផ្សេងទៀតមិនត្រូវបានប៉ះពាល់ទេ។ ក្រុមហ៊ុនបានបញ្ជាក់ថាខ្លួនបានចាត់វិធានការជាបន្ទាន់ដើម្បីទប់ស្កាត់ឧបទ្ទវហេតុនេះ។",
+   "impact": "ឧបទ្ទវហេតុនេះអាចធ្វើឱ្យអ្នកប្រើប្រាស់មានការបារម្ភអំពីភាពឯកជននៃទិន្នន័យ និងសុវត្ថិភាពនៃព័ត៌មានដែលបានរក្សាទុក។ ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍អាចនឹងពិនិត្យមើលឡើងវិញនូវការរួមបញ្ចូលគណនី GitHub និងការគ្រប់គ្រងការចូលប្រើប្រាស់ backend ដើម្បីការពារការទម្លុះទិន្នន័យស្រដៀងគ្នានេះ។",
+   "keyPoints": [
+    "ក្រុមហ៊ុន 1Password បានប្រកាសពីឧបទ្ទវហេតុសុវត្ថិភាពដែលពាក់ព័ន្ធនឹងប្រព័ន្ធ backend របស់ខ្លួន។",
+    "ភាគីដែលគ្មានការអនុញ្ញាតបានចូលប្រើប្រាស់ព័ត៌មានអតិថិជនមួយចំនួន។",
+    "ធុងរក្សាទុកពាក្យសម្ងាត់និងព័ត៌មានសម្ងាត់របស់អតិថិជនមានសុវត្ថិភាពនិងមិនត្រូវបានចូលប្រើប្រាស់ឡើយ។",
+    "ក្រុមហ៊ុនបានចាត់វិធានការជាបន្ទាន់ដើម្បីទប់ស្កាត់ឧបទ្ទវហេតុនេះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "1Password 遭到黑客攻击，GitHub 账户泄露事件中客户数据与源代码被盗",
+   "summary": "1Password 披露了一起涉及其后端系统的安全事件，导致一些客户信息遭到未授权访问。不过，该公司强调客户的密码库和其他机密未被访问。该公司表示已立即采取措施控制该事件。",
+   "impact": "这一事件可能会引起用户对数据隐私以及存储信息安全性的担忧。开发人员和安全团队可能会重新评估其 GitHub 账户集成和后端访问控制，以防止发生类似的漏洞。",
+   "keyPoints": [
+    "1Password 披露了一起涉及其后端系统的安全事件。",
+    "未经授权的攻击者获取了部分客户信息。",
+    "客户的密码库和其他机密保持安全，未被访问。",
+    "该公司采取了紧急步骤来控制该事件。"
+   ]
+  },
+  "ko": {
+   "title": "1Password 해킹 당해, GitHub 계정 침해로 고객 데이터 및 소스 코드 유출",
+   "summary": "1Password는 백엔드 시스템과 관련된 보안 사고를 공개했으며, 이로 인해 일부 고객 정보가 무단으로 액세스되었습니다. 그러나 고객의 비밀번호 볼트 및 기타 기밀 정보는 액세스되지 않았다고 강조했습니다. 회사는 사고를 통제하기 위해 즉각적인 조치를 취했다고 밝혔습니다.",
+   "impact": "이번 사건으로 인해 사용자들은 데이터 프라이버시와 저장된 정보의 보안에 대해 우려할 수 있습니다. 개발자와 보안 팀은 유사한 침해를 방지하기 위해 GitHub 계정 통합 및 백엔드 액세스 제어를 검토할 수 있습니다.",
+   "keyPoints": [
+    "1Password가 백엔드 시스템과 관련된 보안 사고를 공개했습니다.",
+    "권한이 없는 공격자가 일부 고객 정보에 액세스했습니다.",
+    "고객의 비밀번호 볼트와 기밀 정보는 안전하게 유지되었으며 액세스되지 않았습니다.",
+    "회사는 보안 사고를 통제하기 위해 즉각적인 조치를 취했습니다."
+   ]
+  }
+ }
+}

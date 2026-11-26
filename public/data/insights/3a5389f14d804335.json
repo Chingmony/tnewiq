@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3a5389f14d804335",
+ "contentHash": "dafd277954a8d236",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-26T19:44:18.866Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
+   "summary": "Microsoft has published the technical architecture of the ARTEX AI framework, which has been widely used since July 2026 to run cyberattacks with specialized agents and minimal human involvement. State-backed groups from China and North Korea, as well as criminal organizations, are already utilizing the system. Microsoft suggests defenses such as deception techniques, including honeypots and faked success signals.",
+   "impact": "Security teams and technology users may need to reconsider traditional defense strategies as AI agents learn and adapt, making the effectiveness of current countermeasures an open question.",
+   "keyPoints": [
+    "Microsoft detailed the technical architecture of the ARTEX AI framework.",
+    "The system has been in wide use since July 2026 for automating cyberattacks.",
+    "State-backed groups from China and North Korea and criminal organizations are using it.",
+    "Recommended defenses include honeypots and faked success signals."
+   ]
+  },
+  "km": {
+   "title": "Microsoft បកស្រាយលម្អិតអំពីរបៀបដែលពួកហែកឃ័រគាំទ្រដោយរដ្ឋប្រើប្រាស់ក្របខ័ណ្ឌ AI ARTEX ដើម្បីស្វ័យប្រវត្តិកម្មការវាយប្រហារតាមអ៊ីនធឺណិត",
+   "summary": "Microsoft បានផ្សព្វផ្សាយអំពីស្ថាបត្យកម្មបច្ចេកទេសរបស់ ARTEX ដែលជាក្របខ័ណ្ឌ AI ប្រើប្រាស់យ៉ាងទូលំទូលាយចាប់តាំងពីខែកក្កដា ឆ្នាំ 2026 ដើម្បីដំណើរការការវាយប្រហារតាមអ៊ីនធឺណិតដោយប្រើភ្នាក់ងារឯកទេស និងស្ទើរតែគ្មានការចូលរួមពីមនុស្ស។ ក្រុមដែលគាំទ្រដោយរដ្ឋមកពីប្រទេសចិន និងកូរ៉េខាងជើង ព្រមទាំងអង្គការឧក្រិដ្ឋកម្ម កំពុងប្រើប្រាស់ប្រព័ន្ធនេះរួចហើយ។ Microsoft បានណែនាំបច្ចេកទេសបោកបញ្ឆោតដូចជា honeypots ជាការការពារ។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវវាយតម្លៃឡើងវិញនូវយុទ្ធសាស្ត្រការពារ ដោយសារភ្នាក់ងារ AI អាចរៀននិងសម្របខ្លួន ដែលធ្វើឱ្យប្រសិទ្ធភាពនៃការទប់ស្កាត់បច្ចុប្បន្ននៅតែជាសំណួរ។",
+   "keyPoints": [
+    "Microsoft បានបង្ហាញពីស្ថាបត្យកម្មបច្ចេកទេសរបស់ក្របខ័ណ្ឌ AI ARTEX។",
+    "ប្រព័ន្ធនេះត្រូវបានប្រើប្រាស់យ៉ាងទូលំទូលាយចាប់តាំងពីខែកក្កដា ឆ្នាំ 2026។",
+    "ក្រុមមកពីប្រទេសចិន កូរ៉េខាងជើង និងពួកឧក្រិដ្ឋជនកំពុងប្រើប្រាស់វា។",
+    "ការការពារដែលបានណែនាំរួមមាន honeypots និងសញ្ញាជោគជ័យក្លែងក្លាយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "微软详细披露国家支持的黑客如何利用 ARTEX AI 框架自动化网络攻击",
+   "summary": "微软公布了 ARTEX 的技术架构，这是一个自 2026 年 7 月起广泛使用的 AI 框架，能够利用专业代理在几乎无需人工干预的情况下运行网络攻击。来自中国和朝鲜的受国家支持的组织以及犯罪团伙已经在系统中使用该技术。微软建议采取诸如蜜罐和伪造成功信号等欺骗技术作为防御手段。",
+   "impact": "由于 AI 代理具备学习和适应能力，安全团队和技术用户可能需要重新审视传统的防御策略，当前对策的持久性仍是一个未知数。",
+   "keyPoints": [
+    "微软公布了 ARTEX AI 框架的技术架构。",
+    "该系统自 2026 年 7 月起被广泛用于自动化网络攻击。",
+    "来自中国和朝鲜的黑客及犯罪组织已开始使用该系统。",
+    "微软推荐使用蜜罐和伪造成功信号等欺骗防御技术。"
+   ]
+  },
+  "ko": {
+   "title": "마이크로소프트, 국가 배후 해커들이 ARTEX AI 프레임워크를 이용해 사이버 공격을 자동화하는 방식 상세 공개",
+   "summary": "마이크로소프트는 전문화된 에이전트를 사용하고 사람의 개입이 거의 없이 사이버 공격을 실행하는 AI 프레임워크인 ARTEX의 기술 아키텍처를 공개했으며, 이 프레임워크는 2026년 7월부터 광범위하게 사용되어 왔다. 중국과 북한의 국가 배후 그룹 및 범죄 조직들이 이미 이 시스템을 사용하고 있다. 마이크로소프트는 방어책으로 허니팟 및 허위 성공 신호와 같은 기만 기술을 권장한다.",
+   "impact": "AI 에이전트가 학습하고 적응함에 따라 보안 팀과 기술 사용자는 전통적인 방어 전략을 재고해야 할 수 있으며, 현재의 대응책이 얼마나 지속될지는 미지수이다.",
+   "keyPoints": [
+    "마이크로소프트가 ARTEX AI 프레임워크의 기술 아키텍처를 공개했다.",
+    "해당 시스템은 2026년 7월부터 사이버 공격 자동화에 광범위하게 사용되어 왔다.",
+    "중국과 북한의 국가 배후 그룹 및 범죄 조직이 이를 사용하고 있다.",
+    "권장되는 방어 조치에는 허니팟 및 허위 성공 신호가 포함된다."
+   ]
+  }
+ }
+}

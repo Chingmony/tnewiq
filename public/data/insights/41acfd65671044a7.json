@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "41acfd65671044a7",
+ "contentHash": "495d6b29f328d3f8",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-26T19:46:38.521Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Polluting 0.1% of Pretraining Data Can Implant Inerasable Backdoors in AI Agents",
+   "summary": "A research paper titled Agentic Backdoors via Pretraining Poisoning reveals that contaminating just 0.1 percent of pretraining data can implant a backdoor into an AI agent. Furthermore, the paper notes that fine-tuning and reinforcement learning using completely clean data cannot remove these backdoors. The authors of the study include researchers from the University of California, Berkeley, the University of Illinois Urbana-Champaign, and Anthropic.",
+   "impact": "This research could indicate significant security risks for developers and users of AI systems, as backdoors embedded during pretraining may persist despite standard alignment and clean data fine-tuning. Security teams might need to develop new methods to detect and prevent pretraining data contamination.",
+   "keyPoints": [
+    "Polluting only 0.1% of pretraining data can embed a backdoor in an AI agent.",
+    "Fine-tuning and reinforcement learning with clean data fail to remove the backdoors.",
+    "The findings come from a paper titled Agentic Backdoors via Pretraining Poisoning.",
+    "Authors include researchers from UC Berkeley, UIUC, and Anthropic such as Nicholas Carlini and Javier Rando."
+   ]
+  },
+  "km": {
+   "title": "ការបំផ្លាញទិន្នន័យបណ្តុះបណ្តាលមុនចំនួន ០.១% អាចបង្កប់រន្ធក្រោយដែលមិនអាចលុបបាននៅក្នុង AI ភ្នាក់ងារ",
+   "summary": "សេចក្តីសន្និដ្ឋានពីឯកសារស្រាវជ្រាវមួយដែលមានចំណងជើងថា Agentic Backdoors via Pretraining Poisoning បង្ហាញថាការបំផ្លាញទិន្នន័យបណ្តុះបណ្តាលមុនត្រឹមតែ ០.១ភាគរយ អាចបង្កប់រន្ធក្រោយនៅក្នុង AI ភ្នាក់ងារ។ លើសពីនេះ ការលៃតម្រូវល្អិតល្អន់ និងការរៀនពង្រឹងដោយប្រើទិន្នន័យស្អាតទាំងស្រុង មិនអាចលុបវាចេញបានទេ។ អ្នកនិពន្ធនៃឯកសារនេះរួមមានអ្នកស្រាវជ្រាវមកពីសាកលវិទ្យាល័យកាលីហ្វ័រញ៉ា ប៊ែរក្លេ សាកលវិទ្យាល័យអ៊ីលីណົວ អឺបាណា-ឆាំប៉ាញ និង Anthropic។",
+   "impact": "ការរកឃើញនេះអាចបង្ហាញពីបញ្ហាប្រឈមផ្នែកសន្តិសុខដ៏សំខាន់សម្រាប់អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់ ដោយសាររន្ធក្រោយដែលបានបង្កប់អាចនៅតែមាន ទោះបីជាมีการប្រើប្រាស់ទិន្នន័យស្អាតក៏ដោយ។ ក្រុមសន្តិសុខប្រហែលជាត្រូវស្វែងរកវិធីសាស្ត្រថ្មីៗដើម្បីការពារការបំពុលទិន្នន័យ។",
+   "keyPoints": [
+    "ការបំពុលទិន្នន័យបណ្តុះបណ្តាលមុនត្រឹមតែ ០.១% អាចបង្កប់រន្ធក្រោយ។",
+    "ការលៃតម្រូវល្អិតល្អន់ជាមួយទិន្នន័យស្អាតមិនអាចលុបរន្ធក្រោយទាំងនោះបានទេ។",
+    "ការសិក្សានេះមកពីឯកសារស្រាវជ្រាវដែលមានចំណងជើងថា Agentic Backdoors via Pretraining Poisoning។",
+    "អ្នកនិពន្ធរួមមាន Nicholas Carlini និង Javier Rando មកពី UC Berkeley, UIUC និង Anthropic។"
+   ]
+  },
+  "zh-CN": {
+   "title": "污染 0.1% 的预训练数据，就能给 AI 智能体埋下洗不掉的后门",
+   "summary": "一篇题为《Agentic Backdoors via Pretraining Poisoning》的论文结论表明，仅污染 0.1% 的预训练数据就能给 AI 智能体埋下后门。并且使用完全干净的数据做微调和强化学习，也无法清除这些后门。该论文作者来自加州大学伯克利分校、伊利诺伊大学厄巴纳-香槟分校和 Anthropic，其中包括 Nicholas Carlini 和 Javier Rando。",
+   "impact": "这项研究可能意味着开发人员和技术用户面临潜在的安全隐患，因为在预训练阶段植入的后门可能无法通过常规的纯净数据微调和强化学习消除。安全团队可能需要关注预训练阶段的数据来源和安全性验证。",
+   "keyPoints": [
+    "仅污染 0.1% 的预训练数据即可埋下后门。",
+    "使用完全干净的数据进行微调和强化学习也无法清除后门。",
+    "论文标题为《Agentic Backdoors via Pretraining Poisoning》。",
+    "作者包括来自加州大学伯克利分校、UIUC 以及 Anthropic 的研究人员。"
+   ]
+  },
+  "ko": {
+   "title": "사전 훈련 데이터의 0.1%만 오염시켜도 AI 에이전트에 지울 수 없는 백도어를 심을 수 있다",
+   "summary": "Agentic Backdoors via Pretraining Poisoning이라는 제목의 논문 결론에 따르면, 사전 훈련 데이터의 0.1%만 오염시켜도 AI 에이전트에 백도어를 심을 수 있습니다. 또한 완전히 깨끗한 데이터를 사용해 미세 조정과 강화 학습을 수행해도 이를 제거할 수 없습니다. 이 논문의 저자에는 캘리포니아 대학교 버클리, 일리노이 대학교 어바나-샴페인, Anthropic의 연구진이 포함되어 있습니다.",
+   "impact": "이번 연구는 사전 훈련 중에 삽입된 백도어가 깨끗한 데이터를 사용한 표준 정렬이나 미세 조정에도 사라지지 않을 수 있음을 시사하므로 개발자와 보안 팀에게 중요한 보안 과제가 될 수 있습니다. 보안 팀은 사전 훈련 데이터의 무결성을 검증하기 위한 새로운 방법을 모색해야 할 수 있습니다.",
+   "keyPoints": [
+    "사전 훈련 데이터의 0.1%만 오염시켜도 AI 에이전트에 백도어를 심을 수 있음.",
+    "깨끗한 데이터를 사용한 미세 조정과 강화 학습으로도 백도어를 제거할 수 없음.",
+    "해당 연구는 Agentic Backdoors via Pretraining Poisoning이라는 논문에서 발표됨.",
+    "저자에는 UC 버클리, UIUC, Anthropic 소속 연구진이 포함됨."
+   ]
+  }
+ }
+}
