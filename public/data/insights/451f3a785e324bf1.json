@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "451f3a785e324bf1",
+ "contentHash": "001f74242e7d8866",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-26T09:45:13.228Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency added 10 security flaws to its Known Exploited Vulnerabilities catalog. These include five vulnerabilities impacting Mitel MiCollab that were disclosed the previous week, such as an arbitrary file upload vulnerability tracked as CVE-2026-133275.",
+   "impact": "Security teams may need to review their systems for these active exploits, particularly regarding Mitel MiCollab installations. Organizations could face increased risk if these listed catalog vulnerabilities are not addressed promptly.",
+   "keyPoints": [
+    "CISA added 10 security flaws to the Known Exploited Vulnerabilities catalog.",
+    "Five of the added vulnerabilities impact Mitel MiCollab.",
+    "CVE-2026-133275 is an arbitrary file upload vulnerability with a CVSS score of 5.3."
+   ]
+  },
+  "km": {
+   "title": "ពួក Hacker រExploit ចន្លោះប្រហោងចំនួន ១០ ឆ្លងកាត់ផលិតផល Mitel, Juniper, Vates និង Danfoss",
+   "summary": "ទីភ្នាក់ងារសន្តិសុខគ្របដណ្តប់ស៊ីប៊ែរនិងហេដ្ឋារចនាសម្ព័ន្ធសហរដ្ឋអាមេរិកបានបន្ថែមបញ្ហាប្រហោងសន្តិសុខចំនួន ១០ ទៅក្នុងកាតាឡុក Known Exploited Vulnerabilities។ ក្នុងនោះរួមមានទាំងចន្លោះប្រហោងចំនួនប្រាំដែលប៉ះពាល់ដល់ Mitel MiCollab ដែលត្រូវបានបង្ហាញកាលពីសប្តាហ៍មុន។ ចន្លោះប្រហោងទាំងនោះរួមមាន CVE-2026-133275 ដែលជាបញ្ហាបញ្ជូនឯកសារដោយសេរី។",
+   "impact": "ក្រុមសន្តិសុខអាចចាំបាច់ត្រូវពិនិត្យប្រព័ន្ធរបស់ពួកគេចំពោះការវាយប្រហារទាំងនេះ ជាពិសេសពាក់ព័ន្ធនឹងប្រព័ន្ធ Mitel MiCollab។",
+   "keyPoints": [
+    "CISA បានបន្ថែមចន្លោះប្រហោងសន្តិសុខចំនួន ១០ ទៅក្នុងកាតាឡុក KEV ។",
+    "ចន្លោះប្រហោងចំនួនប្រាំប៉ះពាល់ដល់ Mitel MiCollab ។",
+    "CVE-2026-133275 គឺជាចន្លោះប្រហោងបញ្ជូនឯកសារដោយសេរីដែលមានពិន្ទុ CVSS ៥.៣។"
+   ]
+  },
+  "zh-CN": {
+   "title": "黑客利用 Mitel、Juniper、Vates 和 Danfoss 产品中的 10 个漏洞",
+   "summary": "美国网络安全和基础设施安全局于周三在其已知被利用漏洞目录中添加了 10 个安全漏洞，其中包括上周披露的 5 个影响 Mitel MiCollab 的漏洞。其中列出了 Mitel MiCollab 漏洞 CVE-2026-133275，这是一个 CVSS 评分为 5.3 的任意文件上传漏洞。",
+   "impact": "安全团队可能需要检查其系统是否存在这些已被利用的漏洞，尤其是涉及 Mitel MiCollab 的安装。如果未及时处理目录中列出的这些漏洞，组织可能会面临更高的风险。",
+   "keyPoints": [
+    "CISA 在其 KEV 目录中添加了 10 个安全漏洞。",
+    "其中的漏洞包括 5 个影响 Mitel MiCollab 的漏洞。",
+    "CVE-2026-133275 是音频、Web 等组件中的任意文件上传漏洞，CVSS 评分为 5.3。"
+   ]
+  },
+  "ko": {
+   "title": "해커, Mitel, Juniper, Vates, Danfoss 제품 전반의 10개 취약점 악용",
+   "summary": "미국 사이버안보·기반시설보호국은 지난주 공개된 Mitel MiCollab에 영향을 미치는 5개의 취약점을 포함하여 10개의 보안 취약점을 알려진 악용 취약점 카탈로그에 추가했습니다. Mitel MiCollab 취약점 중에는 CVSS 점수 5.3점의 임의 파일 업로드 취약점인 CVE-2026-133275가 포함되어 있습니다.",
+   "impact": "보안 팀은 특히 Mitel MiCollab 설치와 관련하여 이러한 활성 악용에 대해 시스템을 검토해야 할 수 있습니다. 조직은 카탈로그에 나열된 취약점을 신속하게 해결하지 않을 경우 위험이 증가할 수 있습니다.",
+   "keyPoints": [
+    "CISA가 알려진 악용 취약점 카탈로그에 10개의 보안 결함을 추가했습니다.",
+    "추가된 취약점 중 5개는 Mitel MiCollab에 영향을 미칩니다.",
+    "CVE-2026-133275는 CVSS 점수 5.3점의 임의 파일 업로드 취약점입니다."
+   ]
+  }
+ }
+}

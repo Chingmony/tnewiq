@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "61e3be14c2b6cad9",
+ "contentHash": "85e424ec0f4178e5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-26T09:44:25.489Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+   "summary": "Drupal has issued a warning regarding a new highly critical security flaw in Drupal core that is currently under active exploitation in the wild. Tracked as CVE-2026-136716, the vulnerability involves improper checking for unusual or exceptional conditions. It is also related to CVE-2026-132165, also known as Fail2Install, by addressing remaining vulnerable installation states.",
+   "impact": "This vulnerability could allow attackers to perform a site takeover, posing significant security risks to affected installations. Security teams and administrators may need to apply updates promptly to protect their systems from active exploitation.",
+   "keyPoints": [
+    "A highly critical security flaw impacting Drupal core has been reported.",
+    "The vulnerability is tracked as CVE-2026-136716 and is under active exploitation.",
+    "The issue stems from improper checking for unusual or exceptional conditions.",
+    "It relates to CVE-2026-132165, also known as Fail2Install, addressing remaining vulnerable installation states."
+   ]
+  },
+  "km": {
+   "title": "Drupal ព្រមានអំពីភាពងាយរងគ្រោះថ្មីដ៏មានសារៈសំខាន់ខ្លាំងសម្រាប់ការគ្រប់គ្រងគេហទំព័រដែលកំពុងត្រូវបានកេងប្រវ័ញ្ចយ៉ាងសកម្ម",
+   "summary": "Drupal បានចេញការព្រមានអំពីពិការភាពសុវត្ថិភាពថ្មីមួយដែលមានសារៈសំខាន់ខ្លាំង ដែលប៉ះពាល់ដល់ Drupal core ហើយត្រូវបានគេរាយការណ៍ថាបាននិងកំពុងត្រូវបានកេងប្រវ័ញ្ចនៅក្នុងពិភពជាក់ស្តែង។ ភាពងាយរងគ្រោះនេះត្រូវបានតាមដានក្រោមលេខ CVE-2026-136716 ដែលត្រូវបានពិពណ៌នាថាជាករណីនៃការពិនិត្យមិនបានត្រឹមត្រូវសម្រាប់លក្ខខណ្ឌខុសប្រក្រតី ឬពិសេស។ វាទាក់ទងនឹង CVE-2026-132165 ដែលត្រូវបានគេស្គាល់ថាជា Fail2Install ក្នុងការដោះស្រាយស្ថានភាពដំឡើងរងគ្រោះដែលនៅសេសសល់។",
+   "impact": "ភាពងាយរងគ្រោះនេះអាចអនុញ្ញាតឱ្យពួកattacker ធ្វើការគ្រប់គ្រងគេហទំព័រ ដែលបង្កហានិភ័យសុវត្ថិភាពយ៉ាងខ្លាំងដល់ប្រព័ន្ធដែលរងផលប៉ះពាល់។ ក្រុមសន្តិសុខ និងអ្នកគ្រប់គ្រងអាចចាំបាច់ត្រូវអនុវត្តការអាប់ដេតជាបន្ទាន់ដើម្បីការពារប្រព័ន្ធរបស់ពួកគេពីការកេងប្រវ័ញ្ចសកម្ម។",
+   "keyPoints": [
+    "ពិការភាពសុវត្ថិភាពដ៏មានសារៈសំខាន់ខ្លាំងដែលប៉ះពាល់ដល់ Drupal core ត្រូវបានរកឃើញ។",
+    "ភាពងាយរងគ្រោះត្រូវបានតាមដានជា CVE-2026-136716 និងស្ថិតក្រោមការកេងប្រវ័ញ្ចសកម្ម។",
+    "បញ្ហានេះកើតចេញពីការពិនិត្យមិនបានត្រឹមត្រូវសម្រាប់លក្ខខណ្ឌខុសប្រក្រតី ឬពិសេស។",
+    "វាទាក់ទងនឹង CVE-2026-132165 ឬ Fail2Install ដោយដោះស្រាយស្ថានភាពដំឡើងរងគ្រោះដែលនៅសល់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Drupal 警告称存在正处于漏洞利用中的高危站点接管漏洞",
+   "summary": "Drupal 发出警告称，Drupal core 中存在一个新的高危安全漏洞，并且该漏洞已在野外遭到利用。该漏洞被追踪为 CVE-2026-136716，被描述为对异常或特殊情况检查不当的情况。它还与 CVE-2026-132165（又称 Fail2Install）相关，旨在解决剩余的易受攻击安装状态。",
+   "impact": "该漏洞可能会允许攻击者实施站点接管，对受影响的系统带来重大的安全风险。安全团队和管理员可能需要及时应用更新，以保护其系统免受积极利用的影响。",
+   "keyPoints": [
+    "报道称 Drupal core 存在一个新的高危安全漏洞。",
+    "该漏洞被追踪为 CVE-2026-136716 并在野外遭到积极利用。",
+    "该问题源于对异常或特殊情况的检查不当。",
+    "它与 CVE-2026-132165（即 Fail2Install）有关，解决了残留的漏洞安装状态。"
+   ]
+  },
+  "ko": {
+   "title": "Drupal, 활발히 악용 중인 새로운 고위험 사이트 탈취 취약점 경고",
+   "summary": "Drupal은 Drupal core에 영향을 미치는 새로운 고위험 보안 결함에 대해 경고했으며, 이 결함이 실제 환경에서 악용되고 있다고 밝혔습니다. CVE-2026-136716으로 추적되는 이 취약점은 예외적이거나 비정상적인 조건에 대한 부적절한 확인으로 설명됩니다. 또한 이 취약점은 Fail2Install로도 알려진 CVE-2026-132165와 관련이 있으며, 남아 있는 취약한 설치 상태를 해결합니다.",
+   "impact": "이 취약점으로 인해 공격자가 사이트를 탈취할 수 있으며, 이는 영향을 받는 시스템에 심각한 보안 위험을 초래할 수 있습니다. 보안 팀과 관리자는 활성 악용으로부터 시스템을 보호하기 위해 업데이트를 신속하게 적용해야 할 수 있습니다.",
+   "keyPoints": [
+    "Drupal core에 영향을 미치는 새로운 고위험 보안 결함이 보고되었습니다.",
+    "이 취약점은 CVE-2026-136716으로 추적되며 현재 활발히 악용되고 있습니다.",
+    "이 문제는 비정상적이거나 예외적인 조건에 대한 부적절한 확인에서 비롯됩니다.",
+    "이 문제는 잔존하는 취약한 설치 상태를 해결하는 Fail2Install 즉 CVE-2026-132165와 관련이 있습니다."
+   ]
+  }
+ }
+}

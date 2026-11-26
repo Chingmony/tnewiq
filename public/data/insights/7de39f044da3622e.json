@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7de39f044da3622e",
+ "contentHash": "3dce946f33ed1b14",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-26T09:47:01.231Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+   "summary": "sqlite3_rsync is an SQLite tool that allows users to copy a database snapshot over an SSH connection to another machine without needing to create a full local copy first. Introduced as experimental in SQLite 3.47.0 and enhanced in SQLite 3.50.0, it uses a protocol similar to regular rsync by exchanging cryptographic hashes of pages. This approach avoids the disk space limitations of traditional methods like the backup API or VACUUM INTO.",
+   "impact": "This tool could help developers and system administrators manage SQLite backups and synchronization on storage-constrained instances where creating a full local duplicate is impossible. It may also reduce network transfer volumes when updating existing database copies, though vastly different databases might incur a slight network overhead.",
+   "keyPoints": [
+    "sqlite3_rsync enables remote database copying over an SSH connection without requiring a full local duplicate.",
+    "It avoids the disk space limitations associated with traditional methods like the backup API or VACUUM INTO.",
+    "The tool uses a protocol based on cryptographic hashes of pages, similar to regular rsync, to synchronize only differing content.",
+    "Initial versions were added as experimental in SQLite 3.47.0 and later enhanced in SQLite 3.50.0."
+   ]
+  },
+  "km": {
+   "title": "sqlite3_rsync៖ ឧបករណ៍ចម្លងទិន្នន័យពីចម្ងាយសម្រាប់ SQLite",
+   "summary": "sqlite3_rsync គឺជាឧបករណ៍ SQLite មួយដែលអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់ចម្លងទិន្នន័យពីចម្ងាយតាមរយៈការតភ្ជាប់ SSH ទៅកាន់ម៉ាស៊ីនផ្សេងទៀតដោយមិនចាំបាច់បង្កើតច្បាប់ចម្លងក្នុងមូលដ្ឋានពេញលេញជាមុនឡើយ។ វាត្រូវបានបន្ថែមជាសាកល្បងនៅក្នុង SQLite 3.47.0 និងបានកែលម្អនៅក្នុង SQLite 3.50.0 ដោយប្រើពិធីការស្រដៀងនឹង rsync ធម្មតា។ វិធីសាស្ត្រនេះជួយជៀសវាងការខ្វះខាតទំហំថាសដែលតែងតែកើតមានពេលប្រើប្រាស់វិធីសាស្ត្រចាស់ៗដូចជា backup API ឬ VACUUM INTO។",
+   "impact": "ឧបករណ៍នេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងក្រុមសុវត្ថិភាពក្នុងការគ្រប់គ្រងការបម្រុងទុកទិន្នន័យនៅលើម៉ាស៊ីនដែលមានទំហំផ្ទុកតិចតួច ដែលការបង្កើតច្បាប់ចម្លងក្នុងមូលដ្ឋានមិនអាចធ្វើទៅរួច។ វាក៏អាចកាត់បន្ថយការបញ្ជូនទិន្នន័យលើបណ្តាញផងដែរ នៅពេលធ្វើសមកាលកម្មទិន្នន័យដែលមានស្រាប់។",
+   "keyPoints": [
+    "sqlite3_rsync អនុញ្ញាតឱ្យចម្លងទិន្នន័យពីចម្ងាយតាមរយៈ SSH ដោយមិនបាច់បង្កើតច្បាប់ចម្លងក្នុងមូលដ្ឋាន។",
+    "វាជៀសវាងការកំណត់ទំហំថាសដូចវិធីសាស្ត្រ backup API ឬ VACUUM INTO។",
+    "វាប្រើប្រាស់ហាស្ស៍គ្រីបតូដើម្បីធ្វើសមកាលកម្មតែមាតិកាណាដែលមានភាពខុសគ្នា។",
+    "ឧបករណ៍នេះត្រូវបានដាក់បញ្ចូលដំបូងជាលក្ខណៈពិសោធន៍នៅក្នុង SQLite 3.47.0។"
+   ]
+  },
+  "zh-CN": {
+   "title": "sqlite3_rsync：用于 SQLite 的数据库远程复制工具",
+   "summary": "sqlite3_rsync 是一个 SQLite 工具，允许用户通过 SSH 连接将数据库快照复制到另一台机器，而无需先在本地创建完整副本。该工具自 SQLite 3.47.0 起作为实验性功能引入，并在 SQLite 3.50.0 中得到了增强。它使用类似于常规 rsync 的协议，通过交换页面的加密哈希来传输不同内容，从而避免了备份 API 或 VACUUM INTO 对本地磁盘空间的要求。",
+   "impact": "对于在存储受限的实例上管理数据库的开发人员和系统管理员来说，该工具可以解决本地磁盘空间不足无法创建副本的问题。它还能有效同步现有数据库副本，避免传输整个文件，不过初始差异过大时可能会产生少量的额外网络开销。",
+   "keyPoints": [
+    "sqlite3_rsync 允许通过 SSH 连接远程复制数据库快照，无需本地完整副本。",
+    "它解决了传统 backup API 或 VACUUM INTO 方法对磁盘空间的大量需求。",
+    "该工具采用基于页面加密哈希的协议，仅传输内容不同的部分。",
+    "它于 SQLite 3.47.0 中首次作为实验性功能加入，并在 SQLite 3.50.0 中增强。"
+   ]
+  },
+  "ko": {
+   "title": "sqlite3_rsync: SQLite를 위한 데이터베이스 원격 복사 도구",
+   "summary": "sqlite3_rsync는 전체 로컬 복사본을 먼저 생성할 필요 없이 SSH 연결을 통해 다른 시스템으로 데이터베이스 스냅샷을 복사할 수 있는 SQLite 도구입니다. SQLite 3.47.0에서 실험적 기능으로 추가되었고 SQLite 3.50.0에서 개선되었습니다. 이 도구는 일반 rsync와 유사하게 페이지의 암호화된 해시를 교환하는 방식을 사용하여 디스크 공간 부족 문제를 해결합니다.",
+   "impact": "이 도구는 로컬 복사본을 만들 공간이 부족한 스토리지 제한 환경에서 데이터베이스 백업 및 동기화를 수행하는 개발자와 시스템 관리자에게 유용할 수 있습니다. 기존 데이터베이스 복사본을 네트워크로 동기화할 때 전체를 다시 전송하지 않아도 되므로 효율성을 높일 수 있습니다.",
+   "keyPoints": [
+    "sqlite3_rsync는 전체 로컬 복사본 없이 SSH를 통해 데이터베이스 스냅샷을 원격으로 복사합니다.",
+    "backup API나 VACUUM INTO 방식과 달리 로컬 디스크 공간 제약을 피할 수 있습니다.",
+    "일반 rsync와 유사하게 페이지의 암호화된 해시를 교환하여 다른 부분만 동기화합니다.",
+    "SQLite 3.47.0에서 실험 기능으로 도입되었으며 SQLite 3.50.0에서 기능이 강화되었습니다."
+   ]
+  }
+ }
+}

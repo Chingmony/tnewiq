@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d9e3e9aa619f2653",
+ "contentHash": "9bf2d01b2ed89dc6",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-26T09:44:10.103Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Google Charges External AI Agents for Gmail and Drive Usage",
+   "summary": "Google has introduced usage limits and paid pricing tiers for external AI agents accessing Workspace services such as Gmail and Google Drive. According to official developer documentation released on the 24th, Google added Standard and Scaled tiers to Workspace APIs and Model Context Protocol servers. While a free allowance is provided up to a certain limit, companies operating large-scale AI agent services will now face new costs.",
+   "impact": "This change could create new financial burdens for companies running large-scale AI agent services that rely on Gmail and Google Drive integrations. Developers and technology users may need to factor in these new Workspace API and MCP server costs when scaling their AI applications.",
+   "keyPoints": [
+    "Google introduced usage limits and paid tiers for external AI agents accessing Gmail and Google Drive.",
+    "New Standard and Scaled tiers were added to Workspace APIs and Model Context Protocol servers.",
+    "A free allowance remains available up to a certain usage limit.",
+    "Companies operating large-scale AI agent services will face new cost burdens."
+   ]
+  },
+  "km": {
+   "title": "ហ្គូហ្គលគិតប្រាក់ភ្នាក់ងារ AI ខាងក្រៅសម្រាប់ការប្រើប្រាស់ Gmail និង Drive",
+   "summary": "ហ្គូហ្គលបានដាក់ឱ្យប្រើប្រាស់ដែនកំណត់នៃការប្រើប្រាស់ និងកម្រិតថ្លៃសេវាសម្រាប់ភ្នាក់ងារ AI ខាងក្រៅដែលចូលប្រើសេវាកម្ម Workspace ដូចជា Gmail និង Google Drive។ យោងតាមឯកសារអភិវឌ្ឍន៍ផ្លូវការ ហ្គូហ្គលបានបន្ថែមថ្នាក់ Standard និង Scaled ទៅក្នុង Workspace API និងម៉ាស៊ីនបម្រើ Model Context Protocol។ ខណៈពេលដែលការប្រើប្រាស់កម្រិតទាបត្រូវបានផ្តល់ជូនដោយឥតគិតថ្លៃ ក្រុមហ៊ុនដែលដំណើរការសេវាកម្មភ្នាក់ងារ AI ខ្នាតធំនឹងត្រូវប្រឈមមុខនឹងការចំណាយថ្មី។",
+   "impact": "ការផ្លាស់ប្តូរនេះអាចបង្កើតภาระការចំណាយថ្មីសម្រាប់ក្រុមហ៊ុនដែលដំណើរការសេវាកម្មភ្នាក់ងារ AI ខ្នាតធំដែលពឹងផ្អែកលើ Gmail និង Google Drive។ អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវពិចារណាលើការចំណាយថ្មីទាំងនេះនៅពេលពង្រីកកម្មវិធី AI របស់ពួកគេ។",
+   "keyPoints": [
+    "ហ្គូហ្គលបានដាក់បញ្ចូលដែនកំណត់នៃការប្រើប្រាស់ និងកម្រិតថ្លៃសេវាសម្រាប់ភ្នាក់ងារ AI ខាងក្រៅ។",
+    "ថ្នាក់ Standard និង Scaled ត្រូវបានបន្ថែមទៅក្នុង Workspace API និងម៉ាស៊ីនបម្រើ Model Context Protocol។",
+    "ការប្រើប្រាស់ដោយឥតគិតថ្លៃនៅតែមានរហូតដល់កម្រិតកំណត់ជាក់លាក់មួយ។",
+    "ក្រុមហ៊ុនដែលដំណើរការសេវាកម្មភ្នាក់ងារ AI ខ្នាតធំនឹងត្រូវប្រឈមមុខនឹងការចំណាយថ្មី។"
+   ]
+  },
+  "zh-CN": {
+   "title": "谷歌对外部AI代理使用Gmail和Drive收费",
+   "summary": "谷歌针对外部AI代理访问Gmail和谷歌云端硬盘等Workspace服务引入了使用限制和付费定价方案。根据官方开发者文档，谷歌在Workspace API和模型上下文协议服务器中引入了“标准”和“扩展”等级。虽然在一定使用量内提供免费服务，但运营大规模AI代理服务的企业将产生新的成本负担。",
+   "impact": "这一改变可能会给运营依赖Gmail和谷歌云端硬盘集成的大规模AI代理服务的企业带来新的财务负担。开发人员和技术人员在扩展其AI应用时，可能需要将这些新的Workspace API和MCP服务器成本纳入考量。",
+   "keyPoints": [
+    "谷歌对访问Gmail和谷歌云端硬盘的外部AI代理引入了使用限制和付费等级。",
+    "Workspace API和模型上下文协议服务器新增了标准和扩展等级。",
+    "在特定使用量额度内仍然提供免费服务。",
+    "运营大规模AI代理服务的企业将面临新的成本负担。"
+   ]
+  },
+  "ko": {
+   "title": "구글, 외부 AI 에이전트에 지메일·드라이브 이용료 부과",
+   "summary": "구글이 지메일과 구글 드라이브 등 워크스페이스 서비스에 접근하는 외부 AI 에이전트를 대상으로 사용량 제한과 유료 요금제를 도입했다. 공식 개발자 문서에 따르면 워크스페이스 API와 모델 컨텍스트 프로토콜 서버에 표준 및 확장 등급이 도입된다. 일정 사용량까지는 무료로 제공되나, 대규모 AI 에이전트 서비스를 운영하는 기업에는 새로운 비용 부담이 발생하게 되었다.",
+   "impact": "이번 조치는 지메일과 구글 드라이브 연동에 의존하는 대규모 AI 에이전트 서비스를 운영하는 기업들에 새로운 재정적 부담을 줄 수 있다. 개발자와 기술 사용자는 AI 애플리케이션을 확장할 때 이러한 새로운 워크스페이스 API 및 MCP 서버 비용을 고려해야 할 수 있다.",
+   "keyPoints": [
+    "구글이 지메일과 구글 드라이브에 접근하는 외부 AI 에이전트에 사용량 제한과 유료 요금제를 도입함.",
+    "워크스페이스 API와 모델 컨텍스트 프로토콜 서버에 표준 및 확장 등급이 추가됨.",
+    "일정 사용량까지는 무료로 제공됨.",
+    "대규모 AI 에이전트 서비스를 운영하는 기업에 새로운 비용 부담이 발생함."
+   ]
+  }
+ }
+}

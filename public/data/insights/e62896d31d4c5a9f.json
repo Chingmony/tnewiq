@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e62896d31d4c5a9f",
+ "contentHash": "1b7dd0ee6e06e27c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-26T09:47:14.795Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Developing a custom 3D carousel based on Jetpack Compose",
+   "summary": "NAVER D2 released a session from the 10th NAVER Engineering Day detailing the development of a custom 3D card deck UI using Jetpack Compose without LazyRow for the ThingsBook service. The presentation covers how to update frame values without recomposition, resolve touch area bugs for 3D-tilted UIs, and manage Paging3 without LazyRow. It also touches on the experience of building complex UI using AI.",
+   "impact": "This could help Android developers building complex UI interactions with Jetpack Compose by providing approaches to performance, design issues, and custom touch detection. Security teams and technology users may not be directly impacted, but developers can learn practical optimization and troubleshooting methods.",
+   "keyPoints": [
+    "The 3D card deck UI could not be built using LazyRow because of overlapping cards with changing angles and spacing.",
+    "The team shared how to update values every frame without triggering recomposition and how to fix touch detection bugs for 3D-tilted UI.",
+    "The session explains how to control Paging3 next page loading without LazyRow and shares experiences using AI for development."
+   ]
+  },
+  "km": {
+   "title": "ការអភិវឌ្ឍការ៉ូសែល 3D ផ្ទាល់ខ្លួនផ្អែកលើ Jetpack Compose",
+   "summary": "NAVER D2 បានបង្ហាញវគ្គមួយពីកម្មវិធី NAVER Engineering Day lầnទី 10 អំពីការបង្កើត UI កាត 3D ផ្ទាល់ខ្លួនដោយប្រើប្រាស់ Jetpack Compose សម្រាប់សេវាកម្ម ThingsBook។ ការបង្ហាញនេះចែករំលែកពីរបៀបធ្វើបច្ចុប្បន្នភាពតម្លៃក្នុងមួយហ្វ្រេមដោយគ្មានការបង្កើតឡើងវិញ (recomposition) ការដោះស្រាយបញ្ហាប៉ះមិនចំនៅលើ UI ដែលលំអៀងជា 3D និងការគ្រប់គ្រង Paging3 ដោយគ្មាន LazyRow។ វាក៏បានពិភាក្សាផងដែរអំពីបទពិសោធន៍នៃការប្រើប្រាស់ AI ដើម្បីបង្កើត UI ស្មុគស្មាញ។",
+   "impact": "នេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ Android ដែលបង្កើតអន្តរកម្ម UI ស្មុគស្មាញជាមួយ Jetpack Compose តាមរយៈការផ្ដល់នូវវិធីសាស្ត្រសម្រាប់ប្រសិទ្ធភាព បញ្ហានិងការរចនា។ អ្នកអភិវឌ្ឍន៍អាចរៀនពីវិធីសាស្ត្របង្កើនប្រសិទ្ធភាព និងការដោះស្រាយបញ្ហាជាក់ស្តែង។",
+   "keyPoints": [
+    "UI កាត 3D មិនអាចបង្កើតដោយប្រើ LazyRow បានទេ ដោយសារតែកាត chồng nhau និងមានមុំខុសគ្នា។",
+    "ក្រុមការងារបានចែករំលែកពីរបៀបកែសម្រួលតម្លៃក្នុងមួយហ្វ្រេមដោយគ្មានការបង្កើតឡើងវិញ និងការកែសម្រួលកំហុសប៉ះលើ UI 3D។",
+    "វគ្គនេះពន្យល់ពីរបៀបគ្រប់គ្រងការផ្ទុកទំព័រ Paging3 បន្ទាប់ដោយគ្មាន LazyRow និងបទពិសោធន៍ប្រើប្រាស់ AI ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "基于 Jetpack Compose 开发自定义 3D 轮播图",
+   "summary": "NAVER D2 公开了第 10 届 NAVER Engineering Day 上的一个演讲，详细介绍了在 ThingsBook 服务中使用 Jetpack Compose 在没有 LazyRow 的情况下开发自定义 3D 卡片堆叠 UI 的过程。演讲分享了如何在没有重新组合的情况下在屏幕上反映每一帧的值、解决 3D 倾斜 UI 触摸区域错位的Bug、以及在没有 LazyRow 的情况下控制 Paging3 的下一页加载。同时还探讨了结合 AI 构建复杂 UI 的经验。",
+   "impact": "这可以为使用 Jetpack Compose 构建复杂交互 UI 的 Android 开发者提供关于性能、设计问题和自定义触摸检测的方法参考。开发人员可以从中学习到实际的优化和排错技巧。",
+   "keyPoints": [
+    "由于卡片交错重叠且间距和倾斜度会发生变化，无法使用 LazyRow 制作该 3D 卡片堆叠 UI。",
+    "分享了在零重新组合的情况下使每一帧运动的方法以及追踪和解决 3D 倾斜 UI 触摸判定的过程。",
+    "讲解了在没有 LazyRow 的情况下处理 Paging3 的方法以及与 AI 共同开发的体验。"
+   ]
+  },
+  "ko": {
+   "title": "Jetpack Compose 기반 커스텀 3D 캐러셀 개발기",
+   "summary": "네이버 D2는 제10회 네이버 엔지니어링 데이에서 발표된 세션을 통해 ThingsBook 서비스 내 카드 덱 UI를 LazyRow 없이 Jetpack Compose로 직접 구현한 과정과 이슈 해결법을 공개했다. 매 프레임 바뀌는 값을 리컴포지션 없이 반영하는 방법, 3D 기울인 UI의 터치 판정 버그 추적 과정, LazyRow 없이 Paging3를 다룬 방법 등이 공유되었다. 또한 AI를 활용해 복잡한 UI를 만들 때의 경험도 함께 다루어졌다.",
+   "impact": "Jetpack Compose를 사용하여 복잡한 인터랙션과 커스텀 UI를 개발하는 안드로이드 개발자들에게 성능 최적화 및 이슈 해결을 위한 실무적 참고 사례가 될 수 있다. 개발팀은 리컴포지션 제어와 터치 영역 보정 등 렌더링 관련 인사이트를 얻을 수 있다.",
+   "keyPoints": [
+    "비스듬히 겹겹이 쌓이고 간격과 기울기가 바뀌는 3D 카드 덱은 기존 LazyRow로 구현할 수 없어 직접 제작했다.",
+    "매 프레임 움직이는 값을 리컴포지션 없이 화면에 반영하고 3D로 기울어진 UI의 터치 판정 버그를 해결한 과정을 공유했다.",
+    "LazyRow 없이 Paging3의 다음 페이지 로드를 제어하는 방법과 AI 활용 개발 경험을 소개했다."
+   ]
+  }
+ }
+}
