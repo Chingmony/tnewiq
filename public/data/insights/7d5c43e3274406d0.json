@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7d5c43e3274406d0",
+ "contentHash": "42f98ba8a8dc322c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-26T00:37:58.711Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How to choose the next safe step in application modernization",
+   "summary": "An evidence-first method for application modernization is detailed, emphasizing the collection of data on existing applications before making changes. It outlines a decision order ranging from keeping current components to rewriting them, and suggests encoding the process in a GitHub Copilot agent skill. The approach aims to establish a regression net and determine what still works within legacy or modern systems.",
+   "impact": "Development and security teams could use this structured, evidence-based approach to minimize risks during application modernization and make informed, less disruptive choices. Technology users and maintainers may benefit from clearer justifications for upgrades or rewrites, ensuring architectural judgment remains with system owners.",
+   "keyPoints": [
+    "Build an evidence inventory including manifests, lockfiles, runtime pins, and external contracts before recommending changes.",
+    "Record uncertainties using three labels: documented, inferred, and unverified.",
+    "Choose the least disruptive treatment per component, following a decision order from keeping or upgrading to swapping, wrapping, or rewriting.",
+    "Run a time-boxed feasibility check to see if a component can run and produce evidence."
+   ]
+  },
+  "km": {
+   "title": "របៀបជ្រើសរើសជំហានសុវត្ថិភាពបន្ទាប់ក្នុងការធ្វើទំនើបកម្មកម្មវិធី",
+   "summary": "អត្ថបទនេះពិពណ៌នាអំពីវិធីសាស្ត្រផ្អែកលើភស្តុតាងសម្រាប់ការធ្វើទំនើបកម្មកម្មវិធី ដោយเน้นការប្រមូលទិន្នន័យលើកម្មវិធីដែលមានស្រាប់ មុននឹងធ្វើការផ្លាស់ប្តូរណាមួយ។ វាបង្ហាញពីលំដាប់នៃការសម្រេចចិត្តចាប់ពីការរក្សាទុកសមាសភាគបច្ចុប្បន្ន រហូតដល់ការសរសេរកូដឡើងវិញ និងណែនាំពីរបៀបបញ្ចូលនីតិវិធីនេះទៅក្នុងភ្នាក់ងារ GitHub Copilot។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍និងសុវត្ថិភាពអាចប្រើប្រាស់វិធីសាស្ត្រដែលមានរចនាសម្ព័ន្ធនេះ ដើម្បីកាត់បន្ថយហានិភ័យក្នុងអំឡុងពេលធ្វើទំនើបកម្មកម្មវិធី។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានផលចំណេញពីការសម្រេចចិត្តដែលច្បាស់លាស់ជាងមុនសម្រាប់ការអាប់ដេត។",
+   "keyPoints": [
+    "បង្កើតបញ្ជីសារពើភណ្ឌភស្តុតាងមុនពេលស្នើការផ្លាស់ប្តូរណាមួយ។",
+    "កត់ត្រាភាពមិនប្រាកដប្រជាដោយប្រើស្លាកចំនួនបីគឺ បានកត់ត្រា បានសន្និដ្ឋាន និងមិនទាន់បានផ្ទៀងផ្ទាត់។",
+    "ជ្រើសរើសការព្យាបាលដែលមានការរំខានតិចបំផុតសម្រាប់សមាសភាគនីមួយៗ។",
+    "ដំណើរការពិនិត្យលទ្ធភាពដែលមានពេលកំណត់ ដើម្បីមើលថាតើសមាសភាគអាចដំណើរការបានដែរឬទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "如何选择应用程序现代化的下一步安全举措",
+   "summary": "本文介绍了一种以证据为先的应用程序现代化方法，强调在做出更改之前收集现有应用程序的数据。文章概述了从保留当前组件到重写组件的决策顺序，并展示了如何将该流程编码到 GitHub Copilot 代理技能中，同时将架构判断权保留给系统负责人。",
+   "impact": "开发和安全团队可以利用这种结构化的、基于证据的方法来最大程度地减少应用程序现代化过程中的风险，并做出明智且破坏性较小的选择。技术用户和维护人员可能会从更清晰的升级或重写理由中受益。",
+   "keyPoints": [
+    "在推荐更改之前，建立包含清单、锁文件、运行时固定版本和外部契约的证据清单。",
+    "使用三个标签记录不确定性：已记录、已推断和未验证。",
+    "按组件选择破坏性最小的处理方式，遵循从保留或升级到替换、包装或重写的决策顺序。",
+    "运行限时可行性检查，看组件是否能充分运行并产生证据。"
+   ]
+  },
+  "ko": {
+   "title": "애플리케이션 현대화에서 다음 안전한 단계를 선택하는 방법",
+   "summary": "이 글은 변경을 가하기 전에 기존 애플리케이션에 대한 데이터를 수집하는 것을 강조하는 애플리케이션 현대화를 위한 증거 우선 방법을 설명합니다. 현재 컴포넌트 유지부터 재작성까지의 의사 결정 순서를 개괄하며, 아키텍처 판단을 시스템 책임자에게 유지하면서 이 절차를 GitHub Copilot 에이전트 스킬에 인코딩하는 방법을 보여줍니다.",
+   "impact": "개발 및 보안 팀은 이 체계적이고 증거에 기반한 접근 방식을 사용하여 애플리케이션 현대화 중의 위험을 최소화하고 덜 파괴적인 선택을 할 수 있습니다. 기술 사용자 및 유지 관리자는 업그레이드 또는 재작성에 대한 더 명확한 근거의 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "변경 사항을 제안하기 전에 매니페스트, 락파일, 런타임 핀 및 외부 계약을 포함한 증거 인벤토리를 구축합니다.",
+    "문서화됨, 추론됨, 검증되지 않음의 세 가지 레이블을 사용하여 불확실성을 기록합니다.",
+    "유지나 업그레이드부터 교체, 래핑, 재작성에 이르는 의사 결정 순서에 따라 컴포넌트별로 가장 파괴적인 조치를 선택합니다.",
+    "컴포넌트가 충분히 실행되어 증거를 생성할 수 있는지 확인하기 위해 제한된 시간 내의 타당성 검사를 실행합니다."
+   ]
+  }
+ }
+}

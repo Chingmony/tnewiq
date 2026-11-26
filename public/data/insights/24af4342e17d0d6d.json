@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "24af4342e17d0d6d",
+ "contentHash": "55e250edfef76465",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-26T00:30:28.379Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "[AINews] Math Proofs Are Landing Faster Than We Can Read Them",
+   "summary": "Recent AI-assisted research has produced a rapid wave of mathematical breakthroughs, including multiple proofs of VP unequal to VNP, claims that the matrix multiplication exponent omega is exactly 9/4, and matching bounds for the finite Fourier transform. November alone accounted for 20 selected AI-assisted research advances out of 64 tracked this year, featuring large output batches from OpenAI, Google's Cogentic, and Anthropic. Experts and observers note the surreal pace of these developments, while researchers continue to review the unverified preprints and automated outputs.",
+   "impact": "Technology users, developers, and security teams may need to monitor how automated theorem proving and AI-generated code or math affect cryptographic assumptions, such as factoring and linear programming. The sheer volume of AI-assisted preprints could overwhelm traditional peer review processes, requiring new tooling to verify complex proofs and secure software or systems against rapid algorithmic advances.",
+   "keyPoints": [
+    "OpenAI papers claimed the square matrix multiplication exponent omega is exactly 9/4 based on matching upper and lower bounds.",
+    "November accounted for 20 out of 64 plotted AI-assisted research advances, including six preprints from Google's Cogentic.",
+    "OpenAI and Anthropic both posted solutions concerning VP unequal to VNP on the same day.",
+    "Agents used a Lean Riemann Hypothesis proof to establish 17 results within three days."
+   ]
+  },
+  "km": {
+   "title": "ការបញ្ជាក់គណិតវិទ្យាកំពុងមកដល់លឿនជាងល្បឿនដែលយើងអាចអានបាន",
+   "summary": "ការស្រាវជ្រាវដែលទទួលបានជំនួយពីបញ្ញាសិប្បនិម្មិត (AI) បានបង្កើតរបកគំហើញគណិតវិទ្យាយ៉ាងលឿន រួមទាំងការបញ្ជាក់ចំនួនពីរនៃ VP មិនស្មើនឹង VNP ការអះអាងថាអិចស្ប៉ូណង់ស្យែលគុណម៉ាទ្រីស omega គឺពិតជា 9/4 និងដែនកំណត់ដែលត្រូវគ្នាសម្រាប់បំលែង Fourier ។ ត្រឹមតែខែវិច្ឆិកា មានការរីកចម្រើនស្រាវជ្រាវដែលគាំទ្រដោយ AI ចំនួន ២០ ក្នុងចំណោម ៦៤ ដែលបានតាមដាននៅឆ្នាំនេះ រួមទាំងឯកសារបោះពុម្ពមុនពី Google's Cogentic ផងដែរ។ អ្នកជំនាញបានកត់សម្គាល់ពីល្បឿនដ៏គួរឱ្យភ្ញាក់ផ្អើលនៃការវិវត្តទាំងនេះ ខណៈដែលការពិនិត្យមើលលើឯកសារដែលមិនទាន់បានផ្ទៀងផ្ទាត់នៅតែបន្ត។",
+   "impact": "ក្រុមសន្តិសុខ អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវតាមដានពីរបៀបដែលការพิสูจន៍ទ្រឹស្តីបទស្វ័យប្រវត្តិ និងគណិតវិទ្យាដែលបង្កើតដោយ AI ប៉ះពាល់ដល់ការសន្មត់ផ្នែកគ្រីបតូ និងក្បួនដោះស្រាយ។ បរិមាណដ៏ច្រើននៃឯកសារស្រាវជ្រាវដែលបង្កើតដោយ AI អាចធ្វើឱ្យដំណើរការពិនិត្យឡើងវិញបែបប្រពៃណីមានការពិបាក ដែលទាមទារឧបករណ៍ថ្មីៗដើម្បីផ្ទៀងផ្ទាត់ការพิสูจន៍ស្មុគស្មាញ។",
+   "keyPoints": [
+    "ឯកសាររបស់ OpenAI បានអះអាងថាអិចស្ប៉ូណង់ស្យែលគុណម៉ាទ្រីស omega គឺ 9/4 ។",
+    "ខែវិច្ឆិកាមានការរីកចម្រើនស្រាវជ្រាវដែលគាំទ្រដោយ AI ចំនួន ២០ ក្នុងចំណោម ៦៤ នាឆ្នាំនេះ រួមទាំងឯកសារពី Google's Cogentic ។",
+    "OpenAI និង Anthropic បានបង្ហោះដំណោះស្រាយទាក់ទងនឹង VP មិនស្មើនឹង VNP នៅថ្ងៃតែមួយ។",
+    "ភ្នាក់ងារបានប្រើប្រាស់ការพิสูจន៍ Lean Riemann Hypothesis ដើម្បីបង្កើតលទ្ធផលចំនួន ១៧ ក្នុងរយៈពេលបីថ្ងៃ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "数学证明的发布速度已经超过了人类的阅读能力",
+   "summary": "近期由人工智能辅助的研究涌现出大量数学突破，包括多篇关于VP不等于VNP的证明、宣称矩阵乘法指数omega正好等于9/4的论文，以及针对有限傅里叶变换的上下界成果。仅在11月份，今年追踪的64项选定AI辅助研究进展中就有20项来自该月，其中包括来自Google Cogentic的六篇预印本。专家和观察人士指出这些进展的速度令人感到虚幻，同时研究人员仍在对未经证实的预印本和自动生成的结果进行审查。",
+   "impact": "技术用户、开发者和安全团队可能需要密切关注自动化定理证明以及AI生成的数学成果将如何影响加密假设，例如因式分解和线性规划。海量的AI辅助预印本可能会给传统的同行评审流程带来压力，因此需要新的工具来验证复杂的证明并应对快速演进的算法。",
+   "keyPoints": [
+    "OpenAI的论文称矩阵乘法指数omega精确为9/4，基于其匹配的上界和下界。",
+    "11月记录了今年64项AI辅助研究进展中的20项，其中包括来自Google Cogentic的六篇论文。",
+    "OpenAI和Anthropic在同一天各自发布了关于VP不等于VNP的解决方案。",
+    "智能体利用Lean格式的黎曼猜想证明在三天内证明了17个结果。"
+   ]
+  },
+  "ko": {
+   "title": "수학 증명이 우리가 읽을 수 있는 속도보다 더 빠르게 쏟아지고 있습니다",
+   "summary": "인공지능(AI)의 지원을 받은 연구가 급증하면서 VP가 VNP와 같지 않다는 여러 증명, 행렬 곱셈 지수 omega가 정확히 9/4라는 주장, 유한 푸리에 변환에 대한 상하한 결과 등 수학적 돌파구가 빠르게 이어지고 있습니다. 올해 추적된 64건의 AI 지원 연구 진전 중 11월에만 20건이 집중되었으며, 여기에는 Google의 Cogentic에서 나온 6편의 사전 인쇄본이 포함됩니다. 전문가들과 관찰자들은 이러한 발전 속도가 초현실적이라고 평가하며, 검증되지 않은 사전 인쇄본과 자동 생성된 결과에 대한 검토를 이어가고 있습니다.",
+   "impact": "기술 사용자, 개발자, 보안 팀은 자동화된 정리 증명과 AI가 생성한 수학적 성과가 인수분해나 선형 계획법 같은 암호학적 가정에 미치는 영향을 모니터링해야 할 수 있습니다. AI가 지원하는 방대한 양의 사전 인쇄본은 전통적인 동료 평가 과정을 압박할 수 있으며, 복잡한 증명을 검증하고 급격한 알고리즘 진화에 대응하기 위한 새로운 도구를 필요로 할 수 있습니다.",
+   "keyPoints": [
+    "OpenAI 논문은 상하한선이 일치함에 따라 행렬 곱셈 지수 omega가 정확히 9/4라고 주장했습니다.",
+    "올해 집계된 64건의 AI 지원 연구 진전 중 11월에만 20건이 발생했으며, Google의 Cogentic 논문 6편이 포함되었습니다.",
+    "OpenAI와 Anthropic은 같은 날 VP와 VNP가 같지 않다는 솔루션을 각각 게시했습니다.",
+    "에이전트들은 Lean 기반 리만 가설 증명을 사용하여 3일 만에 17개의 결과를 증명했습니다."
+   ]
+  }
+ }
+}

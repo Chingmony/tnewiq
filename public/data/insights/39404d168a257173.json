@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "39404d168a257173",
+ "contentHash": "fe7f1e98278aa78f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-26T00:35:51.034Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon EC2 C9gd instances now available in additional regions",
+   "summary": "Amazon EC2 C9gd instances are now available in the Europe (Ireland, Spain) regions. Powered by AWS Graviton5 processors and built on the sixth-generation AWS Nitro System featuring the Nitro Isolation Engine, these instances offer improved compute performance and local NVMe-based SSD storage. They can be purchased via various options including Savings Plans, On-Demand, and Spot Instances.",
+   "impact": "Developers and technology users running compute-intensive workloads or databases in the newly supported regions may experience better price performance and faster speeds. Security teams could benefit from the Nitro Isolation Engine, which uses formal verification to provide mathematical assurance of workload isolation.",
+   "keyPoints": [
+    "Amazon EC2 C9gd instances launched in Europe (Ireland, Spain) regions.",
+    "Powered by AWS Graviton5 processors and the sixth-generation AWS Nitro System.",
+    "Features the Nitro Isolation Engine for mathematically proven cloud security.",
+    "Suitable for compute-intensive workloads and include local NVMe-based SSD storage."
+   ]
+  },
+  "km": {
+   "title": "Instances ប្រភេទ Amazon EC2 C9gd ឥឡូវនេះមានក្នុងតំបន់បន្ថែម",
+   "summary": "Instances ប្រភេទ Amazon EC2 C9gd ឥឡូវនេះមាននៅក្នុងតំបន់អឺរ៉ុប (អៀរឡង់ និងអេស្ប៉ាញ)។ Instances ទាំងនេះប្រើប្រាស់ខួរក្បាល AWS Graviton5 និងកសាងឡើងនៅលើ AWS Nitro Systemជំនាន់ទីប្រាំាំដែលមាន Nitro Isolation Engine។ ពួកវាផ្តល់នូវដំណើរការគណនាប្រសើរជាងមុន និងមានអង្គផ្ទុកទិន្នន័យ NVMe SSD ក្នុងស្រុក។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យា និងអ្នកអភិវឌ្ឍន៍ដែលដំណើរការកិច្ចការងារធ្ងន់ធ្ងរក្នុងតំបន់ទាំងនេះអាចទទួលបានដំណើរការប្រសើរជាងមុន។ ផ្នែកសន្តិសុខអាចទទួលបានផលចំណេញពី Nitro Isolation Engine ដែលផ្តល់នូវសុវត្ថិភាពពពកតាមបែបគណិតវិទ្យា។",
+   "keyPoints": [
+    "Instances Amazon EC2 C9gd មានក្នុងតំបន់ អឺរ៉ុប (អៀរឡង់, អេស្ប៉ាញ)។",
+    "ប្រើប្រាស់ខួរក្បាល AWS Graviton5 និង AWS Nitro System ជំនាន់ទីប្រាំាំ។",
+    "បំពាក់ដោយ Nitro Isolation Engine សម្រាប់ធានាសុវត្ថិភាពផ្អែកលើគណិតវិទ្យា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon EC2 C9gd 实例现已在更多区域推出",
+   "summary": "Amazon EC2 C9gd 实例现已在欧洲（爱尔兰、西班牙）区域推出。这些实例采用 AWS Graviton5 处理器，并构建于配备 Nitro Isolation Engine 的第六代 AWS Nitro System 上。它们提供更好的计算性能、本地 NVMe SSD 存储，并可通过多种购买选项获得。",
+   "impact": "在这些新区域运行计算密集型工作负载的开发人员和技术用户可以获得更高的性能和更快的速度。安全团队可能受益于使用形式化验证的 Nitro Isolation Engine，从而为云工作负载隔离提供数学保证。",
+   "keyPoints": [
+    "Amazon EC2 C9gd 实例在欧洲（爱尔兰、西班牙）区域推出。",
+    "由 AWS Graviton5 处理器和第六代 AWS Nitro System 驱动。",
+    "首次配备使用形式化验证的 Nitro Isolation Engine。",
+    "提供本地基于 NVMe 的 SSD 块级存储。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon EC2 C9gd 인스턴스, 추가 리전에서 이용 가능",
+   "summary": "Amazon EC2 C9gd 인스턴스가 유럽(아일랜드, 스페인) 리전에서 제공되기 시작했습니다. 이 인스턴스는 AWS Graviton5 프로세서로 구동되며 Nitro Isolation Engine이 탑재된 6세대 AWS Nitro System을 기반으로 구축되었습니다. 향상된 연산 성능과 로컬 NVMe 기반 SSD 스토리지 등을 제공합니다.",
+   "impact": "해당 리전에서 집약적 워크로드를 실행하는 개발자와 기술 사용자는 향상된 가격 대비 성능과 속도의 이점을 얻을 수 있습니다. 보안 팀은 형식 검증을 활용하여 워크로드 격리를 보장하는 Nitro Isolation Engine을 통해 클라우드 보안상의 이점을 누릴 수 있습니다.",
+   "keyPoints": [
+    "Amazon EC2 C9gd 인스턴스가 유럽(아일랜드, 스페인) 리전에 출시됨.",
+    "AWS Graviton5 프로세서 및 6세대 AWS Nitro System 탑재.",
+    "수학적 클라우드 보안을 제공하는 Nitro Isolation Engine 최초 적용.",
+    "고속 로컬 NVMe 기반 SSD 스토리지 제공."
+   ]
+  }
+ }
+}

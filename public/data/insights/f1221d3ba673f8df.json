@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f1221d3ba673f8df",
+ "contentHash": "28e81c3448ad4c08",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-26T00:32:47.793Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon CloudWatch Omni now integrates with PagerDuty",
+   "summary": "Amazon CloudWatch Omni alerts can now automatically create PagerDuty incidents to integrate notifications into existing workflows. This update eliminates manual notification steps and routes alerts according to existing on-call schedules and escalation policies. The integration includes severity levels, affected services, and direct links to related data in Omni.",
+   "impact": "This integration could help technology users and teams reduce mean time to resolution by ensuring critical alerts automatically reach the correct on-call responders with necessary diagnostic context.",
+   "keyPoints": [
+    "Amazon CloudWatch Omni alerts can automatically create PagerDuty incidents.",
+    "Alerts follow existing PagerDuty on-call schedules and escalation policies.",
+    "Omni alerts include severity, affected services, and links back to related data."
+   ]
+  },
+  "km": {
+   "title": "Amazon CloudWatch Omni ឥឡូវនេះរួមបញ្ចូលគ្នាជាមួយ PagerDuty",
+   "summary": "ការឱ្យដំណឹងរបស់ Amazon CloudWatch Omni ឥឡូវនេះអាចបង្កើតឧប្បត្តិហេតុ PagerDuty ដោយស្វ័យប្រវត្តិដើម្បីរួមបញ្ចូលការឱ្យដំណឹងទៅក្នុងដំណើរការការងារដែលមានស្រាប់។ ការធ្វើបច្ចុប្បន្នភាពនេះកាត់បន្ថយជំហានជូនដំណឹងដោយដៃ និងបញ្ជូនការជូនដំណឹងទៅតាមកាលវិភាគនៃការហៅទូរស័ព្ទ និងគោលនយោបាយកើនឡើងដែលមានស្រាប់។ ការរួមបញ្ចូលគ្នានេះរួមមានកម្រិតភាពធ្ងន់ធ្ងរ សេវាកម្មដែលរងផលប៉ះពាល់ និងតំណភ្ជាប់ផ្ទាល់ទៅកាន់ទិន្នន័យដែលទាក់ទងនៅក្នុង Omni ។",
+   "impact": "ការរួមបញ្ចូលគ្នានេះអាចជួយអ្នកប្រើប្រាស់បច្ចេកវិទ្យា និងក្រុមការងារកាត់បន្ថយពេលវេលាជាមធ្យមក្នុងការដោះស្រាយដោយធានាថាការជូនដំណឹងសំខាន់ៗទៅដល់អ្នកឆ្លើយតបតាមការហៅទូរស័ព្ទដែលត្រឹមត្រូវដោយស្វ័យប្រវត្តិជាមួយបរិបទរោគវិនិច្ឆ័យចាំបាច់។",
+   "keyPoints": [
+    "ការជូនដំណឹងរបស់ Amazon CloudWatch Omni អាចបង្កើតឧប្បត្តិហេតុ PagerDuty ដោយស្វ័យប្រវត្តិ។",
+    "ការជូនដំណឹងអនុវត្តតាមកាលវិភាគនៃការហៅទូរស័ព្ទ PagerDuty និងគោលនយោបាយកើនឡើងដែលមានស្រាប់។",
+    "ការជូនដំណឹងរបស់ Omni រួមមានភាពធ្ងន់ធ្ងរ សេវាកម្មដែលរងផលប៉ះពាល់ និងតំណភ្ជាប់ត្រឡប់ទៅទិន្នន័យដែលទាក់ទង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon CloudWatch Omni 现已集成 PagerDuty",
+   "summary": "Amazon CloudWatch Omni 警报现在可以自动创建 PagerDuty 事件，从而将通知直接融入现有的事件管理工作流程中。该更新通过消除手动通知步骤，确保警报遵循现有的值班排班和升级策略。Omni 警报包含严重性、受影响的服务以及指向 Omni 中相关数据的链接。",
+   "impact": "此集成可以帮助技术用户和团队通过确保关键警报自动发送给正确的内部值班人员并提供必要的诊断上下文，来缩短平均解决时间。",
+   "keyPoints": [
+    "Amazon CloudWatch Omni 警报可自动创建 PagerDuty 事件。",
+    "警报遵循现有的 PagerDuty 值班排班和升级策略。",
+    "Omni 警报包含严重性、受影响的服务以及相关数据的链接。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon CloudWatch Omni, PagerDuty와 통합 지원",
+   "summary": "Amazon CloudWatch Omni 경고는 이제 PagerDuty 인시던트를 자동으로 생성하여 기존 인시던트 관리 워크플로에 알림을 직접 통합할 수 있습니다. 이 업데이트는 수동 알림 단계를 제거하고 기존 온콜 일정 및 에스컬레이션 정책에 따라 경고를 라우팅합니다. Omni 경고에는 심각도, 영향받은 서비스 및 Omni의 관련 데이터로 연결되는 링크가 포함됩니다.",
+   "impact": "이 통합은 중요한 경고가 필요한 진단 컨텍스트와 함께 올바른 온콜 담당자에게 자동으로 도달하도록 보장함으로써 기술 사용자와 팀이 평균 해결 시간을 단축하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "Amazon CloudWatch Omni 경고는 PagerDuty 인시던트를 자동으로 생성할 수 있습니다.",
+    "경고는 기존 PagerDuty 온콜 일정 및 에스컬레이션 정책을 따릅니다.",
+    "Omni 경고에는 심각도, 영향받은 서비스 및 관련 데이터 링크가 포함됩니다."
+   ]
+  }
+ }
+}

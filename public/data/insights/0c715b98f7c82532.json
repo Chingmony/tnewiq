@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0c715b98f7c82532",
+ "contentHash": "d4f7c978b87d9d71",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-26T00:33:27.683Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling",
+   "summary": "Attention can be a major bottleneck when serving world foundation models due to long sequences making inference computationally demanding. On NVIDIA Hopper and NVIDIA Blackwell data center GPUs, FlashAttention3 and FlashAttention4 improve attention performance by overlapping matrix multiply-accumulate operations through softmax within a thread block.",
+   "impact": "These performance improvements could help developers and technology users handle the computational demands of long sequences when serving world foundation models.",
+   "keyPoints": [
+    "Attention can be a major bottleneck for world foundation models.",
+    "Long sequences make inference computationally demanding.",
+    "FlashAttention3 and FlashAttention4 improve performance on NVIDIA Hopper and NVIDIA Blackwell data center GPUs."
+   ]
+  },
+  "km": {
+   "title": "របៀបបង្កើនប្រសិទ្ធភាព NVFP4 Attention នៅលើ NVIDIA RTX Blackwell តាមរយៈការកែច្នៃ Register ឡើងវិញ",
+   "summary": "Attention អាចជាឧបសគ្គដ៏ធំមួយនៅពេលដំណើរការ world foundation models ដែលមានស៊េរីវែងធ្វើឱ្យការសន្និដ្ឋានទាមទារការគណនាខ្លាំង។ នៅលើ NVIDIA Hopper និង NVIDIA Blackwell data center GPUs កម្មវិធី FlashAttention3 និង FlashAttention4 ជួយកែលម្អដំណើរការ Attention ដោយត្រួតស៊ីគ្នានូវប្រតិបត្តិការ matrix multiply-accumulate តាមរយៈ softmax ក្នុង thread block មួយ។",
+   "impact": "ការកែលម្អដំណើរការទាំងនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការដោះស្រាយតម្រូវការគណនានៃស៊េរីវែងនៅពេលដំណើរការ world foundation models។",
+   "keyPoints": [
+    "Attention អាចជាឧបសគ្គដ៏ធំសម្រាប់ world foundation models។",
+    "ស៊េរីវែងធ្វើឱ្យការសន្និដ្ឋានទាមទារការគណនាខ្លាំង។",
+    "FlashAttention3 និង FlashAttention4 ជួយបង្កើនប្រសិទ្ធភាពនៅលើ NVIDIA Hopper និង NVIDIA Blackwell data center GPUs។"
+   ]
+  },
+  "zh-CN": {
+   "title": "如何通过寄存器回收在 NVIDIA RTX Blackwell 上优化 NVFP4 Attention",
+   "summary": "在提供世界基础模型服务时，Attention 可能成为一个主要瓶颈，长序列使得推理计算需求巨大。在 NVIDIA Hopper 和 NVIDIA Blackwell 数据中心 GPU 上，FlashAttention3 和 FlashAttention4 通过在线程块内通过 softmax 重叠矩阵乘累加运算来提高 attention 性能。",
+   "impact": "这些性能改进可能有助于开发人员和技术用户在提供世界基础模型服务时处理长序列的计算需求。",
+   "keyPoints": [
+    "Attention 可能是世界基础模型服务中的主要瓶颈。",
+    "长序列使推理计算要求很高。",
+    "FlashAttention3 和 FlashAttention4 提高了 NVIDIA Hopper 和 NVIDIA Blackwell 数据中心 GPU 的性能。"
+   ]
+  },
+  "ko": {
+   "title": "레지스터 재활용을 통해 NVIDIA RTX Blackwell에서 NVFP4 Attention을 최적화하는 방법",
+   "summary": "긴 시퀀스로 인해 추론 연산이 까다로워지는 월드 파운데이션 모델을 서빙할 때 Attention은 주요 병목 현상이 될 수 있습니다. NVIDIA Hopper 및 NVIDIA Blackwell 데이터 센터 GPU에서 FlashAttention3와 FlashAttention4는 스레드 블록 내에서 softmax를 통해 매트릭스 곱셈-누산 연산을 중첩하여 attention 성능을 향상시킵니다.",
+   "impact": "이러한 성능 향상은 개발자와 기술 사용자가 월드 파운데이션 모델을 서빙할 때 긴 시퀀스의 연산 요구 사항을 처리하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "Attention은 월드 파운데이션 모델 서빙 시 주요 병목 현상이 될 수 있습니다.",
+    "긴 시퀀스는 추론 연산을 까다롭게 만듭니다.",
+    "FlashAttention3와 FlashAttention4는 NVIDIA Hopper 및 NVIDIA Blackwell 데이터 센터 GPU에서 성능을 향상시킵니다."
+   ]
+  }
+ }
+}

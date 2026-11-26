@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1c0d7fb450dcd6d3",
+ "contentHash": "c1c85d29a603ace7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-26T00:35:25.336Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon EC2 M9gd instances are now available in Asia Pacific (Seoul)",
+   "summary": "Amazon EC2 M9gd instances are now available in the Asia Pacific (Seoul) region. Powered by AWS Graviton5 processors and built on the sixth-generation AWS Nitro System, these instances feature the Nitro Isolation Engine for mathematically proven workload isolation. They deliver up to 25% better compute performance than M8gd instances, along with local NVMe-based SSD storage.",
+   "impact": "Developers and technology users running general-purpose workloads, databases, web applications, and agentic AI use cases in the Seoul region may see improved performance and better price performance. Security teams could benefit from the new Nitro Isolation Engine, which uses formal verification to provide mathematical assurance of workload isolation.",
+   "keyPoints": [
+    "Amazon EC2 M9gd instances launched in the Asia Pacific (Seoul) region.",
+    "Powered by AWS Graviton5 processors and built on the sixth-generation AWS Nitro System.",
+    "Features the Nitro Isolation Engine for mathematically proven workload isolation using formal verification.",
+    "Provides up to 25% better compute performance than Graviton4-based M8gd instances, plus local NVMe-based SSD storage."
+   ]
+  },
+  "km": {
+   "title": "សេវាកម្ម Amazon EC2 M9gd ឥឡូវនេះមាននៅតំបន់អាស៊ីប៉ាស៊ីហ្វិក (សេអ៊ូល)",
+   "summary": "សេវាកម្ម Amazon EC2 M9gd ឥឡូវនេះមានដាក់ឱ្យប្រើប្រាស់នៅក្នុងតំបន់អាស៊ីប៉ាស៊ីហ្វិក (សេអ៊ូល) ហើយ។ វាដើរដោយប្រូសេស្ស័រ AWS Graviton5 និងត្រូវបានបង្កើតឡើងនៅលើប្រព័ន្ធ AWS Nitro System ជំនាន់ទីប្រាំមួយ។ បន្ថែមពីនេះ ពួកវាផ្តល់នូវដំណើរការគណនាប្រសើរជាងមុនរហូតដល់ ២៥% បើធៀបនឹងម៉ូដែល M8gd។",
+   "impact": "ក្រុមការងារបច្ចេកវិទ្យា និងអ្នកអភិវឌ្ឍន៍ដែលដំណើរការភារកិច្ចទូទៅ ទិន្នន័យ និងកម្មវិធីផ្សេងៗនៅក្នុងតំបន់សេអ៊ូល អាចទទួលបានអត្ថប្រយោជន៍ពីដំណើរការកាន់តែប្រសើរ និងសុវត្ថិភាពកម្រិតខ្ពស់។",
+   "keyPoints": [
+    "សេវាកម្ម Amazon EC2 M9gd ដាក់ឱ្យប្រើប្រាស់នៅតំបន់អាស៊ីប៉ាស៊ីហ្វិក (សេអ៊ូល)។",
+    "ប្រើប្រាស់ប្រូសេស្ស័រ AWS Graviton5 និងប្រព័ន្ធ AWS Nitro System ជំនាន់ទីប្រាំមួយ។",
+    "ផ្តល់នូវដំណើរការគណនាប្រសើរជាងមុនរហូតដល់ ២៥% ធៀបនឹង M8gd។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon EC2 M9gd 实例现已在亚太（首尔）区域推出",
+   "summary": "Amazon EC2 M9gd 实例现已在亚太（首尔）区域可用。这些实例由 AWS Graviton5 处理器驱动，并构建于第六代 AWS Nitro System 之上，首次引入了 Nitro Isolation Engine。与基于 AWS Graviton4 的 M8gd 实例相比，M9gd 实例的计算性能提升了多达 25%。",
+   "impact": "在首尔区域运行通用工作负载、数据库、Web 应用程序和人工智能用例的开发人员和技术用户，可能会获得更高的性能和更好的性价比。安全团队可以从使用形式化验证的 Nitro Isolation Engine 中受益，以实现有数学保证的工作负载隔离。",
+   "keyPoints": [
+    "Amazon EC2 M9gd 实例在亚太（首尔）区域上线。",
+    "采用 AWS Graviton5 处理器和第六代 AWS Nitro System。",
+    "引入 Nitro Isolation Engine 以提供经过数学证实的隔离保障。",
+    "相比 M8gd 实例，计算性能提升高达 25%，并提供本地 NVMe SSD 存储。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon EC2 M9gd 인스턴스가 아시아 태평양(서울) 리전에 출시되었습니다",
+   "summary": "Amazon EC2 M9gd 인스턴스가 아시아 태평양(서울) 리전에서 제공되기 시작했습니다. 이 인스턴스는 AWS Graviton5 프로세서로 구동되며 6세대 AWS Nitro System을 기반으로 구축되었습니다. M8gd 인스턴스에 비해 최대 25% 향상된 연산 성능을 제공하며, 로컬 NVMe 기반 SSD 스토리지도 함께 제공합니다.",
+   "impact": "서울 리전에서 일반 목적 워크로드, 데이터베이스, 웹 응용프로그램 및 인공지능 관련 유스케이스를 운영하는 개발자와 기술 사용자들은 향상된 성능과 비용 대비 성능을 기대할 수 있습니다. 보안 팀은 정형 검증을 사용하여 작업 로드 격리에 대한 수학적 보장을 제공하는 새로운 Nitro Isolation Engine의 혜택을 누릴 수 있습니다.",
+   "keyPoints": [
+    "Amazon EC2 M9gd 인스턴스가 아시아 태평양(서울) 리전에서 출시됨.",
+    "AWS Graviton5 프로세서 및 6세대 AWS Nitro System을 기반으로 함.",
+    "작업 로드 격리를 위한 Nitro Isolation Engine을 최초로 탑재함.",
+    "Graviton4 기반 M8gd 인스턴스 대비 최대 25% 향상된 연산 성능 제공."
+   ]
+  }
+ }
+}
