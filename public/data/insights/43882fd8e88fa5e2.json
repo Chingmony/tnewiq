@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "43882fd8e88fa5e2",
+ "contentHash": "82c663c4b9b538b4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T02:55:31.940Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Quarkus 4.0 Released: Starting with Java 21, Networking Layer Upgraded to Vert.x 5, Adding HTTP/3 and Quarkus Data",
+   "summary": "The Quarkus project team released Quarkus 4.0 on November 25 after two years of planning and preparation. Core developer Guillaume Smet announced the new major version on the official blog, noting that the team maintained regular minor releases for Quarkus 3 in the meantime. The underlying foundation has been completely upgraded to require at least Java 21.",
+   "impact": "Developers and technology users must upgrade their environments to at least Java 21 since Java 17 is no longer supported, with Java 25 recommended by the official team. These fundamental updates could affect compatibility for existing projects migrating to the new major version.",
+   "keyPoints": [
+    "Quarkus 4.0 was released on November 25.",
+    "The major version took two years of planning and preparation.",
+    "Quarkus 4 requires at least Java 21 and drops Java 17 support.",
+    "Java 25 is officially recommended for the new version."
+   ]
+  },
+  "km": {
+   "title": "Quarkus 4.0 ត្រូវបានដាក់ឱ្យដំណើរការ៖ ចាប់ផ្តើមជាមួយ Java 21, កម្រិតបណ្តាញបានដំឡើងកំណែទៅ Vert.x 5, បន្ថែម HTTP/3 និង Quarkus Data",
+   "summary": "ក្រុមការងារគម្រោង Quarkus បានដាក់ឱ្យដំណើរការកំណែធំ Quarkus 4.0 នៅថ្ងៃទី 25 ខែវិច្ឆិកា បន្ទាប់ពីរៀបចំផែនការរយៈពេលពីរឆ្នាំ។ អ្នកអភិវឌ្ឍន៍ស្នូល Guillaume Smet បានណែនាំកំណែថ្មីនេះនៅលើប្លុកផ្លូវការ ដោយបញ្ជាក់ថា ក្រុមការងារនៅតែបន្តចេញកំណែតូចៗរបស់ Quarkus 3 ក្នុងអំឡុងពេលនោះ។ មូលដ្ឋានគ្រឹះត្រូវបានដំឡើងកំណែទាំងស្រុងដោយទាមទារយ៉ាងហោចណាស់ Java 21។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងត្រូវដំឡើងកំណែបរិយាកាសរបស់ពួកគេទៅជា Java 21 ជាអប្បបរមា ព្រោះ Java 17 មិនត្រូវបានគាំទ្រទៀតទេ។ ការផ្លាស់ប្តូរទាំងនេះអាចជះឥទ្ធិពលដល់ភាពឆបគ្នានៃគម្រោងដែលមានស្រាប់ពេល移行ទៅកាន់កំណែធំថ្មី។",
+   "keyPoints": [
+    "Quarkus 4.0 ត្រូវបានដាក់ឱ្យដំណើរការនៅថ្ងៃទី 25 ខែវិច្ឆិកា។",
+    "កំណែធំនេះចំណាយពេលពីរឆ្នាំក្នុងការរៀបចំផែនការ។",
+    "Quarkus 4 ទាមទារយ៉ាងហោចណាស់ Java 21 និងឈប់គាំទ្រ Java 17។",
+    "Java 25 ត្រូវបានណែនាំជាផ្លូវការសម្រាប់កំណែថ្មីនេះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Quarkus 4.0 发布：Java 21 起步，网络层升级到 Vert.x 5，新增 HTTP/3 与 Quarkus Data",
+   "summary": "Quarkus 项目团队于 11 月 25 日发布了新的大版本 Quarkus 4.0。项目核心开发者 Guillaume Smet 在官方博客中介绍，这个版本从规划到发布历时两年，期间团队仍按原有节奏持续发布 Quarkus 3 的小版本。底层全面升级后的 Quarkus 4 要求至少使用 Java 21，不再支持 Java 17。",
+   "impact": "开发者和技术用户在迁移时需要注意环境要求，因为该版本不再支持 Java 17 并要求至少使用 Java 21，官方则推荐使用 Java 25。这些底层变动可能会对现有项目的兼容性和部署产生影响。",
+   "keyPoints": [
+    "Quarkus 4.0 于 11 月 25 日正式发布。",
+    "该大版本的规划与筹备历时两年。",
+    "Quarkus 4 要求至少使用 Java 21，并不再支持 Java 17。",
+    "官方推荐在 Quarkus 4 中使用 Java 25。"
+   ]
+  },
+  "ko": {
+   "title": "Quarkus 4.0 출시: Java 21 시작, 네트워크 계층 Vert.x 5 업그레이드, HTTP/3 및 Quarkus Data 추가",
+   "summary": "Quarkus 프로젝트 팀은 11월 25일에 새로운 메이저 버전인 Quarkus 4.0을 출시했습니다. 핵심 개발자인 Guillaume Smet은 공식 블로그를 통해 기획부터 출시까지 2년이 소요되었다고 소개했으며, 그동안 팀은 Quarkus 3의 마이너 버전을 지속적으로 출시했다고 밝혔습니다. 기본 기반이 완전히 업그레이드되어 Quarkus 4는 최소 Java 21을 요구합니다.",
+   "impact": "개발자와 기술 사용자는 Java 17이 더 이상 지원되지 않으므로 최소 Java 21 이상으로 환경을 업그레이드해야 할 수 있으며, 공식 팀은 Java 25를 권장하고 있습니다. 이러한 기반 변경 사항은 기존 프로젝트의 마이그레이션과 호환성에 영향을 미칠 수 있습니다.",
+   "keyPoints": [
+    "Quarkus 4.0이 11월 25일에 출시되었습니다.",
+    "메이저 버전의 기획 및 준비에는 2년이 걸렸습니다.",
+    "Quarkus 4는 최소 Java 21이 필요하며 Java 17 지원을 중단합니다.",
+    "공식적으로 Java 25 사용이 권장됩니다."
+   ]
+  }
+ }
+}

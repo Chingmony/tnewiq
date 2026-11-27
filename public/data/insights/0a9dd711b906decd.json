@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0a9dd711b906decd",
+ "contentHash": "7951a9a490fed9fc",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T02:57:55.317Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "All-New Linyaps Agents V3: Self-Debugging, Self-Repairing, and End-to-End Build Accountability!",
+   "summary": "Linyaps Agents is a set of agents designed to migrate Linux software packages into the Linglong format using a three-stage pipeline. The tools include a script generator for converting deb, AppImage, and tar files into Linglong build projects, a translator for Debian source build rules, and a packaging script running skill.",
+   "impact": "This toolset could assist developers by automating the migration of Linux software packages into the Linglong format, potentially streamlining build and packaging processes.",
+   "keyPoints": [
+    "Linyaps Agents migrates Linux packages to the Linglong format.",
+    "It uses a pipeline consisting of three main parts.",
+    "Components handle script generation, rule translation, and packaging execution."
+   ]
+  },
+  "km": {
+   "title": "Linyaps Agents V3 ថ្មីស្រឡាង៖ ការបំបាត់កំហុសដោយខ្លួនឯង ការជួសជុលដោយខ្លួនឯង និងការទទួលខុសត្រូវលើការកសាងដល់ទីបញ្ចប់!",
+   "summary": "linyaps-agents គឺជា مجموعة من ភ្នាក់ងារដែលធ្វើការ移行កញ្ចប់សូហ្វវែរ Linux ទៅជាទម្រង់ Linglong តាមរយៈខ្សែច្រវាក់បីដំណាក់កាល។ ឧបករណ៍ទាំងនេះរួមមានកម្មវិធីបង្កើតស្គ្រីប អ្នកបកប្រែច្បាប់សាងសង់ និងជំនាញដំណើរការស្គ្រីបវេចខ្ចប់។",
+   "impact": "ឧបករណ៍នេះអាចជួយអ្នកអភិវឌ្ឍន៍ក្នុងការស្វ័យប្រវត្តិកម្មការ移行កញ្ចប់សូហ្វវែរ Linux ទៅជាទម្រង់ Linglong ដែលអាចធ្វើឱ្យដំណើរការសាងសង់មានភាពងាយស្រួលជាងមុន។",
+   "keyPoints": [
+    "Linyaps Agents បំលែងកញ្ចប់ Linux ទៅជាទម្រង់ Linglong។",
+    "វាប្រើប្រាស់ខ្សែច្រវាក់បីផ្នែក។",
+    "គ្រឿងផ្សំគ្រប់គ្រងការបង្កើតស្គ្រីប ការបកប្រែច្បាប់ និងការប្រតិបត្តិការវេចខ្ចប់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "全新如意玲珑Linyaps Agents V3：自调试、自修复、构建负责到底！",
+   "summary": "linyaps-agents 是一组将 Linux 软件包迁移到玲珑格式的 Agents，通过三段式流水线运作。其中包括将 deb、AppImage 和 tar 转换成玲珑构建工程的脚本生成器、将 Debian 源码构建规则翻译成玲珑规则的工具，以及打包脚本运行技能。",
+   "impact": "该工具集可能帮助开发者自动化处理 Linux 软件包向玲珑格式的迁移，从而简化构建和打包流程。",
+   "keyPoints": [
+    "Linyaps Agents 用于将 Linux 软件包迁移到玲珑格式。",
+    "整体采用三段式流水线架构。",
+    "包含脚本生成、规则翻译以及脚本运行等相关组件。"
+   ]
+  },
+  "ko": {
+   "title": "완전히 새로운 Linyaps Agents V3: 자가 디버깅, 자가 복구, 빌드 책임 완수!",
+   "summary": "linyaps-agents는 Linux 소프트웨어 패키지를 Linglong 형식으로 마이그레이션하는 에이전트 모음으로, 3단계 파이프라인으로 구성되어 있습니다. deb, AppImage, tar를 Linglong 빌드 프로젝트로 변환하는 스크립트 생성기와 Debian 소스 빌드 규칙을 Linglong 규칙으로 번역하는 도구 등을 포함합니다.",
+   "impact": "이 도구 모음은 개발자가 Linux 소프트웨어 패키지를 Linglong 형식으로 마이그레이션하는 과정을 자동화하여 빌드 및 패키징 프로세스를 간소화하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "Linyaps Agents는 Linux 패키지를 Linglong 형식으로 마이그레이션합니다.",
+    "세 부분으로 구성된 파이프라인을 사용합니다.",
+    "스크립트 생성, 규칙 번역 및 패키징 실행 기능을 포함합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "655bf3e0dca551f9",
+ "contentHash": "9df40944de8ccd6a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T02:58:05.700Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "novel-plus v6.5.0 Released, Original Novel System",
+   "summary": "novel-plus v6.5.0 has been released, focusing on optimizations for the author backend and mobile reading experience while fixing several known issues. New features include author backend management for work comments and paragraph comments, along with displaying author pen names, avatars, and badges on replies. Additionally, the mobile user center now includes recharge records and subscription details.",
+   "impact": "Developers and maintainers using the novel-plus system may find these updates helpful for improving author-reader interaction and providing better financial tracking features on mobile. Security teams and technology users might want to review the bug fixes included in the release to ensure platform stability.",
+   "keyPoints": [
+    "The release focuses on optimizing the author backend and mobile reading experience.",
+    "Added author backend management for viewing and replying to work and paragraph comments.",
+    "Author replies in reviews and messages now display pen names, avatars, and author badges.",
+    "The mobile personal center adds recharge records and subscription details."
+   ]
+  },
+  "km": {
+   "title": "ការចេញផ្សាយ novel-plus v6.5.0 ប្រព័ន្ធប្រលោមលោកដើម",
+   "summary": "novel-plus v6.5.0 ត្រូវបានចេញផ្សាយ ដោយផ្តោតលើការបង្កើនប្រសិទ្ធភាពផ្នែកខាងក្រោយរបស់អ្នកនិពន្ធ និងបទពិសោធន៍អាននៅលើទូរស័ព្ទដៃ ព្រមទាំងបានជួសជុលបញ្ហាដែលគេដឹងស្គាល់មួយចំនួនផងដែរ។ លក្ខណៈពិសេសថ្មីរួមមានការគ្រប់គ្រងមតិយោបល់លើការងារ និងកថាខណ្ឌនៅក្នុងផ្នែកខាងក្រោយរបស់អ្នកនិពន្ធ និងការបង្ហាញឈ្មោះក្លែងក្លាយ រូបតំណាង និងស្លាកសញ្ញារបស់អ្នកនិពន្ធ។ លើសពីនេះ មជ្ឈមណ្ឌលអ្នកប្រើប្រាស់នៅលើទូរស័ព្ទដៃបានបន្ថែមบันทึกการเติมเงิน និងព័ត៌មានលម្អិតនៃការជាវ។",
+   "impact": "ក្រុមអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចទទួលបានផលប្រយោជន៍ពីការកែលម្អការអន្តរកម្មរវាងអ្នកនិពន្ធ និងអ្នកអាន ក៏ដូចជាមុខងារតាមដានហិរញ្ញវត្ថុនៅលើទូរស័ព្ទដៃផងដែរ។ ការជួសជុលកំហុសក្នុងកំណែនេះអាចជួយធានាស្ថេរភាពនៃប្រព័ន្ធ។",
+   "keyPoints": [
+    "កំណែនេះផ្តោតលើការបង្កើនប្រសិទ្ធភាពផ្នែកខាងក្រោយរបស់អ្នកនិពន្ធ និងបទពិសោធន៍អានតាមទូរស័ព្ទដៃ។",
+    "បានបន្ថែមការគ្រប់គ្រងមតិយោបល់ និងការឆ្លើយតបសម្រាប់អ្នកនិពន្ធ។",
+    "ការឆ្លើយតបរបស់អ្នកនិពន្ធបង្ហាញឈ្មោះក្លែងក្លាយ រូបតំណាង និងស្លាកសញ្ញា។",
+    "មជ្ឈមណ្ឌលផ្ទាល់ខ្លួននៅលើទូរស័ព្ទដៃបានបន្ថែមบันทึกការเติมเงิน និងព័ត៌មានលម្អិតនៃការជាវ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "novel-plus v6.5.0 发布，原创小说系统",
+   "summary": "novel-plus v6.5.0 正式发布，本次版本重点围绕作家后台和移动端阅读体验进行优化，并修复了若干已知问题。新功能包括作家后台新增作品评论和段评管理，支持查看和回复读者评论，且作者回复会展示笔名、头像和作者标识。此外，移动端个人中心新增了充值记录和订阅明细。",
+   "impact": "使用该系统的开发者和技术用户可以通过这些更新来增强作者与读者之间的互动体验，并利用新增的财务明细功能改善移动端服务。升级该版本也有助于利用其中的已知问题修复来提升系统的整体稳定性。",
+   "keyPoints": [
+    "版本重点围绕作家后台和移动端阅读体验进行优化。",
+    "作家后台新增作品评论和段评管理，支持查看与回复读者评论。",
+    "书评、段评及消息中的作者回复支持展示作者笔名、头像和作者标识。",
+    "移动端个人中心新增充值记录和订阅明细。"
+   ]
+  },
+  "ko": {
+   "title": "novel-plus v6.5.0 출시, 오리지널 소설 시스템",
+   "summary": "novel-plus v6.5.0이 출시되었으며, 이번 버전은 작가 백엔드와 모바일 독서 경험을 최적화하는 데 중점을 두고 여러 알려진 문제를 수정했습니다. 새로운 기능으로는 작품 댓글 및 문단 댓글을 관리하고 독자 댓글을 확인 및 회신할 수 있는 작가 백엔드 기능이 추가되었으며, 회신에는 작가의 필명, 아바타, 작가 배지가 표시됩니다. 또한 모바일 개인 센터에 충전 내역과 구독 상세 정보가 추가되었습니다.",
+   "impact": "개발자와 기술 사용자는 작가와 독자 간의 상호 작용을 개선하고 모바일에서 더 나은 재정 추적 기능을 제공하는 이번 업데이트의 혜택을 누릴 수 있습니다. 수정된 버그들은 플랫폼의 전반적인 안정성을 유지하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "작가 백엔드와 모바일 독서 경험 최적화에 중점을 둔 버전입니다.",
+    "작가 백엔드에 작품 및 문단 댓글 관리 및 회신 기능이 추가되었습니다.",
+    "리뷰와 메시지 내 작가 회신에 필명, 아바타, 작가 표시가 지원됩니다.",
+    "모바일 개인 센터에 충전 내역과 구독 상세 정보가 추가되었습니다."
+   ]
+  }
+ }
+}

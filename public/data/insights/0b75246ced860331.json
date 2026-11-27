@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0b75246ced860331",
+ "contentHash": "9420adfa6f9b92d3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T03:00:06.257Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+   "summary": "The Hacker News reported on various security topics including NGINX services, malicious extensions, and AI server hijacking. Browser extensions can behave differently depending on how they are found and installed. Additionally, stolen logins are creating unauthorized access risks.",
+   "impact": "Security teams and developers may need to monitor software behavior closely and account for discrepancies between administrator and user views. Stolen credentials and extension installation vectors could lead to unexpected security compromises.",
+   "keyPoints": [
+    "Software behavior can differ when viewed by an administrator versus a regular user.",
+    "Browser extension behavior may change based on how the extension is discovered and installed.",
+    "Stolen logins are actively creating security access concerns."
+   ]
+  },
+  "km": {
+   "title": "ThreatsDay: សេវាកម្ម NGINX ចំនួន ១០លានប្រឈមហានិភ័យ, កម្មវិធីបន្ថែមព្យាបាទជាង ២៥០, ការឃាត់បំពានលើម៉ាស៊ីនបម្រើ AI និងរឿងរ៉ាវ ១៧ បន្ថែមទៀត",
+   "summary": "The Hacker News បានរាយការណ៍អំពីប្រធានបទសន្តិសុខផ្សេងៗ រួមមានសេវាកម្ម NGINX កម្មវិធីបន្ថែមព្យាបាទ និងការឃាត់បំពានលើម៉ាស៊ីនបម្រើ AI។ កម្មវិធីបន្ថែមលើកម្មវិធីរុករកអាចមានឥរិយាបថខុសគ្នាអាស្រ័យលើរបៀបដែលរកឃើញ និងដំឡើងវា។ លើសពីនេះ ព័ត៌មានសម្ងាត់ចូលប្រើដែលត្រូវចោរលួចកំពុងបង្កើតហានិភ័យនៃការចូលប្រើប្រាស់ដោយគ្មានការអនុញ្ញាត។",
+   "impact": "ក្រុមសន្តិសុខនិងអ្នកអភិវឌ្ឍន៍អាចចាំបាច់ត្រូវតាមដានឥរិយាបថកម្មវិធីឱ្យបានដិតដល់ និងគិតគូរពីភាពខុសគ្នារវាងទស្សនៈរបស់អ្នកគ្រប់គ្រង និងអ្នកប្រើប្រាស់។ ការលួចព័ត៌មានសម្ងាត់ និងវ៉ិចទ័រដំឡើងកម្មវិធីបន្ថែមអាចនាំឱ្យមានការខូចខាតសន្តិសុខដែលមិនបានរំពឹងទុក។",
+   "keyPoints": [
+    "ឥរិយាបថកម្មវិធីអាចមានភាពខុសគ្នា នៅពេលដែលមើលដោយអ្នកគ្រប់គ្រងធៀបនឹងអ្នកប្រើប្រាស់ធម្មតា។",
+    "ឥរិយាបថរបស់កម្មវិធីបន្ថែមលើកម្មវិធីរុករកអាចផ្លាស់ប្តូរដោយផ្អែកលើរបៀបដែលវាត្រូវបានរកឃើញ និងដំឡើង។",
+    "ការចូលប្រើដែលត្រូវបានលួចកំពុងបង្កជាក្តីបារម្ភផ្នែកសន្តិសុខនៃការចូលប្រើប្រាស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "ThreatsDay：1000万个NGINX服务面临风险，250多个恶意扩展，AI服务器劫持及其他17则新闻",
+   "summary": "The Hacker News报道了各种安全主题，包括NGINX服务、恶意扩展以及AI服务器劫持。浏览器扩展的表现可能会根据其查找和安装方式而有所不同。此外，被盗的登录信息正在带来未经授权的访问风险。",
+   "impact": "安全团队和开发人员可能需要密切监控软件行为，并注意管理员视图与用户视图之间的差异。被盗凭据和扩展安装途径可能会导致意料之外的安全妥协。",
+   "keyPoints": [
+    "由管理员和普通用户查看时，软件行为可能会有所不同。",
+    "浏览器扩展的行为可能会根据其被发现和安装的方式而改变。",
+    "被盗的登录信息正在引发安全访问问题。"
+   ]
+  },
+  "ko": {
+   "title": "ThreatsDay: 1천만 개의 NGINX 서비스 위험에 노출, 250개 이상의 악성 확장 프로그램, AI 서버 하이재킹 및 17가지 추가 소식",
+   "summary": "The Hacker News는 NGINX 서비스, 악성 확장 프로그램, AI 서버 하이재킹을 포함한 다양한 보안 주제를 보도했습니다. 브라우저 확장 프로그램은 찾고 설치하는 방식에 따라 다르게 작동할 수 있습니다. 또한 도난당한 로그인 정보로 인해 무단 접근 위험이 발생하고 있습니다.",
+   "impact": "보안 팀과 개발자는 소프트웨어 동작을 면밀히 모니터링하고 관리자 화면과 사용자 화면 간의 차이를 고려해야 할 수 있습니다. 도난당한 자격 증명과 확장 프로그램 설치 경로로 인해 예상치 못한 보안 침해가 발생할 수 있습니다.",
+   "keyPoints": [
+    "관리자가 볼 때와 일반 사용자가 볼 때 소프트웨어의 동작이 다를 수 있습니다.",
+    "브라우저 확장 프로그램의 동작은 발견 및 설치 방법에 따라 변경될 수 있습니다.",
+    "도난당한 로그인은 보안 접근 우려를 낳고 있습니다."
+   ]
+  }
+ }
+}

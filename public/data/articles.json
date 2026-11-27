@@ -1,7 +1,411 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-26T19:39:24.973Z",
+ "generatedAt": "2026-11-27T02:53:10.169Z",
  "articles": [
+  {
+   "id": "43882fd8e88fa5e2",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "Quarkus 4.0 发布：Java 21 起步，网络层升级到 Vert.x 5，新增 HTTP/3 与 Quarkus Data",
+   "originalUrl": "https://www.oschina.net/news/503844/quarkus-4-0-released",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "Quarkus 项目团队于 11 月 25 日发布了新的大版本 Quarkus 4.0。项目核心开发者 Guillaume Smet 在官方博客中介绍，这个版本从规划、筹备到发布历时两年，其间团队仍按原有节奏持续发布 Quarkus 3 的小版本。 底层全面升级 Quarkus 4 要求至少使用 Java 21，不再支持 Java 17，官方推荐使用 Java 25。容器镜像默认基于 ...",
+   "publishedAt": "2026-11-27T02:43:35.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "developer-tools",
+    "programming-languages"
+   ],
+   "imageUrl": null,
+   "contentHash": "82c663c4b9b538b4"
+  },
+  {
+   "id": "cff7faaadcb0a1a2",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "화웨이, 삼성·하이닉스에 도전…HBM4 대비 데이터 핀 두배 설계",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217848",
+   "originalLanguage": "ko",
+   "originalDescription": "중국 화웨이가 삼성전자와 SK하이닉스에 맞설 차세대 고대역폭메모리(HBM) 설계 기술을 학술대회에서 공개할 예정이다. 한국 기업들의 최신 제품인 'HBM4'의 두 배에 달하는 데이터 입출력 핀을 갖춘 설계로, 아직 실제 칩 제작이나 성능 검증 여부는 확인되지 않았다.블룸버그는 26일(현지시간) 화웨이 연구진이 내년 2월 미국 샌프란시스코에서 열리는 국제고체회로학회(ISSCC)에서 차세대 주문형 HBM 설계에 관한 연구 논문을 발표할 예정이라고 보도했다.이에 따르면 화웨이가 설계한 주문형…",
+   "publishedAt": "2026-11-27T02:38:05.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "32f34c8c524ed900"
+  },
+  {
+   "id": "363bca599edb390d",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "LGU+, 현대차·기아 배송로봇에 5G 단독모드 실증",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217845",
+   "originalLanguage": "ko",
+   "originalDescription": "LG유플러스(대표 홍범식)는 현대차·기아 로보틱스랩과 실제 운영 중인 로봇에 5G 단독모드(SA)를 적용한 기술 실증을 마쳤다고 27일 밝혔다.5G SA는 LTE망을 병행하는 비단독모드(NSA)와 달리 5G 기지국과 5G 코어망만으로 통신한다. 하나의 망을 여러 가상 네트워크로 나눠 서비스별로 다른 통신 자원과 품질을 제공하는 '네트워크 슬라이싱'을 활용할 수 있는 것이 특징이다.실증은 지난 19일 현대차·기아 양재동 사옥에서 운영 중인 배송로봇 '달이 딜리버리(DAL-e Delivery)'를…",
+   "publishedAt": "2026-11-27T02:30:00.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "ffc323871a3fcd3f"
+  },
+  {
+   "id": "7139bcc9efbd44a1",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "SK증권, LG CNS AIDC 매출 본격화로 내년 성장 가속화 전망",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217850",
+   "originalLanguage": "ko",
+   "originalDescription": "LG CNS(대표 현신균)가 AI 데이터센터 사업의 본격화로 내년 영업이익이 20% 이상 늘어날 것이라는 전망이 나왔다.남효지 SK증권 연구원은 금융권 차세대시스템 사업과 더불어 AI 데이터센터 사업의 본격적인 매출로 LG CNS가 내년 매출 7조1000억원, 영업이익 7439억원을 실현할 것으로 내다봤다. 올해보다 각각 9.2%, 26.0% 늘어난 수치다.AI 데이터센터 사업은 3분기부터 반영된 삼송 데이터센터 코로케이션(서버 입주 공간 임대) 매출과 더불어 내년에는 죽전 데이터센터 매출이…",
+   "publishedAt": "2026-11-27T02:30:00.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "e92ee32fd4da13f4"
+  },
+  {
+   "id": "d287cc8c6c84c5c3",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "같은 정책도 AI마다 판단 제각각…GPT·클로드는 성과, 딥시크는 민주성 중시",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217854",
+   "originalLanguage": "ko",
+   "originalDescription": "같은 정책을 두고도 AI 모델에 따라 주민 여론과 정책 효과, 예산 효율 등을 고려하는 비중이 크게 다른 것으로 나타났다. 국내에서도 국민의 정책 제안과 토론 의견을 분석하는 데 AI를 활용하는 가운데 공공기관이 AI를 선정할 때 성능뿐 아니라 판단 기준도 평가해야 한다는 연구 결과가 나왔다.경기연구원은 26일 '똑똑한 AI면 충분할까, 성능 평가에서 가치 평가로' 보고서를 발간했다.연구진은 한국·미국·중국·프랑스의 AI 모델 8종에 청년 구직활동 지원, 수요응답형 버스 확대, 도심 인근…",
+   "publishedAt": "2026-11-27T02:29:41.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "333aab36c696b495"
+  },
+  {
+   "id": "60eddeee530487a3",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "벤타엑스·스톤브이스튜디오, 영화 '한산'에 AI 접목한 VR 콘텐츠 내년 출시",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217857",
+   "originalLanguage": "ko",
+   "originalDescription": "벤타엑스와 스톤브이스튜디오가 영화 '한산'의 제작 데이터를 AI 기술로 재구성한 가상현실(VR) 콘텐츠를 내년 출시한다. 베타 체험전에서 유료 관람 의향이 95% 이상으로 나타나는 등 긍정적인 반응을 얻었다.양사는 영화 '한산'을 기반으로 제작 중인 위치기반 가상현실(LBVR) 콘텐츠 '한산 - 이순신, 그날의 바다에 서다'를 2027년 정식 출시할 계획이라고 27일 밝혔다.이번 콘텐츠는 영화 제작에 사용한 3D 및 시각특수효과(VFX) 데이터를 AI 기술로 재구성한 것이 특징이다. 양사는…",
+   "publishedAt": "2026-11-27T02:25:00.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "063f31d578ba5516"
+  },
+  {
+   "id": "b8718c1ece259f99",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "AI로 보이스피싱범 목소리부터 합성음성까지 탐지…전남광주도 실증",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217843",
+   "originalLanguage": "ko",
+   "originalDescription": "AI를 활용한 보이스피싱 탐지 기술이 통화 내용 분석에서 범죄자의 목소리와 AI 합성음성까지 판별하는 방식으로 발전하고 있다. 이동통신 3사의 위험 목소리 알림이 누적 5782건에 달한 가운데 전남광주에서 실증을 진행한 보이스피싱·합성음성 탐지 서비스도 CES 2027 혁신상 수상 제품으로 선정됐다.과학기술정보통신부와 개인정보보호위원회는 26일 보이스피싱 범죄자의 음성정보를 활용한 AI 탐지 서비스 지원 사례로 '2026년 적극행정 우수사례 경진대회'에서 대상인 대통령상을 받았다고…",
+   "publishedAt": "2026-11-27T02:24:00.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "63b769a35a9e9115"
+  },
+  {
+   "id": "e268e7a61682d7eb",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "환자정보 지키면서 의료 AI 개발…정부, 데이터 원격분석·생성 AI 활용기준 마련",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217840",
+   "originalLanguage": "ko",
+   "originalDescription": "정부가 의료데이터를 활용한 연구 절차를 간소화하는 동시에 생성 AI에 입력한 환자정보의 저장과 학습을 제한하는 기준을 마련했다. 전남광주에서도 의료데이터를 안전하게 분석할 수 있는 연구환경을 구축해 지역 의료 AI 기업의 기술개발을 지원하고 있다.보건복지부와 한국보건의료정보원은 27일 이 같은 내용을 담은 '보건의료데이터 활용 가이드라인'을 전부개정했다.그동안 의료 AI 개발에 필요한 데이터를 확보하는 과정에서 의료기관마다 가명처리 기준이 다르고 심의 절차와 서류가 복잡하다는 지적이 제기돼…",
+   "publishedAt": "2026-11-27T02:23:06.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "8dc4c6629f1bf635"
+  },
+  {
+   "id": "60eea652dc183a7a",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "드론이 스스로 이착륙·충전하며 순찰…경남서 AI 경찰 드론 실증",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217841",
+   "originalLanguage": "ko",
+   "originalDescription": "드론이 스스로 이착륙하고 충전하며 AI로 실종자와 위험 상황을 탐지하는 무인순찰 기술이 경남에서 실증됐다. 기존 경찰 인력과 순찰차, CCTV의 감시 사각지대를 보완하기 위한 것이다.경남도는 25일 진주시 와룡지구 친수생태공원에서 AI 기반 무인순찰 드론의 현장 실증을 진행했다고 밝혔다. 올해 처음 추진한 '공공수요 기반 AI 드론 실증지원' 사업의 일환이다.진주 소재 드론 기업 엔스퀘어는 경남경찰청의 현장 수요를 반영해 무인순찰 시스템을 개발했다. 드론스테이션을 거점으로 드론이 순찰 임무를…",
+   "publishedAt": "2026-11-27T02:22:01.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "fd00d2097406a0e0"
+  },
+  {
+   "id": "4a408db7efb53435",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "전남대·마틸로에이아이, AI로 신약·화장품 독성 예측…동물실험 대체 기술 개발",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217844",
+   "originalLanguage": "ko",
+   "originalDescription": "전남대학교와 AI 기업 마틸로에이아이가 공동 개발한 독성 예측 플랫폼이 범정부 공공데이터·AI 활용 창업경진대회에서 대통령상을 받았다. 신약과 화장품 등에 사용되는 원료물질의 독성을 AI로 사전에 예측해 기존 동물실험을 대체하거나 보완하기 위해 개발한 기술이다.행정안전부는 26일 전남대 유선용 교수와 마틸로에이아이가 참여한 'AI NAMs 연구팀'이 전날 경기 고양시 킨텍스에서 열린 제14회 범정부 공공데이터·AI 활용 창업경진대회 왕중왕전에서 제품·서비스 개발 부문 대상을 받았다고 밝혔다…",
+   "publishedAt": "2026-11-27T02:20:00.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "848669829b5012e4"
+  },
+  {
+   "id": "2f6611cae65e5c91",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "[기고]AI가 탐낸 것은 정답이 아니라 경험이었다",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217842",
+   "originalLanguage": "ko",
+   "originalDescription": "최근 한 일간지 보도에 따르면 구글이 한국폴리텍대학에 교재 판권을 살 수 있는지 문의했다고 한다.AI 학습 자료를 찾다가 숙련 기술자가 몸으로 익힌 노하우를 담은 교본에 눈길이 간 것이다.그 교본에는 기계가 보내는 작은 이상 신호를 읽어 내고 뜻밖의 고장을 수습하는 요령이 담겨 있다. AI 업계는 학생들이 장비를 다루다 겪는 실수와 오작동, 이른바 '실패 데이터'도 눈여겨본다. AI 기업이 귀하게 여긴 것은 정답보다 사람이 겪고, 틀리고, 다시 해 본 경험이었다.비슷한 시기, 수능 날에는 숨겨…",
+   "publishedAt": "2026-11-27T02:11:28.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "1ccd6eb9acd12fad"
+  },
+  {
+   "id": "5ecd05c4406c6f7a",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "陶哲轩下场验证黎曼猜想！“AI批量吐证明就像发电厂排核废料”",
+   "originalUrl": "https://www.qbitai.com/2026/11/513075.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "担心课题被AI抢先，该怎么办？",
+   "publishedAt": "2026-11-27T02:03:10.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "fe85980c26bb31b4"
+  },
+  {
+   "id": "0a9dd711b906decd",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "全新如意玲珑Linyaps Agents V3：自调试、自修复、构建负责到底！",
+   "originalUrl": "https://www.oschina.net/news/503841",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "linyaps-agents （如意玲珑打包 Agents）是一组把 Linux 软件包迁移到玲珑格式的 Agents，三段组成一条流水线： linyaps-app-packaging-script-generator：把 deb、AppImage、tar 转成玲珑构建工程； debian-rules-to-linyaps-rules：把 Debian 源码构建规则翻译成玲珑规则； linyaps-packaging-scripts-running-skill：...",
+   "publishedAt": "2026-11-27T01:53:04.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "7951a9a490fed9fc"
+  },
+  {
+   "id": "655bf3e0dca551f9",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "novel-plus v6.5.0 发布，原创小说系统",
+   "originalUrl": "https://www.oschina.net/news/503840",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "本次版本重点围绕作家后台和移动端阅读体验进行优化，同时修复了若干已知问题。 📖 安装教程 - 点击查看 ✨ 新功能 作家后台新增作品评论 / 段评管理，支持查看和回复读者评论。 书评、段评及消息中的作者回复支持展示作者笔名、作者头像和「作者」标识。 移动端个人中心新增「充值记录」和「订阅明细」。 移动端阅读页...",
+   "publishedAt": "2026-11-27T01:40:14.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "9df40944de8ccd6a"
+  },
+  {
+   "id": "f314cf532cf3d864",
+   "sourceId": "qbitai",
+   "sourceName": "量子位",
+   "originalTitle": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+   "originalUrl": "https://www.qbitai.com/2026/11/513053.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "Quickwit查询总耗时降31%，最高降87%",
+   "publishedAt": "2026-11-27T01:16:10.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "4ed9d79d5719dc7d"
+  },
+  {
+   "id": "3e923541f8e2dede",
+   "sourceId": "ruanyifeng-blog",
+   "sourceName": "阮一峰的网络日志",
+   "originalTitle": "科技爱好者周刊（第 421 期）：AI 的疯狂造富",
+   "originalUrl": "http://www.ruanyifeng.com/blog/2026/11/weekly-issue-421.html",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "这里记录每周值得分享的科技内容，周五发布。...",
+   "publishedAt": "2026-11-27T00:10:30.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "developer-tools",
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "18481a0b007408d6"
+  },
+  {
+   "id": "a04b9c92c180a058",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "[AI리더의 서가] 토큰을 지배하는 기업이 시장을 지배한다",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217624",
+   "originalLanguage": "ko",
+   "originalDescription": "토큰을 지배하는 기업이 시장을 지배한다가회광 | 씽크스마트2026년 9월 30일추천이유저자는 AI 비용을 줄이는 것이 아니라 토큰 생산성을 높이는 것이 핵심이라고 강조하며, 기업이 AI를 경영하기 위해 필요한 구체적인 관리 시스템을 제시합니다. 경영자가 토큰을 매출과 비용처럼 읽고 관리하여 AI를 진정한 경쟁력으로 전환할 수 있도록 돕습니다.상세보기 영풍문고 쇼핑몰 검색창에 'AI 비용', 'AI ROI'처럼 도입 이후를 묻는 검색어가 함께 보이기 시작했다. AI를 쓸지 말지 고민하던…",
+   "publishedAt": "2026-11-27T00:00:00.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "90bbd4ee4d21cffd"
+  },
+  {
+   "id": "5200cb12f378bbf7",
+   "sourceId": "oschina-news",
+   "sourceName": "开源中国 资讯",
+   "originalTitle": "🔥 Jync v2.4.7 · 目标标识符大小写、达梦原生自增与实时同步加固",
+   "originalUrl": "https://www.oschina.net/news/503837",
+   "originalLanguage": "zh-CN",
+   "originalDescription": "本版概要 v2.4.7 增加 Oracle 系目标的「保持源端标识符大小写」开关与达梦 8 原生 AUTO_INCREMENT，完善一源多目标（fan-out）的分发可用性，并集中修复日志 CDC 与轮询中会导致静默丢数据或反复重跑全量的边界。建议所有 2.4.x 用户升级。 新增 项目级「目标表名/字段名保持源端大小写」，仅 Oracle 系目标（Oracle / ...",
+   "publishedAt": "2026-11-26T23:24:05.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "developer-tools"
+   ],
+   "imageUrl": null,
+   "contentHash": "e4d9e6266e478715"
+  },
+  {
+   "id": "3063f177323d0010",
+   "sourceId": "latent-space",
+   "sourceName": "Latent Space",
+   "originalTitle": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+   "originalUrl": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+   "originalLanguage": "en",
+   "originalDescription": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
+   "publishedAt": "2026-11-26T23:02:48.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": "https://i.ytimg.com/vi/qjPcaZf_plo/maxresdefault.jpg",
+   "contentHash": "07ec83d586af8b75"
+  },
+  {
+   "id": "dca0c099832e3bb7",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "미 정보당국 \"중국, 젠슨 황 사건 배후 조종 증거 없어\"…간첩 의혹 판단은 엇갈려",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217839",
+   "originalLanguage": "ko",
+   "originalDescription": "미국 정보당국이 젠슨 황 엔비디아 CEO의 혼외 관계를 중국 정보기관이 배후에서 조종했다는 증거를 확보하지 못했다고 의회에 보고했다. 그러나 상대 여성인 앨리스 황의 중국 정보기관 연계 의혹을 놓고는 미국 정보당국자들의 판단이 엇갈리는 것으로 알려졌다.월스트리트저널(WSJ)은 25일(현지시간) 소식통을 인용, 미국 정보당국이 지난 24일 상·하원 정보위원회 관계자들을 대상으로 비밀 브리핑을 진행했다고 보도했다. 젠슨 황이 CEO로 복귀한 지 하루만으로, CIA와 FBI…",
+   "publishedAt": "2026-11-26T23:01:21.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "51143a88df6c87f3"
+  },
+  {
+   "id": "955cdbc201efb253",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "[11월26일] 앤트로픽이 던진 역설…AI 기술 발전에 깊어지는 투자자들의 고민",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217803",
+   "originalLanguage": "ko",
+   "originalDescription": "앤트로픽이 기업공개(IPO) 과정에서 강조한 기술 경쟁력이 역설적으로 AI 인프라 투자자들의 불안 요인으로 떠올랐습니다. AI 개발과 서비스에 필요한 컴퓨팅 자원을 절감하는 기술이 빠르게 발전하면서, 지금 추진 중인 천문학적인 인프라 투자가 과연 적정한 규모인지에 대한 의문이 커지고 있습니다.비즈니스 인사이더는 25일(현지시간) 앤트로픽이 IPO 과정에서 강조한 '컴퓨팅 승수(Compute Multiplier)'라는 개념에 주목했습니다. 이로 인해 일부 투자자들이 AI 인프라 투자 전망을…",
+   "publishedAt": "2026-11-26T22:00:00.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "3cb6551a15aa367b"
+  },
+  {
+   "id": "d0e7bf4ab248d561",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "Z.ai 'GLM-5.5' 출시 지연…문샷 AI도 개발 주기 두배 전망",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217838",
+   "originalLanguage": "ko",
+   "originalDescription": "미국의 첨단 AI 반도체 수출 규제와 증류 차단으로 중국 대표 AI 개발사들의 모델 개발에 차질이 발생하고 있다. Z.ai의 차세대 모델 'GLM-5.5' 출시가 내년으로 밀릴 가능성이 커졌으며, 문샷 AI는 주요 모델 출시 주기가 기존의 두배 이상으로 늘어날 수 있다는 내부 전망을 내놓은 것으로 알려졌다.로이터는 26일(현지시간) 소식통을 인용, 오픈AI와 앤트로픽의 증류 방지 기술 강화로 중국 AI 기업들의 모델 개발이 늦어지고 있으며, 미국 정부의 새로운 반도체 수출 규제로 추가 지연이…",
+   "publishedAt": "2026-11-26T21:20:35.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "689cee375aa4fd17"
+  },
+  {
+   "id": "e67a2db7b63da849",
+   "sourceId": "aitimes-kr",
+   "sourceName": "AI타임스",
+   "originalTitle": "엔비디아, 동남아 4개국 AI 서버 출하 중단…중국 우회 접근 차단",
+   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217837",
+   "originalLanguage": "ko",
+   "originalDescription": "엔비디아가 미국의 AI 반도체 수출 규제 강화에 따라 동남아시아 4개국으로의 AI 서버 출하를 중단했다. 중국 기업에 컴퓨팅 자원을 임대하는 클라우드 업체에 대한 GPU 공급도 제한하기 시작해, 중국의 AI 모델 개발과 동남아시아 데이터센터 산업에 타격이 예상된다.파이낸셜타임스(FT)는 26일(현지시간) 정통한 소식통 3명을 인용, 엔비디아가 델과 슈퍼마이크로컴퓨터 등 제조 협력업체에 말레이시아와 싱가포르, 태국, 인도네시아로의 AI 서버 출하를 중단하도록 지시했다고 보도했다.이는 미국 상무부…",
+   "publishedAt": "2026-11-26T20:55:39.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai"
+   ],
+   "imageUrl": null,
+   "contentHash": "3fada9f5b74e15c8"
+  },
+  {
+   "id": "979e22972f743c14",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "originalTitle": "Nvidia hits pause on chip shipments to Southeast Asia",
+   "originalUrl": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+   "originalLanguage": "en",
+   "originalDescription": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+   "publishedAt": "2026-11-26T20:03:54.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "ai",
+    "mobile-hardware"
+   ],
+   "imageUrl": null,
+   "contentHash": "a67cc0df2f2145c0"
+  },
+  {
+   "id": "0b75246ced860331",
+   "sourceId": "the-hacker-news",
+   "sourceName": "The Hacker News",
+   "originalTitle": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+   "originalUrl": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+   "originalLanguage": "en",
+   "originalDescription": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software…",
+   "publishedAt": "2026-11-26T19:39:57.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "cybersecurity",
+    "ai"
+   ],
+   "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlwb4cL2xbF38yynT-hp8rHaGntsYzuQwL4-68g3SxEW4Taw6_Kl4WFfL4CuNRNXGxO_KS9prZaqk0A6SA6fib3k8j9miTymP8PzABv9OA21eSDsRv1j9NEgbIEVMR7u1C7VmFyFxdBf0Zcj2sckIyHDkRSjm76oFMDd10drUHa1ctv6190vdYHhuVuRPk/s1600/thday.jpg",
+   "contentHash": "9420adfa6f9b92d3"
+  },
   {
    "id": "ade261a79d2d41ac",
    "sourceId": "the-decoder",
@@ -49,6 +453,22 @@
    ],
    "imageUrl": null,
    "contentHash": "afc765226fd2ec9b"
+  },
+  {
+   "id": "4dfca2852e3109a6",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon RDS for PostgreSQL supports minor versions 18.7, 17.12, 16.16, 15.20, and 14.25",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-postgresql-18-7-17-12-16-16-15-20-14-25/",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.7, 17.12, 16.16, 15.20, and 14.25. We recommend that you upgrade to the latest minor versions to address Common Vulnerabilities and Exposures (CVEs) in prior versions of…",
+   "publishedAt": "2026-11-26T17:00:00.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "f595423d5724551d"
   },
   {
    "id": "b81da0547893b262",
@@ -6057,6 +6477,22 @@
    ],
    "imageUrl": null,
    "contentHash": "7b202114d837a0b6"
+  },
+  {
+   "id": "78b8e42ab6c04fd6",
+   "sourceId": "aws-whats-new",
+   "sourceName": "AWS What's New",
+   "originalTitle": "Amazon OpenSearch Service new engine now joins logs, traces, and metadata",
+   "originalUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-distributed-joins",
+   "originalLanguage": "en",
+   "originalDescription": "Amazon OpenSearch Service now supports distributed joins, high-cardinality aggregations, and OpenSearch query DSL on the new engine. Observability data often spans logs, traces, service metadata, deployment records, and tenant data. Engineers and their AI agents must connect…",
+   "publishedAt": "2026-11-24T17:00:00.000Z",
+   "discoveredAt": "2026-11-27T02:53:10.169Z",
+   "topics": [
+    "cloud-infrastructure"
+   ],
+   "imageUrl": null,
+   "contentHash": "4bda21a9809021db"
   },
   {
    "id": "9553a4a79faab713",
@@ -24300,455 +24736,6 @@
    ],
    "imageUrl": null,
    "contentHash": "3865910f59dbb2fd"
-  },
-  {
-   "id": "9cb2ba8aeb42654b",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "A Wolf in Sheep's Pixels: Visual Camouflage Attacks via HDR Gain Maps",
-   "originalUrl": "https://arxiv.org/abs/2611.25469v1",
-   "originalLanguage": "en",
-   "originalDescription": "An image can pass automated safety checks while showing harmful content to its human viewer. We introduce DRJanus, a visual camouflage attack that exploits the gap between standard dynamic range (SDR) processing and high dynamic range (HDR) display. Automated systems often read…",
-   "publishedAt": "2026-11-19T03:55:38.000Z",
-   "discoveredAt": "2026-11-20T03:22:44.999Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "309d221b04f815ab"
-  },
-  {
-   "id": "89a0420152af45cd",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "광주비엔날레 AI 해설에 질문 20만건…해외 미술관은 어떻게 활용하나",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217552",
-   "originalLanguage": "ko",
-   "originalDescription": "광주비엔날레에서 AI 작품해설 서비스에 20만건이 넘는 질문이 접수됐다. 싱가포르와 미국, 영국의 주요 미술관들도 AI를 활용한 대화형 작품해설 서비스를 도입하거나 시험하고 있으며, 관람객의 관심사에 맞춘 설명부터 자체 AI 모델 운영, 해설 내용의 정확성 확보까지 다양한 방식을 시도하고 있다.광주비엔날레재단이 17일 공개한 폐막 실적에 따르면, 지난 9월5일부터 11월15일까지 72일간 열린 제16회 광주비엔날레에는 총 44만6753명이 방문했다. 이 기간 AI 작품해설 서비스 '도슨트Q'의…",
-   "publishedAt": "2026-11-19T03:52:23.000Z",
-   "discoveredAt": "2026-11-19T13:17:10.096Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "c9aa4032eb23c2d6"
-  },
-  {
-   "id": "bd25fa3f86ca0309",
-   "sourceId": "oschina-news",
-   "sourceName": "开源中国 资讯",
-   "originalTitle": "CyreneAdmin 1.6.0 发布：启动自动建表、RBAC 授权边界收敛与标签页右键最大化",
-   "originalUrl": "https://www.oschina.net/news/503659",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "CyreneAdmin 是一款面向企业级应用的后台管理系统脚手架，同时支持 Spring Boot 与 Solon 双框架，内置权限控制、用户管理、菜单配置、操作日志等核心模块，助力开发者快速构建安全、可维护的管理后台。最新版本 v1.6.0 已正式发布，主要更新内容如下： Bug Fixes 通过依赖管理锁定 Spring Boot 与 Spring Framework 版本...",
-   "publishedAt": "2026-11-19T03:51:05.000Z",
-   "discoveredAt": "2026-11-19T13:17:10.096Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "6d7c8a895fdf9d24"
-  },
-  {
-   "id": "4dac3fa3d2ff39a4",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Dimension-Free Buffer Bounds for Compressed-Momentum Error Feedback",
-   "originalUrl": "https://arxiv.org/abs/2611.25463v1",
-   "originalLanguage": "en",
-   "originalDescription": "Analyses of error feedback bound the memory buffer through a compressor contraction constant -- $r/p$ for the best rank-$r$ approximation of a $p$-dimensional spectrum -- which survives into the rate. We show it need not appear at all. When the compressed momentum is…",
-   "publishedAt": "2026-11-19T03:48:47.000Z",
-   "discoveredAt": "2026-11-20T03:22:44.999Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "f9cc86a5461ae411"
-  },
-  {
-   "id": "8708df07b4eafdbc",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Demonstration-Free Skill Composition for Navigation and Manipulation",
-   "originalUrl": "https://arxiv.org/abs/2611.25462v1",
-   "originalLanguage": "en",
-   "originalDescription": "Hierarchical reinforcement learning enables sequential tasks to be represented as compositions of separately trained skills. This paper evaluates demonstration-free hierarchical pipelines for MiniGrid navigation and robotic manipulation, comparing their training requirements…",
-   "publishedAt": "2026-11-19T03:47:02.000Z",
-   "discoveredAt": "2026-11-20T03:22:44.999Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "d45db4e929f0da88"
-  },
-  {
-   "id": "da316158759cce8d",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "ActMem: From Latent Memory Reasoning to Grounded Robotic Action",
-   "originalUrl": "https://arxiv.org/abs/2611.25461v1",
-   "originalLanguage": "en",
-   "originalDescription": "Vision-Language-Action (VLA) models have shown promising results in real-world long-horizon manipulation, where memory plays a crucial role. However, existing memory-augmented VLAs either retrieve past observations without reasoning about what they imply, or reason over the…",
-   "publishedAt": "2026-11-19T03:46:39.000Z",
-   "discoveredAt": "2026-11-20T03:22:44.999Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "3bfa7dbb367d3618"
-  },
-  {
-   "id": "242c4f0f7f988a45",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "LoongForge-Embodied: A Unified Framework for Training Heterogeneous Embodied Models",
-   "originalUrl": "https://arxiv.org/abs/2611.25460v1",
-   "originalLanguage": "en",
-   "originalDescription": "Training Vision-Language-Action (VLA) models and World-Action Models (WAMs) is computationally expensive, while their heterogeneous architectures and fragmented training stacks make system optimizations difficult to reuse across models. To address these challenges, we present…",
-   "publishedAt": "2026-11-19T03:45:44.000Z",
-   "discoveredAt": "2026-11-20T03:22:44.999Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "959910a3c9046204"
-  },
-  {
-   "id": "e8310bd2d9a5088e",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Nuko",
-   "originalUrl": "https://www.producthunt.com/products/nuko",
-   "originalLanguage": "en",
-   "originalDescription": "Motion design in your browser Discussion | Link",
-   "publishedAt": "2026-11-19T03:34:35.000Z",
-   "discoveredAt": "2026-11-19T13:17:10.096Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "89465c6f0e86ddcf"
-  },
-  {
-   "id": "55fe9abebb35230d",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "FamilySpace: From Emergent Chemical Semantics to Controllable Crystal Generation",
-   "originalUrl": "https://arxiv.org/abs/2611.25452v1",
-   "originalLanguage": "en",
-   "originalDescription": "Latent crystal generative models typically combine a variational autoencoder (VAE) for learning atom-wise representations with a flow model that transports a simple source distribution to the learned latent distribution. However, previous studies have mainly focused on the…",
-   "publishedAt": "2026-11-19T03:32:41.000Z",
-   "discoveredAt": "2026-11-20T03:22:44.999Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "c23cb1f2b6d6c7e7"
-  },
-  {
-   "id": "48b73f449b1e8977",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Inverse ECG Reconstruction via a Preconditioned Variational Quantum Linear Solver",
-   "originalUrl": "https://arxiv.org/abs/2611.25450v1",
-   "originalLanguage": "en",
-   "originalDescription": "Inverse electrocardiography (ECG) reconstructs heart-surface potentials from body-surface measurements, enabling noninvasive mapping of cardiac electrical activity. However, the reconstruction requires solving dense and ill-conditioned linear systems, whose computational cost…",
-   "publishedAt": "2026-11-19T03:30:07.000Z",
-   "discoveredAt": "2026-11-20T03:22:44.999Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "dea493eb1ecce0bd"
-  },
-  {
-   "id": "899d6ed8c529180f",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "앤트로픽, 공모가 83달러 확정…기업가치 1.5조달러로 역대 최대 IPO",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217560",
-   "originalLanguage": "ko",
-   "originalDescription": "앤트로픽이 기업공개(IPO) 공모가를 희망 범위보다 높은 주당 83달러로 확정하며 약 1조5000억달러(약 1997조원)의 기업가치를 인정받았다. 기관투자자들의 폭발적인 수요에 힘입어 공모 규모도 당초 계획보다 확대됐다. 최첨단 AI 모델 개발사 가운데 첫 상장이자 역대 최대 규모의 IPO다.앤트로픽은 18일(현지시간) IPO 공모가를 주당 83달러로 확정했다고 발표했다. 앞서 지난 10일 제시한 희망 공모가 범위인 70~78달러를 웃도는 수준이다. 기관투자자들의 청약 수요는 공모 물량의 약…",
-   "publishedAt": "2026-11-19T03:19:30.000Z",
-   "discoveredAt": "2026-11-19T03:33:36.261Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "06512776682b217b"
-  },
-  {
-   "id": "35612c0049197bb2",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Raptor: Rejection-aware Adaptive Tree based on Speculative Decoding",
-   "originalUrl": "https://arxiv.org/abs/2611.25436v1",
-   "originalLanguage": "en",
-   "originalDescription": "Tree-structured speculative decoding accelerates vision-language models (VLMs) by verifying multiple candidate continuations in parallel. However, long visual contexts increase the cost of speculative computation, making candidate coverage and redundant expansion important…",
-   "publishedAt": "2026-11-19T03:17:52.000Z",
-   "discoveredAt": "2026-11-20T03:22:44.999Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "28bdc2973c0e0fd6"
-  },
-  {
-   "id": "ce5ca93b2ee303c2",
-   "sourceId": "arxiv-cs-cr",
-   "sourceName": "arXiv cs.CR",
-   "originalTitle": "VisualJevBench: A Benchmark and Black-Box Attacks for Visual Typed Decision Models",
-   "originalUrl": "https://arxiv.org/abs/2611.25435v1",
-   "originalLanguage": "en",
-   "originalDescription": "Typed decision models (TDMs) return structured decisions instead of generating free-text responses, enabling fast and cheap decisions in real-world applications. Recent support for image inputs extends Jev, a representative TDM, to visual decision-making. We refer to this…",
-   "publishedAt": "2026-11-19T03:16:43.000Z",
-   "discoveredAt": "2026-11-20T03:22:44.999Z",
-   "topics": [
-    "research-papers",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "4b703b9a5f5730af"
-  },
-  {
-   "id": "c76b681648c22005",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "래블업, 상장 후 첫 성적표…3분기 누적 매출 48% ↑",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217558",
-   "originalLanguage": "ko",
-   "originalDescription": "AI 인프라 솔루션 전문 래블업(대표 신정규)이 코스닥 상장 후 첫 분기 실적에서 매출 성장세를 이어 갔다.19일 래블업과 분기보고서에 따르면, 래블업의 올해 3분기 누적 연결 매출은 69억9000만원으로 전년 동기대비 48.2% 늘었다. 누적 영업이익은 9억원으로 36.5% 증가했다. 3분기 매출은 22억4000만원으로 전년 동기비 30.8% 늘었지만 영업이익은 3억4000만원으로 약 59% 줄었다.1~9월 영구 라이선스 매출은 24억8100만원으로 전년 동기(2억원)의 12배로 늘었다…",
-   "publishedAt": "2026-11-19T03:12:45.000Z",
-   "discoveredAt": "2026-11-19T03:33:36.261Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "414bf418c7d54404"
-  },
-  {
-   "id": "d656548b9ea8ced3",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Interference Bounds and Merge-Aware Training Dynamics for Composable Fine-Tuned Models",
-   "originalUrl": "https://arxiv.org/abs/2611.25430v1",
-   "originalLanguage": "en",
-   "originalDescription": "Combining fine-tuned models by composing their parameter updates has become a standard alternative to multi-task training. We formalize composability as a property of a collection of task vectors and prove that the excess loss of the merged model is controlled by an…",
-   "publishedAt": "2026-11-19T03:12:07.000Z",
-   "discoveredAt": "2026-11-20T03:22:44.999Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "ba697285e5766505"
-  },
-  {
-   "id": "fa9323f9f84a6cf8",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Evolve Where It Matters: Coverage-Guided Self-Evolution of Agent Skills",
-   "originalUrl": "https://arxiv.org/abs/2611.25429v1",
-   "originalLanguage": "en",
-   "originalDescription": "Agent skills package procedural knowledge as natural-language instructions, and a skill helps only when its instructions are correct and properly followed by the agent. Self-evolving agents revise their own skills from the runs they make, but existing methods judge each run as…",
-   "publishedAt": "2026-11-19T03:11:24.000Z",
-   "discoveredAt": "2026-11-20T03:22:44.999Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "9ee3d4faf4040af9"
-  },
-  {
-   "id": "ebc97f8a221c8cb6",
-   "sourceId": "aitimes-kr",
-   "sourceName": "AI타임스",
-   "originalTitle": "구글 '지니 4' 일반에 제공…대화로 가상세계 만드는 AI 에이전트 도입",
-   "originalUrl": "https://www.aitimes.com/news/articleView.html?idxno=217556",
-   "originalLanguage": "ko",
-   "originalDescription": "구글이 실시간으로 생성한 가상세계를 탐험하고 자유롭게 수정할 수 있는 AI 모델 '지니 4(Genie 4)'를 일반 구독자에게 제공하기 시작했다. 자연어 명령만으로 날씨와 등장인물, 주변 환경을 바꾸고 장면에 어울리는 음향과 캐릭터 대화까지 생성할 수 있으며, 대화만으로 가상세계를 설계하는 AI 에이전트도 새롭게 선보였다.구글은 18일(현지시간) 사용자가 직접 가상세계를 생성하고 탐험하며 실시간으로 제어할 수 있는 실험적 연구 프로토타입 '프로젝트 지니(Project Genie)'의 대규모…",
-   "publishedAt": "2026-11-19T03:10:29.000Z",
-   "discoveredAt": "2026-11-19T03:33:36.261Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "49433cbf7dc83613"
-  },
-  {
-   "id": "b9f6d98f2baa2b1d",
-   "sourceId": "oschina-news",
-   "sourceName": "开源中国 资讯",
-   "originalTitle": "Apache SeaTunnel 3.1.0 发布：让生产任务更稳，也让部署更灵活",
-   "originalUrl": "https://www.oschina.net/news/503658",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "从 3.0.0 到 3.1.0，SeaTunnel 社区围绕一个很实际的问题继续推进：数据集成任务怎样更容易部署、更方便运维，同时尽量不丢数据、不悄悄改错数据？官方发布说明汇总了 395 个 PR 和 11 个新连接器。本次版本的主线并非单纯扩充连接器清单，而是加强 Zeta 引擎稳定性、Connector-V2 数据正确性，并补齐生产部署与排障能力...",
-   "publishedAt": "2026-11-19T03:08:17.000Z",
-   "discoveredAt": "2026-11-19T03:33:36.261Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "6a5300bd7efcb269"
-  },
-  {
-   "id": "aa57a386972aafe8",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "ToolJet",
-   "originalUrl": "https://www.producthunt.com/products/tooljet",
-   "originalLanguage": "en",
-   "originalDescription": "Vibe-coded business apps that pass the security review Discussion | Link",
-   "publishedAt": "2026-11-19T03:07:11.000Z",
-   "discoveredAt": "2026-11-19T13:17:10.096Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "599d49723db1dca9"
-  },
-  {
-   "id": "9dd78e9438be705c",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Instance-Optimal Moment Estimation in the Add-Remove Model of Differential Privacy",
-   "originalUrl": "https://arxiv.org/abs/2611.25425v1",
-   "originalLanguage": "en",
-   "originalDescription": "In this paper, we study the problem of estimating empirical means, variances, and covariances under pure differential privacy in the add-remove model. While existing mechanisms achieve optimal worst-case error, they may not be optimal for individual datasets. To measure the…",
-   "publishedAt": "2026-11-19T03:06:27.000Z",
-   "discoveredAt": "2026-11-20T03:22:44.999Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "9bd0a326964e4e0d"
-  },
-  {
-   "id": "0acce46b9cbed8f4",
-   "sourceId": "product-hunt",
-   "sourceName": "Product Hunt",
-   "originalTitle": "Tecla",
-   "originalUrl": "https://www.producthunt.com/products/tecla-3",
-   "originalLanguage": "en",
-   "originalDescription": "A proactive AI agent whose interface is a TODO list Discussion | Link",
-   "publishedAt": "2026-11-19T03:05:34.000Z",
-   "discoveredAt": "2026-11-19T13:17:10.096Z",
-   "topics": [
-    "startups-products"
-   ],
-   "imageUrl": null,
-   "contentHash": "2f1319dac8108814"
-  },
-  {
-   "id": "0c2ae0cdab6fe618",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "Coordinate Basis Linear Bandits with Sublinear Regret over Low-Rank Clusters",
-   "originalUrl": "https://arxiv.org/abs/2611.25424v1",
-   "originalLanguage": "en",
-   "originalDescription": "We study the problem of computational efficiency for linear bandits in high-dimensional settings with a finite arm set. In linear bandits, the increase in the dimension $d$ of the feature vectors leads to growing computational costs of $O(d^2)$ at each round of update…",
-   "publishedAt": "2026-11-19T03:03:52.000Z",
-   "discoveredAt": "2026-11-20T03:22:44.999Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "d9955b4f0746eb10"
-  },
-  {
-   "id": "3af8aa45c8c03786",
-   "sourceId": "arxiv-cs-lg",
-   "sourceName": "arXiv cs.LG",
-   "originalTitle": "From Sequence Uncertainty to Phenotype Hypotheses: Uncertainty-Conditioned Inference over Biomedical Knowledge Graphs",
-   "originalUrl": "https://arxiv.org/abs/2611.25422v1",
-   "originalLanguage": "en",
-   "originalDescription": "Genomic foundation models provide variant-level evidence, but connecting that evidence to phenotype hypotheses requires accounting for uncertainty throughout structured reasoning. We introduce an uncertainty-conditioned path-energy framework that converts sequence predictions…",
-   "publishedAt": "2026-11-19T03:02:19.000Z",
-   "discoveredAt": "2026-11-20T03:22:44.999Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "ca38a13f17512098"
-  },
-  {
-   "id": "4e8e62a0bf22e426",
-   "sourceId": "qbitai",
-   "sourceName": "量子位",
-   "originalTitle": "范式下场做基模了！国产算力全链路训练，双模型同步亮相",
-   "originalUrl": "https://www.qbitai.com/2026/11/511071.html",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "语言模型单张3090卡即可运行",
-   "publishedAt": "2026-11-19T03:01:45.000Z",
-   "discoveredAt": "2026-11-19T13:17:10.096Z",
-   "topics": [
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "0c5dbad41c3c5d32"
-  },
-  {
-   "id": "52adb6751119d0dd",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "Bilateral Evidence Selection and Reasoning for Mammography Vision--Language Models",
-   "originalUrl": "https://arxiv.org/abs/2611.25418v1",
-   "originalLanguage": "en",
-   "originalDescription": "Medical vision--language models (VLMs) often need to identify small, subtle lesions within high-resolution images containing extensive normal anatomy and redundant visual information. Visual-token compression improves efficiency, but preserving salient regions alone can discard…",
-   "publishedAt": "2026-11-19T02:58:29.000Z",
-   "discoveredAt": "2026-11-20T03:22:44.999Z",
-   "topics": [
-    "research-papers",
-    "ai"
-   ],
-   "imageUrl": null,
-   "contentHash": "203c6c5cec830e76"
-  },
-  {
-   "id": "3cca4ac4da3da731",
-   "sourceId": "oschina-news",
-   "sourceName": "开源中国 资讯",
-   "originalTitle": "Manus 成为开源游戏引擎 Godot 白金赞助商",
-   "originalUrl": "https://www.oschina.net/news/503657/manus-sponsorship-partners-godot-engine",
-   "originalLanguage": "zh-CN",
-   "originalDescription": "Godot 基金会宣布 Manus 成为其白金赞助商。根据其官网的公开信息，白金级赞助商的门槛是每年至少 5 万欧元。 一家做通用 AI agent 的公司，掏钱赞助了一个开源游戏引擎。这个组合本身挺有意思——Manus 的产品定位是「让不懂代码的人也能做出游戏」，而 Godot 恰好是那些人心里的下一站。 Manus 联合创始人兼首席产品官...",
-   "publishedAt": "2026-11-19T02:58:16.000Z",
-   "discoveredAt": "2026-11-19T03:33:36.261Z",
-   "topics": [
-    "developer-tools"
-   ],
-   "imageUrl": null,
-   "contentHash": "ee680c294223d424"
-  },
-  {
-   "id": "010fe8ed7e715163",
-   "sourceId": "arxiv-cs-ai",
-   "sourceName": "arXiv cs.AI",
-   "originalTitle": "ChainAgent: Automated Chainable Vulnerability Discovery in PHP Web Applications",
-   "originalUrl": "https://arxiv.org/abs/2611.25412v1",
-   "originalLanguage": "en",
-   "originalDescription": "High-impact attacks on PHP web applications often chain limited-capability vulnerabilities with other flaws or intended behaviors. Discovering these chains requires identifying flaws and the dependencies enabling capability composition. Existing vulnerability discovery…",
-   "publishedAt": "2026-11-19T02:52:06.000Z",
-   "discoveredAt": "2026-11-20T03:22:44.999Z",
-   "topics": [
-    "research-papers",
-    "ai",
-    "cybersecurity"
-   ],
-   "imageUrl": null,
-   "contentHash": "98e2d9d8c041f628"
   }
  ]
 }

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "5200cb12f378bbf7",
+ "contentHash": "e4d9e6266e478715",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T02:58:47.745Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Jync v2.4.7 Released with Target Identifier Case Sensitivity, Dameng Native Auto-Increment, and Real-Time Synchronization Hardening",
+   "summary": "Jync v2.4.7 introduces a switch to preserve source identifier case for Oracle-based targets and adds Dameng 8 native AUTO_INCREMENT support. It improves fan-out distribution availability for one-source-to-multiple-targets scenarios and fixes boundary issues in log CDC and polling that could cause silent data loss or repeated full runs. All 2.4.x users are advised to upgrade.",
+   "impact": "This release could help users avoid silent data loss and repeated full runs by addressing critical boundary issues in log CDC and polling. Developers and database administrators managing fan-out architectures and Oracle or Dameng integrations may benefit from the improved availability and new configuration options.",
+   "keyPoints": [
+    "Added project-level switch to preserve source table and field name case for Oracle-based targets.",
+    "Added support for Dameng 8 native AUTO_INCREMENT.",
+    "Improved one-source-to-multiple-targets fan-out distribution availability.",
+    "Fixed boundary issues in log CDC and polling that caused silent data loss or repeated full runs."
+   ]
+  },
+  "km": {
+   "title": "Jync v2.4.7 ចេញផ្សាយជាមួយការកំណត់អត្តសញ្ញាណគោលដៅ និងមុខងារផ្សេងទៀត",
+   "summary": "កំណែ v2.4.7 បន្ថែមប៊ូតុងរក្សាទុកអក្សរតូចធំនៃឧបករណ៍កំណត់អត្តសញ្ញាណប្រភពសម្រាប់គោលដៅប្រភេទ Oracle និងគាំទ្រ Dameng 8 native AUTO_INCREMENT។ វា改善ភាពអាចរកបាននៃការចែកចាយពីប្រភពមួយទៅគោលដៅច្រើន ហើយបានជួសជុលបញ្ហាព្រំដែននៅក្នុង log CDC និង polling ដែលអាចបណ្តាលឱ្យបាត់បង់ទិន្នន័យដោយស្ងៀមស្ងាត់ ឬដំណើរការពេញលេញម្តងហើយម្តងទៀត។ អ្នកប្រើប្រាស់ 2.4.x ទាំងអស់ត្រូវបានណែនាំឱ្យអាប់ដេត។",
+   "impact": "ការអាប់ដេតនេះអាចជួយក្រុមអភិវឌ្ឍន៍ និងអ្នកគ្រប់គ្រងមូលដ្ឋានទិន្នន័យជៀសវាងការបាត់បង់ទិន្នន័យ និងបញ្ហាចម្លងទិន្នន័យដោយសារបញ្ហាព្រំដែននៅក្នុង log CDC និង polling។",
+   "keyPoints": [
+    "បានបន្ថែមប៊ូតុងរក្សាទុកអក្សរតូចធំនៃឈ្មោះតារាង និងហ្វ៊ីលសម្រាប់គោលដៅ Oracle ។",
+    "បានបន្ថែមការគាំទ្រ Dameng 8 native AUTO_INCREMENT ។",
+    "បានកែលម្អលទ្ធភាពចែកចាយពីប្រភពមួយទៅគោលដៅច្រើន។",
+    "បានជួសជុលបញ្ហាព្រំដែននៅក្នុង log CDC និង polling ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "🔥 Jync v2.4.7 · 目标标识符大小写、达梦原生自增与实时同步加固",
+   "summary": "版本 v2.4.7 增加了 Oracle 系目标的“保持源端标识符大小写”开关与达梦 8 原生 AUTO_INCREMENT，完善了一源多目标的fan-out分发可用性，并集中修复了日志 CDC 与轮询中会导致静默丢数据或反复重跑全量的边界。建议所有 2.4.x 用户升级。",
+   "impact": "该版本修复了日志 CDC 和轮询中的边界问题，可能有助于开发者和安全、运维团队避免静默丢数据或反复重跑全量带来的隐患，同时提升了一源多目标分发的可用性。",
+   "keyPoints": [
+    "新增项目级目标表名字段名保持源端大小写功能，仅限 Oracle 系目标。",
+    "新增达梦 8 原生 AUTO_INCREMENT 支持。",
+    "完善一源多目标的分发可用性。",
+    "集中修复日志 CDC 与轮询中的边界问题，防止静默丢数据或反复重跑全量。"
+   ]
+  },
+  "ko": {
+   "title": "🔥 Jync v2.4.7 · 타겟 식별자 대소문자, 다멍 네이티브 자동 증가 및 실시간 동기화 강화",
+   "summary": "v2.4.7 버전은 Oracle 계열 타겟을 위한 '소스단 식별자 대소문자 유지' 스위치와 다멍 8 네이티브 AUTO_INCREMENT를 추가했습니다. 소스 하나에 여러 타겟인 fan-out 배포 가용성을 개선하고, 로그 CDC 및 폴링에서 조용한 데이터 손실이나 전체 재실행을 유발할 수 있는 경계 이슈들을 집중적으로 수정했습니다. 모든 2.4.x 사용자에게 업그레이드가 권장됩니다.",
+   "impact": "이번 업데이트는 로그 CDC 및 폴링의 경계 이슈를 해결하여 데이터 손실이나 불필요한 반복 실행을 방지하는 데 도움을 줄 수 있으며, 데이터베이스 통합 및 배포 시 안정성을 높여줄 수 있습니다.",
+   "keyPoints": [
+    "Oracle 계열 타겟을 위한 프로젝트 수준의 타겟 테이블명 및 필드명 소스단 대소문자 유지 기능 추가",
+    "다멍 8 네이티브 AUTO_INCREMENT 지원 추가",
+    "일대다 fan-out 배포 가용성 개선",
+    "로그 CDC 및 폴링의 경계 이슈 수정"
+   ]
+  }
+ }
+}

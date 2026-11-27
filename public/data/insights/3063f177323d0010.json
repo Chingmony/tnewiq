@@ -1,0 +1,51 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3063f177323d0010",
+ "contentHash": "07ec83d586af8b75",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T02:58:58.119Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+   "summary": "In an interview with Latent Space, Clay Head of AI Jeff Barg discussed how the company builds go-to-market infrastructure and agents. Clay's usage is split evenly between its own agent and outside harnesses like Claude Code. Barg shared insights on scaling, team growth, pricing models, and the evolution of Clay's coding agent, Sculptor.",
+   "impact": "Developers and engineering teams building AI agents could find valuable insights regarding infrastructure choices, orchestration, and the timing of post-training investments. Security and technology users might want to monitor how agent integration evolves across go-to-market data layers.",
+   "keyPoints": [
+    "Clay usage is split close to 50/50 between its own agent and outside harnesses like Claude Code.",
+    "The team rebuilt Sculptor as a coding agent running the Clay CLI in a cloud sandbox with a new data layer called Audiences.",
+    "Jeff Barg notes that post-training usually makes sense only after inference spending reaches between $10 million and $100 million.",
+    "Checking Clay's 40 million company database against an ideal customer profile using a classifier would cost about $1,500."
+   ]
+  },
+  "km": {
+   "title": "របៀបដែល Clay សាងសង់ភ្នាក់ងារ GTM — លោក Jeff Barg ប្រធានផ្នែក AI",
+   "summary": "នៅក្នុងកិច្ចសម្ភាសន៍មួយជាមួយ Latent Space លោក Jeff Barg ប្រធានផ្នែក AI របស់ក្រុមហ៊ុន Clay បានពិភាក្សាអំពីរបៀបដែលក្រុមហ៊ុនសាងសង់ហេដ្ឋារចនាសម្ព័ន្ធទីផ្សារនិងភ្នាក់ងារ។ ការប្រើប្រាស់នៅលើ Clay គឺបែងចែកស្មើគ្នាជិត ៥០/៥០ រវាងភ្នាក់ងារផ្ទាល់របស់ខ្លួននិងប្រព័ន្ធខាងក្រៅ។ លោកបានចែករំលែកទស្សនៈលើការពង្រីកខ្នាត ការវិវត្តនៃក្រុមការងារ និងការវិវត្តនៃភ្នាក់ងារកូដ Sculptor។",
+   "impact": "ក្រុមអ្នកអភិវឌ្ឍន៍និងវិស្វកម្មដែលបង្កើតភ្នាក់ងារ AI អាចទទួលបានការយល់ដឹងមានប្រយោជន៍ទាក់ទងនឹងជម្រើសហេដ្ឋារចនាសម្ព័ន្ធ និងពេលវេលានៃការវិនិយោគលើការបណ្តុះបណ្តាលបន្ថែម។",
+   "keyPoints": [
+    "ការប្រើប្រាស់របស់ Clay គឺបែងចែកជិត ៥០/៥០ រវាងភ្នាក់ងារផ្ទាល់និងប្រព័ន្ធខាងក្រៅ។",
+    "ក្រុមការងារបានបង្កើត Sculptor ឡើងវិញជាភ្នាក់ងារកូដដែលដំណើរការ Clay CLI ក្នុងប្រអប់ខ្សាច់លើពពក។",
+    "លោក Jeff Barg បានកត់សម្គាល់ថា ការបណ្តុះបណ្តាលបន្ថែមច្រើនតែមានន័យលុះត្រាតែលក្ខណៈវិនិច្ឆ័យនៃការចំណាយលើការអនុវត្តឈានដល់កម្រិតជាក់លាក់ណាមួយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Clay 如何构建 GTM 代理 — 杰夫·巴尔格 (Jeff Barg)，AI 负责人",
+   "summary": "在接受 Latent Space 采访时，Clay 的 AI 负责人杰夫·巴尔格讨论了该公司如何构建可供任何代理使用的市场进入基础设施。目前，Clay 自身代理与外部工具的使用率接近 50/50。巴尔格分享了关于业务增长、团队扩张以及编码代理 Sculptor 演变的见解。",
+   "impact": "构建 AI 代理的开发人员和工程团队可以从中获得有关基础设施选择、编排以及后训练投资时机的宝贵见解。技术用户和安全团队可以关注代理在市场数据层中的集成演变。",
+   "keyPoints": [
+    "Clay 自身代理与外部工具（如 Claude Code）的使用率接近 50/50。",
+    "Clay 在云沙箱中将 Sculptor 重建为运行 Clay CLI 的编码代理。",
+    "杰夫·巴尔格指出，只有在推理支出达到 1000 万至 1 亿美元之间时，后训练才更具成本效益。"
+   ]
+  },
+  "ko": {
+   "title": "Clay가 GTM 에이전트를 구축하는 방법 — jeff barg, AI 책임자",
+   "summary": "Latent Space와의 인터뷰에서 Clay의 AI 책임자인 jeff barg는 회사가 시장 진출 인프라를 구축하는 방법에 대해 논의했습니다. Clay의 사용량은 자체 에이전트와 외부 하네스 간에 거의 50/50으로 나뉩니다. 그는 확장, 팀 성장에 대한 통찰력과 코딩 에이전트 Sculptor의 진화 과정을 공유했습니다.",
+   "impact": "AI 에이전트를 구축하는 개발자와 엔지니어링 팀은 인프라 선택, 오케스트레이션 및 사후 훈련 투자 시기와 관련된 유용한 통찰력을 얻을 수 있습니다.",
+   "keyPoints": [
+    "Clay 사용량은 자체 에이전트와 외부 하네스 간에 거의 50/50으로 나뉩니다.",
+    "팀은 클라우드 샌드박스에서 Clay CLI를 실행하는 코딩 에이전트로 Sculptor를 다시 구축했습니다.",
+    "jeff barg는 추론 지출이 1,000만 달러에서 1억 달러 사이에 도달한 후에야 사후 훈련이 타당해진다고 언급했습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e268e7a61682d7eb",
+ "contentHash": "8dc4c6629f1bf635",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T02:57:04.993Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Developing medical AI while protecting patient information: Government establishes standards for remote data analysis and generative AI usage",
+   "summary": "The South Korean government has fully revised the Healthcare Data Utilization Guidelines to simplify medical research procedures while restricting the storage and learning of patient information entered into generative AI. The Ministry of Health and Welfare and the Korea Health Information Service announced the revision on November 27. Additionally, a secure research environment for medical data analysis has been established in Jeonnam-Gwangju to support technology development for local medical AI companies.",
+   "impact": "This policy may help developers and researchers access medical data more easily while maintaining security and consistency across institutions. Technology users and security teams may benefit from clearer restrictions on how patient information is stored and used by generative AI.",
+   "keyPoints": [
+    "The government fully revised the Healthcare Data Utilization Guidelines on November 27.",
+    "The guidelines simplify medical research procedures and restrict generative AI from storing or learning inputted patient info.",
+    "A secure medical data analysis environment was established in Jeonnam-Gwangju to support local AI companies."
+   ]
+  },
+  "km": {
+   "title": "ការអភិវឌ្ឍ AI វេជ្ជសាស្ត្រ ខណៈពេលដែលការពារព័ត៌មានអ្នកជំងឺ៖ រដ្ឋាភិបាលរៀបចំស្តង់ដារសម្រាប់ការវិភាគទិន្នន័យពីចម្ងាយ និងការប្រើប្រាស់ AI កំណើត",
+   "summary": "រដ្ឋាភិបាលបានធ្វើវិសោធនកម្មយ៉ាងពេញលេញនូវគោលការណ៍ណែនាំស្តីពីការប្រើប្រាស់ទិន្នន័យសុខាភិបាល ដើម្បីជួយសម្រួលដល់នីតិវិធីស្រាវជ្រាវ និងកំណត់ការផ្ទុកព្រមទាំងការរៀនទិន្នន័យអ្នកជំងឺដែលបានបញ្ចូលទៅក្នុង AI កំណើត។ ក្រសួងសុខាភិបាល និងសុខុមាលភាព និងវិទ្យាស្ថានព័ត៌មានសុខាភិបាលកូរ៉េបានប្រកាសពីការកែសម្រួលនេះនៅថ្ងៃទី 27។ លើសពីនេះ បរិយាកាសស្រាវជ្រាវដែលមានសុវត្ថិភាពមួយត្រូវបានបង្កើតឡើងនៅក្នុងតំបន់ Jeonnam-Gwangju ដើម្បីគាំទ្រដល់ការអភិវឌ្ឍបច្ចេកវិទ្យាសម្រាប់ក្រុមហ៊ុន AI វេជ្ជសាស្ត្រក្នុងស្រុក។",
+   "impact": "ការផ្លាស់ប្តូរនេះអាចជួយសម្រួលដល់ការទទួលបានទិន្នន័យវេជ្ជសាស្ត្រសម្រាប់អ្នកអភិវឌ្ឍន៍ ខណៈពេលដែលធានាបាននូវសុវត្ថិភាព និងការគ្រប់គ្រងព័ត៌មានអ្នកជំងឺឱ្យបានកាន់តែប្រសើរឡើង។",
+   "keyPoints": [
+    "រដ្ឋាភិបាលបានកែសម្រួលគោលការណ៍ណែនាំអំពីការប្រើប្រាស់ទិន្នន័យសុខាភិបាលឡើងវិញនៅថ្ងៃទី 27។",
+    "ការកែសម្រួលនេះកំណត់ការផ្ទុក និងការរៀនព័ត៌មានអ្នកជំងឺដោយ AI កំណើត។",
+    "បរិយាកាសវិភាគទិន្នន័យសុខាភិបាលប្រកបដោយសុវត្ថិភាពត្រូវបានបង្កើតឡើងនៅ Jeonnam-Gwangju។"
+   ]
+  },
+  "zh-CN": {
+   "title": "在保护患者信息的同时开发医疗AI：政府制定远程数据分析和生成式AI使用标准",
+   "summary": "韩国政府全面修订了《医疗健康数据利用指南》，在简化医疗研究流程的同时，限制生成式AI对所输入患者信息的存储和学习。保健福祉部与韩国保健医疗信息院于27日公布了这一修订内容。此外，全南光州也构建了能够安全分析医疗数据的研究环境，以支持当地医疗AI企业的技术开发。",
+   "impact": "这些新标准可能会使开发人员和研究人员在确保安全合规的前提下，更加便捷地获取医疗数据。同时，对患者信息存储和学习的限制也有助于提升安全团队和技术用户对生成式AI应用的信心。",
+   "keyPoints": [
+    "韩国政府于27日全面修订了《医疗健康数据利用指南》。",
+    "新标准旨在简化医疗研究程序，并限制生成式AI存储或学习输入的患者信息。",
+    "全南光州建立了安全的医疗数据分析研究环境以支持当地企业。"
+   ]
+  },
+  "ko": {
+   "title": "환자정보 지키면서 의료 AI 개발…정부, 데이터 원격분석·생성 AI 활용기준 마련",
+   "summary": "정부가 의료데이터를 활용한 연구 절차를 간소화하고 생성 AI에 입력된 환자정보의 저장 및 학습을 제한하는 기준을 마련했다. 보건복지부와 한국보건의료정보원은 27일 보건의료데이터 활용 가이드라인을 전부개정했다고 밝혔다. 또한 전남광주 지역에 의료데이터를 안전하게 분석할 수 있는 연구환경을 구축해 지역 의료 AI 기업의 기술개발을 지원하고 있다.",
+   "impact": "이번 개정은 연구자들과 개발자들이 보다 명확한 기준에 따라 의료데이터를 활용할 수 있도록 돕고, 환자정보 보호를 강화하는 데 기여할 수 있다. 보안 부서와 기술 사용자 입장에서는 생성 AI 활용 시 발생할 수 있는 정보 유출 우려를 낮추는 기준이 될 수 있다.",
+   "keyPoints": [
+    "정부는 27일 보건의료데이터 활용 가이드라인을 전부개정했다.",
+    "의료데이터 연구 절차를 간소화하고 생성 AI의 환자정보 저장 및 학습을 제한한다.",
+    "전남광주에 의료데이터를 안전하게 분석할 수 있는 연구환경을 구축했다."
+   ]
+  }
+ }
+}
