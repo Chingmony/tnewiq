@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "27f1645ed04a4e7e",
+ "contentHash": "614ec3c4b6dc6c7f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T12:42:31.290Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+   "summary": "Details have emerged about a new zero-day vulnerability in the open-source network monitoring tool Cacti that can be exploited for remote code execution. Tracked as 4HTTP2SHELL and 4HTTP2ROOT, the vulnerability allows an unauthenticated HTTP session to achieve command execution as the Cacti server. A proof-of-concept exploit has been developed, though a CVE identifier has not yet been assigned.",
+   "impact": "This vulnerability could allow unauthorized attackers to gain remote code execution on affected Cacti servers using only four HTTP requests through guest access. Security teams and administrators may need to monitor for unauthorized access or potential exploits until an official patch and CVE identifier are released.",
+   "keyPoints": [
+    "A new zero-day vulnerability in Cacti enables remote code execution.",
+    "The exploit chain is tracked as 4HTTP2SHELL and 4HTTP2ROOT.",
+    "It requires only four HTTP requests from an unauthenticated session.",
+    "A proof-of-concept has emerged, but it lacks a CVE identifier."
+   ]
+  },
+  "km": {
+   "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+   "summary": "ព័ត៌មានលម្អិតបានលេចចេញមកអំពីចន្លោះប្រហោង zero-day ថ្មីមួយនៅក្នុង Cacti ដែលជាឧបករណ៍តាមដានបណ្តាញអូផែនសোর্স ដែលអាចត្រូវបានយកប្រភព بهره‌برداری សម្រាប់ការប្រតិបត្តិកូដពីចម្ងាយ។ ការវាយប្រហារតាមរយៈភស្តុតាងនៃគំនិតត្រូវបានតាមដានក្រោមឈ្មោះ 4HTTP2SHELL និង 4HTTP2ROOT។ ចន្លោះប្រហោងនេះអនុញ្ញាតឱ្យសម័យ HTTP ដែលមិនទាន់បានផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ សម្រេចបានការប្រតិបត្តិពាក្យបញ្ជាជាម៉ាស៊ីនបម្រើ Cacti។",
+   "impact": "ចន្លោះប្រហោងនេះអាចអនុញ្ញាតឱ្យអ្នកវាយប្រហារដែលគ្មានការអនុញ្ញាតទទួលបានការប្រតិបត្តិកូដពីចម្ងាយនៅលើម៉ាស៊ីនបម្រើ Cacti ដោយប្រើសំណើ HTTP ចំនួនបួនតាមរយៈការចូលប្រើជាភ្ញៀវ។ ក្រុមសន្តិសុខនិងអ្នកគ្រប់គ្រងប្រព័ន្ធអាចចាំបាច់ត្រូវតាមដានការចូលប្រើដោយគ្មានការអនុញ្ញាត ឬការវាយប្រហារដែលអាចកើតមាន រហូតទាល់តែមានការចេញប័ណ្ណ תיקון និងលេខសម្គាល់ CVE ជាផ្លូវការ។",
+   "keyPoints": [
+    "ចន្លោះប្រហោង zero-day ថ្មីនៅក្នុង Cacti អនុញ្ញាតឱ្យមានការប្រតិបត្តិកូដពីចម្ងាយ។",
+    "ការកេងប្រវ័ញ្ចត្រូវបានតាមដានជា 4HTTP2SHELL និង 4HTTP2ROOT។",
+    "វាត្រូវការសំណើ HTTP ត្រឹមតែបួនប៉ុណ្ណោះពីសម័យដែលមិនទាន់ផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ។",
+    "ភស្តុតាងនៃគំនិតបានលេចចេញមក ប៉ុន្តែមិនទាន់ត្រូវបានកំណត់លេខសម្គាល់ CVE នៅឡើយទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "未修补的 Cacti 零日漏洞允许通过访客访问在四个 HTTP 请求中实现远程代码执行",
+   "summary": "开源网络监控工具 Cacti 中出现了一个新的零日漏洞的详细信息，该漏洞可被利用来实现远程代码执行。该漏洞被称为 4HTTP2SHELL 和 4HTTP2ROOT，允许从未经身份验证的 HTTP会话直接实现以 Cacti 服务器身份执行命令。目前已经出现了概念验证漏洞利用，但尚未分配 CVE 编号。",
+   "impact": "该漏洞可能会使未经授权的攻击者仅通过四次通过访客访问的 HTTP 请求，就在受影响的 Cacti 服务器上获得远程代码执行权限。在官方发布补丁和 CVE 编号之前，安全团队和管理员可能需要密切监控未经授权的访问或潜在的利用活动。",
+   "keyPoints": [
+    "Cacti 中的新零日漏洞支持远程代码执行。",
+    "该漏洞利用被追踪为 4HTTP2SHELL 和 4HTTP2ROOT。",
+    "它只需未经身份验证的 HTTP 会话中的四个 HTTP 请求即可触发。",
+    "目前已出现概念验证，但尚未分配 CVE 标识符。"
+   ]
+  },
+  "ko": {
+   "title": "패치되지 않은 Cacti 제로데이 취약점, 게스트 액세스를 통해 단 4개의 HTTP 요청으로 원격 코드 실행 가능",
+   "summary": "오픈소스 네트워크 모니터링 도구인 Cacti에서 원격 코드 실행을 달성하는 데 악용될 수 있는 새로운 제로데이 취약점에 대한 세부 정보가 공개되었습니다. 4HTTP2SHELL 및 4HTTP2ROOT로 추적되는 이 취약점은 인증되지 않은 HTTP 세션에서 Cacti 서버 권한으로 명령을 실행할 수 있게 합니다. 개념 증명 익스플로잇이 등장했으나 아직 CVE 식별자는 할당되지 않았습니다.",
+   "impact": "이 취약점으로 인해 인가되지 않은 공격자가 게스트 액세스를 통해 단 4개의 HTTP 요청만으로 영향받는 Cacti 서버에서 원격 코드 실행 권한을 얻을 수 있습니다. 보안 팀과 관리자는 공식 패치와 CVE 식별자가 발표될 때까지 무단 액세스나 잠재적인 익스플로잇을 모니터링해야 할 수 있습니다.",
+   "keyPoints": [
+    "Cacti의 새로운 제로데이 취약점으로 인해 원격 코드 실행이 가능합니다.",
+    "익스플로잇은 4HTTP2SHELL 및 4HTTP2ROOT로 추적됩니다.",
+    "인증되지 않은 세션에서 단 4개의 HTTP 요청만 필요합니다.",
+    "개념 증명이 등장했으나 아직 CVE 식별자는 없습니다."
+   ]
+  }
+ }
+}

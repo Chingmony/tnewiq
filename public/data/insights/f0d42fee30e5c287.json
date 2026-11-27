@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "f0d42fee30e5c287",
+ "contentHash": "6d484a78d204b6cc",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T12:43:02.339Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Jync v2.4.8 Released with AI Assistant Enhancements, Session Timeout, and Metabase Fault Tolerance",
+   "summary": "Jync has released version 2.4.8 as a stability and operations experience update following 2.4.7. It introduces AI assistant enhancements including log and instance code search alongside empty response fallbacks, login session timeout management, and H2 metabase error handling to prevent silent 500 errors. All users running 2.4.x versions are recommended to upgrade.",
+   "impact": "This release may improve operational stability and troubleshooting by addressing silent 500 errors caused by H2 metabase issues and adding new diagnostic tools for the AI assistant. Developers and administrators could benefit from upgrading to ensure better session management and system resilience.",
+   "keyPoints": [
+    "Added AI assistant search tools for instance logs and deployment jar configurations.",
+    "Introduced login session timeout management.",
+    "Improved H2 metabase error handling to prevent complete page failures with silent 500 errors.",
+    "Recommended for all 2.4.x users to upgrade."
+   ]
+  },
+  "km": {
+   "title": "Jync v2.4.8 ជាមួយការកែលម្អជំនួយការ AI ការអស់ពេលវគ្គ និងការអត់ធន់នឹងកំហុសប្រព័ន្ធទិន្នន័យមេ",
+   "summary": "កំណែ v2.4.8 គឺជាកំណែស្ថិរភាព និងបទពិសោធន៍ប្រតិបត្តិការបន្ទាប់ពីកំណែ 2.4.7។ វាបានបន្ថែមការស្វែងរកកំណត់ហេតុ និងកូដគំរូសម្រាប់ជំនួយការ AI ការគ្រប់គ្រងការអស់ពេលវគ្គចូល និងការកែសម្រួលកំហុសប្រព័ន្ធទិន្នន័យមេ H2 ដើម្បីកុំឱ្យទំព័រទាំងមូលក្លាយជាកំហុស 500 ដោយគ្មានការជូនដំណឹង។ វាត្រូវបានណែនាំឱ្យអ្នកប្រើប្រាស់ 2.4.x ទាំងអស់ធ្វើបច្ចុប្បន្នភាព។",
+   "impact": "ការអាប់ដេតនេះអាចជួយកែលម្អស្ថិរភាពប្រតិបត្តិការ និងការដោះស្រាយបញ្ហាសម្រាប់អ្នកគ្រប់គ្រងប្រព័ន្ធ និងអ្នកអភិវឌ្ឍន៍ ដោយកាត់បន្ថយកំហុសប្រព័ន្ធ។",
+   "keyPoints": [
+    "បានបន្ថែមឧបករណ៍ស្វែងរកកំណត់ហេតុ និងកូដគំរូសម្រាប់ជំនួយការ AI ។",
+    "បានបន្ថែមការគ្រប់គ្រងការអស់ពេលវគ្គចូល។",
+    "បានកែលម្អការจัดการកំហុសប្រព័ន្ធទិន្នន័យមេ H2 ។",
+    "ណែនាំឱ្យអ្នកប្រើប្រាស់ 2.4.x ទាំងអស់ធ្វើបច្ចុប្បន្នភាព។"
+   ]
+  },
+  "zh-CN": {
+   "title": "🔥 Jync v2.4.8 · AI 助手增强、会话超时与元数据库容错",
+   "summary": "版本 v2.4.8 是继 2.4.7 之后的稳定性与运维体验版本，补齐了 AI 助手的日志与实例检索以及空回复兜底，新增了登录会话超时管理，并优化了 H2 元数据库异常时的表现，使其不再让整个页面出现无提示的 500 错误。官方建议所有 2.4.x 用户进行升级。",
+   "impact": "该版本通过改进错误处理和会话管理，可能提高系统的稳定性和运维体验。开发人员和系统管理员升级后可以利用新的 AI 检索工具并避免无提示的服务器错误。",
+   "keyPoints": [
+    "新增 AI 助手日志查询与部署 jar 配置检索工具。",
+    "新增登录会话超时管理功能。",
+    "优化 H2 元数据库异常处理，避免页面直接崩成无提示 500 错误。",
+    "建议所有 2.4.x 用户升级。"
+   ]
+  },
+  "ko": {
+   "title": "Jync v2.4.8 출시: AI 어시스턴트 강화, 세션 타임아웃 및 메타데이터베이스 내오류성",
+   "summary": "v2.4.8 버전은 2.4.7 이후의 안정성 및 운영 경험 개선 버전입니다. AI 어시스턴트의 로그 및 인스턴스 검색 기능과 빈 응답 대비책을 보완하고, 로그인 세션 타임아웃 관리를 추가했으며, H2 메타데이터베이스 오류 발생 시 전체 페이지가 무응답 500 오류로 빠지지 않도록 개선했습니다. 모든 2.4.x 사용자에게 업그레이드가 권장됩니다.",
+   "impact": "이번 업데이트는 시스템 안정성을 높이고 개발자와 운영 팀이 예기치 않은 500 오류를 방지하는 데 도움을 줄 수 있습니다. 세션 관리 및 AI 도구 기능이 향상되어 원활한 운영이 가능해질 수 있습니다.",
+   "keyPoints": [
+    "인스턴스 로그 및 배포 jar 설정을 조회하는 AI 어시스턴트 검색 기능 추가.",
+    "로그인 세션 타임아웃 관리 신규 도입.",
+    "H2 메타데이터베이스 예외 처리 개선으로 무응답 500 오류 방지.",
+    "모든 2.4.x 사용자 대상 업그레이드 권장."
+   ]
+  }
+ }
+}

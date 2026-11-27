@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "274d4e75e34c5308",
+ "contentHash": "296a10c574161b7a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T12:39:10.140Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "xbatis 1.10.15 Released",
+   "summary": "The xbatis ORM library has released version 1.10.15 on November 5, 2026. This version includes bug fixes, code optimizations, and early partial compatibility with mybatis 3.6.0. The library aims to reduce persistence layer code and provide a simple API for building SQL.",
+   "impact": "Developers using xbatis may benefit from reduced boilerplate code and early compatibility preparations for mybatis 3.6.0. The bug fixes and optimizations could also improve overall stability for applications utilizing the ORM.",
+   "keyPoints": [
+    "xbatis version 1.10.15 was released on November 5, 2026.",
+    "The update includes bug fixes and code optimizations.",
+    "It adds early partial compatibility for mybatis 3.6.0."
+   ]
+  },
+  "km": {
+   "title": "xbatis 1.10.15 ត្រូវបានចេញផ្សាយ",
+   "summary": "បណ្ណាល័យ ORM xbatis បានចេញផ្សាយកំណែ 1.10.15 នៅថ្ងៃទី 5 ខែវិច្ឆិកា ឆ្នាំ 2026។ កំណែនេះរួមបញ្ចូលទាំងការជួសជុលកំហុស ការបង្កើនប្រសិទ្ធភាពកូដ និងភាពត្រូវគ្នាផ្នែកដំបូងជាមួយ mybatis 3.6.0។",
+   "impact": "អ្នកអភិវឌ្ឍន៍អាចទទួលបានផលប្រយោជន៍ពីការកាត់បន្ថយកូដកម្រិត持久层 និងការត្រៀមលក្ខណៈភាពត្រូវគ្នាជាមួយ mybatis 3.6.0។",
+   "keyPoints": [
+    "xbatis កំណែ 1.10.15 ត្រូវបានចេញផ្សាយនៅថ្ងៃទី 5 ខែវិច្ឆិកា ឆ្នាំ 2026។",
+    "ការអាប់ដេតនេះរួមបញ្ចូលការជួសជុលកំហុស និងការបង្កើនប្រសិទ្ធភាពកូដ។",
+    "វាបន្ថែមភាពត្រូវគ្នាផ្នែកដំបូងសម្រាប់ mybatis 3.6.0។"
+   ]
+  },
+  "zh-CN": {
+   "title": "mybatis之:fire: xbatis 1.10.15发版，最好用最简单最方便的ORM !",
+   "summary": "xbatis ORM 于 2026 年 11 月 5 日发布了 1.10.15 版本。该版本修复了一些问题并优化了代码，同时提前部分兼容了 mybatis 3.6.0。该工具旨在减少持久层代码并提供简单的 SQL 构建 API。",
+   "impact": "开发者可以通过该版本减少持久层代码编写量，并提前做好对 mybatis 3.6.0 的兼容准备。问题修复和代码优化也可能提升使用该 ORM 的稳定性。",
+   "keyPoints": [
+    "xbatis 1.10.15 于 2026 年 11 月 5 日发布。",
+    "更新内容包含修复一些问题和优化代码。",
+    "实现了对 mybatis 3.6.0 的提前部分兼容。"
+   ]
+  },
+  "ko": {
+   "title": "xbatis 1.10.15 버전 출시",
+   "summary": "xbatis ORM이 2026년 11월 5일에 1.10.15 버전을 출시했습니다. 이번 버전에는 버그 수정, 코드 최적화, 그리고 mybatis 3.6.0에 대한 사전 부분 호환성 확보가 포함되어 있습니다.",
+   "impact": "개발자들은 영속 계층 코드 감소와 mybatis 3.6.0에 대한 사전 호환성 준비의 혜택을 받을 수 있습니다. 버그 수정과 최적화는 애플리케이션의 안정성을 향상시킬 수 있습니다.",
+   "keyPoints": [
+    "xbatis 1.10.15 버전이 2026년 11월 5일에 출시되었습니다.",
+    "업데이트에는 문제 수정과 코드 최적화가 포함됩니다.",
+    "mybatis 3.6.0에 대한 사전 부분 호환성이 추가되었습니다."
+   ]
+  }
+ }
+}

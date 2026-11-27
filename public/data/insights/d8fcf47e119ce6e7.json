@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d8fcf47e119ce6e7",
+ "contentHash": "04cdf0ad84946ccd",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T12:39:00.936Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+   "summary": "Cybersecurity researchers disclosed a software supply chain attack involving tampered Q-Dir and DesktopOK installation files distributed through the official SoftwareOK website. Evidence shows the malicious files were generated during direct downloads from the official page and during the update process of previously installed software. The compromised files deliver remote access malware to users.",
+   "impact": "This supply chain attack could pose significant security risks to users and organizations relying on Q-Dir and DesktopOK, as malicious payloads may be deployed during standard updates or fresh downloads from trusted sources. Security teams may need to monitor software update mechanisms and inspect endpoints for unauthorized remote access tools stemming from these compromised installations.",
+   "keyPoints": [
+    "Attackers tampered with Q-Dir and DesktopOK installation files on the official SoftwareOK website.",
+    "Malicious files were generated during direct downloads and previous software updates.",
+    "The compromised files deliver remote access malware."
+   ]
+  },
+  "km": {
+   "title": "ពួក Hacker បានបង្កប់មេរោគក្នុងទាញយក Q-Dir និង DesktopOK ផ្លូវការ ដើម្បីបញ្ជូនមេរោគចូលប្រើប្រាស់ចម្ងាយឆ្ងាយ",
+   "summary": "អ្នកស្រាវជ្រាវសន្តិសុខាយប័របានបង្ហាញព័ត៌មានលម្អិតអំពីការវាយប្រហារខ្សែសង្វាក់ផ្គត់ផ្គង់កម្មវិធី ដែលបានកែប្រែកម្មវិធីដំឡើង Q-Dir និង DesktopOK ដែលចែកចាយតាមរយៈគេហទំព័រផ្លូវការ SoftwareOK ។ ភស្តុតាងបង្ហាញថាឯកសារមានមេរោគត្រូវបានបង្កើតឡើងទាំងការទាញយកផ្ទាល់ពីទំព័រផ្លូវការ និងក្នុងអំឡុងពេលធ្វើបច្ចុប្បន្នភាពនៃកម្មវិធីដែលបានដំឡើងពីមុន។",
+   "impact": "ការវាយប្រហារខ្សែសង្វាក់ផ្គត់ផ្គង់នេះអាចបង្កហានិភ័យសន្តិសុខដល់អ្នកប្រើប្រាស់ដែលពឹងផ្អែកលើកម្មវិធីទាំងនេះ ព្រោះមេរោគអាចត្រូវបានបញ្ជូនតាមរយៈការធ្វើបច្ចុប្បន្នភាពស្តង់ដារ។ ក្រុមសន្តិសុខអាចចាំបាច់ត្រូវត្រួតពិនិត្យដំណើរការអាប់ដេតកម្មវិធី និងរកមើលឧបករណ៍ចូលប្រើប្រាស់ពីចម្ងាយដែលគ្មានការអនុញ្ញាត។",
+   "keyPoints": [
+    "ពួក Hacker បានកែប្រែឯកសារដំឡើង Q-Dir និង DesktopOK នៅលើគេហទំព័រ SoftwareOK ។",
+    "ឯកសារមានមេរោគត្រូវបានបង្កើតឡើងក្នុងអំឡុងពេលទាញយក និងអាប់ដេត។",
+    "ឯកសារដែលរងការប៉ះពាល់បានបញ្ជូនមេរោគចូលប្រើប្រាស់ពីចម្ងាយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "黑客篡改官方 Q-Dir 和 DesktopOK 下载以分发远程访问恶意软件",
+   "summary": "网络安全研究人员披露了一起软件供应链攻击的细节，该攻击篡改了通过官方 SoftwareOK 网站分发的 Q-Dir 和 DesktopOK 安装文件。证据表明，恶意文件不仅在用户直接从官方下载页面下载程序时生成，还在先前安装软件的更新过程中生成。这些受损文件会向用户交付远程访问恶意软件。",
+   "impact": "此次供应链攻击可能会对依赖 Q-Dir 和 DesktopOK 的用户和组织带来重大安全风险，因为恶意有效负载可能会在标准更新或从受信任来源下载期间部署。安全团队可能需要监控软件更新机制，并检查端点是否存在源自这些受损安装的未经授权的远程访问工具。",
+   "keyPoints": [
+    "攻击者篡改了官方 SoftwareOK 网站上的 Q-Dir 和 DesktopOK 安装文件。",
+    "恶意文件在直接下载和以往软件更新过程中生成。",
+    "受损文件会分发远程访问恶意软件。"
+   ]
+  },
+  "ko": {
+   "title": "해커, 공식 Q-Dir 및 DesktopOK 다운로드에 트로이목마 심어 원격 접근 악성코드 유포",
+   "summary": "사이버 보안 연구원들은 공식 SoftwareOK 웹사이트를 통해 배포된 Q-Dir 및 DesktopOK 설치 파일을 변조한 소프트웨어 공급망 공격의 세부 사항을 공개했습니다. 증거에 따르면 악성 파일은 공식 다운로드 페이지에서 직접 프로그램을 다운로드할 때뿐만 아니라 이전에 설치된 소프트웨어의 업데이트 과정에서도 생성되었습니다. 손상된 파일은 사용자에게 원격 접근 악성코드를 전달합니다.",
+   "impact": "이번 공급망 공격은 Q-Dir 및 DesktopOK를 신뢰하고 사용하는 사용자 및 조직에 심각한 보안 위험을 초래할 수 있으며, 표준 업데이트나 신규 다운로드 중에 악성 페이로드가 배포될 수 있습니다. 보안 팀은 소프트웨어 업데이트 메커니즘을 모니터링하고 손상된 설치로 인해 발생하는 승인되지 않은 원격 접근 도구가 있는지 엔드포인트를 검사해야 할 수 있습니다.",
+   "keyPoints": [
+    "공격자들이 공식 SoftwareOK 웹사이트의 Q-Dir 및 DesktopOK 설치 파일을 변조했습니다.",
+    "악성 파일은 직접 다운로드 및 이전 소프트웨어 업데이트 과정에서 생성되었습니다.",
+    "손상된 파일은 원격 접근 악성코드를 전달합니다."
+   ]
+  }
+ }
+}

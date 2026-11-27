@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "bf3da701f5ceb45a",
+ "contentHash": "5e035f2175566cbd",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T12:43:12.307Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "Anthropic Directly Analyzes AI Internal Neurons to Research Hidden Risky Behavior Detection Technology",
+   "summary": "Anthropic has released research results that directly analyze individual neurons inside AI models to detect hidden risky behavior. By analyzing internal computations and weights of existing models without training a separate analysis model, this approach can compensate for the limitations of safety monitoring technologies that rely on AI answers or chain of thought. Researchers Jasmine Wang and Lisa Dunlap published two research papers titled 'Returning to Neuron-Based Interpretability' on the 23rd local time.",
+   "impact": "This research could help developers and safety teams better understand the inner workings of AI models and overcome limitations in monitoring safety through outputs and reasoning steps alone.",
+   "keyPoints": [
+    "Anthropic released research analyzing individual neurons inside AI models.",
+    "The method evaluates internal computations and weights without training a separate model.",
+    "Researchers Jasmine Wang and Lisa Dunlap published two papers on the topic."
+   ]
+  },
+  "km": {
+   "title": "Anthropic វិភាគដោយផ្ទាល់នូវណឺរូនខាងក្នុងរបស់ AI ដើម្បីស្រាវជ្រាវបច្ចេកវិទ្យាទប់ស្កាត់អាកប្បកិរិយាមានគ្រោះថ្នាក់ដែលលាក់កំបាំង",
+   "summary": "ក្រុមហ៊ុន Anthropic បានបង្ហាញលទ្ធផលស្រាវជ្រាវដែលវិភាគដោយផ្ទាល់ទៅលើណឺរូនបុគ្គលនៅខាងក្នុងម៉ូដែល AI ដើម្បីរកមើលអាកប្បកិរិយាមានគ្រោះថ្នាក់ដែលលាក់កំបាំង។ តាមរយៈការវិភាគការគណនាខាងក្នុងនិងទម្ងន់នៃម៉ូដែលដែលមានស្រាប់ដោយមិនចាំបាច់បណ្តុះបណ្តាលម៉ូដែលវិភាគដាច់ដោយឡែក វាអាចបំពេញបន្ថែមលើដែនកំណត់នៃបច្ចេកវិទ្យាត្រួតពិនិត្យសុវត្ថិភាពដែលពឹងផ្អែកលើចម្លើយឬដំណើរការគិតរបស់ AI។ អ្នកស្រាវជ្រាវ Jasmine Wang និង Lisa Dunlap បានប្រកាសការស្រាវជ្រាវចំនួនពីរដែលមានចំណងជើងថា 'ត្រឡប់ទៅរកការបកស្រាយផ្អែកលើណឺរូនវិញ' នៅថ្ងៃទី២៣ ម៉ោងក្នុងតំបន់។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍និងក្រុមសុវត្ថិភាពយល់កាន់តែច្បាស់ពីដំណើរការខាងក្នុងនៃម៉ូដែល AI និងជម្នះដែនកំណត់ក្នុងការត្រួតពិនិត្យសុវត្ថិភាពតាមរយៈលទ្ធផលនិងជំហាននៃការគិត។",
+   "keyPoints": [
+    "Anthropic បានចេញផ្សាយការស្រាវជ្រាវដែលវិភាគណឺរូនបុគ្គលនៅខាងក្នុងម៉ូដែល AI។",
+    "វិធីសាស្រ្តនេះវាយតម្លៃការគណនាខាងក្នុងនិងទម្ងន់ដោយមិនបណ្តុះបណ្តាលម៉ូដែលដាច់ដោយឡែក។",
+    "អ្នកស្រាវជ្រាវ Jasmine Wang និង Lisa Dunlap បានបោះពុម្ពផ្សាយឯកសារស្រាវជ្រាវចំនួនពីរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Anthropic直接分析AI内部神经元 研究检测隐藏风险行为的技术",
+   "summary": "Anthropic公开了一项研究成果，通过直接分析AI模型内部的各个神经元来寻找隐藏的风险行为。该方法无需训练单独的分析模型，而是通过分析现有模型的内部运算和权重，弥补了依赖AI回答或思维过程的安全监控技术的局限性。研究人员Jasmine Wang和Lisa Dunlap于当地时间23日公开了两篇题为“回归基于神经元的可解释性”的研究论文。",
+   "impact": "这项研究可能帮助开发人员和安全团队更好地理解AI模型的内部运作原理，并克服仅通过输出和推理步骤监控安全性的局限性。",
+   "keyPoints": [
+    "Anthropic公开了分析AI模型内部单个神经元的研究。",
+    "该方法无需训练单独的分析模型即可评估内部运算和权重。",
+    "研究人员Jasmine Wang和Lisa Dunlap发表了两篇相关研究论文。"
+   ]
+  },
+  "ko": {
+   "title": "앤트로픽, AI 내부 뉴런 직접 분석…숨겨진 위험 행동 탐지 기술 연구",
+   "summary": "앤트로픽이 AI 모델 내부의 개별 뉴런을 직접 분석해 숨겨진 위험 행동을 찾아내는 연구 결과를 공개했다. 별도의 분석 모델을 훈련하지 않고 기존 모델의 내부 연산과 가중치를 분석하는 방식으로, AI의 답변이나 사고 과정에 의존하는 안전성 감시 기술의 한계를 보완할 수 있다는 설명이다. 앤트로픽의 재스민 숀과 리사 던랩 연구진은 23일 뉴런 기반 해석 가능성으로 돌아가기라는 제목의 연구 두 편을 공개했다.",
+   "impact": "이번 연구는 개발자와 보안 팀이 AI 모델의 내부 작동 방식을 더 잘 이해하고 출력 결과와 사고 과정에만 의존하는 안전성 모니터링의 한계를 극복하는 데 도움을 줄 수 있다.",
+   "keyPoints": [
+    "앤트로픽이 AI 모델 내부의 개별 뉴런을 분석하는 연구를 공개함.",
+    "별도의 분석 모델을 훈련하지 않고 기존 모델의 내부 연산과 가중치를 분석함.",
+    "재스민 숀과 리사 던랩 연구진이 관련 연구 두 편을 발표함."
+   ]
+  }
+ }
+}

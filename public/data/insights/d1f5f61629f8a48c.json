@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d1f5f61629f8a48c",
+ "contentHash": "104ddaea3b5a2e10",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T12:39:40.382Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "qData Data Middle Platform Open Source Edition v1.6.9 Released: Fixes Data Integration Task Cloning Issue, Optimizes Data Query Prompt Protection",
+   "summary": "qData data middle platform open source edition v1.6.9 has been officially released. This update focuses on data integration, data queries, and task management, fixing and optimizing issues such as task cloning, SQL query exceptions, and task operation confirmations. Specifically, the update adjusts the task cloning process for DataX and Spark tasks.",
+   "impact": "This update could improve stability and functionality for developers and users working with data integration and task management in qData. Teams utilizing DataX and Spark tasks may experience fewer cloning issues.",
+   "keyPoints": [
+    "qData data middle platform open source edition v1.6.9 is officially released.",
+    "Fixes data integration task cloning issues for DataX and Spark.",
+    "Optimizes data query prompt protection and addresses SQL query exceptions."
+   ]
+  },
+  "km": {
+   "title": "qData កំណែបើកចំហ v1.6.9 ត្រូវបានចេញផ្សាយ៖ ជួសជុលបញ្ហាការក្លូនភារកិច្ចរួមបញ្ចូលទិន្នន័យ និងបង្កើនប្រសិទ្ធភាពការពារការព្រមានសំណួរទិន្នន័យ",
+   "summary": "qData កំណែបើកចំហ v1.6.9 ត្រូវបានចេញផ្សាយជាផ្លូវការ។ ការអាប់ដេតនេះផ្តោតលើការរួមបញ្ចូលទិន្នន័យ ការសាកសួរទិន្នន័យ និងការគ្រប់គ្រងភារកិច្ច ដោយបានជួសជុល និងបង្កើនប្រសិទ្ធភាពបញ្ហាដូចជាការក្លូនភារកិច្ច កំហុស SQL និងការបញ្ជាក់ប្រតិបត្តិការភារកិច្ច។",
+   "impact": "ការអាប់ដេតនេះអាចជួយកែលម្អស្ថេរភាពសម្រាប់អ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់ដែលធ្វើការជាមួយការរួមបញ្ចូលទិន្នន័យនៅក្នុង qData។ ក្រុមការងារដែលប្រើប្រាស់ភារកិច្ច DataX និង Spark អាចជួបប្រទះបញ្ហាក្លូនតិចជាងមុន។",
+   "keyPoints": [
+    "qData កំណែបើកចំហ v1.6.9 ត្រូវបានចេញផ្សាយជាផ្លូវការ។",
+    "ជួសជុលបញ្ហាការក្លូនភារកិច្ចរួមបញ្ចូលទិន្នន័យសម្រាប់ DataX និង Spark។",
+    "បង្កើនប្រសិទ្ធភាពការការពារការព្រមានសំណួរទិន្នន័យ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "qData 数据中台开源版 v1.6.9 发布：修复数据集成任务克隆问题，优化数据查询提示保护",
+   "summary": "qData 数据中台开源版 v1.6.9 正式发布。本次更新围绕数据集成、数据查询和任务管理，对任务克隆、SQL 查询异常及任务操作确认等问题进行了修复与优化。具体包括调整 DataX 和 Spark 任务克隆流程等升级功能。",
+   "impact": "该更新可以改善使用 qData 进行数据集成和任务管理时的稳定性和用户体验。使用 DataX 和 Spark 任务的技术团队可能会遇到更少的克隆相关问题。",
+   "keyPoints": [
+    "qData 数据中台开源版 v1.6.9 正式发布。",
+    "针对 DataX 和 Spark 任务克隆过程调整了任务克隆流程。",
+    "对任务克隆、SQL 查询异常及任务操作确认等问题进行了修复与优化。"
+   ]
+  },
+  "ko": {
+   "title": "qData 데이터 미들플랫폼 오픈소스 에디션 v1.6.9 출시: 데이터 통합 작업 복제 문제 수정, 데이터 쿼리 프롬프트 보호 최적화",
+   "summary": "qData 데이터 미들플랫폼 오픈소스 에디션 v1.6.9가 정식 출시되었습니다. 이번 업데이트는 데이터 통합, 데이터 쿼리 및 작업 관리를 중심으로 작업 복제, SQL 쿼리 예외, 작업 작업 확인 등의 문제를 수정하고 최적화했습니다.",
+   "impact": "이번 업데이트는 qData에서 데이터 통합 및 작업 관리를 사용하는 개발자와 사용자에게 안정성과 편의성을 향상시킬 수 있습니다. DataX 및 Spark 작업을 사용하는 팀은 복제 관련 문제가 줄어들 수 있습니다.",
+   "keyPoints": [
+    "qData 데이터 미들플랫폼 오픈소스 에디션 v1.6.9 정식 출시.",
+    "DataX 및 Spark 작업의 작업 복제 프로세스 조정.",
+    "작업 복제, SQL 쿼리 예외 및 작업 작업 확인 문제 수정 및 최적화."
+   ]
+  }
+ }
+}

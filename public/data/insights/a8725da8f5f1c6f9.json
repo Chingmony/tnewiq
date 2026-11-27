@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a8725da8f5f1c6f9",
+ "contentHash": "54e1963c1f31007d",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T12:42:20.729Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "GPUWorks 26.12.0 Released: Integrates with K8s and Slurm, Unlocking More GPU Resource Access",
+   "summary": "GPUWorks 26.12.0 has been released 24 days after its initial open-source version, following four consecutive bug fix releases. This update introduces Kubernetes and Slurm cluster integration. It also further expands heterogeneous hardware support, Ascend templates, and PD separation inference capabilities.",
+   "impact": "This release could help users connect more GPU resources by adding Kubernetes and Slurm cluster support. The expanded hardware and template features may also offer more flexibility for infrastructure and AI workloads.",
+   "keyPoints": [
+    "GPUWorks 26.12.0 is the latest update following four previous bug fix versions.",
+    "Added Kubernetes and Slurm cluster integration.",
+    "Expanded heterogeneous hardware support, Ascend templates, and PD separation inference capabilities."
+   ]
+  },
+  "km": {
+   "title": "GPUWorks 26.12.0 ត្រូវបានចេញផ្សាយ៖ ភ្ជាប់ជាមួយ K8s និង Slurm បើកដំណើរការការចូលប្រើប្រាស់ធនធាន GPU បន្ថែមទៀត",
+   "summary": "GPUWorks 26.12.0 ត្រូវបានចេញផ្សាយ បន្ទាប់ពីកំណែប្រភពបើកចំហដំបូងរយៈពេល ២៤ ថ្ងៃ និងបន្ទាប់ពីការចេញផ្សាយកែសម្រួលកំហុសចំនួន ៤ ។ ការអាប់ដេតនេះនាំមកនូវការ統合ជាមួយ Kubernetes និង Slurm ។ វាក៏ពង្រីកការគាំទ្រផ្នែករឹងផ្សេងៗ គំរូ Ascend និងសមត្ថភាពinference បំបែក PD ផងដែរ។",
+   "impact": "ការចេញផ្សាយនេះអាចជួយអ្នកប្រើប្រាស់ក្នុងការភ្ជាប់ធនធាន GPU បន្ថែមទៀតតាមរយៈការគាំទ្រ Kubernetes និង Slurm ។ មុខងារផ្នែករឹង និងគំរូដែលបានពង្រីកអាចផ្ដល់នូវភាពបត់បែនបន្ថែមទៀតសម្រាប់ហេដ្ឋារចនាសម្ព័ន្ធ និងការងារ AI ។",
+   "keyPoints": [
+    "GPUWorks 26.12.0 គឺជាកំណែអាប់ដេតចុងក្រោយបន្ទាប់ពីកំណែជួសជុលកំហុសចំនួន ៤ ។",
+    "បានបន្ថែមការ統合ជាមួយ Kubernetes និង Slurm ។",
+    "បានពង្រីកការគាំទ្រផ្នែករឹងផ្សេងៗ គំរូ Ascend និងសមត្ថភាពinference បំបែក PD ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "GPUWorks 26.12.0 发布：接入 K8s 与 Slurm，解锁更多 GPU 资源接入",
+   "summary": "在首个开源版本发布 24 天并连续发布 4 个 Bug 修复版本后，GPUWorks 26.12.0 正式发布。本次更新带来了 Kubernetes 与 Slurm 集群接入。同时，它进一步扩展了异构硬件支持、昇腾模板以及 PD 分离推理能力。",
+   "impact": "新增的 Kubernetes 与 Slurm 集群接入功能可以帮助用户对接更多 GPU 资源。扩展的异构硬件支持与模板能力也可能为基础设施和 AI 推理工作带来更多便利与灵活性。",
+   "keyPoints": [
+    "GPUWorks 26.12.0 是在经历了四个 Bug 修复版本后发布的最新版本。",
+    "新增了 Kubernetes 与 Slurm 集群接入功能。",
+    "扩展了异构硬件支持、昇腾模板与 PD 分离推理能力。"
+   ]
+  },
+  "ko": {
+   "title": "GPUWorks 26.12.0 출시: K8s 및 Slurm 연동으로 더 많은 GPU 자원 액세스 지원",
+   "summary": "첫 오픈소스 버전 출시 후 24일이 지나고 4개의 버그 수정 버전을 거친 후 GPUWorks 26.12.0이 출시되었습니다. 이번 업데이트는 Kubernetes 및 Slurm 클러스터 연동을 제공합니다. 또한 이기종 하드웨어 지원, Ascend 템플릿 및 PD 분리 추론 능력을 추가로 확장했습니다.",
+   "impact": "이번 릴리스는 Kubernetes 및 Slurm 지원을 통해 사용자가 더 많은 GPU 자원을 연결하는 데 도움을 줄 수 있습니다. 확장된 하드웨어 및 템플릿 기능은 인프라와 AI 워크로드에 더 나은 유연성을 제공할 수 있습니다.",
+   "keyPoints": [
+    "GPUWorks 26.12.0은 이전의 4개 버그 수정 버전 이후에 나온 최신 업데이트입니다.",
+    "Kubernetes 및 Slurm 클러스터 연동이 추가되었습니다.",
+    "이기종 하드웨어 지원, Ascend 템플릿 및 PD 분리 추론 능력이 확장되었습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d0918da3f57d62eb",
+ "contentHash": "c0156f9ea39355f4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T12:39:20.425Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "VS Code 1.148 adds a feature: prevent the computer from sleeping while agents work",
+   "summary": "The newly released VS Code 1.148 introduces a feature designed to prevent the system from entering idle sleep while an agent is working. According to Microsoft, supported Agent Hosts allow tasks to continue running even after the user closes the window. This feature is currently in preview and offers three options: always awake, awake only when plugged in, and completely disabled.",
+   "impact": "This feature could help developers ensure that background agent tasks continue uninterrupted, even if the application window is closed or the system approaches idle time. Security teams and users may want to review power management settings when utilizing preview features that alter system sleep behavior.",
+   "keyPoints": [
+    "VS Code 1.148 adds a feature to prevent the computer from sleeping during agent tasks.",
+    "Supported Agent Hosts allow tasks to keep running after closing the window.",
+    "The feature is currently in preview.",
+    "It provides three settings: always keep awake, keep awake only when plugged in, and fully disabled."
+   ]
+  },
+  "km": {
+   "title": "VS Code 1.148 បានបន្ថែមមុខងារមួយ៖ កុំឱ្យកុំព្យូទ័រលក់នៅពេល agent កំពុងធ្វើការ",
+   "summary": "VS Code 1.148 ដែលទើបតែចេញផ្សាយថ្មីៗនេះ បានបន្ថែមមុខងារមួយដើម្បីការពារកុំព្យូទ័រមិនឱ្យចូលទៅក្នុងរបៀបសម្រាកនៅពេល agent កំពុងធ្វើការ។ យោងតាម Microsoft បានឱ្យដឹងថា Agent Host ដែលគាំទ្រអនុញ្ញាតឱ្យកិច្ចការបន្តដំណើរការសូម្បីតែបន្ទាប់ពីអ្នកបិទបង្អួចក៏ដោយ។ មុខងារនេះបច្ចុប្បន្នស្ថិតក្នុងដំណាក់កាលមើលជាមុន ដោយផ្តល់ជម្រើសបីគឺ មិនឱ្យគេងជានិច្ច មិនឱ្យគេងពេលដោតឌុយភ្លើង និងបិទទាំងស្រុង។",
+   "impact": "មុខងារនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ធានាថាកិច្ចការ agent ខាងក្រោយបន្តដំណើរការដោយមិនមានការរំខាន។ អ្នកប្រើប្រាស់អាចពិនិត្យមើលការកំណត់គ្រប់គ្រងថាមពលនៅពេលប្រើប្រាស់មុខងារមើលជាមុននេះ។",
+   "keyPoints": [
+    "VS Code 1.148 បន្ថែមមុខងារការពារកុំព្យូទ័រពីការសម្រាកពេល agent ทําការ។",
+    "Agent Host ដែលគាំទ្រអនុញ្ញាតឱ្យកិច្ចការបន្តរត់បន្ទាប់ពីបិទបង្អួច។",
+    "មុខងារនេះបច្ចុប្បន្នស្ថិតក្នុងដំណាក់កាលមើលជាមុន។",
+    "វាផ្តល់ជម្រើសបីគឺ ជានិច្ច ពេលសាកថ្ម និងបិទ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "VS Code 1.148 加了个功能：agent 干活时别让电脑睡着",
+   "summary": "刚刚发布的 VS Code 1.148 新增了一项功能，旨在防止系统在 agent 工作时进入空闲睡眠状态。微软表示，支持的 Agent Host 允许在 agent 干活时让系统不进入休眠，从而使用户在关闭窗口后任务仍能继续运行。该功能目前处于预览状态，并提供了三个选项：一直不休眠、只在插电时不休眠以及完全关闭。",
+   "impact": "此功能可以帮助开发者确保后台 agent 任务在关闭窗口后继续顺利运行，而不受系统空闲睡眠的影响。开发人员和技术用户在启用涉及系统电源行为的预览功能时，可能会关注电源管理的控制选项。",
+   "keyPoints": [
+    "VS Code 1.148 新增防止 agent 工作时电脑休眠的功能。",
+    "支持的 Agent Host 允许关掉窗口后任务继续运行。",
+    "该功能目前处于预览状态。",
+    "提供一直不休眠、只在插电时不休眠和完全关闭三个选项。"
+   ]
+  },
+  "ko": {
+   "title": "VS Code 1.148 업데이트: 에이전트 작업 중 컴퓨터가 절전 모드로 진입하지 않는 기능 추가",
+   "summary": "새로 출시된 VS Code 1.148은 에이전트가 작업하는 동안 시스템이 유휴 절전 모드로 전환되는 것을 방지하는 기능을 추가했습니다. 마이크로소프트에 따르면 지원되는 Agent Host는 에이전트가 작업할 때 시스템이 절전 모드로 들어가지 않도록 하여 창을 닫은 후에도 작업이 계속 실행될 수 있게 합니다. 이 기능은 현재 미리 보기 상태이며 항상 절전 안 함, 전원 연결 시에만 절전 안 함, 완전 차단이라는 세 가지 옵션을 제공합니다.",
+   "impact": "이 기능은 개발자가 애플리케이션 창을 닫거나 시스템이 유휴 상태가 되어도 백그라운드 에이전트 작업이 중단 없이 계속 실행되도록 보장하는 데 도움이 될 수 있습니다. 기술 사용자는 시스템 절전 동작을 변경하는 미리 보기 기능을 사용할 때 전원 관리 설정을 검토할 수 있습니다.",
+   "keyPoints": [
+    "VS Code 1.148에 에이전트 작업 중 컴퓨터가 절전 모드에 들어가지 않는 기능이 추가됨.",
+    "지원되는 Agent Host를 통해 창을 닫은 후에도 작업이 계속 실행됨.",
+    "이 기능은 현재 미리 보기 상태로 제공됨.",
+    "항상 절전 안 함, 전원 연결 시에만 절전 안 함, 완전 차단 등 세 가지 옵션을 제공함."
+   ]
+  }
+ }
+}
