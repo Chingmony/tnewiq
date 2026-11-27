@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "dd7571e60edbe9c2",
+ "contentHash": "82ce88394654262c",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T22:06:47.986Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Announcing Rust 1.100.1",
+   "summary": "The Rust team has released Rust 1.100.1 as a new point release. This update addresses a regression introduced in Rust 1.100.0 where certain types were not inferred as having Iterator implementations. Users with rustup installed can update to the new version using the standard stable update command.",
+   "impact": "This release fixes a type inference regression that may affect developers working with iterators. Updating to the new version can resolve issues related to valid Iterator implementations not being recognized.",
+   "keyPoints": [
+    "Rust 1.100.1 is now available.",
+    "Fixes a regression affecting Iterator type inference.",
+    "Reverts an unstable const version change from Rust 1.100.0.",
+    "Can be installed via rustup update stable."
+   ]
+  },
+  "km": {
+   "title": "ការប្រកាសចេញផ្សាយ Rust 1.100.1",
+   "summary": "ក្រុមការងារ Rust បានចេញផ្សាយកំណែអាប់ដេតថ្មីមួយគឺ Rust 1.100.1។ ការអាប់ដេតនេះដោះស្រាយបញ្ហាបន្ទាប់ពីមានការធ្លាក់ចុះគុណភាពនៅពេលដាក់ឱ្យប្រើប្រាស់ Rust 1.100.0 ដែលប្រភេទមួយចំនួនមិនត្រូវបានស្គាល់ថាមាន Iterator impls។ អ្នកប្រើប្រាស់អាចអាប់ដេតតាមរយៈ rustup update stable។",
+   "impact": "ការចេញផ្សាយនេះអាចជួយแก้បញ្ហាដល់អ្នកអភិវឌ្ឍន៍ដែលជួបប្រទះបញ្ហាការសន្និដ្ឋានប្រភេទប្រភេទ iterator។ ការអាប់ដេតអាចដោះស្រាយបញ្ហាដែលប្រភេទមាន Iterator ត្រឹមត្រូវមិនត្រូវបានមើលឃើញ។",
+   "keyPoints": [
+    "Rust 1.100.1 ត្រូវបានចេញផ្សាយ។",
+    "ជួសជុលបញ្ហាការស្គាល់ប្រភេទ Iterator។",
+    "អាចអាប់ដេតតាមរយៈ rustup update stable។"
+   ]
+  },
+  "zh-CN": {
+   "title": "宣布发布 Rust 1.100.1",
+   "summary": "Rust 团队发布了 Rust 的一个新点版本 1.100.1。该更新修复了一个回归问题，即在 Rust 1.100.0 中某些类型未被推断为具有 Iterator 实现。通过 rustup 安装了先前版本的用户可以通过命令更新到 Rust 1.100.1。",
+   "impact": "此版本修复了类型推断回归问题，可能会对使用迭代器的开发者产生影响。更新到新版本可以解决有效 Iterator 实现无法被识别的问题。",
+   "keyPoints": [
+    "Rust 1.100.1 现已发布。",
+    "修复了 Iterator 类型推断的回归问题。",
+    "还原了 Rust 1.100.0 中对 Iterator 不稳定 const 版本的更改。",
+    "可以通过 rustup update stable 进行更新。"
+   ]
+  },
+  "ko": {
+   "title": "Rust 1.100.1 발표",
+   "summary": "Rust 팀이 새로운 포인트 릴리스인 Rust 1.100.1을 발표했습니다. 이번 업데이트는 Rust 1.100.0에서 일부 타입이 Iterator 구현을 가진 것으로 추론되지 않던 회귀 버그를 수정합니다. rustup을 통해 이전 버전을 설치한 사용자들은 명령어를 통해 쉽게 업데이트할 수 있습니다.",
+   "impact": "이번 릴리스는 반복자 관련 타입 추론 문제를 겪는 개발자들에게 영향을 줄 수 있습니다. 새 버전으로 업데이트하면 유효한 Iterator 구현이 인식되지 않던 문제를 해결할 수 있습니다.",
+   "keyPoints": [
+    "Rust 1.100.1이 출시되었습니다.",
+    "Iterator 타입 추론 회귀 버그를 수정했습니다.",
+    "Rust 1.100.0의 불안정한 const 버전 변경 사항을 되돌렸습니다.",
+    "rustup update stable 명령어로 업데이트할 수 있습니다."
+   ]
+  }
+ }
+}

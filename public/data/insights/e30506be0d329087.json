@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e30506be0d329087",
+ "contentHash": "e75565d064c7d41f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T22:02:43.686Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork",
+   "summary": "OpenAI is developing a data platform under the codename \"Athena\" to address accuracy issues with its data agent in ChatGPT Work. The platform features a semantic layer that provides agents with standardized definitions for business metrics. This new tool could potentially place OpenAI in direct competition with companies like Snowflake and Databricks.",
+   "impact": "This development could improve the accuracy of AI agents working with business data by providing standardized metric definitions. It may also signal a shift for OpenAI into enterprise data platform markets, potentially competing with established providers like Snowflake and Databricks.",
+   "keyPoints": [
+    "OpenAI is building a data platform codenamed \"Athena\".",
+    "The tool aims to reduce guesswork and improve accuracy for ChatGPT Work's data agent.",
+    "It includes a semantic layer offering standardized definitions for business metrics.",
+    "The project could put OpenAI in direct competition with Snowflake and Databricks."
+   ]
+  },
+  "km": {
+   "title": "OpenAI កំពុងបង្កើតវេទិកាទិន្នន័យ \"Athena\" ដើម្បីកាត់បន្ថយការស្าดស្មានរបស់ភ្នាក់ងារ AI",
+   "summary": "OpenAI កំពុងអភិវឌ្ឍវេទិកាទិន្នន័យក្រោមឈ្មោះកូដ \"Athena\" ដើម្បីដោះស្រាយបញ្ហាភាពត្រឹមត្រូវជាមួយនឹងភ្នាក់ងារទិន្នន័យរបស់ខ្លួននៅក្នុង ChatGPT Work។ វេទិកានេះមានស្រទាប់语义ដែលផ្តល់ឱ្យភ្នាក់ងារនូវនិយមន័យស្តង់ដារសម្រាប់រង្វាស់អាជីវកម្ម។ ឧបករណ៍ថ្មីនេះក៏អាចដាក់ OpenAI ឱ្យប្រកួតប្រជែងដោយផ្ទាល់ជាមួយ Snowflake និង Databricks ផងដែរ។",
+   "impact": "ការអភិវឌ្ឍនេះអាចកែលម្អភាពត្រឹមត្រូវនៃភ្នាក់ងារ AI ដែលធ្វើការជាមួយទិន្នន័យអាជីវកម្មដោយផ្តល់នូវនិយមន័យរង្វាស់ស្តង់ដារ។ វាក៏អាចបង្ហាញពីការផ្លាស់ប្តូររបស់ OpenAI ទៅកាន់ទីផ្សារវេទិកាទិន្នន័យសាជីវកម្ម ដែលអាចប្រកួតប្រជែងជាមួយអ្នកផ្តល់សេវាដែលមានស្រាប់ដូចជា Snowflake និង Databricks។",
+   "keyPoints": [
+    "OpenAI កំពុងបង្កើតវេទិកាទិន្នន័យដែលមានឈ្មោះកូដ \"Athena\"។",
+    "ឧបករណ៍នេះមានគោលបំណងកាត់បន្ថយការស្าดស្មាន និងកែលម្អភាពត្រឹមត្រូវសម្រាប់ភ្នាក់ងារទិន្នន័យរបស់ ChatGPT Work។",
+    "វាមានស្រទាប់语义ដែលផ្តល់និយមន័យស្តង់ដារសម្រាប់រង្វាស់អាជីវកម្ម។",
+    "គម្រោងនេះអាចធ្វើឱ្យ OpenAI ប្រកួតប្រជែងដោយផ្ទាល់ជាមួយ Snowflake និង Databricks។"
+   ]
+  },
+  "zh-CN": {
+   "title": "OpenAI 正在构建“Athena”数据平台以减少 AI 代理的猜测",
+   "summary": "OpenAI 正在开发代号为“Athena”的数据平台，以解决 ChatGPT Work 中数据代理准确性不足的问题。该平台包含一个语义层，为代理提供业务指标的标准化定义。该工具还可能使 OpenAI 与 Snowflake 和 Databricks 产生直接竞争。",
+   "impact": "这一发展可以通过提供标准化的指标定义，提高处理业务数据的 AI 代理的准确性。这也可能标志着 OpenAI 进入企业数据平台市场，并可能与 Snowflake 和 Databricks 等老牌供应商展开竞争。",
+   "keyPoints": [
+    "OpenAI 正在构建代号为“Athena”的数据平台。",
+    "该工具旨在减少 ChatGPT Work 数据代理的猜测并提高准确性。",
+    "它包括一个为业务指标提供标准化定义的语义层。",
+    "该项目可能会让 OpenAI 与 Snowflake 和 Databricks 形成直接竞争。"
+   ]
+  },
+  "ko": {
+   "title": "OpenAI, AI 에이전트의 추측을 줄이기 위해 \"Athena\" 데이터 플랫폼 구축 중",
+   "summary": "OpenAI는 ChatGPT Work의 데이터 에이전트 정확도 문제를 해결하기 위해 \"Athena\"라는 코드명으로 데이터 플랫폼을 개발하고 있습니다. 이 플랫폼은 에이전트에 비즈니스 지표에 대한 표준화된 정의를 제공하는 시맨틱 레이어를 특징으로 합니다. 이 새로운 도구는 또한 OpenAI를 Snowflake 및 Databricks와 직접적인 경쟁 구도로 만들 수 있습니다.",
+   "impact": "이번 개발은 표준화된 지표 정의를 제공함으로써 비즈니스 데이터로 작업하는 AI 에이전트의 정확도를 향상시킬 수 있습니다. 또한 OpenAI가 엔터프라이즈 데이터 플랫폼 시장으로 진출하여 Snowflake 및 Databricks와 같은 기존 제공업체와 경쟁하게 될 가능성을 시사할 수 있습니다.",
+   "keyPoints": [
+    "OpenAI는 \"Athena\" 코드명의 데이터 플랫폼을 구축하고 있습니다.",
+    "이 도구는 ChatGPT Work 데이터 에이전트의 추측을 줄이고 정확도를 높이는 것을 목표로 합니다.",
+    "비즈니스 지표에 대한 표준화된 정의를 제공하는 시맨틱 레이어를 포함합니다.",
+    "이 프로젝트는 OpenAI를 Snowflake 및 Databricks와 직접 경쟁하게 만들 수 있습니다."
+   ]
+  }
+ }
+}

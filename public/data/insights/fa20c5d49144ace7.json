@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fa20c5d49144ace7",
+ "contentHash": "69c188d7a14ffbea",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T22:05:59.743Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "AntBailian Ling-3.2-air Open Source Release Boosts Programming, Agent, and Multimodal Capabilities",
+   "summary": "AntBailian has released and open-sourced its new generation large model, Ling-3.2-air. The model features 124 billion total parameters with only 5.5 billion activated per token, representing a sparsity of about 4.4 percent. Architectural details indicate it is a Hybrid-linear MoE utilizing 35 layers of KDA.",
+   "impact": "This model could offer lower inference costs comparable to small models while leveraging a large parameter pool, which may interest developers and technology users looking for efficient MoE architectures.",
+   "keyPoints": [
+    "Ling-3.2-air has 124 billion total parameters and activates 5.5 billion parameters per token.",
+    "The sparsity ratio is approximately 4.4 percent.",
+    "The architecture is a Hybrid-linear MoE with 35 layers of KDA."
+   ]
+  },
+  "km": {
+   "title": "ការដាក់ឱ្យប្រើប្រាស់ជាកូដបើកទូលាយរបស់ 蚂蚁百灵 Ling-3.2-air ជួយលើកកម្ពស់សមត្ថភាពសរសេរកូដ ភ្នាក់ងារ និងពហុព័ត៌មាន",
+   "summary": "螞蟻百靈 បានប្រកាស និងដាក់ឱ្យប្រើប្រាស់ជាកូដបើកទូលាយនូវម៉ូដែលខ្នាតធំជំនាន់ថ្មីរបស់ខ្លួនគឺ Ling-3.2-air ដែលមានប៉ារ៉ាម៉ែត្រសរុប ១២៤ ប៊ីលាន និងធ្វើឱ្យសកម្មត្រឹមតែ ៥.៥ ប៊ីលានប៉ុណ្ណោះក្នុងមួយ token។ ព័ត៌មានលម្អិតនៃស្ថាបត្យកម្មបង្ហាញថាវាគឺជា Hybrid-linear MoE ដែលមាន ៣៥ ស្រទាប់ KDA។",
+   "impact": "វាអាចផ្តល់នូវការចំណាយលើការសន្និដ្ឋានទាបស្រដៀងទៅនឹងម៉ូដែលខ្នាតតូច ខណៈពេលដែលរក្សាបាននូវប៉ារ៉ាម៉ែត្រសរុបចំនួនធំ ដែលអាចជាការចាប់អារម្មណ៍សម្រាប់អ្នកអភិវឌ្ឍន៍។",
+   "keyPoints": [
+    "Ling-3.2-air មានប៉ារ៉ាម៉ែត្រសរុប ១២៤ ប៊ីលាន និងធ្វើឱ្យសកម្ម ៥.៥ ប៊ីលានក្នុងមួយ token។",
+    "អត្រាភាពស្តើងមានប្រហែល ៤.៤ ភាគរយ។",
+    "ស្ថាបត្យកម្មគឺជា Hybrid-linear MoE ជាមួយ ៣៥ ស្រទាប់ KDA។"
+   ]
+  },
+  "zh-CN": {
+   "title": "蚂蚁百灵 Ling-3.2-air 开源发布，提升编程、智能体与多模态能力",
+   "summary": "蚂蚁百灵发布并开源了新一代大模型 Ling-3.2-air，拥有 1240 亿总参数，每个 token 只激活 55 亿。其稀疏度约为 4.4%，推理成本对标 5.5B 的小模型。模型卡详细介绍了其架构，属于 Hybrid-linear MoE，包含 35 层 KDA。",
+   "impact": "该模型可能为开发者和技术用户提供较低的推理成本，同时拥有较大的参数池，这在高效 MoE 架构应用中可能会产生影响。",
+   "keyPoints": [
+    "Ling-3.2-air 拥有 1240 亿总参数，每个 token 激活 55 亿参数。",
+    "模型的稀疏度约为 4.4%。",
+    "采用 Hybrid-linear MoE 架构，包含 35 层 KDA。"
+   ]
+  },
+  "ko": {
+   "title": "앤트바일리안 Ling-3.2-air 오픈소스 출시로 프로그래밍, 에이전트 및 멀티모달 능력 향상",
+   "summary": "앤트바일리안은 총 1240억 개의 파라미터를 가지고 토큰당 55억 개만 활성화하는 차세대 대형 모델인 Ling-3.2-air를 오픈소스로 출시했습니다. 희소성은 약 4.4%이며 추론 비용은 5.5B 소형 모델 수준을 목표로 합니다. 모델 카드에 따르면 35층 KDA를 사용하는 Hybrid-linear MoE 구조입니다.",
+   "impact": "이 모델은 대규모 파라미터 풀을 활용하면서도 소형 모델 수준의 추론 비용을 제공할 수 있어, 효율적인 MoE 아키텍처를 찾는 개발자나 기술 사용자에게 영향을 줄 수 있습니다.",
+   "keyPoints": [
+    "Ling-3.2-air는 총 1240억 개의 파라미터를 가지며 토큰당 5.5B를 활성화합니다.",
+    "희소성 비율은 약 4.4%입니다.",
+    "35층 KDA를 갖춘 Hybrid-linear MoE 구조를 사용합니다."
+   ]
+  }
+ }
+}

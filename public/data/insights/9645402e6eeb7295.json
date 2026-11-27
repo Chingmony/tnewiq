@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9645402e6eeb7295",
+ "contentHash": "4b6fba631b035b58",
+ "model": "gemini-flash-latest",
+ "generatedAt": "2026-11-27T22:01:18.513Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Neptune introduces Neptune Graph Sessions, smaller graphs designed for agents that scale to zero and resume automatically",
+   "summary": "Amazon Neptune has introduced Neptune Graph Sessions, a compute mode designed for agents and individual tasks that scales memory and CPU automatically. Graphs can be created with a starting size of 4 s-NCU or 8 s-NCU, avoiding the 16 m-NCU minimum of provisioned graphs while offering memory headroom up to twice their initial size. Idle graphs automatically scale to zero after 15 minutes and resume in seconds when a new query arrives without losing their stored data.",
+   "impact": "This capability allows developers building AI agents, GraphRAG assistants, and per-user analytics to assign isolated graphs to distinct tasks or conversations without paying continuous hosting costs. Users are billed only for the memory consumed, which may reduce expenses for intermittent or unpredictable workloads.",
+   "keyPoints": [
+    "Provides starting graph sizes of 4 s-NCU or 8 s-NCU with memory headroom up to twice the selected size.",
+    "Scales automatically to zero after 15 minutes of inactivity and resumes in seconds upon new queries.",
+    "Preserves graph data while idle to avoid reloading data between sessions.",
+    "Can be created via AWS Management Console, AWS CLI, or AWS SDKs, and queried using openCypher."
+   ]
+  },
+  "km": {
+   "title": "Amazon Neptune ណែនាំ Neptune Graph Sessions ដែលជាក្រាហ្វទំហំតូចជាងមុនរចនាឡើងសម្រាប់ agents អាចបន្ថយទំហំដល់សូន្យ និងដំណើរការឡើងវិញដោយស្វ័យប្រវត្តិ",
+   "summary": "Amazon Neptune ឥឡូវនេះគាំទ្រ Neptune Graph Sessions ដែលជា compute mode ថ្មីរចនាឡើងសម្រាប់ agents និងកិច្ចការជាក់លាក់ ដោយវាអាចកែសម្រួលទំហំអង្គចងចាំនិង CPU ដោយស្វ័យប្រវត្តិ។ ក្រាហ្វអាចចាប់ផ្ដើមជាមួយនឹងទំហំ 4 s-NCU ឬ 8 s-NCU ដែលមិនតម្រូវឱ្យបង់ប្រាក់សម្រាប់កម្រិតអប្បបរមា 16 m-NCU ដូចក្រាហ្វដែលបានកំណត់ជាមុនឡើយ ហើយមានទំហំអង្គចងចាំបម្រុងទុកបន្ថែមរហូតដល់ទ្វេដង។ នៅពេលដែលគ្មានការប្រើប្រាស់ ក្រាហ្វនឹងបន្ថយទំហំដល់សូន្យដោយស្វ័យប្រវត្តិក្រោយរយៈពេល 15 នាទី ហើយអាចដំណើរការឡើងវិញក្នុងរយៈពេលប៉ុន្មានវិនាទីនៅពេលមានសំណួរថ្មី។",
+   "impact": "មុខងារនេះជួយឱ្យអ្នកអភិវឌ្ឍន៍ជំនួយការ GraphRAG ភ្នាក់ងារ AI និងការវិភាគតាមអ្នកប្រើប្រាស់ម្នាក់ៗ អាចបែងចែកក្រាហ្វដាច់ដោយឡែកសម្រាប់កិច្ចការនីមួយៗបានដោយមិនចាំបាច់បង់ថ្លៃសេវាជាប់ជានិច្ច។ អ្នកប្រើប្រាស់អាចកាត់បន្ថយការចំណាយបាន ដោយសារការគិតថ្លៃអាស្រ័យលើទំហំអង្គចងចាំជាក់ស្ដែងដែលបានប្រើប្រាស់។",
+   "keyPoints": [
+    "ផ្ដល់ជម្រើសទំហំចាប់ផ្ដើម 4 s-NCU ឬ 8 s-NCU ព្រមទាំងមានទំហំអង្គចងចាំបម្រុងទុកបន្ថែមរហូតដល់ពីរដងនៃទំហំដើម។",
+    "បន្ថយទំហំដល់សូន្យដោយស្វ័យប្រវត្តិកាលណាទំនេរលើសពី 15 នាទី និងដំណើរការឡើងវិញក្នុងរយៈពេលប៉ុន្មានវិនាទី។",
+    "រក្សាទុកទិន្នន័យក្រាហ្វដដែលនៅពេលទំនេរ ដោយមិនចាំបាច់ផ្ទុកទិន្នន័យឡើងវិញនៅពេលចាប់ផ្ដើម session ថ្មីឡើយ។",
+    "អាចបង្កើតឡើងតាមរយៈ AWS Management Console, AWS CLI ឬ AWS SDKs និងអាចសាកសួរទិន្នន័យដោយប្រើ openCypher។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Neptune 推出 Neptune Graph Sessions：专为智能体设计、可缩容至零并自动恢复的小型图",
+   "summary": "Amazon Neptune 现已支持 Neptune Graph Sessions。该计算模式专为智能体和单项任务设计，能够自动调整内存与 CPU，并在空闲时自动缩容至零。图的初始大小可选择 4 s-NCU 或 8 s-NCU，无需支付预配置图所需的 16 m-NCU 最低费用，并提供高达初始大小两倍的内存扩展余量。当图处于空闲状态时，它会在 15 分钟后自动缩容至零，并在新查询到达时在数秒内自动恢复且保留原有数据。",
+   "impact": "这使开发 GraphRAG 助手、AI 智能体以及单用户分析的团队能够为特定任务或对话分配独立图，而无需承担持续运行的基础成本。由于计费仅基于实际使用的内存，此举有助于降低间歇性或难以预测工作负载的运营开销。",
+   "keyPoints": [
+    "初始大小可选 4 s-NCU 或 8 s-NCU，并具备高达两倍的可用内存扩展余量。",
+    "空闲 15 分钟后自动缩容至零，接收新查询时可在数秒内恢复运行。",
+    "空闲期间数据完整保留，避免了每次会话重复加载数据的需要。",
+    "可通过 AWS Management Console、AWS CLI 或 AWS SDKs 进行创建，并支持使用 openCypher 执行查询。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Neptune, 에이전트 전용으로 자동 0 축소 및 재개가 가능한 소규모 그래프인 Neptune Graph Sessions 출시",
+   "summary": "Amazon Neptune이 에이전트 및 개별 작업을 위해 메모리와 CPU를 자동으로 확장하고 유휴 시 0으로 축소하는 컴퓨팅 모드인 Neptune Graph Sessions를 발표했습니다. 사용자는 프로비저닝된 그래프의 최소 단위인 16 m-NCU를 지불하지 않고도 4 s-NCU 또는 8 s-NCU의 초기 크기로 그래프를 생성할 수 있으며, 초기 크기의 최대 2배에 달하는 메모리 여유 공간이 제공됩니다. 그래프는 15분 동안 유휴 상태가 지속되면 자동으로 0으로 축소되며, 새 쿼리가 수신되면 데이터 손실 없이 수 초 내에 다시 작동을 시작합니다.",
+   "impact": "AI 에이전트, GraphRAG 비서, 사용자별 분석을 구축하는 개발자는 각 대화나 작업마다 격리된 그래프를 상시 유지 비용 없이 유연하게 배정할 수 있습니다. 그래프가 실제로 사용한 메모리만큼만 요금이 청구되므로 간헐적이거나 예측하기 어려운 작업 부하의 운영 비용을 절감할 수 있습니다.",
+   "keyPoints": [
+    "4 s-NCU 또는 8 s-NCU의 시작 크기를 선택할 수 있으며 선택한 크기의 최대 2배까지 메모리 여유 공간을 지원합니다.",
+    "15분간 유휴 상태일 경우 자동으로 0으로 축소되며, 새로운 쿼리가 들어오면 수 초 만에 재개됩니다.",
+    "유휴 상태에서도 그래프 데이터가 보존되어 세션마다 데이터를 다시 로드할 필요가 없습니다.",
+    "AWS Management Console, AWS CLI, AWS SDKs를 통해 생성할 수 있으며 openCypher를 사용하여 쿼리할 수 있습니다."
+   ]
+  }
+ }
+}

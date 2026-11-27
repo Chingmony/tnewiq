@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "ae8ebb84b9e2307a",
+ "contentHash": "2d342cb963e7f425",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-27T22:01:46.117Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "v2026.11",
+   "summary": "MITRE ATLAS has released version v2026.11 containing updates to its data matrix, tactics, techniques, mitigations, case studies, entities, and software records. The update introduces new techniques regarding LLM response manipulation, AI model poisoning, and hardware-related attacks. It also updates various existing techniques, mitigations, and case studies while adding new entities.",
+   "impact": "Security teams and developers working with artificial intelligence and machine learning could use these updated frameworks to better understand evolving AI threat vectors and adjust their defensive postures accordingly.",
+   "keyPoints": [
+    "Version v2026.11 includes 1 matrix, 16 tactics, 137 techniques, 98 sub-techniques, 44 mitigations, 85 case studies, 50 entities, and 39 software records.",
+    "New techniques include LLM Response Components Manipulation and various poison AI model methods.",
+    "New case studies cover topics such as Breaking SafetyCore and ChromaToast."
+   ]
+  },
+  "km": {
+   "title": "v2026.11",
+   "summary": "MITRE ATLAS បានចេញផ្សាយកំណែ v2026.11 ដែលមានបច្ចុប្បន្នភាពចំពោះម៉ាទ្រីសទិន្នន័យ យុទ្ធសាស្ត្រ បច្ចេកទេស វិធានការបន្ធូរបន្ថយ ករណីសិក្សា អង្គភាព និងកំណត់ត្រាផ្នែកទន់។ ការអាប់ដេតនេះណែនាំបច្ចេកទេសថ្មីៗទាក់ទងនឹងការរៀបចំការឆ្លើយតបរបស់ LLM ការបំពុលគំរូ AI និងការវាយប្រហារទាក់ទងនឹងផ្នែករឹង។ វាក៏បានអាប់ដេតបច្ចេកទេស វិធានការបន្ធូរបន្ថយ និងករណីសិក្សាដែលមានស្រាប់ផងដែរ ខណៈពេលដែលបានបន្ថែមអង្គភាពថ្មីៗ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ដែលធ្វើការជាមួយបញ្ញាសិប្បនិម្មិត និងម៉ាស៊ីនរៀនអាចប្រើប្រាស់ ማዕកបទាំងនេះ ដើម្បីយល់កាន់តែច្បាស់អំពីការវិវត្តនៃការគំរាមកំហែងដល់ AI និងកែសម្រួលការការពាររបស់ពួកគេឱ្យបានសមស្រប។",
+   "keyPoints": [
+    "កំណែ v2026.11 រួមមានម៉ាទ្រីសចំនួន 1 យុទ្ធសាស្ត្រចំនួន 16 បច្ចេកទេសចំនួន 137 និងអនុបច្ចេកទេសចំនួន 98។",
+    "បច្ចេកទេសថ្មីៗរួមមានការរៀបចំសមាសភាគឆ្លើយតប LLM និងវិធីសាស្ត្របំពុលគំរូ AI ផ្សេងៗ។",
+    "ករណីសិក្សាថ្មីៗគ្របដណ្តប់លើប្រធានបទដូចជា Breaking SafetyCore និង ChromaToast។"
+   ]
+  },
+  "zh-CN": {
+   "title": "v2026.11",
+   "summary": "MITRE ATLAS 发布了 v2026.11 版本，其中包含对其数据矩阵、战术、技术、缓解措施、案例研究、实体和软件记录的更新。此次更新引入了关于大语言模型响应操纵、AI模型投毒和硬件相关攻击的新技术。它还更新了现有的各种技术、缓解措施和案例研究，并添加了新实体。",
+   "impact": "致力于人工智能和机器学习的安全团队与开发人员可以利用这些更新的框架，更好地了解不断演变的 AI 威胁向量并相应调整其防御态势。",
+   "keyPoints": [
+    "v2026.11 版本包含 1 个矩阵、16 个战术、137 项技术、98 个子技术、44 项缓解措施、85 个案例研究、50 个实体和 39 个软件记录。",
+    "新技术包括 LLM 响应组件操纵以及各种 AI 模型投毒方法。",
+    "新增的案例研究涵盖 Breaking SafetyCore 和 ChromaToast 等主题。"
+   ]
+  },
+  "ko": {
+   "title": "v2026.11",
+   "summary": "MITRE ATLAS는 데이터 매트릭스, 전술, 기술, 완화 조치, 사례 연구, 엔티티 및 소프트웨어 레코드에 대한 업데이트가 포함된 v2026.11 버전을 출시했습니다. 이번 업데이트에는 LLM 응답 조작, AI 모델 포이즈닝, 하드웨어 관련 공격과 관련된 새로운 기술이 도입되었습니다. 또한 기존의 다양한 기술, 완화 조치 및 사례 연구를 업데이트하고 새로운 엔티티를 추가했습니다.",
+   "impact": "인공지능 및 머신러닝을 다루는 보안 팀과 개발자는 이러한 업데이트된 프레임워크를 활용하여 진화하는 AI 위협 벡터를 더 잘 이해하고 그에 따라 방어 태세를 조정할 수 있습니다.",
+   "keyPoints": [
+    "v2026.11 버전에는 1개의 매트릭스, 16개의 전술, 137개의 기술, 98개의 하위 기술, 44개의 완화 조치, 85개의 사례 연구, 50개의 엔티티 및 39개의 소프트웨어 레코드가 포함되어 있습니다.",
+    "새로운 기술에는 LLM 응답 구성 요소 조작 및 다양한 AI 모델 포이즈닝 방법이 포함됩니다.",
+    "새로운 사례 연구는 Breaking SafetyCore 및 ChromaToast 등의 주제를 다룹니다."
+   ]
+  }
+ }
+}
