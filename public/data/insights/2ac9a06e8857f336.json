@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2ac9a06e8857f336",
+ "contentHash": "f1d14fb47328c615",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T13:14:22.355Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Put the World Back: Timestamps Matter in Time Series Reasoning",
+   "summary": "Recent research reveals that large language models evaluated on time series reasoning often take shortcuts rather than using timestamps to connect events with observations. A new diagnostic protocol shows that models can maintain high accuracy without dates when inputs are pre-aligned, but rely on correlational shortcuts when order is missing. Controlled interventions demonstrate that breaking event-series alignment induces systematic failures, whereas removing timestamps entirely may not always lower accuracy.",
+   "impact": "This study matters to developers and researchers because it shows that traditional accuracy benchmarks may not accurately reflect whether models truly understand temporal relationships. Security teams and developers should be cautious when relying on LLMs for time-sensitive tasks without ensuring proper timestamp grounding.",
+   "keyPoints": [
+    "Large language models are often evaluated using events in chronological order and matched to time series.",
+    "A new diagnostic protocol distinguishes timestamp-grounded reasoning from correlational shortcuts.",
+    "Models maintain high accuracy when context is pre-aligned even without timestamps.",
+    "Code, model outputs, and trajectory labels have been released on GitHub."
+   ]
+  },
+  "km": {
+   "title": "ដាក់ពិភពលោកឱ្យដូចដើម៖ សញ្ញាពេលវេលាមានសារៈសំខាន់ក្នុងការសន្និដ្ឋានស៊េរីពេលវេលា",
+   "summary": "ការស្រាវជ្រាវថ្មីបង្ហាញថា ម៉ូដែលភាសាខ្នាតធំ (LLMs) ដែលត្រូវបានវាយតម្លៃលើការសន្និដ្ឋានស៊េរីពេលវេលា ច្រើនតែប្រើប្រាស់វិធីសាស្ត្រកាត់បន្ថយជំនួសឱ្យការប្រើប្រាស់សញ្ញាពេលវេលាដើម្បីភ្ជាប់ព្រឹត្តិការណ៍ជាមួយការសង្កេត។ ប្រូតូកុលវិភាគថ្មីមួយបង្ហាញថា ម៉ូដែលទាំងនោះអាចរក្សាភាពត្រឹមត្រូវខ្ពស់ដោយគ្មានកាលបរិច្ឆេទ នៅពេលដែលទិន្នន័យត្រូវបានតម្រៀបទុកជាមុន។ ការអន្តរាគមន៍ដែលបានគ្រប់គ្រងបង្ហាញថា ការបំបែកការតម្រៀបព្រឹត្តិការណ៍និងស៊េរី បណ្តាលឱ្យមានការខកខានជាប្រព័ន្ធ។",
+   "impact": "ការសិក្សានេះមានសារៈសំខាន់សម្រាប់អ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវ ព្រោះវាបង្ហាញថាការវាយតម្លៃភាពត្រឹមត្រូវបែបប្រពៃណីប្រហែលជាមិនឆ្លុះបញ្ចាំងឱ្យបានត្រឹមត្រូវថាតើម៉ូដែលពិតជាយល់ពីទំនាក់ទំនងតាមពេលវេលាដែរឬទេ។",
+   "keyPoints": [
+    "ម៉ូដែលភាសាខ្នាតធំច្រើនតែត្រូវបានវាយតម្លៃដោយប្រើប្រាស់ព្រឹត្តិការណ៍តាមលំដាប់លំដោយពេលវេលា។",
+    "ប្រូតូកុលវិភាគថ្មីបែងចែកការសន្និដ្ឋានផ្អែកលើសញ្ញាពេលវេលាពីផ្លូវកាត់ទំនាក់ទំនង។",
+    "កូដ លទ្ធផលម៉ូដែល និងស្លាកគន្លងត្រូវបានផ្សព្វផ្សាយនៅលើ GitHub ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "把世界拼回原样：时间戳在时间序列推理中的重要性",
+   "summary": "研究发现，在时间序列推理中接受评估的大语言模型（LLM）往往走捷径，而不是真正利用时间戳来将事件与观测结果联系起来。一项新的诊断协议表明，当输入已预先对齐时，模型即使没有日期也能保持高准确率，但在缺乏顺序时则会依赖相关性捷径。受控干预实验表明，破坏事件与序列的对齐会导致系统性故障。",
+   "impact": "这项研究对开发者和研究人员很重要，因为它表明传统的准确率基准可能无法准确反映模型是否真正理解了时间关系。在没有确保正确的时间戳基础之前，技术人员在处理时间敏感任务时应当谨慎对待大语言模型。",
+   "keyPoints": [
+    "大语言模型通常在按时间顺序排列且已与时间序列匹配的事件上进行评估。",
+    "新的诊断协议区分了基于时间戳的推理与相关性捷径。",
+    "当上下文预先对齐时，模型几乎不需要时间戳。",
+    "代码、模型输出和轨迹标签已在GitHub上发布。"
+   ]
+  },
+  "ko": {
+   "title": "세상을 제자리로 돌려놓기: 시계열 추론에서 타임스탬프의 중요성",
+   "summary": "대형 언어 모델(LLM)이 시계열 추론에 점점 더 많이 적용되고 있지만, 기존 평가에서는 모델이 타임스탬프를 사용하여 이벤트를 관측값과 연결하는지 아니면 단순히 지름길을 택하는지 불분명한 경우가 많습니다. 새로운 진단 프로토콜을 통해 타임스탬프 기반 추론과 상관관계 기반 지름길을 구분한 결과, 입력이 미리 정렬된 경우 모델은 타임스탬프 없이도 높은 정확도를 유지할 수 있음이 나타났습니다. 반면 순서가 누락된 경우에는 날짜를 사용하여 세계 지식을 회수하고 타임스탬프 오류를 잘 알아차리지 못하는 것으로 확인되었습니다.",
+   "impact": "이 연구는 기존의 정확도 기반 벤치마크가 모델이 타임스탬프를 실제로 사용하여 관측값을 세계와 동기화하는지 여부를 입증하지 못함을 보여줍니다. 개발자와 보안 팀은 시간 의존적 작업에 LLM을 활용할 때 적절한 타임스탬프 기반이 갖추어져 있는지 주의 깊게 확인해야 합니다.",
+   "keyPoints": [
+    "대형 언어 모델은 종종 시간순으로 정렬되고 시계열과 일치하는 이벤트로 평가됩니다.",
+    "새로운 진단 프로토콜은 타임스탬프 기반 추론과 상관관계 지름길을 구별합니다.",
+    "컨텍스트가 미리 정렬되어 있으면 모델에 타임스탬프가 거의 필요하지 않습니다.",
+    "코드, 모델 출력 및 궤적 레이블이 GitHub에 공개되었습니다."
+   ]
+  }
+ }
+}

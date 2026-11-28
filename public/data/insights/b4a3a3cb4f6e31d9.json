@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "b4a3a3cb4f6e31d9",
+ "contentHash": "bfc38322977a7874",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T13:12:16.074Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Stranger Things: When Objects Appear Without Their Typical Neighbors",
+   "summary": "Researchers studied typicality bias, where vision models predict objects based on their usual neighbors rather than actual visual features. They introduced STRANGE-Bench, a photorealistic and layout-controlled benchmark, to evaluate this bias across five modern model families and three recognition tasks. The evaluation shows that typicality bias remains prevalent and does not consistently shrink with model scale.",
+   "impact": "This research could help developers and security teams understand that scaling vision models alone may not solve contextual bias issues. The proposed Anchor-Atypicality Sampling (AAS) method may provide a way to reduce this bias without sacrificing overall performance.",
+   "keyPoints": [
+    "Typicality bias causes models to rely on neighboring objects rather than visual features.",
+    "STRANGE-Bench is introduced to measure typicality bias using normalized pointwise mutual information.",
+    "Performance gaps of 5-11 percentage points persist when objects appear outside their typical company.",
+    "Anchor-Atypicality Sampling (AAS) reduces the typicality gap across tested model families."
+   ]
+  },
+  "km": {
+   "title": "Stranger Things៖ នៅពេលដែលវត្ថុេចញមកដោយគ្មានអ្នកជិតខាងធម្មតារបស់ពួកវា",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាអំពីលំអៀងធម្មតា ដែលជាកន្លែងដែលគំរូវើអគ្គិសនីទាយវត្ថុដោយផ្អែកលើអ្នកជិតខាងធម្មតារបស់ពួកវាជាជាងលក្ខណៈដែលមើលឃើញជាក់ស្តែង។ ពួកគេបានដាក់បញ្ចូល STRANGE-Bench ដែលជាគោលការណ៍វាយតម្លៃមួយដើម្បីវាស់វែងលំអៀងនេះ។ ការវាយតម្លៃបង្ហាញថាលំអៀងធម្មតានៅតែមានវត្តមានទូទៅនិងមិនថយចុះដោយស្វ័យប្រវត្តិនោះទេ។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខឱ្យយល់ថាការបង្កើនទំហំគំរូតែម្នាក់ឯងអាចនឹងមិនដោះស្រាយបញ្ហាលំអៀងបរិបទនោះទេ។ វិធីសាស្ត្រ Anchor-Atypicality Sampling (AAS) អាចកាត់បន្ថយលំអៀងនេះដោយមិនបាត់បង់សមត្ថភាពសរុប។",
+   "keyPoints": [
+    "លំអៀងធម្មតាបណ្តាលឱ្យគំរូពឹងផ្អែកលើវត្ថុជិតខាងជាជាងលក្ខណៈដែលមើលឃើញ។",
+    "STRANGE-Bench ត្រូវបានណែនាំដើម្បីវាស់វែងលំអៀងធម្មតា។",
+    "គម្លាតការអនុវត្តពី 5-11 ភាគរយនៅតែបន្តកើតមាននៅពេលដែលវត្ថុេចញមកខាងក្រៅក្រុមធម្មតារបស់វា។",
+    "Anchor-Atypicality Sampling (AAS) កាត់បន្ថយគម្លាតលំអៀងឆ្លងកាត់គ្រួសារគំរូដែលបានធ្វើតេស្ត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Stranger Things：当物体出现在没有典型邻居的场景中时",
+   "summary": "研究人员研究了典型性偏差，即视觉模型根据常见邻居而不是物体的实际视觉特征来预测物体。他们引入了 STRANGE-Bench，一个真实感且布局受控的基准测试，用于评估跨越五个现代模型系列和三个识别任务的偏差。评估表明，典型性偏差仍然普遍存在，且不会随着模型规模自然缩小。",
+   "impact": "这项研究可以帮助开发人员和安全团队认识到，单纯扩大模型规模可能无法解决上下文偏差问题。提出的 Anchor-Atypicality Sampling (AAS) 方法可能在不牺牲整体性能的情况下降低这种偏差。",
+   "keyPoints": [
+    "典型性偏差导致模型依赖相邻物体而不是视觉特征进行预测。",
+    "引入 STRANGE-Bench 使用归一化逐点互信息来测量典型性偏差。",
+    "当物体出现在典型伴侣之外时，仍存在 5-11 个百分点的性能差距。",
+    "Anchor-Atypicality Sampling (AAS) 在测试的模型系列中减少了典型性差距。"
+   ]
+  },
+  "ko": {
+   "title": "Stranger Things: 전형적인 이웃 없이 물체가 나타날 때",
+   "summary": "연구원들은 비전 모델이 실제 시각적 특징보다는 평소 이웃을 기반으로 물체를 예측하는 전형성 편향을 연구했습니다. 그들은 5개의 현대 모델 패밀리와 3개의 인식 작업에 걸쳐 이 편향을 평가하기 위해 광사실적이고 레이아웃이 제어된 벤치마크인 STRANGE-Bench를 도입했습니다. 평가는 전형성 편향이 여전히 만연해 있으며 모델 규모에 따라 지속적으로 줄어들지 않음을 보여줍니다.",
+   "impact": "이 연구는 개발자와 보안 팀이 비전 모델 크기 조정만으로는 맥락적 편향 문제를 해결하지 못할 수 있음을 이해하는 데 도움이 될 수 있습니다. 제안된 Anchor-Atypicality Sampling (AAS) 방법은 전반적인 성능을 희생하지 않고 이 편향을 줄이는 방법을 제공할 수 있습니다.",
+   "keyPoints": [
+    "전형성 편향은 모델이 시각적 특징 대신 인접한 물체에 의존하게 만듭니다.",
+    "STRANGE-Bench는 정규화된 점별 상호 정보를 사용하여 전형성 편향을 측정하기 위해 도입되었습니다.",
+    "물체가 전형적인 동반자 외부에 나타날 때 5-11 퍼센트 포인트의 성능 격차가 지속됩니다.",
+    "Anchor-Atypicality Sampling (AAS)은 테스트된 모델 패밀리 전반에서 전형성 격차를 줄여줍니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "3daf9c389bad927c",
+ "contentHash": "329625491db5c485",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T13:13:31.315Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding",
+   "summary": "Researchers introduce BOP-Refer, the first benchmark for monocular 3D and 2D grounding of everyday and industrial objects using 9 BOP datasets. The benchmark pairs images with human-verified and VLM-generated referring expressions alongside accurate ground-truth bounding boxes derived from 3D models and 6DoF pose annotations. Evaluation of 17 frontier vision-language models reveals a large performance gap between 2D and 3D tasks.",
+   "impact": "This benchmark could help developers and researchers identify current limitations in vision-language models regarding metric scale estimation and depth accuracy. Security teams and technology users relying on 3D spatial understanding may note that depth estimation errors remain a significant challenge.",
+   "keyPoints": [
+    "BOP-Refer uses 9 diverse BOP datasets for monocular 3D and 2D object grounding.",
+    "Gemini 4 Carbon achieved the highest performance with 72.6% AP_IoU2D in 2D but only 12.4% AP_IoU3D in 3D.",
+    "Metric scale estimation and depth errors are identified as the main source of inaccurate 3D predictions."
+   ]
+  },
+  "km": {
+   "title": "BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ BOP-Refer ដែលជាស្តង់ដារវាយតម្លៃដំបូងគេសម្រាប់ការកំណត់ទីតាំងវត្ថុ 3D និង 2D monocular នៃវត្ថុប្រចាំថ្ងៃ និងឧស្សាហកម្មដោយប្រើប្រាស់ទិន្នន័យ BOP ចំនួន 9 ។ ស្តង់ដារនេះផ្គូផ្គងរូបភាពជាមួយនឹងកន្សោមយោងដែលបានផ្ទៀងផ្ទាត់ដោយមនុស្ស និងបង្កើតដោយ VLM រួមជាមួយប្រអប់ព្រំដែនពិតប្រាកដ។ ការវាយតម្លៃលើម៉ូដែលចំនួន 17 បានបង្ហាញពីគម្លាតដំណើរការដ៏ធំរវាងភារកិច្ច 2D និង 3D ។",
+   "impact": "ស្តង់ដារវាយតម្លៃនេះអាចជួយអ្នកអភិវឌ្ឍន៍កំណត់អត្តសញ្ញាណដែនកំណត់បច្ចុប្បន្ននៃម៉ូដែលចក្ខុវិស័យភាសាពាក់ព័ន្ធនឹងការប៉ាន់ស្មានមាត្រដ្ឋាន និងភាពត្រឹមត្រូវនៃជម្រៅ។ បញ្ហាប្រឈមនៃការប៉ាន់ស្មានជម្រៅអាចនៅតែជាឧបសគ្គដ៏សំខាន់សម្រាប់ប្រព័ន្ធដែលពឹងផ្អែកលើការយល់ដឹងពីលំហ 3D ។",
+   "keyPoints": [
+    "BOP-Refer ប្រើប្រាស់ชุดទិន្នន័យ BOP ចំនួន 9 សម្រាប់ការកំណត់ទីតាំងវត្ថុ 3D និង 2D ។",
+    "Gemini 4 Carbon ទទួលបានលទ្ធផលល្អបំផុតគឺ 72.6% AP_IoU2D ក្នុង 2D ប៉ុន្តែត្រឹមតែ 12.4% AP_IoU3D ក្នុង 3D ប៉ុណ្ណោះ។",
+    "ការប៉ាន់ស្មានមាត្រដ្ឋានរង្វាស់ និងកំហុសជម្រៅគឺជាប្រភពចម្បងនៃភាពមិនត្រឹមត្រូវក្នុង 3D ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "BOP-Refer：用于单目 3D 和 2D 目标定位的基准",
+   "summary": "研究人员推出了 BOP-Refer，这是首个用于日常和工业物体单目 3D 与 2D 定位的基准，数据源自 9 个不同的 BOP 数据集。该基准将图像与人工验证及 VLM 生成的指代表达相结合，并通过 3D 模型和 6DoF 位姿标注推导出了准确的真实真值边界框。对 17 种前沿视觉语言模型的评估表明，最佳模型在 2D 任务中表现较好，但在 3D 任务中表现显著下降。",
+   "impact": "该基准可能会帮助开发人员和研究人员识别视觉语言模型在度量尺度估计和深度准确性方面的当前局限性。依赖 3D 空间理解的技术用户可能会发现，深度估计误差仍然是一个主要的挑战。",
+   "keyPoints": [
+    "BOP-Refer 使用 9 个不同的 BOP 数据集进行单目 3D 和 2D 目标定位。",
+    "Gemini 4 Carbon 表现最好，在 2D 中达到 72.6% AP_IoU2D，但在 3D 中仅达到 12.4% AP_IoU3D。",
+    "度量尺度估计和深度误差被认为是 3D 预测不准确的主要来源。"
+   ]
+  },
+  "ko": {
+   "title": "BOP-Refer: 단안 3D 및 2D 객체 그라운딩을 위한 벤치마크",
+   "summary": "연구진은 9개의 다양한 BOP 데이터셋에서 가져온 일상 및 산업용 객체의 단안 3D 및 2D 그라운딩을 위한 최초의 벤치마크인 BOP-Refer를 소개합니다. 이 벤치마크는 이미지를 VLM이 생성하고 사람이 검증한 참조 표현과 쌍을 이루며, 3D 모델 및 6DoF 포즈 주석에서 파생된 정확한 정답 경계 상자를 제공합니다. 17개의 최첨단 비전-언어 모델을 체계적으로 평가한 결과, 2D와 3D 작업 간에 큰 성능 격차가 있는 것으로 나타났습니다.",
+   "impact": "이 벤치마크는 개발자와 연구자가 미터법 스케일 추정 및 깊이 정확성과 관련된 비전-언어 모델의 현재 한계를 파악하는 데 도움을 줄 수 있습니다. 3D 공간 이해에 의존하는 기술 사용자는 깊이 추정 오류가 여전히 주요 과제로 남아 있음을 알 수 있습니다.",
+   "keyPoints": [
+    "BOP-Refer는 단안 3D 및 2D 객체 그라운딩을 위해 9개의 다양한 BOP 데이터셋을 사용합니다.",
+    "Gemini 4 Carbon은 2D에서 72.6% AP_IoU2D를 기록했으나 3D에서는 12.4% AP_IoU3D에 그쳤습니다.",
+    "미터법 스케일 추정 및 깊이 오류가 3D 예측 부정확성의 주요 원인으로 지목되었습니다."
+   ]
+  }
+ }
+}

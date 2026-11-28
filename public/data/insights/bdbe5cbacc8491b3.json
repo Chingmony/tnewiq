@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "bdbe5cbacc8491b3",
+ "contentHash": "e66ae75ca8d8bb29",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T13:12:48.798Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defines the conflict: an implementation and evaluation",
+   "summary": "Researchers describe and evaluate a three-way merge for RDF knowledge graphs where the schema defines conflicts using SHACL shapes. Unbounded predicates union, while contended slots are resolved by human input where changes exceed cardinality bounds. The implementation was evaluated against a context-overlap baseline and six other strategies across synthetic seeds and production incident replays.",
+   "impact": "This approach could help developers and data teams reduce human intervention during RDF data merging by automating conflict detection based on shape constraints. However, users should note that undetected schema blind spots or incorrectly defined shapes may lead to silent data loss or unnecessary queries.",
+   "keyPoints": [
+    "The shape-aware operator raised 33 true positive conflicts across five synthetic seeds with no lost triples or SHACL violations.",
+    "An evaluation against Quit Store's Context Merge overlap rule showed the baseline detected the same 33 conflicts but required significantly more human questions.",
+    "The system reproduces a triple-level limit where different names for one entity remain invisible to the merge process."
+   ]
+  },
+  "km": {
+   "title": "Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defines the conflict: an implementation and evaluation",
+   "summary": "អ្នកស្រាវជ្រាវបានពិពណ៌នា និងវាយតម្លៃលើការបញ្ចូលគ្នាបែបបីផ្លូវសម្រាប់ក្រាហ្វចំណេះដឹង RDF ដែលគ្រោងការណ៍កំណត់ជម្លោះដោយប្រើរាង SHACL។ predicates ដែលគ្មានព្រំដែនរួបរួមគ្នា ចំណែករន្ធដែលមានជម្លោះត្រូវដោះស្រាយដោយមនុស្សនៅពេលដែលការផ្លាស់ប្តូរលើសពីដែនកំណត់។ ការអនុវត្តត្រូវបានវាយតម្លៃប្រៀបធៀបជាមួយមូលដ្ឋានគ្រឹះផ្សេងទៀត។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមការងារទិន្នន័យកាត់បន្ថយការអន្តរាគមន៍របស់មនុស្សក្នុងអំឡុងពេលបញ្ចូលបទពិសោធន៍ទិន្នន័យ RDF ។ ប៉ុន្តែ អ្នកប្រើប្រាស់គួរតែប្រុងប្រយ័ត្នចំពោះការកំណត់រាងខុសដែលនាំឱ្យបាត់បង់ទិន្នន័យ។",
+   "keyPoints": [
+    "ប្រតិបត្តិករដែលយល់ដឹងពីរាងបានលើកឡើងពីជម្លោះពិតប្រាកដចំនួន 33 ។",
+    "ការវាយតម្លៃប្រៀបធៀបបានបង្ហាញពីការកាត់បន្ថយសំណួរដែលសួរទៅកាន់មនុស្ស។",
+    "ប្រព័ន្ធនេះបង្ហាញពីដែនកំណត់កម្រិតបីដងដែលឈ្មោះខុសគ្នាមិនអាចមើលឃើញដោយស្វ័យប្រវត្តិ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defines the conflict: an implementation and evaluation",
+   "summary": "研究人员描述并评估了RDF知识图谱的三向合并方法，其中模式使用SHACL形状定义冲突。无界谓词会进行联合，而当变更超出基数界限时，有争议的槽由人工裁决。该实施方案在生产多agent存储中实现，并针对基线及其他策略进行了评估。",
+   "impact": "这种方法可以帮助开发人员和数据团队通过基于形状约束的自动化冲突检测来减少RDF数据合并过程中的人工干预。然而，用户应当注意，未检测到的模式盲点或定义错误的形状可能会导致数据静默丢失或产生不必要的询问。",
+   "keyPoints": [
+    "形状感知算子在五个合成种子中引发了33个真正的正面冲突，没有丢失三元组或违反SHACL。",
+    "与上下文重叠基线相比，基线检测到了相同的33个冲突，但提出了更多的询问。",
+    "该系统再现了三元组级别的局限性，即实体的不同名称在合并过程中仍然不可见。"
+   ]
+  },
+  "ko": {
+   "title": "Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defines the conflict: an implementation and evaluation",
+   "summary": "연구자들은 스키마가 SHACL shape를 사용하여 충돌을 정의하는 RDF 지식 그래프용 3웨이 머지를 설명하고 평가했습니다. 경계가 없는 속성은 결합되며, 변경 사항이 카디널리티 경계를 초과하는 경우 경합 슬롯은 사람의 입력으로 해결됩니다. 이 구현은 프로덕션 멀티 에이전트 스토어에서 평가되었습니다.",
+   "impact": "이 접근 방식은 개발자와 데이터 팀이 shape 제약 조건을 기반으로 충돌 감지를 자동화하여 RDF 데이터 병합 중 사람의 개입을 줄이는 데 도움이 될 수 있습니다. 그러나 잘못 정의된 shape나 스키마 맹점은 데이터 손실이나 불필요한 질문으로 이어질 수 있습니다.",
+   "keyPoints": [
+    "shape 인식 연산자는 5개의 합성 시드에서 33개의 실제 충돌을 발생시켰으며 삼중항 손실이나 SHACL 위반이 없었습니다.",
+    "컨텍스트 오버랩 기준선과의 비교에서 기준선은 동일한 33개의 충돌을 감지했으나 훨씬 더 많은 질문을 요구했습니다.",
+    "이 시스템은 개체의 서로 다른 이름이 병합 프로세스에서 보이지 않는 트리플 수준의 제한을 재현합니다."
+   ]
+  }
+ }
+}

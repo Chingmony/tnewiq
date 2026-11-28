@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "a92c790e47cc086e",
+ "contentHash": "1535e86670199a6b",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T13:14:54.795Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Provably Efficient Offline Discounted Reinforcement Learning under Recursive Entropic Risk",
+   "summary": "Researchers studied risk-sensitive reinforcement learning in finite discounted infinite-horizon Markov Decision Processes using recursive entropic risk measures (ERM). They examined both risk-averse and risk-seeking settings within an offline reinforcement learning framework. To address this, they introduced a model-based algorithm named ERM Value Iteration Lower Confidence Bound (ERM-VI-LCB) and derived a PAC-type bound on its sample complexity.",
+   "impact": "This research provides the first rigorous sample complexity guarantees for offline reinforcement learning under recursive ERM for both risk-averse and risk-seeking regimes. Technology teams and researchers working on algorithms can use these findings to understand theoretical limits and sample efficiency in risk-sensitive environments.",
+   "keyPoints": [
+    "Studied risk-sensitive reinforcement learning with recursive entropic risk measures parameterized by beta unequal to zero.",
+    "Considered both risk-averse and risk-seeking settings in an offline RL context.",
+    "Introduced the ERM-VI-LCB model-based algorithm and derived a PAC-type sample complexity bound.",
+    "Established a lower bound showing that exponential dependence on the risk parameter is unavoidable in the worst case."
+   ]
+  },
+  "km": {
+   "title": "ការសិក្សាផ្នែកកិច្ចការសិក្សាស្វ័យប្រវត្តិនៃការរៀនសូត្រដោយពង្រឹងកម្រិតបញ្ចុះតម្លៃក្រៅបណ្តាញក្រោមហានិភ័យអ៊ិនត្រូពិច",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាអំពីការរៀនសូត្រដោយពង្រឹងដែលងាយនឹងហានិភ័យនៅក្នុងដំណើរការ Markov Decision Processes ដោយប្រើរង្វាស់ហានិភ័យអ៊ិនត្រូពិច (ERM)។ ពួកគេបានពិចារណាទាំងការកំណត់បែបរារាំងហានិភ័យ និងការស្វែងរកហានិភ័យក្នុងបរិបទក្រៅបណ្តាញ។ ពួកគេបានណែនាំក្បួនដោះស្រាយតាមគំរូដែលហៅថា ERM Value Iteration Lower Confidence Bound (ERM-VI-LCB) និងបានរកឃើញកម្រិតដែនកំណត់សម្រាប់ភាពស្មុគស្មាញនៃគំរូ។",
+   "impact": "ការស្រាវជ្រាវនេះផ្តល់នូវការធានាផ្នែកភាពស្មុគស្មាញនៃគំរូដំបូងគេសម្រាប់ការរៀនសូត្រក្រៅបណ្តាញក្រោម ERM។ អ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខអាចប្រើប្រាស់ព័ត៌មាននេះដើម្បីយល់ដឹងពីដែនកំណត់ទ្រឹស្តីក្នុងបរិយាកាសងាយនឹងហានិភ័យ។",
+   "keyPoints": [
+    "បានសិក្សាការរៀនសូត្រដោយពង្រឹងដែលងាយនឹងហានិភ័យដោយប្រើរង្វាស់ហានិភ័យអ៊ិនត្រូពិច។",
+    "បានពិចារណាទាំងការកំណត់បែបរារាំងហានិភ័យ និងការស្វែងរកហានិភ័យ។",
+    "បានណែនាំក្បួនដោះស្រាយ ERM-VI-LCB និងបានរកឃើញដែនកំណត់គំរូ។",
+    "បានបង្ហាញថាការពឹងផ្អែកលើប៉ារ៉ាម៉ែត្រហានិភ័យគឺមិនអាចជៀសវាងបានក្នុងករណីអាក្រក់បំផុត។"
+   ]
+  },
+  "zh-CN": {
+   "title": "递归熵风险下经证明高效的离线折扣强化学习",
+   "summary": "研究人员在具有递归熵风险度量（ERM）的有限折扣无限期马尔可夫决策过程中研究了对风险敏感的强化学习，参数化为不等于零的beta。他们在离线强化学习设置中考虑了风险厌恶和风险寻求这两种情况。为了解决这一问题，他们引入了一种名为ERM Value Iteration Lower Confidence Bound (ERM-VI-LCB)基于模型的算法，并推导出了其样本复杂度的PAC型界限。",
+   "impact": "该研究为递归ERM下的离线强化学习在风险厌恶和风险寻求机制下提供了首个严格的样本复杂度保证。技术团队和安全人员可以利用这些成果来理解风险敏感环境中的理论极限和样本效率。",
+   "keyPoints": [
+    "研究了使用由beta参数化的递归熵风险度量的风险敏感强化学习。",
+    "在离线RL框架中同时考虑了风险厌恶和风险寻求设置。",
+    "引入了ERM-VI-LCB基于模型的算法并推导了PAC型样本复杂度界限。",
+    "建立了相应的下界，证明了在最坏情况下对风险参数的指数依赖是不可避免的。"
+   ]
+  },
+  "ko": {
+   "title": "재귀적 엔트로픽 위험 하의 증명 가능하게 효율적인 오프라인 할인 강화학습",
+   "summary": "연구진은 0이 아닌 베타로 매개변수화된 재귀적 엔트로픽 위험 척도(ERM)를 사용하여 유한 할인 무한 수평 마르코프 결정 과정에서 위험에 민감한 강화학습을 연구했습니다. 오프라인 강화학습 설정에서 위험 회피 설정과 위험 추구 설정을 모두 고려했습니다. 이에 대응하여 ERM-VI-LCB라는 모델 기반 알고리즘을 도입하고 샘플 복잡성에 대한 PAC 유형의 한계를 도출했습니다.",
+   "impact": "이번 연구는 위험 회피 및 위험 추구 체제 모두에서 재귀적 ERM에 따른 오프라인 강화학습에 대한 최초의 엄격한 샘플 복잡성 보장을 제공합니다. 개발자와 기술 팀은 이러한 결과를 사용하여 위험에 민감한 환경에서의 이론적 한계와 샘플 효율성을 이해할 수 있습니다.",
+   "keyPoints": [
+    "베타로 매개변수화된 재귀적 엔트로픽 위험 척도를 이용한 위험 민감 강화학습 연구.",
+    "오프라인 RL 맥락에서 위험 회피 및 위험 추구 설정 모두 고려.",
+    "ERM-VI-LCB 모델 기반 알고리즘 도입 및 PAC 유형의 샘플 복잡성 한계 도출.",
+    "최악의 경우 위험 매개변수에 대한 지수적 의존성이 불가피함을 보여주는 하한선 확립."
+   ]
+  }
+ }
+}

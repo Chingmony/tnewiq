@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "6cc107d3161c5998",
+ "contentHash": "aefcda57d280e8e5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T13:10:51.887Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "ByteDance Unveils AI Agent Reinforcement Learning Tool 'Laminar', Cutting GPU Usage Time by 64%",
+   "summary": "ByteDance's AI research organization Seed and researchers from the University of Hong Kong released an open-source framework called Laminar on GitHub. The framework is designed for reinforcement learning in large language models and AI agents that perform long-term tasks. In coding agent training experiments, it reduced GPU usage time by 64% and training samples by 33% while improving model performance compared to traditional methods.",
+   "impact": "This tool could help developers and technology users by significantly reducing the computational resources and GPU usage time required for training AI agents. Security teams and developers might benefit from more efficient resource management when building and scaling large language model applications.",
+   "keyPoints": [
+    "ByteDance and the University of Hong Kong released Laminar as an open-source framework on GitHub.",
+    "The tool reduces GPU usage time by 64% in coding agent training experiments.",
+    "Training samples were reduced by 33% while simultaneously improving model performance."
+   ]
+  },
+  "km": {
+   "title": "ByteDance បង្ហាញឧបករណ៍សិក្សាការពង្រឹងភ្នាក់ងារ AI 'Laminar' ដោយកាត់បន្ថយពេលវេលាប្រើប្រាស់ GPU 64%",
+   "summary": "ស្ថាប័នស្រាវជ្រាវ AI Seed របស់ ByteDance និងអ្នកស្រាវជ្រាវមកពីសាកលវិទ្យាល័យហុងកុងបានដាក់ឱ្យប្រើប្រាស់ក្របខណ្ឌប្រភពបើកចំហមួយដែលមានឈ្មោះថា Laminar នៅលើ GitHub។ ក្របខណ្ឌនេះត្រូវបានរចនាឡើងសម្រាប់ការសិក្សាការពង្រឹងនៅក្នុងគំរូភាសាខ្នាតធំ និងភ្នាក់ងារ AI ដែលអនុវត្តកិច្ចការរយៈពេលវែង។ នៅក្នុងការពិសោធន៍បណ្តុះបណ្តាលភ្នាក់ងារកូដ វាបានកាត់បន្ថយពេលវេលាប្រើប្រាស់ GPU ចំនួន 64% និងសំណាកបណ្តុះបណ្តាល 33% ខណៈពេលដែលបង្កើនប្រសិទ្ធភាពគំរូ។",
+   "impact": "ឧបករណ៍នេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការកាត់បន្ថយធនធានគណនា និងពេលវេលាប្រើប្រាស់ GPU ដែលត្រូវការសម្រាប់ការបណ្តុះបណ្តាលភ្នាក់ងារ AI อย่างមានប្រសិទ្ធភាព។",
+   "keyPoints": [
+    "ByteDance និងសាកលវិទ្យាល័យហុងកុងបានបញ្ចេញ Laminar ជាក្របខណ្ឌប្រភពបើកចំហនៅលើ GitHub។",
+    "ឧបករណ៍នេះបានកាត់បន្ថយពេលវេលាប្រើប្រាស់ GPU 64% ក្នុងការពិសោធន៍បណ្តុះបណ្តាលភ្នាក់ងារកូដ។",
+    "សំណាកបណ្តុះបណ្តាលត្រូវបានកាត់បន្ថយ 33% ព្រមទាំងបង្កើនប្រសិទ្ធភាពគំរូផងដែរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "字节跳动发布AI代理强化学习工具Laminar，GPU使用时间缩减64%",
+   "summary": "字节跳动旗下的AI研究组织Seed与香港大学的研究人员在GitHub上开源了一款名为Laminar的框架。该框架旨在为大语言模型以及执行长期任务的AI代理提供强化学习支持。在编码代理的训练实验中，与传统方法相比，它在提升模型性能的同时，将GPU使用时间减少了64%，训练样本减少了33%。",
+   "impact": "该工具可以帮助开发人员和技术用户显着减少训练AI代理所需的计算资源和GPU使用时间。这可能会使大型语言模型应用的构建和扩展变得更加高效。",
+   "keyPoints": [
+    "字节跳动与香港大学在GitHub上开源了Laminar框架。",
+    "在编码代理训练实验中，GPU使用时间减少了64%。",
+    "在提升模型性能的同时，训练样本减少了33%。"
+   ]
+  },
+  "ko": {
+   "title": "바이트댄스, AI 에이전트 강화학습 도구 '라미나' 공개...GPU 사용 시간 64% 절감",
+   "summary": "바이트댄스의 AI 연구 조직 시드와 홍콩대학교 공동 연구진은 대형언어모델과 장시간 작업을 수행하는 AI 에이전트의 강화학습을 위한 프레임워크 라미나를 깃허브에 오픈소스로 공개했다. 코딩 에이전트 학습 실험에서 기존 방식 대비 GPU 사용 시간을 64%, 학습 샘플을 33% 줄이면서도 모델 성능을 높였다. 해당 기술은 지난해 10월 논문을 통해 소개된 바 있다.",
+   "impact": "이 도구는 개발자와 기술 사용자가 AI 에이전트 학습에 필요한 컴퓨팅 자원과 GPU 사용 시간을 크게 줄이는 데 도움을 줄 수 있다. 대규모 언어 모델 응용 프로그램을 구축하고 확장할 때 보다 효율적인 자원 관리가 가능해질 수 있다.",
+   "keyPoints": [
+    "바이트댄스와 홍콩대학교 연구진이 라미나를 깃허브에 오픈소스로 공개함",
+    "코딩 에이전트 학습 실험에서 GPU 사용 시간을 64% 절감함",
+    "학습 샘플을 33% 줄이면서도 모델 성능을 향상시킴"
+   ]
+  }
+ }
+}

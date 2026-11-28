@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "e2525e23d2c718df",
+ "contentHash": "20e6aa2c438a74a0",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T13:13:50.702Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Model Weights, Airlocks and Sandboxes: A Call for Technical Validation of Re-identification Tests under the EDPB Anonymisation Guidelines",
+   "summary": "The European Data Protection Board published its Guidelines 02/2026 on anonymisation, which bring AI models into scope and call for re-identification testing. However, the guidelines lack instructions on how to design or validate these tests or how their results count as evidence. In response, a new framework is proposed utilizing a secure processing environment, or airlock, along with three types of evidence and technical settings involving model weights and regulatory sandboxes. The proposal calls for re-identification tests to be technically validated as measurement methods with clear detection limits, bias, and uncertainty.",
+   "impact": "This proposal could help developers and regulatory authorities better assess data anonymity and AI model privacy by establishing standardized technical validation for re-identification tests. Security teams and technology users may benefit from clearer measurement practices that reduce ambiguity around test reliability.",
+   "keyPoints": [
+    "EDPB Guidelines 02/2026 bring AI models into scope for anonymisation testing.",
+    "The guidelines do not specify how to design or validate re-identification tests.",
+    "A proposed framework uses secure airlocks, regulatory sandboxes, and distinguishes three types of evidence.",
+    "The framework calls for re-identification tests to be validated like measurement methods with defined detection limits, bias, and uncertainty."
+   ]
+  },
+  "km": {
+   "title": "ទម្ងន់ម៉ូដែល ប្រព័ន្ធទប់ខ្យល់ និងប្រអប់ខ្សាច់៖ ការអំពាវនាវឱ្យមានការផ្ទៀងផ្ទាត់បច្ចេកទេសនៃការធ្វើតេស្តកំណត់អត្តសញ្ញាណឡើងវិញក្រោមគោលការណ៍ណែនាំស្តីពីការអនាមិករបស់ EDPB",
+   "summary": "ក្រុមប្រឹក្សាការពារទិន្នន័យអឺរ៉ុបបានចេញផ្សាយគោលការណ៍ណែនាំ 02/2026 ស្តីពីការធ្វើឱ្យអនាមិក ដែលដាក់បញ្ចូលម៉ូដែល AI ទៅក្នុងវិសាលភាព និងទាមទារឱ្យមានការធ្វើតេស្ត។ ប៉ុន្តែគោលការណ៍ណែនាំទាំងនោះមិនបានបញ្ជាក់ពីវិធីសាស្ត្រនៃការរៀបចំ ឬផ្ទៀងផ្ទាត់ការធ្វើតេស្តនោះទេ។ ជាការឆ្លើយតប ក្របខណ្ឌមួយត្រូវបានស្នើឡើងដោយផ្អែកលើបរិយាកាសដំណើរការមានសុវត្ថិភាព ប្រព័ន្ធទប់ខ្យល់ និងប្រអប់ខ្សាច់ ដើម្បីវាយតម្លៃលទ្ធផលតេស្ត។",
+   "impact": "សំណើនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងស្ថាប័ននិយតកម្មក្នុងការវាយតម្លៃភាពអនាមិកនៃទិន្នន័យ និងឯកជនភាពរបស់ម៉ូដែល AI កាន់តែប្រសើរឡើងតាមរយៈការផ្ទៀងផ្ទាត់បច្ចេកទេស។",
+   "keyPoints": [
+    "គោលការណ៍ណែនាំ 02/2026 របស់ EDPB ដាក់បញ្ចូលម៉ូដែល AI ទៅក្នុងវិសាលភាពអនាមិក។",
+    "គោលការណ៍ណែនាំមិនបានបង្ហាញពីវិធីរៀបចំ ឬផ្ទៀងផ្ទាត់ការធ្វើតេស្តកំណត់អត្តសញ្ញាណឡើងវិញទេ។",
+    "ក្របខណ្ឌថ្មីស្នើឱ្យមានការធ្វើតេស្តដែលបានផ្ទៀងផ្ទាត់ជាវិធីសាស្ត្រវាស់វែងជាមួយកម្រិតរកឃើញច្បាស់លាស់។"
+   ]
+  },
+  "zh-CN": {
+   "title": "模型权重、气闸舱与沙盒：呼吁对EDPB匿名化指南下的重新识别测试进行技术验证",
+   "summary": "欧洲数据保护委员会发布了关于匿名化的Guidelines 02/2026，将AI模型纳入管辖范围并要求进行测试，但未说明如何设计或验证重新识别测试。为此，有人提出基于安全处理环境（即气闸舱）、监管沙盒以及三种证据类型的框架。该框架呼吁将重新识别测试验证为具有明确检测限、偏差和不确定性的测量方法。",
+   "impact": "这一提议可能会帮助开发人员和安全团队更可靠地评估数据匿名性，并通过标准化的技术验证来减少测试结果的不确定性。",
+   "keyPoints": [
+    "EDPB Guidelines 02/2026将AI模型纳入匿名化测试范围。",
+    "指南未提供设计或验证重新识别测试的具体方法。",
+    "提出使用气闸舱和监管沙盒的技术框架。",
+    "呼吁将重新识别测试验证为具备检测限和偏差指标的测量方法。"
+   ]
+  },
+  "ko": {
+   "title": "모델 가중치, 에어록 및 샌드박스: EDPB 익명화 지침에 따른 재식별 테스트의 기술적 검증 촉구",
+   "summary": "유럽개인정보보호이사회는 익명화에 관한 Guidelines 02/2026을 발표하여 AI 모델을 범위에 포함시키고 테스트를 요구했으나 재식별 테스트 설계나 검증 방법에 대해서는 언급하지 않았다. 이에 대응하여 안전한 처리 환경과 에어록, 규제 샌드박스를 활용하는 프레임워크가 제안되었다. 이 제안은 재식별 테스트가 명확한 검출 한계, 편차, 불확실성을 가진 측정 방법으로 검증되어야 한다고 촉구한다.",
+   "impact": "이 제안은 개발자와 보안 팀이 데이터 익명성을 보다 신뢰성 있게 평가하고 테스트 결과의 불확실성을 줄이는 데 도움을 줄 수 있다.",
+   "keyPoints": [
+    "EDPB Guidelines 02/2026은 AI 모델을 익명화 테스트 범위에 포함시킴.",
+    "해당 지침은 재식별 테스트 설계나 검증 방법을 명시하지 않음.",
+    "에어록과 규제 샌드박스를 활용하는 새로운 프레임워크가 제시됨.",
+    "재식별 테스트를 측정 방법으로 기술적으로 검증할 것을 촉구함."
+   ]
+  }
+ }
+}

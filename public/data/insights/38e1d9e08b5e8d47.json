@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "38e1d9e08b5e8d47",
+ "contentHash": "96d45d71cd53d7ef",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T13:09:07.326Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Google Deepmind's \"Humanity's First Exam\" shows top AI models still fail simple everyday tasks under repeated runs",
+   "summary": "Google Deepmind tested the reliability of 18 AI models using \"Humanity's First Exam.\" While top models successfully solve nearly every task family at least once, leaders like OpenAI's GPT-6.2 Astra fail when asked to provide 16 straight correct answers. The test shows that visual perception accounts for 73 percent of errors, and allocating more compute time does not resolve the issue.",
+   "impact": "This suggests that developers and users may face reliability issues when deploying AI models for tasks requiring consistent performance over multiple runs. It highlights that current scaling approaches, such as adding compute time, may not automatically solve fundamental perception and consistency challenges.",
+   "keyPoints": [
+    "Google Deepmind tested 18 AI models using \"Humanity's First Exam.\"",
+    "Top models like OpenAI's GPT-6.2 Astra stumble when required to give 16 straight correct answers.",
+    "Visual perception accounts for 73 percent of all errors.",
+    "Increasing compute time does not fix the reliability problem."
+   ]
+  },
+  "km": {
+   "title": "ការប្រឡងដំបូងរបស់មនុស្សជាតិ របស់ Google Deepmind បង្ហាញថាម៉ូដែល AI ជាន់ខ្ពស់នៅតែបរាជ័យលើកិច្ចការប្រចាំថ្ងៃសាមញ្ញក្រោមការរត់ដដែលៗ",
+   "summary": "Google Deepmind បានធ្វើតេស្តភាពជឿជាក់នៃម៉ូដែល AI ចំនួន ១៨ ជាមួយនឹងការប្រឡងដំបូងរបស់មនុស្សជាតិ។ ម៉ូដែលជាន់ខ្ពស់អាចដោះស្រាយភារកិច្ចជិតទាំងអស់បានយ៉ាងហោចណាស់ម្តង ប៉ុន្តែម៉ូដែលឈានមុខគេដូចជា OpenAI's GPT-6.2 Astra បរាជ័យនៅពេលដែលតម្រូវឱ្យឆ្លើយត្រូវ ១៦ ដងជាប់គ្នា។ ការយល់ឃើញតាមរយៈរូបភាពគឺជាមូលហេតុនៃកំហុស ៧៣ ភាគរយ ហើយការបន្ថែមពេលគណនាគឺមិនអាចជួសជុលបញ្ហានេះបានទេ។",
+   "impact": "បញ្ហានេះអាចបង្ហាញថាអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់អាចនឹងជួបប្រទះបញ្ហាភាពជឿជាក់ នៅពេលដាក់ពង្រាយម៉ូដែល AI សម្រាប់កិច្ចការដែលទាមទារភាពត្រឹមត្រូវជាប្រចាំ។ វាក៏បង្ហាញផងដែរថា ការបង្កើនពេលគណនាប្រហែលជាមិនអាចដោះស្រាយបញ្ហានៃការយល់ឃើញនោះទេ។",
+   "keyPoints": [
+    "Google Deepmind បានធ្វើតេស្តម៉ូដែល AI ចំនួន ១៨។",
+    "ម៉ូដែលដូចជា OpenAI's GPT-6.2 Astra បរាជ័យនៅពេលសួររកចម្លើយត្រូវ ១៦ ជាប់គ្នា។",
+    "ការយល់ឃើញតាមរូបភាពមានចំនួន ៧៣ ភាគរយនៃកំហុសសរុប។",
+    "ការបន្ថែមពេលគណនាមិនបានដោះស្រាយបញ្ហានេះទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Google Deepmind的“人类第一场考试”显示顶级AI模型在重复运行中仍会犯下简单的日常任务错误",
+   "summary": "Google Deepmind通过“人类第一场考试”测试了18个AI模型的可靠性。顶级模型几乎能至少解决一次所有任务群，但像OpenAI的GPT-6.2 Astra这样的领先模型在被要求连续给出16个正确答案时会出错。视觉感知占了错误总数的73%，并且投入更多计算时间也无法解决这个问题。",
+   "impact": "这可能表明，开发人员和技术用户在部署需要持续性能的AI模型时可能会遇到可靠性问题。这也凸显出，仅靠增加计算时间等当前的方法可能无法解决根本的感知一致性挑战。",
+   "keyPoints": [
+    "Google Deepmind使用“人类第一场考试”测试了18个AI模型。",
+    "像OpenAI的GPT-6.2 Astra这样的顶级模型在要求连续16次答对时会失误。",
+    "视觉感知占了73%的错误。",
+    "增加计算时间并不能解决该问题。"
+   ]
+  },
+  "ko": {
+   "title": "Google Deepmind의 \"인류의 첫 번째 시험\"은 상위 AI 모델이 반복 실행 시 여전히 단순한 일상 작업에서 실패함을 보여줍니다.",
+   "summary": "Google Deepmind는 \"인류의 첫 번째 시험\"을 통해 18개 AI 모델의 신뢰성을 테스트했습니다. 상위 모델들은 거의 모든 작업군을 최소한 한 번씩은 해결하지만, OpenAI의 GPT-6.2 Astra와 같은 선두 모델들도 16번 연속으로 정답을 맞혀야 할 때는 실패합니다. 시각적 인식이 전체 오류의 73퍼센트를 차지하며, 더 많은 연산 시간을 투입해도 이 문제는 해결되지 않습니다.",
+   "impact": "이는 개발자와 기술 사용자가 여러 번의 실행에 걸쳐 일관된 성능이 요구되는 작업을 위해 AI 모델을 배포할 때 신뢰성 문제에 직면할 수 있음을 시사합니다. 연산 시간 추가와 같은 현재의 확장 접근 방식이 근본적인 인지 및 일관성 문제를 자동으로 해결하지 못할 수 있음을 보여줍니다.",
+   "keyPoints": [
+    "Google Deepmind는 \"인류의 첫 번째 시험\"으로 18개의 AI 모델을 테스트했습니다.",
+    "OpenAI의 GPT-6.2 Astra 같은 상위 모델은 16번 연속 정답을 요구받을 때 실패합니다.",
+    "시각적 인식이 전체 오류의 73퍼센트를 차지합니다.",
+    "연산 시간을 늘려도 이 문제는 해결되지 않습니다."
+   ]
+  }
+ }
+}

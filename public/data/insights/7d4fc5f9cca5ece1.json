@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7d4fc5f9cca5ece1",
+ "contentHash": "d4af13bd1e0b7c45",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T13:14:44.208Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Knowledge-Base Gradient Descent: Self-Structuring Learning through Question Answering",
+   "summary": "Researchers explore Self-Structuring Learning to construct knowledge bases for large language model applications, where questions and expected answers guide persistent knowledge base construction. They propose Knowledge-Base Gradient Descent, a method that diagnoses discrepancies between expected and actual responses to propose, test, and adopt structural edits when learning loss decreases. Experiments on large documents show that updated graph schemas and knowledge cards achieve higher mean Answer F1 scores on held-out generated questions, while performance on human questions varies depending on the structure type.",
+   "impact": "This approach could help developers and technology users improve how large language model applications retrieve and connect information by automating knowledge base structuring. Security teams and developers may find that self-structuring methods improve adaptation to specific question types, though effectiveness can depend on whether the evaluation questions match the training distribution.",
+   "keyPoints": [
+    "Introduces Self-Structuring Learning using questions and expected answers to guide persistent knowledge base construction.",
+    "Proposes Knowledge-Base Gradient Descent to diagnose discrepancies, propose structural edits, and adopt changes when learning loss decreases.",
+    "Demonstrates that updated knowledge cards and graph schemas obtain higher mean Answer F1 on held-out generated questions."
+   ]
+  },
+  "km": {
+   "title": "ការធ្លាក់ចុះជម្រាលមូលដ្ឋានចំណេះដឹង៖ ការរៀនរចនាសម្ព័ន្ធខ្លួនឯងតាមរយៈការសួរ និងឆ្លើយសំណួរ",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាអំពីការរៀនរចនាសម្ព័ន្ធខ្លួនឯង ដើម្បីបង្កើតមូលដ្ឋានចំណេះដឹងសម្រាប់កម្មវិធីគំរូភាសាខ្នាតធំ ដែលសំណួរ និងចម្លើយរំពឹងទុកណែនាំការបង្កើតមូលដ្ឋានចំណេះដឹងជាប់លាប់។ ពួកគេបានស្នើវិធីសាស្ត្រ Knowledge-Base Gradient Descent ដើម្បីវិភាគភាពខុសគ្នារវាងចម្លើយរំពឹងទុក និងចម្លើយទទួលបាន ដើម្បីស្នើ និងកែសម្រួលរចនាសម្ព័ន្ធនៅពេលការបាត់បង់ការរៀនថយចុះ។ ការពិសោធន៍លើឯកសារធំៗបង្ហាញថា រចនាសម្ព័ន្ធក្រាហ្វ និងប័ណ្ណចំណេះដឹងដែលបានកែលម្អទទួលបានពិន្ទុ Answer F1 មធ្យមខ្ពស់ជាងមុនលើសំណួរដែលបានបង្កើតឡើង។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការកែលម្អរបៀបដែលកម្មវិធីគំរូភាសាខ្នាតធំទាញយក និងតភ្ជាប់ព័ត៌មានដោយស្វ័យប្រវត្តិ។ ក្រុមសុវត្ថិភាព និងអ្នកអភិវឌ្ឍន៍អាចយល់ឃើញថា ការរៀនរចនាសម្ព័ន្ធខ្លួនឯងជួយកែលម្អការសម្របខ្លួនទៅនឹងប្រភេទសំណួរជាក់លាក់ ទោះបីជាប្រសិទ្ធភាពអាចអាស្រ័យលើសំណួរវាយតម្លៃក៏ដោយ។",
+   "keyPoints": [
+    "ណែនាំការរៀនរចនាសម្ព័ន្ធខ្លួនឯងដោយប្រើសំណួរ និងចម្លើយរំពឹងទុក ដើម្បីដឹកនាំការកសាងមូលដ្ឋានចំណេះដឹង។",
+    "ស្នើវិធីសាស្ត្រ Knowledge-Base Gradient Descent ដើម្បីរកមើលភាពខុសគ្នា និងធ្វើការកែសម្រួលរចនាសម្ព័ន្ធនៅពេលការខាតបង់ធ្លាក់ចុះ។",
+    "បង្ហាញថាប័ណ្ណចំណេះដឹង និងក្រាហ្វដែលបានអាប់ដេតទទួលបានពិន្ទុ Answer F1 មធ្យមខ្ពស់ជាងមុនលើសំណួរដែលបានបង្កើតឡើង។"
+   ]
+  },
+  "zh-CN": {
+   "title": "知识库梯度下降：通过问答进行自结构化学习",
+   "summary": "研究人员探讨了自结构化学习，用于为大语言模型应用构建知识库，其中问题和预期答案指导持久知识库的构建。他们提出了知识库梯度下降方法，通过诊断预期答案与当前知识库响应之间的差异，在学习损失减少时提出、重建并采用结构编辑。在大型文档上的实验表明，更新后的知识卡片和图模式在保留的生成问题上获得了更高的平均Answer F1分数。",
+   "impact": "该方法可以帮助开发人员和技术用户改进大语言模型应用检索和连接信息的方式，通过自动化知识库结构化来提升性能。安全团队和开发人员可能会发现自结构化方法有助于更好地适应特定问题类型，不过效果可能取决于评估问题是否与训练分布相匹配。",
+   "keyPoints": [
+    "引入自结构化学习，利用问题和预期答案指导持久知识库的构建。",
+    "提出知识库梯度下降方法来诊断差异、提出结构编辑并在学习损失下降时采用更改。",
+    "实验表明更新后的知识卡片和图模式在保留的生成问题上取得了更高的平均Answer F1。"
+   ]
+  },
+  "ko": {
+   "title": "지식 베이스 경사 하강법: 질의응답을 통한 자체 구조화 학습",
+   "summary": "연구원들은 대형 언어 모델 기반 애플리케이션을 위한 지식 베이스 구축을 위해 질문과 예상 답변이 지속적인 지식 베이스 구축을 안내하는 자체 구조화 학습을 연구합니다. 이들은 예상 답변과 현재 지식 베이스를 통한 응답 간의 불일치를 진단하고, 학습 손실이 감소할 때 구조적 수정을 제안 및 채택하는 지식 베이스 경사 하강법을 제안합니다. 대형 문서에 대한 실험에서 업데이트된 지식 카드와 그래프 스키마는 보류된 생성 질문에 대해 더 높은 평균 Answer F1 점수를 얻었습니다.",
+   "impact": "이 접근 방식은 개발자와 기술 사용자가 지식 베이스 구조화를 자동화하여 대형 언어 모델 애플리케이션이 정보를 검색하고 연결하는 방식을 개선하는 데 도움을 줄 수 있습니다. 보안 팀과 개발자는 자체 구조化 방법이 특정 질문 유형에 대한 적응력을 향상시킬 수 있음을 알 수 있으나, 효과는 평가 질문이 학습 분포와 일치하는지에 따라 달라질 수 있습니다.",
+   "keyPoints": [
+    "질문과 예상 답변을 사용하여 지속적인 지식 베이스 구축을 안내하는 자체 구조화 학습을 도입합니다.",
+    "학습 손실이 감소할 때 불일치를 진단하고 구조적 수정을 제안하며 변경 사항을 채택하는 지식 베이스 경사 하강법을 제안합니다.",
+    "업데이트된 지식 카드와 그래프 스키마가 보류된 생성 질문에서 더 높은 평균 Answer F1을 얻음을 입증합니다."
+   ]
+  }
+ }
+}

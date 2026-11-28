@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "8a409d36c4e482c1",
+ "contentHash": "d3b6a60864ac8c49",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T13:12:26.636Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "SoK: When FL Clients Cannot Train -- Delegated Federated Learning for IoT",
+   "summary": "Researchers explore delegated federated learning, a setting where resource-constrained IoT devices delegate training tasks to more capable parties. An audit of 29 systems reveals a recurring composition gap where individual privacy, attribution, and offloading mechanisms fail to ensure end-to-end security. Controlled studies on Raspberry Pi devices demonstrate that encrypted inputs can still leak information and message authentication does not guarantee correct execution.",
+   "impact": "Developers and security teams working on IoT and federated learning systems may need to re-evaluate their architectures to ensure that privacy, attribution, and residual owner costs are evaluated together over the entire delegated transition rather than relying on isolated guarantees.",
+   "keyPoints": [
+    "Delegated federated learning separates data ownership from execution for resource-constrained IoT devices.",
+    "An audit of 29 systems identified a recurring composition gap across privacy, attribution, and feasibility dimensions.",
+    "Studies on Raspberry Pi devices showed that encrypted inputs can leak information through exposed residuals and split-learning gradients.",
+    "Message authentication was found to reject tampering without proving that the executor performed the prescribed computation."
+   ]
+  },
+  "km": {
+   "title": "SoK៖ នៅពេលដែលអតិថិជន FL មិនអាចបណ្តុះបណ្តាល -- ការសិក្សាសហព័ន្ធដែលបាន委托 សម្រាប់ IoT",
+   "summary": "អ្នកស្រាវជ្រាវបានពិនិត្យមើលការសិក្សាសហព័ន្ធដែលបាន委托 ដែលជាការកំណត់ដែលឧបករណ៍ IoT ដែលមានកម្រិតធនធាន 委托 ការបណ្តុះបណ្តាលទៅឱ្យភាគីដែលមានសមត្ថភាពជាង។ ការសវនកម្មលើប្រព័ន្ធចំនួន ២៩ បានរកឃើញគម្លាតសមាសភាពដដែលៗ ដែលយន្តការความเป็นส่วนตัว ការកំណត់អត្តសញ្ញាណ និងការបង្វែរការងារ មិនអាចធានាសុវត្ថិភាពចុងក្រោយដល់ចុងក្រោយបានទេ។ ការសិក្សាដែលបានគ្រប់គ្រងលើឧបករណ៍ Raspberry Pi បានបង្ហាញថា ការបញ្ចូលដែលបានអ៊ិនគ្រីបនៅតែអាចលេចធ្លាយព័ត៌មាន។",
+   "impact": "ក្រុមអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខដែលធ្វើការលើប្រព័ន្ធ IoT និងការសិក្សាសហព័ន្ធ អាចនឹងត្រូវពិនិត្យឡើងវិញនូវស្ថាបត្យកម្មរបស់ពួកគេ ដើម្បីធានាថាភាពឯកជន ការកំណត់អត្តសញ្ញាណ និងការចំណាយលើម្ចាស់ដែលនៅសល់ ត្រូវបានវាយតម្លៃរួមគ្នា។",
+   "keyPoints": [
+    "ការសិក្សាសហព័ន្ធដែលបាន委托 បំបែកភាពជាម្ចាស់ទិន្នន័យពីការប្រតិបត្តិសម្រាប់ឧបករណ៍ IoT ។",
+    "ការសវនកម្មលើប្រព័ន្ធចំនួន ២៩ បានរកឃើញគម្លាតសមាសភាពនៅទូទាំងវិមាត្រความเป็นส่วนตัว ការកំណត់អត្តសញ្ញាណ និងលទ្ធភាព។",
+    "ការសិក្សាលើ Raspberry Pi បានបង្ហាញថា ការបញ្ចូលដែលបានអ៊ិនគ្រីបអាចលេចធ្លាយព័ត៌មានតាមរយៈ residual ដែលបានបញ្ចេញ។",
+    "ការផ្ទៀងផ្ទាត់សារមិនធានាថាអ្នកប្រតិបត្តិបានអនុវត្តការគណនាដែលបានកំណត់នោះទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "SoK：当FL客户端无法训练 -- 针对物联网的委托联邦学习",
+   "summary": "研究人员探讨了委托联邦学习这一概念，适用于资源受限的物联网设备将训练任务委托给更有能力的参与方。对29个系统的审计发现了一个反复出现的组合鸿沟，即隐私、归因和计算卸载的单个机制无法确保端到端的安全性。在Raspberry Pi设备上进行的对照研究表明，加密输入仍可能通过暴露的残差泄漏信息，且消息认证无法保证执行者进行了正确的计算。",
+   "impact": "开发人员和安全团队在构建物联网和联邦学习系统时，可能需要重新评估其架构，确保在整个委托转换过程中共同评估隐私、归因和剩余所有者成本，而不是依赖孤立的保证。",
+   "keyPoints": [
+    "委托联邦学习将数据所有权与资源受限物联网设备的执行分离。",
+    "对29个系统的审计揭示了隐私、归因和可行性维度上的组合鸿沟。",
+    "在Raspberry Pi设备上的研究表明，加密输入可以通过暴露的残差和分割学习梯度泄漏信息。",
+    "消息认证可以拒绝篡改，但无法证实执行者是否执行了规定的计算。"
+   ]
+  },
+  "ko": {
+   "title": "SoK: FL 클라이언트가 학습할 수 없을 때 -- IoT를 위한 위임된 연합 학습",
+   "summary": "연구원들은 자원이 부족한 IoT 기기가 학습 작업을 더 유능한 당사자에게 위임하는 위임된 연합 학습 환경을 조사했습니다. 29개 시스템에 대한 감사 결과, 개별 프라이버시, 기인성 및 오프로딩 메커니즘이 엔드투엔드 보안을 보장하지 못하는 반복적인 구성 간극이 발견되었습니다. Raspberry Pi 기기에서 수행된 통제 연구에 따르면 암호화된 입력이 정보 유출로 이어질 수 있으며 메시지 인증이 올바른 실행을 보장하지 않는 것으로 나타났습니다.",
+   "impact": "IoT 및 연합 학습 시스템을 개발하는 개발자와 보안 팀은 고립된 보증에 의존하는 대신 전체 위임 전환 과정에서 프라이버시, 기인성, 남은 소유자 비용을 함께 평가할 수 있도록 아키텍처를 재평가해야 할 수 있습니다.",
+   "keyPoints": [
+    "위임된 연합 학습은 데이터 소유권과 리소스가 제한된 IoT 기기의 실행을 분리합니다.",
+    "29개 시스템에 대한 감사에서 프라이버시, 기인성, 타당성 차원의 구성 간극이 확인되었습니다.",
+    "Raspberry Pi 기기 연구를 통해 암호화된 입력이 노출된 잔차를 통해 정보를 유출할 수 있음이 나타났습니다.",
+    "메시지 인증은 변조를 거부할 수 있지만 실행자가 지정된 연산을 수행했음을 증명하지는 못합니다."
+   ]
+  }
+ }
+}

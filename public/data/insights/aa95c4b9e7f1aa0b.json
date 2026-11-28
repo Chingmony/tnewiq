@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "aa95c4b9e7f1aa0b",
+ "contentHash": "95015367a8b3a7fd",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T13:13:20.527Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Focus Only on What's Important: Training-Free Focus Maps for Frozen Vision Transformers in Long-Video Object Segmentation",
+   "summary": "Researchers have developed a training-free focus map for frozen DINOv3 ViT models inside a trained Cutie head for long-video object segmentation. The policy uses a union of velocity-shifted and block-matched masks alongside a camera-compensated surprise check to handle fast motion and prevent target loss. On LVOS V2, this approach outperforms ALGM while using fewer counted encoder FLOPs. However, practical tests on a 12-video sample showed that lower counted encoder compute did not decrease startup-inclusive mean Cutie step time.",
+   "impact": "This method may offer developers and researchers a way to reduce encoder compute for video object segmentation without heavily penalizing accuracy. Technology users might see efficiency improvements, though actual latency can vary depending on implementation details.",
+   "keyPoints": [
+    "A training-free focus map provides full resolution where objects are expected and coarser merging elsewhere for frozen DINOv3 ViT inside a Cutie head.",
+    "The method takes the union of velocity-shifted and block-matched masks and runs a camera-compensated surprise check.",
+    "On LVOS V2, it beats ALGM with fewer counted encoder FLOPs.",
+    "Steady-state step time was 3 to 8 percent lower, but startup-inclusive mean Cutie step time did not decrease."
+   ]
+  },
+  "km": {
+   "title": "Focus Only on What's Important: Training-Free Focus Maps for Frozen Vision Transformers in Long-Video Object Segmentation",
+   "summary": "អ្នកស្រាវជ្រាវបានបង្កើតផែនទីផ្តោតដែលមិនចាំបាច់បណ្តុះបណ្តាលសម្រាប់ DINOv3 ViT ដែលគ្មានចលនា នៅក្នុង Cutie head ដែលបានបណ្តុះបណ្តាលរួចសម្រាប់ផ្នែកវត្ថុវីដេអូរយៈពេលវែង។ វិធីសាស្ត្រនេះប្រើប្រាស់របាំងចលនា និងការត្រួតពិនិត្យភាពភ្ញាក់ផ្អើលដើម្បីទប់ទល់នឹងចលនាលឿន។ នៅលើ LVOS V2 វិធីសាស្ត្រនេះដំណើរការបានល្អជាង ALGM ខណៈពេលដែលប្រើប្រាស់ FLOPs របស់ encoder ទាបជាង។ ទោះជាយ៉ាងណាក៏ដោយ ការធ្វើតេស្តជាក់ស្តែងបានបង្ហាញថាការគណនា encoder ទាបជាងនេះមិនបានកាត់បន្ថយពេលវេលាដំណើរការ Cutie នោះទេ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍កាត់បន្ថយការគណនា encoder សម្រាប់ការបែងចែកវត្ថុក្នុងវីដេអូដោយមិនបាត់បង់ភាពត្រឹមត្រូវច្រើន។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចនឹងឃើញការប្រសើរឡើងនៃប្រសិទ្ធភាព ប៉ុន្តែភាពយឺតយ៉ាវជាក់ស្តែងអាចខុសគ្នា។",
+   "keyPoints": [
+    "ផែនទីផ្តោតដែលមិនចាំបាច់បណ្តុះបណ្តាលផ្តល់នូវកម្រិតច្បាស់ពេញលេញនៅកន្លែងដែលវត្ថុស្ថិតនៅ។",
+    "វិធីសាស្ត្រនេះរួមបញ្ចូលរបាំងល្បឿន និងការពិនិត្យភាពភ្ញាក់ផ្អើលដែលបានទូទាត់កាមេរ៉ា។",
+    "វាទទួលបានលទ្ធផលល្អជាង ALGM ជាមួយនឹង FLOPs របស់ encoder តិចជាងនៅលើ LVOS V2។",
+    "ពេលវេលាជំហានមធ្យមមិនបានថយចុះនោះទេ παρά ឱ្យការគណនា encoder ធ្លាក់ចុះ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Focus Only on What's Important: Training-Free Focus Maps for Frozen Vision Transformers in Long-Video Object Segmentation",
+   "summary": "研究人员为长视频对象分割中训练好的 Cutie head 内的冻结 DINOv3 ViT 开发了一种无需训练的焦点图。该策略采用速度偏移和块匹配掩码的并集，并运行相机补偿的突发检查来处理快速运动并防止目标丢失。在 LVOS V2 上，该方法在减少编码器 FLOPs 的同时优于 ALGM。然而，在 12 个视频样本上的实际测试表明，较低的编码器计算量并未减少包含启动在内的平均 Cutie 步长耗时。",
+   "impact": "该方法可能为开发人员和研究人员提供一种在不严重牺牲准确性的情况下减少视频对象分割编码器计算量的方法。技术用户可能会看到效率的提升，尽管实际延迟可能会根据实现细节而有所不同。",
+   "keyPoints": [
+    "无需训练的焦点图在分割器期望对象的位置提供全分辨率，在其他地方进行更粗糙的合并。",
+    "该策略结合了速度偏移和块匹配掩码以及相机补偿的突发检查。",
+    "在 LVOS V2 上，它以更少的编码器 FLOPs 击败了 ALGM。",
+    "尽管编码器计算量减少，但在 12 个视频样本上的启动包含平均 Cutie 步长耗时并未减少 3% 到 8% 以外的明显改善。"
+   ]
+  },
+  "ko": {
+   "title": "Focus Only on What's Important: Training-Free Focus Maps for Frozen Vision Transformers in Long-Video Object Segmentation",
+   "summary": "연구진은 긴 비디오 객체 세분화를 위해 학습된 Cutie head 내부의 고정된 DINOv3 ViT를 위한 훈련이 필요 없는 포커스 맵을 개발했습니다. 이 정책은 빠른 움직임을 처리하고 대상 손실을 방지하기 위해 속도가 이동된 마스크와 블록이 일치하는 마스크의 결합을 사용하고 카메라 보정 서프라이즈 검사를 실행합니다. LVOS V2에서 이 접근 방식은 더 적은 인코더 FLOP를 사용하면서 ALGM보다 성능이 뛰어납니다. 그러나 12개 비디오 샘플에 대한 실제 테스트에서는 인코더 연산 감소가 시작을 포함한 평균 Cutie 단계 시간을 감소시키지 못한 것으로 나타났습니다.",
+   "impact": "이 방법은 개발자와 연구원에게 정확도를 크게 떨어뜨리지 않고 비디오 객체 세분화를 위한 인코더 연산을 줄일 수 있는 방법을 제공할 수 있습니다. 기술 사용자들은 효율성 향상을 기대할 수 있지만, 실제 지연 시간은 구현 세부 사항에 따라 다를 수 있습니다.",
+   "keyPoints": [
+    "훈련이 필요 없는 포커스 맵은 객체가 예상되는 곳에서는 전체 해상도를 제공하고 다른 곳에서는 더 거칠게 병합합니다.",
+    "이 정책은 속도 이동 및 블록 일치 마스크의 결합과 카메라 보정 서프라이즈 검사를 실행합니다.",
+    "LVOS V2에서 더 적은 인코더 FLOP로 ALGM을 능가합니다.",
+    "인코더 연산 감소에도 불구하고 시작을 포함한 평균 Cutie 단계 시간은 줄어들지 않았습니다."
+   ]
+  }
+ }
+}

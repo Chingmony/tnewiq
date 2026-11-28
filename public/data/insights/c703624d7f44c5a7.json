@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "c703624d7f44c5a7",
+ "contentHash": "a9b9669bc3bc8db7",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T13:15:14.494Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Full Structure Recovery of Linearized Reed-Solomon Codes",
+   "summary": "Researchers have proposed a new polynomial-time procedure for the full structure recovery of Linearized Reed-Solomon (LRS) codes using only an arbitrary generator matrix. Previous methods for recovering the LRS structure were either not fully general or featured prohibitive computational complexity. The new approach combines Overbeck-type attacks with matrix manipulations and shortening techniques to recover evaluation parameters across various code dimensions.",
+   "impact": "These findings suggest that LRS codes cannot be used securely in their current form for McEliece-like encryption. Security teams and cryptographers may need to reconsider utilizing LRS codes directly in post-quantum code-based cryptography.",
+   "keyPoints": [
+    "Linearized Reed-Solomon codes generalize Reed-Solomon and Gabidulin codes.",
+    "A new polynomial-time procedure recovers LRS structure from an arbitrary generator matrix alone.",
+    "The method combines Overbeck-type attacks, matrix manipulations, and shortening techniques.",
+    "Results indicate LRS codes are unsuitable for McEliece-like encryption in their current form."
+   ]
+  },
+  "km": {
+   "title": "ការសង្គ្រោះរចនាសម្ព័ន្ធពេញលេញនៃ Linearized Reed-Solomon Codes",
+   "summary": "អ្នកស្រាវជ្រាវបានស្នើឡើងនូវនីតិវិធីពេលវេលាពហុធាថ្មីមួយសម្រាប់ការសង្គ្រោះរចនាសម្ព័ន្ធពេញលេញនៃ Linearized Reed-Solomon (LRS) codes ដោយប្រើប្រាស់តែម៉ាទ្រីសជំនាន់តាមអំពើចិត្តប៉ុណ្ណោះ។ វិធីសាស្ត្រមុនៗសម្រាប់ការសង្គ្រោះរចនាសម្ព័ន្ធ LRS គឺមិនទូទៅទាំងស្រុង ឬមានភាពស្មុគស្មាញផ្នែកកុំព្យូទ័រខ្ពស់ពេក។ វិធីសាស្ត្រថ្មីនេះរួមបញ្ចូលការវាយប្រហារប្រភេទ Overbeck ជាមួយនឹងការកែច្នៃម៉ាទ្រីស និងបច្ចេកទេសបង្រួមដើម្បីសង្គ្រោះប៉ារ៉ាម៉ែត្រវាយតម្លៃ។",
+   "impact": "លទ្ធផលទាំងនេះបង្ហាញថា LRS codes មិនអាចត្រូវបានប្រើប្រាស់ដោយសុវត្ថិភាពក្នុងទម្រង់បច្ចុប្បន្នរបស់វាសម្រាប់ McEliece-like encryption នោះទេ។ អ្នកអភិវឌ្ឍន៍ និងអ្នកជំនាញសន្តិសុខប្រហែលជាត្រូវពិចារណាម្តងទៀតលើការប្រើប្រាស់ LRS codes ក្នុងការគ្រីបតូግራフィーផ្អែកលើកូដក្រោយសម័យកង់ទ្រូម។",
+   "keyPoints": [
+    "Linearized Reed-Solomon codes គឺជាកូដផលបូក-រ៉ែងដ៏ល្អប្រសើរ។",
+    "នីតិវិធីពេលវេលាពហុធាថ្មីអាចសង្គ្រោះរចនាសម្ព័ន្ធ LRS ពីម៉ាទ្រីសជំនាន់តាមអំពើចិត្ត។",
+    "វិធីសាស្ត្រនេះរួមបញ្ចូលការវាយប្រហារប្រភេទ Overbeck និងបច្ចេកទេសម៉ាទ្រីស។",
+    "ការរកឃើញបង្ហាញថា LRS codes មិនស័ក្តិសមសម្រាប់ McEliece-like encryption ទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "线性里德-索洛蒙码的完全结构恢复",
+   "summary": "研究人员提出了一种新的多项式时间程序，仅凭任意生成矩阵就可以完全恢复线性里德-索洛蒙（LRS）码的结构。先前恢复LRS结构的方法要么不够通用，要么具有过高的计算复杂性。这种新方法将奥弗贝克式攻击与适当的矩阵操作和缩短技术相结合，恢复了不同代码维度的评估参数。",
+   "impact": "这些结果表明，LRS码目前不能直接用于类麦克埃利斯（McEliece-like）加密。安全团队和密码学研究人员可能需要重新评估在后量子基于代码的密码学中直接使用LRS码的安全性。",
+   "keyPoints": [
+    "线性里德-索洛蒙码是广义的和秩度量码。",
+    "新提出的多项式时间程序仅通过任意生成矩阵即可恢复LRS结构。",
+    "该方法结合了奥弗贝克式攻击、矩阵操作和缩短技术。",
+    "研究表明LRS码不能直接用于类麦克埃利斯加密。"
+   ]
+  },
+  "ko": {
+   "title": "Linearized Reed-Solomon Codes의 완전한 구조 복구",
+   "summary": "연구원들은 임의의 생성 행렬만을 사용하여 Linearized Reed-Solomon (LRS) codes의 완전한 구조를 복구할 수 있는 새로운 다항식 시간 절차를 제안했습니다. 이전의 LRS 구조 복구 방법들은 완전히 일반적이지 않거나 계산 복잡성이 너무 높았습니다. 이 새로운 접근 방식은 오버베크 유형 공격과 적절한 행렬 조작 및 단축 기법을 결합하여 다양한 코드 차원에 걸쳐 평가 매개변수를 복구합니다.",
+   "impact": "이러한 결과는 LRS codes가 현재 상태로는 McEliece-like 암호화에 그대로 사용될 수 없음을 시사합니다. 보안 팀과 기술 사용자들은 양자 후 코드 기반 암호화에서 LRS codes의 직접적인 활용을 재고해야 할 수 있습니다.",
+   "keyPoints": [
+    "Linearized Reed-Solomon codes는 최적의 합-계수 메트릭 코드입니다.",
+    "새로운 다항식 시간 절차는 임의의 생성 행렬만으로 LRS 구조를 복구합니다.",
+    "이 접근 방식은 오버베크 유형 공격과 행렬 조작 기법을 결합합니다.",
+    "결과에 따르면 LRS codes는 McEliece-like 암호화에 그대로 사용될 수 없습니다."
+   ]
+  }
+ }
+}

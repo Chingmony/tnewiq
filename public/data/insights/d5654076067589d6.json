@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "d5654076067589d6",
+ "contentHash": "2f4d2f30a09cbe46",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T13:12:38.311Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
+   "summary": "Researchers studied whether coding agent patches are over-edited by introducing Delta Residue Attribution (DRA) to trace and test every block of a patch. Applying DRA to 7,660 GitHub Copilot CLI trajectories from 18 frontier models on SWE-bench Verified and DeepSWE revealed that agent patches change more lines than developer patches, primarily adding tests and documentation on SWE-bench Verified and code on DeepSWE. The study found that agents' code is on average at least as necessary as developers' code, though some unneeded code remains.",
+   "impact": "This study helps developers and security teams understand the nature of code modifications made by AI agents, indicating that extra edits often consist of valuable tests and documentation rather than useless alterations. Technology users and model creators could use these findings and evaluation methods like DRA to improve agent training and harness-level pruning.",
+   "keyPoints": [
+    "Delta Residue Attribution (DRA) replays trajectories and reverts patch units to test if they are needed.",
+    "On SWE-bench Verified, 61% of extra agent edits add tests and 13% add documentation, while on DeepSWE, 58% are code.",
+    "Agents' code is on average at least as necessary as developers' code across the evaluated models.",
+    "The authors recommend that benchmarks report code necessity alongside resolve rates and address over-editing via model training and harness-level pruning."
+   ]
+  },
+  "km": {
+   "title": "តើភ្នាក់ងារសរសេរកូដកែសម្រួលលើសកំណត់កម្រិតណា ហើយហេតុអ្វី? ការសិក្សាជាក់ស្តែងនៃការកែសម្រួលដែលមិនចាំបាច់នៅក្នុងបំណះភ្នាក់ងារកម្រិតឃ្លាំងកូដ",
+   "summary": "អ្នកស្រាវជ្រាវបានសិក្សាថាតើបំណះរបស់ភ្នាក់ងារសរសេរកូដត្រូវបានកែសម្រួលលើសកម្រិតដែរឬទេ ដោយណែនាំវិធីសាស្ត្រ Delta Residue Attribution (DRA) ដើម្បីតាមដាន និងសាកល្បងរាល់ប្លុកនៃបំណះ។ ការអនុវត្ត DRA លើគន្លង GitHub Copilot CLI ចំនួន 7,660 ពីម៉ូដែលទំនើបចំនួន 18 លើ SWE-bench Verified និង DeepSWE បានបង្ហាញថាបំណះរបស់ភ្នាក់ងារផ្លាស់ប្តូរបន្ទាត់ច្រើនជាងអ្នកអភិវឌ្ឍន៍ ដោយភាគច្រើនបន្ថែមការធ្វើតេស្ត និងឯកសារនៅលើ SWE-bench Verified និងកូដនៅលើ DeepSWE។ ការសិក្សានេះបានរកឃើញថា កូដរបស់ភ្នាក់ងារគឺមានសារៈសំខាន់យ៉ាងហោចណាស់ក៏ស្មើនឹងអ្នកអភិវឌ្ឍន៍ដែរជាមធ្យម ទោះបីជាមានកូដដែលមិនចាំបាច់នៅសល់ខ្លះក៏ដោយ។",
+   "impact": "ការសិក្សានេះជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខឱ្យយល់ពីលក្ខណៈនៃការកែប្រែកូដដែលបង្កើតឡើងដោយភ្នាក់ងារ AI ដែលបង្ហាញថាការកែសម្រួលបន្ថែមច្រើនតែជាការធ្វើតេស្ត និងឯកសារដែលមានតម្លៃ ជាជាងការកែប្រែគ្មានប្រយោជន៍។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យា និងអ្នកបង្កើតម៉ូដែលអាចប្រើប្រាស់ការរកឃើញទាំងនេះ និងវិធីសាស្ត្រវាយតម្លៃដូចជា DRA ដើម្បីកែលម្អការបណ្តុះបណ្តាលភ្នាក់ងារ។",
+   "keyPoints": [
+    "Delta Residue Attribution (DRA) ដំណើរការគន្លងឡើងវិញ និងដកខ្នាតបំណះដើម្បីសាកល្បងថាតើវាចាំបាច់ដែរឬទេ។",
+    "នៅលើ SWE-bench Verified ការកែសម្រួលបន្ថែមរបស់ភ្នាក់ងារ 61% បន្ថែមការធ្វើតេស្ត និង 13% បន្ថែមឯកសារ ចំណែកឯលើ DeepSWE 58% គឺជាកូដ។",
+    "កូដរបស់ភ្នាក់ងារគឺមានសារៈសំខាន់យ៉ាងហោចណាស់ក៏ស្មើនឹងកូដរបស់អ្នកអភិវឌ្ឍន៍ដែរជាមធ្យមនៅទូទាំងម៉ូដែលដែលបានវាយតម្លៃ។",
+    "អ្នកនិពន្ធណែនាំឱ្យតារាងកំណត់ស្តង់ដាររាយការណ៍អំពីសារៈសំខាន់នៃកូដរួមជាមួយនឹងអត្រាដោះស្រាយផងដែរ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "编码智能体过度编辑了多少，原因何在？关于仓库级智能体补丁中不必要编辑的实证研究",
+   "summary": "研究人员通过引入Delta Residue Attribution (DRA)来追踪和测试补丁的每个区块，研究了编码智能体补丁是否存在过度编辑的情况。将DRA应用于来自18个前沿模型的7,660个GitHub Copilot CLI轨迹（在SWE-bench Verified和DeepSWE上），结果显示智能体补丁比开发者的补丁修改了更多行，在SWE-bench Verified上主要是添加测试（61%）和文档（13%），而在DeepSWE上主要是代码（58%）。研究发现，智能体的代码平均至少与开发者的代码一样必要，尽管仍存在一些不必要的代码。",
+   "impact": "这项研究帮助开发者和安全团队了解AI智能体所做代码修改的性质，表明额外的编辑往往包含有价值的测试和文档，而不是无用的改动。技术用户和模型创建者可以利用这些发现和诸如DRA之类的评估方法来改进智能体训练和基准层面的修剪。",
+   "keyPoints": [
+    "Delta Residue Attribution (DRA)会重新运行轨迹并还原补丁单元以决定其是否必要。",
+    "在SWE-bench Verified上，61%的智能体额外编辑用于添加测试，13%用于添加文档，而在DeepSWE上58%为代码。",
+    "在所有评估的模型中，智能体的代码平均至少与开发者的代码一样必要。",
+    "作者建议基准测试报告代码必要性以及解决率，并通过模型训练和修剪来解决过度编辑问题。"
+   ]
+  },
+  "ko": {
+   "title": "코딩 에이전트는 얼마나 과도하게 수정하며, 그 이유는 무엇인가? 리포지토리 수준의 에이전트 패치에 나타난 불필요한 수정에 대한 실증적 연구",
+   "summary": "연구진은 패치의 모든 블록을 추적하고 테스트하기 위해 Delta Residue Attribution (DRA)을 도입하여 코딩 에이전트 패치가 과도하게 수정되는지 여부를 연구했습니다. SWE-bench Verified와 DeepSWE에서 18개의 최첨단 모델이 수행한 7,660개의 GitHub Copilot CLI 궤적에 DRA를 적용한 결과, 에이전트 패치는 개발자 패치보다 더 많은 줄을 변경하는 것으로 나타났으며 SWE-bench Verified에서는 주로 테스트(61%)와 문서(13%)를 추가하고 DeepSWE에서는 코드(58%)를 추가하는 것으로 나타났습니다. 연구에 따르면 에이전트의 코드는 불필요한 코드가 일부 남아 있음에도 불구하고 평균적으로 개발자의 코드 못지않게 필수적인 것으로 나타났습니다.",
+   "impact": "이번 연구는 개발자와 보안 팀이 AI 에이전트가 수행한 코드 수정의 성격을 이해하는 데 도움을 주며, 추가 수정이 쓸모없는 변경 사항이 아니라 가치 있는 테스트와 문서를 포함하는 경우가 많음을 시사합니다. 기술 사용자 및 모델 제작자는 이러한 연구 결과와 DRA 같은 평가 방법을 활용하여 에이전트 교육 및 하네스 수준의 프루닝을 개선할 수 있습니다.",
+   "keyPoints": [
+    "Delta Residue Attribution (DRA)은 궤적을 다시 실행하고 패치 단위를 되돌려 해당 단위가 필요한지 여부를 결정합니다.",
+    "SWE-bench Verified에서는 에이전트의 추가 수정 중 61%가 테스트를 추가하고 13%가 문서를 추가하며, DeepSWE에서는 58%가 코드입니다.",
+    "평가된 모델 전반에서 에이전트의 코드는 평균적으로 개발자의 코드만큼 필수적입니다.",
+    "저자들은 벤치마크가 해결률과 함께 코드 필수성을 보고하고 모델 교육 및 프루닝을 통해 과도한 수정을 해결할 것을 권장합니다."
+   ]
+  }
+ }
+}

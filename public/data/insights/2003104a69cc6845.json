@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2003104a69cc6845",
+ "contentHash": "117b0e0936a2de84",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T13:12:58.999Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "A Survey of Security, Privacy, and Ethics of Large Language Models in Telecom",
+   "summary": "A new paper surveys the security, privacy, and ethics risks of Large Language Models integrated into telecommunications. It highlights challenges arising from sensitive telecom data and introduces a telecom-specific taxonomy. The study also outlines open research challenges including longitudinal data privacy, cross-border compliance, and scalable guardrails.",
+   "impact": "This research could help developers and security teams understand specific risks related to LLMs in telecom environments. It may guide the implementation of better safeguards and compliance strategies for sensitive data.",
+   "keyPoints": [
+    "LLMs are increasingly used in telecom for customer service and network analytics.",
+    "The paper introduces a telecom-specific taxonomy linking privacy, security, and ethics with use cases.",
+    "Open research challenges include longitudinal data privacy and cross-border compliance."
+   ]
+  },
+  "km": {
+   "title": "ការស្ទង់មតិស្តីពីសុវត្ថិភាព ភាពឯកជន និងក្របខ័ណ្ឌសីលធម៌នៃ Large Language Models ក្នុងវិស័យទូរគមនាគមន៍",
+   "summary": "ឯកសារស្រាវជ្រាវថ្មីមួយបានស្ទង់មតិអំពីហានិភ័យសុវត្ថិភាព ភាពឯកជន និងសីលធម៌នៃការប្រើប្រាស់ Large Language Models នៅក្នុងវិស័យទូរគមនាគមន៍។ វាបានលើកឡើងពីបញ្ហាប្រឈមដែលកើតចេញពីទិន្នន័យទូរគមនាគមន៍ដែលមានភាពរសើប និងបានណែនាំនូវប្រព័ន្ធចាត់ថ្នាក់ជាក់លាក់សម្រាប់វិស័យនេះ។ ការសិក្សានេះក៏បានបង្ហាញផងដែរអំពីបញ្ហាប្រឈមក្នុងការស្រាវជ្រាវដែលនៅបើកចំហ រួមមានភាពឯកជននៃទិន្នន័យរយៈពេលវែង ការអនុលោមតាមច្បាប់ឆ្លងដែន និងរបាំងការពារដែលអាចពង្រីកបាន។",
+   "impact": "ការស្រាវជ្រាវនេះអាចជួយដល់អ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខក្នុងការយល់ដឹងពីហានិភ័យជាក់លាក់ទាក់ទងនឹង LLMs នៅក្នុងបរិយាកាសទូរគមនាគមន៍។ វាអាចជាការណែនាំដល់ការអនុវត្តវិធានការការពារ និងយុទ្ធសាស្ត្រអនុលោមភាពកាន់តែប្រសើរសម្រាប់ទិន្នន័យរសើប។",
+   "keyPoints": [
+    "Large Language Models ត្រូវបានប្រើប្រាស់កាន់តែច្រើនឡើងនៅក្នុងវិស័យទូរគមនាគមន៍សម្រាប់សេវាកម្មអតិថិជន និងការវិភាគបណ្តាញ។",
+    "ឯកសារនេះបានណែនាំប្រព័ន្ធចាត់ថ្នាក់ជាក់លាក់សម្រាប់ទូរគមនាគមន៍ដែលភ្ជាប់ភាពឯកជន សុវត្ថិភាព និងសីលធម៌ជាមួយនឹងករណីប្រើប្រាស់។",
+    "បញ្ហាប្រឈមស្រាវជ្រាវដែលនៅបើកចំហរួមមានភាពឯកជនទិន្នន័យរយៈពេលវែង និងការអនុលោមតាមច្បាប់ឆ្លងដែន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "电信领域大语言模型安全、隐私与伦理综述",
+   "summary": "一篇新论文对电信领域中集成的大语言模型的安全、隐私和伦理风险进行了综述。该研究强调了由于敏感电信数据而引发的挑战，并引入了电信专属的分类法。论文还概述了未解决的研究挑战，包括纵向数据隐私、跨境合规以及可扩展的防护措施。",
+   "impact": "这项研究可以帮助开发人员和安全团队了解电信环境中与LLM相关的特定风险。它可能会指导针对敏感数据实施更好的防护和合规策略。",
+   "keyPoints": [
+    "大语言模型正日益被集成到电信领域的客户服务和网络分析中。",
+    "该论文引入了一个将隐私、安全和伦理与用例联系起来的电信专属分类法。",
+    "未解决的研究挑战包括纵向数据隐私和跨境合规。"
+   ]
+  },
+  "ko": {
+   "title": "통신 분야 대규모 언어 모델의 보안, 프라이버시 및 윤리 조사",
+   "summary": "새로운 논문은 통신 분야에 통합된 Large Language Models의 보안, 프라이버시 및 윤리적 위험에 대한 조사를 제시합니다. 이 연구는 민감한 통신 데이터로 인해 발생하는 과제를 강조하고 통신 전용 분류 체계를 도입합니다. 또한 종단간 데이터 프라이버시, 국경 간 규정 준수, 확장 가능한 가이드레일 등 향후 연구 과제를 개략적으로 설명합니다.",
+   "impact": "이 연구는 개발자와 보안 팀이 통신 환경에서 LLM과 관련된 특정 위험을 이해하는 데 도움을 줄 수 있습니다. 민감한 데이터를 위한 더 나은 보호 조치 및 규정 준수 전략의 구현을 안내할 수 있습니다.",
+   "keyPoints": [
+    "Large Language Models는 고객 서비스 및 네트워크 분석을 위해 통신 분야에 점점 더 많이 통합되고 있습니다.",
+    "이 논문은 프라이버시, 보안, 윤리를 유스케이스와 연결하는 통신 전용 분류 체계를 소개합니다.",
+    "미해결 연구 과제로는 종단 데이터 프라이버시와 국경 간 규정 준수가 있습니다."
+   ]
+  }
+ }
+}

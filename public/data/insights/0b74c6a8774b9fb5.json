@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0b74c6a8774b9fb5",
+ "contentHash": "4c77b4ee14924385",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T13:14:11.742Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+   "summary": "Researchers have introduced DRBench Pro, a new benchmark designed to provide a knowledge-centric evaluation for professional deep research agents. The benchmark uses an automated pipeline to build local knowledge trees and generate evidence-grounded rubrics from Wikipedia to measure both research breadth and depth. It contains 144 cases across 24 domains and 44,102 rubrics, allowing for structured measurement of knowledge coverage.",
+   "impact": "This benchmark could help developers and evaluation teams systematically assess the capabilities of deep research agents in covering major research directions and exploring knowledge chains deeply. The findings from testing 16 agents may guide improvements in agent performance and accuracy.",
+   "keyPoints": [
+    "DRBench Pro makes structured knowledge coverage the primary evaluation target for deep research agents.",
+    "The benchmark includes 144 cases spanning 24 domains and a total of 44,102 rubrics.",
+    "Evaluation of 16 deep research agents showed the top-performing agent reached 57.04% overall coverage."
+   ]
+  },
+  "km": {
+   "title": "DRBench Pro៖ ការវាស់ស្ទង់ផ្អែកលើចំណេះដឹងសម្រាប់ភ្នាក់ងារស្រាវជ្រាវជ្រៅប្រកបដោយវិជ្ជាជីវៈ",
+   "summary": "អ្នកស្រាវជ្រាវបានដាក់បង្ហាញ DRBench Pro ដែលជាការវាស់ស្ទង់ថ្មីមួយត្រូវបានបង្កើតឡើងដើម្បីផ្តល់នូវការវាយតម្លៃផ្អែកលើចំណេះដឹងសម្រាប់ភ្នាក់ងារស្រាវជ្រាវជ្រៅប្រកបដោយវិជ្ជាជីវៈ។ ការវាស់ស្ទង់នេះប្រើប្រាស់ប្រព័ន្ធស្វ័យប្រវត្តិដើម្បីបង្កើតមែកធាងចំណេះដឹងមូលដ្ឋាន និងបង្កើតលក្ខខណ្ឌវាយតម្លៃពី Wikipedia ដើម្បីវាស់វែងទាំងទទឹង និងជម្រៅនៃការស្រាវជ្រាវ។ វាមានករណីចំនួន 144 ឆ្លងកាត់ដែនចំនួន 24 និងលក្ខខណ្ឌវាយតម្លៃចំនួន 44,102 ។",
+   "impact": "ការវាស់ស្ទង់នេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមវាយតម្លៃក្នុងការវាយតម្លៃជាប្រព័ន្ធនូវសមត្ថភាពរបស់ភ្នាក់ងារស្រាវជ្រាវជ្រៅ។ លទ្ធផលពីការធ្វើតេស្តភ្នាក់ងារចំនួន 16 អាចណែនាំពីការកែលម្អលើដំណើរការនិងភាពត្រឹមត្រូវរបស់ភ្នាក់ងារ។",
+   "keyPoints": [
+    "DRBench Pro ធ្វើឱ្យការគ្របដណ្តប់ចំណេះដឹងមានរចនាសម្ព័ន្ធជាគោលដៅវាយតម្លៃចម្បងសម្រាប់ភ្នាក់ងារស្រាវជ្រាវជ្រៅ។",
+    "ការវាស់ស្ទង់នេះរួមបញ្ចូលទាំងករណីចំនួន 144 ដែលគ្របដណ្តប់លើដែនចំនួន 24 និងលក្ខខណ្ឌចំនួន 44,102 ។",
+    "ការវាយតម្លៃលើភ្នាក់ងារស្រាវជ្រាវជ្រៅចំនួន 16 បានបង្ហាញថាភ្នាក់ងារដែលមានដំណើរការល្អបំផុតទទួលបានការគ្របដណ្តប់សរុប 57.04% ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "DRBench Pro：面向专业深度研究智能体的知识中心型基准测试",
+   "summary": "研究人员推出了 DRBench Pro，这是一个旨在为专业深度研究智能体提供知识中心型评估的新基准测试。该基准使用自动化流程从 Wikipedia 构建本地知识树并生成有证据支持的评分标准，以衡量研究的广度和深度。它包含跨越 24 个领域的 144 个案例以及 44,102 个评分标准，从而实现对知识覆盖率的结构化测量。",
+   "impact": "该基准测试可能帮助开发人员和评估团队系统地评估深度研究智能体在涵盖主要研究方向和深入探索知识链方面的能力。对 16 个智能体的测试结果可能会指导智能体性能和准确性的提升。",
+   "keyPoints": [
+    "DRBench Pro 将结构化知识覆盖率作为深度研究智能体的主要评估目标。",
+    "该基准测试包含跨越 24 个领域的 144 个案例和 44,102 个评分标准。",
+    "对 16 个深度研究智能体的评估显示，表现最好的智能体达到了 57.04% 的总体覆盖率。"
+   ]
+  },
+  "ko": {
+   "title": "DRBench Pro: 전문 심층 연구 에이전트를 위한 지식 중심 벤치마크",
+   "summary": "연구원들은 전문 심층 연구 에이전트를 위해 지식 중심 평가를 제공하도록 설계된 새로운 벤치마크인 DRBench Pro를 소개했습니다. 이 벤치마크는 자동화된 파이프라인을 사용하여 Wikipedia에서 로컬 지식 트리를 구축하고 증거 기반 채점 기준을 생성하여 연구의 폭과 깊이를 측정합니다. 24개 도메인에 걸친 144개의 사례와 44,102개의 채점 기준을 포함하여 지식 커버리지를 구조화된 방식으로 측정할 수 있습니다.",
+   "impact": "이 벤치마크는 개발자와 평가 팀이 주요 연구 방향을 다루고 지식 체인을 깊이 있게 탐색하는 심층 연구 에이전트의 역량을 체계적으로 평가하는 데 도움이 될 수 있습니다. 16개의 에이전트를 테스트한 결과는 에이전트의 성능과 정확성을 향상시키는 지침이 될 수 있습니다.",
+   "keyPoints": [
+    "DRBench Pro는 구조화된 지식 커버리지를 심층 연구 에이전트의 주요 평가 목표로 삼습니다.",
+    "이 벤치마크에는 24개 도메인에 걸친 144개의 사례와 44,102개의 채점 기준이 포함되어 있습니다.",
+    "16개의 심층 연구 에이전트를 평가한 결과, 가장 우수한 성능을 보인 에이전트는 57.04%의 전체 커버리지에 도달했습니다."
+   ]
+  }
+ }
+}
