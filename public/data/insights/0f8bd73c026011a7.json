@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0f8bd73c026011a7",
+ "contentHash": "1fe17cca7cb0f03a",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T04:01:48.298Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
+   "summary": "This paper studies AI-native communications using autoencoders to replace traditional physical-layer operations. It explores the sensitivity of these models to training-test channel mismatches, noting severe degradation when models trained on AWGN channels are applied to Rayleigh fading with practical impairments. To address this, the researchers propose a low-latency transfer-learning procedure that fine-tunes a small subset of layers while freezing the rest.",
+   "impact": "This approach could help developers and engineers adapt AI-native communication systems to new channel conditions more efficiently. By reducing training time, energy consumption, and compute requirements, it may enable resource-efficient implementations in practical hardware.",
+   "keyPoints": [
+    "End-to-end physical-layer learning replaces traditional modulation, coding, and detection with a jointly trained autoencoder.",
+    "Models trained on AWGN channels suffer severe performance degradation on Rayleigh fading channels with front-end impairments.",
+    "A proposed transfer-learning procedure fine-tunes only a small subset of layers, preserving learned signal geometry while adapting to new conditions.",
+    "Partial updates remove mismatch-induced error floors while cutting training time, energy consumption, and MAC operations."
+   ]
+  },
+  "km": {
+   "title": "ការបរស្តាប់វិសាលគមនៃទំនាក់ទំនង Autoencoder ដើមកំណើត AI ជាមួយនឹង Transfer Learning",
+   "summary": "អត្ថបទនេះសិក្សាពីទំនាក់ទំនងដែលប្រើប្រាស់ AI ដោយផ្ទាល់ ដោយជំនួសប្រតិបត្តិការស្រទាប់រូបវន្តបែបប្រពៃណីជាមួយនឹង autoencoder ។ ការស្រាវជ្រាវនេះបានរកឃើញថា ម៉ូដែលដែលបានបណ្តុះបណ្តាលលើបណ្តាញ AWGN មានដំណើរការធ្លាក់ចុះយ៉ាងខ្លាំងនៅពេលប្តូរទៅប្រើប្រាស់លើបណ្តាញ Rayleigh fading ។ ដើម្បីកាត់បន្ថយពេលវេលា និងថាមពលក្នុងការសម្របខ្លួន អ្នកស្រាវជ្រាវបានស្នើវិធីសាស្ត្រ transfer-learning ដែលធ្វើបច្ចុប្បន្នភាពស្រទាប់មួយចំនួនតូចប៉ុណ្ណោះ។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយដល់ក្រុមអភិវឌ្ឍន៍ក្នុងការសម្របប្រព័ន្ធទំនាក់ទំនង AI ទៅនឹងលក្ខខណ្ឌឆានែលថ្មីប្រកបដោយប្រសិទ្ធភាព។ ការកាត់បន្ថយពេលវេលាបណ្តុះបណ្តាល និងថាមពល អាចផ្តល់លទ្ធភាពដល់ការអនុវត្តជាក់ស្តែងដែលមានប្រសិទ្ធភាពខ្ពស់លើធនធាន។",
+   "keyPoints": [
+    "ការសិក្សាស្រទាប់រូបវន្តជំនួសការកែច្នៃសញ្ញាបែបប្រពៃណីដោយប្រើប្រាស់ autoencoder ដែលបានបណ្តុះបណ្តាលរួមគ្នា។",
+    "ម៉ូដែលដែលបានបណ្តុះបណ្តាលលើ AWGN បាត់បង់ប្រសិទ្ធភាពយ៉ាងខ្លាំងលើ Rayleigh fading ។",
+    "នីតិវិធី transfer-learning ដែលបានស្នើឡើងធ្វើការកែសម្រួលស្រទាប់មួយចំនួនតូចប៉ុណ្ណោះដើម្បីរក្សារចនាសម្ព័ន្ធសញ្ញា។",
+    "ការធ្វើបច្ចុប្បន្នភាពដោយផ្នែកអាចកាត់បន្ថយអត្រាគ្រោះថ្នាក់ និងកាត់បន្ថយពេលវេលាបណ្តុះបណ្តាលព្រមទាំងថាមពល។"
+   ]
+  },
+  "zh-CN": {
+   "title": "利用迁移学习实现AI原生自编码器通信的频谱自适应",
+   "summary": "本文研究了使用自编码器替代传统物理层操作的AI原生通信。研究发现，仅在AWGN信道上训练的模型在面对带有实际 impairments 的 Rayleigh 衰落信道时性能会严重下降。为了降低适应新信道条件所需的的时间和能量，研究人员提出了一种低延迟的迁移学习方案，该方案仅微调一小部分层而冻结其余部分。",
+   "impact": "这种方法可以帮助开发人员和工程团队更高效地将AI原生通信系统适应于新的信道条件。通过减少训练时间、能耗和计算需求，它可能在实际硬件实现中带来更高的资源效率。",
+   "keyPoints": [
+    "端到端物理层学习使用联合训练的自编码器替代了传统的调制、编码和检测操作。",
+    "在AWGN信道上训练的模型在具有前端损伤的Rayleigh衰落信道下性能急剧下降。",
+    "提出的迁移学习过程仅微调一小部分层，同时冻结其余参数以保留学到的信号几何结构。",
+    "部分更新消除了失配引起的误码平台，同时减少了训练时间、能耗和MAC操作。"
+   ]
+  },
+  "ko": {
+   "title": "전이 학습을 이용한 AI 네이티브 오토인코더 통신의 스펙트럼 적응",
+   "summary": "이 논문은 전통적인 물리층 연산을 오토인코더로 대체하는 AI 네이티브 통신을 연구합니다. AWGN 채널에서만 학습된 모델은 실제적인 손상이 있는 Rayleigh 페이딩 환경에서 성능이 심각하게 저하됨을 확인했습니다. 새로운 채널 조건에 적응하는 데 드는 시간과 에너지를 줄이기 위해, 연구진은 소수의 레이어만 미세 조정하고 나머지는 고정하는 저지연 전이 학습 절차를 제안합니다.",
+   "impact": "이 접근 방식은 개발자와 엔지니어들이 AI 네이티브 통신 시스템을 새로운 채널 조건에 더 효율적으로 적응시키는 데 도움을 줄 수 있습니다. 학습 시간, 에너지 소비, 연산 요구량을 줄여줌으로써 자원 효율적인 구현을 가능하게 할 수 있습니다.",
+   "keyPoints": [
+    "단대단 물리층 학습은 전통적인 변조, 코딩, 검출 작업을 공동 학습된 오토인코더로 대체합니다.",
+    "AWGN 채널에서 학습된 모델은 프런트엔드 손상이 있는 Rayleigh 페이딩에서 성능이 크게 저하됩니다.",
+    "제안된 전이 학습 절차는 소수의 레이어만 미세 조정하여 학습된 신호 구조를 보존합니다.",
+    "부분 업데이트는 오류 플로어를 제거하고 학습 시간, 에너지 소비, 연산량을 절감합니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "bedee2e9acb0a56a",
+ "contentHash": "00a1c584cc0d4b49",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T03:58:27.517Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "datasette-charts 0.4a0",
+   "summary": "datasette-charts 0.4a0 has been released, addressing friction points found while testing the plugin hook for custom chart types with an experimental plugin built by Claude Opus 5.5. These updates aim to make building additional chart plugins more ergonomic. Additionally, a new website at charts.datasette.io has been launched, featuring a tutorial for plugin authors and a gallery with interactive demos on Datasette Lite.",
+   "impact": "Developers building chart plugins for Datasette may find the improved plugin hook design more ergonomic. Security teams and technology users can explore the new website, tutorial, and interactive demos to better understand plugin creation and core charts.",
+   "keyPoints": [
+    "datasette-charts 0.4a0 introduces updates to the plugin hook for custom chart types.",
+    "An experimental plugin built using Claude Opus 5.5 helped identify and address design friction points.",
+    "A new website was launched at charts.datasette.io.",
+    "The new site includes a tutorial for plugin authors and an interactive demo gallery on Datasette Lite."
+   ]
+  },
+  "km": {
+   "title": "datasette-charts 0.4a0",
+   "summary": "កំណែ datasette-charts 0.4a0 ត្រូវបានចេញផ្សាយ ដោយដោះស្រាយបញ្ហាប្រឈមដែលបានរកឃើញខណៈពេលកំពុងសាកល្បងប្រអប់បញ្ចូល插件សម្រាប់ប្រភេទគំនូសតាងផ្ទាល់ខ្លួន។ ការអាប់ដេតទាំងនេះមានគោលបំណងធ្វើឱ្យការបង្កើតកម្មវិធីជំនួយគំនូសតាងបន្ថែមមានភាពងាយស្រួលជាងមុន។ លើសពីនេះ គេហទំព័រថ្មីមួយនៅ charts.datasette.io ត្រូវបានដាក់ឱ្យដំណើរការ ដែលមានការបង្រៀនសម្រាប់អ្នកបង្កើតកម្មវិធីជំនួយ និងវិចិត្រសាលដែលមានការបង្ហាញអន្តរកម្មនៅលើ Datasette Lite។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ដែលបង្កើតកម្មវិធីជំនួយគំនូសតាងសម្រាប់ Datasette អាចយល់ថាការរចនាប្រអប់បញ្ចូលថ្មីមានភាពងាយស្រួលជាងមុន។ អ្នកប្រើប្រាស់បច្ចេកវិទ្យាអាចស្វែងរកគេហទំព័រថ្មី ការបង្រៀន និងការបង្ហាញអន្តរកម្មដើម្បីស្វែងយល់បន្ថែម។",
+   "keyPoints": [
+    "datasette-charts 0.4a0 ណែនាំការអាប់ដេតដល់ប្រអប់បញ្ចូលសម្រាប់ប្រភេទគំនូសតាងផ្ទាល់ខ្លួន។",
+    "កម្មវិធីជំនួយពិសោធន៍ដែលបង្កើតឡើងដោយប្រើ Claude Opus 5.5 បានជួយកំណត់អត្តសញ្ញាណ និងដោះស្រាយបញ្ហាប្រឈមក្នុងការរចនា។",
+    "គេហទំព័រថ្មីមួយត្រូវបានដាក់ឱ្យដំណើរការនៅ charts.datasette.io។",
+    "គេហទំព័រថ្មីនេះរួមបញ្ចូលទាំងការបង្រៀនសម្រាប់អ្នកបង្កើតកម្មវិធីជំនួយ និងវិចិត្រសាលបង្ហាញអន្តរកម្មនៅលើ Datasette Lite។"
+   ]
+  },
+  "zh-CN": {
+   "title": "datasette-charts 0.4a0",
+   "summary": "datasette-charts 0.4a0 版本已发布，解决了在测试自定义图表类型插件钩子时发现的不便之处。这些更新旨在使构建额外的图表插件更加顺手。此外，还推出了一个新网站 charts.datasette.io，其中包含插件作者教程以及带有 Datasette Lite 交互式演示的图库。",
+   "impact": "为 Datasette 构建图表插件的开发者可能会发现改进后的插件钩子设计更加顺手。技术用户可以通过新网站、教程和交互式演示更好地了解插件的创建和核心图表。",
+   "keyPoints": [
+    "datasette-charts 0.4a0 对自定义图表类型的插件钩子进行了更新。",
+    "使用 Claude Opus 5.5 构建的实验性插件帮助识别并解决了设计中的不便之处。",
+    "在 charts.datasette.io 推出了一个新网站。",
+    "新网站包含插件作者教程以及 Datasette Lite 上的交互式演示图库。"
+   ]
+  },
+  "ko": {
+   "title": "datasette-charts 0.4a0",
+   "summary": "datasette-charts 0.4a0 버전이 출시되었으며, Claude Opus 5.5로 구축된 실험용 플러그인을 사용하여 사용자 정의 차트 유형용 플러그인 훅을 테스트하는 동안 발견된 불편한 점들을 해결했습니다. 이번 업데이트는 추가적인 차트 플러그인 제작을 더욱 편리하게 만드는 것을 목표로 합니다. 또한 charts.datasette.io에 플러그인 작성자를 위한 튜토리얼과 Datasette Lite의 대화형 데모를 보여주는 갤러리를 포함한 새로운 웹사이트가 개설되었습니다.",
+   "impact": "Datasette용 차트 플러그인을 개발하는 개발자들은 개선된 플러그인 훅 디자인을 통해 더 편리하게 작업할 수 있습니다. 기술 사용자들은 새로운 웹사이트, 튜토리얼, 대화형 데모를 통해 플러그인 생성과 핵심 차트를 더 잘 이해할 수 있습니다.",
+   "keyPoints": [
+    "datasette-charts 0.4a0는 사용자 정의 차트 유형을 위한 플러그인 훅 업데이트를 도입했습니다.",
+    "Claude Opus 5.5를 사용하여 구축된 실험용 플러그인이 디자인의 불편한 점을 파악하고 해결하는 데 도움을 주었습니다.",
+    "charts.datasette.io에 새로운 웹사이트가 개설되었습니다.",
+    "새로운 사이트에는 플러그인 작성자를 위한 튜토리얼과 Datasette Lite의 대화형 데모 갤러리가 포함되어 있습니다."
+   ]
+  }
+ }
+}

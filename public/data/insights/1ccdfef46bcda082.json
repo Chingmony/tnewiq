@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "1ccdfef46bcda082",
+ "contentHash": "028ead7b7ab093c9",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T03:58:50.241Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon Timestream for InfluxDB 3 now supports heterogeneous clusters",
+   "summary": "Amazon Timestream for InfluxDB 3 now supports heterogeneous clusters, allowing users to assign different instance sizes to each node role in an InfluxDB 3 Enterprise cluster. Users can size writer, reader, and compactor roles independently when creating a cluster or adding nodes using the console, AWS CLI, or AWS SDKs. This update addresses the uneven resource demands of time series workloads, where different database parts handle queries, writes, and compaction differently.",
+   "impact": "This feature could help developers and administrators optimize resource usage and costs by scaling specific node roles independently instead of scaling all nodes uniformly. Users may now tailor instance sizes to match specific performance needs, such as larger readers for heavy queries or more vCPUs for compactors, without paying for unnecessary headroom on other nodes.",
+   "keyPoints": [
+    "Heterogeneous clusters let you assign different instance sizes to writer, reader, and compactor roles in InfluxDB 3 Enterprise clusters.",
+    "Sizes can be configured when creating a cluster or adding nodes via the Amazon Timestream console, AWS CLI, or AWS SDKs.",
+    "The update incurs no additional charge beyond standard pricing for each selected node size.",
+    "The feature is available in all AWS Regions where Amazon Timestream for InfluxDB is supported."
+   ]
+  },
+  "km": {
+   "title": "Amazon Timestream សម្រាប់ InfluxDB 3 ឥឡូវនេះគាំទ្រក្ល័ស្តឺខុសៗគ្នា (heterogeneous clusters)",
+   "summary": "Amazon Timestream សម្រាប់ InfluxDB 3 ឥឡូវនេះគាំទ្រក្ល័ស្តឺខុសៗគ្នា ដែលអនុញ្ញាតឱ្យអ្នកកំណត់ទំហំខុសៗគ្នានៃអ៊ីនស្តង់សម្រាប់តួនាទី节点នីមួយៗនៅក្នុងក្ល័ស្តឺ InfluxDB 3 Enterprise។ អ្នកអាចកំណត់ទំហំតួនាទីអ្នកសរសេរ អ្នកអាន និងអ្នកបង្រួមដោយឯករាជ្យ នៅពេលបង្កើតក្ល័ស្តឺ ឬបន្ថែមโหนดដោយប្រើកុងសូល Amazon Timestream, AWS CLI ឬ AWS SDKs។ ការអាប់ដេតនេះដោះស្រាយបញ្ហាធនធានដែលមិនស្មើគ្នានៃបន្ទុកការងារស៊េរីពេលវេលា។",
+   "impact": "លក្ខណៈពិសេសនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងក្រុមសន្តិសុខបង្កើនប្រសិទ្ធភាពការប្រើប្រាស់ធនធាន និងចំណាយដោយការកែតម្រូវទំហំโหนดនីមួយៗដោយឯករាជ្យ។ អ្នកใชាមិនចាំបាច់បង់ប្រាក់បន្ថែមសម្រាប់ការខិតខំប្រឹងប្រែងដែលមិនចាំបាច់នៅលើโหนดផ្សេងទៀតទេ នៅពេលដែលតម្រូវការឃ្លាំងសម្ងាត់ ឬការសាកសួរទិន្នន័យខុសគ្នា។",
+   "keyPoints": [
+    "ក្ល័ស្តឺខុសៗគ្នាអនុញ្ញាតឱ្យអ្នកកំណត់ទំហំអ៊ីនស្តង់ផ្សេងគ្នាសម្រាប់តួនាទីអ្នកសរសេរ អ្នកអាន និងអ្នកបង្រួម។",
+    "ទំហំអាចត្រូវបានកំណត់តាមរយៈកុងសូល Amazon Timestream, AWS CLI ឬ AWS SDKs។",
+    "មិនមានការគិតថ្លៃបន្ថែមទេក្រៅពីតម្លៃស្តង់ដារសម្រាប់ទំហំโหนดនីមួយៗដែលបានជ្រើសរើស។",
+    "មុខងារនេះមាននៅក្នុងតំបន់ AWS ទាំងអស់ដែលគាំទ្រ Amazon Timestream សម្រាប់ InfluxDB។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon Timestream for InfluxDB 3 现在支持异构集群",
+   "summary": "Amazon Timestream for InfluxDB 3 现在支持异构集群，允许用户为 InfluxDB 3 Enterprise 集群中的每个节点角色分配不同的实例大小。用户可以在创建集群或添加节点时，通过 Amazon Timestream 控制台、AWS 命令行界面 (CLI) 或 AWS SDK 独立调整写入者、读取者和压缩者角色的规模。此更新解决了时间资源负载在不同数据库部分资源需求不均的问题。",
+   "impact": "此功能可以帮助开发人员和技术用户通过独立扩展特定的节点角色来优化资源使用和成本，而无需统一扩展所有节点。用户可以根据特定的性能需求调整实例大小，例如为复杂查询配置更大的读取器节点，或为压缩器配置更多的 vCPU，而无需为其他节点支付不必要的超额费用。",
+   "keyPoints": [
+    "异构集群允许为 InfluxDB 3 Enterprise 集群中的写入者、读取者和压缩者角色分配不同的实例大小。",
+    "可以在创建集群或添加节点时使用 Amazon Timestream 控制台、AWS CLI 或 AWS SDK 设置大小。",
+    "除了所选节点大小的标准价格外，没有额外费用。",
+    "该功能适用于所有支持 Amazon Timestream for InfluxDB 的 AWS 区域。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon Timestream for InfluxDB 3, 이제 이기종 클러스터 지원",
+   "summary": "Amazon Timestream for InfluxDB 3는 이제 이기종 클러스터를 지원하여 InfluxDB 3 Enterprise 클러스تر의 각 노드 역할에 서로 다른 인스턴스 크기를 할당할 수 있도록 합니다. 사용자는 Amazon Timestream 콘솔, AWS CLI 또는 AWS SDK를 사용하여 클러스터를 생성하거나 노드를 추가할 때 쓰기, 읽기 및 압축기 역할을 독립적으로 크기 지정할 수 있습니다. 이 업데이트는 데이터베이스의 각 부분이 쿼리, 쓰기 및 압축을 서로 다르게 처리하는 시계열 워크로드의 불균등한 리소스 요구를 해결합니다.",
+   "impact": "이 기능을 통해 개발자와 기술 사용자는 모든 노드를 균일하게 확장하는 대신 특정 노드 역할을 독립적으로 확장하여 리소스 사용량과 비용을 최적화할 수 있습니다. 사용자는 다른 노드에 불필요한 비용을 지불하지 않고도 대형 쿼리를 위한 더 큰 읽기 노드나 압축기를 위한 더 많은 vCPU 등 특정 성능 요구 사항에 맞게 인스턴스 크기를 맞춤화할 수 있습니다.",
+   "keyPoints": [
+    "이기종 클러스터를 사용하면 InfluxDB 3 Enterprise 클러스터의 쓰기, 읽기, 압축기 역할에 서로 다른 인스턴스 크기를 할당할 수 있습니다.",
+    "Amazon Timestream 콘솔, AWS CLI 또는 AWS SDK를 통해 클러스터 생성 시 또는 노드 추가 시 크기를 설정할 수 있습니다.",
+    "선택한 노드 크기에 대한 표준 가격 외에 추가 요금이 부과되지 않습니다.",
+    "Amazon Timestream for InfluxDB가 지원되는 모든 AWS 리전에서 이기종 클러스터를 사용할 수 있습니다."
+   ]
+  }
+ }
+}

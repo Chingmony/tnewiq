@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "articleId": "cb9c58904170486c",
+ "contentHash": "7c815d464b5bab3f",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T03:59:41.571Z",
+ "basedOn": "excerpt",
+ "languages": {
+  "en": {
+   "title": "datasette-mcp 0.4",
+   "summary": "datasette-mcp version 0.4 has been released. The new version includes a fix for compatibility with Datasette 1.0a44. The release is tagged with model-context-protocol and datasette.",
+   "impact": "This update could matter to users and developers working with Datasette 1.0a44 and the model context protocol, as it ensures compatibility with the latest version.",
+   "keyPoints": [
+    "datasette-mcp version 0.4 released",
+    "Fixed for compatibility with Datasette 1.0a44"
+   ]
+  },
+  "km": {
+   "title": "datasette-mcp 0.4",
+   "summary": "datasette-mcp កំណែ 0.4 ត្រូវបានចេញផ្សាយ។ កំណែថ្មីនេះបានកែសម្រួលដើម្បីឱ្យមានភាពត្រូវគ្នាជាមួយ Datasette 1.0a44។",
+   "impact": "ការអាប់ដេតនេះអាចមានសារៈសំខាន់សម្រាប់អ្នកអភិវឌ្ឍន៍ដែលប្រើប្រាស់ Datasette 1.0a44 និង model-context-protocol ដោយធានាបាននូវភាពត្រូវគ្នា។",
+   "keyPoints": [
+    "ការចេញផ្សាយ datasette-mcp កំណែ 0.4",
+    "បានកែសម្រួលភាពត្រូវគ្នាជាមួយ Datasette 1.0a44"
+   ]
+  },
+  "zh-CN": {
+   "title": "datasette-mcp 0.4",
+   "summary": "datasette-mcp 0.4 版本已发布。新版本修复了与 Datasette 1.0a44 的兼容性问题。",
+   "impact": "此更新对于使用 Datasette 1.0a44 和 model-context-protocol 的开发者和用户来说可能很重要，它确保了系统的兼容性。",
+   "keyPoints": [
+    "发布了 datasette-mcp 0.4 版本",
+    "修复了与 Datasette 1.0a44 的兼容性"
+   ]
+  },
+  "ko": {
+   "title": "datasette-mcp 0.4",
+   "summary": "datasette-mcp 0.4 버전이 출시되었습니다. 이 새 버전은 Datasette 1.0a44와의 호환성 문제를 수정했습니다.",
+   "impact": "이번 업데이트는 Datasette 1.0a44 및 model-context-protocol을 사용하는 개발자와 사용자에게 호환성을 보장하는 데 중요할 수 있습니다.",
+   "keyPoints": [
+    "datasette-mcp 0.4 버전 출시",
+    "Datasette 1.0a44 호환성 수정"
+   ]
+  }
+ }
+}

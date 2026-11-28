@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "7899a915459b0d69",
+ "contentHash": "c17a475f4d8d8e31",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T04:03:05.985Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents",
+   "summary": "Researchers introduce $μ$-Bench, a benchmark designed to evaluate joint task completion in closed-loop, full-duplex multi-user voice interactions. The benchmark features 800 test cases across 20 domains, utilizing simulated participants with isolated goals, knowledge, and permissions. Evaluation across 13 voice agents reveals that proprietary systems achieved up to 65.44 percent success, while open-weight models scored below 20 percent.",
+   "impact": "This benchmark could help developers and security teams identify performance gaps in multi-user voice agents, particularly regarding privacy boundaries and multi-turn attribution. The findings may guide improvements in open-weight models to better handle complex shared interaction scenarios.",
+   "keyPoints": [
+    "$μ$-Bench comprises 800 cases spanning 20 domains, including both tool-augmented and tool-free scenarios.",
+    "Joint Task Success requires meeting all user goals, privacy boundaries, and terminal states together.",
+    "Proprietary systems peaked at 62.24 percent tool-free and 65.44 percent tool-augmented success.",
+    "Open-weight models remained below 20 percent success, lagging primarily in multi-turn attribution and threading."
+   ]
+  },
+  "km": {
+   "title": "$μ$-Bench៖ ការវាយតម្លៃការបញ្ចប់ភារកិច្ចអ្នកប្រើប្រាស់ច្រើនក្នុងភ្នាក់ងារសំឡេងដែលមានអន្តរកម្មរួមគ្នា",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ $μ$-Bench ដែលជាឧបករណ៍វាស់ស្ទង់សម្រាប់វាយតម្លៃការបញ្ចប់ភារកិច្ចរួមគ្នាក្នុងអន្តរកម្មសំឡេងអ្នកប្រើប្រាស់ច្រើន។ ការវាយតម្លៃនេះរួមបញ្ចូលទាំងករណីសាកល្បងចំនួន ៨០០ លើដែនចំនួន ២០ ដោយប្រើប្រាស់អ្នកចូលរួមត្រាប់តាម។ លទ្ធផលបង្ហាញថាប្រព័ន្ធកម្មសិទ្ធិទទួលបានជោគជ័យរហូតដល់ជាង ៦៥ ភាគរយ ខណៈដែលម៉ូដែលបើកចំហនៅក្រោម ២០ ភាគរយ។",
+   "impact": "វាអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍និងក្រុមសន្តិសុខកំណត់អត្តសញ្ញាណចំណុចខ្សោយនៅក្នុងភ្នាក់ងារសំឡេងអ្នកប្រើប្រាស់ច្រើន។ វាក៏អាចជំរុញឱ្យមានការកែលម្អលើម៉ូដែលបើកចំហផងដែរ។",
+   "keyPoints": [
+    "$μ$-Bench មាន ៨០០ ករណីឆ្លងកាត់ ២០ ដែន។",
+    "ភាពជោគជ័យនៃភារកិច្ចរួមទាមទារឱ្យបំពេញគោលដៅអ្នកប្រើប្រាស់ទាំងអស់។",
+    "ប្រព័ន្ធកម្មសិទ្ធិទទួលបានជោគជ័យខ្ពស់ជាងម៉ូដែលបើកចំហ។",
+    "ម៉ូដែលបើកចំហនៅខ្វះខាតលើផ្នែកគុណតម្លៃនិងការតភ្ជាប់ច្រើនវេន។"
+   ]
+  },
+  "zh-CN": {
+   "title": "$μ$-Bench：共享交互语音代理中多用户任务完成情况的基准测试",
+   "summary": "研究人员推出了 $μ$-Bench，这是一个用于评估闭环全双工多用户语音交互中联合任务完成情况的基准测试。该基准测试涵盖 20 个领域的 800 个测试案例，使用具有独立目标的模拟参与者。对 13 个语音代理的评估表明，专有系统在工具增强任务中的成功率达到了 65.44%，而开源权重模型则低于 20%。",
+   "impact": "该基准测试可能帮助开发人员和安全团队识别多用户语音代理中的性能差距，特别是在隐私边界和多轮归因方面。这些发现可能指导开源权重模型改进以更好地处理复杂的共享交互场景。",
+   "keyPoints": [
+    "$μ$-Bench 包含跨越 20 个领域的 800 个测试案例。",
+    "联合任务成功要求同时满足所有用户目标和隐私边界。",
+    "专有系统在工具增强成功率上达到了 65.44%。",
+    "开源权重模型的成功率保持在 20% 以下。"
+   ]
+  },
+  "ko": {
+   "title": "$μ$-Bench: 공유 상호작용 음성 에이전트에서의 다중 사용자 태스크 완료 벤치마킹",
+   "summary": "연구원들은 폐루프, 전이중 다중 사용자 음성 상호작용에서 공동 태스크 완료를 평가하기 위한 벤치마ือก인 $μ$-Bench를 소개합니다. 이 벤치마크는 20개 도메인에 걸쳐 800개의 시나리오를 포함하며, 13개의 음성 에이전트를 테스트한 결과 프라이어터리 시스템은 최대 65.44%의 성공률을 기록한 반면 오픈웨이트 모델은 20% 미만에 머물렀습니다.",
+   "impact": "이 벤치마크는 개발자와 보안 팀이 다중 사용자 음성 에이전트의 성능 격차, 특히 프라이버시 경계 및 다중 턴 어트리뷰션 문제를 식별하는 데 도움을 줄 수 있습니다. 연구 결과는 복잡한 공유 상호작용 시나리오를 처리하도록 오픈웨이트 모델을 개선하는 데 기여할 수 있습니다.",
+   "keyPoints": [
+    "$μ$-Bench는 20개 도메인에 걸쳐 800개의 테스트 케이스를 포함합니다.",
+    "공동 태스크 성공을 위해서는 모든 사용자 목표와 프라이버시 경계가 함께 충족되어야 합니다.",
+    "프라이어터리 시스템은 도구 보완 성공률에서 최대 65.44%를 기록했습니다.",
+    "오픈웨이트 모델은 다중 턴 어트리뷰션과 스레딩에서 주로 뒤처지며 20% 미만의 성공률을 보였습니다."
+   ]
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "9294d9bc13983732",
+ "contentHash": "0f5654509ac9a1c4",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T04:03:38.314Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Interpretable and Accurate Hybrid Decision Trees with Selective Case-Based Splits",
+   "summary": "Researchers have introduced two main contributions to greedy decision tree construction: a hybrid architecture combining feature-based and case-based splits, and a selective case-based split method that searches for the most informative feature subset. This approach balances case-based specificity with feature-based simplicity. Experiments on various tabular datasets demonstrate that the method outperforms standard decision trees and matches ensemble performance while keeping trees shallow.",
+   "impact": "This new hybrid architecture and selective splitting approach could provide developers and data scientists with better tools to maintain interpretability without sacrificing predictive performance. The resulting shallow trees may offer clearer insights while achieving accuracy comparable to complex ensemble methods.",
+   "keyPoints": [
+    "Introduces a hybrid tree architecture integrating feature-based and case-based splits.",
+    "Proposes a selective case-based split that finds the most informative subset of features.",
+    "Outperforms standard decision trees and matches ensemble methods on tabular datasets.",
+    "Produces shallow trees that maintain or improve predictive accuracy."
+   ]
+  },
+  "km": {
+   "title": "ដើមឈើសម្រេចចិត្តកូនកាត់ដែលអាចបកស្រាយបាននិងមានភាពត្រឹមត្រូវជាមួយនឹងការបែងចែកផ្អែកលើករណីជ្រើសរើស",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំការរួមចំណែកសំខាន់ៗពីរចំពោះការសាងសង់ដើមឈើសម្រេចចិត្ត ដោយបញ្ចូលគ្នានូវស្ថាបត្យកម្មកូនកាត់នៃការបែងចែកផ្អែកលើលក្ខណៈពិសេស និងផ្អែកលើករណី។ វិធីសាស្ត្រនេះមានតុល្យភាពរវាងភាពជាក់លាក់នៃវិធីសាស្ត្រផ្អែកលើករណី និងភាពសាមញ្ញនៃការផ្អែកលើលក្ខណៈពិសេស។ ការពិសោធន៍បង្ហាញថាវិធីសាស្ត្រនេះដំណើរការល្អជាងដើមឈើសម្រេចចិត្តស្តង់ដារ និងមានភាពស្រដៀងនឹងវិធីសាស្ត្រចង្កោមខណៈពេលដែលរក្សាបានដើមឈើកម្រិតទាប។",
+   "impact": "ស្ថាបត្យកម្មកូនកាត់ថ្មីនេះ និងវិធីសាស្ត្របែងចែកបែបជ្រើសរើសអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវឧបករណ៍ប្រសើរជាងមុន ដើម្បីរក្សាភាពអាចបកស្រាយបានដោយមិនបាត់បង់ដំណើរការទស្សន៍ទាយ។ ដើមឈើកម្រិតទាបដែលទទួលបានអាចផ្តល់នូវការយល់ដឹងកាន់តែច្បាស់។",
+   "keyPoints": [
+    "ណែនាំស្ថាបត្យកម្មដើមឈើកូនកាត់ដែលរួមបញ្ចូលការបែងចែកផ្អែកលើលក្ខណៈពិសេស និងករណី។",
+    "ស្នើឱ្យមានការបែងចែកផ្អែកលើករណីបែបជ្រើសរើសដែលស្វែងរកសំណុំរងលក្ខណៈពិសេសដែលមានព័ត៌មានច្រើនបំផុត។",
+    "ដំណើរការល្អជាងដើមឈើសម្រេចចិត្តស្តង់ដារនៅលើសំណុំទិន្នន័យតារាង។",
+    "បង្កើតដើមឈើកម្រិតទាបដែលរក្សាឬកែលម្អភាពត្រឹមត្រូវនៃការទស្សន៍ទាយ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "具有选择性基于案例分裂的可解释且准确的混合决策树",
+   "summary": "研究人员对贪婪决策树的构建提出了两项主要贡献：一种结合了基于特征和基于案例分裂的混合树架构，以及一种寻找最具信息量特征子集的选择性基于案例分裂方法。这种方法平衡了基于案例的特异性与基于特征的简单性。在各种表格数据集上的实验表明，该方法优于标准决策树，性能与集成方法相当，同时产生浅层树。",
+   "impact": "这种新的混合架构和选择性分裂方法可以为开发人员和数据科学人员提供更好的工具，在不牺牲预测性能的情况下保持可解释性。产生的浅层树可能在实现与复杂集成方法相当的准确性的同时，提供更清晰的见解。",
+   "keyPoints": [
+    "引入了整合基于特征和基于案例分裂的混合树架构。",
+    "提出了一种选择性基于案例的分裂方法，用于寻找最具信息量的特征子集。",
+    "在表格数据集上优于标准决策树并达到集成方法的性能。",
+    "生成能够保持或提高预测准确性的浅层树。"
+   ]
+  },
+  "ko": {
+   "title": "선택적 사례 기반 분할을 사용한 해석 가능하고 정확한 하이브리드 결정 트리",
+   "summary": "연구원들은 그리디 결정 트리 구축에 있어 두 가지 주요 기여를 제안했습니다. 특징 기반 분할과 사례 기반 분할을 통합한 하이브리드 트리 아키텍처와 가장 유용한 특징 부분 집합을 찾는 선택적 사례 기반 분할 방법입니다. 이 접근 방식은 사례 기반의 특수성과 특징 기반의 단순성을 균형 있게 조절합니다. 다양한 테이블 형식 데이터셋 실험에서 이 방법은 표준 결정 트리를 능가하며 얕은 트리를 유지하면서도 앙상블 방법과 대등한 성능을 달성했습니다.",
+   "impact": "이 새로운 하이브리드 아키텍처와 선택적 분할 접근 방식은 개발자와 데이터 과학자에게 예측 성능을 희생하지 않으면서도 해석 가능성을 유지할 수 있는 더 나은 도구를 제공할 수 있습니다. 결과로 생성되는 얕은 트리는 복잡한 앙상블 방법과 견줄 만한 정확도를 달성하면서 더 명확한 통찰력을 제공할 수 있습니다.",
+   "keyPoints": [
+    "특징 기반 분할과 사례 기반 분할을 결합한 하이브리드 트리 아키텍처 도입",
+    "가장 정보가 풍부한 특징 부분 집합을 찾는 선택적 사례 기반 분할 제안",
+    "테이블 형식 데이터셋에서 표준 결정 트리보다 우수한 성능 발휘",
+    "예측 정확도를 유지하거나 향상시키는 얕은 트리 생성"
+   ]
+  }
+ }
+}

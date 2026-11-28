@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fbfcf56e67bbe252",
+ "contentHash": "498e86bf067c01a3",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T04:02:31.924Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "A gene informed benchmark for BioScoring of pathology foundation models",
+   "summary": "Researchers introduce BioScore, a benchmark that quantifies how well an image encoder captures cell identities using spatial transcriptomics as a reference. The method uses a sparse autoencoder to split patch embeddings into sparse features, which are then clustered to measure how specifically they follow cell identities defined by marker genes. Testing eight pathology foundation models and three natural-image models showed that every pathology model scores higher than every natural-image model.",
+   "impact": "This benchmark could help developers and researchers evaluate how well pathology foundation models represent underlying biological cell identities without relying on supervised labels. The per-identity breakdown may offer insights into which cell types individual encoders successfully capture or miss.",
+   "keyPoints": [
+    "BioScore uses spatial transcriptomics of the same tissue as a reference to evaluate cell identity capture.",
+    "A sparse autoencoder splits patch embeddings into sparse features in a fully unsupervised manner.",
+    "Pathology foundation models scored between 0.299 and 0.371, outperforming natural-image models which scored between 0.214 and 0.232.",
+    "The benchmark does not require labels and can build its reference from the data using few sections."
+   ]
+  },
+  "km": {
+   "title": "កម្រិតស្តង់ដារផ្អែកលើហ្សែនសម្រាប់ BioScoring នៃគំរូគ្រឹះរោគវិទ្យា",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ BioScore ដែលជាកម្រិតស្តង់ដារវាស់ស្ទង់ថាតើម៉ូឌែលអ៊ិនកូដរូបភាពចាប់យកអត្តសញ្ញាណកោសិកាប៉ុណ្ណាដោយប្រើប្រាស់ទិន្នន័យ spatial transcriptomics ។ វិធីសាស្ត្រនេះប្រើប្រាស់ sparse autoencoder ដើម្បីបែងចែកការបង្កប់បំណះទៅជាលក្ខណៈពិសេសស្តើង ដែលត្រូវបានដាក់ជាក្រុមដើម្បីវាស់វែងអត្តសញ្ញាណកោសិកាកំណត់ដោយហ្សែនសម្គាល់។ ការធ្វើតេស្តលើគំរូគ្រឹះរោគវិទ្យាចំនួន ៨ និងគំរូរូបភាពធម្មជាតិចំនួន ៣ បានបង្ហាញថាគំរូរោគវិទ្យាទាំងអស់ទទួលបានពិន្ទុខ្ពស់ជាងគំរូរូបភាពធម្មជាតិ។",
+   "impact": "កម្រិតស្តង់ដារនេះអាចជួយអ្នកអភិវឌ្ឍន៍ និងអ្នកស្រាវជ្រាវក្នុងការវាយតម្លៃពីរបៀបដែលគំរូគ្រឹះរោគវិទ្យាតំណាងឱ្យអត្តសញ្ញាណកោសិកាជីវសាស្ត្រដោយមិនពឹងផ្អែកលើស្លាកដែលបានគ្រប់គ្រង។ ការបំបែកតាមអត្តសញ្ញាណនីមួយៗអាចផ្តល់នូវការយល់ដឹងអំពីប្រភេទកោសិកាណាដែលអ៊ិនកូដនីមួយៗចាប់យកឬខកខាន។",
+   "keyPoints": [
+    "BioScore ប្រើប្រាស់ទិន្នន័យ spatial transcriptomics នៃជាលិកាដូចគ្នាជាឯកសារយោងដើម្បីវាយតម្លៃការចាប់យកអត្តសញ្ញាណកោសិកា។",
+    "Sparse autoencoder បែងចែកការបង្កប់បំណះទៅជាលក្ខណៈពិសេសស្តើងក្នុងលក្ខណៈគ្មានការគ្រប់គ្រងពេញលេញ។",
+    "គំរូគ្រឹះរោគវិទ្យាទទួលបានពិន្ទុចន្លោះពី 0.299 ដល់ 0.371 ដែលខ្ពស់ជាងគំរូរូបភាពធម្មជាតិដែលមានពិន្ទុពី 0.214 ដល់ 0.232។",
+    "កម្រិតស្តង់ដារនេះមិនត្រូវការស្លាកទេហើយអាចបង្កើតឯកសារយោងពីទិន្នន័យដោយប្រើផ្នែកតិចតួច។"
+   ]
+  },
+  "zh-CN": {
+   "title": "用于病理学基础模型 BioScoring 的基因信息基准",
+   "summary": "研究人员推出了 BioScore，这是一个基准测试，它利用相同组织的空间转录组学作为参考，量化图像编码器捕获细胞身份的能力。该方法使用稀疏自编码器将编码器的补丁嵌入拆分为稀疏特征，然后将其聚类，以测量它们跟随由标记基因定义的细胞身份的具体程度。对 8 个病理学基础模型和 3 个自然图像模型的测试表明，每个病理学模型的得分都高于自然图像模型。",
+   "impact": "该基准测试可以帮助开发人员和研究人员评估病理学基础模型在不依赖监督标签的情况下如何代表潜在的生物细胞身份。按身份细分的指标可能有助于深入了解各个编码器成功捕获或错过了哪些细胞类型。",
+   "keyPoints": [
+    "BioScore 使用相同组织的空间转录组学作为参考来评估细胞身份捕获情况。",
+    "稀疏自编码器以完全无监督的方式将补丁嵌入拆分为稀疏特征。",
+    "病理学基础模型的得分在 0.299 到 0.371 之间，优于得分在 0.214 到 0.232 之间的自然图像模型。",
+    "该基准测试不需要标签，并且可以仅从少量切片的数据中构建其参考。"
+   ]
+  },
+  "ko": {
+   "title": "병리학 파운데이션 모델의 BioScoring을 위한 유전자 기반 벤치마크",
+   "summary": "연구원들은 동일한 조직의 공간 전사체학을 참조로 사용하여 이미지 인코더가 세포 정체성을 얼마나 잘 포착하는지 정량화하는 벤치마크인 BioScore를 소개합니다. 이 방법은 희소 오토인코더를 사용하여 패치 임베딩을 희소 특성으로 분할하고, 이를 군집화하여 마커 유전자에 의해 정의된 세포 정체성을 얼마나 구체적으로 따르는지 측정합니다. 8개의 병리학 파운데이션 모델과 3개의 자연 이미지 모델을 테스트한 결과, 모든 병리학 모델이 모든 자연 이미지 모델보다 더 높은 점수를 기록했습니다.",
+   "impact": "이 벤치마크는 개발자와 연구원이 지도 학습 레이블에 의존하지 않고 병리학 파운데이션 모델이 기저 생물학적 세포 정체성을 얼마나 잘 나타내는 평가하는 데 도움을 줄 수 있습니다. 정체성별 분석을 통해 개별 인코더가 성공적으로 포착하거나 놓친 세포 유형을 파악할 수 있습니다.",
+   "keyPoints": [
+    "BioScore는 세포 정체성 포착을 평가하기 위해 동일한 조직의 spatial transcriptomics를 참조로 사용합니다.",
+    "희소 오토인코더는 완전한 비지도 방식으로 패치 임베딩을 희소 특성으로 분할합니다.",
+    "병리학 파운데이션 모델은 0.299에서 0.371 사이의 점수를 기록하여 0.214에서 0.232 사이의 점수를 기록한 자연 이미지 모델을 상회했습니다.",
+    "이 벤치마크는 레이블이 필요 없으며 적은 수의 섹션에서도 데이터로부터 참조를 구축할 수 있습니다."
+   ]
+  }
+ }
+}

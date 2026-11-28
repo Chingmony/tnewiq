@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "63dc8adfd39e08f2",
+ "contentHash": "a9a3a6e3a432a843",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T03:59:00.992Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+   "summary": "At AI Engineer CODE, G2i founder Gabe Greenberg spoke with swyx about the AI training data market, including how frontier labs decide between exclusive and shared training data. Greenberg discussed how G2i uses senior engineers to design training tasks, choose seed data, and build verifiers. The conversation also covered how small pilot orders scale into larger engagements and when labs choose to build data operations in-house.",
+   "impact": "This discussion could help developers and technology users understand how frontier labs source and evaluate data for model training and reinforcement learning. Technology teams may gain insight into the economics and operational decisions behind purchasing exclusive versus shared training data sets.",
+   "keyPoints": [
+    "Frontier labs can pay more for exclusive training data or take a discount for shared data.",
+    "G2i uses senior engineers to design training tasks, select starting data, and build verifiers to score results.",
+    "Small pilot orders often develop into larger engagements for training data and reinforcement learning environments.",
+    "The internal multi-agent coding platform used by G2i's team is called ORC."
+   ]
+  },
+  "km": {
+   "title": "ស្វែងយល់ពីទីផ្សារទិន្នន័យបណ្តុះបណ្តាល AI — Gabe Greenberg, G2i",
+   "summary": "នៅក្នុងកម្មវិធី AI Engineer CODE លោក Gabe Greenberg ដែលជាស្ថាបនិក G2i បានពិភាក្សាជាមួយ swyx អំពីទីផ្សារទិន្នន័យបណ្តុះបណ្តាល AI និងរបៀបដែលមន្ទីរពិសោធន៍បច្ចេកវិទ្យាសម្រេចចិត្តជ្រើសរើសទិន្នន័យផ្តាច់មុខ ឬទិន្នន័យចែករំលែក។ ការពិភាក្សានោះក៏បានប៉ះពាល់ដល់របៀបដែលវិស្វករជាន់ខ្ពស់រចនាកិច្ចការបណ្តុះបណ្តាល ជ្រើសរើសទិន្នន័យដំបូង និងបង្កើតប្រព័ន្ធផ្ទៀងផ្ទាត់ផងដែរ។",
+   "impact": "កិច្ចពិភាក្សានេះអាចជួយឱ្យអ្នកអភិវឌ្ឍន៍ និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាយល់ដឹងពីរបៀបដែលមន្ទីរពិសោធន៍ប្រមូលទិន្នន័យសម្រាប់បណ្តុះបណ្តាលគំរូ AI និងបរិយាកាសសិក្សា។ ក្រុមការងារបច្ចេកវិទ្យាអាចទទួលបានការយល់ដឹងអំពីកត្តាហិរញ្ញវត្ថុ និងការសម្រេចចិត្តក្នុងការទិញទិន្នន័យបណ្តុះបណ្តាល។",
+   "keyPoints": [
+    "មន្ទីរពិសោធន៍អាចបង់ប្រាក់កាន់តែច្រើនសម្រាប់ទិន្នន័យផ្តាច់មុខ ឬយកតម្លៃបញ្ចុះតម្លៃលើទិន្នន័យដែលមន្ទីរពិសោធន៍ផ្សេងទៀតក៏អាចទិញបានដែរ។",
+    "G2i ប្រើប្រាស់វិស្វករជាន់ខ្ពស់ដើម្បីរចនាកិច្ចការបណ្តុះបណ្តាល និងបង្កើតប្រព័ន្ធផ្ទៀងផ្ទាត់លទ្ធផល។",
+    "ការបញ្ជាទិញសាកល្បងតូចៗតែងតែវិវត្តទៅជាកិច្ចសហការធំជាងមុន។",
+    "វេទិកាកូដភ្នាក់ងារច្រើន (multi-agent) ដែលក្រុមការងារ G2i ប្រើប្រាស់ខាងក្នុងគឺ ORC។"
+   ]
+  },
+  "zh-CN": {
+   "title": "深入了解人工智能训练数据市场 — Gabe Greenberg, G2i",
+   "summary": "在 AI Engineer CODE 上，G2i 创始人 Gabe Greenberg 与 swyx 探讨了人工智能训练数据市场，包括前沿实验室如何在独占训练数据和可共享数据之间做出决策。Greenberg 讨论了 G2i 如何利用资深工程师来设计训练任务、选择初始数据以及构建验证器。对话还涵盖了小型试点订单如何转变为更大的合作项目，以及实验室何时选择自建内部数据运营团队。",
+   "impact": "这次讨论可以帮助开发者和技术用户了解前沿实验室如何获取和评估用于模型训练及强化学习的数据。技术团队可能会对采购独占与共享训练数据背后的经济学和运营决策获得更多见解。",
+   "keyPoints": [
+    "前沿实验室可以为独占的训练数据支付更高费用，或者对其他实验室也能购买的数据享受折扣。",
+    "G2i 采用资深工程师来设计训练任务、选择种子数据并构建能够对结果进行评分的验证器。",
+    "小型试点订单通常会转化为更大规模的训练数据和强化学习环境合作项目。",
+    "G2i 团队内部使用的多智能体编码平台被称为 ORC。"
+   ]
+  },
+  "ko": {
+   "title": "AI 훈련 데이터 시장 심층 분석 — Gabe Greenberg, G2i",
+   "summary": "AI Engineer CODE에서 G2i의 설립자인 Gabe Greenberg는 swyx와 함께 AI 훈련 데이터 시장에 대해 논의하며, 최첨단 연구소들이 독점적인 훈련 데이터와 공유 가능한 데이터 사이에서 어떤 기준으로 결정을 내리는지 설명했습니다. Greenberg는 G2i가 시니어 엔지니어를 활용해 훈련 과제를 설계하고, 시드 데이터를 선택하며, 결과를 채점할 검증기를 구축하는 방식을 다뤘습니다. 또한 소규모 파일럿 주문이 더 큰 규모의 계약으로 이어지는 과정과 연구소가 자체 데이터 운영 조직을 구축하기로 결정하는 시점에 대해서도 언급했습니다.",
+   "impact": "이번 논의는 개발자와 기술 사용자들이 최첨단 연구소가 모델 훈련 및 강화학습을 위해 데이터를 조달하고 평가하는 방식을 이해하는 데 도움을 줄 수 있습니다. 기술 팀은 독점 및 공유 훈련 데이터 구매 이면의 경제학과 운영상의 의사결정에 대한 통찰을 얻을 수 있습니다.",
+   "keyPoints": [
+    "최첨단 연구소는 독점권을 유지할 수 있는 훈련 데이터에 더 많은 비용을 지불하거나 다른 연구소도 구매할 수 있는 데이터에 대해 할인을 받을 수 있습니다.",
+    "G2i는 시니어 엔지니어를 투입하여 훈련 과제를 설계하고, 시작 데이터를 선택하며, 결과를 채점할 수 있는 검증기를 구축합니다.",
+    "소규모 파일럿 주문은 훈련 데이터 및 강화학습 환경을 위한 더 큰 규모의 협력으로 발전하곤 합니다.",
+    "G2i 팀이 내부적으로 사용하는 멀티 에이전트 코딩 플랫폼의 이름은 ORC입니다."
+   ]
+  }
+ }
+}

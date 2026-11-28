@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "df48ba91d19d058b",
+ "contentHash": "33fc97f4c052fa66",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T04:02:55.120Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Mixture-of-Loops Transformer",
+   "summary": "Researchers introduce Mixture-of-Loops Transformer (MoLT), an architecture utilizing Mixture-of-Loops Attention (MoLA) to improve the expressivity-efficiency frontier of looped transformers by using keys and values as memory. The variants MoLT-R and MoLT-KV address loop residuals and efficiency, while U-shaped MoLT (U-MoLT) balances efficiency and quality by separating memory construction from prediction readout. Experiments show that U-MoLT outperforms OLMo3 and Qwen3.5-0.8B-Base models across various token efficiencies, perplexities, and downstream tasks while maintaining competitive inference latency.",
+   "impact": "This architecture could offer developers and researchers a way to train more token-efficient language models without significant inference latency penalties. The improvements in cross-entropy efficiency and domain perplexity may help optimize both pretraining and continued training pipelines for dense and MoE models.",
+   "keyPoints": [
+    "MoLT introduces Mixture-of-Loops Attention (MoLA) to use keys and values as memory for selective reuse across loops.",
+    "U-MoLT separates memory construction from prediction readout and skips unused decoder traversals.",
+    "In pretraining, U-MoLT outperforms OLMo3 and achieves 1.7x validation CE token efficiency at 700M.",
+    "Source code for MoLT is made available on GitHub."
+   ]
+  },
+  "km": {
+   "title": "Mixture-of-Loops Transformer",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ Mixture-of-Loops Transformer (MoLT) ដែលជាស្ថាបត្យកម្មប្រើប្រាស់ Mixture-of-Loops Attention (MoLA) ដើម្បីកែលម្អប្រសិទ្ធភាព និងកម្លាំងបញ្ចេញមតិរបស់ looped transformers ។ ការប្រែប្រួលផ្សេងៗរួមមាន MoLT-R និង MoLT-KV ព្រមទាំង U-shaped MoLT (U-MoLT) ដែលជួយតុល្យភាពរវាងប្រសិទ្ធភាព និងគុណភាព។ ការពិសោធន៍បង្ហាញថា U-MoLT ដំណើរការល្អជាង OLMo3 និង Qwen3.5-0.8B-Base លើផ្នែកប្រសិទ្ធភាពថូខឹន និងកិច្ចការផ្សេងៗទៀត។",
+   "impact": "ស្ថាបត្យកម្មនេះអាចផ្តល់ឱ្យអ្នកអភិវឌ្ឍន៍នូវមធ្យោបាយមួយដើម្បីបណ្តុះបណ្តាលគំរូភាសាដែលមានប្រសិទ្ធភាពថូខឹនខ្ពស់ជាងមុន ដោយមិនប៉ះពាល់ដល់ពេលយឺតយ៉ាវនៃការសន្និដ្ឋានខ្លាំងនោះឡើយ។ ការកែលម្អប្រសិទ្ធភាពនេះអាចជួយបង្កើនប្រសិទ្ធភាពនៃដំណើរការបណ្តុះបណ្តាលជាមុនសម្រាប់គំរូផ្សេងៗ។",
+   "keyPoints": [
+    "MoLT ប្រើប្រាស់ Mixture-of-Loops Attention (MoLA) ដើម្បីប្រើប្រាស់ keys និង values ជាអង្គចងចាំ។",
+    "U-MoLT បំបែកការបង្កើតអង្គចងចាំចេញពីការអានការព្យាករណ៍ និងរំលងការឆ្លងកាត់ដែលមិនប្រើប្រាស់។",
+    "U-MoLT ដំណើរការល្អជាង OLMo3 ក្នុងការធ្វើតេស្តបណ្តុះបណ្តាលជាមុន។",
+    "កូដប្រភពមាននៅលើ GitHub ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Mixture-of-Loops Transformer",
+   "summary": "研究人员推出了 Mixture-of-Loops Transformer (MoLT)，该架构利用 Mixture-of-Loops Attention (MoLA) 将键和值用作跨深度和循环选择性重用的内存，从而提升循环 Transformer 的表现力与效率平衡。其中的 U 形变体 U-MoLT 通过将内存构建与预测读出分离并跳过未使用的解码器遍历，平衡了效率与质量。实验表明，U-MoLT 在各项预训练中超越了 OLMo3 和 Qwen3.5-0.8B-Base 模型，并在保持竞争力的推理延迟的同时实现了更高的token效率。",
+   "impact": "该架构可能为开发者和研究人员提供一种在不显著增加推理延迟的情况下训练更高token效率语言模型的方法。交叉熵效率和领域困惑度的提升可能有助于优化密集模型和 MoE 模型的预训练及持续预训练流程。",
+   "keyPoints": [
+    "MoLT 引入了 Mixture-of-Loops Attention (MoLA)，使用键和值作为跨循环选择性重用的内存。",
+    "U-MoLT 将内存构建与预测读出分离，并跳过未使用的解码器遍历。",
+    "在预训练中，U-MoLT 的表现优于 OLMo3，并在 700M 模型上达到了 1.7 倍的验证交叉熵 token 效率。",
+    "MoLT 的源代码已在 GitHub 上发布。"
+   ]
+  },
+  "ko": {
+   "title": "Mixture-of-Loops Transformer",
+   "summary": "연구진은 키와 값을 메모리로 사용하여 루프 간 선택적 재사용을 수행하는 Mixture-of-Loops Attention (MoLA)을 통해 순환 트랜스포머의 표현력과 효율성 한계를 개선하는 Mixture-of-Loops Transformer (MoLT)를 소개했습니다. U자형 변형인 U-MoLT는 메모리 구축과 예측 판독을 분리하고 사용되지 않는 디코더 탐색을 건너뛰어 효율성과 품질의 균형을 맞춥니다. 실험 결과 U-MoLT는 다양한 토큰 효율성과 도메인 퍼플렉서티에서 OLMo3 및 Qwen3.5-0.8B-Base 모델을 능가하는 성능을 보였습니다.",
+   "impact": "이 아키텍처는 개발자와 연구원들이 추론 지연 시간의 큰 증가 없이 더 높은 토큰 효율성을 가진 언어 모델을 학습할 수 있는 방법을 제공할 수 있습니다. 교차 엔트로피 효율성과 도메인 퍼플렉서티의 개선은 조밀 모델 및 MoE 모델의 사전 학습 파이프라인을 최적화하는 데 도움을 줄 수 있습니다.",
+   "keyPoints": [
+    "MoLT는 키와 값을 루프 간 선택적 재사용을 위한 메모리로 사용하는 Mixture-of-Loops Attention (MoLA)을 도입합니다.",
+    "U-MoLT는 메모리 구축과 예측 판독을 분리하고 미사용 디코더 탐색을 건너뜁니다.",
+    "사전 학습에서 U-MoLT는 OLMo3를 능가하며 700M에서 1.7배의 검증 교차 엔트로피 토큰 효율성을 달성합니다.",
+    "MoLT의 소스 코드는 GitHub에서 제공됩니다."
+   ]
+  }
+ }
+}

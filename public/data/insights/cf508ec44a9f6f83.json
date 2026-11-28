@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "cf508ec44a9f6f83",
+ "contentHash": "b58e3a991b8ebe90",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T04:03:27.555Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Objects from Video",
+   "summary": "Researchers introduce PhysReader, a feed-forward predictor trained solely in simulation to estimate a deformable object's density-normalized stiffness and yield stress from a single video of a drop. The study reveals that inputs which perform best in simulation, such as 3D-lifted tracklets, fail on real videos due to perceptual inconsistencies between domains. Conversely, short 2D optical-flow tracklets transfer best to real-world data despite improving nothing in simulation. PhysReader combines video and 2D tracklets, learning 3D lifts in simulation by matching a teacher with exact 3D deformation.",
+   "impact": "This approach could help developers and technology users accurately estimate material properties of deformable objects using only standard video input. Security teams and technology users might benefit from more reliable sim-to-real transfer methods when evaluating physical properties without direct contact.",
+   "keyPoints": [
+    "Predictors are trained only in simulation because real videos lack material labels.",
+    "Inputs that work best in simulation, like 3D-lifted tracklets, perform worst on real drops.",
+    "Short 2D optical-flow tracklets improve nothing in simulation but transfer best to reality.",
+    "PhysReader matches reference materials closer than other inputs and baselines while taking only 12 seconds per video."
+   ]
+  },
+  "km": {
+   "title": "What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Objects from Video",
+   "summary": "អ្នកស្រាវជ្រាវបានណែនាំ PhysReader ដែលជាឧបករណ៍ព្យាករណ៍បណ្តុះបណ្តាលក្នុងពេលត្រាប់តាមសុទ្ធសាធ ដើម្បីប៉ាន់ស្មានភាពរឹងនិងភាពបត់បែនរបស់វត្ថុដែលអាចបត់បែនបានពីវីដេអូនៃការធ្លាក់មួយ។ ការសិក្សានេះបង្ហាញថាធាតុចូលដែលដំណើរការល្អបំផុតក្នុងការត្រាប់តាម គឺបរាជ័យលើវីដេអូពិតប្រាកដ។ ផ្ទុយទៅវិញ ផ្លូវដានលំហូរអុបទិក 2D ខ្លីៗផ្ទេរបានល្អបំផុតទៅកាន់ទិន្នន័យពិភពពិត។",
+   "impact": "វិធីសាស្ត្រនេះអាចជួយអ្នកអភិវឌ្ឍន៍និងអ្នកប្រើប្រាស់បច្ចេកវិទ្យាក្នុងការប៉ាន់ស្មានលក្ខណៈសម្ភារៈរបស់វត្ថុដោយប្រើប្រាស់តែធាតុចូលវីដេអូម្តងម្កាល។",
+   "keyPoints": [
+    "ឧបករណ៍ព្យាករណ៍ត្រូវបានបណ្តុះបណ្តាលតែក្នុងការត្រាប់តាមប៉ុណ្ណោះ។",
+    "ផ្លូវដាន 2D ដំណើរការផ្ទេរទៅកាន់ការពិតបានល្អបំផុត។",
+    "PhysReader យកពេលត្រឹមតែ ១២វិនាទីក្នុងមួយវីដេអូ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Objects from Video",
+   "summary": "研究人员介绍了PhysReader，这是一个仅在模拟中训练的前馈预测器，用于从单段下落视频中估计可变形物体的密度归一化刚度和屈服应力。研究表明，在模拟中表现最好的输入在真实视频中会失效，而短2D光流轨迹虽然在模拟中没有任何提升，但在现实中传输效果最好。PhysReader通过匹配能够看到精确3D变形的教师，在模拟中学习3D提升。",
+   "impact": "这种方法可以帮助开发者和技术用户仅使用标准视频输入准确估计可变形物体的材料属性。安全团队和技术人员可能会受益于更可靠的仿真到真实世界迁移方法。",
+   "keyPoints": [
+    "预测器仅在模拟中进行训练，因为真实视频没有材料标签。",
+    "在模拟中效果最好的3D提升轨迹在真实下落中效果最差。",
+    "短2D光流轨迹在模拟中无用但在现实中转移效果最好。",
+    "PhysReader比其他所有输入和基线更接近参考材料，每段视频仅需12秒。"
+   ]
+  },
+  "ko": {
+   "title": "What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Objects from Video",
+   "summary": "연구원들은 시뮬레이션에서만 학습된 피드포워드 예측기인 PhysReader를 소개하여 단일 낙하 동영상에서 변형 가능한 물체의 밀도 정규화 강성과 항복 응력을 추정합니다. 연구에 따르면 시뮬레이션에서 가장 성능이 좋은 입력은 실제 동영상에서 실패하며, 짧은 2D 광학 흐름 트랙렛은 시뮬레이션에서 아무런 개선이 없음에도 실제 데이터로 가장 잘 이전됩니다. PhysReader는 동영상과 2D 트랙렛을 읽고 정확한 3D 변형을 보는 교사를 매칭하여 시뮬레이션에서 3D 리프트를 학습합니다.",
+   "impact": "이 접근 방식은 개발자와 기술 사용자가 표준 동영상 입력만 사용하여 변형 가능한 물체의 재질 속성을 정확하게 추정하는 데 도움을 줄 수 있습니다. 보안 팀과 기술 사용자는 직접 접촉 없이 물리적 속성을 평가할 때 더 신뢰할 수 있는 시뮬레이션-투-실제 이전 방법의 이점을 누릴 수 있습니다.",
+   "keyPoints": [
+    "실제 동영상에는 재질 라벨이 없기 때문에 예측기는 시뮬레이션에서만 학습됩니다.",
+    "시뮬레이션에서 가장 잘 작동하는 입력은 실제 낙하에서 가장 정확도가 떨어집니다.",
+    "짧은 2D 광학 흐름 트랙렛은 시뮬레이션에서는 개선이 없지만 현실로 가장 잘 이전됩니다.",
+    "PhysReader는 다른 모든 입력 및 기준선보다 참조 재질에 더 가깝고 비디오당 12초만 소요됩니다."
+   ]
+  }
+ }
+}

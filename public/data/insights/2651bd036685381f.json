@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "2651bd036685381f",
+ "contentHash": "5834e250beac9e59",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T04:01:59.308Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Tokenisation is not in APX",
+   "summary": "A new paper proves that no polynomial-time algorithm can find a tokeniser within any constant factor of the optimum unless P equals NP, demonstrating that tokenisation is not in the APX complexity class. This finding applies to direct and bottom-up tokenisation under compression or unigram log-likelihood objectives for binary or larger alphabets. Additionally, direct tokenisation over unary alphabets is shown to be APX-hard, meaning it lacks a polynomial-time approximation scheme.",
+   "impact": "This theoretical result suggests that developers and researchers cannot rely on finding polynomial-time algorithms that guarantee near-optimal tokenisation solutions within a constant factor, assuming P does not equal NP. It establishes fundamental computational limits for tokenisation objectives.",
+   "keyPoints": [
+    "Tokenisation is not in the APX complexity class unless P equals NP.",
+    "The proof covers direct and bottom-up tokenisation using compression or unigram log-likelihood objectives.",
+    "Direct tokenisation over unary alphabets is APX-hard and lacks a polynomial-time approximation scheme."
+   ]
+  },
+  "km": {
+   "title": "ការបែងចែកថូខឹនមិនស្ថិតក្នុង APX ទេ",
+   "summary": "ឯកសារស្រាវជ្រាវថ្មីមួយបានបង្ហាញថា គ្មានក្បួនដោះស្រាយពេលវេលាពហុធាណាមួយដែលអាចស្វែងរកអ្នកបែងចែកថូខឹនក្នុងកម្រិតថេរណាមួយនៃតម្លៃល្អបំផុតនោះទេ លុះត្រាតែ P ស្មើនឹង NP ដែលបង្ហាញថាការបែងចែកថូខឹនមិនស្ថិតក្នុងថ្នាក់ភាពស្មុគស្មាញ APX ឡើយ។ ការរកឃើញនេះគឺចំពោះការបែងចែកថូខឹនផ្ទាល់និងពីក្រោមឡើងលើក្រោមគោលដៅបង្ហាប់ ឬ unigram log-likelihood សម្រាប់អក្ខរក្រមគោលពីរ ឬធំជាងនេះ។ បន្ថែមពីនេះ ការបែងចែកថូខឹនផ្ទាល់លើអក្ខរក្រមតែមួយត្រូវបានបង្ហាញថាជា APX-hard ដែលមានន័យថាវាមិនមានគ្រោងការណ៍ប្រហាក់ប្រហែលពេលវេលាពហុធាទេ។",
+   "impact": "លទ្ធផលទ្រឹស្តីនេះបង្ហាញថាអ្នកអភិវឌ្ឍន៍និងអ្នកស្រាវជ្រាវមិនអាចពឹងផ្អែកលើការស្វែងរកក្បួនដោះស្រាយពេលវេលាពហុធាដែលធានាដំណោះស្រាយការបែងចែកថូខឹនជិតល្អបំផុតក្នុងកម្រិតថេរនោះទេ ដោយផ្អែកលើសម្មតិកម្មថា P មិនស្មើនឹង NP។ វាបានកំណត់ដែនកំណត់កុំព្យូទ័រមូលដ្ឋានសម្រាប់គោលដៅបែងចែកថូខឹន។",
+   "keyPoints": [
+    "ការបែងចែកថូខឹនមិនស្ថិតក្នុងថ្នាក់ភាពស្មុគស្មាញ APX ទេ លុះត្រាតែ P ស្មើនឹង NP។",
+    "ការបញ្ជាក់នេះគ្របដណ្តប់លើការបែងចែកថូខឹនផ្ទាល់និងពីក្រោមឡើងលើក្រោមគោលដៅបង្ហាប់ ឬ unigram log-likelihood។",
+    "ការបែងចែកថូខឹនផ្ទាល់លើអក្ខរក្រមតែមួយគឺ APX-hard និងគ្មានគ្រោងការណ៍ប្រហាក់ប្រហែលពេលវេលាពហុធាទេ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "分词不属于 APX 复杂性类",
+   "summary": "一篇新论文证明，除非 P 等于 NP，否则任何多项式时间算法都无法找到一个其目标在最优解任意常数因子范围内的分词器，这意味着分词不属于 APX 复杂性类。该证明适用于在压缩或一元对数似然目标下、针对二进制或更大字母表的直接和自底向上的分词。此外，研究还表明，即使在一元字母表上，直接分词也是 APX 难的，因此不承认任何多项式时间近似方案。",
+   "impact": "这一理论结果表明，假设 P 不等于 NP，开发人员和研究人员无法指望找到能保证在常数因子内获得接近最优分词方案的多项式时间算法。它为分词目标确立了基本的计算限制。",
+   "keyPoints": [
+    "除非 P 等于 NP，否则分词不属于 APX 复杂性类。",
+    "该证明涵盖了在压缩或一元对数似然目标下的直接和自底向上分词。",
+    "一元字母表上的直接分词是 APX 难的，且不具备多项式时间近似方案。"
+   ]
+  },
+  "ko": {
+   "title": "토큰화는 APX에 속하지 않는다",
+   "summary": "새로운 논문은 P=NP가 아닌 이상 어떠한 다항 시간 알고리즘도 최적값의 임의의 상수 배 이내인 토큰화기를 찾을 수 없음을 증명하여, 토큰화가 APX 복잡도 클래스에 속하지 않음을 보여준다. 이 증명은 압축 또는 유니그램 로그 가능도 목적 하에서 이진 또는 더 큰 알파벳을 사용하는 직접 및 상향식 토큰화에 적용된다. 또한 단일 알파벳 상에서의 직접 토큰화도 APX-hard이며, 따라서 다항 시간 근사 체계를 허용하지 않음을 보여준다.",
+   "impact": "이 이론적 결과는 P가 NP와 같지 않다고 가정할 때 개발자와 연구원이 상수 배 이내의 준최적 토큰화 솔루션을 보장하는 다항 시간 알고리즘을 찾는 것에 의존할 수 없음을 시사한다. 이는 토큰화 목적에 대한 기본적인 계산 한계를 설정한다.",
+   "keyPoints": [
+    "P=NP가 아닌 이상 토큰화는 APX 복잡도 클래스에 속하지 않는다.",
+    "이 증명은 압축 또는 유니그램 로그 가능도 목적을 사용하는 직접 및 상향식 토큰화를 다룬다.",
+    "단일 알파벳 상의 직접 토큰화는 APX-hard이며 다항 시간 근사 체계가 없다."
+   ]
+  }
+ }
+}

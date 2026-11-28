@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "fd75ddeffd91c10d",
+ "contentHash": "0b8a539e535d86e5",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T03:59:22.239Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Amazon CloudWatch announces basic OpenTelemetry enrichment at no additional cost",
+   "summary": "Amazon CloudWatch has introduced basic OpenTelemetry enrichment for AWS service metrics at no extra cost. This feature transforms AWS service metrics into OpenTelemetry data points that can be queried using PromQL. It adds resource attributes such as the Amazon Resource Name, cloud provider, Region, and account ID, while converting original CloudWatch dimensions into data point attributes. Basic enrichment is enabled by default when setting up CloudWatch Omni or can be enabled manually in the console, CLI, or SDKs.",
+   "impact": "This update could make it easier for developers and observability teams to query AWS service metrics using PromQL without incurring extra charges for the basic tier. Users who need to query AWS resource tags as PromQL labels can switch to resource tag enrichment, which involves specific charges.",
+   "keyPoints": [
+    "Basic OpenTelemetry enrichment for AWS service metrics is available at no additional cost.",
+    "Enriched metrics include resource attributes like Amazon Resource Name, cloud provider, Region, and account ID.",
+    "Original CloudWatch dimensions become data point attributes, and metrics can be queried with PromQL.",
+    "Basic enrichment is enabled by default in CloudWatch Omni and can also be activated via console, CLI, or SDKs."
+   ]
+  },
+  "km": {
+   "title": "Amazon CloudWatch ប្រកាសពីការបង្កើនសម្បបបទ OpenTelemetry មូលដ្ឋានដោយមិនគិតថ្លៃបន្ថែម",
+   "summary": "Amazon CloudWatch ឥឡូវនេះផ្តល់ជូននូវការបង្កើនសម្បបបទ OpenTelemetry មូលដ្ឋានសម្រាប់រង្វាស់សេវាកម្ម AWS ដោយគ្មានការគិតថ្លៃបន្ថែម។ ការបង្កើនសម្បបបទមូលដ្ឋាននេះបំប្លែងរង្វាស់ដែលសេវាកម្ម AWS បោះពុម្ពផ្សាយទៅជាចំណុចទិន្នន័យ OpenTelemetry ដែលអ្នកអាចសាកសួរជាមួយ PromQL ។ វារួមបញ្ចូលទាំងគុណសម្បូរបង្កប់ធនធានដូចជាឈ្មោះធនធាន Amazon ក្រុមហ៊ុនផ្តល់សេវាកម្មពពក តំបន់ និងលេខសម្គាល់គណនី។",
+   "impact": "បច្ចុប្បន្នភាពនេះអាចជួយសម្រួលដល់ក្រុមអភិវឌ្ឍន៍និងសុវត្ថិភាពក្នុងការសាកសួររង្វាស់សេវាកម្ម AWS ដោយប្រើ PromQL ដោយមិនចាំបាច់បង់ប្រាក់បន្ថែមសម្រាប់កម្រិតមូលដ្ឋាន។ អ្នកប្រើប្រាស់ក៏អាចប្តូរទៅកម្រិតបង្កើនសម្បបបទស្លាកធនធានផងដែរ ប្រសិនបើពួកគេត្រូវការសាកសួរស្លាកធនធាន AWS ជាស្លាក PromQL ។",
+   "keyPoints": [
+    "ការបង្កើនសម្បបបទ OpenTelemetry មូលដ្ឋានសម្រាប់រង្វាស់សេវាកម្ម AWS គឺមិនគិតថ្លៃបន្ថែមទេ។",
+    "រង្វាស់ដែលបានបង្កើនទទួលបានគុណសម្បូរបង្កប់ធនធានដូចជាឈ្មោះធនធាន Amazon តំបន់ និងលេខសម្គាល់គណនី។",
+    "វិមាត្រ CloudWatch ដើមរបស់អ្នកក្លាយជាគុណសម្បត្តិចំណុចទិន្នន័យ។",
+    "វាត្រូវបានបើកដំណើរការដោយលំនាំដើមនៅពេលដំឡើង CloudWatch Omni ឬអាចបើកដំណើរការតាមរយៈកុងសូល CLI ឬ SDKs ។"
+   ]
+  },
+  "zh-CN": {
+   "title": "Amazon CloudWatch 宣布推出不收取额外费用的基本 OpenTelemetry 丰富功能",
+   "summary": "Amazon CloudWatch 现在为 AWS 服务指标提供基本的 OpenTelemetry 丰富功能，且不收取额外费用。基本丰富功能将 AWS 服务发布的指标转换为可以使用 PromQL 查询的 OpenTelemetry 数据点。它涵盖标识资源的指标，例如带有 InstanceId 维度的 Amazon EC2 CPUUtilization。当用户设置 CloudWatch Omni 时，基本丰富功能默认启用，以便立即使用 PromQL 查询 AWS 服务指标。",
+   "impact": "此更新可以使开发人员和技术用户更方便地使用 PromQL 查询 AWS 服务指标，而无需承担基本层的额外费用。需要将 AWS 资源标签作为 PromQL 标签进行查询的用户可以选择资源 tag 丰富功能，该功能按 OTel Vended Metric Enrichment 收费。",
+   "keyPoints": [
+    "基本 OpenTelemetry 丰富功能无需额外付费即可使用。",
+    "丰富后的指标获得 Amazon 资源名称、云提供商、区域和账户 ID 等资源属性。",
+    "原始的 CloudWatch 维度将转换为数据点属性。",
+    "可以通过控制台、AWS CLI、AWS SDK 或默认的 CloudWatch Omni 启用此功能。"
+   ]
+  },
+  "ko": {
+   "title": "Amazon CloudWatch, 추가 비용 없는 기본 OpenTelemetry 보강 기능 발표",
+   "summary": "Amazon CloudWatch는 이제 추가 비용 없이 AWS 서비스 메트릭을 위한 기본 OpenTelemetry 보강 기능을 제공합니다. 기본 보강 기능은 AWS 서비스가 CloudWatch에 게시하는 Metic을 PromQL로 쿼리할 수 있는 OpenTelemetry 데이터 포인트로 변환합니다. 인스턴스 ID 차원이 포함된 Amazon EC2 CPUUtilization과 같은 리소스를 식별하는 메트릭을 다루며, 보강된 메트릭에는 리소스 이름, 클라우드 공급자, 리전 및 계정 ID에 대한 리소스 속성이 포함됩니다.",
+   "impact": "이번 업데이트를 통해 개발자와 기술 사용자는 추가 비용 부담 없이 PromQL을 사용하여 AWS 서비스 메트릭을 더 쉽게 쿼리할 수 있습니다. AWS 리소스 태그를 PromQL 레이블로 쿼리해야 하는 사용자는 리소스 태그 보강으로 전환할 수 있습니다.",
+   "keyPoints": [
+    "AWS 서비스 메트릭을 위한 기본 OpenTelemetry 보강 기능이 추가 비용 없이 제공됩니다.",
+    "보강된 메트릭은 Amazon 리소스 이름, 클라우드 공급자, 리전, 계정 ID 등의 리소스 속성을 가져옵니다.",
+    "기존 CloudWatch 차원은 데이터 포인트 속성이 되며 PromQL을 사용하여 쿼리할 수 있습니다.",
+    "CloudWatch Omni를 설정할 때 기본 보강 기능이 기본적으로 활성화됩니다."
+   ]
+  }
+ }
+}

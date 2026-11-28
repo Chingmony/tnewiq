@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "articleId": "baeebdc53582ef2b",
+ "contentHash": "6e5f76c258b94048",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T04:03:16.809Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Enhancing Maritime Domain Awareness using Latent Space Representations",
+   "summary": "This research presents a novel application of Earth Observation embeddings for Maritime Domain Awareness using the geospatial foundation model TerraMind. By using compressed latent-space representations from Sentinel-1 imagery, the approach addresses the data gravity bottleneck for operational Earth Observation processing as part of the Embed2Scale project. The method applies linear and non-linear probing to synthetic aperture radar imagery to detect, localize, and characterize vessels. Furthermore, a new maritime remote sensing dataset pairing Sentinel-1 images with aligned AIS signals has been released on HuggingFace.",
+   "impact": "Developers and researchers working with geospatial foundation models may find this approach useful for mitigating data gravity bottlenecks in Earth Observation processing. Security and maritime teams could leverage these latent-space methods for vessel detection and characterization tasks, though classification limitations related to vessel length should be considered.",
+   "keyPoints": [
+    "Vessel detection achieved a ROC-AUC of 0.95 using compressed latent-space representations.",
+    "Vessel localization achieved a median error of about 300 m for vessels longer than 100 m.",
+    "Vessel AIS type-code classification achieved 62% accuracy for majority classes, showing correlation with vessel length.",
+    "A new dataset pairing about 2,000 Sentinel-1 images with AIS signals was released on HuggingFace."
+   ]
+  },
+  "km": {
+   "title": "ការបង្កើនការយល់ដឹងពីដែនសមុទ្រដោយប្រើប្រាស់តំណាងលំហបដិវត្តន៍",
+   "summary": "ការងារនេះបង្ហាញពីកម្មវិធីថ្មីមួយនៃការបង្កប់ការសង្កេតផែនដីសម្រាប់ការយល់ដឹងពីដែនសមុទ្រ ដោយប្រើប្រាស់គំរូមូលដ្ឋានភូមិសាស្ត្រ TerraMind។ វិធីសាស្ត្រនេះដំណើរការដោយផ្ទាល់លើតំណាងលំហបដិវត្តន៍ដែលបានបង្ហាប់ជំនួសឱ្យរូបភាព Sentinel-1 ដើម ដែលដោះស្រាយបញ្ហា bottlenecks ទិន្នន័យ។ ការ ஆய்வுនេះប្រើប្រាស់ការស៊ើបអង្កេតលីនេអ៊ែរ និងមិនមែនលីនេអ៊ែរ ដើម្បីរកឃើញ កំណត់ទីតាំង និងកំណត់លក្ខណៈនាវា។ បន្ថែមពីនេះ សំណុំទិន្នន័យថ្មីមួយត្រូវបានដាក់ឱ្យប្រើប្រាស់នៅលើ HuggingFace។",
+   "impact": "អ្នកអភិវឌ្ឍន៍ និងក្រុមការងារសន្តិសុខអាចប្រើប្រាស់វិធីសាស្ត្រទាំងនេះសម្រាប់ការរកឃើញនាវា និងការកាត់បន្ថយបញ្ហាទិន្នន័យធ្ងន់ធ្ងរ ប៉ុន្តែត្រូវយកចិត្តទុកដាក់លើដែនកំណត់នៃការចាត់ថ្នាក់ទំហំនាវា។",
+   "keyPoints": [
+    "ការរកឃើញនាវាទទួលបាន ROC-AUC ០.៩៥។",
+    "ការកំណត់ទីតាំងនាវាមีកំហុសមធ្យមប្រហែល ៣០០ ម៉ែត្រ។",
+    "ការចាត់ថ្នាក់ប្រភេទ AIS ទទួលបានភាពត្រឹមត្រូវ ៦២% សម្រាប់ថ្នាក់ភាគច្រើន។",
+    "សំណុំទិន្នន័យថ្មីមួយត្រូវបានដាក់ឱ្យប្រើប្រាស់នៅលើ HuggingFace។"
+   ]
+  },
+  "zh-CN": {
+   "title": "使用潜在空间表示增强海域感知能力",
+   "summary": "这项工作展示了地球观测嵌入在海域感知中的新应用，利用了地理空间基础模型TerraMind。该方法直接在压缩的潜在空间表示上操作，而不是原始的Sentinel-1图像，从而解决了数据引力瓶颈。研究通过对合成孔径雷达图像的压缩嵌入进行线性和非线性探测来检测、定位和表征船舶。此外，发布了一个将约2000张Sentinel-1图像与AIS信号配对的新海事遥感数据集。",
+   "impact": "开发人员和安全团队可以利用这些潜在空间方法来处理地球观测数据并克服数据引力瓶颈。在实际应用中进行船舶检测和表征时，应当注意分类准确率与船长之间的关联限制。",
+   "keyPoints": [
+    "船舶检测达到了0.95的ROC-AUC。",
+    "对于长度超过100米的船舶，船舶定位的中位误差约为300米。",
+    "多数类别的船舶AIS类型代码分类准确率为62%。",
+    "在HuggingFace上发布了一个包含约2000张Sentinel-1图像及AIS信号的新数据集。"
+   ]
+  },
+  "ko": {
+   "title": "잠재 공간 표현을 활용한 해양 영역 인식 강화",
+   "summary": "이 연구는 지리공간 파운데이션 모델인 TerraMind의 관점에서 해양 영역 인식을 위한 지구 관측 임베딩의 새로운 응용을 제시합니다. 원본 Sentinel-1 이미지 대신 압축된 잠재 공간 표현을 직접 사용하여 데이터 중력 병목 현상을 해결합니다. 합성개구레이더 이미지의 압축된 임베딩에 대한 선형 및 비선형 프로빙을 사용하여 선박을 탐지, 위치 파악 및 특성화합니다. 또한 Sentinel-1 이미지와 AIS 신호를 페어링한 새로운 해양 원격 탐사 데이터셋이 HuggingFace에 공개되었습니다.",
+   "impact": "개발자와 보안 팀은 지구 관측 처리 시 데이터 중력 병목 현상을 완화하기 위해 이러한 잠재 공간 방법을 활용할 수 있습니다. 실제 환경에서 선박 탐지 및 특성화 작업을 수행할 때 선박 길이에 따른 분류 제한 사항을 고려해야 합니다.",
+   "keyPoints": [
+    "선박 탐지는 0.95의 ROC-AUC를 달성했습니다.",
+    "100m 이상의 선박에 대해 선박 위치 파악의 중앙값 오차는 약 300m입니다.",
+    "선박 AIS 유형 코드 분류는 다수 클래스에 대해 62%의 정확도를 달성했습니다.",
+    "약 2,000개의 Sentinel-1 이미지와 AIS 신호가 포함된 새로운 데이터셋이 HuggingFace에 공개되었습니다."
+   ]
+  }
+ }
+}

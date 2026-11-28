@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "articleId": "0c272f1d0957d70a",
+ "contentHash": "380f903a8ddd9459",
+ "model": "gemini-flash-lite-latest",
+ "generatedAt": "2026-11-28T04:02:20.707Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "Attack Policy Selection can Mislead Monitor Evaluators",
+   "summary": "Researchers evaluated an ex-production OpenAI monitor as a case study and found that measured false negative rates are highly sensitive to the method and optimisation level used for attack policies. The false negative rate ranged from 0.5 percent to 20.8 percent across optimisation levels of a single reinforcement learning method, and from 6.4 percent to 23.0 percent across different methods. The study shows that monitor evasion evaluations can easily mislead, as basic attack methods might give false confidence in a monitor's strength.",
+   "impact": "Security teams and developers relying on monitor evaluations could be misled by basic attack methods into having false confidence in their AI monitors. Interpreting evaluation results requires separate justifications for why specific attack proxies are informative and legitimate.",
+   "keyPoints": [
+    "Measured false negative rates are highly sensitive to attack policy generation methods and optimisation levels.",
+    "False negative rates ranged from 0.5 percent to 20.8 percent using reinforcement learning optimisation levels.",
+    "Attack policies were developed against proxy monitors and transferred to a held-out GPT-5.4 target monitor.",
+    "Transcripts produced by attack policies can introduce visible artefacts that affect monitor judgements."
+   ]
+  },
+  "km": {
+   "title": "ការជ្រើសរើសគោលការណ៍វាយប្រហារអាចបន្លំអ្នកវាយតម្លៃម៉ូនីទ័រ",
+   "summary": "អ្នកស្រាវជ្រាវបានវាយតម្លៃម៉ូនីទ័រ OpenAI ក្នុងនាមជាករណីសិក្សា ហើយបានរកឃើញថា អត្រាវិជ្ជមានខុសដែលបានវាស់វែងគឺងាយនឹងរងឥទ្ធិពលពីវិធីសាស្ត្រ និងកម្រិតនៃការបង្កើនប្រសិទ្ធភាពដែលប្រើប្រាស់សម្រាប់គោលការណ៍វាយប្រហារ។ អត្រាវិជ្ជមានខុសមានចាប់ពី 0.5% ដល់ 20.8% នៅទូទាំងកម្រិតបង្កើនប្រសិទ្ធភាពនៃវិធីសាស្ត្រតែមួយ។ ការសិក្សានេះបង្ហាញថាការវាយតម្លៃការគេចវេសពីម៉ូនីទ័រអាចបន្លំបានយ៉ាងងាយ។",
+   "impact": "ក្រុមសន្តិសុខ និងអ្នកអភិវឌ្ឍន៍ដែលពឹងផ្អែកលើការវាយតម្លៃម៉ូនីទ័រអាចមានការភាន់ច្រឡំដោយសារវិធីសាស្ត្រវាយប្រហារមូលដ្ឋាន ដែលធ្វើឱ្យមានទំនុកចិត្តខុសលើភាពរឹងមាំរបស់ម៉ូនីទ័រ។",
+   "keyPoints": [
+    "អត្រាវិជ្ជមានខុសគឺងាយនឹងរងឥទ្ធិពលពីវិធីសាស្ត្របង្កើតគោលការណ៍វាយប្រហារ។",
+    "អត្រាវិជ្ជមានខុសមានចាប់ពី 0.5% ដល់ 20.8% តាមកម្រិតបង្កើនប្រសិទ្ធភាព។",
+    "គោលការណ៍វាយប្រហារត្រូវបានបង្កើតឡើងប្រឆាំងនឹងម៉ូនីទ័រប្រូកស៊ី។"
+   ]
+  },
+  "zh-CN": {
+   "title": "攻击策略的选择可能会误导监视器评估人员",
+   "summary": "研究人员以一个前生产环境的OpenAI监视器为案例进行评估，发现所测得的假阴性率对攻击策略所使用的生成方法和优化水平高度敏感。在单一强化学习方法的不同优化水平下，假阴性率从0.5%到20.8%不等；而在不同方法的最优水平下，假阴性率则从6.4%到23.0%不等。研究结果表明，监视器规避评估很容易产生误导，仅使用基础攻击方法可能会让人对监视器的强度产生虚假的安全感。",
+   "impact": "依赖监视器评估的安全团队和开发人员可能会被基础攻击方法误导，从而对AI监视器的强度产生虚假信心。解释任何特定的评估结果都需要单独的论证，以证明所使用的代理是否具有信息量和合理性。",
+   "keyPoints": [
+    "测得的假阴性率对攻击策略生成方法和优化水平高度敏感。",
+    "强化学习单一方法的优化水平使假阴性率在0.5%到20.8%之间变化。",
+    "所有攻击策略都是针对代理监视器开发的，并转移到了未公开的GPT-5.4目标监视器上。",
+    "攻击策略生成的记录可能会引入明显的人为痕迹，从而影响监视器的判断。"
+   ]
+  },
+  "ko": {
+   "title": "공격 정책 선택이 모니터 평가자를 오도할 수 있음",
+   "summary": "연구진은 이전 프로덕션 단계의 OpenAI 모니터를 사례 연구로 평가한 결과, 측정된 위음성률이 공격 정책에 사용된 생성 방법과 최적화 수준에 매우 민감하다는 사실을 발견했습니다. 단일 방법의 최적화 수준에 따라 위음성률은 0.5%에서 20.8% 사이였으며, 최적화된 프롬프팅 대 대화 기록 편집 등 방법 간에는 6.4%에서 23.0% 사이를 기록했습니다. 이번 결과는 기본적 공격 방법만 사용하는 평가가 모니터가 강력하다는 그릇된 확신을 줄 수 있음을 시사합니다.",
+   "impact": "모니터 평가에 의존하는 보안 팀과 개발자는 기본적 공격 방법으로 인해 AI 모니터의 성능에 대해 그릇된 자신감을 갖게 될 수 있습니다. 특정 평가 결과를 해석하려면 프록시가 유용한지에 대한 별도의 타당성 입증이 필요합니다.",
+   "keyPoints": [
+    "측정된 위음성률은 공격 정책 생성 방법과 최적화 수준에 매우 민감함.",
+    "단일 강화 학습 방법의 최적화 수준에 따라 위음성률이 0.5%에서 20.8%까지 다양함.",
+    "모든 공격 정책은 프록시 모니터를 대상으로 개발되어 보류된 GPT-5.4 대상 모니터로 전이됨.",
+    "공격 정책이 생성한 대화 기록은 모니터의 판단에 영향을 미치는 인위적 요소를 유발할 수 있음."
+   ]
+  }
+ }
+}

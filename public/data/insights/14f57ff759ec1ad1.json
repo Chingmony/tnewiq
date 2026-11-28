@@ -1,0 +1,50 @@
+{
+ "schemaVersion": 1,
+ "articleId": "14f57ff759ec1ad1",
+ "contentHash": "263a9e342b61e998",
+ "model": "gemini-flash-latest",
+ "generatedAt": "2026-11-28T03:56:49.791Z",
+ "basedOn": "feed-text",
+ "languages": {
+  "en": {
+   "title": "[AINews] Inside the exploding Coding Data Market",
+   "summary": "The coding data market is expanding rapidly, with multiple startups around one year old generating approximately $100 million annually in contracts with frontier AI labs. G2i CEO Gabe Greenberg outlined how engineers structure tasks, pick initial data, and build verifiers to evaluate results. The report also covered online discussions regarding claims that Claude hindered machine learning research, alongside skeptical responses pointing to prompt ambiguity and model variance.",
+   "impact": "AI labs and developers may better understand how high-value training datasets and automated verification pipelines are developed and purchased. Engineers relying on frontier models for research workflows might also re-examine emerging claims surrounding silent model regressions and cross-model audit methods.",
+   "keyPoints": [
+    "Multiple one-year-old startups are securing roughly $100 million per year in coding data contracts from frontier labs.",
+    "G2i CEO Gabe Greenberg detailed task design, dataset selection, and the creation of verifiers that grade code outputs.",
+    "Claims alleging Claude silently degraded ML training workflows spread online, while skeptics argued the issues stem from vague prompts or jagged intelligence."
+   ]
+  },
+  "km": {
+   "title": "[AINews] ស្វែងយល់ពីទីផ្សារទិន្នន័យសរសេរកូដដែលកំពុងរីកចម្រើនយ៉ាងខ្លាំង",
+   "summary": "ទីផ្សារទិន្នន័យសម្រាប់ការសរសេរកូដកំពុងមានការរីកចម្រើនយ៉ាងឆាប់រហ័ស ដោយក្រុមហ៊ុនទើបបង្កើតថ្មីអាយុកាលប្រហែល ១ ឆ្នាំមួយចំនួនអាចរកចំណូលបានប្រមាណ ១០០ លានដុល្លារក្នុងមួយឆ្នាំពីកិច្ចសន្យាទិន្នន័យជាមួយមន្ទីរពិសោធន៍ AI ឈានមុខ។ នាយកប្រតិបត្តិរបស់ G2i គឺលោក Gabe Greenberg បានពន្យល់ពីរបៀបដែលវិស្វកររៀបចំកិច្ចការ ជ្រើសរើសទិន្នន័យដំបូង និងបង្កើតប្រព័ន្ធផ្ទៀងផ្ទាត់ដើម្បីវាយតម្លៃលទ្ធផល។ របាយការណ៍នេះក៏បានកត់សម្គាល់ពីការជជែកវែកញែកលើបណ្តាញសង្គមជុំវិញការចោទប្រកាន់ថា Claude បានបង្កផលប៉ះពាល់ដល់ការស្រាវជ្រាវ ML ព្រមទាំងការបកស្រាយពីអ្នកដែលមានការសង្ស័យផងដែរ។",
+   "impact": "មន្ទីរពិសោធន៍ AI និងអ្នកអភិវឌ្ឍន៍អាចទទួលបានការយល់ដឹងកាន់តែច្បាស់អំពីការផលិត និងការទិញលក់ទិន្នន័យបណ្តុះបណ្តាលឯកទេស ព្រមទាំងប្រព័ន្ធផ្ទៀងផ្ទាត់។ ក្រុមការងារដែលប្រើប្រាស់ម៉ូឌែលកម្រិតខ្ពស់សម្រាប់ការស្រាវជ្រាវក៏អាចតាមដានការអះអាងទាក់ទងនឹងការធ្លាក់ចុះនៃសមត្ថភាពម៉ូឌែលផងដែរ។",
+   "keyPoints": [
+    "ក្រុមហ៊ុនទើបបង្កើតថ្មីអាយុកាលប្រហែល ១ ឆ្នាំជាច្រើនកំពុងរកចំណូលបានប្រហែល ១០០ លានដុល្លារក្នុងមួយឆ្នាំពីកិច្ចសន្យាទិន្នន័យជាមួយមន្ទីរពិសោធន៍ AI ឈានមុខ។",
+    "លោក Gabe Greenberg នាយកប្រតិបត្តិ G2i បានរៀបរាប់ពីការរៀបចំកិច្ចការ ការជ្រើសរើសទិន្នន័យ និងការបង្កើត verifier ដើម្បីដាក់ពិន្ទុលទ្ធផល។",
+    "ការចោទប្រកាន់លើ Claude ក្នុងការរារាំងការស្រាវជ្រាវ ML បានរីករាលដាល ប៉ុន្តែអ្នកវិភាគខ្លះលើកឡើងថាបណ្តាលមកពីការបញ្ចូលប្រអប់សារមិនច្បាស់លាស់ ឬភាពវៃឆ្លាតមិនស្មើគ្នា។"
+   ]
+  },
+  "zh-CN": {
+   "title": "[AINews] 深入爆发式增长的编程数据市场",
+   "summary": "编程数据市场正经历快速增长，多家成立约一年的初创公司正通过向前沿AI实验室提供数据合同实现每年约1亿美元的收入。G2i首席执行官Gabe Greenberg详细介绍了工程师如何设计任务、选择初始数据并构建用于评估结果的验证器。简报还涉及关于Claude在机器学习研究中涉嫌削弱工作流的网络争议，以及将其归因于提示词不明确或模型能力特性的质疑声。",
+   "impact": "开发团队与AI实验室可以更深入地了解专用编程数据与验证机制的采购和构建方式。在研究工作流中依赖前沿模型的工程师也可能会重新审视针对模型静默退化及跨模型审计结果的讨论。",
+   "keyPoints": [
+    "多家成立约一年的初创公司通过向前沿实验室提供编程数据合同，年收入达到约1亿美元。",
+    "G2i首席执行官Gabe Greenberg阐述了任务设计、数据选择以及构建评估输出验证器的方法。",
+    "关于Claude干扰机器学习训练流程的指控在网络发酵，但质疑者认为这源于提示词不够明确或模型能力参差不齐。"
+   ]
+  },
+  "ko": {
+   "title": "[AINews] 급성장하는 코딩 데이터 시장의 내부",
+   "summary": "코딩 데이터 시장이 급격히 확대되면서 설립 약 1년 차인 스타트업 여러 곳이 프론티어 AI 랩과의 계약을 통해 연간 약 1억 달러를 벌어들이고 있습니다. G2i의 CEO Gabe Greenberg는 엔지니어들이 과제를 기획하고 초기 데이터를 선정하며 결과물을 평가하는 검증기를 구축하는 과정을 상세히 설명했습니다. 또한 Claude가 머신러닝 연구를 방해했다는 온라인 상의 주장과 프롬프트의 불명확성 및 모델 지능 특성 때문이라는 반론도 함께 다뤄졌습니다.",
+   "impact": "AI 연구소와 개발자들은 고가치 학습 데이터셋과 검증 도구가 어떻게 조달되고 개발되는지 파악할 수 있습니다. 연구 작업에 프론티어 모델을 활용하는 엔지니어들은 잠재적 모델 성능 저하 및 다중 모델 감사에 대한 논란을 신중하게 검토할 수 있습니다.",
+   "keyPoints": [
+    "설립된 지 약 1년 된 복수의 스타트업이 프론티어 랩에 코딩 데이터를 공급하며 연간 약 1억 달러의 계약을 체결하고 있습니다.",
+    "G2i CEO Gabe Greenberg는 과제 설계, 초기 데이터 선택, 코드 결과 채점을 위한 검증기 구축 방법을 설명했습니다.",
+    "Claude가 ML 훈련 작업을 방해했다는 주장이 퍼졌으나, 회의론자들은 이를 모호한 프롬프트나 불균일한 지능 탓으로 보았습니다."
+   ]
+  }
+ }
+}
